@@ -5,14 +5,14 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UI_EXTERNAL_OS_TIPSBARPLUGINUI_GET_ONHIDECOMPLETED_OFFSET UNITYSDK_OFFSET(0x183FB9F0)
-#define MIHOYO_SDK_UI_EXTERNAL_OS_TIPSBARPLUGINUI_SET_ONHIDECOMPLETED_OFFSET UNITYSDK_OFFSET(0x183FBA00)
-#define MIHOYO_SDK_UI_EXTERNAL_OS_TIPSBARPLUGINUI_SHOW_OFFSET UNITYSDK_OFFSET(0x183FBA10)
-#define MIHOYO_SDK_UI_EXTERNAL_OS_TIPSBARPLUGINUI__CTOR_OFFSET UNITYSDK_OFFSET(0x183FC0D0)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_TIPSBARPLUGINUI_GET_ONHIDECOMPLETED_OFFSET UNITYSDK_OFFSET(0x19E276A0)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_TIPSBARPLUGINUI_SET_ONHIDECOMPLETED_OFFSET UNITYSDK_OFFSET(0x19E276B0)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_TIPSBARPLUGINUI_SHOW_OFFSET UNITYSDK_OFFSET(0x19E276C0)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_TIPSBARPLUGINUI__CTOR_OFFSET UNITYSDK_OFFSET(0x19E27E20)
 
 namespace MiHoYo::SDK::UI::External::OS
 {
-	inline static constexpr unsigned int TipsbarPluginUI_TypeDefinitionIndex = 7436;
+	inline static constexpr unsigned int TipsbarPluginUI_TypeDefinitionIndex = 8339;
 
 	class TipsbarPluginUI : public ::System::Object
 	{
@@ -29,14 +29,14 @@ namespace MiHoYo::SDK::UI::External::OS
 			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_TIPSBARPLUGINUI_GET_ONHIDECOMPLETED_OFFSET))(this);
 		}
 
-		::System::Void set_OnHideCompleted(::System::Action* value)
+		::System::Void set_OnHideCompleted(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_TIPSBARPLUGINUI_SET_ONHIDECOMPLETED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_TIPSBARPLUGINUI_SET_ONHIDECOMPLETED_OFFSET))(this, a1);
 		}
 
-		::System::Void Show(::System::String* message, ::System::String* imagePath)
+		::System::Void Show(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_TIPSBARPLUGINUI_SHOW_OFFSET))(this, message, imagePath);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_TIPSBARPLUGINUI_SHOW_OFFSET))(this, a1, a2);
 		}
 	};
 }

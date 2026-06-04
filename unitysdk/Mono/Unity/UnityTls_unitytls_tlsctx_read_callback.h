@@ -7,10 +7,10 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MONO_UNITY_UNITYTLS_UNITYTLS_TLSCTX_READ_CALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x184745A0)
-#define MONO_UNITY_UNITYTLS_UNITYTLS_TLSCTX_READ_CALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18474620)
-#define MONO_UNITY_UNITYTLS_UNITYTLS_TLSCTX_READ_CALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x18474220)
-#define MONO_UNITY_UNITYTLS_UNITYTLS_TLSCTX_READ_CALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18474200)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_TLSCTX_READ_CALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18E8C750)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_TLSCTX_READ_CALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18E8C7D0)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_TLSCTX_READ_CALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x18E8C720)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_TLSCTX_READ_CALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18E8C6A0)
 
 namespace Mono::Unity
 {
@@ -19,24 +19,24 @@ namespace Mono::Unity
 	class UnityTls_unitytls_tlsctx_read_callback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_TLSCTX_READ_CALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_TLSCTX_READ_CALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::IntPtr Invoke(::System::Void* userData, ::System::Byte* buffer, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState)
+		::System::IntPtr Invoke(::System::Void* a1, ::System::Byte* a2, ::System::IntPtr a3, ::Mono::Unity::UnityTls_unitytls_errorstate* a4)
 		{
-			return ((::System::IntPtr(*)(::PVOID, ::System::Void*, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_TLSCTX_READ_CALLBACK_INVOKE_OFFSET))(this, userData, buffer, bufferLen, errorState);
+			return ((::System::IntPtr(*)(::PVOID, ::System::Void*, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_TLSCTX_READ_CALLBACK_INVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Void* userData, ::System::Byte* buffer, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Void* a1, ::System::Byte* a2, ::System::IntPtr a3, ::Mono::Unity::UnityTls_unitytls_errorstate* a4, ::System::AsyncCallback* a5, ::System::Object* a6)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Void*, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_errorstate*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_TLSCTX_READ_CALLBACK_BEGININVOKE_OFFSET))(this, userData, buffer, bufferLen, errorState, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Void*, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_errorstate*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_TLSCTX_READ_CALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::IntPtr EndInvoke(::System::IAsyncResult* result)
+		::System::IntPtr EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::IntPtr(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_TLSCTX_READ_CALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::IntPtr(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_TLSCTX_READ_CALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

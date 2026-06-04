@@ -6,27 +6,27 @@ namespace MessagePack { class IFormatterResolver; }
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define MESSAGEPACK_RESOLVERS_STANDARDRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19633D20)
-#define MESSAGEPACK_RESOLVERS_STANDARDRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x196340D0)
+#define MESSAGEPACK_RESOLVERS_STANDARDRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A10BC40)
+#define MESSAGEPACK_RESOLVERS_STANDARDRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A10BF80)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int StandardResolver_TypeDefinitionIndex = 9326;
+	inline static constexpr unsigned int StandardResolver_TypeDefinitionIndex = 7229;
 
 	class StandardResolver : public ::System::Object
 	{
 	public:
-		static ::MessagePack::MessagePackSerializerOptions** StaticGet_Options()
+		static ::MessagePack::Resolvers::StandardResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::MessagePackSerializerOptions**)Il2CppClass::FromTypeDefinitionIndex(StandardResolver_TypeDefinitionIndex)->GetStaticField(0x1FB40);
+			return (::MessagePack::Resolvers::StandardResolver**)Il2CppClass::FromTypeDefinitionIndex(StandardResolver_TypeDefinitionIndex)->GetStaticField(0xB1F0);
 		}
 		static ::Il2CppArray<::MessagePack::IFormatterResolver*>** StaticGet_Resolvers()
 		{
-			return (::Il2CppArray<::MessagePack::IFormatterResolver*>**)Il2CppClass::FromTypeDefinitionIndex(StandardResolver_TypeDefinitionIndex)->GetStaticField(0x1FB48);
+			return (::Il2CppArray<::MessagePack::IFormatterResolver*>**)Il2CppClass::FromTypeDefinitionIndex(StandardResolver_TypeDefinitionIndex)->GetStaticField(0xB1F8);
 		}
-		static ::MessagePack::Resolvers::StandardResolver** StaticGet_Instance()
+		static ::MessagePack::MessagePackSerializerOptions** StaticGet_Options()
 		{
-			return (::MessagePack::Resolvers::StandardResolver**)Il2CppClass::FromTypeDefinitionIndex(StandardResolver_TypeDefinitionIndex)->GetStaticField(0x1FB50);
+			return (::MessagePack::MessagePackSerializerOptions**)Il2CppClass::FromTypeDefinitionIndex(StandardResolver_TypeDefinitionIndex)->GetStaticField(0xB200);
 		}
 
 		static ::System::Void _cctor()

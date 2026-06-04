@@ -5,19 +5,19 @@
 namespace RPG::Client { class IRogueTournHex; }
 namespace RPG::Client { class RogueTournPersonaHexEquipmentViewModel; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x172D31D0)
-#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C__DISPLAYCLASS29_0__EQUIPHEX_B__1_OFFSET UNITYSDK_OFFSET(0x172D31E0)
-#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C__DISPLAYCLASS29_0__EQUIPHEX_B__2_OFFSET UNITYSDK_OFFSET(0x172D3280)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x188A2550)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C__DISPLAYCLASS29_0__EQUIPHEX_B__1_OFFSET UNITYSDK_OFFSET(0x188A3310)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C__DISPLAYCLASS29_0__EQUIPHEX_B__2_OFFSET UNITYSDK_OFFSET(0x188A33C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaHexEquipmentViewModel___c__DisplayClass29_0_TypeDefinitionIndex = 67151;
+	inline static constexpr unsigned int RogueTournPersonaHexEquipmentViewModel___c__DisplayClass29_0_TypeDefinitionIndex = 68094;
 
 	class RogueTournPersonaHexEquipmentViewModel___c__DisplayClass29_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::RogueTournPersonaHexEquipmentViewModel* __4__this; // 0x10
-		::RPG::Client::IRogueTournHex* hex; // 0x18
+		::RPG::Client::IRogueTournHex* hex; // 0x10
+		::RPG::Client::RogueTournPersonaHexEquipmentViewModel* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

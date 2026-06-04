@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_3_E21F6DE9B7FA4D05;
+class Class_3_07C3C4D2990C49EE;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class ReceiveDynamicSkillTargetSelection; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D4047E33CEA853CF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF5E1920)
-#define CLASS_3_D4047E33CEA853CF_METHOD_3_3C56C1AF247AC1EC_OFFSET UNITYSDK_OFFSET(0xF5E1D40)
-#define CLASS_3_D4047E33CEA853CF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF5E19C0)
-#define CLASS_3_D4047E33CEA853CF_TICK_OFFSET UNITYSDK_OFFSET(0xF5E1DD0)
-#define CLASS_3_D4047E33CEA853CF__CTOR_OFFSET UNITYSDK_OFFSET(0xF5E1810)
-#define CLASS_3_D4047E33CEA853CF___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF5E20B0)
-#define CLASS_3_D4047E33CEA853CF___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0xF5E2150)
+#define CLASS_3_D4047E33CEA853CF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16637810)
+#define CLASS_3_D4047E33CEA853CF_METHOD_3_3C56C1AF247AC1EC_OFFSET UNITYSDK_OFFSET(0x16637C30)
+#define CLASS_3_D4047E33CEA853CF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x166378B0)
+#define CLASS_3_D4047E33CEA853CF_TICK_OFFSET UNITYSDK_OFFSET(0x16637CC0)
+#define CLASS_3_D4047E33CEA853CF__CTOR_OFFSET UNITYSDK_OFFSET(0x16637700)
+#define CLASS_3_D4047E33CEA853CF___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16637FA0)
+#define CLASS_3_D4047E33CEA853CF___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x16638040)
 
-inline static constexpr unsigned int Class_3_D4047E33CEA853CF_TypeDefinitionIndex = 50964;
+inline static constexpr unsigned int Class_3_D4047E33CEA853CF_TypeDefinitionIndex = 51634;
 
 class Class_3_D4047E33CEA853CF : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ReceiveDynamicSkillTargetSelection*>
 {
 public:
-	::Class_3_E21F6DE9B7FA4D05* Field_3_2; // 0x28
-	::RPG::GameCore::GameEntity* Field_3_3; // 0x30
-	::Class_3_E21F6DE9B7FA4D05* Field_3_0; // 0x38
-	::Class_3_E21F6DE9B7FA4D05* Field_3_1; // 0x40
+	::Class_3_07C3C4D2990C49EE* Field_3_0; // 0x28
+	::RPG::GameCore::GameEntity* Field_3_1; // 0x30
+	::Class_3_07C3C4D2990C49EE* Field_3_2; // 0x38
+	::Class_3_07C3C4D2990C49EE* Field_3_3; // 0x40
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ReceiveDynamicSkillTargetSelection* a2)
 	{
@@ -55,8 +55,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_D4047E33CEA853CF___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void __iFixBaseProxy_Tick(::System::Single P0)
+	::System::Void __iFixBaseProxy_Tick(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_D4047E33CEA853CF___IFIXBASEPROXY_TICK_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_D4047E33CEA853CF___IFIXBASEPROXY_TICK_OFFSET))(this, a1);
 	}
 };

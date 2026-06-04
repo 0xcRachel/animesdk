@@ -2,34 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AKSOURCESETTINGS_CLEAR_OFFSET UNITYSDK_OFFSET(0x190D72A0)
-#define AKSOURCESETTINGS_CLONE_OFFSET UNITYSDK_OFFSET(0x190D7540)
-#define AKSOURCESETTINGS_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x190D68B0)
-#define AKSOURCESETTINGS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x190D6690)
-#define AKSOURCESETTINGS_FINALIZE_OFFSET UNITYSDK_OFFSET(0x190D6710)
-#define AKSOURCESETTINGS_GETCPTR_OFFSET UNITYSDK_OFFSET(0x190D62A0)
-#define AKSOURCESETTINGS_GETSIZEOF_OFFSET UNITYSDK_OFFSET(0x190D7350)
-#define AKSOURCESETTINGS_GET_PMEDIAMEMORY_OFFSET UNITYSDK_OFFSET(0x190D7080)
-#define AKSOURCESETTINGS_GET_SOURCEID_OFFSET UNITYSDK_OFFSET(0x190D6DD0)
-#define AKSOURCESETTINGS_GET_UMEDIASIZE_OFFSET UNITYSDK_OFFSET(0x190D71F0)
-#define AKSOURCESETTINGS_SETCPTR_OFFSET UNITYSDK_OFFSET(0x190D6470)
-#define AKSOURCESETTINGS_SET_PMEDIAMEMORY_OFFSET UNITYSDK_OFFSET(0x190D6FC0)
-#define AKSOURCESETTINGS_SET_SOURCEID_OFFSET UNITYSDK_OFFSET(0x190D6BB0)
-#define AKSOURCESETTINGS_SET_UMEDIASIZE_OFFSET UNITYSDK_OFFSET(0x190D7130)
-#define AKSOURCESETTINGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x190D77B0)
-#define AKSOURCESETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x190D6290)
+#define AKSOURCESETTINGS_CLEAR_OFFSET UNITYSDK_OFFSET(0x196C4CF0)
+#define AKSOURCESETTINGS_CLONE_OFFSET UNITYSDK_OFFSET(0x196C4F90)
+#define AKSOURCESETTINGS_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x196C42C0)
+#define AKSOURCESETTINGS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x196C4070)
+#define AKSOURCESETTINGS_FINALIZE_OFFSET UNITYSDK_OFFSET(0x196C4120)
+#define AKSOURCESETTINGS_GETCPTR_OFFSET UNITYSDK_OFFSET(0x196C3C40)
+#define AKSOURCESETTINGS_GETSIZEOF_OFFSET UNITYSDK_OFFSET(0x196C4DA0)
+#define AKSOURCESETTINGS_GET_PMEDIAMEMORY_OFFSET UNITYSDK_OFFSET(0x196C4AD0)
+#define AKSOURCESETTINGS_GET_SOURCEID_OFFSET UNITYSDK_OFFSET(0x196C4820)
+#define AKSOURCESETTINGS_GET_UMEDIASIZE_OFFSET UNITYSDK_OFFSET(0x196C4C40)
+#define AKSOURCESETTINGS_SETCPTR_OFFSET UNITYSDK_OFFSET(0x196C3E20)
+#define AKSOURCESETTINGS_SET_PMEDIAMEMORY_OFFSET UNITYSDK_OFFSET(0x196C4A10)
+#define AKSOURCESETTINGS_SET_SOURCEID_OFFSET UNITYSDK_OFFSET(0x196C4600)
+#define AKSOURCESETTINGS_SET_UMEDIASIZE_OFFSET UNITYSDK_OFFSET(0x196C4B80)
+#define AKSOURCESETTINGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x196C5200)
+#define AKSOURCESETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x196C3C30)
 
-inline static constexpr unsigned int AkSourceSettings_TypeDefinitionIndex = 40343;
+inline static constexpr unsigned int AkSourceSettings_TypeDefinitionIndex = 41170;
 
 class AkSourceSettings : public ::System::Object
 {
 public:
-	::System::IntPtr swigCPtr; // 0x10
-	::System::Boolean swigCMemOwn; // 0x18
+	::System::Boolean swigCMemOwn; // 0x10
+	::System::IntPtr swigCPtr; // 0x18
 
-	::System::Void _ctor(::System::IntPtr cPtr, ::System::Boolean cMemoryOwn)
+	::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKSOURCESETTINGS__CTOR_OFFSET))(this, cPtr, cMemoryOwn);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKSOURCESETTINGS__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void _ctor_1()
@@ -37,14 +37,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSOURCESETTINGS__CTOR_1_OFFSET))(this);
 	}
 
-	static ::System::IntPtr getCPtr(::AkSourceSettings* obj)
+	static ::System::IntPtr getCPtr(::AkSourceSettings* a1)
 	{
-		return ((::System::IntPtr(*)(::AkSourceSettings*))((::PBYTE)hIl2Cpp + AKSOURCESETTINGS_GETCPTR_OFFSET))(obj);
+		return ((::System::IntPtr(*)(::AkSourceSettings*))((::PBYTE)hIl2Cpp + AKSOURCESETTINGS_GETCPTR_OFFSET))(a1);
 	}
 
-	::System::Void setCPtr(::System::IntPtr cPtr)
+	::System::Void setCPtr(::System::IntPtr a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKSOURCESETTINGS_SETCPTR_OFFSET))(this, cPtr);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKSOURCESETTINGS_SETCPTR_OFFSET))(this, a1);
 	}
 
 	::System::Void Finalize()
@@ -57,14 +57,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSOURCESETTINGS_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Dispose_1(::System::Boolean disposing)
+	::System::Void Dispose_1(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKSOURCESETTINGS_DISPOSE_1_OFFSET))(this, disposing);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKSOURCESETTINGS_DISPOSE_1_OFFSET))(this, a1);
 	}
 
-	::System::Void set_sourceID(::System::UInt32 value)
+	::System::Void set_sourceID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKSOURCESETTINGS_SET_SOURCEID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKSOURCESETTINGS_SET_SOURCEID_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_sourceID()
@@ -72,9 +72,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSOURCESETTINGS_GET_SOURCEID_OFFSET))(this);
 	}
 
-	::System::Void set_pMediaMemory(::System::IntPtr value)
+	::System::Void set_pMediaMemory(::System::IntPtr a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKSOURCESETTINGS_SET_PMEDIAMEMORY_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKSOURCESETTINGS_SET_PMEDIAMEMORY_OFFSET))(this, a1);
 	}
 
 	::System::IntPtr get_pMediaMemory()
@@ -82,9 +82,9 @@ public:
 		return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSOURCESETTINGS_GET_PMEDIAMEMORY_OFFSET))(this);
 	}
 
-	::System::Void set_uMediaSize(::System::UInt32 value)
+	::System::Void set_uMediaSize(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKSOURCESETTINGS_SET_UMEDIASIZE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKSOURCESETTINGS_SET_UMEDIASIZE_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_uMediaSize()
@@ -102,8 +102,8 @@ public:
 		return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + AKSOURCESETTINGS_GETSIZEOF_OFFSET))();
 	}
 
-	::System::Void Clone(::AkSourceSettings* other)
+	::System::Void Clone(::AkSourceSettings* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkSourceSettings*))((::PBYTE)hIl2Cpp + AKSOURCESETTINGS_CLONE_OFFSET))(this, other);
+		return ((::System::Void(*)(::PVOID, ::AkSourceSettings*))((::PBYTE)hIl2Cpp + AKSOURCESETTINGS_CLONE_OFFSET))(this, a1);
 	}
 };

@@ -4,17 +4,17 @@
 
 namespace RPG::GameCore { class TimeRewindMaterialOverlayConfig; }
 
-#define CLASS_1_D63DE2EC2835DB62_CLASS_1_7454F79F911CC6C3_CLEAR_OFFSET UNITYSDK_OFFSET(0xFBE0A00)
-#define CLASS_1_D63DE2EC2835DB62_CLASS_1_7454F79F911CC6C3__CTOR_OFFSET UNITYSDK_OFFSET(0xFBE0A50)
+#define CLASS_1_D63DE2EC2835DB62_CLASS_1_7454F79F911CC6C3_CLEAR_OFFSET UNITYSDK_OFFSET(0x147191F0)
+#define CLASS_1_D63DE2EC2835DB62_CLASS_1_7454F79F911CC6C3__CTOR_OFFSET UNITYSDK_OFFSET(0x14719240)
 
-inline static constexpr unsigned int Class_1_D63DE2EC2835DB62_Class_1_7454F79F911CC6C3_TypeDefinitionIndex = 56101;
+inline static constexpr unsigned int Class_1_D63DE2EC2835DB62_Class_1_7454F79F911CC6C3_TypeDefinitionIndex = 56863;
 
 class Class_1_D63DE2EC2835DB62_Class_1_7454F79F911CC6C3 : public ::System::Object
 {
 public:
-	::RPG::GameCore::TimeRewindMaterialOverlayConfig* Field_1_2; // 0x10
-	::System::Single Field_1_0; // 0x18
-	::System::Single Field_1_1; // 0x1C
+	::RPG::GameCore::TimeRewindMaterialOverlayConfig* Field_1_0; // 0x10
+	::System::Single Field_1_1; // 0x18
+	::System::Single Field_1_2; // 0x1C
 
 	::System::Void _ctor()
 	{

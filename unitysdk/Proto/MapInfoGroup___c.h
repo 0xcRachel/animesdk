@@ -4,20 +4,20 @@
 
 namespace Proto { class MapInfoGroup; }
 
-#define PROTO_MAPINFOGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19768120)
-#define PROTO_MAPINFOGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19768150)
-#define PROTO_MAPINFOGROUP___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x19768160)
+#define PROTO_MAPINFOGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A454410)
+#define PROTO_MAPINFOGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A454440)
+#define PROTO_MAPINFOGROUP___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1A454450)
 
 namespace Proto
 {
-	inline static constexpr unsigned int MapInfoGroup___c_TypeDefinitionIndex = 32185;
+	inline static constexpr unsigned int MapInfoGroup___c_TypeDefinitionIndex = 32294;
 
 	class MapInfoGroup___c : public ::System::Object
 	{
 	public:
 		static ::Proto::MapInfoGroup___c** StaticGet___9()
 		{
-			return (::Proto::MapInfoGroup___c**)Il2CppClass::FromTypeDefinitionIndex(MapInfoGroup___c_TypeDefinitionIndex)->GetStaticField(0x4C6A0);
+			return (::Proto::MapInfoGroup___c**)Il2CppClass::FromTypeDefinitionIndex(MapInfoGroup___c_TypeDefinitionIndex)->GetStaticField(0x3D980);
 		}
 
 		static ::System::Void _cctor()

@@ -8,32 +8,32 @@ namespace RPG::Client { class MatchThreeV2ReputationInfos; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MATCHTHREEV2PROPINFOS_CREATE_1_OFFSET UNITYSDK_OFFSET(0x175865C0)
-#define RPG_CLIENT_MATCHTHREEV2PROPINFOS_CREATE_OFFSET UNITYSDK_OFFSET(0x17586580)
-#define RPG_CLIENT_MATCHTHREEV2PROPINFOS_GETMAXLEVELFORPROP_OFFSET UNITYSDK_OFFSET(0x17587680)
-#define RPG_CLIENT_MATCHTHREEV2PROPINFOS_GETMAXPROPLEVELFORREPUTATION_OFFSET UNITYSDK_OFFSET(0x175875E0)
-#define RPG_CLIENT_MATCHTHREEV2PROPINFOS_GETPROPDATA_OFFSET UNITYSDK_OFFSET(0x175874E0)
-#define RPG_CLIENT_MATCHTHREEV2PROPINFOS_GET_ALLPROPDATAS_OFFSET UNITYSDK_OFFSET(0x175864F0)
-#define RPG_CLIENT_MATCHTHREEV2PROPINFOS_GET_ALLPROPIDS_OFFSET UNITYSDK_OFFSET(0x17586560)
-#define RPG_CLIENT_MATCHTHREEV2PROPINFOS_INIT_OFFSET UNITYSDK_OFFSET(0x175869A0)
-#define RPG_CLIENT_MATCHTHREEV2PROPINFOS_SET_ALLPROPIDS_OFFSET UNITYSDK_OFFSET(0x17586570)
-#define RPG_CLIENT_MATCHTHREEV2PROPINFOS__CTOR_OFFSET UNITYSDK_OFFSET(0x175867D0)
-#define RPG_CLIENT_MATCHTHREEV2PROPINFOS__INITALLPROPDATAS_OFFSET UNITYSDK_OFFSET(0x175869E0)
-#define RPG_CLIENT_MATCHTHREEV2PROPINFOS__INITPROPPVELEVELUPDATA_OFFSET UNITYSDK_OFFSET(0x17586CC0)
-#define RPG_CLIENT_MATCHTHREEV2PROPINFOS__INITPROPSTATICLEVELUPDATA_OFFSET UNITYSDK_OFFSET(0x17586FF0)
-#define RPG_CLIENT_MATCHTHREEV2PROPINFOS__INIT_OFFSET UNITYSDK_OFFSET(0x17586940)
+#define RPG_CLIENT_MATCHTHREEV2PROPINFOS_CREATE_1_OFFSET UNITYSDK_OFFSET(0x188D7460)
+#define RPG_CLIENT_MATCHTHREEV2PROPINFOS_CREATE_OFFSET UNITYSDK_OFFSET(0x188E0560)
+#define RPG_CLIENT_MATCHTHREEV2PROPINFOS_GETMAXLEVELFORPROP_OFFSET UNITYSDK_OFFSET(0x188DA990)
+#define RPG_CLIENT_MATCHTHREEV2PROPINFOS_GETMAXPROPLEVELFORREPUTATION_OFFSET UNITYSDK_OFFSET(0x188DCE40)
+#define RPG_CLIENT_MATCHTHREEV2PROPINFOS_GETPROPDATA_OFFSET UNITYSDK_OFFSET(0x188D2FE0)
+#define RPG_CLIENT_MATCHTHREEV2PROPINFOS_GET_ALLPROPDATAS_OFFSET UNITYSDK_OFFSET(0x188E0450)
+#define RPG_CLIENT_MATCHTHREEV2PROPINFOS_GET_ALLPROPIDS_OFFSET UNITYSDK_OFFSET(0x188E0540)
+#define RPG_CLIENT_MATCHTHREEV2PROPINFOS_INIT_OFFSET UNITYSDK_OFFSET(0x188E0780)
+#define RPG_CLIENT_MATCHTHREEV2PROPINFOS_SET_ALLPROPIDS_OFFSET UNITYSDK_OFFSET(0x188E0550)
+#define RPG_CLIENT_MATCHTHREEV2PROPINFOS__CTOR_OFFSET UNITYSDK_OFFSET(0x188E05A0)
+#define RPG_CLIENT_MATCHTHREEV2PROPINFOS__INITALLPROPDATAS_OFFSET UNITYSDK_OFFSET(0x188E07C0)
+#define RPG_CLIENT_MATCHTHREEV2PROPINFOS__INITPROPPVELEVELUPDATA_OFFSET UNITYSDK_OFFSET(0x188E0AE0)
+#define RPG_CLIENT_MATCHTHREEV2PROPINFOS__INITPROPSTATICLEVELUPDATA_OFFSET UNITYSDK_OFFSET(0x188E0DC0)
+#define RPG_CLIENT_MATCHTHREEV2PROPINFOS__INIT_OFFSET UNITYSDK_OFFSET(0x188E0720)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2PropInfos_TypeDefinitionIndex = 60783;
+	inline static constexpr unsigned int MatchThreeV2PropInfos_TypeDefinitionIndex = 61717;
 
 	class MatchThreeV2PropInfos : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _MaxPropLevelOfReputation; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::IMatchThreePropData*>* _AllPropDatas; // 0x18
-		::System::Collections::Generic::List_1<::System::UInt32>* _AllPropIDs_k__BackingField; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _MaxLevelOfProp; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _MaxLevelOfProp; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::IMatchThreePropData*>* _AllPropDatas; // 0x20
+		::System::Collections::Generic::List_1<::System::UInt32>* _AllPropIDs_k__BackingField; // 0x28
 
 		::System::Void _ctor()
 		{
@@ -50,9 +50,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPINFOS_GET_ALLPROPIDS_OFFSET))(this);
 		}
 
-		::System::Void set_AllPropIDs(::System::Collections::Generic::List_1<::System::UInt32>* value)
+		::System::Void set_AllPropIDs(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPINFOS_SET_ALLPROPIDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPINFOS_SET_ALLPROPIDS_OFFSET))(this, a1);
 		}
 
 		static ::RPG::Client::MatchThreeV2PropInfos* Create()
@@ -60,9 +60,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MatchThreeV2PropInfos*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPINFOS_CREATE_OFFSET))();
 		}
 
-		static ::RPG::Client::MatchThreeV2PropInfos* Create_1(::RPG::Client::MatchThreeV2ReputationInfos* reputationInfos)
+		static ::RPG::Client::MatchThreeV2PropInfos* Create_1(::RPG::Client::MatchThreeV2ReputationInfos* a1)
 		{
-			return ((::RPG::Client::MatchThreeV2PropInfos*(*)(::RPG::Client::MatchThreeV2ReputationInfos*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPINFOS_CREATE_1_OFFSET))(reputationInfos);
+			return ((::RPG::Client::MatchThreeV2PropInfos*(*)(::RPG::Client::MatchThreeV2ReputationInfos*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPINFOS_CREATE_1_OFFSET))(a1);
 		}
 
 		::System::Void Init()
@@ -70,9 +70,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPINFOS_INIT_OFFSET))(this);
 		}
 
-		::System::Void _Init(::RPG::Client::MatchThreeV2ReputationInfos* reputationInfos)
+		::System::Void _Init(::RPG::Client::MatchThreeV2ReputationInfos* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MatchThreeV2ReputationInfos*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPINFOS__INIT_OFFSET))(this, reputationInfos);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MatchThreeV2ReputationInfos*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPINFOS__INIT_OFFSET))(this, a1);
 		}
 
 		::System::Void _InitAllPropDatas()
@@ -80,9 +80,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPINFOS__INITALLPROPDATAS_OFFSET))(this);
 		}
 
-		::System::Void _InitPropPveLevelUpData(::RPG::Client::MatchThreeV2ReputationInfos* reputationInfos)
+		::System::Void _InitPropPveLevelUpData(::RPG::Client::MatchThreeV2ReputationInfos* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MatchThreeV2ReputationInfos*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPINFOS__INITPROPPVELEVELUPDATA_OFFSET))(this, reputationInfos);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MatchThreeV2ReputationInfos*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPINFOS__INITPROPPVELEVELUPDATA_OFFSET))(this, a1);
 		}
 
 		::System::Void _InitPropStaticLevelUpData()
@@ -90,19 +90,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPINFOS__INITPROPSTATICLEVELUPDATA_OFFSET))(this);
 		}
 
-		::RPG::Client::IMatchThreePropData* GetPropData(::System::UInt32 propID, ::System::UInt32 propLevel)
+		::RPG::Client::IMatchThreePropData* GetPropData(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::IMatchThreePropData*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPINFOS_GETPROPDATA_OFFSET))(this, propID, propLevel);
+			return ((::RPG::Client::IMatchThreePropData*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPINFOS_GETPROPDATA_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 GetMaxPropLevelForReputation(::System::UInt32 reputation)
+		::System::UInt32 GetMaxPropLevelForReputation(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPINFOS_GETMAXPROPLEVELFORREPUTATION_OFFSET))(this, reputation);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPINFOS_GETMAXPROPLEVELFORREPUTATION_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetMaxLevelForProp(::System::UInt32 propID)
+		::System::UInt32 GetMaxLevelForProp(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPINFOS_GETMAXLEVELFORPROP_OFFSET))(this, propID);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPINFOS_GETMAXLEVELFORPROP_OFFSET))(this, a1);
 		}
 	};
 }

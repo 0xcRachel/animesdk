@@ -5,12 +5,12 @@
 
 namespace MiHoYo::SDK { class SecurityTunnel___c__DisplayClass55_0; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17CDC210)
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_1__SAFEENQUEUECALLBACK_B__1_OFFSET UNITYSDK_OFFSET(0x17CDC220)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18CAF990)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_1__SAFEENQUEUECALLBACK_B__1_OFFSET UNITYSDK_OFFSET(0x18CAF9A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass55_1_TypeDefinitionIndex = 43031;
+	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass55_1_TypeDefinitionIndex = 43834;
 
 	class SecurityTunnel___c__DisplayClass55_1 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_1__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _SafeEnqueueCallback_b__1(::System::Object* _)
+		::System::Void _SafeEnqueueCallback_b__1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_1__SAFEENQUEUECALLBACK_B__1_OFFSET))(this, _);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_1__SAFEENQUEUECALLBACK_B__1_OFFSET))(this, a1);
 		}
 	};
 }

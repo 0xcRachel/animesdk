@@ -3,17 +3,17 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGSHOWTALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15851960)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGSHOWTALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17E1DB30)
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingShowTalkData_TypeDefinitionIndex = 71331;
+	inline static constexpr unsigned int ChenLingShowTalkData_TypeDefinitionIndex = 72353;
 
 	class ChenLingShowTalkData : public ::System::Object
 	{
 	public:
-		::System::UInt32 Target; // 0x10
-		::RPG::Client::TextID Text; // 0x18
+		::RPG::Client::TextID Text; // 0x10
+		::System::UInt32 Target; // 0x20
 
 		::System::Void _ctor()
 		{

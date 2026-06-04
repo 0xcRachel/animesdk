@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class SelectMissionItemConfig; }
 namespace RPG::GameCore { class SimpleTalkInfo; }
 
-#define RPG_GAMECORE_SELECTMISSIONITEM_METHOD_3_3FA54D6C9248C1C2_OFFSET UNITYSDK_OFFSET(0x192E3D80)
-#define RPG_GAMECORE_SELECTMISSIONITEM_METHOD_3_5CAE2C9FB42A63D7_OFFSET UNITYSDK_OFFSET(0x192E3EE0)
-#define RPG_GAMECORE_SELECTMISSIONITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x192E3E40)
+#define RPG_GAMECORE_SELECTMISSIONITEM_METHOD_3_B3685B6B58604B7C_OFFSET UNITYSDK_OFFSET(0x1A1DAA80)
+#define RPG_GAMECORE_SELECTMISSIONITEM_METHOD_3_E7A39919BF8B2939_OFFSET UNITYSDK_OFFSET(0x1A1DA920)
+#define RPG_GAMECORE_SELECTMISSIONITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1DA9E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SelectMissionItem_TypeDefinitionIndex = 19402;
+	inline static constexpr unsigned int SelectMissionItem_TypeDefinitionIndex = 19307;
 
 	class SelectMissionItem : public ::RPG::GameCore::TaskConfig
 	{
@@ -38,14 +38,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTMISSIONITEM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3FA54D6C9248C1C2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SelectMissionItem*& a2)
+		static ::System::Void Method_3_E7A39919BF8B2939(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SelectMissionItem*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SelectMissionItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTMISSIONITEM_METHOD_3_3FA54D6C9248C1C2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SelectMissionItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTMISSIONITEM_METHOD_3_E7A39919BF8B2939_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5CAE2C9FB42A63D7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SelectMissionItem* a2)
+		static ::System::Void Method_3_B3685B6B58604B7C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SelectMissionItem* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SelectMissionItem*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTMISSIONITEM_METHOD_3_5CAE2C9FB42A63D7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SelectMissionItem*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTMISSIONITEM_METHOD_3_B3685B6B58604B7C_OFFSET))(a1, a2);
 		}
 	};
 }

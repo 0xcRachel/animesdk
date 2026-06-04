@@ -5,18 +5,18 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_B44E7E9CBC9D1A8E__CTOR_OFFSET UNITYSDK_OFFSET(0x15D4BA30)
+#define CLASS_1_B44E7E9CBC9D1A8E__CTOR_OFFSET UNITYSDK_OFFSET(0x18614D00)
 
-inline static constexpr unsigned int Class_1_B44E7E9CBC9D1A8E_TypeDefinitionIndex = 39510;
+inline static constexpr unsigned int Class_1_B44E7E9CBC9D1A8E_TypeDefinitionIndex = 40333;
 
 class Class_1_B44E7E9CBC9D1A8E : public ::System::Object
 {
 public:
-	::RPG::Client::LittleGame::ChenLing::ChenLingHitType Field_1_0; // 0x10
-	::UnityEngine::Vector3 Field_1_3; // 0x14
-	::System::UInt32 Field_1_2; // 0x20
-	::UnityEngine::Vector3 Field_1_4; // 0x24
-	::RPG::GameCore::FixPoint Field_1_1; // 0x30
+	::RPG::GameCore::FixPoint Field_1_0; // 0x10
+	::UnityEngine::Vector3 Field_1_1; // 0x18
+	::System::UInt32 Field_1_2; // 0x24
+	::RPG::Client::LittleGame::ChenLing::ChenLingHitType Field_1_3; // 0x28
+	::UnityEngine::Vector3 Field_1_4; // 0x2C
 
 	::System::Void _ctor()
 	{

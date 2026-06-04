@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16183790)
-#define MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16183800)
-#define MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16182DE0)
-#define MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16183770)
+#define MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x17235B50)
+#define MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17235BC0)
+#define MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x17235460)
+#define MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x17235AE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AlertCompliance_OnAlertDelegate_TypeDefinitionIndex = 7036;
+	inline static constexpr unsigned int AlertCompliance_OnAlertDelegate_TypeDefinitionIndex = 7939;
 
 	class AlertCompliance_OnAlertDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::MiHoYo::SDK::AlertCompliance_AlertResult result)
+		::System::Void Invoke(::MiHoYo::SDK::AlertCompliance_AlertResult a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AlertCompliance_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE_INVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AlertCompliance_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::AlertCompliance_AlertResult result, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::AlertCompliance_AlertResult a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::AlertCompliance_AlertResult, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE_BEGININVOKE_OFFSET))(this, result, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::AlertCompliance_AlertResult, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTCOMPLIANCE_ONALERTDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -3,17 +3,17 @@
 #include "unitysdk/Enum_3_ED790DAC948A65A9_4.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LOBBYINTERACTPARAM_GET_INTERACTPARAM_OFFSET UNITYSDK_OFFSET(0x16540220)
-#define RPG_CLIENT_LOBBYINTERACTPARAM_GET_INTERACTTYPE_OFFSET UNITYSDK_OFFSET(0x16540200)
-#define RPG_CLIENT_LOBBYINTERACTPARAM_GET_SOURCEUID_OFFSET UNITYSDK_OFFSET(0x165401E0)
-#define RPG_CLIENT_LOBBYINTERACTPARAM_SET_INTERACTPARAM_OFFSET UNITYSDK_OFFSET(0x16540230)
-#define RPG_CLIENT_LOBBYINTERACTPARAM_SET_INTERACTTYPE_OFFSET UNITYSDK_OFFSET(0x16540210)
-#define RPG_CLIENT_LOBBYINTERACTPARAM_SET_SOURCEUID_OFFSET UNITYSDK_OFFSET(0x165401F0)
-#define RPG_CLIENT_LOBBYINTERACTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x165401D0)
+#define RPG_CLIENT_LOBBYINTERACTPARAM_GET_INTERACTPARAM_OFFSET UNITYSDK_OFFSET(0x18897EA0)
+#define RPG_CLIENT_LOBBYINTERACTPARAM_GET_INTERACTTYPE_OFFSET UNITYSDK_OFFSET(0x18897E80)
+#define RPG_CLIENT_LOBBYINTERACTPARAM_GET_SOURCEUID_OFFSET UNITYSDK_OFFSET(0x18897E60)
+#define RPG_CLIENT_LOBBYINTERACTPARAM_SET_INTERACTPARAM_OFFSET UNITYSDK_OFFSET(0x18897EB0)
+#define RPG_CLIENT_LOBBYINTERACTPARAM_SET_INTERACTTYPE_OFFSET UNITYSDK_OFFSET(0x18897E90)
+#define RPG_CLIENT_LOBBYINTERACTPARAM_SET_SOURCEUID_OFFSET UNITYSDK_OFFSET(0x18897E70)
+#define RPG_CLIENT_LOBBYINTERACTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18897E50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LobbyInteractParam_TypeDefinitionIndex = 60561;
+	inline static constexpr unsigned int LobbyInteractParam_TypeDefinitionIndex = 61495;
 
 	class LobbyInteractParam : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 		::System::UInt32 _InteractParam_k__BackingField; // 0x14
 		::System::UInt32 _SourceUID_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::UInt32 uid, ::Enum_3_ED790DAC948A65A9_4 type)
+		::System::Void _ctor(::System::UInt32 a1, ::Enum_3_ED790DAC948A65A9_4 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Enum_3_ED790DAC948A65A9_4))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOBBYINTERACTPARAM__CTOR_OFFSET))(this, uid, type);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Enum_3_ED790DAC948A65A9_4))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOBBYINTERACTPARAM__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 get_SourceUID()
@@ -32,9 +32,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOBBYINTERACTPARAM_GET_SOURCEUID_OFFSET))(this);
 		}
 
-		::System::Void set_SourceUID(::System::UInt32 value)
+		::System::Void set_SourceUID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOBBYINTERACTPARAM_SET_SOURCEUID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOBBYINTERACTPARAM_SET_SOURCEUID_OFFSET))(this, a1);
 		}
 
 		::Enum_3_ED790DAC948A65A9_4 get_InteractType()
@@ -42,9 +42,9 @@ namespace RPG::Client
 			return ((::Enum_3_ED790DAC948A65A9_4(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOBBYINTERACTPARAM_GET_INTERACTTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_InteractType(::Enum_3_ED790DAC948A65A9_4 value)
+		::System::Void set_InteractType(::Enum_3_ED790DAC948A65A9_4 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_ED790DAC948A65A9_4))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOBBYINTERACTPARAM_SET_INTERACTTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Enum_3_ED790DAC948A65A9_4))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOBBYINTERACTPARAM_SET_INTERACTTYPE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_InteractParam()
@@ -52,9 +52,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOBBYINTERACTPARAM_GET_INTERACTPARAM_OFFSET))(this);
 		}
 
-		::System::Void set_InteractParam(::System::UInt32 value)
+		::System::Void set_InteractParam(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOBBYINTERACTPARAM_SET_INTERACTPARAM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOBBYINTERACTPARAM_SET_INTERACTPARAM_OFFSET))(this, a1);
 		}
 	};
 }

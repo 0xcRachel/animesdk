@@ -8,13 +8,13 @@ namespace RPG::GameCore { class StartAim; }
 namespace RPG::GameCore { class TaskContext; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_3_441ED56399C6D008_METHOD_3_023898CF62937B9F_OFFSET UNITYSDK_OFFSET(0xB559A60)
-#define CLASS_3_441ED56399C6D008_METHOD_3_DA3919336F5678BA_OFFSET UNITYSDK_OFFSET(0xB559DE0)
-#define CLASS_3_441ED56399C6D008_METHOD_3_DC17EC2736150DD5_OFFSET UNITYSDK_OFFSET(0xB559D10)
-#define CLASS_3_441ED56399C6D008_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB559420)
-#define CLASS_3_441ED56399C6D008__CTOR_OFFSET UNITYSDK_OFFSET(0xB5593F0)
+#define CLASS_3_441ED56399C6D008_METHOD_3_023898CF62937B9F_OFFSET UNITYSDK_OFFSET(0x145F8BC0)
+#define CLASS_3_441ED56399C6D008_METHOD_3_50CA3B9DE0392828_OFFSET UNITYSDK_OFFSET(0x145F8F40)
+#define CLASS_3_441ED56399C6D008_METHOD_3_DC17EC2736150DD5_OFFSET UNITYSDK_OFFSET(0x145F8E70)
+#define CLASS_3_441ED56399C6D008_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x145F8540)
+#define CLASS_3_441ED56399C6D008__CTOR_OFFSET UNITYSDK_OFFSET(0x145F8510)
 
-inline static constexpr unsigned int Class_3_441ED56399C6D008_TypeDefinitionIndex = 51551;
+inline static constexpr unsigned int Class_3_441ED56399C6D008_TypeDefinitionIndex = 52220;
 
 class Class_3_441ED56399C6D008 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StartAim*>
 {
@@ -39,8 +39,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*&, ::UnityEngine::Transform*&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + CLASS_3_441ED56399C6D008_METHOD_3_023898CF62937B9F_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Boolean Method_3_DA3919336F5678BA(::UnityEngine::Transform*& a1, ::UnityEngine::Vector3& a2)
+	::System::Boolean Method_3_50CA3B9DE0392828(::UnityEngine::Transform*& a1, ::UnityEngine::Vector3& a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + CLASS_3_441ED56399C6D008_METHOD_3_DA3919336F5678BA_OFFSET))(this, a1, a2);
+		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + CLASS_3_441ED56399C6D008_METHOD_3_50CA3B9DE0392828_OFFSET))(this, a1, a2);
 	}
 };

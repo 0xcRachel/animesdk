@@ -16,78 +16,78 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class Vertex; }
 namespace UnityEngine::ProBuilder { class WingedEdge; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_BREAKFACEINTOTRIS_OFFSET UNITYSDK_OFFSET(0xB9D6790)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_CONFORMNORMALS_OFFSET UNITYSDK_OFFSET(0xB9D7720)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_CONFORMOPPOSITENORMAL_OFFSET UNITYSDK_OFFSET(0xB9AAD50)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_FLIPEDGE_OFFSET UNITYSDK_OFFSET(0xB9D7220)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_GETCOMMONEDGEINWINDINGORDER_OFFSET UNITYSDK_OFFSET(0xB9D80D0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_GETWINDINGFLAGS_OFFSET UNITYSDK_OFFSET(0xB9D7F80)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_GETWINDINGORDER_1_OFFSET UNITYSDK_OFFSET(0xB9D7070)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_GETWINDINGORDER_2_OFFSET UNITYSDK_OFFSET(0xB9D6D40)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_GETWINDINGORDER_OFFSET UNITYSDK_OFFSET(0xB9D6C00)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_MATCHNORMAL_OFFSET UNITYSDK_OFFSET(0xB9D8230)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_TOTRIANGLES_OFFSET UNITYSDK_OFFSET(0xB9D61E0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_BREAKFACEINTOTRIS_OFFSET UNITYSDK_OFFSET(0xC2780B0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_CONFORMNORMALS_OFFSET UNITYSDK_OFFSET(0xC2791C0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_CONFORMOPPOSITENORMAL_OFFSET UNITYSDK_OFFSET(0xC24D680)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_FLIPEDGE_OFFSET UNITYSDK_OFFSET(0xC278E30)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_GETCOMMONEDGEINWINDINGORDER_OFFSET UNITYSDK_OFFSET(0xC279AB0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_GETWINDINGFLAGS_OFFSET UNITYSDK_OFFSET(0xC279970)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_GETWINDINGORDER_1_OFFSET UNITYSDK_OFFSET(0xC278C60)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_GETWINDINGORDER_2_OFFSET UNITYSDK_OFFSET(0xC278900)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_GETWINDINGORDER_OFFSET UNITYSDK_OFFSET(0xC2787C0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_MATCHNORMAL_OFFSET UNITYSDK_OFFSET(0xC279BE0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_TOTRIANGLES_OFFSET UNITYSDK_OFFSET(0xC277AC0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int SurfaceTopology_TypeDefinitionIndex = 40069;
+	inline static constexpr unsigned int SurfaceTopology_TypeDefinitionIndex = 40896;
 
 	class SurfaceTopology : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* ToTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces)
+		static ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* ToTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* a2)
 		{
-			return ((::Il2CppArray<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_TOTRIANGLES_OFFSET))(mesh, faces);
+			return ((::Il2CppArray<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_TOTRIANGLES_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::FaceRebuildData*>* BreakFaceIntoTris(::UnityEngine::ProBuilder::Face* face, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* lookup)
+		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::FaceRebuildData*>* BreakFaceIntoTris(::UnityEngine::ProBuilder::Face* a1, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* a2, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* a3)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::FaceRebuildData*>*(*)(::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_BREAKFACEINTOTRIS_OFFSET))(face, vertices, lookup);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::FaceRebuildData*>*(*)(::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_BREAKFACEINTOTRIS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::ProBuilder::WindingOrder GetWindingOrder(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face)
+		static ::UnityEngine::ProBuilder::WindingOrder GetWindingOrder(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Face* a2)
 		{
-			return ((::UnityEngine::ProBuilder::WindingOrder(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_GETWINDINGORDER_OFFSET))(mesh, face);
+			return ((::UnityEngine::ProBuilder::WindingOrder(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_GETWINDINGORDER_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::ProBuilder::WindingOrder GetWindingOrder_1(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::IList_1<::System::Int32>* indexes)
+		static ::UnityEngine::ProBuilder::WindingOrder GetWindingOrder_1(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* a1, ::System::Collections::Generic::IList_1<::System::Int32>* a2)
 		{
-			return ((::UnityEngine::ProBuilder::WindingOrder(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::IList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_GETWINDINGORDER_1_OFFSET))(vertices, indexes);
+			return ((::UnityEngine::ProBuilder::WindingOrder(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::IList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_GETWINDINGORDER_1_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::ProBuilder::WindingOrder GetWindingOrder_2(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points)
+		static ::UnityEngine::ProBuilder::WindingOrder GetWindingOrder_2(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* a1)
 		{
-			return ((::UnityEngine::ProBuilder::WindingOrder(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_GETWINDINGORDER_2_OFFSET))(points);
+			return ((::UnityEngine::ProBuilder::WindingOrder(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_GETWINDINGORDER_2_OFFSET))(a1);
 		}
 
-		static ::System::Boolean FlipEdge(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face)
+		static ::System::Boolean FlipEdge(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Face* a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_FLIPEDGE_OFFSET))(mesh, face);
+			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_FLIPEDGE_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::ProBuilder::ActionResult* ConformNormals(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces)
+		static ::UnityEngine::ProBuilder::ActionResult* ConformNormals(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* a2)
 		{
-			return ((::UnityEngine::ProBuilder::ActionResult*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_CONFORMNORMALS_OFFSET))(mesh, faces);
+			return ((::UnityEngine::ProBuilder::ActionResult*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_CONFORMNORMALS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void GetWindingFlags(::UnityEngine::ProBuilder::WingedEdge* edge, ::System::Boolean flag, ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Boolean>* flags)
+		static ::System::Void GetWindingFlags(::UnityEngine::ProBuilder::WingedEdge* a1, ::System::Boolean a2, ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Boolean>* a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::WingedEdge*, ::System::Boolean, ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_GETWINDINGFLAGS_OFFSET))(edge, flag, flags);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::WingedEdge*, ::System::Boolean, ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_GETWINDINGFLAGS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::ProBuilder::ActionResult* ConformOppositeNormal(::UnityEngine::ProBuilder::WingedEdge* source)
+		static ::UnityEngine::ProBuilder::ActionResult* ConformOppositeNormal(::UnityEngine::ProBuilder::WingedEdge* a1)
 		{
-			return ((::UnityEngine::ProBuilder::ActionResult*(*)(::UnityEngine::ProBuilder::WingedEdge*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_CONFORMOPPOSITENORMAL_OFFSET))(source);
+			return ((::UnityEngine::ProBuilder::ActionResult*(*)(::UnityEngine::ProBuilder::WingedEdge*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_CONFORMOPPOSITENORMAL_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::ProBuilder::Edge GetCommonEdgeInWindingOrder(::UnityEngine::ProBuilder::WingedEdge* wing)
+		static ::UnityEngine::ProBuilder::Edge GetCommonEdgeInWindingOrder(::UnityEngine::ProBuilder::WingedEdge* a1)
 		{
-			return ((::UnityEngine::ProBuilder::Edge(*)(::UnityEngine::ProBuilder::WingedEdge*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_GETCOMMONEDGEINWINDINGORDER_OFFSET))(wing);
+			return ((::UnityEngine::ProBuilder::Edge(*)(::UnityEngine::ProBuilder::WingedEdge*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_GETCOMMONEDGEINWINDINGORDER_OFFSET))(a1);
 		}
 
-		static ::System::Void MatchNormal(::UnityEngine::ProBuilder::Face* source, ::UnityEngine::ProBuilder::Face* target, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* lookup)
+		static ::System::Void MatchNormal(::UnityEngine::ProBuilder::Face* a1, ::UnityEngine::ProBuilder::Face* a2, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_MATCHNORMAL_OFFSET))(source, target, lookup);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_SURFACETOPOLOGY_MATCHNORMAL_OFFSET))(a1, a2, a3);
 		}
 	};
 }

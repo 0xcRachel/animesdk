@@ -25,65 +25,65 @@ namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine { class WaitForFixedUpdate; }
 
-#define CINEMACHINE_CINEMACHINEBRAIN_AFTERPHYSICS_OFFSET UNITYSDK_OFFSET(0x1679ABB0)
-#define CINEMACHINE_CINEMACHINEBRAIN_COMPUTECURRENTBLEND_OFFSET UNITYSDK_OFFSET(0x1679CA70)
-#define CINEMACHINE_CINEMACHINEBRAIN_DEEPCAMBFROMBLEND_OFFSET UNITYSDK_OFFSET(0x1679DD10)
-#define CINEMACHINE_CINEMACHINEBRAIN_FORCEUPDATEBYPERFORMANCETIMELINE_OFFSET UNITYSDK_OFFSET(0x1679C4A0)
-#define CINEMACHINE_CINEMACHINEBRAIN_GETBRAINFRAME_OFFSET UNITYSDK_OFFSET(0x1679DE20)
-#define CINEMACHINE_CINEMACHINEBRAIN_GETEFFECTIVEDELTATIME_OFFSET UNITYSDK_OFFSET(0x1679C4B0)
-#define CINEMACHINE_CINEMACHINEBRAIN_GETSOLOGUICOLOR_OFFSET UNITYSDK_OFFSET(0x1679A4B0)
-#define CINEMACHINE_CINEMACHINEBRAIN_GET_ACTIVEBLEND_OFFSET UNITYSDK_OFFSET(0x1679C1F0)
-#define CINEMACHINE_CINEMACHINEBRAIN_GET_ACTIVEVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0x1679C300)
-#define CINEMACHINE_CINEMACHINEBRAIN_GET_CURRENTCAMERASTATE_OFFSET UNITYSDK_OFFSET(0x1679E8B0)
-#define CINEMACHINE_CINEMACHINEBRAIN_GET_DEFAULTWORLDUP_OFFSET UNITYSDK_OFFSET(0x1679A4C0)
-#define CINEMACHINE_CINEMACHINEBRAIN_GET_ISBLENDING_OFFSET UNITYSDK_OFFSET(0x1679C1D0)
-#define CINEMACHINE_CINEMACHINEBRAIN_GET_OUTPUTCAMERA_OFFSET UNITYSDK_OFFSET(0x167943B0)
-#define CINEMACHINE_CINEMACHINEBRAIN_GET_SOLOCAMERA_OFFSET UNITYSDK_OFFSET(0x1679A0C0)
-#define CINEMACHINE_CINEMACHINEBRAIN_ISLIVE_OFFSET UNITYSDK_OFFSET(0x16793FC0)
-#define CINEMACHINE_CINEMACHINEBRAIN_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1679C490)
-#define CINEMACHINE_CINEMACHINEBRAIN_LOOKUPBLEND_OFFSET UNITYSDK_OFFSET(0x1679E660)
-#define CINEMACHINE_CINEMACHINEBRAIN_MANUALUPDATE_OFFSET UNITYSDK_OFFSET(0x1679AF10)
-#define CINEMACHINE_CINEMACHINEBRAIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1679AC00)
-#define CINEMACHINE_CINEMACHINEBRAIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1679A670)
-#define CINEMACHINE_CINEMACHINEBRAIN_ONGUIHANDLER_OFFSET UNITYSDK_OFFSET(0x1679BC20)
-#define CINEMACHINE_CINEMACHINEBRAIN_ONSCENELOADED_OFFSET UNITYSDK_OFFSET(0x1679AF00)
-#define CINEMACHINE_CINEMACHINEBRAIN_ONSCENEUNLOADED_OFFSET UNITYSDK_OFFSET(0x1679B3E0)
-#define CINEMACHINE_CINEMACHINEBRAIN_PROCESSACTIVECAMERA_OFFSET UNITYSDK_OFFSET(0x1679CEE0)
-#define CINEMACHINE_CINEMACHINEBRAIN_PUSHSTATETOUNITYCAMERA_OFFSET UNITYSDK_OFFSET(0x1679E240)
-#define CINEMACHINE_CINEMACHINEBRAIN_RELEASECAMERAOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1679E190)
-#define CINEMACHINE_CINEMACHINEBRAIN_SETALLWORKINGBLENDFINISH_OFFSET UNITYSDK_OFFSET(0x1679D7A0)
-#define CINEMACHINE_CINEMACHINEBRAIN_SETCAMERAOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1679DF30)
-#define CINEMACHINE_CINEMACHINEBRAIN_SET_CURRENTCAMERASTATE_OFFSET UNITYSDK_OFFSET(0x1679E8E0)
-#define CINEMACHINE_CINEMACHINEBRAIN_SET_SOLOCAMERA_OFFSET UNITYSDK_OFFSET(0x1679A190)
-#define CINEMACHINE_CINEMACHINEBRAIN_START_OFFSET UNITYSDK_OFFSET(0x1679B3F0)
-#define CINEMACHINE_CINEMACHINEBRAIN_TOPCAMERAFROMPRIORITYQUEUE_OFFSET UNITYSDK_OFFSET(0x1679E450)
-#define CINEMACHINE_CINEMACHINEBRAIN_UPDATEFRAME0_OFFSET UNITYSDK_OFFSET(0x1679C690)
-#define CINEMACHINE_CINEMACHINEBRAIN_UPDATEVIRTUALCAMERAS_OFFSET UNITYSDK_OFFSET(0x1679B410)
-#define CINEMACHINE_CINEMACHINEBRAIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1679F370)
-#define CINEMACHINE_CINEMACHINEBRAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1679F270)
+#define CINEMACHINE_CINEMACHINEBRAIN_AFTERPHYSICS_OFFSET UNITYSDK_OFFSET(0x150D9470)
+#define CINEMACHINE_CINEMACHINEBRAIN_COMPUTECURRENTBLEND_OFFSET UNITYSDK_OFFSET(0x150DB300)
+#define CINEMACHINE_CINEMACHINEBRAIN_DEEPCAMBFROMBLEND_OFFSET UNITYSDK_OFFSET(0x150DC6B0)
+#define CINEMACHINE_CINEMACHINEBRAIN_FORCEUPDATEBYPERFORMANCETIMELINE_OFFSET UNITYSDK_OFFSET(0x150DAD10)
+#define CINEMACHINE_CINEMACHINEBRAIN_GETBRAINFRAME_OFFSET UNITYSDK_OFFSET(0x150DC7D0)
+#define CINEMACHINE_CINEMACHINEBRAIN_GETEFFECTIVEDELTATIME_OFFSET UNITYSDK_OFFSET(0x150DAD20)
+#define CINEMACHINE_CINEMACHINEBRAIN_GETSOLOGUICOLOR_OFFSET UNITYSDK_OFFSET(0x150D8D30)
+#define CINEMACHINE_CINEMACHINEBRAIN_GET_ACTIVEBLEND_OFFSET UNITYSDK_OFFSET(0x150DAA60)
+#define CINEMACHINE_CINEMACHINEBRAIN_GET_ACTIVEVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0x150DAB70)
+#define CINEMACHINE_CINEMACHINEBRAIN_GET_CURRENTCAMERASTATE_OFFSET UNITYSDK_OFFSET(0x150DD390)
+#define CINEMACHINE_CINEMACHINEBRAIN_GET_DEFAULTWORLDUP_OFFSET UNITYSDK_OFFSET(0x150D8D40)
+#define CINEMACHINE_CINEMACHINEBRAIN_GET_ISBLENDING_OFFSET UNITYSDK_OFFSET(0x150DAA40)
+#define CINEMACHINE_CINEMACHINEBRAIN_GET_OUTPUTCAMERA_OFFSET UNITYSDK_OFFSET(0x150D2F70)
+#define CINEMACHINE_CINEMACHINEBRAIN_GET_SOLOCAMERA_OFFSET UNITYSDK_OFFSET(0x150D8990)
+#define CINEMACHINE_CINEMACHINEBRAIN_ISLIVE_OFFSET UNITYSDK_OFFSET(0x150D2B90)
+#define CINEMACHINE_CINEMACHINEBRAIN_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x150DAD00)
+#define CINEMACHINE_CINEMACHINEBRAIN_LOOKUPBLEND_OFFSET UNITYSDK_OFFSET(0x150DD100)
+#define CINEMACHINE_CINEMACHINEBRAIN_MANUALUPDATE_OFFSET UNITYSDK_OFFSET(0x150D97F0)
+#define CINEMACHINE_CINEMACHINEBRAIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x150D94C0)
+#define CINEMACHINE_CINEMACHINEBRAIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0x150D8EF0)
+#define CINEMACHINE_CINEMACHINEBRAIN_ONGUIHANDLER_OFFSET UNITYSDK_OFFSET(0x150DA530)
+#define CINEMACHINE_CINEMACHINEBRAIN_ONSCENELOADED_OFFSET UNITYSDK_OFFSET(0x150D97E0)
+#define CINEMACHINE_CINEMACHINEBRAIN_ONSCENEUNLOADED_OFFSET UNITYSDK_OFFSET(0x150D9CC0)
+#define CINEMACHINE_CINEMACHINEBRAIN_PROCESSACTIVECAMERA_OFFSET UNITYSDK_OFFSET(0x150DB820)
+#define CINEMACHINE_CINEMACHINEBRAIN_PUSHSTATETOUNITYCAMERA_OFFSET UNITYSDK_OFFSET(0x150DCCC0)
+#define CINEMACHINE_CINEMACHINEBRAIN_RELEASECAMERAOVERRIDE_OFFSET UNITYSDK_OFFSET(0x150DCBC0)
+#define CINEMACHINE_CINEMACHINEBRAIN_SETALLWORKINGBLENDFINISH_OFFSET UNITYSDK_OFFSET(0x150DC0F0)
+#define CINEMACHINE_CINEMACHINEBRAIN_SETCAMERAOVERRIDE_OFFSET UNITYSDK_OFFSET(0x150DC940)
+#define CINEMACHINE_CINEMACHINEBRAIN_SET_CURRENTCAMERASTATE_OFFSET UNITYSDK_OFFSET(0x150DD3C0)
+#define CINEMACHINE_CINEMACHINEBRAIN_SET_SOLOCAMERA_OFFSET UNITYSDK_OFFSET(0x150D8A50)
+#define CINEMACHINE_CINEMACHINEBRAIN_START_OFFSET UNITYSDK_OFFSET(0x150D9CD0)
+#define CINEMACHINE_CINEMACHINEBRAIN_TOPCAMERAFROMPRIORITYQUEUE_OFFSET UNITYSDK_OFFSET(0x150DCED0)
+#define CINEMACHINE_CINEMACHINEBRAIN_UPDATEFRAME0_OFFSET UNITYSDK_OFFSET(0x150DAF10)
+#define CINEMACHINE_CINEMACHINEBRAIN_UPDATEVIRTUALCAMERAS_OFFSET UNITYSDK_OFFSET(0x150D9CF0)
+#define CINEMACHINE_CINEMACHINEBRAIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x150DD5A0)
+#define CINEMACHINE_CINEMACHINEBRAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x150DD4A0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineBrain_TypeDefinitionIndex = 36479;
+	inline static constexpr unsigned int CinemachineBrain_TypeDefinitionIndex = 36779;
 
 	class CinemachineBrain : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::UnityEngine::AnimationCurve** StaticGet_mDefaultLinearAnimationCurve()
 		{
-			return (::UnityEngine::AnimationCurve**)Il2CppClass::FromTypeDefinitionIndex(CinemachineBrain_TypeDefinitionIndex)->GetStaticField(0x8760);
+			return (::UnityEngine::AnimationCurve**)Il2CppClass::FromTypeDefinitionIndex(CinemachineBrain_TypeDefinitionIndex)->GetStaticField(0x43C0);
 		}
 		static ::Cinemachine::ICinemachineCamera** StaticGet_mSoloCamera()
 		{
-			return (::Cinemachine::ICinemachineCamera**)Il2CppClass::FromTypeDefinitionIndex(CinemachineBrain_TypeDefinitionIndex)->GetStaticField(0x8768);
-		}
-		static ::System::Single* StaticGet_DeltaTimeBiasForThisFrame()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(CinemachineBrain_TypeDefinitionIndex)->GetStaticField(0x3DF0);
+			return (::Cinemachine::ICinemachineCamera**)Il2CppClass::FromTypeDefinitionIndex(CinemachineBrain_TypeDefinitionIndex)->GetStaticField(0x43C8);
 		}
 		static ::System::Boolean* StaticGet_useStaticFraPlane()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CinemachineBrain_TypeDefinitionIndex)->GetStaticField(0x3DF4);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CinemachineBrain_TypeDefinitionIndex)->GetStaticField(0x2700);
+		}
+		static ::System::Single* StaticGet_DeltaTimeBiasForThisFrame()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(CinemachineBrain_TypeDefinitionIndex)->GetStaticField(0x2704);
 		}
 		::System::Single m_ExtraTimeScale; // 0x18
 		::System::Boolean m_ShowDebugText; // 0x1C
@@ -126,9 +126,9 @@ namespace Cinemachine
 			return ((::Cinemachine::ICinemachineCamera*(*)())((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_GET_SOLOCAMERA_OFFSET))();
 		}
 
-		static ::System::Void set_SoloCamera(::Cinemachine::ICinemachineCamera* value)
+		static ::System::Void set_SoloCamera(::Cinemachine::ICinemachineCamera* a1)
 		{
-			return ((::System::Void(*)(::Cinemachine::ICinemachineCamera*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_SET_SOLOCAMERA_OFFSET))(value);
+			return ((::System::Void(*)(::Cinemachine::ICinemachineCamera*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_SET_SOLOCAMERA_OFFSET))(a1);
 		}
 
 		static ::UnityEngine::Color GetSoloGUIColor()
@@ -151,14 +151,14 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_ONDISABLE_OFFSET))(this);
 		}
 
-		::System::Void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode)
+		::System::Void OnSceneLoaded(::UnityEngine::SceneManagement::Scene a1, ::UnityEngine::SceneManagement::LoadSceneMode a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_ONSCENELOADED_OFFSET))(this, scene, mode);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_ONSCENELOADED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnSceneUnloaded(::UnityEngine::SceneManagement::Scene scene)
+		::System::Void OnSceneUnloaded(::UnityEngine::SceneManagement::Scene a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::SceneManagement::Scene))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_ONSCENEUNLOADED_OFFSET))(this, scene);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::SceneManagement::Scene))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_ONSCENEUNLOADED_OFFSET))(this, a1);
 		}
 
 		::System::Void Start()
@@ -196,14 +196,14 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_SETALLWORKINGBLENDFINISH_OFFSET))(this);
 		}
 
-		::System::Single GetEffectiveDeltaTime(::System::Boolean fixedDelta)
+		::System::Single GetEffectiveDeltaTime(::System::Boolean a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_GETEFFECTIVEDELTATIME_OFFSET))(this, fixedDelta);
+			return ((::System::Single(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_GETEFFECTIVEDELTATIME_OFFSET))(this, a1);
 		}
 
-		::System::Void UpdateVirtualCameras(::Cinemachine::CinemachineCore_UpdateFilter updateFilter, ::System::Single deltaTime)
+		::System::Void UpdateVirtualCameras(::Cinemachine::CinemachineCore_UpdateFilter a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineCore_UpdateFilter, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_UPDATEVIRTUALCAMERAS_OFFSET))(this, updateFilter, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineCore_UpdateFilter, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_UPDATEVIRTUALCAMERAS_OFFSET))(this, a1, a2);
 		}
 
 		::Cinemachine::ICinemachineCamera* get_ActiveVirtualCamera()
@@ -211,9 +211,9 @@ namespace Cinemachine
 			return ((::Cinemachine::ICinemachineCamera*(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_GET_ACTIVEVIRTUALCAMERA_OFFSET))(this);
 		}
 
-		static ::Cinemachine::ICinemachineCamera* DeepCamBFromBlend(::Cinemachine::CinemachineBlend* blend)
+		static ::Cinemachine::ICinemachineCamera* DeepCamBFromBlend(::Cinemachine::CinemachineBlend* a1)
 		{
-			return ((::Cinemachine::ICinemachineCamera*(*)(::Cinemachine::CinemachineBlend*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_DEEPCAMBFROMBLEND_OFFSET))(blend);
+			return ((::Cinemachine::ICinemachineCamera*(*)(::Cinemachine::CinemachineBlend*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_DEEPCAMBFROMBLEND_OFFSET))(a1);
 		}
 
 		::System::Boolean get_IsBlending()
@@ -226,39 +226,39 @@ namespace Cinemachine
 			return ((::Cinemachine::CinemachineBlend*(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_GET_ACTIVEBLEND_OFFSET))(this);
 		}
 
-		::System::Int32 GetBrainFrame(::System::Int32 withId)
+		::System::Int32 GetBrainFrame(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_GETBRAINFRAME_OFFSET))(this, withId);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_GETBRAINFRAME_OFFSET))(this, a1);
 		}
 
-		::System::Int32 SetCameraOverride(::System::Int32 overrideId, ::Cinemachine::ICinemachineCamera* camA, ::Cinemachine::ICinemachineCamera* camB, ::System::Single weightB, ::System::Single deltaTime)
+		::System::Int32 SetCameraOverride(::System::Int32 a1, ::Cinemachine::ICinemachineCamera* a2, ::Cinemachine::ICinemachineCamera* a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::Cinemachine::ICinemachineCamera*, ::Cinemachine::ICinemachineCamera*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_SETCAMERAOVERRIDE_OFFSET))(this, overrideId, camA, camB, weightB, deltaTime);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::Cinemachine::ICinemachineCamera*, ::Cinemachine::ICinemachineCamera*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_SETCAMERAOVERRIDE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void ReleaseCameraOverride(::System::Int32 overrideId)
+		::System::Void ReleaseCameraOverride(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_RELEASECAMERAOVERRIDE_OFFSET))(this, overrideId);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_RELEASECAMERAOVERRIDE_OFFSET))(this, a1);
 		}
 
-		::System::Void ProcessActiveCamera(::System::Single deltaTime)
+		::System::Void ProcessActiveCamera(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_PROCESSACTIVECAMERA_OFFSET))(this, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_PROCESSACTIVECAMERA_OFFSET))(this, a1);
 		}
 
-		::System::Void UpdateFrame0(::System::Single deltaTime)
+		::System::Void UpdateFrame0(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_UPDATEFRAME0_OFFSET))(this, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_UPDATEFRAME0_OFFSET))(this, a1);
 		}
 
-		::System::Void ComputeCurrentBlend(::Cinemachine::CinemachineBlend*& outputBlend, ::System::Int32 numTopLayersToExclude)
+		::System::Void ComputeCurrentBlend(::Cinemachine::CinemachineBlend*& a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineBlend*&, ::System::Int32))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_COMPUTECURRENTBLEND_OFFSET))(this, outputBlend, numTopLayersToExclude);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineBlend*&, ::System::Int32))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_COMPUTECURRENTBLEND_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsLive(::Cinemachine::ICinemachineCamera* vcam, ::System::Boolean dominantChildOnly)
+		::System::Boolean IsLive(::Cinemachine::ICinemachineCamera* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_ISLIVE_OFFSET))(this, vcam, dominantChildOnly);
+			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_ISLIVE_OFFSET))(this, a1, a2);
 		}
 
 		::Cinemachine::CameraState get_CurrentCameraState()
@@ -266,9 +266,9 @@ namespace Cinemachine
 			return ((::Cinemachine::CameraState(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_GET_CURRENTCAMERASTATE_OFFSET))(this);
 		}
 
-		::System::Void set_CurrentCameraState(::Cinemachine::CameraState value)
+		::System::Void set_CurrentCameraState(::Cinemachine::CameraState a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_SET_CURRENTCAMERASTATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_SET_CURRENTCAMERASTATE_OFFSET))(this, a1);
 		}
 
 		::Cinemachine::ICinemachineCamera* TopCameraFromPriorityQueue()
@@ -276,14 +276,14 @@ namespace Cinemachine
 			return ((::Cinemachine::ICinemachineCamera*(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_TOPCAMERAFROMPRIORITYQUEUE_OFFSET))(this);
 		}
 
-		::Cinemachine::CinemachineBlendDefinition LookupBlend(::Cinemachine::ICinemachineCamera* fromKey, ::Cinemachine::ICinemachineCamera* toKey)
+		::Cinemachine::CinemachineBlendDefinition LookupBlend(::Cinemachine::ICinemachineCamera* a1, ::Cinemachine::ICinemachineCamera* a2)
 		{
-			return ((::Cinemachine::CinemachineBlendDefinition(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::Cinemachine::ICinemachineCamera*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_LOOKUPBLEND_OFFSET))(this, fromKey, toKey);
+			return ((::Cinemachine::CinemachineBlendDefinition(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::Cinemachine::ICinemachineCamera*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_LOOKUPBLEND_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void PushStateToUnityCamera(::Cinemachine::CameraState state)
+		::System::Void PushStateToUnityCamera(::Cinemachine::CameraState a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_PUSHSTATETOUNITYCAMERA_OFFSET))(this, state);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBRAIN_PUSHSTATETOUNITYCAMERA_OFFSET))(this, a1);
 		}
 	};
 }

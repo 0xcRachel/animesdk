@@ -9,16 +9,16 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine::Rendering { class BatchAnimEventObjCB_ExecuteEventFun; }
 namespace UnityEngine::Rendering { class BatchAnimation; }
 
-#define RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT_AWAKE_OFFSET UNITYSDK_OFFSET(0x15F40910)
-#define RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT_GETEVENTEXECUTORFUN_OFFSET UNITYSDK_OFFSET(0x15F40C10)
-#define RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT_METHOD_6_29C36F9051203275_OFFSET UNITYSDK_OFFSET(0x15F40D50)
-#define RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT_METHOD_6_4F24C8E5484F1026_OFFSET UNITYSDK_OFFSET(0x15F40CD0)
-#define RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x15F40E80)
-#define RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT___IFIXBASEPROXY_GETEVENTEXECUTORFUN_OFFSET UNITYSDK_OFFSET(0x15F40EC0)
+#define RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT_AWAKE_OFFSET UNITYSDK_OFFSET(0x166815A0)
+#define RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT_GETEVENTEXECUTORFUN_OFFSET UNITYSDK_OFFSET(0x166818E0)
+#define RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT_METHOD_6_29C36F9051203275_OFFSET UNITYSDK_OFFSET(0x16681A10)
+#define RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT_METHOD_6_6ED8899C7D879331_OFFSET UNITYSDK_OFFSET(0x16681990)
+#define RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x16681B40)
+#define RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT___IFIXBASEPROXY_GETEVENTEXECUTORFUN_OFFSET UNITYSDK_OFFSET(0x16681B80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NPCPedestrianV2BatchAnimationEvent_TypeDefinitionIndex = 63856;
+	inline static constexpr unsigned int NPCPedestrianV2BatchAnimationEvent_TypeDefinitionIndex = 64777;
 
 	class NPCPedestrianV2BatchAnimationEvent : public ::RPG::CustomRP::BatchAnimationEvent
 	{
@@ -43,9 +43,9 @@ namespace RPG::Client
 			return ((::UnityEngine::Rendering::BatchAnimEventObjCB_ExecuteEventFun*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT_GETEVENTEXECUTORFUN_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_4F24C8E5484F1026(::UnityEngine::Rendering::BatchAnimation* a1, ::UnityEngine::Rendering::BatchAnimEventObjCB& a2, ::System::String* a3)
+		::System::Void Method_6_6ED8899C7D879331(::UnityEngine::Rendering::BatchAnimation* a1, ::UnityEngine::Rendering::BatchAnimEventObjCB& a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimation*, ::UnityEngine::Rendering::BatchAnimEventObjCB&, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT_METHOD_6_4F24C8E5484F1026_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimation*, ::UnityEngine::Rendering::BatchAnimEventObjCB&, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT_METHOD_6_6ED8899C7D879331_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Method_6_29C36F9051203275(::UnityEngine::Rendering::BatchAnimation* a1, ::UnityEngine::Rendering::BatchAnimEventObjCB& a2, ::System::String* a3)
@@ -53,9 +53,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimation*, ::UnityEngine::Rendering::BatchAnimEventObjCB&, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT_METHOD_6_29C36F9051203275_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Rendering::BatchAnimEventObjCB_ExecuteEventFun* __iFixBaseProxy_GetEventExecutorFun(::System::String* P0)
+		::UnityEngine::Rendering::BatchAnimEventObjCB_ExecuteEventFun* __iFixBaseProxy_GetEventExecutorFun(::System::String* a1)
 		{
-			return ((::UnityEngine::Rendering::BatchAnimEventObjCB_ExecuteEventFun*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT___IFIXBASEPROXY_GETEVENTEXECUTORFUN_OFFSET))(this, P0);
+			return ((::UnityEngine::Rendering::BatchAnimEventObjCB_ExecuteEventFun*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT___IFIXBASEPROXY_GETEVENTEXECUTORFUN_OFFSET))(this, a1);
 		}
 	};
 }

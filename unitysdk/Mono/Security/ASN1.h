@@ -5,23 +5,23 @@
 namespace System { class String; }
 namespace System::Collections { class ArrayList; }
 
-#define MONO_SECURITY_ASN1_ADD_OFFSET UNITYSDK_OFFSET(0x19405080)
-#define MONO_SECURITY_ASN1_COMPAREARRAY_OFFSET UNITYSDK_OFFSET(0x19404FA0)
-#define MONO_SECURITY_ASN1_COMPAREVALUE_OFFSET UNITYSDK_OFFSET(0x19405010)
-#define MONO_SECURITY_ASN1_DECODETLV_OFFSET UNITYSDK_OFFSET(0x19405880)
-#define MONO_SECURITY_ASN1_DECODE_OFFSET UNITYSDK_OFFSET(0x19404C30)
-#define MONO_SECURITY_ASN1_ELEMENT_OFFSET UNITYSDK_OFFSET(0x19405A90)
-#define MONO_SECURITY_ASN1_GETBYTES_OFFSET UNITYSDK_OFFSET(0x19405100)
-#define MONO_SECURITY_ASN1_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x19404D90)
-#define MONO_SECURITY_ASN1_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x19405990)
-#define MONO_SECURITY_ASN1_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x19404DC0)
-#define MONO_SECURITY_ASN1_GET_TAG_OFFSET UNITYSDK_OFFSET(0x19404DB0)
-#define MONO_SECURITY_ASN1_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x19404DD0)
-#define MONO_SECURITY_ASN1_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x19404EC0)
-#define MONO_SECURITY_ASN1_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19405BA0)
-#define MONO_SECURITY_ASN1__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19404AA0)
-#define MONO_SECURITY_ASN1__CTOR_2_OFFSET UNITYSDK_OFFSET(0x19404AB0)
-#define MONO_SECURITY_ASN1__CTOR_OFFSET UNITYSDK_OFFSET(0x19404A90)
+#define MONO_SECURITY_ASN1_ADD_OFFSET UNITYSDK_OFFSET(0x19CB84E0)
+#define MONO_SECURITY_ASN1_COMPAREARRAY_OFFSET UNITYSDK_OFFSET(0x19CB8400)
+#define MONO_SECURITY_ASN1_COMPAREVALUE_OFFSET UNITYSDK_OFFSET(0x19CB8470)
+#define MONO_SECURITY_ASN1_DECODETLV_OFFSET UNITYSDK_OFFSET(0x19CB8C60)
+#define MONO_SECURITY_ASN1_DECODE_OFFSET UNITYSDK_OFFSET(0x19CB8080)
+#define MONO_SECURITY_ASN1_ELEMENT_OFFSET UNITYSDK_OFFSET(0x19CB8E50)
+#define MONO_SECURITY_ASN1_GETBYTES_OFFSET UNITYSDK_OFFSET(0x19CB8560)
+#define MONO_SECURITY_ASN1_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x19CB81E0)
+#define MONO_SECURITY_ASN1_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x19CB8D50)
+#define MONO_SECURITY_ASN1_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x19CB8210)
+#define MONO_SECURITY_ASN1_GET_TAG_OFFSET UNITYSDK_OFFSET(0x19CB8200)
+#define MONO_SECURITY_ASN1_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x19CB8220)
+#define MONO_SECURITY_ASN1_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x19CB8320)
+#define MONO_SECURITY_ASN1_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19CB8F70)
+#define MONO_SECURITY_ASN1__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19CB7F10)
+#define MONO_SECURITY_ASN1__CTOR_2_OFFSET UNITYSDK_OFFSET(0x19CB7F20)
+#define MONO_SECURITY_ASN1__CTOR_OFFSET UNITYSDK_OFFSET(0x19CB7F00)
 
 namespace Mono::Security
 {
@@ -30,23 +30,23 @@ namespace Mono::Security
 	class ASN1 : public ::System::Object
 	{
 	public:
-		::System::Collections::ArrayList* elist; // 0x10
-		::Il2CppArray<::System::Byte>* m_aValue; // 0x18
+		::Il2CppArray<::System::Byte>* m_aValue; // 0x10
+		::System::Collections::ArrayList* elist; // 0x18
 		::System::Byte m_nTag; // 0x20
 
-		::System::Void _ctor(::System::Byte tag)
+		::System::Void _ctor(::System::Byte a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1__CTOR_OFFSET))(this, tag);
+			return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::Byte tag, ::Il2CppArray<::System::Byte>* data)
+		::System::Void _ctor_1(::System::Byte a1, ::Il2CppArray<::System::Byte>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1__CTOR_1_OFFSET))(this, tag, data);
+			return ((::System::Void(*)(::PVOID, ::System::Byte, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_2(::Il2CppArray<::System::Byte>* data)
+		::System::Void _ctor_2(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1__CTOR_2_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1__CTOR_2_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_Count()
@@ -69,24 +69,24 @@ namespace Mono::Security
 			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_Value(::Il2CppArray<::System::Byte>* value)
+		::System::Void set_Value(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_SET_VALUE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CompareArray(::Il2CppArray<::System::Byte>* array1, ::Il2CppArray<::System::Byte>* array2)
+		::System::Boolean CompareArray(::Il2CppArray<::System::Byte>* a1, ::Il2CppArray<::System::Byte>* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_COMPAREARRAY_OFFSET))(this, array1, array2);
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_COMPAREARRAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean CompareValue(::Il2CppArray<::System::Byte>* value)
+		::System::Boolean CompareValue(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_COMPAREVALUE_OFFSET))(this, value);
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_COMPAREVALUE_OFFSET))(this, a1);
 		}
 
-		::Mono::Security::ASN1* Add(::Mono::Security::ASN1* asn1)
+		::Mono::Security::ASN1* Add(::Mono::Security::ASN1* a1)
 		{
-			return ((::Mono::Security::ASN1*(*)(::PVOID, ::Mono::Security::ASN1*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_ADD_OFFSET))(this, asn1);
+			return ((::Mono::Security::ASN1*(*)(::PVOID, ::Mono::Security::ASN1*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_ADD_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::Byte>* GetBytes()
@@ -94,24 +94,24 @@ namespace Mono::Security
 			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_GETBYTES_OFFSET))(this);
 		}
 
-		::System::Void Decode(::Il2CppArray<::System::Byte>* asn1, ::System::Int32& anPos, ::System::Int32 anLength)
+		::System::Void Decode(::Il2CppArray<::System::Byte>* a1, ::System::Int32& a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32&, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_DECODE_OFFSET))(this, asn1, anPos, anLength);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32&, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_DECODE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void DecodeTLV(::Il2CppArray<::System::Byte>* asn1, ::System::Int32& pos, ::System::Byte& tag, ::System::Int32& length, ::Il2CppArray<::System::Byte>*& content)
+		::System::Void DecodeTLV(::Il2CppArray<::System::Byte>* a1, ::System::Int32& a2, ::System::Byte& a3, ::System::Int32& a4, ::Il2CppArray<::System::Byte>*& a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32&, ::System::Byte&, ::System::Int32&, ::Il2CppArray<::System::Byte>*&))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_DECODETLV_OFFSET))(this, asn1, pos, tag, length, content);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32&, ::System::Byte&, ::System::Int32&, ::Il2CppArray<::System::Byte>*&))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_DECODETLV_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::Mono::Security::ASN1* get_Item(::System::Int32 index)
+		::Mono::Security::ASN1* get_Item(::System::Int32 a1)
 		{
-			return ((::Mono::Security::ASN1*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_GET_ITEM_OFFSET))(this, index);
+			return ((::Mono::Security::ASN1*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_GET_ITEM_OFFSET))(this, a1);
 		}
 
-		::Mono::Security::ASN1* Element(::System::Int32 index, ::System::Byte anTag)
+		::Mono::Security::ASN1* Element(::System::Int32 a1, ::System::Byte a2)
 		{
-			return ((::Mono::Security::ASN1*(*)(::PVOID, ::System::Int32, ::System::Byte))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_ELEMENT_OFFSET))(this, index, anTag);
+			return ((::Mono::Security::ASN1*(*)(::PVOID, ::System::Int32, ::System::Byte))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_ELEMENT_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* ToString()

@@ -6,36 +6,36 @@ namespace System { class Array; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections { class SortedList; }
 
-#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_ADD_OFFSET UNITYSDK_OFFSET(0x193D7760)
-#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_CLEAR_OFFSET UNITYSDK_OFFSET(0x193D77C0)
-#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_CONTAINS_OFFSET UNITYSDK_OFFSET(0x193D7820)
-#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_COPYTO_OFFSET UNITYSDK_OFFSET(0x193D7850)
-#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x193D7A00)
-#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x193D76C0)
-#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_GET_ISFIXEDSIZE_OFFSET UNITYSDK_OFFSET(0x193D76F0)
-#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x193D76E0)
-#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_GET_ISSYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x193D7700)
-#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x193D7970)
-#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_GET_SYNCROOT_OFFSET UNITYSDK_OFFSET(0x193D7730)
-#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_INDEXOF_OFFSET UNITYSDK_OFFSET(0x193D7A90)
-#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_INSERT_OFFSET UNITYSDK_OFFSET(0x193D7910)
-#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_REMOVEAT_OFFSET UNITYSDK_OFFSET(0x193D7BC0)
-#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_REMOVE_OFFSET UNITYSDK_OFFSET(0x193D7B60)
-#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x193D79A0)
-#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x193D7160)
+#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_ADD_OFFSET UNITYSDK_OFFSET(0x19A24280)
+#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_CLEAR_OFFSET UNITYSDK_OFFSET(0x19A242E0)
+#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_CONTAINS_OFFSET UNITYSDK_OFFSET(0x19A24340)
+#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_COPYTO_OFFSET UNITYSDK_OFFSET(0x19A24370)
+#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19A24520)
+#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x19A241E0)
+#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_GET_ISFIXEDSIZE_OFFSET UNITYSDK_OFFSET(0x19A24210)
+#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x19A24200)
+#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_GET_ISSYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x19A24220)
+#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x19A24490)
+#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_GET_SYNCROOT_OFFSET UNITYSDK_OFFSET(0x19A24250)
+#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_INDEXOF_OFFSET UNITYSDK_OFFSET(0x19A245A0)
+#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_INSERT_OFFSET UNITYSDK_OFFSET(0x19A24430)
+#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_REMOVEAT_OFFSET UNITYSDK_OFFSET(0x19A246D0)
+#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_REMOVE_OFFSET UNITYSDK_OFFSET(0x19A24670)
+#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x19A244C0)
+#define SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19A23CB0)
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int SortedList_KeyList_TypeDefinitionIndex = 1491;
+	inline static constexpr unsigned int SortedList_KeyList_TypeDefinitionIndex = 1490;
 
 	class SortedList_KeyList : public ::System::Object
 	{
 	public:
 		::System::Collections::SortedList* sortedList; // 0x10
 
-		::System::Void _ctor(::System::Collections::SortedList* sortedList)
+		::System::Void _ctor(::System::Collections::SortedList* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::SortedList*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST__CTOR_OFFSET))(this, sortedList);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::SortedList*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_Count()
@@ -63,9 +63,9 @@ namespace System::Collections
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_GET_SYNCROOT_OFFSET))(this);
 		}
 
-		::System::Int32 Add(::System::Object* key)
+		::System::Int32 Add(::System::Object* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_ADD_OFFSET))(this, key);
+			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_ADD_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()
@@ -73,29 +73,29 @@ namespace System::Collections
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_CLEAR_OFFSET))(this);
 		}
 
-		::System::Boolean Contains(::System::Object* key)
+		::System::Boolean Contains(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_CONTAINS_OFFSET))(this, key);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_CONTAINS_OFFSET))(this, a1);
 		}
 
-		::System::Void CopyTo(::System::Array* array, ::System::Int32 arrayIndex)
+		::System::Void CopyTo(::System::Array* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Array*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_COPYTO_OFFSET))(this, array, arrayIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Array*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_COPYTO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Insert(::System::Int32 index, ::System::Object* value)
+		::System::Void Insert(::System::Int32 a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_INSERT_OFFSET))(this, index, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_INSERT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Object* get_Item(::System::Int32 index)
+		::System::Object* get_Item(::System::Int32 a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_GET_ITEM_OFFSET))(this, index);
+			return ((::System::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_GET_ITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Item(::System::Int32 index, ::System::Object* value)
+		::System::Void set_Item(::System::Int32 a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_SET_ITEM_OFFSET))(this, index, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_SET_ITEM_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::IEnumerator* GetEnumerator()
@@ -103,19 +103,19 @@ namespace System::Collections
 			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_GETENUMERATOR_OFFSET))(this);
 		}
 
-		::System::Int32 IndexOf(::System::Object* key)
+		::System::Int32 IndexOf(::System::Object* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_INDEXOF_OFFSET))(this, key);
+			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_INDEXOF_OFFSET))(this, a1);
 		}
 
-		::System::Void Remove(::System::Object* key)
+		::System::Void Remove(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_REMOVE_OFFSET))(this, key);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_REMOVE_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveAt(::System::Int32 index)
+		::System::Void RemoveAt(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_REMOVEAT_OFFSET))(this, index);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SORTEDLIST_KEYLIST_REMOVEAT_OFFSET))(this, a1);
 		}
 	};
 }

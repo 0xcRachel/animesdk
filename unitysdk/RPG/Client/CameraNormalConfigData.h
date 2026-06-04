@@ -12,18 +12,18 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class VCameraNormalConfig; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CAMERANORMALCONFIGDATA_ADDFROMCONFIG_OFFSET UNITYSDK_OFFSET(0x15E21C20)
-#define RPG_CLIENT_CAMERANORMALCONFIGDATA_ADDFROMDATA_OFFSET UNITYSDK_OFFSET(0x15E280B0)
-#define RPG_CLIENT_CAMERANORMALCONFIGDATA_COPYFROMCONFIG_OFFSET UNITYSDK_OFFSET(0x15E213E0)
-#define RPG_CLIENT_CAMERANORMALCONFIGDATA_COPYFROMOTHEREXCLUDEINVALID_OFFSET UNITYSDK_OFFSET(0x15E21540)
-#define RPG_CLIENT_CAMERANORMALCONFIGDATA_GET_ISMELEEATTACK_OFFSET UNITYSDK_OFFSET(0x15E28200)
-#define RPG_CLIENT_CAMERANORMALCONFIGDATA_RESETTARGETENTITIES_OFFSET UNITYSDK_OFFSET(0x15E21D90)
-#define RPG_CLIENT_CAMERANORMALCONFIGDATA_SETFOLLOWANGLETOFOLLOWSPHERICALPOS_OFFSET UNITYSDK_OFFSET(0x15E281A0)
-#define RPG_CLIENT_CAMERANORMALCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15E1FB10)
+#define RPG_CLIENT_CAMERANORMALCONFIGDATA_ADDFROMCONFIG_OFFSET UNITYSDK_OFFSET(0x18FB3C30)
+#define RPG_CLIENT_CAMERANORMALCONFIGDATA_ADDFROMDATA_OFFSET UNITYSDK_OFFSET(0x18FBA460)
+#define RPG_CLIENT_CAMERANORMALCONFIGDATA_COPYFROMCONFIG_OFFSET UNITYSDK_OFFSET(0x18FB33F0)
+#define RPG_CLIENT_CAMERANORMALCONFIGDATA_COPYFROMOTHEREXCLUDEINVALID_OFFSET UNITYSDK_OFFSET(0x18FB3550)
+#define RPG_CLIENT_CAMERANORMALCONFIGDATA_GET_ISMELEEATTACK_OFFSET UNITYSDK_OFFSET(0x18FBA5B0)
+#define RPG_CLIENT_CAMERANORMALCONFIGDATA_RESETTARGETENTITIES_OFFSET UNITYSDK_OFFSET(0x18FB3DA0)
+#define RPG_CLIENT_CAMERANORMALCONFIGDATA_SETFOLLOWANGLETOFOLLOWSPHERICALPOS_OFFSET UNITYSDK_OFFSET(0x18FBA550)
+#define RPG_CLIENT_CAMERANORMALCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18FB1B30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraNormalConfigData_TypeDefinitionIndex = 64111;
+	inline static constexpr unsigned int CameraNormalConfigData_TypeDefinitionIndex = 65032;
 
 	class CameraNormalConfigData : public ::System::Object
 	{
@@ -79,19 +79,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERANORMALCONFIGDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void CopyFromConfig(::RPG::GameCore::VCameraNormalConfig* pVCameraNormalConfig)
+		::System::Void CopyFromConfig(::RPG::GameCore::VCameraNormalConfig* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::VCameraNormalConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERANORMALCONFIGDATA_COPYFROMCONFIG_OFFSET))(this, pVCameraNormalConfig);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::VCameraNormalConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERANORMALCONFIGDATA_COPYFROMCONFIG_OFFSET))(this, a1);
 		}
 
-		::System::Void AddFromConfig(::RPG::GameCore::VCameraNormalConfig* pVCameraNormalConfig)
+		::System::Void AddFromConfig(::RPG::GameCore::VCameraNormalConfig* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::VCameraNormalConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERANORMALCONFIGDATA_ADDFROMCONFIG_OFFSET))(this, pVCameraNormalConfig);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::VCameraNormalConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERANORMALCONFIGDATA_ADDFROMCONFIG_OFFSET))(this, a1);
 		}
 
-		::System::Void AddFromData(::RPG::Client::CameraNormalConfigData* pVCameraNormalConfigData)
+		::System::Void AddFromData(::RPG::Client::CameraNormalConfigData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::CameraNormalConfigData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERANORMALCONFIGDATA_ADDFROMDATA_OFFSET))(this, pVCameraNormalConfigData);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::CameraNormalConfigData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERANORMALCONFIGDATA_ADDFROMDATA_OFFSET))(this, a1);
 		}
 
 		::System::Void SetFollowAngleToFollowSphericalPos()
@@ -104,9 +104,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERANORMALCONFIGDATA_RESETTARGETENTITIES_OFFSET))(this);
 		}
 
-		::System::Void CopyFromOtherExcludeInvalid(::RPG::Client::CameraNormalConfigData* pOther, ::RPG::Client::CameraNormalConfigData* pDefault)
+		::System::Void CopyFromOtherExcludeInvalid(::RPG::Client::CameraNormalConfigData* a1, ::RPG::Client::CameraNormalConfigData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::CameraNormalConfigData*, ::RPG::Client::CameraNormalConfigData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERANORMALCONFIGDATA_COPYFROMOTHEREXCLUDEINVALID_OFFSET))(this, pOther, pDefault);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::CameraNormalConfigData*, ::RPG::Client::CameraNormalConfigData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERANORMALCONFIGDATA_COPYFROMOTHEREXCLUDEINVALID_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_IsMeleeAttack()

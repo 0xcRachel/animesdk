@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_SDKDELEGATE_ISINSTACKTOPDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x157DA770)
-#define MIHOYO_SDK_SDKDELEGATE_ISINSTACKTOPDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x157DA7A0)
-#define MIHOYO_SDK_SDKDELEGATE_ISINSTACKTOPDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x157DA210)
-#define MIHOYO_SDK_SDKDELEGATE_ISINSTACKTOPDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x157DA1F0)
+#define MIHOYO_SDK_SDKDELEGATE_ISINSTACKTOPDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16A4A230)
+#define MIHOYO_SDK_SDKDELEGATE_ISINSTACKTOPDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16A4A260)
+#define MIHOYO_SDK_SDKDELEGATE_ISINSTACKTOPDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16A4A220)
+#define MIHOYO_SDK_SDKDELEGATE_ISINSTACKTOPDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16A4A1B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_IsInStackTopDelegate_TypeDefinitionIndex = 6853;
+	inline static constexpr unsigned int SDKDelegate_IsInStackTopDelegate_TypeDefinitionIndex = 7756;
 
 	class SDKDelegate_IsInStackTopDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ISINSTACKTOPDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ISINSTACKTOPDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Invoke(::System::String* strUIName)
+		::System::Boolean Invoke(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ISINSTACKTOPDELEGATE_INVOKE_OFFSET))(this, strUIName);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ISINSTACKTOPDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* strUIName, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ISINSTACKTOPDELEGATE_BEGININVOKE_OFFSET))(this, strUIName, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ISINSTACKTOPDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean EndInvoke(::System::IAsyncResult* result)
+		::System::Boolean EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ISINSTACKTOPDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ISINSTACKTOPDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

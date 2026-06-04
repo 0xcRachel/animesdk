@@ -7,18 +7,18 @@ namespace RPG::GameCore { class SkillConfig; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF276D30)
-#define RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__SOLVESTANCEWEAKNESSPRESHOW_B__0_OFFSET UNITYSDK_OFFSET(0xF284450)
+#define RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x137047D0)
+#define RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__SOLVESTANCEWEAKNESSPRESHOW_B__0_OFFSET UNITYSDK_OFFSET(0x13711E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GamePlayStatic___c__DisplayClass8_0_TypeDefinitionIndex = 54458;
+	inline static constexpr unsigned int GamePlayStatic___c__DisplayClass8_0_TypeDefinitionIndex = 55185;
 
 	class GamePlayStatic___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::TurnBasedAbilityComponent* pAttackerAbilityCharacter; // 0x10
-		::RPG::GameCore::TurnBasedAbilityComponent* pTargetTurnBasedAbility; // 0x18
+		::RPG::GameCore::TurnBasedAbilityComponent* pTargetTurnBasedAbility; // 0x10
+		::RPG::GameCore::TurnBasedAbilityComponent* pAttackerAbilityCharacter; // 0x18
 		::RPG::GameCore::SkillConfig* pSkillConfig; // 0x20
 		::RPG::GameCore::AttackDamageType addweaknessList; // 0x28
 
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _SolveStanceWeaknessPreshow_b__0(::RPG::GameCore::TurnBasedModifierInstance* instance)
+		::System::Void _SolveStanceWeaknessPreshow_b__0(::RPG::GameCore::TurnBasedModifierInstance* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__SOLVESTANCEWEAKNESSPRESHOW_B__0_OFFSET))(this, instance);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__SOLVESTANCEWEAKNESSPRESHOW_B__0_OFFSET))(this, a1);
 		}
 	};
 }

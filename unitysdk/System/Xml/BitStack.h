@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_BITSTACK_PEEKBIT_OFFSET UNITYSDK_OFFSET(0x186C14D0)
-#define SYSTEM_XML_BITSTACK_POPBIT_OFFSET UNITYSDK_OFFSET(0x186C1420)
-#define SYSTEM_XML_BITSTACK_POPCURR_OFFSET UNITYSDK_OFFSET(0x186C1480)
-#define SYSTEM_XML_BITSTACK_PUSHBIT_OFFSET UNITYSDK_OFFSET(0x186C1340)
-#define SYSTEM_XML_BITSTACK_PUSHCURR_OFFSET UNITYSDK_OFFSET(0x186C1370)
-#define SYSTEM_XML_BITSTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x186C1330)
+#define SYSTEM_XML_BITSTACK_PEEKBIT_OFFSET UNITYSDK_OFFSET(0x18A6D3A0)
+#define SYSTEM_XML_BITSTACK_POPBIT_OFFSET UNITYSDK_OFFSET(0x18A6D310)
+#define SYSTEM_XML_BITSTACK_POPCURR_OFFSET UNITYSDK_OFFSET(0x18A6D360)
+#define SYSTEM_XML_BITSTACK_PUSHBIT_OFFSET UNITYSDK_OFFSET(0x18A6D240)
+#define SYSTEM_XML_BITSTACK_PUSHCURR_OFFSET UNITYSDK_OFFSET(0x18A6D270)
+#define SYSTEM_XML_BITSTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18A6D230)
 
 namespace System::Xml
 {
@@ -17,17 +17,17 @@ namespace System::Xml
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* bitStack; // 0x10
-		::System::Int32 stackPos; // 0x18
-		::System::UInt32 curr; // 0x1C
+		::System::UInt32 curr; // 0x18
+		::System::Int32 stackPos; // 0x1C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_BITSTACK__CTOR_OFFSET))(this);
 		}
 
-		::System::Void PushBit(::System::Boolean bit)
+		::System::Void PushBit(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_BITSTACK_PUSHBIT_OFFSET))(this, bit);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_BITSTACK_PUSHBIT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean PopBit()

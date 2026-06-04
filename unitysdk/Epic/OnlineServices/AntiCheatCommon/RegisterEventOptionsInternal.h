@@ -8,17 +8,17 @@ namespace Epic::OnlineServices::AntiCheatCommon { class RegisterEventParamDef; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2359B00)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x2359A90)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_EVENTID_OFFSET UNITYSDK_OFFSET(0x878E70)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x23598B0)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_EVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1464EA0)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x2359A80)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_PARAMDEFS_OFFSET UNITYSDK_OFFSET(0x2359960)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3903F70)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x3903EF0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_EVENTID_OFFSET UNITYSDK_OFFSET(0xFD2470)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x3903D10)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_EVENTTYPE_OFFSET UNITYSDK_OFFSET(0x3741A70)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x3903EE0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_PARAMDEFS_OFFSET UNITYSDK_OFFSET(0x3903DC0)
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int RegisterEventOptionsInternal_TypeDefinitionIndex = 42505;
+	inline static constexpr unsigned int RegisterEventOptionsInternal_TypeDefinitionIndex = 43308;
 
 	struct alignas(8) RegisterEventOptionsInternal
 	{
@@ -29,34 +29,34 @@ namespace Epic::OnlineServices::AntiCheatCommon
 		::System::UInt32 m_ParamDefsCount; // 0x24
 		::System::IntPtr m_ParamDefs; // 0x28
 
-		::System::Void set_EventId(::System::UInt32 value)
+		::System::Void set_EventId(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_EVENTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_EVENTID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_EventName(::System::String* value)
+		::System::Void set_EventName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_EVENTNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_EVENTNAME_OFFSET))(this, a1);
 		}
 
-		::System::Void set_EventType(::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonEventType value)
+		::System::Void set_EventType(::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonEventType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonEventType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_EVENTTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonEventType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_EVENTTYPE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ParamDefs(::Il2CppArray<::Epic::OnlineServices::AntiCheatCommon::RegisterEventParamDef*>* value)
+		::System::Void set_ParamDefs(::Il2CppArray<::Epic::OnlineServices::AntiCheatCommon::RegisterEventParamDef*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Epic::OnlineServices::AntiCheatCommon::RegisterEventParamDef*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_PARAMDEFS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Epic::OnlineServices::AntiCheatCommon::RegisterEventParamDef*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_PARAMDEFS_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::AntiCheatCommon::RegisterEventOptions* other)
+		::System::Void Set(::Epic::OnlineServices::AntiCheatCommon::RegisterEventOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::RegisterEventOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::RegisterEventOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_REGISTEREVENTOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

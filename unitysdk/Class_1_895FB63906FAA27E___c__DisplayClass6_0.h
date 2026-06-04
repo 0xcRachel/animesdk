@@ -4,10 +4,10 @@
 
 class Class_1_AB111DB9731D063B;
 
-#define CLASS_1_895FB63906FAA27E___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC2C8E20)
-#define CLASS_1_895FB63906FAA27E___C__DISPLAYCLASS6_0__GETOFFICEEVENT_B__0_OFFSET UNITYSDK_OFFSET(0xC2C9D00)
+#define CLASS_1_895FB63906FAA27E___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16735C90)
+#define CLASS_1_895FB63906FAA27E___C__DISPLAYCLASS6_0__GETOFFICEEVENT_B__0_OFFSET UNITYSDK_OFFSET(0x16736C50)
 
-inline static constexpr unsigned int Class_1_895FB63906FAA27E___c__DisplayClass6_0_TypeDefinitionIndex = 68497;
+inline static constexpr unsigned int Class_1_895FB63906FAA27E___c__DisplayClass6_0_TypeDefinitionIndex = 73786;
 
 class Class_1_895FB63906FAA27E___c__DisplayClass6_0 : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_895FB63906FAA27E___C__DISPLAYCLASS6_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean _GetOfficeEvent_b__0(::Class_1_AB111DB9731D063B* x)
+	::System::Boolean _GetOfficeEvent_b__0(::Class_1_AB111DB9731D063B* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_AB111DB9731D063B*))((::PBYTE)hIl2Cpp + CLASS_1_895FB63906FAA27E___C__DISPLAYCLASS6_0__GETOFFICEEVENT_B__0_OFFSET))(this, x);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_AB111DB9731D063B*))((::PBYTE)hIl2Cpp + CLASS_1_895FB63906FAA27E___C__DISPLAYCLASS6_0__GETOFFICEEVENT_B__0_OFFSET))(this, a1);
 	}
 };

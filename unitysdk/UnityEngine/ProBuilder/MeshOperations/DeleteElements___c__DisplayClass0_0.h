@@ -5,15 +5,15 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB9B6F00)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS0_0__DELETEVERTICES_B__0_OFFSET UNITYSDK_OFFSET(0xB9B8C60)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS0_0__DELETEVERTICES_B__1_OFFSET UNITYSDK_OFFSET(0xB9B8CB0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS0_0__DELETEVERTICES_B__2_OFFSET UNITYSDK_OFFSET(0xB9B8D00)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS0_0__DELETEVERTICES_B__3_OFFSET UNITYSDK_OFFSET(0xB9B8D50)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC25A170)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS0_0__DELETEVERTICES_B__0_OFFSET UNITYSDK_OFFSET(0xC25C000)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS0_0__DELETEVERTICES_B__1_OFFSET UNITYSDK_OFFSET(0xC25C070)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS0_0__DELETEVERTICES_B__2_OFFSET UNITYSDK_OFFSET(0xC25C0B0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS0_0__DELETEVERTICES_B__3_OFFSET UNITYSDK_OFFSET(0xC25C120)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int DeleteElements___c__DisplayClass0_0_TypeDefinitionIndex = 40046;
+	inline static constexpr unsigned int DeleteElements___c__DisplayClass0_0_TypeDefinitionIndex = 40873;
 
 	class DeleteElements___c__DisplayClass0_0 : public ::System::Object
 	{
@@ -26,24 +26,24 @@ namespace UnityEngine::ProBuilder::MeshOperations
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS0_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _DeleteVertices_b__0(::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32> x)
+		::System::Boolean _DeleteVertices_b__0(::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS0_0__DELETEVERTICES_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS0_0__DELETEVERTICES_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32> _DeleteVertices_b__1(::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32> y)
+		::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32> _DeleteVertices_b__1(::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32> a1)
 		{
-			return ((::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS0_0__DELETEVERTICES_B__1_OFFSET))(this, y);
+			return ((::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS0_0__DELETEVERTICES_B__1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _DeleteVertices_b__2(::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32> x)
+		::System::Boolean _DeleteVertices_b__2(::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS0_0__DELETEVERTICES_B__2_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS0_0__DELETEVERTICES_B__2_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32> _DeleteVertices_b__3(::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32> y)
+		::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32> _DeleteVertices_b__3(::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32> a1)
 		{
-			return ((::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS0_0__DELETEVERTICES_B__3_OFFSET))(this, y);
+			return ((::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS0_0__DELETEVERTICES_B__3_OFFSET))(this, a1);
 		}
 	};
 }

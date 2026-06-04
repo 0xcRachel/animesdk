@@ -8,33 +8,33 @@
 namespace CriWare { class CriFsBinder; }
 namespace System { class String; }
 
-#define CRIWARE_CRIFSINSTALLER_COPY_OFFSET UNITYSDK_OFFSET(0x19298BC0)
-#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_COPY_OFFSET UNITYSDK_OFFSET(0x192994A0)
-#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_CREATE_OFFSET UNITYSDK_OFFSET(0x19299280)
-#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_DESTROY_OFFSET UNITYSDK_OFFSET(0x19299420)
-#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_EXECUTEMAIN_OFFSET UNITYSDK_OFFSET(0x192997B0)
-#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_GETPROGRESS_OFFSET UNITYSDK_OFFSET(0x192996A0)
-#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x19299610)
-#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_STOP_OFFSET UNITYSDK_OFFSET(0x19299590)
-#define CRIWARE_CRIFSINSTALLER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x19299310)
-#define CRIWARE_CRIFSINSTALLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19299180)
-#define CRIWARE_CRIFSINSTALLER_EXECUTEMAIN_OFFSET UNITYSDK_OFFSET(0x19299730)
-#define CRIWARE_CRIFSINSTALLER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x19299830)
-#define CRIWARE_CRIFSINSTALLER_GETPROGRESS_OFFSET UNITYSDK_OFFSET(0x19299040)
-#define CRIWARE_CRIFSINSTALLER_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x192990E0)
-#define CRIWARE_CRIFSINSTALLER_STOP_OFFSET UNITYSDK_OFFSET(0x19298860)
-#define CRIWARE_CRIFSINSTALLER__CTOR_OFFSET UNITYSDK_OFFSET(0x192989C0)
+#define CRIWARE_CRIFSINSTALLER_COPY_OFFSET UNITYSDK_OFFSET(0x19E5D120)
+#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_COPY_OFFSET UNITYSDK_OFFSET(0x19E5DAB0)
+#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_CREATE_OFFSET UNITYSDK_OFFSET(0x19E5D890)
+#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_DESTROY_OFFSET UNITYSDK_OFFSET(0x19E5DA30)
+#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_EXECUTEMAIN_OFFSET UNITYSDK_OFFSET(0x19E5DDC0)
+#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_GETPROGRESS_OFFSET UNITYSDK_OFFSET(0x19E5DCB0)
+#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x19E5DC20)
+#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_STOP_OFFSET UNITYSDK_OFFSET(0x19E5DBA0)
+#define CRIWARE_CRIFSINSTALLER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x19E5D920)
+#define CRIWARE_CRIFSINSTALLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19E5D730)
+#define CRIWARE_CRIFSINSTALLER_EXECUTEMAIN_OFFSET UNITYSDK_OFFSET(0x19E5DD40)
+#define CRIWARE_CRIFSINSTALLER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x19E5DE40)
+#define CRIWARE_CRIFSINSTALLER_GETPROGRESS_OFFSET UNITYSDK_OFFSET(0x19E5D5F0)
+#define CRIWARE_CRIFSINSTALLER_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x19E5D690)
+#define CRIWARE_CRIFSINSTALLER_STOP_OFFSET UNITYSDK_OFFSET(0x19E5CDC0)
+#define CRIWARE_CRIFSINSTALLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19E5CF20)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsInstaller_TypeDefinitionIndex = 36841;
+	inline static constexpr unsigned int CriFsInstaller_TypeDefinitionIndex = 37141;
 
 	class CriFsInstaller : public ::CriWare::CriDisposable
 	{
 	public:
 		::Il2CppArray<::System::Byte>* installBuffer; // 0x20
-		::System::Runtime::InteropServices::GCHandle installBufferGch; // 0x28
-		::System::IntPtr handle; // 0x30
+		::System::IntPtr handle; // 0x28
+		::System::Runtime::InteropServices::GCHandle installBufferGch; // 0x30
 
 		::System::Void _ctor()
 		{
@@ -46,14 +46,14 @@ namespace CriWare
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Dispose_1(::System::Boolean disposing)
+		::System::Void Dispose_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_DISPOSE_1_OFFSET))(this, disposing);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_DISPOSE_1_OFFSET))(this, a1);
 		}
 
-		::System::Void Copy(::CriWare::CriFsBinder* binder, ::System::String* srcPath, ::System::String* dstPath, ::System::Int32 installBufferSize)
+		::System::Void Copy(::CriWare::CriFsBinder* a1, ::System::String* a2, ::System::String* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::CriWare::CriFsBinder*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_COPY_OFFSET))(this, binder, srcPath, dstPath, installBufferSize);
+			return ((::System::Void(*)(::PVOID, ::CriWare::CriFsBinder*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_COPY_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void Stop()
@@ -86,34 +86,34 @@ namespace CriWare
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_EXECUTEMAIN_OFFSET))();
 		}
 
-		static ::System::Int32 criFsInstaller_Create(::System::IntPtr& installer, ::CriWare::CriFsInstaller_CopyPolicy option)
+		static ::System::Int32 criFsInstaller_Create(::System::IntPtr& a1, ::CriWare::CriFsInstaller_CopyPolicy a2)
 		{
-			return ((::System::Int32(*)(::System::IntPtr&, ::CriWare::CriFsInstaller_CopyPolicy))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_CREATE_OFFSET))(installer, option);
+			return ((::System::Int32(*)(::System::IntPtr&, ::CriWare::CriFsInstaller_CopyPolicy))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_CREATE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 criFsInstaller_Destroy(::System::IntPtr installer)
+		static ::System::Int32 criFsInstaller_Destroy(::System::IntPtr a1)
 		{
-			return ((::System::Int32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_DESTROY_OFFSET))(installer);
+			return ((::System::Int32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_DESTROY_OFFSET))(a1);
 		}
 
-		static ::System::Int32 criFsInstaller_Copy(::System::IntPtr installer, ::System::IntPtr binder, ::System::String* src_path, ::System::String* dst_path, ::System::IntPtr buffer, ::System::Int64 buffer_size)
+		static ::System::Int32 criFsInstaller_Copy(::System::IntPtr a1, ::System::IntPtr a2, ::System::String* a3, ::System::String* a4, ::System::IntPtr a5, ::System::Int64 a6)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::IntPtr, ::System::String*, ::System::String*, ::System::IntPtr, ::System::Int64))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_COPY_OFFSET))(installer, binder, src_path, dst_path, buffer, buffer_size);
+			return ((::System::Int32(*)(::System::IntPtr, ::System::IntPtr, ::System::String*, ::System::String*, ::System::IntPtr, ::System::Int64))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_COPY_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Int32 criFsInstaller_Stop(::System::IntPtr installer)
+		static ::System::Int32 criFsInstaller_Stop(::System::IntPtr a1)
 		{
-			return ((::System::Int32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_STOP_OFFSET))(installer);
+			return ((::System::Int32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_STOP_OFFSET))(a1);
 		}
 
-		static ::System::Int32 criFsInstaller_GetStatus(::System::IntPtr installer, ::CriWare::CriFsInstaller_Status& status)
+		static ::System::Int32 criFsInstaller_GetStatus(::System::IntPtr a1, ::CriWare::CriFsInstaller_Status& a2)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::CriWare::CriFsInstaller_Status&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_GETSTATUS_OFFSET))(installer, status);
+			return ((::System::Int32(*)(::System::IntPtr, ::CriWare::CriFsInstaller_Status&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_GETSTATUS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 criFsInstaller_GetProgress(::System::IntPtr installer, ::System::Single& progress)
+		static ::System::Int32 criFsInstaller_GetProgress(::System::IntPtr a1, ::System::Single& a2)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::Single&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_GETPROGRESS_OFFSET))(installer, progress);
+			return ((::System::Int32(*)(::System::IntPtr, ::System::Single&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_GETPROGRESS_OFFSET))(a1, a2);
 		}
 	};
 }

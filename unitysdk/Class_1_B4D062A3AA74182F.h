@@ -5,24 +5,24 @@
 
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define CLASS_1_B4D062A3AA74182F_GET_VERTEXHELPER_OFFSET UNITYSDK_OFFSET(0x14C15170)
-#define CLASS_1_B4D062A3AA74182F_METHOD_1_919EAABE1DE143F5_OFFSET UNITYSDK_OFFSET(0x14C153E0)
-#define CLASS_1_B4D062A3AA74182F_METHOD_1_C7A86E665C83271A_OFFSET UNITYSDK_OFFSET(0x14C15190)
-#define CLASS_1_B4D062A3AA74182F_SET_VERTEXHELPER_OFFSET UNITYSDK_OFFSET(0x14C15180)
-#define CLASS_1_B4D062A3AA74182F__CCTOR_OFFSET UNITYSDK_OFFSET(0x14C156A0)
-#define CLASS_1_B4D062A3AA74182F__CTOR_OFFSET UNITYSDK_OFFSET(0x14C15660)
+#define CLASS_1_B4D062A3AA74182F_GET_VERTEXHELPER_OFFSET UNITYSDK_OFFSET(0x173DA0F0)
+#define CLASS_1_B4D062A3AA74182F_METHOD_1_919EAABE1DE143F5_OFFSET UNITYSDK_OFFSET(0x173DA360)
+#define CLASS_1_B4D062A3AA74182F_METHOD_1_C7A86E665C83271A_OFFSET UNITYSDK_OFFSET(0x173DA110)
+#define CLASS_1_B4D062A3AA74182F_SET_VERTEXHELPER_OFFSET UNITYSDK_OFFSET(0x173DA100)
+#define CLASS_1_B4D062A3AA74182F__CCTOR_OFFSET UNITYSDK_OFFSET(0x173DA620)
+#define CLASS_1_B4D062A3AA74182F__CTOR_OFFSET UNITYSDK_OFFSET(0x173DA5E0)
 
-inline static constexpr unsigned int Class_1_B4D062A3AA74182F_TypeDefinitionIndex = 67686;
+inline static constexpr unsigned int Class_1_B4D062A3AA74182F_TypeDefinitionIndex = 68644;
 
 class Class_1_B4D062A3AA74182F : public ::System::Object
 {
 public:
 	static ::System::Int32* StaticGet_Field_1_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_B4D062A3AA74182F_TypeDefinitionIndex)->GetStaticField(0x10E40);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_B4D062A3AA74182F_TypeDefinitionIndex)->GetStaticField(0xF2E0);
 	}
-	::Il2CppArray<::UnityEngine::UIVertex>* Field_1_1; // 0x10
-	::UnityEngine::UI::VertexHelper* _VertexHelper_k__BackingField; // 0x18
+	::UnityEngine::UI::VertexHelper* _VertexHelper_k__BackingField; // 0x10
+	::Il2CppArray<::UnityEngine::UIVertex>* Field_1_2; // 0x18
 
 	::System::Void _ctor()
 	{
@@ -39,9 +39,9 @@ public:
 		return ((::UnityEngine::UI::VertexHelper*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B4D062A3AA74182F_GET_VERTEXHELPER_OFFSET))(this);
 	}
 
-	::System::Void set_VertexHelper(::UnityEngine::UI::VertexHelper* value)
+	::System::Void set_VertexHelper(::UnityEngine::UI::VertexHelper* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + CLASS_1_B4D062A3AA74182F_SET_VERTEXHELPER_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + CLASS_1_B4D062A3AA74182F_SET_VERTEXHELPER_OFFSET))(this, a1);
 	}
 
 	::System::Boolean Method_1_C7A86E665C83271A(::System::Int32 a1, ::Il2CppArray<::UnityEngine::UIVertex>*& a2)

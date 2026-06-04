@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_3_85AC304C554D1558_19;
+class Class_3_1F2DB301ED9D3F9B;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_27518451A20BB161_94_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10948A60)
-#define CLASS_3_27518451A20BB161_94_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10948AA0)
-#define CLASS_3_27518451A20BB161_94__CTOR_OFFSET UNITYSDK_OFFSET(0x10948A30)
-#define CLASS_3_27518451A20BB161_94___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10948B80)
+#define CLASS_3_27518451A20BB161_94_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13E48EE0)
+#define CLASS_3_27518451A20BB161_94_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13E48F20)
+#define CLASS_3_27518451A20BB161_94__CTOR_OFFSET UNITYSDK_OFFSET(0x13E48EB0)
+#define CLASS_3_27518451A20BB161_94___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13E491C0)
 
-inline static constexpr unsigned int Class_3_27518451A20BB161_94_TypeDefinitionIndex = 49709;
+inline static constexpr unsigned int Class_3_27518451A20BB161_94_TypeDefinitionIndex = 50354;
 
-class Class_3_27518451A20BB161_94 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_85AC304C554D1558_19*>
+class Class_3_27518451A20BB161_94 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_1F2DB301ED9D3F9B*>
 {
 public:
-	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_85AC304C554D1558_19* a2)
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_1F2DB301ED9D3F9B* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_85AC304C554D1558_19*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_94__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_1F2DB301ED9D3F9B*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_94__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Dispose()

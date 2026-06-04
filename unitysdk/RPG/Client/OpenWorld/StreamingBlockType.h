@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int StreamingBlockType_TypeDefinitionIndex = 68039;
+	inline static constexpr unsigned int StreamingBlockType_TypeDefinitionIndex = 68998;
 
 	enum class StreamingBlockType : ::System::Int32
 	{

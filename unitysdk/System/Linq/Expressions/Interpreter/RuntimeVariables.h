@@ -5,26 +5,26 @@
 namespace System::Runtime::CompilerServices { class IRuntimeVariables; }
 namespace System::Runtime::CompilerServices { class IStrongBox; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RUNTIMEVARIABLES_CREATE_OFFSET UNITYSDK_OFFSET(0x19C7D250)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RUNTIMEVARIABLES__CTOR_OFFSET UNITYSDK_OFFSET(0x19C7D240)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RUNTIMEVARIABLES_CREATE_OFFSET UNITYSDK_OFFSET(0x1A69BC70)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RUNTIMEVARIABLES__CTOR_OFFSET UNITYSDK_OFFSET(0x1A69BC60)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int RuntimeVariables_TypeDefinitionIndex = 3605;
+	inline static constexpr unsigned int RuntimeVariables_TypeDefinitionIndex = 3606;
 
 	class RuntimeVariables : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Runtime::CompilerServices::IStrongBox*>* _boxes; // 0x10
 
-		::System::Void _ctor(::Il2CppArray<::System::Runtime::CompilerServices::IStrongBox*>* boxes)
+		::System::Void _ctor(::Il2CppArray<::System::Runtime::CompilerServices::IStrongBox*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Runtime::CompilerServices::IStrongBox*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RUNTIMEVARIABLES__CTOR_OFFSET))(this, boxes);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Runtime::CompilerServices::IStrongBox*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RUNTIMEVARIABLES__CTOR_OFFSET))(this, a1);
 		}
 
-		static ::System::Runtime::CompilerServices::IRuntimeVariables* Create(::Il2CppArray<::System::Runtime::CompilerServices::IStrongBox*>* boxes)
+		static ::System::Runtime::CompilerServices::IRuntimeVariables* Create(::Il2CppArray<::System::Runtime::CompilerServices::IStrongBox*>* a1)
 		{
-			return ((::System::Runtime::CompilerServices::IRuntimeVariables*(*)(::Il2CppArray<::System::Runtime::CompilerServices::IStrongBox*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RUNTIMEVARIABLES_CREATE_OFFSET))(boxes);
+			return ((::System::Runtime::CompilerServices::IRuntimeVariables*(*)(::Il2CppArray<::System::Runtime::CompilerServices::IStrongBox*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RUNTIMEVARIABLES_CREATE_OFFSET))(a1);
 		}
 	};
 }

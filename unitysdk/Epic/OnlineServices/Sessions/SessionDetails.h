@@ -10,17 +10,17 @@ namespace Epic::OnlineServices::Sessions { class SessionDetailsCopySessionAttrib
 namespace Epic::OnlineServices::Sessions { class SessionDetailsGetSessionAttributeCountOptions; }
 namespace Epic::OnlineServices::Sessions { class SessionDetailsInfo; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS_COPYINFO_OFFSET UNITYSDK_OFFSET(0x19689330)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS_COPYSESSIONATTRIBUTEBYINDEX_OFFSET UNITYSDK_OFFSET(0x196895D0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS_COPYSESSIONATTRIBUTEBYKEY_OFFSET UNITYSDK_OFFSET(0x196897D0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS_GETSESSIONATTRIBUTECOUNT_OFFSET UNITYSDK_OFFSET(0x19689A60)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS_RELEASE_OFFSET UNITYSDK_OFFSET(0x19689C80)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19689320)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS__CTOR_OFFSET UNITYSDK_OFFSET(0x19689310)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS_COPYINFO_OFFSET UNITYSDK_OFFSET(0x1A460170)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS_COPYSESSIONATTRIBUTEBYINDEX_OFFSET UNITYSDK_OFFSET(0x1A460430)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS_COPYSESSIONATTRIBUTEBYKEY_OFFSET UNITYSDK_OFFSET(0x1A460630)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS_GETSESSIONATTRIBUTECOUNT_OFFSET UNITYSDK_OFFSET(0x1A4608C0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS_RELEASE_OFFSET UNITYSDK_OFFSET(0x1A460B00)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A460160)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A460150)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int SessionDetails_TypeDefinitionIndex = 41324;
+	inline static constexpr unsigned int SessionDetails_TypeDefinitionIndex = 42127;
 
 	class SessionDetails : public ::Epic::OnlineServices::Handle
 	{
@@ -38,29 +38,29 @@ namespace Epic::OnlineServices::Sessions
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result CopyInfo(::Epic::OnlineServices::Sessions::SessionDetailsCopyInfoOptions* options, ::Epic::OnlineServices::Sessions::SessionDetailsInfo*& outSessionInfo)
+		::Epic::OnlineServices::Result CopyInfo(::Epic::OnlineServices::Sessions::SessionDetailsCopyInfoOptions* a1, ::Epic::OnlineServices::Sessions::SessionDetailsInfo*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionDetailsCopyInfoOptions*, ::Epic::OnlineServices::Sessions::SessionDetailsInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS_COPYINFO_OFFSET))(this, options, outSessionInfo);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionDetailsCopyInfoOptions*, ::Epic::OnlineServices::Sessions::SessionDetailsInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS_COPYINFO_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopySessionAttributeByIndex(::Epic::OnlineServices::Sessions::SessionDetailsCopySessionAttributeByIndexOptions* options, ::Epic::OnlineServices::Sessions::SessionDetailsAttribute*& outSessionAttribute)
+		::Epic::OnlineServices::Result CopySessionAttributeByIndex(::Epic::OnlineServices::Sessions::SessionDetailsCopySessionAttributeByIndexOptions* a1, ::Epic::OnlineServices::Sessions::SessionDetailsAttribute*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionDetailsCopySessionAttributeByIndexOptions*, ::Epic::OnlineServices::Sessions::SessionDetailsAttribute*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS_COPYSESSIONATTRIBUTEBYINDEX_OFFSET))(this, options, outSessionAttribute);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionDetailsCopySessionAttributeByIndexOptions*, ::Epic::OnlineServices::Sessions::SessionDetailsAttribute*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS_COPYSESSIONATTRIBUTEBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopySessionAttributeByKey(::Epic::OnlineServices::Sessions::SessionDetailsCopySessionAttributeByKeyOptions* options, ::Epic::OnlineServices::Sessions::SessionDetailsAttribute*& outSessionAttribute)
+		::Epic::OnlineServices::Result CopySessionAttributeByKey(::Epic::OnlineServices::Sessions::SessionDetailsCopySessionAttributeByKeyOptions* a1, ::Epic::OnlineServices::Sessions::SessionDetailsAttribute*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionDetailsCopySessionAttributeByKeyOptions*, ::Epic::OnlineServices::Sessions::SessionDetailsAttribute*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS_COPYSESSIONATTRIBUTEBYKEY_OFFSET))(this, options, outSessionAttribute);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionDetailsCopySessionAttributeByKeyOptions*, ::Epic::OnlineServices::Sessions::SessionDetailsAttribute*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS_COPYSESSIONATTRIBUTEBYKEY_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 GetSessionAttributeCount(::Epic::OnlineServices::Sessions::SessionDetailsGetSessionAttributeCountOptions* options)
+		::System::UInt32 GetSessionAttributeCount(::Epic::OnlineServices::Sessions::SessionDetailsGetSessionAttributeCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionDetailsGetSessionAttributeCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS_GETSESSIONATTRIBUTECOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionDetailsGetSessionAttributeCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILS_GETSESSIONATTRIBUTECOUNT_OFFSET))(this, a1);
 		}
 
 		::System::Void Release()

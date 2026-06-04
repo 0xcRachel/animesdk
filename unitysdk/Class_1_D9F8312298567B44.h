@@ -16,53 +16,51 @@
 
 namespace System { class String; }
 
-#define CLASS_1_D9F8312298567B44_METHOD_1_43CCBC2ADB276A81_OFFSET UNITYSDK_OFFSET(0xCA8B5E0)
-#define CLASS_1_D9F8312298567B44__CCTOR_OFFSET UNITYSDK_OFFSET(0xCA8B640)
+#define CLASS_1_D9F8312298567B44_METHOD_1_43CCBC2ADB276A81_OFFSET UNITYSDK_OFFSET(0x163030F0)
+#define CLASS_1_D9F8312298567B44__CCTOR_OFFSET UNITYSDK_OFFSET(0x16303150)
 
-inline static constexpr unsigned int Class_1_D9F8312298567B44_TypeDefinitionIndex = 45598;
+inline static constexpr unsigned int Class_1_D9F8312298567B44_TypeDefinitionIndex = 46181;
 
 class Class_1_D9F8312298567B44 : public ::System::Object
 {
 public:
-	static ::UnityEngine::Vector3* StaticGet_Field_1_41()
+	static ::UnityEngine::Color* StaticGet_Field_1_0()
 	{
-		return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x3F10);
+		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x7CA0);
 	}
-	static ::UnityEngine::LayerMask* StaticGet_Field_1_44()
+	static ::System::Boolean* StaticGet_Field_1_1()
 	{
-		return (::UnityEngine::LayerMask*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x3F1C);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x7CB0);
 	}
-	static ::UnityEngine::Color* StaticGet_Field_1_7()
+	static ::UnityEngine::Vector3* StaticGet_Field_1_2()
 	{
-		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x3F20);
+		return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x7CB4);
 	}
-	static ::System::Boolean* StaticGet_Field_1_6()
+	static ::UnityEngine::LayerMask* StaticGet_Field_1_3()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x3F30);
+		return (::UnityEngine::LayerMask*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x7CC0);
 	}
-	// static const ::System::String* Field_1_0; // 0x0
-	// static const ::System::String* Field_1_1; // 0x0
-	// static const ::System::String* Field_1_2; // 0x0
-	// static const ::System::String* Field_1_3; // 0x0
 	// static const ::System::String* Field_1_4; // 0x0
 	// static const ::System::String* Field_1_5; // 0x0
-	// static const ::VLB::ColorMode Field_1_8; // 0x0
-	// static const ::System::Single Field_1_9; // 0x0
-	// static const ::System::Single Field_1_10; // 0x0
+	// static const ::System::String* Field_1_6; // 0x0
+	// static const ::System::String* Field_1_7; // 0x0
+	// static const ::System::String* Field_1_8; // 0x0
+	// static const ::System::String* Field_1_9; // 0x0
+	// static const ::VLB::ColorMode Field_1_10; // 0x0
 	// static const ::System::Single Field_1_11; // 0x0
 	// static const ::System::Single Field_1_12; // 0x0
 	// static const ::System::Single Field_1_13; // 0x0
-	// static const ::VLB::MeshType Field_1_14; // 0x0
-	// static const ::System::Int32 Field_1_15 = 0x12; // 0x0
-	// static const ::System::Int32 Field_1_16 = 0x3; // 0x0
-	// static const ::System::Int32 Field_1_17 = 0x100; // 0x0
-	// static const ::System::Int32 Field_1_18 = 0x5; // 0x0
-	// static const ::System::Int32 Field_1_19 = 0x0; // 0x0
-	// static const ::System::Int32 Field_1_20 = 0x40; // 0x0
-	// static const ::System::Boolean Field_1_21; // 0x0
-	// static const ::VLB::AttenuationEquation Field_1_22; // 0x0
-	// static const ::System::Single Field_1_23; // 0x0
-	// static const ::System::Single Field_1_24; // 0x0
+	// static const ::System::Single Field_1_14; // 0x0
+	// static const ::System::Single Field_1_15; // 0x0
+	// static const ::VLB::MeshType Field_1_16; // 0x0
+	// static const ::System::Int32 Field_1_17 = 0x12; // 0x0
+	// static const ::System::Int32 Field_1_18 = 0x3; // 0x0
+	// static const ::System::Int32 Field_1_19 = 0x100; // 0x0
+	// static const ::System::Int32 Field_1_20 = 0x5; // 0x0
+	// static const ::System::Int32 Field_1_21 = 0x0; // 0x0
+	// static const ::System::Int32 Field_1_22 = 0x40; // 0x0
+	// static const ::System::Boolean Field_1_23; // 0x0
+	// static const ::VLB::AttenuationEquation Field_1_24; // 0x0
 	// static const ::System::Single Field_1_25; // 0x0
 	// static const ::System::Single Field_1_26; // 0x0
 	// static const ::System::Single Field_1_27; // 0x0
@@ -79,8 +77,10 @@ public:
 	// static const ::System::Single Field_1_38; // 0x0
 	// static const ::System::Single Field_1_39; // 0x0
 	// static const ::System::Single Field_1_40; // 0x0
-	// static const ::VLB::BlendingMode Field_1_42; // 0x0
-	// static const ::VLB::OccluderDimensions Field_1_43; // 0x0
+	// static const ::System::Single Field_1_41; // 0x0
+	// static const ::System::Single Field_1_42; // 0x0
+	// static const ::VLB::BlendingMode Field_1_43; // 0x0
+	// static const ::VLB::OccluderDimensions Field_1_44; // 0x0
 	// static const ::System::Single Field_1_45; // 0x0
 	// static const ::System::Int32 Field_1_46 = 0x3; // 0x0
 	// static const ::System::Single Field_1_47; // 0x0

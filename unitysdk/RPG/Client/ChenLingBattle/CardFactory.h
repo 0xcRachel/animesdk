@@ -6,24 +6,24 @@ namespace RPG::Client::ChenLingBattle { class CardConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CARDFACTORY_CREATECARDCONFIGS_OFFSET UNITYSDK_OFFSET(0x17C94800)
-#define RPG_CLIENT_CHENLINGBATTLE_CARDFACTORY_CREATECARDCONFIG_OFFSET UNITYSDK_OFFSET(0x17C947B0)
+#define RPG_CLIENT_CHENLINGBATTLE_CARDFACTORY_CREATECARDCONFIGS_OFFSET UNITYSDK_OFFSET(0x17B2D1D0)
+#define RPG_CLIENT_CHENLINGBATTLE_CARDFACTORY_CREATECARDCONFIG_OFFSET UNITYSDK_OFFSET(0x17B2D180)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int CardFactory_TypeDefinitionIndex = 69986;
+	inline static constexpr unsigned int CardFactory_TypeDefinitionIndex = 70798;
 
 	class CardFactory : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ChenLingBattle::CardConfig* CreateCardConfig(::System::UInt32 id, ::System::Int32 index)
+		static ::RPG::Client::ChenLingBattle::CardConfig* CreateCardConfig(::System::UInt32 a1, ::System::Int32 a2)
 		{
-			return ((::RPG::Client::ChenLingBattle::CardConfig*(*)(::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CARDFACTORY_CREATECARDCONFIG_OFFSET))(id, index);
+			return ((::RPG::Client::ChenLingBattle::CardConfig*(*)(::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CARDFACTORY_CREATECARDCONFIG_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::CardConfig*>* CreateCardConfigs(::System::Collections::Generic::IEnumerable_1<::System::UInt32>* ids)
+		static ::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::CardConfig*>* CreateCardConfigs(::System::Collections::Generic::IEnumerable_1<::System::UInt32>* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::CardConfig*>*(*)(::System::Collections::Generic::IEnumerable_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CARDFACTORY_CREATECARDCONFIGS_OFFSET))(ids);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::CardConfig*>*(*)(::System::Collections::Generic::IEnumerable_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CARDFACTORY_CREATECARDCONFIGS_OFFSET))(a1);
 		}
 	};
 }

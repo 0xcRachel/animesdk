@@ -15,48 +15,48 @@ namespace RPG::GameCore { class LevelMinimapSection; }
 namespace RPG::GameCore { class PropComponent; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_MAPLAYERMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x158D1A80)
-#define RPG_CLIENT_MAPLAYERMANAGER_GETAREALAYERLIST_OFFSET UNITYSDK_OFFSET(0x158D2F80)
-#define RPG_CLIENT_MAPLAYERMANAGER_GETDEFAULTLAYER_OFFSET UNITYSDK_OFFSET(0x158D3050)
-#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYERLIST_OFFSET UNITYSDK_OFFSET(0x158D2F20)
-#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYERNUMBER_OFFSET UNITYSDK_OFFSET(0x158D2E90)
-#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_1_OFFSET UNITYSDK_OFFSET(0x158D2340)
-#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_2_OFFSET UNITYSDK_OFFSET(0x158D24A0)
-#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_3_OFFSET UNITYSDK_OFFSET(0x158D2670)
-#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_4_OFFSET UNITYSDK_OFFSET(0x158D26F0)
-#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_5_OFFSET UNITYSDK_OFFSET(0x158D2B00)
-#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_6_OFFSET UNITYSDK_OFFSET(0x158D2B60)
-#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_7_OFFSET UNITYSDK_OFFSET(0x158D2E10)
-#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_8_OFFSET UNITYSDK_OFFSET(0x158D31E0)
-#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_OFFSET UNITYSDK_OFFSET(0x158D20C0)
-#define RPG_CLIENT_MAPLAYERMANAGER_GETLOCALAVATARLAYER_OFFSET UNITYSDK_OFFSET(0x158D1E80)
-#define RPG_CLIENT_MAPLAYERMANAGER_GETMAPLAYER_OFFSET UNITYSDK_OFFSET(0x158D1BF0)
-#define RPG_CLIENT_MAPLAYERMANAGER_GET_PLAYERMAPLAYER_OFFSET UNITYSDK_OFFSET(0x158D3DA0)
-#define RPG_CLIENT_MAPLAYERMANAGER_SETCURRENTMAP_OFFSET UNITYSDK_OFFSET(0x158D1BA0)
-#define RPG_CLIENT_MAPLAYERMANAGER_SET_PLAYERMAPLAYER_OFFSET UNITYSDK_OFFSET(0x158D37A0)
-#define RPG_CLIENT_MAPLAYERMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x158D3DB0)
-#define RPG_CLIENT_MAPLAYERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x158D1900)
-#define RPG_CLIENT_MAPLAYERMANAGER__GETANCHORDEF_OFFSET UNITYSDK_OFFSET(0x158D27C0)
-#define RPG_CLIENT_MAPLAYERMANAGER__GETLAYERBYGAMEENTITY_OFFSET UNITYSDK_OFFSET(0x158D2250)
-#define RPG_CLIENT_MAPLAYERMANAGER__GETLAYERBYLOCALPLAYER_OFFSET UNITYSDK_OFFSET(0x158D1EE0)
-#define RPG_CLIENT_MAPLAYERMANAGER__GETLAYERBYMASK_OFFSET UNITYSDK_OFFSET(0x158D3130)
-#define RPG_CLIENT_MAPLAYERMANAGER__ONADVENTUREPHASEENTERED_OFFSET UNITYSDK_OFFSET(0x158D37F0)
-#define RPG_CLIENT_MAPLAYERMANAGER__ONCHARACTERSTEPONCOLLIDERCHANGE_OFFSET UNITYSDK_OFFSET(0x158D3B70)
-#define RPG_CLIENT_MAPLAYERMANAGER__ONCHARACTERTELEPORT_OFFSET UNITYSDK_OFFSET(0x158D3AD0)
-#define RPG_CLIENT_MAPLAYERMANAGER__ONNPCSTATUSCHANGE_OFFSET UNITYSDK_OFFSET(0x158D3840)
-#define RPG_CLIENT_MAPLAYERMANAGER__RAYCASTTOGROUND_OFFSET UNITYSDK_OFFSET(0x158D3440)
-#define RPG_CLIENT_MAPLAYERMANAGER__UPDATEPLAYERMAPLAYER_OFFSET UNITYSDK_OFFSET(0x158D36C0)
+#define RPG_CLIENT_MAPLAYERMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1514ECA0)
+#define RPG_CLIENT_MAPLAYERMANAGER_GETAREALAYERLIST_OFFSET UNITYSDK_OFFSET(0x151500E0)
+#define RPG_CLIENT_MAPLAYERMANAGER_GETDEFAULTLAYER_OFFSET UNITYSDK_OFFSET(0x151501B0)
+#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYERLIST_OFFSET UNITYSDK_OFFSET(0x15150080)
+#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYERNUMBER_OFFSET UNITYSDK_OFFSET(0x1514FFF0)
+#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_1_OFFSET UNITYSDK_OFFSET(0x1514F530)
+#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_2_OFFSET UNITYSDK_OFFSET(0x1514F690)
+#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_3_OFFSET UNITYSDK_OFFSET(0x1514F7F0)
+#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_4_OFFSET UNITYSDK_OFFSET(0x1514F870)
+#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_5_OFFSET UNITYSDK_OFFSET(0x1514FBD0)
+#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_6_OFFSET UNITYSDK_OFFSET(0x1514FC30)
+#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_7_OFFSET UNITYSDK_OFFSET(0x1514FF70)
+#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_8_OFFSET UNITYSDK_OFFSET(0x15150340)
+#define RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_OFFSET UNITYSDK_OFFSET(0x1514F2B0)
+#define RPG_CLIENT_MAPLAYERMANAGER_GETLOCALAVATARLAYER_OFFSET UNITYSDK_OFFSET(0x1514F070)
+#define RPG_CLIENT_MAPLAYERMANAGER_GETMAPLAYER_OFFSET UNITYSDK_OFFSET(0x1514EE50)
+#define RPG_CLIENT_MAPLAYERMANAGER_GET_PLAYERMAPLAYER_OFFSET UNITYSDK_OFFSET(0x15150F00)
+#define RPG_CLIENT_MAPLAYERMANAGER_SETCURRENTMAP_OFFSET UNITYSDK_OFFSET(0x1514EE00)
+#define RPG_CLIENT_MAPLAYERMANAGER_SET_PLAYERMAPLAYER_OFFSET UNITYSDK_OFFSET(0x151508F0)
+#define RPG_CLIENT_MAPLAYERMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15150F10)
+#define RPG_CLIENT_MAPLAYERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1514EAE0)
+#define RPG_CLIENT_MAPLAYERMANAGER__GETANCHORDEF_OFFSET UNITYSDK_OFFSET(0x1514F940)
+#define RPG_CLIENT_MAPLAYERMANAGER__GETLAYERBYGAMEENTITY_OFFSET UNITYSDK_OFFSET(0x1514F440)
+#define RPG_CLIENT_MAPLAYERMANAGER__GETLAYERBYLOCALPLAYER_OFFSET UNITYSDK_OFFSET(0x1514F0D0)
+#define RPG_CLIENT_MAPLAYERMANAGER__GETLAYERBYMASK_OFFSET UNITYSDK_OFFSET(0x15150290)
+#define RPG_CLIENT_MAPLAYERMANAGER__ONADVENTUREPHASEENTERED_OFFSET UNITYSDK_OFFSET(0x15150940)
+#define RPG_CLIENT_MAPLAYERMANAGER__ONCHARACTERSTEPONCOLLIDERCHANGE_OFFSET UNITYSDK_OFFSET(0x15150CD0)
+#define RPG_CLIENT_MAPLAYERMANAGER__ONCHARACTERTELEPORT_OFFSET UNITYSDK_OFFSET(0x15150C20)
+#define RPG_CLIENT_MAPLAYERMANAGER__ONNPCSTATUSCHANGE_OFFSET UNITYSDK_OFFSET(0x15150990)
+#define RPG_CLIENT_MAPLAYERMANAGER__RAYCASTTOGROUND_OFFSET UNITYSDK_OFFSET(0x151505A0)
+#define RPG_CLIENT_MAPLAYERMANAGER__UPDATEPLAYERMAPLAYER_OFFSET UNITYSDK_OFFSET(0x15150810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MapLayerManager_TypeDefinitionIndex = 55858;
+	inline static constexpr unsigned int MapLayerManager_TypeDefinitionIndex = 56613;
 
 	class MapLayerManager : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_INVALID_LAYER()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MapLayerManager_TypeDefinitionIndex)->GetStaticField(0x2260);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MapLayerManager_TypeDefinitionIndex)->GetStaticField(0x8ED0);
 		}
 		// static const ::System::Int32 MOVEABLE_LAYER = 0x0; // 0x0
 		// static const ::System::Int32 FIRST_LAYER = 0x1; // 0x0
@@ -65,15 +65,15 @@ namespace RPG::Client
 		// static const ::System::Single RANGE_TIER_TWO; // 0x0
 		// static const ::System::Single RANGE_TIER_THREE; // 0x0
 		// static const ::System::Single RANGE_TIER_FOUR; // 0x0
-		::RPG::Client::MapDef* _currentMap; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* _monsterMapLayer; // 0x18
-		::RPG::Client::AdventurePhase* _adventurePhase; // 0x20
-		::System::Int32 _playerMapLayer; // 0x28
-		::System::Boolean NeedPlayerUpdateMapLayer; // 0x2C
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* _monsterMapLayer; // 0x10
+		::RPG::Client::AdventurePhase* _adventurePhase; // 0x18
+		::RPG::Client::MapDef* _currentMap; // 0x20
+		::System::Boolean NeedPlayerUpdateMapLayer; // 0x28
+		::System::Int32 _playerMapLayer; // 0x2C
 
-		::System::Void _ctor(::RPG::Client::AdventurePhase* adventurePhase)
+		::System::Void _ctor(::RPG::Client::AdventurePhase* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::AdventurePhase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER__CTOR_OFFSET))(this, adventurePhase);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::AdventurePhase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER__CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -86,14 +86,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void SetCurrentMap(::RPG::Client::MapDef* mapDef)
+		::System::Void SetCurrentMap(::RPG::Client::MapDef* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MapDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_SETCURRENTMAP_OFFSET))(this, mapDef);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MapDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_SETCURRENTMAP_OFFSET))(this, a1);
 		}
 
-		static ::System::Int32 GetMapLayer(::RPG::Client::MapDef* mapDef, ::System::UInt32 groupID, ::System::UInt32 instanceID)
+		static ::System::Int32 GetMapLayer(::RPG::Client::MapDef* a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Int32(*)(::RPG::Client::MapDef*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETMAPLAYER_OFFSET))(mapDef, groupID, instanceID);
+			return ((::System::Int32(*)(::RPG::Client::MapDef*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETMAPLAYER_OFFSET))(a1, a2, a3);
 		}
 
 		::System::Int32 GetLocalAvatarLayer()
@@ -101,49 +101,49 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETLOCALAVATARLAYER_OFFSET))(this);
 		}
 
-		::System::Int32 GetLayer(::RPG::GameCore::PropComponent* prop)
+		::System::Int32 GetLayer(::RPG::GameCore::PropComponent* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::PropComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_OFFSET))(this, prop);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::PropComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetLayer_1(::RPG::Client::MapProp* prop)
+		::System::Int32 GetLayer_1(::RPG::Client::MapProp* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MapProp*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_1_OFFSET))(this, prop);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MapProp*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_1_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetLayer_2(::RPG::Client::MapNpc* npc)
+		::System::Int32 GetLayer_2(::RPG::Client::MapNpc* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MapNpc*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_2_OFFSET))(this, npc);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MapNpc*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_2_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetLayer_3(::RPG::Client::MapAnchorDef* anchor)
+		::System::Int32 GetLayer_3(::RPG::Client::MapAnchorDef* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MapAnchorDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_3_OFFSET))(this, anchor);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MapAnchorDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_3_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetLayer_4(::RPG::GameCore::AnchorInfo* anchor)
+		::System::Int32 GetLayer_4(::RPG::GameCore::AnchorInfo* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::AnchorInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_4_OFFSET))(this, anchor);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::AnchorInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_4_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::MapAnchorDef* _GetAnchorDef(::RPG::GameCore::AnchorInfo* anchor)
+		::RPG::Client::MapAnchorDef* _GetAnchorDef(::RPG::GameCore::AnchorInfo* a1)
 		{
-			return ((::RPG::Client::MapAnchorDef*(*)(::PVOID, ::RPG::GameCore::AnchorInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER__GETANCHORDEF_OFFSET))(this, anchor);
+			return ((::RPG::Client::MapAnchorDef*(*)(::PVOID, ::RPG::GameCore::AnchorInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER__GETANCHORDEF_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetLayer_5(::RPG::GameCore::LevelMinimapSection* section)
+		::System::Int32 GetLayer_5(::RPG::GameCore::LevelMinimapSection* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::LevelMinimapSection*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_5_OFFSET))(this, section);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::LevelMinimapSection*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_5_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetLayer_6(::RPG::GameCore::GameEntity* go)
+		::System::Int32 GetLayer_6(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_6_OFFSET))(this, go);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_6_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetLayer_7(::RPG::Client::MapEntityDef* mapEntityDef)
+		::System::Int32 GetLayer_7(::RPG::Client::MapEntityDef* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MapEntityDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_7_OFFSET))(this, mapEntityDef);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MapEntityDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_7_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetLayerNumber()
@@ -156,9 +156,9 @@ namespace RPG::Client
 			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETLAYERLIST_OFFSET))(this);
 		}
 
-		::Il2CppArray<::System::UInt32>* GetAreaLayerList(::System::UInt32 areaID)
+		::Il2CppArray<::System::UInt32>* GetAreaLayerList(::System::UInt32 a1)
 		{
-			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETAREALAYERLIST_OFFSET))(this, areaID);
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETAREALAYERLIST_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetDefaultLayer()
@@ -166,29 +166,29 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETDEFAULTLAYER_OFFSET))(this);
 		}
 
-		::System::Int32 _GetLayerByMask(::System::Int32 mask)
+		::System::Int32 _GetLayerByMask(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER__GETLAYERBYMASK_OFFSET))(this, mask);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER__GETLAYERBYMASK_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetLayer_8(::UnityEngine::Vector3 position)
+		::System::Int32 GetLayer_8(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_8_OFFSET))(this, position);
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GETLAYER_8_OFFSET))(this, a1);
 		}
 
-		::System::Int32 _GetLayerByGameEntity(::RPG::GameCore::GameEntity* go)
+		::System::Int32 _GetLayerByGameEntity(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER__GETLAYERBYGAMEENTITY_OFFSET))(this, go);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER__GETLAYERBYGAMEENTITY_OFFSET))(this, a1);
 		}
 
-		::System::Int32 _GetLayerByLocalPlayer(::RPG::GameCore::GameEntity* go)
+		::System::Int32 _GetLayerByLocalPlayer(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER__GETLAYERBYLOCALPLAYER_OFFSET))(this, go);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER__GETLAYERBYLOCALPLAYER_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 _RayCastToGround(::UnityEngine::Vector3 position)
+		::UnityEngine::Vector3 _RayCastToGround(::UnityEngine::Vector3 a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER__RAYCASTTOGROUND_OFFSET))(this, position);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER__RAYCASTTOGROUND_OFFSET))(this, a1);
 		}
 
 		::System::Void _UpdatePlayerMapLayer()
@@ -196,24 +196,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER__UPDATEPLAYERMAPLAYER_OFFSET))(this);
 		}
 
-		::System::Void _OnAdventurePhaseEntered(::System::Object* arg)
+		::System::Void _OnAdventurePhaseEntered(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER__ONADVENTUREPHASEENTERED_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER__ONADVENTUREPHASEENTERED_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnNPCStatusChange(::System::Object* arg)
+		::System::Void _OnNPCStatusChange(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER__ONNPCSTATUSCHANGE_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER__ONNPCSTATUSCHANGE_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnCharacterTeleport(::System::Object* userParam)
+		::System::Void _OnCharacterTeleport(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER__ONCHARACTERTELEPORT_OFFSET))(this, userParam);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER__ONCHARACTERTELEPORT_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnCharacterStepOnColliderChange(::System::Object* param)
+		::System::Void _OnCharacterStepOnColliderChange(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER__ONCHARACTERSTEPONCOLLIDERCHANGE_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER__ONCHARACTERSTEPONCOLLIDERCHANGE_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_PlayerMapLayer()
@@ -221,9 +221,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_GET_PLAYERMAPLAYER_OFFSET))(this);
 		}
 
-		::System::Void set_PlayerMapLayer(::System::Int32 value)
+		::System::Void set_PlayerMapLayer(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_SET_PLAYERMAPLAYER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPLAYERMANAGER_SET_PLAYERMAPLAYER_OFFSET))(this, a1);
 		}
 	};
 }

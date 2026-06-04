@@ -5,21 +5,21 @@
 class Class_1_23C1B7E6B450FFB8_7;
 namespace RPG::Client { class GridFightTraitConfigBase; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITDAMAGESTATISTICINFO_GET_TRAITCONFIG_OFFSET UNITYSDK_OFFSET(0x17431050)
-#define RPG_CLIENT_GRIDFIGHTTRAITDAMAGESTATISTICINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17430E50)
+#define RPG_CLIENT_GRIDFIGHTTRAITDAMAGESTATISTICINFO_GET_TRAITCONFIG_OFFSET UNITYSDK_OFFSET(0x19653940)
+#define RPG_CLIENT_GRIDFIGHTTRAITDAMAGESTATISTICINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19653740)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitDamageStatisticInfo_TypeDefinitionIndex = 59269;
+	inline static constexpr unsigned int GridFightTraitDamageStatisticInfo_TypeDefinitionIndex = 60204;
 
 	class GridFightTraitDamageStatisticInfo : public ::RPG::Client::GridFightDamageStatisticInfo
 	{
 	public:
 		::System::UInt32 ActiveLayer; // 0x28
 
-		::System::Void _ctor(::Class_1_23C1B7E6B450FFB8_7* damageInfo, ::System::Double maxDamage)
+		::System::Void _ctor(::Class_1_23C1B7E6B450FFB8_7* a1, ::System::Double a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_23C1B7E6B450FFB8_7*, ::System::Double))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITDAMAGESTATISTICINFO__CTOR_OFFSET))(this, damageInfo, maxDamage);
+			return ((::System::Void(*)(::PVOID, ::Class_1_23C1B7E6B450FFB8_7*, ::System::Double))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITDAMAGESTATISTICINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::GridFightTraitConfigBase* get_TraitConfig()

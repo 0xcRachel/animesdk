@@ -16,85 +16,85 @@ namespace UnityEngine::Networking { class IMultipartFormSection; }
 namespace UnityEngine::Networking { class UnityWebRequestAsyncOperation; }
 namespace UnityEngine::Networking { class UploadHandler; }
 
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_ABORT_OFFSET UNITYSDK_OFFSET(0x1A6F06B0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_BEGINWEBREQUEST_OFFSET UNITYSDK_OFFSET(0x1A6F0F60)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_CREATE_OFFSET UNITYSDK_OFFSET(0x1A6F0660)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_DISPOSEHANDLERS_OFFSET UNITYSDK_OFFSET(0x1A6F0D90)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A6F0E20)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_ESCAPEURL_1_OFFSET UNITYSDK_OFFSET(0x1A6F4960)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_ESCAPEURL_OFFSET UNITYSDK_OFFSET(0x1A6F48E0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A6F0C90)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GENERATEBOUNDARY_OFFSET UNITYSDK_OFFSET(0x1A6F3FD0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETCUSTOMMETHOD_OFFSET UNITYSDK_OFFSET(0x1A6F1120)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETERROR_OFFSET UNITYSDK_OFFSET(0x1A6F11B0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETHTTPSTATUSSTRING_OFFSET UNITYSDK_OFFSET(0x1A6F05F0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETMETHOD_OFFSET UNITYSDK_OFFSET(0x1A6F1110)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETRESPONSEHEADERKEYS_OFFSET UNITYSDK_OFFSET(0x1A6F1FA0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETRESPONSEHEADERS_OFFSET UNITYSDK_OFFSET(0x1A6F1FB0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETRESPONSEHEADER_OFFSET UNITYSDK_OFFSET(0x1A6F1F90)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETTIMEOUTMSEC_OFFSET UNITYSDK_OFFSET(0x1A6F2160)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETUPLOADPROGRESS_OFFSET UNITYSDK_OFFSET(0x1A6F1D30)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETURL_OFFSET UNITYSDK_OFFSET(0x1A6F1300)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETWEBERRORSTRING_OFFSET UNITYSDK_OFFSET(0x1A6F05E0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_CERTIFICATEHANDLER_OFFSET UNITYSDK_OFFSET(0x1A6F0F50)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_DISPOSECERTIFICATEHANDLERONDISPOSE_OFFSET UNITYSDK_OFFSET(0x1A6F0600)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_DISPOSEDOWNLOADHANDLERONDISPOSE_OFFSET UNITYSDK_OFFSET(0x1A6F0620)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_DISPOSEUPLOADHANDLERONDISPOSE_OFFSET UNITYSDK_OFFSET(0x1A6F0640)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_DOWNLOADHANDLER_OFFSET UNITYSDK_OFFSET(0x1A6F0F00)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x1A6F11C0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_ISDONE_OFFSET UNITYSDK_OFFSET(0x1A6F1D90)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_ISHTTPERROR_OFFSET UNITYSDK_OFFSET(0x1A6F12D0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_ISMODIFIABLE_OFFSET UNITYSDK_OFFSET(0x1A6F1030)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_ISNETWORKERROR_OFFSET UNITYSDK_OFFSET(0x1A6F12C0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_METHOD_OFFSET UNITYSDK_OFFSET(0x1A6F1130)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_OFFSET UNITYSDK_OFFSET(0x1A6F2250)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_RESPONSECODE_OFFSET UNITYSDK_OFFSET(0x1A6F12E0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_TIMEOUT_OFFSET UNITYSDK_OFFSET(0x1A6F2180)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_UPLOADHANDLER_OFFSET UNITYSDK_OFFSET(0x1A6F0F10)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_UPLOADPROGRESS_OFFSET UNITYSDK_OFFSET(0x1A6F1D50)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_URL_OFFSET UNITYSDK_OFFSET(0x1A6F12F0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_INTERNALDESTROY_OFFSET UNITYSDK_OFFSET(0x1A6F0680)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_INTERNALSETCUSTOMMETHOD_OFFSET UNITYSDK_OFFSET(0x1A6F1050)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_INTERNALSETDEFAULTS_OFFSET UNITYSDK_OFFSET(0x1A6F06C0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_INTERNALSETMETHOD_OFFSET UNITYSDK_OFFSET(0x1A6F0FA0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_INTERNALSETREQUESTHEADER_OFFSET UNITYSDK_OFFSET(0x1A6F1E70)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_INTERNALSETURL_OFFSET UNITYSDK_OFFSET(0x1A6F1770)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_ISEXECUTING_OFFSET UNITYSDK_OFFSET(0x1A6F1D40)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_POST_1_OFFSET UNITYSDK_OFFSET(0x1A6F3F20)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_POST_2_OFFSET UNITYSDK_OFFSET(0x1A6F4070)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_POST_OFFSET UNITYSDK_OFFSET(0x1A6F2310)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_RELEASE_OFFSET UNITYSDK_OFFSET(0x1A6F0670)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SENDWEBREQUEST_OFFSET UNITYSDK_OFFSET(0x1A6F0F70)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SERIALIZEFORMSECTIONS_OFFSET UNITYSDK_OFFSET(0x1A6F42E0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETCHUNKED_OFFSET UNITYSDK_OFFSET(0x1A6F1DA0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETCUSTOMMETHOD_OFFSET UNITYSDK_OFFSET(0x1A6F1040)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETDOWNLOADHANDLER_OFFSET UNITYSDK_OFFSET(0x1A6F2150)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETMETHOD_OFFSET UNITYSDK_OFFSET(0x1A6F0F90)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETREQUESTHEADER_OFFSET UNITYSDK_OFFSET(0x1A6F1E80)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETTIMEOUTMSEC_OFFSET UNITYSDK_OFFSET(0x1A6F2170)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETUPLOADHANDLER_OFFSET UNITYSDK_OFFSET(0x1A6F2140)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETUPPOST_1_OFFSET UNITYSDK_OFFSET(0x1A6F4110)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETUPPOST_OFFSET UNITYSDK_OFFSET(0x1A6F23B0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETURL_OFFSET UNITYSDK_OFFSET(0x1A6F1D20)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_CHUNKEDTRANSFER_OFFSET UNITYSDK_OFFSET(0x1A6F1DB0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_DISPOSECERTIFICATEHANDLERONDISPOSE_OFFSET UNITYSDK_OFFSET(0x1A6F0610)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_DISPOSEDOWNLOADHANDLERONDISPOSE_OFFSET UNITYSDK_OFFSET(0x1A6F0630)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_DISPOSEUPLOADHANDLERONDISPOSE_OFFSET UNITYSDK_OFFSET(0x1A6F0650)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_DOWNLOADHANDLER_OFFSET UNITYSDK_OFFSET(0x1A6F0B50)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_METHOD_OFFSET UNITYSDK_OFFSET(0x1A6F0790)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_TIMEOUT_OFFSET UNITYSDK_OFFSET(0x1A6F21B0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_UPLOADHANDLER_OFFSET UNITYSDK_OFFSET(0x1A6F0BF0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_URI_OFFSET UNITYSDK_OFFSET(0x1A6F0930)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_URL_OFFSET UNITYSDK_OFFSET(0x1A6F0740)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_UNESCAPEURL_1_OFFSET UNITYSDK_OFFSET(0x1A6F4B10)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_UNESCAPEURL_OFFSET UNITYSDK_OFFSET(0x1A6F4A90)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A6F08E0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A6F0AB0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6F06D0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_ABORT_OFFSET UNITYSDK_OFFSET(0x1B5161A0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_BEGINWEBREQUEST_OFFSET UNITYSDK_OFFSET(0x1B516A80)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_CREATE_OFFSET UNITYSDK_OFFSET(0x1B516150)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_DISPOSEHANDLERS_OFFSET UNITYSDK_OFFSET(0x1B516880)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B516910)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_ESCAPEURL_1_OFFSET UNITYSDK_OFFSET(0x1B51A6A0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_ESCAPEURL_OFFSET UNITYSDK_OFFSET(0x1B51A5F0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1B516780)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GENERATEBOUNDARY_OFFSET UNITYSDK_OFFSET(0x1B519C40)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETCUSTOMMETHOD_OFFSET UNITYSDK_OFFSET(0x1B516C40)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETERROR_OFFSET UNITYSDK_OFFSET(0x1B516CD0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETHTTPSTATUSSTRING_OFFSET UNITYSDK_OFFSET(0x1B5160E0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETMETHOD_OFFSET UNITYSDK_OFFSET(0x1B516C30)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETRESPONSEHEADERKEYS_OFFSET UNITYSDK_OFFSET(0x1B517B50)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETRESPONSEHEADERS_OFFSET UNITYSDK_OFFSET(0x1B517B60)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETRESPONSEHEADER_OFFSET UNITYSDK_OFFSET(0x1B517B40)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETTIMEOUTMSEC_OFFSET UNITYSDK_OFFSET(0x1B517CF0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETUPLOADPROGRESS_OFFSET UNITYSDK_OFFSET(0x1B5178E0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETURL_OFFSET UNITYSDK_OFFSET(0x1B516E20)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETWEBERRORSTRING_OFFSET UNITYSDK_OFFSET(0x1B5160D0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_CERTIFICATEHANDLER_OFFSET UNITYSDK_OFFSET(0x1B516A70)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_DISPOSECERTIFICATEHANDLERONDISPOSE_OFFSET UNITYSDK_OFFSET(0x1B5160F0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_DISPOSEDOWNLOADHANDLERONDISPOSE_OFFSET UNITYSDK_OFFSET(0x1B516110)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_DISPOSEUPLOADHANDLERONDISPOSE_OFFSET UNITYSDK_OFFSET(0x1B516130)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_DOWNLOADHANDLER_OFFSET UNITYSDK_OFFSET(0x1B516A20)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x1B516CE0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_ISDONE_OFFSET UNITYSDK_OFFSET(0x1B517940)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_ISHTTPERROR_OFFSET UNITYSDK_OFFSET(0x1B516DF0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_ISMODIFIABLE_OFFSET UNITYSDK_OFFSET(0x1B516B50)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_ISNETWORKERROR_OFFSET UNITYSDK_OFFSET(0x1B516DE0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_METHOD_OFFSET UNITYSDK_OFFSET(0x1B516C50)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_OFFSET UNITYSDK_OFFSET(0x1B517DE0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_RESPONSECODE_OFFSET UNITYSDK_OFFSET(0x1B516E00)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_TIMEOUT_OFFSET UNITYSDK_OFFSET(0x1B517D10)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_UPLOADHANDLER_OFFSET UNITYSDK_OFFSET(0x1B516A30)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_UPLOADPROGRESS_OFFSET UNITYSDK_OFFSET(0x1B517900)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_URL_OFFSET UNITYSDK_OFFSET(0x1B516E10)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_INTERNALDESTROY_OFFSET UNITYSDK_OFFSET(0x1B516170)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_INTERNALSETCUSTOMMETHOD_OFFSET UNITYSDK_OFFSET(0x1B516B70)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_INTERNALSETDEFAULTS_OFFSET UNITYSDK_OFFSET(0x1B5161B0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_INTERNALSETMETHOD_OFFSET UNITYSDK_OFFSET(0x1B516AC0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_INTERNALSETREQUESTHEADER_OFFSET UNITYSDK_OFFSET(0x1B517A20)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_INTERNALSETURL_OFFSET UNITYSDK_OFFSET(0x1B5172A0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_ISEXECUTING_OFFSET UNITYSDK_OFFSET(0x1B5178F0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_POST_1_OFFSET UNITYSDK_OFFSET(0x1B519B90)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_POST_2_OFFSET UNITYSDK_OFFSET(0x1B519CE0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_POST_OFFSET UNITYSDK_OFFSET(0x1B517EA0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_RELEASE_OFFSET UNITYSDK_OFFSET(0x1B516160)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SENDWEBREQUEST_OFFSET UNITYSDK_OFFSET(0x1B516A90)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SERIALIZEFORMSECTIONS_OFFSET UNITYSDK_OFFSET(0x1B519F90)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETCHUNKED_OFFSET UNITYSDK_OFFSET(0x1B517950)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETCUSTOMMETHOD_OFFSET UNITYSDK_OFFSET(0x1B516B60)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETDOWNLOADHANDLER_OFFSET UNITYSDK_OFFSET(0x1B517CE0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETMETHOD_OFFSET UNITYSDK_OFFSET(0x1B516AB0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETREQUESTHEADER_OFFSET UNITYSDK_OFFSET(0x1B517A30)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETTIMEOUTMSEC_OFFSET UNITYSDK_OFFSET(0x1B517D00)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETUPLOADHANDLER_OFFSET UNITYSDK_OFFSET(0x1B517CD0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETUPPOST_1_OFFSET UNITYSDK_OFFSET(0x1B519D80)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETUPPOST_OFFSET UNITYSDK_OFFSET(0x1B517F40)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETURL_OFFSET UNITYSDK_OFFSET(0x1B5178D0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_CHUNKEDTRANSFER_OFFSET UNITYSDK_OFFSET(0x1B517960)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_DISPOSECERTIFICATEHANDLERONDISPOSE_OFFSET UNITYSDK_OFFSET(0x1B516100)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_DISPOSEDOWNLOADHANDLERONDISPOSE_OFFSET UNITYSDK_OFFSET(0x1B516120)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_DISPOSEUPLOADHANDLERONDISPOSE_OFFSET UNITYSDK_OFFSET(0x1B516140)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_DOWNLOADHANDLER_OFFSET UNITYSDK_OFFSET(0x1B516640)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_METHOD_OFFSET UNITYSDK_OFFSET(0x1B516280)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_TIMEOUT_OFFSET UNITYSDK_OFFSET(0x1B517D40)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_UPLOADHANDLER_OFFSET UNITYSDK_OFFSET(0x1B5166E0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_URI_OFFSET UNITYSDK_OFFSET(0x1B516420)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_URL_OFFSET UNITYSDK_OFFSET(0x1B516230)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_UNESCAPEURL_1_OFFSET UNITYSDK_OFFSET(0x1B51A880)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST_UNESCAPEURL_OFFSET UNITYSDK_OFFSET(0x1B51A7D0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B5163D0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B5165A0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5161C0)
 
 namespace UnityEngine::Networking
 {
-	inline static constexpr unsigned int UnityWebRequest_TypeDefinitionIndex = 5279;
+	inline static constexpr unsigned int UnityWebRequest_TypeDefinitionIndex = 5355;
 
 	class UnityWebRequest : public ::System::Object
 	{
@@ -108,29 +108,29 @@ namespace UnityEngine::Networking
 		::System::Boolean _disposeDownloadHandlerOnDispose_k__BackingField; // 0x39
 		::System::Boolean _disposeUploadHandlerOnDispose_k__BackingField; // 0x3A
 
-		::System::Void _ctor(::System::String* url, ::System::String* method)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST__CTOR_OFFSET))(this, url, method);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::System::Uri* uri, ::System::String* method)
+		::System::Void _ctor_1(::System::Uri* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Uri*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST__CTOR_1_OFFSET))(this, uri, method);
+			return ((::System::Void(*)(::PVOID, ::System::Uri*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_2(::System::String* url, ::System::String* method, ::UnityEngine::Networking::DownloadHandler* downloadHandler, ::UnityEngine::Networking::UploadHandler* uploadHandler)
+		::System::Void _ctor_2(::System::String* a1, ::System::String* a2, ::UnityEngine::Networking::DownloadHandler* a3, ::UnityEngine::Networking::UploadHandler* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::UnityEngine::Networking::DownloadHandler*, ::UnityEngine::Networking::UploadHandler*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST__CTOR_2_OFFSET))(this, url, method, downloadHandler, uploadHandler);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::UnityEngine::Networking::DownloadHandler*, ::UnityEngine::Networking::UploadHandler*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST__CTOR_2_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		static ::System::String* GetWebErrorString(::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError err)
+		static ::System::String* GetWebErrorString(::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError a1)
 		{
-			return ((::System::String*(*)(::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETWEBERRORSTRING_OFFSET))(err);
+			return ((::System::String*(*)(::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETWEBERRORSTRING_OFFSET))(a1);
 		}
 
-		static ::System::String* GetHTTPStatusString(::System::Int64 responseCode)
+		static ::System::String* GetHTTPStatusString(::System::Int64 a1)
 		{
-			return ((::System::String*(*)(::System::Int64))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETHTTPSTATUSSTRING_OFFSET))(responseCode);
+			return ((::System::String*(*)(::System::Int64))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETHTTPSTATUSSTRING_OFFSET))(a1);
 		}
 
 		::System::Boolean get_disposeCertificateHandlerOnDispose()
@@ -138,9 +138,9 @@ namespace UnityEngine::Networking
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_DISPOSECERTIFICATEHANDLERONDISPOSE_OFFSET))(this);
 		}
 
-		::System::Void set_disposeCertificateHandlerOnDispose(::System::Boolean value)
+		::System::Void set_disposeCertificateHandlerOnDispose(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_DISPOSECERTIFICATEHANDLERONDISPOSE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_DISPOSECERTIFICATEHANDLERONDISPOSE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_disposeDownloadHandlerOnDispose()
@@ -148,9 +148,9 @@ namespace UnityEngine::Networking
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_DISPOSEDOWNLOADHANDLERONDISPOSE_OFFSET))(this);
 		}
 
-		::System::Void set_disposeDownloadHandlerOnDispose(::System::Boolean value)
+		::System::Void set_disposeDownloadHandlerOnDispose(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_DISPOSEDOWNLOADHANDLERONDISPOSE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_DISPOSEDOWNLOADHANDLERONDISPOSE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_disposeUploadHandlerOnDispose()
@@ -158,9 +158,9 @@ namespace UnityEngine::Networking
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_DISPOSEUPLOADHANDLERONDISPOSE_OFFSET))(this);
 		}
 
-		::System::Void set_disposeUploadHandlerOnDispose(::System::Boolean value)
+		::System::Void set_disposeUploadHandlerOnDispose(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_DISPOSEUPLOADHANDLERONDISPOSE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_DISPOSEUPLOADHANDLERONDISPOSE_OFFSET))(this, a1);
 		}
 
 		static ::System::IntPtr Create()
@@ -213,24 +213,24 @@ namespace UnityEngine::Networking
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_ABORT_OFFSET))(this);
 		}
 
-		::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetMethod(::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod methodType)
+		::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetMethod(::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod a1)
 		{
-			return ((::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError(*)(::PVOID, ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETMETHOD_OFFSET))(this, methodType);
+			return ((::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError(*)(::PVOID, ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETMETHOD_OFFSET))(this, a1);
 		}
 
-		::System::Void InternalSetMethod(::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod methodType)
+		::System::Void InternalSetMethod(::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_INTERNALSETMETHOD_OFFSET))(this, methodType);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_INTERNALSETMETHOD_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetCustomMethod(::System::String* customMethodName)
+		::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetCustomMethod(::System::String* a1)
 		{
-			return ((::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETCUSTOMMETHOD_OFFSET))(this, customMethodName);
+			return ((::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETCUSTOMMETHOD_OFFSET))(this, a1);
 		}
 
-		::System::Void InternalSetCustomMethod(::System::String* customMethodName)
+		::System::Void InternalSetCustomMethod(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_INTERNALSETCUSTOMMETHOD_OFFSET))(this, customMethodName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_INTERNALSETCUSTOMMETHOD_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod GetMethod()
@@ -248,9 +248,9 @@ namespace UnityEngine::Networking
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_METHOD_OFFSET))(this);
 		}
 
-		::System::Void set_method(::System::String* value)
+		::System::Void set_method(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_METHOD_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_METHOD_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError GetError()
@@ -268,14 +268,14 @@ namespace UnityEngine::Networking
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_URL_OFFSET))(this);
 		}
 
-		::System::Void set_url(::System::String* value)
+		::System::Void set_url(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_URL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_URL_OFFSET))(this, a1);
 		}
 
-		::System::Void set_uri(::System::Uri* value)
+		::System::Void set_uri(::System::Uri* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_URI_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_URI_OFFSET))(this, a1);
 		}
 
 		::System::String* GetUrl()
@@ -283,14 +283,14 @@ namespace UnityEngine::Networking
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETURL_OFFSET))(this);
 		}
 
-		::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetUrl(::System::String* url)
+		::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetUrl(::System::String* a1)
 		{
-			return ((::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETURL_OFFSET))(this, url);
+			return ((::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETURL_OFFSET))(this, a1);
 		}
 
-		::System::Void InternalSetUrl(::System::String* url)
+		::System::Void InternalSetUrl(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_INTERNALSETURL_OFFSET))(this, url);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_INTERNALSETURL_OFFSET))(this, a1);
 		}
 
 		::System::Int64 get_responseCode()
@@ -333,29 +333,29 @@ namespace UnityEngine::Networking
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_ISHTTPERROR_OFFSET))(this);
 		}
 
-		::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetChunked(::System::Boolean chunked)
+		::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetChunked(::System::Boolean a1)
 		{
-			return ((::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETCHUNKED_OFFSET))(this, chunked);
+			return ((::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETCHUNKED_OFFSET))(this, a1);
 		}
 
-		::System::Void set_chunkedTransfer(::System::Boolean value)
+		::System::Void set_chunkedTransfer(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_CHUNKEDTRANSFER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_CHUNKEDTRANSFER_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError InternalSetRequestHeader(::System::String* name, ::System::String* value)
+		::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError InternalSetRequestHeader(::System::String* a1, ::System::String* a2)
 		{
-			return ((::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_INTERNALSETREQUESTHEADER_OFFSET))(this, name, value);
+			return ((::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_INTERNALSETREQUESTHEADER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetRequestHeader(::System::String* name, ::System::String* value)
+		::System::Void SetRequestHeader(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETREQUESTHEADER_OFFSET))(this, name, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETREQUESTHEADER_OFFSET))(this, a1, a2);
 		}
 
-		::System::String* GetResponseHeader(::System::String* name)
+		::System::String* GetResponseHeader(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETRESPONSEHEADER_OFFSET))(this, name);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETRESPONSEHEADER_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::String*>* GetResponseHeaderKeys()
@@ -368,9 +368,9 @@ namespace UnityEngine::Networking
 			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETRESPONSEHEADERS_OFFSET))(this);
 		}
 
-		::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetUploadHandler(::UnityEngine::Networking::UploadHandler* uh)
+		::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetUploadHandler(::UnityEngine::Networking::UploadHandler* a1)
 		{
-			return ((::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError(*)(::PVOID, ::UnityEngine::Networking::UploadHandler*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETUPLOADHANDLER_OFFSET))(this, uh);
+			return ((::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError(*)(::PVOID, ::UnityEngine::Networking::UploadHandler*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETUPLOADHANDLER_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Networking::UploadHandler* get_uploadHandler()
@@ -378,14 +378,14 @@ namespace UnityEngine::Networking
 			return ((::UnityEngine::Networking::UploadHandler*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_UPLOADHANDLER_OFFSET))(this);
 		}
 
-		::System::Void set_uploadHandler(::UnityEngine::Networking::UploadHandler* value)
+		::System::Void set_uploadHandler(::UnityEngine::Networking::UploadHandler* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Networking::UploadHandler*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_UPLOADHANDLER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Networking::UploadHandler*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_UPLOADHANDLER_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetDownloadHandler(::UnityEngine::Networking::DownloadHandler* dh)
+		::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetDownloadHandler(::UnityEngine::Networking::DownloadHandler* a1)
 		{
-			return ((::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError(*)(::PVOID, ::UnityEngine::Networking::DownloadHandler*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETDOWNLOADHANDLER_OFFSET))(this, dh);
+			return ((::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError(*)(::PVOID, ::UnityEngine::Networking::DownloadHandler*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETDOWNLOADHANDLER_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Networking::DownloadHandler* get_downloadHandler()
@@ -393,9 +393,9 @@ namespace UnityEngine::Networking
 			return ((::UnityEngine::Networking::DownloadHandler*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_DOWNLOADHANDLER_OFFSET))(this);
 		}
 
-		::System::Void set_downloadHandler(::UnityEngine::Networking::DownloadHandler* value)
+		::System::Void set_downloadHandler(::UnityEngine::Networking::DownloadHandler* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Networking::DownloadHandler*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_DOWNLOADHANDLER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Networking::DownloadHandler*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_DOWNLOADHANDLER_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Networking::CertificateHandler* get_certificateHandler()
@@ -408,9 +408,9 @@ namespace UnityEngine::Networking
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GETTIMEOUTMSEC_OFFSET))(this);
 		}
 
-		::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetTimeoutMsec(::System::Int32 timeout)
+		::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetTimeoutMsec(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETTIMEOUTMSEC_OFFSET))(this, timeout);
+			return ((::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETTIMEOUTMSEC_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_timeout()
@@ -418,64 +418,64 @@ namespace UnityEngine::Networking
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_TIMEOUT_OFFSET))(this);
 		}
 
-		::System::Void set_timeout(::System::Int32 value)
+		::System::Void set_timeout(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_TIMEOUT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SET_TIMEOUT_OFFSET))(this, a1);
 		}
 
-		static ::UnityEngine::Networking::UnityWebRequest* Get(::System::String* uri)
+		static ::UnityEngine::Networking::UnityWebRequest* Get(::System::String* a1)
 		{
-			return ((::UnityEngine::Networking::UnityWebRequest*(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_OFFSET))(uri);
+			return ((::UnityEngine::Networking::UnityWebRequest*(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_GET_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Networking::UnityWebRequest* Post(::System::String* uri, ::UnityEngine::WWWForm* formData)
+		static ::UnityEngine::Networking::UnityWebRequest* Post(::System::String* a1, ::UnityEngine::WWWForm* a2)
 		{
-			return ((::UnityEngine::Networking::UnityWebRequest*(*)(::System::String*, ::UnityEngine::WWWForm*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_POST_OFFSET))(uri, formData);
+			return ((::UnityEngine::Networking::UnityWebRequest*(*)(::System::String*, ::UnityEngine::WWWForm*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_POST_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetupPost(::UnityEngine::Networking::UnityWebRequest* request, ::UnityEngine::WWWForm* formData)
+		static ::System::Void SetupPost(::UnityEngine::Networking::UnityWebRequest* a1, ::UnityEngine::WWWForm* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Networking::UnityWebRequest*, ::UnityEngine::WWWForm*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETUPPOST_OFFSET))(request, formData);
+			return ((::System::Void(*)(::UnityEngine::Networking::UnityWebRequest*, ::UnityEngine::WWWForm*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETUPPOST_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Networking::UnityWebRequest* Post_1(::System::String* uri, ::System::Collections::Generic::List_1<::UnityEngine::Networking::IMultipartFormSection*>* multipartFormSections)
+		static ::UnityEngine::Networking::UnityWebRequest* Post_1(::System::String* a1, ::System::Collections::Generic::List_1<::UnityEngine::Networking::IMultipartFormSection*>* a2)
 		{
-			return ((::UnityEngine::Networking::UnityWebRequest*(*)(::System::String*, ::System::Collections::Generic::List_1<::UnityEngine::Networking::IMultipartFormSection*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_POST_1_OFFSET))(uri, multipartFormSections);
+			return ((::UnityEngine::Networking::UnityWebRequest*(*)(::System::String*, ::System::Collections::Generic::List_1<::UnityEngine::Networking::IMultipartFormSection*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_POST_1_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Networking::UnityWebRequest* Post_2(::System::String* uri, ::System::Collections::Generic::List_1<::UnityEngine::Networking::IMultipartFormSection*>* multipartFormSections, ::Il2CppArray<::System::Byte>* boundary)
+		static ::UnityEngine::Networking::UnityWebRequest* Post_2(::System::String* a1, ::System::Collections::Generic::List_1<::UnityEngine::Networking::IMultipartFormSection*>* a2, ::Il2CppArray<::System::Byte>* a3)
 		{
-			return ((::UnityEngine::Networking::UnityWebRequest*(*)(::System::String*, ::System::Collections::Generic::List_1<::UnityEngine::Networking::IMultipartFormSection*>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_POST_2_OFFSET))(uri, multipartFormSections, boundary);
+			return ((::UnityEngine::Networking::UnityWebRequest*(*)(::System::String*, ::System::Collections::Generic::List_1<::UnityEngine::Networking::IMultipartFormSection*>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_POST_2_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SetupPost_1(::UnityEngine::Networking::UnityWebRequest* request, ::System::Collections::Generic::List_1<::UnityEngine::Networking::IMultipartFormSection*>* multipartFormSections, ::Il2CppArray<::System::Byte>* boundary)
+		static ::System::Void SetupPost_1(::UnityEngine::Networking::UnityWebRequest* a1, ::System::Collections::Generic::List_1<::UnityEngine::Networking::IMultipartFormSection*>* a2, ::Il2CppArray<::System::Byte>* a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Networking::UnityWebRequest*, ::System::Collections::Generic::List_1<::UnityEngine::Networking::IMultipartFormSection*>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETUPPOST_1_OFFSET))(request, multipartFormSections, boundary);
+			return ((::System::Void(*)(::UnityEngine::Networking::UnityWebRequest*, ::System::Collections::Generic::List_1<::UnityEngine::Networking::IMultipartFormSection*>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SETUPPOST_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* EscapeURL(::System::String* s)
+		static ::System::String* EscapeURL(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_ESCAPEURL_OFFSET))(s);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_ESCAPEURL_OFFSET))(a1);
 		}
 
-		static ::System::String* EscapeURL_1(::System::String* s, ::System::Text::Encoding* e)
+		static ::System::String* EscapeURL_1(::System::String* a1, ::System::Text::Encoding* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_ESCAPEURL_1_OFFSET))(s, e);
+			return ((::System::String*(*)(::System::String*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_ESCAPEURL_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* UnEscapeURL(::System::String* s)
+		static ::System::String* UnEscapeURL(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_UNESCAPEURL_OFFSET))(s);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_UNESCAPEURL_OFFSET))(a1);
 		}
 
-		static ::System::String* UnEscapeURL_1(::System::String* s, ::System::Text::Encoding* e)
+		static ::System::String* UnEscapeURL_1(::System::String* a1, ::System::Text::Encoding* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_UNESCAPEURL_1_OFFSET))(s, e);
+			return ((::System::String*(*)(::System::String*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_UNESCAPEURL_1_OFFSET))(a1, a2);
 		}
 
-		static ::Il2CppArray<::System::Byte>* SerializeFormSections(::System::Collections::Generic::List_1<::UnityEngine::Networking::IMultipartFormSection*>* multipartFormSections, ::Il2CppArray<::System::Byte>* boundary)
+		static ::Il2CppArray<::System::Byte>* SerializeFormSections(::System::Collections::Generic::List_1<::UnityEngine::Networking::IMultipartFormSection*>* a1, ::Il2CppArray<::System::Byte>* a2)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::Collections::Generic::List_1<::UnityEngine::Networking::IMultipartFormSection*>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SERIALIZEFORMSECTIONS_OFFSET))(multipartFormSections, boundary);
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::Collections::Generic::List_1<::UnityEngine::Networking::IMultipartFormSection*>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUEST_SERIALIZEFORMSECTIONS_OFFSET))(a1, a2);
 		}
 
 		static ::Il2CppArray<::System::Byte>* GenerateBoundary()

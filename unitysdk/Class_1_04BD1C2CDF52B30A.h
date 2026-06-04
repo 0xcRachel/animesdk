@@ -7,22 +7,22 @@ namespace RPG::Client { class MapDef; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define CLASS_1_04BD1C2CDF52B30A_METHOD_1_66076CF9E9553D29_OFFSET UNITYSDK_OFFSET(0xB580720)
-#define CLASS_1_04BD1C2CDF52B30A_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xB580AA0)
-#define CLASS_1_04BD1C2CDF52B30A_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB580AF0)
-#define CLASS_1_04BD1C2CDF52B30A__CTOR_OFFSET UNITYSDK_OFFSET(0xB580BD0)
-#define CLASS_1_04BD1C2CDF52B30A___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB580BE0)
+#define CLASS_1_04BD1C2CDF52B30A_METHOD_1_66076CF9E9553D29_OFFSET UNITYSDK_OFFSET(0x149AC3C0)
+#define CLASS_1_04BD1C2CDF52B30A_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x149AC740)
+#define CLASS_1_04BD1C2CDF52B30A_TOSTRING_OFFSET UNITYSDK_OFFSET(0x149AC790)
+#define CLASS_1_04BD1C2CDF52B30A__CTOR_OFFSET UNITYSDK_OFFSET(0x149AC870)
+#define CLASS_1_04BD1C2CDF52B30A___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x149AC880)
 
-inline static constexpr unsigned int Class_1_04BD1C2CDF52B30A_TypeDefinitionIndex = 56020;
+inline static constexpr unsigned int Class_1_04BD1C2CDF52B30A_TypeDefinitionIndex = 56782;
 
 class Class_1_04BD1C2CDF52B30A : public ::System::Object
 {
 public:
-	::System::String* Field_1_2; // 0x10
-	::RPG::GameCore::GameEntity* Field_1_4; // 0x18
-	::System::Boolean Field_1_1; // 0x20
-	::System::Boolean Field_1_0; // 0x21
-	::System::Boolean Field_1_3; // 0x22
+	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
+	::System::String* Field_1_1; // 0x18
+	::System::Boolean Field_1_2; // 0x20
+	::System::Boolean Field_1_3; // 0x21
+	::System::Boolean Field_1_4; // 0x22
 
 	::System::Void _ctor()
 	{

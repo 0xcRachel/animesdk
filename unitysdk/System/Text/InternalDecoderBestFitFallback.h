@@ -6,15 +6,15 @@ namespace System { class Object; }
 namespace System::Text { class DecoderFallbackBuffer; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACK_CREATEFALLBACKBUFFER_OFFSET UNITYSDK_OFFSET(0x187385F0)
-#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACK_EQUALS_OFFSET UNITYSDK_OFFSET(0x187387D0)
-#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACK_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18738860)
-#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACK_GET_MAXCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x187387C0)
-#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18731660)
+#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACK_CREATEFALLBACKBUFFER_OFFSET UNITYSDK_OFFSET(0x1856E640)
+#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACK_EQUALS_OFFSET UNITYSDK_OFFSET(0x1856E820)
+#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACK_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1856E8B0)
+#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACK_GET_MAXCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x1856E810)
+#define SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18567560)
 
 namespace System::Text
 {
-	inline static constexpr unsigned int InternalDecoderBestFitFallback_TypeDefinitionIndex = 466;
+	inline static constexpr unsigned int InternalDecoderBestFitFallback_TypeDefinitionIndex = 465;
 
 	class InternalDecoderBestFitFallback : public ::System::Text::DecoderFallback
 	{
@@ -23,9 +23,9 @@ namespace System::Text
 		::Il2CppArray<::System::Char>* arrayBestFit; // 0x20
 		::System::Char cReplacement; // 0x28
 
-		::System::Void _ctor(::System::Text::Encoding* encoding)
+		::System::Void _ctor(::System::Text::Encoding* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACK__CTOR_OFFSET))(this, encoding);
+			return ((::System::Void(*)(::PVOID, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACK__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Text::DecoderFallbackBuffer* CreateFallbackBuffer()
@@ -38,9 +38,9 @@ namespace System::Text
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACK_GET_MAXCHARCOUNT_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* value)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACK_EQUALS_OFFSET))(this, value);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_INTERNALDECODERBESTFITFALLBACK_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

@@ -5,46 +5,46 @@
 namespace Proto { class GachaCeilingAvatar; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_GACHACEILINGDATA_GET_CEILINGAVATARS_OFFSET UNITYSDK_OFFSET(0x155069F0)
-#define RPG_CLIENT_GACHACEILINGDATA_GET_CEILINGNUM_OFFSET UNITYSDK_OFFSET(0x155069D0)
-#define RPG_CLIENT_GACHACEILINGDATA_GET_CLOSED_OFFSET UNITYSDK_OFFSET(0x15506A10)
-#define RPG_CLIENT_GACHACEILINGDATA_SETCEILINGAVATAR_OFFSET UNITYSDK_OFFSET(0x15506930)
-#define RPG_CLIENT_GACHACEILINGDATA_SETCEILINGNUM_OFFSET UNITYSDK_OFFSET(0x155068E0)
-#define RPG_CLIENT_GACHACEILINGDATA_SETCLOSED_OFFSET UNITYSDK_OFFSET(0x15506980)
-#define RPG_CLIENT_GACHACEILINGDATA_SET_CEILINGAVATARS_OFFSET UNITYSDK_OFFSET(0x15506A00)
-#define RPG_CLIENT_GACHACEILINGDATA_SET_CEILINGNUM_OFFSET UNITYSDK_OFFSET(0x155069E0)
-#define RPG_CLIENT_GACHACEILINGDATA_SET_CLOSED_OFFSET UNITYSDK_OFFSET(0x15506A20)
-#define RPG_CLIENT_GACHACEILINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x155068D0)
+#define RPG_CLIENT_GACHACEILINGDATA_GET_CEILINGAVATARS_OFFSET UNITYSDK_OFFSET(0x15FFCAC0)
+#define RPG_CLIENT_GACHACEILINGDATA_GET_CEILINGNUM_OFFSET UNITYSDK_OFFSET(0x15FFCAA0)
+#define RPG_CLIENT_GACHACEILINGDATA_GET_CLOSED_OFFSET UNITYSDK_OFFSET(0x15FFCAE0)
+#define RPG_CLIENT_GACHACEILINGDATA_SETCEILINGAVATAR_OFFSET UNITYSDK_OFFSET(0x15FFCA00)
+#define RPG_CLIENT_GACHACEILINGDATA_SETCEILINGNUM_OFFSET UNITYSDK_OFFSET(0x15FFC9B0)
+#define RPG_CLIENT_GACHACEILINGDATA_SETCLOSED_OFFSET UNITYSDK_OFFSET(0x15FFCA50)
+#define RPG_CLIENT_GACHACEILINGDATA_SET_CEILINGAVATARS_OFFSET UNITYSDK_OFFSET(0x15FFCAD0)
+#define RPG_CLIENT_GACHACEILINGDATA_SET_CEILINGNUM_OFFSET UNITYSDK_OFFSET(0x15FFCAB0)
+#define RPG_CLIENT_GACHACEILINGDATA_SET_CLOSED_OFFSET UNITYSDK_OFFSET(0x15FFCAF0)
+#define RPG_CLIENT_GACHACEILINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15FFC9A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GachaCeilingData_TypeDefinitionIndex = 59153;
+	inline static constexpr unsigned int GachaCeilingData_TypeDefinitionIndex = 60087;
 
 	class GachaCeilingData : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::IList_1<::Proto::GachaCeilingAvatar*>* _CeilingAvatars_k__BackingField; // 0x10
-		::System::Boolean _Closed_k__BackingField; // 0x18
-		::System::UInt32 _CeilingNum_k__BackingField; // 0x1C
+		::System::UInt32 _CeilingNum_k__BackingField; // 0x18
+		::System::Boolean _Closed_k__BackingField; // 0x1C
 
-		::System::Void _ctor(::System::UInt32 ceilingNum, ::System::Collections::Generic::IList_1<::Proto::GachaCeilingAvatar*>* ceilingAvtars, ::System::Boolean closed)
+		::System::Void _ctor(::System::UInt32 a1, ::System::Collections::Generic::IList_1<::Proto::GachaCeilingAvatar*>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::IList_1<::Proto::GachaCeilingAvatar*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHACEILINGDATA__CTOR_OFFSET))(this, ceilingNum, ceilingAvtars, closed);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::IList_1<::Proto::GachaCeilingAvatar*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHACEILINGDATA__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetCeilingNum(::System::UInt32 ceilingNum)
+		::System::Void SetCeilingNum(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHACEILINGDATA_SETCEILINGNUM_OFFSET))(this, ceilingNum);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHACEILINGDATA_SETCEILINGNUM_OFFSET))(this, a1);
 		}
 
-		::System::Void SetCeilingAvatar(::System::Collections::Generic::IList_1<::Proto::GachaCeilingAvatar*>* ceilingAvtars)
+		::System::Void SetCeilingAvatar(::System::Collections::Generic::IList_1<::Proto::GachaCeilingAvatar*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::Proto::GachaCeilingAvatar*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHACEILINGDATA_SETCEILINGAVATAR_OFFSET))(this, ceilingAvtars);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::Proto::GachaCeilingAvatar*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHACEILINGDATA_SETCEILINGAVATAR_OFFSET))(this, a1);
 		}
 
-		::System::Void SetClosed(::System::Boolean closed)
+		::System::Void SetClosed(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHACEILINGDATA_SETCLOSED_OFFSET))(this, closed);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHACEILINGDATA_SETCLOSED_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_CeilingNum()
@@ -52,9 +52,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHACEILINGDATA_GET_CEILINGNUM_OFFSET))(this);
 		}
 
-		::System::Void set_CeilingNum(::System::UInt32 value)
+		::System::Void set_CeilingNum(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHACEILINGDATA_SET_CEILINGNUM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHACEILINGDATA_SET_CEILINGNUM_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IList_1<::Proto::GachaCeilingAvatar*>* get_CeilingAvatars()
@@ -62,9 +62,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::IList_1<::Proto::GachaCeilingAvatar*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHACEILINGDATA_GET_CEILINGAVATARS_OFFSET))(this);
 		}
 
-		::System::Void set_CeilingAvatars(::System::Collections::Generic::IList_1<::Proto::GachaCeilingAvatar*>* value)
+		::System::Void set_CeilingAvatars(::System::Collections::Generic::IList_1<::Proto::GachaCeilingAvatar*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::Proto::GachaCeilingAvatar*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHACEILINGDATA_SET_CEILINGAVATARS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::Proto::GachaCeilingAvatar*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHACEILINGDATA_SET_CEILINGAVATARS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_Closed()
@@ -72,9 +72,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHACEILINGDATA_GET_CLOSED_OFFSET))(this);
 		}
 
-		::System::Void set_Closed(::System::Boolean value)
+		::System::Void set_Closed(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHACEILINGDATA_SET_CLOSED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHACEILINGDATA_SET_CLOSED_OFFSET))(this, a1);
 		}
 	};
 }

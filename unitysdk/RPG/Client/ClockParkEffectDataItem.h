@@ -9,31 +9,31 @@ namespace RPG::Client { class ClockParkActionDataItem; }
 namespace RPG::Client { class ClockParkEffectResult; }
 namespace RPG::GameCore { class ClockParkEffectRow; }
 
-#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_GETEFFECTRESULT_OFFSET UNITYSDK_OFFSET(0x178B9D00)
-#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_GET_DESCPARAM_OFFSET UNITYSDK_OFFSET(0x178BC1B0)
-#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_GET_DESC_OFFSET UNITYSDK_OFFSET(0x178BC180)
-#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_GET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x178BC160)
-#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_GET_ROW_OFFSET UNITYSDK_OFFSET(0x178BC140)
-#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_ONNEW_OFFSET UNITYSDK_OFFSET(0x178BB7A0)
-#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x178BB730)
-#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_SET_ROW_OFFSET UNITYSDK_OFFSET(0x178BC150)
-#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_SYNC_OFFSET UNITYSDK_OFFSET(0x178B2BD0)
-#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x178BC240)
-#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM__REFRESHEFFECTRESULT_OFFSET UNITYSDK_OFFSET(0x178BB7F0)
+#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_GETEFFECTRESULT_OFFSET UNITYSDK_OFFSET(0x17821F30)
+#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_GET_DESCPARAM_OFFSET UNITYSDK_OFFSET(0x17824440)
+#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_GET_DESC_OFFSET UNITYSDK_OFFSET(0x17824410)
+#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_GET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x178243F0)
+#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_GET_ROW_OFFSET UNITYSDK_OFFSET(0x178243D0)
+#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_ONNEW_OFFSET UNITYSDK_OFFSET(0x178239B0)
+#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x17823940)
+#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_SET_ROW_OFFSET UNITYSDK_OFFSET(0x178243E0)
+#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_SYNC_OFFSET UNITYSDK_OFFSET(0x17823A00)
+#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x178244C0)
+#define RPG_CLIENT_CLOCKPARKEFFECTDATAITEM__REFRESHEFFECTRESULT_OFFSET UNITYSDK_OFFSET(0x17823AA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClockParkEffectDataItem_TypeDefinitionIndex = 56714;
+	inline static constexpr unsigned int ClockParkEffectDataItem_TypeDefinitionIndex = 57498;
 
 	class ClockParkEffectDataItem : public ::System::Object
 	{
 	public:
-		::RPG::Client::ClockParkEffectResult* EffectResult; // 0x10
+		::RPG::GameCore::ClockParkEffectRow* _Row_k__BackingField; // 0x10
 		::RPG::Client::ClockParkActionDataItem* OwnerActionDataItem; // 0x18
-		::RPG::GameCore::ClockParkEffectRow* _Row_k__BackingField; // 0x20
-		::System::Int32 _DiceValue; // 0x28
+		::RPG::Client::ClockParkEffectResult* EffectResult; // 0x20
+		::RPG::Client::ClockParkEffectSource EffectSource; // 0x28
 		::System::UInt32 EffectID; // 0x2C
-		::RPG::Client::ClockParkEffectSource EffectSource; // 0x30
+		::System::Int32 _DiceValue; // 0x30
 
 		::System::Void _ctor()
 		{
@@ -50,19 +50,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_ONNEW_OFFSET))(this);
 		}
 
-		::System::Void Sync(::System::UInt32 effectID, ::System::UInt32 diceValue, ::RPG::Client::ClockParkEffectSource source)
+		::System::Void Sync(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::Client::ClockParkEffectSource a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::Client::ClockParkEffectSource))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_SYNC_OFFSET))(this, effectID, diceValue, source);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::Client::ClockParkEffectSource))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_SYNC_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void GetEffectResult(::System::UInt32 effectID, ::System::Int32 diceValue, ::RPG::Client::ClockParkEffectResult*& result)
+		static ::System::Void GetEffectResult(::System::UInt32 a1, ::System::Int32 a2, ::RPG::Client::ClockParkEffectResult*& a3)
 		{
-			return ((::System::Void(*)(::System::UInt32, ::System::Int32, ::RPG::Client::ClockParkEffectResult*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_GETEFFECTRESULT_OFFSET))(effectID, diceValue, result);
+			return ((::System::Void(*)(::System::UInt32, ::System::Int32, ::RPG::Client::ClockParkEffectResult*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_GETEFFECTRESULT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void _RefreshEffectResult(::RPG::GameCore::ClockParkEffectRow* config, ::System::Int32 diceValue, ::RPG::Client::ClockParkEffectResult*& result)
+		static ::System::Void _RefreshEffectResult(::RPG::GameCore::ClockParkEffectRow* a1, ::System::Int32 a2, ::RPG::Client::ClockParkEffectResult*& a3)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::ClockParkEffectRow*, ::System::Int32, ::RPG::Client::ClockParkEffectResult*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKEFFECTDATAITEM__REFRESHEFFECTRESULT_OFFSET))(config, diceValue, result);
+			return ((::System::Void(*)(::RPG::GameCore::ClockParkEffectRow*, ::System::Int32, ::RPG::Client::ClockParkEffectResult*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKEFFECTDATAITEM__REFRESHEFFECTRESULT_OFFSET))(a1, a2, a3);
 		}
 
 		::RPG::GameCore::ClockParkEffectRow* get_Row()
@@ -70,9 +70,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::ClockParkEffectRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_GET_ROW_OFFSET))(this);
 		}
 
-		::System::Void set_Row(::RPG::GameCore::ClockParkEffectRow* value)
+		::System::Void set_Row(::RPG::GameCore::ClockParkEffectRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ClockParkEffectRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_SET_ROW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ClockParkEffectRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKEFFECTDATAITEM_SET_ROW_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::ClockParkEffectType get_EffectType()

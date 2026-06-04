@@ -7,37 +7,37 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GACHABASICINFOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B79980)
-#define RPG_GAMECORE_GACHABASICINFOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B79E70)
+#define RPG_GAMECORE_GACHABASICINFOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C884F0)
+#define RPG_GAMECORE_GACHABASICINFOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19C889E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GachaBasicInfoConfigRow_TypeDefinitionIndex = 12627;
+	inline static constexpr unsigned int GachaBasicInfoConfigRow_TypeDefinitionIndex = 12717;
 
 	class GachaBasicInfoConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* StartTime; // 0x10
-		::System::String* EndTime; // 0x18
+		::System::String* PoolLabelIcon; // 0x10
+		::System::String* PoolLabelIconSelected; // 0x18
 		::System::String* PrefabPath; // 0x20
-		::System::String* PoolLabelIcon; // 0x28
-		::System::String* PoolLabelIconSelected; // 0x30
+		::System::String* StartTime; // 0x28
+		::System::String* EndTime; // 0x30
 		::RPG::Client::TextID PoolDesc; // 0x38
-		::RPG::Client::TextID TypeTitle; // 0x48
+		::RPG::Client::TextID PoolName; // 0x48
 		::RPG::GameCore::GachaType GachaType; // 0x58
-		::System::UInt32 GachaID; // 0x5C
-		::System::UInt32 SortID; // 0x60
-		::RPG::Client::TextID PoolDescFTC; // 0x68
-		::RPG::Client::TextID PoolName; // 0x78
+		::System::UInt32 SortID; // 0x5C
+		::RPG::Client::TextID PoolDescFTC; // 0x60
+		::RPG::Client::TextID TypeTitle; // 0x70
+		::System::UInt32 GachaID; // 0x80
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GACHABASICINFOCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GachaBasicInfoConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GachaBasicInfoConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GachaBasicInfoConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GACHABASICINFOCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GachaBasicInfoConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GACHABASICINFOCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -8,52 +8,52 @@ namespace Proto { class PerformanceStartSnapshot; }
 namespace System { class String; }
 namespace System::IO { class Stream; }
 
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_AESDECRYPT_OFFSET UNITYSDK_OFFSET(0x165C9560)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_AESENCRYPT_OFFSET UNITYSDK_OFFSET(0x165C9D90)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_GETPERFORMANCESNAPSHOTFILENAME_OFFSET UNITYSDK_OFFSET(0x165C9410)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_LOADPERFORMANCESTARTSNAPSHOTWITHBACKUP_OFFSET UNITYSDK_OFFSET(0x165C90F0)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_LOADPERFORMANCESTARTSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x165C91A0)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_WRITETOSTREAM_OFFSET UNITYSDK_OFFSET(0x165C98A0)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x165CA0D0)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_AESDECRYPT_OFFSET UNITYSDK_OFFSET(0x146C6320)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_AESENCRYPT_OFFSET UNITYSDK_OFFSET(0x146C6C00)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_GETPERFORMANCESNAPSHOTFILENAME_OFFSET UNITYSDK_OFFSET(0x146C6200)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_LOADPERFORMANCESTARTSNAPSHOTWITHBACKUP_OFFSET UNITYSDK_OFFSET(0x146C5F00)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_LOADPERFORMANCESTARTSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x146C5FB0)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_WRITETOSTREAM_OFFSET UNITYSDK_OFFSET(0x146C6690)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x146C6F70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PerformanceReplayUtils_TypeDefinitionIndex = 57381;
+	inline static constexpr unsigned int PerformanceReplayUtils_TypeDefinitionIndex = 58193;
 
 	class PerformanceReplayUtils : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_ByteExtension()
+		static ::System::String** StaticGet_PerformanceLogPath()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x69390);
-		}
-		static ::System::String** StaticGet_PacketLogFilePath()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x69398);
-		}
-		static ::System::String** StaticGet_JsonExtension()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x693A0);
-		}
-		static ::System::String** StaticGet_PerformanceSnapshotLoadPath()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x693A8);
-		}
-		static ::System::String** StaticGet__DefaultAESKey()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x693B0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x4260);
 		}
 		static ::System::String** StaticGet_PerformanceSnapshotOutputPath()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x693B8);
-		}
-		static ::System::String** StaticGet_PerformanceLogPath()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x693C0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x4268);
 		}
 		static ::System::String** StaticGet__DefaultAESIV()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x693C8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x4270);
+		}
+		static ::System::String** StaticGet_ByteExtension()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x4278);
+		}
+		static ::System::String** StaticGet_PacketLogFilePath()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x4280);
+		}
+		static ::System::String** StaticGet_JsonExtension()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x4288);
+		}
+		static ::System::String** StaticGet__DefaultAESKey()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x4290);
+		}
+		static ::System::String** StaticGet_PerformanceSnapshotLoadPath()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReplayUtils_TypeDefinitionIndex)->GetStaticField(0x4298);
 		}
 
 		static ::System::Void _cctor()
@@ -61,34 +61,34 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCEREPLAYUTILS__CCTOR_OFFSET))();
 		}
 
-		static ::Proto::PerformanceStartSnapshot* LoadPerformanceStartSnapshotWithBackup(::System::UInt32 performanceID, ::RPG::GameCore::ELevelPerformanceType performanceType, ::System::UInt32 backupPerformanceID, ::RPG::GameCore::ELevelPerformanceType backupPerformanceType)
+		static ::Proto::PerformanceStartSnapshot* LoadPerformanceStartSnapshotWithBackup(::System::UInt32 a1, ::RPG::GameCore::ELevelPerformanceType a2, ::System::UInt32 a3, ::RPG::GameCore::ELevelPerformanceType a4)
 		{
-			return ((::Proto::PerformanceStartSnapshot*(*)(::System::UInt32, ::RPG::GameCore::ELevelPerformanceType, ::System::UInt32, ::RPG::GameCore::ELevelPerformanceType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCEREPLAYUTILS_LOADPERFORMANCESTARTSNAPSHOTWITHBACKUP_OFFSET))(performanceID, performanceType, backupPerformanceID, backupPerformanceType);
+			return ((::Proto::PerformanceStartSnapshot*(*)(::System::UInt32, ::RPG::GameCore::ELevelPerformanceType, ::System::UInt32, ::RPG::GameCore::ELevelPerformanceType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCEREPLAYUTILS_LOADPERFORMANCESTARTSNAPSHOTWITHBACKUP_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::Proto::PerformanceStartSnapshot* LoadPerformanceStartSnapshot(::System::UInt32 performanceID, ::RPG::GameCore::ELevelPerformanceType performanceType)
+		static ::Proto::PerformanceStartSnapshot* LoadPerformanceStartSnapshot(::System::UInt32 a1, ::RPG::GameCore::ELevelPerformanceType a2)
 		{
-			return ((::Proto::PerformanceStartSnapshot*(*)(::System::UInt32, ::RPG::GameCore::ELevelPerformanceType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCEREPLAYUTILS_LOADPERFORMANCESTARTSNAPSHOT_OFFSET))(performanceID, performanceType);
+			return ((::Proto::PerformanceStartSnapshot*(*)(::System::UInt32, ::RPG::GameCore::ELevelPerformanceType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCEREPLAYUTILS_LOADPERFORMANCESTARTSNAPSHOT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean WriteToStream(::Google::Protobuf::IMessage* message, ::System::IO::Stream* resultStream, ::System::Boolean compress, ::System::Boolean encrypt, ::System::String* aesKey, ::System::String* aesIv)
+		static ::System::Boolean WriteToStream(::Google::Protobuf::IMessage* a1, ::System::IO::Stream* a2, ::System::Boolean a3, ::System::Boolean a4, ::System::String* a5, ::System::String* a6)
 		{
-			return ((::System::Boolean(*)(::Google::Protobuf::IMessage*, ::System::IO::Stream*, ::System::Boolean, ::System::Boolean, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCEREPLAYUTILS_WRITETOSTREAM_OFFSET))(message, resultStream, compress, encrypt, aesKey, aesIv);
+			return ((::System::Boolean(*)(::Google::Protobuf::IMessage*, ::System::IO::Stream*, ::System::Boolean, ::System::Boolean, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCEREPLAYUTILS_WRITETOSTREAM_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::Il2CppArray<::System::Byte>* AesEncrypt(::Il2CppArray<::System::Byte>* toEncryptArray, ::System::String* aesKey, ::System::String* aesIv)
+		static ::Il2CppArray<::System::Byte>* AesEncrypt(::Il2CppArray<::System::Byte>* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::Il2CppArray<::System::Byte>*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCEREPLAYUTILS_AESENCRYPT_OFFSET))(toEncryptArray, aesKey, aesIv);
+			return ((::Il2CppArray<::System::Byte>*(*)(::Il2CppArray<::System::Byte>*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCEREPLAYUTILS_AESENCRYPT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::Il2CppArray<::System::Byte>* AesDecrypt(::Il2CppArray<::System::Byte>* toEncryptArray, ::System::String* aesKey, ::System::String* aesIv)
+		static ::Il2CppArray<::System::Byte>* AesDecrypt(::Il2CppArray<::System::Byte>* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::Il2CppArray<::System::Byte>*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCEREPLAYUTILS_AESDECRYPT_OFFSET))(toEncryptArray, aesKey, aesIv);
+			return ((::Il2CppArray<::System::Byte>*(*)(::Il2CppArray<::System::Byte>*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCEREPLAYUTILS_AESDECRYPT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* GetPerformanceSnapshotFileName(::System::UInt32 performanceID, ::RPG::GameCore::ELevelPerformanceType performanceType, ::System::Boolean isJson)
+		static ::System::String* GetPerformanceSnapshotFileName(::System::UInt32 a1, ::RPG::GameCore::ELevelPerformanceType a2, ::System::Boolean a3)
 		{
-			return ((::System::String*(*)(::System::UInt32, ::RPG::GameCore::ELevelPerformanceType, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCEREPLAYUTILS_GETPERFORMANCESNAPSHOTFILENAME_OFFSET))(performanceID, performanceType, isJson);
+			return ((::System::String*(*)(::System::UInt32, ::RPG::GameCore::ELevelPerformanceType, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCEREPLAYUTILS_GETPERFORMANCESNAPSHOTFILENAME_OFFSET))(a1, a2, a3);
 		}
 	};
 }

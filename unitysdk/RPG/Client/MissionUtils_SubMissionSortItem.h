@@ -5,21 +5,21 @@
 
 namespace RPG::GameCore { class SubMissionInfoConfig; }
 
-#define RPG_CLIENT_MISSIONUTILS_SUBMISSIONSORTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x152A5FB0)
+#define RPG_CLIENT_MISSIONUTILS_SUBMISSIONSORTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x14587540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionUtils_SubMissionSortItem_TypeDefinitionIndex = 60948;
+	inline static constexpr unsigned int MissionUtils_SubMissionSortItem_TypeDefinitionIndex = 61882;
 
 	class MissionUtils_SubMissionSortItem : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::SubMissionInfoConfig* subMissionConfig; // 0x10
-		::RPG::Client::MissionUtils_SubMissionSortType subMissionType; // 0x18
-		::System::Boolean canReachFinish; // 0x1C
-		::System::Boolean isBranchEnd; // 0x1D
-		::System::Boolean isBranchStart; // 0x1E
-		::System::Int32 indent; // 0x20
+		::System::Int32 indent; // 0x18
+		::RPG::Client::MissionUtils_SubMissionSortType subMissionType; // 0x1C
+		::System::Boolean isBranchEnd; // 0x20
+		::System::Boolean canReachFinish; // 0x21
+		::System::Boolean isBranchStart; // 0x22
 
 		::System::Void _ctor()
 		{

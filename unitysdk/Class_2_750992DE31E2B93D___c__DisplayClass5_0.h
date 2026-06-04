@@ -6,24 +6,24 @@ class Class_2_293C6AF513403273;
 class Class_2_750992DE31E2B93D;
 namespace RPG::Client { class IAssetOperation; }
 
-#define CLASS_2_750992DE31E2B93D___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10C82550)
-#define CLASS_2_750992DE31E2B93D___C__DISPLAYCLASS5_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x10C82560)
+#define CLASS_2_750992DE31E2B93D___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14ACC840)
+#define CLASS_2_750992DE31E2B93D___C__DISPLAYCLASS5_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x14ACC850)
 
-inline static constexpr unsigned int Class_2_750992DE31E2B93D___c__DisplayClass5_0_TypeDefinitionIndex = 72643;
+inline static constexpr unsigned int Class_2_750992DE31E2B93D___c__DisplayClass5_0_TypeDefinitionIndex = 74466;
 
 class Class_2_750992DE31E2B93D___c__DisplayClass5_0 : public ::System::Object
 {
 public:
-	::Class_2_750992DE31E2B93D* __4__this; // 0x10
-	::Class_2_293C6AF513403273* operation; // 0x18
+	::Class_2_293C6AF513403273* operation; // 0x10
+	::Class_2_750992DE31E2B93D* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_750992DE31E2B93D___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean _Execute_b__0(::RPG::Client::IAssetOperation* loader)
+	::System::Boolean _Execute_b__0(::RPG::Client::IAssetOperation* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IAssetOperation*))((::PBYTE)hIl2Cpp + CLASS_2_750992DE31E2B93D___C__DISPLAYCLASS5_0__EXECUTE_B__0_OFFSET))(this, loader);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IAssetOperation*))((::PBYTE)hIl2Cpp + CLASS_2_750992DE31E2B93D___C__DISPLAYCLASS5_0__EXECUTE_B__0_OFFSET))(this, a1);
 	}
 };

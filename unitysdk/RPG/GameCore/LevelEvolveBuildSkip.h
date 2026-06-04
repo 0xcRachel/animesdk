@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-#define RPG_GAMECORE_LEVELEVOLVEBUILDSKIP_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19203270)
-#define RPG_GAMECORE_LEVELEVOLVEBUILDSKIP_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19203220)
-#define RPG_GAMECORE_LEVELEVOLVEBUILDSKIP__CTOR_OFFSET UNITYSDK_OFFSET(0x192032C0)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDSKIP_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19B6F470)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDSKIP_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19B6F420)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDSKIP__CTOR_OFFSET UNITYSDK_OFFSET(0x19B6F4C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEvolveBuildSkip_TypeDefinitionIndex = 52373;
+	inline static constexpr unsigned int LevelEvolveBuildSkip_TypeDefinitionIndex = 53070;
 
-	class LevelEvolveBuildSkip : public ::Class_1_9988289E7F8AA214
+	class LevelEvolveBuildSkip : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::System::Void _ctor()

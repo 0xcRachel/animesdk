@@ -7,20 +7,20 @@ namespace RPG::GameCore { class ActiveTrackCamera; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_3_4643D03692F4BE85_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD3DB4B0)
-#define CLASS_3_4643D03692F4BE85_METHOD_3_7BE218703FD6B6D6_OFFSET UNITYSDK_OFFSET(0xD3DC060)
-#define CLASS_3_4643D03692F4BE85_METHOD_3_8F855BB4E892FC03_OFFSET UNITYSDK_OFFSET(0xD3DBA10)
-#define CLASS_3_4643D03692F4BE85_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD3DB670)
-#define CLASS_3_4643D03692F4BE85__CTOR_OFFSET UNITYSDK_OFFSET(0xD3DB480)
-#define CLASS_3_4643D03692F4BE85___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD3DC1C0)
+#define CLASS_3_4643D03692F4BE85_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1554DF90)
+#define CLASS_3_4643D03692F4BE85_METHOD_3_3D2615D76DF296BA_OFFSET UNITYSDK_OFFSET(0x1554E480)
+#define CLASS_3_4643D03692F4BE85_METHOD_3_7BE218703FD6B6D6_OFFSET UNITYSDK_OFFSET(0x1554EB00)
+#define CLASS_3_4643D03692F4BE85_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1554E130)
+#define CLASS_3_4643D03692F4BE85__CTOR_OFFSET UNITYSDK_OFFSET(0x1554DF60)
+#define CLASS_3_4643D03692F4BE85___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1554EC60)
 
-inline static constexpr unsigned int Class_3_4643D03692F4BE85_TypeDefinitionIndex = 53345;
+inline static constexpr unsigned int Class_3_4643D03692F4BE85_TypeDefinitionIndex = 54058;
 
 class Class_3_4643D03692F4BE85 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ActiveTrackCamera*>
 {
 public:
-	::System::String* Field_3_1; // 0x28
-	::System::String* Field_3_0; // 0x30
+	::System::String* Field_3_0; // 0x28
+	::System::String* Field_3_1; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ActiveTrackCamera* a2)
 	{
@@ -42,9 +42,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::Client::CameraDataAndFlags*))((::PBYTE)hIl2Cpp + CLASS_3_4643D03692F4BE85_METHOD_3_7BE218703FD6B6D6_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_3_8F855BB4E892FC03(::RPG::Client::CameraDataAndFlags* a1)
+	::System::Void Method_3_3D2615D76DF296BA(::RPG::Client::CameraDataAndFlags* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::CameraDataAndFlags*))((::PBYTE)hIl2Cpp + CLASS_3_4643D03692F4BE85_METHOD_3_8F855BB4E892FC03_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::CameraDataAndFlags*))((::PBYTE)hIl2Cpp + CLASS_3_4643D03692F4BE85_METHOD_3_3D2615D76DF296BA_OFFSET))(this, a1);
 	}
 
 	::System::Void __iFixBaseProxy_Dispose()

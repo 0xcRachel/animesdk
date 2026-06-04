@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_CLIENT_TALKMODULE_DIALOGUEEVENTKEY_CLEAR_OFFSET UNITYSDK_OFFSET(0x2260870)
-#define RPG_CLIENT_TALKMODULE_DIALOGUEEVENTKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x22608C0)
-#define RPG_CLIENT_TALKMODULE_DIALOGUEEVENTKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB8790)
+#define RPG_CLIENT_TALKMODULE_DIALOGUEEVENTKEY_CLEAR_OFFSET UNITYSDK_OFFSET(0x3837D70)
+#define RPG_CLIENT_TALKMODULE_DIALOGUEEVENTKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x3837DC0)
+#define RPG_CLIENT_TALKMODULE_DIALOGUEEVENTKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x6C9750)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TalkModule_DialogueEventKey_TypeDefinitionIndex = 62721;
+	inline static constexpr unsigned int TalkModule_DialogueEventKey_TypeDefinitionIndex = 63654;
 
 	struct alignas(4) TalkModule_DialogueEventKey
 	{
@@ -16,9 +16,9 @@ namespace RPG::Client
 		::System::UInt32 SubStoryGroupID; // 0x14
 		::System::UInt32 SubStoryLayer; // 0x18
 
-		::System::Void _ctor(::System::UInt32 rogueNPCID, ::System::UInt32 subStoryGroupID, ::System::UInt32 subStoryLayer)
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TALKMODULE_DIALOGUEEVENTKEY__CTOR_OFFSET))(this, rogueNPCID, subStoryGroupID, subStoryLayer);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TALKMODULE_DIALOGUEEVENTKEY__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Clear()
@@ -26,9 +26,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TALKMODULE_DIALOGUEEVENTKEY_CLEAR_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::RPG::Client::TalkModule_DialogueEventKey other)
+		::System::Boolean Equals(::RPG::Client::TalkModule_DialogueEventKey a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::TalkModule_DialogueEventKey))((::PBYTE)hIl2Cpp + RPG_CLIENT_TALKMODULE_DIALOGUEEVENTKEY_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::TalkModule_DialogueEventKey))((::PBYTE)hIl2Cpp + RPG_CLIENT_TALKMODULE_DIALOGUEEVENTKEY_EQUALS_OFFSET))(this, a1);
 		}
 	};
 }

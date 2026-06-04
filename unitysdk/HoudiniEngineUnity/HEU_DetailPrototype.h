@@ -5,30 +5,36 @@
 
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_DETAILPROTOTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x12C3EE90)
+#define HOUDINIENGINEUNITY_HEU_DETAILPROTOTYPE_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x136A5570)
+#define HOUDINIENGINEUNITY_HEU_DETAILPROTOTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x136A54B0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_DetailPrototype_TypeDefinitionIndex = 43746;
+	inline static constexpr unsigned int HEU_DetailPrototype_TypeDefinitionIndex = 37810;
 
 	class HEU_DetailPrototype : public ::System::Object
 	{
 	public:
-		::System::String* _prototypeTexture; // 0x10
-		::System::String* _prototypePrefab; // 0x18
-		::UnityEngine::Color _healthyColor; // 0x20
-		::System::Single _noiseSpread; // 0x30
-		::System::Single _maxWidth; // 0x34
-		::System::Single _maxHeight; // 0x38
-		::System::Single _minHeight; // 0x3C
-		::System::Single _minWidth; // 0x40
-		::UnityEngine::Color _dryColor; // 0x44
-		::System::Int32 _renderMode; // 0x54
+		::System::String* _prototypePrefab; // 0x10
+		::System::String* _prototypeTexture; // 0x18
+		::System::Single _maxHeight; // 0x20
+		::System::Single _minWidth; // 0x24
+		::System::Single _maxWidth; // 0x28
+		::System::Single _minHeight; // 0x2C
+		::UnityEngine::Color _healthyColor; // 0x30
+		::UnityEngine::Color _dryColor; // 0x40
+		::System::Int32 _renderMode; // 0x50
+		::System::Single _noiseSpread; // 0x54
 		::System::Single _bendFactor; // 0x58
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_DETAILPROTOTYPE__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean IsEquivalentTo(::HoudiniEngineUnity::HEU_DetailPrototype* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_DetailPrototype*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_DETAILPROTOTYPE_ISEQUIVALENTTO_OFFSET))(this, a1);
 		}
 	};
 }

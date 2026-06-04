@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_LINERENDERERSKINNING_BONEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1400D0E0)
+#define RPG_CLIENT_EFFECT_LINERENDERERSKINNING_BONEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x156A1730)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_LineRendererSkinning_BoneData_TypeDefinitionIndex = 65001;
+	inline static constexpr unsigned int Effect_LineRendererSkinning_BoneData_TypeDefinitionIndex = 65927;
 
 	class Effect_LineRendererSkinning_BoneData : public ::System::Object
 	{

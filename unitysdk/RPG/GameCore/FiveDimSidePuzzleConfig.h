@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimDynamicVar; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMSIDEPUZZLECONFIG_METHOD_2_BA7D430F748B6CF7_OFFSET UNITYSDK_OFFSET(0x191F17C0)
-#define RPG_GAMECORE_FIVEDIMSIDEPUZZLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x191F1960)
+#define RPG_GAMECORE_FIVEDIMSIDEPUZZLECONFIG_METHOD_2_BA7D430F748B6CF7_OFFSET UNITYSDK_OFFSET(0x1A3A3C50)
+#define RPG_GAMECORE_FIVEDIMSIDEPUZZLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3A3DF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSidePuzzleConfig_TypeDefinitionIndex = 17628;
+	inline static constexpr unsigned int FiveDimSidePuzzleConfig_TypeDefinitionIndex = 17654;
 
 	class FiveDimSidePuzzleConfig : public ::RPG::GameCore::JsonConfig
 	{

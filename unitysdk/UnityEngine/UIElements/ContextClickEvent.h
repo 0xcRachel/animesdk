@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UIElements/MouseEventBase_1.h"
 
-#define UNITYENGINE_UIELEMENTS_CONTEXTCLICKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1921A0C0)
+#define UNITYENGINE_UIELEMENTS_CONTEXTCLICKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19F81970)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int ContextClickEvent_TypeDefinitionIndex = 5940;
+	inline static constexpr unsigned int ContextClickEvent_TypeDefinitionIndex = 6217;
 
 	class ContextClickEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::ContextClickEvent*>
 	{

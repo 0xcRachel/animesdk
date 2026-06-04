@@ -9,27 +9,27 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define CLASS_2_82AD06FA18CD21C2_METHOD_2_D2ABE97028F8BA80_OFFSET UNITYSDK_OFFSET(0x16BF4270)
-#define CLASS_2_82AD06FA18CD21C2__CTOR_OFFSET UNITYSDK_OFFSET(0x16BF48D0)
+#define CLASS_2_82AD06FA18CD21C2_METHOD_2_D2ABE97028F8BA80_OFFSET UNITYSDK_OFFSET(0x195260B0)
+#define CLASS_2_82AD06FA18CD21C2__CTOR_OFFSET UNITYSDK_OFFSET(0x19526710)
 
-inline static constexpr unsigned int Class_2_82AD06FA18CD21C2_TypeDefinitionIndex = 23078;
+inline static constexpr unsigned int Class_2_82AD06FA18CD21C2_TypeDefinitionIndex = 22763;
 
 class Class_2_82AD06FA18CD21C2 : public ::RPG::GameCore::JsonConfig
 {
 public:
-	::RPG::GameCore::DynamicFloat* Field_2_9; // 0x10
-	::RPG::GameCore::DynamicFloat* Field_2_3; // 0x18
-	::RPG::GameCore::DynamicFloat* Field_2_8; // 0x20
-	::RPG::GameCore::TargetEvaluator* Field_2_0; // 0x28
+	::RPG::GameCore::DynamicFloat* Field_2_0; // 0x10
+	::RPG::GameCore::DynamicFloat* Field_2_1; // 0x18
+	::RPG::GameCore::DynamicFloat* Field_2_2; // 0x20
+	::RPG::GameCore::DynamicFloat* Field_2_3; // 0x28
 	::RPG::GameCore::DynamicFloat* Field_2_4; // 0x30
-	::System::String* Field_2_1; // 0x38
-	::RPG::GameCore::DynamicFloat* Field_2_12; // 0x40
-	::RPG::GameCore::DynamicFloat* Field_2_11; // 0x48
-	::RPG::GameCore::DynamicFloat* Field_2_10; // 0x50
-	::RPG::GameCore::DynamicFloat* Field_2_7; // 0x58
-	::RPG::GameCore::DynamicFloat* Field_2_6; // 0x60
-	::RPG::GameCore::MoveOffsetCoordType Field_2_5; // 0x68
-	::RPG::GameCore::RtBattleAnimMoveOption Field_2_2; // 0x6C
+	::RPG::GameCore::DynamicFloat* Field_2_5; // 0x38
+	::RPG::GameCore::DynamicFloat* Field_2_6; // 0x40
+	::RPG::GameCore::DynamicFloat* Field_2_7; // 0x48
+	::RPG::GameCore::TargetEvaluator* Field_2_8; // 0x50
+	::RPG::GameCore::DynamicFloat* Field_2_9; // 0x58
+	::System::String* Field_2_10; // 0x60
+	::RPG::GameCore::RtBattleAnimMoveOption Field_2_11; // 0x68
+	::RPG::GameCore::MoveOffsetCoordType Field_2_12; // 0x6C
 
 	::System::Void _ctor()
 	{

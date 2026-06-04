@@ -6,17 +6,17 @@
 namespace Epic::OnlineServices { class ContinuanceToken; }
 namespace Epic::OnlineServices { class EpicAccountId; }
 
-#define EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS_GET_CONTINUANCETOKEN_OFFSET UNITYSDK_OFFSET(0x19636B20)
-#define EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS_GET_LINKACCOUNTFLAGS_OFFSET UNITYSDK_OFFSET(0x1978E0B0)
-#define EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19636B40)
-#define EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS_SET_CONTINUANCETOKEN_OFFSET UNITYSDK_OFFSET(0x19636B30)
-#define EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS_SET_LINKACCOUNTFLAGS_OFFSET UNITYSDK_OFFSET(0x19636B10)
-#define EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19636B50)
-#define EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19636B60)
+#define EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS_GET_CONTINUANCETOKEN_OFFSET UNITYSDK_OFFSET(0x19F5D4D0)
+#define EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS_GET_LINKACCOUNTFLAGS_OFFSET UNITYSDK_OFFSET(0x1A573BE0)
+#define EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19F5D4F0)
+#define EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS_SET_CONTINUANCETOKEN_OFFSET UNITYSDK_OFFSET(0x19F5D4E0)
+#define EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS_SET_LINKACCOUNTFLAGS_OFFSET UNITYSDK_OFFSET(0x19F5D4C0)
+#define EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19F5D500)
+#define EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19F5D510)
 
 namespace Epic::OnlineServices::Auth
 {
-	inline static constexpr unsigned int LinkAccountOptions_TypeDefinitionIndex = 42374;
+	inline static constexpr unsigned int LinkAccountOptions_TypeDefinitionIndex = 43177;
 
 	class LinkAccountOptions : public ::System::Object
 	{
@@ -35,9 +35,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::Epic::OnlineServices::Auth::LinkAccountFlags(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS_GET_LINKACCOUNTFLAGS_OFFSET))(this);
 		}
 
-		::System::Void set_LinkAccountFlags(::Epic::OnlineServices::Auth::LinkAccountFlags value)
+		::System::Void set_LinkAccountFlags(::Epic::OnlineServices::Auth::LinkAccountFlags a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::LinkAccountFlags))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS_SET_LINKACCOUNTFLAGS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::LinkAccountFlags))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS_SET_LINKACCOUNTFLAGS_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ContinuanceToken* get_ContinuanceToken()
@@ -45,9 +45,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::Epic::OnlineServices::ContinuanceToken*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS_GET_CONTINUANCETOKEN_OFFSET))(this);
 		}
 
-		::System::Void set_ContinuanceToken(::Epic::OnlineServices::ContinuanceToken* value)
+		::System::Void set_ContinuanceToken(::Epic::OnlineServices::ContinuanceToken* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ContinuanceToken*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS_SET_CONTINUANCETOKEN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ContinuanceToken*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS_SET_CONTINUANCETOKEN_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::EpicAccountId* get_LocalUserId()
@@ -55,9 +55,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_LINKACCOUNTOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 	};
 }

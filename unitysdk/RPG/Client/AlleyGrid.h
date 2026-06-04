@@ -7,11 +7,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ALLEYGRID__CTOR_OFFSET UNITYSDK_OFFSET(0x15309C40)
+#define RPG_CLIENT_ALLEYGRID__CTOR_OFFSET UNITYSDK_OFFSET(0x16E4B4A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyGrid_TypeDefinitionIndex = 57446;
+	inline static constexpr unsigned int AlleyGrid_TypeDefinitionIndex = 58258;
 
 	class AlleyGrid : public ::UnityEngine::MonoBehaviour
 	{

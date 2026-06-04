@@ -5,42 +5,42 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_867B6CE75953535A;
 class Class_1_D272AF60A040331E;
-class Class_2_43D1AA62A6D00FFF;
+class Class_1_D33B7D6901AE39E9;
+class Class_2_80F8710F847F1248;
 class Class_3_F4528A5C0F861AF2;
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_12A87790910921BB_EXECUTE_OFFSET UNITYSDK_OFFSET(0xCD2A570)
-#define CLASS_1_12A87790910921BB_METHOD_1_749948B663FCCCEF_OFFSET UNITYSDK_OFFSET(0xCD2AC40)
-#define CLASS_1_12A87790910921BB_METHOD_1_A21BBA85D4EF7B41_OFFSET UNITYSDK_OFFSET(0xCD2B490)
-#define CLASS_1_12A87790910921BB_METHOD_1_B43C848B078B3C34_OFFSET UNITYSDK_OFFSET(0xCD2A6D0)
-#define CLASS_1_12A87790910921BB_METHOD_1_DB67EEFB041425EC_OFFSET UNITYSDK_OFFSET(0xCD2B230)
-#define CLASS_1_12A87790910921BB_METHOD_1_E5EB013FE05D7A57_OFFSET UNITYSDK_OFFSET(0xCD2BF60)
-#define CLASS_1_12A87790910921BB_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xCD2B1F0)
-#define CLASS_1_12A87790910921BB__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD2D050)
-#define CLASS_1_12A87790910921BB__CTOR_OFFSET UNITYSDK_OFFSET(0xCD2A530)
+#define CLASS_1_12A87790910921BB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x150BE4C0)
+#define CLASS_1_12A87790910921BB_METHOD_1_1655B698CBDB2306_OFFSET UNITYSDK_OFFSET(0x150BEFE0)
+#define CLASS_1_12A87790910921BB_METHOD_1_17BD30EFE8176014_OFFSET UNITYSDK_OFFSET(0x150BEAB0)
+#define CLASS_1_12A87790910921BB_METHOD_1_2BBC367F6C8B0002_OFFSET UNITYSDK_OFFSET(0x150BFCE0)
+#define CLASS_1_12A87790910921BB_METHOD_1_A21BBA85D4EF7B41_OFFSET UNITYSDK_OFFSET(0x150BF2C0)
+#define CLASS_1_12A87790910921BB_METHOD_1_B43C848B078B3C34_OFFSET UNITYSDK_OFFSET(0x150BE620)
+#define CLASS_1_12A87790910921BB_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x150BEFA0)
+#define CLASS_1_12A87790910921BB__CCTOR_OFFSET UNITYSDK_OFFSET(0x150C0C80)
+#define CLASS_1_12A87790910921BB__CTOR_OFFSET UNITYSDK_OFFSET(0x150BE480)
 
-inline static constexpr unsigned int Class_1_12A87790910921BB_TypeDefinitionIndex = 70976;
+inline static constexpr unsigned int Class_1_12A87790910921BB_TypeDefinitionIndex = 71798;
 
 class Class_1_12A87790910921BB : public ::System::Object
 {
 public:
-	static ::System::Single* StaticGet_Field_1_2()
+	static ::System::Single* StaticGet_Field_1_0()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_12A87790910921BB_TypeDefinitionIndex)->GetStaticField(0x7770);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_12A87790910921BB_TypeDefinitionIndex)->GetStaticField(0x7AB0);
 	}
-	::Class_1_D272AF60A040331E* Field_1_3; // 0x10
-	::Class_3_F4528A5C0F861AF2* Field_1_7; // 0x18
-	::Class_2_43D1AA62A6D00FFF* Field_1_6; // 0x20
-	::UnityEngine::Vector3 Field_1_0; // 0x28
-	::UnityEngine::Vector2 Field_1_4; // 0x34
-	::System::Single Field_1_5; // 0x3C
-	::UnityEngine::Ray Field_1_1; // 0x40
+	::Class_3_F4528A5C0F861AF2* Field_1_1; // 0x10
+	::Class_2_80F8710F847F1248* Field_1_2; // 0x18
+	::Class_1_D272AF60A040331E* Field_1_3; // 0x20
+	::UnityEngine::Vector2 Field_1_4; // 0x28
+	::System::Single Field_1_5; // 0x30
+	::UnityEngine::Ray Field_1_6; // 0x34
+	::UnityEngine::Vector3 Field_1_7; // 0x4C
 
-	::System::Void _ctor(::Class_1_867B6CE75953535A* a1, ::Class_3_F4528A5C0F861AF2* a2)
+	::System::Void _ctor(::Class_1_D33B7D6901AE39E9* a1, ::Class_3_F4528A5C0F861AF2* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_867B6CE75953535A*, ::Class_3_F4528A5C0F861AF2*))((::PBYTE)hIl2Cpp + CLASS_1_12A87790910921BB__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_D33B7D6901AE39E9*, ::Class_3_F4528A5C0F861AF2*))((::PBYTE)hIl2Cpp + CLASS_1_12A87790910921BB__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	static ::System::Void _cctor()
@@ -58,9 +58,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_12A87790910921BB_TEARDOWN_OFFSET))(this);
 	}
 
-	::System::Void Method_1_DB67EEFB041425EC()
+	::System::Void Method_1_1655B698CBDB2306()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_12A87790910921BB_METHOD_1_DB67EEFB041425EC_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_12A87790910921BB_METHOD_1_1655B698CBDB2306_OFFSET))(this);
 	}
 
 	::System::Void Method_1_A21BBA85D4EF7B41(::System::Single a1)
@@ -73,13 +73,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_12A87790910921BB_METHOD_1_B43C848B078B3C34_OFFSET))(this);
 	}
 
-	::System::Void Method_1_749948B663FCCCEF()
+	::System::Void Method_1_17BD30EFE8176014()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_12A87790910921BB_METHOD_1_749948B663FCCCEF_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_12A87790910921BB_METHOD_1_17BD30EFE8176014_OFFSET))(this);
 	}
 
-	::System::Boolean Method_1_E5EB013FE05D7A57(::UnityEngine::Transform* a1)
+	::System::Boolean Method_1_2BBC367F6C8B0002(::UnityEngine::Transform* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CLASS_1_12A87790910921BB_METHOD_1_E5EB013FE05D7A57_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CLASS_1_12A87790910921BB_METHOD_1_2BBC367F6C8B0002_OFFSET))(this, a1);
 	}
 };

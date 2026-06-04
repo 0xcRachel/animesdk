@@ -6,13 +6,13 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_2_C0950EB832EDE5B7_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0xCD938C0)
-#define CLASS_2_C0950EB832EDE5B7__CTOR_OFFSET UNITYSDK_OFFSET(0xCD93950)
-#define CLASS_2_C0950EB832EDE5B7__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xCD93970)
-#define CLASS_2_C0950EB832EDE5B7___IFIXBASEPROXY_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0xCD93A50)
-#define CLASS_2_C0950EB832EDE5B7___IFIXBASEPROXY__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xCD93AC0)
+#define CLASS_2_C0950EB832EDE5B7_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0x168D27C0)
+#define CLASS_2_C0950EB832EDE5B7__CTOR_OFFSET UNITYSDK_OFFSET(0x168D2850)
+#define CLASS_2_C0950EB832EDE5B7__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x168D2870)
+#define CLASS_2_C0950EB832EDE5B7___IFIXBASEPROXY_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0x168D2950)
+#define CLASS_2_C0950EB832EDE5B7___IFIXBASEPROXY__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x168D29B0)
 
-inline static constexpr unsigned int Class_2_C0950EB832EDE5B7_TypeDefinitionIndex = 55250;
+inline static constexpr unsigned int Class_2_C0950EB832EDE5B7_TypeDefinitionIndex = 55984;
 
 class Class_2_C0950EB832EDE5B7 : public ::RPG::Client::AsyncCheckItemBase
 {
@@ -34,9 +34,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C0950EB832EDE5B7__DOCHECKIMPL_OFFSET))(this);
 	}
 
-	::System::Void __iFixBaseProxy_FillNotifyTypesTo(::System::Collections::Generic::HashSet_1<::RPG::Client::NotifyType>* P0)
+	::System::Void __iFixBaseProxy_FillNotifyTypesTo(::System::Collections::Generic::HashSet_1<::RPG::Client::NotifyType>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::RPG::Client::NotifyType>*))((::PBYTE)hIl2Cpp + CLASS_2_C0950EB832EDE5B7___IFIXBASEPROXY_FILLNOTIFYTYPESTO_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::RPG::Client::NotifyType>*))((::PBYTE)hIl2Cpp + CLASS_2_C0950EB832EDE5B7___IFIXBASEPROXY_FILLNOTIFYTYPESTO_OFFSET))(this, a1);
 	}
 
 	::System::Boolean __iFixBaseProxy__DoCheckImpl()

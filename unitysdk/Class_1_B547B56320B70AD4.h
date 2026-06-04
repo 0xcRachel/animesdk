@@ -6,39 +6,39 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveDanmuContentData; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_B547B56320B70AD4_GET_ID_OFFSET UNITYSDK_OFFSET(0xFE63210)
-#define CLASS_1_B547B56320B70AD4_GET_INTERVAL_OFFSET UNITYSDK_OFFSET(0xFE631F0)
-#define CLASS_1_B547B56320B70AD4_GET_ISENDED_OFFSET UNITYSDK_OFFSET(0xFE631D0)
-#define CLASS_1_B547B56320B70AD4_METHOD_1_4792FCD3AEEF1D34_OFFSET UNITYSDK_OFFSET(0xFE63B50)
-#define CLASS_1_B547B56320B70AD4_METHOD_1_4AF35CCF7882E598_OFFSET UNITYSDK_OFFSET(0xFE634A0)
-#define CLASS_1_B547B56320B70AD4_METHOD_1_6E57D3559C10FFA9_OFFSET UNITYSDK_OFFSET(0xFE63220)
-#define CLASS_1_B547B56320B70AD4_METHOD_1_80A751D930F59D01_OFFSET UNITYSDK_OFFSET(0xFE63270)
-#define CLASS_1_B547B56320B70AD4_METHOD_1_992D5FB404042522_OFFSET UNITYSDK_OFFSET(0xFE63660)
-#define CLASS_1_B547B56320B70AD4_METHOD_1_C561FF611C07A44C_OFFSET UNITYSDK_OFFSET(0xFE63BF0)
-#define CLASS_1_B547B56320B70AD4_METHOD_1_F026F9F94BAA5E1F_OFFSET UNITYSDK_OFFSET(0xFE639A0)
-#define CLASS_1_B547B56320B70AD4_METHOD_1_F41D6912DD7C2BA1_OFFSET UNITYSDK_OFFSET(0xFE63A10)
-#define CLASS_1_B547B56320B70AD4_SET_INTERVAL_OFFSET UNITYSDK_OFFSET(0xFE63200)
-#define CLASS_1_B547B56320B70AD4_SET_ISENDED_OFFSET UNITYSDK_OFFSET(0xFE631E0)
-#define CLASS_1_B547B56320B70AD4__CTOR_OFFSET UNITYSDK_OFFSET(0xFE63380)
+#define CLASS_1_B547B56320B70AD4_GET_ID_OFFSET UNITYSDK_OFFSET(0x1557D7F0)
+#define CLASS_1_B547B56320B70AD4_GET_INTERVAL_OFFSET UNITYSDK_OFFSET(0x1557D7D0)
+#define CLASS_1_B547B56320B70AD4_GET_ISENDED_OFFSET UNITYSDK_OFFSET(0x1557D7B0)
+#define CLASS_1_B547B56320B70AD4_METHOD_1_4792FCD3AEEF1D34_OFFSET UNITYSDK_OFFSET(0x1557E180)
+#define CLASS_1_B547B56320B70AD4_METHOD_1_4AF35CCF7882E598_OFFSET UNITYSDK_OFFSET(0x1557DA80)
+#define CLASS_1_B547B56320B70AD4_METHOD_1_6D06B7F01E0BA98A_OFFSET UNITYSDK_OFFSET(0x1557DC40)
+#define CLASS_1_B547B56320B70AD4_METHOD_1_6E57D3559C10FFA9_OFFSET UNITYSDK_OFFSET(0x1557D800)
+#define CLASS_1_B547B56320B70AD4_METHOD_1_80A751D930F59D01_OFFSET UNITYSDK_OFFSET(0x1557D850)
+#define CLASS_1_B547B56320B70AD4_METHOD_1_C561FF611C07A44C_OFFSET UNITYSDK_OFFSET(0x1557E220)
+#define CLASS_1_B547B56320B70AD4_METHOD_1_E7BCAA74CB20DCB6_OFFSET UNITYSDK_OFFSET(0x1557E060)
+#define CLASS_1_B547B56320B70AD4_METHOD_1_F026F9F94BAA5E1F_OFFSET UNITYSDK_OFFSET(0x1557DFF0)
+#define CLASS_1_B547B56320B70AD4_SET_INTERVAL_OFFSET UNITYSDK_OFFSET(0x1557D7E0)
+#define CLASS_1_B547B56320B70AD4_SET_ISENDED_OFFSET UNITYSDK_OFFSET(0x1557D7C0)
+#define CLASS_1_B547B56320B70AD4__CTOR_OFFSET UNITYSDK_OFFSET(0x1557D960)
 
-inline static constexpr unsigned int Class_1_B547B56320B70AD4_TypeDefinitionIndex = 69405;
+inline static constexpr unsigned int Class_1_B547B56320B70AD4_TypeDefinitionIndex = 70217;
 
 class Class_1_B547B56320B70AD4 : public ::System::Object
 {
 public:
 	::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveDanmuContentData*>* Field_1_0; // 0x10
-	::System::UInt32 _Id_k__BackingField; // 0x18
-	::System::Int32 Field_1_2; // 0x1C
-	::System::UInt32 Field_1_11; // 0x20
-	::System::Single Field_1_10; // 0x24
-	::System::Single Field_1_9; // 0x28
-	::System::UInt32 Field_1_3; // 0x2C
-	::System::Int32 Field_1_1; // 0x30
-	::System::Single _Interval_k__BackingField; // 0x34
-	::System::Boolean _IsEnded_k__BackingField; // 0x38
-	::System::Boolean Field_1_7; // 0x39
-	::System::Boolean Field_1_5; // 0x3A
-	::System::Boolean Field_1_4; // 0x3B
+	::System::Int32 Field_1_1; // 0x18
+	::System::UInt32 Field_1_2; // 0x1C
+	::System::Single _Interval_k__BackingField; // 0x20
+	::System::Single Field_1_4; // 0x24
+	::System::UInt32 Field_1_5; // 0x28
+	::System::Int32 Field_1_6; // 0x2C
+	::System::Boolean _IsEnded_k__BackingField; // 0x30
+	::System::Boolean Field_1_8; // 0x31
+	::System::Boolean Field_1_9; // 0x32
+	::System::Boolean Field_1_10; // 0x33
+	::System::Single Field_1_11; // 0x34
+	::System::UInt32 _Id_k__BackingField; // 0x38
 
 	::System::Void _ctor(::System::Collections::Generic::IList_1<::System::UInt32>* a1, ::System::Single a2, ::System::UInt32 a3, ::System::Single a4, ::System::Boolean a5, ::System::Boolean a6)
 	{
@@ -50,9 +50,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B547B56320B70AD4_GET_ISENDED_OFFSET))(this);
 	}
 
-	::System::Void set_IsEnded(::System::Boolean value)
+	::System::Void set_IsEnded(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_B547B56320B70AD4_SET_ISENDED_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_B547B56320B70AD4_SET_ISENDED_OFFSET))(this, a1);
 	}
 
 	::System::Single get_Interval()
@@ -60,9 +60,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B547B56320B70AD4_GET_INTERVAL_OFFSET))(this);
 	}
 
-	::System::Void set_Interval(::System::Single value)
+	::System::Void set_Interval(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_B547B56320B70AD4_SET_INTERVAL_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_B547B56320B70AD4_SET_INTERVAL_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_Id()
@@ -85,14 +85,14 @@ public:
 		return ((::Class_1_B547B56320B70AD4*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B547B56320B70AD4_METHOD_1_4AF35CCF7882E598_OFFSET))(a1);
 	}
 
-	::System::Void Method_1_992D5FB404042522(::System::Collections::Generic::IList_1<::System::UInt32>* a1)
+	::System::Void Method_1_6D06B7F01E0BA98A(::System::Collections::Generic::IList_1<::System::UInt32>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_B547B56320B70AD4_METHOD_1_992D5FB404042522_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_B547B56320B70AD4_METHOD_1_6D06B7F01E0BA98A_OFFSET))(this, a1);
 	}
 
-	::RPG::Client::ActivityIdleLive::IdleLiveDanmuContentData* Method_1_F41D6912DD7C2BA1()
+	::RPG::Client::ActivityIdleLive::IdleLiveDanmuContentData* Method_1_E7BCAA74CB20DCB6()
 	{
-		return ((::RPG::Client::ActivityIdleLive::IdleLiveDanmuContentData*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B547B56320B70AD4_METHOD_1_F41D6912DD7C2BA1_OFFSET))(this);
+		return ((::RPG::Client::ActivityIdleLive::IdleLiveDanmuContentData*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B547B56320B70AD4_METHOD_1_E7BCAA74CB20DCB6_OFFSET))(this);
 	}
 
 	::System::Void Method_1_4792FCD3AEEF1D34()

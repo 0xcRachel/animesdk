@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELCHARACTERREVIVEFROMREVIVABLE_CLEAR_OFFSET UNITYSDK_OFFSET(0xF2A3710)
-#define RPG_GAMECORE_LEVELCHARACTERREVIVEFROMREVIVABLE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF2A37B0)
-#define RPG_GAMECORE_LEVELCHARACTERREVIVEFROMREVIVABLE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF2A3760)
-#define RPG_GAMECORE_LEVELCHARACTERREVIVEFROMREVIVABLE_INIT_OFFSET UNITYSDK_OFFSET(0xF2A36B0)
-#define RPG_GAMECORE_LEVELCHARACTERREVIVEFROMREVIVABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xF2A3800)
-#define RPG_GAMECORE_LEVELCHARACTERREVIVEFROMREVIVABLE___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xF2A3810)
+#define RPG_GAMECORE_LEVELCHARACTERREVIVEFROMREVIVABLE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1872A140)
+#define RPG_GAMECORE_LEVELCHARACTERREVIVEFROMREVIVABLE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1872A1E0)
+#define RPG_GAMECORE_LEVELCHARACTERREVIVEFROMREVIVABLE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1872A190)
+#define RPG_GAMECORE_LEVELCHARACTERREVIVEFROMREVIVABLE_INIT_OFFSET UNITYSDK_OFFSET(0x1872A0E0)
+#define RPG_GAMECORE_LEVELCHARACTERREVIVEFROMREVIVABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1872A230)
+#define RPG_GAMECORE_LEVELCHARACTERREVIVEFROMREVIVABLE___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x1872A240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCharacterReviveFromRevivable_TypeDefinitionIndex = 52342;
+	inline static constexpr unsigned int LevelCharacterReviveFromRevivable_TypeDefinitionIndex = 53039;
 
-	class LevelCharacterReviveFromRevivable : public ::Class_1_9988289E7F8AA214
+	class LevelCharacterReviveFromRevivable : public ::Class_1_BF7A075734D15E98
 	{
 	public:
-		::RPG::GameCore::GameEntity* CasterEntity; // 0x18
-		::RPG::GameCore::GameEntity* TargetEntity; // 0x20
+		::RPG::GameCore::GameEntity* TargetEntity; // 0x18
+		::RPG::GameCore::GameEntity* CasterEntity; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERREVIVEFROMREVIVABLE__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelCharacterReviveFromRevivable* Init(::RPG::GameCore::GameEntity* pTargetEntity, ::RPG::GameCore::GameEntity* pCasterEntity)
+		::RPG::GameCore::LevelCharacterReviveFromRevivable* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
 		{
-			return ((::RPG::GameCore::LevelCharacterReviveFromRevivable*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERREVIVEFROMREVIVABLE_INIT_OFFSET))(this, pTargetEntity, pCasterEntity);
+			return ((::RPG::GameCore::LevelCharacterReviveFromRevivable*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERREVIVEFROMREVIVABLE_INIT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Clear()

@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16F6C5D0)
-#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS23_0__DOSWITCHPIECE_B__0_OFFSET UNITYSDK_OFFSET(0x16F74D50)
+#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19742BD0)
+#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS23_0__DOSWITCHPIECE_B__0_OFFSET UNITYSDK_OFFSET(0x19742BE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass23_0_TypeDefinitionIndex = 60671;
+	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass23_0_TypeDefinitionIndex = 61605;
 
 	class MatchThreeBoard___c__DisplayClass23_0 : public ::System::Object
 	{

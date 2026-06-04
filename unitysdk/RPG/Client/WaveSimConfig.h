@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_WAVESIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11E4A900)
+#define RPG_CLIENT_WAVESIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1772E570)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WaveSimConfig_TypeDefinitionIndex = 65333;
+	inline static constexpr unsigned int WaveSimConfig_TypeDefinitionIndex = 66260;
 
 	class WaveSimConfig : public ::UnityEngine::ScriptableObject
 	{

@@ -14,67 +14,67 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_SPRITE_CREATESPRITEWITHOUTTEXTURESCRIPTING_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A553DD0)
-#define UNITYENGINE_SPRITE_CREATESPRITEWITHOUTTEXTURESCRIPTING_OFFSET UNITYSDK_OFFSET(0x18F261D0)
-#define UNITYENGINE_SPRITE_CREATESPRITE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A553DE0)
-#define UNITYENGINE_SPRITE_CREATESPRITE_OFFSET UNITYSDK_OFFSET(0x18F261F0)
-#define UNITYENGINE_SPRITE_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1A5538A0)
-#define UNITYENGINE_SPRITE_CREATE_2_OFFSET UNITYSDK_OFFSET(0x1A5538D0)
-#define UNITYENGINE_SPRITE_CREATE_3_OFFSET UNITYSDK_OFFSET(0x1A553BE0)
-#define UNITYENGINE_SPRITE_CREATE_4_OFFSET UNITYSDK_OFFSET(0x1A553C40)
-#define UNITYENGINE_SPRITE_CREATE_5_OFFSET UNITYSDK_OFFSET(0x1A553C90)
-#define UNITYENGINE_SPRITE_CREATE_6_OFFSET UNITYSDK_OFFSET(0x1A553CE0)
-#define UNITYENGINE_SPRITE_CREATE_7_OFFSET UNITYSDK_OFFSET(0x1A553D30)
-#define UNITYENGINE_SPRITE_CREATE_OFFSET UNITYSDK_OFFSET(0x1A553870)
-#define UNITYENGINE_SPRITE_GETINNERUVS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A553DA0)
-#define UNITYENGINE_SPRITE_GETINNERUVS_OFFSET UNITYSDK_OFFSET(0x18F26110)
-#define UNITYENGINE_SPRITE_GETOUTERUVS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A553DB0)
-#define UNITYENGINE_SPRITE_GETOUTERUVS_OFFSET UNITYSDK_OFFSET(0x18F26150)
-#define UNITYENGINE_SPRITE_GETPACKED_OFFSET UNITYSDK_OFFSET(0x18F26240)
-#define UNITYENGINE_SPRITE_GETPACKINGMODE_OFFSET UNITYSDK_OFFSET(0x18F26080)
-#define UNITYENGINE_SPRITE_GETPACKINGROTATION_OFFSET UNITYSDK_OFFSET(0x18F26090)
-#define UNITYENGINE_SPRITE_GETPADDING_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A553DC0)
-#define UNITYENGINE_SPRITE_GETPADDING_OFFSET UNITYSDK_OFFSET(0x18F26190)
-#define UNITYENGINE_SPRITE_GETPHYSICSSHAPECOUNT_OFFSET UNITYSDK_OFFSET(0x1A553240)
-#define UNITYENGINE_SPRITE_GETPHYSICSSHAPEIMPL_OFFSET UNITYSDK_OFFSET(0x1A553400)
-#define UNITYENGINE_SPRITE_GETPHYSICSSHAPEPOINTCOUNT_OFFSET UNITYSDK_OFFSET(0x1A553250)
-#define UNITYENGINE_SPRITE_GETPHYSICSSHAPE_OFFSET UNITYSDK_OFFSET(0x1A553320)
-#define UNITYENGINE_SPRITE_GETTEXTURERECTOFFSET_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A553D90)
-#define UNITYENGINE_SPRITE_GETTEXTURERECTOFFSET_OFFSET UNITYSDK_OFFSET(0x18F260E0)
-#define UNITYENGINE_SPRITE_GETTEXTURERECT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A553D80)
-#define UNITYENGINE_SPRITE_GETTEXTURERECT_OFFSET UNITYSDK_OFFSET(0x18F260A0)
-#define UNITYENGINE_SPRITE_GET_ASSOCIATEDALPHASPLITTEXTURE_OFFSET UNITYSDK_OFFSET(0x18F26350)
-#define UNITYENGINE_SPRITE_GET_BORDER_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A553E10)
-#define UNITYENGINE_SPRITE_GET_BORDER_OFFSET UNITYSDK_OFFSET(0x18F262E0)
-#define UNITYENGINE_SPRITE_GET_BOUNDS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A553DF0)
-#define UNITYENGINE_SPRITE_GET_BOUNDS_OFFSET UNITYSDK_OFFSET(0x18F26250)
-#define UNITYENGINE_SPRITE_GET_PACKED_OFFSET UNITYSDK_OFFSET(0x18F263A0)
-#define UNITYENGINE_SPRITE_GET_PACKINGMODE_OFFSET UNITYSDK_OFFSET(0x18F263C0)
-#define UNITYENGINE_SPRITE_GET_PACKINGROTATION_OFFSET UNITYSDK_OFFSET(0x18F263D0)
-#define UNITYENGINE_SPRITE_GET_PADDINGALPHA_OFFSET UNITYSDK_OFFSET(0x18F26390)
-#define UNITYENGINE_SPRITE_GET_PIVOT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A553E20)
-#define UNITYENGINE_SPRITE_GET_PIVOT_OFFSET UNITYSDK_OFFSET(0x18F26360)
-#define UNITYENGINE_SPRITE_GET_PIXELSPERUNIT_OFFSET UNITYSDK_OFFSET(0x18F26330)
-#define UNITYENGINE_SPRITE_GET_RECT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A553E00)
-#define UNITYENGINE_SPRITE_GET_RECT_OFFSET UNITYSDK_OFFSET(0x18F262A0)
-#define UNITYENGINE_SPRITE_GET_SPRITEATLASTEXTURESCALE_OFFSET UNITYSDK_OFFSET(0x18F26340)
-#define UNITYENGINE_SPRITE_GET_TEXTURERECTOFFSET_OFFSET UNITYSDK_OFFSET(0x18F26450)
-#define UNITYENGINE_SPRITE_GET_TEXTURERECT_OFFSET UNITYSDK_OFFSET(0x18F263E0)
-#define UNITYENGINE_SPRITE_GET_TEXTURE_OFFSET UNITYSDK_OFFSET(0x18F26320)
-#define UNITYENGINE_SPRITE_GET_TRIANGLES_OFFSET UNITYSDK_OFFSET(0x18F264C0)
-#define UNITYENGINE_SPRITE_GET_UVWITHOUTUPLOAD_OFFSET UNITYSDK_OFFSET(0x18F264E0)
-#define UNITYENGINE_SPRITE_GET_UV_OFFSET UNITYSDK_OFFSET(0x18F264D0)
-#define UNITYENGINE_SPRITE_GET_VERTICES_OFFSET UNITYSDK_OFFSET(0x18F264B0)
-#define UNITYENGINE_SPRITE_INTERNAL_GETPHYSICSSHAPEPOINTCOUNT_OFFSET UNITYSDK_OFFSET(0x1A553310)
-#define UNITYENGINE_SPRITE_OVERRIDEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x1A553860)
-#define UNITYENGINE_SPRITE_OVERRIDEPHYSICSSHAPECOUNT_OFFSET UNITYSDK_OFFSET(0x1A553840)
-#define UNITYENGINE_SPRITE_OVERRIDEPHYSICSSHAPE_1_OFFSET UNITYSDK_OFFSET(0x1A553850)
-#define UNITYENGINE_SPRITE_OVERRIDEPHYSICSSHAPE_OFFSET UNITYSDK_OFFSET(0x1A553410)
-#define UNITYENGINE_SPRITE__CTOR_OFFSET UNITYSDK_OFFSET(0x18F26070)
+#define UNITYENGINE_SPRITE_CREATESPRITEWITHOUTTEXTURESCRIPTING_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B3717A0)
+#define UNITYENGINE_SPRITE_CREATESPRITEWITHOUTTEXTURESCRIPTING_OFFSET UNITYSDK_OFFSET(0x1B371780)
+#define UNITYENGINE_SPRITE_CREATESPRITE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B371800)
+#define UNITYENGINE_SPRITE_CREATESPRITE_OFFSET UNITYSDK_OFFSET(0x1B3717B0)
+#define UNITYENGINE_SPRITE_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1B372190)
+#define UNITYENGINE_SPRITE_CREATE_2_OFFSET UNITYSDK_OFFSET(0x1B3721C0)
+#define UNITYENGINE_SPRITE_CREATE_3_OFFSET UNITYSDK_OFFSET(0x1B3724D0)
+#define UNITYENGINE_SPRITE_CREATE_4_OFFSET UNITYSDK_OFFSET(0x1B372530)
+#define UNITYENGINE_SPRITE_CREATE_5_OFFSET UNITYSDK_OFFSET(0x1B372580)
+#define UNITYENGINE_SPRITE_CREATE_6_OFFSET UNITYSDK_OFFSET(0x1B3725D0)
+#define UNITYENGINE_SPRITE_CREATE_7_OFFSET UNITYSDK_OFFSET(0x1B372620)
+#define UNITYENGINE_SPRITE_CREATE_OFFSET UNITYSDK_OFFSET(0x1B372160)
+#define UNITYENGINE_SPRITE_GETINNERUVS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B3716D0)
+#define UNITYENGINE_SPRITE_GETINNERUVS_OFFSET UNITYSDK_OFFSET(0x1B371690)
+#define UNITYENGINE_SPRITE_GETOUTERUVS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B371720)
+#define UNITYENGINE_SPRITE_GETOUTERUVS_OFFSET UNITYSDK_OFFSET(0x1B3716E0)
+#define UNITYENGINE_SPRITE_GETPACKED_OFFSET UNITYSDK_OFFSET(0x1B371810)
+#define UNITYENGINE_SPRITE_GETPACKINGMODE_OFFSET UNITYSDK_OFFSET(0x1B3715E0)
+#define UNITYENGINE_SPRITE_GETPACKINGROTATION_OFFSET UNITYSDK_OFFSET(0x1B3715F0)
+#define UNITYENGINE_SPRITE_GETPADDING_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B371770)
+#define UNITYENGINE_SPRITE_GETPADDING_OFFSET UNITYSDK_OFFSET(0x1B371730)
+#define UNITYENGINE_SPRITE_GETPHYSICSSHAPECOUNT_OFFSET UNITYSDK_OFFSET(0x1B371B10)
+#define UNITYENGINE_SPRITE_GETPHYSICSSHAPEIMPL_OFFSET UNITYSDK_OFFSET(0x1B371CD0)
+#define UNITYENGINE_SPRITE_GETPHYSICSSHAPEPOINTCOUNT_OFFSET UNITYSDK_OFFSET(0x1B371B20)
+#define UNITYENGINE_SPRITE_GETPHYSICSSHAPE_OFFSET UNITYSDK_OFFSET(0x1B371BF0)
+#define UNITYENGINE_SPRITE_GETTEXTURERECTOFFSET_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B371680)
+#define UNITYENGINE_SPRITE_GETTEXTURERECTOFFSET_OFFSET UNITYSDK_OFFSET(0x1B371650)
+#define UNITYENGINE_SPRITE_GETTEXTURERECT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B371640)
+#define UNITYENGINE_SPRITE_GETTEXTURERECT_OFFSET UNITYSDK_OFFSET(0x1B371600)
+#define UNITYENGINE_SPRITE_GET_ASSOCIATEDALPHASPLITTEXTURE_OFFSET UNITYSDK_OFFSET(0x1B371950)
+#define UNITYENGINE_SPRITE_GET_BORDER_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B371910)
+#define UNITYENGINE_SPRITE_GET_BORDER_OFFSET UNITYSDK_OFFSET(0x1B3718D0)
+#define UNITYENGINE_SPRITE_GET_BOUNDS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B371870)
+#define UNITYENGINE_SPRITE_GET_BOUNDS_OFFSET UNITYSDK_OFFSET(0x1B371820)
+#define UNITYENGINE_SPRITE_GET_PACKED_OFFSET UNITYSDK_OFFSET(0x1B3719B0)
+#define UNITYENGINE_SPRITE_GET_PACKINGMODE_OFFSET UNITYSDK_OFFSET(0x1B3719D0)
+#define UNITYENGINE_SPRITE_GET_PACKINGROTATION_OFFSET UNITYSDK_OFFSET(0x1B3719E0)
+#define UNITYENGINE_SPRITE_GET_PADDINGALPHA_OFFSET UNITYSDK_OFFSET(0x1B3719A0)
+#define UNITYENGINE_SPRITE_GET_PIVOT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B371990)
+#define UNITYENGINE_SPRITE_GET_PIVOT_OFFSET UNITYSDK_OFFSET(0x1B371960)
+#define UNITYENGINE_SPRITE_GET_PIXELSPERUNIT_OFFSET UNITYSDK_OFFSET(0x1B371930)
+#define UNITYENGINE_SPRITE_GET_RECT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B3718C0)
+#define UNITYENGINE_SPRITE_GET_RECT_OFFSET UNITYSDK_OFFSET(0x1B371880)
+#define UNITYENGINE_SPRITE_GET_SPRITEATLASTEXTURESCALE_OFFSET UNITYSDK_OFFSET(0x1B371940)
+#define UNITYENGINE_SPRITE_GET_TEXTURERECTOFFSET_OFFSET UNITYSDK_OFFSET(0x1B371A60)
+#define UNITYENGINE_SPRITE_GET_TEXTURERECT_OFFSET UNITYSDK_OFFSET(0x1B3719F0)
+#define UNITYENGINE_SPRITE_GET_TEXTURE_OFFSET UNITYSDK_OFFSET(0x1B371920)
+#define UNITYENGINE_SPRITE_GET_TRIANGLES_OFFSET UNITYSDK_OFFSET(0x1B371AE0)
+#define UNITYENGINE_SPRITE_GET_UVWITHOUTUPLOAD_OFFSET UNITYSDK_OFFSET(0x1B371B00)
+#define UNITYENGINE_SPRITE_GET_UV_OFFSET UNITYSDK_OFFSET(0x1B371AF0)
+#define UNITYENGINE_SPRITE_GET_VERTICES_OFFSET UNITYSDK_OFFSET(0x1B371AD0)
+#define UNITYENGINE_SPRITE_INTERNAL_GETPHYSICSSHAPEPOINTCOUNT_OFFSET UNITYSDK_OFFSET(0x1B371BE0)
+#define UNITYENGINE_SPRITE_OVERRIDEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x1B372150)
+#define UNITYENGINE_SPRITE_OVERRIDEPHYSICSSHAPECOUNT_OFFSET UNITYSDK_OFFSET(0x1B372130)
+#define UNITYENGINE_SPRITE_OVERRIDEPHYSICSSHAPE_1_OFFSET UNITYSDK_OFFSET(0x1B372140)
+#define UNITYENGINE_SPRITE_OVERRIDEPHYSICSSHAPE_OFFSET UNITYSDK_OFFSET(0x1B371CE0)
+#define UNITYENGINE_SPRITE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3715D0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Sprite_TypeDefinitionIndex = 4227;
+	inline static constexpr unsigned int Sprite_TypeDefinitionIndex = 4401;
 
 	class Sprite : public ::UnityEngine::Object
 	{
@@ -104,34 +104,34 @@ namespace UnityEngine
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETTEXTURERECTOFFSET_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector4 GetInnerUVs(::UnityEngine::SpriteRenderDataMode mode)
+		::UnityEngine::Vector4 GetInnerUVs(::UnityEngine::SpriteRenderDataMode a1)
 		{
-			return ((::UnityEngine::Vector4(*)(::PVOID, ::UnityEngine::SpriteRenderDataMode))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETINNERUVS_OFFSET))(this, mode);
+			return ((::UnityEngine::Vector4(*)(::PVOID, ::UnityEngine::SpriteRenderDataMode))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETINNERUVS_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector4 GetOuterUVs(::UnityEngine::SpriteRenderDataMode mode)
+		::UnityEngine::Vector4 GetOuterUVs(::UnityEngine::SpriteRenderDataMode a1)
 		{
-			return ((::UnityEngine::Vector4(*)(::PVOID, ::UnityEngine::SpriteRenderDataMode))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETOUTERUVS_OFFSET))(this, mode);
+			return ((::UnityEngine::Vector4(*)(::PVOID, ::UnityEngine::SpriteRenderDataMode))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETOUTERUVS_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector4 GetPadding(::UnityEngine::SpriteRenderDataMode mode)
+		::UnityEngine::Vector4 GetPadding(::UnityEngine::SpriteRenderDataMode a1)
 		{
-			return ((::UnityEngine::Vector4(*)(::PVOID, ::UnityEngine::SpriteRenderDataMode))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETPADDING_OFFSET))(this, mode);
+			return ((::UnityEngine::Vector4(*)(::PVOID, ::UnityEngine::SpriteRenderDataMode))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETPADDING_OFFSET))(this, a1);
 		}
 
-		static ::UnityEngine::Sprite* CreateSpriteWithoutTextureScripting(::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, ::System::Single pixelsToUnits, ::UnityEngine::Texture2D* texture)
+		static ::UnityEngine::Sprite* CreateSpriteWithoutTextureScripting(::UnityEngine::Rect a1, ::UnityEngine::Vector2 a2, ::System::Single a3, ::UnityEngine::Texture2D* a4)
 		{
-			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Rect, ::UnityEngine::Vector2, ::System::Single, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATESPRITEWITHOUTTEXTURESCRIPTING_OFFSET))(rect, pivot, pixelsToUnits, texture);
+			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Rect, ::UnityEngine::Vector2, ::System::Single, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATESPRITEWITHOUTTEXTURESCRIPTING_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::UnityEngine::Sprite* CreateSprite(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, ::System::Single pixelsPerUnit, ::System::UInt32 extrude, ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border, ::System::Boolean generateFallbackPhysicsShape)
+		static ::UnityEngine::Sprite* CreateSprite(::UnityEngine::Texture2D* a1, ::UnityEngine::Rect a2, ::UnityEngine::Vector2 a3, ::System::Single a4, ::System::UInt32 a5, ::UnityEngine::SpriteMeshType a6, ::UnityEngine::Vector4 a7, ::System::Boolean a8)
 		{
-			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, ::System::Single, ::System::UInt32, ::UnityEngine::SpriteMeshType, ::UnityEngine::Vector4, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATESPRITE_OFFSET))(texture, rect, pivot, pixelsPerUnit, extrude, meshType, border, generateFallbackPhysicsShape);
+			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, ::System::Single, ::System::UInt32, ::UnityEngine::SpriteMeshType, ::UnityEngine::Vector4, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATESPRITE_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::System::Int32 GetPacked(::UnityEngine::SpriteRenderDataMode mode)
+		::System::Int32 GetPacked(::UnityEngine::SpriteRenderDataMode a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::UnityEngine::SpriteRenderDataMode))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETPACKED_OFFSET))(this, mode);
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::SpriteRenderDataMode))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETPACKED_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Bounds get_bounds()
@@ -229,139 +229,139 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETPHYSICSSHAPECOUNT_OFFSET))(this);
 		}
 
-		::System::Int32 GetPhysicsShapePointCount(::System::Int32 shapeIdx)
+		::System::Int32 GetPhysicsShapePointCount(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETPHYSICSSHAPEPOINTCOUNT_OFFSET))(this, shapeIdx);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETPHYSICSSHAPEPOINTCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::Int32 Internal_GetPhysicsShapePointCount(::System::Int32 shapeIdx)
+		::System::Int32 Internal_GetPhysicsShapePointCount(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_INTERNAL_GETPHYSICSSHAPEPOINTCOUNT_OFFSET))(this, shapeIdx);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_INTERNAL_GETPHYSICSSHAPEPOINTCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetPhysicsShape(::System::Int32 shapeIdx, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* physicsShape)
+		::System::Int32 GetPhysicsShape(::System::Int32 a1, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETPHYSICSSHAPE_OFFSET))(this, shapeIdx, physicsShape);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETPHYSICSSHAPE_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void GetPhysicsShapeImpl(::UnityEngine::Sprite* sprite, ::System::Int32 shapeIdx, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* physicsShape)
+		static ::System::Void GetPhysicsShapeImpl(::UnityEngine::Sprite* a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Sprite*, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETPHYSICSSHAPEIMPL_OFFSET))(sprite, shapeIdx, physicsShape);
+			return ((::System::Void(*)(::UnityEngine::Sprite*, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETPHYSICSSHAPEIMPL_OFFSET))(a1, a2, a3);
 		}
 
-		::System::Void OverridePhysicsShape(::System::Collections::Generic::IList_1<::Il2CppArray<::UnityEngine::Vector2>*>* physicsShapes)
+		::System::Void OverridePhysicsShape(::System::Collections::Generic::IList_1<::Il2CppArray<::UnityEngine::Vector2>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::Il2CppArray<::UnityEngine::Vector2>*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_OVERRIDEPHYSICSSHAPE_OFFSET))(this, physicsShapes);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::Il2CppArray<::UnityEngine::Vector2>*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_OVERRIDEPHYSICSSHAPE_OFFSET))(this, a1);
 		}
 
-		static ::System::Void OverridePhysicsShapeCount(::UnityEngine::Sprite* sprite, ::System::Int32 physicsShapeCount)
+		static ::System::Void OverridePhysicsShapeCount(::UnityEngine::Sprite* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Sprite*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_OVERRIDEPHYSICSSHAPECOUNT_OFFSET))(sprite, physicsShapeCount);
+			return ((::System::Void(*)(::UnityEngine::Sprite*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_OVERRIDEPHYSICSSHAPECOUNT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void OverridePhysicsShape_1(::UnityEngine::Sprite* sprite, ::Il2CppArray<::UnityEngine::Vector2>* physicsShape, ::System::Int32 idx)
+		static ::System::Void OverridePhysicsShape_1(::UnityEngine::Sprite* a1, ::Il2CppArray<::UnityEngine::Vector2>* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Sprite*, ::Il2CppArray<::UnityEngine::Vector2>*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_OVERRIDEPHYSICSSHAPE_1_OFFSET))(sprite, physicsShape, idx);
+			return ((::System::Void(*)(::UnityEngine::Sprite*, ::Il2CppArray<::UnityEngine::Vector2>*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_OVERRIDEPHYSICSSHAPE_1_OFFSET))(a1, a2, a3);
 		}
 
-		::System::Void OverrideGeometry(::Il2CppArray<::UnityEngine::Vector2>* vertices, ::Il2CppArray<::System::UInt16>* triangles)
+		::System::Void OverrideGeometry(::Il2CppArray<::UnityEngine::Vector2>* a1, ::Il2CppArray<::System::UInt16>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector2>*, ::Il2CppArray<::System::UInt16>*))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_OVERRIDEGEOMETRY_OFFSET))(this, vertices, triangles);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector2>*, ::Il2CppArray<::System::UInt16>*))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_OVERRIDEGEOMETRY_OFFSET))(this, a1, a2);
 		}
 
-		static ::UnityEngine::Sprite* Create(::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, ::System::Single pixelsToUnits, ::UnityEngine::Texture2D* texture)
+		static ::UnityEngine::Sprite* Create(::UnityEngine::Rect a1, ::UnityEngine::Vector2 a2, ::System::Single a3, ::UnityEngine::Texture2D* a4)
 		{
-			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Rect, ::UnityEngine::Vector2, ::System::Single, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATE_OFFSET))(rect, pivot, pixelsToUnits, texture);
+			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Rect, ::UnityEngine::Vector2, ::System::Single, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::UnityEngine::Sprite* Create_1(::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, ::System::Single pixelsToUnits)
+		static ::UnityEngine::Sprite* Create_1(::UnityEngine::Rect a1, ::UnityEngine::Vector2 a2, ::System::Single a3)
 		{
-			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Rect, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATE_1_OFFSET))(rect, pivot, pixelsToUnits);
+			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Rect, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATE_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Sprite* Create_2(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, ::System::Single pixelsPerUnit, ::System::UInt32 extrude, ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border, ::System::Boolean generateFallbackPhysicsShape)
+		static ::UnityEngine::Sprite* Create_2(::UnityEngine::Texture2D* a1, ::UnityEngine::Rect a2, ::UnityEngine::Vector2 a3, ::System::Single a4, ::System::UInt32 a5, ::UnityEngine::SpriteMeshType a6, ::UnityEngine::Vector4 a7, ::System::Boolean a8)
 		{
-			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, ::System::Single, ::System::UInt32, ::UnityEngine::SpriteMeshType, ::UnityEngine::Vector4, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATE_2_OFFSET))(texture, rect, pivot, pixelsPerUnit, extrude, meshType, border, generateFallbackPhysicsShape);
+			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, ::System::Single, ::System::UInt32, ::UnityEngine::SpriteMeshType, ::UnityEngine::Vector4, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATE_2_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::UnityEngine::Sprite* Create_3(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, ::System::Single pixelsPerUnit, ::System::UInt32 extrude, ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border)
+		static ::UnityEngine::Sprite* Create_3(::UnityEngine::Texture2D* a1, ::UnityEngine::Rect a2, ::UnityEngine::Vector2 a3, ::System::Single a4, ::System::UInt32 a5, ::UnityEngine::SpriteMeshType a6, ::UnityEngine::Vector4 a7)
 		{
-			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, ::System::Single, ::System::UInt32, ::UnityEngine::SpriteMeshType, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATE_3_OFFSET))(texture, rect, pivot, pixelsPerUnit, extrude, meshType, border);
+			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, ::System::Single, ::System::UInt32, ::UnityEngine::SpriteMeshType, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATE_3_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::UnityEngine::Sprite* Create_4(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, ::System::Single pixelsPerUnit, ::System::UInt32 extrude, ::UnityEngine::SpriteMeshType meshType)
+		static ::UnityEngine::Sprite* Create_4(::UnityEngine::Texture2D* a1, ::UnityEngine::Rect a2, ::UnityEngine::Vector2 a3, ::System::Single a4, ::System::UInt32 a5, ::UnityEngine::SpriteMeshType a6)
 		{
-			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, ::System::Single, ::System::UInt32, ::UnityEngine::SpriteMeshType))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATE_4_OFFSET))(texture, rect, pivot, pixelsPerUnit, extrude, meshType);
+			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, ::System::Single, ::System::UInt32, ::UnityEngine::SpriteMeshType))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATE_4_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::UnityEngine::Sprite* Create_5(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, ::System::Single pixelsPerUnit, ::System::UInt32 extrude)
+		static ::UnityEngine::Sprite* Create_5(::UnityEngine::Texture2D* a1, ::UnityEngine::Rect a2, ::UnityEngine::Vector2 a3, ::System::Single a4, ::System::UInt32 a5)
 		{
-			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, ::System::Single, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATE_5_OFFSET))(texture, rect, pivot, pixelsPerUnit, extrude);
+			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, ::System::Single, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATE_5_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::UnityEngine::Sprite* Create_6(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, ::System::Single pixelsPerUnit)
+		static ::UnityEngine::Sprite* Create_6(::UnityEngine::Texture2D* a1, ::UnityEngine::Rect a2, ::UnityEngine::Vector2 a3, ::System::Single a4)
 		{
-			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATE_6_OFFSET))(texture, rect, pivot, pixelsPerUnit);
+			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATE_6_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::UnityEngine::Sprite* Create_7(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot)
+		static ::UnityEngine::Sprite* Create_7(::UnityEngine::Texture2D* a1, ::UnityEngine::Rect a2, ::UnityEngine::Vector2 a3)
 		{
-			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATE_7_OFFSET))(texture, rect, pivot);
+			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATE_7_OFFSET))(a1, a2, a3);
 		}
 
-		::System::Void GetTextureRect_Injected(::UnityEngine::Rect& ret)
+		::System::Void GetTextureRect_Injected(::UnityEngine::Rect& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETTEXTURERECT_INJECTED_OFFSET))(this, ret);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETTEXTURERECT_INJECTED_OFFSET))(this, a1);
 		}
 
-		::System::Void GetTextureRectOffset_Injected(::UnityEngine::Vector2& ret)
+		::System::Void GetTextureRectOffset_Injected(::UnityEngine::Vector2& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETTEXTURERECTOFFSET_INJECTED_OFFSET))(this, ret);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETTEXTURERECTOFFSET_INJECTED_OFFSET))(this, a1);
 		}
 
-		::System::Void GetInnerUVs_Injected(::UnityEngine::SpriteRenderDataMode mode, ::UnityEngine::Vector4& ret)
+		::System::Void GetInnerUVs_Injected(::UnityEngine::SpriteRenderDataMode a1, ::UnityEngine::Vector4& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::SpriteRenderDataMode, ::UnityEngine::Vector4&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETINNERUVS_INJECTED_OFFSET))(this, mode, ret);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::SpriteRenderDataMode, ::UnityEngine::Vector4&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETINNERUVS_INJECTED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void GetOuterUVs_Injected(::UnityEngine::SpriteRenderDataMode mode, ::UnityEngine::Vector4& ret)
+		::System::Void GetOuterUVs_Injected(::UnityEngine::SpriteRenderDataMode a1, ::UnityEngine::Vector4& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::SpriteRenderDataMode, ::UnityEngine::Vector4&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETOUTERUVS_INJECTED_OFFSET))(this, mode, ret);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::SpriteRenderDataMode, ::UnityEngine::Vector4&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETOUTERUVS_INJECTED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void GetPadding_Injected(::UnityEngine::SpriteRenderDataMode mode, ::UnityEngine::Vector4& ret)
+		::System::Void GetPadding_Injected(::UnityEngine::SpriteRenderDataMode a1, ::UnityEngine::Vector4& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::SpriteRenderDataMode, ::UnityEngine::Vector4&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETPADDING_INJECTED_OFFSET))(this, mode, ret);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::SpriteRenderDataMode, ::UnityEngine::Vector4&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GETPADDING_INJECTED_OFFSET))(this, a1, a2);
 		}
 
-		static ::UnityEngine::Sprite* CreateSpriteWithoutTextureScripting_Injected(::UnityEngine::Rect& rect, ::UnityEngine::Vector2& pivot, ::System::Single pixelsToUnits, ::UnityEngine::Texture2D* texture)
+		static ::UnityEngine::Sprite* CreateSpriteWithoutTextureScripting_Injected(::UnityEngine::Rect& a1, ::UnityEngine::Vector2& a2, ::System::Single a3, ::UnityEngine::Texture2D* a4)
 		{
-			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Rect&, ::UnityEngine::Vector2&, ::System::Single, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATESPRITEWITHOUTTEXTURESCRIPTING_INJECTED_OFFSET))(rect, pivot, pixelsToUnits, texture);
+			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Rect&, ::UnityEngine::Vector2&, ::System::Single, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATESPRITEWITHOUTTEXTURESCRIPTING_INJECTED_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::UnityEngine::Sprite* CreateSprite_Injected(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect& rect, ::UnityEngine::Vector2& pivot, ::System::Single pixelsPerUnit, ::System::UInt32 extrude, ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4& border, ::System::Boolean generateFallbackPhysicsShape)
+		static ::UnityEngine::Sprite* CreateSprite_Injected(::UnityEngine::Texture2D* a1, ::UnityEngine::Rect& a2, ::UnityEngine::Vector2& a3, ::System::Single a4, ::System::UInt32 a5, ::UnityEngine::SpriteMeshType a6, ::UnityEngine::Vector4& a7, ::System::Boolean a8)
 		{
-			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect&, ::UnityEngine::Vector2&, ::System::Single, ::System::UInt32, ::UnityEngine::SpriteMeshType, ::UnityEngine::Vector4&, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATESPRITE_INJECTED_OFFSET))(texture, rect, pivot, pixelsPerUnit, extrude, meshType, border, generateFallbackPhysicsShape);
+			return ((::UnityEngine::Sprite*(*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect&, ::UnityEngine::Vector2&, ::System::Single, ::System::UInt32, ::UnityEngine::SpriteMeshType, ::UnityEngine::Vector4&, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_CREATESPRITE_INJECTED_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::System::Void get_bounds_Injected(::UnityEngine::Bounds& ret)
+		::System::Void get_bounds_Injected(::UnityEngine::Bounds& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bounds&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GET_BOUNDS_INJECTED_OFFSET))(this, ret);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bounds&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GET_BOUNDS_INJECTED_OFFSET))(this, a1);
 		}
 
-		::System::Void get_rect_Injected(::UnityEngine::Rect& ret)
+		::System::Void get_rect_Injected(::UnityEngine::Rect& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GET_RECT_INJECTED_OFFSET))(this, ret);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GET_RECT_INJECTED_OFFSET))(this, a1);
 		}
 
-		::System::Void get_border_Injected(::UnityEngine::Vector4& ret)
+		::System::Void get_border_Injected(::UnityEngine::Vector4& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GET_BORDER_INJECTED_OFFSET))(this, ret);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GET_BORDER_INJECTED_OFFSET))(this, a1);
 		}
 
-		::System::Void get_pivot_Injected(::UnityEngine::Vector2& ret)
+		::System::Void get_pivot_Injected(::UnityEngine::Vector2& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GET_PIVOT_INJECTED_OFFSET))(this, ret);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITE_GET_PIVOT_INJECTED_OFFSET))(this, a1);
 		}
 	};
 }

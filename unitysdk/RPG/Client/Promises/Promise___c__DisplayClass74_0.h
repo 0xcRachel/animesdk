@@ -5,12 +5,12 @@
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class Exception; }
 
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS74_0__CONTINUEWITH_B__0_OFFSET UNITYSDK_OFFSET(0x1A718A40)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS74_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A717810)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS74_0__CONTINUEWITH_B__0_OFFSET UNITYSDK_OFFSET(0x1B53D160)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS74_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B53BCE0)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass74_0_TypeDefinitionIndex = 8679;
+	inline static constexpr unsigned int Promise___c__DisplayClass74_0_TypeDefinitionIndex = 9582;
 
 	class Promise___c__DisplayClass74_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client::Promises
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS74_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ContinueWith_b__0(::System::Exception* e)
+		::System::Void _ContinueWith_b__0(::System::Exception* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS74_0__CONTINUEWITH_B__0_OFFSET))(this, e);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS74_0__CONTINUEWITH_B__0_OFFSET))(this, a1);
 		}
 	};
 }

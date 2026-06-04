@@ -4,18 +4,18 @@
 #include "unitysdk/RPG/GameCore/IdleLiveAvatarPropertyType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_358;
+class Class_0_16E4307DCC419505_398;
 namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyContext_1; }
 
-#define CLASS_1_356263B9CAE7098D_CALCULATEVALUE_OFFSET UNITYSDK_OFFSET(0xC4E6500)
-#define CLASS_1_356263B9CAE7098D__CTOR_OFFSET UNITYSDK_OFFSET(0xC4E6440)
+#define CLASS_1_356263B9CAE7098D_CALCULATEVALUE_OFFSET UNITYSDK_OFFSET(0x16F64370)
+#define CLASS_1_356263B9CAE7098D__CTOR_OFFSET UNITYSDK_OFFSET(0x16F642B0)
 
-inline static constexpr unsigned int Class_1_356263B9CAE7098D_TypeDefinitionIndex = 69188;
+inline static constexpr unsigned int Class_1_356263B9CAE7098D_TypeDefinitionIndex = 70000;
 
 class Class_1_356263B9CAE7098D : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_358* Field_1_0; // 0x10
+	::Class_0_16E4307DCC419505_398* Field_1_0; // 0x10
 
 	::System::Void _ctor(::RPG::GameCore::IdleLiveAvatarPropertyType a1)
 	{

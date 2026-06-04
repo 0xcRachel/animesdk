@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class InitIsometricRoadLinker; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9C8628A99732DCDB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1005D1E0)
-#define CLASS_3_9C8628A99732DCDB__CTOR_OFFSET UNITYSDK_OFFSET(0x1005D1B0)
+#define CLASS_3_9C8628A99732DCDB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16F7E880)
+#define CLASS_3_9C8628A99732DCDB__CTOR_OFFSET UNITYSDK_OFFSET(0x16F7E850)
 
-inline static constexpr unsigned int Class_3_9C8628A99732DCDB_TypeDefinitionIndex = 48818;
+inline static constexpr unsigned int Class_3_9C8628A99732DCDB_TypeDefinitionIndex = 49484;
 
 class Class_3_9C8628A99732DCDB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::InitIsometricRoadLinker*>
 {

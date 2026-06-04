@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class Transform; }
 
-#define HOUDINIENGINEUNITY_TRANSFORMDATA_COPYTOLOCAL_OFFSET UNITYSDK_OFFSET(0x229EE00)
-#define HOUDINIENGINEUNITY_TRANSFORMDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0x229ED70)
-#define HOUDINIENGINEUNITY_TRANSFORMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x229EC30)
+#define HOUDINIENGINEUNITY_TRANSFORMDATA_COPYTOLOCAL_OFFSET UNITYSDK_OFFSET(0x3953710)
+#define HOUDINIENGINEUNITY_TRANSFORMDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0x3953680)
+#define HOUDINIENGINEUNITY_TRANSFORMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x3953540)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int TransformData_TypeDefinitionIndex = 43682;
+	inline static constexpr unsigned int TransformData_TypeDefinitionIndex = 37662;
 
 	struct alignas(8) TransformData
 	{
@@ -23,19 +23,19 @@ namespace HoudiniEngineUnity
 		::UnityEngine::Quaternion localRotation; // 0x44
 		::UnityEngine::Transform* parent; // 0x58
 
-		::System::Void _ctor(::UnityEngine::Transform* other)
+		::System::Void _ctor(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TRANSFORMDATA__CTOR_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TRANSFORMDATA__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void CopyTo(::UnityEngine::Transform* other, ::System::Boolean copyParent)
+		::System::Void CopyTo(::UnityEngine::Transform* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TRANSFORMDATA_COPYTO_OFFSET))(this, other, copyParent);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TRANSFORMDATA_COPYTO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CopyToLocal(::UnityEngine::Transform* other, ::System::Boolean copyParent)
+		::System::Void CopyToLocal(::UnityEngine::Transform* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TRANSFORMDATA_COPYTOLOCAL_OFFSET))(this, other, copyParent);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TRANSFORMDATA_COPYTOLOCAL_OFFSET))(this, a1, a2);
 		}
 	};
 }

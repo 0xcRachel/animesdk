@@ -6,26 +6,26 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_CLIPINFOS__CTOR_OFFSET UNITYSDK_OFFSET(0x161124C0)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_CLIPINFOS__CTOR_OFFSET UNITYSDK_OFFSET(0x14D53FD0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonMecanim_MecanimTranslator_ClipInfos_TypeDefinitionIndex = 40594;
+	inline static constexpr unsigned int SkeletonMecanim_MecanimTranslator_ClipInfos_TypeDefinitionIndex = 41421;
 
 	class SkeletonMecanim_MecanimTranslator_ClipInfos : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::AnimatorClipInfo>* nextClipInfos; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::AnimatorClipInfo>* clipInfos; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::AnimatorClipInfo>* interruptingClipInfos; // 0x20
-		::System::Int32 clipInfoCount; // 0x28
-		::UnityEngine::AnimatorStateInfo nextStateInfo; // 0x2C
-		::System::Single interruptingClipTimeAddition; // 0x50
-		::UnityEngine::AnimatorStateInfo interruptingStateInfo; // 0x54
-		::UnityEngine::AnimatorStateInfo stateInfo; // 0x78
-		::System::Int32 nextClipInfoCount; // 0x9C
-		::System::Boolean isLastFrameOfInterruption; // 0xA0
-		::System::Boolean isInterruptionActive; // 0xA1
+		::System::Collections::Generic::List_1<::UnityEngine::AnimatorClipInfo>* clipInfos; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::AnimatorClipInfo>* interruptingClipInfos; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::AnimatorClipInfo>* nextClipInfos; // 0x20
+		::UnityEngine::AnimatorStateInfo stateInfo; // 0x28
+		::UnityEngine::AnimatorStateInfo nextStateInfo; // 0x4C
+		::System::Int32 clipInfoCount; // 0x70
+		::UnityEngine::AnimatorStateInfo interruptingStateInfo; // 0x74
+		::System::Boolean isLastFrameOfInterruption; // 0x98
+		::System::Boolean isInterruptionActive; // 0x99
+		::System::Single interruptingClipTimeAddition; // 0x9C
+		::System::Int32 nextClipInfoCount; // 0xA0
 		::System::Int32 interruptingClipInfoCount; // 0xA4
 
 		::System::Void _ctor()

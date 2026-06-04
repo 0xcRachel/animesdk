@@ -5,10 +5,10 @@
 
 namespace RPG::GameCore { class MiniGameFlappyBirdConfig; }
 
-#define CLASS_1_BB597C5921B42F68_CLEAR_OFFSET UNITYSDK_OFFSET(0x15541630)
-#define CLASS_1_BB597C5921B42F68__CTOR_OFFSET UNITYSDK_OFFSET(0x15541680)
+#define CLASS_1_BB597C5921B42F68_CLEAR_OFFSET UNITYSDK_OFFSET(0x1943FD10)
+#define CLASS_1_BB597C5921B42F68__CTOR_OFFSET UNITYSDK_OFFSET(0x1943FD60)
 
-inline static constexpr unsigned int Class_1_BB597C5921B42F68_TypeDefinitionIndex = 39211;
+inline static constexpr unsigned int Class_1_BB597C5921B42F68_TypeDefinitionIndex = 39980;
 
 class Class_1_BB597C5921B42F68 : public ::System::Object
 {

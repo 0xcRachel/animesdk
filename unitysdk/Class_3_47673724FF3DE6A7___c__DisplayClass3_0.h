@@ -5,16 +5,16 @@
 class Class_1_29ADE9724E15BDC9;
 class Class_3_47673724FF3DE6A7;
 
-#define CLASS_3_47673724FF3DE6A7___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCD158C0)
-#define CLASS_3_47673724FF3DE6A7___C__DISPLAYCLASS3_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xCD15E40)
+#define CLASS_3_47673724FF3DE6A7___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x142A4520)
+#define CLASS_3_47673724FF3DE6A7___C__DISPLAYCLASS3_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x142A4AD0)
 
-inline static constexpr unsigned int Class_3_47673724FF3DE6A7___c__DisplayClass3_0_TypeDefinitionIndex = 53656;
+inline static constexpr unsigned int Class_3_47673724FF3DE6A7___c__DisplayClass3_0_TypeDefinitionIndex = 54369;
 
 class Class_3_47673724FF3DE6A7___c__DisplayClass3_0 : public ::System::Object
 {
 public:
-	::Class_1_29ADE9724E15BDC9* gameFlowPrepareService; // 0x10
-	::Class_3_47673724FF3DE6A7* __4__this; // 0x18
+	::Class_3_47673724FF3DE6A7* __4__this; // 0x10
+	::Class_1_29ADE9724E15BDC9* gameFlowPrepareService; // 0x18
 
 	::System::Void _ctor()
 	{

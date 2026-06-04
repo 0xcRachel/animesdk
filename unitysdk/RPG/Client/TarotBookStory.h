@@ -5,32 +5,32 @@
 namespace RPG::Client { class TarotBookStory_IServerAgent; }
 namespace RPG::GameCore { class TarotBookStoryRow; }
 
-#define RPG_CLIENT_TAROTBOOKSTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x169A0C00)
-#define RPG_CLIENT_TAROTBOOKSTORY_GET_CARDID_OFFSET UNITYSDK_OFFSET(0x169A31D0)
-#define RPG_CLIENT_TAROTBOOKSTORY_GET_CHARACTERID_OFFSET UNITYSDK_OFFSET(0x169A3140)
-#define RPG_CLIENT_TAROTBOOKSTORY_GET_CLUELIST_OFFSET UNITYSDK_OFFSET(0x1699BD30)
-#define RPG_CLIENT_TAROTBOOKSTORY_GET_HASFINISHED_OFFSET UNITYSDK_OFFSET(0x16990860)
-#define RPG_CLIENT_TAROTBOOKSTORY_GET_HASPRECONDITIONMET_OFFSET UNITYSDK_OFFSET(0x16990960)
-#define RPG_CLIENT_TAROTBOOKSTORY_GET_HASUNLOCKED_OFFSET UNITYSDK_OFFSET(0x16990900)
-#define RPG_CLIENT_TAROTBOOKSTORY_GET_ID_OFFSET UNITYSDK_OFFSET(0x1699B550)
-#define RPG_CLIENT_TAROTBOOKSTORY_GET_ISNEW_OFFSET UNITYSDK_OFFSET(0x1699B340)
-#define RPG_CLIENT_TAROTBOOKSTORY_GET_PRESTORYID_OFFSET UNITYSDK_OFFSET(0x169A31B0)
-#define RPG_CLIENT_TAROTBOOKSTORY_MARKHASFINISHED_OFFSET UNITYSDK_OFFSET(0x169917F0)
-#define RPG_CLIENT_TAROTBOOKSTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x169A31F0)
+#define RPG_CLIENT_TAROTBOOKSTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x180CC140)
+#define RPG_CLIENT_TAROTBOOKSTORY_GET_CARDID_OFFSET UNITYSDK_OFFSET(0x180CE880)
+#define RPG_CLIENT_TAROTBOOKSTORY_GET_CHARACTERID_OFFSET UNITYSDK_OFFSET(0x180CE7F0)
+#define RPG_CLIENT_TAROTBOOKSTORY_GET_CLUELIST_OFFSET UNITYSDK_OFFSET(0x180C6A80)
+#define RPG_CLIENT_TAROTBOOKSTORY_GET_HASFINISHED_OFFSET UNITYSDK_OFFSET(0x180BB280)
+#define RPG_CLIENT_TAROTBOOKSTORY_GET_HASPRECONDITIONMET_OFFSET UNITYSDK_OFFSET(0x180BB380)
+#define RPG_CLIENT_TAROTBOOKSTORY_GET_HASUNLOCKED_OFFSET UNITYSDK_OFFSET(0x180BB320)
+#define RPG_CLIENT_TAROTBOOKSTORY_GET_ID_OFFSET UNITYSDK_OFFSET(0x180C6260)
+#define RPG_CLIENT_TAROTBOOKSTORY_GET_ISNEW_OFFSET UNITYSDK_OFFSET(0x180C61B0)
+#define RPG_CLIENT_TAROTBOOKSTORY_GET_PRESTORYID_OFFSET UNITYSDK_OFFSET(0x180CE860)
+#define RPG_CLIENT_TAROTBOOKSTORY_MARKHASFINISHED_OFFSET UNITYSDK_OFFSET(0x180BC190)
+#define RPG_CLIENT_TAROTBOOKSTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x180CE8A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TarotBookStory_TypeDefinitionIndex = 62759;
+	inline static constexpr unsigned int TarotBookStory_TypeDefinitionIndex = 63692;
 
 	class TarotBookStory : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::TarotBookStoryRow* _Meta; // 0x10
-		::RPG::Client::TarotBookStory_IServerAgent* _ServerAgent; // 0x18
+		::RPG::Client::TarotBookStory_IServerAgent* _ServerAgent; // 0x10
+		::RPG::GameCore::TarotBookStoryRow* _Meta; // 0x18
 
-		::System::Void _ctor(::RPG::GameCore::TarotBookStoryRow* meta, ::RPG::Client::TarotBookStory_IServerAgent* serverAgent)
+		::System::Void _ctor(::RPG::GameCore::TarotBookStoryRow* a1, ::RPG::Client::TarotBookStory_IServerAgent* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TarotBookStoryRow*, ::RPG::Client::TarotBookStory_IServerAgent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKSTORY__CTOR_OFFSET))(this, meta, serverAgent);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TarotBookStoryRow*, ::RPG::Client::TarotBookStory_IServerAgent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKSTORY__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 get_ID()
@@ -78,9 +78,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKSTORY_GET_ISNEW_OFFSET))(this);
 		}
 
-		static ::RPG::Client::TarotBookStory* Create(::RPG::GameCore::TarotBookStoryRow* meta, ::RPG::Client::TarotBookStory_IServerAgent* serverAgent)
+		static ::RPG::Client::TarotBookStory* Create(::RPG::GameCore::TarotBookStoryRow* a1, ::RPG::Client::TarotBookStory_IServerAgent* a2)
 		{
-			return ((::RPG::Client::TarotBookStory*(*)(::RPG::GameCore::TarotBookStoryRow*, ::RPG::Client::TarotBookStory_IServerAgent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKSTORY_CREATE_OFFSET))(meta, serverAgent);
+			return ((::RPG::Client::TarotBookStory*(*)(::RPG::GameCore::TarotBookStoryRow*, ::RPG::Client::TarotBookStory_IServerAgent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKSTORY_CREATE_OFFSET))(a1, a2);
 		}
 
 		::System::Void MarkHasFinished()

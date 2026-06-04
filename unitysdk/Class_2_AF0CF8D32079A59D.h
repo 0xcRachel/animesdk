@@ -2,30 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_100A50CE50C90A19;
-class Class_3_E21F6DE9B7FA4D05;
+class Class_3_07C3C4D2990C49EE;
+class Class_3_97C496F5D89C4BC2;
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define CLASS_2_AF0CF8D32079A59D_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDB8A700)
-#define CLASS_2_AF0CF8D32079A59D_METHOD_2_CEE2550285AA5985_OFFSET UNITYSDK_OFFSET(0xDB8A8B0)
-#define CLASS_2_AF0CF8D32079A59D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDB8A7C0)
-#define CLASS_2_AF0CF8D32079A59D_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDB8A6B0)
-#define CLASS_2_AF0CF8D32079A59D_TICK_OFFSET UNITYSDK_OFFSET(0xDB8A610)
-#define CLASS_2_AF0CF8D32079A59D__CTOR_OFFSET UNITYSDK_OFFSET(0xDB8A590)
+#define CLASS_2_AF0CF8D32079A59D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x159FC110)
+#define CLASS_2_AF0CF8D32079A59D_METHOD_2_FCEF005F844F513C_OFFSET UNITYSDK_OFFSET(0x159FC2E0)
+#define CLASS_2_AF0CF8D32079A59D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159FC1D0)
+#define CLASS_2_AF0CF8D32079A59D_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x159FC0C0)
+#define CLASS_2_AF0CF8D32079A59D_TICK_OFFSET UNITYSDK_OFFSET(0x159FC020)
+#define CLASS_2_AF0CF8D32079A59D__CTOR_OFFSET UNITYSDK_OFFSET(0x159FBFA0)
 
-inline static constexpr unsigned int Class_2_AF0CF8D32079A59D_TypeDefinitionIndex = 53916;
+inline static constexpr unsigned int Class_2_AF0CF8D32079A59D_TypeDefinitionIndex = 54641;
 
 class Class_2_AF0CF8D32079A59D : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_3_100A50CE50C90A19* Field_2_1; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x20
-	::Class_3_E21F6DE9B7FA4D05* Field_2_2; // 0x28
+	::Class_3_07C3C4D2990C49EE* Field_2_0; // 0x18
+	::Class_3_97C496F5D89C4BC2* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_2; // 0x28
 
-	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_100A50CE50C90A19* a2)
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_97C496F5D89C4BC2* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_100A50CE50C90A19*))((::PBYTE)hIl2Cpp + CLASS_2_AF0CF8D32079A59D__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_97C496F5D89C4BC2*))((::PBYTE)hIl2Cpp + CLASS_2_AF0CF8D32079A59D__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Tick(::System::Single a1)
@@ -48,8 +48,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AF0CF8D32079A59D_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Void Method_2_CEE2550285AA5985(::System::Object* a1)
+	::System::Void Method_2_FCEF005F844F513C(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_AF0CF8D32079A59D_METHOD_2_CEE2550285AA5985_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_AF0CF8D32079A59D_METHOD_2_FCEF005F844F513C_OFFSET))(this, a1);
 	}
 };

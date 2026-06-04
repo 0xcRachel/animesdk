@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_CLIENT_LOCKTARGETCONFIGLIST_METHOD_2_DAC4E6F6716DDA3B_OFFSET UNITYSDK_OFFSET(0x1A0EF210)
-#define RPG_CLIENT_LOCKTARGETCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0EF320)
+#define RPG_CLIENT_LOCKTARGETCONFIGLIST_METHOD_2_DAC4E6F6716DDA3B_OFFSET UNITYSDK_OFFSET(0x19879080)
+#define RPG_CLIENT_LOCKTARGETCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19879140)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LockTargetConfigList_TypeDefinitionIndex = 10063;
+	inline static constexpr unsigned int LockTargetConfigList_TypeDefinitionIndex = 9868;
 
 	class LockTargetConfigList : public ::RPG::GameCore::JsonConfig
 	{

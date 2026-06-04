@@ -4,11 +4,11 @@
 #include "unitysdk/RPG/Client/CharacterMotionParamData.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_RTCHARACTERANIMINFOBAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x15BB0230)
+#define RPG_CLIENT_RTCHARACTERANIMINFOBAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x176B7460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RtCharacterAnimInfoBaker_TypeDefinitionIndex = 67454;
+	inline static constexpr unsigned int RtCharacterAnimInfoBaker_TypeDefinitionIndex = 68406;
 
 	class RtCharacterAnimInfoBaker : public ::UnityEngine::MonoBehaviour
 	{

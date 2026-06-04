@@ -5,19 +5,19 @@
 namespace MiHoYo::SDK::Win { class ThirdpartyOAuthClient; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15D2E5A0)
-#define MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT___C__DISPLAYCLASS34_0__ONCONTEXTCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x15D2EB50)
-#define MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT___C__DISPLAYCLASS34_0__ONCONTEXTCALLBACK_B__1_OFFSET UNITYSDK_OFFSET(0x15D2EB80)
+#define MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16B41F50)
+#define MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT___C__DISPLAYCLASS34_0__ONCONTEXTCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x16B42500)
+#define MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT___C__DISPLAYCLASS34_0__ONCONTEXTCALLBACK_B__1_OFFSET UNITYSDK_OFFSET(0x16B42530)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ThirdpartyOAuthClient___c__DisplayClass34_0_TypeDefinitionIndex = 8018;
+	inline static constexpr unsigned int ThirdpartyOAuthClient___c__DisplayClass34_0_TypeDefinitionIndex = 8921;
 
 	class ThirdpartyOAuthClient___c__DisplayClass34_0 : public ::System::Object
 	{
 	public:
-		::System::String* idToken; // 0x10
-		::MiHoYo::SDK::Win::ThirdpartyOAuthClient* __4__this; // 0x18
+		::MiHoYo::SDK::Win::ThirdpartyOAuthClient* __4__this; // 0x10
+		::System::String* idToken; // 0x18
 		::System::String* error; // 0x20
 
 		::System::Void _ctor()

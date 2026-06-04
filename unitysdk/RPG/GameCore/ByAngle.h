@@ -6,14 +6,17 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYANGLE_METHOD_4_5E04DB5671B246CA_OFFSET UNITYSDK_OFFSET(0x187CCDF0)
-#define RPG_GAMECORE_BYANGLE_METHOD_4_7E0EE14F1076A8E2_OFFSET UNITYSDK_OFFSET(0x187CCD10)
-#define RPG_GAMECORE_BYANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x187CCD90)
+#define RPG_GAMECORE_BYANGLE_METHOD_4_5E04DB5671B246CA_OFFSET UNITYSDK_OFFSET(0x195EF350)
+#define RPG_GAMECORE_BYANGLE_METHOD_4_66418FA9BD7D4783_OFFSET UNITYSDK_OFFSET(0x195EF640)
+#define RPG_GAMECORE_BYANGLE_METHOD_4_7E0EE14F1076A8E2_OFFSET UNITYSDK_OFFSET(0x195EF270)
+#define RPG_GAMECORE_BYANGLE_METHOD_4_82B131A7812078DC_OFFSET UNITYSDK_OFFSET(0x195EF5C0)
+#define RPG_GAMECORE_BYANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x195EF2F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByAngle_TypeDefinitionIndex = 19755;
+	inline static constexpr unsigned int ByAngle_TypeDefinitionIndex = 19631;
 
 	class ByAngle : public ::RPG::GameCore::PredicateConfig
 	{
@@ -36,6 +39,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_5E04DB5671B246CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByAngle* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByAngle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYANGLE_METHOD_4_5E04DB5671B246CA_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_82B131A7812078DC(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByAngle*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByAngle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYANGLE_METHOD_4_82B131A7812078DC_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_66418FA9BD7D4783(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByAngle* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByAngle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYANGLE_METHOD_4_66418FA9BD7D4783_OFFSET))(a1, a2);
 		}
 	};
 }

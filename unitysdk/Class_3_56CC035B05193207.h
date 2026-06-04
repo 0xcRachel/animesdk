@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvOverrideCameraModuleConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_56CC035B05193207_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x105A2AC0)
-#define CLASS_3_56CC035B05193207__CTOR_OFFSET UNITYSDK_OFFSET(0x105A2A90)
+#define CLASS_3_56CC035B05193207_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x161AD460)
+#define CLASS_3_56CC035B05193207__CTOR_OFFSET UNITYSDK_OFFSET(0x161AD430)
 
-inline static constexpr unsigned int Class_3_56CC035B05193207_TypeDefinitionIndex = 50590;
+inline static constexpr unsigned int Class_3_56CC035B05193207_TypeDefinitionIndex = 51257;
 
 class Class_3_56CC035B05193207 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvOverrideCameraModuleConfig*>
 {

@@ -9,34 +9,34 @@ namespace RPG::GameCore { class GridFightRoleStarConfigRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTROLESKILLCONFIG_GETDESCSKILLID_OFFSET UNITYSDK_OFFSET(0x181295E0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLCONFIG_GETSKILLTAGTEXTIDS_OFFSET UNITYSDK_OFFSET(0x18129980)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLCONFIG_GET_FRONTBACKTYPE_OFFSET UNITYSDK_OFFSET(0x181296E0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLCONFIG_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x18129790)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLCONFIG_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x181296D0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLCONFIG_GET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0x181296F0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLCONFIG_GET_SHORTDESC_OFFSET UNITYSDK_OFFSET(0x181297F0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18129580)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLCONFIG_GETDESCSKILLID_OFFSET UNITYSDK_OFFSET(0x199624B0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLCONFIG_GETSKILLTAGTEXTIDS_OFFSET UNITYSDK_OFFSET(0x19962840)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLCONFIG_GET_FRONTBACKTYPE_OFFSET UNITYSDK_OFFSET(0x199625B0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLCONFIG_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x19962660)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLCONFIG_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x199625A0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLCONFIG_GET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0x199625C0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLCONFIG_GET_SHORTDESC_OFFSET UNITYSDK_OFFSET(0x199626C0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19962450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleSkillConfig_TypeDefinitionIndex = 59951;
+	inline static constexpr unsigned int GridFightRoleSkillConfig_TypeDefinitionIndex = 60886;
 
 	class GridFightRoleSkillConfig : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GridFightRoleSkillDisplayConfigRow* _Row; // 0x10
-		::RPG::GameCore::GridFightRoleStarConfigRow* _StarRow; // 0x18
+		::RPG::GameCore::GridFightRoleStarConfigRow* _StarRow; // 0x10
+		::RPG::GameCore::GridFightRoleSkillDisplayConfigRow* _Row; // 0x18
 		::RPG::GameCore::GridFightPreset _FrontBackType_k__BackingField; // 0x20
 
-		::System::Void _ctor(::RPG::GameCore::GridFightRoleStarConfigRow* starRow, ::RPG::GameCore::GridFightPreset frontBackType)
+		::System::Void _ctor(::RPG::GameCore::GridFightRoleStarConfigRow* a1, ::RPG::GameCore::GridFightPreset a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GridFightRoleStarConfigRow*, ::RPG::GameCore::GridFightPreset))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLCONFIG__CTOR_OFFSET))(this, starRow, frontBackType);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GridFightRoleStarConfigRow*, ::RPG::GameCore::GridFightPreset))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLCONFIG__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 GetDescSkillID(::System::UInt32 skillID)
+		::System::UInt32 GetDescSkillID(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLCONFIG_GETDESCSKILLID_OFFSET))(this, skillID);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLCONFIG_GETDESCSKILLID_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsValid()

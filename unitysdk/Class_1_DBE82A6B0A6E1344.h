@@ -1,54 +1,62 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/ValueTuple_2.h"
 
-class Class_0_16E4307DCC419505_366;
-class Class_0_16E4307DCC419505_367;
-class Class_0_16E4307DCC419505_371;
-class Class_1_D4714BA97EC5BBC2_1;
+class Class_0_16E4307DCC419505_386;
+class Class_0_16E4307DCC419505_387;
+class Class_0_16E4307DCC419505_389;
+class Class_1_C85C4DAB350DD5FC_1;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define CLASS_1_DBE82A6B0A6E1344_GET_SKILLROWDATAPROVIDER_OFFSET UNITYSDK_OFFSET(0xB5519F0)
-#define CLASS_1_DBE82A6B0A6E1344_METHOD_1_3F1A5F0DB7432C33_OFFSET UNITYSDK_OFFSET(0xB551DA0)
-#define CLASS_1_DBE82A6B0A6E1344_METHOD_1_87AB3CF2308AA394_OFFSET UNITYSDK_OFFSET(0xB551E50)
-#define CLASS_1_DBE82A6B0A6E1344_METHOD_1_E5D433C7A574E387_OFFSET UNITYSDK_OFFSET(0xB551C80)
-#define CLASS_1_DBE82A6B0A6E1344_SET_SKILLROWDATAPROVIDER_OFFSET UNITYSDK_OFFSET(0xB551A00)
-#define CLASS_1_DBE82A6B0A6E1344__CTOR_OFFSET UNITYSDK_OFFSET(0xB551A10)
+#define CLASS_1_DBE82A6B0A6E1344_GET_SKILLROWDATAPROVIDER_OFFSET UNITYSDK_OFFSET(0x150129A0)
+#define CLASS_1_DBE82A6B0A6E1344_METHOD_1_389486378BEF2498_OFFSET UNITYSDK_OFFSET(0x15012D50)
+#define CLASS_1_DBE82A6B0A6E1344_METHOD_1_4CA8B5F8462FA46F_OFFSET UNITYSDK_OFFSET(0x15013240)
+#define CLASS_1_DBE82A6B0A6E1344_METHOD_1_5C194C5F4F969A9D_OFFSET UNITYSDK_OFFSET(0x15012DE0)
+#define CLASS_1_DBE82A6B0A6E1344_METHOD_1_E5D433C7A574E387_OFFSET UNITYSDK_OFFSET(0x15012C30)
+#define CLASS_1_DBE82A6B0A6E1344_SET_SKILLROWDATAPROVIDER_OFFSET UNITYSDK_OFFSET(0x150129B0)
+#define CLASS_1_DBE82A6B0A6E1344__CTOR_OFFSET UNITYSDK_OFFSET(0x150129C0)
 
-inline static constexpr unsigned int Class_1_DBE82A6B0A6E1344_TypeDefinitionIndex = 47949;
+inline static constexpr unsigned int Class_1_DBE82A6B0A6E1344_TypeDefinitionIndex = 48562;
 
 class Class_1_DBE82A6B0A6E1344 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_366* _SkillRowDataProvider_k__BackingField; // 0x10
-	::Class_0_16E4307DCC419505_371* Field_1_1; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_D4714BA97EC5BBC2_1*>* Field_1_0; // 0x20
-	::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_367*>* Field_1_2; // 0x28
+	::Class_0_16E4307DCC419505_387* _SkillRowDataProvider_k__BackingField; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_C85C4DAB350DD5FC_1*>* Field_1_1; // 0x18
+	::Class_0_16E4307DCC419505_389* Field_1_2; // 0x20
+	::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_386*>* Field_1_3; // 0x28
 
-	::System::Void _ctor(::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* a1, ::Class_0_16E4307DCC419505_371* a2, ::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_367*>* a3)
+	::System::Void _ctor(::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* a1, ::Class_0_16E4307DCC419505_389* a2, ::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_386*>* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*, ::Class_0_16E4307DCC419505_371*, ::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_367*>*))((::PBYTE)hIl2Cpp + CLASS_1_DBE82A6B0A6E1344__CTOR_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*, ::Class_0_16E4307DCC419505_389*, ::System::Collections::Generic::IReadOnlyList_1<::Class_0_16E4307DCC419505_386*>*))((::PBYTE)hIl2Cpp + CLASS_1_DBE82A6B0A6E1344__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
-	::Class_0_16E4307DCC419505_366* get_SkillRowDataProvider()
+	::Class_0_16E4307DCC419505_387* get_SkillRowDataProvider()
 	{
-		return ((::Class_0_16E4307DCC419505_366*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DBE82A6B0A6E1344_GET_SKILLROWDATAPROVIDER_OFFSET))(this);
+		return ((::Class_0_16E4307DCC419505_387*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DBE82A6B0A6E1344_GET_SKILLROWDATAPROVIDER_OFFSET))(this);
 	}
 
-	::System::Void set_SkillRowDataProvider(::Class_0_16E4307DCC419505_366* value)
+	::System::Void set_SkillRowDataProvider(::Class_0_16E4307DCC419505_387* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_366*))((::PBYTE)hIl2Cpp + CLASS_1_DBE82A6B0A6E1344_SET_SKILLROWDATAPROVIDER_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_387*))((::PBYTE)hIl2Cpp + CLASS_1_DBE82A6B0A6E1344_SET_SKILLROWDATAPROVIDER_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_1_3F1A5F0DB7432C33(::System::UInt32 a1)
+	::System::Boolean Method_1_389486378BEF2498(::System::UInt32 a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_DBE82A6B0A6E1344_METHOD_1_3F1A5F0DB7432C33_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_DBE82A6B0A6E1344_METHOD_1_389486378BEF2498_OFFSET))(this, a1);
 	}
 
-	::System::UInt32 Method_1_87AB3CF2308AA394(::System::UInt32 a1)
+	::System::UInt32 Method_1_5C194C5F4F969A9D(::System::UInt32 a1)
 	{
-		return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_DBE82A6B0A6E1344_METHOD_1_87AB3CF2308AA394_OFFSET))(this, a1);
+		return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_DBE82A6B0A6E1344_METHOD_1_5C194C5F4F969A9D_OFFSET))(this, a1);
+	}
+
+	::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* Method_1_4CA8B5F8462FA46F()
+	{
+		return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DBE82A6B0A6E1344_METHOD_1_4CA8B5F8462FA46F_OFFSET))(this);
 	}
 
 	::System::Void Method_1_E5D433C7A574E387(::System::UInt32 a1)

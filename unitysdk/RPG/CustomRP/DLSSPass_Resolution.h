@@ -4,33 +4,33 @@
 
 namespace System { class Object; }
 
-#define RPG_CUSTOMRP_DLSSPASS_RESOLUTION_EQUALS_OFFSET UNITYSDK_OFFSET(0x2246020)
-#define RPG_CUSTOMRP_DLSSPASS_RESOLUTION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x608790)
-#define RPG_CUSTOMRP_DLSSPASS_RESOLUTION_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x15A597A0)
-#define RPG_CUSTOMRP_DLSSPASS_RESOLUTION_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x15A597B0)
+#define RPG_CUSTOMRP_DLSSPASS_RESOLUTION_EQUALS_OFFSET UNITYSDK_OFFSET(0x37AC920)
+#define RPG_CUSTOMRP_DLSSPASS_RESOLUTION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x72B970)
+#define RPG_CUSTOMRP_DLSSPASS_RESOLUTION_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x157EAA20)
+#define RPG_CUSTOMRP_DLSSPASS_RESOLUTION_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x157EAA30)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DLSSPass_Resolution_TypeDefinitionIndex = 34944;
+	inline static constexpr unsigned int DLSSPass_Resolution_TypeDefinitionIndex = 35227;
 
 	struct alignas(4) DLSSPass_Resolution
 	{
 		::System::UInt32 width; // 0x10
 		::System::UInt32 height; // 0x14
 
-		static ::System::Boolean op_Equality(::RPG::CustomRP::DLSSPass_Resolution a, ::RPG::CustomRP::DLSSPass_Resolution b)
+		static ::System::Boolean op_Equality(::RPG::CustomRP::DLSSPass_Resolution a1, ::RPG::CustomRP::DLSSPass_Resolution a2)
 		{
-			return ((::System::Boolean(*)(::RPG::CustomRP::DLSSPass_Resolution, ::RPG::CustomRP::DLSSPass_Resolution))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_RESOLUTION_OP_EQUALITY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::RPG::CustomRP::DLSSPass_Resolution, ::RPG::CustomRP::DLSSPass_Resolution))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_RESOLUTION_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::RPG::CustomRP::DLSSPass_Resolution a, ::RPG::CustomRP::DLSSPass_Resolution b)
+		static ::System::Boolean op_Inequality(::RPG::CustomRP::DLSSPass_Resolution a1, ::RPG::CustomRP::DLSSPass_Resolution a2)
 		{
-			return ((::System::Boolean(*)(::RPG::CustomRP::DLSSPass_Resolution, ::RPG::CustomRP::DLSSPass_Resolution))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_RESOLUTION_OP_INEQUALITY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::RPG::CustomRP::DLSSPass_Resolution, ::RPG::CustomRP::DLSSPass_Resolution))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_RESOLUTION_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_RESOLUTION_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_RESOLUTION_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

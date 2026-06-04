@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_92608A36037A1D69.h"
+#include "unitysdk/Class_1_7A3194024C7D2DEC.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_A9C3B2B239084E74_METHOD_2_0FD0EC313FAAB75A_OFFSET UNITYSDK_OFFSET(0xF0B8EA0)
-#define CLASS_2_A9C3B2B239084E74_METHOD_2_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0xF0B9090)
-#define CLASS_2_A9C3B2B239084E74__CTOR_OFFSET UNITYSDK_OFFSET(0xF0B8E80)
+#define CLASS_2_A9C3B2B239084E74_METHOD_2_0FD0EC313FAAB75A_OFFSET UNITYSDK_OFFSET(0x1404D570)
+#define CLASS_2_A9C3B2B239084E74_METHOD_2_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x1404D760)
+#define CLASS_2_A9C3B2B239084E74__CTOR_OFFSET UNITYSDK_OFFSET(0x1404D550)
 
-inline static constexpr unsigned int Class_2_A9C3B2B239084E74_TypeDefinitionIndex = 55431;
+inline static constexpr unsigned int Class_2_A9C3B2B239084E74_TypeDefinitionIndex = 56176;
 
-class Class_2_A9C3B2B239084E74 : public ::Class_1_92608A36037A1D69
+class Class_2_A9C3B2B239084E74 : public ::Class_1_7A3194024C7D2DEC
 {
 public:
-	::System::Single Field_2_0; // 0x30
-	::System::Single Field_2_2; // 0x34
-	::System::Single Field_2_1; // 0x38
-	::UnityEngine::Vector3 Field_2_3; // 0x3C
+	::UnityEngine::Vector3 Field_2_0; // 0x30
+	::System::Single Field_2_1; // 0x3C
+	::System::Single Field_2_2; // 0x40
+	::System::Single Field_2_3; // 0x44
 
 	::System::Void _ctor(::UnityEngine::Transform* a1, ::System::String* a2)
 	{

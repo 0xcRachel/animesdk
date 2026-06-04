@@ -9,15 +9,15 @@ namespace System { class String; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTTCPMESSAGECOMPONENTS_PROPERTY_CLONE_OFFSET UNITYSDK_OFFSET(0x209CBE0)
-#define HDG_RDTTCPMESSAGECOMPONENTS_PROPERTY_DESERIALISE_OFFSET UNITYSDK_OFFSET(0x209CC10)
-#define HDG_RDTTCPMESSAGECOMPONENTS_PROPERTY_READ_OFFSET UNITYSDK_OFFSET(0x209CC30)
-#define HDG_RDTTCPMESSAGECOMPONENTS_PROPERTY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x209CB70)
-#define HDG_RDTTCPMESSAGECOMPONENTS_PROPERTY_WRITE_OFFSET UNITYSDK_OFFSET(0x209CC20)
+#define HDG_RDTTCPMESSAGECOMPONENTS_PROPERTY_CLONE_OFFSET UNITYSDK_OFFSET(0x375CF50)
+#define HDG_RDTTCPMESSAGECOMPONENTS_PROPERTY_DESERIALISE_OFFSET UNITYSDK_OFFSET(0x375CF80)
+#define HDG_RDTTCPMESSAGECOMPONENTS_PROPERTY_READ_OFFSET UNITYSDK_OFFSET(0x375CFA0)
+#define HDG_RDTTCPMESSAGECOMPONENTS_PROPERTY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x375CEE0)
+#define HDG_RDTTCPMESSAGECOMPONENTS_PROPERTY_WRITE_OFFSET UNITYSDK_OFFSET(0x375CF90)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtTcpMessageComponents_Property_TypeDefinitionIndex = 43790;
+	inline static constexpr unsigned int rdtTcpMessageComponents_Property_TypeDefinitionIndex = 44332;
 
 	struct alignas(8) rdtTcpMessageComponents_Property
 	{
@@ -36,19 +36,19 @@ namespace Hdg
 			return ((::Hdg::rdtTcpMessageComponents_Property(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGECOMPONENTS_PROPERTY_CLONE_OFFSET))(this);
 		}
 
-		::System::Void Deserialise(::Hdg::rdtSerializerRegistry* registry)
+		::System::Void Deserialise(::Hdg::rdtSerializerRegistry* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGECOMPONENTS_PROPERTY_DESERIALISE_OFFSET))(this, registry);
+			return ((::System::Void(*)(::PVOID, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGECOMPONENTS_PROPERTY_DESERIALISE_OFFSET))(this, a1);
 		}
 
-		::System::Void Write(::System::IO::BinaryWriter* w)
+		::System::Void Write(::System::IO::BinaryWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGECOMPONENTS_PROPERTY_WRITE_OFFSET))(this, w);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGECOMPONENTS_PROPERTY_WRITE_OFFSET))(this, a1);
 		}
 
-		::System::Void Read(::System::IO::BinaryReader* r)
+		::System::Void Read(::System::IO::BinaryReader* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGECOMPONENTS_PROPERTY_READ_OFFSET))(this, r);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGECOMPONENTS_PROPERTY_READ_OFFSET))(this, a1);
 		}
 	};
 }

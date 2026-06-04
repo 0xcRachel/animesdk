@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/CustomRP/RPGDepthOfField_CoCMethod.h"
 #include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 
-#define RPG_CUSTOMRP_RPGDEPTHOFFIELD_COCMETHODPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x15A755D0)
+#define RPG_CUSTOMRP_RPGDEPTHOFFIELD_COCMETHODPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x15807CF0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGDepthOfField_CoCMethodParameter_TypeDefinitionIndex = 35178;
+	inline static constexpr unsigned int RPGDepthOfField_CoCMethodParameter_TypeDefinitionIndex = 35478;
 
 	class RPGDepthOfField_CoCMethodParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::RPG::CustomRP::RPGDepthOfField_CoCMethod>
 	{

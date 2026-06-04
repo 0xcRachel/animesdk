@@ -7,13 +7,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BATTLEPLAYVIDEO_METHOD_3_487D95CFE253E73E_OFFSET UNITYSDK_OFFSET(0x187B1400)
-#define RPG_GAMECORE_BATTLEPLAYVIDEO_METHOD_3_ABD4ACD0D79C73EC_OFFSET UNITYSDK_OFFSET(0x187B1350)
-#define RPG_GAMECORE_BATTLEPLAYVIDEO__CTOR_OFFSET UNITYSDK_OFFSET(0x187B13C0)
+#define RPG_GAMECORE_BATTLEPLAYVIDEO_METHOD_3_6762DDB76D419191_OFFSET UNITYSDK_OFFSET(0x195D3380)
+#define RPG_GAMECORE_BATTLEPLAYVIDEO_METHOD_3_76A36CF32A0FAB6C_OFFSET UNITYSDK_OFFSET(0x195D32D0)
+#define RPG_GAMECORE_BATTLEPLAYVIDEO__CTOR_OFFSET UNITYSDK_OFFSET(0x195D3340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePlayVideo_TypeDefinitionIndex = 22345;
+	inline static constexpr unsigned int BattlePlayVideo_TypeDefinitionIndex = 22105;
 
 	class BattlePlayVideo : public ::RPG::GameCore::TaskConfig
 	{
@@ -37,14 +37,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPLAYVIDEO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_ABD4ACD0D79C73EC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattlePlayVideo*& a2)
+		static ::System::Void Method_3_76A36CF32A0FAB6C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattlePlayVideo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattlePlayVideo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPLAYVIDEO_METHOD_3_ABD4ACD0D79C73EC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattlePlayVideo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPLAYVIDEO_METHOD_3_76A36CF32A0FAB6C_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_487D95CFE253E73E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattlePlayVideo* a2)
+		static ::System::Void Method_3_6762DDB76D419191(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattlePlayVideo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattlePlayVideo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPLAYVIDEO_METHOD_3_487D95CFE253E73E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattlePlayVideo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPLAYVIDEO_METHOD_3_6762DDB76D419191_OFFSET))(a1, a2);
 		}
 	};
 }

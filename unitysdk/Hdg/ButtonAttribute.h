@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define HDG_BUTTONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x12C0C180)
+#define HDG_BUTTONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C5E680)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int ButtonAttribute_TypeDefinitionIndex = 43748;
+	inline static constexpr unsigned int ButtonAttribute_TypeDefinitionIndex = 44290;
 
 	class ButtonAttribute : public ::System::Attribute
 	{

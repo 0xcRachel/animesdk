@@ -9,33 +9,33 @@ namespace RPG::Client { class PreReleaseCharaParam; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x175AF2F0)
-#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x175AF390)
-#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_GET_AVATARPARAM_OFFSET UNITYSDK_OFFSET(0x175AF3C0)
-#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_GET_GROWTHGUIDEDATA_OFFSET UNITYSDK_OFFSET(0x175AF3E0)
-#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_GET_ISDATAREADY_OFFSET UNITYSDK_OFFSET(0x175AF3A0)
-#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x175AF0A0)
-#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_REQUESTDATA_OFFSET UNITYSDK_OFFSET(0x175AF190)
-#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_SET_AVATARPARAM_OFFSET UNITYSDK_OFFSET(0x175AF3D0)
-#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_SET_GROWTHGUIDEDATA_OFFSET UNITYSDK_OFFSET(0x175AF3F0)
-#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_SET_ISDATAREADY_OFFSET UNITYSDK_OFFSET(0x175AF3B0)
-#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x175AF0B0)
+#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x1792BF10)
+#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x1792BFC0)
+#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_GET_AVATARPARAM_OFFSET UNITYSDK_OFFSET(0x1792BFF0)
+#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_GET_GROWTHGUIDEDATA_OFFSET UNITYSDK_OFFSET(0x1792C010)
+#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_GET_ISDATAREADY_OFFSET UNITYSDK_OFFSET(0x1792BFD0)
+#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1792BCB0)
+#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_REQUESTDATA_OFFSET UNITYSDK_OFFSET(0x1792BDA0)
+#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_SET_AVATARPARAM_OFFSET UNITYSDK_OFFSET(0x1792C000)
+#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_SET_GROWTHGUIDEDATA_OFFSET UNITYSDK_OFFSET(0x1792C020)
+#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_SET_ISDATAREADY_OFFSET UNITYSDK_OFFSET(0x1792BFE0)
+#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1792BCC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentAvatarGrowthBlock_TypeDefinitionIndex = 58263;
+	inline static constexpr unsigned int MessageContentAvatarGrowthBlock_TypeDefinitionIndex = 59193;
 
 	class MessageContentAvatarGrowthBlock : public ::RPG::Client::MessageContentFunctionCallBlock
 	{
 	public:
 		::RPG::Client::HandbookGrowthGuideData* _GrowthGuideData_k__BackingField; // 0x28
 		::RPG::Client::PreReleaseCharaParam* _AvatarParam_k__BackingField; // 0x30
-		::System::Boolean _IsDataReady_k__BackingField; // 0x38
-		::System::UInt32 _AvatarID_k__BackingField; // 0x3C
+		::System::UInt32 _AvatarID_k__BackingField; // 0x38
+		::System::Boolean _IsDataReady_k__BackingField; // 0x3C
 
-		::System::Void _ctor(::System::String* functionCallID, ::System::UInt32 avatarID)
+		::System::Void _ctor(::System::String* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK__CTOR_OFFSET))(this, functionCallID, avatarID);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::MessageContentBlock_BlockType get_Type()
@@ -43,14 +43,14 @@ namespace RPG::Client
 			return ((::RPG::Client::MessageContentBlock_BlockType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Void RequestData(::System::Action_1<::System::UInt32>* callback)
+		::System::Void RequestData(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_REQUESTDATA_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_REQUESTDATA_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::RPG::Client::MessageContentBlock* other)
+		::System::Boolean Equals(::RPG::Client::MessageContentBlock* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_AvatarID()
@@ -63,9 +63,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_GET_ISDATAREADY_OFFSET))(this);
 		}
 
-		::System::Void set_IsDataReady(::System::Boolean value)
+		::System::Void set_IsDataReady(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_SET_ISDATAREADY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_SET_ISDATAREADY_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::PreReleaseCharaParam* get_AvatarParam()
@@ -73,9 +73,9 @@ namespace RPG::Client
 			return ((::RPG::Client::PreReleaseCharaParam*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_GET_AVATARPARAM_OFFSET))(this);
 		}
 
-		::System::Void set_AvatarParam(::RPG::Client::PreReleaseCharaParam* value)
+		::System::Void set_AvatarParam(::RPG::Client::PreReleaseCharaParam* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::PreReleaseCharaParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_SET_AVATARPARAM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PreReleaseCharaParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_SET_AVATARPARAM_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::HandbookGrowthGuideData* get_GrowthGuideData()
@@ -83,9 +83,9 @@ namespace RPG::Client
 			return ((::RPG::Client::HandbookGrowthGuideData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_GET_GROWTHGUIDEDATA_OFFSET))(this);
 		}
 
-		::System::Void set_GrowthGuideData(::RPG::Client::HandbookGrowthGuideData* value)
+		::System::Void set_GrowthGuideData(::RPG::Client::HandbookGrowthGuideData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::HandbookGrowthGuideData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_SET_GROWTHGUIDEDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::HandbookGrowthGuideData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_SET_GROWTHGUIDEDATA_OFFSET))(this, a1);
 		}
 	};
 }

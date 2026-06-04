@@ -9,11 +9,11 @@ namespace UnityEngine::Rendering { class TextureParameter; }
 namespace UnityEngine::Rendering { class Vector2Parameter; }
 namespace UnityEngine::Rendering { class Vector4Parameter; }
 
-#define RPG_CUSTOMRP_RPGLENSDISTORTION__CTOR_OFFSET UNITYSDK_OFFSET(0x15A85D10)
+#define RPG_CUSTOMRP_RPGLENSDISTORTION__CTOR_OFFSET UNITYSDK_OFFSET(0x15818470)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGLensDistortion_TypeDefinitionIndex = 35192;
+	inline static constexpr unsigned int RPGLensDistortion_TypeDefinitionIndex = 35492;
 
 	class RPGLensDistortion : public ::RPG::CustomRP::CustomVolumeComponent
 	{

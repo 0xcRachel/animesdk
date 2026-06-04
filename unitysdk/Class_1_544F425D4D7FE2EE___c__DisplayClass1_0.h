@@ -4,10 +4,10 @@
 
 namespace RPG::GameCore { class AlleyBuffGridItemData; }
 
-#define CLASS_1_544F425D4D7FE2EE___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA626E30)
-#define CLASS_1_544F425D4D7FE2EE___C__DISPLAYCLASS1_0__GETATTACHMENTDATA_B__0_OFFSET UNITYSDK_OFFSET(0xA627630)
+#define CLASS_1_544F425D4D7FE2EE___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x171B1800)
+#define CLASS_1_544F425D4D7FE2EE___C__DISPLAYCLASS1_0__GETATTACHMENTDATA_B__0_OFFSET UNITYSDK_OFFSET(0x171B21C0)
 
-inline static constexpr unsigned int Class_1_544F425D4D7FE2EE___c__DisplayClass1_0_TypeDefinitionIndex = 57522;
+inline static constexpr unsigned int Class_1_544F425D4D7FE2EE___c__DisplayClass1_0_TypeDefinitionIndex = 58334;
 
 class Class_1_544F425D4D7FE2EE___c__DisplayClass1_0 : public ::System::Object
 {
@@ -20,8 +20,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_544F425D4D7FE2EE___C__DISPLAYCLASS1_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean _GetAttachmentData_b__0(::RPG::GameCore::AlleyBuffGridItemData* item)
+	::System::Boolean _GetAttachmentData_b__0(::RPG::GameCore::AlleyBuffGridItemData* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::AlleyBuffGridItemData*))((::PBYTE)hIl2Cpp + CLASS_1_544F425D4D7FE2EE___C__DISPLAYCLASS1_0__GETATTACHMENTDATA_B__0_OFFSET))(this, item);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::AlleyBuffGridItemData*))((::PBYTE)hIl2Cpp + CLASS_1_544F425D4D7FE2EE___C__DISPLAYCLASS1_0__GETATTACHMENTDATA_B__0_OFFSET))(this, a1);
 	}
 };

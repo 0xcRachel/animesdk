@@ -5,37 +5,37 @@
 namespace RPG::Client { class ScheduleData; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_SCHEDULETASK_CANCEL_OFFSET UNITYSDK_OFFSET(0x15BD2280)
-#define RPG_CLIENT_SCHEDULETASK_GET_ENABLERANDOMDELAY_OFFSET UNITYSDK_OFFSET(0x15BD3240)
-#define RPG_CLIENT_SCHEDULETASK_GET_FINISHACTION_OFFSET UNITYSDK_OFFSET(0x15BD3260)
-#define RPG_CLIENT_SCHEDULETASK_GET_FINISHMSTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x15BD3250)
-#define RPG_CLIENT_SCHEDULETASK_GET_FINISHTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x15BD2360)
-#define RPG_CLIENT_SCHEDULETASK_GET_SCHEDULEDATA_OFFSET UNITYSDK_OFFSET(0x15BD3280)
-#define RPG_CLIENT_SCHEDULETASK_INITRANDOMDELAY_OFFSET UNITYSDK_OFFSET(0x15BD2FD0)
-#define RPG_CLIENT_SCHEDULETASK_ISDONE_OFFSET UNITYSDK_OFFSET(0x15BD3300)
-#define RPG_CLIENT_SCHEDULETASK_ONNEW_OFFSET UNITYSDK_OFFSET(0x15BD3200)
-#define RPG_CLIENT_SCHEDULETASK_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x15BD3090)
-#define RPG_CLIENT_SCHEDULETASK_SET_ENABLERANDOMDELAY_OFFSET UNITYSDK_OFFSET(0x15BD2590)
-#define RPG_CLIENT_SCHEDULETASK_SET_FINISHACTION_OFFSET UNITYSDK_OFFSET(0x15BD3270)
-#define RPG_CLIENT_SCHEDULETASK_SET_FINISHTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x15BD2540)
-#define RPG_CLIENT_SCHEDULETASK_SET_SCHEDULEDATA_OFFSET UNITYSDK_OFFSET(0x15BD3290)
-#define RPG_CLIENT_SCHEDULETASK_START_OFFSET UNITYSDK_OFFSET(0x15BD1E20)
-#define RPG_CLIENT_SCHEDULETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x15BD3340)
-#define RPG_CLIENT_SCHEDULETASK__DONE_OFFSET UNITYSDK_OFFSET(0x15BD32A0)
-#define RPG_CLIENT_SCHEDULETASK__RELEASETIMER_OFFSET UNITYSDK_OFFSET(0x15BD3170)
+#define RPG_CLIENT_SCHEDULETASK_CANCEL_OFFSET UNITYSDK_OFFSET(0x175395D0)
+#define RPG_CLIENT_SCHEDULETASK_GET_ENABLERANDOMDELAY_OFFSET UNITYSDK_OFFSET(0x176D9C90)
+#define RPG_CLIENT_SCHEDULETASK_GET_FINISHACTION_OFFSET UNITYSDK_OFFSET(0x176D9CB0)
+#define RPG_CLIENT_SCHEDULETASK_GET_FINISHMSTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x176D9CA0)
+#define RPG_CLIENT_SCHEDULETASK_GET_FINISHTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x176D8ED0)
+#define RPG_CLIENT_SCHEDULETASK_GET_SCHEDULEDATA_OFFSET UNITYSDK_OFFSET(0x176D9CD0)
+#define RPG_CLIENT_SCHEDULETASK_INITRANDOMDELAY_OFFSET UNITYSDK_OFFSET(0x176D9AC0)
+#define RPG_CLIENT_SCHEDULETASK_ISDONE_OFFSET UNITYSDK_OFFSET(0x175396B0)
+#define RPG_CLIENT_SCHEDULETASK_ONNEW_OFFSET UNITYSDK_OFFSET(0x176D9C50)
+#define RPG_CLIENT_SCHEDULETASK_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x176D9B80)
+#define RPG_CLIENT_SCHEDULETASK_SET_ENABLERANDOMDELAY_OFFSET UNITYSDK_OFFSET(0x176D90F0)
+#define RPG_CLIENT_SCHEDULETASK_SET_FINISHACTION_OFFSET UNITYSDK_OFFSET(0x176D9CC0)
+#define RPG_CLIENT_SCHEDULETASK_SET_FINISHTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x176D90A0)
+#define RPG_CLIENT_SCHEDULETASK_SET_SCHEDULEDATA_OFFSET UNITYSDK_OFFSET(0x176D9CE0)
+#define RPG_CLIENT_SCHEDULETASK_START_OFFSET UNITYSDK_OFFSET(0x175393C0)
+#define RPG_CLIENT_SCHEDULETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x17539780)
+#define RPG_CLIENT_SCHEDULETASK__DONE_OFFSET UNITYSDK_OFFSET(0x17539560)
+#define RPG_CLIENT_SCHEDULETASK__RELEASETIMER_OFFSET UNITYSDK_OFFSET(0x175396F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ScheduleTask_TypeDefinitionIndex = 62596;
+	inline static constexpr unsigned int ScheduleTask_TypeDefinitionIndex = 63529;
 
 	class ScheduleTask : public ::System::Object
 	{
 	public:
 		// static const ::System::Int32 _RANDOM_DELAY_MIN = 0x1F4; // 0x0
 		// static const ::System::Int32 _RANDOM_DELAY_MAX = 0x7D0; // 0x0
-		::System::Action_1<::RPG::Client::ScheduleData*>* _FinishAction; // 0x10
-		::System::Action_1<::RPG::Client::ScheduleTask*>* OnTaskFinish; // 0x18
-		::RPG::Client::ScheduleData* _ScheduleData; // 0x20
+		::System::Action_1<::RPG::Client::ScheduleTask*>* OnTaskFinish; // 0x10
+		::RPG::Client::ScheduleData* _ScheduleData; // 0x18
+		::System::Action_1<::RPG::Client::ScheduleData*>* _FinishAction; // 0x20
 		::System::Boolean _IsDone; // 0x28
 		::System::UInt32 _DelayMs; // 0x2C
 		::System::Int32 _TimerID; // 0x30
@@ -61,9 +61,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCHEDULETASK_ONNEW_OFFSET))(this);
 		}
 
-		::System::Void set_FinishTimeStamp(::System::UInt64 value)
+		::System::Void set_FinishTimeStamp(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCHEDULETASK_SET_FINISHTIMESTAMP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCHEDULETASK_SET_FINISHTIMESTAMP_OFFSET))(this, a1);
 		}
 
 		::System::UInt64 get_FinishTimeStamp()
@@ -76,9 +76,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCHEDULETASK_GET_ENABLERANDOMDELAY_OFFSET))(this);
 		}
 
-		::System::Void set_EnableRandomDelay(::System::Boolean value)
+		::System::Void set_EnableRandomDelay(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCHEDULETASK_SET_ENABLERANDOMDELAY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCHEDULETASK_SET_ENABLERANDOMDELAY_OFFSET))(this, a1);
 		}
 
 		::System::UInt64 get_FinishMsTimeStamp()
@@ -91,9 +91,9 @@ namespace RPG::Client
 			return ((::System::Action_1<::RPG::Client::ScheduleData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCHEDULETASK_GET_FINISHACTION_OFFSET))(this);
 		}
 
-		::System::Void set_FinishAction(::System::Action_1<::RPG::Client::ScheduleData*>* value)
+		::System::Void set_FinishAction(::System::Action_1<::RPG::Client::ScheduleData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::ScheduleData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCHEDULETASK_SET_FINISHACTION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::ScheduleData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCHEDULETASK_SET_FINISHACTION_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ScheduleData* get_ScheduleData()
@@ -101,9 +101,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ScheduleData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCHEDULETASK_GET_SCHEDULEDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ScheduleData(::RPG::Client::ScheduleData* value)
+		::System::Void set_ScheduleData(::RPG::Client::ScheduleData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ScheduleData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCHEDULETASK_SET_SCHEDULEDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ScheduleData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCHEDULETASK_SET_SCHEDULEDATA_OFFSET))(this, a1);
 		}
 
 		::System::Void Start()

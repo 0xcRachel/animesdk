@@ -4,20 +4,20 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-class Class_1_A88C3AAF0DD46F4C_5;
+class Class_1_A88C3AAF0DD46F4C_6;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVETEAMRECOMMENDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18887250)
-#define RPG_GAMECORE_IDLELIVETEAMRECOMMENDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x188874E0)
+#define RPG_GAMECORE_IDLELIVETEAMRECOMMENDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19ADBE80)
+#define RPG_GAMECORE_IDLELIVETEAMRECOMMENDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19ADC110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveTeamRecommendRow_TypeDefinitionIndex = 11149;
+	inline static constexpr unsigned int IdleLiveTeamRecommendRow_TypeDefinitionIndex = 11197;
 
 	class IdleLiveTeamRecommendRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_5*>* TeamMember; // 0x10
+		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_6*>* TeamMember; // 0x10
 		::System::String* DisplayCondition; // 0x18
 		::RPG::Client::TextID Desc; // 0x20
 		::System::UInt32 ID; // 0x30
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVETEAMRECOMMENDROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::IdleLiveTeamRecommendRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IdleLiveTeamRecommendRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveTeamRecommendRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVETEAMRECOMMENDROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveTeamRecommendRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVETEAMRECOMMENDROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

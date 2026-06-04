@@ -6,26 +6,26 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_GET_CURRENTVALUE_OFFSET UNITYSDK_OFFSET(0x194476A0)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x19447680)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_GET_THRESHOLDVALUE_OFFSET UNITYSDK_OFFSET(0x194476C0)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x19447980)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_SET_CURRENTVALUE_OFFSET UNITYSDK_OFFSET(0x194476B0)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_SET_NAME_OFFSET UNITYSDK_OFFSET(0x19447690)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_SET_OFFSET UNITYSDK_OFFSET(0x194476E0)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_SET_THRESHOLDVALUE_OFFSET UNITYSDK_OFFSET(0x194476D0)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19447A90)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_GET_CURRENTVALUE_OFFSET UNITYSDK_OFFSET(0x1A1A1480)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1A1A1460)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_GET_THRESHOLDVALUE_OFFSET UNITYSDK_OFFSET(0x1A1A14A0)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x1A1A1760)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_SET_CURRENTVALUE_OFFSET UNITYSDK_OFFSET(0x1A1A1490)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1A1A1470)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_SET_OFFSET UNITYSDK_OFFSET(0x1A1A14C0)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_SET_THRESHOLDVALUE_OFFSET UNITYSDK_OFFSET(0x1A1A14B0)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1A1880)
 
 namespace Epic::OnlineServices::Achievements
 {
-	inline static constexpr unsigned int PlayerStatInfo_TypeDefinitionIndex = 42635;
+	inline static constexpr unsigned int PlayerStatInfo_TypeDefinitionIndex = 43438;
 
 	class PlayerStatInfo : public ::System::Object
 	{
 	public:
 		::System::String* _Name_k__BackingField; // 0x10
-		::System::Int32 _ThresholdValue_k__BackingField; // 0x18
-		::System::Int32 _CurrentValue_k__BackingField; // 0x1C
+		::System::Int32 _CurrentValue_k__BackingField; // 0x18
+		::System::Int32 _ThresholdValue_k__BackingField; // 0x1C
 
 		::System::Void _ctor()
 		{
@@ -37,9 +37,9 @@ namespace Epic::OnlineServices::Achievements
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Void set_Name(::System::String* value)
+		::System::Void set_Name(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_SET_NAME_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_CurrentValue()
@@ -47,9 +47,9 @@ namespace Epic::OnlineServices::Achievements
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_GET_CURRENTVALUE_OFFSET))(this);
 		}
 
-		::System::Void set_CurrentValue(::System::Int32 value)
+		::System::Void set_CurrentValue(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_SET_CURRENTVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_SET_CURRENTVALUE_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_ThresholdValue()
@@ -57,19 +57,19 @@ namespace Epic::OnlineServices::Achievements
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_GET_THRESHOLDVALUE_OFFSET))(this);
 		}
 
-		::System::Void set_ThresholdValue(::System::Int32 value)
+		::System::Void set_ThresholdValue(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_SET_THRESHOLDVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_SET_THRESHOLDVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Achievements::PlayerStatInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Achievements::PlayerStatInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Achievements::PlayerStatInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Achievements::PlayerStatInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_PLAYERSTATINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

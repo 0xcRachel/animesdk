@@ -11,13 +11,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DISPELSTATUS_METHOD_3_40C044C8BA1D2958_OFFSET UNITYSDK_OFFSET(0x195A9F30)
-#define RPG_GAMECORE_DISPELSTATUS_METHOD_3_E657D7E59E6A73F9_OFFSET UNITYSDK_OFFSET(0x195A9E90)
-#define RPG_GAMECORE_DISPELSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x195A9EF0)
+#define RPG_GAMECORE_DISPELSTATUS_METHOD_3_B47905F01C207A7F_OFFSET UNITYSDK_OFFSET(0x1A0A2C20)
+#define RPG_GAMECORE_DISPELSTATUS_METHOD_3_E657D7E59E6A73F9_OFFSET UNITYSDK_OFFSET(0x1A0A2B80)
+#define RPG_GAMECORE_DISPELSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0A2BE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DispelStatus_TypeDefinitionIndex = 21578;
+	inline static constexpr unsigned int DispelStatus_TypeDefinitionIndex = 21445;
 
 	class DispelStatus : public ::RPG::GameCore::TaskConfig
 	{
@@ -44,9 +44,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DispelStatus*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DISPELSTATUS_METHOD_3_E657D7E59E6A73F9_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_40C044C8BA1D2958(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DispelStatus* a2)
+		static ::System::Void Method_3_B47905F01C207A7F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DispelStatus* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DispelStatus*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DISPELSTATUS_METHOD_3_40C044C8BA1D2958_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DispelStatus*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DISPELSTATUS_METHOD_3_B47905F01C207A7F_OFFSET))(a1, a2);
 		}
 	};
 }

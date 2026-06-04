@@ -7,10 +7,10 @@
 namespace System::Security::Cryptography::X509Certificates { class X509ChainElementCollection; }
 namespace System::Security::Cryptography::X509Certificates { class X509ChainPolicy; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINIMPLMONO_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x16B41E50)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINIMPLMONO_SET_CHAINPOLICY_OFFSET UNITYSDK_OFFSET(0x16B41E60)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINIMPLMONO__CCTOR_OFFSET UNITYSDK_OFFSET(0x16B41E70)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINIMPLMONO__CTOR_OFFSET UNITYSDK_OFFSET(0x16B41AF0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINIMPLMONO_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x14926BE0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINIMPLMONO_SET_CHAINPOLICY_OFFSET UNITYSDK_OFFSET(0x14926BF0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINIMPLMONO__CCTOR_OFFSET UNITYSDK_OFFSET(0x14926C00)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINIMPLMONO__CTOR_OFFSET UNITYSDK_OFFSET(0x14926880)
 
 namespace System::Security::Cryptography::X509Certificates
 {
@@ -21,15 +21,15 @@ namespace System::Security::Cryptography::X509Certificates
 	public:
 		static ::Il2CppArray<::System::Security::Cryptography::X509Certificates::X509ChainStatus>** StaticGet_Empty()
 		{
-			return (::Il2CppArray<::System::Security::Cryptography::X509Certificates::X509ChainStatus>**)Il2CppClass::FromTypeDefinitionIndex(X509ChainImplMono_TypeDefinitionIndex)->GetStaticField(0xC7C0);
+			return (::Il2CppArray<::System::Security::Cryptography::X509Certificates::X509ChainStatus>**)Il2CppClass::FromTypeDefinitionIndex(X509ChainImplMono_TypeDefinitionIndex)->GetStaticField(0x27FE0);
 		}
-		::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* elements; // 0x10
-		::System::Security::Cryptography::X509Certificates::X509ChainPolicy* policy; // 0x18
+		::System::Security::Cryptography::X509Certificates::X509ChainPolicy* policy; // 0x10
+		::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* elements; // 0x18
 		::System::Security::Cryptography::X509Certificates::StoreLocation location; // 0x20
 
-		::System::Void _ctor(::System::Boolean useMachineContext)
+		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINIMPLMONO__CTOR_OFFSET))(this, useMachineContext);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINIMPLMONO__CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -42,9 +42,9 @@ namespace System::Security::Cryptography::X509Certificates
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINIMPLMONO_GET_ISVALID_OFFSET))(this);
 		}
 
-		::System::Void set_ChainPolicy(::System::Security::Cryptography::X509Certificates::X509ChainPolicy* value)
+		::System::Void set_ChainPolicy(::System::Security::Cryptography::X509Certificates::X509ChainPolicy* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::X509Certificates::X509ChainPolicy*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINIMPLMONO_SET_CHAINPOLICY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::X509Certificates::X509ChainPolicy*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINIMPLMONO_SET_CHAINPOLICY_OFFSET))(this, a1);
 		}
 	};
 }

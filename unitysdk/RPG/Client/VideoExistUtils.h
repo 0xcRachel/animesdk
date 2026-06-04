@@ -6,48 +6,48 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_VIDEOEXISTUTILS_ADDBADLISTFILE_OFFSET UNITYSDK_OFFSET(0x18E3CE60)
-#define RPG_CLIENT_VIDEOEXISTUTILS_CHECKVIDEOEXISTANDPROCESSMISSINGBYID_OFFSET UNITYSDK_OFFSET(0x18E3CC90)
-#define RPG_CLIENT_VIDEOEXISTUTILS_CHECKVIDEOEXISTANDPROCESSMISSINGBYPATH_OFFSET UNITYSDK_OFFSET(0x18E3CDE0)
-#define RPG_CLIENT_VIDEOEXISTUTILS_ISVIDEOEXISTBYID_OFFSET UNITYSDK_OFFSET(0x18E3C9E0)
-#define RPG_CLIENT_VIDEOEXISTUTILS_ISVIDEOEXISTBYPATH_OFFSET UNITYSDK_OFFSET(0x18E3CC00)
-#define RPG_CLIENT_VIDEOEXISTUTILS__GETVIDEORELATIVEPATHBYID_OFFSET UNITYSDK_OFFSET(0x18E3CAD0)
+#define RPG_CLIENT_VIDEOEXISTUTILS_ADDBADLISTFILE_OFFSET UNITYSDK_OFFSET(0x1771BD40)
+#define RPG_CLIENT_VIDEOEXISTUTILS_CHECKVIDEOEXISTANDPROCESSMISSINGBYID_OFFSET UNITYSDK_OFFSET(0x1771BB70)
+#define RPG_CLIENT_VIDEOEXISTUTILS_CHECKVIDEOEXISTANDPROCESSMISSINGBYPATH_OFFSET UNITYSDK_OFFSET(0x1771BCC0)
+#define RPG_CLIENT_VIDEOEXISTUTILS_ISVIDEOEXISTBYID_OFFSET UNITYSDK_OFFSET(0x1771B8C0)
+#define RPG_CLIENT_VIDEOEXISTUTILS_ISVIDEOEXISTBYPATH_OFFSET UNITYSDK_OFFSET(0x1771BAE0)
+#define RPG_CLIENT_VIDEOEXISTUTILS__GETVIDEORELATIVEPATHBYID_OFFSET UNITYSDK_OFFSET(0x1771B9B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VideoExistUtils_TypeDefinitionIndex = 67417;
+	inline static constexpr unsigned int VideoExistUtils_TypeDefinitionIndex = 68369;
 
 	class VideoExistUtils : public ::System::Object
 	{
 	public:
-		static ::System::Boolean IsVideoExistByID(::System::UInt32 id, ::RPG::GameCore::VideoType videoType)
+		static ::System::Boolean IsVideoExistByID(::System::UInt32 a1, ::RPG::GameCore::VideoType a2)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::RPG::GameCore::VideoType))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIDEOEXISTUTILS_ISVIDEOEXISTBYID_OFFSET))(id, videoType);
+			return ((::System::Boolean(*)(::System::UInt32, ::RPG::GameCore::VideoType))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIDEOEXISTUTILS_ISVIDEOEXISTBYID_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsVideoExistByPath(::System::String* relativePath, ::System::Boolean isGuideVideo)
+		static ::System::Boolean IsVideoExistByPath(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIDEOEXISTUTILS_ISVIDEOEXISTBYPATH_OFFSET))(relativePath, isGuideVideo);
+			return ((::System::Boolean(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIDEOEXISTUTILS_ISVIDEOEXISTBYPATH_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* _GetVideoRelativePathByID(::System::UInt32 id, ::RPG::GameCore::VideoType videoType)
+		static ::System::String* _GetVideoRelativePathByID(::System::UInt32 a1, ::RPG::GameCore::VideoType a2)
 		{
-			return ((::System::String*(*)(::System::UInt32, ::RPG::GameCore::VideoType))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIDEOEXISTUTILS__GETVIDEORELATIVEPATHBYID_OFFSET))(id, videoType);
+			return ((::System::String*(*)(::System::UInt32, ::RPG::GameCore::VideoType))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIDEOEXISTUTILS__GETVIDEORELATIVEPATHBYID_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean CheckVideoExistAndProcessMissingByID(::System::UInt32 id, ::RPG::GameCore::VideoType videoType, ::RPG::Client::MissingVideoProcessType processType)
+		static ::System::Boolean CheckVideoExistAndProcessMissingByID(::System::UInt32 a1, ::RPG::GameCore::VideoType a2, ::RPG::Client::MissingVideoProcessType a3)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::RPG::GameCore::VideoType, ::RPG::Client::MissingVideoProcessType))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIDEOEXISTUTILS_CHECKVIDEOEXISTANDPROCESSMISSINGBYID_OFFSET))(id, videoType, processType);
+			return ((::System::Boolean(*)(::System::UInt32, ::RPG::GameCore::VideoType, ::RPG::Client::MissingVideoProcessType))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIDEOEXISTUTILS_CHECKVIDEOEXISTANDPROCESSMISSINGBYID_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean CheckVideoExistAndProcessMissingByPath(::System::String* relativePath, ::RPG::GameCore::VideoType videoType, ::RPG::Client::MissingVideoProcessType processType)
+		static ::System::Boolean CheckVideoExistAndProcessMissingByPath(::System::String* a1, ::RPG::GameCore::VideoType a2, ::RPG::Client::MissingVideoProcessType a3)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::RPG::GameCore::VideoType, ::RPG::Client::MissingVideoProcessType))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIDEOEXISTUTILS_CHECKVIDEOEXISTANDPROCESSMISSINGBYPATH_OFFSET))(relativePath, videoType, processType);
+			return ((::System::Boolean(*)(::System::String*, ::RPG::GameCore::VideoType, ::RPG::Client::MissingVideoProcessType))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIDEOEXISTUTILS_CHECKVIDEOEXISTANDPROCESSMISSINGBYPATH_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void AddBadListFile(::System::String* relativePath, ::System::Boolean isGuideVideo)
+		static ::System::Void AddBadListFile(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIDEOEXISTUTILS_ADDBADLISTFILE_OFFSET))(relativePath, isGuideVideo);
+			return ((::System::Void(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIDEOEXISTUTILS_ADDBADLISTFILE_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -14,34 +14,34 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER_COMBOSIGN_OFFSET UNITYSDK_OFFSET(0x1729E770)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER_GETSIGNAPPKEY_OFFSET UNITYSDK_OFFSET(0x1729DB90)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER_GETSTSBYCOMBOTOKENURL_OFFSET UNITYSDK_OFFSET(0x1729D7A0)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER_GET_ENV_OFFSET UNITYSDK_OFFSET(0x1729CF60)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1729CFA0)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER_GET_ISAVAILABLE_OFFSET UNITYSDK_OFFSET(0x1729CF00)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1729DDF0)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER_ONGETCALLBACK_OFFSET UNITYSDK_OFFSET(0x1729F520)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER_ONGETTIMEOUT_OFFSET UNITYSDK_OFFSET(0x1729F9C0)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER_POSTREQUEST_OFFSET UNITYSDK_OFFSET(0x1729D910)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER_POST_OFFSET UNITYSDK_OFFSET(0x1729DE20)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER_SETUPUPLOADER_OFFSET UNITYSDK_OFFSET(0x1729D330)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER_SHAREDHEADERS_OFFSET UNITYSDK_OFFSET(0x1729DEC0)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER_UPLOADBUFFER_OFFSET UNITYSDK_OFFSET(0x1729D240)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER_UPLOADFILE_OFFSET UNITYSDK_OFFSET(0x1729D150)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1729FA00)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER__SETUPUPLOADER_B__13_0_OFFSET UNITYSDK_OFFSET(0x1729FA10)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_COMBOSIGN_OFFSET UNITYSDK_OFFSET(0x16ABD430)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_GETSIGNAPPKEY_OFFSET UNITYSDK_OFFSET(0x16ABC850)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_GETSTSBYCOMBOTOKENURL_OFFSET UNITYSDK_OFFSET(0x16ABC430)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_GET_ENV_OFFSET UNITYSDK_OFFSET(0x16ABBB80)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x16ABBBC0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_GET_ISAVAILABLE_OFFSET UNITYSDK_OFFSET(0x16ABBB20)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x16ABCAB0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_ONGETCALLBACK_OFFSET UNITYSDK_OFFSET(0x16ABE170)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_ONGETTIMEOUT_OFFSET UNITYSDK_OFFSET(0x16ABE4B0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_POSTREQUEST_OFFSET UNITYSDK_OFFSET(0x16ABC5A0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_POST_OFFSET UNITYSDK_OFFSET(0x16ABCAE0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_SETUPUPLOADER_OFFSET UNITYSDK_OFFSET(0x16ABBFA0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_SHAREDHEADERS_OFFSET UNITYSDK_OFFSET(0x16ABCB80)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_UPLOADBUFFER_OFFSET UNITYSDK_OFFSET(0x16ABBEA0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_UPLOADFILE_OFFSET UNITYSDK_OFFSET(0x16ABBDA0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x16ABE4F0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER__SETUPUPLOADER_B__13_0_OFFSET UNITYSDK_OFFSET(0x16ABE500)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKUploader_TypeDefinitionIndex = 43073;
+	inline static constexpr unsigned int MiHoYoSDKUploader_TypeDefinitionIndex = 43876;
 
 	class MiHoYoSDKUploader : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::MiHoYo::SDK::MiHoYoSDKUploader** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::MiHoYoSDKUploader**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKUploader_TypeDefinitionIndex)->GetStaticField(0x4E360);
+			return (::MiHoYo::SDK::MiHoYoSDKUploader**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKUploader_TypeDefinitionIndex)->GetStaticField(0xF1D0);
 		}
 		// static const ::System::Int32 TimeOutValue = 0x80000000; // 0x0
 		// static const ::System::Int32 ExceptionValue = 0x80000001; // 0x0
@@ -68,14 +68,14 @@ namespace MiHoYo::SDK
 			return ((::MiHoYo::SDK::MiHoYoSDKUploader*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_GET_INSTANCE_OFFSET))();
 		}
 
-		::System::Int32 UploadFile(::System::String* path, ::MiHoYo::SDK::Uploader::UploadCallbackAction* callback)
+		::System::Int32 UploadFile(::System::String* a1, ::MiHoYo::SDK::Uploader::UploadCallbackAction* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::Uploader::UploadCallbackAction*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_UPLOADFILE_OFFSET))(this, path, callback);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::Uploader::UploadCallbackAction*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_UPLOADFILE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 UploadBuffer(::Il2CppArray<::System::Byte>* buffer, ::MiHoYo::SDK::Uploader::UploadCallbackAction* callback)
+		::System::Int32 UploadBuffer(::Il2CppArray<::System::Byte>* a1, ::MiHoYo::SDK::Uploader::UploadCallbackAction* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::MiHoYo::SDK::Uploader::UploadCallbackAction*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_UPLOADBUFFER_OFFSET))(this, buffer, callback);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::MiHoYo::SDK::Uploader::UploadCallbackAction*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_UPLOADBUFFER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void SetupUploader()
@@ -93,14 +93,14 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_GETSIGNAPPKEY_OFFSET))(this);
 		}
 
-		::System::Void OnCallback(::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback, ::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void OnCallback(::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a1, ::MiHoYo::SDK::NetworkResponseModel* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_ONCALLBACK_OFFSET))(this, callback, response);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_ONCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void PostRequest(::System::String* requestUrl, ::MiHoYo::SDK::JSONObject* query, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback, ::System::Single timeoutSecond, ::System::Int32 retryTime)
+		::System::Void PostRequest(::System::String* a1, ::MiHoYo::SDK::JSONObject* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a3, ::System::Single a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::JSONObject*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_POSTREQUEST_OFFSET))(this, requestUrl, query, callback, timeoutSecond, retryTime);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::JSONObject*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_POSTREQUEST_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* SharedHeaders()
@@ -108,19 +108,19 @@ namespace MiHoYo::SDK
 			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_SHAREDHEADERS_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* Post(::System::String* requestUrl, ::System::String* bodyString, ::System::Action_1<::System::String*>* callback, ::System::Action* timeoutCallback, ::System::Single timeoutSecond, ::System::Int32 retryTime)
+		::System::Collections::IEnumerator* Post(::System::String* a1, ::System::String* a2, ::System::Action_1<::System::String*>* a3, ::System::Action* a4, ::System::Single a5, ::System::Int32 a6)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::System::String*>*, ::System::Action*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_POST_OFFSET))(this, requestUrl, bodyString, callback, timeoutCallback, timeoutSecond, retryTime);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::System::String*>*, ::System::Action*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_POST_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::String* ComboSign(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* param)
+		::System::String* ComboSign(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_COMBOSIGN_OFFSET))(this, param);
+			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_COMBOSIGN_OFFSET))(this, a1);
 		}
 
-		::MiHoYo::SDK::NetworkResponseModel* OnGetCallback(::System::String* responseString)
+		::MiHoYo::SDK::NetworkResponseModel* OnGetCallback(::System::String* a1)
 		{
-			return ((::MiHoYo::SDK::NetworkResponseModel*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_ONGETCALLBACK_OFFSET))(this, responseString);
+			return ((::MiHoYo::SDK::NetworkResponseModel*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_ONGETCALLBACK_OFFSET))(this, a1);
 		}
 
 		::MiHoYo::SDK::NetworkResponseModel* OnGetTimeOut()
@@ -128,9 +128,9 @@ namespace MiHoYo::SDK
 			return ((::MiHoYo::SDK::NetworkResponseModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_ONGETTIMEOUT_OFFSET))(this);
 		}
 
-		::System::Void _SetupUploader_b__13_0(::MiHoYo::SDK::NetworkResponseModel* model)
+		::System::Void _SetupUploader_b__13_0(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER__SETUPUPLOADER_B__13_0_OFFSET))(this, model);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER__SETUPUPLOADER_B__13_0_OFFSET))(this, a1);
 		}
 	};
 }

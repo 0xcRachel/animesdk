@@ -5,18 +5,18 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_4751118EE0EF24B1_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1243D5A0)
-#define CLASS_1_4751118EE0EF24B1_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1243D550)
-#define CLASS_1_4751118EE0EF24B1__CTOR_OFFSET UNITYSDK_OFFSET(0x1243D540)
+#define CLASS_1_4751118EE0EF24B1_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1630CE70)
+#define CLASS_1_4751118EE0EF24B1_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1630CE20)
+#define CLASS_1_4751118EE0EF24B1__CTOR_OFFSET UNITYSDK_OFFSET(0x1630CE10)
 
-inline static constexpr unsigned int Class_1_4751118EE0EF24B1_TypeDefinitionIndex = 52383;
+inline static constexpr unsigned int Class_1_4751118EE0EF24B1_TypeDefinitionIndex = 53080;
 
 class Class_1_4751118EE0EF24B1 : public ::System::Object
 {
 public:
 	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::System::UInt32 Field_1_2; // 0x18
-	::System::UInt32 Field_1_1; // 0x1C
+	::System::UInt32 Field_1_1; // 0x18
+	::System::UInt32 Field_1_2; // 0x1C
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::UInt32 a2, ::System::UInt32 a3)
 	{

@@ -9,23 +9,23 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerReplaceCharacterPresetEffect; }
 namespace System { class String; }
 
-#define CLASS_2_92823DD2D1B9CD4C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x105BC700)
-#define CLASS_2_92823DD2D1B9CD4C_METHOD_2_41EAFC9EF57C300F_OFFSET UNITYSDK_OFFSET(0x105BD0F0)
-#define CLASS_2_92823DD2D1B9CD4C_METHOD_2_5F89484DD1053BBD_OFFSET UNITYSDK_OFFSET(0x105BCD00)
-#define CLASS_2_92823DD2D1B9CD4C_METHOD_2_D29C416DA438109C_OFFSET UNITYSDK_OFFSET(0x105BCB30)
-#define CLASS_2_92823DD2D1B9CD4C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x105BC7F0)
-#define CLASS_2_92823DD2D1B9CD4C_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x105BC740)
-#define CLASS_2_92823DD2D1B9CD4C_TICK_OFFSET UNITYSDK_OFFSET(0x105BC790)
-#define CLASS_2_92823DD2D1B9CD4C__CTOR_OFFSET UNITYSDK_OFFSET(0x105BC6F0)
+#define CLASS_2_92823DD2D1B9CD4C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x158484F0)
+#define CLASS_2_92823DD2D1B9CD4C_METHOD_2_5F89484DD1053BBD_OFFSET UNITYSDK_OFFSET(0x15848AF0)
+#define CLASS_2_92823DD2D1B9CD4C_METHOD_2_A9261EBB725055D5_OFFSET UNITYSDK_OFFSET(0x15848930)
+#define CLASS_2_92823DD2D1B9CD4C_METHOD_2_B8D69885A525C5DB_OFFSET UNITYSDK_OFFSET(0x15848ED0)
+#define CLASS_2_92823DD2D1B9CD4C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158485E0)
+#define CLASS_2_92823DD2D1B9CD4C_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15848530)
+#define CLASS_2_92823DD2D1B9CD4C_TICK_OFFSET UNITYSDK_OFFSET(0x15848580)
+#define CLASS_2_92823DD2D1B9CD4C__CTOR_OFFSET UNITYSDK_OFFSET(0x158484E0)
 
-inline static constexpr unsigned int Class_2_92823DD2D1B9CD4C_TypeDefinitionIndex = 51413;
+inline static constexpr unsigned int Class_2_92823DD2D1B9CD4C_TypeDefinitionIndex = 52081;
 
 class Class_2_92823DD2D1B9CD4C : public ::Class_1_5F51D4049EA87B7B
 {
 public:
 	// static const ::System::String* Field_2_0; // 0x0
-	::RPG::GameCore::TaskContext* Field_2_2; // 0x18
-	::RPG::GameCore::TriggerReplaceCharacterPresetEffect* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
+	::RPG::GameCore::TriggerReplaceCharacterPresetEffect* Field_2_2; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerReplaceCharacterPresetEffect* a2)
 	{
@@ -57,13 +57,13 @@ public:
 		return ((::System::Void(*)(::System::String*, ::RPG::GameCore::GameEntity*, ::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams))((::PBYTE)hIl2Cpp + CLASS_2_92823DD2D1B9CD4C_METHOD_2_5F89484DD1053BBD_OFFSET))(a1, a2, a3, a4);
 	}
 
-	static ::System::Void Method_2_D29C416DA438109C(::RPG::GameCore::GameEntity* a1)
+	static ::System::Void Method_2_A9261EBB725055D5(::RPG::GameCore::GameEntity* a1)
 	{
-		return ((::System::Void(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_92823DD2D1B9CD4C_METHOD_2_D29C416DA438109C_OFFSET))(a1);
+		return ((::System::Void(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_92823DD2D1B9CD4C_METHOD_2_A9261EBB725055D5_OFFSET))(a1);
 	}
 
-	static ::System::Void Method_2_41EAFC9EF57C300F(::RPG::GameCore::GameEntity* a1, ::System::String* a2)
+	static ::System::Void Method_2_B8D69885A525C5DB(::RPG::GameCore::GameEntity* a1, ::System::String* a2)
 	{
-		return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_92823DD2D1B9CD4C_METHOD_2_41EAFC9EF57C300F_OFFSET))(a1, a2);
+		return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_92823DD2D1B9CD4C_METHOD_2_B8D69885A525C5DB_OFFSET))(a1, a2);
 	}
 };

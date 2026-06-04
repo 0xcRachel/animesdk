@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ROGUEHANDBOOKBUFFTYPEREWARDDATA_HASREWARDCANTAKE_OFFSET UNITYSDK_OFFSET(0x172AA4A0)
-#define RPG_CLIENT_ROGUEHANDBOOKBUFFTYPEREWARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x172AA490)
+#define RPG_CLIENT_ROGUEHANDBOOKBUFFTYPEREWARDDATA_HASREWARDCANTAKE_OFFSET UNITYSDK_OFFSET(0x184CF180)
+#define RPG_CLIENT_ROGUEHANDBOOKBUFFTYPEREWARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x184CF170)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueHandbookBuffTypeRewardData_TypeDefinitionIndex = 62073;
+	inline static constexpr unsigned int RogueHandbookBuffTypeRewardData_TypeDefinitionIndex = 63006;
 
 	class RogueHandbookBuffTypeRewardData : public ::System::Object
 	{
@@ -15,9 +15,9 @@ namespace RPG::Client
 		::Il2CppArray<::System::UInt32>* QuestIDs; // 0x10
 		::System::UInt32 RogueBuffType; // 0x18
 
-		::System::Void _ctor(::System::UInt32 rogueBuffType, ::Il2CppArray<::System::UInt32>* rogueBuffTypeRewardQuests)
+		::System::Void _ctor(::System::UInt32 a1, ::Il2CppArray<::System::UInt32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEHANDBOOKBUFFTYPEREWARDDATA__CTOR_OFFSET))(this, rogueBuffType, rogueBuffTypeRewardQuests);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEHANDBOOKBUFFTYPEREWARDDATA__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean HasRewardCanTake()

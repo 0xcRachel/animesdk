@@ -6,36 +6,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A747EA0)
-#define UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A747EF0)
-#define UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A747B30)
-#define UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A747E80)
+#define UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B56B080)
+#define UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B56B0D0)
+#define UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B56AF50)
+#define UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B56B010)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AudioClip_PCMSetPositionCallback_TypeDefinitionIndex = 5095;
+	inline static constexpr unsigned int AudioClip_PCMSetPositionCallback_TypeDefinitionIndex = 5189;
 
 	class AudioClip_PCMSetPositionCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Int32 position)
+		::System::Void Invoke(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK_INVOKE_OFFSET))(this, position);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Int32 position, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Int32 a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK_BEGININVOKE_OFFSET))(this, position, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,13 +5,13 @@
 class AkAudioListener;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AKAUDIOLISTENER_BASELISTENERLIST_ADD_OFFSET UNITYSDK_OFFSET(0x192AD480)
-#define AKAUDIOLISTENER_BASELISTENERLIST_GETLISTENERIDS_OFFSET UNITYSDK_OFFSET(0x192AD9E0)
-#define AKAUDIOLISTENER_BASELISTENERLIST_GET_LISTENERLIST_OFFSET UNITYSDK_OFFSET(0x192AD470)
-#define AKAUDIOLISTENER_BASELISTENERLIST_REMOVE_OFFSET UNITYSDK_OFFSET(0x192AD790)
-#define AKAUDIOLISTENER_BASELISTENERLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x192ADA60)
+#define AKAUDIOLISTENER_BASELISTENERLIST_ADD_OFFSET UNITYSDK_OFFSET(0x19DC8500)
+#define AKAUDIOLISTENER_BASELISTENERLIST_GETLISTENERIDS_OFFSET UNITYSDK_OFFSET(0x19DC8C10)
+#define AKAUDIOLISTENER_BASELISTENERLIST_GET_LISTENERLIST_OFFSET UNITYSDK_OFFSET(0x19DC84F0)
+#define AKAUDIOLISTENER_BASELISTENERLIST_REMOVE_OFFSET UNITYSDK_OFFSET(0x19DC89C0)
+#define AKAUDIOLISTENER_BASELISTENERLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19DC8CE0)
 
-inline static constexpr unsigned int AkAudioListener_BaseListenerList_TypeDefinitionIndex = 40467;
+inline static constexpr unsigned int AkAudioListener_BaseListenerList_TypeDefinitionIndex = 41294;
 
 class AkAudioListener_BaseListenerList : public ::System::Object
 {
@@ -29,14 +29,14 @@ public:
 		return ((::System::Collections::Generic::List_1<::AkAudioListener*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKAUDIOLISTENER_BASELISTENERLIST_GET_LISTENERLIST_OFFSET))(this);
 	}
 
-	::System::Boolean Add(::AkAudioListener* listener)
+	::System::Boolean Add(::AkAudioListener* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::AkAudioListener*))((::PBYTE)hIl2Cpp + AKAUDIOLISTENER_BASELISTENERLIST_ADD_OFFSET))(this, listener);
+		return ((::System::Boolean(*)(::PVOID, ::AkAudioListener*))((::PBYTE)hIl2Cpp + AKAUDIOLISTENER_BASELISTENERLIST_ADD_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Remove(::AkAudioListener* listener)
+	::System::Boolean Remove(::AkAudioListener* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::AkAudioListener*))((::PBYTE)hIl2Cpp + AKAUDIOLISTENER_BASELISTENERLIST_REMOVE_OFFSET))(this, listener);
+		return ((::System::Boolean(*)(::PVOID, ::AkAudioListener*))((::PBYTE)hIl2Cpp + AKAUDIOLISTENER_BASELISTENERLIST_REMOVE_OFFSET))(this, a1);
 	}
 
 	::Il2CppArray<::System::UInt64>* GetListenerIds()

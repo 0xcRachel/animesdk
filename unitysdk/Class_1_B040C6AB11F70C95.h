@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_45666FF47F0D254B;
 class Class_1_F236C4DB0600E05D;
+class Class_1_FA404EB3FBF8DFF5;
 
-#define CLASS_1_B040C6AB11F70C95_METHOD_1_DAE3C0D794E8B994_OFFSET UNITYSDK_OFFSET(0x1040F100)
-#define CLASS_1_B040C6AB11F70C95__CTOR_OFFSET UNITYSDK_OFFSET(0x1040F170)
+#define CLASS_1_B040C6AB11F70C95_METHOD_1_DAE3C0D794E8B994_OFFSET UNITYSDK_OFFSET(0x17C6AC60)
+#define CLASS_1_B040C6AB11F70C95__CTOR_OFFSET UNITYSDK_OFFSET(0x17C6ACD0)
 
-inline static constexpr unsigned int Class_1_B040C6AB11F70C95_TypeDefinitionIndex = 57224;
+inline static constexpr unsigned int Class_1_B040C6AB11F70C95_TypeDefinitionIndex = 58014;
 
 class Class_1_B040C6AB11F70C95 : public ::System::Object
 {
 public:
-	::Class_1_45666FF47F0D254B* Field_1_0; // 0x10
+	::Class_1_FA404EB3FBF8DFF5* Field_1_0; // 0x10
 
 	::System::Void _ctor()
 	{

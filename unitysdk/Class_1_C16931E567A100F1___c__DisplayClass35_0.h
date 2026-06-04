@@ -6,14 +6,14 @@ class Class_1_C16931E567A100F1;
 namespace System::Collections { class BitArray; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15632C70)
-#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0___CALCAIREROLLINFO_B__0_OFFSET UNITYSDK_OFFSET(0x15633F90)
-#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0___CALCAIREROLLINFO_B__1_OFFSET UNITYSDK_OFFSET(0x15633FE0)
-#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0___CALCAIREROLLINFO_B__2_OFFSET UNITYSDK_OFFSET(0x15634000)
-#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0___CALCAIREROLLINFO_B__3_OFFSET UNITYSDK_OFFSET(0x15634020)
-#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0___CALCAIREROLLINFO_B__4_OFFSET UNITYSDK_OFFSET(0x15634050)
+#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0x168F3230)
+#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0___CALCAIREROLLINFO_B__0_OFFSET UNITYSDK_OFFSET(0x168F4D10)
+#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0___CALCAIREROLLINFO_B__1_OFFSET UNITYSDK_OFFSET(0x168F4D70)
+#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0___CALCAIREROLLINFO_B__2_OFFSET UNITYSDK_OFFSET(0x168F4D90)
+#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0___CALCAIREROLLINFO_B__3_OFFSET UNITYSDK_OFFSET(0x168F4DB0)
+#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0___CALCAIREROLLINFO_B__4_OFFSET UNITYSDK_OFFSET(0x168F4E00)
 
-inline static constexpr unsigned int Class_1_C16931E567A100F1___c__DisplayClass35_0_TypeDefinitionIndex = 34201;
+inline static constexpr unsigned int Class_1_C16931E567A100F1___c__DisplayClass35_0_TypeDefinitionIndex = 34483;
 
 class Class_1_C16931E567A100F1___c__DisplayClass35_0 : public ::System::Object
 {
@@ -28,28 +28,28 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Int32 __calcAIRerollInfo_b__0(::System::Int32 diceID, ::System::Int32 index)
+	::System::Int32 __calcAIRerollInfo_b__0(::System::Int32 a1, ::System::Int32 a2)
 	{
-		return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0___CALCAIREROLLINFO_B__0_OFFSET))(this, diceID, index);
+		return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0___CALCAIREROLLINFO_B__0_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean __calcAIRerollInfo_b__1(::System::Int32 i)
+	::System::Boolean __calcAIRerollInfo_b__1(::System::Int32 a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0___CALCAIREROLLINFO_B__1_OFFSET))(this, i);
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0___CALCAIREROLLINFO_B__1_OFFSET))(this, a1);
 	}
 
-	::System::Boolean __calcAIRerollInfo_b__2(::System::Int32 i)
+	::System::Boolean __calcAIRerollInfo_b__2(::System::Int32 a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0___CALCAIREROLLINFO_B__2_OFFSET))(this, i);
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0___CALCAIREROLLINFO_B__2_OFFSET))(this, a1);
 	}
 
-	::System::Int32 __calcAIRerollInfo_b__3(::System::Int32 i)
+	::System::Int32 __calcAIRerollInfo_b__3(::System::Int32 a1)
 	{
-		return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0___CALCAIREROLLINFO_B__3_OFFSET))(this, i);
+		return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0___CALCAIREROLLINFO_B__3_OFFSET))(this, a1);
 	}
 
-	::System::Int32 __calcAIRerollInfo_b__4(::System::Int32 i)
+	::System::Int32 __calcAIRerollInfo_b__4(::System::Int32 a1)
 	{
-		return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0___CALCAIREROLLINFO_B__4_OFFSET))(this, i);
+		return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_C16931E567A100F1___C__DISPLAYCLASS35_0___CALCAIREROLLINFO_B__4_OFFSET))(this, a1);
 	}
 };

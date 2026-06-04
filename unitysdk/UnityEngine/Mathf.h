@@ -4,89 +4,89 @@
 
 namespace System { class Random; }
 
-#define UNITYENGINE_MATHF_ABS_1_OFFSET UNITYSDK_OFFSET(0x1A473D50)
-#define UNITYENGINE_MATHF_ABS_OFFSET UNITYSDK_OFFSET(0x1A473D40)
-#define UNITYENGINE_MATHF_ACOS_OFFSET UNITYSDK_OFFSET(0x1A473CC0)
-#define UNITYENGINE_MATHF_APPROXIMATELY_OFFSET UNITYSDK_OFFSET(0x1A474A80)
-#define UNITYENGINE_MATHF_ASIN_OFFSET UNITYSDK_OFFSET(0x1A473CA0)
-#define UNITYENGINE_MATHF_ATAN2_OFFSET UNITYSDK_OFFSET(0x1A473D00)
-#define UNITYENGINE_MATHF_ATAN_OFFSET UNITYSDK_OFFSET(0x1A473CE0)
-#define UNITYENGINE_MATHF_CEILTOINT_OFFSET UNITYSDK_OFFSET(0x1A474570)
-#define UNITYENGINE_MATHF_CEIL_OFFSET UNITYSDK_OFFSET(0x1A4744A0)
-#define UNITYENGINE_MATHF_CLAMP01_OFFSET UNITYSDK_OFFSET(0x1A4746B0)
-#define UNITYENGINE_MATHF_CLAMP_1_OFFSET UNITYSDK_OFFSET(0x1A4746A0)
-#define UNITYENGINE_MATHF_CLAMP_OFFSET UNITYSDK_OFFSET(0x1A474680)
-#define UNITYENGINE_MATHF_CLOSESTPOWEROFTWO_OFFSET UNITYSDK_OFFSET(0x1A473B80)
-#define UNITYENGINE_MATHF_CORRELATEDCOLORTEMPERATURETORGB_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A473C00)
-#define UNITYENGINE_MATHF_CORRELATEDCOLORTEMPERATURETORGB_OFFSET UNITYSDK_OFFSET(0x1A473BD0)
-#define UNITYENGINE_MATHF_COS_OFFSET UNITYSDK_OFFSET(0x1A473C60)
-#define UNITYENGINE_MATHF_DELTAANGLE_OFFSET UNITYSDK_OFFSET(0x1A474960)
-#define UNITYENGINE_MATHF_EXP_OFFSET UNITYSDK_OFFSET(0x1A474390)
-#define UNITYENGINE_MATHF_FLOATTOHALF_OFFSET UNITYSDK_OFFSET(0x1A473C10)
-#define UNITYENGINE_MATHF_FLOORTOINT_OFFSET UNITYSDK_OFFSET(0x1A474590)
-#define UNITYENGINE_MATHF_FLOOR_OFFSET UNITYSDK_OFFSET(0x1A4744B0)
-#define UNITYENGINE_MATHF_GAMMATOLINEARSPACE_OFFSET UNITYSDK_OFFSET(0x1A473BB0)
-#define UNITYENGINE_MATHF_GAMMA_OFFSET UNITYSDK_OFFSET(0x1A474A20)
-#define UNITYENGINE_MATHF_HALFTOFLOAT_OFFSET UNITYSDK_OFFSET(0x1A473C20)
-#define UNITYENGINE_MATHF_INVERSELERP_OFFSET UNITYSDK_OFFSET(0x1A4753B0)
-#define UNITYENGINE_MATHF_ISPOWEROFTWO_OFFSET UNITYSDK_OFFSET(0x1A473B90)
-#define UNITYENGINE_MATHF_LERPANGLE_OFFSET UNITYSDK_OFFSET(0x1A474710)
-#define UNITYENGINE_MATHF_LERPUNCLAMPED_OFFSET UNITYSDK_OFFSET(0x1A474700)
-#define UNITYENGINE_MATHF_LERP_OFFSET UNITYSDK_OFFSET(0x1A4746D0)
-#define UNITYENGINE_MATHF_LINEARTOGAMMASPACE_OFFSET UNITYSDK_OFFSET(0x1A473BC0)
-#define UNITYENGINE_MATHF_LINEINTERSECTION_OFFSET UNITYSDK_OFFSET(0x1A4753F0)
-#define UNITYENGINE_MATHF_LINESEGMENTINTERSECTION_OFFSET UNITYSDK_OFFSET(0x1A4754E0)
-#define UNITYENGINE_MATHF_LOG10_OFFSET UNITYSDK_OFFSET(0x1A474480)
-#define UNITYENGINE_MATHF_LOG_1_OFFSET UNITYSDK_OFFSET(0x1A474460)
-#define UNITYENGINE_MATHF_LOG_OFFSET UNITYSDK_OFFSET(0x1A4743B0)
-#define UNITYENGINE_MATHF_MAX_1_OFFSET UNITYSDK_OFFSET(0x1A474070)
-#define UNITYENGINE_MATHF_MAX_2_OFFSET UNITYSDK_OFFSET(0x1A474080)
-#define UNITYENGINE_MATHF_MAX_3_OFFSET UNITYSDK_OFFSET(0x1A474090)
-#define UNITYENGINE_MATHF_MAX_4_OFFSET UNITYSDK_OFFSET(0x1A474160)
-#define UNITYENGINE_MATHF_MAX_5_OFFSET UNITYSDK_OFFSET(0x1A474170)
-#define UNITYENGINE_MATHF_MAX_6_OFFSET UNITYSDK_OFFSET(0x1A474180)
-#define UNITYENGINE_MATHF_MAX_7_OFFSET UNITYSDK_OFFSET(0x1A4741A0)
-#define UNITYENGINE_MATHF_MAX_OFFSET UNITYSDK_OFFSET(0x1A474060)
-#define UNITYENGINE_MATHF_MIN_1_OFFSET UNITYSDK_OFFSET(0x1A473D70)
-#define UNITYENGINE_MATHF_MIN_2_OFFSET UNITYSDK_OFFSET(0x1A473D80)
-#define UNITYENGINE_MATHF_MIN_3_OFFSET UNITYSDK_OFFSET(0x1A473D90)
-#define UNITYENGINE_MATHF_MIN_4_OFFSET UNITYSDK_OFFSET(0x1A468900)
-#define UNITYENGINE_MATHF_MIN_5_OFFSET UNITYSDK_OFFSET(0x1A473E60)
-#define UNITYENGINE_MATHF_MIN_6_OFFSET UNITYSDK_OFFSET(0x1A473E70)
-#define UNITYENGINE_MATHF_MIN_7_OFFSET UNITYSDK_OFFSET(0x1A473E90)
-#define UNITYENGINE_MATHF_MIN_OFFSET UNITYSDK_OFFSET(0x1A473D60)
-#define UNITYENGINE_MATHF_MOVETOWARDSANGLE_OFFSET UNITYSDK_OFFSET(0x1A474860)
-#define UNITYENGINE_MATHF_MOVETOWARDS_OFFSET UNITYSDK_OFFSET(0x1A474810)
-#define UNITYENGINE_MATHF_NEXTPOWEROFTWO_OFFSET UNITYSDK_OFFSET(0x1A473BA0)
-#define UNITYENGINE_MATHF_PERLINNOISE_OFFSET UNITYSDK_OFFSET(0x1A473C30)
-#define UNITYENGINE_MATHF_PINGPONG_OFFSET UNITYSDK_OFFSET(0x1A475340)
-#define UNITYENGINE_MATHF_POW_OFFSET UNITYSDK_OFFSET(0x1A474370)
-#define UNITYENGINE_MATHF_RANDOMTOLONG_OFFSET UNITYSDK_OFFSET(0x1A4755F0)
-#define UNITYENGINE_MATHF_REPEAT_OFFSET UNITYSDK_OFFSET(0x1A4747C0)
-#define UNITYENGINE_MATHF_ROUNDTOINT_OFFSET UNITYSDK_OFFSET(0x1A4745B0)
-#define UNITYENGINE_MATHF_ROUND_OFFSET UNITYSDK_OFFSET(0x1A4744C0)
-#define UNITYENGINE_MATHF_SIGN_OFFSET UNITYSDK_OFFSET(0x1A474660)
-#define UNITYENGINE_MATHF_SIN_OFFSET UNITYSDK_OFFSET(0x1A473C40)
-#define UNITYENGINE_MATHF_SMOOTHDAMPANGLE_1_OFFSET UNITYSDK_OFFSET(0x1A4751A0)
-#define UNITYENGINE_MATHF_SMOOTHDAMPANGLE_2_OFFSET UNITYSDK_OFFSET(0x1A474FF0)
-#define UNITYENGINE_MATHF_SMOOTHDAMPANGLE_OFFSET UNITYSDK_OFFSET(0x1A474E40)
-#define UNITYENGINE_MATHF_SMOOTHDAMP_1_OFFSET UNITYSDK_OFFSET(0x1A474D10)
-#define UNITYENGINE_MATHF_SMOOTHDAMP_2_OFFSET UNITYSDK_OFFSET(0x1A474BF0)
-#define UNITYENGINE_MATHF_SMOOTHDAMP_OFFSET UNITYSDK_OFFSET(0x1A474AC0)
-#define UNITYENGINE_MATHF_SMOOTHSTEP_OFFSET UNITYSDK_OFFSET(0x1A4749D0)
-#define UNITYENGINE_MATHF_SQRT_OFFSET UNITYSDK_OFFSET(0x1A473D20)
-#define UNITYENGINE_MATHF_TAN_OFFSET UNITYSDK_OFFSET(0x1A473C80)
-#define UNITYENGINE_MATHF__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A475680)
+#define UNITYENGINE_MATHF_ABS_1_OFFSET UNITYSDK_OFFSET(0x1B1981F0)
+#define UNITYENGINE_MATHF_ABS_OFFSET UNITYSDK_OFFSET(0x1B1981E0)
+#define UNITYENGINE_MATHF_ACOS_OFFSET UNITYSDK_OFFSET(0x1B198160)
+#define UNITYENGINE_MATHF_APPROXIMATELY_OFFSET UNITYSDK_OFFSET(0x1B198F20)
+#define UNITYENGINE_MATHF_ASIN_OFFSET UNITYSDK_OFFSET(0x1B198140)
+#define UNITYENGINE_MATHF_ATAN2_OFFSET UNITYSDK_OFFSET(0x1B1981A0)
+#define UNITYENGINE_MATHF_ATAN_OFFSET UNITYSDK_OFFSET(0x1B198180)
+#define UNITYENGINE_MATHF_CEILTOINT_OFFSET UNITYSDK_OFFSET(0x1B198A10)
+#define UNITYENGINE_MATHF_CEIL_OFFSET UNITYSDK_OFFSET(0x1B198940)
+#define UNITYENGINE_MATHF_CLAMP01_OFFSET UNITYSDK_OFFSET(0x1B198B50)
+#define UNITYENGINE_MATHF_CLAMP_1_OFFSET UNITYSDK_OFFSET(0x1B198B40)
+#define UNITYENGINE_MATHF_CLAMP_OFFSET UNITYSDK_OFFSET(0x1B198B20)
+#define UNITYENGINE_MATHF_CLOSESTPOWEROFTWO_OFFSET UNITYSDK_OFFSET(0x1B198020)
+#define UNITYENGINE_MATHF_CORRELATEDCOLORTEMPERATURETORGB_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B1980A0)
+#define UNITYENGINE_MATHF_CORRELATEDCOLORTEMPERATURETORGB_OFFSET UNITYSDK_OFFSET(0x1B198070)
+#define UNITYENGINE_MATHF_COS_OFFSET UNITYSDK_OFFSET(0x1B198100)
+#define UNITYENGINE_MATHF_DELTAANGLE_OFFSET UNITYSDK_OFFSET(0x1B198E00)
+#define UNITYENGINE_MATHF_EXP_OFFSET UNITYSDK_OFFSET(0x1B198830)
+#define UNITYENGINE_MATHF_FLOATTOHALF_OFFSET UNITYSDK_OFFSET(0x1B1980B0)
+#define UNITYENGINE_MATHF_FLOORTOINT_OFFSET UNITYSDK_OFFSET(0x1B198A30)
+#define UNITYENGINE_MATHF_FLOOR_OFFSET UNITYSDK_OFFSET(0x1B198950)
+#define UNITYENGINE_MATHF_GAMMATOLINEARSPACE_OFFSET UNITYSDK_OFFSET(0x1B198050)
+#define UNITYENGINE_MATHF_GAMMA_OFFSET UNITYSDK_OFFSET(0x1B198EC0)
+#define UNITYENGINE_MATHF_HALFTOFLOAT_OFFSET UNITYSDK_OFFSET(0x1B1980C0)
+#define UNITYENGINE_MATHF_INVERSELERP_OFFSET UNITYSDK_OFFSET(0x1B199850)
+#define UNITYENGINE_MATHF_ISPOWEROFTWO_OFFSET UNITYSDK_OFFSET(0x1B198030)
+#define UNITYENGINE_MATHF_LERPANGLE_OFFSET UNITYSDK_OFFSET(0x1B198BB0)
+#define UNITYENGINE_MATHF_LERPUNCLAMPED_OFFSET UNITYSDK_OFFSET(0x1B198BA0)
+#define UNITYENGINE_MATHF_LERP_OFFSET UNITYSDK_OFFSET(0x1B198B70)
+#define UNITYENGINE_MATHF_LINEARTOGAMMASPACE_OFFSET UNITYSDK_OFFSET(0x1B198060)
+#define UNITYENGINE_MATHF_LINEINTERSECTION_OFFSET UNITYSDK_OFFSET(0x1B199890)
+#define UNITYENGINE_MATHF_LINESEGMENTINTERSECTION_OFFSET UNITYSDK_OFFSET(0x1B199980)
+#define UNITYENGINE_MATHF_LOG10_OFFSET UNITYSDK_OFFSET(0x1B198920)
+#define UNITYENGINE_MATHF_LOG_1_OFFSET UNITYSDK_OFFSET(0x1B198900)
+#define UNITYENGINE_MATHF_LOG_OFFSET UNITYSDK_OFFSET(0x1B198850)
+#define UNITYENGINE_MATHF_MAX_1_OFFSET UNITYSDK_OFFSET(0x1B198510)
+#define UNITYENGINE_MATHF_MAX_2_OFFSET UNITYSDK_OFFSET(0x1B198520)
+#define UNITYENGINE_MATHF_MAX_3_OFFSET UNITYSDK_OFFSET(0x1B198530)
+#define UNITYENGINE_MATHF_MAX_4_OFFSET UNITYSDK_OFFSET(0x1B198600)
+#define UNITYENGINE_MATHF_MAX_5_OFFSET UNITYSDK_OFFSET(0x1B198610)
+#define UNITYENGINE_MATHF_MAX_6_OFFSET UNITYSDK_OFFSET(0x1B198620)
+#define UNITYENGINE_MATHF_MAX_7_OFFSET UNITYSDK_OFFSET(0x1B198640)
+#define UNITYENGINE_MATHF_MAX_OFFSET UNITYSDK_OFFSET(0x1B198500)
+#define UNITYENGINE_MATHF_MIN_1_OFFSET UNITYSDK_OFFSET(0x1B198210)
+#define UNITYENGINE_MATHF_MIN_2_OFFSET UNITYSDK_OFFSET(0x1B198220)
+#define UNITYENGINE_MATHF_MIN_3_OFFSET UNITYSDK_OFFSET(0x1B198230)
+#define UNITYENGINE_MATHF_MIN_4_OFFSET UNITYSDK_OFFSET(0x1B18D6B0)
+#define UNITYENGINE_MATHF_MIN_5_OFFSET UNITYSDK_OFFSET(0x1B198300)
+#define UNITYENGINE_MATHF_MIN_6_OFFSET UNITYSDK_OFFSET(0x1B198310)
+#define UNITYENGINE_MATHF_MIN_7_OFFSET UNITYSDK_OFFSET(0x1B198330)
+#define UNITYENGINE_MATHF_MIN_OFFSET UNITYSDK_OFFSET(0x1B198200)
+#define UNITYENGINE_MATHF_MOVETOWARDSANGLE_OFFSET UNITYSDK_OFFSET(0x1B198D00)
+#define UNITYENGINE_MATHF_MOVETOWARDS_OFFSET UNITYSDK_OFFSET(0x1B198CB0)
+#define UNITYENGINE_MATHF_NEXTPOWEROFTWO_OFFSET UNITYSDK_OFFSET(0x1B198040)
+#define UNITYENGINE_MATHF_PERLINNOISE_OFFSET UNITYSDK_OFFSET(0x1B1980D0)
+#define UNITYENGINE_MATHF_PINGPONG_OFFSET UNITYSDK_OFFSET(0x1B1997E0)
+#define UNITYENGINE_MATHF_POW_OFFSET UNITYSDK_OFFSET(0x1B198810)
+#define UNITYENGINE_MATHF_RANDOMTOLONG_OFFSET UNITYSDK_OFFSET(0x1B199A90)
+#define UNITYENGINE_MATHF_REPEAT_OFFSET UNITYSDK_OFFSET(0x1B198C60)
+#define UNITYENGINE_MATHF_ROUNDTOINT_OFFSET UNITYSDK_OFFSET(0x1B198A50)
+#define UNITYENGINE_MATHF_ROUND_OFFSET UNITYSDK_OFFSET(0x1B198960)
+#define UNITYENGINE_MATHF_SIGN_OFFSET UNITYSDK_OFFSET(0x1B198B00)
+#define UNITYENGINE_MATHF_SIN_OFFSET UNITYSDK_OFFSET(0x1B1980E0)
+#define UNITYENGINE_MATHF_SMOOTHDAMPANGLE_1_OFFSET UNITYSDK_OFFSET(0x1B199640)
+#define UNITYENGINE_MATHF_SMOOTHDAMPANGLE_2_OFFSET UNITYSDK_OFFSET(0x1B199490)
+#define UNITYENGINE_MATHF_SMOOTHDAMPANGLE_OFFSET UNITYSDK_OFFSET(0x1B1992E0)
+#define UNITYENGINE_MATHF_SMOOTHDAMP_1_OFFSET UNITYSDK_OFFSET(0x1B1991B0)
+#define UNITYENGINE_MATHF_SMOOTHDAMP_2_OFFSET UNITYSDK_OFFSET(0x1B199090)
+#define UNITYENGINE_MATHF_SMOOTHDAMP_OFFSET UNITYSDK_OFFSET(0x1B198F60)
+#define UNITYENGINE_MATHF_SMOOTHSTEP_OFFSET UNITYSDK_OFFSET(0x1B198E70)
+#define UNITYENGINE_MATHF_SQRT_OFFSET UNITYSDK_OFFSET(0x1B1981C0)
+#define UNITYENGINE_MATHF_TAN_OFFSET UNITYSDK_OFFSET(0x1B198120)
+#define UNITYENGINE_MATHF__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B199B20)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Mathf_TypeDefinitionIndex = 4037;
+	inline static constexpr unsigned int Mathf_TypeDefinitionIndex = 4211;
 
 	struct alignas(1) Mathf
 	{
 		static ::System::Single* StaticGet_Epsilon()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Mathf_TypeDefinitionIndex)->GetStaticField(0x5B30);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Mathf_TypeDefinitionIndex)->GetStaticField(0x120);
 		}
 		// static const ::System::Single PI; // 0x0
 		// static const ::System::Single Infinity; // 0x0
@@ -99,371 +99,371 @@ namespace UnityEngine
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF__CCTOR_OFFSET))();
 		}
 
-		static ::System::Int32 ClosestPowerOfTwo(::System::Int32 value)
+		static ::System::Int32 ClosestPowerOfTwo(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_CLOSESTPOWEROFTWO_OFFSET))(value);
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_CLOSESTPOWEROFTWO_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsPowerOfTwo(::System::Int32 value)
+		static ::System::Boolean IsPowerOfTwo(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_ISPOWEROFTWO_OFFSET))(value);
+			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_ISPOWEROFTWO_OFFSET))(a1);
 		}
 
-		static ::System::Int32 NextPowerOfTwo(::System::Int32 value)
+		static ::System::Int32 NextPowerOfTwo(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_NEXTPOWEROFTWO_OFFSET))(value);
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_NEXTPOWEROFTWO_OFFSET))(a1);
 		}
 
-		static ::System::Single GammaToLinearSpace(::System::Single value)
+		static ::System::Single GammaToLinearSpace(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_GAMMATOLINEARSPACE_OFFSET))(value);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_GAMMATOLINEARSPACE_OFFSET))(a1);
 		}
 
-		static ::System::Single LinearToGammaSpace(::System::Single value)
+		static ::System::Single LinearToGammaSpace(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_LINEARTOGAMMASPACE_OFFSET))(value);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_LINEARTOGAMMASPACE_OFFSET))(a1);
 		}
 
 		/*
-		static ::UnityEngine::Color CorrelatedColorTemperatureToRGB(::System::Single kelvin)
+		static ::UnityEngine::Color CorrelatedColorTemperatureToRGB(::System::Single a1)
 		{
-			return ((::UnityEngine::Color(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_CORRELATEDCOLORTEMPERATURETORGB_OFFSET))(kelvin);
+			return ((::UnityEngine::Color(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_CORRELATEDCOLORTEMPERATURETORGB_OFFSET))(a1);
 		}
 		*/
 
-		static ::System::UInt16 FloatToHalf(::System::Single val)
+		static ::System::UInt16 FloatToHalf(::System::Single a1)
 		{
-			return ((::System::UInt16(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_FLOATTOHALF_OFFSET))(val);
+			return ((::System::UInt16(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_FLOATTOHALF_OFFSET))(a1);
 		}
 
-		static ::System::Single HalfToFloat(::System::UInt16 val)
+		static ::System::Single HalfToFloat(::System::UInt16 a1)
 		{
-			return ((::System::Single(*)(::System::UInt16))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_HALFTOFLOAT_OFFSET))(val);
+			return ((::System::Single(*)(::System::UInt16))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_HALFTOFLOAT_OFFSET))(a1);
 		}
 
-		static ::System::Single PerlinNoise(::System::Single x, ::System::Single y)
+		static ::System::Single PerlinNoise(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_PERLINNOISE_OFFSET))(x, y);
+			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_PERLINNOISE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single Sin(::System::Single f)
+		static ::System::Single Sin(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_SIN_OFFSET))(f);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_SIN_OFFSET))(a1);
 		}
 
-		static ::System::Single Cos(::System::Single f)
+		static ::System::Single Cos(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_COS_OFFSET))(f);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_COS_OFFSET))(a1);
 		}
 
-		static ::System::Single Tan(::System::Single f)
+		static ::System::Single Tan(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_TAN_OFFSET))(f);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_TAN_OFFSET))(a1);
 		}
 
-		static ::System::Single Asin(::System::Single f)
+		static ::System::Single Asin(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_ASIN_OFFSET))(f);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_ASIN_OFFSET))(a1);
 		}
 
-		static ::System::Single Acos(::System::Single f)
+		static ::System::Single Acos(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_ACOS_OFFSET))(f);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_ACOS_OFFSET))(a1);
 		}
 
-		static ::System::Single Atan(::System::Single f)
+		static ::System::Single Atan(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_ATAN_OFFSET))(f);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_ATAN_OFFSET))(a1);
 		}
 
-		static ::System::Single Atan2(::System::Single y, ::System::Single x)
+		static ::System::Single Atan2(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_ATAN2_OFFSET))(y, x);
+			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_ATAN2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single Sqrt(::System::Single f)
+		static ::System::Single Sqrt(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_SQRT_OFFSET))(f);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_SQRT_OFFSET))(a1);
 		}
 
-		static ::System::Single Abs(::System::Single f)
+		static ::System::Single Abs(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_ABS_OFFSET))(f);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_ABS_OFFSET))(a1);
 		}
 
-		static ::System::Int32 Abs_1(::System::Int32 value)
+		static ::System::Int32 Abs_1(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_ABS_1_OFFSET))(value);
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_ABS_1_OFFSET))(a1);
 		}
 
-		static ::System::Single Min(::System::Single a, ::System::Single b)
+		static ::System::Single Min(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MIN_OFFSET))(a, b);
+			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MIN_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single Min_1(::System::Single a, ::System::Single b, ::System::Single c)
+		static ::System::Single Min_1(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MIN_1_OFFSET))(a, b, c);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MIN_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Single Min_2(::System::Single a, ::System::Single b, ::System::Single c, ::System::Single d)
+		static ::System::Single Min_2(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MIN_2_OFFSET))(a, b, c, d);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MIN_2_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Single Min_3(::Il2CppArray<::System::Single>* values)
+		static ::System::Single Min_3(::Il2CppArray<::System::Single>* a1)
 		{
-			return ((::System::Single(*)(::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MIN_3_OFFSET))(values);
+			return ((::System::Single(*)(::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MIN_3_OFFSET))(a1);
 		}
 
-		static ::System::Int32 Min_4(::System::Int32 a, ::System::Int32 b)
+		static ::System::Int32 Min_4(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MIN_4_OFFSET))(a, b);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MIN_4_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 Min_5(::System::Int32 a, ::System::Int32 b, ::System::Int32 c)
+		static ::System::Int32 Min_5(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MIN_5_OFFSET))(a, b, c);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MIN_5_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 Min_6(::System::Int32 a, ::System::Int32 b, ::System::Int32 c, ::System::Int32 d)
+		static ::System::Int32 Min_6(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MIN_6_OFFSET))(a, b, c, d);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MIN_6_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 Min_7(::Il2CppArray<::System::Int32>* values)
+		static ::System::Int32 Min_7(::Il2CppArray<::System::Int32>* a1)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MIN_7_OFFSET))(values);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MIN_7_OFFSET))(a1);
 		}
 
-		static ::System::Single Max(::System::Single a, ::System::Single b)
+		static ::System::Single Max(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MAX_OFFSET))(a, b);
+			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MAX_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single Max_1(::System::Single a, ::System::Single b, ::System::Single c)
+		static ::System::Single Max_1(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MAX_1_OFFSET))(a, b, c);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MAX_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Single Max_2(::System::Single a, ::System::Single b, ::System::Single c, ::System::Single d)
+		static ::System::Single Max_2(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MAX_2_OFFSET))(a, b, c, d);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MAX_2_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Single Max_3(::Il2CppArray<::System::Single>* values)
+		static ::System::Single Max_3(::Il2CppArray<::System::Single>* a1)
 		{
-			return ((::System::Single(*)(::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MAX_3_OFFSET))(values);
+			return ((::System::Single(*)(::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MAX_3_OFFSET))(a1);
 		}
 
-		static ::System::Int32 Max_4(::System::Int32 a, ::System::Int32 b)
+		static ::System::Int32 Max_4(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MAX_4_OFFSET))(a, b);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MAX_4_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 Max_5(::System::Int32 a, ::System::Int32 b, ::System::Int32 c)
+		static ::System::Int32 Max_5(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MAX_5_OFFSET))(a, b, c);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MAX_5_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 Max_6(::System::Int32 a, ::System::Int32 b, ::System::Int32 c, ::System::Int32 d)
+		static ::System::Int32 Max_6(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MAX_6_OFFSET))(a, b, c, d);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MAX_6_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 Max_7(::Il2CppArray<::System::Int32>* values)
+		static ::System::Int32 Max_7(::Il2CppArray<::System::Int32>* a1)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MAX_7_OFFSET))(values);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MAX_7_OFFSET))(a1);
 		}
 
-		static ::System::Single Pow(::System::Single f, ::System::Single p)
+		static ::System::Single Pow(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_POW_OFFSET))(f, p);
+			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_POW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single Exp(::System::Single power)
+		static ::System::Single Exp(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_EXP_OFFSET))(power);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_EXP_OFFSET))(a1);
 		}
 
-		static ::System::Single Log(::System::Single f, ::System::Single p)
+		static ::System::Single Log(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_LOG_OFFSET))(f, p);
+			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_LOG_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single Log_1(::System::Single f)
+		static ::System::Single Log_1(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_LOG_1_OFFSET))(f);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_LOG_1_OFFSET))(a1);
 		}
 
-		static ::System::Single Log10(::System::Single f)
+		static ::System::Single Log10(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_LOG10_OFFSET))(f);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_LOG10_OFFSET))(a1);
 		}
 
-		static ::System::Single Ceil(::System::Single f)
+		static ::System::Single Ceil(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_CEIL_OFFSET))(f);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_CEIL_OFFSET))(a1);
 		}
 
-		static ::System::Single Floor(::System::Single f)
+		static ::System::Single Floor(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_FLOOR_OFFSET))(f);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_FLOOR_OFFSET))(a1);
 		}
 
-		static ::System::Single Round(::System::Single f)
+		static ::System::Single Round(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_ROUND_OFFSET))(f);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_ROUND_OFFSET))(a1);
 		}
 
-		static ::System::Int32 CeilToInt(::System::Single f)
+		static ::System::Int32 CeilToInt(::System::Single a1)
 		{
-			return ((::System::Int32(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_CEILTOINT_OFFSET))(f);
+			return ((::System::Int32(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_CEILTOINT_OFFSET))(a1);
 		}
 
-		static ::System::Int32 FloorToInt(::System::Single f)
+		static ::System::Int32 FloorToInt(::System::Single a1)
 		{
-			return ((::System::Int32(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_FLOORTOINT_OFFSET))(f);
+			return ((::System::Int32(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_FLOORTOINT_OFFSET))(a1);
 		}
 
-		static ::System::Int32 RoundToInt(::System::Single f)
+		static ::System::Int32 RoundToInt(::System::Single a1)
 		{
-			return ((::System::Int32(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_ROUNDTOINT_OFFSET))(f);
+			return ((::System::Int32(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_ROUNDTOINT_OFFSET))(a1);
 		}
 
-		static ::System::Single Sign(::System::Single f)
+		static ::System::Single Sign(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_SIGN_OFFSET))(f);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_SIGN_OFFSET))(a1);
 		}
 
-		static ::System::Single Clamp(::System::Single value, ::System::Single min, ::System::Single max)
+		static ::System::Single Clamp(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_CLAMP_OFFSET))(value, min, max);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_CLAMP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 Clamp_1(::System::Int32 value, ::System::Int32 min, ::System::Int32 max)
+		static ::System::Int32 Clamp_1(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_CLAMP_1_OFFSET))(value, min, max);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_CLAMP_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Single Clamp01(::System::Single value)
+		static ::System::Single Clamp01(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_CLAMP01_OFFSET))(value);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_CLAMP01_OFFSET))(a1);
 		}
 
-		static ::System::Single Lerp(::System::Single a, ::System::Single b, ::System::Single t)
+		static ::System::Single Lerp(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_LERP_OFFSET))(a, b, t);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_LERP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Single LerpUnclamped(::System::Single a, ::System::Single b, ::System::Single t)
+		static ::System::Single LerpUnclamped(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_LERPUNCLAMPED_OFFSET))(a, b, t);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_LERPUNCLAMPED_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Single LerpAngle(::System::Single a, ::System::Single b, ::System::Single t)
+		static ::System::Single LerpAngle(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_LERPANGLE_OFFSET))(a, b, t);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_LERPANGLE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Single MoveTowards(::System::Single current, ::System::Single target, ::System::Single maxDelta)
+		static ::System::Single MoveTowards(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MOVETOWARDS_OFFSET))(current, target, maxDelta);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MOVETOWARDS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Single MoveTowardsAngle(::System::Single current, ::System::Single target, ::System::Single maxDelta)
+		static ::System::Single MoveTowardsAngle(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MOVETOWARDSANGLE_OFFSET))(current, target, maxDelta);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_MOVETOWARDSANGLE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Single SmoothStep(::System::Single from, ::System::Single to, ::System::Single t)
+		static ::System::Single SmoothStep(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_SMOOTHSTEP_OFFSET))(from, to, t);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_SMOOTHSTEP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Single Gamma(::System::Single value, ::System::Single absmax, ::System::Single gamma)
+		static ::System::Single Gamma(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_GAMMA_OFFSET))(value, absmax, gamma);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_GAMMA_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean Approximately(::System::Single a, ::System::Single b)
+		static ::System::Boolean Approximately(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Boolean(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_APPROXIMATELY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_APPROXIMATELY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single SmoothDamp(::System::Single current, ::System::Single target, ::System::Single& currentVelocity, ::System::Single smoothTime, ::System::Single maxSpeed)
+		static ::System::Single SmoothDamp(::System::Single a1, ::System::Single a2, ::System::Single& a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single&, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_SMOOTHDAMP_OFFSET))(current, target, currentVelocity, smoothTime, maxSpeed);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single&, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_SMOOTHDAMP_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Single SmoothDamp_1(::System::Single current, ::System::Single target, ::System::Single& currentVelocity, ::System::Single smoothTime)
+		static ::System::Single SmoothDamp_1(::System::Single a1, ::System::Single a2, ::System::Single& a3, ::System::Single a4)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single&, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_SMOOTHDAMP_1_OFFSET))(current, target, currentVelocity, smoothTime);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single&, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_SMOOTHDAMP_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Single SmoothDamp_2(::System::Single current, ::System::Single target, ::System::Single& currentVelocity, ::System::Single smoothTime, ::System::Single maxSpeed, ::System::Single deltaTime)
+		static ::System::Single SmoothDamp_2(::System::Single a1, ::System::Single a2, ::System::Single& a3, ::System::Single a4, ::System::Single a5, ::System::Single a6)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single&, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_SMOOTHDAMP_2_OFFSET))(current, target, currentVelocity, smoothTime, maxSpeed, deltaTime);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single&, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_SMOOTHDAMP_2_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Single SmoothDampAngle(::System::Single current, ::System::Single target, ::System::Single& currentVelocity, ::System::Single smoothTime, ::System::Single maxSpeed)
+		static ::System::Single SmoothDampAngle(::System::Single a1, ::System::Single a2, ::System::Single& a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single&, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_SMOOTHDAMPANGLE_OFFSET))(current, target, currentVelocity, smoothTime, maxSpeed);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single&, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_SMOOTHDAMPANGLE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Single SmoothDampAngle_1(::System::Single current, ::System::Single target, ::System::Single& currentVelocity, ::System::Single smoothTime)
+		static ::System::Single SmoothDampAngle_1(::System::Single a1, ::System::Single a2, ::System::Single& a3, ::System::Single a4)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single&, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_SMOOTHDAMPANGLE_1_OFFSET))(current, target, currentVelocity, smoothTime);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single&, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_SMOOTHDAMPANGLE_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Single SmoothDampAngle_2(::System::Single current, ::System::Single target, ::System::Single& currentVelocity, ::System::Single smoothTime, ::System::Single maxSpeed, ::System::Single deltaTime)
+		static ::System::Single SmoothDampAngle_2(::System::Single a1, ::System::Single a2, ::System::Single& a3, ::System::Single a4, ::System::Single a5, ::System::Single a6)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single&, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_SMOOTHDAMPANGLE_2_OFFSET))(current, target, currentVelocity, smoothTime, maxSpeed, deltaTime);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single&, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_SMOOTHDAMPANGLE_2_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Single Repeat(::System::Single t, ::System::Single length)
+		static ::System::Single Repeat(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_REPEAT_OFFSET))(t, length);
+			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_REPEAT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single PingPong(::System::Single t, ::System::Single length)
+		static ::System::Single PingPong(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_PINGPONG_OFFSET))(t, length);
+			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_PINGPONG_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single InverseLerp(::System::Single a, ::System::Single b, ::System::Single value)
+		static ::System::Single InverseLerp(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_INVERSELERP_OFFSET))(a, b, value);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_INVERSELERP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Single DeltaAngle(::System::Single current, ::System::Single target)
+		static ::System::Single DeltaAngle(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_DELTAANGLE_OFFSET))(current, target);
+			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_DELTAANGLE_OFFSET))(a1, a2);
 		}
 
 		/*
-		static ::System::Boolean LineIntersection(::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 p2, ::UnityEngine::Vector2 p3, ::UnityEngine::Vector2 p4, ::UnityEngine::Vector2& result)
+		static ::System::Boolean LineIntersection(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::UnityEngine::Vector2 a4, ::UnityEngine::Vector2& a5)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_LINEINTERSECTION_OFFSET))(p1, p2, p3, p4, result);
+			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_LINEINTERSECTION_OFFSET))(a1, a2, a3, a4, a5);
 		}
 		*/
 
 		/*
-		static ::System::Boolean LineSegmentIntersection(::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 p2, ::UnityEngine::Vector2 p3, ::UnityEngine::Vector2 p4, ::UnityEngine::Vector2& result)
+		static ::System::Boolean LineSegmentIntersection(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::UnityEngine::Vector2 a4, ::UnityEngine::Vector2& a5)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_LINESEGMENTINTERSECTION_OFFSET))(p1, p2, p3, p4, result);
+			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_LINESEGMENTINTERSECTION_OFFSET))(a1, a2, a3, a4, a5);
 		}
 		*/
 
-		static ::System::Int64 RandomToLong(::System::Random* r)
+		static ::System::Int64 RandomToLong(::System::Random* a1)
 		{
-			return ((::System::Int64(*)(::System::Random*))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_RANDOMTOLONG_OFFSET))(r);
+			return ((::System::Int64(*)(::System::Random*))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_RANDOMTOLONG_OFFSET))(a1);
 		}
 
 		/*
-		static ::System::Void CorrelatedColorTemperatureToRGB_Injected(::System::Single kelvin, ::UnityEngine::Color& ret)
+		static ::System::Void CorrelatedColorTemperatureToRGB_Injected(::System::Single a1, ::UnityEngine::Color& a2)
 		{
-			return ((::System::Void(*)(::System::Single, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_CORRELATEDCOLORTEMPERATURETORGB_INJECTED_OFFSET))(kelvin, ret);
+			return ((::System::Void(*)(::System::Single, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + UNITYENGINE_MATHF_CORRELATEDCOLORTEMPERATURETORGB_INJECTED_OFFSET))(a1, a2);
 		}
 		*/
 	};

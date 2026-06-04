@@ -5,24 +5,24 @@
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitResultRelicInfo; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_RELICPRESETCUSTOMSAVEVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1319DF90)
-#define RPG_CLIENT_RELICPRESETCUSTOMSAVEVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1319DFD0)
-#define RPG_CLIENT_RELICPRESETCUSTOMSAVEVIEWMODEL___C___INITWITHSMARTSUITPLAN_B__6_0_OFFSET UNITYSDK_OFFSET(0x1319DFE0)
+#define RPG_CLIENT_RELICPRESETCUSTOMSAVEVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14CF18C0)
+#define RPG_CLIENT_RELICPRESETCUSTOMSAVEVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14CF1900)
+#define RPG_CLIENT_RELICPRESETCUSTOMSAVEVIEWMODEL___C___INITWITHSMARTSUITPLAN_B__6_0_OFFSET UNITYSDK_OFFSET(0x14CF1910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicPresetCustomSaveViewModel___c_TypeDefinitionIndex = 61568;
+	inline static constexpr unsigned int RelicPresetCustomSaveViewModel___c_TypeDefinitionIndex = 62501;
 
 	class RelicPresetCustomSaveViewModel___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RelicPresetCustomSaveViewModel___c** StaticGet___9()
-		{
-			return (::RPG::Client::RelicPresetCustomSaveViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(RelicPresetCustomSaveViewModel___c_TypeDefinitionIndex)->GetStaticField(0x1B940);
-		}
 		static ::System::Func_2<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*, ::System::UInt32>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RelicPresetCustomSaveViewModel___c_TypeDefinitionIndex)->GetStaticField(0x1B948);
+			return (::System::Func_2<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RelicPresetCustomSaveViewModel___c_TypeDefinitionIndex)->GetStaticField(0x29010);
+		}
+		static ::RPG::Client::RelicPresetCustomSaveViewModel___c** StaticGet___9()
+		{
+			return (::RPG::Client::RelicPresetCustomSaveViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(RelicPresetCustomSaveViewModel___c_TypeDefinitionIndex)->GetStaticField(0x29018);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETCUSTOMSAVEVIEWMODEL___C__CTOR_OFFSET))(this);
 		}
 
-		::System::UInt32 __InitWithSmartSuitPlan_b__6_0(::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo* info)
+		::System::UInt32 __InitWithSmartSuitPlan_b__6_0(::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETCUSTOMSAVEVIEWMODEL___C___INITWITHSMARTSUITPLAN_B__6_0_OFFSET))(this, info);
+			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETCUSTOMSAVEVIEWMODEL___C___INITWITHSMARTSUITPLAN_B__6_0_OFFSET))(this, a1);
 		}
 	};
 }

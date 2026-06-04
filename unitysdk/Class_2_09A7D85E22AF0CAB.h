@@ -5,22 +5,22 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitForWithDuration; }
 
-#define CLASS_2_09A7D85E22AF0CAB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE0BAE80)
-#define CLASS_2_09A7D85E22AF0CAB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE0BAEF0)
-#define CLASS_2_09A7D85E22AF0CAB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE0BAFD0)
-#define CLASS_2_09A7D85E22AF0CAB_TICK_OFFSET UNITYSDK_OFFSET(0xE0BB020)
-#define CLASS_2_09A7D85E22AF0CAB__CTOR_OFFSET UNITYSDK_OFFSET(0xE0BADC0)
+#define CLASS_2_09A7D85E22AF0CAB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16C840D0)
+#define CLASS_2_09A7D85E22AF0CAB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16C84140)
+#define CLASS_2_09A7D85E22AF0CAB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16C84240)
+#define CLASS_2_09A7D85E22AF0CAB_TICK_OFFSET UNITYSDK_OFFSET(0x16C84290)
+#define CLASS_2_09A7D85E22AF0CAB__CTOR_OFFSET UNITYSDK_OFFSET(0x16C84010)
 
-inline static constexpr unsigned int Class_2_09A7D85E22AF0CAB_TypeDefinitionIndex = 54299;
+inline static constexpr unsigned int Class_2_09A7D85E22AF0CAB_TypeDefinitionIndex = 55026;
 
 class Class_2_09A7D85E22AF0CAB : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_2; // 0x18
-	::Class_1_5F51D4049EA87B7B* Field_2_1; // 0x20
-	::RPG::GameCore::WaitForWithDuration* Field_2_0; // 0x28
-	::System::Single Field_2_4; // 0x30
-	::System::Single Field_2_3; // 0x34
+	::Class_1_5F51D4049EA87B7B* Field_2_0; // 0x18
+	::RPG::GameCore::WaitForWithDuration* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_2; // 0x28
+	::System::Single Field_2_3; // 0x30
+	::System::Single Field_2_4; // 0x34
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitForWithDuration* a2)
 	{

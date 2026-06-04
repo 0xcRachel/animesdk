@@ -6,11 +6,11 @@ namespace RPG::GameCore { class GlobalMainIntensityEffectAutoRevert; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections { class IEnumerator; }
 
-#define CLASS_3_AFAE76BE16B0B4FF_METHOD_3_627C7524E98F4AC5_OFFSET UNITYSDK_OFFSET(0xEDB44E0)
-#define CLASS_3_AFAE76BE16B0B4FF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEDB3FD0)
-#define CLASS_3_AFAE76BE16B0B4FF__CTOR_OFFSET UNITYSDK_OFFSET(0xEDB3FA0)
+#define CLASS_3_AFAE76BE16B0B4FF_METHOD_3_627C7524E98F4AC5_OFFSET UNITYSDK_OFFSET(0x15C15390)
+#define CLASS_3_AFAE76BE16B0B4FF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C14E60)
+#define CLASS_3_AFAE76BE16B0B4FF__CTOR_OFFSET UNITYSDK_OFFSET(0x15C14E30)
 
-inline static constexpr unsigned int Class_3_AFAE76BE16B0B4FF_TypeDefinitionIndex = 51949;
+inline static constexpr unsigned int Class_3_AFAE76BE16B0B4FF_TypeDefinitionIndex = 52623;
 
 class Class_3_AFAE76BE16B0B4FF : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::GlobalMainIntensityEffectAutoRevert*>
 {

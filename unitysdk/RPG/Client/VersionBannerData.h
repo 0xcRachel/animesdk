@@ -4,13 +4,13 @@
 
 namespace RPG::GameCore { class ActivityVersionBannerRow; }
 
-#define RPG_CLIENT_VERSIONBANNERDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x18E30470)
-#define RPG_CLIENT_VERSIONBANNERDATA_GET_MISSIONTYPE_OFFSET UNITYSDK_OFFSET(0x18E30530)
-#define RPG_CLIENT_VERSIONBANNERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18E30520)
+#define RPG_CLIENT_VERSIONBANNERDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1770F6F0)
+#define RPG_CLIENT_VERSIONBANNERDATA_GET_MISSIONTYPE_OFFSET UNITYSDK_OFFSET(0x1770F7B0)
+#define RPG_CLIENT_VERSIONBANNERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1770F7A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VersionBannerData_TypeDefinitionIndex = 56875;
+	inline static constexpr unsigned int VersionBannerData_TypeDefinitionIndex = 57663;
 
 	class VersionBannerData : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONBANNERDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::VersionBannerData* Create(::System::UInt32 activityID)
+		static ::RPG::Client::VersionBannerData* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::VersionBannerData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONBANNERDATA_CREATE_OFFSET))(activityID);
+			return ((::RPG::Client::VersionBannerData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONBANNERDATA_CREATE_OFFSET))(a1);
 		}
 
 		::System::UInt32 get_MissionType()

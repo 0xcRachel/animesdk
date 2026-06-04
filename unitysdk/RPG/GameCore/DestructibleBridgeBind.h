@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DESTRUCTIBLEBRIDGEBIND_METHOD_2_366C085530B3EE77_OFFSET UNITYSDK_OFFSET(0x19585EF0)
-#define RPG_GAMECORE_DESTRUCTIBLEBRIDGEBIND__CTOR_OFFSET UNITYSDK_OFFSET(0x19585FE0)
+#define RPG_GAMECORE_DESTRUCTIBLEBRIDGEBIND_METHOD_2_23F371C6BDB54CAC_OFFSET UNITYSDK_OFFSET(0x19B38000)
+#define RPG_GAMECORE_DESTRUCTIBLEBRIDGEBIND__CTOR_OFFSET UNITYSDK_OFFSET(0x19B38120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DestructibleBridgeBind_TypeDefinitionIndex = 16671;
+	inline static constexpr unsigned int DestructibleBridgeBind_TypeDefinitionIndex = 16699;
 
 	class DestructibleBridgeBind : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTRUCTIBLEBRIDGEBIND__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_366C085530B3EE77(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DestructibleBridgeBind*& a2)
+		static ::System::Void Method_2_23F371C6BDB54CAC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DestructibleBridgeBind*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DestructibleBridgeBind*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTRUCTIBLEBRIDGEBIND_METHOD_2_366C085530B3EE77_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DestructibleBridgeBind*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTRUCTIBLEBRIDGEBIND_METHOD_2_23F371C6BDB54CAC_OFFSET))(a1, a2);
 		}
 	};
 }

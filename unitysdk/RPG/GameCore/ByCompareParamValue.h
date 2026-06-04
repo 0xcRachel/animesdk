@@ -5,14 +5,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPAREPARAMVALUE_METHOD_4_103A45A504D4ED46_OFFSET UNITYSDK_OFFSET(0x19ACC3C0)
-#define RPG_GAMECORE_BYCOMPAREPARAMVALUE_METHOD_4_25EADCE4363C9E04_OFFSET UNITYSDK_OFFSET(0x19ACC2E0)
-#define RPG_GAMECORE_BYCOMPAREPARAMVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x19ACC360)
+#define RPG_GAMECORE_BYCOMPAREPARAMVALUE_METHOD_4_103A45A504D4ED46_OFFSET UNITYSDK_OFFSET(0x18FE4520)
+#define RPG_GAMECORE_BYCOMPAREPARAMVALUE_METHOD_4_25EADCE4363C9E04_OFFSET UNITYSDK_OFFSET(0x18FE4440)
+#define RPG_GAMECORE_BYCOMPAREPARAMVALUE_METHOD_4_2AF27C97C34FC0F7_OFFSET UNITYSDK_OFFSET(0x18FE4770)
+#define RPG_GAMECORE_BYCOMPAREPARAMVALUE_METHOD_4_33189BC9A6A9DA9E_OFFSET UNITYSDK_OFFSET(0x18FE47F0)
+#define RPG_GAMECORE_BYCOMPAREPARAMVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x18FE44C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareParamValue_TypeDefinitionIndex = 22503;
+	inline static constexpr unsigned int ByCompareParamValue_TypeDefinitionIndex = 22252;
 
 	class ByCompareParamValue : public ::RPG::GameCore::PredicateConfig
 	{
@@ -34,6 +37,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_103A45A504D4ED46(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareParamValue* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareParamValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREPARAMVALUE_METHOD_4_103A45A504D4ED46_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_2AF27C97C34FC0F7(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareParamValue*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareParamValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREPARAMVALUE_METHOD_4_2AF27C97C34FC0F7_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_33189BC9A6A9DA9E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareParamValue* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareParamValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREPARAMVALUE_METHOD_4_33189BC9A6A9DA9E_OFFSET))(a1, a2);
 		}
 	};
 }

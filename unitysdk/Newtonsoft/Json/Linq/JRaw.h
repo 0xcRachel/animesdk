@@ -6,31 +6,31 @@ namespace Newtonsoft::Json { class JsonReader; }
 namespace Newtonsoft::Json::Linq { class JToken; }
 namespace System { class Object; }
 
-#define NEWTONSOFT_JSON_LINQ_JRAW_CLONETOKEN_OFFSET UNITYSDK_OFFSET(0x173A92E0)
-#define NEWTONSOFT_JSON_LINQ_JRAW_CREATE_OFFSET UNITYSDK_OFFSET(0x173A8FB0)
-#define NEWTONSOFT_JSON_LINQ_JRAW__CTOR_1_OFFSET UNITYSDK_OFFSET(0x173A8F30)
-#define NEWTONSOFT_JSON_LINQ_JRAW__CTOR_OFFSET UNITYSDK_OFFSET(0x173A8E90)
+#define NEWTONSOFT_JSON_LINQ_JRAW_CLONETOKEN_OFFSET UNITYSDK_OFFSET(0x158B0540)
+#define NEWTONSOFT_JSON_LINQ_JRAW_CREATE_OFFSET UNITYSDK_OFFSET(0x158B01D0)
+#define NEWTONSOFT_JSON_LINQ_JRAW__CTOR_1_OFFSET UNITYSDK_OFFSET(0x158B0150)
+#define NEWTONSOFT_JSON_LINQ_JRAW__CTOR_OFFSET UNITYSDK_OFFSET(0x158B00B0)
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int JRaw_TypeDefinitionIndex = 8506;
+	inline static constexpr unsigned int JRaw_TypeDefinitionIndex = 9409;
 
 	class JRaw : public ::Newtonsoft::Json::Linq::JValue
 	{
 	public:
-		::System::Void _ctor(::Newtonsoft::Json::Linq::JRaw* other)
+		::System::Void _ctor(::Newtonsoft::Json::Linq::JRaw* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Linq::JRaw*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JRAW__CTOR_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Linq::JRaw*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JRAW__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::Object* rawJson)
+		::System::Void _ctor_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JRAW__CTOR_1_OFFSET))(this, rawJson);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JRAW__CTOR_1_OFFSET))(this, a1);
 		}
 
-		static ::Newtonsoft::Json::Linq::JRaw* Create(::Newtonsoft::Json::JsonReader* reader)
+		static ::Newtonsoft::Json::Linq::JRaw* Create(::Newtonsoft::Json::JsonReader* a1)
 		{
-			return ((::Newtonsoft::Json::Linq::JRaw*(*)(::Newtonsoft::Json::JsonReader*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JRAW_CREATE_OFFSET))(reader);
+			return ((::Newtonsoft::Json::Linq::JRaw*(*)(::Newtonsoft::Json::JsonReader*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JRAW_CREATE_OFFSET))(a1);
 		}
 
 		::Newtonsoft::Json::Linq::JToken* CloneToken()

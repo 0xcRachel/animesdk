@@ -6,24 +6,24 @@ namespace RPG::Client { class MonsterData; }
 namespace RPG::GameCore { class ActivityStarFightStageConfigRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_STARFIGHTLEVELDATA_GETMONSTERDATA_OFFSET UNITYSDK_OFFSET(0x16201E80)
-#define RPG_CLIENT_STARFIGHTLEVELDATA_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0x162021A0)
-#define RPG_CLIENT_STARFIGHTLEVELDATA_GET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0x162020C0)
-#define RPG_CLIENT_STARFIGHTLEVELDATA_GET_QUESTLIST_OFFSET UNITYSDK_OFFSET(0x162020A0)
-#define RPG_CLIENT_STARFIGHTLEVELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x162012E0)
+#define RPG_CLIENT_STARFIGHTLEVELDATA_GETMONSTERDATA_OFFSET UNITYSDK_OFFSET(0x17BDF640)
+#define RPG_CLIENT_STARFIGHTLEVELDATA_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0x17BDF990)
+#define RPG_CLIENT_STARFIGHTLEVELDATA_GET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0x17BDF8B0)
+#define RPG_CLIENT_STARFIGHTLEVELDATA_GET_QUESTLIST_OFFSET UNITYSDK_OFFSET(0x17BDF890)
+#define RPG_CLIENT_STARFIGHTLEVELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17BDEC20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StarFightLevelData_TypeDefinitionIndex = 62670;
+	inline static constexpr unsigned int StarFightLevelData_TypeDefinitionIndex = 63603;
 
 	class StarFightLevelData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::ActivityStarFightStageConfigRow* _LevelRow; // 0x10
 
-		::System::Void _ctor(::System::UInt32 groupID, ::System::UInt32 difficultyLevel)
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARFIGHTLEVELDATA__CTOR_OFFSET))(this, groupID, difficultyLevel);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARFIGHTLEVELDATA__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::MonsterData*>* GetMonsterData()

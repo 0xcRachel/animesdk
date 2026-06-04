@@ -9,20 +9,20 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SYSTEM_LOCALDATASTOREMGR_ALLOCATEDATASLOT_OFFSET UNITYSDK_OFFSET(0x19509930)
-#define SYSTEM_LOCALDATASTOREMGR_ALLOCATENAMEDDATASLOT_OFFSET UNITYSDK_OFFSET(0x19509BB0)
-#define SYSTEM_LOCALDATASTOREMGR_CREATELOCALDATASTORE_OFFSET UNITYSDK_OFFSET(0x195097D0)
-#define SYSTEM_LOCALDATASTOREMGR_DELETELOCALDATASTORE_OFFSET UNITYSDK_OFFSET(0x19508FB0)
-#define SYSTEM_LOCALDATASTOREMGR_FREEDATASLOT_OFFSET UNITYSDK_OFFSET(0x19509F10)
-#define SYSTEM_LOCALDATASTOREMGR_FREENAMEDDATASLOT_OFFSET UNITYSDK_OFFSET(0x19509E20)
-#define SYSTEM_LOCALDATASTOREMGR_GETNAMEDDATASLOT_OFFSET UNITYSDK_OFFSET(0x19509D00)
-#define SYSTEM_LOCALDATASTOREMGR_GETSLOTTABLELENGTH_OFFSET UNITYSDK_OFFSET(0x195096D0)
-#define SYSTEM_LOCALDATASTOREMGR_VALIDATESLOT_OFFSET UNITYSDK_OFFSET(0x195091F0)
-#define SYSTEM_LOCALDATASTOREMGR__CTOR_OFFSET UNITYSDK_OFFSET(0x1950A120)
+#define SYSTEM_LOCALDATASTOREMGR_ALLOCATEDATASLOT_OFFSET UNITYSDK_OFFSET(0x1A0806B0)
+#define SYSTEM_LOCALDATASTOREMGR_ALLOCATENAMEDDATASLOT_OFFSET UNITYSDK_OFFSET(0x1A0808B0)
+#define SYSTEM_LOCALDATASTOREMGR_CREATELOCALDATASTORE_OFFSET UNITYSDK_OFFSET(0x1A0804D0)
+#define SYSTEM_LOCALDATASTOREMGR_DELETELOCALDATASTORE_OFFSET UNITYSDK_OFFSET(0x1A07FD60)
+#define SYSTEM_LOCALDATASTOREMGR_FREEDATASLOT_OFFSET UNITYSDK_OFFSET(0x1A080C10)
+#define SYSTEM_LOCALDATASTOREMGR_FREENAMEDDATASLOT_OFFSET UNITYSDK_OFFSET(0x1A080B20)
+#define SYSTEM_LOCALDATASTOREMGR_GETNAMEDDATASLOT_OFFSET UNITYSDK_OFFSET(0x1A080A00)
+#define SYSTEM_LOCALDATASTOREMGR_GETSLOTTABLELENGTH_OFFSET UNITYSDK_OFFSET(0x1A0803D0)
+#define SYSTEM_LOCALDATASTOREMGR_VALIDATESLOT_OFFSET UNITYSDK_OFFSET(0x1A07FF90)
+#define SYSTEM_LOCALDATASTOREMGR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A080DB0)
 
 namespace System
 {
-	inline static constexpr unsigned int LocalDataStoreMgr_TypeDefinitionIndex = 168;
+	inline static constexpr unsigned int LocalDataStoreMgr_TypeDefinitionIndex = 167;
 
 	class LocalDataStoreMgr : public ::System::Object
 	{
@@ -43,9 +43,9 @@ namespace System
 			return ((::System::LocalDataStoreHolder*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREMGR_CREATELOCALDATASTORE_OFFSET))(this);
 		}
 
-		::System::Void DeleteLocalDataStore(::System::LocalDataStore* store)
+		::System::Void DeleteLocalDataStore(::System::LocalDataStore* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::LocalDataStore*))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREMGR_DELETELOCALDATASTORE_OFFSET))(this, store);
+			return ((::System::Void(*)(::PVOID, ::System::LocalDataStore*))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREMGR_DELETELOCALDATASTORE_OFFSET))(this, a1);
 		}
 
 		::System::LocalDataStoreSlot* AllocateDataSlot()
@@ -53,29 +53,29 @@ namespace System
 			return ((::System::LocalDataStoreSlot*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREMGR_ALLOCATEDATASLOT_OFFSET))(this);
 		}
 
-		::System::LocalDataStoreSlot* AllocateNamedDataSlot(::System::String* name)
+		::System::LocalDataStoreSlot* AllocateNamedDataSlot(::System::String* a1)
 		{
-			return ((::System::LocalDataStoreSlot*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREMGR_ALLOCATENAMEDDATASLOT_OFFSET))(this, name);
+			return ((::System::LocalDataStoreSlot*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREMGR_ALLOCATENAMEDDATASLOT_OFFSET))(this, a1);
 		}
 
-		::System::LocalDataStoreSlot* GetNamedDataSlot(::System::String* name)
+		::System::LocalDataStoreSlot* GetNamedDataSlot(::System::String* a1)
 		{
-			return ((::System::LocalDataStoreSlot*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREMGR_GETNAMEDDATASLOT_OFFSET))(this, name);
+			return ((::System::LocalDataStoreSlot*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREMGR_GETNAMEDDATASLOT_OFFSET))(this, a1);
 		}
 
-		::System::Void FreeNamedDataSlot(::System::String* name)
+		::System::Void FreeNamedDataSlot(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREMGR_FREENAMEDDATASLOT_OFFSET))(this, name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREMGR_FREENAMEDDATASLOT_OFFSET))(this, a1);
 		}
 
-		::System::Void FreeDataSlot(::System::Int32 slot, ::System::Int64 cookie)
+		::System::Void FreeDataSlot(::System::Int32 a1, ::System::Int64 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREMGR_FREEDATASLOT_OFFSET))(this, slot, cookie);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREMGR_FREEDATASLOT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ValidateSlot(::System::LocalDataStoreSlot* slot)
+		::System::Void ValidateSlot(::System::LocalDataStoreSlot* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::LocalDataStoreSlot*))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREMGR_VALIDATESLOT_OFFSET))(this, slot);
+			return ((::System::Void(*)(::PVOID, ::System::LocalDataStoreSlot*))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREMGR_VALIDATESLOT_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetSlotTableLength()

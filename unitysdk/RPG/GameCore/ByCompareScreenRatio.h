@@ -4,14 +4,17 @@
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPARESCREENRATIO_METHOD_4_9BEF9B85DD88872B_OFFSET UNITYSDK_OFFSET(0x19AD0E70)
-#define RPG_GAMECORE_BYCOMPARESCREENRATIO_METHOD_4_C71C2B3D6551204F_OFFSET UNITYSDK_OFFSET(0x19AD0D90)
-#define RPG_GAMECORE_BYCOMPARESCREENRATIO__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD0E10)
+#define RPG_GAMECORE_BYCOMPARESCREENRATIO_METHOD_4_410E868806A47842_OFFSET UNITYSDK_OFFSET(0x18FEE220)
+#define RPG_GAMECORE_BYCOMPARESCREENRATIO_METHOD_4_7422550D9B236837_OFFSET UNITYSDK_OFFSET(0x18FEE2A0)
+#define RPG_GAMECORE_BYCOMPARESCREENRATIO_METHOD_4_9BEF9B85DD88872B_OFFSET UNITYSDK_OFFSET(0x18FEE050)
+#define RPG_GAMECORE_BYCOMPARESCREENRATIO_METHOD_4_C71C2B3D6551204F_OFFSET UNITYSDK_OFFSET(0x18FEDF70)
+#define RPG_GAMECORE_BYCOMPARESCREENRATIO__CTOR_OFFSET UNITYSDK_OFFSET(0x18FEDFF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareScreenRatio_TypeDefinitionIndex = 21139;
+	inline static constexpr unsigned int ByCompareScreenRatio_TypeDefinitionIndex = 21039;
 
 	class ByCompareScreenRatio : public ::RPG::GameCore::PredicateConfig
 	{
@@ -32,6 +35,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_9BEF9B85DD88872B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareScreenRatio* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareScreenRatio*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESCREENRATIO_METHOD_4_9BEF9B85DD88872B_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_410E868806A47842(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareScreenRatio*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareScreenRatio*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESCREENRATIO_METHOD_4_410E868806A47842_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_7422550D9B236837(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareScreenRatio* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareScreenRatio*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESCREENRATIO_METHOD_4_7422550D9B236837_OFFSET))(a1, a2);
 		}
 	};
 }

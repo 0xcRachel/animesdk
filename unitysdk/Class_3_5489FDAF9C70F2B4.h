@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsMazeSkillAffectCurrentWave; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5489FDAF9C70F2B4_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF3E3900)
-#define CLASS_3_5489FDAF9C70F2B4__CTOR_OFFSET UNITYSDK_OFFSET(0xF3E38D0)
+#define CLASS_3_5489FDAF9C70F2B4_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1728DC40)
+#define CLASS_3_5489FDAF9C70F2B4__CTOR_OFFSET UNITYSDK_OFFSET(0x1728DC10)
 
-inline static constexpr unsigned int Class_3_5489FDAF9C70F2B4_TypeDefinitionIndex = 50447;
+inline static constexpr unsigned int Class_3_5489FDAF9C70F2B4_TypeDefinitionIndex = 51112;
 
 class Class_3_5489FDAF9C70F2B4 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsMazeSkillAffectCurrentWave*>
 {

@@ -6,25 +6,25 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x16507E90)
-#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x165093D0)
-#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x165093F0)
-#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x164ECE60)
-#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x16509390)
-#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x164E9480)
-#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x16508F70)
-#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x16509410)
+#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1741DFF0)
+#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1741F550)
+#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1741F570)
+#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1740B6C0)
+#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1741F530)
+#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x17408560)
+#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x1741F0F0)
+#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1741F590)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PSUserAgreementDialog_TypeDefinitionIndex = 7704;
+	inline static constexpr unsigned int PSUserAgreementDialog_TypeDefinitionIndex = 8607;
 
 	class PSUserAgreementDialog : public ::MiHoYo::SDK::PS::PSDialogBase
 	{
 	public:
 		static ::MiHoYo::SDK::PS::PSUserAgreementDialog** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::PS::PSUserAgreementDialog**)Il2CppClass::FromTypeDefinitionIndex(PSUserAgreementDialog_TypeDefinitionIndex)->GetStaticField(0x12E30);
+			return (::MiHoYo::SDK::PS::PSUserAgreementDialog**)Il2CppClass::FromTypeDefinitionIndex(PSUserAgreementDialog_TypeDefinitionIndex)->GetStaticField(0x182E0);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* TitlePath; // 0x0
@@ -46,9 +46,9 @@ namespace MiHoYo::SDK::PS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Show(::MiHoYo::SDK::PS::PSUserAgreementDialog_DisplayMode mode)
+		static ::System::Void Show(::MiHoYo::SDK::PS::PSUserAgreementDialog_DisplayMode a1)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::PS::PSUserAgreementDialog_DisplayMode))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_SHOW_OFFSET))(mode);
+			return ((::System::Void(*)(::MiHoYo::SDK::PS::PSUserAgreementDialog_DisplayMode))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_SHOW_OFFSET))(a1);
 		}
 
 		static ::System::Void Hide()

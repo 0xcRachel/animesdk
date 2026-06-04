@@ -5,50 +5,50 @@
 #include "unitysdk/RPG/CustomRP/CustomLightQualityFilter.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_96C82B73FFE758FB;
+class Class_1_E3144EBBA3CB68CA;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_708F535CBD8003F3_METHOD_1_099C229CF1BB9083_OFFSET UNITYSDK_OFFSET(0xE0AC8B0)
-#define CLASS_1_708F535CBD8003F3_METHOD_1_126AB3935214AA22_1_OFFSET UNITYSDK_OFFSET(0xE0AA7F0)
-#define CLASS_1_708F535CBD8003F3_METHOD_1_126AB3935214AA22_2_OFFSET UNITYSDK_OFFSET(0xE0AA800)
-#define CLASS_1_708F535CBD8003F3_METHOD_1_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0xE0AA7E0)
-#define CLASS_1_708F535CBD8003F3_METHOD_1_238B627BC9EB305E_1_OFFSET UNITYSDK_OFFSET(0xE0AC1D0)
-#define CLASS_1_708F535CBD8003F3_METHOD_1_238B627BC9EB305E_OFFSET UNITYSDK_OFFSET(0xE0AC510)
-#define CLASS_1_708F535CBD8003F3_METHOD_1_3559476C7C86165D_OFFSET UNITYSDK_OFFSET(0xE0AC850)
-#define CLASS_1_708F535CBD8003F3_METHOD_1_3BE5DBAE268F9022_OFFSET UNITYSDK_OFFSET(0xE0AB1B0)
-#define CLASS_1_708F535CBD8003F3_METHOD_1_3FA0EA4BE10CC349_OFFSET UNITYSDK_OFFSET(0xE0ABDD0)
-#define CLASS_1_708F535CBD8003F3_METHOD_1_490B5123E6F6015E_OFFSET UNITYSDK_OFFSET(0xE0AA810)
-#define CLASS_1_708F535CBD8003F3_METHOD_1_9F89A193911611E4_OFFSET UNITYSDK_OFFSET(0xE0AB260)
-#define CLASS_1_708F535CBD8003F3_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xE0AB0A0)
-#define CLASS_1_708F535CBD8003F3_METHOD_1_C07771C2DF7D3DC3_OFFSET UNITYSDK_OFFSET(0xE0AA8B0)
-#define CLASS_1_708F535CBD8003F3_METHOD_1_C081D0F1BA12AC56_OFFSET UNITYSDK_OFFSET(0xE0AAF40)
-#define CLASS_1_708F535CBD8003F3_METHOD_1_F730968E2645E14B_OFFSET UNITYSDK_OFFSET(0xE0AA840)
-#define CLASS_1_708F535CBD8003F3__CTOR_OFFSET UNITYSDK_OFFSET(0xE0AA820)
+#define CLASS_1_708F535CBD8003F3_METHOD_1_078DF7FA97C8BB47_OFFSET UNITYSDK_OFFSET(0x14522060)
+#define CLASS_1_708F535CBD8003F3_METHOD_1_099C229CF1BB9083_OFFSET UNITYSDK_OFFSET(0x14522AD0)
+#define CLASS_1_708F535CBD8003F3_METHOD_1_126AB3935214AA22_1_OFFSET UNITYSDK_OFFSET(0x14520A20)
+#define CLASS_1_708F535CBD8003F3_METHOD_1_126AB3935214AA22_2_OFFSET UNITYSDK_OFFSET(0x14520A30)
+#define CLASS_1_708F535CBD8003F3_METHOD_1_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0x14520A10)
+#define CLASS_1_708F535CBD8003F3_METHOD_1_3559476C7C86165D_OFFSET UNITYSDK_OFFSET(0x14522A70)
+#define CLASS_1_708F535CBD8003F3_METHOD_1_3BE5DBAE268F9022_OFFSET UNITYSDK_OFFSET(0x145213F0)
+#define CLASS_1_708F535CBD8003F3_METHOD_1_490B5123E6F6015E_OFFSET UNITYSDK_OFFSET(0x14520A40)
+#define CLASS_1_708F535CBD8003F3_METHOD_1_5B3FA9FDD7D2BA8C_1_OFFSET UNITYSDK_OFFSET(0x14522470)
+#define CLASS_1_708F535CBD8003F3_METHOD_1_5B3FA9FDD7D2BA8C_OFFSET UNITYSDK_OFFSET(0x14522770)
+#define CLASS_1_708F535CBD8003F3_METHOD_1_9F89A193911611E4_OFFSET UNITYSDK_OFFSET(0x145214A0)
+#define CLASS_1_708F535CBD8003F3_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x145212E0)
+#define CLASS_1_708F535CBD8003F3_METHOD_1_C07771C2DF7D3DC3_OFFSET UNITYSDK_OFFSET(0x14520AC0)
+#define CLASS_1_708F535CBD8003F3_METHOD_1_C081D0F1BA12AC56_OFFSET UNITYSDK_OFFSET(0x14521160)
+#define CLASS_1_708F535CBD8003F3_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x14520A70)
+#define CLASS_1_708F535CBD8003F3__CTOR_OFFSET UNITYSDK_OFFSET(0x14520A50)
 
-inline static constexpr unsigned int Class_1_708F535CBD8003F3_TypeDefinitionIndex = 45903;
+inline static constexpr unsigned int Class_1_708F535CBD8003F3_TypeDefinitionIndex = 46486;
 
 class Class_1_708F535CBD8003F3 : public ::System::Object
 {
 public:
-	static ::System::Boolean* StaticGet_Field_1_14()
+	static ::System::Boolean* StaticGet_Field_1_0()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_708F535CBD8003F3_TypeDefinitionIndex)->GetStaticField(0xE620);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_708F535CBD8003F3_TypeDefinitionIndex)->GetStaticField(0x4DC0);
 	}
-	::System::String* Field_1_10; // 0x10
-	::System::String* Field_1_12; // 0x18
-	::System::String* Field_1_11; // 0x20
-	::System::Collections::Generic::List_1<::System::Int32>* Field_1_8; // 0x28
-	::System::String* Field_1_0; // 0x30
-	::System::String* Field_1_9; // 0x38
-	::System::Collections::Generic::List_1<::System::Int32>* Field_1_7; // 0x40
-	::System::Int32 Field_1_4; // 0x48
-	::System::Single Field_1_1; // 0x4C
-	::System::Int32 Field_1_3; // 0x50
-	::RPG::CustomRP::CustomLightQualityFilter Field_1_6; // 0x54
-	::RPG::Client::OpenWorld::StreamingLightEnum Field_1_13; // 0x58
-	::RPG::CustomRP::CustomLightQualityFilter Field_1_5; // 0x5C
-	::EnviromentSystem::BlockEnvDataStmState Field_1_2; // 0x60
+	::System::Collections::Generic::List_1<::System::Int32>* Field_1_1; // 0x10
+	::System::String* Field_1_2; // 0x18
+	::System::String* Field_1_3; // 0x20
+	::System::Collections::Generic::List_1<::System::Int32>* Field_1_4; // 0x28
+	::System::String* Field_1_5; // 0x30
+	::System::String* Field_1_6; // 0x38
+	::System::String* Field_1_7; // 0x40
+	::System::Int32 Field_1_8; // 0x48
+	::EnviromentSystem::BlockEnvDataStmState Field_1_9; // 0x4C
+	::RPG::CustomRP::CustomLightQualityFilter Field_1_10; // 0x50
+	::System::Single Field_1_11; // 0x54
+	::System::Int32 Field_1_12; // 0x58
+	::RPG::Client::OpenWorld::StreamingLightEnum Field_1_13; // 0x5C
+	::RPG::CustomRP::CustomLightQualityFilter Field_1_14; // 0x60
 
 	::System::Void _ctor(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::System::String* a5)
 	{
@@ -75,9 +75,9 @@ public:
 		return ((::RPG::Client::OpenWorld::StreamingLightEnum(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_708F535CBD8003F3_METHOD_1_490B5123E6F6015E_OFFSET))(this);
 	}
 
-	static ::System::Void Method_1_F730968E2645E14B()
+	static ::System::Void Method_1_F8C7231308CD2C82()
 	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_708F535CBD8003F3_METHOD_1_F730968E2645E14B_OFFSET))();
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_708F535CBD8003F3_METHOD_1_F8C7231308CD2C82_OFFSET))();
 	}
 
 	::System::Void Method_1_C07771C2DF7D3DC3(::RPG::Client::OpenWorld::StreamingLightEnum a1)
@@ -105,14 +105,14 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingLightEnum, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_708F535CBD8003F3_METHOD_1_9F89A193911611E4_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_238B627BC9EB305E(::System::Int32 a1, ::System::String* a2, ::Class_1_96C82B73FFE758FB* a3, ::System::Int32 a4)
+	::System::Void Method_1_5B3FA9FDD7D2BA8C(::System::Int32 a1, ::System::String* a2, ::Class_1_E3144EBBA3CB68CA* a3, ::System::Int32 a4)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::Class_1_96C82B73FFE758FB*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_708F535CBD8003F3_METHOD_1_238B627BC9EB305E_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::Class_1_E3144EBBA3CB68CA*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_708F535CBD8003F3_METHOD_1_5B3FA9FDD7D2BA8C_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::System::Void Method_1_238B627BC9EB305E_1(::System::Int32 a1, ::System::String* a2, ::Class_1_96C82B73FFE758FB* a3, ::System::Int32 a4)
+	::System::Void Method_1_5B3FA9FDD7D2BA8C_1(::System::Int32 a1, ::System::String* a2, ::Class_1_E3144EBBA3CB68CA* a3, ::System::Int32 a4)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::Class_1_96C82B73FFE758FB*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_708F535CBD8003F3_METHOD_1_238B627BC9EB305E_1_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::Class_1_E3144EBBA3CB68CA*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_708F535CBD8003F3_METHOD_1_5B3FA9FDD7D2BA8C_1_OFFSET))(this, a1, a2, a3, a4);
 	}
 
 	::System::Void Method_1_3559476C7C86165D(::System::String* a1)
@@ -120,9 +120,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_708F535CBD8003F3_METHOD_1_3559476C7C86165D_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_3FA0EA4BE10CC349(::RPG::Client::OpenWorld::StreamingLightEnum a1)
+	::System::Void Method_1_078DF7FA97C8BB47(::RPG::Client::OpenWorld::StreamingLightEnum a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingLightEnum))((::PBYTE)hIl2Cpp + CLASS_1_708F535CBD8003F3_METHOD_1_3FA0EA4BE10CC349_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingLightEnum))((::PBYTE)hIl2Cpp + CLASS_1_708F535CBD8003F3_METHOD_1_078DF7FA97C8BB47_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_099C229CF1BB9083()

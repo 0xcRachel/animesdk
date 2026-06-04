@@ -6,19 +6,19 @@ namespace RPG::GameCore { class SetUpPamAIDialogue; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_2_CA1A1CB95049C55A_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD4F1720)
-#define CLASS_2_CA1A1CB95049C55A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD4F1760)
-#define CLASS_2_CA1A1CB95049C55A_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD4F1C10)
-#define CLASS_2_CA1A1CB95049C55A_TICK_OFFSET UNITYSDK_OFFSET(0xD4F1C60)
-#define CLASS_2_CA1A1CB95049C55A__CTOR_OFFSET UNITYSDK_OFFSET(0xD4F1710)
+#define CLASS_2_CA1A1CB95049C55A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x168B0B50)
+#define CLASS_2_CA1A1CB95049C55A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x168B0B90)
+#define CLASS_2_CA1A1CB95049C55A_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x168B1040)
+#define CLASS_2_CA1A1CB95049C55A_TICK_OFFSET UNITYSDK_OFFSET(0x168B1090)
+#define CLASS_2_CA1A1CB95049C55A__CTOR_OFFSET UNITYSDK_OFFSET(0x168B0B40)
 
-inline static constexpr unsigned int Class_2_CA1A1CB95049C55A_TypeDefinitionIndex = 54383;
+inline static constexpr unsigned int Class_2_CA1A1CB95049C55A_TypeDefinitionIndex = 55110;
 
 class Class_2_CA1A1CB95049C55A : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	// static const ::System::String* Field_2_1; // 0x0
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	// static const ::System::String* Field_2_0; // 0x0
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetUpPamAIDialogue* a2)
 	{

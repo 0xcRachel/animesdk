@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/GameCore/RelicType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_6FC4D75D938BC053_14;
-class Class_1_7FF19F6206AF6DD7_41;
-class Class_1_7FF19F6206AF6DD7_42;
-class Class_1_963E317C37FB5E9A_29;
+class Class_1_22B4C7CF09D1BAC1_7;
+class Class_1_7FF19F6206AF6DD7_46;
+class Class_1_7FF19F6206AF6DD7_47;
+class Class_1_963E317C37FB5E9A_63;
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
 namespace RPG::Client::RelicSmartSuit { class PinData; }
@@ -19,39 +19,39 @@ namespace System { class Exception; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_CLEAR_OFFSET UNITYSDK_OFFSET(0x13199410)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_CREATE_OFFSET UNITYSDK_OFFSET(0x13197DA0)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_GETPINDATA_OFFSET UNITYSDK_OFFSET(0x131AAB50)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_GETPINRELICUIDBYRELICTYPE_OFFSET UNITYSDK_OFFSET(0x131AACA0)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_GET_PLANDATAMANAGER_OFFSET UNITYSDK_OFFSET(0x131AA980)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_REMOVEINVALIDPININFOBYPLANDATA_OFFSET UNITYSDK_OFFSET(0x131AB180)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_REQUESTDELETEPINRELIC_OFFSET UNITYSDK_OFFSET(0x131AAF90)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_REQUESTGETPININFO_OFFSET UNITYSDK_OFFSET(0x131AAA60)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_REQUESTUPDATEPINRELIC_OFFSET UNITYSDK_OFFSET(0x131AAEA0)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_SYNCPININFO_1_OFFSET UNITYSDK_OFFSET(0x1319A2E0)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_SYNCPININFO_2_OFFSET UNITYSDK_OFFSET(0x1319A540)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_SYNCPININFO_3_OFFSET UNITYSDK_OFFSET(0x1319A950)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_SYNCPININFO_OFFSET UNITYSDK_OFFSET(0x13199E60)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x131AA9E0)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__GETORCREATEPININFO_OFFSET UNITYSDK_OFFSET(0x131AAD40)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__GETPININFO_OFFSET UNITYSDK_OFFSET(0x131AABC0)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__GETPLANDATAS_OFFSET UNITYSDK_OFFSET(0x131AB7C0)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__ISPINDATAKEYVALID_OFFSET UNITYSDK_OFFSET(0x131AB640)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__ISSETIDSEQUAL_OFFSET UNITYSDK_OFFSET(0x131ABA30)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__REJECTPROMISE_OFFSET UNITYSDK_OFFSET(0x131AB090)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__RESOLVEPROMISE_OFFSET UNITYSDK_OFFSET(0x131AB120)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_CLEAR_OFFSET UNITYSDK_OFFSET(0x14CECA20)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_CREATE_OFFSET UNITYSDK_OFFSET(0x14CEADE0)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_GETPINDATA_OFFSET UNITYSDK_OFFSET(0x14CFE2D0)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_GETPINRELICUIDBYRELICTYPE_OFFSET UNITYSDK_OFFSET(0x14CFE3F0)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_GET_PLANDATAMANAGER_OFFSET UNITYSDK_OFFSET(0x14CFE100)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_REMOVEINVALIDPININFOBYPLANDATA_OFFSET UNITYSDK_OFFSET(0x14CFE8A0)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_REQUESTDELETEPINRELIC_OFFSET UNITYSDK_OFFSET(0x14CFE6B0)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_REQUESTGETPININFO_OFFSET UNITYSDK_OFFSET(0x14CFE1E0)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_REQUESTUPDATEPINRELIC_OFFSET UNITYSDK_OFFSET(0x14CFE5C0)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_SYNCPININFO_1_OFFSET UNITYSDK_OFFSET(0x14CED8C0)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_SYNCPININFO_2_OFFSET UNITYSDK_OFFSET(0x14CEDB20)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_SYNCPININFO_3_OFFSET UNITYSDK_OFFSET(0x14CEDFF0)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_SYNCPININFO_OFFSET UNITYSDK_OFFSET(0x14CED450)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x14CFE160)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__GETORCREATEPININFO_OFFSET UNITYSDK_OFFSET(0x14CFE490)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__GETPININFO_OFFSET UNITYSDK_OFFSET(0x14CFE340)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__GETPLANDATAS_OFFSET UNITYSDK_OFFSET(0x14CFEEB0)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__ISPINDATAKEYVALID_OFFSET UNITYSDK_OFFSET(0x14CFED30)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__ISSETIDSEQUAL_OFFSET UNITYSDK_OFFSET(0x14CFF170)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__REJECTPROMISE_OFFSET UNITYSDK_OFFSET(0x14CFE7B0)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__RESOLVEPROMISE_OFFSET UNITYSDK_OFFSET(0x14CFE840)
 
 namespace RPG::Client::RelicSmartSuit
 {
-	inline static constexpr unsigned int PinInfoRecorder_TypeDefinitionIndex = 68680;
+	inline static constexpr unsigned int PinInfoRecorder_TypeDefinitionIndex = 69492;
 
 	class PinInfoRecorder : public ::System::Object
 	{
 	public:
 		::RPG::Client::Promises::Promise* _GetPinInfoPromise; // 0x10
-		::RPG::Client::Promises::Promise* _UpdatePinRelicPromise; // 0x18
-		::RPG::Client::Promises::Promise* _DeletePinRelicPromise; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::RelicSmartSuit::PinInfo*>* _PinInfoDict; // 0x28
+		::RPG::Client::Promises::Promise* _DeletePinRelicPromise; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::RelicSmartSuit::PinInfo*>* _PinInfoDict; // 0x20
+		::RPG::Client::Promises::Promise* _UpdatePinRelicPromise; // 0x28
 
 		::System::Void _ctor()
 		{
@@ -73,89 +73,89 @@ namespace RPG::Client::RelicSmartSuit
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_CLEAR_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::Promise* RequestGetPinInfo(::System::UInt32 avatarID)
+		::RPG::Client::Promises::Promise* RequestGetPinInfo(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_REQUESTGETPININFO_OFFSET))(this, avatarID);
+			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_REQUESTGETPININFO_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::RelicSmartSuit::PinData* GetPinData(::System::UInt32 avatarID, ::RPG::Client::RelicSmartSuit::PinDataKey* pinDataKey)
+		::RPG::Client::RelicSmartSuit::PinData* GetPinData(::System::UInt32 a1, ::RPG::Client::RelicSmartSuit::PinDataKey* a2)
 		{
-			return ((::RPG::Client::RelicSmartSuit::PinData*(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicSmartSuit::PinDataKey*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_GETPINDATA_OFFSET))(this, avatarID, pinDataKey);
+			return ((::RPG::Client::RelicSmartSuit::PinData*(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicSmartSuit::PinDataKey*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_GETPINDATA_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 GetPinRelicUidByRelicType(::System::UInt32 avatarID, ::RPG::Client::RelicSmartSuit::RelicSmartSuitPlanData* planData, ::RPG::GameCore::RelicType relicType)
+		::System::UInt32 GetPinRelicUidByRelicType(::System::UInt32 a1, ::RPG::Client::RelicSmartSuit::RelicSmartSuitPlanData* a2, ::RPG::GameCore::RelicType a3)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicSmartSuit::RelicSmartSuitPlanData*, ::RPG::GameCore::RelicType))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_GETPINRELICUIDBYRELICTYPE_OFFSET))(this, avatarID, planData, relicType);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicSmartSuit::RelicSmartSuitPlanData*, ::RPG::GameCore::RelicType))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_GETPINRELICUIDBYRELICTYPE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::RelicSmartSuit::PinInfo* _GetOrCreatePinInfo(::System::UInt32 avatarID)
+		::RPG::Client::RelicSmartSuit::PinInfo* _GetOrCreatePinInfo(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::RelicSmartSuit::PinInfo*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__GETORCREATEPININFO_OFFSET))(this, avatarID);
+			return ((::RPG::Client::RelicSmartSuit::PinInfo*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__GETORCREATEPININFO_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::RelicSmartSuit::PinInfo* _GetPinInfo(::System::UInt32 avatarID)
+		::RPG::Client::RelicSmartSuit::PinInfo* _GetPinInfo(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::RelicSmartSuit::PinInfo*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__GETPININFO_OFFSET))(this, avatarID);
+			return ((::RPG::Client::RelicSmartSuit::PinInfo*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__GETPININFO_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::Promise* RequestUpdatePinRelic(::System::UInt32 avatarID, ::RPG::Client::RelicSmartSuit::PinData* updatePinData)
+		::RPG::Client::Promises::Promise* RequestUpdatePinRelic(::System::UInt32 a1, ::RPG::Client::RelicSmartSuit::PinData* a2)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicSmartSuit::PinData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_REQUESTUPDATEPINRELIC_OFFSET))(this, avatarID, updatePinData);
+			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicSmartSuit::PinData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_REQUESTUPDATEPINRELIC_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::Promise* RequestDeletePinRelic(::System::UInt32 avatarID, ::System::Collections::Generic::List_1<::RPG::Client::RelicSmartSuit::PinDataKey*>* deletePinDataKeys, ::System::Boolean isDeleteByUnPin)
+		::RPG::Client::Promises::Promise* RequestDeletePinRelic(::System::UInt32 a1, ::System::Collections::Generic::List_1<::RPG::Client::RelicSmartSuit::PinDataKey*>* a2, ::System::Boolean a3)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::RelicSmartSuit::PinDataKey*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_REQUESTDELETEPINRELIC_OFFSET))(this, avatarID, deletePinDataKeys, isDeleteByUnPin);
+			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::RelicSmartSuit::PinDataKey*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_REQUESTDELETEPINRELIC_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SyncPinInfo(::Class_1_7FF19F6206AF6DD7_41* rsp)
+		::System::Void SyncPinInfo(::Class_1_7FF19F6206AF6DD7_46* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_7FF19F6206AF6DD7_41*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_SYNCPININFO_OFFSET))(this, rsp);
+			return ((::System::Void(*)(::PVOID, ::Class_1_7FF19F6206AF6DD7_46*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_SYNCPININFO_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncPinInfo_1(::Class_1_963E317C37FB5E9A_29* rsp)
+		::System::Void SyncPinInfo_1(::Class_1_963E317C37FB5E9A_63* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_963E317C37FB5E9A_29*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_SYNCPININFO_1_OFFSET))(this, rsp);
+			return ((::System::Void(*)(::PVOID, ::Class_1_963E317C37FB5E9A_63*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_SYNCPININFO_1_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncPinInfo_2(::Class_1_7FF19F6206AF6DD7_42* rsp)
+		::System::Void SyncPinInfo_2(::Class_1_7FF19F6206AF6DD7_47* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_7FF19F6206AF6DD7_42*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_SYNCPININFO_2_OFFSET))(this, rsp);
+			return ((::System::Void(*)(::PVOID, ::Class_1_7FF19F6206AF6DD7_47*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_SYNCPININFO_2_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncPinInfo_3(::Class_1_6FC4D75D938BC053_14* ntf)
+		::System::Void SyncPinInfo_3(::Class_1_22B4C7CF09D1BAC1_7* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_6FC4D75D938BC053_14*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_SYNCPININFO_3_OFFSET))(this, ntf);
+			return ((::System::Void(*)(::PVOID, ::Class_1_22B4C7CF09D1BAC1_7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_SYNCPININFO_3_OFFSET))(this, a1);
 		}
 
-		::System::Void _ResolvePromise(::RPG::Client::Promises::Promise*& promise)
+		::System::Void _ResolvePromise(::RPG::Client::Promises::Promise*& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Promises::Promise*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__RESOLVEPROMISE_OFFSET))(this, promise);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Promises::Promise*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__RESOLVEPROMISE_OFFSET))(this, a1);
 		}
 
-		::System::Void _RejectPromise(::RPG::Client::Promises::Promise*& promise, ::System::Exception* exception)
+		::System::Void _RejectPromise(::RPG::Client::Promises::Promise*& a1, ::System::Exception* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Promises::Promise*&, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__REJECTPROMISE_OFFSET))(this, promise, exception);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Promises::Promise*&, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__REJECTPROMISE_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* RemoveInvalidPinInfoByPlanData(::System::UInt32 avatarRealID)
+		::RPG::Client::Promises::IPromise* RemoveInvalidPinInfoByPlanData(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_REMOVEINVALIDPININFOBYPLANDATA_OFFSET))(this, avatarRealID);
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER_REMOVEINVALIDPININFOBYPLANDATA_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _IsPinDataKeyValid(::System::UInt32 avatarRealID, ::RPG::Client::RelicSmartSuit::PinDataKey* pinDataKey)
+		::System::Boolean _IsPinDataKeyValid(::System::UInt32 a1, ::RPG::Client::RelicSmartSuit::PinDataKey* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicSmartSuit::PinDataKey*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__ISPINDATAKEYVALID_OFFSET))(this, avatarRealID, pinDataKey);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicSmartSuit::PinDataKey*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__ISPINDATAKEYVALID_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::RelicSmartSuit::RelicSmartSuitPlanData*>* _GetPlanDatas(::System::UInt32 avatarRealID, ::RPG::Client::RelicSmartSuit::PlanType type)
+		::System::Collections::Generic::List_1<::RPG::Client::RelicSmartSuit::RelicSmartSuitPlanData*>* _GetPlanDatas(::System::UInt32 a1, ::RPG::Client::RelicSmartSuit::PlanType a2)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::RelicSmartSuit::RelicSmartSuitPlanData*>*(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicSmartSuit::PlanType))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__GETPLANDATAS_OFFSET))(this, avatarRealID, type);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::RelicSmartSuit::RelicSmartSuitPlanData*>*(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicSmartSuit::PlanType))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__GETPLANDATAS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean _IsSetIDsEqual(::RPG::Client::RelicSmartSuit::RelicSmartSuitPlanData* planData, ::RPG::Client::RelicSmartSuit::PinDataKey* pinDataKey)
+		::System::Boolean _IsSetIDsEqual(::RPG::Client::RelicSmartSuit::RelicSmartSuitPlanData* a1, ::RPG::Client::RelicSmartSuit::PinDataKey* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RelicSmartSuit::RelicSmartSuitPlanData*, ::RPG::Client::RelicSmartSuit::PinDataKey*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__ISSETIDSEQUAL_OFFSET))(this, planData, pinDataKey);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RelicSmartSuit::RelicSmartSuitPlanData*, ::RPG::Client::RelicSmartSuit::PinDataKey*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFORECORDER__ISSETIDSEQUAL_OFFSET))(this, a1, a2);
 		}
 	};
 }

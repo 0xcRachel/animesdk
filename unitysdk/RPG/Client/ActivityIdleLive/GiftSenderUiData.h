@@ -5,19 +5,19 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_GIFTSENDERUIDATA_GETNAMESTR_OFFSET UNITYSDK_OFFSET(0x1733F190)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_GIFTSENDERUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1733F210)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GIFTSENDERUIDATA_GETNAMESTR_OFFSET UNITYSDK_OFFSET(0x1854A380)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GIFTSENDERUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1854A400)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int GiftSenderUiData_TypeDefinitionIndex = 69484;
+	inline static constexpr unsigned int GiftSenderUiData_TypeDefinitionIndex = 70296;
 
 	class GiftSenderUiData : public ::System::Object
 	{
 	public:
 		::System::String* Icon; // 0x10
-		::RPG::Client::TextID Name; // 0x18
-		::System::Int32 Rank; // 0x28
+		::System::Int32 Rank; // 0x18
+		::RPG::Client::TextID Name; // 0x20
 
 		::System::Void _ctor()
 		{

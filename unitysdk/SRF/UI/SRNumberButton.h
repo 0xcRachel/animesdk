@@ -5,15 +5,15 @@
 namespace SRF::UI { class SRNumberSpinner; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define SRF_UI_SRNUMBERBUTTON_APPLY_OFFSET UNITYSDK_OFFSET(0x1A320410)
-#define SRF_UI_SRNUMBERBUTTON_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x1A3203C0)
-#define SRF_UI_SRNUMBERBUTTON_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0x1A3204F0)
-#define SRF_UI_SRNUMBERBUTTON_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A3205C0)
-#define SRF_UI_SRNUMBERBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x1A320790)
+#define SRF_UI_SRNUMBERBUTTON_APPLY_OFFSET UNITYSDK_OFFSET(0x1B2D6CA0)
+#define SRF_UI_SRNUMBERBUTTON_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x1B2D6C50)
+#define SRF_UI_SRNUMBERBUTTON_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0x1B2D6D80)
+#define SRF_UI_SRNUMBERBUTTON_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B2D6E50)
+#define SRF_UI_SRNUMBERBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2D7020)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int SRNumberButton_TypeDefinitionIndex = 33301;
+	inline static constexpr unsigned int SRNumberButton_TypeDefinitionIndex = 33583;
 
 	class SRNumberButton : public ::UnityEngine::UI::Button
 	{
@@ -31,14 +31,14 @@ namespace SRF::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_SRNUMBERBUTTON__CTOR_OFFSET))(this);
 		}
 
-		::System::Void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + SRF_UI_SRNUMBERBUTTON_ONPOINTERDOWN_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + SRF_UI_SRNUMBERBUTTON_ONPOINTERDOWN_OFFSET))(this, a1);
 		}
 
-		::System::Void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + SRF_UI_SRNUMBERBUTTON_ONPOINTERUP_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + SRF_UI_SRNUMBERBUTTON_ONPOINTERUP_OFFSET))(this, a1);
 		}
 
 		::System::Void Update()

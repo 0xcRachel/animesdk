@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SPINE_POLYGON_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x156C4F00)
-#define SPINE_POLYGON_GET_VERTICES_OFFSET UNITYSDK_OFFSET(0x156C4EE0)
-#define SPINE_POLYGON_SET_COUNT_OFFSET UNITYSDK_OFFSET(0x156C4F10)
-#define SPINE_POLYGON_SET_VERTICES_OFFSET UNITYSDK_OFFSET(0x156C4EF0)
-#define SPINE_POLYGON__CTOR_OFFSET UNITYSDK_OFFSET(0x156C4F20)
+#define SPINE_POLYGON_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x12B8EA20)
+#define SPINE_POLYGON_GET_VERTICES_OFFSET UNITYSDK_OFFSET(0x12B8EA00)
+#define SPINE_POLYGON_SET_COUNT_OFFSET UNITYSDK_OFFSET(0x12B8EA30)
+#define SPINE_POLYGON_SET_VERTICES_OFFSET UNITYSDK_OFFSET(0x12B8EA10)
+#define SPINE_POLYGON__CTOR_OFFSET UNITYSDK_OFFSET(0x12B8EA40)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Polygon_TypeDefinitionIndex = 36452;
+	inline static constexpr unsigned int Polygon_TypeDefinitionIndex = 36752;
 
 	class Polygon : public ::System::Object
 	{
@@ -28,9 +28,9 @@ namespace Spine
 			return ((::Il2CppArray<::System::Single>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_POLYGON_GET_VERTICES_OFFSET))(this);
 		}
 
-		::System::Void set_Vertices(::Il2CppArray<::System::Single>* value)
+		::System::Void set_Vertices(::Il2CppArray<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + SPINE_POLYGON_SET_VERTICES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + SPINE_POLYGON_SET_VERTICES_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_Count()
@@ -38,9 +38,9 @@ namespace Spine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_POLYGON_GET_COUNT_OFFSET))(this);
 		}
 
-		::System::Void set_Count(::System::Int32 value)
+		::System::Void set_Count(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_POLYGON_SET_COUNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_POLYGON_SET_COUNT_OFFSET))(this, a1);
 		}
 	};
 }

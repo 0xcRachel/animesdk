@@ -8,17 +8,17 @@ namespace Epic::OnlineServices::Lobby { class AttributeDataValue; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x23694D0)
-#define EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_GET_KEY_OFFSET UNITYSDK_OFFSET(0x2369170)
-#define EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x23692D0)
-#define EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x2369460)
-#define EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_SET_KEY_OFFSET UNITYSDK_OFFSET(0x2369220)
-#define EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x2369450)
-#define EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x23693E0)
+#define EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x39160A0)
+#define EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_GET_KEY_OFFSET UNITYSDK_OFFSET(0x3915D30)
+#define EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x3915E90)
+#define EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x3916020)
+#define EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_SET_KEY_OFFSET UNITYSDK_OFFSET(0x3915DE0)
+#define EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x3916010)
+#define EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x3915FA0)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int AttributeDataInternal_TypeDefinitionIndex = 41828;
+	inline static constexpr unsigned int AttributeDataInternal_TypeDefinitionIndex = 42631;
 
 	struct alignas(8) AttributeDataInternal
 	{
@@ -31,9 +31,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_GET_KEY_OFFSET))(this);
 		}
 
-		::System::Void set_Key(::System::String* value)
+		::System::Void set_Key(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_SET_KEY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_SET_KEY_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::Lobby::AttributeDataValue* get_Value()
@@ -41,19 +41,19 @@ namespace Epic::OnlineServices::Lobby
 			return ((::Epic::OnlineServices::Lobby::AttributeDataValue*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_Value(::Epic::OnlineServices::Lobby::AttributeDataValue* value)
+		::System::Void set_Value(::Epic::OnlineServices::Lobby::AttributeDataValue* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::AttributeDataValue*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::AttributeDataValue*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_SET_VALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Lobby::AttributeData* other)
+		::System::Void Set(::Epic::OnlineServices::Lobby::AttributeData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::AttributeData*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::AttributeData*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ATTRIBUTEDATAINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

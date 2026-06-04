@@ -7,14 +7,14 @@ namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_REFLECTION_TARGETINVOCATIONEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18F44680)
-#define SYSTEM_REFLECTION_TARGETINVOCATIONEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x18F488C0)
-#define SYSTEM_REFLECTION_TARGETINVOCATIONEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x18F48930)
-#define SYSTEM_REFLECTION_TARGETINVOCATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18F48820)
+#define SYSTEM_REFLECTION_TARGETINVOCATIONEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x196F6B30)
+#define SYSTEM_REFLECTION_TARGETINVOCATIONEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x196FA820)
+#define SYSTEM_REFLECTION_TARGETINVOCATIONEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x196FA890)
+#define SYSTEM_REFLECTION_TARGETINVOCATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x196FA780)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int TargetInvocationException_TypeDefinitionIndex = 586;
+	inline static constexpr unsigned int TargetInvocationException_TypeDefinitionIndex = 585;
 
 	class TargetInvocationException : public ::System::ApplicationException
 	{
@@ -24,19 +24,19 @@ namespace System::Reflection
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_TARGETINVOCATIONEXCEPTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Exception* inner)
+		::System::Void _ctor_1(::System::Exception* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_TARGETINVOCATIONEXCEPTION__CTOR_1_OFFSET))(this, inner);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_TARGETINVOCATIONEXCEPTION__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::String* message, ::System::Exception* inner)
+		::System::Void _ctor_2(::System::String* a1, ::System::Exception* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_TARGETINVOCATIONEXCEPTION__CTOR_2_OFFSET))(this, message, inner);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_TARGETINVOCATIONEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_TARGETINVOCATIONEXCEPTION__CTOR_3_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_TARGETINVOCATIONEXCEPTION__CTOR_3_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DESTROYNPCMONSTER_METHOD_3_4B150DAF6771236F_OFFSET UNITYSDK_OFFSET(0x19585020)
-#define RPG_GAMECORE_DESTROYNPCMONSTER_METHOD_3_55AE5D411A652FE6_OFFSET UNITYSDK_OFFSET(0x195850A0)
-#define RPG_GAMECORE_DESTROYNPCMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19585070)
+#define RPG_GAMECORE_DESTROYNPCMONSTER_METHOD_3_7CF4554916DBD9A0_OFFSET UNITYSDK_OFFSET(0x19B371C0)
+#define RPG_GAMECORE_DESTROYNPCMONSTER_METHOD_3_B9AC47DB2CB63831_OFFSET UNITYSDK_OFFSET(0x19B37140)
+#define RPG_GAMECORE_DESTROYNPCMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19B37190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DestroyNPCMonster_TypeDefinitionIndex = 20804;
+	inline static constexpr unsigned int DestroyNPCMonster_TypeDefinitionIndex = 20728;
 
 	class DestroyNPCMonster : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTROYNPCMONSTER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4B150DAF6771236F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DestroyNPCMonster*& a2)
+		static ::System::Void Method_3_B9AC47DB2CB63831(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DestroyNPCMonster*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DestroyNPCMonster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTROYNPCMONSTER_METHOD_3_4B150DAF6771236F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DestroyNPCMonster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTROYNPCMONSTER_METHOD_3_B9AC47DB2CB63831_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_55AE5D411A652FE6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DestroyNPCMonster* a2)
+		static ::System::Void Method_3_7CF4554916DBD9A0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DestroyNPCMonster* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DestroyNPCMonster*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTROYNPCMONSTER_METHOD_3_55AE5D411A652FE6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DestroyNPCMonster*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTROYNPCMONSTER_METHOD_3_7CF4554916DBD9A0_OFFSET))(a1, a2);
 		}
 	};
 }

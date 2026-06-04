@@ -3,40 +3,40 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define AKROOMPARAMS_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x196FC8A0)
-#define AKROOMPARAMS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x196FC7B0)
-#define AKROOMPARAMS_FINALIZE_OFFSET UNITYSDK_OFFSET(0x196FC830)
-#define AKROOMPARAMS_GETCPTR_OFFSET UNITYSDK_OFFSET(0x196FC6A0)
-#define AKROOMPARAMS_GET_FRONT_OFFSET UNITYSDK_OFFSET(0x196FCBF0)
-#define AKROOMPARAMS_GET_REVERBAUXBUS_OFFSET UNITYSDK_OFFSET(0x196FCCC0)
-#define AKROOMPARAMS_GET_REVERBLEVEL_OFFSET UNITYSDK_OFFSET(0x196FCD70)
-#define AKROOMPARAMS_GET_ROOMGAMEOBJ_AUXSENDLEVELTOSELF_OFFSET UNITYSDK_OFFSET(0x196FCED0)
-#define AKROOMPARAMS_GET_ROOMGAMEOBJ_KEEPREGISTERED_OFFSET UNITYSDK_OFFSET(0x196FCF80)
-#define AKROOMPARAMS_GET_UP_OFFSET UNITYSDK_OFFSET(0x196FCB20)
-#define AKROOMPARAMS_GET_WALLOCCLUSION_OFFSET UNITYSDK_OFFSET(0x196FCE20)
-#define AKROOMPARAMS_SETCPTR_OFFSET UNITYSDK_OFFSET(0x196FC6F0)
-#define AKROOMPARAMS_SET_FRONT_OFFSET UNITYSDK_OFFSET(0x196F8DD0)
-#define AKROOMPARAMS_SET_REVERBAUXBUS_OFFSET UNITYSDK_OFFSET(0x196F8EC0)
-#define AKROOMPARAMS_SET_REVERBLEVEL_OFFSET UNITYSDK_OFFSET(0x196F8F80)
-#define AKROOMPARAMS_SET_ROOMGAMEOBJ_AUXSENDLEVELTOSELF_OFFSET UNITYSDK_OFFSET(0x196F9100)
-#define AKROOMPARAMS_SET_ROOMGAMEOBJ_KEEPREGISTERED_OFFSET UNITYSDK_OFFSET(0x196F91C0)
-#define AKROOMPARAMS_SET_UP_OFFSET UNITYSDK_OFFSET(0x196F8CE0)
-#define AKROOMPARAMS_SET_WALLOCCLUSION_OFFSET UNITYSDK_OFFSET(0x196F9040)
-#define AKROOMPARAMS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x196F8C60)
-#define AKROOMPARAMS__CTOR_2_OFFSET UNITYSDK_OFFSET(0x196FCA40)
-#define AKROOMPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x196FC690)
+#define AKROOMPARAMS_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1A28A090)
+#define AKROOMPARAMS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A289F70)
+#define AKROOMPARAMS_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A28A020)
+#define AKROOMPARAMS_GETCPTR_OFFSET UNITYSDK_OFFSET(0x1A289E30)
+#define AKROOMPARAMS_GET_FRONT_OFFSET UNITYSDK_OFFSET(0x1A28A420)
+#define AKROOMPARAMS_GET_REVERBAUXBUS_OFFSET UNITYSDK_OFFSET(0x1A28A4F0)
+#define AKROOMPARAMS_GET_REVERBLEVEL_OFFSET UNITYSDK_OFFSET(0x1A28A5A0)
+#define AKROOMPARAMS_GET_ROOMGAMEOBJ_AUXSENDLEVELTOSELF_OFFSET UNITYSDK_OFFSET(0x1A28A700)
+#define AKROOMPARAMS_GET_ROOMGAMEOBJ_KEEPREGISTERED_OFFSET UNITYSDK_OFFSET(0x1A28A7B0)
+#define AKROOMPARAMS_GET_UP_OFFSET UNITYSDK_OFFSET(0x1A28A350)
+#define AKROOMPARAMS_GET_WALLOCCLUSION_OFFSET UNITYSDK_OFFSET(0x1A28A650)
+#define AKROOMPARAMS_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1A289E80)
+#define AKROOMPARAMS_SET_FRONT_OFFSET UNITYSDK_OFFSET(0x1A285E40)
+#define AKROOMPARAMS_SET_REVERBAUXBUS_OFFSET UNITYSDK_OFFSET(0x1A285F30)
+#define AKROOMPARAMS_SET_REVERBLEVEL_OFFSET UNITYSDK_OFFSET(0x1A285FF0)
+#define AKROOMPARAMS_SET_ROOMGAMEOBJ_AUXSENDLEVELTOSELF_OFFSET UNITYSDK_OFFSET(0x1A286170)
+#define AKROOMPARAMS_SET_ROOMGAMEOBJ_KEEPREGISTERED_OFFSET UNITYSDK_OFFSET(0x1A286230)
+#define AKROOMPARAMS_SET_UP_OFFSET UNITYSDK_OFFSET(0x1A285D50)
+#define AKROOMPARAMS_SET_WALLOCCLUSION_OFFSET UNITYSDK_OFFSET(0x1A2860B0)
+#define AKROOMPARAMS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A285CD0)
+#define AKROOMPARAMS__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A28A270)
+#define AKROOMPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A289E20)
 
-inline static constexpr unsigned int AkRoomParams_TypeDefinitionIndex = 40339;
+inline static constexpr unsigned int AkRoomParams_TypeDefinitionIndex = 41166;
 
 class AkRoomParams : public ::System::Object
 {
 public:
-	::System::Boolean swigCMemOwn; // 0x10
-	::System::IntPtr swigCPtr; // 0x18
+	::System::IntPtr swigCPtr; // 0x10
+	::System::Boolean swigCMemOwn; // 0x18
 
-	::System::Void _ctor(::System::IntPtr cPtr, ::System::Boolean cMemoryOwn)
+	::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKROOMPARAMS__CTOR_OFFSET))(this, cPtr, cMemoryOwn);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKROOMPARAMS__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void _ctor_1()
@@ -44,19 +44,19 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKROOMPARAMS__CTOR_1_OFFSET))(this);
 	}
 
-	::System::Void _ctor_2(::AkRoomParams* in_rhs)
+	::System::Void _ctor_2(::AkRoomParams* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkRoomParams*))((::PBYTE)hIl2Cpp + AKROOMPARAMS__CTOR_2_OFFSET))(this, in_rhs);
+		return ((::System::Void(*)(::PVOID, ::AkRoomParams*))((::PBYTE)hIl2Cpp + AKROOMPARAMS__CTOR_2_OFFSET))(this, a1);
 	}
 
-	static ::System::IntPtr getCPtr(::AkRoomParams* obj)
+	static ::System::IntPtr getCPtr(::AkRoomParams* a1)
 	{
-		return ((::System::IntPtr(*)(::AkRoomParams*))((::PBYTE)hIl2Cpp + AKROOMPARAMS_GETCPTR_OFFSET))(obj);
+		return ((::System::IntPtr(*)(::AkRoomParams*))((::PBYTE)hIl2Cpp + AKROOMPARAMS_GETCPTR_OFFSET))(a1);
 	}
 
-	::System::Void setCPtr(::System::IntPtr cPtr)
+	::System::Void setCPtr(::System::IntPtr a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKROOMPARAMS_SETCPTR_OFFSET))(this, cPtr);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKROOMPARAMS_SETCPTR_OFFSET))(this, a1);
 	}
 
 	::System::Void Finalize()
@@ -69,14 +69,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKROOMPARAMS_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Dispose_1(::System::Boolean disposing)
+	::System::Void Dispose_1(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKROOMPARAMS_DISPOSE_1_OFFSET))(this, disposing);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKROOMPARAMS_DISPOSE_1_OFFSET))(this, a1);
 	}
 
-	::System::Void set_Up(::UnityEngine::Vector3 value)
+	::System::Void set_Up(::UnityEngine::Vector3 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + AKROOMPARAMS_SET_UP_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + AKROOMPARAMS_SET_UP_OFFSET))(this, a1);
 	}
 
 	::UnityEngine::Vector3 get_Up()
@@ -84,9 +84,9 @@ public:
 		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + AKROOMPARAMS_GET_UP_OFFSET))(this);
 	}
 
-	::System::Void set_Front(::UnityEngine::Vector3 value)
+	::System::Void set_Front(::UnityEngine::Vector3 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + AKROOMPARAMS_SET_FRONT_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + AKROOMPARAMS_SET_FRONT_OFFSET))(this, a1);
 	}
 
 	::UnityEngine::Vector3 get_Front()
@@ -94,9 +94,9 @@ public:
 		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + AKROOMPARAMS_GET_FRONT_OFFSET))(this);
 	}
 
-	::System::Void set_ReverbAuxBus(::System::UInt32 value)
+	::System::Void set_ReverbAuxBus(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKROOMPARAMS_SET_REVERBAUXBUS_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKROOMPARAMS_SET_REVERBAUXBUS_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_ReverbAuxBus()
@@ -104,9 +104,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKROOMPARAMS_GET_REVERBAUXBUS_OFFSET))(this);
 	}
 
-	::System::Void set_ReverbLevel(::System::Single value)
+	::System::Void set_ReverbLevel(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKROOMPARAMS_SET_REVERBLEVEL_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKROOMPARAMS_SET_REVERBLEVEL_OFFSET))(this, a1);
 	}
 
 	::System::Single get_ReverbLevel()
@@ -114,9 +114,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + AKROOMPARAMS_GET_REVERBLEVEL_OFFSET))(this);
 	}
 
-	::System::Void set_WallOcclusion(::System::Single value)
+	::System::Void set_WallOcclusion(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKROOMPARAMS_SET_WALLOCCLUSION_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKROOMPARAMS_SET_WALLOCCLUSION_OFFSET))(this, a1);
 	}
 
 	::System::Single get_WallOcclusion()
@@ -124,9 +124,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + AKROOMPARAMS_GET_WALLOCCLUSION_OFFSET))(this);
 	}
 
-	::System::Void set_RoomGameObj_AuxSendLevelToSelf(::System::Single value)
+	::System::Void set_RoomGameObj_AuxSendLevelToSelf(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKROOMPARAMS_SET_ROOMGAMEOBJ_AUXSENDLEVELTOSELF_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKROOMPARAMS_SET_ROOMGAMEOBJ_AUXSENDLEVELTOSELF_OFFSET))(this, a1);
 	}
 
 	::System::Single get_RoomGameObj_AuxSendLevelToSelf()
@@ -134,9 +134,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + AKROOMPARAMS_GET_ROOMGAMEOBJ_AUXSENDLEVELTOSELF_OFFSET))(this);
 	}
 
-	::System::Void set_RoomGameObj_KeepRegistered(::System::Boolean value)
+	::System::Void set_RoomGameObj_KeepRegistered(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKROOMPARAMS_SET_ROOMGAMEOBJ_KEEPREGISTERED_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKROOMPARAMS_SET_ROOMGAMEOBJ_KEEPREGISTERED_OFFSET))(this, a1);
 	}
 
 	::System::Boolean get_RoomGameObj_KeepRegistered()

@@ -8,21 +8,21 @@ namespace Epic::OnlineServices::RTC { class JoinRoomOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2325E70)
-#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x2325E00)
-#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_CLIENTBASEURL_OFFSET UNITYSDK_OFFSET(0x2325A60)
-#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_FLAGS_OFFSET UNITYSDK_OFFSET(0x2325C80)
-#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x23258F0)
-#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_MANUALAUDIOINPUTENABLED_OFFSET UNITYSDK_OFFSET(0x2325C90)
-#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_MANUALAUDIOOUTPUTENABLED_OFFSET UNITYSDK_OFFSET(0x2325D40)
-#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x2325DF0)
-#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_PARTICIPANTID_OFFSET UNITYSDK_OFFSET(0x2325BC0)
-#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_PARTICIPANTTOKEN_OFFSET UNITYSDK_OFFSET(0x2325B10)
-#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x23259B0)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x38DD3E0)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x38DD360)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_CLIENTBASEURL_OFFSET UNITYSDK_OFFSET(0x38DCFC0)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_FLAGS_OFFSET UNITYSDK_OFFSET(0x38DD1E0)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x38DCE50)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_MANUALAUDIOINPUTENABLED_OFFSET UNITYSDK_OFFSET(0x38DD1F0)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_MANUALAUDIOOUTPUTENABLED_OFFSET UNITYSDK_OFFSET(0x38DD2A0)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x38DD350)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_PARTICIPANTID_OFFSET UNITYSDK_OFFSET(0x38DD120)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_PARTICIPANTTOKEN_OFFSET UNITYSDK_OFFSET(0x38DD070)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x38DCF10)
 
 namespace Epic::OnlineServices::RTC
 {
-	inline static constexpr unsigned int JoinRoomOptionsInternal_TypeDefinitionIndex = 41532;
+	inline static constexpr unsigned int JoinRoomOptionsInternal_TypeDefinitionIndex = 42335;
 
 	struct alignas(8) JoinRoomOptionsInternal
 	{
@@ -36,54 +36,54 @@ namespace Epic::OnlineServices::RTC
 		::System::Int32 m_ManualAudioInputEnabled; // 0x44
 		::System::Int32 m_ManualAudioOutputEnabled; // 0x48
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_RoomName(::System::String* value)
+		::System::Void set_RoomName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_ROOMNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_ROOMNAME_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ClientBaseUrl(::System::String* value)
+		::System::Void set_ClientBaseUrl(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_CLIENTBASEURL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_CLIENTBASEURL_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ParticipantToken(::System::String* value)
+		::System::Void set_ParticipantToken(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_PARTICIPANTTOKEN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_PARTICIPANTTOKEN_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ParticipantId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_ParticipantId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_PARTICIPANTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_PARTICIPANTID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Flags(::Epic::OnlineServices::RTC::JoinRoomFlags value)
+		::System::Void set_Flags(::Epic::OnlineServices::RTC::JoinRoomFlags a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTC::JoinRoomFlags))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_FLAGS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTC::JoinRoomFlags))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_FLAGS_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ManualAudioInputEnabled(::System::Boolean value)
+		::System::Void set_ManualAudioInputEnabled(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_MANUALAUDIOINPUTENABLED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_MANUALAUDIOINPUTENABLED_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ManualAudioOutputEnabled(::System::Boolean value)
+		::System::Void set_ManualAudioOutputEnabled(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_MANUALAUDIOOUTPUTENABLED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_MANUALAUDIOOUTPUTENABLED_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::RTC::JoinRoomOptions* other)
+		::System::Void Set(::Epic::OnlineServices::RTC::JoinRoomOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTC::JoinRoomOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTC::JoinRoomOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

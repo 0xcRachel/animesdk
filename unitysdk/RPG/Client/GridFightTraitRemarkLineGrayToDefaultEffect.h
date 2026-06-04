@@ -6,21 +6,21 @@
 namespace RPG::Client { class GridFightTrait; }
 namespace RPG::GameCore { class GridFightTraitRemarkRow; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEGRAYTODEFAULTEFFECT_GET_CURRENTCOLORTYPE_OFFSET UNITYSDK_OFFSET(0x174372C0)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEGRAYTODEFAULTEFFECT_GET_ISHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0x174373D0)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEGRAYTODEFAULTEFFECT_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x174373C0)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEGRAYTODEFAULTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x17436AF0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEGRAYTODEFAULTEFFECT_GET_CURRENTCOLORTYPE_OFFSET UNITYSDK_OFFSET(0x19659BC0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEGRAYTODEFAULTEFFECT_GET_ISHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0x19659CE0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEGRAYTODEFAULTEFFECT_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x19659CD0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEGRAYTODEFAULTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19659370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkLineGrayToDefaultEffect_TypeDefinitionIndex = 60267;
+	inline static constexpr unsigned int GridFightTraitRemarkLineGrayToDefaultEffect_TypeDefinitionIndex = 61202;
 
 	class GridFightTraitRemarkLineGrayToDefaultEffect : public ::RPG::Client::GridFightTraitRemarkLineEffectBase
 	{
 	public:
-		::System::Void _ctor(::RPG::Client::GridFightTrait* trait, ::RPG::GameCore::GridFightTraitRemarkRow* row)
+		::System::Void _ctor(::RPG::Client::GridFightTrait* a1, ::RPG::GameCore::GridFightTraitRemarkRow* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightTrait*, ::RPG::GameCore::GridFightTraitRemarkRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEGRAYTODEFAULTEFFECT__CTOR_OFFSET))(this, trait, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightTrait*, ::RPG::GameCore::GridFightTraitRemarkRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEGRAYTODEFAULTEFFECT__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::GridFightTraitRemarkLineColorType get_CurrentColorType()

@@ -9,54 +9,54 @@ namespace System::Reflection { class FieldInfo; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_CHECKANDTHROW_OFFSET UNITYSDK_OFFSET(0x18F481B0)
-#define SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEFIELDS_OFFSET UNITYSDK_OFFSET(0x18F482F0)
-#define SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEFIELD_OFFSET UNITYSDK_OFFSET(0x18F48410)
-#define SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEMETHODS_OFFSET UNITYSDK_OFFSET(0x18F482B0)
-#define SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEMETHOD_OFFSET UNITYSDK_OFFSET(0x18F483D0)
-#define SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEPROPERTIES_OFFSET UNITYSDK_OFFSET(0x18F48270)
-#define SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEPROPERTY_OFFSET UNITYSDK_OFFSET(0x18F48330)
+#define SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_CHECKANDTHROW_OFFSET UNITYSDK_OFFSET(0x196FA130)
+#define SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEFIELDS_OFFSET UNITYSDK_OFFSET(0x196FA270)
+#define SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEFIELD_OFFSET UNITYSDK_OFFSET(0x196FA390)
+#define SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEMETHODS_OFFSET UNITYSDK_OFFSET(0x196FA230)
+#define SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEMETHOD_OFFSET UNITYSDK_OFFSET(0x196FA350)
+#define SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEPROPERTIES_OFFSET UNITYSDK_OFFSET(0x196FA1F0)
+#define SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEPROPERTY_OFFSET UNITYSDK_OFFSET(0x196FA2B0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int RuntimeReflectionExtensions_TypeDefinitionIndex = 536;
+	inline static constexpr unsigned int RuntimeReflectionExtensions_TypeDefinitionIndex = 535;
 
 	class RuntimeReflectionExtensions : public ::System::Object
 	{
 	public:
-		static ::System::Void CheckAndThrow(::System::Type* t)
+		static ::System::Void CheckAndThrow(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_CHECKANDTHROW_OFFSET))(t);
+			return ((::System::Void(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_CHECKANDTHROW_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::System::Reflection::PropertyInfo*>* GetRuntimeProperties(::System::Type* type)
+		static ::System::Collections::Generic::IEnumerable_1<::System::Reflection::PropertyInfo*>* GetRuntimeProperties(::System::Type* a1)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Reflection::PropertyInfo*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEPROPERTIES_OFFSET))(type);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Reflection::PropertyInfo*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEPROPERTIES_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>* GetRuntimeMethods(::System::Type* type)
+		static ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>* GetRuntimeMethods(::System::Type* a1)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEMETHODS_OFFSET))(type);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEMETHODS_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::System::Reflection::FieldInfo*>* GetRuntimeFields(::System::Type* type)
+		static ::System::Collections::Generic::IEnumerable_1<::System::Reflection::FieldInfo*>* GetRuntimeFields(::System::Type* a1)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Reflection::FieldInfo*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEFIELDS_OFFSET))(type);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Reflection::FieldInfo*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEFIELDS_OFFSET))(a1);
 		}
 
-		static ::System::Reflection::PropertyInfo* GetRuntimeProperty(::System::Type* type, ::System::String* name)
+		static ::System::Reflection::PropertyInfo* GetRuntimeProperty(::System::Type* a1, ::System::String* a2)
 		{
-			return ((::System::Reflection::PropertyInfo*(*)(::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEPROPERTY_OFFSET))(type, name);
+			return ((::System::Reflection::PropertyInfo*(*)(::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEPROPERTY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Reflection::MethodInfo* GetRuntimeMethod(::System::Type* type, ::System::String* name, ::Il2CppArray<::System::Type*>* parameters)
+		static ::System::Reflection::MethodInfo* GetRuntimeMethod(::System::Type* a1, ::System::String* a2, ::Il2CppArray<::System::Type*>* a3)
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::System::Type*, ::System::String*, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEMETHOD_OFFSET))(type, name, parameters);
+			return ((::System::Reflection::MethodInfo*(*)(::System::Type*, ::System::String*, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEMETHOD_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Reflection::FieldInfo* GetRuntimeField(::System::Type* type, ::System::String* name)
+		static ::System::Reflection::FieldInfo* GetRuntimeField(::System::Type* a1, ::System::String* a2)
 		{
-			return ((::System::Reflection::FieldInfo*(*)(::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEFIELD_OFFSET))(type, name);
+			return ((::System::Reflection::FieldInfo*(*)(::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEREFLECTIONEXTENSIONS_GETRUNTIMEFIELD_OFFSET))(a1, a2);
 		}
 	};
 }

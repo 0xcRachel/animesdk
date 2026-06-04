@@ -7,22 +7,22 @@ namespace RPG::GameCore { class MonsterHPRatioCheck; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_493126155E9D7D79_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB043970)
-#define CLASS_2_493126155E9D7D79_METHOD_2_56A341554FD6F72F_OFFSET UNITYSDK_OFFSET(0xB043F60)
-#define CLASS_2_493126155E9D7D79_METHOD_2_A47BB82463F77F6E_OFFSET UNITYSDK_OFFSET(0xB043B40)
-#define CLASS_2_493126155E9D7D79_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB0439B0)
-#define CLASS_2_493126155E9D7D79_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB043DB0)
-#define CLASS_2_493126155E9D7D79_TICK_OFFSET UNITYSDK_OFFSET(0xB043E30)
-#define CLASS_2_493126155E9D7D79__CTOR_OFFSET UNITYSDK_OFFSET(0xB043920)
+#define CLASS_2_493126155E9D7D79_DISPOSE_OFFSET UNITYSDK_OFFSET(0x134CC9C0)
+#define CLASS_2_493126155E9D7D79_METHOD_2_5E95B7193AD43BEC_OFFSET UNITYSDK_OFFSET(0x134CD020)
+#define CLASS_2_493126155E9D7D79_METHOD_2_68129DD98E9643E8_OFFSET UNITYSDK_OFFSET(0x134CCC20)
+#define CLASS_2_493126155E9D7D79_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x134CCA00)
+#define CLASS_2_493126155E9D7D79_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x134CCE70)
+#define CLASS_2_493126155E9D7D79_TICK_OFFSET UNITYSDK_OFFSET(0x134CCEE0)
+#define CLASS_2_493126155E9D7D79__CTOR_OFFSET UNITYSDK_OFFSET(0x134CC970)
 
-inline static constexpr unsigned int Class_2_493126155E9D7D79_TypeDefinitionIndex = 53702;
+inline static constexpr unsigned int Class_2_493126155E9D7D79_TypeDefinitionIndex = 54425;
 
 class Class_2_493126155E9D7D79 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_2_2; // 0x20
-	::RPG::GameCore::MonsterHPRatioCheck* Field_2_0; // 0x28
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::RPG::GameCore::MonsterHPRatioCheck* Field_2_1; // 0x20
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_2_2; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MonsterHPRatioCheck* a2)
 	{
@@ -49,13 +49,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_493126155E9D7D79_TICK_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_2_A47BB82463F77F6E(::RPG::GameCore::GameEntity* a1, ::System::Int32& a2)
+	::System::Boolean Method_2_68129DD98E9643E8(::RPG::GameCore::GameEntity* a1, ::System::Int32& a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Int32&))((::PBYTE)hIl2Cpp + CLASS_2_493126155E9D7D79_METHOD_2_A47BB82463F77F6E_OFFSET))(this, a1, a2);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Int32&))((::PBYTE)hIl2Cpp + CLASS_2_493126155E9D7D79_METHOD_2_68129DD98E9643E8_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Method_2_56A341554FD6F72F(::RPG::GameCore::GameEntity* a1, ::System::Int32 a2)
+	::System::Boolean Method_2_5E95B7193AD43BEC(::RPG::GameCore::GameEntity* a1, ::System::Int32 a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_493126155E9D7D79_METHOD_2_56A341554FD6F72F_OFFSET))(this, a1, a2);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_493126155E9D7D79_METHOD_2_5E95B7193AD43BEC_OFFSET))(this, a1, a2);
 	}
 };

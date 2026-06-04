@@ -8,22 +8,22 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_2_3B411D9750D421FB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xECBF060)
-#define CLASS_2_3B411D9750D421FB_METHOD_2_F203519397590FDC_OFFSET UNITYSDK_OFFSET(0xECBF230)
-#define CLASS_2_3B411D9750D421FB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xECBF0A0)
-#define CLASS_2_3B411D9750D421FB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xECBF300)
-#define CLASS_2_3B411D9750D421FB_TICK_OFFSET UNITYSDK_OFFSET(0xECBF350)
-#define CLASS_2_3B411D9750D421FB__CTOR_OFFSET UNITYSDK_OFFSET(0xECBEF10)
+#define CLASS_2_3B411D9750D421FB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16711890)
+#define CLASS_2_3B411D9750D421FB_METHOD_2_F203519397590FDC_OFFSET UNITYSDK_OFFSET(0x16711B90)
+#define CLASS_2_3B411D9750D421FB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x167118D0)
+#define CLASS_2_3B411D9750D421FB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16711C50)
+#define CLASS_2_3B411D9750D421FB_TICK_OFFSET UNITYSDK_OFFSET(0x16711CA0)
+#define CLASS_2_3B411D9750D421FB__CTOR_OFFSET UNITYSDK_OFFSET(0x16711740)
 
-inline static constexpr unsigned int Class_2_3B411D9750D421FB_TypeDefinitionIndex = 52019;
+inline static constexpr unsigned int Class_2_3B411D9750D421FB_TypeDefinitionIndex = 52693;
 
 class Class_2_3B411D9750D421FB : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	// static const ::System::String* Field_2_3; // 0x0
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ShowAttackTimeType, ::System::String*>* Field_2_2; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
-	::RPG::GameCore::ShowAttackTime* Field_2_0; // 0x28
+	// static const ::System::String* Field_2_0; // 0x0
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
+	::RPG::GameCore::ShowAttackTime* Field_2_2; // 0x20
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ShowAttackTimeType, ::System::String*>* Field_2_3; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowAttackTime* a2)
 	{

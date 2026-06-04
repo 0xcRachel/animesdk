@@ -6,28 +6,28 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTEQUIPCATEGORYINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1956E1E0)
-#define RPG_GAMECORE_GRIDFIGHTEQUIPCATEGORYINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1956E3B0)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPCATEGORYINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AC844C0)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPCATEGORYINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC84690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightEquipCategoryInfoRow_TypeDefinitionIndex = 12729;
+	inline static constexpr unsigned int GridFightEquipCategoryInfoRow_TypeDefinitionIndex = 12819;
 
 	class GridFightEquipCategoryInfoRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID CategoryName; // 0x10
-		::RPG::GameCore::GridFightEquipCategory EquipCategory; // 0x20
-		::System::UInt32 EquipCount; // 0x24
+		::System::UInt32 EquipCount; // 0x10
+		::RPG::GameCore::GridFightEquipCategory EquipCategory; // 0x14
+		::RPG::Client::TextID CategoryName; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTEQUIPCATEGORYINFOROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GridFightEquipCategoryInfoRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightEquipCategoryInfoRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightEquipCategoryInfoRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTEQUIPCATEGORYINFOROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightEquipCategoryInfoRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTEQUIPCATEGORYINFOROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -8,12 +8,12 @@ namespace RPG::GameCore { class PropSpecialVisionConfig; }
 namespace RPG::GameCore { class SetPropSpecialVisionConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4C2B27AA8CEA8CC6_METHOD_3_6448AA1CC0AC9C99_OFFSET UNITYSDK_OFFSET(0xEB8DAC0)
-#define CLASS_3_4C2B27AA8CEA8CC6_METHOD_3_9573E8794B7BE991_OFFSET UNITYSDK_OFFSET(0xEB8DF00)
-#define CLASS_3_4C2B27AA8CEA8CC6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB8D890)
-#define CLASS_3_4C2B27AA8CEA8CC6__CTOR_OFFSET UNITYSDK_OFFSET(0xEB8D860)
+#define CLASS_3_4C2B27AA8CEA8CC6_METHOD_3_9573E8794B7BE991_OFFSET UNITYSDK_OFFSET(0x146175D0)
+#define CLASS_3_4C2B27AA8CEA8CC6_METHOD_3_9E4C8D31C4A7649F_OFFSET UNITYSDK_OFFSET(0x14617300)
+#define CLASS_3_4C2B27AA8CEA8CC6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x146170D0)
+#define CLASS_3_4C2B27AA8CEA8CC6__CTOR_OFFSET UNITYSDK_OFFSET(0x146170A0)
 
-inline static constexpr unsigned int Class_3_4C2B27AA8CEA8CC6_TypeDefinitionIndex = 53997;
+inline static constexpr unsigned int Class_3_4C2B27AA8CEA8CC6_TypeDefinitionIndex = 54722;
 
 class Class_3_4C2B27AA8CEA8CC6 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetPropSpecialVisionConfig*>
 {
@@ -33,8 +33,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::PropSpecialVisionConfig*))((::PBYTE)hIl2Cpp + CLASS_3_4C2B27AA8CEA8CC6_METHOD_3_9573E8794B7BE991_OFFSET))(this, a1, a2);
 	}
 
-	::RPG::GameCore::PropComponent* Method_3_6448AA1CC0AC9C99(::RPG::GameCore::PropSpecialVisionConfig* a1)
+	::RPG::GameCore::PropComponent* Method_3_9E4C8D31C4A7649F(::RPG::GameCore::PropSpecialVisionConfig* a1)
 	{
-		return ((::RPG::GameCore::PropComponent*(*)(::PVOID, ::RPG::GameCore::PropSpecialVisionConfig*))((::PBYTE)hIl2Cpp + CLASS_3_4C2B27AA8CEA8CC6_METHOD_3_6448AA1CC0AC9C99_OFFSET))(this, a1);
+		return ((::RPG::GameCore::PropComponent*(*)(::PVOID, ::RPG::GameCore::PropSpecialVisionConfig*))((::PBYTE)hIl2Cpp + CLASS_3_4C2B27AA8CEA8CC6_METHOD_3_9E4C8D31C4A7649F_OFFSET))(this, a1);
 	}
 };

@@ -13,56 +13,56 @@ namespace System::Runtime::Remoting::Messaging { class IMethodCallMessage; }
 namespace System::Runtime::Remoting::Messaging { class LogicalCallContext; }
 namespace System::Runtime::Remoting::Messaging { class MethodReturnDictionary; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GETARG_OFFSET UNITYSDK_OFFSET(0x17AD13E0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_ARGCOUNT_OFFSET UNITYSDK_OFFSET(0x17AD1100)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_ARGS_OFFSET UNITYSDK_OFFSET(0x17AD1120)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_EXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD1420)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_LOGICALCALLCONTEXT_OFFSET UNITYSDK_OFFSET(0x17AD1130)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_METHODBASE_OFFSET UNITYSDK_OFFSET(0x17AD1160)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_METHODNAME_OFFSET UNITYSDK_OFFSET(0x17AD1170)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_METHODSIGNATURE_OFFSET UNITYSDK_OFFSET(0x17AD11A0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_OUTARGS_OFFSET UNITYSDK_OFFSET(0x17AD1430)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x17AD12F0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_RETURNVALUE_OFFSET UNITYSDK_OFFSET(0x17AD14D0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x17AD1350)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_URI_OFFSET UNITYSDK_OFFSET(0x17AD13A0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_SET_URI_OFFSET UNITYSDK_OFFSET(0x17AD13B0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_SYSTEM_RUNTIME_REMOTING_MESSAGING_IINTERNALMESSAGE_GET_TARGETIDENTITY_OFFSET UNITYSDK_OFFSET(0x17AD14E0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_SYSTEM_RUNTIME_REMOTING_MESSAGING_IINTERNALMESSAGE_GET_URI_OFFSET UNITYSDK_OFFSET(0x17AD13C0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_SYSTEM_RUNTIME_REMOTING_MESSAGING_IINTERNALMESSAGE_SET_TARGETIDENTITY_OFFSET UNITYSDK_OFFSET(0x17AD14F0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_SYSTEM_RUNTIME_REMOTING_MESSAGING_IINTERNALMESSAGE_SET_URI_OFFSET UNITYSDK_OFFSET(0x17AD13D0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17AD0F80)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x17AD0DD0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GETARG_OFFSET UNITYSDK_OFFSET(0x174537C0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_ARGCOUNT_OFFSET UNITYSDK_OFFSET(0x17453510)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_ARGS_OFFSET UNITYSDK_OFFSET(0x17453530)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_EXCEPTION_OFFSET UNITYSDK_OFFSET(0x174537F0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_LOGICALCALLCONTEXT_OFFSET UNITYSDK_OFFSET(0x17453540)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_METHODBASE_OFFSET UNITYSDK_OFFSET(0x17453570)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_METHODNAME_OFFSET UNITYSDK_OFFSET(0x17453580)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_METHODSIGNATURE_OFFSET UNITYSDK_OFFSET(0x174535B0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_OUTARGS_OFFSET UNITYSDK_OFFSET(0x17453800)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x174536D0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_RETURNVALUE_OFFSET UNITYSDK_OFFSET(0x174538A0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x17453730)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_URI_OFFSET UNITYSDK_OFFSET(0x17453780)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_SET_URI_OFFSET UNITYSDK_OFFSET(0x17453790)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_SYSTEM_RUNTIME_REMOTING_MESSAGING_IINTERNALMESSAGE_GET_TARGETIDENTITY_OFFSET UNITYSDK_OFFSET(0x174538B0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_SYSTEM_RUNTIME_REMOTING_MESSAGING_IINTERNALMESSAGE_GET_URI_OFFSET UNITYSDK_OFFSET(0x174537A0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_SYSTEM_RUNTIME_REMOTING_MESSAGING_IINTERNALMESSAGE_SET_TARGETIDENTITY_OFFSET UNITYSDK_OFFSET(0x174538C0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_SYSTEM_RUNTIME_REMOTING_MESSAGING_IINTERNALMESSAGE_SET_URI_OFFSET UNITYSDK_OFFSET(0x174537B0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17453390)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x174531F0)
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int ReturnMessage_TypeDefinitionIndex = 1325;
+	inline static constexpr unsigned int ReturnMessage_TypeDefinitionIndex = 1324;
 
 	class ReturnMessage : public ::System::Object
 	{
 	public:
-		::System::Runtime::Remoting::Identity* _targetIdentity; // 0x10
-		::System::Runtime::Remoting::Messaging::ArgInfo* _inArgInfo; // 0x18
-		::System::String* _uri; // 0x20
-		::System::String* _methodName; // 0x28
-		::System::Exception* _exception; // 0x30
-		::System::Runtime::Remoting::Messaging::MethodReturnDictionary* _properties; // 0x38
-		::System::Object* _returnValue; // 0x40
+		::System::String* _methodName; // 0x10
+		::System::Runtime::Remoting::Identity* _targetIdentity; // 0x18
+		::Il2CppArray<::System::Object*>* _outArgs; // 0x20
+		::System::String* _typeName; // 0x28
+		::System::String* _uri; // 0x30
+		::System::Exception* _exception; // 0x38
+		::System::Runtime::Remoting::Messaging::ArgInfo* _inArgInfo; // 0x40
 		::System::Runtime::Remoting::Messaging::LogicalCallContext* _callCtx; // 0x48
-		::Il2CppArray<::System::Object*>* _args; // 0x50
-		::Il2CppArray<::System::Type*>* _methodSignature; // 0x58
-		::Il2CppArray<::System::Object*>* _outArgs; // 0x60
-		::System::String* _typeName; // 0x68
-		::System::Reflection::MethodBase* _methodBase; // 0x70
+		::System::Reflection::MethodBase* _methodBase; // 0x50
+		::System::Object* _returnValue; // 0x58
+		::Il2CppArray<::System::Type*>* _methodSignature; // 0x60
+		::Il2CppArray<::System::Object*>* _args; // 0x68
+		::System::Runtime::Remoting::Messaging::MethodReturnDictionary* _properties; // 0x70
 
-		::System::Void _ctor(::System::Object* ret, ::Il2CppArray<::System::Object*>* outArgs, ::System::Int32 outArgsCount, ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* mcm)
+		::System::Void _ctor(::System::Object* a1, ::Il2CppArray<::System::Object*>* a2, ::System::Int32 a3, ::System::Runtime::Remoting::Messaging::LogicalCallContext* a4, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::Il2CppArray<::System::Object*>*, ::System::Int32, ::System::Runtime::Remoting::Messaging::LogicalCallContext*, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE__CTOR_OFFSET))(this, ret, outArgs, outArgsCount, callCtx, mcm);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::Il2CppArray<::System::Object*>*, ::System::Int32, ::System::Runtime::Remoting::Messaging::LogicalCallContext*, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void _ctor_1(::System::Exception* e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* mcm)
+		::System::Void _ctor_1(::System::Exception* a1, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE__CTOR_1_OFFSET))(this, e, mcm);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_ArgCount()
@@ -110,9 +110,9 @@ namespace System::Runtime::Remoting::Messaging
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GET_URI_OFFSET))(this);
 		}
 
-		::System::Void set_Uri(::System::String* value)
+		::System::Void set_Uri(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_SET_URI_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_SET_URI_OFFSET))(this, a1);
 		}
 
 		::System::String* System_Runtime_Remoting_Messaging_IInternalMessage_get_Uri()
@@ -120,14 +120,14 @@ namespace System::Runtime::Remoting::Messaging
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_SYSTEM_RUNTIME_REMOTING_MESSAGING_IINTERNALMESSAGE_GET_URI_OFFSET))(this);
 		}
 
-		::System::Void System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri(::System::String* value)
+		::System::Void System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_SYSTEM_RUNTIME_REMOTING_MESSAGING_IINTERNALMESSAGE_SET_URI_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_SYSTEM_RUNTIME_REMOTING_MESSAGING_IINTERNALMESSAGE_SET_URI_OFFSET))(this, a1);
 		}
 
-		::System::Object* GetArg(::System::Int32 argNum)
+		::System::Object* GetArg(::System::Int32 a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GETARG_OFFSET))(this, argNum);
+			return ((::System::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_GETARG_OFFSET))(this, a1);
 		}
 
 		::System::Exception* get_Exception()
@@ -150,9 +150,9 @@ namespace System::Runtime::Remoting::Messaging
 			return ((::System::Runtime::Remoting::Identity*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_SYSTEM_RUNTIME_REMOTING_MESSAGING_IINTERNALMESSAGE_GET_TARGETIDENTITY_OFFSET))(this);
 		}
 
-		::System::Void System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity(::System::Runtime::Remoting::Identity* value)
+		::System::Void System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity(::System::Runtime::Remoting::Identity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Identity*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_SYSTEM_RUNTIME_REMOTING_MESSAGING_IINTERNALMESSAGE_SET_TARGETIDENTITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Identity*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_RETURNMESSAGE_SYSTEM_RUNTIME_REMOTING_MESSAGING_IINTERNALMESSAGE_SET_TARGETIDENTITY_OFFSET))(this, a1);
 		}
 	};
 }

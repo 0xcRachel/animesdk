@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_RETARGETLIST_METHOD_3_44FAAC5F7AE030B7_OFFSET UNITYSDK_OFFSET(0x1A01EF10)
-#define RPG_GAMECORE_RETARGETLIST_METHOD_3_9E9DFD84A1697679_OFFSET UNITYSDK_OFFSET(0x1A01EDF0)
-#define RPG_GAMECORE_RETARGETLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A01EE90)
+#define RPG_GAMECORE_RETARGETLIST_METHOD_3_742B0372B40EF73C_OFFSET UNITYSDK_OFFSET(0x1A2FB960)
+#define RPG_GAMECORE_RETARGETLIST_METHOD_3_E612A0DB26D4E9D8_OFFSET UNITYSDK_OFFSET(0x1A2FB840)
+#define RPG_GAMECORE_RETARGETLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2FB8E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RetargetList_TypeDefinitionIndex = 21822;
+	inline static constexpr unsigned int RetargetList_TypeDefinitionIndex = 21659;
 
 	class RetargetList : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,14 +31,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RETARGETLIST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9E9DFD84A1697679(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RetargetList*& a2)
+		static ::System::Void Method_3_E612A0DB26D4E9D8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RetargetList*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RetargetList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RETARGETLIST_METHOD_3_9E9DFD84A1697679_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RetargetList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RETARGETLIST_METHOD_3_E612A0DB26D4E9D8_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_44FAAC5F7AE030B7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RetargetList* a2)
+		static ::System::Void Method_3_742B0372B40EF73C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RetargetList* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RetargetList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RETARGETLIST_METHOD_3_44FAAC5F7AE030B7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RetargetList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RETARGETLIST_METHOD_3_742B0372B40EF73C_OFFSET))(a1, a2);
 		}
 	};
 }

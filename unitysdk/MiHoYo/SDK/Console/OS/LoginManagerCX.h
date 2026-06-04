@@ -8,18 +8,18 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_GENERATEACCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x15EFC280)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_GETPROTOCOLCHANNEL_OFFSET UNITYSDK_OFFSET(0x15EFAB70)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_GETUSERUNIQUEID_OFFSET UNITYSDK_OFFSET(0x15EFC210)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_ISBINDINGACCOUNTSWITCHON_OFFSET UNITYSDK_OFFSET(0x15EFC520)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_LOGREPORT_OFFSET UNITYSDK_OFFSET(0x15EFC580)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_ONCONSOLELOGINCALLBACK_OFFSET UNITYSDK_OFFSET(0x15EFAB80)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_OPENURL_OFFSET UNITYSDK_OFFSET(0x15EFC490)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX__CTOR_OFFSET UNITYSDK_OFFSET(0x15ED7670)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_GENERATEACCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x16194550)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_GETPROTOCOLCHANNEL_OFFSET UNITYSDK_OFFSET(0x16192DB0)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_GETUSERUNIQUEID_OFFSET UNITYSDK_OFFSET(0x16194500)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_ISBINDINGACCOUNTSWITCHON_OFFSET UNITYSDK_OFFSET(0x161947E0)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_LOGREPORT_OFFSET UNITYSDK_OFFSET(0x16194840)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_ONCONSOLELOGINCALLBACK_OFFSET UNITYSDK_OFFSET(0x16192DC0)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_OPENURL_OFFSET UNITYSDK_OFFSET(0x16194750)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX__CTOR_OFFSET UNITYSDK_OFFSET(0x16171230)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int LoginManagerCX_TypeDefinitionIndex = 7843;
+	inline static constexpr unsigned int LoginManagerCX_TypeDefinitionIndex = 8746;
 
 	class LoginManagerCX : public ::MiHoYo::SDK::Console::OS::LoginManager
 	{
@@ -38,14 +38,14 @@ namespace MiHoYo::SDK::Console::OS
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_GETPROTOCOLCHANNEL_OFFSET))(this);
 		}
 
-		::System::Void OnConsoleLoginCallback(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void OnConsoleLoginCallback(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_ONCONSOLELOGINCALLBACK_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_ONCONSOLELOGINCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void GenerateAccessToken(::System::Action_1<::System::String*>* callback, ::System::Boolean refreshToken)
+		::System::Void GenerateAccessToken(::System::Action_1<::System::String*>* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_GENERATEACCESSTOKEN_OFFSET))(this, callback, refreshToken);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_GENERATEACCESSTOKEN_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* GetUserUniqueId()
@@ -53,9 +53,9 @@ namespace MiHoYo::SDK::Console::OS
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_GETUSERUNIQUEID_OFFSET))(this);
 		}
 
-		::System::Void OpenURL(::System::String* url, ::System::Action* closeCallback)
+		::System::Void OpenURL(::System::String* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_OPENURL_OFFSET))(this, url, closeCallback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_OPENURL_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean IsBindingAccountSwitchOn()
@@ -63,9 +63,9 @@ namespace MiHoYo::SDK::Console::OS
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_ISBINDINGACCOUNTSWITCHON_OFFSET))(this);
 		}
 
-		::System::Void LogReport(::System::String* msg, ::System::Int32 code)
+		::System::Void LogReport(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_LOGREPORT_OFFSET))(this, msg, code);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_LOGREPORT_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -6,19 +6,19 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Rendering { class VolumeComponent; }
 
-#define UNITYENGINE_RENDERING_VOLUMEPROFILE_ADD_OFFSET UNITYSDK_OFFSET(0x198E44A0)
-#define UNITYENGINE_RENDERING_VOLUMEPROFILE_GETCOMPONENTLISTHASHCODE_OFFSET UNITYSDK_OFFSET(0x198E4A70)
-#define UNITYENGINE_RENDERING_VOLUMEPROFILE_HASSUBCLASSOF_OFFSET UNITYSDK_OFFSET(0x198E47E0)
-#define UNITYENGINE_RENDERING_VOLUMEPROFILE_HAS_OFFSET UNITYSDK_OFFSET(0x198E45D0)
-#define UNITYENGINE_RENDERING_VOLUMEPROFILE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x198E43C0)
-#define UNITYENGINE_RENDERING_VOLUMEPROFILE_REMOVE_OFFSET UNITYSDK_OFFSET(0x198E46F0)
-#define UNITYENGINE_RENDERING_VOLUMEPROFILE_RESET_OFFSET UNITYSDK_OFFSET(0x198E4490)
-#define UNITYENGINE_RENDERING_VOLUMEPROFILE_TRYGET_OFFSET UNITYSDK_OFFSET(0x198E4940)
-#define UNITYENGINE_RENDERING_VOLUMEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x198E4B20)
+#define UNITYENGINE_RENDERING_VOLUMEPROFILE_ADD_OFFSET UNITYSDK_OFFSET(0x1A604690)
+#define UNITYENGINE_RENDERING_VOLUMEPROFILE_GETCOMPONENTLISTHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A604C90)
+#define UNITYENGINE_RENDERING_VOLUMEPROFILE_HASSUBCLASSOF_OFFSET UNITYSDK_OFFSET(0x1A604A40)
+#define UNITYENGINE_RENDERING_VOLUMEPROFILE_HAS_OFFSET UNITYSDK_OFFSET(0x1A604810)
+#define UNITYENGINE_RENDERING_VOLUMEPROFILE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A604580)
+#define UNITYENGINE_RENDERING_VOLUMEPROFILE_REMOVE_OFFSET UNITYSDK_OFFSET(0x1A604910)
+#define UNITYENGINE_RENDERING_VOLUMEPROFILE_RESET_OFFSET UNITYSDK_OFFSET(0x1A604680)
+#define UNITYENGINE_RENDERING_VOLUMEPROFILE_TRYGET_OFFSET UNITYSDK_OFFSET(0x1A604BA0)
+#define UNITYENGINE_RENDERING_VOLUMEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A604D50)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumeProfile_TypeDefinitionIndex = 33571;
+	inline static constexpr unsigned int VolumeProfile_TypeDefinitionIndex = 33853;
 
 	class VolumeProfile : public ::UnityEngine::ScriptableObject
 	{
@@ -41,29 +41,29 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMEPROFILE_RESET_OFFSET))(this);
 		}
 
-		::UnityEngine::Rendering::VolumeComponent* Add(::System::RuntimeTypeHandle typeHandle, ::System::Boolean overrides)
+		::UnityEngine::Rendering::VolumeComponent* Add(::System::RuntimeTypeHandle a1, ::System::Boolean a2)
 		{
-			return ((::UnityEngine::Rendering::VolumeComponent*(*)(::PVOID, ::System::RuntimeTypeHandle, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMEPROFILE_ADD_OFFSET))(this, typeHandle, overrides);
+			return ((::UnityEngine::Rendering::VolumeComponent*(*)(::PVOID, ::System::RuntimeTypeHandle, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMEPROFILE_ADD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Remove(::System::RuntimeTypeHandle typeHandle)
+		::System::Void Remove(::System::RuntimeTypeHandle a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMEPROFILE_REMOVE_OFFSET))(this, typeHandle);
+			return ((::System::Void(*)(::PVOID, ::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMEPROFILE_REMOVE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Has(::System::RuntimeTypeHandle typeHandle)
+		::System::Boolean Has(::System::RuntimeTypeHandle a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMEPROFILE_HAS_OFFSET))(this, typeHandle);
+			return ((::System::Boolean(*)(::PVOID, ::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMEPROFILE_HAS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean HasSubclassOf(::System::RuntimeTypeHandle typeHandle)
+		::System::Boolean HasSubclassOf(::System::RuntimeTypeHandle a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMEPROFILE_HASSUBCLASSOF_OFFSET))(this, typeHandle);
+			return ((::System::Boolean(*)(::PVOID, ::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMEPROFILE_HASSUBCLASSOF_OFFSET))(this, a1);
 		}
 
-		::System::Boolean TryGet(::System::RuntimeTypeHandle typeHandle, ::UnityEngine::Rendering::VolumeComponent*& component)
+		::System::Boolean TryGet(::System::RuntimeTypeHandle a1, ::UnityEngine::Rendering::VolumeComponent*& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::RuntimeTypeHandle, ::UnityEngine::Rendering::VolumeComponent*&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMEPROFILE_TRYGET_OFFSET))(this, typeHandle, component);
+			return ((::System::Boolean(*)(::PVOID, ::System::RuntimeTypeHandle, ::UnityEngine::Rendering::VolumeComponent*&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMEPROFILE_TRYGET_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 GetComponentListHashCode()

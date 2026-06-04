@@ -15,68 +15,68 @@
 
 namespace System::Text { class StringBuilder; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_CANRENDERSCENE_OFFSET UNITYSDK_OFFSET(0x18A03160)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_CLEARLASTSUBMITTEDFRAME_OFFSET UNITYSDK_OFFSET(0x18A02EF0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_CLEARSKYBOXOVERRIDE_OFFSET UNITYSDK_OFFSET(0x18A03080)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_COMPOSITORBRINGTOFRONT_OFFSET UNITYSDK_OFFSET(0x18A030A0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_COMPOSITORDUMPIMAGES_OFFSET UNITYSDK_OFFSET(0x18A031E0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_COMPOSITORGOTOBACK_OFFSET UNITYSDK_OFFSET(0x18A030C0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_COMPOSITORQUIT_OFFSET UNITYSDK_OFFSET(0x18A030E0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_FADEGRID_OFFSET UNITYSDK_OFFSET(0x18A03010)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_FADETOCOLOR_OFFSET UNITYSDK_OFFSET(0x18A02FB0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_FORCEINTERLEAVEDREPROJECTIONON_OFFSET UNITYSDK_OFFSET(0x18A03220)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_FORCERECONNECTPROCESS_OFFSET UNITYSDK_OFFSET(0x18A03240)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETCUMULATIVESTATS_OFFSET UNITYSDK_OFFSET(0x18A02F90)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETCURRENTFADECOLOR_OFFSET UNITYSDK_OFFSET(0x18A02FD0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETCURRENTGRIDALPHA_OFFSET UNITYSDK_OFFSET(0x18A03030)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETCURRENTSCENEFOCUSPROCESS_OFFSET UNITYSDK_OFFSET(0x18A03120)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETFRAMETIMEREMAINING_OFFSET UNITYSDK_OFFSET(0x18A02F70)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETFRAMETIMINGS_OFFSET UNITYSDK_OFFSET(0x18A02F50)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETFRAMETIMING_OFFSET UNITYSDK_OFFSET(0x18A02F30)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETLASTFRAMERENDERER_OFFSET UNITYSDK_OFFSET(0x18A03140)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETLASTPOSEFORTRACKEDDEVICEINDEX_OFFSET UNITYSDK_OFFSET(0x18A02EB0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETLASTPOSES_OFFSET UNITYSDK_OFFSET(0x18A02E60)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETMIRRORTEXTURED3D11_OFFSET UNITYSDK_OFFSET(0x18A03280)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETMIRRORTEXTUREGL_OFFSET UNITYSDK_OFFSET(0x18A032C0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETTRACKINGSPACE_OFFSET UNITYSDK_OFFSET(0x18A02DF0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETVULKANDEVICEEXTENSIONSREQUIRED_OFFSET UNITYSDK_OFFSET(0x18A03370)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETVULKANINSTANCEEXTENSIONSREQUIRED_OFFSET UNITYSDK_OFFSET(0x18A03350)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_HIDEMIRRORWINDOW_OFFSET UNITYSDK_OFFSET(0x18A031A0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_ISFULLSCREEN_OFFSET UNITYSDK_OFFSET(0x18A03100)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_ISMIRRORWINDOWVISIBLE_OFFSET UNITYSDK_OFFSET(0x18A031C0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_LOCKGLSHAREDTEXTUREFORACCESS_OFFSET UNITYSDK_OFFSET(0x18A03310)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_POSTPRESENTHANDOFF_OFFSET UNITYSDK_OFFSET(0x18A02F10)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_RELEASEMIRRORTEXTURED3D11_OFFSET UNITYSDK_OFFSET(0x18A032A0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_RELEASESHAREDGLTEXTURE_OFFSET UNITYSDK_OFFSET(0x18A032F0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SETEXPLICITTIMINGMODE_OFFSET UNITYSDK_OFFSET(0x18A03390)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SETSKYBOXOVERRIDE_OFFSET UNITYSDK_OFFSET(0x18A03050)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SETTRACKINGSPACE_OFFSET UNITYSDK_OFFSET(0x18A02DD0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SHOULDAPPRENDERWITHLOWRESOURCES_OFFSET UNITYSDK_OFFSET(0x18A03200)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SHOWMIRRORWINDOW_OFFSET UNITYSDK_OFFSET(0x18A03180)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SUBMITEXPLICITTIMINGDATA_OFFSET UNITYSDK_OFFSET(0x18A033B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SUBMIT_OFFSET UNITYSDK_OFFSET(0x18A02ED0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SUSPENDRENDERING_OFFSET UNITYSDK_OFFSET(0x18A03260)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_UNLOCKGLSHAREDTEXTUREFORACCESS_OFFSET UNITYSDK_OFFSET(0x18A03330)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_WAITGETPOSES_OFFSET UNITYSDK_OFFSET(0x18A02E10)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18A02CE0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_CANRENDERSCENE_OFFSET UNITYSDK_OFFSET(0x1A0EA590)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_CLEARLASTSUBMITTEDFRAME_OFFSET UNITYSDK_OFFSET(0x1A0EA1F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_CLEARSKYBOXOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1A0EA440)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_COMPOSITORBRINGTOFRONT_OFFSET UNITYSDK_OFFSET(0x1A0EA470)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_COMPOSITORDUMPIMAGES_OFFSET UNITYSDK_OFFSET(0x1A0EA650)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_COMPOSITORGOTOBACK_OFFSET UNITYSDK_OFFSET(0x1A0EA4A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_COMPOSITORQUIT_OFFSET UNITYSDK_OFFSET(0x1A0EA4D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_FADEGRID_OFFSET UNITYSDK_OFFSET(0x1A0EA3A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_FADETOCOLOR_OFFSET UNITYSDK_OFFSET(0x1A0EA310)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_FORCEINTERLEAVEDREPROJECTIONON_OFFSET UNITYSDK_OFFSET(0x1A0EA6B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_FORCERECONNECTPROCESS_OFFSET UNITYSDK_OFFSET(0x1A0EA6E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETCUMULATIVESTATS_OFFSET UNITYSDK_OFFSET(0x1A0EA2E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETCURRENTFADECOLOR_OFFSET UNITYSDK_OFFSET(0x1A0EA360)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETCURRENTGRIDALPHA_OFFSET UNITYSDK_OFFSET(0x1A0EA3D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETCURRENTSCENEFOCUSPROCESS_OFFSET UNITYSDK_OFFSET(0x1A0EA530)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETFRAMETIMEREMAINING_OFFSET UNITYSDK_OFFSET(0x1A0EA2B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETFRAMETIMINGS_OFFSET UNITYSDK_OFFSET(0x1A0EA280)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETFRAMETIMING_OFFSET UNITYSDK_OFFSET(0x1A0EA250)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETLASTFRAMERENDERER_OFFSET UNITYSDK_OFFSET(0x1A0EA560)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETLASTPOSEFORTRACKEDDEVICEINDEX_OFFSET UNITYSDK_OFFSET(0x1A0EA180)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETLASTPOSES_OFFSET UNITYSDK_OFFSET(0x1A0EA130)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETMIRRORTEXTURED3D11_OFFSET UNITYSDK_OFFSET(0x1A0EA740)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETMIRRORTEXTUREGL_OFFSET UNITYSDK_OFFSET(0x1A0EA7A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETTRACKINGSPACE_OFFSET UNITYSDK_OFFSET(0x1A0EA0B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETVULKANDEVICEEXTENSIONSREQUIRED_OFFSET UNITYSDK_OFFSET(0x1A0EA8A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETVULKANINSTANCEEXTENSIONSREQUIRED_OFFSET UNITYSDK_OFFSET(0x1A0EA870)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_HIDEMIRRORWINDOW_OFFSET UNITYSDK_OFFSET(0x1A0EA5F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_ISFULLSCREEN_OFFSET UNITYSDK_OFFSET(0x1A0EA500)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_ISMIRRORWINDOWVISIBLE_OFFSET UNITYSDK_OFFSET(0x1A0EA620)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_LOCKGLSHAREDTEXTUREFORACCESS_OFFSET UNITYSDK_OFFSET(0x1A0EA810)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_POSTPRESENTHANDOFF_OFFSET UNITYSDK_OFFSET(0x1A0EA220)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_RELEASEMIRRORTEXTURED3D11_OFFSET UNITYSDK_OFFSET(0x1A0EA770)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_RELEASESHAREDGLTEXTURE_OFFSET UNITYSDK_OFFSET(0x1A0EA7E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SETEXPLICITTIMINGMODE_OFFSET UNITYSDK_OFFSET(0x1A0EA8D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SETSKYBOXOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1A0EA400)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SETTRACKINGSPACE_OFFSET UNITYSDK_OFFSET(0x1A0EA080)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SHOULDAPPRENDERWITHLOWRESOURCES_OFFSET UNITYSDK_OFFSET(0x1A0EA680)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SHOWMIRRORWINDOW_OFFSET UNITYSDK_OFFSET(0x1A0EA5C0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SUBMITEXPLICITTIMINGDATA_OFFSET UNITYSDK_OFFSET(0x1A0EA900)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SUBMIT_OFFSET UNITYSDK_OFFSET(0x1A0EA1B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SUSPENDRENDERING_OFFSET UNITYSDK_OFFSET(0x1A0EA710)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_UNLOCKGLSHAREDTEXTUREFORACCESS_OFFSET UNITYSDK_OFFSET(0x1A0EA840)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_WAITGETPOSES_OFFSET UNITYSDK_OFFSET(0x1A0EA0E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0E9FA0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int CVRCompositor_TypeDefinitionIndex = 35963;
+	inline static constexpr unsigned int CVRCompositor_TypeDefinitionIndex = 36263;
 
 	class CVRCompositor : public ::System::Object
 	{
 	public:
 		::ZenFulcrum::VR::OpenVRBinding::IVRCompositor FnTable; // 0x10
 
-		::System::Void _ctor(::System::IntPtr pInterface)
+		::System::Void _ctor(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR__CTOR_OFFSET))(this, pInterface);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void SetTrackingSpace(::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin eOrigin)
+		::System::Void SetTrackingSpace(::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SETTRACKINGSPACE_OFFSET))(this, eOrigin);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SETTRACKINGSPACE_OFFSET))(this, a1);
 		}
 
 		::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin GetTrackingSpace()
@@ -84,24 +84,24 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETTRACKINGSPACE_OFFSET))(this);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError WaitGetPoses(::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>* pRenderPoseArray, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>* pGamePoseArray)
+		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError WaitGetPoses(::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>* a1, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>* a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError(*)(::PVOID, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>*, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_WAITGETPOSES_OFFSET))(this, pRenderPoseArray, pGamePoseArray);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError(*)(::PVOID, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>*, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_WAITGETPOSES_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError GetLastPoses(::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>* pRenderPoseArray, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>* pGamePoseArray)
+		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError GetLastPoses(::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>* a1, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>* a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError(*)(::PVOID, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>*, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETLASTPOSES_OFFSET))(this, pRenderPoseArray, pGamePoseArray);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError(*)(::PVOID, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>*, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETLASTPOSES_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError GetLastPoseForTrackedDeviceIndex(::System::UInt32 unDeviceIndex, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t& pOutputPose, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t& pOutputGamePose)
+		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError GetLastPoseForTrackedDeviceIndex(::System::UInt32 a1, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t& a2, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t& a3)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t&, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETLASTPOSEFORTRACKEDDEVICEINDEX_OFFSET))(this, unDeviceIndex, pOutputPose, pOutputGamePose);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t&, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETLASTPOSEFORTRACKEDDEVICEINDEX_OFFSET))(this, a1, a2, a3);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError Submit(::ZenFulcrum::VR::OpenVRBinding::EVREye eEye, ::ZenFulcrum::VR::OpenVRBinding::Texture_t& pTexture, ::ZenFulcrum::VR::OpenVRBinding::VRTextureBounds_t& pBounds, ::ZenFulcrum::VR::OpenVRBinding::EVRSubmitFlags nSubmitFlags)
+		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError Submit(::ZenFulcrum::VR::OpenVRBinding::EVREye a1, ::ZenFulcrum::VR::OpenVRBinding::Texture_t& a2, ::ZenFulcrum::VR::OpenVRBinding::VRTextureBounds_t& a3, ::ZenFulcrum::VR::OpenVRBinding::EVRSubmitFlags a4)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREye, ::ZenFulcrum::VR::OpenVRBinding::Texture_t&, ::ZenFulcrum::VR::OpenVRBinding::VRTextureBounds_t&, ::ZenFulcrum::VR::OpenVRBinding::EVRSubmitFlags))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SUBMIT_OFFSET))(this, eEye, pTexture, pBounds, nSubmitFlags);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREye, ::ZenFulcrum::VR::OpenVRBinding::Texture_t&, ::ZenFulcrum::VR::OpenVRBinding::VRTextureBounds_t&, ::ZenFulcrum::VR::OpenVRBinding::EVRSubmitFlags))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SUBMIT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void ClearLastSubmittedFrame()
@@ -114,14 +114,14 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_POSTPRESENTHANDOFF_OFFSET))(this);
 		}
 
-		::System::Boolean GetFrameTiming(::ZenFulcrum::VR::OpenVRBinding::Compositor_FrameTiming& pTiming, ::System::UInt32 unFramesAgo)
+		::System::Boolean GetFrameTiming(::ZenFulcrum::VR::OpenVRBinding::Compositor_FrameTiming& a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::Compositor_FrameTiming&, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETFRAMETIMING_OFFSET))(this, pTiming, unFramesAgo);
+			return ((::System::Boolean(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::Compositor_FrameTiming&, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETFRAMETIMING_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 GetFrameTimings(::ZenFulcrum::VR::OpenVRBinding::Compositor_FrameTiming& pTiming, ::System::UInt32 nFrames)
+		::System::UInt32 GetFrameTimings(::ZenFulcrum::VR::OpenVRBinding::Compositor_FrameTiming& a1, ::System::UInt32 a2)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::Compositor_FrameTiming&, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETFRAMETIMINGS_OFFSET))(this, pTiming, nFrames);
+			return ((::System::UInt32(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::Compositor_FrameTiming&, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETFRAMETIMINGS_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single GetFrameTimeRemaining()
@@ -129,24 +129,24 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETFRAMETIMEREMAINING_OFFSET))(this);
 		}
 
-		::System::Void GetCumulativeStats(::ZenFulcrum::VR::OpenVRBinding::Compositor_CumulativeStats& pStats, ::System::UInt32 nStatsSizeInBytes)
+		::System::Void GetCumulativeStats(::ZenFulcrum::VR::OpenVRBinding::Compositor_CumulativeStats& a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::Compositor_CumulativeStats&, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETCUMULATIVESTATS_OFFSET))(this, pStats, nStatsSizeInBytes);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::Compositor_CumulativeStats&, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETCUMULATIVESTATS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void FadeToColor(::System::Single fSeconds, ::System::Single fRed, ::System::Single fGreen, ::System::Single fBlue, ::System::Single fAlpha, ::System::Boolean bBackground)
+		::System::Void FadeToColor(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_FADETOCOLOR_OFFSET))(this, fSeconds, fRed, fGreen, fBlue, fAlpha, bBackground);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_FADETOCOLOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::HmdColor_t GetCurrentFadeColor(::System::Boolean bBackground)
+		::ZenFulcrum::VR::OpenVRBinding::HmdColor_t GetCurrentFadeColor(::System::Boolean a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::HmdColor_t(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETCURRENTFADECOLOR_OFFSET))(this, bBackground);
+			return ((::ZenFulcrum::VR::OpenVRBinding::HmdColor_t(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETCURRENTFADECOLOR_OFFSET))(this, a1);
 		}
 
-		::System::Void FadeGrid(::System::Single fSeconds, ::System::Boolean bFadeIn)
+		::System::Void FadeGrid(::System::Single a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_FADEGRID_OFFSET))(this, fSeconds, bFadeIn);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_FADEGRID_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single GetCurrentGridAlpha()
@@ -154,9 +154,9 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETCURRENTGRIDALPHA_OFFSET))(this);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError SetSkyboxOverride(::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::Texture_t>* pTextures)
+		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError SetSkyboxOverride(::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::Texture_t>* a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError(*)(::PVOID, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::Texture_t>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SETSKYBOXOVERRIDE_OFFSET))(this, pTextures);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError(*)(::PVOID, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::Texture_t>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SETSKYBOXOVERRIDE_OFFSET))(this, a1);
 		}
 
 		::System::Void ClearSkyboxOverride()
@@ -224,9 +224,9 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SHOULDAPPRENDERWITHLOWRESOURCES_OFFSET))(this);
 		}
 
-		::System::Void ForceInterleavedReprojectionOn(::System::Boolean bOverride)
+		::System::Void ForceInterleavedReprojectionOn(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_FORCEINTERLEAVEDREPROJECTIONON_OFFSET))(this, bOverride);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_FORCEINTERLEAVEDREPROJECTIONON_OFFSET))(this, a1);
 		}
 
 		::System::Void ForceReconnectProcess()
@@ -234,54 +234,54 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_FORCERECONNECTPROCESS_OFFSET))(this);
 		}
 
-		::System::Void SuspendRendering(::System::Boolean bSuspend)
+		::System::Void SuspendRendering(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SUSPENDRENDERING_OFFSET))(this, bSuspend);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SUSPENDRENDERING_OFFSET))(this, a1);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError GetMirrorTextureD3D11(::ZenFulcrum::VR::OpenVRBinding::EVREye eEye, ::System::IntPtr pD3D11DeviceOrResource, ::System::IntPtr& ppD3D11ShaderResourceView)
+		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError GetMirrorTextureD3D11(::ZenFulcrum::VR::OpenVRBinding::EVREye a1, ::System::IntPtr a2, ::System::IntPtr& a3)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREye, ::System::IntPtr, ::System::IntPtr&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETMIRRORTEXTURED3D11_OFFSET))(this, eEye, pD3D11DeviceOrResource, ppD3D11ShaderResourceView);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREye, ::System::IntPtr, ::System::IntPtr&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETMIRRORTEXTURED3D11_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ReleaseMirrorTextureD3D11(::System::IntPtr pD3D11ShaderResourceView)
+		::System::Void ReleaseMirrorTextureD3D11(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_RELEASEMIRRORTEXTURED3D11_OFFSET))(this, pD3D11ShaderResourceView);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_RELEASEMIRRORTEXTURED3D11_OFFSET))(this, a1);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError GetMirrorTextureGL(::ZenFulcrum::VR::OpenVRBinding::EVREye eEye, ::System::UInt32& pglTextureId, ::System::IntPtr pglSharedTextureHandle)
+		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError GetMirrorTextureGL(::ZenFulcrum::VR::OpenVRBinding::EVREye a1, ::System::UInt32& a2, ::System::IntPtr a3)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREye, ::System::UInt32&, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETMIRRORTEXTUREGL_OFFSET))(this, eEye, pglTextureId, pglSharedTextureHandle);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREye, ::System::UInt32&, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETMIRRORTEXTUREGL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean ReleaseSharedGLTexture(::System::UInt32 glTextureId, ::System::IntPtr glSharedTextureHandle)
+		::System::Boolean ReleaseSharedGLTexture(::System::UInt32 a1, ::System::IntPtr a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_RELEASESHAREDGLTEXTURE_OFFSET))(this, glTextureId, glSharedTextureHandle);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_RELEASESHAREDGLTEXTURE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void LockGLSharedTextureForAccess(::System::IntPtr glSharedTextureHandle)
+		::System::Void LockGLSharedTextureForAccess(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_LOCKGLSHAREDTEXTUREFORACCESS_OFFSET))(this, glSharedTextureHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_LOCKGLSHAREDTEXTUREFORACCESS_OFFSET))(this, a1);
 		}
 
-		::System::Void UnlockGLSharedTextureForAccess(::System::IntPtr glSharedTextureHandle)
+		::System::Void UnlockGLSharedTextureForAccess(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_UNLOCKGLSHAREDTEXTUREFORACCESS_OFFSET))(this, glSharedTextureHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_UNLOCKGLSHAREDTEXTUREFORACCESS_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetVulkanInstanceExtensionsRequired(::System::Text::StringBuilder* pchValue, ::System::UInt32 unBufferSize)
+		::System::UInt32 GetVulkanInstanceExtensionsRequired(::System::Text::StringBuilder* a1, ::System::UInt32 a2)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Text::StringBuilder*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETVULKANINSTANCEEXTENSIONSREQUIRED_OFFSET))(this, pchValue, unBufferSize);
+			return ((::System::UInt32(*)(::PVOID, ::System::Text::StringBuilder*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETVULKANINSTANCEEXTENSIONSREQUIRED_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 GetVulkanDeviceExtensionsRequired(::System::IntPtr pPhysicalDevice, ::System::Text::StringBuilder* pchValue, ::System::UInt32 unBufferSize)
+		::System::UInt32 GetVulkanDeviceExtensionsRequired(::System::IntPtr a1, ::System::Text::StringBuilder* a2, ::System::UInt32 a3)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::IntPtr, ::System::Text::StringBuilder*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETVULKANDEVICEEXTENSIONSREQUIRED_OFFSET))(this, pPhysicalDevice, pchValue, unBufferSize);
+			return ((::System::UInt32(*)(::PVOID, ::System::IntPtr, ::System::Text::StringBuilder*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_GETVULKANDEVICEEXTENSIONSREQUIRED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetExplicitTimingMode(::System::Boolean bExplicitTimingMode)
+		::System::Void SetExplicitTimingMode(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SETEXPLICITTIMINGMODE_OFFSET))(this, bExplicitTimingMode);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCOMPOSITOR_SETEXPLICITTIMINGMODE_OFFSET))(this, a1);
 		}
 
 		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError SubmitExplicitTimingData()

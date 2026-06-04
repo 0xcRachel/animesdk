@@ -7,45 +7,45 @@ namespace Spine { class Polygon; }
 namespace Spine { class Skeleton; }
 namespace Spine { template <typename T> class ExposedList_1; }
 
-#define SPINE_SKELETONBOUNDS_AABBCOMPUTE_OFFSET UNITYSDK_OFFSET(0x156DEC50)
-#define SPINE_SKELETONBOUNDS_AABBCONTAINSPOINT_OFFSET UNITYSDK_OFFSET(0x156DEDD0)
-#define SPINE_SKELETONBOUNDS_AABBINTERSECTSSEGMENT_OFFSET UNITYSDK_OFFSET(0x156DEE00)
-#define SPINE_SKELETONBOUNDS_AABBINTERSECTSSKELETON_OFFSET UNITYSDK_OFFSET(0x156DEEE0)
-#define SPINE_SKELETONBOUNDS_CONTAINSPOINT_1_OFFSET UNITYSDK_OFFSET(0x156DF060)
-#define SPINE_SKELETONBOUNDS_CONTAINSPOINT_OFFSET UNITYSDK_OFFSET(0x156DEF30)
-#define SPINE_SKELETONBOUNDS_GETPOLYGON_OFFSET UNITYSDK_OFFSET(0x156DF500)
-#define SPINE_SKELETONBOUNDS_GET_BOUNDINGBOXES_OFFSET UNITYSDK_OFFSET(0x156DE770)
-#define SPINE_SKELETONBOUNDS_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x156DE840)
-#define SPINE_SKELETONBOUNDS_GET_MAXX_OFFSET UNITYSDK_OFFSET(0x156DE7F0)
-#define SPINE_SKELETONBOUNDS_GET_MAXY_OFFSET UNITYSDK_OFFSET(0x156DE810)
-#define SPINE_SKELETONBOUNDS_GET_MINX_OFFSET UNITYSDK_OFFSET(0x156DE7B0)
-#define SPINE_SKELETONBOUNDS_GET_MINY_OFFSET UNITYSDK_OFFSET(0x156DE7D0)
-#define SPINE_SKELETONBOUNDS_GET_POLYGONS_OFFSET UNITYSDK_OFFSET(0x156DE790)
-#define SPINE_SKELETONBOUNDS_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x156DE830)
-#define SPINE_SKELETONBOUNDS_INTERSECTSSEGMENT_1_OFFSET UNITYSDK_OFFSET(0x156DF260)
-#define SPINE_SKELETONBOUNDS_INTERSECTSSEGMENT_OFFSET UNITYSDK_OFFSET(0x156DF150)
-#define SPINE_SKELETONBOUNDS_SET_BOUNDINGBOXES_OFFSET UNITYSDK_OFFSET(0x156DE780)
-#define SPINE_SKELETONBOUNDS_SET_MAXX_OFFSET UNITYSDK_OFFSET(0x156DE800)
-#define SPINE_SKELETONBOUNDS_SET_MAXY_OFFSET UNITYSDK_OFFSET(0x156DE820)
-#define SPINE_SKELETONBOUNDS_SET_MINX_OFFSET UNITYSDK_OFFSET(0x156DE7C0)
-#define SPINE_SKELETONBOUNDS_SET_MINY_OFFSET UNITYSDK_OFFSET(0x156DE7E0)
-#define SPINE_SKELETONBOUNDS_SET_POLYGONS_OFFSET UNITYSDK_OFFSET(0x156DE7A0)
-#define SPINE_SKELETONBOUNDS_UPDATE_OFFSET UNITYSDK_OFFSET(0x156DE8F0)
-#define SPINE_SKELETONBOUNDS__CTOR_OFFSET UNITYSDK_OFFSET(0x156DE850)
+#define SPINE_SKELETONBOUNDS_AABBCOMPUTE_OFFSET UNITYSDK_OFFSET(0x12BA8010)
+#define SPINE_SKELETONBOUNDS_AABBCONTAINSPOINT_OFFSET UNITYSDK_OFFSET(0x12BA8150)
+#define SPINE_SKELETONBOUNDS_AABBINTERSECTSSEGMENT_OFFSET UNITYSDK_OFFSET(0x12BA8180)
+#define SPINE_SKELETONBOUNDS_AABBINTERSECTSSKELETON_OFFSET UNITYSDK_OFFSET(0x12BA8260)
+#define SPINE_SKELETONBOUNDS_CONTAINSPOINT_1_OFFSET UNITYSDK_OFFSET(0x12BA83B0)
+#define SPINE_SKELETONBOUNDS_CONTAINSPOINT_OFFSET UNITYSDK_OFFSET(0x12BA82B0)
+#define SPINE_SKELETONBOUNDS_GETPOLYGON_OFFSET UNITYSDK_OFFSET(0x12BA87D0)
+#define SPINE_SKELETONBOUNDS_GET_BOUNDINGBOXES_OFFSET UNITYSDK_OFFSET(0x12BA7B50)
+#define SPINE_SKELETONBOUNDS_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x12BA7C20)
+#define SPINE_SKELETONBOUNDS_GET_MAXX_OFFSET UNITYSDK_OFFSET(0x12BA7BD0)
+#define SPINE_SKELETONBOUNDS_GET_MAXY_OFFSET UNITYSDK_OFFSET(0x12BA7BF0)
+#define SPINE_SKELETONBOUNDS_GET_MINX_OFFSET UNITYSDK_OFFSET(0x12BA7B90)
+#define SPINE_SKELETONBOUNDS_GET_MINY_OFFSET UNITYSDK_OFFSET(0x12BA7BB0)
+#define SPINE_SKELETONBOUNDS_GET_POLYGONS_OFFSET UNITYSDK_OFFSET(0x12BA7B70)
+#define SPINE_SKELETONBOUNDS_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x12BA7C10)
+#define SPINE_SKELETONBOUNDS_INTERSECTSSEGMENT_1_OFFSET UNITYSDK_OFFSET(0x12BA8570)
+#define SPINE_SKELETONBOUNDS_INTERSECTSSEGMENT_OFFSET UNITYSDK_OFFSET(0x12BA8470)
+#define SPINE_SKELETONBOUNDS_SET_BOUNDINGBOXES_OFFSET UNITYSDK_OFFSET(0x12BA7B60)
+#define SPINE_SKELETONBOUNDS_SET_MAXX_OFFSET UNITYSDK_OFFSET(0x12BA7BE0)
+#define SPINE_SKELETONBOUNDS_SET_MAXY_OFFSET UNITYSDK_OFFSET(0x12BA7C00)
+#define SPINE_SKELETONBOUNDS_SET_MINX_OFFSET UNITYSDK_OFFSET(0x12BA7BA0)
+#define SPINE_SKELETONBOUNDS_SET_MINY_OFFSET UNITYSDK_OFFSET(0x12BA7BC0)
+#define SPINE_SKELETONBOUNDS_SET_POLYGONS_OFFSET UNITYSDK_OFFSET(0x12BA7B80)
+#define SPINE_SKELETONBOUNDS_UPDATE_OFFSET UNITYSDK_OFFSET(0x12BA7CD0)
+#define SPINE_SKELETONBOUNDS__CTOR_OFFSET UNITYSDK_OFFSET(0x12BA7C30)
 
 namespace Spine
 {
-	inline static constexpr unsigned int SkeletonBounds_TypeDefinitionIndex = 36451;
+	inline static constexpr unsigned int SkeletonBounds_TypeDefinitionIndex = 36751;
 
 	class SkeletonBounds : public ::System::Object
 	{
 	public:
-		::Spine::ExposedList_1<::Spine::BoundingBoxAttachment*>* _BoundingBoxes_k__BackingField; // 0x10
-		::Spine::ExposedList_1<::Spine::Polygon*>* polygonPool; // 0x18
-		::Spine::ExposedList_1<::Spine::Polygon*>* _Polygons_k__BackingField; // 0x20
-		::System::Single minX; // 0x28
-		::System::Single minY; // 0x2C
-		::System::Single maxY; // 0x30
+		::Spine::ExposedList_1<::Spine::Polygon*>* _Polygons_k__BackingField; // 0x10
+		::Spine::ExposedList_1<::Spine::BoundingBoxAttachment*>* _BoundingBoxes_k__BackingField; // 0x18
+		::Spine::ExposedList_1<::Spine::Polygon*>* polygonPool; // 0x20
+		::System::Single minY; // 0x28
+		::System::Single maxY; // 0x2C
+		::System::Single minX; // 0x30
 		::System::Single maxX; // 0x34
 
 		::System::Void _ctor()
@@ -58,9 +58,9 @@ namespace Spine
 			return ((::Spine::ExposedList_1<::Spine::BoundingBoxAttachment*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_GET_BOUNDINGBOXES_OFFSET))(this);
 		}
 
-		::System::Void set_BoundingBoxes(::Spine::ExposedList_1<::Spine::BoundingBoxAttachment*>* value)
+		::System::Void set_BoundingBoxes(::Spine::ExposedList_1<::Spine::BoundingBoxAttachment*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::ExposedList_1<::Spine::BoundingBoxAttachment*>*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_SET_BOUNDINGBOXES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::ExposedList_1<::Spine::BoundingBoxAttachment*>*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_SET_BOUNDINGBOXES_OFFSET))(this, a1);
 		}
 
 		::Spine::ExposedList_1<::Spine::Polygon*>* get_Polygons()
@@ -68,9 +68,9 @@ namespace Spine
 			return ((::Spine::ExposedList_1<::Spine::Polygon*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_GET_POLYGONS_OFFSET))(this);
 		}
 
-		::System::Void set_Polygons(::Spine::ExposedList_1<::Spine::Polygon*>* value)
+		::System::Void set_Polygons(::Spine::ExposedList_1<::Spine::Polygon*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::ExposedList_1<::Spine::Polygon*>*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_SET_POLYGONS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::ExposedList_1<::Spine::Polygon*>*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_SET_POLYGONS_OFFSET))(this, a1);
 		}
 
 		::System::Single get_MinX()
@@ -78,9 +78,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_GET_MINX_OFFSET))(this);
 		}
 
-		::System::Void set_MinX(::System::Single value)
+		::System::Void set_MinX(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_SET_MINX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_SET_MINX_OFFSET))(this, a1);
 		}
 
 		::System::Single get_MinY()
@@ -88,9 +88,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_GET_MINY_OFFSET))(this);
 		}
 
-		::System::Void set_MinY(::System::Single value)
+		::System::Void set_MinY(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_SET_MINY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_SET_MINY_OFFSET))(this, a1);
 		}
 
 		::System::Single get_MaxX()
@@ -98,9 +98,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_GET_MAXX_OFFSET))(this);
 		}
 
-		::System::Void set_MaxX(::System::Single value)
+		::System::Void set_MaxX(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_SET_MAXX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_SET_MAXX_OFFSET))(this, a1);
 		}
 
 		::System::Single get_MaxY()
@@ -108,9 +108,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_GET_MAXY_OFFSET))(this);
 		}
 
-		::System::Void set_MaxY(::System::Single value)
+		::System::Void set_MaxY(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_SET_MAXY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_SET_MAXY_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Width()
@@ -123,9 +123,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_GET_HEIGHT_OFFSET))(this);
 		}
 
-		::System::Void Update(::Spine::Skeleton* skeleton, ::System::Boolean updateAabb)
+		::System::Void Update(::Spine::Skeleton* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_UPDATE_OFFSET))(this, skeleton, updateAabb);
+			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_UPDATE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void AabbCompute()
@@ -133,44 +133,44 @@ namespace Spine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_AABBCOMPUTE_OFFSET))(this);
 		}
 
-		::System::Boolean AabbContainsPoint(::System::Single x, ::System::Single y)
+		::System::Boolean AabbContainsPoint(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_AABBCONTAINSPOINT_OFFSET))(this, x, y);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_AABBCONTAINSPOINT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean AabbIntersectsSegment(::System::Single x1, ::System::Single y1, ::System::Single x2, ::System::Single y2)
+		::System::Boolean AabbIntersectsSegment(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_AABBINTERSECTSSEGMENT_OFFSET))(this, x1, y1, x2, y2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_AABBINTERSECTSSEGMENT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean AabbIntersectsSkeleton(::Spine::SkeletonBounds* bounds)
+		::System::Boolean AabbIntersectsSkeleton(::Spine::SkeletonBounds* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Spine::SkeletonBounds*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_AABBINTERSECTSSKELETON_OFFSET))(this, bounds);
+			return ((::System::Boolean(*)(::PVOID, ::Spine::SkeletonBounds*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_AABBINTERSECTSSKELETON_OFFSET))(this, a1);
 		}
 
-		::System::Boolean ContainsPoint(::Spine::Polygon* polygon, ::System::Single x, ::System::Single y)
+		::System::Boolean ContainsPoint(::Spine::Polygon* a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Spine::Polygon*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_CONTAINSPOINT_OFFSET))(this, polygon, x, y);
+			return ((::System::Boolean(*)(::PVOID, ::Spine::Polygon*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_CONTAINSPOINT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Spine::BoundingBoxAttachment* ContainsPoint_1(::System::Single x, ::System::Single y)
+		::Spine::BoundingBoxAttachment* ContainsPoint_1(::System::Single a1, ::System::Single a2)
 		{
-			return ((::Spine::BoundingBoxAttachment*(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_CONTAINSPOINT_1_OFFSET))(this, x, y);
+			return ((::Spine::BoundingBoxAttachment*(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_CONTAINSPOINT_1_OFFSET))(this, a1, a2);
 		}
 
-		::Spine::BoundingBoxAttachment* IntersectsSegment(::System::Single x1, ::System::Single y1, ::System::Single x2, ::System::Single y2)
+		::Spine::BoundingBoxAttachment* IntersectsSegment(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::Spine::BoundingBoxAttachment*(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_INTERSECTSSEGMENT_OFFSET))(this, x1, y1, x2, y2);
+			return ((::Spine::BoundingBoxAttachment*(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_INTERSECTSSEGMENT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean IntersectsSegment_1(::Spine::Polygon* polygon, ::System::Single x1, ::System::Single y1, ::System::Single x2, ::System::Single y2)
+		::System::Boolean IntersectsSegment_1(::Spine::Polygon* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Spine::Polygon*, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_INTERSECTSSEGMENT_1_OFFSET))(this, polygon, x1, y1, x2, y2);
+			return ((::System::Boolean(*)(::PVOID, ::Spine::Polygon*, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_INTERSECTSSEGMENT_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::Spine::Polygon* GetPolygon(::Spine::BoundingBoxAttachment* attachment)
+		::Spine::Polygon* GetPolygon(::Spine::BoundingBoxAttachment* a1)
 		{
-			return ((::Spine::Polygon*(*)(::PVOID, ::Spine::BoundingBoxAttachment*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_GETPOLYGON_OFFSET))(this, attachment);
+			return ((::Spine::Polygon*(*)(::PVOID, ::Spine::BoundingBoxAttachment*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBOUNDS_GETPOLYGON_OFFSET))(this, a1);
 		}
 	};
 }

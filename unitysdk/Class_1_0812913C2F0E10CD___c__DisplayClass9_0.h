@@ -4,10 +4,10 @@
 
 namespace RPG::Client { class GridFightEquipItemData; }
 
-#define CLASS_1_0812913C2F0E10CD___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x103C5BD0)
-#define CLASS_1_0812913C2F0E10CD___C__DISPLAYCLASS9_0__GETNONETEMPORARYEQUIPITEMCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x103C5D80)
+#define CLASS_1_0812913C2F0E10CD___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1556F1C0)
+#define CLASS_1_0812913C2F0E10CD___C__DISPLAYCLASS9_0__GETNONETEMPORARYEQUIPITEMCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1556F370)
 
-inline static constexpr unsigned int Class_1_0812913C2F0E10CD___c__DisplayClass9_0_TypeDefinitionIndex = 60142;
+inline static constexpr unsigned int Class_1_0812913C2F0E10CD___c__DisplayClass9_0_TypeDefinitionIndex = 61077;
 
 class Class_1_0812913C2F0E10CD___c__DisplayClass9_0 : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_0812913C2F0E10CD___C__DISPLAYCLASS9_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean _GetNoneTemporaryEquipItemCount_b__0(::RPG::Client::GridFightEquipItemData* x)
+	::System::Boolean _GetNoneTemporaryEquipItemCount_b__0(::RPG::Client::GridFightEquipItemData* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + CLASS_1_0812913C2F0E10CD___C__DISPLAYCLASS9_0__GETNONETEMPORARYEQUIPITEMCOUNT_B__0_OFFSET))(this, x);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + CLASS_1_0812913C2F0E10CD___C__DISPLAYCLASS9_0__GETNONETEMPORARYEQUIPITEMCOUNT_B__0_OFFSET))(this, a1);
 	}
 };

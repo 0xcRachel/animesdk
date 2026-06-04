@@ -3,27 +3,27 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 
-class Class_1_A6CB7EFE0F92316C;
+class Class_1_4D1B1009D34E8A43;
 namespace System { class String; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define RPG_CLIENT_RENDERIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x131BA0A0)
-#define RPG_CLIENT_RENDERIMAGE_INIT_OFFSET UNITYSDK_OFFSET(0x131BA250)
-#define RPG_CLIENT_RENDERIMAGE_METHOD_5_527C5DFCBC152C0E_OFFSET UNITYSDK_OFFSET(0x131BA430)
-#define RPG_CLIENT_RENDERIMAGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x131BA1B0)
-#define RPG_CLIENT_RENDERIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x131BA6A0)
+#define RPG_CLIENT_RENDERIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x14D0B5A0)
+#define RPG_CLIENT_RENDERIMAGE_INIT_OFFSET UNITYSDK_OFFSET(0x14D0B740)
+#define RPG_CLIENT_RENDERIMAGE_METHOD_5_527C5DFCBC152C0E_OFFSET UNITYSDK_OFFSET(0x14D0B920)
+#define RPG_CLIENT_RENDERIMAGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x14D0B6A0)
+#define RPG_CLIENT_RENDERIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x14D0BB80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RenderImage_TypeDefinitionIndex = 66931;
+	inline static constexpr unsigned int RenderImage_TypeDefinitionIndex = 67873;
 
 	class RenderImage : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::String* RenderTextureName; // 0x18
 		::UnityEngine::UI::RawImage* Field_5_1; // 0x20
-		::Class_1_A6CB7EFE0F92316C* Field_5_2; // 0x28
+		::Class_1_4D1B1009D34E8A43* Field_5_2; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -5,8 +5,8 @@
 namespace Mono::Net { class CFProxy; }
 namespace Mono::Net { class CFRunLoop; }
 
-#define MONO_NET_CFNETWORK___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1845A760)
-#define MONO_NET_CFNETWORK___C__DISPLAYCLASS13_0__EXECUTEPROXYAUTOCONFIGURATIONURL_B__0_OFFSET UNITYSDK_OFFSET(0x1845B510)
+#define MONO_NET_CFNETWORK___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18E79A30)
+#define MONO_NET_CFNETWORK___C__DISPLAYCLASS13_0__EXECUTEPROXYAUTOCONFIGURATIONURL_B__0_OFFSET UNITYSDK_OFFSET(0x18E7A810)
 
 namespace Mono::Net
 {
@@ -23,9 +23,9 @@ namespace Mono::Net
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_NET_CFNETWORK___C__DISPLAYCLASS13_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ExecuteProxyAutoConfigurationURL_b__0(::System::IntPtr client, ::System::IntPtr proxyList, ::System::IntPtr error)
+		::System::Void _ExecuteProxyAutoConfigurationURL_b__0(::System::IntPtr a1, ::System::IntPtr a2, ::System::IntPtr a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFNETWORK___C__DISPLAYCLASS13_0__EXECUTEPROXYAUTOCONFIGURATIONURL_B__0_OFFSET))(this, client, proxyList, error);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFNETWORK___C__DISPLAYCLASS13_0__EXECUTEPROXYAUTOCONFIGURATIONURL_B__0_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

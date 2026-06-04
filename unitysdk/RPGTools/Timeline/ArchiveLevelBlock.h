@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_ARCHIVELEVELBLOCK_METHOD_4_35B1D6F5AD964588_OFFSET UNITYSDK_OFFSET(0x16F3B010)
-#define RPGTOOLS_TIMELINE_ARCHIVELEVELBLOCK_METHOD_4_F8CFE1100A85137E_OFFSET UNITYSDK_OFFSET(0x16F3AF00)
-#define RPGTOOLS_TIMELINE_ARCHIVELEVELBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x16F3B000)
+#define RPGTOOLS_TIMELINE_ARCHIVELEVELBLOCK_METHOD_4_0E98210FFD41D920_OFFSET UNITYSDK_OFFSET(0x198B5230)
+#define RPGTOOLS_TIMELINE_ARCHIVELEVELBLOCK_METHOD_4_3B794CA8887053C1_OFFSET UNITYSDK_OFFSET(0x198B5120)
+#define RPGTOOLS_TIMELINE_ARCHIVELEVELBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x198B5220)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ArchiveLevelBlock_TypeDefinitionIndex = 45216;
+	inline static constexpr unsigned int ArchiveLevelBlock_TypeDefinitionIndex = 45773;
 
 	class ArchiveLevelBlock : public ::RPGTools::Timeline::ArchiveAsset
 	{
@@ -23,14 +23,14 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ARCHIVELEVELBLOCK__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_4_F8CFE1100A85137E(::RPGTools::Timeline::ArchiveAsset* a1)
+		::System::Boolean Method_4_3B794CA8887053C1(::RPGTools::Timeline::ArchiveAsset* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPGTools::Timeline::ArchiveAsset*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ARCHIVELEVELBLOCK_METHOD_4_F8CFE1100A85137E_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPGTools::Timeline::ArchiveAsset*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ARCHIVELEVELBLOCK_METHOD_4_3B794CA8887053C1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_4_35B1D6F5AD964588(::RPGTools::Timeline::ArchiveAsset* P0)
+		::System::Boolean Method_4_0E98210FFD41D920(::RPGTools::Timeline::ArchiveAsset* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPGTools::Timeline::ArchiveAsset*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ARCHIVELEVELBLOCK_METHOD_4_35B1D6F5AD964588_OFFSET))(this, P0);
+			return ((::System::Boolean(*)(::PVOID, ::RPGTools::Timeline::ArchiveAsset*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ARCHIVELEVELBLOCK_METHOD_4_0E98210FFD41D920_OFFSET))(this, a1);
 		}
 	};
 }

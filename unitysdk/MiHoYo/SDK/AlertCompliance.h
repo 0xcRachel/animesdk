@@ -14,33 +14,33 @@ namespace UnityEngine { class TextGenerator; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_ALERTCOMPLIANCE_AWAKE_OFFSET UNITYSDK_OFFSET(0x161816B0)
-#define MIHOYO_SDK_ALERTCOMPLIANCE_GETCHARWIDTH_OFFSET UNITYSDK_OFFSET(0x161830D0)
-#define MIHOYO_SDK_ALERTCOMPLIANCE_HIDE_OFFSET UNITYSDK_OFFSET(0x16182A60)
-#define MIHOYO_SDK_ALERTCOMPLIANCE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x16182DC0)
-#define MIHOYO_SDK_ALERTCOMPLIANCE_ONTAPCLOSE_OFFSET UNITYSDK_OFFSET(0x16182CE0)
-#define MIHOYO_SDK_ALERTCOMPLIANCE_ONTAPSUBMIT_OFFSET UNITYSDK_OFFSET(0x16182D50)
-#define MIHOYO_SDK_ALERTCOMPLIANCE_POSTPROCESSFINALLINE_OFFSET UNITYSDK_OFFSET(0x16183250)
-#define MIHOYO_SDK_ALERTCOMPLIANCE_SETTEXT_OFFSET UNITYSDK_OFFSET(0x16181D30)
-#define MIHOYO_SDK_ALERTCOMPLIANCE_SHOW_OFFSET UNITYSDK_OFFSET(0x16182790)
-#define MIHOYO_SDK_ALERTCOMPLIANCE_START_OFFSET UNITYSDK_OFFSET(0x16181CF0)
-#define MIHOYO_SDK_ALERTCOMPLIANCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x161835C0)
-#define MIHOYO_SDK_ALERTCOMPLIANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x16183570)
+#define MIHOYO_SDK_ALERTCOMPLIANCE_AWAKE_OFFSET UNITYSDK_OFFSET(0x17233830)
+#define MIHOYO_SDK_ALERTCOMPLIANCE_GETCHARWIDTH_OFFSET UNITYSDK_OFFSET(0x17235470)
+#define MIHOYO_SDK_ALERTCOMPLIANCE_HIDE_OFFSET UNITYSDK_OFFSET(0x172350F0)
+#define MIHOYO_SDK_ALERTCOMPLIANCE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17235440)
+#define MIHOYO_SDK_ALERTCOMPLIANCE_ONTAPCLOSE_OFFSET UNITYSDK_OFFSET(0x17235360)
+#define MIHOYO_SDK_ALERTCOMPLIANCE_ONTAPSUBMIT_OFFSET UNITYSDK_OFFSET(0x172353D0)
+#define MIHOYO_SDK_ALERTCOMPLIANCE_POSTPROCESSFINALLINE_OFFSET UNITYSDK_OFFSET(0x172355F0)
+#define MIHOYO_SDK_ALERTCOMPLIANCE_SETTEXT_OFFSET UNITYSDK_OFFSET(0x17233EC0)
+#define MIHOYO_SDK_ALERTCOMPLIANCE_SHOW_OFFSET UNITYSDK_OFFSET(0x17234D80)
+#define MIHOYO_SDK_ALERTCOMPLIANCE_START_OFFSET UNITYSDK_OFFSET(0x17233E80)
+#define MIHOYO_SDK_ALERTCOMPLIANCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17235960)
+#define MIHOYO_SDK_ALERTCOMPLIANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x17235910)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AlertCompliance_TypeDefinitionIndex = 7034;
+	inline static constexpr unsigned int AlertCompliance_TypeDefinitionIndex = 7937;
 
 	class AlertCompliance : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_AlertHideTaskList()
-		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(AlertCompliance_TypeDefinitionIndex)->GetStaticField(0x84D0);
-		}
 		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
 		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(AlertCompliance_TypeDefinitionIndex)->GetStaticField(0x84D8);
+			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(AlertCompliance_TypeDefinitionIndex)->GetStaticField(0xC530);
+		}
+		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_AlertHideTaskList()
+		{
+			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(AlertCompliance_TypeDefinitionIndex)->GetStaticField(0xC538);
 		}
 		// static const ::System::String* PUNCTUATION_NO_START; // 0x0
 		// static const ::System::String* PrefabName; // 0x0
@@ -80,9 +80,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTCOMPLIANCE_START_OFFSET))(this);
 		}
 
-		static ::System::Void Show(::System::String* content, ::System::String* button, ::MiHoYo::SDK::AlertCompliance_OnAlertDelegate* callback, ::System::Boolean isShowClose)
+		static ::System::Void Show(::System::String* a1, ::System::String* a2, ::MiHoYo::SDK::AlertCompliance_OnAlertDelegate* a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*, ::MiHoYo::SDK::AlertCompliance_OnAlertDelegate*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTCOMPLIANCE_SHOW_OFFSET))(content, button, callback, isShowClose);
+			return ((::System::Void(*)(::System::String*, ::System::String*, ::MiHoYo::SDK::AlertCompliance_OnAlertDelegate*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTCOMPLIANCE_SHOW_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Void Hide()
@@ -105,19 +105,19 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTCOMPLIANCE_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void SetText(::System::String* rawText)
+		::System::Void SetText(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTCOMPLIANCE_SETTEXT_OFFSET))(this, rawText);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTCOMPLIANCE_SETTEXT_OFFSET))(this, a1);
 		}
 
-		::System::String* PostProcessFinalLine(::System::String* formattedText)
+		::System::String* PostProcessFinalLine(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTCOMPLIANCE_POSTPROCESSFINALLINE_OFFSET))(this, formattedText);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTCOMPLIANCE_POSTPROCESSFINALLINE_OFFSET))(this, a1);
 		}
 
-		::System::Single GetCharWidth(::System::Char c, ::UnityEngine::TextGenerationSettings settings)
+		::System::Single GetCharWidth(::System::Char a1, ::UnityEngine::TextGenerationSettings a2)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Char, ::UnityEngine::TextGenerationSettings))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTCOMPLIANCE_GETCHARWIDTH_OFFSET))(this, c, settings);
+			return ((::System::Single(*)(::PVOID, ::System::Char, ::UnityEngine::TextGenerationSettings))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTCOMPLIANCE_GETCHARWIDTH_OFFSET))(this, a1, a2);
 		}
 	};
 }

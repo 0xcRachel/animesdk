@@ -8,13 +8,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPENABLECOLLIDER_METHOD_3_62EE0BC2FDA6E25B_OFFSET UNITYSDK_OFFSET(0x191C28E0)
-#define RPG_GAMECORE_PROPENABLECOLLIDER_METHOD_3_C9A9C25FA702FC17_OFFSET UNITYSDK_OFFSET(0x191C2A40)
-#define RPG_GAMECORE_PROPENABLECOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x191C29A0)
+#define RPG_GAMECORE_PROPENABLECOLLIDER_METHOD_3_5BA7B3700B755D58_OFFSET UNITYSDK_OFFSET(0x19A87350)
+#define RPG_GAMECORE_PROPENABLECOLLIDER_METHOD_3_ED5458DF2AEF2FAB_OFFSET UNITYSDK_OFFSET(0x19A871F0)
+#define RPG_GAMECORE_PROPENABLECOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x19A872B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropEnableCollider_TypeDefinitionIndex = 19349;
+	inline static constexpr unsigned int PropEnableCollider_TypeDefinitionIndex = 19257;
 
 	class PropEnableCollider : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,14 +31,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPENABLECOLLIDER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_62EE0BC2FDA6E25B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropEnableCollider*& a2)
+		static ::System::Void Method_3_ED5458DF2AEF2FAB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropEnableCollider*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropEnableCollider*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPENABLECOLLIDER_METHOD_3_62EE0BC2FDA6E25B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropEnableCollider*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPENABLECOLLIDER_METHOD_3_ED5458DF2AEF2FAB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C9A9C25FA702FC17(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropEnableCollider* a2)
+		static ::System::Void Method_3_5BA7B3700B755D58(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropEnableCollider* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropEnableCollider*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPENABLECOLLIDER_METHOD_3_C9A9C25FA702FC17_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropEnableCollider*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPENABLECOLLIDER_METHOD_3_5BA7B3700B755D58_OFFSET))(a1, a2);
 		}
 	};
 }

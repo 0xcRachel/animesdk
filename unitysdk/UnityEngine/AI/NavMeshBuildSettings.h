@@ -3,17 +3,17 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/AI/NavMeshBuildDebugSettings.h"
 
-#define UNITYENGINE_AI_NAVMESHBUILDSETTINGS_GET_AGENTRADIUS_OFFSET UNITYSDK_OFFSET(0x608BD0)
-#define UNITYENGINE_AI_NAVMESHBUILDSETTINGS_GET_AGENTTYPEID_OFFSET UNITYSDK_OFFSET(0x608A20)
-#define UNITYENGINE_AI_NAVMESHBUILDSETTINGS_SET_AGENTTYPEID_OFFSET UNITYSDK_OFFSET(0x6326D0)
-#define UNITYENGINE_AI_NAVMESHBUILDSETTINGS_SET_OVERRIDETILESIZE_OFFSET UNITYSDK_OFFSET(0x23BE4C0)
-#define UNITYENGINE_AI_NAVMESHBUILDSETTINGS_SET_OVERRIDEVOXELSIZE_OFFSET UNITYSDK_OFFSET(0x23BE4B0)
-#define UNITYENGINE_AI_NAVMESHBUILDSETTINGS_SET_TILESIZE_OFFSET UNITYSDK_OFFSET(0x23BE4D0)
-#define UNITYENGINE_AI_NAVMESHBUILDSETTINGS_SET_VOXELSIZE_OFFSET UNITYSDK_OFFSET(0x2358600)
+#define UNITYENGINE_AI_NAVMESHBUILDSETTINGS_GET_AGENTRADIUS_OFFSET UNITYSDK_OFFSET(0x72BD70)
+#define UNITYENGINE_AI_NAVMESHBUILDSETTINGS_GET_AGENTTYPEID_OFFSET UNITYSDK_OFFSET(0x72BBF0)
+#define UNITYENGINE_AI_NAVMESHBUILDSETTINGS_SET_AGENTTYPEID_OFFSET UNITYSDK_OFFSET(0xA18540)
+#define UNITYENGINE_AI_NAVMESHBUILDSETTINGS_SET_OVERRIDETILESIZE_OFFSET UNITYSDK_OFFSET(0x3960950)
+#define UNITYENGINE_AI_NAVMESHBUILDSETTINGS_SET_OVERRIDEVOXELSIZE_OFFSET UNITYSDK_OFFSET(0x3960940)
+#define UNITYENGINE_AI_NAVMESHBUILDSETTINGS_SET_TILESIZE_OFFSET UNITYSDK_OFFSET(0x39255E0)
+#define UNITYENGINE_AI_NAVMESHBUILDSETTINGS_SET_VOXELSIZE_OFFSET UNITYSDK_OFFSET(0x3902A40)
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMeshBuildSettings_TypeDefinitionIndex = 5385;
+	inline static constexpr unsigned int NavMeshBuildSettings_TypeDefinitionIndex = 5662;
 
 	struct alignas(4) NavMeshBuildSettings
 	{
@@ -37,9 +37,9 @@ namespace UnityEngine::AI
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDSETTINGS_GET_AGENTTYPEID_OFFSET))(this);
 		}
 
-		::System::Void set_agentTypeID(::System::Int32 value)
+		::System::Void set_agentTypeID(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDSETTINGS_SET_AGENTTYPEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDSETTINGS_SET_AGENTTYPEID_OFFSET))(this, a1);
 		}
 
 		::System::Single get_agentRadius()
@@ -47,24 +47,24 @@ namespace UnityEngine::AI
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDSETTINGS_GET_AGENTRADIUS_OFFSET))(this);
 		}
 
-		::System::Void set_overrideVoxelSize(::System::Boolean value)
+		::System::Void set_overrideVoxelSize(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDSETTINGS_SET_OVERRIDEVOXELSIZE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDSETTINGS_SET_OVERRIDEVOXELSIZE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_voxelSize(::System::Single value)
+		::System::Void set_voxelSize(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDSETTINGS_SET_VOXELSIZE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDSETTINGS_SET_VOXELSIZE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_overrideTileSize(::System::Boolean value)
+		::System::Void set_overrideTileSize(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDSETTINGS_SET_OVERRIDETILESIZE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDSETTINGS_SET_OVERRIDETILESIZE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_tileSize(::System::Int32 value)
+		::System::Void set_tileSize(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDSETTINGS_SET_TILESIZE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDSETTINGS_SET_TILESIZE_OFFSET))(this, a1);
 		}
 	};
 }

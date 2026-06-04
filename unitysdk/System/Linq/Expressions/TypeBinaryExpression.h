@@ -4,12 +4,12 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_TYPEBINARYEXPRESSION_GET_EXPRESSION_OFFSET UNITYSDK_OFFSET(0x19C88370)
-#define SYSTEM_LINQ_EXPRESSIONS_TYPEBINARYEXPRESSION_GET_TYPEOPERAND_OFFSET UNITYSDK_OFFSET(0x19C88380)
+#define SYSTEM_LINQ_EXPRESSIONS_TYPEBINARYEXPRESSION_GET_EXPRESSION_OFFSET UNITYSDK_OFFSET(0x1A6A69D0)
+#define SYSTEM_LINQ_EXPRESSIONS_TYPEBINARYEXPRESSION_GET_TYPEOPERAND_OFFSET UNITYSDK_OFFSET(0x1A6A69E0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int TypeBinaryExpression_TypeDefinitionIndex = 3266;
+	inline static constexpr unsigned int TypeBinaryExpression_TypeDefinitionIndex = 3267;
 
 	class TypeBinaryExpression : public ::System::Linq::Expressions::Expression
 	{

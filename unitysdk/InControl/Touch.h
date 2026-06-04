@@ -6,17 +6,17 @@
 #include "unitysdk/UnityEngine/TouchPhase.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define INCONTROL_TOUCH_GET_ISMOUSE_OFFSET UNITYSDK_OFFSET(0x13BD3460)
-#define INCONTROL_TOUCH_GET_NORMALIZEDPRESSURE_1_OFFSET UNITYSDK_OFFSET(0x13BD3430)
-#define INCONTROL_TOUCH_GET_NORMALIZEDPRESSURE_OFFSET UNITYSDK_OFFSET(0x13BD3400)
-#define INCONTROL_TOUCH_RESET_OFFSET UNITYSDK_OFFSET(0x13BD3380)
-#define INCONTROL_TOUCH_SETWITHMOUSEDATA_OFFSET UNITYSDK_OFFSET(0x13BD35D0)
-#define INCONTROL_TOUCH_SETWITHTOUCHDATA_OFFSET UNITYSDK_OFFSET(0x13BD3470)
-#define INCONTROL_TOUCH__CTOR_OFFSET UNITYSDK_OFFSET(0x13BD3370)
+#define INCONTROL_TOUCH_GET_ISMOUSE_OFFSET UNITYSDK_OFFSET(0x12A19CC0)
+#define INCONTROL_TOUCH_GET_NORMALIZEDPRESSURE_1_OFFSET UNITYSDK_OFFSET(0x12A19C90)
+#define INCONTROL_TOUCH_GET_NORMALIZEDPRESSURE_OFFSET UNITYSDK_OFFSET(0x12A19C60)
+#define INCONTROL_TOUCH_RESET_OFFSET UNITYSDK_OFFSET(0x12A19BE0)
+#define INCONTROL_TOUCH_SETWITHMOUSEDATA_OFFSET UNITYSDK_OFFSET(0x12A19E40)
+#define INCONTROL_TOUCH_SETWITHTOUCHDATA_OFFSET UNITYSDK_OFFSET(0x12A19CD0)
+#define INCONTROL_TOUCH__CTOR_OFFSET UNITYSDK_OFFSET(0x12A19BD0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int Touch_TypeDefinitionIndex = 37185;
+	inline static constexpr unsigned int Touch_TypeDefinitionIndex = 37917;
 
 	class Touch : public ::System::Object
 	{
@@ -24,22 +24,22 @@ namespace InControl
 		// static const ::System::Int32 FingerID_None = 0xFFFFFFFF; // 0x0
 		// static const ::System::Int32 FingerID_Mouse = 0xFFFFFFFE; // 0x0
 		::System::Single altitudeAngle; // 0x10
-		::System::Int32 tapCount; // 0x14
-		::UnityEngine::Vector2 lastPosition; // 0x18
-		::UnityEngine::Vector2 deltaPosition; // 0x20
-		::UnityEngine::Vector2 startPosition; // 0x28
-		::System::Single maximumPossiblePressure; // 0x30
-		::System::Single azimuthAngle; // 0x34
-		::System::Int32 mouseButton; // 0x38
-		::System::Single pressure; // 0x3C
-		::System::Single deltaTime; // 0x40
-		::System::UInt64 updateTick; // 0x48
-		::System::Int32 fingerId; // 0x50
-		::UnityEngine::Vector2 position; // 0x54
-		::UnityEngine::TouchPhase phase; // 0x5C
-		::System::Single radiusVariance; // 0x60
-		::System::Single radius; // 0x64
-		::InControl::TouchType type; // 0x68
+		::System::Single deltaTime; // 0x14
+		::System::Single radiusVariance; // 0x18
+		::System::Single maximumPossiblePressure; // 0x1C
+		::UnityEngine::Vector2 startPosition; // 0x20
+		::UnityEngine::TouchPhase phase; // 0x28
+		::InControl::TouchType type; // 0x2C
+		::UnityEngine::Vector2 deltaPosition; // 0x30
+		::UnityEngine::Vector2 lastPosition; // 0x38
+		::System::Single pressure; // 0x40
+		::System::Int32 fingerId; // 0x44
+		::System::Int32 mouseButton; // 0x48
+		::System::Int32 tapCount; // 0x4C
+		::System::Single azimuthAngle; // 0x50
+		::System::UInt64 updateTick; // 0x58
+		::UnityEngine::Vector2 position; // 0x60
+		::System::Single radius; // 0x68
 
 		::System::Void _ctor()
 		{
@@ -66,14 +66,14 @@ namespace InControl
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCH_GET_ISMOUSE_OFFSET))(this);
 		}
 
-		::System::Void SetWithTouchData(::UnityEngine::Touch touch, ::System::UInt64 updateTick, ::System::Single deltaTime)
+		::System::Void SetWithTouchData(::UnityEngine::Touch a1, ::System::UInt64 a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Touch, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCH_SETWITHTOUCHDATA_OFFSET))(this, touch, updateTick, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Touch, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCH_SETWITHTOUCHDATA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean SetWithMouseData(::System::Int32 button, ::System::UInt64 updateTick, ::System::Single deltaTime)
+		::System::Boolean SetWithMouseData(::System::Int32 a1, ::System::UInt64 a2, ::System::Single a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCH_SETWITHMOUSEDATA_OFFSET))(this, button, updateTick, deltaTime);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCH_SETWITHMOUSEDATA_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

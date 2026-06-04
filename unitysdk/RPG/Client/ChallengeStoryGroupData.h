@@ -5,29 +5,29 @@
 namespace RPG::GameCore { class ChallengeStoryGroupExtraConfigRow; }
 namespace RPG::GameCore { class ChallengeStoryThemeConfigRow; }
 
-#define RPG_CLIENT_CHALLENGESTORYGROUPDATA_GET_OPTIONALBUFFLIST_OFFSET UNITYSDK_OFFSET(0x15DD2750)
-#define RPG_CLIENT_CHALLENGESTORYGROUPDATA_GET_STORYGROUPEXTRAINFOROW_OFFSET UNITYSDK_OFFSET(0x15DD26F0)
-#define RPG_CLIENT_CHALLENGESTORYGROUPDATA_GET_STORYTHEMECONFIGROW_OFFSET UNITYSDK_OFFSET(0x15DD2710)
-#define RPG_CLIENT_CHALLENGESTORYGROUPDATA_GET_THEMEID_OFFSET UNITYSDK_OFFSET(0x15DD2730)
-#define RPG_CLIENT_CHALLENGESTORYGROUPDATA_SET_STORYGROUPEXTRAINFOROW_OFFSET UNITYSDK_OFFSET(0x15DD2700)
-#define RPG_CLIENT_CHALLENGESTORYGROUPDATA_SET_STORYTHEMECONFIGROW_OFFSET UNITYSDK_OFFSET(0x15DD2720)
-#define RPG_CLIENT_CHALLENGESTORYGROUPDATA_SET_THEMEID_OFFSET UNITYSDK_OFFSET(0x15DD2740)
-#define RPG_CLIENT_CHALLENGESTORYGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15DD2630)
+#define RPG_CLIENT_CHALLENGESTORYGROUPDATA_GET_OPTIONALBUFFLIST_OFFSET UNITYSDK_OFFSET(0x17B00560)
+#define RPG_CLIENT_CHALLENGESTORYGROUPDATA_GET_STORYGROUPEXTRAINFOROW_OFFSET UNITYSDK_OFFSET(0x17A54A20)
+#define RPG_CLIENT_CHALLENGESTORYGROUPDATA_GET_STORYTHEMECONFIGROW_OFFSET UNITYSDK_OFFSET(0x17A54A40)
+#define RPG_CLIENT_CHALLENGESTORYGROUPDATA_GET_THEMEID_OFFSET UNITYSDK_OFFSET(0x17B00540)
+#define RPG_CLIENT_CHALLENGESTORYGROUPDATA_SET_STORYGROUPEXTRAINFOROW_OFFSET UNITYSDK_OFFSET(0x17A54A30)
+#define RPG_CLIENT_CHALLENGESTORYGROUPDATA_SET_STORYTHEMECONFIGROW_OFFSET UNITYSDK_OFFSET(0x17B00530)
+#define RPG_CLIENT_CHALLENGESTORYGROUPDATA_SET_THEMEID_OFFSET UNITYSDK_OFFSET(0x17B00550)
+#define RPG_CLIENT_CHALLENGESTORYGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17B00580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeStoryGroupData_TypeDefinitionIndex = 58163;
+	inline static constexpr unsigned int ChallengeStoryGroupData_TypeDefinitionIndex = 59093;
 
 	class ChallengeStoryGroupData : public ::RPG::Client::ChallengeGroupData
 	{
 	public:
-		::RPG::GameCore::ChallengeStoryGroupExtraConfigRow* _StoryGroupExtraInfoRow_k__BackingField; // 0x48
-		::RPG::GameCore::ChallengeStoryThemeConfigRow* _StoryThemeConfigRow_k__BackingField; // 0x50
-		::System::UInt32 _ThemeID_k__BackingField; // 0x58
+		::RPG::GameCore::ChallengeStoryThemeConfigRow* _StoryThemeConfigRow_k__BackingField; // 0x58
+		::RPG::GameCore::ChallengeStoryGroupExtraConfigRow* _StoryGroupExtraInfoRow_k__BackingField; // 0x60
+		::System::UInt32 _ThemeID_k__BackingField; // 0x68
 
-		::System::Void _ctor(::System::UInt32 groupConfigID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYGROUPDATA__CTOR_OFFSET))(this, groupConfigID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYGROUPDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::ChallengeStoryGroupExtraConfigRow* get_StoryGroupExtraInfoRow()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::ChallengeStoryGroupExtraConfigRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYGROUPDATA_GET_STORYGROUPEXTRAINFOROW_OFFSET))(this);
 		}
 
-		::System::Void set_StoryGroupExtraInfoRow(::RPG::GameCore::ChallengeStoryGroupExtraConfigRow* value)
+		::System::Void set_StoryGroupExtraInfoRow(::RPG::GameCore::ChallengeStoryGroupExtraConfigRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChallengeStoryGroupExtraConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYGROUPDATA_SET_STORYGROUPEXTRAINFOROW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChallengeStoryGroupExtraConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYGROUPDATA_SET_STORYGROUPEXTRAINFOROW_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::ChallengeStoryThemeConfigRow* get_StoryThemeConfigRow()
@@ -45,9 +45,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::ChallengeStoryThemeConfigRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYGROUPDATA_GET_STORYTHEMECONFIGROW_OFFSET))(this);
 		}
 
-		::System::Void set_StoryThemeConfigRow(::RPG::GameCore::ChallengeStoryThemeConfigRow* value)
+		::System::Void set_StoryThemeConfigRow(::RPG::GameCore::ChallengeStoryThemeConfigRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChallengeStoryThemeConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYGROUPDATA_SET_STORYTHEMECONFIGROW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChallengeStoryThemeConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYGROUPDATA_SET_STORYTHEMECONFIGROW_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ThemeID()
@@ -55,9 +55,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYGROUPDATA_GET_THEMEID_OFFSET))(this);
 		}
 
-		::System::Void set_ThemeID(::System::UInt32 value)
+		::System::Void set_ThemeID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYGROUPDATA_SET_THEMEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYGROUPDATA_SET_THEMEID_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::UInt32>* get_OptionalBuffList()

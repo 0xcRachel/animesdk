@@ -8,36 +8,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE_GETRAYINTERSECTIONALLNONALLOCCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x15E9DDA0)
-#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE_GETRAYINTERSECTIONALLNONALLOCCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x15E9DE60)
-#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE_GETRAYINTERSECTIONALLNONALLOCCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x15E9D870)
-#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE_GETRAYINTERSECTIONALLNONALLOCCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x15E9D850)
+#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE_GETRAYINTERSECTIONALLNONALLOCCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x13623330)
+#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE_GETRAYINTERSECTIONALLNONALLOCCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x136233F0)
+#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE_GETRAYINTERSECTIONALLNONALLOCCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x136232F0)
+#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE_GETRAYINTERSECTIONALLNONALLOCCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x13623280)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback_TypeDefinitionIndex = 5764;
+	inline static constexpr unsigned int ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback_TypeDefinitionIndex = 6041;
 
 	class ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_REFLECTIONMETHODSCACHE_GETRAYINTERSECTIONALLNONALLOCCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_REFLECTIONMETHODSCACHE_GETRAYINTERSECTIONALLNONALLOCCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 Invoke(::UnityEngine::Ray r, ::Il2CppArray<::UnityEngine::RaycastHit2D>* results, ::System::Single f, ::System::Int32 i)
+		::System::Int32 Invoke(::UnityEngine::Ray a1, ::Il2CppArray<::UnityEngine::RaycastHit2D>* a2, ::System::Single a3, ::System::Int32 a4)
 		{
-			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Ray, ::Il2CppArray<::UnityEngine::RaycastHit2D>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_REFLECTIONMETHODSCACHE_GETRAYINTERSECTIONALLNONALLOCCALLBACK_INVOKE_OFFSET))(this, r, results, f, i);
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Ray, ::Il2CppArray<::UnityEngine::RaycastHit2D>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_REFLECTIONMETHODSCACHE_GETRAYINTERSECTIONALLNONALLOCCALLBACK_INVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::UnityEngine::Ray r, ::Il2CppArray<::UnityEngine::RaycastHit2D>* results, ::System::Single f, ::System::Int32 i, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::UnityEngine::Ray a1, ::Il2CppArray<::UnityEngine::RaycastHit2D>* a2, ::System::Single a3, ::System::Int32 a4, ::System::AsyncCallback* a5, ::System::Object* a6)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Ray, ::Il2CppArray<::UnityEngine::RaycastHit2D>*, ::System::Single, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_REFLECTIONMETHODSCACHE_GETRAYINTERSECTIONALLNONALLOCCALLBACK_BEGININVOKE_OFFSET))(this, r, results, f, i, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Ray, ::Il2CppArray<::UnityEngine::RaycastHit2D>*, ::System::Single, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_REFLECTIONMETHODSCACHE_GETRAYINTERSECTIONALLNONALLOCCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Int32 EndInvoke(::System::IAsyncResult* result)
+		::System::Int32 EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_REFLECTIONMETHODSCACHE_GETRAYINTERSECTIONALLNONALLOCCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_REFLECTIONMETHODSCACHE_GETRAYINTERSECTIONALLNONALLOCCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

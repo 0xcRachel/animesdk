@@ -2,30 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AKRAMP_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x196F57E0)
-#define AKRAMP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x196F56F0)
-#define AKRAMP_FINALIZE_OFFSET UNITYSDK_OFFSET(0x196F5770)
-#define AKRAMP_GETCPTR_OFFSET UNITYSDK_OFFSET(0x196F55E0)
-#define AKRAMP_GET_FNEXT_OFFSET UNITYSDK_OFFSET(0x196F5CD0)
-#define AKRAMP_GET_FPREV_OFFSET UNITYSDK_OFFSET(0x196F5B60)
-#define AKRAMP_SETCPTR_OFFSET UNITYSDK_OFFSET(0x196F5630)
-#define AKRAMP_SET_FNEXT_OFFSET UNITYSDK_OFFSET(0x196F5C10)
-#define AKRAMP_SET_FPREV_OFFSET UNITYSDK_OFFSET(0x196F5AA0)
-#define AKRAMP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x196F5980)
-#define AKRAMP__CTOR_2_OFFSET UNITYSDK_OFFSET(0x196F5A00)
-#define AKRAMP__CTOR_OFFSET UNITYSDK_OFFSET(0x196F55D0)
+#define AKRAMP_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1A282520)
+#define AKRAMP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A282400)
+#define AKRAMP_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A2824B0)
+#define AKRAMP_GETCPTR_OFFSET UNITYSDK_OFFSET(0x1A2822C0)
+#define AKRAMP_GET_FNEXT_OFFSET UNITYSDK_OFFSET(0x1A282A50)
+#define AKRAMP_GET_FPREV_OFFSET UNITYSDK_OFFSET(0x1A2828E0)
+#define AKRAMP_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1A282310)
+#define AKRAMP_SET_FNEXT_OFFSET UNITYSDK_OFFSET(0x1A282990)
+#define AKRAMP_SET_FPREV_OFFSET UNITYSDK_OFFSET(0x1A282820)
+#define AKRAMP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A282700)
+#define AKRAMP__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A282780)
+#define AKRAMP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2822B0)
 
-inline static constexpr unsigned int AkRamp_TypeDefinitionIndex = 40336;
+inline static constexpr unsigned int AkRamp_TypeDefinitionIndex = 41163;
 
 class AkRamp : public ::System::Object
 {
 public:
-	::System::Boolean swigCMemOwn; // 0x10
-	::System::IntPtr swigCPtr; // 0x18
+	::System::IntPtr swigCPtr; // 0x10
+	::System::Boolean swigCMemOwn; // 0x18
 
-	::System::Void _ctor(::System::IntPtr cPtr, ::System::Boolean cMemoryOwn)
+	::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKRAMP__CTOR_OFFSET))(this, cPtr, cMemoryOwn);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKRAMP__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void _ctor_1()
@@ -33,19 +33,19 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKRAMP__CTOR_1_OFFSET))(this);
 	}
 
-	::System::Void _ctor_2(::System::Single in_fPrev, ::System::Single in_fNext)
+	::System::Void _ctor_2(::System::Single a1, ::System::Single a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + AKRAMP__CTOR_2_OFFSET))(this, in_fPrev, in_fNext);
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + AKRAMP__CTOR_2_OFFSET))(this, a1, a2);
 	}
 
-	static ::System::IntPtr getCPtr(::AkRamp* obj)
+	static ::System::IntPtr getCPtr(::AkRamp* a1)
 	{
-		return ((::System::IntPtr(*)(::AkRamp*))((::PBYTE)hIl2Cpp + AKRAMP_GETCPTR_OFFSET))(obj);
+		return ((::System::IntPtr(*)(::AkRamp*))((::PBYTE)hIl2Cpp + AKRAMP_GETCPTR_OFFSET))(a1);
 	}
 
-	::System::Void setCPtr(::System::IntPtr cPtr)
+	::System::Void setCPtr(::System::IntPtr a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKRAMP_SETCPTR_OFFSET))(this, cPtr);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKRAMP_SETCPTR_OFFSET))(this, a1);
 	}
 
 	::System::Void Finalize()
@@ -58,14 +58,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKRAMP_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Dispose_1(::System::Boolean disposing)
+	::System::Void Dispose_1(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKRAMP_DISPOSE_1_OFFSET))(this, disposing);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKRAMP_DISPOSE_1_OFFSET))(this, a1);
 	}
 
-	::System::Void set_fPrev(::System::Single value)
+	::System::Void set_fPrev(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKRAMP_SET_FPREV_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKRAMP_SET_FPREV_OFFSET))(this, a1);
 	}
 
 	::System::Single get_fPrev()
@@ -73,9 +73,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + AKRAMP_GET_FPREV_OFFSET))(this);
 	}
 
-	::System::Void set_fNext(::System::Single value)
+	::System::Void set_fNext(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKRAMP_SET_FNEXT_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKRAMP_SET_FNEXT_OFFSET))(this, a1);
 	}
 
 	::System::Single get_fNext()

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/InteropServices/SafeBuffer.h"
 
-#define MICROSOFT_WIN32_SAFEHANDLES_SAFEMEMORYMAPPEDVIEWHANDLE_FLUSH_OFFSET UNITYSDK_OFFSET(0x18416E90)
-#define MICROSOFT_WIN32_SAFEHANDLES_SAFEMEMORYMAPPEDVIEWHANDLE_RELEASEHANDLE_OFFSET UNITYSDK_OFFSET(0x18416EB0)
-#define MICROSOFT_WIN32_SAFEHANDLES_SAFEMEMORYMAPPEDVIEWHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18416E20)
+#define MICROSOFT_WIN32_SAFEHANDLES_SAFEMEMORYMAPPEDVIEWHANDLE_FLUSH_OFFSET UNITYSDK_OFFSET(0x17A89E80)
+#define MICROSOFT_WIN32_SAFEHANDLES_SAFEMEMORYMAPPEDVIEWHANDLE_RELEASEHANDLE_OFFSET UNITYSDK_OFFSET(0x17A89EA0)
+#define MICROSOFT_WIN32_SAFEHANDLES_SAFEMEMORYMAPPEDVIEWHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x17A89E10)
 
 namespace Microsoft::Win32::SafeHandles
 {
@@ -15,9 +15,9 @@ namespace Microsoft::Win32::SafeHandles
 	public:
 		::System::IntPtr mmap_handle; // 0x38
 
-		::System::Void _ctor(::System::IntPtr mmap_handle, ::System::IntPtr base_address, ::System::Int64 size)
+		::System::Void _ctor(::System::IntPtr a1, ::System::IntPtr a2, ::System::Int64 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::IntPtr, ::System::Int64))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_SAFEHANDLES_SAFEMEMORYMAPPEDVIEWHANDLE__CTOR_OFFSET))(this, mmap_handle, base_address, size);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::IntPtr, ::System::Int64))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_SAFEHANDLES_SAFEMEMORYMAPPEDVIEWHANDLE__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Flush()

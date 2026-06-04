@@ -5,22 +5,22 @@
 
 namespace System { class String; }
 
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE_INDEXKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x22CE9E0)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE_INDEXKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x608A20)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE_INDEXKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22CE930)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE_INDEXKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x63F9C0)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE_INDEXKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x3741990)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE_INDEXKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x72BBF0)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE_INDEXKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x37418E0)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE_INDEXKEY__CTOR_OFFSET UNITYSDK_OFFSET(0xB1EAF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TextmapExcelTable_IndexKey_TypeDefinitionIndex = 14492;
+	inline static constexpr unsigned int TextmapExcelTable_IndexKey_TypeDefinitionIndex = 14529;
 
 	struct alignas(8) TextmapExcelTable_IndexKey
 	{
 		::RPG::Client::TextID ID; // 0x10
 
-		::System::Void _ctor(::RPG::Client::TextID ID)
+		::System::Void _ctor(::RPG::Client::TextID a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTMAPEXCELTABLE_INDEXKEY__CTOR_OFFSET))(this, ID);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTMAPEXCELTABLE_INDEXKEY__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTMAPEXCELTABLE_INDEXKEY_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::RPG::GameCore::TextmapExcelTable_IndexKey other)
+		::System::Boolean Equals(::RPG::GameCore::TextmapExcelTable_IndexKey a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::TextmapExcelTable_IndexKey))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTMAPEXCELTABLE_INDEXKEY_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::TextmapExcelTable_IndexKey))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTMAPEXCELTABLE_INDEXKEY_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookletMessage_TypeDefinitionIndex = 66716;
+	inline static constexpr unsigned int BookletMessage_TypeDefinitionIndex = 67656;
 
 	enum class BookletMessage : ::System::Int32
 	{

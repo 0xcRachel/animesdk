@@ -13,52 +13,52 @@ namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_TOASTHINTITEM_AWAKE_OFFSET UNITYSDK_OFFSET(0x15165640)
-#define RPG_CLIENT_TOASTHINTITEM_FADEIN_OFFSET UNITYSDK_OFFSET(0x15165560)
-#define RPG_CLIENT_TOASTHINTITEM_FADEOUT_OFFSET UNITYSDK_OFFSET(0x151655D0)
-#define RPG_CLIENT_TOASTHINTITEM_GET_ANIMATING_OFFSET UNITYSDK_OFFSET(0x15165950)
-#define RPG_CLIENT_TOASTHINTITEM_GET_CURSTATUS_OFFSET UNITYSDK_OFFSET(0x15165910)
-#define RPG_CLIENT_TOASTHINTITEM_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x151658C0)
-#define RPG_CLIENT_TOASTHINTITEM_GET_LIFETIME_OFFSET UNITYSDK_OFFSET(0x151658D0)
-#define RPG_CLIENT_TOASTHINTITEM_GET_POSITIONINDEX_OFFSET UNITYSDK_OFFSET(0x151658F0)
-#define RPG_CLIENT_TOASTHINTITEM_GET_TIMEPOINT_OFFSET UNITYSDK_OFFSET(0x15165930)
-#define RPG_CLIENT_TOASTHINTITEM_HIDE_OFFSET UNITYSDK_OFFSET(0x15165060)
-#define RPG_CLIENT_TOASTHINTITEM_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x15164EF0)
-#define RPG_CLIENT_TOASTHINTITEM_METHOD_5_07BF3EF95ADEC810_OFFSET UNITYSDK_OFFSET(0x15165390)
-#define RPG_CLIENT_TOASTHINTITEM_METHOD_5_3CA62E1B04B7F162_OFFSET UNITYSDK_OFFSET(0x151657D0)
-#define RPG_CLIENT_TOASTHINTITEM_METHOD_5_8422ABC65E83BF12_OFFSET UNITYSDK_OFFSET(0x151650F0)
-#define RPG_CLIENT_TOASTHINTITEM_METHOD_5_BD91A57DF699283A_OFFSET UNITYSDK_OFFSET(0x151652E0)
-#define RPG_CLIENT_TOASTHINTITEM_SETPOSITIONY_OFFSET UNITYSDK_OFFSET(0x15164FD0)
-#define RPG_CLIENT_TOASTHINTITEM_SET_ANIMATING_OFFSET UNITYSDK_OFFSET(0x15165960)
-#define RPG_CLIENT_TOASTHINTITEM_SET_CURSTATUS_OFFSET UNITYSDK_OFFSET(0x15165920)
-#define RPG_CLIENT_TOASTHINTITEM_SET_LIFETIME_OFFSET UNITYSDK_OFFSET(0x151658E0)
-#define RPG_CLIENT_TOASTHINTITEM_SET_POSITIONINDEX_OFFSET UNITYSDK_OFFSET(0x15165900)
-#define RPG_CLIENT_TOASTHINTITEM_SET_TIMEPOINT_OFFSET UNITYSDK_OFFSET(0x15165940)
-#define RPG_CLIENT_TOASTHINTITEM_SHOW_OFFSET UNITYSDK_OFFSET(0x15165480)
-#define RPG_CLIENT_TOASTHINTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x15165970)
+#define RPG_CLIENT_TOASTHINTITEM_AWAKE_OFFSET UNITYSDK_OFFSET(0x1644D2B0)
+#define RPG_CLIENT_TOASTHINTITEM_FADEIN_OFFSET UNITYSDK_OFFSET(0x1644D1D0)
+#define RPG_CLIENT_TOASTHINTITEM_FADEOUT_OFFSET UNITYSDK_OFFSET(0x1644D240)
+#define RPG_CLIENT_TOASTHINTITEM_GET_ANIMATING_OFFSET UNITYSDK_OFFSET(0x1644D5C0)
+#define RPG_CLIENT_TOASTHINTITEM_GET_CURSTATUS_OFFSET UNITYSDK_OFFSET(0x1644D580)
+#define RPG_CLIENT_TOASTHINTITEM_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x1644D530)
+#define RPG_CLIENT_TOASTHINTITEM_GET_LIFETIME_OFFSET UNITYSDK_OFFSET(0x1644D540)
+#define RPG_CLIENT_TOASTHINTITEM_GET_POSITIONINDEX_OFFSET UNITYSDK_OFFSET(0x1644D560)
+#define RPG_CLIENT_TOASTHINTITEM_GET_TIMEPOINT_OFFSET UNITYSDK_OFFSET(0x1644D5A0)
+#define RPG_CLIENT_TOASTHINTITEM_HIDE_OFFSET UNITYSDK_OFFSET(0x1644CE00)
+#define RPG_CLIENT_TOASTHINTITEM_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1644CC90)
+#define RPG_CLIENT_TOASTHINTITEM_METHOD_5_19B911E6848D24CA_OFFSET UNITYSDK_OFFSET(0x1644D090)
+#define RPG_CLIENT_TOASTHINTITEM_METHOD_5_3CA62E1B04B7F162_OFFSET UNITYSDK_OFFSET(0x1644D440)
+#define RPG_CLIENT_TOASTHINTITEM_METHOD_5_8671E9AD2980095B_OFFSET UNITYSDK_OFFSET(0x1644CE90)
+#define RPG_CLIENT_TOASTHINTITEM_METHOD_5_BD91A57DF699283A_OFFSET UNITYSDK_OFFSET(0x1644CFE0)
+#define RPG_CLIENT_TOASTHINTITEM_SETPOSITIONY_OFFSET UNITYSDK_OFFSET(0x1644CD70)
+#define RPG_CLIENT_TOASTHINTITEM_SET_ANIMATING_OFFSET UNITYSDK_OFFSET(0x1644D5D0)
+#define RPG_CLIENT_TOASTHINTITEM_SET_CURSTATUS_OFFSET UNITYSDK_OFFSET(0x1644D590)
+#define RPG_CLIENT_TOASTHINTITEM_SET_LIFETIME_OFFSET UNITYSDK_OFFSET(0x1644D550)
+#define RPG_CLIENT_TOASTHINTITEM_SET_POSITIONINDEX_OFFSET UNITYSDK_OFFSET(0x1644D570)
+#define RPG_CLIENT_TOASTHINTITEM_SET_TIMEPOINT_OFFSET UNITYSDK_OFFSET(0x1644D5B0)
+#define RPG_CLIENT_TOASTHINTITEM_SHOW_OFFSET UNITYSDK_OFFSET(0x1644D0F0)
+#define RPG_CLIENT_TOASTHINTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1644D5E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ToastHintItem_TypeDefinitionIndex = 67201;
+	inline static constexpr unsigned int ToastHintItem_TypeDefinitionIndex = 68145;
 
 	class ToastHintItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Single Field_5_12; // 0x0
-		// static const ::System::String* Field_5_13; // 0x0
-		// static const ::System::String* Field_5_14; // 0x0
+		// static const ::System::Single Field_5_0; // 0x0
+		// static const ::System::String* Field_5_1; // 0x0
+		// static const ::System::String* Field_5_2; // 0x0
 		::System::Single _LifeTime_k__BackingField; // 0x18
 		::System::UInt32 _PositionIndex_k__BackingField; // 0x1C
 		::RPG::Client::ToastHintItem_Status _CurStatus_k__BackingField; // 0x20
 		::System::Single _TimePoint_k__BackingField; // 0x24
 		::System::Boolean _Animating_k__BackingField; // 0x28
-		::UnityEngine::Animation* Field_5_5; // 0x30
-		::UnityEngine::CanvasGroup* Field_5_6; // 0x38
-		::UnityEngine::CanvasGroup* Field_5_7; // 0x40
-		::UnityEngine::UI::Text* Field_5_8; // 0x48
-		::UnityEngine::UI::Image* Field_5_9; // 0x50
-		::UnityEngine::UI::Image* Field_5_10; // 0x58
-		::RPG::Client::UIContextAssetLoader* Field_5_11; // 0x60
+		::UnityEngine::Animation* Field_5_8; // 0x30
+		::UnityEngine::CanvasGroup* Field_5_9; // 0x38
+		::UnityEngine::CanvasGroup* Field_5_10; // 0x40
+		::UnityEngine::UI::Text* Field_5_11; // 0x48
+		::UnityEngine::UI::Image* Field_5_12; // 0x50
+		::UnityEngine::UI::Image* Field_5_13; // 0x58
+		::RPG::Client::UIContextAssetLoader* Field_5_14; // 0x60
 
 		::System::Void _ctor()
 		{
@@ -70,9 +70,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::Class_1_2DBF65AB2D8DEA9B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOASTHINTITEM_INITIALIZE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_8422ABC65E83BF12(::Class_1_2DBF65AB2D8DEA9B* a1)
+		::System::Void Method_5_8671E9AD2980095B(::Class_1_2DBF65AB2D8DEA9B* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_2DBF65AB2D8DEA9B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOASTHINTITEM_METHOD_5_8422ABC65E83BF12_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_2DBF65AB2D8DEA9B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOASTHINTITEM_METHOD_5_8671E9AD2980095B_OFFSET))(this, a1);
 		}
 
 		::System::Void SetPositionY(::System::Single a1)
@@ -115,9 +115,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::RPG::Client::TextID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOASTHINTITEM_METHOD_5_BD91A57DF699283A_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Method_5_07BF3EF95ADEC810(::System::String* a1)
+		::System::Void Method_5_19B911E6848D24CA(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOASTHINTITEM_METHOD_5_07BF3EF95ADEC810_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOASTHINTITEM_METHOD_5_19B911E6848D24CA_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Height()
@@ -130,9 +130,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOASTHINTITEM_GET_LIFETIME_OFFSET))(this);
 		}
 
-		::System::Void set_LifeTime(::System::Single value)
+		::System::Void set_LifeTime(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOASTHINTITEM_SET_LIFETIME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOASTHINTITEM_SET_LIFETIME_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_PositionIndex()
@@ -140,9 +140,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOASTHINTITEM_GET_POSITIONINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_PositionIndex(::System::UInt32 value)
+		::System::Void set_PositionIndex(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOASTHINTITEM_SET_POSITIONINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOASTHINTITEM_SET_POSITIONINDEX_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ToastHintItem_Status get_CurStatus()
@@ -150,9 +150,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ToastHintItem_Status(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOASTHINTITEM_GET_CURSTATUS_OFFSET))(this);
 		}
 
-		::System::Void set_CurStatus(::RPG::Client::ToastHintItem_Status value)
+		::System::Void set_CurStatus(::RPG::Client::ToastHintItem_Status a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ToastHintItem_Status))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOASTHINTITEM_SET_CURSTATUS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ToastHintItem_Status))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOASTHINTITEM_SET_CURSTATUS_OFFSET))(this, a1);
 		}
 
 		::System::Single get_TimePoint()
@@ -160,9 +160,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOASTHINTITEM_GET_TIMEPOINT_OFFSET))(this);
 		}
 
-		::System::Void set_TimePoint(::System::Single value)
+		::System::Void set_TimePoint(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOASTHINTITEM_SET_TIMEPOINT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOASTHINTITEM_SET_TIMEPOINT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_Animating()
@@ -170,9 +170,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOASTHINTITEM_GET_ANIMATING_OFFSET))(this);
 		}
 
-		::System::Void set_Animating(::System::Boolean value)
+		::System::Void set_Animating(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOASTHINTITEM_SET_ANIMATING_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TOASTHINTITEM_SET_ANIMATING_OFFSET))(this, a1);
 		}
 	};
 }

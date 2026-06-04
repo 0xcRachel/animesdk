@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_36E937D84726B70A_GET_EVENTID_OFFSET UNITYSDK_OFFSET(0xFCCDAD0)
-#define CLASS_1_36E937D84726B70A_GET_OPTIONID_OFFSET UNITYSDK_OFFSET(0xFCCDAF0)
-#define CLASS_1_36E937D84726B70A_GET_RATIO_OFFSET UNITYSDK_OFFSET(0xFCCDB10)
-#define CLASS_1_36E937D84726B70A_METHOD_1_14074EEA61A65013_OFFSET UNITYSDK_OFFSET(0xFCCDA30)
-#define CLASS_1_36E937D84726B70A_SET_EVENTID_OFFSET UNITYSDK_OFFSET(0xFCCDAE0)
-#define CLASS_1_36E937D84726B70A_SET_OPTIONID_OFFSET UNITYSDK_OFFSET(0xFCCDB00)
-#define CLASS_1_36E937D84726B70A_SET_RATIO_OFFSET UNITYSDK_OFFSET(0xFCCDB20)
-#define CLASS_1_36E937D84726B70A__CTOR_OFFSET UNITYSDK_OFFSET(0xFCCDAC0)
+#define CLASS_1_36E937D84726B70A_GET_EVENTID_OFFSET UNITYSDK_OFFSET(0x15471DB0)
+#define CLASS_1_36E937D84726B70A_GET_OPTIONID_OFFSET UNITYSDK_OFFSET(0x15471DD0)
+#define CLASS_1_36E937D84726B70A_GET_RATIO_OFFSET UNITYSDK_OFFSET(0x15471DF0)
+#define CLASS_1_36E937D84726B70A_METHOD_1_14074EEA61A65013_OFFSET UNITYSDK_OFFSET(0x15471D10)
+#define CLASS_1_36E937D84726B70A_SET_EVENTID_OFFSET UNITYSDK_OFFSET(0x15471DC0)
+#define CLASS_1_36E937D84726B70A_SET_OPTIONID_OFFSET UNITYSDK_OFFSET(0x15471DE0)
+#define CLASS_1_36E937D84726B70A_SET_RATIO_OFFSET UNITYSDK_OFFSET(0x15471E00)
+#define CLASS_1_36E937D84726B70A__CTOR_OFFSET UNITYSDK_OFFSET(0x15471DA0)
 
-inline static constexpr unsigned int Class_1_36E937D84726B70A_TypeDefinitionIndex = 61047;
+inline static constexpr unsigned int Class_1_36E937D84726B70A_TypeDefinitionIndex = 61981;
 
 class Class_1_36E937D84726B70A : public ::System::Object
 {
 public:
-	::System::UInt32 _Ratio_k__BackingField; // 0x10
-	::System::UInt32 _OptionID_k__BackingField; // 0x14
+	::System::UInt32 _OptionID_k__BackingField; // 0x10
+	::System::UInt32 _Ratio_k__BackingField; // 0x14
 	::System::UInt32 _EventID_k__BackingField; // 0x18
 
 	::System::Void _ctor()
@@ -35,9 +35,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_36E937D84726B70A_GET_EVENTID_OFFSET))(this);
 	}
 
-	::System::Void set_EventID(::System::UInt32 value)
+	::System::Void set_EventID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_36E937D84726B70A_SET_EVENTID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_36E937D84726B70A_SET_EVENTID_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_OptionID()
@@ -45,9 +45,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_36E937D84726B70A_GET_OPTIONID_OFFSET))(this);
 	}
 
-	::System::Void set_OptionID(::System::UInt32 value)
+	::System::Void set_OptionID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_36E937D84726B70A_SET_OPTIONID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_36E937D84726B70A_SET_OPTIONID_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_Ratio()
@@ -55,8 +55,8 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_36E937D84726B70A_GET_RATIO_OFFSET))(this);
 	}
 
-	::System::Void set_Ratio(::System::UInt32 value)
+	::System::Void set_Ratio(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_36E937D84726B70A_SET_RATIO_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_36E937D84726B70A_SET_RATIO_OFFSET))(this, a1);
 	}
 };

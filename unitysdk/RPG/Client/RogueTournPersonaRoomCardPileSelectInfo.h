@@ -7,22 +7,22 @@ namespace RPG::Client { class IRogueTournPersonaRoomCardInGame; }
 namespace RPG::Client { class RogueTournPersonaRoomCardPileViewModel; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x172DA270)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_GET_CARDINDEX_OFFSET UNITYSDK_OFFSET(0x172DA0C0)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_GET_CARD_OFFSET UNITYSDK_OFFSET(0x172DA0E0)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_GET_PILECARDSCOUNT_OFFSET UNITYSDK_OFFSET(0x172D9F60)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_GET_PILECARDS_OFFSET UNITYSDK_OFFSET(0x172D9E50)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_GET_PILETYPE_OFFSET UNITYSDK_OFFSET(0x172D9E30)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_SELECTCARDBYINDEX_OFFSET UNITYSDK_OFFSET(0x172DA400)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_SELECTPILE_OFFSET UNITYSDK_OFFSET(0x172DA3B0)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_SET_CARDINDEX_OFFSET UNITYSDK_OFFSET(0x172DA0D0)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_SET_PILETYPE_OFFSET UNITYSDK_OFFSET(0x172D9E40)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x172DA340)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO__INIT_OFFSET UNITYSDK_OFFSET(0x172DA350)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x188AAB20)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_GET_CARDINDEX_OFFSET UNITYSDK_OFFSET(0x188AA980)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_GET_CARD_OFFSET UNITYSDK_OFFSET(0x188AA9A0)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_GET_PILECARDSCOUNT_OFFSET UNITYSDK_OFFSET(0x188AA820)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_GET_PILECARDS_OFFSET UNITYSDK_OFFSET(0x188AA710)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_GET_PILETYPE_OFFSET UNITYSDK_OFFSET(0x188AA6F0)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_SELECTCARDBYINDEX_OFFSET UNITYSDK_OFFSET(0x188AACB0)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_SELECTPILE_OFFSET UNITYSDK_OFFSET(0x188AAC60)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_SET_CARDINDEX_OFFSET UNITYSDK_OFFSET(0x188AA990)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_SET_PILETYPE_OFFSET UNITYSDK_OFFSET(0x188AA700)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x188AABF0)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO__INIT_OFFSET UNITYSDK_OFFSET(0x188AAC00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaRoomCardPileSelectInfo_TypeDefinitionIndex = 67140;
+	inline static constexpr unsigned int RogueTournPersonaRoomCardPileSelectInfo_TypeDefinitionIndex = 68083;
 
 	class RogueTournPersonaRoomCardPileSelectInfo : public ::System::Object
 	{
@@ -41,9 +41,9 @@ namespace RPG::Client
 			return ((::RPG::Client::RogueTournPersonaRoomCardPile(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_GET_PILETYPE_OFFSET))(this);
 		}
 
-		::System::Void set_PileType(::RPG::Client::RogueTournPersonaRoomCardPile value)
+		::System::Void set_PileType(::RPG::Client::RogueTournPersonaRoomCardPile a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueTournPersonaRoomCardPile))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_SET_PILETYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueTournPersonaRoomCardPile))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_SET_PILETYPE_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>* get_PileCards()
@@ -61,9 +61,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_GET_CARDINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_CardIndex(::System::Int32 value)
+		::System::Void set_CardIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_SET_CARDINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_SET_CARDINDEX_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::IRogueTournPersonaRoomCardInGame* get_Card()
@@ -71,24 +71,24 @@ namespace RPG::Client
 			return ((::RPG::Client::IRogueTournPersonaRoomCardInGame*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_GET_CARD_OFFSET))(this);
 		}
 
-		static ::RPG::Client::RogueTournPersonaRoomCardPileSelectInfo* Create(::RPG::Client::RogueTournPersonaRoomCardPileViewModel* viewModel, ::RPG::Client::RogueTournPersonaRoomCardPile defaultPileType)
+		static ::RPG::Client::RogueTournPersonaRoomCardPileSelectInfo* Create(::RPG::Client::RogueTournPersonaRoomCardPileViewModel* a1, ::RPG::Client::RogueTournPersonaRoomCardPile a2)
 		{
-			return ((::RPG::Client::RogueTournPersonaRoomCardPileSelectInfo*(*)(::RPG::Client::RogueTournPersonaRoomCardPileViewModel*, ::RPG::Client::RogueTournPersonaRoomCardPile))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_CREATE_OFFSET))(viewModel, defaultPileType);
+			return ((::RPG::Client::RogueTournPersonaRoomCardPileSelectInfo*(*)(::RPG::Client::RogueTournPersonaRoomCardPileViewModel*, ::RPG::Client::RogueTournPersonaRoomCardPile))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_CREATE_OFFSET))(a1, a2);
 		}
 
-		::System::Void _Init(::RPG::Client::RogueTournPersonaRoomCardPileViewModel* viewModel, ::RPG::Client::RogueTournPersonaRoomCardPile defaultPileType)
+		::System::Void _Init(::RPG::Client::RogueTournPersonaRoomCardPileViewModel* a1, ::RPG::Client::RogueTournPersonaRoomCardPile a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueTournPersonaRoomCardPileViewModel*, ::RPG::Client::RogueTournPersonaRoomCardPile))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO__INIT_OFFSET))(this, viewModel, defaultPileType);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueTournPersonaRoomCardPileViewModel*, ::RPG::Client::RogueTournPersonaRoomCardPile))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO__INIT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SelectPile(::RPG::Client::RogueTournPersonaRoomCardPile pileType)
+		::System::Void SelectPile(::RPG::Client::RogueTournPersonaRoomCardPile a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueTournPersonaRoomCardPile))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_SELECTPILE_OFFSET))(this, pileType);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueTournPersonaRoomCardPile))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_SELECTPILE_OFFSET))(this, a1);
 		}
 
-		::System::Void SelectCardByIndex(::System::Int32 index)
+		::System::Void SelectCardByIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_SELECTCARDBYINDEX_OFFSET))(this, index);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILESELECTINFO_SELECTCARDBYINDEX_OFFSET))(this, a1);
 		}
 	};
 }

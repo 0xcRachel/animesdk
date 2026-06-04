@@ -6,43 +6,43 @@
 namespace Microsoft::Win32::SafeHandles { class SafeWaitHandle; }
 namespace System::Runtime::InteropServices { class SafeHandle; }
 
-#define SYSTEM_THREADING_WAITHANDLE_CLOSE_OFFSET UNITYSDK_OFFSET(0x18BD8D20)
-#define SYSTEM_THREADING_WAITHANDLE_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x18BD8DB0)
-#define SYSTEM_THREADING_WAITHANDLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18BD8D70)
-#define SYSTEM_THREADING_WAITHANDLE_GET_SAFEWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x18BD7A20)
-#define SYSTEM_THREADING_WAITHANDLE_INIT_OFFSET UNITYSDK_OFFSET(0x18BD7940)
-#define SYSTEM_THREADING_WAITHANDLE_INTERNALWAITONE_OFFSET UNITYSDK_OFFSET(0x18BD7CC0)
-#define SYSTEM_THREADING_WAITHANDLE_SETHANDLEINTERNAL_OFFSET UNITYSDK_OFFSET(0x18BD7B00)
-#define SYSTEM_THREADING_WAITHANDLE_SET_HANDLE_OFFSET UNITYSDK_OFFSET(0x18BD7960)
-#define SYSTEM_THREADING_WAITHANDLE_SET_SAFEWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x18BD7AC0)
-#define SYSTEM_THREADING_WAITHANDLE_THROWABANDONEDMUTEXEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x18BD8C00)
-#define SYSTEM_THREADING_WAITHANDLE_THROWABANDONEDMUTEXEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18BD7F00)
-#define SYSTEM_THREADING_WAITHANDLE_WAITALL_1_OFFSET UNITYSDK_OFFSET(0x18BD8890)
-#define SYSTEM_THREADING_WAITHANDLE_WAITALL_OFFSET UNITYSDK_OFFSET(0x18BD7F50)
-#define SYSTEM_THREADING_WAITHANDLE_WAITANY_1_OFFSET UNITYSDK_OFFSET(0x18BD8C60)
-#define SYSTEM_THREADING_WAITHANDLE_WAITANY_OFFSET UNITYSDK_OFFSET(0x18BD88A0)
-#define SYSTEM_THREADING_WAITHANDLE_WAITMULTIPLE_OFFSET UNITYSDK_OFFSET(0x18BD8250)
-#define SYSTEM_THREADING_WAITHANDLE_WAITONENATIVE_OFFSET UNITYSDK_OFFSET(0x18BD7E20)
-#define SYSTEM_THREADING_WAITHANDLE_WAITONE_1_OFFSET UNITYSDK_OFFSET(0x18BD7BB0)
-#define SYSTEM_THREADING_WAITHANDLE_WAITONE_2_OFFSET UNITYSDK_OFFSET(0x18BD7C80)
-#define SYSTEM_THREADING_WAITHANDLE_WAITONE_3_OFFSET UNITYSDK_OFFSET(0x18BD72A0)
-#define SYSTEM_THREADING_WAITHANDLE_WAITONE_4_OFFSET UNITYSDK_OFFSET(0x18BD7CA0)
-#define SYSTEM_THREADING_WAITHANDLE_WAITONE_5_OFFSET UNITYSDK_OFFSET(0x18BD7B90)
-#define SYSTEM_THREADING_WAITHANDLE_WAITONE_OFFSET UNITYSDK_OFFSET(0x18BD7B30)
-#define SYSTEM_THREADING_WAITHANDLE_WAIT_INTERNAL_OFFSET UNITYSDK_OFFSET(0x18BD8E00)
-#define SYSTEM_THREADING_WAITHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18BD8E10)
-#define SYSTEM_THREADING_WAITHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD7920)
+#define SYSTEM_THREADING_WAITHANDLE_CLOSE_OFFSET UNITYSDK_OFFSET(0x18D92D20)
+#define SYSTEM_THREADING_WAITHANDLE_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x18D92DE0)
+#define SYSTEM_THREADING_WAITHANDLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18D92DA0)
+#define SYSTEM_THREADING_WAITHANDLE_GET_SAFEWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x18D91AB0)
+#define SYSTEM_THREADING_WAITHANDLE_INIT_OFFSET UNITYSDK_OFFSET(0x18D919A0)
+#define SYSTEM_THREADING_WAITHANDLE_INTERNALWAITONE_OFFSET UNITYSDK_OFFSET(0x18D91D70)
+#define SYSTEM_THREADING_WAITHANDLE_SETHANDLEINTERNAL_OFFSET UNITYSDK_OFFSET(0x18D91BB0)
+#define SYSTEM_THREADING_WAITHANDLE_SET_HANDLE_OFFSET UNITYSDK_OFFSET(0x18D919C0)
+#define SYSTEM_THREADING_WAITHANDLE_SET_SAFEWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x18D91B70)
+#define SYSTEM_THREADING_WAITHANDLE_THROWABANDONEDMUTEXEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x18D92C00)
+#define SYSTEM_THREADING_WAITHANDLE_THROWABANDONEDMUTEXEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18D91FB0)
+#define SYSTEM_THREADING_WAITHANDLE_WAITALL_1_OFFSET UNITYSDK_OFFSET(0x18D928E0)
+#define SYSTEM_THREADING_WAITHANDLE_WAITALL_OFFSET UNITYSDK_OFFSET(0x18D92000)
+#define SYSTEM_THREADING_WAITHANDLE_WAITANY_1_OFFSET UNITYSDK_OFFSET(0x18D92C60)
+#define SYSTEM_THREADING_WAITHANDLE_WAITANY_OFFSET UNITYSDK_OFFSET(0x18D928F0)
+#define SYSTEM_THREADING_WAITHANDLE_WAITMULTIPLE_OFFSET UNITYSDK_OFFSET(0x18D922C0)
+#define SYSTEM_THREADING_WAITHANDLE_WAITONENATIVE_OFFSET UNITYSDK_OFFSET(0x18D91ED0)
+#define SYSTEM_THREADING_WAITHANDLE_WAITONE_1_OFFSET UNITYSDK_OFFSET(0x18D91C60)
+#define SYSTEM_THREADING_WAITHANDLE_WAITONE_2_OFFSET UNITYSDK_OFFSET(0x18D91D30)
+#define SYSTEM_THREADING_WAITHANDLE_WAITONE_3_OFFSET UNITYSDK_OFFSET(0x18D91630)
+#define SYSTEM_THREADING_WAITHANDLE_WAITONE_4_OFFSET UNITYSDK_OFFSET(0x18D91D50)
+#define SYSTEM_THREADING_WAITHANDLE_WAITONE_5_OFFSET UNITYSDK_OFFSET(0x18D91C40)
+#define SYSTEM_THREADING_WAITHANDLE_WAITONE_OFFSET UNITYSDK_OFFSET(0x18D91BE0)
+#define SYSTEM_THREADING_WAITHANDLE_WAIT_INTERNAL_OFFSET UNITYSDK_OFFSET(0x18D92E60)
+#define SYSTEM_THREADING_WAITHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D92E70)
+#define SYSTEM_THREADING_WAITHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18D91980)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int WaitHandle_TypeDefinitionIndex = 868;
+	inline static constexpr unsigned int WaitHandle_TypeDefinitionIndex = 867;
 
 	class WaitHandle : public ::System::MarshalByRefObject
 	{
 	public:
 		static ::System::IntPtr* StaticGet_InvalidHandle()
 		{
-			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(WaitHandle_TypeDefinitionIndex)->GetStaticField(0x4010);
+			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(WaitHandle_TypeDefinitionIndex)->GetStaticField(0x5930);
 		}
 		// static const ::System::Int32 WaitTimeout = 0x102; // 0x0
 		// static const ::System::Int32 MAX_WAITHANDLES = 0x40; // 0x0
@@ -70,9 +70,9 @@ namespace System::Threading
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_INIT_OFFSET))(this);
 		}
 
-		::System::Void set_Handle(::System::IntPtr value)
+		::System::Void set_Handle(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_SET_HANDLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_SET_HANDLE_OFFSET))(this, a1);
 		}
 
 		::Microsoft::Win32::SafeHandles::SafeWaitHandle* get_SafeWaitHandle()
@@ -80,24 +80,24 @@ namespace System::Threading
 			return ((::Microsoft::Win32::SafeHandles::SafeWaitHandle*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_GET_SAFEWAITHANDLE_OFFSET))(this);
 		}
 
-		::System::Void set_SafeWaitHandle(::Microsoft::Win32::SafeHandles::SafeWaitHandle* value)
+		::System::Void set_SafeWaitHandle(::Microsoft::Win32::SafeHandles::SafeWaitHandle* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Microsoft::Win32::SafeHandles::SafeWaitHandle*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_SET_SAFEWAITHANDLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Microsoft::Win32::SafeHandles::SafeWaitHandle*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_SET_SAFEWAITHANDLE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetHandleInternal(::Microsoft::Win32::SafeHandles::SafeWaitHandle* handle)
+		::System::Void SetHandleInternal(::Microsoft::Win32::SafeHandles::SafeWaitHandle* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Microsoft::Win32::SafeHandles::SafeWaitHandle*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_SETHANDLEINTERNAL_OFFSET))(this, handle);
+			return ((::System::Void(*)(::PVOID, ::Microsoft::Win32::SafeHandles::SafeWaitHandle*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_SETHANDLEINTERNAL_OFFSET))(this, a1);
 		}
 
-		::System::Boolean WaitOne(::System::Int32 millisecondsTimeout, ::System::Boolean exitContext)
+		::System::Boolean WaitOne(::System::Int32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITONE_OFFSET))(this, millisecondsTimeout, exitContext);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITONE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean WaitOne_1(::System::TimeSpan timeout, ::System::Boolean exitContext)
+		::System::Boolean WaitOne_1(::System::TimeSpan a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::TimeSpan, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITONE_1_OFFSET))(this, timeout, exitContext);
+			return ((::System::Boolean(*)(::PVOID, ::System::TimeSpan, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITONE_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean WaitOne_2()
@@ -105,44 +105,44 @@ namespace System::Threading
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITONE_2_OFFSET))(this);
 		}
 
-		::System::Boolean WaitOne_3(::System::Int32 millisecondsTimeout)
+		::System::Boolean WaitOne_3(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITONE_3_OFFSET))(this, millisecondsTimeout);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITONE_3_OFFSET))(this, a1);
 		}
 
-		::System::Boolean WaitOne_4(::System::TimeSpan timeout)
+		::System::Boolean WaitOne_4(::System::TimeSpan a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITONE_4_OFFSET))(this, timeout);
+			return ((::System::Boolean(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITONE_4_OFFSET))(this, a1);
 		}
 
-		::System::Boolean WaitOne_5(::System::Int64 timeout, ::System::Boolean exitContext)
+		::System::Boolean WaitOne_5(::System::Int64 a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int64, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITONE_5_OFFSET))(this, timeout, exitContext);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int64, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITONE_5_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Boolean InternalWaitOne(::System::Runtime::InteropServices::SafeHandle* waitableSafeHandle, ::System::Int64 millisecondsTimeout, ::System::Boolean hasThreadAffinity, ::System::Boolean exitContext)
+		static ::System::Boolean InternalWaitOne(::System::Runtime::InteropServices::SafeHandle* a1, ::System::Int64 a2, ::System::Boolean a3, ::System::Boolean a4)
 		{
-			return ((::System::Boolean(*)(::System::Runtime::InteropServices::SafeHandle*, ::System::Int64, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_INTERNALWAITONE_OFFSET))(waitableSafeHandle, millisecondsTimeout, hasThreadAffinity, exitContext);
+			return ((::System::Boolean(*)(::System::Runtime::InteropServices::SafeHandle*, ::System::Int64, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_INTERNALWAITONE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean WaitAll(::Il2CppArray<::System::Threading::WaitHandle*>* waitHandles, ::System::Int32 millisecondsTimeout, ::System::Boolean exitContext)
+		static ::System::Boolean WaitAll(::Il2CppArray<::System::Threading::WaitHandle*>* a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::Il2CppArray<::System::Threading::WaitHandle*>*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITALL_OFFSET))(waitHandles, millisecondsTimeout, exitContext);
+			return ((::System::Boolean(*)(::Il2CppArray<::System::Threading::WaitHandle*>*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITALL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean WaitAll_1(::Il2CppArray<::System::Threading::WaitHandle*>* waitHandles)
+		static ::System::Boolean WaitAll_1(::Il2CppArray<::System::Threading::WaitHandle*>* a1)
 		{
-			return ((::System::Boolean(*)(::Il2CppArray<::System::Threading::WaitHandle*>*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITALL_1_OFFSET))(waitHandles);
+			return ((::System::Boolean(*)(::Il2CppArray<::System::Threading::WaitHandle*>*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITALL_1_OFFSET))(a1);
 		}
 
-		static ::System::Int32 WaitAny(::Il2CppArray<::System::Threading::WaitHandle*>* waitHandles, ::System::Int32 millisecondsTimeout, ::System::Boolean exitContext)
+		static ::System::Int32 WaitAny(::Il2CppArray<::System::Threading::WaitHandle*>* a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::Threading::WaitHandle*>*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITANY_OFFSET))(waitHandles, millisecondsTimeout, exitContext);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Threading::WaitHandle*>*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITANY_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 WaitAny_1(::Il2CppArray<::System::Threading::WaitHandle*>* waitHandles, ::System::TimeSpan timeout, ::System::Boolean exitContext)
+		static ::System::Int32 WaitAny_1(::Il2CppArray<::System::Threading::WaitHandle*>* a1, ::System::TimeSpan a2, ::System::Boolean a3)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::Threading::WaitHandle*>*, ::System::TimeSpan, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITANY_1_OFFSET))(waitHandles, timeout, exitContext);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Threading::WaitHandle*>*, ::System::TimeSpan, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITANY_1_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Void ThrowAbandonedMutexException()
@@ -150,9 +150,9 @@ namespace System::Threading
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_THROWABANDONEDMUTEXEXCEPTION_OFFSET))();
 		}
 
-		static ::System::Void ThrowAbandonedMutexException_1(::System::Int32 location, ::System::Threading::WaitHandle* handle)
+		static ::System::Void ThrowAbandonedMutexException_1(::System::Int32 a1, ::System::Threading::WaitHandle* a2)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Threading::WaitHandle*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_THROWABANDONEDMUTEXEXCEPTION_1_OFFSET))(location, handle);
+			return ((::System::Void(*)(::System::Int32, ::System::Threading::WaitHandle*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_THROWABANDONEDMUTEXEXCEPTION_1_OFFSET))(a1, a2);
 		}
 
 		::System::Void Close()
@@ -160,9 +160,9 @@ namespace System::Threading
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_CLOSE_OFFSET))(this);
 		}
 
-		::System::Void Dispose(::System::Boolean explicitDisposing)
+		::System::Void Dispose(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_DISPOSE_OFFSET))(this, explicitDisposing);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_DISPOSE_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose_1()
@@ -170,19 +170,19 @@ namespace System::Threading
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_DISPOSE_1_OFFSET))(this);
 		}
 
-		static ::System::Int32 WaitMultiple(::Il2CppArray<::System::Threading::WaitHandle*>* waitHandles, ::System::Int32 millisecondsTimeout, ::System::Boolean exitContext, ::System::Boolean WaitAll)
+		static ::System::Int32 WaitMultiple(::Il2CppArray<::System::Threading::WaitHandle*>* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Boolean a4)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::Threading::WaitHandle*>*, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITMULTIPLE_OFFSET))(waitHandles, millisecondsTimeout, exitContext, WaitAll);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Threading::WaitHandle*>*, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITMULTIPLE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 WaitOneNative(::System::Runtime::InteropServices::SafeHandle* waitableSafeHandle, ::System::UInt32 millisecondsTimeout, ::System::Boolean hasThreadAffinity, ::System::Boolean exitContext)
+		static ::System::Int32 WaitOneNative(::System::Runtime::InteropServices::SafeHandle* a1, ::System::UInt32 a2, ::System::Boolean a3, ::System::Boolean a4)
 		{
-			return ((::System::Int32(*)(::System::Runtime::InteropServices::SafeHandle*, ::System::UInt32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITONENATIVE_OFFSET))(waitableSafeHandle, millisecondsTimeout, hasThreadAffinity, exitContext);
+			return ((::System::Int32(*)(::System::Runtime::InteropServices::SafeHandle*, ::System::UInt32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAITONENATIVE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 Wait_internal(::System::IntPtr* handles, ::System::Int32 numHandles, ::System::Boolean waitAll, ::System::Int32 ms)
+		static ::System::Int32 Wait_internal(::System::IntPtr* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Int32 a4)
 		{
-			return ((::System::Int32(*)(::System::IntPtr*, ::System::Int32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAIT_INTERNAL_OFFSET))(handles, numHandles, waitAll, ms);
+			return ((::System::Int32(*)(::System::IntPtr*, ::System::Int32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLE_WAIT_INTERNAL_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

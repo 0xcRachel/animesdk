@@ -9,12 +9,12 @@ namespace System::IO { class Stream; }
 namespace System::Net { class HttpWebRequest; }
 namespace System::Net { class WebHeaderCollection; }
 
-#define SYSTEM_NET_WEBCONNECTIONDATA_GET_READSTATE_OFFSET UNITYSDK_OFFSET(0x183D2DE0)
-#define SYSTEM_NET_WEBCONNECTIONDATA_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x183D2DC0)
-#define SYSTEM_NET_WEBCONNECTIONDATA_SET_READSTATE_OFFSET UNITYSDK_OFFSET(0x183CF550)
-#define SYSTEM_NET_WEBCONNECTIONDATA_SET_REQUEST_OFFSET UNITYSDK_OFFSET(0x183D2DD0)
-#define SYSTEM_NET_WEBCONNECTIONDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x183D0180)
-#define SYSTEM_NET_WEBCONNECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x183CB780)
+#define SYSTEM_NET_WEBCONNECTIONDATA_GET_READSTATE_OFFSET UNITYSDK_OFFSET(0x1895C1F0)
+#define SYSTEM_NET_WEBCONNECTIONDATA_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1895C1D0)
+#define SYSTEM_NET_WEBCONNECTIONDATA_SET_READSTATE_OFFSET UNITYSDK_OFFSET(0x189587E0)
+#define SYSTEM_NET_WEBCONNECTIONDATA_SET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1895C1E0)
+#define SYSTEM_NET_WEBCONNECTIONDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x189594F0)
+#define SYSTEM_NET_WEBCONNECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18954970)
 
 namespace System::Net
 {
@@ -24,11 +24,11 @@ namespace System::Net
 	{
 	public:
 		::System::String* StatusDescription; // 0x10
-		::System::IO::Stream* stream; // 0x18
+		::Il2CppArray<::System::String*>* Challenge; // 0x18
 		::System::Net::HttpWebRequest* _request; // 0x20
-		::Il2CppArray<::System::String*>* Challenge; // 0x28
+		::System::Version* Version; // 0x28
 		::System::Version* ProxyVersion; // 0x30
-		::System::Version* Version; // 0x38
+		::System::IO::Stream* stream; // 0x38
 		::System::Net::WebHeaderCollection* Headers; // 0x40
 		::System::Int32 StatusCode; // 0x48
 		::System::Net::ReadState _readState; // 0x4C
@@ -38,9 +38,9 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Net::HttpWebRequest* request)
+		::System::Void _ctor_1(::System::Net::HttpWebRequest* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::HttpWebRequest*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONDATA__CTOR_1_OFFSET))(this, request);
+			return ((::System::Void(*)(::PVOID, ::System::Net::HttpWebRequest*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONDATA__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Net::HttpWebRequest* get_request()
@@ -48,9 +48,9 @@ namespace System::Net
 			return ((::System::Net::HttpWebRequest*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONDATA_GET_REQUEST_OFFSET))(this);
 		}
 
-		::System::Void set_request(::System::Net::HttpWebRequest* value)
+		::System::Void set_request(::System::Net::HttpWebRequest* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::HttpWebRequest*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONDATA_SET_REQUEST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Net::HttpWebRequest*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONDATA_SET_REQUEST_OFFSET))(this, a1);
 		}
 
 		::System::Net::ReadState get_ReadState()
@@ -58,9 +58,9 @@ namespace System::Net
 			return ((::System::Net::ReadState(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONDATA_GET_READSTATE_OFFSET))(this);
 		}
 
-		::System::Void set_ReadState(::System::Net::ReadState value)
+		::System::Void set_ReadState(::System::Net::ReadState a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::ReadState))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONDATA_SET_READSTATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Net::ReadState))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONDATA_SET_READSTATE_OFFSET))(this, a1);
 		}
 	};
 }

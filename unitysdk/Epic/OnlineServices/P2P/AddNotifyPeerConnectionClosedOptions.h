@@ -5,21 +5,21 @@
 namespace Epic::OnlineServices { class ProductUserId; }
 namespace Epic::OnlineServices::P2P { class SocketId; }
 
-#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONCLOSEDOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x197349F0)
-#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONCLOSEDOPTIONS_GET_SOCKETID_OFFSET UNITYSDK_OFFSET(0x19734A10)
-#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONCLOSEDOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19734A00)
-#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONCLOSEDOPTIONS_SET_SOCKETID_OFFSET UNITYSDK_OFFSET(0x19734A20)
-#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONCLOSEDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19734A30)
+#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONCLOSEDOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A573BF0)
+#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONCLOSEDOPTIONS_GET_SOCKETID_OFFSET UNITYSDK_OFFSET(0x1A573C10)
+#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONCLOSEDOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A573C00)
+#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONCLOSEDOPTIONS_SET_SOCKETID_OFFSET UNITYSDK_OFFSET(0x1A573C20)
+#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONCLOSEDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A573C30)
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int AddNotifyPeerConnectionClosedOptions_TypeDefinitionIndex = 41697;
+	inline static constexpr unsigned int AddNotifyPeerConnectionClosedOptions_TypeDefinitionIndex = 42500;
 
 	class AddNotifyPeerConnectionClosedOptions : public ::System::Object
 	{
 	public:
-		::Epic::OnlineServices::P2P::SocketId* _SocketId_k__BackingField; // 0x10
-		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x18
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x10
+		::Epic::OnlineServices::P2P::SocketId* _SocketId_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -31,9 +31,9 @@ namespace Epic::OnlineServices::P2P
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONCLOSEDOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONCLOSEDOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONCLOSEDOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::P2P::SocketId* get_SocketId()
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::P2P
 			return ((::Epic::OnlineServices::P2P::SocketId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONCLOSEDOPTIONS_GET_SOCKETID_OFFSET))(this);
 		}
 
-		::System::Void set_SocketId(::Epic::OnlineServices::P2P::SocketId* value)
+		::System::Void set_SocketId(::Epic::OnlineServices::P2P::SocketId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::SocketId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONCLOSEDOPTIONS_SET_SOCKETID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::SocketId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONCLOSEDOPTIONS_SET_SOCKETID_OFFSET))(this, a1);
 		}
 	};
 }

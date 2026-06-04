@@ -7,21 +7,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_0EAE4D266094A8C4_METHOD_1_0E3C9CE42200F670_OFFSET UNITYSDK_OFFSET(0x187D74F0)
-#define CLASS_1_0EAE4D266094A8C4__CTOR_OFFSET UNITYSDK_OFFSET(0x187D7830)
+#define CLASS_1_0EAE4D266094A8C4_METHOD_1_0E3C9CE42200F670_OFFSET UNITYSDK_OFFSET(0x194FEA00)
+#define CLASS_1_0EAE4D266094A8C4__CTOR_OFFSET UNITYSDK_OFFSET(0x194FED30)
 
-inline static constexpr unsigned int Class_1_0EAE4D266094A8C4_TypeDefinitionIndex = 10802;
+inline static constexpr unsigned int Class_1_0EAE4D266094A8C4_TypeDefinitionIndex = 10857;
 
 class Class_1_0EAE4D266094A8C4 : public ::System::Object
 {
 public:
-	::System::String* Field_1_6; // 0x10
-	::Il2CppArray<::System::UInt32>* Field_1_4; // 0x18
-	::RPG::Client::TextID Field_1_1; // 0x20
-	::RPG::Client::TextID Field_1_2; // 0x30
-	::System::UInt32 Field_1_5; // 0x40
-	::RPG::GameCore::ActivityDiceCombatV2TitleType Field_1_3; // 0x44
-	::System::UInt32 Field_1_0; // 0x48
+	::Il2CppArray<::System::UInt32>* Field_1_0; // 0x10
+	::System::String* Field_1_1; // 0x18
+	::System::UInt32 Field_1_2; // 0x20
+	::RPG::GameCore::ActivityDiceCombatV2TitleType Field_1_3; // 0x24
+	::System::UInt32 Field_1_4; // 0x28
+	::RPG::Client::TextID Field_1_5; // 0x30
+	::RPG::Client::TextID Field_1_6; // 0x40
 
 	::System::Void _ctor()
 	{

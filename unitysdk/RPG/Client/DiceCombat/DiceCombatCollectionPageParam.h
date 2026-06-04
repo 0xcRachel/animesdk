@@ -3,16 +3,16 @@
 #include "unitysdk/RPG/Client/DiceCombat/DiceCombatCollectionPageParam_TabType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONPAGEPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0x142118B0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONPAGEPARAM_GET_TAGETCOLLECTIONID_OFFSET UNITYSDK_OFFSET(0x14211970)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONPAGEPARAM_GET_TARGETTABTYPE_OFFSET UNITYSDK_OFFSET(0x14211950)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONPAGEPARAM_SET_TAGETCOLLECTIONID_OFFSET UNITYSDK_OFFSET(0x14211980)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONPAGEPARAM_SET_TARGETTABTYPE_OFFSET UNITYSDK_OFFSET(0x14211960)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONPAGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x14211940)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONPAGEPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0x18B780C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONPAGEPARAM_GET_TAGETCOLLECTIONID_OFFSET UNITYSDK_OFFSET(0x18B78180)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONPAGEPARAM_GET_TARGETTABTYPE_OFFSET UNITYSDK_OFFSET(0x18B78160)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONPAGEPARAM_SET_TAGETCOLLECTIONID_OFFSET UNITYSDK_OFFSET(0x18B78190)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONPAGEPARAM_SET_TARGETTABTYPE_OFFSET UNITYSDK_OFFSET(0x18B78170)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONPAGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18B78150)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatCollectionPageParam_TypeDefinitionIndex = 69883;
+	inline static constexpr unsigned int DiceCombatCollectionPageParam_TypeDefinitionIndex = 70695;
 
 	class DiceCombatCollectionPageParam : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONPAGEPARAM__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::DiceCombat::DiceCombatCollectionPageParam* Create(::RPG::Client::DiceCombat::DiceCombatCollectionPageParam_TabType targetTabType, ::System::UInt32 tagetCollectionID)
+		static ::RPG::Client::DiceCombat::DiceCombatCollectionPageParam* Create(::RPG::Client::DiceCombat::DiceCombatCollectionPageParam_TabType a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::DiceCombat::DiceCombatCollectionPageParam*(*)(::RPG::Client::DiceCombat::DiceCombatCollectionPageParam_TabType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONPAGEPARAM_CREATE_OFFSET))(targetTabType, tagetCollectionID);
+			return ((::RPG::Client::DiceCombat::DiceCombatCollectionPageParam*(*)(::RPG::Client::DiceCombat::DiceCombatCollectionPageParam_TabType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONPAGEPARAM_CREATE_OFFSET))(a1, a2);
 		}
 
 		::System::UInt32 get_TargetTabType()
@@ -35,9 +35,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONPAGEPARAM_GET_TARGETTABTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_TargetTabType(::System::UInt32 value)
+		::System::Void set_TargetTabType(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONPAGEPARAM_SET_TARGETTABTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONPAGEPARAM_SET_TARGETTABTYPE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_TagetCollectionID()
@@ -45,9 +45,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONPAGEPARAM_GET_TAGETCOLLECTIONID_OFFSET))(this);
 		}
 
-		::System::Void set_TagetCollectionID(::System::UInt32 value)
+		::System::Void set_TagetCollectionID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONPAGEPARAM_SET_TAGETCOLLECTIONID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONPAGEPARAM_SET_TAGETCOLLECTIONID_OFFSET))(this, a1);
 		}
 	};
 }

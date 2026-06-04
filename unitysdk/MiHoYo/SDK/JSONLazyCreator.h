@@ -11,37 +11,37 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define MIHOYO_SDK_JSONLAZYCREATOR_ADD_1_OFFSET UNITYSDK_OFFSET(0x153FE480)
-#define MIHOYO_SDK_JSONLAZYCREATOR_ADD_OFFSET UNITYSDK_OFFSET(0x153FE380)
-#define MIHOYO_SDK_JSONLAZYCREATOR_EQUALS_OFFSET UNITYSDK_OFFSET(0x153FE610)
-#define MIHOYO_SDK_JSONLAZYCREATOR_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x153FDD60)
-#define MIHOYO_SDK_JSONLAZYCREATOR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x153FE630)
-#define MIHOYO_SDK_JSONLAZYCREATOR_GET_ASARRAY_OFFSET UNITYSDK_OFFSET(0x153FEF20)
-#define MIHOYO_SDK_JSONLAZYCREATOR_GET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x153FEDC0)
-#define MIHOYO_SDK_JSONLAZYCREATOR_GET_ASDOUBLE_OFFSET UNITYSDK_OFFSET(0x153FE950)
-#define MIHOYO_SDK_JSONLAZYCREATOR_GET_ASFLOAT_OFFSET UNITYSDK_OFFSET(0x153FE7E0)
-#define MIHOYO_SDK_JSONLAZYCREATOR_GET_ASINT_OFFSET UNITYSDK_OFFSET(0x153FE640)
-#define MIHOYO_SDK_JSONLAZYCREATOR_GET_ASLONG_OFFSET UNITYSDK_OFFSET(0x153FEAC0)
-#define MIHOYO_SDK_JSONLAZYCREATOR_GET_ASOBJECT_OFFSET UNITYSDK_OFFSET(0x153FF000)
-#define MIHOYO_SDK_JSONLAZYCREATOR_GET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x153FDF10)
-#define MIHOYO_SDK_JSONLAZYCREATOR_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x153FDDC0)
-#define MIHOYO_SDK_JSONLAZYCREATOR_GET_TAG_OFFSET UNITYSDK_OFFSET(0x153FDD50)
-#define MIHOYO_SDK_JSONLAZYCREATOR_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x153FE5D0)
-#define MIHOYO_SDK_JSONLAZYCREATOR_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x153FE5F0)
-#define MIHOYO_SDK_JSONLAZYCREATOR_SET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x153FEE70)
-#define MIHOYO_SDK_JSONLAZYCREATOR_SET_ASDOUBLE_OFFSET UNITYSDK_OFFSET(0x153FEA00)
-#define MIHOYO_SDK_JSONLAZYCREATOR_SET_ASFLOAT_OFFSET UNITYSDK_OFFSET(0x153FE890)
-#define MIHOYO_SDK_JSONLAZYCREATOR_SET_ASINT_OFFSET UNITYSDK_OFFSET(0x153FE730)
-#define MIHOYO_SDK_JSONLAZYCREATOR_SET_ASLONG_OFFSET UNITYSDK_OFFSET(0x153FEC40)
-#define MIHOYO_SDK_JSONLAZYCREATOR_SET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x153FDF60)
-#define MIHOYO_SDK_JSONLAZYCREATOR_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x153FDE10)
-#define MIHOYO_SDK_JSONLAZYCREATOR_WRITETOSTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x153FF130)
-#define MIHOYO_SDK_JSONLAZYCREATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x153FDD80)
-#define MIHOYO_SDK_JSONLAZYCREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x153FCBE0)
+#define MIHOYO_SDK_JSONLAZYCREATOR_ADD_1_OFFSET UNITYSDK_OFFSET(0x14C71240)
+#define MIHOYO_SDK_JSONLAZYCREATOR_ADD_OFFSET UNITYSDK_OFFSET(0x14C71140)
+#define MIHOYO_SDK_JSONLAZYCREATOR_EQUALS_OFFSET UNITYSDK_OFFSET(0x14C713D0)
+#define MIHOYO_SDK_JSONLAZYCREATOR_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x14C70B20)
+#define MIHOYO_SDK_JSONLAZYCREATOR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x14C713F0)
+#define MIHOYO_SDK_JSONLAZYCREATOR_GET_ASARRAY_OFFSET UNITYSDK_OFFSET(0x14C71CE0)
+#define MIHOYO_SDK_JSONLAZYCREATOR_GET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x14C71B80)
+#define MIHOYO_SDK_JSONLAZYCREATOR_GET_ASDOUBLE_OFFSET UNITYSDK_OFFSET(0x14C71710)
+#define MIHOYO_SDK_JSONLAZYCREATOR_GET_ASFLOAT_OFFSET UNITYSDK_OFFSET(0x14C715A0)
+#define MIHOYO_SDK_JSONLAZYCREATOR_GET_ASINT_OFFSET UNITYSDK_OFFSET(0x14C71400)
+#define MIHOYO_SDK_JSONLAZYCREATOR_GET_ASLONG_OFFSET UNITYSDK_OFFSET(0x14C71880)
+#define MIHOYO_SDK_JSONLAZYCREATOR_GET_ASOBJECT_OFFSET UNITYSDK_OFFSET(0x14C71DC0)
+#define MIHOYO_SDK_JSONLAZYCREATOR_GET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x14C70CD0)
+#define MIHOYO_SDK_JSONLAZYCREATOR_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x14C70B80)
+#define MIHOYO_SDK_JSONLAZYCREATOR_GET_TAG_OFFSET UNITYSDK_OFFSET(0x14C70B10)
+#define MIHOYO_SDK_JSONLAZYCREATOR_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x14C71390)
+#define MIHOYO_SDK_JSONLAZYCREATOR_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x14C713B0)
+#define MIHOYO_SDK_JSONLAZYCREATOR_SET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x14C71C30)
+#define MIHOYO_SDK_JSONLAZYCREATOR_SET_ASDOUBLE_OFFSET UNITYSDK_OFFSET(0x14C717C0)
+#define MIHOYO_SDK_JSONLAZYCREATOR_SET_ASFLOAT_OFFSET UNITYSDK_OFFSET(0x14C71650)
+#define MIHOYO_SDK_JSONLAZYCREATOR_SET_ASINT_OFFSET UNITYSDK_OFFSET(0x14C714F0)
+#define MIHOYO_SDK_JSONLAZYCREATOR_SET_ASLONG_OFFSET UNITYSDK_OFFSET(0x14C71A00)
+#define MIHOYO_SDK_JSONLAZYCREATOR_SET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x14C70D20)
+#define MIHOYO_SDK_JSONLAZYCREATOR_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x14C70BD0)
+#define MIHOYO_SDK_JSONLAZYCREATOR_WRITETOSTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x14C71EF0)
+#define MIHOYO_SDK_JSONLAZYCREATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x14C70B40)
+#define MIHOYO_SDK_JSONLAZYCREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x14C6F430)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int JSONLazyCreator_TypeDefinitionIndex = 7180;
+	inline static constexpr unsigned int JSONLazyCreator_TypeDefinitionIndex = 8083;
 
 	class JSONLazyCreator : public ::MiHoYo::SDK::JSONNode
 	{
@@ -49,14 +49,14 @@ namespace MiHoYo::SDK
 		::System::String* m_Key; // 0x10
 		::MiHoYo::SDK::JSONNode* m_Node; // 0x18
 
-		::System::Void _ctor(::MiHoYo::SDK::JSONNode* aNode)
+		::System::Void _ctor(::MiHoYo::SDK::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR__CTOR_OFFSET))(this, aNode);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::MiHoYo::SDK::JSONNode* aNode, ::System::String* aKey)
+		::System::Void _ctor_1(::MiHoYo::SDK::JSONNode* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR__CTOR_1_OFFSET))(this, aNode, aKey);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::MiHoYo::SDK::JSONNodeType get_Tag()
@@ -69,49 +69,49 @@ namespace MiHoYo::SDK
 			return ((::MiHoYo::SDK::JSONNode_Enumerator(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_GETENUMERATOR_OFFSET))(this);
 		}
 
-		::MiHoYo::SDK::JSONNode* get_Item(::System::Int32 aIndex)
+		::MiHoYo::SDK::JSONNode* get_Item(::System::Int32 a1)
 		{
-			return ((::MiHoYo::SDK::JSONNode*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_GET_ITEM_OFFSET))(this, aIndex);
+			return ((::MiHoYo::SDK::JSONNode*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_GET_ITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Item(::System::Int32 aIndex, ::MiHoYo::SDK::JSONNode* value)
+		::System::Void set_Item(::System::Int32 a1, ::MiHoYo::SDK::JSONNode* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_SET_ITEM_OFFSET))(this, aIndex, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_SET_ITEM_OFFSET))(this, a1, a2);
 		}
 
-		::MiHoYo::SDK::JSONNode* get_Item_1(::System::String* aKey)
+		::MiHoYo::SDK::JSONNode* get_Item_1(::System::String* a1)
 		{
-			return ((::MiHoYo::SDK::JSONNode*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_GET_ITEM_1_OFFSET))(this, aKey);
+			return ((::MiHoYo::SDK::JSONNode*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_GET_ITEM_1_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Item_1(::System::String* aKey, ::MiHoYo::SDK::JSONNode* value)
+		::System::Void set_Item_1(::System::String* a1, ::MiHoYo::SDK::JSONNode* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_SET_ITEM_1_OFFSET))(this, aKey, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_SET_ITEM_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Add(::MiHoYo::SDK::JSONNode* aItem)
+		::System::Void Add(::MiHoYo::SDK::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_ADD_OFFSET))(this, aItem);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_ADD_OFFSET))(this, a1);
 		}
 
-		::System::Void Add_1(::System::String* aKey, ::MiHoYo::SDK::JSONNode* aItem)
+		::System::Void Add_1(::System::String* a1, ::MiHoYo::SDK::JSONNode* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_ADD_1_OFFSET))(this, aKey, aItem);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_ADD_1_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Boolean op_Equality(::MiHoYo::SDK::JSONLazyCreator* a, ::System::Object* b)
+		static ::System::Boolean op_Equality(::MiHoYo::SDK::JSONLazyCreator* a1, ::System::Object* a2)
 		{
-			return ((::System::Boolean(*)(::MiHoYo::SDK::JSONLazyCreator*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_OP_EQUALITY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::MiHoYo::SDK::JSONLazyCreator*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::MiHoYo::SDK::JSONLazyCreator* a, ::System::Object* b)
+		static ::System::Boolean op_Inequality(::MiHoYo::SDK::JSONLazyCreator* a1, ::System::Object* a2)
 		{
-			return ((::System::Boolean(*)(::MiHoYo::SDK::JSONLazyCreator*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_OP_INEQUALITY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::MiHoYo::SDK::JSONLazyCreator*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -124,9 +124,9 @@ namespace MiHoYo::SDK
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_GET_ASINT_OFFSET))(this);
 		}
 
-		::System::Void set_AsInt(::System::Int32 value)
+		::System::Void set_AsInt(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_SET_ASINT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_SET_ASINT_OFFSET))(this, a1);
 		}
 
 		::System::Single get_AsFloat()
@@ -134,9 +134,9 @@ namespace MiHoYo::SDK
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_GET_ASFLOAT_OFFSET))(this);
 		}
 
-		::System::Void set_AsFloat(::System::Single value)
+		::System::Void set_AsFloat(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_SET_ASFLOAT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_SET_ASFLOAT_OFFSET))(this, a1);
 		}
 
 		::System::Double get_AsDouble()
@@ -144,9 +144,9 @@ namespace MiHoYo::SDK
 			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_GET_ASDOUBLE_OFFSET))(this);
 		}
 
-		::System::Void set_AsDouble(::System::Double value)
+		::System::Void set_AsDouble(::System::Double a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_SET_ASDOUBLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_SET_ASDOUBLE_OFFSET))(this, a1);
 		}
 
 		::System::Int64 get_AsLong()
@@ -154,9 +154,9 @@ namespace MiHoYo::SDK
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_GET_ASLONG_OFFSET))(this);
 		}
 
-		::System::Void set_AsLong(::System::Int64 value)
+		::System::Void set_AsLong(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_SET_ASLONG_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_SET_ASLONG_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_AsBool()
@@ -164,9 +164,9 @@ namespace MiHoYo::SDK
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_GET_ASBOOL_OFFSET))(this);
 		}
 
-		::System::Void set_AsBool(::System::Boolean value)
+		::System::Void set_AsBool(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_SET_ASBOOL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_SET_ASBOOL_OFFSET))(this, a1);
 		}
 
 		::MiHoYo::SDK::JSONArray* get_AsArray()
@@ -179,9 +179,9 @@ namespace MiHoYo::SDK
 			return ((::MiHoYo::SDK::JSONObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_GET_ASOBJECT_OFFSET))(this);
 		}
 
-		::System::Void WriteToStringBuilder(::System::Text::StringBuilder* aSB, ::System::Int32 aIndent, ::System::Int32 aIndentInc, ::MiHoYo::SDK::JSONTextMode aMode)
+		::System::Void WriteToStringBuilder(::System::Text::StringBuilder* a1, ::System::Int32 a2, ::System::Int32 a3, ::MiHoYo::SDK::JSONTextMode a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*, ::System::Int32, ::System::Int32, ::MiHoYo::SDK::JSONTextMode))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_WRITETOSTRINGBUILDER_OFFSET))(this, aSB, aIndent, aIndentInc, aMode);
+			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*, ::System::Int32, ::System::Int32, ::MiHoYo::SDK::JSONTextMode))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONLAZYCREATOR_WRITETOSTRINGBUILDER_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

@@ -7,26 +7,26 @@
 
 namespace Cinemachine { class CinemachinePathBase_Appearance; }
 
-#define CINEMACHINE_CINEMACHINEPATHBASE_DISTANCECACHEISVALID_OFFSET UNITYSDK_OFFSET(0x167C94B0)
-#define CINEMACHINE_CINEMACHINEPATHBASE_EVALUATEORIENTATIONATUNIT_OFFSET UNITYSDK_OFFSET(0x167ADE60)
-#define CINEMACHINE_CINEMACHINEPATHBASE_EVALUATEPOSITIONATUNIT_OFFSET UNITYSDK_OFFSET(0x167ADE10)
-#define CINEMACHINE_CINEMACHINEPATHBASE_EVALUATETANGENTATUNIT_OFFSET UNITYSDK_OFFSET(0x167C9460)
-#define CINEMACHINE_CINEMACHINEPATHBASE_FINDCLOSESTPOINT_OFFSET UNITYSDK_OFFSET(0x167C89E0)
-#define CINEMACHINE_CINEMACHINEPATHBASE_FROMPATHNATIVEUNITS_OFFSET UNITYSDK_OFFSET(0x167C99C0)
-#define CINEMACHINE_CINEMACHINEPATHBASE_GET_PATHLENGTH_OFFSET UNITYSDK_OFFSET(0x167C8F00)
-#define CINEMACHINE_CINEMACHINEPATHBASE_INVALIDATEDISTANCECACHE_OFFSET UNITYSDK_OFFSET(0x167C7AA0)
-#define CINEMACHINE_CINEMACHINEPATHBASE_MAXUNIT_OFFSET UNITYSDK_OFFSET(0x167C8E20)
-#define CINEMACHINE_CINEMACHINEPATHBASE_MINUNIT_OFFSET UNITYSDK_OFFSET(0x167C8E00)
-#define CINEMACHINE_CINEMACHINEPATHBASE_RESAMPLEPATH_OFFSET UNITYSDK_OFFSET(0x167C9530)
-#define CINEMACHINE_CINEMACHINEPATHBASE_STANDARDIZEPATHDISTANCE_OFFSET UNITYSDK_OFFSET(0x167C90E0)
-#define CINEMACHINE_CINEMACHINEPATHBASE_STANDARDIZEPOS_OFFSET UNITYSDK_OFFSET(0x167C7D10)
-#define CINEMACHINE_CINEMACHINEPATHBASE_STANDARDIZEUNIT_OFFSET UNITYSDK_OFFSET(0x167C8FA0)
-#define CINEMACHINE_CINEMACHINEPATHBASE_TONATIVEPATHUNITS_OFFSET UNITYSDK_OFFSET(0x167C91F0)
-#define CINEMACHINE_CINEMACHINEPATHBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x167C8990)
+#define CINEMACHINE_CINEMACHINEPATHBASE_DISTANCECACHEISVALID_OFFSET UNITYSDK_OFFSET(0x15105C30)
+#define CINEMACHINE_CINEMACHINEPATHBASE_EVALUATEORIENTATIONATUNIT_OFFSET UNITYSDK_OFFSET(0x150EBEA0)
+#define CINEMACHINE_CINEMACHINEPATHBASE_EVALUATEPOSITIONATUNIT_OFFSET UNITYSDK_OFFSET(0x150EBE50)
+#define CINEMACHINE_CINEMACHINEPATHBASE_EVALUATETANGENTATUNIT_OFFSET UNITYSDK_OFFSET(0x15105BE0)
+#define CINEMACHINE_CINEMACHINEPATHBASE_FINDCLOSESTPOINT_OFFSET UNITYSDK_OFFSET(0x15105180)
+#define CINEMACHINE_CINEMACHINEPATHBASE_FROMPATHNATIVEUNITS_OFFSET UNITYSDK_OFFSET(0x151060E0)
+#define CINEMACHINE_CINEMACHINEPATHBASE_GET_PATHLENGTH_OFFSET UNITYSDK_OFFSET(0x151056A0)
+#define CINEMACHINE_CINEMACHINEPATHBASE_INVALIDATEDISTANCECACHE_OFFSET UNITYSDK_OFFSET(0x151042B0)
+#define CINEMACHINE_CINEMACHINEPATHBASE_MAXUNIT_OFFSET UNITYSDK_OFFSET(0x151055C0)
+#define CINEMACHINE_CINEMACHINEPATHBASE_MINUNIT_OFFSET UNITYSDK_OFFSET(0x151055A0)
+#define CINEMACHINE_CINEMACHINEPATHBASE_RESAMPLEPATH_OFFSET UNITYSDK_OFFSET(0x15105CB0)
+#define CINEMACHINE_CINEMACHINEPATHBASE_STANDARDIZEPATHDISTANCE_OFFSET UNITYSDK_OFFSET(0x15105880)
+#define CINEMACHINE_CINEMACHINEPATHBASE_STANDARDIZEPOS_OFFSET UNITYSDK_OFFSET(0x15104520)
+#define CINEMACHINE_CINEMACHINEPATHBASE_STANDARDIZEUNIT_OFFSET UNITYSDK_OFFSET(0x15105740)
+#define CINEMACHINE_CINEMACHINEPATHBASE_TONATIVEPATHUNITS_OFFSET UNITYSDK_OFFSET(0x15105990)
+#define CINEMACHINE_CINEMACHINEPATHBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x15105130)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachinePathBase_TypeDefinitionIndex = 36581;
+	inline static constexpr unsigned int CinemachinePathBase_TypeDefinitionIndex = 36881;
 
 	class CinemachinePathBase : public ::UnityEngine::MonoBehaviour
 	{
@@ -45,44 +45,44 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE__CTOR_OFFSET))(this);
 		}
 
-		::System::Single StandardizePos(::System::Single pos)
+		::System::Single StandardizePos(::System::Single a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_STANDARDIZEPOS_OFFSET))(this, pos);
+			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_STANDARDIZEPOS_OFFSET))(this, a1);
 		}
 
-		::System::Single FindClosestPoint(::UnityEngine::Vector3 p, ::System::Int32 startSegment, ::System::Int32 searchRadius, ::System::Int32 stepsPerSegment)
+		::System::Single FindClosestPoint(::UnityEngine::Vector3 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_FINDCLOSESTPOINT_OFFSET))(this, p, startSegment, searchRadius, stepsPerSegment);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_FINDCLOSESTPOINT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Single MinUnit(::Cinemachine::CinemachinePathBase_PositionUnits units)
+		::System::Single MinUnit(::Cinemachine::CinemachinePathBase_PositionUnits a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::Cinemachine::CinemachinePathBase_PositionUnits))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_MINUNIT_OFFSET))(this, units);
+			return ((::System::Single(*)(::PVOID, ::Cinemachine::CinemachinePathBase_PositionUnits))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_MINUNIT_OFFSET))(this, a1);
 		}
 
-		::System::Single MaxUnit(::Cinemachine::CinemachinePathBase_PositionUnits units)
+		::System::Single MaxUnit(::Cinemachine::CinemachinePathBase_PositionUnits a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::Cinemachine::CinemachinePathBase_PositionUnits))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_MAXUNIT_OFFSET))(this, units);
+			return ((::System::Single(*)(::PVOID, ::Cinemachine::CinemachinePathBase_PositionUnits))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_MAXUNIT_OFFSET))(this, a1);
 		}
 
-		::System::Single StandardizeUnit(::System::Single pos, ::Cinemachine::CinemachinePathBase_PositionUnits units)
+		::System::Single StandardizeUnit(::System::Single a1, ::Cinemachine::CinemachinePathBase_PositionUnits a2)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::Cinemachine::CinemachinePathBase_PositionUnits))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_STANDARDIZEUNIT_OFFSET))(this, pos, units);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::Cinemachine::CinemachinePathBase_PositionUnits))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_STANDARDIZEUNIT_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector3 EvaluatePositionAtUnit(::System::Single pos, ::Cinemachine::CinemachinePathBase_PositionUnits units)
+		::UnityEngine::Vector3 EvaluatePositionAtUnit(::System::Single a1, ::Cinemachine::CinemachinePathBase_PositionUnits a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single, ::Cinemachine::CinemachinePathBase_PositionUnits))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_EVALUATEPOSITIONATUNIT_OFFSET))(this, pos, units);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single, ::Cinemachine::CinemachinePathBase_PositionUnits))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_EVALUATEPOSITIONATUNIT_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector3 EvaluateTangentAtUnit(::System::Single pos, ::Cinemachine::CinemachinePathBase_PositionUnits units)
+		::UnityEngine::Vector3 EvaluateTangentAtUnit(::System::Single a1, ::Cinemachine::CinemachinePathBase_PositionUnits a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single, ::Cinemachine::CinemachinePathBase_PositionUnits))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_EVALUATETANGENTATUNIT_OFFSET))(this, pos, units);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single, ::Cinemachine::CinemachinePathBase_PositionUnits))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_EVALUATETANGENTATUNIT_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Quaternion EvaluateOrientationAtUnit(::System::Single pos, ::Cinemachine::CinemachinePathBase_PositionUnits units)
+		::UnityEngine::Quaternion EvaluateOrientationAtUnit(::System::Single a1, ::Cinemachine::CinemachinePathBase_PositionUnits a2)
 		{
-			return ((::UnityEngine::Quaternion(*)(::PVOID, ::System::Single, ::Cinemachine::CinemachinePathBase_PositionUnits))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_EVALUATEORIENTATIONATUNIT_OFFSET))(this, pos, units);
+			return ((::UnityEngine::Quaternion(*)(::PVOID, ::System::Single, ::Cinemachine::CinemachinePathBase_PositionUnits))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_EVALUATEORIENTATIONATUNIT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void InvalidateDistanceCache()
@@ -100,24 +100,24 @@ namespace Cinemachine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_GET_PATHLENGTH_OFFSET))(this);
 		}
 
-		::System::Single StandardizePathDistance(::System::Single distance)
+		::System::Single StandardizePathDistance(::System::Single a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_STANDARDIZEPATHDISTANCE_OFFSET))(this, distance);
+			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_STANDARDIZEPATHDISTANCE_OFFSET))(this, a1);
 		}
 
-		::System::Single ToNativePathUnits(::System::Single pos, ::Cinemachine::CinemachinePathBase_PositionUnits units)
+		::System::Single ToNativePathUnits(::System::Single a1, ::Cinemachine::CinemachinePathBase_PositionUnits a2)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::Cinemachine::CinemachinePathBase_PositionUnits))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_TONATIVEPATHUNITS_OFFSET))(this, pos, units);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::Cinemachine::CinemachinePathBase_PositionUnits))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_TONATIVEPATHUNITS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Single FromPathNativeUnits(::System::Single pos, ::Cinemachine::CinemachinePathBase_PositionUnits units)
+		::System::Single FromPathNativeUnits(::System::Single a1, ::Cinemachine::CinemachinePathBase_PositionUnits a2)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::Cinemachine::CinemachinePathBase_PositionUnits))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_FROMPATHNATIVEUNITS_OFFSET))(this, pos, units);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::Cinemachine::CinemachinePathBase_PositionUnits))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_FROMPATHNATIVEUNITS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ResamplePath(::System::Int32 stepsPerSegment)
+		::System::Void ResamplePath(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_RESAMPLEPATH_OFFSET))(this, stepsPerSegment);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPATHBASE_RESAMPLEPATH_OFFSET))(this, a1);
 		}
 	};
 }

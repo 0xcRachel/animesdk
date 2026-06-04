@@ -7,21 +7,21 @@
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace HedgehogTeam::EasyTouch { class QuickSwipe_OnSwipeAction; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_DOACTION_OFFSET UNITYSDK_OFFSET(0x191AF090)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ISRIGHTDIRECTION_OFFSET UNITYSDK_OFFSET(0x191AEE50)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x191AECF0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x191AE9C0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x191AE6A0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ON_DRAGEND_OFFSET UNITYSDK_OFFSET(0x191AF1E0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ON_DRAG_OFFSET UNITYSDK_OFFSET(0x191AF260)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ON_SWIPEEND_OFFSET UNITYSDK_OFFSET(0x191AF0F0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ON_SWIPE_OFFSET UNITYSDK_OFFSET(0x191AED00)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_UNSUBSCRIBEEVENT_OFFSET UNITYSDK_OFFSET(0x191AE9D0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE__CTOR_OFFSET UNITYSDK_OFFSET(0x191AE600)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_DOACTION_OFFSET UNITYSDK_OFFSET(0x198FE330)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ISRIGHTDIRECTION_OFFSET UNITYSDK_OFFSET(0x198FE0F0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x198FDF90)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x198FDBE0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x198FD840)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ON_DRAGEND_OFFSET UNITYSDK_OFFSET(0x198FE480)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ON_DRAG_OFFSET UNITYSDK_OFFSET(0x198FE500)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ON_SWIPEEND_OFFSET UNITYSDK_OFFSET(0x198FE390)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ON_SWIPE_OFFSET UNITYSDK_OFFSET(0x198FDFA0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_UNSUBSCRIBEEVENT_OFFSET UNITYSDK_OFFSET(0x198FDBF0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE__CTOR_OFFSET UNITYSDK_OFFSET(0x198FD7A0)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickSwipe_TypeDefinitionIndex = 37005;
+	inline static constexpr unsigned int QuickSwipe_TypeDefinitionIndex = 37305;
 
 	class QuickSwipe : public ::HedgehogTeam::EasyTouch::QuickBase
 	{
@@ -58,34 +58,34 @@ namespace HedgehogTeam::EasyTouch
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_UNSUBSCRIBEEVENT_OFFSET))(this);
 		}
 
-		::System::Void On_Swipe(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void On_Swipe(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ON_SWIPE_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ON_SWIPE_OFFSET))(this, a1);
 		}
 
-		::System::Void On_SwipeEnd(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void On_SwipeEnd(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ON_SWIPEEND_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ON_SWIPEEND_OFFSET))(this, a1);
 		}
 
-		::System::Void On_DragEnd(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void On_DragEnd(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ON_DRAGEND_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ON_DRAGEND_OFFSET))(this, a1);
 		}
 
-		::System::Void On_Drag(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void On_Drag(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ON_DRAG_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ON_DRAG_OFFSET))(this, a1);
 		}
 
-		::System::Boolean isRightDirection(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Boolean isRightDirection(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ISRIGHTDIRECTION_OFFSET))(this, gesture);
+			return ((::System::Boolean(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_ISRIGHTDIRECTION_OFFSET))(this, a1);
 		}
 
-		::System::Void DoAction(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void DoAction(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_DOACTION_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKSWIPE_DOACTION_OFFSET))(this, a1);
 		}
 	};
 }

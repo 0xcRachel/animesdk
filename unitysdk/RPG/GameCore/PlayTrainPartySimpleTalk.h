@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TrainPartySimpleTalkData; }
 
-#define RPG_GAMECORE_PLAYTRAINPARTYSIMPLETALK_METHOD_3_4E023831E379E8E3_OFFSET UNITYSDK_OFFSET(0x18B3CCD0)
-#define RPG_GAMECORE_PLAYTRAINPARTYSIMPLETALK_METHOD_3_E6FB23D8460CABB2_OFFSET UNITYSDK_OFFSET(0x18B3CC50)
-#define RPG_GAMECORE_PLAYTRAINPARTYSIMPLETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x18B3CCA0)
+#define RPG_GAMECORE_PLAYTRAINPARTYSIMPLETALK_METHOD_3_002E5480C279B869_OFFSET UNITYSDK_OFFSET(0x19D595C0)
+#define RPG_GAMECORE_PLAYTRAINPARTYSIMPLETALK_METHOD_3_E8265053C552FDD0_OFFSET UNITYSDK_OFFSET(0x19D59540)
+#define RPG_GAMECORE_PLAYTRAINPARTYSIMPLETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x19D59590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayTrainPartySimpleTalk_TypeDefinitionIndex = 21241;
+	inline static constexpr unsigned int PlayTrainPartySimpleTalk_TypeDefinitionIndex = 21135;
 
 	class PlayTrainPartySimpleTalk : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYTRAINPARTYSIMPLETALK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E6FB23D8460CABB2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayTrainPartySimpleTalk*& a2)
+		static ::System::Void Method_3_E8265053C552FDD0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayTrainPartySimpleTalk*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayTrainPartySimpleTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYTRAINPARTYSIMPLETALK_METHOD_3_E6FB23D8460CABB2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayTrainPartySimpleTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYTRAINPARTYSIMPLETALK_METHOD_3_E8265053C552FDD0_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_4E023831E379E8E3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayTrainPartySimpleTalk* a2)
+		static ::System::Void Method_3_002E5480C279B869(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayTrainPartySimpleTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayTrainPartySimpleTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYTRAINPARTYSIMPLETALK_METHOD_3_4E023831E379E8E3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayTrainPartySimpleTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYTRAINPARTYSIMPLETALK_METHOD_3_002E5480C279B869_OFFSET))(a1, a2);
 		}
 	};
 }

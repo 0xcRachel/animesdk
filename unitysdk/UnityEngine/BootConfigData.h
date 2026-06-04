@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_BOOTCONFIGDATA_WRAPBOOTCONFIGDATA_OFFSET UNITYSDK_OFFSET(0x19D00F60)
-#define UNITYENGINE_BOOTCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19D01000)
+#define UNITYENGINE_BOOTCONFIGDATA_WRAPBOOTCONFIGDATA_OFFSET UNITYSDK_OFFSET(0x1AB449D0)
+#define UNITYENGINE_BOOTCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB44A70)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int BootConfigData_TypeDefinitionIndex = 3848;
+	inline static constexpr unsigned int BootConfigData_TypeDefinitionIndex = 4022;
 
 	class BootConfigData : public ::System::Object
 	{
 	public:
 		::System::IntPtr m_Ptr; // 0x10
 
-		::System::Void _ctor(::System::IntPtr nativeHandle)
+		::System::Void _ctor(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_BOOTCONFIGDATA__CTOR_OFFSET))(this, nativeHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_BOOTCONFIGDATA__CTOR_OFFSET))(this, a1);
 		}
 
-		static ::UnityEngine::BootConfigData* WrapBootConfigData(::System::IntPtr nativeHandle)
+		static ::UnityEngine::BootConfigData* WrapBootConfigData(::System::IntPtr a1)
 		{
-			return ((::UnityEngine::BootConfigData*(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_BOOTCONFIGDATA_WRAPBOOTCONFIGDATA_OFFSET))(nativeHandle);
+			return ((::UnityEngine::BootConfigData*(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_BOOTCONFIGDATA_WRAPBOOTCONFIGDATA_OFFSET))(a1);
 		}
 	};
 }

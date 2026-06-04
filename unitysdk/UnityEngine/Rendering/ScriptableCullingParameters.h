@@ -12,27 +12,27 @@
 
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22F4680)
-#define UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS_EQUALS_OFFSET UNITYSDK_OFFSET(0x22F4640)
-#define UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS_GETCULLINGPLANE_OFFSET UNITYSDK_OFFSET(0x22F4620)
-#define UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22F4700)
-#define UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS_GETLAYERCULLINGDISTANCE_OFFSET UNITYSDK_OFFSET(0x22F4610)
-#define UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS_GET_CULLINGPLANECOUNT_OFFSET UNITYSDK_OFFSET(0x22F4600)
-#define UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x18F1EAC0)
+#define UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3890E60)
+#define UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS_EQUALS_OFFSET UNITYSDK_OFFSET(0x3890E20)
+#define UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS_GETCULLINGPLANE_OFFSET UNITYSDK_OFFSET(0x3890E00)
+#define UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3890EE0)
+#define UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS_GETLAYERCULLINGDISTANCE_OFFSET UNITYSDK_OFFSET(0x3890DF0)
+#define UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS_GET_CULLINGPLANECOUNT_OFFSET UNITYSDK_OFFSET(0x3890DE0)
+#define UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x198D90D0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ScriptableCullingParameters_TypeDefinitionIndex = 4553;
+	inline static constexpr unsigned int ScriptableCullingParameters_TypeDefinitionIndex = 4727;
 
 	struct alignas(8) ScriptableCullingParameters
 	{
 		static ::System::Int32* StaticGet_maximumCullingPlaneCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ScriptableCullingParameters_TypeDefinitionIndex)->GetStaticField(0x5E50);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ScriptableCullingParameters_TypeDefinitionIndex)->GetStaticField(0xA9E0);
 		}
 		static ::System::Int32* StaticGet_layerCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ScriptableCullingParameters_TypeDefinitionIndex)->GetStaticField(0x5E54);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ScriptableCullingParameters_TypeDefinitionIndex)->GetStaticField(0xA9E4);
 		}
 		::System::Int32 m_IsOrthographic; // 0x10
 		::UnityEngine::Rendering::LODParameters m_LODParameters; // 0x14
@@ -69,26 +69,26 @@ namespace UnityEngine::Rendering
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS_GET_CULLINGPLANECOUNT_OFFSET))(this);
 		}
 
-		::System::Single GetLayerCullingDistance(::System::Int32 layerIndex)
+		::System::Single GetLayerCullingDistance(::System::Int32 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS_GETLAYERCULLINGDISTANCE_OFFSET))(this, layerIndex);
+			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS_GETLAYERCULLINGDISTANCE_OFFSET))(this, a1);
 		}
 
 		/*
-		::UnityEngine::Plane GetCullingPlane(::System::Int32 index)
+		::UnityEngine::Plane GetCullingPlane(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Plane(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS_GETCULLINGPLANE_OFFSET))(this, index);
+			return ((::UnityEngine::Plane(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS_GETCULLINGPLANE_OFFSET))(this, a1);
 		}
 		*/
 
-		::System::Boolean Equals(::UnityEngine::Rendering::ScriptableCullingParameters other)
+		::System::Boolean Equals(::UnityEngine::Rendering::ScriptableCullingParameters a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::ScriptableCullingParameters))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::ScriptableCullingParameters))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SCRIPTABLECULLINGPARAMETERS_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

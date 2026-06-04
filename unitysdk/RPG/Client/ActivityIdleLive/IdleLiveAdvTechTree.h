@@ -9,31 +9,31 @@ namespace RPG::GameCore { class IdleLiveAdvTechTreeTabRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_CREATE_OFFSET UNITYSDK_OFFSET(0x1733F620)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_GETACTIVATEDNODECOUNT_OFFSET UNITYSDK_OFFSET(0x17340160)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_GETALLNODECOUNT_OFFSET UNITYSDK_OFFSET(0x17340790)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_GET_BASETECHTREE_OFFSET UNITYSDK_OFFSET(0x17341440)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x17341460)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x17341400)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_GET_RECOMMENDAVATARIDS_OFFSET UNITYSDK_OFFSET(0x17341420)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_HASANYIDLELIVETECHTREECANACTIVATE_OFFSET UNITYSDK_OFFSET(0x173410D0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_HASUNACTIVATEDNODE_OFFSET UNITYSDK_OFFSET(0x17340B50)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_SET_BASETECHTREE_OFFSET UNITYSDK_OFFSET(0x17341450)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x17341470)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x17341410)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_SET_RECOMMENDAVATARIDS_OFFSET UNITYSDK_OFFSET(0x17341430)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1733F6C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_CREATE_OFFSET UNITYSDK_OFFSET(0x1854A810)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_GETACTIVATEDNODECOUNT_OFFSET UNITYSDK_OFFSET(0x1854B410)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_GETALLNODECOUNT_OFFSET UNITYSDK_OFFSET(0x1854B8C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_GET_BASETECHTREE_OFFSET UNITYSDK_OFFSET(0x1854C330)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x1854C350)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1854C2F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_GET_RECOMMENDAVATARIDS_OFFSET UNITYSDK_OFFSET(0x1854C310)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_HASANYIDLELIVETECHTREECANACTIVATE_OFFSET UNITYSDK_OFFSET(0x1854BFE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_HASUNACTIVATEDNODE_OFFSET UNITYSDK_OFFSET(0x1854BB60)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_SET_BASETECHTREE_OFFSET UNITYSDK_OFFSET(0x1854C340)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x1854C360)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1854C300)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_SET_RECOMMENDAVATARIDS_OFFSET UNITYSDK_OFFSET(0x1854C320)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1854A8B0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveAdvTechTree_TypeDefinitionIndex = 69456;
+	inline static constexpr unsigned int IdleLiveAdvTechTree_TypeDefinitionIndex = 70268;
 
 	class IdleLiveAdvTechTree : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* _RecommendAvatarIDs_k__BackingField; // 0x10
-		::System::String* _IconPath_k__BackingField; // 0x18
-		::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTree* _BaseTechTree_k__BackingField; // 0x20
+		::System::String* _IconPath_k__BackingField; // 0x10
+		::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTree* _BaseTechTree_k__BackingField; // 0x18
+		::Il2CppArray<::System::UInt32>* _RecommendAvatarIDs_k__BackingField; // 0x20
 		::RPG::Client::TextID _Name_k__BackingField; // 0x28
 
 		::System::Void _ctor()
@@ -41,9 +41,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ActivityIdleLive::IdleLiveAdvTechTree* Create(::RPG::GameCore::IdleLiveAdvTechTreeTabRow* row, ::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*>* nodes)
+		static ::RPG::Client::ActivityIdleLive::IdleLiveAdvTechTree* Create(::RPG::GameCore::IdleLiveAdvTechTreeTabRow* a1, ::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*>* a2)
 		{
-			return ((::RPG::Client::ActivityIdleLive::IdleLiveAdvTechTree*(*)(::RPG::GameCore::IdleLiveAdvTechTreeTabRow*, ::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_CREATE_OFFSET))(row, nodes);
+			return ((::RPG::Client::ActivityIdleLive::IdleLiveAdvTechTree*(*)(::RPG::GameCore::IdleLiveAdvTechTreeTabRow*, ::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_CREATE_OFFSET))(a1, a2);
 		}
 
 		::System::Int32 GetActivatedNodeCount()
@@ -71,9 +71,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Void set_Name(::RPG::Client::TextID value)
+		::System::Void set_Name(::RPG::Client::TextID a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_SET_NAME_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::UInt32>* get_RecommendAvatarIDs()
@@ -81,9 +81,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_GET_RECOMMENDAVATARIDS_OFFSET))(this);
 		}
 
-		::System::Void set_RecommendAvatarIDs(::Il2CppArray<::System::UInt32>* value)
+		::System::Void set_RecommendAvatarIDs(::Il2CppArray<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_SET_RECOMMENDAVATARIDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_SET_RECOMMENDAVATARIDS_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTree* get_BaseTechTree()
@@ -91,9 +91,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTree*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_GET_BASETECHTREE_OFFSET))(this);
 		}
 
-		::System::Void set_BaseTechTree(::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTree* value)
+		::System::Void set_BaseTechTree(::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTree* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTree*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_SET_BASETECHTREE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTree*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_SET_BASETECHTREE_OFFSET))(this, a1);
 		}
 
 		::System::String* get_IconPath()
@@ -101,9 +101,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_GET_ICONPATH_OFFSET))(this);
 		}
 
-		::System::Void set_IconPath(::System::String* value)
+		::System::Void set_IconPath(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_SET_ICONPATH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEADVTECHTREE_SET_ICONPATH_OFFSET))(this, a1);
 		}
 	};
 }

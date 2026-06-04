@@ -10,15 +10,15 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 
-#define HIPPLENBUILDERPETTINGGAME_METHOD_5_6478E93E26BFB642_OFFSET UNITYSDK_OFFSET(0xFC45930)
-#define HIPPLENBUILDERPETTINGGAME_METHOD_5_C5B3CC9884471A9E_OFFSET UNITYSDK_OFFSET(0xFC45FF0)
-#define HIPPLENBUILDERPETTINGGAME_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xFC464A0)
-#define HIPPLENBUILDERPETTINGGAME_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0xFC46500)
-#define HIPPLENBUILDERPETTINGGAME_START_OFFSET UNITYSDK_OFFSET(0xFC44EC0)
-#define HIPPLENBUILDERPETTINGGAME_UPDATE_OFFSET UNITYSDK_OFFSET(0xFC45000)
-#define HIPPLENBUILDERPETTINGGAME__CTOR_OFFSET UNITYSDK_OFFSET(0xFC46970)
+#define HIPPLENBUILDERPETTINGGAME_METHOD_5_145F41071532775D_OFFSET UNITYSDK_OFFSET(0x1721BCB0)
+#define HIPPLENBUILDERPETTINGGAME_METHOD_5_C5B3CC9884471A9E_OFFSET UNITYSDK_OFFSET(0x1721C310)
+#define HIPPLENBUILDERPETTINGGAME_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1721C7A0)
+#define HIPPLENBUILDERPETTINGGAME_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1721C800)
+#define HIPPLENBUILDERPETTINGGAME_START_OFFSET UNITYSDK_OFFSET(0x1721B280)
+#define HIPPLENBUILDERPETTINGGAME_UPDATE_OFFSET UNITYSDK_OFFSET(0x1721B3C0)
+#define HIPPLENBUILDERPETTINGGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1721CC20)
 
-inline static constexpr unsigned int HipplenBuilderPettingGame_TypeDefinitionIndex = 43997;
+inline static constexpr unsigned int HipplenBuilderPettingGame_TypeDefinitionIndex = 44543;
 
 class HipplenBuilderPettingGame : public ::UnityEngine::MonoBehaviour
 {
@@ -48,9 +48,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERPETTINGGAME_UPDATE_OFFSET))(this);
 	}
 
-	::System::Boolean Method_5_6478E93E26BFB642(::UnityEngine::Ray a1, ::UnityEngine::Mesh* a2, ::UnityEngine::Vector3& a3, ::UnityEngine::Vector3& a4)
+	::System::Boolean Method_5_145F41071532775D(::UnityEngine::Ray a1, ::UnityEngine::Mesh* a2, ::UnityEngine::Vector3& a3, ::UnityEngine::Vector3& a4)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Ray, ::UnityEngine::Mesh*, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + HIPPLENBUILDERPETTINGGAME_METHOD_5_6478E93E26BFB642_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Ray, ::UnityEngine::Mesh*, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + HIPPLENBUILDERPETTINGGAME_METHOD_5_145F41071532775D_OFFSET))(this, a1, a2, a3, a4);
 	}
 
 	::System::Boolean Method_5_C5B3CC9884471A9E(::UnityEngine::Ray a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3& a5, ::UnityEngine::Vector3& a6)

@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Texture3D; }
 
-#define RPG_CUSTOMRP_CLOUDTRANSITION_KEYFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x15273D30)
+#define RPG_CUSTOMRP_CLOUDTRANSITION_KEYFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x15714D00)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CloudTransition_KeyFrame_TypeDefinitionIndex = 35118;
+	inline static constexpr unsigned int CloudTransition_KeyFrame_TypeDefinitionIndex = 35404;
 
 	class CloudTransition_KeyFrame : public ::System::Object
 	{

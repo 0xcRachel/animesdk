@@ -5,10 +5,10 @@
 class Class_1_6C555725EE740F88;
 class Class_1_D7976A8B64BD43B9;
 
-#define CLASS_1_843A4AFDA7D083A0___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF5BA4C0)
-#define CLASS_1_843A4AFDA7D083A0___C__DISPLAYCLASS9_0___TRYADDSHOWDATA_B__1_OFFSET UNITYSDK_OFFSET(0xF5BA600)
+#define CLASS_1_843A4AFDA7D083A0___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E31490)
+#define CLASS_1_843A4AFDA7D083A0___C__DISPLAYCLASS9_0___TRYADDSHOWDATA_B__1_OFFSET UNITYSDK_OFFSET(0x15E315D0)
 
-inline static constexpr unsigned int Class_1_843A4AFDA7D083A0___c__DisplayClass9_0_TypeDefinitionIndex = 66399;
+inline static constexpr unsigned int Class_1_843A4AFDA7D083A0___c__DisplayClass9_0_TypeDefinitionIndex = 67336;
 
 class Class_1_843A4AFDA7D083A0___c__DisplayClass9_0 : public ::System::Object
 {
@@ -20,8 +20,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_843A4AFDA7D083A0___C__DISPLAYCLASS9_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean __TryAddShowData_b__1(::Class_1_6C555725EE740F88* item)
+	::System::Boolean __TryAddShowData_b__1(::Class_1_6C555725EE740F88* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_6C555725EE740F88*))((::PBYTE)hIl2Cpp + CLASS_1_843A4AFDA7D083A0___C__DISPLAYCLASS9_0___TRYADDSHOWDATA_B__1_OFFSET))(this, item);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_6C555725EE740F88*))((::PBYTE)hIl2Cpp + CLASS_1_843A4AFDA7D083A0___C__DISPLAYCLASS9_0___TRYADDSHOWDATA_B__1_OFFSET))(this, a1);
 	}
 };

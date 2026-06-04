@@ -5,15 +5,15 @@
 
 namespace Epic::OnlineServices::Auth { class Credentials; }
 
-#define EPIC_ONLINESERVICES_AUTH_LOGINOPTIONS_GET_CREDENTIALS_OFFSET UNITYSDK_OFFSET(0x19637C00)
-#define EPIC_ONLINESERVICES_AUTH_LOGINOPTIONS_GET_SCOPEFLAGS_OFFSET UNITYSDK_OFFSET(0x19637C20)
-#define EPIC_ONLINESERVICES_AUTH_LOGINOPTIONS_SET_CREDENTIALS_OFFSET UNITYSDK_OFFSET(0x19637C10)
-#define EPIC_ONLINESERVICES_AUTH_LOGINOPTIONS_SET_SCOPEFLAGS_OFFSET UNITYSDK_OFFSET(0x19637C30)
-#define EPIC_ONLINESERVICES_AUTH_LOGINOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19637C40)
+#define EPIC_ONLINESERVICES_AUTH_LOGINOPTIONS_GET_CREDENTIALS_OFFSET UNITYSDK_OFFSET(0x19F5E5C0)
+#define EPIC_ONLINESERVICES_AUTH_LOGINOPTIONS_GET_SCOPEFLAGS_OFFSET UNITYSDK_OFFSET(0x19F5E5E0)
+#define EPIC_ONLINESERVICES_AUTH_LOGINOPTIONS_SET_CREDENTIALS_OFFSET UNITYSDK_OFFSET(0x19F5E5D0)
+#define EPIC_ONLINESERVICES_AUTH_LOGINOPTIONS_SET_SCOPEFLAGS_OFFSET UNITYSDK_OFFSET(0x19F5E5F0)
+#define EPIC_ONLINESERVICES_AUTH_LOGINOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19F5E600)
 
 namespace Epic::OnlineServices::Auth
 {
-	inline static constexpr unsigned int LoginOptions_TypeDefinitionIndex = 42379;
+	inline static constexpr unsigned int LoginOptions_TypeDefinitionIndex = 43182;
 
 	class LoginOptions : public ::System::Object
 	{
@@ -31,9 +31,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::Epic::OnlineServices::Auth::Credentials*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_LOGINOPTIONS_GET_CREDENTIALS_OFFSET))(this);
 		}
 
-		::System::Void set_Credentials(::Epic::OnlineServices::Auth::Credentials* value)
+		::System::Void set_Credentials(::Epic::OnlineServices::Auth::Credentials* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::Credentials*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_LOGINOPTIONS_SET_CREDENTIALS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::Credentials*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_LOGINOPTIONS_SET_CREDENTIALS_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::Auth::AuthScopeFlags get_ScopeFlags()
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::Epic::OnlineServices::Auth::AuthScopeFlags(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_LOGINOPTIONS_GET_SCOPEFLAGS_OFFSET))(this);
 		}
 
-		::System::Void set_ScopeFlags(::Epic::OnlineServices::Auth::AuthScopeFlags value)
+		::System::Void set_ScopeFlags(::Epic::OnlineServices::Auth::AuthScopeFlags a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::AuthScopeFlags))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_LOGINOPTIONS_SET_SCOPEFLAGS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::AuthScopeFlags))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_LOGINOPTIONS_SET_SCOPEFLAGS_OFFSET))(this, a1);
 		}
 	};
 }

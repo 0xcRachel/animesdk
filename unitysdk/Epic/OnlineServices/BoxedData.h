@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_BOXEDDATA_GET_DATA_OFFSET UNITYSDK_OFFSET(0x19654230)
-#define EPIC_ONLINESERVICES_BOXEDDATA_SET_DATA_OFFSET UNITYSDK_OFFSET(0x19654240)
-#define EPIC_ONLINESERVICES_BOXEDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19654250)
+#define EPIC_ONLINESERVICES_BOXEDDATA_GET_DATA_OFFSET UNITYSDK_OFFSET(0x19F77460)
+#define EPIC_ONLINESERVICES_BOXEDDATA_SET_DATA_OFFSET UNITYSDK_OFFSET(0x19F77470)
+#define EPIC_ONLINESERVICES_BOXEDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19F77480)
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int BoxedData_TypeDefinitionIndex = 41059;
+	inline static constexpr unsigned int BoxedData_TypeDefinitionIndex = 41862;
 
 	class BoxedData : public ::System::Object
 	{
 	public:
 		::System::Object* _Data_k__BackingField; // 0x10
 
-		::System::Void _ctor(::System::Object* data)
+		::System::Void _ctor(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_BOXEDDATA__CTOR_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_BOXEDDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_Data()
@@ -25,9 +25,9 @@ namespace Epic::OnlineServices
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_BOXEDDATA_GET_DATA_OFFSET))(this);
 		}
 
-		::System::Void set_Data(::System::Object* value)
+		::System::Void set_Data(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_BOXEDDATA_SET_DATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_BOXEDDATA_SET_DATA_OFFSET))(this, a1);
 		}
 	};
 }

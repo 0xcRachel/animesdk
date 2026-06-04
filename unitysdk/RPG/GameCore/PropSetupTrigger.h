@@ -9,13 +9,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPSETUPTRIGGER_METHOD_3_61F3686B46B57398_OFFSET UNITYSDK_OFFSET(0x191CEAB0)
-#define RPG_GAMECORE_PROPSETUPTRIGGER_METHOD_3_DE6D2D8B1BB289DA_OFFSET UNITYSDK_OFFSET(0x191CEBE0)
-#define RPG_GAMECORE_PROPSETUPTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x191CEB60)
+#define RPG_GAMECORE_PROPSETUPTRIGGER_METHOD_3_61F3686B46B57398_OFFSET UNITYSDK_OFFSET(0x19A93790)
+#define RPG_GAMECORE_PROPSETUPTRIGGER_METHOD_3_8695220E8B2AB123_OFFSET UNITYSDK_OFFSET(0x19A938C0)
+#define RPG_GAMECORE_PROPSETUPTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19A93840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSetupTrigger_TypeDefinitionIndex = 19298;
+	inline static constexpr unsigned int PropSetupTrigger_TypeDefinitionIndex = 19214;
 
 	class PropSetupTrigger : public ::RPG::GameCore::TaskConfig
 	{
@@ -48,9 +48,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPTRIGGER_METHOD_3_61F3686B46B57398_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DE6D2D8B1BB289DA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupTrigger* a2)
+		static ::System::Void Method_3_8695220E8B2AB123(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupTrigger* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPTRIGGER_METHOD_3_DE6D2D8B1BB289DA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPTRIGGER_METHOD_3_8695220E8B2AB123_OFFSET))(a1, a2);
 		}
 	};
 }

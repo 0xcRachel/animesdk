@@ -8,17 +8,17 @@ namespace RPG::GameCore { class AnchorInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ELFPREPAREMODELMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15F74AC0)
-#define RPG_CLIENT_ELFPREPAREMODELMANAGER_GET__MONOEFFECTMANAGERREF_OFFSET UNITYSDK_OFFSET(0x15F7B300)
-#define RPG_CLIENT_ELFPREPAREMODELMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x15F7A980)
-#define RPG_CLIENT_ELFPREPAREMODELMANAGER_REFRESHRECIPEMODELS_OFFSET UNITYSDK_OFFSET(0x15F7AB50)
-#define RPG_CLIENT_ELFPREPAREMODELMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x15F76100)
-#define RPG_CLIENT_ELFPREPAREMODELMANAGER__GETRECIPEANCHORINFO_OFFSET UNITYSDK_OFFSET(0x15F7B1B0)
-#define RPG_CLIENT_ELFPREPAREMODELMANAGER__RELEASEALLMODEL_OFFSET UNITYSDK_OFFSET(0x15F7A9C0)
+#define RPG_CLIENT_ELFPREPAREMODELMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16C4CAA0)
+#define RPG_CLIENT_ELFPREPAREMODELMANAGER_GET__MONOEFFECTMANAGERREF_OFFSET UNITYSDK_OFFSET(0x16C53D00)
+#define RPG_CLIENT_ELFPREPAREMODELMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x16C532C0)
+#define RPG_CLIENT_ELFPREPAREMODELMANAGER_REFRESHRECIPEMODELS_OFFSET UNITYSDK_OFFSET(0x16C53480)
+#define RPG_CLIENT_ELFPREPAREMODELMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x16C4E350)
+#define RPG_CLIENT_ELFPREPAREMODELMANAGER__GETRECIPEANCHORINFO_OFFSET UNITYSDK_OFFSET(0x16C53BB0)
+#define RPG_CLIENT_ELFPREPAREMODELMANAGER__RELEASEALLMODEL_OFFSET UNITYSDK_OFFSET(0x16C53300)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfPrepareModelManager_TypeDefinitionIndex = 58704;
+	inline static constexpr unsigned int ElfPrepareModelManager_TypeDefinitionIndex = 59634;
 
 	class ElfPrepareModelManager : public ::System::Object
 	{
@@ -43,9 +43,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFPREPAREMODELMANAGER_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void RefreshRecipeModels(::System::Collections::Generic::List_1<::System::UInt32>* recipeIDList)
+		::System::Void RefreshRecipeModels(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFPREPAREMODELMANAGER_REFRESHRECIPEMODELS_OFFSET))(this, recipeIDList);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFPREPAREMODELMANAGER_REFRESHRECIPEMODELS_OFFSET))(this, a1);
 		}
 
 		::System::Void _ReleaseAllModel()
@@ -53,9 +53,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFPREPAREMODELMANAGER__RELEASEALLMODEL_OFFSET))(this);
 		}
 
-		::RPG::GameCore::AnchorInfo* _GetRecipeAnchorInfo(::System::Int32 index, ::System::Int32 totalRecipeCnt)
+		::RPG::GameCore::AnchorInfo* _GetRecipeAnchorInfo(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::RPG::GameCore::AnchorInfo*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFPREPAREMODELMANAGER__GETRECIPEANCHORINFO_OFFSET))(this, index, totalRecipeCnt);
+			return ((::RPG::GameCore::AnchorInfo*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFPREPAREMODELMANAGER__GETRECIPEANCHORINFO_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::MonoEffectManager* get__MonoEffectManagerRef()

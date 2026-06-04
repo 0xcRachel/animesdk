@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_354AD1D19898E348;
+class Class_2_2DB5DEF3EA4B57A8;
 namespace RPG::Client { template <typename T> class NodeListViewPanel_1; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_ELATIONBUFFPRESENTERUIPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x15F507E0)
+#define RPG_CLIENT_ELATIONBUFFPRESENTERUIPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x156D3820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElationBuffPresenterUIParam_TypeDefinitionIndex = 65612;
+	inline static constexpr unsigned int ElationBuffPresenterUIParam_TypeDefinitionIndex = 66546;
 
 	class ElationBuffPresenterUIParam : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* LineBottom; // 0x10
-		::UnityEngine::UI::Text* TotalDescText; // 0x18
-		::UnityEngine::UI::Button* OpenOverviewBtn; // 0x20
-		::RPG::Client::NodeListViewPanel_1<::Class_2_354AD1D19898E348*>* ElationBuffList; // 0x28
-		::UnityEngine::UI::Text* TotalPointText; // 0x30
-		::UnityEngine::UI::Button* CloseOverviewBtn; // 0x38
+		::RPG::Client::NodeListViewPanel_1<::Class_2_2DB5DEF3EA4B57A8*>* ElationBuffList; // 0x10
+		::UnityEngine::UI::Button* OpenOverviewBtn; // 0x18
+		::UnityEngine::UI::Text* TotalDescText; // 0x20
+		::UnityEngine::UI::Button* CloseOverviewBtn; // 0x28
+		::UnityEngine::Transform* LineBottom; // 0x30
+		::UnityEngine::UI::Text* TotalPointText; // 0x38
 
 		::System::Void _ctor()
 		{

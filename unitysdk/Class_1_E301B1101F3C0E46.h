@@ -5,7 +5,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_344;
+class Class_0_16E4307DCC419505_357;
 namespace RPG::Client { class MapEntityDef; }
 namespace RPG::Client { class Map_MapObjectsUpdateRequest; }
 namespace System { class String; }
@@ -13,30 +13,30 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_E301B1101F3C0E46_METHOD_1_022004A3EC549ED0_OFFSET UNITYSDK_OFFSET(0xE3F2440)
-#define CLASS_1_E301B1101F3C0E46_METHOD_1_2652BDAD77FBA3A9_OFFSET UNITYSDK_OFFSET(0xE3F2C00)
-#define CLASS_1_E301B1101F3C0E46_METHOD_1_34CF1C7B55739B9E_OFFSET UNITYSDK_OFFSET(0xE3F3760)
-#define CLASS_1_E301B1101F3C0E46_METHOD_1_4D9124A122987A9B_OFFSET UNITYSDK_OFFSET(0xE3F2600)
-#define CLASS_1_E301B1101F3C0E46_METHOD_1_52406C4063E37FA9_OFFSET UNITYSDK_OFFSET(0xE3F2EB0)
-#define CLASS_1_E301B1101F3C0E46_METHOD_1_73270EA8DDDA169F_OFFSET UNITYSDK_OFFSET(0xE3F1A10)
-#define CLASS_1_E301B1101F3C0E46_METHOD_1_939383CFABF4988F_OFFSET UNITYSDK_OFFSET(0xE3F2350)
-#define CLASS_1_E301B1101F3C0E46_METHOD_1_D327AB906A4FEFD3_OFFSET UNITYSDK_OFFSET(0xE3F1570)
-#define CLASS_1_E301B1101F3C0E46_METHOD_1_FBB323D03BA54B00_OFFSET UNITYSDK_OFFSET(0xE3F16B0)
-#define CLASS_1_E301B1101F3C0E46__CCTOR_OFFSET UNITYSDK_OFFSET(0xE3F39E0)
-#define CLASS_1_E301B1101F3C0E46__CTOR_OFFSET UNITYSDK_OFFSET(0xE3F39D0)
+#define CLASS_1_E301B1101F3C0E46_METHOD_1_022004A3EC549ED0_OFFSET UNITYSDK_OFFSET(0x1572D450)
+#define CLASS_1_E301B1101F3C0E46_METHOD_1_2652BDAD77FBA3A9_OFFSET UNITYSDK_OFFSET(0x1572DC30)
+#define CLASS_1_E301B1101F3C0E46_METHOD_1_2C46ACA39853516A_OFFSET UNITYSDK_OFFSET(0x1572C670)
+#define CLASS_1_E301B1101F3C0E46_METHOD_1_4D9124A122987A9B_OFFSET UNITYSDK_OFFSET(0x1572D610)
+#define CLASS_1_E301B1101F3C0E46_METHOD_1_52406C4063E37FA9_OFFSET UNITYSDK_OFFSET(0x1572DEE0)
+#define CLASS_1_E301B1101F3C0E46_METHOD_1_73270EA8DDDA169F_OFFSET UNITYSDK_OFFSET(0x1572CA20)
+#define CLASS_1_E301B1101F3C0E46_METHOD_1_939383CFABF4988F_OFFSET UNITYSDK_OFFSET(0x1572D360)
+#define CLASS_1_E301B1101F3C0E46_METHOD_1_AE085A24A996DFD7_OFFSET UNITYSDK_OFFSET(0x1572E750)
+#define CLASS_1_E301B1101F3C0E46_METHOD_1_D327AB906A4FEFD3_OFFSET UNITYSDK_OFFSET(0x1572C530)
+#define CLASS_1_E301B1101F3C0E46__CCTOR_OFFSET UNITYSDK_OFFSET(0x1572E9F0)
+#define CLASS_1_E301B1101F3C0E46__CTOR_OFFSET UNITYSDK_OFFSET(0x1572E9E0)
 
-inline static constexpr unsigned int Class_1_E301B1101F3C0E46_TypeDefinitionIndex = 57378;
+inline static constexpr unsigned int Class_1_E301B1101F3C0E46_TypeDefinitionIndex = 58190;
 
 class Class_1_E301B1101F3C0E46 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_Field_1_1()
+	static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E301B1101F3C0E46_TypeDefinitionIndex)->GetStaticField(0xF2B0);
+		return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E301B1101F3C0E46_TypeDefinitionIndex)->GetStaticField(0x3C000);
 	}
-	static ::System::Boolean* StaticGet_Field_1_0()
+	static ::System::Boolean* StaticGet_Field_1_1()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_E301B1101F3C0E46_TypeDefinitionIndex)->GetStaticField(0x50D0);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_E301B1101F3C0E46_TypeDefinitionIndex)->GetStaticField(0xBA30);
 	}
 
 	::System::Void _ctor()
@@ -54,9 +54,9 @@ public:
 		return ((::System::Boolean(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_1_E301B1101F3C0E46_METHOD_1_D327AB906A4FEFD3_OFFSET))(a1);
 	}
 
-	static ::System::Boolean Method_1_FBB323D03BA54B00()
+	static ::System::Boolean Method_1_2C46ACA39853516A()
 	{
-		return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CLASS_1_E301B1101F3C0E46_METHOD_1_FBB323D03BA54B00_OFFSET))();
+		return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CLASS_1_E301B1101F3C0E46_METHOD_1_2C46ACA39853516A_OFFSET))();
 	}
 
 	static ::System::Boolean Method_1_73270EA8DDDA169F(::System::Collections::Generic::IEnumerable_1<::RPG::Client::MapEntityDef*>* a1, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::MapEntityDef*>* a2, ::System::Collections::Generic::Dictionary_2<::RPG::Client::MapEntityDef*, ::RPG::Client::EntitySpawnTransitionType>*& a3)
@@ -89,8 +89,8 @@ public:
 		return ((::UnityEngine::Vector3(*)())((::PBYTE)hIl2Cpp + CLASS_1_E301B1101F3C0E46_METHOD_1_939383CFABF4988F_OFFSET))();
 	}
 
-	static ::System::Boolean Method_1_34CF1C7B55739B9E(::Class_0_16E4307DCC419505_344* a1)
+	static ::System::Boolean Method_1_AE085A24A996DFD7(::Class_0_16E4307DCC419505_357* a1)
 	{
-		return ((::System::Boolean(*)(::Class_0_16E4307DCC419505_344*))((::PBYTE)hIl2Cpp + CLASS_1_E301B1101F3C0E46_METHOD_1_34CF1C7B55739B9E_OFFSET))(a1);
+		return ((::System::Boolean(*)(::Class_0_16E4307DCC419505_357*))((::PBYTE)hIl2Cpp + CLASS_1_E301B1101F3C0E46_METHOD_1_AE085A24A996DFD7_OFFSET))(a1);
 	}
 };

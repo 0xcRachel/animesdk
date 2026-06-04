@@ -4,22 +4,22 @@
 
 namespace System { class String; }
 
-#define RPG_GAMECORE_STATUSEXCELTABLE_INDEXKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x632780)
-#define RPG_GAMECORE_STATUSEXCELTABLE_INDEXKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x608A20)
-#define RPG_GAMECORE_STATUSEXCELTABLE_INDEXKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x6326E0)
-#define RPG_GAMECORE_STATUSEXCELTABLE_INDEXKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x6326D0)
+#define RPG_GAMECORE_STATUSEXCELTABLE_INDEXKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0xA185F0)
+#define RPG_GAMECORE_STATUSEXCELTABLE_INDEXKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x72BBF0)
+#define RPG_GAMECORE_STATUSEXCELTABLE_INDEXKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA18550)
+#define RPG_GAMECORE_STATUSEXCELTABLE_INDEXKEY__CTOR_OFFSET UNITYSDK_OFFSET(0xA18540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StatusExcelTable_IndexKey_TypeDefinitionIndex = 14387;
+	inline static constexpr unsigned int StatusExcelTable_IndexKey_TypeDefinitionIndex = 14429;
 
 	struct alignas(4) StatusExcelTable_IndexKey
 	{
 		::System::UInt32 StatusID; // 0x10
 
-		::System::Void _ctor(::System::UInt32 StatusID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATUSEXCELTABLE_INDEXKEY__CTOR_OFFSET))(this, StatusID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATUSEXCELTABLE_INDEXKEY__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATUSEXCELTABLE_INDEXKEY_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::RPG::GameCore::StatusExcelTable_IndexKey other)
+		::System::Boolean Equals(::RPG::GameCore::StatusExcelTable_IndexKey a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::StatusExcelTable_IndexKey))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATUSEXCELTABLE_INDEXKEY_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::StatusExcelTable_IndexKey))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATUSEXCELTABLE_INDEXKEY_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

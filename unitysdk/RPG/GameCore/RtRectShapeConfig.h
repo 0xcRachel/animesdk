@@ -4,14 +4,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_RTRECTSHAPECONFIG_METHOD_3_2C1BB56590FB1A60_OFFSET UNITYSDK_OFFSET(0x18E86A50)
-#define RPG_GAMECORE_RTRECTSHAPECONFIG_METHOD_3_5638064EFEFB10A2_OFFSET UNITYSDK_OFFSET(0x18E7DE00)
-#define RPG_GAMECORE_RTRECTSHAPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E7DD70)
+#define RPG_GAMECORE_RTRECTSHAPECONFIG_METHOD_3_2C1BB56590FB1A60_OFFSET UNITYSDK_OFFSET(0x1942B030)
+#define RPG_GAMECORE_RTRECTSHAPECONFIG_METHOD_3_5638064EFEFB10A2_OFFSET UNITYSDK_OFFSET(0x194219B0)
+#define RPG_GAMECORE_RTRECTSHAPECONFIG_METHOD_3_9621A7EB95C742F0_OFFSET UNITYSDK_OFFSET(0x1942B0E0)
+#define RPG_GAMECORE_RTRECTSHAPECONFIG_METHOD_3_EA0782E7522602E1_OFFSET UNITYSDK_OFFSET(0x19421EF0)
+#define RPG_GAMECORE_RTRECTSHAPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19421920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtRectShapeConfig_TypeDefinitionIndex = 16763;
+	inline static constexpr unsigned int RtRectShapeConfig_TypeDefinitionIndex = 16780;
 
 	class RtRectShapeConfig : public ::RPG::GameCore::RtCollision2DShapeConfig
 	{
@@ -32,6 +35,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_3_5638064EFEFB10A2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtRectShapeConfig* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtRectShapeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTRECTSHAPECONFIG_METHOD_3_5638064EFEFB10A2_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_EA0782E7522602E1(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtRectShapeConfig*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtRectShapeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTRECTSHAPECONFIG_METHOD_3_EA0782E7522602E1_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_9621A7EB95C742F0(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtRectShapeConfig* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtRectShapeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTRECTSHAPECONFIG_METHOD_3_9621A7EB95C742F0_OFFSET))(a1, a2);
 		}
 	};
 }

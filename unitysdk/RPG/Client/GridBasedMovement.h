@@ -10,20 +10,20 @@ namespace RPG::Client { class UIController; }
 namespace UnityEngine::EventSystems { class AxisEventData; }
 namespace UnityEngine::Events { template <typename T> class UnityEvent_1; }
 
-#define RPG_CLIENT_GRIDBASEDMOVEMENT_DISABLEREPEATMOVEONCE_OFFSET UNITYSDK_OFFSET(0x160502F0)
-#define RPG_CLIENT_GRIDBASEDMOVEMENT_ENABLETWOAXISMOVE_OFFSET UNITYSDK_OFFSET(0x16050330)
-#define RPG_CLIENT_GRIDBASEDMOVEMENT_GET_ONMOVE_OFFSET UNITYSDK_OFFSET(0x16050290)
-#define RPG_CLIENT_GRIDBASEDMOVEMENT_INIT_OFFSET UNITYSDK_OFFSET(0x160502A0)
-#define RPG_CLIENT_GRIDBASEDMOVEMENT_UNITYENGINE_EVENTSYSTEMS_IMOVEHANDLER_ONMOVE_OFFSET UNITYSDK_OFFSET(0x16050AE0)
-#define RPG_CLIENT_GRIDBASEDMOVEMENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x16050380)
-#define RPG_CLIENT_GRIDBASEDMOVEMENT__CONVERT2VECTOR_OFFSET UNITYSDK_OFFSET(0x16050E00)
-#define RPG_CLIENT_GRIDBASEDMOVEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x16050EA0)
-#define RPG_CLIENT_GRIDBASEDMOVEMENT__DETERMINEMOVEDIR_OFFSET UNITYSDK_OFFSET(0x16050990)
-#define RPG_CLIENT_GRIDBASEDMOVEMENT__TRYGETAXISVALUE_OFFSET UNITYSDK_OFFSET(0x160505D0)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT_DISABLEREPEATMOVEONCE_OFFSET UNITYSDK_OFFSET(0x1602F5F0)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT_ENABLETWOAXISMOVE_OFFSET UNITYSDK_OFFSET(0x1602F630)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT_GET_ONMOVE_OFFSET UNITYSDK_OFFSET(0x1602F590)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT_INIT_OFFSET UNITYSDK_OFFSET(0x1602F5A0)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT_UNITYENGINE_EVENTSYSTEMS_IMOVEHANDLER_ONMOVE_OFFSET UNITYSDK_OFFSET(0x1602FDC0)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1602F680)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT__CONVERT2VECTOR_OFFSET UNITYSDK_OFFSET(0x160300E0)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x16030180)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT__DETERMINEMOVEDIR_OFFSET UNITYSDK_OFFSET(0x1602FC90)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT__TRYGETAXISVALUE_OFFSET UNITYSDK_OFFSET(0x1602F8D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridBasedMovement_TypeDefinitionIndex = 66836;
+	inline static constexpr unsigned int GridBasedMovement_TypeDefinitionIndex = 67776;
 
 	class GridBasedMovement : public ::UnityEngine::MonoBehaviour
 	{
@@ -50,9 +50,9 @@ namespace RPG::Client
 			return ((::UnityEngine::Events::UnityEvent_1<::RPG::Client::GridBasedEventData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT_GET_ONMOVE_OFFSET))(this);
 		}
 
-		::System::Void Init(::RPG::Client::UIController* controller)
+		::System::Void Init(::RPG::Client::UIController* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT_INIT_OFFSET))(this, controller);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT_INIT_OFFSET))(this, a1);
 		}
 
 		::System::Void DisableRepeatMoveOnce()
@@ -60,9 +60,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT_DISABLEREPEATMOVEONCE_OFFSET))(this);
 		}
 
-		::System::Void EnableTwoAxisMove(::System::Boolean enable)
+		::System::Void EnableTwoAxisMove(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT_ENABLETWOAXISMOVE_OFFSET))(this, enable);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT_ENABLETWOAXISMOVE_OFFSET))(this, a1);
 		}
 
 		::System::Void Update()
@@ -70,24 +70,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void UnityEngine_EventSystems_IMoveHandler_OnMove(::UnityEngine::EventSystems::AxisEventData* eventData)
+		::System::Void UnityEngine_EventSystems_IMoveHandler_OnMove(::UnityEngine::EventSystems::AxisEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::AxisEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT_UNITYENGINE_EVENTSYSTEMS_IMOVEHANDLER_ONMOVE_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::AxisEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT_UNITYENGINE_EVENTSYSTEMS_IMOVEHANDLER_ONMOVE_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector2Int _Convert2Vector(::UnityEngine::EventSystems::MoveDirection dir)
+		::UnityEngine::Vector2Int _Convert2Vector(::UnityEngine::EventSystems::MoveDirection a1)
 		{
-			return ((::UnityEngine::Vector2Int(*)(::PVOID, ::UnityEngine::EventSystems::MoveDirection))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT__CONVERT2VECTOR_OFFSET))(this, dir);
+			return ((::UnityEngine::Vector2Int(*)(::PVOID, ::UnityEngine::EventSystems::MoveDirection))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT__CONVERT2VECTOR_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _TryGetAxisValue(::UnityEngine::Vector2& value)
+		::System::Boolean _TryGetAxisValue(::UnityEngine::Vector2& a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT__TRYGETAXISVALUE_OFFSET))(this, value);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT__TRYGETAXISVALUE_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector2Int _DetermineMoveDir(::UnityEngine::Vector2 raw, ::System::Single threshold)
+		::UnityEngine::Vector2Int _DetermineMoveDir(::UnityEngine::Vector2 a1, ::System::Single a2)
 		{
-			return ((::UnityEngine::Vector2Int(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT__DETERMINEMOVEDIR_OFFSET))(this, raw, threshold);
+			return ((::UnityEngine::Vector2Int(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT__DETERMINEMOVEDIR_OFFSET))(this, a1, a2);
 		}
 	};
 }

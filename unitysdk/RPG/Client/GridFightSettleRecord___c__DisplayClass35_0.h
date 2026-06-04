@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightEquipItemData; }
 
-#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17B87BC0)
-#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS35_0__GETEQUIPSBYID_B__0_OFFSET UNITYSDK_OFFSET(0x17B89F90)
+#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19970DB0)
+#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS35_0__GETEQUIPSBYID_B__0_OFFSET UNITYSDK_OFFSET(0x19972D60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightSettleRecord___c__DisplayClass35_0_TypeDefinitionIndex = 60041;
+	inline static constexpr unsigned int GridFightSettleRecord___c__DisplayClass35_0_TypeDefinitionIndex = 60976;
 
 	class GridFightSettleRecord___c__DisplayClass35_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS35_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetEquipsByID_b__0(::RPG::Client::GridFightEquipItemData* equip)
+		::System::Boolean _GetEquipsByID_b__0(::RPG::Client::GridFightEquipItemData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS35_0__GETEQUIPSBYID_B__0_OFFSET))(this, equip);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS35_0__GETEQUIPSBYID_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -3,16 +3,16 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_5516F5B2865E1357_4;
-class Class_1_D17272E82AE804C2_669;
+class Class_1_D17272E82AE804C2_705;
 
-#define RPG_CLIENT_PLANETFESGACHARESULTITEMDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0x17505820)
-#define RPG_CLIENT_PLANETFESGACHARESULTITEMDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x17505CD0)
-#define RPG_CLIENT_PLANETFESGACHARESULTITEMDATA_MERGE_OFFSET UNITYSDK_OFFSET(0x175058C0)
-#define RPG_CLIENT_PLANETFESGACHARESULTITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17505D60)
+#define RPG_CLIENT_PLANETFESGACHARESULTITEMDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1850BB00)
+#define RPG_CLIENT_PLANETFESGACHARESULTITEMDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1850BFD0)
+#define RPG_CLIENT_PLANETFESGACHARESULTITEMDATA_MERGE_OFFSET UNITYSDK_OFFSET(0x1850BBA0)
+#define RPG_CLIENT_PLANETFESGACHARESULTITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1850C060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesGachaResultItemData_TypeDefinitionIndex = 61356;
+	inline static constexpr unsigned int PlanetFesGachaResultItemData_TypeDefinitionIndex = 62280;
 
 	class PlanetFesGachaResultItemData : public ::System::Object
 	{
@@ -25,19 +25,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESGACHARESULTITEMDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::PlanetFesGachaResultItemData* Create(::Class_1_D17272E82AE804C2_669* item)
+		static ::RPG::Client::PlanetFesGachaResultItemData* Create(::Class_1_D17272E82AE804C2_705* a1)
 		{
-			return ((::RPG::Client::PlanetFesGachaResultItemData*(*)(::Class_1_D17272E82AE804C2_669*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESGACHARESULTITEMDATA_CREATE_OFFSET))(item);
+			return ((::RPG::Client::PlanetFesGachaResultItemData*(*)(::Class_1_D17272E82AE804C2_705*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESGACHARESULTITEMDATA_CREATE_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::PlanetFesGachaResultItemData* Create_1(::Class_1_5516F5B2865E1357_4* item)
+		static ::RPG::Client::PlanetFesGachaResultItemData* Create_1(::Class_1_5516F5B2865E1357_4* a1)
 		{
-			return ((::RPG::Client::PlanetFesGachaResultItemData*(*)(::Class_1_5516F5B2865E1357_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESGACHARESULTITEMDATA_CREATE_1_OFFSET))(item);
+			return ((::RPG::Client::PlanetFesGachaResultItemData*(*)(::Class_1_5516F5B2865E1357_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESGACHARESULTITEMDATA_CREATE_1_OFFSET))(a1);
 		}
 
-		::System::Void Merge(::RPG::Client::PlanetFesGachaResultItemData* data)
+		::System::Void Merge(::RPG::Client::PlanetFesGachaResultItemData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::PlanetFesGachaResultItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESGACHARESULTITEMDATA_MERGE_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PlanetFesGachaResultItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESGACHARESULTITEMDATA_MERGE_OFFSET))(this, a1);
 		}
 	};
 }

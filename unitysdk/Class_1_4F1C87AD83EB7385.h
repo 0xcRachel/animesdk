@@ -7,22 +7,22 @@ namespace RPG::Client { class ParkourGameTalkEventInfo; }
 namespace RPG::Client::ParkourGame { class MonoParkourTalkEvent; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_4F1C87AD83EB7385_METHOD_1_0BDFAC56E6B704CB_OFFSET UNITYSDK_OFFSET(0x1559FE10)
-#define CLASS_1_4F1C87AD83EB7385_METHOD_1_2857E587A86D1531_OFFSET UNITYSDK_OFFSET(0x155A0310)
-#define CLASS_1_4F1C87AD83EB7385_METHOD_1_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x155A0440)
-#define CLASS_1_4F1C87AD83EB7385_METHOD_1_42AA9A78CFDCA6A5_OFFSET UNITYSDK_OFFSET(0x1559FDC0)
-#define CLASS_1_4F1C87AD83EB7385_METHOD_1_6A52E00ED36A3484_OFFSET UNITYSDK_OFFSET(0x155A03D0)
-#define CLASS_1_4F1C87AD83EB7385_METHOD_1_A4A5585C8E73BD81_OFFSET UNITYSDK_OFFSET(0x1559FF60)
-#define CLASS_1_4F1C87AD83EB7385__CTOR_OFFSET UNITYSDK_OFFSET(0x155A0550)
+#define CLASS_1_4F1C87AD83EB7385_METHOD_1_2857E587A86D1531_OFFSET UNITYSDK_OFFSET(0x17810A00)
+#define CLASS_1_4F1C87AD83EB7385_METHOD_1_42AA9A78CFDCA6A5_OFFSET UNITYSDK_OFFSET(0x17810520)
+#define CLASS_1_4F1C87AD83EB7385_METHOD_1_5AE83F665B51F5BC_OFFSET UNITYSDK_OFFSET(0x17810AC0)
+#define CLASS_1_4F1C87AD83EB7385_METHOD_1_A4A5585C8E73BD81_OFFSET UNITYSDK_OFFSET(0x178106C0)
+#define CLASS_1_4F1C87AD83EB7385_METHOD_1_D3129FE8DF635B48_OFFSET UNITYSDK_OFFSET(0x17810570)
+#define CLASS_1_4F1C87AD83EB7385_METHOD_1_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0x17810B50)
+#define CLASS_1_4F1C87AD83EB7385__CTOR_OFFSET UNITYSDK_OFFSET(0x17810C40)
 
-inline static constexpr unsigned int Class_1_4F1C87AD83EB7385_TypeDefinitionIndex = 57053;
+inline static constexpr unsigned int Class_1_4F1C87AD83EB7385_TypeDefinitionIndex = 57840;
 
 class Class_1_4F1C87AD83EB7385 : public ::System::Object
 {
 public:
-	::RPG::Client::BaseGameFlow* Field_1_2; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ParkourGame::MonoParkourTalkEvent*>* Field_1_0; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ParkourGameTalkEventInfo*>* Field_1_1; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ParkourGame::MonoParkourTalkEvent*>* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ParkourGameTalkEventInfo*>* Field_1_1; // 0x18
+	::RPG::Client::BaseGameFlow* Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{
@@ -34,9 +34,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::Client::BaseGameFlow*))((::PBYTE)hIl2Cpp + CLASS_1_4F1C87AD83EB7385_METHOD_1_42AA9A78CFDCA6A5_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_0BDFAC56E6B704CB()
+	::System::Void Method_1_D3129FE8DF635B48()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4F1C87AD83EB7385_METHOD_1_0BDFAC56E6B704CB_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4F1C87AD83EB7385_METHOD_1_D3129FE8DF635B48_OFFSET))(this);
 	}
 
 	::System::Void Method_1_A4A5585C8E73BD81(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4)
@@ -49,13 +49,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::ParkourGame::MonoParkourTalkEvent*))((::PBYTE)hIl2Cpp + CLASS_1_4F1C87AD83EB7385_METHOD_1_2857E587A86D1531_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_6A52E00ED36A3484(::System::UInt32 a1, ::RPG::Client::ParkourGame::MonoParkourTalkEvent* a2)
+	::System::Void Method_1_5AE83F665B51F5BC(::System::UInt32 a1, ::RPG::Client::ParkourGame::MonoParkourTalkEvent* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::ParkourGame::MonoParkourTalkEvent*))((::PBYTE)hIl2Cpp + CLASS_1_4F1C87AD83EB7385_METHOD_1_6A52E00ED36A3484_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::ParkourGame::MonoParkourTalkEvent*))((::PBYTE)hIl2Cpp + CLASS_1_4F1C87AD83EB7385_METHOD_1_5AE83F665B51F5BC_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_41A074549EF25F63()
+	::System::Void Method_1_E7EF6BC52B28648C()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4F1C87AD83EB7385_METHOD_1_41A074549EF25F63_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4F1C87AD83EB7385_METHOD_1_E7EF6BC52B28648C_OFFSET))(this);
 	}
 };

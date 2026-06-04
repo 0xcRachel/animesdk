@@ -6,11 +6,11 @@ namespace RPG::GameCore { class AttachEntityDeparted; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_3_080AC495FAE07BF1_METHOD_3_E92774B699B24150_OFFSET UNITYSDK_OFFSET(0xD7D6850)
-#define CLASS_3_080AC495FAE07BF1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD7D67A0)
-#define CLASS_3_080AC495FAE07BF1__CTOR_OFFSET UNITYSDK_OFFSET(0xD7D6770)
+#define CLASS_3_080AC495FAE07BF1_METHOD_3_6A66C3676F8E3F03_OFFSET UNITYSDK_OFFSET(0x162FB140)
+#define CLASS_3_080AC495FAE07BF1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x162FB090)
+#define CLASS_3_080AC495FAE07BF1__CTOR_OFFSET UNITYSDK_OFFSET(0x162FB060)
 
-inline static constexpr unsigned int Class_3_080AC495FAE07BF1_TypeDefinitionIndex = 50604;
+inline static constexpr unsigned int Class_3_080AC495FAE07BF1_TypeDefinitionIndex = 51271;
 
 class Class_3_080AC495FAE07BF1 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AttachEntityDeparted*>
 {
@@ -25,8 +25,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_080AC495FAE07BF1_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	static ::System::Boolean Method_3_E92774B699B24150(::RPG::GameCore::TaskContext* a1, ::System::String* a2)
+	static ::System::Boolean Method_3_6A66C3676F8E3F03(::RPG::GameCore::TaskContext* a1, ::System::String* a2)
 	{
-		return ((::System::Boolean(*)(::RPG::GameCore::TaskContext*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_3_080AC495FAE07BF1_METHOD_3_E92774B699B24150_OFFSET))(a1, a2);
+		return ((::System::Boolean(*)(::RPG::GameCore::TaskContext*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_3_080AC495FAE07BF1_METHOD_3_6A66C3676F8E3F03_OFFSET))(a1, a2);
 	}
 };

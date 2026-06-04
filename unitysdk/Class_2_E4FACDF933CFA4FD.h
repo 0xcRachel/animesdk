@@ -4,38 +4,38 @@
 #include "unitysdk/Class_2_E4FACDF933CFA4FD_OpenState.h"
 #include "unitysdk/Struct_2_D3027B1CDFF61281.h"
 
-class Class_3_C270952194C1A3FA;
+class Class_3_9846D5C553A9930F;
 namespace RPG::Client { class CakeCatchCatData; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_E4FACDF933CFA4FD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE49B850)
-#define CLASS_2_E4FACDF933CFA4FD_METHOD_2_4D9155AC20AD5421_OFFSET UNITYSDK_OFFSET(0xE49BF80)
-#define CLASS_2_E4FACDF933CFA4FD_METHOD_2_6B26DD72FB4583FD_OFFSET UNITYSDK_OFFSET(0xE49BBB0)
-#define CLASS_2_E4FACDF933CFA4FD_METHOD_2_CDC24BD175A37396_OFFSET UNITYSDK_OFFSET(0xE49C120)
-#define CLASS_2_E4FACDF933CFA4FD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE49BA00)
-#define CLASS_2_E4FACDF933CFA4FD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE49B960)
-#define CLASS_2_E4FACDF933CFA4FD_TICK_OFFSET UNITYSDK_OFFSET(0xE49BD40)
-#define CLASS_2_E4FACDF933CFA4FD__CTOR_OFFSET UNITYSDK_OFFSET(0xE49B840)
+#define CLASS_2_E4FACDF933CFA4FD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16F77280)
+#define CLASS_2_E4FACDF933CFA4FD_METHOD_2_4D9155AC20AD5421_OFFSET UNITYSDK_OFFSET(0x16F779D0)
+#define CLASS_2_E4FACDF933CFA4FD_METHOD_2_6B26DD72FB4583FD_OFFSET UNITYSDK_OFFSET(0x16F77600)
+#define CLASS_2_E4FACDF933CFA4FD_METHOD_2_CDC24BD175A37396_OFFSET UNITYSDK_OFFSET(0x16F77B70)
+#define CLASS_2_E4FACDF933CFA4FD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16F77430)
+#define CLASS_2_E4FACDF933CFA4FD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16F77390)
+#define CLASS_2_E4FACDF933CFA4FD_TICK_OFFSET UNITYSDK_OFFSET(0x16F77790)
+#define CLASS_2_E4FACDF933CFA4FD__CTOR_OFFSET UNITYSDK_OFFSET(0x16F77270)
 
-inline static constexpr unsigned int Class_2_E4FACDF933CFA4FD_TypeDefinitionIndex = 49067;
+inline static constexpr unsigned int Class_2_E4FACDF933CFA4FD_TypeDefinitionIndex = 49734;
 
 class Class_2_E4FACDF933CFA4FD : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	// static const ::System::Single Field_2_4; // 0x0
-	// static const ::System::String* Field_2_6; // 0x0
-	::Struct_2_D3027B1CDFF61281 Field_2_2; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x48
-	::Class_3_C270952194C1A3FA* Field_2_0; // 0x50
-	::Class_2_E4FACDF933CFA4FD_OpenState Field_2_3; // 0x58
-	::System::Single Field_2_5; // 0x5C
+	// static const ::System::Single Field_2_0; // 0x0
+	// static const ::System::String* Field_2_1; // 0x0
+	::RPG::GameCore::TaskContext* Field_2_2; // 0x18
+	::Class_3_9846D5C553A9930F* Field_2_3; // 0x20
+	::Struct_2_D3027B1CDFF61281 Field_2_4; // 0x28
+	::System::Single Field_2_5; // 0x58
+	::Class_2_E4FACDF933CFA4FD_OpenState Field_2_6; // 0x5C
 
-	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_C270952194C1A3FA* a2)
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_9846D5C553A9930F* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_C270952194C1A3FA*))((::PBYTE)hIl2Cpp + CLASS_2_E4FACDF933CFA4FD__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_9846D5C553A9930F*))((::PBYTE)hIl2Cpp + CLASS_2_E4FACDF933CFA4FD__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Dispose()

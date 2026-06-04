@@ -8,22 +8,22 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define CLASS_2_E0A0663883F06B37_METHOD_2_2C6BB5BD685E1939_OFFSET UNITYSDK_OFFSET(0xFFA14C0)
-#define CLASS_2_E0A0663883F06B37_METHOD_2_AB1A253BFABC50A9_OFFSET UNITYSDK_OFFSET(0xFFA1130)
-#define CLASS_2_E0A0663883F06B37_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0xFFA0F70)
-#define CLASS_2_E0A0663883F06B37_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xFFA10A0)
-#define CLASS_2_E0A0663883F06B37__CTOR_OFFSET UNITYSDK_OFFSET(0xFFA1510)
-#define CLASS_2_E0A0663883F06B37___IFIXBASEPROXY_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0xFFA1520)
-#define CLASS_2_E0A0663883F06B37___IFIXBASEPROXY_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xFFA1530)
+#define CLASS_2_E0A0663883F06B37_METHOD_2_2C6BB5BD685E1939_OFFSET UNITYSDK_OFFSET(0x15856B80)
+#define CLASS_2_E0A0663883F06B37_METHOD_2_C7B58231E4F61838_OFFSET UNITYSDK_OFFSET(0x15856780)
+#define CLASS_2_E0A0663883F06B37_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x15856580)
+#define CLASS_2_E0A0663883F06B37_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x158566D0)
+#define CLASS_2_E0A0663883F06B37__CTOR_OFFSET UNITYSDK_OFFSET(0x15856BD0)
+#define CLASS_2_E0A0663883F06B37___IFIXBASEPROXY_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x15856BE0)
+#define CLASS_2_E0A0663883F06B37___IFIXBASEPROXY_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x15856BF0)
 
-inline static constexpr unsigned int Class_2_E0A0663883F06B37_TypeDefinitionIndex = 45501;
+inline static constexpr unsigned int Class_2_E0A0663883F06B37_TypeDefinitionIndex = 46084;
 
 class Class_2_E0A0663883F06B37 : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
-	::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>* Field_2_2; // 0x10
-	::UnityEngine::Playables::PlayableDirector* Field_2_1; // 0x18
-	::System::Double Field_2_0; // 0x20
+	::UnityEngine::Playables::PlayableDirector* Field_2_0; // 0x10
+	::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>* Field_2_1; // 0x18
+	::System::Double Field_2_2; // 0x20
 
 	::System::Void _ctor()
 	{
@@ -40,9 +40,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_2_E0A0663883F06B37_ONPLAYABLEDESTROY_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_AB1A253BFABC50A9(::System::Object* a1)
+	::System::Void Method_2_C7B58231E4F61838(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_E0A0663883F06B37_METHOD_2_AB1A253BFABC50A9_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_E0A0663883F06B37_METHOD_2_C7B58231E4F61838_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_2_2C6BB5BD685E1939(::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>* a1)
@@ -50,13 +50,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>*))((::PBYTE)hIl2Cpp + CLASS_2_E0A0663883F06B37_METHOD_2_2C6BB5BD685E1939_OFFSET))(this, a1);
 	}
 
-	::System::Void __iFixBaseProxy_OnPlayableCreate(::UnityEngine::Playables::Playable P0)
+	::System::Void __iFixBaseProxy_OnPlayableCreate(::UnityEngine::Playables::Playable a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_2_E0A0663883F06B37___IFIXBASEPROXY_ONPLAYABLECREATE_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_2_E0A0663883F06B37___IFIXBASEPROXY_ONPLAYABLECREATE_OFFSET))(this, a1);
 	}
 
-	::System::Void __iFixBaseProxy_OnPlayableDestroy(::UnityEngine::Playables::Playable P0)
+	::System::Void __iFixBaseProxy_OnPlayableDestroy(::UnityEngine::Playables::Playable a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_2_E0A0663883F06B37___IFIXBASEPROXY_ONPLAYABLEDESTROY_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_2_E0A0663883F06B37___IFIXBASEPROXY_ONPLAYABLEDESTROY_OFFSET))(this, a1);
 	}
 };

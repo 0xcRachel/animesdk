@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Spine/IInterpolation.h"
 
-#define SPINE_POW_APPLY_OFFSET UNITYSDK_OFFSET(0x156C4F70)
-#define SPINE_POW_GET_POWER_OFFSET UNITYSDK_OFFSET(0x156C4F50)
-#define SPINE_POW_SET_POWER_OFFSET UNITYSDK_OFFSET(0x156C4F60)
-#define SPINE_POW__CTOR_OFFSET UNITYSDK_OFFSET(0x156BC870)
+#define SPINE_POW_APPLY_OFFSET UNITYSDK_OFFSET(0x12B8EA90)
+#define SPINE_POW_GET_POWER_OFFSET UNITYSDK_OFFSET(0x12B8EA70)
+#define SPINE_POW_SET_POWER_OFFSET UNITYSDK_OFFSET(0x12B8EA80)
+#define SPINE_POW__CTOR_OFFSET UNITYSDK_OFFSET(0x12B86E90)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Pow_TypeDefinitionIndex = 36440;
+	inline static constexpr unsigned int Pow_TypeDefinitionIndex = 36740;
 
 	class Pow : public ::Spine::IInterpolation
 	{
 	public:
 		::System::Single _Power_k__BackingField; // 0x10
 
-		::System::Void _ctor(::System::Single power)
+		::System::Void _ctor(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_POW__CTOR_OFFSET))(this, power);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_POW__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Power()
@@ -26,14 +26,14 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_POW_GET_POWER_OFFSET))(this);
 		}
 
-		::System::Void set_Power(::System::Single value)
+		::System::Void set_Power(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_POW_SET_POWER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_POW_SET_POWER_OFFSET))(this, a1);
 		}
 
-		::System::Single Apply(::System::Single a)
+		::System::Single Apply(::System::Single a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_POW_APPLY_OFFSET))(this, a);
+			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_POW_APPLY_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,13 +6,13 @@
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_PERSPECTIVECAMERAPROXY_START_OFFSET UNITYSDK_OFFSET(0x165D20B0)
-#define RPG_CLIENT_PERSPECTIVECAMERAPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0x165D21A0)
-#define RPG_CLIENT_PERSPECTIVECAMERAPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x165D24A0)
+#define RPG_CLIENT_PERSPECTIVECAMERAPROXY_START_OFFSET UNITYSDK_OFFSET(0x146CF610)
+#define RPG_CLIENT_PERSPECTIVECAMERAPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0x146CF700)
+#define RPG_CLIENT_PERSPECTIVECAMERAPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x146CF9F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PerspectiveCameraProxy_TypeDefinitionIndex = 66915;
+	inline static constexpr unsigned int PerspectiveCameraProxy_TypeDefinitionIndex = 67857;
 
 	class PerspectiveCameraProxy : public ::UnityEngine::MonoBehaviour
 	{

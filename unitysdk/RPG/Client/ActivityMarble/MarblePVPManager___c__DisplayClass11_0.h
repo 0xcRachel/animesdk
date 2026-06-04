@@ -6,19 +6,19 @@ namespace RPG::Client::ActivityMarble { class MarblePVPManager; }
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17014860)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS11_0__EXITPVPLOBBYPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x17017F70)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS11_0__EXITPVPLOBBYPROMISE_B__1_OFFSET UNITYSDK_OFFSET(0x170180D0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17BAE710)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS11_0__EXITPVPLOBBYPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x17BB1EF0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS11_0__EXITPVPLOBBYPROMISE_B__1_OFFSET UNITYSDK_OFFSET(0x17BB2080)
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int MarblePVPManager___c__DisplayClass11_0_TypeDefinitionIndex = 68956;
+	inline static constexpr unsigned int MarblePVPManager___c__DisplayClass11_0_TypeDefinitionIndex = 69768;
 
 	class MarblePVPManager___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* promise; // 0x10
-		::RPG::Client::ActivityMarble::MarblePVPManager* __4__this; // 0x18
+		::RPG::Client::ActivityMarble::MarblePVPManager* __4__this; // 0x10
+		::RPG::Client::Promises::Promise* promise; // 0x18
 		::System::Action* __9__1; // 0x20
 
 		::System::Void _ctor()

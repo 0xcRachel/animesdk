@@ -8,22 +8,22 @@
 namespace Epic::OnlineServices { class EpicAccountId; }
 namespace Epic::OnlineServices::Mods { class ModIdentifier; }
 
-#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x19556A10)
-#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x195569D0)
-#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x195569B0)
-#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_GET_MOD_OFFSET UNITYSDK_OFFSET(0x195569F0)
-#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x19556990)
-#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x19556F60)
-#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x195569E0)
-#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x195569C0)
-#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_MOD_OFFSET UNITYSDK_OFFSET(0x19556A00)
-#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x19556A30)
-#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x195569A0)
-#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19557090)
+#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x1A343850)
+#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x1A343810)
+#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A3437F0)
+#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_GET_MOD_OFFSET UNITYSDK_OFFSET(0x1A343830)
+#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x1A3437D0)
+#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x1A343DA0)
+#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x1A343820)
+#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A343800)
+#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_MOD_OFFSET UNITYSDK_OFFSET(0x1A343840)
+#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x1A343870)
+#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x1A3437E0)
+#define EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A343ED0)
 
 namespace Epic::OnlineServices::Mods
 {
-	inline static constexpr unsigned int UninstallModCallbackInfo_TypeDefinitionIndex = 41785;
+	inline static constexpr unsigned int UninstallModCallbackInfo_TypeDefinitionIndex = 42588;
 
 	class UninstallModCallbackInfo : public ::System::Object
 	{
@@ -43,9 +43,9 @@ namespace Epic::OnlineServices::Mods
 			return ((::Epic::OnlineServices::Result(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_GET_RESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void set_ResultCode(::Epic::OnlineServices::Result value)
+		::System::Void set_ResultCode(::Epic::OnlineServices::Result a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::EpicAccountId* get_LocalUserId()
@@ -53,9 +53,9 @@ namespace Epic::OnlineServices::Mods
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_ClientData()
@@ -63,9 +63,9 @@ namespace Epic::OnlineServices::Mods
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_GET_CLIENTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ClientData(::System::Object* value)
+		::System::Void set_ClientData(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::Mods::ModIdentifier* get_Mod()
@@ -73,9 +73,9 @@ namespace Epic::OnlineServices::Mods
 			return ((::Epic::OnlineServices::Mods::ModIdentifier*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_GET_MOD_OFFSET))(this);
 		}
 
-		::System::Void set_Mod(::Epic::OnlineServices::Mods::ModIdentifier* value)
+		::System::Void set_Mod(::Epic::OnlineServices::Mods::ModIdentifier* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::ModIdentifier*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_MOD_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::ModIdentifier*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_MOD_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::Epic::OnlineServices::Result> GetResultCode()
@@ -83,14 +83,14 @@ namespace Epic::OnlineServices::Mods
 			return ((::System::Nullable_1<::Epic::OnlineServices::Result>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_GETRESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Mods::UninstallModCallbackInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Mods::UninstallModCallbackInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Mods::UninstallModCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Mods::UninstallModCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UNINSTALLMODCALLBACKINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

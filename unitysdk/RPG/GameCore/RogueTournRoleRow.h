@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNROLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19839170)
-#define RPG_GAMECORE_ROGUETOURNROLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19839260)
+#define RPG_GAMECORE_ROGUETOURNROLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1940AA60)
+#define RPG_GAMECORE_ROGUETOURNROLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1940AB50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournRoleRow_TypeDefinitionIndex = 14209;
+	inline static constexpr unsigned int RogueTournRoleRow_TypeDefinitionIndex = 14268;
 
 	class RogueTournRoleRow : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNROLEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueTournRoleRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTournRoleRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournRoleRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNROLEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournRoleRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNROLEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

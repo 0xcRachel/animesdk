@@ -5,18 +5,18 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillData; }
 
-#define CLASS_1_05BD9C87E93CA0F8_CLEAR_OFFSET UNITYSDK_OFFSET(0xFE78170)
-#define CLASS_1_05BD9C87E93CA0F8_METHOD_1_BAFE6370FC9E3E98_OFFSET UNITYSDK_OFFSET(0xFE78100)
-#define CLASS_1_05BD9C87E93CA0F8__CTOR_OFFSET UNITYSDK_OFFSET(0xFE781C0)
+#define CLASS_1_05BD9C87E93CA0F8_CLEAR_OFFSET UNITYSDK_OFFSET(0x16ED0740)
+#define CLASS_1_05BD9C87E93CA0F8_METHOD_1_BAFE6370FC9E3E98_OFFSET UNITYSDK_OFFSET(0x16ED06D0)
+#define CLASS_1_05BD9C87E93CA0F8__CTOR_OFFSET UNITYSDK_OFFSET(0x16ED0790)
 
-inline static constexpr unsigned int Class_1_05BD9C87E93CA0F8_TypeDefinitionIndex = 51059;
+inline static constexpr unsigned int Class_1_05BD9C87E93CA0F8_TypeDefinitionIndex = 51729;
 
 class Class_1_05BD9C87E93CA0F8 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::RPG::GameCore::SkillData* Field_1_2; // 0x18
-	::RPG::GameCore::SkillData* Field_1_1; // 0x20
+	::RPG::GameCore::SkillData* Field_1_0; // 0x10
+	::RPG::GameCore::SkillData* Field_1_1; // 0x18
+	::RPG::GameCore::GameEntity* Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{

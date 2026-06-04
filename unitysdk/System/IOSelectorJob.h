@@ -7,10 +7,10 @@ namespace System { class IOAsyncCallback; }
 namespace System { class IOAsyncResult; }
 namespace System::Threading { class ThreadAbortException; }
 
-#define SYSTEM_IOSELECTORJOB_MARKDISPOSED_OFFSET UNITYSDK_OFFSET(0x18324CC0)
-#define SYSTEM_IOSELECTORJOB_SYSTEM_THREADING_ITHREADPOOLWORKITEM_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x18324C80)
-#define SYSTEM_IOSELECTORJOB_SYSTEM_THREADING_ITHREADPOOLWORKITEM_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x18324CB0)
-#define SYSTEM_IOSELECTORJOB__CTOR_OFFSET UNITYSDK_OFFSET(0x18324C70)
+#define SYSTEM_IOSELECTORJOB_MARKDISPOSED_OFFSET UNITYSDK_OFFSET(0x181920A0)
+#define SYSTEM_IOSELECTORJOB_SYSTEM_THREADING_ITHREADPOOLWORKITEM_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x18192060)
+#define SYSTEM_IOSELECTORJOB_SYSTEM_THREADING_ITHREADPOOLWORKITEM_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x18192090)
+#define SYSTEM_IOSELECTORJOB__CTOR_OFFSET UNITYSDK_OFFSET(0x18192050)
 
 namespace System
 {
@@ -23,9 +23,9 @@ namespace System
 		::System::IOAsyncCallback* callback; // 0x18
 		::System::IOAsyncResult* state; // 0x20
 
-		::System::Void _ctor(::System::IOOperation operation, ::System::IOAsyncCallback* callback, ::System::IOAsyncResult* state)
+		::System::Void _ctor(::System::IOOperation a1, ::System::IOAsyncCallback* a2, ::System::IOAsyncResult* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IOOperation, ::System::IOAsyncCallback*, ::System::IOAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_IOSELECTORJOB__CTOR_OFFSET))(this, operation, callback, state);
+			return ((::System::Void(*)(::PVOID, ::System::IOOperation, ::System::IOAsyncCallback*, ::System::IOAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_IOSELECTORJOB__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem()
@@ -33,9 +33,9 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IOSELECTORJOB_SYSTEM_THREADING_ITHREADPOOLWORKITEM_EXECUTEWORKITEM_OFFSET))(this);
 		}
 
-		::System::Void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae)
+		::System::Void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Threading::ThreadAbortException*))((::PBYTE)hIl2Cpp + SYSTEM_IOSELECTORJOB_SYSTEM_THREADING_ITHREADPOOLWORKITEM_MARKABORTED_OFFSET))(this, tae);
+			return ((::System::Void(*)(::PVOID, ::System::Threading::ThreadAbortException*))((::PBYTE)hIl2Cpp + SYSTEM_IOSELECTORJOB_SYSTEM_THREADING_ITHREADPOOLWORKITEM_MARKABORTED_OFFSET))(this, a1);
 		}
 
 		::System::Void MarkDisposed()

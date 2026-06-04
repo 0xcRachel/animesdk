@@ -5,17 +5,17 @@
 
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_DEPTHSTATE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22F1FD0)
-#define UNITYENGINE_RENDERING_DEPTHSTATE_EQUALS_OFFSET UNITYSDK_OFFSET(0x22F1FB0)
-#define UNITYENGINE_RENDERING_DEPTHSTATE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22F2030)
-#define UNITYENGINE_RENDERING_DEPTHSTATE_GET_COMPAREFUNCTION_OFFSET UNITYSDK_OFFSET(0x22F1FA0)
-#define UNITYENGINE_RENDERING_DEPTHSTATE_GET_WRITEENABLED_OFFSET UNITYSDK_OFFSET(0x226FA30)
-#define UNITYENGINE_RENDERING_DEPTHSTATE_SET_COMPAREFUNCTION_OFFSET UNITYSDK_OFFSET(0x878E20)
-#define UNITYENGINE_RENDERING_DEPTHSTATE_SET_WRITEENABLED_OFFSET UNITYSDK_OFFSET(0x65A180)
+#define UNITYENGINE_RENDERING_DEPTHSTATE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x388E470)
+#define UNITYENGINE_RENDERING_DEPTHSTATE_EQUALS_OFFSET UNITYSDK_OFFSET(0x388E450)
+#define UNITYENGINE_RENDERING_DEPTHSTATE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x388E4D0)
+#define UNITYENGINE_RENDERING_DEPTHSTATE_GET_COMPAREFUNCTION_OFFSET UNITYSDK_OFFSET(0x388E440)
+#define UNITYENGINE_RENDERING_DEPTHSTATE_GET_WRITEENABLED_OFFSET UNITYSDK_OFFSET(0x37DA100)
+#define UNITYENGINE_RENDERING_DEPTHSTATE_SET_COMPAREFUNCTION_OFFSET UNITYSDK_OFFSET(0xFD2420)
+#define UNITYENGINE_RENDERING_DEPTHSTATE_SET_WRITEENABLED_OFFSET UNITYSDK_OFFSET(0xFD2400)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DepthState_TypeDefinitionIndex = 4558;
+	inline static constexpr unsigned int DepthState_TypeDefinitionIndex = 4732;
 
 	struct alignas(1) DepthState
 	{
@@ -27,9 +27,9 @@ namespace UnityEngine::Rendering
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEPTHSTATE_GET_WRITEENABLED_OFFSET))(this);
 		}
 
-		::System::Void set_writeEnabled(::System::Boolean value)
+		::System::Void set_writeEnabled(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEPTHSTATE_SET_WRITEENABLED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEPTHSTATE_SET_WRITEENABLED_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Rendering::CompareFunction get_compareFunction()
@@ -37,19 +37,19 @@ namespace UnityEngine::Rendering
 			return ((::UnityEngine::Rendering::CompareFunction(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEPTHSTATE_GET_COMPAREFUNCTION_OFFSET))(this);
 		}
 
-		::System::Void set_compareFunction(::UnityEngine::Rendering::CompareFunction value)
+		::System::Void set_compareFunction(::UnityEngine::Rendering::CompareFunction a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CompareFunction))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEPTHSTATE_SET_COMPAREFUNCTION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CompareFunction))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEPTHSTATE_SET_COMPAREFUNCTION_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::UnityEngine::Rendering::DepthState other)
+		::System::Boolean Equals(::UnityEngine::Rendering::DepthState a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::DepthState))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEPTHSTATE_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::DepthState))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEPTHSTATE_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEPTHSTATE_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEPTHSTATE_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

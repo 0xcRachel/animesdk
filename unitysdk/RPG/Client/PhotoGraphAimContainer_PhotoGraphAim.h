@@ -14,45 +14,45 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class SmoothMask; }
 
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_PHOTOGRAPHAIM_SWITCHTONORMAL_OFFSET UNITYSDK_OFFSET(0xF6AA040)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_PHOTOGRAPHAIM_SWITCHTOSUCCESS_OFFSET UNITYSDK_OFFSET(0xF6AA120)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_PHOTOGRAPHAIM__CTOR_OFFSET UNITYSDK_OFFSET(0xF6A7E80)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_PHOTOGRAPHAIM_SWITCHTONORMAL_OFFSET UNITYSDK_OFFSET(0x146DB340)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_PHOTOGRAPHAIM_SWITCHTOSUCCESS_OFFSET UNITYSDK_OFFSET(0x146DB420)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_PHOTOGRAPHAIM__CTOR_OFFSET UNITYSDK_OFFSET(0x146DA290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphAimContainer_PhotoGraphAim_TypeDefinitionIndex = 63977;
+	inline static constexpr unsigned int PhotoGraphAimContainer_PhotoGraphAim_TypeDefinitionIndex = 64898;
 
 	class PhotoGraphAimContainer_PhotoGraphAim : public ::System::Object
 	{
 	public:
-		::UnityEngine::Animation* AnimationPending; // 0x10
-		::UnityEngine::Collider* TargetCollider; // 0x18
-		::UnityEngine::UI::SmoothMask* ProgressSM; // 0x20
-		::UnityEngine::Transform* NodeFail; // 0x28
-		::UnityEngine::Animation* AnimationBg; // 0x30
+		::UnityEngine::Transform* NodeStatus; // 0x10
+		::UnityEngine::Animation* AnimationPending; // 0x18
+		::UnityEngine::Transform* NodeFail; // 0x20
+		::UnityEngine::GameObject* ManualAimGO; // 0x28
+		::UnityEngine::RectTransform* Rect; // 0x30
 		::UnityEngine::GameObject* PendingAimGO; // 0x38
-		::UnityEngine::Transform* NodeSuccess; // 0x40
-		::UnityEngine::RectTransform* RectPending; // 0x48
-		::UnityEngine::UI::Image* NodeImage; // 0x50
-		::UnityEngine::Transform* NodeStatus; // 0x58
-		::RPG::GameCore::GameEntity* TargetEntity; // 0x60
-		::UnityEngine::GameObject* ManualAimGO; // 0x68
-		::UnityEngine::Transform* TargetTransform; // 0x70
-		::UnityEngine::RectTransform* Rect; // 0x78
-		::System::Int32 UnionNodeIndex; // 0x80
-		::System::Int32 UnionNodeUnitIndex; // 0x84
-		::System::Int32 UnionIndex; // 0x88
-		::UnityEngine::Vector3 TransformOffset; // 0x8C
-		::RPG::Client::PhotoGraphAimUnionNodeType AimNodeType; // 0x98
-		::UnityEngine::Vector3 ExtraAimTagOffset; // 0x9C
-		::System::Single ShowTagDirRange; // 0xA8
-		::RPG::GameCore::PhotoGraphAimIdentifyType IdentifyType; // 0xAC
-		::System::Int32 HandlerIndex; // 0xB0
-		::System::Boolean UseAimUnion; // 0xB4
-		::System::Boolean ShowTag; // 0xB5
-		::System::Boolean IsInUse; // 0xB6
-		::System::Boolean _IsSuccessStyle; // 0xB7
-		::UnityEngine::Vector3 WorldPos; // 0xB8
+		::UnityEngine::Transform* TargetTransform; // 0x40
+		::UnityEngine::Collider* TargetCollider; // 0x48
+		::UnityEngine::RectTransform* RectPending; // 0x50
+		::UnityEngine::Transform* NodeSuccess; // 0x58
+		::UnityEngine::UI::Image* NodeImage; // 0x60
+		::UnityEngine::UI::SmoothMask* ProgressSM; // 0x68
+		::RPG::GameCore::GameEntity* TargetEntity; // 0x70
+		::UnityEngine::Animation* AnimationBg; // 0x78
+		::UnityEngine::Vector3 TransformOffset; // 0x80
+		::System::Single ShowTagDirRange; // 0x8C
+		::System::Int32 UnionIndex; // 0x90
+		::RPG::Client::PhotoGraphAimUnionNodeType AimNodeType; // 0x94
+		::System::Boolean ShowTag; // 0x98
+		::System::Boolean IsInUse; // 0x99
+		::System::Boolean _IsSuccessStyle; // 0x9A
+		::System::Boolean UseAimUnion; // 0x9B
+		::UnityEngine::Vector3 WorldPos; // 0x9C
+		::System::Int32 UnionNodeUnitIndex; // 0xA8
+		::System::Int32 HandlerIndex; // 0xAC
+		::UnityEngine::Vector3 ExtraAimTagOffset; // 0xB0
+		::System::Int32 UnionNodeIndex; // 0xBC
+		::RPG::GameCore::PhotoGraphAimIdentifyType IdentifyType; // 0xC0
 
 		::System::Void _ctor()
 		{

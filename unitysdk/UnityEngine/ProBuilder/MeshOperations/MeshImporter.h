@@ -9,42 +9,42 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class Vertex; }
 namespace UnityEngine::ProBuilder::MeshOperations { class MeshImportSettings; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_IMPORT_1_OFFSET UNITYSDK_OFFSET(0xB9D1530)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_IMPORT_OFFSET UNITYSDK_OFFSET(0xB9D1350)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB9D34E0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB9D1280)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CTOR_2_OFFSET UNITYSDK_OFFSET(0xB9D1340)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB9D10D0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_IMPORT_1_OFFSET UNITYSDK_OFFSET(0xC272D00)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_IMPORT_OFFSET UNITYSDK_OFFSET(0xC272B20)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xC274DC0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CTOR_1_OFFSET UNITYSDK_OFFSET(0xC272A50)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CTOR_2_OFFSET UNITYSDK_OFFSET(0xC272B10)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CTOR_OFFSET UNITYSDK_OFFSET(0xC2728B0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int MeshImporter_TypeDefinitionIndex = 40060;
+	inline static constexpr unsigned int MeshImporter_TypeDefinitionIndex = 40887;
 
 	class MeshImporter : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings** StaticGet_k_DefaultImportSettings()
 		{
-			return (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings**)Il2CppClass::FromTypeDefinitionIndex(MeshImporter_TypeDefinitionIndex)->GetStaticField(0x567F0);
+			return (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings**)Il2CppClass::FromTypeDefinitionIndex(MeshImporter_TypeDefinitionIndex)->GetStaticField(0x508D0);
 		}
-		::Il2CppArray<::UnityEngine::ProBuilder::Vertex*>* m_Vertices; // 0x10
-		::UnityEngine::Mesh* m_SourceMesh; // 0x18
-		::Il2CppArray<::UnityEngine::Material*>* m_SourceMaterials; // 0x20
-		::UnityEngine::ProBuilder::ProBuilderMesh* m_Destination; // 0x28
+		::UnityEngine::ProBuilder::ProBuilderMesh* m_Destination; // 0x10
+		::Il2CppArray<::UnityEngine::ProBuilder::Vertex*>* m_Vertices; // 0x18
+		::UnityEngine::Mesh* m_SourceMesh; // 0x20
+		::Il2CppArray<::UnityEngine::Material*>* m_SourceMaterials; // 0x28
 
-		::System::Void _ctor(::UnityEngine::GameObject* gameObject)
+		::System::Void _ctor(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CTOR_OFFSET))(this, gameObject);
-		}
-
-		::System::Void _ctor_1(::UnityEngine::Mesh* sourceMesh, ::Il2CppArray<::UnityEngine::Material*>* sourceMaterials, ::UnityEngine::ProBuilder::ProBuilderMesh* destination)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Material*>*, ::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CTOR_1_OFFSET))(this, sourceMesh, sourceMaterials, destination);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::UnityEngine::ProBuilder::ProBuilderMesh* destination)
+		::System::Void _ctor_1(::UnityEngine::Mesh* a1, ::Il2CppArray<::UnityEngine::Material*>* a2, ::UnityEngine::ProBuilder::ProBuilderMesh* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CTOR_2_OFFSET))(this, destination);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Material*>*, ::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CTOR_1_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void _ctor_2(::UnityEngine::ProBuilder::ProBuilderMesh* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CTOR_2_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -52,14 +52,14 @@ namespace UnityEngine::ProBuilder::MeshOperations
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER__CCTOR_OFFSET))();
 		}
 
-		::System::Boolean Import(::UnityEngine::GameObject* go, ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings)
+		::System::Boolean Import(::UnityEngine::GameObject* a1, ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_IMPORT_OFFSET))(this, go, importSettings);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_IMPORT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Import_1(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings)
+		::System::Void Import_1(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_IMPORT_1_OFFSET))(this, importSettings);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_IMPORT_1_OFFSET))(this, a1);
 		}
 	};
 }

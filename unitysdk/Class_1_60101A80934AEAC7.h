@@ -5,24 +5,24 @@
 
 namespace Proto { class MonopolyActionResult; }
 
-#define CLASS_1_60101A80934AEAC7_GET_CONTENTID_OFFSET UNITYSDK_OFFSET(0xDD7BF20)
-#define CLASS_1_60101A80934AEAC7_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xDD7BF00)
-#define CLASS_1_60101A80934AEAC7_METHOD_1_85D8F3A3565F607B_OFFSET UNITYSDK_OFFSET(0xDD7BC40)
-#define CLASS_1_60101A80934AEAC7_METHOD_1_DFB3E3DF5DAF95EF_OFFSET UNITYSDK_OFFSET(0xDD7BEA0)
-#define CLASS_1_60101A80934AEAC7_SET_CONTENTID_OFFSET UNITYSDK_OFFSET(0xDD7BF30)
-#define CLASS_1_60101A80934AEAC7_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xDD7BF10)
-#define CLASS_1_60101A80934AEAC7_TRIGGER_OFFSET UNITYSDK_OFFSET(0xDD7BCB0)
-#define CLASS_1_60101A80934AEAC7__CTOR_OFFSET UNITYSDK_OFFSET(0xDD7BA70)
+#define CLASS_1_60101A80934AEAC7_GET_CONTENTID_OFFSET UNITYSDK_OFFSET(0x179CDD40)
+#define CLASS_1_60101A80934AEAC7_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x179CDD20)
+#define CLASS_1_60101A80934AEAC7_METHOD_1_85D8F3A3565F607B_OFFSET UNITYSDK_OFFSET(0x179CDA70)
+#define CLASS_1_60101A80934AEAC7_METHOD_1_DFB3E3DF5DAF95EF_OFFSET UNITYSDK_OFFSET(0x179CDCC0)
+#define CLASS_1_60101A80934AEAC7_SET_CONTENTID_OFFSET UNITYSDK_OFFSET(0x179CDD50)
+#define CLASS_1_60101A80934AEAC7_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x179CDD30)
+#define CLASS_1_60101A80934AEAC7_TRIGGER_OFFSET UNITYSDK_OFFSET(0x179CDAE0)
+#define CLASS_1_60101A80934AEAC7__CTOR_OFFSET UNITYSDK_OFFSET(0x179CD8A0)
 
-inline static constexpr unsigned int Class_1_60101A80934AEAC7_TypeDefinitionIndex = 60979;
+inline static constexpr unsigned int Class_1_60101A80934AEAC7_TypeDefinitionIndex = 61913;
 
 class Class_1_60101A80934AEAC7 : public ::System::Object
 {
 public:
-	::System::UInt32 Field_1_1; // 0x10
-	::RPG::Client::MonopolyEffectShowType Field_1_3; // 0x14
-	::System::UInt32 _ContentID_k__BackingField; // 0x18
-	::System::UInt32 _Value_k__BackingField; // 0x1C
+	::System::UInt32 Field_1_0; // 0x10
+	::System::UInt32 _Value_k__BackingField; // 0x14
+	::RPG::Client::MonopolyEffectShowType Field_1_2; // 0x18
+	::System::UInt32 _ContentID_k__BackingField; // 0x1C
 
 	::System::Void _ctor(::Proto::MonopolyActionResult* a1)
 	{
@@ -49,9 +49,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_60101A80934AEAC7_GET_VALUE_OFFSET))(this);
 	}
 
-	::System::Void set_Value(::System::UInt32 value)
+	::System::Void set_Value(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_60101A80934AEAC7_SET_VALUE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_60101A80934AEAC7_SET_VALUE_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_ContentID()
@@ -59,8 +59,8 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_60101A80934AEAC7_GET_CONTENTID_OFFSET))(this);
 	}
 
-	::System::Void set_ContentID(::System::UInt32 value)
+	::System::Void set_ContentID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_60101A80934AEAC7_SET_CONTENTID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_60101A80934AEAC7_SET_CONTENTID_OFFSET))(this, a1);
 	}
 };

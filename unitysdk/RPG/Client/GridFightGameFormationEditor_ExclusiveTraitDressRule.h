@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_181F61C600ECA68B;
+namespace RPG::Client { class GridFightFormationRole; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE_CANDRESS_OFFSET UNITYSDK_OFFSET(0x174E7AD0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE_GET_REASON_OFFSET UNITYSDK_OFFSET(0x174E7A20)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x174D7890)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE_CANDRESS_OFFSET UNITYSDK_OFFSET(0x18D33A10)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE_GET_REASON_OFFSET UNITYSDK_OFFSET(0x18D33960)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x18D21090)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor_ExclusiveTraitDressRule_TypeDefinitionIndex = 59483;
+	inline static constexpr unsigned int GridFightGameFormationEditor_ExclusiveTraitDressRule_TypeDefinitionIndex = 60418;
 
 	class GridFightGameFormationEditor_ExclusiveTraitDressRule : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace RPG::Client
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE_GET_REASON_OFFSET))(this);
 		}
 
-		::System::Boolean CanDress(::Class_2_181F61C600ECA68B* role, ::System::UInt32 equipID)
+		::System::Boolean CanDress(::RPG::Client::GridFightFormationRole* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_181F61C600ECA68B*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE_CANDRESS_OFFSET))(this, role, equipID);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightFormationRole*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITDRESSRULE_CANDRESS_OFFSET))(this, a1, a2);
 		}
 	};
 }

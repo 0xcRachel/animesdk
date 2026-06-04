@@ -5,27 +5,27 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_RAY_GETPOINT_OFFSET UNITYSDK_OFFSET(0x2232E00)
-#define UNITYENGINE_RAY_GET_DIRECTION_OFFSET UNITYSDK_OFFSET(0x1FF82F0)
-#define UNITYENGINE_RAY_GET_ORIGIN_OFFSET UNITYSDK_OFFSET(0x657BF0)
-#define UNITYENGINE_RAY_SET_DIRECTION_OFFSET UNITYSDK_OFFSET(0x2361820)
-#define UNITYENGINE_RAY_SET_ORIGIN_OFFSET UNITYSDK_OFFSET(0x6579B0)
-#define UNITYENGINE_RAY_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x23618E0)
-#define UNITYENGINE_RAY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x23618D0)
-#define UNITYENGINE_RAY__CTOR_OFFSET UNITYSDK_OFFSET(0x2361770)
+#define UNITYENGINE_RAY_GETPOINT_OFFSET UNITYSDK_OFFSET(0x373BCB0)
+#define UNITYENGINE_RAY_GET_DIRECTION_OFFSET UNITYSDK_OFFSET(0x3742C20)
+#define UNITYENGINE_RAY_GET_ORIGIN_OFFSET UNITYSDK_OFFSET(0xFD37D0)
+#define UNITYENGINE_RAY_SET_DIRECTION_OFFSET UNITYSDK_OFFSET(0x3925020)
+#define UNITYENGINE_RAY_SET_ORIGIN_OFFSET UNITYSDK_OFFSET(0xFD2FE0)
+#define UNITYENGINE_RAY_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x39250C0)
+#define UNITYENGINE_RAY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x39250B0)
+#define UNITYENGINE_RAY__CTOR_OFFSET UNITYSDK_OFFSET(0x3924F80)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Ray_TypeDefinitionIndex = 3891;
+	inline static constexpr unsigned int Ray_TypeDefinitionIndex = 4065;
 
 	struct alignas(4) Ray
 	{
 		::UnityEngine::Vector3 m_Origin; // 0x10
 		::UnityEngine::Vector3 m_Direction; // 0x1C
 
-		::System::Void _ctor(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction)
+		::System::Void _ctor(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_RAY__CTOR_OFFSET))(this, origin, direction);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_RAY__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Vector3 get_origin()
@@ -33,9 +33,9 @@ namespace UnityEngine
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RAY_GET_ORIGIN_OFFSET))(this);
 		}
 
-		::System::Void set_origin(::UnityEngine::Vector3 value)
+		::System::Void set_origin(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_RAY_SET_ORIGIN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_RAY_SET_ORIGIN_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 get_direction()
@@ -43,14 +43,14 @@ namespace UnityEngine
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RAY_GET_DIRECTION_OFFSET))(this);
 		}
 
-		::System::Void set_direction(::UnityEngine::Vector3 value)
+		::System::Void set_direction(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_RAY_SET_DIRECTION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_RAY_SET_DIRECTION_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 GetPoint(::System::Single distance)
+		::UnityEngine::Vector3 GetPoint(::System::Single a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RAY_GETPOINT_OFFSET))(this, distance);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RAY_GETPOINT_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()
@@ -58,9 +58,9 @@ namespace UnityEngine
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RAY_TOSTRING_OFFSET))(this);
 		}
 
-		::System::String* ToString_1(::System::String* format)
+		::System::String* ToString_1(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_RAY_TOSTRING_1_OFFSET))(this, format);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_RAY_TOSTRING_1_OFFSET))(this, a1);
 		}
 	};
 }

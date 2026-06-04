@@ -2,32 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/MD5.h"
 
-#define CLASS_3_D9BD03E7C608EB5A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14D8A070)
-#define CLASS_3_D9BD03E7C608EB5A_FINALIZE_OFFSET UNITYSDK_OFFSET(0x14D89FE0)
-#define CLASS_3_D9BD03E7C608EB5A_HASHCORE_OFFSET UNITYSDK_OFFSET(0x14D8A0D0)
-#define CLASS_3_D9BD03E7C608EB5A_HASHFINAL_OFFSET UNITYSDK_OFFSET(0x14D8A410)
-#define CLASS_3_D9BD03E7C608EB5A_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x14D89F40)
-#define CLASS_3_D9BD03E7C608EB5A_METHOD_3_238920C1051B0193_OFFSET UNITYSDK_OFFSET(0x14D8AB90)
-#define CLASS_3_D9BD03E7C608EB5A_METHOD_3_258548AF3A64610F_OFFSET UNITYSDK_OFFSET(0x14D8B400)
-#define CLASS_3_D9BD03E7C608EB5A_METHOD_3_586408DD25087739_OFFSET UNITYSDK_OFFSET(0x14D8A6F0)
-#define CLASS_3_D9BD03E7C608EB5A_METHOD_3_7418927F6B774907_OFFSET UNITYSDK_OFFSET(0x14D8AA90)
-#define CLASS_3_D9BD03E7C608EB5A__CCTOR_OFFSET UNITYSDK_OFFSET(0x14D8B550)
-#define CLASS_3_D9BD03E7C608EB5A__CTOR_OFFSET UNITYSDK_OFFSET(0x14D89EF0)
+#define CLASS_3_D9BD03E7C608EB5A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12E8CBF0)
+#define CLASS_3_D9BD03E7C608EB5A_FINALIZE_OFFSET UNITYSDK_OFFSET(0x12E8CB50)
+#define CLASS_3_D9BD03E7C608EB5A_HASHCORE_OFFSET UNITYSDK_OFFSET(0x12E8CC70)
+#define CLASS_3_D9BD03E7C608EB5A_HASHFINAL_OFFSET UNITYSDK_OFFSET(0x12E8D6C0)
+#define CLASS_3_D9BD03E7C608EB5A_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x12E8CAF0)
+#define CLASS_3_D9BD03E7C608EB5A_METHOD_3_258548AF3A64610F_OFFSET UNITYSDK_OFFSET(0x12E8DB20)
+#define CLASS_3_D9BD03E7C608EB5A_METHOD_3_66A81059D9B59B61_OFFSET UNITYSDK_OFFSET(0x12E8D990)
+#define CLASS_3_D9BD03E7C608EB5A_METHOD_3_9BCC4010AF78CAEC_OFFSET UNITYSDK_OFFSET(0x12E8CDB0)
+#define CLASS_3_D9BD03E7C608EB5A__CCTOR_OFFSET UNITYSDK_OFFSET(0x12E8DBF0)
+#define CLASS_3_D9BD03E7C608EB5A__CTOR_OFFSET UNITYSDK_OFFSET(0x12E8CA40)
 
-inline static constexpr unsigned int Class_3_D9BD03E7C608EB5A_TypeDefinitionIndex = 8892;
+inline static constexpr unsigned int Class_3_D9BD03E7C608EB5A_TypeDefinitionIndex = 6755;
 
 class Class_3_D9BD03E7C608EB5A : public ::System::Security::Cryptography::MD5
 {
 public:
-	static ::Il2CppArray<::System::UInt32>** StaticGet_Field_3_5()
+	static ::Il2CppArray<::System::UInt32>** StaticGet_Field_3_0()
 	{
-		return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_D9BD03E7C608EB5A_TypeDefinitionIndex)->GetStaticField(0x174E0);
+		return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_D9BD03E7C608EB5A_TypeDefinitionIndex)->GetStaticField(0x6D40);
 	}
-	// static const ::System::Int32 Field_3_0 = 0x40; // 0x0
-	::Il2CppArray<::System::Byte>* Field_3_3; // 0x28
-	::Il2CppArray<::System::UInt32>* Field_3_1; // 0x30
-	::System::Int32 Field_3_4; // 0x38
-	::System::UInt64 Field_3_2; // 0x40
+	// static const ::System::Int32 Field_3_1 = 0x40; // 0x0
+	::Il2CppArray<::System::Byte>* Field_3_2; // 0x28
+	::Il2CppArray<::System::UInt32>* Field_3_3; // 0x30
+	::Il2CppArray<::System::UInt32>* Field_3_4; // 0x38
+	::System::UInt64 Field_3_5; // 0x40
+	::System::Int32 Field_3_6; // 0x48
 
 	::System::Void _ctor()
 	{
@@ -64,19 +64,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_D9BD03E7C608EB5A_INITIALIZE_OFFSET))(this);
 	}
 
-	::System::Void Method_3_7418927F6B774907(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
+	::System::Void Method_3_9BCC4010AF78CAEC(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_3_D9BD03E7C608EB5A_METHOD_3_7418927F6B774907_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_3_D9BD03E7C608EB5A_METHOD_3_9BCC4010AF78CAEC_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_3_238920C1051B0193(::System::UInt32* a1)
+	::System::Void Method_3_66A81059D9B59B61(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32*))((::PBYTE)hIl2Cpp + CLASS_3_D9BD03E7C608EB5A_METHOD_3_238920C1051B0193_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_3_586408DD25087739(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
-	{
-		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_3_D9BD03E7C608EB5A_METHOD_3_586408DD25087739_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_3_D9BD03E7C608EB5A_METHOD_3_66A81059D9B59B61_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Void Method_3_258548AF3A64610F(::System::UInt64 a1, ::Il2CppArray<::System::Byte>* a2, ::System::Int32 a3)

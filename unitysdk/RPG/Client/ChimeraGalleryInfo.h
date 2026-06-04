@@ -13,17 +13,17 @@ namespace RPG::Client { class ChimeraGalleryTalkGroupEntry; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERAGALLERYINFO_GETGALLERYTALKS_OFFSET UNITYSDK_OFFSET(0x174788B0)
-#define RPG_CLIENT_CHIMERAGALLERYINFO_GET_ACTSDATA_OFFSET UNITYSDK_OFFSET(0x174783D0)
-#define RPG_CLIENT_CHIMERAGALLERYINFO_INIT_OFFSET UNITYSDK_OFFSET(0x174783F0)
-#define RPG_CLIENT_CHIMERAGALLERYINFO_SET_ACTSDATA_OFFSET UNITYSDK_OFFSET(0x174783E0)
-#define RPG_CLIENT_CHIMERAGALLERYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17479640)
-#define RPG_CLIENT_CHIMERAGALLERYINFO__GETGALLERYTALKS_B__6_0_OFFSET UNITYSDK_OFFSET(0x17479650)
-#define RPG_CLIENT_CHIMERAGALLERYINFO__TRYGETTALKTEXT_OFFSET UNITYSDK_OFFSET(0x17479550)
+#define RPG_CLIENT_CHIMERAGALLERYINFO_GETGALLERYTALKS_OFFSET UNITYSDK_OFFSET(0x1828FB50)
+#define RPG_CLIENT_CHIMERAGALLERYINFO_GET_ACTSDATA_OFFSET UNITYSDK_OFFSET(0x1828F540)
+#define RPG_CLIENT_CHIMERAGALLERYINFO_INIT_OFFSET UNITYSDK_OFFSET(0x1828F560)
+#define RPG_CLIENT_CHIMERAGALLERYINFO_SET_ACTSDATA_OFFSET UNITYSDK_OFFSET(0x1828F550)
+#define RPG_CLIENT_CHIMERAGALLERYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x182908E0)
+#define RPG_CLIENT_CHIMERAGALLERYINFO__GETGALLERYTALKS_B__6_0_OFFSET UNITYSDK_OFFSET(0x182908F0)
+#define RPG_CLIENT_CHIMERAGALLERYINFO__TRYGETTALKTEXT_OFFSET UNITYSDK_OFFSET(0x182907F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraGalleryInfo_TypeDefinitionIndex = 58433;
+	inline static constexpr unsigned int ChimeraGalleryInfo_TypeDefinitionIndex = 59363;
 
 	class ChimeraGalleryInfo : public ::System::Object
 	{
@@ -41,9 +41,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::ChimeraGalleryActData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYINFO_GET_ACTSDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ActsData(::System::Collections::Generic::List_1<::RPG::Client::ChimeraGalleryActData*>* value)
+		::System::Void set_ActsData(::System::Collections::Generic::List_1<::RPG::Client::ChimeraGalleryActData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraGalleryActData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYINFO_SET_ACTSDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraGalleryActData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYINFO_SET_ACTSDATA_OFFSET))(this, a1);
 		}
 
 		::System::Void Init()
@@ -51,19 +51,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYINFO_INIT_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::ChimeraGalleryTalkData*>* GetGalleryTalks(::RPG::Client::ChimeraData* chimeraData)
+		::System::Collections::Generic::List_1<::RPG::Client::ChimeraGalleryTalkData*>* GetGalleryTalks(::RPG::Client::ChimeraData* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::ChimeraGalleryTalkData*>*(*)(::PVOID, ::RPG::Client::ChimeraData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYINFO_GETGALLERYTALKS_OFFSET))(this, chimeraData);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ChimeraGalleryTalkData*>*(*)(::PVOID, ::RPG::Client::ChimeraData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYINFO_GETGALLERYTALKS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _TryGetTalkText(::System::UInt32 talkID, ::RPG::Client::TextID& text)
+		::System::Boolean _TryGetTalkText(::System::UInt32 a1, ::RPG::Client::TextID& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::RPG::Client::TextID&))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYINFO__TRYGETTALKTEXT_OFFSET))(this, talkID, text);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::RPG::Client::TextID&))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYINFO__TRYGETTALKTEXT_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::ChimeraGalleryGroupedTalkData* _GetGalleryTalks_b__6_0(::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::ChimeraTalkConditionType, ::System::Collections::Generic::List_1<::RPG::Client::TextID>*> p)
+		::RPG::Client::ChimeraGalleryGroupedTalkData* _GetGalleryTalks_b__6_0(::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::ChimeraTalkConditionType, ::System::Collections::Generic::List_1<::RPG::Client::TextID>*> a1)
 		{
-			return ((::RPG::Client::ChimeraGalleryGroupedTalkData*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::ChimeraTalkConditionType, ::System::Collections::Generic::List_1<::RPG::Client::TextID>*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYINFO__GETGALLERYTALKS_B__6_0_OFFSET))(this, p);
+			return ((::RPG::Client::ChimeraGalleryGroupedTalkData*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::ChimeraTalkConditionType, ::System::Collections::Generic::List_1<::RPG::Client::TextID>*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYINFO__GETGALLERYTALKS_B__6_0_OFFSET))(this, a1);
 		}
 	};
 }

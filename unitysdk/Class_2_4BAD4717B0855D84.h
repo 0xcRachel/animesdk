@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_7ACCB923E979A908.h"
+#include "unitysdk/Class_1_3713064DEE761936.h"
 
-class Class_1_BE8B780D54F2A10A;
+class Class_1_03E620B95D05DE85;
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 
-#define CLASS_2_4BAD4717B0855D84_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xEE15FE0)
-#define CLASS_2_4BAD4717B0855D84__CTOR_OFFSET UNITYSDK_OFFSET(0xEE16190)
-#define CLASS_2_4BAD4717B0855D84___IFIXBASEPROXY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xEE161A0)
+#define CLASS_2_4BAD4717B0855D84_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x149B0A80)
+#define CLASS_2_4BAD4717B0855D84__CTOR_OFFSET UNITYSDK_OFFSET(0x149B0C30)
+#define CLASS_2_4BAD4717B0855D84___IFIXBASEPROXY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x149B0C40)
 
-inline static constexpr unsigned int Class_2_4BAD4717B0855D84_TypeDefinitionIndex = 70021;
+inline static constexpr unsigned int Class_2_4BAD4717B0855D84_TypeDefinitionIndex = 70833;
 
-class Class_2_4BAD4717B0855D84 : public ::Class_1_7ACCB923E979A908
+class Class_2_4BAD4717B0855D84 : public ::Class_1_3713064DEE761936
 {
 public:
-	::Class_1_BE8B780D54F2A10A* Field_2_2; // 0x20
-	::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* Field_2_0; // 0x28
-	::System::UInt32 Field_2_1; // 0x30
+	::Class_1_03E620B95D05DE85* Field_2_0; // 0x20
+	::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* Field_2_1; // 0x28
+	::System::UInt32 Field_2_2; // 0x30
 
-	::System::Void _ctor(::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* a1, ::System::UInt32 a2, ::Class_1_BE8B780D54F2A10A* a3)
+	::System::Void _ctor(::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* a1, ::System::UInt32 a2, ::Class_1_03E620B95D05DE85* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::ChenLingBattleGameContext*, ::System::UInt32, ::Class_1_BE8B780D54F2A10A*))((::PBYTE)hIl2Cpp + CLASS_2_4BAD4717B0855D84__CTOR_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::ChenLingBattleGameContext*, ::System::UInt32, ::Class_1_03E620B95D05DE85*))((::PBYTE)hIl2Cpp + CLASS_2_4BAD4717B0855D84__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Void OnExecute()

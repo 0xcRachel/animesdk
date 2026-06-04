@@ -3,27 +3,27 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CLIENT_VIRTUALCURSORROUNDCLAMPER_CLAMP_OFFSET UNITYSDK_OFFSET(0x11E43530)
-#define RPG_CLIENT_VIRTUALCURSORROUNDCLAMPER__CTOR_OFFSET UNITYSDK_OFFSET(0x11E43520)
+#define RPG_CLIENT_VIRTUALCURSORROUNDCLAMPER_CLAMP_OFFSET UNITYSDK_OFFSET(0x17726C90)
+#define RPG_CLIENT_VIRTUALCURSORROUNDCLAMPER__CTOR_OFFSET UNITYSDK_OFFSET(0x17726C80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VirtualCursorRoundClamper_TypeDefinitionIndex = 67442;
+	inline static constexpr unsigned int VirtualCursorRoundClamper_TypeDefinitionIndex = 68394;
 
 	class VirtualCursorRoundClamper : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector2 _Center; // 0x10
-		::System::Single _Radius; // 0x18
+		::System::Single _Radius; // 0x10
+		::UnityEngine::Vector2 _Center; // 0x14
 
-		::System::Void _ctor(::UnityEngine::Vector2 center, ::System::Single radius)
+		::System::Void _ctor(::UnityEngine::Vector2 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSORROUNDCLAMPER__CTOR_OFFSET))(this, center, radius);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSORROUNDCLAMPER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector2 Clamp(::UnityEngine::Vector2 pos)
+		::UnityEngine::Vector2 Clamp(::UnityEngine::Vector2 a1)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSORROUNDCLAMPER_CLAMP_OFFSET))(this, pos);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSORROUNDCLAMPER_CLAMP_OFFSET))(this, a1);
 		}
 	};
 }

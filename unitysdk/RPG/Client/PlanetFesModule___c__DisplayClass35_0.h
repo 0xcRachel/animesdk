@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class PlanetFesBuffSource; }
 
-#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17DBB920)
-#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS35_0__GETBUFFSOURCESBYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x17DBB930)
+#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0x194C9850)
+#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS35_0__GETBUFFSOURCESBYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x194C9860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesModule___c__DisplayClass35_0_TypeDefinitionIndex = 61411;
+	inline static constexpr unsigned int PlanetFesModule___c__DisplayClass35_0_TypeDefinitionIndex = 62335;
 
 	class PlanetFesModule___c__DisplayClass35_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS35_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetBuffSourcesByType_b__0(::RPG::Client::PlanetFesBuffSource* x)
+		::System::Boolean _GetBuffSourcesByType_b__0(::RPG::Client::PlanetFesBuffSource* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::PlanetFesBuffSource*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS35_0__GETBUFFSOURCESBYTYPE_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::PlanetFesBuffSource*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS35_0__GETBUFFSOURCESBYTYPE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

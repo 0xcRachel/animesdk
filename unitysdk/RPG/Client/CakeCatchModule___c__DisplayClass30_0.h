@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_4FE6DADC546DF06C_2;
+class Class_1_51AD4A996C8C1E92_4;
 namespace RPG::Client { class CakeCatchModule; }
 
-#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15FD4750)
-#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS30_0___ONTRAINCAKECATCHSEARCHSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0x15FD8270)
+#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x185D20E0)
+#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS30_0___ONTRAINCAKECATCHSEARCHSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0x185D6680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeCatchModule___c__DisplayClass30_0_TypeDefinitionIndex = 58000;
+	inline static constexpr unsigned int CakeCatchModule___c__DisplayClass30_0_TypeDefinitionIndex = 58916;
 
 	class CakeCatchModule___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::CakeCatchModule* __4__this; // 0x10
-		::Class_1_4FE6DADC546DF06C_2* rsp; // 0x18
+		::Class_1_51AD4A996C8C1E92_4* rsp; // 0x10
+		::RPG::Client::CakeCatchModule* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

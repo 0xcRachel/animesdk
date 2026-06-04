@@ -5,26 +5,26 @@
 namespace Epic::OnlineServices::P2P { class GetRelayControlOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_P2P_GETRELAYCONTROLOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x545E40)
-#define EPIC_ONLINESERVICES_P2P_GETRELAYCONTROLOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x234EC70)
-#define EPIC_ONLINESERVICES_P2P_GETRELAYCONTROLOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x22EAC70)
+#define EPIC_ONLINESERVICES_P2P_GETRELAYCONTROLOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x5F2300)
+#define EPIC_ONLINESERVICES_P2P_GETRELAYCONTROLOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x390A9A0)
+#define EPIC_ONLINESERVICES_P2P_GETRELAYCONTROLOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x3898CE0)
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int GetRelayControlOptionsInternal_TypeDefinitionIndex = 41720;
+	inline static constexpr unsigned int GetRelayControlOptionsInternal_TypeDefinitionIndex = 42523;
 
 	struct alignas(4) GetRelayControlOptionsInternal
 	{
 		::System::Int32 m_ApiVersion; // 0x10
 
-		::System::Void Set(::Epic::OnlineServices::P2P::GetRelayControlOptions* other)
+		::System::Void Set(::Epic::OnlineServices::P2P::GetRelayControlOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::GetRelayControlOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_GETRELAYCONTROLOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::GetRelayControlOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_GETRELAYCONTROLOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_GETRELAYCONTROLOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_GETRELAYCONTROLOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

@@ -7,27 +7,27 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitDialogueFinish; }
 namespace System { class Object; }
 
-#define RPG_GAMECORE_WAITDIALOGUEFINISHTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15586D00)
-#define RPG_GAMECORE_WAITDIALOGUEFINISHTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15586D40)
-#define RPG_GAMECORE_WAITDIALOGUEFINISHTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15586E20)
-#define RPG_GAMECORE_WAITDIALOGUEFINISHTASK_TICK_OFFSET UNITYSDK_OFFSET(0x15586EC0)
-#define RPG_GAMECORE_WAITDIALOGUEFINISHTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x15586CF0)
-#define RPG_GAMECORE_WAITDIALOGUEFINISHTASK__ONDIALOGUEFINISH_OFFSET UNITYSDK_OFFSET(0x15586F20)
+#define RPG_GAMECORE_WAITDIALOGUEFINISHTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17B45BC0)
+#define RPG_GAMECORE_WAITDIALOGUEFINISHTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17B45C00)
+#define RPG_GAMECORE_WAITDIALOGUEFINISHTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17B45CF0)
+#define RPG_GAMECORE_WAITDIALOGUEFINISHTASK_TICK_OFFSET UNITYSDK_OFFSET(0x17B45DB0)
+#define RPG_GAMECORE_WAITDIALOGUEFINISHTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x17B45BB0)
+#define RPG_GAMECORE_WAITDIALOGUEFINISHTASK__ONDIALOGUEFINISH_OFFSET UNITYSDK_OFFSET(0x17B45E10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitDialogueFinishTask_TypeDefinitionIndex = 54290;
+	inline static constexpr unsigned int WaitDialogueFinishTask_TypeDefinitionIndex = 55017;
 
 	class WaitDialogueFinishTask : public ::Class_1_5F51D4049EA87B7B
 	{
 	public:
-		::RPG::GameCore::WaitDialogueFinish* _ConfigRef; // 0x18
-		::RPG::GameCore::TaskContext* _TaskContext; // 0x20
-		::RPG::GameCore::GameEntity* _TargetEntity; // 0x28
+		::RPG::GameCore::TaskContext* _TaskContext; // 0x18
+		::RPG::GameCore::GameEntity* _TargetEntity; // 0x20
+		::RPG::GameCore::WaitDialogueFinish* _ConfigRef; // 0x28
 
-		::System::Void _ctor(::RPG::GameCore::TaskContext* Context, ::RPG::GameCore::WaitDialogueFinish* Config)
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitDialogueFinish* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitDialogueFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITDIALOGUEFINISHTASK__CTOR_OFFSET))(this, Context, Config);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitDialogueFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITDIALOGUEFINISHTASK__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dispose()
@@ -45,14 +45,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITDIALOGUEFINISHTASK_ONTASKRESET_OFFSET))(this);
 		}
 
-		::System::Void Tick(::System::Single fElapsedTimeInSec)
+		::System::Void Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITDIALOGUEFINISHTASK_TICK_OFFSET))(this, fElapsedTimeInSec);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITDIALOGUEFINISHTASK_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnDialogueFinish(::System::Object* arg)
+		::System::Void _OnDialogueFinish(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITDIALOGUEFINISHTASK__ONDIALOGUEFINISH_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITDIALOGUEFINISHTASK__ONDIALOGUEFINISH_OFFSET))(this, a1);
 		}
 	};
 }

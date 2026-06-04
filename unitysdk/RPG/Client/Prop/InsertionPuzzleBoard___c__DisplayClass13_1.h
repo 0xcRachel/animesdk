@@ -5,18 +5,18 @@
 namespace RPG::Client::Prop { class InsertionPuzzleBoard___c__DisplayClass13_0; }
 namespace RPG::Client::Prop { class InsertionPuzzleItem; }
 
-#define RPG_CLIENT_PROP_INSERTIONPUZZLEBOARD___C__DISPLAYCLASS13_1__CTOR_OFFSET UNITYSDK_OFFSET(0x103395E0)
-#define RPG_CLIENT_PROP_INSERTIONPUZZLEBOARD___C__DISPLAYCLASS13_1__PLAYERROTATEAROUNDCENTER_B__0_OFFSET UNITYSDK_OFFSET(0x1033D730)
+#define RPG_CLIENT_PROP_INSERTIONPUZZLEBOARD___C__DISPLAYCLASS13_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1338C960)
+#define RPG_CLIENT_PROP_INSERTIONPUZZLEBOARD___C__DISPLAYCLASS13_1__PLAYERROTATEAROUNDCENTER_B__0_OFFSET UNITYSDK_OFFSET(0x13390D50)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int InsertionPuzzleBoard___c__DisplayClass13_1_TypeDefinitionIndex = 72123;
+	inline static constexpr unsigned int InsertionPuzzleBoard___c__DisplayClass13_1_TypeDefinitionIndex = 73145;
 
 	class InsertionPuzzleBoard___c__DisplayClass13_1 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::InsertionPuzzleBoard___c__DisplayClass13_0* CS___8__locals1; // 0x10
-		::RPG::Client::Prop::InsertionPuzzleItem* item; // 0x18
+		::RPG::Client::Prop::InsertionPuzzleItem* item; // 0x10
+		::RPG::Client::Prop::InsertionPuzzleBoard___c__DisplayClass13_0* CS___8__locals1; // 0x18
 		::System::Boolean bIsEncounterObstacle; // 0x20
 
 		::System::Void _ctor()

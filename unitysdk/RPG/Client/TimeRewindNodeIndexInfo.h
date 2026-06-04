@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_TIMEREWINDNODEINDEXINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15138DF0)
+#define RPG_CLIENT_TIMEREWINDNODEINDEXINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1641EFE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindNodeIndexInfo_TypeDefinitionIndex = 58761;
+	inline static constexpr unsigned int TimeRewindNodeIndexInfo_TypeDefinitionIndex = 59691;
 
 	class TimeRewindNodeIndexInfo : public ::System::Object
 	{

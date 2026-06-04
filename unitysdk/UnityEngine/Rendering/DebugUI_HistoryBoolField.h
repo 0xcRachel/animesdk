@@ -4,15 +4,15 @@
 
 namespace System { template <typename T> class Func_1; }
 
-#define UNITYENGINE_RENDERING_DEBUGUI_HISTORYBOOLFIELD_GETHISTORYVALUE_OFFSET UNITYSDK_OFFSET(0x18B0F640)
-#define UNITYENGINE_RENDERING_DEBUGUI_HISTORYBOOLFIELD_GET_HISTORYDEPTH_OFFSET UNITYSDK_OFFSET(0x18B0F630)
-#define UNITYENGINE_RENDERING_DEBUGUI_HISTORYBOOLFIELD_GET_HISTORYGETTER_OFFSET UNITYSDK_OFFSET(0x18B0F610)
-#define UNITYENGINE_RENDERING_DEBUGUI_HISTORYBOOLFIELD_SET_HISTORYGETTER_OFFSET UNITYSDK_OFFSET(0x18B0F620)
-#define UNITYENGINE_RENDERING_DEBUGUI_HISTORYBOOLFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x18B0F690)
+#define UNITYENGINE_RENDERING_DEBUGUI_HISTORYBOOLFIELD_GETHISTORYVALUE_OFFSET UNITYSDK_OFFSET(0x195C0640)
+#define UNITYENGINE_RENDERING_DEBUGUI_HISTORYBOOLFIELD_GET_HISTORYDEPTH_OFFSET UNITYSDK_OFFSET(0x195C0630)
+#define UNITYENGINE_RENDERING_DEBUGUI_HISTORYBOOLFIELD_GET_HISTORYGETTER_OFFSET UNITYSDK_OFFSET(0x195C0610)
+#define UNITYENGINE_RENDERING_DEBUGUI_HISTORYBOOLFIELD_SET_HISTORYGETTER_OFFSET UNITYSDK_OFFSET(0x195C0620)
+#define UNITYENGINE_RENDERING_DEBUGUI_HISTORYBOOLFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x195C0690)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_HistoryBoolField_TypeDefinitionIndex = 33441;
+	inline static constexpr unsigned int DebugUI_HistoryBoolField_TypeDefinitionIndex = 33723;
 
 	class DebugUI_HistoryBoolField : public ::UnityEngine::Rendering::DebugUI_BoolField
 	{
@@ -29,9 +29,9 @@ namespace UnityEngine::Rendering
 			return ((::Il2CppArray<::System::Func_1<::System::Boolean>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_HISTORYBOOLFIELD_GET_HISTORYGETTER_OFFSET))(this);
 		}
 
-		::System::Void set_historyGetter(::Il2CppArray<::System::Func_1<::System::Boolean>*>* value)
+		::System::Void set_historyGetter(::Il2CppArray<::System::Func_1<::System::Boolean>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Func_1<::System::Boolean>*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_HISTORYBOOLFIELD_SET_HISTORYGETTER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Func_1<::System::Boolean>*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_HISTORYBOOLFIELD_SET_HISTORYGETTER_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_historyDepth()
@@ -39,9 +39,9 @@ namespace UnityEngine::Rendering
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_HISTORYBOOLFIELD_GET_HISTORYDEPTH_OFFSET))(this);
 		}
 
-		::System::Boolean GetHistoryValue(::System::Int32 historyIndex)
+		::System::Boolean GetHistoryValue(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_HISTORYBOOLFIELD_GETHISTORYVALUE_OFFSET))(this, historyIndex);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_HISTORYBOOLFIELD_GETHISTORYVALUE_OFFSET))(this, a1);
 		}
 	};
 }

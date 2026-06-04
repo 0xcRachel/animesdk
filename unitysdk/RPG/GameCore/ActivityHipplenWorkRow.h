@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENWORKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18882A80)
-#define RPG_GAMECORE_ACTIVITYHIPPLENWORKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18882DF0)
+#define RPG_GAMECORE_ACTIVITYHIPPLENWORKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1952F030)
+#define RPG_GAMECORE_ACTIVITYHIPPLENWORKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1952F3A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenWorkRow_TypeDefinitionIndex = 11077;
+	inline static constexpr unsigned int ActivityHipplenWorkRow_TypeDefinitionIndex = 11125;
 
 	class ActivityHipplenWorkRow : public ::System::Object
 	{
@@ -21,19 +21,19 @@ namespace RPG::GameCore
 		::System::String* WorkIcon; // 0x18
 		::RPG::Client::TextID WorkTitle; // 0x20
 		::RPG::GameCore::HipplenWorkType Type; // 0x30
-		::System::UInt32 Cost; // 0x34
-		::System::UInt32 ID; // 0x38
-		::System::UInt32 Param; // 0x3C
-		::RPG::Client::TextID WorkDesc; // 0x40
+		::System::UInt32 ID; // 0x34
+		::RPG::Client::TextID WorkDesc; // 0x38
+		::System::UInt32 Cost; // 0x48
+		::System::UInt32 Param; // 0x4C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYHIPPLENWORKROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ActivityHipplenWorkRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActivityHipplenWorkRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityHipplenWorkRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYHIPPLENWORKROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityHipplenWorkRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYHIPPLENWORKROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

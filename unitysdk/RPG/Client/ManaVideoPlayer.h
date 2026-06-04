@@ -15,49 +15,49 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Graphic; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_MANAVIDEOPLAYER_AWAKE_OFFSET UNITYSDK_OFFSET(0x123193D0)
-#define RPG_CLIENT_MANAVIDEOPLAYER_BINDCAPTION_OFFSET UNITYSDK_OFFSET(0x12319980)
-#define RPG_CLIENT_MANAVIDEOPLAYER_CLEARPAUSE_OFFSET UNITYSDK_OFFSET(0x12319BE0)
-#define RPG_CLIENT_MANAVIDEOPLAYER_CLEAR_OFFSET UNITYSDK_OFFSET(0x12319C80)
-#define RPG_CLIENT_MANAVIDEOPLAYER_CREATEBEHAVIOR_OFFSET UNITYSDK_OFFSET(0x123191B0)
-#define RPG_CLIENT_MANAVIDEOPLAYER_CREATEPLAYER_OFFSET UNITYSDK_OFFSET(0x12318F10)
-#define RPG_CLIENT_MANAVIDEOPLAYER_GETFRAMEINFO_OFFSET UNITYSDK_OFFSET(0x12319FA0)
-#define RPG_CLIENT_MANAVIDEOPLAYER_GETMANAMOVIECONTROLLERFORUI_OFFSET UNITYSDK_OFFSET(0x12319A70)
-#define RPG_CLIENT_MANAVIDEOPLAYER_GETVIDEORATIO_OFFSET UNITYSDK_OFFSET(0x12319DA0)
-#define RPG_CLIENT_MANAVIDEOPLAYER_GET_HASCAPTION_OFFSET UNITYSDK_OFFSET(0x1231A0F0)
-#define RPG_CLIENT_MANAVIDEOPLAYER_GET_ISPAUSED_OFFSET UNITYSDK_OFFSET(0x1231A070)
-#define RPG_CLIENT_MANAVIDEOPLAYER_MUTEVOLUME_OFFSET UNITYSDK_OFFSET(0x1231A000)
-#define RPG_CLIENT_MANAVIDEOPLAYER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x12319590)
-#define RPG_CLIENT_MANAVIDEOPLAYER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x123194A0)
-#define RPG_CLIENT_MANAVIDEOPLAYER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x12319440)
-#define RPG_CLIENT_MANAVIDEOPLAYER_ONLIGHTWEIGHTACTIVATE_OFFSET UNITYSDK_OFFSET(0x123194F0)
-#define RPG_CLIENT_MANAVIDEOPLAYER_ONLIGHTWEIGHTDEACTIVATE_OFFSET UNITYSDK_OFFSET(0x12319540)
-#define RPG_CLIENT_MANAVIDEOPLAYER_PAUSE_OFFSET UNITYSDK_OFFSET(0x12319B70)
-#define RPG_CLIENT_MANAVIDEOPLAYER_PLAY_OFFSET UNITYSDK_OFFSET(0x12319AD0)
-#define RPG_CLIENT_MANAVIDEOPLAYER_PREPAREFORRENDERING_OFFSET UNITYSDK_OFFSET(0x12319B20)
-#define RPG_CLIENT_MANAVIDEOPLAYER_RESETCONFIG_OFFSET UNITYSDK_OFFSET(0x12319250)
-#define RPG_CLIENT_MANAVIDEOPLAYER_SEEKTOBEGIN_OFFSET UNITYSDK_OFFSET(0x12319D50)
-#define RPG_CLIENT_MANAVIDEOPLAYER_SETCALLBACKACTION_OFFSET UNITYSDK_OFFSET(0x12319790)
-#define RPG_CLIENT_MANAVIDEOPLAYER_SETCAPTIONACTIVE_OFFSET UNITYSDK_OFFSET(0x12319A10)
-#define RPG_CLIENT_MANAVIDEOPLAYER_SETDISABLECAMERAIFVIDEOPLAYING_OFFSET UNITYSDK_OFFSET(0x12319EC0)
-#define RPG_CLIENT_MANAVIDEOPLAYER_SETENDPAUSE_OFFSET UNITYSDK_OFFSET(0x12319360)
-#define RPG_CLIENT_MANAVIDEOPLAYER_SETGUIDEVIDEOID_OFFSET UNITYSDK_OFFSET(0x12319730)
-#define RPG_CLIENT_MANAVIDEOPLAYER_SETLOOPCGID_OFFSET UNITYSDK_OFFSET(0x123196D0)
-#define RPG_CLIENT_MANAVIDEOPLAYER_SETLOOPENDCALLBACKACTION_OFFSET UNITYSDK_OFFSET(0x12319820)
-#define RPG_CLIENT_MANAVIDEOPLAYER_SETLOOP_OFFSET UNITYSDK_OFFSET(0x123192F0)
-#define RPG_CLIENT_MANAVIDEOPLAYER_SETMATERIALAVAILABLECALLBACKACTION_OFFSET UNITYSDK_OFFSET(0x12319910)
-#define RPG_CLIENT_MANAVIDEOPLAYER_SETREADYFORRENDERINGCALLBACKACTION_OFFSET UNITYSDK_OFFSET(0x123198A0)
-#define RPG_CLIENT_MANAVIDEOPLAYER_SETSTARTFRAME_OFFSET UNITYSDK_OFFSET(0x12319F30)
-#define RPG_CLIENT_MANAVIDEOPLAYER_SETUPRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x12319E50)
-#define RPG_CLIENT_MANAVIDEOPLAYER_SETVIDEOID_OFFSET UNITYSDK_OFFSET(0x12319670)
-#define RPG_CLIENT_MANAVIDEOPLAYER_SKIPTOEND_OFFSET UNITYSDK_OFFSET(0x12319D00)
-#define RPG_CLIENT_MANAVIDEOPLAYER_STOP_OFFSET UNITYSDK_OFFSET(0x12319C30)
-#define RPG_CLIENT_MANAVIDEOPLAYER_UPDATE_OFFSET UNITYSDK_OFFSET(0x12319620)
-#define RPG_CLIENT_MANAVIDEOPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1231A180)
+#define RPG_CLIENT_MANAVIDEOPLAYER_AWAKE_OFFSET UNITYSDK_OFFSET(0x151194A0)
+#define RPG_CLIENT_MANAVIDEOPLAYER_BINDCAPTION_OFFSET UNITYSDK_OFFSET(0x15119A40)
+#define RPG_CLIENT_MANAVIDEOPLAYER_CLEARPAUSE_OFFSET UNITYSDK_OFFSET(0x15119CA0)
+#define RPG_CLIENT_MANAVIDEOPLAYER_CLEAR_OFFSET UNITYSDK_OFFSET(0x15119D40)
+#define RPG_CLIENT_MANAVIDEOPLAYER_CREATEBEHAVIOR_OFFSET UNITYSDK_OFFSET(0x15119260)
+#define RPG_CLIENT_MANAVIDEOPLAYER_CREATEPLAYER_OFFSET UNITYSDK_OFFSET(0x15118FA0)
+#define RPG_CLIENT_MANAVIDEOPLAYER_GETFRAMEINFO_OFFSET UNITYSDK_OFFSET(0x1511A070)
+#define RPG_CLIENT_MANAVIDEOPLAYER_GETMANAMOVIECONTROLLERFORUI_OFFSET UNITYSDK_OFFSET(0x15119B30)
+#define RPG_CLIENT_MANAVIDEOPLAYER_GETVIDEORATIO_OFFSET UNITYSDK_OFFSET(0x15119E70)
+#define RPG_CLIENT_MANAVIDEOPLAYER_GET_HASCAPTION_OFFSET UNITYSDK_OFFSET(0x1511A1C0)
+#define RPG_CLIENT_MANAVIDEOPLAYER_GET_ISPAUSED_OFFSET UNITYSDK_OFFSET(0x1511A140)
+#define RPG_CLIENT_MANAVIDEOPLAYER_MUTEVOLUME_OFFSET UNITYSDK_OFFSET(0x1511A0D0)
+#define RPG_CLIENT_MANAVIDEOPLAYER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15119660)
+#define RPG_CLIENT_MANAVIDEOPLAYER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x15119570)
+#define RPG_CLIENT_MANAVIDEOPLAYER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15119510)
+#define RPG_CLIENT_MANAVIDEOPLAYER_ONLIGHTWEIGHTACTIVATE_OFFSET UNITYSDK_OFFSET(0x151195C0)
+#define RPG_CLIENT_MANAVIDEOPLAYER_ONLIGHTWEIGHTDEACTIVATE_OFFSET UNITYSDK_OFFSET(0x15119610)
+#define RPG_CLIENT_MANAVIDEOPLAYER_PAUSE_OFFSET UNITYSDK_OFFSET(0x15119C30)
+#define RPG_CLIENT_MANAVIDEOPLAYER_PLAY_OFFSET UNITYSDK_OFFSET(0x15119B90)
+#define RPG_CLIENT_MANAVIDEOPLAYER_PREPAREFORRENDERING_OFFSET UNITYSDK_OFFSET(0x15119BE0)
+#define RPG_CLIENT_MANAVIDEOPLAYER_RESETCONFIG_OFFSET UNITYSDK_OFFSET(0x15119300)
+#define RPG_CLIENT_MANAVIDEOPLAYER_SEEKTOBEGIN_OFFSET UNITYSDK_OFFSET(0x15119E20)
+#define RPG_CLIENT_MANAVIDEOPLAYER_SETCALLBACKACTION_OFFSET UNITYSDK_OFFSET(0x15119860)
+#define RPG_CLIENT_MANAVIDEOPLAYER_SETCAPTIONACTIVE_OFFSET UNITYSDK_OFFSET(0x15119AD0)
+#define RPG_CLIENT_MANAVIDEOPLAYER_SETDISABLECAMERAIFVIDEOPLAYING_OFFSET UNITYSDK_OFFSET(0x15119F90)
+#define RPG_CLIENT_MANAVIDEOPLAYER_SETENDPAUSE_OFFSET UNITYSDK_OFFSET(0x15119430)
+#define RPG_CLIENT_MANAVIDEOPLAYER_SETGUIDEVIDEOID_OFFSET UNITYSDK_OFFSET(0x15119800)
+#define RPG_CLIENT_MANAVIDEOPLAYER_SETLOOPCGID_OFFSET UNITYSDK_OFFSET(0x151197A0)
+#define RPG_CLIENT_MANAVIDEOPLAYER_SETLOOPENDCALLBACKACTION_OFFSET UNITYSDK_OFFSET(0x151198F0)
+#define RPG_CLIENT_MANAVIDEOPLAYER_SETLOOP_OFFSET UNITYSDK_OFFSET(0x151193C0)
+#define RPG_CLIENT_MANAVIDEOPLAYER_SETMATERIALAVAILABLECALLBACKACTION_OFFSET UNITYSDK_OFFSET(0x151199D0)
+#define RPG_CLIENT_MANAVIDEOPLAYER_SETREADYFORRENDERINGCALLBACKACTION_OFFSET UNITYSDK_OFFSET(0x15119960)
+#define RPG_CLIENT_MANAVIDEOPLAYER_SETSTARTFRAME_OFFSET UNITYSDK_OFFSET(0x1511A000)
+#define RPG_CLIENT_MANAVIDEOPLAYER_SETUPRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x15119F20)
+#define RPG_CLIENT_MANAVIDEOPLAYER_SETVIDEOID_OFFSET UNITYSDK_OFFSET(0x15119740)
+#define RPG_CLIENT_MANAVIDEOPLAYER_SKIPTOEND_OFFSET UNITYSDK_OFFSET(0x15119DD0)
+#define RPG_CLIENT_MANAVIDEOPLAYER_STOP_OFFSET UNITYSDK_OFFSET(0x15119CF0)
+#define RPG_CLIENT_MANAVIDEOPLAYER_UPDATE_OFFSET UNITYSDK_OFFSET(0x151196F0)
+#define RPG_CLIENT_MANAVIDEOPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1511A250)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ManaVideoPlayer_TypeDefinitionIndex = 67404;
+	inline static constexpr unsigned int ManaVideoPlayer_TypeDefinitionIndex = 68356;
 
 	class ManaVideoPlayer : public ::UnityEngine::MonoBehaviour
 	{
@@ -69,9 +69,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ManaVideoPlayer* CreatePlayer(::UnityEngine::GameObject* playerRoot, ::System::Boolean isLoop, ::System::Boolean endPause)
+		static ::RPG::Client::ManaVideoPlayer* CreatePlayer(::UnityEngine::GameObject* a1, ::System::Boolean a2, ::System::Boolean a3)
 		{
-			return ((::RPG::Client::ManaVideoPlayer*(*)(::UnityEngine::GameObject*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_CREATEPLAYER_OFFSET))(playerRoot, isLoop, endPause);
+			return ((::RPG::Client::ManaVideoPlayer*(*)(::UnityEngine::GameObject*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_CREATEPLAYER_OFFSET))(a1, a2, a3);
 		}
 
 		::System::Void Awake()
@@ -119,49 +119,49 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_RESETCONFIG_OFFSET))(this);
 		}
 
-		::System::Void SetVideoID(::System::UInt32 videoID)
+		::System::Void SetVideoID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETVIDEOID_OFFSET))(this, videoID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETVIDEOID_OFFSET))(this, a1);
 		}
 
-		::System::Void SetLoopCGID(::System::UInt32 loopCGID)
+		::System::Void SetLoopCGID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETLOOPCGID_OFFSET))(this, loopCGID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETLOOPCGID_OFFSET))(this, a1);
 		}
 
-		::System::Void SetGuideVideoID(::System::UInt32 guideVideoID)
+		::System::Void SetGuideVideoID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETGUIDEVIDEOID_OFFSET))(this, guideVideoID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETGUIDEVIDEOID_OFFSET))(this, a1);
 		}
 
-		::System::Void SetCallbackAction(::System::Action* onStartPlay, ::System::Action* onFinishPlay, ::System::Action* onBeforePlay)
+		::System::Void SetCallbackAction(::System::Action* a1, ::System::Action* a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETCALLBACKACTION_OFFSET))(this, onStartPlay, onFinishPlay, onBeforePlay);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETCALLBACKACTION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetLoopEndCallbackAction(::System::Action* onLoopEnd)
+		::System::Void SetLoopEndCallbackAction(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETLOOPENDCALLBACKACTION_OFFSET))(this, onLoopEnd);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETLOOPENDCALLBACKACTION_OFFSET))(this, a1);
 		}
 
-		::System::Void SetReadyForRenderingCallbackAction(::System::Action* onReadyForRendering)
+		::System::Void SetReadyForRenderingCallbackAction(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETREADYFORRENDERINGCALLBACKACTION_OFFSET))(this, onReadyForRendering);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETREADYFORRENDERINGCALLBACKACTION_OFFSET))(this, a1);
 		}
 
-		::System::Void SetMaterialAvailableCallbackAction(::System::Action* onMaterialAvailable)
+		::System::Void SetMaterialAvailableCallbackAction(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETMATERIALAVAILABLECALLBACKACTION_OFFSET))(this, onMaterialAvailable);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETMATERIALAVAILABLECALLBACKACTION_OFFSET))(this, a1);
 		}
 
-		::System::Void BindCaption(::RPG::GameCore::VideoCaptionPosition position, ::UnityEngine::Transform* root, ::UnityEngine::UI::Text* text, ::UnityEngine::CanvasGroup* canvasGroup)
+		::System::Void BindCaption(::RPG::GameCore::VideoCaptionPosition a1, ::UnityEngine::Transform* a2, ::UnityEngine::UI::Text* a3, ::UnityEngine::CanvasGroup* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::VideoCaptionPosition, ::UnityEngine::Transform*, ::UnityEngine::UI::Text*, ::UnityEngine::CanvasGroup*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_BINDCAPTION_OFFSET))(this, position, root, text, canvasGroup);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::VideoCaptionPosition, ::UnityEngine::Transform*, ::UnityEngine::UI::Text*, ::UnityEngine::CanvasGroup*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_BINDCAPTION_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void SetCaptionActive(::System::Boolean active)
+		::System::Void SetCaptionActive(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETCAPTIONACTIVE_OFFSET))(this, active);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETCAPTIONACTIVE_OFFSET))(this, a1);
 		}
 
 		::CriWare::CriManaMovieControllerForUI* GetManaMovieControllerForUI()
@@ -179,9 +179,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_PREPAREFORRENDERING_OFFSET))(this);
 		}
 
-		::System::Void Pause(::System::Boolean sw, ::RPG::Client::ManaVideoPlayerPauseReason reason)
+		::System::Void Pause(::System::Boolean a1, ::RPG::Client::ManaVideoPlayerPauseReason a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::RPG::Client::ManaVideoPlayerPauseReason))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_PAUSE_OFFSET))(this, sw, reason);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::RPG::Client::ManaVideoPlayerPauseReason))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_PAUSE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ClearPause()
@@ -214,29 +214,29 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_GETVIDEORATIO_OFFSET))(this);
 		}
 
-		::System::Void SetupRenderTarget(::UnityEngine::UI::Graphic* graphic)
+		::System::Void SetupRenderTarget(::UnityEngine::UI::Graphic* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Graphic*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETUPRENDERTARGET_OFFSET))(this, graphic);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Graphic*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETUPRENDERTARGET_OFFSET))(this, a1);
 		}
 
-		::System::Void SetLoop(::System::Boolean isLoop)
+		::System::Void SetLoop(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETLOOP_OFFSET))(this, isLoop);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETLOOP_OFFSET))(this, a1);
 		}
 
-		::System::Void SetEndPause(::System::Boolean endPause)
+		::System::Void SetEndPause(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETENDPAUSE_OFFSET))(this, endPause);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETENDPAUSE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetDisableCameraIfVideoPlaying(::System::Boolean disableCamera)
+		::System::Void SetDisableCameraIfVideoPlaying(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETDISABLECAMERAIFVIDEOPLAYING_OFFSET))(this, disableCamera);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETDISABLECAMERAIFVIDEOPLAYING_OFFSET))(this, a1);
 		}
 
-		::System::Void SetStartFrame(::System::Int32 frame)
+		::System::Void SetStartFrame(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETSTARTFRAME_OFFSET))(this, frame);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_SETSTARTFRAME_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ManaVideoPlayerFrameInfo* GetFrameInfo()
@@ -244,9 +244,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ManaVideoPlayerFrameInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_GETFRAMEINFO_OFFSET))(this);
 		}
 
-		::System::Void MuteVolume(::System::Boolean mute, ::RPG::Client::ManaVideoPlayerVolumeMuteReason reason)
+		::System::Void MuteVolume(::System::Boolean a1, ::RPG::Client::ManaVideoPlayerVolumeMuteReason a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::RPG::Client::ManaVideoPlayerVolumeMuteReason))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_MUTEVOLUME_OFFSET))(this, mute, reason);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::RPG::Client::ManaVideoPlayerVolumeMuteReason))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANAVIDEOPLAYER_MUTEVOLUME_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_IsPaused()

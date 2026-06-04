@@ -12,14 +12,14 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_GET_ISBAKEREQUIRED_OFFSET UNITYSDK_OFFSET(0x15BFFB80)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_METHOD_3_0E18B07CF5405C59_OFFSET UNITYSDK_OFFSET(0x15BFFBE0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_METHOD_3_CB05EF9A7B7BC592_OFFSET UNITYSDK_OFFSET(0x15BFFD00)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x15BFFE00)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_GET_ISBAKEREQUIRED_OFFSET UNITYSDK_OFFSET(0x15F2EC50)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_METHOD_3_3FA8F4962E04AA53_OFFSET UNITYSDK_OFFSET(0x15F2EDE0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_METHOD_3_9679BF1F01124F44_OFFSET UNITYSDK_OFFSET(0x15F2ECB0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x15F2EEF0)
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int CrowdPrototype_TypeDefinitionIndex = 67854;
+	inline static constexpr unsigned int CrowdPrototype_TypeDefinitionIndex = 68812;
 
 	class CrowdPrototype : public ::UnityEngine::ScriptableObject
 	{
@@ -49,14 +49,14 @@ namespace RPG::Client::CrowdAnimator
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_GET_ISBAKEREQUIRED_OFFSET))(this);
 		}
 
-		::RPG::Client::CrowdAnimator::BoneData* Method_3_0E18B07CF5405C59(::System::String* a1)
+		::RPG::Client::CrowdAnimator::BoneData* Method_3_9679BF1F01124F44(::System::String* a1)
 		{
-			return ((::RPG::Client::CrowdAnimator::BoneData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_METHOD_3_0E18B07CF5405C59_OFFSET))(this, a1);
+			return ((::RPG::Client::CrowdAnimator::BoneData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_METHOD_3_9679BF1F01124F44_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::CrowdAnimator::SkinnedMeshData* Method_3_CB05EF9A7B7BC592(::System::String* a1)
+		::RPG::Client::CrowdAnimator::SkinnedMeshData* Method_3_3FA8F4962E04AA53(::System::String* a1)
 		{
-			return ((::RPG::Client::CrowdAnimator::SkinnedMeshData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_METHOD_3_CB05EF9A7B7BC592_OFFSET))(this, a1);
+			return ((::RPG::Client::CrowdAnimator::SkinnedMeshData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE_METHOD_3_3FA8F4962E04AA53_OFFSET))(this, a1);
 		}
 	};
 }

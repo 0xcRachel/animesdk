@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D63DE2EC2835DB62_Class_1_B8E5DF5B61B39C64;
+class Class_1_D63DE2EC2835DB62_Class_1_6516DDC30DD1EB36;
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
-#define CLASS_1_100ED75C115B764C_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEC38610)
-#define CLASS_1_100ED75C115B764C_METHOD_1_4DE1857021EDD3DF_OFFSET UNITYSDK_OFFSET(0xEC38690)
-#define CLASS_1_100ED75C115B764C_METHOD_1_B3725C8DD86BB06D_OFFSET UNITYSDK_OFFSET(0xEC38750)
-#define CLASS_1_100ED75C115B764C__CTOR_OFFSET UNITYSDK_OFFSET(0xEC38570)
+#define CLASS_1_100ED75C115B764C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17F36D50)
+#define CLASS_1_100ED75C115B764C_METHOD_1_4DE1857021EDD3DF_OFFSET UNITYSDK_OFFSET(0x17F36DD0)
+#define CLASS_1_100ED75C115B764C_METHOD_1_B3725C8DD86BB06D_OFFSET UNITYSDK_OFFSET(0x17F36E90)
+#define CLASS_1_100ED75C115B764C__CTOR_OFFSET UNITYSDK_OFFSET(0x17F36CB0)
 
-inline static constexpr unsigned int Class_1_100ED75C115B764C_TypeDefinitionIndex = 72095;
+inline static constexpr unsigned int Class_1_100ED75C115B764C_TypeDefinitionIndex = 73117;
 
 class Class_1_100ED75C115B764C : public ::System::Object
 {
 public:
 	// static const ::System::Single Field_1_0; // 0x0
-	// static const ::System::String* Field_1_3; // 0x0
-	::UnityEngine::Material* Field_1_1; // 0x10
-	::Class_1_D63DE2EC2835DB62_Class_1_B8E5DF5B61B39C64* Field_1_2; // 0x18
+	// static const ::System::String* Field_1_1; // 0x0
+	::UnityEngine::Material* Field_1_2; // 0x10
+	::Class_1_D63DE2EC2835DB62_Class_1_6516DDC30DD1EB36* Field_1_3; // 0x18
 
 	::System::Void _ctor(::UnityEngine::GameObject* a1)
 	{

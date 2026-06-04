@@ -20,74 +20,74 @@ namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_DISABLETRIGGER_OFFSET UNITYSDK_OFFSET(0x14FF9E70)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14FF86D0)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_ENABLETRIGGER_OFFSET UNITYSDK_OFFSET(0x14FF9F60)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_INITCHESS_OFFSET UNITYSDK_OFFSET(0x14FF5980)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x14FF9C20)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_218124418542E081_1_OFFSET UNITYSDK_OFFSET(0x14FFA7C0)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_218124418542E081_OFFSET UNITYSDK_OFFSET(0x14FFA700)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x14FF9D70)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_627C7524E98F4AC5_OFFSET UNITYSDK_OFFSET(0x14FFA480)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_7DD2435811BE9431_OFFSET UNITYSDK_OFFSET(0x14FFA510)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_84BD5F32715F1DFB_OFFSET UNITYSDK_OFFSET(0x14FF8930)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_916EAABDA2B41A03_OFFSET UNITYSDK_OFFSET(0x14FFA060)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_AAD21DE195D05736_OFFSET UNITYSDK_OFFSET(0x14FFA650)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x14FFA880)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_D16D471AE6EB753A_OFFSET UNITYSDK_OFFSET(0x14FF9A30)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_D737CD2779D51A4E_OFFSET UNITYSDK_OFFSET(0x14FF8CD0)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_E83C51340BE6FC16_OFFSET UNITYSDK_OFFSET(0x14FFA5D0)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_ONCHESSVIEWREFRESH_OFFSET UNITYSDK_OFFSET(0x14FF9370)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_ONCHESSVIEWRESET_OFFSET UNITYSDK_OFFSET(0x14FF93D0)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_ONLASERHIT_OFFSET UNITYSDK_OFFSET(0x14FF9CE0)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_ONSTARTSHOOTPERFORM_OFFSET UNITYSDK_OFFSET(0x14FF9E30)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_RESETCHESS_OFFSET UNITYSDK_OFFSET(0x14FF9000)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_SETREFACTORLAUNCH_OFFSET UNITYSDK_OFFSET(0x14FF7D10)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_STARTMOVE_OFFSET UNITYSDK_OFFSET(0x14FF9420)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_TICK_OFFSET UNITYSDK_OFFSET(0x14FF73A0)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS__CCTOR_OFFSET UNITYSDK_OFFSET(0x14FFA940)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS__CTOR_OFFSET UNITYSDK_OFFSET(0x14FFA930)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS__SETREFACTORHIT_OFFSET UNITYSDK_OFFSET(0x14FF9AC0)
-#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS__TRIGGERROOTBROKEN_OFFSET UNITYSDK_OFFSET(0x14FF9B70)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_DISABLETRIGGER_OFFSET UNITYSDK_OFFSET(0x170BFA70)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x170BE330)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_ENABLETRIGGER_OFFSET UNITYSDK_OFFSET(0x170BFB50)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_INITCHESS_OFFSET UNITYSDK_OFFSET(0x170BB620)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_0F3706CF1F1EEA61_OFFSET UNITYSDK_OFFSET(0x170BE570)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x170BF820)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_218124418542E081_1_OFFSET UNITYSDK_OFFSET(0x170C0390)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_218124418542E081_OFFSET UNITYSDK_OFFSET(0x170C02D0)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x170BF970)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_627C7524E98F4AC5_OFFSET UNITYSDK_OFFSET(0x170C0060)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_7DD2435811BE9431_OFFSET UNITYSDK_OFFSET(0x170C00F0)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_916EAABDA2B41A03_OFFSET UNITYSDK_OFFSET(0x170BFC40)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_AAD21DE195D05736_OFFSET UNITYSDK_OFFSET(0x170C0220)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x170C0450)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_D16D471AE6EB753A_OFFSET UNITYSDK_OFFSET(0x170BF630)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_D20F759FC2EC43FB_OFFSET UNITYSDK_OFFSET(0x170C01A0)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_D737CD2779D51A4E_OFFSET UNITYSDK_OFFSET(0x170BE960)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_ONCHESSVIEWREFRESH_OFFSET UNITYSDK_OFFSET(0x170BEFF0)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_ONCHESSVIEWRESET_OFFSET UNITYSDK_OFFSET(0x170BF050)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_ONLASERHIT_OFFSET UNITYSDK_OFFSET(0x170BF8E0)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_ONSTARTSHOOTPERFORM_OFFSET UNITYSDK_OFFSET(0x170BFA30)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_RESETCHESS_OFFSET UNITYSDK_OFFSET(0x170BEC90)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_SETREFACTORLAUNCH_OFFSET UNITYSDK_OFFSET(0x170BD950)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_STARTMOVE_OFFSET UNITYSDK_OFFSET(0x170BF0A0)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_TICK_OFFSET UNITYSDK_OFFSET(0x170BD010)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS__CCTOR_OFFSET UNITYSDK_OFFSET(0x170C0510)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS__CTOR_OFFSET UNITYSDK_OFFSET(0x170C0500)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS__SETREFACTORHIT_OFFSET UNITYSDK_OFFSET(0x170BF6C0)
+#define RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS__TRIGGERROOTBROKEN_OFFSET UNITYSDK_OFFSET(0x170BF770)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DestroyRootPuzzleChess_TypeDefinitionIndex = 72043;
+	inline static constexpr unsigned int DestroyRootPuzzleChess_TypeDefinitionIndex = 73065;
 
 	class DestroyRootPuzzleChess : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_5_33()
+		static ::System::Int32* StaticGet_Field_5_0()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DestroyRootPuzzleChess_TypeDefinitionIndex)->GetStaticField(0x4260);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DestroyRootPuzzleChess_TypeDefinitionIndex)->GetStaticField(0x7BD0);
+		}
+		static ::System::Int32* StaticGet_Field_5_1()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DestroyRootPuzzleChess_TypeDefinitionIndex)->GetStaticField(0x7BD4);
+		}
+		static ::System::Int32* StaticGet_Field_5_2()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DestroyRootPuzzleChess_TypeDefinitionIndex)->GetStaticField(0x7BD8);
 		}
 		static ::System::Int32* StaticGet_InteractivePos()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DestroyRootPuzzleChess_TypeDefinitionIndex)->GetStaticField(0x4264);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DestroyRootPuzzleChess_TypeDefinitionIndex)->GetStaticField(0x7BDC);
 		}
-		static ::System::Int32* StaticGet_Field_5_34()
+		static ::System::Int32* StaticGet_Field_5_4()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DestroyRootPuzzleChess_TypeDefinitionIndex)->GetStaticField(0x4268);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DestroyRootPuzzleChess_TypeDefinitionIndex)->GetStaticField(0x7BE0);
 		}
-		static ::System::Int32* StaticGet_Field_5_31()
+		static ::System::Int32* StaticGet_Field_5_5()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DestroyRootPuzzleChess_TypeDefinitionIndex)->GetStaticField(0x426C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DestroyRootPuzzleChess_TypeDefinitionIndex)->GetStaticField(0x7BE4);
 		}
-		static ::System::Int32* StaticGet_Field_5_32()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DestroyRootPuzzleChess_TypeDefinitionIndex)->GetStaticField(0x4270);
-		}
-		static ::System::Int32* StaticGet_Field_5_35()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DestroyRootPuzzleChess_TypeDefinitionIndex)->GetStaticField(0x4274);
-		}
-		// static const ::System::Int32 Field_5_11 = 0x2D; // 0x0
-		// static const ::System::String* Field_5_44; // 0x0
-		// static const ::System::String* Field_5_45; // 0x0
-		// static const ::System::String* Field_5_46; // 0x0
-		// static const ::System::String* Field_5_47; // 0x0
-		// static const ::System::String* Field_5_48; // 0x0
-		// static const ::System::String* Field_5_49; // 0x0
+		// static const ::System::Int32 Field_5_6 = 0x2D; // 0x0
+		// static const ::System::String* Field_5_7; // 0x0
+		// static const ::System::String* Field_5_8; // 0x0
+		// static const ::System::String* Field_5_9; // 0x0
+		// static const ::System::String* Field_5_10; // 0x0
+		// static const ::System::String* Field_5_11; // 0x0
+		// static const ::System::String* Field_5_12; // 0x0
 		::RPG::Client::Prop::DestroyRootPuzzleChessType ChessType; // 0x18
 		::UnityEngine::Vector2Int Position; // 0x1C
 		::RPG::Client::Prop::ChessDirection Direction; // 0x24
@@ -98,33 +98,33 @@ namespace RPG::Client::Prop
 		::System::String* AnimEventPath2; // 0x48
 		::UnityEngine::Transform* CenterTransform; // 0x50
 		::System::Int32 ChessID; // 0x58
-		::System::Int32 Field_5_12; // 0x5C
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_5_13; // 0x60
-		::System::Collections::Generic::List_1<::System::Single>* Field_5_14; // 0x68
-		::System::Single Field_5_15; // 0x70
-		::UnityEngine::Vector3 Field_5_16; // 0x74
-		::System::Int32 Field_5_17; // 0x80
-		::UnityEngine::AnimationCurve* Field_5_18; // 0x88
-		::System::Single Field_5_19; // 0x90
-		::System::Single Field_5_20; // 0x94
-		::System::Boolean Field_5_21; // 0x98
-		::UnityEngine::Vector3 Field_5_22; // 0x9C
-		::UnityEngine::Quaternion Field_5_23; // 0xA8
-		::UnityEngine::Quaternion Field_5_24; // 0xB8
-		::UnityEngine::Quaternion Field_5_25; // 0xC8
-		::System::Single Field_5_26; // 0xD8
-		::System::Single Field_5_27; // 0xDC
-		::RPG::Client::Prop::ChessDirection Field_5_28; // 0xE0
-		::UnityEngine::Vector2Int Field_5_29; // 0xE4
-		::System::Boolean Field_5_30; // 0xEC
-		::UnityEngine::Animator* Field_5_36; // 0xF0
-		::UnityEngine::Animator* Field_5_37; // 0xF8
-		::UnityEngine::Transform* Field_5_38; // 0x100
-		::RPG::Client::Prop::DestroyRootPuzzleBoard* Field_5_39; // 0x108
-		::Class_2_2679F01039F3FC24* Field_5_40; // 0x110
-		::Class_2_2679F01039F3FC24* Field_5_41; // 0x118
-		::UnityEngine::Coroutine* Field_5_42; // 0x120
-		::UnityEngine::Coroutine* Field_5_43; // 0x128
+		::System::Int32 Field_5_23; // 0x5C
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_5_24; // 0x60
+		::System::Collections::Generic::List_1<::System::Single>* Field_5_25; // 0x68
+		::System::Single Field_5_26; // 0x70
+		::UnityEngine::Vector3 Field_5_27; // 0x74
+		::System::Int32 Field_5_28; // 0x80
+		::UnityEngine::AnimationCurve* Field_5_29; // 0x88
+		::System::Single Field_5_30; // 0x90
+		::System::Single Field_5_31; // 0x94
+		::System::Boolean Field_5_32; // 0x98
+		::UnityEngine::Vector3 Field_5_33; // 0x9C
+		::UnityEngine::Quaternion Field_5_34; // 0xA8
+		::UnityEngine::Quaternion Field_5_35; // 0xB8
+		::UnityEngine::Quaternion Field_5_36; // 0xC8
+		::System::Single Field_5_37; // 0xD8
+		::System::Single Field_5_38; // 0xDC
+		::RPG::Client::Prop::ChessDirection Field_5_39; // 0xE0
+		::UnityEngine::Vector2Int Field_5_40; // 0xE4
+		::System::Boolean Field_5_41; // 0xEC
+		::UnityEngine::Animator* Field_5_42; // 0xF0
+		::UnityEngine::Animator* Field_5_43; // 0xF8
+		::UnityEngine::Transform* Field_5_44; // 0x100
+		::RPG::Client::Prop::DestroyRootPuzzleBoard* Field_5_45; // 0x108
+		::Class_2_2679F01039F3FC24* Field_5_46; // 0x110
+		::Class_2_2679F01039F3FC24* Field_5_47; // 0x118
+		::UnityEngine::Coroutine* Field_5_48; // 0x120
+		::UnityEngine::Coroutine* Field_5_49; // 0x128
 
 		::System::Void _ctor()
 		{
@@ -236,14 +236,14 @@ namespace RPG::Client::Prop
 			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_627C7524E98F4AC5_OFFSET))(this);
 		}
 
-		::System::Void Method_5_84BD5F32715F1DFB(::RPG::GameCore::GameEntity* a1, ::System::Boolean a2)
+		::System::Void Method_5_0F3706CF1F1EEA61(::RPG::GameCore::GameEntity* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_84BD5F32715F1DFB_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_0F3706CF1F1EEA61_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_E83C51340BE6FC16()
+		::System::Void Method_5_D20F759FC2EC43FB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_E83C51340BE6FC16_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DESTROYROOTPUZZLECHESS_METHOD_5_D20F759FC2EC43FB_OFFSET))(this);
 		}
 
 		::System::Void Method_5_7DD2435811BE9431(::Il2CppArray<::System::String*>* a1, ::Il2CppArray<::System::Action*>* a2, ::System::String* a3, ::System::Action* a4, ::System::Int32 a5)

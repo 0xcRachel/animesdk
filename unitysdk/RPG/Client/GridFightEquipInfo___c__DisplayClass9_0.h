@@ -4,13 +4,13 @@
 
 namespace RPG::Client { class GridFightEquipItemData; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18057F30)
-#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS9_0__GETEQUIPSCOUNTBYITEMID_B__0_OFFSET UNITYSDK_OFFSET(0x1805B580)
-#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS9_0__GETEQUIPSCOUNTBYITEMID_B__1_OFFSET UNITYSDK_OFFSET(0x1805B5F0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1891BF40)
+#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS9_0__GETEQUIPSCOUNTBYITEMID_B__0_OFFSET UNITYSDK_OFFSET(0x1891FAE0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS9_0__GETEQUIPSCOUNTBYITEMID_B__1_OFFSET UNITYSDK_OFFSET(0x1891FB50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipInfo___c__DisplayClass9_0_TypeDefinitionIndex = 59818;
+	inline static constexpr unsigned int GridFightEquipInfo___c__DisplayClass9_0_TypeDefinitionIndex = 60753;
 
 	class GridFightEquipInfo___c__DisplayClass9_0 : public ::System::Object
 	{
@@ -22,14 +22,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS9_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetEquipsCountByItemID_b__0(::RPG::Client::GridFightEquipItemData* x)
+		::System::Boolean _GetEquipsCountByItemID_b__0(::RPG::Client::GridFightEquipItemData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS9_0__GETEQUIPSCOUNTBYITEMID_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS9_0__GETEQUIPSCOUNTBYITEMID_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _GetEquipsCountByItemID_b__1(::RPG::Client::GridFightEquipItemData* x)
+		::System::Boolean _GetEquipsCountByItemID_b__1(::RPG::Client::GridFightEquipItemData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS9_0__GETEQUIPSCOUNTBYITEMID_B__1_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS9_0__GETEQUIPSCOUNTBYITEMID_B__1_OFFSET))(this, a1);
 		}
 	};
 }

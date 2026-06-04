@@ -5,15 +5,15 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x175B1440)
-#define RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x175B1510)
-#define RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x175B1420)
-#define RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_GET_URL_OFFSET UNITYSDK_OFFSET(0x175B1520)
-#define RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x175B1430)
+#define RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x1792E200)
+#define RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1792E2D0)
+#define RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1792E1E0)
+#define RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_GET_URL_OFFSET UNITYSDK_OFFSET(0x1792E2E0)
+#define RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1792E1F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentHyperlinkBlock_TypeDefinitionIndex = 58251;
+	inline static constexpr unsigned int MessageContentHyperlinkBlock_TypeDefinitionIndex = 59181;
 
 	class MessageContentHyperlinkBlock : public ::RPG::Client::MessageContentBlock
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 		::System::String* _Url_k__BackingField; // 0x18
 		::System::String* _Title_k__BackingField; // 0x20
 
-		::System::Void _ctor(::System::String* title, ::System::String* url)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK__CTOR_OFFSET))(this, title, url);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::MessageContentBlock_BlockType get_Type()
@@ -31,9 +31,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MessageContentBlock_BlockType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::RPG::Client::MessageContentBlock* other)
+		::System::Boolean Equals(::RPG::Client::MessageContentBlock* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTHYPERLINKBLOCK_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Title()

@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_E21F6DE9B7FA4D05;
+class Class_3_07C3C4D2990C49EE;
 namespace RPG::GameCore { class EntityInEraFlipperSpotAreaListener; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define CLASS_2_7FD9E7DFD63F7328_DISPOSE_OFFSET UNITYSDK_OFFSET(0x105BC350)
-#define CLASS_2_7FD9E7DFD63F7328_METHOD_2_8CA56FF24F45C9F3_OFFSET UNITYSDK_OFFSET(0x105BC410)
-#define CLASS_2_7FD9E7DFD63F7328_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x105BC120)
-#define CLASS_2_7FD9E7DFD63F7328_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x105BC240)
-#define CLASS_2_7FD9E7DFD63F7328_TICK_OFFSET UNITYSDK_OFFSET(0x105BC5F0)
-#define CLASS_2_7FD9E7DFD63F7328__CTOR_OFFSET UNITYSDK_OFFSET(0x105BC090)
+#define CLASS_2_7FD9E7DFD63F7328_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16EAC940)
+#define CLASS_2_7FD9E7DFD63F7328_METHOD_2_8CA56FF24F45C9F3_OFFSET UNITYSDK_OFFSET(0x16EACA00)
+#define CLASS_2_7FD9E7DFD63F7328_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16EAC6D0)
+#define CLASS_2_7FD9E7DFD63F7328_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16EAC810)
+#define CLASS_2_7FD9E7DFD63F7328_TICK_OFFSET UNITYSDK_OFFSET(0x16EACBF0)
+#define CLASS_2_7FD9E7DFD63F7328__CTOR_OFFSET UNITYSDK_OFFSET(0x16EAC640)
 
-inline static constexpr unsigned int Class_2_7FD9E7DFD63F7328_TypeDefinitionIndex = 48693;
+inline static constexpr unsigned int Class_2_7FD9E7DFD63F7328_TypeDefinitionIndex = 49358;
 
 class Class_2_7FD9E7DFD63F7328 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::EntityInEraFlipperSpotAreaListener* Field_2_1; // 0x18
-	::Class_3_E21F6DE9B7FA4D05* Field_2_3; // 0x20
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x28
-	::System::Boolean Field_2_2; // 0x30
+	::Class_3_07C3C4D2990C49EE* Field_2_0; // 0x18
+	::RPG::GameCore::EntityInEraFlipperSpotAreaListener* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_2; // 0x28
+	::System::Boolean Field_2_3; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::EntityInEraFlipperSpotAreaListener* a2)
 	{

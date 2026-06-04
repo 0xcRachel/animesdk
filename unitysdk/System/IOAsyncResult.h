@@ -6,16 +6,16 @@ namespace System { class AsyncCallback; }
 namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class WaitHandle; }
 
-#define SYSTEM_IOASYNCRESULT_GET_ASYNCCALLBACK_OFFSET UNITYSDK_OFFSET(0x18324A10)
-#define SYSTEM_IOASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x18324A20)
-#define SYSTEM_IOASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x18324A30)
-#define SYSTEM_IOASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x18324B20)
-#define SYSTEM_IOASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x18324B40)
-#define SYSTEM_IOASYNCRESULT_INIT_OFFSET UNITYSDK_OFFSET(0x18324980)
-#define SYSTEM_IOASYNCRESULT_SET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x18324B30)
-#define SYSTEM_IOASYNCRESULT_SET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x18324B50)
-#define SYSTEM_IOASYNCRESULT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18324A00)
-#define SYSTEM_IOASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x18324970)
+#define SYSTEM_IOASYNCRESULT_GET_ASYNCCALLBACK_OFFSET UNITYSDK_OFFSET(0x18191E10)
+#define SYSTEM_IOASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x18191E20)
+#define SYSTEM_IOASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x18191E30)
+#define SYSTEM_IOASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x18191F20)
+#define SYSTEM_IOASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x18191F40)
+#define SYSTEM_IOASYNCRESULT_INIT_OFFSET UNITYSDK_OFFSET(0x18191DA0)
+#define SYSTEM_IOASYNCRESULT_SET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x18191F30)
+#define SYSTEM_IOASYNCRESULT_SET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x18191F50)
+#define SYSTEM_IOASYNCRESULT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18191E00)
+#define SYSTEM_IOASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x18191D90)
 
 namespace System
 {
@@ -35,14 +35,14 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IOASYNCRESULT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::AsyncCallback* async_callback, ::System::Object* async_state)
+		::System::Void _ctor_1(::System::AsyncCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_IOASYNCRESULT__CTOR_1_OFFSET))(this, async_callback, async_state);
+			return ((::System::Void(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_IOASYNCRESULT__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Init(::System::AsyncCallback* async_callback, ::System::Object* async_state)
+		::System::Void Init(::System::AsyncCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_IOASYNCRESULT_INIT_OFFSET))(this, async_callback, async_state);
+			return ((::System::Void(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_IOASYNCRESULT_INIT_OFFSET))(this, a1, a2);
 		}
 
 		::System::AsyncCallback* get_AsyncCallback()
@@ -65,9 +65,9 @@ namespace System
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IOASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET))(this);
 		}
 
-		::System::Void set_CompletedSynchronously(::System::Boolean value)
+		::System::Void set_CompletedSynchronously(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IOASYNCRESULT_SET_COMPLETEDSYNCHRONOUSLY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IOASYNCRESULT_SET_COMPLETEDSYNCHRONOUSLY_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsCompleted()
@@ -75,9 +75,9 @@ namespace System
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IOASYNCRESULT_GET_ISCOMPLETED_OFFSET))(this);
 		}
 
-		::System::Void set_IsCompleted(::System::Boolean value)
+		::System::Void set_IsCompleted(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IOASYNCRESULT_SET_ISCOMPLETED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IOASYNCRESULT_SET_ISCOMPLETED_OFFSET))(this, a1);
 		}
 	};
 }

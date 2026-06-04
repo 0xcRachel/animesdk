@@ -11,17 +11,17 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x16E17950)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x16E17F20)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_GET_EFFECTPREFAB_OFFSET UNITYSDK_OFFSET(0x16E17F00)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_GET_PARENTTRACK_OFFSET UNITYSDK_OFFSET(0x16E17F30)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_SET_EFFECTPREFAB_OFFSET UNITYSDK_OFFSET(0x16E17F10)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_SET_PARENTTRACK_OFFSET UNITYSDK_OFFSET(0x16E17F40)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x16E17880)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1774DE60)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1774DE30)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_GET_EFFECTPREFAB_OFFSET UNITYSDK_OFFSET(0x1774DE10)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_GET_PARENTTRACK_OFFSET UNITYSDK_OFFSET(0x1774DE40)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_SET_EFFECTPREFAB_OFFSET UNITYSDK_OFFSET(0x1774DE20)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_SET_PARENTTRACK_OFFSET UNITYSDK_OFFSET(0x1774DE50)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1774DF00)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VFXTimelineClip_TypeDefinitionIndex = 45382;
+	inline static constexpr unsigned int VFXTimelineClip_TypeDefinitionIndex = 45956;
 
 	class VFXTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -57,9 +57,9 @@ namespace RPGTools::Timeline::VFX
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_GET_EFFECTPREFAB_OFFSET))(this);
 		}
 
-		::System::Void set_effectPrefab(::UnityEngine::GameObject* value)
+		::System::Void set_effectPrefab(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_SET_EFFECTPREFAB_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_SET_EFFECTPREFAB_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -72,9 +72,9 @@ namespace RPGTools::Timeline::VFX
 			return ((::UnityEngine::Timeline::TrackAsset*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_GET_PARENTTRACK_OFFSET))(this);
 		}
 
-		::System::Void set_parentTrack(::UnityEngine::Timeline::TrackAsset* value)
+		::System::Void set_parentTrack(::UnityEngine::Timeline::TrackAsset* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TrackAsset*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_SET_PARENTTRACK_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TrackAsset*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXTIMELINECLIP_SET_PARENTTRACK_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)

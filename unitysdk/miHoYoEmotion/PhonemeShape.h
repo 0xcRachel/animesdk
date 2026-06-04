@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define MIHOYOEMOTION_PHONEMESHAPE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A5F17E0)
-#define MIHOYOEMOTION_PHONEMESHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5F15B0)
+#define MIHOYOEMOTION_PHONEMESHAPE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17A89630)
+#define MIHOYOEMOTION_PHONEMESHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x17A89400)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int PhonemeShape_TypeDefinitionIndex = 40970;
+	inline static constexpr unsigned int PhonemeShape_TypeDefinitionIndex = 41788;
 
 	class PhonemeShape : public ::miHoYoEmotion::Shape
 	{
 	public:
 		::System::String* phonemeName; // 0x38
 
-		::System::Void _ctor(::System::String* phonemeName)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_PHONEMESHAPE__CTOR_OFFSET))(this, phonemeName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_PHONEMESHAPE__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1()

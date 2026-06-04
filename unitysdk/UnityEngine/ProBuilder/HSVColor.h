@@ -5,36 +5,36 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_PROBUILDER_HSVCOLOR_FROMRGB_OFFSET UNITYSDK_OFFSET(0xB97F640)
-#define UNITYENGINE_PROBUILDER_HSVCOLOR_SQRDISTANCE_OFFSET UNITYSDK_OFFSET(0xB97F770)
-#define UNITYENGINE_PROBUILDER_HSVCOLOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB97F6A0)
-#define UNITYENGINE_PROBUILDER_HSVCOLOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB97F620)
-#define UNITYENGINE_PROBUILDER_HSVCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0xB93E110)
+#define UNITYENGINE_PROBUILDER_HSVCOLOR_FROMRGB_OFFSET UNITYSDK_OFFSET(0xC222390)
+#define UNITYENGINE_PROBUILDER_HSVCOLOR_SQRDISTANCE_OFFSET UNITYSDK_OFFSET(0xC2224C0)
+#define UNITYENGINE_PROBUILDER_HSVCOLOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC2223F0)
+#define UNITYENGINE_PROBUILDER_HSVCOLOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0xC222370)
+#define UNITYENGINE_PROBUILDER_HSVCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0xC1E1400)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int HSVColor_TypeDefinitionIndex = 39902;
+	inline static constexpr unsigned int HSVColor_TypeDefinitionIndex = 40729;
 
 	class HSVColor : public ::System::Object
 	{
 	public:
-		::System::Single s; // 0x10
-		::System::Single v; // 0x14
-		::System::Single h; // 0x18
+		::System::Single h; // 0x10
+		::System::Single s; // 0x14
+		::System::Single v; // 0x18
 
-		::System::Void _ctor(::System::Single h, ::System::Single s, ::System::Single v)
+		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HSVCOLOR__CTOR_OFFSET))(this, h, s, v);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HSVCOLOR__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _ctor_1(::System::Single h, ::System::Single s, ::System::Single v, ::System::Single sv_modifier)
+		::System::Void _ctor_1(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HSVCOLOR__CTOR_1_OFFSET))(this, h, s, v, sv_modifier);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HSVCOLOR__CTOR_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		static ::UnityEngine::ProBuilder::HSVColor* FromRGB(::UnityEngine::Color col)
+		static ::UnityEngine::ProBuilder::HSVColor* FromRGB(::UnityEngine::Color a1)
 		{
-			return ((::UnityEngine::ProBuilder::HSVColor*(*)(::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HSVCOLOR_FROMRGB_OFFSET))(col);
+			return ((::UnityEngine::ProBuilder::HSVColor*(*)(::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HSVCOLOR_FROMRGB_OFFSET))(a1);
 		}
 
 		::System::String* ToString()
@@ -42,9 +42,9 @@ namespace UnityEngine::ProBuilder
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HSVCOLOR_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Single SqrDistance(::UnityEngine::ProBuilder::HSVColor* InColor)
+		::System::Single SqrDistance(::UnityEngine::ProBuilder::HSVColor* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::ProBuilder::HSVColor*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HSVCOLOR_SQRDISTANCE_OFFSET))(this, InColor);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::ProBuilder::HSVColor*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HSVCOLOR_SQRDISTANCE_OFFSET))(this, a1);
 		}
 	};
 }

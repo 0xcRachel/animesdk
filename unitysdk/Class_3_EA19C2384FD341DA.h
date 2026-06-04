@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsHealCallBackStack; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_EA19C2384FD341DA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xFF95AB0)
-#define CLASS_3_EA19C2384FD341DA__CTOR_OFFSET UNITYSDK_OFFSET(0xFF95A80)
+#define CLASS_3_EA19C2384FD341DA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x162951F0)
+#define CLASS_3_EA19C2384FD341DA__CTOR_OFFSET UNITYSDK_OFFSET(0x162951C0)
 
-inline static constexpr unsigned int Class_3_EA19C2384FD341DA_TypeDefinitionIndex = 50437;
+inline static constexpr unsigned int Class_3_EA19C2384FD341DA_TypeDefinitionIndex = 51102;
 
 class Class_3_EA19C2384FD341DA : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsHealCallBackStack*>
 {

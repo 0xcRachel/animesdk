@@ -11,45 +11,45 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::IO { class Stream; }
 namespace System::Resources { class ResourceReader; }
 
-#define SYSTEM_RESOURCES_RUNTIMERESOURCESET_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18F57180)
-#define SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETENUMERATORHELPER_OFFSET UNITYSDK_OFFSET(0x18F57390)
-#define SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x18F57380)
-#define SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETOBJECT_1_OFFSET UNITYSDK_OFFSET(0x18F58340)
-#define SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETOBJECT_2_OFFSET UNITYSDK_OFFSET(0x18F574C0)
-#define SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETOBJECT_OFFSET UNITYSDK_OFFSET(0x18F58330)
-#define SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETSTRING_1_OFFSET UNITYSDK_OFFSET(0x18F58300)
-#define SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETSTRING_OFFSET UNITYSDK_OFFSET(0x18F57490)
-#define SYSTEM_RESOURCES_RUNTIMERESOURCESET_RESOLVERESOURCELOCATOR_OFFSET UNITYSDK_OFFSET(0x18F58350)
-#define SYSTEM_RESOURCES_RUNTIMERESOURCESET_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x18F57480)
-#define SYSTEM_RESOURCES_RUNTIMERESOURCESET__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18F4D1B0)
-#define SYSTEM_RESOURCES_RUNTIMERESOURCESET__CTOR_OFFSET UNITYSDK_OFFSET(0x18F4AD50)
+#define SYSTEM_RESOURCES_RUNTIMERESOURCESET_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19708590)
+#define SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETENUMERATORHELPER_OFFSET UNITYSDK_OFFSET(0x19708800)
+#define SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x197087F0)
+#define SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETOBJECT_1_OFFSET UNITYSDK_OFFSET(0x19709730)
+#define SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETOBJECT_2_OFFSET UNITYSDK_OFFSET(0x19708940)
+#define SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETOBJECT_OFFSET UNITYSDK_OFFSET(0x19709720)
+#define SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETSTRING_1_OFFSET UNITYSDK_OFFSET(0x197096F0)
+#define SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETSTRING_OFFSET UNITYSDK_OFFSET(0x19708910)
+#define SYSTEM_RESOURCES_RUNTIMERESOURCESET_RESOLVERESOURCELOCATOR_OFFSET UNITYSDK_OFFSET(0x19709740)
+#define SYSTEM_RESOURCES_RUNTIMERESOURCESET_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19708900)
+#define SYSTEM_RESOURCES_RUNTIMERESOURCESET__CTOR_1_OFFSET UNITYSDK_OFFSET(0x196FE810)
+#define SYSTEM_RESOURCES_RUNTIMERESOURCESET__CTOR_OFFSET UNITYSDK_OFFSET(0x196FC2E0)
 
 namespace System::Resources
 {
-	inline static constexpr unsigned int RuntimeResourceSet_TypeDefinitionIndex = 532;
+	inline static constexpr unsigned int RuntimeResourceSet_TypeDefinitionIndex = 531;
 
 	class RuntimeResourceSet : public ::System::Resources::ResourceSet
 	{
 	public:
 		// static const ::System::Int32 Version = 0x2; // 0x0
-		::System::Resources::ResourceReader* _defaultReader; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Resources::ResourceLocator>* _caseInsensitiveTable; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Resources::ResourceLocator>* _resCache; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Resources::ResourceLocator>* _resCache; // 0x28
+		::System::Resources::ResourceReader* _defaultReader; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Resources::ResourceLocator>* _caseInsensitiveTable; // 0x38
 		::System::Boolean _haveReadFromReader; // 0x40
 
-		::System::Void _ctor(::System::String* fileName)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RUNTIMERESOURCESET__CTOR_OFFSET))(this, fileName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RUNTIMERESOURCESET__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::IO::Stream* stream)
+		::System::Void _ctor_1(::System::IO::Stream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RUNTIMERESOURCESET__CTOR_1_OFFSET))(this, stream);
+			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RUNTIMERESOURCESET__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void Dispose(::System::Boolean disposing)
+		::System::Void Dispose(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RUNTIMERESOURCESET_DISPOSE_OFFSET))(this, disposing);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RUNTIMERESOURCESET_DISPOSE_OFFSET))(this, a1);
 		}
 
 		::System::Collections::IDictionaryEnumerator* GetEnumerator()
@@ -67,34 +67,34 @@ namespace System::Resources
 			return ((::System::Collections::IDictionaryEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETENUMERATORHELPER_OFFSET))(this);
 		}
 
-		::System::String* GetString(::System::String* key)
+		::System::String* GetString(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETSTRING_OFFSET))(this, key);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETSTRING_OFFSET))(this, a1);
 		}
 
-		::System::String* GetString_1(::System::String* key, ::System::Boolean ignoreCase)
+		::System::String* GetString_1(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETSTRING_1_OFFSET))(this, key, ignoreCase);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETSTRING_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Object* GetObject(::System::String* key)
+		::System::Object* GetObject(::System::String* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETOBJECT_OFFSET))(this, key);
+			return ((::System::Object*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETOBJECT_OFFSET))(this, a1);
 		}
 
-		::System::Object* GetObject_1(::System::String* key, ::System::Boolean ignoreCase)
+		::System::Object* GetObject_1(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETOBJECT_1_OFFSET))(this, key, ignoreCase);
+			return ((::System::Object*(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETOBJECT_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Object* GetObject_2(::System::String* key, ::System::Boolean ignoreCase, ::System::Boolean isString)
+		::System::Object* GetObject_2(::System::String* a1, ::System::Boolean a2, ::System::Boolean a3)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETOBJECT_2_OFFSET))(this, key, ignoreCase, isString);
+			return ((::System::Object*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RUNTIMERESOURCESET_GETOBJECT_2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Object* ResolveResourceLocator(::System::Resources::ResourceLocator resLocation, ::System::String* key, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Resources::ResourceLocator>* copyOfCache, ::System::Boolean keyInWrongCase)
+		::System::Object* ResolveResourceLocator(::System::Resources::ResourceLocator a1, ::System::String* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Resources::ResourceLocator>* a3, ::System::Boolean a4)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Resources::ResourceLocator, ::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Resources::ResourceLocator>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RUNTIMERESOURCESET_RESOLVERESOURCELOCATOR_OFFSET))(this, resLocation, key, copyOfCache, keyInWrongCase);
+			return ((::System::Object*(*)(::PVOID, ::System::Resources::ResourceLocator, ::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Resources::ResourceLocator>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RUNTIMERESOURCESET_RESOLVERESOURCELOCATOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

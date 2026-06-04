@@ -7,14 +7,14 @@
 namespace MessagePack::Internal { class DynamicObjectTypeBuilder___c__DisplayClass17_0; }
 namespace System { class String; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS17_1__BUILDDESERIALIZEINTERNALDESERIALIZELOOPSTRINGKEY_G__ONFOUNDASSIGNDIRECT_1_OFFSET UNITYSDK_OFFSET(0x164C63B0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS17_1__BUILDDESERIALIZEINTERNALDESERIALIZELOOPSTRINGKEY_G__ONFOUNDASSIGNLOCALVARIABLE_2_OFFSET UNITYSDK_OFFSET(0x164C6580)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS17_1__BUILDDESERIALIZEINTERNALDESERIALIZELOOPSTRINGKEY_G__ONNOTFOUND_3_OFFSET UNITYSDK_OFFSET(0x164C6740)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS17_1__CTOR_OFFSET UNITYSDK_OFFSET(0x164C63A0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS17_1__BUILDDESERIALIZEINTERNALDESERIALIZELOOPSTRINGKEY_G__ONFOUNDASSIGNDIRECT_1_OFFSET UNITYSDK_OFFSET(0x14021E30)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS17_1__BUILDDESERIALIZEINTERNALDESERIALIZELOOPSTRINGKEY_G__ONFOUNDASSIGNLOCALVARIABLE_2_OFFSET UNITYSDK_OFFSET(0x14021FF0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS17_1__BUILDDESERIALIZEINTERNALDESERIALIZELOOPSTRINGKEY_G__ONNOTFOUND_3_OFFSET UNITYSDK_OFFSET(0x140221A0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS17_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14021E20)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass17_1_TypeDefinitionIndex = 9375;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass17_1_TypeDefinitionIndex = 7278;
 
 	class DynamicObjectTypeBuilder___c__DisplayClass17_1 : public ::System::Object
 	{
@@ -28,14 +28,14 @@ namespace MessagePack::Internal
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS17_1__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _BuildDeserializeInternalDeserializeLoopStringKey_g__OnFoundAssignDirect_1(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int32> x)
+		::System::Void _BuildDeserializeInternalDeserializeLoopStringKey_g__OnFoundAssignDirect_1(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int32>))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS17_1__BUILDDESERIALIZEINTERNALDESERIALIZELOOPSTRINGKEY_G__ONFOUNDASSIGNDIRECT_1_OFFSET))(this, x);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int32>))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS17_1__BUILDDESERIALIZEINTERNALDESERIALIZELOOPSTRINGKEY_G__ONFOUNDASSIGNDIRECT_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _BuildDeserializeInternalDeserializeLoopStringKey_g__OnFoundAssignLocalVariable_2(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int32> x)
+		::System::Void _BuildDeserializeInternalDeserializeLoopStringKey_g__OnFoundAssignLocalVariable_2(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int32>))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS17_1__BUILDDESERIALIZEINTERNALDESERIALIZELOOPSTRINGKEY_G__ONFOUNDASSIGNLOCALVARIABLE_2_OFFSET))(this, x);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int32>))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS17_1__BUILDDESERIALIZEINTERNALDESERIALIZELOOPSTRINGKEY_G__ONFOUNDASSIGNLOCALVARIABLE_2_OFFSET))(this, a1);
 		}
 
 		::System::Void _BuildDeserializeInternalDeserializeLoopStringKey_g__OnNotFound_3()

@@ -7,44 +7,44 @@
 class Class_1_C58549E83E2A95B6;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_FE1B62E68B82C89D_CLEAR_OFFSET UNITYSDK_OFFSET(0xEB914A0)
-#define CLASS_1_FE1B62E68B82C89D_METHOD_1_087129AC7F158FF4_OFFSET UNITYSDK_OFFSET(0xEB92240)
-#define CLASS_1_FE1B62E68B82C89D_METHOD_1_2C95AFAD0256302F_OFFSET UNITYSDK_OFFSET(0xEB91200)
-#define CLASS_1_FE1B62E68B82C89D_METHOD_1_340B09B8101954D0_OFFSET UNITYSDK_OFFSET(0xEB92660)
-#define CLASS_1_FE1B62E68B82C89D_METHOD_1_66456C92217FE904_OFFSET UNITYSDK_OFFSET(0xEB91640)
-#define CLASS_1_FE1B62E68B82C89D_METHOD_1_7BD404790CD546FB_OFFSET UNITYSDK_OFFSET(0xEB91E20)
-#define CLASS_1_FE1B62E68B82C89D_METHOD_1_7EABD45AC410AEDE_OFFSET UNITYSDK_OFFSET(0xEB922F0)
-#define CLASS_1_FE1B62E68B82C89D_METHOD_1_90505519AFBE7C6F_OFFSET UNITYSDK_OFFSET(0xEB91530)
-#define CLASS_1_FE1B62E68B82C89D_METHOD_1_9AF79173E0B5CAAE_OFFSET UNITYSDK_OFFSET(0xEB91110)
-#define CLASS_1_FE1B62E68B82C89D_METHOD_1_A39BC28B44D93F59_OFFSET UNITYSDK_OFFSET(0xEB91910)
-#define CLASS_1_FE1B62E68B82C89D_METHOD_1_FF70C4B8C0CE07B9_OFFSET UNITYSDK_OFFSET(0xEB913A0)
-#define CLASS_1_FE1B62E68B82C89D__CTOR_OFFSET UNITYSDK_OFFSET(0xEB929B0)
+#define CLASS_1_FE1B62E68B82C89D_CLEAR_OFFSET UNITYSDK_OFFSET(0x16F8DE20)
+#define CLASS_1_FE1B62E68B82C89D_METHOD_1_0B9393FF4819E623_OFFSET UNITYSDK_OFFSET(0x16F8EC50)
+#define CLASS_1_FE1B62E68B82C89D_METHOD_1_2E804E96E37AD5A3_OFFSET UNITYSDK_OFFSET(0x16F8DD00)
+#define CLASS_1_FE1B62E68B82C89D_METHOD_1_340B09B8101954D0_OFFSET UNITYSDK_OFFSET(0x16F8F070)
+#define CLASS_1_FE1B62E68B82C89D_METHOD_1_66456C92217FE904_OFFSET UNITYSDK_OFFSET(0x16F8E020)
+#define CLASS_1_FE1B62E68B82C89D_METHOD_1_7BD404790CD546FB_OFFSET UNITYSDK_OFFSET(0x16F8E830)
+#define CLASS_1_FE1B62E68B82C89D_METHOD_1_7EABD45AC410AEDE_OFFSET UNITYSDK_OFFSET(0x16F8ED00)
+#define CLASS_1_FE1B62E68B82C89D_METHOD_1_887076C3AE781BC5_OFFSET UNITYSDK_OFFSET(0x16F8DE90)
+#define CLASS_1_FE1B62E68B82C89D_METHOD_1_A39BC28B44D93F59_OFFSET UNITYSDK_OFFSET(0x16F8E2F0)
+#define CLASS_1_FE1B62E68B82C89D_METHOD_1_B732DC7FA82BA621_OFFSET UNITYSDK_OFFSET(0x16F8DB40)
+#define CLASS_1_FE1B62E68B82C89D_METHOD_1_C415407BB0EB376A_OFFSET UNITYSDK_OFFSET(0x16F8DA50)
+#define CLASS_1_FE1B62E68B82C89D__CTOR_OFFSET UNITYSDK_OFFSET(0x16F8F3C0)
 
-inline static constexpr unsigned int Class_1_FE1B62E68B82C89D_TypeDefinitionIndex = 64199;
+inline static constexpr unsigned int Class_1_FE1B62E68B82C89D_TypeDefinitionIndex = 65120;
 
 class Class_1_FE1B62E68B82C89D : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::Single>* Field_1_1; // 0x10
-	::Class_1_C58549E83E2A95B6* Field_1_0; // 0x18
-	::UnityEngine::Vector3 Field_1_3; // 0x20
-	::System::Single Field_1_2; // 0x2C
-	::System::Int32 Field_1_4; // 0x30
-	::System::Single Field_1_5; // 0x34
+	::Class_1_C58549E83E2A95B6* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::System::Single>* Field_1_1; // 0x18
+	::System::Int32 Field_1_2; // 0x20
+	::System::Single Field_1_3; // 0x24
+	::System::Single Field_1_4; // 0x28
+	::UnityEngine::Vector3 Field_1_5; // 0x2C
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FE1B62E68B82C89D__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_9AF79173E0B5CAAE(::System::UInt32 a1, ::System::UInt32 a2, ::System::Single a3)
+	::System::Void Method_1_C415407BB0EB376A(::System::UInt32 a1, ::System::UInt32 a2, ::System::Single a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_FE1B62E68B82C89D_METHOD_1_9AF79173E0B5CAAE_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_FE1B62E68B82C89D_METHOD_1_C415407BB0EB376A_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_1_2C95AFAD0256302F()
+	::System::Void Method_1_B732DC7FA82BA621()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FE1B62E68B82C89D_METHOD_1_2C95AFAD0256302F_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FE1B62E68B82C89D_METHOD_1_B732DC7FA82BA621_OFFSET))(this);
 	}
 
 	::System::Void Clear()
@@ -52,14 +52,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FE1B62E68B82C89D_CLEAR_OFFSET))(this);
 	}
 
-	::UnityEngine::Vector3 Method_1_FF70C4B8C0CE07B9(::System::Int32 a1, ::System::Boolean a2)
+	::UnityEngine::Vector3 Method_1_2E804E96E37AD5A3(::System::Int32 a1, ::System::Boolean a2)
 	{
-		return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_FE1B62E68B82C89D_METHOD_1_FF70C4B8C0CE07B9_OFFSET))(this, a1, a2);
+		return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_FE1B62E68B82C89D_METHOD_1_2E804E96E37AD5A3_OFFSET))(this, a1, a2);
 	}
 
-	::System::Single Method_1_90505519AFBE7C6F(::System::Int32 a1)
+	::System::Single Method_1_887076C3AE781BC5(::System::Int32 a1)
 	{
-		return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_FE1B62E68B82C89D_METHOD_1_90505519AFBE7C6F_OFFSET))(this, a1);
+		return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_FE1B62E68B82C89D_METHOD_1_887076C3AE781BC5_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_66456C92217FE904(::UnityEngine::Vector3 a1)
@@ -72,9 +72,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + CLASS_1_FE1B62E68B82C89D_METHOD_1_7EABD45AC410AEDE_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_1_087129AC7F158FF4(::RPG::Client::TrackCameraOverrideWayPointType a1, ::UnityEngine::Vector3 a2)
+	::System::Void Method_1_0B9393FF4819E623(::RPG::Client::TrackCameraOverrideWayPointType a1, ::UnityEngine::Vector3 a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::TrackCameraOverrideWayPointType, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_1_FE1B62E68B82C89D_METHOD_1_087129AC7F158FF4_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::TrackCameraOverrideWayPointType, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_1_FE1B62E68B82C89D_METHOD_1_0B9393FF4819E623_OFFSET))(this, a1, a2);
 	}
 
 	::System::Single Method_1_A39BC28B44D93F59(::System::Boolean& a1, ::System::Boolean& a2, ::System::Boolean a3)

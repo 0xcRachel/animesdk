@@ -3,11 +3,11 @@
 #include "unitysdk/CriWare/CriMana/AlphaType.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIMANA_FRAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4E8410)
+#define CRIWARE_CRIMANA_FRAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B35F3A0)
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int FrameInfo_TypeDefinitionIndex = 36946;
+	inline static constexpr unsigned int FrameInfo_TypeDefinitionIndex = 37246;
 
 	class FrameInfo : public ::System::Object
 	{

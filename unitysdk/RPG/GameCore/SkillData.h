@@ -13,16 +13,16 @@
 #include "unitysdk/RPG/GameCore/SkillUISpecialButtonType.h"
 #include "unitysdk/RPG/GameCore/TeamType.h"
 #include "unitysdk/RPG/GameCore/UseSkillErrorCode.h"
+#include "unitysdk/Struct_2_165AEDBFDC2B5511.h"
 #include "unitysdk/Struct_2_1DBF01015A93DAF5.h"
-#include "unitysdk/Struct_2_4DC2836C459A264B.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
 class Class_1_0BF70B7AEC57376C;
 class Class_1_5F51D4049EA87B7B;
-class Class_1_7C108062C171623D;
-class Class_1_EABAA0FA9B3BC305;
+class Class_1_BCDC191CF05491FA;
+class Class_1_DD56E792A2635894;
 namespace RPG::GameCore { class ICharacterSkillRowData; }
 namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class SkillCharacterComponent; }
@@ -36,88 +36,90 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_SKILLDATA_ADDTAGS_OFFSET UNITYSDK_OFFSET(0x9F5A750)
-#define RPG_GAMECORE_SKILLDATA_GETAUTOSELECTPRIORITY_OFFSET UNITYSDK_OFFSET(0x9F5AA50)
-#define RPG_GAMECORE_SKILLDATA_GETCUSTOMREADYCONFIG_OFFSET UNITYSDK_OFFSET(0x9F5AB90)
-#define RPG_GAMECORE_SKILLDATA_GETPROPERTYVALUEIGNORESLOT_OFFSET UNITYSDK_OFFSET(0x9F5A690)
-#define RPG_GAMECORE_SKILLDATA_GETPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x9F51A30)
-#define RPG_GAMECORE_SKILLDATA_GETREADCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0x9F5AD30)
-#define RPG_GAMECORE_SKILLDATA_GETREADYANIMSTATE_OFFSET UNITYSDK_OFFSET(0x9F5A2F0)
-#define RPG_GAMECORE_SKILLDATA_GETREADYCUSTOMFORMATIONCONFIG_OFFSET UNITYSDK_OFFSET(0x9F5ACC0)
-#define RPG_GAMECORE_SKILLDATA_GETUNUSABLECONDITIONRESULT_OFFSET UNITYSDK_OFFSET(0x9F55480)
-#define RPG_GAMECORE_SKILLDATA_GET_ATTACKTYPE_OFFSET UNITYSDK_OFFSET(0x9F5A180)
-#define RPG_GAMECORE_SKILLDATA_GET_BPADD_OFFSET UNITYSDK_OFFSET(0x9F59950)
-#define RPG_GAMECORE_SKILLDATA_GET_BPNEED_OFFSET UNITYSDK_OFFSET(0x9F56CD0)
-#define RPG_GAMECORE_SKILLDATA_GET_CANTRAVERSALBYCOMPLEXSKILLAI_OFFSET UNITYSDK_OFFSET(0x9F5A530)
-#define RPG_GAMECORE_SKILLDATA_GET_CHILDSKILLCOUNT_OFFSET UNITYSDK_OFFSET(0x9F55BB0)
-#define RPG_GAMECORE_SKILLDATA_GET_CURRENTCTRLTYPE_OFFSET UNITYSDK_OFFSET(0x9F4E060)
-#define RPG_GAMECORE_SKILLDATA_GET_DELAYRATIO_OFFSET UNITYSDK_OFFSET(0x9F5A060)
-#define RPG_GAMECORE_SKILLDATA_GET_FINALAIULTRASKILLPRIORITY_OFFSET UNITYSDK_OFFSET(0x9F5A5A0)
-#define RPG_GAMECORE_SKILLDATA_GET_ISINSERTCONDTIONMEET_OFFSET UNITYSDK_OFFSET(0x9F55740)
-#define RPG_GAMECORE_SKILLDATA_GET_ISUSABLECONDITIONMEET_OFFSET UNITYSDK_OFFSET(0x9F55320)
-#define RPG_GAMECORE_SKILLDATA_GET_ISVISABLECONDTIONMEET_OFFSET UNITYSDK_OFFSET(0x9F5A450)
-#define RPG_GAMECORE_SKILLDATA_GET_LAYERTYPE_OFFSET UNITYSDK_OFFSET(0x9F53400)
-#define RPG_GAMECORE_SKILLDATA_GET_READYANIMSTATE_OFFSET UNITYSDK_OFFSET(0x9F5A2E0)
-#define RPG_GAMECORE_SKILLDATA_GET_ROOTSKILLDATA_OFFSET UNITYSDK_OFFSET(0x9F5A4D0)
-#define RPG_GAMECORE_SKILLDATA_GET_SHOWASMENU_OFFSET UNITYSDK_OFFSET(0x9F59E10)
-#define RPG_GAMECORE_SKILLDATA_GET_SKILLCOMBOVALUEDELTA_OFFSET UNITYSDK_OFFSET(0x9F5A230)
-#define RPG_GAMECORE_SKILLDATA_GET_SKILLEFFECT_OFFSET UNITYSDK_OFFSET(0x9F4BBF0)
-#define RPG_GAMECORE_SKILLDATA_GET_SKILLLAYOUTKEY_OFFSET UNITYSDK_OFFSET(0x9F59EF0)
-#define RPG_GAMECORE_SKILLDATA_GET_SLOT_OFFSET UNITYSDK_OFFSET(0x9F5A3E0)
-#define RPG_GAMECORE_SKILLDATA_GET_SPADD_OFFSET UNITYSDK_OFFSET(0x9F59900)
-#define RPG_GAMECORE_SKILLDATA_GET_SPBASE_OFFSET UNITYSDK_OFFSET(0x9F5A010)
-#define RPG_GAMECORE_SKILLDATA_GET_SPECIALBUTTONTYPE_OFFSET UNITYSDK_OFFSET(0x9F5A380)
-#define RPG_GAMECORE_SKILLDATA_GET_SPMULTIPLERATIO_OFFSET UNITYSDK_OFFSET(0x9F59FC0)
-#define RPG_GAMECORE_SKILLDATA_GET_SPNEED_OFFSET UNITYSDK_OFFSET(0x9F59F70)
-#define RPG_GAMECORE_SKILLDATA_GET_TARGETINFO_OFFSET UNITYSDK_OFFSET(0x9F4BB90)
-#define RPG_GAMECORE_SKILLDATA_GET_TARGETTEAMTYPE_OFFSET UNITYSDK_OFFSET(0x9F5A0B0)
-#define RPG_GAMECORE_SKILLDATA_GET_UISKILLINDEX_OFFSET UNITYSDK_OFFSET(0x9F59D70)
-#define RPG_GAMECORE_SKILLDATA_HASMULTITARGETGROUP_OFFSET UNITYSDK_OFFSET(0x9F5AE90)
-#define RPG_GAMECORE_SKILLDATA_MODIFYPROPERTY_OFFSET UNITYSDK_OFFSET(0x9F54230)
-#define RPG_GAMECORE_SKILLDATA_REMOVETAGS_OFFSET UNITYSDK_OFFSET(0x9F5A8D0)
-#define RPG_GAMECORE_SKILLDATA_SETDEFAULTPROPERTY_OFFSET UNITYSDK_OFFSET(0x9F50520)
-#define RPG_GAMECORE_SKILLDATA_SETOVERRIDEPROPERTY_OFFSET UNITYSDK_OFFSET(0x9F5A600)
-#define RPG_GAMECORE_SKILLDATA_SET_SLOT_OFFSET UNITYSDK_OFFSET(0x9F5A440)
-#define RPG_GAMECORE_SKILLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9F50450)
+#define RPG_GAMECORE_SKILLDATA_ADDTAGS_OFFSET UNITYSDK_OFFSET(0xEF17A00)
+#define RPG_GAMECORE_SKILLDATA_GETAUTOSELECTPRIORITY_OFFSET UNITYSDK_OFFSET(0xEF17D60)
+#define RPG_GAMECORE_SKILLDATA_GETCUSTOMREADYCONFIG_OFFSET UNITYSDK_OFFSET(0xEF17E90)
+#define RPG_GAMECORE_SKILLDATA_GETPROPERTYVALUEIGNORESLOT_OFFSET UNITYSDK_OFFSET(0xEF17950)
+#define RPG_GAMECORE_SKILLDATA_GETPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0xEF0DAE0)
+#define RPG_GAMECORE_SKILLDATA_GETREADCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0xEF18030)
+#define RPG_GAMECORE_SKILLDATA_GETREADYANIMSTATE_OFFSET UNITYSDK_OFFSET(0xEF174D0)
+#define RPG_GAMECORE_SKILLDATA_GETREADYCUSTOMFORMATIONCONFIG_OFFSET UNITYSDK_OFFSET(0xEF17FC0)
+#define RPG_GAMECORE_SKILLDATA_GETUNUSABLECONDITIONRESULT_OFFSET UNITYSDK_OFFSET(0xEF0D710)
+#define RPG_GAMECORE_SKILLDATA_GET_ATTACKTYPE_OFFSET UNITYSDK_OFFSET(0xEF17360)
+#define RPG_GAMECORE_SKILLDATA_GET_BPADD_OFFSET UNITYSDK_OFFSET(0xEF16660)
+#define RPG_GAMECORE_SKILLDATA_GET_BPNEED_OFFSET UNITYSDK_OFFSET(0xEF0F550)
+#define RPG_GAMECORE_SKILLDATA_GET_CANTRAVERSALBYCOMPLEXSKILLAI_OFFSET UNITYSDK_OFFSET(0xEF17800)
+#define RPG_GAMECORE_SKILLDATA_GET_CHILDSKILLCOUNT_OFFSET UNITYSDK_OFFSET(0xEF0E4B0)
+#define RPG_GAMECORE_SKILLDATA_GET_CURRENTCTRLTYPE_OFFSET UNITYSDK_OFFSET(0xEF0CE20)
+#define RPG_GAMECORE_SKILLDATA_GET_CUSTOMSKILLBUTTONPREFABPATH_OFFSET UNITYSDK_OFFSET(0xEF175C0)
+#define RPG_GAMECORE_SKILLDATA_GET_DELAYRATIO_OFFSET UNITYSDK_OFFSET(0xEF17250)
+#define RPG_GAMECORE_SKILLDATA_GET_FINALAIULTRASKILLPRIORITY_OFFSET UNITYSDK_OFFSET(0xEF17870)
+#define RPG_GAMECORE_SKILLDATA_GET_FORBIDENHANCEEFFECT_OFFSET UNITYSDK_OFFSET(0xEF17630)
+#define RPG_GAMECORE_SKILLDATA_GET_ISINSERTCONDTIONMEET_OFFSET UNITYSDK_OFFSET(0xEF0D9F0)
+#define RPG_GAMECORE_SKILLDATA_GET_ISUSABLECONDITIONMEET_OFFSET UNITYSDK_OFFSET(0xEF0D5D0)
+#define RPG_GAMECORE_SKILLDATA_GET_ISVISABLECONDTIONMEET_OFFSET UNITYSDK_OFFSET(0xEF17720)
+#define RPG_GAMECORE_SKILLDATA_GET_LAYERTYPE_OFFSET UNITYSDK_OFFSET(0xEF0B230)
+#define RPG_GAMECORE_SKILLDATA_GET_READYANIMSTATE_OFFSET UNITYSDK_OFFSET(0xEF174C0)
+#define RPG_GAMECORE_SKILLDATA_GET_ROOTSKILLDATA_OFFSET UNITYSDK_OFFSET(0xEF177A0)
+#define RPG_GAMECORE_SKILLDATA_GET_SHOWASMENU_OFFSET UNITYSDK_OFFSET(0xEF17000)
+#define RPG_GAMECORE_SKILLDATA_GET_SKILLCOMBOVALUEDELTA_OFFSET UNITYSDK_OFFSET(0xEF17410)
+#define RPG_GAMECORE_SKILLDATA_GET_SKILLEFFECT_OFFSET UNITYSDK_OFFSET(0xEF0F600)
+#define RPG_GAMECORE_SKILLDATA_GET_SKILLLAYOUTKEY_OFFSET UNITYSDK_OFFSET(0xEF170E0)
+#define RPG_GAMECORE_SKILLDATA_GET_SLOT_OFFSET UNITYSDK_OFFSET(0xEF176A0)
+#define RPG_GAMECORE_SKILLDATA_GET_SPADD_OFFSET UNITYSDK_OFFSET(0xEF164A0)
+#define RPG_GAMECORE_SKILLDATA_GET_SPBASE_OFFSET UNITYSDK_OFFSET(0xEF17200)
+#define RPG_GAMECORE_SKILLDATA_GET_SPECIALBUTTONTYPE_OFFSET UNITYSDK_OFFSET(0xEF17560)
+#define RPG_GAMECORE_SKILLDATA_GET_SPMULTIPLERATIO_OFFSET UNITYSDK_OFFSET(0xEF171B0)
+#define RPG_GAMECORE_SKILLDATA_GET_SPNEED_OFFSET UNITYSDK_OFFSET(0xEF17160)
+#define RPG_GAMECORE_SKILLDATA_GET_TARGETINFO_OFFSET UNITYSDK_OFFSET(0xEF0FF90)
+#define RPG_GAMECORE_SKILLDATA_GET_TARGETTEAMTYPE_OFFSET UNITYSDK_OFFSET(0xEF172A0)
+#define RPG_GAMECORE_SKILLDATA_GET_UISKILLINDEX_OFFSET UNITYSDK_OFFSET(0xEF16F60)
+#define RPG_GAMECORE_SKILLDATA_HASMULTITARGETGROUP_OFFSET UNITYSDK_OFFSET(0xEF18190)
+#define RPG_GAMECORE_SKILLDATA_MODIFYPROPERTY_OFFSET UNITYSDK_OFFSET(0xEF0C1C0)
+#define RPG_GAMECORE_SKILLDATA_REMOVETAGS_OFFSET UNITYSDK_OFFSET(0xEF17BB0)
+#define RPG_GAMECORE_SKILLDATA_SETDEFAULTPROPERTY_OFFSET UNITYSDK_OFFSET(0xEF14C70)
+#define RPG_GAMECORE_SKILLDATA_SETOVERRIDEPROPERTY_OFFSET UNITYSDK_OFFSET(0xEF178D0)
+#define RPG_GAMECORE_SKILLDATA_SET_SLOT_OFFSET UNITYSDK_OFFSET(0xEF17710)
+#define RPG_GAMECORE_SKILLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xEF14BA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillData_TypeDefinitionIndex = 53168;
+	inline static constexpr unsigned int SkillData_TypeDefinitionIndex = 53879;
 
 	class SkillData : public ::System::Object
 	{
 	public:
-		::Class_1_5F51D4049EA87B7B* InsertCondTask; // 0x10
-		::RPG::GameCore::SkillData* ParentSkillData; // 0x18
-		::System::Collections::Generic::List_1<::Class_1_0BF70B7AEC57376C*>* UsableConditionDatas; // 0x20
-		::Class_1_EABAA0FA9B3BC305* _Slot; // 0x28
-		::RPG::GameCore::VCameraConfig* OverrideCameraConfigAdded; // 0x30
-		::Il2CppArray<::Class_1_5F51D4049EA87B7B*>* CustomReadyConfigConditions; // 0x38
-		::RPG::GameCore::VCameraConfig* OverrideCameraConfig; // 0x40
-		::Struct_2_4DC2836C459A264B ComplexAI; // 0x48
-		::RPG::GameCore::SkillConfig* Config; // 0x70
-		::RPG::GameCore::ICharacterSkillRowData* RowData; // 0x78
-		::System::String* SkillTriggerKey; // 0x80
-		::RPG::GameCore::SkillCharacterComponent* SkillCom; // 0x88
-		::System::Collections::Generic::HashSet_1<::RPG::GameCore::JsonEnum*>* Tags; // 0x90
-		::Class_1_5F51D4049EA87B7B* VisibleCondTask; // 0x98
-		::System::Collections::Generic::List_1<::RPG::GameCore::SkillData*>* AllChildSkillDatas; // 0xA0
-		::Il2CppArray<::Struct_2_1DBF01015A93DAF5>* _SkillProperties; // 0xA8
-		::RPG::GameCore::SkillTargetConfig* DefaultTargetInfo; // 0xB0
-		::System::String* OverrideAnimState; // 0xB8
-		::Il2CppArray<::Class_1_5F51D4049EA87B7B*>* PreshowConditions; // 0xC0
-		::RPG::GameCore::SkillTargetConfig* OverrideTargetInfo; // 0xC8
-		::Class_1_7C108062C171623D* SkillTypeOverride; // 0xD0
+		::Struct_2_165AEDBFDC2B5511 ComplexAI; // 0x10
+		::RPG::GameCore::VCameraConfig* OverrideCameraConfigAdded; // 0x38
+		::System::String* OverrideAnimState; // 0x40
+		::System::Collections::Generic::List_1<::RPG::GameCore::SkillData*>* AllChildSkillDatas; // 0x48
+		::Class_1_5F51D4049EA87B7B* VisibleCondTask; // 0x50
+		::System::Collections::Generic::HashSet_1<::RPG::GameCore::JsonEnum*>* Tags; // 0x58
+		::Il2CppArray<::Struct_2_1DBF01015A93DAF5>* _SkillProperties; // 0x60
+		::RPG::GameCore::ICharacterSkillRowData* RowData; // 0x68
+		::Il2CppArray<::Class_1_5F51D4049EA87B7B*>* PreshowConditions; // 0x70
+		::RPG::GameCore::SkillTargetConfig* DefaultTargetInfo; // 0x78
+		::RPG::GameCore::SkillTargetConfig* OverrideTargetInfo; // 0x80
+		::RPG::GameCore::SkillConfig* Config; // 0x88
+		::RPG::GameCore::SkillCharacterComponent* SkillCom; // 0x90
+		::Il2CppArray<::Class_1_5F51D4049EA87B7B*>* CustomReadyConfigConditions; // 0x98
+		::RPG::GameCore::VCameraConfig* OverrideCameraConfig; // 0xA0
+		::RPG::GameCore::SkillData* ParentSkillData; // 0xA8
+		::Class_1_BCDC191CF05491FA* _Slot; // 0xB0
+		::Class_1_5F51D4049EA87B7B* InsertCondTask; // 0xB8
+		::Class_1_DD56E792A2635894* SkillTypeOverride; // 0xC0
+		::System::Collections::Generic::List_1<::Class_1_0BF70B7AEC57376C*>* UsableConditionDatas; // 0xC8
+		::System::String* SkillTriggerKey; // 0xD0
 		::System::Int32 LeftCastTimes; // 0xD8
-		::System::Int32 ChildIndex; // 0xDC
-		::System::Int32 MaxCastTimes; // 0xE0
-		::System::UInt32 CommonActiveSkillID; // 0xE4
-		::System::Int32 CurrentCoolDown; // 0xE8
-		::RPG::GameCore::AttackDamageType AttackDamageTypePreshowAttach; // 0xEC
-		::System::Int32 DefaultCoolDown; // 0xF0
-		::System::Nullable_1<::System::Int32> OverrideAIUltraSkillPriority; // 0xF4
-		::System::Int32 SkillIndex; // 0xFC
-		::System::UInt32 SkillConfigID; // 0x100
+		::System::Int32 CurrentCoolDown; // 0xDC
+		::System::UInt32 SkillConfigID; // 0xE0
+		::RPG::GameCore::AttackDamageType AttackDamageTypePreshowAttach; // 0xE4
+		::System::Int32 ChildIndex; // 0xE8
+		::System::Int32 DefaultCoolDown; // 0xEC
+		::System::Int32 SkillIndex; // 0xF0
+		::System::UInt32 CommonActiveSkillID; // 0xF4
+		::System::Int32 MaxCastTimes; // 0xF8
+		::System::Nullable_1<::System::Int32> OverrideAIUltraSkillPriority; // 0xFC
 
 		::System::Void _ctor()
 		{
@@ -204,14 +206,24 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::SkillUISpecialButtonType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GET_SPECIALBUTTONTYPE_OFFSET))(this);
 		}
 
-		::Class_1_EABAA0FA9B3BC305* get_Slot()
+		::System::String* get_CustomSkillButtonPrefabPath()
 		{
-			return ((::Class_1_EABAA0FA9B3BC305*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GET_SLOT_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GET_CUSTOMSKILLBUTTONPREFABPATH_OFFSET))(this);
 		}
 
-		::System::Void set_Slot(::Class_1_EABAA0FA9B3BC305* value)
+		::System::Boolean get_ForbidEnhanceEffect()
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_EABAA0FA9B3BC305*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_SET_SLOT_OFFSET))(this, value);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GET_FORBIDENHANCEEFFECT_OFFSET))(this);
+		}
+
+		::Class_1_BCDC191CF05491FA* get_Slot()
+		{
+			return ((::Class_1_BCDC191CF05491FA*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GET_SLOT_OFFSET))(this);
+		}
+
+		::System::Void set_Slot(::Class_1_BCDC191CF05491FA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_BCDC191CF05491FA*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_SET_SLOT_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::ControlSkillType get_CurrentCtrlType()
@@ -264,39 +276,39 @@ namespace RPG::GameCore
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GET_FINALAIULTRASKILLPRIORITY_OFFSET))(this);
 		}
 
-		::System::Void SetDefaultProperty(::RPG::GameCore::SkillPropertyType propertyType, ::RPG::GameCore::FixPoint val)
+		::System::Void SetDefaultProperty(::RPG::GameCore::SkillPropertyType a1, ::RPG::GameCore::FixPoint a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillPropertyType, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_SETDEFAULTPROPERTY_OFFSET))(this, propertyType, val);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillPropertyType, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_SETDEFAULTPROPERTY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetOverrideProperty(::RPG::GameCore::SkillPropertyType propertyType, ::System::Nullable_1<::RPG::GameCore::FixPoint> val)
+		::System::Void SetOverrideProperty(::RPG::GameCore::SkillPropertyType a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillPropertyType, ::System::Nullable_1<::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_SETOVERRIDEPROPERTY_OFFSET))(this, propertyType, val);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillPropertyType, ::System::Nullable_1<::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_SETOVERRIDEPROPERTY_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::GameCore::FixPoint GetPropertyValueIgnoreSlot(::RPG::GameCore::SkillPropertyType propertyType)
+		::RPG::GameCore::FixPoint GetPropertyValueIgnoreSlot(::RPG::GameCore::SkillPropertyType a1)
 		{
-			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::GameCore::SkillPropertyType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GETPROPERTYVALUEIGNORESLOT_OFFSET))(this, propertyType);
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::GameCore::SkillPropertyType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GETPROPERTYVALUEIGNORESLOT_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::FixPoint GetPropertyValue(::RPG::GameCore::SkillPropertyType propertyType)
+		::RPG::GameCore::FixPoint GetPropertyValue(::RPG::GameCore::SkillPropertyType a1)
 		{
-			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::GameCore::SkillPropertyType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GETPROPERTYVALUE_OFFSET))(this, propertyType);
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::GameCore::SkillPropertyType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GETPROPERTYVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void ModifyProperty(::RPG::GameCore::SkillPropertyType propertyType, ::RPG::GameCore::SkillPropertyModifyType func, ::RPG::GameCore::FixPoint val)
+		::System::Void ModifyProperty(::RPG::GameCore::SkillPropertyType a1, ::RPG::GameCore::SkillPropertyModifyType a2, ::RPG::GameCore::FixPoint a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillPropertyType, ::RPG::GameCore::SkillPropertyModifyType, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_MODIFYPROPERTY_OFFSET))(this, propertyType, func, val);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillPropertyType, ::RPG::GameCore::SkillPropertyModifyType, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_MODIFYPROPERTY_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void AddTags(::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::JsonEnum*>* tags)
+		::System::Void AddTags(::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::JsonEnum*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::JsonEnum*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_ADDTAGS_OFFSET))(this, tags);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::JsonEnum*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_ADDTAGS_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveTags(::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::JsonEnum*>* tags)
+		::System::Void RemoveTags(::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::JsonEnum*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::JsonEnum*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_REMOVETAGS_OFFSET))(this, tags);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::JsonEnum*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_REMOVETAGS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetAutoSelectPriority()
@@ -319,9 +331,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::SkillCustomFormationConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GETREADYCUSTOMFORMATIONCONFIG_OFFSET))(this);
 		}
 
-		::System::Void GetReadCameraConfig(::RPG::GameCore::VCameraConfig*& cameraConfig, ::RPG::GameCore::VCameraConfig*& cameraConfigAdded)
+		::System::Void GetReadCameraConfig(::RPG::GameCore::VCameraConfig*& a1, ::RPG::GameCore::VCameraConfig*& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::VCameraConfig*&, ::RPG::GameCore::VCameraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GETREADCAMERACONFIG_OFFSET))(this, cameraConfig, cameraConfigAdded);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::VCameraConfig*&, ::RPG::GameCore::VCameraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GETREADCAMERACONFIG_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean HasMultiTargetGroup()

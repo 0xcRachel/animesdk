@@ -9,47 +9,47 @@ namespace System::Collections { class IEnumerable; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace XLua { class LuaEnv; }
 
-#define XLUA_LUATABLE_GETKEYS_OFFSET UNITYSDK_OFFSET(0x11BE5470)
-#define XLUA_LUATABLE_GET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x11BE5160)
-#define XLUA_LUATABLE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x11BE5100)
-#define XLUA_LUATABLE_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x11BE5220)
-#define XLUA_LUATABLE_PUSH_OFFSET UNITYSDK_OFFSET(0x11BE5860)
-#define XLUA_LUATABLE_SETMETATABLE_OFFSET UNITYSDK_OFFSET(0x11BE54F0)
-#define XLUA_LUATABLE_SET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x11BE51D0)
-#define XLUA_LUATABLE_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x11BE5110)
-#define XLUA_LUATABLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x11BE5910)
-#define XLUA_LUATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x11BE50F0)
+#define XLUA_LUATABLE_GETKEYS_OFFSET UNITYSDK_OFFSET(0xEDD3550)
+#define XLUA_LUATABLE_GET_ITEM_1_OFFSET UNITYSDK_OFFSET(0xEDD3240)
+#define XLUA_LUATABLE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xEDD31E0)
+#define XLUA_LUATABLE_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0xEDD3300)
+#define XLUA_LUATABLE_PUSH_OFFSET UNITYSDK_OFFSET(0xEDCF050)
+#define XLUA_LUATABLE_SETMETATABLE_OFFSET UNITYSDK_OFFSET(0xEDD35D0)
+#define XLUA_LUATABLE_SET_ITEM_1_OFFSET UNITYSDK_OFFSET(0xEDD32B0)
+#define XLUA_LUATABLE_SET_ITEM_OFFSET UNITYSDK_OFFSET(0xEDD31F0)
+#define XLUA_LUATABLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xEDD3940)
+#define XLUA_LUATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xEDD31D0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaTable_TypeDefinitionIndex = 46403;
+	inline static constexpr unsigned int LuaTable_TypeDefinitionIndex = 46993;
 
 	class LuaTable : public ::XLua::LuaBase
 	{
 	public:
-		::System::Void _ctor(::System::Int32 reference, ::XLua::LuaEnv* luaenv)
+		::System::Void _ctor(::System::Int32 a1, ::XLua::LuaEnv* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::XLua::LuaEnv*))((::PBYTE)hIl2Cpp + XLUA_LUATABLE__CTOR_OFFSET))(this, reference, luaenv);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::XLua::LuaEnv*))((::PBYTE)hIl2Cpp + XLUA_LUATABLE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Object* get_Item(::System::String* field)
+		::System::Object* get_Item(::System::String* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + XLUA_LUATABLE_GET_ITEM_OFFSET))(this, field);
+			return ((::System::Object*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + XLUA_LUATABLE_GET_ITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Item(::System::String* field, ::System::Object* value)
+		::System::Void set_Item(::System::String* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_LUATABLE_SET_ITEM_OFFSET))(this, field, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_LUATABLE_SET_ITEM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Object* get_Item_1(::System::Object* field)
+		::System::Object* get_Item_1(::System::Object* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_LUATABLE_GET_ITEM_1_OFFSET))(this, field);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_LUATABLE_GET_ITEM_1_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Item_1(::System::Object* field, ::System::Object* value)
+		::System::Void set_Item_1(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_LUATABLE_SET_ITEM_1_OFFSET))(this, field, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_LUATABLE_SET_ITEM_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_Length()
@@ -62,14 +62,14 @@ namespace XLua
 			return ((::System::Collections::IEnumerable*(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_LUATABLE_GETKEYS_OFFSET))(this);
 		}
 
-		::System::Void SetMetaTable(::XLua::LuaTable* metaTable)
+		::System::Void SetMetaTable(::XLua::LuaTable* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + XLUA_LUATABLE_SETMETATABLE_OFFSET))(this, metaTable);
+			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + XLUA_LUATABLE_SETMETATABLE_OFFSET))(this, a1);
 		}
 
-		::System::Void push(::System::IntPtr L)
+		::System::Void push(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_LUATABLE_PUSH_OFFSET))(this, L);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_LUATABLE_PUSH_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsEnableNegativeHP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_194280E7AA3591AB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB07BA80)
-#define CLASS_3_194280E7AA3591AB__CTOR_OFFSET UNITYSDK_OFFSET(0xB07BA50)
+#define CLASS_3_194280E7AA3591AB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15D3BA80)
+#define CLASS_3_194280E7AA3591AB__CTOR_OFFSET UNITYSDK_OFFSET(0x15D3BA50)
 
-inline static constexpr unsigned int Class_3_194280E7AA3591AB_TypeDefinitionIndex = 50749;
+inline static constexpr unsigned int Class_3_194280E7AA3591AB_TypeDefinitionIndex = 51417;
 
 class Class_3_194280E7AA3591AB : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsEnableNegativeHP*>
 {

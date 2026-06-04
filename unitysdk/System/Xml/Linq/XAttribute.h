@@ -8,35 +8,35 @@ namespace System { class String; }
 namespace System::Xml::Linq { class XName; }
 namespace System::Xml::Linq { class XNamespace; }
 
-#define SYSTEM_XML_LINQ_XATTRIBUTE_GETPREFIXOFNAMESPACE_OFFSET UNITYSDK_OFFSET(0x1A62EBB0)
-#define SYSTEM_XML_LINQ_XATTRIBUTE_GET_ISNAMESPACEDECLARATION_OFFSET UNITYSDK_OFFSET(0x1A62CC70)
-#define SYSTEM_XML_LINQ_XATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1A62E840)
-#define SYSTEM_XML_LINQ_XATTRIBUTE_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1A62E850)
-#define SYSTEM_XML_LINQ_XATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A62E860)
-#define SYSTEM_XML_LINQ_XATTRIBUTE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A62E870)
-#define SYSTEM_XML_LINQ_XATTRIBUTE_VALIDATEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1A62E3C0)
-#define SYSTEM_XML_LINQ_XATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A62E7C0)
-#define SYSTEM_XML_LINQ_XATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A62DD30)
+#define SYSTEM_XML_LINQ_XATTRIBUTE_GETPREFIXOFNAMESPACE_OFFSET UNITYSDK_OFFSET(0x1B438F70)
+#define SYSTEM_XML_LINQ_XATTRIBUTE_GET_ISNAMESPACEDECLARATION_OFFSET UNITYSDK_OFFSET(0x1B436FD0)
+#define SYSTEM_XML_LINQ_XATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B438BA0)
+#define SYSTEM_XML_LINQ_XATTRIBUTE_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1B438BB0)
+#define SYSTEM_XML_LINQ_XATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1B438BC0)
+#define SYSTEM_XML_LINQ_XATTRIBUTE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B438BD0)
+#define SYSTEM_XML_LINQ_XATTRIBUTE_VALIDATEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1B438720)
+#define SYSTEM_XML_LINQ_XATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B438B20)
+#define SYSTEM_XML_LINQ_XATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B438090)
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XAttribute_TypeDefinitionIndex = 4928;
+	inline static constexpr unsigned int XAttribute_TypeDefinitionIndex = 3895;
 
 	class XAttribute : public ::System::Xml::Linq::XObject
 	{
 	public:
-		::System::Xml::Linq::XName* name; // 0x20
+		::System::String* value; // 0x20
 		::System::Xml::Linq::XAttribute* next; // 0x28
-		::System::String* value; // 0x30
+		::System::Xml::Linq::XName* name; // 0x30
 
-		::System::Void _ctor(::System::Xml::Linq::XName* name, ::System::Object* value)
+		::System::Void _ctor(::System::Xml::Linq::XName* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XName*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XATTRIBUTE__CTOR_OFFSET))(this, name, value);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XName*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XATTRIBUTE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::System::Xml::Linq::XAttribute* other)
+		::System::Void _ctor_1(::System::Xml::Linq::XAttribute* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XAttribute*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XATTRIBUTE__CTOR_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XAttribute*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XATTRIBUTE__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsNamespaceDeclaration()
@@ -64,14 +64,14 @@ namespace System::Xml::Linq
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XATTRIBUTE_TOSTRING_OFFSET))(this);
 		}
 
-		::System::String* GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* ns)
+		::System::String* GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Xml::Linq::XNamespace*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XATTRIBUTE_GETPREFIXOFNAMESPACE_OFFSET))(this, ns);
+			return ((::System::String*(*)(::PVOID, ::System::Xml::Linq::XNamespace*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XATTRIBUTE_GETPREFIXOFNAMESPACE_OFFSET))(this, a1);
 		}
 
-		static ::System::Void ValidateAttribute(::System::Xml::Linq::XName* name, ::System::String* value)
+		static ::System::Void ValidateAttribute(::System::Xml::Linq::XName* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::Xml::Linq::XName*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XATTRIBUTE_VALIDATEATTRIBUTE_OFFSET))(name, value);
+			return ((::System::Void(*)(::System::Xml::Linq::XName*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XATTRIBUTE_VALIDATEATTRIBUTE_OFFSET))(a1, a2);
 		}
 	};
 }

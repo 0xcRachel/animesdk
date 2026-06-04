@@ -7,27 +7,27 @@
 namespace RPG::GameCore { class FuncUnlockHintRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_FUNCUNLOCKHINT_CREATE_OFFSET UNITYSDK_OFFSET(0x15502A40)
-#define RPG_CLIENT_FUNCUNLOCKHINT_GET_DESC_OFFSET UNITYSDK_OFFSET(0x15502C80)
-#define RPG_CLIENT_FUNCUNLOCKHINT_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x15502CB0)
-#define RPG_CLIENT_FUNCUNLOCKHINT_GET_SUBTITLE_OFFSET UNITYSDK_OFFSET(0x15502C50)
-#define RPG_CLIENT_FUNCUNLOCKHINT_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x15502C20)
-#define RPG_CLIENT_FUNCUNLOCKHINT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15502C00)
-#define RPG_CLIENT_FUNCUNLOCKHINT_GET_UNLOCKID_OFFSET UNITYSDK_OFFSET(0x15502BE0)
-#define RPG_CLIENT_FUNCUNLOCKHINT__CTOR_OFFSET UNITYSDK_OFFSET(0x15502CD0)
+#define RPG_CLIENT_FUNCUNLOCKHINT_CREATE_OFFSET UNITYSDK_OFFSET(0x15FF8C30)
+#define RPG_CLIENT_FUNCUNLOCKHINT_GET_DESC_OFFSET UNITYSDK_OFFSET(0x15FF8E70)
+#define RPG_CLIENT_FUNCUNLOCKHINT_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x15FF8EA0)
+#define RPG_CLIENT_FUNCUNLOCKHINT_GET_SUBTITLE_OFFSET UNITYSDK_OFFSET(0x15FF8E40)
+#define RPG_CLIENT_FUNCUNLOCKHINT_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x15FF8E10)
+#define RPG_CLIENT_FUNCUNLOCKHINT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15FF8DF0)
+#define RPG_CLIENT_FUNCUNLOCKHINT_GET_UNLOCKID_OFFSET UNITYSDK_OFFSET(0x15FF8DD0)
+#define RPG_CLIENT_FUNCUNLOCKHINT__CTOR_OFFSET UNITYSDK_OFFSET(0x15FF8EC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FuncUnlockHint_TypeDefinitionIndex = 62704;
+	inline static constexpr unsigned int FuncUnlockHint_TypeDefinitionIndex = 63637;
 
 	class FuncUnlockHint : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::FuncUnlockHintRow* _Meta; // 0x10
 
-		::System::Void _ctor(::RPG::GameCore::FuncUnlockHintRow* meta)
+		::System::Void _ctor(::RPG::GameCore::FuncUnlockHintRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FuncUnlockHintRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FUNCUNLOCKHINT__CTOR_OFFSET))(this, meta);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FuncUnlockHintRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FUNCUNLOCKHINT__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_UnlockID()
@@ -60,9 +60,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FUNCUNLOCKHINT_GET_ICONPATH_OFFSET))(this);
 		}
 
-		static ::RPG::Client::FuncUnlockHint* Create(::System::UInt32 unlockID)
+		static ::RPG::Client::FuncUnlockHint* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::FuncUnlockHint*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FUNCUNLOCKHINT_CREATE_OFFSET))(unlockID);
+			return ((::RPG::Client::FuncUnlockHint*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FUNCUNLOCKHINT_CREATE_OFFSET))(a1);
 		}
 	};
 }

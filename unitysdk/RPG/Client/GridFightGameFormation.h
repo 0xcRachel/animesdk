@@ -2,137 +2,137 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/Core/ObservableObject.h"
 
-class Class_0_16E4307DCC419505_727;
-class Class_1_3CCCD675D7774146;
-class Class_2_181F61C600ECA68B;
+class Class_0_16E4307DCC419505_778;
+class Class_1_554535650EEC6F9F;
 namespace RPG::Client { class GridFightEquipItemData; }
+namespace RPG::Client { class GridFightFormationRole; }
 namespace RPG::Client { class GridFightFormationTeam; }
 namespace RPG::Client { class GridFightGameFormationEditor; }
 namespace RPG::Client { class GridFightGameRefData; }
 namespace RPG::Client { class GridFightGameRefExpiredSummary; }
 namespace RPG::Client { class GridFightRole; }
 namespace RPG::Client { class GridFightSeasonRole; }
+namespace Sofa::Core { template <typename T> class ObservableList_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
-template <typename T> class Class_3_2A6530038D51A41A;
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x174DA020)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_EXPORTSHARECODE_OFFSET UNITYSDK_OFFSET(0x174DA500)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETBASICRECOMMENDEQUIP_OFFSET UNITYSDK_OFFSET(0x174DE890)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETCOPY_OFFSET UNITYSDK_OFFSET(0x174DCFB0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETEDITOR_OFFSET UNITYSDK_OFFSET(0x174DE260)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETEQUIPIDFROMPALETTE_OFFSET UNITYSDK_OFFSET(0x174D9B40)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETEQUIPPALETTEINDEX_OFFSET UNITYSDK_OFFSET(0x174D9A60)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETRECOMMENDEQUIPS_OFFSET UNITYSDK_OFFSET(0x174DF590)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETRECOMMENDEQUIP_OFFSET UNITYSDK_OFFSET(0x174DE6E0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETROLEIDFROMPALETTE_OFFSET UNITYSDK_OFFSET(0x174D9970)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETROLEPALETTEINDEX_OFFSET UNITYSDK_OFFSET(0x174D9890)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETSHARECODETITLE_OFFSET UNITYSDK_OFFSET(0x174DB6A0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_COREROLEIDS_OFFSET UNITYSDK_OFFSET(0x174DDDC0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x174DDDB0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_EARLYROLES_OFFSET UNITYSDK_OFFSET(0x174DEE60)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_EARLYTEAM_OFFSET UNITYSDK_OFFSET(0x174DF2B0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_EXPIREDSUMMARY_OFFSET UNITYSDK_OFFSET(0x174D9190)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_FINALROLES_OFFSET UNITYSDK_OFFSET(0x174DEE40)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_FINALTEAM_OFFSET UNITYSDK_OFFSET(0x174DF190)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_FROMREFID_OFFSET UNITYSDK_OFFSET(0x174DF160)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_FROMREF_OFFSET UNITYSDK_OFFSET(0x174DF180)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_ISAPPLIED_OFFSET UNITYSDK_OFFSET(0x174DF5F0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x174DEE90)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_ISPALETTEREADY_OFFSET UNITYSDK_OFFSET(0x174D97F0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_MAINROLES_OFFSET UNITYSDK_OFFSET(0x174DF340)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_MIDROLES_OFFSET UNITYSDK_OFFSET(0x174DEE50)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_MIDTEAM_OFFSET UNITYSDK_OFFSET(0x174DF220)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_ORDEREDRECOMMENDBASICEQUIPIDS_OFFSET UNITYSDK_OFFSET(0x174DEE70)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_ORDEREDRECOMMENDEQUIPIDS_OFFSET UNITYSDK_OFFSET(0x174DEE80)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_RECOMMENDBASICEQUIPS_OFFSET UNITYSDK_OFFSET(0x174DEA40)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_RECOMMENDEQUIPS_OFFSET UNITYSDK_OFFSET(0x174DEC30)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_SEASONUID_OFFSET UNITYSDK_OFFSET(0x174DF140)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x174DEE20)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x174DDDA0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_HASANYEQUIPTOTRACK_OFFSET UNITYSDK_OFFSET(0x174DBAD0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_IMPORTREF_OFFSET UNITYSDK_OFFSET(0x174DBDB0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_IMPORTSHARECODE_OFFSET UNITYSDK_OFFSET(0x174DA910)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_INITSHARECODEPALETTE_OFFSET UNITYSDK_OFFSET(0x174D9210)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_ISREFERENCED_OFFSET UNITYSDK_OFFSET(0x174DDDD0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_ISROLEMAIN_OFFSET UNITYSDK_OFFSET(0x174DF520)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x174D9C30)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_COREROLEIDS_OFFSET UNITYSDK_OFFSET(0x174DC700)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x174DC670)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_FROMREFID_OFFSET UNITYSDK_OFFSET(0x174DF170)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_SEASONUID_OFFSET UNITYSDK_OFFSET(0x174DF150)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x174DEE30)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_TITLE_OFFSET UNITYSDK_OFFSET(0x174DB610)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_UPDATETOSERVER_OFFSET UNITYSDK_OFFSET(0x174DCEC0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION__ADDROLESTO_OFFSET UNITYSDK_OFFSET(0x174DC790)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x174DF6C0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION__CLEAR_OFFSET UNITYSDK_OFFSET(0x174DB150)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION__CLIPTEXTWITHUNICODELENGTH_OFFSET UNITYSDK_OFFSET(0x174DBC10)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION__COMPRESS_OFFSET UNITYSDK_OFFSET(0x174DA6D0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION__COPYROLESTO_OFFSET UNITYSDK_OFFSET(0x174DD8E0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x174DB890)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION__DECOMPRESS_OFFSET UNITYSDK_OFFSET(0x174DADD0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION__IMPORTREF_B__29_0_OFFSET UNITYSDK_OFFSET(0x174DF740)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION__IMPORTREF_B__29_1_OFFSET UNITYSDK_OFFSET(0x174DF9F0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x18D24250)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_EXPORTSHARECODE_OFFSET UNITYSDK_OFFSET(0x18D24730)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETBASICRECOMMENDEQUIP_OFFSET UNITYSDK_OFFSET(0x18D29940)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETCOPY_OFFSET UNITYSDK_OFFSET(0x18D27CE0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETEDITOR_OFFSET UNITYSDK_OFFSET(0x18D29320)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETEQUIPIDFROMPALETTE_OFFSET UNITYSDK_OFFSET(0x18D23D30)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETEQUIPPALETTEINDEX_OFFSET UNITYSDK_OFFSET(0x18D23C60)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETRECOMMENDEQUIPS_OFFSET UNITYSDK_OFFSET(0x18D2A750)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETRECOMMENDEQUIP_OFFSET UNITYSDK_OFFSET(0x18D29780)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETROLEIDFROMPALETTE_OFFSET UNITYSDK_OFFSET(0x18D23B30)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETROLEPALETTEINDEX_OFFSET UNITYSDK_OFFSET(0x18D23A60)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETSHARECODETITLE_OFFSET UNITYSDK_OFFSET(0x18D25990)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_COREROLEIDS_OFFSET UNITYSDK_OFFSET(0x18D28CB0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x18D28CA0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_EARLYROLES_OFFSET UNITYSDK_OFFSET(0x18D29FC0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_EARLYTEAM_OFFSET UNITYSDK_OFFSET(0x18D2A450)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_EXPIREDSUMMARY_OFFSET UNITYSDK_OFFSET(0x18D22AB0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_FINALROLES_OFFSET UNITYSDK_OFFSET(0x18D29FA0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_FINALTEAM_OFFSET UNITYSDK_OFFSET(0x18D2A330)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_FROMREFID_OFFSET UNITYSDK_OFFSET(0x18D2A300)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_FROMREF_OFFSET UNITYSDK_OFFSET(0x18D2A320)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_ISAPPLIED_OFFSET UNITYSDK_OFFSET(0x18D2A7B0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x18D29FF0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_ISPALETTEREADY_OFFSET UNITYSDK_OFFSET(0x18D239C0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_MAINROLES_OFFSET UNITYSDK_OFFSET(0x18D2A4E0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_MIDROLES_OFFSET UNITYSDK_OFFSET(0x18D29FB0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_MIDTEAM_OFFSET UNITYSDK_OFFSET(0x18D2A3C0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_ORDEREDRECOMMENDBASICEQUIPIDS_OFFSET UNITYSDK_OFFSET(0x18D29FD0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_ORDEREDRECOMMENDEQUIPIDS_OFFSET UNITYSDK_OFFSET(0x18D29FE0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_RECOMMENDBASICEQUIPS_OFFSET UNITYSDK_OFFSET(0x18D29B00)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_RECOMMENDEQUIPS_OFFSET UNITYSDK_OFFSET(0x18D29D40)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_SEASONUID_OFFSET UNITYSDK_OFFSET(0x18D2A2E0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x18D29F80)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x18D28C90)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_HASANYEQUIPTOTRACK_OFFSET UNITYSDK_OFFSET(0x18D25EC0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_IMPORTREF_OFFSET UNITYSDK_OFFSET(0x18D26260)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_IMPORTSHARECODE_OFFSET UNITYSDK_OFFSET(0x18D24BA0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_INITSHARECODEPALETTE_OFFSET UNITYSDK_OFFSET(0x18D232A0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_ISREFERENCED_OFFSET UNITYSDK_OFFSET(0x18D28CC0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_ISROLEMAIN_OFFSET UNITYSDK_OFFSET(0x18D2A6E0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x18D23E60)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_COREROLEIDS_OFFSET UNITYSDK_OFFSET(0x18D26C60)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x18D26BB0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_FROMREFID_OFFSET UNITYSDK_OFFSET(0x18D2A310)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_SEASONUID_OFFSET UNITYSDK_OFFSET(0x18D2A2F0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x18D29F90)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_TITLE_OFFSET UNITYSDK_OFFSET(0x18D25900)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION_UPDATETOSERVER_OFFSET UNITYSDK_OFFSET(0x18D27BF0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION__ADDROLESTO_OFFSET UNITYSDK_OFFSET(0x18D273E0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D2A880)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION__CLEAR_OFFSET UNITYSDK_OFFSET(0x18D25440)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION__CLIPTEXTWITHUNICODELENGTH_OFFSET UNITYSDK_OFFSET(0x18D260C0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION__COMPRESS_OFFSET UNITYSDK_OFFSET(0x18D24900)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION__COPYROLESTO_OFFSET UNITYSDK_OFFSET(0x18D28780)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x18D25B50)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION__DECOMPRESS_OFFSET UNITYSDK_OFFSET(0x18D25050)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION__IMPORTREF_B__29_0_OFFSET UNITYSDK_OFFSET(0x18D2A8E0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATION__IMPORTREF_B__29_1_OFFSET UNITYSDK_OFFSET(0x18D2AB80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormation_TypeDefinitionIndex = 59530;
+	inline static constexpr unsigned int GridFightGameFormation_TypeDefinitionIndex = 60465;
 
 	class GridFightGameFormation : public ::Sofa::Core::ObservableObject
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>** StaticGet__RoleIndexMap()
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>** StaticGet__EquipIndexMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormation_TypeDefinitionIndex)->GetStaticField(0x24F20);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormation_TypeDefinitionIndex)->GetStaticField(0x2C020);
+		}
+		static ::Class_0_16E4307DCC419505_778** StaticGet__ShareSerializerV2()
+		{
+			return (::Class_0_16E4307DCC419505_778**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormation_TypeDefinitionIndex)->GetStaticField(0x2C028);
 		}
 		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet__EquipPalette()
 		{
-			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormation_TypeDefinitionIndex)->GetStaticField(0x24F28);
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormation_TypeDefinitionIndex)->GetStaticField(0x2C030);
 		}
-		static ::Class_0_16E4307DCC419505_727** StaticGet__ShareSerializerV1()
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>** StaticGet__RoleIndexMap()
 		{
-			return (::Class_0_16E4307DCC419505_727**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormation_TypeDefinitionIndex)->GetStaticField(0x24F30);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormation_TypeDefinitionIndex)->GetStaticField(0x2C038);
 		}
-		static ::Class_0_16E4307DCC419505_727** StaticGet__ShareSerializerV2()
+		static ::Class_0_16E4307DCC419505_778** StaticGet__ShareSerializerV1()
 		{
-			return (::Class_0_16E4307DCC419505_727**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormation_TypeDefinitionIndex)->GetStaticField(0x24F38);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>** StaticGet__EquipIndexMap()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormation_TypeDefinitionIndex)->GetStaticField(0x24F40);
+			return (::Class_0_16E4307DCC419505_778**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormation_TypeDefinitionIndex)->GetStaticField(0x2C040);
 		}
 		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet__RolePalette()
 		{
-			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormation_TypeDefinitionIndex)->GetStaticField(0x24F48);
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormation_TypeDefinitionIndex)->GetStaticField(0x2C048);
 		}
-		static ::Class_0_16E4307DCC419505_727** StaticGet__ShareSerializerV3()
+		static ::Class_0_16E4307DCC419505_778** StaticGet__ShareSerializerV3()
 		{
-			return (::Class_0_16E4307DCC419505_727**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormation_TypeDefinitionIndex)->GetStaticField(0x24F50);
+			return (::Class_0_16E4307DCC419505_778**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormation_TypeDefinitionIndex)->GetStaticField(0x2C050);
 		}
 		static ::System::Boolean* StaticGet_UseV3ShareCode()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormation_TypeDefinitionIndex)->GetStaticField(0x7530);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormation_TypeDefinitionIndex)->GetStaticField(0x9C00);
 		}
 		// static const ::System::String* ShareCodeDataPrefix; // 0x0
 		// static const ::System::String* ShareCodeDataSuffix; // 0x0
-		::Class_3_2A6530038D51A41A<::System::UInt32>* _OrderedRecommendBasicEquipIDs_k__BackingField; // 0x18
-		::System::String* _FromRefID_k__BackingField; // 0x20
-		::Class_1_3CCCD675D7774146* _MidRoles_k__BackingField; // 0x28
-		::Class_1_3CCCD675D7774146* _FinalRoles_k__BackingField; // 0x30
-		::Class_1_3CCCD675D7774146* _EarlyRoles_k__BackingField; // 0x38
-		::System::String* _Title; // 0x40
-		::System::String* _Description; // 0x48
-		::Class_3_2A6530038D51A41A<::System::UInt32>* _OrderedRecommendEquipIDs_k__BackingField; // 0x50
-		::Il2CppArray<::System::UInt32>* _CoreRoleIDs; // 0x58
+		::Class_1_554535650EEC6F9F* _MidRoles_k__BackingField; // 0x18
+		::System::String* _Description; // 0x20
+		::Sofa::Core::ObservableList_1<::System::UInt32>* _OrderedRecommendBasicEquipIDs_k__BackingField; // 0x28
+		::Sofa::Core::ObservableList_1<::System::UInt32>* _OrderedRecommendEquipIDs_k__BackingField; // 0x30
+		::Class_1_554535650EEC6F9F* _EarlyRoles_k__BackingField; // 0x38
+		::Class_1_554535650EEC6F9F* _FinalRoles_k__BackingField; // 0x40
+		::Il2CppArray<::System::UInt32>* _CoreRoleIDs; // 0x48
+		::System::String* _FromRefID_k__BackingField; // 0x50
+		::System::String* _Title; // 0x58
 		::System::UInt32 _SlotIndex_k__BackingField; // 0x60
 		::System::UInt32 _SeasonUID_k__BackingField; // 0x64
 
-		::System::Void _ctor(::System::UInt32 slotIndex)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION__CTOR_OFFSET))(this, slotIndex);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION__CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -155,24 +155,24 @@ namespace RPG::Client
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_ISPALETTEREADY_OFFSET))();
 		}
 
-		static ::System::Int32 GetRolePaletteIndex(::System::UInt32 roleID)
+		static ::System::Int32 GetRolePaletteIndex(::System::UInt32 a1)
 		{
-			return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETROLEPALETTEINDEX_OFFSET))(roleID);
+			return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETROLEPALETTEINDEX_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetRoleIDFromPalette(::System::Int32 index)
+		static ::System::UInt32 GetRoleIDFromPalette(::System::Int32 a1)
 		{
-			return ((::System::UInt32(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETROLEIDFROMPALETTE_OFFSET))(index);
+			return ((::System::UInt32(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETROLEIDFROMPALETTE_OFFSET))(a1);
 		}
 
-		static ::System::Int32 GetEquipPaletteIndex(::System::UInt32 equipID)
+		static ::System::Int32 GetEquipPaletteIndex(::System::UInt32 a1)
 		{
-			return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETEQUIPPALETTEINDEX_OFFSET))(equipID);
+			return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETEQUIPPALETTEINDEX_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetEquipIDFromPalette(::System::Int32 index)
+		static ::System::UInt32 GetEquipIDFromPalette(::System::Int32 a1)
 		{
-			return ((::System::UInt32(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETEQUIPIDFROMPALETTE_OFFSET))(index);
+			return ((::System::UInt32(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETEQUIPIDFROMPALETTE_OFFSET))(a1);
 		}
 
 		::Il2CppArray<::System::Byte>* Serialize()
@@ -180,9 +180,9 @@ namespace RPG::Client
 			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SERIALIZE_OFFSET))(this);
 		}
 
-		::System::Void Deserialize(::Il2CppArray<::System::Byte>* data)
+		::System::Void Deserialize(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_DESERIALIZE_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_DESERIALIZE_OFFSET))(this, a1);
 		}
 
 		::System::String* ExportShareCode()
@@ -190,24 +190,24 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_EXPORTSHARECODE_OFFSET))(this);
 		}
 
-		::System::Boolean ImportShareCode(::System::String* shareCode)
+		::System::Boolean ImportShareCode(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_IMPORTSHARECODE_OFFSET))(this, shareCode);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_IMPORTSHARECODE_OFFSET))(this, a1);
 		}
 
-		static ::System::String* GetShareCodeTitle(::System::String* content)
+		static ::System::String* GetShareCodeTitle(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETSHARECODETITLE_OFFSET))(content);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETSHARECODETITLE_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::System::Byte>* _Compress(::Il2CppArray<::System::Byte>* raw)
+		static ::Il2CppArray<::System::Byte>* _Compress(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION__COMPRESS_OFFSET))(raw);
+			return ((::Il2CppArray<::System::Byte>*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION__COMPRESS_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::System::Byte>* _Decompress(::Il2CppArray<::System::Byte>* compressed)
+		static ::Il2CppArray<::System::Byte>* _Decompress(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION__DECOMPRESS_OFFSET))(compressed);
+			return ((::Il2CppArray<::System::Byte>*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION__DECOMPRESS_OFFSET))(a1);
 		}
 
 		::System::Boolean HasAnyEquipToTrack()
@@ -215,14 +215,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_HASANYEQUIPTOTRACK_OFFSET))(this);
 		}
 
-		::System::String* _ClipTextWithUnicodeLength(::System::String* text, ::System::Int32 maxLength)
+		::System::String* _ClipTextWithUnicodeLength(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION__CLIPTEXTWITHUNICODELENGTH_OFFSET))(this, text, maxLength);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION__CLIPTEXTWITHUNICODELENGTH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ImportRef(::RPG::Client::GridFightGameRefData* refData)
+		::System::Void ImportRef(::RPG::Client::GridFightGameRefData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightGameRefData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_IMPORTREF_OFFSET))(this, refData);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightGameRefData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_IMPORTREF_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateToServer()
@@ -235,9 +235,9 @@ namespace RPG::Client
 			return ((::RPG::Client::GridFightGameFormation*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETCOPY_OFFSET))(this);
 		}
 
-		::System::Void set_Title(::System::String* value)
+		::System::Void set_Title(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_TITLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_TITLE_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Title()
@@ -250,9 +250,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_DESCRIPTION_OFFSET))(this);
 		}
 
-		::System::Void set_Description(::System::String* value)
+		::System::Void set_Description(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_DESCRIPTION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_DESCRIPTION_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::UInt32>* get_CoreRoleIDs()
@@ -260,24 +260,24 @@ namespace RPG::Client
 			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_COREROLEIDS_OFFSET))(this);
 		}
 
-		::System::Void set_CoreRoleIDs(::Il2CppArray<::System::UInt32>* value)
+		::System::Void set_CoreRoleIDs(::Il2CppArray<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_COREROLEIDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_COREROLEIDS_OFFSET))(this, a1);
 		}
 
-		::System::Void _AddRolesTo(::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightSeasonRole*>* roles, ::Class_1_3CCCD675D7774146* formation)
+		::System::Void _AddRolesTo(::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightSeasonRole*>* a1, ::Class_1_554535650EEC6F9F* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightSeasonRole*>*, ::Class_1_3CCCD675D7774146*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION__ADDROLESTO_OFFSET))(this, roles, formation);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightSeasonRole*>*, ::Class_1_554535650EEC6F9F*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION__ADDROLESTO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _CopyRolesTo(::System::Collections::Generic::IEnumerable_1<::Class_2_181F61C600ECA68B*>* roles, ::Class_1_3CCCD675D7774146* formation)
+		::System::Void _CopyRolesTo(::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightFormationRole*>* a1, ::Class_1_554535650EEC6F9F* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Class_2_181F61C600ECA68B*>*, ::Class_1_3CCCD675D7774146*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION__COPYROLESTO_OFFSET))(this, roles, formation);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightFormationRole*>*, ::Class_1_554535650EEC6F9F*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION__COPYROLESTO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsReferenced(::System::UInt32 roleID)
+		::System::Boolean IsReferenced(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_ISREFERENCED_OFFSET))(this, roleID);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_ISREFERENCED_OFFSET))(this, a1);
 		}
 
 		::System::Void _Clear()
@@ -290,14 +290,14 @@ namespace RPG::Client
 			return ((::RPG::Client::GridFightGameFormationEditor*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETEDITOR_OFFSET))(this);
 		}
 
-		::RPG::Client::GridFightEquipItemData* GetRecommendEquip(::System::Int32 order)
+		::RPG::Client::GridFightEquipItemData* GetRecommendEquip(::System::Int32 a1)
 		{
-			return ((::RPG::Client::GridFightEquipItemData*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETRECOMMENDEQUIP_OFFSET))(this, order);
+			return ((::RPG::Client::GridFightEquipItemData*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETRECOMMENDEQUIP_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::GridFightEquipItemData* GetBasicRecommendEquip(::System::Int32 order)
+		::RPG::Client::GridFightEquipItemData* GetBasicRecommendEquip(::System::Int32 a1)
 		{
-			return ((::RPG::Client::GridFightEquipItemData*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETBASICRECOMMENDEQUIP_OFFSET))(this, order);
+			return ((::RPG::Client::GridFightEquipItemData*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETBASICRECOMMENDEQUIP_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipItemData*>* get_RecommendBasicEquips()
@@ -315,34 +315,34 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_SLOTINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_SlotIndex(::System::UInt32 value)
+		::System::Void set_SlotIndex(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_SLOTINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_SLOTINDEX_OFFSET))(this, a1);
 		}
 
-		::Class_1_3CCCD675D7774146* get_FinalRoles()
+		::Class_1_554535650EEC6F9F* get_FinalRoles()
 		{
-			return ((::Class_1_3CCCD675D7774146*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_FINALROLES_OFFSET))(this);
+			return ((::Class_1_554535650EEC6F9F*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_FINALROLES_OFFSET))(this);
 		}
 
-		::Class_1_3CCCD675D7774146* get_MidRoles()
+		::Class_1_554535650EEC6F9F* get_MidRoles()
 		{
-			return ((::Class_1_3CCCD675D7774146*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_MIDROLES_OFFSET))(this);
+			return ((::Class_1_554535650EEC6F9F*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_MIDROLES_OFFSET))(this);
 		}
 
-		::Class_1_3CCCD675D7774146* get_EarlyRoles()
+		::Class_1_554535650EEC6F9F* get_EarlyRoles()
 		{
-			return ((::Class_1_3CCCD675D7774146*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_EARLYROLES_OFFSET))(this);
+			return ((::Class_1_554535650EEC6F9F*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_EARLYROLES_OFFSET))(this);
 		}
 
-		::Class_3_2A6530038D51A41A<::System::UInt32>* get_OrderedRecommendBasicEquipIDs()
+		::Sofa::Core::ObservableList_1<::System::UInt32>* get_OrderedRecommendBasicEquipIDs()
 		{
-			return ((::Class_3_2A6530038D51A41A<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_ORDEREDRECOMMENDBASICEQUIPIDS_OFFSET))(this);
+			return ((::Sofa::Core::ObservableList_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_ORDEREDRECOMMENDBASICEQUIPIDS_OFFSET))(this);
 		}
 
-		::Class_3_2A6530038D51A41A<::System::UInt32>* get_OrderedRecommendEquipIDs()
+		::Sofa::Core::ObservableList_1<::System::UInt32>* get_OrderedRecommendEquipIDs()
 		{
-			return ((::Class_3_2A6530038D51A41A<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_ORDEREDRECOMMENDEQUIPIDS_OFFSET))(this);
+			return ((::Sofa::Core::ObservableList_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_ORDEREDRECOMMENDEQUIPIDS_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsEmpty()
@@ -355,9 +355,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_SEASONUID_OFFSET))(this);
 		}
 
-		::System::Void set_SeasonUID(::System::UInt32 value)
+		::System::Void set_SeasonUID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_SEASONUID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_SEASONUID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_FromRefID()
@@ -365,9 +365,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_FROMREFID_OFFSET))(this);
 		}
 
-		::System::Void set_FromRefID(::System::String* value)
+		::System::Void set_FromRefID(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_FROMREFID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_SET_FROMREFID_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_FromRef()
@@ -395,14 +395,14 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightRole*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_MAINROLES_OFFSET))(this);
 		}
 
-		::System::Boolean IsRoleMain(::System::UInt32 roleID)
+		::System::Boolean IsRoleMain(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_ISROLEMAIN_OFFSET))(this, roleID);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_ISROLEMAIN_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::System::UInt32>* GetRecommendEquips(::System::UInt32 roleID)
+		::System::Collections::Generic::List_1<::System::UInt32>* GetRecommendEquips(::System::UInt32 a1)
 		{
-			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETRECOMMENDEQUIPS_OFFSET))(this, roleID);
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GETRECOMMENDEQUIPS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsApplied()
@@ -410,14 +410,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION_GET_ISAPPLIED_OFFSET))(this);
 		}
 
-		::System::Void _ImportRef_b__29_0(::System::Boolean success)
+		::System::Void _ImportRef_b__29_0(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION__IMPORTREF_B__29_0_OFFSET))(this, success);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION__IMPORTREF_B__29_0_OFFSET))(this, a1);
 		}
 
-		::System::Void _ImportRef_b__29_1(::System::Boolean success)
+		::System::Void _ImportRef_b__29_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION__IMPORTREF_B__29_1_OFFSET))(this, success);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATION__IMPORTREF_B__29_1_OFFSET))(this, a1);
 		}
 	};
 }

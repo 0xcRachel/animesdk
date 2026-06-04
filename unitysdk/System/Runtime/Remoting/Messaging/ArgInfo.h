@@ -5,12 +5,12 @@
 
 namespace System::Reflection { class MethodBase; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ARGINFO_GETINOUTARGS_OFFSET UNITYSDK_OFFSET(0x17AC0360)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ARGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17AC0150)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ARGINFO_GETINOUTARGS_OFFSET UNITYSDK_OFFSET(0x17442F10)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ARGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17442D50)
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int ArgInfo_TypeDefinitionIndex = 1289;
+	inline static constexpr unsigned int ArgInfo_TypeDefinitionIndex = 1288;
 
 	class ArgInfo : public ::System::Object
 	{
@@ -19,14 +19,14 @@ namespace System::Runtime::Remoting::Messaging
 		::System::Reflection::MethodBase* _method; // 0x18
 		::System::Int32 _inoutArgCount; // 0x20
 
-		::System::Void _ctor(::System::Reflection::MethodBase* method, ::System::Runtime::Remoting::Messaging::ArgInfoType type)
+		::System::Void _ctor(::System::Reflection::MethodBase* a1, ::System::Runtime::Remoting::Messaging::ArgInfoType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::MethodBase*, ::System::Runtime::Remoting::Messaging::ArgInfoType))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_ARGINFO__CTOR_OFFSET))(this, method, type);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::MethodBase*, ::System::Runtime::Remoting::Messaging::ArgInfoType))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_ARGINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::System::Object*>* GetInOutArgs(::Il2CppArray<::System::Object*>* args)
+		::Il2CppArray<::System::Object*>* GetInOutArgs(::Il2CppArray<::System::Object*>* a1)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_ARGINFO_GETINOUTARGS_OFFSET))(this, args);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_ARGINFO_GETINOUTARGS_OFFSET))(this, a1);
 		}
 	};
 }

@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ColliderConfig; }
 
-#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWSHAPECONFIG_METHOD_2_60F347222505ACF0_OFFSET UNITYSDK_OFFSET(0x18C6DDC0)
-#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWSHAPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18C6DF50)
+#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWSHAPECONFIG_METHOD_2_60F347222505ACF0_OFFSET UNITYSDK_OFFSET(0x19C0A0B0)
+#define RPG_GAMECORE_ADVENTURECHARACTERIDLESHOWSHAPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C0A240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureCharacterIdleShowShapeConfig_TypeDefinitionIndex = 16547;
+	inline static constexpr unsigned int AdventureCharacterIdleShowShapeConfig_TypeDefinitionIndex = 16577;
 
 	class AdventureCharacterIdleShowShapeConfig : public ::RPG::GameCore::JsonConfig
 	{

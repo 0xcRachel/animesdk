@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_HAVITHVG95WLINUXPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x9361020)
-#define INCONTROL_UNITYDEVICEPROFILES_HAVITHVG95WLINUXPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x9362630)
+#define INCONTROL_UNITYDEVICEPROFILES_HAVITHVG95WLINUXPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0xA688030)
+#define INCONTROL_UNITYDEVICEPROFILES_HAVITHVG95WLINUXPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0xA689300)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int HavitHVG95WLinuxProfile_TypeDefinitionIndex = 37301;
+	inline static constexpr unsigned int HavitHVG95WLinuxProfile_TypeDefinitionIndex = 38033;
 
 	class HavitHVG95WLinuxProfile : public ::InControl::InputDeviceProfile
 	{

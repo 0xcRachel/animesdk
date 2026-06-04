@@ -7,15 +7,15 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x16E17120)
-#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x16E17000)
-#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x16E17230)
-#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x16E172E0)
-#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x16E17240)
+#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x177495F0)
+#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x177494D0)
+#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x17749730)
+#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x177497E0)
+#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x17749740)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int MiniEmotionTrack_TypeDefinitionIndex = 45373;
+	inline static constexpr unsigned int MiniEmotionTrack_TypeDefinitionIndex = 45930;
 
 	class MiniEmotionTrack : public ::RPGTools::Timeline::Emotion::BaseEmoTrack
 	{
@@ -35,14 +35,14 @@ namespace RPGTools::Timeline::VFX
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::System::Int32 P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::UnityEngine::Timeline::TimelineClip* P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

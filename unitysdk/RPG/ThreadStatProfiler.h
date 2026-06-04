@@ -7,26 +7,26 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_THREADSTATPROFILER_BEGIN_OFFSET UNITYSDK_OFFSET(0x1A702A90)
-#define RPG_THREADSTATPROFILER_END_OFFSET UNITYSDK_OFFSET(0x1A702D70)
-#define RPG_THREADSTATPROFILER_GET_MANAGEDTHREADID_OFFSET UNITYSDK_OFFSET(0x1A702E80)
-#define RPG_THREADSTATPROFILER_GET_THREADNAME_OFFSET UNITYSDK_OFFSET(0x1A702EA0)
-#define RPG_THREADSTATPROFILER_GET_TIMESAMPLES_OFFSET UNITYSDK_OFFSET(0x1A702610)
-#define RPG_THREADSTATPROFILER_SET_MANAGEDTHREADID_OFFSET UNITYSDK_OFFSET(0x1A702E90)
-#define RPG_THREADSTATPROFILER_SET_THREADNAME_OFFSET UNITYSDK_OFFSET(0x1A702EB0)
-#define RPG_THREADSTATPROFILER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A703140)
-#define RPG_THREADSTATPROFILER_UPDATETIMESAMPLES_OFFSET UNITYSDK_OFFSET(0x1A702EC0)
-#define RPG_THREADSTATPROFILER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A702890)
+#define RPG_THREADSTATPROFILER_BEGIN_OFFSET UNITYSDK_OFFSET(0x1B522D70)
+#define RPG_THREADSTATPROFILER_END_OFFSET UNITYSDK_OFFSET(0x1B523030)
+#define RPG_THREADSTATPROFILER_GET_MANAGEDTHREADID_OFFSET UNITYSDK_OFFSET(0x1B523140)
+#define RPG_THREADSTATPROFILER_GET_THREADNAME_OFFSET UNITYSDK_OFFSET(0x1B523160)
+#define RPG_THREADSTATPROFILER_GET_TIMESAMPLES_OFFSET UNITYSDK_OFFSET(0x1B5228F0)
+#define RPG_THREADSTATPROFILER_SET_MANAGEDTHREADID_OFFSET UNITYSDK_OFFSET(0x1B523150)
+#define RPG_THREADSTATPROFILER_SET_THREADNAME_OFFSET UNITYSDK_OFFSET(0x1B523170)
+#define RPG_THREADSTATPROFILER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B523430)
+#define RPG_THREADSTATPROFILER_UPDATETIMESAMPLES_OFFSET UNITYSDK_OFFSET(0x1B523180)
+#define RPG_THREADSTATPROFILER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B522B70)
 
 namespace RPG
 {
-	inline static constexpr unsigned int ThreadStatProfiler_TypeDefinitionIndex = 33248;
+	inline static constexpr unsigned int ThreadStatProfiler_TypeDefinitionIndex = 33357;
 
 	class ThreadStatProfiler : public ::System::Object
 	{
 	public:
-		::System::String* _ThreadName_k__BackingField; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::ProfileRecorderInfo*>* UnityMarkers; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::ProfileRecorderInfo*>* UnityMarkers; // 0x10
+		::System::String* _ThreadName_k__BackingField; // 0x18
 		::System::Collections::Generic::List_1<::System::Single>* _TimeSamples; // 0x20
 		::System::Int32 _ManagedThreadId_k__BackingField; // 0x28
 
@@ -40,9 +40,9 @@ namespace RPG
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_THREADSTATPROFILER_GET_MANAGEDTHREADID_OFFSET))(this);
 		}
 
-		::System::Void set_ManagedThreadId(::System::Int32 value)
+		::System::Void set_ManagedThreadId(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_THREADSTATPROFILER_SET_MANAGEDTHREADID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_THREADSTATPROFILER_SET_MANAGEDTHREADID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_ThreadName()
@@ -50,9 +50,9 @@ namespace RPG
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_THREADSTATPROFILER_GET_THREADNAME_OFFSET))(this);
 		}
 
-		::System::Void set_ThreadName(::System::String* value)
+		::System::Void set_ThreadName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_THREADSTATPROFILER_SET_THREADNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_THREADSTATPROFILER_SET_THREADNAME_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::Single>* get_TimeSamples()
@@ -60,14 +60,14 @@ namespace RPG
 			return ((::System::Collections::Generic::List_1<::System::Single>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_THREADSTATPROFILER_GET_TIMESAMPLES_OFFSET))(this);
 		}
 
-		::System::Void Begin(::System::String* Name)
+		::System::Void Begin(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_THREADSTATPROFILER_BEGIN_OFFSET))(this, Name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_THREADSTATPROFILER_BEGIN_OFFSET))(this, a1);
 		}
 
-		::System::Void End(::System::String* Name)
+		::System::Void End(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_THREADSTATPROFILER_END_OFFSET))(this, Name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_THREADSTATPROFILER_END_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateTimeSamples()

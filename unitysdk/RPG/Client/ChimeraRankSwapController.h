@@ -10,21 +10,21 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x17483E70)
-#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER_CREATEVIRTUALTEAMLIST_OFFSET UNITYSDK_OFFSET(0x174846B0)
-#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER_STARTRANKINCREASEANDSWAP_OFFSET UNITYSDK_OFFSET(0x17484650)
-#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x17484080)
-#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x17485260)
-#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER__GETTARGETMAXSLIDERVALUE_OFFSET UNITYSDK_OFFSET(0x17484E10)
-#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER__INITVIRTUALTEAMRANK_OFFSET UNITYSDK_OFFSET(0x174849C0)
-#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER__ONRANKINCREASEFINISH_OFFSET UNITYSDK_OFFSET(0x17484270)
-#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER__REFRESHVIRTUALTEAMRANK_OFFSET UNITYSDK_OFFSET(0x174844E0)
-#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER__VIRTUALTEAMINCREASE_OFFSET UNITYSDK_OFFSET(0x174842D0)
-#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER___REFRESHVIRTUALTEAMRANK_B__5_0_OFFSET UNITYSDK_OFFSET(0x17485270)
+#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1829D170)
+#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER_CREATEVIRTUALTEAMLIST_OFFSET UNITYSDK_OFFSET(0x1829DAC0)
+#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER_STARTRANKINCREASEANDSWAP_OFFSET UNITYSDK_OFFSET(0x1829DA60)
+#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1829D420)
+#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1829E720)
+#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER__GETTARGETMAXSLIDERVALUE_OFFSET UNITYSDK_OFFSET(0x1829E300)
+#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER__INITVIRTUALTEAMRANK_OFFSET UNITYSDK_OFFSET(0x1829DE40)
+#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER__ONRANKINCREASEFINISH_OFFSET UNITYSDK_OFFSET(0x1829D600)
+#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER__REFRESHVIRTUALTEAMRANK_OFFSET UNITYSDK_OFFSET(0x1829D8A0)
+#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER__VIRTUALTEAMINCREASE_OFFSET UNITYSDK_OFFSET(0x1829D660)
+#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER___REFRESHVIRTUALTEAMRANK_B__5_0_OFFSET UNITYSDK_OFFSET(0x1829E730)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraRankSwapController_TypeDefinitionIndex = 66780;
+	inline static constexpr unsigned int ChimeraRankSwapController_TypeDefinitionIndex = 67720;
 
 	class ChimeraRankSwapController : public ::UnityEngine::MonoBehaviour
 	{
@@ -55,14 +55,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERARANKSWAPCONTROLLER_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void StartRankIncreaseAndSwap(::System::Action* callback)
+		::System::Void StartRankIncreaseAndSwap(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERARANKSWAPCONTROLLER_STARTRANKINCREASEANDSWAP_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERARANKSWAPCONTROLLER_STARTRANKINCREASEANDSWAP_OFFSET))(this, a1);
 		}
 
-		::System::Void CreateVirtualTeamList(::System::Collections::Generic::List_1<::RPG::Client::ChimeraTeamData*>* lastChimeraTeamDatas, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraTeamData*>* curChimeraTeamDatas, ::System::Action_1<::System::Int32>* onItemChangeCallback, ::System::Action_2<::RPG::Client::VirtualRankChimeraTeam*, ::System::Boolean>* itemUpdateCallback)
+		::System::Void CreateVirtualTeamList(::System::Collections::Generic::List_1<::RPG::Client::ChimeraTeamData*>* a1, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraTeamData*>* a2, ::System::Action_1<::System::Int32>* a3, ::System::Action_2<::RPG::Client::VirtualRankChimeraTeam*, ::System::Boolean>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraTeamData*>*, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraTeamData*>*, ::System::Action_1<::System::Int32>*, ::System::Action_2<::RPG::Client::VirtualRankChimeraTeam*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERARANKSWAPCONTROLLER_CREATEVIRTUALTEAMLIST_OFFSET))(this, lastChimeraTeamDatas, curChimeraTeamDatas, onItemChangeCallback, itemUpdateCallback);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraTeamData*>*, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraTeamData*>*, ::System::Action_1<::System::Int32>*, ::System::Action_2<::RPG::Client::VirtualRankChimeraTeam*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERARANKSWAPCONTROLLER_CREATEVIRTUALTEAMLIST_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _VirtualTeamIncrease()
@@ -90,9 +90,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERARANKSWAPCONTROLLER__GETTARGETMAXSLIDERVALUE_OFFSET))(this);
 		}
 
-		::System::Void __RefreshVirtualTeamRank_b__5_0(::System::Int32 itemIndex, ::System::Int32 swapEndRank)
+		::System::Void __RefreshVirtualTeamRank_b__5_0(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERARANKSWAPCONTROLLER___REFRESHVIRTUALTEAMRANK_B__5_0_OFFSET))(this, itemIndex, swapEndRank);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERARANKSWAPCONTROLLER___REFRESHVIRTUALTEAMRANK_B__5_0_OFFSET))(this, a1, a2);
 		}
 	};
 }

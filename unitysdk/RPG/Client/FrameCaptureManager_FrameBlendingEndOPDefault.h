@@ -4,21 +4,21 @@
 
 namespace RPG::Client { class FrameCaptureManager; }
 
-#define RPG_CLIENT_FRAMECAPTUREMANAGER_FRAMEBLENDINGENDOPDEFAULT_ONBLENDINGEND_OFFSET UNITYSDK_OFFSET(0x11347AF0)
-#define RPG_CLIENT_FRAMECAPTUREMANAGER_FRAMEBLENDINGENDOPDEFAULT__CTOR_OFFSET UNITYSDK_OFFSET(0x11347720)
+#define RPG_CLIENT_FRAMECAPTUREMANAGER_FRAMEBLENDINGENDOPDEFAULT_ONBLENDINGEND_OFFSET UNITYSDK_OFFSET(0x15950090)
+#define RPG_CLIENT_FRAMECAPTUREMANAGER_FRAMEBLENDINGENDOPDEFAULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1594FCF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FrameCaptureManager_FrameBlendingEndOPDefault_TypeDefinitionIndex = 64303;
+	inline static constexpr unsigned int FrameCaptureManager_FrameBlendingEndOPDefault_TypeDefinitionIndex = 65224;
 
 	class FrameCaptureManager_FrameBlendingEndOPDefault : public ::System::Object
 	{
 	public:
 		::RPG::Client::FrameCaptureManager* _FrameCaptureMgrRef; // 0x10
 
-		::System::Void _ctor(::RPG::Client::FrameCaptureManager* frameCaptureMgr)
+		::System::Void _ctor(::RPG::Client::FrameCaptureManager* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FrameCaptureManager*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRAMECAPTUREMANAGER_FRAMEBLENDINGENDOPDEFAULT__CTOR_OFFSET))(this, frameCaptureMgr);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FrameCaptureManager*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRAMECAPTUREMANAGER_FRAMEBLENDINGENDOPDEFAULT__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBlendingEnd()

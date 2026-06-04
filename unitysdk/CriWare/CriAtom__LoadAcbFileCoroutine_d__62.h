@@ -8,34 +8,34 @@ namespace CriWare { class CriAtomExAcbLoader; }
 namespace CriWare { class CriFsBinder; }
 namespace System { class String; }
 
-#define CRIWARE_CRIATOM__LOADACBFILECOROUTINE_D__62_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x18265B50)
-#define CRIWARE_CRIATOM__LOADACBFILECOROUTINE_D__62_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x182661B0)
-#define CRIWARE_CRIATOM__LOADACBFILECOROUTINE_D__62_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x18266210)
-#define CRIWARE_CRIATOM__LOADACBFILECOROUTINE_D__62_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x182661C0)
-#define CRIWARE_CRIATOM__LOADACBFILECOROUTINE_D__62_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18265A70)
-#define CRIWARE_CRIATOM__LOADACBFILECOROUTINE_D__62__CTOR_OFFSET UNITYSDK_OFFSET(0x18264530)
-#define CRIWARE_CRIATOM__LOADACBFILECOROUTINE_D__62___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x18265AF0)
+#define CRIWARE_CRIATOM__LOADACBFILECOROUTINE_D__62_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x18DE7860)
+#define CRIWARE_CRIATOM__LOADACBFILECOROUTINE_D__62_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x18DE7F20)
+#define CRIWARE_CRIATOM__LOADACBFILECOROUTINE_D__62_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x18DE7F80)
+#define CRIWARE_CRIATOM__LOADACBFILECOROUTINE_D__62_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x18DE7F30)
+#define CRIWARE_CRIATOM__LOADACBFILECOROUTINE_D__62_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18DE7720)
+#define CRIWARE_CRIATOM__LOADACBFILECOROUTINE_D__62__CTOR_OFFSET UNITYSDK_OFFSET(0x18DE67C0)
+#define CRIWARE_CRIATOM__LOADACBFILECOROUTINE_D__62___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x18DE77D0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtom__LoadAcbFileCoroutine_d__62_TypeDefinitionIndex = 36682;
+	inline static constexpr unsigned int CriAtom__LoadAcbFileCoroutine_d__62_TypeDefinitionIndex = 36982;
 
 	class CriAtom__LoadAcbFileCoroutine_d__62 : public ::System::Object
 	{
 	public:
-		::System::Object* __2__current; // 0x10
+		::System::String* awbPath; // 0x10
 		::CriWare::CriAtomCueSheet* cueSheet; // 0x18
 		::CriWare::CriAtom* __4__this; // 0x20
 		::System::String* acbPath; // 0x28
-		::CriWare::CriFsBinder* binder; // 0x30
-		::System::String* awbPath; // 0x38
-		::CriWare::CriAtomExAcbLoader* _asyncLoader_5__2; // 0x40
-		::System::Int32 __1__state; // 0x48
-		::System::Boolean loadAwbOnMemory; // 0x4C
+		::CriWare::CriAtomExAcbLoader* _asyncLoader_5__2; // 0x30
+		::CriWare::CriFsBinder* binder; // 0x38
+		::System::Object* __2__current; // 0x40
+		::System::Boolean loadAwbOnMemory; // 0x48
+		::System::Int32 __1__state; // 0x4C
 
-		::System::Void _ctor(::System::Int32 __1__state)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOM__LOADACBFILECOROUTINE_D__62__CTOR_OFFSET))(this, __1__state);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOM__LOADACBFILECOROUTINE_D__62__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()

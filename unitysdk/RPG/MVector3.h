@@ -5,111 +5,111 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_MVECTOR3_ANGLEBETWEEN_OFFSET UNITYSDK_OFFSET(0x1A6D2BB0)
-#define RPG_MVECTOR3_ANGLE_OFFSET UNITYSDK_OFFSET(0x1A6D2250)
-#define RPG_MVECTOR3_APPROXIMATELY_OFFSET UNITYSDK_OFFSET(0x1A6D2640)
-#define RPG_MVECTOR3_CLAMPMAGNITUDE_OFFSET UNITYSDK_OFFSET(0x1A6D2690)
-#define RPG_MVECTOR3_CROSS_OFFSET UNITYSDK_OFFSET(0x1A6D1D00)
-#define RPG_MVECTOR3_DISTANCE_OFFSET UNITYSDK_OFFSET(0x1A6D25B0)
-#define RPG_MVECTOR3_DOT_OFFSET UNITYSDK_OFFSET(0x1A6D1EE0)
-#define RPG_MVECTOR3_EQUALS_OFFSET UNITYSDK_OFFSET(0x23BD350)
-#define RPG_MVECTOR3_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2387970)
-#define RPG_MVECTOR3_GET_BACK_OFFSET UNITYSDK_OFFSET(0x1A6D2860)
-#define RPG_MVECTOR3_GET_DOWN_OFFSET UNITYSDK_OFFSET(0x1A6D28A0)
-#define RPG_MVECTOR3_GET_FORWARD_OFFSET UNITYSDK_OFFSET(0x1A6D2840)
-#define RPG_MVECTOR3_GET_FWD_OFFSET UNITYSDK_OFFSET(0x1A6D2B90)
-#define RPG_MVECTOR3_GET_ISINFINITY_OFFSET UNITYSDK_OFFSET(0x23BD1C0)
-#define RPG_MVECTOR3_GET_ISNAN_OFFSET UNITYSDK_OFFSET(0x23BD180)
-#define RPG_MVECTOR3_GET_ISNEGATIVEINFINITY_OFFSET UNITYSDK_OFFSET(0x23BD220)
-#define RPG_MVECTOR3_GET_ISPOSITIVEINFINITY_OFFSET UNITYSDK_OFFSET(0x23BD200)
-#define RPG_MVECTOR3_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x23BD240)
-#define RPG_MVECTOR3_GET_LEFT_OFFSET UNITYSDK_OFFSET(0x1A6D28C0)
-#define RPG_MVECTOR3_GET_MAGNITUDE_OFFSET UNITYSDK_OFFSET(0x2387B80)
-#define RPG_MVECTOR3_GET_NEGATIVEINFINITY_OFFSET UNITYSDK_OFFSET(0x1A6D2920)
-#define RPG_MVECTOR3_GET_NORMALIZED_OFFSET UNITYSDK_OFFSET(0x23BD4A0)
-#define RPG_MVECTOR3_GET_ONE_OFFSET UNITYSDK_OFFSET(0x1A6D2820)
-#define RPG_MVECTOR3_GET_POSITIVEINFINITY_OFFSET UNITYSDK_OFFSET(0x1A6D2900)
-#define RPG_MVECTOR3_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0x1A6D28E0)
-#define RPG_MVECTOR3_GET_SQRMAGNITUDE_OFFSET UNITYSDK_OFFSET(0x2387BB0)
-#define RPG_MVECTOR3_GET_UP_OFFSET UNITYSDK_OFFSET(0x1A6D2880)
-#define RPG_MVECTOR3_GET_ZERO_OFFSET UNITYSDK_OFFSET(0x1A6D2800)
-#define RPG_MVECTOR3_LERPUNCLAMPED_OFFSET UNITYSDK_OFFSET(0x1A6D1970)
-#define RPG_MVECTOR3_LERP_OFFSET UNITYSDK_OFFSET(0x1A6D1920)
-#define RPG_MVECTOR3_MAGNITUDE_OFFSET UNITYSDK_OFFSET(0x1A6D1FC0)
-#define RPG_MVECTOR3_MAX_OFFSET UNITYSDK_OFFSET(0x1A6D27D0)
-#define RPG_MVECTOR3_MIN_OFFSET UNITYSDK_OFFSET(0x1A6D27A0)
-#define RPG_MVECTOR3_MOVETOWARDS_OFFSET UNITYSDK_OFFSET(0x1A6D19B0)
-#define RPG_MVECTOR3_NORMALIZE_1_OFFSET UNITYSDK_OFFSET(0x23BD410)
-#define RPG_MVECTOR3_NORMALIZE_OFFSET UNITYSDK_OFFSET(0x1A6D1F30)
-#define RPG_MVECTOR3_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1A6D1B30)
-#define RPG_MVECTOR3_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0x1A6D1AF0)
-#define RPG_MVECTOR3_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1A6D2970)
-#define RPG_MVECTOR3_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1A6D29C0)
-#define RPG_MVECTOR3_OP_MULTIPLY_1_OFFSET UNITYSDK_OFFSET(0x1A6D1F10)
-#define RPG_MVECTOR3_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1A6D1B10)
-#define RPG_MVECTOR3_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1A6D1A90)
-#define RPG_MVECTOR3_OP_UNARYNEGATION_OFFSET UNITYSDK_OFFSET(0x1A6D2940)
-#define RPG_MVECTOR3_PROJECTONPLANE_OFFSET UNITYSDK_OFFSET(0x1A6D21A0)
-#define RPG_MVECTOR3_PROJECT_OFFSET UNITYSDK_OFFSET(0x1A6D2110)
-#define RPG_MVECTOR3_REFLECT_OFFSET UNITYSDK_OFFSET(0x1A6D1E70)
-#define RPG_MVECTOR3_SCALE_1_OFFSET UNITYSDK_OFFSET(0x2387950)
-#define RPG_MVECTOR3_SCALE_OFFSET UNITYSDK_OFFSET(0x1A6D1CA0)
-#define RPG_MVECTOR3_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x23BD2C0)
-#define RPG_MVECTOR3_SET_OFFSET UNITYSDK_OFFSET(0x6248A0)
-#define RPG_MVECTOR3_SIGNEDANGLE_OFFSET UNITYSDK_OFFSET(0x1A6D23B0)
-#define RPG_MVECTOR3_SQRDISTANCE_OFFSET UNITYSDK_OFFSET(0x1A6D2600)
-#define RPG_MVECTOR3_SQRMAGNITUDE_OFFSET UNITYSDK_OFFSET(0x1A6D2780)
-#define RPG_MVECTOR3_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x23BD5E0)
-#define RPG_MVECTOR3_TOSTRING_OFFSET UNITYSDK_OFFSET(0x23BD530)
-#define RPG_MVECTOR3__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A6D2D00)
-#define RPG_MVECTOR3__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2387930)
-#define RPG_MVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x6248A0)
+#define RPG_MVECTOR3_ANGLEBETWEEN_OFFSET UNITYSDK_OFFSET(0x1B4E21D0)
+#define RPG_MVECTOR3_ANGLE_OFFSET UNITYSDK_OFFSET(0x1B4E1870)
+#define RPG_MVECTOR3_APPROXIMATELY_OFFSET UNITYSDK_OFFSET(0x1B4E1C60)
+#define RPG_MVECTOR3_CLAMPMAGNITUDE_OFFSET UNITYSDK_OFFSET(0x1B4E1CB0)
+#define RPG_MVECTOR3_CROSS_OFFSET UNITYSDK_OFFSET(0x1B4E1320)
+#define RPG_MVECTOR3_DISTANCE_OFFSET UNITYSDK_OFFSET(0x1B4E1BD0)
+#define RPG_MVECTOR3_DOT_OFFSET UNITYSDK_OFFSET(0x1B4E1500)
+#define RPG_MVECTOR3_EQUALS_OFFSET UNITYSDK_OFFSET(0x395CE70)
+#define RPG_MVECTOR3_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x39333F0)
+#define RPG_MVECTOR3_GET_BACK_OFFSET UNITYSDK_OFFSET(0x1B4E1E80)
+#define RPG_MVECTOR3_GET_DOWN_OFFSET UNITYSDK_OFFSET(0x1B4E1EC0)
+#define RPG_MVECTOR3_GET_FORWARD_OFFSET UNITYSDK_OFFSET(0x1B4E1E60)
+#define RPG_MVECTOR3_GET_FWD_OFFSET UNITYSDK_OFFSET(0x1B4E21B0)
+#define RPG_MVECTOR3_GET_ISINFINITY_OFFSET UNITYSDK_OFFSET(0x395CCE0)
+#define RPG_MVECTOR3_GET_ISNAN_OFFSET UNITYSDK_OFFSET(0x395CCA0)
+#define RPG_MVECTOR3_GET_ISNEGATIVEINFINITY_OFFSET UNITYSDK_OFFSET(0x395CD40)
+#define RPG_MVECTOR3_GET_ISPOSITIVEINFINITY_OFFSET UNITYSDK_OFFSET(0x395CD20)
+#define RPG_MVECTOR3_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x395CD60)
+#define RPG_MVECTOR3_GET_LEFT_OFFSET UNITYSDK_OFFSET(0x1B4E1EE0)
+#define RPG_MVECTOR3_GET_MAGNITUDE_OFFSET UNITYSDK_OFFSET(0x3959750)
+#define RPG_MVECTOR3_GET_NEGATIVEINFINITY_OFFSET UNITYSDK_OFFSET(0x1B4E1F40)
+#define RPG_MVECTOR3_GET_NORMALIZED_OFFSET UNITYSDK_OFFSET(0x395CFC0)
+#define RPG_MVECTOR3_GET_ONE_OFFSET UNITYSDK_OFFSET(0x1B4E1E40)
+#define RPG_MVECTOR3_GET_POSITIVEINFINITY_OFFSET UNITYSDK_OFFSET(0x1B4E1F20)
+#define RPG_MVECTOR3_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0x1B4E1F00)
+#define RPG_MVECTOR3_GET_SQRMAGNITUDE_OFFSET UNITYSDK_OFFSET(0x3959780)
+#define RPG_MVECTOR3_GET_UP_OFFSET UNITYSDK_OFFSET(0x1B4E1EA0)
+#define RPG_MVECTOR3_GET_ZERO_OFFSET UNITYSDK_OFFSET(0x1B4E1E20)
+#define RPG_MVECTOR3_LERPUNCLAMPED_OFFSET UNITYSDK_OFFSET(0x1B4E0F90)
+#define RPG_MVECTOR3_LERP_OFFSET UNITYSDK_OFFSET(0x1B4E0F40)
+#define RPG_MVECTOR3_MAGNITUDE_OFFSET UNITYSDK_OFFSET(0x1B4E15E0)
+#define RPG_MVECTOR3_MAX_OFFSET UNITYSDK_OFFSET(0x1B4E1DF0)
+#define RPG_MVECTOR3_MIN_OFFSET UNITYSDK_OFFSET(0x1B4E1DC0)
+#define RPG_MVECTOR3_MOVETOWARDS_OFFSET UNITYSDK_OFFSET(0x1B4E0FD0)
+#define RPG_MVECTOR3_NORMALIZE_1_OFFSET UNITYSDK_OFFSET(0x395CF30)
+#define RPG_MVECTOR3_NORMALIZE_OFFSET UNITYSDK_OFFSET(0x1B4E1550)
+#define RPG_MVECTOR3_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1B4E1150)
+#define RPG_MVECTOR3_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0x1B4E1110)
+#define RPG_MVECTOR3_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B4E1F90)
+#define RPG_MVECTOR3_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1B4E1FE0)
+#define RPG_MVECTOR3_OP_MULTIPLY_1_OFFSET UNITYSDK_OFFSET(0x1B4E1530)
+#define RPG_MVECTOR3_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1B4E1130)
+#define RPG_MVECTOR3_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1B4E10B0)
+#define RPG_MVECTOR3_OP_UNARYNEGATION_OFFSET UNITYSDK_OFFSET(0x1B4E1F60)
+#define RPG_MVECTOR3_PROJECTONPLANE_OFFSET UNITYSDK_OFFSET(0x1B4E17C0)
+#define RPG_MVECTOR3_PROJECT_OFFSET UNITYSDK_OFFSET(0x1B4E1730)
+#define RPG_MVECTOR3_REFLECT_OFFSET UNITYSDK_OFFSET(0x1B4E1490)
+#define RPG_MVECTOR3_SCALE_1_OFFSET UNITYSDK_OFFSET(0x39333D0)
+#define RPG_MVECTOR3_SCALE_OFFSET UNITYSDK_OFFSET(0x1B4E12C0)
+#define RPG_MVECTOR3_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x395CDE0)
+#define RPG_MVECTOR3_SET_OFFSET UNITYSDK_OFFSET(0x3839D20)
+#define RPG_MVECTOR3_SIGNEDANGLE_OFFSET UNITYSDK_OFFSET(0x1B4E19D0)
+#define RPG_MVECTOR3_SQRDISTANCE_OFFSET UNITYSDK_OFFSET(0x1B4E1C20)
+#define RPG_MVECTOR3_SQRMAGNITUDE_OFFSET UNITYSDK_OFFSET(0x1B4E1DA0)
+#define RPG_MVECTOR3_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x395D100)
+#define RPG_MVECTOR3_TOSTRING_OFFSET UNITYSDK_OFFSET(0x395D050)
+#define RPG_MVECTOR3__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4E2320)
+#define RPG_MVECTOR3__CTOR_1_OFFSET UNITYSDK_OFFSET(0x39333B0)
+#define RPG_MVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x3839D20)
 
 namespace RPG
 {
-	inline static constexpr unsigned int MVector3_TypeDefinitionIndex = 8902;
+	inline static constexpr unsigned int MVector3_TypeDefinitionIndex = 6766;
 
 	struct alignas(4) MVector3
 	{
-		static ::RPG::MVector3* StaticGet_zeroVector()
-		{
-			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(MVector3_TypeDefinitionIndex)->GetStaticField(0x550);
-		}
-		static ::RPG::MVector3* StaticGet_downVector()
-		{
-			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(MVector3_TypeDefinitionIndex)->GetStaticField(0x55C);
-		}
-		static ::RPG::MVector3* StaticGet_oneVector()
-		{
-			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(MVector3_TypeDefinitionIndex)->GetStaticField(0x568);
-		}
 		static ::RPG::MVector3* StaticGet_upVector()
 		{
-			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(MVector3_TypeDefinitionIndex)->GetStaticField(0x574);
-		}
-		static ::RPG::MVector3* StaticGet_negativeInfinityVector()
-		{
-			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(MVector3_TypeDefinitionIndex)->GetStaticField(0x580);
-		}
-		static ::RPG::MVector3* StaticGet_positiveInfinityVector()
-		{
-			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(MVector3_TypeDefinitionIndex)->GetStaticField(0x58C);
-		}
-		static ::RPG::MVector3* StaticGet_forwardVector()
-		{
-			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(MVector3_TypeDefinitionIndex)->GetStaticField(0x598);
-		}
-		static ::RPG::MVector3* StaticGet_leftVector()
-		{
-			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(MVector3_TypeDefinitionIndex)->GetStaticField(0x5A4);
-		}
-		static ::RPG::MVector3* StaticGet_backVector()
-		{
-			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(MVector3_TypeDefinitionIndex)->GetStaticField(0x5B0);
+			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(MVector3_TypeDefinitionIndex)->GetStaticField(0x480);
 		}
 		static ::RPG::MVector3* StaticGet_rightVector()
 		{
-			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(MVector3_TypeDefinitionIndex)->GetStaticField(0x5BC);
+			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(MVector3_TypeDefinitionIndex)->GetStaticField(0x48C);
+		}
+		static ::RPG::MVector3* StaticGet_leftVector()
+		{
+			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(MVector3_TypeDefinitionIndex)->GetStaticField(0x498);
+		}
+		static ::RPG::MVector3* StaticGet_forwardVector()
+		{
+			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(MVector3_TypeDefinitionIndex)->GetStaticField(0x4A4);
+		}
+		static ::RPG::MVector3* StaticGet_downVector()
+		{
+			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(MVector3_TypeDefinitionIndex)->GetStaticField(0x4B0);
+		}
+		static ::RPG::MVector3* StaticGet_negativeInfinityVector()
+		{
+			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(MVector3_TypeDefinitionIndex)->GetStaticField(0x4BC);
+		}
+		static ::RPG::MVector3* StaticGet_zeroVector()
+		{
+			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(MVector3_TypeDefinitionIndex)->GetStaticField(0x4C8);
+		}
+		static ::RPG::MVector3* StaticGet_backVector()
+		{
+			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(MVector3_TypeDefinitionIndex)->GetStaticField(0x4D4);
+		}
+		static ::RPG::MVector3* StaticGet_positiveInfinityVector()
+		{
+			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(MVector3_TypeDefinitionIndex)->GetStaticField(0x4E0);
+		}
+		static ::RPG::MVector3* StaticGet_oneVector()
+		{
+			return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(MVector3_TypeDefinitionIndex)->GetStaticField(0x4EC);
 		}
 		// static const ::System::Single kEpsilon; // 0x0
 		// static const ::System::Single kSqrEpsilon; // 0x0
@@ -117,14 +117,14 @@ namespace RPG
 		::System::Single y; // 0x14
 		::System::Single z; // 0x18
 
-		::System::Void _ctor(::System::Single x, ::System::Single y, ::System::Single z)
+		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MVECTOR3__CTOR_OFFSET))(this, x, y, z);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MVECTOR3__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _ctor_1(::System::Single x, ::System::Single y)
+		::System::Void _ctor_1(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MVECTOR3__CTOR_1_OFFSET))(this, x, y);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MVECTOR3__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
@@ -152,49 +152,49 @@ namespace RPG
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_GET_ISNEGATIVEINFINITY_OFFSET))(this);
 		}
 
-		static ::RPG::MVector3 Lerp(::RPG::MVector3 a, ::RPG::MVector3 b, ::System::Single t)
+		static ::RPG::MVector3 Lerp(::RPG::MVector3 a1, ::RPG::MVector3 a2, ::System::Single a3)
 		{
-			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_LERP_OFFSET))(a, b, t);
+			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_LERP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::MVector3 LerpUnclamped(::RPG::MVector3 a, ::RPG::MVector3 b, ::System::Single t)
+		static ::RPG::MVector3 LerpUnclamped(::RPG::MVector3 a1, ::RPG::MVector3 a2, ::System::Single a3)
 		{
-			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_LERPUNCLAMPED_OFFSET))(a, b, t);
+			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_LERPUNCLAMPED_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::MVector3 MoveTowards(::RPG::MVector3 current, ::RPG::MVector3 target, ::System::Single maxDistanceDelta)
+		static ::RPG::MVector3 MoveTowards(::RPG::MVector3 a1, ::RPG::MVector3 a2, ::System::Single a3)
 		{
-			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_MOVETOWARDS_OFFSET))(current, target, maxDistanceDelta);
+			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_MOVETOWARDS_OFFSET))(a1, a2, a3);
 		}
 
-		::System::Single get_Item(::System::Int32 index)
+		::System::Single get_Item(::System::Int32 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_GET_ITEM_OFFSET))(this, index);
+			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_GET_ITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Item(::System::Int32 index, ::System::Single value)
+		::System::Void set_Item(::System::Int32 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_SET_ITEM_OFFSET))(this, index, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_SET_ITEM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Set(::System::Single newX, ::System::Single newY, ::System::Single newZ)
+		::System::Void Set(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_SET_OFFSET))(this, newX, newY, newZ);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_SET_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::RPG::MVector3 Scale(::RPG::MVector3 a, ::RPG::MVector3 b)
+		static ::RPG::MVector3 Scale(::RPG::MVector3 a1, ::RPG::MVector3 a2)
 		{
-			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_SCALE_OFFSET))(a, b);
+			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_SCALE_OFFSET))(a1, a2);
 		}
 
-		::System::Void Scale_1(::RPG::MVector3 scale)
+		::System::Void Scale_1(::RPG::MVector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_SCALE_1_OFFSET))(this, scale);
+			return ((::System::Void(*)(::PVOID, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_SCALE_1_OFFSET))(this, a1);
 		}
 
-		static ::RPG::MVector3 Cross(::RPG::MVector3 lhs, ::RPG::MVector3 rhs)
+		static ::RPG::MVector3 Cross(::RPG::MVector3 a1, ::RPG::MVector3 a2)
 		{
-			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_CROSS_OFFSET))(lhs, rhs);
+			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_CROSS_OFFSET))(a1, a2);
 		}
 
 		::System::Int32 GetHashCode()
@@ -202,19 +202,19 @@ namespace RPG
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* other)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_EQUALS_OFFSET))(this, a1);
 		}
 
-		static ::RPG::MVector3 Reflect(::RPG::MVector3 inDirection, ::RPG::MVector3 inNormal)
+		static ::RPG::MVector3 Reflect(::RPG::MVector3 a1, ::RPG::MVector3 a2)
 		{
-			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_REFLECT_OFFSET))(inDirection, inNormal);
+			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_REFLECT_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::MVector3 Normalize(::RPG::MVector3 value)
+		static ::RPG::MVector3 Normalize(::RPG::MVector3 a1)
 		{
-			return ((::RPG::MVector3(*)(::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_NORMALIZE_OFFSET))(value);
+			return ((::RPG::MVector3(*)(::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_NORMALIZE_OFFSET))(a1);
 		}
 
 		::System::Void Normalize_1()
@@ -227,54 +227,54 @@ namespace RPG
 			return ((::RPG::MVector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_GET_NORMALIZED_OFFSET))(this);
 		}
 
-		static ::System::Single Dot(::RPG::MVector3 lhs, ::RPG::MVector3 rhs)
+		static ::System::Single Dot(::RPG::MVector3 a1, ::RPG::MVector3 a2)
 		{
-			return ((::System::Single(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_DOT_OFFSET))(lhs, rhs);
+			return ((::System::Single(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_DOT_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::MVector3 Project(::RPG::MVector3 vector, ::RPG::MVector3 onNormal)
+		static ::RPG::MVector3 Project(::RPG::MVector3 a1, ::RPG::MVector3 a2)
 		{
-			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_PROJECT_OFFSET))(vector, onNormal);
+			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_PROJECT_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::MVector3 ProjectOnPlane(::RPG::MVector3 vector, ::RPG::MVector3 planeNormal)
+		static ::RPG::MVector3 ProjectOnPlane(::RPG::MVector3 a1, ::RPG::MVector3 a2)
 		{
-			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_PROJECTONPLANE_OFFSET))(vector, planeNormal);
+			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_PROJECTONPLANE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single Angle(::RPG::MVector3 from, ::RPG::MVector3 to)
+		static ::System::Single Angle(::RPG::MVector3 a1, ::RPG::MVector3 a2)
 		{
-			return ((::System::Single(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_ANGLE_OFFSET))(from, to);
+			return ((::System::Single(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_ANGLE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single SignedAngle(::RPG::MVector3 from, ::RPG::MVector3 to, ::RPG::MVector3 axis)
+		static ::System::Single SignedAngle(::RPG::MVector3 a1, ::RPG::MVector3 a2, ::RPG::MVector3 a3)
 		{
-			return ((::System::Single(*)(::RPG::MVector3, ::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_SIGNEDANGLE_OFFSET))(from, to, axis);
+			return ((::System::Single(*)(::RPG::MVector3, ::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_SIGNEDANGLE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Single Distance(::RPG::MVector3 a, ::RPG::MVector3 b)
+		static ::System::Single Distance(::RPG::MVector3 a1, ::RPG::MVector3 a2)
 		{
-			return ((::System::Single(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_DISTANCE_OFFSET))(a, b);
+			return ((::System::Single(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_DISTANCE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single SqrDistance(::RPG::MVector3 a, ::RPG::MVector3 b)
+		static ::System::Single SqrDistance(::RPG::MVector3 a1, ::RPG::MVector3 a2)
 		{
-			return ((::System::Single(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_SQRDISTANCE_OFFSET))(a, b);
+			return ((::System::Single(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_SQRDISTANCE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean Approximately(::RPG::MVector3 a, ::RPG::MVector3 b)
+		static ::System::Boolean Approximately(::RPG::MVector3 a1, ::RPG::MVector3 a2)
 		{
-			return ((::System::Boolean(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_APPROXIMATELY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_APPROXIMATELY_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::MVector3 ClampMagnitude(::RPG::MVector3 vector, ::System::Single maxLength)
+		static ::RPG::MVector3 ClampMagnitude(::RPG::MVector3 a1, ::System::Single a2)
 		{
-			return ((::RPG::MVector3(*)(::RPG::MVector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_CLAMPMAGNITUDE_OFFSET))(vector, maxLength);
+			return ((::RPG::MVector3(*)(::RPG::MVector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_CLAMPMAGNITUDE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single Magnitude(::RPG::MVector3 vector)
+		static ::System::Single Magnitude(::RPG::MVector3 a1)
 		{
-			return ((::System::Single(*)(::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_MAGNITUDE_OFFSET))(vector);
+			return ((::System::Single(*)(::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_MAGNITUDE_OFFSET))(a1);
 		}
 
 		::System::Single get_magnitude()
@@ -282,9 +282,9 @@ namespace RPG
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_GET_MAGNITUDE_OFFSET))(this);
 		}
 
-		static ::System::Single SqrMagnitude(::RPG::MVector3 vector)
+		static ::System::Single SqrMagnitude(::RPG::MVector3 a1)
 		{
-			return ((::System::Single(*)(::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_SQRMAGNITUDE_OFFSET))(vector);
+			return ((::System::Single(*)(::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_SQRMAGNITUDE_OFFSET))(a1);
 		}
 
 		::System::Single get_sqrMagnitude()
@@ -292,14 +292,14 @@ namespace RPG
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_GET_SQRMAGNITUDE_OFFSET))(this);
 		}
 
-		static ::RPG::MVector3 Min(::RPG::MVector3 lhs, ::RPG::MVector3 rhs)
+		static ::RPG::MVector3 Min(::RPG::MVector3 a1, ::RPG::MVector3 a2)
 		{
-			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_MIN_OFFSET))(lhs, rhs);
+			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_MIN_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::MVector3 Max(::RPG::MVector3 lhs, ::RPG::MVector3 rhs)
+		static ::RPG::MVector3 Max(::RPG::MVector3 a1, ::RPG::MVector3 a2)
 		{
-			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_MAX_OFFSET))(lhs, rhs);
+			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_MAX_OFFSET))(a1, a2);
 		}
 
 		static ::RPG::MVector3 get_zero()
@@ -352,44 +352,44 @@ namespace RPG
 			return ((::RPG::MVector3(*)())((::PBYTE)hIl2Cpp + RPG_MVECTOR3_GET_NEGATIVEINFINITY_OFFSET))();
 		}
 
-		static ::RPG::MVector3 op_Addition(::RPG::MVector3 a, ::RPG::MVector3 b)
+		static ::RPG::MVector3 op_Addition(::RPG::MVector3 a1, ::RPG::MVector3 a2)
 		{
-			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_OP_ADDITION_OFFSET))(a, b);
+			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_OP_ADDITION_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::MVector3 op_Subtraction(::RPG::MVector3 a, ::RPG::MVector3 b)
+		static ::RPG::MVector3 op_Subtraction(::RPG::MVector3 a1, ::RPG::MVector3 a2)
 		{
-			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_OP_SUBTRACTION_OFFSET))(a, b);
+			return ((::RPG::MVector3(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_OP_SUBTRACTION_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::MVector3 op_UnaryNegation(::RPG::MVector3 a)
+		static ::RPG::MVector3 op_UnaryNegation(::RPG::MVector3 a1)
 		{
-			return ((::RPG::MVector3(*)(::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_OP_UNARYNEGATION_OFFSET))(a);
+			return ((::RPG::MVector3(*)(::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_OP_UNARYNEGATION_OFFSET))(a1);
 		}
 
-		static ::RPG::MVector3 op_Multiply(::RPG::MVector3 a, ::System::Single d)
+		static ::RPG::MVector3 op_Multiply(::RPG::MVector3 a1, ::System::Single a2)
 		{
-			return ((::RPG::MVector3(*)(::RPG::MVector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_OP_MULTIPLY_OFFSET))(a, d);
+			return ((::RPG::MVector3(*)(::RPG::MVector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_OP_MULTIPLY_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::MVector3 op_Multiply_1(::System::Single d, ::RPG::MVector3 a)
+		static ::RPG::MVector3 op_Multiply_1(::System::Single a1, ::RPG::MVector3 a2)
 		{
-			return ((::RPG::MVector3(*)(::System::Single, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_OP_MULTIPLY_1_OFFSET))(d, a);
+			return ((::RPG::MVector3(*)(::System::Single, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_OP_MULTIPLY_1_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::MVector3 op_Division(::RPG::MVector3 a, ::System::Single d)
+		static ::RPG::MVector3 op_Division(::RPG::MVector3 a1, ::System::Single a2)
 		{
-			return ((::RPG::MVector3(*)(::RPG::MVector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_OP_DIVISION_OFFSET))(a, d);
+			return ((::RPG::MVector3(*)(::RPG::MVector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_OP_DIVISION_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Equality(::RPG::MVector3 lhs, ::RPG::MVector3 rhs)
+		static ::System::Boolean op_Equality(::RPG::MVector3 a1, ::RPG::MVector3 a2)
 		{
-			return ((::System::Boolean(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_OP_EQUALITY_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::RPG::MVector3 lhs, ::RPG::MVector3 rhs)
+		static ::System::Boolean op_Inequality(::RPG::MVector3 a1, ::RPG::MVector3 a2)
 		{
-			return ((::System::Boolean(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_OP_INEQUALITY_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
 		::System::String* ToString()
@@ -397,9 +397,9 @@ namespace RPG
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_TOSTRING_OFFSET))(this);
 		}
 
-		::System::String* ToString_1(::System::String* format)
+		::System::String* ToString_1(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_TOSTRING_1_OFFSET))(this, format);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_TOSTRING_1_OFFSET))(this, a1);
 		}
 
 		static ::RPG::MVector3 get_fwd()
@@ -407,9 +407,9 @@ namespace RPG
 			return ((::RPG::MVector3(*)())((::PBYTE)hIl2Cpp + RPG_MVECTOR3_GET_FWD_OFFSET))();
 		}
 
-		static ::System::Single AngleBetween(::RPG::MVector3 from, ::RPG::MVector3 to)
+		static ::System::Single AngleBetween(::RPG::MVector3 a1, ::RPG::MVector3 a2)
 		{
-			return ((::System::Single(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_ANGLEBETWEEN_OFFSET))(from, to);
+			return ((::System::Single(*)(::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MVECTOR3_ANGLEBETWEEN_OFFSET))(a1, a2);
 		}
 	};
 }

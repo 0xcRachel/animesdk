@@ -6,25 +6,25 @@
 
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_80077FDCF934A697_METHOD_1_1DA6FF64C7C705EF_OFFSET UNITYSDK_OFFSET(0x10AEC100)
-#define CLASS_1_80077FDCF934A697_METHOD_1_3FEC31896EE03459_OFFSET UNITYSDK_OFFSET(0x10AEC190)
-#define CLASS_1_80077FDCF934A697_METHOD_1_463415E61F0D4405_OFFSET UNITYSDK_OFFSET(0x10AEBD30)
-#define CLASS_1_80077FDCF934A697_METHOD_1_7131FDE42F1B27F4_OFFSET UNITYSDK_OFFSET(0x10AEC2D0)
-#define CLASS_1_80077FDCF934A697_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x10AEBC60)
-#define CLASS_1_80077FDCF934A697__CTOR_OFFSET UNITYSDK_OFFSET(0x10AEBC40)
+#define CLASS_1_80077FDCF934A697_METHOD_1_1DA6FF64C7C705EF_OFFSET UNITYSDK_OFFSET(0x15036BB0)
+#define CLASS_1_80077FDCF934A697_METHOD_1_3FEC31896EE03459_OFFSET UNITYSDK_OFFSET(0x15036C40)
+#define CLASS_1_80077FDCF934A697_METHOD_1_463415E61F0D4405_OFFSET UNITYSDK_OFFSET(0x150367E0)
+#define CLASS_1_80077FDCF934A697_METHOD_1_7033EFB970A18315_OFFSET UNITYSDK_OFFSET(0x150366B0)
+#define CLASS_1_80077FDCF934A697_METHOD_1_7131FDE42F1B27F4_OFFSET UNITYSDK_OFFSET(0x15036D80)
+#define CLASS_1_80077FDCF934A697__CTOR_OFFSET UNITYSDK_OFFSET(0x15036690)
 
-inline static constexpr unsigned int Class_1_80077FDCF934A697_TypeDefinitionIndex = 63543;
+inline static constexpr unsigned int Class_1_80077FDCF934A697_TypeDefinitionIndex = 64463;
 
 class Class_1_80077FDCF934A697 : public ::System::Object
 {
 public:
-	::Il2CppArray<::UnityEngine::Vector2>* Field_1_1; // 0x10
-	::UnityEngine::Transform* Field_1_0; // 0x18
+	::UnityEngine::Transform* Field_1_0; // 0x10
+	::Il2CppArray<::UnityEngine::Vector2>* Field_1_1; // 0x18
 	::System::Single Field_1_2; // 0x20
-	::System::Single Field_1_6; // 0x24
-	::System::Single Field_1_5; // 0x28
-	::System::Single Field_1_3; // 0x2C
-	::System::Single Field_1_4; // 0x30
+	::System::Single Field_1_3; // 0x24
+	::System::Single Field_1_4; // 0x28
+	::System::Single Field_1_5; // 0x2C
+	::System::Single Field_1_6; // 0x30
 
 	::System::Void _ctor(::UnityEngine::Transform* a1, ::Il2CppArray<::UnityEngine::Vector2>* a2, ::System::Single a3)
 	{
@@ -46,9 +46,9 @@ public:
 		return ((::System::Int32(*)(::PVOID, ::System::Single, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_80077FDCF934A697_METHOD_1_7131FDE42F1B27F4_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::System::Void Method_1_89D1F247B9D324EE()
+	::System::Void Method_1_7033EFB970A18315()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_80077FDCF934A697_METHOD_1_89D1F247B9D324EE_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_80077FDCF934A697_METHOD_1_7033EFB970A18315_OFFSET))(this);
 	}
 
 	::System::Boolean Method_1_1DA6FF64C7C705EF(::System::Single a1, ::System::Single a2)

@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/RIPEMD160.h"
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_F_OFFSET UNITYSDK_OFFSET(0x1765AB70)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_G_OFFSET UNITYSDK_OFFSET(0x1765AB80)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_HASHCORE_OFFSET UNITYSDK_OFFSET(0x17659310)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_HASHFINAL_OFFSET UNITYSDK_OFFSET(0x17659480)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_H_OFFSET UNITYSDK_OFFSET(0x1765AB90)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_INITIALIZESTATE_OFFSET UNITYSDK_OFFSET(0x17659210)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x176592C0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_I_OFFSET UNITYSDK_OFFSET(0x1765ABA0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_J_OFFSET UNITYSDK_OFFSET(0x1765ABB0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_MDTRANSFORM_OFFSET UNITYSDK_OFFSET(0x17659670)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED__CTOR_OFFSET UNITYSDK_OFFSET(0x17649AE0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED__ENDHASH_OFFSET UNITYSDK_OFFSET(0x17659490)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED__HASHDATA_OFFSET UNITYSDK_OFFSET(0x17659320)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_F_OFFSET UNITYSDK_OFFSET(0x16E28DA0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_G_OFFSET UNITYSDK_OFFSET(0x16E28DB0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_HASHCORE_OFFSET UNITYSDK_OFFSET(0x16E275D0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_HASHFINAL_OFFSET UNITYSDK_OFFSET(0x16E27740)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_H_OFFSET UNITYSDK_OFFSET(0x16E28DC0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_INITIALIZESTATE_OFFSET UNITYSDK_OFFSET(0x16E274C0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x16E27530)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_I_OFFSET UNITYSDK_OFFSET(0x16E28DD0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_J_OFFSET UNITYSDK_OFFSET(0x16E28DE0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_MDTRANSFORM_OFFSET UNITYSDK_OFFSET(0x16E278A0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED__CTOR_OFFSET UNITYSDK_OFFSET(0x16E188A0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED__ENDHASH_OFFSET UNITYSDK_OFFSET(0x16E27750)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED__HASHDATA_OFFSET UNITYSDK_OFFSET(0x16E275E0)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int RIPEMD160Managed_TypeDefinitionIndex = 1039;
+	inline static constexpr unsigned int RIPEMD160Managed_TypeDefinitionIndex = 1038;
 
 	class RIPEMD160Managed : public ::System::Security::Cryptography::RIPEMD160
 	{
@@ -38,9 +38,9 @@ namespace System::Security::Cryptography
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_INITIALIZE_OFFSET))(this);
 		}
 
-		::System::Void HashCore(::Il2CppArray<::System::Byte>* rgb, ::System::Int32 ibStart, ::System::Int32 cbSize)
+		::System::Void HashCore(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_HASHCORE_OFFSET))(this, rgb, ibStart, cbSize);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_HASHCORE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::Il2CppArray<::System::Byte>* HashFinal()
@@ -53,9 +53,9 @@ namespace System::Security::Cryptography
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_INITIALIZESTATE_OFFSET))(this);
 		}
 
-		::System::Void _HashData(::Il2CppArray<::System::Byte>* partIn, ::System::Int32 ibStart, ::System::Int32 cbSize)
+		::System::Void _HashData(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED__HASHDATA_OFFSET))(this, partIn, ibStart, cbSize);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED__HASHDATA_OFFSET))(this, a1, a2, a3);
 		}
 
 		::Il2CppArray<::System::Byte>* _EndHash()
@@ -63,34 +63,34 @@ namespace System::Security::Cryptography
 			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED__ENDHASH_OFFSET))(this);
 		}
 
-		static ::System::Void MDTransform(::System::UInt32* blockDWords, ::System::UInt32* state, ::System::Byte* block)
+		static ::System::Void MDTransform(::System::UInt32* a1, ::System::UInt32* a2, ::System::Byte* a3)
 		{
-			return ((::System::Void(*)(::System::UInt32*, ::System::UInt32*, ::System::Byte*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_MDTRANSFORM_OFFSET))(blockDWords, state, block);
+			return ((::System::Void(*)(::System::UInt32*, ::System::UInt32*, ::System::Byte*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_MDTRANSFORM_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::UInt32 F(::System::UInt32 x, ::System::UInt32 y, ::System::UInt32 z)
+		static ::System::UInt32 F(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_F_OFFSET))(x, y, z);
+			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_F_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::UInt32 G(::System::UInt32 x, ::System::UInt32 y, ::System::UInt32 z)
+		static ::System::UInt32 G(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_G_OFFSET))(x, y, z);
+			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_G_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::UInt32 H(::System::UInt32 x, ::System::UInt32 y, ::System::UInt32 z)
+		static ::System::UInt32 H(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_H_OFFSET))(x, y, z);
+			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_H_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::UInt32 I(::System::UInt32 x, ::System::UInt32 y, ::System::UInt32 z)
+		static ::System::UInt32 I(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_I_OFFSET))(x, y, z);
+			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_I_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::UInt32 J(::System::UInt32 x, ::System::UInt32 y, ::System::UInt32 z)
+		static ::System::UInt32 J(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_J_OFFSET))(x, y, z);
+			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160MANAGED_J_OFFSET))(a1, a2, a3);
 		}
 	};
 }

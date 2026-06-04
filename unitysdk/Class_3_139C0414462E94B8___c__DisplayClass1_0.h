@@ -8,10 +8,10 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_139C0414462E94B8___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF7C6110)
-#define CLASS_3_139C0414462E94B8___C__DISPLAYCLASS1_0__TRIGGEREFFECTS_B__0_OFFSET UNITYSDK_OFFSET(0xF7C6470)
+#define CLASS_3_139C0414462E94B8___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x179C3B60)
+#define CLASS_3_139C0414462E94B8___C__DISPLAYCLASS1_0__TRIGGEREFFECTS_B__0_OFFSET UNITYSDK_OFFSET(0x179C3EC0)
 
-inline static constexpr unsigned int Class_3_139C0414462E94B8___c__DisplayClass1_0_TypeDefinitionIndex = 48444;
+inline static constexpr unsigned int Class_3_139C0414462E94B8___c__DisplayClass1_0_TypeDefinitionIndex = 49070;
 
 class Class_3_139C0414462E94B8___c__DisplayClass1_0 : public ::System::Object
 {
@@ -24,8 +24,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_139C0414462E94B8___C__DISPLAYCLASS1_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Void _TriggerEffects_b__0(::RPG::Client::MonoEffect* eff, ::RPG::Client::TriggerEffectCallbackParams param)
+	::System::Void _TriggerEffects_b__0(::RPG::Client::MonoEffect* a1, ::RPG::Client::TriggerEffectCallbackParams a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams))((::PBYTE)hIl2Cpp + CLASS_3_139C0414462E94B8___C__DISPLAYCLASS1_0__TRIGGEREFFECTS_B__0_OFFSET))(this, eff, param);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams))((::PBYTE)hIl2Cpp + CLASS_3_139C0414462E94B8___C__DISPLAYCLASS1_0__TRIGGEREFFECTS_B__0_OFFSET))(this, a1, a2);
 	}
 };

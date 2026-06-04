@@ -6,21 +6,21 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_UIELEMENTS_STYLEINT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22F8C40)
-#define UNITYENGINE_UIELEMENTS_STYLEINT_EQUALS_OFFSET UNITYSDK_OFFSET(0x22F8C20)
-#define UNITYENGINE_UIELEMENTS_STYLEINT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22F8CA0)
-#define UNITYENGINE_UIELEMENTS_STYLEINT_GET_KEYWORD_OFFSET UNITYSDK_OFFSET(0x608A20)
-#define UNITYENGINE_UIELEMENTS_STYLEINT_GET_SPECIFICITY_OFFSET UNITYSDK_OFFSET(0x608310)
-#define UNITYENGINE_UIELEMENTS_STYLEINT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1FF83B0)
-#define UNITYENGINE_UIELEMENTS_STYLEINT_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1922B0E0)
-#define UNITYENGINE_UIELEMENTS_STYLEINT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1922B100)
-#define UNITYENGINE_UIELEMENTS_STYLEINT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22F8CC0)
-#define UNITYENGINE_UIELEMENTS_STYLEINT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FF83C0)
-#define UNITYENGINE_UIELEMENTS_STYLEINT__CTOR_OFFSET UNITYSDK_OFFSET(0x22F8C00)
+#define UNITYENGINE_UIELEMENTS_STYLEINT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x38AF7C0)
+#define UNITYENGINE_UIELEMENTS_STYLEINT_EQUALS_OFFSET UNITYSDK_OFFSET(0x38AF7A0)
+#define UNITYENGINE_UIELEMENTS_STYLEINT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x38AF820)
+#define UNITYENGINE_UIELEMENTS_STYLEINT_GET_KEYWORD_OFFSET UNITYSDK_OFFSET(0x72BBF0)
+#define UNITYENGINE_UIELEMENTS_STYLEINT_GET_SPECIFICITY_OFFSET UNITYSDK_OFFSET(0x66B8A0)
+#define UNITYENGINE_UIELEMENTS_STYLEINT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x3742D90)
+#define UNITYENGINE_UIELEMENTS_STYLEINT_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x19F92F50)
+#define UNITYENGINE_UIELEMENTS_STYLEINT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x19F92F70)
+#define UNITYENGINE_UIELEMENTS_STYLEINT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x38AF840)
+#define UNITYENGINE_UIELEMENTS_STYLEINT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3742DA0)
+#define UNITYENGINE_UIELEMENTS_STYLEINT__CTOR_OFFSET UNITYSDK_OFFSET(0x38AF780)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleInt_TypeDefinitionIndex = 5980;
+	inline static constexpr unsigned int StyleInt_TypeDefinitionIndex = 6257;
 
 	struct alignas(4) StyleInt
 	{
@@ -28,14 +28,14 @@ namespace UnityEngine::UIElements
 		::System::Int32 m_Value; // 0x14
 		::System::Int32 m_Specificity; // 0x18
 
-		::System::Void _ctor(::System::Int32 v)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEINT__CTOR_OFFSET))(this, v);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEINT__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::Int32 v, ::UnityEngine::UIElements::StyleKeyword keyword)
+		::System::Void _ctor_1(::System::Int32 a1, ::UnityEngine::UIElements::StyleKeyword a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::UIElements::StyleKeyword))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEINT__CTOR_1_OFFSET))(this, v, keyword);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::UIElements::StyleKeyword))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEINT__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_value()
@@ -53,24 +53,24 @@ namespace UnityEngine::UIElements
 			return ((::UnityEngine::UIElements::StyleKeyword(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEINT_GET_KEYWORD_OFFSET))(this);
 		}
 
-		static ::System::Boolean op_Equality(::UnityEngine::UIElements::StyleInt lhs, ::UnityEngine::UIElements::StyleInt rhs)
+		static ::System::Boolean op_Equality(::UnityEngine::UIElements::StyleInt a1, ::UnityEngine::UIElements::StyleInt a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::UIElements::StyleInt, ::UnityEngine::UIElements::StyleInt))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEINT_OP_EQUALITY_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::UnityEngine::UIElements::StyleInt, ::UnityEngine::UIElements::StyleInt))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEINT_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::UIElements::StyleInt op_Implicit(::System::Int32 v)
+		static ::UnityEngine::UIElements::StyleInt op_Implicit(::System::Int32 a1)
 		{
-			return ((::UnityEngine::UIElements::StyleInt(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEINT_OP_IMPLICIT_OFFSET))(v);
+			return ((::UnityEngine::UIElements::StyleInt(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEINT_OP_IMPLICIT_OFFSET))(a1);
 		}
 
-		::System::Boolean Equals(::UnityEngine::UIElements::StyleInt other)
+		::System::Boolean Equals(::UnityEngine::UIElements::StyleInt a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UIElements::StyleInt))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEINT_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UIElements::StyleInt))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEINT_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEINT_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEINT_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

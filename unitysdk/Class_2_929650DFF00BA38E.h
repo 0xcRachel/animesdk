@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class EnableFreelookCameraBattleTransitionMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_929650DFF00BA38E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x102EB6F0)
-#define CLASS_2_929650DFF00BA38E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x102EB730)
-#define CLASS_2_929650DFF00BA38E_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x102EC710)
-#define CLASS_2_929650DFF00BA38E_TICK_OFFSET UNITYSDK_OFFSET(0x102EC760)
-#define CLASS_2_929650DFF00BA38E__CTOR_OFFSET UNITYSDK_OFFSET(0x102EB6E0)
+#define CLASS_2_929650DFF00BA38E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x134C1610)
+#define CLASS_2_929650DFF00BA38E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x134C1650)
+#define CLASS_2_929650DFF00BA38E_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x134C2570)
+#define CLASS_2_929650DFF00BA38E_TICK_OFFSET UNITYSDK_OFFSET(0x134C25C0)
+#define CLASS_2_929650DFF00BA38E__CTOR_OFFSET UNITYSDK_OFFSET(0x134C1600)
 
-inline static constexpr unsigned int Class_2_929650DFF00BA38E_TypeDefinitionIndex = 53590;
+inline static constexpr unsigned int Class_2_929650DFF00BA38E_TypeDefinitionIndex = 54303;
 
 class Class_2_929650DFF00BA38E : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::EnableFreelookCameraBattleTransitionMode* Field_2_0; // 0x20
+	::RPG::GameCore::EnableFreelookCameraBattleTransitionMode* Field_2_0; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::EnableFreelookCameraBattleTransitionMode* a2)
 	{

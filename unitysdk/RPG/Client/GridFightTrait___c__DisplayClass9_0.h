@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class IGridFightTraitEffect; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAIT___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17BA9210)
-#define RPG_CLIENT_GRIDFIGHTTRAIT___C__DISPLAYCLASS9_0__GETEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x17BABBE0)
+#define RPG_CLIENT_GRIDFIGHTTRAIT___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x196480F0)
+#define RPG_CLIENT_GRIDFIGHTTRAIT___C__DISPLAYCLASS9_0__GETEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1964B2D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTrait___c__DisplayClass9_0_TypeDefinitionIndex = 60235;
+	inline static constexpr unsigned int GridFightTrait___c__DisplayClass9_0_TypeDefinitionIndex = 61170;
 
 	class GridFightTrait___c__DisplayClass9_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAIT___C__DISPLAYCLASS9_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetEffect_b__0(::RPG::Client::IGridFightTraitEffect* x)
+		::System::Boolean _GetEffect_b__0(::RPG::Client::IGridFightTraitEffect* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IGridFightTraitEffect*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAIT___C__DISPLAYCLASS9_0__GETEFFECT_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IGridFightTraitEffect*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAIT___C__DISPLAYCLASS9_0__GETEFFECT_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::UI { class BindingWelcome; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_UI_BINDINGWELCOME___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x183F40A0)
-#define MIHOYO_SDK_UI_BINDINGWELCOME___C__CTOR_OFFSET UNITYSDK_OFFSET(0x183F40E0)
-#define MIHOYO_SDK_UI_BINDINGWELCOME___C__SHOW_B__36_0_OFFSET UNITYSDK_OFFSET(0x183F40F0)
+#define MIHOYO_SDK_UI_BINDINGWELCOME___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E1F830)
+#define MIHOYO_SDK_UI_BINDINGWELCOME___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19E1F870)
+#define MIHOYO_SDK_UI_BINDINGWELCOME___C__SHOW_B__36_0_OFFSET UNITYSDK_OFFSET(0x19E1F880)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int BindingWelcome___c_TypeDefinitionIndex = 7415;
+	inline static constexpr unsigned int BindingWelcome___c_TypeDefinitionIndex = 8318;
 
 	class BindingWelcome___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::UI::BindingWelcome___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::UI::BindingWelcome___c**)Il2CppClass::FromTypeDefinitionIndex(BindingWelcome___c_TypeDefinitionIndex)->GetStaticField(0x16A50);
-		}
 		static ::System::Action_1<::MiHoYo::SDK::UI::BindingWelcome*>** StaticGet___9__36_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::UI::BindingWelcome*>**)Il2CppClass::FromTypeDefinitionIndex(BindingWelcome___c_TypeDefinitionIndex)->GetStaticField(0x16A58);
+			return (::System::Action_1<::MiHoYo::SDK::UI::BindingWelcome*>**)Il2CppClass::FromTypeDefinitionIndex(BindingWelcome___c_TypeDefinitionIndex)->GetStaticField(0x232A0);
+		}
+		static ::MiHoYo::SDK::UI::BindingWelcome___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::UI::BindingWelcome___c**)Il2CppClass::FromTypeDefinitionIndex(BindingWelcome___c_TypeDefinitionIndex)->GetStaticField(0x232A8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MiHoYo::SDK::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_BINDINGWELCOME___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__36_0(::MiHoYo::SDK::UI::BindingWelcome* dialog)
+		::System::Void _Show_b__36_0(::MiHoYo::SDK::UI::BindingWelcome* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::BindingWelcome*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_BINDINGWELCOME___C__SHOW_B__36_0_OFFSET))(this, dialog);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::BindingWelcome*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_BINDINGWELCOME___C__SHOW_B__36_0_OFFSET))(this, a1);
 		}
 	};
 }

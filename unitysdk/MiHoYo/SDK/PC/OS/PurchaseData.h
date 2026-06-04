@@ -6,11 +6,11 @@ namespace MiHoYo::SDK::PC::OS { class GooglePurchaseExtension; }
 namespace MiHoYo::SDK::PC::OS { class SteamPurchaseExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_PURCHASEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1742B090)
+#define MIHOYO_SDK_PC_OS_PURCHASEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x186A58E0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int PurchaseData_TypeDefinitionIndex = 7556;
+	inline static constexpr unsigned int PurchaseData_TypeDefinitionIndex = 8459;
 
 	class PurchaseData : public ::System::Object
 	{

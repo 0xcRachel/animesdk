@@ -18,26 +18,26 @@ namespace Epic::OnlineServices::UI { class SetToggleFriendsKeyOptions; }
 namespace Epic::OnlineServices::UI { class ShowFriendsOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_UI_UIINTERFACE_ACKNOWLEDGEEVENTID_OFFSET UNITYSDK_OFFSET(0x18CF5690)
-#define EPIC_ONLINESERVICES_UI_UIINTERFACE_ADDNOTIFYDISPLAYSETTINGSUPDATED_OFFSET UNITYSDK_OFFSET(0x18CF57F0)
-#define EPIC_ONLINESERVICES_UI_UIINTERFACE_GETFRIENDSVISIBLE_OFFSET UNITYSDK_OFFSET(0x18CF5A70)
-#define EPIC_ONLINESERVICES_UI_UIINTERFACE_GETNOTIFICATIONLOCATIONPREFERENCE_OFFSET UNITYSDK_OFFSET(0x18CF5CD0)
-#define EPIC_ONLINESERVICES_UI_UIINTERFACE_GETTOGGLEFRIENDSKEY_OFFSET UNITYSDK_OFFSET(0x18CF5D50)
-#define EPIC_ONLINESERVICES_UI_UIINTERFACE_HIDEFRIENDS_OFFSET UNITYSDK_OFFSET(0x18CF5F70)
-#define EPIC_ONLINESERVICES_UI_UIINTERFACE_ISVALIDKEYCOMBINATION_OFFSET UNITYSDK_OFFSET(0x18CF61B0)
-#define EPIC_ONLINESERVICES_UI_UIINTERFACE_ONDISPLAYSETTINGSUPDATEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x18CF54C0)
-#define EPIC_ONLINESERVICES_UI_UIINTERFACE_ONHIDEFRIENDSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x18CF5550)
-#define EPIC_ONLINESERVICES_UI_UIINTERFACE_ONSHOWFRIENDSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x18CF55E0)
-#define EPIC_ONLINESERVICES_UI_UIINTERFACE_REMOVENOTIFYDISPLAYSETTINGSUPDATED_OFFSET UNITYSDK_OFFSET(0x18CF62D0)
-#define EPIC_ONLINESERVICES_UI_UIINTERFACE_SETDISPLAYPREFERENCE_OFFSET UNITYSDK_OFFSET(0x18CF63B0)
-#define EPIC_ONLINESERVICES_UI_UIINTERFACE_SETTOGGLEFRIENDSKEY_OFFSET UNITYSDK_OFFSET(0x18CF6510)
-#define EPIC_ONLINESERVICES_UI_UIINTERFACE_SHOWFRIENDS_OFFSET UNITYSDK_OFFSET(0x18CF6670)
-#define EPIC_ONLINESERVICES_UI_UIINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18CF5680)
-#define EPIC_ONLINESERVICES_UI_UIINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x18CF5670)
+#define EPIC_ONLINESERVICES_UI_UIINTERFACE_ACKNOWLEDGEEVENTID_OFFSET UNITYSDK_OFFSET(0x19C49FB0)
+#define EPIC_ONLINESERVICES_UI_UIINTERFACE_ADDNOTIFYDISPLAYSETTINGSUPDATED_OFFSET UNITYSDK_OFFSET(0x19C4A110)
+#define EPIC_ONLINESERVICES_UI_UIINTERFACE_GETFRIENDSVISIBLE_OFFSET UNITYSDK_OFFSET(0x19C4A3C0)
+#define EPIC_ONLINESERVICES_UI_UIINTERFACE_GETNOTIFICATIONLOCATIONPREFERENCE_OFFSET UNITYSDK_OFFSET(0x19C4A620)
+#define EPIC_ONLINESERVICES_UI_UIINTERFACE_GETTOGGLEFRIENDSKEY_OFFSET UNITYSDK_OFFSET(0x19C4A6A0)
+#define EPIC_ONLINESERVICES_UI_UIINTERFACE_HIDEFRIENDS_OFFSET UNITYSDK_OFFSET(0x19C4A8E0)
+#define EPIC_ONLINESERVICES_UI_UIINTERFACE_ISVALIDKEYCOMBINATION_OFFSET UNITYSDK_OFFSET(0x19C4AB40)
+#define EPIC_ONLINESERVICES_UI_UIINTERFACE_ONDISPLAYSETTINGSUPDATEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x19C49DB0)
+#define EPIC_ONLINESERVICES_UI_UIINTERFACE_ONHIDEFRIENDSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x19C49E50)
+#define EPIC_ONLINESERVICES_UI_UIINTERFACE_ONSHOWFRIENDSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x19C49EF0)
+#define EPIC_ONLINESERVICES_UI_UIINTERFACE_REMOVENOTIFYDISPLAYSETTINGSUPDATED_OFFSET UNITYSDK_OFFSET(0x19C4AC60)
+#define EPIC_ONLINESERVICES_UI_UIINTERFACE_SETDISPLAYPREFERENCE_OFFSET UNITYSDK_OFFSET(0x19C4AD40)
+#define EPIC_ONLINESERVICES_UI_UIINTERFACE_SETTOGGLEFRIENDSKEY_OFFSET UNITYSDK_OFFSET(0x19C4AEA0)
+#define EPIC_ONLINESERVICES_UI_UIINTERFACE_SHOWFRIENDS_OFFSET UNITYSDK_OFFSET(0x19C4B000)
+#define EPIC_ONLINESERVICES_UI_UIINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19C49FA0)
+#define EPIC_ONLINESERVICES_UI_UIINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C49F90)
 
 namespace Epic::OnlineServices::UI
 {
-	inline static constexpr unsigned int UIInterface_TypeDefinitionIndex = 41159;
+	inline static constexpr unsigned int UIInterface_TypeDefinitionIndex = 41962;
 
 	class UIInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -60,24 +60,24 @@ namespace Epic::OnlineServices::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result AcknowledgeEventId(::Epic::OnlineServices::UI::AcknowledgeEventIdOptions* options)
+		::Epic::OnlineServices::Result AcknowledgeEventId(::Epic::OnlineServices::UI::AcknowledgeEventIdOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::UI::AcknowledgeEventIdOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_ACKNOWLEDGEEVENTID_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::UI::AcknowledgeEventIdOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_ACKNOWLEDGEEVENTID_OFFSET))(this, a1);
 		}
 
-		::System::UInt64 AddNotifyDisplaySettingsUpdated(::Epic::OnlineServices::UI::AddNotifyDisplaySettingsUpdatedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::UI::OnDisplaySettingsUpdatedCallback* notificationFn)
+		::System::UInt64 AddNotifyDisplaySettingsUpdated(::Epic::OnlineServices::UI::AddNotifyDisplaySettingsUpdatedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::UI::OnDisplaySettingsUpdatedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::UI::AddNotifyDisplaySettingsUpdatedOptions*, ::System::Object*, ::Epic::OnlineServices::UI::OnDisplaySettingsUpdatedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_ADDNOTIFYDISPLAYSETTINGSUPDATED_OFFSET))(this, options, clientData, notificationFn);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::UI::AddNotifyDisplaySettingsUpdatedOptions*, ::System::Object*, ::Epic::OnlineServices::UI::OnDisplaySettingsUpdatedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_ADDNOTIFYDISPLAYSETTINGSUPDATED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean GetFriendsVisible(::Epic::OnlineServices::UI::GetFriendsVisibleOptions* options)
+		::System::Boolean GetFriendsVisible(::Epic::OnlineServices::UI::GetFriendsVisibleOptions* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Epic::OnlineServices::UI::GetFriendsVisibleOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_GETFRIENDSVISIBLE_OFFSET))(this, options);
+			return ((::System::Boolean(*)(::PVOID, ::Epic::OnlineServices::UI::GetFriendsVisibleOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_GETFRIENDSVISIBLE_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::UI::NotificationLocation GetNotificationLocationPreference()
@@ -85,54 +85,54 @@ namespace Epic::OnlineServices::UI
 			return ((::Epic::OnlineServices::UI::NotificationLocation(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_GETNOTIFICATIONLOCATIONPREFERENCE_OFFSET))(this);
 		}
 
-		::Epic::OnlineServices::UI::KeyCombination GetToggleFriendsKey(::Epic::OnlineServices::UI::GetToggleFriendsKeyOptions* options)
+		::Epic::OnlineServices::UI::KeyCombination GetToggleFriendsKey(::Epic::OnlineServices::UI::GetToggleFriendsKeyOptions* a1)
 		{
-			return ((::Epic::OnlineServices::UI::KeyCombination(*)(::PVOID, ::Epic::OnlineServices::UI::GetToggleFriendsKeyOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_GETTOGGLEFRIENDSKEY_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::UI::KeyCombination(*)(::PVOID, ::Epic::OnlineServices::UI::GetToggleFriendsKeyOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_GETTOGGLEFRIENDSKEY_OFFSET))(this, a1);
 		}
 
-		::System::Void HideFriends(::Epic::OnlineServices::UI::HideFriendsOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::UI::OnHideFriendsCallback* completionDelegate)
+		::System::Void HideFriends(::Epic::OnlineServices::UI::HideFriendsOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::UI::OnHideFriendsCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::UI::HideFriendsOptions*, ::System::Object*, ::Epic::OnlineServices::UI::OnHideFriendsCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_HIDEFRIENDS_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::UI::HideFriendsOptions*, ::System::Object*, ::Epic::OnlineServices::UI::OnHideFriendsCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_HIDEFRIENDS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean IsValidKeyCombination(::Epic::OnlineServices::UI::KeyCombination keyCombination)
+		::System::Boolean IsValidKeyCombination(::Epic::OnlineServices::UI::KeyCombination a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Epic::OnlineServices::UI::KeyCombination))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_ISVALIDKEYCOMBINATION_OFFSET))(this, keyCombination);
+			return ((::System::Boolean(*)(::PVOID, ::Epic::OnlineServices::UI::KeyCombination))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_ISVALIDKEYCOMBINATION_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyDisplaySettingsUpdated(::System::UInt64 id)
+		::System::Void RemoveNotifyDisplaySettingsUpdated(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_REMOVENOTIFYDISPLAYSETTINGSUPDATED_OFFSET))(this, id);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_REMOVENOTIFYDISPLAYSETTINGSUPDATED_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SetDisplayPreference(::Epic::OnlineServices::UI::SetDisplayPreferenceOptions* options)
+		::Epic::OnlineServices::Result SetDisplayPreference(::Epic::OnlineServices::UI::SetDisplayPreferenceOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::UI::SetDisplayPreferenceOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_SETDISPLAYPREFERENCE_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::UI::SetDisplayPreferenceOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_SETDISPLAYPREFERENCE_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SetToggleFriendsKey(::Epic::OnlineServices::UI::SetToggleFriendsKeyOptions* options)
+		::Epic::OnlineServices::Result SetToggleFriendsKey(::Epic::OnlineServices::UI::SetToggleFriendsKeyOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::UI::SetToggleFriendsKeyOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_SETTOGGLEFRIENDSKEY_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::UI::SetToggleFriendsKeyOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_SETTOGGLEFRIENDSKEY_OFFSET))(this, a1);
 		}
 
-		::System::Void ShowFriends(::Epic::OnlineServices::UI::ShowFriendsOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::UI::OnShowFriendsCallback* completionDelegate)
+		::System::Void ShowFriends(::Epic::OnlineServices::UI::ShowFriendsOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::UI::OnShowFriendsCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::UI::ShowFriendsOptions*, ::System::Object*, ::Epic::OnlineServices::UI::OnShowFriendsCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_SHOWFRIENDS_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::UI::ShowFriendsOptions*, ::System::Object*, ::Epic::OnlineServices::UI::OnShowFriendsCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_SHOWFRIENDS_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void OnDisplaySettingsUpdatedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnDisplaySettingsUpdatedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_ONDISPLAYSETTINGSUPDATEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_ONDISPLAYSETTINGSUPDATEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnHideFriendsCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnHideFriendsCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_ONHIDEFRIENDSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_ONHIDEFRIENDSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnShowFriendsCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnShowFriendsCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_ONSHOWFRIENDSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_UIINTERFACE_ONSHOWFRIENDSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

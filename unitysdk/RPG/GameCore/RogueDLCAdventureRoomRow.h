@@ -5,28 +5,28 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEDLCADVENTUREROOMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1924F880)
-#define RPG_GAMECORE_ROGUEDLCADVENTUREROOMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1924F9F0)
+#define RPG_GAMECORE_ROGUEDLCADVENTUREROOMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19EA19D0)
+#define RPG_GAMECORE_ROGUEDLCADVENTUREROOMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19EA1B40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCAdventureRoomRow_TypeDefinitionIndex = 13981;
+	inline static constexpr unsigned int RogueDLCAdventureRoomRow_TypeDefinitionIndex = 14046;
 
 	class RogueDLCAdventureRoomRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::RogueAdventureGameplayType AdventureType; // 0x10
+		::System::UInt32 ParamGroupID; // 0x10
 		::System::UInt32 RoomID; // 0x14
-		::System::UInt32 ParamGroupID; // 0x18
+		::RPG::GameCore::RogueAdventureGameplayType AdventureType; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLCADVENTUREROOMROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueDLCAdventureRoomRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueDLCAdventureRoomRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueDLCAdventureRoomRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLCADVENTUREROOMROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueDLCAdventureRoomRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLCADVENTUREROOMROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int StreamingSourceAttachTargetType_TypeDefinitionIndex = 68059;
+	inline static constexpr unsigned int StreamingSourceAttachTargetType_TypeDefinitionIndex = 69019;
 
 	enum class StreamingSourceAttachTargetType : ::System::Int32
 	{

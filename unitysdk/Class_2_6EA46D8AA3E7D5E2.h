@@ -3,24 +3,24 @@
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 #include "unitysdk/RPG/GameCore/ArrayPoolWrapper_1.h"
 
-class Class_0_16E4307DCC419505_343;
+class Class_0_16E4307DCC419505_356;
 namespace RPG::GameCore { class RemoveModifier; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_6EA46D8AA3E7D5E2_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFE691E0)
-#define CLASS_2_6EA46D8AA3E7D5E2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFE69220)
-#define CLASS_2_6EA46D8AA3E7D5E2_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xFE69820)
-#define CLASS_2_6EA46D8AA3E7D5E2_TICK_OFFSET UNITYSDK_OFFSET(0xFE69870)
-#define CLASS_2_6EA46D8AA3E7D5E2__CTOR_OFFSET UNITYSDK_OFFSET(0xFE691D0)
+#define CLASS_2_6EA46D8AA3E7D5E2_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16F5F6A0)
+#define CLASS_2_6EA46D8AA3E7D5E2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16F5F6E0)
+#define CLASS_2_6EA46D8AA3E7D5E2_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16F5FCE0)
+#define CLASS_2_6EA46D8AA3E7D5E2_TICK_OFFSET UNITYSDK_OFFSET(0x16F5FD30)
+#define CLASS_2_6EA46D8AA3E7D5E2__CTOR_OFFSET UNITYSDK_OFFSET(0x16F5F690)
 
-inline static constexpr unsigned int Class_2_6EA46D8AA3E7D5E2_TypeDefinitionIndex = 50995;
+inline static constexpr unsigned int Class_2_6EA46D8AA3E7D5E2_TypeDefinitionIndex = 51665;
 
 class Class_2_6EA46D8AA3E7D5E2 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::RemoveModifier* Field_2_1; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_2; // 0x20
-	::RPG::GameCore::ArrayPoolWrapper_1<::Class_0_16E4307DCC419505_343*> Field_2_0; // 0x28
+	::RPG::GameCore::RemoveModifier* Field_2_0; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	::RPG::GameCore::ArrayPoolWrapper_1<::Class_0_16E4307DCC419505_356*> Field_2_2; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RemoveModifier* a2)
 	{

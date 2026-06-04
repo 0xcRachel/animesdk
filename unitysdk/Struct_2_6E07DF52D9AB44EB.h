@@ -1,0 +1,100 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Vector3Int.h"
+
+namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+
+#define STRUCT_2_6E07DF52D9AB44EB_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3751600)
+#define STRUCT_2_6E07DF52D9AB44EB_EQUALS_OFFSET UNITYSDK_OFFSET(0x3751550)
+#define STRUCT_2_6E07DF52D9AB44EB_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3751610)
+#define STRUCT_2_6E07DF52D9AB44EB_METHOD_2_5C23F9B3D2AAD5D2_OFFSET UNITYSDK_OFFSET(0xFD37D0)
+#define STRUCT_2_6E07DF52D9AB44EB_METHOD_2_7DFB4B9C80198D98_OFFSET UNITYSDK_OFFSET(0x3751440)
+#define STRUCT_2_6E07DF52D9AB44EB_METHOD_2_86843C648953ACC3_1_OFFSET UNITYSDK_OFFSET(0x3751510)
+#define STRUCT_2_6E07DF52D9AB44EB_METHOD_2_86843C648953ACC3_OFFSET UNITYSDK_OFFSET(0x37514D0)
+#define STRUCT_2_6E07DF52D9AB44EB_METHOD_2_CD1308E4C53DE628_OFFSET UNITYSDK_OFFSET(0x37513C0)
+#define STRUCT_2_6E07DF52D9AB44EB_METHOD_2_CE18697B63E52504_OFFSET UNITYSDK_OFFSET(0x3751460)
+#define STRUCT_2_6E07DF52D9AB44EB_METHOD_2_D7EDC4794300BE9C_OFFSET UNITYSDK_OFFSET(0x13B9B1D0)
+#define STRUCT_2_6E07DF52D9AB44EB__CCTOR_OFFSET UNITYSDK_OFFSET(0x13B9B8F0)
+#define STRUCT_2_6E07DF52D9AB44EB___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0x37516A0)
+#define STRUCT_2_6E07DF52D9AB44EB___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3751710)
+
+inline static constexpr unsigned int Struct_2_6E07DF52D9AB44EB_TypeDefinitionIndex = 48673;
+
+struct alignas(4) Struct_2_6E07DF52D9AB44EB
+{
+	static ::Struct_2_6E07DF52D9AB44EB* StaticGet_Field_2_0()
+	{
+		return (::Struct_2_6E07DF52D9AB44EB*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_6E07DF52D9AB44EB_TypeDefinitionIndex)->GetStaticField(0x12750);
+	}
+	::UnityEngine::Vector3Int Field_2_1; // 0x10
+	::UnityEngine::Vector3Int Field_2_2; // 0x1C
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + STRUCT_2_6E07DF52D9AB44EB__CCTOR_OFFSET))();
+	}
+
+	::UnityEngine::Vector3Int Method_2_5C23F9B3D2AAD5D2()
+	{
+		return ((::UnityEngine::Vector3Int(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_6E07DF52D9AB44EB_METHOD_2_5C23F9B3D2AAD5D2_OFFSET))(this);
+	}
+
+	::UnityEngine::Vector3Int Method_2_CD1308E4C53DE628()
+	{
+		return ((::UnityEngine::Vector3Int(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_6E07DF52D9AB44EB_METHOD_2_CD1308E4C53DE628_OFFSET))(this);
+	}
+
+	/*
+	::UnityEngine::Vector3 Method_2_7DFB4B9C80198D98()
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_6E07DF52D9AB44EB_METHOD_2_7DFB4B9C80198D98_OFFSET))(this);
+	}
+	*/
+
+	::System::Boolean Method_2_CE18697B63E52504()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_6E07DF52D9AB44EB_METHOD_2_CE18697B63E52504_OFFSET))(this);
+	}
+
+	::Struct_2_6E07DF52D9AB44EB Method_2_86843C648953ACC3(::Struct_2_6E07DF52D9AB44EB a1)
+	{
+		return ((::Struct_2_6E07DF52D9AB44EB(*)(::PVOID, ::Struct_2_6E07DF52D9AB44EB))((::PBYTE)hIl2Cpp + STRUCT_2_6E07DF52D9AB44EB_METHOD_2_86843C648953ACC3_OFFSET))(this, a1);
+	}
+
+	::Struct_2_6E07DF52D9AB44EB Method_2_86843C648953ACC3_1(::Struct_2_6E07DF52D9AB44EB a1)
+	{
+		return ((::Struct_2_6E07DF52D9AB44EB(*)(::PVOID, ::Struct_2_6E07DF52D9AB44EB))((::PBYTE)hIl2Cpp + STRUCT_2_6E07DF52D9AB44EB_METHOD_2_86843C648953ACC3_1_OFFSET))(this, a1);
+	}
+
+	static ::Struct_2_6E07DF52D9AB44EB Method_2_D7EDC4794300BE9C(::System::Collections::Generic::IEnumerable_1<::Struct_2_6E07DF52D9AB44EB>* a1)
+	{
+		return ((::Struct_2_6E07DF52D9AB44EB(*)(::System::Collections::Generic::IEnumerable_1<::Struct_2_6E07DF52D9AB44EB>*))((::PBYTE)hIl2Cpp + STRUCT_2_6E07DF52D9AB44EB_METHOD_2_D7EDC4794300BE9C_OFFSET))(a1);
+	}
+
+	::System::Boolean Equals(::Struct_2_6E07DF52D9AB44EB a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Struct_2_6E07DF52D9AB44EB))((::PBYTE)hIl2Cpp + STRUCT_2_6E07DF52D9AB44EB_EQUALS_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Equals_1(::System::Object* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + STRUCT_2_6E07DF52D9AB44EB_EQUALS_1_OFFSET))(this, a1);
+	}
+
+	::System::Int32 GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_6E07DF52D9AB44EB_GETHASHCODE_OFFSET))(this);
+	}
+
+	::System::Boolean __iFixBaseProxy_Equals(::System::Object* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + STRUCT_2_6E07DF52D9AB44EB___IFIXBASEPROXY_EQUALS_OFFSET))(this, a1);
+	}
+
+	::System::Int32 __iFixBaseProxy_GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_6E07DF52D9AB44EB___IFIXBASEPROXY_GETHASHCODE_OFFSET))(this);
+	}
+};

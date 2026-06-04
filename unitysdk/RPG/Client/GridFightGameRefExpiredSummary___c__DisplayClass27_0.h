@@ -5,13 +5,13 @@
 namespace RPG::Client { class GridFightGameFormation; }
 namespace RPG::Client { class GridFightSeasonRole; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17537580)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY___C__DISPLAYCLASS27_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x17537A50)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY___C__DISPLAYCLASS27_0___CTOR_B__2_OFFSET UNITYSDK_OFFSET(0x17537B70)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18D4FA80)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY___C__DISPLAYCLASS27_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x18D4FF40)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY___C__DISPLAYCLASS27_0___CTOR_B__2_OFFSET UNITYSDK_OFFSET(0x18D50060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefExpiredSummary___c__DisplayClass27_0_TypeDefinitionIndex = 59602;
+	inline static constexpr unsigned int GridFightGameRefExpiredSummary___c__DisplayClass27_0_TypeDefinitionIndex = 60537;
 
 	class GridFightGameRefExpiredSummary___c__DisplayClass27_0 : public ::System::Object
 	{
@@ -23,14 +23,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY___C__DISPLAYCLASS27_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __ctor_b__1(::RPG::Client::GridFightSeasonRole* x)
+		::System::Boolean __ctor_b__1(::RPG::Client::GridFightSeasonRole* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightSeasonRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY___C__DISPLAYCLASS27_0___CTOR_B__1_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightSeasonRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY___C__DISPLAYCLASS27_0___CTOR_B__1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __ctor_b__2(::RPG::Client::GridFightSeasonRole* x)
+		::System::Boolean __ctor_b__2(::RPG::Client::GridFightSeasonRole* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightSeasonRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY___C__DISPLAYCLASS27_0___CTOR_B__2_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightSeasonRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY___C__DISPLAYCLASS27_0___CTOR_B__2_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,10 +4,10 @@
 
 namespace RPG::Client { class MapEntityDef; }
 
-#define CLASS_2_7B875DB8377B17FA___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF0BC330)
-#define CLASS_2_7B875DB8377B17FA___C__DISPLAYCLASS5_0__REMOVESERVERENTITYDEF_B__0_OFFSET UNITYSDK_OFFSET(0xF0BC970)
+#define CLASS_2_7B875DB8377B17FA___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15450170)
+#define CLASS_2_7B875DB8377B17FA___C__DISPLAYCLASS5_0__REMOVESERVERENTITYDEF_B__0_OFFSET UNITYSDK_OFFSET(0x15450940)
 
-inline static constexpr unsigned int Class_2_7B875DB8377B17FA___c__DisplayClass5_0_TypeDefinitionIndex = 57324;
+inline static constexpr unsigned int Class_2_7B875DB8377B17FA___c__DisplayClass5_0_TypeDefinitionIndex = 58114;
 
 class Class_2_7B875DB8377B17FA___c__DisplayClass5_0 : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7B875DB8377B17FA___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean _RemoveServerEntityDef_b__0(::RPG::Client::MapEntityDef* elem)
+	::System::Boolean _RemoveServerEntityDef_b__0(::RPG::Client::MapEntityDef* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MapEntityDef*))((::PBYTE)hIl2Cpp + CLASS_2_7B875DB8377B17FA___C__DISPLAYCLASS5_0__REMOVESERVERENTITYDEF_B__0_OFFSET))(this, elem);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MapEntityDef*))((::PBYTE)hIl2Cpp + CLASS_2_7B875DB8377B17FA___C__DISPLAYCLASS5_0__REMOVESERVERENTITYDEF_B__0_OFFSET))(this, a1);
 	}
 };

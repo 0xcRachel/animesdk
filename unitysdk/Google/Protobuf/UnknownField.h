@@ -8,39 +8,39 @@ namespace Google::Protobuf { class UnknownFieldSet; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDFIXED32_OFFSET UNITYSDK_OFFSET(0x197A2350)
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDFIXED64_OFFSET UNITYSDK_OFFSET(0x197A23D0)
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDGROUP_OFFSET UNITYSDK_OFFSET(0x197A2450)
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDLENGTHDELIMITED_OFFSET UNITYSDK_OFFSET(0x197A2400)
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDVARINT_OFFSET UNITYSDK_OFFSET(0x197A2320)
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD_EQUALS_OFFSET UNITYSDK_OFFSET(0x197A1380)
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x197A1460)
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD_GETSERIALIZEDSIZE_OFFSET UNITYSDK_OFFSET(0x197A1AE0)
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x197A2260)
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD_WRITETO_OFFSET UNITYSDK_OFFSET(0x197A1500)
-#define GOOGLE_PROTOBUF_UNKNOWNFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x197A1370)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDFIXED32_OFFSET UNITYSDK_OFFSET(0x1A3867B0)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDFIXED64_OFFSET UNITYSDK_OFFSET(0x1A3867E0)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDGROUP_OFFSET UNITYSDK_OFFSET(0x1A386860)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDLENGTHDELIMITED_OFFSET UNITYSDK_OFFSET(0x1A386810)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDVARINT_OFFSET UNITYSDK_OFFSET(0x1A386780)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A385940)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A385A20)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD_GETSERIALIZEDSIZE_OFFSET UNITYSDK_OFFSET(0x1A385FB0)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1A3866C0)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1A385AC0)
+#define GOOGLE_PROTOBUF_UNKNOWNFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A385930)
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int UnknownField_TypeDefinitionIndex = 6210;
+	inline static constexpr unsigned int UnknownField_TypeDefinitionIndex = 5412;
 
 	class UnknownField : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* fixed32List; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt64>* fixed64List; // 0x18
-		::System::Collections::Generic::List_1<::Google::Protobuf::ByteString*>* lengthDelimitedList; // 0x20
-		::System::Collections::Generic::List_1<::System::UInt64>* varintList; // 0x28
-		::System::Collections::Generic::List_1<::Google::Protobuf::UnknownFieldSet*>* groupList; // 0x30
+		::System::Collections::Generic::List_1<::System::UInt64>* fixed64List; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* fixed32List; // 0x18
+		::System::Collections::Generic::List_1<::Google::Protobuf::UnknownFieldSet*>* groupList; // 0x20
+		::System::Collections::Generic::List_1<::Google::Protobuf::ByteString*>* lengthDelimitedList; // 0x28
+		::System::Collections::Generic::List_1<::System::UInt64>* varintList; // 0x30
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_UNKNOWNFIELD__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* other)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_UNKNOWNFIELD_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_UNKNOWNFIELD_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -48,44 +48,44 @@ namespace Google::Protobuf
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_UNKNOWNFIELD_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Void WriteTo(::System::Int32 fieldNumber, ::Google::Protobuf::CodedOutputStream* output)
+		::System::Void WriteTo(::System::Int32 a1, ::Google::Protobuf::CodedOutputStream* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_UNKNOWNFIELD_WRITETO_OFFSET))(this, fieldNumber, output);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_UNKNOWNFIELD_WRITETO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 GetSerializedSize(::System::Int32 fieldNumber)
+		::System::Int32 GetSerializedSize(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_UNKNOWNFIELD_GETSERIALIZEDSIZE_OFFSET))(this, fieldNumber);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_UNKNOWNFIELD_GETSERIALIZEDSIZE_OFFSET))(this, a1);
 		}
 
-		::Google::Protobuf::UnknownField* MergeFrom(::Google::Protobuf::UnknownField* other)
+		::Google::Protobuf::UnknownField* MergeFrom(::Google::Protobuf::UnknownField* a1)
 		{
-			return ((::Google::Protobuf::UnknownField*(*)(::PVOID, ::Google::Protobuf::UnknownField*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_UNKNOWNFIELD_MERGEFROM_OFFSET))(this, other);
+			return ((::Google::Protobuf::UnknownField*(*)(::PVOID, ::Google::Protobuf::UnknownField*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_UNKNOWNFIELD_MERGEFROM_OFFSET))(this, a1);
 		}
 
-		::Google::Protobuf::UnknownField* AddVarint(::System::UInt64 value)
+		::Google::Protobuf::UnknownField* AddVarint(::System::UInt64 a1)
 		{
-			return ((::Google::Protobuf::UnknownField*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDVARINT_OFFSET))(this, value);
+			return ((::Google::Protobuf::UnknownField*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDVARINT_OFFSET))(this, a1);
 		}
 
-		::Google::Protobuf::UnknownField* AddFixed32(::System::UInt32 value)
+		::Google::Protobuf::UnknownField* AddFixed32(::System::UInt32 a1)
 		{
-			return ((::Google::Protobuf::UnknownField*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDFIXED32_OFFSET))(this, value);
+			return ((::Google::Protobuf::UnknownField*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDFIXED32_OFFSET))(this, a1);
 		}
 
-		::Google::Protobuf::UnknownField* AddFixed64(::System::UInt64 value)
+		::Google::Protobuf::UnknownField* AddFixed64(::System::UInt64 a1)
 		{
-			return ((::Google::Protobuf::UnknownField*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDFIXED64_OFFSET))(this, value);
+			return ((::Google::Protobuf::UnknownField*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDFIXED64_OFFSET))(this, a1);
 		}
 
-		::Google::Protobuf::UnknownField* AddLengthDelimited(::Google::Protobuf::ByteString* value)
+		::Google::Protobuf::UnknownField* AddLengthDelimited(::Google::Protobuf::ByteString* a1)
 		{
-			return ((::Google::Protobuf::UnknownField*(*)(::PVOID, ::Google::Protobuf::ByteString*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDLENGTHDELIMITED_OFFSET))(this, value);
+			return ((::Google::Protobuf::UnknownField*(*)(::PVOID, ::Google::Protobuf::ByteString*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDLENGTHDELIMITED_OFFSET))(this, a1);
 		}
 
-		::Google::Protobuf::UnknownField* AddGroup(::Google::Protobuf::UnknownFieldSet* value)
+		::Google::Protobuf::UnknownField* AddGroup(::Google::Protobuf::UnknownFieldSet* a1)
 		{
-			return ((::Google::Protobuf::UnknownField*(*)(::PVOID, ::Google::Protobuf::UnknownFieldSet*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDGROUP_OFFSET))(this, value);
+			return ((::Google::Protobuf::UnknownField*(*)(::PVOID, ::Google::Protobuf::UnknownFieldSet*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_UNKNOWNFIELD_ADDGROUP_OFFSET))(this, a1);
 		}
 	};
 }

@@ -9,22 +9,22 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19FC9F20)
-#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS47_0__REACTIVATEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x19FCE920)
-#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS47_0__REACTIVATEACCOUNT_B__1_OFFSET UNITYSDK_OFFSET(0x19FCED80)
-#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS47_0__REACTIVATEACCOUNT_B__2_OFFSET UNITYSDK_OFFSET(0x19FCEA40)
+#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3F4D60)
+#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS47_0__REACTIVATEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1B3F95F0)
+#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS47_0__REACTIVATEACCOUNT_B__1_OFFSET UNITYSDK_OFFSET(0x1B3F9A50)
+#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS47_0__REACTIVATEACCOUNT_B__2_OFFSET UNITYSDK_OFFSET(0x1B3F9720)
 
 namespace MiHoYo::SDK::Windows::OS
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass47_0_TypeDefinitionIndex = 7394;
+	inline static constexpr unsigned int BindManager___c__DisplayClass47_0_TypeDefinitionIndex = 8297;
 
 	class BindManager___c__DisplayClass47_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::UI::OS::IAlertDialog* alertDialog; // 0x10
-		::System::String* reactivateTicket; // 0x18
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* __9__2; // 0x20
-		::MiHoYo::SDK::Windows::OS::BindManager* __4__this; // 0x28
+		::System::String* reactivateTicket; // 0x10
+		::MiHoYo::SDK::UI::OS::IAlertDialog* alertDialog; // 0x18
+		::MiHoYo::SDK::Windows::OS::BindManager* __4__this; // 0x20
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* __9__2; // 0x28
 		::System::Action* completeCallback; // 0x30
 
 		::System::Void _ctor()
@@ -37,9 +37,9 @@ namespace MiHoYo::SDK::Windows::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS47_0__REACTIVATEACCOUNT_B__0_OFFSET))(this);
 		}
 
-		::System::Void _ReactivateAccount_b__2(::MiHoYo::SDK::NetworkResponseModelEx* response)
+		::System::Void _ReactivateAccount_b__2(::MiHoYo::SDK::NetworkResponseModelEx* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModelEx*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS47_0__REACTIVATEACCOUNT_B__2_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModelEx*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS47_0__REACTIVATEACCOUNT_B__2_OFFSET))(this, a1);
 		}
 
 		::System::Void _ReactivateAccount_b__1()

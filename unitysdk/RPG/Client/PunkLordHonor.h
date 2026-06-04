@@ -5,15 +5,15 @@
 
 namespace RPG::GameCore { class PunkLordHonorRow; }
 
-#define RPG_CLIENT_PUNKLORDHONOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x14EA94D0)
-#define RPG_CLIENT_PUNKLORDHONOR_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x14EA9500)
-#define RPG_CLIENT_PUNKLORDHONOR_GET_ROW_OFFSET UNITYSDK_OFFSET(0x14EA94B0)
-#define RPG_CLIENT_PUNKLORDHONOR_SET_ROW_OFFSET UNITYSDK_OFFSET(0x14EA94C0)
-#define RPG_CLIENT_PUNKLORDHONOR__CTOR_OFFSET UNITYSDK_OFFSET(0x14EA9470)
+#define RPG_CLIENT_PUNKLORDHONOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1714AED0)
+#define RPG_CLIENT_PUNKLORDHONOR_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1714AF00)
+#define RPG_CLIENT_PUNKLORDHONOR_GET_ROW_OFFSET UNITYSDK_OFFSET(0x1714AEB0)
+#define RPG_CLIENT_PUNKLORDHONOR_SET_ROW_OFFSET UNITYSDK_OFFSET(0x1714AEC0)
+#define RPG_CLIENT_PUNKLORDHONOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1714AE70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PunkLordHonor_TypeDefinitionIndex = 61468;
+	inline static constexpr unsigned int PunkLordHonor_TypeDefinitionIndex = 62401;
 
 	class PunkLordHonor : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 		::RPG::GameCore::PunkLordHonorRow* _Row_k__BackingField; // 0x10
 		::System::UInt32 UID; // 0x18
 
-		::System::Void _ctor(::System::UInt32 honorConfigID, ::System::UInt32 userID)
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDHONOR__CTOR_OFFSET))(this, honorConfigID, userID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDHONOR__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::GameCore::PunkLordHonorRow* get_Row()
@@ -31,9 +31,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::PunkLordHonorRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDHONOR_GET_ROW_OFFSET))(this);
 		}
 
-		::System::Void set_Row(::RPG::GameCore::PunkLordHonorRow* value)
+		::System::Void set_Row(::RPG::GameCore::PunkLordHonorRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PunkLordHonorRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDHONOR_SET_ROW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PunkLordHonorRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDHONOR_SET_ROW_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_Name()

@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITMOVECONFIG_METHOD_3_5238D20B8524A9DD_OFFSET UNITYSDK_OFFSET(0x18D37CD0)
-#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITMOVECONFIG_METHOD_3_B68313F30913D940_OFFSET UNITYSDK_OFFSET(0x18D37D40)
-#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18D37D20)
+#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITMOVECONFIG_METHOD_3_448F5AC78C0793D2_OFFSET UNITYSDK_OFFSET(0x199EE770)
+#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITMOVECONFIG_METHOD_3_C80F214E4A7D8B26_OFFSET UNITYSDK_OFFSET(0x199EE7E0)
+#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199EE7C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimFloatingSpiritMoveConfig_TypeDefinitionIndex = 15811;
+	inline static constexpr unsigned int FiveDimFloatingSpiritMoveConfig_TypeDefinitionIndex = 15866;
 
 	class FiveDimFloatingSpiritMoveConfig : public ::RPG::GameCore::FiveDimPropMoveConfig
 	{
@@ -32,14 +32,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMFLOATINGSPIRITMOVECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5238D20B8524A9DD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimFloatingSpiritMoveConfig*& a2)
+		static ::System::Void Method_3_448F5AC78C0793D2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimFloatingSpiritMoveConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimFloatingSpiritMoveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMFLOATINGSPIRITMOVECONFIG_METHOD_3_5238D20B8524A9DD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimFloatingSpiritMoveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMFLOATINGSPIRITMOVECONFIG_METHOD_3_448F5AC78C0793D2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B68313F30913D940(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimFloatingSpiritMoveConfig* a2)
+		static ::System::Void Method_3_C80F214E4A7D8B26(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimFloatingSpiritMoveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimFloatingSpiritMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMFLOATINGSPIRITMOVECONFIG_METHOD_3_B68313F30913D940_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimFloatingSpiritMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMFLOATINGSPIRITMOVECONFIG_METHOD_3_C80F214E4A7D8B26_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvRemoveNpcVisionConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FBE46DEB2C505F3D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE3C2FC0)
-#define CLASS_3_FBE46DEB2C505F3D__CTOR_OFFSET UNITYSDK_OFFSET(0xE3C2F90)
+#define CLASS_3_FBE46DEB2C505F3D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14F66C80)
+#define CLASS_3_FBE46DEB2C505F3D__CTOR_OFFSET UNITYSDK_OFFSET(0x14F66C50)
 
-inline static constexpr unsigned int Class_3_FBE46DEB2C505F3D_TypeDefinitionIndex = 48456;
+inline static constexpr unsigned int Class_3_FBE46DEB2C505F3D_TypeDefinitionIndex = 49082;
 
 class Class_3_FBE46DEB2C505F3D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvRemoveNpcVisionConfig*>
 {

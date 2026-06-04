@@ -5,13 +5,13 @@
 
 namespace System { class Object; }
 
-#define MONO_RUNTIMECLASSHANDLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x225E4B0)
-#define MONO_RUNTIMECLASSHANDLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x608A20)
-#define MONO_RUNTIMECLASSHANDLE_GETTYPEFROMCLASS_OFFSET UNITYSDK_OFFSET(0x166C8FF0)
-#define MONO_RUNTIMECLASSHANDLE_GETTYPEHANDLE_OFFSET UNITYSDK_OFFSET(0x225E4C0)
-#define MONO_RUNTIMECLASSHANDLE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x5078B0)
-#define MONO_RUNTIMECLASSHANDLE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x6163B0)
-#define MONO_RUNTIMECLASSHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x6163B0)
+#define MONO_RUNTIMECLASSHANDLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3755520)
+#define MONO_RUNTIMECLASSHANDLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x72BBF0)
+#define MONO_RUNTIMECLASSHANDLE_GETTYPEFROMCLASS_OFFSET UNITYSDK_OFFSET(0x13F7AA20)
+#define MONO_RUNTIMECLASSHANDLE_GETTYPEHANDLE_OFFSET UNITYSDK_OFFSET(0x3755530)
+#define MONO_RUNTIMECLASSHANDLE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x66AF90)
+#define MONO_RUNTIMECLASSHANDLE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x66AF20)
+#define MONO_RUNTIMECLASSHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x66AF20)
 
 namespace Mono
 {
@@ -21,14 +21,14 @@ namespace Mono
 	{
 		::Mono::RuntimeStructs_MonoClass* value; // 0x10
 
-		::System::Void _ctor(::Mono::RuntimeStructs_MonoClass* value)
+		::System::Void _ctor(::Mono::RuntimeStructs_MonoClass* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::RuntimeStructs_MonoClass*))((::PBYTE)hIl2Cpp + MONO_RUNTIMECLASSHANDLE__CTOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Mono::RuntimeStructs_MonoClass*))((::PBYTE)hIl2Cpp + MONO_RUNTIMECLASSHANDLE__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr ptr)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_RUNTIMECLASSHANDLE__CTOR_1_OFFSET))(this, ptr);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_RUNTIMECLASSHANDLE__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::Mono::RuntimeStructs_MonoClass* get_Value()
@@ -36,9 +36,9 @@ namespace Mono
 			return ((::Mono::RuntimeStructs_MonoClass*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_RUNTIMECLASSHANDLE_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_RUNTIMECLASSHANDLE_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_RUNTIMECLASSHANDLE_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -46,9 +46,9 @@ namespace Mono
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_RUNTIMECLASSHANDLE_GETHASHCODE_OFFSET))(this);
 		}
 
-		static ::System::IntPtr GetTypeFromClass(::Mono::RuntimeStructs_MonoClass* klass)
+		static ::System::IntPtr GetTypeFromClass(::Mono::RuntimeStructs_MonoClass* a1)
 		{
-			return ((::System::IntPtr(*)(::Mono::RuntimeStructs_MonoClass*))((::PBYTE)hIl2Cpp + MONO_RUNTIMECLASSHANDLE_GETTYPEFROMCLASS_OFFSET))(klass);
+			return ((::System::IntPtr(*)(::Mono::RuntimeStructs_MonoClass*))((::PBYTE)hIl2Cpp + MONO_RUNTIMECLASSHANDLE_GETTYPEFROMCLASS_OFFSET))(a1);
 		}
 
 		/*

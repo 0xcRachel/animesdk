@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_SDKDELEGATE_ONGAMEROLEUPDATEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x157DBF20)
-#define MIHOYO_SDK_SDKDELEGATE_ONGAMEROLEUPDATEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x157DBF50)
-#define MIHOYO_SDK_SDKDELEGATE_ONGAMEROLEUPDATEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x157DB9D0)
-#define MIHOYO_SDK_SDKDELEGATE_ONGAMEROLEUPDATEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x157DB9B0)
+#define MIHOYO_SDK_SDKDELEGATE_ONGAMEROLEUPDATEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16A4A750)
+#define MIHOYO_SDK_SDKDELEGATE_ONGAMEROLEUPDATEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16A4A780)
+#define MIHOYO_SDK_SDKDELEGATE_ONGAMEROLEUPDATEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16A4A740)
+#define MIHOYO_SDK_SDKDELEGATE_ONGAMEROLEUPDATEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16A4A650)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_OnGameRoleUpdateDelegate_TypeDefinitionIndex = 6843;
+	inline static constexpr unsigned int SDKDelegate_OnGameRoleUpdateDelegate_TypeDefinitionIndex = 7746;
 
 	class SDKDelegate_OnGameRoleUpdateDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGAMEROLEUPDATEDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGAMEROLEUPDATEDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::MiHoYo::SDK::GameRoleModel* role)
+		::System::Void Invoke(::MiHoYo::SDK::GameRoleModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::GameRoleModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGAMEROLEUPDATEDELEGATE_INVOKE_OFFSET))(this, role);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::GameRoleModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGAMEROLEUPDATEDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::GameRoleModel* role, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::GameRoleModel* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::GameRoleModel*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGAMEROLEUPDATEDELEGATE_BEGININVOKE_OFFSET))(this, role, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::GameRoleModel*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGAMEROLEUPDATEDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGAMEROLEUPDATEDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGAMEROLEUPDATEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

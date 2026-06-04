@@ -10,31 +10,31 @@ namespace System::Runtime::Remoting::Messaging { class IMethodCallMessage; }
 namespace System::Runtime::Remoting::Messaging { class LogicalCallContext; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONRESPONSE_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x17AC80F0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONRESPONSE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17AC7E30)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONRESPONSE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x17AC7F50)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONRESPONSE__CTOR_OFFSET UNITYSDK_OFFSET(0x17AC7D00)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONRESPONSE_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1744AA00)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONRESPONSE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1744A720)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONRESPONSE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1744A840)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONRESPONSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1744A5F0)
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int ConstructionResponse_TypeDefinitionIndex = 1301;
+	inline static constexpr unsigned int ConstructionResponse_TypeDefinitionIndex = 1300;
 
 	class ConstructionResponse : public ::System::Runtime::Remoting::Messaging::MethodResponse
 	{
 	public:
-		::System::Void _ctor(::System::Object* resultObject, ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg)
+		::System::Void _ctor(::System::Object* a1, ::System::Runtime::Remoting::Messaging::LogicalCallContext* a2, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Runtime::Remoting::Messaging::LogicalCallContext*, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONRESPONSE__CTOR_OFFSET))(this, resultObject, callCtx, msg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Runtime::Remoting::Messaging::LogicalCallContext*, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONRESPONSE__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _ctor_1(::System::Exception* e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg)
+		::System::Void _ctor_1(::System::Exception* a1, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONRESPONSE__CTOR_1_OFFSET))(this, e, msg);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONRESPONSE__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONRESPONSE__CTOR_2_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CONSTRUCTIONRESPONSE__CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::IDictionary* get_Properties()

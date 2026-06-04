@@ -6,63 +6,63 @@ namespace System::Text { class EncoderFallbackBuffer; }
 namespace System::Text { class EncoderNLS; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_1_OFFSET UNITYSDK_OFFSET(0x18736A70)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_2_OFFSET UNITYSDK_OFFSET(0x18736AB0)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_3_OFFSET UNITYSDK_OFFSET(0x18736B20)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_OFFSET UNITYSDK_OFFSET(0x18736980)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GETNEXTCHAR_OFFSET UNITYSDK_OFFSET(0x18736BF0)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GET_CHARSUSED_OFFSET UNITYSDK_OFFSET(0x18736C50)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x18736C70)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GET_MOREDATA_OFFSET UNITYSDK_OFFSET(0x18736BA0)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_MOVEPREVIOUS_OFFSET UNITYSDK_OFFSET(0x187369C0)
-#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x18736710)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_1_OFFSET UNITYSDK_OFFSET(0x1856CA90)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_2_OFFSET UNITYSDK_OFFSET(0x1856CAD0)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_3_OFFSET UNITYSDK_OFFSET(0x1856CB40)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_OFFSET UNITYSDK_OFFSET(0x1856C9A0)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GETNEXTCHAR_OFFSET UNITYSDK_OFFSET(0x1856CC10)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GET_CHARSUSED_OFFSET UNITYSDK_OFFSET(0x1856CC70)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1856CC90)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_GET_MOREDATA_OFFSET UNITYSDK_OFFSET(0x1856CBC0)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_MOVEPREVIOUS_OFFSET UNITYSDK_OFFSET(0x1856C9E0)
+#define SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1856C730)
 
 namespace System::Text
 {
-	inline static constexpr unsigned int Encoding_EncodingByteBuffer_TypeDefinitionIndex = 491;
+	inline static constexpr unsigned int Encoding_EncodingByteBuffer_TypeDefinitionIndex = 490;
 
 	class Encoding_EncodingByteBuffer : public ::System::Object
 	{
 	public:
 		::System::Text::EncoderNLS* encoder; // 0x10
-		::System::Text::Encoding* enc; // 0x18
-		::System::Text::EncoderFallbackBuffer* fallbackBuffer; // 0x20
+		::System::Text::EncoderFallbackBuffer* fallbackBuffer; // 0x18
+		::System::Text::Encoding* enc; // 0x20
 		::System::Byte* byteEnd; // 0x28
-		::System::Byte* bytes; // 0x30
-		::System::Char* chars; // 0x38
+		::System::Char* charEnd; // 0x30
+		::System::Byte* bytes; // 0x38
 		::System::Char* charStart; // 0x40
-		::System::Byte* byteStart; // 0x48
-		::System::Int32 byteCountResult; // 0x50
-		::System::Char* charEnd; // 0x58
+		::System::Char* chars; // 0x48
+		::System::Byte* byteStart; // 0x50
+		::System::Int32 byteCountResult; // 0x58
 
-		::System::Void _ctor(::System::Text::Encoding* inEncoding, ::System::Text::EncoderNLS* inEncoder, ::System::Byte* inByteStart, ::System::Int32 inByteCount, ::System::Char* inCharStart, ::System::Int32 inCharCount)
+		::System::Void _ctor(::System::Text::Encoding* a1, ::System::Text::EncoderNLS* a2, ::System::Byte* a3, ::System::Int32 a4, ::System::Char* a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::Encoding*, ::System::Text::EncoderNLS*, ::System::Byte*, ::System::Int32, ::System::Char*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER__CTOR_OFFSET))(this, inEncoding, inEncoder, inByteStart, inByteCount, inCharStart, inCharCount);
+			return ((::System::Void(*)(::PVOID, ::System::Text::Encoding*, ::System::Text::EncoderNLS*, ::System::Byte*, ::System::Int32, ::System::Char*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Boolean AddByte(::System::Byte b, ::System::Int32 moreBytesExpected)
+		::System::Boolean AddByte(::System::Byte a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Byte, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_OFFSET))(this, b, moreBytesExpected);
+			return ((::System::Boolean(*)(::PVOID, ::System::Byte, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean AddByte_1(::System::Byte b1)
+		::System::Boolean AddByte_1(::System::Byte a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_1_OFFSET))(this, b1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean AddByte_2(::System::Byte b1, ::System::Byte b2)
+		::System::Boolean AddByte_2(::System::Byte a1, ::System::Byte a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Byte, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_2_OFFSET))(this, b1, b2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Byte, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean AddByte_3(::System::Byte b1, ::System::Byte b2, ::System::Int32 moreBytesExpected)
+		::System::Boolean AddByte_3(::System::Byte a1, ::System::Byte a2, ::System::Int32 a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Byte, ::System::Byte, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_3_OFFSET))(this, b1, b2, moreBytesExpected);
+			return ((::System::Boolean(*)(::PVOID, ::System::Byte, ::System::Byte, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_ADDBYTE_3_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void MovePrevious(::System::Boolean bThrow)
+		::System::Void MovePrevious(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_MOVEPREVIOUS_OFFSET))(this, bThrow);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_ENCODINGBYTEBUFFER_MOVEPREVIOUS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_MoreData()

@@ -12,34 +12,34 @@ namespace UnityEngine::UI { class Dropdown; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_DATEPICKER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1546A200)
-#define MIHOYO_SDK_WIN_DATEPICKER_BACK_OFFSET UNITYSDK_OFFSET(0x1546B980)
-#define MIHOYO_SDK_WIN_DATEPICKER_CHECKINPUTVALID_1_OFFSET UNITYSDK_OFFSET(0x1546B8E0)
-#define MIHOYO_SDK_WIN_DATEPICKER_CHECKINPUTVALID_OFFSET UNITYSDK_OFFSET(0x1546B3F0)
-#define MIHOYO_SDK_WIN_DATEPICKER_CONFIRM_OFFSET UNITYSDK_OFFSET(0x1546B700)
-#define MIHOYO_SDK_WIN_DATEPICKER_HIDE_OFFSET UNITYSDK_OFFSET(0x1546B6A0)
-#define MIHOYO_SDK_WIN_DATEPICKER_ONCOLLAPSELIST_OFFSET UNITYSDK_OFFSET(0x1546B4B0)
-#define MIHOYO_SDK_WIN_DATEPICKER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1546B9F0)
-#define MIHOYO_SDK_WIN_DATEPICKER_ONNOTICEEXPANDDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1546B3A0)
-#define MIHOYO_SDK_WIN_DATEPICKER_SHOW_OFFSET UNITYSDK_OFFSET(0x1546B500)
-#define MIHOYO_SDK_WIN_DATEPICKER_UPDATEPICKER_OFFSET UNITYSDK_OFFSET(0x1546B0A0)
-#define MIHOYO_SDK_WIN_DATEPICKER_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1546B180)
-#define MIHOYO_SDK_WIN_DATEPICKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1546BA30)
+#define MIHOYO_SDK_WIN_DATEPICKER_AWAKE_OFFSET UNITYSDK_OFFSET(0x153BBEB0)
+#define MIHOYO_SDK_WIN_DATEPICKER_BACK_OFFSET UNITYSDK_OFFSET(0x153BD6C0)
+#define MIHOYO_SDK_WIN_DATEPICKER_CHECKINPUTVALID_1_OFFSET UNITYSDK_OFFSET(0x153BD620)
+#define MIHOYO_SDK_WIN_DATEPICKER_CHECKINPUTVALID_OFFSET UNITYSDK_OFFSET(0x153BD140)
+#define MIHOYO_SDK_WIN_DATEPICKER_CONFIRM_OFFSET UNITYSDK_OFFSET(0x153BD440)
+#define MIHOYO_SDK_WIN_DATEPICKER_HIDE_OFFSET UNITYSDK_OFFSET(0x153BD420)
+#define MIHOYO_SDK_WIN_DATEPICKER_ONCOLLAPSELIST_OFFSET UNITYSDK_OFFSET(0x153BD200)
+#define MIHOYO_SDK_WIN_DATEPICKER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x153BD710)
+#define MIHOYO_SDK_WIN_DATEPICKER_ONNOTICEEXPANDDROPDOWN_OFFSET UNITYSDK_OFFSET(0x153BD0F0)
+#define MIHOYO_SDK_WIN_DATEPICKER_SHOW_OFFSET UNITYSDK_OFFSET(0x153BD250)
+#define MIHOYO_SDK_WIN_DATEPICKER_UPDATEPICKER_OFFSET UNITYSDK_OFFSET(0x153BCDF0)
+#define MIHOYO_SDK_WIN_DATEPICKER_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x153BCED0)
+#define MIHOYO_SDK_WIN_DATEPICKER__CTOR_OFFSET UNITYSDK_OFFSET(0x153BD730)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int DatePicker_TypeDefinitionIndex = 8041;
+	inline static constexpr unsigned int DatePicker_TypeDefinitionIndex = 8944;
 
 	class DatePicker : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		static ::MiHoYo::SDK::Win::DatePicker** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::DatePicker**)Il2CppClass::FromTypeDefinitionIndex(DatePicker_TypeDefinitionIndex)->GetStaticField(0x8A0);
+			return (::MiHoYo::SDK::Win::DatePicker**)Il2CppClass::FromTypeDefinitionIndex(DatePicker_TypeDefinitionIndex)->GetStaticField(0x910);
 		}
 		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
 		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(DatePicker_TypeDefinitionIndex)->GetStaticField(0x8A8);
+			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(DatePicker_TypeDefinitionIndex)->GetStaticField(0x918);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* backBtnPath; // 0x0
@@ -104,9 +104,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DATEPICKER_UPDATEPICKER_OFFSET))(this);
 		}
 
-		static ::System::Void Show(::System::Int32 priority)
+		static ::System::Void Show(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DATEPICKER_SHOW_OFFSET))(priority);
+			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DATEPICKER_SHOW_OFFSET))(a1);
 		}
 
 		static ::System::Void Hide()
@@ -124,9 +124,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DATEPICKER_CHECKINPUTVALID_OFFSET))(this);
 		}
 
-		::System::Void CheckInputValid_1(::System::String* s)
+		::System::Void CheckInputValid_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DATEPICKER_CHECKINPUTVALID_1_OFFSET))(this, s);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DATEPICKER_CHECKINPUTVALID_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Back()

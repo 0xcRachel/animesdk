@@ -4,29 +4,29 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_LAYERMASK_GETMASK_OFFSET UNITYSDK_OFFSET(0x1A46B660)
-#define UNITYENGINE_LAYERMASK_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x608A20)
-#define UNITYENGINE_LAYERMASK_NAMETOLAYER_OFFSET UNITYSDK_OFFSET(0x1A46B650)
-#define UNITYENGINE_LAYERMASK_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1A46B620)
-#define UNITYENGINE_LAYERMASK_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1A46B610)
-#define UNITYENGINE_LAYERMASK_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x6326D0)
+#define UNITYENGINE_LAYERMASK_GETMASK_OFFSET UNITYSDK_OFFSET(0x1B190440)
+#define UNITYENGINE_LAYERMASK_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x72BBF0)
+#define UNITYENGINE_LAYERMASK_NAMETOLAYER_OFFSET UNITYSDK_OFFSET(0x1B190430)
+#define UNITYENGINE_LAYERMASK_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1B190400)
+#define UNITYENGINE_LAYERMASK_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B1903F0)
+#define UNITYENGINE_LAYERMASK_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xA18540)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int LayerMask_TypeDefinitionIndex = 4138;
+	inline static constexpr unsigned int LayerMask_TypeDefinitionIndex = 4312;
 
 	struct alignas(4) LayerMask
 	{
 		::System::Int32 m_Mask; // 0x10
 
-		static ::System::Int32 op_Implicit(::UnityEngine::LayerMask mask)
+		static ::System::Int32 op_Implicit(::UnityEngine::LayerMask a1)
 		{
-			return ((::System::Int32(*)(::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + UNITYENGINE_LAYERMASK_OP_IMPLICIT_OFFSET))(mask);
+			return ((::System::Int32(*)(::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + UNITYENGINE_LAYERMASK_OP_IMPLICIT_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::LayerMask op_Implicit_1(::System::Int32 intVal)
+		static ::UnityEngine::LayerMask op_Implicit_1(::System::Int32 a1)
 		{
-			return ((::UnityEngine::LayerMask(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_LAYERMASK_OP_IMPLICIT_1_OFFSET))(intVal);
+			return ((::UnityEngine::LayerMask(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_LAYERMASK_OP_IMPLICIT_1_OFFSET))(a1);
 		}
 
 		::System::Int32 get_value()
@@ -34,19 +34,19 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_LAYERMASK_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_value(::System::Int32 value)
+		::System::Void set_value(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_LAYERMASK_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_LAYERMASK_SET_VALUE_OFFSET))(this, a1);
 		}
 
-		static ::System::Int32 NameToLayer(::System::String* layerName)
+		static ::System::Int32 NameToLayer(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_LAYERMASK_NAMETOLAYER_OFFSET))(layerName);
+			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_LAYERMASK_NAMETOLAYER_OFFSET))(a1);
 		}
 
-		static ::System::Int32 GetMask(::Il2CppArray<::System::String*>* layerNames)
+		static ::System::Int32 GetMask(::Il2CppArray<::System::String*>* a1)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_LAYERMASK_GETMASK_OFFSET))(layerNames);
+			return ((::System::Int32(*)(::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_LAYERMASK_GETMASK_OFFSET))(a1);
 		}
 	};
 }

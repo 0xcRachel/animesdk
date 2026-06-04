@@ -6,27 +6,27 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_GET_ONCLOSEBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x183F94A0)
-#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_GET_ONCONFIRMBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x183F94C0)
-#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_HIDEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x183F9880)
-#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_HIDE_OFFSET UNITYSDK_OFFSET(0x183F9990)
-#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_SET_ONCLOSEBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x183F94B0)
-#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_SET_ONCONFIRMBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x183F94D0)
-#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x183F94E0)
-#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_SHOW_OFFSET UNITYSDK_OFFSET(0x183F9980)
-#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI__CTOR_OFFSET UNITYSDK_OFFSET(0x183F99A0)
-#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI__SHOWPLUGINUI_B__8_0_OFFSET UNITYSDK_OFFSET(0x183F99B0)
-#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI__SHOWPLUGINUI_B__8_1_OFFSET UNITYSDK_OFFSET(0x183F99C0)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_GET_ONCLOSEBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x19E24D70)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_GET_ONCONFIRMBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x19E24D90)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_HIDEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x19E25280)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_HIDE_OFFSET UNITYSDK_OFFSET(0x19E25390)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_SET_ONCLOSEBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x19E24D80)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_SET_ONCONFIRMBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x19E24DA0)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x19E24DB0)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_SHOW_OFFSET UNITYSDK_OFFSET(0x19E25380)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI__CTOR_OFFSET UNITYSDK_OFFSET(0x19E253A0)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI__SHOWPLUGINUI_B__8_0_OFFSET UNITYSDK_OFFSET(0x19E253B0)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI__SHOWPLUGINUI_B__8_1_OFFSET UNITYSDK_OFFSET(0x19E253D0)
 
 namespace MiHoYo::SDK::UI::External::OS
 {
-	inline static constexpr unsigned int AlertPluginUI_TypeDefinitionIndex = 7428;
+	inline static constexpr unsigned int AlertPluginUI_TypeDefinitionIndex = 8331;
 
 	class AlertPluginUI : public ::System::Object
 	{
 	public:
-		::System::Action* _OnCloseBtnClicked_k__BackingField; // 0x10
-		::System::Action* _OnConfirmBtnClicked_k__BackingField; // 0x18
+		::System::Action* _OnConfirmBtnClicked_k__BackingField; // 0x10
+		::System::Action* _OnCloseBtnClicked_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -38,9 +38,9 @@ namespace MiHoYo::SDK::UI::External::OS
 			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_GET_ONCLOSEBTNCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnCloseBtnClicked(::System::Action* value)
+		::System::Void set_OnCloseBtnClicked(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_SET_ONCLOSEBTNCLICKED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_SET_ONCLOSEBTNCLICKED_OFFSET))(this, a1);
 		}
 
 		::System::Action* get_OnConfirmBtnClicked()
@@ -48,14 +48,14 @@ namespace MiHoYo::SDK::UI::External::OS
 			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_GET_ONCONFIRMBTNCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnConfirmBtnClicked(::System::Action* value)
+		::System::Void set_OnConfirmBtnClicked(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_SET_ONCONFIRMBTNCLICKED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_SET_ONCONFIRMBTNCLICKED_OFFSET))(this, a1);
 		}
 
-		::System::Boolean ShowPluginUI(::System::String* content, ::System::String* buttonTitle, ::System::Boolean isShowClose)
+		::System::Boolean ShowPluginUI(::System::String* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_SHOWPLUGINUI_OFFSET))(this, content, buttonTitle, isShowClose);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_SHOWPLUGINUI_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Boolean HidePluginUI()
@@ -63,9 +63,9 @@ namespace MiHoYo::SDK::UI::External::OS
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_HIDEPLUGINUI_OFFSET))();
 		}
 
-		::System::Void Show(::System::String* message, ::System::String* btnText, ::System::Boolean closeEnable)
+		::System::Void Show(::System::String* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_SHOW_OFFSET))(this, message, btnText, closeEnable);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_SHOW_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Hide()
@@ -73,14 +73,14 @@ namespace MiHoYo::SDK::UI::External::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI_HIDE_OFFSET))(this);
 		}
 
-		::System::Void _ShowPluginUI_b__8_0(::System::String* strArgs, ::System::Action_1<::System::String*>* closeActionCallback)
+		::System::Void _ShowPluginUI_b__8_0(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI__SHOWPLUGINUI_B__8_0_OFFSET))(this, strArgs, closeActionCallback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI__SHOWPLUGINUI_B__8_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowPluginUI_b__8_1(::System::String* strArgs, ::System::Action_1<::System::String*>* confirmActionCallback)
+		::System::Void _ShowPluginUI_b__8_1(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI__SHOWPLUGINUI_B__8_1_OFFSET))(this, strArgs, confirmActionCallback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_ALERTPLUGINUI__SHOWPLUGINUI_B__8_1_OFFSET))(this, a1, a2);
 		}
 	};
 }

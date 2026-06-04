@@ -6,12 +6,12 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveTechTreeNode; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE___C__DISPLAYCLASS0_0__CREATE_B__2_OFFSET UNITYSDK_OFFSET(0x1734EB70)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1734DEC0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE___C__DISPLAYCLASS0_0__CREATE_B__2_OFFSET UNITYSDK_OFFSET(0x1855A400)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18559720)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveBaseTechTree___c__DisplayClass0_0_TypeDefinitionIndex = 69459;
+	inline static constexpr unsigned int IdleLiveBaseTechTree___c__DisplayClass0_0_TypeDefinitionIndex = 70271;
 
 	class IdleLiveBaseTechTree___c__DisplayClass0_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE___C__DISPLAYCLASS0_0__CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode* _Create_b__2(::System::UInt32 id)
+		::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode* _Create_b__2(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE___C__DISPLAYCLASS0_0__CREATE_B__2_OFFSET))(this, id);
+			return ((::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE___C__DISPLAYCLASS0_0__CREATE_B__2_OFFSET))(this, a1);
 		}
 	};
 }

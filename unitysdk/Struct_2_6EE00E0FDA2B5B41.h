@@ -3,23 +3,23 @@
 #include "unitysdk/RPG/GameCore/ELevelPerformanceType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_6EE00E0FDA2B5B41_METHOD_2_6C1FC337DC634BF6_OFFSET UNITYSDK_OFFSET(0xF5E2BD0)
-#define STRUCT_2_6EE00E0FDA2B5B41_METHOD_2_AAE4B6CE8E6EDE94_OFFSET UNITYSDK_OFFSET(0x1D625E0)
-#define STRUCT_2_6EE00E0FDA2B5B41__CCTOR_OFFSET UNITYSDK_OFFSET(0xF5E3000)
+#define STRUCT_2_6EE00E0FDA2B5B41_METHOD_2_6C1FC337DC634BF6_OFFSET UNITYSDK_OFFSET(0x12B63420)
+#define STRUCT_2_6EE00E0FDA2B5B41_METHOD_2_AAE4B6CE8E6EDE94_OFFSET UNITYSDK_OFFSET(0x3730CC0)
+#define STRUCT_2_6EE00E0FDA2B5B41__CCTOR_OFFSET UNITYSDK_OFFSET(0x12B63870)
 
-inline static constexpr unsigned int Struct_2_6EE00E0FDA2B5B41_TypeDefinitionIndex = 52959;
+inline static constexpr unsigned int Struct_2_6EE00E0FDA2B5B41_TypeDefinitionIndex = 53669;
 
 struct alignas(4) Struct_2_6EE00E0FDA2B5B41
 {
-	static ::Struct_2_6EE00E0FDA2B5B41* StaticGet_Field_2_5()
+	static ::Struct_2_6EE00E0FDA2B5B41* StaticGet_Field_2_0()
 	{
-		return (::Struct_2_6EE00E0FDA2B5B41*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_6EE00E0FDA2B5B41_TypeDefinitionIndex)->GetStaticField(0x5E60);
+		return (::Struct_2_6EE00E0FDA2B5B41*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_6EE00E0FDA2B5B41_TypeDefinitionIndex)->GetStaticField(0x100B0);
 	}
-	::System::Int32 Field_2_0; // 0x10
-	::System::UInt32 Field_2_1; // 0x14
-	::System::Boolean Field_2_2; // 0x18
-	::RPG::GameCore::ELevelPerformanceType Field_2_3; // 0x1C
-	::System::Boolean Field_2_4; // 0x20
+	::System::Int32 Field_2_1; // 0x10
+	::System::UInt32 Field_2_2; // 0x14
+	::System::Boolean Field_2_3; // 0x18
+	::RPG::GameCore::ELevelPerformanceType Field_2_4; // 0x1C
+	::System::Boolean Field_2_5; // 0x20
 
 	static ::System::Void _cctor()
 	{

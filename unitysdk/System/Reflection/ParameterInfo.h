@@ -11,33 +11,33 @@ namespace System::Reflection { class MemberInfo; }
 namespace System::Runtime::InteropServices { class MarshalAsAttribute; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_REFLECTION_PARAMETERINFO_FORMATPARAMETERS_OFFSET UNITYSDK_OFFSET(0x18F451B0)
-#define SYSTEM_REFLECTION_PARAMETERINFO_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x18F45BF0)
-#define SYSTEM_REFLECTION_PARAMETERINFO_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x18F45BE0)
-#define SYSTEM_REFLECTION_PARAMETERINFO_GETDEFAULTVALUEIMPL_OFFSET UNITYSDK_OFFSET(0x18F45B80)
-#define SYSTEM_REFLECTION_PARAMETERINFO_GETPSEUDOCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x18F45670)
-#define SYSTEM_REFLECTION_PARAMETERINFO_GETREALOBJECT_OFFSET UNITYSDK_OFFSET(0x18F45C00)
-#define SYSTEM_REFLECTION_PARAMETERINFO_GETREQUIREDCUSTOMMODIFIERS_OFFSET UNITYSDK_OFFSET(0x18F45C60)
-#define SYSTEM_REFLECTION_PARAMETERINFO_GETTYPEMODIFIERS_OFFSET UNITYSDK_OFFSET(0x18F435E0)
-#define SYSTEM_REFLECTION_PARAMETERINFO_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x18F455D0)
-#define SYSTEM_REFLECTION_PARAMETERINFO_GET_DEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x18F45B90)
-#define SYSTEM_REFLECTION_PARAMETERINFO_GET_ISIN_OFFSET UNITYSDK_OFFSET(0x18F455E0)
-#define SYSTEM_REFLECTION_PARAMETERINFO_GET_ISOPTIONAL_OFFSET UNITYSDK_OFFSET(0x18F45600)
-#define SYSTEM_REFLECTION_PARAMETERINFO_GET_ISOUT_OFFSET UNITYSDK_OFFSET(0x18F45620)
-#define SYSTEM_REFLECTION_PARAMETERINFO_GET_ISRETVAL_OFFSET UNITYSDK_OFFSET(0x18F45190)
-#define SYSTEM_REFLECTION_PARAMETERINFO_GET_MEMBER_OFFSET UNITYSDK_OFFSET(0x18F45640)
-#define SYSTEM_REFLECTION_PARAMETERINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x18F45650)
-#define SYSTEM_REFLECTION_PARAMETERINFO_GET_PARAMETERTYPE_OFFSET UNITYSDK_OFFSET(0x18F455C0)
-#define SYSTEM_REFLECTION_PARAMETERINFO_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x18F45660)
-#define SYSTEM_REFLECTION_PARAMETERINFO_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x18F45C50)
-#define SYSTEM_REFLECTION_PARAMETERINFO_NEW_1_OFFSET UNITYSDK_OFFSET(0x18F43030)
-#define SYSTEM_REFLECTION_PARAMETERINFO_NEW_OFFSET UNITYSDK_OFFSET(0x18F43EF0)
-#define SYSTEM_REFLECTION_PARAMETERINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18F45010)
-#define SYSTEM_REFLECTION_PARAMETERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18F45000)
+#define SYSTEM_REFLECTION_PARAMETERINFO_FORMATPARAMETERS_OFFSET UNITYSDK_OFFSET(0x196F71C0)
+#define SYSTEM_REFLECTION_PARAMETERINFO_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x196F7B50)
+#define SYSTEM_REFLECTION_PARAMETERINFO_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x196F7B40)
+#define SYSTEM_REFLECTION_PARAMETERINFO_GETDEFAULTVALUEIMPL_OFFSET UNITYSDK_OFFSET(0x196F7AE0)
+#define SYSTEM_REFLECTION_PARAMETERINFO_GETPSEUDOCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x196F7670)
+#define SYSTEM_REFLECTION_PARAMETERINFO_GETREALOBJECT_OFFSET UNITYSDK_OFFSET(0x196F7B60)
+#define SYSTEM_REFLECTION_PARAMETERINFO_GETREQUIREDCUSTOMMODIFIERS_OFFSET UNITYSDK_OFFSET(0x196F7BC0)
+#define SYSTEM_REFLECTION_PARAMETERINFO_GETTYPEMODIFIERS_OFFSET UNITYSDK_OFFSET(0x196F5B00)
+#define SYSTEM_REFLECTION_PARAMETERINFO_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x196F75D0)
+#define SYSTEM_REFLECTION_PARAMETERINFO_GET_DEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x196F7AF0)
+#define SYSTEM_REFLECTION_PARAMETERINFO_GET_ISIN_OFFSET UNITYSDK_OFFSET(0x196F75E0)
+#define SYSTEM_REFLECTION_PARAMETERINFO_GET_ISOPTIONAL_OFFSET UNITYSDK_OFFSET(0x196F7600)
+#define SYSTEM_REFLECTION_PARAMETERINFO_GET_ISOUT_OFFSET UNITYSDK_OFFSET(0x196F7620)
+#define SYSTEM_REFLECTION_PARAMETERINFO_GET_ISRETVAL_OFFSET UNITYSDK_OFFSET(0x196F71A0)
+#define SYSTEM_REFLECTION_PARAMETERINFO_GET_MEMBER_OFFSET UNITYSDK_OFFSET(0x196F7640)
+#define SYSTEM_REFLECTION_PARAMETERINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x196F7650)
+#define SYSTEM_REFLECTION_PARAMETERINFO_GET_PARAMETERTYPE_OFFSET UNITYSDK_OFFSET(0x196F75C0)
+#define SYSTEM_REFLECTION_PARAMETERINFO_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x196F7660)
+#define SYSTEM_REFLECTION_PARAMETERINFO_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x196F7BB0)
+#define SYSTEM_REFLECTION_PARAMETERINFO_NEW_1_OFFSET UNITYSDK_OFFSET(0x196F5590)
+#define SYSTEM_REFLECTION_PARAMETERINFO_NEW_OFFSET UNITYSDK_OFFSET(0x196F6400)
+#define SYSTEM_REFLECTION_PARAMETERINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x196F7020)
+#define SYSTEM_REFLECTION_PARAMETERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x196F7010)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int ParameterInfo_TypeDefinitionIndex = 634;
+	inline static constexpr unsigned int ParameterInfo_TypeDefinitionIndex = 633;
 
 	class ParameterInfo : public ::System::Object
 	{
@@ -60,9 +60,9 @@ namespace System::Reflection
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_TOSTRING_OFFSET))(this);
 		}
 
-		static ::System::Void FormatParameters(::System::Text::StringBuilder* sb, ::Il2CppArray<::System::Reflection::ParameterInfo*>* p, ::System::Reflection::CallingConventions callingConvention, ::System::Boolean serialization)
+		static ::System::Void FormatParameters(::System::Text::StringBuilder* a1, ::Il2CppArray<::System::Reflection::ParameterInfo*>* a2, ::System::Reflection::CallingConventions a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::System::Text::StringBuilder*, ::Il2CppArray<::System::Reflection::ParameterInfo*>*, ::System::Reflection::CallingConventions, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_FORMATPARAMETERS_OFFSET))(sb, p, callingConvention, serialization);
+			return ((::System::Void(*)(::System::Text::StringBuilder*, ::Il2CppArray<::System::Reflection::ParameterInfo*>*, ::System::Reflection::CallingConventions, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_FORMATPARAMETERS_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::System::Type* get_ParameterType()
@@ -115,9 +115,9 @@ namespace System::Reflection
 			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_GETPSEUDOCUSTOMATTRIBUTES_OFFSET))(this);
 		}
 
-		::Il2CppArray<::System::Type*>* GetTypeModifiers(::System::Boolean optional)
+		::Il2CppArray<::System::Type*>* GetTypeModifiers(::System::Boolean a1)
 		{
-			return ((::Il2CppArray<::System::Type*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_GETTYPEMODIFIERS_OFFSET))(this, optional);
+			return ((::Il2CppArray<::System::Type*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_GETTYPEMODIFIERS_OFFSET))(this, a1);
 		}
 
 		::System::Object* GetDefaultValueImpl()
@@ -130,24 +130,24 @@ namespace System::Reflection
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_GET_DEFAULTVALUE_OFFSET))(this);
 		}
 
-		::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Boolean a1)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_GETCUSTOMATTRIBUTES_OFFSET))(this, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_GETCUSTOMATTRIBUTES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Object*>* GetCustomAttributes_1(::System::Type* attributeType, ::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* GetCustomAttributes_1(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_GETCUSTOMATTRIBUTES_1_OFFSET))(this, attributeType, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_GETCUSTOMATTRIBUTES_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext context)
+		::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_GETREALOBJECT_OFFSET))(this, context);
+			return ((::System::Object*(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_GETREALOBJECT_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsDefined(::System::Type* attributeType, ::System::Boolean inherit)
+		::System::Boolean IsDefined(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_ISDEFINED_OFFSET))(this, attributeType, inherit);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_ISDEFINED_OFFSET))(this, a1, a2);
 		}
 
 		::Il2CppArray<::System::Type*>* GetRequiredCustomModifiers()
@@ -155,14 +155,14 @@ namespace System::Reflection
 			return ((::Il2CppArray<::System::Type*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_GETREQUIREDCUSTOMMODIFIERS_OFFSET))(this);
 		}
 
-		static ::System::Reflection::ParameterInfo* New(::System::Reflection::ParameterInfo* pinfo, ::System::Reflection::MemberInfo* member)
+		static ::System::Reflection::ParameterInfo* New(::System::Reflection::ParameterInfo* a1, ::System::Reflection::MemberInfo* a2)
 		{
-			return ((::System::Reflection::ParameterInfo*(*)(::System::Reflection::ParameterInfo*, ::System::Reflection::MemberInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_NEW_OFFSET))(pinfo, member);
+			return ((::System::Reflection::ParameterInfo*(*)(::System::Reflection::ParameterInfo*, ::System::Reflection::MemberInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_NEW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Reflection::ParameterInfo* New_1(::System::Type* type, ::System::Reflection::MemberInfo* member, ::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs)
+		static ::System::Reflection::ParameterInfo* New_1(::System::Type* a1, ::System::Reflection::MemberInfo* a2, ::System::Runtime::InteropServices::MarshalAsAttribute* a3)
 		{
-			return ((::System::Reflection::ParameterInfo*(*)(::System::Type*, ::System::Reflection::MemberInfo*, ::System::Runtime::InteropServices::MarshalAsAttribute*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_NEW_1_OFFSET))(type, member, marshalAs);
+			return ((::System::Reflection::ParameterInfo*(*)(::System::Type*, ::System::Reflection::MemberInfo*, ::System::Runtime::InteropServices::MarshalAsAttribute*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_NEW_1_OFFSET))(a1, a2, a3);
 		}
 	};
 }

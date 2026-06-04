@@ -2,44 +2,44 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_E21F6DE9B7FA4D05;
+class Class_3_07C3C4D2990C49EE;
 namespace RPG::Client { class LuaUIController; }
 namespace RPG::GameCore { class ShowUI; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CLASS_2_BE622C97A889FB7B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1357E1E0)
-#define CLASS_2_BE622C97A889FB7B_GET_FORCESKIP_OFFSET UNITYSDK_OFFSET(0x1357F0E0)
-#define CLASS_2_BE622C97A889FB7B_METHOD_2_28EB11670A8E5A86_OFFSET UNITYSDK_OFFSET(0x1357EB30)
-#define CLASS_2_BE622C97A889FB7B_METHOD_2_30A2382C3FCC5386_OFFSET UNITYSDK_OFFSET(0x1357E330)
-#define CLASS_2_BE622C97A889FB7B_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1357E900)
-#define CLASS_2_BE622C97A889FB7B_METHOD_2_DBDFEC4F5CFD28A9_OFFSET UNITYSDK_OFFSET(0x1357F020)
-#define CLASS_2_BE622C97A889FB7B_METHOD_2_DE3FCCED54BB837F_OFFSET UNITYSDK_OFFSET(0x1357ED40)
-#define CLASS_2_BE622C97A889FB7B_ONSKIP_OFFSET UNITYSDK_OFFSET(0x1357E9F0)
-#define CLASS_2_BE622C97A889FB7B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1357E2A0)
-#define CLASS_2_BE622C97A889FB7B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1357E940)
-#define CLASS_2_BE622C97A889FB7B_TICK_OFFSET UNITYSDK_OFFSET(0x1357E990)
-#define CLASS_2_BE622C97A889FB7B__CTOR_OFFSET UNITYSDK_OFFSET(0x1357E070)
-#define CLASS_2_BE622C97A889FB7B___SHOWUI_B__6_0_OFFSET UNITYSDK_OFFSET(0x1357F0F0)
+#define CLASS_2_BE622C97A889FB7B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16C0F6E0)
+#define CLASS_2_BE622C97A889FB7B_GET_FORCESKIP_OFFSET UNITYSDK_OFFSET(0x16C10570)
+#define CLASS_2_BE622C97A889FB7B_METHOD_2_1DE6433C25680F9D_OFFSET UNITYSDK_OFFSET(0x16C10070)
+#define CLASS_2_BE622C97A889FB7B_METHOD_2_5C715D615BCEF8BF_OFFSET UNITYSDK_OFFSET(0x16C10490)
+#define CLASS_2_BE622C97A889FB7B_METHOD_2_8C704EC832EDEFC8_OFFSET UNITYSDK_OFFSET(0x16C0F830)
+#define CLASS_2_BE622C97A889FB7B_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x16C0FE40)
+#define CLASS_2_BE622C97A889FB7B_METHOD_2_E004C1AF69B0D7B4_OFFSET UNITYSDK_OFFSET(0x16C10280)
+#define CLASS_2_BE622C97A889FB7B_ONSKIP_OFFSET UNITYSDK_OFFSET(0x16C0FF30)
+#define CLASS_2_BE622C97A889FB7B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16C0F7A0)
+#define CLASS_2_BE622C97A889FB7B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16C0FE80)
+#define CLASS_2_BE622C97A889FB7B_TICK_OFFSET UNITYSDK_OFFSET(0x16C0FED0)
+#define CLASS_2_BE622C97A889FB7B__CTOR_OFFSET UNITYSDK_OFFSET(0x16C0F570)
+#define CLASS_2_BE622C97A889FB7B___SHOWUI_B__6_0_OFFSET UNITYSDK_OFFSET(0x16C10580)
 
-inline static constexpr unsigned int Class_2_BE622C97A889FB7B_TypeDefinitionIndex = 54124;
+inline static constexpr unsigned int Class_2_BE622C97A889FB7B_TypeDefinitionIndex = 54850;
 
 class Class_2_BE622C97A889FB7B : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	// static const ::System::String* Field_2_6; // 0x0
-	// static const ::System::String* Field_2_7; // 0x0
-	// static const ::System::String* Field_2_8; // 0x0
-	// static const ::System::String* Field_2_9; // 0x0
-	// static const ::System::String* Field_2_10; // 0x0
-	// static const ::System::String* Field_2_11; // 0x0
-	::Class_3_E21F6DE9B7FA4D05* Field_2_2; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
-	::RPG::GameCore::ShowUI* Field_2_0; // 0x28
-	::Class_3_E21F6DE9B7FA4D05* Field_2_3; // 0x30
-	::RPG::Client::LuaUIController* Field_2_5; // 0x38
-	::Class_3_E21F6DE9B7FA4D05* Field_2_4; // 0x40
+	// static const ::System::String* Field_2_0; // 0x0
+	// static const ::System::String* Field_2_1; // 0x0
+	// static const ::System::String* Field_2_2; // 0x0
+	// static const ::System::String* Field_2_3; // 0x0
+	// static const ::System::String* Field_2_4; // 0x0
+	// static const ::System::String* Field_2_5; // 0x0
+	::RPG::GameCore::TaskContext* Field_2_6; // 0x18
+	::Class_3_07C3C4D2990C49EE* Field_2_7; // 0x20
+	::Class_3_07C3C4D2990C49EE* Field_2_8; // 0x28
+	::RPG::Client::LuaUIController* Field_2_9; // 0x30
+	::RPG::GameCore::ShowUI* Field_2_10; // 0x38
+	::Class_3_07C3C4D2990C49EE* Field_2_11; // 0x40
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowUI* a2)
 	{
@@ -71,9 +71,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BE622C97A889FB7B_ONSKIP_OFFSET))(this);
 	}
 
-	::System::Void Method_2_30A2382C3FCC5386()
+	::System::Void Method_2_8C704EC832EDEFC8()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BE622C97A889FB7B_METHOD_2_30A2382C3FCC5386_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BE622C97A889FB7B_METHOD_2_8C704EC832EDEFC8_OFFSET))(this);
 	}
 
 	::System::Void Method_2_CA373AA1C7054598()
@@ -81,19 +81,19 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BE622C97A889FB7B_METHOD_2_CA373AA1C7054598_OFFSET))(this);
 	}
 
-	::System::Void Method_2_DBDFEC4F5CFD28A9(::System::Object* a1)
+	::System::Void Method_2_5C715D615BCEF8BF(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_BE622C97A889FB7B_METHOD_2_DBDFEC4F5CFD28A9_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_BE622C97A889FB7B_METHOD_2_5C715D615BCEF8BF_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_28EB11670A8E5A86()
+	::System::Void Method_2_1DE6433C25680F9D()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BE622C97A889FB7B_METHOD_2_28EB11670A8E5A86_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BE622C97A889FB7B_METHOD_2_1DE6433C25680F9D_OFFSET))(this);
 	}
 
-	::RPG::Client::LuaUIController* Method_2_DE3FCCED54BB837F()
+	::RPG::Client::LuaUIController* Method_2_E004C1AF69B0D7B4()
 	{
-		return ((::RPG::Client::LuaUIController*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BE622C97A889FB7B_METHOD_2_DE3FCCED54BB837F_OFFSET))(this);
+		return ((::RPG::Client::LuaUIController*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BE622C97A889FB7B_METHOD_2_E004C1AF69B0D7B4_OFFSET))(this);
 	}
 
 	::System::Boolean get_ForceSkip()

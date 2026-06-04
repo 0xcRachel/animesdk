@@ -7,12 +7,12 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class NPCDataRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS9_0__CLIENTCREATEMAPNPC_B__0_OFFSET UNITYSDK_OFFSET(0xFE0C260)
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xFE0C250)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS9_0__CLIENTCREATEMAPNPC_B__0_OFFSET UNITYSDK_OFFSET(0xEA43D40)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xEA23CE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass9_0_TypeDefinitionIndex = 53281;
+	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass9_0_TypeDefinitionIndex = 53994;
 
 	class EntityManagerExtension___c__DisplayClass9_0 : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS9_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ClientCreateMapNPC_b__0(::RPG::GameCore::GameEntity* pEntity)
+		::System::Void _ClientCreateMapNPC_b__0(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS9_0__CLIENTCREATEMAPNPC_B__0_OFFSET))(this, pEntity);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS9_0__CLIENTCREATEMAPNPC_B__0_OFFSET))(this, a1);
 		}
 	};
 }

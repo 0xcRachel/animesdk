@@ -7,30 +7,30 @@ namespace RPG::Client { class GridFightRole; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_CALCULATECOUNT_OFFSET UNITYSDK_OFFSET(0x174C63F0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_GETBASEEQUIPITEMID_OFFSET UNITYSDK_OFFSET(0x174BA910)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_GETBASEROLEID_OFFSET UNITYSDK_OFFSET(0x174C0C20)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_GETCOUNT_OFFSET UNITYSDK_OFFSET(0x174C5EB0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_HASAVAILABLEEQUIP_OFFSET UNITYSDK_OFFSET(0x174C6720)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISALLEQUIPGOT_OFFSET UNITYSDK_OFFSET(0x174C6090)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISLISTCONTAINSEQUIP_OFFSET UNITYSDK_OFFSET(0x174C5B10)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISROLEEQUIPPEDWITH_1_OFFSET UNITYSDK_OFFSET(0x174C2AB0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISROLEEQUIPPEDWITH_OFFSET UNITYSDK_OFFSET(0x174C5D10)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISROLEVARIANT_OFFSET UNITYSDK_OFFSET(0x174C5A10)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISVARIANT_OFFSET UNITYSDK_OFFSET(0x174C5A70)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x174C6AA0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x174C6A90)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_CALCULATECOUNT_OFFSET UNITYSDK_OFFSET(0x18930350)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_GETBASEEQUIPITEMID_OFFSET UNITYSDK_OFFSET(0x1891FE40)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_GETBASEROLEID_OFFSET UNITYSDK_OFFSET(0x1891F6E0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_GETCOUNT_OFFSET UNITYSDK_OFFSET(0x1892FD70)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_HASAVAILABLEEQUIP_OFFSET UNITYSDK_OFFSET(0x189306C0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISALLEQUIPGOT_OFFSET UNITYSDK_OFFSET(0x1892FF50)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISLISTCONTAINSEQUIP_OFFSET UNITYSDK_OFFSET(0x1891F4E0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISROLEEQUIPPEDWITH_1_OFFSET UNITYSDK_OFFSET(0x1892C610)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISROLEEQUIPPEDWITH_OFFSET UNITYSDK_OFFSET(0x1892FAA0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISROLEVARIANT_OFFSET UNITYSDK_OFFSET(0x1892FA30)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISVARIANT_OFFSET UNITYSDK_OFFSET(0x1891FCC0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x18930A50)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x18930A40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipTrackUtils_TypeDefinitionIndex = 60167;
+	inline static constexpr unsigned int GridFightEquipTrackUtils_TypeDefinitionIndex = 61102;
 
 	class GridFightEquipTrackUtils : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_WolfSliverRoleIDs()
 		{
-			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightEquipTrackUtils_TypeDefinitionIndex)->GetStaticField(0x24860);
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightEquipTrackUtils_TypeDefinitionIndex)->GetStaticField(0x2ABF0);
 		}
 
 		::System::Void _ctor()
@@ -43,59 +43,59 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS__CCTOR_OFFSET))();
 		}
 
-		static ::System::Boolean IsRoleVariant(::System::UInt32 roleID)
+		static ::System::Boolean IsRoleVariant(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISROLEVARIANT_OFFSET))(roleID);
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISROLEVARIANT_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetBaseRoleID(::System::UInt32 roleID)
+		static ::System::UInt32 GetBaseRoleID(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_GETBASEROLEID_OFFSET))(roleID);
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_GETBASEROLEID_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsVariant(::System::UInt32 itemID)
+		static ::System::Boolean IsVariant(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISVARIANT_OFFSET))(itemID);
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISVARIANT_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetBaseEquipItemID(::System::UInt32 itemID)
+		static ::System::UInt32 GetBaseEquipItemID(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_GETBASEEQUIPITEMID_OFFSET))(itemID);
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_GETBASEEQUIPITEMID_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsListContainsEquip(::System::Collections::Generic::IList_1<::System::UInt32>* equipIDList, ::System::UInt32 equipItemID, ::System::Boolean includeVariant)
+		static ::System::Boolean IsListContainsEquip(::System::Collections::Generic::IList_1<::System::UInt32>* a1, ::System::UInt32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISLISTCONTAINSEQUIP_OFFSET))(equipIDList, equipItemID, includeVariant);
+			return ((::System::Boolean(*)(::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISLISTCONTAINSEQUIP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean IsRoleEquippedWith(::RPG::Client::GridFightRole* role, ::System::UInt32 equipItemID, ::System::Boolean includeVariant)
+		static ::System::Boolean IsRoleEquippedWith(::RPG::Client::GridFightRole* a1, ::System::UInt32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::GridFightRole*, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISROLEEQUIPPEDWITH_OFFSET))(role, equipItemID, includeVariant);
+			return ((::System::Boolean(*)(::RPG::Client::GridFightRole*, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISROLEEQUIPPEDWITH_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean IsRoleEquippedWith_1(::RPG::Client::GridFightRole* role, ::System::Collections::Generic::IList_1<::System::UInt32>* equipItemIDs, ::System::Int32 index, ::System::Boolean includeVariant)
+		static ::System::Boolean IsRoleEquippedWith_1(::RPG::Client::GridFightRole* a1, ::System::Collections::Generic::IList_1<::System::UInt32>* a2, ::System::Int32 a3, ::System::Boolean a4)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::GridFightRole*, ::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISROLEEQUIPPEDWITH_1_OFFSET))(role, equipItemIDs, index, includeVariant);
+			return ((::System::Boolean(*)(::RPG::Client::GridFightRole*, ::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISROLEEQUIPPEDWITH_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean IsAllEquipGot(::RPG::Client::GridFightRole* role, ::System::Collections::Generic::IList_1<::System::UInt32>* equipItemIDs, ::System::Boolean includeVariant)
+		static ::System::Boolean IsAllEquipGot(::RPG::Client::GridFightRole* a1, ::System::Collections::Generic::IList_1<::System::UInt32>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::GridFightRole*, ::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISALLEQUIPGOT_OFFSET))(role, equipItemIDs, includeVariant);
+			return ((::System::Boolean(*)(::RPG::Client::GridFightRole*, ::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_ISALLEQUIPGOT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void CalculateCount(::System::Collections::Generic::IList_1<::System::UInt32>* equipItemIDs, ::RPG::PoolDictionary_2<::System::UInt32, ::System::Int32>*& ID2Count, ::System::Boolean includeVariant)
+		static ::System::Void CalculateCount(::System::Collections::Generic::IList_1<::System::UInt32>* a1, ::RPG::PoolDictionary_2<::System::UInt32, ::System::Int32>*& a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::IList_1<::System::UInt32>*, ::RPG::PoolDictionary_2<::System::UInt32, ::System::Int32>*&, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_CALCULATECOUNT_OFFSET))(equipItemIDs, ID2Count, includeVariant);
+			return ((::System::Void(*)(::System::Collections::Generic::IList_1<::System::UInt32>*, ::RPG::PoolDictionary_2<::System::UInt32, ::System::Int32>*&, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_CALCULATECOUNT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 GetCount(::System::Collections::Generic::IList_1<::System::UInt32>* equipItemIDs, ::System::Int32 index, ::System::UInt32 equipItemID)
+		static ::System::Int32 GetCount(::System::Collections::Generic::IList_1<::System::UInt32>* a1, ::System::Int32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Int32(*)(::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_GETCOUNT_OFFSET))(equipItemIDs, index, equipItemID);
+			return ((::System::Int32(*)(::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_GETCOUNT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean HasAvailableEquip(::RPG::Client::GridFightRole* role, ::System::Collections::Generic::IList_1<::System::UInt32>* equipItemIDs, ::System::Int32 index)
+		static ::System::Boolean HasAvailableEquip(::RPG::Client::GridFightRole* a1, ::System::Collections::Generic::IList_1<::System::UInt32>* a2, ::System::Int32 a3)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::GridFightRole*, ::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_HASAVAILABLEEQUIP_OFFSET))(role, equipItemIDs, index);
+			return ((::System::Boolean(*)(::RPG::Client::GridFightRole*, ::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS_HASAVAILABLEEQUIP_OFFSET))(a1, a2, a3);
 		}
 	};
 }

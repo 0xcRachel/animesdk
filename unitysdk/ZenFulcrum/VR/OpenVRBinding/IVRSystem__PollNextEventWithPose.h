@@ -9,36 +9,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__POLLNEXTEVENTWITHPOSE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A646A10)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__POLLNEXTEVENTWITHPOSE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A646AE0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__POLLNEXTEVENTWITHPOSE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A646600)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__POLLNEXTEVENTWITHPOSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6465E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__POLLNEXTEVENTWITHPOSE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B4D5140)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__POLLNEXTEVENTWITHPOSE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B4D5210)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__POLLNEXTEVENTWITHPOSE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4D5110)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__POLLNEXTEVENTWITHPOSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D50A0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSystem__PollNextEventWithPose_TypeDefinitionIndex = 35682;
+	inline static constexpr unsigned int IVRSystem__PollNextEventWithPose_TypeDefinitionIndex = 35982;
 
 	class IVRSystem__PollNextEventWithPose : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__POLLNEXTEVENTWITHPOSE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__POLLNEXTEVENTWITHPOSE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Invoke(::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin eOrigin, ::ZenFulcrum::VR::OpenVRBinding::VREvent_t& pEvent, ::System::UInt32 uncbVREvent, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t& pTrackedDevicePose)
+		::System::Boolean Invoke(::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin a1, ::ZenFulcrum::VR::OpenVRBinding::VREvent_t& a2, ::System::UInt32 a3, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t& a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin, ::ZenFulcrum::VR::OpenVRBinding::VREvent_t&, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__POLLNEXTEVENTWITHPOSE_INVOKE_OFFSET))(this, eOrigin, pEvent, uncbVREvent, pTrackedDevicePose);
+			return ((::System::Boolean(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin, ::ZenFulcrum::VR::OpenVRBinding::VREvent_t&, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__POLLNEXTEVENTWITHPOSE_INVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin eOrigin, ::ZenFulcrum::VR::OpenVRBinding::VREvent_t& pEvent, ::System::UInt32 uncbVREvent, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t& pTrackedDevicePose, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin a1, ::ZenFulcrum::VR::OpenVRBinding::VREvent_t& a2, ::System::UInt32 a3, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t& a4, ::System::AsyncCallback* a5, ::System::Object* a6)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin, ::ZenFulcrum::VR::OpenVRBinding::VREvent_t&, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__POLLNEXTEVENTWITHPOSE_BEGININVOKE_OFFSET))(this, eOrigin, pEvent, uncbVREvent, pTrackedDevicePose, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin, ::ZenFulcrum::VR::OpenVRBinding::VREvent_t&, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__POLLNEXTEVENTWITHPOSE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Boolean EndInvoke(::ZenFulcrum::VR::OpenVRBinding::VREvent_t& pEvent, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t& pTrackedDevicePose, ::System::IAsyncResult* result)
+		::System::Boolean EndInvoke(::ZenFulcrum::VR::OpenVRBinding::VREvent_t& a1, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t& a2, ::System::IAsyncResult* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::VREvent_t&, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__POLLNEXTEVENTWITHPOSE_ENDINVOKE_OFFSET))(this, pEvent, pTrackedDevicePose, result);
+			return ((::System::Boolean(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::VREvent_t&, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__POLLNEXTEVENTWITHPOSE_ENDINVOKE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

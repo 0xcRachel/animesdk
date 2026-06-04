@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/HMAC.h"
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_HMACSHA512_GET_BLOCKSIZE_OFFSET UNITYSDK_OFFSET(0x17653A00)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_HMACSHA512__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17653880)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_HMACSHA512__CTOR_OFFSET UNITYSDK_OFFSET(0x176497B0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_HMACSHA512_GET_BLOCKSIZE_OFFSET UNITYSDK_OFFSET(0x16E22460)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_HMACSHA512__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16E222E0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_HMACSHA512__CTOR_OFFSET UNITYSDK_OFFSET(0x16E184E0)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int HMACSHA512_TypeDefinitionIndex = 1023;
+	inline static constexpr unsigned int HMACSHA512_TypeDefinitionIndex = 1022;
 
 	class HMACSHA512 : public ::System::Security::Cryptography::HMAC
 	{
@@ -20,9 +20,9 @@ namespace System::Security::Cryptography
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_HMACSHA512__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::Il2CppArray<::System::Byte>* key)
+		::System::Void _ctor_1(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_HMACSHA512__CTOR_1_OFFSET))(this, key);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_HMACSHA512__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_BlockSize()

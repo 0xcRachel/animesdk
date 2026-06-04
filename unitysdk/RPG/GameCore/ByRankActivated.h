@@ -5,14 +5,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYRANKACTIVATED_METHOD_4_36BE7F36C2957562_OFFSET UNITYSDK_OFFSET(0x19A6F8A0)
-#define RPG_GAMECORE_BYRANKACTIVATED_METHOD_4_98636A5184255F76_OFFSET UNITYSDK_OFFSET(0x19A6F7D0)
-#define RPG_GAMECORE_BYRANKACTIVATED__CTOR_OFFSET UNITYSDK_OFFSET(0x19A6F850)
+#define RPG_GAMECORE_BYRANKACTIVATED_METHOD_4_36BE7F36C2957562_OFFSET UNITYSDK_OFFSET(0x19E676C0)
+#define RPG_GAMECORE_BYRANKACTIVATED_METHOD_4_98636A5184255F76_OFFSET UNITYSDK_OFFSET(0x19E675F0)
+#define RPG_GAMECORE_BYRANKACTIVATED_METHOD_4_A0B944D33001882D_OFFSET UNITYSDK_OFFSET(0x19E67930)
+#define RPG_GAMECORE_BYRANKACTIVATED_METHOD_4_DD5FD5E079FFC80E_OFFSET UNITYSDK_OFFSET(0x19E678B0)
+#define RPG_GAMECORE_BYRANKACTIVATED__CTOR_OFFSET UNITYSDK_OFFSET(0x19E67670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByRankActivated_TypeDefinitionIndex = 21983;
+	inline static constexpr unsigned int ByRankActivated_TypeDefinitionIndex = 21806;
 
 	class ByRankActivated : public ::RPG::GameCore::PredicateConfig
 	{
@@ -33,6 +36,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_36BE7F36C2957562(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByRankActivated* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByRankActivated*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYRANKACTIVATED_METHOD_4_36BE7F36C2957562_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_DD5FD5E079FFC80E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByRankActivated*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByRankActivated*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYRANKACTIVATED_METHOD_4_DD5FD5E079FFC80E_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_A0B944D33001882D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByRankActivated* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByRankActivated*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYRANKACTIVATED_METHOD_4_A0B944D33001882D_OFFSET))(a1, a2);
 		}
 	};
 }

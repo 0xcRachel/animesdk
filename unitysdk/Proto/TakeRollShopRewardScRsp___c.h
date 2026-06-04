@@ -4,20 +4,20 @@
 
 namespace Proto { class TakeRollShopRewardScRsp; }
 
-#define PROTO_TAKEROLLSHOPREWARDSCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A597330)
-#define PROTO_TAKEROLLSHOPREWARDSCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A597370)
-#define PROTO_TAKEROLLSHOPREWARDSCRSP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1A597380)
+#define PROTO_TAKEROLLSHOPREWARDSCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB16920)
+#define PROTO_TAKEROLLSHOPREWARDSCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB16960)
+#define PROTO_TAKEROLLSHOPREWARDSCRSP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1AB16970)
 
 namespace Proto
 {
-	inline static constexpr unsigned int TakeRollShopRewardScRsp___c_TypeDefinitionIndex = 31966;
+	inline static constexpr unsigned int TakeRollShopRewardScRsp___c_TypeDefinitionIndex = 32075;
 
 	class TakeRollShopRewardScRsp___c : public ::System::Object
 	{
 	public:
 		static ::Proto::TakeRollShopRewardScRsp___c** StaticGet___9()
 		{
-			return (::Proto::TakeRollShopRewardScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(TakeRollShopRewardScRsp___c_TypeDefinitionIndex)->GetStaticField(0x4ECF0);
+			return (::Proto::TakeRollShopRewardScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(TakeRollShopRewardScRsp___c_TypeDefinitionIndex)->GetStaticField(0x3FB50);
 		}
 
 		static ::System::Void _cctor()

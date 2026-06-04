@@ -5,19 +5,19 @@
 #include "unitysdk/RPG/GameCore/FateMasterTalkSituation.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_B338538F774C32BE_METHOD_1_53399E8486F503A6_OFFSET UNITYSDK_OFFSET(0x1059B390)
-#define CLASS_1_B338538F774C32BE_METHOD_1_60ABAFBC9F3F9DAE_OFFSET UNITYSDK_OFFSET(0x1059B6A0)
-#define CLASS_1_B338538F774C32BE_METHOD_1_7C4B2399C2D09E2A_OFFSET UNITYSDK_OFFSET(0x1059B590)
-#define CLASS_1_B338538F774C32BE_METHOD_1_CDF4867E50613ACA_OFFSET UNITYSDK_OFFSET(0x1059B630)
+#define CLASS_1_B338538F774C32BE_METHOD_1_259741364EFC3121_OFFSET UNITYSDK_OFFSET(0x14918FC0)
+#define CLASS_1_B338538F774C32BE_METHOD_1_60ABAFBC9F3F9DAE_OFFSET UNITYSDK_OFFSET(0x149192D0)
+#define CLASS_1_B338538F774C32BE_METHOD_1_7C4B2399C2D09E2A_OFFSET UNITYSDK_OFFSET(0x149191C0)
+#define CLASS_1_B338538F774C32BE_METHOD_1_CDF4867E50613ACA_OFFSET UNITYSDK_OFFSET(0x14919260)
 
-inline static constexpr unsigned int Class_1_B338538F774C32BE_TypeDefinitionIndex = 58975;
+inline static constexpr unsigned int Class_1_B338538F774C32BE_TypeDefinitionIndex = 59905;
 
 class Class_1_B338538F774C32BE : public ::System::Object
 {
 public:
-	static ::System::Boolean Method_1_53399E8486F503A6(::RPG::GameCore::FateMasterTalkSituation a1, ::RPG::Client::FateGameMasterTalkRandomContext a2)
+	static ::System::Boolean Method_1_259741364EFC3121(::RPG::GameCore::FateMasterTalkSituation a1, ::RPG::Client::FateGameMasterTalkRandomContext a2)
 	{
-		return ((::System::Boolean(*)(::RPG::GameCore::FateMasterTalkSituation, ::RPG::Client::FateGameMasterTalkRandomContext))((::PBYTE)hIl2Cpp + CLASS_1_B338538F774C32BE_METHOD_1_53399E8486F503A6_OFFSET))(a1, a2);
+		return ((::System::Boolean(*)(::RPG::GameCore::FateMasterTalkSituation, ::RPG::Client::FateGameMasterTalkRandomContext))((::PBYTE)hIl2Cpp + CLASS_1_B338538F774C32BE_METHOD_1_259741364EFC3121_OFFSET))(a1, a2);
 	}
 
 	static ::System::Boolean Method_1_7C4B2399C2D09E2A(::RPG::GameCore::FateMasterTalkSituation a1, ::RPG::Client::FateGameMasterTalkUIType a2)

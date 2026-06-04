@@ -6,24 +6,24 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine::ProBuilder { class Face; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB9B8B20)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB9B8B60)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DELETEFACES_B__3_0_OFFSET UNITYSDK_OFFSET(0xB9B8B70)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC25BEC0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC25BF00)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DELETEFACES_B__3_0_OFFSET UNITYSDK_OFFSET(0xC25BF10)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int DeleteElements___c_TypeDefinitionIndex = 40045;
+	inline static constexpr unsigned int DeleteElements___c_TypeDefinitionIndex = 40872;
 
 	class DeleteElements___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::ProBuilder::MeshOperations::DeleteElements___c** StaticGet___9()
-		{
-			return (::UnityEngine::ProBuilder::MeshOperations::DeleteElements___c**)Il2CppClass::FromTypeDefinitionIndex(DeleteElements___c_TypeDefinitionIndex)->GetStaticField(0x564E0);
-		}
 		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(DeleteElements___c_TypeDefinitionIndex)->GetStaticField(0x564E8);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(DeleteElements___c_TypeDefinitionIndex)->GetStaticField(0x50550);
+		}
+		static ::UnityEngine::ProBuilder::MeshOperations::DeleteElements___c** StaticGet___9()
+		{
+			return (::UnityEngine::ProBuilder::MeshOperations::DeleteElements___c**)Il2CppClass::FromTypeDefinitionIndex(DeleteElements___c_TypeDefinitionIndex)->GetStaticField(0x50558);
 		}
 
 		static ::System::Void _cctor()
@@ -36,9 +36,9 @@ namespace UnityEngine::ProBuilder::MeshOperations
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::Int32>* _DeleteFaces_b__3_0(::UnityEngine::ProBuilder::Face* x)
+		::System::Collections::Generic::IEnumerable_1<::System::Int32>* _DeleteFaces_b__3_0(::UnityEngine::ProBuilder::Face* a1)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Int32>*(*)(::PVOID, ::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DELETEFACES_B__3_0_OFFSET))(this, x);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Int32>*(*)(::PVOID, ::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DELETEFACES_B__3_0_OFFSET))(this, a1);
 		}
 	};
 }

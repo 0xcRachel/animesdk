@@ -8,14 +8,14 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_CONTROLS_SRTABBUTTON_GET_CACHERECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x17C54090)
-#define SRDEBUGGER_UI_CONTROLS_SRTABBUTTON_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x17C54040)
-#define SRDEBUGGER_UI_CONTROLS_SRTABBUTTON_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x17C54060)
-#define SRDEBUGGER_UI_CONTROLS_SRTABBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x17C54130)
+#define SRDEBUGGER_UI_CONTROLS_SRTABBUTTON_GET_CACHERECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x186FFA00)
+#define SRDEBUGGER_UI_CONTROLS_SRTABBUTTON_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x186FF9B0)
+#define SRDEBUGGER_UI_CONTROLS_SRTABBUTTON_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x186FF9D0)
+#define SRDEBUGGER_UI_CONTROLS_SRTABBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x186FFAA0)
 
 namespace SRDebugger::UI::Controls
 {
-	inline static constexpr unsigned int SRTabButton_TypeDefinitionIndex = 35406;
+	inline static constexpr unsigned int SRTabButton_TypeDefinitionIndex = 35706;
 
 	class SRTabButton : public ::SRF::SRMonoBehaviourEx
 	{
@@ -37,9 +37,9 @@ namespace SRDebugger::UI::Controls
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_SRTABBUTTON_GET_ISACTIVE_OFFSET))(this);
 		}
 
-		::System::Void set_IsActive(::System::Boolean value)
+		::System::Void set_IsActive(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_SRTABBUTTON_SET_ISACTIVE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_SRTABBUTTON_SET_ISACTIVE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::RectTransform* get_CacheRectTransform()

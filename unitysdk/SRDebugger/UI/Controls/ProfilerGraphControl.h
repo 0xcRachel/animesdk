@@ -13,32 +13,32 @@ namespace SRDebugger::UI::Controls { class ProfilerGraphAxisLabel; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Mesh; }
 
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_ADDRECT_OFFSET UNITYSDK_OFFSET(0x17C52110)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0x17C507D0)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_CALCULATEMAXFRAMETIME_OFFSET UNITYSDK_OFFSET(0x17C51250)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_CALCULATEVISIBLEDATAPOINTCOUNT_OFFSET UNITYSDK_OFFSET(0x17C51410)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_DRAWAXIS_OFFSET UNITYSDK_OFFSET(0x17C51DA0)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_DRAWDATAPOINT_OFFSET UNITYSDK_OFFSET(0x17C51770)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_GETAXISLABEL_OFFSET UNITYSDK_OFFSET(0x17C51C10)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_GETFRAMEBUFFERCURRENTSIZE_OFFSET UNITYSDK_OFFSET(0x17C51570)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_GETFRAMEBUFFERMAXSIZE_OFFSET UNITYSDK_OFFSET(0x17C52420)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_GETFRAME_OFFSET UNITYSDK_OFFSET(0x17C51660)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x17C50870)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_START_OFFSET UNITYSDK_OFFSET(0x17C50810)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x17C50820)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x17C526A0)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x17C52520)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_ADDRECT_OFFSET UNITYSDK_OFFSET(0x186FDCD0)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0x186FC3D0)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_CALCULATEMAXFRAMETIME_OFFSET UNITYSDK_OFFSET(0x186FCE10)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_CALCULATEVISIBLEDATAPOINTCOUNT_OFFSET UNITYSDK_OFFSET(0x186FCFC0)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_DRAWAXIS_OFFSET UNITYSDK_OFFSET(0x186FD960)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_DRAWDATAPOINT_OFFSET UNITYSDK_OFFSET(0x186FD330)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_GETAXISLABEL_OFFSET UNITYSDK_OFFSET(0x186FD7D0)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_GETFRAMEBUFFERCURRENTSIZE_OFFSET UNITYSDK_OFFSET(0x186FD120)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_GETFRAMEBUFFERMAXSIZE_OFFSET UNITYSDK_OFFSET(0x186FE2A0)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_GETFRAME_OFFSET UNITYSDK_OFFSET(0x186FD210)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x186FC480)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_START_OFFSET UNITYSDK_OFFSET(0x186FC410)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x186FC420)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x186FE520)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x186FE3A0)
 
 namespace SRDebugger::UI::Controls
 {
-	inline static constexpr unsigned int ProfilerGraphControl_TypeDefinitionIndex = 35404;
+	inline static constexpr unsigned int ProfilerGraphControl_TypeDefinitionIndex = 35704;
 
 	class ProfilerGraphControl : public ::UnityEngine::UI::Graphic
 	{
 	public:
 		static ::Il2CppArray<::System::Single>** StaticGet_ScaleSteps()
 		{
-			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ProfilerGraphControl_TypeDefinitionIndex)->GetStaticField(0x5FE00);
+			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ProfilerGraphControl_TypeDefinitionIndex)->GetStaticField(0x61130);
 		}
 		// static const ::System::Single DataPointMargin; // 0x0
 		// static const ::System::Single DataPointVerticalMargin; // 0x0
@@ -84,29 +84,29 @@ namespace SRDebugger::UI::Controls
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void OnPopulateMesh(::UnityEngine::Mesh* m)
+		::System::Void OnPopulateMesh(::UnityEngine::Mesh* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_ONPOPULATEMESH_OFFSET))(this, m);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_ONPOPULATEMESH_OFFSET))(this, a1);
 		}
 
-		::System::Void DrawDataPoint(::System::Single xPosition, ::System::Single verticalScale, ::SRDebugger::Services::ProfilerFrame frame)
+		::System::Void DrawDataPoint(::System::Single a1, ::System::Single a2, ::SRDebugger::Services::ProfilerFrame a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::SRDebugger::Services::ProfilerFrame))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_DRAWDATAPOINT_OFFSET))(this, xPosition, verticalScale, frame);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::SRDebugger::Services::ProfilerFrame))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_DRAWDATAPOINT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void DrawAxis(::System::Single frameTime, ::System::Single yPosition, ::SRDebugger::UI::Controls::ProfilerGraphAxisLabel* label)
+		::System::Void DrawAxis(::System::Single a1, ::System::Single a2, ::SRDebugger::UI::Controls::ProfilerGraphAxisLabel* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::SRDebugger::UI::Controls::ProfilerGraphAxisLabel*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_DRAWAXIS_OFFSET))(this, frameTime, yPosition, label);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::SRDebugger::UI::Controls::ProfilerGraphAxisLabel*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_DRAWAXIS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void AddRect(::UnityEngine::Vector3 tl, ::UnityEngine::Vector3 tr, ::UnityEngine::Vector3 bl, ::UnityEngine::Vector3 br, ::UnityEngine::Color c)
+		::System::Void AddRect(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Color a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_ADDRECT_OFFSET))(this, tl, tr, bl, br, c);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_ADDRECT_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::SRDebugger::Services::ProfilerFrame GetFrame(::System::Int32 i)
+		::SRDebugger::Services::ProfilerFrame GetFrame(::System::Int32 a1)
 		{
-			return ((::SRDebugger::Services::ProfilerFrame(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_GETFRAME_OFFSET))(this, i);
+			return ((::SRDebugger::Services::ProfilerFrame(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_GETFRAME_OFFSET))(this, a1);
 		}
 
 		::System::Int32 CalculateVisibleDataPointCount()
@@ -129,9 +129,9 @@ namespace SRDebugger::UI::Controls
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_CALCULATEMAXFRAMETIME_OFFSET))(this);
 		}
 
-		::SRDebugger::UI::Controls::ProfilerGraphAxisLabel* GetAxisLabel(::System::Int32 index)
+		::SRDebugger::UI::Controls::ProfilerGraphAxisLabel* GetAxisLabel(::System::Int32 a1)
 		{
-			return ((::SRDebugger::UI::Controls::ProfilerGraphAxisLabel*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_GETAXISLABEL_OFFSET))(this, index);
+			return ((::SRDebugger::UI::Controls::ProfilerGraphAxisLabel*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHCONTROL_GETAXISLABEL_OFFSET))(this, a1);
 		}
 	};
 }

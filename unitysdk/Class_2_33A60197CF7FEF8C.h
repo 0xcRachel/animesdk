@@ -7,15 +7,15 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define CLASS_2_33A60197CF7FEF8C_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCB081E0)
-#define CLASS_2_33A60197CF7FEF8C_GET_ANCHORKEY_OFFSET UNITYSDK_OFFSET(0xCB08250)
-#define CLASS_2_33A60197CF7FEF8C_GET_EVENTID_OFFSET UNITYSDK_OFFSET(0xCB08230)
-#define CLASS_2_33A60197CF7FEF8C_SET_ANCHORKEY_OFFSET UNITYSDK_OFFSET(0xCB08260)
-#define CLASS_2_33A60197CF7FEF8C_SET_EVENTID_OFFSET UNITYSDK_OFFSET(0xCB08240)
-#define CLASS_2_33A60197CF7FEF8C__CTOR_OFFSET UNITYSDK_OFFSET(0xCB081D0)
-#define CLASS_2_33A60197CF7FEF8C___IFIXBASEPROXY_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCB08270)
+#define CLASS_2_33A60197CF7FEF8C_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x170026D0)
+#define CLASS_2_33A60197CF7FEF8C_GET_ANCHORKEY_OFFSET UNITYSDK_OFFSET(0x17002740)
+#define CLASS_2_33A60197CF7FEF8C_GET_EVENTID_OFFSET UNITYSDK_OFFSET(0x17002720)
+#define CLASS_2_33A60197CF7FEF8C_SET_ANCHORKEY_OFFSET UNITYSDK_OFFSET(0x17002750)
+#define CLASS_2_33A60197CF7FEF8C_SET_EVENTID_OFFSET UNITYSDK_OFFSET(0x17002730)
+#define CLASS_2_33A60197CF7FEF8C__CTOR_OFFSET UNITYSDK_OFFSET(0x170026C0)
+#define CLASS_2_33A60197CF7FEF8C___IFIXBASEPROXY_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x17002760)
 
-inline static constexpr unsigned int Class_2_33A60197CF7FEF8C_TypeDefinitionIndex = 52191;
+inline static constexpr unsigned int Class_2_33A60197CF7FEF8C_TypeDefinitionIndex = 52888;
 
 class Class_2_33A60197CF7FEF8C : public ::Class_1_179553DEA16830ED_1
 {
@@ -38,9 +38,9 @@ public:
 		return ((::RPG::Client::IsometricViewPuzzleEvent(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_33A60197CF7FEF8C_GET_EVENTID_OFFSET))(this);
 	}
 
-	::System::Void set_EventId(::RPG::Client::IsometricViewPuzzleEvent value)
+	::System::Void set_EventId(::RPG::Client::IsometricViewPuzzleEvent a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::IsometricViewPuzzleEvent))((::PBYTE)hIl2Cpp + CLASS_2_33A60197CF7FEF8C_SET_EVENTID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::IsometricViewPuzzleEvent))((::PBYTE)hIl2Cpp + CLASS_2_33A60197CF7FEF8C_SET_EVENTID_OFFSET))(this, a1);
 	}
 
 	::System::String* get_AnchorKey()
@@ -48,9 +48,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_33A60197CF7FEF8C_GET_ANCHORKEY_OFFSET))(this);
 	}
 
-	::System::Void set_AnchorKey(::System::String* value)
+	::System::Void set_AnchorKey(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_33A60197CF7FEF8C_SET_ANCHORKEY_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_33A60197CF7FEF8C_SET_ANCHORKEY_OFFSET))(this, a1);
 	}
 
 	::RPG::GameCore::EventType __iFixBaseProxy_GetEventType()

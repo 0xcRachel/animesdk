@@ -8,38 +8,38 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ConditionParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAVELBROCHURECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1949DFE0)
-#define RPG_GAMECORE_TRAVELBROCHURECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1949F100)
+#define RPG_GAMECORE_TRAVELBROCHURECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A2F540)
+#define RPG_GAMECORE_TRAVELBROCHURECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A30AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TravelBrochureConfigRow_TypeDefinitionIndex = 14574;
+	inline static constexpr unsigned int TravelBrochureConfigRow_TypeDefinitionIndex = 14605;
 
 	class TravelBrochureConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ConditionParam*>* Conditions; // 0x10
-		::System::String* BackgroundPrefab; // 0x18
-		::System::String* PasterAchievementPic; // 0x20
-		::System::String* FrontPrefab; // 0x28
-		::System::String* PicPath; // 0x30
-		::RPG::GameCore::TravelBrochureType Type; // 0x38
-		::System::UInt32 ID; // 0x3C
+		::System::String* PicPath; // 0x18
+		::System::String* FrontPrefab; // 0x20
+		::System::String* BackgroundPrefab; // 0x28
+		::System::String* PasterAchievementPic; // 0x30
+		::System::UInt32 Sort; // 0x38
+		::System::UInt32 FinishQuestID; // 0x3C
 		::RPG::Client::TextID DirectoryName; // 0x40
-		::System::UInt32 Sort; // 0x50
+		::System::Boolean ShowUnlockToast; // 0x50
+		::System::Boolean ShowInDirectory; // 0x51
 		::System::UInt32 DiaryGroupID; // 0x54
-		::System::Boolean ShowInDirectory; // 0x58
-		::System::Boolean ShowUnlockToast; // 0x59
-		::System::UInt32 FinishQuestID; // 0x5C
+		::RPG::GameCore::TravelBrochureType Type; // 0x58
+		::System::UInt32 ID; // 0x5C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELBROCHURECONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::TravelBrochureConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TravelBrochureConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TravelBrochureConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELBROCHURECONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TravelBrochureConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELBROCHURECONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

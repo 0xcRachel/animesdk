@@ -5,15 +5,15 @@
 namespace Epic::OnlineServices { class EpicAccountId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ECOM_COPYOFFERBYIDOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x196DCF40)
-#define EPIC_ONLINESERVICES_ECOM_COPYOFFERBYIDOPTIONS_GET_OFFERID_OFFSET UNITYSDK_OFFSET(0x196DCF60)
-#define EPIC_ONLINESERVICES_ECOM_COPYOFFERBYIDOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x196DCF50)
-#define EPIC_ONLINESERVICES_ECOM_COPYOFFERBYIDOPTIONS_SET_OFFERID_OFFSET UNITYSDK_OFFSET(0x196DCF70)
-#define EPIC_ONLINESERVICES_ECOM_COPYOFFERBYIDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x196DCF80)
+#define EPIC_ONLINESERVICES_ECOM_COPYOFFERBYIDOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A4CA570)
+#define EPIC_ONLINESERVICES_ECOM_COPYOFFERBYIDOPTIONS_GET_OFFERID_OFFSET UNITYSDK_OFFSET(0x1A4CA590)
+#define EPIC_ONLINESERVICES_ECOM_COPYOFFERBYIDOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A4CA580)
+#define EPIC_ONLINESERVICES_ECOM_COPYOFFERBYIDOPTIONS_SET_OFFERID_OFFSET UNITYSDK_OFFSET(0x1A4CA5A0)
+#define EPIC_ONLINESERVICES_ECOM_COPYOFFERBYIDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4CA5B0)
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int CopyOfferByIdOptions_TypeDefinitionIndex = 42158;
+	inline static constexpr unsigned int CopyOfferByIdOptions_TypeDefinitionIndex = 42961;
 
 	class CopyOfferByIdOptions : public ::System::Object
 	{
@@ -31,9 +31,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYOFFERBYIDOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYOFFERBYIDOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYOFFERBYIDOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_OfferId()
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYOFFERBYIDOPTIONS_GET_OFFERID_OFFSET))(this);
 		}
 
-		::System::Void set_OfferId(::System::String* value)
+		::System::Void set_OfferId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYOFFERBYIDOPTIONS_SET_OFFERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYOFFERBYIDOPTIONS_SET_OFFERID_OFFSET))(this, a1);
 		}
 	};
 }

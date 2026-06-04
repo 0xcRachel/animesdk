@@ -9,20 +9,20 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_UIBUBBLEMANAGER_DESPAWNBUBBLE_OFFSET UNITYSDK_OFFSET(0x1390A2A0)
-#define RPG_CLIENT_UIBUBBLEMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x1390A3B0)
-#define RPG_CLIENT_UIBUBBLEMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1390A680)
-#define RPG_CLIENT_UIBUBBLEMANAGER_SHOWBUBBLE_1_OFFSET UNITYSDK_OFFSET(0x1390A800)
-#define RPG_CLIENT_UIBUBBLEMANAGER_SHOWBUBBLE_OFFSET UNITYSDK_OFFSET(0x1390A6D0)
-#define RPG_CLIENT_UIBUBBLEMANAGER_SPAWNBUBBLE_1_OFFSET UNITYSDK_OFFSET(0x1390A9D0)
-#define RPG_CLIENT_UIBUBBLEMANAGER_SPAWNBUBBLE_OFFSET UNITYSDK_OFFSET(0x1390A8B0)
-#define RPG_CLIENT_UIBUBBLEMANAGER_START_OFFSET UNITYSDK_OFFSET(0x1390A460)
-#define RPG_CLIENT_UIBUBBLEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1390ABA0)
-#define RPG_CLIENT_UIBUBBLEMANAGER__ONSHOWBUBBLE_OFFSET UNITYSDK_OFFSET(0x1390A720)
+#define RPG_CLIENT_UIBUBBLEMANAGER_DESPAWNBUBBLE_OFFSET UNITYSDK_OFFSET(0x143EF1F0)
+#define RPG_CLIENT_UIBUBBLEMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x143EF300)
+#define RPG_CLIENT_UIBUBBLEMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x143EF610)
+#define RPG_CLIENT_UIBUBBLEMANAGER_SHOWBUBBLE_1_OFFSET UNITYSDK_OFFSET(0x143EF800)
+#define RPG_CLIENT_UIBUBBLEMANAGER_SHOWBUBBLE_OFFSET UNITYSDK_OFFSET(0x143EF660)
+#define RPG_CLIENT_UIBUBBLEMANAGER_SPAWNBUBBLE_1_OFFSET UNITYSDK_OFFSET(0x143EFA50)
+#define RPG_CLIENT_UIBUBBLEMANAGER_SPAWNBUBBLE_OFFSET UNITYSDK_OFFSET(0x143EF910)
+#define RPG_CLIENT_UIBUBBLEMANAGER_START_OFFSET UNITYSDK_OFFSET(0x143EF3B0)
+#define RPG_CLIENT_UIBUBBLEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x143EFC30)
+#define RPG_CLIENT_UIBUBBLEMANAGER__ONSHOWBUBBLE_OFFSET UNITYSDK_OFFSET(0x143EF6B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIBubbleManager_TypeDefinitionIndex = 63551;
+	inline static constexpr unsigned int UIBubbleManager_TypeDefinitionIndex = 64471;
 
 	class UIBubbleManager : public ::UnityEngine::MonoBehaviour
 	{
@@ -38,9 +38,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEMANAGER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Init(::System::Func_3<::XLua::LuaTable*, ::RPG::Client::UIBubbleManager*, ::RPG::Client::UIBubbleItem*>* callback, ::XLua::LuaTable* luaTable)
+		::System::Void Init(::System::Func_3<::XLua::LuaTable*, ::RPG::Client::UIBubbleManager*, ::RPG::Client::UIBubbleItem*>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Func_3<::XLua::LuaTable*, ::RPG::Client::UIBubbleManager*, ::RPG::Client::UIBubbleItem*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEMANAGER_INIT_OFFSET))(this, callback, luaTable);
+			return ((::System::Void(*)(::PVOID, ::System::Func_3<::XLua::LuaTable*, ::RPG::Client::UIBubbleManager*, ::RPG::Client::UIBubbleItem*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEMANAGER_INIT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Start()
@@ -58,9 +58,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEMANAGER_SHOWBUBBLE_OFFSET))(this);
 		}
 
-		::RPG::Client::UIBubbleItem* ShowBubble_1(::System::Int32 prefabIndex)
+		::RPG::Client::UIBubbleItem* ShowBubble_1(::System::Int32 a1)
 		{
-			return ((::RPG::Client::UIBubbleItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEMANAGER_SHOWBUBBLE_1_OFFSET))(this, prefabIndex);
+			return ((::RPG::Client::UIBubbleItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEMANAGER_SHOWBUBBLE_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnShowBubble()
@@ -68,19 +68,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEMANAGER__ONSHOWBUBBLE_OFFSET))(this);
 		}
 
-		::RPG::Client::UIBubbleItem* SpawnBubble(::System::Int32 prefabIndex)
+		::RPG::Client::UIBubbleItem* SpawnBubble(::System::Int32 a1)
 		{
-			return ((::RPG::Client::UIBubbleItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEMANAGER_SPAWNBUBBLE_OFFSET))(this, prefabIndex);
+			return ((::RPG::Client::UIBubbleItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEMANAGER_SPAWNBUBBLE_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::UIBubbleItem* SpawnBubble_1(::RPG::Client::WeakAssetReference weakAsset)
+		::RPG::Client::UIBubbleItem* SpawnBubble_1(::RPG::Client::WeakAssetReference a1)
 		{
-			return ((::RPG::Client::UIBubbleItem*(*)(::PVOID, ::RPG::Client::WeakAssetReference))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEMANAGER_SPAWNBUBBLE_1_OFFSET))(this, weakAsset);
+			return ((::RPG::Client::UIBubbleItem*(*)(::PVOID, ::RPG::Client::WeakAssetReference))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEMANAGER_SPAWNBUBBLE_1_OFFSET))(this, a1);
 		}
 
-		::System::Void DespawnBubble(::RPG::Client::UIBubbleItem* item, ::Class_1_BADE65034284623D* pool)
+		::System::Void DespawnBubble(::RPG::Client::UIBubbleItem* a1, ::Class_1_BADE65034284623D* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIBubbleItem*, ::Class_1_BADE65034284623D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEMANAGER_DESPAWNBUBBLE_OFFSET))(this, item, pool);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIBubbleItem*, ::Class_1_BADE65034284623D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEMANAGER_DESPAWNBUBBLE_OFFSET))(this, a1, a2);
 		}
 	};
 }

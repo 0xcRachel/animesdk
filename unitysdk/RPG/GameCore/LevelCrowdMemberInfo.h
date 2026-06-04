@@ -11,12 +11,12 @@ namespace RPG::GameCore { class LevelLookAtPositionInfo; }
 namespace RPG::GameCore { class LevelNPCPossessionInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELCROWDMEMBERINFO_METHOD_2_C9D494A27B67B1C3_OFFSET UNITYSDK_OFFSET(0x188AEED0)
-#define RPG_GAMECORE_LEVELCROWDMEMBERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x188AF370)
+#define RPG_GAMECORE_LEVELCROWDMEMBERINFO_METHOD_2_EA12CEE7070A5564_OFFSET UNITYSDK_OFFSET(0x18E632C0)
+#define RPG_GAMECORE_LEVELCROWDMEMBERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18E63760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCrowdMemberInfo_TypeDefinitionIndex = 16396;
+	inline static constexpr unsigned int LevelCrowdMemberInfo_TypeDefinitionIndex = 16430;
 
 	class LevelCrowdMemberInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -43,9 +43,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCROWDMEMBERINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_C9D494A27B67B1C3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelCrowdMemberInfo*& a2)
+		static ::System::Void Method_2_EA12CEE7070A5564(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelCrowdMemberInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelCrowdMemberInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCROWDMEMBERINFO_METHOD_2_C9D494A27B67B1C3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelCrowdMemberInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCROWDMEMBERINFO_METHOD_2_EA12CEE7070A5564_OFFSET))(a1, a2);
 		}
 	};
 }

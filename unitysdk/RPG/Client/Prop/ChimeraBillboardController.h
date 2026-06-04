@@ -10,23 +10,23 @@ namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_CREATE_OFFSET UNITYSDK_OFFSET(0x15816500)
-#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_GET_WRAPPER_OFFSET UNITYSDK_OFFSET(0x158164E0)
-#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_GET__REFERENCESCREENHEIGHT_OFFSET UNITYSDK_OFFSET(0x15816460)
-#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x15816850)
-#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x158171F0)
-#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SETTARGETPOSITION_1_OFFSET UNITYSDK_OFFSET(0x15817390)
-#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SETTARGETPOSITION_OFFSET UNITYSDK_OFFSET(0x15817330)
-#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SETTARGET_OFFSET UNITYSDK_OFFSET(0x15817260)
-#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SETTICKACTIVE_OFFSET UNITYSDK_OFFSET(0x15817470)
-#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SET_WRAPPER_OFFSET UNITYSDK_OFFSET(0x158164F0)
-#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x158174C0)
-#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER__INITIALIZE_OFFSET UNITYSDK_OFFSET(0x158166D0)
-#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER__TICK_OFFSET UNITYSDK_OFFSET(0x158168A0)
+#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_CREATE_OFFSET UNITYSDK_OFFSET(0x166D1AC0)
+#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_GET_WRAPPER_OFFSET UNITYSDK_OFFSET(0x166D1AA0)
+#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_GET__REFERENCESCREENHEIGHT_OFFSET UNITYSDK_OFFSET(0x166D1A20)
+#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x166D1E10)
+#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x166D27B0)
+#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SETTARGETPOSITION_1_OFFSET UNITYSDK_OFFSET(0x166D2960)
+#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SETTARGETPOSITION_OFFSET UNITYSDK_OFFSET(0x166D2900)
+#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SETTARGET_OFFSET UNITYSDK_OFFSET(0x166D2820)
+#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SETTICKACTIVE_OFFSET UNITYSDK_OFFSET(0x166D2A60)
+#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SET_WRAPPER_OFFSET UNITYSDK_OFFSET(0x166D1AB0)
+#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x166D2AB0)
+#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER__INITIALIZE_OFFSET UNITYSDK_OFFSET(0x166D1C90)
+#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER__TICK_OFFSET UNITYSDK_OFFSET(0x166D1E60)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraBillboardController_TypeDefinitionIndex = 71965;
+	inline static constexpr unsigned int ChimeraBillboardController_TypeDefinitionIndex = 72987;
 
 	class ChimeraBillboardController : public ::UnityEngine::MonoBehaviour
 	{
@@ -55,19 +55,19 @@ namespace RPG::Client::Prop
 			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_GET_WRAPPER_OFFSET))(this);
 		}
 
-		::System::Void set_Wrapper(::UnityEngine::Transform* value)
+		::System::Void set_Wrapper(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SET_WRAPPER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SET_WRAPPER_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::Prop::ChimeraBillboardController* Create(::UnityEngine::Canvas* worldSpaceCanvas, ::System::Func_2<::UnityEngine::Transform*, ::UnityEngine::GameObject*>* instantiate)
+		static ::RPG::Client::Prop::ChimeraBillboardController* Create(::UnityEngine::Canvas* a1, ::System::Func_2<::UnityEngine::Transform*, ::UnityEngine::GameObject*>* a2)
 		{
-			return ((::RPG::Client::Prop::ChimeraBillboardController*(*)(::UnityEngine::Canvas*, ::System::Func_2<::UnityEngine::Transform*, ::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_CREATE_OFFSET))(worldSpaceCanvas, instantiate);
+			return ((::RPG::Client::Prop::ChimeraBillboardController*(*)(::UnityEngine::Canvas*, ::System::Func_2<::UnityEngine::Transform*, ::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_CREATE_OFFSET))(a1, a2);
 		}
 
-		::System::Void _Initialize(::UnityEngine::Canvas* worldSpaceCanvas)
+		::System::Void _Initialize(::UnityEngine::Canvas* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Canvas*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER__INITIALIZE_OFFSET))(this, worldSpaceCanvas);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Canvas*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER__INITIALIZE_OFFSET))(this, a1);
 		}
 
 		::System::Void LateUpdate()
@@ -85,24 +85,24 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void SetTarget(::UnityEngine::Transform* target)
+		::System::Void SetTarget(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SETTARGET_OFFSET))(this, target);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SETTARGET_OFFSET))(this, a1);
 		}
 
-		::System::Void SetTargetPosition(::System::Action_1<::UnityEngine::Transform*>* positionSetter)
+		::System::Void SetTargetPosition(::System::Action_1<::UnityEngine::Transform*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SETTARGETPOSITION_OFFSET))(this, positionSetter);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SETTARGETPOSITION_OFFSET))(this, a1);
 		}
 
-		::System::Void SetTargetPosition_1(::UnityEngine::Vector3 position)
+		::System::Void SetTargetPosition_1(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SETTARGETPOSITION_1_OFFSET))(this, position);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SETTARGETPOSITION_1_OFFSET))(this, a1);
 		}
 
-		::System::Void SetTickActive(::System::Boolean active)
+		::System::Void SetTickActive(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SETTICKACTIVE_OFFSET))(this, active);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SETTICKACTIVE_OFFSET))(this, a1);
 		}
 	};
 }

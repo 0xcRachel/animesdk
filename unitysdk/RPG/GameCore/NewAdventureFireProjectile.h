@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class NewProjectileConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE_METHOD_4_41C2FA3B57765CCC_OFFSET UNITYSDK_OFFSET(0x1864C080)
-#define RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE_METHOD_4_EC3D5EE410FFD801_OFFSET UNITYSDK_OFFSET(0x1864C000)
-#define RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1864C050)
+#define RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE_METHOD_4_CE5B8DB4BD351B70_OFFSET UNITYSDK_OFFSET(0x191048B0)
+#define RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE_METHOD_4_EFBC1088406F6CD7_OFFSET UNITYSDK_OFFSET(0x19104930)
+#define RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE__CTOR_OFFSET UNITYSDK_OFFSET(0x19104900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NewAdventureFireProjectile_TypeDefinitionIndex = 19147;
+	inline static constexpr unsigned int NewAdventureFireProjectile_TypeDefinitionIndex = 19076;
 
 	class NewAdventureFireProjectile : public ::RPG::GameCore::AdventureFireProjectileBase
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_EC3D5EE410FFD801(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NewAdventureFireProjectile*& a2)
+		static ::System::Void Method_4_CE5B8DB4BD351B70(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NewAdventureFireProjectile*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NewAdventureFireProjectile*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE_METHOD_4_EC3D5EE410FFD801_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NewAdventureFireProjectile*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE_METHOD_4_CE5B8DB4BD351B70_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_41C2FA3B57765CCC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NewAdventureFireProjectile* a2)
+		static ::System::Void Method_4_EFBC1088406F6CD7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NewAdventureFireProjectile* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NewAdventureFireProjectile*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE_METHOD_4_41C2FA3B57765CCC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NewAdventureFireProjectile*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE_METHOD_4_EFBC1088406F6CD7_OFFSET))(a1, a2);
 		}
 	};
 }

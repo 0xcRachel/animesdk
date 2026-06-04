@@ -6,13 +6,13 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Xml::Serialization { class EnumMap_EnumMapMember; }
 
-#define SYSTEM_XML_SERIALIZATION_ENUMMAP_GETENUMNAME_OFFSET UNITYSDK_OFFSET(0x1855BD80)
-#define SYSTEM_XML_SERIALIZATION_ENUMMAP_GETXMLNAME_OFFSET UNITYSDK_OFFSET(0x1855B660)
-#define SYSTEM_XML_SERIALIZATION_ENUMMAP_GET_ENUMNAMES_OFFSET UNITYSDK_OFFSET(0x1855B630)
-#define SYSTEM_XML_SERIALIZATION_ENUMMAP_GET_ISFLAGS_OFFSET UNITYSDK_OFFSET(0x1855B620)
-#define SYSTEM_XML_SERIALIZATION_ENUMMAP_GET_VALUES_OFFSET UNITYSDK_OFFSET(0x1855B650)
-#define SYSTEM_XML_SERIALIZATION_ENUMMAP_GET_XMLNAMES_OFFSET UNITYSDK_OFFSET(0x1855B640)
-#define SYSTEM_XML_SERIALIZATION_ENUMMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1855B4B0)
+#define SYSTEM_XML_SERIALIZATION_ENUMMAP_GETENUMNAME_OFFSET UNITYSDK_OFFSET(0x1848A190)
+#define SYSTEM_XML_SERIALIZATION_ENUMMAP_GETXMLNAME_OFFSET UNITYSDK_OFFSET(0x18489A10)
+#define SYSTEM_XML_SERIALIZATION_ENUMMAP_GET_ENUMNAMES_OFFSET UNITYSDK_OFFSET(0x184899E0)
+#define SYSTEM_XML_SERIALIZATION_ENUMMAP_GET_ISFLAGS_OFFSET UNITYSDK_OFFSET(0x184899D0)
+#define SYSTEM_XML_SERIALIZATION_ENUMMAP_GET_VALUES_OFFSET UNITYSDK_OFFSET(0x18489A00)
+#define SYSTEM_XML_SERIALIZATION_ENUMMAP_GET_XMLNAMES_OFFSET UNITYSDK_OFFSET(0x184899F0)
+#define SYSTEM_XML_SERIALIZATION_ENUMMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x184898A0)
 
 namespace System::Xml::Serialization
 {
@@ -21,15 +21,15 @@ namespace System::Xml::Serialization
 	class EnumMap : public ::System::Xml::Serialization::ObjectMap
 	{
 	public:
-		::Il2CppArray<::System::String*>* _xmlNames; // 0x10
+		::Il2CppArray<::System::String*>* _enumNames; // 0x10
 		::Il2CppArray<::System::Xml::Serialization::EnumMap_EnumMapMember*>* _members; // 0x18
-		::Il2CppArray<::System::Int64>* _values; // 0x20
-		::Il2CppArray<::System::String*>* _enumNames; // 0x28
+		::Il2CppArray<::System::String*>* _xmlNames; // 0x20
+		::Il2CppArray<::System::Int64>* _values; // 0x28
 		::System::Boolean _isFlags; // 0x30
 
-		::System::Void _ctor(::Il2CppArray<::System::Xml::Serialization::EnumMap_EnumMapMember*>* members, ::System::Boolean isFlags)
+		::System::Void _ctor(::Il2CppArray<::System::Xml::Serialization::EnumMap_EnumMapMember*>* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Xml::Serialization::EnumMap_EnumMapMember*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_ENUMMAP__CTOR_OFFSET))(this, members, isFlags);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Xml::Serialization::EnumMap_EnumMapMember*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_ENUMMAP__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_IsFlags()
@@ -52,14 +52,14 @@ namespace System::Xml::Serialization
 			return ((::Il2CppArray<::System::Int64>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_ENUMMAP_GET_VALUES_OFFSET))(this);
 		}
 
-		::System::String* GetXmlName(::System::String* typeName, ::System::Object* enumValue)
+		::System::String* GetXmlName(::System::String* a1, ::System::Object* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_ENUMMAP_GETXMLNAME_OFFSET))(this, typeName, enumValue);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_ENUMMAP_GETXMLNAME_OFFSET))(this, a1, a2);
 		}
 
-		::System::String* GetEnumName(::System::String* typeName, ::System::String* xmlName)
+		::System::String* GetEnumName(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_ENUMMAP_GETENUMNAME_OFFSET))(this, typeName, xmlName);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_ENUMMAP_GETENUMNAME_OFFSET))(this, a1, a2);
 		}
 	};
 }

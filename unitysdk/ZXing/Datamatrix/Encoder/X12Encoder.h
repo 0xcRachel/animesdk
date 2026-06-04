@@ -5,15 +5,15 @@
 namespace System::Text { class StringBuilder; }
 namespace ZXing::Datamatrix::Encoder { class EncoderContext; }
 
-#define ZXING_DATAMATRIX_ENCODER_X12ENCODER_ENCODECHAR_OFFSET UNITYSDK_OFFSET(0x16CA3DC0)
-#define ZXING_DATAMATRIX_ENCODER_X12ENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x16CA3B30)
-#define ZXING_DATAMATRIX_ENCODER_X12ENCODER_GET_ENCODINGMODE_OFFSET UNITYSDK_OFFSET(0x16CA3B20)
-#define ZXING_DATAMATRIX_ENCODER_X12ENCODER_HANDLEEOD_OFFSET UNITYSDK_OFFSET(0x16CA3E70)
-#define ZXING_DATAMATRIX_ENCODER_X12ENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x16CA1CA0)
+#define ZXING_DATAMATRIX_ENCODER_X12ENCODER_ENCODECHAR_OFFSET UNITYSDK_OFFSET(0x13CD36A0)
+#define ZXING_DATAMATRIX_ENCODER_X12ENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x13CD3490)
+#define ZXING_DATAMATRIX_ENCODER_X12ENCODER_GET_ENCODINGMODE_OFFSET UNITYSDK_OFFSET(0x13CD3480)
+#define ZXING_DATAMATRIX_ENCODER_X12ENCODER_HANDLEEOD_OFFSET UNITYSDK_OFFSET(0x13CD37D0)
+#define ZXING_DATAMATRIX_ENCODER_X12ENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x13CD1550)
 
 namespace ZXing::Datamatrix::Encoder
 {
-	inline static constexpr unsigned int X12Encoder_TypeDefinitionIndex = 6088;
+	inline static constexpr unsigned int X12Encoder_TypeDefinitionIndex = 6461;
 
 	class X12Encoder : public ::ZXing::Datamatrix::Encoder::C40Encoder
 	{
@@ -28,19 +28,19 @@ namespace ZXing::Datamatrix::Encoder
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_X12ENCODER_GET_ENCODINGMODE_OFFSET))(this);
 		}
 
-		::System::Void encode(::ZXing::Datamatrix::Encoder::EncoderContext* context)
+		::System::Void encode(::ZXing::Datamatrix::Encoder::EncoderContext* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZXing::Datamatrix::Encoder::EncoderContext*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_X12ENCODER_ENCODE_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::ZXing::Datamatrix::Encoder::EncoderContext*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_X12ENCODER_ENCODE_OFFSET))(this, a1);
 		}
 
-		::System::Int32 encodeChar(::System::Char c, ::System::Text::StringBuilder* sb)
+		::System::Int32 encodeChar(::System::Char a1, ::System::Text::StringBuilder* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Char, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_X12ENCODER_ENCODECHAR_OFFSET))(this, c, sb);
+			return ((::System::Int32(*)(::PVOID, ::System::Char, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_X12ENCODER_ENCODECHAR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void handleEOD(::ZXing::Datamatrix::Encoder::EncoderContext* context, ::System::Text::StringBuilder* buffer)
+		::System::Void handleEOD(::ZXing::Datamatrix::Encoder::EncoderContext* a1, ::System::Text::StringBuilder* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZXing::Datamatrix::Encoder::EncoderContext*, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_X12ENCODER_HANDLEEOD_OFFSET))(this, context, buffer);
+			return ((::System::Void(*)(::PVOID, ::ZXing::Datamatrix::Encoder::EncoderContext*, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_X12ENCODER_HANDLEEOD_OFFSET))(this, a1, a2);
 		}
 	};
 }

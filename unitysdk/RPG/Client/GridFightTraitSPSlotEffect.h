@@ -6,32 +6,32 @@ namespace RPG::Client { class GridFightTrait; }
 namespace RPG::GameCore { class GridFightTraitSPBattleAreaRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT_CHECKSLOTISEFFECTED_OFFSET UNITYSDK_OFFSET(0x17439960)
-#define RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT_GETSPECIALSLOTLIST_OFFSET UNITYSDK_OFFSET(0x174398B0)
-#define RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT_GET_EFFECTSLOTLIST_OFFSET UNITYSDK_OFFSET(0x174399D0)
-#define RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT_GET__AREACONFIG_OFFSET UNITYSDK_OFFSET(0x174399E0)
-#define RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT_ONTRAITCHANGE_OFFSET UNITYSDK_OFFSET(0x174397A0)
-#define RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT_SET__AREACONFIG_OFFSET UNITYSDK_OFFSET(0x174399F0)
-#define RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x174396D0)
-#define RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT___IFIXBASEPROXY_ONTRAITCHANGE_OFFSET UNITYSDK_OFFSET(0x17439A00)
+#define RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT_CHECKSLOTISEFFECTED_OFFSET UNITYSDK_OFFSET(0x17668250)
+#define RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT_GETSPECIALSLOTLIST_OFFSET UNITYSDK_OFFSET(0x176681A0)
+#define RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT_GET_EFFECTSLOTLIST_OFFSET UNITYSDK_OFFSET(0x17668320)
+#define RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT_GET__AREACONFIG_OFFSET UNITYSDK_OFFSET(0x17668330)
+#define RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT_ONTRAITCHANGE_OFFSET UNITYSDK_OFFSET(0x17668090)
+#define RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT_SET__AREACONFIG_OFFSET UNITYSDK_OFFSET(0x17668340)
+#define RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x17668080)
+#define RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT___IFIXBASEPROXY_ONTRAITCHANGE_OFFSET UNITYSDK_OFFSET(0x17668350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitSPSlotEffect_TypeDefinitionIndex = 60212;
+	inline static constexpr unsigned int GridFightTraitSPSlotEffect_TypeDefinitionIndex = 61147;
 
 	class GridFightTraitSPSlotEffect : public ::RPG::Client::GridFightTraitEffectBase
 	{
 	public:
 		::RPG::GameCore::GridFightTraitSPBattleAreaRow* __AreaConfig_k__BackingField; // 0x30
 
-		::System::Void _ctor(::System::UInt32 id, ::RPG::Client::GridFightTrait* trait)
+		::System::Void _ctor(::System::UInt32 a1, ::RPG::Client::GridFightTrait* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::GridFightTrait*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT__CTOR_OFFSET))(this, id, trait);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::GridFightTrait*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnTraitChange(::System::UInt32 layer, ::System::Boolean isActive)
+		::System::Void OnTraitChange(::System::UInt32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT_ONTRAITCHANGE_OFFSET))(this, layer, isActive);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT_ONTRAITCHANGE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* GetSpecialSlotList()
@@ -39,9 +39,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT_GETSPECIALSLOTLIST_OFFSET))(this);
 		}
 
-		::System::Boolean CheckSlotIsEffected(::System::UInt32 slotID)
+		::System::Boolean CheckSlotIsEffected(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT_CHECKSLOTISEFFECTED_OFFSET))(this, slotID);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT_CHECKSLOTISEFFECTED_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* get_EffectSlotList()
@@ -54,14 +54,14 @@ namespace RPG::Client
 			return ((::RPG::GameCore::GridFightTraitSPBattleAreaRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT_GET__AREACONFIG_OFFSET))(this);
 		}
 
-		::System::Void set__AreaConfig(::RPG::GameCore::GridFightTraitSPBattleAreaRow* value)
+		::System::Void set__AreaConfig(::RPG::GameCore::GridFightTraitSPBattleAreaRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GridFightTraitSPBattleAreaRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT_SET__AREACONFIG_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GridFightTraitSPBattleAreaRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT_SET__AREACONFIG_OFFSET))(this, a1);
 		}
 
-		::System::Void __iFixBaseProxy_OnTraitChange(::System::UInt32 P0, ::System::Boolean P1)
+		::System::Void __iFixBaseProxy_OnTraitChange(::System::UInt32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT___IFIXBASEPROXY_ONTRAITCHANGE_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITSPSLOTEFFECT___IFIXBASEPROXY_ONTRAITCHANGE_OFFSET))(this, a1, a2);
 		}
 	};
 }

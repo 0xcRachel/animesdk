@@ -11,65 +11,65 @@ namespace XLua { class ObjectCheck; }
 namespace XLua { class ObjectCheckers; }
 namespace XLua { class ObjectTranslator; }
 
-#define XLUA_OVERLOADMETHODWRAP_CALL_OFFSET UNITYSDK_OFFSET(0x8C67F50)
-#define XLUA_OVERLOADMETHODWRAP_CHECK_OFFSET UNITYSDK_OFFSET(0x8C67D80)
-#define XLUA_OVERLOADMETHODWRAP_GET_HASDEFALUTVALUE_OFFSET UNITYSDK_OFFSET(0x8C66C60)
-#define XLUA_OVERLOADMETHODWRAP_INIT_OFFSET UNITYSDK_OFFSET(0x8C66CA0)
-#define XLUA_OVERLOADMETHODWRAP_SET_HASDEFALUTVALUE_OFFSET UNITYSDK_OFFSET(0x8C66C70)
-#define XLUA_OVERLOADMETHODWRAP__CCTOR_OFFSET UNITYSDK_OFFSET(0x8C68B70)
-#define XLUA_OVERLOADMETHODWRAP__CTOR_OFFSET UNITYSDK_OFFSET(0x8C66C80)
+#define XLUA_OVERLOADMETHODWRAP_CALL_OFFSET UNITYSDK_OFFSET(0xAB3EB00)
+#define XLUA_OVERLOADMETHODWRAP_CHECK_OFFSET UNITYSDK_OFFSET(0xAB3E940)
+#define XLUA_OVERLOADMETHODWRAP_GET_HASDEFALUTVALUE_OFFSET UNITYSDK_OFFSET(0xAB3D650)
+#define XLUA_OVERLOADMETHODWRAP_INIT_OFFSET UNITYSDK_OFFSET(0xAB3D690)
+#define XLUA_OVERLOADMETHODWRAP_SET_HASDEFALUTVALUE_OFFSET UNITYSDK_OFFSET(0xAB3D660)
+#define XLUA_OVERLOADMETHODWRAP__CCTOR_OFFSET UNITYSDK_OFFSET(0xAB3F480)
+#define XLUA_OVERLOADMETHODWRAP__CTOR_OFFSET UNITYSDK_OFFSET(0xAB3D670)
 
 namespace XLua
 {
-	inline static constexpr unsigned int OverloadMethodWrap_TypeDefinitionIndex = 46406;
+	inline static constexpr unsigned int OverloadMethodWrap_TypeDefinitionIndex = 46996;
 
 	class OverloadMethodWrap : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::XLua::ObjectCast*>** StaticGet_paramsCasts()
-		{
-			return (::System::Collections::Generic::List_1<::XLua::ObjectCast*>**)Il2CppClass::FromTypeDefinitionIndex(OverloadMethodWrap_TypeDefinitionIndex)->GetStaticField(0x20880);
-		}
-		static ::System::Collections::Generic::List_1<::System::Boolean>** StaticGet_isOptionalList()
-		{
-			return (::System::Collections::Generic::List_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(OverloadMethodWrap_TypeDefinitionIndex)->GetStaticField(0x20888);
-		}
-		static ::System::Collections::Generic::List_1<::XLua::ObjectCheck*>** StaticGet_paramsChecks()
-		{
-			return (::System::Collections::Generic::List_1<::XLua::ObjectCheck*>**)Il2CppClass::FromTypeDefinitionIndex(OverloadMethodWrap_TypeDefinitionIndex)->GetStaticField(0x20890);
-		}
 		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_outPosList()
 		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(OverloadMethodWrap_TypeDefinitionIndex)->GetStaticField(0x20898);
-		}
-		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet_defaultValueList()
-		{
-			return (::System::Collections::Generic::List_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(OverloadMethodWrap_TypeDefinitionIndex)->GetStaticField(0x208A0);
+			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(OverloadMethodWrap_TypeDefinitionIndex)->GetStaticField(0x3F8A0);
 		}
 		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_inPosList()
 		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(OverloadMethodWrap_TypeDefinitionIndex)->GetStaticField(0x208A8);
+			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(OverloadMethodWrap_TypeDefinitionIndex)->GetStaticField(0x3F8A8);
 		}
-		::Il2CppArray<::System::Object*>* defaultValueArray; // 0x10
-		::Il2CppArray<::System::Int32>* inPosArray; // 0x18
-		::System::Type* paramsType; // 0x20
-		::Il2CppArray<::XLua::ObjectCast*>* castArray; // 0x28
-		::Il2CppArray<::XLua::ObjectCheck*>* checkArray; // 0x30
-		::System::Reflection::MethodBase* method; // 0x38
-		::Il2CppArray<::System::Int32>* refPos; // 0x40
-		::Il2CppArray<::System::Int32>* outPosArray; // 0x48
-		::Il2CppArray<::System::Object*>* args; // 0x50
-		::System::Type* targetType; // 0x58
-		::Il2CppArray<::System::Boolean>* isOptionalArray; // 0x60
-		::XLua::ObjectTranslator* translator; // 0x68
-		::System::Boolean targetNeeded; // 0x70
-		::System::Boolean _HasDefalutValue_k__BackingField; // 0x71
-		::System::Boolean isVoid; // 0x72
+		static ::System::Collections::Generic::List_1<::System::Boolean>** StaticGet_isOptionalList()
+		{
+			return (::System::Collections::Generic::List_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(OverloadMethodWrap_TypeDefinitionIndex)->GetStaticField(0x3F8B0);
+		}
+		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet_defaultValueList()
+		{
+			return (::System::Collections::Generic::List_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(OverloadMethodWrap_TypeDefinitionIndex)->GetStaticField(0x3F8B8);
+		}
+		static ::System::Collections::Generic::List_1<::XLua::ObjectCheck*>** StaticGet_paramsChecks()
+		{
+			return (::System::Collections::Generic::List_1<::XLua::ObjectCheck*>**)Il2CppClass::FromTypeDefinitionIndex(OverloadMethodWrap_TypeDefinitionIndex)->GetStaticField(0x3F8C0);
+		}
+		static ::System::Collections::Generic::List_1<::XLua::ObjectCast*>** StaticGet_paramsCasts()
+		{
+			return (::System::Collections::Generic::List_1<::XLua::ObjectCast*>**)Il2CppClass::FromTypeDefinitionIndex(OverloadMethodWrap_TypeDefinitionIndex)->GetStaticField(0x3F8C8);
+		}
+		::Il2CppArray<::System::Int32>* inPosArray; // 0x10
+		::System::Reflection::MethodBase* method; // 0x18
+		::XLua::ObjectTranslator* translator; // 0x20
+		::System::Type* paramsType; // 0x28
+		::Il2CppArray<::System::Object*>* defaultValueArray; // 0x30
+		::System::Type* targetType; // 0x38
+		::Il2CppArray<::System::Int32>* outPosArray; // 0x40
+		::Il2CppArray<::System::Boolean>* isOptionalArray; // 0x48
+		::Il2CppArray<::XLua::ObjectCheck*>* checkArray; // 0x50
+		::Il2CppArray<::XLua::ObjectCast*>* castArray; // 0x58
+		::Il2CppArray<::System::Object*>* args; // 0x60
+		::Il2CppArray<::System::Int32>* refPos; // 0x68
+		::System::Boolean _HasDefalutValue_k__BackingField; // 0x70
+		::System::Boolean isVoid; // 0x71
+		::System::Boolean targetNeeded; // 0x72
 		::System::Int32 luaStackPosStart; // 0x74
 
-		::System::Void _ctor(::XLua::ObjectTranslator* translator, ::System::Type* targetType, ::System::Reflection::MethodBase* method)
+		::System::Void _ctor(::XLua::ObjectTranslator* a1, ::System::Type* a2, ::System::Reflection::MethodBase* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::XLua::ObjectTranslator*, ::System::Type*, ::System::Reflection::MethodBase*))((::PBYTE)hIl2Cpp + XLUA_OVERLOADMETHODWRAP__CTOR_OFFSET))(this, translator, targetType, method);
+			return ((::System::Void(*)(::PVOID, ::XLua::ObjectTranslator*, ::System::Type*, ::System::Reflection::MethodBase*))((::PBYTE)hIl2Cpp + XLUA_OVERLOADMETHODWRAP__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Void _cctor()
@@ -82,24 +82,24 @@ namespace XLua
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_OVERLOADMETHODWRAP_GET_HASDEFALUTVALUE_OFFSET))(this);
 		}
 
-		::System::Void set_HasDefalutValue(::System::Boolean value)
+		::System::Void set_HasDefalutValue(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + XLUA_OVERLOADMETHODWRAP_SET_HASDEFALUTVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + XLUA_OVERLOADMETHODWRAP_SET_HASDEFALUTVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void Init(::XLua::ObjectCheckers* objCheckers, ::XLua::ObjectCasters* objCasters)
+		::System::Void Init(::XLua::ObjectCheckers* a1, ::XLua::ObjectCasters* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::XLua::ObjectCheckers*, ::XLua::ObjectCasters*))((::PBYTE)hIl2Cpp + XLUA_OVERLOADMETHODWRAP_INIT_OFFSET))(this, objCheckers, objCasters);
+			return ((::System::Void(*)(::PVOID, ::XLua::ObjectCheckers*, ::XLua::ObjectCasters*))((::PBYTE)hIl2Cpp + XLUA_OVERLOADMETHODWRAP_INIT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Check(::System::IntPtr L)
+		::System::Boolean Check(::System::IntPtr a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_OVERLOADMETHODWRAP_CHECK_OFFSET))(this, L);
+			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_OVERLOADMETHODWRAP_CHECK_OFFSET))(this, a1);
 		}
 
-		::System::Int32 Call(::System::IntPtr L)
+		::System::Int32 Call(::System::IntPtr a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_OVERLOADMETHODWRAP_CALL_OFFSET))(this, L);
+			return ((::System::Int32(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_OVERLOADMETHODWRAP_CALL_OFFSET))(this, a1);
 		}
 	};
 }

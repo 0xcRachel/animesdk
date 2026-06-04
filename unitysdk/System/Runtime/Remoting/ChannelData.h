@@ -6,26 +6,26 @@ namespace System { class String; }
 namespace System::Collections { class ArrayList; }
 namespace System::Collections { class Hashtable; }
 
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_COPYFROM_OFFSET UNITYSDK_OFFSET(0x18F5F680)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CLIENTPROVIDERS_OFFSET UNITYSDK_OFFSET(0x18F5F5B0)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CUSTOMPROPERTIES_OFFSET UNITYSDK_OFFSET(0x18F5F610)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_SERVERPROVIDERS_OFFSET UNITYSDK_OFFSET(0x18F5F550)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18F60310)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_COPYFROM_OFFSET UNITYSDK_OFFSET(0x19710E10)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CLIENTPROVIDERS_OFFSET UNITYSDK_OFFSET(0x19710D40)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CUSTOMPROPERTIES_OFFSET UNITYSDK_OFFSET(0x19710DA0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_SERVERPROVIDERS_OFFSET UNITYSDK_OFFSET(0x19710CE0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19711B00)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int ChannelData_TypeDefinitionIndex = 1206;
+	inline static constexpr unsigned int ChannelData_TypeDefinitionIndex = 1205;
 
 	class ChannelData : public ::System::Object
 	{
 	public:
 		::System::String* DelayLoadAsClientChannel; // 0x10
-		::System::Collections::Hashtable* _customProperties; // 0x18
-		::System::String* Type; // 0x20
-		::System::Collections::ArrayList* _clientProviders; // 0x28
-		::System::Collections::ArrayList* _serverProviders; // 0x30
-		::System::String* Ref; // 0x38
-		::System::String* Id; // 0x40
+		::System::Collections::ArrayList* _serverProviders; // 0x18
+		::System::Collections::ArrayList* _clientProviders; // 0x20
+		::System::String* Id; // 0x28
+		::System::Collections::Hashtable* _customProperties; // 0x30
+		::System::String* Type; // 0x38
+		::System::String* Ref; // 0x40
 
 		::System::Void _ctor()
 		{
@@ -47,9 +47,9 @@ namespace System::Runtime::Remoting
 			return ((::System::Collections::Hashtable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CUSTOMPROPERTIES_OFFSET))(this);
 		}
 
-		::System::Void CopyFrom(::System::Runtime::Remoting::ChannelData* other)
+		::System::Void CopyFrom(::System::Runtime::Remoting::ChannelData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::ChannelData*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CHANNELDATA_COPYFROM_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::ChannelData*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CHANNELDATA_COPYFROM_OFFSET))(this, a1);
 		}
 	};
 }

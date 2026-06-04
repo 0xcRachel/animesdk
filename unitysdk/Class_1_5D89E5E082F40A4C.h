@@ -5,38 +5,38 @@
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define CLASS_1_5D89E5E082F40A4C_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFCB4B60)
-#define CLASS_1_5D89E5E082F40A4C_GET_ENTITYNAME_OFFSET UNITYSDK_OFFSET(0xFCB4FA0)
-#define CLASS_1_5D89E5E082F40A4C_GET_LAYERNAME_OFFSET UNITYSDK_OFFSET(0xFCB4FC0)
-#define CLASS_1_5D89E5E082F40A4C_GET_PARAMNAME_OFFSET UNITYSDK_OFFSET(0xFCB5000)
-#define CLASS_1_5D89E5E082F40A4C_GET_STATENAME_OFFSET UNITYSDK_OFFSET(0xFCB4FE0)
-#define CLASS_1_5D89E5E082F40A4C_METHOD_1_2613D9528D1056D5_OFFSET UNITYSDK_OFFSET(0xFCB4BA0)
-#define CLASS_1_5D89E5E082F40A4C_METHOD_1_BD5F1AF5661A4E98_OFFSET UNITYSDK_OFFSET(0xFCB4DE0)
-#define CLASS_1_5D89E5E082F40A4C_METHOD_1_F6D71BB9DFA2BE91_OFFSET UNITYSDK_OFFSET(0xFCB4C30)
-#define CLASS_1_5D89E5E082F40A4C_SET_ENTITYNAME_OFFSET UNITYSDK_OFFSET(0xFCB4FB0)
-#define CLASS_1_5D89E5E082F40A4C_SET_LAYERNAME_OFFSET UNITYSDK_OFFSET(0xFCB4FD0)
-#define CLASS_1_5D89E5E082F40A4C_SET_PARAMNAME_OFFSET UNITYSDK_OFFSET(0xFCB5010)
-#define CLASS_1_5D89E5E082F40A4C_SET_STATENAME_OFFSET UNITYSDK_OFFSET(0xFCB4FF0)
-#define CLASS_1_5D89E5E082F40A4C__CCTOR_OFFSET UNITYSDK_OFFSET(0xFCB5020)
-#define CLASS_1_5D89E5E082F40A4C__CTOR_OFFSET UNITYSDK_OFFSET(0xFCB4B30)
+#define CLASS_1_5D89E5E082F40A4C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1587BEE0)
+#define CLASS_1_5D89E5E082F40A4C_GET_ENTITYNAME_OFFSET UNITYSDK_OFFSET(0x1587C320)
+#define CLASS_1_5D89E5E082F40A4C_GET_LAYERNAME_OFFSET UNITYSDK_OFFSET(0x1587C340)
+#define CLASS_1_5D89E5E082F40A4C_GET_PARAMNAME_OFFSET UNITYSDK_OFFSET(0x1587C380)
+#define CLASS_1_5D89E5E082F40A4C_GET_STATENAME_OFFSET UNITYSDK_OFFSET(0x1587C360)
+#define CLASS_1_5D89E5E082F40A4C_METHOD_1_2613D9528D1056D5_OFFSET UNITYSDK_OFFSET(0x1587BF20)
+#define CLASS_1_5D89E5E082F40A4C_METHOD_1_BD5F1AF5661A4E98_OFFSET UNITYSDK_OFFSET(0x1587C160)
+#define CLASS_1_5D89E5E082F40A4C_METHOD_1_F6D71BB9DFA2BE91_OFFSET UNITYSDK_OFFSET(0x1587BFB0)
+#define CLASS_1_5D89E5E082F40A4C_SET_ENTITYNAME_OFFSET UNITYSDK_OFFSET(0x1587C330)
+#define CLASS_1_5D89E5E082F40A4C_SET_LAYERNAME_OFFSET UNITYSDK_OFFSET(0x1587C350)
+#define CLASS_1_5D89E5E082F40A4C_SET_PARAMNAME_OFFSET UNITYSDK_OFFSET(0x1587C390)
+#define CLASS_1_5D89E5E082F40A4C_SET_STATENAME_OFFSET UNITYSDK_OFFSET(0x1587C370)
+#define CLASS_1_5D89E5E082F40A4C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1587C3A0)
+#define CLASS_1_5D89E5E082F40A4C__CTOR_OFFSET UNITYSDK_OFFSET(0x1587BEB0)
 
-inline static constexpr unsigned int Class_1_5D89E5E082F40A4C_TypeDefinitionIndex = 55507;
+inline static constexpr unsigned int Class_1_5D89E5E082F40A4C_TypeDefinitionIndex = 56258;
 
 class Class_1_5D89E5E082F40A4C : public ::System::Object
 {
 public:
-	static ::System::Single* StaticGet_Field_1_8()
+	static ::System::Single* StaticGet_Field_1_0()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_5D89E5E082F40A4C_TypeDefinitionIndex)->GetStaticField(0x10B60);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_5D89E5E082F40A4C_TypeDefinitionIndex)->GetStaticField(0xC50);
 	}
-	::System::String* _ParamName_k__BackingField; // 0x10
-	::UnityEngine::Animator* Field_1_0; // 0x18
-	::System::String* _StateName_k__BackingField; // 0x20
-	::System::String* _EntityName_k__BackingField; // 0x28
-	::System::String* _LayerName_k__BackingField; // 0x30
+	::System::String* _StateName_k__BackingField; // 0x10
+	::System::String* _LayerName_k__BackingField; // 0x18
+	::UnityEngine::Animator* Field_1_3; // 0x20
+	::System::String* _ParamName_k__BackingField; // 0x28
+	::System::String* _EntityName_k__BackingField; // 0x30
 	::System::Single Field_1_6; // 0x38
 	::System::Boolean Field_1_7; // 0x3C
-	::System::Single Field_1_5; // 0x40
+	::System::Single Field_1_8; // 0x40
 
 	::System::Void _ctor(::UnityEngine::Animator* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::Single a6)
 	{
@@ -73,9 +73,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5D89E5E082F40A4C_GET_ENTITYNAME_OFFSET))(this);
 	}
 
-	::System::Void set_EntityName(::System::String* value)
+	::System::Void set_EntityName(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_5D89E5E082F40A4C_SET_ENTITYNAME_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_5D89E5E082F40A4C_SET_ENTITYNAME_OFFSET))(this, a1);
 	}
 
 	::System::String* get_LayerName()
@@ -83,9 +83,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5D89E5E082F40A4C_GET_LAYERNAME_OFFSET))(this);
 	}
 
-	::System::Void set_LayerName(::System::String* value)
+	::System::Void set_LayerName(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_5D89E5E082F40A4C_SET_LAYERNAME_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_5D89E5E082F40A4C_SET_LAYERNAME_OFFSET))(this, a1);
 	}
 
 	::System::String* get_StateName()
@@ -93,9 +93,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5D89E5E082F40A4C_GET_STATENAME_OFFSET))(this);
 	}
 
-	::System::Void set_StateName(::System::String* value)
+	::System::Void set_StateName(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_5D89E5E082F40A4C_SET_STATENAME_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_5D89E5E082F40A4C_SET_STATENAME_OFFSET))(this, a1);
 	}
 
 	::System::String* get_ParamName()
@@ -103,8 +103,8 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5D89E5E082F40A4C_GET_PARAMNAME_OFFSET))(this);
 	}
 
-	::System::Void set_ParamName(::System::String* value)
+	::System::Void set_ParamName(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_5D89E5E082F40A4C_SET_PARAMNAME_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_5D89E5E082F40A4C_SET_PARAMNAME_OFFSET))(this, a1);
 	}
 };

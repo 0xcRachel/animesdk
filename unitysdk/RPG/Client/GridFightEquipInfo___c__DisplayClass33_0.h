@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class GridFightEquipInfo; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1805B120)
-#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS33_0__GETEQUIPRECOMMENDROLEIDLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1805B410)
+#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1891F2A0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS33_0__GETEQUIPRECOMMENDROLEIDLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1891F970)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipInfo___c__DisplayClass33_0_TypeDefinitionIndex = 59813;
+	inline static constexpr unsigned int GridFightEquipInfo___c__DisplayClass33_0_TypeDefinitionIndex = 60748;
 
 	class GridFightEquipInfo___c__DisplayClass33_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS33_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetEquipRecommendRoleIDList_b__0(::System::UInt32 roleIDA, ::System::UInt32 roleIDB)
+		::System::Int32 _GetEquipRecommendRoleIDList_b__0(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS33_0__GETEQUIPRECOMMENDROLEIDLIST_B__0_OFFSET))(this, roleIDA, roleIDB);
+			return ((::System::Int32(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS33_0__GETEQUIPRECOMMENDROLEIDLIST_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

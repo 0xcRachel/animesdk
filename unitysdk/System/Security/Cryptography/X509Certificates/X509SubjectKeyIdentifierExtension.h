@@ -8,20 +8,20 @@ namespace System { class String; }
 namespace System::Security::Cryptography { class AsnEncodedData; }
 namespace System::Security::Cryptography::X509Certificates { class PublicKey; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_COPYFROM_OFFSET UNITYSDK_OFFSET(0x16B44810)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_DECODE_OFFSET UNITYSDK_OFFSET(0x16B43C50)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_ENCODE_OFFSET UNITYSDK_OFFSET(0x16B43F10)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_FROMHEXCHARS_OFFSET UNITYSDK_OFFSET(0x16B449C0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_FROMHEXCHAR_OFFSET UNITYSDK_OFFSET(0x16B44980)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_FROMHEX_OFFSET UNITYSDK_OFFSET(0x16B44060)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_GET_SUBJECTKEYIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x16B44780)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16B44A40)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16B43BD0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x16B43D40)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x16B43F50)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_4_OFFSET UNITYSDK_OFFSET(0x16B44230)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_5_OFFSET UNITYSDK_OFFSET(0x16B44240)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x16B43B80)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_COPYFROM_OFFSET UNITYSDK_OFFSET(0x14929490)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_DECODE_OFFSET UNITYSDK_OFFSET(0x149288F0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_ENCODE_OFFSET UNITYSDK_OFFSET(0x14928BB0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_FROMHEXCHARS_OFFSET UNITYSDK_OFFSET(0x14929640)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_FROMHEXCHAR_OFFSET UNITYSDK_OFFSET(0x14929600)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_FROMHEX_OFFSET UNITYSDK_OFFSET(0x14928D00)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_GET_SUBJECTKEYIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x14929400)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x149296C0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x14928870)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x149289E0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x14928BF0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_4_OFFSET UNITYSDK_OFFSET(0x14928EC0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_5_OFFSET UNITYSDK_OFFSET(0x14928ED0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x14928820)
 
 namespace System::Security::Cryptography::X509Certificates
 {
@@ -32,8 +32,8 @@ namespace System::Security::Cryptography::X509Certificates
 	public:
 		// static const ::System::String* oid; // 0x0
 		// static const ::System::String* friendlyName; // 0x0
-		::System::String* _ski; // 0x28
-		::Il2CppArray<::System::Byte>* _subjectKeyIdentifier; // 0x30
+		::Il2CppArray<::System::Byte>* _subjectKeyIdentifier; // 0x28
+		::System::String* _ski; // 0x30
 		::System::Security::Cryptography::AsnDecodeStatus _status; // 0x38
 
 		::System::Void _ctor()
@@ -41,29 +41,29 @@ namespace System::Security::Cryptography::X509Certificates
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Security::Cryptography::AsnEncodedData* encodedSubjectKeyIdentifier, ::System::Boolean critical)
+		::System::Void _ctor_1(::System::Security::Cryptography::AsnEncodedData* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::AsnEncodedData*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_1_OFFSET))(this, encodedSubjectKeyIdentifier, critical);
+			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::AsnEncodedData*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_2(::Il2CppArray<::System::Byte>* subjectKeyIdentifier, ::System::Boolean critical)
+		::System::Void _ctor_2(::Il2CppArray<::System::Byte>* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_2_OFFSET))(this, subjectKeyIdentifier, critical);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_3(::System::String* subjectKeyIdentifier, ::System::Boolean critical)
+		::System::Void _ctor_3(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_3_OFFSET))(this, subjectKeyIdentifier, critical);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_3_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_4(::System::Security::Cryptography::X509Certificates::PublicKey* key, ::System::Boolean critical)
+		::System::Void _ctor_4(::System::Security::Cryptography::X509Certificates::PublicKey* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::X509Certificates::PublicKey*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_4_OFFSET))(this, key, critical);
+			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::X509Certificates::PublicKey*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_4_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_5(::System::Security::Cryptography::X509Certificates::PublicKey* key, ::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm algorithm, ::System::Boolean critical)
+		::System::Void _ctor_5(::System::Security::Cryptography::X509Certificates::PublicKey* a1, ::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::X509Certificates::PublicKey*, ::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_5_OFFSET))(this, key, algorithm, critical);
+			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::X509Certificates::PublicKey*, ::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION__CTOR_5_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::String* get_SubjectKeyIdentifier()
@@ -71,29 +71,29 @@ namespace System::Security::Cryptography::X509Certificates
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_GET_SUBJECTKEYIDENTIFIER_OFFSET))(this);
 		}
 
-		::System::Void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData)
+		::System::Void CopyFrom(::System::Security::Cryptography::AsnEncodedData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::AsnEncodedData*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_COPYFROM_OFFSET))(this, asnEncodedData);
+			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::AsnEncodedData*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_COPYFROM_OFFSET))(this, a1);
 		}
 
-		static ::System::Byte FromHexChar(::System::Char c)
+		static ::System::Byte FromHexChar(::System::Char a1)
 		{
-			return ((::System::Byte(*)(::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_FROMHEXCHAR_OFFSET))(c);
+			return ((::System::Byte(*)(::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_FROMHEXCHAR_OFFSET))(a1);
 		}
 
-		static ::System::Byte FromHexChars(::System::Char c1, ::System::Char c2)
+		static ::System::Byte FromHexChars(::System::Char a1, ::System::Char a2)
 		{
-			return ((::System::Byte(*)(::System::Char, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_FROMHEXCHARS_OFFSET))(c1, c2);
+			return ((::System::Byte(*)(::System::Char, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_FROMHEXCHARS_OFFSET))(a1, a2);
 		}
 
-		static ::Il2CppArray<::System::Byte>* FromHex(::System::String* hex)
+		static ::Il2CppArray<::System::Byte>* FromHex(::System::String* a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_FROMHEX_OFFSET))(hex);
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_FROMHEX_OFFSET))(a1);
 		}
 
-		::System::Security::Cryptography::AsnDecodeStatus Decode(::Il2CppArray<::System::Byte>* extension)
+		::System::Security::Cryptography::AsnDecodeStatus Decode(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::Security::Cryptography::AsnDecodeStatus(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_DECODE_OFFSET))(this, extension);
+			return ((::System::Security::Cryptography::AsnDecodeStatus(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_DECODE_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::Byte>* Encode()
@@ -101,9 +101,9 @@ namespace System::Security::Cryptography::X509Certificates
 			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_ENCODE_OFFSET))(this);
 		}
 
-		::System::String* ToString(::System::Boolean multiLine)
+		::System::String* ToString(::System::Boolean a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_TOSTRING_OFFSET))(this, multiLine);
+			return ((::System::String*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509SUBJECTKEYIDENTIFIEREXTENSION_TOSTRING_OFFSET))(this, a1);
 		}
 	};
 }

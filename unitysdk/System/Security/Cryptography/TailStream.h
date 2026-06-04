@@ -3,37 +3,37 @@
 #include "unitysdk/System/IO/SeekOrigin.h"
 #include "unitysdk/System/IO/Stream.h"
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_CLEAR_OFFSET UNITYSDK_OFFSET(0x16DA61E0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16DA6230)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_FLUSH_OFFSET UNITYSDK_OFFSET(0x16DA64D0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_GET_BUFFER_OFFSET UNITYSDK_OFFSET(0x16DA62B0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_GET_CANREAD_OFFSET UNITYSDK_OFFSET(0x16DA6380)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_GET_CANSEEK_OFFSET UNITYSDK_OFFSET(0x16DA6390)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x16DA63A0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x16DA63B0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x16DA6410)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_READ_OFFSET UNITYSDK_OFFSET(0x16DA65A0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_SEEK_OFFSET UNITYSDK_OFFSET(0x16DA64E0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_SETLENGTH_OFFSET UNITYSDK_OFFSET(0x16DA6540)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x16DA6470)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_WRITE_OFFSET UNITYSDK_OFFSET(0x16DA6600)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x16DA61A0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_CLEAR_OFFSET UNITYSDK_OFFSET(0x142CAF40)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x142CAFC0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_FLUSH_OFFSET UNITYSDK_OFFSET(0x142CB270)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_GET_BUFFER_OFFSET UNITYSDK_OFFSET(0x142CB040)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_GET_CANREAD_OFFSET UNITYSDK_OFFSET(0x142CB120)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_GET_CANSEEK_OFFSET UNITYSDK_OFFSET(0x142CB130)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x142CB140)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x142CB150)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x142CB1B0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_READ_OFFSET UNITYSDK_OFFSET(0x142CB340)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_SEEK_OFFSET UNITYSDK_OFFSET(0x142CB280)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_SETLENGTH_OFFSET UNITYSDK_OFFSET(0x142CB2E0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x142CB210)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_WRITE_OFFSET UNITYSDK_OFFSET(0x142CB3A0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x142CAF00)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int TailStream_TypeDefinitionIndex = 1027;
+	inline static constexpr unsigned int TailStream_TypeDefinitionIndex = 1026;
 
 	class TailStream : public ::System::IO::Stream
 	{
 	public:
 		::Il2CppArray<::System::Byte>* _Buffer; // 0x28
-		::System::Int32 _BufferIndex; // 0x30
-		::System::Boolean _BufferFull; // 0x34
+		::System::Boolean _BufferFull; // 0x30
+		::System::Int32 _BufferIndex; // 0x34
 		::System::Int32 _BufferSize; // 0x38
 
-		::System::Void _ctor(::System::Int32 bufferSize)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM__CTOR_OFFSET))(this, bufferSize);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()
@@ -41,9 +41,9 @@ namespace System::Security::Cryptography
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_CLEAR_OFFSET))(this);
 		}
 
-		::System::Void Dispose(::System::Boolean disposing)
+		::System::Void Dispose(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_DISPOSE_OFFSET))(this, disposing);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_DISPOSE_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::Byte>* get_Buffer()
@@ -76,9 +76,9 @@ namespace System::Security::Cryptography
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_GET_POSITION_OFFSET))(this);
 		}
 
-		::System::Void set_Position(::System::Int64 value)
+		::System::Void set_Position(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_SET_POSITION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_SET_POSITION_OFFSET))(this, a1);
 		}
 
 		::System::Void Flush()
@@ -86,24 +86,24 @@ namespace System::Security::Cryptography
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_FLUSH_OFFSET))(this);
 		}
 
-		::System::Int64 Seek(::System::Int64 offset, ::System::IO::SeekOrigin origin)
+		::System::Int64 Seek(::System::Int64 a1, ::System::IO::SeekOrigin a2)
 		{
-			return ((::System::Int64(*)(::PVOID, ::System::Int64, ::System::IO::SeekOrigin))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_SEEK_OFFSET))(this, offset, origin);
+			return ((::System::Int64(*)(::PVOID, ::System::Int64, ::System::IO::SeekOrigin))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_SEEK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetLength(::System::Int64 value)
+		::System::Void SetLength(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_SETLENGTH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_SETLENGTH_OFFSET))(this, a1);
 		}
 
-		::System::Int32 Read(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count)
+		::System::Int32 Read(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_READ_OFFSET))(this, buffer, offset, count);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_READ_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Write(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count)
+		::System::Void Write(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_WRITE_OFFSET))(this, buffer, offset, count);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_TAILSTREAM_WRITE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -7,27 +7,27 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CLASS_2_FA5DFE5DD0A4BB79_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0xEE92810)
-#define CLASS_2_FA5DFE5DD0A4BB79_GET_ISLOOP_OFFSET UNITYSDK_OFFSET(0xEE92830)
-#define CLASS_2_FA5DFE5DD0A4BB79_METHOD_2_374E3843A05908D4_OFFSET UNITYSDK_OFFSET(0xEE928F0)
-#define CLASS_2_FA5DFE5DD0A4BB79_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xEE92850)
-#define CLASS_2_FA5DFE5DD0A4BB79_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xEE92A60)
-#define CLASS_2_FA5DFE5DD0A4BB79_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xEE92B00)
-#define CLASS_2_FA5DFE5DD0A4BB79_SET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0xEE92820)
-#define CLASS_2_FA5DFE5DD0A4BB79_SET_ISLOOP_OFFSET UNITYSDK_OFFSET(0xEE92840)
-#define CLASS_2_FA5DFE5DD0A4BB79__CTOR_OFFSET UNITYSDK_OFFSET(0xEE92BE0)
-#define CLASS_2_FA5DFE5DD0A4BB79___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xEE92BF0)
-#define CLASS_2_FA5DFE5DD0A4BB79___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xEE92C00)
-#define CLASS_2_FA5DFE5DD0A4BB79___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xEE92C10)
+#define CLASS_2_FA5DFE5DD0A4BB79_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x1730FC30)
+#define CLASS_2_FA5DFE5DD0A4BB79_GET_ISLOOP_OFFSET UNITYSDK_OFFSET(0x1730FC50)
+#define CLASS_2_FA5DFE5DD0A4BB79_METHOD_2_374E3843A05908D4_OFFSET UNITYSDK_OFFSET(0x1730FD10)
+#define CLASS_2_FA5DFE5DD0A4BB79_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1730FC70)
+#define CLASS_2_FA5DFE5DD0A4BB79_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x1730FE80)
+#define CLASS_2_FA5DFE5DD0A4BB79_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1730FF20)
+#define CLASS_2_FA5DFE5DD0A4BB79_SET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x1730FC40)
+#define CLASS_2_FA5DFE5DD0A4BB79_SET_ISLOOP_OFFSET UNITYSDK_OFFSET(0x1730FC60)
+#define CLASS_2_FA5DFE5DD0A4BB79__CTOR_OFFSET UNITYSDK_OFFSET(0x17310000)
+#define CLASS_2_FA5DFE5DD0A4BB79___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x17310010)
+#define CLASS_2_FA5DFE5DD0A4BB79___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x17310020)
+#define CLASS_2_FA5DFE5DD0A4BB79___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x17310030)
 
-inline static constexpr unsigned int Class_2_FA5DFE5DD0A4BB79_TypeDefinitionIndex = 45522;
+inline static constexpr unsigned int Class_2_FA5DFE5DD0A4BB79_TypeDefinitionIndex = 46105;
 
 class Class_2_FA5DFE5DD0A4BB79 : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
 	::System::String* _EventName_k__BackingField; // 0x10
-	::System::Boolean _IsLoop_k__BackingField; // 0x18
-	::System::Double Field_2_2; // 0x20
+	::System::Double Field_2_1; // 0x18
+	::System::Boolean _IsLoop_k__BackingField; // 0x20
 
 	::System::Void _ctor()
 	{
@@ -39,9 +39,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FA5DFE5DD0A4BB79_GET_EVENTNAME_OFFSET))(this);
 	}
 
-	::System::Void set_EventName(::System::String* value)
+	::System::Void set_EventName(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_FA5DFE5DD0A4BB79_SET_EVENTNAME_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_FA5DFE5DD0A4BB79_SET_EVENTNAME_OFFSET))(this, a1);
 	}
 
 	::System::Boolean get_IsLoop()
@@ -49,9 +49,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FA5DFE5DD0A4BB79_GET_ISLOOP_OFFSET))(this);
 	}
 
-	::System::Void set_IsLoop(::System::Boolean value)
+	::System::Void set_IsLoop(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_FA5DFE5DD0A4BB79_SET_ISLOOP_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_FA5DFE5DD0A4BB79_SET_ISLOOP_OFFSET))(this, a1);
 	}
 
 	::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -74,18 +74,18 @@ public:
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_2_FA5DFE5DD0A4BB79_METHOD_2_374E3843A05908D4_OFFSET))(this, a1);
 	}
 
-	::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+	::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + CLASS_2_FA5DFE5DD0A4BB79___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + CLASS_2_FA5DFE5DD0A4BB79___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void __iFixBaseProxy_OnGraphStop(::UnityEngine::Playables::Playable P0)
+	::System::Void __iFixBaseProxy_OnGraphStop(::UnityEngine::Playables::Playable a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_2_FA5DFE5DD0A4BB79___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_2_FA5DFE5DD0A4BB79___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET))(this, a1);
 	}
 
-	::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1, ::System::Object* P2)
+	::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_FA5DFE5DD0A4BB79___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, P0, P1, P2);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_FA5DFE5DD0A4BB79___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 	}
 };

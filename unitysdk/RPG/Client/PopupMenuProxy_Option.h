@@ -6,17 +6,17 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_POPUPMENUPROXY_OPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x12748E50)
+#define RPG_CLIENT_POPUPMENUPROXY_OPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x161F7A20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PopupMenuProxy_Option_TypeDefinitionIndex = 66791;
+	inline static constexpr unsigned int PopupMenuProxy_Option_TypeDefinitionIndex = 67731;
 
 	class PopupMenuProxy_Option : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::System::Action_1<::System::Int32>* Callback; // 0x18
+		::System::Action_1<::System::Int32>* Callback; // 0x10
+		::System::String* IconPath; // 0x18
 		::RPG::Client::TextID Label; // 0x20
 
 		::System::Void _ctor()

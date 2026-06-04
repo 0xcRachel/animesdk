@@ -6,13 +6,13 @@
 
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 
-#define MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1503F0D0)
-#define MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS22_0__ONCREATEORDER_B__0_OFFSET UNITYSDK_OFFSET(0x1503F7E0)
-#define MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS22_0__ONCREATEORDER_B__1_OFFSET UNITYSDK_OFFSET(0x1503F860)
+#define MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1483DEB0)
+#define MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS22_0__ONCREATEORDER_B__0_OFFSET UNITYSDK_OFFSET(0x1483E5C0)
+#define MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS22_0__ONCREATEORDER_B__1_OFFSET UNITYSDK_OFFSET(0x1483E640)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BiliBiliManager___c__DisplayClass22_0_TypeDefinitionIndex = 8079;
+	inline static constexpr unsigned int BiliBiliManager___c__DisplayClass22_0_TypeDefinitionIndex = 8982;
 
 	class BiliBiliManager___c__DisplayClass22_0 : public ::System::Object
 	{
@@ -24,14 +24,14 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS22_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnCreateOrder_b__0(::MiHoYo::SDK::AlertCompliance_AlertResult result)
+		::System::Void _OnCreateOrder_b__0(::MiHoYo::SDK::AlertCompliance_AlertResult a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AlertCompliance_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS22_0__ONCREATEORDER_B__0_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AlertCompliance_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS22_0__ONCREATEORDER_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnCreateOrder_b__1(::MiHoYo::SDK::Alert_AlertResult result)
+		::System::Void _OnCreateOrder_b__1(::MiHoYo::SDK::Alert_AlertResult a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Alert_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS22_0__ONCREATEORDER_B__1_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Alert_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS22_0__ONCREATEORDER_B__1_OFFSET))(this, a1);
 		}
 	};
 }

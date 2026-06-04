@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DisableLoopTowerShake; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_919EFFA9A73449BA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA4A3850)
-#define CLASS_3_919EFFA9A73449BA__CTOR_OFFSET UNITYSDK_OFFSET(0xA4A3820)
+#define CLASS_3_919EFFA9A73449BA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13317DC0)
+#define CLASS_3_919EFFA9A73449BA__CTOR_OFFSET UNITYSDK_OFFSET(0x13317D90)
 
-inline static constexpr unsigned int Class_3_919EFFA9A73449BA_TypeDefinitionIndex = 50735;
+inline static constexpr unsigned int Class_3_919EFFA9A73449BA_TypeDefinitionIndex = 51403;
 
 class Class_3_919EFFA9A73449BA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DisableLoopTowerShake*>
 {

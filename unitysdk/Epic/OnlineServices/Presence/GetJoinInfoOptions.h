@@ -4,15 +4,15 @@
 
 namespace Epic::OnlineServices { class EpicAccountId; }
 
-#define EPIC_ONLINESERVICES_PRESENCE_GETJOININFOOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19600360)
-#define EPIC_ONLINESERVICES_PRESENCE_GETJOININFOOPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x19600380)
-#define EPIC_ONLINESERVICES_PRESENCE_GETJOININFOOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19600370)
-#define EPIC_ONLINESERVICES_PRESENCE_GETJOININFOOPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x19600390)
-#define EPIC_ONLINESERVICES_PRESENCE_GETJOININFOOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x196003A0)
+#define EPIC_ONLINESERVICES_PRESENCE_GETJOININFOOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A3C59D0)
+#define EPIC_ONLINESERVICES_PRESENCE_GETJOININFOOPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x1A3C59F0)
+#define EPIC_ONLINESERVICES_PRESENCE_GETJOININFOOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A3C59E0)
+#define EPIC_ONLINESERVICES_PRESENCE_GETJOININFOOPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x1A3C5A00)
+#define EPIC_ONLINESERVICES_PRESENCE_GETJOININFOOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3C5A10)
 
 namespace Epic::OnlineServices::Presence
 {
-	inline static constexpr unsigned int GetJoinInfoOptions_TypeDefinitionIndex = 41586;
+	inline static constexpr unsigned int GetJoinInfoOptions_TypeDefinitionIndex = 42389;
 
 	class GetJoinInfoOptions : public ::System::Object
 	{
@@ -30,9 +30,9 @@ namespace Epic::OnlineServices::Presence
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_GETJOININFOOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_GETJOININFOOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_GETJOININFOOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::EpicAccountId* get_TargetUserId()
@@ -40,9 +40,9 @@ namespace Epic::OnlineServices::Presence
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_GETJOININFOOPTIONS_GET_TARGETUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_TargetUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_TargetUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_GETJOININFOOPTIONS_SET_TARGETUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_GETJOININFOOPTIONS_SET_TARGETUSERID_OFFSET))(this, a1);
 		}
 	};
 }

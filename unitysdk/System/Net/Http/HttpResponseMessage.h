@@ -9,38 +9,38 @@ namespace System::Net::Http { class HttpContent; }
 namespace System::Net::Http { class HttpRequestMessage; }
 namespace System::Net::Http::Headers { class HttpResponseHeaders; }
 
-#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1A139200)
-#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A1391E0)
-#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x1A139130)
-#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_GET_HEADERS_OFFSET UNITYSDK_OFFSET(0x1A134520)
-#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_GET_REASONPHRASE_OFFSET UNITYSDK_OFFSET(0x1A139150)
-#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_GET_STATUSCODE_OFFSET UNITYSDK_OFFSET(0x1A139190)
-#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1A1391A0)
-#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0x1A139140)
-#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_SET_REASONPHRASE_OFFSET UNITYSDK_OFFSET(0x1A139170)
-#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_SET_REQUESTMESSAGE_OFFSET UNITYSDK_OFFSET(0x1A139180)
-#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_SET_STATUSCODE_OFFSET UNITYSDK_OFFSET(0x1A1390F0)
-#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A139230)
-#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A134420)
+#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1B035920)
+#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B035900)
+#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x1B035850)
+#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_GET_HEADERS_OFFSET UNITYSDK_OFFSET(0x1B030D00)
+#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_GET_REASONPHRASE_OFFSET UNITYSDK_OFFSET(0x1B035870)
+#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_GET_STATUSCODE_OFFSET UNITYSDK_OFFSET(0x1B0358B0)
+#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1B0358C0)
+#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0x1B035860)
+#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_SET_REASONPHRASE_OFFSET UNITYSDK_OFFSET(0x1B035890)
+#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_SET_REQUESTMESSAGE_OFFSET UNITYSDK_OFFSET(0x1B0358A0)
+#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_SET_STATUSCODE_OFFSET UNITYSDK_OFFSET(0x1B035810)
+#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B035950)
+#define SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B030BE0)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int HttpResponseMessage_TypeDefinitionIndex = 4794;
+	inline static constexpr unsigned int HttpResponseMessage_TypeDefinitionIndex = 3761;
 
 	class HttpResponseMessage : public ::System::Object
 	{
 	public:
-		::System::Net::Http::Headers::HttpResponseHeaders* headers; // 0x10
-		::System::Net::Http::HttpContent* _Content_k__BackingField; // 0x18
-		::System::Net::Http::HttpRequestMessage* _RequestMessage_k__BackingField; // 0x20
-		::System::Version* version; // 0x28
+		::System::Net::Http::HttpContent* _Content_k__BackingField; // 0x10
+		::System::Net::Http::Headers::HttpResponseHeaders* headers; // 0x18
+		::System::Version* version; // 0x20
+		::System::Net::Http::HttpRequestMessage* _RequestMessage_k__BackingField; // 0x28
 		::System::String* reasonPhrase; // 0x30
 		::System::Net::HttpStatusCode statusCode; // 0x38
 		::System::Boolean disposed; // 0x3C
 
-		::System::Void _ctor(::System::Net::HttpStatusCode statusCode)
+		::System::Void _ctor(::System::Net::HttpStatusCode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::HttpStatusCode))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE__CTOR_OFFSET))(this, statusCode);
+			return ((::System::Void(*)(::PVOID, ::System::Net::HttpStatusCode))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Net::Http::HttpContent* get_Content()
@@ -48,9 +48,9 @@ namespace System::Net::Http
 			return ((::System::Net::Http::HttpContent*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_GET_CONTENT_OFFSET))(this);
 		}
 
-		::System::Void set_Content(::System::Net::Http::HttpContent* value)
+		::System::Void set_Content(::System::Net::Http::HttpContent* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Http::HttpContent*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_SET_CONTENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Http::HttpContent*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_SET_CONTENT_OFFSET))(this, a1);
 		}
 
 		::System::Net::Http::Headers::HttpResponseHeaders* get_Headers()
@@ -63,14 +63,14 @@ namespace System::Net::Http
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_GET_REASONPHRASE_OFFSET))(this);
 		}
 
-		::System::Void set_ReasonPhrase(::System::String* value)
+		::System::Void set_ReasonPhrase(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_SET_REASONPHRASE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_SET_REASONPHRASE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_RequestMessage(::System::Net::Http::HttpRequestMessage* value)
+		::System::Void set_RequestMessage(::System::Net::Http::HttpRequestMessage* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Http::HttpRequestMessage*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_SET_REQUESTMESSAGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Http::HttpRequestMessage*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_SET_REQUESTMESSAGE_OFFSET))(this, a1);
 		}
 
 		::System::Net::HttpStatusCode get_StatusCode()
@@ -78,9 +78,9 @@ namespace System::Net::Http
 			return ((::System::Net::HttpStatusCode(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_GET_STATUSCODE_OFFSET))(this);
 		}
 
-		::System::Void set_StatusCode(::System::Net::HttpStatusCode value)
+		::System::Void set_StatusCode(::System::Net::HttpStatusCode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::HttpStatusCode))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_SET_STATUSCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Net::HttpStatusCode))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_SET_STATUSCODE_OFFSET))(this, a1);
 		}
 
 		::System::Version* get_Version()
@@ -93,9 +93,9 @@ namespace System::Net::Http
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Dispose_1(::System::Boolean disposing)
+		::System::Void Dispose_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_DISPOSE_1_OFFSET))(this, disposing);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPRESPONSEMESSAGE_DISPOSE_1_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()

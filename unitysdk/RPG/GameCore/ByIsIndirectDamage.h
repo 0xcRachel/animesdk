@@ -3,14 +3,17 @@
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYISINDIRECTDAMAGE_METHOD_4_F006FA43339F5C07_OFFSET UNITYSDK_OFFSET(0x19A65E20)
-#define RPG_GAMECORE_BYISINDIRECTDAMAGE_METHOD_4_FDB08BD1D5BD820D_OFFSET UNITYSDK_OFFSET(0x19A65EF0)
-#define RPG_GAMECORE_BYISINDIRECTDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A65EA0)
+#define RPG_GAMECORE_BYISINDIRECTDAMAGE_METHOD_4_AB27B52D9278BF26_OFFSET UNITYSDK_OFFSET(0x19DAAB90)
+#define RPG_GAMECORE_BYISINDIRECTDAMAGE_METHOD_4_D2D20274EEA2DECE_OFFSET UNITYSDK_OFFSET(0x19DAAC10)
+#define RPG_GAMECORE_BYISINDIRECTDAMAGE_METHOD_4_F006FA43339F5C07_OFFSET UNITYSDK_OFFSET(0x19DAA980)
+#define RPG_GAMECORE_BYISINDIRECTDAMAGE_METHOD_4_FDB08BD1D5BD820D_OFFSET UNITYSDK_OFFSET(0x19DAAA50)
+#define RPG_GAMECORE_BYISINDIRECTDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DAAA00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsIndirectDamage_TypeDefinitionIndex = 22463;
+	inline static constexpr unsigned int ByIsIndirectDamage_TypeDefinitionIndex = 22212;
 
 	class ByIsIndirectDamage : public ::RPG::GameCore::PredicateConfig
 	{
@@ -28,6 +31,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_FDB08BD1D5BD820D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsIndirectDamage* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsIndirectDamage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINDIRECTDAMAGE_METHOD_4_FDB08BD1D5BD820D_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_AB27B52D9278BF26(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsIndirectDamage*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsIndirectDamage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINDIRECTDAMAGE_METHOD_4_AB27B52D9278BF26_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_D2D20274EEA2DECE(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsIndirectDamage* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsIndirectDamage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINDIRECTDAMAGE_METHOD_4_D2D20274EEA2DECE_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -6,14 +6,14 @@ namespace RPG::Editor::EnvironmentSystemV2Editor { class EnvEditorSingleProperty
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT_GET_FOLDERON_OFFSET UNITYSDK_OFFSET(0xB1A6A70)
-#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT_GET_PREFKEY_OFFSET UNITYSDK_OFFSET(0xB1A6A90)
-#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT_SET_FOLDERON_OFFSET UNITYSDK_OFFSET(0xB1A6A80)
-#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT__CTOR_OFFSET UNITYSDK_OFFSET(0xB1A6B00)
+#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT_GET_FOLDERON_OFFSET UNITYSDK_OFFSET(0x12AF7720)
+#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT_GET_PREFKEY_OFFSET UNITYSDK_OFFSET(0x12AF7740)
+#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT_SET_FOLDERON_OFFSET UNITYSDK_OFFSET(0x12AF7730)
+#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x12AF77B0)
 
 namespace RPG::Editor::EnvironmentSystemV2Editor
 {
-	inline static constexpr unsigned int EnvEditorFoldout_TypeDefinitionIndex = 48071;
+	inline static constexpr unsigned int EnvEditorFoldout_TypeDefinitionIndex = 48689;
 
 	class EnvEditorFoldout : public ::RPG::Editor::EnvironmentSystemV2Editor::EnvEditorBlock
 	{
@@ -32,9 +32,9 @@ namespace RPG::Editor::EnvironmentSystemV2Editor
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT_GET_FOLDERON_OFFSET))(this);
 		}
 
-		::System::Void set_FolderOn(::System::Boolean value)
+		::System::Void set_FolderOn(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT_SET_FOLDERON_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORFOLDOUT_SET_FOLDERON_OFFSET))(this, a1);
 		}
 
 		::System::String* get_PrefKey()

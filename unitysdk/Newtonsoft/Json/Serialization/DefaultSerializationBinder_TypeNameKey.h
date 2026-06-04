@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_TYPENAMEKEY_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x226A1A0)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_TYPENAMEKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x226A190)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_TYPENAMEKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x226A090)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_TYPENAMEKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x608B90)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_TYPENAMEKEY_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x37AE2B0)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_TYPENAMEKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x37AE2A0)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_TYPENAMEKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x37AE1A0)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_TYPENAMEKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x66B770)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int DefaultSerializationBinder_TypeNameKey_TypeDefinitionIndex = 8463;
+	inline static constexpr unsigned int DefaultSerializationBinder_TypeNameKey_TypeDefinitionIndex = 9366;
 
 	struct alignas(8) DefaultSerializationBinder_TypeNameKey
 	{
 		::System::String* AssemblyName; // 0x10
 		::System::String* TypeName; // 0x18
 
-		::System::Void _ctor(::System::String* assemblyName, ::System::String* typeName)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_TYPENAMEKEY__CTOR_OFFSET))(this, assemblyName, typeName);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_TYPENAMEKEY__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 GetHashCode()
@@ -29,14 +29,14 @@ namespace Newtonsoft::Json::Serialization
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_TYPENAMEKEY_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_TYPENAMEKEY_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_TYPENAMEKEY_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::Newtonsoft::Json::Serialization::DefaultSerializationBinder_TypeNameKey other)
+		::System::Boolean Equals_1(::Newtonsoft::Json::Serialization::DefaultSerializationBinder_TypeNameKey a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::Serialization::DefaultSerializationBinder_TypeNameKey))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_TYPENAMEKEY_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::Serialization::DefaultSerializationBinder_TypeNameKey))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_TYPENAMEKEY_EQUALS_1_OFFSET))(this, a1);
 		}
 	};
 }

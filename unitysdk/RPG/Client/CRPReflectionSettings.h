@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CRPREFLECTIONSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x15FB9970)
+#define RPG_CLIENT_CRPREFLECTIONSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x182DD960)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CRPReflectionSettings_TypeDefinitionIndex = 62622;
+	inline static constexpr unsigned int CRPReflectionSettings_TypeDefinitionIndex = 63555;
 
 	class CRPReflectionSettings : public ::System::Object
 	{

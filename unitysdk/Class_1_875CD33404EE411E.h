@@ -5,9 +5,9 @@
 
 namespace RPG::GameCore { class FiveDimContactEventEmitterConfig; }
 
-#define CLASS_1_875CD33404EE411E__CTOR_OFFSET UNITYSDK_OFFSET(0x17A6A800)
+#define CLASS_1_875CD33404EE411E__CTOR_OFFSET UNITYSDK_OFFSET(0x19629310)
 
-inline static constexpr unsigned int Class_1_875CD33404EE411E_TypeDefinitionIndex = 39144;
+inline static constexpr unsigned int Class_1_875CD33404EE411E_TypeDefinitionIndex = 39913;
 
 class Class_1_875CD33404EE411E : public ::System::Object
 {

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUSICRHYTHMGAMECONFIG_METHOD_2_4A2FAF762F96365A_OFFSET UNITYSDK_OFFSET(0x18641500)
-#define RPG_GAMECORE_MUSICRHYTHMGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18641790)
+#define RPG_GAMECORE_MUSICRHYTHMGAMECONFIG_METHOD_2_4A2FAF762F96365A_OFFSET UNITYSDK_OFFSET(0x190FA130)
+#define RPG_GAMECORE_MUSICRHYTHMGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190FA3C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MusicRhythmGameConfig_TypeDefinitionIndex = 16034;
+	inline static constexpr unsigned int MusicRhythmGameConfig_TypeDefinitionIndex = 16084;
 
 	class MusicRhythmGameConfig : public ::RPG::GameCore::JsonConfig
 	{

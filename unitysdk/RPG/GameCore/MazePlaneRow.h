@@ -6,33 +6,33 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MAZEPLANEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C4A1A0)
-#define RPG_GAMECORE_MAZEPLANEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C4A910)
+#define RPG_GAMECORE_MAZEPLANEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199A6AD0)
+#define RPG_GAMECORE_MAZEPLANEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199A7290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePlaneRow_TypeDefinitionIndex = 13298;
+	inline static constexpr unsigned int MazePlaneRow_TypeDefinitionIndex = 13373;
 
 	class MazePlaneRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* FloorIDList; // 0x10
-		::System::UInt32 PlaneID; // 0x18
-		::System::UInt32 SubType; // 0x1C
-		::System::UInt32 MazePoolType; // 0x20
-		::System::UInt32 WorldID; // 0x24
-		::System::UInt32 StartFloorID; // 0x28
-		::RPG::GameCore::PlaneType PlaneType; // 0x2C
-		::RPG::Client::TextID PlaneName; // 0x30
+		::RPG::Client::TextID PlaneName; // 0x18
+		::RPG::GameCore::PlaneType PlaneType; // 0x28
+		::System::UInt32 StartFloorID; // 0x2C
+		::System::UInt32 WorldID; // 0x30
+		::System::UInt32 SubType; // 0x34
+		::System::UInt32 PlaneID; // 0x38
+		::System::UInt32 MazePoolType; // 0x3C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEPLANEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::MazePlaneRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MazePlaneRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MazePlaneRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEPLANEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MazePlaneRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEPLANEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

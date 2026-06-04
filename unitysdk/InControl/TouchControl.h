@@ -11,25 +11,25 @@
 
 namespace InControl { class Touch; }
 
-#define INCONTROL_TOUCHCONTROL_COMMITANALOG_OFFSET UNITYSDK_OFFSET(0x13BD6570)
-#define INCONTROL_TOUCHCONTROL_COMMITBUTTON_OFFSET UNITYSDK_OFFSET(0x13BD55F0)
-#define INCONTROL_TOUCHCONTROL_OFFSETTOWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x13BD3CB0)
-#define INCONTROL_TOUCHCONTROL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x13BD5E80)
-#define INCONTROL_TOUCHCONTROL_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x13BD6E30)
-#define INCONTROL_TOUCHCONTROL_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x13BD6FD0)
-#define INCONTROL_TOUCHCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x13BD5CE0)
-#define INCONTROL_TOUCHCONTROL_SETUP_OFFSET UNITYSDK_OFFSET(0x13BD5EA0)
-#define INCONTROL_TOUCHCONTROL_SNAPTO_1_OFFSET UNITYSDK_OFFSET(0x13BD69C0)
-#define INCONTROL_TOUCHCONTROL_SNAPTO_OFFSET UNITYSDK_OFFSET(0x13BD6960)
-#define INCONTROL_TOUCHCONTROL_SUBMITANALOGVALUE_OFFSET UNITYSDK_OFFSET(0x13BD6270)
-#define INCONTROL_TOUCHCONTROL_SUBMITBUTTONSTATE_OFFSET UNITYSDK_OFFSET(0x13BD5320)
-#define INCONTROL_TOUCHCONTROL_SUBMITBUTTONVALUE_OFFSET UNITYSDK_OFFSET(0x13BD4FA0)
-#define INCONTROL_TOUCHCONTROL_SUBMITRAWANALOGVALUE_OFFSET UNITYSDK_OFFSET(0x13BD6750)
-#define INCONTROL_TOUCHCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x13BD5CD0)
+#define INCONTROL_TOUCHCONTROL_COMMITANALOG_OFFSET UNITYSDK_OFFSET(0x12A1CD40)
+#define INCONTROL_TOUCHCONTROL_COMMITBUTTON_OFFSET UNITYSDK_OFFSET(0x12A1BDC0)
+#define INCONTROL_TOUCHCONTROL_OFFSETTOWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x12A1A4F0)
+#define INCONTROL_TOUCHCONTROL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x12A1C650)
+#define INCONTROL_TOUCHCONTROL_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x12A1D600)
+#define INCONTROL_TOUCHCONTROL_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x12A1D7A0)
+#define INCONTROL_TOUCHCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x12A1C480)
+#define INCONTROL_TOUCHCONTROL_SETUP_OFFSET UNITYSDK_OFFSET(0x12A1C670)
+#define INCONTROL_TOUCHCONTROL_SNAPTO_1_OFFSET UNITYSDK_OFFSET(0x12A1D190)
+#define INCONTROL_TOUCHCONTROL_SNAPTO_OFFSET UNITYSDK_OFFSET(0x12A1D130)
+#define INCONTROL_TOUCHCONTROL_SUBMITANALOGVALUE_OFFSET UNITYSDK_OFFSET(0x12A1CA40)
+#define INCONTROL_TOUCHCONTROL_SUBMITBUTTONSTATE_OFFSET UNITYSDK_OFFSET(0x12A1BAF0)
+#define INCONTROL_TOUCHCONTROL_SUBMITBUTTONVALUE_OFFSET UNITYSDK_OFFSET(0x12A1B780)
+#define INCONTROL_TOUCHCONTROL_SUBMITRAWANALOGVALUE_OFFSET UNITYSDK_OFFSET(0x12A1CF20)
+#define INCONTROL_TOUCHCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x12A1C470)
 
 namespace InControl
 {
-	inline static constexpr unsigned int TouchControl_TypeDefinitionIndex = 37186;
+	inline static constexpr unsigned int TouchControl_TypeDefinitionIndex = 37918;
 
 	class TouchControl : public ::UnityEngine::MonoBehaviour
 	{
@@ -54,49 +54,49 @@ namespace InControl
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHCONTROL_SETUP_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 OffsetToWorldPosition(::InControl::TouchControlAnchor anchor, ::UnityEngine::Vector2 offset, ::InControl::TouchUnitType offsetUnitType, ::System::Boolean lockAspectRatio)
+		::UnityEngine::Vector3 OffsetToWorldPosition(::InControl::TouchControlAnchor a1, ::UnityEngine::Vector2 a2, ::InControl::TouchUnitType a3, ::System::Boolean a4)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::InControl::TouchControlAnchor, ::UnityEngine::Vector2, ::InControl::TouchUnitType, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHCONTROL_OFFSETTOWORLDPOSITION_OFFSET))(this, anchor, offset, offsetUnitType, lockAspectRatio);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::InControl::TouchControlAnchor, ::UnityEngine::Vector2, ::InControl::TouchUnitType, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHCONTROL_OFFSETTOWORLDPOSITION_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void SubmitButtonState(::InControl::TouchControl_ButtonTarget target, ::System::Boolean state, ::System::UInt64 updateTick, ::System::Single deltaTime)
+		::System::Void SubmitButtonState(::InControl::TouchControl_ButtonTarget a1, ::System::Boolean a2, ::System::UInt64 a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::TouchControl_ButtonTarget, ::System::Boolean, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHCONTROL_SUBMITBUTTONSTATE_OFFSET))(this, target, state, updateTick, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::InControl::TouchControl_ButtonTarget, ::System::Boolean, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHCONTROL_SUBMITBUTTONSTATE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void SubmitButtonValue(::InControl::TouchControl_ButtonTarget target, ::System::Single value, ::System::UInt64 updateTick, ::System::Single deltaTime)
+		::System::Void SubmitButtonValue(::InControl::TouchControl_ButtonTarget a1, ::System::Single a2, ::System::UInt64 a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::TouchControl_ButtonTarget, ::System::Single, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHCONTROL_SUBMITBUTTONVALUE_OFFSET))(this, target, value, updateTick, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::InControl::TouchControl_ButtonTarget, ::System::Single, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHCONTROL_SUBMITBUTTONVALUE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void CommitButton(::InControl::TouchControl_ButtonTarget target)
+		::System::Void CommitButton(::InControl::TouchControl_ButtonTarget a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::TouchControl_ButtonTarget))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHCONTROL_COMMITBUTTON_OFFSET))(this, target);
+			return ((::System::Void(*)(::PVOID, ::InControl::TouchControl_ButtonTarget))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHCONTROL_COMMITBUTTON_OFFSET))(this, a1);
 		}
 
-		::System::Void SubmitAnalogValue(::InControl::TouchControl_AnalogTarget target, ::UnityEngine::Vector2 value, ::System::Single lowerDeadZone, ::System::Single upperDeadZone, ::System::UInt64 updateTick, ::System::Single deltaTime)
+		::System::Void SubmitAnalogValue(::InControl::TouchControl_AnalogTarget a1, ::UnityEngine::Vector2 a2, ::System::Single a3, ::System::Single a4, ::System::UInt64 a5, ::System::Single a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::TouchControl_AnalogTarget, ::UnityEngine::Vector2, ::System::Single, ::System::Single, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHCONTROL_SUBMITANALOGVALUE_OFFSET))(this, target, value, lowerDeadZone, upperDeadZone, updateTick, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::InControl::TouchControl_AnalogTarget, ::UnityEngine::Vector2, ::System::Single, ::System::Single, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHCONTROL_SUBMITANALOGVALUE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void CommitAnalog(::InControl::TouchControl_AnalogTarget target)
+		::System::Void CommitAnalog(::InControl::TouchControl_AnalogTarget a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::TouchControl_AnalogTarget))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHCONTROL_COMMITANALOG_OFFSET))(this, target);
+			return ((::System::Void(*)(::PVOID, ::InControl::TouchControl_AnalogTarget))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHCONTROL_COMMITANALOG_OFFSET))(this, a1);
 		}
 
-		::System::Void SubmitRawAnalogValue(::InControl::TouchControl_AnalogTarget target, ::UnityEngine::Vector2 rawValue, ::System::UInt64 updateTick, ::System::Single deltaTime)
+		::System::Void SubmitRawAnalogValue(::InControl::TouchControl_AnalogTarget a1, ::UnityEngine::Vector2 a2, ::System::UInt64 a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::TouchControl_AnalogTarget, ::UnityEngine::Vector2, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHCONTROL_SUBMITRAWANALOGVALUE_OFFSET))(this, target, rawValue, updateTick, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::InControl::TouchControl_AnalogTarget, ::UnityEngine::Vector2, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHCONTROL_SUBMITRAWANALOGVALUE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		static ::UnityEngine::Vector3 SnapTo(::UnityEngine::Vector2 vector, ::InControl::TouchControl_SnapAngles snapAngles)
+		static ::UnityEngine::Vector3 SnapTo(::UnityEngine::Vector2 a1, ::InControl::TouchControl_SnapAngles a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector2, ::InControl::TouchControl_SnapAngles))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHCONTROL_SNAPTO_OFFSET))(vector, snapAngles);
+			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector2, ::InControl::TouchControl_SnapAngles))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHCONTROL_SNAPTO_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Vector3 SnapTo_1(::UnityEngine::Vector2 vector, ::System::Single snapAngle)
+		static ::UnityEngine::Vector3 SnapTo_1(::UnityEngine::Vector2 a1, ::System::Single a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHCONTROL_SNAPTO_1_OFFSET))(vector, snapAngle);
+			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHCONTROL_SNAPTO_1_OFFSET))(a1, a2);
 		}
 
 		::System::Void OnDrawGizmosSelected()

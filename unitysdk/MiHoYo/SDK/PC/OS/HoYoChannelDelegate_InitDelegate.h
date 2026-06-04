@@ -8,36 +8,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1741A510)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1741A540)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x17419FB0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x17419F90)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x186966A0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x186966D0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18696690)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x186965A0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelDelegate_InitDelegate_TypeDefinitionIndex = 7519;
+	inline static constexpr unsigned int HoYoChannelDelegate_InitDelegate_TypeDefinitionIndex = 8422;
 
 	class HoYoChannelDelegate_InitDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::MiHoYo::SDK::PC::OS::HoYoChannelInitResult* Invoke(::MiHoYo::SDK::PC::OS::HoYoChannelInitModel* param)
+		::MiHoYo::SDK::PC::OS::HoYoChannelInitResult* Invoke(::MiHoYo::SDK::PC::OS::HoYoChannelInitModel* a1)
 		{
-			return ((::MiHoYo::SDK::PC::OS::HoYoChannelInitResult*(*)(::PVOID, ::MiHoYo::SDK::PC::OS::HoYoChannelInitModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE_INVOKE_OFFSET))(this, param);
+			return ((::MiHoYo::SDK::PC::OS::HoYoChannelInitResult*(*)(::PVOID, ::MiHoYo::SDK::PC::OS::HoYoChannelInitModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::PC::OS::HoYoChannelInitModel* param, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::PC::OS::HoYoChannelInitModel* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::PC::OS::HoYoChannelInitModel*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE_BEGININVOKE_OFFSET))(this, param, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::PC::OS::HoYoChannelInitModel*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::MiHoYo::SDK::PC::OS::HoYoChannelInitResult* EndInvoke(::System::IAsyncResult* result)
+		::MiHoYo::SDK::PC::OS::HoYoChannelInitResult* EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::MiHoYo::SDK::PC::OS::HoYoChannelInitResult*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::MiHoYo::SDK::PC::OS::HoYoChannelInitResult*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

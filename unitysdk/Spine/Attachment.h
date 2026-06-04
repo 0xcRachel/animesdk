@@ -4,28 +4,28 @@
 
 namespace System { class String; }
 
-#define SPINE_ATTACHMENT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x156B7150)
-#define SPINE_ATTACHMENT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x156B71D0)
-#define SPINE_ATTACHMENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x156B71B0)
-#define SPINE_ATTACHMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x156B7160)
+#define SPINE_ATTACHMENT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x12B81EB0)
+#define SPINE_ATTACHMENT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x12B81F30)
+#define SPINE_ATTACHMENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x12B81F10)
+#define SPINE_ATTACHMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x12B81EC0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Attachment_TypeDefinitionIndex = 36412;
+	inline static constexpr unsigned int Attachment_TypeDefinitionIndex = 36712;
 
 	class Attachment : public ::System::Object
 	{
 	public:
 		::System::String* _Name_k__BackingField; // 0x10
 
-		::System::Void _ctor(::System::String* name)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_ATTACHMENT__CTOR_OFFSET))(this, name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_ATTACHMENT__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::Spine::Attachment* other)
+		::System::Void _ctor_1(::Spine::Attachment* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Attachment*))((::PBYTE)hIl2Cpp + SPINE_ATTACHMENT__CTOR_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Spine::Attachment*))((::PBYTE)hIl2Cpp + SPINE_ATTACHMENT__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Name()

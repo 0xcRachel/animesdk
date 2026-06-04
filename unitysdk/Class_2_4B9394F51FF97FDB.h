@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_2_4B9394F51FF97FDB_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x10947500)
-#define CLASS_2_4B9394F51FF97FDB_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x109474B0)
-#define CLASS_2_4B9394F51FF97FDB_METHOD_2_21CECAB6CDDF8286_OFFSET UNITYSDK_OFFSET(0x10947440)
-#define CLASS_2_4B9394F51FF97FDB__CTOR_OFFSET UNITYSDK_OFFSET(0x10947550)
+#define CLASS_2_4B9394F51FF97FDB_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1663A9D0)
+#define CLASS_2_4B9394F51FF97FDB_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1663A980)
+#define CLASS_2_4B9394F51FF97FDB_METHOD_2_21CECAB6CDDF8286_OFFSET UNITYSDK_OFFSET(0x1663A910)
+#define CLASS_2_4B9394F51FF97FDB__CTOR_OFFSET UNITYSDK_OFFSET(0x1663AA20)
 
-inline static constexpr unsigned int Class_2_4B9394F51FF97FDB_TypeDefinitionIndex = 49864;
+inline static constexpr unsigned int Class_2_4B9394F51FF97FDB_TypeDefinitionIndex = 50531;
 
-class Class_2_4B9394F51FF97FDB : public ::Class_1_9988289E7F8AA214
+class Class_2_4B9394F51FF97FDB : public ::Class_1_BF7A075734D15E98
 {
 public:
-	::RPG::GameCore::GameEntity* Field_2_1; // 0x18
-	::RPG::GameCore::GameEntity* Field_2_0; // 0x20
+	::RPG::GameCore::GameEntity* Field_2_0; // 0x18
+	::RPG::GameCore::GameEntity* Field_2_1; // 0x20
 	::RPG::GameCore::FixPoint Field_2_2; // 0x28
 
 	::System::Void _ctor()

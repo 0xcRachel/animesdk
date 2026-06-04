@@ -5,12 +5,12 @@
 namespace RPG::Client { class ConditionCheckerHandle; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_CONDITIONCHECKERUTIL___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15BF1C30)
-#define RPG_CLIENT_CONDITIONCHECKERUTIL___C__DISPLAYCLASS11_0__WAITCONDITIONSNOTMET_B__0_OFFSET UNITYSDK_OFFSET(0x15BF1CB0)
+#define RPG_CLIENT_CONDITIONCHECKERUTIL___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F20710)
+#define RPG_CLIENT_CONDITIONCHECKERUTIL___C__DISPLAYCLASS11_0__WAITCONDITIONSNOTMET_B__0_OFFSET UNITYSDK_OFFSET(0x15F20790)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConditionCheckerUtil___c__DisplayClass11_0_TypeDefinitionIndex = 55269;
+	inline static constexpr unsigned int ConditionCheckerUtil___c__DisplayClass11_0_TypeDefinitionIndex = 56003;
 
 	class ConditionCheckerUtil___c__DisplayClass11_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONDITIONCHECKERUTIL___C__DISPLAYCLASS11_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _WaitConditionsNotMet_b__0(::System::Boolean value)
+		::System::Void _WaitConditionsNotMet_b__0(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONDITIONCHECKERUTIL___C__DISPLAYCLASS11_0__WAITCONDITIONSNOTMET_B__0_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONDITIONCHECKERUTIL___C__DISPLAYCLASS11_0__WAITCONDITIONSNOTMET_B__0_OFFSET))(this, a1);
 		}
 	};
 }

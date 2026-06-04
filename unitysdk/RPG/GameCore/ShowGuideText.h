@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class GuideTextPC; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWGUIDETEXT_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x193AB200)
-#define RPG_GAMECORE_SHOWGUIDETEXT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x193AB120)
-#define RPG_GAMECORE_SHOWGUIDETEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x193AB1A0)
+#define RPG_GAMECORE_SHOWGUIDETEXT_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1A004B50)
+#define RPG_GAMECORE_SHOWGUIDETEXT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A004A70)
+#define RPG_GAMECORE_SHOWGUIDETEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A004AF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowGuideText_TypeDefinitionIndex = 23348;
+	inline static constexpr unsigned int ShowGuideText_TypeDefinitionIndex = 23006;
 
 	class ShowGuideText : public ::RPG::GameCore::TaskConfig
 	{
@@ -38,14 +38,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDETEXT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ShowGuideText*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowGuideText*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideText*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDETEXT_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideText*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDETEXT_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ShowGuideText* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowGuideText* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideText*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDETEXT_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideText*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDETEXT_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 	};
 }

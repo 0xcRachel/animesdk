@@ -7,17 +7,17 @@
 namespace RPGTools::Timeline { class ShowSDFTextData; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR_GET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0x16B35FD0)
-#define RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x16B35FF0)
-#define RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x16B36010)
-#define RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR_SET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0x16B35FE0)
-#define RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0x16B36000)
-#define RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x16B36530)
-#define RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x16B36540)
+#define RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR_GET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0x19B5E630)
+#define RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x19B5E650)
+#define RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19B5E670)
+#define RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR_SET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0x19B5E640)
+#define RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0x19B5E660)
+#define RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19B5EB80)
+#define RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19B5EB90)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowSDFTextBehaviour_TypeDefinitionIndex = 44994;
+	inline static constexpr unsigned int ShowSDFTextBehaviour_TypeDefinitionIndex = 45542;
 
 	class ShowSDFTextBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -35,9 +35,9 @@ namespace RPGTools::Timeline
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR_GET_CHARACTERUNIQUENAME_OFFSET))(this);
 		}
 
-		::System::Void set_CharacterUniqueName(::System::String* value)
+		::System::Void set_CharacterUniqueName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR_SET_CHARACTERUNIQUENAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR_SET_CHARACTERUNIQUENAME_OFFSET))(this, a1);
 		}
 
 		::RPGTools::Timeline::ShowSDFTextData* get_Config()
@@ -45,9 +45,9 @@ namespace RPGTools::Timeline
 			return ((::RPGTools::Timeline::ShowSDFTextData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR_GET_CONFIG_OFFSET))(this);
 		}
 
-		::System::Void set_Config(::RPGTools::Timeline::ShowSDFTextData* value)
+		::System::Void set_Config(::RPGTools::Timeline::ShowSDFTextData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::ShowSDFTextData*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR_SET_CONFIG_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::ShowSDFTextData*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR_SET_CONFIG_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -55,9 +55,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWSDFTEXTBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

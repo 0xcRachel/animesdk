@@ -8,32 +8,32 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class WWW; }
 
-#define TAPTAP_SDK_UTILS_NET__GET_D__3_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1A62AD40)
-#define TAPTAP_SDK_UTILS_NET__GET_D__3_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1A62B490)
-#define TAPTAP_SDK_UTILS_NET__GET_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1A62B4F0)
-#define TAPTAP_SDK_UTILS_NET__GET_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1A62B4A0)
-#define TAPTAP_SDK_UTILS_NET__GET_D__3_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A62AD30)
-#define TAPTAP_SDK_UTILS_NET__GET_D__3__CTOR_OFFSET UNITYSDK_OFFSET(0x1A629FD0)
+#define TAPTAP_SDK_UTILS_NET__GET_D__3_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1B472B50)
+#define TAPTAP_SDK_UTILS_NET__GET_D__3_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B4732A0)
+#define TAPTAP_SDK_UTILS_NET__GET_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B473300)
+#define TAPTAP_SDK_UTILS_NET__GET_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1B4732B0)
+#define TAPTAP_SDK_UTILS_NET__GET_D__3_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B472B40)
+#define TAPTAP_SDK_UTILS_NET__GET_D__3__CTOR_OFFSET UNITYSDK_OFFSET(0x1B471D90)
 
 namespace TapTap::Sdk::Utils
 {
-	inline static constexpr unsigned int Net__Get_d__3_TypeDefinitionIndex = 6471;
+	inline static constexpr unsigned int Net__Get_d__3_TypeDefinitionIndex = 7087;
 
 	class Net__Get_d__3 : public ::System::Object
 	{
 	public:
-		::System::Action_2<::System::Int32, ::System::String*>* methodForError; // 0x10
+		::System::String* authorization; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* queryParams; // 0x18
-		::System::String* url; // 0x20
-		::System::String* authorization; // 0x28
-		::UnityEngine::WWW* _w_5__2; // 0x30
-		::System::Action_1<::System::String*>* methodForResult; // 0x38
-		::System::Object* __2__current; // 0x40
+		::System::Action_2<::System::Int32, ::System::String*>* methodForError; // 0x20
+		::System::Object* __2__current; // 0x28
+		::System::Action_1<::System::String*>* methodForResult; // 0x30
+		::System::String* url; // 0x38
+		::UnityEngine::WWW* _w_5__2; // 0x40
 		::System::Int32 __1__state; // 0x48
 
-		::System::Void _ctor(::System::Int32 __1__state)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UTILS_NET__GET_D__3__CTOR_OFFSET))(this, __1__state);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UTILS_NET__GET_D__3__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()

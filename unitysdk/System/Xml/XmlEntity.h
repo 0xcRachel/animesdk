@@ -8,24 +8,24 @@ namespace System::Xml { class XmlDocument; }
 namespace System::Xml { class XmlLinkedNode; }
 namespace System::Xml { class XmlWriter; }
 
-#define SYSTEM_XML_XMLENTITY_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1766A870)
-#define SYSTEM_XML_XMLENTITY_GET_BASEURI_OFFSET UNITYSDK_OFFSET(0x1766AB80)
-#define SYSTEM_XML_XMLENTITY_GET_INNERTEXT_OFFSET UNITYSDK_OFFSET(0x1766A900)
-#define SYSTEM_XML_XMLENTITY_GET_ISCONTAINER_OFFSET UNITYSDK_OFFSET(0x1766A970)
-#define SYSTEM_XML_XMLENTITY_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x1766A8D0)
-#define SYSTEM_XML_XMLENTITY_GET_LASTNODE_OFFSET UNITYSDK_OFFSET(0x1766A980)
-#define SYSTEM_XML_XMLENTITY_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x1766A8F0)
-#define SYSTEM_XML_XMLENTITY_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1766A8E0)
-#define SYSTEM_XML_XMLENTITY_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1766AAE0)
-#define SYSTEM_XML_XMLENTITY_GET_SYSTEMID_OFFSET UNITYSDK_OFFSET(0x1766AAF0)
-#define SYSTEM_XML_XMLENTITY_ISVALIDCHILDTYPE_OFFSET UNITYSDK_OFFSET(0x1766AAC0)
-#define SYSTEM_XML_XMLENTITY_SETBASEURI_OFFSET UNITYSDK_OFFSET(0x1766AB90)
-#define SYSTEM_XML_XMLENTITY_SET_INNERTEXT_OFFSET UNITYSDK_OFFSET(0x1766A910)
-#define SYSTEM_XML_XMLENTITY_SET_INNERXML_OFFSET UNITYSDK_OFFSET(0x1766AB00)
-#define SYSTEM_XML_XMLENTITY_SET_LASTNODE_OFFSET UNITYSDK_OFFSET(0x1766AAB0)
-#define SYSTEM_XML_XMLENTITY_WRITECONTENTTO_OFFSET UNITYSDK_OFFSET(0x1766AB70)
-#define SYSTEM_XML_XMLENTITY_WRITETO_OFFSET UNITYSDK_OFFSET(0x1766AB60)
-#define SYSTEM_XML_XMLENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1766A720)
+#define SYSTEM_XML_XMLENTITY_CLONENODE_OFFSET UNITYSDK_OFFSET(0x16DC5740)
+#define SYSTEM_XML_XMLENTITY_GET_BASEURI_OFFSET UNITYSDK_OFFSET(0x16DC5A50)
+#define SYSTEM_XML_XMLENTITY_GET_INNERTEXT_OFFSET UNITYSDK_OFFSET(0x16DC57D0)
+#define SYSTEM_XML_XMLENTITY_GET_ISCONTAINER_OFFSET UNITYSDK_OFFSET(0x16DC5840)
+#define SYSTEM_XML_XMLENTITY_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x16DC57A0)
+#define SYSTEM_XML_XMLENTITY_GET_LASTNODE_OFFSET UNITYSDK_OFFSET(0x16DC5850)
+#define SYSTEM_XML_XMLENTITY_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x16DC57C0)
+#define SYSTEM_XML_XMLENTITY_GET_NAME_OFFSET UNITYSDK_OFFSET(0x16DC57B0)
+#define SYSTEM_XML_XMLENTITY_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x16DC59B0)
+#define SYSTEM_XML_XMLENTITY_GET_SYSTEMID_OFFSET UNITYSDK_OFFSET(0x16DC59C0)
+#define SYSTEM_XML_XMLENTITY_ISVALIDCHILDTYPE_OFFSET UNITYSDK_OFFSET(0x16DC5990)
+#define SYSTEM_XML_XMLENTITY_SETBASEURI_OFFSET UNITYSDK_OFFSET(0x16DC5A60)
+#define SYSTEM_XML_XMLENTITY_SET_INNERTEXT_OFFSET UNITYSDK_OFFSET(0x16DC57E0)
+#define SYSTEM_XML_XMLENTITY_SET_INNERXML_OFFSET UNITYSDK_OFFSET(0x16DC59D0)
+#define SYSTEM_XML_XMLENTITY_SET_LASTNODE_OFFSET UNITYSDK_OFFSET(0x16DC5980)
+#define SYSTEM_XML_XMLENTITY_WRITECONTENTTO_OFFSET UNITYSDK_OFFSET(0x16DC5A40)
+#define SYSTEM_XML_XMLENTITY_WRITETO_OFFSET UNITYSDK_OFFSET(0x16DC5A30)
+#define SYSTEM_XML_XMLENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x16DC55F0)
 
 namespace System::Xml
 {
@@ -34,23 +34,23 @@ namespace System::Xml
 	class XmlEntity : public ::System::Xml::XmlNode
 	{
 	public:
-		::System::String* publicId; // 0x18
-		::System::String* unparsedReplacementStr; // 0x20
-		::System::String* baseURI; // 0x28
-		::System::String* systemId; // 0x30
-		::System::String* notationName; // 0x38
-		::System::Xml::XmlLinkedNode* lastChild; // 0x40
-		::System::String* name; // 0x48
+		::System::Xml::XmlLinkedNode* lastChild; // 0x18
+		::System::String* publicId; // 0x20
+		::System::String* notationName; // 0x28
+		::System::String* name; // 0x30
+		::System::String* systemId; // 0x38
+		::System::String* unparsedReplacementStr; // 0x40
+		::System::String* baseURI; // 0x48
 		::System::Boolean childrenFoliating; // 0x50
 
-		::System::Void _ctor(::System::String* name, ::System::String* strdata, ::System::String* publicId, ::System::String* systemId, ::System::String* notationName, ::System::Xml::XmlDocument* doc)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::Xml::XmlDocument* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Xml::XmlDocument*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY__CTOR_OFFSET))(this, name, strdata, publicId, systemId, notationName, doc);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Xml::XmlDocument*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Xml::XmlNode* CloneNode(::System::Boolean deep)
+		::System::Xml::XmlNode* CloneNode(::System::Boolean a1)
 		{
-			return ((::System::Xml::XmlNode*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY_CLONENODE_OFFSET))(this, deep);
+			return ((::System::Xml::XmlNode*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY_CLONENODE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsReadOnly()
@@ -73,9 +73,9 @@ namespace System::Xml
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY_GET_INNERTEXT_OFFSET))(this);
 		}
 
-		::System::Void set_InnerText(::System::String* value)
+		::System::Void set_InnerText(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY_SET_INNERTEXT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY_SET_INNERTEXT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsContainer()
@@ -88,14 +88,14 @@ namespace System::Xml
 			return ((::System::Xml::XmlLinkedNode*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY_GET_LASTNODE_OFFSET))(this);
 		}
 
-		::System::Void set_LastNode(::System::Xml::XmlLinkedNode* value)
+		::System::Void set_LastNode(::System::Xml::XmlLinkedNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlLinkedNode*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY_SET_LASTNODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlLinkedNode*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY_SET_LASTNODE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsValidChildType(::System::Xml::XmlNodeType type)
+		::System::Boolean IsValidChildType(::System::Xml::XmlNodeType a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Xml::XmlNodeType))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY_ISVALIDCHILDTYPE_OFFSET))(this, type);
+			return ((::System::Boolean(*)(::PVOID, ::System::Xml::XmlNodeType))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY_ISVALIDCHILDTYPE_OFFSET))(this, a1);
 		}
 
 		::System::Xml::XmlNodeType get_NodeType()
@@ -108,19 +108,19 @@ namespace System::Xml
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY_GET_SYSTEMID_OFFSET))(this);
 		}
 
-		::System::Void set_InnerXml(::System::String* value)
+		::System::Void set_InnerXml(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY_SET_INNERXML_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY_SET_INNERXML_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteTo(::System::Xml::XmlWriter* w)
+		::System::Void WriteTo(::System::Xml::XmlWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY_WRITETO_OFFSET))(this, w);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY_WRITETO_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteContentTo(::System::Xml::XmlWriter* w)
+		::System::Void WriteContentTo(::System::Xml::XmlWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY_WRITECONTENTTO_OFFSET))(this, w);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY_WRITECONTENTTO_OFFSET))(this, a1);
 		}
 
 		::System::String* get_BaseURI()
@@ -128,9 +128,9 @@ namespace System::Xml
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY_GET_BASEURI_OFFSET))(this);
 		}
 
-		::System::Void SetBaseURI(::System::String* inBaseURI)
+		::System::Void SetBaseURI(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY_SETBASEURI_OFFSET))(this, inBaseURI);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLENTITY_SETBASEURI_OFFSET))(this, a1);
 		}
 	};
 }

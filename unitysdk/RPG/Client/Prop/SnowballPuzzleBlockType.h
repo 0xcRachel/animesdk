@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int SnowballPuzzleBlockType_TypeDefinitionIndex = 72362;
+	inline static constexpr unsigned int SnowballPuzzleBlockType_TypeDefinitionIndex = 73384;
 
 	enum class SnowballPuzzleBlockType : ::System::Int32
 	{

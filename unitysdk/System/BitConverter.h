@@ -4,44 +4,44 @@
 
 namespace System { class String; }
 
-#define SYSTEM_BITCONVERTER_AMILITTLEENDIAN_OFFSET UNITYSDK_OFFSET(0x193C0110)
-#define SYSTEM_BITCONVERTER_DOUBLETOINT64BITS_OFFSET UNITYSDK_OFFSET(0x193C0CB0)
-#define SYSTEM_BITCONVERTER_GETBYTES_1_OFFSET UNITYSDK_OFFSET(0x193C0170)
-#define SYSTEM_BITCONVERTER_GETBYTES_2_OFFSET UNITYSDK_OFFSET(0x193C01A0)
-#define SYSTEM_BITCONVERTER_GETBYTES_3_OFFSET UNITYSDK_OFFSET(0x193C01D0)
-#define SYSTEM_BITCONVERTER_GETBYTES_4_OFFSET UNITYSDK_OFFSET(0x193C0200)
-#define SYSTEM_BITCONVERTER_GETBYTES_5_OFFSET UNITYSDK_OFFSET(0x193C0230)
-#define SYSTEM_BITCONVERTER_GETBYTES_6_OFFSET UNITYSDK_OFFSET(0x193C0260)
-#define SYSTEM_BITCONVERTER_GETBYTES_7_OFFSET UNITYSDK_OFFSET(0x193C0290)
-#define SYSTEM_BITCONVERTER_GETBYTES_8_OFFSET UNITYSDK_OFFSET(0x193C02C0)
-#define SYSTEM_BITCONVERTER_GETBYTES_9_OFFSET UNITYSDK_OFFSET(0x193C02F0)
-#define SYSTEM_BITCONVERTER_GETBYTES_OFFSET UNITYSDK_OFFSET(0x193C0120)
-#define SYSTEM_BITCONVERTER_GETHEXVALUE_OFFSET UNITYSDK_OFFSET(0x193C0860)
-#define SYSTEM_BITCONVERTER_INT64BITSTODOUBLE_OFFSET UNITYSDK_OFFSET(0x193C0CC0)
-#define SYSTEM_BITCONVERTER_TOBOOLEAN_OFFSET UNITYSDK_OFFSET(0x193C0BD0)
-#define SYSTEM_BITCONVERTER_TOCHAR_OFFSET UNITYSDK_OFFSET(0x193C0320)
-#define SYSTEM_BITCONVERTER_TODOUBLE_OFFSET UNITYSDK_OFFSET(0x193C0800)
-#define SYSTEM_BITCONVERTER_TOINT16_OFFSET UNITYSDK_OFFSET(0x193C03C0)
-#define SYSTEM_BITCONVERTER_TOINT32_OFFSET UNITYSDK_OFFSET(0x193C0460)
-#define SYSTEM_BITCONVERTER_TOINT64_OFFSET UNITYSDK_OFFSET(0x193C0520)
-#define SYSTEM_BITCONVERTER_TOSINGLE_OFFSET UNITYSDK_OFFSET(0x193C07A0)
-#define SYSTEM_BITCONVERTER_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x193C0B60)
-#define SYSTEM_BITCONVERTER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x193C0870)
-#define SYSTEM_BITCONVERTER_TOUINT16_OFFSET UNITYSDK_OFFSET(0x193C0660)
-#define SYSTEM_BITCONVERTER_TOUINT32_OFFSET UNITYSDK_OFFSET(0x193C0700)
-#define SYSTEM_BITCONVERTER_TOUINT64_OFFSET UNITYSDK_OFFSET(0x193C0750)
-#define SYSTEM_BITCONVERTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x193C0CD0)
+#define SYSTEM_BITCONVERTER_AMILITTLEENDIAN_OFFSET UNITYSDK_OFFSET(0x19A0C170)
+#define SYSTEM_BITCONVERTER_DOUBLETOINT64BITS_OFFSET UNITYSDK_OFFSET(0x19A0CCA0)
+#define SYSTEM_BITCONVERTER_GETBYTES_1_OFFSET UNITYSDK_OFFSET(0x19A0C1C0)
+#define SYSTEM_BITCONVERTER_GETBYTES_2_OFFSET UNITYSDK_OFFSET(0x19A0C1F0)
+#define SYSTEM_BITCONVERTER_GETBYTES_3_OFFSET UNITYSDK_OFFSET(0x19A0C220)
+#define SYSTEM_BITCONVERTER_GETBYTES_4_OFFSET UNITYSDK_OFFSET(0x19A0C250)
+#define SYSTEM_BITCONVERTER_GETBYTES_5_OFFSET UNITYSDK_OFFSET(0x19A0C280)
+#define SYSTEM_BITCONVERTER_GETBYTES_6_OFFSET UNITYSDK_OFFSET(0x19A0C2B0)
+#define SYSTEM_BITCONVERTER_GETBYTES_7_OFFSET UNITYSDK_OFFSET(0x19A0C2E0)
+#define SYSTEM_BITCONVERTER_GETBYTES_8_OFFSET UNITYSDK_OFFSET(0x19A0C310)
+#define SYSTEM_BITCONVERTER_GETBYTES_9_OFFSET UNITYSDK_OFFSET(0x19A0C340)
+#define SYSTEM_BITCONVERTER_GETBYTES_OFFSET UNITYSDK_OFFSET(0x19A0C180)
+#define SYSTEM_BITCONVERTER_GETHEXVALUE_OFFSET UNITYSDK_OFFSET(0x19A0C890)
+#define SYSTEM_BITCONVERTER_INT64BITSTODOUBLE_OFFSET UNITYSDK_OFFSET(0x19A0CCB0)
+#define SYSTEM_BITCONVERTER_TOBOOLEAN_OFFSET UNITYSDK_OFFSET(0x19A0CBD0)
+#define SYSTEM_BITCONVERTER_TOCHAR_OFFSET UNITYSDK_OFFSET(0x19A0C370)
+#define SYSTEM_BITCONVERTER_TODOUBLE_OFFSET UNITYSDK_OFFSET(0x19A0C830)
+#define SYSTEM_BITCONVERTER_TOINT16_OFFSET UNITYSDK_OFFSET(0x19A0C410)
+#define SYSTEM_BITCONVERTER_TOINT32_OFFSET UNITYSDK_OFFSET(0x19A0C4B0)
+#define SYSTEM_BITCONVERTER_TOINT64_OFFSET UNITYSDK_OFFSET(0x19A0C560)
+#define SYSTEM_BITCONVERTER_TOSINGLE_OFFSET UNITYSDK_OFFSET(0x19A0C7D0)
+#define SYSTEM_BITCONVERTER_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x19A0CB60)
+#define SYSTEM_BITCONVERTER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19A0C8A0)
+#define SYSTEM_BITCONVERTER_TOUINT16_OFFSET UNITYSDK_OFFSET(0x19A0C690)
+#define SYSTEM_BITCONVERTER_TOUINT32_OFFSET UNITYSDK_OFFSET(0x19A0C730)
+#define SYSTEM_BITCONVERTER_TOUINT64_OFFSET UNITYSDK_OFFSET(0x19A0C780)
+#define SYSTEM_BITCONVERTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19A0CCC0)
 
 namespace System
 {
-	inline static constexpr unsigned int BitConverter_TypeDefinitionIndex = 205;
+	inline static constexpr unsigned int BitConverter_TypeDefinitionIndex = 204;
 
 	class BitConverter : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_IsLittleEndian()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BitConverter_TypeDefinitionIndex)->GetStaticField(0x2A0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BitConverter_TypeDefinitionIndex)->GetStaticField(0x250);
 		}
 
 		static ::System::Void _cctor()
@@ -54,129 +54,129 @@ namespace System
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_AMILITTLEENDIAN_OFFSET))();
 		}
 
-		static ::Il2CppArray<::System::Byte>* GetBytes(::System::Boolean value)
+		static ::Il2CppArray<::System::Byte>* GetBytes(::System::Boolean a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETBYTES_OFFSET))(value);
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETBYTES_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::System::Byte>* GetBytes_1(::System::Char value)
+		static ::Il2CppArray<::System::Byte>* GetBytes_1(::System::Char a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETBYTES_1_OFFSET))(value);
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETBYTES_1_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::System::Byte>* GetBytes_2(::System::Int16 value)
+		static ::Il2CppArray<::System::Byte>* GetBytes_2(::System::Int16 a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::Int16))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETBYTES_2_OFFSET))(value);
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::Int16))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETBYTES_2_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::System::Byte>* GetBytes_3(::System::Int32 value)
+		static ::Il2CppArray<::System::Byte>* GetBytes_3(::System::Int32 a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETBYTES_3_OFFSET))(value);
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETBYTES_3_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::System::Byte>* GetBytes_4(::System::Int64 value)
+		static ::Il2CppArray<::System::Byte>* GetBytes_4(::System::Int64 a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETBYTES_4_OFFSET))(value);
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETBYTES_4_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::System::Byte>* GetBytes_5(::System::UInt16 value)
+		static ::Il2CppArray<::System::Byte>* GetBytes_5(::System::UInt16 a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::UInt16))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETBYTES_5_OFFSET))(value);
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::UInt16))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETBYTES_5_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::System::Byte>* GetBytes_6(::System::UInt32 value)
+		static ::Il2CppArray<::System::Byte>* GetBytes_6(::System::UInt32 a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETBYTES_6_OFFSET))(value);
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETBYTES_6_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::System::Byte>* GetBytes_7(::System::UInt64 value)
+		static ::Il2CppArray<::System::Byte>* GetBytes_7(::System::UInt64 a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::UInt64))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETBYTES_7_OFFSET))(value);
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::UInt64))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETBYTES_7_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::System::Byte>* GetBytes_8(::System::Single value)
+		static ::Il2CppArray<::System::Byte>* GetBytes_8(::System::Single a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::Single))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETBYTES_8_OFFSET))(value);
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::Single))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETBYTES_8_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::System::Byte>* GetBytes_9(::System::Double value)
+		static ::Il2CppArray<::System::Byte>* GetBytes_9(::System::Double a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::Double))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETBYTES_9_OFFSET))(value);
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::Double))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETBYTES_9_OFFSET))(a1);
 		}
 
-		static ::System::Char ToChar(::Il2CppArray<::System::Byte>* value, ::System::Int32 startIndex)
+		static ::System::Char ToChar(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Char(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOCHAR_OFFSET))(value, startIndex);
+			return ((::System::Char(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOCHAR_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int16 ToInt16(::Il2CppArray<::System::Byte>* value, ::System::Int32 startIndex)
+		static ::System::Int16 ToInt16(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Int16(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOINT16_OFFSET))(value, startIndex);
+			return ((::System::Int16(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOINT16_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 ToInt32(::Il2CppArray<::System::Byte>* value, ::System::Int32 startIndex)
+		static ::System::Int32 ToInt32(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOINT32_OFFSET))(value, startIndex);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOINT32_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int64 ToInt64(::Il2CppArray<::System::Byte>* value, ::System::Int32 startIndex)
+		static ::System::Int64 ToInt64(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Int64(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOINT64_OFFSET))(value, startIndex);
+			return ((::System::Int64(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOINT64_OFFSET))(a1, a2);
 		}
 
-		static ::System::UInt16 ToUInt16(::Il2CppArray<::System::Byte>* value, ::System::Int32 startIndex)
+		static ::System::UInt16 ToUInt16(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::UInt16(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOUINT16_OFFSET))(value, startIndex);
+			return ((::System::UInt16(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOUINT16_OFFSET))(a1, a2);
 		}
 
-		static ::System::UInt32 ToUInt32(::Il2CppArray<::System::Byte>* value, ::System::Int32 startIndex)
+		static ::System::UInt32 ToUInt32(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::UInt32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOUINT32_OFFSET))(value, startIndex);
+			return ((::System::UInt32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOUINT32_OFFSET))(a1, a2);
 		}
 
-		static ::System::UInt64 ToUInt64(::Il2CppArray<::System::Byte>* value, ::System::Int32 startIndex)
+		static ::System::UInt64 ToUInt64(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::UInt64(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOUINT64_OFFSET))(value, startIndex);
+			return ((::System::UInt64(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOUINT64_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single ToSingle(::Il2CppArray<::System::Byte>* value, ::System::Int32 startIndex)
+		static ::System::Single ToSingle(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Single(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOSINGLE_OFFSET))(value, startIndex);
+			return ((::System::Single(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOSINGLE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Double ToDouble(::Il2CppArray<::System::Byte>* value, ::System::Int32 startIndex)
+		static ::System::Double ToDouble(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Double(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TODOUBLE_OFFSET))(value, startIndex);
+			return ((::System::Double(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TODOUBLE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Char GetHexValue(::System::Int32 i)
+		static ::System::Char GetHexValue(::System::Int32 a1)
 		{
-			return ((::System::Char(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETHEXVALUE_OFFSET))(i);
+			return ((::System::Char(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_GETHEXVALUE_OFFSET))(a1);
 		}
 
-		static ::System::String* ToString(::Il2CppArray<::System::Byte>* value, ::System::Int32 startIndex, ::System::Int32 length)
+		static ::System::String* ToString(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::String*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOSTRING_OFFSET))(value, startIndex, length);
+			return ((::System::String*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOSTRING_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* ToString_1(::Il2CppArray<::System::Byte>* value)
+		static ::System::String* ToString_1(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::String*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOSTRING_1_OFFSET))(value);
+			return ((::System::String*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOSTRING_1_OFFSET))(a1);
 		}
 
-		static ::System::Boolean ToBoolean(::Il2CppArray<::System::Byte>* value, ::System::Int32 startIndex)
+		static ::System::Boolean ToBoolean(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOBOOLEAN_OFFSET))(value, startIndex);
+			return ((::System::Boolean(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_TOBOOLEAN_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int64 DoubleToInt64Bits(::System::Double value)
+		static ::System::Int64 DoubleToInt64Bits(::System::Double a1)
 		{
-			return ((::System::Int64(*)(::System::Double))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_DOUBLETOINT64BITS_OFFSET))(value);
+			return ((::System::Int64(*)(::System::Double))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_DOUBLETOINT64BITS_OFFSET))(a1);
 		}
 
-		static ::System::Double Int64BitsToDouble(::System::Int64 value)
+		static ::System::Double Int64BitsToDouble(::System::Int64 a1)
 		{
-			return ((::System::Double(*)(::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_INT64BITSTODOUBLE_OFFSET))(value);
+			return ((::System::Double(*)(::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_BITCONVERTER_INT64BITSTODOUBLE_OFFSET))(a1);
 		}
 	};
 }

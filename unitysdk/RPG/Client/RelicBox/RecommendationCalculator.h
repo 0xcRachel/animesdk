@@ -3,32 +3,32 @@
 #include "unitysdk/RPG/Client/RelicSmartSuit/RankType.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::Client { class IAvatarInfoProvider; }
+namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class RelicItemData; }
 namespace RPG::Client { class RelicRecommendData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_CALCULATERANK_OFFSET UNITYSDK_OFFSET(0x16024640)
-#define RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_CHANGEAVATAR_OFFSET UNITYSDK_OFFSET(0x16024280)
-#define RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_CREATE_OFFSET UNITYSDK_OFFSET(0x16024230)
-#define RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_GETRECOMMENDDATA_OFFSET UNITYSDK_OFFSET(0x160244F0)
-#define RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_GETSUBPROPERTYMATCHCOUNT_1_OFFSET UNITYSDK_OFFSET(0x16024530)
-#define RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_GETSUBPROPERTYMATCHCOUNT_OFFSET UNITYSDK_OFFSET(0x16024490)
-#define RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_GET__AVATARID_OFFSET UNITYSDK_OFFSET(0x160243C0)
-#define RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_ISMATCHMAINPROPERTY_OFFSET UNITYSDK_OFFSET(0x16024410)
-#define RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_ISSPECIALRELICMAINTYPE_OFFSET UNITYSDK_OFFSET(0x160246A0)
-#define RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x16024270)
+#define RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_CALCULATERANK_OFFSET UNITYSDK_OFFSET(0x174B1650)
+#define RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_CHANGEAVATAR_OFFSET UNITYSDK_OFFSET(0x174B1290)
+#define RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_CREATE_OFFSET UNITYSDK_OFFSET(0x174B1240)
+#define RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_GETRECOMMENDDATA_OFFSET UNITYSDK_OFFSET(0x174B1500)
+#define RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_GETSUBPROPERTYMATCHCOUNT_1_OFFSET UNITYSDK_OFFSET(0x174B1540)
+#define RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_GETSUBPROPERTYMATCHCOUNT_OFFSET UNITYSDK_OFFSET(0x174B14A0)
+#define RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_GET__AVATARID_OFFSET UNITYSDK_OFFSET(0x174B13D0)
+#define RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_ISMATCHMAINPROPERTY_OFFSET UNITYSDK_OFFSET(0x174B1420)
+#define RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_ISSPECIALRELICMAINTYPE_OFFSET UNITYSDK_OFFSET(0x174B16B0)
+#define RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x174B1280)
 
 namespace RPG::Client::RelicBox
 {
-	inline static constexpr unsigned int RecommendationCalculator_TypeDefinitionIndex = 68717;
+	inline static constexpr unsigned int RecommendationCalculator_TypeDefinitionIndex = 69529;
 
 	class RecommendationCalculator : public ::System::Object
 	{
 	public:
-		::RPG::Client::IAvatarInfoProvider* _Avatar; // 0x10
-		::RPG::Client::RelicRecommendData* _RecommendData; // 0x18
-		::RPG::Client::RelicItemData* _RelicItemData; // 0x20
+		::RPG::Client::RelicItemData* _RelicItemData; // 0x10
+		::RPG::AvatarSystem::IAvatar* _Avatar; // 0x18
+		::RPG::Client::RelicRecommendData* _RecommendData; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -40,19 +40,19 @@ namespace RPG::Client::RelicBox
 			return ((::RPG::Client::RelicBox::RecommendationCalculator*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_CREATE_OFFSET))();
 		}
 
-		::System::Void ChangeAvatar(::System::UInt32 avatarId)
+		::System::Void ChangeAvatar(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_CHANGEAVATAR_OFFSET))(this, avatarId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_CHANGEAVATAR_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsMatchMainProperty(::RPG::Client::RelicItemData* relic)
+		::System::Boolean IsMatchMainProperty(::RPG::Client::RelicItemData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_ISMATCHMAINPROPERTY_OFFSET))(this, relic);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_ISMATCHMAINPROPERTY_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetSubPropertyMatchCount(::RPG::Client::RelicItemData* relic)
+		::System::UInt32 GetSubPropertyMatchCount(::RPG::Client::RelicItemData* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_GETSUBPROPERTYMATCHCOUNT_OFFSET))(this, relic);
+			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_GETSUBPROPERTYMATCHCOUNT_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RelicRecommendData* GetRecommendData()
@@ -60,19 +60,19 @@ namespace RPG::Client::RelicBox
 			return ((::RPG::Client::RelicRecommendData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_GETRECOMMENDDATA_OFFSET))(this);
 		}
 
-		::System::UInt32 GetSubPropertyMatchCount_1(::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>* relicDatas)
+		::System::UInt32 GetSubPropertyMatchCount_1(::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_GETSUBPROPERTYMATCHCOUNT_1_OFFSET))(this, relicDatas);
+			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_GETSUBPROPERTYMATCHCOUNT_1_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::RelicSmartSuit::RankType CalculateRank(::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>* relicDatas)
+		::RPG::Client::RelicSmartSuit::RankType CalculateRank(::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>* a1)
 		{
-			return ((::RPG::Client::RelicSmartSuit::RankType(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_CALCULATERANK_OFFSET))(this, relicDatas);
+			return ((::RPG::Client::RelicSmartSuit::RankType(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_CALCULATERANK_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean IsSpecialRelicMainType(::System::UInt32 avatarID, ::RPG::Client::RelicItemData* relic)
+		static ::System::Boolean IsSpecialRelicMainType(::System::UInt32 a1, ::RPG::Client::RelicItemData* a2)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_ISSPECIALRELICMAINTYPE_OFFSET))(avatarID, relic);
+			return ((::System::Boolean(*)(::System::UInt32, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICBOX_RECOMMENDATIONCALCULATOR_ISSPECIALRELICMAINTYPE_OFFSET))(a1, a2);
 		}
 
 		::System::UInt32 get__AvatarID()

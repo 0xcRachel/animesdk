@@ -7,33 +7,33 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTROLEPROPERTYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B86AA0)
-#define RPG_GAMECORE_GRIDFIGHTROLEPROPERTYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B86E30)
+#define RPG_GAMECORE_GRIDFIGHTROLEPROPERTYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A1B9CB0)
+#define RPG_GAMECORE_GRIDFIGHTROLEPROPERTYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1BA040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRolePropertyConfigRow_TypeDefinitionIndex = 12786;
+	inline static constexpr unsigned int GridFightRolePropertyConfigRow_TypeDefinitionIndex = 12874;
 
 	class GridFightRolePropertyConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::System::String* MiniIconPath; // 0x18
-		::System::Boolean IsDisplay; // 0x20
-		::RPG::GameCore::AvatarPropertyType PropertyType; // 0x24
-		::RPG::Client::TextID PropertyName; // 0x28
-		::System::UInt32 Order; // 0x38
-		::System::UInt32 ExtraEffectID; // 0x3C
-		::RPG::Client::TextID PanelPropertyName; // 0x40
+		::System::String* MiniIconPath; // 0x10
+		::System::String* IconPath; // 0x18
+		::RPG::Client::TextID PropertyName; // 0x20
+		::RPG::Client::TextID PanelPropertyName; // 0x30
+		::System::UInt32 Order; // 0x40
+		::RPG::GameCore::AvatarPropertyType PropertyType; // 0x44
+		::System::UInt32 ExtraEffectID; // 0x48
+		::System::Boolean IsDisplay; // 0x4C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTROLEPROPERTYCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GridFightRolePropertyConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightRolePropertyConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightRolePropertyConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTROLEPROPERTYCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightRolePropertyConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTROLEPROPERTYCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

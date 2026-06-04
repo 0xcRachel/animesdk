@@ -10,21 +10,21 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
-#define RPG_CLIENT_COLLIDERBUTTON_ADDCLICKCALLBACK_OFFSET UNITYSDK_OFFSET(0x15BD8D80)
-#define RPG_CLIENT_COLLIDERBUTTON_ADDDOWNCALLBACK_OFFSET UNITYSDK_OFFSET(0x15BD8E40)
-#define RPG_CLIENT_COLLIDERBUTTON_ADDDRAGCALLBACK_OFFSET UNITYSDK_OFFSET(0x15BD8EA0)
-#define RPG_CLIENT_COLLIDERBUTTON_ADDUPCALLBACK_OFFSET UNITYSDK_OFFSET(0x15BD8DE0)
-#define RPG_CLIENT_COLLIDERBUTTON_GET_OFFSET UNITYSDK_OFFSET(0x15BD8AD0)
-#define RPG_CLIENT_COLLIDERBUTTON_ONDRAG_OFFSET UNITYSDK_OFFSET(0x15BD8CF0)
-#define RPG_CLIENT_COLLIDERBUTTON_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0x15BD8B60)
-#define RPG_CLIENT_COLLIDERBUTTON_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x15BD8C30)
-#define RPG_CLIENT_COLLIDERBUTTON_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0x15BD8BD0)
-#define RPG_CLIENT_COLLIDERBUTTON_ONSUBMIT_OFFSET UNITYSDK_OFFSET(0x15BD8C90)
-#define RPG_CLIENT_COLLIDERBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x15BD8F80)
+#define RPG_CLIENT_COLLIDERBUTTON_ADDCLICKCALLBACK_OFFSET UNITYSDK_OFFSET(0x17837330)
+#define RPG_CLIENT_COLLIDERBUTTON_ADDDOWNCALLBACK_OFFSET UNITYSDK_OFFSET(0x178373F0)
+#define RPG_CLIENT_COLLIDERBUTTON_ADDDRAGCALLBACK_OFFSET UNITYSDK_OFFSET(0x17837450)
+#define RPG_CLIENT_COLLIDERBUTTON_ADDUPCALLBACK_OFFSET UNITYSDK_OFFSET(0x17837390)
+#define RPG_CLIENT_COLLIDERBUTTON_GET_OFFSET UNITYSDK_OFFSET(0x17837080)
+#define RPG_CLIENT_COLLIDERBUTTON_ONDRAG_OFFSET UNITYSDK_OFFSET(0x178372A0)
+#define RPG_CLIENT_COLLIDERBUTTON_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0x17837110)
+#define RPG_CLIENT_COLLIDERBUTTON_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x178371E0)
+#define RPG_CLIENT_COLLIDERBUTTON_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0x17837180)
+#define RPG_CLIENT_COLLIDERBUTTON_ONSUBMIT_OFFSET UNITYSDK_OFFSET(0x17837240)
+#define RPG_CLIENT_COLLIDERBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x17837500)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ColliderButton_TypeDefinitionIndex = 66819;
+	inline static constexpr unsigned int ColliderButton_TypeDefinitionIndex = 67759;
 
 	class ColliderButton : public ::UnityEngine::MonoBehaviour
 	{
@@ -39,54 +39,54 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLIDERBUTTON__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ColliderButton* Get(::UnityEngine::GameObject* go)
+		static ::RPG::Client::ColliderButton* Get(::UnityEngine::GameObject* a1)
 		{
-			return ((::RPG::Client::ColliderButton*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLIDERBUTTON_GET_OFFSET))(go);
+			return ((::RPG::Client::ColliderButton*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLIDERBUTTON_GET_OFFSET))(a1);
 		}
 
-		::System::Void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLIDERBUTTON_ONPOINTERCLICK_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLIDERBUTTON_ONPOINTERCLICK_OFFSET))(this, a1);
 		}
 
-		::System::Void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLIDERBUTTON_ONPOINTERUP_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLIDERBUTTON_ONPOINTERUP_OFFSET))(this, a1);
 		}
 
-		::System::Void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLIDERBUTTON_ONPOINTERDOWN_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLIDERBUTTON_ONPOINTERDOWN_OFFSET))(this, a1);
 		}
 
-		::System::Void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData)
+		::System::Void OnSubmit(::UnityEngine::EventSystems::BaseEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLIDERBUTTON_ONSUBMIT_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLIDERBUTTON_ONSUBMIT_OFFSET))(this, a1);
 		}
 
-		::System::Void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnDrag(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLIDERBUTTON_ONDRAG_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLIDERBUTTON_ONDRAG_OFFSET))(this, a1);
 		}
 
-		::System::Void AddClickCallback(::UnityEngine::Events::UnityAction* callback)
+		::System::Void AddClickCallback(::UnityEngine::Events::UnityAction* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLIDERBUTTON_ADDCLICKCALLBACK_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLIDERBUTTON_ADDCLICKCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void AddUpCallback(::UnityEngine::Events::UnityAction* callback)
+		::System::Void AddUpCallback(::UnityEngine::Events::UnityAction* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLIDERBUTTON_ADDUPCALLBACK_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLIDERBUTTON_ADDUPCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void AddDownCallback(::UnityEngine::Events::UnityAction* callback)
+		::System::Void AddDownCallback(::UnityEngine::Events::UnityAction* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLIDERBUTTON_ADDDOWNCALLBACK_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLIDERBUTTON_ADDDOWNCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void AddDragCallback(::UnityEngine::Events::UnityAction_1<::UnityEngine::EventSystems::PointerEventData*>* callback)
+		::System::Void AddDragCallback(::UnityEngine::Events::UnityAction_1<::UnityEngine::EventSystems::PointerEventData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction_1<::UnityEngine::EventSystems::PointerEventData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLIDERBUTTON_ADDDRAGCALLBACK_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction_1<::UnityEngine::EventSystems::PointerEventData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLIDERBUTTON_ADDDRAGCALLBACK_OFFSET))(this, a1);
 		}
 	};
 }

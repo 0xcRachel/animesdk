@@ -8,24 +8,24 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERADUELGAMEINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x177B6880)
-#define RPG_CLIENT_CHIMERADUELGAMEINFO_GETDATA_OFFSET UNITYSDK_OFFSET(0x177B6920)
-#define RPG_CLIENT_CHIMERADUELGAMEINFO_GET_LASTGAMECHIMERAIDS_OFFSET UNITYSDK_OFFSET(0x177B5BF0)
-#define RPG_CLIENT_CHIMERADUELGAMEINFO_GET_LASTGAMEMASTERID_OFFSET UNITYSDK_OFFSET(0x177B5BD0)
-#define RPG_CLIENT_CHIMERADUELGAMEINFO_GET_NEXTGAMEID_OFFSET UNITYSDK_OFFSET(0x177AC3F0)
-#define RPG_CLIENT_CHIMERADUELGAMEINFO_ISGAMEPASSED_OFFSET UNITYSDK_OFFSET(0x177B6B40)
-#define RPG_CLIENT_CHIMERADUELGAMEINFO_ISINLONGTAIL_OFFSET UNITYSDK_OFFSET(0x177B6AF0)
-#define RPG_CLIENT_CHIMERADUELGAMEINFO_ISNEXTGAMECUSTOM_OFFSET UNITYSDK_OFFSET(0x177B69A0)
-#define RPG_CLIENT_CHIMERADUELGAMEINFO_SET_LASTGAMECHIMERAIDS_OFFSET UNITYSDK_OFFSET(0x177B5C00)
-#define RPG_CLIENT_CHIMERADUELGAMEINFO_SET_LASTGAMEMASTERID_OFFSET UNITYSDK_OFFSET(0x177B5BE0)
-#define RPG_CLIENT_CHIMERADUELGAMEINFO_SYNCLASTGAMECHIMERAIDS_OFFSET UNITYSDK_OFFSET(0x177B5ED0)
-#define RPG_CLIENT_CHIMERADUELGAMEINFO_SYNCLASTGAMEINFO_OFFSET UNITYSDK_OFFSET(0x177B6210)
-#define RPG_CLIENT_CHIMERADUELGAMEINFO_SYNCLASTGAMEMASTERID_OFFSET UNITYSDK_OFFSET(0x177B5E80)
-#define RPG_CLIENT_CHIMERADUELGAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x177B5C10)
+#define RPG_CLIENT_CHIMERADUELGAMEINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1966ACB0)
+#define RPG_CLIENT_CHIMERADUELGAMEINFO_GETDATA_OFFSET UNITYSDK_OFFSET(0x1966AD40)
+#define RPG_CLIENT_CHIMERADUELGAMEINFO_GET_LASTGAMECHIMERAIDS_OFFSET UNITYSDK_OFFSET(0x19669F30)
+#define RPG_CLIENT_CHIMERADUELGAMEINFO_GET_LASTGAMEMASTERID_OFFSET UNITYSDK_OFFSET(0x19669F10)
+#define RPG_CLIENT_CHIMERADUELGAMEINFO_GET_NEXTGAMEID_OFFSET UNITYSDK_OFFSET(0x1965F440)
+#define RPG_CLIENT_CHIMERADUELGAMEINFO_ISGAMEPASSED_OFFSET UNITYSDK_OFFSET(0x1966B020)
+#define RPG_CLIENT_CHIMERADUELGAMEINFO_ISINLONGTAIL_OFFSET UNITYSDK_OFFSET(0x1966AFD0)
+#define RPG_CLIENT_CHIMERADUELGAMEINFO_ISNEXTGAMECUSTOM_OFFSET UNITYSDK_OFFSET(0x1966AE10)
+#define RPG_CLIENT_CHIMERADUELGAMEINFO_SET_LASTGAMECHIMERAIDS_OFFSET UNITYSDK_OFFSET(0x19669F40)
+#define RPG_CLIENT_CHIMERADUELGAMEINFO_SET_LASTGAMEMASTERID_OFFSET UNITYSDK_OFFSET(0x19669F20)
+#define RPG_CLIENT_CHIMERADUELGAMEINFO_SYNCLASTGAMECHIMERAIDS_OFFSET UNITYSDK_OFFSET(0x1966A270)
+#define RPG_CLIENT_CHIMERADUELGAMEINFO_SYNCLASTGAMEINFO_OFFSET UNITYSDK_OFFSET(0x1966A5D0)
+#define RPG_CLIENT_CHIMERADUELGAMEINFO_SYNCLASTGAMEMASTERID_OFFSET UNITYSDK_OFFSET(0x1966A220)
+#define RPG_CLIENT_CHIMERADUELGAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19669F50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelGameInfo_TypeDefinitionIndex = 58370;
+	inline static constexpr unsigned int ChimeraDuelGameInfo_TypeDefinitionIndex = 59300;
 
 	class ChimeraDuelGameInfo : public ::System::Object
 	{
@@ -49,9 +49,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMEINFO_GET_LASTGAMEMASTERID_OFFSET))(this);
 		}
 
-		::System::Void set_LastGameMasterID(::System::UInt32 value)
+		::System::Void set_LastGameMasterID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMEINFO_SET_LASTGAMEMASTERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMEINFO_SET_LASTGAMEMASTERID_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* get_LastGameChimeraIDs()
@@ -59,24 +59,24 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMEINFO_GET_LASTGAMECHIMERAIDS_OFFSET))(this);
 		}
 
-		::System::Void set_LastGameChimeraIDs(::System::Collections::Generic::List_1<::System::UInt32>* value)
+		::System::Void set_LastGameChimeraIDs(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMEINFO_SET_LASTGAMECHIMERAIDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMEINFO_SET_LASTGAMECHIMERAIDS_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncLastGameMasterID(::System::UInt32 masterID)
+		::System::Void SyncLastGameMasterID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMEINFO_SYNCLASTGAMEMASTERID_OFFSET))(this, masterID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMEINFO_SYNCLASTGAMEMASTERID_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncLastGameChimeraIDs(::System::Collections::Generic::IEnumerable_1<::System::UInt32>* chimeraIDs)
+		::System::Void SyncLastGameChimeraIDs(::System::Collections::Generic::IEnumerable_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMEINFO_SYNCLASTGAMECHIMERAIDS_OFFSET))(this, chimeraIDs);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMEINFO_SYNCLASTGAMECHIMERAIDS_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncLastGameInfo(::Class_1_2135BD0826D34A80* gameInfo)
+		::System::Void SyncLastGameInfo(::Class_1_2135BD0826D34A80* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_2135BD0826D34A80*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMEINFO_SYNCLASTGAMEINFO_OFFSET))(this, gameInfo);
+			return ((::System::Void(*)(::PVOID, ::Class_1_2135BD0826D34A80*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMEINFO_SYNCLASTGAMEINFO_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()
@@ -84,9 +84,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMEINFO_DISPOSE_OFFSET))(this);
 		}
 
-		::RPG::Client::ChimeraDuelGameData* GetData(::System::UInt32 id)
+		::RPG::Client::ChimeraDuelGameData* GetData(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ChimeraDuelGameData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMEINFO_GETDATA_OFFSET))(this, id);
+			return ((::RPG::Client::ChimeraDuelGameData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMEINFO_GETDATA_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsNextGameCustom()
@@ -99,9 +99,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMEINFO_ISINLONGTAIL_OFFSET))(this);
 		}
 
-		::System::Boolean IsGamePassed(::System::UInt32 gameID)
+		::System::Boolean IsGamePassed(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMEINFO_ISGAMEPASSED_OFFSET))(this, gameID);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMEINFO_ISGAMEPASSED_OFFSET))(this, a1);
 		}
 	};
 }

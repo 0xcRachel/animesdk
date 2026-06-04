@@ -8,26 +8,26 @@ namespace RPG::Client { class MissionChronicleMainPathData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER_CONVERT_OFFSET UNITYSDK_OFFSET(0x152070F0)
-#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER_GETMAINPATHSTATE_OFFSET UNITYSDK_OFFSET(0x15207780)
-#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER_GETSUBITEMSTATE_OFFSET UNITYSDK_OFFSET(0x152077C0)
-#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER_SETMAINPATH_OFFSET UNITYSDK_OFFSET(0x15206CD0)
-#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER__CONVERTMAINPATHSTATE_OFFSET UNITYSDK_OFFSET(0x15207140)
-#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER__CONVERTSUBDISPLAYDATASTATE_OFFSET UNITYSDK_OFFSET(0x15207490)
-#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15206C40)
-#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER__ISEARLYACCESSCANUNLOCK_OFFSET UNITYSDK_OFFSET(0x15207900)
-#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER___CONVERTMAINPATHSTATE_B__5_0_OFFSET UNITYSDK_OFFSET(0x15207B60)
+#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER_CONVERT_OFFSET UNITYSDK_OFFSET(0x17694EF0)
+#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER_GETMAINPATHSTATE_OFFSET UNITYSDK_OFFSET(0x17695540)
+#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER_GETSUBITEMSTATE_OFFSET UNITYSDK_OFFSET(0x17695580)
+#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER_SETMAINPATH_OFFSET UNITYSDK_OFFSET(0x17694A30)
+#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER__CONVERTMAINPATHSTATE_OFFSET UNITYSDK_OFFSET(0x17694F40)
+#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER__CONVERTSUBDISPLAYDATASTATE_OFFSET UNITYSDK_OFFSET(0x17695260)
+#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x176949A0)
+#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER__ISEARLYACCESSCANUNLOCK_OFFSET UNITYSDK_OFFSET(0x17695710)
+#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER___CONVERTMAINPATHSTATE_B__5_0_OFFSET UNITYSDK_OFFSET(0x17695930)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookMissionChronicleStateConverter_TypeDefinitionIndex = 60423;
+	inline static constexpr unsigned int HandbookMissionChronicleStateConverter_TypeDefinitionIndex = 61358;
 
 	class HandbookMissionChronicleStateConverter : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::HandbookMissionChronicleState>* _SubPathStateDict; // 0x10
-		::RPG::Client::MissionChronicleMainPathData* _MainPath; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::HandbookChronicleDisplayData*>* _SortedDisplayDataList; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::HandbookChronicleDisplayData*>* _SortedDisplayDataList; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::HandbookMissionChronicleState>* _SubPathStateDict; // 0x18
+		::RPG::Client::MissionChronicleMainPathData* _MainPath; // 0x20
 		::RPG::Client::HandbookMissionChronicleState _MainPathState; // 0x28
 
 		::System::Void _ctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetMainPath(::RPG::Client::MissionChronicleMainPathData* mainPath)
+		::System::Void SetMainPath(::RPG::Client::MissionChronicleMainPathData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MissionChronicleMainPathData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER_SETMAINPATH_OFFSET))(this, mainPath);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MissionChronicleMainPathData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER_SETMAINPATH_OFFSET))(this, a1);
 		}
 
 		::System::Void Convert()
@@ -50,9 +50,9 @@ namespace RPG::Client
 			return ((::RPG::Client::HandbookMissionChronicleState(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER_GETMAINPATHSTATE_OFFSET))(this);
 		}
 
-		::RPG::Client::HandbookMissionChronicleState GetSubItemState(::System::UInt32 subItemID)
+		::RPG::Client::HandbookMissionChronicleState GetSubItemState(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::HandbookMissionChronicleState(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER_GETSUBITEMSTATE_OFFSET))(this, subItemID);
+			return ((::RPG::Client::HandbookMissionChronicleState(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER_GETSUBITEMSTATE_OFFSET))(this, a1);
 		}
 
 		::System::Void _ConvertMainPathState()
@@ -65,14 +65,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER__CONVERTSUBDISPLAYDATASTATE_OFFSET))(this);
 		}
 
-		::System::Boolean _IsEarlyAccessCanUnlock(::RPG::Client::HandbookChronicleDisplayData* displayData)
+		::System::Boolean _IsEarlyAccessCanUnlock(::RPG::Client::HandbookChronicleDisplayData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::HandbookChronicleDisplayData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER__ISEARLYACCESSCANUNLOCK_OFFSET))(this, displayData);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::HandbookChronicleDisplayData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER__ISEARLYACCESSCANUNLOCK_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __ConvertMainPathState_b__5_0(::RPG::Client::HandbookChronicleDisplayData* displayData)
+		::System::Boolean __ConvertMainPathState_b__5_0(::RPG::Client::HandbookChronicleDisplayData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::HandbookChronicleDisplayData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER___CONVERTMAINPATHSTATE_B__5_0_OFFSET))(this, displayData);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::HandbookChronicleDisplayData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMISSIONCHRONICLESTATECONVERTER___CONVERTMAINPATHSTATE_B__5_0_OFFSET))(this, a1);
 		}
 	};
 }

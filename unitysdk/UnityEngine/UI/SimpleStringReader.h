@@ -4,14 +4,14 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_UI_SIMPLESTRINGREADER_PEEK_OFFSET UNITYSDK_OFFSET(0x15EB2F00)
-#define UNITYENGINE_UI_SIMPLESTRINGREADER_READ_OFFSET UNITYSDK_OFFSET(0x15EB2F60)
-#define UNITYENGINE_UI_SIMPLESTRINGREADER_RESET_OFFSET UNITYSDK_OFFSET(0x15EB2EF0)
-#define UNITYENGINE_UI_SIMPLESTRINGREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x15EB2ED0)
+#define UNITYENGINE_UI_SIMPLESTRINGREADER_PEEK_OFFSET UNITYSDK_OFFSET(0x13636ED0)
+#define UNITYENGINE_UI_SIMPLESTRINGREADER_READ_OFFSET UNITYSDK_OFFSET(0x13636F30)
+#define UNITYENGINE_UI_SIMPLESTRINGREADER_RESET_OFFSET UNITYSDK_OFFSET(0x13636EC0)
+#define UNITYENGINE_UI_SIMPLESTRINGREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x13636EA0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int SimpleStringReader_TypeDefinitionIndex = 5638;
+	inline static constexpr unsigned int SimpleStringReader_TypeDefinitionIndex = 5915;
 
 	class SimpleStringReader : public ::System::IO::TextReader
 	{
@@ -24,9 +24,9 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_SIMPLESTRINGREADER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Reset(::System::String* content)
+		::System::Void Reset(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_SIMPLESTRINGREADER_RESET_OFFSET))(this, content);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_SIMPLESTRINGREADER_RESET_OFFSET))(this, a1);
 		}
 
 		::System::Int32 Peek()

@@ -5,21 +5,21 @@
 
 namespace RPG::Client { class GridFightRole; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPCHANGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x180511F0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCHANGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18914650)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipChangeEvent_TypeDefinitionIndex = 59767;
+	inline static constexpr unsigned int GridFightEquipChangeEvent_TypeDefinitionIndex = 60702;
 
 	class GridFightEquipChangeEvent : public ::System::Object
 	{
 	public:
 		::RPG::Client::GridFightRole* ChangedRole; // 0x10
-		::RPG::Client::GridFightPlacementType PlacementType; // 0x18
-		::System::UInt32 PlacementIndex; // 0x1C
-		::System::UInt32 PosIndex; // 0x20
+		::System::UInt32 EquipID; // 0x18
+		::RPG::Client::GridFightPlacementType PlacementType; // 0x1C
+		::System::UInt32 PlacementIndex; // 0x20
 		::System::Int32 AddEquipIndex; // 0x24
-		::System::UInt32 EquipID; // 0x28
+		::System::UInt32 PosIndex; // 0x28
 		::System::Int32 Rank; // 0x2C
 
 		::System::Void _ctor()

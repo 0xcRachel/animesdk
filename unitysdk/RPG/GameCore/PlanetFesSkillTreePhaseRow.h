@@ -5,28 +5,28 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESSKILLTREEPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B34A90)
-#define RPG_GAMECORE_PLANETFESSKILLTREEPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B34C40)
+#define RPG_GAMECORE_PLANETFESSKILLTREEPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D51460)
+#define RPG_GAMECORE_PLANETFESSKILLTREEPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D51610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesSkillTreePhaseRow_TypeDefinitionIndex = 11536;
+	inline static constexpr unsigned int PlanetFesSkillTreePhaseRow_TypeDefinitionIndex = 11635;
 
 	class PlanetFesSkillTreePhaseRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x10
-		::RPG::Client::TextID Name; // 0x18
-		::System::UInt32 Phase; // 0x28
+		::System::UInt32 Phase; // 0x18
+		::RPG::Client::TextID Name; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESSKILLTREEPHASEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PlanetFesSkillTreePhaseRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlanetFesSkillTreePhaseRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlanetFesSkillTreePhaseRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESSKILLTREEPHASEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlanetFesSkillTreePhaseRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESSKILLTREEPHASEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroInterruptAllProjectiles; }
 
-#define CLASS_3_5A5D1EEF51D47445_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x105ACCE0)
-#define CLASS_3_5A5D1EEF51D47445__CTOR_OFFSET UNITYSDK_OFFSET(0x105ACCB0)
+#define CLASS_3_5A5D1EEF51D47445_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157342D0)
+#define CLASS_3_5A5D1EEF51D47445__CTOR_OFFSET UNITYSDK_OFFSET(0x157342A0)
 
-inline static constexpr unsigned int Class_3_5A5D1EEF51D47445_TypeDefinitionIndex = 54364;
+inline static constexpr unsigned int Class_3_5A5D1EEF51D47445_TypeDefinitionIndex = 55091;
 
 class Class_3_5A5D1EEF51D47445 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::WolfBroInterruptAllProjectiles*>
 {

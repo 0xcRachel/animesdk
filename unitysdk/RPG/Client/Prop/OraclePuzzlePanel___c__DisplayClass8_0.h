@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_ORACLEPUZZLEPANEL___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13A82670)
-#define RPG_CLIENT_PROP_ORACLEPUZZLEPANEL___C__DISPLAYCLASS8_0__STARTFADEINPERFORM_B__0_OFFSET UNITYSDK_OFFSET(0x13A83870)
+#define RPG_CLIENT_PROP_ORACLEPUZZLEPANEL___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15B2D8F0)
+#define RPG_CLIENT_PROP_ORACLEPUZZLEPANEL___C__DISPLAYCLASS8_0__STARTFADEINPERFORM_B__0_OFFSET UNITYSDK_OFFSET(0x15B2EAE0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OraclePuzzlePanel___c__DisplayClass8_0_TypeDefinitionIndex = 72238;
+	inline static constexpr unsigned int OraclePuzzlePanel___c__DisplayClass8_0_TypeDefinitionIndex = 73260;
 
 	class OraclePuzzlePanel___c__DisplayClass8_0 : public ::System::Object
 	{

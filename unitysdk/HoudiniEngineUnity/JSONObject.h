@@ -10,29 +10,29 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Text { class StringBuilder; }
 
-#define HOUDINIENGINEUNITY_JSONOBJECT_ADD_OFFSET UNITYSDK_OFFSET(0x17E00DE0)
-#define HOUDINIENGINEUNITY_JSONOBJECT_CLEAR_OFFSET UNITYSDK_OFFSET(0x17E07040)
-#define HOUDINIENGINEUNITY_JSONOBJECT_CONTAINSKEY_OFFSET UNITYSDK_OFFSET(0x17E070B0)
-#define HOUDINIENGINEUNITY_JSONOBJECT_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17E06FC0)
-#define HOUDINIENGINEUNITY_JSONOBJECT_GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0x17E078C0)
-#define HOUDINIENGINEUNITY_JSONOBJECT_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x17E07610)
-#define HOUDINIENGINEUNITY_JSONOBJECT_GET_INLINE_OFFSET UNITYSDK_OFFSET(0x17E06F80)
-#define HOUDINIENGINEUNITY_JSONOBJECT_GET_ISOBJECT_OFFSET UNITYSDK_OFFSET(0x17E06FB0)
-#define HOUDINIENGINEUNITY_JSONOBJECT_GET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x17E073E0)
-#define HOUDINIENGINEUNITY_JSONOBJECT_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x17E07110)
-#define HOUDINIENGINEUNITY_JSONOBJECT_GET_TAG_OFFSET UNITYSDK_OFFSET(0x17E06FA0)
-#define HOUDINIENGINEUNITY_JSONOBJECT_REMOVE_1_OFFSET UNITYSDK_OFFSET(0x17E07700)
-#define HOUDINIENGINEUNITY_JSONOBJECT_REMOVE_2_OFFSET UNITYSDK_OFFSET(0x17E07790)
-#define HOUDINIENGINEUNITY_JSONOBJECT_REMOVE_OFFSET UNITYSDK_OFFSET(0x17E07630)
-#define HOUDINIENGINEUNITY_JSONOBJECT_SET_INLINE_OFFSET UNITYSDK_OFFSET(0x17E06F90)
-#define HOUDINIENGINEUNITY_JSONOBJECT_SET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x17E07450)
-#define HOUDINIENGINEUNITY_JSONOBJECT_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x17E071D0)
-#define HOUDINIENGINEUNITY_JSONOBJECT_WRITETOSTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x17E07940)
-#define HOUDINIENGINEUNITY_JSONOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x17E00D60)
+#define HOUDINIENGINEUNITY_JSONOBJECT_ADD_OFFSET UNITYSDK_OFFSET(0x1B450980)
+#define HOUDINIENGINEUNITY_JSONOBJECT_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B4503F0)
+#define HOUDINIENGINEUNITY_JSONOBJECT_CONTAINSKEY_OFFSET UNITYSDK_OFFSET(0x1B450450)
+#define HOUDINIENGINEUNITY_JSONOBJECT_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B450380)
+#define HOUDINIENGINEUNITY_JSONOBJECT_GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0x1B450E80)
+#define HOUDINIENGINEUNITY_JSONOBJECT_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1B450960)
+#define HOUDINIENGINEUNITY_JSONOBJECT_GET_INLINE_OFFSET UNITYSDK_OFFSET(0x1B450340)
+#define HOUDINIENGINEUNITY_JSONOBJECT_GET_ISOBJECT_OFFSET UNITYSDK_OFFSET(0x1B450370)
+#define HOUDINIENGINEUNITY_JSONOBJECT_GET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x1B450790)
+#define HOUDINIENGINEUNITY_JSONOBJECT_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1B4504B0)
+#define HOUDINIENGINEUNITY_JSONOBJECT_GET_TAG_OFFSET UNITYSDK_OFFSET(0x1B450360)
+#define HOUDINIENGINEUNITY_JSONOBJECT_REMOVE_1_OFFSET UNITYSDK_OFFSET(0x1B450CA0)
+#define HOUDINIENGINEUNITY_JSONOBJECT_REMOVE_2_OFFSET UNITYSDK_OFFSET(0x1B450D30)
+#define HOUDINIENGINEUNITY_JSONOBJECT_REMOVE_OFFSET UNITYSDK_OFFSET(0x1B450B60)
+#define HOUDINIENGINEUNITY_JSONOBJECT_SET_INLINE_OFFSET UNITYSDK_OFFSET(0x1B450350)
+#define HOUDINIENGINEUNITY_JSONOBJECT_SET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x1B450800)
+#define HOUDINIENGINEUNITY_JSONOBJECT_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1B4505E0)
+#define HOUDINIENGINEUNITY_JSONOBJECT_WRITETOSTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x1B450F00)
+#define HOUDINIENGINEUNITY_JSONOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B451860)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int JSONObject_TypeDefinitionIndex = 43727;
+	inline static constexpr unsigned int JSONObject_TypeDefinitionIndex = 37714;
 
 	class JSONObject : public ::HoudiniEngineUnity::JSONNode
 	{
@@ -50,9 +50,9 @@ namespace HoudiniEngineUnity
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_GET_INLINE_OFFSET))(this);
 		}
 
-		::System::Void set_Inline(::System::Boolean value)
+		::System::Void set_Inline(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_SET_INLINE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_SET_INLINE_OFFSET))(this, a1);
 		}
 
 		::HoudiniEngineUnity::JSONNodeType get_Tag()
@@ -75,29 +75,29 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_CLEAR_OFFSET))(this);
 		}
 
-		::System::Boolean ContainsKey(::System::String* key)
+		::System::Boolean ContainsKey(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_CONTAINSKEY_OFFSET))(this, key);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_CONTAINSKEY_OFFSET))(this, a1);
 		}
 
-		::HoudiniEngineUnity::JSONNode* get_Item(::System::String* aKey)
+		::HoudiniEngineUnity::JSONNode* get_Item(::System::String* a1)
 		{
-			return ((::HoudiniEngineUnity::JSONNode*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_GET_ITEM_OFFSET))(this, aKey);
+			return ((::HoudiniEngineUnity::JSONNode*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_GET_ITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Item(::System::String* aKey, ::HoudiniEngineUnity::JSONNode* value)
+		::System::Void set_Item(::System::String* a1, ::HoudiniEngineUnity::JSONNode* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::HoudiniEngineUnity::JSONNode*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_SET_ITEM_OFFSET))(this, aKey, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::HoudiniEngineUnity::JSONNode*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_SET_ITEM_OFFSET))(this, a1, a2);
 		}
 
-		::HoudiniEngineUnity::JSONNode* get_Item_1(::System::Int32 aIndex)
+		::HoudiniEngineUnity::JSONNode* get_Item_1(::System::Int32 a1)
 		{
-			return ((::HoudiniEngineUnity::JSONNode*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_GET_ITEM_1_OFFSET))(this, aIndex);
+			return ((::HoudiniEngineUnity::JSONNode*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_GET_ITEM_1_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Item_1(::System::Int32 aIndex, ::HoudiniEngineUnity::JSONNode* value)
+		::System::Void set_Item_1(::System::Int32 a1, ::HoudiniEngineUnity::JSONNode* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::HoudiniEngineUnity::JSONNode*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_SET_ITEM_1_OFFSET))(this, aIndex, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::HoudiniEngineUnity::JSONNode*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_SET_ITEM_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_Count()
@@ -105,24 +105,24 @@ namespace HoudiniEngineUnity
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_GET_COUNT_OFFSET))(this);
 		}
 
-		::System::Void Add(::System::String* aKey, ::HoudiniEngineUnity::JSONNode* aItem)
+		::System::Void Add(::System::String* a1, ::HoudiniEngineUnity::JSONNode* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::HoudiniEngineUnity::JSONNode*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_ADD_OFFSET))(this, aKey, aItem);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::HoudiniEngineUnity::JSONNode*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_ADD_OFFSET))(this, a1, a2);
 		}
 
-		::HoudiniEngineUnity::JSONNode* Remove(::System::String* aKey)
+		::HoudiniEngineUnity::JSONNode* Remove(::System::String* a1)
 		{
-			return ((::HoudiniEngineUnity::JSONNode*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_REMOVE_OFFSET))(this, aKey);
+			return ((::HoudiniEngineUnity::JSONNode*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_REMOVE_OFFSET))(this, a1);
 		}
 
-		::HoudiniEngineUnity::JSONNode* Remove_1(::System::Int32 aIndex)
+		::HoudiniEngineUnity::JSONNode* Remove_1(::System::Int32 a1)
 		{
-			return ((::HoudiniEngineUnity::JSONNode*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_REMOVE_1_OFFSET))(this, aIndex);
+			return ((::HoudiniEngineUnity::JSONNode*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_REMOVE_1_OFFSET))(this, a1);
 		}
 
-		::HoudiniEngineUnity::JSONNode* Remove_2(::HoudiniEngineUnity::JSONNode* aNode)
+		::HoudiniEngineUnity::JSONNode* Remove_2(::HoudiniEngineUnity::JSONNode* a1)
 		{
-			return ((::HoudiniEngineUnity::JSONNode*(*)(::PVOID, ::HoudiniEngineUnity::JSONNode*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_REMOVE_2_OFFSET))(this, aNode);
+			return ((::HoudiniEngineUnity::JSONNode*(*)(::PVOID, ::HoudiniEngineUnity::JSONNode*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_REMOVE_2_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>* get_Children()
@@ -130,9 +130,9 @@ namespace HoudiniEngineUnity
 			return ((::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_GET_CHILDREN_OFFSET))(this);
 		}
 
-		::System::Void WriteToStringBuilder(::System::Text::StringBuilder* aSB, ::System::Int32 aIndent, ::System::Int32 aIndentInc, ::HoudiniEngineUnity::JSONTextMode aMode)
+		::System::Void WriteToStringBuilder(::System::Text::StringBuilder* a1, ::System::Int32 a2, ::System::Int32 a3, ::HoudiniEngineUnity::JSONTextMode a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::JSONTextMode))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_WRITETOSTRINGBUILDER_OFFSET))(this, aSB, aIndent, aIndentInc, aMode);
+			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::JSONTextMode))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONOBJECT_WRITETOSTRINGBUILDER_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

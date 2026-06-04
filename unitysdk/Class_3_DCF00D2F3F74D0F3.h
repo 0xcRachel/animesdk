@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ClearEntityDamageText; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DCF00D2F3F74D0F3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF0A4E60)
-#define CLASS_3_DCF00D2F3F74D0F3__CTOR_OFFSET UNITYSDK_OFFSET(0xF0A4E30)
+#define CLASS_3_DCF00D2F3F74D0F3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14F14470)
+#define CLASS_3_DCF00D2F3F74D0F3__CTOR_OFFSET UNITYSDK_OFFSET(0x14F14440)
 
-inline static constexpr unsigned int Class_3_DCF00D2F3F74D0F3_TypeDefinitionIndex = 50692;
+inline static constexpr unsigned int Class_3_DCF00D2F3F74D0F3_TypeDefinitionIndex = 51360;
 
 class Class_3_DCF00D2F3F74D0F3 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ClearEntityDamageText*>
 {

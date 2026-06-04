@@ -1,44 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/SkillType.h"
 
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x192018C0)
-#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19201870)
-#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_GET_SKILLINDEX_OFFSET UNITYSDK_OFFSET(0x19201970)
-#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_GET_SKILLNAME_OFFSET UNITYSDK_OFFSET(0x19201930)
-#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_GET_SKILLTYPE_OFFSET UNITYSDK_OFFSET(0x19201950)
-#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_GET_TARGETID_OFFSET UNITYSDK_OFFSET(0x19201910)
-#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_INIT_OFFSET UNITYSDK_OFFSET(0x192017F0)
-#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_SET_SKILLINDEX_OFFSET UNITYSDK_OFFSET(0x19201980)
-#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_SET_SKILLNAME_OFFSET UNITYSDK_OFFSET(0x19201940)
-#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_SET_SKILLTYPE_OFFSET UNITYSDK_OFFSET(0x19201960)
-#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_SET_TARGETID_OFFSET UNITYSDK_OFFSET(0x19201920)
-#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x19201990)
+#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x18733C50)
+#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18733C00)
+#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_GET_SKILLINDEX_OFFSET UNITYSDK_OFFSET(0x18733D00)
+#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_GET_SKILLNAME_OFFSET UNITYSDK_OFFSET(0x18733CC0)
+#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_GET_SKILLTYPE_OFFSET UNITYSDK_OFFSET(0x18733CE0)
+#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_GET_TARGETID_OFFSET UNITYSDK_OFFSET(0x18733CA0)
+#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_INIT_OFFSET UNITYSDK_OFFSET(0x18733B80)
+#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_SET_SKILLINDEX_OFFSET UNITYSDK_OFFSET(0x18733D10)
+#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_SET_SKILLNAME_OFFSET UNITYSDK_OFFSET(0x18733CD0)
+#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_SET_SKILLTYPE_OFFSET UNITYSDK_OFFSET(0x18733CF0)
+#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_SET_TARGETID_OFFSET UNITYSDK_OFFSET(0x18733CB0)
+#define RPG_GAMECORE_LEVELENTITYRECORDUSESKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x18733D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntityRecordUseSkill_TypeDefinitionIndex = 52295;
+	inline static constexpr unsigned int LevelEntityRecordUseSkill_TypeDefinitionIndex = 52992;
 
-	class LevelEntityRecordUseSkill : public ::Class_1_9988289E7F8AA214
+	class LevelEntityRecordUseSkill : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::System::String* _SkillName_k__BackingField; // 0x18
-		::System::UInt32 _TargetID_k__BackingField; // 0x20
-		::RPG::GameCore::SkillType _SkillType_k__BackingField; // 0x24
-		::System::Int32 _SkillIndex_k__BackingField; // 0x28
+		::System::Int32 _SkillIndex_k__BackingField; // 0x20
+		::System::UInt32 _TargetID_k__BackingField; // 0x24
+		::RPG::GameCore::SkillType _SkillType_k__BackingField; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYRECORDUSESKILL__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelEntityRecordUseSkill* Init(::System::UInt32 nTargetId, ::System::String* sSkillName, ::System::Int32 nSkillIndex, ::RPG::GameCore::SkillType pSkillType)
+		::RPG::GameCore::LevelEntityRecordUseSkill* Init(::System::UInt32 a1, ::System::String* a2, ::System::Int32 a3, ::RPG::GameCore::SkillType a4)
 		{
-			return ((::RPG::GameCore::LevelEntityRecordUseSkill*(*)(::PVOID, ::System::UInt32, ::System::String*, ::System::Int32, ::RPG::GameCore::SkillType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_INIT_OFFSET))(this, nTargetId, sSkillName, nSkillIndex, pSkillType);
+			return ((::RPG::GameCore::LevelEntityRecordUseSkill*(*)(::PVOID, ::System::UInt32, ::System::String*, ::System::Int32, ::RPG::GameCore::SkillType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_INIT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()
@@ -56,9 +56,9 @@ namespace RPG::GameCore
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_GET_TARGETID_OFFSET))(this);
 		}
 
-		::System::Void set_TargetID(::System::UInt32 value)
+		::System::Void set_TargetID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_SET_TARGETID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_SET_TARGETID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_SkillName()
@@ -66,9 +66,9 @@ namespace RPG::GameCore
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_GET_SKILLNAME_OFFSET))(this);
 		}
 
-		::System::Void set_SkillName(::System::String* value)
+		::System::Void set_SkillName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_SET_SKILLNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_SET_SKILLNAME_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::SkillType get_SkillType()
@@ -76,9 +76,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::SkillType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_GET_SKILLTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_SkillType(::RPG::GameCore::SkillType value)
+		::System::Void set_SkillType(::RPG::GameCore::SkillType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_SET_SKILLTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_SET_SKILLTYPE_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_SkillIndex()
@@ -86,9 +86,9 @@ namespace RPG::GameCore
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_GET_SKILLINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_SkillIndex(::System::Int32 value)
+		::System::Void set_SkillIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_SET_SKILLINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYRECORDUSESKILL_SET_SKILLINDEX_OFFSET))(this, a1);
 		}
 	};
 }

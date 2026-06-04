@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RtSkillReturnToken; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_48441C931899C8E7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD1E9120)
-#define CLASS_3_48441C931899C8E7__CTOR_OFFSET UNITYSDK_OFFSET(0xD1E90F0)
+#define CLASS_3_48441C931899C8E7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x142B4410)
+#define CLASS_3_48441C931899C8E7__CTOR_OFFSET UNITYSDK_OFFSET(0x142B43E0)
 
-inline static constexpr unsigned int Class_3_48441C931899C8E7_TypeDefinitionIndex = 49716;
+inline static constexpr unsigned int Class_3_48441C931899C8E7_TypeDefinitionIndex = 50383;
 
 class Class_3_48441C931899C8E7 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RtSkillReturnToken*>
 {

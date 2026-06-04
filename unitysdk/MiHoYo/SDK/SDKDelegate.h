@@ -42,170 +42,170 @@ namespace MiHoYo::SDK { class SDKDelegate_WebEventDelegate; }
 namespace MiHoYo::SDK { class SDKDelegate_WebViewAnimationEnable; }
 namespace MiHoYo::SDK { class SDKDelegate_WebViewJoypadCloseEnable; }
 
-#define MIHOYO_SDK_SDKDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x157D4B80)
+#define MIHOYO_SDK_SDKDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16A48F80)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_TypeDefinitionIndex = 6815;
+	inline static constexpr unsigned int SDKDelegate_TypeDefinitionIndex = 7718;
 
 	class SDKDelegate : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::SDKDelegate_DeviceFPRefreshDelegate** StaticGet_OnDeviceFPRefresh()
+		static ::MiHoYo::SDK::SDKDelegate_GeNetworkAdapterDescriptionDelegate** StaticGet_GeNetworkAdapterDescription()
 		{
-			return (::MiHoYo::SDK::SDKDelegate_DeviceFPRefreshDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x7F90);
+			return (::MiHoYo::SDK::SDKDelegate_GeNetworkAdapterDescriptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xA9E0);
 		}
 		static ::MiHoYo::SDK::SDKDelegate_ResourcePathDelegate** StaticGet_OnGetResourcePath()
 		{
-			return (::MiHoYo::SDK::SDKDelegate_ResourcePathDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x7F98);
+			return (::MiHoYo::SDK::SDKDelegate_ResourcePathDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xA9E8);
 		}
 		static ::MiHoYo::SDK::SDKDelegate_OnGameRoleUpdateDelegate** StaticGet_OnGameRoleUpdate()
 		{
-			return (::MiHoYo::SDK::SDKDelegate_OnGameRoleUpdateDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x7FA0);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_OnGyroscopeDelegate** StaticGet_OnGyroscope()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_OnGyroscopeDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x7FA8);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_GetNetworkAdapterListDelegate** StaticGet_GetNetworkAdapterList()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_GetNetworkAdapterListDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x7FB0);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_GeNetworkAdapterDescriptionDelegate** StaticGet_GeNetworkAdapterDescription()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_GeNetworkAdapterDescriptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x7FB8);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_WebViewJoypadCloseEnable** StaticGet_OnWebViewJoypadCloseEnable()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_WebViewJoypadCloseEnable**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x7FC0);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_CheckHttpDnsPlusEnableDelegate** StaticGet_CheckHttpDnsPlusEnable()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_CheckHttpDnsPlusEnableDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x7FC8);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_LoadAssetDelegate** StaticGet_LoadAsset()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_LoadAssetDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x7FD0);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_GetDeviceFPDelegate** StaticGet_OnGetDeviceFP()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_GetDeviceFPDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x7FD8);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_HttpRequestByHttpDnsPlusDelegate** StaticGet_HttpRequestByHttpDnsPlus()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_HttpRequestByHttpDnsPlusDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x7FE0);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_GetDiskFreeSpaceDelegate** StaticGet_GetDiskFreeSpace()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_GetDiskFreeSpaceDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x7FE8);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_UseRuntimeFontDelegate** StaticGet_UseRuntimeFontHandler()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_UseRuntimeFontDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x7FF0);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_WebViewAnimationEnable** StaticGet_OnWebViewAnimationEnable()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_WebViewAnimationEnable**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x7FF8);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_IsEditorDelegate** StaticGet_IsEditor()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_IsEditorDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x8000);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_DownloadDelegate** StaticGet_MiHoYoSDKDownloadNotification()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_DownloadDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x8008);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_GetDriveTotalSpaceDelegate** StaticGet_GetDriveTotalSpace()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_GetDriveTotalSpaceDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x8010);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_OnGyroEventDelegate** StaticGet_OnGyroEvent()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_OnGyroEventDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x8018);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_SecuritySetLoginResultDelegate** StaticGet_SecuritySetLoginResult()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_SecuritySetLoginResultDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x8020);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_GetRamRemainDelegate** StaticGet_GetRamRemain()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_GetRamRemainDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x8028);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_HttpRequestBytHttpDnsDelegate** StaticGet_HttpRequestBytHttpDns()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_HttpRequestBytHttpDnsDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x8030);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_GetDeviceDelegate** StaticGet_OnGetDevice()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_GetDeviceDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x8038);
+			return (::MiHoYo::SDK::SDKDelegate_OnGameRoleUpdateDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xA9F0);
 		}
 		static ::MiHoYo::SDK::SDKDelegate_GetMacAddressDelegate** StaticGet_GetMacAddress()
 		{
-			return (::MiHoYo::SDK::SDKDelegate_GetMacAddressDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x8040);
+			return (::MiHoYo::SDK::SDKDelegate_GetMacAddressDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xA9F8);
 		}
-		static ::MiHoYo::SDK::SDKDelegate_GetDiskTypeDelegate** StaticGet_GetDiskType()
+		static ::MiHoYo::SDK::SDKDelegate_GetDeviceDelegate** StaticGet_OnGetDevice()
 		{
-			return (::MiHoYo::SDK::SDKDelegate_GetDiskTypeDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x8048);
+			return (::MiHoYo::SDK::SDKDelegate_GetDeviceDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAA00);
 		}
-		static ::MiHoYo::SDK::SDKDelegate_SetAPMAgeGateDelegate** StaticGet_SetAPMAgeGate()
+		static ::MiHoYo::SDK::SDKDelegate_GetDiskFreeSpaceDelegate** StaticGet_GetDiskFreeSpace()
 		{
-			return (::MiHoYo::SDK::SDKDelegate_SetAPMAgeGateDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x8050);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_LoadFileDelegate** StaticGet_LoadFile()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_LoadFileDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x8058);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_UnLoadAssetDelegate** StaticGet_UnLoadAsset()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_UnLoadAssetDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x8060);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_ShowTextDelegate** StaticGet_MiHoYoSDKShowTextNotification()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_ShowTextDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x8068);
-		}
-		static ::MiHoYo::SDK::SDKDelegate_IsInStackTopDelegate** StaticGet_IsInStackTop()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_IsInStackTopDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x8070);
+			return (::MiHoYo::SDK::SDKDelegate_GetDiskFreeSpaceDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAA08);
 		}
 		static ::MiHoYo::SDK::SDKDelegate_GetDriveTotalFreeSpaceDelegate** StaticGet_GetDriveTotalFreeSpace()
 		{
-			return (::MiHoYo::SDK::SDKDelegate_GetDriveTotalFreeSpaceDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x8078);
+			return (::MiHoYo::SDK::SDKDelegate_GetDriveTotalFreeSpaceDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAA10);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_WebViewAnimationEnable** StaticGet_OnWebViewAnimationEnable()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_WebViewAnimationEnable**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAA18);
 		}
 		static ::MiHoYo::SDK::SDKDelegate_OnHideNativeUIDelegate** StaticGet_OnHideNativeUI()
 		{
-			return (::MiHoYo::SDK::SDKDelegate_OnHideNativeUIDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x8080);
+			return (::MiHoYo::SDK::SDKDelegate_OnHideNativeUIDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAA20);
 		}
-		static ::MiHoYo::SDK::SDKDelegate_OnGameControlReceiveDelegate** StaticGet_OnGameControlReceive()
+		static ::MiHoYo::SDK::SDKDelegate_GetDriveTotalSpaceDelegate** StaticGet_GetDriveTotalSpace()
 		{
-			return (::MiHoYo::SDK::SDKDelegate_OnGameControlReceiveDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x8088);
+			return (::MiHoYo::SDK::SDKDelegate_GetDriveTotalSpaceDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAA28);
 		}
-		static ::MiHoYo::SDK::SDKDelegate_LogDelegate** StaticGet_MiHoYoSDKLogNotification()
+		static ::MiHoYo::SDK::SDKDelegate_GetDeviceFPDelegate** StaticGet_OnGetDeviceFP()
 		{
-			return (::MiHoYo::SDK::SDKDelegate_LogDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x8090);
+			return (::MiHoYo::SDK::SDKDelegate_GetDeviceFPDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAA30);
 		}
-		static ::MiHoYo::SDK::SDKDelegate_InputFieldDelegate** StaticGet_MiHoYoSDKAddInputField()
+		static ::MiHoYo::SDK::SDKDelegate_DeviceFPRefreshDelegate** StaticGet_OnDeviceFPRefresh()
 		{
-			return (::MiHoYo::SDK::SDKDelegate_InputFieldDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x8098);
+			return (::MiHoYo::SDK::SDKDelegate_DeviceFPRefreshDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAA38);
 		}
-		static ::MiHoYo::SDK::SDKDelegate_GetNetworkTypeDelegate** StaticGet_GetNetworkType()
+		static ::MiHoYo::SDK::SDKDelegate_IsInStackTopDelegate** StaticGet_IsInStackTop()
 		{
-			return (::MiHoYo::SDK::SDKDelegate_GetNetworkTypeDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x80A0);
+			return (::MiHoYo::SDK::SDKDelegate_IsInStackTopDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAA40);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_HttpRequestBytHttpDnsDelegate** StaticGet_HttpRequestBytHttpDns()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_HttpRequestBytHttpDnsDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAA48);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_WebViewJoypadCloseEnable** StaticGet_OnWebViewJoypadCloseEnable()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_WebViewJoypadCloseEnable**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAA50);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_GetNetworkAdapterListDelegate** StaticGet_GetNetworkAdapterList()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_GetNetworkAdapterListDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAA58);
 		}
 		static ::MiHoYo::SDK::SDKDelegate_NotificationDelegate** StaticGet_MiHoYoSDKNotification()
 		{
-			return (::MiHoYo::SDK::SDKDelegate_NotificationDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x80A8);
+			return (::MiHoYo::SDK::SDKDelegate_NotificationDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAA60);
 		}
-		static ::MiHoYo::SDK::SDKDelegate_AsbPathDelegate** StaticGet_OnGetAsbPath()
+		static ::MiHoYo::SDK::SDKDelegate_CheckHttpDnsPlusEnableDelegate** StaticGet_CheckHttpDnsPlusEnable()
 		{
-			return (::MiHoYo::SDK::SDKDelegate_AsbPathDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x80B0);
+			return (::MiHoYo::SDK::SDKDelegate_CheckHttpDnsPlusEnableDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAA68);
 		}
-		static ::MiHoYo::SDK::SDKDelegate_OnShowNativeUIDelegate** StaticGet_OnShowNativeUI()
+		static ::MiHoYo::SDK::SDKDelegate_OnGyroEventDelegate** StaticGet_OnGyroEvent()
 		{
-			return (::MiHoYo::SDK::SDKDelegate_OnShowNativeUIDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x80B8);
+			return (::MiHoYo::SDK::SDKDelegate_OnGyroEventDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAA70);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_InputFieldDelegate** StaticGet_MiHoYoSDKAddInputField()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_InputFieldDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAA78);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_IsEditorDelegate** StaticGet_IsEditor()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_IsEditorDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAA80);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_LogDelegate** StaticGet_MiHoYoSDKLogNotification()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_LogDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAA88);
 		}
 		static ::MiHoYo::SDK::SDKDelegate_WebEventDelegate** StaticGet_OnGetWebEvent()
 		{
-			return (::MiHoYo::SDK::SDKDelegate_WebEventDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0x80C0);
+			return (::MiHoYo::SDK::SDKDelegate_WebEventDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAA90);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_LoadFileDelegate** StaticGet_LoadFile()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_LoadFileDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAA98);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_OnShowNativeUIDelegate** StaticGet_OnShowNativeUI()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_OnShowNativeUIDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAAA0);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_UseRuntimeFontDelegate** StaticGet_UseRuntimeFontHandler()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_UseRuntimeFontDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAAA8);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_DownloadDelegate** StaticGet_MiHoYoSDKDownloadNotification()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_DownloadDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAAB0);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_UnLoadAssetDelegate** StaticGet_UnLoadAsset()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_UnLoadAssetDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAAB8);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_SecuritySetLoginResultDelegate** StaticGet_SecuritySetLoginResult()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_SecuritySetLoginResultDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAAC0);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_OnGameControlReceiveDelegate** StaticGet_OnGameControlReceive()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_OnGameControlReceiveDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAAC8);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_GetNetworkTypeDelegate** StaticGet_GetNetworkType()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_GetNetworkTypeDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAAD0);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_AsbPathDelegate** StaticGet_OnGetAsbPath()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_AsbPathDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAAD8);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_OnGyroscopeDelegate** StaticGet_OnGyroscope()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_OnGyroscopeDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAAE0);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_HttpRequestByHttpDnsPlusDelegate** StaticGet_HttpRequestByHttpDnsPlus()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_HttpRequestByHttpDnsPlusDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAAE8);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_SetAPMAgeGateDelegate** StaticGet_SetAPMAgeGate()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_SetAPMAgeGateDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAAF0);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_GetRamRemainDelegate** StaticGet_GetRamRemain()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_GetRamRemainDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAAF8);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_GetDiskTypeDelegate** StaticGet_GetDiskType()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_GetDiskTypeDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAB00);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_LoadAssetDelegate** StaticGet_LoadAsset()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_LoadAssetDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAB08);
+		}
+		static ::MiHoYo::SDK::SDKDelegate_ShowTextDelegate** StaticGet_MiHoYoSDKShowTextNotification()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_ShowTextDelegate**)Il2CppClass::FromTypeDefinitionIndex(SDKDelegate_TypeDefinitionIndex)->GetStaticField(0xAB10);
 		}
 
 		::System::Void _ctor()

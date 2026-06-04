@@ -9,22 +9,22 @@ namespace UnityEngine::UIElements { class FocusChangeDirection; }
 namespace UnityEngine::UIElements { class Focusable; }
 namespace UnityEngine::UIElements { class IFocusRing; }
 
-#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_ABOUTTOGRABFOCUS_OFFSET UNITYSDK_OFFSET(0x1921F390)
-#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_ABOUTTORELEASEFOCUS_OFFSET UNITYSDK_OFFSET(0x1921EFA0)
-#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_DOFOCUSCHANGE_OFFSET UNITYSDK_OFFSET(0x19218250)
-#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_GETLEAFFOCUSEDELEMENT_OFFSET UNITYSDK_OFFSET(0x19218A00)
-#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_GET_FOCUSRING_OFFSET UNITYSDK_OFFSET(0x1921EF70)
-#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_GET_IMGUIKEYBOARDCONTROL_OFFSET UNITYSDK_OFFSET(0x1921FCA0)
-#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_GRABFOCUS_OFFSET UNITYSDK_OFFSET(0x1921F520)
-#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_RELEASEFOCUS_OFFSET UNITYSDK_OFFSET(0x1921F200)
-#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_SET_IMGUIKEYBOARDCONTROL_OFFSET UNITYSDK_OFFSET(0x1921FCB0)
-#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_SWITCHFOCUSONEVENT_OFFSET UNITYSDK_OFFSET(0x1921FA00)
-#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_SWITCHFOCUS_OFFSET UNITYSDK_OFFSET(0x1921F6B0)
-#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_SYNCIMGUIFOCUS_OFFSET UNITYSDK_OFFSET(0x1921FCC0)
+#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_ABOUTTOGRABFOCUS_OFFSET UNITYSDK_OFFSET(0x19F86F80)
+#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_ABOUTTORELEASEFOCUS_OFFSET UNITYSDK_OFFSET(0x19F86B90)
+#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_DOFOCUSCHANGE_OFFSET UNITYSDK_OFFSET(0x19F7F740)
+#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_GETLEAFFOCUSEDELEMENT_OFFSET UNITYSDK_OFFSET(0x19F80140)
+#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_GET_FOCUSRING_OFFSET UNITYSDK_OFFSET(0x19F86B60)
+#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_GET_IMGUIKEYBOARDCONTROL_OFFSET UNITYSDK_OFFSET(0x19F87930)
+#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_GRABFOCUS_OFFSET UNITYSDK_OFFSET(0x19F87110)
+#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_RELEASEFOCUS_OFFSET UNITYSDK_OFFSET(0x19F86DF0)
+#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_SET_IMGUIKEYBOARDCONTROL_OFFSET UNITYSDK_OFFSET(0x19F87940)
+#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_SWITCHFOCUSONEVENT_OFFSET UNITYSDK_OFFSET(0x19F87650)
+#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_SWITCHFOCUS_OFFSET UNITYSDK_OFFSET(0x19F872A0)
+#define UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_SYNCIMGUIFOCUS_OFFSET UNITYSDK_OFFSET(0x19F87950)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int FocusController_TypeDefinitionIndex = 5855;
+	inline static constexpr unsigned int FocusController_TypeDefinitionIndex = 6132;
 
 	class FocusController : public ::System::Object
 	{
@@ -43,39 +43,39 @@ namespace UnityEngine::UIElements
 			return ((::UnityEngine::UIElements::Focusable*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_GETLEAFFOCUSEDELEMENT_OFFSET))(this);
 		}
 
-		::System::Void DoFocusChange(::UnityEngine::UIElements::Focusable* f)
+		::System::Void DoFocusChange(::UnityEngine::UIElements::Focusable* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::Focusable*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_DOFOCUSCHANGE_OFFSET))(this, f);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::Focusable*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_DOFOCUSCHANGE_OFFSET))(this, a1);
 		}
 
-		::System::Void AboutToReleaseFocus(::UnityEngine::UIElements::Focusable* focusable, ::UnityEngine::UIElements::Focusable* willGiveFocusTo, ::UnityEngine::UIElements::FocusChangeDirection* direction)
+		::System::Void AboutToReleaseFocus(::UnityEngine::UIElements::Focusable* a1, ::UnityEngine::UIElements::Focusable* a2, ::UnityEngine::UIElements::FocusChangeDirection* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::FocusChangeDirection*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_ABOUTTORELEASEFOCUS_OFFSET))(this, focusable, willGiveFocusTo, direction);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::FocusChangeDirection*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_ABOUTTORELEASEFOCUS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ReleaseFocus(::UnityEngine::UIElements::Focusable* focusable, ::UnityEngine::UIElements::Focusable* willGiveFocusTo, ::UnityEngine::UIElements::FocusChangeDirection* direction)
+		::System::Void ReleaseFocus(::UnityEngine::UIElements::Focusable* a1, ::UnityEngine::UIElements::Focusable* a2, ::UnityEngine::UIElements::FocusChangeDirection* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::FocusChangeDirection*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_RELEASEFOCUS_OFFSET))(this, focusable, willGiveFocusTo, direction);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::FocusChangeDirection*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_RELEASEFOCUS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void AboutToGrabFocus(::UnityEngine::UIElements::Focusable* focusable, ::UnityEngine::UIElements::Focusable* willTakeFocusFrom, ::UnityEngine::UIElements::FocusChangeDirection* direction)
+		::System::Void AboutToGrabFocus(::UnityEngine::UIElements::Focusable* a1, ::UnityEngine::UIElements::Focusable* a2, ::UnityEngine::UIElements::FocusChangeDirection* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::FocusChangeDirection*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_ABOUTTOGRABFOCUS_OFFSET))(this, focusable, willTakeFocusFrom, direction);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::FocusChangeDirection*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_ABOUTTOGRABFOCUS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void GrabFocus(::UnityEngine::UIElements::Focusable* focusable, ::UnityEngine::UIElements::Focusable* willTakeFocusFrom, ::UnityEngine::UIElements::FocusChangeDirection* direction)
+		::System::Void GrabFocus(::UnityEngine::UIElements::Focusable* a1, ::UnityEngine::UIElements::Focusable* a2, ::UnityEngine::UIElements::FocusChangeDirection* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::FocusChangeDirection*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_GRABFOCUS_OFFSET))(this, focusable, willTakeFocusFrom, direction);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::FocusChangeDirection*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_GRABFOCUS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SwitchFocus(::UnityEngine::UIElements::Focusable* newFocusedElement, ::UnityEngine::UIElements::FocusChangeDirection* direction)
+		::System::Void SwitchFocus(::UnityEngine::UIElements::Focusable* a1, ::UnityEngine::UIElements::FocusChangeDirection* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::FocusChangeDirection*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_SWITCHFOCUS_OFFSET))(this, newFocusedElement, direction);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::FocusChangeDirection*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_SWITCHFOCUS_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::UIElements::Focusable* SwitchFocusOnEvent(::UnityEngine::UIElements::EventBase* e)
+		::UnityEngine::UIElements::Focusable* SwitchFocusOnEvent(::UnityEngine::UIElements::EventBase* a1)
 		{
-			return ((::UnityEngine::UIElements::Focusable*(*)(::PVOID, ::UnityEngine::UIElements::EventBase*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_SWITCHFOCUSONEVENT_OFFSET))(this, e);
+			return ((::UnityEngine::UIElements::Focusable*(*)(::PVOID, ::UnityEngine::UIElements::EventBase*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_SWITCHFOCUSONEVENT_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_imguiKeyboardControl()
@@ -83,14 +83,14 @@ namespace UnityEngine::UIElements
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_GET_IMGUIKEYBOARDCONTROL_OFFSET))(this);
 		}
 
-		::System::Void set_imguiKeyboardControl(::System::Int32 value)
+		::System::Void set_imguiKeyboardControl(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_SET_IMGUIKEYBOARDCONTROL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_SET_IMGUIKEYBOARDCONTROL_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncIMGUIFocus(::System::Int32 imguiKeyboardControlID, ::UnityEngine::UIElements::Focusable* imguiContainerHavingKeyboardControl, ::System::Boolean forceSwitch)
+		::System::Void SyncIMGUIFocus(::System::Int32 a1, ::UnityEngine::UIElements::Focusable* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::UIElements::Focusable*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_SYNCIMGUIFOCUS_OFFSET))(this, imguiKeyboardControlID, imguiContainerHavingKeyboardControl, forceSwitch);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::UIElements::Focusable*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_FOCUSCONTROLLER_SYNCIMGUIFOCUS_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -6,15 +6,15 @@
 
 namespace RPGTools::Timeline { class StoryPropScaleClip; }
 
-#define RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x16B3EFC0)
-#define RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x16B3EFE0)
-#define RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x16B3EFD0)
-#define RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x16B3F140)
-#define RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x16B3F150)
+#define RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x19B66F70)
+#define RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19B66F90)
+#define RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x19B66F80)
+#define RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19B670F0)
+#define RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19B67100)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryPropScaleBehaviour_TypeDefinitionIndex = 45089;
+	inline static constexpr unsigned int StoryPropScaleBehaviour_TypeDefinitionIndex = 45637;
 
 	class StoryPropScaleBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -31,9 +31,9 @@ namespace RPGTools::Timeline
 			return ((::RPGTools::Timeline::StoryPropScaleClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR_GET_CLIP_OFFSET))(this);
 		}
 
-		::System::Void set_Clip(::RPGTools::Timeline::StoryPropScaleClip* value)
+		::System::Void set_Clip(::RPGTools::Timeline::StoryPropScaleClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::StoryPropScaleClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR_SET_CLIP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::StoryPropScaleClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR_SET_CLIP_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -41,9 +41,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPSCALEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

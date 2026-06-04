@@ -18,37 +18,37 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace XLua { class LuaTable; }
 
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_CLEARNAVI_OFFSET UNITYSDK_OFFSET(0x14FA17E0)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_GETSHOWNITEMBYITEMINDEX_OFFSET UNITYSDK_OFFSET(0x14FA33E0)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_GETSHOWNITEMBYROWANDCOL_OFFSET UNITYSDK_OFFSET(0x14FA1100)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_GETSHOWNITEMBYTYPEANDINDEX_OFFSET UNITYSDK_OFFSET(0x14FA3330)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_INITGRIDVIEW_OFFSET UNITYSDK_OFFSET(0x14F9EF20)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_MOVEPANELTOITEMBYINDEX_OFFSET UNITYSDK_OFFSET(0x14FA29F0)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_MOVEPANELTOITEMBYROWCOLUMN_OFFSET UNITYSDK_OFFSET(0x14FA2C30)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_MOVEPANELTOITEMBYTYPEANDINDEX_OFFSET UNITYSDK_OFFSET(0x14FA3680)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_NEWLISTVIEWITEM_OFFSET UNITYSDK_OFFSET(0x14FA24C0)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_ONANIMATORBUTTONSELECTED_OFFSET UNITYSDK_OFFSET(0x14FA1AA0)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x14FA3720)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_PLAYFADEIN_OFFSET UNITYSDK_OFFSET(0x14FA2A80)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_REFRESHALLSHOWNITEM_OFFSET UNITYSDK_OFFSET(0x14FA2CB0)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_ROWITEMRECYCLE_OFFSET UNITYSDK_OFFSET(0x14FA2D00)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_SAFEINITGRIDVIEW_OFFSET UNITYSDK_OFFSET(0x14F9EEA0)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_SETGRIDITEMS_OFFSET UNITYSDK_OFFSET(0x14F9FBF0)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_UPDATE_OFFSET UNITYSDK_OFFSET(0x14F9F760)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__BUILDNAVIHORI_OFFSET UNITYSDK_OFFSET(0x14FA0A70)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__CLEARSTALEFOCUSCACHE_OFFSET UNITYSDK_OFFSET(0x14FA2910)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__CREATEROWPREFAB_OFFSET UNITYSDK_OFFSET(0x14F9F380)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x14FA3790)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__INITCONTENTSIZE_OFFSET UNITYSDK_OFFSET(0x14F9F600)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__ONGETITEMBYROWINDEX_OFFSET UNITYSDK_OFFSET(0x14F9FE70)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__ONITEMRECYCLE_OFFSET UNITYSDK_OFFSET(0x14FA2EE0)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__PROCESSITEMPIVOT_OFFSET UNITYSDK_OFFSET(0x14FA22C0)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__TRYGETDOWNNAVI_OFFSET UNITYSDK_OFFSET(0x14FA15A0)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__TRYGETUPNAVI_OFFSET UNITYSDK_OFFSET(0x14FA1360)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_CLEARNAVI_OFFSET UNITYSDK_OFFSET(0x13EDABD0)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_GETSHOWNITEMBYITEMINDEX_OFFSET UNITYSDK_OFFSET(0x13EDCAA0)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_GETSHOWNITEMBYROWANDCOL_OFFSET UNITYSDK_OFFSET(0x13EDA590)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_GETSHOWNITEMBYTYPEANDINDEX_OFFSET UNITYSDK_OFFSET(0x13EDC9C0)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_INITGRIDVIEW_OFFSET UNITYSDK_OFFSET(0x13ED8080)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_MOVEPANELTOITEMBYINDEX_OFFSET UNITYSDK_OFFSET(0x13EDC000)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_MOVEPANELTOITEMBYROWCOLUMN_OFFSET UNITYSDK_OFFSET(0x13EDC270)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_MOVEPANELTOITEMBYTYPEANDINDEX_OFFSET UNITYSDK_OFFSET(0x13EDCD20)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_NEWLISTVIEWITEM_OFFSET UNITYSDK_OFFSET(0x13EDBA90)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_ONANIMATORBUTTONSELECTED_OFFSET UNITYSDK_OFFSET(0x13EDB060)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x13EDCDE0)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_PLAYFADEIN_OFFSET UNITYSDK_OFFSET(0x13EDC090)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_REFRESHALLSHOWNITEM_OFFSET UNITYSDK_OFFSET(0x13EDC2F0)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_ROWITEMRECYCLE_OFFSET UNITYSDK_OFFSET(0x13EDC340)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_SAFEINITGRIDVIEW_OFFSET UNITYSDK_OFFSET(0x13ED8000)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_SETGRIDITEMS_OFFSET UNITYSDK_OFFSET(0x13ED8F10)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_UPDATE_OFFSET UNITYSDK_OFFSET(0x13ED8A40)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__BUILDNAVIHORI_OFFSET UNITYSDK_OFFSET(0x13ED9E70)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__CLEARSTALEFOCUSCACHE_OFFSET UNITYSDK_OFFSET(0x13EDBF20)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__CREATEROWPREFAB_OFFSET UNITYSDK_OFFSET(0x13ED8670)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x13EDCE50)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__INITCONTENTSIZE_OFFSET UNITYSDK_OFFSET(0x13ED8900)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__ONGETITEMBYROWINDEX_OFFSET UNITYSDK_OFFSET(0x13ED9270)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__ONITEMRECYCLE_OFFSET UNITYSDK_OFFSET(0x13EDC520)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__PROCESSITEMPIVOT_OFFSET UNITYSDK_OFFSET(0x13EDB8A0)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__TRYGETDOWNNAVI_OFFSET UNITYSDK_OFFSET(0x13EDA9B0)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__TRYGETUPNAVI_OFFSET UNITYSDK_OFFSET(0x13EDA790)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int LoopFlexibleGridView_TypeDefinitionIndex = 44388;
+	inline static constexpr unsigned int LoopFlexibleGridView_TypeDefinitionIndex = 44934;
 
 	class LoopFlexibleGridView : public ::UnityEngine::MonoBehaviour
 	{
@@ -86,14 +86,14 @@ namespace SuperScrollView
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SafeInitGridView(::System::Func_4<::XLua::LuaTable*, ::SuperScrollView::LoopFlexibleGridView*, ::System::Int32, ::SuperScrollView::LoopFlexibleGridViewItem*>* onGetItemByIndex, ::XLua::LuaTable* luaObj)
+		::System::Void SafeInitGridView(::System::Func_4<::XLua::LuaTable*, ::SuperScrollView::LoopFlexibleGridView*, ::System::Int32, ::SuperScrollView::LoopFlexibleGridViewItem*>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Func_4<::XLua::LuaTable*, ::SuperScrollView::LoopFlexibleGridView*, ::System::Int32, ::SuperScrollView::LoopFlexibleGridViewItem*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_SAFEINITGRIDVIEW_OFFSET))(this, onGetItemByIndex, luaObj);
+			return ((::System::Void(*)(::PVOID, ::System::Func_4<::XLua::LuaTable*, ::SuperScrollView::LoopFlexibleGridView*, ::System::Int32, ::SuperScrollView::LoopFlexibleGridViewItem*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_SAFEINITGRIDVIEW_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void InitGridView(::System::Func_4<::XLua::LuaTable*, ::SuperScrollView::LoopFlexibleGridView*, ::System::Int32, ::SuperScrollView::LoopFlexibleGridViewItem*>* onGetItemByIndex, ::XLua::LuaTable* luaObj)
+		::System::Void InitGridView(::System::Func_4<::XLua::LuaTable*, ::SuperScrollView::LoopFlexibleGridView*, ::System::Int32, ::SuperScrollView::LoopFlexibleGridViewItem*>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Func_4<::XLua::LuaTable*, ::SuperScrollView::LoopFlexibleGridView*, ::System::Int32, ::SuperScrollView::LoopFlexibleGridViewItem*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_INITGRIDVIEW_OFFSET))(this, onGetItemByIndex, luaObj);
+			return ((::System::Void(*)(::PVOID, ::System::Func_4<::XLua::LuaTable*, ::SuperScrollView::LoopFlexibleGridView*, ::System::Int32, ::SuperScrollView::LoopFlexibleGridViewItem*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_INITGRIDVIEW_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _InitContentSize()
@@ -106,54 +106,54 @@ namespace SuperScrollView
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void SetGridItems(::System::Collections::Generic::List_1<::System::Int32>* typeList, ::System::Boolean resetPos)
+		::System::Void SetGridItems(::System::Collections::Generic::List_1<::System::Int32>* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_SETGRIDITEMS_OFFSET))(this, typeList, resetPos);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_SETGRIDITEMS_OFFSET))(this, a1, a2);
 		}
 
-		::SuperScrollView::LoopListViewItem2* _OnGetItemByRowIndex(::XLua::LuaTable* luaTable, ::SuperScrollView::LoopListView2* listView, ::System::Int32 rowIndex)
+		::SuperScrollView::LoopListViewItem2* _OnGetItemByRowIndex(::XLua::LuaTable* a1, ::SuperScrollView::LoopListView2* a2, ::System::Int32 a3)
 		{
-			return ((::SuperScrollView::LoopListViewItem2*(*)(::PVOID, ::XLua::LuaTable*, ::SuperScrollView::LoopListView2*, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__ONGETITEMBYROWINDEX_OFFSET))(this, luaTable, listView, rowIndex);
+			return ((::SuperScrollView::LoopListViewItem2*(*)(::PVOID, ::XLua::LuaTable*, ::SuperScrollView::LoopListView2*, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__ONGETITEMBYROWINDEX_OFFSET))(this, a1, a2, a3);
 		}
 
-		::SuperScrollView::LoopFlexibleGridViewItem* GetShownItemByRowAndCol(::System::Int32 row, ::System::Int32 col)
+		::SuperScrollView::LoopFlexibleGridViewItem* GetShownItemByRowAndCol(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::SuperScrollView::LoopFlexibleGridViewItem*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_GETSHOWNITEMBYROWANDCOL_OFFSET))(this, row, col);
+			return ((::SuperScrollView::LoopFlexibleGridViewItem*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_GETSHOWNITEMBYROWANDCOL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean _TryGetUpNavi(::SuperScrollView::LoopFlexibleGridViewItem* item, ::SuperScrollView::LoopFlexibleGridViewItem*& upItem)
+		::System::Boolean _TryGetUpNavi(::SuperScrollView::LoopFlexibleGridViewItem* a1, ::SuperScrollView::LoopFlexibleGridViewItem*& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::SuperScrollView::LoopFlexibleGridViewItem*, ::SuperScrollView::LoopFlexibleGridViewItem*&))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__TRYGETUPNAVI_OFFSET))(this, item, upItem);
+			return ((::System::Boolean(*)(::PVOID, ::SuperScrollView::LoopFlexibleGridViewItem*, ::SuperScrollView::LoopFlexibleGridViewItem*&))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__TRYGETUPNAVI_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean _TryGetDownNavi(::SuperScrollView::LoopFlexibleGridViewItem* item, ::SuperScrollView::LoopFlexibleGridViewItem*& downItem)
+		::System::Boolean _TryGetDownNavi(::SuperScrollView::LoopFlexibleGridViewItem* a1, ::SuperScrollView::LoopFlexibleGridViewItem*& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::SuperScrollView::LoopFlexibleGridViewItem*, ::SuperScrollView::LoopFlexibleGridViewItem*&))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__TRYGETDOWNNAVI_OFFSET))(this, item, downItem);
+			return ((::System::Boolean(*)(::PVOID, ::SuperScrollView::LoopFlexibleGridViewItem*, ::SuperScrollView::LoopFlexibleGridViewItem*&))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__TRYGETDOWNNAVI_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _BuildNaviHori(::SuperScrollView::LoopFlexibleGridViewItem* item)
+		::System::Void _BuildNaviHori(::SuperScrollView::LoopFlexibleGridViewItem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopFlexibleGridViewItem*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__BUILDNAVIHORI_OFFSET))(this, item);
+			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopFlexibleGridViewItem*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__BUILDNAVIHORI_OFFSET))(this, a1);
 		}
 
-		::System::Void ClearNavi(::SuperScrollView::LoopFlexibleGridViewItem* item)
+		::System::Void ClearNavi(::SuperScrollView::LoopFlexibleGridViewItem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopFlexibleGridViewItem*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_CLEARNAVI_OFFSET))(this, item);
+			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopFlexibleGridViewItem*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_CLEARNAVI_OFFSET))(this, a1);
 		}
 
-		::System::Void OnAnimatorButtonSelected(::RPG::Client::AnimatorButton* button)
+		::System::Void OnAnimatorButtonSelected(::RPG::Client::AnimatorButton* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::AnimatorButton*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_ONANIMATORBUTTONSELECTED_OFFSET))(this, button);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::AnimatorButton*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_ONANIMATORBUTTONSELECTED_OFFSET))(this, a1);
 		}
 
-		::System::Void _ProcessItemPivot(::SuperScrollView::LoopFlexibleGridViewItem* item, ::System::Int32 prefabIndex)
+		::System::Void _ProcessItemPivot(::SuperScrollView::LoopFlexibleGridViewItem* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopFlexibleGridViewItem*, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__PROCESSITEMPIVOT_OFFSET))(this, item, prefabIndex);
+			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopFlexibleGridViewItem*, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__PROCESSITEMPIVOT_OFFSET))(this, a1, a2);
 		}
 
-		::SuperScrollView::LoopFlexibleGridViewItem* NewListViewItem(::System::Int32 itemPrefabIndex)
+		::SuperScrollView::LoopFlexibleGridViewItem* NewListViewItem(::System::Int32 a1)
 		{
-			return ((::SuperScrollView::LoopFlexibleGridViewItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_NEWLISTVIEWITEM_OFFSET))(this, itemPrefabIndex);
+			return ((::SuperScrollView::LoopFlexibleGridViewItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_NEWLISTVIEWITEM_OFFSET))(this, a1);
 		}
 
 		::System::Void _ClearStaleFocusCache()
@@ -161,9 +161,9 @@ namespace SuperScrollView
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__CLEARSTALEFOCUSCACHE_OFFSET))(this);
 		}
 
-		::System::Void MovePanelToItemByIndex(::System::Int32 itemIndex)
+		::System::Void MovePanelToItemByIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_MOVEPANELTOITEMBYINDEX_OFFSET))(this, itemIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_MOVEPANELTOITEMBYINDEX_OFFSET))(this, a1);
 		}
 
 		::System::Void PlayFadeIn()
@@ -171,9 +171,9 @@ namespace SuperScrollView
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_PLAYFADEIN_OFFSET))(this);
 		}
 
-		::System::Void MovePanelToItemByRowColumn(::System::Int32 row, ::System::Int32 column)
+		::System::Void MovePanelToItemByRowColumn(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_MOVEPANELTOITEMBYROWCOLUMN_OFFSET))(this, row, column);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_MOVEPANELTOITEMBYROWCOLUMN_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void RefreshAllShownItem()
@@ -181,29 +181,29 @@ namespace SuperScrollView
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_REFRESHALLSHOWNITEM_OFFSET))(this);
 		}
 
-		::System::Void RowItemRecycle(::SuperScrollView::LoopListViewItem2* rowItem)
+		::System::Void RowItemRecycle(::SuperScrollView::LoopListViewItem2* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopListViewItem2*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_ROWITEMRECYCLE_OFFSET))(this, rowItem);
+			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopListViewItem2*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_ROWITEMRECYCLE_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnItemRecycle(::SuperScrollView::LoopFlexibleGridViewItem* item)
+		::System::Void _OnItemRecycle(::SuperScrollView::LoopFlexibleGridViewItem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopFlexibleGridViewItem*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__ONITEMRECYCLE_OFFSET))(this, item);
+			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopFlexibleGridViewItem*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW__ONITEMRECYCLE_OFFSET))(this, a1);
 		}
 
-		::SuperScrollView::LoopFlexibleGridViewItem* GetShownItemByTypeAndIndex(::System::Int32 typeIndex, ::System::Int32 index)
+		::SuperScrollView::LoopFlexibleGridViewItem* GetShownItemByTypeAndIndex(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::SuperScrollView::LoopFlexibleGridViewItem*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_GETSHOWNITEMBYTYPEANDINDEX_OFFSET))(this, typeIndex, index);
+			return ((::SuperScrollView::LoopFlexibleGridViewItem*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_GETSHOWNITEMBYTYPEANDINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::SuperScrollView::LoopFlexibleGridViewItem* GetShownItemByItemIndex(::System::Int32 index)
+		::SuperScrollView::LoopFlexibleGridViewItem* GetShownItemByItemIndex(::System::Int32 a1)
 		{
-			return ((::SuperScrollView::LoopFlexibleGridViewItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_GETSHOWNITEMBYITEMINDEX_OFFSET))(this, index);
+			return ((::SuperScrollView::LoopFlexibleGridViewItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_GETSHOWNITEMBYITEMINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Void MovePanelToItemByTypeAndIndex(::System::Int32 itemType, ::System::Int32 indexInType)
+		::System::Void MovePanelToItemByTypeAndIndex(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_MOVEPANELTOITEMBYTYPEANDINDEX_OFFSET))(this, itemType, indexInType);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_MOVEPANELTOITEMBYTYPEANDINDEX_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::GameObject* _CreateRowPrefab()

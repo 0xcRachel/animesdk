@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D40936EF3BF54118_25;
+class Class_1_D40936EF3BF54118_27;
 namespace RPG::Client { class FateReijuSelectSlotData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FATEREIJUSELECTACTION_CREATETEMPACTIONFORTEST_OFFSET UNITYSDK_OFFSET(0x17921600)
-#define RPG_CLIENT_FATEREIJUSELECTACTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17920F00)
-#define RPG_CLIENT_FATEREIJUSELECTACTION_GET_ACTIONID_OFFSET UNITYSDK_OFFSET(0x17921A00)
-#define RPG_CLIENT_FATEREIJUSELECTACTION_GET_CURRENTSELECTTIME_OFFSET UNITYSDK_OFFSET(0x17921A20)
-#define RPG_CLIENT_FATEREIJUSELECTACTION_GET_SELECTREIJUDATA_OFFSET UNITYSDK_OFFSET(0x17921A40)
-#define RPG_CLIENT_FATEREIJUSELECTACTION_REIJUSELECTCONFIRM_OFFSET UNITYSDK_OFFSET(0x17921480)
-#define RPG_CLIENT_FATEREIJUSELECTACTION_REIJUSELECTREROLL_OFFSET UNITYSDK_OFFSET(0x17921540)
-#define RPG_CLIENT_FATEREIJUSELECTACTION_SET_ACTIONID_OFFSET UNITYSDK_OFFSET(0x17921A10)
-#define RPG_CLIENT_FATEREIJUSELECTACTION_SET_CURRENTSELECTTIME_OFFSET UNITYSDK_OFFSET(0x17921A30)
-#define RPG_CLIENT_FATEREIJUSELECTACTION_SET_SELECTREIJUDATA_OFFSET UNITYSDK_OFFSET(0x17921A50)
-#define RPG_CLIENT_FATEREIJUSELECTACTION__CONSTRUCT_OFFSET UNITYSDK_OFFSET(0x179210F0)
-#define RPG_CLIENT_FATEREIJUSELECTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17920F70)
+#define RPG_CLIENT_FATEREIJUSELECTACTION_CREATETEMPACTIONFORTEST_OFFSET UNITYSDK_OFFSET(0x18AC3F10)
+#define RPG_CLIENT_FATEREIJUSELECTACTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18AC35C0)
+#define RPG_CLIENT_FATEREIJUSELECTACTION_GET_ACTIONID_OFFSET UNITYSDK_OFFSET(0x18AC4420)
+#define RPG_CLIENT_FATEREIJUSELECTACTION_GET_CURRENTSELECTTIME_OFFSET UNITYSDK_OFFSET(0x18AC4440)
+#define RPG_CLIENT_FATEREIJUSELECTACTION_GET_SELECTREIJUDATA_OFFSET UNITYSDK_OFFSET(0x18AC4460)
+#define RPG_CLIENT_FATEREIJUSELECTACTION_REIJUSELECTCONFIRM_OFFSET UNITYSDK_OFFSET(0x18AC3D90)
+#define RPG_CLIENT_FATEREIJUSELECTACTION_REIJUSELECTREROLL_OFFSET UNITYSDK_OFFSET(0x18AC3E50)
+#define RPG_CLIENT_FATEREIJUSELECTACTION_SET_ACTIONID_OFFSET UNITYSDK_OFFSET(0x18AC4430)
+#define RPG_CLIENT_FATEREIJUSELECTACTION_SET_CURRENTSELECTTIME_OFFSET UNITYSDK_OFFSET(0x18AC4450)
+#define RPG_CLIENT_FATEREIJUSELECTACTION_SET_SELECTREIJUDATA_OFFSET UNITYSDK_OFFSET(0x18AC4470)
+#define RPG_CLIENT_FATEREIJUSELECTACTION__CONSTRUCT_OFFSET UNITYSDK_OFFSET(0x18AC39B0)
+#define RPG_CLIENT_FATEREIJUSELECTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC3830)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateReijuSelectAction_TypeDefinitionIndex = 58986;
+	inline static constexpr unsigned int FateReijuSelectAction_TypeDefinitionIndex = 59916;
 
 	class FateReijuSelectAction : public ::System::Object
 	{
@@ -30,9 +30,9 @@ namespace RPG::Client
 		::System::UInt32 _CurrentSelectTime_k__BackingField; // 0x18
 		::System::UInt32 _ActionID_k__BackingField; // 0x1C
 
-		::System::Void _ctor(::System::UInt32 actionID, ::Class_1_D40936EF3BF54118_25* proto, ::System::UInt32 currentSelectTime)
+		::System::Void _ctor(::System::UInt32 a1, ::Class_1_D40936EF3BF54118_27* a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_D40936EF3BF54118_25*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEREIJUSELECTACTION__CTOR_OFFSET))(this, actionID, proto, currentSelectTime);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_D40936EF3BF54118_27*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEREIJUSELECTACTION__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Dispose()
@@ -40,14 +40,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEREIJUSELECTACTION_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void ReijuSelectConfirm(::System::UInt32 reijuId)
+		::System::Void ReijuSelectConfirm(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEREIJUSELECTACTION_REIJUSELECTCONFIRM_OFFSET))(this, reijuId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEREIJUSELECTACTION_REIJUSELECTCONFIRM_OFFSET))(this, a1);
 		}
 
-		::System::Void ReijuSelectReroll(::System::UInt32 reijuId)
+		::System::Void ReijuSelectReroll(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEREIJUSELECTACTION_REIJUSELECTREROLL_OFFSET))(this, reijuId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEREIJUSELECTACTION_REIJUSELECTREROLL_OFFSET))(this, a1);
 		}
 
 		static ::RPG::Client::FateReijuSelectAction* CreateTempActionForTest()
@@ -55,9 +55,9 @@ namespace RPG::Client
 			return ((::RPG::Client::FateReijuSelectAction*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEREIJUSELECTACTION_CREATETEMPACTIONFORTEST_OFFSET))();
 		}
 
-		::System::Void _Construct(::Class_1_D40936EF3BF54118_25* proto)
+		::System::Void _Construct(::Class_1_D40936EF3BF54118_27* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D40936EF3BF54118_25*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEREIJUSELECTACTION__CONSTRUCT_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D40936EF3BF54118_27*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEREIJUSELECTACTION__CONSTRUCT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ActionID()
@@ -65,9 +65,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEREIJUSELECTACTION_GET_ACTIONID_OFFSET))(this);
 		}
 
-		::System::Void set_ActionID(::System::UInt32 value)
+		::System::Void set_ActionID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEREIJUSELECTACTION_SET_ACTIONID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEREIJUSELECTACTION_SET_ACTIONID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_CurrentSelectTime()
@@ -75,9 +75,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEREIJUSELECTACTION_GET_CURRENTSELECTTIME_OFFSET))(this);
 		}
 
-		::System::Void set_CurrentSelectTime(::System::UInt32 value)
+		::System::Void set_CurrentSelectTime(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEREIJUSELECTACTION_SET_CURRENTSELECTTIME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEREIJUSELECTACTION_SET_CURRENTSELECTTIME_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::FateReijuSelectSlotData*>* get_SelectReijuData()
@@ -85,9 +85,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::FateReijuSelectSlotData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEREIJUSELECTACTION_GET_SELECTREIJUDATA_OFFSET))(this);
 		}
 
-		::System::Void set_SelectReijuData(::System::Collections::Generic::List_1<::RPG::Client::FateReijuSelectSlotData*>* value)
+		::System::Void set_SelectReijuData(::System::Collections::Generic::List_1<::RPG::Client::FateReijuSelectSlotData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::FateReijuSelectSlotData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEREIJUSELECTACTION_SET_SELECTREIJUDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::FateReijuSelectSlotData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEREIJUSELECTACTION_SET_SELECTREIJUDATA_OFFSET))(this, a1);
 		}
 	};
 }

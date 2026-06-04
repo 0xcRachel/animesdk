@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AIMONSTERIDSELECTOR_METHOD_3_C6EC776F7EB711CE_OFFSET UNITYSDK_OFFSET(0x188542B0)
-#define RPG_GAMECORE_AIMONSTERIDSELECTOR_METHOD_3_FAEC61F59F5AC87D_OFFSET UNITYSDK_OFFSET(0x188542F0)
-#define RPG_GAMECORE_AIMONSTERIDSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x188542E0)
+#define RPG_GAMECORE_AIMONSTERIDSELECTOR_METHOD_3_9A2921A8FEE9CC7F_OFFSET UNITYSDK_OFFSET(0x19880450)
+#define RPG_GAMECORE_AIMONSTERIDSELECTOR_METHOD_3_D8F18BACA0E8F988_OFFSET UNITYSDK_OFFSET(0x19880410)
+#define RPG_GAMECORE_AIMONSTERIDSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19880440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIMonsterIDSelector_TypeDefinitionIndex = 14768;
+	inline static constexpr unsigned int AIMonsterIDSelector_TypeDefinitionIndex = 14832;
 
 	class AIMonsterIDSelector : public ::RPG::GameCore::AISelector
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIMONSTERIDSELECTOR__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C6EC776F7EB711CE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AIMonsterIDSelector*& a2)
+		static ::System::Void Method_3_D8F18BACA0E8F988(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AIMonsterIDSelector*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AIMonsterIDSelector*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIMONSTERIDSELECTOR_METHOD_3_C6EC776F7EB711CE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AIMonsterIDSelector*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIMONSTERIDSELECTOR_METHOD_3_D8F18BACA0E8F988_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FAEC61F59F5AC87D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AIMonsterIDSelector* a2)
+		static ::System::Void Method_3_9A2921A8FEE9CC7F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AIMonsterIDSelector* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AIMonsterIDSelector*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIMONSTERIDSELECTOR_METHOD_3_FAEC61F59F5AC87D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AIMonsterIDSelector*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIMONSTERIDSELECTOR_METHOD_3_9A2921A8FEE9CC7F_OFFSET))(a1, a2);
 		}
 	};
 }

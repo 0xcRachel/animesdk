@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_SHOWBATTLEUIINTIMELINE_METHOD_3_6F36E9C1E8336BCA_OFFSET UNITYSDK_OFFSET(0x193A3B40)
-#define RPG_GAMECORE_SHOWBATTLEUIINTIMELINE_METHOD_3_9CE461F452198E8B_OFFSET UNITYSDK_OFFSET(0x193A3AC0)
-#define RPG_GAMECORE_SHOWBATTLEUIINTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x193A3B10)
+#define RPG_GAMECORE_SHOWBATTLEUIINTIMELINE_METHOD_3_11C2845EC18AA9F9_OFFSET UNITYSDK_OFFSET(0x19FFD520)
+#define RPG_GAMECORE_SHOWBATTLEUIINTIMELINE_METHOD_3_E87C21688CCBF7B8_OFFSET UNITYSDK_OFFSET(0x19FFD5A0)
+#define RPG_GAMECORE_SHOWBATTLEUIINTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x19FFD570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowBattleUIInTimeline_TypeDefinitionIndex = 21840;
+	inline static constexpr unsigned int ShowBattleUIInTimeline_TypeDefinitionIndex = 21675;
 
 	class ShowBattleUIInTimeline : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEUIINTIMELINE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9CE461F452198E8B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleUIInTimeline*& a2)
+		static ::System::Void Method_3_11C2845EC18AA9F9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleUIInTimeline*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleUIInTimeline*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEUIINTIMELINE_METHOD_3_9CE461F452198E8B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleUIInTimeline*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEUIINTIMELINE_METHOD_3_11C2845EC18AA9F9_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6F36E9C1E8336BCA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleUIInTimeline* a2)
+		static ::System::Void Method_3_E87C21688CCBF7B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleUIInTimeline* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleUIInTimeline*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEUIINTIMELINE_METHOD_3_6F36E9C1E8336BCA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleUIInTimeline*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEUIINTIMELINE_METHOD_3_E87C21688CCBF7B8_OFFSET))(a1, a2);
 		}
 	};
 }

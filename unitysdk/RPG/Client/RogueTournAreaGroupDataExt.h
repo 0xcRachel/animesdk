@@ -4,30 +4,30 @@
 
 namespace RPG::Client { class RogueTournAreaGroupData; }
 
-#define RPG_CLIENT_ROGUETOURNAREAGROUPDATAEXT_ISGUIDE_OFFSET UNITYSDK_OFFSET(0x16EF57E0)
-#define RPG_CLIENT_ROGUETOURNAREAGROUPDATAEXT_ISREGULAR_OFFSET UNITYSDK_OFFSET(0x16EF5DD0)
-#define RPG_CLIENT_ROGUETOURNAREAGROUPDATAEXT_ISWEEKCHALLENGE_OFFSET UNITYSDK_OFFSET(0x16EF62A0)
+#define RPG_CLIENT_ROGUETOURNAREAGROUPDATAEXT_ISGUIDE_OFFSET UNITYSDK_OFFSET(0x17DDA660)
+#define RPG_CLIENT_ROGUETOURNAREAGROUPDATAEXT_ISREGULAR_OFFSET UNITYSDK_OFFSET(0x17DDADA0)
+#define RPG_CLIENT_ROGUETOURNAREAGROUPDATAEXT_ISWEEKCHALLENGE_OFFSET UNITYSDK_OFFSET(0x17DDB350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournAreaGroupDataExt_TypeDefinitionIndex = 62201;
+	inline static constexpr unsigned int RogueTournAreaGroupDataExt_TypeDefinitionIndex = 63134;
 
 	class RogueTournAreaGroupDataExt : public ::System::Object
 	{
 	public:
-		static ::System::Boolean IsGuide(::RPG::Client::RogueTournAreaGroupData* data)
+		static ::System::Boolean IsGuide(::RPG::Client::RogueTournAreaGroupData* a1)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::RogueTournAreaGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREAGROUPDATAEXT_ISGUIDE_OFFSET))(data);
+			return ((::System::Boolean(*)(::RPG::Client::RogueTournAreaGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREAGROUPDATAEXT_ISGUIDE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsRegular(::RPG::Client::RogueTournAreaGroupData* data)
+		static ::System::Boolean IsRegular(::RPG::Client::RogueTournAreaGroupData* a1)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::RogueTournAreaGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREAGROUPDATAEXT_ISREGULAR_OFFSET))(data);
+			return ((::System::Boolean(*)(::RPG::Client::RogueTournAreaGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREAGROUPDATAEXT_ISREGULAR_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsWeekChallenge(::RPG::Client::RogueTournAreaGroupData* data)
+		static ::System::Boolean IsWeekChallenge(::RPG::Client::RogueTournAreaGroupData* a1)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::RogueTournAreaGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREAGROUPDATAEXT_ISWEEKCHALLENGE_OFFSET))(data);
+			return ((::System::Boolean(*)(::RPG::Client::RogueTournAreaGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREAGROUPDATAEXT_ISWEEKCHALLENGE_OFFSET))(a1);
 		}
 	};
 }

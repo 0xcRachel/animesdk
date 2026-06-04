@@ -5,18 +5,18 @@
 namespace Entitas { class ContextInfo; }
 namespace Entitas { class IContext; }
 
-#define ENTITAS_CONTEXTINFOEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6394C0)
+#define ENTITAS_CONTEXTINFOEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B45B6F0)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int ContextInfoException_TypeDefinitionIndex = 9814;
+	inline static constexpr unsigned int ContextInfoException_TypeDefinitionIndex = 9641;
 
 	class ContextInfoException : public ::Entitas::EntitasException
 	{
 	public:
-		::System::Void _ctor(::Entitas::IContext* context, ::Entitas::ContextInfo* contextInfo)
+		::System::Void _ctor(::Entitas::IContext* a1, ::Entitas::ContextInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*, ::Entitas::ContextInfo*))((::PBYTE)hIl2Cpp + ENTITAS_CONTEXTINFOEXCEPTION__CTOR_OFFSET))(this, context, contextInfo);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*, ::Entitas::ContextInfo*))((::PBYTE)hIl2Cpp + ENTITAS_CONTEXTINFOEXCEPTION__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

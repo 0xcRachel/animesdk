@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ST_ByHasPatrolPath; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_210E168F4218576C_EVALUATE_OFFSET UNITYSDK_OFFSET(0xD7B6C90)
-#define CLASS_3_210E168F4218576C__CTOR_OFFSET UNITYSDK_OFFSET(0xD7B6C60)
+#define CLASS_3_210E168F4218576C_EVALUATE_OFFSET UNITYSDK_OFFSET(0x142419A0)
+#define CLASS_3_210E168F4218576C__CTOR_OFFSET UNITYSDK_OFFSET(0x14241970)
 
-inline static constexpr unsigned int Class_3_210E168F4218576C_TypeDefinitionIndex = 48185;
+inline static constexpr unsigned int Class_3_210E168F4218576C_TypeDefinitionIndex = 48809;
 
 class Class_3_210E168F4218576C : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ST_ByHasPatrolPath*>
 {

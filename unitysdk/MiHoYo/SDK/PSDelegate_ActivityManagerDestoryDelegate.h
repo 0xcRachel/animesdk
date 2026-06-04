@@ -6,21 +6,21 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16518F50)
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16518F80)
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x164F63A0)
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16518F30)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1742D5F0)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1742D620)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x17411500)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1742D580)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_ActivityManagerDestoryDelegate_TypeDefinitionIndex = 6798;
+	inline static constexpr unsigned int PSDelegate_ActivityManagerDestoryDelegate_TypeDefinitionIndex = 7701;
 
 	class PSDelegate_ActivityManagerDestoryDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -28,14 +28,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE_INVOKE_OFFSET))(this);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE_BEGININVOKE_OFFSET))(this, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

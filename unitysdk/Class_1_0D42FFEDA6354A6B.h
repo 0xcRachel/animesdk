@@ -5,18 +5,18 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_0D42FFEDA6354A6B__CTOR_OFFSET UNITYSDK_OFFSET(0x15378160)
+#define CLASS_1_0D42FFEDA6354A6B__CTOR_OFFSET UNITYSDK_OFFSET(0x1832F940)
 
-inline static constexpr unsigned int Class_1_0D42FFEDA6354A6B_TypeDefinitionIndex = 39044;
+inline static constexpr unsigned int Class_1_0D42FFEDA6354A6B_TypeDefinitionIndex = 39812;
 
 class Class_1_0D42FFEDA6354A6B : public ::System::Object
 {
 public:
-	static ::System::Int32* StaticGet_Field_1_1()
+	static ::System::Int32* StaticGet_Field_1_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_0D42FFEDA6354A6B_TypeDefinitionIndex)->GetStaticField(0x11360);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_0D42FFEDA6354A6B_TypeDefinitionIndex)->GetStaticField(0xF090);
 	}
-	::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::FourRotateVoxel::InputSignalType>* Field_1_0; // 0x10
+	::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::FourRotateVoxel::InputSignalType>* Field_1_1; // 0x10
 
 	::System::Void _ctor()
 	{

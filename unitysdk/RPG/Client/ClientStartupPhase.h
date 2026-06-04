@@ -11,36 +11,36 @@ namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Coroutine; }
 
-#define RPG_CLIENT_CLIENTSTARTUPPHASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x178B0400)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE_ENTER_OFFSET UNITYSDK_OFFSET(0x178B0680)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE_GETGAMEPHASETYPE_OFFSET UNITYSDK_OFFSET(0x178B0AC0)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x178B0620)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE_LEAVE_OFFSET UNITYSDK_OFFSET(0x178B0540)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE_TICK_OFFSET UNITYSDK_OFFSET(0x178B05C0)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE__CHECKGLOBALDISPATCHSTATE_OFFSET UNITYSDK_OFFSET(0x178B1610)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0x178B0350)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE__FETCHGLOBALDISPATCHINFO_OFFSET UNITYSDK_OFFSET(0x178B1A20)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE__GETSERVERPINGS_OFFSET UNITYSDK_OFFSET(0x178B1CE0)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE__GLOBALFINISHED_OFFSET UNITYSDK_OFFSET(0x178B1DD0)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE__HANDLESPLASHEXCEPTIONS_OFFSET UNITYSDK_OFFSET(0x178B1BB0)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE__ONEXCEPTION_OFFSET UNITYSDK_OFFSET(0x178B0EA0)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE__ONGAMELOGOSHOW_OFFSET UNITYSDK_OFFSET(0x178B1470)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE__ONGAMESPLASHEND_OFFSET UNITYSDK_OFFSET(0x178B0B10)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE__SHOWDEBUGINFO_OFFSET UNITYSDK_OFFSET(0x178B1350)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE__SHOWGAMESTARTUPMAINPAGE_OFFSET UNITYSDK_OFFSET(0x178B0E10)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE__SHOWSTARTUPSPLASHPAGE_OFFSET UNITYSDK_OFFSET(0x178B0A30)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE___FETCHGLOBALDISPATCHINFO_B__15_0_OFFSET UNITYSDK_OFFSET(0x178B1F90)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x182B8BE0)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE_ENTER_OFFSET UNITYSDK_OFFSET(0x182B8E60)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE_GETGAMEPHASETYPE_OFFSET UNITYSDK_OFFSET(0x182B9300)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x182B8E00)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE_LEAVE_OFFSET UNITYSDK_OFFSET(0x182B8D20)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE_TICK_OFFSET UNITYSDK_OFFSET(0x182B8DA0)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE__CHECKGLOBALDISPATCHSTATE_OFFSET UNITYSDK_OFFSET(0x182B9FC0)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0x182B8B30)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE__FETCHGLOBALDISPATCHINFO_OFFSET UNITYSDK_OFFSET(0x182BA3D0)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE__GETSERVERPINGS_OFFSET UNITYSDK_OFFSET(0x182BA6B0)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE__GLOBALFINISHED_OFFSET UNITYSDK_OFFSET(0x182BA7B0)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE__HANDLESPLASHEXCEPTIONS_OFFSET UNITYSDK_OFFSET(0x182BA580)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE__ONEXCEPTION_OFFSET UNITYSDK_OFFSET(0x182B9810)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE__ONGAMELOGOSHOW_OFFSET UNITYSDK_OFFSET(0x182B9E20)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE__ONGAMESPLASHEND_OFFSET UNITYSDK_OFFSET(0x182B9350)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE__SHOWDEBUGINFO_OFFSET UNITYSDK_OFFSET(0x182B9D00)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE__SHOWGAMESTARTUPMAINPAGE_OFFSET UNITYSDK_OFFSET(0x182B9770)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE__SHOWSTARTUPSPLASHPAGE_OFFSET UNITYSDK_OFFSET(0x182B9260)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE___FETCHGLOBALDISPATCHINFO_B__15_0_OFFSET UNITYSDK_OFFSET(0x182BA980)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClientStartupPhase_TypeDefinitionIndex = 56383;
+	inline static constexpr unsigned int ClientStartupPhase_TypeDefinitionIndex = 57145;
 
 	class ClientStartupPhase : public ::RPG::Client::LoginPhase
 	{
 	public:
 		static ::System::Boolean* StaticGet_IgnoreSplash()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ClientStartupPhase_TypeDefinitionIndex)->GetStaticField(0x13DC0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ClientStartupPhase_TypeDefinitionIndex)->GetStaticField(0x14320);
 		}
 		::UnityEngine::Coroutine* fetchCoroutine; // 0x28
 		::System::UInt32 _FullScreenBlockUID; // 0x30
@@ -55,19 +55,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Boolean Leave(::Class_1_6B41D5D37BA0605F* pNextPhase)
+		::System::Boolean Leave(::Class_1_6B41D5D37BA0605F* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_6B41D5D37BA0605F*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE_LEAVE_OFFSET))(this, pNextPhase);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_6B41D5D37BA0605F*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE_LEAVE_OFFSET))(this, a1);
 		}
 
-		::System::Void Tick(::System::Single time)
+		::System::Void Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE_TICK_OFFSET))(this, time);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Void LateUpdate(::System::Single fElapsedTimeInSec)
+		::System::Void LateUpdate(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE_LATEUPDATE_OFFSET))(this, fElapsedTimeInSec);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE_LATEUPDATE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Enter()
@@ -85,9 +85,9 @@ namespace RPG::Client
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__ONGAMESPLASHEND_OFFSET))(this);
 		}
 
-		::System::Void _OnException(::System::Exception* ex)
+		::System::Void _OnException(::System::Exception* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__ONEXCEPTION_OFFSET))(this, ex);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__ONEXCEPTION_OFFSET))(this, a1);
 		}
 
 		::System::Void _ShowDebugInfo()
@@ -95,9 +95,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__SHOWDEBUGINFO_OFFSET))(this);
 		}
 
-		::System::Void _OnGameLogoShow(::System::Object* arg)
+		::System::Void _OnGameLogoShow(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__ONGAMELOGOSHOW_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__ONGAMELOGOSHOW_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Promises::IPromise* _ShowStartupSplashPage()
@@ -110,9 +110,9 @@ namespace RPG::Client
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__SHOWGAMESTARTUPMAINPAGE_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* _CheckGlobalDispatchState(::System::Boolean success)
+		::RPG::Client::Promises::IPromise* _CheckGlobalDispatchState(::System::Boolean a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__CHECKGLOBALDISPATCHSTATE_OFFSET))(this, success);
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__CHECKGLOBALDISPATCHSTATE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Promises::IPromise_1<::System::Boolean>* _FetchGlobalDispatchInfo()
@@ -120,14 +120,14 @@ namespace RPG::Client
 			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__FETCHGLOBALDISPATCHINFO_OFFSET))(this);
 		}
 
-		::System::Void _HandleSplashExceptions(::System::Exception* ex)
+		::System::Void _HandleSplashExceptions(::System::Exception* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__HANDLESPLASHEXCEPTIONS_OFFSET))(this, ex);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__HANDLESPLASHEXCEPTIONS_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise_1<::System::Boolean>* _GetServerPings(::System::Boolean succeed)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* _GetServerPings(::System::Boolean a1)
 		{
-			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__GETSERVERPINGS_OFFSET))(this, succeed);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__GETSERVERPINGS_OFFSET))(this, a1);
 		}
 
 		::System::Void _GlobalFinished()
@@ -135,9 +135,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__GLOBALFINISHED_OFFSET))(this);
 		}
 
-		::System::Void __FetchGlobalDispatchInfo_b__15_0(::System::Action_1<::System::Boolean>* resolve, ::System::Action_1<::System::Exception*>* reject)
+		::System::Void __FetchGlobalDispatchInfo_b__15_0(::System::Action_1<::System::Boolean>* a1, ::System::Action_1<::System::Exception*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE___FETCHGLOBALDISPATCHINFO_B__15_0_OFFSET))(this, resolve, reject);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE___FETCHGLOBALDISPATCHINFO_B__15_0_OFFSET))(this, a1, a2);
 		}
 	};
 }

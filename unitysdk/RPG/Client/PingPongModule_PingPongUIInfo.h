@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_PINGPONGMODULE_PINGPONGUIINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xF6D7330)
+#define RPG_CLIENT_PINGPONGMODULE_PINGPONGUIINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x14709050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PingPongModule_PingPongUIInfo_TypeDefinitionIndex = 61220;
+	inline static constexpr unsigned int PingPongModule_PingPongUIInfo_TypeDefinitionIndex = 62144;
 
 	class PingPongModule_PingPongUIInfo : public ::System::Object
 	{
 	public:
 		::System::String* SPSkillBtnImage; // 0x10
-		::System::Single SPRatio; // 0x18
-		::System::Single MPRatio; // 0x1C
+		::System::Single MPRatio; // 0x18
+		::System::Single SPRatio; // 0x1C
 		::System::Boolean MPSkillBan; // 0x20
 		::System::Boolean SPSkillBan; // 0x21
 		::System::Single HPRatio; // 0x24

@@ -9,20 +9,20 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_ADDEXTENDNODE_OFFSET UNITYSDK_OFFSET(0x158E8D70)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_ADDJOYSTICKDRAGEVENT_OFFSET UNITYSDK_OFFSET(0x158E8B10)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_ADDJOYSTICKPOINTDOWNEVENT_OFFSET UNITYSDK_OFFSET(0x158E88B0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_ADDJOYSTICKPOINTUPEVENT_OFFSET UNITYSDK_OFFSET(0x158E89E0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_CREATE_OFFSET UNITYSDK_OFFSET(0x158E8600)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_ENABLE_OFFSET UNITYSDK_OFFSET(0x158E8CD0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_GETNORMALIZEDDISTANCE_OFFSET UNITYSDK_OFFSET(0x158E86C0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_GETUIANGLE_OFFSET UNITYSDK_OFFSET(0x158E87F0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_SPAWNED_OFFSET UNITYSDK_OFFSET(0x158E8C20)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE__CTOR_OFFSET UNITYSDK_OFFSET(0x158E8680)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_ADDEXTENDNODE_OFFSET UNITYSDK_OFFSET(0x17986D50)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_ADDJOYSTICKDRAGEVENT_OFFSET UNITYSDK_OFFSET(0x17986AD0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_ADDJOYSTICKPOINTDOWNEVENT_OFFSET UNITYSDK_OFFSET(0x17986870)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_ADDJOYSTICKPOINTUPEVENT_OFFSET UNITYSDK_OFFSET(0x179869A0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_CREATE_OFFSET UNITYSDK_OFFSET(0x179865C0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_ENABLE_OFFSET UNITYSDK_OFFSET(0x17986C90)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_GETNORMALIZEDDISTANCE_OFFSET UNITYSDK_OFFSET(0x17986680)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_GETUIANGLE_OFFSET UNITYSDK_OFFSET(0x179867B0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_SPAWNED_OFFSET UNITYSDK_OFFSET(0x17986BE0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE__CTOR_OFFSET UNITYSDK_OFFSET(0x17986640)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimFixedJoyStickBridge_TypeDefinitionIndex = 70933;
+	inline static constexpr unsigned int FiveDimFixedJoyStickBridge_TypeDefinitionIndex = 71755;
 
 	class FiveDimFixedJoyStickBridge : public ::System::Object
 	{
@@ -30,14 +30,14 @@ namespace RPG::Client::LittleGame::FiveDim
 		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* _ExtendNodeList; // 0x10
 		::RPG::Client::LittleGame::FiveDim::MonoFiveDimFixedJoyStick* JoyStick; // 0x18
 
-		::System::Void _ctor(::RPG::Client::LittleGame::FiveDim::MonoFiveDimFixedJoyStick* joyStick)
+		::System::Void _ctor(::RPG::Client::LittleGame::FiveDim::MonoFiveDimFixedJoyStick* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::MonoFiveDimFixedJoyStick*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE__CTOR_OFFSET))(this, joyStick);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::MonoFiveDimFixedJoyStick*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE__CTOR_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::LittleGame::FiveDim::FiveDimFixedJoyStickBridge* Create(::RPG::Client::LittleGame::FiveDim::MonoFiveDimFixedJoyStick* joyStick)
+		static ::RPG::Client::LittleGame::FiveDim::FiveDimFixedJoyStickBridge* Create(::RPG::Client::LittleGame::FiveDim::MonoFiveDimFixedJoyStick* a1)
 		{
-			return ((::RPG::Client::LittleGame::FiveDim::FiveDimFixedJoyStickBridge*(*)(::RPG::Client::LittleGame::FiveDim::MonoFiveDimFixedJoyStick*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_CREATE_OFFSET))(joyStick);
+			return ((::RPG::Client::LittleGame::FiveDim::FiveDimFixedJoyStickBridge*(*)(::RPG::Client::LittleGame::FiveDim::MonoFiveDimFixedJoyStick*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_CREATE_OFFSET))(a1);
 		}
 
 		::System::Single GetNormalizedDistance()
@@ -50,19 +50,19 @@ namespace RPG::Client::LittleGame::FiveDim
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_GETUIANGLE_OFFSET))(this);
 		}
 
-		::System::Void AddJoyStickPointDownEvent(::UnityEngine::Events::UnityAction* call)
+		::System::Void AddJoyStickPointDownEvent(::UnityEngine::Events::UnityAction* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_ADDJOYSTICKPOINTDOWNEVENT_OFFSET))(this, call);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_ADDJOYSTICKPOINTDOWNEVENT_OFFSET))(this, a1);
 		}
 
-		::System::Void AddJoyStickPointUpEvent(::UnityEngine::Events::UnityAction* call)
+		::System::Void AddJoyStickPointUpEvent(::UnityEngine::Events::UnityAction* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_ADDJOYSTICKPOINTUPEVENT_OFFSET))(this, call);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_ADDJOYSTICKPOINTUPEVENT_OFFSET))(this, a1);
 		}
 
-		::System::Void AddJoyStickDragEvent(::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>* call)
+		::System::Void AddJoyStickDragEvent(::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_ADDJOYSTICKDRAGEVENT_OFFSET))(this, call);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_ADDJOYSTICKDRAGEVENT_OFFSET))(this, a1);
 		}
 
 		::System::Void Spawned()
@@ -70,14 +70,14 @@ namespace RPG::Client::LittleGame::FiveDim
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_SPAWNED_OFFSET))(this);
 		}
 
-		::System::Void Enable(::System::Boolean enable)
+		::System::Void Enable(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_ENABLE_OFFSET))(this, enable);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_ENABLE_OFFSET))(this, a1);
 		}
 
-		::System::Void AddExtendNode(::UnityEngine::Transform* extendNode)
+		::System::Void AddExtendNode(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_ADDEXTENDNODE_OFFSET))(this, extendNode);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFIXEDJOYSTICKBRIDGE_ADDEXTENDNODE_OFFSET))(this, a1);
 		}
 	};
 }

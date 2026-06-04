@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByDieAnimFinished; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_73F47EC8FD08BDC5_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE385160)
-#define CLASS_3_73F47EC8FD08BDC5__CTOR_OFFSET UNITYSDK_OFFSET(0xE385130)
+#define CLASS_3_73F47EC8FD08BDC5_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14992F40)
+#define CLASS_3_73F47EC8FD08BDC5__CTOR_OFFSET UNITYSDK_OFFSET(0x14992F10)
 
-inline static constexpr unsigned int Class_3_73F47EC8FD08BDC5_TypeDefinitionIndex = 50640;
+inline static constexpr unsigned int Class_3_73F47EC8FD08BDC5_TypeDefinitionIndex = 51307;
 
 class Class_3_73F47EC8FD08BDC5 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByDieAnimFinished*>
 {

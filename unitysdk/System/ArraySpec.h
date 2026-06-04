@@ -6,14 +6,14 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_ARRAYSPEC_APPEND_OFFSET UNITYSDK_OFFSET(0x193BC740)
-#define SYSTEM_ARRAYSPEC_RESOLVE_OFFSET UNITYSDK_OFFSET(0x193BC6C0)
-#define SYSTEM_ARRAYSPEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x193BC7D0)
-#define SYSTEM_ARRAYSPEC__CTOR_OFFSET UNITYSDK_OFFSET(0x193BC6B0)
+#define SYSTEM_ARRAYSPEC_APPEND_OFFSET UNITYSDK_OFFSET(0x19A08DD0)
+#define SYSTEM_ARRAYSPEC_RESOLVE_OFFSET UNITYSDK_OFFSET(0x19A08D50)
+#define SYSTEM_ARRAYSPEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19A08F40)
+#define SYSTEM_ARRAYSPEC__CTOR_OFFSET UNITYSDK_OFFSET(0x19A08D40)
 
 namespace System
 {
-	inline static constexpr unsigned int ArraySpec_TypeDefinitionIndex = 443;
+	inline static constexpr unsigned int ArraySpec_TypeDefinitionIndex = 442;
 
 	class ArraySpec : public ::System::Object
 	{
@@ -21,19 +21,19 @@ namespace System
 		::System::Int32 dimensions; // 0x10
 		::System::Boolean bound; // 0x14
 
-		::System::Void _ctor(::System::Int32 dimensions, ::System::Boolean bound)
+		::System::Void _ctor(::System::Int32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_ARRAYSPEC__CTOR_OFFSET))(this, dimensions, bound);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_ARRAYSPEC__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Type* Resolve(::System::Type* type)
+		::System::Type* Resolve(::System::Type* a1)
 		{
-			return ((::System::Type*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_ARRAYSPEC_RESOLVE_OFFSET))(this, type);
+			return ((::System::Type*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_ARRAYSPEC_RESOLVE_OFFSET))(this, a1);
 		}
 
-		::System::Text::StringBuilder* Append(::System::Text::StringBuilder* sb)
+		::System::Text::StringBuilder* Append(::System::Text::StringBuilder* a1)
 		{
-			return ((::System::Text::StringBuilder*(*)(::PVOID, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_ARRAYSPEC_APPEND_OFFSET))(this, sb);
+			return ((::System::Text::StringBuilder*(*)(::PVOID, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_ARRAYSPEC_APPEND_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()

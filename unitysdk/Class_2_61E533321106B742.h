@@ -12,43 +12,43 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_61E533321106B742_METHOD_2_237570A6FE8291B9_OFFSET UNITYSDK_OFFSET(0xF5C82E0)
-#define CLASS_2_61E533321106B742_METHOD_2_3A564D5662A43279_OFFSET UNITYSDK_OFFSET(0xF5C7BA0)
-#define CLASS_2_61E533321106B742_METHOD_2_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0xF5C7870)
-#define CLASS_2_61E533321106B742_METHOD_2_4B4F1EFFB5ED5DCB_OFFSET UNITYSDK_OFFSET(0xF5C7B00)
-#define CLASS_2_61E533321106B742_METHOD_2_532795DE13579A51_OFFSET UNITYSDK_OFFSET(0xF5C7A50)
-#define CLASS_2_61E533321106B742_METHOD_2_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0xF5C8640)
-#define CLASS_2_61E533321106B742_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xF5C85E0)
-#define CLASS_2_61E533321106B742_METHOD_2_735EE20B25F86BF4_OFFSET UNITYSDK_OFFSET(0xF5C77E0)
-#define CLASS_2_61E533321106B742__CTOR_OFFSET UNITYSDK_OFFSET(0xF5C8550)
-#define CLASS_2_61E533321106B742__ONBIND_OFFSET UNITYSDK_OFFSET(0xF5C7330)
-#define CLASS_2_61E533321106B742___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0xF5C8580)
+#define CLASS_2_61E533321106B742_METHOD_2_237570A6FE8291B9_OFFSET UNITYSDK_OFFSET(0x154D45A0)
+#define CLASS_2_61E533321106B742_METHOD_2_3A564D5662A43279_OFFSET UNITYSDK_OFFSET(0x154D3CA0)
+#define CLASS_2_61E533321106B742_METHOD_2_4B4F1EFFB5ED5DCB_OFFSET UNITYSDK_OFFSET(0x154D3C00)
+#define CLASS_2_61E533321106B742_METHOD_2_532795DE13579A51_OFFSET UNITYSDK_OFFSET(0x154D3B50)
+#define CLASS_2_61E533321106B742_METHOD_2_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0x154D4900)
+#define CLASS_2_61E533321106B742_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x154D48A0)
+#define CLASS_2_61E533321106B742_METHOD_2_735EE20B25F86BF4_OFFSET UNITYSDK_OFFSET(0x154D38E0)
+#define CLASS_2_61E533321106B742_METHOD_2_F206290BA342BA13_OFFSET UNITYSDK_OFFSET(0x154D3970)
+#define CLASS_2_61E533321106B742__CTOR_OFFSET UNITYSDK_OFFSET(0x154D4810)
+#define CLASS_2_61E533321106B742__ONBIND_OFFSET UNITYSDK_OFFSET(0x154D3430)
+#define CLASS_2_61E533321106B742___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x154D4840)
 
-inline static constexpr unsigned int Class_2_61E533321106B742_TypeDefinitionIndex = 65699;
+inline static constexpr unsigned int Class_2_61E533321106B742_TypeDefinitionIndex = 66633;
 
 class Class_2_61E533321106B742 : public ::Class_1_CA217ABF4E3B4F3F
 {
 public:
-	// static const ::System::String* Field_2_19; // 0x0
-	::UnityEngine::UI::Image* Field_2_7; // 0x60
-	::UnityEngine::Animation* Field_2_4; // 0x68
-	::UnityEngine::UI::Text* Field_2_13; // 0x70
-	::UnityEngine::UI::Image* Field_2_8; // 0x78
-	::UnityEngine::UI::Text* Field_2_12; // 0x80
-	::UnityEngine::Transform* Field_2_5; // 0x88
-	::UnityEngine::Transform* Field_2_10; // 0x90
-	::UnityEngine::Transform* Field_2_0; // 0x98
-	::UnityEngine::Transform* Field_2_2; // 0xA0
-	::UnityEngine::Transform* Field_2_6; // 0xA8
-	::UnityEngine::Transform* Field_2_9; // 0xB0
-	::Class_1_AB817CB39E494C61* Field_2_16; // 0xB8
-	::UnityEngine::Animation* Field_2_1; // 0xC0
-	::UnityEngine::Transform* Field_2_3; // 0xC8
-	::UnityEngine::Transform* Field_2_11; // 0xD0
-	::UnityEngine::Color Field_2_18; // 0xD8
-	::System::Boolean Field_2_14; // 0xE8
-	::UnityEngine::Color Field_2_17; // 0xEC
-	::System::Single Field_2_15; // 0xFC
+	// static const ::System::String* Field_2_0; // 0x0
+	::UnityEngine::Transform* Field_2_1; // 0x60
+	::UnityEngine::UI::Image* Field_2_2; // 0x68
+	::UnityEngine::Animation* Field_2_3; // 0x70
+	::UnityEngine::UI::Text* Field_2_4; // 0x78
+	::UnityEngine::Transform* Field_2_5; // 0x80
+	::UnityEngine::Transform* Field_2_6; // 0x88
+	::UnityEngine::UI::Image* Field_2_7; // 0x90
+	::UnityEngine::UI::Text* Field_2_8; // 0x98
+	::Class_1_AB817CB39E494C61* Field_2_9; // 0xA0
+	::UnityEngine::Transform* Field_2_10; // 0xA8
+	::UnityEngine::Transform* Field_2_11; // 0xB0
+	::UnityEngine::Animation* Field_2_12; // 0xB8
+	::UnityEngine::Transform* Field_2_13; // 0xC0
+	::UnityEngine::Transform* Field_2_14; // 0xC8
+	::UnityEngine::Transform* Field_2_15; // 0xD0
+	::UnityEngine::Color Field_2_16; // 0xD8
+	::System::Single Field_2_17; // 0xE8
+	::UnityEngine::Color Field_2_18; // 0xEC
+	::System::Boolean Field_2_19; // 0xFC
 
 	::System::Void _ctor()
 	{
@@ -65,9 +65,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_61E533321106B742_METHOD_2_735EE20B25F86BF4_OFFSET))(this);
 	}
 
-	::System::Void Method_2_41A074549EF25F63()
+	::System::Void Method_2_F206290BA342BA13()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_61E533321106B742_METHOD_2_41A074549EF25F63_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_61E533321106B742_METHOD_2_F206290BA342BA13_OFFSET))(this);
 	}
 
 	::System::Void Method_2_532795DE13579A51(::Class_1_DDDB57AA67C3A9EA* a1)

@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices { class ProductUserId; }
 
-#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x18CE76F0)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x18CE7700)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x18CE7710)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19C3FDB0)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19C3FDC0)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19C3FDD0)
 
 namespace Epic::OnlineServices::TitleStorage
 {
-	inline static constexpr unsigned int DeleteCacheOptions_TypeDefinitionIndex = 41166;
+	inline static constexpr unsigned int DeleteCacheOptions_TypeDefinitionIndex = 41969;
 
 	class DeleteCacheOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::TitleStorage
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHEOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHEOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHEOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 	};
 }

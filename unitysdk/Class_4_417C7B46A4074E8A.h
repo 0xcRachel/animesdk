@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_3_3B76BCE1DE5BE597.h"
+#include "unitysdk/Class_3_3B76BCE1DE5BE59E.h"
 #include "unitysdk/RPG/GameCore/GraphicQuality.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 
@@ -10,53 +10,53 @@ namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Texture; }
 
-#define CLASS_4_417C7B46A4074E8A_METHOD_4_6302ED79A2E71E8B_OFFSET UNITYSDK_OFFSET(0xF252200)
-#define CLASS_4_417C7B46A4074E8A_METHOD_4_63FEA79849598753_OFFSET UNITYSDK_OFFSET(0xF2520D0)
-#define CLASS_4_417C7B46A4074E8A_METHOD_4_B69C8857E861C815_OFFSET UNITYSDK_OFFSET(0xF2523B0)
-#define CLASS_4_417C7B46A4074E8A_METHOD_4_E574C73D1D4F7611_OFFSET UNITYSDK_OFFSET(0xF252850)
-#define CLASS_4_417C7B46A4074E8A__CCTOR_OFFSET UNITYSDK_OFFSET(0xF252F70)
-#define CLASS_4_417C7B46A4074E8A__CTOR_OFFSET UNITYSDK_OFFSET(0xF252F30)
-#define CLASS_4_417C7B46A4074E8A__INTERPOLATERES_B__11_0_OFFSET UNITYSDK_OFFSET(0xF253010)
+#define CLASS_4_417C7B46A4074E8A_METHOD_4_4F458FCE35C24499_OFFSET UNITYSDK_OFFSET(0x14F18E20)
+#define CLASS_4_417C7B46A4074E8A_METHOD_4_63FEA79849598753_OFFSET UNITYSDK_OFFSET(0x14F18B60)
+#define CLASS_4_417C7B46A4074E8A_METHOD_4_B7A3ACD6F29408C2_OFFSET UNITYSDK_OFFSET(0x14F18C90)
+#define CLASS_4_417C7B46A4074E8A_METHOD_4_E574C73D1D4F7611_OFFSET UNITYSDK_OFFSET(0x14F192F0)
+#define CLASS_4_417C7B46A4074E8A__CCTOR_OFFSET UNITYSDK_OFFSET(0x14F19A00)
+#define CLASS_4_417C7B46A4074E8A__CTOR_OFFSET UNITYSDK_OFFSET(0x14F199C0)
+#define CLASS_4_417C7B46A4074E8A__INTERPOLATERES_B__11_0_OFFSET UNITYSDK_OFFSET(0x14F19A80)
 
-inline static constexpr unsigned int Class_4_417C7B46A4074E8A_TypeDefinitionIndex = 46092;
+inline static constexpr unsigned int Class_4_417C7B46A4074E8A_TypeDefinitionIndex = 46675;
 
-class Class_4_417C7B46A4074E8A : public ::Class_3_3B76BCE1DE5BE597<::UnityEngine::Texture*>
+class Class_4_417C7B46A4074E8A : public ::Class_3_3B76BCE1DE5BE59E<::UnityEngine::Texture*>
 {
 public:
 	static ::UnityEngine::Texture** StaticGet_Field_4_0()
 	{
-		return (::UnityEngine::Texture**)Il2CppClass::FromTypeDefinitionIndex(Class_4_417C7B46A4074E8A_TypeDefinitionIndex)->GetStaticField(0x4BAA0);
+		return (::UnityEngine::Texture**)Il2CppClass::FromTypeDefinitionIndex(Class_4_417C7B46A4074E8A_TypeDefinitionIndex)->GetStaticField(0x10F80);
 	}
-	static ::System::Int32* StaticGet_Field_4_11()
+	static ::System::Int32* StaticGet_Field_4_1()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_4_417C7B46A4074E8A_TypeDefinitionIndex)->GetStaticField(0xDD30);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_4_417C7B46A4074E8A_TypeDefinitionIndex)->GetStaticField(0x5040);
 	}
-	static ::System::Int32* StaticGet_Field_4_10()
+	static ::System::Int32* StaticGet_Field_4_2()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_4_417C7B46A4074E8A_TypeDefinitionIndex)->GetStaticField(0xDD34);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_4_417C7B46A4074E8A_TypeDefinitionIndex)->GetStaticField(0x5044);
 	}
-	static ::System::Int32* StaticGet_Field_4_7()
+	static ::System::Int32* StaticGet_Field_4_3()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_4_417C7B46A4074E8A_TypeDefinitionIndex)->GetStaticField(0xDD38);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_4_417C7B46A4074E8A_TypeDefinitionIndex)->GetStaticField(0x5048);
 	}
-	static ::System::Int32* StaticGet_Field_4_9()
+	static ::System::Int32* StaticGet_Field_4_4()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_4_417C7B46A4074E8A_TypeDefinitionIndex)->GetStaticField(0xDD3C);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_4_417C7B46A4074E8A_TypeDefinitionIndex)->GetStaticField(0x504C);
 	}
-	static ::System::Int32* StaticGet_Field_4_8()
+	static ::System::Int32* StaticGet_Field_4_5()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_4_417C7B46A4074E8A_TypeDefinitionIndex)->GetStaticField(0xDD40);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_4_417C7B46A4074E8A_TypeDefinitionIndex)->GetStaticField(0x5050);
 	}
-	static ::System::Int32* StaticGet_Field_4_12()
+	static ::System::Int32* StaticGet_Field_4_6()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_4_417C7B46A4074E8A_TypeDefinitionIndex)->GetStaticField(0xDD44);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_4_417C7B46A4074E8A_TypeDefinitionIndex)->GetStaticField(0x5054);
 	}
-	::UnityEngine::ComputeShader* Field_4_5; // 0x48
-	::UnityEngine::RenderTexture* Field_4_4; // 0x50
-	::Class_1_6BB3CCD14C3350D4* Field_4_6; // 0x58
-	::System::Single Field_4_2; // 0x60
-	::RPG::GameCore::GraphicQuality Field_4_3; // 0x64
-	::UnityEngine::Vector2Int Field_4_1; // 0x68
+	::UnityEngine::ComputeShader* Field_4_7; // 0x48
+	::Class_1_6BB3CCD14C3350D4* Field_4_8; // 0x50
+	::UnityEngine::RenderTexture* Field_4_9; // 0x58
+	::UnityEngine::Vector2Int Field_4_10; // 0x60
+	::System::Single Field_4_11; // 0x68
+	::RPG::GameCore::GraphicQuality Field_4_12; // 0x6C
 
 	::System::Void _ctor()
 	{
@@ -73,14 +73,14 @@ public:
 		return ((::UnityEngine::Texture*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_417C7B46A4074E8A_METHOD_4_63FEA79849598753_OFFSET))(this);
 	}
 
-	::UnityEngine::Texture* Method_4_6302ED79A2E71E8B()
+	::UnityEngine::Texture* Method_4_B7A3ACD6F29408C2()
 	{
-		return ((::UnityEngine::Texture*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_417C7B46A4074E8A_METHOD_4_6302ED79A2E71E8B_OFFSET))(this);
+		return ((::UnityEngine::Texture*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_417C7B46A4074E8A_METHOD_4_B7A3ACD6F29408C2_OFFSET))(this);
 	}
 
-	::System::Void Method_4_B69C8857E861C815(::EnviromentSystemV2Space::ImageCurveAsset* a1)
+	::System::Void Method_4_4F458FCE35C24499(::EnviromentSystemV2Space::ImageCurveAsset* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::EnviromentSystemV2Space::ImageCurveAsset*))((::PBYTE)hIl2Cpp + CLASS_4_417C7B46A4074E8A_METHOD_4_B69C8857E861C815_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::EnviromentSystemV2Space::ImageCurveAsset*))((::PBYTE)hIl2Cpp + CLASS_4_417C7B46A4074E8A_METHOD_4_4F458FCE35C24499_OFFSET))(this, a1);
 	}
 
 	::UnityEngine::Texture* Method_4_E574C73D1D4F7611(::UnityEngine::Texture* a1, ::UnityEngine::Texture* a2, ::System::Single a3)
@@ -88,8 +88,8 @@ public:
 		return ((::UnityEngine::Texture*(*)(::PVOID, ::UnityEngine::Texture*, ::UnityEngine::Texture*, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_4_417C7B46A4074E8A_METHOD_4_E574C73D1D4F7611_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void _InterpolateRes_b__11_0(::UnityEngine::ComputeShader* obj)
+	::System::Void _InterpolateRes_b__11_0(::UnityEngine::ComputeShader* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::ComputeShader*))((::PBYTE)hIl2Cpp + CLASS_4_417C7B46A4074E8A__INTERPOLATERES_B__11_0_OFFSET))(this, obj);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::ComputeShader*))((::PBYTE)hIl2Cpp + CLASS_4_417C7B46A4074E8A__INTERPOLATERES_B__11_0_OFFSET))(this, a1);
 	}
 };

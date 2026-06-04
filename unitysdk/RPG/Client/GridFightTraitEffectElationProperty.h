@@ -1,44 +1,50 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/AbilityProperty.h"
 #include "unitysdk/RPG/GameCore/AvatarPropertyType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_667;
-class Class_1_95A6407BC1B256C4;
-class Class_1_A5344434C2683AB3;
-class Class_2_9D2DEA765AF5C2B0_3;
+class Class_0_16E4307DCC419505_688;
+class Class_1_1B569C1D822105CC_1;
+class Class_1_4EB7DC90478E822D;
+class Class_2_BEDE94774D30A3D8;
+namespace RPG::Client { class GridFightBattleGameContext; }
 namespace RPG::Client { class GridFightElationTraitEffectPropertyDetail; }
 namespace RPG::Client { class GridFightElationTraitEffectPropertyOverview; }
 namespace RPG::Client { class GridFightRoleProperty; }
 namespace RPG::Client { class GridFightTrait; }
 namespace RPG::Client { class GridFightTraitElationEffect; }
+namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_ADDMODIFIERSOURCE_OFFSET UNITYSDK_OFFSET(0x17431870)
-#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_GETBASEVALUE_OFFSET UNITYSDK_OFFSET(0x17431C50)
-#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_GETPROPERTY_OFFSET UNITYSDK_OFFSET(0x17431950)
-#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_GET_DETAIL_OFFSET UNITYSDK_OFFSET(0x174317B0)
-#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_GET_OVERVIEW_OFFSET UNITYSDK_OFFSET(0x17431740)
-#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_GET__TRAIT_OFFSET UNITYSDK_OFFSET(0x17431720)
-#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_SETUPTRAIT_OFFSET UNITYSDK_OFFSET(0x17431820)
-#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY__CCTOR_OFFSET UNITYSDK_OFFSET(0x17431DF0)
-#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x17431DA0)
-#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY__GETFINALVALUE_OFFSET UNITYSDK_OFFSET(0x174319F0)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_ADDMODIFIERSOURCE_OFFSET UNITYSDK_OFFSET(0x19654320)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_GETBASEVALUE_OFFSET UNITYSDK_OFFSET(0x196545F0)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_GETPROPERTY_OFFSET UNITYSDK_OFFSET(0x196543D0)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_GET_DETAIL_OFFSET UNITYSDK_OFFSET(0x19654260)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_GET_OVERVIEW_OFFSET UNITYSDK_OFFSET(0x196541F0)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_GET__TRAIT_OFFSET UNITYSDK_OFFSET(0x196541D0)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_SETUPTRAIT_OFFSET UNITYSDK_OFFSET(0x196542D0)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY__CCTOR_OFFSET UNITYSDK_OFFSET(0x196549A0)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x19654920)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY__GETABILITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x196548A0)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY__GETBATTLEFINALVALUE_OFFSET UNITYSDK_OFFSET(0x19654770)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY__GETFINALVALUE_OFFSET UNITYSDK_OFFSET(0x19654470)
+#define RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY__GETPROPERTY_OFFSET UNITYSDK_OFFSET(0x196547D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitEffectElationProperty_TypeDefinitionIndex = 60193;
+	inline static constexpr unsigned int GridFightTraitEffectElationProperty_TypeDefinitionIndex = 61128;
 
 	class GridFightTraitEffectElationProperty : public ::System::Object
 	{
 	public:
-		static ::Class_2_9D2DEA765AF5C2B0_3** StaticGet__Calculator()
+		static ::Class_2_BEDE94774D30A3D8** StaticGet__Calculator()
 		{
-			return (::Class_2_9D2DEA765AF5C2B0_3**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitEffectElationProperty_TypeDefinitionIndex)->GetStaticField(0x353F0);
+			return (::Class_2_BEDE94774D30A3D8**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitEffectElationProperty_TypeDefinitionIndex)->GetStaticField(0x36EF0);
 		}
-		::Class_1_A5344434C2683AB3* _FormulaContext; // 0x10
-		::Class_1_95A6407BC1B256C4* _StarModifierSource; // 0x18
-		::RPG::Client::GridFightTraitElationEffect* _TraitEffect; // 0x20
+		::Class_1_4EB7DC90478E822D* _StarModifierSource; // 0x10
+		::RPG::Client::GridFightTraitElationEffect* _TraitEffect; // 0x18
+		::Class_1_1B569C1D822105CC_1* _FormulaContext; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -65,29 +71,44 @@ namespace RPG::Client
 			return ((::RPG::Client::GridFightElationTraitEffectPropertyDetail*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_GET_DETAIL_OFFSET))(this);
 		}
 
-		::System::Void SetupTrait(::RPG::Client::GridFightTraitElationEffect* traitEffect)
+		::System::Void SetupTrait(::RPG::Client::GridFightTraitElationEffect* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightTraitElationEffect*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_SETUPTRAIT_OFFSET))(this, traitEffect);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightTraitElationEffect*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_SETUPTRAIT_OFFSET))(this, a1);
 		}
 
-		::System::Void AddModifierSource(::Class_0_16E4307DCC419505_667* source)
+		::System::Void AddModifierSource(::Class_0_16E4307DCC419505_688* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_667*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_ADDMODIFIERSOURCE_OFFSET))(this, source);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_688*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_ADDMODIFIERSOURCE_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::GridFightRoleProperty* GetProperty(::RPG::GameCore::AvatarPropertyType type)
+		::RPG::Client::GridFightRoleProperty* GetProperty(::RPG::GameCore::AvatarPropertyType a1)
 		{
-			return ((::RPG::Client::GridFightRoleProperty*(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_GETPROPERTY_OFFSET))(this, type);
+			return ((::RPG::Client::GridFightRoleProperty*(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_GETPROPERTY_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::FixPoint GetBaseValue(::RPG::GameCore::AvatarPropertyType type)
+		::RPG::GameCore::FixPoint GetBaseValue(::RPG::GameCore::AvatarPropertyType a1)
 		{
-			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_GETBASEVALUE_OFFSET))(this, type);
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY_GETBASEVALUE_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::FixPoint _GetFinalValue(::RPG::GameCore::AvatarPropertyType type)
+		::RPG::GameCore::FixPoint _GetFinalValue(::RPG::GameCore::AvatarPropertyType a1)
 		{
-			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY__GETFINALVALUE_OFFSET))(this, type);
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY__GETFINALVALUE_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::FixPoint _GetBattleFinalValue(::RPG::GameCore::AbilityProperty a1, ::RPG::Client::GridFightBattleGameContext* a2)
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::GameCore::AbilityProperty, ::RPG::Client::GridFightBattleGameContext*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY__GETBATTLEFINALVALUE_OFFSET))(this, a1, a2);
+		}
+
+		::RPG::GameCore::FixPoint _GetProperty(::RPG::GameCore::AbilityProperty a1, ::RPG::Client::GridFightBattleGameContext* a2)
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::GameCore::AbilityProperty, ::RPG::Client::GridFightBattleGameContext*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY__GETPROPERTY_OFFSET))(this, a1, a2);
+		}
+
+		::RPG::GameCore::TurnBasedAbilityComponent* _GetAbilityComponent(::RPG::Client::GridFightBattleGameContext* a1)
+		{
+			return ((::RPG::GameCore::TurnBasedAbilityComponent*(*)(::PVOID, ::RPG::Client::GridFightBattleGameContext*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEFFECTELATIONPROPERTY__GETABILITYCOMPONENT_OFFSET))(this, a1);
 		}
 	};
 }

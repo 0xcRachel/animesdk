@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Reflection/Module.h"
 
-#define SYSTEM_REFLECTION_RUNTIMEMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x18F432B0)
+#define SYSTEM_REFLECTION_RUNTIMEMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x196F5800)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int RuntimeModule_TypeDefinitionIndex = 623;
+	inline static constexpr unsigned int RuntimeModule_TypeDefinitionIndex = 622;
 
 	class RuntimeModule : public ::System::Reflection::Module
 	{

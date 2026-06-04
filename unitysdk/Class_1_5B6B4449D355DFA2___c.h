@@ -6,22 +6,22 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_5B6B4449D355DFA2___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1031B1D0)
-#define CLASS_1_5B6B4449D355DFA2___C__CHECKAUTOBINDCALLBACKPARAMS_B__8_0_OFFSET UNITYSDK_OFFSET(0x1031B220)
-#define CLASS_1_5B6B4449D355DFA2___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1031B210)
+#define CLASS_1_5B6B4449D355DFA2___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14743D30)
+#define CLASS_1_5B6B4449D355DFA2___C__CHECKAUTOBINDCALLBACKPARAMS_B__8_0_OFFSET UNITYSDK_OFFSET(0x14743D80)
+#define CLASS_1_5B6B4449D355DFA2___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14743D70)
 
-inline static constexpr unsigned int Class_1_5B6B4449D355DFA2___c_TypeDefinitionIndex = 67345;
+inline static constexpr unsigned int Class_1_5B6B4449D355DFA2___c_TypeDefinitionIndex = 68297;
 
 class Class_1_5B6B4449D355DFA2___c : public ::System::Object
 {
 public:
 	static ::Class_1_5B6B4449D355DFA2___c** StaticGet___9()
 	{
-		return (::Class_1_5B6B4449D355DFA2___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B6B4449D355DFA2___c_TypeDefinitionIndex)->GetStaticField(0x14CB0);
+		return (::Class_1_5B6B4449D355DFA2___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B6B4449D355DFA2___c_TypeDefinitionIndex)->GetStaticField(0x53670);
 	}
 	static ::System::Func_2<::System::Type*, ::System::String*>** StaticGet___9__8_0()
 	{
-		return (::System::Func_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B6B4449D355DFA2___c_TypeDefinitionIndex)->GetStaticField(0x14CB8);
+		return (::System::Func_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B6B4449D355DFA2___c_TypeDefinitionIndex)->GetStaticField(0x53678);
 	}
 
 	static ::System::Void _cctor()
@@ -34,8 +34,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5B6B4449D355DFA2___C__CTOR_OFFSET))(this);
 	}
 
-	::System::String* _CheckAutoBindCallBackParams_b__8_0(::System::Type* x)
+	::System::String* _CheckAutoBindCallBackParams_b__8_0(::System::Type* a1)
 	{
-		return ((::System::String*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + CLASS_1_5B6B4449D355DFA2___C__CHECKAUTOBINDCALLBACKPARAMS_B__8_0_OFFSET))(this, x);
+		return ((::System::String*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + CLASS_1_5B6B4449D355DFA2___C__CHECKAUTOBINDCALLBACKPARAMS_B__8_0_OFFSET))(this, a1);
 	}
 };

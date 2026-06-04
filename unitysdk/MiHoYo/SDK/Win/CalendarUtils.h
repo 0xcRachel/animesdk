@@ -5,23 +5,23 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_CALENDARUTILS_DATEFORMATTOTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x15067090)
-#define MIHOYO_SDK_WIN_CALENDARUTILS_FORMATMONTH_OFFSET UNITYSDK_OFFSET(0x15067870)
-#define MIHOYO_SDK_WIN_CALENDARUTILS_FORMATTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x15066A50)
-#define MIHOYO_SDK_WIN_CALENDARUTILS_FORMATTIME_OFFSET UNITYSDK_OFFSET(0x15066C60)
-#define MIHOYO_SDK_WIN_CALENDARUTILS_FORMATYEARMONTH_OFFSET UNITYSDK_OFFSET(0x15066E90)
-#define MIHOYO_SDK_WIN_CALENDARUTILS_GETCURRENTYEAR_OFFSET UNITYSDK_OFFSET(0x15067A80)
-#define MIHOYO_SDK_WIN_CALENDARUTILS_GETDAYSINMONTH_OFFSET UNITYSDK_OFFSET(0x150671F0)
-#define MIHOYO_SDK_WIN_CALENDARUTILS_GETMONTHINYEAR_OFFSET UNITYSDK_OFFSET(0x15067310)
-#define MIHOYO_SDK_WIN_CALENDARUTILS_GETMONTHSTRINGARRAY_OFFSET UNITYSDK_OFFSET(0x15067710)
-#define MIHOYO_SDK_WIN_CALENDARUTILS_GETNEXTMONTH_OFFSET UNITYSDK_OFFSET(0x150679F0)
-#define MIHOYO_SDK_WIN_CALENDARUTILS_ISVALIDDATE_OFFSET UNITYSDK_OFFSET(0x15067BC0)
-#define MIHOYO_SDK_WIN_CALENDARUTILS_YEARGAPCALCULATE_OFFSET UNITYSDK_OFFSET(0x15067350)
-#define MIHOYO_SDK_WIN_CALENDARUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x15067BF0)
+#define MIHOYO_SDK_WIN_CALENDARUTILS_DATEFORMATTOTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x14866050)
+#define MIHOYO_SDK_WIN_CALENDARUTILS_FORMATMONTH_OFFSET UNITYSDK_OFFSET(0x14866B90)
+#define MIHOYO_SDK_WIN_CALENDARUTILS_FORMATTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x14865A10)
+#define MIHOYO_SDK_WIN_CALENDARUTILS_FORMATTIME_OFFSET UNITYSDK_OFFSET(0x14865C20)
+#define MIHOYO_SDK_WIN_CALENDARUTILS_FORMATYEARMONTH_OFFSET UNITYSDK_OFFSET(0x14865E50)
+#define MIHOYO_SDK_WIN_CALENDARUTILS_GETCURRENTYEAR_OFFSET UNITYSDK_OFFSET(0x14866DA0)
+#define MIHOYO_SDK_WIN_CALENDARUTILS_GETDAYSINMONTH_OFFSET UNITYSDK_OFFSET(0x148661B0)
+#define MIHOYO_SDK_WIN_CALENDARUTILS_GETMONTHINYEAR_OFFSET UNITYSDK_OFFSET(0x148662D0)
+#define MIHOYO_SDK_WIN_CALENDARUTILS_GETMONTHSTRINGARRAY_OFFSET UNITYSDK_OFFSET(0x14866A10)
+#define MIHOYO_SDK_WIN_CALENDARUTILS_GETNEXTMONTH_OFFSET UNITYSDK_OFFSET(0x14866D10)
+#define MIHOYO_SDK_WIN_CALENDARUTILS_ISVALIDDATE_OFFSET UNITYSDK_OFFSET(0x14866EE0)
+#define MIHOYO_SDK_WIN_CALENDARUTILS_YEARGAPCALCULATE_OFFSET UNITYSDK_OFFSET(0x14866310)
+#define MIHOYO_SDK_WIN_CALENDARUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x14866F10)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int CalendarUtils_TypeDefinitionIndex = 8039;
+	inline static constexpr unsigned int CalendarUtils_TypeDefinitionIndex = 8942;
 
 	class CalendarUtils : public ::System::Object
 	{
@@ -33,39 +33,39 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::String* FormatTimestamp(::System::Int64 timestamp, ::System::String* cultureCode, ::System::String* formatSpecifier)
+		static ::System::String* FormatTimestamp(::System::Int64 a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::String*(*)(::System::Int64, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_FORMATTIMESTAMP_OFFSET))(timestamp, cultureCode, formatSpecifier);
+			return ((::System::String*(*)(::System::Int64, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_FORMATTIMESTAMP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* FormatTime(::System::Int32 year, ::System::Int32 month, ::System::String* cultureCode, ::System::Boolean needShowSecond)
+		static ::System::String* FormatTime(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3, ::System::Boolean a4)
 		{
-			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_FORMATTIME_OFFSET))(year, month, cultureCode, needShowSecond);
+			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_FORMATTIME_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::String* FormatYearMonth(::System::Int32 year, ::System::Int32 month, ::System::String* cultureCode)
+		static ::System::String* FormatYearMonth(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3)
 		{
-			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_FORMATYEARMONTH_OFFSET))(year, month, cultureCode);
+			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_FORMATYEARMONTH_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int64 DateFormatToTimestamp(::System::Int32 year, ::System::Int32 month, ::System::Int32 day)
+		static ::System::Int64 DateFormatToTimestamp(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Int64(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_DATEFORMATTOTIMESTAMP_OFFSET))(year, month, day);
+			return ((::System::Int64(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_DATEFORMATTOTIMESTAMP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 GetDaysInMonth(::System::Int32 year, ::System::Int32 month)
+		static ::System::Int32 GetDaysInMonth(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_GETDAYSINMONTH_OFFSET))(year, month);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_GETDAYSINMONTH_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 GetMonthInYear(::System::Int32 year)
+		static ::System::Int32 GetMonthInYear(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_GETMONTHINYEAR_OFFSET))(year);
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_GETMONTHINYEAR_OFFSET))(a1);
 		}
 
-		static ::System::Int32 YearGapCalculate(::System::Int32 year, ::System::Int32 month, ::System::Int32 day)
+		static ::System::Int32 YearGapCalculate(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_YEARGAPCALCULATE_OFFSET))(year, month, day);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_YEARGAPCALCULATE_OFFSET))(a1, a2, a3);
 		}
 
 		static ::Il2CppArray<::System::String*>* GetMonthStringArray()
@@ -73,14 +73,14 @@ namespace MiHoYo::SDK::Win
 			return ((::Il2CppArray<::System::String*>*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_GETMONTHSTRINGARRAY_OFFSET))();
 		}
 
-		static ::System::String* FormatMonth(::System::Int32 month, ::System::String* cultureCode)
+		static ::System::String* FormatMonth(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::String*(*)(::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_FORMATMONTH_OFFSET))(month, cultureCode);
+			return ((::System::String*(*)(::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_FORMATMONTH_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32> GetNextMonth(::System::Int32 year, ::System::Int32 month)
+		static ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32> GetNextMonth(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_GETNEXTMONTH_OFFSET))(year, month);
+			return ((::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_GETNEXTMONTH_OFFSET))(a1, a2);
 		}
 
 		static ::System::Int32 GetCurrentYear()
@@ -88,9 +88,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_GETCURRENTYEAR_OFFSET))();
 		}
 
-		static ::System::Boolean IsValidDate(::System::Int32 year, ::System::Int32 month, ::System::Int32 day)
+		static ::System::Boolean IsValidDate(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Boolean(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_ISVALIDDATE_OFFSET))(year, month, day);
+			return ((::System::Boolean(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_ISVALIDDATE_OFFSET))(a1, a2, a3);
 		}
 	};
 }

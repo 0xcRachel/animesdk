@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class NpcEntityInfo; }
 
-#define RPG_GAMECORE_CREATENPC_METHOD_3_A49665D33375B5C3_OFFSET UNITYSDK_OFFSET(0x18FAEDB0)
-#define RPG_GAMECORE_CREATENPC_METHOD_3_D227025770AD9CA2_OFFSET UNITYSDK_OFFSET(0x18FAEE30)
-#define RPG_GAMECORE_CREATENPC__CTOR_OFFSET UNITYSDK_OFFSET(0x18FAEE00)
+#define RPG_GAMECORE_CREATENPC_METHOD_3_A49665D33375B5C3_OFFSET UNITYSDK_OFFSET(0x19B1F3C0)
+#define RPG_GAMECORE_CREATENPC_METHOD_3_D227025770AD9CA2_OFFSET UNITYSDK_OFFSET(0x19B1F440)
+#define RPG_GAMECORE_CREATENPC__CTOR_OFFSET UNITYSDK_OFFSET(0x19B1F410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateNPC_TypeDefinitionIndex = 20798;
+	inline static constexpr unsigned int CreateNPC_TypeDefinitionIndex = 20722;
 
 	class CreateNPC : public ::RPG::GameCore::TaskConfig
 	{

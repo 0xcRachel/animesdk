@@ -5,28 +5,28 @@
 namespace SRDebugger::UI::Tabs { class OptionsTabController; }
 namespace SRDebugger::UI::Tabs { class OptionsTabController_CategoryInstance; }
 
-#define SRDEBUGGER_UI_TABS_OPTIONSTABCONTROLLER___C__DISPLAYCLASS51_0__CREATECATEGORY_B__1_OFFSET UNITYSDK_OFFSET(0x1A70F850)
-#define SRDEBUGGER_UI_TABS_OPTIONSTABCONTROLLER___C__DISPLAYCLASS51_0__CREATECATEGORY_B__2_OFFSET UNITYSDK_OFFSET(0x1A70F880)
-#define SRDEBUGGER_UI_TABS_OPTIONSTABCONTROLLER___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A70E370)
+#define SRDEBUGGER_UI_TABS_OPTIONSTABCONTROLLER___C__DISPLAYCLASS51_0__CREATECATEGORY_B__1_OFFSET UNITYSDK_OFFSET(0x1B541C40)
+#define SRDEBUGGER_UI_TABS_OPTIONSTABCONTROLLER___C__DISPLAYCLASS51_0__CREATECATEGORY_B__2_OFFSET UNITYSDK_OFFSET(0x1B541C70)
+#define SRDEBUGGER_UI_TABS_OPTIONSTABCONTROLLER___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5406D0)
 
 namespace SRDebugger::UI::Tabs
 {
-	inline static constexpr unsigned int OptionsTabController___c__DisplayClass51_0_TypeDefinitionIndex = 35359;
+	inline static constexpr unsigned int OptionsTabController___c__DisplayClass51_0_TypeDefinitionIndex = 35659;
 
 	class OptionsTabController___c__DisplayClass51_0 : public ::System::Object
 	{
 	public:
-		::SRDebugger::UI::Tabs::OptionsTabController* __4__this; // 0x10
-		::SRDebugger::UI::Tabs::OptionsTabController_CategoryInstance* categoryInstance; // 0x18
+		::SRDebugger::UI::Tabs::OptionsTabController_CategoryInstance* categoryInstance; // 0x10
+		::SRDebugger::UI::Tabs::OptionsTabController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_TABS_OPTIONSTABCONTROLLER___C__DISPLAYCLASS51_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _CreateCategory_b__1(::System::Boolean b)
+		::System::Void _CreateCategory_b__1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_TABS_OPTIONSTABCONTROLLER___C__DISPLAYCLASS51_0__CREATECATEGORY_B__1_OFFSET))(this, b);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_TABS_OPTIONSTABCONTROLLER___C__DISPLAYCLASS51_0__CREATECATEGORY_B__1_OFFSET))(this, a1);
 		}
 
 		::System::Void _CreateCategory_b__2()

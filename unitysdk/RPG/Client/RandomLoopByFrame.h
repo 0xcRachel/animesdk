@@ -9,19 +9,19 @@ namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_RANDOMLOOPBYFRAME_DOTICK_OFFSET UNITYSDK_OFFSET(0x1600E6E0)
-#define RPG_CLIENT_RANDOMLOOPBYFRAME_INIT_OFFSET UNITYSDK_OFFSET(0x1600E530)
-#define RPG_CLIENT_RANDOMLOOPBYFRAME_SETPLAYEDSTATUS_OFFSET UNITYSDK_OFFSET(0x1600E6A0)
-#define RPG_CLIENT_RANDOMLOOPBYFRAME_SETRANDOMTEXTIDLIST_OFFSET UNITYSDK_OFFSET(0x1600E580)
-#define RPG_CLIENT_RANDOMLOOPBYFRAME_TRYSTARTPERFORM_OFFSET UNITYSDK_OFFSET(0x1600E420)
-#define RPG_CLIENT_RANDOMLOOPBYFRAME_UPDATE_OFFSET UNITYSDK_OFFSET(0x1600EBA0)
-#define RPG_CLIENT_RANDOMLOOPBYFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1600EBF0)
-#define RPG_CLIENT_RANDOMLOOPBYFRAME__GETCURTARGETTIME_OFFSET UNITYSDK_OFFSET(0x1600EB20)
-#define RPG_CLIENT_RANDOMLOOPBYFRAME__PERFORMRANDOMLOOP_OFFSET UNITYSDK_OFFSET(0x1600E910)
+#define RPG_CLIENT_RANDOMLOOPBYFRAME_DOTICK_OFFSET UNITYSDK_OFFSET(0x1749A800)
+#define RPG_CLIENT_RANDOMLOOPBYFRAME_INIT_OFFSET UNITYSDK_OFFSET(0x1749A680)
+#define RPG_CLIENT_RANDOMLOOPBYFRAME_SETPLAYEDSTATUS_OFFSET UNITYSDK_OFFSET(0x1749A7C0)
+#define RPG_CLIENT_RANDOMLOOPBYFRAME_SETRANDOMTEXTIDLIST_OFFSET UNITYSDK_OFFSET(0x1749A6D0)
+#define RPG_CLIENT_RANDOMLOOPBYFRAME_TRYSTARTPERFORM_OFFSET UNITYSDK_OFFSET(0x1749A570)
+#define RPG_CLIENT_RANDOMLOOPBYFRAME_UPDATE_OFFSET UNITYSDK_OFFSET(0x1749ACF0)
+#define RPG_CLIENT_RANDOMLOOPBYFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1749AD40)
+#define RPG_CLIENT_RANDOMLOOPBYFRAME__GETCURTARGETTIME_OFFSET UNITYSDK_OFFSET(0x1749AC70)
+#define RPG_CLIENT_RANDOMLOOPBYFRAME__PERFORMRANDOMLOOP_OFFSET UNITYSDK_OFFSET(0x1749AA30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RandomLoopByFrame_TypeDefinitionIndex = 66930;
+	inline static constexpr unsigned int RandomLoopByFrame_TypeDefinitionIndex = 67872;
 
 	class RandomLoopByFrame : public ::UnityEngine::MonoBehaviour
 	{
@@ -48,14 +48,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMLOOPBYFRAME__CTOR_OFFSET))(this);
 		}
 
-		::System::Void TryStartPerform(::XLua::LuaTable* cbkOwner, ::System::Action_1<::XLua::LuaTable*>* cbk)
+		::System::Void TryStartPerform(::XLua::LuaTable* a1, ::System::Action_1<::XLua::LuaTable*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action_1<::XLua::LuaTable*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMLOOPBYFRAME_TRYSTARTPERFORM_OFFSET))(this, cbkOwner, cbk);
+			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action_1<::XLua::LuaTable*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMLOOPBYFRAME_TRYSTARTPERFORM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetRandomTextIDList(::System::Collections::Generic::List_1<::RPG::Client::TextID>* ids, ::RPG::Client::TextID finalID)
+		::System::Void SetRandomTextIDList(::System::Collections::Generic::List_1<::RPG::Client::TextID>* a1, ::RPG::Client::TextID a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::TextID>*, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMLOOPBYFRAME_SETRANDOMTEXTIDLIST_OFFSET))(this, ids, finalID);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::TextID>*, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMLOOPBYFRAME_SETRANDOMTEXTIDLIST_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void SetPlayedStatus()

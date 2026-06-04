@@ -9,20 +9,20 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationClip; }
 
-#define RPG_CLIENT_RPGFADEANIMATION_GETANIMTYPE_OFFSET UNITYSDK_OFFSET(0x14EC6B10)
-#define RPG_CLIENT_RPGFADEANIMATION_GETFADEINANIM_OFFSET UNITYSDK_OFFSET(0x14EC67D0)
-#define RPG_CLIENT_RPGFADEANIMATION_GETFADEINCLIPLENGTH_OFFSET UNITYSDK_OFFSET(0x14EC6750)
-#define RPG_CLIENT_RPGFADEANIMATION_GETFADEOUTANIM_OFFSET UNITYSDK_OFFSET(0x14EC6960)
-#define RPG_CLIENT_RPGFADEANIMATION_GETFADEOUTCLIPLENGTH_OFFSET UNITYSDK_OFFSET(0x14EC68E0)
-#define RPG_CLIENT_RPGFADEANIMATION_INIT_OFFSET UNITYSDK_OFFSET(0x14EC6BF0)
-#define RPG_CLIENT_RPGFADEANIMATION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x14EC6C30)
-#define RPG_CLIENT_RPGFADEANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x14EC6C80)
-#define RPG_CLIENT_RPGFADEANIMATION__DEFAULTFADEINANIM_OFFSET UNITYSDK_OFFSET(0x14EC6A80)
-#define RPG_CLIENT_RPGFADEANIMATION__DEFAULTFADEOUTANIM_OFFSET UNITYSDK_OFFSET(0x14EC6AD0)
+#define RPG_CLIENT_RPGFADEANIMATION_GETANIMTYPE_OFFSET UNITYSDK_OFFSET(0x17169220)
+#define RPG_CLIENT_RPGFADEANIMATION_GETFADEINANIM_OFFSET UNITYSDK_OFFSET(0x17168EC0)
+#define RPG_CLIENT_RPGFADEANIMATION_GETFADEINCLIPLENGTH_OFFSET UNITYSDK_OFFSET(0x17168E40)
+#define RPG_CLIENT_RPGFADEANIMATION_GETFADEOUTANIM_OFFSET UNITYSDK_OFFSET(0x17169060)
+#define RPG_CLIENT_RPGFADEANIMATION_GETFADEOUTCLIPLENGTH_OFFSET UNITYSDK_OFFSET(0x17168FE0)
+#define RPG_CLIENT_RPGFADEANIMATION_INIT_OFFSET UNITYSDK_OFFSET(0x17169310)
+#define RPG_CLIENT_RPGFADEANIMATION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17169350)
+#define RPG_CLIENT_RPGFADEANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x171693A0)
+#define RPG_CLIENT_RPGFADEANIMATION__DEFAULTFADEINANIM_OFFSET UNITYSDK_OFFSET(0x17169190)
+#define RPG_CLIENT_RPGFADEANIMATION__DEFAULTFADEOUTANIM_OFFSET UNITYSDK_OFFSET(0x171691E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGFadeAnimation_TypeDefinitionIndex = 67086;
+	inline static constexpr unsigned int RPGFadeAnimation_TypeDefinitionIndex = 68029;
 
 	class RPGFadeAnimation : public ::UnityEngine::MonoBehaviour
 	{
@@ -41,29 +41,29 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGFADEANIMATION__CTOR_OFFSET))(this);
 		}
 
-		::System::Single GetFadeInClipLength(::System::String* srcControllerName)
+		::System::Single GetFadeInClipLength(::System::String* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGFADEANIMATION_GETFADEINCLIPLENGTH_OFFSET))(this, srcControllerName);
+			return ((::System::Single(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGFADEANIMATION_GETFADEINCLIPLENGTH_OFFSET))(this, a1);
 		}
 
-		::System::Single GetFadeOutClipLength(::System::String* dstControllerName)
+		::System::Single GetFadeOutClipLength(::System::String* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGFADEANIMATION_GETFADEOUTCLIPLENGTH_OFFSET))(this, dstControllerName);
+			return ((::System::Single(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGFADEANIMATION_GETFADEOUTCLIPLENGTH_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::AnimationClip* GetFadeInAnim(::System::String* srcControllerName)
+		::UnityEngine::AnimationClip* GetFadeInAnim(::System::String* a1)
 		{
-			return ((::UnityEngine::AnimationClip*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGFADEANIMATION_GETFADEINANIM_OFFSET))(this, srcControllerName);
+			return ((::UnityEngine::AnimationClip*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGFADEANIMATION_GETFADEINANIM_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::AnimationClip* GetFadeOutAnim(::System::String* dstControllerName)
+		::UnityEngine::AnimationClip* GetFadeOutAnim(::System::String* a1)
 		{
-			return ((::UnityEngine::AnimationClip*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGFADEANIMATION_GETFADEOUTANIM_OFFSET))(this, dstControllerName);
+			return ((::UnityEngine::AnimationClip*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGFADEANIMATION_GETFADEOUTANIM_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::UITransitionAnimType GetAnimType(::System::String* dstControllerName)
+		::RPG::Client::UITransitionAnimType GetAnimType(::System::String* a1)
 		{
-			return ((::RPG::Client::UITransitionAnimType(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGFADEANIMATION_GETANIMTYPE_OFFSET))(this, dstControllerName);
+			return ((::RPG::Client::UITransitionAnimType(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGFADEANIMATION_GETANIMTYPE_OFFSET))(this, a1);
 		}
 
 		::System::Void Init()

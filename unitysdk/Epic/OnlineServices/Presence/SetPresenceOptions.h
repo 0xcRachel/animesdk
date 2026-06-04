@@ -5,21 +5,21 @@
 namespace Epic::OnlineServices { class EpicAccountId; }
 namespace Epic::OnlineServices::Presence { class PresenceModification; }
 
-#define EPIC_ONLINESERVICES_PRESENCE_SETPRESENCEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1960A3C0)
-#define EPIC_ONLINESERVICES_PRESENCE_SETPRESENCEOPTIONS_GET_PRESENCEMODIFICATIONHANDLE_OFFSET UNITYSDK_OFFSET(0x1960A3E0)
-#define EPIC_ONLINESERVICES_PRESENCE_SETPRESENCEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1960A3D0)
-#define EPIC_ONLINESERVICES_PRESENCE_SETPRESENCEOPTIONS_SET_PRESENCEMODIFICATIONHANDLE_OFFSET UNITYSDK_OFFSET(0x1960A3F0)
-#define EPIC_ONLINESERVICES_PRESENCE_SETPRESENCEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1960A400)
+#define EPIC_ONLINESERVICES_PRESENCE_SETPRESENCEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A3CE0F0)
+#define EPIC_ONLINESERVICES_PRESENCE_SETPRESENCEOPTIONS_GET_PRESENCEMODIFICATIONHANDLE_OFFSET UNITYSDK_OFFSET(0x1A3CE110)
+#define EPIC_ONLINESERVICES_PRESENCE_SETPRESENCEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A3CE100)
+#define EPIC_ONLINESERVICES_PRESENCE_SETPRESENCEOPTIONS_SET_PRESENCEMODIFICATIONHANDLE_OFFSET UNITYSDK_OFFSET(0x1A3CE120)
+#define EPIC_ONLINESERVICES_PRESENCE_SETPRESENCEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3CE130)
 
 namespace Epic::OnlineServices::Presence
 {
-	inline static constexpr unsigned int SetPresenceOptions_TypeDefinitionIndex = 41624;
+	inline static constexpr unsigned int SetPresenceOptions_TypeDefinitionIndex = 42427;
 
 	class SetPresenceOptions : public ::System::Object
 	{
 	public:
-		::Epic::OnlineServices::Presence::PresenceModification* _PresenceModificationHandle_k__BackingField; // 0x10
-		::Epic::OnlineServices::EpicAccountId* _LocalUserId_k__BackingField; // 0x18
+		::Epic::OnlineServices::EpicAccountId* _LocalUserId_k__BackingField; // 0x10
+		::Epic::OnlineServices::Presence::PresenceModification* _PresenceModificationHandle_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -31,9 +31,9 @@ namespace Epic::OnlineServices::Presence
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_SETPRESENCEOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_SETPRESENCEOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_SETPRESENCEOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::Presence::PresenceModification* get_PresenceModificationHandle()
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::Presence
 			return ((::Epic::OnlineServices::Presence::PresenceModification*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_SETPRESENCEOPTIONS_GET_PRESENCEMODIFICATIONHANDLE_OFFSET))(this);
 		}
 
-		::System::Void set_PresenceModificationHandle(::Epic::OnlineServices::Presence::PresenceModification* value)
+		::System::Void set_PresenceModificationHandle(::Epic::OnlineServices::Presence::PresenceModification* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Presence::PresenceModification*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_SETPRESENCEOPTIONS_SET_PRESENCEMODIFICATIONHANDLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Presence::PresenceModification*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_SETPRESENCEOPTIONS_SET_PRESENCEMODIFICATIONHANDLE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -8,25 +8,25 @@ namespace System { class String; }
 namespace UnityEngine { class ILogHandler; }
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_LOGGER_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1A46D2F0)
-#define UNITYENGINE_LOGGER_GET_FILTERLOGTYPE_OFFSET UNITYSDK_OFFSET(0x1A46D2A0)
-#define UNITYENGINE_LOGGER_GET_LOGENABLED_OFFSET UNITYSDK_OFFSET(0x1A46D280)
-#define UNITYENGINE_LOGGER_GET_LOGHANDLER_OFFSET UNITYSDK_OFFSET(0x1A46D260)
-#define UNITYENGINE_LOGGER_ISLOGTYPEALLOWED_OFFSET UNITYSDK_OFFSET(0x1A46D2C0)
-#define UNITYENGINE_LOGGER_LOGERROR_OFFSET UNITYSDK_OFFSET(0x1A46D720)
-#define UNITYENGINE_LOGGER_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1A46D940)
-#define UNITYENGINE_LOGGER_LOGFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1A46DB00)
-#define UNITYENGINE_LOGGER_LOGFORMAT_OFFSET UNITYSDK_OFFSET(0x1A46DA10)
-#define UNITYENGINE_LOGGER_LOG_1_OFFSET UNITYSDK_OFFSET(0x1A46D580)
-#define UNITYENGINE_LOGGER_LOG_OFFSET UNITYSDK_OFFSET(0x1A46D3F0)
-#define UNITYENGINE_LOGGER_SET_FILTERLOGTYPE_OFFSET UNITYSDK_OFFSET(0x1A46D2B0)
-#define UNITYENGINE_LOGGER_SET_LOGENABLED_OFFSET UNITYSDK_OFFSET(0x1A46D290)
-#define UNITYENGINE_LOGGER_SET_LOGHANDLER_OFFSET UNITYSDK_OFFSET(0x1A46D270)
-#define UNITYENGINE_LOGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A46D250)
+#define UNITYENGINE_LOGGER_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1B191B70)
+#define UNITYENGINE_LOGGER_GET_FILTERLOGTYPE_OFFSET UNITYSDK_OFFSET(0x1B191B20)
+#define UNITYENGINE_LOGGER_GET_LOGENABLED_OFFSET UNITYSDK_OFFSET(0x1B191B00)
+#define UNITYENGINE_LOGGER_GET_LOGHANDLER_OFFSET UNITYSDK_OFFSET(0x1B191AE0)
+#define UNITYENGINE_LOGGER_ISLOGTYPEALLOWED_OFFSET UNITYSDK_OFFSET(0x1B191B40)
+#define UNITYENGINE_LOGGER_LOGERROR_OFFSET UNITYSDK_OFFSET(0x1B191F60)
+#define UNITYENGINE_LOGGER_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1B192150)
+#define UNITYENGINE_LOGGER_LOGFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1B192310)
+#define UNITYENGINE_LOGGER_LOGFORMAT_OFFSET UNITYSDK_OFFSET(0x1B192220)
+#define UNITYENGINE_LOGGER_LOG_1_OFFSET UNITYSDK_OFFSET(0x1B191DE0)
+#define UNITYENGINE_LOGGER_LOG_OFFSET UNITYSDK_OFFSET(0x1B191C70)
+#define UNITYENGINE_LOGGER_SET_FILTERLOGTYPE_OFFSET UNITYSDK_OFFSET(0x1B191B30)
+#define UNITYENGINE_LOGGER_SET_LOGENABLED_OFFSET UNITYSDK_OFFSET(0x1B191B10)
+#define UNITYENGINE_LOGGER_SET_LOGHANDLER_OFFSET UNITYSDK_OFFSET(0x1B191AF0)
+#define UNITYENGINE_LOGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B191AD0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Logger_TypeDefinitionIndex = 4025;
+	inline static constexpr unsigned int Logger_TypeDefinitionIndex = 4199;
 
 	class Logger : public ::System::Object
 	{
@@ -35,9 +35,9 @@ namespace UnityEngine
 		::System::Boolean _logEnabled_k__BackingField; // 0x18
 		::UnityEngine::LogType _filterLogType_k__BackingField; // 0x1C
 
-		::System::Void _ctor(::UnityEngine::ILogHandler* logHandler)
+		::System::Void _ctor(::UnityEngine::ILogHandler* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ILogHandler*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER__CTOR_OFFSET))(this, logHandler);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ILogHandler*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER__CTOR_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::ILogHandler* get_logHandler()
@@ -45,9 +45,9 @@ namespace UnityEngine
 			return ((::UnityEngine::ILogHandler*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_GET_LOGHANDLER_OFFSET))(this);
 		}
 
-		::System::Void set_logHandler(::UnityEngine::ILogHandler* value)
+		::System::Void set_logHandler(::UnityEngine::ILogHandler* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ILogHandler*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_SET_LOGHANDLER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ILogHandler*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_SET_LOGHANDLER_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_logEnabled()
@@ -55,9 +55,9 @@ namespace UnityEngine
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_GET_LOGENABLED_OFFSET))(this);
 		}
 
-		::System::Void set_logEnabled(::System::Boolean value)
+		::System::Void set_logEnabled(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_SET_LOGENABLED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_SET_LOGENABLED_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::LogType get_filterLogType()
@@ -65,49 +65,49 @@ namespace UnityEngine
 			return ((::UnityEngine::LogType(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_GET_FILTERLOGTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_filterLogType(::UnityEngine::LogType value)
+		::System::Void set_filterLogType(::UnityEngine::LogType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::LogType))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_SET_FILTERLOGTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::LogType))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_SET_FILTERLOGTYPE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsLogTypeAllowed(::UnityEngine::LogType logType)
+		::System::Boolean IsLogTypeAllowed(::UnityEngine::LogType a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::LogType))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_ISLOGTYPEALLOWED_OFFSET))(this, logType);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::LogType))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_ISLOGTYPEALLOWED_OFFSET))(this, a1);
 		}
 
-		static ::System::String* GetString(::System::Object* message)
+		static ::System::String* GetString(::System::Object* a1)
 		{
-			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_GETSTRING_OFFSET))(message);
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_GETSTRING_OFFSET))(a1);
 		}
 
-		::System::Void Log(::UnityEngine::LogType logType, ::System::Object* message)
+		::System::Void Log(::UnityEngine::LogType a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::LogType, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_LOG_OFFSET))(this, logType, message);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::LogType, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_LOG_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Log_1(::UnityEngine::LogType logType, ::System::Object* message, ::UnityEngine::Object* context)
+		::System::Void Log_1(::UnityEngine::LogType a1, ::System::Object* a2, ::UnityEngine::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::LogType, ::System::Object*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_LOG_1_OFFSET))(this, logType, message, context);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::LogType, ::System::Object*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_LOG_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void LogError(::System::String* tag, ::System::Object* message)
+		::System::Void LogError(::System::String* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_LOGERROR_OFFSET))(this, tag, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_LOGERROR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void LogException(::System::Exception* exception, ::UnityEngine::Object* context)
+		::System::Void LogException(::System::Exception* a1, ::UnityEngine::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_LOGEXCEPTION_OFFSET))(this, exception, context);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_LOGEXCEPTION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void LogFormat(::UnityEngine::LogType logType, ::System::String* format, ::Il2CppArray<::System::Object*>* args)
+		::System::Void LogFormat(::UnityEngine::LogType a1, ::System::String* a2, ::Il2CppArray<::System::Object*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::LogType, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_LOGFORMAT_OFFSET))(this, logType, format, args);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::LogType, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_LOGFORMAT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void LogFormat_1(::UnityEngine::LogType logType, ::UnityEngine::Object* context, ::System::String* format, ::Il2CppArray<::System::Object*>* args)
+		::System::Void LogFormat_1(::UnityEngine::LogType a1, ::UnityEngine::Object* a2, ::System::String* a3, ::Il2CppArray<::System::Object*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::LogType, ::UnityEngine::Object*, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_LOGFORMAT_1_OFFSET))(this, logType, context, format, args);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::LogType, ::UnityEngine::Object*, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOGGER_LOGFORMAT_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

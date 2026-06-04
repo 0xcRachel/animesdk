@@ -7,35 +7,35 @@ namespace RPG::Client { class RPGAnimationEvent; }
 namespace RPG::GameCore { class MonopolyClickContentConfigRow; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_UI3DGAME_MONOPOLYTRASHBIN_CLICK_OFFSET UNITYSDK_OFFSET(0x138EEF60)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYTRASHBIN_METHOD_7_367B9590522079D1_OFFSET UNITYSDK_OFFSET(0x138EF130)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYTRASHBIN_METHOD_7_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x138EF3E0)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYTRASHBIN_METHOD_7_FA031B982C62201B_OFFSET UNITYSDK_OFFSET(0x138EF4A0)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYTRASHBIN_PLAYFINALANIM_OFFSET UNITYSDK_OFFSET(0x138EF500)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYTRASHBIN_START_OFFSET UNITYSDK_OFFSET(0x138EF6E0)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYTRASHBIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x138EF780)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYTRASHBIN__CTOR_OFFSET UNITYSDK_OFFSET(0x138EF770)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYTRASHBIN_CLICK_OFFSET UNITYSDK_OFFSET(0x143D2D10)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYTRASHBIN_METHOD_7_367B9590522079D1_OFFSET UNITYSDK_OFFSET(0x143D2F70)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYTRASHBIN_METHOD_7_7C051F64D5D93174_OFFSET UNITYSDK_OFFSET(0x143D32E0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYTRASHBIN_METHOD_7_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x143D3220)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYTRASHBIN_PLAYFINALANIM_OFFSET UNITYSDK_OFFSET(0x143D3340)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYTRASHBIN_START_OFFSET UNITYSDK_OFFSET(0x143D3520)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYTRASHBIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x143D35C0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYTRASHBIN__CTOR_OFFSET UNITYSDK_OFFSET(0x143D35B0)
 
 namespace RPG::Client::UI3DGame
 {
-	inline static constexpr unsigned int MonopolyTrashBin_TypeDefinitionIndex = 69758;
+	inline static constexpr unsigned int MonopolyTrashBin_TypeDefinitionIndex = 70570;
 
 	class MonopolyTrashBin : public ::RPG::Client::UI3DGame::MonoUI3DGameView
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_7_8()
+		static ::System::Int32* StaticGet_Field_7_0()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonopolyTrashBin_TypeDefinitionIndex)->GetStaticField(0xF2E0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonopolyTrashBin_TypeDefinitionIndex)->GetStaticField(0xFB20);
 		}
-		static ::System::Int32* StaticGet_Field_7_7()
+		static ::System::Int32* StaticGet_Field_7_1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonopolyTrashBin_TypeDefinitionIndex)->GetStaticField(0xF2E4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonopolyTrashBin_TypeDefinitionIndex)->GetStaticField(0xFB24);
 		}
-		::System::UInt32 Field_7_0; // 0x30
-		::System::UInt32 Field_7_1; // 0x34
-		::System::UInt32 Field_7_2; // 0x38
-		::System::UInt32 Field_7_3; // 0x3C
-		::RPG::Client::UI3DGame::MonopolyTrashBin_TrashBinState Field_7_4; // 0x40
+		::System::UInt32 Field_7_2; // 0x30
+		::System::UInt32 Field_7_3; // 0x34
+		::System::UInt32 Field_7_4; // 0x38
+		::System::UInt32 Field_7_5; // 0x3C
+		::RPG::Client::UI3DGame::MonopolyTrashBin_TrashBinState Field_7_6; // 0x40
 		::UnityEngine::Animator* AnimController; // 0x48
 		::RPG::Client::RPGAnimationEvent* RPGAnimEvent; // 0x50
 
@@ -74,9 +74,9 @@ namespace RPG::Client::UI3DGame
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYTRASHBIN_START_OFFSET))(this);
 		}
 
-		::RPG::GameCore::MonopolyClickContentConfigRow* Method_7_FA031B982C62201B()
+		::RPG::GameCore::MonopolyClickContentConfigRow* Method_7_7C051F64D5D93174()
 		{
-			return ((::RPG::GameCore::MonopolyClickContentConfigRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYTRASHBIN_METHOD_7_FA031B982C62201B_OFFSET))(this);
+			return ((::RPG::GameCore::MonopolyClickContentConfigRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYTRASHBIN_METHOD_7_7C051F64D5D93174_OFFSET))(this);
 		}
 	};
 }

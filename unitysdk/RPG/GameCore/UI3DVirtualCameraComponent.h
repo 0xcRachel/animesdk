@@ -20,65 +20,65 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_ACTIVEVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0x15578D30)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_CREATECAMERASTATE_1_OFFSET UNITYSDK_OFFSET(0x15583290)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_CREATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x155831C0)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15582DB0)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_ENABLEMAINLIGHTCHANGE_OFFSET UNITYSDK_OFFSET(0x155835F0)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_GET_AREACONFIG_OFFSET UNITYSDK_OFFSET(0x15583B10)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_GET_AREAROOTTRANS_OFFSET UNITYSDK_OFFSET(0x15583B30)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_GET_BRAIN_OFFSET UNITYSDK_OFFSET(0x15583AF0)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_GET_CAMERA_OFFSET UNITYSDK_OFFSET(0x15583A90)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_GET_INPUTDATA_OFFSET UNITYSDK_OFFSET(0x15577430)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_GET_ISENABLEMAINLIGHTCHANGE_OFFSET UNITYSDK_OFFSET(0x15583AB0)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_GET_TARGETENTITY_OFFSET UNITYSDK_OFFSET(0x15583AD0)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_INITCOMPONENT_OFFSET UNITYSDK_OFFSET(0x15582F40)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x155838A0)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_RESETINPUTCONTROLLER_OFFSET UNITYSDK_OFFSET(0x15583720)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_RESETMAINLIGHTDIR_OFFSET UNITYSDK_OFFSET(0x15582ED0)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SETBLEND_OFFSET UNITYSDK_OFFSET(0x15583410)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SETMAINLIGHTDIROFFSET_OFFSET UNITYSDK_OFFSET(0x15583370)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SETTARGETENTITY_OFFSET UNITYSDK_OFFSET(0x155833C0)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_AREACONFIG_OFFSET UNITYSDK_OFFSET(0x15583B20)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_AREAROOTTRANS_OFFSET UNITYSDK_OFFSET(0x15583B40)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_BRAIN_OFFSET UNITYSDK_OFFSET(0x15583B00)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_CAMERA_OFFSET UNITYSDK_OFFSET(0x15583AA0)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_ISENABLEMAINLIGHTCHANGE_OFFSET UNITYSDK_OFFSET(0x15583AC0)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_TARGETENTITY_OFFSET UNITYSDK_OFFSET(0x15583AE0)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_TICK_OFFSET UNITYSDK_OFFSET(0x15583820)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_UPDATECINEMACHINEBRAIN_OFFSET UNITYSDK_OFFSET(0x155837C0)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x15583CF0)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT__GETACTIVECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x15583780)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT__SETUPBLEND_OFFSET UNITYSDK_OFFSET(0x15583570)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT__TICKENVIROMENT_OFFSET UNITYSDK_OFFSET(0x15583980)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT__UPDATEMAINLIGHTDIR_OFFSET UNITYSDK_OFFSET(0x15583B50)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT__UPDATEUI3DCAMERASTATE_OFFSET UNITYSDK_OFFSET(0x15583A00)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT___IFIXBASEPROXY_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x15583D20)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x15583D10)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_ACTIVEVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0x17B374D0)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_CREATECAMERASTATE_1_OFFSET UNITYSDK_OFFSET(0x17B41FE0)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_CREATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x17B41E90)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17B41A00)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_ENABLEMAINLIGHTCHANGE_OFFSET UNITYSDK_OFFSET(0x17B42400)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_GET_AREACONFIG_OFFSET UNITYSDK_OFFSET(0x17B42930)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_GET_AREAROOTTRANS_OFFSET UNITYSDK_OFFSET(0x17B42950)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_GET_BRAIN_OFFSET UNITYSDK_OFFSET(0x17B42910)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_GET_CAMERA_OFFSET UNITYSDK_OFFSET(0x17B428B0)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_GET_INPUTDATA_OFFSET UNITYSDK_OFFSET(0x17B35AF0)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_GET_ISENABLEMAINLIGHTCHANGE_OFFSET UNITYSDK_OFFSET(0x17B428D0)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_GET_TARGETENTITY_OFFSET UNITYSDK_OFFSET(0x17B428F0)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_INITCOMPONENT_OFFSET UNITYSDK_OFFSET(0x17B41BD0)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x17B426B0)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_RESETINPUTCONTROLLER_OFFSET UNITYSDK_OFFSET(0x17B42530)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_RESETMAINLIGHTDIR_OFFSET UNITYSDK_OFFSET(0x17B41B60)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SETBLEND_OFFSET UNITYSDK_OFFSET(0x17B421E0)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SETMAINLIGHTDIROFFSET_OFFSET UNITYSDK_OFFSET(0x17B42140)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SETTARGETENTITY_OFFSET UNITYSDK_OFFSET(0x17B42190)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_AREACONFIG_OFFSET UNITYSDK_OFFSET(0x17B42940)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_AREAROOTTRANS_OFFSET UNITYSDK_OFFSET(0x17B42960)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_BRAIN_OFFSET UNITYSDK_OFFSET(0x17B42920)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_CAMERA_OFFSET UNITYSDK_OFFSET(0x17B428C0)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_ISENABLEMAINLIGHTCHANGE_OFFSET UNITYSDK_OFFSET(0x17B428E0)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_TARGETENTITY_OFFSET UNITYSDK_OFFSET(0x17B42900)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_TICK_OFFSET UNITYSDK_OFFSET(0x17B42630)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_UPDATECINEMACHINEBRAIN_OFFSET UNITYSDK_OFFSET(0x17B425D0)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x17B42B10)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT__GETACTIVECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x17B42590)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT__SETUPBLEND_OFFSET UNITYSDK_OFFSET(0x17B42380)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT__TICKENVIROMENT_OFFSET UNITYSDK_OFFSET(0x17B427B0)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT__UPDATEMAINLIGHTDIR_OFFSET UNITYSDK_OFFSET(0x17B42970)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT__UPDATEUI3DCAMERASTATE_OFFSET UNITYSDK_OFFSET(0x17B42820)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT___IFIXBASEPROXY_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x17B42B40)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x17B42B30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UI3DVirtualCameraComponent_TypeDefinitionIndex = 53054;
+	inline static constexpr unsigned int UI3DVirtualCameraComponent_TypeDefinitionIndex = 53764;
 
 	class UI3DVirtualCameraComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:
 		// static const ::System::String* _BLEND_CONFIG_PATH; // 0x0
-		::UnityEngine::Transform* _CameraTrans; // 0x18
-		::RPG::GameCore::ManikinAreaConfig* _AreaConfig_k__BackingField; // 0x20
-		::UnityEngine::Camera* _Camera_k__BackingField; // 0x28
-		::Cinemachine::CinemachineBrain* _Brain_k__BackingField; // 0x30
-		::RPG::GameCore::UI3DCameraStateBase* _ActiveCameraState; // 0x38
-		::RPG::GameCore::GameEntity* _TargetEntity_k__BackingField; // 0x40
-		::RPG::Client::BlendDefinition* _BlendConfig; // 0x48
-		::UnityEngine::Transform* _AreaRootTrans_k__BackingField; // 0x50
-		::System::Collections::Generic::List_1<::RPG::GameCore::UI3DCameraStateBase*>* _CameraStates; // 0x58
-		::RPG::Client::EnvironmentSystem* _EnvironmentSystemRef; // 0x60
-		::RPG::Client::InputDataController* _InputControllerRef; // 0x68
-		::UnityEngine::Vector4 _MainLightDir; // 0x70
-		::UnityEngine::Vector2 _MainLightDirOffset; // 0x80
-		::System::Boolean _IsEnviromentProfileActive; // 0x88
-		::System::Boolean _IsEnableMainLightChange_k__BackingField; // 0x89
+		::UnityEngine::Camera* _Camera_k__BackingField; // 0x18
+		::UnityEngine::Transform* _AreaRootTrans_k__BackingField; // 0x20
+		::RPG::GameCore::UI3DCameraStateBase* _ActiveCameraState; // 0x28
+		::System::Collections::Generic::List_1<::RPG::GameCore::UI3DCameraStateBase*>* _CameraStates; // 0x30
+		::RPG::GameCore::GameEntity* _TargetEntity_k__BackingField; // 0x38
+		::RPG::Client::BlendDefinition* _BlendConfig; // 0x40
+		::Cinemachine::CinemachineBrain* _Brain_k__BackingField; // 0x48
+		::RPG::GameCore::ManikinAreaConfig* _AreaConfig_k__BackingField; // 0x50
+		::RPG::Client::EnvironmentSystem* _EnvironmentSystemRef; // 0x58
+		::RPG::Client::InputDataController* _InputControllerRef; // 0x60
+		::UnityEngine::Transform* _CameraTrans; // 0x68
+		::System::Boolean _IsEnableMainLightChange_k__BackingField; // 0x70
+		::System::Boolean _IsEnviromentProfileActive; // 0x71
+		::UnityEngine::Vector4 _MainLightDir; // 0x74
+		::UnityEngine::Vector2 _MainLightDirOffset; // 0x84
 		::UnityEngine::Vector2 _DEFAULT_MAIN_LIGHT_DIR; // 0x8C
 
 		::System::Void _ctor()
@@ -91,34 +91,34 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void InitComponent(::UnityEngine::Camera* camera)
+		::System::Void InitComponent(::UnityEngine::Camera* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_INITCOMPONENT_OFFSET))(this, camera);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_INITCOMPONENT_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::UI3DCameraStateBase* CreateCameraState(::UnityEngine::Transform* virtualCameraTrans)
+		::RPG::GameCore::UI3DCameraStateBase* CreateCameraState(::UnityEngine::Transform* a1)
 		{
-			return ((::RPG::GameCore::UI3DCameraStateBase*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_CREATECAMERASTATE_OFFSET))(this, virtualCameraTrans);
+			return ((::RPG::GameCore::UI3DCameraStateBase*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_CREATECAMERASTATE_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::UI3DCameraStateBase* CreateCameraState_1(::System::Type* cameraStateType, ::UnityEngine::Transform* virtualCameraTrans)
+		::RPG::GameCore::UI3DCameraStateBase* CreateCameraState_1(::System::Type* a1, ::UnityEngine::Transform* a2)
 		{
-			return ((::RPG::GameCore::UI3DCameraStateBase*(*)(::PVOID, ::System::Type*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_CREATECAMERASTATE_1_OFFSET))(this, cameraStateType, virtualCameraTrans);
+			return ((::RPG::GameCore::UI3DCameraStateBase*(*)(::PVOID, ::System::Type*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_CREATECAMERASTATE_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetMainLightDirOffset(::UnityEngine::Vector2 offset)
+		::System::Void SetMainLightDirOffset(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SETMAINLIGHTDIROFFSET_OFFSET))(this, offset);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SETMAINLIGHTDIROFFSET_OFFSET))(this, a1);
 		}
 
-		::System::Void SetTargetEntity(::RPG::GameCore::GameEntity* model)
+		::System::Void SetTargetEntity(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SETTARGETENTITY_OFFSET))(this, model);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SETTARGETENTITY_OFFSET))(this, a1);
 		}
 
-		::System::Void SetBlend(::System::Int32 id)
+		::System::Void SetBlend(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SETBLEND_OFFSET))(this, id);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SETBLEND_OFFSET))(this, a1);
 		}
 
 		::System::Void ResetMainLightDir()
@@ -126,9 +126,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_RESETMAINLIGHTDIR_OFFSET))(this);
 		}
 
-		::System::Void EnableMainLightChange(::System::Boolean value)
+		::System::Void EnableMainLightChange(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_ENABLEMAINLIGHTCHANGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_ENABLEMAINLIGHTCHANGE_OFFSET))(this, a1);
 		}
 
 		::System::Void ResetInputController()
@@ -136,9 +136,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_RESETINPUTCONTROLLER_OFFSET))(this);
 		}
 
-		::System::Void ActiveVirtualCamera(::RPG::GameCore::UI3DCameraStateBase* cameraState)
+		::System::Void ActiveVirtualCamera(::RPG::GameCore::UI3DCameraStateBase* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::UI3DCameraStateBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_ACTIVEVIRTUALCAMERA_OFFSET))(this, cameraState);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::UI3DCameraStateBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_ACTIVEVIRTUALCAMERA_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateCinemachineBrain()
@@ -146,14 +146,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_UPDATECINEMACHINEBRAIN_OFFSET))(this);
 		}
 
-		::System::Void Tick(::System::Single fElapsedTimeInSec)
+		::System::Void Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_TICK_OFFSET))(this, fElapsedTimeInSec);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Void LateUpdate(::System::Single fElapsedTimeInSec)
+		::System::Void LateUpdate(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_LATEUPDATE_OFFSET))(this, fElapsedTimeInSec);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_LATEUPDATE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Camera* get_Camera()
@@ -161,9 +161,9 @@ namespace RPG::GameCore
 			return ((::UnityEngine::Camera*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_GET_CAMERA_OFFSET))(this);
 		}
 
-		::System::Void set_Camera(::UnityEngine::Camera* value)
+		::System::Void set_Camera(::UnityEngine::Camera* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_CAMERA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_CAMERA_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsEnableMainLightChange()
@@ -171,9 +171,9 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_GET_ISENABLEMAINLIGHTCHANGE_OFFSET))(this);
 		}
 
-		::System::Void set_IsEnableMainLightChange(::System::Boolean value)
+		::System::Void set_IsEnableMainLightChange(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_ISENABLEMAINLIGHTCHANGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_ISENABLEMAINLIGHTCHANGE_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::GameEntity* get_TargetEntity()
@@ -181,9 +181,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_GET_TARGETENTITY_OFFSET))(this);
 		}
 
-		::System::Void set_TargetEntity(::RPG::GameCore::GameEntity* value)
+		::System::Void set_TargetEntity(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_TARGETENTITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_TARGETENTITY_OFFSET))(this, a1);
 		}
 
 		::Cinemachine::CinemachineBrain* get_Brain()
@@ -191,9 +191,9 @@ namespace RPG::GameCore
 			return ((::Cinemachine::CinemachineBrain*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_GET_BRAIN_OFFSET))(this);
 		}
 
-		::System::Void set_Brain(::Cinemachine::CinemachineBrain* value)
+		::System::Void set_Brain(::Cinemachine::CinemachineBrain* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineBrain*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_BRAIN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineBrain*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_BRAIN_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::ManikinAreaConfig* get_AreaConfig()
@@ -201,9 +201,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::ManikinAreaConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_GET_AREACONFIG_OFFSET))(this);
 		}
 
-		::System::Void set_AreaConfig(::RPG::GameCore::ManikinAreaConfig* value)
+		::System::Void set_AreaConfig(::RPG::GameCore::ManikinAreaConfig* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ManikinAreaConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_AREACONFIG_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ManikinAreaConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_AREACONFIG_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ClientInputData* get_InputData()
@@ -216,9 +216,9 @@ namespace RPG::GameCore
 			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_GET_AREAROOTTRANS_OFFSET))(this);
 		}
 
-		::System::Void set_AreaRootTrans(::UnityEngine::Transform* value)
+		::System::Void set_AreaRootTrans(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_AREAROOTTRANS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT_SET_AREAROOTTRANS_OFFSET))(this, a1);
 		}
 
 		::System::Void _TickEnviroment()
@@ -241,19 +241,19 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::UI3DCameraStateBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT__GETACTIVECAMERASTATE_OFFSET))(this);
 		}
 
-		::System::Void _SetupBlend(::Cinemachine::CinemachineBlendDefinition_Style style, ::System::Single time, ::UnityEngine::AnimationCurve* curve)
+		::System::Void _SetupBlend(::Cinemachine::CinemachineBlendDefinition_Style a1, ::System::Single a2, ::UnityEngine::AnimationCurve* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineBlendDefinition_Style, ::System::Single, ::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT__SETUPBLEND_OFFSET))(this, style, time, curve);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineBlendDefinition_Style, ::System::Single, ::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT__SETUPBLEND_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __iFixBaseProxy_Tick(::System::Single P0)
+		::System::Void __iFixBaseProxy_Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT___IFIXBASEPROXY_TICK_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT___IFIXBASEPROXY_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Void __iFixBaseProxy_LateUpdate(::System::Single P0)
+		::System::Void __iFixBaseProxy_LateUpdate(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT___IFIXBASEPROXY_LATEUPDATE_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT___IFIXBASEPROXY_LATEUPDATE_OFFSET))(this, a1);
 		}
 	};
 }

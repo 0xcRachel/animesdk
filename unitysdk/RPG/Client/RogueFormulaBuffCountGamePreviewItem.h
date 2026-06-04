@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/RogueFormulaBuffCountItemBase.h"
 
-#define RPG_CLIENT_ROGUEFORMULABUFFCOUNTGAMEPREVIEWITEM_GET_ACHIEVEDBUFFCOUNT_OFFSET UNITYSDK_OFFSET(0x177346F0)
-#define RPG_CLIENT_ROGUEFORMULABUFFCOUNTGAMEPREVIEWITEM_GET_ISBUFFCOUNTSATISFIED_OFFSET UNITYSDK_OFFSET(0x17734710)
-#define RPG_CLIENT_ROGUEFORMULABUFFCOUNTGAMEPREVIEWITEM_GET_REQUIREDBUFFCOUNT_OFFSET UNITYSDK_OFFSET(0x17734700)
-#define RPG_CLIENT_ROGUEFORMULABUFFCOUNTGAMEPREVIEWITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x177346D0)
+#define RPG_CLIENT_ROGUEFORMULABUFFCOUNTGAMEPREVIEWITEM_GET_ACHIEVEDBUFFCOUNT_OFFSET UNITYSDK_OFFSET(0x191D4A60)
+#define RPG_CLIENT_ROGUEFORMULABUFFCOUNTGAMEPREVIEWITEM_GET_ISBUFFCOUNTSATISFIED_OFFSET UNITYSDK_OFFSET(0x191D4A80)
+#define RPG_CLIENT_ROGUEFORMULABUFFCOUNTGAMEPREVIEWITEM_GET_REQUIREDBUFFCOUNT_OFFSET UNITYSDK_OFFSET(0x191D4A70)
+#define RPG_CLIENT_ROGUEFORMULABUFFCOUNTGAMEPREVIEWITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x191D4A40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueFormulaBuffCountGamePreviewItem_TypeDefinitionIndex = 61909;
+	inline static constexpr unsigned int RogueFormulaBuffCountGamePreviewItem_TypeDefinitionIndex = 62842;
 
 	class RogueFormulaBuffCountGamePreviewItem : public ::RPG::Client::RogueFormulaBuffCountItemBase
 	{
@@ -17,9 +17,9 @@ namespace RPG::Client
 		::System::Int32 _RequiredBuffCount_k__BackingField; // 0x18
 		::System::Int32 _AchievedBuffCount_k__BackingField; // 0x1C
 
-		::System::Void _ctor(::System::UInt32 buffTypeID, ::System::Int32 achievedBuffCount, ::System::Int32 requiredBuffCount)
+		::System::Void _ctor(::System::UInt32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFORMULABUFFCOUNTGAMEPREVIEWITEM__CTOR_OFFSET))(this, buffTypeID, achievedBuffCount, requiredBuffCount);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFORMULABUFFCOUNTGAMEPREVIEWITEM__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 get_AchievedBuffCount()

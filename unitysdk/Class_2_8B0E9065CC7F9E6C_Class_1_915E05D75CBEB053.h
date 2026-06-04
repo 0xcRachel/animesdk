@@ -5,15 +5,15 @@
 class Class_2_3BFC5C66FD44F207;
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_2_8B0E9065CC7F9E6C_CLASS_1_915E05D75CBEB053__CTOR_OFFSET UNITYSDK_OFFSET(0x1002F870)
+#define CLASS_2_8B0E9065CC7F9E6C_CLASS_1_915E05D75CBEB053__CTOR_OFFSET UNITYSDK_OFFSET(0x14637380)
 
-inline static constexpr unsigned int Class_2_8B0E9065CC7F9E6C_Class_1_915E05D75CBEB053_TypeDefinitionIndex = 65860;
+inline static constexpr unsigned int Class_2_8B0E9065CC7F9E6C_Class_1_915E05D75CBEB053_TypeDefinitionIndex = 66793;
 
 class Class_2_8B0E9065CC7F9E6C_Class_1_915E05D75CBEB053 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::Class_2_3BFC5C66FD44F207* Field_1_1; // 0x18
+	::Class_2_3BFC5C66FD44F207* Field_1_0; // 0x10
+	::RPG::GameCore::GameEntity* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

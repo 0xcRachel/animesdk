@@ -5,10 +5,10 @@
 namespace UnityEngine { class Collision; }
 namespace UnityEngine { class GameObject; }
 
-#define AKTRIGGERCOLLISIONEXIT_ONCOLLISIONEXIT_OFFSET UNITYSDK_OFFSET(0x190E8FB0)
-#define AKTRIGGERCOLLISIONEXIT__CTOR_OFFSET UNITYSDK_OFFSET(0x190E90B0)
+#define AKTRIGGERCOLLISIONEXIT_ONCOLLISIONEXIT_OFFSET UNITYSDK_OFFSET(0x196D6600)
+#define AKTRIGGERCOLLISIONEXIT__CTOR_OFFSET UNITYSDK_OFFSET(0x196D6710)
 
-inline static constexpr unsigned int AkTriggerCollisionExit_TypeDefinitionIndex = 40517;
+inline static constexpr unsigned int AkTriggerCollisionExit_TypeDefinitionIndex = 41344;
 
 class AkTriggerCollisionExit : public ::AkTriggerBase
 {
@@ -20,8 +20,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKTRIGGERCOLLISIONEXIT__CTOR_OFFSET))(this);
 	}
 
-	::System::Void OnCollisionExit(::UnityEngine::Collision* in_other)
+	::System::Void OnCollisionExit(::UnityEngine::Collision* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision*))((::PBYTE)hIl2Cpp + AKTRIGGERCOLLISIONEXIT_ONCOLLISIONEXIT_OFFSET))(this, in_other);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision*))((::PBYTE)hIl2Cpp + AKTRIGGERCOLLISIONEXIT_ONCOLLISIONEXIT_OFFSET))(this, a1);
 	}
 };

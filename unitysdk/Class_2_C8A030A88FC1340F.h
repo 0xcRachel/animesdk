@@ -6,24 +6,24 @@ namespace RPG::GameCore { class QuestProgressChangeListener; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define CLASS_2_C8A030A88FC1340F_DISPOSE_OFFSET UNITYSDK_OFFSET(0x100FF9B0)
-#define CLASS_2_C8A030A88FC1340F_METHOD_2_1AE24536EC302522_OFFSET UNITYSDK_OFFSET(0x100FFC00)
-#define CLASS_2_C8A030A88FC1340F_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x100FF930)
-#define CLASS_2_C8A030A88FC1340F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x100FF700)
-#define CLASS_2_C8A030A88FC1340F_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x100FF880)
-#define CLASS_2_C8A030A88FC1340F_TICK_OFFSET UNITYSDK_OFFSET(0x100FFA90)
-#define CLASS_2_C8A030A88FC1340F__CTOR_OFFSET UNITYSDK_OFFSET(0x100FF6E0)
+#define CLASS_2_C8A030A88FC1340F_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13F3F620)
+#define CLASS_2_C8A030A88FC1340F_METHOD_2_0986B6F765C6D4BF_OFFSET UNITYSDK_OFFSET(0x13F3F800)
+#define CLASS_2_C8A030A88FC1340F_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x13F3F570)
+#define CLASS_2_C8A030A88FC1340F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13F3F350)
+#define CLASS_2_C8A030A88FC1340F_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13F3F520)
+#define CLASS_2_C8A030A88FC1340F_TICK_OFFSET UNITYSDK_OFFSET(0x13F3F690)
+#define CLASS_2_C8A030A88FC1340F__CTOR_OFFSET UNITYSDK_OFFSET(0x13F3F330)
 
-inline static constexpr unsigned int Class_2_C8A030A88FC1340F_TypeDefinitionIndex = 53839;
+inline static constexpr unsigned int Class_2_C8A030A88FC1340F_TypeDefinitionIndex = 54564;
 
 class Class_2_C8A030A88FC1340F : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::QuestProgressChangeListener* Field_2_0; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
-	::Class_1_5F51D4049EA87B7B* Field_2_4; // 0x28
-	::System::UInt32 Field_2_3; // 0x30
-	::System::Boolean Field_2_2; // 0x34
+	::Class_1_5F51D4049EA87B7B* Field_2_0; // 0x18
+	::RPG::GameCore::QuestProgressChangeListener* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_2; // 0x28
+	::System::Boolean Field_2_3; // 0x30
+	::System::UInt32 Field_2_4; // 0x34
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::QuestProgressChangeListener* a2)
 	{
@@ -50,13 +50,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_C8A030A88FC1340F_TICK_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_4343F372F34C05BF()
+	::System::Void Method_2_9681042564541CD6()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C8A030A88FC1340F_METHOD_2_4343F372F34C05BF_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C8A030A88FC1340F_METHOD_2_9681042564541CD6_OFFSET))(this);
 	}
 
-	::System::Void Method_2_1AE24536EC302522(::System::Object* a1)
+	::System::Void Method_2_0986B6F765C6D4BF(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_C8A030A88FC1340F_METHOD_2_1AE24536EC302522_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_C8A030A88FC1340F_METHOD_2_0986B6F765C6D4BF_OFFSET))(this, a1);
 	}
 };

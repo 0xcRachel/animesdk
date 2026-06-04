@@ -7,12 +7,12 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16187A30)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS4_0__REQUESTALLSONYPRODUCTID_B__0_OFFSET UNITYSDK_OFFSET(0x16188190)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17239910)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS4_0__REQUESTALLSONYPRODUCTID_B__0_OFFSET UNITYSDK_OFFSET(0x17239FD0)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int CDNDataSource___c__DisplayClass4_0_TypeDefinitionIndex = 7596;
+	inline static constexpr unsigned int CDNDataSource___c__DisplayClass4_0_TypeDefinitionIndex = 8499;
 
 	class CDNDataSource___c__DisplayClass4_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace MiHoYo::SDK::Base::GoodsPlatform
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS4_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _RequestAllSonyProductID_b__0(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void _RequestAllSonyProductID_b__0(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS4_0__REQUESTALLSONYPRODUCTID_B__0_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS4_0__REQUESTALLSONYPRODUCTID_B__0_OFFSET))(this, a1);
 		}
 	};
 }

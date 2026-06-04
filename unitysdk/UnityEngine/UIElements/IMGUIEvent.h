@@ -4,14 +4,14 @@
 
 namespace UnityEngine { class Event; }
 
-#define UNITYENGINE_UIELEMENTS_IMGUIEVENT_GETPOOLED_OFFSET UNITYSDK_OFFSET(0x19223280)
-#define UNITYENGINE_UIELEMENTS_IMGUIEVENT_INIT_OFFSET UNITYSDK_OFFSET(0x19223390)
-#define UNITYENGINE_UIELEMENTS_IMGUIEVENT_LOCALINIT_OFFSET UNITYSDK_OFFSET(0x192233B0)
-#define UNITYENGINE_UIELEMENTS_IMGUIEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x192233C0)
+#define UNITYENGINE_UIELEMENTS_IMGUIEVENT_GETPOOLED_OFFSET UNITYSDK_OFFSET(0x19F8AF20)
+#define UNITYENGINE_UIELEMENTS_IMGUIEVENT_INIT_OFFSET UNITYSDK_OFFSET(0x19F8B030)
+#define UNITYENGINE_UIELEMENTS_IMGUIEVENT_LOCALINIT_OFFSET UNITYSDK_OFFSET(0x19F8B050)
+#define UNITYENGINE_UIELEMENTS_IMGUIEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19F8B060)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int IMGUIEvent_TypeDefinitionIndex = 5968;
+	inline static constexpr unsigned int IMGUIEvent_TypeDefinitionIndex = 6245;
 
 	class IMGUIEvent : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::IMGUIEvent*>
 	{
@@ -21,9 +21,9 @@ namespace UnityEngine::UIElements
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_IMGUIEVENT__CTOR_OFFSET))(this);
 		}
 
-		static ::UnityEngine::UIElements::IMGUIEvent* GetPooled(::UnityEngine::Event* systemEvent)
+		static ::UnityEngine::UIElements::IMGUIEvent* GetPooled(::UnityEngine::Event* a1)
 		{
-			return ((::UnityEngine::UIElements::IMGUIEvent*(*)(::UnityEngine::Event*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_IMGUIEVENT_GETPOOLED_OFFSET))(systemEvent);
+			return ((::UnityEngine::UIElements::IMGUIEvent*(*)(::UnityEngine::Event*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_IMGUIEVENT_GETPOOLED_OFFSET))(a1);
 		}
 
 		::System::Void Init()

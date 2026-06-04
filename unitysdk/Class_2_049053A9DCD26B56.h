@@ -6,19 +6,19 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class SummonUnitChildEffectConfig; }
 namespace System { class String; }
 
-#define CLASS_2_049053A9DCD26B56_METHOD_2_920F08E4FDC4E588_OFFSET UNITYSDK_OFFSET(0x1879E330)
-#define CLASS_2_049053A9DCD26B56_METHOD_2_A3DDF587C60A9EF5_OFFSET UNITYSDK_OFFSET(0x1879E1D0)
-#define CLASS_2_049053A9DCD26B56__CTOR_OFFSET UNITYSDK_OFFSET(0x1879E320)
+#define CLASS_2_049053A9DCD26B56_METHOD_2_920F08E4FDC4E588_OFFSET UNITYSDK_OFFSET(0x12F9EA70)
+#define CLASS_2_049053A9DCD26B56_METHOD_2_A3DDF587C60A9EF5_OFFSET UNITYSDK_OFFSET(0x12F9E910)
+#define CLASS_2_049053A9DCD26B56__CTOR_OFFSET UNITYSDK_OFFSET(0x12F9EA60)
 
-inline static constexpr unsigned int Class_2_049053A9DCD26B56_TypeDefinitionIndex = 20047;
+inline static constexpr unsigned int Class_2_049053A9DCD26B56_TypeDefinitionIndex = 19907;
 
 class Class_2_049053A9DCD26B56 : public ::RPG::GameCore::JsonConfig
 {
 public:
-	::System::String* Field_2_1; // 0x10
-	::RPG::GameCore::SummonUnitChildEffectConfig* Field_2_3; // 0x18
+	::System::String* Field_2_0; // 0x10
+	::RPG::GameCore::SummonUnitChildEffectConfig* Field_2_1; // 0x18
 	::RPG::GameCore::SummonUnitChildEffectConfig* Field_2_2; // 0x20
-	::System::Single Field_2_0; // 0x28
+	::System::Single Field_2_3; // 0x28
 
 	::System::Void _ctor()
 	{

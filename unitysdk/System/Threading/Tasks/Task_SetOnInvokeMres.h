@@ -4,12 +4,12 @@
 
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_THREADING_TASKS_TASK_SETONINVOKEMRES_INVOKE_OFFSET UNITYSDK_OFFSET(0x18BCD6A0)
-#define SYSTEM_THREADING_TASKS_TASK_SETONINVOKEMRES__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC8E40)
+#define SYSTEM_THREADING_TASKS_TASK_SETONINVOKEMRES_INVOKE_OFFSET UNITYSDK_OFFSET(0x18D88230)
+#define SYSTEM_THREADING_TASKS_TASK_SETONINVOKEMRES__CTOR_OFFSET UNITYSDK_OFFSET(0x18D83960)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int Task_SetOnInvokeMres_TypeDefinitionIndex = 898;
+	inline static constexpr unsigned int Task_SetOnInvokeMres_TypeDefinitionIndex = 897;
 
 	class Task_SetOnInvokeMres : public ::System::Threading::ManualResetEventSlim
 	{
@@ -19,9 +19,9 @@ namespace System::Threading::Tasks
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_SETONINVOKEMRES__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Invoke(::System::Threading::Tasks::Task* completingTask)
+		::System::Void Invoke(::System::Threading::Tasks::Task* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Threading::Tasks::Task*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_SETONINVOKEMRES_INVOKE_OFFSET))(this, completingTask);
+			return ((::System::Void(*)(::PVOID, ::System::Threading::Tasks::Task*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_SETONINVOKEMRES_INVOKE_OFFSET))(this, a1);
 		}
 	};
 }

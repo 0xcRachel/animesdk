@@ -4,14 +4,14 @@
 
 namespace System { class String; }
 
-#define CLASS_1_945ACFB1FEBC7A2C_29__CTOR_OFFSET UNITYSDK_OFFSET(0xE66C870)
+#define CLASS_1_945ACFB1FEBC7A2C_29__CTOR_OFFSET UNITYSDK_OFFSET(0x134241F0)
 
-inline static constexpr unsigned int Class_1_945ACFB1FEBC7A2C_29_TypeDefinitionIndex = 62481;
+inline static constexpr unsigned int Class_1_945ACFB1FEBC7A2C_29_TypeDefinitionIndex = 63409;
 
 class Class_1_945ACFB1FEBC7A2C_29 : public ::System::Object
 {
 public:
-	::System::String* IsLikeStr; // 0x10
+	::System::String* IsAppliedStr; // 0x10
 	::System::String* BuildRefID; // 0x18
 
 	::System::Void _ctor()

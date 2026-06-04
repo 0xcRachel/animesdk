@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ChimeraDuelChimeraData; }
 
-#define RPG_CLIENT_CHIMERADUELCHIMERAINFO___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x177B1660)
-#define RPG_CLIENT_CHIMERADUELCHIMERAINFO___C__DISPLAYCLASS5_0__GETDATAWITHINRARITY_B__0_OFFSET UNITYSDK_OFFSET(0x177B1850)
+#define RPG_CLIENT_CHIMERADUELCHIMERAINFO___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x196656B0)
+#define RPG_CLIENT_CHIMERADUELCHIMERAINFO___C__DISPLAYCLASS5_0__GETDATAWITHINRARITY_B__0_OFFSET UNITYSDK_OFFSET(0x196658A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraInfo___c__DisplayClass5_0_TypeDefinitionIndex = 58351;
+	inline static constexpr unsigned int ChimeraDuelChimeraInfo___c__DisplayClass5_0_TypeDefinitionIndex = 59281;
 
 	class ChimeraDuelChimeraInfo___c__DisplayClass5_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERAINFO___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetDataWithinRarity_b__0(::RPG::Client::ChimeraDuelChimeraData* data)
+		::System::Boolean _GetDataWithinRarity_b__0(::RPG::Client::ChimeraDuelChimeraData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChimeraDuelChimeraData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERAINFO___C__DISPLAYCLASS5_0__GETDATAWITHINRARITY_B__0_OFFSET))(this, data);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChimeraDuelChimeraData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERAINFO___C__DISPLAYCLASS5_0__GETDATAWITHINRARITY_B__0_OFFSET))(this, a1);
 		}
 	};
 }

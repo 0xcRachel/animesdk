@@ -5,15 +5,15 @@
 class Class_1_6DE8726ADEF173A7_1;
 namespace RPG::GameCore { class FiveDimSuiyangConfig; }
 
-#define CLASS_1_8786E1AEB6F6868C__CTOR_OFFSET UNITYSDK_OFFSET(0x18BB1C10)
+#define CLASS_1_8786E1AEB6F6868C__CTOR_OFFSET UNITYSDK_OFFSET(0x189B0110)
 
-inline static constexpr unsigned int Class_1_8786E1AEB6F6868C_TypeDefinitionIndex = 39230;
+inline static constexpr unsigned int Class_1_8786E1AEB6F6868C_TypeDefinitionIndex = 39999;
 
 class Class_1_8786E1AEB6F6868C : public ::System::Object
 {
 public:
-	::Class_1_6DE8726ADEF173A7_1* Field_1_1; // 0x10
-	::RPG::GameCore::FiveDimSuiyangConfig* Field_1_0; // 0x18
+	::Class_1_6DE8726ADEF173A7_1* Field_1_0; // 0x10
+	::RPG::GameCore::FiveDimSuiyangConfig* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

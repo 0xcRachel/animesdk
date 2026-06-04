@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine::Formats::Alembic::Importer { class AlembicStream; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18C035B0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM___C__DISPLAYCLASS3_0__REMAPSTREAMSWITHPATH_B__0_OFFSET UNITYSDK_OFFSET(0x18C06C10)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1972B3B0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM___C__DISPLAYCLASS3_0__REMAPSTREAMSWITHPATH_B__0_OFFSET UNITYSDK_OFFSET(0x1972EB10)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicStream___c__DisplayClass3_0_TypeDefinitionIndex = 40860;
+	inline static constexpr unsigned int AlembicStream___c__DisplayClass3_0_TypeDefinitionIndex = 41686;
 
 	class AlembicStream___c__DisplayClass3_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace UnityEngine::Formats::Alembic::Importer
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM___C__DISPLAYCLASS3_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _RemapStreamsWithPath_b__0(::UnityEngine::Formats::Alembic::Importer::AlembicStream* s)
+		::System::Void _RemapStreamsWithPath_b__0(::UnityEngine::Formats::Alembic::Importer::AlembicStream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicStream*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM___C__DISPLAYCLASS3_0__REMAPSTREAMSWITHPATH_B__0_OFFSET))(this, s);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicStream*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM___C__DISPLAYCLASS3_0__REMAPSTREAMSWITHPATH_B__0_OFFSET))(this, a1);
 		}
 	};
 }

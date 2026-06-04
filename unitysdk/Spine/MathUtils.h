@@ -4,26 +4,26 @@
 
 namespace System { class Random; }
 
-#define SPINE_MATHUTILS_ATAN2_OFFSET UNITYSDK_OFFSET(0x156B79F0)
-#define SPINE_MATHUTILS_CLAMP_OFFSET UNITYSDK_OFFSET(0x156BEC50)
-#define SPINE_MATHUTILS_COSDEG_OFFSET UNITYSDK_OFFSET(0x156B88A0)
-#define SPINE_MATHUTILS_COS_OFFSET UNITYSDK_OFFSET(0x156B88E0)
-#define SPINE_MATHUTILS_RANDOMTRIANGLE_1_OFFSET UNITYSDK_OFFSET(0x156BED90)
-#define SPINE_MATHUTILS_RANDOMTRIANGLE_OFFSET UNITYSDK_OFFSET(0x156BEC70)
-#define SPINE_MATHUTILS_SINDEG_OFFSET UNITYSDK_OFFSET(0x156B88C0)
-#define SPINE_MATHUTILS_SIN_OFFSET UNITYSDK_OFFSET(0x156B8900)
-#define SPINE_MATHUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x156BEEA0)
+#define SPINE_MATHUTILS_ATAN2_OFFSET UNITYSDK_OFFSET(0x12B82690)
+#define SPINE_MATHUTILS_CLAMP_OFFSET UNITYSDK_OFFSET(0x12B88FE0)
+#define SPINE_MATHUTILS_COSDEG_OFFSET UNITYSDK_OFFSET(0x12B83550)
+#define SPINE_MATHUTILS_COS_OFFSET UNITYSDK_OFFSET(0x12B83590)
+#define SPINE_MATHUTILS_RANDOMTRIANGLE_1_OFFSET UNITYSDK_OFFSET(0x12B89120)
+#define SPINE_MATHUTILS_RANDOMTRIANGLE_OFFSET UNITYSDK_OFFSET(0x12B89000)
+#define SPINE_MATHUTILS_SINDEG_OFFSET UNITYSDK_OFFSET(0x12B83570)
+#define SPINE_MATHUTILS_SIN_OFFSET UNITYSDK_OFFSET(0x12B835B0)
+#define SPINE_MATHUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x12B89230)
 
 namespace Spine
 {
-	inline static constexpr unsigned int MathUtils_TypeDefinitionIndex = 36438;
+	inline static constexpr unsigned int MathUtils_TypeDefinitionIndex = 36738;
 
 	class MathUtils : public ::System::Object
 	{
 	public:
 		static ::System::Random** StaticGet_random()
 		{
-			return (::System::Random**)Il2CppClass::FromTypeDefinitionIndex(MathUtils_TypeDefinitionIndex)->GetStaticField(0x51A0);
+			return (::System::Random**)Il2CppClass::FromTypeDefinitionIndex(MathUtils_TypeDefinitionIndex)->GetStaticField(0x2430);
 		}
 		// static const ::System::Single PI; // 0x0
 		// static const ::System::Single PI2; // 0x0
@@ -35,44 +35,44 @@ namespace Spine
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_MATHUTILS__CCTOR_OFFSET))();
 		}
 
-		static ::System::Single Sin(::System::Single radians)
+		static ::System::Single Sin(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + SPINE_MATHUTILS_SIN_OFFSET))(radians);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + SPINE_MATHUTILS_SIN_OFFSET))(a1);
 		}
 
-		static ::System::Single Cos(::System::Single radians)
+		static ::System::Single Cos(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + SPINE_MATHUTILS_COS_OFFSET))(radians);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + SPINE_MATHUTILS_COS_OFFSET))(a1);
 		}
 
-		static ::System::Single SinDeg(::System::Single degrees)
+		static ::System::Single SinDeg(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + SPINE_MATHUTILS_SINDEG_OFFSET))(degrees);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + SPINE_MATHUTILS_SINDEG_OFFSET))(a1);
 		}
 
-		static ::System::Single CosDeg(::System::Single degrees)
+		static ::System::Single CosDeg(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + SPINE_MATHUTILS_COSDEG_OFFSET))(degrees);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + SPINE_MATHUTILS_COSDEG_OFFSET))(a1);
 		}
 
-		static ::System::Single Atan2(::System::Single y, ::System::Single x)
+		static ::System::Single Atan2(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_MATHUTILS_ATAN2_OFFSET))(y, x);
+			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_MATHUTILS_ATAN2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single Clamp(::System::Single value, ::System::Single min, ::System::Single max)
+		static ::System::Single Clamp(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_MATHUTILS_CLAMP_OFFSET))(value, min, max);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_MATHUTILS_CLAMP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Single RandomTriangle(::System::Single min, ::System::Single max)
+		static ::System::Single RandomTriangle(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_MATHUTILS_RANDOMTRIANGLE_OFFSET))(min, max);
+			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_MATHUTILS_RANDOMTRIANGLE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single RandomTriangle_1(::System::Single min, ::System::Single max, ::System::Single mode)
+		static ::System::Single RandomTriangle_1(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_MATHUTILS_RANDOMTRIANGLE_1_OFFSET))(min, max, mode);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_MATHUTILS_RANDOMTRIANGLE_1_OFFSET))(a1, a2, a3);
 		}
 	};
 }

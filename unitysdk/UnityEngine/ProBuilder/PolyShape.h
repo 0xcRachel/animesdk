@@ -9,22 +9,22 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_POLYSHAPE_GET_CONTROLPOINTS_OFFSET UNITYSDK_OFFSET(0xB9EA5E0)
-#define UNITYENGINE_PROBUILDER_POLYSHAPE_GET_EXTRUDE_OFFSET UNITYSDK_OFFSET(0xB9EA6C0)
-#define UNITYENGINE_PROBUILDER_POLYSHAPE_GET_FLIPNORMALS_OFFSET UNITYSDK_OFFSET(0xB9EA700)
-#define UNITYENGINE_PROBUILDER_POLYSHAPE_GET_MESH_OFFSET UNITYSDK_OFFSET(0xB999940)
-#define UNITYENGINE_PROBUILDER_POLYSHAPE_GET_POLYEDITMODE_OFFSET UNITYSDK_OFFSET(0xB9EA6E0)
-#define UNITYENGINE_PROBUILDER_POLYSHAPE_ISSNAPENABLED_OFFSET UNITYSDK_OFFSET(0xB9EA730)
-#define UNITYENGINE_PROBUILDER_POLYSHAPE_SETCONTROLPOINTS_OFFSET UNITYSDK_OFFSET(0xB9EA640)
-#define UNITYENGINE_PROBUILDER_POLYSHAPE_SET_EXTRUDE_OFFSET UNITYSDK_OFFSET(0xB9EA6D0)
-#define UNITYENGINE_PROBUILDER_POLYSHAPE_SET_FLIPNORMALS_OFFSET UNITYSDK_OFFSET(0xB9EA710)
-#define UNITYENGINE_PROBUILDER_POLYSHAPE_SET_MESH_OFFSET UNITYSDK_OFFSET(0xB9EA720)
-#define UNITYENGINE_PROBUILDER_POLYSHAPE_SET_POLYEDITMODE_OFFSET UNITYSDK_OFFSET(0xB9EA6F0)
-#define UNITYENGINE_PROBUILDER_POLYSHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0xB9EA740)
+#define UNITYENGINE_PROBUILDER_POLYSHAPE_GET_CONTROLPOINTS_OFFSET UNITYSDK_OFFSET(0xC28B2D0)
+#define UNITYENGINE_PROBUILDER_POLYSHAPE_GET_EXTRUDE_OFFSET UNITYSDK_OFFSET(0xC28B3B0)
+#define UNITYENGINE_PROBUILDER_POLYSHAPE_GET_FLIPNORMALS_OFFSET UNITYSDK_OFFSET(0xC28B3F0)
+#define UNITYENGINE_PROBUILDER_POLYSHAPE_GET_MESH_OFFSET UNITYSDK_OFFSET(0xC23BC00)
+#define UNITYENGINE_PROBUILDER_POLYSHAPE_GET_POLYEDITMODE_OFFSET UNITYSDK_OFFSET(0xC28B3D0)
+#define UNITYENGINE_PROBUILDER_POLYSHAPE_ISSNAPENABLED_OFFSET UNITYSDK_OFFSET(0xC28B420)
+#define UNITYENGINE_PROBUILDER_POLYSHAPE_SETCONTROLPOINTS_OFFSET UNITYSDK_OFFSET(0xC28B330)
+#define UNITYENGINE_PROBUILDER_POLYSHAPE_SET_EXTRUDE_OFFSET UNITYSDK_OFFSET(0xC28B3C0)
+#define UNITYENGINE_PROBUILDER_POLYSHAPE_SET_FLIPNORMALS_OFFSET UNITYSDK_OFFSET(0xC28B400)
+#define UNITYENGINE_PROBUILDER_POLYSHAPE_SET_MESH_OFFSET UNITYSDK_OFFSET(0xC28B410)
+#define UNITYENGINE_PROBUILDER_POLYSHAPE_SET_POLYEDITMODE_OFFSET UNITYSDK_OFFSET(0xC28B3E0)
+#define UNITYENGINE_PROBUILDER_POLYSHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0xC28B430)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int PolyShape_TypeDefinitionIndex = 39938;
+	inline static constexpr unsigned int PolyShape_TypeDefinitionIndex = 40765;
 
 	class PolyShape : public ::UnityEngine::MonoBehaviour
 	{
@@ -46,9 +46,9 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Vector3>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLYSHAPE_GET_CONTROLPOINTS_OFFSET))(this);
 		}
 
-		::System::Void SetControlPoints(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points)
+		::System::Void SetControlPoints(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLYSHAPE_SETCONTROLPOINTS_OFFSET))(this, points);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLYSHAPE_SETCONTROLPOINTS_OFFSET))(this, a1);
 		}
 
 		::System::Single get_extrude()
@@ -56,9 +56,9 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLYSHAPE_GET_EXTRUDE_OFFSET))(this);
 		}
 
-		::System::Void set_extrude(::System::Single value)
+		::System::Void set_extrude(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLYSHAPE_SET_EXTRUDE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLYSHAPE_SET_EXTRUDE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::ProBuilder::PolyShape_PolyEditMode get_polyEditMode()
@@ -66,9 +66,9 @@ namespace UnityEngine::ProBuilder
 			return ((::UnityEngine::ProBuilder::PolyShape_PolyEditMode(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLYSHAPE_GET_POLYEDITMODE_OFFSET))(this);
 		}
 
-		::System::Void set_polyEditMode(::UnityEngine::ProBuilder::PolyShape_PolyEditMode value)
+		::System::Void set_polyEditMode(::UnityEngine::ProBuilder::PolyShape_PolyEditMode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::PolyShape_PolyEditMode))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLYSHAPE_SET_POLYEDITMODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::PolyShape_PolyEditMode))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLYSHAPE_SET_POLYEDITMODE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_flipNormals()
@@ -76,9 +76,9 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLYSHAPE_GET_FLIPNORMALS_OFFSET))(this);
 		}
 
-		::System::Void set_flipNormals(::System::Boolean value)
+		::System::Void set_flipNormals(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLYSHAPE_SET_FLIPNORMALS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLYSHAPE_SET_FLIPNORMALS_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::ProBuilder::ProBuilderMesh* get_mesh()
@@ -86,9 +86,9 @@ namespace UnityEngine::ProBuilder
 			return ((::UnityEngine::ProBuilder::ProBuilderMesh*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLYSHAPE_GET_MESH_OFFSET))(this);
 		}
 
-		::System::Void set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh* value)
+		::System::Void set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLYSHAPE_SET_MESH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLYSHAPE_SET_MESH_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsSnapEnabled()

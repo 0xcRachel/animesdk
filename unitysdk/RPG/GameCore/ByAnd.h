@@ -3,14 +3,17 @@
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYAND_METHOD_4_2704611B9211D230_OFFSET UNITYSDK_OFFSET(0x187CCAB0)
-#define RPG_GAMECORE_BYAND_METHOD_4_4D3F2CCB29EF729E_OFFSET UNITYSDK_OFFSET(0x187CCB80)
-#define RPG_GAMECORE_BYAND__CTOR_OFFSET UNITYSDK_OFFSET(0x187CCB30)
+#define RPG_GAMECORE_BYAND_METHOD_4_0F2DABF5A9526733_OFFSET UNITYSDK_OFFSET(0x195EEFF0)
+#define RPG_GAMECORE_BYAND_METHOD_4_2704611B9211D230_OFFSET UNITYSDK_OFFSET(0x195EED90)
+#define RPG_GAMECORE_BYAND_METHOD_4_4D3F2CCB29EF729E_OFFSET UNITYSDK_OFFSET(0x195EEE60)
+#define RPG_GAMECORE_BYAND_METHOD_4_E1F6B559862B2AAC_OFFSET UNITYSDK_OFFSET(0x195EF070)
+#define RPG_GAMECORE_BYAND__CTOR_OFFSET UNITYSDK_OFFSET(0x195EEE10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByAnd_TypeDefinitionIndex = 22785;
+	inline static constexpr unsigned int ByAnd_TypeDefinitionIndex = 22492;
 
 	class ByAnd : public ::RPG::GameCore::PredicateConfig
 	{
@@ -30,6 +33,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_4D3F2CCB29EF729E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByAnd* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByAnd*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYAND_METHOD_4_4D3F2CCB29EF729E_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_0F2DABF5A9526733(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByAnd*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByAnd*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYAND_METHOD_4_0F2DABF5A9526733_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_E1F6B559862B2AAC(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByAnd* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByAnd*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYAND_METHOD_4_E1F6B559862B2AAC_OFFSET))(a1, a2);
 		}
 	};
 }

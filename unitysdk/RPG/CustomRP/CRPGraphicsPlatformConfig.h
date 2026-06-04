@@ -4,24 +4,24 @@
 #include "unitysdk/RPG/CustomRP/PlatfromConfig.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define RPG_CUSTOMRP_CRPGRAPHICSPLATFORMCONFIG_APPLYPLATFORMCONFIG_OFFSET UNITYSDK_OFFSET(0x152592D0)
-#define RPG_CUSTOMRP_CRPGRAPHICSPLATFORMCONFIG_GETFLAG_OFFSET UNITYSDK_OFFSET(0x15258F00)
-#define RPG_CUSTOMRP_CRPGRAPHICSPLATFORMCONFIG_HASFLAG_OFFSET UNITYSDK_OFFSET(0x15254310)
-#define RPG_CUSTOMRP_CRPGRAPHICSPLATFORMCONFIG_PARSEFLAG_OFFSET UNITYSDK_OFFSET(0x15258F10)
-#define RPG_CUSTOMRP_CRPGRAPHICSPLATFORMCONFIG_RESETFLAG_OFFSET UNITYSDK_OFFSET(0x15258EC0)
-#define RPG_CUSTOMRP_CRPGRAPHICSPLATFORMCONFIG_SETFLAG_OFFSET UNITYSDK_OFFSET(0x15258ED0)
-#define RPG_CUSTOMRP_CRPGRAPHICSPLATFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15259720)
+#define RPG_CUSTOMRP_CRPGRAPHICSPLATFORMCONFIG_APPLYPLATFORMCONFIG_OFFSET UNITYSDK_OFFSET(0x156FB2C0)
+#define RPG_CUSTOMRP_CRPGRAPHICSPLATFORMCONFIG_GETFLAG_OFFSET UNITYSDK_OFFSET(0x156FAF10)
+#define RPG_CUSTOMRP_CRPGRAPHICSPLATFORMCONFIG_HASFLAG_OFFSET UNITYSDK_OFFSET(0x156F6370)
+#define RPG_CUSTOMRP_CRPGRAPHICSPLATFORMCONFIG_PARSEFLAG_OFFSET UNITYSDK_OFFSET(0x156FAF20)
+#define RPG_CUSTOMRP_CRPGRAPHICSPLATFORMCONFIG_RESETFLAG_OFFSET UNITYSDK_OFFSET(0x156FAED0)
+#define RPG_CUSTOMRP_CRPGRAPHICSPLATFORMCONFIG_SETFLAG_OFFSET UNITYSDK_OFFSET(0x156FAEE0)
+#define RPG_CUSTOMRP_CRPGRAPHICSPLATFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x156FB7E0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPGraphicsPlatformConfig_TypeDefinitionIndex = 35042;
+	inline static constexpr unsigned int CRPGraphicsPlatformConfig_TypeDefinitionIndex = 35328;
 
 	class CRPGraphicsPlatformConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		static ::System::UInt64* StaticGet__Flag()
 		{
-			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(CRPGraphicsPlatformConfig_TypeDefinitionIndex)->GetStaticField(0x10160);
+			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(CRPGraphicsPlatformConfig_TypeDefinitionIndex)->GetStaticField(0x10A90);
 		}
 		::Il2CppArray<::RPG::CustomRP::PlatfromConfig>* configs; // 0x18
 		::System::Boolean _NeedParseFlag; // 0x20
@@ -36,14 +36,14 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPGRAPHICSPLATFORMCONFIG_RESETFLAG_OFFSET))(this);
 		}
 
-		static ::System::Boolean SetFlag(::RPG::CustomRP::PlatformFlag f, ::System::Boolean enable)
+		static ::System::Boolean SetFlag(::RPG::CustomRP::PlatformFlag a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::RPG::CustomRP::PlatformFlag, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPGRAPHICSPLATFORMCONFIG_SETFLAG_OFFSET))(f, enable);
+			return ((::System::Boolean(*)(::RPG::CustomRP::PlatformFlag, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPGRAPHICSPLATFORMCONFIG_SETFLAG_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean HasFlag(::RPG::CustomRP::PlatformFlag f)
+		static ::System::Boolean HasFlag(::RPG::CustomRP::PlatformFlag a1)
 		{
-			return ((::System::Boolean(*)(::RPG::CustomRP::PlatformFlag))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPGRAPHICSPLATFORMCONFIG_HASFLAG_OFFSET))(f);
+			return ((::System::Boolean(*)(::RPG::CustomRP::PlatformFlag))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPGRAPHICSPLATFORMCONFIG_HASFLAG_OFFSET))(a1);
 		}
 
 		static ::System::UInt64 GetFlag()

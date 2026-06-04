@@ -7,17 +7,17 @@ class Class_1_0319A031DCA9B495_19;
 namespace RPG::Client { class LuaUIController; }
 namespace RPG::Client { class RogueWorkBenchCost; }
 
-#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE_GETFUNCID_OFFSET UNITYSDK_OFFSET(0x15BA93A0)
-#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE_GETFUNCTYPE_OFFSET UNITYSDK_OFFSET(0x15BA9350)
-#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE_GET_COSTDATA_OFFSET UNITYSDK_OFFSET(0x15BA9580)
-#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE_OPENFUNCUIPAGE_OFFSET UNITYSDK_OFFSET(0x15BA93E0)
-#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE_REFRESH_OFFSET UNITYSDK_OFFSET(0x15BA9280)
-#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE_SET_COSTDATA_OFFSET UNITYSDK_OFFSET(0x15BA9590)
-#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE__CTOR_OFFSET UNITYSDK_OFFSET(0x15BA91A0)
+#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE_GETFUNCID_OFFSET UNITYSDK_OFFSET(0x176B0420)
+#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE_GETFUNCTYPE_OFFSET UNITYSDK_OFFSET(0x176B03D0)
+#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE_GET_COSTDATA_OFFSET UNITYSDK_OFFSET(0x176B05C0)
+#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE_OPENFUNCUIPAGE_OFFSET UNITYSDK_OFFSET(0x176B0460)
+#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE_REFRESH_OFFSET UNITYSDK_OFFSET(0x176B0360)
+#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE_SET_COSTDATA_OFFSET UNITYSDK_OFFSET(0x176B05D0)
+#define RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE__CTOR_OFFSET UNITYSDK_OFFSET(0x176B0280)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueWorkBenchReforgeMiracle_TypeDefinitionIndex = 62057;
+	inline static constexpr unsigned int RogueWorkBenchReforgeMiracle_TypeDefinitionIndex = 62990;
 
 	class RogueWorkBenchReforgeMiracle : public ::System::Object
 	{
@@ -25,14 +25,14 @@ namespace RPG::Client
 		::RPG::Client::RogueWorkBenchCost* _CostData_k__BackingField; // 0x10
 		::System::UInt32 _FuncID; // 0x18
 
-		::System::Void _ctor(::System::UInt32 funcID, ::Class_1_0319A031DCA9B495_19* proto)
+		::System::Void _ctor(::System::UInt32 a1, ::Class_1_0319A031DCA9B495_19* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_0319A031DCA9B495_19*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE__CTOR_OFFSET))(this, funcID, proto);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_0319A031DCA9B495_19*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Refresh(::RPG::Client::RogueWorkBenchReforgeMiracle* detail)
+		::System::Void Refresh(::RPG::Client::RogueWorkBenchReforgeMiracle* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueWorkBenchReforgeMiracle*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE_REFRESH_OFFSET))(this, detail);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueWorkBenchReforgeMiracle*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE_REFRESH_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::RogueWorkbenchFuncType GetFuncType()
@@ -45,9 +45,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE_GETFUNCID_OFFSET))(this);
 		}
 
-		::RPG::Client::LuaUIController* OpenFuncUIPage(::System::UInt32 propEntityID)
+		::RPG::Client::LuaUIController* OpenFuncUIPage(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::LuaUIController*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE_OPENFUNCUIPAGE_OFFSET))(this, propEntityID);
+			return ((::RPG::Client::LuaUIController*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE_OPENFUNCUIPAGE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RogueWorkBenchCost* get_CostData()
@@ -55,9 +55,9 @@ namespace RPG::Client
 			return ((::RPG::Client::RogueWorkBenchCost*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE_GET_COSTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_CostData(::RPG::Client::RogueWorkBenchCost* value)
+		::System::Void set_CostData(::RPG::Client::RogueWorkBenchCost* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueWorkBenchCost*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE_SET_COSTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueWorkBenchCost*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHREFORGEMIRACLE_SET_COSTDATA_OFFSET))(this, a1);
 		}
 	};
 }

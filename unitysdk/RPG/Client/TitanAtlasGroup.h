@@ -9,28 +9,28 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TITANATLASGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0x15162120)
-#define RPG_CLIENT_TITANATLASGROUP_GETALLBASEINFOS_OFFSET UNITYSDK_OFFSET(0x15162340)
-#define RPG_CLIENT_TITANATLASGROUP_GETALLINFOS_OFFSET UNITYSDK_OFFSET(0x151621A0)
-#define RPG_CLIENT_TITANATLASGROUP_GETALLNUM_OFFSET UNITYSDK_OFFSET(0x15162A00)
-#define RPG_CLIENT_TITANATLASGROUP_GETALLUNLOCKNUM_OFFSET UNITYSDK_OFFSET(0x15162770)
-#define RPG_CLIENT_TITANATLASGROUP_GETRENEWABLEINFO_OFFSET UNITYSDK_OFFSET(0x151625F0)
-#define RPG_CLIENT_TITANATLASGROUP_GET_BGCOLOR_OFFSET UNITYSDK_OFFSET(0x15162DE0)
-#define RPG_CLIENT_TITANATLASGROUP_GET_CHANGEINFOS_OFFSET UNITYSDK_OFFSET(0x15162E70)
-#define RPG_CLIENT_TITANATLASGROUP_GET_DESC_OFFSET UNITYSDK_OFFSET(0x15162D60)
-#define RPG_CLIENT_TITANATLASGROUP_GET_ID_OFFSET UNITYSDK_OFFSET(0x15162C60)
-#define RPG_CLIENT_TITANATLASGROUP_GET_INFOS_OFFSET UNITYSDK_OFFSET(0x15162E50)
-#define RPG_CLIENT_TITANATLASGROUP_GET_NAME_OFFSET UNITYSDK_OFFSET(0x15162CE0)
-#define RPG_CLIENT_TITANATLASGROUP_GET_ROW_OFFSET UNITYSDK_OFFSET(0x15162C80)
-#define RPG_CLIENT_TITANATLASGROUP_NEEDSHOWREDDOT_OFFSET UNITYSDK_OFFSET(0x15162A60)
-#define RPG_CLIENT_TITANATLASGROUP_SET_CHANGEINFOS_OFFSET UNITYSDK_OFFSET(0x15162E80)
-#define RPG_CLIENT_TITANATLASGROUP_SET_ID_OFFSET UNITYSDK_OFFSET(0x15162C70)
-#define RPG_CLIENT_TITANATLASGROUP_SET_INFOS_OFFSET UNITYSDK_OFFSET(0x15162E60)
-#define RPG_CLIENT_TITANATLASGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x15162190)
+#define RPG_CLIENT_TITANATLASGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0x16449740)
+#define RPG_CLIENT_TITANATLASGROUP_GETALLBASEINFOS_OFFSET UNITYSDK_OFFSET(0x164499C0)
+#define RPG_CLIENT_TITANATLASGROUP_GETALLINFOS_OFFSET UNITYSDK_OFFSET(0x164497C0)
+#define RPG_CLIENT_TITANATLASGROUP_GETALLNUM_OFFSET UNITYSDK_OFFSET(0x1644A3D0)
+#define RPG_CLIENT_TITANATLASGROUP_GETALLUNLOCKNUM_OFFSET UNITYSDK_OFFSET(0x1644A010)
+#define RPG_CLIENT_TITANATLASGROUP_GETRENEWABLEINFO_OFFSET UNITYSDK_OFFSET(0x16449D50)
+#define RPG_CLIENT_TITANATLASGROUP_GET_BGCOLOR_OFFSET UNITYSDK_OFFSET(0x1644A880)
+#define RPG_CLIENT_TITANATLASGROUP_GET_CHANGEINFOS_OFFSET UNITYSDK_OFFSET(0x1644A910)
+#define RPG_CLIENT_TITANATLASGROUP_GET_DESC_OFFSET UNITYSDK_OFFSET(0x1644A800)
+#define RPG_CLIENT_TITANATLASGROUP_GET_ID_OFFSET UNITYSDK_OFFSET(0x1644A700)
+#define RPG_CLIENT_TITANATLASGROUP_GET_INFOS_OFFSET UNITYSDK_OFFSET(0x1644A8F0)
+#define RPG_CLIENT_TITANATLASGROUP_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1644A780)
+#define RPG_CLIENT_TITANATLASGROUP_GET_ROW_OFFSET UNITYSDK_OFFSET(0x1644A720)
+#define RPG_CLIENT_TITANATLASGROUP_NEEDSHOWREDDOT_OFFSET UNITYSDK_OFFSET(0x1644A430)
+#define RPG_CLIENT_TITANATLASGROUP_SET_CHANGEINFOS_OFFSET UNITYSDK_OFFSET(0x1644A920)
+#define RPG_CLIENT_TITANATLASGROUP_SET_ID_OFFSET UNITYSDK_OFFSET(0x1644A710)
+#define RPG_CLIENT_TITANATLASGROUP_SET_INFOS_OFFSET UNITYSDK_OFFSET(0x1644A900)
+#define RPG_CLIENT_TITANATLASGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x164497B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TitanAtlasGroup_TypeDefinitionIndex = 62823;
+	inline static constexpr unsigned int TitanAtlasGroup_TypeDefinitionIndex = 63757;
 
 	class TitanAtlasGroup : public ::System::Object
 	{
@@ -44,9 +44,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASGROUP__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::TitanAtlasGroup* Create(::System::UInt32 id, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TitanAtlasInfo*>* infos, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::TitanAtlasInfo*>*>* changeInfos)
+		static ::RPG::Client::TitanAtlasGroup* Create(::System::UInt32 a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TitanAtlasInfo*>* a2, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::TitanAtlasInfo*>*>* a3)
 		{
-			return ((::RPG::Client::TitanAtlasGroup*(*)(::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TitanAtlasInfo*>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::TitanAtlasInfo*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASGROUP_CREATE_OFFSET))(id, infos, changeInfos);
+			return ((::RPG::Client::TitanAtlasGroup*(*)(::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TitanAtlasInfo*>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::TitanAtlasInfo*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASGROUP_CREATE_OFFSET))(a1, a2, a3);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::TitanAtlasInfo*>* GetAllInfos()
@@ -74,9 +74,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASGROUP_NEEDSHOWREDDOT_OFFSET))(this);
 		}
 
-		::RPG::Client::TitanAtlasInfo* GetRenewableInfo(::RPG::Client::TitanAtlasInfo* info)
+		::RPG::Client::TitanAtlasInfo* GetRenewableInfo(::RPG::Client::TitanAtlasInfo* a1)
 		{
-			return ((::RPG::Client::TitanAtlasInfo*(*)(::PVOID, ::RPG::Client::TitanAtlasInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASGROUP_GETRENEWABLEINFO_OFFSET))(this, info);
+			return ((::RPG::Client::TitanAtlasInfo*(*)(::PVOID, ::RPG::Client::TitanAtlasInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASGROUP_GETRENEWABLEINFO_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ID()
@@ -84,9 +84,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASGROUP_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASGROUP_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASGROUP_SET_ID_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::TitanAtlasGroupRow* get_Row()
@@ -114,9 +114,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TitanAtlasInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASGROUP_GET_INFOS_OFFSET))(this);
 		}
 
-		::System::Void set_Infos(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TitanAtlasInfo*>* value)
+		::System::Void set_Infos(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TitanAtlasInfo*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TitanAtlasInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASGROUP_SET_INFOS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TitanAtlasInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASGROUP_SET_INFOS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::TitanAtlasInfo*>*>* get_ChangeInfos()
@@ -124,9 +124,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::TitanAtlasInfo*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASGROUP_GET_CHANGEINFOS_OFFSET))(this);
 		}
 
-		::System::Void set_ChangeInfos(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::TitanAtlasInfo*>*>* value)
+		::System::Void set_ChangeInfos(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::TitanAtlasInfo*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::TitanAtlasInfo*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASGROUP_SET_CHANGEINFOS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::TitanAtlasInfo*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASGROUP_SET_CHANGEINFOS_OFFSET))(this, a1);
 		}
 	};
 }

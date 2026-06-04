@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices { class EpicAccountId; }
 
-#define EPIC_ONLINESERVICES_ECOM_GETOFFERCOUNTOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19308390)
-#define EPIC_ONLINESERVICES_ECOM_GETOFFERCOUNTOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x193083A0)
-#define EPIC_ONLINESERVICES_ECOM_GETOFFERCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x193083B0)
+#define EPIC_ONLINESERVICES_ECOM_GETOFFERCOUNTOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19EF3720)
+#define EPIC_ONLINESERVICES_ECOM_GETOFFERCOUNTOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19EF3730)
+#define EPIC_ONLINESERVICES_ECOM_GETOFFERCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19EF3740)
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int GetOfferCountOptions_TypeDefinitionIndex = 42182;
+	inline static constexpr unsigned int GetOfferCountOptions_TypeDefinitionIndex = 42985;
 
 	class GetOfferCountOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_GETOFFERCOUNTOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_GETOFFERCOUNTOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_GETOFFERCOUNTOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 	};
 }

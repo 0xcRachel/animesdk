@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Net { class IPAddress; }
 
-#define SYSTEM_NET_IPHOSTENTRY_GET_ADDRESSLIST_OFFSET UNITYSDK_OFFSET(0x176C7530)
-#define SYSTEM_NET_IPHOSTENTRY_GET_HOSTNAME_OFFSET UNITYSDK_OFFSET(0x176C7500)
-#define SYSTEM_NET_IPHOSTENTRY_SET_ADDRESSLIST_OFFSET UNITYSDK_OFFSET(0x176C7540)
-#define SYSTEM_NET_IPHOSTENTRY_SET_ALIASES_OFFSET UNITYSDK_OFFSET(0x176C7520)
-#define SYSTEM_NET_IPHOSTENTRY_SET_HOSTNAME_OFFSET UNITYSDK_OFFSET(0x176C7510)
-#define SYSTEM_NET_IPHOSTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17698BE0)
+#define SYSTEM_NET_IPHOSTENTRY_GET_ADDRESSLIST_OFFSET UNITYSDK_OFFSET(0x17CF5CD0)
+#define SYSTEM_NET_IPHOSTENTRY_GET_HOSTNAME_OFFSET UNITYSDK_OFFSET(0x17CF5CA0)
+#define SYSTEM_NET_IPHOSTENTRY_SET_ADDRESSLIST_OFFSET UNITYSDK_OFFSET(0x17CF5CE0)
+#define SYSTEM_NET_IPHOSTENTRY_SET_ALIASES_OFFSET UNITYSDK_OFFSET(0x17CF5CC0)
+#define SYSTEM_NET_IPHOSTENTRY_SET_HOSTNAME_OFFSET UNITYSDK_OFFSET(0x17CF5CB0)
+#define SYSTEM_NET_IPHOSTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17CC8A10)
 
 namespace System::Net
 {
@@ -20,8 +20,8 @@ namespace System::Net
 	{
 	public:
 		::Il2CppArray<::System::String*>* aliases; // 0x10
-		::System::String* hostName; // 0x18
-		::Il2CppArray<::System::Net::IPAddress*>* addressList; // 0x20
+		::Il2CppArray<::System::Net::IPAddress*>* addressList; // 0x18
+		::System::String* hostName; // 0x20
 		::System::Boolean isTrustedHost; // 0x28
 
 		::System::Void _ctor()
@@ -34,14 +34,14 @@ namespace System::Net
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_IPHOSTENTRY_GET_HOSTNAME_OFFSET))(this);
 		}
 
-		::System::Void set_HostName(::System::String* value)
+		::System::Void set_HostName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_IPHOSTENTRY_SET_HOSTNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_IPHOSTENTRY_SET_HOSTNAME_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Aliases(::Il2CppArray<::System::String*>* value)
+		::System::Void set_Aliases(::Il2CppArray<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_IPHOSTENTRY_SET_ALIASES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_IPHOSTENTRY_SET_ALIASES_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::Net::IPAddress*>* get_AddressList()
@@ -49,9 +49,9 @@ namespace System::Net
 			return ((::Il2CppArray<::System::Net::IPAddress*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_IPHOSTENTRY_GET_ADDRESSLIST_OFFSET))(this);
 		}
 
-		::System::Void set_AddressList(::Il2CppArray<::System::Net::IPAddress*>* value)
+		::System::Void set_AddressList(::Il2CppArray<::System::Net::IPAddress*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Net::IPAddress*>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_IPHOSTENTRY_SET_ADDRESSLIST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Net::IPAddress*>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_IPHOSTENTRY_SET_ADDRESSLIST_OFFSET))(this, a1);
 		}
 	};
 }

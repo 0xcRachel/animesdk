@@ -10,15 +10,15 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_MANIKINCHARAHOLOMAT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1231A2B0)
-#define RPG_CLIENT_MANIKINCHARAHOLOMAT_INITSETMAT_OFFSET UNITYSDK_OFFSET(0x1231AF00)
-#define RPG_CLIENT_MANIKINCHARAHOLOMAT_UPDATEUIHOLOPROPERTY_OFFSET UNITYSDK_OFFSET(0x1231AF90)
-#define RPG_CLIENT_MANIKINCHARAHOLOMAT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1231A370)
-#define RPG_CLIENT_MANIKINCHARAHOLOMAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1231B4C0)
+#define RPG_CLIENT_MANIKINCHARAHOLOMAT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1511A380)
+#define RPG_CLIENT_MANIKINCHARAHOLOMAT_INITSETMAT_OFFSET UNITYSDK_OFFSET(0x1511AFB0)
+#define RPG_CLIENT_MANIKINCHARAHOLOMAT_UPDATEUIHOLOPROPERTY_OFFSET UNITYSDK_OFFSET(0x1511B040)
+#define RPG_CLIENT_MANIKINCHARAHOLOMAT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1511A440)
+#define RPG_CLIENT_MANIKINCHARAHOLOMAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1511B5F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ManikinCharaHoloMat_TypeDefinitionIndex = 67073;
+	inline static constexpr unsigned int ManikinCharaHoloMat_TypeDefinitionIndex = 68015;
 
 	class ManikinCharaHoloMat : public ::UnityEngine::MonoBehaviour
 	{
@@ -101,14 +101,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANIKINCHARAHOLOMAT_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void UpdateUIHoloProperty(::System::Collections::Generic::List_1<::UnityEngine::Material*>* matlList)
+		::System::Void UpdateUIHoloProperty(::System::Collections::Generic::List_1<::UnityEngine::Material*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANIKINCHARAHOLOMAT_UPDATEUIHOLOPROPERTY_OFFSET))(this, matlList);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANIKINCHARAHOLOMAT_UPDATEUIHOLOPROPERTY_OFFSET))(this, a1);
 		}
 
-		::System::Void InitSetMat(::UnityEngine::Material* mat)
+		::System::Void InitSetMat(::UnityEngine::Material* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANIKINCHARAHOLOMAT_INITSETMAT_OFFSET))(this, mat);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANIKINCHARAHOLOMAT_INITSETMAT_OFFSET))(this, a1);
 		}
 	};
 }

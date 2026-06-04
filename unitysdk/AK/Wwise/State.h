@@ -6,16 +6,16 @@
 class WwiseObjectReference;
 class WwiseStateReference;
 
-#define AK_WWISE_STATE_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x192A4CC0)
-#define AK_WWISE_STATE_GET_WWISEOBJECTGROUPTYPE_OFFSET UNITYSDK_OFFSET(0x192A4D50)
-#define AK_WWISE_STATE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x192A4D40)
-#define AK_WWISE_STATE_SETVALUE_OFFSET UNITYSDK_OFFSET(0x192A4D60)
-#define AK_WWISE_STATE_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x192A4CD0)
-#define AK_WWISE_STATE__CTOR_OFFSET UNITYSDK_OFFSET(0x192A4F10)
+#define AK_WWISE_STATE_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x19DC0800)
+#define AK_WWISE_STATE_GET_WWISEOBJECTGROUPTYPE_OFFSET UNITYSDK_OFFSET(0x19DC0890)
+#define AK_WWISE_STATE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x19DC0880)
+#define AK_WWISE_STATE_SETVALUE_OFFSET UNITYSDK_OFFSET(0x19DC08A0)
+#define AK_WWISE_STATE_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x19DC0810)
+#define AK_WWISE_STATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DC0A70)
 
 namespace AK::Wwise
 {
-	inline static constexpr unsigned int State_TypeDefinitionIndex = 40538;
+	inline static constexpr unsigned int State_TypeDefinitionIndex = 41365;
 
 	class State : public ::AK::Wwise::BaseGroupType
 	{
@@ -32,9 +32,9 @@ namespace AK::Wwise
 			return ((::WwiseObjectReference*(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_STATE_GET_OBJECTREFERENCE_OFFSET))(this);
 		}
 
-		::System::Void set_ObjectReference(::WwiseObjectReference* value)
+		::System::Void set_ObjectReference(::WwiseObjectReference* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::WwiseObjectReference*))((::PBYTE)hIl2Cpp + AK_WWISE_STATE_SET_OBJECTREFERENCE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::WwiseObjectReference*))((::PBYTE)hIl2Cpp + AK_WWISE_STATE_SET_OBJECTREFERENCE_OFFSET))(this, a1);
 		}
 
 		::WwiseObjectType get_WwiseObjectType()

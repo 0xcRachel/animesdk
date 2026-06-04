@@ -2,52 +2,52 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define ZLINQ_LINQ_FROMRANGE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x545E40)
-#define ZLINQ_LINQ_FROMRANGE_FILLINCREMENTAL_OFFSET UNITYSDK_OFFSET(0x1A74EEB0)
-#define ZLINQ_LINQ_FROMRANGE_TRYCOPYTO_OFFSET UNITYSDK_OFFSET(0x23C6520)
-#define ZLINQ_LINQ_FROMRANGE_TRYGETNEXT_OFFSET UNITYSDK_OFFSET(0x23C65B0)
-#define ZLINQ_LINQ_FROMRANGE_TRYGETNONENUMERATEDCOUNT_OFFSET UNITYSDK_OFFSET(0x23C6510)
-#define ZLINQ_LINQ_FROMRANGE_TRYGETSPAN_OFFSET UNITYSDK_OFFSET(0x63F410)
-#define ZLINQ_LINQ_FROMRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x23C64F0)
+#define ZLINQ_LINQ_FROMRANGE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x5F2300)
+#define ZLINQ_LINQ_FROMRANGE_FILLINCREMENTAL_OFFSET UNITYSDK_OFFSET(0x1B577080)
+#define ZLINQ_LINQ_FROMRANGE_TRYCOPYTO_OFFSET UNITYSDK_OFFSET(0x3966ED0)
+#define ZLINQ_LINQ_FROMRANGE_TRYGETNEXT_OFFSET UNITYSDK_OFFSET(0x3966F60)
+#define ZLINQ_LINQ_FROMRANGE_TRYGETNONENUMERATEDCOUNT_OFFSET UNITYSDK_OFFSET(0x3966EC0)
+#define ZLINQ_LINQ_FROMRANGE_TRYGETSPAN_OFFSET UNITYSDK_OFFSET(0xB1E130)
+#define ZLINQ_LINQ_FROMRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x3966EA0)
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int FromRange_TypeDefinitionIndex = 6543;
+	inline static constexpr unsigned int FromRange_TypeDefinitionIndex = 6372;
 
 	struct alignas(4) FromRange
 	{
 		::System::Int32 to; // 0x10
-		::System::Int32 value; // 0x14
-		::System::Int32 count; // 0x18
-		::System::Int32 start; // 0x1C
+		::System::Int32 start; // 0x14
+		::System::Int32 value; // 0x18
+		::System::Int32 count; // 0x1C
 
-		::System::Void _ctor(::System::Int32 start, ::System::Int32 count)
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZLINQ_LINQ_FROMRANGE__CTOR_OFFSET))(this, start, count);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZLINQ_LINQ_FROMRANGE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean TryGetNonEnumeratedCount(::System::Int32& count)
+		::System::Boolean TryGetNonEnumeratedCount(::System::Int32& a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32&))((::PBYTE)hIl2Cpp + ZLINQ_LINQ_FROMRANGE_TRYGETNONENUMERATEDCOUNT_OFFSET))(this, count);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32&))((::PBYTE)hIl2Cpp + ZLINQ_LINQ_FROMRANGE_TRYGETNONENUMERATEDCOUNT_OFFSET))(this, a1);
 		}
 
 		/*
-		::System::Boolean TryGetSpan(::System::ReadOnlySpan_1<::System::Int32>& span)
+		::System::Boolean TryGetSpan(::System::ReadOnlySpan_1<::System::Int32>& a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ReadOnlySpan_1<::System::Int32>&))((::PBYTE)hIl2Cpp + ZLINQ_LINQ_FROMRANGE_TRYGETSPAN_OFFSET))(this, span);
+			return ((::System::Boolean(*)(::PVOID, ::System::ReadOnlySpan_1<::System::Int32>&))((::PBYTE)hIl2Cpp + ZLINQ_LINQ_FROMRANGE_TRYGETSPAN_OFFSET))(this, a1);
 		}
 		*/
 
 		/*
-		::System::Boolean TryCopyTo(::System::Span_1<::System::Int32> destination, ::System::Index offset)
+		::System::Boolean TryCopyTo(::System::Span_1<::System::Int32> a1, ::System::Index a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Span_1<::System::Int32>, ::System::Index))((::PBYTE)hIl2Cpp + ZLINQ_LINQ_FROMRANGE_TRYCOPYTO_OFFSET))(this, destination, offset);
+			return ((::System::Boolean(*)(::PVOID, ::System::Span_1<::System::Int32>, ::System::Index))((::PBYTE)hIl2Cpp + ZLINQ_LINQ_FROMRANGE_TRYCOPYTO_OFFSET))(this, a1, a2);
 		}
 		*/
 
-		::System::Boolean TryGetNext(::System::Int32& current)
+		::System::Boolean TryGetNext(::System::Int32& a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32&))((::PBYTE)hIl2Cpp + ZLINQ_LINQ_FROMRANGE_TRYGETNEXT_OFFSET))(this, current);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32&))((::PBYTE)hIl2Cpp + ZLINQ_LINQ_FROMRANGE_TRYGETNEXT_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()
@@ -56,9 +56,9 @@ namespace ZLinq::Linq
 		}
 
 		/*
-		static ::System::Void FillIncremental(::System::Span_1<::System::Int32> span, ::System::Int32 start)
+		static ::System::Void FillIncremental(::System::Span_1<::System::Int32> a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::System::Span_1<::System::Int32>, ::System::Int32))((::PBYTE)hIl2Cpp + ZLINQ_LINQ_FROMRANGE_FILLINCREMENTAL_OFFSET))(span, start);
+			return ((::System::Void(*)(::System::Span_1<::System::Int32>, ::System::Int32))((::PBYTE)hIl2Cpp + ZLINQ_LINQ_FROMRANGE_FILLINCREMENTAL_OFFSET))(a1, a2);
 		}
 		*/
 	};

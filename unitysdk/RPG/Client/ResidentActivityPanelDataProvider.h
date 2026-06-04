@@ -6,13 +6,13 @@
 namespace RPG::Client { class IResidentActivityPanelData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER_GETACTIVITYRESIDENTPANELDATA_OFFSET UNITYSDK_OFFSET(0x131D72B0)
-#define RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER_GETDISPLAYRESIDENTACTIVITIES_OFFSET UNITYSDK_OFFSET(0x131D6640)
-#define RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER_GETROGUERESIDENTPANELDATA_OFFSET UNITYSDK_OFFSET(0x131D7360)
+#define RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER_GETACTIVITYRESIDENTPANELDATA_OFFSET UNITYSDK_OFFSET(0x14D26650)
+#define RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER_GETDISPLAYRESIDENTACTIVITIES_OFFSET UNITYSDK_OFFSET(0x14D259F0)
+#define RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER_GETROGUERESIDENTPANELDATA_OFFSET UNITYSDK_OFFSET(0x14D26700)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ResidentActivityPanelDataProvider_TypeDefinitionIndex = 56973;
+	inline static constexpr unsigned int ResidentActivityPanelDataProvider_TypeDefinitionIndex = 57761;
 
 	class ResidentActivityPanelDataProvider : public ::System::Object
 	{
@@ -22,14 +22,14 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::IResidentActivityPanelData*>*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER_GETDISPLAYRESIDENTACTIVITIES_OFFSET))();
 		}
 
-		static ::RPG::Client::IResidentActivityPanelData* GetActivityResidentPanelData(::System::UInt32 panelID, ::System::UInt32 activityID)
+		static ::RPG::Client::IResidentActivityPanelData* GetActivityResidentPanelData(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::IResidentActivityPanelData*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER_GETACTIVITYRESIDENTPANELDATA_OFFSET))(panelID, activityID);
+			return ((::RPG::Client::IResidentActivityPanelData*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER_GETACTIVITYRESIDENTPANELDATA_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::IResidentActivityPanelData* GetRogueResidentPanelData(::RPG::GameCore::RogueSubMode rogueSubMode)
+		static ::RPG::Client::IResidentActivityPanelData* GetRogueResidentPanelData(::RPG::GameCore::RogueSubMode a1)
 		{
-			return ((::RPG::Client::IResidentActivityPanelData*(*)(::RPG::GameCore::RogueSubMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER_GETROGUERESIDENTPANELDATA_OFFSET))(rogueSubMode);
+			return ((::RPG::Client::IResidentActivityPanelData*(*)(::RPG::GameCore::RogueSubMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER_GETROGUERESIDENTPANELDATA_OFFSET))(a1);
 		}
 	};
 }

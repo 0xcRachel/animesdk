@@ -7,17 +7,17 @@
 namespace RPGTools::Timeline { class SetCharacterAnimExtLayerEnableClip; }
 namespace RPGTools::Timeline { class SetCharacterAnimExtLayerEnableConfig; }
 
-#define RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x16B331A0)
-#define RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x16B331C0)
-#define RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x16B331E0)
-#define RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x16B331B0)
-#define RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0x16B331D0)
-#define RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x16B333F0)
-#define RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x16B33400)
+#define RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x19B5BA60)
+#define RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x19B5BA80)
+#define RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19B5BAA0)
+#define RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x19B5BA70)
+#define RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0x19B5BA90)
+#define RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19B5BDD0)
+#define RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19B5BDE0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SetCharacterAnimExtLayerEnableBehaviour_TypeDefinitionIndex = 44689;
+	inline static constexpr unsigned int SetCharacterAnimExtLayerEnableBehaviour_TypeDefinitionIndex = 45236;
 
 	class SetCharacterAnimExtLayerEnableBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -35,9 +35,9 @@ namespace RPGTools::Timeline
 			return ((::RPGTools::Timeline::SetCharacterAnimExtLayerEnableClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR_GET_CLIP_OFFSET))(this);
 		}
 
-		::System::Void set_Clip(::RPGTools::Timeline::SetCharacterAnimExtLayerEnableClip* value)
+		::System::Void set_Clip(::RPGTools::Timeline::SetCharacterAnimExtLayerEnableClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::SetCharacterAnimExtLayerEnableClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR_SET_CLIP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::SetCharacterAnimExtLayerEnableClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR_SET_CLIP_OFFSET))(this, a1);
 		}
 
 		::RPGTools::Timeline::SetCharacterAnimExtLayerEnableConfig* get_Config()
@@ -45,9 +45,9 @@ namespace RPGTools::Timeline
 			return ((::RPGTools::Timeline::SetCharacterAnimExtLayerEnableConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR_GET_CONFIG_OFFSET))(this);
 		}
 
-		::System::Void set_Config(::RPGTools::Timeline::SetCharacterAnimExtLayerEnableConfig* value)
+		::System::Void set_Config(::RPGTools::Timeline::SetCharacterAnimExtLayerEnableConfig* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::SetCharacterAnimExtLayerEnableConfig*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR_SET_CONFIG_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::SetCharacterAnimExtLayerEnableConfig*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR_SET_CONFIG_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -55,9 +55,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

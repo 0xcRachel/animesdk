@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x178719C0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17871A10)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION_INVOKE_OFFSET UNITYSDK_OFFSET(0x178716D0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION__CTOR_OFFSET UNITYSDK_OFFSET(0x178716B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x195921C0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19592210)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION_INVOKE_OFFSET UNITYSDK_OFFSET(0x195921B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION__CTOR_OFFSET UNITYSDK_OFFSET(0x19592140)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRNotifications__RemoveNotification_TypeDefinitionIndex = 35923;
+	inline static constexpr unsigned int IVRNotifications__RemoveNotification_TypeDefinitionIndex = 36223;
 
 	class IVRNotifications__RemoveNotification : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRNotificationError Invoke(::System::UInt32 notificationId)
+		::ZenFulcrum::VR::OpenVRBinding::EVRNotificationError Invoke(::System::UInt32 a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRNotificationError(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION_INVOKE_OFFSET))(this, notificationId);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRNotificationError(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::UInt32 notificationId, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::UInt32 a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION_BEGININVOKE_OFFSET))(this, notificationId, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRNotificationError EndInvoke(::System::IAsyncResult* result)
+		::ZenFulcrum::VR::OpenVRBinding::EVRNotificationError EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRNotificationError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION_ENDINVOKE_OFFSET))(this, result);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRNotificationError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

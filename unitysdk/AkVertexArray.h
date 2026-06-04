@@ -4,19 +4,19 @@
 
 class AkVertex;
 
-#define AKVERTEXARRAY_CLONEINTOREFERENCEFROMINTPTR_OFFSET UNITYSDK_OFFSET(0x190EB5B0)
-#define AKVERTEXARRAY_CREATENEWREFERENCEFROMINTPTR_OFFSET UNITYSDK_OFFSET(0x190EB560)
-#define AKVERTEXARRAY_GET_STRUCTURESIZE_OFFSET UNITYSDK_OFFSET(0x190EB4F0)
-#define AKVERTEXARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x190EB4B0)
+#define AKVERTEXARRAY_CLONEINTOREFERENCEFROMINTPTR_OFFSET UNITYSDK_OFFSET(0x196D8E60)
+#define AKVERTEXARRAY_CREATENEWREFERENCEFROMINTPTR_OFFSET UNITYSDK_OFFSET(0x196D8E10)
+#define AKVERTEXARRAY_GET_STRUCTURESIZE_OFFSET UNITYSDK_OFFSET(0x196D8DA0)
+#define AKVERTEXARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x196D8D60)
 
-inline static constexpr unsigned int AkVertexArray_TypeDefinitionIndex = 40411;
+inline static constexpr unsigned int AkVertexArray_TypeDefinitionIndex = 41238;
 
 class AkVertexArray : public ::AkBaseArray_1<::AkVertex*>
 {
 public:
-	::System::Void _ctor(::System::Int32 count)
+	::System::Void _ctor(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKVERTEXARRAY__CTOR_OFFSET))(this, count);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKVERTEXARRAY__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Int32 get_StructureSize()
@@ -24,13 +24,13 @@ public:
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKVERTEXARRAY_GET_STRUCTURESIZE_OFFSET))(this);
 	}
 
-	::AkVertex* CreateNewReferenceFromIntPtr(::System::IntPtr address)
+	::AkVertex* CreateNewReferenceFromIntPtr(::System::IntPtr a1)
 	{
-		return ((::AkVertex*(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKVERTEXARRAY_CREATENEWREFERENCEFROMINTPTR_OFFSET))(this, address);
+		return ((::AkVertex*(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKVERTEXARRAY_CREATENEWREFERENCEFROMINTPTR_OFFSET))(this, a1);
 	}
 
-	::System::Void CloneIntoReferenceFromIntPtr(::System::IntPtr address, ::AkVertex* other)
+	::System::Void CloneIntoReferenceFromIntPtr(::System::IntPtr a1, ::AkVertex* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::AkVertex*))((::PBYTE)hIl2Cpp + AKVERTEXARRAY_CLONEINTOREFERENCEFROMINTPTR_OFFSET))(this, address, other);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::AkVertex*))((::PBYTE)hIl2Cpp + AKVERTEXARRAY_CLONEINTOREFERENCEFROMINTPTR_OFFSET))(this, a1, a2);
 	}
 };

@@ -9,7 +9,7 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_B18A907A8E4C5C9C;
+class Class_1_95E1BEF84A79D9EB;
 namespace RPG::Client { class GridFightForgeItemData; }
 namespace System { class Action; }
 namespace System { class String; }
@@ -19,43 +19,43 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18044E70)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_GET_PERSPECTIVECAMERA_OFFSET UNITYSDK_OFFSET(0x18043EA0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_GET_PERSPECTIVEORTRANSFORM_OFFSET UNITYSDK_OFFSET(0x18043EC0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_GET_PERSPECTIVEROOT_OFFSET UNITYSDK_OFFSET(0x18043EB0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_GET_ROOT_OFFSET UNITYSDK_OFFSET(0x18043F20)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0x18043F30)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYCONSUMEEFFECT_OFFSET UNITYSDK_OFFSET(0x180478F0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYCYRENEACTIVEEFFECT_OFFSET UNITYSDK_OFFSET(0x180477C0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYCYRENEFLYEFFECT_OFFSET UNITYSDK_OFFSET(0x18045000)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYENHANCECHOOSEEFFECT_OFFSET UNITYSDK_OFFSET(0x18046AA0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYEQUIPACTIVEEFFECT_OFFSET UNITYSDK_OFFSET(0x18047CF0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYEQUIPEFFECT_OFFSET UNITYSDK_OFFSET(0x180479C0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYFLYEFFECT_1_OFFSET UNITYSDK_OFFSET(0x18045340)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYFLYEFFECT_2_OFFSET UNITYSDK_OFFSET(0x180457B0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYFLYEFFECT_OFFSET UNITYSDK_OFFSET(0x18045250)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYFORGEFLYEFFECT_OFFSET UNITYSDK_OFFSET(0x18045D50)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYGRIDPUTDOWNEFFECT_OFFSET UNITYSDK_OFFSET(0x18046970)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYGROWUPEFFECT_OFFSET UNITYSDK_OFFSET(0x18046480)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYHACKCOPYEFFECT_OFFSET UNITYSDK_OFFSET(0x18046630)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYORBFLYEFFECT_OFFSET UNITYSDK_OFFSET(0x18045F80)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYRANDOMFLY_OFFSET UNITYSDK_OFFSET(0x18045B50)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYROLETRAITEFFECT_OFFSET UNITYSDK_OFFSET(0x18047F70)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYROLETRANSFEREFFECT_OFFSET UNITYSDK_OFFSET(0x180467B0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYSHOPROLEREPLACE_OFFSET UNITYSDK_OFFSET(0x18046BB0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYTRAITACTIVEEFFECT_OFFSET UNITYSDK_OFFSET(0x18046170)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYUPGRADEEFFECT_1_OFFSET UNITYSDK_OFFSET(0x18047060)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYUPGRADEEFFECT_2_OFFSET UNITYSDK_OFFSET(0x18047730)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYUPGRADEEFFECT_OFFSET UNITYSDK_OFFSET(0x18046CD0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_SETPARTICLEPERSPECTIVECAMERA_OFFSET UNITYSDK_OFFSET(0x18044EC0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18048150)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER__GETFLYEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x180456A0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER__PLAYUPGRADEREFRESHEFFECT_OFFSET UNITYSDK_OFFSET(0x180475A0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER__SETNODEVISIBLE_OFFSET UNITYSDK_OFFSET(0x18047C80)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18906520)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_GET_PERSPECTIVECAMERA_OFFSET UNITYSDK_OFFSET(0x18905550)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_GET_PERSPECTIVEORTRANSFORM_OFFSET UNITYSDK_OFFSET(0x18905570)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_GET_PERSPECTIVEROOT_OFFSET UNITYSDK_OFFSET(0x18905560)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_GET_ROOT_OFFSET UNITYSDK_OFFSET(0x189055D0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0x189055E0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYCONSUMEEFFECT_OFFSET UNITYSDK_OFFSET(0x189099A0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYCYRENEACTIVEEFFECT_OFFSET UNITYSDK_OFFSET(0x18909860)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYCYRENEFLYEFFECT_OFFSET UNITYSDK_OFFSET(0x189066A0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYENHANCECHOOSEEFFECT_OFFSET UNITYSDK_OFFSET(0x18908AB0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYEQUIPACTIVEEFFECT_OFFSET UNITYSDK_OFFSET(0x18909DB0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYEQUIPEFFECT_OFFSET UNITYSDK_OFFSET(0x18909A70)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYFLYEFFECT_1_OFFSET UNITYSDK_OFFSET(0x18906AD0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYFLYEFFECT_2_OFFSET UNITYSDK_OFFSET(0x189072D0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYFLYEFFECT_OFFSET UNITYSDK_OFFSET(0x189069E0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYFORGEFLYEFFECT_OFFSET UNITYSDK_OFFSET(0x18907C90)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYGRIDPUTDOWNEFFECT_OFFSET UNITYSDK_OFFSET(0x18908960)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYGROWUPEFFECT_OFFSET UNITYSDK_OFFSET(0x189083D0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYHACKCOPYEFFECT_OFFSET UNITYSDK_OFFSET(0x189085F0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYORBFLYEFFECT_OFFSET UNITYSDK_OFFSET(0x18907EC0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYRANDOMFLY_OFFSET UNITYSDK_OFFSET(0x189076E0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYROLETRAITEFFECT_OFFSET UNITYSDK_OFFSET(0x1890A030)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYROLETRANSFEREFFECT_OFFSET UNITYSDK_OFFSET(0x18908780)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYSHOPROLEREPLACE_OFFSET UNITYSDK_OFFSET(0x18908BC0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYTRAITACTIVEEFFECT_OFFSET UNITYSDK_OFFSET(0x189080B0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYUPGRADEEFFECT_1_OFFSET UNITYSDK_OFFSET(0x189090B0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYUPGRADEEFFECT_2_OFFSET UNITYSDK_OFFSET(0x189097D0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYUPGRADEEFFECT_OFFSET UNITYSDK_OFFSET(0x18908CF0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_SETPARTICLEPERSPECTIVECAMERA_OFFSET UNITYSDK_OFFSET(0x18906570)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1890A280)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER__GETFLYEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x18906E60)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER__PLAYUPGRADEREFRESHEFFECT_OFFSET UNITYSDK_OFFSET(0x18909630)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER__SETNODEVISIBLE_OFFSET UNITYSDK_OFFSET(0x18909D40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEffectController_TypeDefinitionIndex = 59326;
+	inline static constexpr unsigned int GridFightEffectController_TypeDefinitionIndex = 60261;
 
 	class GridFightEffectController : public ::UnityEngine::MonoBehaviour
 	{
@@ -105,7 +105,7 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::GridFightFlyType, ::System::String*>* _FlyEffectByType; // 0x38
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>* _TraitShowEffectByType; // 0x40
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>* _GrowUpEffectByRank; // 0x48
-		::Class_1_B18A907A8E4C5C9C* _PoolMgr; // 0x50
+		::Class_1_95E1BEF84A79D9EB* _PoolMgr; // 0x50
 
 		::System::Void _ctor()
 		{
@@ -142,134 +142,134 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void SetParticlePerspectiveCamera(::UnityEngine::Transform* root)
+		::System::Void SetParticlePerspectiveCamera(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_SETPARTICLEPERSPECTIVECAMERA_OFFSET))(this, root);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_SETPARTICLEPERSPECTIVECAMERA_OFFSET))(this, a1);
 		}
 
-		::System::Void PlayCyreneFlyEffect(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::System::Action* callback)
+		::System::Void PlayCyreneFlyEffect(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYCYRENEFLYEFFECT_OFFSET))(this, start, end, callback);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYCYRENEFLYEFFECT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void PlayFlyEffect(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::System::Int32 rank, ::System::Action* callback, ::System::Boolean isRandomLine)
+		::System::Void PlayFlyEffect(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Int32 a3, ::System::Action* a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Int32, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYFLYEFFECT_OFFSET))(this, start, end, rank, callback, isRandomLine);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Int32, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYFLYEFFECT_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void PlayFlyEffect_1(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::RPG::Client::GridFightFlyType type, ::System::Action* callback, ::System::Boolean isRandomLine)
+		::System::Void PlayFlyEffect_1(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::RPG::Client::GridFightFlyType a3, ::System::Action* a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::RPG::Client::GridFightFlyType, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYFLYEFFECT_1_OFFSET))(this, start, end, type, callback, isRandomLine);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::RPG::Client::GridFightFlyType, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYFLYEFFECT_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void PlayFlyEffect_2(::UnityEngine::RectTransform* tf, ::UnityEngine::Vector3 end, ::RPG::Client::GridFightFlyType type, ::System::Action* callback, ::System::Boolean isRandomLine)
+		::System::Void PlayFlyEffect_2(::UnityEngine::RectTransform* a1, ::UnityEngine::Vector3 a2, ::RPG::Client::GridFightFlyType a3, ::System::Action* a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::Vector3, ::RPG::Client::GridFightFlyType, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYFLYEFFECT_2_OFFSET))(this, tf, end, type, callback, isRandomLine);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::Vector3, ::RPG::Client::GridFightFlyType, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYFLYEFFECT_2_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void PlayRandomFly(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::RPG::Client::GridFightFlyType type, ::System::Action* callback)
+		::System::Void PlayRandomFly(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::RPG::Client::GridFightFlyType a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::RPG::Client::GridFightFlyType, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYRANDOMFLY_OFFSET))(this, start, end, type, callback);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::RPG::Client::GridFightFlyType, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYRANDOMFLY_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void PlayForgeFlyEffect(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::RPG::Client::GridFightForgeItemData* forgeItem, ::System::Action* callback)
+		::System::Void PlayForgeFlyEffect(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::RPG::Client::GridFightForgeItemData* a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::RPG::Client::GridFightForgeItemData*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYFORGEFLYEFFECT_OFFSET))(this, start, end, forgeItem, callback);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::RPG::Client::GridFightForgeItemData*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYFORGEFLYEFFECT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void PlayOrbFlyEffect(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::RPG::GameCore::GridFightOrbType orbType, ::System::Action* callback)
+		::System::Void PlayOrbFlyEffect(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::RPG::GameCore::GridFightOrbType a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::RPG::GameCore::GridFightOrbType, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYORBFLYEFFECT_OFFSET))(this, start, end, orbType, callback);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::RPG::GameCore::GridFightOrbType, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYORBFLYEFFECT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void PlayTraitActiveEffect(::System::UInt32 uid, ::System::UInt32 traitID, ::System::Single speed)
+		::System::Void PlayTraitActiveEffect(::System::UInt32 a1, ::System::UInt32 a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYTRAITACTIVEEFFECT_OFFSET))(this, uid, traitID, speed);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYTRAITACTIVEEFFECT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void PlayGrowupEffect(::System::UInt32 rank, ::System::UInt32 uid, ::System::Action* onFinish)
+		::System::Void PlayGrowupEffect(::System::UInt32 a1, ::System::UInt32 a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYGROWUPEFFECT_OFFSET))(this, rank, uid, onFinish);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYGROWUPEFFECT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void PlayHackCopyEffect(::System::UInt32 uid, ::System::Action* onFinish)
+		::System::Void PlayHackCopyEffect(::System::UInt32 a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYHACKCOPYEFFECT_OFFSET))(this, uid, onFinish);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYHACKCOPYEFFECT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void PlayRoleTransferEffect(::System::UInt32 uid, ::RPG::Client::GridFightRoleChangeType changeType, ::System::Action* onChangeRole, ::System::Action* onFinish)
+		::System::Void PlayRoleTransferEffect(::System::UInt32 a1, ::RPG::Client::GridFightRoleChangeType a2, ::System::Action* a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::GridFightRoleChangeType, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYROLETRANSFEREFFECT_OFFSET))(this, uid, changeType, onChangeRole, onFinish);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::GridFightRoleChangeType, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYROLETRANSFEREFFECT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void PlayGridPutDownEffect(::UnityEngine::Transform* tf)
+		::System::Void PlayGridPutDownEffect(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYGRIDPUTDOWNEFFECT_OFFSET))(this, tf);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYGRIDPUTDOWNEFFECT_OFFSET))(this, a1);
 		}
 
-		::System::Void PlayEnhanceChooseEffect(::UnityEngine::Transform* transform)
+		::System::Void PlayEnhanceChooseEffect(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYENHANCECHOOSEEFFECT_OFFSET))(this, transform);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYENHANCECHOOSEEFFECT_OFFSET))(this, a1);
 		}
 
-		::System::Void PlayShopRoleReplace(::UnityEngine::Transform* transform, ::System::Action* onFinish)
+		::System::Void PlayShopRoleReplace(::UnityEngine::Transform* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYSHOPROLEREPLACE_OFFSET))(this, transform, onFinish);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYSHOPROLEREPLACE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void PlayUpgradeEffect(::UnityEngine::Transform* start1, ::UnityEngine::Transform* start2, ::UnityEngine::Transform* end, ::System::Int32 star, ::System::Action* onFinished, ::System::Boolean isEndPerspective)
+		::System::Void PlayUpgradeEffect(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Transform* a3, ::System::Int32 a4, ::System::Action* a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::System::Int32, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYUPGRADEEFFECT_OFFSET))(this, start1, start2, end, star, onFinished, isEndPerspective);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::System::Int32, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYUPGRADEEFFECT_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void PlayUpgradeEffect_1(::System::Collections::Generic::List_1<::UnityEngine::Transform*>* starts, ::UnityEngine::Transform* end, ::System::Int32 star, ::System::Action* onFinished, ::System::Boolean isEndPerspective)
+		::System::Void PlayUpgradeEffect_1(::System::Collections::Generic::List_1<::UnityEngine::Transform*>* a1, ::UnityEngine::Transform* a2, ::System::Int32 a3, ::System::Action* a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Transform*>*, ::UnityEngine::Transform*, ::System::Int32, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYUPGRADEEFFECT_1_OFFSET))(this, starts, end, star, onFinished, isEndPerspective);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Transform*>*, ::UnityEngine::Transform*, ::System::Int32, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYUPGRADEEFFECT_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void PlayUpgradeEffect_2(::UnityEngine::Transform* pos, ::System::Int32 star, ::System::Boolean isPerspective)
+		::System::Void PlayUpgradeEffect_2(::UnityEngine::Transform* a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYUPGRADEEFFECT_2_OFFSET))(this, pos, star, isPerspective);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYUPGRADEEFFECT_2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _PlayUpgradeRefreshEffect(::UnityEngine::Transform* pos, ::System::Int32 star, ::UnityEngine::Camera* particleCamera)
+		::System::Void _PlayUpgradeRefreshEffect(::UnityEngine::Transform* a1, ::System::Int32 a2, ::UnityEngine::Camera* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Int32, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER__PLAYUPGRADEREFRESHEFFECT_OFFSET))(this, pos, star, particleCamera);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Int32, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER__PLAYUPGRADEREFRESHEFFECT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void PlayCyreneActiveEffect(::UnityEngine::Transform* pos, ::System::Boolean isPerspective)
+		::System::Void PlayCyreneActiveEffect(::UnityEngine::Transform* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYCYRENEACTIVEEFFECT_OFFSET))(this, pos, isPerspective);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYCYRENEACTIVEEFFECT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void PlayConsumeEffect(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::RPG::GameCore::GridFightConsumeType type, ::System::Action* callback)
+		::System::Void PlayConsumeEffect(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::RPG::GameCore::GridFightConsumeType a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::RPG::GameCore::GridFightConsumeType, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYCONSUMEEFFECT_OFFSET))(this, start, end, type, callback);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::RPG::GameCore::GridFightConsumeType, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYCONSUMEEFFECT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::String* _GetFlyEffectPath(::RPG::Client::GridFightFlyType flyType)
+		::System::String* _GetFlyEffectPath(::RPG::Client::GridFightFlyType a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::RPG::Client::GridFightFlyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER__GETFLYEFFECTPATH_OFFSET))(this, flyType);
+			return ((::System::String*(*)(::PVOID, ::RPG::Client::GridFightFlyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER__GETFLYEFFECTPATH_OFFSET))(this, a1);
 		}
 
-		::System::Void PlayEquipEffect(::UnityEngine::Vector3 startPoint, ::UnityEngine::Vector3 endPoint, ::UnityEngine::Transform* itemTrans, ::UnityEngine::Transform* effectAddTrans, ::System::Int32 rank, ::System::Action* onRefresh)
+		::System::Void PlayEquipEffect(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Transform* a3, ::UnityEngine::Transform* a4, ::System::Int32 a5, ::System::Action* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYEQUIPEFFECT_OFFSET))(this, startPoint, endPoint, itemTrans, effectAddTrans, rank, onRefresh);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYEQUIPEFFECT_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void _SetNodeVisible(::UnityEngine::Transform* trans, ::System::Boolean visible)
+		::System::Void _SetNodeVisible(::UnityEngine::Transform* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER__SETNODEVISIBLE_OFFSET))(this, trans, visible);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER__SETNODEVISIBLE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void PlayEquipActiveEffect(::UnityEngine::Transform* pos, ::UnityEngine::Camera* particleCamera, ::System::Boolean isMini)
+		::System::Void PlayEquipActiveEffect(::UnityEngine::Transform* a1, ::UnityEngine::Camera* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Camera*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYEQUIPACTIVEEFFECT_OFFSET))(this, pos, particleCamera, isMini);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Camera*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYEQUIPACTIVEEFFECT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void PlayRoleTraitEffect(::System::UInt32 uid, ::RPG::GameCore::GridFightTraitEffectType effectType, ::System::Action* callback)
+		::System::Void PlayRoleTraitEffect(::System::UInt32 a1, ::RPG::GameCore::GridFightTraitEffectType a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::GridFightTraitEffectType, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYROLETRAITEFFECT_OFFSET))(this, uid, effectType, callback);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::GridFightTraitEffectType, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER_PLAYROLETRAITEFFECT_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

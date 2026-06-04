@@ -4,42 +4,42 @@
 
 namespace System { class Object; }
 
-#define SUPERSCROLLVIEW_ROWCOLUMNPAIR_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x171C2F0)
-#define SUPERSCROLLVIEW_ROWCOLUMNPAIR_EQUALS_OFFSET UNITYSDK_OFFSET(0x171C240)
-#define SUPERSCROLLVIEW_ROWCOLUMNPAIR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x171C2A0)
-#define SUPERSCROLLVIEW_ROWCOLUMNPAIR_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0xE197850)
-#define SUPERSCROLLVIEW_ROWCOLUMNPAIR_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0xE1978B0)
-#define SUPERSCROLLVIEW_ROWCOLUMNPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x6179C0)
-#define SUPERSCROLLVIEW_ROWCOLUMNPAIR___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0x171C340)
-#define SUPERSCROLLVIEW_ROWCOLUMNPAIR___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x171C300)
+#define SUPERSCROLLVIEW_ROWCOLUMNPAIR_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3754A40)
+#define SUPERSCROLLVIEW_ROWCOLUMNPAIR_EQUALS_OFFSET UNITYSDK_OFFSET(0x3754990)
+#define SUPERSCROLLVIEW_ROWCOLUMNPAIR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x37549F0)
+#define SUPERSCROLLVIEW_ROWCOLUMNPAIR_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x13EE9EA0)
+#define SUPERSCROLLVIEW_ROWCOLUMNPAIR_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x13EE9750)
+#define SUPERSCROLLVIEW_ROWCOLUMNPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x6BD370)
+#define SUPERSCROLLVIEW_ROWCOLUMNPAIR___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0x3754B00)
+#define SUPERSCROLLVIEW_ROWCOLUMNPAIR___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3754A50)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int RowColumnPair_TypeDefinitionIndex = 44377;
+	inline static constexpr unsigned int RowColumnPair_TypeDefinitionIndex = 44923;
 
 	struct alignas(4) RowColumnPair
 	{
 		::System::Int32 mRow; // 0x10
 		::System::Int32 mColumn; // 0x14
 
-		::System::Void _ctor(::System::Int32 row1, ::System::Int32 column1)
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_ROWCOLUMNPAIR__CTOR_OFFSET))(this, row1, column1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_ROWCOLUMNPAIR__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Equals(::SuperScrollView::RowColumnPair other)
+		::System::Boolean Equals(::SuperScrollView::RowColumnPair a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::SuperScrollView::RowColumnPair))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_ROWCOLUMNPAIR_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::SuperScrollView::RowColumnPair))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_ROWCOLUMNPAIR_EQUALS_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean op_Equality(::SuperScrollView::RowColumnPair a, ::SuperScrollView::RowColumnPair b)
+		static ::System::Boolean op_Equality(::SuperScrollView::RowColumnPair a1, ::SuperScrollView::RowColumnPair a2)
 		{
-			return ((::System::Boolean(*)(::SuperScrollView::RowColumnPair, ::SuperScrollView::RowColumnPair))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_ROWCOLUMNPAIR_OP_EQUALITY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::SuperScrollView::RowColumnPair, ::SuperScrollView::RowColumnPair))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_ROWCOLUMNPAIR_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::SuperScrollView::RowColumnPair a, ::SuperScrollView::RowColumnPair b)
+		static ::System::Boolean op_Inequality(::SuperScrollView::RowColumnPair a1, ::SuperScrollView::RowColumnPair a2)
 		{
-			return ((::System::Boolean(*)(::SuperScrollView::RowColumnPair, ::SuperScrollView::RowColumnPair))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_ROWCOLUMNPAIR_OP_INEQUALITY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::SuperScrollView::RowColumnPair, ::SuperScrollView::RowColumnPair))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_ROWCOLUMNPAIR_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
 		::System::Int32 GetHashCode()
@@ -47,9 +47,9 @@ namespace SuperScrollView
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_ROWCOLUMNPAIR_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_ROWCOLUMNPAIR_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_ROWCOLUMNPAIR_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 __iFixBaseProxy_GetHashCode()
@@ -57,9 +57,9 @@ namespace SuperScrollView
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_ROWCOLUMNPAIR___IFIXBASEPROXY_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean __iFixBaseProxy_Equals(::System::Object* P0)
+		::System::Boolean __iFixBaseProxy_Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_ROWCOLUMNPAIR___IFIXBASEPROXY_EQUALS_OFFSET))(this, P0);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_ROWCOLUMNPAIR___IFIXBASEPROXY_EQUALS_OFFSET))(this, a1);
 		}
 	};
 }

@@ -7,11 +7,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_QTEUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14EAF3D0)
+#define RPG_CLIENT_QTEUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17151380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int QTEUIData_TypeDefinitionIndex = 65598;
+	inline static constexpr unsigned int QTEUIData_TypeDefinitionIndex = 66532;
 
 	class QTEUIData : public ::System::Object
 	{

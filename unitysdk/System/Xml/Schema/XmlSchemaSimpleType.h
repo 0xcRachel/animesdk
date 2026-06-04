@@ -4,9 +4,9 @@
 
 namespace System::Xml::Schema { class XmlSchemaSimpleTypeContent; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPE_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x1854E930)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPE_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0x1854E940)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1854E8B0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPE_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x1847CE50)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPE_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0x1847CE60)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1847CDD0)
 
 namespace System::Xml::Schema
 {
@@ -27,9 +27,9 @@ namespace System::Xml::Schema
 			return ((::System::Xml::Schema::XmlSchemaSimpleTypeContent*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPE_GET_CONTENT_OFFSET))(this);
 		}
 
-		::System::Void set_Content(::System::Xml::Schema::XmlSchemaSimpleTypeContent* value)
+		::System::Void set_Content(::System::Xml::Schema::XmlSchemaSimpleTypeContent* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaSimpleTypeContent*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPE_SET_CONTENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaSimpleTypeContent*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPE_SET_CONTENT_OFFSET))(this, a1);
 		}
 	};
 }

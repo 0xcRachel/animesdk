@@ -6,34 +6,34 @@ namespace RPG::Client { class RogueTournBuildRefInfo; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16EFEEE0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS9_0__PREPAREFAVORITEBUILDREF_B__0_OFFSET UNITYSDK_OFFSET(0x16F00B40)
-#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS9_0__PREPAREFAVORITEBUILDREF_B__1_OFFSET UNITYSDK_OFFSET(0x16F00C00)
+#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17DE3F90)
+#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS9_0__PREPAREFAVORITEBUILDREF_B__0_OFFSET UNITYSDK_OFFSET(0x17DE5C10)
+#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS9_0__PREPAREFAVORITEBUILDREF_B__1_OFFSET UNITYSDK_OFFSET(0x17DE5CF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournBuildRefInfo___c__DisplayClass9_0_TypeDefinitionIndex = 62232;
+	inline static constexpr unsigned int RogueTournBuildRefInfo___c__DisplayClass9_0_TypeDefinitionIndex = 63165;
 
 	class RogueTournBuildRefInfo___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::RogueTournBuildRefInfo* __4__this; // 0x10
-		::RPG::Client::Promises::Promise_1<::System::Boolean>* promise; // 0x18
-		::System::Action_1<::System::Boolean>* __9__1; // 0x20
+		::System::Action_1<::System::Boolean>* __9__1; // 0x18
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* promise; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS9_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _PrepareFavoriteBuildRef_b__0(::System::Boolean isOk)
+		::System::Void _PrepareFavoriteBuildRef_b__0(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS9_0__PREPAREFAVORITEBUILDREF_B__0_OFFSET))(this, isOk);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS9_0__PREPAREFAVORITEBUILDREF_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Void _PrepareFavoriteBuildRef_b__1(::System::Boolean ok)
+		::System::Void _PrepareFavoriteBuildRef_b__1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS9_0__PREPAREFAVORITEBUILDREF_B__1_OFFSET))(this, ok);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS9_0__PREPAREFAVORITEBUILDREF_B__1_OFFSET))(this, a1);
 		}
 	};
 }

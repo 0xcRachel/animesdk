@@ -4,24 +4,24 @@
 
 namespace RPG::Client { class LookAtIK; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_MONOBABYHIPPLEN_CLASS_1_F5A99FD3A852F19F_METHOD_1_39590AB2089F9F4D_OFFSET UNITYSDK_OFFSET(0x169356E0)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_MONOBABYHIPPLEN_CLASS_1_F5A99FD3A852F19F_METHOD_1_F230511816A7C6C1_OFFSET UNITYSDK_OFFSET(0x16935B60)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_MONOBABYHIPPLEN_CLASS_1_F5A99FD3A852F19F__CTOR_OFFSET UNITYSDK_OFFSET(0x169362F0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_MONOBABYHIPPLEN_CLASS_1_F5A99FD3A852F19F_METHOD_1_39590AB2089F9F4D_OFFSET UNITYSDK_OFFSET(0x186D8B30)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_MONOBABYHIPPLEN_CLASS_1_F5A99FD3A852F19F_METHOD_1_F230511816A7C6C1_OFFSET UNITYSDK_OFFSET(0x186D8FA0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_MONOBABYHIPPLEN_CLASS_1_F5A99FD3A852F19F__CTOR_OFFSET UNITYSDK_OFFSET(0x186D9760)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int MonoBabyHipplen_Class_1_F5A99FD3A852F19F_TypeDefinitionIndex = 69660;
+	inline static constexpr unsigned int MonoBabyHipplen_Class_1_F5A99FD3A852F19F_TypeDefinitionIndex = 70472;
 
 	class MonoBabyHipplen_Class_1_F5A99FD3A852F19F : public ::System::Object
 	{
 	public:
 		::RPG::Client::LookAtIK* Field_1_0; // 0x10
 		::System::Single Field_1_1; // 0x18
-		::System::Single Field_1_5; // 0x1C
+		::System::Single Field_1_2; // 0x1C
 		::System::Single Field_1_3; // 0x20
-		::System::Single Field_1_2; // 0x24
-		::System::Single Field_1_6; // 0x28
-		::System::Single Field_1_4; // 0x2C
+		::System::Single Field_1_4; // 0x24
+		::System::Single Field_1_5; // 0x28
+		::System::Single Field_1_6; // 0x2C
 
 		::System::Void _ctor()
 		{

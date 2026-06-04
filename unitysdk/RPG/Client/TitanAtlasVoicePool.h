@@ -5,17 +5,17 @@
 namespace RPG::Client { class TitanAtlasVoiceInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TITANATLASVOICEPOOL_ADDVOICEINFO_OFFSET UNITYSDK_OFFSET(0x15164CB0)
-#define RPG_CLIENT_TITANATLASVOICEPOOL_CREATE_OFFSET UNITYSDK_OFFSET(0x15164BF0)
-#define RPG_CLIENT_TITANATLASVOICEPOOL_GETRANDOMINFO_OFFSET UNITYSDK_OFFSET(0x15163080)
-#define RPG_CLIENT_TITANATLASVOICEPOOL_GET_ID_OFFSET UNITYSDK_OFFSET(0x15164ED0)
-#define RPG_CLIENT_TITANATLASVOICEPOOL_SET_ID_OFFSET UNITYSDK_OFFSET(0x15164EE0)
-#define RPG_CLIENT_TITANATLASVOICEPOOL_SUMALLWEIGHT_OFFSET UNITYSDK_OFFSET(0x15164D20)
-#define RPG_CLIENT_TITANATLASVOICEPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x15164C70)
+#define RPG_CLIENT_TITANATLASVOICEPOOL_ADDVOICEINFO_OFFSET UNITYSDK_OFFSET(0x1644CA10)
+#define RPG_CLIENT_TITANATLASVOICEPOOL_CREATE_OFFSET UNITYSDK_OFFSET(0x1644C950)
+#define RPG_CLIENT_TITANATLASVOICEPOOL_GETRANDOMINFO_OFFSET UNITYSDK_OFFSET(0x1644AB20)
+#define RPG_CLIENT_TITANATLASVOICEPOOL_GET_ID_OFFSET UNITYSDK_OFFSET(0x1644CC70)
+#define RPG_CLIENT_TITANATLASVOICEPOOL_SET_ID_OFFSET UNITYSDK_OFFSET(0x1644CC80)
+#define RPG_CLIENT_TITANATLASVOICEPOOL_SUMALLWEIGHT_OFFSET UNITYSDK_OFFSET(0x1644CAC0)
+#define RPG_CLIENT_TITANATLASVOICEPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1644C9D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TitanAtlasVoicePool_TypeDefinitionIndex = 62829;
+	inline static constexpr unsigned int TitanAtlasVoicePool_TypeDefinitionIndex = 63763;
 
 	class TitanAtlasVoicePool : public ::System::Object
 	{
@@ -28,14 +28,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASVOICEPOOL__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::TitanAtlasVoicePool* Create(::System::UInt32 id)
+		static ::RPG::Client::TitanAtlasVoicePool* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::TitanAtlasVoicePool*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASVOICEPOOL_CREATE_OFFSET))(id);
+			return ((::RPG::Client::TitanAtlasVoicePool*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASVOICEPOOL_CREATE_OFFSET))(a1);
 		}
 
-		::System::Void AddVoiceInfo(::RPG::Client::TitanAtlasVoiceInfo* info)
+		::System::Void AddVoiceInfo(::RPG::Client::TitanAtlasVoiceInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TitanAtlasVoiceInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASVOICEPOOL_ADDVOICEINFO_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TitanAtlasVoiceInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASVOICEPOOL_ADDVOICEINFO_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TitanAtlasVoiceInfo* GetRandomInfo()
@@ -53,9 +53,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASVOICEPOOL_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASVOICEPOOL_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASVOICEPOOL_SET_ID_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,13 +6,13 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONENTRY_GET_NAME_OFFSET UNITYSDK_OFFSET(0x58FAA0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONENTRY_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x608BA0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x226F550)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONENTRY_GET_NAME_OFFSET UNITYSDK_OFFSET(0x6676D0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONENTRY_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x66B7B0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x37D9D90)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int SerializationEntry_TypeDefinitionIndex = 1123;
+	inline static constexpr unsigned int SerializationEntry_TypeDefinitionIndex = 1122;
 
 	struct alignas(8) SerializationEntry
 	{
@@ -20,9 +20,9 @@ namespace System::Runtime::Serialization
 		::System::Object* m_value; // 0x18
 		::System::String* m_name; // 0x20
 
-		::System::Void _ctor(::System::String* entryName, ::System::Object* entryValue, ::System::Type* entryType)
+		::System::Void _ctor(::System::String* a1, ::System::Object* a2, ::System::Type* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONENTRY__CTOR_OFFSET))(this, entryName, entryValue, entryType);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONENTRY__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Object* get_Value()

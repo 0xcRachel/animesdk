@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CHENLINGBATTLE_EFFECTPROGRESSCONFIG_CREATE_OFFSET UNITYSDK_OFFSET(0x17CADC60)
-#define RPG_CLIENT_CHENLINGBATTLE_EFFECTPROGRESSCONFIG_GET_ID_OFFSET UNITYSDK_OFFSET(0x17CADDA0)
-#define RPG_CLIENT_CHENLINGBATTLE_EFFECTPROGRESSCONFIG_GET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x17CADDC0)
-#define RPG_CLIENT_CHENLINGBATTLE_EFFECTPROGRESSCONFIG_SET_ID_OFFSET UNITYSDK_OFFSET(0x17CADDB0)
-#define RPG_CLIENT_CHENLINGBATTLE_EFFECTPROGRESSCONFIG_SET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x17CADDD0)
-#define RPG_CLIENT_CHENLINGBATTLE_EFFECTPROGRESSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17CADD90)
+#define RPG_CLIENT_CHENLINGBATTLE_EFFECTPROGRESSCONFIG_CREATE_OFFSET UNITYSDK_OFFSET(0x18DC5CF0)
+#define RPG_CLIENT_CHENLINGBATTLE_EFFECTPROGRESSCONFIG_GET_ID_OFFSET UNITYSDK_OFFSET(0x18DC5E20)
+#define RPG_CLIENT_CHENLINGBATTLE_EFFECTPROGRESSCONFIG_GET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x18DC5E40)
+#define RPG_CLIENT_CHENLINGBATTLE_EFFECTPROGRESSCONFIG_SET_ID_OFFSET UNITYSDK_OFFSET(0x18DC5E30)
+#define RPG_CLIENT_CHENLINGBATTLE_EFFECTPROGRESSCONFIG_SET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x18DC5E50)
+#define RPG_CLIENT_CHENLINGBATTLE_EFFECTPROGRESSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18DC5E10)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int EffectProgressConfig_TypeDefinitionIndex = 70122;
+	inline static constexpr unsigned int EffectProgressConfig_TypeDefinitionIndex = 70934;
 
 	class EffectProgressConfig : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client::ChenLingBattle
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_EFFECTPROGRESSCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ChenLingBattle::EffectProgressConfig* Create(::System::UInt32 configID)
+		static ::RPG::Client::ChenLingBattle::EffectProgressConfig* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ChenLingBattle::EffectProgressConfig*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_EFFECTPROGRESSCONFIG_CREATE_OFFSET))(configID);
+			return ((::RPG::Client::ChenLingBattle::EffectProgressConfig*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_EFFECTPROGRESSCONFIG_CREATE_OFFSET))(a1);
 		}
 
 		::System::UInt32 get_ID()
@@ -34,9 +34,9 @@ namespace RPG::Client::ChenLingBattle
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_EFFECTPROGRESSCONFIG_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_EFFECTPROGRESSCONFIG_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_EFFECTPROGRESSCONFIG_SET_ID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_Progress()
@@ -44,9 +44,9 @@ namespace RPG::Client::ChenLingBattle
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_EFFECTPROGRESSCONFIG_GET_PROGRESS_OFFSET))(this);
 		}
 
-		::System::Void set_Progress(::System::UInt32 value)
+		::System::Void set_Progress(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_EFFECTPROGRESSCONFIG_SET_PROGRESS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_EFFECTPROGRESSCONFIG_SET_PROGRESS_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,21 +5,21 @@
 namespace System { class String; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define SRDEBUGUTIL_ASSERTNOTNULL_OFFSET UNITYSDK_OFFSET(0x1A312C90)
-#define SRDEBUGUTIL_ASSERT_OFFSET UNITYSDK_OFFSET(0x1A312E50)
-#define SRDEBUGUTIL_EDITORASSERTNOTNULL_OFFSET UNITYSDK_OFFSET(0x1A312F20)
-#define SRDEBUGUTIL_EDITORASSERT_OFFSET UNITYSDK_OFFSET(0x1A312F30)
-#define SRDEBUGUTIL_GET_ISFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1A312C20)
-#define SRDEBUGUTIL_SET_ISFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1A312C60)
+#define SRDEBUGUTIL_ASSERTNOTNULL_OFFSET UNITYSDK_OFFSET(0x1B2C8570)
+#define SRDEBUGUTIL_ASSERT_OFFSET UNITYSDK_OFFSET(0x1B2C86D0)
+#define SRDEBUGUTIL_EDITORASSERTNOTNULL_OFFSET UNITYSDK_OFFSET(0x1B2C87B0)
+#define SRDEBUGUTIL_EDITORASSERT_OFFSET UNITYSDK_OFFSET(0x1B2C87C0)
+#define SRDEBUGUTIL_GET_ISFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1B2C8550)
+#define SRDEBUGUTIL_SET_ISFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1B2C8560)
 
-inline static constexpr unsigned int SRDebugUtil_TypeDefinitionIndex = 33260;
+inline static constexpr unsigned int SRDebugUtil_TypeDefinitionIndex = 33542;
 
 class SRDebugUtil : public ::System::Object
 {
 public:
 	static ::System::Boolean* StaticGet__IsFixedUpdate_k__BackingField()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SRDebugUtil_TypeDefinitionIndex)->GetStaticField(0xDED0);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SRDebugUtil_TypeDefinitionIndex)->GetStaticField(0xD2B0);
 	}
 	// static const ::System::Int32 LineBufferCount = 0x200; // 0x0
 
@@ -28,28 +28,28 @@ public:
 		return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + SRDEBUGUTIL_GET_ISFIXEDUPDATE_OFFSET))();
 	}
 
-	static ::System::Void set_IsFixedUpdate(::System::Boolean value)
+	static ::System::Void set_IsFixedUpdate(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGUTIL_SET_ISFIXEDUPDATE_OFFSET))(value);
+		return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGUTIL_SET_ISFIXEDUPDATE_OFFSET))(a1);
 	}
 
-	static ::System::Void AssertNotNull(::System::Object* value, ::System::String* message, ::UnityEngine::MonoBehaviour* instance)
+	static ::System::Void AssertNotNull(::System::Object* a1, ::System::String* a2, ::UnityEngine::MonoBehaviour* a3)
 	{
-		return ((::System::Void(*)(::System::Object*, ::System::String*, ::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + SRDEBUGUTIL_ASSERTNOTNULL_OFFSET))(value, message, instance);
+		return ((::System::Void(*)(::System::Object*, ::System::String*, ::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + SRDEBUGUTIL_ASSERTNOTNULL_OFFSET))(a1, a2, a3);
 	}
 
-	static ::System::Void Assert(::System::Boolean condition, ::System::String* message, ::UnityEngine::MonoBehaviour* instance)
+	static ::System::Void Assert(::System::Boolean a1, ::System::String* a2, ::UnityEngine::MonoBehaviour* a3)
 	{
-		return ((::System::Void(*)(::System::Boolean, ::System::String*, ::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + SRDEBUGUTIL_ASSERT_OFFSET))(condition, message, instance);
+		return ((::System::Void(*)(::System::Boolean, ::System::String*, ::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + SRDEBUGUTIL_ASSERT_OFFSET))(a1, a2, a3);
 	}
 
-	static ::System::Void EditorAssertNotNull(::System::Object* value, ::System::String* message, ::UnityEngine::MonoBehaviour* instance)
+	static ::System::Void EditorAssertNotNull(::System::Object* a1, ::System::String* a2, ::UnityEngine::MonoBehaviour* a3)
 	{
-		return ((::System::Void(*)(::System::Object*, ::System::String*, ::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + SRDEBUGUTIL_EDITORASSERTNOTNULL_OFFSET))(value, message, instance);
+		return ((::System::Void(*)(::System::Object*, ::System::String*, ::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + SRDEBUGUTIL_EDITORASSERTNOTNULL_OFFSET))(a1, a2, a3);
 	}
 
-	static ::System::Void EditorAssert(::System::Boolean condition, ::System::String* message, ::UnityEngine::MonoBehaviour* instance)
+	static ::System::Void EditorAssert(::System::Boolean a1, ::System::String* a2, ::UnityEngine::MonoBehaviour* a3)
 	{
-		return ((::System::Void(*)(::System::Boolean, ::System::String*, ::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + SRDEBUGUTIL_EDITORASSERT_OFFSET))(condition, message, instance);
+		return ((::System::Void(*)(::System::Boolean, ::System::String*, ::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + SRDEBUGUTIL_EDITORASSERT_OFFSET))(a1, a2, a3);
 	}
 };

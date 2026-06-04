@@ -5,24 +5,24 @@
 namespace RPG::Client { class FindChestData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_FINDCHESTMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15127590)
-#define RPG_CLIENT_FINDCHESTMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x151275C0)
-#define RPG_CLIENT_FINDCHESTMODULE___C__GETSORTEDFINDCHESTDATALIST_B__9_0_OFFSET UNITYSDK_OFFSET(0x151275D0)
+#define RPG_CLIENT_FINDCHESTMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16B8EAF0)
+#define RPG_CLIENT_FINDCHESTMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16B8EB20)
+#define RPG_CLIENT_FINDCHESTMODULE___C__GETSORTEDFINDCHESTDATALIST_B__9_0_OFFSET UNITYSDK_OFFSET(0x16B8EB30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FindChestModule___c_TypeDefinitionIndex = 59067;
+	inline static constexpr unsigned int FindChestModule___c_TypeDefinitionIndex = 59997;
 
 	class FindChestModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::FindChestData*>** StaticGet___9__9_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::FindChestData*>**)Il2CppClass::FromTypeDefinitionIndex(FindChestModule___c_TypeDefinitionIndex)->GetStaticField(0x13340);
+			return (::System::Comparison_1<::RPG::Client::FindChestData*>**)Il2CppClass::FromTypeDefinitionIndex(FindChestModule___c_TypeDefinitionIndex)->GetStaticField(0x1A540);
 		}
 		static ::RPG::Client::FindChestModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::FindChestModule___c**)Il2CppClass::FromTypeDefinitionIndex(FindChestModule___c_TypeDefinitionIndex)->GetStaticField(0x13348);
+			return (::RPG::Client::FindChestModule___c**)Il2CppClass::FromTypeDefinitionIndex(FindChestModule___c_TypeDefinitionIndex)->GetStaticField(0x1A548);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FINDCHESTMODULE___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetSortedFindChestDataList_b__9_0(::RPG::Client::FindChestData* x, ::RPG::Client::FindChestData* y)
+		::System::Int32 _GetSortedFindChestDataList_b__9_0(::RPG::Client::FindChestData* a1, ::RPG::Client::FindChestData* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::FindChestData*, ::RPG::Client::FindChestData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FINDCHESTMODULE___C__GETSORTEDFINDCHESTDATALIST_B__9_0_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::FindChestData*, ::RPG::Client::FindChestData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FINDCHESTMODULE___C__GETSORTEDFINDCHESTDATALIST_B__9_0_OFFSET))(this, a1, a2);
 		}
 	};
 }

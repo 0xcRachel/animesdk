@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_3_E21F6DE9B7FA4D05;
+class Class_3_07C3C4D2990C49EE;
 namespace RPG::GameCore { class RtCreateTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2C5AD437E9FDF62C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11936630)
-#define CLASS_3_2C5AD437E9FDF62C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x119366A0)
-#define CLASS_3_2C5AD437E9FDF62C__CTOR_OFFSET UNITYSDK_OFFSET(0x11936590)
-#define CLASS_3_2C5AD437E9FDF62C___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11936E50)
+#define CLASS_3_2C5AD437E9FDF62C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12D0E850)
+#define CLASS_3_2C5AD437E9FDF62C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12D0E8C0)
+#define CLASS_3_2C5AD437E9FDF62C__CTOR_OFFSET UNITYSDK_OFFSET(0x12D0E7B0)
+#define CLASS_3_2C5AD437E9FDF62C___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12D0F070)
 
-inline static constexpr unsigned int Class_3_2C5AD437E9FDF62C_TypeDefinitionIndex = 49613;
+inline static constexpr unsigned int Class_3_2C5AD437E9FDF62C_TypeDefinitionIndex = 50280;
 
 class Class_3_2C5AD437E9FDF62C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RtCreateTrigger*>
 {
 public:
-	::Class_3_E21F6DE9B7FA4D05* Field_3_0; // 0x28
+	::Class_3_07C3C4D2990C49EE* Field_3_0; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RtCreateTrigger* a2)
 	{

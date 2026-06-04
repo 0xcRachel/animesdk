@@ -7,10 +7,10 @@ namespace Entitas { class IEntity; }
 namespace RPG::GameCore { class FiveDimEffectItem; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_756B5584F1951889___C__DISPLAYCLASS28_1__CTOR_OFFSET UNITYSDK_OFFSET(0xC30BBC0)
-#define CLASS_1_756B5584F1951889___C__DISPLAYCLASS28_1__FIREEFFECTLIST_B__0_OFFSET UNITYSDK_OFFSET(0xC30DF00)
+#define CLASS_1_756B5584F1951889___C__DISPLAYCLASS28_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1445E3D0)
+#define CLASS_1_756B5584F1951889___C__DISPLAYCLASS28_1__FIREEFFECTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x144606A0)
 
-inline static constexpr unsigned int Class_1_756B5584F1951889___c__DisplayClass28_1_TypeDefinitionIndex = 70452;
+inline static constexpr unsigned int Class_1_756B5584F1951889___c__DisplayClass28_1_TypeDefinitionIndex = 71268;
 
 class Class_1_756B5584F1951889___c__DisplayClass28_1 : public ::System::Object
 {
@@ -23,8 +23,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_756B5584F1951889___C__DISPLAYCLASS28_1__CTOR_OFFSET))(this);
 	}
 
-	::System::Void _FireEffectList_b__0(::Entitas::IEntity* e, ::UnityEngine::GameObject* go)
+	::System::Void _FireEffectList_b__0(::Entitas::IEntity* a1, ::UnityEngine::GameObject* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CLASS_1_756B5584F1951889___C__DISPLAYCLASS28_1__FIREEFFECTLIST_B__0_OFFSET))(this, e, go);
+		return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CLASS_1_756B5584F1951889___C__DISPLAYCLASS28_1__FIREEFFECTLIST_B__0_OFFSET))(this, a1, a2);
 	}
 };

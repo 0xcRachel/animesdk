@@ -7,11 +7,11 @@ namespace RPG::GameCore { class MazePuzzleOrigamiRow; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_CF16CFC089011476_METHOD_3_ED7542A53884A418_OFFSET UNITYSDK_OFFSET(0xF3FC520)
-#define CLASS_3_CF16CFC089011476_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF3FC120)
-#define CLASS_3_CF16CFC089011476__CTOR_OFFSET UNITYSDK_OFFSET(0xF3FC0F0)
+#define CLASS_3_CF16CFC089011476_METHOD_3_D840003FFD0A1CE6_OFFSET UNITYSDK_OFFSET(0x16396180)
+#define CLASS_3_CF16CFC089011476_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16395CE0)
+#define CLASS_3_CF16CFC089011476__CTOR_OFFSET UNITYSDK_OFFSET(0x16395CB0)
 
-inline static constexpr unsigned int Class_3_CF16CFC089011476_TypeDefinitionIndex = 48817;
+inline static constexpr unsigned int Class_3_CF16CFC089011476_TypeDefinitionIndex = 49483;
 
 class Class_3_CF16CFC089011476 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::InitColonyOrigamiEntity*>
 {
@@ -26,8 +26,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CF16CFC089011476_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Void Method_3_ED7542A53884A418(::System::Collections::Generic::List_1<::RPG::GameCore::MazePuzzleOrigamiRow*>* a1)
+	::System::Void Method_3_D840003FFD0A1CE6(::System::Collections::Generic::List_1<::RPG::GameCore::MazePuzzleOrigamiRow*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::MazePuzzleOrigamiRow*>*))((::PBYTE)hIl2Cpp + CLASS_3_CF16CFC089011476_METHOD_3_ED7542A53884A418_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::MazePuzzleOrigamiRow*>*))((::PBYTE)hIl2Cpp + CLASS_3_CF16CFC089011476_METHOD_3_D840003FFD0A1CE6_OFFSET))(this, a1);
 	}
 };

@@ -5,27 +5,27 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TEXTJOINITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19480E30)
-#define RPG_GAMECORE_TEXTJOINITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19480F90)
+#define RPG_GAMECORE_TEXTJOINITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D15B60)
+#define RPG_GAMECORE_TEXTJOINITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D15CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TextJoinItemRow_TypeDefinitionIndex = 14484;
+	inline static constexpr unsigned int TextJoinItemRow_TypeDefinitionIndex = 14519;
 
 	class TextJoinItemRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 TextJoinItemID; // 0x10
-		::RPG::Client::TextID TextJoinText; // 0x18
+		::RPG::Client::TextID TextJoinText; // 0x10
+		::System::UInt32 TextJoinItemID; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTJOINITEMROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::TextJoinItemRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TextJoinItemRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TextJoinItemRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTJOINITEMROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TextJoinItemRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTJOINITEMROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

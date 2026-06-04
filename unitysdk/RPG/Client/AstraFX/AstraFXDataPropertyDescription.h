@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client::AstraFX
 {
-	inline static constexpr unsigned int AstraFXDataPropertyDescription_TypeDefinitionIndex = 67815;
+	inline static constexpr unsigned int AstraFXDataPropertyDescription_TypeDefinitionIndex = 68773;
 
 	struct alignas(8) AstraFXDataPropertyDescription
 	{

@@ -9,21 +9,21 @@ namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_64A9C64835CF029E_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE1303C0)
-#define CLASS_1_64A9C64835CF029E_METHOD_1_51CFFE2AF748ECD7_OFFSET UNITYSDK_OFFSET(0xE130590)
-#define CLASS_1_64A9C64835CF029E_METHOD_1_AA1B2EC42F1C39E5_OFFSET UNITYSDK_OFFSET(0xE130530)
-#define CLASS_1_64A9C64835CF029E_METHOD_1_B9B71AEDC43C03F6_OFFSET UNITYSDK_OFFSET(0xE130380)
-#define CLASS_1_64A9C64835CF029E__CTOR_OFFSET UNITYSDK_OFFSET(0xE12FFB0)
+#define CLASS_1_64A9C64835CF029E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17C80800)
+#define CLASS_1_64A9C64835CF029E_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x17C80970)
+#define CLASS_1_64A9C64835CF029E_METHOD_1_51CFFE2AF748ECD7_OFFSET UNITYSDK_OFFSET(0x17C809D0)
+#define CLASS_1_64A9C64835CF029E_METHOD_1_B9B71AEDC43C03F6_OFFSET UNITYSDK_OFFSET(0x17C807C0)
+#define CLASS_1_64A9C64835CF029E__CTOR_OFFSET UNITYSDK_OFFSET(0x17C803F0)
 
-inline static constexpr unsigned int Class_1_64A9C64835CF029E_TypeDefinitionIndex = 68297;
+inline static constexpr unsigned int Class_1_64A9C64835CF029E_TypeDefinitionIndex = 69271;
 
 class Class_1_64A9C64835CF029E : public ::System::Object
 {
 public:
 	::System::String* Field_1_0; // 0x10
-	::System::Func_1<::System::Boolean>* Field_1_3; // 0x18
-	::Struct_2_0B84ADD7815498A2 Field_1_2; // 0x20
-	::RPG::Client::ParkourGame::EffectConfig Field_1_1; // 0x30
+	::RPG::Client::ParkourGame::EffectConfig Field_1_1; // 0x18
+	::Struct_2_0B84ADD7815498A2 Field_1_2; // 0x40
+	::System::Func_1<::System::Boolean>* Field_1_3; // 0x50
 
 	::System::Void _ctor(::UnityEngine::Transform* a1, ::System::String* a2, ::RPG::Client::ParkourGame::EffectConfig a3)
 	{
@@ -40,9 +40,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_64A9C64835CF029E_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Boolean Method_1_AA1B2EC42F1C39E5()
+	::System::Boolean Method_1_1D4018D4200358D0()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_64A9C64835CF029E_METHOD_1_AA1B2EC42F1C39E5_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_64A9C64835CF029E_METHOD_1_1D4018D4200358D0_OFFSET))(this);
 	}
 
 	::System::Void Method_1_51CFFE2AF748ECD7()

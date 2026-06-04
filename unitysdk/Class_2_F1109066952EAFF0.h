@@ -5,20 +5,20 @@
 
 namespace UnityEngine { class Animator; }
 
-#define CLASS_2_F1109066952EAFF0_METHOD_2_32B2368221A04800_OFFSET UNITYSDK_OFFSET(0x1189E8D0)
-#define CLASS_2_F1109066952EAFF0__CTOR_OFFSET UNITYSDK_OFFSET(0x1189E980)
-#define CLASS_2_F1109066952EAFF0__ONBIND_OFFSET UNITYSDK_OFFSET(0x1189E870)
-#define CLASS_2_F1109066952EAFF0___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x1189E9F0)
+#define CLASS_2_F1109066952EAFF0_METHOD_2_32B2368221A04800_OFFSET UNITYSDK_OFFSET(0x15479950)
+#define CLASS_2_F1109066952EAFF0__CTOR_OFFSET UNITYSDK_OFFSET(0x15479A00)
+#define CLASS_2_F1109066952EAFF0__ONBIND_OFFSET UNITYSDK_OFFSET(0x154798F0)
+#define CLASS_2_F1109066952EAFF0___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x15479A70)
 
-inline static constexpr unsigned int Class_2_F1109066952EAFF0_TypeDefinitionIndex = 65995;
+inline static constexpr unsigned int Class_2_F1109066952EAFF0_TypeDefinitionIndex = 66928;
 
 class Class_2_F1109066952EAFF0 : public ::Class_1_CA217ABF4E3B4F3F
 {
 public:
-	::UnityEngine::Animator* Field_2_1; // 0x60
-	::System::Int32 Field_2_3; // 0x68
+	::UnityEngine::Animator* Field_2_0; // 0x60
+	::System::Int32 Field_2_1; // 0x68
 	::System::Int32 Field_2_2; // 0x6C
-	::System::Nullable_1<::System::Boolean> Field_2_0; // 0x70
+	::System::Nullable_1<::System::Boolean> Field_2_3; // 0x70
 
 	::System::Void _ctor()
 	{

@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_6BD41257D23618B4_21;
+class Class_1_21C7581DFE99F091_89;
 namespace RPG::Client { class RogueTalentUnlockData; }
 
-#define RPG_CLIENT_ROGUETALENTDATAITEM___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16EEF9F0)
-#define RPG_CLIENT_ROGUETALENTDATAITEM___C__DISPLAYCLASS5_0__UPDATESRVDATA_B__0_OFFSET UNITYSDK_OFFSET(0x16EF02E0)
+#define RPG_CLIENT_ROGUETALENTDATAITEM___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17DD4990)
+#define RPG_CLIENT_ROGUETALENTDATAITEM___C__DISPLAYCLASS5_0__UPDATESRVDATA_B__0_OFFSET UNITYSDK_OFFSET(0x17DD5270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTalentDataItem___c__DisplayClass5_0_TypeDefinitionIndex = 62175;
+	inline static constexpr unsigned int RogueTalentDataItem___c__DisplayClass5_0_TypeDefinitionIndex = 63108;
 
 	class RogueTalentDataItem___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::Class_1_6BD41257D23618B4_21* srvData; // 0x10
+		::Class_1_21C7581DFE99F091_89* srvData; // 0x10
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETALENTDATAITEM___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _UpdateSrvData_b__0(::RPG::Client::RogueTalentUnlockData* x)
+		::System::Boolean _UpdateSrvData_b__0(::RPG::Client::RogueTalentUnlockData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RogueTalentUnlockData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETALENTDATAITEM___C__DISPLAYCLASS5_0__UPDATESRVDATA_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RogueTalentUnlockData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETALENTDATAITEM___C__DISPLAYCLASS5_0__UPDATESRVDATA_B__0_OFFSET))(this, a1);
 		}
 	};
 }

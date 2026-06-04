@@ -4,38 +4,38 @@
 
 class AkTransform;
 
-#define AKCHANNELEMITTER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x192BAD00)
-#define AKCHANNELEMITTER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x192BAC10)
-#define AKCHANNELEMITTER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x192BAC90)
-#define AKCHANNELEMITTER_GETCPTR_OFFSET UNITYSDK_OFFSET(0x192BAB00)
-#define AKCHANNELEMITTER_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x192BAFC0)
-#define AKCHANNELEMITTER_GET_UINPUTCHANNELS_OFFSET UNITYSDK_OFFSET(0x192BB190)
-#define AKCHANNELEMITTER_SETCPTR_OFFSET UNITYSDK_OFFSET(0x192BAB50)
-#define AKCHANNELEMITTER_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x192BAEA0)
-#define AKCHANNELEMITTER_SET_UINPUTCHANNELS_OFFSET UNITYSDK_OFFSET(0x192BB0D0)
-#define AKCHANNELEMITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x192BAAF0)
+#define AKCHANNELEMITTER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x19DD5620)
+#define AKCHANNELEMITTER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19DD5500)
+#define AKCHANNELEMITTER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x19DD55B0)
+#define AKCHANNELEMITTER_GETCPTR_OFFSET UNITYSDK_OFFSET(0x19DD53C0)
+#define AKCHANNELEMITTER_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x19DD5920)
+#define AKCHANNELEMITTER_GET_UINPUTCHANNELS_OFFSET UNITYSDK_OFFSET(0x19DD5AF0)
+#define AKCHANNELEMITTER_SETCPTR_OFFSET UNITYSDK_OFFSET(0x19DD5410)
+#define AKCHANNELEMITTER_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x19DD5800)
+#define AKCHANNELEMITTER_SET_UINPUTCHANNELS_OFFSET UNITYSDK_OFFSET(0x19DD5A30)
+#define AKCHANNELEMITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19DD53B0)
 
-inline static constexpr unsigned int AkChannelEmitter_TypeDefinitionIndex = 40283;
+inline static constexpr unsigned int AkChannelEmitter_TypeDefinitionIndex = 41110;
 
 class AkChannelEmitter : public ::System::Object
 {
 public:
-	::System::Boolean swigCMemOwn; // 0x10
-	::System::IntPtr swigCPtr; // 0x18
+	::System::IntPtr swigCPtr; // 0x10
+	::System::Boolean swigCMemOwn; // 0x18
 
-	::System::Void _ctor(::System::IntPtr cPtr, ::System::Boolean cMemoryOwn)
+	::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKCHANNELEMITTER__CTOR_OFFSET))(this, cPtr, cMemoryOwn);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKCHANNELEMITTER__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	static ::System::IntPtr getCPtr(::AkChannelEmitter* obj)
+	static ::System::IntPtr getCPtr(::AkChannelEmitter* a1)
 	{
-		return ((::System::IntPtr(*)(::AkChannelEmitter*))((::PBYTE)hIl2Cpp + AKCHANNELEMITTER_GETCPTR_OFFSET))(obj);
+		return ((::System::IntPtr(*)(::AkChannelEmitter*))((::PBYTE)hIl2Cpp + AKCHANNELEMITTER_GETCPTR_OFFSET))(a1);
 	}
 
-	::System::Void setCPtr(::System::IntPtr cPtr)
+	::System::Void setCPtr(::System::IntPtr a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKCHANNELEMITTER_SETCPTR_OFFSET))(this, cPtr);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKCHANNELEMITTER_SETCPTR_OFFSET))(this, a1);
 	}
 
 	::System::Void Finalize()
@@ -48,14 +48,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCHANNELEMITTER_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Dispose_1(::System::Boolean disposing)
+	::System::Void Dispose_1(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKCHANNELEMITTER_DISPOSE_1_OFFSET))(this, disposing);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKCHANNELEMITTER_DISPOSE_1_OFFSET))(this, a1);
 	}
 
-	::System::Void set_position(::AkTransform* value)
+	::System::Void set_position(::AkTransform* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkTransform*))((::PBYTE)hIl2Cpp + AKCHANNELEMITTER_SET_POSITION_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::AkTransform*))((::PBYTE)hIl2Cpp + AKCHANNELEMITTER_SET_POSITION_OFFSET))(this, a1);
 	}
 
 	::AkTransform* get_position()
@@ -63,9 +63,9 @@ public:
 		return ((::AkTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCHANNELEMITTER_GET_POSITION_OFFSET))(this);
 	}
 
-	::System::Void set_uInputChannels(::System::UInt32 value)
+	::System::Void set_uInputChannels(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELEMITTER_SET_UINPUTCHANNELS_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELEMITTER_SET_UINPUTCHANNELS_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_uInputChannels()

@@ -7,35 +7,35 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAZEPUZZLEWOLFGUNPLAYLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190914E0)
-#define RPG_GAMECORE_MAZEPUZZLEWOLFGUNPLAYLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19091E30)
+#define RPG_GAMECORE_MAZEPUZZLEWOLFGUNPLAYLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A6265F0)
+#define RPG_GAMECORE_MAZEPUZZLEWOLFGUNPLAYLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A626F00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePuzzleWolfGunPlayLevelRow_TypeDefinitionIndex = 13340;
+	inline static constexpr unsigned int MazePuzzleWolfGunPlayLevelRow_TypeDefinitionIndex = 13413;
 
 	class MazePuzzleWolfGunPlayLevelRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
-		::System::String* TriggerCustomString; // 0x18
-		::System::UInt32 UnlockConditionMode; // 0x20
-		::RPG::GameCore::GunPlayModeType GunMode; // 0x24
-		::RPG::Client::TextID Description; // 0x28
-		::System::UInt32 GunLevel; // 0x38
-		::System::UInt32 TargetScore; // 0x3C
-		::RPG::Client::TextID Title; // 0x40
-		::System::Boolean ShowInUI; // 0x50
-		::System::UInt32 UnlockCondition; // 0x54
+		::System::String* TriggerCustomString; // 0x10
+		::Il2CppArray<::System::UInt32>* QuestList; // 0x18
+		::RPG::Client::TextID Description; // 0x20
+		::System::UInt32 TargetScore; // 0x30
+		::System::UInt32 UnlockCondition; // 0x34
+		::RPG::Client::TextID Title; // 0x38
+		::System::Boolean ShowInUI; // 0x48
+		::System::UInt32 GunLevel; // 0x4C
+		::RPG::GameCore::GunPlayModeType GunMode; // 0x50
+		::System::UInt32 UnlockConditionMode; // 0x54
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEPUZZLEWOLFGUNPLAYLEVELROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::MazePuzzleWolfGunPlayLevelRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MazePuzzleWolfGunPlayLevelRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MazePuzzleWolfGunPlayLevelRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEPUZZLEWOLFGUNPLAYLEVELROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MazePuzzleWolfGunPlayLevelRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEPUZZLEWOLFGUNPLAYLEVELROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

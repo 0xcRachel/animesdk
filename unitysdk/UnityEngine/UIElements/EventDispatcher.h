@@ -14,27 +14,27 @@ namespace UnityEngine::UIElements { class IPanel; }
 namespace UnityEngine::UIElements { class PointerDispatchState; }
 namespace UnityEngine::UIElements { template <typename T> class ObjectPool_1; }
 
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_APPLYDISPATCHINGSTRATEGIES_OFFSET UNITYSDK_OFFSET(0x1921E8B0)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_CLOSEGATE_OFFSET UNITYSDK_OFFSET(0x1921E450)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_DISPATCH_OFFSET UNITYSDK_OFFSET(0x19216620)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_GET_DISPATCHIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0x1921DC10)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_GET_POINTERSTATE_OFFSET UNITYSDK_OFFSET(0x1921D890)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_OPENGATE_OFFSET UNITYSDK_OFFSET(0x1921E460)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_PROCESSEVENTQUEUE_OFFSET UNITYSDK_OFFSET(0x1921E510)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_PROCESSEVENT_OFFSET UNITYSDK_OFFSET(0x1921DC30)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1921EBE0)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1921D8A0)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_APPLYDISPATCHINGSTRATEGIES_OFFSET UNITYSDK_OFFSET(0x19F864A0)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_CLOSEGATE_OFFSET UNITYSDK_OFFSET(0x19F86030)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_DISPATCH_OFFSET UNITYSDK_OFFSET(0x19F7DC60)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_GET_DISPATCHIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0x19F858C0)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_GET_POINTERSTATE_OFFSET UNITYSDK_OFFSET(0x19F85290)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_OPENGATE_OFFSET UNITYSDK_OFFSET(0x19F86040)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_PROCESSEVENTQUEUE_OFFSET UNITYSDK_OFFSET(0x19F860F0)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_PROCESSEVENT_OFFSET UNITYSDK_OFFSET(0x19F858E0)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F867D0)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x19F852A0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int EventDispatcher_TypeDefinitionIndex = 5849;
+	inline static constexpr unsigned int EventDispatcher_TypeDefinitionIndex = 6126;
 
 	class EventDispatcher : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*>** StaticGet_k_EventQueuePool()
 		{
-			return (::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*>**)Il2CppClass::FromTypeDefinitionIndex(EventDispatcher_TypeDefinitionIndex)->GetStaticField(0x24E20);
+			return (::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*>**)Il2CppClass::FromTypeDefinitionIndex(EventDispatcher_TypeDefinitionIndex)->GetStaticField(0x1D60);
 		}
 		::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* m_DispatchingStrategies; // 0x10
 		::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>* m_Queue; // 0x18
@@ -63,9 +63,9 @@ namespace UnityEngine::UIElements
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_GET_DISPATCHIMMEDIATELY_OFFSET))(this);
 		}
 
-		::System::Void Dispatch(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel, ::UnityEngine::UIElements::DispatchMode dispatchMode)
+		::System::Void Dispatch(::UnityEngine::UIElements::EventBase* a1, ::UnityEngine::UIElements::IPanel* a2, ::UnityEngine::UIElements::DispatchMode a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*, ::UnityEngine::UIElements::DispatchMode))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_DISPATCH_OFFSET))(this, evt, panel, dispatchMode);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*, ::UnityEngine::UIElements::DispatchMode))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_DISPATCH_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void CloseGate()
@@ -83,14 +83,14 @@ namespace UnityEngine::UIElements
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_PROCESSEVENTQUEUE_OFFSET))(this);
 		}
 
-		::System::Void ProcessEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel)
+		::System::Void ProcessEvent(::UnityEngine::UIElements::EventBase* a1, ::UnityEngine::UIElements::IPanel* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_PROCESSEVENT_OFFSET))(this, evt, panel);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_PROCESSEVENT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ApplyDispatchingStrategies(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel, ::System::Boolean imguiEventIsInitiallyUsed)
+		::System::Void ApplyDispatchingStrategies(::UnityEngine::UIElements::EventBase* a1, ::UnityEngine::UIElements::IPanel* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_APPLYDISPATCHINGSTRATEGIES_OFFSET))(this, evt, panel, imguiEventIsInitiallyUsed);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_APPLYDISPATCHINGSTRATEGIES_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

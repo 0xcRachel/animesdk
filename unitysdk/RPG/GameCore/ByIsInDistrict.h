@@ -4,14 +4,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYISINDISTRICT_METHOD_4_A519A5E7D365CC6E_OFFSET UNITYSDK_OFFSET(0x19A65520)
-#define RPG_GAMECORE_BYISINDISTRICT_METHOD_4_B1B5C2BA085F136E_OFFSET UNITYSDK_OFFSET(0x19A65450)
-#define RPG_GAMECORE_BYISINDISTRICT__CTOR_OFFSET UNITYSDK_OFFSET(0x19A654D0)
+#define RPG_GAMECORE_BYISINDISTRICT_METHOD_4_38C98DC19F06B970_OFFSET UNITYSDK_OFFSET(0x19DA9750)
+#define RPG_GAMECORE_BYISINDISTRICT_METHOD_4_594FB7B565F2C127_OFFSET UNITYSDK_OFFSET(0x19DA97D0)
+#define RPG_GAMECORE_BYISINDISTRICT_METHOD_4_A519A5E7D365CC6E_OFFSET UNITYSDK_OFFSET(0x19DA9590)
+#define RPG_GAMECORE_BYISINDISTRICT_METHOD_4_B1B5C2BA085F136E_OFFSET UNITYSDK_OFFSET(0x19DA94C0)
+#define RPG_GAMECORE_BYISINDISTRICT__CTOR_OFFSET UNITYSDK_OFFSET(0x19DA9540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsInDistrict_TypeDefinitionIndex = 19562;
+	inline static constexpr unsigned int ByIsInDistrict_TypeDefinitionIndex = 19454;
 
 	class ByIsInDistrict : public ::RPG::GameCore::PredicateConfig
 	{
@@ -32,6 +35,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_A519A5E7D365CC6E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsInDistrict* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsInDistrict*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINDISTRICT_METHOD_4_A519A5E7D365CC6E_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_38C98DC19F06B970(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsInDistrict*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsInDistrict*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINDISTRICT_METHOD_4_38C98DC19F06B970_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_594FB7B565F2C127(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsInDistrict* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsInDistrict*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINDISTRICT_METHOD_4_594FB7B565F2C127_OFFSET))(a1, a2);
 		}
 	};
 }

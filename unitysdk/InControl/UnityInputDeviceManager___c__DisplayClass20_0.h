@@ -5,15 +5,15 @@
 
 namespace InControl { class InputDeviceProfile; }
 
-#define INCONTROL_UNITYINPUTDEVICEMANAGER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x94115A0)
-#define INCONTROL_UNITYINPUTDEVICEMANAGER___C__DISPLAYCLASS20_0__DETECTDEVICE_B__0_OFFSET UNITYSDK_OFFSET(0x9411600)
-#define INCONTROL_UNITYINPUTDEVICEMANAGER___C__DISPLAYCLASS20_0__DETECTDEVICE_B__1_OFFSET UNITYSDK_OFFSET(0x94116D0)
-#define INCONTROL_UNITYINPUTDEVICEMANAGER___C__DISPLAYCLASS20_0__DETECTDEVICE_B__2_OFFSET UNITYSDK_OFFSET(0x94117A0)
-#define INCONTROL_UNITYINPUTDEVICEMANAGER___C__DISPLAYCLASS20_0__DETECTDEVICE_B__3_OFFSET UNITYSDK_OFFSET(0x9411870)
+#define INCONTROL_UNITYINPUTDEVICEMANAGER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA71E680)
+#define INCONTROL_UNITYINPUTDEVICEMANAGER___C__DISPLAYCLASS20_0__DETECTDEVICE_B__0_OFFSET UNITYSDK_OFFSET(0xA71E720)
+#define INCONTROL_UNITYINPUTDEVICEMANAGER___C__DISPLAYCLASS20_0__DETECTDEVICE_B__1_OFFSET UNITYSDK_OFFSET(0xA71E7F0)
+#define INCONTROL_UNITYINPUTDEVICEMANAGER___C__DISPLAYCLASS20_0__DETECTDEVICE_B__2_OFFSET UNITYSDK_OFFSET(0xA71E8C0)
+#define INCONTROL_UNITYINPUTDEVICEMANAGER___C__DISPLAYCLASS20_0__DETECTDEVICE_B__3_OFFSET UNITYSDK_OFFSET(0xA71E990)
 
 namespace InControl
 {
-	inline static constexpr unsigned int UnityInputDeviceManager___c__DisplayClass20_0_TypeDefinitionIndex = 37203;
+	inline static constexpr unsigned int UnityInputDeviceManager___c__DisplayClass20_0_TypeDefinitionIndex = 37935;
 
 	class UnityInputDeviceManager___c__DisplayClass20_0 : public ::System::Object
 	{
@@ -25,24 +25,24 @@ namespace InControl
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_UNITYINPUTDEVICEMANAGER___C__DISPLAYCLASS20_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _DetectDevice_b__0(::InControl::InputDeviceProfile* profile)
+		::System::Boolean _DetectDevice_b__0(::InControl::InputDeviceProfile* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceProfile*))((::PBYTE)hIl2Cpp + INCONTROL_UNITYINPUTDEVICEMANAGER___C__DISPLAYCLASS20_0__DETECTDEVICE_B__0_OFFSET))(this, profile);
+			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceProfile*))((::PBYTE)hIl2Cpp + INCONTROL_UNITYINPUTDEVICEMANAGER___C__DISPLAYCLASS20_0__DETECTDEVICE_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _DetectDevice_b__1(::InControl::InputDeviceProfile* profile)
+		::System::Boolean _DetectDevice_b__1(::InControl::InputDeviceProfile* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceProfile*))((::PBYTE)hIl2Cpp + INCONTROL_UNITYINPUTDEVICEMANAGER___C__DISPLAYCLASS20_0__DETECTDEVICE_B__1_OFFSET))(this, profile);
+			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceProfile*))((::PBYTE)hIl2Cpp + INCONTROL_UNITYINPUTDEVICEMANAGER___C__DISPLAYCLASS20_0__DETECTDEVICE_B__1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _DetectDevice_b__2(::InControl::InputDeviceProfile* profile)
+		::System::Boolean _DetectDevice_b__2(::InControl::InputDeviceProfile* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceProfile*))((::PBYTE)hIl2Cpp + INCONTROL_UNITYINPUTDEVICEMANAGER___C__DISPLAYCLASS20_0__DETECTDEVICE_B__2_OFFSET))(this, profile);
+			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceProfile*))((::PBYTE)hIl2Cpp + INCONTROL_UNITYINPUTDEVICEMANAGER___C__DISPLAYCLASS20_0__DETECTDEVICE_B__2_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _DetectDevice_b__3(::InControl::InputDeviceProfile* profile)
+		::System::Boolean _DetectDevice_b__3(::InControl::InputDeviceProfile* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceProfile*))((::PBYTE)hIl2Cpp + INCONTROL_UNITYINPUTDEVICEMANAGER___C__DISPLAYCLASS20_0__DETECTDEVICE_B__3_OFFSET))(this, profile);
+			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceProfile*))((::PBYTE)hIl2Cpp + INCONTROL_UNITYINPUTDEVICEMANAGER___C__DISPLAYCLASS20_0__DETECTDEVICE_B__3_OFFSET))(this, a1);
 		}
 	};
 }

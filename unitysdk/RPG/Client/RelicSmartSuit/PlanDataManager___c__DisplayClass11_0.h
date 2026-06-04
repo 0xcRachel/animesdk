@@ -9,24 +9,24 @@ namespace RPG::Client::Recommend { class RelicRecommendBigData; }
 namespace RPG::Client::RelicSmartSuit { class PlanDataManager; }
 namespace System { class Exception; }
 
-#define RPG_CLIENT_RELICSMARTSUIT_PLANDATAMANAGER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x131AC7E0)
-#define RPG_CLIENT_RELICSMARTSUIT_PLANDATAMANAGER___C__DISPLAYCLASS11_0__REQUESTRELICSMARTSUITPLANDATAS_B__0_OFFSET UNITYSDK_OFFSET(0x131ADE80)
-#define RPG_CLIENT_RELICSMARTSUIT_PLANDATAMANAGER___C__DISPLAYCLASS11_0__REQUESTRELICSMARTSUITPLANDATAS_B__1_OFFSET UNITYSDK_OFFSET(0x131ADEA0)
-#define RPG_CLIENT_RELICSMARTSUIT_PLANDATAMANAGER___C__DISPLAYCLASS11_0__REQUESTRELICSMARTSUITPLANDATAS_B__2_OFFSET UNITYSDK_OFFSET(0x131ADEC0)
-#define RPG_CLIENT_RELICSMARTSUIT_PLANDATAMANAGER___C__DISPLAYCLASS11_0__REQUESTRELICSMARTSUITPLANDATAS_B__3_OFFSET UNITYSDK_OFFSET(0x131ADF70)
-#define RPG_CLIENT_RELICSMARTSUIT_PLANDATAMANAGER___C__DISPLAYCLASS11_0__REQUESTRELICSMARTSUITPLANDATAS_B__4_OFFSET UNITYSDK_OFFSET(0x131ADF90)
+#define RPG_CLIENT_RELICSMARTSUIT_PLANDATAMANAGER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14CFFE80)
+#define RPG_CLIENT_RELICSMARTSUIT_PLANDATAMANAGER___C__DISPLAYCLASS11_0__REQUESTRELICSMARTSUITPLANDATAS_B__0_OFFSET UNITYSDK_OFFSET(0x14D01640)
+#define RPG_CLIENT_RELICSMARTSUIT_PLANDATAMANAGER___C__DISPLAYCLASS11_0__REQUESTRELICSMARTSUITPLANDATAS_B__1_OFFSET UNITYSDK_OFFSET(0x14D01660)
+#define RPG_CLIENT_RELICSMARTSUIT_PLANDATAMANAGER___C__DISPLAYCLASS11_0__REQUESTRELICSMARTSUITPLANDATAS_B__2_OFFSET UNITYSDK_OFFSET(0x14D01680)
+#define RPG_CLIENT_RELICSMARTSUIT_PLANDATAMANAGER___C__DISPLAYCLASS11_0__REQUESTRELICSMARTSUITPLANDATAS_B__3_OFFSET UNITYSDK_OFFSET(0x14D01730)
+#define RPG_CLIENT_RELICSMARTSUIT_PLANDATAMANAGER___C__DISPLAYCLASS11_0__REQUESTRELICSMARTSUITPLANDATAS_B__4_OFFSET UNITYSDK_OFFSET(0x14D01750)
 
 namespace RPG::Client::RelicSmartSuit
 {
-	inline static constexpr unsigned int PlanDataManager___c__DisplayClass11_0_TypeDefinitionIndex = 68682;
+	inline static constexpr unsigned int PlanDataManager___c__DisplayClass11_0_TypeDefinitionIndex = 69494;
 
 	class PlanDataManager___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::RelicSmartSuit::PlanDataManager* __4__this; // 0x10
-		::RPG::Client::Promises::Promise* getRecommendDataPromise; // 0x18
-		::RPG::Client::Promises::Promise* promise; // 0x20
-		::RPG::Client::Promises::Promise* getRecommendBigDataPromise; // 0x28
+		::RPG::Client::Promises::Promise* promise; // 0x10
+		::RPG::Client::Promises::Promise* getRecommendBigDataPromise; // 0x18
+		::RPG::Client::RelicSmartSuit::PlanDataManager* __4__this; // 0x20
+		::RPG::Client::Promises::Promise* getRecommendDataPromise; // 0x28
 		::System::UInt32 avatarRealID; // 0x30
 
 		::System::Void _ctor()
@@ -34,14 +34,14 @@ namespace RPG::Client::RelicSmartSuit
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PLANDATAMANAGER___C__DISPLAYCLASS11_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _RequestRelicSmartSuitPlanDatas_b__0(::RPG::Client::RelicRecommendData* relicRecommendData)
+		::System::Void _RequestRelicSmartSuitPlanDatas_b__0(::RPG::Client::RelicRecommendData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PLANDATAMANAGER___C__DISPLAYCLASS11_0__REQUESTRELICSMARTSUITPLANDATAS_B__0_OFFSET))(this, relicRecommendData);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PLANDATAMANAGER___C__DISPLAYCLASS11_0__REQUESTRELICSMARTSUITPLANDATAS_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Void _RequestRelicSmartSuitPlanDatas_b__1(::RPG::Client::Recommend::RelicRecommendBigData* relicRecommendBigData)
+		::System::Void _RequestRelicSmartSuitPlanDatas_b__1(::RPG::Client::Recommend::RelicRecommendBigData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Recommend::RelicRecommendBigData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PLANDATAMANAGER___C__DISPLAYCLASS11_0__REQUESTRELICSMARTSUITPLANDATAS_B__1_OFFSET))(this, relicRecommendBigData);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Recommend::RelicRecommendBigData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PLANDATAMANAGER___C__DISPLAYCLASS11_0__REQUESTRELICSMARTSUITPLANDATAS_B__1_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Promises::IPromise* _RequestRelicSmartSuitPlanDatas_b__2()
@@ -54,9 +54,9 @@ namespace RPG::Client::RelicSmartSuit
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PLANDATAMANAGER___C__DISPLAYCLASS11_0__REQUESTRELICSMARTSUITPLANDATAS_B__3_OFFSET))(this);
 		}
 
-		::System::Void _RequestRelicSmartSuitPlanDatas_b__4(::System::Exception* exception)
+		::System::Void _RequestRelicSmartSuitPlanDatas_b__4(::System::Exception* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PLANDATAMANAGER___C__DISPLAYCLASS11_0__REQUESTRELICSMARTSUITPLANDATAS_B__4_OFFSET))(this, exception);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PLANDATAMANAGER___C__DISPLAYCLASS11_0__REQUESTRELICSMARTSUITPLANDATAS_B__4_OFFSET))(this, a1);
 		}
 	};
 }

@@ -7,32 +7,32 @@ namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 namespace System::Xml { class XmlWriter; }
 
-#define SYSTEM_XML_LINQ_XTEXT_APPENDTEXT_OFFSET UNITYSDK_OFFSET(0x1A637F60)
-#define SYSTEM_XML_LINQ_XTEXT_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1A637F90)
-#define SYSTEM_XML_LINQ_XTEXT_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1A637E90)
-#define SYSTEM_XML_LINQ_XTEXT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A637EA0)
-#define SYSTEM_XML_LINQ_XTEXT_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A630EF0)
-#define SYSTEM_XML_LINQ_XTEXT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1A637EB0)
-#define SYSTEM_XML_LINQ_XTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A62F0B0)
-#define SYSTEM_XML_LINQ_XTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A62EFD0)
+#define SYSTEM_XML_LINQ_XTEXT_APPENDTEXT_OFFSET UNITYSDK_OFFSET(0x1B4422D0)
+#define SYSTEM_XML_LINQ_XTEXT_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1B442300)
+#define SYSTEM_XML_LINQ_XTEXT_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1B4421F0)
+#define SYSTEM_XML_LINQ_XTEXT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1B442200)
+#define SYSTEM_XML_LINQ_XTEXT_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1B43B290)
+#define SYSTEM_XML_LINQ_XTEXT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1B442210)
+#define SYSTEM_XML_LINQ_XTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B439480)
+#define SYSTEM_XML_LINQ_XTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4393A0)
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XText_TypeDefinitionIndex = 4911;
+	inline static constexpr unsigned int XText_TypeDefinitionIndex = 3878;
 
 	class XText : public ::System::Xml::Linq::XNode
 	{
 	public:
 		::System::String* text; // 0x28
 
-		::System::Void _ctor(::System::String* value)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XTEXT__CTOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XTEXT__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::Xml::Linq::XText* other)
+		::System::Void _ctor_1(::System::Xml::Linq::XText* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XText*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XTEXT__CTOR_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XText*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XTEXT__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Xml::XmlNodeType get_NodeType()
@@ -45,19 +45,19 @@ namespace System::Xml::Linq
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XTEXT_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_Value(::System::String* value)
+		::System::Void set_Value(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XTEXT_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XTEXT_SET_VALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteTo(::System::Xml::XmlWriter* writer)
+		::System::Void WriteTo(::System::Xml::XmlWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XTEXT_WRITETO_OFFSET))(this, writer);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XTEXT_WRITETO_OFFSET))(this, a1);
 		}
 
-		::System::Void AppendText(::System::Text::StringBuilder* sb)
+		::System::Void AppendText(::System::Text::StringBuilder* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XTEXT_APPENDTEXT_OFFSET))(this, sb);
+			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XTEXT_APPENDTEXT_OFFSET))(this, a1);
 		}
 
 		::System::Xml::Linq::XNode* CloneNode()

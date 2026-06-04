@@ -7,19 +7,19 @@ namespace RPG::Client { class UIController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_73E4C050E769F406_METHOD_1_515532DD37B179A7_OFFSET UNITYSDK_OFFSET(0xDE5E940)
-#define CLASS_1_73E4C050E769F406_METHOD_1_51CFFE2AF748ECD7_OFFSET UNITYSDK_OFFSET(0xDE5EBE0)
-#define CLASS_1_73E4C050E769F406_METHOD_1_EF57318118F8380B_OFFSET UNITYSDK_OFFSET(0xDE5E9A0)
-#define CLASS_1_73E4C050E769F406__CTOR_OFFSET UNITYSDK_OFFSET(0xDE5ECC0)
+#define CLASS_1_73E4C050E769F406_METHOD_1_515532DD37B179A7_OFFSET UNITYSDK_OFFSET(0x14EE2680)
+#define CLASS_1_73E4C050E769F406_METHOD_1_78C62398E94F0FB1_OFFSET UNITYSDK_OFFSET(0x14EE29D0)
+#define CLASS_1_73E4C050E769F406_METHOD_1_92F06F6AE7B67C06_OFFSET UNITYSDK_OFFSET(0x14EE26E0)
+#define CLASS_1_73E4C050E769F406__CTOR_OFFSET UNITYSDK_OFFSET(0x14EE2AD0)
 
-inline static constexpr unsigned int Class_1_73E4C050E769F406_TypeDefinitionIndex = 66031;
+inline static constexpr unsigned int Class_1_73E4C050E769F406_TypeDefinitionIndex = 66964;
 
 class Class_1_73E4C050E769F406 : public ::System::Object
 {
 public:
-	::UnityEngine::Transform* Field_1_2; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_2EB1F8F44CF44F1F*>* Field_1_0; // 0x18
-	::RPG::Client::UIController* Field_1_1; // 0x20
+	::UnityEngine::Transform* Field_1_0; // 0x10
+	::RPG::Client::UIController* Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::Class_1_2EB1F8F44CF44F1F*>* Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{
@@ -31,13 +31,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::Client::UIController*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CLASS_1_73E4C050E769F406_METHOD_1_515532DD37B179A7_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_EF57318118F8380B(::Il2CppArray<::System::UInt32>* a1)
+	::System::Void Method_1_92F06F6AE7B67C06(::Il2CppArray<::System::UInt32>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_73E4C050E769F406_METHOD_1_EF57318118F8380B_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_73E4C050E769F406_METHOD_1_92F06F6AE7B67C06_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_51CFFE2AF748ECD7()
+	::System::Void Method_1_78C62398E94F0FB1()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_73E4C050E769F406_METHOD_1_51CFFE2AF748ECD7_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_73E4C050E769F406_METHOD_1_78C62398E94F0FB1_OFFSET))(this);
 	}
 };

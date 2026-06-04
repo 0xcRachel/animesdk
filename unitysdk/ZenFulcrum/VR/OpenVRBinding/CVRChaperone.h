@@ -6,28 +6,28 @@
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/HmdQuad_t.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/IVRChaperone.h"
 
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_AREBOUNDSVISIBLE_OFFSET UNITYSDK_OFFSET(0x189FE530)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_FORCEBOUNDSVISIBLE_OFFSET UNITYSDK_OFFSET(0x189FE800)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_GETBOUNDSCOLOR_OFFSET UNITYSDK_OFFSET(0x189FE140)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_GETCALIBRATIONSTATE_OFFSET UNITYSDK_OFFSET(0x189FD0B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_GETPLAYAREARECT_OFFSET UNITYSDK_OFFSET(0x189FD710)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_GETPLAYAREASIZE_OFFSET UNITYSDK_OFFSET(0x189FD380)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_RELOADINFO_OFFSET UNITYSDK_OFFSET(0x189FDA80)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_SETSCENECOLOR_OFFSET UNITYSDK_OFFSET(0x189FDD40)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE__CTOR_OFFSET UNITYSDK_OFFSET(0x189FCFC0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_AREBOUNDSVISIBLE_OFFSET UNITYSDK_OFFSET(0x1A0E9780)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_FORCEBOUNDSVISIBLE_OFFSET UNITYSDK_OFFSET(0x1A0E97C0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_GETBOUNDSCOLOR_OFFSET UNITYSDK_OFFSET(0x1A0E9710)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_GETCALIBRATIONSTATE_OFFSET UNITYSDK_OFFSET(0x1A0E9590)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_GETPLAYAREARECT_OFFSET UNITYSDK_OFFSET(0x1A0E9620)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_GETPLAYAREASIZE_OFFSET UNITYSDK_OFFSET(0x1A0E95D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_RELOADINFO_OFFSET UNITYSDK_OFFSET(0x1A0E9660)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_SETSCENECOLOR_OFFSET UNITYSDK_OFFSET(0x1A0E96A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0E94A0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int CVRChaperone_TypeDefinitionIndex = 35961;
+	inline static constexpr unsigned int CVRChaperone_TypeDefinitionIndex = 36261;
 
 	class CVRChaperone : public ::System::Object
 	{
 	public:
 		::ZenFulcrum::VR::OpenVRBinding::IVRChaperone FnTable; // 0x10
 
-		::System::Void _ctor(::System::IntPtr pInterface)
+		::System::Void _ctor(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE__CTOR_OFFSET))(this, pInterface);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE__CTOR_OFFSET))(this, a1);
 		}
 
 		::ZenFulcrum::VR::OpenVRBinding::ChaperoneCalibrationState GetCalibrationState()
@@ -35,14 +35,14 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::ZenFulcrum::VR::OpenVRBinding::ChaperoneCalibrationState(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_GETCALIBRATIONSTATE_OFFSET))(this);
 		}
 
-		::System::Boolean GetPlayAreaSize(::System::Single& pSizeX, ::System::Single& pSizeZ)
+		::System::Boolean GetPlayAreaSize(::System::Single& a1, ::System::Single& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_GETPLAYAREASIZE_OFFSET))(this, pSizeX, pSizeZ);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_GETPLAYAREASIZE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean GetPlayAreaRect(::ZenFulcrum::VR::OpenVRBinding::HmdQuad_t& rect)
+		::System::Boolean GetPlayAreaRect(::ZenFulcrum::VR::OpenVRBinding::HmdQuad_t& a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::HmdQuad_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_GETPLAYAREARECT_OFFSET))(this, rect);
+			return ((::System::Boolean(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::HmdQuad_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_GETPLAYAREARECT_OFFSET))(this, a1);
 		}
 
 		::System::Void ReloadInfo()
@@ -50,14 +50,14 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_RELOADINFO_OFFSET))(this);
 		}
 
-		::System::Void SetSceneColor(::ZenFulcrum::VR::OpenVRBinding::HmdColor_t color)
+		::System::Void SetSceneColor(::ZenFulcrum::VR::OpenVRBinding::HmdColor_t a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_SETSCENECOLOR_OFFSET))(this, color);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_SETSCENECOLOR_OFFSET))(this, a1);
 		}
 
-		::System::Void GetBoundsColor(::ZenFulcrum::VR::OpenVRBinding::HmdColor_t& pOutputColorArray, ::System::Int32 nNumOutputColors, ::System::Single flCollisionBoundsFadeDistance, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t& pOutputCameraColor)
+		::System::Void GetBoundsColor(::ZenFulcrum::VR::OpenVRBinding::HmdColor_t& a1, ::System::Int32 a2, ::System::Single a3, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t& a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t&, ::System::Int32, ::System::Single, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_GETBOUNDSCOLOR_OFFSET))(this, pOutputColorArray, nNumOutputColors, flCollisionBoundsFadeDistance, pOutputCameraColor);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t&, ::System::Int32, ::System::Single, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_GETBOUNDSCOLOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean AreBoundsVisible()
@@ -65,9 +65,9 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_AREBOUNDSVISIBLE_OFFSET))(this);
 		}
 
-		::System::Void ForceBoundsVisible(::System::Boolean bForce)
+		::System::Void ForceBoundsVisible(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_FORCEBOUNDSVISIBLE_OFFSET))(this, bForce);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRCHAPERONE_FORCEBOUNDSVISIBLE_OFFSET))(this, a1);
 		}
 	};
 }

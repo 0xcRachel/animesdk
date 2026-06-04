@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_585;
+class Class_0_16E4307DCC419505_608;
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MONOPLAYERATTACHMENTCONTROLLER___C__AWAKE_B__3_0_OFFSET UNITYSDK_OFFSET(0x162DE0C0)
-#define RPG_CLIENT_MONOPLAYERATTACHMENTCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x162DE070)
-#define RPG_CLIENT_MONOPLAYERATTACHMENTCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x162DE0B0)
+#define RPG_CLIENT_MONOPLAYERATTACHMENTCONTROLLER___C__AWAKE_B__3_0_OFFSET UNITYSDK_OFFSET(0x17AE6220)
+#define RPG_CLIENT_MONOPLAYERATTACHMENTCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17AE61D0)
+#define RPG_CLIENT_MONOPLAYERATTACHMENTCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17AE6210)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoPlayerAttachmentController___c_TypeDefinitionIndex = 55472;
+	inline static constexpr unsigned int MonoPlayerAttachmentController___c_TypeDefinitionIndex = 56223;
 
 	class MonoPlayerAttachmentController___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Class_0_16E4307DCC419505_585*>** StaticGet___9__3_0()
+		static ::System::Comparison_1<::Class_0_16E4307DCC419505_608*>** StaticGet___9__3_0()
 		{
-			return (::System::Comparison_1<::Class_0_16E4307DCC419505_585*>**)Il2CppClass::FromTypeDefinitionIndex(MonoPlayerAttachmentController___c_TypeDefinitionIndex)->GetStaticField(0x5D580);
+			return (::System::Comparison_1<::Class_0_16E4307DCC419505_608*>**)Il2CppClass::FromTypeDefinitionIndex(MonoPlayerAttachmentController___c_TypeDefinitionIndex)->GetStaticField(0x5F150);
 		}
 		static ::RPG::Client::MonoPlayerAttachmentController___c** StaticGet___9()
 		{
-			return (::RPG::Client::MonoPlayerAttachmentController___c**)Il2CppClass::FromTypeDefinitionIndex(MonoPlayerAttachmentController___c_TypeDefinitionIndex)->GetStaticField(0x5D588);
+			return (::RPG::Client::MonoPlayerAttachmentController___c**)Il2CppClass::FromTypeDefinitionIndex(MonoPlayerAttachmentController___c_TypeDefinitionIndex)->GetStaticField(0x5F158);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPLAYERATTACHMENTCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _Awake_b__3_0(::Class_0_16E4307DCC419505_585* a, ::Class_0_16E4307DCC419505_585* b)
+		::System::Int32 _Awake_b__3_0(::Class_0_16E4307DCC419505_608* a1, ::Class_0_16E4307DCC419505_608* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_0_16E4307DCC419505_585*, ::Class_0_16E4307DCC419505_585*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPLAYERATTACHMENTCONTROLLER___C__AWAKE_B__3_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::Class_0_16E4307DCC419505_608*, ::Class_0_16E4307DCC419505_608*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPLAYERATTACHMENTCONTROLLER___C__AWAKE_B__3_0_OFFSET))(this, a1, a2);
 		}
 	};
 }

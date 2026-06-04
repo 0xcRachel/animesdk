@@ -4,15 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BYCONTAINSCHARACTERSTATE_METHOD_4_47A03D34BB0E94B1_OFFSET UNITYSDK_OFFSET(0x19AD8B20)
-#define RPG_GAMECORE_BYCONTAINSCHARACTERSTATE_METHOD_4_9AB8A5D627B4FBC6_OFFSET UNITYSDK_OFFSET(0x19AD8C50)
-#define RPG_GAMECORE_BYCONTAINSCHARACTERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD8BD0)
+#define RPG_GAMECORE_BYCONTAINSCHARACTERSTATE_METHOD_4_47A03D34BB0E94B1_OFFSET UNITYSDK_OFFSET(0x18FFF850)
+#define RPG_GAMECORE_BYCONTAINSCHARACTERSTATE_METHOD_4_491466D2E74E9DAF_OFFSET UNITYSDK_OFFSET(0x18FFFBF0)
+#define RPG_GAMECORE_BYCONTAINSCHARACTERSTATE_METHOD_4_9AB8A5D627B4FBC6_OFFSET UNITYSDK_OFFSET(0x18FFF980)
+#define RPG_GAMECORE_BYCONTAINSCHARACTERSTATE_METHOD_4_EAECEA9424BC5E88_OFFSET UNITYSDK_OFFSET(0x18FFFB40)
+#define RPG_GAMECORE_BYCONTAINSCHARACTERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18FFF900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByContainsCharacterState_TypeDefinitionIndex = 21663;
+	inline static constexpr unsigned int ByContainsCharacterState_TypeDefinitionIndex = 21518;
 
 	class ByContainsCharacterState : public ::RPG::GameCore::PredicateConfig
 	{
@@ -33,6 +36,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_9AB8A5D627B4FBC6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByContainsCharacterState* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByContainsCharacterState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCONTAINSCHARACTERSTATE_METHOD_4_9AB8A5D627B4FBC6_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_EAECEA9424BC5E88(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByContainsCharacterState*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByContainsCharacterState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCONTAINSCHARACTERSTATE_METHOD_4_EAECEA9424BC5E88_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_491466D2E74E9DAF(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByContainsCharacterState* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByContainsCharacterState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCONTAINSCHARACTERSTATE_METHOD_4_491466D2E74E9DAF_OFFSET))(a1, a2);
 		}
 	};
 }

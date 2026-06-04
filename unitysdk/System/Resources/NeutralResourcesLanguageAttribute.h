@@ -5,13 +5,13 @@
 
 namespace System { class String; }
 
-#define SYSTEM_RESOURCES_NEUTRALRESOURCESLANGUAGEATTRIBUTE_GET_CULTURENAME_OFFSET UNITYSDK_OFFSET(0x18F4DE10)
-#define SYSTEM_RESOURCES_NEUTRALRESOURCESLANGUAGEATTRIBUTE_GET_LOCATION_OFFSET UNITYSDK_OFFSET(0x18F4DE20)
-#define SYSTEM_RESOURCES_NEUTRALRESOURCESLANGUAGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18F4DDA0)
+#define SYSTEM_RESOURCES_NEUTRALRESOURCESLANGUAGEATTRIBUTE_GET_CULTURENAME_OFFSET UNITYSDK_OFFSET(0x196FF520)
+#define SYSTEM_RESOURCES_NEUTRALRESOURCESLANGUAGEATTRIBUTE_GET_LOCATION_OFFSET UNITYSDK_OFFSET(0x196FF530)
+#define SYSTEM_RESOURCES_NEUTRALRESOURCESLANGUAGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x196FF4B0)
 
 namespace System::Resources
 {
-	inline static constexpr unsigned int NeutralResourcesLanguageAttribute_TypeDefinitionIndex = 521;
+	inline static constexpr unsigned int NeutralResourcesLanguageAttribute_TypeDefinitionIndex = 520;
 
 	class NeutralResourcesLanguageAttribute : public ::System::Attribute
 	{
@@ -19,9 +19,9 @@ namespace System::Resources
 		::System::String* _culture; // 0x10
 		::System::Resources::UltimateResourceFallbackLocation _fallbackLoc; // 0x18
 
-		::System::Void _ctor(::System::String* cultureName)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_NEUTRALRESOURCESLANGUAGEATTRIBUTE__CTOR_OFFSET))(this, cultureName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_NEUTRALRESOURCESLANGUAGEATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_CultureName()

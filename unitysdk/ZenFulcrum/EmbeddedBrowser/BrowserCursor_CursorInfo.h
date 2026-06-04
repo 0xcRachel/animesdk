@@ -3,17 +3,17 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_CURSORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x182E01F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_CURSORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18E31B90)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserCursor_CursorInfo_TypeDefinitionIndex = 36129;
+	inline static constexpr unsigned int BrowserCursor_CursorInfo_TypeDefinitionIndex = 36429;
 
 	class BrowserCursor_CursorInfo : public ::System::Object
 	{
 	public:
-		::System::Int32 atlasOffset; // 0x10
-		::UnityEngine::Vector2 hotspot; // 0x14
+		::UnityEngine::Vector2 hotspot; // 0x10
+		::System::Int32 atlasOffset; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_E21F6DE9B7FA4D05;
+class Class_3_07C3C4D2990C49EE;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class Retarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_E12F06CA34B14828_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF268DF0)
-#define CLASS_2_E12F06CA34B14828_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF268E90)
-#define CLASS_2_E12F06CA34B14828_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF269610)
-#define CLASS_2_E12F06CA34B14828_TICK_OFFSET UNITYSDK_OFFSET(0xF269660)
-#define CLASS_2_E12F06CA34B14828__CTOR_OFFSET UNITYSDK_OFFSET(0xF268C90)
+#define CLASS_2_E12F06CA34B14828_DISPOSE_OFFSET UNITYSDK_OFFSET(0x147F1270)
+#define CLASS_2_E12F06CA34B14828_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x147F1310)
+#define CLASS_2_E12F06CA34B14828_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x147F1AC0)
+#define CLASS_2_E12F06CA34B14828_TICK_OFFSET UNITYSDK_OFFSET(0x147F1B10)
+#define CLASS_2_E12F06CA34B14828__CTOR_OFFSET UNITYSDK_OFFSET(0x147F1110)
 
-inline static constexpr unsigned int Class_2_E12F06CA34B14828_TypeDefinitionIndex = 51008;
+inline static constexpr unsigned int Class_2_E12F06CA34B14828_TypeDefinitionIndex = 51678;
 
 class Class_2_E12F06CA34B14828 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_2_0; // 0x18
-	::System::Collections::Generic::List_1<::Class_3_E21F6DE9B7FA4D05*>* Field_2_1; // 0x20
-	::Class_1_5F51D4049EA87B7B* Field_2_5; // 0x28
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::Class_3_07C3C4D2990C49EE* Field_2_1; // 0x20
+	::System::Collections::Generic::List_1<::Class_3_07C3C4D2990C49EE*>* Field_2_2; // 0x28
 	::RPG::GameCore::Retarget* Field_2_3; // 0x30
-	::Class_3_E21F6DE9B7FA4D05* Field_2_2; // 0x38
-	::RPG::GameCore::TaskContext* Field_2_4; // 0x40
+	::Class_1_5F51D4049EA87B7B* Field_2_4; // 0x38
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_2_5; // 0x40
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::Retarget* a2)
 	{

@@ -10,31 +10,31 @@
 namespace InControl { class Touch; }
 namespace InControl { class TouchSprite; }
 
-#define INCONTROL_TOUCHBUTTONCONTROL_COMMITCONTROLSTATE_OFFSET UNITYSDK_OFFSET(0x13BD55E0)
-#define INCONTROL_TOUCHBUTTONCONTROL_CONFIGURECONTROL_OFFSET UNITYSDK_OFFSET(0x13BD3C30)
-#define INCONTROL_TOUCHBUTTONCONTROL_CREATECONTROL_OFFSET UNITYSDK_OFFSET(0x13BD3A90)
-#define INCONTROL_TOUCHBUTTONCONTROL_DESTROYCONTROL_OFFSET UNITYSDK_OFFSET(0x13BD3B50)
-#define INCONTROL_TOUCHBUTTONCONTROL_DRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x13BD43E0)
-#define INCONTROL_TOUCHBUTTONCONTROL_GET_ANCHOR_OFFSET UNITYSDK_OFFSET(0x13BD5B20)
-#define INCONTROL_TOUCHBUTTONCONTROL_GET_BUTTONPOSITION_OFFSET UNITYSDK_OFFSET(0x13BD45B0)
-#define INCONTROL_TOUCHBUTTONCONTROL_GET_BUTTONSTATE_OFFSET UNITYSDK_OFFSET(0x13BD5990)
-#define INCONTROL_TOUCHBUTTONCONTROL_GET_OFFSETUNITTYPE_OFFSET UNITYSDK_OFFSET(0x13BD5BA0)
-#define INCONTROL_TOUCHBUTTONCONTROL_GET_OFFSET_OFFSET UNITYSDK_OFFSET(0x13BD5B40)
-#define INCONTROL_TOUCHBUTTONCONTROL_SET_ANCHOR_OFFSET UNITYSDK_OFFSET(0x13BD5B30)
-#define INCONTROL_TOUCHBUTTONCONTROL_SET_BUTTONPOSITION_OFFSET UNITYSDK_OFFSET(0x13BD5A60)
-#define INCONTROL_TOUCHBUTTONCONTROL_SET_BUTTONSTATE_OFFSET UNITYSDK_OFFSET(0x13BD4F60)
-#define INCONTROL_TOUCHBUTTONCONTROL_SET_OFFSETUNITTYPE_OFFSET UNITYSDK_OFFSET(0x13BD5BB0)
-#define INCONTROL_TOUCHBUTTONCONTROL_SET_OFFSET_OFFSET UNITYSDK_OFFSET(0x13BD5B50)
-#define INCONTROL_TOUCHBUTTONCONTROL_SUBMITCONTROLSTATE_OFFSET UNITYSDK_OFFSET(0x13BD4910)
-#define INCONTROL_TOUCHBUTTONCONTROL_TOUCHBEGAN_OFFSET UNITYSDK_OFFSET(0x13BD58C0)
-#define INCONTROL_TOUCHBUTTONCONTROL_TOUCHENDED_OFFSET UNITYSDK_OFFSET(0x13BD3BE0)
-#define INCONTROL_TOUCHBUTTONCONTROL_TOUCHMOVED_OFFSET UNITYSDK_OFFSET(0x13BD5920)
-#define INCONTROL_TOUCHBUTTONCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x13BD4850)
-#define INCONTROL_TOUCHBUTTONCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x13BD5BC0)
+#define INCONTROL_TOUCHBUTTONCONTROL_COMMITCONTROLSTATE_OFFSET UNITYSDK_OFFSET(0x12A1BDB0)
+#define INCONTROL_TOUCHBUTTONCONTROL_CONFIGURECONTROL_OFFSET UNITYSDK_OFFSET(0x12A1A470)
+#define INCONTROL_TOUCHBUTTONCONTROL_CREATECONTROL_OFFSET UNITYSDK_OFFSET(0x12A1A2D0)
+#define INCONTROL_TOUCHBUTTONCONTROL_DESTROYCONTROL_OFFSET UNITYSDK_OFFSET(0x12A1A390)
+#define INCONTROL_TOUCHBUTTONCONTROL_DRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x12A1AC20)
+#define INCONTROL_TOUCHBUTTONCONTROL_GET_ANCHOR_OFFSET UNITYSDK_OFFSET(0x12A1C2C0)
+#define INCONTROL_TOUCHBUTTONCONTROL_GET_BUTTONPOSITION_OFFSET UNITYSDK_OFFSET(0x12A1ADF0)
+#define INCONTROL_TOUCHBUTTONCONTROL_GET_BUTTONSTATE_OFFSET UNITYSDK_OFFSET(0x12A1C140)
+#define INCONTROL_TOUCHBUTTONCONTROL_GET_OFFSETUNITTYPE_OFFSET UNITYSDK_OFFSET(0x12A1C340)
+#define INCONTROL_TOUCHBUTTONCONTROL_GET_OFFSET_OFFSET UNITYSDK_OFFSET(0x12A1C2E0)
+#define INCONTROL_TOUCHBUTTONCONTROL_SET_ANCHOR_OFFSET UNITYSDK_OFFSET(0x12A1C2D0)
+#define INCONTROL_TOUCHBUTTONCONTROL_SET_BUTTONPOSITION_OFFSET UNITYSDK_OFFSET(0x12A1C200)
+#define INCONTROL_TOUCHBUTTONCONTROL_SET_BUTTONSTATE_OFFSET UNITYSDK_OFFSET(0x12A1B750)
+#define INCONTROL_TOUCHBUTTONCONTROL_SET_OFFSETUNITTYPE_OFFSET UNITYSDK_OFFSET(0x12A1C350)
+#define INCONTROL_TOUCHBUTTONCONTROL_SET_OFFSET_OFFSET UNITYSDK_OFFSET(0x12A1C2F0)
+#define INCONTROL_TOUCHBUTTONCONTROL_SUBMITCONTROLSTATE_OFFSET UNITYSDK_OFFSET(0x12A1B150)
+#define INCONTROL_TOUCHBUTTONCONTROL_TOUCHBEGAN_OFFSET UNITYSDK_OFFSET(0x12A1C070)
+#define INCONTROL_TOUCHBUTTONCONTROL_TOUCHENDED_OFFSET UNITYSDK_OFFSET(0x12A1A420)
+#define INCONTROL_TOUCHBUTTONCONTROL_TOUCHMOVED_OFFSET UNITYSDK_OFFSET(0x12A1C0D0)
+#define INCONTROL_TOUCHBUTTONCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x12A1B090)
+#define INCONTROL_TOUCHBUTTONCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x12A1C360)
 
 namespace InControl
 {
-	inline static constexpr unsigned int TouchButtonControl_TypeDefinitionIndex = 37179;
+	inline static constexpr unsigned int TouchButtonControl_TypeDefinitionIndex = 37911;
 
 	class TouchButtonControl : public ::InControl::TouchControl
 	{
@@ -82,29 +82,29 @@ namespace InControl
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void SubmitControlState(::System::UInt64 updateTick, ::System::Single deltaTime)
+		::System::Void SubmitControlState(::System::UInt64 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_SUBMITCONTROLSTATE_OFFSET))(this, updateTick, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_SUBMITCONTROLSTATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CommitControlState(::System::UInt64 updateTick, ::System::Single deltaTime)
+		::System::Void CommitControlState(::System::UInt64 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_COMMITCONTROLSTATE_OFFSET))(this, updateTick, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_COMMITCONTROLSTATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void TouchBegan(::InControl::Touch* touch)
+		::System::Void TouchBegan(::InControl::Touch* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::Touch*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_TOUCHBEGAN_OFFSET))(this, touch);
+			return ((::System::Void(*)(::PVOID, ::InControl::Touch*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_TOUCHBEGAN_OFFSET))(this, a1);
 		}
 
-		::System::Void TouchMoved(::InControl::Touch* touch)
+		::System::Void TouchMoved(::InControl::Touch* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::Touch*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_TOUCHMOVED_OFFSET))(this, touch);
+			return ((::System::Void(*)(::PVOID, ::InControl::Touch*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_TOUCHMOVED_OFFSET))(this, a1);
 		}
 
-		::System::Void TouchEnded(::InControl::Touch* touch)
+		::System::Void TouchEnded(::InControl::Touch* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::Touch*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_TOUCHENDED_OFFSET))(this, touch);
+			return ((::System::Void(*)(::PVOID, ::InControl::Touch*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_TOUCHENDED_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_ButtonState()
@@ -112,9 +112,9 @@ namespace InControl
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_GET_BUTTONSTATE_OFFSET))(this);
 		}
 
-		::System::Void set_ButtonState(::System::Boolean value)
+		::System::Void set_ButtonState(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_SET_BUTTONSTATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_SET_BUTTONSTATE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 get_ButtonPosition()
@@ -122,9 +122,9 @@ namespace InControl
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_GET_BUTTONPOSITION_OFFSET))(this);
 		}
 
-		::System::Void set_ButtonPosition(::UnityEngine::Vector3 value)
+		::System::Void set_ButtonPosition(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_SET_BUTTONPOSITION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_SET_BUTTONPOSITION_OFFSET))(this, a1);
 		}
 
 		::InControl::TouchControlAnchor get_Anchor()
@@ -132,9 +132,9 @@ namespace InControl
 			return ((::InControl::TouchControlAnchor(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_GET_ANCHOR_OFFSET))(this);
 		}
 
-		::System::Void set_Anchor(::InControl::TouchControlAnchor value)
+		::System::Void set_Anchor(::InControl::TouchControlAnchor a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::TouchControlAnchor))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_SET_ANCHOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::InControl::TouchControlAnchor))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_SET_ANCHOR_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector2 get_Offset()
@@ -142,9 +142,9 @@ namespace InControl
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_GET_OFFSET_OFFSET))(this);
 		}
 
-		::System::Void set_Offset(::UnityEngine::Vector2 value)
+		::System::Void set_Offset(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_SET_OFFSET_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_SET_OFFSET_OFFSET))(this, a1);
 		}
 
 		::InControl::TouchUnitType get_OffsetUnitType()
@@ -152,9 +152,9 @@ namespace InControl
 			return ((::InControl::TouchUnitType(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_GET_OFFSETUNITTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_OffsetUnitType(::InControl::TouchUnitType value)
+		::System::Void set_OffsetUnitType(::InControl::TouchUnitType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::TouchUnitType))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_SET_OFFSETUNITTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::InControl::TouchUnitType))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHBUTTONCONTROL_SET_OFFSETUNITTYPE_OFFSET))(this, a1);
 		}
 	};
 }

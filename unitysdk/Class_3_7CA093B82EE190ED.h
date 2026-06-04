@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetActionBarItemAnimatorTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7CA093B82EE190ED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC696EB0)
-#define CLASS_3_7CA093B82EE190ED__CTOR_OFFSET UNITYSDK_OFFSET(0xC696E80)
+#define CLASS_3_7CA093B82EE190ED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12B621E0)
+#define CLASS_3_7CA093B82EE190ED__CTOR_OFFSET UNITYSDK_OFFSET(0x12B621B0)
 
-inline static constexpr unsigned int Class_3_7CA093B82EE190ED_TypeDefinitionIndex = 44351;
+inline static constexpr unsigned int Class_3_7CA093B82EE190ED_TypeDefinitionIndex = 44897;
 
 class Class_3_7CA093B82EE190ED : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetActionBarItemAnimatorTrigger*>
 {

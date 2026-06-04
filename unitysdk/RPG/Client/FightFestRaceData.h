@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_4608E37A1B3D374A_15.h"
+#include "unitysdk/Enum_3_4608E37A1B3D374A_14.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/System/Object.h"
@@ -12,61 +12,61 @@ namespace RPG::GameCore { class FightFestChallengeRow; }
 namespace RPG::GameCore { class FightFestMainRaceRow; }
 namespace RPG::GameCore { class FightFestScoreRaceRow; }
 
-#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_CHALLENGENAME_OFFSET UNITYSDK_OFFSET(0x15122080)
-#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_ENVIRONMENTBUFFDES_OFFSET UNITYSDK_OFFSET(0x151222A0)
-#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_ENVIRONMENTBUFFNAME_OFFSET UNITYSDK_OFFSET(0x15122190)
-#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_EVENTID_OFFSET UNITYSDK_OFFSET(0x15118290)
-#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_PREVIEWMONSTERLIST_OFFSET UNITYSDK_OFFSET(0x151223B0)
-#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_RACEID_OFFSET UNITYSDK_OFFSET(0x15122040)
-#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_RACETYPE_OFFSET UNITYSDK_OFFSET(0x15121FE0)
-#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_RECOMMENDNATURE_OFFSET UNITYSDK_OFFSET(0x15122470)
-#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_RELATEDMAINRACE_OFFSET UNITYSDK_OFFSET(0x15122000)
-#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_RELATEDSCORERACE_OFFSET UNITYSDK_OFFSET(0x15122020)
-#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_SPECIALAVATARLIST_OFFSET UNITYSDK_OFFSET(0x15122530)
-#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_STAGEINFODATA_OFFSET UNITYSDK_OFFSET(0x15122060)
-#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_UIENTERBATTLEAREAID_OFFSET UNITYSDK_OFFSET(0x15117D60)
-#define RPG_CLIENT_FIGHTFESTRACEDATA_SETRELATEDMAINRACE_OFFSET UNITYSDK_OFFSET(0x151142E0)
-#define RPG_CLIENT_FIGHTFESTRACEDATA_SETRELATEDSCORERACE_OFFSET UNITYSDK_OFFSET(0x15121F90)
-#define RPG_CLIENT_FIGHTFESTRACEDATA_SET_RACEID_OFFSET UNITYSDK_OFFSET(0x15122050)
-#define RPG_CLIENT_FIGHTFESTRACEDATA_SET_RACETYPE_OFFSET UNITYSDK_OFFSET(0x15121FF0)
-#define RPG_CLIENT_FIGHTFESTRACEDATA_SET_RELATEDMAINRACE_OFFSET UNITYSDK_OFFSET(0x15122010)
-#define RPG_CLIENT_FIGHTFESTRACEDATA_SET_RELATEDSCORERACE_OFFSET UNITYSDK_OFFSET(0x15122030)
-#define RPG_CLIENT_FIGHTFESTRACEDATA_SET_STAGEINFODATA_OFFSET UNITYSDK_OFFSET(0x15122070)
-#define RPG_CLIENT_FIGHTFESTRACEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x15122640)
-#define RPG_CLIENT_FIGHTFESTRACEDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15121F60)
-#define RPG_CLIENT_FIGHTFESTRACEDATA__CTOR_2_OFFSET UNITYSDK_OFFSET(0x15112C40)
-#define RPG_CLIENT_FIGHTFESTRACEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15114270)
+#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_CHALLENGENAME_OFFSET UNITYSDK_OFFSET(0x16B89110)
+#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_ENVIRONMENTBUFFDES_OFFSET UNITYSDK_OFFSET(0x16B89330)
+#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_ENVIRONMENTBUFFNAME_OFFSET UNITYSDK_OFFSET(0x16B89220)
+#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_EVENTID_OFFSET UNITYSDK_OFFSET(0x16B890F0)
+#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_PREVIEWMONSTERLIST_OFFSET UNITYSDK_OFFSET(0x16B89440)
+#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_RACEID_OFFSET UNITYSDK_OFFSET(0x16B890B0)
+#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_RACETYPE_OFFSET UNITYSDK_OFFSET(0x16B89050)
+#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_RECOMMENDNATURE_OFFSET UNITYSDK_OFFSET(0x16B89500)
+#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_RELATEDMAINRACE_OFFSET UNITYSDK_OFFSET(0x16B89070)
+#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_RELATEDSCORERACE_OFFSET UNITYSDK_OFFSET(0x16B89090)
+#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_SPECIALAVATARLIST_OFFSET UNITYSDK_OFFSET(0x16B895C0)
+#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_STAGEINFODATA_OFFSET UNITYSDK_OFFSET(0x16B890D0)
+#define RPG_CLIENT_FIGHTFESTRACEDATA_GET_UIENTERBATTLEAREAID_OFFSET UNITYSDK_OFFSET(0x16B89680)
+#define RPG_CLIENT_FIGHTFESTRACEDATA_SETRELATEDMAINRACE_OFFSET UNITYSDK_OFFSET(0x16B88FB0)
+#define RPG_CLIENT_FIGHTFESTRACEDATA_SETRELATEDSCORERACE_OFFSET UNITYSDK_OFFSET(0x16B89000)
+#define RPG_CLIENT_FIGHTFESTRACEDATA_SET_RACEID_OFFSET UNITYSDK_OFFSET(0x16B890C0)
+#define RPG_CLIENT_FIGHTFESTRACEDATA_SET_RACETYPE_OFFSET UNITYSDK_OFFSET(0x16B89060)
+#define RPG_CLIENT_FIGHTFESTRACEDATA_SET_RELATEDMAINRACE_OFFSET UNITYSDK_OFFSET(0x16B89080)
+#define RPG_CLIENT_FIGHTFESTRACEDATA_SET_RELATEDSCORERACE_OFFSET UNITYSDK_OFFSET(0x16B890A0)
+#define RPG_CLIENT_FIGHTFESTRACEDATA_SET_STAGEINFODATA_OFFSET UNITYSDK_OFFSET(0x16B890E0)
+#define RPG_CLIENT_FIGHTFESTRACEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x16B89730)
+#define RPG_CLIENT_FIGHTFESTRACEDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16B88F50)
+#define RPG_CLIENT_FIGHTFESTRACEDATA__CTOR_2_OFFSET UNITYSDK_OFFSET(0x16B88F80)
+#define RPG_CLIENT_FIGHTFESTRACEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16B88E60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightFestRaceData_TypeDefinitionIndex = 59046;
+	inline static constexpr unsigned int FightFestRaceData_TypeDefinitionIndex = 59976;
 
 	class FightFestRaceData : public ::System::Object
 	{
 	public:
 		static ::System::UInt32* StaticGet__TEACH_RACE_ID()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(FightFestRaceData_TypeDefinitionIndex)->GetStaticField(0x5AC0);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(FightFestRaceData_TypeDefinitionIndex)->GetStaticField(0x88E0);
 		}
-		::RPG::Client::FightFestStageInfoData* _StageInfoData_k__BackingField; // 0x10
-		::RPG::Client::FightFestScoreRace* _RelatedScoreRace_k__BackingField; // 0x18
-		::RPG::Client::FightFestMainRace* _RelatedMainRace_k__BackingField; // 0x20
-		::Enum_3_4608E37A1B3D374A_15 _RaceType_k__BackingField; // 0x28
-		::System::UInt32 _RaceID_k__BackingField; // 0x2C
+		::RPG::Client::FightFestMainRace* _RelatedMainRace_k__BackingField; // 0x10
+		::RPG::Client::FightFestStageInfoData* _StageInfoData_k__BackingField; // 0x18
+		::RPG::Client::FightFestScoreRace* _RelatedScoreRace_k__BackingField; // 0x20
+		::System::UInt32 _RaceID_k__BackingField; // 0x28
+		::Enum_3_4608E37A1B3D374A_14 _RaceType_k__BackingField; // 0x2C
 
-		::System::Void _ctor(::RPG::GameCore::FightFestMainRaceRow* row)
+		::System::Void _ctor(::RPG::GameCore::FightFestMainRaceRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FightFestMainRaceRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA__CTOR_OFFSET))(this, row);
-		}
-
-		::System::Void _ctor_1(::RPG::GameCore::FightFestScoreRaceRow* row, ::System::UInt32 eventID)
-		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FightFestScoreRaceRow*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA__CTOR_1_OFFSET))(this, row, eventID);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FightFestMainRaceRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::RPG::GameCore::FightFestChallengeRow* row)
+		::System::Void _ctor_1(::RPG::GameCore::FightFestScoreRaceRow* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FightFestChallengeRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA__CTOR_2_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FightFestScoreRaceRow*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA__CTOR_1_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void _ctor_2(::RPG::GameCore::FightFestChallengeRow* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FightFestChallengeRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA__CTOR_2_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -74,24 +74,24 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA__CCTOR_OFFSET))();
 		}
 
-		::System::Void SetRelatedMainRace(::RPG::Client::FightFestMainRace* mainRace)
+		::System::Void SetRelatedMainRace(::RPG::Client::FightFestMainRace* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FightFestMainRace*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA_SETRELATEDMAINRACE_OFFSET))(this, mainRace);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FightFestMainRace*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA_SETRELATEDMAINRACE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetRelatedScoreRace(::RPG::Client::FightFestScoreRace* scoreRace)
+		::System::Void SetRelatedScoreRace(::RPG::Client::FightFestScoreRace* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FightFestScoreRace*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA_SETRELATEDSCORERACE_OFFSET))(this, scoreRace);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FightFestScoreRace*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA_SETRELATEDSCORERACE_OFFSET))(this, a1);
 		}
 
-		::Enum_3_4608E37A1B3D374A_15 get_RaceType()
+		::Enum_3_4608E37A1B3D374A_14 get_RaceType()
 		{
-			return ((::Enum_3_4608E37A1B3D374A_15(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA_GET_RACETYPE_OFFSET))(this);
+			return ((::Enum_3_4608E37A1B3D374A_14(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA_GET_RACETYPE_OFFSET))(this);
 		}
 
-		::System::Void set_RaceType(::Enum_3_4608E37A1B3D374A_15 value)
+		::System::Void set_RaceType(::Enum_3_4608E37A1B3D374A_14 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_4608E37A1B3D374A_15))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA_SET_RACETYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Enum_3_4608E37A1B3D374A_14))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA_SET_RACETYPE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::FightFestMainRace* get_RelatedMainRace()
@@ -99,9 +99,9 @@ namespace RPG::Client
 			return ((::RPG::Client::FightFestMainRace*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA_GET_RELATEDMAINRACE_OFFSET))(this);
 		}
 
-		::System::Void set_RelatedMainRace(::RPG::Client::FightFestMainRace* value)
+		::System::Void set_RelatedMainRace(::RPG::Client::FightFestMainRace* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FightFestMainRace*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA_SET_RELATEDMAINRACE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FightFestMainRace*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA_SET_RELATEDMAINRACE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::FightFestScoreRace* get_RelatedScoreRace()
@@ -109,9 +109,9 @@ namespace RPG::Client
 			return ((::RPG::Client::FightFestScoreRace*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA_GET_RELATEDSCORERACE_OFFSET))(this);
 		}
 
-		::System::Void set_RelatedScoreRace(::RPG::Client::FightFestScoreRace* value)
+		::System::Void set_RelatedScoreRace(::RPG::Client::FightFestScoreRace* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FightFestScoreRace*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA_SET_RELATEDSCORERACE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FightFestScoreRace*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA_SET_RELATEDSCORERACE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_RaceID()
@@ -119,9 +119,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA_GET_RACEID_OFFSET))(this);
 		}
 
-		::System::Void set_RaceID(::System::UInt32 value)
+		::System::Void set_RaceID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA_SET_RACEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA_SET_RACEID_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::FightFestStageInfoData* get_StageInfoData()
@@ -129,9 +129,9 @@ namespace RPG::Client
 			return ((::RPG::Client::FightFestStageInfoData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA_GET_STAGEINFODATA_OFFSET))(this);
 		}
 
-		::System::Void set_StageInfoData(::RPG::Client::FightFestStageInfoData* value)
+		::System::Void set_StageInfoData(::RPG::Client::FightFestStageInfoData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FightFestStageInfoData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA_SET_STAGEINFODATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FightFestStageInfoData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTRACEDATA_SET_STAGEINFODATA_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_EventID()

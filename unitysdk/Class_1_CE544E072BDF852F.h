@@ -9,27 +9,27 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Action; }
 namespace UnityEngine { class Camera; }
 
-#define CLASS_1_CE544E072BDF852F_GET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x112F9850)
-#define CLASS_1_CE544E072BDF852F_METHOD_1_04AF66402B9859B9_OFFSET UNITYSDK_OFFSET(0x112F9680)
-#define CLASS_1_CE544E072BDF852F_METHOD_1_0FF371AF1EE27BCD_OFFSET UNITYSDK_OFFSET(0x112F9560)
-#define CLASS_1_CE544E072BDF852F_METHOD_1_40AF574CD5336697_OFFSET UNITYSDK_OFFSET(0x112F96D0)
-#define CLASS_1_CE544E072BDF852F_METHOD_1_47FCE72550F759BF_OFFSET UNITYSDK_OFFSET(0x112F97A0)
-#define CLASS_1_CE544E072BDF852F_METHOD_1_CB3164B4A230532E_OFFSET UNITYSDK_OFFSET(0x112F9380)
-#define CLASS_1_CE544E072BDF852F_SET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x112F9860)
-#define CLASS_1_CE544E072BDF852F__CTOR_OFFSET UNITYSDK_OFFSET(0x112F9550)
+#define CLASS_1_CE544E072BDF852F_GET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x1550E780)
+#define CLASS_1_CE544E072BDF852F_METHOD_1_04AF66402B9859B9_OFFSET UNITYSDK_OFFSET(0x1550E5B0)
+#define CLASS_1_CE544E072BDF852F_METHOD_1_0FF371AF1EE27BCD_OFFSET UNITYSDK_OFFSET(0x1550E490)
+#define CLASS_1_CE544E072BDF852F_METHOD_1_40AF574CD5336697_OFFSET UNITYSDK_OFFSET(0x1550E600)
+#define CLASS_1_CE544E072BDF852F_METHOD_1_47FCE72550F759BF_OFFSET UNITYSDK_OFFSET(0x1550E6D0)
+#define CLASS_1_CE544E072BDF852F_METHOD_1_CB3164B4A230532E_OFFSET UNITYSDK_OFFSET(0x1550E2B0)
+#define CLASS_1_CE544E072BDF852F_SET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x1550E790)
+#define CLASS_1_CE544E072BDF852F__CTOR_OFFSET UNITYSDK_OFFSET(0x1550E480)
 
-inline static constexpr unsigned int Class_1_CE544E072BDF852F_TypeDefinitionIndex = 65878;
+inline static constexpr unsigned int Class_1_CE544E072BDF852F_TypeDefinitionIndex = 66811;
 
 class Class_1_CE544E072BDF852F : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* Field_1_1; // 0x10
-	::System::Action* Field_1_6; // 0x18
+	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
+	::System::Action* Field_1_1; // 0x18
 	::UnityEngine::Vector3 Field_1_2; // 0x20
-	::UnityEngine::Vector3 Field_1_4; // 0x2C
-	::System::Single Field_1_5; // 0x38
-	::UnityEngine::Vector3 Field_1_3; // 0x3C
-	::RPG::GameCore::BattleAvatarUltraSkillEnergyFlyEffectType _EffectType_k__BackingField; // 0x48
+	::System::Single Field_1_3; // 0x2C
+	::RPG::GameCore::BattleAvatarUltraSkillEnergyFlyEffectType _EffectType_k__BackingField; // 0x30
+	::UnityEngine::Vector3 Field_1_5; // 0x34
+	::UnityEngine::Vector3 Field_1_6; // 0x40
 
 	::System::Void _ctor()
 	{
@@ -66,8 +66,8 @@ public:
 		return ((::RPG::GameCore::BattleAvatarUltraSkillEnergyFlyEffectType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CE544E072BDF852F_GET_EFFECTTYPE_OFFSET))(this);
 	}
 
-	::System::Void set_EffectType(::RPG::GameCore::BattleAvatarUltraSkillEnergyFlyEffectType value)
+	::System::Void set_EffectType(::RPG::GameCore::BattleAvatarUltraSkillEnergyFlyEffectType a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleAvatarUltraSkillEnergyFlyEffectType))((::PBYTE)hIl2Cpp + CLASS_1_CE544E072BDF852F_SET_EFFECTTYPE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleAvatarUltraSkillEnergyFlyEffectType))((::PBYTE)hIl2Cpp + CLASS_1_CE544E072BDF852F_SET_EFFECTTYPE_OFFSET))(this, a1);
 	}
 };

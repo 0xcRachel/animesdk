@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TAROTWIKITIMELINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1713A710)
-#define RPG_GAMECORE_TAROTWIKITIMELINEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1713A9B0)
+#define RPG_GAMECORE_TAROTWIKITIMELINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ACEA670)
+#define RPG_GAMECORE_TAROTWIKITIMELINEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACEA900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotWikiTimelineRow_TypeDefinitionIndex = 14455;
+	inline static constexpr unsigned int TarotWikiTimelineRow_TypeDefinitionIndex = 14477;
 
 	class TarotWikiTimelineRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* DataList; // 0x10
-		::System::UInt32 UnlockID; // 0x18
-		::System::UInt32 SpecialType; // 0x1C
-		::System::UInt32 ID; // 0x20
-		::System::Single Progress; // 0x24
+		::System::UInt32 ID; // 0x18
+		::System::Single Progress; // 0x1C
+		::System::UInt32 UnlockID; // 0x20
+		::System::UInt32 SpecialType; // 0x24
 		::RPG::Client::TextID Title; // 0x28
 
 		::System::Void _ctor()
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TAROTWIKITIMELINEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::TarotWikiTimelineRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TarotWikiTimelineRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TarotWikiTimelineRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TAROTWIKITIMELINEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TarotWikiTimelineRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TAROTWIKITIMELINEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

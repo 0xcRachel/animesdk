@@ -8,36 +8,36 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class SwordTrainingStatusConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D8FA80)
-#define RPG_GAMECORE_SWORDTRAININGACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D8FF00)
+#define RPG_GAMECORE_SWORDTRAININGACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19863080)
+#define RPG_GAMECORE_SWORDTRAININGACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198634F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingActionRow_TypeDefinitionIndex = 11761;
+	inline static constexpr unsigned int SwordTrainingActionRow_TypeDefinitionIndex = 11858;
 
 	class SwordTrainingActionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::SwordTrainingStatusConfig*>* DisplayEffectHintList; // 0x10
-		::System::String* ActionPlanImage; // 0x18
+		::System::String* ActionImage; // 0x18
 		::Il2CppArray<::System::UInt32>* EffectIDList; // 0x20
-		::Il2CppArray<::System::String*>* ActionPerformPrefab; // 0x28
-		::System::String* ActionIcon; // 0x30
-		::System::String* ActionImage; // 0x38
-		::RPG::Client::TextID ActionSubName; // 0x40
-		::RPG::GameCore::SwordTrainingActionType ActionType; // 0x50
-		::System::UInt32 ActionID; // 0x54
-		::RPG::Client::TextID ActionName; // 0x58
-		::System::UInt32 ActionLevel; // 0x68
+		::System::String* ActionIcon; // 0x28
+		::Il2CppArray<::System::String*>* ActionPerformPrefab; // 0x30
+		::System::String* ActionPlanImage; // 0x38
+		::RPG::Client::TextID ActionName; // 0x40
+		::System::UInt32 ActionLevel; // 0x50
+		::RPG::GameCore::SwordTrainingActionType ActionType; // 0x54
+		::RPG::Client::TextID ActionSubName; // 0x58
+		::System::UInt32 ActionID; // 0x68
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGACTIONROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::SwordTrainingActionRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwordTrainingActionRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwordTrainingActionRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGACTIONROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwordTrainingActionRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGACTIONROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

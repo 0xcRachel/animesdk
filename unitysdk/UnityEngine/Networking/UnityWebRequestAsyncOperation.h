@@ -4,12 +4,12 @@
 
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUESTASYNCOPERATION_SET_WEBREQUEST_OFFSET UNITYSDK_OFFSET(0x1A6F4CB0)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUESTASYNCOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6F4CC0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUESTASYNCOPERATION_SET_WEBREQUEST_OFFSET UNITYSDK_OFFSET(0x1B51AA20)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUESTASYNCOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B51AA30)
 
 namespace UnityEngine::Networking
 {
-	inline static constexpr unsigned int UnityWebRequestAsyncOperation_TypeDefinitionIndex = 5278;
+	inline static constexpr unsigned int UnityWebRequestAsyncOperation_TypeDefinitionIndex = 5354;
 
 	class UnityWebRequestAsyncOperation : public ::UnityEngine::AsyncOperation
 	{
@@ -21,9 +21,9 @@ namespace UnityEngine::Networking
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUESTASYNCOPERATION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void set_webRequest(::UnityEngine::Networking::UnityWebRequest* value)
+		::System::Void set_webRequest(::UnityEngine::Networking::UnityWebRequest* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Networking::UnityWebRequest*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUESTASYNCOPERATION_SET_WEBREQUEST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Networking::UnityWebRequest*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUESTASYNCOPERATION_SET_WEBREQUEST_OFFSET))(this, a1);
 		}
 	};
 }

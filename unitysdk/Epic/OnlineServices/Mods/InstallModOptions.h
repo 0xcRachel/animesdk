@@ -5,17 +5,17 @@
 namespace Epic::OnlineServices { class EpicAccountId; }
 namespace Epic::OnlineServices::Mods { class ModIdentifier; }
 
-#define EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x195516D0)
-#define EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS_GET_MOD_OFFSET UNITYSDK_OFFSET(0x195516F0)
-#define EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS_GET_REMOVEAFTEREXIT_OFFSET UNITYSDK_OFFSET(0x19551710)
-#define EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x195516E0)
-#define EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS_SET_MOD_OFFSET UNITYSDK_OFFSET(0x19551700)
-#define EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS_SET_REMOVEAFTEREXIT_OFFSET UNITYSDK_OFFSET(0x19551720)
-#define EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19551730)
+#define EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A340020)
+#define EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS_GET_MOD_OFFSET UNITYSDK_OFFSET(0x1A340040)
+#define EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS_GET_REMOVEAFTEREXIT_OFFSET UNITYSDK_OFFSET(0x1A340060)
+#define EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A340030)
+#define EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS_SET_MOD_OFFSET UNITYSDK_OFFSET(0x1A340050)
+#define EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS_SET_REMOVEAFTEREXIT_OFFSET UNITYSDK_OFFSET(0x1A340070)
+#define EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A340080)
 
 namespace Epic::OnlineServices::Mods
 {
-	inline static constexpr unsigned int InstallModOptions_TypeDefinitionIndex = 41769;
+	inline static constexpr unsigned int InstallModOptions_TypeDefinitionIndex = 42572;
 
 	class InstallModOptions : public ::System::Object
 	{
@@ -34,9 +34,9 @@ namespace Epic::OnlineServices::Mods
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::Mods::ModIdentifier* get_Mod()
@@ -44,9 +44,9 @@ namespace Epic::OnlineServices::Mods
 			return ((::Epic::OnlineServices::Mods::ModIdentifier*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS_GET_MOD_OFFSET))(this);
 		}
 
-		::System::Void set_Mod(::Epic::OnlineServices::Mods::ModIdentifier* value)
+		::System::Void set_Mod(::Epic::OnlineServices::Mods::ModIdentifier* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::ModIdentifier*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS_SET_MOD_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::ModIdentifier*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS_SET_MOD_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_RemoveAfterExit()
@@ -54,9 +54,9 @@ namespace Epic::OnlineServices::Mods
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS_GET_REMOVEAFTEREXIT_OFFSET))(this);
 		}
 
-		::System::Void set_RemoveAfterExit(::System::Boolean value)
+		::System::Void set_RemoveAfterExit(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS_SET_REMOVEAFTEREXIT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_INSTALLMODOPTIONS_SET_REMOVEAFTEREXIT_OFFSET))(this, a1);
 		}
 	};
 }

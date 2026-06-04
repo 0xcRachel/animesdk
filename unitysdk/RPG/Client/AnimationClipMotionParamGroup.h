@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_ANIMATIONCLIPMOTIONPARAMGROUP_METHOD_2_E31AE924598D4DE5_OFFSET UNITYSDK_OFFSET(0x22407C0)
+#define RPG_CLIENT_ANIMATIONCLIPMOTIONPARAMGROUP_METHOD_2_E31AE924598D4DE5_OFFSET UNITYSDK_OFFSET(0x3836F40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimationClipMotionParamGroup_TypeDefinitionIndex = 67456;
+	inline static constexpr unsigned int AnimationClipMotionParamGroup_TypeDefinitionIndex = 68408;
 
 	struct alignas(8) AnimationClipMotionParamGroup
 	{

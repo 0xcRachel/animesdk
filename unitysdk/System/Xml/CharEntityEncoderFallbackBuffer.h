@@ -5,14 +5,14 @@
 namespace System { class String; }
 namespace System::Xml { class CharEntityEncoderFallback; }
 
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER_FALLBACK_1_OFFSET UNITYSDK_OFFSET(0x186C1C60)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER_FALLBACK_OFFSET UNITYSDK_OFFSET(0x186C1940)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER_GETNEXTCHAR_OFFSET UNITYSDK_OFFSET(0x186C2010)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER_GET_REMAINING_OFFSET UNITYSDK_OFFSET(0x186C20B0)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER_MOVEPREVIOUS_OFFSET UNITYSDK_OFFSET(0x186C2090)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER_RESET_OFFSET UNITYSDK_OFFSET(0x186C20E0)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER_SURROGATECHARTOUTF32_OFFSET UNITYSDK_OFFSET(0x186C1FF0)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x186C1880)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER_FALLBACK_1_OFFSET UNITYSDK_OFFSET(0x18A6DAC0)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER_FALLBACK_OFFSET UNITYSDK_OFFSET(0x18A6D7D0)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER_GETNEXTCHAR_OFFSET UNITYSDK_OFFSET(0x18A6DE40)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER_GET_REMAINING_OFFSET UNITYSDK_OFFSET(0x18A6DEE0)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER_MOVEPREVIOUS_OFFSET UNITYSDK_OFFSET(0x18A6DEC0)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER_RESET_OFFSET UNITYSDK_OFFSET(0x18A6DF10)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER_SURROGATECHARTOUTF32_OFFSET UNITYSDK_OFFSET(0x18A6DE20)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x18A6D710)
 
 namespace System::Xml
 {
@@ -21,23 +21,23 @@ namespace System::Xml
 	class CharEntityEncoderFallbackBuffer : public ::System::Text::EncoderFallbackBuffer
 	{
 	public:
-		::System::String* charEntity; // 0x30
-		::System::Xml::CharEntityEncoderFallback* parent; // 0x38
+		::System::Xml::CharEntityEncoderFallback* parent; // 0x30
+		::System::String* charEntity; // 0x38
 		::System::Int32 charEntityIndex; // 0x40
 
-		::System::Void _ctor(::System::Xml::CharEntityEncoderFallback* parent)
+		::System::Void _ctor(::System::Xml::CharEntityEncoderFallback* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::CharEntityEncoderFallback*))((::PBYTE)hIl2Cpp + SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER__CTOR_OFFSET))(this, parent);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::CharEntityEncoderFallback*))((::PBYTE)hIl2Cpp + SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Fallback(::System::Char charUnknown, ::System::Int32 index)
+		::System::Boolean Fallback(::System::Char a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Char, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER_FALLBACK_OFFSET))(this, charUnknown, index);
+			return ((::System::Boolean(*)(::PVOID, ::System::Char, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER_FALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Fallback_1(::System::Char charUnknownHigh, ::System::Char charUnknownLow, ::System::Int32 index)
+		::System::Boolean Fallback_1(::System::Char a1, ::System::Char a2, ::System::Int32 a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Char, ::System::Char, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER_FALLBACK_1_OFFSET))(this, charUnknownHigh, charUnknownLow, index);
+			return ((::System::Boolean(*)(::PVOID, ::System::Char, ::System::Char, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER_FALLBACK_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Char GetNextChar()
@@ -60,9 +60,9 @@ namespace System::Xml
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER_RESET_OFFSET))(this);
 		}
 
-		::System::Int32 SurrogateCharToUtf32(::System::Char highSurrogate, ::System::Char lowSurrogate)
+		::System::Int32 SurrogateCharToUtf32(::System::Char a1, ::System::Char a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Char, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER_SURROGATECHARTOUTF32_OFFSET))(this, highSurrogate, lowSurrogate);
+			return ((::System::Int32(*)(::PVOID, ::System::Char, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_XML_CHARENTITYENCODERFALLBACKBUFFER_SURROGATECHARTOUTF32_OFFSET))(this, a1, a2);
 		}
 	};
 }

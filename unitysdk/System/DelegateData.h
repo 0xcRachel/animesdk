@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_DELEGATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x180945F0)
+#define SYSTEM_DELEGATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1734FA00)
 
 namespace System
 {
-	inline static constexpr unsigned int DelegateData_TypeDefinitionIndex = 385;
+	inline static constexpr unsigned int DelegateData_TypeDefinitionIndex = 384;
 
 	class DelegateData : public ::System::Object
 	{

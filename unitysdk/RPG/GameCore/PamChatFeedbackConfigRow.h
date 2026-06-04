@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PAMCHATFEEDBACKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18EFA4A0)
-#define RPG_GAMECORE_PAMCHATFEEDBACKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18EFA620)
+#define RPG_GAMECORE_PAMCHATFEEDBACKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D11380)
+#define RPG_GAMECORE_PAMCHATFEEDBACKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D11500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamChatFeedbackConfigRow_TypeDefinitionIndex = 13568;
+	inline static constexpr unsigned int PamChatFeedbackConfigRow_TypeDefinitionIndex = 13638;
 
 	class PamChatFeedbackConfigRow : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PAMCHATFEEDBACKCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PamChatFeedbackConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PamChatFeedbackConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PamChatFeedbackConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PAMCHATFEEDBACKCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PamChatFeedbackConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PAMCHATFEEDBACKCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -9,21 +9,21 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT_ADDCLICKEDOUTSIDEHANDLER_OFFSET UNITYSDK_OFFSET(0xBF35BE0)
-#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT_ADDIGNORERECT_1_OFFSET UNITYSDK_OFFSET(0xBF35DB0)
-#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT_ADDIGNORERECT_OFFSET UNITYSDK_OFFSET(0xBF35CE0)
-#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT_CLEARIGNORERECTS_OFFSET UNITYSDK_OFFSET(0xBF35F20)
-#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xBF36560)
-#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT_REMOVEIGNORERECT_OFFSET UNITYSDK_OFFSET(0xBF35E90)
-#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT_SETDEFAULTCAMERA_OFFSET UNITYSDK_OFFSET(0xBF35C90)
-#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT_SETIGNORESELF_OFFSET UNITYSDK_OFFSET(0xBF35C40)
-#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT_UPDATE_OFFSET UNITYSDK_OFFSET(0xBF35FC0)
-#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT__CTOR_OFFSET UNITYSDK_OFFSET(0xBF365B0)
-#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT__ISPOINTINIGNORERECT_OFFSET UNITYSDK_OFFSET(0xBF36180)
+#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT_ADDCLICKEDOUTSIDEHANDLER_OFFSET UNITYSDK_OFFSET(0x12A32F50)
+#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT_ADDIGNORERECT_1_OFFSET UNITYSDK_OFFSET(0x12A33120)
+#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT_ADDIGNORERECT_OFFSET UNITYSDK_OFFSET(0x12A33050)
+#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT_CLEARIGNORERECTS_OFFSET UNITYSDK_OFFSET(0x12A33290)
+#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x12A338B0)
+#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT_REMOVEIGNORERECT_OFFSET UNITYSDK_OFFSET(0x12A33200)
+#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT_SETDEFAULTCAMERA_OFFSET UNITYSDK_OFFSET(0x12A33000)
+#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT_SETIGNORESELF_OFFSET UNITYSDK_OFFSET(0x12A32FB0)
+#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT_UPDATE_OFFSET UNITYSDK_OFFSET(0x12A33320)
+#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT__CTOR_OFFSET UNITYSDK_OFFSET(0x12A33900)
+#define RPG_CLIENT_MONOCLICKOUTSIDEDETECT__ISPOINTINIGNORERECT_OFFSET UNITYSDK_OFFSET(0x12A334E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoClickOutsideDetect_TypeDefinitionIndex = 66870;
+	inline static constexpr unsigned int MonoClickOutsideDetect_TypeDefinitionIndex = 67810;
 
 	class MonoClickOutsideDetect : public ::UnityEngine::MonoBehaviour
 	{
@@ -39,34 +39,34 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCLICKOUTSIDEDETECT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void AddClickedOutsideHandler(::System::Action_1<::System::Object*>* handler, ::System::Object* listener)
+		::System::Void AddClickedOutsideHandler(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCLICKOUTSIDEDETECT_ADDCLICKEDOUTSIDEHANDLER_OFFSET))(this, handler, listener);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCLICKOUTSIDEDETECT_ADDCLICKEDOUTSIDEHANDLER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetIgnoreSelf(::System::Boolean ignoreSelf)
+		::System::Void SetIgnoreSelf(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCLICKOUTSIDEDETECT_SETIGNORESELF_OFFSET))(this, ignoreSelf);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCLICKOUTSIDEDETECT_SETIGNORESELF_OFFSET))(this, a1);
 		}
 
-		::System::Void SetDefaultCamera(::UnityEngine::Camera* cam)
+		::System::Void SetDefaultCamera(::UnityEngine::Camera* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCLICKOUTSIDEDETECT_SETDEFAULTCAMERA_OFFSET))(this, cam);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCLICKOUTSIDEDETECT_SETDEFAULTCAMERA_OFFSET))(this, a1);
 		}
 
-		::System::Void AddIgnoreRect(::UnityEngine::RectTransform* rectTransform)
+		::System::Void AddIgnoreRect(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCLICKOUTSIDEDETECT_ADDIGNORERECT_OFFSET))(this, rectTransform);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCLICKOUTSIDEDETECT_ADDIGNORERECT_OFFSET))(this, a1);
 		}
 
-		::System::Void AddIgnoreRect_1(::UnityEngine::RectTransform* rectTransform, ::UnityEngine::Camera* cam)
+		::System::Void AddIgnoreRect_1(::UnityEngine::RectTransform* a1, ::UnityEngine::Camera* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCLICKOUTSIDEDETECT_ADDIGNORERECT_1_OFFSET))(this, rectTransform, cam);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCLICKOUTSIDEDETECT_ADDIGNORERECT_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RemoveIgnoreRect(::UnityEngine::RectTransform* rectTransform)
+		::System::Void RemoveIgnoreRect(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCLICKOUTSIDEDETECT_REMOVEIGNORERECT_OFFSET))(this, rectTransform);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCLICKOUTSIDEDETECT_REMOVEIGNORERECT_OFFSET))(this, a1);
 		}
 
 		::System::Void ClearIgnoreRects()
@@ -84,9 +84,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCLICKOUTSIDEDETECT_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Boolean _IsPointInIgnoreRect(::UnityEngine::Vector2 point)
+		::System::Boolean _IsPointInIgnoreRect(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCLICKOUTSIDEDETECT__ISPOINTINIGNORERECT_OFFSET))(this, point);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCLICKOUTSIDEDETECT__ISPOINTINIGNORERECT_OFFSET))(this, a1);
 		}
 	};
 }

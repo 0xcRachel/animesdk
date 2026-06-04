@@ -4,14 +4,14 @@
 
 namespace System { class String; }
 
-#define CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_CLAMPVALUE_OFFSET UNITYSDK_OFFSET(0x225F4A0)
-#define CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_UPDATE_1_OFFSET UNITYSDK_OFFSET(0x225F520)
-#define CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_UPDATE_OFFSET UNITYSDK_OFFSET(0x225F490)
-#define CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_VALIDATE_OFFSET UNITYSDK_OFFSET(0x225EAF0)
+#define CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_CLAMPVALUE_OFFSET UNITYSDK_OFFSET(0x37A1FE0)
+#define CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_UPDATE_1_OFFSET UNITYSDK_OFFSET(0x37A2060)
+#define CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_UPDATE_OFFSET UNITYSDK_OFFSET(0x37A1FD0)
+#define CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_VALIDATE_OFFSET UNITYSDK_OFFSET(0x37A0EB0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineInputAxisDriver_TypeDefinitionIndex = 36580;
+	inline static constexpr unsigned int CinemachineInputAxisDriver_TypeDefinitionIndex = 36880;
 
 	struct alignas(8) CinemachineInputAxisDriver
 	{
@@ -29,23 +29,23 @@ namespace Cinemachine
 		}
 
 		/*
-		::System::Boolean Update(::System::Single deltaTime, ::Cinemachine::AxisBase& axis)
+		::System::Boolean Update(::System::Single a1, ::Cinemachine::AxisBase& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::Cinemachine::AxisBase&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_UPDATE_OFFSET))(this, deltaTime, axis);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::Cinemachine::AxisBase&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_UPDATE_OFFSET))(this, a1, a2);
 		}
 		*/
 
 		/*
-		::System::Single ClampValue(::Cinemachine::AxisBase& axis, ::System::Single v)
+		::System::Single ClampValue(::Cinemachine::AxisBase& a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::PVOID, ::Cinemachine::AxisBase&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_CLAMPVALUE_OFFSET))(this, axis, v);
+			return ((::System::Single(*)(::PVOID, ::Cinemachine::AxisBase&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_CLAMPVALUE_OFFSET))(this, a1, a2);
 		}
 		*/
 
 		/*
-		::System::Boolean Update_1(::System::Single deltaTime, ::Cinemachine::AxisState& axis)
+		::System::Boolean Update_1(::System::Single a1, ::Cinemachine::AxisState& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::Cinemachine::AxisState&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_UPDATE_1_OFFSET))(this, deltaTime, axis);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::Cinemachine::AxisState&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_UPDATE_1_OFFSET))(this, a1, a2);
 		}
 		*/
 	};

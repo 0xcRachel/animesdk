@@ -8,21 +8,21 @@ namespace System::Xml { class XmlDocument; }
 namespace System::Xml { class XmlLinkedNode; }
 namespace System::Xml { class XmlWriter; }
 
-#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_CANINSERTAFTER_OFFSET UNITYSDK_OFFSET(0x17661800)
-#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_CLONENODE_OFFSET UNITYSDK_OFFSET(0x176615B0)
-#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_GET_ISCONTAINER_OFFSET UNITYSDK_OFFSET(0x17661740)
-#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_GET_LASTNODE_OFFSET UNITYSDK_OFFSET(0x17661750)
-#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x17661280)
-#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x17661190)
-#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x17661300)
-#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_GET_OWNERDOCUMENT_OFFSET UNITYSDK_OFFSET(0x17661210)
-#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_GET_PARENTNODE_OFFSET UNITYSDK_OFFSET(0x17661310)
-#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_ISVALIDCHILDTYPE_OFFSET UNITYSDK_OFFSET(0x17661770)
-#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_SET_INNERXML_OFFSET UNITYSDK_OFFSET(0x17661320)
-#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_SET_LASTNODE_OFFSET UNITYSDK_OFFSET(0x17661760)
-#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_WRITECONTENTTO_OFFSET UNITYSDK_OFFSET(0x17661860)
-#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_WRITETO_OFFSET UNITYSDK_OFFSET(0x17661850)
-#define SYSTEM_XML_XMLDOCUMENTFRAGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x17661110)
+#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_CANINSERTAFTER_OFFSET UNITYSDK_OFFSET(0x16DBCA00)
+#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_CLONENODE_OFFSET UNITYSDK_OFFSET(0x16DBC7B0)
+#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_GET_ISCONTAINER_OFFSET UNITYSDK_OFFSET(0x16DBC940)
+#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_GET_LASTNODE_OFFSET UNITYSDK_OFFSET(0x16DBC950)
+#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x16DBC480)
+#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x16DBC390)
+#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x16DBC500)
+#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_GET_OWNERDOCUMENT_OFFSET UNITYSDK_OFFSET(0x16DBC410)
+#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_GET_PARENTNODE_OFFSET UNITYSDK_OFFSET(0x16DBC510)
+#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_ISVALIDCHILDTYPE_OFFSET UNITYSDK_OFFSET(0x16DBC970)
+#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_SET_INNERXML_OFFSET UNITYSDK_OFFSET(0x16DBC520)
+#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_SET_LASTNODE_OFFSET UNITYSDK_OFFSET(0x16DBC960)
+#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_WRITECONTENTTO_OFFSET UNITYSDK_OFFSET(0x16DBCA60)
+#define SYSTEM_XML_XMLDOCUMENTFRAGMENT_WRITETO_OFFSET UNITYSDK_OFFSET(0x16DBCA50)
+#define SYSTEM_XML_XMLDOCUMENTFRAGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x16DBC310)
 
 namespace System::Xml
 {
@@ -33,9 +33,9 @@ namespace System::Xml
 	public:
 		::System::Xml::XmlLinkedNode* lastChild; // 0x18
 
-		::System::Void _ctor(::System::Xml::XmlDocument* ownerDocument)
+		::System::Void _ctor(::System::Xml::XmlDocument* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlDocument*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTFRAGMENT__CTOR_OFFSET))(this, ownerDocument);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlDocument*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTFRAGMENT__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Name()
@@ -63,14 +63,14 @@ namespace System::Xml
 			return ((::System::Xml::XmlDocument*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTFRAGMENT_GET_OWNERDOCUMENT_OFFSET))(this);
 		}
 
-		::System::Void set_InnerXml(::System::String* value)
+		::System::Void set_InnerXml(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTFRAGMENT_SET_INNERXML_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTFRAGMENT_SET_INNERXML_OFFSET))(this, a1);
 		}
 
-		::System::Xml::XmlNode* CloneNode(::System::Boolean deep)
+		::System::Xml::XmlNode* CloneNode(::System::Boolean a1)
 		{
-			return ((::System::Xml::XmlNode*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTFRAGMENT_CLONENODE_OFFSET))(this, deep);
+			return ((::System::Xml::XmlNode*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTFRAGMENT_CLONENODE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsContainer()
@@ -83,29 +83,29 @@ namespace System::Xml
 			return ((::System::Xml::XmlLinkedNode*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTFRAGMENT_GET_LASTNODE_OFFSET))(this);
 		}
 
-		::System::Void set_LastNode(::System::Xml::XmlLinkedNode* value)
+		::System::Void set_LastNode(::System::Xml::XmlLinkedNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlLinkedNode*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTFRAGMENT_SET_LASTNODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlLinkedNode*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTFRAGMENT_SET_LASTNODE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsValidChildType(::System::Xml::XmlNodeType type)
+		::System::Boolean IsValidChildType(::System::Xml::XmlNodeType a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Xml::XmlNodeType))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTFRAGMENT_ISVALIDCHILDTYPE_OFFSET))(this, type);
+			return ((::System::Boolean(*)(::PVOID, ::System::Xml::XmlNodeType))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTFRAGMENT_ISVALIDCHILDTYPE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CanInsertAfter(::System::Xml::XmlNode* newChild, ::System::Xml::XmlNode* refChild)
+		::System::Boolean CanInsertAfter(::System::Xml::XmlNode* a1, ::System::Xml::XmlNode* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Xml::XmlNode*, ::System::Xml::XmlNode*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTFRAGMENT_CANINSERTAFTER_OFFSET))(this, newChild, refChild);
+			return ((::System::Boolean(*)(::PVOID, ::System::Xml::XmlNode*, ::System::Xml::XmlNode*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTFRAGMENT_CANINSERTAFTER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void WriteTo(::System::Xml::XmlWriter* w)
+		::System::Void WriteTo(::System::Xml::XmlWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTFRAGMENT_WRITETO_OFFSET))(this, w);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTFRAGMENT_WRITETO_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteContentTo(::System::Xml::XmlWriter* w)
+		::System::Void WriteContentTo(::System::Xml::XmlWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTFRAGMENT_WRITECONTENTTO_OFFSET))(this, w);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTFRAGMENT_WRITECONTENTTO_OFFSET))(this, a1);
 		}
 	};
 }

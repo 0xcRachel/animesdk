@@ -6,13 +6,13 @@
 namespace RPG::Client { class GridFightGridData; }
 namespace RPG::Client { class GridFightGridMoveValidateResult; }
 
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FORGECONSTRAIT_VALIDATE_OFFSET UNITYSDK_OFFSET(0x17550460)
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FORGECONSTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x17550180)
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FORGECONSTRAIT__ISFORGEPLACEMENT_OFFSET UNITYSDK_OFFSET(0x175507C0)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FORGECONSTRAIT_VALIDATE_OFFSET UNITYSDK_OFFSET(0x17CA5430)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FORGECONSTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x17CA5150)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FORGECONSTRAIT__ISFORGEPLACEMENT_OFFSET UNITYSDK_OFFSET(0x17CA5790)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridOperationValidator_ForgeConstrait_TypeDefinitionIndex = 59700;
+	inline static constexpr unsigned int GridFightGridOperationValidator_ForgeConstrait_TypeDefinitionIndex = 60635;
 
 	class GridFightGridOperationValidator_ForgeConstrait : public ::System::Object
 	{
@@ -22,14 +22,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FORGECONSTRAIT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Validate(::RPG::Client::GridFightGridData* startData, ::RPG::Client::GridFightGridData* endData, ::RPG::Client::GridFightGridMoveValidateResult* result)
+		::System::Void Validate(::RPG::Client::GridFightGridData* a1, ::RPG::Client::GridFightGridData* a2, ::RPG::Client::GridFightGridMoveValidateResult* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightGridData*, ::RPG::Client::GridFightGridData*, ::RPG::Client::GridFightGridMoveValidateResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FORGECONSTRAIT_VALIDATE_OFFSET))(this, startData, endData, result);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightGridData*, ::RPG::Client::GridFightGridData*, ::RPG::Client::GridFightGridMoveValidateResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FORGECONSTRAIT_VALIDATE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean _IsForgePlacement(::RPG::Client::GridFightPlacementType placement)
+		::System::Boolean _IsForgePlacement(::RPG::Client::GridFightPlacementType a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightPlacementType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FORGECONSTRAIT__ISFORGEPLACEMENT_OFFSET))(this, placement);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightPlacementType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_FORGECONSTRAIT__ISFORGEPLACEMENT_OFFSET))(this, a1);
 		}
 	};
 }

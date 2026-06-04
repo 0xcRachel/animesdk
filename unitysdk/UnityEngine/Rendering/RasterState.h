@@ -5,31 +5,31 @@
 
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_RASTERSTATE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22F2CC0)
-#define UNITYENGINE_RENDERING_RASTERSTATE_EQUALS_OFFSET UNITYSDK_OFFSET(0x22F2C60)
-#define UNITYENGINE_RENDERING_RASTERSTATE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22F2D70)
-#define UNITYENGINE_RENDERING_RASTERSTATE_GET_CONSERVATIVE_OFFSET UNITYSDK_OFFSET(0x22F2C50)
-#define UNITYENGINE_RENDERING_RASTERSTATE_GET_CULLINGMODE_OFFSET UNITYSDK_OFFSET(0x608A20)
-#define UNITYENGINE_RENDERING_RASTERSTATE_GET_DEPTHCLIP_OFFSET UNITYSDK_OFFSET(0x22F2C40)
-#define UNITYENGINE_RENDERING_RASTERSTATE_GET_OFFSETFACTOR_OFFSET UNITYSDK_OFFSET(0x8798B0)
-#define UNITYENGINE_RENDERING_RASTERSTATE_GET_OFFSETUNITS_OFFSET UNITYSDK_OFFSET(0x608600)
-#define UNITYENGINE_RENDERING_RASTERSTATE_SET_CONSERVATIVE_OFFSET UNITYSDK_OFFSET(0x22E5EB0)
-#define UNITYENGINE_RENDERING_RASTERSTATE_SET_CULLINGMODE_OFFSET UNITYSDK_OFFSET(0x6326D0)
-#define UNITYENGINE_RENDERING_RASTERSTATE_SET_DEPTHCLIP_OFFSET UNITYSDK_OFFSET(0x22E5E90)
-#define UNITYENGINE_RENDERING_RASTERSTATE_SET_OFFSETFACTOR_OFFSET UNITYSDK_OFFSET(0x2257280)
-#define UNITYENGINE_RENDERING_RASTERSTATE_SET_OFFSETUNITS_OFFSET UNITYSDK_OFFSET(0x878E70)
-#define UNITYENGINE_RENDERING_RASTERSTATE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18F1C1C0)
-#define UNITYENGINE_RENDERING_RASTERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x22F2C10)
+#define UNITYENGINE_RENDERING_RASTERSTATE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x388F6D0)
+#define UNITYENGINE_RENDERING_RASTERSTATE_EQUALS_OFFSET UNITYSDK_OFFSET(0x388F670)
+#define UNITYENGINE_RENDERING_RASTERSTATE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x388F780)
+#define UNITYENGINE_RENDERING_RASTERSTATE_GET_CONSERVATIVE_OFFSET UNITYSDK_OFFSET(0x388F660)
+#define UNITYENGINE_RENDERING_RASTERSTATE_GET_CULLINGMODE_OFFSET UNITYSDK_OFFSET(0x72BBF0)
+#define UNITYENGINE_RENDERING_RASTERSTATE_GET_DEPTHCLIP_OFFSET UNITYSDK_OFFSET(0x388F650)
+#define UNITYENGINE_RENDERING_RASTERSTATE_GET_OFFSETFACTOR_OFFSET UNITYSDK_OFFSET(0xFD2FD0)
+#define UNITYENGINE_RENDERING_RASTERSTATE_GET_OFFSETUNITS_OFFSET UNITYSDK_OFFSET(0x72B7E0)
+#define UNITYENGINE_RENDERING_RASTERSTATE_SET_CONSERVATIVE_OFFSET UNITYSDK_OFFSET(0x3889490)
+#define UNITYENGINE_RENDERING_RASTERSTATE_SET_CULLINGMODE_OFFSET UNITYSDK_OFFSET(0xA18540)
+#define UNITYENGINE_RENDERING_RASTERSTATE_SET_DEPTHCLIP_OFFSET UNITYSDK_OFFSET(0x3889470)
+#define UNITYENGINE_RENDERING_RASTERSTATE_SET_OFFSETFACTOR_OFFSET UNITYSDK_OFFSET(0x3740CB0)
+#define UNITYENGINE_RENDERING_RASTERSTATE_SET_OFFSETUNITS_OFFSET UNITYSDK_OFFSET(0xFD2470)
+#define UNITYENGINE_RENDERING_RASTERSTATE__CCTOR_OFFSET UNITYSDK_OFFSET(0x198D6290)
+#define UNITYENGINE_RENDERING_RASTERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x388F620)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RasterState_TypeDefinitionIndex = 4566;
+	inline static constexpr unsigned int RasterState_TypeDefinitionIndex = 4740;
 
 	struct alignas(4) RasterState
 	{
 		static ::UnityEngine::Rendering::RasterState* StaticGet_defaultValue()
 		{
-			return (::UnityEngine::Rendering::RasterState*)Il2CppClass::FromTypeDefinitionIndex(RasterState_TypeDefinitionIndex)->GetStaticField(0x5E30);
+			return (::UnityEngine::Rendering::RasterState*)Il2CppClass::FromTypeDefinitionIndex(RasterState_TypeDefinitionIndex)->GetStaticField(0xA970);
 		}
 		::UnityEngine::Rendering::CullMode m_CullingMode; // 0x10
 		::System::Int32 m_OffsetUnits; // 0x14
@@ -39,9 +39,9 @@ namespace UnityEngine::Rendering
 		::System::Byte m_Padding1; // 0x1E
 		::System::Byte m_Padding2; // 0x1F
 
-		::System::Void _ctor(::UnityEngine::Rendering::CullMode cullingMode, ::System::Int32 offsetUnits, ::System::Single offsetFactor, ::System::Boolean depthClip, ::System::Boolean conservative)
+		::System::Void _ctor(::UnityEngine::Rendering::CullMode a1, ::System::Int32 a2, ::System::Single a3, ::System::Boolean a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CullMode, ::System::Int32, ::System::Single, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE__CTOR_OFFSET))(this, cullingMode, offsetUnits, offsetFactor, depthClip, conservative);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CullMode, ::System::Int32, ::System::Single, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		static ::System::Void _cctor()
@@ -54,9 +54,9 @@ namespace UnityEngine::Rendering
 			return ((::UnityEngine::Rendering::CullMode(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE_GET_CULLINGMODE_OFFSET))(this);
 		}
 
-		::System::Void set_cullingMode(::UnityEngine::Rendering::CullMode value)
+		::System::Void set_cullingMode(::UnityEngine::Rendering::CullMode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CullMode))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE_SET_CULLINGMODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CullMode))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE_SET_CULLINGMODE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_depthClip()
@@ -64,9 +64,9 @@ namespace UnityEngine::Rendering
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE_GET_DEPTHCLIP_OFFSET))(this);
 		}
 
-		::System::Void set_depthClip(::System::Boolean value)
+		::System::Void set_depthClip(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE_SET_DEPTHCLIP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE_SET_DEPTHCLIP_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_offsetUnits()
@@ -74,9 +74,9 @@ namespace UnityEngine::Rendering
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE_GET_OFFSETUNITS_OFFSET))(this);
 		}
 
-		::System::Void set_offsetUnits(::System::Int32 value)
+		::System::Void set_offsetUnits(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE_SET_OFFSETUNITS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE_SET_OFFSETUNITS_OFFSET))(this, a1);
 		}
 
 		::System::Single get_offsetFactor()
@@ -84,9 +84,9 @@ namespace UnityEngine::Rendering
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE_GET_OFFSETFACTOR_OFFSET))(this);
 		}
 
-		::System::Void set_offsetFactor(::System::Single value)
+		::System::Void set_offsetFactor(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE_SET_OFFSETFACTOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE_SET_OFFSETFACTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_conservative()
@@ -94,19 +94,19 @@ namespace UnityEngine::Rendering
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE_GET_CONSERVATIVE_OFFSET))(this);
 		}
 
-		::System::Void set_conservative(::System::Boolean value)
+		::System::Void set_conservative(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE_SET_CONSERVATIVE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE_SET_CONSERVATIVE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::UnityEngine::Rendering::RasterState other)
+		::System::Boolean Equals(::UnityEngine::Rendering::RasterState a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::RasterState))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::RasterState))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

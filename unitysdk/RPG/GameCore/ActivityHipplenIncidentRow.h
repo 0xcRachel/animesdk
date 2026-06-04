@@ -7,20 +7,20 @@ class Class_1_7A22A3DBEEDD1F80;
 class Class_1_B1429A4347DAE014;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENINCIDENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18880850)
-#define RPG_GAMECORE_ACTIVITYHIPPLENINCIDENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18880AE0)
+#define RPG_GAMECORE_ACTIVITYHIPPLENINCIDENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1952CE60)
+#define RPG_GAMECORE_ACTIVITYHIPPLENINCIDENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1952D0E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenIncidentRow_TypeDefinitionIndex = 11089;
+	inline static constexpr unsigned int ActivityHipplenIncidentRow_TypeDefinitionIndex = 11137;
 
 	class ActivityHipplenIncidentRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::Class_1_B1429A4347DAE014*>* EffectList; // 0x10
+		::Il2CppArray<::System::UInt32>* ExpectedBasicList; // 0x10
 		::Il2CppArray<::System::Single>* ExpectedRatioProbability; // 0x18
 		::System::String* PerformanceJsonConfigPath; // 0x20
-		::Il2CppArray<::System::UInt32>* ExpectedBasicList; // 0x28
+		::Il2CppArray<::Class_1_B1429A4347DAE014*>* EffectList; // 0x28
 		::System::UInt32 ID; // 0x30
 		::RPG::GameCore::HipplenIncidentType Type; // 0x34
 
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYHIPPLENINCIDENTROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ActivityHipplenIncidentRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActivityHipplenIncidentRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityHipplenIncidentRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYHIPPLENINCIDENTROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityHipplenIncidentRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYHIPPLENINCIDENTROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

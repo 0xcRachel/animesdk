@@ -4,38 +4,38 @@
 #include "unitysdk/RPG/GameCore/AdventureDyingStyle.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_945ACFB1FEBC7A2C_19;
-class Class_1_E7811A222424F15E;
+class Class_1_945ACFB1FEBC7A2C_20;
+class Class_1_A89E800BD673F128;
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_3F09352E937002CA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE0C42A0)
-#define CLASS_1_3F09352E937002CA_METHOD_1_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0xE0C4D10)
-#define CLASS_1_3F09352E937002CA_METHOD_1_365B3CE7026B1EB7_OFFSET UNITYSDK_OFFSET(0xE0C4CC0)
-#define CLASS_1_3F09352E937002CA_METHOD_1_5AFB710F0E3F0A8C_OFFSET UNITYSDK_OFFSET(0xE0C42F0)
-#define CLASS_1_3F09352E937002CA_METHOD_1_8B453125FE4AC604_OFFSET UNITYSDK_OFFSET(0xE0C4200)
-#define CLASS_1_3F09352E937002CA_METHOD_1_8D40C6F2FECAC292_OFFSET UNITYSDK_OFFSET(0xE0C4D70)
-#define CLASS_1_3F09352E937002CA_METHOD_1_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0xE0C4EB0)
-#define CLASS_1_3F09352E937002CA_TICK_OFFSET UNITYSDK_OFFSET(0xE0C5040)
-#define CLASS_1_3F09352E937002CA__CTOR_OFFSET UNITYSDK_OFFSET(0xE0C4290)
+#define CLASS_1_3F09352E937002CA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x143B7280)
+#define CLASS_1_3F09352E937002CA_METHOD_1_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0x143B7CE0)
+#define CLASS_1_3F09352E937002CA_METHOD_1_365B3CE7026B1EB7_OFFSET UNITYSDK_OFFSET(0x143B7C90)
+#define CLASS_1_3F09352E937002CA_METHOD_1_7B71EE8E4407BC43_OFFSET UNITYSDK_OFFSET(0x143B72D0)
+#define CLASS_1_3F09352E937002CA_METHOD_1_8B453125FE4AC604_OFFSET UNITYSDK_OFFSET(0x143B71E0)
+#define CLASS_1_3F09352E937002CA_METHOD_1_8D40C6F2FECAC292_OFFSET UNITYSDK_OFFSET(0x143B7D40)
+#define CLASS_1_3F09352E937002CA_METHOD_1_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0x143B7E80)
+#define CLASS_1_3F09352E937002CA_TICK_OFFSET UNITYSDK_OFFSET(0x143B8010)
+#define CLASS_1_3F09352E937002CA__CTOR_OFFSET UNITYSDK_OFFSET(0x143B7270)
 
-inline static constexpr unsigned int Class_1_3F09352E937002CA_TypeDefinitionIndex = 51504;
+inline static constexpr unsigned int Class_1_3F09352E937002CA_TypeDefinitionIndex = 52172;
 
 class Class_1_3F09352E937002CA : public ::System::Object
 {
 public:
 	// static const ::System::Single Field_1_0; // 0x0
 	// static const ::System::Single Field_1_1; // 0x0
-	::RPG::GameCore::GameEntity* Field_1_2; // 0x10
-	::Class_1_945ACFB1FEBC7A2C_19* Field_1_5; // 0x18
-	::RPG::GameCore::AdventureCharacterController* Field_1_3; // 0x20
-	::System::Single Field_1_7; // 0x28
-	::System::Single Field_1_4; // 0x2C
-	::System::Int32 Field_1_6; // 0x30
+	::Class_1_945ACFB1FEBC7A2C_20* Field_1_2; // 0x10
+	::RPG::GameCore::GameEntity* Field_1_3; // 0x18
+	::RPG::GameCore::AdventureCharacterController* Field_1_4; // 0x20
+	::System::Single Field_1_5; // 0x28
+	::System::Single Field_1_6; // 0x2C
+	::System::Int32 Field_1_7; // 0x30
 
-	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::AdventureCharacterController* a2, ::Class_1_E7811A222424F15E* a3)
+	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::AdventureCharacterController* a2, ::Class_1_A89E800BD673F128* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::AdventureCharacterController*, ::Class_1_E7811A222424F15E*))((::PBYTE)hIl2Cpp + CLASS_1_3F09352E937002CA__CTOR_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::AdventureCharacterController*, ::Class_1_A89E800BD673F128*))((::PBYTE)hIl2Cpp + CLASS_1_3F09352E937002CA__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
 	static ::System::Int32 Method_1_8B453125FE4AC604(::RPG::GameCore::AdventureDyingStyle a1)
@@ -48,9 +48,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3F09352E937002CA_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Method_1_5AFB710F0E3F0A8C(::System::Object* a1)
+	::System::Void Method_1_7B71EE8E4407BC43(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_3F09352E937002CA_METHOD_1_5AFB710F0E3F0A8C_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_3F09352E937002CA_METHOD_1_7B71EE8E4407BC43_OFFSET))(this, a1);
 	}
 
 	::RPG::GameCore::AdventureAnimStateType Method_1_365B3CE7026B1EB7()

@@ -7,20 +7,20 @@ namespace RPG::Client { class ElfFarmFieldData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ELFFIELD_INIT_OFFSET UNITYSDK_OFFSET(0x15F60E00)
-#define RPG_CLIENT_ELFFIELD_UNINIT_OFFSET UNITYSDK_OFFSET(0x15F61230)
-#define RPG_CLIENT_ELFFIELD_UPDATEFIELD_OFFSET UNITYSDK_OFFSET(0x15F610F0)
-#define RPG_CLIENT_ELFFIELD__CLEARCELLS_OFFSET UNITYSDK_OFFSET(0x15F6EB10)
-#define RPG_CLIENT_ELFFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x15F6F1F0)
-#define RPG_CLIENT_ELFFIELD__INITCELLS_OFFSET UNITYSDK_OFFSET(0x15F6E260)
-#define RPG_CLIENT_ELFFIELD__INITUNLOCKFIELD_OFFSET UNITYSDK_OFFSET(0x15F6E0C0)
-#define RPG_CLIENT_ELFFIELD__LOADPROPS_OFFSET UNITYSDK_OFFSET(0x15F6ED40)
-#define RPG_CLIENT_ELFFIELD__UPDATECELLS_OFFSET UNITYSDK_OFFSET(0x15F6E5B0)
-#define RPG_CLIENT_ELFFIELD__UPDATEUNLOCKFIELD_OFFSET UNITYSDK_OFFSET(0x15F6E410)
+#define RPG_CLIENT_ELFFIELD_INIT_OFFSET UNITYSDK_OFFSET(0x16C37D30)
+#define RPG_CLIENT_ELFFIELD_UNINIT_OFFSET UNITYSDK_OFFSET(0x16C380E0)
+#define RPG_CLIENT_ELFFIELD_UPDATEFIELD_OFFSET UNITYSDK_OFFSET(0x16C37FC0)
+#define RPG_CLIENT_ELFFIELD__CLEARCELLS_OFFSET UNITYSDK_OFFSET(0x16C463D0)
+#define RPG_CLIENT_ELFFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x16C46A90)
+#define RPG_CLIENT_ELFFIELD__INITCELLS_OFFSET UNITYSDK_OFFSET(0x16C45B20)
+#define RPG_CLIENT_ELFFIELD__INITUNLOCKFIELD_OFFSET UNITYSDK_OFFSET(0x16C45980)
+#define RPG_CLIENT_ELFFIELD__LOADPROPS_OFFSET UNITYSDK_OFFSET(0x16C465F0)
+#define RPG_CLIENT_ELFFIELD__UPDATECELLS_OFFSET UNITYSDK_OFFSET(0x16C45E80)
+#define RPG_CLIENT_ELFFIELD__UPDATEUNLOCKFIELD_OFFSET UNITYSDK_OFFSET(0x16C45CE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfField_TypeDefinitionIndex = 63326;
+	inline static constexpr unsigned int ElfField_TypeDefinitionIndex = 64243;
 
 	class ElfField : public ::UnityEngine::MonoBehaviour
 	{
@@ -38,14 +38,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFIELD__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Init(::RPG::Client::ElfFarmFieldData* data, ::UnityEngine::Transform* artField)
+		::System::Void Init(::RPG::Client::ElfFarmFieldData* a1, ::UnityEngine::Transform* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ElfFarmFieldData*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFIELD_INIT_OFFSET))(this, data, artField);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ElfFarmFieldData*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFIELD_INIT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void UpdateField(::UnityEngine::Transform* artField)
+		::System::Void UpdateField(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFIELD_UPDATEFIELD_OFFSET))(this, artField);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFIELD_UPDATEFIELD_OFFSET))(this, a1);
 		}
 
 		::System::Void UnInit()

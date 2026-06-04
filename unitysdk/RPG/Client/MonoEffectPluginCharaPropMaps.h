@@ -12,16 +12,16 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS_INIT_OFFSET UNITYSDK_OFFSET(0x165EDBD0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS_UNINIT_OFFSET UNITYSDK_OFFSET(0x165EDC70)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x165EDD10)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS__CTOR_OFFSET UNITYSDK_OFFSET(0x165EE0D0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x165EE0F0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS___IFIXBASEPROXY_UNINIT_OFFSET UNITYSDK_OFFSET(0x165EE100)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS_INIT_OFFSET UNITYSDK_OFFSET(0x15A2E260)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS_UNINIT_OFFSET UNITYSDK_OFFSET(0x15A2E300)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x15A2E3A0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS__CTOR_OFFSET UNITYSDK_OFFSET(0x15A2E770)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x15A2E790)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS___IFIXBASEPROXY_UNINIT_OFFSET UNITYSDK_OFFSET(0x15A2E7A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropMaps_TypeDefinitionIndex = 64500;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropMaps_TypeDefinitionIndex = 65421;
 
 	class MonoEffectPluginCharaPropMaps : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -56,9 +56,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS_UPDATEPROPERTY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_Init(::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>* P0, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* P1, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*& P2)
+		::System::Void __iFixBaseProxy_Init(::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>*, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS___IFIXBASEPROXY_INIT_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>*, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPMAPS___IFIXBASEPROXY_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void __iFixBaseProxy_UnInit()

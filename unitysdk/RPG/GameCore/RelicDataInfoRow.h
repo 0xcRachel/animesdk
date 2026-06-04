@@ -6,22 +6,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RELICDATAINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1901E1E0)
-#define RPG_GAMECORE_RELICDATAINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1901E9A0)
+#define RPG_GAMECORE_RELICDATAINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A2DD1B0)
+#define RPG_GAMECORE_RELICDATAINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2DD980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicDataInfoRow_TypeDefinitionIndex = 13848;
+	inline static constexpr unsigned int RelicDataInfoRow_TypeDefinitionIndex = 13915;
 
 	class RelicDataInfoRow : public ::System::Object
 	{
 	public:
 		::System::String* ItemBGDesc; // 0x10
-		::System::String* BGStoryTitle; // 0x18
+		::System::String* RelicName; // 0x18
 		::System::String* ItemFigureIconPath; // 0x20
-		::System::String* BGStoryContent; // 0x28
-		::System::String* IconPath; // 0x30
-		::System::String* RelicName; // 0x38
+		::System::String* IconPath; // 0x28
+		::System::String* BGStoryTitle; // 0x30
+		::System::String* BGStoryContent; // 0x38
 		::RPG::GameCore::RelicType Type; // 0x40
 		::System::UInt32 SetID; // 0x44
 
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELICDATAINFOROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RelicDataInfoRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RelicDataInfoRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RelicDataInfoRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELICDATAINFOROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RelicDataInfoRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELICDATAINFOROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

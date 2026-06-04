@@ -5,10 +5,10 @@
 
 namespace System::Net { class SocketAddress; }
 
-#define SYSTEM_NET_ENDPOINT_CREATE_OFFSET UNITYSDK_OFFSET(0x1769A620)
-#define SYSTEM_NET_ENDPOINT_GET_ADDRESSFAMILY_OFFSET UNITYSDK_OFFSET(0x1769A440)
-#define SYSTEM_NET_ENDPOINT_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1769A530)
-#define SYSTEM_NET_ENDPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1769A670)
+#define SYSTEM_NET_ENDPOINT_CREATE_OFFSET UNITYSDK_OFFSET(0x17CC9D50)
+#define SYSTEM_NET_ENDPOINT_GET_ADDRESSFAMILY_OFFSET UNITYSDK_OFFSET(0x17CC9B70)
+#define SYSTEM_NET_ENDPOINT_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x17CC9C60)
+#define SYSTEM_NET_ENDPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x17CC9DA0)
 
 namespace System::Net
 {
@@ -32,9 +32,9 @@ namespace System::Net
 			return ((::System::Net::SocketAddress*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINT_SERIALIZE_OFFSET))(this);
 		}
 
-		::System::Net::EndPoint* Create(::System::Net::SocketAddress* socketAddress)
+		::System::Net::EndPoint* Create(::System::Net::SocketAddress* a1)
 		{
-			return ((::System::Net::EndPoint*(*)(::PVOID, ::System::Net::SocketAddress*))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINT_CREATE_OFFSET))(this, socketAddress);
+			return ((::System::Net::EndPoint*(*)(::PVOID, ::System::Net::SocketAddress*))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINT_CREATE_OFFSET))(this, a1);
 		}
 	};
 }

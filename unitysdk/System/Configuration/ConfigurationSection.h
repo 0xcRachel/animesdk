@@ -6,10 +6,10 @@
 namespace System { class String; }
 namespace System::Xml { class XmlReader; }
 
-#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_DESERIALIZESECTION_OFFSET UNITYSDK_OFFSET(0x1A75A6A0)
-#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_ISMODIFIED_OFFSET UNITYSDK_OFFSET(0x1A75A6E0)
-#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_RESETMODIFIED_OFFSET UNITYSDK_OFFSET(0x1A75A720)
-#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_SERIALIZESECTION_OFFSET UNITYSDK_OFFSET(0x1A75A760)
+#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_DESERIALIZESECTION_OFFSET UNITYSDK_OFFSET(0x1B57F080)
+#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_ISMODIFIED_OFFSET UNITYSDK_OFFSET(0x1B57F0C0)
+#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_RESETMODIFIED_OFFSET UNITYSDK_OFFSET(0x1B57F100)
+#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_SERIALIZESECTION_OFFSET UNITYSDK_OFFSET(0x1B57F140)
 
 namespace System::Configuration
 {
@@ -18,9 +18,9 @@ namespace System::Configuration
 	class ConfigurationSection : public ::System::Configuration::ConfigurationElement
 	{
 	public:
-		::System::Void DeserializeSection(::System::Xml::XmlReader* reader)
+		::System::Void DeserializeSection(::System::Xml::XmlReader* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlReader*))((::PBYTE)hIl2Cpp + SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_DESERIALIZESECTION_OFFSET))(this, reader);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlReader*))((::PBYTE)hIl2Cpp + SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_DESERIALIZESECTION_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsModified()
@@ -33,9 +33,9 @@ namespace System::Configuration
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_RESETMODIFIED_OFFSET))(this);
 		}
 
-		::System::String* SerializeSection(::System::Configuration::ConfigurationElement* parentElement, ::System::String* name, ::System::Configuration::ConfigurationSaveMode saveMode)
+		::System::String* SerializeSection(::System::Configuration::ConfigurationElement* a1, ::System::String* a2, ::System::Configuration::ConfigurationSaveMode a3)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Configuration::ConfigurationElement*, ::System::String*, ::System::Configuration::ConfigurationSaveMode))((::PBYTE)hIl2Cpp + SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_SERIALIZESECTION_OFFSET))(this, parentElement, name, saveMode);
+			return ((::System::String*(*)(::PVOID, ::System::Configuration::ConfigurationElement*, ::System::String*, ::System::Configuration::ConfigurationSaveMode))((::PBYTE)hIl2Cpp + SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_SERIALIZESECTION_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

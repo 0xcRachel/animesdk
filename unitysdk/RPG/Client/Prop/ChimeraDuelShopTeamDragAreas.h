@@ -5,14 +5,14 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPTEAMDRAGAREAS_DRAGMOVE_OFFSET UNITYSDK_OFFSET(0x14FD4410)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPTEAMDRAGAREAS_SETSTALLAREADISABLED_OFFSET UNITYSDK_OFFSET(0x14FD4AE0)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPTEAMDRAGAREAS__CTOR_OFFSET UNITYSDK_OFFSET(0x14FD4B30)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPTEAMDRAGAREAS__ISINSTALLDRAGAREA_OFFSET UNITYSDK_OFFSET(0x14FD4940)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPTEAMDRAGAREAS_DRAGMOVE_OFFSET UNITYSDK_OFFSET(0x17098A20)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPTEAMDRAGAREAS_SETSTALLAREADISABLED_OFFSET UNITYSDK_OFFSET(0x17099120)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPTEAMDRAGAREAS__CTOR_OFFSET UNITYSDK_OFFSET(0x17099170)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPTEAMDRAGAREAS__ISINSTALLDRAGAREA_OFFSET UNITYSDK_OFFSET(0x17098F80)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelShopTeamDragAreas_TypeDefinitionIndex = 71837;
+	inline static constexpr unsigned int ChimeraDuelShopTeamDragAreas_TypeDefinitionIndex = 72859;
 
 	class ChimeraDuelShopTeamDragAreas : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,19 +26,19 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPTEAMDRAGAREAS__CTOR_OFFSET))(this);
 		}
 
-		::System::Void DragMove(::UnityEngine::Vector2 screenPoint, ::UnityEngine::Vector2& clampedScreenPoint, ::System::Boolean& isInStallDragArea)
+		::System::Void DragMove(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2& a2, ::System::Boolean& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2&, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPTEAMDRAGAREAS_DRAGMOVE_OFFSET))(this, screenPoint, clampedScreenPoint, isInStallDragArea);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2&, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPTEAMDRAGAREAS_DRAGMOVE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean _IsInStallDragArea(::UnityEngine::Vector2 screenPoint)
+		::System::Boolean _IsInStallDragArea(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPTEAMDRAGAREAS__ISINSTALLDRAGAREA_OFFSET))(this, screenPoint);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPTEAMDRAGAREAS__ISINSTALLDRAGAREA_OFFSET))(this, a1);
 		}
 
-		::System::Void SetStallAreaDisabled(::System::Boolean disabled)
+		::System::Void SetStallAreaDisabled(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPTEAMDRAGAREAS_SETSTALLAREADISABLED_OFFSET))(this, disabled);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPTEAMDRAGAREAS_SETSTALLAREADISABLED_OFFSET))(this, a1);
 		}
 	};
 }

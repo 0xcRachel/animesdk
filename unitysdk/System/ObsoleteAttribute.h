@@ -4,14 +4,14 @@
 
 namespace System { class String; }
 
-#define SYSTEM_OBSOLETEATTRIBUTE_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x19041A10)
-#define SYSTEM_OBSOLETEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x190419F0)
-#define SYSTEM_OBSOLETEATTRIBUTE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x19041A00)
-#define SYSTEM_OBSOLETEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x190419E0)
+#define SYSTEM_OBSOLETEATTRIBUTE_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x197A5710)
+#define SYSTEM_OBSOLETEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x197A56F0)
+#define SYSTEM_OBSOLETEATTRIBUTE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x197A5700)
+#define SYSTEM_OBSOLETEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x197A56E0)
 
 namespace System
 {
-	inline static constexpr unsigned int ObsoleteAttribute_TypeDefinitionIndex = 308;
+	inline static constexpr unsigned int ObsoleteAttribute_TypeDefinitionIndex = 307;
 
 	class ObsoleteAttribute : public ::System::Attribute
 	{
@@ -24,14 +24,14 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_OBSOLETEATTRIBUTE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* message)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_OBSOLETEATTRIBUTE__CTOR_1_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_OBSOLETEATTRIBUTE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::String* message, ::System::Boolean error)
+		::System::Void _ctor_2(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_OBSOLETEATTRIBUTE__CTOR_2_OFFSET))(this, message, error);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_OBSOLETEATTRIBUTE__CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_Message()

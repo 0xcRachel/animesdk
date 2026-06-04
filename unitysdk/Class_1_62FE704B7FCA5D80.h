@@ -6,24 +6,24 @@ namespace RPG::GameCore { class ModifierBehaviorVisual; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_62FE704B7FCA5D80_METHOD_1_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xC5DF6B0)
-#define CLASS_1_62FE704B7FCA5D80_METHOD_1_23191EDF2C3906CA_OFFSET UNITYSDK_OFFSET(0xC5DF120)
-#define CLASS_1_62FE704B7FCA5D80_METHOD_1_376ED8B0B7D6A86D_OFFSET UNITYSDK_OFFSET(0xC5DF240)
-#define CLASS_1_62FE704B7FCA5D80_METHOD_1_D1669592F0E0A83D_OFFSET UNITYSDK_OFFSET(0xC5DF790)
-#define CLASS_1_62FE704B7FCA5D80__CCTOR_OFFSET UNITYSDK_OFFSET(0xC5DF8F0)
-#define CLASS_1_62FE704B7FCA5D80__CTOR_OFFSET UNITYSDK_OFFSET(0xC5DF850)
+#define CLASS_1_62FE704B7FCA5D80_METHOD_1_0450332D67FC368F_OFFSET UNITYSDK_OFFSET(0x169F68B0)
+#define CLASS_1_62FE704B7FCA5D80_METHOD_1_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x169F67F0)
+#define CLASS_1_62FE704B7FCA5D80_METHOD_1_376ED8B0B7D6A86D_OFFSET UNITYSDK_OFFSET(0x169F6380)
+#define CLASS_1_62FE704B7FCA5D80_METHOD_1_550C40A4BFA54C1C_OFFSET UNITYSDK_OFFSET(0x169F6250)
+#define CLASS_1_62FE704B7FCA5D80__CCTOR_OFFSET UNITYSDK_OFFSET(0x169F6A20)
+#define CLASS_1_62FE704B7FCA5D80__CTOR_OFFSET UNITYSDK_OFFSET(0x169F6970)
 
-inline static constexpr unsigned int Class_1_62FE704B7FCA5D80_TypeDefinitionIndex = 50207;
+inline static constexpr unsigned int Class_1_62FE704B7FCA5D80_TypeDefinitionIndex = 50873;
 
 class Class_1_62FE704B7FCA5D80 : public ::System::Object
 {
 public:
 	static ::Class_1_62FE704B7FCA5D80** StaticGet_Field_1_0()
 	{
-		return (::Class_1_62FE704B7FCA5D80**)Il2CppClass::FromTypeDefinitionIndex(Class_1_62FE704B7FCA5D80_TypeDefinitionIndex)->GetStaticField(0x5E020);
+		return (::Class_1_62FE704B7FCA5D80**)Il2CppClass::FromTypeDefinitionIndex(Class_1_62FE704B7FCA5D80_TypeDefinitionIndex)->GetStaticField(0x1F00);
 	}
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* Field_1_2; // 0x10
-	::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorVisual*>* Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorVisual*>* Field_1_1; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* Field_1_2; // 0x18
 
 	::System::Void _ctor()
 	{
@@ -35,19 +35,19 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_62FE704B7FCA5D80__CCTOR_OFFSET))();
 	}
 
-	::System::Void Method_1_23191EDF2C3906CA(::Il2CppArray<::RPG::GameCore::ModifierBehaviorVisual*>* a1)
+	::System::Void Method_1_550C40A4BFA54C1C(::Il2CppArray<::RPG::GameCore::ModifierBehaviorVisual*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::ModifierBehaviorVisual*>*))((::PBYTE)hIl2Cpp + CLASS_1_62FE704B7FCA5D80_METHOD_1_23191EDF2C3906CA_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::ModifierBehaviorVisual*>*))((::PBYTE)hIl2Cpp + CLASS_1_62FE704B7FCA5D80_METHOD_1_550C40A4BFA54C1C_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_1290EA767C459179()
+	::System::Void Method_1_151E25A63D14DDB0()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_62FE704B7FCA5D80_METHOD_1_1290EA767C459179_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_62FE704B7FCA5D80_METHOD_1_151E25A63D14DDB0_OFFSET))(this);
 	}
 
-	::RPG::GameCore::ModifierBehaviorVisual* Method_1_D1669592F0E0A83D(::System::Int32 a1)
+	::RPG::GameCore::ModifierBehaviorVisual* Method_1_0450332D67FC368F(::System::Int32 a1)
 	{
-		return ((::RPG::GameCore::ModifierBehaviorVisual*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_62FE704B7FCA5D80_METHOD_1_D1669592F0E0A83D_OFFSET))(this, a1);
+		return ((::RPG::GameCore::ModifierBehaviorVisual*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_62FE704B7FCA5D80_METHOD_1_0450332D67FC368F_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_376ED8B0B7D6A86D(::RPG::GameCore::ModifierBehaviorVisual* a1, ::System::Int32 a2, ::System::Int32 a3)

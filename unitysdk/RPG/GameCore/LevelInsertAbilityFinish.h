@@ -1,41 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-class Class_1_E3A8B05AA1BBEE81;
+class Class_1_1CB8CBC69B962B41;
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_CLEAR_OFFSET UNITYSDK_OFFSET(0x192078E0)
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x192079B0)
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19207960)
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_INIT_OFFSET UNITYSDK_OFFSET(0x192077E0)
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x19207A00)
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x19207A40)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_CLEAR_OFFSET UNITYSDK_OFFSET(0x19B73D70)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19B73E40)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19B73DF0)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_INIT_OFFSET UNITYSDK_OFFSET(0x19B73C70)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x19B73E90)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x19B73ED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelInsertAbilityFinish_TypeDefinitionIndex = 52381;
+	inline static constexpr unsigned int LevelInsertAbilityFinish_TypeDefinitionIndex = 53078;
 
-	class LevelInsertAbilityFinish : public ::Class_1_9988289E7F8AA214
+	class LevelInsertAbilityFinish : public ::Class_1_BF7A075734D15E98
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* TargetList; // 0x18
-		::System::String* InsertAbilityName; // 0x20
-		::RPG::GameCore::GameEntity* CasterEntity; // 0x28
-		::System::Boolean Silence; // 0x30
-		::System::Boolean ShowInActionBar; // 0x31
+		::System::String* InsertAbilityName; // 0x18
+		::RPG::GameCore::GameEntity* CasterEntity; // 0x20
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* TargetList; // 0x28
+		::System::Boolean ShowInActionBar; // 0x30
+		::System::Boolean Silence; // 0x31
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELINSERTABILITYFINISH__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelInsertAbilityFinish* Init(::Class_1_E3A8B05AA1BBEE81* pInstance, ::System::Boolean silence)
+		::RPG::GameCore::LevelInsertAbilityFinish* Init(::Class_1_1CB8CBC69B962B41* a1, ::System::Boolean a2)
 		{
-			return ((::RPG::GameCore::LevelInsertAbilityFinish*(*)(::PVOID, ::Class_1_E3A8B05AA1BBEE81*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELINSERTABILITYFINISH_INIT_OFFSET))(this, pInstance, silence);
+			return ((::RPG::GameCore::LevelInsertAbilityFinish*(*)(::PVOID, ::Class_1_1CB8CBC69B962B41*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELINSERTABILITYFINISH_INIT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Clear()

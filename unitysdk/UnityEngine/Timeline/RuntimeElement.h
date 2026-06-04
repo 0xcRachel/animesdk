@@ -3,14 +3,14 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 
-#define UNITYENGINE_TIMELINE_RUNTIMEELEMENT_GET_INTERVALBIT_OFFSET UNITYSDK_OFFSET(0x18AA1950)
-#define UNITYENGINE_TIMELINE_RUNTIMEELEMENT_RESET_OFFSET UNITYSDK_OFFSET(0x18AA1970)
-#define UNITYENGINE_TIMELINE_RUNTIMEELEMENT_SET_INTERVALBIT_OFFSET UNITYSDK_OFFSET(0x18AA1960)
-#define UNITYENGINE_TIMELINE_RUNTIMEELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18A9DB80)
+#define UNITYENGINE_TIMELINE_RUNTIMEELEMENT_GET_INTERVALBIT_OFFSET UNITYSDK_OFFSET(0x18B9F350)
+#define UNITYENGINE_TIMELINE_RUNTIMEELEMENT_RESET_OFFSET UNITYSDK_OFFSET(0x18B9F370)
+#define UNITYENGINE_TIMELINE_RUNTIMEELEMENT_SET_INTERVALBIT_OFFSET UNITYSDK_OFFSET(0x18B9F360)
+#define UNITYENGINE_TIMELINE_RUNTIMEELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18B9B170)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int RuntimeElement_TypeDefinitionIndex = 35586;
+	inline static constexpr unsigned int RuntimeElement_TypeDefinitionIndex = 35886;
 
 	class RuntimeElement : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace UnityEngine::Timeline
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_RUNTIMEELEMENT_GET_INTERVALBIT_OFFSET))(this);
 		}
 
-		::System::Void set_intervalBit(::System::Int32 value)
+		::System::Void set_intervalBit(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_RUNTIMEELEMENT_SET_INTERVALBIT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_RUNTIMEELEMENT_SET_INTERVALBIT_OFFSET))(this, a1);
 		}
 
 		::System::Void Reset()

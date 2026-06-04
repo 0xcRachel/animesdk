@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PLANETFESAVATARLINKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xF6EFB90)
+#define RPG_CLIENT_PLANETFESAVATARLINKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18D17EB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesAvatarLinkEvent_TypeDefinitionIndex = 61381;
+	inline static constexpr unsigned int PlanetFesAvatarLinkEvent_TypeDefinitionIndex = 62305;
 
 	class PlanetFesAvatarLinkEvent : public ::System::Object
 	{

@@ -8,31 +8,31 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Formats::Alembic::Importer { class AlembicElement; }
 namespace UnityEngine::Formats::Alembic::Importer { class AlembicStream; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18C05280)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_FINDNODE_OFFSET UNITYSDK_OFFSET(0x18C08D10)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_GET_ABCOBJECT_OFFSET UNITYSDK_OFFSET(0x18C09E00)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0x18C09E20)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x18C09DE0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_GET_STREAM_OFFSET UNITYSDK_OFFSET(0x18C09DC0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_REMOVEALEMBICOBJECT_OFFSET UNITYSDK_OFFSET(0x18BFB880)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_RESETTREE_OFFSET UNITYSDK_OFFSET(0x18C09E30)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_SET_ABCOBJECT_OFFSET UNITYSDK_OFFSET(0x18C09E10)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_SET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x18C09DF0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_SET_STREAM_OFFSET UNITYSDK_OFFSET(0x18C09DD0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_VISITRECURSIVELY_OFFSET UNITYSDK_OFFSET(0x18C09FF0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x18C03A50)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1972D0E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_FINDNODE_OFFSET UNITYSDK_OFFSET(0x19730B70)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_GET_ABCOBJECT_OFFSET UNITYSDK_OFFSET(0x19731C00)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0x19731C20)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x19731BE0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_GET_STREAM_OFFSET UNITYSDK_OFFSET(0x19731BC0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_REMOVEALEMBICOBJECT_OFFSET UNITYSDK_OFFSET(0x19723100)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_RESETTREE_OFFSET UNITYSDK_OFFSET(0x19731C30)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_SET_ABCOBJECT_OFFSET UNITYSDK_OFFSET(0x19731C10)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_SET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x19731BF0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_SET_STREAM_OFFSET UNITYSDK_OFFSET(0x19731BD0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_VISITRECURSIVELY_OFFSET UNITYSDK_OFFSET(0x19731E00)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1972B8C0)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicTreeNode_TypeDefinitionIndex = 40867;
+	inline static constexpr unsigned int AlembicTreeNode_TypeDefinitionIndex = 41693;
 
 	class AlembicTreeNode : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* _gameObject_k__BackingField; // 0x10
+		::UnityEngine::Formats::Alembic::Importer::AlembicStream* _stream_k__BackingField; // 0x10
 		::System::Collections::Generic::List_1<::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode*>* children; // 0x18
-		::UnityEngine::Formats::Alembic::Importer::AlembicStream* _stream_k__BackingField; // 0x20
-		::UnityEngine::Formats::Alembic::Importer::AlembicElement* _abcObject_k__BackingField; // 0x28
+		::UnityEngine::Formats::Alembic::Importer::AlembicElement* _abcObject_k__BackingField; // 0x20
+		::UnityEngine::GameObject* _gameObject_k__BackingField; // 0x28
 
 		::System::Void _ctor()
 		{
@@ -44,9 +44,9 @@ namespace UnityEngine::Formats::Alembic::Importer
 			return ((::UnityEngine::Formats::Alembic::Importer::AlembicStream*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_GET_STREAM_OFFSET))(this);
 		}
 
-		::System::Void set_stream(::UnityEngine::Formats::Alembic::Importer::AlembicStream* value)
+		::System::Void set_stream(::UnityEngine::Formats::Alembic::Importer::AlembicStream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicStream*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_SET_STREAM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicStream*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_SET_STREAM_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::GameObject* get_gameObject()
@@ -54,9 +54,9 @@ namespace UnityEngine::Formats::Alembic::Importer
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_GET_GAMEOBJECT_OFFSET))(this);
 		}
 
-		::System::Void set_gameObject(::UnityEngine::GameObject* value)
+		::System::Void set_gameObject(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_SET_GAMEOBJECT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_SET_GAMEOBJECT_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Importer::AlembicElement* get_abcObject()
@@ -64,9 +64,9 @@ namespace UnityEngine::Formats::Alembic::Importer
 			return ((::UnityEngine::Formats::Alembic::Importer::AlembicElement*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_GET_ABCOBJECT_OFFSET))(this);
 		}
 
-		::System::Void set_abcObject(::UnityEngine::Formats::Alembic::Importer::AlembicElement* value)
+		::System::Void set_abcObject(::UnityEngine::Formats::Alembic::Importer::AlembicElement* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicElement*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_SET_ABCOBJECT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicElement*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_SET_ABCOBJECT_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode*>* get_Children()
@@ -84,19 +84,19 @@ namespace UnityEngine::Formats::Alembic::Importer
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_RESETTREE_OFFSET))(this);
 		}
 
-		::System::Void RemoveAlembicObject(::UnityEngine::Formats::Alembic::Importer::AlembicElement* obj)
+		::System::Void RemoveAlembicObject(::UnityEngine::Formats::Alembic::Importer::AlembicElement* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicElement*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_REMOVEALEMBICOBJECT_OFFSET))(this, obj);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicElement*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_REMOVEALEMBICOBJECT_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode* FindNode(::UnityEngine::GameObject* go)
+		::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode* FindNode(::UnityEngine::GameObject* a1)
 		{
-			return ((::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_FINDNODE_OFFSET))(this, go);
+			return ((::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_FINDNODE_OFFSET))(this, a1);
 		}
 
-		::System::Void VisitRecursively(::System::Action_1<::UnityEngine::Formats::Alembic::Importer::AlembicElement*>* cb)
+		::System::Void VisitRecursively(::System::Action_1<::UnityEngine::Formats::Alembic::Importer::AlembicElement*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Formats::Alembic::Importer::AlembicElement*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_VISITRECURSIVELY_OFFSET))(this, cb);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Formats::Alembic::Importer::AlembicElement*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICTREENODE_VISITRECURSIVELY_OFFSET))(this, a1);
 		}
 	};
 }

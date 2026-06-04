@@ -6,33 +6,33 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIGHTFESTSCOREPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D17720)
-#define RPG_GAMECORE_FIGHTFESTSCOREPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D17A50)
+#define RPG_GAMECORE_FIGHTFESTSCOREPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A4171F0)
+#define RPG_GAMECORE_FIGHTFESTSCOREPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A417520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FightFestScorePhaseRow_TypeDefinitionIndex = 12550;
+	inline static constexpr unsigned int FightFestScorePhaseRow_TypeDefinitionIndex = 12643;
 
 	class FightFestScorePhaseRow : public ::System::Object
 	{
 	public:
 		::System::String* TargetAvatarIcon; // 0x10
 		::System::String* TargetAvatarMiniIcon; // 0x18
-		::System::UInt32 AvatarInfoID; // 0x20
-		::System::UInt32 RewardID; // 0x24
-		::System::UInt32 TargetScore; // 0x28
-		::System::UInt32 PhaseID; // 0x2C
+		::RPG::Client::TextID TargetAvatarName; // 0x20
 		::RPG::Client::TextID TargetTip; // 0x30
-		::RPG::Client::TextID TargetAvatarName; // 0x40
+		::System::UInt32 AvatarInfoID; // 0x40
+		::System::UInt32 TargetScore; // 0x44
+		::System::UInt32 RewardID; // 0x48
+		::System::UInt32 PhaseID; // 0x4C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIGHTFESTSCOREPHASEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::FightFestScorePhaseRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FightFestScorePhaseRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FightFestScorePhaseRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIGHTFESTSCOREPHASEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FightFestScorePhaseRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIGHTFESTSCOREPHASEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

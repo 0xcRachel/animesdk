@@ -10,40 +10,40 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Coroutine; }
 
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_CLOSEDIALOG_OFFSET UNITYSDK_OFFSET(0x161BBB50)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_CREATEACTIONTICKETBYTOKEN_OFFSET UNITYSDK_OFFSET(0x161BCA00)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_GETACTIONTICKETINFO_OFFSET UNITYSDK_OFFSET(0x161BCDF0)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_GETBINDINGWEBURL_OFFSET UNITYSDK_OFFSET(0x161BC4D0)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_GETSHOWDATECACHEKEY_OFFSET UNITYSDK_OFFSET(0x161BBEB0)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x161BB090)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_ISREACHEDINTERVALDAYS_OFFSET UNITYSDK_OFFSET(0x161BBFE0)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_LOADSHOWDATE_OFFSET UNITYSDK_OFFSET(0x161BC430)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_LOGREPORT_OFFSET UNITYSDK_OFFSET(0x161BB280)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_QUERYWEBBINDINGRESULT_OFFSET UNITYSDK_OFFSET(0x161BCD80)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_SAVESHOWDATE_OFFSET UNITYSDK_OFFSET(0x161BB910)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_SHOWBINDINGDIALOG_OFFSET UNITYSDK_OFFSET(0x161BB540)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_SHOWBINDSUCCESSDIALOG_OFFSET UNITYSDK_OFFSET(0x161BCFF0)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_STARTWEBBINDINGRESULTQUERYLOOP_OFFSET UNITYSDK_OFFSET(0x161BC870)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_STOPWEBBINDINGRESULTQUERYLOOP_OFFSET UNITYSDK_OFFSET(0x161BBDE0)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_UPDATEQRCODE_OFFSET UNITYSDK_OFFSET(0x161BBA30)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS__CTOR_OFFSET UNITYSDK_OFFSET(0x161BB110)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS__QUERYWEBBINDINGRESULT_B__29_0_OFFSET UNITYSDK_OFFSET(0x161BD670)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS__SHOWBINDINGDIALOG_B__19_0_OFFSET UNITYSDK_OFFSET(0x161BD180)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS__SHOWBINDINGDIALOG_B__19_1_OFFSET UNITYSDK_OFFSET(0x161BD2A0)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS__SHOWBINDINGDIALOG_B__19_2_OFFSET UNITYSDK_OFFSET(0x161BD330)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS__SHOWBINDSUCCESSDIALOG_B__30_0_OFFSET UNITYSDK_OFFSET(0x161BDDB0)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS__UPDATEQRCODE_B__28_0_OFFSET UNITYSDK_OFFSET(0x161BD360)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_CLOSEDIALOG_OFFSET UNITYSDK_OFFSET(0x17267F60)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_CREATEACTIONTICKETBYTOKEN_OFFSET UNITYSDK_OFFSET(0x17268C70)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_GETACTIONTICKETINFO_OFFSET UNITYSDK_OFFSET(0x17269090)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_GETBINDINGWEBURL_OFFSET UNITYSDK_OFFSET(0x172687F0)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_GETSHOWDATECACHEKEY_OFFSET UNITYSDK_OFFSET(0x17268210)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x172674B0)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_ISREACHEDINTERVALDAYS_OFFSET UNITYSDK_OFFSET(0x17268340)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_LOADSHOWDATE_OFFSET UNITYSDK_OFFSET(0x17268750)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_LOGREPORT_OFFSET UNITYSDK_OFFSET(0x172676A0)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_QUERYWEBBINDINGRESULT_OFFSET UNITYSDK_OFFSET(0x17268FF0)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_SAVESHOWDATE_OFFSET UNITYSDK_OFFSET(0x17267D30)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_SHOWBINDINGDIALOG_OFFSET UNITYSDK_OFFSET(0x17267960)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_SHOWBINDSUCCESSDIALOG_OFFSET UNITYSDK_OFFSET(0x17269290)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_STARTWEBBINDINGRESULTQUERYLOOP_OFFSET UNITYSDK_OFFSET(0x17268AF0)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_STOPWEBBINDINGRESULTQUERYLOOP_OFFSET UNITYSDK_OFFSET(0x17268160)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_UPDATEQRCODE_OFFSET UNITYSDK_OFFSET(0x17267E50)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS__CTOR_OFFSET UNITYSDK_OFFSET(0x17267530)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS__QUERYWEBBINDINGRESULT_B__29_0_OFFSET UNITYSDK_OFFSET(0x17269940)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS__SHOWBINDINGDIALOG_B__19_0_OFFSET UNITYSDK_OFFSET(0x17269440)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS__SHOWBINDINGDIALOG_B__19_1_OFFSET UNITYSDK_OFFSET(0x17269550)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS__SHOWBINDINGDIALOG_B__19_2_OFFSET UNITYSDK_OFFSET(0x172695F0)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS__SHOWBINDSUCCESSDIALOG_B__30_0_OFFSET UNITYSDK_OFFSET(0x1726A030)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS__UPDATEQRCODE_B__28_0_OFFSET UNITYSDK_OFFSET(0x17269630)
 
 namespace MiHoYo::SDK::Console::CN
 {
-	inline static constexpr unsigned int BindMobileManagerPS_TypeDefinitionIndex = 7861;
+	inline static constexpr unsigned int BindMobileManagerPS_TypeDefinitionIndex = 8764;
 
 	class BindMobileManagerPS : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Console::CN::BindMobileManagerPS** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::Console::CN::BindMobileManagerPS**)Il2CppClass::FromTypeDefinitionIndex(BindMobileManagerPS_TypeDefinitionIndex)->GetStaticField(0x9C00);
+			return (::MiHoYo::SDK::Console::CN::BindMobileManagerPS**)Il2CppClass::FromTypeDefinitionIndex(BindMobileManagerPS_TypeDefinitionIndex)->GetStaticField(0xE490);
 		}
 		// static const ::System::String* ACTION_TYPE_BINDTICKET; // 0x0
 		// static const ::System::String* VERIFY_STATUS_VERIFIED; // 0x0
@@ -51,13 +51,13 @@ namespace MiHoYo::SDK::Console::CN
 		// static const ::System::Int32 ACTION_TICKET_EXPIRED = 0xFFFFF445; // 0x0
 		// static const ::System::Int32 WEB_BINDING_RESULT_QUERY_INTERVAL_SEC = 0x2; // 0x0
 		::UnityEngine::Coroutine* WebBindResultQueryRoutine; // 0x10
-		::System::String* WebTicket; // 0x18
-		::System::Action* OnBindingCompleted; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* Headers; // 0x28
-		::System::String* AccountMid; // 0x30
-		::System::String* AccountToken; // 0x38
-		::System::Action* OnCancelBinding; // 0x40
-		::System::String* Platform; // 0x48
+		::System::String* Platform; // 0x18
+		::System::String* AccountMid; // 0x20
+		::System::Action* OnBindingCompleted; // 0x28
+		::System::Action* OnCancelBinding; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* Headers; // 0x38
+		::System::String* WebTicket; // 0x40
+		::System::String* AccountToken; // 0x48
 		::System::Int32 TokenType; // 0x50
 
 		::System::Void _ctor()
@@ -70,14 +70,14 @@ namespace MiHoYo::SDK::Console::CN
 			return ((::MiHoYo::SDK::Console::CN::BindMobileManagerPS*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_GET_INSTANCE_OFFSET))();
 		}
 
-		::System::Void LogReport(::System::String* msg, ::System::Int32 code)
+		::System::Void LogReport(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_LOGREPORT_OFFSET))(this, msg, code);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_LOGREPORT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ShowBindingDialog(::System::String* mid, ::System::String* token, ::System::Int32 type, ::System::String* name)
+		::System::Void ShowBindingDialog(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_SHOWBINDINGDIALOG_OFFSET))(this, mid, token, type, name);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_SHOWBINDINGDIALOG_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void CloseDialog()
@@ -130,19 +130,19 @@ namespace MiHoYo::SDK::Console::CN
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_QUERYWEBBINDINGRESULT_OFFSET))(this);
 		}
 
-		::System::Void ShowBindSuccessDialog(::System::String* psAccount, ::System::String* hoyoAccount)
+		::System::Void ShowBindSuccessDialog(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_SHOWBINDSUCCESSDIALOG_OFFSET))(this, psAccount, hoyoAccount);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_SHOWBINDSUCCESSDIALOG_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CreateActionTicketByToken(::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback)
+		::System::Void CreateActionTicketByToken(::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_CREATEACTIONTICKETBYTOKEN_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_CREATEACTIONTICKETBYTOKEN_OFFSET))(this, a1);
 		}
 
-		::System::Void GetActionTicketInfo(::System::String* actionTicket, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback)
+		::System::Void GetActionTicketInfo(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_GETACTIONTICKETINFO_OFFSET))(this, actionTicket, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS_GETACTIONTICKETINFO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ShowBindingDialog_b__19_0()
@@ -160,14 +160,14 @@ namespace MiHoYo::SDK::Console::CN
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS__SHOWBINDINGDIALOG_B__19_2_OFFSET))(this);
 		}
 
-		::System::Void _UpdateQRCode_b__28_0(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void _UpdateQRCode_b__28_0(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS__UPDATEQRCODE_B__28_0_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS__UPDATEQRCODE_B__28_0_OFFSET))(this, a1);
 		}
 
-		::System::Void _QueryWebBindingResult_b__29_0(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void _QueryWebBindingResult_b__29_0(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS__QUERYWEBBINDINGRESULT_B__29_0_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CN_BINDMOBILEMANAGERPS__QUERYWEBBINDINGRESULT_B__29_0_OFFSET))(this, a1);
 		}
 
 		::System::Void _ShowBindSuccessDialog_b__30_0()

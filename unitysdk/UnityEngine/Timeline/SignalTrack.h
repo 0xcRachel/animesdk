@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/MarkerTrack.h"
 
-#define UNITYENGINE_TIMELINE_SIGNALTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18AA3450)
+#define UNITYENGINE_TIMELINE_SIGNALTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18BA1140)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int SignalTrack_TypeDefinitionIndex = 35593;
+	inline static constexpr unsigned int SignalTrack_TypeDefinitionIndex = 35893;
 
 	class SignalTrack : public ::UnityEngine::Timeline::MarkerTrack
 	{

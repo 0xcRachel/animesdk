@@ -5,15 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VE_RTSKILLPROPERTY_METHOD_3_90363B0E90DF2CEA_OFFSET UNITYSDK_OFFSET(0x1951CF70)
-#define RPG_GAMECORE_VE_RTSKILLPROPERTY_METHOD_3_F714C8AA35A86937_OFFSET UNITYSDK_OFFSET(0x1951CFB0)
-#define RPG_GAMECORE_VE_RTSKILLPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1951CFA0)
+#define RPG_GAMECORE_VE_RTSKILLPROPERTY_METHOD_3_921C8603D092D850_OFFSET UNITYSDK_OFFSET(0x19A77340)
+#define RPG_GAMECORE_VE_RTSKILLPROPERTY_METHOD_3_A16ECDCA731A6571_OFFSET UNITYSDK_OFFSET(0x19A77300)
+#define RPG_GAMECORE_VE_RTSKILLPROPERTY_METHOD_3_A7196DB1B7411B41_OFFSET UNITYSDK_OFFSET(0x19A77550)
+#define RPG_GAMECORE_VE_RTSKILLPROPERTY_METHOD_3_DC7112964EE86D3F_OFFSET UNITYSDK_OFFSET(0x19A77580)
+#define RPG_GAMECORE_VE_RTSKILLPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x19A77330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VE_RtSkillProperty_TypeDefinitionIndex = 23283;
+	inline static constexpr unsigned int VE_RtSkillProperty_TypeDefinitionIndex = 22950;
 
 	class VE_RtSkillProperty : public ::RPG::GameCore::ValueEvaluatorConfig
 	{
@@ -27,14 +30,24 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTSKILLPROPERTY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_90363B0E90DF2CEA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_RtSkillProperty*& a2)
+		static ::System::Void Method_3_A16ECDCA731A6571(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_RtSkillProperty*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_RtSkillProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTSKILLPROPERTY_METHOD_3_90363B0E90DF2CEA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_RtSkillProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTSKILLPROPERTY_METHOD_3_A16ECDCA731A6571_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F714C8AA35A86937(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_RtSkillProperty* a2)
+		static ::System::Void Method_3_921C8603D092D850(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_RtSkillProperty* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_RtSkillProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTSKILLPROPERTY_METHOD_3_F714C8AA35A86937_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_RtSkillProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTSKILLPROPERTY_METHOD_3_921C8603D092D850_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_A7196DB1B7411B41(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_RtSkillProperty*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_RtSkillProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTSKILLPROPERTY_METHOD_3_A7196DB1B7411B41_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_DC7112964EE86D3F(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_RtSkillProperty* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_RtSkillProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTSKILLPROPERTY_METHOD_3_DC7112964EE86D3F_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PerformanceBackupConfig; }
 
-#define RPG_GAMECORE_PERFORMANCESORTEDITEM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B15B40)
-#define RPG_GAMECORE_PERFORMANCESORTEDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18B15DD0)
+#define RPG_GAMECORE_PERFORMANCESORTEDITEM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D2D5E0)
+#define RPG_GAMECORE_PERFORMANCESORTEDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19D2D870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceSortedItem_TypeDefinitionIndex = 18059;
+	inline static constexpr unsigned int PerformanceSortedItem_TypeDefinitionIndex = 18083;
 
 	class PerformanceSortedItem : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESORTEDITEM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PerformanceSortedItem*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceSortedItem*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceSortedItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESORTEDITEM_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceSortedItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESORTEDITEM_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

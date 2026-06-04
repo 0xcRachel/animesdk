@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class EnableRootMotion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_46319AD9F019CF7C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF082370)
-#define CLASS_3_46319AD9F019CF7C__CTOR_OFFSET UNITYSDK_OFFSET(0xF082340)
+#define CLASS_3_46319AD9F019CF7C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1571F720)
+#define CLASS_3_46319AD9F019CF7C__CTOR_OFFSET UNITYSDK_OFFSET(0x1571F6F0)
 
-inline static constexpr unsigned int Class_3_46319AD9F019CF7C_TypeDefinitionIndex = 51531;
+inline static constexpr unsigned int Class_3_46319AD9F019CF7C_TypeDefinitionIndex = 52199;
 
 class Class_3_46319AD9F019CF7C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EnableRootMotion*>
 {

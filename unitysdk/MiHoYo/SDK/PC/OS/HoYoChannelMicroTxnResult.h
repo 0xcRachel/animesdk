@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x17422FB0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x17422FA0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x17422FF0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1869D9A0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1869D990)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1869D9E0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelMicroTxnResult_TypeDefinitionIndex = 7569;
+	inline static constexpr unsigned int HoYoChannelMicroTxnResult_TypeDefinitionIndex = 8472;
 
 	class HoYoChannelMicroTxnResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
@@ -29,9 +29,9 @@ namespace MiHoYo::SDK::PC::OS
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT_TOJSON_OFFSET))(this);
 		}
 
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelMicroTxnResult* FromJson(::System::String* json)
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelMicroTxnResult* FromJson(::System::String* a1)
 		{
-			return ((::MiHoYo::SDK::PC::OS::HoYoChannelMicroTxnResult*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT_FROMJSON_OFFSET))(json);
+			return ((::MiHoYo::SDK::PC::OS::HoYoChannelMicroTxnResult*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT_FROMJSON_OFFSET))(a1);
 		}
 	};
 }

@@ -5,13 +5,13 @@
 namespace RPG::Client::ActivityIdleLive { class SpEquipSlotData; }
 namespace RPG::Client::ActivityIdleLive { class SpecialEquip; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17313280)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__DISPLAYCLASS19_0__GETEQUIPBELONGEDONEBASEDINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x17314410)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__DISPLAYCLASS19_0__GETEQUIPBELONGEDONEBASEDINDEX_B__1_OFFSET UNITYSDK_OFFSET(0x17314460)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186559A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__DISPLAYCLASS19_0__GETEQUIPBELONGEDONEBASEDINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x186569F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__DISPLAYCLASS19_0__GETEQUIPBELONGEDONEBASEDINDEX_B__1_OFFSET UNITYSDK_OFFSET(0x18656A40)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int SpEquipSlotInfo___c__DisplayClass19_0_TypeDefinitionIndex = 69302;
+	inline static constexpr unsigned int SpEquipSlotInfo___c__DisplayClass19_0_TypeDefinitionIndex = 70114;
 
 	class SpEquipSlotInfo___c__DisplayClass19_0 : public ::System::Object
 	{
@@ -23,14 +23,14 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__DISPLAYCLASS19_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetEquipBelongedOneBasedIndex_b__0(::RPG::Client::ActivityIdleLive::SpEquipSlotData* x)
+		::System::Boolean _GetEquipBelongedOneBasedIndex_b__0(::RPG::Client::ActivityIdleLive::SpEquipSlotData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::SpEquipSlotData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__DISPLAYCLASS19_0__GETEQUIPBELONGEDONEBASEDINDEX_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::SpEquipSlotData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__DISPLAYCLASS19_0__GETEQUIPBELONGEDONEBASEDINDEX_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _GetEquipBelongedOneBasedIndex_b__1(::RPG::Client::ActivityIdleLive::SpEquipSlotData* x)
+		::System::Boolean _GetEquipBelongedOneBasedIndex_b__1(::RPG::Client::ActivityIdleLive::SpEquipSlotData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::SpEquipSlotData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__DISPLAYCLASS19_0__GETEQUIPBELONGEDONEBASEDINDEX_B__1_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::SpEquipSlotData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__DISPLAYCLASS19_0__GETEQUIPBELONGEDONEBASEDINDEX_B__1_OFFSET))(this, a1);
 		}
 	};
 }

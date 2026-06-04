@@ -9,41 +9,41 @@ namespace IFix::Core { class VirtualMachine; }
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define IFIX_CORE_CALL_BEGINFORSTACK_OFFSET UNITYSDK_OFFSET(0x197B8510)
-#define IFIX_CORE_CALL_BEGIN_OFFSET UNITYSDK_OFFSET(0x197B7B40)
-#define IFIX_CORE_CALL_GETBOOLEAN_OFFSET UNITYSDK_OFFSET(0x235E600)
-#define IFIX_CORE_CALL_GETBYTE_OFFSET UNITYSDK_OFFSET(0x235E630)
-#define IFIX_CORE_CALL_GETCHAR_OFFSET UNITYSDK_OFFSET(0x235E690)
-#define IFIX_CORE_CALL_GETDOUBLE_OFFSET UNITYSDK_OFFSET(0x235E840)
-#define IFIX_CORE_CALL_GETINT16_OFFSET UNITYSDK_OFFSET(0x235E690)
-#define IFIX_CORE_CALL_GETINT32_OFFSET UNITYSDK_OFFSET(0x235E720)
-#define IFIX_CORE_CALL_GETINT64_OFFSET UNITYSDK_OFFSET(0x235E780)
-#define IFIX_CORE_CALL_GETINTPTR_OFFSET UNITYSDK_OFFSET(0x235E780)
-#define IFIX_CORE_CALL_GETOBJECT_OFFSET UNITYSDK_OFFSET(0x235E890)
-#define IFIX_CORE_CALL_GETSINGLE_OFFSET UNITYSDK_OFFSET(0x235E7E0)
-#define IFIX_CORE_CALL_GETUINT16_OFFSET UNITYSDK_OFFSET(0x235E690)
-#define IFIX_CORE_CALL_GETUINT32_OFFSET UNITYSDK_OFFSET(0x235E720)
-#define IFIX_CORE_CALL_GETUINT64_OFFSET UNITYSDK_OFFSET(0x235E780)
-#define IFIX_CORE_CALL_PUSHBOOLEAN_OFFSET UNITYSDK_OFFSET(0x235E5D0)
-#define IFIX_CORE_CALL_PUSHBYTE_OFFSET UNITYSDK_OFFSET(0x235E5D0)
-#define IFIX_CORE_CALL_PUSHDOUBLE_OFFSET UNITYSDK_OFFSET(0x235E810)
-#define IFIX_CORE_CALL_PUSHINT16_OFFSET UNITYSDK_OFFSET(0x235E660)
-#define IFIX_CORE_CALL_PUSHINT32_OFFSET UNITYSDK_OFFSET(0x235E6F0)
-#define IFIX_CORE_CALL_PUSHINT64_OFFSET UNITYSDK_OFFSET(0x235E750)
-#define IFIX_CORE_CALL_PUSHINTPTR_OFFSET UNITYSDK_OFFSET(0x235E750)
-#define IFIX_CORE_CALL_PUSHOBJECTASRESULT_OFFSET UNITYSDK_OFFSET(0x235E8A0)
-#define IFIX_CORE_CALL_PUSHOBJECT_OFFSET UNITYSDK_OFFSET(0x235E870)
-#define IFIX_CORE_CALL_PUSHREF_OFFSET UNITYSDK_OFFSET(0x235E8E0)
-#define IFIX_CORE_CALL_PUSHSINGLE_OFFSET UNITYSDK_OFFSET(0x235E7B0)
-#define IFIX_CORE_CALL_PUSHUINT16_OFFSET UNITYSDK_OFFSET(0x235E6C0)
-#define IFIX_CORE_CALL_PUSHUINT32_OFFSET UNITYSDK_OFFSET(0x235E6F0)
-#define IFIX_CORE_CALL_PUSHUINT64_OFFSET UNITYSDK_OFFSET(0x235E750)
-#define IFIX_CORE_CALL_PUSHVALUETYPE_OFFSET UNITYSDK_OFFSET(0x235E880)
-#define IFIX_CORE_CALL_UPDATEREFERENCE_OFFSET UNITYSDK_OFFSET(0x235E920)
+#define IFIX_CORE_CALL_BEGINFORSTACK_OFFSET UNITYSDK_OFFSET(0x1A01AA20)
+#define IFIX_CORE_CALL_BEGIN_OFFSET UNITYSDK_OFFSET(0x1A01A0D0)
+#define IFIX_CORE_CALL_GETBOOLEAN_OFFSET UNITYSDK_OFFSET(0x38B05D0)
+#define IFIX_CORE_CALL_GETBYTE_OFFSET UNITYSDK_OFFSET(0x38B0600)
+#define IFIX_CORE_CALL_GETCHAR_OFFSET UNITYSDK_OFFSET(0x38B0660)
+#define IFIX_CORE_CALL_GETDOUBLE_OFFSET UNITYSDK_OFFSET(0x38B0810)
+#define IFIX_CORE_CALL_GETINT16_OFFSET UNITYSDK_OFFSET(0x38B0660)
+#define IFIX_CORE_CALL_GETINT32_OFFSET UNITYSDK_OFFSET(0x38B06F0)
+#define IFIX_CORE_CALL_GETINT64_OFFSET UNITYSDK_OFFSET(0x38B0750)
+#define IFIX_CORE_CALL_GETINTPTR_OFFSET UNITYSDK_OFFSET(0x38B0750)
+#define IFIX_CORE_CALL_GETOBJECT_OFFSET UNITYSDK_OFFSET(0x38B0860)
+#define IFIX_CORE_CALL_GETSINGLE_OFFSET UNITYSDK_OFFSET(0x38B07B0)
+#define IFIX_CORE_CALL_GETUINT16_OFFSET UNITYSDK_OFFSET(0x38B0660)
+#define IFIX_CORE_CALL_GETUINT32_OFFSET UNITYSDK_OFFSET(0x38B06F0)
+#define IFIX_CORE_CALL_GETUINT64_OFFSET UNITYSDK_OFFSET(0x38B0750)
+#define IFIX_CORE_CALL_PUSHBOOLEAN_OFFSET UNITYSDK_OFFSET(0x38B05A0)
+#define IFIX_CORE_CALL_PUSHBYTE_OFFSET UNITYSDK_OFFSET(0x38B05A0)
+#define IFIX_CORE_CALL_PUSHDOUBLE_OFFSET UNITYSDK_OFFSET(0x38B07E0)
+#define IFIX_CORE_CALL_PUSHINT16_OFFSET UNITYSDK_OFFSET(0x38B0630)
+#define IFIX_CORE_CALL_PUSHINT32_OFFSET UNITYSDK_OFFSET(0x38B06C0)
+#define IFIX_CORE_CALL_PUSHINT64_OFFSET UNITYSDK_OFFSET(0x38B0720)
+#define IFIX_CORE_CALL_PUSHINTPTR_OFFSET UNITYSDK_OFFSET(0x38B0720)
+#define IFIX_CORE_CALL_PUSHOBJECTASRESULT_OFFSET UNITYSDK_OFFSET(0x38B0900)
+#define IFIX_CORE_CALL_PUSHOBJECT_OFFSET UNITYSDK_OFFSET(0x38B0840)
+#define IFIX_CORE_CALL_PUSHREF_OFFSET UNITYSDK_OFFSET(0x38B0940)
+#define IFIX_CORE_CALL_PUSHSINGLE_OFFSET UNITYSDK_OFFSET(0x38B0780)
+#define IFIX_CORE_CALL_PUSHUINT16_OFFSET UNITYSDK_OFFSET(0x38B0690)
+#define IFIX_CORE_CALL_PUSHUINT32_OFFSET UNITYSDK_OFFSET(0x38B06C0)
+#define IFIX_CORE_CALL_PUSHUINT64_OFFSET UNITYSDK_OFFSET(0x38B0720)
+#define IFIX_CORE_CALL_PUSHVALUETYPE_OFFSET UNITYSDK_OFFSET(0x38B0850)
+#define IFIX_CORE_CALL_UPDATEREFERENCE_OFFSET UNITYSDK_OFFSET(0x38B0980)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int Call_TypeDefinitionIndex = 9946;
+	inline static constexpr unsigned int Call_TypeDefinitionIndex = 9773;
 
 	struct alignas(8) Call
 	{
@@ -58,154 +58,154 @@ namespace IFix::Core
 			return ((::IFix::Core::Call(*)())((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_BEGIN_OFFSET))();
 		}
 
-		static ::IFix::Core::Call BeginForStack(::IFix::Core::ThreadStackInfo* stack)
+		static ::IFix::Core::Call BeginForStack(::IFix::Core::ThreadStackInfo* a1)
 		{
-			return ((::IFix::Core::Call(*)(::IFix::Core::ThreadStackInfo*))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_BEGINFORSTACK_OFFSET))(stack);
+			return ((::IFix::Core::Call(*)(::IFix::Core::ThreadStackInfo*))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_BEGINFORSTACK_OFFSET))(a1);
 		}
 
-		::System::Void PushBoolean(::System::Boolean b)
+		::System::Void PushBoolean(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHBOOLEAN_OFFSET))(this, b);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHBOOLEAN_OFFSET))(this, a1);
 		}
 
-		::System::Boolean GetBoolean(::System::Int32 offset)
+		::System::Boolean GetBoolean(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETBOOLEAN_OFFSET))(this, offset);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETBOOLEAN_OFFSET))(this, a1);
 		}
 
-		::System::Void PushByte(::System::Byte b)
+		::System::Void PushByte(::System::Byte a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHBYTE_OFFSET))(this, b);
+			return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHBYTE_OFFSET))(this, a1);
 		}
 
-		::System::Byte GetByte(::System::Int32 offset)
+		::System::Byte GetByte(::System::Int32 a1)
 		{
-			return ((::System::Byte(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETBYTE_OFFSET))(this, offset);
+			return ((::System::Byte(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETBYTE_OFFSET))(this, a1);
 		}
 
-		::System::Void PushInt16(::System::Int16 s)
+		::System::Void PushInt16(::System::Int16 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int16))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHINT16_OFFSET))(this, s);
+			return ((::System::Void(*)(::PVOID, ::System::Int16))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHINT16_OFFSET))(this, a1);
 		}
 
-		::System::Int16 GetInt16(::System::Int32 offset)
+		::System::Int16 GetInt16(::System::Int32 a1)
 		{
-			return ((::System::Int16(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETINT16_OFFSET))(this, offset);
+			return ((::System::Int16(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETINT16_OFFSET))(this, a1);
 		}
 
-		::System::Char GetChar(::System::Int32 offset)
+		::System::Char GetChar(::System::Int32 a1)
 		{
-			return ((::System::Char(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETCHAR_OFFSET))(this, offset);
+			return ((::System::Char(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETCHAR_OFFSET))(this, a1);
 		}
 
-		::System::Void PushUInt16(::System::UInt16 us)
+		::System::Void PushUInt16(::System::UInt16 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHUINT16_OFFSET))(this, us);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHUINT16_OFFSET))(this, a1);
 		}
 
-		::System::UInt16 GetUInt16(::System::Int32 offset)
+		::System::UInt16 GetUInt16(::System::Int32 a1)
 		{
-			return ((::System::UInt16(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETUINT16_OFFSET))(this, offset);
+			return ((::System::UInt16(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETUINT16_OFFSET))(this, a1);
 		}
 
-		::System::Void PushInt32(::System::Int32 i)
+		::System::Void PushInt32(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHINT32_OFFSET))(this, i);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHINT32_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetInt32(::System::Int32 offset)
+		::System::Int32 GetInt32(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETINT32_OFFSET))(this, offset);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETINT32_OFFSET))(this, a1);
 		}
 
-		::System::Void PushUInt32(::System::UInt32 ui)
+		::System::Void PushUInt32(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHUINT32_OFFSET))(this, ui);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHUINT32_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetUInt32(::System::Int32 offset)
+		::System::UInt32 GetUInt32(::System::Int32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETUINT32_OFFSET))(this, offset);
+			return ((::System::UInt32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETUINT32_OFFSET))(this, a1);
 		}
 
-		::System::Void PushInt64(::System::Int64 i)
+		::System::Void PushInt64(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHINT64_OFFSET))(this, i);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHINT64_OFFSET))(this, a1);
 		}
 
-		::System::Int64 GetInt64(::System::Int32 offset)
+		::System::Int64 GetInt64(::System::Int32 a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETINT64_OFFSET))(this, offset);
+			return ((::System::Int64(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETINT64_OFFSET))(this, a1);
 		}
 
-		::System::Void PushUInt64(::System::UInt64 i)
+		::System::Void PushUInt64(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHUINT64_OFFSET))(this, i);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHUINT64_OFFSET))(this, a1);
 		}
 
-		::System::UInt64 GetUInt64(::System::Int32 offset)
+		::System::UInt64 GetUInt64(::System::Int32 a1)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETUINT64_OFFSET))(this, offset);
+			return ((::System::UInt64(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETUINT64_OFFSET))(this, a1);
 		}
 
-		::System::Void PushSingle(::System::Single f)
+		::System::Void PushSingle(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHSINGLE_OFFSET))(this, f);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHSINGLE_OFFSET))(this, a1);
 		}
 
-		::System::Single GetSingle(::System::Int32 offset)
+		::System::Single GetSingle(::System::Int32 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETSINGLE_OFFSET))(this, offset);
+			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETSINGLE_OFFSET))(this, a1);
 		}
 
-		::System::Void PushDouble(::System::Double d)
+		::System::Void PushDouble(::System::Double a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHDOUBLE_OFFSET))(this, d);
+			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHDOUBLE_OFFSET))(this, a1);
 		}
 
-		::System::Double GetDouble(::System::Int32 offset)
+		::System::Double GetDouble(::System::Int32 a1)
 		{
-			return ((::System::Double(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETDOUBLE_OFFSET))(this, offset);
+			return ((::System::Double(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETDOUBLE_OFFSET))(this, a1);
 		}
 
-		::System::Void PushIntPtr(::System::IntPtr i)
+		::System::Void PushIntPtr(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHINTPTR_OFFSET))(this, i);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHINTPTR_OFFSET))(this, a1);
 		}
 
-		::System::IntPtr GetIntPtr(::System::Int32 offset)
+		::System::IntPtr GetIntPtr(::System::Int32 a1)
 		{
-			return ((::System::IntPtr(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETINTPTR_OFFSET))(this, offset);
+			return ((::System::IntPtr(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETINTPTR_OFFSET))(this, a1);
 		}
 
-		::System::Void PushObject(::System::Object* o)
+		::System::Void PushObject(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHOBJECT_OFFSET))(this, o);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHOBJECT_OFFSET))(this, a1);
 		}
 
-		::System::Void PushValueType(::System::Object* o)
+		::System::Void PushValueType(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHVALUETYPE_OFFSET))(this, o);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHVALUETYPE_OFFSET))(this, a1);
 		}
 
-		::System::Object* GetObject(::System::Int32 offset)
+		::System::Object* GetObject(::System::Int32 a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETOBJECT_OFFSET))(this, offset);
+			return ((::System::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_GETOBJECT_OFFSET))(this, a1);
 		}
 
-		::System::Void PushObjectAsResult(::System::Object* obj, ::System::Type* type, ::IFix::Core::TypeInfo* info)
+		::System::Void PushObjectAsResult(::System::Object* a1, ::System::Type* a2, ::IFix::Core::TypeInfo* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Type*, ::IFix::Core::TypeInfo*))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHOBJECTASRESULT_OFFSET))(this, obj, type, info);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Type*, ::IFix::Core::TypeInfo*))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHOBJECTASRESULT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void PushRef(::System::Int32 offset)
+		::System::Void PushRef(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHREF_OFFSET))(this, offset);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_PUSHREF_OFFSET))(this, a1);
 		}
 
-		::System::Void UpdateReference(::System::Int32 offset, ::System::Object* obj, ::IFix::Core::VirtualMachine* virtualMachine, ::System::Type* type)
+		::System::Void UpdateReference(::System::Int32 a1, ::System::Object* a2, ::IFix::Core::VirtualMachine* a3, ::System::Type* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::IFix::Core::VirtualMachine*, ::System::Type*))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_UPDATEREFERENCE_OFFSET))(this, offset, obj, virtualMachine, type);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::IFix::Core::VirtualMachine*, ::System::Type*))((::PBYTE)hIl2Cpp + IFIX_CORE_CALL_UPDATEREFERENCE_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

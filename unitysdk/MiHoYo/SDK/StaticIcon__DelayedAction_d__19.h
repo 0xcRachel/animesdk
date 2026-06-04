@@ -6,29 +6,29 @@ namespace MiHoYo::SDK { class StaticIcon; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x157EBF20)
-#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x157EBF90)
-#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x157EBFF0)
-#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x157EBFA0)
-#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x157EBF10)
-#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19__CTOR_OFFSET UNITYSDK_OFFSET(0x157EB8D0)
+#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x16A57970)
+#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x16A579E0)
+#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x16A57A40)
+#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x16A579F0)
+#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16A57960)
+#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19__CTOR_OFFSET UNITYSDK_OFFSET(0x16A57370)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int StaticIcon__DelayedAction_d__19_TypeDefinitionIndex = 7056;
+	inline static constexpr unsigned int StaticIcon__DelayedAction_d__19_TypeDefinitionIndex = 7959;
 
 	class StaticIcon__DelayedAction_d__19 : public ::System::Object
 	{
 	public:
 		::UnityEngine::EventSystems::PointerEventData* eventData; // 0x10
-		::System::Object* __2__current; // 0x18
-		::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* action; // 0x20
-		::MiHoYo::SDK::StaticIcon* __4__this; // 0x28
+		::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* action; // 0x18
+		::MiHoYo::SDK::StaticIcon* __4__this; // 0x20
+		::System::Object* __2__current; // 0x28
 		::System::Int32 __1__state; // 0x30
 
-		::System::Void _ctor(::System::Int32 __1__state)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19__CTOR_OFFSET))(this, __1__state);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()

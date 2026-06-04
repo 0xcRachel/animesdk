@@ -6,14 +6,14 @@ namespace RPG::Client { class UIParamDeliverer_UIParamDataItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_UIPARAMDELIVERER_HASKEY_OFFSET UNITYSDK_OFFSET(0x15965CA0)
-#define RPG_CLIENT_UIPARAMDELIVERER_TRYGETFLOATVALUE_OFFSET UNITYSDK_OFFSET(0x15965FB0)
-#define RPG_CLIENT_UIPARAMDELIVERER_TRYGETVALUE_OFFSET UNITYSDK_OFFSET(0x15965E20)
-#define RPG_CLIENT_UIPARAMDELIVERER__CTOR_OFFSET UNITYSDK_OFFSET(0x15966030)
+#define RPG_CLIENT_UIPARAMDELIVERER_HASKEY_OFFSET UNITYSDK_OFFSET(0x14B88730)
+#define RPG_CLIENT_UIPARAMDELIVERER_TRYGETFLOATVALUE_OFFSET UNITYSDK_OFFSET(0x14B88A50)
+#define RPG_CLIENT_UIPARAMDELIVERER_TRYGETVALUE_OFFSET UNITYSDK_OFFSET(0x14B888C0)
+#define RPG_CLIENT_UIPARAMDELIVERER__CTOR_OFFSET UNITYSDK_OFFSET(0x14B88AD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIParamDeliverer_TypeDefinitionIndex = 63713;
+	inline static constexpr unsigned int UIParamDeliverer_TypeDefinitionIndex = 64634;
 
 	class UIParamDeliverer : public ::UnityEngine::MonoBehaviour
 	{
@@ -25,19 +25,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPARAMDELIVERER__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean HasKey(::System::String* key)
+		::System::Boolean HasKey(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPARAMDELIVERER_HASKEY_OFFSET))(this, key);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPARAMDELIVERER_HASKEY_OFFSET))(this, a1);
 		}
 
-		::System::String* TryGetValue(::System::String* key)
+		::System::String* TryGetValue(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPARAMDELIVERER_TRYGETVALUE_OFFSET))(this, key);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPARAMDELIVERER_TRYGETVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Single TryGetFloatValue(::System::String* key)
+		::System::Single TryGetFloatValue(::System::String* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPARAMDELIVERER_TRYGETFLOATVALUE_OFFSET))(this, key);
+			return ((::System::Single(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPARAMDELIVERER_TRYGETFLOATVALUE_OFFSET))(this, a1);
 		}
 	};
 }

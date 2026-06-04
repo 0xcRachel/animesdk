@@ -5,11 +5,11 @@
 namespace RPG::Client { class Line3DParticleEffectBehavior; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LINE3DPARTICLEEFFECTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1583DDE0)
+#define RPG_CLIENT_LINE3DPARTICLEEFFECTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x17E0A1F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Line3DParticleEffectMonoPlugin_TypeDefinitionIndex = 65132;
+	inline static constexpr unsigned int Line3DParticleEffectMonoPlugin_TypeDefinitionIndex = 66059;
 
 	class Line3DParticleEffectMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Line3DParticleEffectBehavior*>
 	{

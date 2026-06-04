@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Cache.h"
 
-#define UNITYENGINE_CACHING_GET_CURRENTCACHEFORWRITING_INJECTED_OFFSET UNITYSDK_OFFSET(0x19D02550)
-#define UNITYENGINE_CACHING_GET_CURRENTCACHEFORWRITING_OFFSET UNITYSDK_OFFSET(0x19D02530)
+#define UNITYENGINE_CACHING_GET_CURRENTCACHEFORWRITING_INJECTED_OFFSET UNITYSDK_OFFSET(0x1AB45F40)
+#define UNITYENGINE_CACHING_GET_CURRENTCACHEFORWRITING_OFFSET UNITYSDK_OFFSET(0x1AB45F20)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Caching_TypeDefinitionIndex = 3850;
+	inline static constexpr unsigned int Caching_TypeDefinitionIndex = 4024;
 
 	class Caching : public ::System::Object
 	{
@@ -18,9 +18,9 @@ namespace UnityEngine
 			return ((::UnityEngine::Cache(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_CACHING_GET_CURRENTCACHEFORWRITING_OFFSET))();
 		}
 
-		static ::System::Void get_currentCacheForWriting_Injected(::UnityEngine::Cache& ret)
+		static ::System::Void get_currentCacheForWriting_Injected(::UnityEngine::Cache& a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Cache&))((::PBYTE)hIl2Cpp + UNITYENGINE_CACHING_GET_CURRENTCACHEFORWRITING_INJECTED_OFFSET))(ret);
+			return ((::System::Void(*)(::UnityEngine::Cache&))((::PBYTE)hIl2Cpp + UNITYENGINE_CACHING_GET_CURRENTCACHEFORWRITING_INJECTED_OFFSET))(a1);
 		}
 	};
 }

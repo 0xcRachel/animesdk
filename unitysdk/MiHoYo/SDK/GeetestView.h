@@ -10,36 +10,36 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class Button; }
 
-#define MIHOYO_SDK_GEETESTVIEW_ADD_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x172292D0)
-#define MIHOYO_SDK_GEETESTVIEW_ADD_ONERROR_OFFSET UNITYSDK_OFFSET(0x17229390)
-#define MIHOYO_SDK_GEETESTVIEW_ADD_ONGETUNIWEBMESSAGE_OFFSET UNITYSDK_OFFSET(0x17229450)
-#define MIHOYO_SDK_GEETESTVIEW_AWAKE_OFFSET UNITYSDK_OFFSET(0x17229550)
-#define MIHOYO_SDK_GEETESTVIEW_CLOSE_OFFSET UNITYSDK_OFFSET(0x172298D0)
-#define MIHOYO_SDK_GEETESTVIEW_HIDE_OFFSET UNITYSDK_OFFSET(0x172298E0)
-#define MIHOYO_SDK_GEETESTVIEW_LOADURL_OFFSET UNITYSDK_OFFSET(0x172298A0)
-#define MIHOYO_SDK_GEETESTVIEW_ONLOAD_OFFSET UNITYSDK_OFFSET(0x172299B0)
-#define MIHOYO_SDK_GEETESTVIEW_ONPAGEERROR_OFFSET UNITYSDK_OFFSET(0x17229B00)
-#define MIHOYO_SDK_GEETESTVIEW_ONUNIWEBVIEWMSGRECEIVE_OFFSET UNITYSDK_OFFSET(0x17229940)
-#define MIHOYO_SDK_GEETESTVIEW_REMOVE_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x17229330)
-#define MIHOYO_SDK_GEETESTVIEW_REMOVE_ONERROR_OFFSET UNITYSDK_OFFSET(0x172293F0)
-#define MIHOYO_SDK_GEETESTVIEW_REMOVE_ONGETUNIWEBMESSAGE_OFFSET UNITYSDK_OFFSET(0x172294D0)
-#define MIHOYO_SDK_GEETESTVIEW_SHOW_OFFSET UNITYSDK_OFFSET(0x172296E0)
-#define MIHOYO_SDK_GEETESTVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x17229B20)
+#define MIHOYO_SDK_GEETESTVIEW_ADD_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x18EC38F0)
+#define MIHOYO_SDK_GEETESTVIEW_ADD_ONERROR_OFFSET UNITYSDK_OFFSET(0x18EC39B0)
+#define MIHOYO_SDK_GEETESTVIEW_ADD_ONGETUNIWEBMESSAGE_OFFSET UNITYSDK_OFFSET(0x18EC3AB0)
+#define MIHOYO_SDK_GEETESTVIEW_AWAKE_OFFSET UNITYSDK_OFFSET(0x18EC3BB0)
+#define MIHOYO_SDK_GEETESTVIEW_CLOSE_OFFSET UNITYSDK_OFFSET(0x18EC3F80)
+#define MIHOYO_SDK_GEETESTVIEW_HIDE_OFFSET UNITYSDK_OFFSET(0x18EC3FA0)
+#define MIHOYO_SDK_GEETESTVIEW_LOADURL_OFFSET UNITYSDK_OFFSET(0x18EC3F40)
+#define MIHOYO_SDK_GEETESTVIEW_ONLOAD_OFFSET UNITYSDK_OFFSET(0x18EC4070)
+#define MIHOYO_SDK_GEETESTVIEW_ONPAGEERROR_OFFSET UNITYSDK_OFFSET(0x18EC4170)
+#define MIHOYO_SDK_GEETESTVIEW_ONUNIWEBVIEWMSGRECEIVE_OFFSET UNITYSDK_OFFSET(0x18EC4000)
+#define MIHOYO_SDK_GEETESTVIEW_REMOVE_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x18EC3950)
+#define MIHOYO_SDK_GEETESTVIEW_REMOVE_ONERROR_OFFSET UNITYSDK_OFFSET(0x18EC3A30)
+#define MIHOYO_SDK_GEETESTVIEW_REMOVE_ONGETUNIWEBMESSAGE_OFFSET UNITYSDK_OFFSET(0x18EC3B30)
+#define MIHOYO_SDK_GEETESTVIEW_SHOW_OFFSET UNITYSDK_OFFSET(0x18EC3D50)
+#define MIHOYO_SDK_GEETESTVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x18EC4190)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int GeetestView_TypeDefinitionIndex = 7290;
+	inline static constexpr unsigned int GeetestView_TypeDefinitionIndex = 8193;
 
 	class GeetestView : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::GeetestView** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::GeetestView**)Il2CppClass::FromTypeDefinitionIndex(GeetestView_TypeDefinitionIndex)->GetStaticField(0xD9E0);
-		}
 		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
 		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(GeetestView_TypeDefinitionIndex)->GetStaticField(0xD9E8);
+			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(GeetestView_TypeDefinitionIndex)->GetStaticField(0x110B0);
+		}
+		static ::MiHoYo::SDK::GeetestView** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::GeetestView**)Il2CppClass::FromTypeDefinitionIndex(GeetestView_TypeDefinitionIndex)->GetStaticField(0x110B8);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		::UnityEngine::UI::Button* closeButton; // 0x58
@@ -52,34 +52,34 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW__CTOR_OFFSET))(this);
 		}
 
-		::System::Void add_OnClose(::System::Action* value)
+		::System::Void add_OnClose(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_ADD_ONCLOSE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_ADD_ONCLOSE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnClose(::System::Action* value)
+		::System::Void remove_OnClose(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_REMOVE_ONCLOSE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_REMOVE_ONCLOSE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnError(::System::Action_1<::System::String*>* value)
+		::System::Void add_OnError(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_ADD_ONERROR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_ADD_ONERROR_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnError(::System::Action_1<::System::String*>* value)
+		::System::Void remove_OnError(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_REMOVE_ONERROR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_REMOVE_ONERROR_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnGetUniWebMessage(::System::Action_1<::MiHoYo::SDK::UniWebViewMessage>* value)
+		::System::Void add_OnGetUniWebMessage(::System::Action_1<::MiHoYo::SDK::UniWebViewMessage>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UniWebViewMessage>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_ADD_ONGETUNIWEBMESSAGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UniWebViewMessage>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_ADD_ONGETUNIWEBMESSAGE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnGetUniWebMessage(::System::Action_1<::MiHoYo::SDK::UniWebViewMessage>* value)
+		::System::Void remove_OnGetUniWebMessage(::System::Action_1<::MiHoYo::SDK::UniWebViewMessage>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UniWebViewMessage>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_REMOVE_ONGETUNIWEBMESSAGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UniWebViewMessage>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_REMOVE_ONGETUNIWEBMESSAGE_OFFSET))(this, a1);
 		}
 
 		::System::Void Awake()
@@ -92,9 +92,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_SHOW_OFFSET))();
 		}
 
-		::System::Void LoadURL(::System::String* url, ::MiHoYo::SDK::MmtManager_GeetestModel* param)
+		::System::Void LoadURL(::System::String* a1, ::MiHoYo::SDK::MmtManager_GeetestModel* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::MmtManager_GeetestModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_LOADURL_OFFSET))(this, url, param);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::MmtManager_GeetestModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_LOADURL_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Close()
@@ -107,19 +107,19 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_HIDE_OFFSET))();
 		}
 
-		::System::Void OnUniWebviewMsgReceive(::System::String* result)
+		::System::Void OnUniWebviewMsgReceive(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_ONUNIWEBVIEWMSGRECEIVE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_ONUNIWEBVIEWMSGRECEIVE_OFFSET))(this, a1);
 		}
 
-		::System::Void OnLoad(::System::String* result)
+		::System::Void OnLoad(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_ONLOAD_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_ONLOAD_OFFSET))(this, a1);
 		}
 
-		::System::Void OnPageError(::System::String* result)
+		::System::Void OnPageError(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_ONPAGEERROR_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_ONPAGEERROR_OFFSET))(this, a1);
 		}
 	};
 }

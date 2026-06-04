@@ -4,27 +4,27 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_GAMEENTITYEXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF2748D0)
-#define RPG_GAMECORE_GAMEENTITYEXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF274900)
-#define RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__97_0_OFFSET UNITYSDK_OFFSET(0xF274910)
-#define RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__97_1_OFFSET UNITYSDK_OFFSET(0xF2749C0)
-#define RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__97_2_OFFSET UNITYSDK_OFFSET(0xF274A60)
-#define RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__97_3_OFFSET UNITYSDK_OFFSET(0xF274B30)
-#define RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__97_4_OFFSET UNITYSDK_OFFSET(0xF274CF0)
-#define RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__97_5_OFFSET UNITYSDK_OFFSET(0xF274DC0)
-#define RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__97_6_OFFSET UNITYSDK_OFFSET(0xF274DF0)
-#define RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__97_7_OFFSET UNITYSDK_OFFSET(0xF274F70)
+#define RPG_GAMECORE_GAMEENTITYEXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x137029A0)
+#define RPG_GAMECORE_GAMEENTITYEXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x137029D0)
+#define RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__98_0_OFFSET UNITYSDK_OFFSET(0x137029E0)
+#define RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__98_1_OFFSET UNITYSDK_OFFSET(0x13702A90)
+#define RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__98_2_OFFSET UNITYSDK_OFFSET(0x13702B30)
+#define RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__98_3_OFFSET UNITYSDK_OFFSET(0x13702B60)
+#define RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__98_4_OFFSET UNITYSDK_OFFSET(0x13702BD0)
+#define RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__98_5_OFFSET UNITYSDK_OFFSET(0x13702C00)
+#define RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__98_6_OFFSET UNITYSDK_OFFSET(0x13702C30)
+#define RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__98_7_OFFSET UNITYSDK_OFFSET(0x13702D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameEntityExtensions___c_TypeDefinitionIndex = 53292;
+	inline static constexpr unsigned int GameEntityExtensions___c_TypeDefinitionIndex = 54005;
 
 	class GameEntityExtensions___c : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::GameEntityExtensions___c** StaticGet___9()
 		{
-			return (::RPG::GameCore::GameEntityExtensions___c**)Il2CppClass::FromTypeDefinitionIndex(GameEntityExtensions___c_TypeDefinitionIndex)->GetStaticField(0x686C0);
+			return (::RPG::GameCore::GameEntityExtensions___c**)Il2CppClass::FromTypeDefinitionIndex(GameEntityExtensions___c_TypeDefinitionIndex)->GetStaticField(0x67A10);
 		}
 
 		static ::System::Void _cctor()
@@ -37,44 +37,44 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYEXTENSIONS___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __cctor_b__97_0(::RPG::GameCore::GameEntity* entity)
+		::System::Boolean __cctor_b__98_0(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__97_0_OFFSET))(this, entity);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__98_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __cctor_b__97_1(::RPG::GameCore::GameEntity* entity)
+		::System::Boolean __cctor_b__98_1(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__97_1_OFFSET))(this, entity);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__98_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __cctor_b__97_2(::RPG::GameCore::GameEntity* entity)
+		::System::Boolean __cctor_b__98_2(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__97_2_OFFSET))(this, entity);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__98_2_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __cctor_b__97_3(::RPG::GameCore::GameEntity* entity)
+		::System::Boolean __cctor_b__98_3(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__97_3_OFFSET))(this, entity);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__98_3_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __cctor_b__97_4(::RPG::GameCore::GameEntity* entity)
+		::System::Boolean __cctor_b__98_4(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__97_4_OFFSET))(this, entity);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__98_4_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __cctor_b__97_5(::RPG::GameCore::GameEntity* entity)
+		::System::Boolean __cctor_b__98_5(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__97_5_OFFSET))(this, entity);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__98_5_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __cctor_b__97_6(::RPG::GameCore::GameEntity* entity)
+		::System::Boolean __cctor_b__98_6(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__97_6_OFFSET))(this, entity);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__98_6_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __cctor_b__97_7(::RPG::GameCore::GameEntity* entity)
+		::System::Boolean __cctor_b__98_7(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__97_7_OFFSET))(this, entity);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYEXTENSIONS___C___CCTOR_B__98_7_OFFSET))(this, a1);
 		}
 	};
 }

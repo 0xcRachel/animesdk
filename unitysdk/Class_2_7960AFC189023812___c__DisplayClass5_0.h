@@ -5,10 +5,10 @@
 namespace RPG::Client { class ChimeraDuelChimeraData; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_2_7960AFC189023812___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF2C3BA0)
-#define CLASS_2_7960AFC189023812___C__DISPLAYCLASS5_0___TRYAPPLY_B__0_OFFSET UNITYSDK_OFFSET(0xF2C3CD0)
+#define CLASS_2_7960AFC189023812___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1735DB80)
+#define CLASS_2_7960AFC189023812___C__DISPLAYCLASS5_0___TRYAPPLY_B__0_OFFSET UNITYSDK_OFFSET(0x1735DCB0)
 
-inline static constexpr unsigned int Class_2_7960AFC189023812___c__DisplayClass5_0_TypeDefinitionIndex = 71033;
+inline static constexpr unsigned int Class_2_7960AFC189023812___c__DisplayClass5_0_TypeDefinitionIndex = 71971;
 
 class Class_2_7960AFC189023812___c__DisplayClass5_0 : public ::System::Object
 {
@@ -20,8 +20,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7960AFC189023812___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean __TryApply_b__0(::RPG::Client::ChimeraDuelChimeraData* x)
+	::System::Boolean __TryApply_b__0(::RPG::Client::ChimeraDuelChimeraData* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChimeraDuelChimeraData*))((::PBYTE)hIl2Cpp + CLASS_2_7960AFC189023812___C__DISPLAYCLASS5_0___TRYAPPLY_B__0_OFFSET))(this, x);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChimeraDuelChimeraData*))((::PBYTE)hIl2Cpp + CLASS_2_7960AFC189023812___C__DISPLAYCLASS5_0___TRYAPPLY_B__0_OFFSET))(this, a1);
 	}
 };

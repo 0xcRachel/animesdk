@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_CAMERAFIGHTSTATEUSESKILLPERFORMCONFIG_METHOD_4_8985156732701889_OFFSET UNITYSDK_OFFSET(0x15E26C00)
-#define RPG_CLIENT_CAMERAFIGHTSTATEUSESKILLPERFORMCONFIG_METHOD_4_A69140B461109D58_OFFSET UNITYSDK_OFFSET(0x15E26AD0)
-#define RPG_CLIENT_CAMERAFIGHTSTATEUSESKILLPERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15E26C60)
+#define RPG_CLIENT_CAMERAFIGHTSTATEUSESKILLPERFORMCONFIG_METHOD_4_4A44E5D36DD0D52D_OFFSET UNITYSDK_OFFSET(0x18FB8E20)
+#define RPG_CLIENT_CAMERAFIGHTSTATEUSESKILLPERFORMCONFIG_METHOD_4_BC0E5123107042BC_OFFSET UNITYSDK_OFFSET(0x18FB8CA0)
+#define RPG_CLIENT_CAMERAFIGHTSTATEUSESKILLPERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18FB8E80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraFightStateUseSkillPerformConfig_TypeDefinitionIndex = 64132;
+	inline static constexpr unsigned int CameraFightStateUseSkillPerformConfig_TypeDefinitionIndex = 65053;
 
 	class CameraFightStateUseSkillPerformConfig : public ::RPG::Client::CameraFightStateCommonConfig
 	{
@@ -30,14 +30,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERAFIGHTSTATEUSESKILLPERFORMCONFIG__CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::NamedColliderOffsetForUseSkillPerform* Method_4_A69140B461109D58(::System::String* a1, ::System::Collections::Generic::List_1<::RPG::Client::NamedColliderOffsetForUseSkillPerform*>* a2)
+		::RPG::Client::NamedColliderOffsetForUseSkillPerform* Method_4_BC0E5123107042BC(::System::String* a1, ::System::Collections::Generic::List_1<::RPG::Client::NamedColliderOffsetForUseSkillPerform*>* a2)
 		{
-			return ((::RPG::Client::NamedColliderOffsetForUseSkillPerform*(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::RPG::Client::NamedColliderOffsetForUseSkillPerform*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERAFIGHTSTATEUSESKILLPERFORMCONFIG_METHOD_4_A69140B461109D58_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::NamedColliderOffsetForUseSkillPerform*(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::RPG::Client::NamedColliderOffsetForUseSkillPerform*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERAFIGHTSTATEUSESKILLPERFORMCONFIG_METHOD_4_BC0E5123107042BC_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::NamedColliderOffsetForUseSkillPerform* Method_4_8985156732701889(::System::String* a1)
+		::RPG::Client::NamedColliderOffsetForUseSkillPerform* Method_4_4A44E5D36DD0D52D(::System::String* a1)
 		{
-			return ((::RPG::Client::NamedColliderOffsetForUseSkillPerform*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERAFIGHTSTATEUSESKILLPERFORMCONFIG_METHOD_4_8985156732701889_OFFSET))(this, a1);
+			return ((::RPG::Client::NamedColliderOffsetForUseSkillPerform*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERAFIGHTSTATEUSESKILLPERFORMCONFIG_METHOD_4_4A44E5D36DD0D52D_OFFSET))(this, a1);
 		}
 	};
 }

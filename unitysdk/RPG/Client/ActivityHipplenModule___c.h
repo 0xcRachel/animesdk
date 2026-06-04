@@ -5,24 +5,24 @@
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenTraitData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLENMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1693BDC0)
-#define RPG_CLIENT_ACTIVITYHIPPLENMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1693BE00)
-#define RPG_CLIENT_ACTIVITYHIPPLENMODULE___C___ONGETHIPPLENINHERITSCRSP_B__8_0_OFFSET UNITYSDK_OFFSET(0x1693BE10)
+#define RPG_CLIENT_ACTIVITYHIPPLENMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18535EB0)
+#define RPG_CLIENT_ACTIVITYHIPPLENMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18535EF0)
+#define RPG_CLIENT_ACTIVITYHIPPLENMODULE___C___ONGETHIPPLENINHERITSCRSP_B__8_0_OFFSET UNITYSDK_OFFSET(0x18535F00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityHipplenModule___c_TypeDefinitionIndex = 56742;
+	inline static constexpr unsigned int ActivityHipplenModule___c_TypeDefinitionIndex = 57526;
 
 	class ActivityHipplenModule___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ActivityHipplenModule___c** StaticGet___9()
-		{
-			return (::RPG::Client::ActivityHipplenModule___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenModule___c_TypeDefinitionIndex)->GetStaticField(0x3F070);
-		}
 		static ::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>** StaticGet___9__8_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenModule___c_TypeDefinitionIndex)->GetStaticField(0x3F078);
+			return (::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenModule___c_TypeDefinitionIndex)->GetStaticField(0x4E080);
+		}
+		static ::RPG::Client::ActivityHipplenModule___c** StaticGet___9()
+		{
+			return (::RPG::Client::ActivityHipplenModule___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenModule___c_TypeDefinitionIndex)->GetStaticField(0x4E088);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLENMODULE___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 __OnGetHipplenInheritScRsp_b__8_0(::RPG::Client::ActivityHipplen::ActivityHipplenTraitData* x, ::RPG::Client::ActivityHipplen::ActivityHipplenTraitData* y)
+		::System::Int32 __OnGetHipplenInheritScRsp_b__8_0(::RPG::Client::ActivityHipplen::ActivityHipplenTraitData* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenTraitData* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*, ::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLENMODULE___C___ONGETHIPPLENINHERITSCRSP_B__8_0_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*, ::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLENMODULE___C___ONGETHIPPLENINHERITSCRSP_B__8_0_OFFSET))(this, a1, a2);
 		}
 	};
 }

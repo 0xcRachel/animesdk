@@ -5,24 +5,24 @@
 namespace RPG::Client { class RenderTestPageContext_AnimationDropDownItem; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x131CEB20)
-#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x131CEB60)
-#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C___INITANIMATIONDROPDOWN_B__55_0_OFFSET UNITYSDK_OFFSET(0x131CEB70)
+#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14D1E4E0)
+#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14D1E520)
+#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C___INITANIMATIONDROPDOWN_B__55_0_OFFSET UNITYSDK_OFFSET(0x14D1E530)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RenderTestPageContext___c_TypeDefinitionIndex = 67126;
+	inline static constexpr unsigned int RenderTestPageContext___c_TypeDefinitionIndex = 68069;
 
 	class RenderTestPageContext___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RenderTestPageContext___c** StaticGet___9()
-		{
-			return (::RPG::Client::RenderTestPageContext___c**)Il2CppClass::FromTypeDefinitionIndex(RenderTestPageContext___c_TypeDefinitionIndex)->GetStaticField(0x1CBC0);
-		}
 		static ::System::Comparison_1<::RPG::Client::RenderTestPageContext_AnimationDropDownItem*>** StaticGet___9__55_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::RenderTestPageContext_AnimationDropDownItem*>**)Il2CppClass::FromTypeDefinitionIndex(RenderTestPageContext___c_TypeDefinitionIndex)->GetStaticField(0x1CBC8);
+			return (::System::Comparison_1<::RPG::Client::RenderTestPageContext_AnimationDropDownItem*>**)Il2CppClass::FromTypeDefinitionIndex(RenderTestPageContext___c_TypeDefinitionIndex)->GetStaticField(0x2A570);
+		}
+		static ::RPG::Client::RenderTestPageContext___c** StaticGet___9()
+		{
+			return (::RPG::Client::RenderTestPageContext___c**)Il2CppClass::FromTypeDefinitionIndex(RenderTestPageContext___c_TypeDefinitionIndex)->GetStaticField(0x2A578);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RENDERTESTPAGECONTEXT___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 __InitAnimationDropDown_b__55_0(::RPG::Client::RenderTestPageContext_AnimationDropDownItem* X, ::RPG::Client::RenderTestPageContext_AnimationDropDownItem* Y)
+		::System::Int32 __InitAnimationDropDown_b__55_0(::RPG::Client::RenderTestPageContext_AnimationDropDownItem* a1, ::RPG::Client::RenderTestPageContext_AnimationDropDownItem* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::RenderTestPageContext_AnimationDropDownItem*, ::RPG::Client::RenderTestPageContext_AnimationDropDownItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RENDERTESTPAGECONTEXT___C___INITANIMATIONDROPDOWN_B__55_0_OFFSET))(this, X, Y);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::RenderTestPageContext_AnimationDropDownItem*, ::RPG::Client::RenderTestPageContext_AnimationDropDownItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RENDERTESTPAGECONTEXT___C___INITANIMATIONDROPDOWN_B__55_0_OFFSET))(this, a1, a2);
 		}
 	};
 }

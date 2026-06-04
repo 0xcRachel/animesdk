@@ -5,77 +5,93 @@
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 #include "unitysdk/RPG/GameCore/SkillAutoLockType.h"
 #include "unitysdk/RPG/GameCore/TeamType.h"
+#include "unitysdk/Struct_2_EF7C37AF69DC7CE6.h"
 
+class Class_1_0F24EAFEC305197B;
 class Class_1_B940C10EDDC383AC;
-class Class_1_CC5F9F66B76D550F;
+class Class_1_E189E4C63AB59BB3;
+namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameEntityList; }
 namespace RPG::GameCore { class SkillConfig; }
 namespace RPG::GameCore { class SkillData; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
+namespace RPG::GameCore { class TurnBasedModifierInstance; }
+namespace System { class String; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_TEAMDATACOMPONENT_AUTOLOCKTARGET_OFFSET UNITYSDK_OFFSET(0x9F75B30)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_CANCELLOCKTO_OFFSET UNITYSDK_OFFSET(0x9F78550)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9F75A00)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_BOOSTPOINTMAX_OFFSET UNITYSDK_OFFSET(0x9F786F0)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_BOOSTPOINTMODULE_OFFSET UNITYSDK_OFFSET(0x9F786B0)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_BOOSTPOINT_OFFSET UNITYSDK_OFFSET(0x9F66EA0)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_HPSHAREDMODULE_OFFSET UNITYSDK_OFFSET(0x9F786D0)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_LASTLOCKENEMYNORESTRICT_OFFSET UNITYSDK_OFFSET(0x9F78820)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_LASTLOCKENEMY_OFFSET UNITYSDK_OFFSET(0x9F4D070)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_LASTLOCKFRIEND_OFFSET UNITYSDK_OFFSET(0x9F4D010)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_LOCKTARGETTEMPORARY_OFFSET UNITYSDK_OFFSET(0x9F78740)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_LOCKTARGET_OFFSET UNITYSDK_OFFSET(0x9F78750)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_TEAM_OFFSET UNITYSDK_OFFSET(0x9F78690)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_VERSUSBARVALUE_OFFSET UNITYSDK_OFFSET(0x9F78830)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_INITCOMPONENT_OFFSET UNITYSDK_OFFSET(0x9F75A60)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_SET_BOOSTPOINTMODULE_OFFSET UNITYSDK_OFFSET(0x9F786C0)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_SET_HPSHAREDMODULE_OFFSET UNITYSDK_OFFSET(0x9F786E0)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_SET_LASTLOCKENEMYNORESTRICT_OFFSET UNITYSDK_OFFSET(0x9F78810)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_SET_LASTLOCKENEMY_OFFSET UNITYSDK_OFFSET(0x9F787F0)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_SET_LASTLOCKFRIEND_OFFSET UNITYSDK_OFFSET(0x9F78800)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_SET_LOCKTARGETTEMPORARY_OFFSET UNITYSDK_OFFSET(0x9F54910)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_SET_LOCKTARGET_OFFSET UNITYSDK_OFFSET(0x9F76380)
-#define RPG_GAMECORE_TEAMDATACOMPONENT_SET_TEAM_OFFSET UNITYSDK_OFFSET(0x9F786A0)
-#define RPG_GAMECORE_TEAMDATACOMPONENT__COMPAREBYAUTOLOCKTAUNT_OFFSET UNITYSDK_OFFSET(0x9F79200)
-#define RPG_GAMECORE_TEAMDATACOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x9F75980)
-#define RPG_GAMECORE_TEAMDATACOMPONENT__GETAITAGVALUE_OFFSET UNITYSDK_OFFSET(0x9F78CB0)
-#define RPG_GAMECORE_TEAMDATACOMPONENT__GETAUTOLOCKTARGETBYHIGHWEDO_OFFSET UNITYSDK_OFFSET(0x9F766E0)
-#define RPG_GAMECORE_TEAMDATACOMPONENT__GETAUTOLOCKTARGETBYHIGHWP_OFFSET UNITYSDK_OFFSET(0x9F771E0)
-#define RPG_GAMECORE_TEAMDATACOMPONENT__GETAUTOLOCKTARGETBYJADEBP_OFFSET UNITYSDK_OFFSET(0x9F778D0)
-#define RPG_GAMECORE_TEAMDATACOMPONENT__GETAUTOLOCKTARGETBYSORT_OFFSET UNITYSDK_OFFSET(0x9F76630)
-#define RPG_GAMECORE_TEAMDATACOMPONENT__GETAUTOLOCKTARGETBYSOURCE_OFFSET UNITYSDK_OFFSET(0x9F78030)
-#define RPG_GAMECORE_TEAMDATACOMPONENT__GETEXPECTEDDAMAGE_OFFSET UNITYSDK_OFFSET(0x9F788D0)
-#define RPG_GAMECORE_TEAMDATACOMPONENT__ISVALIDFORAUTOLOCK_OFFSET UNITYSDK_OFFSET(0x9F76490)
-#define RPG_GAMECORE_TEAMDATACOMPONENT__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0x9F75990)
-#define RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYADJOINDEFAULT_OFFSET UNITYSDK_OFFSET(0x9F795F0)
-#define RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYDEFAULT_OFFSET UNITYSDK_OFFSET(0x9F78E30)
-#define RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYHIGHDPT_OFFSET UNITYSDK_OFFSET(0x9F79BB0)
-#define RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYHIGHED_OFFSET UNITYSDK_OFFSET(0x9F79AE0)
-#define RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYHIGHHP_OFFSET UNITYSDK_OFFSET(0x9F79920)
-#define RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYHIGHSPNOTFULL_OFFSET UNITYSDK_OFFSET(0x9F7A200)
-#define RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYLOWHP_OFFSET UNITYSDK_OFFSET(0x9F792B0)
-#define RPG_GAMECORE_TEAMDATACOMPONENT__TRYGETPERCENT_OFFSET UNITYSDK_OFFSET(0x9F79870)
-#define RPG_GAMECORE_TEAMDATACOMPONENT___IFIXBASEPROXY__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0x9F7A360)
-#define RPG_GAMECORE_TEAMDATACOMPONENT___SORTAUTOLOCKTARGETBYHIGHDPT_G___GETDPT_51_0_OFFSET UNITYSDK_OFFSET(0x9F79C80)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_ADDTEAMBLOCKINSTANCE_OFFSET UNITYSDK_OFFSET(0xEF36EB0)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_AUTOLOCKTARGET_OFFSET UNITYSDK_OFFSET(0xEF34680)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_CALCULATEDEFENDERTEAMBLOCKDAMAGE_OFFSET UNITYSDK_OFFSET(0xEF37AD0)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_CANCELLOCKTO_OFFSET UNITYSDK_OFFSET(0xEF36D10)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEF34500)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_FINDTEAMBLOCKINSTANCES_OFFSET UNITYSDK_OFFSET(0xEF372B0)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_FINDTEAMBLOCKINSTANCE_OFFSET UNITYSDK_OFFSET(0xEF37190)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_GETDEFENDERTEAMBLOCKDAMAGEDATALIST_OFFSET UNITYSDK_OFFSET(0xEF37850)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_BOOSTPOINTMAX_OFFSET UNITYSDK_OFFSET(0xEF385F0)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_BOOSTPOINTMODULE_OFFSET UNITYSDK_OFFSET(0xEF38590)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_BOOSTPOINT_OFFSET UNITYSDK_OFFSET(0xEF24A10)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_HPSHAREDMODULE_OFFSET UNITYSDK_OFFSET(0xEF385D0)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_LASTLOCKENEMYNORESTRICT_OFFSET UNITYSDK_OFFSET(0xEF38720)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_LASTLOCKENEMY_OFFSET UNITYSDK_OFFSET(0xEF36C20)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_LASTLOCKFRIEND_OFFSET UNITYSDK_OFFSET(0xEF36E50)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_LOCKTARGETTEMPORARY_OFFSET UNITYSDK_OFFSET(0xEF38640)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_LOCKTARGET_OFFSET UNITYSDK_OFFSET(0xEF38650)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_TEAMBLOCKINSTANCES_OFFSET UNITYSDK_OFFSET(0xEF385B0)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_TEAM_OFFSET UNITYSDK_OFFSET(0xEF38570)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_GET_VERSUSBARVALUE_OFFSET UNITYSDK_OFFSET(0xEF38730)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_INITCOMPONENT_OFFSET UNITYSDK_OFFSET(0xEF34590)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_REMOVETEAMBLOCKINSTANCE_OFFSET UNITYSDK_OFFSET(0xEF370A0)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_RESOLVEINVALIDTEAMBLOCK_OFFSET UNITYSDK_OFFSET(0xEF37FA0)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_SET_BOOSTPOINTMODULE_OFFSET UNITYSDK_OFFSET(0xEF385A0)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_SET_HPSHAREDMODULE_OFFSET UNITYSDK_OFFSET(0xEF385E0)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_SET_LASTLOCKENEMYNORESTRICT_OFFSET UNITYSDK_OFFSET(0xEF38710)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_SET_LASTLOCKENEMY_OFFSET UNITYSDK_OFFSET(0xEF386F0)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_SET_LASTLOCKFRIEND_OFFSET UNITYSDK_OFFSET(0xEF38700)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_SET_LOCKTARGETTEMPORARY_OFFSET UNITYSDK_OFFSET(0xEF0C740)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_SET_LOCKTARGET_OFFSET UNITYSDK_OFFSET(0xEF34D90)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_SET_TEAMBLOCKINSTANCES_OFFSET UNITYSDK_OFFSET(0xEF385C0)
+#define RPG_GAMECORE_TEAMDATACOMPONENT_SET_TEAM_OFFSET UNITYSDK_OFFSET(0xEF38580)
+#define RPG_GAMECORE_TEAMDATACOMPONENT__COMPAREBYAUTOLOCKTAUNT_OFFSET UNITYSDK_OFFSET(0xEF38DF0)
+#define RPG_GAMECORE_TEAMDATACOMPONENT__COMPARETEAMBLOCKDAMAGEDATARULE_OFFSET UNITYSDK_OFFSET(0xEF38290)
+#define RPG_GAMECORE_TEAMDATACOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xEF34480)
+#define RPG_GAMECORE_TEAMDATACOMPONENT__GETAITAGVALUE_OFFSET UNITYSDK_OFFSET(0xEF388D0)
+#define RPG_GAMECORE_TEAMDATACOMPONENT__GETAUTOLOCKTARGETBYHIGHWEDO_OFFSET UNITYSDK_OFFSET(0xEF350F0)
+#define RPG_GAMECORE_TEAMDATACOMPONENT__GETAUTOLOCKTARGETBYHIGHWP_OFFSET UNITYSDK_OFFSET(0xEF35C90)
+#define RPG_GAMECORE_TEAMDATACOMPONENT__GETAUTOLOCKTARGETBYJADEBP_OFFSET UNITYSDK_OFFSET(0xEF36210)
+#define RPG_GAMECORE_TEAMDATACOMPONENT__GETAUTOLOCKTARGETBYSORT_OFFSET UNITYSDK_OFFSET(0xEF35020)
+#define RPG_GAMECORE_TEAMDATACOMPONENT__GETAUTOLOCKTARGETBYSOURCE_OFFSET UNITYSDK_OFFSET(0xEF367A0)
+#define RPG_GAMECORE_TEAMDATACOMPONENT__GETEXPECTEDDAMAGE_OFFSET UNITYSDK_OFFSET(0xEF387D0)
+#define RPG_GAMECORE_TEAMDATACOMPONENT__ISVALIDFORAUTOLOCK_OFFSET UNITYSDK_OFFSET(0xEF34EA0)
+#define RPG_GAMECORE_TEAMDATACOMPONENT__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xEF34490)
+#define RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYADJOINDEFAULT_OFFSET UNITYSDK_OFFSET(0xEF391C0)
+#define RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYDEFAULT_OFFSET UNITYSDK_OFFSET(0xEF38A40)
+#define RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYHIGHDPT_OFFSET UNITYSDK_OFFSET(0xEF39860)
+#define RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYHIGHED_OFFSET UNITYSDK_OFFSET(0xEF39720)
+#define RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYHIGHHP_OFFSET UNITYSDK_OFFSET(0xEF39580)
+#define RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYHIGHSPNOTFULL_OFFSET UNITYSDK_OFFSET(0xEF39A80)
+#define RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYLOWHP_OFFSET UNITYSDK_OFFSET(0xEF38EA0)
+#define RPG_GAMECORE_TEAMDATACOMPONENT__TRYGETPERCENT_OFFSET UNITYSDK_OFFSET(0xEF39440)
+#define RPG_GAMECORE_TEAMDATACOMPONENT___IFIXBASEPROXY__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xEF39DC0)
+#define RPG_GAMECORE_TEAMDATACOMPONENT___SORTAUTOLOCKTARGETBYHIGHDPT_G___GETDPT_63_0_OFFSET UNITYSDK_OFFSET(0xEF399A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamDataComponent_TypeDefinitionIndex = 53196;
+	inline static constexpr unsigned int TeamDataComponent_TypeDefinitionIndex = 53907;
 
 	class TeamDataComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:
 		::RPG::GameCore::GameEntity* _LockTargetTemporary; // 0x18
-		::RPG::GameCore::GameEntity* _LockTargetFriend; // 0x20
-		::RPG::GameCore::GameEntity* _LockTargetEnemy; // 0x28
-		::Class_1_CC5F9F66B76D550F* _HpSharedModule_k__BackingField; // 0x30
+		::Class_1_E189E4C63AB59BB3* _HpSharedModule_k__BackingField; // 0x20
+		::Class_1_B940C10EDDC383AC* _BoostPointModule_k__BackingField; // 0x28
+		::RPG::GameCore::GameEntity* _LockTargetEnemy; // 0x30
 		::RPG::GameCore::GameEntity* _LastLockEnemyNoRestrict_k__BackingField; // 0x38
-		::Class_1_B940C10EDDC383AC* _BoostPointModule_k__BackingField; // 0x40
-		::RPG::GameCore::TeamType _Team_k__BackingField; // 0x48
-		::RPG::GameCore::TeamType _CurrentLockTargetTeam; // 0x4C
+		::System::Collections::Generic::List_1<::Class_1_0F24EAFEC305197B*>* _TeamBlockInstances_k__BackingField; // 0x40
+		::RPG::GameCore::GameEntity* _LockTargetFriend; // 0x48
+		::RPG::GameCore::TeamType _Team_k__BackingField; // 0x50
+		::RPG::GameCore::TeamType _CurrentLockTargetTeam; // 0x54
 
 		::System::Void _ctor()
 		{
@@ -92,19 +108,59 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void InitComponent(::RPG::GameCore::TeamType InitTeam)
+		::System::Void InitComponent(::RPG::GameCore::TeamType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TeamType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_INITCOMPONENT_OFFSET))(this, InitTeam);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TeamType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_INITCOMPONENT_OFFSET))(this, a1);
 		}
 
-		::System::Void AutoLockTarget(::RPG::GameCore::GameEntity* SkillCaster, ::RPG::GameCore::SkillConfig* SkillConfigData, ::RPG::GameCore::SkillData* pSkillData, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* TargetEntityList)
+		::System::Void AutoLockTarget(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::SkillConfig* a2, ::RPG::GameCore::SkillData* a3, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::SkillConfig*, ::RPG::GameCore::SkillData*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_AUTOLOCKTARGET_OFFSET))(this, SkillCaster, SkillConfigData, pSkillData, TargetEntityList);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::SkillConfig*, ::RPG::GameCore::SkillData*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_AUTOLOCKTARGET_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void CancelLockTo(::RPG::GameCore::GameEntity* target)
+		::System::Void CancelLockTo(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_CANCELLOCKTO_OFFSET))(this, target);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_CANCELLOCKTO_OFFSET))(this, a1);
+		}
+
+		::System::Void AddTeamBlockInstance(::Class_1_0F24EAFEC305197B* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_0F24EAFEC305197B*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_ADDTEAMBLOCKINSTANCE_OFFSET))(this, a1);
+		}
+
+		::System::Void RemoveTeamBlockInstance(::RPG::GameCore::TurnBasedModifierInstance* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_REMOVETEAMBLOCKINSTANCE_OFFSET))(this, a1);
+		}
+
+		::Class_1_0F24EAFEC305197B* FindTeamBlockInstance(::RPG::GameCore::TurnBasedModifierInstance* a1)
+		{
+			return ((::Class_1_0F24EAFEC305197B*(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_FINDTEAMBLOCKINSTANCE_OFFSET))(this, a1);
+		}
+
+		::RPG::PoolList_1<::Class_1_0F24EAFEC305197B*>* FindTeamBlockInstances(::RPG::GameCore::GameEntity* a1, ::Il2CppArray<::System::String*>* a2)
+		{
+			return ((::RPG::PoolList_1<::Class_1_0F24EAFEC305197B*>*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_FINDTEAMBLOCKINSTANCES_OFFSET))(this, a1, a2);
+		}
+
+		::RPG::PoolList_1<::Struct_2_EF7C37AF69DC7CE6>* GetDefenderTeamBlockDamageDataList(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::RPG::PoolList_1<::Struct_2_EF7C37AF69DC7CE6>*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_GETDEFENDERTEAMBLOCKDAMAGEDATALIST_OFFSET))(this, a1);
+		}
+
+		::System::Void CalculateDefenderTeamBlockDamage(::System::Collections::Generic::List_1<::Struct_2_EF7C37AF69DC7CE6>* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::FixPoint& a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Struct_2_EF7C37AF69DC7CE6>*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_CALCULATEDEFENDERTEAMBLOCKDAMAGE_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void ResolveInvalidTeamBlock()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_RESOLVEINVALIDTEAMBLOCK_OFFSET))(this);
+		}
+
+		::System::Int32 _CompareTeamBlockDamageDataRule(::Struct_2_EF7C37AF69DC7CE6 a1, ::Struct_2_EF7C37AF69DC7CE6 a2)
+		{
+			return ((::System::Int32(*)(::PVOID, ::Struct_2_EF7C37AF69DC7CE6, ::Struct_2_EF7C37AF69DC7CE6))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__COMPARETEAMBLOCKDAMAGEDATARULE_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::GameCore::TeamType get_Team()
@@ -112,9 +168,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::TeamType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_GET_TEAM_OFFSET))(this);
 		}
 
-		::System::Void set_Team(::RPG::GameCore::TeamType value)
+		::System::Void set_Team(::RPG::GameCore::TeamType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TeamType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_SET_TEAM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TeamType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_SET_TEAM_OFFSET))(this, a1);
 		}
 
 		::Class_1_B940C10EDDC383AC* get_BoostPointModule()
@@ -122,9 +178,19 @@ namespace RPG::GameCore
 			return ((::Class_1_B940C10EDDC383AC*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_GET_BOOSTPOINTMODULE_OFFSET))(this);
 		}
 
-		::System::Void set_BoostPointModule(::Class_1_B940C10EDDC383AC* value)
+		::System::Void set_BoostPointModule(::Class_1_B940C10EDDC383AC* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_B940C10EDDC383AC*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_SET_BOOSTPOINTMODULE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Class_1_B940C10EDDC383AC*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_SET_BOOSTPOINTMODULE_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::List_1<::Class_1_0F24EAFEC305197B*>* get_TeamBlockInstances()
+		{
+			return ((::System::Collections::Generic::List_1<::Class_1_0F24EAFEC305197B*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_GET_TEAMBLOCKINSTANCES_OFFSET))(this);
+		}
+
+		::System::Void set_TeamBlockInstances(::System::Collections::Generic::List_1<::Class_1_0F24EAFEC305197B*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_0F24EAFEC305197B*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_SET_TEAMBLOCKINSTANCES_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_BoostPoint()
@@ -132,14 +198,14 @@ namespace RPG::GameCore
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_GET_BOOSTPOINT_OFFSET))(this);
 		}
 
-		::Class_1_CC5F9F66B76D550F* get_HpSharedModule()
+		::Class_1_E189E4C63AB59BB3* get_HpSharedModule()
 		{
-			return ((::Class_1_CC5F9F66B76D550F*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_GET_HPSHAREDMODULE_OFFSET))(this);
+			return ((::Class_1_E189E4C63AB59BB3*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_GET_HPSHAREDMODULE_OFFSET))(this);
 		}
 
-		::System::Void set_HpSharedModule(::Class_1_CC5F9F66B76D550F* value)
+		::System::Void set_HpSharedModule(::Class_1_E189E4C63AB59BB3* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_CC5F9F66B76D550F*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_SET_HPSHAREDMODULE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Class_1_E189E4C63AB59BB3*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_SET_HPSHAREDMODULE_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_BoostPointMax()
@@ -152,9 +218,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_GET_LOCKTARGETTEMPORARY_OFFSET))(this);
 		}
 
-		::System::Void set_LockTargetTemporary(::RPG::GameCore::GameEntity* value)
+		::System::Void set_LockTargetTemporary(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_SET_LOCKTARGETTEMPORARY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_SET_LOCKTARGETTEMPORARY_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::GameEntity* get_LockTarget()
@@ -162,14 +228,14 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_GET_LOCKTARGET_OFFSET))(this);
 		}
 
-		::System::Void set_LockTarget(::RPG::GameCore::GameEntity* value)
+		::System::Void set_LockTarget(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_SET_LOCKTARGET_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_SET_LOCKTARGET_OFFSET))(this, a1);
 		}
 
-		::System::Void set_LastLockEnemy(::RPG::GameCore::GameEntity* value)
+		::System::Void set_LastLockEnemy(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_SET_LASTLOCKENEMY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_SET_LASTLOCKENEMY_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::GameEntity* get_LastLockEnemy()
@@ -177,9 +243,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_GET_LASTLOCKENEMY_OFFSET))(this);
 		}
 
-		::System::Void set_LastLockFriend(::RPG::GameCore::GameEntity* value)
+		::System::Void set_LastLockFriend(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_SET_LASTLOCKFRIEND_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_SET_LASTLOCKFRIEND_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::GameEntity* get_LastLockFriend()
@@ -187,9 +253,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_GET_LASTLOCKFRIEND_OFFSET))(this);
 		}
 
-		::System::Void set_LastLockEnemyNoRestrict(::RPG::GameCore::GameEntity* value)
+		::System::Void set_LastLockEnemyNoRestrict(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_SET_LASTLOCKENEMYNORESTRICT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_SET_LASTLOCKENEMYNORESTRICT_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::GameEntity* get_LastLockEnemyNoRestrict()
@@ -202,94 +268,94 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT_GET_VERSUSBARVALUE_OFFSET))(this);
 		}
 
-		::RPG::GameCore::FixPoint _GetExpectedDamage(::RPG::GameCore::TurnBasedAbilityComponent* pTargetTBACmpt)
+		::RPG::GameCore::FixPoint _GetExpectedDamage(::RPG::GameCore::TurnBasedAbilityComponent* a1)
 		{
-			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::GameCore::TurnBasedAbilityComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__GETEXPECTEDDAMAGE_OFFSET))(this, pTargetTBACmpt);
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::GameCore::TurnBasedAbilityComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__GETEXPECTEDDAMAGE_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::FixPoint _GetAITagValue(::RPG::GameCore::GameEntity* pTarget, ::RPG::GameCore::SkillAutoLockType eLockType)
+		::RPG::GameCore::FixPoint _GetAITagValue(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::SkillAutoLockType a2)
 		{
-			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::SkillAutoLockType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__GETAITAGVALUE_OFFSET))(this, pTarget, eLockType);
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::SkillAutoLockType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__GETAITAGVALUE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean _IsValidForAutoLock(::RPG::GameCore::GameEntity* pTarget, ::RPG::GameCore::GameEntity* pSkillCaster, ::RPG::GameCore::SkillConfig* pSkillConfigData, ::RPG::GameCore::SkillData* pSkillData)
+		::System::Boolean _IsValidForAutoLock(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::SkillData* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::SkillConfig*, ::RPG::GameCore::SkillData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__ISVALIDFORAUTOLOCK_OFFSET))(this, pTarget, pSkillCaster, pSkillConfigData, pSkillData);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::SkillData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__ISVALIDFORAUTOLOCK_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::GameCore::GameEntity* _GetAutoLockTargetBySort(::RPG::GameCore::GameEntityList* pTargetEntityList, ::System::Comparison_1<::RPG::GameCore::GameEntity*>* pComparer)
+		::RPG::GameCore::GameEntity* _GetAutoLockTargetBySort(::RPG::GameCore::GameEntityList* a1, ::System::Comparison_1<::RPG::GameCore::GameEntity*>* a2)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::GameEntityList*, ::System::Comparison_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__GETAUTOLOCKTARGETBYSORT_OFFSET))(this, pTargetEntityList, pComparer);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::GameEntityList*, ::System::Comparison_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__GETAUTOLOCKTARGETBYSORT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _SortAutoLockTargetByDefault(::RPG::GameCore::GameEntity* a, ::RPG::GameCore::GameEntity* b)
+		::System::Int32 _SortAutoLockTargetByDefault(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYDEFAULT_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYDEFAULT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _CompareByAutoLockTaunt(::RPG::GameCore::TurnBasedAbilityComponent* aCmpt, ::RPG::GameCore::TurnBasedAbilityComponent* bCmpt)
+		::System::Int32 _CompareByAutoLockTaunt(::RPG::GameCore::TurnBasedAbilityComponent* a1, ::RPG::GameCore::TurnBasedAbilityComponent* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::TurnBasedAbilityComponent*, ::RPG::GameCore::TurnBasedAbilityComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__COMPAREBYAUTOLOCKTAUNT_OFFSET))(this, aCmpt, bCmpt);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::TurnBasedAbilityComponent*, ::RPG::GameCore::TurnBasedAbilityComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__COMPAREBYAUTOLOCKTAUNT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _SortAutoLockTargetByAdjoinDefault(::RPG::GameCore::GameEntity* a, ::RPG::GameCore::GameEntity* b)
+		::System::Int32 _SortAutoLockTargetByAdjoinDefault(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYADJOINDEFAULT_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYADJOINDEFAULT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean _TryGetPercent(::RPG::GameCore::FixPoint& fPercent, ::RPG::GameCore::TurnBasedAbilityComponent* pTargetEntity, ::RPG::GameCore::AbilityProperty eCurType, ::RPG::GameCore::AbilityProperty eMaxType)
+		::System::Boolean _TryGetPercent(::RPG::GameCore::FixPoint& a1, ::RPG::GameCore::TurnBasedAbilityComponent* a2, ::RPG::GameCore::AbilityProperty a3, ::RPG::GameCore::AbilityProperty a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::FixPoint&, ::RPG::GameCore::TurnBasedAbilityComponent*, ::RPG::GameCore::AbilityProperty, ::RPG::GameCore::AbilityProperty))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__TRYGETPERCENT_OFFSET))(this, fPercent, pTargetEntity, eCurType, eMaxType);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::FixPoint&, ::RPG::GameCore::TurnBasedAbilityComponent*, ::RPG::GameCore::AbilityProperty, ::RPG::GameCore::AbilityProperty))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__TRYGETPERCENT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Int32 _SortAutoLockTargetByLowHp(::RPG::GameCore::GameEntity* a, ::RPG::GameCore::GameEntity* b)
+		::System::Int32 _SortAutoLockTargetByLowHp(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYLOWHP_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYLOWHP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _SortAutoLockTargetByHighHp(::RPG::GameCore::GameEntity* a, ::RPG::GameCore::GameEntity* b)
+		::System::Int32 _SortAutoLockTargetByHighHp(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYHIGHHP_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYHIGHHP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _SortAutoLockTargetByHighED(::RPG::GameCore::GameEntity* a, ::RPG::GameCore::GameEntity* b)
+		::System::Int32 _SortAutoLockTargetByHighED(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYHIGHED_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYHIGHED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _SortAutoLockTargetByHighDPT(::RPG::GameCore::GameEntity* a, ::RPG::GameCore::GameEntity* b)
+		::System::Int32 _SortAutoLockTargetByHighDPT(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYHIGHDPT_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYHIGHDPT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _SortAutoLockTargetByHighSPNotFull(::RPG::GameCore::GameEntity* a, ::RPG::GameCore::GameEntity* b)
+		::System::Int32 _SortAutoLockTargetByHighSPNotFull(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYHIGHSPNOTFULL_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__SORTAUTOLOCKTARGETBYHIGHSPNOTFULL_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::GameCore::GameEntity* _GetAutoLockTargetByHighWEDO(::RPG::GameCore::GameEntityList* pTargetEntityList, ::RPG::GameCore::SkillConfig* pSkillConfigData)
+		::RPG::GameCore::GameEntity* _GetAutoLockTargetByHighWEDO(::RPG::GameCore::GameEntityList* a1, ::RPG::GameCore::SkillData* a2)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::GameEntityList*, ::RPG::GameCore::SkillConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__GETAUTOLOCKTARGETBYHIGHWEDO_OFFSET))(this, pTargetEntityList, pSkillConfigData);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::GameEntityList*, ::RPG::GameCore::SkillData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__GETAUTOLOCKTARGETBYHIGHWEDO_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::GameCore::GameEntity* _GetAutoLockTargetByHighWP(::RPG::GameCore::GameEntityList* pTargetEntityList, ::RPG::GameCore::SkillConfig* pSkillConfigData)
+		::RPG::GameCore::GameEntity* _GetAutoLockTargetByHighWP(::RPG::GameCore::GameEntityList* a1, ::RPG::GameCore::SkillData* a2)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::GameEntityList*, ::RPG::GameCore::SkillConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__GETAUTOLOCKTARGETBYHIGHWP_OFFSET))(this, pTargetEntityList, pSkillConfigData);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::GameEntityList*, ::RPG::GameCore::SkillData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__GETAUTOLOCKTARGETBYHIGHWP_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::GameCore::GameEntity* _GetAutoLockTargetByJadeBP(::RPG::GameCore::GameEntity* pJade, ::RPG::GameCore::GameEntityList* pTargetEntityList)
+		::RPG::GameCore::GameEntity* _GetAutoLockTargetByJadeBP(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntityList* a2)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntityList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__GETAUTOLOCKTARGETBYJADEBP_OFFSET))(this, pJade, pTargetEntityList);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntityList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__GETAUTOLOCKTARGETBYJADEBP_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::GameCore::GameEntity* _GetAutoLockTargetBySource(::RPG::GameCore::GameEntity* pSkillCaster, ::RPG::GameCore::GameEntityList* pTargetEntityList, ::RPG::GameCore::SkillData* pSkillData)
+		::RPG::GameCore::GameEntity* _GetAutoLockTargetBySource(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntityList* a2, ::RPG::GameCore::SkillData* a3)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntityList*, ::RPG::GameCore::SkillData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__GETAUTOLOCKTARGETBYSOURCE_OFFSET))(this, pSkillCaster, pTargetEntityList, pSkillData);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntityList*, ::RPG::GameCore::SkillData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT__GETAUTOLOCKTARGETBYSOURCE_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::RPG::GameCore::FixPoint __SortAutoLockTargetByHighDPT_g___GetDPT_51_0(::RPG::GameCore::TurnBasedAbilityComponent* pTargetTBACmpt)
+		static ::RPG::GameCore::FixPoint __SortAutoLockTargetByHighDPT_g___GetDPT_63_0(::RPG::GameCore::TurnBasedAbilityComponent* a1)
 		{
-			return ((::RPG::GameCore::FixPoint(*)(::RPG::GameCore::TurnBasedAbilityComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT___SORTAUTOLOCKTARGETBYHIGHDPT_G___GETDPT_51_0_OFFSET))(pTargetTBACmpt);
+			return ((::RPG::GameCore::FixPoint(*)(::RPG::GameCore::TurnBasedAbilityComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMDATACOMPONENT___SORTAUTOLOCKTARGETBYHIGHDPT_G___GETDPT_63_0_OFFSET))(a1);
 		}
 
 		::System::Void __iFixBaseProxy__OnInitOwnerRef()

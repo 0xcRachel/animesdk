@@ -7,39 +7,39 @@
 
 namespace EzySlice { class IntersectionResult; }
 
-#define EZYSLICE_TRIANGLE_BARYCENTRIC_OFFSET UNITYSDK_OFFSET(0x22EFF10)
-#define EZYSLICE_TRIANGLE_COMPUTETANGENTS_OFFSET UNITYSDK_OFFSET(0x22EFF00)
-#define EZYSLICE_TRIANGLE_GENERATENORMAL_OFFSET UNITYSDK_OFFSET(0x22EFFF0)
-#define EZYSLICE_TRIANGLE_GENERATETANGENT_OFFSET UNITYSDK_OFFSET(0x22F00C0)
-#define EZYSLICE_TRIANGLE_GENERATEUV_OFFSET UNITYSDK_OFFSET(0x22EFF40)
-#define EZYSLICE_TRIANGLE_GET_HASNORMAL_OFFSET UNITYSDK_OFFSET(0x22EFDE0)
-#define EZYSLICE_TRIANGLE_GET_HASTANGENT_OFFSET UNITYSDK_OFFSET(0x22EFE90)
-#define EZYSLICE_TRIANGLE_GET_HASUV_OFFSET UNITYSDK_OFFSET(0x22EFDB0)
-#define EZYSLICE_TRIANGLE_GET_NORMALA_OFFSET UNITYSDK_OFFSET(0x225ECC0)
-#define EZYSLICE_TRIANGLE_GET_NORMALB_OFFSET UNITYSDK_OFFSET(0x22EFE50)
-#define EZYSLICE_TRIANGLE_GET_NORMALC_OFFSET UNITYSDK_OFFSET(0x22EFE70)
-#define EZYSLICE_TRIANGLE_GET_POSITIONA_OFFSET UNITYSDK_OFFSET(0x657BF0)
-#define EZYSLICE_TRIANGLE_GET_POSITIONB_OFFSET UNITYSDK_OFFSET(0x1FF82F0)
-#define EZYSLICE_TRIANGLE_GET_POSITIONC_OFFSET UNITYSDK_OFFSET(0x225B060)
-#define EZYSLICE_TRIANGLE_GET_TANGENTA_OFFSET UNITYSDK_OFFSET(0x22EFEE0)
-#define EZYSLICE_TRIANGLE_GET_TANGENTB_OFFSET UNITYSDK_OFFSET(0x225EDA0)
-#define EZYSLICE_TRIANGLE_GET_TANGENTC_OFFSET UNITYSDK_OFFSET(0x22EFEF0)
-#define EZYSLICE_TRIANGLE_GET_UVA_OFFSET UNITYSDK_OFFSET(0xF5F790)
-#define EZYSLICE_TRIANGLE_GET_UVB_OFFSET UNITYSDK_OFFSET(0xF5F800)
-#define EZYSLICE_TRIANGLE_GET_UVC_OFFSET UNITYSDK_OFFSET(0xF5F870)
-#define EZYSLICE_TRIANGLE_ISCW_OFFSET UNITYSDK_OFFSET(0x22F01D0)
-#define EZYSLICE_TRIANGLE_ONDEBUGDRAW_1_OFFSET UNITYSDK_OFFSET(0x545E40)
-#define EZYSLICE_TRIANGLE_ONDEBUGDRAW_OFFSET UNITYSDK_OFFSET(0x545E40)
-#define EZYSLICE_TRIANGLE_SETNORMAL_OFFSET UNITYSDK_OFFSET(0x22EFDF0)
-#define EZYSLICE_TRIANGLE_SETTANGENT_OFFSET UNITYSDK_OFFSET(0x22EFEA0)
-#define EZYSLICE_TRIANGLE_SETUV_OFFSET UNITYSDK_OFFSET(0x22EFDC0)
-#define EZYSLICE_TRIANGLE_SIGNEDSQUARE_OFFSET UNITYSDK_OFFSET(0x18D0ADE0)
-#define EZYSLICE_TRIANGLE_SPLIT_OFFSET UNITYSDK_OFFSET(0x22F0170)
-#define EZYSLICE_TRIANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x22EFCC0)
+#define EZYSLICE_TRIANGLE_BARYCENTRIC_OFFSET UNITYSDK_OFFSET(0x389E220)
+#define EZYSLICE_TRIANGLE_COMPUTETANGENTS_OFFSET UNITYSDK_OFFSET(0x389E210)
+#define EZYSLICE_TRIANGLE_GENERATENORMAL_OFFSET UNITYSDK_OFFSET(0x389E300)
+#define EZYSLICE_TRIANGLE_GENERATETANGENT_OFFSET UNITYSDK_OFFSET(0x389E3D0)
+#define EZYSLICE_TRIANGLE_GENERATEUV_OFFSET UNITYSDK_OFFSET(0x389E250)
+#define EZYSLICE_TRIANGLE_GET_HASNORMAL_OFFSET UNITYSDK_OFFSET(0x389E0F0)
+#define EZYSLICE_TRIANGLE_GET_HASTANGENT_OFFSET UNITYSDK_OFFSET(0x389E1A0)
+#define EZYSLICE_TRIANGLE_GET_HASUV_OFFSET UNITYSDK_OFFSET(0x389E0C0)
+#define EZYSLICE_TRIANGLE_GET_NORMALA_OFFSET UNITYSDK_OFFSET(0x37A1080)
+#define EZYSLICE_TRIANGLE_GET_NORMALB_OFFSET UNITYSDK_OFFSET(0x389E160)
+#define EZYSLICE_TRIANGLE_GET_NORMALC_OFFSET UNITYSDK_OFFSET(0x389E180)
+#define EZYSLICE_TRIANGLE_GET_POSITIONA_OFFSET UNITYSDK_OFFSET(0xFD37D0)
+#define EZYSLICE_TRIANGLE_GET_POSITIONB_OFFSET UNITYSDK_OFFSET(0x3742C20)
+#define EZYSLICE_TRIANGLE_GET_POSITIONC_OFFSET UNITYSDK_OFFSET(0x381D650)
+#define EZYSLICE_TRIANGLE_GET_TANGENTA_OFFSET UNITYSDK_OFFSET(0x389E1F0)
+#define EZYSLICE_TRIANGLE_GET_TANGENTB_OFFSET UNITYSDK_OFFSET(0x37A1160)
+#define EZYSLICE_TRIANGLE_GET_TANGENTC_OFFSET UNITYSDK_OFFSET(0x389E200)
+#define EZYSLICE_TRIANGLE_GET_UVA_OFFSET UNITYSDK_OFFSET(0xB24C10)
+#define EZYSLICE_TRIANGLE_GET_UVB_OFFSET UNITYSDK_OFFSET(0x2E784E0)
+#define EZYSLICE_TRIANGLE_GET_UVC_OFFSET UNITYSDK_OFFSET(0xB24A90)
+#define EZYSLICE_TRIANGLE_ISCW_OFFSET UNITYSDK_OFFSET(0x389E4E0)
+#define EZYSLICE_TRIANGLE_ONDEBUGDRAW_1_OFFSET UNITYSDK_OFFSET(0x5F2300)
+#define EZYSLICE_TRIANGLE_ONDEBUGDRAW_OFFSET UNITYSDK_OFFSET(0x5F2300)
+#define EZYSLICE_TRIANGLE_SETNORMAL_OFFSET UNITYSDK_OFFSET(0x389E100)
+#define EZYSLICE_TRIANGLE_SETTANGENT_OFFSET UNITYSDK_OFFSET(0x389E1B0)
+#define EZYSLICE_TRIANGLE_SETUV_OFFSET UNITYSDK_OFFSET(0x389E0D0)
+#define EZYSLICE_TRIANGLE_SIGNEDSQUARE_OFFSET UNITYSDK_OFFSET(0x19C5E390)
+#define EZYSLICE_TRIANGLE_SPLIT_OFFSET UNITYSDK_OFFSET(0x389E480)
+#define EZYSLICE_TRIANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x389DFD0)
 
 namespace EzySlice
 {
-	inline static constexpr unsigned int Triangle_TypeDefinitionIndex = 43813;
+	inline static constexpr unsigned int Triangle_TypeDefinitionIndex = 44355;
 
 	struct alignas(4) Triangle
 	{
@@ -59,9 +59,9 @@ namespace EzySlice
 		::UnityEngine::Vector4 m_tan_b; // 0x8C
 		::UnityEngine::Vector4 m_tan_c; // 0x9C
 
-		::System::Void _ctor(::UnityEngine::Vector3 posa, ::UnityEngine::Vector3 posb, ::UnityEngine::Vector3 posc)
+		::System::Void _ctor(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE__CTOR_OFFSET))(this, posa, posb, posc);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Vector3 get_positionA()
@@ -84,9 +84,9 @@ namespace EzySlice
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_GET_HASUV_OFFSET))(this);
 		}
 
-		::System::Void SetUV(::UnityEngine::Vector2 uvA, ::UnityEngine::Vector2 uvB, ::UnityEngine::Vector2 uvC)
+		::System::Void SetUV(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_SETUV_OFFSET))(this, uvA, uvB, uvC);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_SETUV_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Vector2 get_uvA()
@@ -109,9 +109,9 @@ namespace EzySlice
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_GET_HASNORMAL_OFFSET))(this);
 		}
 
-		::System::Void SetNormal(::UnityEngine::Vector3 norA, ::UnityEngine::Vector3 norB, ::UnityEngine::Vector3 norC)
+		::System::Void SetNormal(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_SETNORMAL_OFFSET))(this, norA, norB, norC);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_SETNORMAL_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Vector3 get_normalA()
@@ -134,9 +134,9 @@ namespace EzySlice
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_GET_HASTANGENT_OFFSET))(this);
 		}
 
-		::System::Void SetTangent(::UnityEngine::Vector4 tanA, ::UnityEngine::Vector4 tanB, ::UnityEngine::Vector4 tanC)
+		::System::Void SetTangent(::UnityEngine::Vector4 a1, ::UnityEngine::Vector4 a2, ::UnityEngine::Vector4 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_SETTANGENT_OFFSET))(this, tanA, tanB, tanC);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_SETTANGENT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Vector4 get_tangentA()
@@ -159,30 +159,30 @@ namespace EzySlice
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_COMPUTETANGENTS_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 Barycentric(::UnityEngine::Vector3 p)
+		::UnityEngine::Vector3 Barycentric(::UnityEngine::Vector3 a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_BARYCENTRIC_OFFSET))(this, p);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_BARYCENTRIC_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector2 GenerateUV(::UnityEngine::Vector3 pt)
+		::UnityEngine::Vector2 GenerateUV(::UnityEngine::Vector3 a1)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_GENERATEUV_OFFSET))(this, pt);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_GENERATEUV_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 GenerateNormal(::UnityEngine::Vector3 pt)
+		::UnityEngine::Vector3 GenerateNormal(::UnityEngine::Vector3 a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_GENERATENORMAL_OFFSET))(this, pt);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_GENERATENORMAL_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector4 GenerateTangent(::UnityEngine::Vector3 pt)
+		::UnityEngine::Vector4 GenerateTangent(::UnityEngine::Vector3 a1)
 		{
-			return ((::UnityEngine::Vector4(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_GENERATETANGENT_OFFSET))(this, pt);
+			return ((::UnityEngine::Vector4(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_GENERATETANGENT_OFFSET))(this, a1);
 		}
 
 		/*
-		::System::Boolean Split(::EzySlice::Plane pl, ::EzySlice::IntersectionResult* result)
+		::System::Boolean Split(::EzySlice::Plane a1, ::EzySlice::IntersectionResult* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::EzySlice::Plane, ::EzySlice::IntersectionResult*))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_SPLIT_OFFSET))(this, pl, result);
+			return ((::System::Boolean(*)(::PVOID, ::EzySlice::Plane, ::EzySlice::IntersectionResult*))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_SPLIT_OFFSET))(this, a1, a2);
 		}
 		*/
 
@@ -191,9 +191,9 @@ namespace EzySlice
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_ISCW_OFFSET))(this);
 		}
 
-		static ::System::Single SignedSquare(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 c)
+		static ::System::Single SignedSquare(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Single(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_SIGNEDSQUARE_OFFSET))(a, b, c);
+			return ((::System::Single(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_SIGNEDSQUARE_OFFSET))(a1, a2, a3);
 		}
 
 		::System::Void OnDebugDraw()
@@ -202,9 +202,9 @@ namespace EzySlice
 		}
 
 		/*
-		::System::Void OnDebugDraw_1(::UnityEngine::Color drawColor)
+		::System::Void OnDebugDraw_1(::UnityEngine::Color a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_ONDEBUGDRAW_1_OFFSET))(this, drawColor);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGLE_ONDEBUGDRAW_1_OFFSET))(this, a1);
 		}
 		*/
 	};

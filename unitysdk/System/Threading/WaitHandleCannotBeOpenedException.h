@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_THREADING_WAITHANDLECANNOTBEOPENEDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18BD8EC0)
-#define SYSTEM_THREADING_WAITHANDLECANNOTBEOPENEDEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x18BD8F30)
-#define SYSTEM_THREADING_WAITHANDLECANNOTBEOPENEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD8E20)
+#define SYSTEM_THREADING_WAITHANDLECANNOTBEOPENEDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18D92F20)
+#define SYSTEM_THREADING_WAITHANDLECANNOTBEOPENEDEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x18D92F90)
+#define SYSTEM_THREADING_WAITHANDLECANNOTBEOPENEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18D92E80)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int WaitHandleCannotBeOpenedException_TypeDefinitionIndex = 869;
+	inline static constexpr unsigned int WaitHandleCannotBeOpenedException_TypeDefinitionIndex = 868;
 
 	class WaitHandleCannotBeOpenedException : public ::System::ApplicationException
 	{
@@ -22,14 +22,14 @@ namespace System::Threading
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLECANNOTBEOPENEDEXCEPTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* message)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLECANNOTBEOPENEDEXCEPTION__CTOR_1_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLECANNOTBEOPENEDEXCEPTION__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLECANNOTBEOPENEDEXCEPTION__CTOR_2_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITHANDLECANNOTBEOPENEDEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -4,33 +4,33 @@
 
 class Class_1_ADE34076259CCCF7_1;
 
-#define RPG_CLIENT_AVATARARCHIVEINFODATA_APPLYCHANGEINFO_OFFSET UNITYSDK_OFFSET(0x15872F90)
-#define RPG_CLIENT_AVATARARCHIVEINFODATA_GET_CAMPID_OFFSET UNITYSDK_OFFSET(0x15873060)
-#define RPG_CLIENT_AVATARARCHIVEINFODATA_GET_ISCAMPNEW_OFFSET UNITYSDK_OFFSET(0x15873080)
-#define RPG_CLIENT_AVATARARCHIVEINFODATA_RECORDSEEN_OFFSET UNITYSDK_OFFSET(0x15873000)
-#define RPG_CLIENT_AVATARARCHIVEINFODATA_SET_CAMPID_OFFSET UNITYSDK_OFFSET(0x15873070)
-#define RPG_CLIENT_AVATARARCHIVEINFODATA_SET_ISCAMPNEW_OFFSET UNITYSDK_OFFSET(0x15873090)
-#define RPG_CLIENT_AVATARARCHIVEINFODATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15872D70)
+#define RPG_CLIENT_AVATARARCHIVEINFODATA_APPLYCHANGEINFO_OFFSET UNITYSDK_OFFSET(0x15997320)
+#define RPG_CLIENT_AVATARARCHIVEINFODATA_GET_CAMPID_OFFSET UNITYSDK_OFFSET(0x159973F0)
+#define RPG_CLIENT_AVATARARCHIVEINFODATA_GET_ISCAMPNEW_OFFSET UNITYSDK_OFFSET(0x15997410)
+#define RPG_CLIENT_AVATARARCHIVEINFODATA_RECORDSEEN_OFFSET UNITYSDK_OFFSET(0x15997390)
+#define RPG_CLIENT_AVATARARCHIVEINFODATA_SET_CAMPID_OFFSET UNITYSDK_OFFSET(0x15997400)
+#define RPG_CLIENT_AVATARARCHIVEINFODATA_SET_ISCAMPNEW_OFFSET UNITYSDK_OFFSET(0x15997420)
+#define RPG_CLIENT_AVATARARCHIVEINFODATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15997180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarArchiveInfoData_TypeDefinitionIndex = 57593;
+	inline static constexpr unsigned int AvatarArchiveInfoData_TypeDefinitionIndex = 58405;
 
 	class AvatarArchiveInfoData : public ::System::Object
 	{
 	public:
 		::System::UInt32 _ChangeID; // 0x10
-		::System::Boolean _IsCampNew_k__BackingField; // 0x14
-		::System::UInt32 _CampID_k__BackingField; // 0x18
+		::System::UInt32 _CampID_k__BackingField; // 0x14
+		::System::Boolean _IsCampNew_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::UInt32 avatarID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARARCHIVEINFODATA__CTOR_OFFSET))(this, avatarID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARARCHIVEINFODATA__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void ApplyChangeInfo(::Class_1_ADE34076259CCCF7_1* changeConfig)
+		::System::Void ApplyChangeInfo(::Class_1_ADE34076259CCCF7_1* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_ADE34076259CCCF7_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARARCHIVEINFODATA_APPLYCHANGEINFO_OFFSET))(this, changeConfig);
+			return ((::System::Void(*)(::PVOID, ::Class_1_ADE34076259CCCF7_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARARCHIVEINFODATA_APPLYCHANGEINFO_OFFSET))(this, a1);
 		}
 
 		::System::Void RecordSeen()
@@ -43,9 +43,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARARCHIVEINFODATA_GET_CAMPID_OFFSET))(this);
 		}
 
-		::System::Void set_CampID(::System::UInt32 value)
+		::System::Void set_CampID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARARCHIVEINFODATA_SET_CAMPID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARARCHIVEINFODATA_SET_CAMPID_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsCampNew()
@@ -53,9 +53,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARARCHIVEINFODATA_GET_ISCAMPNEW_OFFSET))(this);
 		}
 
-		::System::Void set_IsCampNew(::System::Boolean value)
+		::System::Void set_IsCampNew(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARARCHIVEINFODATA_SET_ISCAMPNEW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARARCHIVEINFODATA_SET_ISCAMPNEW_OFFSET))(this, a1);
 		}
 	};
 }

@@ -7,17 +7,17 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_GET_CLOSENOTIFYTYPE_OFFSET UNITYSDK_OFFSET(0x16F3F310)
-#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_GET_UINAME_OFFSET UNITYSDK_OFFSET(0x16F3F2F0)
-#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x16F3F330)
-#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_SET_CLOSENOTIFYTYPE_OFFSET UNITYSDK_OFFSET(0x16F3F320)
-#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_SET_UINAME_OFFSET UNITYSDK_OFFSET(0x16F3F300)
-#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x16F3F3C0)
-#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x16F3F3D0)
+#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_GET_CLOSENOTIFYTYPE_OFFSET UNITYSDK_OFFSET(0x198B9030)
+#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_GET_UINAME_OFFSET UNITYSDK_OFFSET(0x198B9010)
+#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x198B9050)
+#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_SET_CLOSENOTIFYTYPE_OFFSET UNITYSDK_OFFSET(0x198B9040)
+#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_SET_UINAME_OFFSET UNITYSDK_OFFSET(0x198B9020)
+#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x198B90E0)
+#define RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x198B90F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int BaseHideDialogBehaviour_TypeDefinitionIndex = 45027;
+	inline static constexpr unsigned int BaseHideDialogBehaviour_TypeDefinitionIndex = 45575;
 
 	class BaseHideDialogBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -35,9 +35,9 @@ namespace RPGTools::Timeline
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_GET_UINAME_OFFSET))(this);
 		}
 
-		::System::Void set_UIName(::System::String* value)
+		::System::Void set_UIName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_SET_UINAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_SET_UINAME_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::NotifyType get_CloseNotifyType()
@@ -45,9 +45,9 @@ namespace RPGTools::Timeline
 			return ((::RPG::Client::NotifyType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_GET_CLOSENOTIFYTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_CloseNotifyType(::RPG::Client::NotifyType value)
+		::System::Void set_CloseNotifyType(::RPG::Client::NotifyType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::NotifyType))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_SET_CLOSENOTIFYTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::NotifyType))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_SET_CLOSENOTIFYTYPE_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -55,9 +55,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BASEHIDEDIALOGBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

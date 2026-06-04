@@ -3,60 +3,60 @@
 #include "unitysdk/RPG/Client/AssetsStaticFlag.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_71;
+class Class_0_16E4307DCC419505_70;
 namespace SimpleJSON { class JSONClass; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::IO { class StreamWriter; }
 
-#define CLASS_1_CE2AC6C9C34CBBD2_GET_ASSETFLAGS_OFFSET UNITYSDK_OFFSET(0x16FC1330)
-#define CLASS_1_CE2AC6C9C34CBBD2_GET_BLOCKCONTENTHASH_OFFSET UNITYSDK_OFFSET(0x16FC13B0)
-#define CLASS_1_CE2AC6C9C34CBBD2_GET_BUNDLESHORTNAMEHASH_OFFSET UNITYSDK_OFFSET(0x16FC1390)
-#define CLASS_1_CE2AC6C9C34CBBD2_GET_BUNDLESHORTNAME_OFFSET UNITYSDK_OFFSET(0x16FC1370)
-#define CLASS_1_CE2AC6C9C34CBBD2_GET_FILESIZE_OFFSET UNITYSDK_OFFSET(0x16FC1310)
-#define CLASS_1_CE2AC6C9C34CBBD2_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x16FC1350)
-#define CLASS_1_CE2AC6C9C34CBBD2_GET_OFFSET_OFFSET UNITYSDK_OFFSET(0x16FC12F0)
-#define CLASS_1_CE2AC6C9C34CBBD2_GET_RELATIVEPATH_OFFSET UNITYSDK_OFFSET(0x16FC14F0)
-#define CLASS_1_CE2AC6C9C34CBBD2_GET_SUBPACKID_OFFSET UNITYSDK_OFFSET(0x16FC12D0)
-#define CLASS_1_CE2AC6C9C34CBBD2_METHOD_1_2C4CACFCB85F415D_OFFSET UNITYSDK_OFFSET(0x16FC13D0)
-#define CLASS_1_CE2AC6C9C34CBBD2_METHOD_1_7CC2462FD595A34A_OFFSET UNITYSDK_OFFSET(0x16FC1690)
-#define CLASS_1_CE2AC6C9C34CBBD2_METHOD_1_7ED10847788F63EA_OFFSET UNITYSDK_OFFSET(0x16FC3400)
-#define CLASS_1_CE2AC6C9C34CBBD2_METHOD_1_8395AB7342C6B852_OFFSET UNITYSDK_OFFSET(0x16FC2460)
-#define CLASS_1_CE2AC6C9C34CBBD2_METHOD_1_A90C6EB1D97C6DA9_OFFSET UNITYSDK_OFFSET(0x16FC1510)
-#define CLASS_1_CE2AC6C9C34CBBD2_METHOD_1_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x16FC14B0)
-#define CLASS_1_CE2AC6C9C34CBBD2_METHOD_1_F123041D2BCE0542_OFFSET UNITYSDK_OFFSET(0x16FC2BA0)
-#define CLASS_1_CE2AC6C9C34CBBD2_SET_ASSETFLAGS_OFFSET UNITYSDK_OFFSET(0x16FC1340)
-#define CLASS_1_CE2AC6C9C34CBBD2_SET_BLOCKCONTENTHASH_OFFSET UNITYSDK_OFFSET(0x16FC13C0)
-#define CLASS_1_CE2AC6C9C34CBBD2_SET_BUNDLESHORTNAMEHASH_OFFSET UNITYSDK_OFFSET(0x16FC13A0)
-#define CLASS_1_CE2AC6C9C34CBBD2_SET_BUNDLESHORTNAME_OFFSET UNITYSDK_OFFSET(0x16FC1380)
-#define CLASS_1_CE2AC6C9C34CBBD2_SET_FILESIZE_OFFSET UNITYSDK_OFFSET(0x16FC1320)
-#define CLASS_1_CE2AC6C9C34CBBD2_SET_ISVALID_OFFSET UNITYSDK_OFFSET(0x16FC1360)
-#define CLASS_1_CE2AC6C9C34CBBD2_SET_OFFSET_OFFSET UNITYSDK_OFFSET(0x16FC1300)
-#define CLASS_1_CE2AC6C9C34CBBD2_SET_RELATIVEPATH_OFFSET UNITYSDK_OFFSET(0x16FC1500)
-#define CLASS_1_CE2AC6C9C34CBBD2_SET_SUBPACKID_OFFSET UNITYSDK_OFFSET(0x16FC12E0)
-#define CLASS_1_CE2AC6C9C34CBBD2_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16FC3590)
-#define CLASS_1_CE2AC6C9C34CBBD2__CTOR_OFFSET UNITYSDK_OFFSET(0x16FC23D0)
-#define CLASS_1_CE2AC6C9C34CBBD2___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16FC3C00)
+#define CLASS_1_CE2AC6C9C34CBBD2_GET_ASSETFLAGS_OFFSET UNITYSDK_OFFSET(0x1303B290)
+#define CLASS_1_CE2AC6C9C34CBBD2_GET_BLOCKCONTENTHASH_OFFSET UNITYSDK_OFFSET(0x1303B310)
+#define CLASS_1_CE2AC6C9C34CBBD2_GET_BUNDLESHORTNAMEHASH_OFFSET UNITYSDK_OFFSET(0x1303B2F0)
+#define CLASS_1_CE2AC6C9C34CBBD2_GET_BUNDLESHORTNAME_OFFSET UNITYSDK_OFFSET(0x1303B2D0)
+#define CLASS_1_CE2AC6C9C34CBBD2_GET_FILESIZE_OFFSET UNITYSDK_OFFSET(0x1303B270)
+#define CLASS_1_CE2AC6C9C34CBBD2_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1303B2B0)
+#define CLASS_1_CE2AC6C9C34CBBD2_GET_OFFSET_OFFSET UNITYSDK_OFFSET(0x1303B250)
+#define CLASS_1_CE2AC6C9C34CBBD2_GET_RELATIVEPATH_OFFSET UNITYSDK_OFFSET(0x1303B450)
+#define CLASS_1_CE2AC6C9C34CBBD2_GET_SUBPACKID_OFFSET UNITYSDK_OFFSET(0x1303B230)
+#define CLASS_1_CE2AC6C9C34CBBD2_METHOD_1_2C4CACFCB85F415D_OFFSET UNITYSDK_OFFSET(0x1303B330)
+#define CLASS_1_CE2AC6C9C34CBBD2_METHOD_1_35F10ABABB5898C9_OFFSET UNITYSDK_OFFSET(0x1303B660)
+#define CLASS_1_CE2AC6C9C34CBBD2_METHOD_1_7ED10847788F63EA_OFFSET UNITYSDK_OFFSET(0x1303D6C0)
+#define CLASS_1_CE2AC6C9C34CBBD2_METHOD_1_8395AB7342C6B852_OFFSET UNITYSDK_OFFSET(0x1303C580)
+#define CLASS_1_CE2AC6C9C34CBBD2_METHOD_1_D78E7E5921B8B1C4_OFFSET UNITYSDK_OFFSET(0x1303B470)
+#define CLASS_1_CE2AC6C9C34CBBD2_METHOD_1_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x1303B410)
+#define CLASS_1_CE2AC6C9C34CBBD2_METHOD_1_F123041D2BCE0542_OFFSET UNITYSDK_OFFSET(0x1303CD80)
+#define CLASS_1_CE2AC6C9C34CBBD2_SET_ASSETFLAGS_OFFSET UNITYSDK_OFFSET(0x1303B2A0)
+#define CLASS_1_CE2AC6C9C34CBBD2_SET_BLOCKCONTENTHASH_OFFSET UNITYSDK_OFFSET(0x1303B320)
+#define CLASS_1_CE2AC6C9C34CBBD2_SET_BUNDLESHORTNAMEHASH_OFFSET UNITYSDK_OFFSET(0x1303B300)
+#define CLASS_1_CE2AC6C9C34CBBD2_SET_BUNDLESHORTNAME_OFFSET UNITYSDK_OFFSET(0x1303B2E0)
+#define CLASS_1_CE2AC6C9C34CBBD2_SET_FILESIZE_OFFSET UNITYSDK_OFFSET(0x1303B280)
+#define CLASS_1_CE2AC6C9C34CBBD2_SET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1303B2C0)
+#define CLASS_1_CE2AC6C9C34CBBD2_SET_OFFSET_OFFSET UNITYSDK_OFFSET(0x1303B260)
+#define CLASS_1_CE2AC6C9C34CBBD2_SET_RELATIVEPATH_OFFSET UNITYSDK_OFFSET(0x1303B460)
+#define CLASS_1_CE2AC6C9C34CBBD2_SET_SUBPACKID_OFFSET UNITYSDK_OFFSET(0x1303B240)
+#define CLASS_1_CE2AC6C9C34CBBD2_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1303D7D0)
+#define CLASS_1_CE2AC6C9C34CBBD2__CTOR_OFFSET UNITYSDK_OFFSET(0x1303C4F0)
+#define CLASS_1_CE2AC6C9C34CBBD2___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1303DD40)
 
-inline static constexpr unsigned int Class_1_CE2AC6C9C34CBBD2_TypeDefinitionIndex = 37732;
+inline static constexpr unsigned int Class_1_CE2AC6C9C34CBBD2_TypeDefinitionIndex = 38466;
 
 class Class_1_CE2AC6C9C34CBBD2 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_71*>* Field_1_10; // 0x10
-	::System::String* Field_1_8; // 0x18
-	::System::String* _RelativePath_k__BackingField; // 0x20
-	::System::Collections::Generic::List_1<::System::String*>* Field_1_11; // 0x28
-	::System::String* _BundleShortName_k__BackingField; // 0x30
-	::System::String* Field_1_12; // 0x38
-	::System::String* _BlockContentHash_k__BackingField; // 0x40
-	::System::Int64 _FileSize_k__BackingField; // 0x48
-	::System::UInt64 _BundleShortNameHash_k__BackingField; // 0x50
+	::System::String* Field_1_0; // 0x10
+	::System::String* _BlockContentHash_k__BackingField; // 0x18
+	::System::Collections::Generic::List_1<::System::String*>* Field_1_2; // 0x20
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_70*>* Field_1_3; // 0x28
+	::System::String* Field_1_4; // 0x30
+	::System::String* _BundleShortName_k__BackingField; // 0x38
+	::System::String* _RelativePath_k__BackingField; // 0x40
+	::System::Int32 Field_1_7; // 0x48
+	::System::Boolean _IsValid_k__BackingField; // 0x4C
+	::RPG::Client::AssetsStaticFlag _AssetFlags_k__BackingField; // 0x4E
+	::System::Int64 _FileSize_k__BackingField; // 0x50
 	::System::Int32 _SubPackId_k__BackingField; // 0x58
 	::System::UInt32 _Offset_k__BackingField; // 0x5C
-	::System::Int32 Field_1_5; // 0x60
-	::System::Boolean _IsValid_k__BackingField; // 0x64
-	::RPG::Client::AssetsStaticFlag _AssetFlags_k__BackingField; // 0x66
+	::System::UInt64 _BundleShortNameHash_k__BackingField; // 0x60
 
 	::System::Void _ctor()
 	{
@@ -68,9 +68,9 @@ public:
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_GET_SUBPACKID_OFFSET))(this);
 	}
 
-	::System::Void set_SubPackId(::System::Int32 value)
+	::System::Void set_SubPackId(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_SET_SUBPACKID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_SET_SUBPACKID_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_Offset()
@@ -78,9 +78,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_GET_OFFSET_OFFSET))(this);
 	}
 
-	::System::Void set_Offset(::System::UInt32 value)
+	::System::Void set_Offset(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_SET_OFFSET_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_SET_OFFSET_OFFSET))(this, a1);
 	}
 
 	::System::Int64 get_FileSize()
@@ -88,9 +88,9 @@ public:
 		return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_GET_FILESIZE_OFFSET))(this);
 	}
 
-	::System::Void set_FileSize(::System::Int64 value)
+	::System::Void set_FileSize(::System::Int64 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_SET_FILESIZE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_SET_FILESIZE_OFFSET))(this, a1);
 	}
 
 	::RPG::Client::AssetsStaticFlag get_AssetFlags()
@@ -98,9 +98,9 @@ public:
 		return ((::RPG::Client::AssetsStaticFlag(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_GET_ASSETFLAGS_OFFSET))(this);
 	}
 
-	::System::Void set_AssetFlags(::RPG::Client::AssetsStaticFlag value)
+	::System::Void set_AssetFlags(::RPG::Client::AssetsStaticFlag a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::AssetsStaticFlag))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_SET_ASSETFLAGS_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::AssetsStaticFlag))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_SET_ASSETFLAGS_OFFSET))(this, a1);
 	}
 
 	::System::Boolean get_IsValid()
@@ -108,9 +108,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_GET_ISVALID_OFFSET))(this);
 	}
 
-	::System::Void set_IsValid(::System::Boolean value)
+	::System::Void set_IsValid(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_SET_ISVALID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_SET_ISVALID_OFFSET))(this, a1);
 	}
 
 	::System::String* get_BundleShortName()
@@ -118,9 +118,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_GET_BUNDLESHORTNAME_OFFSET))(this);
 	}
 
-	::System::Void set_BundleShortName(::System::String* value)
+	::System::Void set_BundleShortName(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_SET_BUNDLESHORTNAME_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_SET_BUNDLESHORTNAME_OFFSET))(this, a1);
 	}
 
 	::System::UInt64 get_BundleShortNameHash()
@@ -128,9 +128,9 @@ public:
 		return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_GET_BUNDLESHORTNAMEHASH_OFFSET))(this);
 	}
 
-	::System::Void set_BundleShortNameHash(::System::UInt64 value)
+	::System::Void set_BundleShortNameHash(::System::UInt64 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_SET_BUNDLESHORTNAMEHASH_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_SET_BUNDLESHORTNAMEHASH_OFFSET))(this, a1);
 	}
 
 	::System::String* get_BlockContentHash()
@@ -138,9 +138,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_GET_BLOCKCONTENTHASH_OFFSET))(this);
 	}
 
-	::System::Void set_BlockContentHash(::System::String* value)
+	::System::Void set_BlockContentHash(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_SET_BLOCKCONTENTHASH_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_SET_BLOCKCONTENTHASH_OFFSET))(this, a1);
 	}
 
 	::System::Boolean Method_1_2C4CACFCB85F415D(::Class_1_CE2AC6C9C34CBBD2* a1)
@@ -158,19 +158,19 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_GET_RELATIVEPATH_OFFSET))(this);
 	}
 
-	::System::Void set_RelativePath(::System::String* value)
+	::System::Void set_RelativePath(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_SET_RELATIVEPATH_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_SET_RELATIVEPATH_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_A90C6EB1D97C6DA9(::System::String* a1)
+	::System::Void Method_1_D78E7E5921B8B1C4(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_METHOD_1_A90C6EB1D97C6DA9_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_METHOD_1_D78E7E5921B8B1C4_OFFSET))(this, a1);
 	}
 
-	static ::Class_1_CE2AC6C9C34CBBD2* Method_1_7CC2462FD595A34A(::System::String* a1)
+	static ::Class_1_CE2AC6C9C34CBBD2* Method_1_35F10ABABB5898C9(::System::String* a1)
 	{
-		return ((::Class_1_CE2AC6C9C34CBBD2*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_METHOD_1_7CC2462FD595A34A_OFFSET))(a1);
+		return ((::Class_1_CE2AC6C9C34CBBD2*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_CE2AC6C9C34CBBD2_METHOD_1_35F10ABABB5898C9_OFFSET))(a1);
 	}
 
 	::SimpleJSON::JSONClass* Method_1_8395AB7342C6B852()

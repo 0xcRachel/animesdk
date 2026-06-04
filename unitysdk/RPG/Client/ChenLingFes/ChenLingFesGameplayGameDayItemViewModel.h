@@ -1,0 +1,68 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LittleGame/ChenLingFes/GameDayState.h"
+#include "unitysdk/Sofa/BaseViewModel.h"
+
+class Class_1_5513808F8D65DEE5;
+
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYGAMEDAYITEMVIEWMODEL_GET_DAYINDEX_OFFSET UNITYSDK_OFFSET(0x18AFCC60)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYGAMEDAYITEMVIEWMODEL_GET_DAYSTATE_OFFSET UNITYSDK_OFFSET(0x18AFCC70)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYGAMEDAYITEMVIEWMODEL_GET_ISCURDAY_OFFSET UNITYSDK_OFFSET(0x18AFCC80)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYGAMEDAYITEMVIEWMODEL_SET_DAYINDEX_OFFSET UNITYSDK_OFFSET(0x18AFCAB0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYGAMEDAYITEMVIEWMODEL_SET_DAYSTATE_OFFSET UNITYSDK_OFFSET(0x18AFCB40)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYGAMEDAYITEMVIEWMODEL_SET_ISCURDAY_OFFSET UNITYSDK_OFFSET(0x18AFCBD0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYGAMEDAYITEMVIEWMODEL_SYNC_OFFSET UNITYSDK_OFFSET(0x18AFC8B0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYGAMEDAYITEMVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x18AFCC90)
+
+namespace RPG::Client::ChenLingFes
+{
+	inline static constexpr unsigned int ChenLingFesGameplayGameDayItemViewModel_TypeDefinitionIndex = 74037;
+
+	class ChenLingFesGameplayGameDayItemViewModel : public ::Sofa::BaseViewModel
+	{
+	public:
+		::System::Int32 _DayIndex; // 0x20
+		::System::Boolean _IsCurDay; // 0x24
+		::RPG::Client::LittleGame::ChenLingFes::GameDayState _DayState; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYGAMEDAYITEMVIEWMODEL__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Sync(::Class_1_5513808F8D65DEE5* a1, ::System::Int32 a2, ::System::Boolean a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_5513808F8D65DEE5*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYGAMEDAYITEMVIEWMODEL_SYNC_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Int32 get_DayIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYGAMEDAYITEMVIEWMODEL_GET_DAYINDEX_OFFSET))(this);
+		}
+
+		::System::Void set_DayIndex(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYGAMEDAYITEMVIEWMODEL_SET_DAYINDEX_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::LittleGame::ChenLingFes::GameDayState get_DayState()
+		{
+			return ((::RPG::Client::LittleGame::ChenLingFes::GameDayState(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYGAMEDAYITEMVIEWMODEL_GET_DAYSTATE_OFFSET))(this);
+		}
+
+		::System::Void set_DayState(::RPG::Client::LittleGame::ChenLingFes::GameDayState a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ChenLingFes::GameDayState))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYGAMEDAYITEMVIEWMODEL_SET_DAYSTATE_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_IsCurDay()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYGAMEDAYITEMVIEWMODEL_GET_ISCURDAY_OFFSET))(this);
+		}
+
+		::System::Void set_IsCurDay(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYGAMEDAYITEMVIEWMODEL_SET_ISCURDAY_OFFSET))(this, a1);
+		}
+	};
+}

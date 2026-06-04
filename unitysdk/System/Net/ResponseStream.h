@@ -9,27 +9,27 @@ namespace System { class Object; }
 namespace System::IO { class MemoryStream; }
 namespace System::Net { class HttpListenerResponse; }
 
-#define SYSTEM_NET_RESPONSESTREAM_BEGINREAD_OFFSET UNITYSDK_OFFSET(0x183B0D60)
-#define SYSTEM_NET_RESPONSESTREAM_BEGINWRITE_OFFSET UNITYSDK_OFFSET(0x183B0560)
-#define SYSTEM_NET_RESPONSESTREAM_CLOSE_OFFSET UNITYSDK_OFFSET(0x183AF3C0)
-#define SYSTEM_NET_RESPONSESTREAM_ENDREAD_OFFSET UNITYSDK_OFFSET(0x183B0DB0)
-#define SYSTEM_NET_RESPONSESTREAM_ENDWRITE_OFFSET UNITYSDK_OFFSET(0x183B0B10)
-#define SYSTEM_NET_RESPONSESTREAM_FLUSH_OFFSET UNITYSDK_OFFSET(0x183AFD10)
-#define SYSTEM_NET_RESPONSESTREAM_GETCHUNKSIZEBYTES_OFFSET UNITYSDK_OFFSET(0x183AFB60)
-#define SYSTEM_NET_RESPONSESTREAM_GETHEADERS_OFFSET UNITYSDK_OFFSET(0x183AF9F0)
-#define SYSTEM_NET_RESPONSESTREAM_GET_CANREAD_OFFSET UNITYSDK_OFFSET(0x176D1470)
-#define SYSTEM_NET_RESPONSESTREAM_GET_CANSEEK_OFFSET UNITYSDK_OFFSET(0x176D1480)
-#define SYSTEM_NET_RESPONSESTREAM_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x176D1490)
-#define SYSTEM_NET_RESPONSESTREAM_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x176D14A0)
-#define SYSTEM_NET_RESPONSESTREAM_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x183AF320)
-#define SYSTEM_NET_RESPONSESTREAM_INTERNALWRITE_OFFSET UNITYSDK_OFFSET(0x183AFC80)
-#define SYSTEM_NET_RESPONSESTREAM_READ_OFFSET UNITYSDK_OFFSET(0x183B0D10)
-#define SYSTEM_NET_RESPONSESTREAM_SEEK_OFFSET UNITYSDK_OFFSET(0x183B0E00)
-#define SYSTEM_NET_RESPONSESTREAM_SETLENGTH_OFFSET UNITYSDK_OFFSET(0x183B0E50)
-#define SYSTEM_NET_RESPONSESTREAM_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x183AF370)
-#define SYSTEM_NET_RESPONSESTREAM_WRITE_OFFSET UNITYSDK_OFFSET(0x183AFD20)
-#define SYSTEM_NET_RESPONSESTREAM__CCTOR_OFFSET UNITYSDK_OFFSET(0x183B0EA0)
-#define SYSTEM_NET_RESPONSESTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x176B00A0)
+#define SYSTEM_NET_RESPONSESTREAM_BEGINREAD_OFFSET UNITYSDK_OFFSET(0x1893C310)
+#define SYSTEM_NET_RESPONSESTREAM_BEGINWRITE_OFFSET UNITYSDK_OFFSET(0x1893BB10)
+#define SYSTEM_NET_RESPONSESTREAM_CLOSE_OFFSET UNITYSDK_OFFSET(0x1893AA80)
+#define SYSTEM_NET_RESPONSESTREAM_ENDREAD_OFFSET UNITYSDK_OFFSET(0x1893C360)
+#define SYSTEM_NET_RESPONSESTREAM_ENDWRITE_OFFSET UNITYSDK_OFFSET(0x1893C0C0)
+#define SYSTEM_NET_RESPONSESTREAM_FLUSH_OFFSET UNITYSDK_OFFSET(0x1893B2C0)
+#define SYSTEM_NET_RESPONSESTREAM_GETCHUNKSIZEBYTES_OFFSET UNITYSDK_OFFSET(0x1893B110)
+#define SYSTEM_NET_RESPONSESTREAM_GETHEADERS_OFFSET UNITYSDK_OFFSET(0x1893AFA0)
+#define SYSTEM_NET_RESPONSESTREAM_GET_CANREAD_OFFSET UNITYSDK_OFFSET(0x17CFFF40)
+#define SYSTEM_NET_RESPONSESTREAM_GET_CANSEEK_OFFSET UNITYSDK_OFFSET(0x17CFFF50)
+#define SYSTEM_NET_RESPONSESTREAM_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x17CFFF60)
+#define SYSTEM_NET_RESPONSESTREAM_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x17CFFF70)
+#define SYSTEM_NET_RESPONSESTREAM_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1893A9E0)
+#define SYSTEM_NET_RESPONSESTREAM_INTERNALWRITE_OFFSET UNITYSDK_OFFSET(0x1893B230)
+#define SYSTEM_NET_RESPONSESTREAM_READ_OFFSET UNITYSDK_OFFSET(0x1893C2C0)
+#define SYSTEM_NET_RESPONSESTREAM_SEEK_OFFSET UNITYSDK_OFFSET(0x1893C3B0)
+#define SYSTEM_NET_RESPONSESTREAM_SETLENGTH_OFFSET UNITYSDK_OFFSET(0x1893C400)
+#define SYSTEM_NET_RESPONSESTREAM_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x1893AA30)
+#define SYSTEM_NET_RESPONSESTREAM_WRITE_OFFSET UNITYSDK_OFFSET(0x1893B2D0)
+#define SYSTEM_NET_RESPONSESTREAM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1893C450)
+#define SYSTEM_NET_RESPONSESTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x17CDE470)
 
 namespace System::Net
 {
@@ -40,17 +40,17 @@ namespace System::Net
 	public:
 		static ::Il2CppArray<::System::Byte>** StaticGet_crlf()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(ResponseStream_TypeDefinitionIndex)->GetStaticField(0xB7A0);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(ResponseStream_TypeDefinitionIndex)->GetStaticField(0x26090);
 		}
-		::System::Net::HttpListenerResponse* response; // 0x28
-		::System::IO::Stream* stream; // 0x30
-		::System::Boolean trailer_sent; // 0x38
-		::System::Boolean ignore_errors; // 0x39
-		::System::Boolean disposed; // 0x3A
+		::System::IO::Stream* stream; // 0x28
+		::System::Net::HttpListenerResponse* response; // 0x30
+		::System::Boolean ignore_errors; // 0x38
+		::System::Boolean disposed; // 0x39
+		::System::Boolean trailer_sent; // 0x3A
 
-		::System::Void _ctor(::System::IO::Stream* stream, ::System::Net::HttpListenerResponse* response, ::System::Boolean ignore_errors)
+		::System::Void _ctor(::System::IO::Stream* a1, ::System::Net::HttpListenerResponse* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Net::HttpListenerResponse*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM__CTOR_OFFSET))(this, stream, response, ignore_errors);
+			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Net::HttpListenerResponse*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Void _cctor()
@@ -83,9 +83,9 @@ namespace System::Net
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_GET_POSITION_OFFSET))(this);
 		}
 
-		::System::Void set_Position(::System::Int64 value)
+		::System::Void set_Position(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_SET_POSITION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_SET_POSITION_OFFSET))(this, a1);
 		}
 
 		::System::Void Close()
@@ -93,9 +93,9 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_CLOSE_OFFSET))(this);
 		}
 
-		::System::IO::MemoryStream* GetHeaders(::System::Boolean closing)
+		::System::IO::MemoryStream* GetHeaders(::System::Boolean a1)
 		{
-			return ((::System::IO::MemoryStream*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_GETHEADERS_OFFSET))(this, closing);
+			return ((::System::IO::MemoryStream*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_GETHEADERS_OFFSET))(this, a1);
 		}
 
 		::System::Void Flush()
@@ -103,54 +103,54 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_FLUSH_OFFSET))(this);
 		}
 
-		static ::Il2CppArray<::System::Byte>* GetChunkSizeBytes(::System::Int32 size, ::System::Boolean final)
+		static ::Il2CppArray<::System::Byte>* GetChunkSizeBytes(::System::Int32 a1, ::System::Boolean a2)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_GETCHUNKSIZEBYTES_OFFSET))(size, final);
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_GETCHUNKSIZEBYTES_OFFSET))(a1, a2);
 		}
 
-		::System::Void InternalWrite(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count)
+		::System::Void InternalWrite(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_INTERNALWRITE_OFFSET))(this, buffer, offset, count);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_INTERNALWRITE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Write(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count)
+		::System::Void Write(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_WRITE_OFFSET))(this, buffer, offset, count);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_WRITE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginWrite(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count, ::System::AsyncCallback* cback, ::System::Object* state)
+		::System::IAsyncResult* BeginWrite(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_BEGINWRITE_OFFSET))(this, buffer, offset, count, cback, state);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_BEGINWRITE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void EndWrite(::System::IAsyncResult* ares)
+		::System::Void EndWrite(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_ENDWRITE_OFFSET))(this, ares);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_ENDWRITE_OFFSET))(this, a1);
 		}
 
-		::System::Int32 Read(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count)
+		::System::Int32 Read(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_READ_OFFSET))(this, buffer, offset, count);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_READ_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginRead(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count, ::System::AsyncCallback* cback, ::System::Object* state)
+		::System::IAsyncResult* BeginRead(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_BEGINREAD_OFFSET))(this, buffer, offset, count, cback, state);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_BEGINREAD_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Int32 EndRead(::System::IAsyncResult* ares)
+		::System::Int32 EndRead(::System::IAsyncResult* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_ENDREAD_OFFSET))(this, ares);
+			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_ENDREAD_OFFSET))(this, a1);
 		}
 
-		::System::Int64 Seek(::System::Int64 offset, ::System::IO::SeekOrigin origin)
+		::System::Int64 Seek(::System::Int64 a1, ::System::IO::SeekOrigin a2)
 		{
-			return ((::System::Int64(*)(::PVOID, ::System::Int64, ::System::IO::SeekOrigin))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_SEEK_OFFSET))(this, offset, origin);
+			return ((::System::Int64(*)(::PVOID, ::System::Int64, ::System::IO::SeekOrigin))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_SEEK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetLength(::System::Int64 value)
+		::System::Void SetLength(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_SETLENGTH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_NET_RESPONSESTREAM_SETLENGTH_OFFSET))(this, a1);
 		}
 	};
 }

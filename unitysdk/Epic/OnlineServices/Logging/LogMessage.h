@@ -7,19 +7,19 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_GET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1954C2F0)
-#define EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1954C330)
-#define EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1954C310)
-#define EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_SET_1_OFFSET UNITYSDK_OFFSET(0x1954C790)
-#define EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_SET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1954C300)
-#define EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1954C340)
-#define EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_SET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1954C320)
-#define EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_SET_OFFSET UNITYSDK_OFFSET(0x1954C350)
-#define EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1954C8A0)
+#define EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_GET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1A33B520)
+#define EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1A33B560)
+#define EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1A33B540)
+#define EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_SET_1_OFFSET UNITYSDK_OFFSET(0x1A33B9C0)
+#define EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_SET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1A33B530)
+#define EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1A33B570)
+#define EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_SET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1A33B550)
+#define EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_SET_OFFSET UNITYSDK_OFFSET(0x1A33B580)
+#define EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A33BAE0)
 
 namespace Epic::OnlineServices::Logging
 {
-	inline static constexpr unsigned int LogMessage_TypeDefinitionIndex = 41806;
+	inline static constexpr unsigned int LogMessage_TypeDefinitionIndex = 42609;
 
 	class LogMessage : public ::System::Object
 	{
@@ -38,9 +38,9 @@ namespace Epic::OnlineServices::Logging
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_GET_CATEGORY_OFFSET))(this);
 		}
 
-		::System::Void set_Category(::System::String* value)
+		::System::Void set_Category(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_SET_CATEGORY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_SET_CATEGORY_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Message()
@@ -48,9 +48,9 @@ namespace Epic::OnlineServices::Logging
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_GET_MESSAGE_OFFSET))(this);
 		}
 
-		::System::Void set_Message(::System::String* value)
+		::System::Void set_Message(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_SET_MESSAGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_SET_MESSAGE_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::Logging::LogLevel get_Level()
@@ -58,19 +58,19 @@ namespace Epic::OnlineServices::Logging
 			return ((::Epic::OnlineServices::Logging::LogLevel(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_GET_LEVEL_OFFSET))(this);
 		}
 
-		::System::Void set_Level(::Epic::OnlineServices::Logging::LogLevel value)
+		::System::Void set_Level(::Epic::OnlineServices::Logging::LogLevel a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Logging::LogLevel))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_SET_LEVEL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Logging::LogLevel))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_SET_LEVEL_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Logging::LogMessageInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Logging::LogMessageInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Logging::LogMessageInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Logging::LogMessageInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOGGING_LOGMESSAGE_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

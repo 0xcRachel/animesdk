@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PHOTOGRAPHHIDEENTITYCONFIG_METHOD_2_63695B24485F3054_OFFSET UNITYSDK_OFFSET(0x18B1FA40)
-#define RPG_GAMECORE_PHOTOGRAPHHIDEENTITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18B1FDF0)
+#define RPG_GAMECORE_PHOTOGRAPHHIDEENTITYCONFIG_METHOD_2_63695B24485F3054_OFFSET UNITYSDK_OFFSET(0x19D371C0)
+#define RPG_GAMECORE_PHOTOGRAPHHIDEENTITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19D37570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphHideEntityConfig_TypeDefinitionIndex = 20472;
+	inline static constexpr unsigned int PhotoGraphHideEntityConfig_TypeDefinitionIndex = 20411;
 
 	class PhotoGraphHideEntityConfig : public ::RPG::GameCore::JsonConfig
 	{

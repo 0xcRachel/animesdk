@@ -3,55 +3,55 @@
 #include "unitysdk/RPG/GameCore/PlayerOutfitSlotType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_1D2546645D1F8DBC;
 class Class_1_999AE0B49D951C72;
+class Class_1_DE01891AE6787A2E;
+namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class AvatarOutfitSlot; }
 namespace RPG::Client { class AvatarOutfitUnit; }
-namespace RPG::Client { class IAvatarInfoProvider; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_CHECKISEQUIPPED_OFFSET UNITYSDK_OFFSET(0x15E3B080)
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_CREATE_OFFSET UNITYSDK_OFFSET(0x15E3AE50)
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_EQUIP_OFFSET UNITYSDK_OFFSET(0x15E3C1A0)
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETEQUIPPEDUNIT_OFFSET UNITYSDK_OFFSET(0x15E3B500)
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETICONPATH_OFFSET UNITYSDK_OFFSET(0x15E3BAD0)
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETPREVIEWAVATARMODELS_OFFSET UNITYSDK_OFFSET(0x15E3C110)
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETRARITYFRAMEICONPATH_OFFSET UNITYSDK_OFFSET(0x15E3BC00)
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETSLOTBYINDEX_OFFSET UNITYSDK_OFFSET(0x15E3BA70)
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETSLOTTYPEBYINDEX_OFFSET UNITYSDK_OFFSET(0x15E3B9F0)
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETUNITBYID_OFFSET UNITYSDK_OFFSET(0x15E3B930)
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETUNITBYITEMID_OFFSET UNITYSDK_OFFSET(0x15E3B990)
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETUNITSBYSLOT_OFFSET UNITYSDK_OFFSET(0x15E3BD60)
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GET_COUNTOFSLOTS_OFFSET UNITYSDK_OFFSET(0x15E3ADD0)
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GET_TARGETAVATAR_OFFSET UNITYSDK_OFFSET(0x15E3ADC0)
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_SORTUNITS_OFFSET UNITYSDK_OFFSET(0x15E3C000)
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT__CHECKSLOTISEMPTY_OFFSET UNITYSDK_OFFSET(0x15E3B1E0)
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15E3AFE0)
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT__FIXEDCOMPARE_OFFSET UNITYSDK_OFFSET(0x15E3C760)
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT__GETUNITSORTPRIORITY_OFFSET UNITYSDK_OFFSET(0x15E3C930)
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT__IGNOREEQUIPPEDCOMPARISON_OFFSET UNITYSDK_OFFSET(0x15E3C850)
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT__NORMALCOMPARISON_OFFSET UNITYSDK_OFFSET(0x15E3C5F0)
-#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT__STATECOMPARE_OFFSET UNITYSDK_OFFSET(0x15E3C6D0)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_CHECKISEQUIPPED_OFFSET UNITYSDK_OFFSET(0x159C60B0)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_CREATE_OFFSET UNITYSDK_OFFSET(0x159C5F00)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_EQUIP_OFFSET UNITYSDK_OFFSET(0x159C69C0)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETEQUIPPEDUNIT_OFFSET UNITYSDK_OFFSET(0x159C61E0)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETICONPATH_OFFSET UNITYSDK_OFFSET(0x159C6680)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETPREVIEWAVATARMODELS_OFFSET UNITYSDK_OFFSET(0x159C6930)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETRARITYFRAMEICONPATH_OFFSET UNITYSDK_OFFSET(0x159C66F0)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETSLOTBYINDEX_OFFSET UNITYSDK_OFFSET(0x159C6620)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETSLOTTYPEBYINDEX_OFFSET UNITYSDK_OFFSET(0x159C65A0)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETUNITBYID_OFFSET UNITYSDK_OFFSET(0x159C64E0)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETUNITBYITEMID_OFFSET UNITYSDK_OFFSET(0x159C6540)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETUNITSBYSLOT_OFFSET UNITYSDK_OFFSET(0x159C6760)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GET_COUNTOFSLOTS_OFFSET UNITYSDK_OFFSET(0x159C5E80)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GET_TARGETAVATAR_OFFSET UNITYSDK_OFFSET(0x159C5E70)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT_SORTUNITS_OFFSET UNITYSDK_OFFSET(0x159C67F0)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT__CHECKSLOTISEMPTY_OFFSET UNITYSDK_OFFSET(0x179EA450)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x159C6010)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT__FIXEDCOMPARE_OFFSET UNITYSDK_OFFSET(0x179EA940)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT__GETUNITSORTPRIORITY_OFFSET UNITYSDK_OFFSET(0x179EAB10)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT__IGNOREEQUIPPEDCOMPARISON_OFFSET UNITYSDK_OFFSET(0x179EAA30)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT__NORMALCOMPARISON_OFFSET UNITYSDK_OFFSET(0x179EA7D0)
+#define RPG_CLIENT_AVATAROUTFITEDITCONTEXT__STATECOMPARE_OFFSET UNITYSDK_OFFSET(0x179EA8B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarOutfitEditContext_TypeDefinitionIndex = 57675;
+	inline static constexpr unsigned int AvatarOutfitEditContext_TypeDefinitionIndex = 58466;
 
 	class AvatarOutfitEditContext : public ::System::Object
 	{
 	public:
-		::RPG::Client::IAvatarInfoProvider* _TargetAvatar_k__BackingField; // 0x10
-		::Class_1_1D2546645D1F8DBC* _Repository; // 0x18
+		::RPG::AvatarSystem::IAvatar* _TargetAvatar_k__BackingField; // 0x10
+		::Class_1_DE01891AE6787A2E* _Repository; // 0x18
 
-		::System::Void _ctor(::RPG::Client::IAvatarInfoProvider* avatar)
+		::System::Void _ctor(::RPG::AvatarSystem::IAvatar* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::IAvatarInfoProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT__CTOR_OFFSET))(this, avatar);
+			return ((::System::Void(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT__CTOR_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::IAvatarInfoProvider* get_TargetAvatar()
+		::RPG::AvatarSystem::IAvatar* get_TargetAvatar()
 		{
-			return ((::RPG::Client::IAvatarInfoProvider*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GET_TARGETAVATAR_OFFSET))(this);
+			return ((::RPG::AvatarSystem::IAvatar*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GET_TARGETAVATAR_OFFSET))(this);
 		}
 
 		::System::Int32 get_CountOfSlots()
@@ -59,99 +59,99 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GET_COUNTOFSLOTS_OFFSET))(this);
 		}
 
-		static ::RPG::Client::AvatarOutfitEditContext* Create(::RPG::Client::IAvatarInfoProvider* avatar)
+		static ::RPG::Client::AvatarOutfitEditContext* Create(::RPG::AvatarSystem::IAvatar* a1)
 		{
-			return ((::RPG::Client::AvatarOutfitEditContext*(*)(::RPG::Client::IAvatarInfoProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_CREATE_OFFSET))(avatar);
+			return ((::RPG::Client::AvatarOutfitEditContext*(*)(::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_CREATE_OFFSET))(a1);
 		}
 
-		::System::Boolean CheckIsEquipped(::RPG::Client::AvatarOutfitUnit* item)
+		::System::Boolean CheckIsEquipped(::RPG::Client::AvatarOutfitUnit* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::AvatarOutfitUnit*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_CHECKISEQUIPPED_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::AvatarOutfitUnit*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_CHECKISEQUIPPED_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::AvatarOutfitUnit* GetEquippedUnit(::RPG::Client::AvatarOutfitSlot* slot)
+		::RPG::Client::AvatarOutfitUnit* GetEquippedUnit(::RPG::Client::AvatarOutfitSlot* a1)
 		{
-			return ((::RPG::Client::AvatarOutfitUnit*(*)(::PVOID, ::RPG::Client::AvatarOutfitSlot*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETEQUIPPEDUNIT_OFFSET))(this, slot);
+			return ((::RPG::Client::AvatarOutfitUnit*(*)(::PVOID, ::RPG::Client::AvatarOutfitSlot*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETEQUIPPEDUNIT_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::AvatarOutfitUnit* GetUnitByID(::System::UInt32 id)
+		::RPG::Client::AvatarOutfitUnit* GetUnitByID(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::AvatarOutfitUnit*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETUNITBYID_OFFSET))(this, id);
+			return ((::RPG::Client::AvatarOutfitUnit*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETUNITBYID_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::AvatarOutfitUnit* GetUnitByItemID(::System::UInt32 itemID)
+		::RPG::Client::AvatarOutfitUnit* GetUnitByItemID(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::AvatarOutfitUnit*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETUNITBYITEMID_OFFSET))(this, itemID);
+			return ((::RPG::Client::AvatarOutfitUnit*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETUNITBYITEMID_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::PlayerOutfitSlotType GetSlotTypeByIndex(::System::Int32 index)
+		::RPG::GameCore::PlayerOutfitSlotType GetSlotTypeByIndex(::System::Int32 a1)
 		{
-			return ((::RPG::GameCore::PlayerOutfitSlotType(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETSLOTTYPEBYINDEX_OFFSET))(this, index);
+			return ((::RPG::GameCore::PlayerOutfitSlotType(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETSLOTTYPEBYINDEX_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::AvatarOutfitSlot* GetSlotByIndex(::System::Int32 index)
+		::RPG::Client::AvatarOutfitSlot* GetSlotByIndex(::System::Int32 a1)
 		{
-			return ((::RPG::Client::AvatarOutfitSlot*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETSLOTBYINDEX_OFFSET))(this, index);
+			return ((::RPG::Client::AvatarOutfitSlot*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETSLOTBYINDEX_OFFSET))(this, a1);
 		}
 
-		::System::String* GetIconPath(::RPG::Client::AvatarOutfitUnit* item)
+		::System::String* GetIconPath(::RPG::Client::AvatarOutfitUnit* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::RPG::Client::AvatarOutfitUnit*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETICONPATH_OFFSET))(this, item);
+			return ((::System::String*(*)(::PVOID, ::RPG::Client::AvatarOutfitUnit*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETICONPATH_OFFSET))(this, a1);
 		}
 
-		::System::String* GetRarityFrameIconPath(::RPG::Client::AvatarOutfitUnit* item)
+		::System::String* GetRarityFrameIconPath(::RPG::Client::AvatarOutfitUnit* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::RPG::Client::AvatarOutfitUnit*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETRARITYFRAMEICONPATH_OFFSET))(this, item);
+			return ((::System::String*(*)(::PVOID, ::RPG::Client::AvatarOutfitUnit*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETRARITYFRAMEICONPATH_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::AvatarOutfitUnit*>* GetUnitsBySlot(::RPG::Client::AvatarOutfitSlot* slot, ::System::Boolean withDefault)
+		::System::Collections::Generic::List_1<::RPG::Client::AvatarOutfitUnit*>* GetUnitsBySlot(::RPG::Client::AvatarOutfitSlot* a1, ::System::Boolean a2)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::AvatarOutfitUnit*>*(*)(::PVOID, ::RPG::Client::AvatarOutfitSlot*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETUNITSBYSLOT_OFFSET))(this, slot, withDefault);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::AvatarOutfitUnit*>*(*)(::PVOID, ::RPG::Client::AvatarOutfitSlot*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETUNITSBYSLOT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SortUnits(::System::Collections::Generic::List_1<::RPG::Client::AvatarOutfitUnit*>* buffer, ::System::Boolean ignoreEquipped)
+		::System::Void SortUnits(::System::Collections::Generic::List_1<::RPG::Client::AvatarOutfitUnit*>* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::AvatarOutfitUnit*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_SORTUNITS_OFFSET))(this, buffer, ignoreEquipped);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::AvatarOutfitUnit*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_SORTUNITS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::Generic::List_1<::Class_1_999AE0B49D951C72*>* GetPreviewAvatarModels(::RPG::Client::AvatarOutfitUnit* item)
+		::System::Collections::Generic::List_1<::Class_1_999AE0B49D951C72*>* GetPreviewAvatarModels(::RPG::Client::AvatarOutfitUnit* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::Class_1_999AE0B49D951C72*>*(*)(::PVOID, ::RPG::Client::AvatarOutfitUnit*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETPREVIEWAVATARMODELS_OFFSET))(this, item);
+			return ((::System::Collections::Generic::List_1<::Class_1_999AE0B49D951C72*>*(*)(::PVOID, ::RPG::Client::AvatarOutfitUnit*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_GETPREVIEWAVATARMODELS_OFFSET))(this, a1);
 		}
 
-		::System::Void Equip(::RPG::Client::AvatarOutfitUnit* targetItem)
+		::System::Void Equip(::RPG::Client::AvatarOutfitUnit* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::AvatarOutfitUnit*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_EQUIP_OFFSET))(this, targetItem);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::AvatarOutfitUnit*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT_EQUIP_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _CheckSlotIsEmpty(::RPG::GameCore::PlayerOutfitSlotType slotType)
+		::System::Boolean _CheckSlotIsEmpty(::RPG::GameCore::PlayerOutfitSlotType a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::PlayerOutfitSlotType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT__CHECKSLOTISEMPTY_OFFSET))(this, slotType);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::PlayerOutfitSlotType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT__CHECKSLOTISEMPTY_OFFSET))(this, a1);
 		}
 
-		::System::Int32 _NormalComparison(::RPG::Client::AvatarOutfitUnit* left, ::RPG::Client::AvatarOutfitUnit* right)
+		::System::Int32 _NormalComparison(::RPG::Client::AvatarOutfitUnit* a1, ::RPG::Client::AvatarOutfitUnit* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::AvatarOutfitUnit*, ::RPG::Client::AvatarOutfitUnit*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT__NORMALCOMPARISON_OFFSET))(this, left, right);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::AvatarOutfitUnit*, ::RPG::Client::AvatarOutfitUnit*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT__NORMALCOMPARISON_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _IgnoreEquippedComparison(::RPG::Client::AvatarOutfitUnit* left, ::RPG::Client::AvatarOutfitUnit* right)
+		::System::Int32 _IgnoreEquippedComparison(::RPG::Client::AvatarOutfitUnit* a1, ::RPG::Client::AvatarOutfitUnit* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::AvatarOutfitUnit*, ::RPG::Client::AvatarOutfitUnit*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT__IGNOREEQUIPPEDCOMPARISON_OFFSET))(this, left, right);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::AvatarOutfitUnit*, ::RPG::Client::AvatarOutfitUnit*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT__IGNOREEQUIPPEDCOMPARISON_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _StateCompare(::RPG::Client::AvatarOutfitUnit* left, ::RPG::Client::AvatarOutfitUnit* right, ::System::Boolean ignoreEquipped)
+		::System::Int32 _StateCompare(::RPG::Client::AvatarOutfitUnit* a1, ::RPG::Client::AvatarOutfitUnit* a2, ::System::Boolean a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::AvatarOutfitUnit*, ::RPG::Client::AvatarOutfitUnit*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT__STATECOMPARE_OFFSET))(this, left, right, ignoreEquipped);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::AvatarOutfitUnit*, ::RPG::Client::AvatarOutfitUnit*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT__STATECOMPARE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 _GetUnitSortPriority(::RPG::Client::AvatarOutfitUnit* item, ::System::Boolean ignoreEquipped)
+		::System::Int32 _GetUnitSortPriority(::RPG::Client::AvatarOutfitUnit* a1, ::System::Boolean a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::AvatarOutfitUnit*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT__GETUNITSORTPRIORITY_OFFSET))(this, item, ignoreEquipped);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::AvatarOutfitUnit*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT__GETUNITSORTPRIORITY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _FixedCompare(::RPG::Client::AvatarOutfitUnit* left, ::RPG::Client::AvatarOutfitUnit* right)
+		::System::Int32 _FixedCompare(::RPG::Client::AvatarOutfitUnit* a1, ::RPG::Client::AvatarOutfitUnit* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::AvatarOutfitUnit*, ::RPG::Client::AvatarOutfitUnit*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT__FIXEDCOMPARE_OFFSET))(this, left, right);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::AvatarOutfitUnit*, ::RPG::Client::AvatarOutfitUnit*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITEDITCONTEXT__FIXEDCOMPARE_OFFSET))(this, a1, a2);
 		}
 	};
 }

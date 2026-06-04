@@ -8,75 +8,75 @@ namespace HoudiniEngineUnity { class JSONObject; }
 namespace RPG::GameCore { class RechargeConfigRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PRODUCT_GET_BEGINTIME_OFFSET UNITYSDK_OFFSET(0x1274D7C0)
-#define RPG_CLIENT_PRODUCT_GET_BUYTIMES_OFFSET UNITYSDK_OFFSET(0x1274D780)
-#define RPG_CLIENT_PRODUCT_GET_COUNTRYCODE_OFFSET UNITYSDK_OFFSET(0x1274D4B0)
-#define RPG_CLIENT_PRODUCT_GET_CURRENCYCODE_OFFSET UNITYSDK_OFFSET(0x1274D4D0)
-#define RPG_CLIENT_PRODUCT_GET_CURRENCYSYMBOL_OFFSET UNITYSDK_OFFSET(0x1274D4F0)
-#define RPG_CLIENT_PRODUCT_GET_ENDTIME_OFFSET UNITYSDK_OFFSET(0x1274D7E0)
-#define RPG_CLIENT_PRODUCT_GET_GIFTVERSION_OFFSET UNITYSDK_OFFSET(0x1274D760)
-#define RPG_CLIENT_PRODUCT_GET_ISBP_OFFSET UNITYSDK_OFFSET(0x1274DA20)
-#define RPG_CLIENT_PRODUCT_GET_ISFIRSTRECHARGE_OFFSET UNITYSDK_OFFSET(0x1274DA00)
-#define RPG_CLIENT_PRODUCT_GET_ISINSCHEDULE_OFFSET UNITYSDK_OFFSET(0x1274D800)
-#define RPG_CLIENT_PRODUCT_GET_ISSOLDOUT_OFFSET UNITYSDK_OFFSET(0x1274D9A0)
-#define RPG_CLIENT_PRODUCT_GET_LOCALIZEDDESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1274D510)
-#define RPG_CLIENT_PRODUCT_GET_LOCALIZEDTITLE_OFFSET UNITYSDK_OFFSET(0x1274D530)
-#define RPG_CLIENT_PRODUCT_GET_MAXBUYTIMES_OFFSET UNITYSDK_OFFSET(0x1274D7A0)
-#define RPG_CLIENT_PRODUCT_GET_PRICETIER_OFFSET UNITYSDK_OFFSET(0x1274D490)
-#define RPG_CLIENT_PRODUCT_GET_PRICE_OFFSET UNITYSDK_OFFSET(0x1274D720)
-#define RPG_CLIENT_PRODUCT_GET_PRODUCTGIFTTYPE_OFFSET UNITYSDK_OFFSET(0x1274D740)
-#define RPG_CLIENT_PRODUCT_GET_PRODUCTID_OFFSET UNITYSDK_OFFSET(0x1274D470)
-#define RPG_CLIENT_PRODUCT_GET_ROW_OFFSET UNITYSDK_OFFSET(0x1274D6A0)
-#define RPG_CLIENT_PRODUCT_GET_SHOWPRICE_OFFSET UNITYSDK_OFFSET(0x1274D700)
-#define RPG_CLIENT_PRODUCT_SETBUYTIMES_OFFSET UNITYSDK_OFFSET(0x1274DBD0)
-#define RPG_CLIENT_PRODUCT_SETPRODUCT_OFFSET UNITYSDK_OFFSET(0x1274DB20)
-#define RPG_CLIENT_PRODUCT_SETSCHEDULE_OFFSET UNITYSDK_OFFSET(0x1274DC30)
-#define RPG_CLIENT_PRODUCT_SET_BEGINTIME_OFFSET UNITYSDK_OFFSET(0x1274D7D0)
-#define RPG_CLIENT_PRODUCT_SET_BUYTIMES_OFFSET UNITYSDK_OFFSET(0x1274D790)
-#define RPG_CLIENT_PRODUCT_SET_COUNTRYCODE_OFFSET UNITYSDK_OFFSET(0x1274D4C0)
-#define RPG_CLIENT_PRODUCT_SET_CURRENCYCODE_OFFSET UNITYSDK_OFFSET(0x1274D4E0)
-#define RPG_CLIENT_PRODUCT_SET_CURRENCYSYMBOL_OFFSET UNITYSDK_OFFSET(0x1274D500)
-#define RPG_CLIENT_PRODUCT_SET_ENDTIME_OFFSET UNITYSDK_OFFSET(0x1274D7F0)
-#define RPG_CLIENT_PRODUCT_SET_GIFTVERSION_OFFSET UNITYSDK_OFFSET(0x1274D770)
-#define RPG_CLIENT_PRODUCT_SET_ISFIRSTRECHARGE_OFFSET UNITYSDK_OFFSET(0x1274DA10)
-#define RPG_CLIENT_PRODUCT_SET_LOCALIZEDDESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1274D520)
-#define RPG_CLIENT_PRODUCT_SET_MAXBUYTIMES_OFFSET UNITYSDK_OFFSET(0x1274D7B0)
-#define RPG_CLIENT_PRODUCT_SET_PRICETIER_OFFSET UNITYSDK_OFFSET(0x1274D4A0)
-#define RPG_CLIENT_PRODUCT_SET_PRICE_OFFSET UNITYSDK_OFFSET(0x1274D730)
-#define RPG_CLIENT_PRODUCT_SET_PRODUCTGIFTTYPE_OFFSET UNITYSDK_OFFSET(0x1274D750)
-#define RPG_CLIENT_PRODUCT_SET_PRODUCTID_OFFSET UNITYSDK_OFFSET(0x1274D480)
-#define RPG_CLIENT_PRODUCT_SET_SHOWPRICE_OFFSET UNITYSDK_OFFSET(0x1274D710)
-#define RPG_CLIENT_PRODUCT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1274E3A0)
-#define RPG_CLIENT_PRODUCT_UPDATEINFO_OFFSET UNITYSDK_OFFSET(0x1274DCF0)
-#define RPG_CLIENT_PRODUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x1274DA70)
-#define RPG_CLIENT_PRODUCT___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1274E630)
+#define RPG_CLIENT_PRODUCT_GET_BEGINTIME_OFFSET UNITYSDK_OFFSET(0x161FC650)
+#define RPG_CLIENT_PRODUCT_GET_BUYTIMES_OFFSET UNITYSDK_OFFSET(0x161FC610)
+#define RPG_CLIENT_PRODUCT_GET_COUNTRYCODE_OFFSET UNITYSDK_OFFSET(0x161FC340)
+#define RPG_CLIENT_PRODUCT_GET_CURRENCYCODE_OFFSET UNITYSDK_OFFSET(0x161FC360)
+#define RPG_CLIENT_PRODUCT_GET_CURRENCYSYMBOL_OFFSET UNITYSDK_OFFSET(0x161FC380)
+#define RPG_CLIENT_PRODUCT_GET_ENDTIME_OFFSET UNITYSDK_OFFSET(0x161FC670)
+#define RPG_CLIENT_PRODUCT_GET_GIFTVERSION_OFFSET UNITYSDK_OFFSET(0x161FC5F0)
+#define RPG_CLIENT_PRODUCT_GET_ISBP_OFFSET UNITYSDK_OFFSET(0x161FC8B0)
+#define RPG_CLIENT_PRODUCT_GET_ISFIRSTRECHARGE_OFFSET UNITYSDK_OFFSET(0x161FC890)
+#define RPG_CLIENT_PRODUCT_GET_ISINSCHEDULE_OFFSET UNITYSDK_OFFSET(0x161FC690)
+#define RPG_CLIENT_PRODUCT_GET_ISSOLDOUT_OFFSET UNITYSDK_OFFSET(0x161FC830)
+#define RPG_CLIENT_PRODUCT_GET_LOCALIZEDDESCRIPTION_OFFSET UNITYSDK_OFFSET(0x161FC3A0)
+#define RPG_CLIENT_PRODUCT_GET_LOCALIZEDTITLE_OFFSET UNITYSDK_OFFSET(0x161FC3C0)
+#define RPG_CLIENT_PRODUCT_GET_MAXBUYTIMES_OFFSET UNITYSDK_OFFSET(0x161FC630)
+#define RPG_CLIENT_PRODUCT_GET_PRICETIER_OFFSET UNITYSDK_OFFSET(0x161FC320)
+#define RPG_CLIENT_PRODUCT_GET_PRICE_OFFSET UNITYSDK_OFFSET(0x161FC5B0)
+#define RPG_CLIENT_PRODUCT_GET_PRODUCTGIFTTYPE_OFFSET UNITYSDK_OFFSET(0x161FC5D0)
+#define RPG_CLIENT_PRODUCT_GET_PRODUCTID_OFFSET UNITYSDK_OFFSET(0x161FC300)
+#define RPG_CLIENT_PRODUCT_GET_ROW_OFFSET UNITYSDK_OFFSET(0x161FC530)
+#define RPG_CLIENT_PRODUCT_GET_SHOWPRICE_OFFSET UNITYSDK_OFFSET(0x161FC590)
+#define RPG_CLIENT_PRODUCT_SETBUYTIMES_OFFSET UNITYSDK_OFFSET(0x161FCA60)
+#define RPG_CLIENT_PRODUCT_SETPRODUCT_OFFSET UNITYSDK_OFFSET(0x161FC9B0)
+#define RPG_CLIENT_PRODUCT_SETSCHEDULE_OFFSET UNITYSDK_OFFSET(0x161FCAC0)
+#define RPG_CLIENT_PRODUCT_SET_BEGINTIME_OFFSET UNITYSDK_OFFSET(0x161FC660)
+#define RPG_CLIENT_PRODUCT_SET_BUYTIMES_OFFSET UNITYSDK_OFFSET(0x161FC620)
+#define RPG_CLIENT_PRODUCT_SET_COUNTRYCODE_OFFSET UNITYSDK_OFFSET(0x161FC350)
+#define RPG_CLIENT_PRODUCT_SET_CURRENCYCODE_OFFSET UNITYSDK_OFFSET(0x161FC370)
+#define RPG_CLIENT_PRODUCT_SET_CURRENCYSYMBOL_OFFSET UNITYSDK_OFFSET(0x161FC390)
+#define RPG_CLIENT_PRODUCT_SET_ENDTIME_OFFSET UNITYSDK_OFFSET(0x161FC680)
+#define RPG_CLIENT_PRODUCT_SET_GIFTVERSION_OFFSET UNITYSDK_OFFSET(0x161FC600)
+#define RPG_CLIENT_PRODUCT_SET_ISFIRSTRECHARGE_OFFSET UNITYSDK_OFFSET(0x161FC8A0)
+#define RPG_CLIENT_PRODUCT_SET_LOCALIZEDDESCRIPTION_OFFSET UNITYSDK_OFFSET(0x161FC3B0)
+#define RPG_CLIENT_PRODUCT_SET_MAXBUYTIMES_OFFSET UNITYSDK_OFFSET(0x161FC640)
+#define RPG_CLIENT_PRODUCT_SET_PRICETIER_OFFSET UNITYSDK_OFFSET(0x161FC330)
+#define RPG_CLIENT_PRODUCT_SET_PRICE_OFFSET UNITYSDK_OFFSET(0x161FC5C0)
+#define RPG_CLIENT_PRODUCT_SET_PRODUCTGIFTTYPE_OFFSET UNITYSDK_OFFSET(0x161FC5E0)
+#define RPG_CLIENT_PRODUCT_SET_PRODUCTID_OFFSET UNITYSDK_OFFSET(0x161FC310)
+#define RPG_CLIENT_PRODUCT_SET_SHOWPRICE_OFFSET UNITYSDK_OFFSET(0x161FC5A0)
+#define RPG_CLIENT_PRODUCT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x161FD1C0)
+#define RPG_CLIENT_PRODUCT_UPDATEINFO_OFFSET UNITYSDK_OFFSET(0x161FCB80)
+#define RPG_CLIENT_PRODUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x161FC900)
+#define RPG_CLIENT_PRODUCT___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x161FD450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Product_TypeDefinitionIndex = 61197;
+	inline static constexpr unsigned int Product_TypeDefinitionIndex = 62121;
 
 	class Product : public ::System::Object
 	{
 	public:
-		::System::String* _ShowPrice_k__BackingField; // 0x10
-		::System::String* _ProductID_k__BackingField; // 0x18
-		::System::String* _LocalizedDescription_k__BackingField; // 0x20
-		::System::String* _CountryCode_k__BackingField; // 0x28
+		::System::String* _PriceTier; // 0x10
+		::System::String* _LocalizedDescription_k__BackingField; // 0x18
+		::System::String* _ShowPrice_k__BackingField; // 0x20
+		::System::String* _ProductID_k__BackingField; // 0x28
 		::System::String* _CurrencySymbol_k__BackingField; // 0x30
-		::System::String* _PriceTier; // 0x38
+		::System::String* _CountryCode_k__BackingField; // 0x38
 		::System::String* _CurrencyCode_k__BackingField; // 0x40
-		::Enum_3_7CF3F1C413CAE286 _ProductGiftType_k__BackingField; // 0x48
+		::System::Single _Price_k__BackingField; // 0x48
 		::System::UInt32 _MaxBuyTimes_k__BackingField; // 0x4C
-		::System::Boolean _IsFirstRecharge_k__BackingField; // 0x50
-		::System::Single _Price_k__BackingField; // 0x54
-		::RPG::Client::DateTimePro _BeginTime_k__BackingField; // 0x58
-		::System::UInt32 _GiftVersion_k__BackingField; // 0x60
-		::System::UInt32 _BuyTimes_k__BackingField; // 0x64
-		::RPG::Client::DateTimePro _EndTime_k__BackingField; // 0x68
+		::RPG::Client::DateTimePro _EndTime_k__BackingField; // 0x50
+		::System::UInt32 _GiftVersion_k__BackingField; // 0x58
+		::Enum_3_7CF3F1C413CAE286 _ProductGiftType_k__BackingField; // 0x5C
+		::RPG::Client::DateTimePro _BeginTime_k__BackingField; // 0x60
+		::System::Boolean _IsFirstRecharge_k__BackingField; // 0x68
+		::System::UInt32 _BuyTimes_k__BackingField; // 0x6C
 
-		::System::Void _ctor(::System::String* id, ::System::String* priceTier, ::Enum_3_7CF3F1C413CAE286 productGiftType, ::System::UInt32 giftVersion)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::Enum_3_7CF3F1C413CAE286 a3, ::System::UInt32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Enum_3_7CF3F1C413CAE286, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT__CTOR_OFFSET))(this, id, priceTier, productGiftType, giftVersion);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Enum_3_7CF3F1C413CAE286, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::String* get_ProductID()
@@ -84,9 +84,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_GET_PRODUCTID_OFFSET))(this);
 		}
 
-		::System::Void set_ProductID(::System::String* value)
+		::System::Void set_ProductID(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_PRODUCTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_PRODUCTID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_PriceTier()
@@ -94,9 +94,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_GET_PRICETIER_OFFSET))(this);
 		}
 
-		::System::Void set_PriceTier(::System::String* value)
+		::System::Void set_PriceTier(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_PRICETIER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_PRICETIER_OFFSET))(this, a1);
 		}
 
 		::System::String* get_CountryCode()
@@ -104,9 +104,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_GET_COUNTRYCODE_OFFSET))(this);
 		}
 
-		::System::Void set_CountryCode(::System::String* value)
+		::System::Void set_CountryCode(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_COUNTRYCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_COUNTRYCODE_OFFSET))(this, a1);
 		}
 
 		::System::String* get_CurrencyCode()
@@ -114,9 +114,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_GET_CURRENCYCODE_OFFSET))(this);
 		}
 
-		::System::Void set_CurrencyCode(::System::String* value)
+		::System::Void set_CurrencyCode(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_CURRENCYCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_CURRENCYCODE_OFFSET))(this, a1);
 		}
 
 		::System::String* get_CurrencySymbol()
@@ -124,9 +124,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_GET_CURRENCYSYMBOL_OFFSET))(this);
 		}
 
-		::System::Void set_CurrencySymbol(::System::String* value)
+		::System::Void set_CurrencySymbol(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_CURRENCYSYMBOL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_CURRENCYSYMBOL_OFFSET))(this, a1);
 		}
 
 		::System::String* get_LocalizedDescription()
@@ -134,9 +134,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_GET_LOCALIZEDDESCRIPTION_OFFSET))(this);
 		}
 
-		::System::Void set_LocalizedDescription(::System::String* value)
+		::System::Void set_LocalizedDescription(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_LOCALIZEDDESCRIPTION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_LOCALIZEDDESCRIPTION_OFFSET))(this, a1);
 		}
 
 		::System::String* get_LocalizedTitle()
@@ -149,9 +149,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_GET_SHOWPRICE_OFFSET))(this);
 		}
 
-		::System::Void set_ShowPrice(::System::String* value)
+		::System::Void set_ShowPrice(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_SHOWPRICE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_SHOWPRICE_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Price()
@@ -159,9 +159,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_GET_PRICE_OFFSET))(this);
 		}
 
-		::System::Void set_Price(::System::Single value)
+		::System::Void set_Price(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_PRICE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_PRICE_OFFSET))(this, a1);
 		}
 
 		::Enum_3_7CF3F1C413CAE286 get_ProductGiftType()
@@ -169,9 +169,9 @@ namespace RPG::Client
 			return ((::Enum_3_7CF3F1C413CAE286(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_GET_PRODUCTGIFTTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_ProductGiftType(::Enum_3_7CF3F1C413CAE286 value)
+		::System::Void set_ProductGiftType(::Enum_3_7CF3F1C413CAE286 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_7CF3F1C413CAE286))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_PRODUCTGIFTTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Enum_3_7CF3F1C413CAE286))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_PRODUCTGIFTTYPE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_GiftVersion()
@@ -179,9 +179,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_GET_GIFTVERSION_OFFSET))(this);
 		}
 
-		::System::Void set_GiftVersion(::System::UInt32 value)
+		::System::Void set_GiftVersion(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_GIFTVERSION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_GIFTVERSION_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_BuyTimes()
@@ -189,9 +189,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_GET_BUYTIMES_OFFSET))(this);
 		}
 
-		::System::Void set_BuyTimes(::System::UInt32 value)
+		::System::Void set_BuyTimes(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_BUYTIMES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_BUYTIMES_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_MaxBuyTimes()
@@ -199,9 +199,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_GET_MAXBUYTIMES_OFFSET))(this);
 		}
 
-		::System::Void set_MaxBuyTimes(::System::UInt32 value)
+		::System::Void set_MaxBuyTimes(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_MAXBUYTIMES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_MAXBUYTIMES_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::DateTimePro get_BeginTime()
@@ -209,9 +209,9 @@ namespace RPG::Client
 			return ((::RPG::Client::DateTimePro(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_GET_BEGINTIME_OFFSET))(this);
 		}
 
-		::System::Void set_BeginTime(::RPG::Client::DateTimePro value)
+		::System::Void set_BeginTime(::RPG::Client::DateTimePro a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_BEGINTIME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_BEGINTIME_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::DateTimePro get_EndTime()
@@ -219,9 +219,9 @@ namespace RPG::Client
 			return ((::RPG::Client::DateTimePro(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_GET_ENDTIME_OFFSET))(this);
 		}
 
-		::System::Void set_EndTime(::RPG::Client::DateTimePro value)
+		::System::Void set_EndTime(::RPG::Client::DateTimePro a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_ENDTIME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_ENDTIME_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsInSchedule()
@@ -239,9 +239,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_GET_ISFIRSTRECHARGE_OFFSET))(this);
 		}
 
-		::System::Void set_IsFirstRecharge(::System::Boolean value)
+		::System::Void set_IsFirstRecharge(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_ISFIRSTRECHARGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SET_ISFIRSTRECHARGE_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::RechargeConfigRow* get_Row()
@@ -254,24 +254,24 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_GET_ISBP_OFFSET))(this);
 		}
 
-		::System::Void SetProduct(::System::String* id, ::System::String* priceTier, ::Enum_3_7CF3F1C413CAE286 productGiftType, ::System::UInt32 giftVersion)
+		::System::Void SetProduct(::System::String* a1, ::System::String* a2, ::Enum_3_7CF3F1C413CAE286 a3, ::System::UInt32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Enum_3_7CF3F1C413CAE286, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SETPRODUCT_OFFSET))(this, id, priceTier, productGiftType, giftVersion);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Enum_3_7CF3F1C413CAE286, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SETPRODUCT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void SetBuyTimes(::System::UInt32 buyTimes, ::System::UInt32 maxBuyTimes)
+		::System::Void SetBuyTimes(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SETBUYTIMES_OFFSET))(this, buyTimes, maxBuyTimes);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SETBUYTIMES_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetSchedule(::System::Int64 beginTime, ::System::Int64 endTime)
+		::System::Void SetSchedule(::System::Int64 a1, ::System::Int64 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SETSCHEDULE_OFFSET))(this, beginTime, endTime);
+			return ((::System::Void(*)(::PVOID, ::System::Int64, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_SETSCHEDULE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void UpdateInfo(::HoudiniEngineUnity::JSONObject* jsonObject)
+		::System::Void UpdateInfo(::HoudiniEngineUnity::JSONObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::JSONObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_UPDATEINFO_OFFSET))(this, jsonObject);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::JSONObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PRODUCT_UPDATEINFO_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()

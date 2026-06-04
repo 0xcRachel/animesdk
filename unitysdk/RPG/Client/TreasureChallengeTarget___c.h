@@ -5,24 +5,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_TREASURECHALLENGETARGET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16841440)
-#define RPG_CLIENT_TREASURECHALLENGETARGET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16841480)
-#define RPG_CLIENT_TREASURECHALLENGETARGET___C__GET_FINISHEDCOUNT_B__13_0_OFFSET UNITYSDK_OFFSET(0x16841490)
+#define RPG_CLIENT_TREASURECHALLENGETARGET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x185C2430)
+#define RPG_CLIENT_TREASURECHALLENGETARGET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x185C2470)
+#define RPG_CLIENT_TREASURECHALLENGETARGET___C__GET_FINISHEDCOUNT_B__13_0_OFFSET UNITYSDK_OFFSET(0x185C2480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TreasureChallengeTarget___c_TypeDefinitionIndex = 61500;
+	inline static constexpr unsigned int TreasureChallengeTarget___c_TypeDefinitionIndex = 62433;
 
 	class TreasureChallengeTarget___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::TreasureChallengeTarget___c** StaticGet___9()
 		{
-			return (::RPG::Client::TreasureChallengeTarget___c**)Il2CppClass::FromTypeDefinitionIndex(TreasureChallengeTarget___c_TypeDefinitionIndex)->GetStaticField(0x55F20);
+			return (::RPG::Client::TreasureChallengeTarget___c**)Il2CppClass::FromTypeDefinitionIndex(TreasureChallengeTarget___c_TypeDefinitionIndex)->GetStaticField(0x52D80);
 		}
 		static ::System::Func_2<::RPG::Client::TreasureChallengeTargetStatus, ::System::Boolean>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::RPG::Client::TreasureChallengeTargetStatus, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TreasureChallengeTarget___c_TypeDefinitionIndex)->GetStaticField(0x55F28);
+			return (::System::Func_2<::RPG::Client::TreasureChallengeTargetStatus, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TreasureChallengeTarget___c_TypeDefinitionIndex)->GetStaticField(0x52D88);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURECHALLENGETARGET___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _get_FinishedCount_b__13_0(::RPG::Client::TreasureChallengeTargetStatus a)
+		::System::Boolean _get_FinishedCount_b__13_0(::RPG::Client::TreasureChallengeTargetStatus a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::TreasureChallengeTargetStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURECHALLENGETARGET___C__GET_FINISHEDCOUNT_B__13_0_OFFSET))(this, a);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::TreasureChallengeTargetStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURECHALLENGETARGET___C__GET_FINISHEDCOUNT_B__13_0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,14 +4,14 @@
 
 namespace RPG::Client::ParkourGame { class MonoParkourJoyStickProvider; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_IGNOREPRESSSTATE_ENTER_OFFSET UNITYSDK_OFFSET(0x162C9200)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_IGNOREPRESSSTATE_EXIT_OFFSET UNITYSDK_OFFSET(0x162C92F0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_IGNOREPRESSSTATE_TICK_OFFSET UNITYSDK_OFFSET(0x162C92A0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_IGNOREPRESSSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x162C9180)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_IGNOREPRESSSTATE_ENTER_OFFSET UNITYSDK_OFFSET(0x18C5A190)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_IGNOREPRESSSTATE_EXIT_OFFSET UNITYSDK_OFFSET(0x18C5A280)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_IGNOREPRESSSTATE_TICK_OFFSET UNITYSDK_OFFSET(0x18C5A230)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_IGNOREPRESSSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18C5A140)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourJoyStickProvider_IgnorePressState_TypeDefinitionIndex = 68257;
+	inline static constexpr unsigned int MonoParkourJoyStickProvider_IgnorePressState_TypeDefinitionIndex = 69231;
 
 	class MonoParkourJoyStickProvider_IgnorePressState : public ::System::Object
 	{
@@ -21,14 +21,14 @@ namespace RPG::Client::ParkourGame
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_IGNOREPRESSSTATE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Enter(::RPG::Client::ParkourGame::MonoParkourJoyStickProvider* owner)
+		::System::Void Enter(::RPG::Client::ParkourGame::MonoParkourJoyStickProvider* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ParkourGame::MonoParkourJoyStickProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_IGNOREPRESSSTATE_ENTER_OFFSET))(this, owner);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ParkourGame::MonoParkourJoyStickProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_IGNOREPRESSSTATE_ENTER_OFFSET))(this, a1);
 		}
 
-		::System::Void Tick(::RPG::Client::ParkourGame::MonoParkourJoyStickProvider* owner)
+		::System::Void Tick(::RPG::Client::ParkourGame::MonoParkourJoyStickProvider* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ParkourGame::MonoParkourJoyStickProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_IGNOREPRESSSTATE_TICK_OFFSET))(this, owner);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ParkourGame::MonoParkourJoyStickProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_IGNOREPRESSSTATE_TICK_OFFSET))(this, a1);
 		}
 
 		::System::Void Exit()

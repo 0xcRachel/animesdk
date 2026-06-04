@@ -6,21 +6,21 @@ namespace RPG::Client { class FloorConnectivityData_EdgeConnectionInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGEINFO_GETFIRSTORDEFAULTCONNECTION_OFFSET UNITYSDK_OFFSET(0x11340D60)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x113417E0)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x11341390)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGEINFO___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x113418E0)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGEINFO_GETFIRSTORDEFAULTCONNECTION_OFFSET UNITYSDK_OFFSET(0x15949460)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15949E70)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15949A50)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGEINFO___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15949F70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FloorConnectivityData_EdgeInfo_TypeDefinitionIndex = 59096;
+	inline static constexpr unsigned int FloorConnectivityData_EdgeInfo_TypeDefinitionIndex = 60026;
 
 	class FloorConnectivityData_EdgeInfo : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::FloorConnectivityData_EdgeConnectionInfo*>* Connections; // 0x10
-		::System::UInt32 FromFloorID; // 0x18
-		::System::UInt32 ToFloorID; // 0x1C
+		::System::UInt32 ToFloorID; // 0x18
+		::System::UInt32 FromFloorID; // 0x1C
 
 		::System::Void _ctor()
 		{

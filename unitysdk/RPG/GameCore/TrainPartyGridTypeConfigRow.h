@@ -6,18 +6,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19496270)
-#define RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19496490)
+#define RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A27950)
+#define RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A27B70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyGridTypeConfigRow_TypeDefinitionIndex = 14510;
+	inline static constexpr unsigned int TrainPartyGridTypeConfigRow_TypeDefinitionIndex = 14544;
 
 	class TrainPartyGridTypeConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID GridTypeName; // 0x10
-		::RPG::Client::TextID GridTypeTipInfo; // 0x20
+		::RPG::Client::TextID GridTypeTipInfo; // 0x10
+		::RPG::Client::TextID GridTypeName; // 0x20
 		::RPG::GameCore::TrainPartyGridType GridType; // 0x30
 
 		::System::Void _ctor()
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::TrainPartyGridTypeConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyGridTypeConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyGridTypeConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyGridTypeConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -7,51 +7,51 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_10_OFFSET UNITYSDK_OFFSET(0x197F5B50)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_11_OFFSET UNITYSDK_OFFSET(0x197F5B70)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_12_OFFSET UNITYSDK_OFFSET(0x197F5B90)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x197F5A30)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_2_OFFSET UNITYSDK_OFFSET(0x197F5A50)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_3_OFFSET UNITYSDK_OFFSET(0x197F5A70)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_4_OFFSET UNITYSDK_OFFSET(0x197F5A90)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_5_OFFSET UNITYSDK_OFFSET(0x197F5AB0)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_6_OFFSET UNITYSDK_OFFSET(0x197F5AD0)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_7_OFFSET UNITYSDK_OFFSET(0x197F5AF0)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_8_OFFSET UNITYSDK_OFFSET(0x197F5B10)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_9_OFFSET UNITYSDK_OFFSET(0x197F5B30)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x197F5A10)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x235FD00)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x235FCD0)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_FROMOBJECT_OFFSET UNITYSDK_OFFSET(0x197F59F0)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x235FD50)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_GET_NIL_OFFSET UNITYSDK_OFFSET(0x197F4FD0)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x608A30)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_SET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1464EA0)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOBOOLEAN_OFFSET UNITYSDK_OFFSET(0x235F720)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOBYTE_OFFSET UNITYSDK_OFFSET(0x235F800)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOCHAR_OFFSET UNITYSDK_OFFSET(0x235F860)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_TODOUBLE_OFFSET UNITYSDK_OFFSET(0x235FBF0)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOINT16_OFFSET UNITYSDK_OFFSET(0x235F860)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOINT32_OFFSET UNITYSDK_OFFSET(0x235F8D0)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOINT64_OFFSET UNITYSDK_OFFSET(0x235F9D0)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOOBJECT_OFFSET UNITYSDK_OFFSET(0x235FCC0)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOSBYTE_OFFSET UNITYSDK_OFFSET(0x235F800)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOSINGLE_OFFSET UNITYSDK_OFFSET(0x235FB10)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x235F710)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOUINT16_OFFSET UNITYSDK_OFFSET(0x235F860)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOUINT32_OFFSET UNITYSDK_OFFSET(0x235F950)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOUINT64_OFFSET UNITYSDK_OFFSET(0x235FA50)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE__CCTOR_OFFSET UNITYSDK_OFFSET(0x197F4FB0)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_10_OFFSET UNITYSDK_OFFSET(0x1A4E07A0)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_11_OFFSET UNITYSDK_OFFSET(0x1A4E07C0)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_12_OFFSET UNITYSDK_OFFSET(0x1A4E07E0)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A4E0680)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A4E06A0)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1A4E06C0)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_4_OFFSET UNITYSDK_OFFSET(0x1A4E06E0)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_5_OFFSET UNITYSDK_OFFSET(0x1A4E0700)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_6_OFFSET UNITYSDK_OFFSET(0x1A4E0720)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_7_OFFSET UNITYSDK_OFFSET(0x1A4E0740)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_8_OFFSET UNITYSDK_OFFSET(0x1A4E0760)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_9_OFFSET UNITYSDK_OFFSET(0x1A4E0780)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1A4E0660)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x38FF6F0)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x38FF6C0)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_FROMOBJECT_OFFSET UNITYSDK_OFFSET(0x1A4E0640)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x38FF740)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_GET_NIL_OFFSET UNITYSDK_OFFSET(0x1A4DFC30)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x6668A0)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_SET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x3741A70)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOBOOLEAN_OFFSET UNITYSDK_OFFSET(0x38FF080)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOBYTE_OFFSET UNITYSDK_OFFSET(0x38FF1C0)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOCHAR_OFFSET UNITYSDK_OFFSET(0x38FF220)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_TODOUBLE_OFFSET UNITYSDK_OFFSET(0x38FF5E0)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOINT16_OFFSET UNITYSDK_OFFSET(0x38FF290)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOINT32_OFFSET UNITYSDK_OFFSET(0x38FF300)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOINT64_OFFSET UNITYSDK_OFFSET(0x38FF400)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOOBJECT_OFFSET UNITYSDK_OFFSET(0x38FF6B0)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOSBYTE_OFFSET UNITYSDK_OFFSET(0x38FF160)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOSINGLE_OFFSET UNITYSDK_OFFSET(0x38FF500)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x38FF070)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOUINT16_OFFSET UNITYSDK_OFFSET(0x38FF220)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOUINT32_OFFSET UNITYSDK_OFFSET(0x38FF380)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_TOUINT64_OFFSET UNITYSDK_OFFSET(0x38FF480)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A4DFC10)
 
 namespace UnityEngine::GCFreeClosure
 {
-	inline static constexpr unsigned int SValue_TypeDefinitionIndex = 4273;
+	inline static constexpr unsigned int SValue_TypeDefinitionIndex = 4447;
 
 	struct alignas(8) SValue
 	{
 		static ::UnityEngine::GCFreeClosure::SValue* StaticGet__nil()
 		{
-			return (::UnityEngine::GCFreeClosure::SValue*)Il2CppClass::FromTypeDefinitionIndex(SValue_TypeDefinitionIndex)->GetStaticField(0x12820);
+			return (::UnityEngine::GCFreeClosure::SValue*)Il2CppClass::FromTypeDefinitionIndex(SValue_TypeDefinitionIndex)->GetStaticField(0x308D0);
 		}
 		::UnityEngine::GCFreeClosure::SValue_InternalValue _val; // 0x10
 		::System::Object* _obj; // 0x18
@@ -72,9 +72,9 @@ namespace UnityEngine::GCFreeClosure
 			return ((::UnityEngine::GCFreeClosure::SValue_Type(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_GET_VALUETYPE_OFFSET))(this);
 		}
 
-		::System::Void set_ValueType(::UnityEngine::GCFreeClosure::SValue_Type value)
+		::System::Void set_ValueType(::UnityEngine::GCFreeClosure::SValue_Type a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GCFreeClosure::SValue_Type))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_SET_VALUETYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GCFreeClosure::SValue_Type))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_SET_VALUETYPE_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()
@@ -147,84 +147,84 @@ namespace UnityEngine::GCFreeClosure
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_TOOBJECT_OFFSET))(this);
 		}
 
-		static ::UnityEngine::GCFreeClosure::SValue FromObject(::System::Object* val)
+		static ::UnityEngine::GCFreeClosure::SValue FromObject(::System::Object* a1)
 		{
-			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_FROMOBJECT_OFFSET))(val);
+			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_FROMOBJECT_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::GCFreeClosure::SValue Ctor(::System::Boolean val)
+		static ::UnityEngine::GCFreeClosure::SValue Ctor(::System::Boolean a1)
 		{
-			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_OFFSET))(val);
+			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::GCFreeClosure::SValue Ctor_1(::System::Byte val)
+		static ::UnityEngine::GCFreeClosure::SValue Ctor_1(::System::Byte a1)
 		{
-			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::Byte))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_1_OFFSET))(val);
+			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::Byte))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_1_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::GCFreeClosure::SValue Ctor_2(::System::SByte val)
+		static ::UnityEngine::GCFreeClosure::SValue Ctor_2(::System::SByte a1)
 		{
-			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::SByte))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_2_OFFSET))(val);
+			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::SByte))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_2_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::GCFreeClosure::SValue Ctor_3(::System::Char val)
+		static ::UnityEngine::GCFreeClosure::SValue Ctor_3(::System::Char a1)
 		{
-			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::Char))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_3_OFFSET))(val);
+			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::Char))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_3_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::GCFreeClosure::SValue Ctor_4(::System::Int16 val)
+		static ::UnityEngine::GCFreeClosure::SValue Ctor_4(::System::Int16 a1)
 		{
-			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::Int16))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_4_OFFSET))(val);
+			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::Int16))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_4_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::GCFreeClosure::SValue Ctor_5(::System::UInt16 val)
+		static ::UnityEngine::GCFreeClosure::SValue Ctor_5(::System::UInt16 a1)
 		{
-			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::UInt16))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_5_OFFSET))(val);
+			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::UInt16))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_5_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::GCFreeClosure::SValue Ctor_6(::System::Int32 val)
+		static ::UnityEngine::GCFreeClosure::SValue Ctor_6(::System::Int32 a1)
 		{
-			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_6_OFFSET))(val);
+			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_6_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::GCFreeClosure::SValue Ctor_7(::System::UInt32 val)
+		static ::UnityEngine::GCFreeClosure::SValue Ctor_7(::System::UInt32 a1)
 		{
-			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_7_OFFSET))(val);
+			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_7_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::GCFreeClosure::SValue Ctor_8(::System::Int64& val)
+		static ::UnityEngine::GCFreeClosure::SValue Ctor_8(::System::Int64& a1)
 		{
-			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::Int64&))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_8_OFFSET))(val);
+			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::Int64&))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_8_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::GCFreeClosure::SValue Ctor_9(::System::UInt64& val)
+		static ::UnityEngine::GCFreeClosure::SValue Ctor_9(::System::UInt64& a1)
 		{
-			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::UInt64&))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_9_OFFSET))(val);
+			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::UInt64&))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_9_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::GCFreeClosure::SValue Ctor_10(::System::Single val)
+		static ::UnityEngine::GCFreeClosure::SValue Ctor_10(::System::Single a1)
 		{
-			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_10_OFFSET))(val);
+			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_10_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::GCFreeClosure::SValue Ctor_11(::System::Double& val)
+		static ::UnityEngine::GCFreeClosure::SValue Ctor_11(::System::Double& a1)
 		{
-			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::Double&))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_11_OFFSET))(val);
+			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::Double&))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_11_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::GCFreeClosure::SValue Ctor_12(::System::String* val)
+		static ::UnityEngine::GCFreeClosure::SValue Ctor_12(::System::String* a1)
 		{
-			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_12_OFFSET))(val);
+			return ((::UnityEngine::GCFreeClosure::SValue(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_CTOR_12_OFFSET))(a1);
 		}
 
-		::System::Boolean Equals(::UnityEngine::GCFreeClosure::SValue other)
+		::System::Boolean Equals(::UnityEngine::GCFreeClosure::SValue a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GCFreeClosure::SValue))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GCFreeClosure::SValue))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_SVALUE_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

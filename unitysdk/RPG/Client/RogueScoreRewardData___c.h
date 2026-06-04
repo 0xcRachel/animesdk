@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class RogueScoreRewardRow; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUESCOREREWARDDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16365C80)
-#define RPG_CLIENT_ROGUESCOREREWARDDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16365CC0)
-#define RPG_CLIENT_ROGUESCOREREWARDDATA___C__GETCURSCOREREWARDROWS_B__4_0_OFFSET UNITYSDK_OFFSET(0x16365CD0)
+#define RPG_CLIENT_ROGUESCOREREWARDDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x183B61A0)
+#define RPG_CLIENT_ROGUESCOREREWARDDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x183B61E0)
+#define RPG_CLIENT_ROGUESCOREREWARDDATA___C__GETCURSCOREREWARDROWS_B__4_0_OFFSET UNITYSDK_OFFSET(0x183B61F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueScoreRewardData___c_TypeDefinitionIndex = 62172;
+	inline static constexpr unsigned int RogueScoreRewardData___c_TypeDefinitionIndex = 63105;
 
 	class RogueScoreRewardData___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::RogueScoreRewardData___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueScoreRewardData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueScoreRewardData___c_TypeDefinitionIndex)->GetStaticField(0x28180);
+			return (::RPG::Client::RogueScoreRewardData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueScoreRewardData___c_TypeDefinitionIndex)->GetStaticField(0x31900);
 		}
 		static ::System::Comparison_1<::RPG::GameCore::RogueScoreRewardRow*>** StaticGet___9__4_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::RogueScoreRewardRow*>**)Il2CppClass::FromTypeDefinitionIndex(RogueScoreRewardData___c_TypeDefinitionIndex)->GetStaticField(0x28188);
+			return (::System::Comparison_1<::RPG::GameCore::RogueScoreRewardRow*>**)Il2CppClass::FromTypeDefinitionIndex(RogueScoreRewardData___c_TypeDefinitionIndex)->GetStaticField(0x31908);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUESCOREREWARDDATA___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetCurScoreRewardRows_b__4_0(::RPG::GameCore::RogueScoreRewardRow* x, ::RPG::GameCore::RogueScoreRewardRow* y)
+		::System::Int32 _GetCurScoreRewardRows_b__4_0(::RPG::GameCore::RogueScoreRewardRow* a1, ::RPG::GameCore::RogueScoreRewardRow* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::RogueScoreRewardRow*, ::RPG::GameCore::RogueScoreRewardRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUESCOREREWARDDATA___C__GETCURSCOREREWARDROWS_B__4_0_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::RogueScoreRewardRow*, ::RPG::GameCore::RogueScoreRewardRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUESCOREREWARDDATA___C__GETCURSCOREREWARDROWS_B__4_0_OFFSET))(this, a1, a2);
 		}
 	};
 }

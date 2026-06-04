@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17C95EA0)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17C95EE0)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C__PLAYLOOPPARTICLEEFFECTBYPATH_B__8_0_OFFSET UNITYSDK_OFFSET(0x17C95EF0)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17B2E690)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17B2E6D0)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C__PLAYLOOPPARTICLEEFFECTBYPATH_B__8_0_OFFSET UNITYSDK_OFFSET(0x17B2E6E0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingBattleEffectController___c_TypeDefinitionIndex = 70165;
+	inline static constexpr unsigned int ChenLingBattleEffectController___c_TypeDefinitionIndex = 70977;
 
 	class ChenLingBattleEffectController___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ChenLingBattle::ChenLingBattleEffectController___c** StaticGet___9()
-		{
-			return (::RPG::Client::ChenLingBattle::ChenLingBattleEffectController___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleEffectController___c_TypeDefinitionIndex)->GetStaticField(0x5E210);
-		}
 		static ::System::Action** StaticGet___9__8_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleEffectController___c_TypeDefinitionIndex)->GetStaticField(0x5E218);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleEffectController___c_TypeDefinitionIndex)->GetStaticField(0x67D20);
+		}
+		static ::RPG::Client::ChenLingBattle::ChenLingBattleEffectController___c** StaticGet___9()
+		{
+			return (::RPG::Client::ChenLingBattle::ChenLingBattleEffectController___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleEffectController___c_TypeDefinitionIndex)->GetStaticField(0x67D28);
 		}
 
 		static ::System::Void _cctor()

@@ -4,27 +4,27 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LOOPCGENCRYPTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18FCDFD0)
-#define RPG_GAMECORE_LOOPCGENCRYPTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18FCE0F0)
+#define RPG_GAMECORE_LOOPCGENCRYPTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C18120)
+#define RPG_GAMECORE_LOOPCGENCRYPTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19C18240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoopCGEncryptionConfigRow_TypeDefinitionIndex = 14633;
+	inline static constexpr unsigned int LoopCGEncryptionConfigRow_TypeDefinitionIndex = 14655;
 
 	class LoopCGEncryptionConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 VideoID; // 0x10
-		::System::Boolean Encryption; // 0x14
+		::System::Boolean Encryption; // 0x10
+		::System::UInt32 VideoID; // 0x14
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPCGENCRYPTIONCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LoopCGEncryptionConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopCGEncryptionConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoopCGEncryptionConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPCGENCRYPTIONCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoopCGEncryptionConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPCGENCRYPTIONCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ItemComposeLimitHintPart; }
 
-#define RPG_CLIENT_ITEMCOMPOSELIMITHINTPART___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x133A5290)
-#define RPG_CLIENT_ITEMCOMPOSELIMITHINTPART___C__DISPLAYCLASS17_0___SETUPLISTENEROFHINTTOCHECK_B__0_OFFSET UNITYSDK_OFFSET(0x133A5390)
+#define RPG_CLIENT_ITEMCOMPOSELIMITHINTPART___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16239790)
+#define RPG_CLIENT_ITEMCOMPOSELIMITHINTPART___C__DISPLAYCLASS17_0___SETUPLISTENEROFHINTTOCHECK_B__0_OFFSET UNITYSDK_OFFSET(0x16239890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemComposeLimitHintPart___c__DisplayClass17_0_TypeDefinitionIndex = 60531;
+	inline static constexpr unsigned int ItemComposeLimitHintPart___c__DisplayClass17_0_TypeDefinitionIndex = 61465;
 
 	class ItemComposeLimitHintPart___c__DisplayClass17_0 : public ::System::Object
 	{

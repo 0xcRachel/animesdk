@@ -6,21 +6,21 @@
 namespace RPG::Client { class GridFightTrait; }
 namespace RPG::GameCore { class GridFightTraitRemarkRow; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEHIDETOHIGHLIGHTEFFECT_GET_CURRENTCOLORTYPE_OFFSET UNITYSDK_OFFSET(0x17437B30)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEHIDETOHIGHLIGHTEFFECT_GET_ISHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0x17437D10)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEHIDETOHIGHLIGHTEFFECT_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x17437C30)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEHIDETOHIGHLIGHTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x17436B80)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEHIDETOHIGHLIGHTEFFECT_GET_CURRENTCOLORTYPE_OFFSET UNITYSDK_OFFSET(0x1965A470)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEHIDETOHIGHLIGHTEFFECT_GET_ISHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0x1965A660)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEHIDETOHIGHLIGHTEFFECT_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x1965A580)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEHIDETOHIGHLIGHTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19659400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkLineHideToHighlightEffect_TypeDefinitionIndex = 60269;
+	inline static constexpr unsigned int GridFightTraitRemarkLineHideToHighlightEffect_TypeDefinitionIndex = 61204;
 
 	class GridFightTraitRemarkLineHideToHighlightEffect : public ::RPG::Client::GridFightTraitRemarkLineEffectBase
 	{
 	public:
-		::System::Void _ctor(::RPG::Client::GridFightTrait* trait, ::RPG::GameCore::GridFightTraitRemarkRow* row)
+		::System::Void _ctor(::RPG::Client::GridFightTrait* a1, ::RPG::GameCore::GridFightTraitRemarkRow* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightTrait*, ::RPG::GameCore::GridFightTraitRemarkRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEHIDETOHIGHLIGHTEFFECT__CTOR_OFFSET))(this, trait, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightTrait*, ::RPG::GameCore::GridFightTraitRemarkRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEHIDETOHIGHLIGHTEFFECT__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::GridFightTraitRemarkLineColorType get_CurrentColorType()

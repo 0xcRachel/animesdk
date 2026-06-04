@@ -4,16 +4,16 @@
 
 namespace UnityEngine { class Mesh; }
 
-#define UNITYENGINE_MESHFILTER_DONTSTRIPMESHFILTER_OFFSET UNITYSDK_OFFSET(0x1A5689F0)
-#define UNITYENGINE_MESHFILTER_GET_MESH_OFFSET UNITYSDK_OFFSET(0x1A568A20)
-#define UNITYENGINE_MESHFILTER_GET_SHAREDMESH_OFFSET UNITYSDK_OFFSET(0x1A568A00)
-#define UNITYENGINE_MESHFILTER_SET_MESH_OFFSET UNITYSDK_OFFSET(0x1A568A30)
-#define UNITYENGINE_MESHFILTER_SET_SHAREDMESH_OFFSET UNITYSDK_OFFSET(0x1A568A10)
-#define UNITYENGINE_MESHFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A568A40)
+#define UNITYENGINE_MESHFILTER_DONTSTRIPMESHFILTER_OFFSET UNITYSDK_OFFSET(0x1B30B930)
+#define UNITYENGINE_MESHFILTER_GET_MESH_OFFSET UNITYSDK_OFFSET(0x1B30B960)
+#define UNITYENGINE_MESHFILTER_GET_SHAREDMESH_OFFSET UNITYSDK_OFFSET(0x1B30B940)
+#define UNITYENGINE_MESHFILTER_SET_MESH_OFFSET UNITYSDK_OFFSET(0x1B30B970)
+#define UNITYENGINE_MESHFILTER_SET_SHAREDMESH_OFFSET UNITYSDK_OFFSET(0x1B30B950)
+#define UNITYENGINE_MESHFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B30B980)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MeshFilter_TypeDefinitionIndex = 3958;
+	inline static constexpr unsigned int MeshFilter_TypeDefinitionIndex = 4132;
 
 	class MeshFilter : public ::UnityEngine::Component
 	{
@@ -33,9 +33,9 @@ namespace UnityEngine
 			return ((::UnityEngine::Mesh*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_MESHFILTER_GET_SHAREDMESH_OFFSET))(this);
 		}
 
-		::System::Void set_sharedMesh(::UnityEngine::Mesh* value)
+		::System::Void set_sharedMesh(::UnityEngine::Mesh* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_MESHFILTER_SET_SHAREDMESH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_MESHFILTER_SET_SHAREDMESH_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Mesh* get_mesh()
@@ -43,9 +43,9 @@ namespace UnityEngine
 			return ((::UnityEngine::Mesh*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_MESHFILTER_GET_MESH_OFFSET))(this);
 		}
 
-		::System::Void set_mesh(::UnityEngine::Mesh* value)
+		::System::Void set_mesh(::UnityEngine::Mesh* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_MESHFILTER_SET_MESH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_MESHFILTER_SET_MESH_OFFSET))(this, a1);
 		}
 	};
 }

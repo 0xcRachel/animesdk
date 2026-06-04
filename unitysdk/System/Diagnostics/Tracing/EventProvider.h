@@ -20,65 +20,65 @@ namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_BITCOUNT_OFFSET UNITYSDK_OFFSET(0x17D06820)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_BITINDEX_OFFSET UNITYSDK_OFFSET(0x17D06900)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_DEREGISTER_OFFSET UNITYSDK_OFFSET(0x17D05140)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x17D04F90)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17D04F40)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ENCODEOBJECT_OFFSET UNITYSDK_OFFSET(0x17D06A70)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ETWENABLECALLBACKIMPL_OFFSET UNITYSDK_OFFSET(0x17D05320)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ETWENABLECALLBACK_OFFSET UNITYSDK_OFFSET(0x17D04B30)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_EVENTUNREGISTER_OFFSET UNITYSDK_OFFSET(0x17D05290)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x17D05220)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_FINDNULL_OFFSET UNITYSDK_OFFSET(0x17D06130)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETDATAFROMCONTROLLER_OFFSET UNITYSDK_OFFSET(0x17D060A0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETLASTWRITEEVENTERROR_OFFSET UNITYSDK_OFFSET(0x17D06980)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETSESSIONINFOCALLBACK_OFFSET UNITYSDK_OFFSET(0x17D06670)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETSESSIONINFO_OFFSET UNITYSDK_OFFSET(0x17D061E0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETSESSIONS_OFFSET UNITYSDK_OFFSET(0x17D05C00)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x17D061B0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GET_MATCHANYKEYWORD_OFFSET UNITYSDK_OFFSET(0x17D061C0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_INDEXOFSESSIONINLIST_OFFSET UNITYSDK_OFFSET(0x17D06630)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ISENABLED_1_OFFSET UNITYSDK_OFFSET(0x17D06950)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ISENABLED_OFFSET UNITYSDK_OFFSET(0x17D06940)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ONCONTROLLERCOMMAND_OFFSET UNITYSDK_OFFSET(0x17D061A0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_REGISTER_OFFSET UNITYSDK_OFFSET(0x17D04C20)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_SETINFORMATION_OFFSET UNITYSDK_OFFSET(0x17D04DE0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_SETLASTERROR_OFFSET UNITYSDK_OFFSET(0x17D069E0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_WRITEEVENTRAW_OFFSET UNITYSDK_OFFSET(0x17D08600)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_WRITEEVENT_1_OFFSET UNITYSDK_OFFSET(0x17D083F0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_WRITEEVENT_OFFSET UNITYSDK_OFFSET(0x17D074C0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D08810)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x17D04C10)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_BITCOUNT_OFFSET UNITYSDK_OFFSET(0x175FA410)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_BITINDEX_OFFSET UNITYSDK_OFFSET(0x175FA4F0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_DEREGISTER_OFFSET UNITYSDK_OFFSET(0x175F8AE0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x175F8930)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x175F88B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ENCODEOBJECT_OFFSET UNITYSDK_OFFSET(0x175FA660)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ETWENABLECALLBACKIMPL_OFFSET UNITYSDK_OFFSET(0x175F8CC0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ETWENABLECALLBACK_OFFSET UNITYSDK_OFFSET(0x175F8460)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_EVENTUNREGISTER_OFFSET UNITYSDK_OFFSET(0x175F8C30)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x175F8BC0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_FINDNULL_OFFSET UNITYSDK_OFFSET(0x175F9C10)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETDATAFROMCONTROLLER_OFFSET UNITYSDK_OFFSET(0x175F9B80)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETLASTWRITEEVENTERROR_OFFSET UNITYSDK_OFFSET(0x175FA570)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETSESSIONINFOCALLBACK_OFFSET UNITYSDK_OFFSET(0x175FA180)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETSESSIONINFO_OFFSET UNITYSDK_OFFSET(0x175F9CC0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETSESSIONS_OFFSET UNITYSDK_OFFSET(0x175F95D0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x175F9C90)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GET_MATCHANYKEYWORD_OFFSET UNITYSDK_OFFSET(0x175F9CA0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_INDEXOFSESSIONINLIST_OFFSET UNITYSDK_OFFSET(0x175FA120)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ISENABLED_1_OFFSET UNITYSDK_OFFSET(0x175FA540)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ISENABLED_OFFSET UNITYSDK_OFFSET(0x175FA530)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ONCONTROLLERCOMMAND_OFFSET UNITYSDK_OFFSET(0x175F9C80)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_REGISTER_OFFSET UNITYSDK_OFFSET(0x175F8560)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_SETINFORMATION_OFFSET UNITYSDK_OFFSET(0x175F8740)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_SETLASTERROR_OFFSET UNITYSDK_OFFSET(0x175FA5D0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_WRITEEVENTRAW_OFFSET UNITYSDK_OFFSET(0x175FC500)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_WRITEEVENT_1_OFFSET UNITYSDK_OFFSET(0x175FC2F0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_WRITEEVENT_OFFSET UNITYSDK_OFFSET(0x175FB0F0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x175FC710)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x175F8550)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventProvider_TypeDefinitionIndex = 1672;
+	inline static constexpr unsigned int EventProvider_TypeDefinitionIndex = 1670;
 
 	class EventProvider : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_nibblebits()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(EventProvider_TypeDefinitionIndex)->GetStaticField(0x59E0);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(EventProvider_TypeDefinitionIndex)->GetStaticField(0x5D00);
 		}
 		static ::System::Boolean* StaticGet_m_setInformationMissing()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EventProvider_TypeDefinitionIndex)->GetStaticField(0x1C30);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EventProvider_TypeDefinitionIndex)->GetStaticField(0x2F70);
 		}
 		static ::System::Diagnostics::Tracing::EventProvider_WriteEventErrorCode* StaticGet_s_returnCode()
 		{
 			return (::System::Diagnostics::Tracing::EventProvider_WriteEventErrorCode*)Il2CppClass::FromTypeDefinitionIndex(EventProvider_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
-		::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EtwEnableCallback* m_etwCallback; // 0x10
-		::System::Collections::Generic::List_1<::System::Diagnostics::Tracing::EventProvider_SessionInfo>* m_liveSessions; // 0x18
-		::System::Runtime::InteropServices::GCHandle m_thisGCHandle; // 0x20
-		::System::Boolean m_enabled; // 0x24
-		::System::Boolean m_disposed; // 0x25
-		::System::Byte m_level; // 0x26
+		::System::Collections::Generic::List_1<::System::Diagnostics::Tracing::EventProvider_SessionInfo>* m_liveSessions; // 0x10
+		::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EtwEnableCallback* m_etwCallback; // 0x18
+		::System::Int64 m_regHandle; // 0x20
 		::System::Guid m_providerId; // 0x28
 		::System::Int64 m_anyKeywordMask; // 0x38
-		::System::Int64 m_regHandle; // 0x40
+		::System::Runtime::InteropServices::GCHandle m_thisGCHandle; // 0x40
+		::System::Byte m_level; // 0x44
+		::System::Boolean m_disposed; // 0x45
+		::System::Boolean m_enabled; // 0x46
 		::System::Int64 m_allKeywordMask; // 0x48
 
 		::System::Void _ctor()
@@ -91,14 +91,14 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER__CCTOR_OFFSET))();
 		}
 
-		::System::Void Register(::System::Guid providerGuid)
+		::System::Void Register(::System::Guid a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Guid))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_REGISTER_OFFSET))(this, providerGuid);
+			return ((::System::Void(*)(::PVOID, ::System::Guid))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_REGISTER_OFFSET))(this, a1);
 		}
 
-		::System::Int32 SetInformation(::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_INFO_CLASS eventInfoClass, ::System::Void* data, ::System::Int32 dataSize)
+		::System::Int32 SetInformation(::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_INFO_CLASS a1, ::System::Void* a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_INFO_CLASS, ::System::Void*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_SETINFORMATION_OFFSET))(this, eventInfoClass, data, dataSize);
+			return ((::System::Int32(*)(::PVOID, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_INFO_CLASS, ::System::Void*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_SETINFORMATION_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Dispose()
@@ -106,9 +106,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Dispose_1(::System::Boolean disposing)
+		::System::Void Dispose_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_DISPOSE_1_OFFSET))(this, disposing);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_DISPOSE_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Finalize()
@@ -121,19 +121,19 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_DEREGISTER_OFFSET))(this);
 		}
 
-		static ::System::Void EtwEnableCallBack(::System::Guid& sourceId, ::System::Int32 controlCode, ::System::Byte setLevel, ::System::Int64 anyKeyword, ::System::Int64 allKeyword, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR* filterData, ::System::Void* callbackContext)
+		static ::System::Void EtwEnableCallBack(::System::Guid& a1, ::System::Int32 a2, ::System::Byte a3, ::System::Int64 a4, ::System::Int64 a5, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR* a6, ::System::Void* a7)
 		{
-			return ((::System::Void(*)(::System::Guid&, ::System::Int32, ::System::Byte, ::System::Int64, ::System::Int64, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR*, ::System::Void*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ETWENABLECALLBACK_OFFSET))(sourceId, controlCode, setLevel, anyKeyword, allKeyword, filterData, callbackContext);
+			return ((::System::Void(*)(::System::Guid&, ::System::Int32, ::System::Byte, ::System::Int64, ::System::Int64, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR*, ::System::Void*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ETWENABLECALLBACK_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void EtwEnableCallBackImpl(::System::Int32 controlCode, ::System::Byte setLevel, ::System::Int64 anyKeyword, ::System::Int64 allKeyword, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR* filterData)
+		::System::Void EtwEnableCallBackImpl(::System::Int32 a1, ::System::Byte a2, ::System::Int64 a3, ::System::Int64 a4, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Byte, ::System::Int64, ::System::Int64, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ETWENABLECALLBACKIMPL_OFFSET))(this, controlCode, setLevel, anyKeyword, allKeyword, filterData);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Byte, ::System::Int64, ::System::Int64, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ETWENABLECALLBACKIMPL_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void OnControllerCommand(::System::Diagnostics::Tracing::ControllerCommand command, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>* arguments, ::System::Int32 sessionId, ::System::Int32 etwSessionId)
+		::System::Void OnControllerCommand(::System::Diagnostics::Tracing::ControllerCommand a1, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>* a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::ControllerCommand, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ONCONTROLLERCOMMAND_OFFSET))(this, command, arguments, sessionId, etwSessionId);
+			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::ControllerCommand, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ONCONTROLLERCOMMAND_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Diagnostics::Tracing::EventLevel get_Level()
@@ -146,9 +146,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Diagnostics::Tracing::EventKeywords(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GET_MATCHANYKEYWORD_OFFSET))(this);
 		}
 
-		static ::System::Int32 FindNull(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 idx)
+		static ::System::Int32 FindNull(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_FINDNULL_OFFSET))(buffer, idx);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_FINDNULL_OFFSET))(a1, a2);
 		}
 
 		::System::Collections::Generic::List_1<::System::Tuple_2<::System::Diagnostics::Tracing::EventProvider_SessionInfo, ::System::Boolean>*>* GetSessions()
@@ -156,24 +156,24 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Collections::Generic::List_1<::System::Tuple_2<::System::Diagnostics::Tracing::EventProvider_SessionInfo, ::System::Boolean>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETSESSIONS_OFFSET))(this);
 		}
 
-		static ::System::Void GetSessionInfoCallback(::System::Int32 etwSessionId, ::System::Int64 matchAllKeywords, ::System::Collections::Generic::List_1<::System::Diagnostics::Tracing::EventProvider_SessionInfo>*& sessionList)
+		static ::System::Void GetSessionInfoCallback(::System::Int32 a1, ::System::Int64 a2, ::System::Collections::Generic::List_1<::System::Diagnostics::Tracing::EventProvider_SessionInfo>*& a3)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Int64, ::System::Collections::Generic::List_1<::System::Diagnostics::Tracing::EventProvider_SessionInfo>*&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETSESSIONINFOCALLBACK_OFFSET))(etwSessionId, matchAllKeywords, sessionList);
+			return ((::System::Void(*)(::System::Int32, ::System::Int64, ::System::Collections::Generic::List_1<::System::Diagnostics::Tracing::EventProvider_SessionInfo>*&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETSESSIONINFOCALLBACK_OFFSET))(a1, a2, a3);
 		}
 
-		::System::Void GetSessionInfo(::System::Action_2<::System::Int32, ::System::Int64>* action)
+		::System::Void GetSessionInfo(::System::Action_2<::System::Int32, ::System::Int64>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Int32, ::System::Int64>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETSESSIONINFO_OFFSET))(this, action);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Int32, ::System::Int64>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETSESSIONINFO_OFFSET))(this, a1);
 		}
 
-		static ::System::Int32 IndexOfSessionInList(::System::Collections::Generic::List_1<::System::Diagnostics::Tracing::EventProvider_SessionInfo>* sessions, ::System::Int32 etwSessionId)
+		static ::System::Int32 IndexOfSessionInList(::System::Collections::Generic::List_1<::System::Diagnostics::Tracing::EventProvider_SessionInfo>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::System::Collections::Generic::List_1<::System::Diagnostics::Tracing::EventProvider_SessionInfo>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_INDEXOFSESSIONINLIST_OFFSET))(sessions, etwSessionId);
+			return ((::System::Int32(*)(::System::Collections::Generic::List_1<::System::Diagnostics::Tracing::EventProvider_SessionInfo>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_INDEXOFSESSIONINLIST_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean GetDataFromController(::System::Int32 etwSessionId, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR* filterData, ::System::Diagnostics::Tracing::ControllerCommand& command, ::Il2CppArray<::System::Byte>*& data, ::System::Int32& dataStart)
+		::System::Boolean GetDataFromController(::System::Int32 a1, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR* a2, ::System::Diagnostics::Tracing::ControllerCommand& a3, ::Il2CppArray<::System::Byte>*& a4, ::System::Int32& a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR*, ::System::Diagnostics::Tracing::ControllerCommand&, ::Il2CppArray<::System::Byte>*&, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETDATAFROMCONTROLLER_OFFSET))(this, etwSessionId, filterData, command, data, dataStart);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR*, ::System::Diagnostics::Tracing::ControllerCommand&, ::Il2CppArray<::System::Byte>*&, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETDATAFROMCONTROLLER_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Boolean IsEnabled()
@@ -181,9 +181,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ISENABLED_OFFSET))(this);
 		}
 
-		::System::Boolean IsEnabled_1(::System::Byte level, ::System::Int64 keywords)
+		::System::Boolean IsEnabled_1(::System::Byte a1, ::System::Int64 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Byte, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ISENABLED_1_OFFSET))(this, level, keywords);
+			return ((::System::Boolean(*)(::PVOID, ::System::Byte, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ISENABLED_1_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Diagnostics::Tracing::EventProvider_WriteEventErrorCode GetLastWriteEventError()
@@ -191,29 +191,29 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Diagnostics::Tracing::EventProvider_WriteEventErrorCode(*)())((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETLASTWRITEEVENTERROR_OFFSET))();
 		}
 
-		static ::System::Void SetLastError(::System::Int32 error)
+		static ::System::Void SetLastError(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_SETLASTERROR_OFFSET))(error);
+			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_SETLASTERROR_OFFSET))(a1);
 		}
 
-		static ::System::Object* EncodeObject(::System::Object*& data, ::System::Diagnostics::Tracing::EventProvider_EventData*& dataDescriptor, ::System::Byte*& dataBuffer, ::System::UInt32& totalEventSize)
+		static ::System::Object* EncodeObject(::System::Object*& a1, ::System::Diagnostics::Tracing::EventProvider_EventData*& a2, ::System::Byte*& a3, ::System::UInt32& a4)
 		{
-			return ((::System::Object*(*)(::System::Object*&, ::System::Diagnostics::Tracing::EventProvider_EventData*&, ::System::Byte*&, ::System::UInt32&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ENCODEOBJECT_OFFSET))(data, dataDescriptor, dataBuffer, totalEventSize);
+			return ((::System::Object*(*)(::System::Object*&, ::System::Diagnostics::Tracing::EventProvider_EventData*&, ::System::Byte*&, ::System::UInt32&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_ENCODEOBJECT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		::System::Boolean WriteEvent(::System::Diagnostics::Tracing::EventDescriptor& eventDescriptor, ::System::Guid* activityID, ::System::Guid* childActivityID, ::Il2CppArray<::System::Object*>* eventPayload)
+		::System::Boolean WriteEvent(::System::Diagnostics::Tracing::EventDescriptor& a1, ::System::Guid* a2, ::System::Guid* a3, ::Il2CppArray<::System::Object*>* a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Diagnostics::Tracing::EventDescriptor&, ::System::Guid*, ::System::Guid*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_WRITEEVENT_OFFSET))(this, eventDescriptor, activityID, childActivityID, eventPayload);
+			return ((::System::Boolean(*)(::PVOID, ::System::Diagnostics::Tracing::EventDescriptor&, ::System::Guid*, ::System::Guid*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_WRITEEVENT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean WriteEvent_1(::System::Diagnostics::Tracing::EventDescriptor& eventDescriptor, ::System::Guid* activityID, ::System::Guid* childActivityID, ::System::Int32 dataCount, ::System::IntPtr data)
+		::System::Boolean WriteEvent_1(::System::Diagnostics::Tracing::EventDescriptor& a1, ::System::Guid* a2, ::System::Guid* a3, ::System::Int32 a4, ::System::IntPtr a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Diagnostics::Tracing::EventDescriptor&, ::System::Guid*, ::System::Guid*, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_WRITEEVENT_1_OFFSET))(this, eventDescriptor, activityID, childActivityID, dataCount, data);
+			return ((::System::Boolean(*)(::PVOID, ::System::Diagnostics::Tracing::EventDescriptor&, ::System::Guid*, ::System::Guid*, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_WRITEEVENT_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean WriteEventRaw(::System::Diagnostics::Tracing::EventDescriptor& eventDescriptor, ::System::Guid* activityID, ::System::Guid* relatedActivityID, ::System::Int32 dataCount, ::System::IntPtr data)
+		::System::Boolean WriteEventRaw(::System::Diagnostics::Tracing::EventDescriptor& a1, ::System::Guid* a2, ::System::Guid* a3, ::System::Int32 a4, ::System::IntPtr a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Diagnostics::Tracing::EventDescriptor&, ::System::Guid*, ::System::Guid*, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_WRITEEVENTRAW_OFFSET))(this, eventDescriptor, activityID, relatedActivityID, dataCount, data);
+			return ((::System::Boolean(*)(::PVOID, ::System::Diagnostics::Tracing::EventDescriptor&, ::System::Guid*, ::System::Guid*, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_WRITEEVENTRAW_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::UInt32 EventUnregister()
@@ -221,14 +221,14 @@ namespace System::Diagnostics::Tracing
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_EVENTUNREGISTER_OFFSET))(this);
 		}
 
-		static ::System::Int32 bitcount(::System::UInt32 n)
+		static ::System::Int32 bitcount(::System::UInt32 a1)
 		{
-			return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_BITCOUNT_OFFSET))(n);
+			return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_BITCOUNT_OFFSET))(a1);
 		}
 
-		static ::System::Int32 bitindex(::System::UInt32 n)
+		static ::System::Int32 bitindex(::System::UInt32 a1)
 		{
-			return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_BITINDEX_OFFSET))(n);
+			return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_BITINDEX_OFFSET))(a1);
 		}
 	};
 }

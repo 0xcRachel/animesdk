@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIFSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x192986D0)
+#define CRIWARE_CRIFSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19E5CC30)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsConfig_TypeDefinitionIndex = 36890;
+	inline static constexpr unsigned int CriFsConfig_TypeDefinitionIndex = 37190;
 
 	class CriFsConfig : public ::System::Object
 	{

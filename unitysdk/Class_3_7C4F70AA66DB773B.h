@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvModifierOverrideFeatureFlagParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7C4F70AA66DB773B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x102CB660)
-#define CLASS_3_7C4F70AA66DB773B__CTOR_OFFSET UNITYSDK_OFFSET(0x102CB630)
+#define CLASS_3_7C4F70AA66DB773B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16C076A0)
+#define CLASS_3_7C4F70AA66DB773B__CTOR_OFFSET UNITYSDK_OFFSET(0x16C07670)
 
-inline static constexpr unsigned int Class_3_7C4F70AA66DB773B_TypeDefinitionIndex = 48374;
+inline static constexpr unsigned int Class_3_7C4F70AA66DB773B_TypeDefinitionIndex = 49000;
 
 class Class_3_7C4F70AA66DB773B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvModifierOverrideFeatureFlagParam*>
 {

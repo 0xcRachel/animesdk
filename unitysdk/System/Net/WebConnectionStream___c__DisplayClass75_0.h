@@ -5,8 +5,8 @@
 namespace System::Net { class SimpleAsyncResult; }
 namespace System::Net { class WebConnectionStream; }
 
-#define SYSTEM_NET_WEBCONNECTIONSTREAM___C__DISPLAYCLASS75_0__CTOR_OFFSET UNITYSDK_OFFSET(0x183D62E0)
-#define SYSTEM_NET_WEBCONNECTIONSTREAM___C__DISPLAYCLASS75_0__SETHEADERSASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x183D7050)
+#define SYSTEM_NET_WEBCONNECTIONSTREAM___C__DISPLAYCLASS75_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1895F790)
+#define SYSTEM_NET_WEBCONNECTIONSTREAM___C__DISPLAYCLASS75_0__SETHEADERSASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x18960630)
 
 namespace System::Net
 {
@@ -23,9 +23,9 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONSTREAM___C__DISPLAYCLASS75_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _SetHeadersAsync_b__0(::System::Net::SimpleAsyncResult* r)
+		::System::Boolean _SetHeadersAsync_b__0(::System::Net::SimpleAsyncResult* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Net::SimpleAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONSTREAM___C__DISPLAYCLASS75_0__SETHEADERSASYNC_B__0_OFFSET))(this, r);
+			return ((::System::Boolean(*)(::PVOID, ::System::Net::SimpleAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONSTREAM___C__DISPLAYCLASS75_0__SETHEADERSASYNC_B__0_OFFSET))(this, a1);
 		}
 	};
 }

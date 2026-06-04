@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByInfiniteWaveData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_ADD57F66AB5810C3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE780290)
-#define CLASS_3_ADD57F66AB5810C3__CTOR_OFFSET UNITYSDK_OFFSET(0xE7801B0)
+#define CLASS_3_ADD57F66AB5810C3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15EFFEA0)
+#define CLASS_3_ADD57F66AB5810C3__CTOR_OFFSET UNITYSDK_OFFSET(0x15EFFDC0)
 
-inline static constexpr unsigned int Class_3_ADD57F66AB5810C3_TypeDefinitionIndex = 51122;
+inline static constexpr unsigned int Class_3_ADD57F66AB5810C3_TypeDefinitionIndex = 51791;
 
 class Class_3_ADD57F66AB5810C3 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByInfiniteWaveData*>
 {

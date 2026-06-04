@@ -8,74 +8,74 @@ namespace Spine { class Slot; }
 namespace Spine { class TextureRegion; }
 namespace System { class String; }
 
-#define SPINE_MESHATTACHMENT_COMPUTEWORLDVERTICES_OFFSET UNITYSDK_OFFSET(0x156BFA50)
-#define SPINE_MESHATTACHMENT_COPY_OFFSET UNITYSDK_OFFSET(0x156BFDD0)
-#define SPINE_MESHATTACHMENT_GET_A_OFFSET UNITYSDK_OFFSET(0x156BF000)
-#define SPINE_MESHATTACHMENT_GET_B_OFFSET UNITYSDK_OFFSET(0x156BEFE0)
-#define SPINE_MESHATTACHMENT_GET_EDGES_OFFSET UNITYSDK_OFFSET(0x156BF0D0)
-#define SPINE_MESHATTACHMENT_GET_G_OFFSET UNITYSDK_OFFSET(0x156BEFC0)
-#define SPINE_MESHATTACHMENT_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x156BF110)
-#define SPINE_MESHATTACHMENT_GET_HULLLENGTH_OFFSET UNITYSDK_OFFSET(0x156BEF20)
-#define SPINE_MESHATTACHMENT_GET_PARENTMESH_OFFSET UNITYSDK_OFFSET(0x156BF060)
-#define SPINE_MESHATTACHMENT_GET_PATH_OFFSET UNITYSDK_OFFSET(0x156BF020)
-#define SPINE_MESHATTACHMENT_GET_REGIONUVS_OFFSET UNITYSDK_OFFSET(0x156BEF40)
-#define SPINE_MESHATTACHMENT_GET_REGION_OFFSET UNITYSDK_OFFSET(0x156BEF10)
-#define SPINE_MESHATTACHMENT_GET_R_OFFSET UNITYSDK_OFFSET(0x156BEFA0)
-#define SPINE_MESHATTACHMENT_GET_SEQUENCE_OFFSET UNITYSDK_OFFSET(0x156BF040)
-#define SPINE_MESHATTACHMENT_GET_TRIANGLES_OFFSET UNITYSDK_OFFSET(0x156BEF80)
-#define SPINE_MESHATTACHMENT_GET_UVS_OFFSET UNITYSDK_OFFSET(0x156BEF60)
-#define SPINE_MESHATTACHMENT_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x156BF0F0)
-#define SPINE_MESHATTACHMENT_NEWLINKEDMESH_OFFSET UNITYSDK_OFFSET(0x156BFCC0)
-#define SPINE_MESHATTACHMENT_SET_A_OFFSET UNITYSDK_OFFSET(0x156BF010)
-#define SPINE_MESHATTACHMENT_SET_B_OFFSET UNITYSDK_OFFSET(0x156BEFF0)
-#define SPINE_MESHATTACHMENT_SET_EDGES_OFFSET UNITYSDK_OFFSET(0x156BF0E0)
-#define SPINE_MESHATTACHMENT_SET_G_OFFSET UNITYSDK_OFFSET(0x156BEFD0)
-#define SPINE_MESHATTACHMENT_SET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x156BF120)
-#define SPINE_MESHATTACHMENT_SET_HULLLENGTH_OFFSET UNITYSDK_OFFSET(0x156BEF30)
-#define SPINE_MESHATTACHMENT_SET_PARENTMESH_OFFSET UNITYSDK_OFFSET(0x156BF070)
-#define SPINE_MESHATTACHMENT_SET_PATH_OFFSET UNITYSDK_OFFSET(0x156BF030)
-#define SPINE_MESHATTACHMENT_SET_REGIONUVS_OFFSET UNITYSDK_OFFSET(0x156BEF50)
-#define SPINE_MESHATTACHMENT_SET_REGION_OFFSET UNITYSDK_OFFSET(0x156B6C50)
-#define SPINE_MESHATTACHMENT_SET_R_OFFSET UNITYSDK_OFFSET(0x156BEFB0)
-#define SPINE_MESHATTACHMENT_SET_SEQUENCE_OFFSET UNITYSDK_OFFSET(0x156BF050)
-#define SPINE_MESHATTACHMENT_SET_TRIANGLES_OFFSET UNITYSDK_OFFSET(0x156BEF90)
-#define SPINE_MESHATTACHMENT_SET_UVS_OFFSET UNITYSDK_OFFSET(0x156BEF70)
-#define SPINE_MESHATTACHMENT_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0x156BF100)
-#define SPINE_MESHATTACHMENT_UPDATEREGION_OFFSET UNITYSDK_OFFSET(0x156BF540)
-#define SPINE_MESHATTACHMENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x156BF130)
-#define SPINE_MESHATTACHMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x156B6BF0)
+#define SPINE_MESHATTACHMENT_COMPUTEWORLDVERTICES_OFFSET UNITYSDK_OFFSET(0x12B89CE0)
+#define SPINE_MESHATTACHMENT_COPY_OFFSET UNITYSDK_OFFSET(0x12B8A050)
+#define SPINE_MESHATTACHMENT_GET_A_OFFSET UNITYSDK_OFFSET(0x12B89390)
+#define SPINE_MESHATTACHMENT_GET_B_OFFSET UNITYSDK_OFFSET(0x12B89370)
+#define SPINE_MESHATTACHMENT_GET_EDGES_OFFSET UNITYSDK_OFFSET(0x12B89450)
+#define SPINE_MESHATTACHMENT_GET_G_OFFSET UNITYSDK_OFFSET(0x12B89350)
+#define SPINE_MESHATTACHMENT_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x12B89490)
+#define SPINE_MESHATTACHMENT_GET_HULLLENGTH_OFFSET UNITYSDK_OFFSET(0x12B892B0)
+#define SPINE_MESHATTACHMENT_GET_PARENTMESH_OFFSET UNITYSDK_OFFSET(0x12B893F0)
+#define SPINE_MESHATTACHMENT_GET_PATH_OFFSET UNITYSDK_OFFSET(0x12B893B0)
+#define SPINE_MESHATTACHMENT_GET_REGIONUVS_OFFSET UNITYSDK_OFFSET(0x12B892D0)
+#define SPINE_MESHATTACHMENT_GET_REGION_OFFSET UNITYSDK_OFFSET(0x12B892A0)
+#define SPINE_MESHATTACHMENT_GET_R_OFFSET UNITYSDK_OFFSET(0x12B89330)
+#define SPINE_MESHATTACHMENT_GET_SEQUENCE_OFFSET UNITYSDK_OFFSET(0x12B893D0)
+#define SPINE_MESHATTACHMENT_GET_TRIANGLES_OFFSET UNITYSDK_OFFSET(0x12B89310)
+#define SPINE_MESHATTACHMENT_GET_UVS_OFFSET UNITYSDK_OFFSET(0x12B892F0)
+#define SPINE_MESHATTACHMENT_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x12B89470)
+#define SPINE_MESHATTACHMENT_NEWLINKEDMESH_OFFSET UNITYSDK_OFFSET(0x12B89F50)
+#define SPINE_MESHATTACHMENT_SET_A_OFFSET UNITYSDK_OFFSET(0x12B893A0)
+#define SPINE_MESHATTACHMENT_SET_B_OFFSET UNITYSDK_OFFSET(0x12B89380)
+#define SPINE_MESHATTACHMENT_SET_EDGES_OFFSET UNITYSDK_OFFSET(0x12B89460)
+#define SPINE_MESHATTACHMENT_SET_G_OFFSET UNITYSDK_OFFSET(0x12B89360)
+#define SPINE_MESHATTACHMENT_SET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x12B894A0)
+#define SPINE_MESHATTACHMENT_SET_HULLLENGTH_OFFSET UNITYSDK_OFFSET(0x12B892C0)
+#define SPINE_MESHATTACHMENT_SET_PARENTMESH_OFFSET UNITYSDK_OFFSET(0x12B89400)
+#define SPINE_MESHATTACHMENT_SET_PATH_OFFSET UNITYSDK_OFFSET(0x12B893C0)
+#define SPINE_MESHATTACHMENT_SET_REGIONUVS_OFFSET UNITYSDK_OFFSET(0x12B892E0)
+#define SPINE_MESHATTACHMENT_SET_REGION_OFFSET UNITYSDK_OFFSET(0x12B81990)
+#define SPINE_MESHATTACHMENT_SET_R_OFFSET UNITYSDK_OFFSET(0x12B89340)
+#define SPINE_MESHATTACHMENT_SET_SEQUENCE_OFFSET UNITYSDK_OFFSET(0x12B893E0)
+#define SPINE_MESHATTACHMENT_SET_TRIANGLES_OFFSET UNITYSDK_OFFSET(0x12B89320)
+#define SPINE_MESHATTACHMENT_SET_UVS_OFFSET UNITYSDK_OFFSET(0x12B89300)
+#define SPINE_MESHATTACHMENT_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0x12B89480)
+#define SPINE_MESHATTACHMENT_UPDATEREGION_OFFSET UNITYSDK_OFFSET(0x12B898C0)
+#define SPINE_MESHATTACHMENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x12B894B0)
+#define SPINE_MESHATTACHMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x12B81940)
 
 namespace Spine
 {
-	inline static constexpr unsigned int MeshAttachment_TypeDefinitionIndex = 36418;
+	inline static constexpr unsigned int MeshAttachment_TypeDefinitionIndex = 36718;
 
 	class MeshAttachment : public ::Spine::VertexAttachment
 	{
 	public:
-		::Il2CppArray<::System::Single>* regionUVs; // 0x38
-		::Spine::TextureRegion* region; // 0x40
-		::System::String* path; // 0x48
-		::Spine::MeshAttachment* parentMesh; // 0x50
-		::Il2CppArray<::System::Single>* uvs; // 0x58
-		::Spine::Sequence* sequence; // 0x60
-		::Il2CppArray<::System::Int32>* _Edges_k__BackingField; // 0x68
-		::Il2CppArray<::System::Int32>* triangles; // 0x70
-		::System::Single _Width_k__BackingField; // 0x78
-		::System::Single g; // 0x7C
-		::System::Single b; // 0x80
-		::System::Single r; // 0x84
-		::System::Int32 hullLength; // 0x88
+		::Spine::MeshAttachment* parentMesh; // 0x38
+		::Spine::Sequence* sequence; // 0x40
+		::Spine::TextureRegion* region; // 0x48
+		::Il2CppArray<::System::Single>* regionUVs; // 0x50
+		::System::String* path; // 0x58
+		::Il2CppArray<::System::Single>* uvs; // 0x60
+		::Il2CppArray<::System::Int32>* triangles; // 0x68
+		::Il2CppArray<::System::Int32>* _Edges_k__BackingField; // 0x70
+		::System::Int32 hullLength; // 0x78
+		::System::Single b; // 0x7C
+		::System::Single g; // 0x80
+		::System::Single _Width_k__BackingField; // 0x84
+		::System::Single r; // 0x88
 		::System::Single a; // 0x8C
 		::System::Single _Height_k__BackingField; // 0x90
 
-		::System::Void _ctor(::System::String* name)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT__CTOR_OFFSET))(this, name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::Spine::MeshAttachment* other)
+		::System::Void _ctor_1(::Spine::MeshAttachment* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::MeshAttachment*))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT__CTOR_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Spine::MeshAttachment*))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::Spine::TextureRegion* get_Region()
@@ -83,9 +83,9 @@ namespace Spine
 			return ((::Spine::TextureRegion*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_GET_REGION_OFFSET))(this);
 		}
 
-		::System::Void set_Region(::Spine::TextureRegion* value)
+		::System::Void set_Region(::Spine::TextureRegion* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::TextureRegion*))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_REGION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::TextureRegion*))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_REGION_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_HullLength()
@@ -93,9 +93,9 @@ namespace Spine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_GET_HULLLENGTH_OFFSET))(this);
 		}
 
-		::System::Void set_HullLength(::System::Int32 value)
+		::System::Void set_HullLength(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_HULLLENGTH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_HULLLENGTH_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::Single>* get_RegionUVs()
@@ -103,9 +103,9 @@ namespace Spine
 			return ((::Il2CppArray<::System::Single>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_GET_REGIONUVS_OFFSET))(this);
 		}
 
-		::System::Void set_RegionUVs(::Il2CppArray<::System::Single>* value)
+		::System::Void set_RegionUVs(::Il2CppArray<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_REGIONUVS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_REGIONUVS_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::Single>* get_UVs()
@@ -113,9 +113,9 @@ namespace Spine
 			return ((::Il2CppArray<::System::Single>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_GET_UVS_OFFSET))(this);
 		}
 
-		::System::Void set_UVs(::Il2CppArray<::System::Single>* value)
+		::System::Void set_UVs(::Il2CppArray<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_UVS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_UVS_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::Int32>* get_Triangles()
@@ -123,9 +123,9 @@ namespace Spine
 			return ((::Il2CppArray<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_GET_TRIANGLES_OFFSET))(this);
 		}
 
-		::System::Void set_Triangles(::Il2CppArray<::System::Int32>* value)
+		::System::Void set_Triangles(::Il2CppArray<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_TRIANGLES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_TRIANGLES_OFFSET))(this, a1);
 		}
 
 		::System::Single get_R()
@@ -133,9 +133,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_GET_R_OFFSET))(this);
 		}
 
-		::System::Void set_R(::System::Single value)
+		::System::Void set_R(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_R_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_R_OFFSET))(this, a1);
 		}
 
 		::System::Single get_G()
@@ -143,9 +143,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_GET_G_OFFSET))(this);
 		}
 
-		::System::Void set_G(::System::Single value)
+		::System::Void set_G(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_G_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_G_OFFSET))(this, a1);
 		}
 
 		::System::Single get_B()
@@ -153,9 +153,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_GET_B_OFFSET))(this);
 		}
 
-		::System::Void set_B(::System::Single value)
+		::System::Void set_B(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_B_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_B_OFFSET))(this, a1);
 		}
 
 		::System::Single get_A()
@@ -163,9 +163,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_GET_A_OFFSET))(this);
 		}
 
-		::System::Void set_A(::System::Single value)
+		::System::Void set_A(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_A_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_A_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Path()
@@ -173,9 +173,9 @@ namespace Spine
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_GET_PATH_OFFSET))(this);
 		}
 
-		::System::Void set_Path(::System::String* value)
+		::System::Void set_Path(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_PATH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_PATH_OFFSET))(this, a1);
 		}
 
 		::Spine::Sequence* get_Sequence()
@@ -183,9 +183,9 @@ namespace Spine
 			return ((::Spine::Sequence*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_GET_SEQUENCE_OFFSET))(this);
 		}
 
-		::System::Void set_Sequence(::Spine::Sequence* value)
+		::System::Void set_Sequence(::Spine::Sequence* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Sequence*))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_SEQUENCE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::Sequence*))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_SEQUENCE_OFFSET))(this, a1);
 		}
 
 		::Spine::MeshAttachment* get_ParentMesh()
@@ -193,9 +193,9 @@ namespace Spine
 			return ((::Spine::MeshAttachment*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_GET_PARENTMESH_OFFSET))(this);
 		}
 
-		::System::Void set_ParentMesh(::Spine::MeshAttachment* value)
+		::System::Void set_ParentMesh(::Spine::MeshAttachment* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::MeshAttachment*))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_PARENTMESH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::MeshAttachment*))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_PARENTMESH_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::Int32>* get_Edges()
@@ -203,9 +203,9 @@ namespace Spine
 			return ((::Il2CppArray<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_GET_EDGES_OFFSET))(this);
 		}
 
-		::System::Void set_Edges(::Il2CppArray<::System::Int32>* value)
+		::System::Void set_Edges(::Il2CppArray<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_EDGES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_EDGES_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Width()
@@ -213,9 +213,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_GET_WIDTH_OFFSET))(this);
 		}
 
-		::System::Void set_Width(::System::Single value)
+		::System::Void set_Width(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_WIDTH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_WIDTH_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Height()
@@ -223,9 +223,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_GET_HEIGHT_OFFSET))(this);
 		}
 
-		::System::Void set_Height(::System::Single value)
+		::System::Void set_Height(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_HEIGHT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_SET_HEIGHT_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateRegion()
@@ -233,9 +233,9 @@ namespace Spine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_UPDATEREGION_OFFSET))(this);
 		}
 
-		::System::Void ComputeWorldVertices(::Spine::Slot* slot, ::System::Int32 start, ::System::Int32 count, ::Il2CppArray<::System::Single>* worldVertices, ::System::Int32 offset, ::System::Int32 stride)
+		::System::Void ComputeWorldVertices(::Spine::Slot* a1, ::System::Int32 a2, ::System::Int32 a3, ::Il2CppArray<::System::Single>* a4, ::System::Int32 a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Slot*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Single>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_COMPUTEWORLDVERTICES_OFFSET))(this, slot, start, count, worldVertices, offset, stride);
+			return ((::System::Void(*)(::PVOID, ::Spine::Slot*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Single>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_MESHATTACHMENT_COMPUTEWORLDVERTICES_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::Spine::MeshAttachment* NewLinkedMesh()

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DiceCombatTaskConfig; }
 
-#define RPG_GAMECORE_DICECOMBATBOSSPERSISTENTTIPSCONFIG_METHOD_2_A2E97E3CD6C1C526_OFFSET UNITYSDK_OFFSET(0x1958DFF0)
-#define RPG_GAMECORE_DICECOMBATBOSSPERSISTENTTIPSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1958E0F0)
+#define RPG_GAMECORE_DICECOMBATBOSSPERSISTENTTIPSCONFIG_METHOD_2_949FCF4B093FFA9B_OFFSET UNITYSDK_OFFSET(0x1A0890D0)
+#define RPG_GAMECORE_DICECOMBATBOSSPERSISTENTTIPSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0891C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatBossPersistentTipsConfig_TypeDefinitionIndex = 15357;
+	inline static constexpr unsigned int DiceCombatBossPersistentTipsConfig_TypeDefinitionIndex = 15415;
 
 	class DiceCombatBossPersistentTipsConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATBOSSPERSISTENTTIPSCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_A2E97E3CD6C1C526(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatBossPersistentTipsConfig*& a2)
+		static ::System::Void Method_2_949FCF4B093FFA9B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatBossPersistentTipsConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatBossPersistentTipsConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATBOSSPERSISTENTTIPSCONFIG_METHOD_2_A2E97E3CD6C1C526_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatBossPersistentTipsConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATBOSSPERSISTENTTIPSCONFIG_METHOD_2_949FCF4B093FFA9B_OFFSET))(a1, a2);
 		}
 	};
 }

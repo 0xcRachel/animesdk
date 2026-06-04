@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIMeta_UIBlurMode_TypeDefinitionIndex = 67295;
+	inline static constexpr unsigned int UIMeta_UIBlurMode_TypeDefinitionIndex = 68247;
 
 	enum class UIMeta_UIBlurMode : ::System::Int32
 	{

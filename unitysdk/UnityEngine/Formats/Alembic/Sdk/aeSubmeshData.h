@@ -3,16 +3,16 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aeTopology.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AESUBMESHDATA_GET_INDEXCOUNT_OFFSET UNITYSDK_OFFSET(0x608310)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AESUBMESHDATA_GET_INDEXES_OFFSET UNITYSDK_OFFSET(0x5078B0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AESUBMESHDATA_GET_TOPOLOGY_OFFSET UNITYSDK_OFFSET(0x6088B0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AESUBMESHDATA_SET_INDEXCOUNT_OFFSET UNITYSDK_OFFSET(0x1C9FE90)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AESUBMESHDATA_SET_INDEXES_OFFSET UNITYSDK_OFFSET(0x6163B0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AESUBMESHDATA_SET_TOPOLOGY_OFFSET UNITYSDK_OFFSET(0x22E55E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AESUBMESHDATA_GET_INDEXCOUNT_OFFSET UNITYSDK_OFFSET(0x66B8A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AESUBMESHDATA_GET_INDEXES_OFFSET UNITYSDK_OFFSET(0x66AF90)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AESUBMESHDATA_GET_TOPOLOGY_OFFSET UNITYSDK_OFFSET(0x66C0A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AESUBMESHDATA_SET_INDEXCOUNT_OFFSET UNITYSDK_OFFSET(0x3723F90)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AESUBMESHDATA_SET_INDEXES_OFFSET UNITYSDK_OFFSET(0x66AF20)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AESUBMESHDATA_SET_TOPOLOGY_OFFSET UNITYSDK_OFFSET(0x3888C10)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aeSubmeshData_TypeDefinitionIndex = 40779;
+	inline static constexpr unsigned int aeSubmeshData_TypeDefinitionIndex = 41605;
 
 	struct alignas(8) aeSubmeshData
 	{
@@ -25,9 +25,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AESUBMESHDATA_GET_INDEXES_OFFSET))(this);
 		}
 
-		::System::Void set_indexes(::System::IntPtr value)
+		::System::Void set_indexes(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AESUBMESHDATA_SET_INDEXES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AESUBMESHDATA_SET_INDEXES_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_indexCount()
@@ -35,9 +35,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AESUBMESHDATA_GET_INDEXCOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_indexCount(::System::Int32 value)
+		::System::Void set_indexCount(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AESUBMESHDATA_SET_INDEXCOUNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AESUBMESHDATA_SET_INDEXCOUNT_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::aeTopology get_topology()
@@ -45,9 +45,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::aeTopology(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AESUBMESHDATA_GET_TOPOLOGY_OFFSET))(this);
 		}
 
-		::System::Void set_topology(::UnityEngine::Formats::Alembic::Sdk::aeTopology value)
+		::System::Void set_topology(::UnityEngine::Formats::Alembic::Sdk::aeTopology a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aeTopology))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AESUBMESHDATA_SET_TOPOLOGY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aeTopology))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AESUBMESHDATA_SET_TOPOLOGY_OFFSET))(this, a1);
 		}
 	};
 }

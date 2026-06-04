@@ -2,39 +2,39 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_43BD383C98B4C0C5_173;
-class Class_1_867B6CE75953535A;
+class Class_1_43BD383C98B4C0C5_182;
+class Class_1_D33B7D6901AE39E9;
 class Class_2_1792A4214A514F27;
 namespace RPG::Client::UI3DGame { class MonopolyGameController; }
 namespace System { class String; }
 
-#define RPG_CLIENT_UI3DGAME_MONOUI3DGAMEMAIN_INITMONOPOLYGAME_OFFSET UNITYSDK_OFFSET(0x138E69B0)
-#define RPG_CLIENT_UI3DGAME_MONOUI3DGAMEMAIN_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x138E6E30)
-#define RPG_CLIENT_UI3DGAME_MONOUI3DGAMEMAIN_UPDATE_OFFSET UNITYSDK_OFFSET(0x138E6DD0)
-#define RPG_CLIENT_UI3DGAME_MONOUI3DGAMEMAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x138E7120)
-#define RPG_CLIENT_UI3DGAME_MONOUI3DGAMEMAIN__DESTORYGAMECONTEXT_OFFSET UNITYSDK_OFFSET(0x138E6E80)
-#define RPG_CLIENT_UI3DGAME_MONOUI3DGAMEMAIN__INITGAMECONTEXT_OFFSET UNITYSDK_OFFSET(0x138E6CE0)
-#define RPG_CLIENT_UI3DGAME_MONOUI3DGAMEMAIN__STARTUPDATESYSTEM_OFFSET UNITYSDK_OFFSET(0x138E6D50)
+#define RPG_CLIENT_UI3DGAME_MONOUI3DGAMEMAIN_INITMONOPOLYGAME_OFFSET UNITYSDK_OFFSET(0x17FF3A00)
+#define RPG_CLIENT_UI3DGAME_MONOUI3DGAMEMAIN_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17FF3E80)
+#define RPG_CLIENT_UI3DGAME_MONOUI3DGAMEMAIN_UPDATE_OFFSET UNITYSDK_OFFSET(0x17FF3E20)
+#define RPG_CLIENT_UI3DGAME_MONOUI3DGAMEMAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x17FF4170)
+#define RPG_CLIENT_UI3DGAME_MONOUI3DGAMEMAIN__DESTORYGAMECONTEXT_OFFSET UNITYSDK_OFFSET(0x17FF3ED0)
+#define RPG_CLIENT_UI3DGAME_MONOUI3DGAMEMAIN__INITGAMECONTEXT_OFFSET UNITYSDK_OFFSET(0x17FF3D30)
+#define RPG_CLIENT_UI3DGAME_MONOUI3DGAMEMAIN__STARTUPDATESYSTEM_OFFSET UNITYSDK_OFFSET(0x17FF3DA0)
 
 namespace RPG::Client::UI3DGame
 {
-	inline static constexpr unsigned int MonoUI3DGameMain_TypeDefinitionIndex = 69720;
+	inline static constexpr unsigned int MonoUI3DGameMain_TypeDefinitionIndex = 70532;
 
 	class MonoUI3DGameMain : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Class_1_867B6CE75953535A* _Contexts; // 0x18
+		::Class_1_D33B7D6901AE39E9* _Contexts; // 0x18
 		::Class_2_1792A4214A514F27* _UpdateSystems; // 0x20
-		::Class_1_43BD383C98B4C0C5_173* _GameController; // 0x28
+		::Class_1_43BD383C98B4C0C5_182* _GameController; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOUI3DGAMEMAIN__CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::UI3DGame::MonopolyGameController* InitMonopolyGame(::System::String* mapPath, ::System::UInt32 startCellID, ::System::UInt32 startMapID)
+		::RPG::Client::UI3DGame::MonopolyGameController* InitMonopolyGame(::System::String* a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::RPG::Client::UI3DGame::MonopolyGameController*(*)(::PVOID, ::System::String*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOUI3DGAMEMAIN_INITMONOPOLYGAME_OFFSET))(this, mapPath, startCellID, startMapID);
+			return ((::RPG::Client::UI3DGame::MonopolyGameController*(*)(::PVOID, ::System::String*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOUI3DGAMEMAIN_INITMONOPOLYGAME_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Update()
@@ -47,9 +47,9 @@ namespace RPG::Client::UI3DGame
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOUI3DGAMEMAIN_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void _InitGameContext(::Class_1_43BD383C98B4C0C5_173* gameController)
+		::System::Void _InitGameContext(::Class_1_43BD383C98B4C0C5_182* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_173*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOUI3DGAMEMAIN__INITGAMECONTEXT_OFFSET))(this, gameController);
+			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_182*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOUI3DGAMEMAIN__INITGAMECONTEXT_OFFSET))(this, a1);
 		}
 
 		::System::Void _StartUpdateSystem()

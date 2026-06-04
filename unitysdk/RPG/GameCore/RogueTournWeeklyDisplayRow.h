@@ -6,28 +6,28 @@
 class Class_1_73507DF29F8561CD;
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNWEEKLYDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1983B820)
-#define RPG_GAMECORE_ROGUETOURNWEEKLYDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1983B9E0)
+#define RPG_GAMECORE_ROGUETOURNWEEKLYDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1940CFB0)
+#define RPG_GAMECORE_ROGUETOURNWEEKLYDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1940D170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournWeeklyDisplayRow_TypeDefinitionIndex = 14188;
+	inline static constexpr unsigned int RogueTournWeeklyDisplayRow_TypeDefinitionIndex = 14248;
 
 	class RogueTournWeeklyDisplayRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::Class_1_73507DF29F8561CD*>* DescParams; // 0x10
-		::System::UInt32 WeeklyDisplayID; // 0x18
-		::RPG::Client::TextID WeeklyDisplayContent; // 0x20
+		::RPG::Client::TextID WeeklyDisplayContent; // 0x18
+		::System::UInt32 WeeklyDisplayID; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNWEEKLYDISPLAYROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueTournWeeklyDisplayRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTournWeeklyDisplayRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournWeeklyDisplayRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNWEEKLYDISPLAYROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournWeeklyDisplayRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNWEEKLYDISPLAYROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

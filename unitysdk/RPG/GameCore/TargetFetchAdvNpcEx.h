@@ -7,14 +7,17 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class FetchAdvNPCDataEx; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETFETCHADVNPCEX_METHOD_4_201A31293351DF6B_OFFSET UNITYSDK_OFFSET(0x199D6550)
-#define RPG_GAMECORE_TARGETFETCHADVNPCEX_METHOD_4_C126435DE3ECF21F_OFFSET UNITYSDK_OFFSET(0x199DF2A0)
-#define RPG_GAMECORE_TARGETFETCHADVNPCEX__CTOR_OFFSET UNITYSDK_OFFSET(0x199D6500)
+#define RPG_GAMECORE_TARGETFETCHADVNPCEX_METHOD_4_201A31293351DF6B_OFFSET UNITYSDK_OFFSET(0x1AC3E6B0)
+#define RPG_GAMECORE_TARGETFETCHADVNPCEX_METHOD_4_C126435DE3ECF21F_OFFSET UNITYSDK_OFFSET(0x1AC52090)
+#define RPG_GAMECORE_TARGETFETCHADVNPCEX_METHOD_4_CB316132353DB67E_OFFSET UNITYSDK_OFFSET(0x1AC52100)
+#define RPG_GAMECORE_TARGETFETCHADVNPCEX_METHOD_4_F7272A96584EC90C_OFFSET UNITYSDK_OFFSET(0x1AC4C6C0)
+#define RPG_GAMECORE_TARGETFETCHADVNPCEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC3E660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchAdvNpcEx_TypeDefinitionIndex = 22862;
+	inline static constexpr unsigned int TargetFetchAdvNpcEx_TypeDefinitionIndex = 22560;
 
 	class TargetFetchAdvNpcEx : public ::RPG::GameCore::TargetEvaluator
 	{
@@ -38,6 +41,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_201A31293351DF6B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAdvNpcEx* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAdvNpcEx*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVNPCEX_METHOD_4_201A31293351DF6B_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_F7272A96584EC90C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvNpcEx*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvNpcEx*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVNPCEX_METHOD_4_F7272A96584EC90C_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_CB316132353DB67E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvNpcEx* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvNpcEx*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVNPCEX_METHOD_4_CB316132353DB67E_OFFSET))(a1, a2);
 		}
 	};
 }

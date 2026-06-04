@@ -5,15 +5,15 @@
 namespace RPG::GameCore { class GameEntityList; }
 namespace System { class String; }
 
-#define CLASS_1_6811E3F95BA9EFBA_1__CTOR_OFFSET UNITYSDK_OFFSET(0xC5D0360)
+#define CLASS_1_6811E3F95BA9EFBA_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16B4F640)
 
-inline static constexpr unsigned int Class_1_6811E3F95BA9EFBA_1_TypeDefinitionIndex = 66165;
+inline static constexpr unsigned int Class_1_6811E3F95BA9EFBA_1_TypeDefinitionIndex = 67103;
 
 class Class_1_6811E3F95BA9EFBA_1 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntityList* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
+	::System::String* Field_1_0; // 0x10
+	::RPG::GameCore::GameEntityList* Field_1_1; // 0x18
 	::System::String* Field_1_2; // 0x20
 	::System::Boolean Field_1_3; // 0x28
 

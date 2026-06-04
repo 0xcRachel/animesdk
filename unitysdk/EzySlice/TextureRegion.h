@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define EZYSLICE_TEXTUREREGION_GET_ENDX_OFFSET UNITYSDK_OFFSET(0x8798B0)
-#define EZYSLICE_TEXTUREREGION_GET_ENDY_OFFSET UNITYSDK_OFFSET(0x879EE0)
-#define EZYSLICE_TEXTUREREGION_GET_END_OFFSET UNITYSDK_OFFSET(0x608BA0)
-#define EZYSLICE_TEXTUREREGION_GET_STARTX_OFFSET UNITYSDK_OFFSET(0x608BC0)
-#define EZYSLICE_TEXTUREREGION_GET_STARTY_OFFSET UNITYSDK_OFFSET(0x608BD0)
-#define EZYSLICE_TEXTUREREGION_GET_START_OFFSET UNITYSDK_OFFSET(0x5078B0)
-#define EZYSLICE_TEXTUREREGION_MAP_1_OFFSET UNITYSDK_OFFSET(0x22EFB30)
-#define EZYSLICE_TEXTUREREGION_MAP_2_OFFSET UNITYSDK_OFFSET(0x18D0A3E0)
-#define EZYSLICE_TEXTUREREGION_MAP_OFFSET UNITYSDK_OFFSET(0x22EFAE0)
-#define EZYSLICE_TEXTUREREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x1FEFEB0)
+#define EZYSLICE_TEXTUREREGION_GET_ENDX_OFFSET UNITYSDK_OFFSET(0xFD2FD0)
+#define EZYSLICE_TEXTUREREGION_GET_ENDY_OFFSET UNITYSDK_OFFSET(0xFD35D0)
+#define EZYSLICE_TEXTUREREGION_GET_END_OFFSET UNITYSDK_OFFSET(0x66B7B0)
+#define EZYSLICE_TEXTUREREGION_GET_STARTX_OFFSET UNITYSDK_OFFSET(0x72BD60)
+#define EZYSLICE_TEXTUREREGION_GET_STARTY_OFFSET UNITYSDK_OFFSET(0x72BD70)
+#define EZYSLICE_TEXTUREREGION_GET_START_OFFSET UNITYSDK_OFFSET(0x66AF90)
+#define EZYSLICE_TEXTUREREGION_MAP_1_OFFSET UNITYSDK_OFFSET(0x389DE40)
+#define EZYSLICE_TEXTUREREGION_MAP_2_OFFSET UNITYSDK_OFFSET(0x19C5D9C0)
+#define EZYSLICE_TEXTUREREGION_MAP_OFFSET UNITYSDK_OFFSET(0x389DDF0)
+#define EZYSLICE_TEXTUREREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x3740880)
 
 namespace EzySlice
 {
-	inline static constexpr unsigned int TextureRegion_TypeDefinitionIndex = 43811;
+	inline static constexpr unsigned int TextureRegion_TypeDefinitionIndex = 44353;
 
 	struct alignas(4) TextureRegion
 	{
@@ -24,9 +24,9 @@ namespace EzySlice
 		::System::Single pos_end_x; // 0x18
 		::System::Single pos_end_y; // 0x1C
 
-		::System::Void _ctor(::System::Single startX, ::System::Single startY, ::System::Single endX, ::System::Single endY)
+		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + EZYSLICE_TEXTUREREGION__CTOR_OFFSET))(this, startX, startY, endX, endY);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + EZYSLICE_TEXTUREREGION__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Single get_startX()
@@ -64,22 +64,22 @@ namespace EzySlice
 		*/
 
 		/*
-		::UnityEngine::Vector2 Map(::UnityEngine::Vector2 uv)
+		::UnityEngine::Vector2 Map(::UnityEngine::Vector2 a1)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + EZYSLICE_TEXTUREREGION_MAP_OFFSET))(this, uv);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + EZYSLICE_TEXTUREREGION_MAP_OFFSET))(this, a1);
 		}
 		*/
 
 		/*
-		::UnityEngine::Vector2 Map_1(::System::Single x, ::System::Single y)
+		::UnityEngine::Vector2 Map_1(::System::Single a1, ::System::Single a2)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + EZYSLICE_TEXTUREREGION_MAP_1_OFFSET))(this, x, y);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + EZYSLICE_TEXTUREREGION_MAP_1_OFFSET))(this, a1, a2);
 		}
 		*/
 
-		static ::System::Single MAP_2(::System::Single x, ::System::Single in_min, ::System::Single in_max, ::System::Single out_min, ::System::Single out_max)
+		static ::System::Single MAP_2(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + EZYSLICE_TEXTUREREGION_MAP_2_OFFSET))(x, in_min, in_max, out_min, out_max);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + EZYSLICE_TEXTUREREGION_MAP_2_OFFSET))(a1, a2, a3, a4, a5);
 		}
 	};
 }

@@ -9,36 +9,36 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace UnityEngine { class Object; }
 
-#define MIHOYO_SDK_SDKDELEGATE_LOADASSETDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x157DA7F0)
-#define MIHOYO_SDK_SDKDELEGATE_LOADASSETDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x157DA830)
-#define MIHOYO_SDK_SDKDELEGATE_LOADASSETDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x157D3DC0)
-#define MIHOYO_SDK_SDKDELEGATE_LOADASSETDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x157DA7D0)
+#define MIHOYO_SDK_SDKDELEGATE_LOADASSETDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16A4A310)
+#define MIHOYO_SDK_SDKDELEGATE_LOADASSETDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16A4A350)
+#define MIHOYO_SDK_SDKDELEGATE_LOADASSETDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16A48F50)
+#define MIHOYO_SDK_SDKDELEGATE_LOADASSETDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16A4A290)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_LoadAssetDelegate_TypeDefinitionIndex = 6829;
+	inline static constexpr unsigned int SDKDelegate_LoadAssetDelegate_TypeDefinitionIndex = 7732;
 
 	class SDKDelegate_LoadAssetDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_LOADASSETDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_LOADASSETDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Object* Invoke(::System::String* path, ::System::Type* assetType)
+		::UnityEngine::Object* Invoke(::System::String* a1, ::System::Type* a2)
 		{
-			return ((::UnityEngine::Object*(*)(::PVOID, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_LOADASSETDELEGATE_INVOKE_OFFSET))(this, path, assetType);
+			return ((::UnityEngine::Object*(*)(::PVOID, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_LOADASSETDELEGATE_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* path, ::System::Type* assetType, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::Type* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::Type*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_LOADASSETDELEGATE_BEGININVOKE_OFFSET))(this, path, assetType, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::Type*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_LOADASSETDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::UnityEngine::Object* EndInvoke(::System::IAsyncResult* result)
+		::UnityEngine::Object* EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::UnityEngine::Object*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_LOADASSETDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::UnityEngine::Object*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_LOADASSETDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

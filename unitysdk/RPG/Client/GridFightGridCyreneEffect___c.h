@@ -5,24 +5,24 @@
 namespace RPG::Client { class GridFightRole; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT___C__CANCASTER_B__5_0_OFFSET UNITYSDK_OFFSET(0x1754EEA0)
-#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1754EE50)
-#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1754EE90)
+#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT___C__CANCASTER_B__5_0_OFFSET UNITYSDK_OFFSET(0x17CA3BF0)
+#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17CA3BA0)
+#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17CA3BE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridCyreneEffect___c_TypeDefinitionIndex = 59688;
+	inline static constexpr unsigned int GridFightGridCyreneEffect___c_TypeDefinitionIndex = 60623;
 
 	class GridFightGridCyreneEffect___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGridCyreneEffect___c_TypeDefinitionIndex)->GetStaticField(0x28550);
+			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGridCyreneEffect___c_TypeDefinitionIndex)->GetStaticField(0x2E8D0);
 		}
 		static ::RPG::Client::GridFightGridCyreneEffect___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightGridCyreneEffect___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightGridCyreneEffect___c_TypeDefinitionIndex)->GetStaticField(0x28558);
+			return (::RPG::Client::GridFightGridCyreneEffect___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightGridCyreneEffect___c_TypeDefinitionIndex)->GetStaticField(0x2E8D8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _CanCaster_b__5_0(::RPG::Client::GridFightRole* x)
+		::System::Boolean _CanCaster_b__5_0(::RPG::Client::GridFightRole* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT___C__CANCASTER_B__5_0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT___C__CANCASTER_B__5_0_OFFSET))(this, a1);
 		}
 	};
 }

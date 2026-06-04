@@ -7,17 +7,17 @@ namespace Epic::OnlineServices::RTCAdmin { class UserToken; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x232FCE0)
-#define EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_GET_PRODUCTUSERID_OFFSET UNITYSDK_OFFSET(0x232F9D0)
-#define EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_GET_TOKEN_OFFSET UNITYSDK_OFFSET(0x232FB00)
-#define EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x232FC70)
-#define EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x232FC60)
-#define EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_SET_PRODUCTUSERID_OFFSET UNITYSDK_OFFSET(0x232FA40)
-#define EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_SET_TOKEN_OFFSET UNITYSDK_OFFSET(0x232FBB0)
+#define EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x38E1080)
+#define EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_GET_PRODUCTUSERID_OFFSET UNITYSDK_OFFSET(0x38E0D60)
+#define EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_GET_TOKEN_OFFSET UNITYSDK_OFFSET(0x38E0E90)
+#define EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x38E1000)
+#define EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x38E0FF0)
+#define EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_SET_PRODUCTUSERID_OFFSET UNITYSDK_OFFSET(0x38E0DD0)
+#define EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_SET_TOKEN_OFFSET UNITYSDK_OFFSET(0x38E0F40)
 
 namespace Epic::OnlineServices::RTCAdmin
 {
-	inline static constexpr unsigned int UserTokenInternal_TypeDefinitionIndex = 41517;
+	inline static constexpr unsigned int UserTokenInternal_TypeDefinitionIndex = 42320;
 
 	struct alignas(8) UserTokenInternal
 	{
@@ -30,9 +30,9 @@ namespace Epic::OnlineServices::RTCAdmin
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_GET_PRODUCTUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_ProductUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_ProductUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_SET_PRODUCTUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_SET_PRODUCTUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Token()
@@ -40,19 +40,19 @@ namespace Epic::OnlineServices::RTCAdmin
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_GET_TOKEN_OFFSET))(this);
 		}
 
-		::System::Void set_Token(::System::String* value)
+		::System::Void set_Token(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_SET_TOKEN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_SET_TOKEN_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::RTCAdmin::UserToken* other)
+		::System::Void Set(::Epic::OnlineServices::RTCAdmin::UserToken* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAdmin::UserToken*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAdmin::UserToken*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_USERTOKENINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

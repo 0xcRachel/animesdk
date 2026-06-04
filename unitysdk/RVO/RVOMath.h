@@ -2,79 +2,79 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RVO_RVOMATH_ABSSQ_OFFSET UNITYSDK_OFFSET(0x175CA340)
-#define RVO_RVOMATH_ABS_OFFSET UNITYSDK_OFFSET(0x175CA4B0)
-#define RVO_RVOMATH_DET_OFFSET UNITYSDK_OFFSET(0x175CA310)
-#define RVO_RVOMATH_DISTSQPOINTLINESEGMENT_OFFSET UNITYSDK_OFFSET(0x175CC900)
-#define RVO_RVOMATH_FABS_OFFSET UNITYSDK_OFFSET(0x175CD900)
-#define RVO_RVOMATH_LEFTOF_OFFSET UNITYSDK_OFFSET(0x175D03A0)
-#define RVO_RVOMATH_NORMALIZE_OFFSET UNITYSDK_OFFSET(0x175CA3C0)
-#define RVO_RVOMATH_SQRT_OFFSET UNITYSDK_OFFSET(0x175CA430)
-#define RVO_RVOMATH_SQR_OFFSET UNITYSDK_OFFSET(0x175C8550)
+#define RVO_RVOMATH_ABSSQ_OFFSET UNITYSDK_OFFSET(0x17A57700)
+#define RVO_RVOMATH_ABS_OFFSET UNITYSDK_OFFSET(0x17A57870)
+#define RVO_RVOMATH_DET_OFFSET UNITYSDK_OFFSET(0x17A576D0)
+#define RVO_RVOMATH_DISTSQPOINTLINESEGMENT_OFFSET UNITYSDK_OFFSET(0x17A59CE0)
+#define RVO_RVOMATH_FABS_OFFSET UNITYSDK_OFFSET(0x17A5ACF0)
+#define RVO_RVOMATH_LEFTOF_OFFSET UNITYSDK_OFFSET(0x17A5D600)
+#define RVO_RVOMATH_NORMALIZE_OFFSET UNITYSDK_OFFSET(0x17A57780)
+#define RVO_RVOMATH_SQRT_OFFSET UNITYSDK_OFFSET(0x17A577F0)
+#define RVO_RVOMATH_SQR_OFFSET UNITYSDK_OFFSET(0x17A55940)
 
 namespace RVO
 {
-	inline static constexpr unsigned int RVOMath_TypeDefinitionIndex = 41054;
+	inline static constexpr unsigned int RVOMath_TypeDefinitionIndex = 41857;
 
 	struct alignas(1) RVOMath
 	{
 		// static const ::System::Single RVO_EPSILON; // 0x0
 
 		/*
-		static ::System::Single abs(::RVO::Vector2 vector)
+		static ::System::Single abs(::RVO::Vector2 a1)
 		{
-			return ((::System::Single(*)(::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_RVOMATH_ABS_OFFSET))(vector);
+			return ((::System::Single(*)(::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_RVOMATH_ABS_OFFSET))(a1);
 		}
 		*/
 
 		/*
-		static ::System::Single absSq(::RVO::Vector2 vector)
+		static ::System::Single absSq(::RVO::Vector2 a1)
 		{
-			return ((::System::Single(*)(::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_RVOMATH_ABSSQ_OFFSET))(vector);
+			return ((::System::Single(*)(::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_RVOMATH_ABSSQ_OFFSET))(a1);
 		}
 		*/
 
 		/*
-		static ::RVO::Vector2 normalize(::RVO::Vector2 vector)
+		static ::RVO::Vector2 normalize(::RVO::Vector2 a1)
 		{
-			return ((::RVO::Vector2(*)(::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_RVOMATH_NORMALIZE_OFFSET))(vector);
+			return ((::RVO::Vector2(*)(::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_RVOMATH_NORMALIZE_OFFSET))(a1);
 		}
 		*/
 
 		/*
-		static ::System::Single det(::RVO::Vector2 vector1, ::RVO::Vector2 vector2)
+		static ::System::Single det(::RVO::Vector2 a1, ::RVO::Vector2 a2)
 		{
-			return ((::System::Single(*)(::RVO::Vector2, ::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_RVOMATH_DET_OFFSET))(vector1, vector2);
+			return ((::System::Single(*)(::RVO::Vector2, ::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_RVOMATH_DET_OFFSET))(a1, a2);
 		}
 		*/
 
 		/*
-		static ::System::Single distSqPointLineSegment(::RVO::Vector2 vector1, ::RVO::Vector2 vector2, ::RVO::Vector2 vector3)
+		static ::System::Single distSqPointLineSegment(::RVO::Vector2 a1, ::RVO::Vector2 a2, ::RVO::Vector2 a3)
 		{
-			return ((::System::Single(*)(::RVO::Vector2, ::RVO::Vector2, ::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_RVOMATH_DISTSQPOINTLINESEGMENT_OFFSET))(vector1, vector2, vector3);
+			return ((::System::Single(*)(::RVO::Vector2, ::RVO::Vector2, ::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_RVOMATH_DISTSQPOINTLINESEGMENT_OFFSET))(a1, a2, a3);
 		}
 		*/
 
-		static ::System::Single fabs(::System::Single scalar)
+		static ::System::Single fabs(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + RVO_RVOMATH_FABS_OFFSET))(scalar);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + RVO_RVOMATH_FABS_OFFSET))(a1);
 		}
 
 		/*
-		static ::System::Single leftOf(::RVO::Vector2 a, ::RVO::Vector2 b, ::RVO::Vector2 c)
+		static ::System::Single leftOf(::RVO::Vector2 a1, ::RVO::Vector2 a2, ::RVO::Vector2 a3)
 		{
-			return ((::System::Single(*)(::RVO::Vector2, ::RVO::Vector2, ::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_RVOMATH_LEFTOF_OFFSET))(a, b, c);
+			return ((::System::Single(*)(::RVO::Vector2, ::RVO::Vector2, ::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_RVOMATH_LEFTOF_OFFSET))(a1, a2, a3);
 		}
 		*/
 
-		static ::System::Single sqr(::System::Single scalar)
+		static ::System::Single sqr(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + RVO_RVOMATH_SQR_OFFSET))(scalar);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + RVO_RVOMATH_SQR_OFFSET))(a1);
 		}
 
-		static ::System::Single sqrt(::System::Single scalar)
+		static ::System::Single sqrt(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + RVO_RVOMATH_SQRT_OFFSET))(scalar);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + RVO_RVOMATH_SQRT_OFFSET))(a1);
 		}
 	};
 }

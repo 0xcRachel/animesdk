@@ -2,44 +2,44 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::Client { class IAvatarInfoProvider; }
+namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitCalculationResultData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PAMCHATRELICEXPLAINDATA_GETPLAYERSENDTEXT_OFFSET UNITYSDK_OFFSET(0x162C3080)
-#define RPG_CLIENT_PAMCHATRELICEXPLAINDATA_GET_AVATAR_OFFSET UNITYSDK_OFFSET(0x162C3190)
-#define RPG_CLIENT_PAMCHATRELICEXPLAINDATA_GET_MYRESULT_OFFSET UNITYSDK_OFFSET(0x162C3170)
-#define RPG_CLIENT_PAMCHATRELICEXPLAINDATA_GET_RECOMMENDRESULT_OFFSET UNITYSDK_OFFSET(0x162C3150)
-#define RPG_CLIENT_PAMCHATRELICEXPLAINDATA_SETMYRELIC_OFFSET UNITYSDK_OFFSET(0x162C3030)
-#define RPG_CLIENT_PAMCHATRELICEXPLAINDATA_SETRECOMMENDRELIC_OFFSET UNITYSDK_OFFSET(0x162C2FE0)
-#define RPG_CLIENT_PAMCHATRELICEXPLAINDATA_SET_MYRESULT_OFFSET UNITYSDK_OFFSET(0x162C3180)
-#define RPG_CLIENT_PAMCHATRELICEXPLAINDATA_SET_RECOMMENDRESULT_OFFSET UNITYSDK_OFFSET(0x162C3160)
-#define RPG_CLIENT_PAMCHATRELICEXPLAINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x162C2F70)
+#define RPG_CLIENT_PAMCHATRELICEXPLAINDATA_GETPLAYERSENDTEXT_OFFSET UNITYSDK_OFFSET(0x16FFB2C0)
+#define RPG_CLIENT_PAMCHATRELICEXPLAINDATA_GET_AVATAR_OFFSET UNITYSDK_OFFSET(0x16FFB3D0)
+#define RPG_CLIENT_PAMCHATRELICEXPLAINDATA_GET_MYRESULT_OFFSET UNITYSDK_OFFSET(0x16FFB3B0)
+#define RPG_CLIENT_PAMCHATRELICEXPLAINDATA_GET_RECOMMENDRESULT_OFFSET UNITYSDK_OFFSET(0x16FFB390)
+#define RPG_CLIENT_PAMCHATRELICEXPLAINDATA_SETMYRELIC_OFFSET UNITYSDK_OFFSET(0x16FFB270)
+#define RPG_CLIENT_PAMCHATRELICEXPLAINDATA_SETRECOMMENDRELIC_OFFSET UNITYSDK_OFFSET(0x16FFB220)
+#define RPG_CLIENT_PAMCHATRELICEXPLAINDATA_SET_MYRESULT_OFFSET UNITYSDK_OFFSET(0x16FFB3C0)
+#define RPG_CLIENT_PAMCHATRELICEXPLAINDATA_SET_RECOMMENDRESULT_OFFSET UNITYSDK_OFFSET(0x16FFB3A0)
+#define RPG_CLIENT_PAMCHATRELICEXPLAINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16FFB200)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PamChatRelicExplainData_TypeDefinitionIndex = 58297;
+	inline static constexpr unsigned int PamChatRelicExplainData_TypeDefinitionIndex = 59227;
 
 	class PamChatRelicExplainData : public ::System::Object
 	{
 	public:
-		::RPG::Client::IAvatarInfoProvider* _Avatar_k__BackingField; // 0x10
+		::RPG::AvatarSystem::IAvatar* _Avatar_k__BackingField; // 0x10
 		::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* _MyResult_k__BackingField; // 0x18
 		::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* _RecommendResult_k__BackingField; // 0x20
 
-		::System::Void _ctor(::System::UInt32 avatarID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAMCHATRELICEXPLAINDATA__CTOR_OFFSET))(this, avatarID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAMCHATRELICEXPLAINDATA__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void SetRecommendRelic(::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* result)
+		::System::Void SetRecommendRelic(::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAMCHATRELICEXPLAINDATA_SETRECOMMENDRELIC_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAMCHATRELICEXPLAINDATA_SETRECOMMENDRELIC_OFFSET))(this, a1);
 		}
 
-		::System::Void SetMyRelic(::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* result)
+		::System::Void SetMyRelic(::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAMCHATRELICEXPLAINDATA_SETMYRELIC_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAMCHATRELICEXPLAINDATA_SETMYRELIC_OFFSET))(this, a1);
 		}
 
 		::System::String* GetPlayerSendText()
@@ -52,9 +52,9 @@ namespace RPG::Client
 			return ((::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAMCHATRELICEXPLAINDATA_GET_RECOMMENDRESULT_OFFSET))(this);
 		}
 
-		::System::Void set_RecommendResult(::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* value)
+		::System::Void set_RecommendResult(::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAMCHATRELICEXPLAINDATA_SET_RECOMMENDRESULT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAMCHATRELICEXPLAINDATA_SET_RECOMMENDRESULT_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* get_MyResult()
@@ -62,14 +62,14 @@ namespace RPG::Client
 			return ((::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAMCHATRELICEXPLAINDATA_GET_MYRESULT_OFFSET))(this);
 		}
 
-		::System::Void set_MyResult(::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* value)
+		::System::Void set_MyResult(::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAMCHATRELICEXPLAINDATA_SET_MYRESULT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAMCHATRELICEXPLAINDATA_SET_MYRESULT_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::IAvatarInfoProvider* get_Avatar()
+		::RPG::AvatarSystem::IAvatar* get_Avatar()
 		{
-			return ((::RPG::Client::IAvatarInfoProvider*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAMCHATRELICEXPLAINDATA_GET_AVATAR_OFFSET))(this);
+			return ((::RPG::AvatarSystem::IAvatar*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAMCHATRELICEXPLAINDATA_GET_AVATAR_OFFSET))(this);
 		}
 	};
 }

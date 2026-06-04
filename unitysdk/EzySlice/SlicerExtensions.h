@@ -9,66 +9,66 @@ namespace EzySlice { class SlicedHull; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
-#define EZYSLICE_SLICEREXTENSIONS_SLICEINSTANTIATE_1_OFFSET UNITYSDK_OFFSET(0x18D09F40)
-#define EZYSLICE_SLICEREXTENSIONS_SLICEINSTANTIATE_2_OFFSET UNITYSDK_OFFSET(0x18D09FA0)
-#define EZYSLICE_SLICEREXTENSIONS_SLICEINSTANTIATE_3_OFFSET UNITYSDK_OFFSET(0x18D09FF0)
-#define EZYSLICE_SLICEREXTENSIONS_SLICEINSTANTIATE_4_OFFSET UNITYSDK_OFFSET(0x18D09DE0)
-#define EZYSLICE_SLICEREXTENSIONS_SLICEINSTANTIATE_OFFSET UNITYSDK_OFFSET(0x18D09DB0)
-#define EZYSLICE_SLICEREXTENSIONS_SLICE_1_OFFSET UNITYSDK_OFFSET(0x18D09A70)
-#define EZYSLICE_SLICEREXTENSIONS_SLICE_2_OFFSET UNITYSDK_OFFSET(0x18D09AC0)
-#define EZYSLICE_SLICEREXTENSIONS_SLICE_3_OFFSET UNITYSDK_OFFSET(0x18D09A40)
-#define EZYSLICE_SLICEREXTENSIONS_SLICE_OFFSET UNITYSDK_OFFSET(0x18D099F0)
+#define EZYSLICE_SLICEREXTENSIONS_SLICEINSTANTIATE_1_OFFSET UNITYSDK_OFFSET(0x19C5D520)
+#define EZYSLICE_SLICEREXTENSIONS_SLICEINSTANTIATE_2_OFFSET UNITYSDK_OFFSET(0x19C5D580)
+#define EZYSLICE_SLICEREXTENSIONS_SLICEINSTANTIATE_3_OFFSET UNITYSDK_OFFSET(0x19C5D5D0)
+#define EZYSLICE_SLICEREXTENSIONS_SLICEINSTANTIATE_4_OFFSET UNITYSDK_OFFSET(0x19C5D400)
+#define EZYSLICE_SLICEREXTENSIONS_SLICEINSTANTIATE_OFFSET UNITYSDK_OFFSET(0x19C5D3D0)
+#define EZYSLICE_SLICEREXTENSIONS_SLICE_1_OFFSET UNITYSDK_OFFSET(0x19C5D090)
+#define EZYSLICE_SLICEREXTENSIONS_SLICE_2_OFFSET UNITYSDK_OFFSET(0x19C5D0E0)
+#define EZYSLICE_SLICEREXTENSIONS_SLICE_3_OFFSET UNITYSDK_OFFSET(0x19C5D060)
+#define EZYSLICE_SLICEREXTENSIONS_SLICE_OFFSET UNITYSDK_OFFSET(0x19C5D010)
 
 namespace EzySlice
 {
-	inline static constexpr unsigned int SlicerExtensions_TypeDefinitionIndex = 43820;
+	inline static constexpr unsigned int SlicerExtensions_TypeDefinitionIndex = 44362;
 
 	class SlicerExtensions : public ::System::Object
 	{
 	public:
-		static ::EzySlice::SlicedHull* Slice(::UnityEngine::GameObject* obj, ::EzySlice::Plane pl, ::UnityEngine::Material* crossSectionMaterial)
+		static ::EzySlice::SlicedHull* Slice(::UnityEngine::GameObject* a1, ::EzySlice::Plane a2, ::UnityEngine::Material* a3)
 		{
-			return ((::EzySlice::SlicedHull*(*)(::UnityEngine::GameObject*, ::EzySlice::Plane, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEREXTENSIONS_SLICE_OFFSET))(obj, pl, crossSectionMaterial);
+			return ((::EzySlice::SlicedHull*(*)(::UnityEngine::GameObject*, ::EzySlice::Plane, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEREXTENSIONS_SLICE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::EzySlice::SlicedHull* Slice_1(::UnityEngine::GameObject* obj, ::UnityEngine::Vector3 position, ::UnityEngine::Vector3 direction, ::UnityEngine::Material* crossSectionMaterial)
+		static ::EzySlice::SlicedHull* Slice_1(::UnityEngine::GameObject* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Material* a4)
 		{
-			return ((::EzySlice::SlicedHull*(*)(::UnityEngine::GameObject*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEREXTENSIONS_SLICE_1_OFFSET))(obj, position, direction, crossSectionMaterial);
+			return ((::EzySlice::SlicedHull*(*)(::UnityEngine::GameObject*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEREXTENSIONS_SLICE_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::EzySlice::SlicedHull* Slice_2(::UnityEngine::GameObject* obj, ::UnityEngine::Vector3 position, ::UnityEngine::Vector3 direction, ::EzySlice::TextureRegion textureRegion, ::UnityEngine::Material* crossSectionMaterial)
+		static ::EzySlice::SlicedHull* Slice_2(::UnityEngine::GameObject* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::EzySlice::TextureRegion a4, ::UnityEngine::Material* a5)
 		{
-			return ((::EzySlice::SlicedHull*(*)(::UnityEngine::GameObject*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::EzySlice::TextureRegion, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEREXTENSIONS_SLICE_2_OFFSET))(obj, position, direction, textureRegion, crossSectionMaterial);
+			return ((::EzySlice::SlicedHull*(*)(::UnityEngine::GameObject*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::EzySlice::TextureRegion, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEREXTENSIONS_SLICE_2_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::EzySlice::SlicedHull* Slice_3(::UnityEngine::GameObject* obj, ::EzySlice::Plane pl, ::EzySlice::TextureRegion textureRegion, ::UnityEngine::Material* crossSectionMaterial)
+		static ::EzySlice::SlicedHull* Slice_3(::UnityEngine::GameObject* a1, ::EzySlice::Plane a2, ::EzySlice::TextureRegion a3, ::UnityEngine::Material* a4)
 		{
-			return ((::EzySlice::SlicedHull*(*)(::UnityEngine::GameObject*, ::EzySlice::Plane, ::EzySlice::TextureRegion, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEREXTENSIONS_SLICE_3_OFFSET))(obj, pl, textureRegion, crossSectionMaterial);
+			return ((::EzySlice::SlicedHull*(*)(::UnityEngine::GameObject*, ::EzySlice::Plane, ::EzySlice::TextureRegion, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEREXTENSIONS_SLICE_3_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::Il2CppArray<::UnityEngine::GameObject*>* SliceInstantiate(::UnityEngine::GameObject* obj, ::EzySlice::Plane pl)
+		static ::Il2CppArray<::UnityEngine::GameObject*>* SliceInstantiate(::UnityEngine::GameObject* a1, ::EzySlice::Plane a2)
 		{
-			return ((::Il2CppArray<::UnityEngine::GameObject*>*(*)(::UnityEngine::GameObject*, ::EzySlice::Plane))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEREXTENSIONS_SLICEINSTANTIATE_OFFSET))(obj, pl);
+			return ((::Il2CppArray<::UnityEngine::GameObject*>*(*)(::UnityEngine::GameObject*, ::EzySlice::Plane))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEREXTENSIONS_SLICEINSTANTIATE_OFFSET))(a1, a2);
 		}
 
-		static ::Il2CppArray<::UnityEngine::GameObject*>* SliceInstantiate_1(::UnityEngine::GameObject* obj, ::UnityEngine::Vector3 position, ::UnityEngine::Vector3 direction)
+		static ::Il2CppArray<::UnityEngine::GameObject*>* SliceInstantiate_1(::UnityEngine::GameObject* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::Il2CppArray<::UnityEngine::GameObject*>*(*)(::UnityEngine::GameObject*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEREXTENSIONS_SLICEINSTANTIATE_1_OFFSET))(obj, position, direction);
+			return ((::Il2CppArray<::UnityEngine::GameObject*>*(*)(::UnityEngine::GameObject*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEREXTENSIONS_SLICEINSTANTIATE_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::Il2CppArray<::UnityEngine::GameObject*>* SliceInstantiate_2(::UnityEngine::GameObject* obj, ::UnityEngine::Vector3 position, ::UnityEngine::Vector3 direction, ::UnityEngine::Material* crossSectionMat)
+		static ::Il2CppArray<::UnityEngine::GameObject*>* SliceInstantiate_2(::UnityEngine::GameObject* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Material* a4)
 		{
-			return ((::Il2CppArray<::UnityEngine::GameObject*>*(*)(::UnityEngine::GameObject*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEREXTENSIONS_SLICEINSTANTIATE_2_OFFSET))(obj, position, direction, crossSectionMat);
+			return ((::Il2CppArray<::UnityEngine::GameObject*>*(*)(::UnityEngine::GameObject*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEREXTENSIONS_SLICEINSTANTIATE_2_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::Il2CppArray<::UnityEngine::GameObject*>* SliceInstantiate_3(::UnityEngine::GameObject* obj, ::UnityEngine::Vector3 position, ::UnityEngine::Vector3 direction, ::EzySlice::TextureRegion cuttingRegion, ::UnityEngine::Material* crossSectionMaterial)
+		static ::Il2CppArray<::UnityEngine::GameObject*>* SliceInstantiate_3(::UnityEngine::GameObject* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::EzySlice::TextureRegion a4, ::UnityEngine::Material* a5)
 		{
-			return ((::Il2CppArray<::UnityEngine::GameObject*>*(*)(::UnityEngine::GameObject*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::EzySlice::TextureRegion, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEREXTENSIONS_SLICEINSTANTIATE_3_OFFSET))(obj, position, direction, cuttingRegion, crossSectionMaterial);
+			return ((::Il2CppArray<::UnityEngine::GameObject*>*(*)(::UnityEngine::GameObject*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::EzySlice::TextureRegion, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEREXTENSIONS_SLICEINSTANTIATE_3_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::Il2CppArray<::UnityEngine::GameObject*>* SliceInstantiate_4(::UnityEngine::GameObject* obj, ::EzySlice::Plane pl, ::EzySlice::TextureRegion cuttingRegion, ::UnityEngine::Material* crossSectionMaterial)
+		static ::Il2CppArray<::UnityEngine::GameObject*>* SliceInstantiate_4(::UnityEngine::GameObject* a1, ::EzySlice::Plane a2, ::EzySlice::TextureRegion a3, ::UnityEngine::Material* a4)
 		{
-			return ((::Il2CppArray<::UnityEngine::GameObject*>*(*)(::UnityEngine::GameObject*, ::EzySlice::Plane, ::EzySlice::TextureRegion, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEREXTENSIONS_SLICEINSTANTIATE_4_OFFSET))(obj, pl, cuttingRegion, crossSectionMaterial);
+			return ((::Il2CppArray<::UnityEngine::GameObject*>*(*)(::UnityEngine::GameObject*, ::EzySlice::Plane, ::EzySlice::TextureRegion, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEREXTENSIONS_SLICEINSTANTIATE_4_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

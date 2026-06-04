@@ -5,13 +5,13 @@
 
 namespace UnityEngine { class Mesh; }
 
-#define HOUDINIENGINEUNITY_HEU_MESHINDEXFORMAT_CALCULATEINDEXFORMAT_OFFSET UNITYSDK_OFFSET(0x15443D50)
-#define HOUDINIENGINEUNITY_HEU_MESHINDEXFORMAT_SETFORMATFORMESH_OFFSET UNITYSDK_OFFSET(0x15443DB0)
-#define HOUDINIENGINEUNITY_HEU_MESHINDEXFORMAT__CTOR_OFFSET UNITYSDK_OFFSET(0x15443DE0)
+#define HOUDINIENGINEUNITY_HEU_MESHINDEXFORMAT_CALCULATEINDEXFORMAT_OFFSET UNITYSDK_OFFSET(0x10528220)
+#define HOUDINIENGINEUNITY_HEU_MESHINDEXFORMAT_SETFORMATFORMESH_OFFSET UNITYSDK_OFFSET(0x10528280)
+#define HOUDINIENGINEUNITY_HEU_MESHINDEXFORMAT__CTOR_OFFSET UNITYSDK_OFFSET(0x105282B0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_MeshIndexFormat_TypeDefinitionIndex = 43709;
+	inline static constexpr unsigned int HEU_MeshIndexFormat_TypeDefinitionIndex = 37693;
 
 	class HEU_MeshIndexFormat : public ::System::Object
 	{
@@ -23,14 +23,14 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_MESHINDEXFORMAT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void CalculateIndexFormat(::System::Int32 numVertices)
+		::System::Void CalculateIndexFormat(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_MESHINDEXFORMAT_CALCULATEINDEXFORMAT_OFFSET))(this, numVertices);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_MESHINDEXFORMAT_CALCULATEINDEXFORMAT_OFFSET))(this, a1);
 		}
 
-		::System::Void SetFormatForMesh(::UnityEngine::Mesh* mesh)
+		::System::Void SetFormatForMesh(::UnityEngine::Mesh* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_MESHINDEXFORMAT_SETFORMATFORMESH_OFFSET))(this, mesh);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_MESHINDEXFORMAT_SETFORMATFORMESH_OFFSET))(this, a1);
 		}
 	};
 }

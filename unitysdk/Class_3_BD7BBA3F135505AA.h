@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class HideWaypointByProp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BD7BBA3F135505AA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE5EE580)
-#define CLASS_3_BD7BBA3F135505AA__CTOR_OFFSET UNITYSDK_OFFSET(0xE5EE550)
+#define CLASS_3_BD7BBA3F135505AA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x133EFD30)
+#define CLASS_3_BD7BBA3F135505AA__CTOR_OFFSET UNITYSDK_OFFSET(0x133EFD00)
 
-inline static constexpr unsigned int Class_3_BD7BBA3F135505AA_TypeDefinitionIndex = 53641;
+inline static constexpr unsigned int Class_3_BD7BBA3F135505AA_TypeDefinitionIndex = 54354;
 
 class Class_3_BD7BBA3F135505AA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::HideWaypointByProp*>
 {

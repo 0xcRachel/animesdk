@@ -9,13 +9,13 @@ namespace RPG::GameCore { class ChangeCharacterSkillRowDataItem; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CHANGECHARACTERROWDATA_METHOD_3_D9589E00203CC88E_OFFSET UNITYSDK_OFFSET(0x18D507C0)
-#define RPG_GAMECORE_CHANGECHARACTERROWDATA_METHOD_3_EB1A3F8516F4697A_OFFSET UNITYSDK_OFFSET(0x18D506D0)
-#define RPG_GAMECORE_CHANGECHARACTERROWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18D50760)
+#define RPG_GAMECORE_CHANGECHARACTERROWDATA_METHOD_3_D9589E00203CC88E_OFFSET UNITYSDK_OFFSET(0x1A1345B0)
+#define RPG_GAMECORE_CHANGECHARACTERROWDATA_METHOD_3_EB1A3F8516F4697A_OFFSET UNITYSDK_OFFSET(0x1A1344C0)
+#define RPG_GAMECORE_CHANGECHARACTERROWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A134550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeCharacterRowData_TypeDefinitionIndex = 22665;
+	inline static constexpr unsigned int ChangeCharacterRowData_TypeDefinitionIndex = 22385;
 
 	class ChangeCharacterRowData : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,7 +24,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* SPNeedSet; // 0x20
 		::RPG::GameCore::DynamicFloat* SPNeedAdd; // 0x28
 		::RPG::GameCore::AvatarBaseType MainAvatarBaseType; // 0x30
-		::RPG::GameCore::AvatarBaseType ExtraAvatarBaseType; // 0x34
+		::RPG::GameCore::AvatarBaseType SubAvatarBaseType; // 0x34
 		::RPG::GameCore::AttackDamageType DamageType; // 0x38
 		::Il2CppArray<::RPG::GameCore::ChangeCharacterSkillRowDataItem*>* Skills; // 0x40
 

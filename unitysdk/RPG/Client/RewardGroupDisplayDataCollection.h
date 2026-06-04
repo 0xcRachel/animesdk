@@ -5,12 +5,12 @@
 namespace RPG::Client { class RewardGroupDisplayData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_REWARDGROUPDISPLAYDATACOLLECTION_CREATEFROMITEMGIFTPACK_OFFSET UNITYSDK_OFFSET(0x1771CF20)
-#define RPG_CLIENT_REWARDGROUPDISPLAYDATACOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1771D860)
+#define RPG_CLIENT_REWARDGROUPDISPLAYDATACOLLECTION_CREATEFROMITEMGIFTPACK_OFFSET UNITYSDK_OFFSET(0x191BB520)
+#define RPG_CLIENT_REWARDGROUPDISPLAYDATACOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x191BC060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RewardGroupDisplayDataCollection_TypeDefinitionIndex = 60512;
+	inline static constexpr unsigned int RewardGroupDisplayDataCollection_TypeDefinitionIndex = 61446;
 
 	class RewardGroupDisplayDataCollection : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDGROUPDISPLAYDATACOLLECTION__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::RewardGroupDisplayDataCollection* CreateFromItemGiftPack(::System::UInt32 itemGiftPackID)
+		static ::RPG::Client::RewardGroupDisplayDataCollection* CreateFromItemGiftPack(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::RewardGroupDisplayDataCollection*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDGROUPDISPLAYDATACOLLECTION_CREATEFROMITEMGIFTPACK_OFFSET))(itemGiftPackID);
+			return ((::RPG::Client::RewardGroupDisplayDataCollection*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDGROUPDISPLAYDATACOLLECTION_CREATEFROMITEMGIFTPACK_OFFSET))(a1);
 		}
 	};
 }

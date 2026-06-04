@@ -6,36 +6,36 @@
 
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHTRANSFORM_CENTERPIVOT_OFFSET UNITYSDK_OFFSET(0xB9CD7F0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHTRANSFORM_FREEZESCALETRANSFORM_OFFSET UNITYSDK_OFFSET(0xB9D39A0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHTRANSFORM_SETPIVOT_1_OFFSET UNITYSDK_OFFSET(0xB9AFA10)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHTRANSFORM_SETPIVOT_OFFSET UNITYSDK_OFFSET(0xB9D35B0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHTRANSFORM_CENTERPIVOT_OFFSET UNITYSDK_OFFSET(0xC26EF00)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHTRANSFORM_FREEZESCALETRANSFORM_OFFSET UNITYSDK_OFFSET(0xC275270)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHTRANSFORM_SETPIVOT_1_OFFSET UNITYSDK_OFFSET(0xC252190)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHTRANSFORM_SETPIVOT_OFFSET UNITYSDK_OFFSET(0xC274E90)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int MeshTransform_TypeDefinitionIndex = 40062;
+	inline static constexpr unsigned int MeshTransform_TypeDefinitionIndex = 40889;
 
 	class MeshTransform : public ::System::Object
 	{
 	public:
-		static ::System::Void SetPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::PivotLocation pivotLocation)
+		static ::System::Void SetPivot(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::PivotLocation a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::PivotLocation))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHTRANSFORM_SETPIVOT_OFFSET))(mesh, pivotLocation);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::PivotLocation))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHTRANSFORM_SETPIVOT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void CenterPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Il2CppArray<::System::Int32>* indexes)
+		static ::System::Void CenterPivot(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::Il2CppArray<::System::Int32>* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHTRANSFORM_CENTERPIVOT_OFFSET))(mesh, indexes);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHTRANSFORM_CENTERPIVOT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetPivot_1(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 worldPosition)
+		static ::System::Void SetPivot_1(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHTRANSFORM_SETPIVOT_1_OFFSET))(mesh, worldPosition);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHTRANSFORM_SETPIVOT_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FreezeScaleTransform(::UnityEngine::ProBuilder::ProBuilderMesh* mesh)
+		static ::System::Void FreezeScaleTransform(::UnityEngine::ProBuilder::ProBuilderMesh* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHTRANSFORM_FREEZESCALETRANSFORM_OFFSET))(mesh);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHTRANSFORM_FREEZESCALETRANSFORM_OFFSET))(a1);
 		}
 	};
 }

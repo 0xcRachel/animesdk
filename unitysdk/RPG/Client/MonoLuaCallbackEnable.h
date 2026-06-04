@@ -7,19 +7,19 @@ namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MONOLUACALLBACKENABLE_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x116AB330)
-#define RPG_CLIENT_MONOLUACALLBACKENABLE_GET_OFFSET UNITYSDK_OFFSET(0x116AB050)
-#define RPG_CLIENT_MONOLUACALLBACKENABLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x116AB2A0)
-#define RPG_CLIENT_MONOLUACALLBACKENABLE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x116AB240)
-#define RPG_CLIENT_MONOLUACALLBACKENABLE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x116AB1E0)
-#define RPG_CLIENT_MONOLUACALLBACKENABLE_SETLUACALLBACKDISABLE_OFFSET UNITYSDK_OFFSET(0x116AB180)
-#define RPG_CLIENT_MONOLUACALLBACKENABLE_SETLUACALLBACKENABLE_OFFSET UNITYSDK_OFFSET(0x116AB120)
-#define RPG_CLIENT_MONOLUACALLBACKENABLE_SPAWNED_OFFSET UNITYSDK_OFFSET(0x116AB2F0)
-#define RPG_CLIENT_MONOLUACALLBACKENABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x116AB380)
+#define RPG_CLIENT_MONOLUACALLBACKENABLE_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x17AD6C10)
+#define RPG_CLIENT_MONOLUACALLBACKENABLE_GET_OFFSET UNITYSDK_OFFSET(0x17AD68F0)
+#define RPG_CLIENT_MONOLUACALLBACKENABLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17AD6B80)
+#define RPG_CLIENT_MONOLUACALLBACKENABLE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x17AD6B20)
+#define RPG_CLIENT_MONOLUACALLBACKENABLE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x17AD6AC0)
+#define RPG_CLIENT_MONOLUACALLBACKENABLE_SETLUACALLBACKDISABLE_OFFSET UNITYSDK_OFFSET(0x17AD6A60)
+#define RPG_CLIENT_MONOLUACALLBACKENABLE_SETLUACALLBACKENABLE_OFFSET UNITYSDK_OFFSET(0x17AD6A00)
+#define RPG_CLIENT_MONOLUACALLBACKENABLE_SPAWNED_OFFSET UNITYSDK_OFFSET(0x17AD6BD0)
+#define RPG_CLIENT_MONOLUACALLBACKENABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x17AD6C60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoLuaCallbackEnable_TypeDefinitionIndex = 63565;
+	inline static constexpr unsigned int MonoLuaCallbackEnable_TypeDefinitionIndex = 64486;
 
 	class MonoLuaCallbackEnable : public ::UnityEngine::MonoBehaviour
 	{
@@ -34,19 +34,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLUACALLBACKENABLE__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::MonoLuaCallbackEnable* Get(::UnityEngine::GameObject* go)
+		static ::RPG::Client::MonoLuaCallbackEnable* Get(::UnityEngine::GameObject* a1)
 		{
-			return ((::RPG::Client::MonoLuaCallbackEnable*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLUACALLBACKENABLE_GET_OFFSET))(go);
+			return ((::RPG::Client::MonoLuaCallbackEnable*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLUACALLBACKENABLE_GET_OFFSET))(a1);
 		}
 
-		::System::Void SetLuaCallbackEnable(::System::Action_1<::System::Object*>* luaCallback, ::XLua::LuaTable* luaCallbackParam)
+		::System::Void SetLuaCallbackEnable(::System::Action_1<::System::Object*>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLUACALLBACKENABLE_SETLUACALLBACKENABLE_OFFSET))(this, luaCallback, luaCallbackParam);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLUACALLBACKENABLE_SETLUACALLBACKENABLE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetLuaCallbackDisable(::System::Action_1<::System::Object*>* luaCallback, ::XLua::LuaTable* luaCallbackParam)
+		::System::Void SetLuaCallbackDisable(::System::Action_1<::System::Object*>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLUACALLBACKENABLE_SETLUACALLBACKDISABLE_OFFSET))(this, luaCallback, luaCallbackParam);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLUACALLBACKENABLE_SETLUACALLBACKDISABLE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void OnEnable()

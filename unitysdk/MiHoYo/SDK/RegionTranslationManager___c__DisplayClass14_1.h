@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class RegionTranslationManager___c__DisplayClass14_0; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_REGIONTRANSLATIONMANAGER___C__DISPLAYCLASS14_1__CTOR_OFFSET UNITYSDK_OFFSET(0x157C4650)
-#define MIHOYO_SDK_REGIONTRANSLATIONMANAGER___C__DISPLAYCLASS14_1__ONGETREMOTEVERSION_B__0_OFFSET UNITYSDK_OFFSET(0x157C4A80)
+#define MIHOYO_SDK_REGIONTRANSLATIONMANAGER___C__DISPLAYCLASS14_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16A39FC0)
+#define MIHOYO_SDK_REGIONTRANSLATIONMANAGER___C__DISPLAYCLASS14_1__ONGETREMOTEVERSION_B__0_OFFSET UNITYSDK_OFFSET(0x16A3A330)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int RegionTranslationManager___c__DisplayClass14_1_TypeDefinitionIndex = 7003;
+	inline static constexpr unsigned int RegionTranslationManager___c__DisplayClass14_1_TypeDefinitionIndex = 7906;
 
 	class RegionTranslationManager___c__DisplayClass14_1 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REGIONTRANSLATIONMANAGER___C__DISPLAYCLASS14_1__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnGetRemoteVersion_b__0(::System::String* result)
+		::System::Void _OnGetRemoteVersion_b__0(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REGIONTRANSLATIONMANAGER___C__DISPLAYCLASS14_1__ONGETREMOTEVERSION_B__0_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REGIONTRANSLATIONMANAGER___C__DISPLAYCLASS14_1__ONGETREMOTEVERSION_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,15 +6,15 @@ namespace Epic::OnlineServices { class ProductUserId; }
 namespace Epic::OnlineServices::Lobby { class GetInviteIdByIndexOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_LOBBY_GETINVITEIDBYINDEXOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x236B8D0)
-#define EPIC_ONLINESERVICES_LOBBY_GETINVITEIDBYINDEXOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x236B8C0)
-#define EPIC_ONLINESERVICES_LOBBY_GETINVITEIDBYINDEXOPTIONSINTERNAL_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x1464EA0)
-#define EPIC_ONLINESERVICES_LOBBY_GETINVITEIDBYINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x236B720)
-#define EPIC_ONLINESERVICES_LOBBY_GETINVITEIDBYINDEXOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x236B7E0)
+#define EPIC_ONLINESERVICES_LOBBY_GETINVITEIDBYINDEXOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x39182C0)
+#define EPIC_ONLINESERVICES_LOBBY_GETINVITEIDBYINDEXOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x39182B0)
+#define EPIC_ONLINESERVICES_LOBBY_GETINVITEIDBYINDEXOPTIONSINTERNAL_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x3741A70)
+#define EPIC_ONLINESERVICES_LOBBY_GETINVITEIDBYINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x3918110)
+#define EPIC_ONLINESERVICES_LOBBY_GETINVITEIDBYINDEXOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x39181D0)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int GetInviteIdByIndexOptionsInternal_TypeDefinitionIndex = 41850;
+	inline static constexpr unsigned int GetInviteIdByIndexOptionsInternal_TypeDefinitionIndex = 42653;
 
 	struct alignas(8) GetInviteIdByIndexOptionsInternal
 	{
@@ -22,24 +22,24 @@ namespace Epic::OnlineServices::Lobby
 		::System::IntPtr m_LocalUserId; // 0x18
 		::System::UInt32 m_Index; // 0x20
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_GETINVITEIDBYINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_GETINVITEIDBYINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Index(::System::UInt32 value)
+		::System::Void set_Index(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_GETINVITEIDBYINDEXOPTIONSINTERNAL_SET_INDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_GETINVITEIDBYINDEXOPTIONSINTERNAL_SET_INDEX_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Lobby::GetInviteIdByIndexOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Lobby::GetInviteIdByIndexOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::GetInviteIdByIndexOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_GETINVITEIDBYINDEXOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::GetInviteIdByIndexOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_GETINVITEIDBYINDEXOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_GETINVITEIDBYINDEXOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_GETINVITEIDBYINDEXOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

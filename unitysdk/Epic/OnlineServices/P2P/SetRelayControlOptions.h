@@ -3,13 +3,13 @@
 #include "unitysdk/Epic/OnlineServices/P2P/RelayControl.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_P2P_SETRELAYCONTROLOPTIONS_GET_RELAYCONTROL_OFFSET UNITYSDK_OFFSET(0x19740C30)
-#define EPIC_ONLINESERVICES_P2P_SETRELAYCONTROLOPTIONS_SET_RELAYCONTROL_OFFSET UNITYSDK_OFFSET(0x19740C40)
-#define EPIC_ONLINESERVICES_P2P_SETRELAYCONTROLOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19740C50)
+#define EPIC_ONLINESERVICES_P2P_SETRELAYCONTROLOPTIONS_GET_RELAYCONTROL_OFFSET UNITYSDK_OFFSET(0x1A57DD20)
+#define EPIC_ONLINESERVICES_P2P_SETRELAYCONTROLOPTIONS_SET_RELAYCONTROL_OFFSET UNITYSDK_OFFSET(0x1A57DD30)
+#define EPIC_ONLINESERVICES_P2P_SETRELAYCONTROLOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A57DD40)
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int SetRelayControlOptions_TypeDefinitionIndex = 41757;
+	inline static constexpr unsigned int SetRelayControlOptions_TypeDefinitionIndex = 42560;
 
 	class SetRelayControlOptions : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace Epic::OnlineServices::P2P
 			return ((::Epic::OnlineServices::P2P::RelayControl(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_SETRELAYCONTROLOPTIONS_GET_RELAYCONTROL_OFFSET))(this);
 		}
 
-		::System::Void set_RelayControl(::Epic::OnlineServices::P2P::RelayControl value)
+		::System::Void set_RelayControl(::Epic::OnlineServices::P2P::RelayControl a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::RelayControl))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_SETRELAYCONTROLOPTIONS_SET_RELAYCONTROL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::RelayControl))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_SETRELAYCONTROLOPTIONS_SET_RELAYCONTROL_OFFSET))(this, a1);
 		}
 	};
 }

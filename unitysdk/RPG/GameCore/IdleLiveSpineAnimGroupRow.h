@@ -6,29 +6,29 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVESPINEANIMGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18886350)
-#define RPG_GAMECORE_IDLELIVESPINEANIMGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18886580)
+#define RPG_GAMECORE_IDLELIVESPINEANIMGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19ADAF90)
+#define RPG_GAMECORE_IDLELIVESPINEANIMGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19ADB1C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveSpineAnimGroupRow_TypeDefinitionIndex = 11251;
+	inline static constexpr unsigned int IdleLiveSpineAnimGroupRow_TypeDefinitionIndex = 11298;
 
 	class IdleLiveSpineAnimGroupRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* FemaleStateList; // 0x10
-		::Il2CppArray<::System::String*>* MaleStateList; // 0x18
-		::System::UInt32 AnimGroupID; // 0x20
-		::RPG::Client::TextID BubbleText; // 0x28
+		::Il2CppArray<::System::String*>* MaleStateList; // 0x10
+		::Il2CppArray<::System::String*>* FemaleStateList; // 0x18
+		::RPG::Client::TextID BubbleText; // 0x20
+		::System::UInt32 AnimGroupID; // 0x30
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVESPINEANIMGROUPROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::IdleLiveSpineAnimGroupRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IdleLiveSpineAnimGroupRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveSpineAnimGroupRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVESPINEANIMGROUPROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveSpineAnimGroupRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVESPINEANIMGROUPROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

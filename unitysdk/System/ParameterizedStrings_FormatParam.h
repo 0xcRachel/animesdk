@@ -5,35 +5,35 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_GET_INT32_OFFSET UNITYSDK_OFFSET(0x608A20)
-#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_GET_OBJECT_OFFSET UNITYSDK_OFFSET(0x22F6FA0)
-#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_GET_STRING_OFFSET UNITYSDK_OFFSET(0x22F6F80)
-#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x19043F00)
-#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x878AD0)
-#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x22F6F70)
+#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_GET_INT32_OFFSET UNITYSDK_OFFSET(0x72BBF0)
+#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_GET_OBJECT_OFFSET UNITYSDK_OFFSET(0x388A780)
+#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_GET_STRING_OFFSET UNITYSDK_OFFSET(0x388A760)
+#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x197A7E00)
+#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x35CCC90)
+#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x388A750)
 
 namespace System
 {
-	inline static constexpr unsigned int ParameterizedStrings_FormatParam_TypeDefinitionIndex = 426;
+	inline static constexpr unsigned int ParameterizedStrings_FormatParam_TypeDefinitionIndex = 425;
 
 	struct alignas(8) ParameterizedStrings_FormatParam
 	{
 		::System::Int32 _int32; // 0x10
 		::System::String* _string; // 0x18
 
-		::System::Void _ctor(::System::Int32 value)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM__CTOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::Int32 intValue, ::System::String* stringValue)
+		::System::Void _ctor_1(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM__CTOR_1_OFFSET))(this, intValue, stringValue);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::ParameterizedStrings_FormatParam op_Implicit(::System::Int32 value)
+		static ::System::ParameterizedStrings_FormatParam op_Implicit(::System::Int32 a1)
 		{
-			return ((::System::ParameterizedStrings_FormatParam(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_OP_IMPLICIT_OFFSET))(value);
+			return ((::System::ParameterizedStrings_FormatParam(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_FORMATPARAM_OP_IMPLICIT_OFFSET))(a1);
 		}
 
 		::System::Int32 get_Int32()

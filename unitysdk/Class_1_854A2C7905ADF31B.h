@@ -7,18 +7,18 @@
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_854A2C7905ADF31B__CTOR_OFFSET UNITYSDK_OFFSET(0xED57C80)
+#define CLASS_1_854A2C7905ADF31B__CTOR_OFFSET UNITYSDK_OFFSET(0x152A6540)
 
-inline static constexpr unsigned int Class_1_854A2C7905ADF31B_TypeDefinitionIndex = 64210;
+inline static constexpr unsigned int Class_1_854A2C7905ADF31B_TypeDefinitionIndex = 65131;
 
 class Class_1_854A2C7905ADF31B : public ::System::Object
 {
 public:
-	::UnityEngine::Transform* Field_1_0; // 0x10
-	::UnityEngine::RectTransform* Field_1_2; // 0x18
-	::System::Single Field_1_4; // 0x20
-	::UnityEngine::Vector3 Field_1_1; // 0x24
-	::UnityEngine::Vector2 Field_1_3; // 0x30
+	::UnityEngine::RectTransform* Field_1_0; // 0x10
+	::UnityEngine::Transform* Field_1_1; // 0x18
+	::UnityEngine::Vector3 Field_1_2; // 0x20
+	::UnityEngine::Vector2 Field_1_3; // 0x2C
+	::System::Single Field_1_4; // 0x34
 
 	::System::Void _ctor()
 	{

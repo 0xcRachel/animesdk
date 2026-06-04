@@ -6,20 +6,20 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropTryGetNiudanReward; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_269DD0A822560BA8_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAD75AA0)
-#define CLASS_2_269DD0A822560BA8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD75B90)
-#define CLASS_2_269DD0A822560BA8_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xAD75AE0)
-#define CLASS_2_269DD0A822560BA8_TICK_OFFSET UNITYSDK_OFFSET(0xAD75B30)
-#define CLASS_2_269DD0A822560BA8__CTOR_OFFSET UNITYSDK_OFFSET(0xAD75A90)
+#define CLASS_2_269DD0A822560BA8_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14F59140)
+#define CLASS_2_269DD0A822560BA8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14F59230)
+#define CLASS_2_269DD0A822560BA8_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x14F59180)
+#define CLASS_2_269DD0A822560BA8_TICK_OFFSET UNITYSDK_OFFSET(0x14F591D0)
+#define CLASS_2_269DD0A822560BA8__CTOR_OFFSET UNITYSDK_OFFSET(0x14F59130)
 
-inline static constexpr unsigned int Class_2_269DD0A822560BA8_TypeDefinitionIndex = 53831;
+inline static constexpr unsigned int Class_2_269DD0A822560BA8_TypeDefinitionIndex = 54556;
 
 class Class_2_269DD0A822560BA8 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::PropTryGetNiudanReward* Field_2_0; // 0x20
-	::RPG::GameCore::GameEntity* Field_2_2; // 0x28
+	::RPG::GameCore::GameEntity* Field_2_0; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	::RPG::GameCore::PropTryGetNiudanReward* Field_2_2; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropTryGetNiudanReward* a2)
 	{

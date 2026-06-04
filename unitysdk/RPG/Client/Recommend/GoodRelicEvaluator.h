@@ -10,24 +10,24 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_CREATE_OFFSET UNITYSDK_OFFSET(0x16015D90)
-#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_GETGOODRELICRECOMMENDAVATARLIST_OFFSET UNITYSDK_OFFSET(0x16018020)
-#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_GETRELICITEMRECOMMENDTYPE_OFFSET UNITYSDK_OFFSET(0x16016010)
-#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_ISGOODRELIC_OFFSET UNITYSDK_OFFSET(0x160160A0)
-#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_ISGROWTHTARGETRELIC_OFFSET UNITYSDK_OFFSET(0x16016460)
-#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_REPORTBATTLERESULTDATA_OFFSET UNITYSDK_OFFSET(0x16017450)
-#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_REPORTITEMDIALOGDATA_OFFSET UNITYSDK_OFFSET(0x16017AB0)
-#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x16015F10)
-#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__FETCHSUBPROPERTYMATCHINFO_OFFSET UNITYSDK_OFFSET(0x16016DC0)
-#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__GETAVATARLISTBYSETID_OFFSET UNITYSDK_OFFSET(0x16016FB0)
-#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__GETRELICMATCHDATA_OFFSET UNITYSDK_OFFSET(0x16017320)
-#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__GETREPORTINFO_OFFSET UNITYSDK_OFFSET(0x16017810)
-#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__ISMATCHMAINPROPERTY_OFFSET UNITYSDK_OFFSET(0x160169C0)
-#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__ISMATCHRELICSET_OFFSET UNITYSDK_OFFSET(0x16016950)
+#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_CREATE_OFFSET UNITYSDK_OFFSET(0x174A2520)
+#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_GETGOODRELICRECOMMENDAVATARLIST_OFFSET UNITYSDK_OFFSET(0x174A4770)
+#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_GETRELICITEMRECOMMENDTYPE_OFFSET UNITYSDK_OFFSET(0x174A27A0)
+#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_ISGOODRELIC_OFFSET UNITYSDK_OFFSET(0x174A2830)
+#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_ISGROWTHTARGETRELIC_OFFSET UNITYSDK_OFFSET(0x174A2C50)
+#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_REPORTBATTLERESULTDATA_OFFSET UNITYSDK_OFFSET(0x174A3AC0)
+#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_REPORTITEMDIALOGDATA_OFFSET UNITYSDK_OFFSET(0x174A41E0)
+#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x174A26A0)
+#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__FETCHSUBPROPERTYMATCHINFO_OFFSET UNITYSDK_OFFSET(0x174A34A0)
+#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__GETAVATARLISTBYSETID_OFFSET UNITYSDK_OFFSET(0x174A35E0)
+#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__GETRELICMATCHDATA_OFFSET UNITYSDK_OFFSET(0x174A3990)
+#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__GETREPORTINFO_OFFSET UNITYSDK_OFFSET(0x174A3F40)
+#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__ISMATCHMAINPROPERTY_OFFSET UNITYSDK_OFFSET(0x174A3100)
+#define RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__ISMATCHRELICSET_OFFSET UNITYSDK_OFFSET(0x174A3090)
 
 namespace RPG::Client::Recommend
 {
-	inline static constexpr unsigned int GoodRelicEvaluator_TypeDefinitionIndex = 68725;
+	inline static constexpr unsigned int GoodRelicEvaluator_TypeDefinitionIndex = 69537;
 
 	class GoodRelicEvaluator : public ::System::Object
 	{
@@ -45,64 +45,64 @@ namespace RPG::Client::Recommend
 			return ((::RPG::Client::Recommend::GoodRelicEvaluator*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_CREATE_OFFSET))();
 		}
 
-		::RPG::Client::Recommend::GoodRelicRecommendType GetRelicItemRecommendType(::RPG::Client::RelicItemData* itemData)
+		::RPG::Client::Recommend::GoodRelicRecommendType GetRelicItemRecommendType(::RPG::Client::RelicItemData* a1)
 		{
-			return ((::RPG::Client::Recommend::GoodRelicRecommendType(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_GETRELICITEMRECOMMENDTYPE_OFFSET))(this, itemData);
+			return ((::RPG::Client::Recommend::GoodRelicRecommendType(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_GETRELICITEMRECOMMENDTYPE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsGrowthTargetRelic(::RPG::Client::RelicItemData* itemData)
+		::System::Boolean IsGrowthTargetRelic(::RPG::Client::RelicItemData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_ISGROWTHTARGETRELIC_OFFSET))(this, itemData);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_ISGROWTHTARGETRELIC_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsGoodRelic(::RPG::Client::RelicItemData* itemData)
+		::System::Boolean IsGoodRelic(::RPG::Client::RelicItemData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_ISGOODRELIC_OFFSET))(this, itemData);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_ISGOODRELIC_OFFSET))(this, a1);
 		}
 
-		::System::Void ReportBattleResultData(::System::UInt32 cocoonType, ::System::UInt32 cocoonID)
+		::System::Void ReportBattleResultData(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_REPORTBATTLERESULTDATA_OFFSET))(this, cocoonType, cocoonID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_REPORTBATTLERESULTDATA_OFFSET))(this, a1, a2);
 		}
 
-		::System::String* _GetReportInfo(::System::UInt32 uid)
+		::System::String* _GetReportInfo(::System::UInt32 a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__GETREPORTINFO_OFFSET))(this, uid);
+			return ((::System::String*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__GETREPORTINFO_OFFSET))(this, a1);
 		}
 
-		::System::Void ReportItemDialogData(::RPG::Client::RelicItemData* itemData)
+		::System::Void ReportItemDialogData(::RPG::Client::RelicItemData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_REPORTITEMDIALOGDATA_OFFSET))(this, itemData);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_REPORTITEMDIALOGDATA_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::System::UInt32>* _GetAvatarListBySetID(::System::UInt32 setID)
+		::System::Collections::Generic::List_1<::System::UInt32>* _GetAvatarListBySetID(::System::UInt32 a1)
 		{
-			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__GETAVATARLISTBYSETID_OFFSET))(this, setID);
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__GETAVATARLISTBYSETID_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _IsMatchRelicSet(::RPG::Client::RelicRecommendData* recommendData, ::System::UInt32 setID)
+		::System::Boolean _IsMatchRelicSet(::RPG::Client::RelicRecommendData* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RelicRecommendData*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__ISMATCHRELICSET_OFFSET))(this, recommendData, setID);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RelicRecommendData*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__ISMATCHRELICSET_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Recommend::GoodRelicPropertyDataGroup* _GetRelicMatchData(::RPG::Client::RelicItemData* itemData, ::RPG::Client::RelicRecommendData* recommendData)
+		::RPG::Client::Recommend::GoodRelicPropertyDataGroup* _GetRelicMatchData(::RPG::Client::RelicItemData* a1, ::RPG::Client::RelicRecommendData* a2)
 		{
-			return ((::RPG::Client::Recommend::GoodRelicPropertyDataGroup*(*)(::PVOID, ::RPG::Client::RelicItemData*, ::RPG::Client::RelicRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__GETRELICMATCHDATA_OFFSET))(this, itemData, recommendData);
+			return ((::RPG::Client::Recommend::GoodRelicPropertyDataGroup*(*)(::PVOID, ::RPG::Client::RelicItemData*, ::RPG::Client::RelicRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__GETRELICMATCHDATA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean _IsMatchMainProperty(::RPG::Client::RelicItemData* itemData, ::RPG::Client::RelicRecommendData* recommendData)
+		::System::Boolean _IsMatchMainProperty(::RPG::Client::RelicItemData* a1, ::RPG::Client::RelicRecommendData* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RelicItemData*, ::RPG::Client::RelicRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__ISMATCHMAINPROPERTY_OFFSET))(this, itemData, recommendData);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RelicItemData*, ::RPG::Client::RelicRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__ISMATCHMAINPROPERTY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _FetchSubPropertyMatchInfo(::RPG::Client::RelicItemData* itemData, ::RPG::Client::RelicRecommendData* recommendData, ::RPG::Client::Recommend::GoodRelicPropertyDataGroup* matchData)
+		::System::Void _FetchSubPropertyMatchInfo(::RPG::Client::RelicItemData* a1, ::RPG::Client::RelicRecommendData* a2, ::RPG::Client::Recommend::GoodRelicPropertyDataGroup* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicItemData*, ::RPG::Client::RelicRecommendData*, ::RPG::Client::Recommend::GoodRelicPropertyDataGroup*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__FETCHSUBPROPERTYMATCHINFO_OFFSET))(this, itemData, recommendData, matchData);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicItemData*, ::RPG::Client::RelicRecommendData*, ::RPG::Client::Recommend::GoodRelicPropertyDataGroup*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR__FETCHSUBPROPERTYMATCHINFO_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::Recommend::GoodRelicPropertyDataGroup*>* GetGoodRelicRecommendAvatarList(::System::UInt32 UID)
+		::System::Collections::Generic::List_1<::RPG::Client::Recommend::GoodRelicPropertyDataGroup*>* GetGoodRelicRecommendAvatarList(::System::UInt32 a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::Recommend::GoodRelicPropertyDataGroup*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_GETGOODRELICRECOMMENDAVATARLIST_OFFSET))(this, UID);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::Recommend::GoodRelicPropertyDataGroup*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_GOODRELICEVALUATOR_GETGOODRELICRECOMMENDAVATARLIST_OFFSET))(this, a1);
 		}
 	};
 }

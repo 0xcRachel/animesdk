@@ -7,24 +7,24 @@ namespace System::Linq::Expressions { class LambdaExpression; }
 namespace System::Linq::Expressions::Interpreter { class Interpreter; }
 namespace System::Runtime::CompilerServices { class IStrongBox; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CREATEDELEGATE_1_OFFSET UNITYSDK_OFFSET(0x18652170)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CREATEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1867D790)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_GET_INTERPRETER_OFFSET UNITYSDK_OFFSET(0x1867D780)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1866A2B0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CREATEDELEGATE_1_OFFSET UNITYSDK_OFFSET(0x17FFF880)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CREATEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1802B3B0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_GET_INTERPRETER_OFFSET UNITYSDK_OFFSET(0x1802B3A0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18017E00)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int LightDelegateCreator_TypeDefinitionIndex = 3480;
+	inline static constexpr unsigned int LightDelegateCreator_TypeDefinitionIndex = 3481;
 
 	class LightDelegateCreator : public ::System::Object
 	{
 	public:
-		::System::Linq::Expressions::Interpreter::Interpreter* _Interpreter_k__BackingField; // 0x10
-		::System::Linq::Expressions::LambdaExpression* _lambda; // 0x18
+		::System::Linq::Expressions::LambdaExpression* _lambda; // 0x10
+		::System::Linq::Expressions::Interpreter::Interpreter* _Interpreter_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::Linq::Expressions::Interpreter::Interpreter* interpreter, ::System::Linq::Expressions::LambdaExpression* lambda)
+		::System::Void _ctor(::System::Linq::Expressions::Interpreter::Interpreter* a1, ::System::Linq::Expressions::LambdaExpression* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Interpreter::Interpreter*, ::System::Linq::Expressions::LambdaExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR__CTOR_OFFSET))(this, interpreter, lambda);
+			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Interpreter::Interpreter*, ::System::Linq::Expressions::LambdaExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Linq::Expressions::Interpreter::Interpreter* get_Interpreter()
@@ -37,9 +37,9 @@ namespace System::Linq::Expressions::Interpreter
 			return ((::System::Delegate*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CREATEDELEGATE_OFFSET))(this);
 		}
 
-		::System::Delegate* CreateDelegate_1(::Il2CppArray<::System::Runtime::CompilerServices::IStrongBox*>* closure)
+		::System::Delegate* CreateDelegate_1(::Il2CppArray<::System::Runtime::CompilerServices::IStrongBox*>* a1)
 		{
-			return ((::System::Delegate*(*)(::PVOID, ::Il2CppArray<::System::Runtime::CompilerServices::IStrongBox*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CREATEDELEGATE_1_OFFSET))(this, closure);
+			return ((::System::Delegate*(*)(::PVOID, ::Il2CppArray<::System::Runtime::CompilerServices::IStrongBox*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTDELEGATECREATOR_CREATEDELEGATE_1_OFFSET))(this, a1);
 		}
 	};
 }

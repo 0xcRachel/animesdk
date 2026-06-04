@@ -9,49 +9,49 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1A613E50)
-#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_FOLLOW_OFFSET UNITYSDK_OFFSET(0x1A613EA0)
-#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1A613F00)
-#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_LOOKAT_OFFSET UNITYSDK_OFFSET(0x1A613E80)
-#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1A613E30)
-#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_PARENTCAMERA_OFFSET UNITYSDK_OFFSET(0x1A613F10)
-#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1A613E60)
-#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_STATE_OFFSET UNITYSDK_OFFSET(0x1A613EC0)
-#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_VIRTUALCAMERAGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1A613EF0)
-#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_INTERNALUPDATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x1A613F40)
-#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_ISLIVECHILD_OFFSET UNITYSDK_OFFSET(0x1A613F20)
-#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_ONTARGETOBJECTWARPED_OFFSET UNITYSDK_OFFSET(0x1A613F60)
-#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_ONTRANSITIONFROMCAMERA_OFFSET UNITYSDK_OFFSET(0x1A613F50)
-#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_SETSTATE_OFFSET UNITYSDK_OFFSET(0x1A613E20)
-#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_SET_FOLLOW_OFFSET UNITYSDK_OFFSET(0x1A613EB0)
-#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_SET_LOOKAT_OFFSET UNITYSDK_OFFSET(0x1A613E90)
-#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1A613E40)
-#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_SET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1A613E70)
-#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_SET_STATE_OFFSET UNITYSDK_OFFSET(0x1A613EE0)
-#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_UPDATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x1A613F30)
-#define CINEMACHINE_STATICPOINTVIRTUALCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A611B10)
+#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1B445280)
+#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_FOLLOW_OFFSET UNITYSDK_OFFSET(0x1B4452D0)
+#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1B445330)
+#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_LOOKAT_OFFSET UNITYSDK_OFFSET(0x1B4452B0)
+#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B445260)
+#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_PARENTCAMERA_OFFSET UNITYSDK_OFFSET(0x1B445340)
+#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1B445290)
+#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_STATE_OFFSET UNITYSDK_OFFSET(0x1B4452F0)
+#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_VIRTUALCAMERAGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B445320)
+#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_INTERNALUPDATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x1B445370)
+#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_ISLIVECHILD_OFFSET UNITYSDK_OFFSET(0x1B445350)
+#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_ONTARGETOBJECTWARPED_OFFSET UNITYSDK_OFFSET(0x1B445390)
+#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_ONTRANSITIONFROMCAMERA_OFFSET UNITYSDK_OFFSET(0x1B445380)
+#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_SETSTATE_OFFSET UNITYSDK_OFFSET(0x1B445250)
+#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_SET_FOLLOW_OFFSET UNITYSDK_OFFSET(0x1B4452E0)
+#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_SET_LOOKAT_OFFSET UNITYSDK_OFFSET(0x1B4452C0)
+#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1B445270)
+#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_SET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1B4452A0)
+#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_SET_STATE_OFFSET UNITYSDK_OFFSET(0x1B445310)
+#define CINEMACHINE_STATICPOINTVIRTUALCAMERA_UPDATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x1B445360)
+#define CINEMACHINE_STATICPOINTVIRTUALCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B442EE0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int StaticPointVirtualCamera_TypeDefinitionIndex = 36567;
+	inline static constexpr unsigned int StaticPointVirtualCamera_TypeDefinitionIndex = 36867;
 
 	class StaticPointVirtualCamera : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* _LookAt_k__BackingField; // 0x10
-		::System::String* _Name_k__BackingField; // 0x18
-		::UnityEngine::Transform* _Follow_k__BackingField; // 0x20
-		::Cinemachine::CameraState _State_k__BackingField; // 0x28
+		::Cinemachine::CameraState _State_k__BackingField; // 0x18
+		::UnityEngine::Transform* _Follow_k__BackingField; // 0xF8
+		::System::String* _Name_k__BackingField; // 0x100
 		::System::Int32 _Priority_k__BackingField; // 0x108
 
-		::System::Void _ctor(::Cinemachine::CameraState state, ::System::String* name)
+		::System::Void _ctor(::Cinemachine::CameraState a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState, ::System::String*))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA__CTOR_OFFSET))(this, state, name);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState, ::System::String*))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetState(::Cinemachine::CameraState state)
+		::System::Void SetState(::Cinemachine::CameraState a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_SETSTATE_OFFSET))(this, state);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_SETSTATE_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Name()
@@ -59,9 +59,9 @@ namespace Cinemachine
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Void set_Name(::System::String* value)
+		::System::Void set_Name(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_SET_NAME_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Description()
@@ -74,9 +74,9 @@ namespace Cinemachine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_PRIORITY_OFFSET))(this);
 		}
 
-		::System::Void set_Priority(::System::Int32 value)
+		::System::Void set_Priority(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_SET_PRIORITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_SET_PRIORITY_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Transform* get_LookAt()
@@ -84,9 +84,9 @@ namespace Cinemachine
 			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_LOOKAT_OFFSET))(this);
 		}
 
-		::System::Void set_LookAt(::UnityEngine::Transform* value)
+		::System::Void set_LookAt(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_SET_LOOKAT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_SET_LOOKAT_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Transform* get_Follow()
@@ -94,9 +94,9 @@ namespace Cinemachine
 			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_FOLLOW_OFFSET))(this);
 		}
 
-		::System::Void set_Follow(::UnityEngine::Transform* value)
+		::System::Void set_Follow(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_SET_FOLLOW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_SET_FOLLOW_OFFSET))(this, a1);
 		}
 
 		::Cinemachine::CameraState get_State()
@@ -104,9 +104,9 @@ namespace Cinemachine
 			return ((::Cinemachine::CameraState(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_STATE_OFFSET))(this);
 		}
 
-		::System::Void set_State(::Cinemachine::CameraState value)
+		::System::Void set_State(::Cinemachine::CameraState a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_SET_STATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_SET_STATE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::GameObject* get_VirtualCameraGameObject()
@@ -124,29 +124,29 @@ namespace Cinemachine
 			return ((::Cinemachine::ICinemachineCamera*(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_GET_PARENTCAMERA_OFFSET))(this);
 		}
 
-		::System::Boolean IsLiveChild(::Cinemachine::ICinemachineCamera* vcam, ::System::Boolean dominantChildOnly)
+		::System::Boolean IsLiveChild(::Cinemachine::ICinemachineCamera* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_ISLIVECHILD_OFFSET))(this, vcam, dominantChildOnly);
+			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_ISLIVECHILD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void UpdateCameraState(::UnityEngine::Vector3 worldUp, ::System::Single deltaTime)
+		::System::Void UpdateCameraState(::UnityEngine::Vector3 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_UPDATECAMERASTATE_OFFSET))(this, worldUp, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_UPDATECAMERASTATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void InternalUpdateCameraState(::UnityEngine::Vector3 worldUp, ::System::Single deltaTime)
+		::System::Void InternalUpdateCameraState(::UnityEngine::Vector3 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_INTERNALUPDATECAMERASTATE_OFFSET))(this, worldUp, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_INTERNALUPDATECAMERASTATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnTransitionFromCamera(::Cinemachine::ICinemachineCamera* fromCam, ::UnityEngine::Vector3 worldUp, ::System::Single deltaTime)
+		::System::Void OnTransitionFromCamera(::Cinemachine::ICinemachineCamera* a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_ONTRANSITIONFROMCAMERA_OFFSET))(this, fromCam, worldUp, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_ONTRANSITIONFROMCAMERA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void OnTargetObjectWarped(::UnityEngine::Transform* target, ::UnityEngine::Vector3 positionDelta)
+		::System::Void OnTargetObjectWarped(::UnityEngine::Transform* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_ONTARGETOBJECTWARPED_OFFSET))(this, target, positionDelta);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_STATICPOINTVIRTUALCAMERA_ONTARGETOBJECTWARPED_OFFSET))(this, a1, a2);
 		}
 	};
 }

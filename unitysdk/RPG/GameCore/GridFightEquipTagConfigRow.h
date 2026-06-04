@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTEQUIPTAGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1956EAF0)
-#define RPG_GAMECORE_GRIDFIGHTEQUIPTAGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1956EC70)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPTAGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AC84D90)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPTAGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC84F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightEquipTagConfigRow_TypeDefinitionIndex = 12739;
+	inline static constexpr unsigned int GridFightEquipTagConfigRow_TypeDefinitionIndex = 12829;
 
 	class GridFightEquipTagConfigRow : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTEQUIPTAGCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GridFightEquipTagConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightEquipTagConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightEquipTagConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTEQUIPTAGCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightEquipTagConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTEQUIPTAGCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

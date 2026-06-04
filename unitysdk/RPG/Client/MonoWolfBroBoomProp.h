@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class AdventureAttackDetectShapeConfig; }
 
-#define RPG_CLIENT_MONOWOLFBROBOOMPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x16305650)
+#define RPG_CLIENT_MONOWOLFBROBOOMPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x187E7180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoWolfBroBoomProp_TypeDefinitionIndex = 63359;
+	inline static constexpr unsigned int MonoWolfBroBoomProp_TypeDefinitionIndex = 64276;
 
 	class MonoWolfBroBoomProp : public ::UnityEngine::MonoBehaviour
 	{

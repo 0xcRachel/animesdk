@@ -7,21 +7,21 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_6DD7A6FA8760E8E5_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13B6A3A0)
-#define CLASS_2_6DD7A6FA8760E8E5_METHOD_2_C67126F93DF285FB_OFFSET UNITYSDK_OFFSET(0x13B6A520)
-#define CLASS_2_6DD7A6FA8760E8E5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13B6A3E0)
-#define CLASS_2_6DD7A6FA8760E8E5_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13B6A6E0)
-#define CLASS_2_6DD7A6FA8760E8E5_TICK_OFFSET UNITYSDK_OFFSET(0x13B6A730)
-#define CLASS_2_6DD7A6FA8760E8E5__CTOR_OFFSET UNITYSDK_OFFSET(0x13B6A350)
+#define CLASS_2_6DD7A6FA8760E8E5_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164AF4D0)
+#define CLASS_2_6DD7A6FA8760E8E5_METHOD_2_C67126F93DF285FB_OFFSET UNITYSDK_OFFSET(0x164AF6E0)
+#define CLASS_2_6DD7A6FA8760E8E5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164AF510)
+#define CLASS_2_6DD7A6FA8760E8E5_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x164AF890)
+#define CLASS_2_6DD7A6FA8760E8E5_TICK_OFFSET UNITYSDK_OFFSET(0x164AF8E0)
+#define CLASS_2_6DD7A6FA8760E8E5__CTOR_OFFSET UNITYSDK_OFFSET(0x164AF480)
 
-inline static constexpr unsigned int Class_2_6DD7A6FA8760E8E5_TypeDefinitionIndex = 53501;
+inline static constexpr unsigned int Class_2_6DD7A6FA8760E8E5_TypeDefinitionIndex = 54214;
 
 class Class_2_6DD7A6FA8760E8E5 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::CheckMonsterStance* Field_2_0; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_2_2; // 0x28
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_2_1; // 0x20
+	::RPG::GameCore::CheckMonsterStance* Field_2_2; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CheckMonsterStance* a2)
 	{

@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_CHECKSKILLUSABLE_OFFSET UNITYSDK_OFFSET(0x165A9ED0)
-#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_GET_CHARGINGRATIO_OFFSET UNITYSDK_OFFSET(0x165A9E70)
-#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_GET_COUNTDOWNRATIO_OFFSET UNITYSDK_OFFSET(0x165A9E90)
-#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_GET_ISUSABLE_OFFSET UNITYSDK_OFFSET(0x165A9EB0)
-#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_GET_QUANTITY_OFFSET UNITYSDK_OFFSET(0x165A9E50)
-#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_SET_CHARGINGRATIO_OFFSET UNITYSDK_OFFSET(0x165A9E80)
-#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_SET_COUNTDOWNRATIO_OFFSET UNITYSDK_OFFSET(0x165A9EA0)
-#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_SET_ISUSABLE_OFFSET UNITYSDK_OFFSET(0x165A9EC0)
-#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_SET_QUANTITY_OFFSET UNITYSDK_OFFSET(0x165A9E60)
-#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_UPDATE_OFFSET UNITYSDK_OFFSET(0x165A9F40)
-#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x165A9FE0)
+#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_CHECKSKILLUSABLE_OFFSET UNITYSDK_OFFSET(0x18C67510)
+#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_GET_CHARGINGRATIO_OFFSET UNITYSDK_OFFSET(0x18C674B0)
+#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_GET_COUNTDOWNRATIO_OFFSET UNITYSDK_OFFSET(0x18C674D0)
+#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_GET_ISUSABLE_OFFSET UNITYSDK_OFFSET(0x18C674F0)
+#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_GET_QUANTITY_OFFSET UNITYSDK_OFFSET(0x18C67490)
+#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_SET_CHARGINGRATIO_OFFSET UNITYSDK_OFFSET(0x18C674C0)
+#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_SET_COUNTDOWNRATIO_OFFSET UNITYSDK_OFFSET(0x18C674E0)
+#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_SET_ISUSABLE_OFFSET UNITYSDK_OFFSET(0x18C67500)
+#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_SET_QUANTITY_OFFSET UNITYSDK_OFFSET(0x18C674A0)
+#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_UPDATE_OFFSET UNITYSDK_OFFSET(0x18C67580)
+#define RPG_CLIENT_PARKOURGAMEFUNCTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18C67620)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParkourGameFunctionInfo_TypeDefinitionIndex = 57046;
+	inline static constexpr unsigned int ParkourGameFunctionInfo_TypeDefinitionIndex = 57833;
 
 	class ParkourGameFunctionInfo : public ::System::Object
 	{
 	public:
 		::System::Single _Quantity_k__BackingField; // 0x10
-		::System::Single _ChargingRatio_k__BackingField; // 0x14
-		::System::Single _CountDownRatio_k__BackingField; // 0x18
-		::System::Boolean _IsUsable_k__BackingField; // 0x1C
+		::System::Boolean _IsUsable_k__BackingField; // 0x14
+		::System::Single _ChargingRatio_k__BackingField; // 0x18
+		::System::Single _CountDownRatio_k__BackingField; // 0x1C
 
 		::System::Void _ctor()
 		{
@@ -36,9 +36,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_GET_QUANTITY_OFFSET))(this);
 		}
 
-		::System::Void set_Quantity(::System::Single value)
+		::System::Void set_Quantity(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_SET_QUANTITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_SET_QUANTITY_OFFSET))(this, a1);
 		}
 
 		::System::Single get_ChargingRatio()
@@ -46,9 +46,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_GET_CHARGINGRATIO_OFFSET))(this);
 		}
 
-		::System::Void set_ChargingRatio(::System::Single value)
+		::System::Void set_ChargingRatio(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_SET_CHARGINGRATIO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_SET_CHARGINGRATIO_OFFSET))(this, a1);
 		}
 
 		::System::Single get_CountDownRatio()
@@ -56,9 +56,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_GET_COUNTDOWNRATIO_OFFSET))(this);
 		}
 
-		::System::Void set_CountDownRatio(::System::Single value)
+		::System::Void set_CountDownRatio(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_SET_COUNTDOWNRATIO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_SET_COUNTDOWNRATIO_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsUsable()
@@ -66,9 +66,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_GET_ISUSABLE_OFFSET))(this);
 		}
 
-		::System::Void set_IsUsable(::System::Boolean value)
+		::System::Void set_IsUsable(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_SET_ISUSABLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_SET_ISUSABLE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean CheckSkillUsable()
@@ -76,9 +76,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_CHECKSKILLUSABLE_OFFSET))(this);
 		}
 
-		::System::Void Update(::System::Single quantity, ::System::Single chargingRatio, ::System::Single countDownRatio, ::System::Boolean isUsable)
+		::System::Void Update(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_UPDATE_OFFSET))(this, quantity, chargingRatio, countDownRatio, isUsable);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAMEFUNCTIONINFO_UPDATE_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

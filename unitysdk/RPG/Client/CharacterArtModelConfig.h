@@ -6,11 +6,11 @@ namespace RPG::Client::TAUtils { class RendererSlots; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_CHARACTERARTMODELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15DD7230)
+#define RPG_CLIENT_CHARACTERARTMODELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17B05150)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterArtModelConfig_TypeDefinitionIndex = 64291;
+	inline static constexpr unsigned int CharacterArtModelConfig_TypeDefinitionIndex = 65212;
 
 	class CharacterArtModelConfig : public ::UnityEngine::MonoBehaviour
 	{

@@ -5,34 +5,34 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEIMGDANMUROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A8B9F0)
-#define RPG_GAMECORE_IDLELIVEIMGDANMUROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A8BD00)
+#define RPG_GAMECORE_IDLELIVEIMGDANMUROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AD7D80)
+#define RPG_GAMECORE_IDLELIVEIMGDANMUROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD8090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveImgDanmuRow_TypeDefinitionIndex = 11227;
+	inline static constexpr unsigned int IdleLiveImgDanmuRow_TypeDefinitionIndex = 11274;
 
 	class IdleLiveImgDanmuRow : public ::System::Object
 	{
 	public:
 		::System::String* ImagePath; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::Single FlySpeed; // 0x1C
-		::System::UInt16 SizeType; // 0x20
-		::System::Boolean IsExclusive; // 0x22
-		::System::UInt32 TriggerID; // 0x24
-		::System::UInt32 UnlockID; // 0x28
-		::System::UInt32 RepeatCount; // 0x2C
-		::System::Single Interval; // 0x30
+		::System::UInt32 UnlockID; // 0x18
+		::System::Single Interval; // 0x1C
+		::System::UInt32 ID; // 0x20
+		::System::UInt32 RepeatCount; // 0x24
+		::System::Single FlySpeed; // 0x28
+		::System::Boolean IsExclusive; // 0x2C
+		::System::UInt16 SizeType; // 0x2E
+		::System::UInt32 TriggerID; // 0x30
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEIMGDANMUROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::IdleLiveImgDanmuRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IdleLiveImgDanmuRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveImgDanmuRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEIMGDANMUROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveImgDanmuRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEIMGDANMUROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

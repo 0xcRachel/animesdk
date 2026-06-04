@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_LITTLEGAME_PLACEMENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A734BC0)
+#define RPG_CLIENT_LITTLEGAME_PLACEMENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8560C0)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int PlacementConfig_TypeDefinitionIndex = 38573;
+	inline static constexpr unsigned int PlacementConfig_TypeDefinitionIndex = 39340;
 
 	class PlacementConfig : public ::RPG::Client::LittleGame::WeightConfig
 	{

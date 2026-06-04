@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUSEUMCOMMENTSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1863AC20)
-#define RPG_GAMECORE_MUSEUMCOMMENTSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1863AF20)
+#define RPG_GAMECORE_MUSEUMCOMMENTSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190F3AE0)
+#define RPG_GAMECORE_MUSEUMCOMMENTSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190F3DE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumCommentsRow_TypeDefinitionIndex = 13515;
+	inline static constexpr unsigned int MuseumCommentsRow_TypeDefinitionIndex = 13586;
 
 	class MuseumCommentsRow : public ::System::Object
 	{
 	public:
 		::System::String* CommentIconPath; // 0x10
-		::System::Boolean IsPositive; // 0x18
-		::System::UInt32 AreaID; // 0x1C
+		::System::UInt32 AreaID; // 0x18
+		::System::UInt32 CommentID; // 0x1C
 		::RPG::Client::TextID CommentName; // 0x20
-		::System::UInt32 CommentID; // 0x30
+		::System::Boolean IsPositive; // 0x30
 		::RPG::Client::TextID CommentContent; // 0x38
 
 		::System::Void _ctor()
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSEUMCOMMENTSROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::MuseumCommentsRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MuseumCommentsRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MuseumCommentsRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSEUMCOMMENTSROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MuseumCommentsRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSEUMCOMMENTSROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -8,25 +8,25 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::IO { class StringReader; }
 
-#define SRF_JSON_PARSER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A3150A0)
-#define SRF_JSON_PARSER_EATWHITESPACE_OFFSET UNITYSDK_OFFSET(0x1A315000)
-#define SRF_JSON_PARSER_GET_NEXTCHAR_OFFSET UNITYSDK_OFFSET(0x1A314AB0)
-#define SRF_JSON_PARSER_GET_NEXTTOKEN_OFFSET UNITYSDK_OFFSET(0x1A314D30)
-#define SRF_JSON_PARSER_GET_NEXTWORD_OFFSET UNITYSDK_OFFSET(0x1A314B10)
-#define SRF_JSON_PARSER_GET_PEEKCHAR_OFFSET UNITYSDK_OFFSET(0x1A314A50)
-#define SRF_JSON_PARSER_ISWORDBREAK_OFFSET UNITYSDK_OFFSET(0x1A314CD0)
-#define SRF_JSON_PARSER_PARSEARRAY_OFFSET UNITYSDK_OFFSET(0x1A315860)
-#define SRF_JSON_PARSER_PARSEBYTOKEN_OFFSET UNITYSDK_OFFSET(0x1A315910)
-#define SRF_JSON_PARSER_PARSENUMBER_OFFSET UNITYSDK_OFFSET(0x1A3159B0)
-#define SRF_JSON_PARSER_PARSEOBJECT_OFFSET UNITYSDK_OFFSET(0x1A315130)
-#define SRF_JSON_PARSER_PARSESTRING_OFFSET UNITYSDK_OFFSET(0x1A3152E0)
-#define SRF_JSON_PARSER_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1A315110)
-#define SRF_JSON_PARSER_PARSE_OFFSET UNITYSDK_OFFSET(0x1A314740)
-#define SRF_JSON_PARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3149D0)
+#define SRF_JSON_PARSER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B2CA6D0)
+#define SRF_JSON_PARSER_EATWHITESPACE_OFFSET UNITYSDK_OFFSET(0x1B2CA630)
+#define SRF_JSON_PARSER_GET_NEXTCHAR_OFFSET UNITYSDK_OFFSET(0x1B2C9F70)
+#define SRF_JSON_PARSER_GET_NEXTTOKEN_OFFSET UNITYSDK_OFFSET(0x1B2CA360)
+#define SRF_JSON_PARSER_GET_NEXTWORD_OFFSET UNITYSDK_OFFSET(0x1B2C9FD0)
+#define SRF_JSON_PARSER_GET_PEEKCHAR_OFFSET UNITYSDK_OFFSET(0x1B2C9F10)
+#define SRF_JSON_PARSER_ISWORDBREAK_OFFSET UNITYSDK_OFFSET(0x1B2CA300)
+#define SRF_JSON_PARSER_PARSEARRAY_OFFSET UNITYSDK_OFFSET(0x1B2CB020)
+#define SRF_JSON_PARSER_PARSEBYTOKEN_OFFSET UNITYSDK_OFFSET(0x1B2CB120)
+#define SRF_JSON_PARSER_PARSENUMBER_OFFSET UNITYSDK_OFFSET(0x1B2CB1C0)
+#define SRF_JSON_PARSER_PARSEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B2CA780)
+#define SRF_JSON_PARSER_PARSESTRING_OFFSET UNITYSDK_OFFSET(0x1B2CA930)
+#define SRF_JSON_PARSER_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1B2CA760)
+#define SRF_JSON_PARSER_PARSE_OFFSET UNITYSDK_OFFSET(0x1B2C9BE0)
+#define SRF_JSON_PARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2C9E90)
 
 namespace SRF
 {
-	inline static constexpr unsigned int Json_Parser_TypeDefinitionIndex = 33267;
+	inline static constexpr unsigned int Json_Parser_TypeDefinitionIndex = 33549;
 
 	class Json_Parser : public ::System::Object
 	{
@@ -34,9 +34,9 @@ namespace SRF
 		// static const ::System::String* WORD_BREAK; // 0x0
 		::System::IO::StringReader* json; // 0x10
 
-		::System::Void _ctor(::System::String* jsonString)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRF_JSON_PARSER__CTOR_OFFSET))(this, jsonString);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRF_JSON_PARSER__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Char get_PeekChar()
@@ -64,14 +64,14 @@ namespace SRF
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_JSON_PARSER_DISPOSE_OFFSET))(this);
 		}
 
-		static ::System::Boolean IsWordBreak(::System::Char c)
+		static ::System::Boolean IsWordBreak(::System::Char a1)
 		{
-			return ((::System::Boolean(*)(::System::Char))((::PBYTE)hIl2Cpp + SRF_JSON_PARSER_ISWORDBREAK_OFFSET))(c);
+			return ((::System::Boolean(*)(::System::Char))((::PBYTE)hIl2Cpp + SRF_JSON_PARSER_ISWORDBREAK_OFFSET))(a1);
 		}
 
-		static ::System::Object* Parse(::System::String* jsonString)
+		static ::System::Object* Parse(::System::String* a1)
 		{
-			return ((::System::Object*(*)(::System::String*))((::PBYTE)hIl2Cpp + SRF_JSON_PARSER_PARSE_OFFSET))(jsonString);
+			return ((::System::Object*(*)(::System::String*))((::PBYTE)hIl2Cpp + SRF_JSON_PARSER_PARSE_OFFSET))(a1);
 		}
 
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* ParseObject()
@@ -89,9 +89,9 @@ namespace SRF
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_JSON_PARSER_PARSEVALUE_OFFSET))(this);
 		}
 
-		::System::Object* ParseByToken(::SRF::Json_Parser_TOKEN token)
+		::System::Object* ParseByToken(::SRF::Json_Parser_TOKEN a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::SRF::Json_Parser_TOKEN))((::PBYTE)hIl2Cpp + SRF_JSON_PARSER_PARSEBYTOKEN_OFFSET))(this, token);
+			return ((::System::Object*(*)(::PVOID, ::SRF::Json_Parser_TOKEN))((::PBYTE)hIl2Cpp + SRF_JSON_PARSER_PARSEBYTOKEN_OFFSET))(this, a1);
 		}
 
 		::System::String* ParseString()

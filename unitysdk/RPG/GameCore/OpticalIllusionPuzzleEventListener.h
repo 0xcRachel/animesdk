@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_OPTICALILLUSIONPUZZLEEVENTLISTENER_METHOD_3_BF54EF27E3774E9A_OFFSET UNITYSDK_OFFSET(0x18EF2A10)
-#define RPG_GAMECORE_OPTICALILLUSIONPUZZLEEVENTLISTENER_METHOD_3_F5FCE435567054A4_OFFSET UNITYSDK_OFFSET(0x18EF2990)
-#define RPG_GAMECORE_OPTICALILLUSIONPUZZLEEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x18EF29E0)
+#define RPG_GAMECORE_OPTICALILLUSIONPUZZLEEVENTLISTENER_METHOD_3_647113645DF963C9_OFFSET UNITYSDK_OFFSET(0x19D09700)
+#define RPG_GAMECORE_OPTICALILLUSIONPUZZLEEVENTLISTENER_METHOD_3_EE63EB5533EB9BCF_OFFSET UNITYSDK_OFFSET(0x19D09780)
+#define RPG_GAMECORE_OPTICALILLUSIONPUZZLEEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x19D09750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpticalIllusionPuzzleEventListener_TypeDefinitionIndex = 21092;
+	inline static constexpr unsigned int OpticalIllusionPuzzleEventListener_TypeDefinitionIndex = 20995;
 
 	class OpticalIllusionPuzzleEventListener : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,14 +29,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTICALILLUSIONPUZZLEEVENTLISTENER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F5FCE435567054A4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpticalIllusionPuzzleEventListener*& a2)
+		static ::System::Void Method_3_647113645DF963C9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpticalIllusionPuzzleEventListener*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpticalIllusionPuzzleEventListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTICALILLUSIONPUZZLEEVENTLISTENER_METHOD_3_F5FCE435567054A4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpticalIllusionPuzzleEventListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTICALILLUSIONPUZZLEEVENTLISTENER_METHOD_3_647113645DF963C9_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BF54EF27E3774E9A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpticalIllusionPuzzleEventListener* a2)
+		static ::System::Void Method_3_EE63EB5533EB9BCF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpticalIllusionPuzzleEventListener* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpticalIllusionPuzzleEventListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTICALILLUSIONPUZZLEEVENTLISTENER_METHOD_3_BF54EF27E3774E9A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpticalIllusionPuzzleEventListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTICALILLUSIONPUZZLEEVENTLISTENER_METHOD_3_EE63EB5533EB9BCF_OFFSET))(a1, a2);
 		}
 	};
 }

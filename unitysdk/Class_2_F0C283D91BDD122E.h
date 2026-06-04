@@ -13,42 +13,42 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Texture2D; }
 
-#define CLASS_2_F0C283D91BDD122E_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF09BDE0)
-#define CLASS_2_F0C283D91BDD122E_METHOD_2_09A10F5CD917CB8F_OFFSET UNITYSDK_OFFSET(0xF09B780)
-#define CLASS_2_F0C283D91BDD122E_METHOD_2_4A63D2860A96B300_OFFSET UNITYSDK_OFFSET(0xF09C160)
-#define CLASS_2_F0C283D91BDD122E_METHOD_2_767BD0A0203BD061_OFFSET UNITYSDK_OFFSET(0xF09D040)
-#define CLASS_2_F0C283D91BDD122E_METHOD_2_88E99A17C817F5C9_OFFSET UNITYSDK_OFFSET(0xF09CEF0)
-#define CLASS_2_F0C283D91BDD122E_METHOD_2_9D4056E7811BA260_OFFSET UNITYSDK_OFFSET(0xF09C620)
-#define CLASS_2_F0C283D91BDD122E_METHOD_2_AA2D3E889C8A52CA_OFFSET UNITYSDK_OFFSET(0xF09D1B0)
-#define CLASS_2_F0C283D91BDD122E_METHOD_2_B557C561617A6250_OFFSET UNITYSDK_OFFSET(0xF09C420)
-#define CLASS_2_F0C283D91BDD122E_METHOD_2_C363D49B19844D3D_OFFSET UNITYSDK_OFFSET(0xF09CF80)
-#define CLASS_2_F0C283D91BDD122E_METHOD_2_DE52BD42C4B0B772_OFFSET UNITYSDK_OFFSET(0xF09D130)
-#define CLASS_2_F0C283D91BDD122E_METHOD_2_E6E0E86A3E0935A0_OFFSET UNITYSDK_OFFSET(0xF09C260)
-#define CLASS_2_F0C283D91BDD122E_METHOD_2_EBDEB81FA3C1F4D1_OFFSET UNITYSDK_OFFSET(0xF09CD70)
-#define CLASS_2_F0C283D91BDD122E_ONMODELARTLOADED_OFFSET UNITYSDK_OFFSET(0xF09B730)
-#define CLASS_2_F0C283D91BDD122E_ONMODELARTUNLOADED_OFFSET UNITYSDK_OFFSET(0xF09BDA0)
-#define CLASS_2_F0C283D91BDD122E_TICK_OFFSET UNITYSDK_OFFSET(0xF09BE40)
-#define CLASS_2_F0C283D91BDD122E__CCTOR_OFFSET UNITYSDK_OFFSET(0xF09D210)
-#define CLASS_2_F0C283D91BDD122E__CTOR_OFFSET UNITYSDK_OFFSET(0xF09B720)
-#define CLASS_2_F0C283D91BDD122E___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0xF09D290)
+#define CLASS_2_F0C283D91BDD122E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1504AC60)
+#define CLASS_2_F0C283D91BDD122E_METHOD_2_4A63D2860A96B300_OFFSET UNITYSDK_OFFSET(0x1504AFE0)
+#define CLASS_2_F0C283D91BDD122E_METHOD_2_50D6A7C67ED3EDC7_OFFSET UNITYSDK_OFFSET(0x1504BDC0)
+#define CLASS_2_F0C283D91BDD122E_METHOD_2_5B94350BBAC6A35E_OFFSET UNITYSDK_OFFSET(0x1504B0E0)
+#define CLASS_2_F0C283D91BDD122E_METHOD_2_767BD0A0203BD061_OFFSET UNITYSDK_OFFSET(0x1504BF10)
+#define CLASS_2_F0C283D91BDD122E_METHOD_2_9D4056E7811BA260_OFFSET UNITYSDK_OFFSET(0x1504B4F0)
+#define CLASS_2_F0C283D91BDD122E_METHOD_2_AA2D3E889C8A52CA_OFFSET UNITYSDK_OFFSET(0x1504C080)
+#define CLASS_2_F0C283D91BDD122E_METHOD_2_B557C561617A6250_OFFSET UNITYSDK_OFFSET(0x1504B2D0)
+#define CLASS_2_F0C283D91BDD122E_METHOD_2_C363D49B19844D3D_OFFSET UNITYSDK_OFFSET(0x1504BE50)
+#define CLASS_2_F0C283D91BDD122E_METHOD_2_CF48D47ABED5EA16_OFFSET UNITYSDK_OFFSET(0x1504A600)
+#define CLASS_2_F0C283D91BDD122E_METHOD_2_DD784213055292FB_OFFSET UNITYSDK_OFFSET(0x1504C000)
+#define CLASS_2_F0C283D91BDD122E_METHOD_2_EBDEB81FA3C1F4D1_OFFSET UNITYSDK_OFFSET(0x1504BC50)
+#define CLASS_2_F0C283D91BDD122E_ONMODELARTLOADED_OFFSET UNITYSDK_OFFSET(0x1504A5B0)
+#define CLASS_2_F0C283D91BDD122E_ONMODELARTUNLOADED_OFFSET UNITYSDK_OFFSET(0x1504AC20)
+#define CLASS_2_F0C283D91BDD122E_TICK_OFFSET UNITYSDK_OFFSET(0x1504ACC0)
+#define CLASS_2_F0C283D91BDD122E__CCTOR_OFFSET UNITYSDK_OFFSET(0x1504C0E0)
+#define CLASS_2_F0C283D91BDD122E__CTOR_OFFSET UNITYSDK_OFFSET(0x1504A5A0)
+#define CLASS_2_F0C283D91BDD122E___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x1504C160)
 
-inline static constexpr unsigned int Class_2_F0C283D91BDD122E_TypeDefinitionIndex = 52926;
+inline static constexpr unsigned int Class_2_F0C283D91BDD122E_TypeDefinitionIndex = 53635;
 
 class Class_2_F0C283D91BDD122E : public ::RPG::GameCore::GameComponentBase
 {
 public:
-	static ::System::Collections::Generic::List_1<::RPG::Client::TrivisionSpeed*>** StaticGet_Field_2_5()
+	static ::UnityEngine::MaterialPropertyBlock** StaticGet_Field_2_0()
 	{
-		return (::System::Collections::Generic::List_1<::RPG::Client::TrivisionSpeed*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_F0C283D91BDD122E_TypeDefinitionIndex)->GetStaticField(0x6B4F0);
+		return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(Class_2_F0C283D91BDD122E_TypeDefinitionIndex)->GetStaticField(0x57650);
 	}
-	static ::UnityEngine::MaterialPropertyBlock** StaticGet_Field_2_4()
+	static ::System::Collections::Generic::List_1<::RPG::Client::TrivisionSpeed*>** StaticGet_Field_2_1()
 	{
-		return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(Class_2_F0C283D91BDD122E_TypeDefinitionIndex)->GetStaticField(0x6B4F8);
+		return (::System::Collections::Generic::List_1<::RPG::Client::TrivisionSpeed*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_F0C283D91BDD122E_TypeDefinitionIndex)->GetStaticField(0x57658);
 	}
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* Field_2_3; // 0x18
-	::Class_1_1C0FDDBF8AE87746* Field_2_2; // 0x20
-	::RPG::GameCore::PropType Field_2_1; // 0x28
-	::RPG::GameCore::PropShaderCtrlStatus Field_2_0; // 0x2C
+	::Class_1_1C0FDDBF8AE87746* Field_2_2; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* Field_2_3; // 0x20
+	::RPG::GameCore::PropShaderCtrlStatus Field_2_4; // 0x28
+	::RPG::GameCore::PropType Field_2_5; // 0x2C
 
 	::System::Void _ctor()
 	{
@@ -95,9 +95,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2D*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_F0C283D91BDD122E_METHOD_2_9D4056E7811BA260_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::System::Void Method_2_09A10F5CD917CB8F()
+	::System::Void Method_2_CF48D47ABED5EA16()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F0C283D91BDD122E_METHOD_2_09A10F5CD917CB8F_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F0C283D91BDD122E_METHOD_2_CF48D47ABED5EA16_OFFSET))(this);
 	}
 
 	::System::Void Method_2_EBDEB81FA3C1F4D1(::System::Boolean a1, ::System::Boolean a2)
@@ -105,9 +105,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_F0C283D91BDD122E_METHOD_2_EBDEB81FA3C1F4D1_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_88E99A17C817F5C9(::System::Single a1)
+	::System::Void Method_2_50D6A7C67ED3EDC7(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_F0C283D91BDD122E_METHOD_2_88E99A17C817F5C9_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_F0C283D91BDD122E_METHOD_2_50D6A7C67ED3EDC7_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_2_C363D49B19844D3D(::System::Boolean a1, ::System::Single a2)
@@ -120,14 +120,14 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Nullable_1<::System::Single>, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_F0C283D91BDD122E_METHOD_2_767BD0A0203BD061_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_2_E6E0E86A3E0935A0(::System::Boolean a1)
+	::System::Void Method_2_5B94350BBAC6A35E(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_F0C283D91BDD122E_METHOD_2_E6E0E86A3E0935A0_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_F0C283D91BDD122E_METHOD_2_5B94350BBAC6A35E_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_DE52BD42C4B0B772()
+	::System::Void Method_2_DD784213055292FB()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F0C283D91BDD122E_METHOD_2_DE52BD42C4B0B772_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F0C283D91BDD122E_METHOD_2_DD784213055292FB_OFFSET))(this);
 	}
 
 	::System::UInt32 Method_2_AA2D3E889C8A52CA()
@@ -135,8 +135,8 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F0C283D91BDD122E_METHOD_2_AA2D3E889C8A52CA_OFFSET))(this);
 	}
 
-	::System::Void __iFixBaseProxy_Tick(::System::Single P0)
+	::System::Void __iFixBaseProxy_Tick(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_F0C283D91BDD122E___IFIXBASEPROXY_TICK_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_F0C283D91BDD122E___IFIXBASEPROXY_TICK_OFFSET))(this, a1);
 	}
 };

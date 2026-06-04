@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x157EF4F0)
-#define MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x157EF520)
-#define MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x157EEFA0)
-#define MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x157EEF80)
+#define MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16A58630)
+#define MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16A58660)
+#define MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16A58620)
+#define MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16A585B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int TelemetryDelegate_StartKibanaDelegate_TypeDefinitionIndex = 6744;
+	inline static constexpr unsigned int TelemetryDelegate_StartKibanaDelegate_TypeDefinitionIndex = 7647;
 
 	class TelemetryDelegate_StartKibanaDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::String* url)
+		::System::Void Invoke(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE_INVOKE_OFFSET))(this, url);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* url, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE_BEGININVOKE_OFFSET))(this, url, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_STARTKIBANADELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

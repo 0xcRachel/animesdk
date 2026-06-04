@@ -8,24 +8,24 @@ namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
 namespace ZenFulcrum::EmbeddedBrowser { class PointerUIBase; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_ADD_ONFOCUSCHANGE_OFFSET UNITYSDK_OFFSET(0x182F79A0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_AWAKE_OFFSET UNITYSDK_OFFSET(0x182F7AA0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_COMMANDENTERED_OFFSET UNITYSDK_OFFSET(0x182F81D0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_DOFOCUS_OFFSET UNITYSDK_OFFSET(0x182F78F0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_FINDANDLISTENFORBROWSERS_OFFSET UNITYSDK_OFFSET(0x182F7DB0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_GET_ACTIVEBROWSER_OFFSET UNITYSDK_OFFSET(0x182F7700)
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_OBSERVEBROWSER_OFFSET UNITYSDK_OFFSET(0x182F7E10)
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_ONBROWSERFOCUS_OFFSET UNITYSDK_OFFSET(0x182F8150)
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_REMOVE_ONFOCUSCHANGE_OFFSET UNITYSDK_OFFSET(0x182F7A20)
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_SETVISIBLE_OFFSET UNITYSDK_OFFSET(0x182F8030)
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_SET_ACTIVEBROWSER_OFFSET UNITYSDK_OFFSET(0x182F7710)
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_TEXTTYPED_OFFSET UNITYSDK_OFFSET(0x182F8C20)
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x182F8D40)
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD__SETACTIVEBROWSER_OFFSET UNITYSDK_OFFSET(0x182F7730)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_ADD_ONFOCUSCHANGE_OFFSET UNITYSDK_OFFSET(0x18E42130)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_AWAKE_OFFSET UNITYSDK_OFFSET(0x18E42230)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_COMMANDENTERED_OFFSET UNITYSDK_OFFSET(0x18E429A0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_DOFOCUS_OFFSET UNITYSDK_OFFSET(0x18E42070)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_FINDANDLISTENFORBROWSERS_OFFSET UNITYSDK_OFFSET(0x18E42570)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_GET_ACTIVEBROWSER_OFFSET UNITYSDK_OFFSET(0x18E41E80)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_OBSERVEBROWSER_OFFSET UNITYSDK_OFFSET(0x18E425D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_ONBROWSERFOCUS_OFFSET UNITYSDK_OFFSET(0x18E42920)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_REMOVE_ONFOCUSCHANGE_OFFSET UNITYSDK_OFFSET(0x18E421B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_SETVISIBLE_OFFSET UNITYSDK_OFFSET(0x18E42810)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_SET_ACTIVEBROWSER_OFFSET UNITYSDK_OFFSET(0x18E41E90)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_TEXTTYPED_OFFSET UNITYSDK_OFFSET(0x18E43340)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x18E43400)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD__SETACTIVEBROWSER_OFFSET UNITYSDK_OFFSET(0x18E41EB0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int ExternalKeyboard_TypeDefinitionIndex = 36263;
+	inline static constexpr unsigned int ExternalKeyboard_TypeDefinitionIndex = 36563;
 
 	class ExternalKeyboard : public ::UnityEngine::MonoBehaviour
 	{
@@ -49,24 +49,24 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::ZenFulcrum::EmbeddedBrowser::Browser*(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_GET_ACTIVEBROWSER_OFFSET))(this);
 		}
 
-		::System::Void set_ActiveBrowser(::ZenFulcrum::EmbeddedBrowser::Browser* value)
+		::System::Void set_ActiveBrowser(::ZenFulcrum::EmbeddedBrowser::Browser* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_SET_ACTIVEBROWSER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_SET_ACTIVEBROWSER_OFFSET))(this, a1);
 		}
 
-		::System::Void _SetActiveBrowser(::ZenFulcrum::EmbeddedBrowser::Browser* browser)
+		::System::Void _SetActiveBrowser(::ZenFulcrum::EmbeddedBrowser::Browser* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD__SETACTIVEBROWSER_OFFSET))(this, browser);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD__SETACTIVEBROWSER_OFFSET))(this, a1);
 		}
 
-		::System::Void add_onFocusChange(::System::Action_2<::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean>* value)
+		::System::Void add_onFocusChange(::System::Action_2<::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_ADD_ONFOCUSCHANGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_ADD_ONFOCUSCHANGE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_onFocusChange(::System::Action_2<::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean>* value)
+		::System::Void remove_onFocusChange(::System::Action_2<::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_REMOVE_ONFOCUSCHANGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_REMOVE_ONFOCUSCHANGE_OFFSET))(this, a1);
 		}
 
 		::System::Void Awake()
@@ -79,34 +79,34 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_FINDANDLISTENFORBROWSERS_OFFSET))(this);
 		}
 
-		::System::Void ObserveBrowser(::ZenFulcrum::EmbeddedBrowser::Browser* browser)
+		::System::Void ObserveBrowser(::ZenFulcrum::EmbeddedBrowser::Browser* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_OBSERVEBROWSER_OFFSET))(this, browser);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_OBSERVEBROWSER_OFFSET))(this, a1);
 		}
 
-		::System::Void DoFocus(::ZenFulcrum::EmbeddedBrowser::Browser* browser)
+		::System::Void DoFocus(::ZenFulcrum::EmbeddedBrowser::Browser* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_DOFOCUS_OFFSET))(this, browser);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_DOFOCUS_OFFSET))(this, a1);
 		}
 
-		::System::Void SetVisible(::System::Boolean visible)
+		::System::Void SetVisible(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_SETVISIBLE_OFFSET))(this, visible);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_SETVISIBLE_OFFSET))(this, a1);
 		}
 
-		::System::Void OnBrowserFocus(::System::Boolean mouseFocused, ::System::Boolean kbFocused)
+		::System::Void OnBrowserFocus(::System::Boolean a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_ONBROWSERFOCUS_OFFSET))(this, mouseFocused, kbFocused);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_ONBROWSERFOCUS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CommandEntered(::ZenFulcrum::EmbeddedBrowser::JSONNode* args)
+		::System::Void CommandEntered(::ZenFulcrum::EmbeddedBrowser::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_COMMANDENTERED_OFFSET))(this, args);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_COMMANDENTERED_OFFSET))(this, a1);
 		}
 
-		::System::Void TextTyped(::ZenFulcrum::EmbeddedBrowser::JSONNode* args)
+		::System::Void TextTyped(::ZenFulcrum::EmbeddedBrowser::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_TEXTTYPED_OFFSET))(this, args);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_TEXTTYPED_OFFSET))(this, a1);
 		}
 	};
 }

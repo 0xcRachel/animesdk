@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15633900)
-#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS41_0___GETDICECONTENTWEIGHTLISTMAP_B__1_OFFSET UNITYSDK_OFFSET(0x156342A0)
+#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x168F4060)
+#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS41_0___GETDICECONTENTWEIGHTLISTMAP_B__1_OFFSET UNITYSDK_OFFSET(0x168F5120)
 
-inline static constexpr unsigned int Class_1_C16931E567A100F1___c__DisplayClass41_0_TypeDefinitionIndex = 34205;
+inline static constexpr unsigned int Class_1_C16931E567A100F1___c__DisplayClass41_0_TypeDefinitionIndex = 34487;
 
 class Class_1_C16931E567A100F1___c__DisplayClass41_0 : public ::System::Object
 {
@@ -17,8 +17,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C16931E567A100F1___C__DISPLAYCLASS41_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Single __GetDiceContentWeightListMap_b__1(::System::UInt32 w)
+	::System::Single __GetDiceContentWeightListMap_b__1(::System::UInt32 a1)
 	{
-		return ((::System::Single(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_C16931E567A100F1___C__DISPLAYCLASS41_0___GETDICECONTENTWEIGHTLISTMAP_B__1_OFFSET))(this, w);
+		return ((::System::Single(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_C16931E567A100F1___C__DISPLAYCLASS41_0___GETDICECONTENTWEIGHTLISTMAP_B__1_OFFSET))(this, a1);
 	}
 };

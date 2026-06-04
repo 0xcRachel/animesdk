@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_FBC6D4A7BD3E337F;
+class Class_1_FBC6D4A7BD3E337F_2;
 namespace RPG::Client { class ItemDisplayData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveDungeonAssistRewardHistoryData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONASSISTREWARDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x17357530)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONASSISTREWARDDATA_GET_HISTROYLIST_OFFSET UNITYSDK_OFFSET(0x17357CA0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONASSISTREWARDDATA_GET_TOTALREWARDLIST_OFFSET UNITYSDK_OFFSET(0x17357C80)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONASSISTREWARDDATA_SET_HISTROYLIST_OFFSET UNITYSDK_OFFSET(0x17357CB0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONASSISTREWARDDATA_SET_TOTALREWARDLIST_OFFSET UNITYSDK_OFFSET(0x17357C90)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONASSISTREWARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17357C70)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONASSISTREWARDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x185632F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONASSISTREWARDDATA_GET_HISTROYLIST_OFFSET UNITYSDK_OFFSET(0x18563B00)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONASSISTREWARDDATA_GET_TOTALREWARDLIST_OFFSET UNITYSDK_OFFSET(0x18563AE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONASSISTREWARDDATA_SET_HISTROYLIST_OFFSET UNITYSDK_OFFSET(0x18563B10)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONASSISTREWARDDATA_SET_TOTALREWARDLIST_OFFSET UNITYSDK_OFFSET(0x18563AF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONASSISTREWARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18563AD0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveDungeonAssistRewardData_TypeDefinitionIndex = 69255;
+	inline static constexpr unsigned int IdleLiveDungeonAssistRewardData_TypeDefinitionIndex = 70067;
 
 	class IdleLiveDungeonAssistRewardData : public ::System::Object
 	{
@@ -29,9 +29,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONASSISTREWARDDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ActivityIdleLive::IdleLiveDungeonAssistRewardData* Create(::Class_1_FBC6D4A7BD3E337F* rsp)
+		static ::RPG::Client::ActivityIdleLive::IdleLiveDungeonAssistRewardData* Create(::Class_1_FBC6D4A7BD3E337F_2* a1)
 		{
-			return ((::RPG::Client::ActivityIdleLive::IdleLiveDungeonAssistRewardData*(*)(::Class_1_FBC6D4A7BD3E337F*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONASSISTREWARDDATA_CREATE_OFFSET))(rsp);
+			return ((::RPG::Client::ActivityIdleLive::IdleLiveDungeonAssistRewardData*(*)(::Class_1_FBC6D4A7BD3E337F_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONASSISTREWARDDATA_CREATE_OFFSET))(a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* get_TotalRewardList()
@@ -39,9 +39,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONASSISTREWARDDATA_GET_TOTALREWARDLIST_OFFSET))(this);
 		}
 
-		::System::Void set_TotalRewardList(::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* value)
+		::System::Void set_TotalRewardList(::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONASSISTREWARDDATA_SET_TOTALREWARDLIST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONASSISTREWARDDATA_SET_TOTALREWARDLIST_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveDungeonAssistRewardHistoryData*>* get_HistroyList()
@@ -49,9 +49,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveDungeonAssistRewardHistoryData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONASSISTREWARDDATA_GET_HISTROYLIST_OFFSET))(this);
 		}
 
-		::System::Void set_HistroyList(::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveDungeonAssistRewardHistoryData*>* value)
+		::System::Void set_HistroyList(::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveDungeonAssistRewardHistoryData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveDungeonAssistRewardHistoryData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONASSISTREWARDDATA_SET_HISTROYLIST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveDungeonAssistRewardHistoryData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONASSISTREWARDDATA_SET_HISTROYLIST_OFFSET))(this, a1);
 		}
 	};
 }

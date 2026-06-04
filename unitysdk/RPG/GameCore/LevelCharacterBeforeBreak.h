@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELCHARACTERBEFOREBREAK_CLEAR_OFFSET UNITYSDK_OFFSET(0xF2A1DF0)
-#define RPG_GAMECORE_LEVELCHARACTERBEFOREBREAK_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF2A1E90)
-#define RPG_GAMECORE_LEVELCHARACTERBEFOREBREAK_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF2A1E40)
-#define RPG_GAMECORE_LEVELCHARACTERBEFOREBREAK_INIT_OFFSET UNITYSDK_OFFSET(0xF2A1D80)
-#define RPG_GAMECORE_LEVELCHARACTERBEFOREBREAK__CTOR_OFFSET UNITYSDK_OFFSET(0xF2A1EE0)
-#define RPG_GAMECORE_LEVELCHARACTERBEFOREBREAK___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xF2A1EF0)
+#define RPG_GAMECORE_LEVELCHARACTERBEFOREBREAK_CLEAR_OFFSET UNITYSDK_OFFSET(0x187288A0)
+#define RPG_GAMECORE_LEVELCHARACTERBEFOREBREAK_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x18728940)
+#define RPG_GAMECORE_LEVELCHARACTERBEFOREBREAK_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x187288F0)
+#define RPG_GAMECORE_LEVELCHARACTERBEFOREBREAK_INIT_OFFSET UNITYSDK_OFFSET(0x18728830)
+#define RPG_GAMECORE_LEVELCHARACTERBEFOREBREAK__CTOR_OFFSET UNITYSDK_OFFSET(0x18728990)
+#define RPG_GAMECORE_LEVELCHARACTERBEFOREBREAK___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x187289A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCharacterBeforeBreak_TypeDefinitionIndex = 52347;
+	inline static constexpr unsigned int LevelCharacterBeforeBreak_TypeDefinitionIndex = 53044;
 
-	class LevelCharacterBeforeBreak : public ::Class_1_9988289E7F8AA214
+	class LevelCharacterBeforeBreak : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::RPG::GameCore::GameEntity* AttackerEntity; // 0x18
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERBEFOREBREAK__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelCharacterBeforeBreak* Init(::RPG::GameCore::GameEntity* pAttackerEntity, ::RPG::GameCore::GameEntity* pTargetEntity, ::System::Boolean isRedStance)
+		::RPG::GameCore::LevelCharacterBeforeBreak* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2, ::System::Boolean a3)
 		{
-			return ((::RPG::GameCore::LevelCharacterBeforeBreak*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERBEFOREBREAK_INIT_OFFSET))(this, pAttackerEntity, pTargetEntity, isRedStance);
+			return ((::RPG::GameCore::LevelCharacterBeforeBreak*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERBEFOREBREAK_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Clear()

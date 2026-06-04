@@ -6,30 +6,30 @@
 namespace RPG::GameCore { class IdleLiveGiftSenderRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x17338D90)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA_GET_ICON_OFFSET UNITYSDK_OFFSET(0x17338D50)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x17338D60)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA_GET_SENDERID_OFFSET UNITYSDK_OFFSET(0x17338D40)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA_GET_TOTALDONATECOUNT_OFFSET UNITYSDK_OFFSET(0x17338D70)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA_SETTOTALSCCOUNT_OFFSET UNITYSDK_OFFSET(0x17338EE0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA_SET_TOTALDONATECOUNT_OFFSET UNITYSDK_OFFSET(0x17338D80)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17338EB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x18543D40)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA_GET_ICON_OFFSET UNITYSDK_OFFSET(0x18543D00)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x18543D10)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA_GET_SENDERID_OFFSET UNITYSDK_OFFSET(0x18543CF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA_GET_TOTALDONATECOUNT_OFFSET UNITYSDK_OFFSET(0x18543D20)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA_SETTOTALSCCOUNT_OFFSET UNITYSDK_OFFSET(0x18543E90)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA_SET_TOTALDONATECOUNT_OFFSET UNITYSDK_OFFSET(0x18543D30)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18543E60)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int CaptainData_TypeDefinitionIndex = 69196;
+	inline static constexpr unsigned int CaptainData_TypeDefinitionIndex = 70008;
 
 	class CaptainData : public ::System::Object
 	{
 	public:
 		::System::String* _Icon_k__BackingField; // 0x10
-		::System::UInt32 _SenderId_k__BackingField; // 0x18
-		::System::UInt32 _TotalDonateCount_k__BackingField; // 0x1C
-		::RPG::Client::TextID _Name_k__BackingField; // 0x20
+		::RPG::Client::TextID _Name_k__BackingField; // 0x18
+		::System::UInt32 _SenderId_k__BackingField; // 0x28
+		::System::UInt32 _TotalDonateCount_k__BackingField; // 0x2C
 
-		::System::Void _ctor(::RPG::GameCore::IdleLiveGiftSenderRow* row)
+		::System::Void _ctor(::RPG::GameCore::IdleLiveGiftSenderRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IdleLiveGiftSenderRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA__CTOR_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IdleLiveGiftSenderRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_SenderId()
@@ -52,19 +52,19 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA_GET_TOTALDONATECOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_TotalDonateCount(::System::UInt32 value)
+		::System::Void set_TotalDonateCount(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA_SET_TOTALDONATECOUNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA_SET_TOTALDONATECOUNT_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::ActivityIdleLive::CaptainData* Create(::System::UInt32 id)
+		static ::RPG::Client::ActivityIdleLive::CaptainData* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ActivityIdleLive::CaptainData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA_CREATE_OFFSET))(id);
+			return ((::RPG::Client::ActivityIdleLive::CaptainData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA_CREATE_OFFSET))(a1);
 		}
 
-		::System::Void SetTotalScCount(::System::UInt32 totalScCount)
+		::System::Void SetTotalScCount(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA_SETTOTALSCCOUNT_OFFSET))(this, totalScCount);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_CAPTAINDATA_SETTOTALSCCOUNT_OFFSET))(this, a1);
 		}
 	};
 }

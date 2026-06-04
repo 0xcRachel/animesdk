@@ -9,18 +9,18 @@ namespace RPG::Client { class LuaUIController; }
 namespace RPG::Client { class RogueWorkBenchCost; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GETFUNCID_OFFSET UNITYSDK_OFFSET(0x15BA4F60)
-#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GETFUNCTYPE_OFFSET UNITYSDK_OFFSET(0x15BA4F10)
-#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GETIFCOMPOSEVALIDBYCATEGORY_OFFSET UNITYSDK_OFFSET(0x15BA4E90)
-#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GET_COSTDATA_OFFSET UNITYSDK_OFFSET(0x15BA5140)
-#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_OPENFUNCUIPAGE_OFFSET UNITYSDK_OFFSET(0x15BA4FA0)
-#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_REFRESH_OFFSET UNITYSDK_OFFSET(0x15BA4D90)
-#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_SET_COSTDATA_OFFSET UNITYSDK_OFFSET(0x15BA5150)
-#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE__CTOR_OFFSET UNITYSDK_OFFSET(0x15BA4940)
+#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GETFUNCID_OFFSET UNITYSDK_OFFSET(0x176AC130)
+#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GETFUNCTYPE_OFFSET UNITYSDK_OFFSET(0x176AC0E0)
+#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GETIFCOMPOSEVALIDBYCATEGORY_OFFSET UNITYSDK_OFFSET(0x176AC060)
+#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GET_COSTDATA_OFFSET UNITYSDK_OFFSET(0x176AC2D0)
+#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_OPENFUNCUIPAGE_OFFSET UNITYSDK_OFFSET(0x176AC170)
+#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_REFRESH_OFFSET UNITYSDK_OFFSET(0x176ABFF0)
+#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_SET_COSTDATA_OFFSET UNITYSDK_OFFSET(0x176AC2E0)
+#define RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE__CTOR_OFFSET UNITYSDK_OFFSET(0x176ABBB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueWorkBenchComposeMiracle_TypeDefinitionIndex = 62058;
+	inline static constexpr unsigned int RogueWorkBenchComposeMiracle_TypeDefinitionIndex = 62991;
 
 	class RogueWorkBenchComposeMiracle : public ::System::Object
 	{
@@ -29,19 +29,19 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMiracleCategory, ::System::Boolean>* _ValidMap; // 0x18
 		::System::UInt32 _FuncID; // 0x20
 
-		::System::Void _ctor(::System::UInt32 funcID, ::Class_1_1C706860DB902897_2* proto)
+		::System::Void _ctor(::System::UInt32 a1, ::Class_1_1C706860DB902897_2* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_1C706860DB902897_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE__CTOR_OFFSET))(this, funcID, proto);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_1C706860DB902897_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Refresh(::RPG::Client::RogueWorkBenchComposeMiracle* detail)
+		::System::Void Refresh(::RPG::Client::RogueWorkBenchComposeMiracle* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueWorkBenchComposeMiracle*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_REFRESH_OFFSET))(this, detail);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueWorkBenchComposeMiracle*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_REFRESH_OFFSET))(this, a1);
 		}
 
-		::System::Boolean GetIfComposeValidByCategory(::RPG::GameCore::RogueMiracleCategory category)
+		::System::Boolean GetIfComposeValidByCategory(::RPG::GameCore::RogueMiracleCategory a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::RogueMiracleCategory))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GETIFCOMPOSEVALIDBYCATEGORY_OFFSET))(this, category);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::RogueMiracleCategory))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GETIFCOMPOSEVALIDBYCATEGORY_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::RogueWorkbenchFuncType GetFuncType()
@@ -54,9 +54,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GETFUNCID_OFFSET))(this);
 		}
 
-		::RPG::Client::LuaUIController* OpenFuncUIPage(::System::UInt32 propEntityID)
+		::RPG::Client::LuaUIController* OpenFuncUIPage(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::LuaUIController*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_OPENFUNCUIPAGE_OFFSET))(this, propEntityID);
+			return ((::RPG::Client::LuaUIController*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_OPENFUNCUIPAGE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RogueWorkBenchCost* get_CostData()
@@ -64,9 +64,9 @@ namespace RPG::Client
 			return ((::RPG::Client::RogueWorkBenchCost*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_GET_COSTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_CostData(::RPG::Client::RogueWorkBenchCost* value)
+		::System::Void set_CostData(::RPG::Client::RogueWorkBenchCost* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueWorkBenchCost*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_SET_COSTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueWorkBenchCost*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOMPOSEMIRACLE_SET_COSTDATA_OFFSET))(this, a1);
 		}
 	};
 }

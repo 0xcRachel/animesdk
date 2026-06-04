@@ -6,21 +6,21 @@ namespace RPG::GameCore { class MonopolyGuessConfigRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA_ADDBETCOUNT_OFFSET UNITYSDK_OFFSET(0x175FD4A0)
-#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA_CLEARBETCOUNT_OFFSET UNITYSDK_OFFSET(0x175FD400)
-#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA_GETPLAYERBETCOUNT_OFFSET UNITYSDK_OFFSET(0x175FD5A0)
-#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA_GET_GUESSID_OFFSET UNITYSDK_OFFSET(0x175FD630)
-#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA_GET_HASBOUGHT_OFFSET UNITYSDK_OFFSET(0x175FD710)
-#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA_GET_PLAYERIDS_OFFSET UNITYSDK_OFFSET(0x175FD670)
-#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0x175FD650)
-#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA_SET_GUESSID_OFFSET UNITYSDK_OFFSET(0x175FD640)
-#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA_SET_HASBOUGHT_OFFSET UNITYSDK_OFFSET(0x175FD720)
-#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA_SET_ROW_OFFSET UNITYSDK_OFFSET(0x175FD660)
-#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x175FD2E0)
+#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA_ADDBETCOUNT_OFFSET UNITYSDK_OFFSET(0x187F6490)
+#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA_CLEARBETCOUNT_OFFSET UNITYSDK_OFFSET(0x187F6400)
+#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA_GETPLAYERBETCOUNT_OFFSET UNITYSDK_OFFSET(0x187F6580)
+#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA_GET_GUESSID_OFFSET UNITYSDK_OFFSET(0x187F6610)
+#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA_GET_HASBOUGHT_OFFSET UNITYSDK_OFFSET(0x187F66F0)
+#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA_GET_PLAYERIDS_OFFSET UNITYSDK_OFFSET(0x187F6650)
+#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0x187F6630)
+#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA_SET_GUESSID_OFFSET UNITYSDK_OFFSET(0x187F6620)
+#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA_SET_HASBOUGHT_OFFSET UNITYSDK_OFFSET(0x187F6700)
+#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA_SET_ROW_OFFSET UNITYSDK_OFFSET(0x187F6640)
+#define RPG_CLIENT_MONOPOLYGAMEGUESSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x187F62F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyGameGuessData_TypeDefinitionIndex = 61024;
+	inline static constexpr unsigned int MonopolyGameGuessData_TypeDefinitionIndex = 61958;
 
 	class MonopolyGameGuessData : public ::System::Object
 	{
@@ -30,9 +30,9 @@ namespace RPG::Client
 		::System::Boolean _HasBought_k__BackingField; // 0x20
 		::System::UInt32 _GuessID_k__BackingField; // 0x24
 
-		::System::Void _ctor(::System::UInt32 guessID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYGAMEGUESSDATA__CTOR_OFFSET))(this, guessID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYGAMEGUESSDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void ClearBetCount()
@@ -40,14 +40,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYGAMEGUESSDATA_CLEARBETCOUNT_OFFSET))(this);
 		}
 
-		::System::Void AddBetCount(::System::UInt32 playerID)
+		::System::Void AddBetCount(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYGAMEGUESSDATA_ADDBETCOUNT_OFFSET))(this, playerID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYGAMEGUESSDATA_ADDBETCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetPlayerBetCount(::System::UInt32 playerID)
+		::System::UInt32 GetPlayerBetCount(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYGAMEGUESSDATA_GETPLAYERBETCOUNT_OFFSET))(this, playerID);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYGAMEGUESSDATA_GETPLAYERBETCOUNT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_GuessID()
@@ -55,9 +55,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYGAMEGUESSDATA_GET_GUESSID_OFFSET))(this);
 		}
 
-		::System::Void set_GuessID(::System::UInt32 value)
+		::System::Void set_GuessID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYGAMEGUESSDATA_SET_GUESSID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYGAMEGUESSDATA_SET_GUESSID_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::MonopolyGuessConfigRow* get_Row()
@@ -65,9 +65,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::MonopolyGuessConfigRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYGAMEGUESSDATA_GET_ROW_OFFSET))(this);
 		}
 
-		::System::Void set_Row(::RPG::GameCore::MonopolyGuessConfigRow* value)
+		::System::Void set_Row(::RPG::GameCore::MonopolyGuessConfigRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MonopolyGuessConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYGAMEGUESSDATA_SET_ROW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MonopolyGuessConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYGAMEGUESSDATA_SET_ROW_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* get_PlayerIDs()
@@ -80,9 +80,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYGAMEGUESSDATA_GET_HASBOUGHT_OFFSET))(this);
 		}
 
-		::System::Void set_HasBought(::System::Boolean value)
+		::System::Void set_HasBought(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYGAMEGUESSDATA_SET_HASBOUGHT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYGAMEGUESSDATA_SET_HASBOUGHT_OFFSET))(this, a1);
 		}
 	};
 }

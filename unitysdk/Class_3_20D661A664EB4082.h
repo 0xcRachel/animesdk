@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByHPRatio; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_20D661A664EB4082_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE0B4D20)
-#define CLASS_3_20D661A664EB4082__CTOR_OFFSET UNITYSDK_OFFSET(0xE0B4C40)
+#define CLASS_3_20D661A664EB4082_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x172792C0)
+#define CLASS_3_20D661A664EB4082__CTOR_OFFSET UNITYSDK_OFFSET(0x172791E0)
 
-inline static constexpr unsigned int Class_3_20D661A664EB4082_TypeDefinitionIndex = 51116;
+inline static constexpr unsigned int Class_3_20D661A664EB4082_TypeDefinitionIndex = 51785;
 
 class Class_3_20D661A664EB4082 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByHPRatio*>
 {

@@ -11,17 +11,17 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW_REPLAYTIMELINE_OFFSET UNITYSDK_OFFSET(0x17CAB7D0)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW_SETSTAGE_OFFSET UNITYSDK_OFFSET(0x17CAB110)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x17CABCE0)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW__GETDECKID_OFFSET UNITYSDK_OFFSET(0x17CAB4F0)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW__GETRANDOMDECK_OFFSET UNITYSDK_OFFSET(0x17CAB940)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW__GETSOLDIERMODELPATH_OFFSET UNITYSDK_OFFSET(0x17CAB660)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW__SHOWTIMELINE_OFFSET UNITYSDK_OFFSET(0x17CABB00)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW_REPLAYTIMELINE_OFFSET UNITYSDK_OFFSET(0x18DC33A0)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW_SETSTAGE_OFFSET UNITYSDK_OFFSET(0x18DC2CC0)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x18DC3C50)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW__GETDECKID_OFFSET UNITYSDK_OFFSET(0x18DC3040)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW__GETRANDOMDECK_OFFSET UNITYSDK_OFFSET(0x18DC3570)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW__GETSOLDIERMODELPATH_OFFSET UNITYSDK_OFFSET(0x18DC3230)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW__SHOWTIMELINE_OFFSET UNITYSDK_OFFSET(0x18DC39B0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingUI3DEntranceView_TypeDefinitionIndex = 69978;
+	inline static constexpr unsigned int ChenLingUI3DEntranceView_TypeDefinitionIndex = 70790;
 
 	class ChenLingUI3DEntranceView : public ::UnityEngine::MonoBehaviour
 	{
@@ -35,9 +35,9 @@ namespace RPG::Client::ChenLingBattle
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetStage(::System::UInt32 stageID, ::RPG::Client::UIPrefabLoader* loader)
+		::System::Void SetStage(::System::UInt32 a1, ::RPG::Client::UIPrefabLoader* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::UIPrefabLoader*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW_SETSTAGE_OFFSET))(this, stageID, loader);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::UIPrefabLoader*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW_SETSTAGE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ReplayTimeLine()
@@ -45,9 +45,9 @@ namespace RPG::Client::ChenLingBattle
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW_REPLAYTIMELINE_OFFSET))(this);
 		}
 
-		::System::UInt32 _GetDeckID(::System::UInt32 stageID)
+		::System::UInt32 _GetDeckID(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW__GETDECKID_OFFSET))(this, stageID);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW__GETDECKID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 _GetRandomDeck()
@@ -55,14 +55,14 @@ namespace RPG::Client::ChenLingBattle
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW__GETRANDOMDECK_OFFSET))(this);
 		}
 
-		::System::String* _GetSoldierModelPath(::RPG::Client::ChenLingBattle::CardConfig* config)
+		::System::String* _GetSoldierModelPath(::RPG::Client::ChenLingBattle::CardConfig* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::RPG::Client::ChenLingBattle::CardConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW__GETSOLDIERMODELPATH_OFFSET))(this, config);
+			return ((::System::String*(*)(::PVOID, ::RPG::Client::ChenLingBattle::CardConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW__GETSOLDIERMODELPATH_OFFSET))(this, a1);
 		}
 
-		::System::Void _ShowTimeLine(::UnityEngine::Transform* anchor, ::UnityEngine::Animator* animator)
+		::System::Void _ShowTimeLine(::UnityEngine::Transform* a1, ::UnityEngine::Animator* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW__SHOWTIMELINE_OFFSET))(this, anchor, animator);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW__SHOWTIMELINE_OFFSET))(this, a1, a2);
 		}
 	};
 }

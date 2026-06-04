@@ -5,15 +5,15 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class VCameraConfigChange; }
 
-#define CLASS_1_AA5627556691B674__CTOR_OFFSET UNITYSDK_OFFSET(0xE115770)
+#define CLASS_1_AA5627556691B674__CTOR_OFFSET UNITYSDK_OFFSET(0x1550EE40)
 
-inline static constexpr unsigned int Class_1_AA5627556691B674_TypeDefinitionIndex = 64108;
+inline static constexpr unsigned int Class_1_AA5627556691B674_TypeDefinitionIndex = 65029;
 
 class Class_1_AA5627556691B674 : public ::System::Object
 {
 public:
-	::RPG::GameCore::TaskContext* Field_1_1; // 0x10
-	::RPG::GameCore::VCameraConfigChange* Field_1_0; // 0x18
+	::RPG::GameCore::VCameraConfigChange* Field_1_0; // 0x10
+	::RPG::GameCore::TaskContext* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

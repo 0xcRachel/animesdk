@@ -5,16 +5,16 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_5DC6E0116213DD18__CCTOR_OFFSET UNITYSDK_OFFSET(0xFE592E0)
+#define CLASS_1_5DC6E0116213DD18__CCTOR_OFFSET UNITYSDK_OFFSET(0x17B66420)
 
-inline static constexpr unsigned int Class_1_5DC6E0116213DD18_TypeDefinitionIndex = 67995;
+inline static constexpr unsigned int Class_1_5DC6E0116213DD18_TypeDefinitionIndex = 68953;
 
 class Class_1_5DC6E0116213DD18 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::HashSet_1<::RPG::GameCore::StreamingLayerType>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::HashSet_1<::RPG::GameCore::StreamingLayerType>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5DC6E0116213DD18_TypeDefinitionIndex)->GetStaticField(0x4F270);
+		return (::System::Collections::Generic::HashSet_1<::RPG::GameCore::StreamingLayerType>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5DC6E0116213DD18_TypeDefinitionIndex)->GetStaticField(0x44960);
 	}
 
 	static ::System::Void _cctor()

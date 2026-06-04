@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYSEARCHOPTIONS_GET_MAXRESULTS_OFFSET UNITYSDK_OFFSET(0x198807B0)
-#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYSEARCHOPTIONS_SET_MAXRESULTS_OFFSET UNITYSDK_OFFSET(0x198807C0)
-#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYSEARCHOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x198807D0)
+#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYSEARCHOPTIONS_GET_MAXRESULTS_OFFSET UNITYSDK_OFFSET(0x1A5BEFA0)
+#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYSEARCHOPTIONS_SET_MAXRESULTS_OFFSET UNITYSDK_OFFSET(0x1A5BEFB0)
+#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYSEARCHOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5BEFC0)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int CreateLobbySearchOptions_TypeDefinitionIndex = 41841;
+	inline static constexpr unsigned int CreateLobbySearchOptions_TypeDefinitionIndex = 42644;
 
 	class CreateLobbySearchOptions : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYSEARCHOPTIONS_GET_MAXRESULTS_OFFSET))(this);
 		}
 
-		::System::Void set_MaxResults(::System::UInt32 value)
+		::System::Void set_MaxResults(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYSEARCHOPTIONS_SET_MAXRESULTS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYSEARCHOPTIONS_SET_MAXRESULTS_OFFSET))(this, a1);
 		}
 	};
 }

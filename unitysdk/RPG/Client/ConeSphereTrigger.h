@@ -4,25 +4,25 @@
 #include "unitysdk/Struct_2_984AA94FB23486F9_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_0_16E4307DCC419505_594;
+class Class_0_16E4307DCC419505_617;
 namespace RPG::Client { class ConeCollider; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class MeshCollider; }
 namespace UnityEngine { class SphereCollider; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CONESPHERETRIGGER_FOLLOWCHANGE_OFFSET UNITYSDK_OFFSET(0x15BF46D0)
-#define RPG_CLIENT_CONESPHERETRIGGER_GET_PATTERN_OFFSET UNITYSDK_OFFSET(0x15BF41F0)
-#define RPG_CLIENT_CONESPHERETRIGGER_INIT_OFFSET UNITYSDK_OFFSET(0x15BF4240)
-#define RPG_CLIENT_CONESPHERETRIGGER_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x15BF4A30)
-#define RPG_CLIENT_CONESPHERETRIGGER_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x15BF4AE0)
-#define RPG_CLIENT_CONESPHERETRIGGER_SYNCLIGHTCONETRANSWHENFOLLOW_OFFSET UNITYSDK_OFFSET(0x15BF4830)
-#define RPG_CLIENT_CONESPHERETRIGGER_SYNCLIGHTCONETRANS_OFFSET UNITYSDK_OFFSET(0x15BF4420)
-#define RPG_CLIENT_CONESPHERETRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x15BF4B90)
+#define RPG_CLIENT_CONESPHERETRIGGER_FOLLOWCHANGE_OFFSET UNITYSDK_OFFSET(0x15F22E30)
+#define RPG_CLIENT_CONESPHERETRIGGER_GET_PATTERN_OFFSET UNITYSDK_OFFSET(0x15F22950)
+#define RPG_CLIENT_CONESPHERETRIGGER_INIT_OFFSET UNITYSDK_OFFSET(0x15F229A0)
+#define RPG_CLIENT_CONESPHERETRIGGER_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x15F231A0)
+#define RPG_CLIENT_CONESPHERETRIGGER_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x15F23250)
+#define RPG_CLIENT_CONESPHERETRIGGER_SYNCLIGHTCONETRANSWHENFOLLOW_OFFSET UNITYSDK_OFFSET(0x15F22FA0)
+#define RPG_CLIENT_CONESPHERETRIGGER_SYNCLIGHTCONETRANS_OFFSET UNITYSDK_OFFSET(0x15F22B80)
+#define RPG_CLIENT_CONESPHERETRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x15F23300)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConeSphereTrigger_TypeDefinitionIndex = 55799;
+	inline static constexpr unsigned int ConeSphereTrigger_TypeDefinitionIndex = 56554;
 
 	class ConeSphereTrigger : public ::UnityEngine::MonoBehaviour
 	{
@@ -34,7 +34,7 @@ namespace RPG::Client
 		::UnityEngine::SphereCollider* Field_5_4; // 0x30
 		::UnityEngine::Transform* Field_5_5; // 0x38
 		::System::Single Field_5_6; // 0x40
-		::Class_0_16E4307DCC419505_594* Field_5_7; // 0x48
+		::Class_0_16E4307DCC419505_617* Field_5_7; // 0x48
 
 		::System::Void _ctor()
 		{
@@ -46,9 +46,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ConeSphereTrigger_TriggerPattern(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONESPHERETRIGGER_GET_PATTERN_OFFSET))(this);
 		}
 
-		::System::Void Init(::Class_0_16E4307DCC419505_594* a1, ::UnityEngine::Transform* a2, ::System::Single a3)
+		::System::Void Init(::Class_0_16E4307DCC419505_617* a1, ::UnityEngine::Transform* a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_594*, ::UnityEngine::Transform*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONESPHERETRIGGER_INIT_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_617*, ::UnityEngine::Transform*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONESPHERETRIGGER_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void SyncLightConeTrans(::Struct_2_984AA94FB23486F9_1 a1, ::System::Boolean a2, ::System::Single a3)

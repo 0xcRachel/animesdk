@@ -7,24 +7,24 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0x17A31F00)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_GET_AVATARLIST_OFFSET UNITYSDK_OFFSET(0x17A31E40)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_GET_CONFIRMCALLBACK_OFFSET UNITYSDK_OFFSET(0x17A31EC0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_GET_CURRENTCONFIRMEDAVATARID_OFFSET UNITYSDK_OFFSET(0x17A31EA0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_GET_NEEDSELECTNUM_OFFSET UNITYSDK_OFFSET(0x17A31E80)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_GET_SELECTEDAVATARIDLIST_OFFSET UNITYSDK_OFFSET(0x17A31E60)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_GET_STAGEID_OFFSET UNITYSDK_OFFSET(0x17A31EE0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_AVATARLIST_OFFSET UNITYSDK_OFFSET(0x17A31E50)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_CONFIRMCALLBACK_OFFSET UNITYSDK_OFFSET(0x17A31ED0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_CURRENTCONFIRMEDAVATARID_OFFSET UNITYSDK_OFFSET(0x17A31EB0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_NEEDSELECTNUM_OFFSET UNITYSDK_OFFSET(0x17A31E90)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_SELECTEDAVATARIDLIST_OFFSET UNITYSDK_OFFSET(0x17A31E70)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_STAGEID_OFFSET UNITYSDK_OFFSET(0x17A31EF0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x17A31E30)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0x17EEC350)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_GET_AVATARLIST_OFFSET UNITYSDK_OFFSET(0x18B8A2F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_GET_CONFIRMCALLBACK_OFFSET UNITYSDK_OFFSET(0x17EEC310)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_GET_CURRENTCONFIRMEDAVATARID_OFFSET UNITYSDK_OFFSET(0x18B8A350)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_GET_NEEDSELECTNUM_OFFSET UNITYSDK_OFFSET(0x18B8A330)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_GET_SELECTEDAVATARIDLIST_OFFSET UNITYSDK_OFFSET(0x18B8A310)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_GET_STAGEID_OFFSET UNITYSDK_OFFSET(0x17EEC330)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_AVATARLIST_OFFSET UNITYSDK_OFFSET(0x18B8A300)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_CONFIRMCALLBACK_OFFSET UNITYSDK_OFFSET(0x17EEC320)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_CURRENTCONFIRMEDAVATARID_OFFSET UNITYSDK_OFFSET(0x18B8A360)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_NEEDSELECTNUM_OFFSET UNITYSDK_OFFSET(0x18B8A340)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_SELECTEDAVATARIDLIST_OFFSET UNITYSDK_OFFSET(0x18B8A320)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_STAGEID_OFFSET UNITYSDK_OFFSET(0x17EEC340)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18B8A2E0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatTeamEditDialogMsgParam_TypeDefinitionIndex = 69893;
+	inline static constexpr unsigned int DiceCombatTeamEditDialogMsgParam_TypeDefinitionIndex = 70705;
 
 	class DiceCombatTeamEditDialogMsgParam : public ::System::Object
 	{
@@ -32,8 +32,8 @@ namespace RPG::Client::DiceCombat
 		::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*>* _AvatarList_k__BackingField; // 0x10
 		::System::Collections::Generic::List_1<::System::UInt32>* _SelectedAvatarIDList_k__BackingField; // 0x18
 		::System::Action_1<::XLua::LuaTable*>* _ConfirmCallback_k__BackingField; // 0x20
-		::System::UInt32 _StageID_k__BackingField; // 0x28
-		::System::UInt32 _NeedSelectNum_k__BackingField; // 0x2C
+		::System::UInt32 _NeedSelectNum_k__BackingField; // 0x28
+		::System::UInt32 _StageID_k__BackingField; // 0x2C
 		::System::UInt32 _CurrentConfirmedAvatarID_k__BackingField; // 0x30
 
 		::System::Void _ctor()
@@ -46,9 +46,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_GET_AVATARLIST_OFFSET))(this);
 		}
 
-		::System::Void set_AvatarList(::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*>* value)
+		::System::Void set_AvatarList(::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_AVATARLIST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_AVATARLIST_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* get_SelectedAvatarIDList()
@@ -56,9 +56,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_GET_SELECTEDAVATARIDLIST_OFFSET))(this);
 		}
 
-		::System::Void set_SelectedAvatarIDList(::System::Collections::Generic::List_1<::System::UInt32>* value)
+		::System::Void set_SelectedAvatarIDList(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_SELECTEDAVATARIDLIST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_SELECTEDAVATARIDLIST_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_NeedSelectNum()
@@ -66,9 +66,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_GET_NEEDSELECTNUM_OFFSET))(this);
 		}
 
-		::System::Void set_NeedSelectNum(::System::UInt32 value)
+		::System::Void set_NeedSelectNum(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_NEEDSELECTNUM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_NEEDSELECTNUM_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_CurrentConfirmedAvatarID()
@@ -76,9 +76,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_GET_CURRENTCONFIRMEDAVATARID_OFFSET))(this);
 		}
 
-		::System::Void set_CurrentConfirmedAvatarID(::System::UInt32 value)
+		::System::Void set_CurrentConfirmedAvatarID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_CURRENTCONFIRMEDAVATARID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_CURRENTCONFIRMEDAVATARID_OFFSET))(this, a1);
 		}
 
 		::System::Action_1<::XLua::LuaTable*>* get_ConfirmCallback()
@@ -86,9 +86,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Action_1<::XLua::LuaTable*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_GET_CONFIRMCALLBACK_OFFSET))(this);
 		}
 
-		::System::Void set_ConfirmCallback(::System::Action_1<::XLua::LuaTable*>* value)
+		::System::Void set_ConfirmCallback(::System::Action_1<::XLua::LuaTable*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::XLua::LuaTable*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_CONFIRMCALLBACK_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::XLua::LuaTable*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_CONFIRMCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_StageID()
@@ -96,14 +96,14 @@ namespace RPG::Client::DiceCombat
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_GET_STAGEID_OFFSET))(this);
 		}
 
-		::System::Void set_StageID(::System::UInt32 value)
+		::System::Void set_StageID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_STAGEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_SET_STAGEID_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::DiceCombat::DiceCombatTeamEditDialogMsgParam* Create(::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*>* avatarList, ::System::Collections::Generic::List_1<::System::UInt32>* selectedAvatarIDList, ::System::UInt32 needSelectNum, ::System::Action_1<::XLua::LuaTable*>* confirmCallback, ::System::UInt32 currentConfirmedAvatarID, ::System::UInt32 stageID)
+		static ::RPG::Client::DiceCombat::DiceCombatTeamEditDialogMsgParam* Create(::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*>* a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2, ::System::UInt32 a3, ::System::Action_1<::XLua::LuaTable*>* a4, ::System::UInt32 a5, ::System::UInt32 a6)
 		{
-			return ((::RPG::Client::DiceCombat::DiceCombatTeamEditDialogMsgParam*(*)(::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::UInt32, ::System::Action_1<::XLua::LuaTable*>*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_CREATE_OFFSET))(avatarList, selectedAvatarIDList, needSelectNum, confirmCallback, currentConfirmedAvatarID, stageID);
+			return ((::RPG::Client::DiceCombat::DiceCombatTeamEditDialogMsgParam*(*)(::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::UInt32, ::System::Action_1<::XLua::LuaTable*>*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATTEAMEDITDIALOGMSGPARAM_CREATE_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 	};
 }

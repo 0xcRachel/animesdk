@@ -6,19 +6,19 @@ namespace RPG::GameCore { class OpenFarmElement; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define CLASS_3_5EC3112DE3633550_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD39DF0)
-#define CLASS_3_5EC3112DE3633550__CTOR_OFFSET UNITYSDK_OFFSET(0xAD39DA0)
-#define CLASS_3_5EC3112DE3633550__ONPAGECONFIRMCLOSE_OFFSET UNITYSDK_OFFSET(0xAD3A170)
-#define CLASS_3_5EC3112DE3633550___IFIXBASEPROXY_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD3A3E0)
-#define CLASS_3_5EC3112DE3633550___IFIXBASEPROXY__ONPAGECONFIRMCLOSE_OFFSET UNITYSDK_OFFSET(0xAD3A3F0)
+#define CLASS_3_5EC3112DE3633550_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x168AA950)
+#define CLASS_3_5EC3112DE3633550__CTOR_OFFSET UNITYSDK_OFFSET(0x168AA900)
+#define CLASS_3_5EC3112DE3633550__ONPAGECONFIRMCLOSE_OFFSET UNITYSDK_OFFSET(0x168AAC90)
+#define CLASS_3_5EC3112DE3633550___IFIXBASEPROXY_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x168AAE90)
+#define CLASS_3_5EC3112DE3633550___IFIXBASEPROXY__ONPAGECONFIRMCLOSE_OFFSET UNITYSDK_OFFSET(0x168AAEA0)
 
-inline static constexpr unsigned int Class_3_5EC3112DE3633550_TypeDefinitionIndex = 53712;
+inline static constexpr unsigned int Class_3_5EC3112DE3633550_TypeDefinitionIndex = 54435;
 
 class Class_3_5EC3112DE3633550 : public ::RPG::GameCore::OpenUIPageTaskBase_1<::RPG::GameCore::OpenFarmElement*>
 {
 public:
-	::System::UInt32 Field_3_1; // 0x40
-	::System::UInt32 Field_3_0; // 0x44
+	::System::UInt32 Field_3_0; // 0x40
+	::System::UInt32 Field_3_1; // 0x44
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::OpenFarmElement* a2)
 	{
@@ -40,8 +40,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_5EC3112DE3633550___IFIXBASEPROXY_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Void __iFixBaseProxy__OnPageConfirmClose(::System::Object* P0)
+	::System::Void __iFixBaseProxy__OnPageConfirmClose(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_3_5EC3112DE3633550___IFIXBASEPROXY__ONPAGECONFIRMCLOSE_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_3_5EC3112DE3633550___IFIXBASEPROXY__ONPAGECONFIRMCLOSE_OFFSET))(this, a1);
 	}
 };

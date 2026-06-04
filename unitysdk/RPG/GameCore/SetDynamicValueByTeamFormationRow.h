@@ -8,14 +8,14 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETDYNAMICVALUEBYTEAMFORMATIONROW_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x199ACC10)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYTEAMFORMATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199ACB40)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYTEAMFORMATIONROW_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x199ACE20)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYTEAMFORMATIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199ACBC0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYTEAMFORMATIONROW_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1A783390)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYTEAMFORMATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A7832C0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYTEAMFORMATIONROW_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1A7835A0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYTEAMFORMATIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A783340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByTeamFormationRow_TypeDefinitionIndex = 21833;
+	inline static constexpr unsigned int SetDynamicValueByTeamFormationRow_TypeDefinitionIndex = 21668;
 
 	class SetDynamicValueByTeamFormationRow : public ::RPG::GameCore::SetDynamicValueBase
 	{
@@ -30,14 +30,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYTEAMFORMATIONROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::SetDynamicValueByTeamFormationRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByTeamFormationRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByTeamFormationRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYTEAMFORMATIONROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByTeamFormationRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYTEAMFORMATIONROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::SetDynamicValueByTeamFormationRow* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByTeamFormationRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByTeamFormationRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYTEAMFORMATIONROW_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByTeamFormationRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYTEAMFORMATIONROW_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 
 		::System::Object* GetDynamicKey()

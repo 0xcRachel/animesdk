@@ -5,28 +5,28 @@
 
 namespace System { class String; }
 
-#define CLASS_1_CA318B0A2172EB85_METHOD_1_8CE0803574BB66D7_1_OFFSET UNITYSDK_OFFSET(0xAD3A4C0)
-#define CLASS_1_CA318B0A2172EB85_METHOD_1_8CE0803574BB66D7_2_OFFSET UNITYSDK_OFFSET(0xAD3A650)
-#define CLASS_1_CA318B0A2172EB85_METHOD_1_8CE0803574BB66D7_OFFSET UNITYSDK_OFFSET(0xAD3A460)
-#define CLASS_1_CA318B0A2172EB85_METHOD_1_9703A99CA8852569_OFFSET UNITYSDK_OFFSET(0xAD3A520)
-#define CLASS_1_CA318B0A2172EB85_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xAD3A420)
-#define CLASS_1_CA318B0A2172EB85__CTOR_OFFSET UNITYSDK_OFFSET(0xAD3A400)
+#define CLASS_1_CA318B0A2172EB85_METHOD_1_8CE0803574BB66D7_1_OFFSET UNITYSDK_OFFSET(0x15664FF0)
+#define CLASS_1_CA318B0A2172EB85_METHOD_1_8CE0803574BB66D7_2_OFFSET UNITYSDK_OFFSET(0x15665180)
+#define CLASS_1_CA318B0A2172EB85_METHOD_1_8CE0803574BB66D7_OFFSET UNITYSDK_OFFSET(0x15664F90)
+#define CLASS_1_CA318B0A2172EB85_METHOD_1_9703A99CA8852569_OFFSET UNITYSDK_OFFSET(0x15665050)
+#define CLASS_1_CA318B0A2172EB85_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x15664F50)
+#define CLASS_1_CA318B0A2172EB85__CTOR_OFFSET UNITYSDK_OFFSET(0x15664F30)
 
-inline static constexpr unsigned int Class_1_CA318B0A2172EB85_TypeDefinitionIndex = 54742;
+inline static constexpr unsigned int Class_1_CA318B0A2172EB85_TypeDefinitionIndex = 55469;
 
 class Class_1_CA318B0A2172EB85 : public ::System::Object
 {
 public:
 	::System::String* Field_1_0; // 0x10
 	::System::String* Field_1_1; // 0x18
-	::System::Boolean Field_1_3; // 0x20
-	::System::Boolean Field_1_9; // 0x21
-	::System::Boolean Field_1_8; // 0x22
-	::System::Boolean Field_1_2; // 0x23
-	::System::Int32 Field_1_6; // 0x24
-	::System::Single Field_1_7; // 0x28
-	::System::Int32 Field_1_4; // 0x2C
-	::System::Single Field_1_5; // 0x30
+	::System::Int32 Field_1_2; // 0x20
+	::System::Single Field_1_3; // 0x24
+	::System::Boolean Field_1_4; // 0x28
+	::System::Boolean Field_1_5; // 0x29
+	::System::Boolean Field_1_6; // 0x2A
+	::System::Boolean Field_1_7; // 0x2B
+	::System::Single Field_1_8; // 0x2C
+	::System::Int32 Field_1_9; // 0x30
 
 	::System::Void _ctor(::System::String* a1, ::System::String* a2)
 	{

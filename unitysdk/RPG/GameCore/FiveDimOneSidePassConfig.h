@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimEffectItem; }
 namespace RPG::GameCore { class LittleGameEvent; }
 
-#define RPG_GAMECORE_FIVEDIMONESIDEPASSCONFIG_METHOD_2_C67A0DDAE3F614E5_OFFSET UNITYSDK_OFFSET(0x191E5790)
-#define RPG_GAMECORE_FIVEDIMONESIDEPASSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x191E58A0)
+#define RPG_GAMECORE_FIVEDIMONESIDEPASSCONFIG_METHOD_2_C67A0DDAE3F614E5_OFFSET UNITYSDK_OFFSET(0x199FCF30)
+#define RPG_GAMECORE_FIVEDIMONESIDEPASSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199FD040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimOneSidePassConfig_TypeDefinitionIndex = 17612;
+	inline static constexpr unsigned int FiveDimOneSidePassConfig_TypeDefinitionIndex = 17638;
 
 	class FiveDimOneSidePassConfig : public ::RPG::GameCore::JsonConfig
 	{

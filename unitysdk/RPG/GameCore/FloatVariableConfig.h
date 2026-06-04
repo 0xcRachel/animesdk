@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FLOATVARIABLECONFIG_METHOD_2_A04FE3F194013DB9_OFFSET UNITYSDK_OFFSET(0x191FA360)
-#define RPG_GAMECORE_FLOATVARIABLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x191FA470)
+#define RPG_GAMECORE_FLOATVARIABLECONFIG_METHOD_2_A04FE3F194013DB9_OFFSET UNITYSDK_OFFSET(0x1A3AD520)
+#define RPG_GAMECORE_FLOATVARIABLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3AD630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FloatVariableConfig_TypeDefinitionIndex = 14658;
+	inline static constexpr unsigned int FloatVariableConfig_TypeDefinitionIndex = 14724;
 
 	class FloatVariableConfig : public ::RPG::GameCore::JsonConfig
 	{

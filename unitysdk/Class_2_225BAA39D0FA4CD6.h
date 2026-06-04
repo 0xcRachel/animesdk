@@ -6,17 +6,17 @@ namespace RPG::Client { class LocalizedTextSDF; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Image; }
 
-#define CLASS_2_225BAA39D0FA4CD6_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x11303840)
-#define CLASS_2_225BAA39D0FA4CD6_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x113037F0)
-#define CLASS_2_225BAA39D0FA4CD6__CTOR_OFFSET UNITYSDK_OFFSET(0x113038B0)
+#define CLASS_2_225BAA39D0FA4CD6_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x132EDE20)
+#define CLASS_2_225BAA39D0FA4CD6_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x132EDDD0)
+#define CLASS_2_225BAA39D0FA4CD6__CTOR_OFFSET UNITYSDK_OFFSET(0x132EDE90)
 
-inline static constexpr unsigned int Class_2_225BAA39D0FA4CD6_TypeDefinitionIndex = 67310;
+inline static constexpr unsigned int Class_2_225BAA39D0FA4CD6_TypeDefinitionIndex = 68262;
 
 class Class_2_225BAA39D0FA4CD6 : public ::Class_1_89D8044AB73F8F6D
 {
 public:
-	::RPG::Client::LocalizedTextSDF* Field_2_1; // 0x18
-	::UnityEngine::UI::Image* Field_2_0; // 0x20
+	::UnityEngine::UI::Image* Field_2_0; // 0x18
+	::RPG::Client::LocalizedTextSDF* Field_2_1; // 0x20
 
 	::System::Void _ctor()
 	{

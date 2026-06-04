@@ -6,20 +6,20 @@ namespace RPG::GameCore { class SwitchHandResetTransform; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define CLASS_2_97181FFA3A3620A9_DISPOSE_OFFSET UNITYSDK_OFFSET(0x103007C0)
-#define CLASS_2_97181FFA3A3620A9_METHOD_2_A7E8B52E9ABB8DB9_OFFSET UNITYSDK_OFFSET(0x10300E20)
-#define CLASS_2_97181FFA3A3620A9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10300910)
-#define CLASS_2_97181FFA3A3620A9_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x10300810)
-#define CLASS_2_97181FFA3A3620A9_TICK_OFFSET UNITYSDK_OFFSET(0x103008B0)
-#define CLASS_2_97181FFA3A3620A9__CTOR_OFFSET UNITYSDK_OFFSET(0x103007B0)
+#define CLASS_2_97181FFA3A3620A9_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15372640)
+#define CLASS_2_97181FFA3A3620A9_METHOD_2_DE1C1F4DF5D06882_OFFSET UNITYSDK_OFFSET(0x15372CD0)
+#define CLASS_2_97181FFA3A3620A9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x153727B0)
+#define CLASS_2_97181FFA3A3620A9_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15372690)
+#define CLASS_2_97181FFA3A3620A9_TICK_OFFSET UNITYSDK_OFFSET(0x15372750)
+#define CLASS_2_97181FFA3A3620A9__CTOR_OFFSET UNITYSDK_OFFSET(0x15372630)
 
-inline static constexpr unsigned int Class_2_97181FFA3A3620A9_TypeDefinitionIndex = 49169;
+inline static constexpr unsigned int Class_2_97181FFA3A3620A9_TypeDefinitionIndex = 49836;
 
 class Class_2_97181FFA3A3620A9 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::SwitchHandResetTransform* Field_2_0; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::RPG::GameCore::SwitchHandResetTransform* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwitchHandResetTransform* a2)
 	{
@@ -46,8 +46,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_97181FFA3A3620A9_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Void Method_2_A7E8B52E9ABB8DB9(::System::UInt16 a1, ::System::Object* a2)
+	::System::Void Method_2_DE1C1F4DF5D06882(::System::UInt16 a1, ::System::Object* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_97181FFA3A3620A9_METHOD_2_A7E8B52E9ABB8DB9_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_97181FFA3A3620A9_METHOD_2_DE1C1F4DF5D06882_OFFSET))(this, a1, a2);
 	}
 };

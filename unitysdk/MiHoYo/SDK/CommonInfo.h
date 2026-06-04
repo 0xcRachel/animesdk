@@ -10,51 +10,51 @@ namespace MiHoYo::SDK::Protobuf::Collections { template <typename T1, typename T
 namespace MiHoYo::SDK::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_COMMONINFO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1736EF90)
-#define MIHOYO_SDK_COMMONINFO_CLONE_OFFSET UNITYSDK_OFFSET(0x1736E220)
-#define MIHOYO_SDK_COMMONINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1736E7B0)
-#define MIHOYO_SDK_COMMONINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1736E750)
-#define MIHOYO_SDK_COMMONINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1736E950)
-#define MIHOYO_SDK_COMMONINFO_GET_APPVERSION_OFFSET UNITYSDK_OFFSET(0x1736E5E0)
-#define MIHOYO_SDK_COMMONINFO_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1736DE80)
-#define MIHOYO_SDK_COMMONINFO_GET_DEVICEID_OFFSET UNITYSDK_OFFSET(0x1736E530)
-#define MIHOYO_SDK_COMMONINFO_GET_DEVICENAME_OFFSET UNITYSDK_OFFSET(0x1736E3D0)
-#define MIHOYO_SDK_COMMONINFO_GET_EXTRAINFO_OFFSET UNITYSDK_OFFSET(0x1736E740)
-#define MIHOYO_SDK_COMMONINFO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1736DE20)
-#define MIHOYO_SDK_COMMONINFO_GET_PKGCHANNEL_OFFSET UNITYSDK_OFFSET(0x1736E690)
-#define MIHOYO_SDK_COMMONINFO_GET_PLATFORM_OFFSET UNITYSDK_OFFSET(0x1736E320)
-#define MIHOYO_SDK_COMMONINFO_GET_SYSTEMVERSION_OFFSET UNITYSDK_OFFSET(0x1736E480)
-#define MIHOYO_SDK_COMMONINFO_GET_USERID_OFFSET UNITYSDK_OFFSET(0x1736E270)
-#define MIHOYO_SDK_COMMONINFO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1736F560)
-#define MIHOYO_SDK_COMMONINFO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1736F210)
-#define MIHOYO_SDK_COMMONINFO_PB__MIHOYO_SDK_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1736E000)
-#define MIHOYO_SDK_COMMONINFO_SET_APPVERSION_OFFSET UNITYSDK_OFFSET(0x1736E5F0)
-#define MIHOYO_SDK_COMMONINFO_SET_DEVICEID_OFFSET UNITYSDK_OFFSET(0x1736E540)
-#define MIHOYO_SDK_COMMONINFO_SET_DEVICENAME_OFFSET UNITYSDK_OFFSET(0x1736E3E0)
-#define MIHOYO_SDK_COMMONINFO_SET_PKGCHANNEL_OFFSET UNITYSDK_OFFSET(0x1736E6A0)
-#define MIHOYO_SDK_COMMONINFO_SET_PLATFORM_OFFSET UNITYSDK_OFFSET(0x1736E330)
-#define MIHOYO_SDK_COMMONINFO_SET_SYSTEMVERSION_OFFSET UNITYSDK_OFFSET(0x1736E490)
-#define MIHOYO_SDK_COMMONINFO_SET_USERID_OFFSET UNITYSDK_OFFSET(0x1736E280)
-#define MIHOYO_SDK_COMMONINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1736ED00)
-#define MIHOYO_SDK_COMMONINFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1736ED60)
-#define MIHOYO_SDK_COMMONINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1736FB30)
-#define MIHOYO_SDK_COMMONINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1736E100)
-#define MIHOYO_SDK_COMMONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1736E060)
+#define MIHOYO_SDK_COMMONINFO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x144D7840)
+#define MIHOYO_SDK_COMMONINFO_CLONE_OFFSET UNITYSDK_OFFSET(0x144D6AD0)
+#define MIHOYO_SDK_COMMONINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x144D7060)
+#define MIHOYO_SDK_COMMONINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x144D7000)
+#define MIHOYO_SDK_COMMONINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x144D7200)
+#define MIHOYO_SDK_COMMONINFO_GET_APPVERSION_OFFSET UNITYSDK_OFFSET(0x144D6E90)
+#define MIHOYO_SDK_COMMONINFO_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x144D6730)
+#define MIHOYO_SDK_COMMONINFO_GET_DEVICEID_OFFSET UNITYSDK_OFFSET(0x144D6DE0)
+#define MIHOYO_SDK_COMMONINFO_GET_DEVICENAME_OFFSET UNITYSDK_OFFSET(0x144D6C80)
+#define MIHOYO_SDK_COMMONINFO_GET_EXTRAINFO_OFFSET UNITYSDK_OFFSET(0x144D6FF0)
+#define MIHOYO_SDK_COMMONINFO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x144D66D0)
+#define MIHOYO_SDK_COMMONINFO_GET_PKGCHANNEL_OFFSET UNITYSDK_OFFSET(0x144D6F40)
+#define MIHOYO_SDK_COMMONINFO_GET_PLATFORM_OFFSET UNITYSDK_OFFSET(0x144D6BD0)
+#define MIHOYO_SDK_COMMONINFO_GET_SYSTEMVERSION_OFFSET UNITYSDK_OFFSET(0x144D6D30)
+#define MIHOYO_SDK_COMMONINFO_GET_USERID_OFFSET UNITYSDK_OFFSET(0x144D6B20)
+#define MIHOYO_SDK_COMMONINFO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x144D7E10)
+#define MIHOYO_SDK_COMMONINFO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x144D7AC0)
+#define MIHOYO_SDK_COMMONINFO_PB__MIHOYO_SDK_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x144D68B0)
+#define MIHOYO_SDK_COMMONINFO_SET_APPVERSION_OFFSET UNITYSDK_OFFSET(0x144D6EA0)
+#define MIHOYO_SDK_COMMONINFO_SET_DEVICEID_OFFSET UNITYSDK_OFFSET(0x144D6DF0)
+#define MIHOYO_SDK_COMMONINFO_SET_DEVICENAME_OFFSET UNITYSDK_OFFSET(0x144D6C90)
+#define MIHOYO_SDK_COMMONINFO_SET_PKGCHANNEL_OFFSET UNITYSDK_OFFSET(0x144D6F50)
+#define MIHOYO_SDK_COMMONINFO_SET_PLATFORM_OFFSET UNITYSDK_OFFSET(0x144D6BE0)
+#define MIHOYO_SDK_COMMONINFO_SET_SYSTEMVERSION_OFFSET UNITYSDK_OFFSET(0x144D6D40)
+#define MIHOYO_SDK_COMMONINFO_SET_USERID_OFFSET UNITYSDK_OFFSET(0x144D6B30)
+#define MIHOYO_SDK_COMMONINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x144D75B0)
+#define MIHOYO_SDK_COMMONINFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x144D7610)
+#define MIHOYO_SDK_COMMONINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x144D83E0)
+#define MIHOYO_SDK_COMMONINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x144D69B0)
+#define MIHOYO_SDK_COMMONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x144D6910)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int CommonInfo_TypeDefinitionIndex = 42975;
+	inline static constexpr unsigned int CommonInfo_TypeDefinitionIndex = 43778;
 
 	class CommonInfo : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::CommonInfo*>** StaticGet__parser()
 		{
-			return (::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::CommonInfo*>**)Il2CppClass::FromTypeDefinitionIndex(CommonInfo_TypeDefinitionIndex)->GetStaticField(0x431B0);
+			return (::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::CommonInfo*>**)Il2CppClass::FromTypeDefinitionIndex(CommonInfo_TypeDefinitionIndex)->GetStaticField(0xA7C0);
 		}
 		static ::MiHoYo::SDK::Protobuf::Collections::MapField_2_Codec<::System::String*, ::System::String*>** StaticGet__map_extraInfo_codec()
 		{
-			return (::MiHoYo::SDK::Protobuf::Collections::MapField_2_Codec<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CommonInfo_TypeDefinitionIndex)->GetStaticField(0x431B8);
+			return (::MiHoYo::SDK::Protobuf::Collections::MapField_2_Codec<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CommonInfo_TypeDefinitionIndex)->GetStaticField(0xA7C8);
 		}
 		// static const ::System::Int32 UserIdFieldNumber = 0x1; // 0x0
 		// static const ::System::Int32 PlatformFieldNumber = 0x2; // 0x0
@@ -64,23 +64,23 @@ namespace MiHoYo::SDK
 		// static const ::System::Int32 AppVersionFieldNumber = 0x6; // 0x0
 		// static const ::System::Int32 PkgChannelFieldNumber = 0x7; // 0x0
 		// static const ::System::Int32 ExtraInfoFieldNumber = 0x8; // 0x0
-		::System::String* deviceId_; // 0x10
-		::System::String* pkgChannel_; // 0x18
-		::System::String* appVersion_; // 0x20
-		::System::String* deviceName_; // 0x28
-		::System::String* systemVersion_; // 0x30
-		::MiHoYo::SDK::Protobuf::Collections::MapField_2<::System::String*, ::System::String*>* extraInfo_; // 0x38
-		::System::String* userId_; // 0x40
-		::System::String* platform_; // 0x48
+		::System::String* pkgChannel_; // 0x10
+		::MiHoYo::SDK::Protobuf::Collections::MapField_2<::System::String*, ::System::String*>* extraInfo_; // 0x18
+		::System::String* systemVersion_; // 0x20
+		::System::String* appVersion_; // 0x28
+		::System::String* platform_; // 0x30
+		::System::String* userId_; // 0x38
+		::System::String* deviceId_; // 0x40
+		::System::String* deviceName_; // 0x48
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::MiHoYo::SDK::CommonInfo* other)
+		::System::Void _ctor_1(::MiHoYo::SDK::CommonInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::CommonInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO__CTOR_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::CommonInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO__CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -113,9 +113,9 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_GET_USERID_OFFSET))(this);
 		}
 
-		::System::Void set_UserId(::System::String* value)
+		::System::Void set_UserId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_SET_USERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_SET_USERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Platform()
@@ -123,9 +123,9 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_GET_PLATFORM_OFFSET))(this);
 		}
 
-		::System::Void set_Platform(::System::String* value)
+		::System::Void set_Platform(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_SET_PLATFORM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_SET_PLATFORM_OFFSET))(this, a1);
 		}
 
 		::System::String* get_DeviceName()
@@ -133,9 +133,9 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_GET_DEVICENAME_OFFSET))(this);
 		}
 
-		::System::Void set_DeviceName(::System::String* value)
+		::System::Void set_DeviceName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_SET_DEVICENAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_SET_DEVICENAME_OFFSET))(this, a1);
 		}
 
 		::System::String* get_SystemVersion()
@@ -143,9 +143,9 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_GET_SYSTEMVERSION_OFFSET))(this);
 		}
 
-		::System::Void set_SystemVersion(::System::String* value)
+		::System::Void set_SystemVersion(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_SET_SYSTEMVERSION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_SET_SYSTEMVERSION_OFFSET))(this, a1);
 		}
 
 		::System::String* get_DeviceId()
@@ -153,9 +153,9 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_GET_DEVICEID_OFFSET))(this);
 		}
 
-		::System::Void set_DeviceId(::System::String* value)
+		::System::Void set_DeviceId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_SET_DEVICEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_SET_DEVICEID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_AppVersion()
@@ -163,9 +163,9 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_GET_APPVERSION_OFFSET))(this);
 		}
 
-		::System::Void set_AppVersion(::System::String* value)
+		::System::Void set_AppVersion(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_SET_APPVERSION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_SET_APPVERSION_OFFSET))(this, a1);
 		}
 
 		::System::String* get_PkgChannel()
@@ -173,9 +173,9 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_GET_PKGCHANNEL_OFFSET))(this);
 		}
 
-		::System::Void set_PkgChannel(::System::String* value)
+		::System::Void set_PkgChannel(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_SET_PKGCHANNEL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_SET_PKGCHANNEL_OFFSET))(this, a1);
 		}
 
 		::MiHoYo::SDK::Protobuf::Collections::MapField_2<::System::String*, ::System::String*>* get_ExtraInfo()
@@ -183,14 +183,14 @@ namespace MiHoYo::SDK
 			return ((::MiHoYo::SDK::Protobuf::Collections::MapField_2<::System::String*, ::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_GET_EXTRAINFO_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* other)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::MiHoYo::SDK::CommonInfo* other)
+		::System::Boolean Equals_1(::MiHoYo::SDK::CommonInfo* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::CommonInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::CommonInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -203,9 +203,9 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Void WriteTo(::MiHoYo::SDK::Protobuf::CodedOutputStream* output)
+		::System::Void WriteTo(::MiHoYo::SDK::Protobuf::CodedOutputStream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_WRITETO_OFFSET))(this, output);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_WRITETO_OFFSET))(this, a1);
 		}
 
 		::System::Int32 CalculateSize()
@@ -213,14 +213,14 @@ namespace MiHoYo::SDK
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_CALCULATESIZE_OFFSET))(this);
 		}
 
-		::System::Void MergeFrom(::MiHoYo::SDK::CommonInfo* other)
+		::System::Void MergeFrom(::MiHoYo::SDK::CommonInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::CommonInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_MERGEFROM_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::CommonInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_MERGEFROM_OFFSET))(this, a1);
 		}
 
-		::System::Void MergeFrom_1(::MiHoYo::SDK::Protobuf::CodedInputStream* input)
+		::System::Void MergeFrom_1(::MiHoYo::SDK::Protobuf::CodedInputStream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_MERGEFROM_1_OFFSET))(this, input);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMONINFO_MERGEFROM_1_OFFSET))(this, a1);
 		}
 	};
 }

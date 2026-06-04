@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define CLASS_2_48407B49F5019E42_GET_DAMAGECOUNTER_OFFSET UNITYSDK_OFFSET(0xACB8780)
-#define CLASS_2_48407B49F5019E42_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xACB87A0)
-#define CLASS_2_48407B49F5019E42_METHOD_2_05BC6A448C5B54FD_OFFSET UNITYSDK_OFFSET(0xACB8600)
-#define CLASS_2_48407B49F5019E42_SET_DAMAGECOUNTER_OFFSET UNITYSDK_OFFSET(0xACB8790)
-#define CLASS_2_48407B49F5019E42_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xACB87B0)
-#define CLASS_2_48407B49F5019E42__CTOR_OFFSET UNITYSDK_OFFSET(0xACB86C0)
+#define CLASS_2_48407B49F5019E42_GET_DAMAGECOUNTER_OFFSET UNITYSDK_OFFSET(0x16BFC4D0)
+#define CLASS_2_48407B49F5019E42_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x16BFC4F0)
+#define CLASS_2_48407B49F5019E42_METHOD_2_05BC6A448C5B54FD_OFFSET UNITYSDK_OFFSET(0x16BFC350)
+#define CLASS_2_48407B49F5019E42_SET_DAMAGECOUNTER_OFFSET UNITYSDK_OFFSET(0x16BFC4E0)
+#define CLASS_2_48407B49F5019E42_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x16BFC500)
+#define CLASS_2_48407B49F5019E42__CTOR_OFFSET UNITYSDK_OFFSET(0x16BFC410)
 
-inline static constexpr unsigned int Class_2_48407B49F5019E42_TypeDefinitionIndex = 54403;
+inline static constexpr unsigned int Class_2_48407B49F5019E42_TypeDefinitionIndex = 55130;
 
 class Class_2_48407B49F5019E42 : public ::Class_1_7AAAC9B25C84E6E4
 {
 public:
-	::System::Boolean _IsActive_k__BackingField; // 0x10
-	::System::UInt32 _DamageCounter_k__BackingField; // 0x14
+	::System::UInt32 _DamageCounter_k__BackingField; // 0x10
+	::System::Boolean _IsActive_k__BackingField; // 0x14
 
 	::System::Void _ctor(::System::String* a1)
 	{
@@ -34,9 +34,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_48407B49F5019E42_GET_DAMAGECOUNTER_OFFSET))(this);
 	}
 
-	::System::Void set_DamageCounter(::System::UInt32 value)
+	::System::Void set_DamageCounter(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_48407B49F5019E42_SET_DAMAGECOUNTER_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_48407B49F5019E42_SET_DAMAGECOUNTER_OFFSET))(this, a1);
 	}
 
 	::System::Boolean get_IsActive()
@@ -44,8 +44,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_48407B49F5019E42_GET_ISACTIVE_OFFSET))(this);
 	}
 
-	::System::Void set_IsActive(::System::Boolean value)
+	::System::Void set_IsActive(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_48407B49F5019E42_SET_ISACTIVE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_48407B49F5019E42_SET_ISACTIVE_OFFSET))(this, a1);
 	}
 };

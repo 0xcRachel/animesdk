@@ -5,10 +5,10 @@
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 
-#define AKTRIGGERENTER_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x190E9140)
-#define AKTRIGGERENTER__CTOR_OFFSET UNITYSDK_OFFSET(0x190E9200)
+#define AKTRIGGERENTER_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x196D67A0)
+#define AKTRIGGERENTER__CTOR_OFFSET UNITYSDK_OFFSET(0x196D6870)
 
-inline static constexpr unsigned int AkTriggerEnter_TypeDefinitionIndex = 40520;
+inline static constexpr unsigned int AkTriggerEnter_TypeDefinitionIndex = 41347;
 
 class AkTriggerEnter : public ::AkTriggerBase
 {
@@ -20,8 +20,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKTRIGGERENTER__CTOR_OFFSET))(this);
 	}
 
-	::System::Void OnTriggerEnter(::UnityEngine::Collider* in_other)
+	::System::Void OnTriggerEnter(::UnityEngine::Collider* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + AKTRIGGERENTER_ONTRIGGERENTER_OFFSET))(this, in_other);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + AKTRIGGERENTER_ONTRIGGERENTER_OFFSET))(this, a1);
 	}
 };

@@ -11,23 +11,23 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class Encoding; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_ADDPERCENTENCODEDOCTETTORAWOCTETSLIST_OFFSET UNITYSDK_OFFSET(0x176B9D00)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_ADDSLASHTOASTERISKONLYPATH_OFFSET UNITYSDK_OFFSET(0x176B84D0)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_APPENDOCTETSPERCENTENCODED_OFFSET UNITYSDK_OFFSET(0x176B9E10)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_APPENDUNICODECODEPOINTVALUEPERCENTENCODED_OFFSET UNITYSDK_OFFSET(0x176B9A40)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_BUILDREQUESTURIUSINGCOOKEDPATH_OFFSET UNITYSDK_OFFSET(0x176B8600)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_BUILDREQUESTURIUSINGRAWPATH_1_OFFSET UNITYSDK_OFFSET(0x176B91A0)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_BUILDREQUESTURIUSINGRAWPATH_OFFSET UNITYSDK_OFFSET(0x176B89D0)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_BUILD_OFFSET UNITYSDK_OFFSET(0x176B8520)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_EMPTYDECODEANDAPPENDRAWOCTETSLIST_OFFSET UNITYSDK_OFFSET(0x176B96C0)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETENCODING_OFFSET UNITYSDK_OFFSET(0x176B9130)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETOCTETSASSTRING_OFFSET UNITYSDK_OFFSET(0x176BA150)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETPATH_OFFSET UNITYSDK_OFFSET(0x176B8F90)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETREQUESTURI_OFFSET UNITYSDK_OFFSET(0x176B7F40)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_LOGWARNING_OFFSET UNITYSDK_OFFSET(0x176B8F80)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_PARSERAWPATH_OFFSET UNITYSDK_OFFSET(0x176B9540)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x176B82E0)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x176B8400)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_ADDPERCENTENCODEDOCTETTORAWOCTETSLIST_OFFSET UNITYSDK_OFFSET(0x17CE7B70)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_ADDSLASHTOASTERISKONLYPATH_OFFSET UNITYSDK_OFFSET(0x17CE6380)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_APPENDOCTETSPERCENTENCODED_OFFSET UNITYSDK_OFFSET(0x17CE7C90)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_APPENDUNICODECODEPOINTVALUEPERCENTENCODED_OFFSET UNITYSDK_OFFSET(0x17CE78C0)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_BUILDREQUESTURIUSINGCOOKEDPATH_OFFSET UNITYSDK_OFFSET(0x17CE64B0)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_BUILDREQUESTURIUSINGRAWPATH_1_OFFSET UNITYSDK_OFFSET(0x17CE6EA0)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_BUILDREQUESTURIUSINGRAWPATH_OFFSET UNITYSDK_OFFSET(0x17CE67A0)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_BUILD_OFFSET UNITYSDK_OFFSET(0x17CE63D0)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_EMPTYDECODEANDAPPENDRAWOCTETSLIST_OFFSET UNITYSDK_OFFSET(0x17CE74E0)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETENCODING_OFFSET UNITYSDK_OFFSET(0x17CE6E30)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETOCTETSASSTRING_OFFSET UNITYSDK_OFFSET(0x17CE8130)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETPATH_OFFSET UNITYSDK_OFFSET(0x17CE6C90)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETREQUESTURI_OFFSET UNITYSDK_OFFSET(0x17CE5DF0)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_LOGWARNING_OFFSET UNITYSDK_OFFSET(0x17CE6C80)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_PARSERAWPATH_OFFSET UNITYSDK_OFFSET(0x17CE7200)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17CE6190)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x17CE62B0)
 
 namespace System::Net
 {
@@ -38,39 +38,39 @@ namespace System::Net
 	public:
 		static ::System::Text::Encoding** StaticGet_ansiEncoding()
 		{
-			return (::System::Text::Encoding**)Il2CppClass::FromTypeDefinitionIndex(HttpListenerRequestUriBuilder_TypeDefinitionIndex)->GetStaticField(0x12B00);
+			return (::System::Text::Encoding**)Il2CppClass::FromTypeDefinitionIndex(HttpListenerRequestUriBuilder_TypeDefinitionIndex)->GetStaticField(0x25050);
 		}
 		static ::System::Text::Encoding** StaticGet_utf8Encoding()
 		{
-			return (::System::Text::Encoding**)Il2CppClass::FromTypeDefinitionIndex(HttpListenerRequestUriBuilder_TypeDefinitionIndex)->GetStaticField(0x12B08);
+			return (::System::Text::Encoding**)Il2CppClass::FromTypeDefinitionIndex(HttpListenerRequestUriBuilder_TypeDefinitionIndex)->GetStaticField(0x25058);
 		}
 		static ::System::Boolean* StaticGet_useCookedRequestUrl()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(HttpListenerRequestUriBuilder_TypeDefinitionIndex)->GetStaticField(0x59C0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(HttpListenerRequestUriBuilder_TypeDefinitionIndex)->GetStaticField(0x9360);
 		}
 		::System::Text::StringBuilder* requestUriString; // 0x10
-		::System::String* cookedUriPath; // 0x18
-		::System::String* cookedUriHost; // 0x20
-		::System::String* rawUri; // 0x28
-		::System::String* cookedUriQuery; // 0x30
-		::System::String* rawPath; // 0x38
-		::System::Collections::Generic::List_1<::System::Byte>* rawOctets; // 0x40
-		::System::Uri* requestUri; // 0x48
-		::System::String* cookedUriScheme; // 0x50
+		::System::Collections::Generic::List_1<::System::Byte>* rawOctets; // 0x18
+		::System::Uri* requestUri; // 0x20
+		::System::String* rawPath; // 0x28
+		::System::String* cookedUriScheme; // 0x30
+		::System::String* cookedUriHost; // 0x38
+		::System::String* cookedUriQuery; // 0x40
+		::System::String* rawUri; // 0x48
+		::System::String* cookedUriPath; // 0x50
 
 		static ::System::Void _cctor()
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER__CCTOR_OFFSET))();
 		}
 
-		::System::Void _ctor(::System::String* rawUri, ::System::String* cookedUriScheme, ::System::String* cookedUriHost, ::System::String* cookedUriPath, ::System::String* cookedUriQuery)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER__CTOR_OFFSET))(this, rawUri, cookedUriScheme, cookedUriHost, cookedUriPath, cookedUriQuery);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Uri* GetRequestUri(::System::String* rawUri, ::System::String* cookedUriScheme, ::System::String* cookedUriHost, ::System::String* cookedUriPath, ::System::String* cookedUriQuery)
+		static ::System::Uri* GetRequestUri(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5)
 		{
-			return ((::System::Uri*(*)(::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETREQUESTURI_OFFSET))(rawUri, cookedUriScheme, cookedUriHost, cookedUriPath, cookedUriQuery);
+			return ((::System::Uri*(*)(::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETREQUESTURI_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		::System::Uri* Build()
@@ -88,59 +88,59 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_BUILDREQUESTURIUSINGRAWPATH_OFFSET))(this);
 		}
 
-		static ::System::Text::Encoding* GetEncoding(::System::Net::HttpListenerRequestUriBuilder_EncodingType type)
+		static ::System::Text::Encoding* GetEncoding(::System::Net::HttpListenerRequestUriBuilder_EncodingType a1)
 		{
-			return ((::System::Text::Encoding*(*)(::System::Net::HttpListenerRequestUriBuilder_EncodingType))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETENCODING_OFFSET))(type);
+			return ((::System::Text::Encoding*(*)(::System::Net::HttpListenerRequestUriBuilder_EncodingType))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETENCODING_OFFSET))(a1);
 		}
 
-		::System::Net::HttpListenerRequestUriBuilder_ParsingResult BuildRequestUriUsingRawPath_1(::System::Text::Encoding* encoding)
+		::System::Net::HttpListenerRequestUriBuilder_ParsingResult BuildRequestUriUsingRawPath_1(::System::Text::Encoding* a1)
 		{
-			return ((::System::Net::HttpListenerRequestUriBuilder_ParsingResult(*)(::PVOID, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_BUILDREQUESTURIUSINGRAWPATH_1_OFFSET))(this, encoding);
+			return ((::System::Net::HttpListenerRequestUriBuilder_ParsingResult(*)(::PVOID, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_BUILDREQUESTURIUSINGRAWPATH_1_OFFSET))(this, a1);
 		}
 
-		::System::Net::HttpListenerRequestUriBuilder_ParsingResult ParseRawPath(::System::Text::Encoding* encoding)
+		::System::Net::HttpListenerRequestUriBuilder_ParsingResult ParseRawPath(::System::Text::Encoding* a1)
 		{
-			return ((::System::Net::HttpListenerRequestUriBuilder_ParsingResult(*)(::PVOID, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_PARSERAWPATH_OFFSET))(this, encoding);
+			return ((::System::Net::HttpListenerRequestUriBuilder_ParsingResult(*)(::PVOID, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_PARSERAWPATH_OFFSET))(this, a1);
 		}
 
-		::System::Boolean AppendUnicodeCodePointValuePercentEncoded(::System::String* codePoint)
+		::System::Boolean AppendUnicodeCodePointValuePercentEncoded(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_APPENDUNICODECODEPOINTVALUEPERCENTENCODED_OFFSET))(this, codePoint);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_APPENDUNICODECODEPOINTVALUEPERCENTENCODED_OFFSET))(this, a1);
 		}
 
-		::System::Boolean AddPercentEncodedOctetToRawOctetsList(::System::Text::Encoding* encoding, ::System::String* escapedCharacter)
+		::System::Boolean AddPercentEncodedOctetToRawOctetsList(::System::Text::Encoding* a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Text::Encoding*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_ADDPERCENTENCODEDOCTETTORAWOCTETSLIST_OFFSET))(this, encoding, escapedCharacter);
+			return ((::System::Boolean(*)(::PVOID, ::System::Text::Encoding*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_ADDPERCENTENCODEDOCTETTORAWOCTETSLIST_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean EmptyDecodeAndAppendRawOctetsList(::System::Text::Encoding* encoding)
+		::System::Boolean EmptyDecodeAndAppendRawOctetsList(::System::Text::Encoding* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_EMPTYDECODEANDAPPENDRAWOCTETSLIST_OFFSET))(this, encoding);
+			return ((::System::Boolean(*)(::PVOID, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_EMPTYDECODEANDAPPENDRAWOCTETSLIST_OFFSET))(this, a1);
 		}
 
-		static ::System::Void AppendOctetsPercentEncoded(::System::Text::StringBuilder* target, ::System::Collections::Generic::IEnumerable_1<::System::Byte>* octets)
+		static ::System::Void AppendOctetsPercentEncoded(::System::Text::StringBuilder* a1, ::System::Collections::Generic::IEnumerable_1<::System::Byte>* a2)
 		{
-			return ((::System::Void(*)(::System::Text::StringBuilder*, ::System::Collections::Generic::IEnumerable_1<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_APPENDOCTETSPERCENTENCODED_OFFSET))(target, octets);
+			return ((::System::Void(*)(::System::Text::StringBuilder*, ::System::Collections::Generic::IEnumerable_1<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_APPENDOCTETSPERCENTENCODED_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* GetOctetsAsString(::System::Collections::Generic::IEnumerable_1<::System::Byte>* octets)
+		static ::System::String* GetOctetsAsString(::System::Collections::Generic::IEnumerable_1<::System::Byte>* a1)
 		{
-			return ((::System::String*(*)(::System::Collections::Generic::IEnumerable_1<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETOCTETSASSTRING_OFFSET))(octets);
+			return ((::System::String*(*)(::System::Collections::Generic::IEnumerable_1<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETOCTETSASSTRING_OFFSET))(a1);
 		}
 
-		static ::System::String* GetPath(::System::String* uriString)
+		static ::System::String* GetPath(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETPATH_OFFSET))(uriString);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETPATH_OFFSET))(a1);
 		}
 
-		static ::System::String* AddSlashToAsteriskOnlyPath(::System::String* path)
+		static ::System::String* AddSlashToAsteriskOnlyPath(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_ADDSLASHTOASTERISKONLYPATH_OFFSET))(path);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_ADDSLASHTOASTERISKONLYPATH_OFFSET))(a1);
 		}
 
-		::System::Void LogWarning(::System::String* methodName, ::System::String* message, ::Il2CppArray<::System::Object*>* args)
+		::System::Void LogWarning(::System::String* a1, ::System::String* a2, ::Il2CppArray<::System::Object*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_LOGWARNING_OFFSET))(this, methodName, message, args);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_LOGWARNING_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -13,20 +13,20 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class LayoutElement; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0x17C4B5F0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_GETENUMNAME_OFFSET UNITYSDK_OFFSET(0x17C4B530)
-#define SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_GOTONEXT_OFFSET UNITYSDK_OFFSET(0x17C4B820)
-#define SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_GOTOPREVIOUS_OFFSET UNITYSDK_OFFSET(0x17C4BA40)
-#define SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0x17C4B0E0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0x17C4B490)
-#define SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_OPTIONCONTROL_OFFSET UNITYSDK_OFFSET(0x17C4BC60)
-#define SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_SETINDEX_OFFSET UNITYSDK_OFFSET(0x17C4B620)
-#define SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_START_OFFSET UNITYSDK_OFFSET(0x17C4B0C0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x17C4BC80)
+#define SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0x186F7A10)
+#define SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_GETENUMNAME_OFFSET UNITYSDK_OFFSET(0x186F78A0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_GOTONEXT_OFFSET UNITYSDK_OFFSET(0x186F7C20)
+#define SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_GOTOPREVIOUS_OFFSET UNITYSDK_OFFSET(0x186F7E40)
+#define SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0x186F7480)
+#define SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0x186F7820)
+#define SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_OPTIONCONTROL_OFFSET UNITYSDK_OFFSET(0x186F8060)
+#define SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_SETINDEX_OFFSET UNITYSDK_OFFSET(0x186F7A40)
+#define SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_START_OFFSET UNITYSDK_OFFSET(0x186F7460)
+#define SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x186F8080)
 
 namespace SRDebugger::UI::Controls::Data
 {
-	inline static constexpr unsigned int EnumControl_TypeDefinitionIndex = 35409;
+	inline static constexpr unsigned int EnumControl_TypeDefinitionIndex = 35709;
 
 	class EnumControl : public ::SRDebugger::UI::Controls::DataBoundControl
 	{
@@ -50,29 +50,29 @@ namespace SRDebugger::UI::Controls::Data
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_START_OFFSET))(this);
 		}
 
-		::System::Void OnBind(::System::String* propertyName, ::System::Type* t)
+		::System::Void OnBind(::System::String* a1, ::System::Type* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_ONBIND_OFFSET))(this, propertyName, t);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_ONBIND_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnValueUpdated(::System::Object* newValue)
+		::System::Void OnValueUpdated(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_ONVALUEUPDATED_OFFSET))(this, newValue);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_ONVALUEUPDATED_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CanBind(::System::Type* type, ::System::Boolean isReadOnly)
+		::System::Boolean CanBind(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_CANBIND_OFFSET))(this, type, isReadOnly);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_CANBIND_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetIndex(::System::Int32 i)
+		::System::Void SetIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_SETINDEX_OFFSET))(this, i);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_SETINDEX_OFFSET))(this, a1);
 		}
 
-		static ::System::String* GetEnumName(::System::Enum* value)
+		static ::System::String* GetEnumName(::System::Enum* a1)
 		{
-			return ((::System::String*(*)(::System::Enum*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_GETENUMNAME_OFFSET))(value);
+			return ((::System::String*(*)(::System::Enum*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_GETENUMNAME_OFFSET))(a1);
 		}
 
 		::System::Void GoToNext()
@@ -85,9 +85,9 @@ namespace SRDebugger::UI::Controls::Data
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_GOTOPREVIOUS_OFFSET))(this);
 		}
 
-		::System::Void OptionControl(::SRDebugger::Services::MihoyoOptionControlType type)
+		::System::Void OptionControl(::SRDebugger::Services::MihoyoOptionControlType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRDebugger::Services::MihoyoOptionControlType))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_OPTIONCONTROL_OFFSET))(this, type);
+			return ((::System::Void(*)(::PVOID, ::SRDebugger::Services::MihoyoOptionControlType))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_ENUMCONTROL_OPTIONCONTROL_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,10 +4,10 @@
 
 namespace RPG::Client { class ShowAttackTimeParam; }
 
-#define CLASS_1_AB817CB39E494C61___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x112E6880)
-#define CLASS_1_AB817CB39E494C61___C__DISPLAYCLASS34_0___ONUPDATEATTACKTIME_B__0_OFFSET UNITYSDK_OFFSET(0x112EA2B0)
+#define CLASS_1_AB817CB39E494C61___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1785E550)
+#define CLASS_1_AB817CB39E494C61___C__DISPLAYCLASS34_0___ONUPDATEATTACKTIME_B__0_OFFSET UNITYSDK_OFFSET(0x17861FB0)
 
-inline static constexpr unsigned int Class_1_AB817CB39E494C61___c__DisplayClass34_0_TypeDefinitionIndex = 65626;
+inline static constexpr unsigned int Class_1_AB817CB39E494C61___c__DisplayClass34_0_TypeDefinitionIndex = 66560;
 
 class Class_1_AB817CB39E494C61___c__DisplayClass34_0 : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AB817CB39E494C61___C__DISPLAYCLASS34_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean __OnUpdateAttackTime_b__0(::RPG::Client::ShowAttackTimeParam* x)
+	::System::Boolean __OnUpdateAttackTime_b__0(::RPG::Client::ShowAttackTimeParam* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ShowAttackTimeParam*))((::PBYTE)hIl2Cpp + CLASS_1_AB817CB39E494C61___C__DISPLAYCLASS34_0___ONUPDATEATTACKTIME_B__0_OFFSET))(this, x);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ShowAttackTimeParam*))((::PBYTE)hIl2Cpp + CLASS_1_AB817CB39E494C61___C__DISPLAYCLASS34_0___ONUPDATEATTACKTIME_B__0_OFFSET))(this, a1);
 	}
 };

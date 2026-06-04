@@ -5,8 +5,8 @@
 namespace System::Xml::Serialization { class ClassMap; }
 namespace System::Xml::Serialization { class XmlSerializationReaderInterpreter; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_FIXUPCALLBACKINFO_FIXUPMEMBERS_OFFSET UNITYSDK_OFFSET(0x17A99B50)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_FIXUPCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17A97DD0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_FIXUPCALLBACKINFO_FIXUPMEMBERS_OFFSET UNITYSDK_OFFSET(0x16CCB470)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_FIXUPCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16CC9750)
 
 namespace System::Xml::Serialization
 {
@@ -15,18 +15,18 @@ namespace System::Xml::Serialization
 	class XmlSerializationReaderInterpreter_FixupCallbackInfo : public ::System::Object
 	{
 	public:
-		::System::Xml::Serialization::ClassMap* _map; // 0x10
-		::System::Xml::Serialization::XmlSerializationReaderInterpreter* _sri; // 0x18
+		::System::Xml::Serialization::XmlSerializationReaderInterpreter* _sri; // 0x10
+		::System::Xml::Serialization::ClassMap* _map; // 0x18
 		::System::Boolean _isValueList; // 0x20
 
-		::System::Void _ctor(::System::Xml::Serialization::XmlSerializationReaderInterpreter* sri, ::System::Xml::Serialization::ClassMap* map, ::System::Boolean isValueList)
+		::System::Void _ctor(::System::Xml::Serialization::XmlSerializationReaderInterpreter* a1, ::System::Xml::Serialization::ClassMap* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlSerializationReaderInterpreter*, ::System::Xml::Serialization::ClassMap*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_FIXUPCALLBACKINFO__CTOR_OFFSET))(this, sri, map, isValueList);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlSerializationReaderInterpreter*, ::System::Xml::Serialization::ClassMap*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_FIXUPCALLBACKINFO__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void FixupMembers(::System::Object* fixup)
+		::System::Void FixupMembers(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_FIXUPCALLBACKINFO_FIXUPMEMBERS_OFFSET))(this, fixup);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_FIXUPCALLBACKINFO_FIXUPMEMBERS_OFFSET))(this, a1);
 		}
 	};
 }

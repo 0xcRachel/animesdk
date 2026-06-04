@@ -19,73 +19,73 @@ namespace Spine { template <typename T> class Pool_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define SPINE_ANIMATIONSTATE_ADDANIMATION_1_OFFSET UNITYSDK_OFFSET(0x156B2360)
-#define SPINE_ANIMATIONSTATE_ADDANIMATION_OFFSET UNITYSDK_OFFSET(0x156B22A0)
-#define SPINE_ANIMATIONSTATE_ADDEMPTYANIMATION_OFFSET UNITYSDK_OFFSET(0x156B2670)
-#define SPINE_ANIMATIONSTATE_ADDEVENTSUBSCRIBERSFROM_OFFSET UNITYSDK_OFFSET(0x156ADBC0)
-#define SPINE_ANIMATIONSTATE_ADD_COMPLETE_OFFSET UNITYSDK_OFFSET(0x156ADA00)
-#define SPINE_ANIMATIONSTATE_ADD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x156AD940)
-#define SPINE_ANIMATIONSTATE_ADD_END_OFFSET UNITYSDK_OFFSET(0x156AD880)
-#define SPINE_ANIMATIONSTATE_ADD_EVENT_OFFSET UNITYSDK_OFFSET(0x156ADAC0)
-#define SPINE_ANIMATIONSTATE_ADD_INTERRUPT_OFFSET UNITYSDK_OFFSET(0x156AD7C0)
-#define SPINE_ANIMATIONSTATE_ADD_START_OFFSET UNITYSDK_OFFSET(0x156AD700)
-#define SPINE_ANIMATIONSTATE_ANIMATIONSCHANGED_OFFSET UNITYSDK_OFFSET(0x156AF540)
-#define SPINE_ANIMATIONSTATE_APPLYATTACHMENTTIMELINE_OFFSET UNITYSDK_OFFSET(0x156AFF50)
-#define SPINE_ANIMATIONSTATE_APPLYEVENTTIMELINESONLY_OFFSET UNITYSDK_OFFSET(0x156B0CA0)
-#define SPINE_ANIMATIONSTATE_APPLYMIXINGFROMEVENTTIMELINESONLY_OFFSET UNITYSDK_OFFSET(0x156B1140)
-#define SPINE_ANIMATIONSTATE_APPLYMIXINGFROM_OFFSET UNITYSDK_OFFSET(0x156AF660)
-#define SPINE_ANIMATIONSTATE_APPLYROTATETIMELINE_OFFSET UNITYSDK_OFFSET(0x156B00E0)
-#define SPINE_ANIMATIONSTATE_APPLY_OFFSET UNITYSDK_OFFSET(0x156AEB70)
-#define SPINE_ANIMATIONSTATE_ASSIGNEVENTSUBSCRIBERSFROM_OFFSET UNITYSDK_OFFSET(0x156ADB80)
-#define SPINE_ANIMATIONSTATE_CLEARLISTENERNOTIFICATIONS_OFFSET UNITYSDK_OFFSET(0x156B30E0)
-#define SPINE_ANIMATIONSTATE_CLEARNEXT_OFFSET UNITYSDK_OFFSET(0x156AE6D0)
-#define SPINE_ANIMATIONSTATE_CLEARTRACKS_OFFSET UNITYSDK_OFFSET(0x156B1880)
-#define SPINE_ANIMATIONSTATE_CLEARTRACK_OFFSET UNITYSDK_OFFSET(0x156B1920)
-#define SPINE_ANIMATIONSTATE_COMPUTEHOLD_OFFSET UNITYSDK_OFFSET(0x156B29A0)
-#define SPINE_ANIMATIONSTATE_EXPANDTOINDEX_OFFSET UNITYSDK_OFFSET(0x156B1B60)
-#define SPINE_ANIMATIONSTATE_GETCURRENT_OFFSET UNITYSDK_OFFSET(0x156B3090)
-#define SPINE_ANIMATIONSTATE_GET_DATA_OFFSET UNITYSDK_OFFSET(0x156B3190)
-#define SPINE_ANIMATIONSTATE_GET_TIMESCALE_OFFSET UNITYSDK_OFFSET(0x156B3170)
-#define SPINE_ANIMATIONSTATE_GET_TRACKS_OFFSET UNITYSDK_OFFSET(0x156B3220)
-#define SPINE_ANIMATIONSTATE_NEWTRACKENTRY_OFFSET UNITYSDK_OFFSET(0x156B2150)
-#define SPINE_ANIMATIONSTATE_ONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x156AD160)
-#define SPINE_ANIMATIONSTATE_ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x156AD150)
-#define SPINE_ANIMATIONSTATE_ONEND_OFFSET UNITYSDK_OFFSET(0x156AD140)
-#define SPINE_ANIMATIONSTATE_ONEVENT_OFFSET UNITYSDK_OFFSET(0x156AD170)
-#define SPINE_ANIMATIONSTATE_ONINTERRUPT_OFFSET UNITYSDK_OFFSET(0x156AD130)
-#define SPINE_ANIMATIONSTATE_ONSTART_OFFSET UNITYSDK_OFFSET(0x156ACBD0)
-#define SPINE_ANIMATIONSTATE_QUEUEEVENTS_OFFSET UNITYSDK_OFFSET(0x156B0660)
-#define SPINE_ANIMATIONSTATE_REMOVE_COMPLETE_OFFSET UNITYSDK_OFFSET(0x156ADA60)
-#define SPINE_ANIMATIONSTATE_REMOVE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x156AD9A0)
-#define SPINE_ANIMATIONSTATE_REMOVE_END_OFFSET UNITYSDK_OFFSET(0x156AD8E0)
-#define SPINE_ANIMATIONSTATE_REMOVE_EVENT_OFFSET UNITYSDK_OFFSET(0x156ADB20)
-#define SPINE_ANIMATIONSTATE_REMOVE_INTERRUPT_OFFSET UNITYSDK_OFFSET(0x156AD820)
-#define SPINE_ANIMATIONSTATE_REMOVE_START_OFFSET UNITYSDK_OFFSET(0x156AD760)
-#define SPINE_ANIMATIONSTATE_SETANIMATION_1_OFFSET UNITYSDK_OFFSET(0x156B1E10)
-#define SPINE_ANIMATIONSTATE_SETANIMATION_OFFSET UNITYSDK_OFFSET(0x156B1C60)
-#define SPINE_ANIMATIONSTATE_SETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x156B1420)
-#define SPINE_ANIMATIONSTATE_SETCURRENT_OFFSET UNITYSDK_OFFSET(0x156AE3F0)
-#define SPINE_ANIMATIONSTATE_SETEMPTYANIMATIONS_OFFSET UNITYSDK_OFFSET(0x156B2710)
-#define SPINE_ANIMATIONSTATE_SETEMPTYANIMATION_OFFSET UNITYSDK_OFFSET(0x156B2600)
-#define SPINE_ANIMATIONSTATE_SET_DATA_OFFSET UNITYSDK_OFFSET(0x156B31A0)
-#define SPINE_ANIMATIONSTATE_SET_TIMESCALE_OFFSET UNITYSDK_OFFSET(0x156B3180)
-#define SPINE_ANIMATIONSTATE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x156B3230)
-#define SPINE_ANIMATIONSTATE_UPDATEMIXINGFROM_OFFSET UNITYSDK_OFFSET(0x156AE760)
-#define SPINE_ANIMATIONSTATE_UPDATE_OFFSET UNITYSDK_OFFSET(0x156AE040)
-#define SPINE_ANIMATIONSTATE__CCTOR_OFFSET UNITYSDK_OFFSET(0x156B33A0)
-#define SPINE_ANIMATIONSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x156ADDB0)
-#define SPINE_ANIMATIONSTATE___CTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x156B3440)
+#define SPINE_ANIMATIONSTATE_ADDANIMATION_1_OFFSET UNITYSDK_OFFSET(0x12B7CC10)
+#define SPINE_ANIMATIONSTATE_ADDANIMATION_OFFSET UNITYSDK_OFFSET(0x12B7CB50)
+#define SPINE_ANIMATIONSTATE_ADDEMPTYANIMATION_OFFSET UNITYSDK_OFFSET(0x12B7D020)
+#define SPINE_ANIMATIONSTATE_ADDEVENTSUBSCRIBERSFROM_OFFSET UNITYSDK_OFFSET(0x12B77CD0)
+#define SPINE_ANIMATIONSTATE_ADD_COMPLETE_OFFSET UNITYSDK_OFFSET(0x12B77B10)
+#define SPINE_ANIMATIONSTATE_ADD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12B77A50)
+#define SPINE_ANIMATIONSTATE_ADD_END_OFFSET UNITYSDK_OFFSET(0x12B77990)
+#define SPINE_ANIMATIONSTATE_ADD_EVENT_OFFSET UNITYSDK_OFFSET(0x12B77BD0)
+#define SPINE_ANIMATIONSTATE_ADD_INTERRUPT_OFFSET UNITYSDK_OFFSET(0x12B778D0)
+#define SPINE_ANIMATIONSTATE_ADD_START_OFFSET UNITYSDK_OFFSET(0x12B77810)
+#define SPINE_ANIMATIONSTATE_ANIMATIONSCHANGED_OFFSET UNITYSDK_OFFSET(0x12B79920)
+#define SPINE_ANIMATIONSTATE_APPLYATTACHMENTTIMELINE_OFFSET UNITYSDK_OFFSET(0x12B7A320)
+#define SPINE_ANIMATIONSTATE_APPLYEVENTTIMELINESONLY_OFFSET UNITYSDK_OFFSET(0x12B7B110)
+#define SPINE_ANIMATIONSTATE_APPLYMIXINGFROMEVENTTIMELINESONLY_OFFSET UNITYSDK_OFFSET(0x12B7B5C0)
+#define SPINE_ANIMATIONSTATE_APPLYMIXINGFROM_OFFSET UNITYSDK_OFFSET(0x12B79A40)
+#define SPINE_ANIMATIONSTATE_APPLYROTATETIMELINE_OFFSET UNITYSDK_OFFSET(0x12B7A4C0)
+#define SPINE_ANIMATIONSTATE_APPLY_OFFSET UNITYSDK_OFFSET(0x12B79040)
+#define SPINE_ANIMATIONSTATE_ASSIGNEVENTSUBSCRIBERSFROM_OFFSET UNITYSDK_OFFSET(0x12B77C90)
+#define SPINE_ANIMATIONSTATE_CLEARLISTENERNOTIFICATIONS_OFFSET UNITYSDK_OFFSET(0x12B7DB30)
+#define SPINE_ANIMATIONSTATE_CLEARNEXT_OFFSET UNITYSDK_OFFSET(0x12B78AB0)
+#define SPINE_ANIMATIONSTATE_CLEARTRACKS_OFFSET UNITYSDK_OFFSET(0x12B7BCB0)
+#define SPINE_ANIMATIONSTATE_CLEARTRACK_OFFSET UNITYSDK_OFFSET(0x12B7BD50)
+#define SPINE_ANIMATIONSTATE_COMPUTEHOLD_OFFSET UNITYSDK_OFFSET(0x12B7D380)
+#define SPINE_ANIMATIONSTATE_EXPANDTOINDEX_OFFSET UNITYSDK_OFFSET(0x12B7C070)
+#define SPINE_ANIMATIONSTATE_GETCURRENT_OFFSET UNITYSDK_OFFSET(0x12B7DAE0)
+#define SPINE_ANIMATIONSTATE_GET_DATA_OFFSET UNITYSDK_OFFSET(0x12B7DBE0)
+#define SPINE_ANIMATIONSTATE_GET_TIMESCALE_OFFSET UNITYSDK_OFFSET(0x12B7DBC0)
+#define SPINE_ANIMATIONSTATE_GET_TRACKS_OFFSET UNITYSDK_OFFSET(0x12B7DC70)
+#define SPINE_ANIMATIONSTATE_NEWTRACKENTRY_OFFSET UNITYSDK_OFFSET(0x12B7CA00)
+#define SPINE_ANIMATIONSTATE_ONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x12B777C0)
+#define SPINE_ANIMATIONSTATE_ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x12B777A0)
+#define SPINE_ANIMATIONSTATE_ONEND_OFFSET UNITYSDK_OFFSET(0x12B77780)
+#define SPINE_ANIMATIONSTATE_ONEVENT_OFFSET UNITYSDK_OFFSET(0x12B777E0)
+#define SPINE_ANIMATIONSTATE_ONINTERRUPT_OFFSET UNITYSDK_OFFSET(0x12B77760)
+#define SPINE_ANIMATIONSTATE_ONSTART_OFFSET UNITYSDK_OFFSET(0x12B77730)
+#define SPINE_ANIMATIONSTATE_QUEUEEVENTS_OFFSET UNITYSDK_OFFSET(0x12B7A9D0)
+#define SPINE_ANIMATIONSTATE_REMOVE_COMPLETE_OFFSET UNITYSDK_OFFSET(0x12B77B70)
+#define SPINE_ANIMATIONSTATE_REMOVE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12B77AB0)
+#define SPINE_ANIMATIONSTATE_REMOVE_END_OFFSET UNITYSDK_OFFSET(0x12B779F0)
+#define SPINE_ANIMATIONSTATE_REMOVE_EVENT_OFFSET UNITYSDK_OFFSET(0x12B77C30)
+#define SPINE_ANIMATIONSTATE_REMOVE_INTERRUPT_OFFSET UNITYSDK_OFFSET(0x12B77930)
+#define SPINE_ANIMATIONSTATE_REMOVE_START_OFFSET UNITYSDK_OFFSET(0x12B77870)
+#define SPINE_ANIMATIONSTATE_SETANIMATION_1_OFFSET UNITYSDK_OFFSET(0x12B7C4B0)
+#define SPINE_ANIMATIONSTATE_SETANIMATION_OFFSET UNITYSDK_OFFSET(0x12B7C310)
+#define SPINE_ANIMATIONSTATE_SETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x12B7B890)
+#define SPINE_ANIMATIONSTATE_SETCURRENT_OFFSET UNITYSDK_OFFSET(0x12B785E0)
+#define SPINE_ANIMATIONSTATE_SETEMPTYANIMATIONS_OFFSET UNITYSDK_OFFSET(0x12B7D0C0)
+#define SPINE_ANIMATIONSTATE_SETEMPTYANIMATION_OFFSET UNITYSDK_OFFSET(0x12B7CFB0)
+#define SPINE_ANIMATIONSTATE_SET_DATA_OFFSET UNITYSDK_OFFSET(0x12B7DBF0)
+#define SPINE_ANIMATIONSTATE_SET_TIMESCALE_OFFSET UNITYSDK_OFFSET(0x12B7DBD0)
+#define SPINE_ANIMATIONSTATE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x12B7DC80)
+#define SPINE_ANIMATIONSTATE_UPDATEMIXINGFROM_OFFSET UNITYSDK_OFFSET(0x12B78B90)
+#define SPINE_ANIMATIONSTATE_UPDATE_OFFSET UNITYSDK_OFFSET(0x12B78160)
+#define SPINE_ANIMATIONSTATE__CCTOR_OFFSET UNITYSDK_OFFSET(0x12B7DDE0)
+#define SPINE_ANIMATIONSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x12B77EC0)
+#define SPINE_ANIMATIONSTATE___CTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x12B7DE80)
 
 namespace Spine
 {
-	inline static constexpr unsigned int AnimationState_TypeDefinitionIndex = 36390;
+	inline static constexpr unsigned int AnimationState_TypeDefinitionIndex = 36690;
 
 	class AnimationState : public ::System::Object
 	{
 	public:
 		static ::Spine::Animation** StaticGet_EmptyAnimation()
 		{
-			return (::Spine::Animation**)Il2CppClass::FromTypeDefinitionIndex(AnimationState_TypeDefinitionIndex)->GetStaticField(0xFE0);
+			return (::Spine::Animation**)Il2CppClass::FromTypeDefinitionIndex(AnimationState_TypeDefinitionIndex)->GetStaticField(0xF10);
 		}
 		// static const ::System::Int32 Subsequent = 0x0; // 0x0
 		// static const ::System::Int32 First = 0x1; // 0x0
@@ -94,25 +94,25 @@ namespace Spine
 		// static const ::System::Int32 HoldMix = 0x4; // 0x0
 		// static const ::System::Int32 Setup = 0x1; // 0x0
 		// static const ::System::Int32 Current = 0x2; // 0x0
-		::Spine::AnimationState_TrackEntryDelegate* End; // 0x10
-		::Spine::ExposedList_1<::Spine::TrackEntry*>* tracks; // 0x18
-		::Spine::AnimationState_TrackEntryDelegate* Interrupt; // 0x20
-		::Spine::AnimationState_TrackEntryEventDelegate* Event; // 0x28
-		::Spine::ExposedList_1<::Spine::Event*>* events; // 0x30
-		::Spine::AnimationState_TrackEntryDelegate* Start; // 0x38
-		::Spine::AnimationStateData* data; // 0x40
-		::Spine::AnimationState_TrackEntryDelegate* Complete; // 0x48
-		::System::Collections::Generic::HashSet_1<::System::String*>* propertyIds; // 0x50
-		::Spine::Pool_1<::Spine::TrackEntry*>* trackEntryPool; // 0x58
-		::Spine::AnimationState_TrackEntryDelegate* Dispose; // 0x60
-		::Spine::EventQueue* queue; // 0x68
-		::System::Boolean animationsChanged; // 0x70
-		::System::Int32 unkeyedState; // 0x74
-		::System::Single timeScale; // 0x78
+		::System::Collections::Generic::HashSet_1<::System::String*>* propertyIds; // 0x10
+		::Spine::AnimationState_TrackEntryDelegate* End; // 0x18
+		::Spine::AnimationState_TrackEntryDelegate* Dispose; // 0x20
+		::Spine::ExposedList_1<::Spine::TrackEntry*>* tracks; // 0x28
+		::Spine::AnimationState_TrackEntryDelegate* Complete; // 0x30
+		::Spine::AnimationStateData* data; // 0x38
+		::Spine::EventQueue* queue; // 0x40
+		::Spine::ExposedList_1<::Spine::Event*>* events; // 0x48
+		::Spine::AnimationState_TrackEntryDelegate* Start; // 0x50
+		::Spine::AnimationState_TrackEntryEventDelegate* Event; // 0x58
+		::Spine::Pool_1<::Spine::TrackEntry*>* trackEntryPool; // 0x60
+		::Spine::AnimationState_TrackEntryDelegate* Interrupt; // 0x68
+		::System::Single timeScale; // 0x70
+		::System::Boolean animationsChanged; // 0x74
+		::System::Int32 unkeyedState; // 0x78
 
-		::System::Void _ctor(::Spine::AnimationStateData* data)
+		::System::Void _ctor(::Spine::AnimationStateData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationStateData*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE__CTOR_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationStateData*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE__CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -120,154 +120,154 @@ namespace Spine
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE__CCTOR_OFFSET))();
 		}
 
-		::System::Void OnStart(::Spine::TrackEntry* entry)
+		::System::Void OnStart(::Spine::TrackEntry* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ONSTART_OFFSET))(this, entry);
+			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ONSTART_OFFSET))(this, a1);
 		}
 
-		::System::Void OnInterrupt(::Spine::TrackEntry* entry)
+		::System::Void OnInterrupt(::Spine::TrackEntry* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ONINTERRUPT_OFFSET))(this, entry);
+			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ONINTERRUPT_OFFSET))(this, a1);
 		}
 
-		::System::Void OnEnd(::Spine::TrackEntry* entry)
+		::System::Void OnEnd(::Spine::TrackEntry* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ONEND_OFFSET))(this, entry);
+			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ONEND_OFFSET))(this, a1);
 		}
 
-		::System::Void OnDispose(::Spine::TrackEntry* entry)
+		::System::Void OnDispose(::Spine::TrackEntry* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ONDISPOSE_OFFSET))(this, entry);
+			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ONDISPOSE_OFFSET))(this, a1);
 		}
 
-		::System::Void OnComplete(::Spine::TrackEntry* entry)
+		::System::Void OnComplete(::Spine::TrackEntry* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ONCOMPLETE_OFFSET))(this, entry);
+			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ONCOMPLETE_OFFSET))(this, a1);
 		}
 
-		::System::Void OnEvent(::Spine::TrackEntry* entry, ::Spine::Event* e)
+		::System::Void OnEvent(::Spine::TrackEntry* a1, ::Spine::Event* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*, ::Spine::Event*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ONEVENT_OFFSET))(this, entry, e);
+			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*, ::Spine::Event*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ONEVENT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void add_Start(::Spine::AnimationState_TrackEntryDelegate* value)
+		::System::Void add_Start(::Spine::AnimationState_TrackEntryDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ADD_START_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ADD_START_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_Start(::Spine::AnimationState_TrackEntryDelegate* value)
+		::System::Void remove_Start(::Spine::AnimationState_TrackEntryDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_REMOVE_START_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_REMOVE_START_OFFSET))(this, a1);
 		}
 
-		::System::Void add_Interrupt(::Spine::AnimationState_TrackEntryDelegate* value)
+		::System::Void add_Interrupt(::Spine::AnimationState_TrackEntryDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ADD_INTERRUPT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ADD_INTERRUPT_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_Interrupt(::Spine::AnimationState_TrackEntryDelegate* value)
+		::System::Void remove_Interrupt(::Spine::AnimationState_TrackEntryDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_REMOVE_INTERRUPT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_REMOVE_INTERRUPT_OFFSET))(this, a1);
 		}
 
-		::System::Void add_End(::Spine::AnimationState_TrackEntryDelegate* value)
+		::System::Void add_End(::Spine::AnimationState_TrackEntryDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ADD_END_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ADD_END_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_End(::Spine::AnimationState_TrackEntryDelegate* value)
+		::System::Void remove_End(::Spine::AnimationState_TrackEntryDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_REMOVE_END_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_REMOVE_END_OFFSET))(this, a1);
 		}
 
-		::System::Void add_Dispose(::Spine::AnimationState_TrackEntryDelegate* value)
+		::System::Void add_Dispose(::Spine::AnimationState_TrackEntryDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ADD_DISPOSE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ADD_DISPOSE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_Dispose(::Spine::AnimationState_TrackEntryDelegate* value)
+		::System::Void remove_Dispose(::Spine::AnimationState_TrackEntryDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_REMOVE_DISPOSE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_REMOVE_DISPOSE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_Complete(::Spine::AnimationState_TrackEntryDelegate* value)
+		::System::Void add_Complete(::Spine::AnimationState_TrackEntryDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ADD_COMPLETE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ADD_COMPLETE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_Complete(::Spine::AnimationState_TrackEntryDelegate* value)
+		::System::Void remove_Complete(::Spine::AnimationState_TrackEntryDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_REMOVE_COMPLETE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_REMOVE_COMPLETE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_Event(::Spine::AnimationState_TrackEntryEventDelegate* value)
+		::System::Void add_Event(::Spine::AnimationState_TrackEntryEventDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryEventDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ADD_EVENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryEventDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ADD_EVENT_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_Event(::Spine::AnimationState_TrackEntryEventDelegate* value)
+		::System::Void remove_Event(::Spine::AnimationState_TrackEntryEventDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryEventDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_REMOVE_EVENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryEventDelegate*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_REMOVE_EVENT_OFFSET))(this, a1);
 		}
 
-		::System::Void AssignEventSubscribersFrom(::Spine::AnimationState* src)
+		::System::Void AssignEventSubscribersFrom(::Spine::AnimationState* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ASSIGNEVENTSUBSCRIBERSFROM_OFFSET))(this, src);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ASSIGNEVENTSUBSCRIBERSFROM_OFFSET))(this, a1);
 		}
 
-		::System::Void AddEventSubscribersFrom(::Spine::AnimationState* src)
+		::System::Void AddEventSubscribersFrom(::Spine::AnimationState* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ADDEVENTSUBSCRIBERSFROM_OFFSET))(this, src);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ADDEVENTSUBSCRIBERSFROM_OFFSET))(this, a1);
 		}
 
-		::System::Void Update(::System::Single delta)
+		::System::Void Update(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_UPDATE_OFFSET))(this, delta);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_UPDATE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean UpdateMixingFrom(::Spine::TrackEntry* to, ::System::Single delta)
+		::System::Boolean UpdateMixingFrom(::Spine::TrackEntry* a1, ::System::Single a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Spine::TrackEntry*, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_UPDATEMIXINGFROM_OFFSET))(this, to, delta);
+			return ((::System::Boolean(*)(::PVOID, ::Spine::TrackEntry*, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_UPDATEMIXINGFROM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Apply(::Spine::Skeleton* skeleton)
+		::System::Boolean Apply(::Spine::Skeleton* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Spine::Skeleton*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_APPLY_OFFSET))(this, skeleton);
+			return ((::System::Boolean(*)(::PVOID, ::Spine::Skeleton*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_APPLY_OFFSET))(this, a1);
 		}
 
-		::System::Boolean ApplyEventTimelinesOnly(::Spine::Skeleton* skeleton, ::System::Boolean issueEvents)
+		::System::Boolean ApplyEventTimelinesOnly(::Spine::Skeleton* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Spine::Skeleton*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_APPLYEVENTTIMELINESONLY_OFFSET))(this, skeleton, issueEvents);
+			return ((::System::Boolean(*)(::PVOID, ::Spine::Skeleton*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_APPLYEVENTTIMELINESONLY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Single ApplyMixingFrom(::Spine::TrackEntry* to, ::Spine::Skeleton* skeleton, ::Spine::MixBlend blend)
+		::System::Single ApplyMixingFrom(::Spine::TrackEntry* a1, ::Spine::Skeleton* a2, ::Spine::MixBlend a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::Spine::TrackEntry*, ::Spine::Skeleton*, ::Spine::MixBlend))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_APPLYMIXINGFROM_OFFSET))(this, to, skeleton, blend);
+			return ((::System::Single(*)(::PVOID, ::Spine::TrackEntry*, ::Spine::Skeleton*, ::Spine::MixBlend))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_APPLYMIXINGFROM_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single ApplyMixingFromEventTimelinesOnly(::Spine::TrackEntry* to, ::Spine::Skeleton* skeleton, ::System::Boolean issueEvents)
+		::System::Single ApplyMixingFromEventTimelinesOnly(::Spine::TrackEntry* a1, ::Spine::Skeleton* a2, ::System::Boolean a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::Spine::TrackEntry*, ::Spine::Skeleton*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_APPLYMIXINGFROMEVENTTIMELINESONLY_OFFSET))(this, to, skeleton, issueEvents);
+			return ((::System::Single(*)(::PVOID, ::Spine::TrackEntry*, ::Spine::Skeleton*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_APPLYMIXINGFROMEVENTTIMELINESONLY_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ApplyAttachmentTimeline(::Spine::AttachmentTimeline* timeline, ::Spine::Skeleton* skeleton, ::System::Single time, ::Spine::MixBlend blend, ::System::Boolean attachments)
+		::System::Void ApplyAttachmentTimeline(::Spine::AttachmentTimeline* a1, ::Spine::Skeleton* a2, ::System::Single a3, ::Spine::MixBlend a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AttachmentTimeline*, ::Spine::Skeleton*, ::System::Single, ::Spine::MixBlend, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_APPLYATTACHMENTTIMELINE_OFFSET))(this, timeline, skeleton, time, blend, attachments);
+			return ((::System::Void(*)(::PVOID, ::Spine::AttachmentTimeline*, ::Spine::Skeleton*, ::System::Single, ::Spine::MixBlend, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_APPLYATTACHMENTTIMELINE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void SetAttachment(::Spine::Skeleton* skeleton, ::Spine::Slot* slot, ::System::String* attachmentName, ::System::Boolean attachments)
+		::System::Void SetAttachment(::Spine::Skeleton* a1, ::Spine::Slot* a2, ::System::String* a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::Spine::Slot*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_SETATTACHMENT_OFFSET))(this, skeleton, slot, attachmentName, attachments);
+			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::Spine::Slot*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_SETATTACHMENT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		static ::System::Void ApplyRotateTimeline(::Spine::RotateTimeline* timeline, ::Spine::Skeleton* skeleton, ::System::Single time, ::System::Single alpha, ::Spine::MixBlend blend, ::Il2CppArray<::System::Single>* timelinesRotation, ::System::Int32 i, ::System::Boolean firstFrame)
+		static ::System::Void ApplyRotateTimeline(::Spine::RotateTimeline* a1, ::Spine::Skeleton* a2, ::System::Single a3, ::System::Single a4, ::Spine::MixBlend a5, ::Il2CppArray<::System::Single>* a6, ::System::Int32 a7, ::System::Boolean a8)
 		{
-			return ((::System::Void(*)(::Spine::RotateTimeline*, ::Spine::Skeleton*, ::System::Single, ::System::Single, ::Spine::MixBlend, ::Il2CppArray<::System::Single>*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_APPLYROTATETIMELINE_OFFSET))(timeline, skeleton, time, alpha, blend, timelinesRotation, i, firstFrame);
+			return ((::System::Void(*)(::Spine::RotateTimeline*, ::Spine::Skeleton*, ::System::Single, ::System::Single, ::Spine::MixBlend, ::Il2CppArray<::System::Single>*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_APPLYROTATETIMELINE_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::System::Void QueueEvents(::Spine::TrackEntry* entry, ::System::Single animationTime)
+		::System::Void QueueEvents(::Spine::TrackEntry* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_QUEUEEVENTS_OFFSET))(this, entry, animationTime);
+			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_QUEUEEVENTS_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ClearTracks()
@@ -275,64 +275,64 @@ namespace Spine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_CLEARTRACKS_OFFSET))(this);
 		}
 
-		::System::Void ClearTrack(::System::Int32 trackIndex)
+		::System::Void ClearTrack(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_CLEARTRACK_OFFSET))(this, trackIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_CLEARTRACK_OFFSET))(this, a1);
 		}
 
-		::System::Void SetCurrent(::System::Int32 index, ::Spine::TrackEntry* current, ::System::Boolean interrupt)
+		::System::Void SetCurrent(::System::Int32 a1, ::Spine::TrackEntry* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Spine::TrackEntry*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_SETCURRENT_OFFSET))(this, index, current, interrupt);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Spine::TrackEntry*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_SETCURRENT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Spine::TrackEntry* SetAnimation(::System::Int32 trackIndex, ::System::String* animationName, ::System::Boolean loop)
+		::Spine::TrackEntry* SetAnimation(::System::Int32 a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::Spine::TrackEntry*(*)(::PVOID, ::System::Int32, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_SETANIMATION_OFFSET))(this, trackIndex, animationName, loop);
+			return ((::Spine::TrackEntry*(*)(::PVOID, ::System::Int32, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_SETANIMATION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Spine::TrackEntry* SetAnimation_1(::System::Int32 trackIndex, ::Spine::Animation* animation, ::System::Boolean loop)
+		::Spine::TrackEntry* SetAnimation_1(::System::Int32 a1, ::Spine::Animation* a2, ::System::Boolean a3)
 		{
-			return ((::Spine::TrackEntry*(*)(::PVOID, ::System::Int32, ::Spine::Animation*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_SETANIMATION_1_OFFSET))(this, trackIndex, animation, loop);
+			return ((::Spine::TrackEntry*(*)(::PVOID, ::System::Int32, ::Spine::Animation*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_SETANIMATION_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Spine::TrackEntry* AddAnimation(::System::Int32 trackIndex, ::System::String* animationName, ::System::Boolean loop, ::System::Single delay)
+		::Spine::TrackEntry* AddAnimation(::System::Int32 a1, ::System::String* a2, ::System::Boolean a3, ::System::Single a4)
 		{
-			return ((::Spine::TrackEntry*(*)(::PVOID, ::System::Int32, ::System::String*, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ADDANIMATION_OFFSET))(this, trackIndex, animationName, loop, delay);
+			return ((::Spine::TrackEntry*(*)(::PVOID, ::System::Int32, ::System::String*, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ADDANIMATION_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::Spine::TrackEntry* AddAnimation_1(::System::Int32 trackIndex, ::Spine::Animation* animation, ::System::Boolean loop, ::System::Single delay)
+		::Spine::TrackEntry* AddAnimation_1(::System::Int32 a1, ::Spine::Animation* a2, ::System::Boolean a3, ::System::Single a4)
 		{
-			return ((::Spine::TrackEntry*(*)(::PVOID, ::System::Int32, ::Spine::Animation*, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ADDANIMATION_1_OFFSET))(this, trackIndex, animation, loop, delay);
+			return ((::Spine::TrackEntry*(*)(::PVOID, ::System::Int32, ::Spine::Animation*, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ADDANIMATION_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::Spine::TrackEntry* SetEmptyAnimation(::System::Int32 trackIndex, ::System::Single mixDuration)
+		::Spine::TrackEntry* SetEmptyAnimation(::System::Int32 a1, ::System::Single a2)
 		{
-			return ((::Spine::TrackEntry*(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_SETEMPTYANIMATION_OFFSET))(this, trackIndex, mixDuration);
+			return ((::Spine::TrackEntry*(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_SETEMPTYANIMATION_OFFSET))(this, a1, a2);
 		}
 
-		::Spine::TrackEntry* AddEmptyAnimation(::System::Int32 trackIndex, ::System::Single mixDuration, ::System::Single delay)
+		::Spine::TrackEntry* AddEmptyAnimation(::System::Int32 a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::Spine::TrackEntry*(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ADDEMPTYANIMATION_OFFSET))(this, trackIndex, mixDuration, delay);
+			return ((::Spine::TrackEntry*(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ADDEMPTYANIMATION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetEmptyAnimations(::System::Single mixDuration)
+		::System::Void SetEmptyAnimations(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_SETEMPTYANIMATIONS_OFFSET))(this, mixDuration);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_SETEMPTYANIMATIONS_OFFSET))(this, a1);
 		}
 
-		::Spine::TrackEntry* ExpandToIndex(::System::Int32 index)
+		::Spine::TrackEntry* ExpandToIndex(::System::Int32 a1)
 		{
-			return ((::Spine::TrackEntry*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_EXPANDTOINDEX_OFFSET))(this, index);
+			return ((::Spine::TrackEntry*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_EXPANDTOINDEX_OFFSET))(this, a1);
 		}
 
-		::Spine::TrackEntry* NewTrackEntry(::System::Int32 trackIndex, ::Spine::Animation* animation, ::System::Boolean loop, ::Spine::TrackEntry* last)
+		::Spine::TrackEntry* NewTrackEntry(::System::Int32 a1, ::Spine::Animation* a2, ::System::Boolean a3, ::Spine::TrackEntry* a4)
 		{
-			return ((::Spine::TrackEntry*(*)(::PVOID, ::System::Int32, ::Spine::Animation*, ::System::Boolean, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_NEWTRACKENTRY_OFFSET))(this, trackIndex, animation, loop, last);
+			return ((::Spine::TrackEntry*(*)(::PVOID, ::System::Int32, ::Spine::Animation*, ::System::Boolean, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_NEWTRACKENTRY_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void ClearNext(::Spine::TrackEntry* entry)
+		::System::Void ClearNext(::Spine::TrackEntry* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_CLEARNEXT_OFFSET))(this, entry);
+			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_CLEARNEXT_OFFSET))(this, a1);
 		}
 
 		::System::Void AnimationsChanged()
@@ -340,14 +340,14 @@ namespace Spine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_ANIMATIONSCHANGED_OFFSET))(this);
 		}
 
-		::System::Void ComputeHold(::Spine::TrackEntry* entry)
+		::System::Void ComputeHold(::Spine::TrackEntry* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_COMPUTEHOLD_OFFSET))(this, entry);
+			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_COMPUTEHOLD_OFFSET))(this, a1);
 		}
 
-		::Spine::TrackEntry* GetCurrent(::System::Int32 trackIndex)
+		::Spine::TrackEntry* GetCurrent(::System::Int32 a1)
 		{
-			return ((::Spine::TrackEntry*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_GETCURRENT_OFFSET))(this, trackIndex);
+			return ((::Spine::TrackEntry*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_GETCURRENT_OFFSET))(this, a1);
 		}
 
 		::System::Void ClearListenerNotifications()
@@ -360,9 +360,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_GET_TIMESCALE_OFFSET))(this);
 		}
 
-		::System::Void set_TimeScale(::System::Single value)
+		::System::Void set_TimeScale(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_SET_TIMESCALE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_SET_TIMESCALE_OFFSET))(this, a1);
 		}
 
 		::Spine::AnimationStateData* get_Data()
@@ -370,9 +370,9 @@ namespace Spine
 			return ((::Spine::AnimationStateData*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_GET_DATA_OFFSET))(this);
 		}
 
-		::System::Void set_Data(::Spine::AnimationStateData* value)
+		::System::Void set_Data(::Spine::AnimationStateData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationStateData*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_SET_DATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationStateData*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_SET_DATA_OFFSET))(this, a1);
 		}
 
 		::Spine::ExposedList_1<::Spine::TrackEntry*>* get_Tracks()

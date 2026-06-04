@@ -6,13 +6,13 @@ namespace System { class String; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class ExternalKeyboard; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182F8020)
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD___C__DISPLAYCLASS16_0__OBSERVEBROWSER_B__0_OFFSET UNITYSDK_OFFSET(0x182F8E90)
-#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD___C__DISPLAYCLASS16_0__OBSERVEBROWSER_B__1_OFFSET UNITYSDK_OFFSET(0x182F8EE0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18E42800)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD___C__DISPLAYCLASS16_0__OBSERVEBROWSER_B__0_OFFSET UNITYSDK_OFFSET(0x18E43580)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD___C__DISPLAYCLASS16_0__OBSERVEBROWSER_B__1_OFFSET UNITYSDK_OFFSET(0x18E435D0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int ExternalKeyboard___c__DisplayClass16_0_TypeDefinitionIndex = 36265;
+	inline static constexpr unsigned int ExternalKeyboard___c__DisplayClass16_0_TypeDefinitionIndex = 36565;
 
 	class ExternalKeyboard___c__DisplayClass16_0 : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD___C__DISPLAYCLASS16_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ObserveBrowser_b__0(::System::String* tagName, ::System::Boolean editable, ::System::String* value)
+		::System::Void _ObserveBrowser_b__0(::System::String* a1, ::System::Boolean a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD___C__DISPLAYCLASS16_0__OBSERVEBROWSER_B__0_OFFSET))(this, tagName, editable, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD___C__DISPLAYCLASS16_0__OBSERVEBROWSER_B__0_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ObserveBrowser_b__1()

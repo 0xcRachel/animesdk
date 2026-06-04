@@ -4,9 +4,9 @@
 
 namespace RPG::Client { class RogueTournBuildRefShareCodeDataItem; }
 
-#define CLASS_2_B2EC0116D7420B36__CTOR_OFFSET UNITYSDK_OFFSET(0xEE90F60)
+#define CLASS_2_B2EC0116D7420B36__CTOR_OFFSET UNITYSDK_OFFSET(0x143A5F80)
 
-inline static constexpr unsigned int Class_2_B2EC0116D7420B36_TypeDefinitionIndex = 62210;
+inline static constexpr unsigned int Class_2_B2EC0116D7420B36_TypeDefinitionIndex = 63143;
 
 class Class_2_B2EC0116D7420B36 : public ::System::Exception
 {

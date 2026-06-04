@@ -8,29 +8,29 @@ namespace System { class Type; }
 namespace System::Collections::Immutable { template <typename T> class ImmutableHashSet_1; }
 namespace System::Reflection { class AssemblyName; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLYFACTORY_GETDYNAMICASSEMBLY_OFFSET UNITYSDK_OFFSET(0x164B2BA0)
-#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLYFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x164B2AD0)
-#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLYFACTORY__GETDYNAMICASSEMBLY_G__NEWASSEMBLY_4_0_OFFSET UNITYSDK_OFFSET(0x164B2F00)
+#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLYFACTORY_GETDYNAMICASSEMBLY_OFFSET UNITYSDK_OFFSET(0x1400EAF0)
+#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLYFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1400EA20)
+#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLYFACTORY__GETDYNAMICASSEMBLY_G__NEWASSEMBLY_4_0_OFFSET UNITYSDK_OFFSET(0x1400EE50)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicAssemblyFactory_TypeDefinitionIndex = 9342;
+	inline static constexpr unsigned int DynamicAssemblyFactory_TypeDefinitionIndex = 7245;
 
 	class DynamicAssemblyFactory : public ::System::Object
 	{
 	public:
 		::System::Collections::Immutable::ImmutableHashSet_1<::System::Reflection::AssemblyName*>* lastCreatedDynamicAssemblySkipVisibilityChecks; // 0x10
-		::System::String* moduleName; // 0x18
-		::MessagePack::Internal::DynamicAssembly* singletonAssembly; // 0x20
+		::MessagePack::Internal::DynamicAssembly* singletonAssembly; // 0x18
+		::System::String* moduleName; // 0x20
 
-		::System::Void _ctor(::System::String* moduleName)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICASSEMBLYFACTORY__CTOR_OFFSET))(this, moduleName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICASSEMBLYFACTORY__CTOR_OFFSET))(this, a1);
 		}
 
-		::MessagePack::Internal::DynamicAssembly* GetDynamicAssembly(::System::Type* type, ::System::Boolean allowPrivate)
+		::MessagePack::Internal::DynamicAssembly* GetDynamicAssembly(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::MessagePack::Internal::DynamicAssembly*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICASSEMBLYFACTORY_GETDYNAMICASSEMBLY_OFFSET))(this, type, allowPrivate);
+			return ((::MessagePack::Internal::DynamicAssembly*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICASSEMBLYFACTORY_GETDYNAMICASSEMBLY_OFFSET))(this, a1, a2);
 		}
 
 		::MessagePack::Internal::DynamicAssembly* _GetDynamicAssembly_g__NewAssembly_4_0()

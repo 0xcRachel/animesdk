@@ -8,26 +8,26 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillCharacterComponent; }
 namespace RPG::GameCore { class SkillData; }
 
-#define CLASS_1_83D980B81C9B9AFA_GET_ELATIONCONFIG_OFFSET UNITYSDK_OFFSET(0x10639950)
-#define CLASS_1_83D980B81C9B9AFA_GET_ELATIONSKILLROW_OFFSET UNITYSDK_OFFSET(0x10639970)
-#define CLASS_1_83D980B81C9B9AFA_GET_OWNER_OFFSET UNITYSDK_OFFSET(0x10639990)
-#define CLASS_1_83D980B81C9B9AFA_GET_SKILLDATA_OFFSET UNITYSDK_OFFSET(0x10639880)
-#define CLASS_1_83D980B81C9B9AFA_METHOD_1_BCDB47CE840CA6EB_OFFSET UNITYSDK_OFFSET(0x106398A0)
-#define CLASS_1_83D980B81C9B9AFA_METHOD_1_FEDE09C198114DBE_OFFSET UNITYSDK_OFFSET(0x106399B0)
-#define CLASS_1_83D980B81C9B9AFA_SET_ELATIONCONFIG_OFFSET UNITYSDK_OFFSET(0x10639960)
-#define CLASS_1_83D980B81C9B9AFA_SET_ELATIONSKILLROW_OFFSET UNITYSDK_OFFSET(0x10639980)
-#define CLASS_1_83D980B81C9B9AFA_SET_OWNER_OFFSET UNITYSDK_OFFSET(0x106399A0)
-#define CLASS_1_83D980B81C9B9AFA_SET_SKILLDATA_OFFSET UNITYSDK_OFFSET(0x10639890)
-#define CLASS_1_83D980B81C9B9AFA__CTOR_OFFSET UNITYSDK_OFFSET(0x106397D0)
+#define CLASS_1_83D980B81C9B9AFA_GET_ELATIONCONFIG_OFFSET UNITYSDK_OFFSET(0x16BD1E80)
+#define CLASS_1_83D980B81C9B9AFA_GET_ELATIONSKILLROW_OFFSET UNITYSDK_OFFSET(0x16BD1EA0)
+#define CLASS_1_83D980B81C9B9AFA_GET_OWNER_OFFSET UNITYSDK_OFFSET(0x16BD1EC0)
+#define CLASS_1_83D980B81C9B9AFA_GET_SKILLDATA_OFFSET UNITYSDK_OFFSET(0x16BD1DB0)
+#define CLASS_1_83D980B81C9B9AFA_METHOD_1_BCDB47CE840CA6EB_OFFSET UNITYSDK_OFFSET(0x16BD1DD0)
+#define CLASS_1_83D980B81C9B9AFA_METHOD_1_FEDE09C198114DBE_OFFSET UNITYSDK_OFFSET(0x16BD1EE0)
+#define CLASS_1_83D980B81C9B9AFA_SET_ELATIONCONFIG_OFFSET UNITYSDK_OFFSET(0x16BD1E90)
+#define CLASS_1_83D980B81C9B9AFA_SET_ELATIONSKILLROW_OFFSET UNITYSDK_OFFSET(0x16BD1EB0)
+#define CLASS_1_83D980B81C9B9AFA_SET_OWNER_OFFSET UNITYSDK_OFFSET(0x16BD1ED0)
+#define CLASS_1_83D980B81C9B9AFA_SET_SKILLDATA_OFFSET UNITYSDK_OFFSET(0x16BD1DC0)
+#define CLASS_1_83D980B81C9B9AFA__CTOR_OFFSET UNITYSDK_OFFSET(0x16BD1D00)
 
-inline static constexpr unsigned int Class_1_83D980B81C9B9AFA_TypeDefinitionIndex = 53162;
+inline static constexpr unsigned int Class_1_83D980B81C9B9AFA_TypeDefinitionIndex = 53872;
 
 class Class_1_83D980B81C9B9AFA : public ::System::Object
 {
 public:
-	::RPG::GameCore::SkillData* _SkillData_k__BackingField; // 0x10
-	::RPG::GameCore::ElationSkillRow* _ElationSkillRow_k__BackingField; // 0x18
-	::RPG::GameCore::ElationConfig* _ElationConfig_k__BackingField; // 0x20
+	::RPG::GameCore::ElationConfig* _ElationConfig_k__BackingField; // 0x10
+	::RPG::GameCore::SkillData* _SkillData_k__BackingField; // 0x18
+	::RPG::GameCore::ElationSkillRow* _ElationSkillRow_k__BackingField; // 0x20
 	::RPG::GameCore::SkillCharacterComponent* _Owner_k__BackingField; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::SkillCharacterComponent* a1, ::RPG::GameCore::ElationConfig* a2)
@@ -40,9 +40,9 @@ public:
 		return ((::RPG::GameCore::SkillData*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_83D980B81C9B9AFA_GET_SKILLDATA_OFFSET))(this);
 	}
 
-	::System::Void set_SkillData(::RPG::GameCore::SkillData* value)
+	::System::Void set_SkillData(::RPG::GameCore::SkillData* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillData*))((::PBYTE)hIl2Cpp + CLASS_1_83D980B81C9B9AFA_SET_SKILLDATA_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillData*))((::PBYTE)hIl2Cpp + CLASS_1_83D980B81C9B9AFA_SET_SKILLDATA_OFFSET))(this, a1);
 	}
 
 	::System::Int32 Method_1_BCDB47CE840CA6EB()
@@ -55,9 +55,9 @@ public:
 		return ((::RPG::GameCore::ElationConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_83D980B81C9B9AFA_GET_ELATIONCONFIG_OFFSET))(this);
 	}
 
-	::System::Void set_ElationConfig(::RPG::GameCore::ElationConfig* value)
+	::System::Void set_ElationConfig(::RPG::GameCore::ElationConfig* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ElationConfig*))((::PBYTE)hIl2Cpp + CLASS_1_83D980B81C9B9AFA_SET_ELATIONCONFIG_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ElationConfig*))((::PBYTE)hIl2Cpp + CLASS_1_83D980B81C9B9AFA_SET_ELATIONCONFIG_OFFSET))(this, a1);
 	}
 
 	::RPG::GameCore::ElationSkillRow* get_ElationSkillRow()
@@ -65,9 +65,9 @@ public:
 		return ((::RPG::GameCore::ElationSkillRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_83D980B81C9B9AFA_GET_ELATIONSKILLROW_OFFSET))(this);
 	}
 
-	::System::Void set_ElationSkillRow(::RPG::GameCore::ElationSkillRow* value)
+	::System::Void set_ElationSkillRow(::RPG::GameCore::ElationSkillRow* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ElationSkillRow*))((::PBYTE)hIl2Cpp + CLASS_1_83D980B81C9B9AFA_SET_ELATIONSKILLROW_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ElationSkillRow*))((::PBYTE)hIl2Cpp + CLASS_1_83D980B81C9B9AFA_SET_ELATIONSKILLROW_OFFSET))(this, a1);
 	}
 
 	::RPG::GameCore::SkillCharacterComponent* get_Owner()
@@ -75,9 +75,9 @@ public:
 		return ((::RPG::GameCore::SkillCharacterComponent*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_83D980B81C9B9AFA_GET_OWNER_OFFSET))(this);
 	}
 
-	::System::Void set_Owner(::RPG::GameCore::SkillCharacterComponent* value)
+	::System::Void set_Owner(::RPG::GameCore::SkillCharacterComponent* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillCharacterComponent*))((::PBYTE)hIl2Cpp + CLASS_1_83D980B81C9B9AFA_SET_OWNER_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillCharacterComponent*))((::PBYTE)hIl2Cpp + CLASS_1_83D980B81C9B9AFA_SET_OWNER_OFFSET))(this, a1);
 	}
 
 	::RPG::GameCore::GameEntity* Method_1_FEDE09C198114DBE()

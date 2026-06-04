@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/ControlTimelineEntityEvent.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTURECONTROLTIMELINEENTITYEVENT_CLEAR_OFFSET UNITYSDK_OFFSET(0xC769260)
-#define RPG_GAMECORE_ADVENTURECONTROLTIMELINEENTITYEVENT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xC769300)
-#define RPG_GAMECORE_ADVENTURECONTROLTIMELINEENTITYEVENT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xC7692B0)
-#define RPG_GAMECORE_ADVENTURECONTROLTIMELINEENTITYEVENT_INIT_OFFSET UNITYSDK_OFFSET(0xC7691F0)
-#define RPG_GAMECORE_ADVENTURECONTROLTIMELINEENTITYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xC769350)
-#define RPG_GAMECORE_ADVENTURECONTROLTIMELINEENTITYEVENT___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xC769360)
+#define RPG_GAMECORE_ADVENTURECONTROLTIMELINEENTITYEVENT_CLEAR_OFFSET UNITYSDK_OFFSET(0x12977850)
+#define RPG_GAMECORE_ADVENTURECONTROLTIMELINEENTITYEVENT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x129778F0)
+#define RPG_GAMECORE_ADVENTURECONTROLTIMELINEENTITYEVENT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x129778A0)
+#define RPG_GAMECORE_ADVENTURECONTROLTIMELINEENTITYEVENT_INIT_OFFSET UNITYSDK_OFFSET(0x129777E0)
+#define RPG_GAMECORE_ADVENTURECONTROLTIMELINEENTITYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x12977940)
+#define RPG_GAMECORE_ADVENTURECONTROLTIMELINEENTITYEVENT___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x12977950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureControlTimelineEntityEvent_TypeDefinitionIndex = 52196;
+	inline static constexpr unsigned int AdventureControlTimelineEntityEvent_TypeDefinitionIndex = 52893;
 
-	class AdventureControlTimelineEntityEvent : public ::Class_1_9988289E7F8AA214
+	class AdventureControlTimelineEntityEvent : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::System::String* StateName; // 0x18
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECONTROLTIMELINEENTITYEVENT__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::AdventureControlTimelineEntityEvent* Init(::RPG::GameCore::GameEntity* target, ::RPG::GameCore::ControlTimelineEntityEvent entityEventType, ::System::String* newStateName)
+		::RPG::GameCore::AdventureControlTimelineEntityEvent* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::ControlTimelineEntityEvent a2, ::System::String* a3)
 		{
-			return ((::RPG::GameCore::AdventureControlTimelineEntityEvent*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::ControlTimelineEntityEvent, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECONTROLTIMELINEENTITYEVENT_INIT_OFFSET))(this, target, entityEventType, newStateName);
+			return ((::RPG::GameCore::AdventureControlTimelineEntityEvent*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::ControlTimelineEntityEvent, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECONTROLTIMELINEENTITYEVENT_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Clear()

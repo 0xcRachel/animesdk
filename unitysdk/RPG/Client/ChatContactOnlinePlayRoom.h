@@ -6,15 +6,15 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CHATCONTACTONLINEPLAYROOM_CREATE_OFFSET UNITYSDK_OFFSET(0x15DEC8C0)
-#define RPG_CLIENT_CHATCONTACTONLINEPLAYROOM_GET_HEADICON_OFFSET UNITYSDK_OFFSET(0x15DECB50)
-#define RPG_CLIENT_CHATCONTACTONLINEPLAYROOM_REQUESTHISTORY_OFFSET UNITYSDK_OFFSET(0x15DECB10)
-#define RPG_CLIENT_CHATCONTACTONLINEPLAYROOM_SENDMESSAGE__OFFSET UNITYSDK_OFFSET(0x15DEC970)
-#define RPG_CLIENT_CHATCONTACTONLINEPLAYROOM__CTOR_OFFSET UNITYSDK_OFFSET(0x15DEC820)
+#define RPG_CLIENT_CHATCONTACTONLINEPLAYROOM_CREATE_OFFSET UNITYSDK_OFFSET(0x17B1AD40)
+#define RPG_CLIENT_CHATCONTACTONLINEPLAYROOM_GET_HEADICON_OFFSET UNITYSDK_OFFSET(0x17B1AFE0)
+#define RPG_CLIENT_CHATCONTACTONLINEPLAYROOM_REQUESTHISTORY_OFFSET UNITYSDK_OFFSET(0x17B1AFA0)
+#define RPG_CLIENT_CHATCONTACTONLINEPLAYROOM_SENDMESSAGE__OFFSET UNITYSDK_OFFSET(0x17B1AE00)
+#define RPG_CLIENT_CHATCONTACTONLINEPLAYROOM__CTOR_OFFSET UNITYSDK_OFFSET(0x17B1ACA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChatContactOnlinePlayRoom_TypeDefinitionIndex = 58227;
+	inline static constexpr unsigned int ChatContactOnlinePlayRoom_TypeDefinitionIndex = 59157;
 
 	class ChatContactOnlinePlayRoom : public ::RPG::Client::ChatContactData
 	{
@@ -29,9 +29,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ChatContactOnlinePlayRoom*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTONLINEPLAYROOM_CREATE_OFFSET))();
 		}
 
-		::System::Void SendMessage_(::RPG::Client::MessageContentBlock_BlockType blockType, ::System::Object* data)
+		::System::Void SendMessage_(::RPG::Client::MessageContentBlock_BlockType a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MessageContentBlock_BlockType, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTONLINEPLAYROOM_SENDMESSAGE__OFFSET))(this, blockType, data);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MessageContentBlock_BlockType, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTONLINEPLAYROOM_SENDMESSAGE__OFFSET))(this, a1, a2);
 		}
 
 		::System::Void RequestHistory()

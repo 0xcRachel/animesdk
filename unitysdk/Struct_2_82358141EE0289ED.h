@@ -6,9 +6,9 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define STRUCT_2_82358141EE0289ED__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBA160)
+#define STRUCT_2_82358141EE0289ED__CTOR_OFFSET UNITYSDK_OFFSET(0x37DB4E0)
 
-inline static constexpr unsigned int Struct_2_82358141EE0289ED_TypeDefinitionIndex = 52495;
+inline static constexpr unsigned int Struct_2_82358141EE0289ED_TypeDefinitionIndex = 53195;
 
 struct alignas(8) Struct_2_82358141EE0289ED
 {

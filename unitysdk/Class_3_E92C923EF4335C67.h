@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByPamAnchorContinous; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E92C923EF4335C67_EVALUATE_OFFSET UNITYSDK_OFFSET(0x105ADFE0)
-#define CLASS_3_E92C923EF4335C67__CTOR_OFFSET UNITYSDK_OFFSET(0x105ADFB0)
+#define CLASS_3_E92C923EF4335C67_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12026080)
+#define CLASS_3_E92C923EF4335C67__CTOR_OFFSET UNITYSDK_OFFSET(0x12026050)
 
-inline static constexpr unsigned int Class_3_E92C923EF4335C67_TypeDefinitionIndex = 49011;
+inline static constexpr unsigned int Class_3_E92C923EF4335C67_TypeDefinitionIndex = 49677;
 
 class Class_3_E92C923EF4335C67 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByPamAnchorContinous*>
 {

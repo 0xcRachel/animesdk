@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Rendering/CompareFunction.h"
 #include "unitysdk/UnityEngine/Rendering/StencilOp.h"
 
-#define SERIALIZEDSTENCILSTATE_METHOD_2_2295030FA58C78A0_1_OFFSET UNITYSDK_OFFSET(0x2264990)
-#define SERIALIZEDSTENCILSTATE_METHOD_2_2295030FA58C78A0_OFFSET UNITYSDK_OFFSET(0x22648E0)
+#define SERIALIZEDSTENCILSTATE_METHOD_2_2295030FA58C78A0_1_OFFSET UNITYSDK_OFFSET(0x382DE50)
+#define SERIALIZEDSTENCILSTATE_METHOD_2_2295030FA58C78A0_OFFSET UNITYSDK_OFFSET(0x382DDB0)
 
-inline static constexpr unsigned int SerializedStencilState_TypeDefinitionIndex = 44166;
+inline static constexpr unsigned int SerializedStencilState_TypeDefinitionIndex = 44712;
 
 struct alignas(4) SerializedStencilState
 {

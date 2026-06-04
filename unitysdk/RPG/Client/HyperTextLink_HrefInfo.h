@@ -6,18 +6,18 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_HYPERTEXTLINK_HREFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15237350)
+#define RPG_CLIENT_HYPERTEXTLINK_HREFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x165DADD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HyperTextLink_HrefInfo_TypeDefinitionIndex = 66843;
+	inline static constexpr unsigned int HyperTextLink_HrefInfo_TypeDefinitionIndex = 67783;
 
 	class HyperTextLink_HrefInfo : public ::System::Object
 	{
 	public:
 		::System::String* name; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::Rect>* boxes; // 0x18
-		::System::String* type; // 0x20
+		::System::String* type; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::Rect>* boxes; // 0x20
 		::System::Int32 startIndex; // 0x28
 		::System::Int32 endIndex; // 0x2C
 

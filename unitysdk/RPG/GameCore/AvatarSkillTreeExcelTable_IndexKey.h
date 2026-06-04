@@ -4,23 +4,23 @@
 
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_INDEXKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x2260940)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_INDEXKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2260960)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_INDEXKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22C3D60)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_INDEXKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x6179C0)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_INDEXKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x382C8D0)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_INDEXKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x382C9A0)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_INDEXKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x382CA50)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_INDEXKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x6BD370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarSkillTreeExcelTable_IndexKey_TypeDefinitionIndex = 12024;
+	inline static constexpr unsigned int AvatarSkillTreeExcelTable_IndexKey_TypeDefinitionIndex = 12116;
 
 	struct alignas(4) AvatarSkillTreeExcelTable_IndexKey
 	{
 		::System::UInt32 PointID; // 0x10
 		::System::UInt32 Level; // 0x14
 
-		::System::Void _ctor(::System::UInt32 PointID, ::System::UInt32 Level)
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_INDEXKEY__CTOR_OFFSET))(this, PointID, Level);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_INDEXKEY__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* ToString()
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_INDEXKEY_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::RPG::GameCore::AvatarSkillTreeExcelTable_IndexKey other)
+		::System::Boolean Equals(::RPG::GameCore::AvatarSkillTreeExcelTable_IndexKey a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::AvatarSkillTreeExcelTable_IndexKey))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_INDEXKEY_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::AvatarSkillTreeExcelTable_IndexKey))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_INDEXKEY_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

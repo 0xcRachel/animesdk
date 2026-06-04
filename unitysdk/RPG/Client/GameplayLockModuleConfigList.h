@@ -10,12 +10,12 @@ namespace RPG::Client { class LockTargetConfigList; }
 namespace RPG::Client { class LockTargetParam; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_GAMEPLAYLOCKMODULECONFIGLIST_METHOD_2_A83D84C085C4AB80_OFFSET UNITYSDK_OFFSET(0x1A0E9350)
-#define RPG_CLIENT_GAMEPLAYLOCKMODULECONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0E9680)
+#define RPG_CLIENT_GAMEPLAYLOCKMODULECONFIGLIST_METHOD_2_8F580EBAFC286D64_OFFSET UNITYSDK_OFFSET(0x192425C0)
+#define RPG_CLIENT_GAMEPLAYLOCKMODULECONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19242780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GameplayLockModuleConfigList_TypeDefinitionIndex = 10065;
+	inline static constexpr unsigned int GameplayLockModuleConfigList_TypeDefinitionIndex = 9869;
 
 	class GameplayLockModuleConfigList : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEPLAYLOCKMODULECONFIGLIST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_A83D84C085C4AB80(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::GameplayLockModuleConfigList*& a2)
+		static ::System::Void Method_2_8F580EBAFC286D64(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::GameplayLockModuleConfigList*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::GameplayLockModuleConfigList*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEPLAYLOCKMODULECONFIGLIST_METHOD_2_A83D84C085C4AB80_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::GameplayLockModuleConfigList*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEPLAYLOCKMODULECONFIGLIST_METHOD_2_8F580EBAFC286D64_OFFSET))(a1, a2);
 		}
 	};
 }

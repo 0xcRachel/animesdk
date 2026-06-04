@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/Prop/BoxmanCoord.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_39DC98424E208118__CTOR_OFFSET UNITYSDK_OFFSET(0x10034900)
+#define CLASS_1_39DC98424E208118__CTOR_OFFSET UNITYSDK_OFFSET(0x150C4510)
 
-inline static constexpr unsigned int Class_1_39DC98424E208118_TypeDefinitionIndex = 72345;
+inline static constexpr unsigned int Class_1_39DC98424E208118_TypeDefinitionIndex = 73367;
 
 class Class_1_39DC98424E208118 : public ::System::Object
 {

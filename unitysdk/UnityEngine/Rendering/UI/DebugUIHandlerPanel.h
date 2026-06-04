@@ -8,17 +8,17 @@ namespace UnityEngine::Rendering::UI { class DebugUIHandlerWidget; }
 namespace UnityEngine::UI { class ScrollRect; }
 namespace UnityEngine::UI { class Text; }
 
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL_GETFIRSTITEM_OFFSET UNITYSDK_OFFSET(0x198D55A0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL_GETPANEL_OFFSET UNITYSDK_OFFSET(0x198DA400)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL_GETYPOSINSCROLL_OFFSET UNITYSDK_OFFSET(0x198DA410)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x198DA220)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL_SCROLLTO_OFFSET UNITYSDK_OFFSET(0x198D3D00)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL_SETPANEL_OFFSET UNITYSDK_OFFSET(0x198D49B0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x198DA5E0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL_GETFIRSTITEM_OFFSET UNITYSDK_OFFSET(0x1A5F54C0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL_GETPANEL_OFFSET UNITYSDK_OFFSET(0x1A5FA3B0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL_GETYPOSINSCROLL_OFFSET UNITYSDK_OFFSET(0x1A5FA3C0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A5FA1E0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL_SCROLLTO_OFFSET UNITYSDK_OFFSET(0x1A5F3AE0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL_SETPANEL_OFFSET UNITYSDK_OFFSET(0x1A5F4790)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5FA590)
 
 namespace UnityEngine::Rendering::UI
 {
-	inline static constexpr unsigned int DebugUIHandlerPanel_TypeDefinitionIndex = 33602;
+	inline static constexpr unsigned int DebugUIHandlerPanel_TypeDefinitionIndex = 33884;
 
 	class DebugUIHandlerPanel : public ::UnityEngine::MonoBehaviour
 	{
@@ -41,9 +41,9 @@ namespace UnityEngine::Rendering::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL_ONENABLE_OFFSET))(this);
 		}
 
-		::System::Void SetPanel(::UnityEngine::Rendering::DebugUI_Panel* panel)
+		::System::Void SetPanel(::UnityEngine::Rendering::DebugUI_Panel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::DebugUI_Panel*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL_SETPANEL_OFFSET))(this, panel);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::DebugUI_Panel*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL_SETPANEL_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Rendering::DebugUI_Panel* GetPanel()
@@ -51,14 +51,14 @@ namespace UnityEngine::Rendering::UI
 			return ((::UnityEngine::Rendering::DebugUI_Panel*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL_GETPANEL_OFFSET))(this);
 		}
 
-		::System::Void ScrollTo(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* target)
+		::System::Void ScrollTo(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL_SCROLLTO_OFFSET))(this, target);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL_SCROLLTO_OFFSET))(this, a1);
 		}
 
-		::System::Single GetYPosInScroll(::UnityEngine::RectTransform* target)
+		::System::Single GetYPosInScroll(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL_GETYPOSINSCROLL_OFFSET))(this, target);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPANEL_GETYPOSINSCROLL_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Rendering::UI::DebugUIHandlerWidget* GetFirstItem()

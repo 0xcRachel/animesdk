@@ -7,13 +7,13 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_SCENETRANSFORMANIM_GET_ISUPATEINEDITORMODE_OFFSET UNITYSDK_OFFSET(0x15BCF9C0)
-#define RPG_CLIENT_SCENETRANSFORMANIM_SET_ISUPATEINEDITORMODE_OFFSET UNITYSDK_OFFSET(0x15BCF9D0)
-#define RPG_CLIENT_SCENETRANSFORMANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x15BCF9E0)
+#define RPG_CLIENT_SCENETRANSFORMANIM_GET_ISUPATEINEDITORMODE_OFFSET UNITYSDK_OFFSET(0x176D66B0)
+#define RPG_CLIENT_SCENETRANSFORMANIM_SET_ISUPATEINEDITORMODE_OFFSET UNITYSDK_OFFSET(0x176D66C0)
+#define RPG_CLIENT_SCENETRANSFORMANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x176D66D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SceneTransformAnim_TypeDefinitionIndex = 65393;
+	inline static constexpr unsigned int SceneTransformAnim_TypeDefinitionIndex = 66320;
 
 	class SceneTransformAnim : public ::UnityEngine::MonoBehaviour
 	{
@@ -45,9 +45,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCENETRANSFORMANIM_GET_ISUPATEINEDITORMODE_OFFSET))(this);
 		}
 
-		::System::Void set_IsUpateInEditorMode(::System::Boolean value)
+		::System::Void set_IsUpateInEditorMode(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCENETRANSFORMANIM_SET_ISUPATEINEDITORMODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCENETRANSFORMANIM_SET_ISUPATEINEDITORMODE_OFFSET))(this, a1);
 		}
 	};
 }

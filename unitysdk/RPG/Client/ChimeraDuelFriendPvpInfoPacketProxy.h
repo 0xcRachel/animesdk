@@ -4,15 +4,15 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_CHIMERADUELFRIENDPVPINFOPACKETPROXY_CREATE_OFFSET UNITYSDK_OFFSET(0x177B4550)
-#define RPG_CLIENT_CHIMERADUELFRIENDPVPINFOPACKETPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x177B48D0)
-#define RPG_CLIENT_CHIMERADUELFRIENDPVPINFOPACKETPROXY_SEND_OFFSET UNITYSDK_OFFSET(0x177B45D0)
-#define RPG_CLIENT_CHIMERADUELFRIENDPVPINFOPACKETPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x177B45C0)
-#define RPG_CLIENT_CHIMERADUELFRIENDPVPINFOPACKETPROXY__ONRECEIVE_OFFSET UNITYSDK_OFFSET(0x177B4950)
+#define RPG_CLIENT_CHIMERADUELFRIENDPVPINFOPACKETPROXY_CREATE_OFFSET UNITYSDK_OFFSET(0x19668A20)
+#define RPG_CLIENT_CHIMERADUELFRIENDPVPINFOPACKETPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19668E10)
+#define RPG_CLIENT_CHIMERADUELFRIENDPVPINFOPACKETPROXY_SEND_OFFSET UNITYSDK_OFFSET(0x19668AA0)
+#define RPG_CLIENT_CHIMERADUELFRIENDPVPINFOPACKETPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x19668A90)
+#define RPG_CLIENT_CHIMERADUELFRIENDPVPINFOPACKETPROXY__ONRECEIVE_OFFSET UNITYSDK_OFFSET(0x19668E90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelFriendPvpInfoPacketProxy_TypeDefinitionIndex = 58345;
+	inline static constexpr unsigned int ChimeraDuelFriendPvpInfoPacketProxy_TypeDefinitionIndex = 59275;
 
 	class ChimeraDuelFriendPvpInfoPacketProxy : public ::System::Object
 	{
@@ -29,9 +29,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ChimeraDuelFriendPvpInfoPacketProxy*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELFRIENDPVPINFOPACKETPROXY_CREATE_OFFSET))();
 		}
 
-		::System::Void Send(::System::Action_1<::System::Boolean>* onFinish, ::Il2CppArray<::System::Object*>* args)
+		::System::Void Send(::System::Action_1<::System::Boolean>* a1, ::Il2CppArray<::System::Object*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELFRIENDPVPINFOPACKETPROXY_SEND_OFFSET))(this, onFinish, args);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELFRIENDPVPINFOPACKETPROXY_SEND_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dispose()
@@ -39,9 +39,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELFRIENDPVPINFOPACKETPROXY_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void _OnReceive(::System::UInt16 msgID, ::System::Object* rspObject)
+		::System::Void _OnReceive(::System::UInt16 a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELFRIENDPVPINFOPACKETPROXY__ONRECEIVE_OFFSET))(this, msgID, rspObject);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELFRIENDPVPINFOPACKETPROXY__ONRECEIVE_OFFSET))(this, a1, a2);
 		}
 	};
 }

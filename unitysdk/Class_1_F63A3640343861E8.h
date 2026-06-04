@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_F63A3640343861E8_GET_ID_OFFSET UNITYSDK_OFFSET(0xE3CC840)
-#define CLASS_1_F63A3640343861E8_GET_WAYPOINTS_OFFSET UNITYSDK_OFFSET(0xE3CC860)
-#define CLASS_1_F63A3640343861E8_SET_ID_OFFSET UNITYSDK_OFFSET(0xE3CC850)
-#define CLASS_1_F63A3640343861E8_SET_WAYPOINTS_OFFSET UNITYSDK_OFFSET(0xE3CC870)
-#define CLASS_1_F63A3640343861E8__CTOR_OFFSET UNITYSDK_OFFSET(0xE3CC880)
+#define CLASS_1_F63A3640343861E8_GET_ID_OFFSET UNITYSDK_OFFSET(0x1572ED00)
+#define CLASS_1_F63A3640343861E8_GET_WAYPOINTS_OFFSET UNITYSDK_OFFSET(0x1572ED20)
+#define CLASS_1_F63A3640343861E8_SET_ID_OFFSET UNITYSDK_OFFSET(0x1572ED10)
+#define CLASS_1_F63A3640343861E8_SET_WAYPOINTS_OFFSET UNITYSDK_OFFSET(0x1572ED30)
+#define CLASS_1_F63A3640343861E8__CTOR_OFFSET UNITYSDK_OFFSET(0x1572ED40)
 
-inline static constexpr unsigned int Class_1_F63A3640343861E8_TypeDefinitionIndex = 57331;
+inline static constexpr unsigned int Class_1_F63A3640343861E8_TypeDefinitionIndex = 58121;
 
 class Class_1_F63A3640343861E8 : public ::System::Object
 {
@@ -26,9 +26,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F63A3640343861E8_GET_ID_OFFSET))(this);
 	}
 
-	::System::Void set_ID(::System::UInt32 value)
+	::System::Void set_ID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_F63A3640343861E8_SET_ID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_F63A3640343861E8_SET_ID_OFFSET))(this, a1);
 	}
 
 	::Il2CppArray<::System::UInt32>* get_Waypoints()
@@ -36,8 +36,8 @@ public:
 		return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F63A3640343861E8_GET_WAYPOINTS_OFFSET))(this);
 	}
 
-	::System::Void set_Waypoints(::Il2CppArray<::System::UInt32>* value)
+	::System::Void set_Waypoints(::Il2CppArray<::System::UInt32>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_F63A3640343861E8_SET_WAYPOINTS_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_F63A3640343861E8_SET_WAYPOINTS_OFFSET))(this, a1);
 	}
 };

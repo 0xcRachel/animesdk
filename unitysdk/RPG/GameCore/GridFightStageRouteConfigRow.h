@@ -5,26 +5,26 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTSTAGEROUTECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B8D9E0)
-#define RPG_GAMECORE_GRIDFIGHTSTAGEROUTECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B8E2B0)
+#define RPG_GAMECORE_GRIDFIGHTSTAGEROUTECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A1C0A40)
+#define RPG_GAMECORE_GRIDFIGHTSTAGEROUTECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C1310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightStageRouteConfigRow_TypeDefinitionIndex = 12882;
+	inline static constexpr unsigned int GridFightStageRouteConfigRow_TypeDefinitionIndex = 12967;
 
 	class GridFightStageRouteConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
-		::Il2CppArray<::System::UInt32>* PenaltyBonusRuleIDList; // 0x18
-		::Il2CppArray<::System::UInt32>* IntensifyBuffPoolIDList; // 0x20
-		::System::UInt32 ID; // 0x28
-		::System::UInt32 StageID; // 0x2C
-		::System::UInt32 SectionID; // 0x30
-		::System::UInt32 NodeTemplateID; // 0x34
-		::System::UInt32 ChapterID; // 0x38
-		::System::UInt32 BasicGoldRewardNum; // 0x3C
-		::System::UInt32 IsAugment; // 0x40
+		::Il2CppArray<::System::UInt32>* IntensifyBuffPoolIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* ParamList; // 0x18
+		::Il2CppArray<::System::UInt32>* PenaltyBonusRuleIDList; // 0x20
+		::System::UInt32 IsAugment; // 0x28
+		::System::UInt32 NodeTemplateID; // 0x2C
+		::System::UInt32 ID; // 0x30
+		::System::UInt32 BasicGoldRewardNum; // 0x34
+		::System::UInt32 StageID; // 0x38
+		::System::UInt32 SectionID; // 0x3C
+		::System::UInt32 ChapterID; // 0x40
 		::RPG::GameCore::GridFightNodeType NodeType; // 0x44
 
 		::System::Void _ctor()
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSTAGEROUTECONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GridFightStageRouteConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightStageRouteConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightStageRouteConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSTAGEROUTECONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightStageRouteConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSTAGEROUTECONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,24 +5,24 @@
 namespace Epic::OnlineServices { class ProductUserId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS_GET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x19884060)
-#define EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19884080)
-#define EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x198840A0)
-#define EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x19884070)
-#define EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19884090)
-#define EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x198840B0)
-#define EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x198840C0)
+#define EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS_GET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x1A5C28D0)
+#define EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A5C28F0)
+#define EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x1A5C2910)
+#define EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x1A5C28E0)
+#define EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A5C2900)
+#define EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x1A5C2920)
+#define EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5C2930)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int KickMemberOptions_TypeDefinitionIndex = 41863;
+	inline static constexpr unsigned int KickMemberOptions_TypeDefinitionIndex = 42666;
 
 	class KickMemberOptions : public ::System::Object
 	{
 	public:
-		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x10
-		::System::String* _LobbyId_k__BackingField; // 0x18
-		::Epic::OnlineServices::ProductUserId* _TargetUserId_k__BackingField; // 0x20
+		::Epic::OnlineServices::ProductUserId* _TargetUserId_k__BackingField; // 0x10
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x18
+		::System::String* _LobbyId_k__BackingField; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -34,9 +34,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS_GET_LOBBYID_OFFSET))(this);
 		}
 
-		::System::Void set_LobbyId(::System::String* value)
+		::System::Void set_LobbyId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS_SET_LOBBYID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS_SET_LOBBYID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ProductUserId* get_LocalUserId()
@@ -44,9 +44,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ProductUserId* get_TargetUserId()
@@ -54,9 +54,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS_GET_TARGETUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS_SET_TARGETUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_KICKMEMBEROPTIONS_SET_TARGETUSERID_OFFSET))(this, a1);
 		}
 	};
 }

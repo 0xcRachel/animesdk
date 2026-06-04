@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SwitchOverrideController; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_93FC0C4A34700175_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x135DD820)
-#define CLASS_3_93FC0C4A34700175__CTOR_OFFSET UNITYSDK_OFFSET(0x135DD7F0)
+#define CLASS_3_93FC0C4A34700175_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x168A7920)
+#define CLASS_3_93FC0C4A34700175__CTOR_OFFSET UNITYSDK_OFFSET(0x168A78F0)
 
-inline static constexpr unsigned int Class_3_93FC0C4A34700175_TypeDefinitionIndex = 51345;
+inline static constexpr unsigned int Class_3_93FC0C4A34700175_TypeDefinitionIndex = 52013;
 
 class Class_3_93FC0C4A34700175 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SwitchOverrideController*>
 {

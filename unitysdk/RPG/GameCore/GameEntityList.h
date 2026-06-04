@@ -5,21 +5,21 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_GAMEENTITYLIST_GET_REFERENCESTATE_OFFSET UNITYSDK_OFFSET(0xF275060)
-#define RPG_GAMECORE_GAMEENTITYLIST_MARKMANUALRELEASE_OFFSET UNITYSDK_OFFSET(0xF275130)
-#define RPG_GAMECORE_GAMEENTITYLIST_ONALLOC_OFFSET UNITYSDK_OFFSET(0xF275080)
-#define RPG_GAMECORE_GAMEENTITYLIST_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0xF2750E0)
-#define RPG_GAMECORE_GAMEENTITYLIST_SET_REFERENCESTATE_OFFSET UNITYSDK_OFFSET(0xF275070)
-#define RPG_GAMECORE_GAMEENTITYLIST__CTOR_OFFSET UNITYSDK_OFFSET(0xF275180)
+#define RPG_GAMECORE_GAMEENTITYLIST_GET_REFERENCESTATE_OFFSET UNITYSDK_OFFSET(0x13702D30)
+#define RPG_GAMECORE_GAMEENTITYLIST_MARKMANUALRELEASE_OFFSET UNITYSDK_OFFSET(0x13702E00)
+#define RPG_GAMECORE_GAMEENTITYLIST_ONALLOC_OFFSET UNITYSDK_OFFSET(0x13702D50)
+#define RPG_GAMECORE_GAMEENTITYLIST_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x13702DB0)
+#define RPG_GAMECORE_GAMEENTITYLIST_SET_REFERENCESTATE_OFFSET UNITYSDK_OFFSET(0x13702D40)
+#define RPG_GAMECORE_GAMEENTITYLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x13702E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameEntityList_TypeDefinitionIndex = 54592;
+	inline static constexpr unsigned int GameEntityList_TypeDefinitionIndex = 55319;
 
 	class GameEntityList : public ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>
 	{
 	public:
-		::RPG::AutoReleaseReferenceState _ReferenceState_k__BackingField; // 0x28
+		::RPG::AutoReleaseReferenceState _ReferenceState_k__BackingField; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::RPG::AutoReleaseReferenceState(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYLIST_GET_REFERENCESTATE_OFFSET))(this);
 		}
 
-		::System::Void set_ReferenceState(::RPG::AutoReleaseReferenceState value)
+		::System::Void set_ReferenceState(::RPG::AutoReleaseReferenceState a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::AutoReleaseReferenceState))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYLIST_SET_REFERENCESTATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::AutoReleaseReferenceState))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYLIST_SET_REFERENCESTATE_OFFSET))(this, a1);
 		}
 
 		::System::Void OnAlloc()

@@ -8,8 +8,8 @@
 namespace Mono::Net::Security { class MobileAuthenticatedStream; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__INNERREAD_D__66_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x22CB650)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__INNERREAD_D__66_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x63B500)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__INNERREAD_D__66_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3868EA0)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__INNERREAD_D__66_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x35CA000)
 
 namespace Mono::Net::Security
 {
@@ -17,22 +17,22 @@ namespace Mono::Net::Security
 
 	struct alignas(8) MobileAuthenticatedStream__InnerRead_d__66
 	{
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Int32> __t__builder; // 0x10
-		::Mono::Net::Security::MobileAuthenticatedStream* __4__this; // 0x28
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Int32> __u__1; // 0x30
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Int32> __u__1; // 0x10
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Int32> __t__builder; // 0x20
+		::Mono::Net::Security::MobileAuthenticatedStream* __4__this; // 0x38
 		::System::Threading::CancellationToken cancellationToken; // 0x40
-		::System::Int32 __1__state; // 0x48
+		::System::Int32 requestedSize; // 0x48
 		::System::Boolean sync; // 0x4C
-		::System::Int32 requestedSize; // 0x50
+		::System::Int32 __1__state; // 0x50
 
 		::System::Void MoveNext()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__INNERREAD_D__66_MOVENEXT_OFFSET))(this);
 		}
 
-		::System::Void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine)
+		::System::Void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::CompilerServices::IAsyncStateMachine*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__INNERREAD_D__66_SETSTATEMACHINE_OFFSET))(this, stateMachine);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::CompilerServices::IAsyncStateMachine*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__INNERREAD_D__66_SETSTATEMACHINE_OFFSET))(this, a1);
 		}
 	};
 }

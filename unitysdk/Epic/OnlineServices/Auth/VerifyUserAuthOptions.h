@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices::Auth { class Token; }
 
-#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHOPTIONS_GET_AUTHTOKEN_OFFSET UNITYSDK_OFFSET(0x19641C30)
-#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHOPTIONS_SET_AUTHTOKEN_OFFSET UNITYSDK_OFFSET(0x19641C40)
-#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19641C50)
+#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHOPTIONS_GET_AUTHTOKEN_OFFSET UNITYSDK_OFFSET(0x19F64E60)
+#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHOPTIONS_SET_AUTHTOKEN_OFFSET UNITYSDK_OFFSET(0x19F64E70)
+#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19F64E80)
 
 namespace Epic::OnlineServices::Auth
 {
-	inline static constexpr unsigned int VerifyUserAuthOptions_TypeDefinitionIndex = 42417;
+	inline static constexpr unsigned int VerifyUserAuthOptions_TypeDefinitionIndex = 43220;
 
 	class VerifyUserAuthOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::Epic::OnlineServices::Auth::Token*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHOPTIONS_GET_AUTHTOKEN_OFFSET))(this);
 		}
 
-		::System::Void set_AuthToken(::Epic::OnlineServices::Auth::Token* value)
+		::System::Void set_AuthToken(::Epic::OnlineServices::Auth::Token* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::Token*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHOPTIONS_SET_AUTHTOKEN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::Token*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHOPTIONS_SET_AUTHTOKEN_OFFSET))(this, a1);
 		}
 	};
 }

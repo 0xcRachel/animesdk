@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ChangeSkillUIDisplay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E4DDA15E042FDEC6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEFB7BF0)
-#define CLASS_3_E4DDA15E042FDEC6__CTOR_OFFSET UNITYSDK_OFFSET(0xEFB7BC0)
+#define CLASS_3_E4DDA15E042FDEC6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x171B4640)
+#define CLASS_3_E4DDA15E042FDEC6__CTOR_OFFSET UNITYSDK_OFFSET(0x171B4610)
 
-inline static constexpr unsigned int Class_3_E4DDA15E042FDEC6_TypeDefinitionIndex = 50667;
+inline static constexpr unsigned int Class_3_E4DDA15E042FDEC6_TypeDefinitionIndex = 51334;
 
 class Class_3_E4DDA15E042FDEC6 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ChangeSkillUIDisplay*>
 {

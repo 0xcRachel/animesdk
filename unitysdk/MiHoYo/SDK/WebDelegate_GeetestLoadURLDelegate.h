@@ -9,36 +9,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1502DFB0)
-#define MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1502DFF0)
-#define MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1502D970)
-#define MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1502D950)
+#define MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1482D2B0)
+#define MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1482D2F0)
+#define MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1482D290)
+#define MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1482D1A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_GeetestLoadURLDelegate_TypeDefinitionIndex = 6888;
+	inline static constexpr unsigned int WebDelegate_GeetestLoadURLDelegate_TypeDefinitionIndex = 7791;
 
 	class WebDelegate_GeetestLoadURLDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::MiHoYo::SDK::GeetestView* view, ::System::String* url, ::MiHoYo::SDK::MmtManager_GeetestModel* geetestModel)
+		::System::Void Invoke(::MiHoYo::SDK::GeetestView* a1, ::System::String* a2, ::MiHoYo::SDK::MmtManager_GeetestModel* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::GeetestView*, ::System::String*, ::MiHoYo::SDK::MmtManager_GeetestModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE_INVOKE_OFFSET))(this, view, url, geetestModel);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::GeetestView*, ::System::String*, ::MiHoYo::SDK::MmtManager_GeetestModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::GeetestView* view, ::System::String* url, ::MiHoYo::SDK::MmtManager_GeetestModel* geetestModel, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::GeetestView* a1, ::System::String* a2, ::MiHoYo::SDK::MmtManager_GeetestModel* a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::GeetestView*, ::System::String*, ::MiHoYo::SDK::MmtManager_GeetestModel*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE_BEGININVOKE_OFFSET))(this, view, url, geetestModel, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::GeetestView*, ::System::String*, ::MiHoYo::SDK::MmtManager_GeetestModel*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_GEETESTLOADURLDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,12 +4,12 @@
 
 class JsonObject;
 
-#define PLUGINMSGRECEIVER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1A74BFB0)
-#define PLUGINMSGRECEIVER_SENDPLUGINMSG_OFFSET UNITYSDK_OFFSET(0x1A74C070)
-#define PLUGINMSGRECEIVER_START_OFFSET UNITYSDK_OFFSET(0x1A74BEF0)
-#define PLUGINMSGRECEIVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A74C1D0)
+#define PLUGINMSGRECEIVER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B56F830)
+#define PLUGINMSGRECEIVER_SENDPLUGINMSG_OFFSET UNITYSDK_OFFSET(0x1B56F8F0)
+#define PLUGINMSGRECEIVER_START_OFFSET UNITYSDK_OFFSET(0x1B56F770)
+#define PLUGINMSGRECEIVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B56FA50)
 
-inline static constexpr unsigned int PluginMsgReceiver_TypeDefinitionIndex = 37644;
+inline static constexpr unsigned int PluginMsgReceiver_TypeDefinitionIndex = 38376;
 
 class PluginMsgReceiver : public ::UnityEngine::MonoBehaviour
 {
@@ -31,8 +31,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLUGINMSGRECEIVER_ONDESTROY_OFFSET))(this);
 	}
 
-	::JsonObject* SendPluginMsg(::JsonObject* jsonMsg)
+	::JsonObject* SendPluginMsg(::JsonObject* a1)
 	{
-		return ((::JsonObject*(*)(::PVOID, ::JsonObject*))((::PBYTE)hIl2Cpp + PLUGINMSGRECEIVER_SENDPLUGINMSG_OFFSET))(this, jsonMsg);
+		return ((::JsonObject*(*)(::PVOID, ::JsonObject*))((::PBYTE)hIl2Cpp + PLUGINMSGRECEIVER_SENDPLUGINMSG_OFFSET))(this, a1);
 	}
 };

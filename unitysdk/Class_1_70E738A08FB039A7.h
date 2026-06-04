@@ -3,19 +3,19 @@
 #include "unitysdk/RPG/GameCore/Match3/BombType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_70E738A08FB039A7_CLEAR_OFFSET UNITYSDK_OFFSET(0x17C5F060)
-#define CLASS_1_70E738A08FB039A7__CTOR_OFFSET UNITYSDK_OFFSET(0x17C5F0B0)
+#define CLASS_1_70E738A08FB039A7_CLEAR_OFFSET UNITYSDK_OFFSET(0x152AF870)
+#define CLASS_1_70E738A08FB039A7__CTOR_OFFSET UNITYSDK_OFFSET(0x152AF8C0)
 
-inline static constexpr unsigned int Class_1_70E738A08FB039A7_TypeDefinitionIndex = 38881;
+inline static constexpr unsigned int Class_1_70E738A08FB039A7_TypeDefinitionIndex = 39649;
 
 class Class_1_70E738A08FB039A7 : public ::System::Object
 {
 public:
-	::System::UInt32 Field_1_3; // 0x10
-	::System::UInt32 Field_1_4; // 0x14
-	::RPG::GameCore::Match3::BombType Field_1_2; // 0x18
-	::System::UInt32 Field_1_1; // 0x1C
-	::System::UInt32 Field_1_0; // 0x20
+	::RPG::GameCore::Match3::BombType Field_1_0; // 0x10
+	::System::UInt32 Field_1_1; // 0x14
+	::System::UInt32 Field_1_2; // 0x18
+	::System::UInt32 Field_1_3; // 0x1C
+	::System::UInt32 Field_1_4; // 0x20
 
 	::System::Void _ctor()
 	{

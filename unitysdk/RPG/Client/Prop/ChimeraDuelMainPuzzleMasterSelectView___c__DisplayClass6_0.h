@@ -5,20 +5,20 @@
 namespace RPG::Client::Prop { class ChimeraDuelMainPuzzleMasterSelectView; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEMASTERSELECTVIEW___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1582D370)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEMASTERSELECTVIEW___C__DISPLAYCLASS6_0___CREATEMASTERENTITY_B__0_OFFSET UNITYSDK_OFFSET(0x1582DB30)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEMASTERSELECTVIEW___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x166E86E0)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEMASTERSELECTVIEW___C__DISPLAYCLASS6_0___CREATEMASTERENTITY_B__0_OFFSET UNITYSDK_OFFSET(0x166E8E20)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelMainPuzzleMasterSelectView___c__DisplayClass6_0_TypeDefinitionIndex = 71878;
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleMasterSelectView___c__DisplayClass6_0_TypeDefinitionIndex = 72900;
 
 	class ChimeraDuelMainPuzzleMasterSelectView___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* anchor; // 0x10
-		::RPG::Client::Prop::ChimeraDuelMainPuzzleMasterSelectView* __4__this; // 0x18
-		::System::UInt32 groupID; // 0x20
-		::System::UInt32 configID; // 0x24
+		::RPG::Client::Prop::ChimeraDuelMainPuzzleMasterSelectView* __4__this; // 0x10
+		::UnityEngine::Transform* anchor; // 0x18
+		::System::UInt32 configID; // 0x20
+		::System::UInt32 groupID; // 0x24
 
 		::System::Void _ctor()
 		{

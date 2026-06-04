@@ -6,9 +6,9 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define LIGHTPERFORMANCETESTUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x10785760)
+#define LIGHTPERFORMANCETESTUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x165B9330)
 
-inline static constexpr unsigned int LightPerformanceTestUnit_TypeDefinitionIndex = 44103;
+inline static constexpr unsigned int LightPerformanceTestUnit_TypeDefinitionIndex = 44649;
 
 class LightPerformanceTestUnit : public ::System::Object
 {

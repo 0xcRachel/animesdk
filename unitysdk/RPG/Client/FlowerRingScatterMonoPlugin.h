@@ -10,11 +10,11 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_FLOWERRINGSCATTERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x11344B70)
+#define RPG_CLIENT_FLOWERRINGSCATTERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1594CFC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FlowerRingScatterMonoPlugin_TypeDefinitionIndex = 65096;
+	inline static constexpr unsigned int FlowerRingScatterMonoPlugin_TypeDefinitionIndex = 66022;
 
 	class FlowerRingScatterMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::FlowerRingScatterBehavior*>
 	{

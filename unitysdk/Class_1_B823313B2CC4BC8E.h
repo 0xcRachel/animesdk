@@ -5,17 +5,17 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define CLASS_1_B823313B2CC4BC8E_GET_STRINGPARAMS_OFFSET UNITYSDK_OFFSET(0x14C13C40)
-#define CLASS_1_B823313B2CC4BC8E_GET_UINTPARAMS_OFFSET UNITYSDK_OFFSET(0x14C13C30)
-#define CLASS_1_B823313B2CC4BC8E__CTOR_OFFSET UNITYSDK_OFFSET(0x14C13C50)
+#define CLASS_1_B823313B2CC4BC8E_GET_STRINGPARAMS_OFFSET UNITYSDK_OFFSET(0x133EEF40)
+#define CLASS_1_B823313B2CC4BC8E_GET_UINTPARAMS_OFFSET UNITYSDK_OFFSET(0x133EEF30)
+#define CLASS_1_B823313B2CC4BC8E__CTOR_OFFSET UNITYSDK_OFFSET(0x133EEF50)
 
-inline static constexpr unsigned int Class_1_B823313B2CC4BC8E_TypeDefinitionIndex = 59208;
+inline static constexpr unsigned int Class_1_B823313B2CC4BC8E_TypeDefinitionIndex = 60143;
 
 class Class_1_B823313B2CC4BC8E : public ::System::Object
 {
 public:
-	::System::Collections::Generic::IReadOnlyList_1<::System::String*>* _StringParams_k__BackingField; // 0x10
-	::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _UintParams_k__BackingField; // 0x18
+	::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _UintParams_k__BackingField; // 0x10
+	::System::Collections::Generic::IReadOnlyList_1<::System::String*>* _StringParams_k__BackingField; // 0x18
 
 	::System::Void _ctor(::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* a1, ::System::Collections::Generic::IReadOnlyList_1<::System::String*>* a2)
 	{

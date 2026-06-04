@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELCHARACTERDIE_CLEAR_OFFSET UNITYSDK_OFFSET(0xF2A2600)
-#define RPG_GAMECORE_LEVELCHARACTERDIE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF2A26A0)
-#define RPG_GAMECORE_LEVELCHARACTERDIE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF2A2650)
-#define RPG_GAMECORE_LEVELCHARACTERDIE_INIT_OFFSET UNITYSDK_OFFSET(0xF2A25A0)
-#define RPG_GAMECORE_LEVELCHARACTERDIE__CTOR_OFFSET UNITYSDK_OFFSET(0xF2A26F0)
-#define RPG_GAMECORE_LEVELCHARACTERDIE___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xF2A2700)
+#define RPG_GAMECORE_LEVELCHARACTERDIE_CLEAR_OFFSET UNITYSDK_OFFSET(0x18729090)
+#define RPG_GAMECORE_LEVELCHARACTERDIE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x18729130)
+#define RPG_GAMECORE_LEVELCHARACTERDIE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x187290E0)
+#define RPG_GAMECORE_LEVELCHARACTERDIE_INIT_OFFSET UNITYSDK_OFFSET(0x18729020)
+#define RPG_GAMECORE_LEVELCHARACTERDIE__CTOR_OFFSET UNITYSDK_OFFSET(0x18729180)
+#define RPG_GAMECORE_LEVELCHARACTERDIE___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x18729190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCharacterDie_TypeDefinitionIndex = 52312;
+	inline static constexpr unsigned int LevelCharacterDie_TypeDefinitionIndex = 53009;
 
-	class LevelCharacterDie : public ::Class_1_9988289E7F8AA214
+	class LevelCharacterDie : public ::Class_1_BF7A075734D15E98
 	{
 	public:
-		::System::String* CharacterName; // 0x18
-		::RPG::GameCore::GameEntity* Target; // 0x20
+		::RPG::GameCore::GameEntity* Target; // 0x18
+		::System::String* CharacterName; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERDIE__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelCharacterDie* Init(::RPG::GameCore::GameEntity* pEntity)
+		::RPG::GameCore::LevelCharacterDie* Init(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::RPG::GameCore::LevelCharacterDie*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERDIE_INIT_OFFSET))(this, pEntity);
+			return ((::RPG::GameCore::LevelCharacterDie*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERDIE_INIT_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()

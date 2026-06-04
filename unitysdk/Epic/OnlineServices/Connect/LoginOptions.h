@@ -5,15 +5,15 @@
 namespace Epic::OnlineServices::Connect { class Credentials; }
 namespace Epic::OnlineServices::Connect { class UserLoginInfo; }
 
-#define EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONS_GET_CREDENTIALS_OFFSET UNITYSDK_OFFSET(0x196C24E0)
-#define EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONS_GET_USERLOGININFO_OFFSET UNITYSDK_OFFSET(0x196C2500)
-#define EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONS_SET_CREDENTIALS_OFFSET UNITYSDK_OFFSET(0x196C24F0)
-#define EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONS_SET_USERLOGININFO_OFFSET UNITYSDK_OFFSET(0x196C2510)
-#define EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x196C2520)
+#define EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONS_GET_CREDENTIALS_OFFSET UNITYSDK_OFFSET(0x1A4B61F0)
+#define EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONS_GET_USERLOGININFO_OFFSET UNITYSDK_OFFSET(0x1A4B6210)
+#define EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONS_SET_CREDENTIALS_OFFSET UNITYSDK_OFFSET(0x1A4B6200)
+#define EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONS_SET_USERLOGININFO_OFFSET UNITYSDK_OFFSET(0x1A4B6220)
+#define EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4B6230)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int LoginOptions_TypeDefinitionIndex = 42302;
+	inline static constexpr unsigned int LoginOptions_TypeDefinitionIndex = 43105;
 
 	class LoginOptions : public ::System::Object
 	{
@@ -31,9 +31,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::Epic::OnlineServices::Connect::Credentials*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONS_GET_CREDENTIALS_OFFSET))(this);
 		}
 
-		::System::Void set_Credentials(::Epic::OnlineServices::Connect::Credentials* value)
+		::System::Void set_Credentials(::Epic::OnlineServices::Connect::Credentials* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::Credentials*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONS_SET_CREDENTIALS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::Credentials*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONS_SET_CREDENTIALS_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::Connect::UserLoginInfo* get_UserLoginInfo()
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::Epic::OnlineServices::Connect::UserLoginInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONS_GET_USERLOGININFO_OFFSET))(this);
 		}
 
-		::System::Void set_UserLoginInfo(::Epic::OnlineServices::Connect::UserLoginInfo* value)
+		::System::Void set_UserLoginInfo(::Epic::OnlineServices::Connect::UserLoginInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::UserLoginInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONS_SET_USERLOGININFO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::UserLoginInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONS_SET_USERLOGININFO_OFFSET))(this, a1);
 		}
 	};
 }

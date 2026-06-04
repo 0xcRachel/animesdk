@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FORMATIONMOVEGROUPCALLBACK_METHOD_3_18AF65CB4D789D0A_OFFSET UNITYSDK_OFFSET(0x191FF2D0)
-#define RPG_GAMECORE_FORMATIONMOVEGROUPCALLBACK_METHOD_3_EE8D7F91F3BF65A3_OFFSET UNITYSDK_OFFSET(0x191FF350)
-#define RPG_GAMECORE_FORMATIONMOVEGROUPCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x191FF320)
+#define RPG_GAMECORE_FORMATIONMOVEGROUPCALLBACK_METHOD_3_370B6673F6A0DA59_OFFSET UNITYSDK_OFFSET(0x1A3B3410)
+#define RPG_GAMECORE_FORMATIONMOVEGROUPCALLBACK_METHOD_3_60A402F07BD2D1F8_OFFSET UNITYSDK_OFFSET(0x1A3B3390)
+#define RPG_GAMECORE_FORMATIONMOVEGROUPCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3B33E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FormationMoveGroupCallback_TypeDefinitionIndex = 20235;
+	inline static constexpr unsigned int FormationMoveGroupCallback_TypeDefinitionIndex = 20092;
 
 	class FormationMoveGroupCallback : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONMOVEGROUPCALLBACK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_18AF65CB4D789D0A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FormationMoveGroupCallback*& a2)
+		static ::System::Void Method_3_60A402F07BD2D1F8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FormationMoveGroupCallback*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FormationMoveGroupCallback*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONMOVEGROUPCALLBACK_METHOD_3_18AF65CB4D789D0A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FormationMoveGroupCallback*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONMOVEGROUPCALLBACK_METHOD_3_60A402F07BD2D1F8_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_EE8D7F91F3BF65A3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FormationMoveGroupCallback* a2)
+		static ::System::Void Method_3_370B6673F6A0DA59(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FormationMoveGroupCallback* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FormationMoveGroupCallback*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONMOVEGROUPCALLBACK_METHOD_3_EE8D7F91F3BF65A3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FormationMoveGroupCallback*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONMOVEGROUPCALLBACK_METHOD_3_370B6673F6A0DA59_OFFSET))(a1, a2);
 		}
 	};
 }

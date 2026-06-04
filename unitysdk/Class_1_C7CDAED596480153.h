@@ -4,21 +4,21 @@
 
 namespace System { class Action; }
 
-#define CLASS_1_C7CDAED596480153_ADD_ACTIONS_OFFSET UNITYSDK_OFFSET(0x14823650)
-#define CLASS_1_C7CDAED596480153_METHOD_1_5EAB2C5E0D76A6B7_OFFSET UNITYSDK_OFFSET(0x14823570)
-#define CLASS_1_C7CDAED596480153_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x14823600)
-#define CLASS_1_C7CDAED596480153_REMOVE_ACTIONS_OFFSET UNITYSDK_OFFSET(0x148236B0)
-#define CLASS_1_C7CDAED596480153__CTOR_OFFSET UNITYSDK_OFFSET(0x14823550)
+#define CLASS_1_C7CDAED596480153_ADD_ACTIONS_OFFSET UNITYSDK_OFFSET(0x191E4A30)
+#define CLASS_1_C7CDAED596480153_METHOD_1_5EAB2C5E0D76A6B7_OFFSET UNITYSDK_OFFSET(0x191E4940)
+#define CLASS_1_C7CDAED596480153_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x191E49E0)
+#define CLASS_1_C7CDAED596480153_REMOVE_ACTIONS_OFFSET UNITYSDK_OFFSET(0x191E4A90)
+#define CLASS_1_C7CDAED596480153__CTOR_OFFSET UNITYSDK_OFFSET(0x191E4920)
 
-inline static constexpr unsigned int Class_1_C7CDAED596480153_TypeDefinitionIndex = 34463;
+inline static constexpr unsigned int Class_1_C7CDAED596480153_TypeDefinitionIndex = 34745;
 
 class Class_1_C7CDAED596480153 : public ::System::Object
 {
 public:
 	::System::Action* Actions; // 0x10
-	::System::Single Field_1_2; // 0x18
-	::System::Single Field_1_3; // 0x1C
-	::System::Single Field_1_1; // 0x20
+	::System::Single Field_1_1; // 0x18
+	::System::Single Field_1_2; // 0x1C
+	::System::Single Field_1_3; // 0x20
 
 	::System::Void _ctor(::System::Single a1, ::System::Single a2)
 	{
@@ -35,13 +35,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C7CDAED596480153_METHOD_1_CA373AA1C7054598_OFFSET))(this);
 	}
 
-	::System::Void add_Actions(::System::Action* value)
+	::System::Void add_Actions(::System::Action* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_C7CDAED596480153_ADD_ACTIONS_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_C7CDAED596480153_ADD_ACTIONS_OFFSET))(this, a1);
 	}
 
-	::System::Void remove_Actions(::System::Action* value)
+	::System::Void remove_Actions(::System::Action* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_C7CDAED596480153_REMOVE_ACTIONS_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_C7CDAED596480153_REMOVE_ACTIONS_OFFSET))(this, a1);
 	}
 };

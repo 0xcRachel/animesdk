@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DEVICERELATEDCONFIGBASE_METHOD_2_256BAE3E992631B4_OFFSET UNITYSDK_OFFSET(0x19587480)
-#define RPG_GAMECORE_DEVICERELATEDCONFIGBASE_METHOD_2_9F947E3E37BC3ED7_OFFSET UNITYSDK_OFFSET(0x195870B0)
-#define RPG_GAMECORE_DEVICERELATEDCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19586E50)
+#define RPG_GAMECORE_DEVICERELATEDCONFIGBASE_METHOD_2_4A8E23179AB8E712_OFFSET UNITYSDK_OFFSET(0x19B39570)
+#define RPG_GAMECORE_DEVICERELATEDCONFIGBASE_METHOD_2_9F947E3E37BC3ED7_OFFSET UNITYSDK_OFFSET(0x19B391E0)
+#define RPG_GAMECORE_DEVICERELATEDCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B38F70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeviceRelatedConfigBase_TypeDefinitionIndex = 15583;
+	inline static constexpr unsigned int DeviceRelatedConfigBase_TypeDefinitionIndex = 15645;
 
 	class DeviceRelatedConfigBase : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeviceRelatedConfigBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDCONFIGBASE_METHOD_2_9F947E3E37BC3ED7_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_256BAE3E992631B4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeviceRelatedConfigBase* a2)
+		static ::System::Void Method_2_4A8E23179AB8E712(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeviceRelatedConfigBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeviceRelatedConfigBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDCONFIGBASE_METHOD_2_256BAE3E992631B4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeviceRelatedConfigBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDCONFIGBASE_METHOD_2_4A8E23179AB8E712_OFFSET))(a1, a2);
 		}
 	};
 }

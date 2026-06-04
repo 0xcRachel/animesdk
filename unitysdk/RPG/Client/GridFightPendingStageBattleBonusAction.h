@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightPendingStageBaseAction.h"
 
-#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBATTLEBONUSACTION_HANDLE_OFFSET UNITYSDK_OFFSET(0x177E91F0)
-#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBATTLEBONUSACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x177E91E0)
-#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBATTLEBONUSACTION___IFIXBASEPROXY_HANDLE_OFFSET UNITYSDK_OFFSET(0x177E92E0)
+#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBATTLEBONUSACTION_HANDLE_OFFSET UNITYSDK_OFFSET(0x19781CB0)
+#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBATTLEBONUSACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19781CA0)
+#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBATTLEBONUSACTION___IFIXBASEPROXY_HANDLE_OFFSET UNITYSDK_OFFSET(0x19781DA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPendingStageBattleBonusAction_TypeDefinitionIndex = 59465;
+	inline static constexpr unsigned int GridFightPendingStageBattleBonusAction_TypeDefinitionIndex = 60400;
 
 	class GridFightPendingStageBattleBonusAction : public ::RPG::Client::GridFightPendingStageBaseAction
 	{
 	public:
-		::System::Void _ctor(::System::UInt32 actionID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBATTLEBONUSACTION__CTOR_OFFSET))(this, actionID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGSTAGEBATTLEBONUSACTION__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Handle()

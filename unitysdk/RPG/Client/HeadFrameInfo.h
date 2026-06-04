@@ -6,19 +6,19 @@ class Class_1_C9E417278351157F_4;
 namespace RPG::GameCore { class HeadFrameConfigRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_HEADFRAMEINFO_COPY_OFFSET UNITYSDK_OFFSET(0x15218B20)
-#define RPG_CLIENT_HEADFRAMEINFO_GET_EXPIRETIME_OFFSET UNITYSDK_OFFSET(0x15218920)
-#define RPG_CLIENT_HEADFRAMEINFO_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x152189B0)
-#define RPG_CLIENT_HEADFRAMEINFO_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0x15218900)
-#define RPG_CLIENT_HEADFRAMEINFO_GET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0x15218940)
-#define RPG_CLIENT_HEADFRAMEINFO_SET_EXPIRETIME_OFFSET UNITYSDK_OFFSET(0x15218930)
-#define RPG_CLIENT_HEADFRAMEINFO_SET_ITEMID_OFFSET UNITYSDK_OFFSET(0x15218910)
-#define RPG_CLIENT_HEADFRAMEINFO_UPDATE_OFFSET UNITYSDK_OFFSET(0x15218A90)
-#define RPG_CLIENT_HEADFRAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15218BD0)
+#define RPG_CLIENT_HEADFRAMEINFO_COPY_OFFSET UNITYSDK_OFFSET(0x165BB270)
+#define RPG_CLIENT_HEADFRAMEINFO_GET_EXPIRETIME_OFFSET UNITYSDK_OFFSET(0x165BB070)
+#define RPG_CLIENT_HEADFRAMEINFO_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x165BB100)
+#define RPG_CLIENT_HEADFRAMEINFO_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0x165BB050)
+#define RPG_CLIENT_HEADFRAMEINFO_GET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0x165BB090)
+#define RPG_CLIENT_HEADFRAMEINFO_SET_EXPIRETIME_OFFSET UNITYSDK_OFFSET(0x165BB080)
+#define RPG_CLIENT_HEADFRAMEINFO_SET_ITEMID_OFFSET UNITYSDK_OFFSET(0x165BB060)
+#define RPG_CLIENT_HEADFRAMEINFO_UPDATE_OFFSET UNITYSDK_OFFSET(0x165BB1E0)
+#define RPG_CLIENT_HEADFRAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x165BB320)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HeadFrameInfo_TypeDefinitionIndex = 60448;
+	inline static constexpr unsigned int HeadFrameInfo_TypeDefinitionIndex = 61383;
 
 	class HeadFrameInfo : public ::System::Object
 	{
@@ -37,9 +37,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEADFRAMEINFO_GET_ITEMID_OFFSET))(this);
 		}
 
-		::System::Void set_ItemID(::System::UInt32 value)
+		::System::Void set_ItemID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEADFRAMEINFO_SET_ITEMID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEADFRAMEINFO_SET_ITEMID_OFFSET))(this, a1);
 		}
 
 		::System::Int64 get_ExpireTime()
@@ -47,9 +47,9 @@ namespace RPG::Client
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEADFRAMEINFO_GET_EXPIRETIME_OFFSET))(this);
 		}
 
-		::System::Void set_ExpireTime(::System::Int64 value)
+		::System::Void set_ExpireTime(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEADFRAMEINFO_SET_EXPIRETIME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEADFRAMEINFO_SET_EXPIRETIME_OFFSET))(this, a1);
 		}
 
 		::System::String* get_PrefabPath()
@@ -62,14 +62,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEADFRAMEINFO_GET_ISVALID_OFFSET))(this);
 		}
 
-		::System::Void Update(::Class_1_C9E417278351157F_4* info)
+		::System::Void Update(::Class_1_C9E417278351157F_4* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_C9E417278351157F_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEADFRAMEINFO_UPDATE_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::Class_1_C9E417278351157F_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEADFRAMEINFO_UPDATE_OFFSET))(this, a1);
 		}
 
-		::System::Void Copy(::RPG::Client::HeadFrameInfo* info)
+		::System::Void Copy(::RPG::Client::HeadFrameInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::HeadFrameInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEADFRAMEINFO_COPY_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::HeadFrameInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEADFRAMEINFO_COPY_OFFSET))(this, a1);
 		}
 	};
 }

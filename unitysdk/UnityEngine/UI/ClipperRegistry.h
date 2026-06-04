@@ -5,22 +5,22 @@
 namespace UnityEngine::UI { class IClipper; }
 namespace UnityEngine::UI::Collections { template <typename T> class IndexedSet_1; }
 
-#define UNITYENGINE_UI_CLIPPERREGISTRY_CULL_OFFSET UNITYSDK_OFFSET(0x18244720)
-#define UNITYENGINE_UI_CLIPPERREGISTRY_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x182446B0)
-#define UNITYENGINE_UI_CLIPPERREGISTRY_REGISTER_OFFSET UNITYSDK_OFFSET(0x18245630)
-#define UNITYENGINE_UI_CLIPPERREGISTRY_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x182456C0)
-#define UNITYENGINE_UI_CLIPPERREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x182455F0)
+#define UNITYENGINE_UI_CLIPPERREGISTRY_CULL_OFFSET UNITYSDK_OFFSET(0x183CC080)
+#define UNITYENGINE_UI_CLIPPERREGISTRY_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x183CC010)
+#define UNITYENGINE_UI_CLIPPERREGISTRY_REGISTER_OFFSET UNITYSDK_OFFSET(0x183CCF30)
+#define UNITYENGINE_UI_CLIPPERREGISTRY_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x183CCFC0)
+#define UNITYENGINE_UI_CLIPPERREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x183CCEF0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ClipperRegistry_TypeDefinitionIndex = 5577;
+	inline static constexpr unsigned int ClipperRegistry_TypeDefinitionIndex = 5854;
 
 	class ClipperRegistry : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::UI::ClipperRegistry** StaticGet_s_Instance()
 		{
-			return (::UnityEngine::UI::ClipperRegistry**)Il2CppClass::FromTypeDefinitionIndex(ClipperRegistry_TypeDefinitionIndex)->GetStaticField(0x1CD40);
+			return (::UnityEngine::UI::ClipperRegistry**)Il2CppClass::FromTypeDefinitionIndex(ClipperRegistry_TypeDefinitionIndex)->GetStaticField(0x3F2A0);
 		}
 		::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>* m_Clippers; // 0x10
 
@@ -39,14 +39,14 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CLIPPERREGISTRY_CULL_OFFSET))(this);
 		}
 
-		static ::System::Void Register(::UnityEngine::UI::IClipper* c)
+		static ::System::Void Register(::UnityEngine::UI::IClipper* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::UI::IClipper*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CLIPPERREGISTRY_REGISTER_OFFSET))(c);
+			return ((::System::Void(*)(::UnityEngine::UI::IClipper*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CLIPPERREGISTRY_REGISTER_OFFSET))(a1);
 		}
 
-		static ::System::Void Unregister(::UnityEngine::UI::IClipper* c)
+		static ::System::Void Unregister(::UnityEngine::UI::IClipper* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::UI::IClipper*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CLIPPERREGISTRY_UNREGISTER_OFFSET))(c);
+			return ((::System::Void(*)(::UnityEngine::UI::IClipper*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CLIPPERREGISTRY_UNREGISTER_OFFSET))(a1);
 		}
 	};
 }

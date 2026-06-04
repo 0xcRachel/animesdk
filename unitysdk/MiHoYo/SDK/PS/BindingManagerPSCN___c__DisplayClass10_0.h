@@ -6,13 +6,13 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::PS { class BindingManagerPSCN; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x164DB3D0)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS10_0__PERFORMBINDINGFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x164DB3E0)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS10_0__PERFORMBINDINGFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x164DBC20)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173FBE30)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS10_0__PERFORMBINDINGFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x173FBE40)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS10_0__PERFORMBINDINGFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x173FC5A0)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int BindingManagerPSCN___c__DisplayClass10_0_TypeDefinitionIndex = 7655;
+	inline static constexpr unsigned int BindingManagerPSCN___c__DisplayClass10_0_TypeDefinitionIndex = 8558;
 
 	class BindingManagerPSCN___c__DisplayClass10_0 : public ::System::Object
 	{
@@ -25,14 +25,14 @@ namespace MiHoYo::SDK::PS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS10_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _PerformBindingFlow_b__0(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void _PerformBindingFlow_b__0(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS10_0__PERFORMBINDINGFLOW_B__0_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS10_0__PERFORMBINDINGFLOW_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Void _PerformBindingFlow_b__1(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void _PerformBindingFlow_b__1(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS10_0__PERFORMBINDINGFLOW_B__1_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS10_0__PERFORMBINDINGFLOW_B__1_OFFSET))(this, a1);
 		}
 	};
 }

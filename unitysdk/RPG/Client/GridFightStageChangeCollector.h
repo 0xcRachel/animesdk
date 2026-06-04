@@ -5,14 +5,14 @@
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x17B92A50)
-#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x17B929F0)
-#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0x17B929B0)
-#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17B92AA0)
+#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x1962DB50)
+#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x1962DAF0)
+#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0x1962DAB0)
+#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1962DBA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightStageChangeCollector_TypeDefinitionIndex = 59417;
+	inline static constexpr unsigned int GridFightStageChangeCollector_TypeDefinitionIndex = 60352;
 
 	class GridFightStageChangeCollector : public ::System::Object
 	{
@@ -29,14 +29,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_RESET_OFFSET))(this);
 		}
 
-		::System::Void OnPropertyChangedEventHandler(::System::Object* sender, ::System::ComponentModel::PropertyChangedEventArgs* e)
+		::System::Void OnPropertyChangedEventHandler(::System::Object* a1, ::System::ComponentModel::PropertyChangedEventArgs* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ComponentModel::PropertyChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET))(this, sender, e);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ComponentModel::PropertyChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnCollectionChangedEventHandler(::System::Object* sender, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs* e)
+		::System::Void OnCollectionChangedEventHandler(::System::Object* a1, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET))(this, sender, e);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET))(this, a1, a2);
 		}
 	};
 }

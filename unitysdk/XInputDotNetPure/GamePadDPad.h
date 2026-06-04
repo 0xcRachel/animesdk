@@ -3,15 +3,15 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/XInputDotNetPure/ButtonState.h"
 
-#define XINPUTDOTNETPURE_GAMEPADDPAD_GET_DOWN_OFFSET UNITYSDK_OFFSET(0x608600)
-#define XINPUTDOTNETPURE_GAMEPADDPAD_GET_LEFT_OFFSET UNITYSDK_OFFSET(0x608310)
-#define XINPUTDOTNETPURE_GAMEPADDPAD_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0x6088B0)
-#define XINPUTDOTNETPURE_GAMEPADDPAD_GET_UP_OFFSET UNITYSDK_OFFSET(0x608A20)
-#define XINPUTDOTNETPURE_GAMEPADDPAD__CTOR_OFFSET UNITYSDK_OFFSET(0x608870)
+#define XINPUTDOTNETPURE_GAMEPADDPAD_GET_DOWN_OFFSET UNITYSDK_OFFSET(0x72B7E0)
+#define XINPUTDOTNETPURE_GAMEPADDPAD_GET_LEFT_OFFSET UNITYSDK_OFFSET(0x66B8A0)
+#define XINPUTDOTNETPURE_GAMEPADDPAD_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0x66C0A0)
+#define XINPUTDOTNETPURE_GAMEPADDPAD_GET_UP_OFFSET UNITYSDK_OFFSET(0x72BBF0)
+#define XINPUTDOTNETPURE_GAMEPADDPAD__CTOR_OFFSET UNITYSDK_OFFSET(0x72BA50)
 
 namespace XInputDotNetPure
 {
-	inline static constexpr unsigned int GamePadDPad_TypeDefinitionIndex = 37086;
+	inline static constexpr unsigned int GamePadDPad_TypeDefinitionIndex = 37818;
 
 	struct alignas(4) GamePadDPad
 	{
@@ -20,9 +20,9 @@ namespace XInputDotNetPure
 		::XInputDotNetPure::ButtonState left; // 0x18
 		::XInputDotNetPure::ButtonState right; // 0x1C
 
-		::System::Void _ctor(::XInputDotNetPure::ButtonState up, ::XInputDotNetPure::ButtonState down, ::XInputDotNetPure::ButtonState left, ::XInputDotNetPure::ButtonState right)
+		::System::Void _ctor(::XInputDotNetPure::ButtonState a1, ::XInputDotNetPure::ButtonState a2, ::XInputDotNetPure::ButtonState a3, ::XInputDotNetPure::ButtonState a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::XInputDotNetPure::ButtonState, ::XInputDotNetPure::ButtonState, ::XInputDotNetPure::ButtonState, ::XInputDotNetPure::ButtonState))((::PBYTE)hIl2Cpp + XINPUTDOTNETPURE_GAMEPADDPAD__CTOR_OFFSET))(this, up, down, left, right);
+			return ((::System::Void(*)(::PVOID, ::XInputDotNetPure::ButtonState, ::XInputDotNetPure::ButtonState, ::XInputDotNetPure::ButtonState, ::XInputDotNetPure::ButtonState))((::PBYTE)hIl2Cpp + XINPUTDOTNETPURE_GAMEPADDPAD__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::XInputDotNetPure::ButtonState get_Up()

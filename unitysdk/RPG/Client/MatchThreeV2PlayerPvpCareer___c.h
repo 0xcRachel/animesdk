@@ -1,44 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_63CAB6C405C6C7B1_1.h"
+#include "unitysdk/Enum_3_63CAB6C405C6C7B1_2.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D17272E82AE804C2_102;
+class Class_1_D17272E82AE804C2_103;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17585690)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x175856D0)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCARENASTATISTICS_B__19_0_OFFSET UNITYSDK_OFFSET(0x17585720)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCARENASTATISTICS_B__19_1_OFFSET UNITYSDK_OFFSET(0x17585740)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCSOLOSTATISTICS_B__18_0_OFFSET UNITYSDK_OFFSET(0x175856E0)
-#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCSOLOSTATISTICS_B__18_1_OFFSET UNITYSDK_OFFSET(0x17585700)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x188DF550)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x188DF590)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCARENASTATISTICS_B__19_0_OFFSET UNITYSDK_OFFSET(0x188DF5E0)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCARENASTATISTICS_B__19_1_OFFSET UNITYSDK_OFFSET(0x188DF600)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCSOLOSTATISTICS_B__18_0_OFFSET UNITYSDK_OFFSET(0x188DF5A0)
+#define RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCSOLOSTATISTICS_B__18_1_OFFSET UNITYSDK_OFFSET(0x188DF5C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex = 60778;
+	inline static constexpr unsigned int MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex = 61712;
 
 	class MatchThreeV2PlayerPvpCareer___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_1_D17272E82AE804C2_102*, ::System::UInt32>** StaticGet___9__19_1()
+		static ::System::Func_2<::Class_1_D17272E82AE804C2_103*, ::Enum_3_63CAB6C405C6C7B1_2>** StaticGet___9__19_0()
 		{
-			return (::System::Func_2<::Class_1_D17272E82AE804C2_102*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex)->GetStaticField(0x56270);
+			return (::System::Func_2<::Class_1_D17272E82AE804C2_103*, ::Enum_3_63CAB6C405C6C7B1_2>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex)->GetStaticField(0x52130);
+		}
+		static ::System::Func_2<::Class_1_D17272E82AE804C2_103*, ::Enum_3_63CAB6C405C6C7B1_2>** StaticGet___9__18_0()
+		{
+			return (::System::Func_2<::Class_1_D17272E82AE804C2_103*, ::Enum_3_63CAB6C405C6C7B1_2>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex)->GetStaticField(0x52138);
+		}
+		static ::System::Func_2<::Class_1_D17272E82AE804C2_103*, ::System::UInt32>** StaticGet___9__19_1()
+		{
+			return (::System::Func_2<::Class_1_D17272E82AE804C2_103*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex)->GetStaticField(0x52140);
 		}
 		static ::RPG::Client::MatchThreeV2PlayerPvpCareer___c** StaticGet___9()
 		{
-			return (::RPG::Client::MatchThreeV2PlayerPvpCareer___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex)->GetStaticField(0x56278);
+			return (::RPG::Client::MatchThreeV2PlayerPvpCareer___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex)->GetStaticField(0x52148);
 		}
-		static ::System::Func_2<::Class_1_D17272E82AE804C2_102*, ::Enum_3_63CAB6C405C6C7B1_1>** StaticGet___9__19_0()
+		static ::System::Func_2<::Class_1_D17272E82AE804C2_103*, ::System::UInt32>** StaticGet___9__18_1()
 		{
-			return (::System::Func_2<::Class_1_D17272E82AE804C2_102*, ::Enum_3_63CAB6C405C6C7B1_1>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex)->GetStaticField(0x56280);
-		}
-		static ::System::Func_2<::Class_1_D17272E82AE804C2_102*, ::System::UInt32>** StaticGet___9__18_1()
-		{
-			return (::System::Func_2<::Class_1_D17272E82AE804C2_102*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex)->GetStaticField(0x56288);
-		}
-		static ::System::Func_2<::Class_1_D17272E82AE804C2_102*, ::Enum_3_63CAB6C405C6C7B1_1>** StaticGet___9__18_0()
-		{
-			return (::System::Func_2<::Class_1_D17272E82AE804C2_102*, ::Enum_3_63CAB6C405C6C7B1_1>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex)->GetStaticField(0x56290);
+			return (::System::Func_2<::Class_1_D17272E82AE804C2_103*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PlayerPvpCareer___c_TypeDefinitionIndex)->GetStaticField(0x52150);
 		}
 
 		static ::System::Void _cctor()
@@ -51,24 +51,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__CTOR_OFFSET))(this);
 		}
 
-		::Enum_3_63CAB6C405C6C7B1_1 _SyncSoloStatistics_b__18_0(::Class_1_D17272E82AE804C2_102* pair)
+		::Enum_3_63CAB6C405C6C7B1_2 _SyncSoloStatistics_b__18_0(::Class_1_D17272E82AE804C2_103* a1)
 		{
-			return ((::Enum_3_63CAB6C405C6C7B1_1(*)(::PVOID, ::Class_1_D17272E82AE804C2_102*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCSOLOSTATISTICS_B__18_0_OFFSET))(this, pair);
+			return ((::Enum_3_63CAB6C405C6C7B1_2(*)(::PVOID, ::Class_1_D17272E82AE804C2_103*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCSOLOSTATISTICS_B__18_0_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 _SyncSoloStatistics_b__18_1(::Class_1_D17272E82AE804C2_102* pair)
+		::System::UInt32 _SyncSoloStatistics_b__18_1(::Class_1_D17272E82AE804C2_103* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Class_1_D17272E82AE804C2_102*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCSOLOSTATISTICS_B__18_1_OFFSET))(this, pair);
+			return ((::System::UInt32(*)(::PVOID, ::Class_1_D17272E82AE804C2_103*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCSOLOSTATISTICS_B__18_1_OFFSET))(this, a1);
 		}
 
-		::Enum_3_63CAB6C405C6C7B1_1 _SyncArenaStatistics_b__19_0(::Class_1_D17272E82AE804C2_102* pair)
+		::Enum_3_63CAB6C405C6C7B1_2 _SyncArenaStatistics_b__19_0(::Class_1_D17272E82AE804C2_103* a1)
 		{
-			return ((::Enum_3_63CAB6C405C6C7B1_1(*)(::PVOID, ::Class_1_D17272E82AE804C2_102*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCARENASTATISTICS_B__19_0_OFFSET))(this, pair);
+			return ((::Enum_3_63CAB6C405C6C7B1_2(*)(::PVOID, ::Class_1_D17272E82AE804C2_103*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCARENASTATISTICS_B__19_0_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 _SyncArenaStatistics_b__19_1(::Class_1_D17272E82AE804C2_102* pair)
+		::System::UInt32 _SyncArenaStatistics_b__19_1(::Class_1_D17272E82AE804C2_103* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Class_1_D17272E82AE804C2_102*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCARENASTATISTICS_B__19_1_OFFSET))(this, pair);
+			return ((::System::UInt32(*)(::PVOID, ::Class_1_D17272E82AE804C2_103*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PLAYERPVPCAREER___C__SYNCARENASTATISTICS_B__19_1_OFFSET))(this, a1);
 		}
 	};
 }

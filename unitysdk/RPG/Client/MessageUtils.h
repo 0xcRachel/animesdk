@@ -8,74 +8,74 @@ namespace RPG::Client { class MessageGroupData; }
 namespace RPG::Client { class MessageItemData; }
 namespace RPG::Client { class MessageSectionData; }
 
-#define RPG_CLIENT_MESSAGEUTILS_GETGROUPSTATE_OFFSET UNITYSDK_OFFSET(0x14740680)
-#define RPG_CLIENT_MESSAGEUTILS_GETWRITINGTIME_1_OFFSET UNITYSDK_OFFSET(0x14740510)
-#define RPG_CLIENT_MESSAGEUTILS_GETWRITINGTIME_OFFSET UNITYSDK_OFFSET(0x1473FFB0)
-#define RPG_CLIENT_MESSAGEUTILS_ISMESSAGEITEMSCHOICE_OFFSET UNITYSDK_OFFSET(0x14734900)
-#define RPG_CLIENT_MESSAGEUTILS_ISMESSAGEMISSIONVALID_OFFSET UNITYSDK_OFFSET(0x147407C0)
-#define RPG_CLIENT_MESSAGEUTILS_SHOWMISSIONICON_OFFSET UNITYSDK_OFFSET(0x14733B70)
-#define RPG_CLIENT_MESSAGEUTILS__SAFEINITPARAM_OFFSET UNITYSDK_OFFSET(0x147400C0)
+#define RPG_CLIENT_MESSAGEUTILS_GETGROUPSTATE_OFFSET UNITYSDK_OFFSET(0x1793EB40)
+#define RPG_CLIENT_MESSAGEUTILS_GETWRITINGTIME_1_OFFSET UNITYSDK_OFFSET(0x1793E9D0)
+#define RPG_CLIENT_MESSAGEUTILS_GETWRITINGTIME_OFFSET UNITYSDK_OFFSET(0x1793E480)
+#define RPG_CLIENT_MESSAGEUTILS_ISMESSAGEITEMSCHOICE_OFFSET UNITYSDK_OFFSET(0x179332E0)
+#define RPG_CLIENT_MESSAGEUTILS_ISMESSAGEMISSIONVALID_OFFSET UNITYSDK_OFFSET(0x1793ECF0)
+#define RPG_CLIENT_MESSAGEUTILS_SHOWMISSIONICON_OFFSET UNITYSDK_OFFSET(0x17932740)
+#define RPG_CLIENT_MESSAGEUTILS__SAFEINITPARAM_OFFSET UNITYSDK_OFFSET(0x1793E590)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageUtils_TypeDefinitionIndex = 60843;
+	inline static constexpr unsigned int MessageUtils_TypeDefinitionIndex = 61777;
 
 	class MessageUtils : public ::System::Object
 	{
 	public:
-		static ::System::Boolean* StaticGet__HasInitiated()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MessageUtils_TypeDefinitionIndex)->GetStaticField(0xF3F0);
-		}
-		static ::System::Single* StaticGet__MaxWritingTime()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MessageUtils_TypeDefinitionIndex)->GetStaticField(0xF3F4);
-		}
-		static ::System::Single* StaticGet__WritingTimeBias()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MessageUtils_TypeDefinitionIndex)->GetStaticField(0xF3F8);
-		}
 		static ::System::Single* StaticGet__SpecialWritingTime()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MessageUtils_TypeDefinitionIndex)->GetStaticField(0xF3FC);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MessageUtils_TypeDefinitionIndex)->GetStaticField(0xF8D0);
+		}
+		static ::System::Boolean* StaticGet__HasInitiated()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MessageUtils_TypeDefinitionIndex)->GetStaticField(0xF8D4);
 		}
 		static ::System::Single* StaticGet__MinWritingTime()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MessageUtils_TypeDefinitionIndex)->GetStaticField(0xF400);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MessageUtils_TypeDefinitionIndex)->GetStaticField(0xF8D8);
 		}
 		static ::System::Single* StaticGet__WritingTimeRatio()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MessageUtils_TypeDefinitionIndex)->GetStaticField(0xF404);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MessageUtils_TypeDefinitionIndex)->GetStaticField(0xF8DC);
+		}
+		static ::System::Single* StaticGet__MaxWritingTime()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MessageUtils_TypeDefinitionIndex)->GetStaticField(0xF8E0);
+		}
+		static ::System::Single* StaticGet__WritingTimeBias()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MessageUtils_TypeDefinitionIndex)->GetStaticField(0xF8E4);
 		}
 
-		static ::System::Single GetWritingTime(::RPG::Client::MessageItemData* itemData)
+		static ::System::Single GetWritingTime(::RPG::Client::MessageItemData* a1)
 		{
-			return ((::System::Single(*)(::RPG::Client::MessageItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGEUTILS_GETWRITINGTIME_OFFSET))(itemData);
+			return ((::System::Single(*)(::RPG::Client::MessageItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGEUTILS_GETWRITINGTIME_OFFSET))(a1);
 		}
 
-		static ::System::Single GetWritingTime_1(::RPG::Client::MessageContentBlock* contentBlock)
+		static ::System::Single GetWritingTime_1(::RPG::Client::MessageContentBlock* a1)
 		{
-			return ((::System::Single(*)(::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGEUTILS_GETWRITINGTIME_1_OFFSET))(contentBlock);
+			return ((::System::Single(*)(::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGEUTILS_GETWRITINGTIME_1_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::MessageStateType GetGroupState(::RPG::Client::MessageGroupData* groupData)
+		static ::RPG::GameCore::MessageStateType GetGroupState(::RPG::Client::MessageGroupData* a1)
 		{
-			return ((::RPG::GameCore::MessageStateType(*)(::RPG::Client::MessageGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGEUTILS_GETGROUPSTATE_OFFSET))(groupData);
+			return ((::RPG::GameCore::MessageStateType(*)(::RPG::Client::MessageGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGEUTILS_GETGROUPSTATE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean ShowMissionIcon(::RPG::Client::MessageSectionData* sectionData)
+		static ::System::Boolean ShowMissionIcon(::RPG::Client::MessageSectionData* a1)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::MessageSectionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGEUTILS_SHOWMISSIONICON_OFFSET))(sectionData);
+			return ((::System::Boolean(*)(::RPG::Client::MessageSectionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGEUTILS_SHOWMISSIONICON_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsMessageMissionValid(::System::UInt32 mainMissionID)
+		static ::System::Boolean IsMessageMissionValid(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGEUTILS_ISMESSAGEMISSIONVALID_OFFSET))(mainMissionID);
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGEUTILS_ISMESSAGEMISSIONVALID_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsMessageItemsChoice(::Il2CppArray<::System::UInt32>* itemIDs)
+		static ::System::Boolean IsMessageItemsChoice(::Il2CppArray<::System::UInt32>* a1)
 		{
-			return ((::System::Boolean(*)(::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGEUTILS_ISMESSAGEITEMSCHOICE_OFFSET))(itemIDs);
+			return ((::System::Boolean(*)(::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGEUTILS_ISMESSAGEITEMSCHOICE_OFFSET))(a1);
 		}
 
 		static ::System::Void _SafeInitParam()

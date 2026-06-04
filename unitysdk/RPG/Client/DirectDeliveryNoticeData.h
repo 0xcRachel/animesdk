@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_8789FE9A7EA728A4_4;
+class Class_1_8789FE9A7EA728A4_2;
 namespace Proto { class ItemList; }
 namespace RPG::Client { class DirectDeliveryNoticeToastConfig; }
 
-#define RPG_CLIENT_DIRECTDELIVERYNOTICEDATA_GETREWARDAVATARID_OFFSET UNITYSDK_OFFSET(0x17061930)
-#define RPG_CLIENT_DIRECTDELIVERYNOTICEDATA_GETREWARDITEMLIST_OFFSET UNITYSDK_OFFSET(0x170618C0)
-#define RPG_CLIENT_DIRECTDELIVERYNOTICEDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0x17061800)
-#define RPG_CLIENT_DIRECTDELIVERYNOTICEDATA_GET_REWARDITEMLISTCOUNT_OFFSET UNITYSDK_OFFSET(0x17061850)
-#define RPG_CLIENT_DIRECTDELIVERYNOTICEDATA_GET_TOASTCONFIG_OFFSET UNITYSDK_OFFSET(0x170617E0)
-#define RPG_CLIENT_DIRECTDELIVERYNOTICEDATA_SET_TOASTCONFIG_OFFSET UNITYSDK_OFFSET(0x170617F0)
-#define RPG_CLIENT_DIRECTDELIVERYNOTICEDATA_TRYSETAVATARNEW_OFFSET UNITYSDK_OFFSET(0x17061CD0)
-#define RPG_CLIENT_DIRECTDELIVERYNOTICEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x170618B0)
-#define RPG_CLIENT_DIRECTDELIVERYNOTICEDATA__GETNEWAVATARID_OFFSET UNITYSDK_OFFSET(0x17061E10)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICEDATA_GETREWARDAVATARID_OFFSET UNITYSDK_OFFSET(0x18CC3370)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICEDATA_GETREWARDITEMLIST_OFFSET UNITYSDK_OFFSET(0x18CC36B0)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICEDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0x18CC3E60)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICEDATA_GET_REWARDITEMLISTCOUNT_OFFSET UNITYSDK_OFFSET(0x18CC3EB0)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICEDATA_GET_TOASTCONFIG_OFFSET UNITYSDK_OFFSET(0x18CC3E40)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICEDATA_SET_TOASTCONFIG_OFFSET UNITYSDK_OFFSET(0x18CC3E50)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICEDATA_TRYSETAVATARNEW_OFFSET UNITYSDK_OFFSET(0x18CC3F20)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18CC3F10)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICEDATA__GETNEWAVATARID_OFFSET UNITYSDK_OFFSET(0x18CC3FA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DirectDeliveryNoticeData_TypeDefinitionIndex = 58567;
+	inline static constexpr unsigned int DirectDeliveryNoticeData_TypeDefinitionIndex = 59497;
 
 	class DirectDeliveryNoticeData : public ::System::Object
 	{
 	public:
-		::Class_1_8789FE9A7EA728A4_4* _ServerData; // 0x10
+		::Class_1_8789FE9A7EA728A4_2* _ServerData; // 0x10
 		::RPG::Client::DirectDeliveryNoticeToastConfig* _ToastConfig_k__BackingField; // 0x18
 
-		::System::Void _ctor(::Class_1_8789FE9A7EA728A4_4* serverData, ::RPG::Client::DirectDeliveryNoticeToastConfig* toastConfig)
+		::System::Void _ctor(::Class_1_8789FE9A7EA728A4_2* a1, ::RPG::Client::DirectDeliveryNoticeToastConfig* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_8789FE9A7EA728A4_4*, ::RPG::Client::DirectDeliveryNoticeToastConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIRECTDELIVERYNOTICEDATA__CTOR_OFFSET))(this, serverData, toastConfig);
+			return ((::System::Void(*)(::PVOID, ::Class_1_8789FE9A7EA728A4_2*, ::RPG::Client::DirectDeliveryNoticeToastConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIRECTDELIVERYNOTICEDATA__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::DirectDeliveryNoticeToastConfig* get_ToastConfig()
@@ -36,9 +36,9 @@ namespace RPG::Client
 			return ((::RPG::Client::DirectDeliveryNoticeToastConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIRECTDELIVERYNOTICEDATA_GET_TOASTCONFIG_OFFSET))(this);
 		}
 
-		::System::Void set_ToastConfig(::RPG::Client::DirectDeliveryNoticeToastConfig* value)
+		::System::Void set_ToastConfig(::RPG::Client::DirectDeliveryNoticeToastConfig* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::DirectDeliveryNoticeToastConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIRECTDELIVERYNOTICEDATA_SET_TOASTCONFIG_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DirectDeliveryNoticeToastConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIRECTDELIVERYNOTICEDATA_SET_TOASTCONFIG_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ID()
@@ -51,9 +51,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIRECTDELIVERYNOTICEDATA_GET_REWARDITEMLISTCOUNT_OFFSET))(this);
 		}
 
-		::Proto::ItemList* GetRewardItemList(::System::Int32 index)
+		::Proto::ItemList* GetRewardItemList(::System::Int32 a1)
 		{
-			return ((::Proto::ItemList*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIRECTDELIVERYNOTICEDATA_GETREWARDITEMLIST_OFFSET))(this, index);
+			return ((::Proto::ItemList*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIRECTDELIVERYNOTICEDATA_GETREWARDITEMLIST_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetRewardAvatarID()

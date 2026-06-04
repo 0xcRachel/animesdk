@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_ASSERTIONS_ASSERTIONEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x19CFF3D0)
-#define UNITYENGINE_ASSERTIONS_ASSERTIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19CFEE70)
+#define UNITYENGINE_ASSERTIONS_ASSERTIONEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1AB42F80)
+#define UNITYENGINE_ASSERTIONS_ASSERTIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB42AB0)
 
 namespace UnityEngine::Assertions
 {
-	inline static constexpr unsigned int AssertionException_TypeDefinitionIndex = 4757;
+	inline static constexpr unsigned int AssertionException_TypeDefinitionIndex = 4931;
 
 	class AssertionException : public ::System::Exception
 	{
 	public:
 		::System::String* m_UserMessage; // 0x88
 
-		::System::Void _ctor(::System::String* message, ::System::String* userMessage)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_ASSERTIONS_ASSERTIONEXCEPTION__CTOR_OFFSET))(this, message, userMessage);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_ASSERTIONS_ASSERTIONEXCEPTION__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_Message()

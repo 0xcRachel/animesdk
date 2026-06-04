@@ -6,20 +6,20 @@ namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CUSTOMRP_MESHRENDERDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x15A68C00)
-#define RPG_CUSTOMRP_MESHRENDERDATA_RESET_OFFSET UNITYSDK_OFFSET(0x15A68C60)
-#define RPG_CUSTOMRP_MESHRENDERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15A68C70)
+#define RPG_CUSTOMRP_MESHRENDERDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x157FB2D0)
+#define RPG_CUSTOMRP_MESHRENDERDATA_RESET_OFFSET UNITYSDK_OFFSET(0x157FB330)
+#define RPG_CUSTOMRP_MESHRENDERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x157FB340)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MeshRenderData_TypeDefinitionIndex = 35271;
+	inline static constexpr unsigned int MeshRenderData_TypeDefinitionIndex = 35571;
 
 	class MeshRenderData : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* Trans; // 0x10
-		::UnityEngine::MeshRenderer* Mr; // 0x18
-		::UnityEngine::MeshFilter* Mf; // 0x20
+		::UnityEngine::MeshFilter* Mf; // 0x18
+		::UnityEngine::MeshRenderer* Mr; // 0x20
 
 		::System::Void _ctor()
 		{

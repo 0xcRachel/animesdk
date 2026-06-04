@@ -16,62 +16,62 @@ namespace UnityEngine { class Sprite; }
 namespace UnityEngine { class SpriteRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define INCONTROL_TOUCHSPRITE_CONTAINS_1_OFFSET UNITYSDK_OFFSET(0x13BD4DE0)
-#define INCONTROL_TOUCHSPRITE_CONTAINS_OFFSET UNITYSDK_OFFSET(0x13BDBA60)
-#define INCONTROL_TOUCHSPRITE_CREATESPRITEGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x13BDB1F0)
-#define INCONTROL_TOUCHSPRITE_CREATESPRITERENDERER_OFFSET UNITYSDK_OFFSET(0x13BDB300)
-#define INCONTROL_TOUCHSPRITE_CREATE_OFFSET UNITYSDK_OFFSET(0x13BD3B00)
-#define INCONTROL_TOUCHSPRITE_DELETE_OFFSET UNITYSDK_OFFSET(0x13BD3BC0)
-#define INCONTROL_TOUCHSPRITE_DRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x13BD46A0)
-#define INCONTROL_TOUCHSPRITE_GET_BUSYCOLOR_OFFSET UNITYSDK_OFFSET(0x13BDBE00)
-#define INCONTROL_TOUCHSPRITE_GET_BUSYSPRITE_OFFSET UNITYSDK_OFFSET(0x13BDBCA0)
-#define INCONTROL_TOUCHSPRITE_GET_DIRTY_OFFSET UNITYSDK_OFFSET(0x13BDB180)
-#define INCONTROL_TOUCHSPRITE_GET_IDLECOLOR_OFFSET UNITYSDK_OFFSET(0x13BDBE60)
-#define INCONTROL_TOUCHSPRITE_GET_IDLESPRITE_OFFSET UNITYSDK_OFFSET(0x13BDBD00)
-#define INCONTROL_TOUCHSPRITE_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x13BD59C0)
-#define INCONTROL_TOUCHSPRITE_GET_READY_OFFSET UNITYSDK_OFFSET(0x13BDB1A0)
-#define INCONTROL_TOUCHSPRITE_GET_SHAPE_OFFSET UNITYSDK_OFFSET(0x13BDBEC0)
-#define INCONTROL_TOUCHSPRITE_GET_SIZEUNITTYPE_OFFSET UNITYSDK_OFFSET(0x13BDBEE0)
-#define INCONTROL_TOUCHSPRITE_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x13BDBF00)
-#define INCONTROL_TOUCHSPRITE_GET_STATE_OFFSET UNITYSDK_OFFSET(0x13BDBC90)
-#define INCONTROL_TOUCHSPRITE_GET_WORLDSIZE_OFFSET UNITYSDK_OFFSET(0x13BDBF60)
-#define INCONTROL_TOUCHSPRITE_SCALESPRITEINPERCENT_OFFSET UNITYSDK_OFFSET(0x13BDB610)
-#define INCONTROL_TOUCHSPRITE_SCALESPRITEINPIXELS_OFFSET UNITYSDK_OFFSET(0x13BDB3D0)
-#define INCONTROL_TOUCHSPRITE_SET_BUSYCOLOR_OFFSET UNITYSDK_OFFSET(0x13BDBE10)
-#define INCONTROL_TOUCHSPRITE_SET_BUSYSPRITE_OFFSET UNITYSDK_OFFSET(0x13BDBCB0)
-#define INCONTROL_TOUCHSPRITE_SET_DIRTY_OFFSET UNITYSDK_OFFSET(0x13BDB190)
-#define INCONTROL_TOUCHSPRITE_SET_IDLECOLOR_OFFSET UNITYSDK_OFFSET(0x13BDBE70)
-#define INCONTROL_TOUCHSPRITE_SET_IDLESPRITE_OFFSET UNITYSDK_OFFSET(0x13BDBD10)
-#define INCONTROL_TOUCHSPRITE_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x13BD5AD0)
-#define INCONTROL_TOUCHSPRITE_SET_READY_OFFSET UNITYSDK_OFFSET(0x13BDB1B0)
-#define INCONTROL_TOUCHSPRITE_SET_SHAPE_OFFSET UNITYSDK_OFFSET(0x13BDBED0)
-#define INCONTROL_TOUCHSPRITE_SET_SIZEUNITTYPE_OFFSET UNITYSDK_OFFSET(0x13BDBEF0)
-#define INCONTROL_TOUCHSPRITE_SET_SIZE_OFFSET UNITYSDK_OFFSET(0x13BDBF10)
-#define INCONTROL_TOUCHSPRITE_SET_SPRITE_OFFSET UNITYSDK_OFFSET(0x13BDBD60)
-#define INCONTROL_TOUCHSPRITE_SET_STATE_OFFSET UNITYSDK_OFFSET(0x13BD59A0)
-#define INCONTROL_TOUCHSPRITE_UPDATE_1_OFFSET UNITYSDK_OFFSET(0x13BD4030)
-#define INCONTROL_TOUCHSPRITE_UPDATE_OFFSET UNITYSDK_OFFSET(0x13BD4900)
-#define INCONTROL_TOUCHSPRITE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x13BD5C80)
-#define INCONTROL_TOUCHSPRITE__CTOR_OFFSET UNITYSDK_OFFSET(0x13BDB1C0)
+#define INCONTROL_TOUCHSPRITE_CONTAINS_1_OFFSET UNITYSDK_OFFSET(0x12A1B5D0)
+#define INCONTROL_TOUCHSPRITE_CONTAINS_OFFSET UNITYSDK_OFFSET(0x12A225E0)
+#define INCONTROL_TOUCHSPRITE_CREATESPRITEGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x12A21D70)
+#define INCONTROL_TOUCHSPRITE_CREATESPRITERENDERER_OFFSET UNITYSDK_OFFSET(0x12A21E80)
+#define INCONTROL_TOUCHSPRITE_CREATE_OFFSET UNITYSDK_OFFSET(0x12A1A340)
+#define INCONTROL_TOUCHSPRITE_DELETE_OFFSET UNITYSDK_OFFSET(0x12A1A400)
+#define INCONTROL_TOUCHSPRITE_DRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x12A1AEE0)
+#define INCONTROL_TOUCHSPRITE_GET_BUSYCOLOR_OFFSET UNITYSDK_OFFSET(0x12A22970)
+#define INCONTROL_TOUCHSPRITE_GET_BUSYSPRITE_OFFSET UNITYSDK_OFFSET(0x12A22810)
+#define INCONTROL_TOUCHSPRITE_GET_DIRTY_OFFSET UNITYSDK_OFFSET(0x12A21D00)
+#define INCONTROL_TOUCHSPRITE_GET_IDLECOLOR_OFFSET UNITYSDK_OFFSET(0x12A229D0)
+#define INCONTROL_TOUCHSPRITE_GET_IDLESPRITE_OFFSET UNITYSDK_OFFSET(0x12A22870)
+#define INCONTROL_TOUCHSPRITE_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x12A1C160)
+#define INCONTROL_TOUCHSPRITE_GET_READY_OFFSET UNITYSDK_OFFSET(0x12A21D20)
+#define INCONTROL_TOUCHSPRITE_GET_SHAPE_OFFSET UNITYSDK_OFFSET(0x12A22A30)
+#define INCONTROL_TOUCHSPRITE_GET_SIZEUNITTYPE_OFFSET UNITYSDK_OFFSET(0x12A22A50)
+#define INCONTROL_TOUCHSPRITE_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x12A22A70)
+#define INCONTROL_TOUCHSPRITE_GET_STATE_OFFSET UNITYSDK_OFFSET(0x12A22800)
+#define INCONTROL_TOUCHSPRITE_GET_WORLDSIZE_OFFSET UNITYSDK_OFFSET(0x12A22AD0)
+#define INCONTROL_TOUCHSPRITE_SCALESPRITEINPERCENT_OFFSET UNITYSDK_OFFSET(0x12A22190)
+#define INCONTROL_TOUCHSPRITE_SCALESPRITEINPIXELS_OFFSET UNITYSDK_OFFSET(0x12A21F50)
+#define INCONTROL_TOUCHSPRITE_SET_BUSYCOLOR_OFFSET UNITYSDK_OFFSET(0x12A22980)
+#define INCONTROL_TOUCHSPRITE_SET_BUSYSPRITE_OFFSET UNITYSDK_OFFSET(0x12A22820)
+#define INCONTROL_TOUCHSPRITE_SET_DIRTY_OFFSET UNITYSDK_OFFSET(0x12A21D10)
+#define INCONTROL_TOUCHSPRITE_SET_IDLECOLOR_OFFSET UNITYSDK_OFFSET(0x12A229E0)
+#define INCONTROL_TOUCHSPRITE_SET_IDLESPRITE_OFFSET UNITYSDK_OFFSET(0x12A22880)
+#define INCONTROL_TOUCHSPRITE_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x12A1C270)
+#define INCONTROL_TOUCHSPRITE_SET_READY_OFFSET UNITYSDK_OFFSET(0x12A21D30)
+#define INCONTROL_TOUCHSPRITE_SET_SHAPE_OFFSET UNITYSDK_OFFSET(0x12A22A40)
+#define INCONTROL_TOUCHSPRITE_SET_SIZEUNITTYPE_OFFSET UNITYSDK_OFFSET(0x12A22A60)
+#define INCONTROL_TOUCHSPRITE_SET_SIZE_OFFSET UNITYSDK_OFFSET(0x12A22A80)
+#define INCONTROL_TOUCHSPRITE_SET_SPRITE_OFFSET UNITYSDK_OFFSET(0x12A228D0)
+#define INCONTROL_TOUCHSPRITE_SET_STATE_OFFSET UNITYSDK_OFFSET(0x12A1C150)
+#define INCONTROL_TOUCHSPRITE_UPDATE_1_OFFSET UNITYSDK_OFFSET(0x12A1A870)
+#define INCONTROL_TOUCHSPRITE_UPDATE_OFFSET UNITYSDK_OFFSET(0x12A1B140)
+#define INCONTROL_TOUCHSPRITE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x12A1C420)
+#define INCONTROL_TOUCHSPRITE__CTOR_OFFSET UNITYSDK_OFFSET(0x12A21D40)
 
 namespace InControl
 {
-	inline static constexpr unsigned int TouchSprite_TypeDefinitionIndex = 37197;
+	inline static constexpr unsigned int TouchSprite_TypeDefinitionIndex = 37929;
 
 	class TouchSprite : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Material** StaticGet_spriteRendererMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(TouchSprite_TypeDefinitionIndex)->GetStaticField(0x13760);
-		}
 		static ::UnityEngine::Shader** StaticGet_spriteRendererShader()
 		{
-			return (::UnityEngine::Shader**)Il2CppClass::FromTypeDefinitionIndex(TouchSprite_TypeDefinitionIndex)->GetStaticField(0x13768);
+			return (::UnityEngine::Shader**)Il2CppClass::FromTypeDefinitionIndex(TouchSprite_TypeDefinitionIndex)->GetStaticField(0x15E50);
+		}
+		static ::UnityEngine::Material** StaticGet_spriteRendererMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(TouchSprite_TypeDefinitionIndex)->GetStaticField(0x15E58);
 		}
 		static ::System::Int32* StaticGet_spriteRendererPixelSnapId()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TouchSprite_TypeDefinitionIndex)->GetStaticField(0x5C70);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TouchSprite_TypeDefinitionIndex)->GetStaticField(0x7E30);
 		}
 		::UnityEngine::Sprite* idleSprite; // 0x10
 		::UnityEngine::Sprite* busySprite; // 0x18
@@ -93,9 +93,9 @@ namespace InControl
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Single size)
+		::System::Void _ctor_1(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE__CTOR_1_OFFSET))(this, size);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_Dirty()
@@ -103,9 +103,9 @@ namespace InControl
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_GET_DIRTY_OFFSET))(this);
 		}
 
-		::System::Void set_Dirty(::System::Boolean value)
+		::System::Void set_Dirty(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_DIRTY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_DIRTY_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_Ready()
@@ -113,14 +113,14 @@ namespace InControl
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_GET_READY_OFFSET))(this);
 		}
 
-		::System::Void set_Ready(::System::Boolean value)
+		::System::Void set_Ready(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_READY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_READY_OFFSET))(this, a1);
 		}
 
-		::System::Void Create(::System::String* gameObjectName, ::UnityEngine::Transform* parentTransform, ::System::Int32 sortingOrder)
+		::System::Void Create(::System::String* a1, ::UnityEngine::Transform* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_CREATE_OFFSET))(this, gameObjectName, parentTransform, sortingOrder);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_CREATE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Delete()
@@ -133,44 +133,44 @@ namespace InControl
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void Update_1(::System::Boolean forceUpdate)
+		::System::Void Update_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_UPDATE_1_OFFSET))(this, forceUpdate);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_UPDATE_1_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::GameObject* CreateSpriteGameObject(::System::String* name, ::UnityEngine::Transform* parentTransform)
+		::UnityEngine::GameObject* CreateSpriteGameObject(::System::String* a1, ::UnityEngine::Transform* a2)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_CREATESPRITEGAMEOBJECT_OFFSET))(this, name, parentTransform);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_CREATESPRITEGAMEOBJECT_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::SpriteRenderer* CreateSpriteRenderer(::UnityEngine::GameObject* spriteGameObject, ::UnityEngine::Sprite* sprite, ::System::Int32 sortingOrder)
+		::UnityEngine::SpriteRenderer* CreateSpriteRenderer(::UnityEngine::GameObject* a1, ::UnityEngine::Sprite* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::SpriteRenderer*(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Sprite*, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_CREATESPRITERENDERER_OFFSET))(this, spriteGameObject, sprite, sortingOrder);
+			return ((::UnityEngine::SpriteRenderer*(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Sprite*, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_CREATESPRITERENDERER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ScaleSpriteInPixels(::UnityEngine::GameObject* spriteGameObject, ::UnityEngine::SpriteRenderer* spriteRenderer, ::UnityEngine::Vector2 size)
+		::System::Void ScaleSpriteInPixels(::UnityEngine::GameObject* a1, ::UnityEngine::SpriteRenderer* a2, ::UnityEngine::Vector2 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::SpriteRenderer*, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SCALESPRITEINPIXELS_OFFSET))(this, spriteGameObject, spriteRenderer, size);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::SpriteRenderer*, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SCALESPRITEINPIXELS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ScaleSpriteInPercent(::UnityEngine::GameObject* spriteGameObject, ::UnityEngine::SpriteRenderer* spriteRenderer, ::UnityEngine::Vector2 size)
+		::System::Void ScaleSpriteInPercent(::UnityEngine::GameObject* a1, ::UnityEngine::SpriteRenderer* a2, ::UnityEngine::Vector2 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::SpriteRenderer*, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SCALESPRITEINPERCENT_OFFSET))(this, spriteGameObject, spriteRenderer, size);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::SpriteRenderer*, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SCALESPRITEINPERCENT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Contains(::UnityEngine::Vector2 testWorldPoint)
+		::System::Boolean Contains(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_CONTAINS_OFFSET))(this, testWorldPoint);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_CONTAINS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Contains_1(::InControl::Touch* touch)
+		::System::Boolean Contains_1(::InControl::Touch* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::InControl::Touch*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_CONTAINS_1_OFFSET))(this, touch);
+			return ((::System::Boolean(*)(::PVOID, ::InControl::Touch*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_CONTAINS_1_OFFSET))(this, a1);
 		}
 
-		::System::Void DrawGizmos(::UnityEngine::Vector3 position, ::UnityEngine::Color color)
+		::System::Void DrawGizmos(::UnityEngine::Vector3 a1, ::UnityEngine::Color a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_DRAWGIZMOS_OFFSET))(this, position, color);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_DRAWGIZMOS_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_State()
@@ -178,9 +178,9 @@ namespace InControl
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_GET_STATE_OFFSET))(this);
 		}
 
-		::System::Void set_State(::System::Boolean value)
+		::System::Void set_State(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_STATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_STATE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Sprite* get_BusySprite()
@@ -188,9 +188,9 @@ namespace InControl
 			return ((::UnityEngine::Sprite*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_GET_BUSYSPRITE_OFFSET))(this);
 		}
 
-		::System::Void set_BusySprite(::UnityEngine::Sprite* value)
+		::System::Void set_BusySprite(::UnityEngine::Sprite* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_BUSYSPRITE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_BUSYSPRITE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Sprite* get_IdleSprite()
@@ -198,14 +198,14 @@ namespace InControl
 			return ((::UnityEngine::Sprite*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_GET_IDLESPRITE_OFFSET))(this);
 		}
 
-		::System::Void set_IdleSprite(::UnityEngine::Sprite* value)
+		::System::Void set_IdleSprite(::UnityEngine::Sprite* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_IDLESPRITE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_IDLESPRITE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Sprite(::UnityEngine::Sprite* value)
+		::System::Void set_Sprite(::UnityEngine::Sprite* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_SPRITE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_SPRITE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Color get_BusyColor()
@@ -213,9 +213,9 @@ namespace InControl
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_GET_BUSYCOLOR_OFFSET))(this);
 		}
 
-		::System::Void set_BusyColor(::UnityEngine::Color value)
+		::System::Void set_BusyColor(::UnityEngine::Color a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_BUSYCOLOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_BUSYCOLOR_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Color get_IdleColor()
@@ -223,9 +223,9 @@ namespace InControl
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_GET_IDLECOLOR_OFFSET))(this);
 		}
 
-		::System::Void set_IdleColor(::UnityEngine::Color value)
+		::System::Void set_IdleColor(::UnityEngine::Color a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_IDLECOLOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_IDLECOLOR_OFFSET))(this, a1);
 		}
 
 		::InControl::TouchSpriteShape get_Shape()
@@ -233,9 +233,9 @@ namespace InControl
 			return ((::InControl::TouchSpriteShape(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_GET_SHAPE_OFFSET))(this);
 		}
 
-		::System::Void set_Shape(::InControl::TouchSpriteShape value)
+		::System::Void set_Shape(::InControl::TouchSpriteShape a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::TouchSpriteShape))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_SHAPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::InControl::TouchSpriteShape))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_SHAPE_OFFSET))(this, a1);
 		}
 
 		::InControl::TouchUnitType get_SizeUnitType()
@@ -243,9 +243,9 @@ namespace InControl
 			return ((::InControl::TouchUnitType(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_GET_SIZEUNITTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_SizeUnitType(::InControl::TouchUnitType value)
+		::System::Void set_SizeUnitType(::InControl::TouchUnitType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::TouchUnitType))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_SIZEUNITTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::InControl::TouchUnitType))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_SIZEUNITTYPE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector2 get_Size()
@@ -253,9 +253,9 @@ namespace InControl
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_GET_SIZE_OFFSET))(this);
 		}
 
-		::System::Void set_Size(::UnityEngine::Vector2 value)
+		::System::Void set_Size(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_SIZE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_SIZE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector2 get_WorldSize()
@@ -268,9 +268,9 @@ namespace InControl
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_GET_POSITION_OFFSET))(this);
 		}
 
-		::System::Void set_Position(::UnityEngine::Vector3 value)
+		::System::Void set_Position(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_POSITION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSPRITE_SET_POSITION_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONSTERGUIDESKILLTEXTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1862BB20)
-#define RPG_GAMECORE_MONSTERGUIDESKILLTEXTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1862BDB0)
+#define RPG_GAMECORE_MONSTERGUIDESKILLTEXTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190E4F20)
+#define RPG_GAMECORE_MONSTERGUIDESKILLTEXTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190E51A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterGuideSkillTextConfigRow_TypeDefinitionIndex = 13463;
+	inline static constexpr unsigned int MonsterGuideSkillTextConfigRow_TypeDefinitionIndex = 13534;
 
 	class MonsterGuideSkillTextConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* EffectIDList; // 0x10
-		::Il2CppArray<::System::Single>* ParameterList; // 0x18
+		::Il2CppArray<::System::Single>* ParameterList; // 0x10
+		::Il2CppArray<::System::UInt32>* EffectIDList; // 0x18
 		::RPG::Client::TextID SkillDescription; // 0x20
 		::System::UInt32 SkillID; // 0x30
 		::System::UInt32 SkillTextID; // 0x34
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERGUIDESKILLTEXTCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::MonsterGuideSkillTextConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonsterGuideSkillTextConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonsterGuideSkillTextConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERGUIDESKILLTEXTCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonsterGuideSkillTextConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERGUIDESKILLTEXTCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

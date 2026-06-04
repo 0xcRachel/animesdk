@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-#define RPG_GAMECORE_LEVELEVOLVEBUILDREROLL_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x192031C0)
-#define RPG_GAMECORE_LEVELEVOLVEBUILDREROLL_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19203170)
-#define RPG_GAMECORE_LEVELEVOLVEBUILDREROLL__CTOR_OFFSET UNITYSDK_OFFSET(0x19203210)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDREROLL_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x18735510)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDREROLL_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x187354C0)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDREROLL__CTOR_OFFSET UNITYSDK_OFFSET(0x18735560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEvolveBuildReRoll_TypeDefinitionIndex = 52374;
+	inline static constexpr unsigned int LevelEvolveBuildReRoll_TypeDefinitionIndex = 53071;
 
-	class LevelEvolveBuildReRoll : public ::Class_1_9988289E7F8AA214
+	class LevelEvolveBuildReRoll : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::System::Void _ctor()

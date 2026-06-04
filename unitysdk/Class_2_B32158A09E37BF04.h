@@ -7,15 +7,15 @@ class Class_1_303D5A33D1401D59;
 namespace RPG::GameCore { class BlockNodeConfig; }
 namespace System { class String; }
 
-#define CLASS_2_B32158A09E37BF04_ONENVOBJENABLE_OFFSET UNITYSDK_OFFSET(0xFB96690)
-#define CLASS_2_B32158A09E37BF04_ONFADINGEND_OFFSET UNITYSDK_OFFSET(0xFB967A0)
-#define CLASS_2_B32158A09E37BF04_ONFADING_OFFSET UNITYSDK_OFFSET(0xFB966E0)
-#define CLASS_2_B32158A09E37BF04__CTOR_OFFSET UNITYSDK_OFFSET(0xFB965F0)
-#define CLASS_2_B32158A09E37BF04___IFIXBASEPROXY_ONENVOBJENABLE_OFFSET UNITYSDK_OFFSET(0xFB96810)
-#define CLASS_2_B32158A09E37BF04___IFIXBASEPROXY_ONFADINGEND_OFFSET UNITYSDK_OFFSET(0xFB968F0)
-#define CLASS_2_B32158A09E37BF04___IFIXBASEPROXY_ONFADING_OFFSET UNITYSDK_OFFSET(0xFB96880)
+#define CLASS_2_B32158A09E37BF04_ONENVOBJENABLE_OFFSET UNITYSDK_OFFSET(0x15E3E1C0)
+#define CLASS_2_B32158A09E37BF04_ONFADINGEND_OFFSET UNITYSDK_OFFSET(0x15E3E2E0)
+#define CLASS_2_B32158A09E37BF04_ONFADING_OFFSET UNITYSDK_OFFSET(0x15E3E210)
+#define CLASS_2_B32158A09E37BF04__CTOR_OFFSET UNITYSDK_OFFSET(0x15E3E120)
+#define CLASS_2_B32158A09E37BF04___IFIXBASEPROXY_ONENVOBJENABLE_OFFSET UNITYSDK_OFFSET(0x15E3E350)
+#define CLASS_2_B32158A09E37BF04___IFIXBASEPROXY_ONFADINGEND_OFFSET UNITYSDK_OFFSET(0x15E3E410)
+#define CLASS_2_B32158A09E37BF04___IFIXBASEPROXY_ONFADING_OFFSET UNITYSDK_OFFSET(0x15E3E3B0)
 
-inline static constexpr unsigned int Class_2_B32158A09E37BF04_TypeDefinitionIndex = 45905;
+inline static constexpr unsigned int Class_2_B32158A09E37BF04_TypeDefinitionIndex = 46488;
 
 class Class_2_B32158A09E37BF04 : public ::Class_1_AD0A0FF0019FC986
 {
@@ -40,18 +40,18 @@ public:
 		return ((::System::Void(*)(::PVOID, ::ScenenLightManager::FadingState))((::PBYTE)hIl2Cpp + CLASS_2_B32158A09E37BF04_ONFADINGEND_OFFSET))(this, a1);
 	}
 
-	::System::Void __iFixBaseProxy_OnEnvObjEnable(::System::Boolean P0)
+	::System::Void __iFixBaseProxy_OnEnvObjEnable(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_B32158A09E37BF04___IFIXBASEPROXY_ONENVOBJENABLE_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_B32158A09E37BF04___IFIXBASEPROXY_ONENVOBJENABLE_OFFSET))(this, a1);
 	}
 
-	::System::Void __iFixBaseProxy_OnFading(::System::Single P0, ::ScenenLightManager::FadingState P1)
+	::System::Void __iFixBaseProxy_OnFading(::System::Single a1, ::ScenenLightManager::FadingState a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single, ::ScenenLightManager::FadingState))((::PBYTE)hIl2Cpp + CLASS_2_B32158A09E37BF04___IFIXBASEPROXY_ONFADING_OFFSET))(this, P0, P1);
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::ScenenLightManager::FadingState))((::PBYTE)hIl2Cpp + CLASS_2_B32158A09E37BF04___IFIXBASEPROXY_ONFADING_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void __iFixBaseProxy_OnFadingEnd(::ScenenLightManager::FadingState P0)
+	::System::Void __iFixBaseProxy_OnFadingEnd(::ScenenLightManager::FadingState a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::ScenenLightManager::FadingState))((::PBYTE)hIl2Cpp + CLASS_2_B32158A09E37BF04___IFIXBASEPROXY_ONFADINGEND_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::ScenenLightManager::FadingState))((::PBYTE)hIl2Cpp + CLASS_2_B32158A09E37BF04___IFIXBASEPROXY_ONFADINGEND_OFFSET))(this, a1);
 	}
 };

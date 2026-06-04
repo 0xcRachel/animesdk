@@ -3,16 +3,16 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_B18A907A8E4C5C9C;
+class Class_1_95E1BEF84A79D9EB;
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0x1730BBC0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER_SHOWBOXFLY_OFFSET UNITYSDK_OFFSET(0x1730BD30)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1730BED0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0x1864DE70)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER_SHOWBOXFLY_OFFSET UNITYSDK_OFFSET(0x1864DFE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1864E190)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleliveRewardFlyController_TypeDefinitionIndex = 69252;
+	inline static constexpr unsigned int IdleliveRewardFlyController_TypeDefinitionIndex = 70064;
 
 	class IdleliveRewardFlyController : public ::UnityEngine::MonoBehaviour
 	{
@@ -20,7 +20,7 @@ namespace RPG::Client::ActivityIdleLive
 		// static const ::System::String* BOX_FLY_PREFAB_PATH; // 0x0
 		// static const ::System::String* GEM_FLY_PREFAB_PATH; // 0x0
 		// static const ::System::String* TECH_POINT_FLY_PREFAB_PATH; // 0x0
-		::Class_1_B18A907A8E4C5C9C* _PoolMgr; // 0x18
+		::Class_1_95E1BEF84A79D9EB* _PoolMgr; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -32,9 +32,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER_INIT_OFFSET))(this);
 		}
 
-		::System::Void ShowBoxFly(::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos)
+		::System::Void ShowBoxFly(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER_SHOWBOXFLY_OFFSET))(this, startPos, endPos);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER_SHOWBOXFLY_OFFSET))(this, a1, a2);
 		}
 	};
 }

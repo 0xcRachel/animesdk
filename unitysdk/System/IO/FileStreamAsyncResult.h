@@ -7,38 +7,38 @@ namespace System { class IAsyncResult; }
 namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class WaitHandle; }
 
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_CBWRAPPER_OFFSET UNITYSDK_OFFSET(0x194F2220)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x194F22B0)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x194F22D0)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x194F22C0)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x194F22E0)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x194F0550)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_CBWRAPPER_OFFSET UNITYSDK_OFFSET(0x1A068C10)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x1A068CB0)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x1A068CD0)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x1A068CC0)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1A068CE0)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A067940)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int FileStreamAsyncResult_TypeDefinitionIndex = 718;
+	inline static constexpr unsigned int FileStreamAsyncResult_TypeDefinitionIndex = 717;
 
 	class FileStreamAsyncResult : public ::System::Object
 	{
 	public:
-		::System::Threading::ManualResetEvent* wh; // 0x10
-		::System::AsyncCallback* realcb; // 0x18
+		::System::Object* state; // 0x10
+		::System::Threading::ManualResetEvent* wh; // 0x18
 		::System::AsyncCallback* cb; // 0x20
-		::System::Object* state; // 0x28
-		::System::Boolean completedSynch; // 0x30
-		::System::Boolean completed; // 0x31
+		::System::AsyncCallback* realcb; // 0x28
+		::System::Int32 OriginalCount; // 0x30
 		::System::Int32 BytesRead; // 0x34
-		::System::Int32 OriginalCount; // 0x38
-		::System::Int32 Count; // 0x3C
+		::System::Int32 Count; // 0x38
+		::System::Boolean completedSynch; // 0x3C
+		::System::Boolean completed; // 0x3D
 
-		::System::Void _ctor(::System::AsyncCallback* cb, ::System::Object* state)
+		::System::Void _ctor(::System::AsyncCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILESTREAMASYNCRESULT__CTOR_OFFSET))(this, cb, state);
+			return ((::System::Void(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILESTREAMASYNCRESULT__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void CBWrapper(::System::IAsyncResult* ares)
+		static ::System::Void CBWrapper(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILESTREAMASYNCRESULT_CBWRAPPER_OFFSET))(ares);
+			return ((::System::Void(*)(::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILESTREAMASYNCRESULT_CBWRAPPER_OFFSET))(a1);
 		}
 
 		::System::Object* get_AsyncState()

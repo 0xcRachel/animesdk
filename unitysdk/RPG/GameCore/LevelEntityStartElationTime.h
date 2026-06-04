@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME_CLEAR_OFFSET UNITYSDK_OFFSET(0x192021D0)
-#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19202270)
-#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19202220)
-#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME_INIT_OFFSET UNITYSDK_OFFSET(0x19202170)
-#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x192022C0)
-#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x192022D0)
+#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME_CLEAR_OFFSET UNITYSDK_OFFSET(0x18734540)
+#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x187345E0)
+#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18734590)
+#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME_INIT_OFFSET UNITYSDK_OFFSET(0x187344E0)
+#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x18734630)
+#define RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x18734640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntityStartElationTime_TypeDefinitionIndex = 52304;
+	inline static constexpr unsigned int LevelEntityStartElationTime_TypeDefinitionIndex = 53001;
 
-	class LevelEntityStartElationTime : public ::Class_1_9988289E7F8AA214
+	class LevelEntityStartElationTime : public ::Class_1_BF7A075734D15E98
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Targets; // 0x18
-		::RPG::GameCore::GameEntity* Caster; // 0x20
+		::RPG::GameCore::GameEntity* Caster; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Targets; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelEntityStartElationTime* Init(::RPG::GameCore::GameEntity* caster, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* targets)
+		::RPG::GameCore::LevelEntityStartElationTime* Init(::RPG::GameCore::GameEntity* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2)
 		{
-			return ((::RPG::GameCore::LevelEntityStartElationTime*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME_INIT_OFFSET))(this, caster, targets);
+			return ((::RPG::GameCore::LevelEntityStartElationTime*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYSTARTELATIONTIME_INIT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Clear()

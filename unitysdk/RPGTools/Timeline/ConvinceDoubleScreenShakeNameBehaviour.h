@@ -7,17 +7,17 @@
 class Class_1_469A5FF005CF3F5C;
 namespace RPGTools::Timeline { class ConvinceDoubleScreenShakeNameClip; }
 
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x17B10020)
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x17B10300)
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x17B10040)
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x17B10030)
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x17B10390)
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x17B103B0)
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x17B103A0)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x199B67D0)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x199B6AC0)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x199B67F0)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x199B67E0)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x199B6B50)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x199B6B70)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x199B6B60)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ConvinceDoubleScreenShakeNameBehaviour_TypeDefinitionIndex = 44795;
+	inline static constexpr unsigned int ConvinceDoubleScreenShakeNameBehaviour_TypeDefinitionIndex = 45342;
 
 	class ConvinceDoubleScreenShakeNameBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -35,9 +35,9 @@ namespace RPGTools::Timeline
 			return ((::RPGTools::Timeline::ConvinceDoubleScreenShakeNameClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_GET_CLIP_OFFSET))(this);
 		}
 
-		::System::Void set_Clip(::RPGTools::Timeline::ConvinceDoubleScreenShakeNameClip* value)
+		::System::Void set_Clip(::RPGTools::Timeline::ConvinceDoubleScreenShakeNameClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::ConvinceDoubleScreenShakeNameClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_SET_CLIP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::ConvinceDoubleScreenShakeNameClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_SET_CLIP_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -50,14 +50,14 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPause(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPause(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
 		}
 	};
 }

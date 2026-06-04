@@ -5,18 +5,18 @@
 namespace Entitas { class IContext; }
 namespace System { class String; }
 
-#define ENTITAS_CONTEXTENTITYINDEXDOESALREADYEXISTEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A638B40)
+#define ENTITAS_CONTEXTENTITYINDEXDOESALREADYEXISTEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B45B2B0)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int ContextEntityIndexDoesAlreadyExistException_TypeDefinitionIndex = 9812;
+	inline static constexpr unsigned int ContextEntityIndexDoesAlreadyExistException_TypeDefinitionIndex = 9639;
 
 	class ContextEntityIndexDoesAlreadyExistException : public ::Entitas::EntitasException
 	{
 	public:
-		::System::Void _ctor(::Entitas::IContext* context, ::System::String* name)
+		::System::Void _ctor(::Entitas::IContext* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*, ::System::String*))((::PBYTE)hIl2Cpp + ENTITAS_CONTEXTENTITYINDEXDOESALREADYEXISTEXCEPTION__CTOR_OFFSET))(this, context, name);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*, ::System::String*))((::PBYTE)hIl2Cpp + ENTITAS_CONTEXTENTITYINDEXDOESALREADYEXISTEXCEPTION__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

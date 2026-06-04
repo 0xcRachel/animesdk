@@ -3,24 +3,24 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_ABILITYLINKMOVESTART_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB1B5D20)
-#define RPG_GAMECORE_ABILITYLINKMOVESTART_GETISLINKLEAD_OFFSET UNITYSDK_OFFSET(0xB1B5CE0)
-#define RPG_GAMECORE_ABILITYLINKMOVESTART_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB1B5CA0)
-#define RPG_GAMECORE_ABILITYLINKMOVESTART__CTOR_OFFSET UNITYSDK_OFFSET(0xB1B5C90)
+#define RPG_GAMECORE_ABILITYLINKMOVESTART_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x12B058F0)
+#define RPG_GAMECORE_ABILITYLINKMOVESTART_GETISLINKLEAD_OFFSET UNITYSDK_OFFSET(0x12B058B0)
+#define RPG_GAMECORE_ABILITYLINKMOVESTART_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x12B05870)
+#define RPG_GAMECORE_ABILITYLINKMOVESTART__CTOR_OFFSET UNITYSDK_OFFSET(0x12B05860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityLinkMoveStart_TypeDefinitionIndex = 52134;
+	inline static constexpr unsigned int AbilityLinkMoveStart_TypeDefinitionIndex = 52831;
 
 	class AbilityLinkMoveStart : public ::System::Object
 	{
 	public:
-		::System::UInt32 _SourceEntityRuntimeID; // 0x10
-		::System::Boolean _IsLinkLead; // 0x14
+		::System::Boolean _IsLinkLead; // 0x10
+		::System::UInt32 _SourceEntityRuntimeID; // 0x14
 
-		::System::Void _ctor(::System::UInt32 nSourceRuntimeID, ::System::Boolean bIsLinkLead)
+		::System::Void _ctor(::System::UInt32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYLINKMOVESTART__CTOR_OFFSET))(this, nSourceRuntimeID, bIsLinkLead);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYLINKMOVESTART__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

@@ -5,13 +5,13 @@
 
 namespace System { class String; }
 
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCSPLITTERPOLYLINE_POLYLINEPOINT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2267F10)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCSPLITTERPOLYLINE_POLYLINEPOINT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2267ED0)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCSPLITTERPOLYLINE_POLYLINEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x2267E90)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCSPLITTERPOLYLINE_POLYLINEPOINT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x37A3650)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCSPLITTERPOLYLINE_POLYLINEPOINT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x37A3610)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCSPLITTERPOLYLINE_POLYLINEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x37A35D0)
 
 namespace BansheeGz::BGSpline::Components
 {
-	inline static constexpr unsigned int BGCcSplitterPolyline_PolylinePoint_TypeDefinitionIndex = 33848;
+	inline static constexpr unsigned int BGCcSplitterPolyline_PolylinePoint_TypeDefinitionIndex = 34130;
 
 	struct alignas(4) BGCcSplitterPolyline_PolylinePoint
 	{
@@ -19,14 +19,14 @@ namespace BansheeGz::BGSpline::Components
 		::System::Single Distance; // 0x1C
 		::UnityEngine::Vector3 Tangent; // 0x20
 
-		::System::Void _ctor(::UnityEngine::Vector3 position, ::System::Single distance)
+		::System::Void _ctor(::UnityEngine::Vector3 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCSPLITTERPOLYLINE_POLYLINEPOINT__CTOR_OFFSET))(this, position, distance);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCSPLITTERPOLYLINE_POLYLINEPOINT__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::UnityEngine::Vector3 position, ::System::Single distance, ::UnityEngine::Vector3 tangent)
+		::System::Void _ctor_1(::UnityEngine::Vector3 a1, ::System::Single a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCSPLITTERPOLYLINE_POLYLINEPOINT__CTOR_1_OFFSET))(this, position, distance, tangent);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCSPLITTERPOLYLINE_POLYLINEPOINT__CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::String* ToString()

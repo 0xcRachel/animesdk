@@ -7,19 +7,19 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define UNITYENGINE_PROBUILDER_COLORPALETTE_GET_COLORS_OFFSET UNITYSDK_OFFSET(0xB93D320)
-#define UNITYENGINE_PROBUILDER_COLORPALETTE_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xB93D700)
-#define UNITYENGINE_PROBUILDER_COLORPALETTE_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xB93D300)
-#define UNITYENGINE_PROBUILDER_COLORPALETTE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xB93D660)
-#define UNITYENGINE_PROBUILDER_COLORPALETTE_SETCOLORS_OFFSET UNITYSDK_OFFSET(0xB93D380)
-#define UNITYENGINE_PROBUILDER_COLORPALETTE_SETDEFAULTVALUES_OFFSET UNITYSDK_OFFSET(0xB93D430)
-#define UNITYENGINE_PROBUILDER_COLORPALETTE_SET_CURRENT_OFFSET UNITYSDK_OFFSET(0xB93D310)
-#define UNITYENGINE_PROBUILDER_COLORPALETTE_SET_ITEM_OFFSET UNITYSDK_OFFSET(0xB93D6A0)
-#define UNITYENGINE_PROBUILDER_COLORPALETTE__CTOR_OFFSET UNITYSDK_OFFSET(0xB93D720)
+#define UNITYENGINE_PROBUILDER_COLORPALETTE_GET_COLORS_OFFSET UNITYSDK_OFFSET(0xC1E0340)
+#define UNITYENGINE_PROBUILDER_COLORPALETTE_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xC1E0A40)
+#define UNITYENGINE_PROBUILDER_COLORPALETTE_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xC1E0320)
+#define UNITYENGINE_PROBUILDER_COLORPALETTE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xC1E09A0)
+#define UNITYENGINE_PROBUILDER_COLORPALETTE_SETCOLORS_OFFSET UNITYSDK_OFFSET(0xC1E03A0)
+#define UNITYENGINE_PROBUILDER_COLORPALETTE_SETDEFAULTVALUES_OFFSET UNITYSDK_OFFSET(0xC1E0450)
+#define UNITYENGINE_PROBUILDER_COLORPALETTE_SET_CURRENT_OFFSET UNITYSDK_OFFSET(0xC1E0330)
+#define UNITYENGINE_PROBUILDER_COLORPALETTE_SET_ITEM_OFFSET UNITYSDK_OFFSET(0xC1E09F0)
+#define UNITYENGINE_PROBUILDER_COLORPALETTE__CTOR_OFFSET UNITYSDK_OFFSET(0xC1E0A60)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ColorPalette_TypeDefinitionIndex = 39901;
+	inline static constexpr unsigned int ColorPalette_TypeDefinitionIndex = 40728;
 
 	class ColorPalette : public ::UnityEngine::ScriptableObject
 	{
@@ -37,9 +37,9 @@ namespace UnityEngine::ProBuilder
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORPALETTE_GET_CURRENT_OFFSET))(this);
 		}
 
-		::System::Void set_current(::UnityEngine::Color value)
+		::System::Void set_current(::UnityEngine::Color a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORPALETTE_SET_CURRENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORPALETTE_SET_CURRENT_OFFSET))(this, a1);
 		}
 
 		::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Color>* get_colors()
@@ -47,9 +47,9 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Color>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORPALETTE_GET_COLORS_OFFSET))(this);
 		}
 
-		::System::Void SetColors(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Color>* colors)
+		::System::Void SetColors(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Color>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORPALETTE_SETCOLORS_OFFSET))(this, colors);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORPALETTE_SETCOLORS_OFFSET))(this, a1);
 		}
 
 		::System::Void SetDefaultValues()
@@ -57,14 +57,14 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORPALETTE_SETDEFAULTVALUES_OFFSET))(this);
 		}
 
-		::UnityEngine::Color get_Item(::System::Int32 i)
+		::UnityEngine::Color get_Item(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Color(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORPALETTE_GET_ITEM_OFFSET))(this, i);
+			return ((::UnityEngine::Color(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORPALETTE_GET_ITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Item(::System::Int32 i, ::UnityEngine::Color value)
+		::System::Void set_Item(::System::Int32 a1, ::UnityEngine::Color a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORPALETTE_SET_ITEM_OFFSET))(this, i, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORPALETTE_SET_ITEM_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_Count()

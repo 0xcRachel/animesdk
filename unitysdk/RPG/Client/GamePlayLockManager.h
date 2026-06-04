@@ -5,16 +5,16 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GAMEPLAYLOCKMANAGER_ADDTICKENTITYINGAMEWORLDPAUSE_OFFSET UNITYSDK_OFFSET(0x16032A00)
-#define RPG_CLIENT_GAMEPLAYLOCKMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x160328D0)
-#define RPG_CLIENT_GAMEPLAYLOCKMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x16032860)
-#define RPG_CLIENT_GAMEPLAYLOCKMANAGER_REMOVETICKENTITYINGAMEWORLDPAUSE_OFFSET UNITYSDK_OFFSET(0x16032A70)
-#define RPG_CLIENT_GAMEPLAYLOCKMANAGER_TICK_OFFSET UNITYSDK_OFFSET(0x16032940)
-#define RPG_CLIENT_GAMEPLAYLOCKMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x16032AE0)
+#define RPG_CLIENT_GAMEPLAYLOCKMANAGER_ADDTICKENTITYINGAMEWORLDPAUSE_OFFSET UNITYSDK_OFFSET(0x16011AB0)
+#define RPG_CLIENT_GAMEPLAYLOCKMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16011950)
+#define RPG_CLIENT_GAMEPLAYLOCKMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x160118E0)
+#define RPG_CLIENT_GAMEPLAYLOCKMANAGER_REMOVETICKENTITYINGAMEWORLDPAUSE_OFFSET UNITYSDK_OFFSET(0x16011B60)
+#define RPG_CLIENT_GAMEPLAYLOCKMANAGER_TICK_OFFSET UNITYSDK_OFFSET(0x160119C0)
+#define RPG_CLIENT_GAMEPLAYLOCKMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x16011BD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GamePlayLockManager_TypeDefinitionIndex = 62965;
+	inline static constexpr unsigned int GamePlayLockManager_TypeDefinitionIndex = 63880;
 
 	class GamePlayLockManager : public ::System::Object
 	{
@@ -37,19 +37,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEPLAYLOCKMANAGER_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Tick(::System::Single fElapsedTimeInSec)
+		::System::Void Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEPLAYLOCKMANAGER_TICK_OFFSET))(this, fElapsedTimeInSec);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEPLAYLOCKMANAGER_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Void AddTickEntityInGameWorldPause(::RPG::GameCore::GameEntity* entity)
+		::System::Void AddTickEntityInGameWorldPause(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEPLAYLOCKMANAGER_ADDTICKENTITYINGAMEWORLDPAUSE_OFFSET))(this, entity);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEPLAYLOCKMANAGER_ADDTICKENTITYINGAMEWORLDPAUSE_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveTickEntityInGameWorldPause(::RPG::GameCore::GameEntity* entity)
+		::System::Void RemoveTickEntityInGameWorldPause(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEPLAYLOCKMANAGER_REMOVETICKENTITYINGAMEWORLDPAUSE_OFFSET))(this, entity);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEPLAYLOCKMANAGER_REMOVETICKENTITYINGAMEWORLDPAUSE_OFFSET))(this, a1);
 		}
 	};
 }

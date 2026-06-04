@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MaterialPropertyAdaptionConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EFFECTADAPTIONCONFIG_METHOD_2_624EF185655418D1_OFFSET UNITYSDK_OFFSET(0x19149130)
-#define RPG_GAMECORE_EFFECTADAPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x191493C0)
+#define RPG_GAMECORE_EFFECTADAPTIONCONFIG_METHOD_2_624EF185655418D1_OFFSET UNITYSDK_OFFSET(0x19D649A0)
+#define RPG_GAMECORE_EFFECTADAPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19D64C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectAdaptionConfig_TypeDefinitionIndex = 15626;
+	inline static constexpr unsigned int EffectAdaptionConfig_TypeDefinitionIndex = 15685;
 
 	class EffectAdaptionConfig : public ::RPG::GameCore::JsonConfig
 	{

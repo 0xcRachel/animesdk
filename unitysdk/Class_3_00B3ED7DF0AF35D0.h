@@ -9,11 +9,11 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { class String; }
 
-#define CLASS_3_00B3ED7DF0AF35D0_METHOD_3_DC39F345B7494F0E_OFFSET UNITYSDK_OFFSET(0xF226900)
-#define CLASS_3_00B3ED7DF0AF35D0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF226320)
-#define CLASS_3_00B3ED7DF0AF35D0__CTOR_OFFSET UNITYSDK_OFFSET(0xF2262B0)
+#define CLASS_3_00B3ED7DF0AF35D0_METHOD_3_A28EDC02B98D877D_OFFSET UNITYSDK_OFFSET(0xF4525C0)
+#define CLASS_3_00B3ED7DF0AF35D0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF4521B0)
+#define CLASS_3_00B3ED7DF0AF35D0__CTOR_OFFSET UNITYSDK_OFFSET(0xF452140)
 
-inline static constexpr unsigned int Class_3_00B3ED7DF0AF35D0_TypeDefinitionIndex = 50903;
+inline static constexpr unsigned int Class_3_00B3ED7DF0AF35D0_TypeDefinitionIndex = 51572;
 
 class Class_3_00B3ED7DF0AF35D0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ModifyShieldValueByNewShieldModifier*>
 {
@@ -31,8 +31,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_00B3ED7DF0AF35D0_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::RPG::GameCore::TurnBasedModifierInstance* Method_3_DC39F345B7494F0E(::RPG::GameCore::AbilityComponent* a1, ::System::String* a2)
+	::RPG::GameCore::TurnBasedModifierInstance* Method_3_A28EDC02B98D877D(::RPG::GameCore::AbilityComponent* a1, ::System::String* a2)
 	{
-		return ((::RPG::GameCore::TurnBasedModifierInstance*(*)(::PVOID, ::RPG::GameCore::AbilityComponent*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_3_00B3ED7DF0AF35D0_METHOD_3_DC39F345B7494F0E_OFFSET))(this, a1, a2);
+		return ((::RPG::GameCore::TurnBasedModifierInstance*(*)(::PVOID, ::RPG::GameCore::AbilityComponent*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_3_00B3ED7DF0AF35D0_METHOD_3_A28EDC02B98D877D_OFFSET))(this, a1, a2);
 	}
 };

@@ -4,21 +4,21 @@
 
 namespace Epic::OnlineServices { class ProductUserId; }
 
-#define EPIC_ONLINESERVICES_SANCTIONS_QUERYACTIVEPLAYERSANCTIONSOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19676190)
-#define EPIC_ONLINESERVICES_SANCTIONS_QUERYACTIVEPLAYERSANCTIONSOPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x19676170)
-#define EPIC_ONLINESERVICES_SANCTIONS_QUERYACTIVEPLAYERSANCTIONSOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x196761A0)
-#define EPIC_ONLINESERVICES_SANCTIONS_QUERYACTIVEPLAYERSANCTIONSOPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x19676180)
-#define EPIC_ONLINESERVICES_SANCTIONS_QUERYACTIVEPLAYERSANCTIONSOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x196761B0)
+#define EPIC_ONLINESERVICES_SANCTIONS_QUERYACTIVEPLAYERSANCTIONSOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A433070)
+#define EPIC_ONLINESERVICES_SANCTIONS_QUERYACTIVEPLAYERSANCTIONSOPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x1A433050)
+#define EPIC_ONLINESERVICES_SANCTIONS_QUERYACTIVEPLAYERSANCTIONSOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A433080)
+#define EPIC_ONLINESERVICES_SANCTIONS_QUERYACTIVEPLAYERSANCTIONSOPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x1A433060)
+#define EPIC_ONLINESERVICES_SANCTIONS_QUERYACTIVEPLAYERSANCTIONSOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A433090)
 
 namespace Epic::OnlineServices::Sanctions
 {
-	inline static constexpr unsigned int QueryActivePlayerSanctionsOptions_TypeDefinitionIndex = 41406;
+	inline static constexpr unsigned int QueryActivePlayerSanctionsOptions_TypeDefinitionIndex = 42209;
 
 	class QueryActivePlayerSanctionsOptions : public ::System::Object
 	{
 	public:
-		::Epic::OnlineServices::ProductUserId* _TargetUserId_k__BackingField; // 0x10
-		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x18
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x10
+		::Epic::OnlineServices::ProductUserId* _TargetUserId_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -30,9 +30,9 @@ namespace Epic::OnlineServices::Sanctions
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_QUERYACTIVEPLAYERSANCTIONSOPTIONS_GET_TARGETUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_QUERYACTIVEPLAYERSANCTIONSOPTIONS_SET_TARGETUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_QUERYACTIVEPLAYERSANCTIONSOPTIONS_SET_TARGETUSERID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ProductUserId* get_LocalUserId()
@@ -40,9 +40,9 @@ namespace Epic::OnlineServices::Sanctions
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_QUERYACTIVEPLAYERSANCTIONSOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_QUERYACTIVEPLAYERSANCTIONSOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_QUERYACTIVEPLAYERSANCTIONSOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 	};
 }

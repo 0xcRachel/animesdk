@@ -2,34 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseRedDotFilter.h"
 
-namespace RPG::Client { class IAvatarInfoProvider; }
+namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER_ADDHANDLERS_OFFSET UNITYSDK_OFFSET(0x15E40D90)
-#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E40C80)
-#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER_INIT_OFFSET UNITYSDK_OFFSET(0x15E40C00)
-#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER_UPDATEREDDOTS_OFFSET UNITYSDK_OFFSET(0x15E40490)
-#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER__ADDPROMOTIONDATA_OFFSET UNITYSDK_OFFSET(0x15E40F80)
-#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER__CANTAKEPROMOTIONREWARD_OFFSET UNITYSDK_OFFSET(0x15E40900)
-#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER__CLEARSTATUS_OFFSET UNITYSDK_OFFSET(0x15E40820)
-#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15E41030)
-#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER__ONPROMOTIONREWARDREDDOTUPDATE_OFFSET UNITYSDK_OFFSET(0x15E40F30)
-#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER__UPDATEPROMOTIONLIST_OFFSET UNITYSDK_OFFSET(0x15E409A0)
-#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER___IFIXBASEPROXY_ADDHANDLERS_OFFSET UNITYSDK_OFFSET(0x15E411F0)
-#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E41170)
-#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x15E410F0)
+#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER_ADDHANDLERS_OFFSET UNITYSDK_OFFSET(0x179EF3C0)
+#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x179EF2D0)
+#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER_INIT_OFFSET UNITYSDK_OFFSET(0x179EF250)
+#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER_UPDATEREDDOTS_OFFSET UNITYSDK_OFFSET(0x179EE900)
+#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER__ADDPROMOTIONDATA_OFFSET UNITYSDK_OFFSET(0x179EF650)
+#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER__CANTAKEPROMOTIONREWARD_OFFSET UNITYSDK_OFFSET(0x179EEE40)
+#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER__CLEARSTATUS_OFFSET UNITYSDK_OFFSET(0x179EED90)
+#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x179EF7A0)
+#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER__ONPROMOTIONREWARDREDDOTUPDATE_OFFSET UNITYSDK_OFFSET(0x179EF600)
+#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER__UPDATEPROMOTIONLIST_OFFSET UNITYSDK_OFFSET(0x179EEEE0)
+#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER___IFIXBASEPROXY_ADDHANDLERS_OFFSET UNITYSDK_OFFSET(0x179EF900)
+#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x179EF8B0)
+#define RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x179EF860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarPromotionTakeRewardRedDotFilter_TypeDefinitionIndex = 61536;
+	inline static constexpr unsigned int AvatarPromotionTakeRewardRedDotFilter_TypeDefinitionIndex = 62469;
 
 	class AvatarPromotionTakeRewardRedDotFilter : public ::RPG::Client::BaseRedDotFilter
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* CanTakePromotionRewardDict; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* CanTakePromotionRewardAvatarIdList; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* CanTakePromotionRewardAvatarIdList; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* CanTakePromotionRewardDict; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -56,9 +56,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER_ADDHANDLERS_OFFSET))(this);
 		}
 
-		::System::Void _OnPromotionRewardRedDotUpdate(::System::Object* arg)
+		::System::Void _OnPromotionRewardRedDotUpdate(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER__ONPROMOTIONREWARDREDDOTUPDATE_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER__ONPROMOTIONREWARDREDDOTUPDATE_OFFSET))(this, a1);
 		}
 
 		::System::Void _ClearStatus()
@@ -66,19 +66,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER__CLEARSTATUS_OFFSET))(this);
 		}
 
-		::System::Boolean _CanTakePromotionReward(::System::UInt32 promotionLevel, ::RPG::Client::IAvatarInfoProvider* avatarData)
+		::System::Boolean _CanTakePromotionReward(::System::UInt32 a1, ::RPG::AvatarSystem::IAvatar* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::RPG::Client::IAvatarInfoProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER__CANTAKEPROMOTIONREWARD_OFFSET))(this, promotionLevel, avatarData);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER__CANTAKEPROMOTIONREWARD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _UpdatePromotionList(::RPG::Client::IAvatarInfoProvider* avatarData, ::System::Collections::Generic::List_1<::System::UInt32>* promotionLevelList)
+		::System::Void _UpdatePromotionList(::RPG::AvatarSystem::IAvatar* a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::IAvatarInfoProvider*, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER__UPDATEPROMOTIONLIST_OFFSET))(this, avatarData, promotionLevelList);
+			return ((::System::Void(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER__UPDATEPROMOTIONLIST_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _AddPromotionData(::System::UInt32 avatarID, ::System::Collections::Generic::List_1<::System::UInt32>* promotionLevelList)
+		::System::Void _AddPromotionData(::System::UInt32 a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER__ADDPROMOTIONDATA_OFFSET))(this, avatarID, promotionLevelList);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPROMOTIONTAKEREWARDREDDOTFILTER__ADDPROMOTIONDATA_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __iFixBaseProxy_Init()

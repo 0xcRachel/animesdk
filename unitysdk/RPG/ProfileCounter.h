@@ -5,37 +5,37 @@
 
 namespace System { class String; }
 
-#define RPG_PROFILECOUNTER_ADD_OFFSET UNITYSDK_OFFSET(0x1A6FD4C0)
-#define RPG_PROFILECOUNTER_GET_CACHEDVALUE_OFFSET UNITYSDK_OFFSET(0x1A6FD310)
-#define RPG_PROFILECOUNTER_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1A6FD340)
-#define RPG_PROFILECOUNTER_GET_RESTRULE_OFFSET UNITYSDK_OFFSET(0x1A6FD330)
-#define RPG_PROFILECOUNTER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A6FD2F0)
-#define RPG_PROFILECOUNTER_OP_DECREMENT_OFFSET UNITYSDK_OFFSET(0x1A6FD4F0)
-#define RPG_PROFILECOUNTER_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1A6FD510)
-#define RPG_PROFILECOUNTER_OP_INCREMENT_OFFSET UNITYSDK_OFFSET(0x1A6FD4D0)
-#define RPG_PROFILECOUNTER_SETVAL_OFFSET UNITYSDK_OFFSET(0x1A6FD4B0)
-#define RPG_PROFILECOUNTER_SETZERO_OFFSET UNITYSDK_OFFSET(0x1A6FD4A0)
-#define RPG_PROFILECOUNTER_SET_CACHEDVALUE_OFFSET UNITYSDK_OFFSET(0x1A6FD320)
-#define RPG_PROFILECOUNTER_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1A6FD350)
-#define RPG_PROFILECOUNTER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A6FD300)
-#define RPG_PROFILECOUNTER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A6FD530)
-#define RPG_PROFILECOUNTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6FD360)
+#define RPG_PROFILECOUNTER_ADD_OFFSET UNITYSDK_OFFSET(0x1B51D930)
+#define RPG_PROFILECOUNTER_GET_CACHEDVALUE_OFFSET UNITYSDK_OFFSET(0x1B51D720)
+#define RPG_PROFILECOUNTER_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B51D750)
+#define RPG_PROFILECOUNTER_GET_RESTRULE_OFFSET UNITYSDK_OFFSET(0x1B51D740)
+#define RPG_PROFILECOUNTER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1B51D700)
+#define RPG_PROFILECOUNTER_OP_DECREMENT_OFFSET UNITYSDK_OFFSET(0x1B51D960)
+#define RPG_PROFILECOUNTER_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B51D980)
+#define RPG_PROFILECOUNTER_OP_INCREMENT_OFFSET UNITYSDK_OFFSET(0x1B51D940)
+#define RPG_PROFILECOUNTER_SETVAL_OFFSET UNITYSDK_OFFSET(0x1B51D920)
+#define RPG_PROFILECOUNTER_SETZERO_OFFSET UNITYSDK_OFFSET(0x1B51D910)
+#define RPG_PROFILECOUNTER_SET_CACHEDVALUE_OFFSET UNITYSDK_OFFSET(0x1B51D730)
+#define RPG_PROFILECOUNTER_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1B51D760)
+#define RPG_PROFILECOUNTER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1B51D710)
+#define RPG_PROFILECOUNTER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B51D9A0)
+#define RPG_PROFILECOUNTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B51D770)
 
 namespace RPG
 {
-	inline static constexpr unsigned int ProfileCounter_TypeDefinitionIndex = 33245;
+	inline static constexpr unsigned int ProfileCounter_TypeDefinitionIndex = 33354;
 
 	class ProfileCounter : public ::System::Object
 	{
 	public:
 		::System::String* _Name_k__BackingField; // 0x10
 		::System::Int32 _Value_k__BackingField; // 0x18
-		::System::Int32 _CachedValue_k__BackingField; // 0x1C
-		::RPG::ProfileCounterRestRule _RestRule_k__BackingField; // 0x20
+		::RPG::ProfileCounterRestRule _RestRule_k__BackingField; // 0x1C
+		::System::Int32 _CachedValue_k__BackingField; // 0x20
 
-		::System::Void _ctor(::System::String* name, ::System::Int32 initVal, ::RPG::ProfileCounterRestRule resetRule)
+		::System::Void _ctor(::System::String* a1, ::System::Int32 a2, ::RPG::ProfileCounterRestRule a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::RPG::ProfileCounterRestRule))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER__CTOR_OFFSET))(this, name, initVal, resetRule);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::RPG::ProfileCounterRestRule))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 get_Value()
@@ -43,9 +43,9 @@ namespace RPG
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_Value(::System::Int32 value)
+		::System::Void set_Value(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER_SET_VALUE_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_CachedValue()
@@ -53,9 +53,9 @@ namespace RPG
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER_GET_CACHEDVALUE_OFFSET))(this);
 		}
 
-		::System::Void set_CachedValue(::System::Int32 value)
+		::System::Void set_CachedValue(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER_SET_CACHEDVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER_SET_CACHEDVALUE_OFFSET))(this, a1);
 		}
 
 		::RPG::ProfileCounterRestRule get_RestRule()
@@ -68,9 +68,9 @@ namespace RPG
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Void set_Name(::System::String* value)
+		::System::Void set_Name(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER_SET_NAME_OFFSET))(this, a1);
 		}
 
 		::System::Void SetZero()
@@ -78,29 +78,29 @@ namespace RPG
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER_SETZERO_OFFSET))(this);
 		}
 
-		::System::Void SetVal(::System::Int32 v)
+		::System::Void SetVal(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER_SETVAL_OFFSET))(this, v);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER_SETVAL_OFFSET))(this, a1);
 		}
 
-		::RPG::ProfileCounter* Add(::System::Int32 v)
+		::RPG::ProfileCounter* Add(::System::Int32 a1)
 		{
-			return ((::RPG::ProfileCounter*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER_ADD_OFFSET))(this, v);
+			return ((::RPG::ProfileCounter*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER_ADD_OFFSET))(this, a1);
 		}
 
-		static ::RPG::ProfileCounter* op_Increment(::RPG::ProfileCounter* x)
+		static ::RPG::ProfileCounter* op_Increment(::RPG::ProfileCounter* a1)
 		{
-			return ((::RPG::ProfileCounter*(*)(::RPG::ProfileCounter*))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER_OP_INCREMENT_OFFSET))(x);
+			return ((::RPG::ProfileCounter*(*)(::RPG::ProfileCounter*))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER_OP_INCREMENT_OFFSET))(a1);
 		}
 
-		static ::RPG::ProfileCounter* op_Decrement(::RPG::ProfileCounter* x)
+		static ::RPG::ProfileCounter* op_Decrement(::RPG::ProfileCounter* a1)
 		{
-			return ((::RPG::ProfileCounter*(*)(::RPG::ProfileCounter*))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER_OP_DECREMENT_OFFSET))(x);
+			return ((::RPG::ProfileCounter*(*)(::RPG::ProfileCounter*))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER_OP_DECREMENT_OFFSET))(a1);
 		}
 
-		static ::System::Int32 op_Implicit(::RPG::ProfileCounter* c)
+		static ::System::Int32 op_Implicit(::RPG::ProfileCounter* a1)
 		{
-			return ((::System::Int32(*)(::RPG::ProfileCounter*))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER_OP_IMPLICIT_OFFSET))(c);
+			return ((::System::Int32(*)(::RPG::ProfileCounter*))((::PBYTE)hIl2Cpp + RPG_PROFILECOUNTER_OP_IMPLICIT_OFFSET))(a1);
 		}
 
 		::System::String* ToString()

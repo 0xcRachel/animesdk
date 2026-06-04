@@ -21,55 +21,55 @@ namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class SelectionPickerRenderer_ISelectionPickerRenderer; }
 
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_BUILDEDGEMESH_OFFSET UNITYSDK_OFFSET(0x17834E70)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_BUILDVERTEXMESH_OFFSET UNITYSDK_OFFSET(0x17834130)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_DECODERGBA_OFFSET UNITYSDK_OFFSET(0x17831ED0)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_ENCODERGBA_OFFSET UNITYSDK_OFFSET(0x178340C0)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_GENERATEEDGEPICKINGOBJECTS_OFFSET UNITYSDK_OFFSET(0x17833A90)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_GENERATEFACEPICKINGOBJECTS_OFFSET UNITYSDK_OFFSET(0x17832850)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_GENERATEVERTEXPICKINGOBJECTS_OFFSET UNITYSDK_OFFSET(0x17833460)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_GET_PICKERRENDERER_OFFSET UNITYSDK_OFFSET(0x17831A20)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_GET_RENDERTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x17831830)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_GET_TEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x17831A10)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_PICKEDGESINRECT_OFFSET UNITYSDK_OFFSET(0x17831050)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_PICKFACESINRECT_OFFSET UNITYSDK_OFFSET(0x1782FD90)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_PICKVERTICESINRECT_OFFSET UNITYSDK_OFFSET(0x1782D600)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_RENDERSELECTIONPICKERTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x17831F10)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_RENDERSELECTIONPICKERTEXTURE_2_OFFSET UNITYSDK_OFFSET(0x17832440)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_RENDERSELECTIONPICKERTEXTURE_OFFSET UNITYSDK_OFFSET(0x17831B50)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_SHOULDUSEHDRP_OFFSET UNITYSDK_OFFSET(0x17831B20)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x178356D0)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_BUILDEDGEMESH_OFFSET UNITYSDK_OFFSET(0x15C505A0)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_BUILDVERTEXMESH_OFFSET UNITYSDK_OFFSET(0x15C4F9D0)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_DECODERGBA_OFFSET UNITYSDK_OFFSET(0x15C4D840)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_ENCODERGBA_OFFSET UNITYSDK_OFFSET(0x15C4F960)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_GENERATEEDGEPICKINGOBJECTS_OFFSET UNITYSDK_OFFSET(0x15C4F350)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_GENERATEFACEPICKINGOBJECTS_OFFSET UNITYSDK_OFFSET(0x15C4E140)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_GENERATEVERTEXPICKINGOBJECTS_OFFSET UNITYSDK_OFFSET(0x15C4ED40)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_GET_PICKERRENDERER_OFFSET UNITYSDK_OFFSET(0x15C4D390)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_GET_RENDERTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x15C4D1B0)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_GET_TEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x15C4D380)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_PICKEDGESINRECT_OFFSET UNITYSDK_OFFSET(0x15C4CA80)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_PICKFACESINRECT_OFFSET UNITYSDK_OFFSET(0x15C4B8D0)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_PICKVERTICESINRECT_OFFSET UNITYSDK_OFFSET(0x15C497B0)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_RENDERSELECTIONPICKERTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x15C4D880)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_RENDERSELECTIONPICKERTEXTURE_2_OFFSET UNITYSDK_OFFSET(0x15C4DD50)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_RENDERSELECTIONPICKERTEXTURE_OFFSET UNITYSDK_OFFSET(0x15C4D4C0)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_SHOULDUSEHDRP_OFFSET UNITYSDK_OFFSET(0x15C4D490)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15C50D60)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int SelectionPickerRenderer_TypeDefinitionIndex = 39975;
+	inline static constexpr unsigned int SelectionPickerRenderer_TypeDefinitionIndex = 40802;
 
 	class SelectionPickerRenderer : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::ProBuilder::SelectionPickerRenderer_ISelectionPickerRenderer** StaticGet_s_PickerRenderer()
-		{
-			return (::UnityEngine::ProBuilder::SelectionPickerRenderer_ISelectionPickerRenderer**)Il2CppClass::FromTypeDefinitionIndex(SelectionPickerRenderer_TypeDefinitionIndex)->GetStaticField(0x572A0);
-		}
 		static ::Il2CppArray<::UnityEngine::RenderTextureFormat>** StaticGet_s_PreferredFormats()
 		{
-			return (::Il2CppArray<::UnityEngine::RenderTextureFormat>**)Il2CppClass::FromTypeDefinitionIndex(SelectionPickerRenderer_TypeDefinitionIndex)->GetStaticField(0x572A8);
+			return (::Il2CppArray<::UnityEngine::RenderTextureFormat>**)Il2CppClass::FromTypeDefinitionIndex(SelectionPickerRenderer_TypeDefinitionIndex)->GetStaticField(0x51960);
 		}
-		static ::System::Boolean* StaticGet_s_Initialized()
+		static ::UnityEngine::ProBuilder::SelectionPickerRenderer_ISelectionPickerRenderer** StaticGet_s_PickerRenderer()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SelectionPickerRenderer_TypeDefinitionIndex)->GetStaticField(0xF370);
+			return (::UnityEngine::ProBuilder::SelectionPickerRenderer_ISelectionPickerRenderer**)Il2CppClass::FromTypeDefinitionIndex(SelectionPickerRenderer_TypeDefinitionIndex)->GetStaticField(0x51968);
 		}
 		static ::UnityEngine::Color* StaticGet_k_Whitef()
 		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(SelectionPickerRenderer_TypeDefinitionIndex)->GetStaticField(0xF374);
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(SelectionPickerRenderer_TypeDefinitionIndex)->GetStaticField(0xF4A0);
 		}
-		static ::UnityEngine::RenderTextureFormat* StaticGet_s_RenderTextureFormat()
+		static ::System::Boolean* StaticGet_s_Initialized()
 		{
-			return (::UnityEngine::RenderTextureFormat*)Il2CppClass::FromTypeDefinitionIndex(SelectionPickerRenderer_TypeDefinitionIndex)->GetStaticField(0xF384);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SelectionPickerRenderer_TypeDefinitionIndex)->GetStaticField(0xF4B0);
 		}
 		static ::UnityEngine::Color* StaticGet_k_Blackf()
 		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(SelectionPickerRenderer_TypeDefinitionIndex)->GetStaticField(0xF388);
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(SelectionPickerRenderer_TypeDefinitionIndex)->GetStaticField(0xF4B4);
+		}
+		static ::UnityEngine::RenderTextureFormat* StaticGet_s_RenderTextureFormat()
+		{
+			return (::UnityEngine::RenderTextureFormat*)Il2CppClass::FromTypeDefinitionIndex(SelectionPickerRenderer_TypeDefinitionIndex)->GetStaticField(0xF4C4);
 		}
 		// static const ::System::String* k_FacePickerOcclusionTintUniform; // 0x0
 		// static const ::System::UInt32 k_PickerHashNone = 0x0; // 0x0
@@ -97,69 +97,69 @@ namespace UnityEngine::ProBuilder
 			return ((::UnityEngine::ProBuilder::SelectionPickerRenderer_ISelectionPickerRenderer*(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_GET_PICKERRENDERER_OFFSET))();
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>* PickFacesInRect(::UnityEngine::Camera* camera, ::UnityEngine::Rect pickerRect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, ::System::Int32 renderTextureWidth, ::System::Int32 renderTextureHeight)
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>* PickFacesInRect(::UnityEngine::Camera* a1, ::UnityEngine::Rect a2, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>*(*)(::UnityEngine::Camera*, ::UnityEngine::Rect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_PICKFACESINRECT_OFFSET))(camera, pickerRect, selection, renderTextureWidth, renderTextureHeight);
+			return ((::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>*(*)(::UnityEngine::Camera*, ::UnityEngine::Rect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_PICKFACESINRECT_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<::System::Int32>*>* PickVerticesInRect(::UnityEngine::Camera* camera, ::UnityEngine::Rect pickerRect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, ::System::Boolean doDepthTest, ::System::Int32 renderTextureWidth, ::System::Int32 renderTextureHeight)
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<::System::Int32>*>* PickVerticesInRect(::UnityEngine::Camera* a1, ::UnityEngine::Rect a2, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* a3, ::System::Boolean a4, ::System::Int32 a5, ::System::Int32 a6)
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<::System::Int32>*>*(*)(::UnityEngine::Camera*, ::UnityEngine::Rect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Boolean, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_PICKVERTICESINRECT_OFFSET))(camera, pickerRect, selection, doDepthTest, renderTextureWidth, renderTextureHeight);
+			return ((::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<::System::Int32>*>*(*)(::UnityEngine::Camera*, ::UnityEngine::Rect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Boolean, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_PICKVERTICESINRECT_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Edge>*>* PickEdgesInRect(::UnityEngine::Camera* camera, ::UnityEngine::Rect pickerRect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, ::System::Boolean doDepthTest, ::System::Int32 renderTextureWidth, ::System::Int32 renderTextureHeight)
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Edge>*>* PickEdgesInRect(::UnityEngine::Camera* a1, ::UnityEngine::Rect a2, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* a3, ::System::Boolean a4, ::System::Int32 a5, ::System::Int32 a6)
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Edge>*>*(*)(::UnityEngine::Camera*, ::UnityEngine::Rect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Boolean, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_PICKEDGESINRECT_OFFSET))(camera, pickerRect, selection, doDepthTest, renderTextureWidth, renderTextureHeight);
+			return ((::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Edge>*>*(*)(::UnityEngine::Camera*, ::UnityEngine::Rect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Boolean, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_PICKEDGESINRECT_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::UnityEngine::Texture2D* RenderSelectionPickerTexture(::UnityEngine::Camera* camera, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*>>*& map, ::System::Int32 width, ::System::Int32 height)
+		static ::UnityEngine::Texture2D* RenderSelectionPickerTexture(::UnityEngine::Camera* a1, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* a2, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*>>*& a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::UnityEngine::Texture2D*(*)(::UnityEngine::Camera*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*>>*&, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_RENDERSELECTIONPICKERTEXTURE_OFFSET))(camera, selection, map, width, height);
+			return ((::UnityEngine::Texture2D*(*)(::UnityEngine::Camera*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*>>*&, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_RENDERSELECTIONPICKERTEXTURE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::UnityEngine::Texture2D* RenderSelectionPickerTexture_1(::UnityEngine::Camera* camera, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, ::System::Boolean doDepthTest, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32>>*& map, ::System::Int32 width, ::System::Int32 height)
+		static ::UnityEngine::Texture2D* RenderSelectionPickerTexture_1(::UnityEngine::Camera* a1, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* a2, ::System::Boolean a3, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32>>*& a4, ::System::Int32 a5, ::System::Int32 a6)
 		{
-			return ((::UnityEngine::Texture2D*(*)(::UnityEngine::Camera*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Boolean, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32>>*&, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_RENDERSELECTIONPICKERTEXTURE_1_OFFSET))(camera, selection, doDepthTest, map, width, height);
+			return ((::UnityEngine::Texture2D*(*)(::UnityEngine::Camera*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Boolean, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32>>*&, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_RENDERSELECTIONPICKERTEXTURE_1_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::UnityEngine::Texture2D* RenderSelectionPickerTexture_2(::UnityEngine::Camera* camera, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, ::System::Boolean doDepthTest, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge>>*& map, ::System::Int32 width, ::System::Int32 height)
+		static ::UnityEngine::Texture2D* RenderSelectionPickerTexture_2(::UnityEngine::Camera* a1, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* a2, ::System::Boolean a3, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge>>*& a4, ::System::Int32 a5, ::System::Int32 a6)
 		{
-			return ((::UnityEngine::Texture2D*(*)(::UnityEngine::Camera*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Boolean, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge>>*&, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_RENDERSELECTIONPICKERTEXTURE_2_OFFSET))(camera, selection, doDepthTest, map, width, height);
+			return ((::UnityEngine::Texture2D*(*)(::UnityEngine::Camera*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Boolean, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge>>*&, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_RENDERSELECTIONPICKERTEXTURE_2_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::Il2CppArray<::UnityEngine::GameObject*>* GenerateFacePickingObjects(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*>>*& map)
+		static ::Il2CppArray<::UnityEngine::GameObject*>* GenerateFacePickingObjects(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*>>*& a2)
 		{
-			return ((::Il2CppArray<::UnityEngine::GameObject*>*(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*>>*&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_GENERATEFACEPICKINGOBJECTS_OFFSET))(selection, map);
+			return ((::Il2CppArray<::UnityEngine::GameObject*>*(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*>>*&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_GENERATEFACEPICKINGOBJECTS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void GenerateVertexPickingObjects(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, ::System::Boolean doDepthTest, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32>>*& map, ::Il2CppArray<::UnityEngine::GameObject*>*& depthObjects, ::Il2CppArray<::UnityEngine::GameObject*>*& pickerObjects)
+		static ::System::Void GenerateVertexPickingObjects(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* a1, ::System::Boolean a2, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32>>*& a3, ::Il2CppArray<::UnityEngine::GameObject*>*& a4, ::Il2CppArray<::UnityEngine::GameObject*>*& a5)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Boolean, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32>>*&, ::Il2CppArray<::UnityEngine::GameObject*>*&, ::Il2CppArray<::UnityEngine::GameObject*>*&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_GENERATEVERTEXPICKINGOBJECTS_OFFSET))(selection, doDepthTest, map, depthObjects, pickerObjects);
+			return ((::System::Void(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Boolean, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32>>*&, ::Il2CppArray<::UnityEngine::GameObject*>*&, ::Il2CppArray<::UnityEngine::GameObject*>*&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_GENERATEVERTEXPICKINGOBJECTS_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void GenerateEdgePickingObjects(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, ::System::Boolean doDepthTest, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge>>*& map, ::Il2CppArray<::UnityEngine::GameObject*>*& depthObjects, ::Il2CppArray<::UnityEngine::GameObject*>*& pickerObjects)
+		static ::System::Void GenerateEdgePickingObjects(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* a1, ::System::Boolean a2, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge>>*& a3, ::Il2CppArray<::UnityEngine::GameObject*>*& a4, ::Il2CppArray<::UnityEngine::GameObject*>*& a5)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Boolean, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge>>*&, ::Il2CppArray<::UnityEngine::GameObject*>*&, ::Il2CppArray<::UnityEngine::GameObject*>*&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_GENERATEEDGEPICKINGOBJECTS_OFFSET))(selection, doDepthTest, map, depthObjects, pickerObjects);
+			return ((::System::Void(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Boolean, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge>>*&, ::Il2CppArray<::UnityEngine::GameObject*>*&, ::Il2CppArray<::UnityEngine::GameObject*>*&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_GENERATEEDGEPICKINGOBJECTS_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::UnityEngine::Mesh* BuildVertexMesh(::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32>>* map, ::System::UInt32& index)
+		static ::UnityEngine::Mesh* BuildVertexMesh(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32>>* a2, ::System::UInt32& a3)
 		{
-			return ((::UnityEngine::Mesh*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32>>*, ::System::UInt32&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_BUILDVERTEXMESH_OFFSET))(pb, map, index);
+			return ((::UnityEngine::Mesh*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32>>*, ::System::UInt32&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_BUILDVERTEXMESH_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Mesh* BuildEdgeMesh(::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge>>* map, ::System::UInt32& index)
+		static ::UnityEngine::Mesh* BuildEdgeMesh(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge>>* a2, ::System::UInt32& a3)
 		{
-			return ((::UnityEngine::Mesh*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge>>*, ::System::UInt32&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_BUILDEDGEMESH_OFFSET))(pb, map, index);
+			return ((::UnityEngine::Mesh*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge>>*, ::System::UInt32&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_BUILDEDGEMESH_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::UInt32 DecodeRGBA(::UnityEngine::Color32 color)
+		static ::System::UInt32 DecodeRGBA(::UnityEngine::Color32 a1)
 		{
-			return ((::System::UInt32(*)(::UnityEngine::Color32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_DECODERGBA_OFFSET))(color);
+			return ((::System::UInt32(*)(::UnityEngine::Color32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_DECODERGBA_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Color32 EncodeRGBA(::System::UInt32 hash)
+		static ::UnityEngine::Color32 EncodeRGBA(::System::UInt32 a1)
 		{
-			return ((::UnityEngine::Color32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_ENCODERGBA_OFFSET))(hash);
+			return ((::UnityEngine::Color32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_ENCODERGBA_OFFSET))(a1);
 		}
 
 		static ::System::Boolean ShouldUseHDRP()

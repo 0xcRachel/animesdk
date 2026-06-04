@@ -6,15 +6,15 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::Rendering::UI { class DebugUIHandlerWidget; }
 
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCONTAINER_GETACTIVECHILDREN_OFFSET UNITYSDK_OFFSET(0x198D6B20)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCONTAINER_GETFIRSTITEM_OFFSET UNITYSDK_OFFSET(0x198D2E40)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCONTAINER_GETLASTITEM_OFFSET UNITYSDK_OFFSET(0x198D2AF0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCONTAINER_ISDIRECTCHILD_OFFSET UNITYSDK_OFFSET(0x198D2A20)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x198D6F00)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCONTAINER_GETACTIVECHILDREN_OFFSET UNITYSDK_OFFSET(0x1A5F6AE0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCONTAINER_GETFIRSTITEM_OFFSET UNITYSDK_OFFSET(0x1A5F2C80)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCONTAINER_GETLASTITEM_OFFSET UNITYSDK_OFFSET(0x1A5F2940)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCONTAINER_ISDIRECTCHILD_OFFSET UNITYSDK_OFFSET(0x1A5F2850)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5F6F50)
 
 namespace UnityEngine::Rendering::UI
 {
-	inline static constexpr unsigned int DebugUIHandlerContainer_TypeDefinitionIndex = 33590;
+	inline static constexpr unsigned int DebugUIHandlerContainer_TypeDefinitionIndex = 33872;
 
 	class DebugUIHandlerContainer : public ::UnityEngine::MonoBehaviour
 	{
@@ -36,9 +36,9 @@ namespace UnityEngine::Rendering::UI
 			return ((::UnityEngine::Rendering::UI::DebugUIHandlerWidget*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCONTAINER_GETLASTITEM_OFFSET))(this);
 		}
 
-		::System::Boolean IsDirectChild(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* widget)
+		::System::Boolean IsDirectChild(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCONTAINER_ISDIRECTCHILD_OFFSET))(this, widget);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCONTAINER_ISDIRECTCHILD_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::UnityEngine::Rendering::UI::DebugUIHandlerWidget*>* GetActiveChildren()

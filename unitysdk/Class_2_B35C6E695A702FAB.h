@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define CLASS_2_B35C6E695A702FAB_METHOD_2_A52E1F2EB3C607F5_OFFSET UNITYSDK_OFFSET(0x9961430)
-#define CLASS_2_B35C6E695A702FAB__CTOR_OFFSET UNITYSDK_OFFSET(0x9961670)
+#define CLASS_2_B35C6E695A702FAB_METHOD_2_A52E1F2EB3C607F5_OFFSET UNITYSDK_OFFSET(0x16D5A450)
+#define CLASS_2_B35C6E695A702FAB__CTOR_OFFSET UNITYSDK_OFFSET(0x16D5A690)
 
-inline static constexpr unsigned int Class_2_B35C6E695A702FAB_TypeDefinitionIndex = 21620;
+inline static constexpr unsigned int Class_2_B35C6E695A702FAB_TypeDefinitionIndex = 21483;
 
 class Class_2_B35C6E695A702FAB : public ::RPG::GameCore::JsonConfig
 {
 public:
-	::RPG::GameCore::DynamicFloat* Field_2_1; // 0x10
-	::RPG::GameCore::DynamicFloat* Field_2_2; // 0x18
-	::System::Single Field_2_3; // 0x20
-	::System::Boolean Field_2_0; // 0x24
+	::RPG::GameCore::DynamicFloat* Field_2_0; // 0x10
+	::RPG::GameCore::DynamicFloat* Field_2_1; // 0x18
+	::System::Boolean Field_2_2; // 0x20
+	::System::Single Field_2_3; // 0x24
 
 	::System::Void _ctor()
 	{

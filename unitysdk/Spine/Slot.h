@@ -9,68 +9,68 @@ namespace Spine { class SlotData; }
 namespace Spine { template <typename T> class ExposedList_1; }
 namespace System { class String; }
 
-#define SPINE_SLOT_CLAMPCOLOR_OFFSET UNITYSDK_OFFSET(0x156AC340)
-#define SPINE_SLOT_CLAMPSECONDCOLOR_OFFSET UNITYSDK_OFFSET(0x156C5F50)
-#define SPINE_SLOT_GET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x15701D90)
-#define SPINE_SLOT_GET_A_OFFSET UNITYSDK_OFFSET(0x15701CD0)
-#define SPINE_SLOT_GET_B2_OFFSET UNITYSDK_OFFSET(0x15701D30)
-#define SPINE_SLOT_GET_BONE_OFFSET UNITYSDK_OFFSET(0x15701C40)
-#define SPINE_SLOT_GET_B_OFFSET UNITYSDK_OFFSET(0x15701CB0)
-#define SPINE_SLOT_GET_DATA_OFFSET UNITYSDK_OFFSET(0x15701C30)
-#define SPINE_SLOT_GET_DEFORM_OFFSET UNITYSDK_OFFSET(0x15701DC0)
-#define SPINE_SLOT_GET_G2_OFFSET UNITYSDK_OFFSET(0x15701D10)
-#define SPINE_SLOT_GET_G_OFFSET UNITYSDK_OFFSET(0x15701C90)
-#define SPINE_SLOT_GET_HASSECONDCOLOR_OFFSET UNITYSDK_OFFSET(0x15701D50)
-#define SPINE_SLOT_GET_R2_OFFSET UNITYSDK_OFFSET(0x15701CF0)
-#define SPINE_SLOT_GET_R_OFFSET UNITYSDK_OFFSET(0x15701C70)
-#define SPINE_SLOT_GET_SEQUENCEINDEX_OFFSET UNITYSDK_OFFSET(0x15701DA0)
-#define SPINE_SLOT_GET_SKELETON_OFFSET UNITYSDK_OFFSET(0x15701C50)
-#define SPINE_SLOT_SETTOSETUPPOSE_OFFSET UNITYSDK_OFFSET(0x156CF490)
-#define SPINE_SLOT_SET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x156B0BF0)
-#define SPINE_SLOT_SET_A_OFFSET UNITYSDK_OFFSET(0x15701CE0)
-#define SPINE_SLOT_SET_B2_OFFSET UNITYSDK_OFFSET(0x15701D40)
-#define SPINE_SLOT_SET_B_OFFSET UNITYSDK_OFFSET(0x15701CC0)
-#define SPINE_SLOT_SET_DEFORM_OFFSET UNITYSDK_OFFSET(0x15701DD0)
-#define SPINE_SLOT_SET_G2_OFFSET UNITYSDK_OFFSET(0x15701D20)
-#define SPINE_SLOT_SET_G_OFFSET UNITYSDK_OFFSET(0x15701CA0)
-#define SPINE_SLOT_SET_HASSECONDCOLOR_OFFSET UNITYSDK_OFFSET(0x15701D70)
-#define SPINE_SLOT_SET_R2_OFFSET UNITYSDK_OFFSET(0x15701D00)
-#define SPINE_SLOT_SET_R_OFFSET UNITYSDK_OFFSET(0x15701C80)
-#define SPINE_SLOT_SET_SEQUENCEINDEX_OFFSET UNITYSDK_OFFSET(0x15701DB0)
-#define SPINE_SLOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15701E50)
-#define SPINE_SLOT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x156CDB00)
-#define SPINE_SLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x156CC7E0)
+#define SPINE_SLOT_CLAMPCOLOR_OFFSET UNITYSDK_OFFSET(0x12B76F70)
+#define SPINE_SLOT_CLAMPSECONDCOLOR_OFFSET UNITYSDK_OFFSET(0x12B8F8E0)
+#define SPINE_SLOT_GET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x12BCA940)
+#define SPINE_SLOT_GET_A_OFFSET UNITYSDK_OFFSET(0x12BCA880)
+#define SPINE_SLOT_GET_B2_OFFSET UNITYSDK_OFFSET(0x12BCA8E0)
+#define SPINE_SLOT_GET_BONE_OFFSET UNITYSDK_OFFSET(0x12BCA7F0)
+#define SPINE_SLOT_GET_B_OFFSET UNITYSDK_OFFSET(0x12BCA860)
+#define SPINE_SLOT_GET_DATA_OFFSET UNITYSDK_OFFSET(0x12BCA7E0)
+#define SPINE_SLOT_GET_DEFORM_OFFSET UNITYSDK_OFFSET(0x12BCA970)
+#define SPINE_SLOT_GET_G2_OFFSET UNITYSDK_OFFSET(0x12BCA8C0)
+#define SPINE_SLOT_GET_G_OFFSET UNITYSDK_OFFSET(0x12BCA840)
+#define SPINE_SLOT_GET_HASSECONDCOLOR_OFFSET UNITYSDK_OFFSET(0x12BCA900)
+#define SPINE_SLOT_GET_R2_OFFSET UNITYSDK_OFFSET(0x12BCA8A0)
+#define SPINE_SLOT_GET_R_OFFSET UNITYSDK_OFFSET(0x12BCA820)
+#define SPINE_SLOT_GET_SEQUENCEINDEX_OFFSET UNITYSDK_OFFSET(0x12BCA950)
+#define SPINE_SLOT_GET_SKELETON_OFFSET UNITYSDK_OFFSET(0x12BCA800)
+#define SPINE_SLOT_SETTOSETUPPOSE_OFFSET UNITYSDK_OFFSET(0x12B97EC0)
+#define SPINE_SLOT_SET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x12B7B000)
+#define SPINE_SLOT_SET_A_OFFSET UNITYSDK_OFFSET(0x12BCA890)
+#define SPINE_SLOT_SET_B2_OFFSET UNITYSDK_OFFSET(0x12BCA8F0)
+#define SPINE_SLOT_SET_B_OFFSET UNITYSDK_OFFSET(0x12BCA870)
+#define SPINE_SLOT_SET_DEFORM_OFFSET UNITYSDK_OFFSET(0x12BCA980)
+#define SPINE_SLOT_SET_G2_OFFSET UNITYSDK_OFFSET(0x12BCA8D0)
+#define SPINE_SLOT_SET_G_OFFSET UNITYSDK_OFFSET(0x12BCA850)
+#define SPINE_SLOT_SET_HASSECONDCOLOR_OFFSET UNITYSDK_OFFSET(0x12BCA920)
+#define SPINE_SLOT_SET_R2_OFFSET UNITYSDK_OFFSET(0x12BCA8B0)
+#define SPINE_SLOT_SET_R_OFFSET UNITYSDK_OFFSET(0x12BCA830)
+#define SPINE_SLOT_SET_SEQUENCEINDEX_OFFSET UNITYSDK_OFFSET(0x12BCA960)
+#define SPINE_SLOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x12BCAA00)
+#define SPINE_SLOT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x12B96630)
+#define SPINE_SLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x12B955E0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Slot_TypeDefinitionIndex = 36462;
+	inline static constexpr unsigned int Slot_TypeDefinitionIndex = 36762;
 
 	class Slot : public ::System::Object
 	{
 	public:
-		::Spine::Attachment* attachment; // 0x10
-		::Spine::Bone* bone; // 0x18
+		::Spine::ExposedList_1<::System::Single>* deform; // 0x10
+		::Spine::Attachment* attachment; // 0x18
 		::Spine::SlotData* data; // 0x20
-		::Spine::ExposedList_1<::System::Single>* deform; // 0x28
-		::System::Single g2; // 0x30
-		::System::Single b2; // 0x34
-		::System::Single r2; // 0x38
-		::System::Int32 attachmentState; // 0x3C
-		::System::Single a; // 0x40
-		::System::Int32 sequenceIndex; // 0x44
-		::System::Single g; // 0x48
-		::System::Single r; // 0x4C
-		::System::Single b; // 0x50
-		::System::Boolean hasSecondColor; // 0x54
+		::Spine::Bone* bone; // 0x28
+		::System::Int32 attachmentState; // 0x30
+		::System::Single r; // 0x34
+		::System::Single b2; // 0x38
+		::System::Single g2; // 0x3C
+		::System::Single r2; // 0x40
+		::System::Single g; // 0x44
+		::System::Single a; // 0x48
+		::System::Boolean hasSecondColor; // 0x4C
+		::System::Int32 sequenceIndex; // 0x50
+		::System::Single b; // 0x54
 
-		::System::Void _ctor(::Spine::SlotData* data, ::Spine::Bone* bone)
+		::System::Void _ctor(::Spine::SlotData* a1, ::Spine::Bone* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::SlotData*, ::Spine::Bone*))((::PBYTE)hIl2Cpp + SPINE_SLOT__CTOR_OFFSET))(this, data, bone);
+			return ((::System::Void(*)(::PVOID, ::Spine::SlotData*, ::Spine::Bone*))((::PBYTE)hIl2Cpp + SPINE_SLOT__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::Spine::Slot* slot, ::Spine::Bone* bone)
+		::System::Void _ctor_1(::Spine::Slot* a1, ::Spine::Bone* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Slot*, ::Spine::Bone*))((::PBYTE)hIl2Cpp + SPINE_SLOT__CTOR_1_OFFSET))(this, slot, bone);
+			return ((::System::Void(*)(::PVOID, ::Spine::Slot*, ::Spine::Bone*))((::PBYTE)hIl2Cpp + SPINE_SLOT__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::Spine::SlotData* get_Data()
@@ -93,9 +93,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SLOT_GET_R_OFFSET))(this);
 		}
 
-		::System::Void set_R(::System::Single value)
+		::System::Void set_R(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_R_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_R_OFFSET))(this, a1);
 		}
 
 		::System::Single get_G()
@@ -103,9 +103,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SLOT_GET_G_OFFSET))(this);
 		}
 
-		::System::Void set_G(::System::Single value)
+		::System::Void set_G(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_G_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_G_OFFSET))(this, a1);
 		}
 
 		::System::Single get_B()
@@ -113,9 +113,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SLOT_GET_B_OFFSET))(this);
 		}
 
-		::System::Void set_B(::System::Single value)
+		::System::Void set_B(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_B_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_B_OFFSET))(this, a1);
 		}
 
 		::System::Single get_A()
@@ -123,9 +123,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SLOT_GET_A_OFFSET))(this);
 		}
 
-		::System::Void set_A(::System::Single value)
+		::System::Void set_A(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_A_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_A_OFFSET))(this, a1);
 		}
 
 		::System::Void ClampColor()
@@ -138,9 +138,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SLOT_GET_R2_OFFSET))(this);
 		}
 
-		::System::Void set_R2(::System::Single value)
+		::System::Void set_R2(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_R2_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_R2_OFFSET))(this, a1);
 		}
 
 		::System::Single get_G2()
@@ -148,9 +148,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SLOT_GET_G2_OFFSET))(this);
 		}
 
-		::System::Void set_G2(::System::Single value)
+		::System::Void set_G2(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_G2_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_G2_OFFSET))(this, a1);
 		}
 
 		::System::Single get_B2()
@@ -158,9 +158,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SLOT_GET_B2_OFFSET))(this);
 		}
 
-		::System::Void set_B2(::System::Single value)
+		::System::Void set_B2(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_B2_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_B2_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_HasSecondColor()
@@ -168,9 +168,9 @@ namespace Spine
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SLOT_GET_HASSECONDCOLOR_OFFSET))(this);
 		}
 
-		::System::Void set_HasSecondColor(::System::Boolean value)
+		::System::Void set_HasSecondColor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_HASSECONDCOLOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_HASSECONDCOLOR_OFFSET))(this, a1);
 		}
 
 		::System::Void ClampSecondColor()
@@ -183,9 +183,9 @@ namespace Spine
 			return ((::Spine::Attachment*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SLOT_GET_ATTACHMENT_OFFSET))(this);
 		}
 
-		::System::Void set_Attachment(::Spine::Attachment* value)
+		::System::Void set_Attachment(::Spine::Attachment* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Attachment*))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_ATTACHMENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::Attachment*))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_ATTACHMENT_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_SequenceIndex()
@@ -193,9 +193,9 @@ namespace Spine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SLOT_GET_SEQUENCEINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_SequenceIndex(::System::Int32 value)
+		::System::Void set_SequenceIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_SEQUENCEINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_SEQUENCEINDEX_OFFSET))(this, a1);
 		}
 
 		::Spine::ExposedList_1<::System::Single>* get_Deform()
@@ -203,9 +203,9 @@ namespace Spine
 			return ((::Spine::ExposedList_1<::System::Single>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SLOT_GET_DEFORM_OFFSET))(this);
 		}
 
-		::System::Void set_Deform(::Spine::ExposedList_1<::System::Single>* value)
+		::System::Void set_Deform(::Spine::ExposedList_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::ExposedList_1<::System::Single>*))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_DEFORM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::ExposedList_1<::System::Single>*))((::PBYTE)hIl2Cpp + SPINE_SLOT_SET_DEFORM_OFFSET))(this, a1);
 		}
 
 		::System::Void SetToSetupPose()

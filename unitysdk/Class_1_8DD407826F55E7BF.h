@@ -6,24 +6,24 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TransformComponent; }
 
-#define CLASS_1_8DD407826F55E7BF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFE59DE0)
-#define CLASS_1_8DD407826F55E7BF_METHOD_1_E1CE0A1C7957700D_OFFSET UNITYSDK_OFFSET(0xFE59E50)
-#define CLASS_1_8DD407826F55E7BF_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0xFE59FB0)
-#define CLASS_1_8DD407826F55E7BF__CTOR_OFFSET UNITYSDK_OFFSET(0xFE59C60)
+#define CLASS_1_8DD407826F55E7BF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15266D20)
+#define CLASS_1_8DD407826F55E7BF_METHOD_1_E1CE0A1C7957700D_OFFSET UNITYSDK_OFFSET(0x15266D90)
+#define CLASS_1_8DD407826F55E7BF_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x15266EF0)
+#define CLASS_1_8DD407826F55E7BF__CTOR_OFFSET UNITYSDK_OFFSET(0x15266BC0)
 
-inline static constexpr unsigned int Class_1_8DD407826F55E7BF_TypeDefinitionIndex = 55508;
+inline static constexpr unsigned int Class_1_8DD407826F55E7BF_TypeDefinitionIndex = 56259;
 
 class Class_1_8DD407826F55E7BF : public ::System::Object
 {
 public:
-	::RPG::GameCore::TransformComponent* Field_1_1; // 0x10
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x18
-	::System::Single Field_1_4; // 0x20
-	::UnityEngine::Vector3 Field_1_2; // 0x24
-	::System::Single Field_1_6; // 0x30
-	::UnityEngine::Vector3 Field_1_3; // 0x34
-	::System::Boolean Field_1_7; // 0x40
-	::System::Single Field_1_5; // 0x44
+	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
+	::RPG::GameCore::TransformComponent* Field_1_1; // 0x18
+	::System::Single Field_1_2; // 0x20
+	::System::Single Field_1_3; // 0x24
+	::System::Boolean Field_1_4; // 0x28
+	::UnityEngine::Vector3 Field_1_5; // 0x2C
+	::UnityEngine::Vector3 Field_1_6; // 0x38
+	::System::Single Field_1_7; // 0x44
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::System::Single a5)
 	{

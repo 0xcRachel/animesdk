@@ -7,29 +7,29 @@ namespace RPG::Client { class TarotBookCard_IServerAgent; }
 namespace RPG::GameCore { class TarotBookCardRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_TAROTBOOKCARD_CREATE_OFFSET UNITYSDK_OFFSET(0x169923E0)
-#define RPG_CLIENT_TAROTBOOKCARD_GET_CHARACTERID_OFFSET UNITYSDK_OFFSET(0x16991DF0)
-#define RPG_CLIENT_TAROTBOOKCARD_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x16991D90)
-#define RPG_CLIENT_TAROTBOOKCARD_GET_DESC_OFFSET UNITYSDK_OFFSET(0x16991E10)
-#define RPG_CLIENT_TAROTBOOKCARD_GET_ID_OFFSET UNITYSDK_OFFSET(0x16991D70)
-#define RPG_CLIENT_TAROTBOOKCARD_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x16991FC0)
-#define RPG_CLIENT_TAROTBOOKCARD_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x16992170)
-#define RPG_CLIENT_TAROTBOOKCARD_GET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0x169922E0)
-#define RPG_CLIENT_TAROTBOOKCARD__CTOR_OFFSET UNITYSDK_OFFSET(0x169924F0)
+#define RPG_CLIENT_TAROTBOOKCARD_CREATE_OFFSET UNITYSDK_OFFSET(0x180BCCC0)
+#define RPG_CLIENT_TAROTBOOKCARD_GET_CHARACTERID_OFFSET UNITYSDK_OFFSET(0x180BC6B0)
+#define RPG_CLIENT_TAROTBOOKCARD_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x180BC650)
+#define RPG_CLIENT_TAROTBOOKCARD_GET_DESC_OFFSET UNITYSDK_OFFSET(0x180BC6D0)
+#define RPG_CLIENT_TAROTBOOKCARD_GET_ID_OFFSET UNITYSDK_OFFSET(0x180BC630)
+#define RPG_CLIENT_TAROTBOOKCARD_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x180BC890)
+#define RPG_CLIENT_TAROTBOOKCARD_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x180BCA40)
+#define RPG_CLIENT_TAROTBOOKCARD_GET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0x180BCBC0)
+#define RPG_CLIENT_TAROTBOOKCARD__CTOR_OFFSET UNITYSDK_OFFSET(0x180BCDD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TarotBookCard_TypeDefinitionIndex = 62736;
+	inline static constexpr unsigned int TarotBookCard_TypeDefinitionIndex = 63669;
 
 	class TarotBookCard : public ::System::Object
 	{
 	public:
-		::RPG::Client::TarotBookCard_IServerAgent* _ServerAgent; // 0x10
-		::RPG::GameCore::TarotBookCardRow* _Meta; // 0x18
+		::RPG::GameCore::TarotBookCardRow* _Meta; // 0x10
+		::RPG::Client::TarotBookCard_IServerAgent* _ServerAgent; // 0x18
 
-		::System::Void _ctor(::RPG::GameCore::TarotBookCardRow* meta, ::RPG::Client::TarotBookCard_IServerAgent* serverAgent)
+		::System::Void _ctor(::RPG::GameCore::TarotBookCardRow* a1, ::RPG::Client::TarotBookCard_IServerAgent* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TarotBookCardRow*, ::RPG::Client::TarotBookCard_IServerAgent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKCARD__CTOR_OFFSET))(this, meta, serverAgent);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TarotBookCardRow*, ::RPG::Client::TarotBookCard_IServerAgent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKCARD__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 get_ID()
@@ -67,9 +67,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKCARD_GET_PREFABPATH_OFFSET))(this);
 		}
 
-		static ::RPG::Client::TarotBookCard* Create(::System::UInt32 id, ::RPG::Client::TarotBookCard_IServerAgent* serverAgent)
+		static ::RPG::Client::TarotBookCard* Create(::System::UInt32 a1, ::RPG::Client::TarotBookCard_IServerAgent* a2)
 		{
-			return ((::RPG::Client::TarotBookCard*(*)(::System::UInt32, ::RPG::Client::TarotBookCard_IServerAgent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKCARD_CREATE_OFFSET))(id, serverAgent);
+			return ((::RPG::Client::TarotBookCard*(*)(::System::UInt32, ::RPG::Client::TarotBookCard_IServerAgent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKCARD_CREATE_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -11,18 +11,18 @@ namespace RPG::Client::Prop { class RubikCubePuzzleCube; }
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_A4376D2CF7ABE708_METHOD_1_52D7734932924FE8_OFFSET UNITYSDK_OFFSET(0x10B19910)
-#define CLASS_1_A4376D2CF7ABE708_METHOD_1_88A416044A991D7F_OFFSET UNITYSDK_OFFSET(0x10B19790)
-#define CLASS_1_A4376D2CF7ABE708__CTOR_OFFSET UNITYSDK_OFFSET(0x10B19A40)
+#define CLASS_1_A4376D2CF7ABE708_METHOD_1_52D7734932924FE8_OFFSET UNITYSDK_OFFSET(0x16C9B9F0)
+#define CLASS_1_A4376D2CF7ABE708_METHOD_1_88A416044A991D7F_OFFSET UNITYSDK_OFFSET(0x16C9B870)
+#define CLASS_1_A4376D2CF7ABE708__CTOR_OFFSET UNITYSDK_OFFSET(0x16C9BB20)
 
-inline static constexpr unsigned int Class_1_A4376D2CF7ABE708_TypeDefinitionIndex = 72329;
+inline static constexpr unsigned int Class_1_A4376D2CF7ABE708_TypeDefinitionIndex = 73351;
 
 class Class_1_A4376D2CF7ABE708 : public ::System::Object
 {
 public:
 	::UnityEngine::GameObject* Field_1_0; // 0x10
-	::RPG::Client::Prop::RubikCubePuzzleBrick* Field_1_2; // 0x18
-	::System::Int32 Field_1_1; // 0x20
+	::RPG::Client::Prop::RubikCubePuzzleBrick* Field_1_1; // 0x18
+	::System::Int32 Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{

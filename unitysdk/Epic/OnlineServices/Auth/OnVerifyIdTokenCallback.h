@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_AUTH_ONVERIFYIDTOKENCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1963CA90)
-#define EPIC_ONLINESERVICES_AUTH_ONVERIFYIDTOKENCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1963CAC0)
-#define EPIC_ONLINESERVICES_AUTH_ONVERIFYIDTOKENCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1963C540)
-#define EPIC_ONLINESERVICES_AUTH_ONVERIFYIDTOKENCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1963C520)
+#define EPIC_ONLINESERVICES_AUTH_ONVERIFYIDTOKENCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19F60600)
+#define EPIC_ONLINESERVICES_AUTH_ONVERIFYIDTOKENCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19F60630)
+#define EPIC_ONLINESERVICES_AUTH_ONVERIFYIDTOKENCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x19F605F0)
+#define EPIC_ONLINESERVICES_AUTH_ONVERIFYIDTOKENCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19F60500)
 
 namespace Epic::OnlineServices::Auth
 {
-	inline static constexpr unsigned int OnVerifyIdTokenCallback_TypeDefinitionIndex = 42399;
+	inline static constexpr unsigned int OnVerifyIdTokenCallback_TypeDefinitionIndex = 43202;
 
 	class OnVerifyIdTokenCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_ONVERIFYIDTOKENCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_ONVERIFYIDTOKENCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::Epic::OnlineServices::Auth::VerifyIdTokenCallbackInfo* data)
+		::System::Void Invoke(::Epic::OnlineServices::Auth::VerifyIdTokenCallbackInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::VerifyIdTokenCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_ONVERIFYIDTOKENCALLBACK_INVOKE_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::VerifyIdTokenCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_ONVERIFYIDTOKENCALLBACK_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Auth::VerifyIdTokenCallbackInfo* data, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Auth::VerifyIdTokenCallbackInfo* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Auth::VerifyIdTokenCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_ONVERIFYIDTOKENCALLBACK_BEGININVOKE_OFFSET))(this, data, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Auth::VerifyIdTokenCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_ONVERIFYIDTOKENCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_ONVERIFYIDTOKENCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_ONVERIFYIDTOKENCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

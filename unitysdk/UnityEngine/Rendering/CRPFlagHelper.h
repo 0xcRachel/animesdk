@@ -18,114 +18,114 @@
 #include "unitysdk/UnityEngine/Rendering/PipelinePlatformFlag.h"
 #include "unitysdk/UnityEngine/Rendering/PreFlag.h"
 
-#define UNITYENGINE_RENDERING_CRPFLAGHELPER_HASDEBUGFLAG_OFFSET UNITYSDK_OFFSET(0x1A553110)
-#define UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_1_OFFSET UNITYSDK_OFFSET(0x1A5530F0)
-#define UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_2_OFFSET UNITYSDK_OFFSET(0x1A553100)
-#define UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_3_OFFSET UNITYSDK_OFFSET(0x1A553150)
-#define UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_4_OFFSET UNITYSDK_OFFSET(0x1A553180)
-#define UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_5_OFFSET UNITYSDK_OFFSET(0x1A5531B0)
-#define UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_6_OFFSET UNITYSDK_OFFSET(0x1A5531F0)
-#define UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_7_OFFSET UNITYSDK_OFFSET(0x1A553230)
-#define UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_OFFSET UNITYSDK_OFFSET(0x1A553090)
-#define UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_1_OFFSET UNITYSDK_OFFSET(0x1A5530A0)
-#define UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_2_OFFSET UNITYSDK_OFFSET(0x1A5530C0)
-#define UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_3_OFFSET UNITYSDK_OFFSET(0x1A553120)
-#define UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_4_OFFSET UNITYSDK_OFFSET(0x1A553160)
-#define UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_5_OFFSET UNITYSDK_OFFSET(0x1A553190)
-#define UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_6_OFFSET UNITYSDK_OFFSET(0x1A5531C0)
-#define UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_7_OFFSET UNITYSDK_OFFSET(0x1A553200)
-#define UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_OFFSET UNITYSDK_OFFSET(0x1A553070)
+#define UNITYENGINE_RENDERING_CRPFLAGHELPER_HASDEBUGFLAG_OFFSET UNITYSDK_OFFSET(0x1B3CDE40)
+#define UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_1_OFFSET UNITYSDK_OFFSET(0x1B3CDE20)
+#define UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_2_OFFSET UNITYSDK_OFFSET(0x1B3CDE30)
+#define UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_3_OFFSET UNITYSDK_OFFSET(0x1B3CDE80)
+#define UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_4_OFFSET UNITYSDK_OFFSET(0x1B3CDEB0)
+#define UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_5_OFFSET UNITYSDK_OFFSET(0x1B3CDEE0)
+#define UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_6_OFFSET UNITYSDK_OFFSET(0x1B3CDF20)
+#define UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_7_OFFSET UNITYSDK_OFFSET(0x1B3CDF60)
+#define UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_OFFSET UNITYSDK_OFFSET(0x1B3CDDC0)
+#define UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_1_OFFSET UNITYSDK_OFFSET(0x1B3CDDD0)
+#define UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_2_OFFSET UNITYSDK_OFFSET(0x1B3CDDF0)
+#define UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_3_OFFSET UNITYSDK_OFFSET(0x1B3CDE50)
+#define UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_4_OFFSET UNITYSDK_OFFSET(0x1B3CDE90)
+#define UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_5_OFFSET UNITYSDK_OFFSET(0x1B3CDEC0)
+#define UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_6_OFFSET UNITYSDK_OFFSET(0x1B3CDEF0)
+#define UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_7_OFFSET UNITYSDK_OFFSET(0x1B3CDF30)
+#define UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_OFFSET UNITYSDK_OFFSET(0x1B3CDDA0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPFlagHelper_TypeDefinitionIndex = 34915;
+	inline static constexpr unsigned int CRPFlagHelper_TypeDefinitionIndex = 35198;
 
 	class CRPFlagHelper : public ::System::Object
 	{
 	public:
-		static ::System::Boolean SetFlag(::UnityEngine::Rendering::CRPLightInfoCommon& asset, ::UnityEngine::Rendering::LightInfoFlag f, ::System::Boolean add)
+		static ::System::Boolean SetFlag(::UnityEngine::Rendering::CRPLightInfoCommon& a1, ::UnityEngine::Rendering::LightInfoFlag a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPLightInfoCommon&, ::UnityEngine::Rendering::LightInfoFlag, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_OFFSET))(asset, f, add);
+			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPLightInfoCommon&, ::UnityEngine::Rendering::LightInfoFlag, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean HasFlag(::UnityEngine::Rendering::CRPCameraInfo& asset, ::UnityEngine::Rendering::CRPCameraFlag f)
+		static ::System::Boolean HasFlag(::UnityEngine::Rendering::CRPCameraInfo& a1, ::UnityEngine::Rendering::CRPCameraFlag a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPCameraInfo&, ::UnityEngine::Rendering::CRPCameraFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_OFFSET))(asset, f);
+			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPCameraInfo&, ::UnityEngine::Rendering::CRPCameraFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetFlag_1(::UnityEngine::Rendering::CRPCameraInfo& asset, ::UnityEngine::Rendering::CRPCameraFlag f, ::System::Boolean add)
+		static ::System::Void SetFlag_1(::UnityEngine::Rendering::CRPCameraInfo& a1, ::UnityEngine::Rendering::CRPCameraFlag a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CRPCameraInfo&, ::UnityEngine::Rendering::CRPCameraFlag, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_1_OFFSET))(asset, f, add);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CRPCameraInfo&, ::UnityEngine::Rendering::CRPCameraFlag, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SetFlag_2(::UnityEngine::Rendering::CRPPreConfig& config, ::UnityEngine::Rendering::PreFlag f, ::System::Boolean add)
+		static ::System::Void SetFlag_2(::UnityEngine::Rendering::CRPPreConfig& a1, ::UnityEngine::Rendering::PreFlag a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CRPPreConfig&, ::UnityEngine::Rendering::PreFlag, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_2_OFFSET))(config, f, add);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CRPPreConfig&, ::UnityEngine::Rendering::PreFlag, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_2_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean HasFlag_1(::UnityEngine::Rendering::CRPPreConfig& config, ::UnityEngine::Rendering::PreFlag f)
+		static ::System::Boolean HasFlag_1(::UnityEngine::Rendering::CRPPreConfig& a1, ::UnityEngine::Rendering::PreFlag a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPPreConfig&, ::UnityEngine::Rendering::PreFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_1_OFFSET))(config, f);
+			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPPreConfig&, ::UnityEngine::Rendering::PreFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean HasFlag_2(::UnityEngine::Rendering::CRPMainCameraDesc& asset, ::UnityEngine::Rendering::CRPCameraFlag f)
+		static ::System::Boolean HasFlag_2(::UnityEngine::Rendering::CRPMainCameraDesc& a1, ::UnityEngine::Rendering::CRPCameraFlag a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPMainCameraDesc&, ::UnityEngine::Rendering::CRPCameraFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_2_OFFSET))(asset, f);
+			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPMainCameraDesc&, ::UnityEngine::Rendering::CRPCameraFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean HasDebugFlag(::UnityEngine::Rendering::CRPMainCameraDesc& asset, ::UnityEngine::Rendering::CRPCameraDebugFlag f)
+		static ::System::Boolean HasDebugFlag(::UnityEngine::Rendering::CRPMainCameraDesc& a1, ::UnityEngine::Rendering::CRPCameraDebugFlag a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPMainCameraDesc&, ::UnityEngine::Rendering::CRPCameraDebugFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_HASDEBUGFLAG_OFFSET))(asset, f);
+			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPMainCameraDesc&, ::UnityEngine::Rendering::CRPCameraDebugFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_HASDEBUGFLAG_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean SetFlag_3(::UnityEngine::Rendering::CRPipelineAsset& asset, ::UnityEngine::Rendering::PipelineFlag f, ::System::Boolean add)
+		static ::System::Boolean SetFlag_3(::UnityEngine::Rendering::CRPipelineAsset& a1, ::UnityEngine::Rendering::PipelineFlag a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPipelineAsset&, ::UnityEngine::Rendering::PipelineFlag, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_3_OFFSET))(asset, f, add);
+			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPipelineAsset&, ::UnityEngine::Rendering::PipelineFlag, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_3_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean HasFlag_3(::UnityEngine::Rendering::CRPipelineAsset& asset, ::UnityEngine::Rendering::PipelineFlag f)
+		static ::System::Boolean HasFlag_3(::UnityEngine::Rendering::CRPipelineAsset& a1, ::UnityEngine::Rendering::PipelineFlag a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPipelineAsset&, ::UnityEngine::Rendering::PipelineFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_3_OFFSET))(asset, f);
+			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPipelineAsset&, ::UnityEngine::Rendering::PipelineFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_3_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetFlag_4(::UnityEngine::Rendering::CRPipelineAsset& asset, ::UnityEngine::Rendering::PipelinePlatformFlag f, ::System::Boolean add)
+		static ::System::Void SetFlag_4(::UnityEngine::Rendering::CRPipelineAsset& a1, ::UnityEngine::Rendering::PipelinePlatformFlag a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CRPipelineAsset&, ::UnityEngine::Rendering::PipelinePlatformFlag, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_4_OFFSET))(asset, f, add);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CRPipelineAsset&, ::UnityEngine::Rendering::PipelinePlatformFlag, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_4_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean HasFlag_4(::UnityEngine::Rendering::CRPipelineAsset& asset, ::UnityEngine::Rendering::PipelinePlatformFlag f)
+		static ::System::Boolean HasFlag_4(::UnityEngine::Rendering::CRPipelineAsset& a1, ::UnityEngine::Rendering::PipelinePlatformFlag a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPipelineAsset&, ::UnityEngine::Rendering::PipelinePlatformFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_4_OFFSET))(asset, f);
+			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPipelineAsset&, ::UnityEngine::Rendering::PipelinePlatformFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_4_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetFlag_5(::UnityEngine::Rendering::CRPipelineAsset& asset, ::UnityEngine::Rendering::GPUDrivenFlag f, ::System::Boolean add)
+		static ::System::Void SetFlag_5(::UnityEngine::Rendering::CRPipelineAsset& a1, ::UnityEngine::Rendering::GPUDrivenFlag a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CRPipelineAsset&, ::UnityEngine::Rendering::GPUDrivenFlag, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_5_OFFSET))(asset, f, add);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CRPipelineAsset&, ::UnityEngine::Rendering::GPUDrivenFlag, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_5_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean HasFlag_5(::UnityEngine::Rendering::CRPipelineAsset& asset, ::UnityEngine::Rendering::GPUDrivenFlag f)
+		static ::System::Boolean HasFlag_5(::UnityEngine::Rendering::CRPipelineAsset& a1, ::UnityEngine::Rendering::GPUDrivenFlag a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPipelineAsset&, ::UnityEngine::Rendering::GPUDrivenFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_5_OFFSET))(asset, f);
+			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPipelineAsset&, ::UnityEngine::Rendering::GPUDrivenFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_5_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean SetFlag_6(::UnityEngine::Rendering::CRPTestConfig& asset, ::UnityEngine::Rendering::ETestFlag f, ::System::Boolean add)
+		static ::System::Boolean SetFlag_6(::UnityEngine::Rendering::CRPTestConfig& a1, ::UnityEngine::Rendering::ETestFlag a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPTestConfig&, ::UnityEngine::Rendering::ETestFlag, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_6_OFFSET))(asset, f, add);
+			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPTestConfig&, ::UnityEngine::Rendering::ETestFlag, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_6_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean HasFlag_6(::UnityEngine::Rendering::CRPTestConfig& asset, ::UnityEngine::Rendering::ETestFlag f)
+		static ::System::Boolean HasFlag_6(::UnityEngine::Rendering::CRPTestConfig& a1, ::UnityEngine::Rendering::ETestFlag a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPTestConfig&, ::UnityEngine::Rendering::ETestFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_6_OFFSET))(asset, f);
+			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPTestConfig&, ::UnityEngine::Rendering::ETestFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_6_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean SetFlag_7(::UnityEngine::Rendering::CRPDebugAsset& asset, ::UnityEngine::Rendering::EDebugFlag f, ::System::Boolean add)
+		static ::System::Boolean SetFlag_7(::UnityEngine::Rendering::CRPDebugAsset& a1, ::UnityEngine::Rendering::EDebugFlag a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPDebugAsset&, ::UnityEngine::Rendering::EDebugFlag, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_7_OFFSET))(asset, f, add);
+			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPDebugAsset&, ::UnityEngine::Rendering::EDebugFlag, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_SETFLAG_7_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean HasFlag_7(::UnityEngine::Rendering::CRPDebugAsset& asset, ::UnityEngine::Rendering::EDebugFlag f)
+		static ::System::Boolean HasFlag_7(::UnityEngine::Rendering::CRPDebugAsset& a1, ::UnityEngine::Rendering::EDebugFlag a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPDebugAsset&, ::UnityEngine::Rendering::EDebugFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_7_OFFSET))(asset, f);
+			return ((::System::Boolean(*)(::UnityEngine::Rendering::CRPDebugAsset&, ::UnityEngine::Rendering::EDebugFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPFLAGHELPER_HASFLAG_7_OFFSET))(a1, a2);
 		}
 	};
 }

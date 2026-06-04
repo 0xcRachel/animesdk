@@ -8,33 +8,33 @@ namespace RPG::Client { class ScheduleData; }
 namespace RPG::GameCore { class ActivityQuestRewardDataRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABINFO_GET_QUESTDATALIST_OFFSET UNITYSDK_OFFSET(0x15BE1CB0)
-#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABINFO_GET_TABID_OFFSET UNITYSDK_OFFSET(0x15BE1C90)
-#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABINFO_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x15BE1CA0)
-#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABINFO_GET_UNLOCKQUEST_OFFSET UNITYSDK_OFFSET(0x15BE1CC0)
-#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABINFO_GET_UNLOCKSCHEDULE_OFFSET UNITYSDK_OFFSET(0x15BE1CE0)
-#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABINFO_REFRESHALLQUESTDATA_OFFSET UNITYSDK_OFFSET(0x15BE1A40)
-#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABINFO_SET_UNLOCKQUEST_OFFSET UNITYSDK_OFFSET(0x15BE1CD0)
-#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15BE1B90)
+#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABINFO_GET_QUESTDATALIST_OFFSET UNITYSDK_OFFSET(0x178406E0)
+#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABINFO_GET_TABID_OFFSET UNITYSDK_OFFSET(0x178406C0)
+#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABINFO_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x178406D0)
+#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABINFO_GET_UNLOCKQUEST_OFFSET UNITYSDK_OFFSET(0x178406F0)
+#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABINFO_GET_UNLOCKSCHEDULE_OFFSET UNITYSDK_OFFSET(0x17840710)
+#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABINFO_REFRESHALLQUESTDATA_OFFSET UNITYSDK_OFFSET(0x178403F0)
+#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABINFO_SET_UNLOCKQUEST_OFFSET UNITYSDK_OFFSET(0x17840700)
+#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x178405C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CommonActivityQuestRewardTabInfo_TypeDefinitionIndex = 56939;
+	inline static constexpr unsigned int CommonActivityQuestRewardTabInfo_TypeDefinitionIndex = 57727;
 
 	class CommonActivityQuestRewardTabInfo : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* _QuestIDArr; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::QuestData*>* _QuestDataList_k__BackingField; // 0x10
 		::RPG::Client::QuestData* _UnlockQuest_k__BackingField; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::QuestData*>* _QuestDataList_k__BackingField; // 0x20
+		::Il2CppArray<::System::UInt32>* _QuestIDArr; // 0x20
 		::RPG::Client::ScheduleData* _UnlockSchedule_k__BackingField; // 0x28
-		::System::UInt32 _UnlockQuestID; // 0x30
-		::System::UInt32 _TabID_k__BackingField; // 0x34
+		::System::UInt32 _TabID_k__BackingField; // 0x30
+		::System::UInt32 _UnlockQuestID; // 0x34
 		::RPG::Client::TextID _Title_k__BackingField; // 0x38
 
-		::System::Void _ctor(::RPG::GameCore::ActivityQuestRewardDataRow* row)
+		::System::Void _ctor(::RPG::GameCore::ActivityQuestRewardDataRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ActivityQuestRewardDataRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABINFO__CTOR_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ActivityQuestRewardDataRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABINFO__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void RefreshAllQuestData()
@@ -62,9 +62,9 @@ namespace RPG::Client
 			return ((::RPG::Client::QuestData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABINFO_GET_UNLOCKQUEST_OFFSET))(this);
 		}
 
-		::System::Void set_UnlockQuest(::RPG::Client::QuestData* value)
+		::System::Void set_UnlockQuest(::RPG::Client::QuestData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::QuestData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABINFO_SET_UNLOCKQUEST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::QuestData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABINFO_SET_UNLOCKQUEST_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ScheduleData* get_UnlockSchedule()

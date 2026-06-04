@@ -9,46 +9,46 @@
 
 namespace UnityEngine { class Font; }
 
-#define UNITYENGINE_UI_FONTDATA_GET_ALIGNBYGEOMETRY_OFFSET UNITYSDK_OFFSET(0x18253540)
-#define UNITYENGINE_UI_FONTDATA_GET_ALIGNMENT_OFFSET UNITYSDK_OFFSET(0x18253520)
-#define UNITYENGINE_UI_FONTDATA_GET_ALLOWHORIZONTALWRAP_OFFSET UNITYSDK_OFFSET(0x182534A0)
-#define UNITYENGINE_UI_FONTDATA_GET_BESTFIT_OFFSET UNITYSDK_OFFSET(0x18253480)
-#define UNITYENGINE_UI_FONTDATA_GET_DEFAULTFONTDATA_OFFSET UNITYSDK_OFFSET(0x182533B0)
-#define UNITYENGINE_UI_FONTDATA_GET_FONTSIZE_OFFSET UNITYSDK_OFFSET(0x18253440)
-#define UNITYENGINE_UI_FONTDATA_GET_FONTSTYLE_OFFSET UNITYSDK_OFFSET(0x18253460)
-#define UNITYENGINE_UI_FONTDATA_GET_FONT_OFFSET UNITYSDK_OFFSET(0x18253420)
-#define UNITYENGINE_UI_FONTDATA_GET_HORIZONTALOVERFLOW_OFFSET UNITYSDK_OFFSET(0x182535C0)
-#define UNITYENGINE_UI_FONTDATA_GET_INVALIDTAG_OFFSET UNITYSDK_OFFSET(0x182535A0)
-#define UNITYENGINE_UI_FONTDATA_GET_JUSTIFY_OFFSET UNITYSDK_OFFSET(0x18253560)
-#define UNITYENGINE_UI_FONTDATA_GET_LINESPACING_OFFSET UNITYSDK_OFFSET(0x18253600)
-#define UNITYENGINE_UI_FONTDATA_GET_MAXHEIGHT_OFFSET UNITYSDK_OFFSET(0x18253500)
-#define UNITYENGINE_UI_FONTDATA_GET_MAXSIZE_OFFSET UNITYSDK_OFFSET(0x182534E0)
-#define UNITYENGINE_UI_FONTDATA_GET_MINSIZE_OFFSET UNITYSDK_OFFSET(0x182534C0)
-#define UNITYENGINE_UI_FONTDATA_GET_RICHTEXT_OFFSET UNITYSDK_OFFSET(0x18253580)
-#define UNITYENGINE_UI_FONTDATA_GET_VERTICALOVERFLOW_OFFSET UNITYSDK_OFFSET(0x182535E0)
-#define UNITYENGINE_UI_FONTDATA_SET_ALIGNBYGEOMETRY_OFFSET UNITYSDK_OFFSET(0x18253550)
-#define UNITYENGINE_UI_FONTDATA_SET_ALIGNMENT_OFFSET UNITYSDK_OFFSET(0x18253530)
-#define UNITYENGINE_UI_FONTDATA_SET_ALLOWHORIZONTALWRAP_OFFSET UNITYSDK_OFFSET(0x182534B0)
-#define UNITYENGINE_UI_FONTDATA_SET_BESTFIT_OFFSET UNITYSDK_OFFSET(0x18253490)
-#define UNITYENGINE_UI_FONTDATA_SET_FONTSIZE_OFFSET UNITYSDK_OFFSET(0x18253450)
-#define UNITYENGINE_UI_FONTDATA_SET_FONTSTYLE_OFFSET UNITYSDK_OFFSET(0x18253470)
-#define UNITYENGINE_UI_FONTDATA_SET_FONT_OFFSET UNITYSDK_OFFSET(0x18253430)
-#define UNITYENGINE_UI_FONTDATA_SET_HORIZONTALOVERFLOW_OFFSET UNITYSDK_OFFSET(0x182535D0)
-#define UNITYENGINE_UI_FONTDATA_SET_INVALIDTAG_OFFSET UNITYSDK_OFFSET(0x182535B0)
-#define UNITYENGINE_UI_FONTDATA_SET_JUSTIFY_OFFSET UNITYSDK_OFFSET(0x18253570)
-#define UNITYENGINE_UI_FONTDATA_SET_LINESPACING_OFFSET UNITYSDK_OFFSET(0x18253610)
-#define UNITYENGINE_UI_FONTDATA_SET_MAXHEIGHT_OFFSET UNITYSDK_OFFSET(0x18253510)
-#define UNITYENGINE_UI_FONTDATA_SET_MAXSIZE_OFFSET UNITYSDK_OFFSET(0x182534F0)
-#define UNITYENGINE_UI_FONTDATA_SET_MINSIZE_OFFSET UNITYSDK_OFFSET(0x182534D0)
-#define UNITYENGINE_UI_FONTDATA_SET_RICHTEXT_OFFSET UNITYSDK_OFFSET(0x18253590)
-#define UNITYENGINE_UI_FONTDATA_SET_VERTICALOVERFLOW_OFFSET UNITYSDK_OFFSET(0x182535F0)
-#define UNITYENGINE_UI_FONTDATA_UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x18253630)
-#define UNITYENGINE_UI_FONTDATA_UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x18253620)
-#define UNITYENGINE_UI_FONTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18253410)
+#define UNITYENGINE_UI_FONTDATA_GET_ALIGNBYGEOMETRY_OFFSET UNITYSDK_OFFSET(0x183DB070)
+#define UNITYENGINE_UI_FONTDATA_GET_ALIGNMENT_OFFSET UNITYSDK_OFFSET(0x183DB050)
+#define UNITYENGINE_UI_FONTDATA_GET_ALLOWHORIZONTALWRAP_OFFSET UNITYSDK_OFFSET(0x183DAFD0)
+#define UNITYENGINE_UI_FONTDATA_GET_BESTFIT_OFFSET UNITYSDK_OFFSET(0x183DAFB0)
+#define UNITYENGINE_UI_FONTDATA_GET_DEFAULTFONTDATA_OFFSET UNITYSDK_OFFSET(0x183DAEE0)
+#define UNITYENGINE_UI_FONTDATA_GET_FONTSIZE_OFFSET UNITYSDK_OFFSET(0x183DAF70)
+#define UNITYENGINE_UI_FONTDATA_GET_FONTSTYLE_OFFSET UNITYSDK_OFFSET(0x183DAF90)
+#define UNITYENGINE_UI_FONTDATA_GET_FONT_OFFSET UNITYSDK_OFFSET(0x183DAF50)
+#define UNITYENGINE_UI_FONTDATA_GET_HORIZONTALOVERFLOW_OFFSET UNITYSDK_OFFSET(0x183DB0F0)
+#define UNITYENGINE_UI_FONTDATA_GET_INVALIDTAG_OFFSET UNITYSDK_OFFSET(0x183DB0D0)
+#define UNITYENGINE_UI_FONTDATA_GET_JUSTIFY_OFFSET UNITYSDK_OFFSET(0x183DB090)
+#define UNITYENGINE_UI_FONTDATA_GET_LINESPACING_OFFSET UNITYSDK_OFFSET(0x183DB130)
+#define UNITYENGINE_UI_FONTDATA_GET_MAXHEIGHT_OFFSET UNITYSDK_OFFSET(0x183DB030)
+#define UNITYENGINE_UI_FONTDATA_GET_MAXSIZE_OFFSET UNITYSDK_OFFSET(0x183DB010)
+#define UNITYENGINE_UI_FONTDATA_GET_MINSIZE_OFFSET UNITYSDK_OFFSET(0x183DAFF0)
+#define UNITYENGINE_UI_FONTDATA_GET_RICHTEXT_OFFSET UNITYSDK_OFFSET(0x183DB0B0)
+#define UNITYENGINE_UI_FONTDATA_GET_VERTICALOVERFLOW_OFFSET UNITYSDK_OFFSET(0x183DB110)
+#define UNITYENGINE_UI_FONTDATA_SET_ALIGNBYGEOMETRY_OFFSET UNITYSDK_OFFSET(0x183DB080)
+#define UNITYENGINE_UI_FONTDATA_SET_ALIGNMENT_OFFSET UNITYSDK_OFFSET(0x183DB060)
+#define UNITYENGINE_UI_FONTDATA_SET_ALLOWHORIZONTALWRAP_OFFSET UNITYSDK_OFFSET(0x183DAFE0)
+#define UNITYENGINE_UI_FONTDATA_SET_BESTFIT_OFFSET UNITYSDK_OFFSET(0x183DAFC0)
+#define UNITYENGINE_UI_FONTDATA_SET_FONTSIZE_OFFSET UNITYSDK_OFFSET(0x183DAF80)
+#define UNITYENGINE_UI_FONTDATA_SET_FONTSTYLE_OFFSET UNITYSDK_OFFSET(0x183DAFA0)
+#define UNITYENGINE_UI_FONTDATA_SET_FONT_OFFSET UNITYSDK_OFFSET(0x183DAF60)
+#define UNITYENGINE_UI_FONTDATA_SET_HORIZONTALOVERFLOW_OFFSET UNITYSDK_OFFSET(0x183DB100)
+#define UNITYENGINE_UI_FONTDATA_SET_INVALIDTAG_OFFSET UNITYSDK_OFFSET(0x183DB0E0)
+#define UNITYENGINE_UI_FONTDATA_SET_JUSTIFY_OFFSET UNITYSDK_OFFSET(0x183DB0A0)
+#define UNITYENGINE_UI_FONTDATA_SET_LINESPACING_OFFSET UNITYSDK_OFFSET(0x183DB140)
+#define UNITYENGINE_UI_FONTDATA_SET_MAXHEIGHT_OFFSET UNITYSDK_OFFSET(0x183DB040)
+#define UNITYENGINE_UI_FONTDATA_SET_MAXSIZE_OFFSET UNITYSDK_OFFSET(0x183DB020)
+#define UNITYENGINE_UI_FONTDATA_SET_MINSIZE_OFFSET UNITYSDK_OFFSET(0x183DB000)
+#define UNITYENGINE_UI_FONTDATA_SET_RICHTEXT_OFFSET UNITYSDK_OFFSET(0x183DB0C0)
+#define UNITYENGINE_UI_FONTDATA_SET_VERTICALOVERFLOW_OFFSET UNITYSDK_OFFSET(0x183DB120)
+#define UNITYENGINE_UI_FONTDATA_UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x183DB160)
+#define UNITYENGINE_UI_FONTDATA_UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x183DB150)
+#define UNITYENGINE_UI_FONTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x183DAF40)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int FontData_TypeDefinitionIndex = 5593;
+	inline static constexpr unsigned int FontData_TypeDefinitionIndex = 5870;
 
 	class FontData : public ::System::Object
 	{
@@ -85,9 +85,9 @@ namespace UnityEngine::UI
 			return ((::UnityEngine::Font*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_GET_FONT_OFFSET))(this);
 		}
 
-		::System::Void set_font(::UnityEngine::Font* value)
+		::System::Void set_font(::UnityEngine::Font* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Font*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_FONT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Font*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_FONT_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_fontSize()
@@ -95,9 +95,9 @@ namespace UnityEngine::UI
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_GET_FONTSIZE_OFFSET))(this);
 		}
 
-		::System::Void set_fontSize(::System::Int32 value)
+		::System::Void set_fontSize(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_FONTSIZE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_FONTSIZE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::FontStyle get_fontStyle()
@@ -105,9 +105,9 @@ namespace UnityEngine::UI
 			return ((::UnityEngine::FontStyle(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_GET_FONTSTYLE_OFFSET))(this);
 		}
 
-		::System::Void set_fontStyle(::UnityEngine::FontStyle value)
+		::System::Void set_fontStyle(::UnityEngine::FontStyle a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::FontStyle))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_FONTSTYLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::FontStyle))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_FONTSTYLE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_bestFit()
@@ -115,9 +115,9 @@ namespace UnityEngine::UI
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_GET_BESTFIT_OFFSET))(this);
 		}
 
-		::System::Void set_bestFit(::System::Boolean value)
+		::System::Void set_bestFit(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_BESTFIT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_BESTFIT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_allowHorizontalWrap()
@@ -125,9 +125,9 @@ namespace UnityEngine::UI
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_GET_ALLOWHORIZONTALWRAP_OFFSET))(this);
 		}
 
-		::System::Void set_allowHorizontalWrap(::System::Boolean value)
+		::System::Void set_allowHorizontalWrap(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_ALLOWHORIZONTALWRAP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_ALLOWHORIZONTALWRAP_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_minSize()
@@ -135,9 +135,9 @@ namespace UnityEngine::UI
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_GET_MINSIZE_OFFSET))(this);
 		}
 
-		::System::Void set_minSize(::System::Int32 value)
+		::System::Void set_minSize(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_MINSIZE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_MINSIZE_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_maxSize()
@@ -145,9 +145,9 @@ namespace UnityEngine::UI
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_GET_MAXSIZE_OFFSET))(this);
 		}
 
-		::System::Void set_maxSize(::System::Int32 value)
+		::System::Void set_maxSize(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_MAXSIZE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_MAXSIZE_OFFSET))(this, a1);
 		}
 
 		::System::Single get_maxHeight()
@@ -155,9 +155,9 @@ namespace UnityEngine::UI
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_GET_MAXHEIGHT_OFFSET))(this);
 		}
 
-		::System::Void set_maxHeight(::System::Single value)
+		::System::Void set_maxHeight(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_MAXHEIGHT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_MAXHEIGHT_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::TextAnchor get_alignment()
@@ -165,9 +165,9 @@ namespace UnityEngine::UI
 			return ((::UnityEngine::TextAnchor(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_GET_ALIGNMENT_OFFSET))(this);
 		}
 
-		::System::Void set_alignment(::UnityEngine::TextAnchor value)
+		::System::Void set_alignment(::UnityEngine::TextAnchor a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextAnchor))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_ALIGNMENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextAnchor))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_ALIGNMENT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_alignByGeometry()
@@ -175,9 +175,9 @@ namespace UnityEngine::UI
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_GET_ALIGNBYGEOMETRY_OFFSET))(this);
 		}
 
-		::System::Void set_alignByGeometry(::System::Boolean value)
+		::System::Void set_alignByGeometry(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_ALIGNBYGEOMETRY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_ALIGNBYGEOMETRY_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_justify()
@@ -185,9 +185,9 @@ namespace UnityEngine::UI
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_GET_JUSTIFY_OFFSET))(this);
 		}
 
-		::System::Void set_justify(::System::Boolean value)
+		::System::Void set_justify(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_JUSTIFY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_JUSTIFY_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_richText()
@@ -195,9 +195,9 @@ namespace UnityEngine::UI
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_GET_RICHTEXT_OFFSET))(this);
 		}
 
-		::System::Void set_richText(::System::Boolean value)
+		::System::Void set_richText(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_RICHTEXT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_RICHTEXT_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::TextFormattingTag get_invalidTag()
@@ -205,9 +205,9 @@ namespace UnityEngine::UI
 			return ((::UnityEngine::TextFormattingTag(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_GET_INVALIDTAG_OFFSET))(this);
 		}
 
-		::System::Void set_invalidTag(::UnityEngine::TextFormattingTag value)
+		::System::Void set_invalidTag(::UnityEngine::TextFormattingTag a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormattingTag))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_INVALIDTAG_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormattingTag))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_INVALIDTAG_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::HorizontalWrapMode get_horizontalOverflow()
@@ -215,9 +215,9 @@ namespace UnityEngine::UI
 			return ((::UnityEngine::HorizontalWrapMode(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_GET_HORIZONTALOVERFLOW_OFFSET))(this);
 		}
 
-		::System::Void set_horizontalOverflow(::UnityEngine::HorizontalWrapMode value)
+		::System::Void set_horizontalOverflow(::UnityEngine::HorizontalWrapMode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::HorizontalWrapMode))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_HORIZONTALOVERFLOW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::HorizontalWrapMode))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_HORIZONTALOVERFLOW_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::VerticalWrapMode get_verticalOverflow()
@@ -225,9 +225,9 @@ namespace UnityEngine::UI
 			return ((::UnityEngine::VerticalWrapMode(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_GET_VERTICALOVERFLOW_OFFSET))(this);
 		}
 
-		::System::Void set_verticalOverflow(::UnityEngine::VerticalWrapMode value)
+		::System::Void set_verticalOverflow(::UnityEngine::VerticalWrapMode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::VerticalWrapMode))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_VERTICALOVERFLOW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::VerticalWrapMode))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_VERTICALOVERFLOW_OFFSET))(this, a1);
 		}
 
 		::System::Single get_lineSpacing()
@@ -235,9 +235,9 @@ namespace UnityEngine::UI
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_GET_LINESPACING_OFFSET))(this);
 		}
 
-		::System::Void set_lineSpacing(::System::Single value)
+		::System::Void set_lineSpacing(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_LINESPACING_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_FONTDATA_SET_LINESPACING_OFFSET))(this, a1);
 		}
 
 		::System::Void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize()

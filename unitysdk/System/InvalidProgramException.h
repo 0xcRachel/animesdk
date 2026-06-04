@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_INVALIDPROGRAMEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19508B50)
-#define SYSTEM_INVALIDPROGRAMEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x19508BC0)
-#define SYSTEM_INVALIDPROGRAMEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19508AB0)
+#define SYSTEM_INVALIDPROGRAMEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A07F900)
+#define SYSTEM_INVALIDPROGRAMEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A07F970)
+#define SYSTEM_INVALIDPROGRAMEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A07F860)
 
 namespace System
 {
-	inline static constexpr unsigned int InvalidProgramException_TypeDefinitionIndex = 290;
+	inline static constexpr unsigned int InvalidProgramException_TypeDefinitionIndex = 289;
 
 	class InvalidProgramException : public ::System::SystemException
 	{
@@ -22,14 +22,14 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_INVALIDPROGRAMEXCEPTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* message)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_INVALIDPROGRAMEXCEPTION__CTOR_1_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_INVALIDPROGRAMEXCEPTION__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_INVALIDPROGRAMEXCEPTION__CTOR_2_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_INVALIDPROGRAMEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 	};
 }

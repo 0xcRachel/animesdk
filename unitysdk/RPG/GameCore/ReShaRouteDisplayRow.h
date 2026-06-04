@@ -6,34 +6,34 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESHAROUTEDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19010930)
-#define RPG_GAMECORE_RESHAROUTEDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190111D0)
+#define RPG_GAMECORE_RESHAROUTEDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AAC860)
+#define RPG_GAMECORE_RESHAROUTEDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AAD120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ReShaRouteDisplayRow_TypeDefinitionIndex = 13100;
+	inline static constexpr unsigned int ReShaRouteDisplayRow_TypeDefinitionIndex = 13181;
 
 	class ReShaRouteDisplayRow : public ::System::Object
 	{
 	public:
-		::System::String* AssistantImagePanelPrefab; // 0x10
-		::System::String* HiddenRouteClearFloorSavedValueKey; // 0x18
-		::System::String* RoutePanelPrefab; // 0x20
-		::System::String* HiddenRouteUnlockFloorSavedValueKey; // 0x28
-		::RPG::Client::TextID NoClueHint; // 0x30
-		::System::UInt32 ID; // 0x40
-		::System::UInt32 AssistantItemID; // 0x44
-		::RPG::Client::TextID RouteName; // 0x48
-		::RPG::Client::TextID HintText; // 0x58
+		::System::String* HiddenRouteClearFloorSavedValueKey; // 0x10
+		::System::String* AssistantImagePanelPrefab; // 0x18
+		::System::String* HiddenRouteUnlockFloorSavedValueKey; // 0x20
+		::System::String* RoutePanelPrefab; // 0x28
+		::RPG::Client::TextID RouteName; // 0x30
+		::RPG::Client::TextID NoClueHint; // 0x40
+		::RPG::Client::TextID HintText; // 0x50
+		::System::UInt32 ID; // 0x60
+		::System::UInt32 AssistantItemID; // 0x64
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESHAROUTEDISPLAYROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ReShaRouteDisplayRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReShaRouteDisplayRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ReShaRouteDisplayRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESHAROUTEDISPLAYROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ReShaRouteDisplayRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESHAROUTEDISPLAYROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

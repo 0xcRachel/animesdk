@@ -5,9 +5,9 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_HEADERVARIANTINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x5078B0)
-#define SYSTEM_NET_HEADERVARIANTINFO_GET_VARIANT_OFFSET UNITYSDK_OFFSET(0x608310)
-#define SYSTEM_NET_HEADERVARIANTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x6163F0)
+#define SYSTEM_NET_HEADERVARIANTINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x66AF90)
+#define SYSTEM_NET_HEADERVARIANTINFO_GET_VARIANT_OFFSET UNITYSDK_OFFSET(0x66B8A0)
+#define SYSTEM_NET_HEADERVARIANTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x6C23C0)
 
 namespace System::Net
 {
@@ -18,9 +18,9 @@ namespace System::Net
 		::System::String* m_name; // 0x10
 		::System::Net::CookieVariant m_variant; // 0x18
 
-		::System::Void _ctor(::System::String* name, ::System::Net::CookieVariant variant)
+		::System::Void _ctor(::System::String* a1, ::System::Net::CookieVariant a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Net::CookieVariant))((::PBYTE)hIl2Cpp + SYSTEM_NET_HEADERVARIANTINFO__CTOR_OFFSET))(this, name, variant);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Net::CookieVariant))((::PBYTE)hIl2Cpp + SYSTEM_NET_HEADERVARIANTINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_Name()

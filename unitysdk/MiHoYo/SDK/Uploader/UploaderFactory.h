@@ -6,12 +6,12 @@
 namespace MiHoYo::SDK::Uploader { class Uploader; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UPLOADER_UPLOADERFACTORY_CREATEUPLOADER_OFFSET UNITYSDK_OFFSET(0x17CF7170)
-#define MIHOYO_SDK_UPLOADER_UPLOADERFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x17CF7250)
+#define MIHOYO_SDK_UPLOADER_UPLOADERFACTORY_CREATEUPLOADER_OFFSET UNITYSDK_OFFSET(0x19B9CAD0)
+#define MIHOYO_SDK_UPLOADER_UPLOADERFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x19B9CBB0)
 
 namespace MiHoYo::SDK::Uploader
 {
-	inline static constexpr unsigned int UploaderFactory_TypeDefinitionIndex = 43225;
+	inline static constexpr unsigned int UploaderFactory_TypeDefinitionIndex = 44028;
 
 	class UploaderFactory : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace MiHoYo::SDK::Uploader
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_UPLOADERFACTORY__CTOR_OFFSET))(this);
 		}
 
-		static ::MiHoYo::SDK::Uploader::Uploader* createUploader(::MiHoYo::SDK::Uploader::Provider provider, ::System::String* keyId, ::System::String* keySecret, ::System::String* token, ::System::String* endPoint, ::System::String* bucketName, ::System::String* dir)
+		static ::MiHoYo::SDK::Uploader::Uploader* createUploader(::MiHoYo::SDK::Uploader::Provider a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::System::String* a7)
 		{
-			return ((::MiHoYo::SDK::Uploader::Uploader*(*)(::MiHoYo::SDK::Uploader::Provider, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_UPLOADERFACTORY_CREATEUPLOADER_OFFSET))(provider, keyId, keySecret, token, endPoint, bucketName, dir);
+			return ((::MiHoYo::SDK::Uploader::Uploader*(*)(::MiHoYo::SDK::Uploader::Provider, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_UPLOADERFACTORY_CREATEUPLOADER_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 	};
 }

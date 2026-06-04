@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDCONFIRM_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19209B10)
-#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDCONFIRM_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19209AC0)
-#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDCONFIRM_INIT_OFFSET UNITYSDK_OFFSET(0x19209A70)
-#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDCONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0x19209B60)
+#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDCONFIRM_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19B75ED0)
+#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDCONFIRM_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19B75E80)
+#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDCONFIRM_INIT_OFFSET UNITYSDK_OFFSET(0x19B75E30)
+#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDCONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0x19B75F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelSelectEvolveBuildCardConfirm_TypeDefinitionIndex = 52371;
+	inline static constexpr unsigned int LevelSelectEvolveBuildCardConfirm_TypeDefinitionIndex = 53068;
 
-	class LevelSelectEvolveBuildCardConfirm : public ::Class_1_9988289E7F8AA214
+	class LevelSelectEvolveBuildCardConfirm : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::System::UInt32 SelectIndex; // 0x18
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDCONFIRM__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelSelectEvolveBuildCardConfirm* Init(::System::UInt32 nIndex)
+		::RPG::GameCore::LevelSelectEvolveBuildCardConfirm* Init(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::LevelSelectEvolveBuildCardConfirm*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDCONFIRM_INIT_OFFSET))(this, nIndex);
+			return ((::RPG::GameCore::LevelSelectEvolveBuildCardConfirm*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDCONFIRM_INIT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

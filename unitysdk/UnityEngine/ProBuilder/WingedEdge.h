@@ -12,47 +12,47 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_COUNT_OFFSET UNITYSDK_OFFSET(0x178630B0)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x17862FD0)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_EQUALS_OFFSET UNITYSDK_OFFSET(0x17862F90)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_GETADJACENTEDGEWITHCOMMONINDEX_OFFSET UNITYSDK_OFFSET(0x17863D70)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17863080)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_GETSPOKES_OFFSET UNITYSDK_OFFSET(0x17864030)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_GETWINGEDEDGES_1_OFFSET UNITYSDK_OFFSET(0x178542F0)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_GETWINGEDEDGES_OFFSET UNITYSDK_OFFSET(0x1782C7B0)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_GET_EDGE_OFFSET UNITYSDK_OFFSET(0x17862EE0)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_GET_FACE_OFFSET UNITYSDK_OFFSET(0x17862F00)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_GET_NEXT_OFFSET UNITYSDK_OFFSET(0x17862F20)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_GET_OPPOSITE_OFFSET UNITYSDK_OFFSET(0x17862F60)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_GET_PREVIOUS_OFFSET UNITYSDK_OFFSET(0x17862F40)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_MAKEQUAD_OFFSET UNITYSDK_OFFSET(0x178633E0)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_SET_EDGE_OFFSET UNITYSDK_OFFSET(0x17862EF0)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_SET_FACE_OFFSET UNITYSDK_OFFSET(0x17862F10)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_SET_NEXT_OFFSET UNITYSDK_OFFSET(0x17862F30)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_SET_OPPOSITE_OFFSET UNITYSDK_OFFSET(0x17862F70)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_SET_PREVIOUS_OFFSET UNITYSDK_OFFSET(0x17862F50)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_SORTCOMMONINDEXESBYADJACENCY_OFFSET UNITYSDK_OFFSET(0x178644B0)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_SORTEDGESBYADJACENCY_1_OFFSET UNITYSDK_OFFSET(0x17863E90)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_SORTEDGESBYADJACENCY_OFFSET UNITYSDK_OFFSET(0x17863DC0)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x178630E0)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x178647E0)
-#define UNITYENGINE_PROBUILDER_WINGEDEDGE__CTOR_OFFSET UNITYSDK_OFFSET(0x17862F80)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_COUNT_OFFSET UNITYSDK_OFFSET(0x15C7C900)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x15C7C820)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_EQUALS_OFFSET UNITYSDK_OFFSET(0x15C7C7E0)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_GETADJACENTEDGEWITHCOMMONINDEX_OFFSET UNITYSDK_OFFSET(0x15C7D350)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x15C7C8D0)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_GETSPOKES_OFFSET UNITYSDK_OFFSET(0x15C7D630)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_GETWINGEDEDGES_1_OFFSET UNITYSDK_OFFSET(0x15C6E3F0)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_GETWINGEDEDGES_OFFSET UNITYSDK_OFFSET(0x15C48AB0)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_GET_EDGE_OFFSET UNITYSDK_OFFSET(0x15C7C730)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_GET_FACE_OFFSET UNITYSDK_OFFSET(0x15C7C750)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_GET_NEXT_OFFSET UNITYSDK_OFFSET(0x15C7C770)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_GET_OPPOSITE_OFFSET UNITYSDK_OFFSET(0x15C7C7B0)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_GET_PREVIOUS_OFFSET UNITYSDK_OFFSET(0x15C7C790)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_MAKEQUAD_OFFSET UNITYSDK_OFFSET(0x15C7CBD0)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_SET_EDGE_OFFSET UNITYSDK_OFFSET(0x15C7C740)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_SET_FACE_OFFSET UNITYSDK_OFFSET(0x15C7C760)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_SET_NEXT_OFFSET UNITYSDK_OFFSET(0x15C7C780)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_SET_OPPOSITE_OFFSET UNITYSDK_OFFSET(0x15C7C7C0)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_SET_PREVIOUS_OFFSET UNITYSDK_OFFSET(0x15C7C7A0)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_SORTCOMMONINDEXESBYADJACENCY_OFFSET UNITYSDK_OFFSET(0x15C7DC50)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_SORTEDGESBYADJACENCY_1_OFFSET UNITYSDK_OFFSET(0x15C7D470)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_SORTEDGESBYADJACENCY_OFFSET UNITYSDK_OFFSET(0x15C7D3A0)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15C7C930)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x15C7DFD0)
+#define UNITYENGINE_PROBUILDER_WINGEDEDGE__CTOR_OFFSET UNITYSDK_OFFSET(0x15C7C7D0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int WingedEdge_TypeDefinitionIndex = 40009;
+	inline static constexpr unsigned int WingedEdge_TypeDefinitionIndex = 40836;
 
 	class WingedEdge : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Edge, ::UnityEngine::ProBuilder::WingedEdge*>** StaticGet_k_OppositeEdgeDictionary()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Edge, ::UnityEngine::ProBuilder::WingedEdge*>**)Il2CppClass::FromTypeDefinitionIndex(WingedEdge_TypeDefinitionIndex)->GetStaticField(0x5A670);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Edge, ::UnityEngine::ProBuilder::WingedEdge*>**)Il2CppClass::FromTypeDefinitionIndex(WingedEdge_TypeDefinitionIndex)->GetStaticField(0x52040);
 		}
 		::UnityEngine::ProBuilder::WingedEdge* _next_k__BackingField; // 0x10
-		::UnityEngine::ProBuilder::WingedEdge* _previous_k__BackingField; // 0x18
+		::UnityEngine::ProBuilder::Face* _face_k__BackingField; // 0x18
 		::UnityEngine::ProBuilder::WingedEdge* _opposite_k__BackingField; // 0x20
-		::UnityEngine::ProBuilder::Face* _face_k__BackingField; // 0x28
+		::UnityEngine::ProBuilder::WingedEdge* _previous_k__BackingField; // 0x28
 		::UnityEngine::ProBuilder::EdgeLookup _edge_k__BackingField; // 0x30
 
 		::System::Void _ctor()
@@ -70,9 +70,9 @@ namespace UnityEngine::ProBuilder
 			return ((::UnityEngine::ProBuilder::EdgeLookup(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_GET_EDGE_OFFSET))(this);
 		}
 
-		::System::Void set_edge(::UnityEngine::ProBuilder::EdgeLookup value)
+		::System::Void set_edge(::UnityEngine::ProBuilder::EdgeLookup a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::EdgeLookup))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_SET_EDGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::EdgeLookup))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_SET_EDGE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::ProBuilder::Face* get_face()
@@ -80,9 +80,9 @@ namespace UnityEngine::ProBuilder
 			return ((::UnityEngine::ProBuilder::Face*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_GET_FACE_OFFSET))(this);
 		}
 
-		::System::Void set_face(::UnityEngine::ProBuilder::Face* value)
+		::System::Void set_face(::UnityEngine::ProBuilder::Face* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_SET_FACE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_SET_FACE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::ProBuilder::WingedEdge* get_next()
@@ -90,9 +90,9 @@ namespace UnityEngine::ProBuilder
 			return ((::UnityEngine::ProBuilder::WingedEdge*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_GET_NEXT_OFFSET))(this);
 		}
 
-		::System::Void set_next(::UnityEngine::ProBuilder::WingedEdge* value)
+		::System::Void set_next(::UnityEngine::ProBuilder::WingedEdge* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::WingedEdge*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_SET_NEXT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::WingedEdge*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_SET_NEXT_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::ProBuilder::WingedEdge* get_previous()
@@ -100,9 +100,9 @@ namespace UnityEngine::ProBuilder
 			return ((::UnityEngine::ProBuilder::WingedEdge*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_GET_PREVIOUS_OFFSET))(this);
 		}
 
-		::System::Void set_previous(::UnityEngine::ProBuilder::WingedEdge* value)
+		::System::Void set_previous(::UnityEngine::ProBuilder::WingedEdge* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::WingedEdge*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_SET_PREVIOUS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::WingedEdge*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_SET_PREVIOUS_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::ProBuilder::WingedEdge* get_opposite()
@@ -110,19 +110,19 @@ namespace UnityEngine::ProBuilder
 			return ((::UnityEngine::ProBuilder::WingedEdge*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_GET_OPPOSITE_OFFSET))(this);
 		}
 
-		::System::Void set_opposite(::UnityEngine::ProBuilder::WingedEdge* value)
+		::System::Void set_opposite(::UnityEngine::ProBuilder::WingedEdge* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::WingedEdge*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_SET_OPPOSITE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::WingedEdge*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_SET_OPPOSITE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::UnityEngine::ProBuilder::WingedEdge* other)
+		::System::Boolean Equals(::UnityEngine::ProBuilder::WingedEdge* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::WingedEdge*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::WingedEdge*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -140,44 +140,44 @@ namespace UnityEngine::ProBuilder
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_TOSTRING_OFFSET))(this);
 		}
 
-		static ::Il2CppArray<::System::Int32>* MakeQuad(::UnityEngine::ProBuilder::WingedEdge* left, ::UnityEngine::ProBuilder::WingedEdge* right)
+		static ::Il2CppArray<::System::Int32>* MakeQuad(::UnityEngine::ProBuilder::WingedEdge* a1, ::UnityEngine::ProBuilder::WingedEdge* a2)
 		{
-			return ((::Il2CppArray<::System::Int32>*(*)(::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::WingedEdge*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_MAKEQUAD_OFFSET))(left, right);
+			return ((::Il2CppArray<::System::Int32>*(*)(::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::WingedEdge*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_MAKEQUAD_OFFSET))(a1, a2);
 		}
 
-		::UnityEngine::ProBuilder::WingedEdge* GetAdjacentEdgeWithCommonIndex(::System::Int32 common)
+		::UnityEngine::ProBuilder::WingedEdge* GetAdjacentEdgeWithCommonIndex(::System::Int32 a1)
 		{
-			return ((::UnityEngine::ProBuilder::WingedEdge*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_GETADJACENTEDGEWITHCOMMONINDEX_OFFSET))(this, common);
+			return ((::UnityEngine::ProBuilder::WingedEdge*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_GETADJACENTEDGEWITHCOMMONINDEX_OFFSET))(this, a1);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* SortEdgesByAdjacency(::UnityEngine::ProBuilder::Face* face)
+		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* SortEdgesByAdjacency(::UnityEngine::ProBuilder::Face* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*(*)(::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_SORTEDGESBYADJACENCY_OFFSET))(face);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*(*)(::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_SORTEDGESBYADJACENCY_OFFSET))(a1);
 		}
 
-		static ::System::Void SortEdgesByAdjacency_1(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* edges)
+		static ::System::Void SortEdgesByAdjacency_1(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* a1)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_SORTEDGESBYADJACENCY_1_OFFSET))(edges);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_SORTEDGESBYADJACENCY_1_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*>* GetSpokes(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* wings)
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*>* GetSpokes(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* a1)
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*>*(*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_GETSPOKES_OFFSET))(wings);
+			return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*>*(*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_GETSPOKES_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::Int32>* SortCommonIndexesByAdjacency(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* wings, ::System::Collections::Generic::HashSet_1<::System::Int32>* common)
+		static ::System::Collections::Generic::List_1<::System::Int32>* SortCommonIndexesByAdjacency(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* a1, ::System::Collections::Generic::HashSet_1<::System::Int32>* a2)
 		{
-			return ((::System::Collections::Generic::List_1<::System::Int32>*(*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*, ::System::Collections::Generic::HashSet_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_SORTCOMMONINDEXESBYADJACENCY_OFFSET))(wings, common);
+			return ((::System::Collections::Generic::List_1<::System::Int32>*(*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*, ::System::Collections::Generic::HashSet_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_SORTCOMMONINDEXESBYADJACENCY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* GetWingedEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Boolean oneWingPerFace)
+		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* GetWingedEdges(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Boolean a2)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_GETWINGEDEDGES_OFFSET))(mesh, oneWingPerFace);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_GETWINGEDEDGES_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* GetWingedEdges_1(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Boolean oneWingPerFace)
+		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* GetWingedEdges_1(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_GETWINGEDEDGES_1_OFFSET))(mesh, faces, oneWingPerFace);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_WINGEDEDGE_GETWINGEDEDGES_1_OFFSET))(a1, a2, a3);
 		}
 	};
 }

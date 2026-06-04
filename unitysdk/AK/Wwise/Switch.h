@@ -7,16 +7,16 @@ class WwiseObjectReference;
 class WwiseSwitchReference;
 namespace UnityEngine { class GameObject; }
 
-#define AK_WWISE_SWITCH_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x192A4F20)
-#define AK_WWISE_SWITCH_GET_WWISEOBJECTGROUPTYPE_OFFSET UNITYSDK_OFFSET(0x192A4FB0)
-#define AK_WWISE_SWITCH_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x192A4FA0)
-#define AK_WWISE_SWITCH_SETVALUE_OFFSET UNITYSDK_OFFSET(0x192A4FC0)
-#define AK_WWISE_SWITCH_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x192A4F30)
-#define AK_WWISE_SWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x192A50D0)
+#define AK_WWISE_SWITCH_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x19DC0A80)
+#define AK_WWISE_SWITCH_GET_WWISEOBJECTGROUPTYPE_OFFSET UNITYSDK_OFFSET(0x19DC0B10)
+#define AK_WWISE_SWITCH_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x19DC0B00)
+#define AK_WWISE_SWITCH_SETVALUE_OFFSET UNITYSDK_OFFSET(0x19DC0B20)
+#define AK_WWISE_SWITCH_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x19DC0A90)
+#define AK_WWISE_SWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x19DC0C50)
 
 namespace AK::Wwise
 {
-	inline static constexpr unsigned int Switch_TypeDefinitionIndex = 40539;
+	inline static constexpr unsigned int Switch_TypeDefinitionIndex = 41366;
 
 	class Switch : public ::AK::Wwise::BaseGroupType
 	{
@@ -33,9 +33,9 @@ namespace AK::Wwise
 			return ((::WwiseObjectReference*(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_SWITCH_GET_OBJECTREFERENCE_OFFSET))(this);
 		}
 
-		::System::Void set_ObjectReference(::WwiseObjectReference* value)
+		::System::Void set_ObjectReference(::WwiseObjectReference* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::WwiseObjectReference*))((::PBYTE)hIl2Cpp + AK_WWISE_SWITCH_SET_OBJECTREFERENCE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::WwiseObjectReference*))((::PBYTE)hIl2Cpp + AK_WWISE_SWITCH_SET_OBJECTREFERENCE_OFFSET))(this, a1);
 		}
 
 		::WwiseObjectType get_WwiseObjectType()
@@ -48,9 +48,9 @@ namespace AK::Wwise
 			return ((::WwiseObjectType(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_SWITCH_GET_WWISEOBJECTGROUPTYPE_OFFSET))(this);
 		}
 
-		::System::Void SetValue(::UnityEngine::GameObject* gameObject)
+		::System::Void SetValue(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AK_WWISE_SWITCH_SETVALUE_OFFSET))(this, gameObject);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AK_WWISE_SWITCH_SETVALUE_OFFSET))(this, a1);
 		}
 	};
 }

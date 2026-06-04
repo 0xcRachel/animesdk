@@ -11,45 +11,45 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PropStateIcon; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x191C4060)
-#define RPG_GAMECORE_PROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x191C4750)
-#define RPG_GAMECORE_PROPROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x191CBEB0)
-#define RPG_GAMECORE_PROPROW_RESET_OFFSET UNITYSDK_OFFSET(0x191CBF10)
-#define RPG_GAMECORE_PROPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x191CBF50)
+#define RPG_GAMECORE_PROPROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x19A88880)
+#define RPG_GAMECORE_PROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A88EE0)
+#define RPG_GAMECORE_PROPROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x19A90C40)
+#define RPG_GAMECORE_PROPROW_RESET_OFFSET UNITYSDK_OFFSET(0x19A90CA0)
+#define RPG_GAMECORE_PROPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A90CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropRow_TypeDefinitionIndex = 13324;
+	inline static constexpr unsigned int PropRow_TypeDefinitionIndex = 13399;
 
 	class PropRow : public ::System::Object
 	{
 	public:
-		::System::String* ConfigEntityPath; // 0x10
-		::Il2CppArray<::RPG::GameCore::AttackDamageType>* DamageTypeList; // 0x18
-		::System::String* PerformanceType; // 0x20
-		::System::String* JsonPath; // 0x28
-		::Il2CppArray<::RPG::GameCore::PropState>* PropStateList; // 0x30
-		::Il2CppArray<::System::Int32>* BoardShowList; // 0x38
+		::System::String* JsonPath; // 0x10
+		::Il2CppArray<::RPG::GameCore::PropState>* PropStateList; // 0x18
+		::Il2CppArray<::RPG::GameCore::AttackDamageType>* DamageTypeList; // 0x20
+		::System::String* PerformanceType; // 0x28
+		::Il2CppArray<::System::Int32>* BoardShowList; // 0x30
+		::System::String* ConfigEntityPath; // 0x38
 		::Il2CppArray<::RPG::GameCore::PropStateIcon*>* MiniMapStateIcons; // 0x40
 		::System::String* PropIconPath; // 0x48
-		::RPG::Client::TextID PropName; // 0x50
-		::System::UInt32 ID; // 0x60
-		::System::SByte LodPriority; // 0x64
-		::System::Boolean IsMapContent; // 0x65
-		::System::Boolean HasRendererComponent; // 0x66
-		::System::UInt32 MiniMapIconType; // 0x68
-		::RPG::GameCore::PropType PropType; // 0x6C
-		::System::UInt32 PropParam; // 0x70
-		::RPG::Client::TextID PropTitle; // 0x78
+		::System::UInt32 ID; // 0x50
+		::RPG::Client::TextID PropTitle; // 0x58
+		::RPG::Client::TextID PropName; // 0x68
+		::System::UInt32 PropParam; // 0x78
+		::System::UInt32 MiniMapIconType; // 0x7C
+		::RPG::GameCore::PropType PropType; // 0x80
+		::System::Boolean IsMapContent; // 0x84
+		::System::Boolean HasRendererComponent; // 0x85
+		::System::SByte LodPriority; // 0x86
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPROW__CTOR_OFFSET))(this);
 		}
 
-		::System::Void FromTableOffset(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> offsetData)
+		::System::Void FromTableOffset(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPROW_FROMTABLEOFFSET_OFFSET))(this, offsetData);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPROW_FROMTABLEOFFSET_OFFSET))(this, a1);
 		}
 
 		::System::Void Reset()
@@ -57,14 +57,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPROW_RESET_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinaryWithoutNew(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PropRow* val)
+		static ::System::Void FromBinaryWithoutNew(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPROW_FROMBINARYWITHOUTNEW_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PropRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -6,114 +6,114 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_SPANHELPERS_CLEARLESSTHANPOINTERSIZED_1_OFFSET UNITYSDK_OFFSET(0x1A5D0630)
-#define SYSTEM_SPANHELPERS_CLEARLESSTHANPOINTERSIZED_OFFSET UNITYSDK_OFFSET(0x1A5D05A0)
-#define SYSTEM_SPANHELPERS_CLEARPOINTERSIZEDWITHOUTREFERENCES_OFFSET UNITYSDK_OFFSET(0x1A5D06C0)
-#define SYSTEM_SPANHELPERS_CLEARPOINTERSIZEDWITHREFERENCES_OFFSET UNITYSDK_OFFSET(0x1A5D0890)
-#define SYSTEM_SPANHELPERS_GETVECTOR_OFFSET UNITYSDK_OFFSET(0x1A5CFD80)
-#define SYSTEM_SPANHELPERS_INDEXOF_1_OFFSET UNITYSDK_OFFSET(0x1A5CF840)
-#define SYSTEM_SPANHELPERS_INDEXOF_2_OFFSET UNITYSDK_OFFSET(0x1A5CFF20)
-#define SYSTEM_SPANHELPERS_INDEXOF_OFFSET UNITYSDK_OFFSET(0x1A5CF7A0)
-#define SYSTEM_SPANHELPERS_ISREFERENCEORCONTAINSREFERENCESCORE_OFFSET UNITYSDK_OFFSET(0x1A5D0110)
-#define SYSTEM_SPANHELPERS_LESSTHANEQUAL_OFFSET UNITYSDK_OFFSET(0x1A5D09B0)
-#define SYSTEM_SPANHELPERS_LOCATEFIRSTFOUNDBYTE_1_OFFSET UNITYSDK_OFFSET(0x1A5CFD60)
-#define SYSTEM_SPANHELPERS_LOCATEFIRSTFOUNDBYTE_OFFSET UNITYSDK_OFFSET(0x1A5CFAA0)
-#define SYSTEM_SPANHELPERS_LOCATEFIRSTFOUNDCHAR_1_OFFSET UNITYSDK_OFFSET(0x1A5D00F0)
-#define SYSTEM_SPANHELPERS_LOCATEFIRSTFOUNDCHAR_OFFSET UNITYSDK_OFFSET(0x1A5CFFB0)
-#define SYSTEM_SPANHELPERS_SEQUENCECOMPARETO_1_OFFSET UNITYSDK_OFFSET(0x1A5CFE10)
-#define SYSTEM_SPANHELPERS_SEQUENCECOMPARETO_OFFSET UNITYSDK_OFFSET(0x1A5CFC20)
-#define SYSTEM_SPANHELPERS_SEQUENCEEQUAL_OFFSET UNITYSDK_OFFSET(0x1A5CF960)
+#define SYSTEM_SPANHELPERS_CLEARLESSTHANPOINTERSIZED_1_OFFSET UNITYSDK_OFFSET(0x1B3867C0)
+#define SYSTEM_SPANHELPERS_CLEARLESSTHANPOINTERSIZED_OFFSET UNITYSDK_OFFSET(0x1B386730)
+#define SYSTEM_SPANHELPERS_CLEARPOINTERSIZEDWITHOUTREFERENCES_OFFSET UNITYSDK_OFFSET(0x1B386850)
+#define SYSTEM_SPANHELPERS_CLEARPOINTERSIZEDWITHREFERENCES_OFFSET UNITYSDK_OFFSET(0x1B386A20)
+#define SYSTEM_SPANHELPERS_GETVECTOR_OFFSET UNITYSDK_OFFSET(0x1B385F00)
+#define SYSTEM_SPANHELPERS_INDEXOF_1_OFFSET UNITYSDK_OFFSET(0x1B3859C0)
+#define SYSTEM_SPANHELPERS_INDEXOF_2_OFFSET UNITYSDK_OFFSET(0x1B3860A0)
+#define SYSTEM_SPANHELPERS_INDEXOF_OFFSET UNITYSDK_OFFSET(0x1B385920)
+#define SYSTEM_SPANHELPERS_ISREFERENCEORCONTAINSREFERENCESCORE_OFFSET UNITYSDK_OFFSET(0x1B386290)
+#define SYSTEM_SPANHELPERS_LESSTHANEQUAL_OFFSET UNITYSDK_OFFSET(0x1B386B40)
+#define SYSTEM_SPANHELPERS_LOCATEFIRSTFOUNDBYTE_1_OFFSET UNITYSDK_OFFSET(0x1B385EE0)
+#define SYSTEM_SPANHELPERS_LOCATEFIRSTFOUNDBYTE_OFFSET UNITYSDK_OFFSET(0x1B385C20)
+#define SYSTEM_SPANHELPERS_LOCATEFIRSTFOUNDCHAR_1_OFFSET UNITYSDK_OFFSET(0x1B386270)
+#define SYSTEM_SPANHELPERS_LOCATEFIRSTFOUNDCHAR_OFFSET UNITYSDK_OFFSET(0x1B386130)
+#define SYSTEM_SPANHELPERS_SEQUENCECOMPARETO_1_OFFSET UNITYSDK_OFFSET(0x1B385F90)
+#define SYSTEM_SPANHELPERS_SEQUENCECOMPARETO_OFFSET UNITYSDK_OFFSET(0x1B385DA0)
+#define SYSTEM_SPANHELPERS_SEQUENCEEQUAL_OFFSET UNITYSDK_OFFSET(0x1B385AE0)
 
 namespace System
 {
-	inline static constexpr unsigned int SpanHelpers_TypeDefinitionIndex = 4982;
+	inline static constexpr unsigned int SpanHelpers_TypeDefinitionIndex = 4956;
 
 	class SpanHelpers : public ::System::Object
 	{
 	public:
-		static ::System::Int32 IndexOf(::System::Byte& searchSpace, ::System::Int32 searchSpaceLength, ::System::Byte& value, ::System::Int32 valueLength)
+		static ::System::Int32 IndexOf(::System::Byte& a1, ::System::Int32 a2, ::System::Byte& a3, ::System::Int32 a4)
 		{
-			return ((::System::Int32(*)(::System::Byte&, ::System::Int32, ::System::Byte&, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_INDEXOF_OFFSET))(searchSpace, searchSpaceLength, value, valueLength);
+			return ((::System::Int32(*)(::System::Byte&, ::System::Int32, ::System::Byte&, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_INDEXOF_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 IndexOf_1(::System::Byte& searchSpace, ::System::Byte value, ::System::Int32 length)
+		static ::System::Int32 IndexOf_1(::System::Byte& a1, ::System::Byte a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::System::Byte&, ::System::Byte, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_INDEXOF_1_OFFSET))(searchSpace, value, length);
+			return ((::System::Int32(*)(::System::Byte&, ::System::Byte, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_INDEXOF_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean SequenceEqual(::System::Byte& first, ::System::Byte& second, ::System::NUInt length)
+		static ::System::Boolean SequenceEqual(::System::Byte& a1, ::System::Byte& a2, ::System::NUInt a3)
 		{
-			return ((::System::Boolean(*)(::System::Byte&, ::System::Byte&, ::System::NUInt))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_SEQUENCEEQUAL_OFFSET))(first, second, length);
+			return ((::System::Boolean(*)(::System::Byte&, ::System::Byte&, ::System::NUInt))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_SEQUENCEEQUAL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 LocateFirstFoundByte(::System::Numerics::Vector_1<::System::Byte> match)
+		static ::System::Int32 LocateFirstFoundByte(::System::Numerics::Vector_1<::System::Byte> a1)
 		{
-			return ((::System::Int32(*)(::System::Numerics::Vector_1<::System::Byte>))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_LOCATEFIRSTFOUNDBYTE_OFFSET))(match);
+			return ((::System::Int32(*)(::System::Numerics::Vector_1<::System::Byte>))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_LOCATEFIRSTFOUNDBYTE_OFFSET))(a1);
 		}
 
-		static ::System::Int32 SequenceCompareTo(::System::Byte& first, ::System::Int32 firstLength, ::System::Byte& second, ::System::Int32 secondLength)
+		static ::System::Int32 SequenceCompareTo(::System::Byte& a1, ::System::Int32 a2, ::System::Byte& a3, ::System::Int32 a4)
 		{
-			return ((::System::Int32(*)(::System::Byte&, ::System::Int32, ::System::Byte&, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_SEQUENCECOMPARETO_OFFSET))(first, firstLength, second, secondLength);
+			return ((::System::Int32(*)(::System::Byte&, ::System::Int32, ::System::Byte&, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_SEQUENCECOMPARETO_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 LocateFirstFoundByte_1(::System::UInt64 match)
+		static ::System::Int32 LocateFirstFoundByte_1(::System::UInt64 a1)
 		{
-			return ((::System::Int32(*)(::System::UInt64))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_LOCATEFIRSTFOUNDBYTE_1_OFFSET))(match);
+			return ((::System::Int32(*)(::System::UInt64))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_LOCATEFIRSTFOUNDBYTE_1_OFFSET))(a1);
 		}
 
-		static ::System::Numerics::Vector_1<::System::Byte> GetVector(::System::Byte vectorByte)
+		static ::System::Numerics::Vector_1<::System::Byte> GetVector(::System::Byte a1)
 		{
-			return ((::System::Numerics::Vector_1<::System::Byte>(*)(::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_GETVECTOR_OFFSET))(vectorByte);
+			return ((::System::Numerics::Vector_1<::System::Byte>(*)(::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_GETVECTOR_OFFSET))(a1);
 		}
 
-		static ::System::Int32 SequenceCompareTo_1(::System::Char& first, ::System::Int32 firstLength, ::System::Char& second, ::System::Int32 secondLength)
+		static ::System::Int32 SequenceCompareTo_1(::System::Char& a1, ::System::Int32 a2, ::System::Char& a3, ::System::Int32 a4)
 		{
-			return ((::System::Int32(*)(::System::Char&, ::System::Int32, ::System::Char&, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_SEQUENCECOMPARETO_1_OFFSET))(first, firstLength, second, secondLength);
+			return ((::System::Int32(*)(::System::Char&, ::System::Int32, ::System::Char&, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_SEQUENCECOMPARETO_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 IndexOf_2(::System::Char& searchSpace, ::System::Char value, ::System::Int32 length)
+		static ::System::Int32 IndexOf_2(::System::Char& a1, ::System::Char a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::System::Char&, ::System::Char, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_INDEXOF_2_OFFSET))(searchSpace, value, length);
+			return ((::System::Int32(*)(::System::Char&, ::System::Char, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_INDEXOF_2_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 LocateFirstFoundChar(::System::Numerics::Vector_1<::System::UInt16> match)
+		static ::System::Int32 LocateFirstFoundChar(::System::Numerics::Vector_1<::System::UInt16> a1)
 		{
-			return ((::System::Int32(*)(::System::Numerics::Vector_1<::System::UInt16>))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_LOCATEFIRSTFOUNDCHAR_OFFSET))(match);
+			return ((::System::Int32(*)(::System::Numerics::Vector_1<::System::UInt16>))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_LOCATEFIRSTFOUNDCHAR_OFFSET))(a1);
 		}
 
-		static ::System::Int32 LocateFirstFoundChar_1(::System::UInt64 match)
+		static ::System::Int32 LocateFirstFoundChar_1(::System::UInt64 a1)
 		{
-			return ((::System::Int32(*)(::System::UInt64))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_LOCATEFIRSTFOUNDCHAR_1_OFFSET))(match);
+			return ((::System::Int32(*)(::System::UInt64))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_LOCATEFIRSTFOUNDCHAR_1_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsReferenceOrContainsReferencesCore(::System::Type* type)
+		static ::System::Boolean IsReferenceOrContainsReferencesCore(::System::Type* a1)
 		{
-			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_ISREFERENCEORCONTAINSREFERENCESCORE_OFFSET))(type);
+			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_ISREFERENCEORCONTAINSREFERENCESCORE_OFFSET))(a1);
 		}
 
-		static ::System::Void ClearLessThanPointerSized(::System::Byte* ptr, ::System::UIntPtr byteLength)
+		static ::System::Void ClearLessThanPointerSized(::System::Byte* a1, ::System::UIntPtr a2)
 		{
-			return ((::System::Void(*)(::System::Byte*, ::System::UIntPtr))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_CLEARLESSTHANPOINTERSIZED_OFFSET))(ptr, byteLength);
+			return ((::System::Void(*)(::System::Byte*, ::System::UIntPtr))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_CLEARLESSTHANPOINTERSIZED_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ClearLessThanPointerSized_1(::System::Byte& b, ::System::UIntPtr byteLength)
+		static ::System::Void ClearLessThanPointerSized_1(::System::Byte& a1, ::System::UIntPtr a2)
 		{
-			return ((::System::Void(*)(::System::Byte&, ::System::UIntPtr))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_CLEARLESSTHANPOINTERSIZED_1_OFFSET))(b, byteLength);
+			return ((::System::Void(*)(::System::Byte&, ::System::UIntPtr))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_CLEARLESSTHANPOINTERSIZED_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ClearPointerSizedWithoutReferences(::System::Byte& b, ::System::UIntPtr byteLength)
+		static ::System::Void ClearPointerSizedWithoutReferences(::System::Byte& a1, ::System::UIntPtr a2)
 		{
-			return ((::System::Void(*)(::System::Byte&, ::System::UIntPtr))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_CLEARPOINTERSIZEDWITHOUTREFERENCES_OFFSET))(b, byteLength);
+			return ((::System::Void(*)(::System::Byte&, ::System::UIntPtr))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_CLEARPOINTERSIZEDWITHOUTREFERENCES_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ClearPointerSizedWithReferences(::System::IntPtr& ip, ::System::UIntPtr pointerSizeLength)
+		static ::System::Void ClearPointerSizedWithReferences(::System::IntPtr& a1, ::System::UIntPtr a2)
 		{
-			return ((::System::Void(*)(::System::IntPtr&, ::System::UIntPtr))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_CLEARPOINTERSIZEDWITHREFERENCES_OFFSET))(ip, pointerSizeLength);
+			return ((::System::Void(*)(::System::IntPtr&, ::System::UIntPtr))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_CLEARPOINTERSIZEDWITHREFERENCES_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean LessThanEqual(::System::IntPtr index, ::System::UIntPtr length)
+		static ::System::Boolean LessThanEqual(::System::IntPtr a1, ::System::UIntPtr a2)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr, ::System::UIntPtr))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_LESSTHANEQUAL_OFFSET))(index, length);
+			return ((::System::Boolean(*)(::System::IntPtr, ::System::UIntPtr))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_LESSTHANEQUAL_OFFSET))(a1, a2);
 		}
 	};
 }

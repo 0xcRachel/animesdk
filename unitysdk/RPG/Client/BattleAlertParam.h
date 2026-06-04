@@ -6,11 +6,11 @@ class Class_1_8B83CE81FFD7409A;
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BATTLEALERTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xF39FFF0)
+#define RPG_CLIENT_BATTLEALERTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x17A184B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleAlertParam_TypeDefinitionIndex = 67491;
+	inline static constexpr unsigned int BattleAlertParam_TypeDefinitionIndex = 68443;
 
 	class BattleAlertParam : public ::System::Object
 	{

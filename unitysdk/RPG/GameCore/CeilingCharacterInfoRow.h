@@ -5,27 +5,27 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CEILINGCHARACTERINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D43690)
-#define RPG_GAMECORE_CEILINGCHARACTERINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D43CB0)
+#define RPG_GAMECORE_CEILINGCHARACTERINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19E889E0)
+#define RPG_GAMECORE_CEILINGCHARACTERINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19E89020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CeilingCharacterInfoRow_TypeDefinitionIndex = 12632;
+	inline static constexpr unsigned int CeilingCharacterInfoRow_TypeDefinitionIndex = 12722;
 
 	class CeilingCharacterInfoRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID CeilingDesc; // 0x10
-		::System::UInt32 CharacterID; // 0x20
+		::System::UInt32 CharacterID; // 0x10
+		::RPG::Client::TextID CeilingDesc; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CEILINGCHARACTERINFOROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::CeilingCharacterInfoRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CeilingCharacterInfoRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CeilingCharacterInfoRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CEILINGCHARACTERINFOROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CeilingCharacterInfoRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CEILINGCHARACTERINFOROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

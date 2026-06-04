@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_7807B2B04302CD7B_29;
+class Class_1_7807B2B04302CD7B_30;
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ELATIONBUFFPRESENTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15F506F0)
-#define RPG_CLIENT_ELATIONBUFFPRESENTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15F50730)
-#define RPG_CLIENT_ELATIONBUFFPRESENTER___C___MERGEBUFFDATABYLIFE_B__9_0_OFFSET UNITYSDK_OFFSET(0x15F50740)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x156D3730)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x156D3770)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER___C___MERGEBUFFDATABYLIFE_B__9_0_OFFSET UNITYSDK_OFFSET(0x156D3780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElationBuffPresenter___c_TypeDefinitionIndex = 65610;
+	inline static constexpr unsigned int ElationBuffPresenter___c_TypeDefinitionIndex = 66544;
 
 	class ElationBuffPresenter___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ElationBuffPresenter___c** StaticGet___9()
 		{
-			return (::RPG::Client::ElationBuffPresenter___c**)Il2CppClass::FromTypeDefinitionIndex(ElationBuffPresenter___c_TypeDefinitionIndex)->GetStaticField(0x4B40);
+			return (::RPG::Client::ElationBuffPresenter___c**)Il2CppClass::FromTypeDefinitionIndex(ElationBuffPresenter___c_TypeDefinitionIndex)->GetStaticField(0xE540);
 		}
-		static ::System::Comparison_1<::Class_1_7807B2B04302CD7B_29*>** StaticGet___9__9_0()
+		static ::System::Comparison_1<::Class_1_7807B2B04302CD7B_30*>** StaticGet___9__9_0()
 		{
-			return (::System::Comparison_1<::Class_1_7807B2B04302CD7B_29*>**)Il2CppClass::FromTypeDefinitionIndex(ElationBuffPresenter___c_TypeDefinitionIndex)->GetStaticField(0x4B48);
+			return (::System::Comparison_1<::Class_1_7807B2B04302CD7B_30*>**)Il2CppClass::FromTypeDefinitionIndex(ElationBuffPresenter___c_TypeDefinitionIndex)->GetStaticField(0xE548);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBUFFPRESENTER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 __MergeBuffDataByLife_b__9_0(::Class_1_7807B2B04302CD7B_29* a, ::Class_1_7807B2B04302CD7B_29* b)
+		::System::Int32 __MergeBuffDataByLife_b__9_0(::Class_1_7807B2B04302CD7B_30* a1, ::Class_1_7807B2B04302CD7B_30* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_7807B2B04302CD7B_29*, ::Class_1_7807B2B04302CD7B_29*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBUFFPRESENTER___C___MERGEBUFFDATABYLIFE_B__9_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::Class_1_7807B2B04302CD7B_30*, ::Class_1_7807B2B04302CD7B_30*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBUFFPRESENTER___C___MERGEBUFFDATABYLIFE_B__9_0_OFFSET))(this, a1, a2);
 		}
 	};
 }

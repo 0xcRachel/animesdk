@@ -3,31 +3,31 @@
 #include "unitysdk/RPG/GameCore/RtSkillState.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_05E595DC72CB83CA;
-class Class_1_8976C473AE3B2B47;
+class Class_1_12210BFF9F8CB0CA;
+class Class_1_D8203AFB32E9259C;
 namespace RPG::GameCore { class GameWorld; }
 namespace System { class String; }
 
-#define CLASS_1_B661DE69B48B84B0_METHOD_1_2DE13BE11F24F545_OFFSET UNITYSDK_OFFSET(0xFB7D370)
-#define CLASS_1_B661DE69B48B84B0_METHOD_1_92E298F85CD1081D_OFFSET UNITYSDK_OFFSET(0xFB7CEF0)
-#define CLASS_1_B661DE69B48B84B0_METHOD_1_ABDF6914795CF7E3_OFFSET UNITYSDK_OFFSET(0xFB7CDC0)
-#define CLASS_1_B661DE69B48B84B0_METHOD_1_DFD7F5C5419FD422_OFFSET UNITYSDK_OFFSET(0xFB7D0D0)
-#define CLASS_1_B661DE69B48B84B0_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0xFB7C9D0)
-#define CLASS_1_B661DE69B48B84B0_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0xFB7CAE0)
-#define CLASS_1_B661DE69B48B84B0__CTOR_OFFSET UNITYSDK_OFFSET(0xFB7D500)
+#define CLASS_1_B661DE69B48B84B0_METHOD_1_2DE13BE11F24F545_OFFSET UNITYSDK_OFFSET(0x152FDF30)
+#define CLASS_1_B661DE69B48B84B0_METHOD_1_92E298F85CD1081D_OFFSET UNITYSDK_OFFSET(0x152FDA70)
+#define CLASS_1_B661DE69B48B84B0_METHOD_1_ABDF6914795CF7E3_OFFSET UNITYSDK_OFFSET(0x152FD940)
+#define CLASS_1_B661DE69B48B84B0_METHOD_1_D00CA09B6254F1ED_OFFSET UNITYSDK_OFFSET(0x152FDC70)
+#define CLASS_1_B661DE69B48B84B0_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0x152FD510)
+#define CLASS_1_B661DE69B48B84B0_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0x152FD640)
+#define CLASS_1_B661DE69B48B84B0__CTOR_OFFSET UNITYSDK_OFFSET(0x152FE0C0)
 
-inline static constexpr unsigned int Class_1_B661DE69B48B84B0_TypeDefinitionIndex = 50106;
+inline static constexpr unsigned int Class_1_B661DE69B48B84B0_TypeDefinitionIndex = 50773;
 
 class Class_1_B661DE69B48B84B0 : public ::System::Object
 {
 public:
-	// static const ::System::String* Field_1_4; // 0x0
-	// static const ::System::String* Field_1_5; // 0x0
-	// static const ::System::String* Field_1_6; // 0x0
-	::Class_1_8976C473AE3B2B47* Field_1_1; // 0x10
-	::RPG::GameCore::GameWorld* Field_1_0; // 0x18
-	::Class_1_05E595DC72CB83CA* Field_1_2; // 0x20
-	::System::Boolean Field_1_3; // 0x28
+	// static const ::System::String* Field_1_0; // 0x0
+	// static const ::System::String* Field_1_1; // 0x0
+	// static const ::System::String* Field_1_2; // 0x0
+	::Class_1_D8203AFB32E9259C* Field_1_3; // 0x10
+	::Class_1_12210BFF9F8CB0CA* Field_1_4; // 0x18
+	::RPG::GameCore::GameWorld* Field_1_5; // 0x20
+	::System::Boolean Field_1_6; // 0x28
 
 	::System::Void _ctor()
 	{
@@ -44,19 +44,19 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B661DE69B48B84B0_ONPLUGINUNINIT_OFFSET))(this);
 	}
 
-	::System::Void Method_1_ABDF6914795CF7E3(::Class_1_05E595DC72CB83CA* a1, ::RPG::GameCore::RtSkillState a2, ::RPG::GameCore::RtSkillState a3)
+	::System::Void Method_1_ABDF6914795CF7E3(::Class_1_D8203AFB32E9259C* a1, ::RPG::GameCore::RtSkillState a2, ::RPG::GameCore::RtSkillState a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_05E595DC72CB83CA*, ::RPG::GameCore::RtSkillState, ::RPG::GameCore::RtSkillState))((::PBYTE)hIl2Cpp + CLASS_1_B661DE69B48B84B0_METHOD_1_ABDF6914795CF7E3_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::Class_1_D8203AFB32E9259C*, ::RPG::GameCore::RtSkillState, ::RPG::GameCore::RtSkillState))((::PBYTE)hIl2Cpp + CLASS_1_B661DE69B48B84B0_METHOD_1_ABDF6914795CF7E3_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_1_92E298F85CD1081D(::Class_1_05E595DC72CB83CA* a1)
+	::System::Void Method_1_92E298F85CD1081D(::Class_1_D8203AFB32E9259C* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_05E595DC72CB83CA*))((::PBYTE)hIl2Cpp + CLASS_1_B661DE69B48B84B0_METHOD_1_92E298F85CD1081D_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_D8203AFB32E9259C*))((::PBYTE)hIl2Cpp + CLASS_1_B661DE69B48B84B0_METHOD_1_92E298F85CD1081D_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_DFD7F5C5419FD422(::System::Object* a1)
+	::System::Void Method_1_D00CA09B6254F1ED(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_B661DE69B48B84B0_METHOD_1_DFD7F5C5419FD422_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_B661DE69B48B84B0_METHOD_1_D00CA09B6254F1ED_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_2DE13BE11F24F545(::System::Object* a1)

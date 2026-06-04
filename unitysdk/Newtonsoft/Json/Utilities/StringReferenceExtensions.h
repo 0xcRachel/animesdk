@@ -5,30 +5,30 @@
 
 namespace System { class String; }
 
-#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCEEXTENSIONS_ENDSWITH_OFFSET UNITYSDK_OFFSET(0x1A6BADB0)
-#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCEEXTENSIONS_INDEXOF_OFFSET UNITYSDK_OFFSET(0x1A6BACD0)
-#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCEEXTENSIONS_STARTSWITH_OFFSET UNITYSDK_OFFSET(0x1A6BAD10)
+#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCEEXTENSIONS_ENDSWITH_OFFSET UNITYSDK_OFFSET(0x1B4D2A50)
+#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCEEXTENSIONS_INDEXOF_OFFSET UNITYSDK_OFFSET(0x1B4D2930)
+#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCEEXTENSIONS_STARTSWITH_OFFSET UNITYSDK_OFFSET(0x1B4D29C0)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int StringReferenceExtensions_TypeDefinitionIndex = 8399;
+	inline static constexpr unsigned int StringReferenceExtensions_TypeDefinitionIndex = 9302;
 
 	class StringReferenceExtensions : public ::System::Object
 	{
 	public:
-		static ::System::Int32 IndexOf(::Newtonsoft::Json::Utilities::StringReference s, ::System::Char c, ::System::Int32 startIndex, ::System::Int32 length)
+		static ::System::Int32 IndexOf(::Newtonsoft::Json::Utilities::StringReference a1, ::System::Char a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Int32(*)(::Newtonsoft::Json::Utilities::StringReference, ::System::Char, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCEEXTENSIONS_INDEXOF_OFFSET))(s, c, startIndex, length);
+			return ((::System::Int32(*)(::Newtonsoft::Json::Utilities::StringReference, ::System::Char, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCEEXTENSIONS_INDEXOF_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean StartsWith(::Newtonsoft::Json::Utilities::StringReference s, ::System::String* text)
+		static ::System::Boolean StartsWith(::Newtonsoft::Json::Utilities::StringReference a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::Newtonsoft::Json::Utilities::StringReference, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCEEXTENSIONS_STARTSWITH_OFFSET))(s, text);
+			return ((::System::Boolean(*)(::Newtonsoft::Json::Utilities::StringReference, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCEEXTENSIONS_STARTSWITH_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean EndsWith(::Newtonsoft::Json::Utilities::StringReference s, ::System::String* text)
+		static ::System::Boolean EndsWith(::Newtonsoft::Json::Utilities::StringReference a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::Newtonsoft::Json::Utilities::StringReference, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCEEXTENSIONS_ENDSWITH_OFFSET))(s, text);
+			return ((::System::Boolean(*)(::Newtonsoft::Json::Utilities::StringReference, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCEEXTENSIONS_ENDSWITH_OFFSET))(a1, a2);
 		}
 	};
 }

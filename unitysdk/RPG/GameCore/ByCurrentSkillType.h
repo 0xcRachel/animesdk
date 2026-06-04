@@ -4,14 +4,17 @@
 #include "unitysdk/RPG/GameCore/SkillType.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCURRENTSKILLTYPE_METHOD_4_AD9635D8A21330A3_OFFSET UNITYSDK_OFFSET(0x19ADA670)
-#define RPG_GAMECORE_BYCURRENTSKILLTYPE_METHOD_4_F5CA553289003AA7_OFFSET UNITYSDK_OFFSET(0x19ADA740)
-#define RPG_GAMECORE_BYCURRENTSKILLTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19ADA6F0)
+#define RPG_GAMECORE_BYCURRENTSKILLTYPE_METHOD_4_AD9635D8A21330A3_OFFSET UNITYSDK_OFFSET(0x19003150)
+#define RPG_GAMECORE_BYCURRENTSKILLTYPE_METHOD_4_E374B2F9D3E1F74E_OFFSET UNITYSDK_OFFSET(0x19003410)
+#define RPG_GAMECORE_BYCURRENTSKILLTYPE_METHOD_4_E66214435AE43D7B_OFFSET UNITYSDK_OFFSET(0x19003490)
+#define RPG_GAMECORE_BYCURRENTSKILLTYPE_METHOD_4_F5CA553289003AA7_OFFSET UNITYSDK_OFFSET(0x19003220)
+#define RPG_GAMECORE_BYCURRENTSKILLTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x190031D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCurrentSkillType_TypeDefinitionIndex = 22472;
+	inline static constexpr unsigned int ByCurrentSkillType_TypeDefinitionIndex = 22221;
 
 	class ByCurrentSkillType : public ::RPG::GameCore::PredicateConfig
 	{
@@ -32,6 +35,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_F5CA553289003AA7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCurrentSkillType* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCurrentSkillType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTSKILLTYPE_METHOD_4_F5CA553289003AA7_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_E374B2F9D3E1F74E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCurrentSkillType*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCurrentSkillType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTSKILLTYPE_METHOD_4_E374B2F9D3E1F74E_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_E66214435AE43D7B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCurrentSkillType* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCurrentSkillType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTSKILLTYPE_METHOD_4_E66214435AE43D7B_OFFSET))(a1, a2);
 		}
 	};
 }

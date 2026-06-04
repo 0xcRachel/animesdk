@@ -8,37 +8,37 @@
 
 namespace UnityEngine { class Shader; }
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_BEGINPSOWARMUPQUALITYSET_OFFSET UNITYSDK_OFFSET(0x197F4300)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_BEGINPSOWARMUP_OFFSET UNITYSDK_OFFSET(0x197F42E0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_ENDPSOWARMUPQUALITYSET_OFFSET UNITYSDK_OFFSET(0x197F4310)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_ENDPSOWARMUP_OFFSET UNITYSDK_OFFSET(0x197F42F0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_GETPSOCACHEFILESIZE_OFFSET UNITYSDK_OFFSET(0x197F4330)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_PSOWARMUPASYNCSAVERUNNING_OFFSET UNITYSDK_OFFSET(0x197F4320)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_WARMUPPSO_INJECTED_OFFSET UNITYSDK_OFFSET(0x197F42D0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_WARMUPPSO_OFFSET UNITYSDK_OFFSET(0x197F42C0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_WARMUPSHADERPASS_INJECTED_OFFSET UNITYSDK_OFFSET(0x197F42B0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_WARMUPSHADERPASS_OFFSET UNITYSDK_OFFSET(0x197F4290)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_BEGINPSOWARMUPQUALITYSET_OFFSET UNITYSDK_OFFSET(0x1A4DEF60)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_BEGINPSOWARMUP_OFFSET UNITYSDK_OFFSET(0x1A4DEF40)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_ENDPSOWARMUPQUALITYSET_OFFSET UNITYSDK_OFFSET(0x1A4DEF70)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_ENDPSOWARMUP_OFFSET UNITYSDK_OFFSET(0x1A4DEF50)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_GETPSOCACHEFILESIZE_OFFSET UNITYSDK_OFFSET(0x1A4DEF90)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_PSOWARMUPASYNCSAVERUNNING_OFFSET UNITYSDK_OFFSET(0x1A4DEF80)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_WARMUPPSO_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A4DEF30)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_WARMUPPSO_OFFSET UNITYSDK_OFFSET(0x1A4DEF20)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_WARMUPSHADERPASS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A4DEF10)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_WARMUPSHADERPASS_OFFSET UNITYSDK_OFFSET(0x1A4DEEF0)
 
 namespace UnityEngine::Experimental::Rendering
 {
-	inline static constexpr unsigned int ShaderWarmup_TypeDefinitionIndex = 4750;
+	inline static constexpr unsigned int ShaderWarmup_TypeDefinitionIndex = 4924;
 
 	class ShaderWarmup : public ::System::Object
 	{
 	public:
-		static ::System::Void WarmupShaderPass(::UnityEngine::Shader* shader, ::System::Int32 passIndex, ::UnityEngine::Rendering::ShaderKeywordSet keywordSet, ::UnityEngine::Experimental::Rendering::ShaderWarmupSetup setup)
+		static ::System::Void WarmupShaderPass(::UnityEngine::Shader* a1, ::System::Int32 a2, ::UnityEngine::Rendering::ShaderKeywordSet a3, ::UnityEngine::Experimental::Rendering::ShaderWarmupSetup a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Shader*, ::System::Int32, ::UnityEngine::Rendering::ShaderKeywordSet, ::UnityEngine::Experimental::Rendering::ShaderWarmupSetup))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_WARMUPSHADERPASS_OFFSET))(shader, passIndex, keywordSet, setup);
+			return ((::System::Void(*)(::UnityEngine::Shader*, ::System::Int32, ::UnityEngine::Rendering::ShaderKeywordSet, ::UnityEngine::Experimental::Rendering::ShaderWarmupSetup))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_WARMUPSHADERPASS_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void WarmupPSO(::UnityEngine::Shader* shader, ::UnityEngine::WarmupPipelineState pso)
+		static ::System::Void WarmupPSO(::UnityEngine::Shader* a1, ::UnityEngine::WarmupPipelineState a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Shader*, ::UnityEngine::WarmupPipelineState))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_WARMUPPSO_OFFSET))(shader, pso);
+			return ((::System::Void(*)(::UnityEngine::Shader*, ::UnityEngine::WarmupPipelineState))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_WARMUPPSO_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void BeginPSOWarmup(::System::Boolean resetHistory)
+		static ::System::Void BeginPSOWarmup(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_BEGINPSOWARMUP_OFFSET))(resetHistory);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_BEGINPSOWARMUP_OFFSET))(a1);
 		}
 
 		static ::System::Void EndPSOWarmup()
@@ -46,9 +46,9 @@ namespace UnityEngine::Experimental::Rendering
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_ENDPSOWARMUP_OFFSET))();
 		}
 
-		static ::System::Void BeginPSOWarmupQualitySet(::UnityEngine::WarmupQualityCategory qualityCategory, ::System::Int32 level)
+		static ::System::Void BeginPSOWarmupQualitySet(::UnityEngine::WarmupQualityCategory a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::WarmupQualityCategory, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_BEGINPSOWARMUPQUALITYSET_OFFSET))(qualityCategory, level);
+			return ((::System::Void(*)(::UnityEngine::WarmupQualityCategory, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_BEGINPSOWARMUPQUALITYSET_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void EndPSOWarmupQualitySet()
@@ -66,14 +66,14 @@ namespace UnityEngine::Experimental::Rendering
 			return ((::System::UInt64(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_GETPSOCACHEFILESIZE_OFFSET))();
 		}
 
-		static ::System::Void WarmupShaderPass_Injected(::UnityEngine::Shader* shader, ::System::Int32 passIndex, ::UnityEngine::Rendering::ShaderKeywordSet& keywordSet, ::UnityEngine::Experimental::Rendering::ShaderWarmupSetup& setup)
+		static ::System::Void WarmupShaderPass_Injected(::UnityEngine::Shader* a1, ::System::Int32 a2, ::UnityEngine::Rendering::ShaderKeywordSet& a3, ::UnityEngine::Experimental::Rendering::ShaderWarmupSetup& a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Shader*, ::System::Int32, ::UnityEngine::Rendering::ShaderKeywordSet&, ::UnityEngine::Experimental::Rendering::ShaderWarmupSetup&))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_WARMUPSHADERPASS_INJECTED_OFFSET))(shader, passIndex, keywordSet, setup);
+			return ((::System::Void(*)(::UnityEngine::Shader*, ::System::Int32, ::UnityEngine::Rendering::ShaderKeywordSet&, ::UnityEngine::Experimental::Rendering::ShaderWarmupSetup&))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_WARMUPSHADERPASS_INJECTED_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void WarmupPSO_Injected(::UnityEngine::Shader* shader, ::UnityEngine::WarmupPipelineState& pso)
+		static ::System::Void WarmupPSO_Injected(::UnityEngine::Shader* a1, ::UnityEngine::WarmupPipelineState& a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Shader*, ::UnityEngine::WarmupPipelineState&))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_WARMUPPSO_INJECTED_OFFSET))(shader, pso);
+			return ((::System::Void(*)(::UnityEngine::Shader*, ::UnityEngine::WarmupPipelineState&))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_SHADERWARMUP_WARMUPPSO_INJECTED_OFFSET))(a1, a2);
 		}
 	};
 }

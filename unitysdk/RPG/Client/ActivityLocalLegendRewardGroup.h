@@ -8,37 +8,37 @@ namespace RPG::Client { class QuestData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0x17008C60)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_GETQUESTSDATA_OFFSET UNITYSDK_OFFSET(0x17008D20)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_GET_REDDOTNAME_OFFSET UNITYSDK_OFFSET(0x17009000)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_GET_REWARDTYPE_OFFSET UNITYSDK_OFFSET(0x17009020)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x17008FE0)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_HASUNTAKENREWARD_OFFSET UNITYSDK_OFFSET(0x17008B00)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_SET_REDDOTNAME_OFFSET UNITYSDK_OFFSET(0x17009010)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_SET_REWARDTYPE_OFFSET UNITYSDK_OFFSET(0x17009030)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_SET_TITLE_OFFSET UNITYSDK_OFFSET(0x17008FF0)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x17008D10)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0x17BA2430)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_GETQUESTSDATA_OFFSET UNITYSDK_OFFSET(0x17BA24F0)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_GET_REDDOTNAME_OFFSET UNITYSDK_OFFSET(0x17BA2800)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_GET_REWARDTYPE_OFFSET UNITYSDK_OFFSET(0x17BA2820)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x17BA27E0)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_HASUNTAKENREWARD_OFFSET UNITYSDK_OFFSET(0x17BA22A0)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_SET_REDDOTNAME_OFFSET UNITYSDK_OFFSET(0x17BA2810)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_SET_REWARDTYPE_OFFSET UNITYSDK_OFFSET(0x17BA2830)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_SET_TITLE_OFFSET UNITYSDK_OFFSET(0x17BA27F0)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x17BA24E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityLocalLegendRewardGroup_TypeDefinitionIndex = 56782;
+	inline static constexpr unsigned int ActivityLocalLegendRewardGroup_TypeDefinitionIndex = 57566;
 
 	class ActivityLocalLegendRewardGroup : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* _QuestIDList; // 0x10
 		::System::String* _RedDotName_k__BackingField; // 0x18
-		::RPG::GameCore::ActivityLocalLegendRewardType _RewardType_k__BackingField; // 0x20
-		::RPG::Client::TextID _Title_k__BackingField; // 0x28
+		::RPG::Client::TextID _Title_k__BackingField; // 0x20
+		::RPG::GameCore::ActivityLocalLegendRewardType _RewardType_k__BackingField; // 0x30
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ActivityLocalLegendRewardGroup* Create(::System::Collections::Generic::List_1<::System::UInt32>* questIDList, ::RPG::Client::TextID title, ::RPG::GameCore::ActivityLocalLegendRewardType rewardType, ::System::String* redDotName)
+		static ::RPG::Client::ActivityLocalLegendRewardGroup* Create(::System::Collections::Generic::List_1<::System::UInt32>* a1, ::RPG::Client::TextID a2, ::RPG::GameCore::ActivityLocalLegendRewardType a3, ::System::String* a4)
 		{
-			return ((::RPG::Client::ActivityLocalLegendRewardGroup*(*)(::System::Collections::Generic::List_1<::System::UInt32>*, ::RPG::Client::TextID, ::RPG::GameCore::ActivityLocalLegendRewardType, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_CREATE_OFFSET))(questIDList, title, rewardType, redDotName);
+			return ((::RPG::Client::ActivityLocalLegendRewardGroup*(*)(::System::Collections::Generic::List_1<::System::UInt32>*, ::RPG::Client::TextID, ::RPG::GameCore::ActivityLocalLegendRewardType, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_CREATE_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::System::Boolean HasUntakenReward()
@@ -56,9 +56,9 @@ namespace RPG::Client
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_GET_TITLE_OFFSET))(this);
 		}
 
-		::System::Void set_Title(::RPG::Client::TextID value)
+		::System::Void set_Title(::RPG::Client::TextID a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_SET_TITLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_SET_TITLE_OFFSET))(this, a1);
 		}
 
 		::System::String* get_RedDotName()
@@ -66,9 +66,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_GET_REDDOTNAME_OFFSET))(this);
 		}
 
-		::System::Void set_RedDotName(::System::String* value)
+		::System::Void set_RedDotName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_SET_REDDOTNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_SET_REDDOTNAME_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::ActivityLocalLegendRewardType get_RewardType()
@@ -76,9 +76,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::ActivityLocalLegendRewardType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_GET_REWARDTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_RewardType(::RPG::GameCore::ActivityLocalLegendRewardType value)
+		::System::Void set_RewardType(::RPG::GameCore::ActivityLocalLegendRewardType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ActivityLocalLegendRewardType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_SET_REWARDTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ActivityLocalLegendRewardType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP_SET_REWARDTYPE_OFFSET))(this, a1);
 		}
 	};
 }

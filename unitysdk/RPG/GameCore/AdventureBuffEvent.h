@@ -3,26 +3,26 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_ADVENTUREBUFFEVENT_GETBUFFID_OFFSET UNITYSDK_OFFSET(0xC745830)
-#define RPG_GAMECORE_ADVENTUREBUFFEVENT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xC7457F0)
-#define RPG_GAMECORE_ADVENTUREBUFFEVENT_GETISBUFFCREATE_OFFSET UNITYSDK_OFFSET(0xC745870)
-#define RPG_GAMECORE_ADVENTUREBUFFEVENT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xC7457B0)
-#define RPG_GAMECORE_ADVENTUREBUFFEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xC7457A0)
+#define RPG_GAMECORE_ADVENTUREBUFFEVENT_GETBUFFID_OFFSET UNITYSDK_OFFSET(0x129549E0)
+#define RPG_GAMECORE_ADVENTUREBUFFEVENT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x129549A0)
+#define RPG_GAMECORE_ADVENTUREBUFFEVENT_GETISBUFFCREATE_OFFSET UNITYSDK_OFFSET(0x12954A20)
+#define RPG_GAMECORE_ADVENTUREBUFFEVENT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x12954960)
+#define RPG_GAMECORE_ADVENTUREBUFFEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1294E390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureBuffEvent_TypeDefinitionIndex = 52167;
+	inline static constexpr unsigned int AdventureBuffEvent_TypeDefinitionIndex = 52864;
 
 	class AdventureBuffEvent : public ::System::Object
 	{
 	public:
-		::System::UInt32 _EntityRuntimeID; // 0x10
+		::System::UInt32 _BuffID; // 0x10
 		::System::Boolean _IsBuffCreate; // 0x14
-		::System::UInt32 _BuffID; // 0x18
+		::System::UInt32 _EntityRuntimeID; // 0x18
 
-		::System::Void _ctor(::System::UInt32 entityID, ::System::UInt32 buffID, ::System::Boolean isBuffCreate)
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBUFFEVENT__CTOR_OFFSET))(this, entityID, buffID, isBuffCreate);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBUFFEVENT__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

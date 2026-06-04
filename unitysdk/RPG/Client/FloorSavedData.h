@@ -3,30 +3,30 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_8826F6D93ACAC1A7;
-class Class_1_EA8C52ED5A48F642;
+class Class_1_DA3E1E065FF0B7AB;
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_FLOORSAVEDDATA_ADDVALUE_OFFSET UNITYSDK_OFFSET(0x113421A0)
-#define RPG_CLIENT_FLOORSAVEDDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0x11341BB0)
-#define RPG_CLIENT_FLOORSAVEDDATA_GETFLOORSAVEDVALUES_OFFSET UNITYSDK_OFFSET(0x11341CB0)
-#define RPG_CLIENT_FLOORSAVEDDATA_GETVALUE_OFFSET UNITYSDK_OFFSET(0x11341CF0)
-#define RPG_CLIENT_FLOORSAVEDDATA_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x11341C50)
-#define RPG_CLIENT_FLOORSAVEDDATA_REGISTERONSAVEDVALUECHANGE_OFFSET UNITYSDK_OFFSET(0x11342800)
-#define RPG_CLIENT_FLOORSAVEDDATA_SETVALUE_OFFSET UNITYSDK_OFFSET(0x11342470)
-#define RPG_CLIENT_FLOORSAVEDDATA_TRYGETVALUE_OFFSET UNITYSDK_OFFSET(0x11342010)
-#define RPG_CLIENT_FLOORSAVEDDATA_UNREGISTERONSAVEDVALUECHANGE_OFFSET UNITYSDK_OFFSET(0x113429F0)
-#define RPG_CLIENT_FLOORSAVEDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11341B30)
+#define RPG_CLIENT_FLOORSAVEDDATA_ADDVALUE_OFFSET UNITYSDK_OFFSET(0x1594A720)
+#define RPG_CLIENT_FLOORSAVEDDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0x1594A230)
+#define RPG_CLIENT_FLOORSAVEDDATA_GETFLOORSAVEDVALUES_OFFSET UNITYSDK_OFFSET(0x1594A320)
+#define RPG_CLIENT_FLOORSAVEDDATA_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1594A360)
+#define RPG_CLIENT_FLOORSAVEDDATA_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x1594A2C0)
+#define RPG_CLIENT_FLOORSAVEDDATA_REGISTERONSAVEDVALUECHANGE_OFFSET UNITYSDK_OFFSET(0x1594ACA0)
+#define RPG_CLIENT_FLOORSAVEDDATA_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1594A9C0)
+#define RPG_CLIENT_FLOORSAVEDDATA_TRYGETVALUE_OFFSET UNITYSDK_OFFSET(0x1594A5C0)
+#define RPG_CLIENT_FLOORSAVEDDATA_UNREGISTERONSAVEDVALUECHANGE_OFFSET UNITYSDK_OFFSET(0x1594AE80)
+#define RPG_CLIENT_FLOORSAVEDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1594A1B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FloorSavedData_TypeDefinitionIndex = 57286;
+	inline static constexpr unsigned int FloorSavedData_TypeDefinitionIndex = 58076;
 
 	class FloorSavedData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_EA8C52ED5A48F642*>* _SavedValuesByNameHash; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_DA3E1E065FF0B7AB*>* _SavedValuesByNameHash; // 0x10
 
 		::System::Void _ctor()
 		{
@@ -43,39 +43,39 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORSAVEDDATA_ISEMPTY_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_EA8C52ED5A48F642*>* GetFloorSavedValues()
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_DA3E1E065FF0B7AB*>* GetFloorSavedValues()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_EA8C52ED5A48F642*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORSAVEDDATA_GETFLOORSAVEDVALUES_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_DA3E1E065FF0B7AB*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORSAVEDDATA_GETFLOORSAVEDVALUES_OFFSET))(this);
 		}
 
-		::System::Int16 GetValue(::System::String* sKey, ::Class_1_8826F6D93ACAC1A7* info)
+		::System::Int16 GetValue(::System::String* a1, ::Class_1_8826F6D93ACAC1A7* a2)
 		{
-			return ((::System::Int16(*)(::PVOID, ::System::String*, ::Class_1_8826F6D93ACAC1A7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORSAVEDDATA_GETVALUE_OFFSET))(this, sKey, info);
+			return ((::System::Int16(*)(::PVOID, ::System::String*, ::Class_1_8826F6D93ACAC1A7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORSAVEDDATA_GETVALUE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean TryGetValue(::System::String* sKey, ::System::Int16& value)
+		::System::Boolean TryGetValue(::System::String* a1, ::System::Int16& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int16&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORSAVEDDATA_TRYGETVALUE_OFFSET))(this, sKey, value);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int16&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORSAVEDDATA_TRYGETVALUE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddValue(::System::String* sKey, ::System::Int16 value)
+		::System::Void AddValue(::System::String* a1, ::System::Int16 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int16))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORSAVEDDATA_ADDVALUE_OFFSET))(this, sKey, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int16))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORSAVEDDATA_ADDVALUE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetValue(::System::String* sKey, ::System::Int16 value, ::Class_1_8826F6D93ACAC1A7* info)
+		::System::Void SetValue(::System::String* a1, ::System::Int16 a2, ::Class_1_8826F6D93ACAC1A7* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int16, ::Class_1_8826F6D93ACAC1A7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORSAVEDDATA_SETVALUE_OFFSET))(this, sKey, value, info);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int16, ::Class_1_8826F6D93ACAC1A7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORSAVEDDATA_SETVALUE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean RegisterOnSavedValueChange(::System::String* sKey, ::System::Action_1<::System::String*>* callback)
+		::System::Boolean RegisterOnSavedValueChange(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORSAVEDDATA_REGISTERONSAVEDVALUECHANGE_OFFSET))(this, sKey, callback);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORSAVEDDATA_REGISTERONSAVEDVALUECHANGE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean UnregisterOnSavedValueChange(::System::String* sKey, ::System::Action_1<::System::String*>* callback)
+		::System::Boolean UnregisterOnSavedValueChange(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORSAVEDDATA_UNREGISTERONSAVEDVALUECHANGE_OFFSET))(this, sKey, callback);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORSAVEDDATA_UNREGISTERONSAVEDVALUECHANGE_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -13,72 +13,72 @@ namespace System::Reflection { class RuntimeAssembly; }
 namespace System::Resources { class ResourceManager_ResourceManagerMediator; }
 namespace System::Resources { class ResourceSet; }
 
-#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_CANUSEDEFAULTRESOURCECLASSES_OFFSET UNITYSDK_OFFSET(0x18F4D070)
-#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_CASEINSENSITIVEMANIFESTRESOURCESTREAMLOOKUP_OFFSET UNITYSDK_OFFSET(0x18F4D2E0)
-#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_CREATERESOURCESET_OFFSET UNITYSDK_OFFSET(0x18F4BFE0)
-#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GETMANIFESTRESOURCESTREAM_OFFSET UNITYSDK_OFFSET(0x18F4BDB0)
-#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GETNEUTRALRESOURCESLANGUAGEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x18F4D010)
-#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GETNEUTRALRESOURCESLANGUAGE_OFFSET UNITYSDK_OFFSET(0x18F4CD80)
-#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GETSATELLITEASSEMBLYNAME_OFFSET UNITYSDK_OFFSET(0x18F4D7D0)
-#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GETSATELLITEASSEMBLY_OFFSET UNITYSDK_OFFSET(0x18F4B5E0)
-#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GROVELFORRESOURCESET_OFFSET UNITYSDK_OFFSET(0x18F4AEC0)
-#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_HANDLERESOURCESTREAMMISSING_OFFSET UNITYSDK_OFFSET(0x18F4C9C0)
-#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_HANDLESATELLITEMISSING_OFFSET UNITYSDK_OFFSET(0x18F4B8E0)
-#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_ULTIMATEFALLBACKFIXUP_OFFSET UNITYSDK_OFFSET(0x18F4B3E0)
-#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER__CTOR_OFFSET UNITYSDK_OFFSET(0x18F4AEB0)
+#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_CANUSEDEFAULTRESOURCECLASSES_OFFSET UNITYSDK_OFFSET(0x196FE6D0)
+#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_CASEINSENSITIVEMANIFESTRESOURCESTREAMLOOKUP_OFFSET UNITYSDK_OFFSET(0x196FE940)
+#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_CREATERESOURCESET_OFFSET UNITYSDK_OFFSET(0x196FD650)
+#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GETMANIFESTRESOURCESTREAM_OFFSET UNITYSDK_OFFSET(0x196FD3D0)
+#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GETNEUTRALRESOURCESLANGUAGEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x196FE670)
+#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GETNEUTRALRESOURCESLANGUAGE_OFFSET UNITYSDK_OFFSET(0x196FE3E0)
+#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GETSATELLITEASSEMBLYNAME_OFFSET UNITYSDK_OFFSET(0x196FEEE0)
+#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GETSATELLITEASSEMBLY_OFFSET UNITYSDK_OFFSET(0x196FCB40)
+#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GROVELFORRESOURCESET_OFFSET UNITYSDK_OFFSET(0x196FC450)
+#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_HANDLERESOURCESTREAMMISSING_OFFSET UNITYSDK_OFFSET(0x196FE010)
+#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_HANDLESATELLITEMISSING_OFFSET UNITYSDK_OFFSET(0x196FCE50)
+#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_ULTIMATEFALLBACKFIXUP_OFFSET UNITYSDK_OFFSET(0x196FC940)
+#define SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER__CTOR_OFFSET UNITYSDK_OFFSET(0x196FC440)
 
 namespace System::Resources
 {
-	inline static constexpr unsigned int ManifestBasedResourceGroveler_TypeDefinitionIndex = 518;
+	inline static constexpr unsigned int ManifestBasedResourceGroveler_TypeDefinitionIndex = 517;
 
 	class ManifestBasedResourceGroveler : public ::System::Object
 	{
 	public:
 		::System::Resources::ResourceManager_ResourceManagerMediator* _mediator; // 0x10
 
-		::System::Void _ctor(::System::Resources::ResourceManager_ResourceManagerMediator* mediator)
+		::System::Void _ctor(::System::Resources::ResourceManager_ResourceManagerMediator* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Resources::ResourceManager_ResourceManagerMediator*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER__CTOR_OFFSET))(this, mediator);
+			return ((::System::Void(*)(::PVOID, ::System::Resources::ResourceManager_ResourceManagerMediator*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Resources::ResourceSet* GrovelForResourceSet(::System::Globalization::CultureInfo* culture, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Resources::ResourceSet*>* localResourceSets, ::System::Boolean tryParents, ::System::Boolean createIfNotExists, ::System::Threading::StackCrawlMark& stackMark)
+		::System::Resources::ResourceSet* GrovelForResourceSet(::System::Globalization::CultureInfo* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Resources::ResourceSet*>* a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Threading::StackCrawlMark& a5)
 		{
-			return ((::System::Resources::ResourceSet*(*)(::PVOID, ::System::Globalization::CultureInfo*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Resources::ResourceSet*>*, ::System::Boolean, ::System::Boolean, ::System::Threading::StackCrawlMark&))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GROVELFORRESOURCESET_OFFSET))(this, culture, localResourceSets, tryParents, createIfNotExists, stackMark);
+			return ((::System::Resources::ResourceSet*(*)(::PVOID, ::System::Globalization::CultureInfo*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Resources::ResourceSet*>*, ::System::Boolean, ::System::Boolean, ::System::Threading::StackCrawlMark&))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GROVELFORRESOURCESET_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Globalization::CultureInfo* UltimateFallbackFixup(::System::Globalization::CultureInfo* lookForCulture)
+		::System::Globalization::CultureInfo* UltimateFallbackFixup(::System::Globalization::CultureInfo* a1)
 		{
-			return ((::System::Globalization::CultureInfo*(*)(::PVOID, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_ULTIMATEFALLBACKFIXUP_OFFSET))(this, lookForCulture);
+			return ((::System::Globalization::CultureInfo*(*)(::PVOID, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_ULTIMATEFALLBACKFIXUP_OFFSET))(this, a1);
 		}
 
-		static ::System::Globalization::CultureInfo* GetNeutralResourcesLanguage(::System::Reflection::Assembly* a, ::System::Resources::UltimateResourceFallbackLocation& fallbackLocation)
+		static ::System::Globalization::CultureInfo* GetNeutralResourcesLanguage(::System::Reflection::Assembly* a1, ::System::Resources::UltimateResourceFallbackLocation& a2)
 		{
-			return ((::System::Globalization::CultureInfo*(*)(::System::Reflection::Assembly*, ::System::Resources::UltimateResourceFallbackLocation&))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GETNEUTRALRESOURCESLANGUAGE_OFFSET))(a, fallbackLocation);
+			return ((::System::Globalization::CultureInfo*(*)(::System::Reflection::Assembly*, ::System::Resources::UltimateResourceFallbackLocation&))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GETNEUTRALRESOURCESLANGUAGE_OFFSET))(a1, a2);
 		}
 
-		::System::Resources::ResourceSet* CreateResourceSet(::System::IO::Stream* store, ::System::Reflection::Assembly* assembly)
+		::System::Resources::ResourceSet* CreateResourceSet(::System::IO::Stream* a1, ::System::Reflection::Assembly* a2)
 		{
-			return ((::System::Resources::ResourceSet*(*)(::PVOID, ::System::IO::Stream*, ::System::Reflection::Assembly*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_CREATERESOURCESET_OFFSET))(this, store, assembly);
+			return ((::System::Resources::ResourceSet*(*)(::PVOID, ::System::IO::Stream*, ::System::Reflection::Assembly*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_CREATERESOURCESET_OFFSET))(this, a1, a2);
 		}
 
-		::System::IO::Stream* GetManifestResourceStream(::System::Reflection::RuntimeAssembly* satellite, ::System::String* fileName, ::System::Threading::StackCrawlMark& stackMark)
+		::System::IO::Stream* GetManifestResourceStream(::System::Reflection::RuntimeAssembly* a1, ::System::String* a2, ::System::Threading::StackCrawlMark& a3)
 		{
-			return ((::System::IO::Stream*(*)(::PVOID, ::System::Reflection::RuntimeAssembly*, ::System::String*, ::System::Threading::StackCrawlMark&))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GETMANIFESTRESOURCESTREAM_OFFSET))(this, satellite, fileName, stackMark);
+			return ((::System::IO::Stream*(*)(::PVOID, ::System::Reflection::RuntimeAssembly*, ::System::String*, ::System::Threading::StackCrawlMark&))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GETMANIFESTRESOURCESTREAM_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IO::Stream* CaseInsensitiveManifestResourceStreamLookup(::System::Reflection::RuntimeAssembly* satellite, ::System::String* name)
+		::System::IO::Stream* CaseInsensitiveManifestResourceStreamLookup(::System::Reflection::RuntimeAssembly* a1, ::System::String* a2)
 		{
-			return ((::System::IO::Stream*(*)(::PVOID, ::System::Reflection::RuntimeAssembly*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_CASEINSENSITIVEMANIFESTRESOURCESTREAMLOOKUP_OFFSET))(this, satellite, name);
+			return ((::System::IO::Stream*(*)(::PVOID, ::System::Reflection::RuntimeAssembly*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_CASEINSENSITIVEMANIFESTRESOURCESTREAMLOOKUP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Reflection::RuntimeAssembly* GetSatelliteAssembly(::System::Globalization::CultureInfo* lookForCulture, ::System::Threading::StackCrawlMark& stackMark)
+		::System::Reflection::RuntimeAssembly* GetSatelliteAssembly(::System::Globalization::CultureInfo* a1, ::System::Threading::StackCrawlMark& a2)
 		{
-			return ((::System::Reflection::RuntimeAssembly*(*)(::PVOID, ::System::Globalization::CultureInfo*, ::System::Threading::StackCrawlMark&))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GETSATELLITEASSEMBLY_OFFSET))(this, lookForCulture, stackMark);
+			return ((::System::Reflection::RuntimeAssembly*(*)(::PVOID, ::System::Globalization::CultureInfo*, ::System::Threading::StackCrawlMark&))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GETSATELLITEASSEMBLY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean CanUseDefaultResourceClasses(::System::String* readerTypeName, ::System::String* resSetTypeName)
+		::System::Boolean CanUseDefaultResourceClasses(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_CANUSEDEFAULTRESOURCECLASSES_OFFSET))(this, readerTypeName, resSetTypeName);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_CANUSEDEFAULTRESOURCECLASSES_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* GetSatelliteAssemblyName()
@@ -91,14 +91,14 @@ namespace System::Resources
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_HANDLESATELLITEMISSING_OFFSET))(this);
 		}
 
-		::System::Void HandleResourceStreamMissing(::System::String* fileName)
+		::System::Void HandleResourceStreamMissing(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_HANDLERESOURCESTREAMMISSING_OFFSET))(this, fileName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_HANDLERESOURCESTREAMMISSING_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean GetNeutralResourcesLanguageAttribute(::System::Reflection::Assembly* assembly, ::System::String*& cultureName, ::System::Int16& fallbackLocation)
+		static ::System::Boolean GetNeutralResourcesLanguageAttribute(::System::Reflection::Assembly* a1, ::System::String*& a2, ::System::Int16& a3)
 		{
-			return ((::System::Boolean(*)(::System::Reflection::Assembly*, ::System::String*&, ::System::Int16&))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GETNEUTRALRESOURCESLANGUAGEATTRIBUTE_OFFSET))(assembly, cultureName, fallbackLocation);
+			return ((::System::Boolean(*)(::System::Reflection::Assembly*, ::System::String*&, ::System::Int16&))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_MANIFESTBASEDRESOURCEGROVELER_GETNEUTRALRESOURCESLANGUAGEATTRIBUTE_OFFSET))(a1, a2, a3);
 		}
 	};
 }

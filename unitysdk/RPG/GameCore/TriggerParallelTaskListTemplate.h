@@ -10,13 +10,13 @@ namespace RPG::GameCore { class SequenceConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TRIGGERPARALLELTASKLISTTEMPLATE_METHOD_3_1771F226EB3E0DAF_OFFSET UNITYSDK_OFFSET(0x1911C560)
-#define RPG_GAMECORE_TRIGGERPARALLELTASKLISTTEMPLATE_METHOD_3_2EABDAB0E1913D1A_OFFSET UNITYSDK_OFFSET(0x1911C4E0)
-#define RPG_GAMECORE_TRIGGERPARALLELTASKLISTTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1911C530)
+#define RPG_GAMECORE_TRIGGERPARALLELTASKLISTTEMPLATE_METHOD_3_028648D9E6964C35_OFFSET UNITYSDK_OFFSET(0x19A4B860)
+#define RPG_GAMECORE_TRIGGERPARALLELTASKLISTTEMPLATE_METHOD_3_A438D9C3718F22CC_OFFSET UNITYSDK_OFFSET(0x19A4B7E0)
+#define RPG_GAMECORE_TRIGGERPARALLELTASKLISTTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A4B830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerParallelTaskListTemplate_TypeDefinitionIndex = 22281;
+	inline static constexpr unsigned int TriggerParallelTaskListTemplate_TypeDefinitionIndex = 22036;
 
 	class TriggerParallelTaskListTemplate : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,14 +32,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPARALLELTASKLISTTEMPLATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2EABDAB0E1913D1A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerParallelTaskListTemplate*& a2)
+		static ::System::Void Method_3_A438D9C3718F22CC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerParallelTaskListTemplate*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerParallelTaskListTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPARALLELTASKLISTTEMPLATE_METHOD_3_2EABDAB0E1913D1A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerParallelTaskListTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPARALLELTASKLISTTEMPLATE_METHOD_3_A438D9C3718F22CC_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1771F226EB3E0DAF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerParallelTaskListTemplate* a2)
+		static ::System::Void Method_3_028648D9E6964C35(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerParallelTaskListTemplate* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerParallelTaskListTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPARALLELTASKLISTTEMPLATE_METHOD_3_1771F226EB3E0DAF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerParallelTaskListTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPARALLELTASKLISTTEMPLATE_METHOD_3_028648D9E6964C35_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,10 +5,10 @@
 namespace System::Text::RegularExpressions { class Match; }
 namespace System::Text::RegularExpressions { class MatchCollection; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x16B47DB0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x16B47D60)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x16B47E00)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x16B47D00)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1492C6E0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1492C690)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1492C730)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1492C630)
 
 namespace System::Text::RegularExpressions
 {
@@ -17,14 +17,14 @@ namespace System::Text::RegularExpressions
 	class MatchEnumerator : public ::System::Object
 	{
 	public:
-		::System::Text::RegularExpressions::MatchCollection* _matchcoll; // 0x10
-		::System::Text::RegularExpressions::Match* _match; // 0x18
+		::System::Text::RegularExpressions::Match* _match; // 0x10
+		::System::Text::RegularExpressions::MatchCollection* _matchcoll; // 0x18
 		::System::Boolean _done; // 0x20
 		::System::Int32 _curindex; // 0x24
 
-		::System::Void _ctor(::System::Text::RegularExpressions::MatchCollection* matchcoll)
+		::System::Void _ctor(::System::Text::RegularExpressions::MatchCollection* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::RegularExpressions::MatchCollection*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR__CTOR_OFFSET))(this, matchcoll);
+			return ((::System::Void(*)(::PVOID, ::System::Text::RegularExpressions::MatchCollection*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean MoveNext()

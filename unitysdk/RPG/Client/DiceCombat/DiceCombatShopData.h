@@ -4,65 +4,65 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_7FF19F6206AF6DD7_18;
+class Class_1_7FF19F6206AF6DD7_19;
 namespace RPG::Client::DiceCombat { class DiceCombatShopGoodData; }
 namespace RPG::GameCore { class ActivityDiceCombatShopRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_CONTAINSGOODID_OFFSET UNITYSDK_OFFSET(0x17A2EFD0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x17A2E6F0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GETSHOPGOODSBYGOODTYPE_OFFSET UNITYSDK_OFFSET(0x17A2F610)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GETSHOPGOOD_OFFSET UNITYSDK_OFFSET(0x17A2F4B0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GET_ALLSHOPGOODS_OFFSET UNITYSDK_OFFSET(0x17A2F720)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GET_AVATARGOODS_OFFSET UNITYSDK_OFFSET(0x17A2F740)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GET_CURRENCYID_OFFSET UNITYSDK_OFFSET(0x17A2F7D0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GET_DICEGOODS_OFFSET UNITYSDK_OFFSET(0x17A2F760)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GET_SHOPICONPATH_OFFSET UNITYSDK_OFFSET(0x17A2F780)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GET_SHOPID_OFFSET UNITYSDK_OFFSET(0x17A2C080)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GET_SHOPNAME_OFFSET UNITYSDK_OFFSET(0x17A2F7A0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GET_SORTWEIGHT_OFFSET UNITYSDK_OFFSET(0x17A2F700)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_SET_ALLSHOPGOODS_OFFSET UNITYSDK_OFFSET(0x17A2F730)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_SET_AVATARGOODS_OFFSET UNITYSDK_OFFSET(0x17A2F750)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_SET_DICEGOODS_OFFSET UNITYSDK_OFFSET(0x17A2F770)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_SORTGOODLIST_OFFSET UNITYSDK_OFFSET(0x17A2F2E0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17A2E6E0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_CONTAINSGOODID_OFFSET UNITYSDK_OFFSET(0x18B87B60)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x18B87120)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GETSHOPGOODSBYGOODTYPE_OFFSET UNITYSDK_OFFSET(0x18B88180)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GETSHOPGOOD_OFFSET UNITYSDK_OFFSET(0x18B88060)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GET_ALLSHOPGOODS_OFFSET UNITYSDK_OFFSET(0x18B88290)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GET_AVATARGOODS_OFFSET UNITYSDK_OFFSET(0x18B882B0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GET_CURRENCYID_OFFSET UNITYSDK_OFFSET(0x18B88340)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GET_DICEGOODS_OFFSET UNITYSDK_OFFSET(0x18B882D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GET_SHOPICONPATH_OFFSET UNITYSDK_OFFSET(0x18B882F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GET_SHOPID_OFFSET UNITYSDK_OFFSET(0x18B84B40)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GET_SHOPNAME_OFFSET UNITYSDK_OFFSET(0x18B88310)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GET_SORTWEIGHT_OFFSET UNITYSDK_OFFSET(0x18B88270)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_SET_ALLSHOPGOODS_OFFSET UNITYSDK_OFFSET(0x18B882A0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_SET_AVATARGOODS_OFFSET UNITYSDK_OFFSET(0x18B882C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_SET_DICEGOODS_OFFSET UNITYSDK_OFFSET(0x18B882E0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_SORTGOODLIST_OFFSET UNITYSDK_OFFSET(0x18B87E40)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18B87110)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatShopData_TypeDefinitionIndex = 69845;
+	inline static constexpr unsigned int DiceCombatShopData_TypeDefinitionIndex = 70657;
 
 	class DiceCombatShopData : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ActivityDiceCombatShopRow* _ShopRow; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>* _AvatarGoods_k__BackingField; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>* _DiceGoods_k__BackingField; // 0x20
-		::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>* _AllShopGoods_k__BackingField; // 0x28
+		::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>* _DiceGoods_k__BackingField; // 0x10
+		::RPG::GameCore::ActivityDiceCombatShopRow* _ShopRow; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>* _AllShopGoods_k__BackingField; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>* _AvatarGoods_k__BackingField; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::DiceCombat::DiceCombatShopData* Create(::Class_1_7FF19F6206AF6DD7_18* shop)
+		static ::RPG::Client::DiceCombat::DiceCombatShopData* Create(::Class_1_7FF19F6206AF6DD7_19* a1)
 		{
-			return ((::RPG::Client::DiceCombat::DiceCombatShopData*(*)(::Class_1_7FF19F6206AF6DD7_18*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_CREATE_OFFSET))(shop);
+			return ((::RPG::Client::DiceCombat::DiceCombatShopData*(*)(::Class_1_7FF19F6206AF6DD7_19*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_CREATE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean ContainsGoodID(::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>* goodDatas, ::System::UInt32 goodID)
+		static ::System::Boolean ContainsGoodID(::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_CONTAINSGOODID_OFFSET))(goodDatas, goodID);
+			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_CONTAINSGOODID_OFFSET))(a1, a2);
 		}
 
-		::RPG::Client::DiceCombat::DiceCombatShopGoodData* GetShopGood(::System::UInt32 goodId)
+		::RPG::Client::DiceCombat::DiceCombatShopGoodData* GetShopGood(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::DiceCombat::DiceCombatShopGoodData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GETSHOPGOOD_OFFSET))(this, goodId);
+			return ((::RPG::Client::DiceCombat::DiceCombatShopGoodData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GETSHOPGOOD_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>* GetShopGoodsByGoodType(::RPG::Client::DiceCombat::DiceCombatShopGoodType goodType)
+		::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>* GetShopGoodsByGoodType(::RPG::Client::DiceCombat::DiceCombatShopGoodType a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>*(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatShopGoodType))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GETSHOPGOODSBYGOODTYPE_OFFSET))(this, goodType);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>*(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatShopGoodType))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GETSHOPGOODSBYGOODTYPE_OFFSET))(this, a1);
 		}
 
 		::System::Void SortGoodList()
@@ -85,9 +85,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GET_ALLSHOPGOODS_OFFSET))(this);
 		}
 
-		::System::Void set_AllShopGoods(::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>* value)
+		::System::Void set_AllShopGoods(::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_SET_ALLSHOPGOODS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_SET_ALLSHOPGOODS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>* get_AvatarGoods()
@@ -95,9 +95,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GET_AVATARGOODS_OFFSET))(this);
 		}
 
-		::System::Void set_AvatarGoods(::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>* value)
+		::System::Void set_AvatarGoods(::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_SET_AVATARGOODS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_SET_AVATARGOODS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>* get_DiceGoods()
@@ -105,9 +105,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_GET_DICEGOODS_OFFSET))(this);
 		}
 
-		::System::Void set_DiceGoods(::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>* value)
+		::System::Void set_DiceGoods(::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_SET_DICEGOODS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPDATA_SET_DICEGOODS_OFFSET))(this, a1);
 		}
 
 		::System::String* get_ShopIconPath()

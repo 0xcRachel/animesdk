@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ADDMAZEBUFFBINDING_METHOD_3_9A08BF41C72548D6_OFFSET UNITYSDK_OFFSET(0x18DB3EA0)
-#define RPG_GAMECORE_ADDMAZEBUFFBINDING_METHOD_3_FB0EE2191E28C077_OFFSET UNITYSDK_OFFSET(0x18DB3F20)
-#define RPG_GAMECORE_ADDMAZEBUFFBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0x18DB3EF0)
+#define RPG_GAMECORE_ADDMAZEBUFFBINDING_METHOD_3_0914133C6F65EF79_OFFSET UNITYSDK_OFFSET(0x1954E860)
+#define RPG_GAMECORE_ADDMAZEBUFFBINDING_METHOD_3_46CBAE8F561D31BF_OFFSET UNITYSDK_OFFSET(0x1954E7E0)
+#define RPG_GAMECORE_ADDMAZEBUFFBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0x1954E830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddMazeBuffBinding_TypeDefinitionIndex = 22384;
+	inline static constexpr unsigned int AddMazeBuffBinding_TypeDefinitionIndex = 22140;
 
 	class AddMazeBuffBinding : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDMAZEBUFFBINDING__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9A08BF41C72548D6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddMazeBuffBinding*& a2)
+		static ::System::Void Method_3_46CBAE8F561D31BF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddMazeBuffBinding*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddMazeBuffBinding*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDMAZEBUFFBINDING_METHOD_3_9A08BF41C72548D6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddMazeBuffBinding*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDMAZEBUFFBINDING_METHOD_3_46CBAE8F561D31BF_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FB0EE2191E28C077(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddMazeBuffBinding* a2)
+		static ::System::Void Method_3_0914133C6F65EF79(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddMazeBuffBinding* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddMazeBuffBinding*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDMAZEBUFFBINDING_METHOD_3_FB0EE2191E28C077_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddMazeBuffBinding*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDMAZEBUFFBINDING_METHOD_3_0914133C6F65EF79_OFFSET))(a1, a2);
 		}
 	};
 }

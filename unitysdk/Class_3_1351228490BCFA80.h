@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_3_E21F6DE9B7FA4D05;
+class Class_3_07C3C4D2990C49EE;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SummonPartner; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_3_1351228490BCFA80_DISPOSE_OFFSET UNITYSDK_OFFSET(0x102F8F30)
-#define CLASS_3_1351228490BCFA80_METHOD_3_5EBC62A17E81C353_OFFSET UNITYSDK_OFFSET(0x102F9730)
-#define CLASS_3_1351228490BCFA80_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x102F8FA0)
-#define CLASS_3_1351228490BCFA80__CTOR_OFFSET UNITYSDK_OFFSET(0x102F8E90)
-#define CLASS_3_1351228490BCFA80___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x102F9880)
+#define CLASS_3_1351228490BCFA80_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16A0E620)
+#define CLASS_3_1351228490BCFA80_METHOD_3_FEAB37832CDA8227_OFFSET UNITYSDK_OFFSET(0x16A0EE00)
+#define CLASS_3_1351228490BCFA80_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16A0E690)
+#define CLASS_3_1351228490BCFA80__CTOR_OFFSET UNITYSDK_OFFSET(0x16A0E580)
+#define CLASS_3_1351228490BCFA80___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16A0EF70)
 
-inline static constexpr unsigned int Class_3_1351228490BCFA80_TypeDefinitionIndex = 51329;
+inline static constexpr unsigned int Class_3_1351228490BCFA80_TypeDefinitionIndex = 51997;
 
 class Class_3_1351228490BCFA80 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SummonPartner*>
 {
 public:
-	::Class_3_E21F6DE9B7FA4D05* Field_3_0; // 0x28
+	::Class_3_07C3C4D2990C49EE* Field_3_0; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SummonPartner* a2)
 	{
@@ -36,9 +36,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_1351228490BCFA80_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::RPG::GameCore::GameEntity* Method_3_5EBC62A17E81C353(::System::String* a1)
+	::RPG::GameCore::GameEntity* Method_3_FEAB37832CDA8227(::System::String* a1)
 	{
-		return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_3_1351228490BCFA80_METHOD_3_5EBC62A17E81C353_OFFSET))(this, a1);
+		return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_3_1351228490BCFA80_METHOD_3_FEAB37832CDA8227_OFFSET))(this, a1);
 	}
 
 	::System::Void __iFixBaseProxy_Dispose()

@@ -15,19 +15,19 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define AKEVENT_CALLBACK_OFFSET UNITYSDK_OFFSET(0x192C6EF0)
-#define AKEVENT_GET_EVENTID_OFFSET UNITYSDK_OFFSET(0x192C71C0)
-#define AKEVENT_GET_M_CALLBACKDATA_OFFSET UNITYSDK_OFFSET(0x192C7380)
-#define AKEVENT_GET_VALUEGUID_OFFSET UNITYSDK_OFFSET(0x192C7240)
-#define AKEVENT_GET_WWISETYPE_OFFSET UNITYSDK_OFFSET(0x192C6EA0)
-#define AKEVENT_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x192A7CF0)
-#define AKEVENT_START_OFFSET UNITYSDK_OFFSET(0x192A6E80)
-#define AKEVENT_STOP_1_OFFSET UNITYSDK_OFFSET(0x192C70D0)
-#define AKEVENT_STOP_OFFSET UNITYSDK_OFFSET(0x192C7070)
-#define AKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x192A8610)
-#define AKEVENT___IFIXBASEPROXY_START_OFFSET UNITYSDK_OFFSET(0x192C7390)
+#define AKEVENT_CALLBACK_OFFSET UNITYSDK_OFFSET(0x19DE1890)
+#define AKEVENT_GET_EVENTID_OFFSET UNITYSDK_OFFSET(0x19DE1B50)
+#define AKEVENT_GET_M_CALLBACKDATA_OFFSET UNITYSDK_OFFSET(0x19DE1D10)
+#define AKEVENT_GET_VALUEGUID_OFFSET UNITYSDK_OFFSET(0x19DE1BD0)
+#define AKEVENT_GET_WWISETYPE_OFFSET UNITYSDK_OFFSET(0x19DE1840)
+#define AKEVENT_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x19DC3790)
+#define AKEVENT_START_OFFSET UNITYSDK_OFFSET(0x19DC2B40)
+#define AKEVENT_STOP_1_OFFSET UNITYSDK_OFFSET(0x19DE1A60)
+#define AKEVENT_STOP_OFFSET UNITYSDK_OFFSET(0x19DE1A00)
+#define AKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19DC40D0)
+#define AKEVENT___IFIXBASEPROXY_START_OFFSET UNITYSDK_OFFSET(0x19DE1D20)
 
-inline static constexpr unsigned int AkEvent_TypeDefinitionIndex = 40477;
+inline static constexpr unsigned int AkEvent_TypeDefinitionIndex = 41304;
 
 class AkEvent : public ::AkDragDropTriggerHandler
 {
@@ -61,24 +61,24 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKEVENT_START_OFFSET))(this);
 	}
 
-	::System::Void Callback(::System::Object* in_cookie, ::AkCallbackType in_type, ::AkCallbackInfo* in_info)
+	::System::Void Callback(::System::Object* a1, ::AkCallbackType a2, ::AkCallbackInfo* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*, ::AkCallbackType, ::AkCallbackInfo*))((::PBYTE)hIl2Cpp + AKEVENT_CALLBACK_OFFSET))(this, in_cookie, in_type, in_info);
+		return ((::System::Void(*)(::PVOID, ::System::Object*, ::AkCallbackType, ::AkCallbackInfo*))((::PBYTE)hIl2Cpp + AKEVENT_CALLBACK_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void HandleEvent(::UnityEngine::GameObject* in_gameObject)
+	::System::Void HandleEvent(::UnityEngine::GameObject* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKEVENT_HANDLEEVENT_OFFSET))(this, in_gameObject);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKEVENT_HANDLEEVENT_OFFSET))(this, a1);
 	}
 
-	::System::Void Stop(::System::Int32 _transitionDuration)
+	::System::Void Stop(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKEVENT_STOP_OFFSET))(this, _transitionDuration);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKEVENT_STOP_OFFSET))(this, a1);
 	}
 
-	::System::Void Stop_1(::System::Int32 _transitionDuration, ::AkCurveInterpolation _curveInterpolation)
+	::System::Void Stop_1(::System::Int32 a1, ::AkCurveInterpolation a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32, ::AkCurveInterpolation))((::PBYTE)hIl2Cpp + AKEVENT_STOP_1_OFFSET))(this, _transitionDuration, _curveInterpolation);
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::AkCurveInterpolation))((::PBYTE)hIl2Cpp + AKEVENT_STOP_1_OFFSET))(this, a1, a2);
 	}
 
 	::System::Int32 get_eventID()

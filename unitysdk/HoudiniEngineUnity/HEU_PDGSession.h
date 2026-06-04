@@ -6,67 +6,81 @@
 #include "unitysdk/System/Object.h"
 
 namespace HoudiniEngineUnity { class HEU_PDGAssetLink; }
+namespace HoudiniEngineUnity { class HEU_PDGCookedEventData; }
 namespace HoudiniEngineUnity { class HEU_SessionBase; }
+namespace HoudiniEngineUnity { class HEU_SyncedEventData; }
 namespace HoudiniEngineUnity { class HEU_TOPNetworkData; }
 namespace HoudiniEngineUnity { class HEU_TOPNodeData; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_ADDASSET_OFFSET UNITYSDK_OFFSET(0x1544C310)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_ADDEVENTMESSAGE_OFFSET UNITYSDK_OFFSET(0x1544C920)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_CANCELCOOK_OFFSET UNITYSDK_OFFSET(0x1544AEE0)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1544C330)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_CLEARERRORSTATE_OFFSET UNITYSDK_OFFSET(0x1544C880)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_CLEAREVENTMESSAGES_OFFSET UNITYSDK_OFFSET(0x1544C9B0)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_CLEARWORKITEMRESULT_OFFSET UNITYSDK_OFFSET(0x1544C910)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_COOKTOPNETWORKOUTPUTNODE_OFFSET UNITYSDK_OFFSET(0x1544AC40)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_COOKTOPNODE_OFFSET UNITYSDK_OFFSET(0x1544AAA0)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_DIRTYALL_OFFSET UNITYSDK_OFFSET(0x1544AB80)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_DIRTYTOPNODE_OFFSET UNITYSDK_OFFSET(0x1544AA00)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_GETEVENTMESSAGES_OFFSET UNITYSDK_OFFSET(0x1544C990)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_GETHAPIPDGSESSION_OFFSET UNITYSDK_OFFSET(0x1544C890)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_GETPDGSESSION_OFFSET UNITYSDK_OFFSET(0x15448130)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_GETTOPASSETLINKANDNODE_OFFSET UNITYSDK_OFFSET(0x1544C450)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODECOOKEDWORKITEM_OFFSET UNITYSDK_OFFSET(0x1544C640)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODECOOKINGWORKITEM_OFFSET UNITYSDK_OFFSET(0x1544C780)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODEERRORWORKITEM_OFFSET UNITYSDK_OFFSET(0x1544C690)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODEPDGSTATECLEAR_OFFSET UNITYSDK_OFFSET(0x1544C590)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODESCHEDULEDWORKITEM_OFFSET UNITYSDK_OFFSET(0x1544C730)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODETOTALWORKITEM_OFFSET UNITYSDK_OFFSET(0x1544C5F0)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODEWAITINGWORKITEM_OFFSET UNITYSDK_OFFSET(0x1544C6E0)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_PAUSECOOK_OFFSET UNITYSDK_OFFSET(0x1544AD90)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_PROCESSPDGEVENT_OFFSET UNITYSDK_OFFSET(0x1544C440)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_REINITIALIZEPDGCONTEXT_OFFSET UNITYSDK_OFFSET(0x1544C430)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_REMOVEASSET_OFFSET UNITYSDK_OFFSET(0x154481B0)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_RESETPDGEVENTINFO_OFFSET UNITYSDK_OFFSET(0x1544C7D0)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_SETERRORSTATE_OFFSET UNITYSDK_OFFSET(0x1544C7F0)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_SETTOPNODEPDGSTATE_OFFSET UNITYSDK_OFFSET(0x1544C550)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_UPDATEPDGCONTEXT_OFFSET UNITYSDK_OFFSET(0x1544C420)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION_UPDATE_OFFSET UNITYSDK_OFFSET(0x1544C320)
-#define HOUDINIENGINEUNITY_HEU_PDGSESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1544C1C0)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_ADDASSET_OFFSET UNITYSDK_OFFSET(0x10532A20)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_ADDEVENTMESSAGE_OFFSET UNITYSDK_OFFSET(0x10533290)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_CANCELCOOK_OFFSET UNITYSDK_OFFSET(0x1052F2F0)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_CHECKCALLBACK_OFFSET UNITYSDK_OFFSET(0x10532BF0)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_CLEANUP_OFFSET UNITYSDK_OFFSET(0x10532A40)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_CLEARERRORSTATE_OFFSET UNITYSDK_OFFSET(0x105331F0)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_CLEAREVENTMESSAGES_OFFSET UNITYSDK_OFFSET(0x10533320)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_CLEARWORKITEMRESULT_OFFSET UNITYSDK_OFFSET(0x10533280)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_COOKTOPNETWORKOUTPUTNODE_OFFSET UNITYSDK_OFFSET(0x1052F070)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_COOKTOPNODE_OFFSET UNITYSDK_OFFSET(0x1052EC20)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_DIRTYALL_OFFSET UNITYSDK_OFFSET(0x1052ECF0)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_DIRTYTOPNODE_OFFSET UNITYSDK_OFFSET(0x1052EA30)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_GETEVENTMESSAGES_OFFSET UNITYSDK_OFFSET(0x10533300)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_GETHAPIPDGSESSION_OFFSET UNITYSDK_OFFSET(0x10533200)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_GETNONBYPASSEDNETWORKIDS_OFFSET UNITYSDK_OFFSET(0x1052FF30)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_GETPDGSESSION_OFFSET UNITYSDK_OFFSET(0x1052E9B0)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_GETTOPASSETLINKANDNODE_OFFSET UNITYSDK_OFFSET(0x10532CA0)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_GET_COOKEDDATAEVENT_OFFSET UNITYSDK_OFFSET(0x10533350)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_ISPDGASSET_OFFSET UNITYSDK_OFFSET(0x104EEDA0)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODECOOKEDWORKITEM_OFFSET UNITYSDK_OFFSET(0x10532ED0)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODECOOKINGWORKITEM_OFFSET UNITYSDK_OFFSET(0x10533030)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODEERRORWORKITEM_OFFSET UNITYSDK_OFFSET(0x10532F20)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODEPDGSTATECLEAR_OFFSET UNITYSDK_OFFSET(0x10532E10)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODESCHEDULEDWORKITEM_OFFSET UNITYSDK_OFFSET(0x10532FD0)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODETOTALWORKITEM_OFFSET UNITYSDK_OFFSET(0x10532E70)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODEWAITINGWORKITEM_OFFSET UNITYSDK_OFFSET(0x10532F70)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_ONWORKITEMLOADRESULTS_OFFSET UNITYSDK_OFFSET(0x10532B60)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_PAUSECOOK_OFFSET UNITYSDK_OFFSET(0x1052F1B0)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_PROCESSPDGEVENT_OFFSET UNITYSDK_OFFSET(0x10532B50)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_REINITIALIZEPDGCONTEXT_OFFSET UNITYSDK_OFFSET(0x10532B40)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_REMOVEASSET_OFFSET UNITYSDK_OFFSET(0x1052F830)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_RESETCALLBACKVARIABLES_OFFSET UNITYSDK_OFFSET(0x10532C80)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_RESETPDGEVENTINFO_OFFSET UNITYSDK_OFFSET(0x10533090)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_SETERRORSTATE_OFFSET UNITYSDK_OFFSET(0x105330B0)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_SETTOPNODEPDGSTATE_OFFSET UNITYSDK_OFFSET(0x10532DB0)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_SET_COOKEDDATAEVENT_OFFSET UNITYSDK_OFFSET(0x10533360)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_UPDATEPDGCONTEXT_OFFSET UNITYSDK_OFFSET(0x10532B30)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION_UPDATE_OFFSET UNITYSDK_OFFSET(0x10532A30)
+#define HOUDINIENGINEUNITY_HEU_PDGSESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x105328F0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PDGSession_TypeDefinitionIndex = 43631;
+	inline static constexpr unsigned int HEU_PDGSession_TypeDefinitionIndex = 37579;
 
 	class HEU_PDGSession : public ::System::Object
 	{
 	public:
 		static ::HoudiniEngineUnity::HEU_PDGSession** StaticGet__pdgSession()
 		{
-			return (::HoudiniEngineUnity::HEU_PDGSession**)Il2CppClass::FromTypeDefinitionIndex(HEU_PDGSession_TypeDefinitionIndex)->GetStaticField(0x3B6A0);
+			return (::HoudiniEngineUnity::HEU_PDGSession**)Il2CppClass::FromTypeDefinitionIndex(HEU_PDGSession_TypeDefinitionIndex)->GetStaticField(0xE620);
 		}
-		::Il2CppArray<::System::Int32>* _pdgContextIDs; // 0x10
-		::System::Text::StringBuilder* _pdgEventMessages; // 0x18
-		::Il2CppArray<::HoudiniEngineUnity::HAPI_PDG_EventInfo>* _pdgQueryEvents; // 0x20
-		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PDGAssetLink*>* _pdgAssets; // 0x28
+		::System::Text::StringBuilder* _pdgEventMessages; // 0x10
+		::Il2CppArray<::System::String*>* _eventMessageColorCode; // 0x18
+		::Il2CppArray<::System::Int32>* _pdgContextIDs; // 0x20
+		::Il2CppArray<::HoudiniEngineUnity::HAPI_PDG_EventInfo>* _pdgQueryEvents; // 0x28
 		::System::String* _errorMsg; // 0x30
-		::Il2CppArray<::System::String*>* _eventMessageColorCode; // 0x38
-		::HoudiniEngineUnity::HAPI_PDG_State _pdgState; // 0x40
-		::System::Boolean _errored; // 0x44
-		::System::Int32 _pdgContextSize; // 0x48
+		::System::Action_1<::HoudiniEngineUnity::HEU_PDGCookedEventData*>* _cookedDataEvent; // 0x38
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PDGAssetLink*>* _pdgAssets; // 0x40
+		::System::Int32 _totalNumItems; // 0x48
 		::System::Int32 _pdgMaxProcessEvents; // 0x4C
+		::System::Boolean _pendingCallback; // 0x50
+		::System::Boolean _callbackSuccess; // 0x51
+		::System::Boolean _errored; // 0x52
+		::HoudiniEngineUnity::HAPI_PDG_State _pdgState; // 0x54
+		::System::Int32 _numItemsCompleted; // 0x58
 
 		::System::Void _ctor()
 		{
@@ -78,14 +92,14 @@ namespace HoudiniEngineUnity
 			return ((::HoudiniEngineUnity::HEU_PDGSession*(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_GETPDGSESSION_OFFSET))();
 		}
 
-		::System::Void AddAsset(::HoudiniEngineUnity::HEU_PDGAssetLink* asset)
+		::System::Void AddAsset(::HoudiniEngineUnity::HEU_PDGAssetLink* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_PDGAssetLink*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_ADDASSET_OFFSET))(this, asset);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_PDGAssetLink*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_ADDASSET_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveAsset(::HoudiniEngineUnity::HEU_PDGAssetLink* asset)
+		::System::Void RemoveAsset(::HoudiniEngineUnity::HEU_PDGAssetLink* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_PDGAssetLink*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_REMOVEASSET_OFFSET))(this, asset);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_PDGAssetLink*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_REMOVEASSET_OFFSET))(this, a1);
 		}
 
 		::System::Void Update()
@@ -108,64 +122,74 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_REINITIALIZEPDGCONTEXT_OFFSET))(this);
 		}
 
-		::System::Void ProcessPDGEvent(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 contextID, ::HoudiniEngineUnity::HAPI_PDG_EventInfo& eventInfo)
+		::System::Void ProcessPDGEvent(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::HoudiniEngineUnity::HAPI_PDG_EventInfo& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::HoudiniEngineUnity::HAPI_PDG_EventInfo&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_PROCESSPDGEVENT_OFFSET))(this, session, contextID, eventInfo);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::HoudiniEngineUnity::HAPI_PDG_EventInfo&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_PROCESSPDGEVENT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean GetTOPAssetLinkAndNode(::System::Int32 nodeID, ::HoudiniEngineUnity::HEU_PDGAssetLink*& assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData*& topNode)
+		::System::Void OnWorkItemLoadResults(::HoudiniEngineUnity::HEU_TOPNodeData* a1, ::HoudiniEngineUnity::HEU_SyncedEventData* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::HoudiniEngineUnity::HEU_PDGAssetLink*&, ::HoudiniEngineUnity::HEU_TOPNodeData*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_GETTOPASSETLINKANDNODE_OFFSET))(this, nodeID, assetLink, topNode);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_TOPNodeData*, ::HoudiniEngineUnity::HEU_SyncedEventData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_ONWORKITEMLOADRESULTS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetTOPNodePDGState(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode, ::HoudiniEngineUnity::HEU_TOPNodeData_PDGState pdgState)
+		::System::Void CheckCallback(::HoudiniEngineUnity::HEU_TOPNodeData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*, ::HoudiniEngineUnity::HEU_TOPNodeData_PDGState))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_SETTOPNODEPDGSTATE_OFFSET))(this, assetLink, topNode, pdgState);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_TOPNodeData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_CHECKCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void NotifyTOPNodePDGStateClear(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode)
+		::System::Boolean GetTOPAssetLinkAndNode(::System::Int32 a1, ::HoudiniEngineUnity::HEU_PDGAssetLink*& a2, ::HoudiniEngineUnity::HEU_TOPNodeData*& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODEPDGSTATECLEAR_OFFSET))(this, assetLink, topNode);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::HoudiniEngineUnity::HEU_PDGAssetLink*&, ::HoudiniEngineUnity::HEU_TOPNodeData*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_GETTOPASSETLINKANDNODE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void NotifyTOPNodeTotalWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode, ::System::Int32 inc)
+		::System::Void SetTOPNodePDGState(::HoudiniEngineUnity::HEU_PDGAssetLink* a1, ::HoudiniEngineUnity::HEU_TOPNodeData* a2, ::HoudiniEngineUnity::HEU_TOPNodeData_PDGState a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODETOTALWORKITEM_OFFSET))(this, assetLink, topNode, inc);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*, ::HoudiniEngineUnity::HEU_TOPNodeData_PDGState))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_SETTOPNODEPDGSTATE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void NotifyTOPNodeCookedWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode)
+		::System::Void NotifyTOPNodePDGStateClear(::HoudiniEngineUnity::HEU_PDGAssetLink* a1, ::HoudiniEngineUnity::HEU_TOPNodeData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODECOOKEDWORKITEM_OFFSET))(this, assetLink, topNode);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODEPDGSTATECLEAR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void NotifyTOPNodeErrorWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode)
+		::System::Void NotifyTOPNodeTotalWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* a1, ::HoudiniEngineUnity::HEU_TOPNodeData* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODEERRORWORKITEM_OFFSET))(this, assetLink, topNode);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODETOTALWORKITEM_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void NotifyTOPNodeWaitingWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode, ::System::Int32 inc)
+		::System::Void NotifyTOPNodeCookedWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* a1, ::HoudiniEngineUnity::HEU_TOPNodeData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODEWAITINGWORKITEM_OFFSET))(this, assetLink, topNode, inc);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODECOOKEDWORKITEM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void NotifyTOPNodeScheduledWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode, ::System::Int32 inc)
+		::System::Void NotifyTOPNodeErrorWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* a1, ::HoudiniEngineUnity::HEU_TOPNodeData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODESCHEDULEDWORKITEM_OFFSET))(this, assetLink, topNode, inc);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODEERRORWORKITEM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void NotifyTOPNodeCookingWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode, ::System::Int32 inc)
+		::System::Void NotifyTOPNodeWaitingWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* a1, ::HoudiniEngineUnity::HEU_TOPNodeData* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODECOOKINGWORKITEM_OFFSET))(this, assetLink, topNode, inc);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODEWAITINGWORKITEM_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void ResetPDGEventInfo(::HoudiniEngineUnity::HAPI_PDG_EventInfo& eventInfo)
+		::System::Void NotifyTOPNodeScheduledWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* a1, ::HoudiniEngineUnity::HEU_TOPNodeData* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::HoudiniEngineUnity::HAPI_PDG_EventInfo&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_RESETPDGEVENTINFO_OFFSET))(eventInfo);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODESCHEDULEDWORKITEM_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetErrorState(::System::String* msg, ::System::Boolean bLogIt)
+		::System::Void NotifyTOPNodeCookingWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* a1, ::HoudiniEngineUnity::HEU_TOPNodeData* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_SETERRORSTATE_OFFSET))(this, msg, bLogIt);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_NOTIFYTOPNODECOOKINGWORKITEM_OFFSET))(this, a1, a2, a3);
+		}
+
+		static ::System::Void ResetPDGEventInfo(::HoudiniEngineUnity::HAPI_PDG_EventInfo& a1)
+		{
+			return ((::System::Void(*)(::HoudiniEngineUnity::HAPI_PDG_EventInfo&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_RESETPDGEVENTINFO_OFFSET))(a1);
+		}
+
+		::System::Void SetErrorState(::System::String* a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_SETERRORSTATE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ClearErrorState()
@@ -173,49 +197,49 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_CLEARERRORSTATE_OFFSET))(this);
 		}
 
-		::HoudiniEngineUnity::HEU_SessionBase* GetHAPIPDGSession(::System::Boolean bCreate)
+		::HoudiniEngineUnity::HEU_SessionBase* GetHAPIPDGSession(::System::Boolean a1)
 		{
-			return ((::HoudiniEngineUnity::HEU_SessionBase*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_GETHAPIPDGSESSION_OFFSET))(this, bCreate);
+			return ((::HoudiniEngineUnity::HEU_SessionBase*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_GETHAPIPDGSESSION_OFFSET))(this, a1);
 		}
 
-		::System::Void CookTOPNetworkOutputNode(::HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork)
+		::System::Void CookTOPNetworkOutputNode(::HoudiniEngineUnity::HEU_TOPNetworkData* a1, ::System::Action_1<::HoudiniEngineUnity::HEU_PDGCookedEventData*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_TOPNetworkData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_COOKTOPNETWORKOUTPUTNODE_OFFSET))(this, topNetwork);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_TOPNetworkData*, ::System::Action_1<::HoudiniEngineUnity::HEU_PDGCookedEventData*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_COOKTOPNETWORKOUTPUTNODE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void PauseCook(::HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork)
+		::System::Void PauseCook(::HoudiniEngineUnity::HEU_TOPNetworkData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_TOPNetworkData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_PAUSECOOK_OFFSET))(this, topNetwork);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_TOPNetworkData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_PAUSECOOK_OFFSET))(this, a1);
 		}
 
-		::System::Void CancelCook(::HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork)
+		::System::Void CancelCook(::HoudiniEngineUnity::HEU_TOPNetworkData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_TOPNetworkData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_CANCELCOOK_OFFSET))(this, topNetwork);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_TOPNetworkData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_CANCELCOOK_OFFSET))(this, a1);
 		}
 
-		::System::Void ClearWorkItemResult(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 contextID, ::HoudiniEngineUnity::HAPI_PDG_EventInfo eventInfo, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode)
+		::System::Void ClearWorkItemResult(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::HoudiniEngineUnity::HAPI_PDG_EventInfo a3, ::HoudiniEngineUnity::HEU_TOPNodeData* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::HoudiniEngineUnity::HAPI_PDG_EventInfo, ::HoudiniEngineUnity::HEU_TOPNodeData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_CLEARWORKITEMRESULT_OFFSET))(this, session, contextID, eventInfo, topNode);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::HoudiniEngineUnity::HAPI_PDG_EventInfo, ::HoudiniEngineUnity::HEU_TOPNodeData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_CLEARWORKITEMRESULT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean DirtyTOPNode(::System::Int32 nodeID)
+		::System::Boolean DirtyTOPNode(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_DIRTYTOPNODE_OFFSET))(this, nodeID);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_DIRTYTOPNODE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CookTOPNode(::System::Int32 nodeID)
+		::System::Boolean CookTOPNode(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_COOKTOPNODE_OFFSET))(this, nodeID);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_COOKTOPNODE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean DirtyAll(::System::Int32 nodeID)
+		::System::Boolean DirtyAll(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_DIRTYALL_OFFSET))(this, nodeID);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_DIRTYALL_OFFSET))(this, a1);
 		}
 
-		::System::Void AddEventMessage(::System::String* msg)
+		::System::Void AddEventMessage(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_ADDEVENTMESSAGE_OFFSET))(this, msg);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_ADDEVENTMESSAGE_OFFSET))(this, a1);
 		}
 
 		::System::String* GetEventMessages()
@@ -226,6 +250,31 @@ namespace HoudiniEngineUnity
 		::System::Void ClearEventMessages()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_CLEAREVENTMESSAGES_OFFSET))(this);
+		}
+
+		static ::Il2CppArray<::System::Int32>* GetNonBypassedNetworkIds(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2)
+		{
+			return ((::Il2CppArray<::System::Int32>*(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_GETNONBYPASSEDNETWORKIDS_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean IsPDGAsset(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2)
+		{
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_ISPDGASSET_OFFSET))(a1, a2);
+		}
+
+		::System::Void ResetCallbackVariables()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_RESETCALLBACKVARIABLES_OFFSET))(this);
+		}
+
+		::System::Action_1<::HoudiniEngineUnity::HEU_PDGCookedEventData*>* get_CookedDataEvent()
+		{
+			return ((::System::Action_1<::HoudiniEngineUnity::HEU_PDGCookedEventData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_GET_COOKEDDATAEVENT_OFFSET))(this);
+		}
+
+		::System::Void set_CookedDataEvent(::System::Action_1<::HoudiniEngineUnity::HEU_PDGCookedEventData*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::HoudiniEngineUnity::HEU_PDGCookedEventData*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGSESSION_SET_COOKEDDATAEVENT_OFFSET))(this, a1);
 		}
 	};
 }

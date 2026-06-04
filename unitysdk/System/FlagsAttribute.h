@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_FLAGSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17D33210)
+#define SYSTEM_FLAGSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x176240B0)
 
 namespace System
 {
-	inline static constexpr unsigned int FlagsAttribute_TypeDefinitionIndex = 249;
+	inline static constexpr unsigned int FlagsAttribute_TypeDefinitionIndex = 248;
 
 	class FlagsAttribute : public ::System::Attribute
 	{

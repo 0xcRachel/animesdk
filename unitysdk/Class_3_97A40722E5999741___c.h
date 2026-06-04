@@ -6,22 +6,22 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 
-#define CLASS_3_97A40722E5999741___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC2A1250)
-#define CLASS_3_97A40722E5999741___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC2A1280)
-#define CLASS_3_97A40722E5999741___C___ONTASKBEGINIMPL_B__17_0_OFFSET UNITYSDK_OFFSET(0xC2A1290)
+#define CLASS_3_97A40722E5999741___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1528E790)
+#define CLASS_3_97A40722E5999741___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1528E7C0)
+#define CLASS_3_97A40722E5999741___C___ONTASKBEGINIMPL_B__17_0_OFFSET UNITYSDK_OFFSET(0x1528E7D0)
 
-inline static constexpr unsigned int Class_3_97A40722E5999741___c_TypeDefinitionIndex = 53417;
+inline static constexpr unsigned int Class_3_97A40722E5999741___c_TypeDefinitionIndex = 54130;
 
 class Class_3_97A40722E5999741___c : public ::System::Object
 {
 public:
 	static ::Class_3_97A40722E5999741___c** StaticGet___9()
 	{
-		return (::Class_3_97A40722E5999741___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_97A40722E5999741___c_TypeDefinitionIndex)->GetStaticField(0x6AFF0);
+		return (::Class_3_97A40722E5999741___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_97A40722E5999741___c_TypeDefinitionIndex)->GetStaticField(0x680A0);
 	}
 	static ::System::Converter_2<::RPG::GameCore::GameEntity*, ::Struct_2_591DD46947F040CB>** StaticGet___9__17_0()
 	{
-		return (::System::Converter_2<::RPG::GameCore::GameEntity*, ::Struct_2_591DD46947F040CB>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_97A40722E5999741___c_TypeDefinitionIndex)->GetStaticField(0x6AFF8);
+		return (::System::Converter_2<::RPG::GameCore::GameEntity*, ::Struct_2_591DD46947F040CB>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_97A40722E5999741___c_TypeDefinitionIndex)->GetStaticField(0x680A8);
 	}
 
 	static ::System::Void _cctor()
@@ -34,8 +34,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_97A40722E5999741___C__CTOR_OFFSET))(this);
 	}
 
-	::Struct_2_591DD46947F040CB __OnTaskBeginImpl_b__17_0(::RPG::GameCore::GameEntity* entity)
+	::Struct_2_591DD46947F040CB __OnTaskBeginImpl_b__17_0(::RPG::GameCore::GameEntity* a1)
 	{
-		return ((::Struct_2_591DD46947F040CB(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_97A40722E5999741___C___ONTASKBEGINIMPL_B__17_0_OFFSET))(this, entity);
+		return ((::Struct_2_591DD46947F040CB(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_97A40722E5999741___C___ONTASKBEGINIMPL_B__17_0_OFFSET))(this, a1);
 	}
 };

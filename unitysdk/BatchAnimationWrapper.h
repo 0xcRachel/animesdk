@@ -16,40 +16,40 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::Rendering { class BatchAnimation; }
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define BATCHANIMATIONWRAPPER_APPLYCUSTOMCOLOR_OFFSET UNITYSDK_OFFSET(0x15241B60)
-#define BATCHANIMATIONWRAPPER_CREATE_OFFSET UNITYSDK_OFFSET(0x15240C40)
-#define BATCHANIMATIONWRAPPER_GETORCREATORBATCHANIMROOT_OFFSET UNITYSDK_OFFSET(0x152402F0)
-#define BATCHANIMATIONWRAPPER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15242C90)
-#define BATCHANIMATIONWRAPPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15240C30)
-#define BATCHANIMATIONWRAPPER_PLAY_OFFSET UNITYSDK_OFFSET(0x15241780)
-#define BATCHANIMATIONWRAPPER_RESETPART_1_OFFSET UNITYSDK_OFFSET(0x15242D30)
-#define BATCHANIMATIONWRAPPER_RESETPART_OFFSET UNITYSDK_OFFSET(0x15242CC0)
-#define BATCHANIMATIONWRAPPER_RESET_OFFSET UNITYSDK_OFFSET(0x152426A0)
-#define BATCHANIMATIONWRAPPER_SETUPRANDOMPART_OFFSET UNITYSDK_OFFSET(0x152415B0)
-#define BATCHANIMATIONWRAPPER_SETUPSHADOW_OFFSET UNITYSDK_OFFSET(0x15241510)
-#define BATCHANIMATIONWRAPPER_UPDATE_OFFSET UNITYSDK_OFFSET(0x15242C80)
-#define BATCHANIMATIONWRAPPER__BUILDPOINTSEDGE_OFFSET UNITYSDK_OFFSET(0x152408C0)
-#define BATCHANIMATIONWRAPPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15243070)
-#define BATCHANIMATIONWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x15242E40)
-#define BATCHANIMATIONWRAPPER__GETSTARTPOS_1_OFFSET UNITYSDK_OFFSET(0x152406C0)
-#define BATCHANIMATIONWRAPPER__GETSTARTPOS_OFFSET UNITYSDK_OFFSET(0x152404A0)
+#define BATCHANIMATIONWRAPPER_APPLYCUSTOMCOLOR_OFFSET UNITYSDK_OFFSET(0x156E36D0)
+#define BATCHANIMATIONWRAPPER_CREATE_OFFSET UNITYSDK_OFFSET(0x156E27F0)
+#define BATCHANIMATIONWRAPPER_GETORCREATORBATCHANIMROOT_OFFSET UNITYSDK_OFFSET(0x156E1DA0)
+#define BATCHANIMATIONWRAPPER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x156E4880)
+#define BATCHANIMATIONWRAPPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x156E27E0)
+#define BATCHANIMATIONWRAPPER_PLAY_OFFSET UNITYSDK_OFFSET(0x156E3360)
+#define BATCHANIMATIONWRAPPER_RESETPART_1_OFFSET UNITYSDK_OFFSET(0x156E4920)
+#define BATCHANIMATIONWRAPPER_RESETPART_OFFSET UNITYSDK_OFFSET(0x156E48B0)
+#define BATCHANIMATIONWRAPPER_RESET_OFFSET UNITYSDK_OFFSET(0x156E4230)
+#define BATCHANIMATIONWRAPPER_SETUPRANDOMPART_OFFSET UNITYSDK_OFFSET(0x156E3160)
+#define BATCHANIMATIONWRAPPER_SETUPSHADOW_OFFSET UNITYSDK_OFFSET(0x156E30C0)
+#define BATCHANIMATIONWRAPPER_UPDATE_OFFSET UNITYSDK_OFFSET(0x156E4870)
+#define BATCHANIMATIONWRAPPER__BUILDPOINTSEDGE_OFFSET UNITYSDK_OFFSET(0x156E23F0)
+#define BATCHANIMATIONWRAPPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x156E4C60)
+#define BATCHANIMATIONWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x156E4A30)
+#define BATCHANIMATIONWRAPPER__GETSTARTPOS_1_OFFSET UNITYSDK_OFFSET(0x156E21A0)
+#define BATCHANIMATIONWRAPPER__GETSTARTPOS_OFFSET UNITYSDK_OFFSET(0x156E1F50)
 
-inline static constexpr unsigned int BatchAnimationWrapper_TypeDefinitionIndex = 34861;
+inline static constexpr unsigned int BatchAnimationWrapper_TypeDefinitionIndex = 35144;
 
 class BatchAnimationWrapper : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::Il2CppArray<::UnityEngine::Quaternion>** StaticGet__rotArray()
-	{
-		return (::Il2CppArray<::UnityEngine::Quaternion>**)Il2CppClass::FromTypeDefinitionIndex(BatchAnimationWrapper_TypeDefinitionIndex)->GetStaticField(0x5D7E0);
-	}
 	static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet__posArray()
 	{
-		return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(BatchAnimationWrapper_TypeDefinitionIndex)->GetStaticField(0x5D7E8);
+		return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(BatchAnimationWrapper_TypeDefinitionIndex)->GetStaticField(0x5BFB0);
+	}
+	static ::Il2CppArray<::UnityEngine::Quaternion>** StaticGet__rotArray()
+	{
+		return (::Il2CppArray<::UnityEngine::Quaternion>**)Il2CppClass::FromTypeDefinitionIndex(BatchAnimationWrapper_TypeDefinitionIndex)->GetStaticField(0x5BFB8);
 	}
 	static ::UnityEngine::Transform** StaticGet_s_BatchAnimationRootCache()
 	{
-		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(BatchAnimationWrapper_TypeDefinitionIndex)->GetStaticField(0x5D7F0);
+		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(BatchAnimationWrapper_TypeDefinitionIndex)->GetStaticField(0x5BFC0);
 	}
 	::UnityEngine::Rendering::BatchAnimation* batchAnimation; // 0x18
 	::System::Int32 count; // 0x20
@@ -81,14 +81,14 @@ public:
 		return ((::UnityEngine::Transform*(*)())((::PBYTE)hIl2Cpp + BATCHANIMATIONWRAPPER_GETORCREATORBATCHANIMROOT_OFFSET))();
 	}
 
-	::System::Void _GetStartPos(::UnityEngine::Vector3& pos, ::UnityEngine::Quaternion& rot)
+	::System::Void _GetStartPos(::UnityEngine::Vector3& a1, ::UnityEngine::Quaternion& a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + BATCHANIMATIONWRAPPER__GETSTARTPOS_OFFSET))(this, pos, rot);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + BATCHANIMATIONWRAPPER__GETSTARTPOS_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void _GetStartPos_1(::UnityEngine::Vector3& start, ::UnityEngine::Vector3& end, ::System::Int32 index)
+	::System::Void _GetStartPos_1(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2, ::System::Int32 a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::System::Int32))((::PBYTE)hIl2Cpp + BATCHANIMATIONWRAPPER__GETSTARTPOS_1_OFFSET))(this, start, end, index);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::System::Int32))((::PBYTE)hIl2Cpp + BATCHANIMATIONWRAPPER__GETSTARTPOS_1_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Void _BuildPointsEdge()
@@ -126,28 +126,28 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BATCHANIMATIONWRAPPER_ONDESTROY_OFFSET))(this);
 	}
 
-	static ::System::Void ApplyCustomColor(::UnityEngine::Rendering::BatchAnimation* batchAnimation, ::System::Collections::Generic::List_1<::BatchAnimationCustomColor>* customColorList, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>& customColorData)
+	static ::System::Void ApplyCustomColor(::UnityEngine::Rendering::BatchAnimation* a1, ::System::Collections::Generic::List_1<::BatchAnimationCustomColor>* a2, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>& a3)
 	{
-		return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimation*, ::System::Collections::Generic::List_1<::BatchAnimationCustomColor>*, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>&))((::PBYTE)hIl2Cpp + BATCHANIMATIONWRAPPER_APPLYCUSTOMCOLOR_OFFSET))(batchAnimation, customColorList, customColorData);
+		return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimation*, ::System::Collections::Generic::List_1<::BatchAnimationCustomColor>*, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>&))((::PBYTE)hIl2Cpp + BATCHANIMATIONWRAPPER_APPLYCUSTOMCOLOR_OFFSET))(a1, a2, a3);
 	}
 
-	static ::System::Void SetupShadow(::UnityEngine::Rendering::BatchAnimation* batchAnimation, ::System::Int32 offset)
+	static ::System::Void SetupShadow(::UnityEngine::Rendering::BatchAnimation* a1, ::System::Int32 a2)
 	{
-		return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimation*, ::System::Int32))((::PBYTE)hIl2Cpp + BATCHANIMATIONWRAPPER_SETUPSHADOW_OFFSET))(batchAnimation, offset);
+		return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimation*, ::System::Int32))((::PBYTE)hIl2Cpp + BATCHANIMATIONWRAPPER_SETUPSHADOW_OFFSET))(a1, a2);
 	}
 
-	static ::System::Void SetupRandomPart(::UnityEngine::Rendering::BatchAnimation* batchAnimation, ::System::Collections::Generic::List_1<::PartVariantConfig*>* partVariants)
+	static ::System::Void SetupRandomPart(::UnityEngine::Rendering::BatchAnimation* a1, ::System::Collections::Generic::List_1<::PartVariantConfig*>* a2)
 	{
-		return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimation*, ::System::Collections::Generic::List_1<::PartVariantConfig*>*))((::PBYTE)hIl2Cpp + BATCHANIMATIONWRAPPER_SETUPRANDOMPART_OFFSET))(batchAnimation, partVariants);
+		return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimation*, ::System::Collections::Generic::List_1<::PartVariantConfig*>*))((::PBYTE)hIl2Cpp + BATCHANIMATIONWRAPPER_SETUPRANDOMPART_OFFSET))(a1, a2);
 	}
 
-	static ::System::Void ResetPart(::UnityEngine::Rendering::BatchAnimation* batchAnimation, ::UnityEngine::Rendering::BatchAnimationInstance* instance)
+	static ::System::Void ResetPart(::UnityEngine::Rendering::BatchAnimation* a1, ::UnityEngine::Rendering::BatchAnimationInstance* a2)
 	{
-		return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimation*, ::UnityEngine::Rendering::BatchAnimationInstance*))((::PBYTE)hIl2Cpp + BATCHANIMATIONWRAPPER_RESETPART_OFFSET))(batchAnimation, instance);
+		return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimation*, ::UnityEngine::Rendering::BatchAnimationInstance*))((::PBYTE)hIl2Cpp + BATCHANIMATIONWRAPPER_RESETPART_OFFSET))(a1, a2);
 	}
 
-	static ::System::Void ResetPart_1(::UnityEngine::Rendering::BatchAnimation* batchAnimation)
+	static ::System::Void ResetPart_1(::UnityEngine::Rendering::BatchAnimation* a1)
 	{
-		return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimation*))((::PBYTE)hIl2Cpp + BATCHANIMATIONWRAPPER_RESETPART_1_OFFSET))(batchAnimation);
+		return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimation*))((::PBYTE)hIl2Cpp + BATCHANIMATIONWRAPPER_RESETPART_1_OFFSET))(a1);
 	}
 };

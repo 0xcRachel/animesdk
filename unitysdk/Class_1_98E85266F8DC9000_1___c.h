@@ -5,22 +5,22 @@
 namespace RPG::Client { class GridFightRole; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_98E85266F8DC9000_1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE0BC5C0)
-#define CLASS_1_98E85266F8DC9000_1___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE0BC600)
-#define CLASS_1_98E85266F8DC9000_1___C___CHECKACTIVE_B__1_0_OFFSET UNITYSDK_OFFSET(0xE0BC610)
+#define CLASS_1_98E85266F8DC9000_1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x163C9BE0)
+#define CLASS_1_98E85266F8DC9000_1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x163C9C20)
+#define CLASS_1_98E85266F8DC9000_1___C___CHECKACTIVE_B__1_0_OFFSET UNITYSDK_OFFSET(0x163C9C30)
 
-inline static constexpr unsigned int Class_1_98E85266F8DC9000_1___c_TypeDefinitionIndex = 60292;
+inline static constexpr unsigned int Class_1_98E85266F8DC9000_1___c_TypeDefinitionIndex = 61227;
 
 class Class_1_98E85266F8DC9000_1___c : public ::System::Object
 {
 public:
 	static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>** StaticGet___9__1_0()
 	{
-		return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_98E85266F8DC9000_1___c_TypeDefinitionIndex)->GetStaticField(0x53AB0);
+		return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_98E85266F8DC9000_1___c_TypeDefinitionIndex)->GetStaticField(0x3D510);
 	}
 	static ::Class_1_98E85266F8DC9000_1___c** StaticGet___9()
 	{
-		return (::Class_1_98E85266F8DC9000_1___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_98E85266F8DC9000_1___c_TypeDefinitionIndex)->GetStaticField(0x53AB8);
+		return (::Class_1_98E85266F8DC9000_1___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_98E85266F8DC9000_1___c_TypeDefinitionIndex)->GetStaticField(0x3D518);
 	}
 
 	static ::System::Void _cctor()
@@ -33,8 +33,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_98E85266F8DC9000_1___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean __CheckActive_b__1_0(::RPG::Client::GridFightRole* x)
+	::System::Boolean __CheckActive_b__1_0(::RPG::Client::GridFightRole* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + CLASS_1_98E85266F8DC9000_1___C___CHECKACTIVE_B__1_0_OFFSET))(this, x);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + CLASS_1_98E85266F8DC9000_1___C___CHECKACTIVE_B__1_0_OFFSET))(this, a1);
 	}
 };

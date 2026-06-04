@@ -7,25 +7,25 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class EnumValueDescriptorProto; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class FileDescriptor; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_ENUMDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1850DB00)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x185181C0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_NUMBER_OFFSET UNITYSDK_OFFSET(0x1850DB10)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x185181B0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x185165F0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_ENUMDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x18366490)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1836FF10)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_NUMBER_OFFSET UNITYSDK_OFFSET(0x183664A0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x1836FF00)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1836E140)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int EnumValueDescriptor_TypeDefinitionIndex = 33739;
+	inline static constexpr unsigned int EnumValueDescriptor_TypeDefinitionIndex = 34021;
 
 	class EnumValueDescriptor : public ::MiHoYo::SDK::Protobuf::Reflection::DescriptorBase
 	{
 	public:
-		::MiHoYo::SDK::Protobuf::Reflection::EnumValueDescriptorProto* proto; // 0x28
-		::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptor* enumDescriptor; // 0x30
+		::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptor* enumDescriptor; // 0x28
+		::MiHoYo::SDK::Protobuf::Reflection::EnumValueDescriptorProto* proto; // 0x30
 
-		::System::Void _ctor(::MiHoYo::SDK::Protobuf::Reflection::EnumValueDescriptorProto* proto, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* file, ::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptor* parent, ::System::Int32 index)
+		::System::Void _ctor(::MiHoYo::SDK::Protobuf::Reflection::EnumValueDescriptorProto* a1, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* a2, ::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptor* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::Reflection::EnumValueDescriptorProto*, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*, ::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptor*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR__CTOR_OFFSET))(this, proto, file, parent, index);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::Reflection::EnumValueDescriptorProto*, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*, ::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptor*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::MiHoYo::SDK::Protobuf::Reflection::EnumValueDescriptorProto* get_Proto()

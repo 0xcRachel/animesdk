@@ -7,20 +7,20 @@ namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class OwnerEntityAddAbility; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_ED2B7E4C659EE03E_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFB97790)
-#define CLASS_2_ED2B7E4C659EE03E_METHOD_2_DD8FC179D396EB52_OFFSET UNITYSDK_OFFSET(0xFB97920)
-#define CLASS_2_ED2B7E4C659EE03E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFB977D0)
-#define CLASS_2_ED2B7E4C659EE03E_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xFB97C00)
-#define CLASS_2_ED2B7E4C659EE03E_TICK_OFFSET UNITYSDK_OFFSET(0xFB97C50)
-#define CLASS_2_ED2B7E4C659EE03E__CTOR_OFFSET UNITYSDK_OFFSET(0xFB97780)
+#define CLASS_2_ED2B7E4C659EE03E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13887900)
+#define CLASS_2_ED2B7E4C659EE03E_METHOD_2_4384D4E1D98F4564_OFFSET UNITYSDK_OFFSET(0x13887A90)
+#define CLASS_2_ED2B7E4C659EE03E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13887940)
+#define CLASS_2_ED2B7E4C659EE03E_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13887D90)
+#define CLASS_2_ED2B7E4C659EE03E_TICK_OFFSET UNITYSDK_OFFSET(0x13887DE0)
+#define CLASS_2_ED2B7E4C659EE03E__CTOR_OFFSET UNITYSDK_OFFSET(0x138878F0)
 
-inline static constexpr unsigned int Class_2_ED2B7E4C659EE03E_TypeDefinitionIndex = 50936;
+inline static constexpr unsigned int Class_2_ED2B7E4C659EE03E_TypeDefinitionIndex = 51606;
 
 class Class_2_ED2B7E4C659EE03E : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::OwnerEntityAddAbility* Field_2_0; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::RPG::GameCore::OwnerEntityAddAbility* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::OwnerEntityAddAbility* a2)
 	{
@@ -47,8 +47,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_ED2B7E4C659EE03E_TICK_OFFSET))(this, a1);
 	}
 
-	::RPG::PoolList_1<::RPG::GameCore::AbilityDynamicFloatInjection>* Method_2_DD8FC179D396EB52()
+	::RPG::PoolList_1<::RPG::GameCore::AbilityDynamicFloatInjection>* Method_2_4384D4E1D98F4564()
 	{
-		return ((::RPG::PoolList_1<::RPG::GameCore::AbilityDynamicFloatInjection>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_ED2B7E4C659EE03E_METHOD_2_DD8FC179D396EB52_OFFSET))(this);
+		return ((::RPG::PoolList_1<::RPG::GameCore::AbilityDynamicFloatInjection>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_ED2B7E4C659EE03E_METHOD_2_4384D4E1D98F4564_OFFSET))(this);
 	}
 };

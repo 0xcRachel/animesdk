@@ -4,47 +4,47 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_CREATE_OFFSET UNITYSDK_OFFSET(0x18C04CB0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_DESTROYBYPATH_OFFSET UNITYSDK_OFFSET(0x18C03440)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_DESTROY_OFFSET UNITYSDK_OFFSET(0x22E5840)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_GETAPPLICATION_OFFSET UNITYSDK_OFFSET(0x22E4210)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_GETTIMERANGE_OFFSET UNITYSDK_OFFSET(0x22E42C0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_GETTIMESAMPLING_OFFSET UNITYSDK_OFFSET(0x22E4100)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_GET_TIMESAMPLINGCOUNT_OFFSET UNITYSDK_OFFSET(0x22E4080)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_GET_TOPOBJECT_OFFSET UNITYSDK_OFFSET(0x22E4000)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_ISHDF5_OFFSET UNITYSDK_OFFSET(0x22E4190)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_LOAD_OFFSET UNITYSDK_OFFSET(0x22E58D0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x18C06F10)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_SETCONFIG_OFFSET UNITYSDK_OFFSET(0x22E5980)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_TOBOOL_OFFSET UNITYSDK_OFFSET(0x18C0F5F0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_UPDATESAMPLES_OFFSET UNITYSDK_OFFSET(0x22E5A00)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_CREATE_OFFSET UNITYSDK_OFFSET(0x1972CB00)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_DESTROYBYPATH_OFFSET UNITYSDK_OFFSET(0x1972B1D0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_DESTROY_OFFSET UNITYSDK_OFFSET(0x3888E20)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_GETAPPLICATION_OFFSET UNITYSDK_OFFSET(0x3887850)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_GETTIMERANGE_OFFSET UNITYSDK_OFFSET(0x3887900)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_GETTIMESAMPLING_OFFSET UNITYSDK_OFFSET(0x3887740)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_GET_TIMESAMPLINGCOUNT_OFFSET UNITYSDK_OFFSET(0x38876C0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_GET_TOPOBJECT_OFFSET UNITYSDK_OFFSET(0x3887640)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_ISHDF5_OFFSET UNITYSDK_OFFSET(0x38877D0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_LOAD_OFFSET UNITYSDK_OFFSET(0x3888EB0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1972EE10)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_SETCONFIG_OFFSET UNITYSDK_OFFSET(0x3888F60)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_TOBOOL_OFFSET UNITYSDK_OFFSET(0x197373B0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_UPDATESAMPLES_OFFSET UNITYSDK_OFFSET(0x3888FE0)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aiContext_TypeDefinitionIndex = 40816;
+	inline static constexpr unsigned int aiContext_TypeDefinitionIndex = 41642;
 
 	struct alignas(8) aiContext
 	{
 		::System::IntPtr self; // 0x10
 
-		static ::System::Boolean op_Implicit(::UnityEngine::Formats::Alembic::Sdk::aiContext v)
+		static ::System::Boolean op_Implicit(::UnityEngine::Formats::Alembic::Sdk::aiContext a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Formats::Alembic::Sdk::aiContext))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_OP_IMPLICIT_OFFSET))(v);
+			return ((::System::Boolean(*)(::UnityEngine::Formats::Alembic::Sdk::aiContext))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_OP_IMPLICIT_OFFSET))(a1);
 		}
 
-		static ::System::Boolean ToBool(::UnityEngine::Formats::Alembic::Sdk::aiContext v)
+		static ::System::Boolean ToBool(::UnityEngine::Formats::Alembic::Sdk::aiContext a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Formats::Alembic::Sdk::aiContext))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_TOBOOL_OFFSET))(v);
+			return ((::System::Boolean(*)(::UnityEngine::Formats::Alembic::Sdk::aiContext))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_TOBOOL_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Formats::Alembic::Sdk::aiContext Create(::System::Int32 uid)
+		static ::UnityEngine::Formats::Alembic::Sdk::aiContext Create(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Formats::Alembic::Sdk::aiContext(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_CREATE_OFFSET))(uid);
+			return ((::UnityEngine::Formats::Alembic::Sdk::aiContext(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_CREATE_OFFSET))(a1);
 		}
 
-		static ::System::Void DestroyByPath(::System::String* path)
+		static ::System::Void DestroyByPath(::System::String* a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_DESTROYBYPATH_OFFSET))(path);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_DESTROYBYPATH_OFFSET))(a1);
 		}
 
 		::System::Void Destroy()
@@ -52,9 +52,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_DESTROY_OFFSET))(this);
 		}
 
-		::System::Boolean Load(::System::String* path)
+		::System::Boolean Load(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_LOAD_OFFSET))(this, path);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_LOAD_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsHDF5()
@@ -68,15 +68,15 @@ namespace UnityEngine::Formats::Alembic::Sdk
 		}
 
 		/*
-		::System::Void SetConfig(::UnityEngine::Formats::Alembic::Sdk::aiConfig& conf)
+		::System::Void SetConfig(::UnityEngine::Formats::Alembic::Sdk::aiConfig& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aiConfig&))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_SETCONFIG_OFFSET))(this, conf);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aiConfig&))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_SETCONFIG_OFFSET))(this, a1);
 		}
 		*/
 
-		::System::Void UpdateSamples(::System::Double time)
+		::System::Void UpdateSamples(::System::Double a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_UPDATESAMPLES_OFFSET))(this, time);
+			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_UPDATESAMPLES_OFFSET))(this, a1);
 		}
 
 		/*
@@ -92,15 +92,15 @@ namespace UnityEngine::Formats::Alembic::Sdk
 		}
 
 		/*
-		::UnityEngine::Formats::Alembic::Sdk::aiTimeSampling GetTimeSampling(::System::Int32 i)
+		::UnityEngine::Formats::Alembic::Sdk::aiTimeSampling GetTimeSampling(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Formats::Alembic::Sdk::aiTimeSampling(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_GETTIMESAMPLING_OFFSET))(this, i);
+			return ((::UnityEngine::Formats::Alembic::Sdk::aiTimeSampling(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_GETTIMESAMPLING_OFFSET))(this, a1);
 		}
 		*/
 
-		::System::Void GetTimeRange(::System::Double& begin, ::System::Double& end)
+		::System::Void GetTimeRange(::System::Double& a1, ::System::Double& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double&, ::System::Double&))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_GETTIMERANGE_OFFSET))(this, begin, end);
+			return ((::System::Void(*)(::PVOID, ::System::Double&, ::System::Double&))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICONTEXT_GETTIMERANGE_OFFSET))(this, a1, a2);
 		}
 	};
 }

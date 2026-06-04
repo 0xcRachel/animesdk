@@ -6,28 +6,28 @@
 
 namespace RPG::Client { class ShareSDK; }
 
-#define RPG_CLIENT_SHARESDK___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15347E90)
-#define RPG_CLIENT_SHARESDK___C__DISPLAYCLASS2_0__SHAREPHOTO_B__0_OFFSET UNITYSDK_OFFSET(0x15348FB0)
+#define RPG_CLIENT_SHARESDK___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1754D170)
+#define RPG_CLIENT_SHARESDK___C__DISPLAYCLASS2_0__SHAREPHOTO_B__0_OFFSET UNITYSDK_OFFSET(0x1754E3D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ShareSDK___c__DisplayClass2_0_TypeDefinitionIndex = 56344;
+	inline static constexpr unsigned int ShareSDK___c__DisplayClass2_0_TypeDefinitionIndex = 57106;
 
 	class ShareSDK___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::ShareSDK* __4__this; // 0x10
-		::System::UInt32 shareChannelID; // 0x18
-		::RPG::Client::ShareSource shareSource; // 0x1C
+		::RPG::Client::ShareSource shareSource; // 0x18
+		::System::UInt32 shareChannelID; // 0x1C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHARESDK___C__DISPLAYCLASS2_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _SharePhoto_b__0(::Unity::Collections::NativeArray_1<::System::Byte> bytes)
+		::System::Void _SharePhoto_b__0(::Unity::Collections::NativeArray_1<::System::Byte> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::System::Byte>))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHARESDK___C__DISPLAYCLASS2_0__SHAREPHOTO_B__0_OFFSET))(this, bytes);
+			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::System::Byte>))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHARESDK___C__DISPLAYCLASS2_0__SHAREPHOTO_B__0_OFFSET))(this, a1);
 		}
 	};
 }

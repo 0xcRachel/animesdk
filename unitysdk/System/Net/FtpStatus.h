@@ -5,9 +5,9 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_FTPSTATUS_GET_STATUSCODE_OFFSET UNITYSDK_OFFSET(0x176A5DB0)
-#define SYSTEM_NET_FTPSTATUS_GET_STATUSDESCRIPTION_OFFSET UNITYSDK_OFFSET(0x176A5DC0)
-#define SYSTEM_NET_FTPSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x176A5DA0)
+#define SYSTEM_NET_FTPSTATUS_GET_STATUSCODE_OFFSET UNITYSDK_OFFSET(0x17CD4BA0)
+#define SYSTEM_NET_FTPSTATUS_GET_STATUSDESCRIPTION_OFFSET UNITYSDK_OFFSET(0x17CD4BB0)
+#define SYSTEM_NET_FTPSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x17CD4B90)
 
 namespace System::Net
 {
@@ -19,9 +19,9 @@ namespace System::Net
 		::System::String* statusDescription; // 0x10
 		::System::Net::FtpStatusCode statusCode; // 0x18
 
-		::System::Void _ctor(::System::Net::FtpStatusCode statusCode, ::System::String* statusDescription)
+		::System::Void _ctor(::System::Net::FtpStatusCode a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::FtpStatusCode, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_FTPSTATUS__CTOR_OFFSET))(this, statusCode, statusDescription);
+			return ((::System::Void(*)(::PVOID, ::System::Net::FtpStatusCode, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_FTPSTATUS__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Net::FtpStatusCode get_StatusCode()

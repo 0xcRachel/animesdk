@@ -8,30 +8,30 @@ namespace System { class String; }
 namespace System::Buffers { template <typename T> class IBufferWriter_1; }
 namespace System::Collections { class IDictionary; }
 
-#define MESSAGEPACK_UTILITIES_GETENTRYENUMERATOR_OFFSET UNITYSDK_OFFSET(0x196361C0)
-#define MESSAGEPACK_UTILITIES_GETMEMORYCHECKRESULT_OFFSET UNITYSDK_OFFSET(0x19635F60)
-#define MESSAGEPACK_UTILITIES__GETMEMORYCHECKRESULT_G__THROWINVALIDOPERATIONEXCEPTION_2_0_OFFSET UNITYSDK_OFFSET(0x19636170)
+#define MESSAGEPACK_UTILITIES_GETENTRYENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1A10E050)
+#define MESSAGEPACK_UTILITIES_GETMEMORYCHECKRESULT_OFFSET UNITYSDK_OFFSET(0x1A10DDF0)
+#define MESSAGEPACK_UTILITIES__GETMEMORYCHECKRESULT_G__THROWINVALIDOPERATIONEXCEPTION_2_0_OFFSET UNITYSDK_OFFSET(0x1A10E000)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int Utilities_TypeDefinitionIndex = 9298;
+	inline static constexpr unsigned int Utilities_TypeDefinitionIndex = 7201;
 
 	class Utilities : public ::System::Object
 	{
 	public:
-		static ::System::Memory_1<::System::Byte> GetMemoryCheckResult(::System::Buffers::IBufferWriter_1<::System::Byte>* bufferWriter, ::System::Int32 size)
+		static ::System::Memory_1<::System::Byte> GetMemoryCheckResult(::System::Buffers::IBufferWriter_1<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Memory_1<::System::Byte>(*)(::System::Buffers::IBufferWriter_1<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_UTILITIES_GETMEMORYCHECKRESULT_OFFSET))(bufferWriter, size);
+			return ((::System::Memory_1<::System::Byte>(*)(::System::Buffers::IBufferWriter_1<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_UTILITIES_GETMEMORYCHECKRESULT_OFFSET))(a1, a2);
 		}
 
-		static ::MessagePack::Utilities_NonGenericDictionaryEnumerable GetEntryEnumerator(::System::Collections::IDictionary* dictionary)
+		static ::MessagePack::Utilities_NonGenericDictionaryEnumerable GetEntryEnumerator(::System::Collections::IDictionary* a1)
 		{
-			return ((::MessagePack::Utilities_NonGenericDictionaryEnumerable(*)(::System::Collections::IDictionary*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UTILITIES_GETENTRYENUMERATOR_OFFSET))(dictionary);
+			return ((::MessagePack::Utilities_NonGenericDictionaryEnumerable(*)(::System::Collections::IDictionary*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UTILITIES_GETENTRYENUMERATOR_OFFSET))(a1);
 		}
 
-		static ::System::Void _GetMemoryCheckResult_g__ThrowInvalidOperationException_2_0(::System::String* message)
+		static ::System::Void _GetMemoryCheckResult_g__ThrowInvalidOperationException_2_0(::System::String* a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UTILITIES__GETMEMORYCHECKRESULT_G__THROWINVALIDOPERATIONEXCEPTION_2_0_OFFSET))(message);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UTILITIES__GETMEMORYCHECKRESULT_G__THROWINVALIDOPERATIONEXCEPTION_2_0_OFFSET))(a1);
 		}
 	};
 }

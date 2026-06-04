@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ShaderPropertyOverrideMonoPlugin; }
 
-#define RPG_CLIENT_SHADERPROPERTYOVERRIDEBEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0x153456F0)
-#define RPG_CLIENT_SHADERPROPERTYOVERRIDEBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15345760)
+#define RPG_CLIENT_SHADERPROPERTYOVERRIDEBEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0x1754A860)
+#define RPG_CLIENT_SHADERPROPERTYOVERRIDEBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1754A8E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ShaderPropertyOverrideBehavior_TypeDefinitionIndex = 65457;
+	inline static constexpr unsigned int ShaderPropertyOverrideBehavior_TypeDefinitionIndex = 66384;
 
 	class ShaderPropertyOverrideBehavior : public ::RPG::Client::TABehaviorBase
 	{

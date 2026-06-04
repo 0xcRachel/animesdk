@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_MONOLISTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1950E480)
+#define SYSTEM_MONOLISTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A085150)
 
 namespace System
 {
-	inline static constexpr unsigned int MonoListItem_TypeDefinitionIndex = 406;
+	inline static constexpr unsigned int MonoListItem_TypeDefinitionIndex = 405;
 
 	class MonoListItem : public ::System::Object
 	{

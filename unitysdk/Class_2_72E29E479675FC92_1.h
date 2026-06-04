@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_7ACCB923E979A908.h"
+#include "unitysdk/Class_1_3713064DEE761936.h"
 
-class Class_1_BE8B780D54F2A10A;
+class Class_1_03E620B95D05DE85;
 class Class_1_F158EBB544151B42;
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 namespace RPG::Client::ChenLingBattle { class DynamicProgressEffect; }
 
-#define CLASS_2_72E29E479675FC92_1_METHOD_2_A7A9919FE7556982_OFFSET UNITYSDK_OFFSET(0xFE65A30)
-#define CLASS_2_72E29E479675FC92_1_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xFE656E0)
-#define CLASS_2_72E29E479675FC92_1__CTOR_OFFSET UNITYSDK_OFFSET(0xFE65FF0)
-#define CLASS_2_72E29E479675FC92_1___IFIXBASEPROXY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xFE66000)
+#define CLASS_2_72E29E479675FC92_1_METHOD_2_A7A9919FE7556982_OFFSET UNITYSDK_OFFSET(0x14EDE6F0)
+#define CLASS_2_72E29E479675FC92_1_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x14EDE3B0)
+#define CLASS_2_72E29E479675FC92_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14EDECC0)
+#define CLASS_2_72E29E479675FC92_1___IFIXBASEPROXY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x14EDECD0)
 
-inline static constexpr unsigned int Class_2_72E29E479675FC92_1_TypeDefinitionIndex = 70037;
+inline static constexpr unsigned int Class_2_72E29E479675FC92_1_TypeDefinitionIndex = 70849;
 
-class Class_2_72E29E479675FC92_1 : public ::Class_1_7ACCB923E979A908
+class Class_2_72E29E479675FC92_1 : public ::Class_1_3713064DEE761936
 {
 public:
 	::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* Field_2_0; // 0x20
 	::Class_1_F158EBB544151B42* Field_2_1; // 0x28
-	::Class_1_BE8B780D54F2A10A* Field_2_2; // 0x30
+	::Class_1_03E620B95D05DE85* Field_2_2; // 0x30
 
-	::System::Void _ctor(::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* a1, ::Class_1_F158EBB544151B42* a2, ::Class_1_BE8B780D54F2A10A* a3)
+	::System::Void _ctor(::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* a1, ::Class_1_F158EBB544151B42* a2, ::Class_1_03E620B95D05DE85* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::ChenLingBattleGameContext*, ::Class_1_F158EBB544151B42*, ::Class_1_BE8B780D54F2A10A*))((::PBYTE)hIl2Cpp + CLASS_2_72E29E479675FC92_1__CTOR_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::ChenLingBattleGameContext*, ::Class_1_F158EBB544151B42*, ::Class_1_03E620B95D05DE85*))((::PBYTE)hIl2Cpp + CLASS_2_72E29E479675FC92_1__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Void OnExecute()

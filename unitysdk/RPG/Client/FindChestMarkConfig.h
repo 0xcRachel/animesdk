@@ -7,14 +7,14 @@ namespace RPG::Client::NavMap { class IMapDataSource; }
 namespace RPG::GameCore { class ChestGroupPropertyRow; }
 namespace RPG::GameCore { class SpecialChestFindDataRow; }
 
-#define RPG_CLIENT_FINDCHESTMARKCONFIG_GETGOTOMAPPARAM_OFFSET UNITYSDK_OFFSET(0x223D9B0)
-#define RPG_CLIENT_FINDCHESTMARKCONFIG_GETICONATTACHCONFIG_OFFSET UNITYSDK_OFFSET(0x223D9C0)
-#define RPG_CLIENT_FINDCHESTMARKCONFIG__CHECKNEEDREPLACE_OFFSET UNITYSDK_OFFSET(0x223D9D0)
-#define RPG_CLIENT_FINDCHESTMARKCONFIG__GETCHESTGROUPPROPERTYROW_OFFSET UNITYSDK_OFFSET(0x223D9E0)
+#define RPG_CLIENT_FINDCHESTMARKCONFIG_GETGOTOMAPPARAM_OFFSET UNITYSDK_OFFSET(0x37D7A40)
+#define RPG_CLIENT_FINDCHESTMARKCONFIG_GETICONATTACHCONFIG_OFFSET UNITYSDK_OFFSET(0x37D7A50)
+#define RPG_CLIENT_FINDCHESTMARKCONFIG__CHECKNEEDREPLACE_OFFSET UNITYSDK_OFFSET(0x37D7A60)
+#define RPG_CLIENT_FINDCHESTMARKCONFIG__GETCHESTGROUPPROPERTYROW_OFFSET UNITYSDK_OFFSET(0x37D7A70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FindChestMarkConfig_TypeDefinitionIndex = 59064;
+	inline static constexpr unsigned int FindChestMarkConfig_TypeDefinitionIndex = 59994;
 
 	struct alignas(4) FindChestMarkConfig
 	{
@@ -29,19 +29,19 @@ namespace RPG::Client
 			return ((::RPG::Client::GotoMapParam*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FINDCHESTMARKCONFIG_GETGOTOMAPPARAM_OFFSET))(this);
 		}
 
-		::System::Boolean GetIconAttachConfig(::RPG::Client::NavMap::IMapDataSource* mapData, ::System::UInt32& groupID, ::System::UInt32& instanceID, ::System::UInt32& littleGameEntityID, ::System::Boolean& isUseSpecialMappingInfo)
+		::System::Boolean GetIconAttachConfig(::RPG::Client::NavMap::IMapDataSource* a1, ::System::UInt32& a2, ::System::UInt32& a3, ::System::UInt32& a4, ::System::Boolean& a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::IMapDataSource*, ::System::UInt32&, ::System::UInt32&, ::System::UInt32&, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FINDCHESTMARKCONFIG_GETICONATTACHCONFIG_OFFSET))(this, mapData, groupID, instanceID, littleGameEntityID, isUseSpecialMappingInfo);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::IMapDataSource*, ::System::UInt32&, ::System::UInt32&, ::System::UInt32&, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FINDCHESTMARKCONFIG_GETICONATTACHCONFIG_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean _CheckNeedReplace(::RPG::GameCore::SpecialChestFindDataRow* replaceChestRow, ::RPG::Client::NavMap::IMapDataSource* mapData)
+		::System::Boolean _CheckNeedReplace(::RPG::GameCore::SpecialChestFindDataRow* a1, ::RPG::Client::NavMap::IMapDataSource* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::SpecialChestFindDataRow*, ::RPG::Client::NavMap::IMapDataSource*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FINDCHESTMARKCONFIG__CHECKNEEDREPLACE_OFFSET))(this, replaceChestRow, mapData);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::SpecialChestFindDataRow*, ::RPG::Client::NavMap::IMapDataSource*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FINDCHESTMARKCONFIG__CHECKNEEDREPLACE_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::GameCore::ChestGroupPropertyRow* _GetChestGroupPropertyRow(::RPG::GameCore::SpecialChestFindDataRow* replaceChestRow)
+		::RPG::GameCore::ChestGroupPropertyRow* _GetChestGroupPropertyRow(::RPG::GameCore::SpecialChestFindDataRow* a1)
 		{
-			return ((::RPG::GameCore::ChestGroupPropertyRow*(*)(::PVOID, ::RPG::GameCore::SpecialChestFindDataRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FINDCHESTMARKCONFIG__GETCHESTGROUPPROPERTYROW_OFFSET))(this, replaceChestRow);
+			return ((::RPG::GameCore::ChestGroupPropertyRow*(*)(::PVOID, ::RPG::GameCore::SpecialChestFindDataRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FINDCHESTMARKCONFIG__GETCHESTGROUPPROPERTYROW_OFFSET))(this, a1);
 		}
 	};
 }

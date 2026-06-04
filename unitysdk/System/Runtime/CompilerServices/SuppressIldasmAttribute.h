@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_SUPPRESSILDASMATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18F5A400)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_SUPPRESSILDASMATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1970B940)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int SuppressIldasmAttribute_TypeDefinitionIndex = 1383;
+	inline static constexpr unsigned int SuppressIldasmAttribute_TypeDefinitionIndex = 1382;
 
 	class SuppressIldasmAttribute : public ::System::Attribute
 	{

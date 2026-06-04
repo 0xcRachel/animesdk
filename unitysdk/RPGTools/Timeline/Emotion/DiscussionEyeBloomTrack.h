@@ -7,17 +7,17 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x17B23AC0)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x17B23910)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x17B23BC0)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x17B23C30)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x17B23DB0)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x17B23D10)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x17B23DF0)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x199C93D0)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x199C9250)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x199C9510)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x199C9580)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x199C9700)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x199C9660)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x199C9740)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int DiscussionEyeBloomTrack_TypeDefinitionIndex = 45406;
+	inline static constexpr unsigned int DiscussionEyeBloomTrack_TypeDefinitionIndex = 45989;
 
 	class DiscussionEyeBloomTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
@@ -42,19 +42,19 @@ namespace RPGTools::Timeline::Emotion
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK_ONCREATECLIP_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::System::Int32 P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::UnityEngine::Timeline::TimelineClip* P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __iFixBaseProxy_OnCreateClip(::UnityEngine::Timeline::TimelineClip* P0)
+		::System::Void __iFixBaseProxy_OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET))(this, a1);
 		}
 	};
 }

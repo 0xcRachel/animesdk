@@ -28,38 +28,38 @@ namespace Epic::OnlineServices::Auth { class VerifyIdTokenOptions; }
 namespace Epic::OnlineServices::Auth { class VerifyUserAuthOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ADDNOTIFYLOGINSTATUSCHANGED_OFFSET UNITYSDK_OFFSET(0x19788190)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_COPYIDTOKEN_OFFSET UNITYSDK_OFFSET(0x19788410)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_COPYUSERAUTHTOKEN_OFFSET UNITYSDK_OFFSET(0x19788680)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_DELETEPERSISTENTAUTH_OFFSET UNITYSDK_OFFSET(0x19788990)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETLOGGEDINACCOUNTBYINDEX_OFFSET UNITYSDK_OFFSET(0x19788BE0)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETLOGGEDINACCOUNTSCOUNT_OFFSET UNITYSDK_OFFSET(0x19788CD0)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETLOGINSTATUS_OFFSET UNITYSDK_OFFSET(0x19788D50)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETMERGEDACCOUNTBYINDEX_OFFSET UNITYSDK_OFFSET(0x19788EB0)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETMERGEDACCOUNTSCOUNT_OFFSET UNITYSDK_OFFSET(0x19789040)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETSELECTEDACCOUNTID_OFFSET UNITYSDK_OFFSET(0x197891A0)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_LINKACCOUNT_OFFSET UNITYSDK_OFFSET(0x197892F0)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_LOGIN_1_OFFSET UNITYSDK_OFFSET(0x19789FA0)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_LOGIN_OFFSET UNITYSDK_OFFSET(0x197894B0)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_LOGOUT_OFFSET UNITYSDK_OFFSET(0x19789730)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONDELETEPERSISTENTAUTHCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x19787CF0)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONLINKACCOUNTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x19787D80)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONLOGINCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x19787E10)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONLOGINSTATUSCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x19787EA0)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONLOGOUTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x19787F30)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONQUERYIDTOKENCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x19787FC0)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONVERIFYIDTOKENCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x19788050)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONVERIFYUSERAUTHCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x197880E0)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_QUERYIDTOKEN_OFFSET UNITYSDK_OFFSET(0x19789980)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_REMOVENOTIFYLOGINSTATUSCHANGED_OFFSET UNITYSDK_OFFSET(0x19789B40)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_VERIFYIDTOKEN_OFFSET UNITYSDK_OFFSET(0x19789C20)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_VERIFYUSERAUTH_OFFSET UNITYSDK_OFFSET(0x19789DE0)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19788180)
-#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x19788170)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ADDNOTIFYLOGINSTATUSCHANGED_OFFSET UNITYSDK_OFFSET(0x1A56D9E0)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_COPYIDTOKEN_OFFSET UNITYSDK_OFFSET(0x1A56DC90)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_COPYUSERAUTHTOKEN_OFFSET UNITYSDK_OFFSET(0x1A56DF00)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_DELETEPERSISTENTAUTH_OFFSET UNITYSDK_OFFSET(0x1A56E230)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETLOGGEDINACCOUNTBYINDEX_OFFSET UNITYSDK_OFFSET(0x1A56E4A0)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETLOGGEDINACCOUNTSCOUNT_OFFSET UNITYSDK_OFFSET(0x1A56E590)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETLOGINSTATUS_OFFSET UNITYSDK_OFFSET(0x1A56E610)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETMERGEDACCOUNTBYINDEX_OFFSET UNITYSDK_OFFSET(0x1A56E770)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETMERGEDACCOUNTSCOUNT_OFFSET UNITYSDK_OFFSET(0x1A56E900)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETSELECTEDACCOUNTID_OFFSET UNITYSDK_OFFSET(0x1A56EA60)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_LINKACCOUNT_OFFSET UNITYSDK_OFFSET(0x1A56EBB0)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_LOGIN_1_OFFSET UNITYSDK_OFFSET(0x1A56FA40)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_LOGIN_OFFSET UNITYSDK_OFFSET(0x1A56ED90)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_LOGOUT_OFFSET UNITYSDK_OFFSET(0x1A56F030)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONDELETEPERSISTENTAUTHCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A56D4C0)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONLINKACCOUNTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A56D560)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONLOGINCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A56D600)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONLOGINSTATUSCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A56D6A0)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONLOGOUTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A56D740)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONQUERYIDTOKENCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A56D7E0)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONVERIFYIDTOKENCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A56D880)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONVERIFYUSERAUTHCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A56D920)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_QUERYIDTOKEN_OFFSET UNITYSDK_OFFSET(0x1A56F2A0)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_REMOVENOTIFYLOGINSTATUSCHANGED_OFFSET UNITYSDK_OFFSET(0x1A56F480)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_VERIFYIDTOKEN_OFFSET UNITYSDK_OFFSET(0x1A56F560)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_VERIFYUSERAUTH_OFFSET UNITYSDK_OFFSET(0x1A56F7D0)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A56D9D0)
+#define EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A56D9C0)
 
 namespace Epic::OnlineServices::Auth
 {
-	inline static constexpr unsigned int AuthInterface_TypeDefinitionIndex = 42356;
+	inline static constexpr unsigned int AuthInterface_TypeDefinitionIndex = 43159;
 
 	class AuthInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -86,34 +86,34 @@ namespace Epic::OnlineServices::Auth
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::UInt64 AddNotifyLoginStatusChanged(::Epic::OnlineServices::Auth::AddNotifyLoginStatusChangedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Auth::OnLoginStatusChangedCallback* notification)
+		::System::UInt64 AddNotifyLoginStatusChanged(::Epic::OnlineServices::Auth::AddNotifyLoginStatusChangedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Auth::OnLoginStatusChangedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Auth::AddNotifyLoginStatusChangedOptions*, ::System::Object*, ::Epic::OnlineServices::Auth::OnLoginStatusChangedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ADDNOTIFYLOGINSTATUSCHANGED_OFFSET))(this, options, clientData, notification);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Auth::AddNotifyLoginStatusChangedOptions*, ::System::Object*, ::Epic::OnlineServices::Auth::OnLoginStatusChangedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ADDNOTIFYLOGINSTATUSCHANGED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::Result CopyIdToken(::Epic::OnlineServices::Auth::CopyIdTokenOptions* options, ::Epic::OnlineServices::Auth::IdToken*& outIdToken)
+		::Epic::OnlineServices::Result CopyIdToken(::Epic::OnlineServices::Auth::CopyIdTokenOptions* a1, ::Epic::OnlineServices::Auth::IdToken*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Auth::CopyIdTokenOptions*, ::Epic::OnlineServices::Auth::IdToken*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_COPYIDTOKEN_OFFSET))(this, options, outIdToken);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Auth::CopyIdTokenOptions*, ::Epic::OnlineServices::Auth::IdToken*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_COPYIDTOKEN_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyUserAuthToken(::Epic::OnlineServices::Auth::CopyUserAuthTokenOptions* options, ::Epic::OnlineServices::EpicAccountId* localUserId, ::Epic::OnlineServices::Auth::Token*& outUserAuthToken)
+		::Epic::OnlineServices::Result CopyUserAuthToken(::Epic::OnlineServices::Auth::CopyUserAuthTokenOptions* a1, ::Epic::OnlineServices::EpicAccountId* a2, ::Epic::OnlineServices::Auth::Token*& a3)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Auth::CopyUserAuthTokenOptions*, ::Epic::OnlineServices::EpicAccountId*, ::Epic::OnlineServices::Auth::Token*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_COPYUSERAUTHTOKEN_OFFSET))(this, options, localUserId, outUserAuthToken);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Auth::CopyUserAuthTokenOptions*, ::Epic::OnlineServices::EpicAccountId*, ::Epic::OnlineServices::Auth::Token*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_COPYUSERAUTHTOKEN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void DeletePersistentAuth(::Epic::OnlineServices::Auth::DeletePersistentAuthOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Auth::OnDeletePersistentAuthCallback* completionDelegate)
+		::System::Void DeletePersistentAuth(::Epic::OnlineServices::Auth::DeletePersistentAuthOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Auth::OnDeletePersistentAuthCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::DeletePersistentAuthOptions*, ::System::Object*, ::Epic::OnlineServices::Auth::OnDeletePersistentAuthCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_DELETEPERSISTENTAUTH_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::DeletePersistentAuthOptions*, ::System::Object*, ::Epic::OnlineServices::Auth::OnDeletePersistentAuthCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_DELETEPERSISTENTAUTH_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::EpicAccountId* GetLoggedInAccountByIndex(::System::Int32 index)
+		::Epic::OnlineServices::EpicAccountId* GetLoggedInAccountByIndex(::System::Int32 a1)
 		{
-			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETLOGGEDINACCOUNTBYINDEX_OFFSET))(this, index);
+			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETLOGGEDINACCOUNTBYINDEX_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetLoggedInAccountsCount()
@@ -121,104 +121,104 @@ namespace Epic::OnlineServices::Auth
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETLOGGEDINACCOUNTSCOUNT_OFFSET))(this);
 		}
 
-		::Epic::OnlineServices::LoginStatus GetLoginStatus(::Epic::OnlineServices::EpicAccountId* localUserId)
+		::Epic::OnlineServices::LoginStatus GetLoginStatus(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::Epic::OnlineServices::LoginStatus(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETLOGINSTATUS_OFFSET))(this, localUserId);
+			return ((::Epic::OnlineServices::LoginStatus(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETLOGINSTATUS_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::EpicAccountId* GetMergedAccountByIndex(::Epic::OnlineServices::EpicAccountId* localUserId, ::System::UInt32 index)
+		::Epic::OnlineServices::EpicAccountId* GetMergedAccountByIndex(::Epic::OnlineServices::EpicAccountId* a1, ::System::UInt32 a2)
 		{
-			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETMERGEDACCOUNTBYINDEX_OFFSET))(this, localUserId, index);
+			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETMERGEDACCOUNTBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 GetMergedAccountsCount(::Epic::OnlineServices::EpicAccountId* localUserId)
+		::System::UInt32 GetMergedAccountsCount(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETMERGEDACCOUNTSCOUNT_OFFSET))(this, localUserId);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETMERGEDACCOUNTSCOUNT_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result GetSelectedAccountId(::Epic::OnlineServices::EpicAccountId* localUserId, ::Epic::OnlineServices::EpicAccountId*& outSelectedAccountId)
+		::Epic::OnlineServices::Result GetSelectedAccountId(::Epic::OnlineServices::EpicAccountId* a1, ::Epic::OnlineServices::EpicAccountId*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*, ::Epic::OnlineServices::EpicAccountId*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETSELECTEDACCOUNTID_OFFSET))(this, localUserId, outSelectedAccountId);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*, ::Epic::OnlineServices::EpicAccountId*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_GETSELECTEDACCOUNTID_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void LinkAccount(::Epic::OnlineServices::Auth::LinkAccountOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Auth::OnLinkAccountCallback* completionDelegate)
+		::System::Void LinkAccount(::Epic::OnlineServices::Auth::LinkAccountOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Auth::OnLinkAccountCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::LinkAccountOptions*, ::System::Object*, ::Epic::OnlineServices::Auth::OnLinkAccountCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_LINKACCOUNT_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::LinkAccountOptions*, ::System::Object*, ::Epic::OnlineServices::Auth::OnLinkAccountCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_LINKACCOUNT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Login(::Epic::OnlineServices::Auth::LoginOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Auth::OnLoginCallback* completionDelegate)
+		::System::Void Login(::Epic::OnlineServices::Auth::LoginOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Auth::OnLoginCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::LoginOptions*, ::System::Object*, ::Epic::OnlineServices::Auth::OnLoginCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_LOGIN_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::LoginOptions*, ::System::Object*, ::Epic::OnlineServices::Auth::OnLoginCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_LOGIN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Logout(::Epic::OnlineServices::Auth::LogoutOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Auth::OnLogoutCallback* completionDelegate)
+		::System::Void Logout(::Epic::OnlineServices::Auth::LogoutOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Auth::OnLogoutCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::LogoutOptions*, ::System::Object*, ::Epic::OnlineServices::Auth::OnLogoutCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_LOGOUT_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::LogoutOptions*, ::System::Object*, ::Epic::OnlineServices::Auth::OnLogoutCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_LOGOUT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void QueryIdToken(::Epic::OnlineServices::Auth::QueryIdTokenOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Auth::OnQueryIdTokenCallback* completionDelegate)
+		::System::Void QueryIdToken(::Epic::OnlineServices::Auth::QueryIdTokenOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Auth::OnQueryIdTokenCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::QueryIdTokenOptions*, ::System::Object*, ::Epic::OnlineServices::Auth::OnQueryIdTokenCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_QUERYIDTOKEN_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::QueryIdTokenOptions*, ::System::Object*, ::Epic::OnlineServices::Auth::OnQueryIdTokenCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_QUERYIDTOKEN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RemoveNotifyLoginStatusChanged(::System::UInt64 inId)
+		::System::Void RemoveNotifyLoginStatusChanged(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_REMOVENOTIFYLOGINSTATUSCHANGED_OFFSET))(this, inId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_REMOVENOTIFYLOGINSTATUSCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void VerifyIdToken(::Epic::OnlineServices::Auth::VerifyIdTokenOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Auth::OnVerifyIdTokenCallback* completionDelegate)
+		::System::Void VerifyIdToken(::Epic::OnlineServices::Auth::VerifyIdTokenOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Auth::OnVerifyIdTokenCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::VerifyIdTokenOptions*, ::System::Object*, ::Epic::OnlineServices::Auth::OnVerifyIdTokenCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_VERIFYIDTOKEN_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::VerifyIdTokenOptions*, ::System::Object*, ::Epic::OnlineServices::Auth::OnVerifyIdTokenCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_VERIFYIDTOKEN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void VerifyUserAuth(::Epic::OnlineServices::Auth::VerifyUserAuthOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Auth::OnVerifyUserAuthCallback* completionDelegate)
+		::System::Void VerifyUserAuth(::Epic::OnlineServices::Auth::VerifyUserAuthOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Auth::OnVerifyUserAuthCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::VerifyUserAuthOptions*, ::System::Object*, ::Epic::OnlineServices::Auth::OnVerifyUserAuthCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_VERIFYUSERAUTH_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::VerifyUserAuthOptions*, ::System::Object*, ::Epic::OnlineServices::Auth::OnVerifyUserAuthCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_VERIFYUSERAUTH_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void OnDeletePersistentAuthCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnDeletePersistentAuthCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONDELETEPERSISTENTAUTHCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONDELETEPERSISTENTAUTHCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnLinkAccountCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnLinkAccountCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONLINKACCOUNTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONLINKACCOUNTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnLoginCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnLoginCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONLOGINCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONLOGINCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnLoginStatusChangedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnLoginStatusChangedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONLOGINSTATUSCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONLOGINSTATUSCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnLogoutCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnLogoutCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONLOGOUTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONLOGOUTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnQueryIdTokenCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryIdTokenCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONQUERYIDTOKENCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONQUERYIDTOKENCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnVerifyIdTokenCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnVerifyIdTokenCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONVERIFYIDTOKENCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONVERIFYIDTOKENCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnVerifyUserAuthCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnVerifyUserAuthCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONVERIFYUSERAUTHCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_ONVERIFYUSERAUTHCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		::System::Void Login_1(::Epic::OnlineServices::Auth::IOSLoginOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Auth::OnLoginCallback* completionDelegate)
+		::System::Void Login_1(::Epic::OnlineServices::Auth::IOSLoginOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Auth::OnLoginCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::IOSLoginOptions*, ::System::Object*, ::Epic::OnlineServices::Auth::OnLoginCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_LOGIN_1_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::IOSLoginOptions*, ::System::Object*, ::Epic::OnlineServices::Auth::OnLoginCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_AUTHINTERFACE_LOGIN_1_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_NUMBER_NUMBERBUFFER_PACKFORNATIVE_OFFSET UNITYSDK_OFFSET(0x22F6F50)
-#define SYSTEM_NUMBER_NUMBERBUFFER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1903A390)
-#define SYSTEM_NUMBER_NUMBERBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x22F6F30)
+#define SYSTEM_NUMBER_NUMBERBUFFER_PACKFORNATIVE_OFFSET UNITYSDK_OFFSET(0x388A730)
+#define SYSTEM_NUMBER_NUMBERBUFFER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1979DB40)
+#define SYSTEM_NUMBER_NUMBERBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x388A710)
 
 namespace System
 {
-	inline static constexpr unsigned int Number_NumberBuffer_TypeDefinitionIndex = 306;
+	inline static constexpr unsigned int Number_NumberBuffer_TypeDefinitionIndex = 305;
 
 	struct alignas(8) Number_NumberBuffer
 	{
 		static ::System::Int32* StaticGet_NumberBufferBytes()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Number_NumberBuffer_TypeDefinitionIndex)->GetStaticField(0x22F0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Number_NumberBuffer_TypeDefinitionIndex)->GetStaticField(0x4190);
 		}
 		::System::Byte* baseAddress; // 0x10
 		::System::Char* digits; // 0x18
@@ -22,9 +22,9 @@ namespace System
 		::System::Int32 scale; // 0x24
 		::System::Boolean sign; // 0x28
 
-		::System::Void _ctor(::System::Byte* stackBuffer)
+		::System::Void _ctor(::System::Byte* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte*))((::PBYTE)hIl2Cpp + SYSTEM_NUMBER_NUMBERBUFFER__CTOR_OFFSET))(this, stackBuffer);
+			return ((::System::Void(*)(::PVOID, ::System::Byte*))((::PBYTE)hIl2Cpp + SYSTEM_NUMBER_NUMBERBUFFER__CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()

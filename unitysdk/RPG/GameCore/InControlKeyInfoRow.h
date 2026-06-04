@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_INCONTROLKEYINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1888AE70)
-#define RPG_GAMECORE_INCONTROLKEYINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1888B5A0)
+#define RPG_GAMECORE_INCONTROLKEYINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19ADF850)
+#define RPG_GAMECORE_INCONTROLKEYINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19ADFFA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InControlKeyInfoRow_TypeDefinitionIndex = 13090;
+	inline static constexpr unsigned int InControlKeyInfoRow_TypeDefinitionIndex = 13171;
 
 	class InControlKeyInfoRow : public ::System::Object
 	{
 	public:
 		::System::String* key; // 0x10
-		::RPG::Client::TextID keyStringGermany; // 0x18
-		::RPG::Client::TextID keyString; // 0x28
-		::RPG::Client::TextID keyStringFrance; // 0x38
+		::RPG::Client::TextID keyString; // 0x18
+		::RPG::Client::TextID keyStringFrance; // 0x28
+		::RPG::Client::TextID keyStringGermany; // 0x38
 		::System::Boolean isSettingKey; // 0x48
 
 		::System::Void _ctor()
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INCONTROLKEYINFOROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::InControlKeyInfoRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InControlKeyInfoRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InControlKeyInfoRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INCONTROLKEYINFOROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InControlKeyInfoRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INCONTROLKEYINFOROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

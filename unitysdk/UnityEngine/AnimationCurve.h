@@ -4,52 +4,52 @@
 #include "unitysdk/UnityEngine/Keyframe.h"
 #include "unitysdk/UnityEngine/WrapMode.h"
 
-#define UNITYENGINE_ANIMATIONCURVE_ADDKEY_1_OFFSET UNITYSDK_OFFSET(0x19CF9AC0)
-#define UNITYENGINE_ANIMATIONCURVE_ADDKEY_INTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x19CF9B00)
-#define UNITYENGINE_ANIMATIONCURVE_ADDKEY_INTERNAL_OFFSET UNITYSDK_OFFSET(0x19CF9AF0)
-#define UNITYENGINE_ANIMATIONCURVE_ADDKEY_OFFSET UNITYSDK_OFFSET(0x19CF9AB0)
-#define UNITYENGINE_ANIMATIONCURVE_CONSTANT_OFFSET UNITYSDK_OFFSET(0x19CF9C10)
-#define UNITYENGINE_ANIMATIONCURVE_EASEINOUT_OFFSET UNITYSDK_OFFSET(0x19CF9DB0)
-#define UNITYENGINE_ANIMATIONCURVE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x19CFA020)
-#define UNITYENGINE_ANIMATIONCURVE_EQUALS_OFFSET UNITYSDK_OFFSET(0x19CF9F60)
-#define UNITYENGINE_ANIMATIONCURVE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19CF9A60)
-#define UNITYENGINE_ANIMATIONCURVE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x19CF99F0)
-#define UNITYENGINE_ANIMATIONCURVE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19CFA090)
-#define UNITYENGINE_ANIMATIONCURVE_GETKEYS_OFFSET UNITYSDK_OFFSET(0x19CF9A80)
-#define UNITYENGINE_ANIMATIONCURVE_GETKEY_INJECTED_OFFSET UNITYSDK_OFFSET(0x19CF9BF0)
-#define UNITYENGINE_ANIMATIONCURVE_GETKEY_OFFSET UNITYSDK_OFFSET(0x19CF9B90)
-#define UNITYENGINE_ANIMATIONCURVE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x19CF9B40)
-#define UNITYENGINE_ANIMATIONCURVE_GET_KEYS_OFFSET UNITYSDK_OFFSET(0x19CF9A70)
-#define UNITYENGINE_ANIMATIONCURVE_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x19CF9BE0)
-#define UNITYENGINE_ANIMATIONCURVE_GET_POSTWRAPMODE_OFFSET UNITYSDK_OFFSET(0x19CF9F20)
-#define UNITYENGINE_ANIMATIONCURVE_GET_PREWRAPMODE_OFFSET UNITYSDK_OFFSET(0x19CF9F00)
-#define UNITYENGINE_ANIMATIONCURVE_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x19CF99D0)
-#define UNITYENGINE_ANIMATIONCURVE_INTERNAL_DESTROY_OFFSET UNITYSDK_OFFSET(0x19CF99C0)
-#define UNITYENGINE_ANIMATIONCURVE_INTERNAL_EQUALS_OFFSET UNITYSDK_OFFSET(0x19CF99E0)
-#define UNITYENGINE_ANIMATIONCURVE_LINEAR_OFFSET UNITYSDK_OFFSET(0x19CF9C20)
-#define UNITYENGINE_ANIMATIONCURVE_MOVEKEY_INJECTED_OFFSET UNITYSDK_OFFSET(0x19CF9B20)
-#define UNITYENGINE_ANIMATIONCURVE_MOVEKEY_OFFSET UNITYSDK_OFFSET(0x19CF9B10)
-#define UNITYENGINE_ANIMATIONCURVE_REMOVEKEY_OFFSET UNITYSDK_OFFSET(0x19CF9B30)
-#define UNITYENGINE_ANIMATIONCURVE_SETKEYS_OFFSET UNITYSDK_OFFSET(0x19CF9AA0)
-#define UNITYENGINE_ANIMATIONCURVE_SET_KEYS_OFFSET UNITYSDK_OFFSET(0x19CF9A90)
-#define UNITYENGINE_ANIMATIONCURVE_SET_POSTWRAPMODE_OFFSET UNITYSDK_OFFSET(0x19CF9F30)
-#define UNITYENGINE_ANIMATIONCURVE_SET_PREWRAPMODE_OFFSET UNITYSDK_OFFSET(0x19CF9F10)
-#define UNITYENGINE_ANIMATIONCURVE_SMOOTHTANGENTS_OFFSET UNITYSDK_OFFSET(0x19CF9C00)
-#define UNITYENGINE_ANIMATIONCURVE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19CF9F40)
-#define UNITYENGINE_ANIMATIONCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x19CF9D90)
+#define UNITYENGINE_ANIMATIONCURVE_ADDKEY_1_OFFSET UNITYSDK_OFFSET(0x1AB3E360)
+#define UNITYENGINE_ANIMATIONCURVE_ADDKEY_INTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1AB3E3A0)
+#define UNITYENGINE_ANIMATIONCURVE_ADDKEY_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1AB3E390)
+#define UNITYENGINE_ANIMATIONCURVE_ADDKEY_OFFSET UNITYSDK_OFFSET(0x1AB3E350)
+#define UNITYENGINE_ANIMATIONCURVE_CONSTANT_OFFSET UNITYSDK_OFFSET(0x1AB3E4B0)
+#define UNITYENGINE_ANIMATIONCURVE_EASEINOUT_OFFSET UNITYSDK_OFFSET(0x1AB3E620)
+#define UNITYENGINE_ANIMATIONCURVE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1AB3E860)
+#define UNITYENGINE_ANIMATIONCURVE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1AB3E7A0)
+#define UNITYENGINE_ANIMATIONCURVE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1AB3E300)
+#define UNITYENGINE_ANIMATIONCURVE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1AB3E290)
+#define UNITYENGINE_ANIMATIONCURVE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1AB3E8E0)
+#define UNITYENGINE_ANIMATIONCURVE_GETKEYS_OFFSET UNITYSDK_OFFSET(0x1AB3E320)
+#define UNITYENGINE_ANIMATIONCURVE_GETKEY_INJECTED_OFFSET UNITYSDK_OFFSET(0x1AB3E490)
+#define UNITYENGINE_ANIMATIONCURVE_GETKEY_OFFSET UNITYSDK_OFFSET(0x1AB3E430)
+#define UNITYENGINE_ANIMATIONCURVE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1AB3E3E0)
+#define UNITYENGINE_ANIMATIONCURVE_GET_KEYS_OFFSET UNITYSDK_OFFSET(0x1AB3E310)
+#define UNITYENGINE_ANIMATIONCURVE_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1AB3E480)
+#define UNITYENGINE_ANIMATIONCURVE_GET_POSTWRAPMODE_OFFSET UNITYSDK_OFFSET(0x1AB3E760)
+#define UNITYENGINE_ANIMATIONCURVE_GET_PREWRAPMODE_OFFSET UNITYSDK_OFFSET(0x1AB3E740)
+#define UNITYENGINE_ANIMATIONCURVE_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1AB3E270)
+#define UNITYENGINE_ANIMATIONCURVE_INTERNAL_DESTROY_OFFSET UNITYSDK_OFFSET(0x1AB3E260)
+#define UNITYENGINE_ANIMATIONCURVE_INTERNAL_EQUALS_OFFSET UNITYSDK_OFFSET(0x1AB3E280)
+#define UNITYENGINE_ANIMATIONCURVE_LINEAR_OFFSET UNITYSDK_OFFSET(0x1AB3E4C0)
+#define UNITYENGINE_ANIMATIONCURVE_MOVEKEY_INJECTED_OFFSET UNITYSDK_OFFSET(0x1AB3E3C0)
+#define UNITYENGINE_ANIMATIONCURVE_MOVEKEY_OFFSET UNITYSDK_OFFSET(0x1AB3E3B0)
+#define UNITYENGINE_ANIMATIONCURVE_REMOVEKEY_OFFSET UNITYSDK_OFFSET(0x1AB3E3D0)
+#define UNITYENGINE_ANIMATIONCURVE_SETKEYS_OFFSET UNITYSDK_OFFSET(0x1AB3E340)
+#define UNITYENGINE_ANIMATIONCURVE_SET_KEYS_OFFSET UNITYSDK_OFFSET(0x1AB3E330)
+#define UNITYENGINE_ANIMATIONCURVE_SET_POSTWRAPMODE_OFFSET UNITYSDK_OFFSET(0x1AB3E770)
+#define UNITYENGINE_ANIMATIONCURVE_SET_PREWRAPMODE_OFFSET UNITYSDK_OFFSET(0x1AB3E750)
+#define UNITYENGINE_ANIMATIONCURVE_SMOOTHTANGENTS_OFFSET UNITYSDK_OFFSET(0x1AB3E4A0)
+#define UNITYENGINE_ANIMATIONCURVE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AB3E780)
+#define UNITYENGINE_ANIMATIONCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB3E600)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnimationCurve_TypeDefinitionIndex = 3838;
+	inline static constexpr unsigned int AnimationCurve_TypeDefinitionIndex = 4012;
 
 	class AnimationCurve : public ::System::Object
 	{
 	public:
 		::System::IntPtr m_Ptr; // 0x10
 
-		::System::Void _ctor(::Il2CppArray<::UnityEngine::Keyframe>* keys)
+		::System::Void _ctor(::Il2CppArray<::UnityEngine::Keyframe>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Keyframe>*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE__CTOR_OFFSET))(this, keys);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Keyframe>*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1()
@@ -57,19 +57,19 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE__CTOR_1_OFFSET))(this);
 		}
 
-		static ::System::Void Internal_Destroy(::System::IntPtr ptr)
+		static ::System::Void Internal_Destroy(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_INTERNAL_DESTROY_OFFSET))(ptr);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_INTERNAL_DESTROY_OFFSET))(a1);
 		}
 
-		static ::System::IntPtr Internal_Create(::Il2CppArray<::UnityEngine::Keyframe>* keys)
+		static ::System::IntPtr Internal_Create(::Il2CppArray<::UnityEngine::Keyframe>* a1)
 		{
-			return ((::System::IntPtr(*)(::Il2CppArray<::UnityEngine::Keyframe>*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_INTERNAL_CREATE_OFFSET))(keys);
+			return ((::System::IntPtr(*)(::Il2CppArray<::UnityEngine::Keyframe>*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_INTERNAL_CREATE_OFFSET))(a1);
 		}
 
-		::System::Boolean Internal_Equals(::System::IntPtr other)
+		::System::Boolean Internal_Equals(::System::IntPtr a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_INTERNAL_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_INTERNAL_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Void Finalize()
@@ -77,9 +77,9 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_FINALIZE_OFFSET))(this);
 		}
 
-		::System::Single Evaluate(::System::Single time)
+		::System::Single Evaluate(::System::Single a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_EVALUATE_OFFSET))(this, time);
+			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_EVALUATE_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::UnityEngine::Keyframe>* get_keys()
@@ -87,39 +87,39 @@ namespace UnityEngine
 			return ((::Il2CppArray<::UnityEngine::Keyframe>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_GET_KEYS_OFFSET))(this);
 		}
 
-		::System::Void set_keys(::Il2CppArray<::UnityEngine::Keyframe>* value)
+		::System::Void set_keys(::Il2CppArray<::UnityEngine::Keyframe>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Keyframe>*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_SET_KEYS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Keyframe>*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_SET_KEYS_OFFSET))(this, a1);
 		}
 
-		::System::Int32 AddKey(::System::Single time, ::System::Single value)
+		::System::Int32 AddKey(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_ADDKEY_OFFSET))(this, time, value);
+			return ((::System::Int32(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_ADDKEY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 AddKey_1(::UnityEngine::Keyframe key)
+		::System::Int32 AddKey_1(::UnityEngine::Keyframe a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Keyframe))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_ADDKEY_1_OFFSET))(this, key);
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Keyframe))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_ADDKEY_1_OFFSET))(this, a1);
 		}
 
-		::System::Int32 AddKey_Internal(::UnityEngine::Keyframe key)
+		::System::Int32 AddKey_Internal(::UnityEngine::Keyframe a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Keyframe))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_ADDKEY_INTERNAL_OFFSET))(this, key);
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Keyframe))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_ADDKEY_INTERNAL_OFFSET))(this, a1);
 		}
 
-		::System::Int32 MoveKey(::System::Int32 index, ::UnityEngine::Keyframe key)
+		::System::Int32 MoveKey(::System::Int32 a1, ::UnityEngine::Keyframe a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::UnityEngine::Keyframe))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_MOVEKEY_OFFSET))(this, index, key);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::UnityEngine::Keyframe))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_MOVEKEY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RemoveKey(::System::Int32 index)
+		::System::Void RemoveKey(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_REMOVEKEY_OFFSET))(this, index);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_REMOVEKEY_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Keyframe get_Item(::System::Int32 index)
+		::UnityEngine::Keyframe get_Item(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Keyframe(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_GET_ITEM_OFFSET))(this, index);
+			return ((::UnityEngine::Keyframe(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_GET_ITEM_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_length()
@@ -127,14 +127,14 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_GET_LENGTH_OFFSET))(this);
 		}
 
-		::System::Void SetKeys(::Il2CppArray<::UnityEngine::Keyframe>* keys)
+		::System::Void SetKeys(::Il2CppArray<::UnityEngine::Keyframe>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Keyframe>*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_SETKEYS_OFFSET))(this, keys);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Keyframe>*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_SETKEYS_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Keyframe GetKey(::System::Int32 index)
+		::UnityEngine::Keyframe GetKey(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Keyframe(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_GETKEY_OFFSET))(this, index);
+			return ((::UnityEngine::Keyframe(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_GETKEY_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::UnityEngine::Keyframe>* GetKeys()
@@ -142,24 +142,24 @@ namespace UnityEngine
 			return ((::Il2CppArray<::UnityEngine::Keyframe>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_GETKEYS_OFFSET))(this);
 		}
 
-		::System::Void SmoothTangents(::System::Int32 index, ::System::Single weight)
+		::System::Void SmoothTangents(::System::Int32 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_SMOOTHTANGENTS_OFFSET))(this, index, weight);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_SMOOTHTANGENTS_OFFSET))(this, a1, a2);
 		}
 
-		static ::UnityEngine::AnimationCurve* Constant(::System::Single timeStart, ::System::Single timeEnd, ::System::Single value)
+		static ::UnityEngine::AnimationCurve* Constant(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::UnityEngine::AnimationCurve*(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_CONSTANT_OFFSET))(timeStart, timeEnd, value);
+			return ((::UnityEngine::AnimationCurve*(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_CONSTANT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::AnimationCurve* Linear(::System::Single timeStart, ::System::Single valueStart, ::System::Single timeEnd, ::System::Single valueEnd)
+		static ::UnityEngine::AnimationCurve* Linear(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::UnityEngine::AnimationCurve*(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_LINEAR_OFFSET))(timeStart, valueStart, timeEnd, valueEnd);
+			return ((::UnityEngine::AnimationCurve*(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_LINEAR_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::UnityEngine::AnimationCurve* EaseInOut(::System::Single timeStart, ::System::Single valueStart, ::System::Single timeEnd, ::System::Single valueEnd)
+		static ::UnityEngine::AnimationCurve* EaseInOut(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::UnityEngine::AnimationCurve*(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_EASEINOUT_OFFSET))(timeStart, valueStart, timeEnd, valueEnd);
+			return ((::UnityEngine::AnimationCurve*(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_EASEINOUT_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::UnityEngine::WrapMode get_preWrapMode()
@@ -167,9 +167,9 @@ namespace UnityEngine
 			return ((::UnityEngine::WrapMode(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_GET_PREWRAPMODE_OFFSET))(this);
 		}
 
-		::System::Void set_preWrapMode(::UnityEngine::WrapMode value)
+		::System::Void set_preWrapMode(::UnityEngine::WrapMode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::WrapMode))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_SET_PREWRAPMODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::WrapMode))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_SET_PREWRAPMODE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::WrapMode get_postWrapMode()
@@ -177,19 +177,19 @@ namespace UnityEngine
 			return ((::UnityEngine::WrapMode(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_GET_POSTWRAPMODE_OFFSET))(this);
 		}
 
-		::System::Void set_postWrapMode(::UnityEngine::WrapMode value)
+		::System::Void set_postWrapMode(::UnityEngine::WrapMode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::WrapMode))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_SET_POSTWRAPMODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::WrapMode))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_SET_POSTWRAPMODE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::System::Object* o)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_EQUALS_OFFSET))(this, o);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::UnityEngine::AnimationCurve* other)
+		::System::Boolean Equals_1(::UnityEngine::AnimationCurve* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -197,19 +197,19 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Int32 AddKey_Internal_Injected(::UnityEngine::Keyframe& key)
+		::System::Int32 AddKey_Internal_Injected(::UnityEngine::Keyframe& a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Keyframe&))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_ADDKEY_INTERNAL_INJECTED_OFFSET))(this, key);
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Keyframe&))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_ADDKEY_INTERNAL_INJECTED_OFFSET))(this, a1);
 		}
 
-		::System::Int32 MoveKey_Injected(::System::Int32 index, ::UnityEngine::Keyframe& key)
+		::System::Int32 MoveKey_Injected(::System::Int32 a1, ::UnityEngine::Keyframe& a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::UnityEngine::Keyframe&))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_MOVEKEY_INJECTED_OFFSET))(this, index, key);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::UnityEngine::Keyframe&))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_MOVEKEY_INJECTED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void GetKey_Injected(::System::Int32 index, ::UnityEngine::Keyframe& ret)
+		::System::Void GetKey_Injected(::System::Int32 a1, ::UnityEngine::Keyframe& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Keyframe&))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_GETKEY_INJECTED_OFFSET))(this, index, ret);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Keyframe&))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONCURVE_GETKEY_INJECTED_OFFSET))(this, a1, a2);
 		}
 	};
 }

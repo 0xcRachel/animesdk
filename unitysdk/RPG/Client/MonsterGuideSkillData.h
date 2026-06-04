@@ -6,18 +6,18 @@ namespace RPG::GameCore { class MonsterGuideSkillConfigRow; }
 namespace RPG::GameCore { class MonsterGuideSkillTextConfigRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONSTERGUIDESKILLDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0x137167C0)
-#define RPG_CLIENT_MONSTERGUIDESKILLDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0x13716800)
-#define RPG_CLIENT_MONSTERGUIDESKILLDATA_GET_SKILLTEXTLIST_OFFSET UNITYSDK_OFFSET(0x137167E0)
-#define RPG_CLIENT_MONSTERGUIDESKILLDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0x137167D0)
-#define RPG_CLIENT_MONSTERGUIDESKILLDATA_SET_ROW_OFFSET UNITYSDK_OFFSET(0x13716810)
-#define RPG_CLIENT_MONSTERGUIDESKILLDATA_SET_SKILLTEXTLIST_OFFSET UNITYSDK_OFFSET(0x137167F0)
-#define RPG_CLIENT_MONSTERGUIDESKILLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13716540)
-#define RPG_CLIENT_MONSTERGUIDESKILLDATA__INITSKILLTEXT_OFFSET UNITYSDK_OFFSET(0x13716640)
+#define RPG_CLIENT_MONSTERGUIDESKILLDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0x169A9FD0)
+#define RPG_CLIENT_MONSTERGUIDESKILLDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0x169AA010)
+#define RPG_CLIENT_MONSTERGUIDESKILLDATA_GET_SKILLTEXTLIST_OFFSET UNITYSDK_OFFSET(0x169A9FF0)
+#define RPG_CLIENT_MONSTERGUIDESKILLDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0x169A9FE0)
+#define RPG_CLIENT_MONSTERGUIDESKILLDATA_SET_ROW_OFFSET UNITYSDK_OFFSET(0x169AA020)
+#define RPG_CLIENT_MONSTERGUIDESKILLDATA_SET_SKILLTEXTLIST_OFFSET UNITYSDK_OFFSET(0x169AA000)
+#define RPG_CLIENT_MONSTERGUIDESKILLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x169A9F30)
+#define RPG_CLIENT_MONSTERGUIDESKILLDATA__INITSKILLTEXT_OFFSET UNITYSDK_OFFSET(0x169AA030)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonsterGuideSkillData_TypeDefinitionIndex = 58159;
+	inline static constexpr unsigned int MonsterGuideSkillData_TypeDefinitionIndex = 59089;
 
 	class MonsterGuideSkillData : public ::System::Object
 	{
@@ -26,14 +26,9 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::RPG::GameCore::MonsterGuideSkillTextConfigRow*>* _SkillTextList_k__BackingField; // 0x18
 		::System::UInt32 _ID_k__BackingField; // 0x20
 
-		::System::Void _ctor(::System::UInt32 id)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDESKILLDATA__CTOR_OFFSET))(this, id);
-		}
-
-		::System::Void _InitSkillText()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDESKILLDATA__INITSKILLTEXT_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDESKILLDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ID()
@@ -41,9 +36,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDESKILLDATA_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDESKILLDATA_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDESKILLDATA_SET_ID_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::GameCore::MonsterGuideSkillTextConfigRow*>* get_SkillTextList()
@@ -51,9 +46,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::GameCore::MonsterGuideSkillTextConfigRow*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDESKILLDATA_GET_SKILLTEXTLIST_OFFSET))(this);
 		}
 
-		::System::Void set_SkillTextList(::System::Collections::Generic::List_1<::RPG::GameCore::MonsterGuideSkillTextConfigRow*>* value)
+		::System::Void set_SkillTextList(::System::Collections::Generic::List_1<::RPG::GameCore::MonsterGuideSkillTextConfigRow*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::MonsterGuideSkillTextConfigRow*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDESKILLDATA_SET_SKILLTEXTLIST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::MonsterGuideSkillTextConfigRow*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDESKILLDATA_SET_SKILLTEXTLIST_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::MonsterGuideSkillConfigRow* get_Row()
@@ -61,9 +56,14 @@ namespace RPG::Client
 			return ((::RPG::GameCore::MonsterGuideSkillConfigRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDESKILLDATA_GET_ROW_OFFSET))(this);
 		}
 
-		::System::Void set_Row(::RPG::GameCore::MonsterGuideSkillConfigRow* value)
+		::System::Void set_Row(::RPG::GameCore::MonsterGuideSkillConfigRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MonsterGuideSkillConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDESKILLDATA_SET_ROW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MonsterGuideSkillConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDESKILLDATA_SET_ROW_OFFSET))(this, a1);
+		}
+
+		::System::Void _InitSkillText()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDESKILLDATA__INITSKILLTEXT_OFFSET))(this);
 		}
 	};
 }

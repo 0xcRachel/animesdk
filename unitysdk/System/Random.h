@@ -2,36 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_RANDOM_GETSAMPLEFORLARGERANGE_OFFSET UNITYSDK_OFFSET(0x19045EB0)
-#define SYSTEM_RANDOM_INTERNALSAMPLE_OFFSET UNITYSDK_OFFSET(0x19045DF0)
-#define SYSTEM_RANDOM_NEXTBYTES_OFFSET UNITYSDK_OFFSET(0x190460E0)
-#define SYSTEM_RANDOM_NEXTDOUBLE_OFFSET UNITYSDK_OFFSET(0x190460D0)
-#define SYSTEM_RANDOM_NEXT_1_OFFSET UNITYSDK_OFFSET(0x19045EF0)
-#define SYSTEM_RANDOM_NEXT_2_OFFSET UNITYSDK_OFFSET(0x19046020)
-#define SYSTEM_RANDOM_NEXT_OFFSET UNITYSDK_OFFSET(0x19045EA0)
-#define SYSTEM_RANDOM_SAMPLE_OFFSET UNITYSDK_OFFSET(0x19045DD0)
-#define SYSTEM_RANDOM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19045B10)
-#define SYSTEM_RANDOM__CTOR_OFFSET UNITYSDK_OFFSET(0x190413C0)
+#define SYSTEM_RANDOM_GETSAMPLEFORLARGERANGE_OFFSET UNITYSDK_OFFSET(0x197AB850)
+#define SYSTEM_RANDOM_INTERNALSAMPLE_OFFSET UNITYSDK_OFFSET(0x197AB710)
+#define SYSTEM_RANDOM_NEXTBYTES_OFFSET UNITYSDK_OFFSET(0x197ABB50)
+#define SYSTEM_RANDOM_NEXTDOUBLE_OFFSET UNITYSDK_OFFSET(0x197ABB40)
+#define SYSTEM_RANDOM_NEXT_1_OFFSET UNITYSDK_OFFSET(0x197AB990)
+#define SYSTEM_RANDOM_NEXT_2_OFFSET UNITYSDK_OFFSET(0x197ABA90)
+#define SYSTEM_RANDOM_NEXT_OFFSET UNITYSDK_OFFSET(0x197AB7B0)
+#define SYSTEM_RANDOM_SAMPLE_OFFSET UNITYSDK_OFFSET(0x197AB660)
+#define SYSTEM_RANDOM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x197AB3B0)
+#define SYSTEM_RANDOM__CTOR_OFFSET UNITYSDK_OFFSET(0x197A50C0)
 
 namespace System
 {
-	inline static constexpr unsigned int Random_TypeDefinitionIndex = 315;
+	inline static constexpr unsigned int Random_TypeDefinitionIndex = 314;
 
 	class Random : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Int32>* SeedArray; // 0x10
-		::System::Int32 inextp; // 0x18
-		::System::Int32 inext; // 0x1C
+		::System::Int32 inext; // 0x18
+		::System::Int32 inextp; // 0x1C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RANDOM__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Int32 Seed)
+		::System::Void _ctor_1(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RANDOM__CTOR_1_OFFSET))(this, Seed);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RANDOM__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Double Sample()
@@ -54,14 +54,14 @@ namespace System
 			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RANDOM_GETSAMPLEFORLARGERANGE_OFFSET))(this);
 		}
 
-		::System::Int32 Next_1(::System::Int32 minValue, ::System::Int32 maxValue)
+		::System::Int32 Next_1(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RANDOM_NEXT_1_OFFSET))(this, minValue, maxValue);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RANDOM_NEXT_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 Next_2(::System::Int32 maxValue)
+		::System::Int32 Next_2(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RANDOM_NEXT_2_OFFSET))(this, maxValue);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RANDOM_NEXT_2_OFFSET))(this, a1);
 		}
 
 		::System::Double NextDouble()
@@ -69,9 +69,9 @@ namespace System
 			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RANDOM_NEXTDOUBLE_OFFSET))(this);
 		}
 
-		::System::Void NextBytes(::Il2CppArray<::System::Byte>* buffer)
+		::System::Void NextBytes(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_RANDOM_NEXTBYTES_OFFSET))(this, buffer);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_RANDOM_NEXTBYTES_OFFSET))(this, a1);
 		}
 	};
 }

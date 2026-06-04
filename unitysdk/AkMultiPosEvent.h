@@ -6,10 +6,10 @@
 class AkAmbient;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AKMULTIPOSEVENT_FINISHEDPLAYING_OFFSET UNITYSDK_OFFSET(0x196E7F40)
-#define AKMULTIPOSEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x196E7FA0)
+#define AKMULTIPOSEVENT_FINISHEDPLAYING_OFFSET UNITYSDK_OFFSET(0x1A2745A0)
+#define AKMULTIPOSEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A274600)
 
-inline static constexpr unsigned int AkMultiPosEvent_TypeDefinitionIndex = 40463;
+inline static constexpr unsigned int AkMultiPosEvent_TypeDefinitionIndex = 41290;
 
 class AkMultiPosEvent : public ::System::Object
 {
@@ -22,8 +22,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMULTIPOSEVENT__CTOR_OFFSET))(this);
 	}
 
-	::System::Void FinishedPlaying(::System::Object* in_cookie, ::AkCallbackType in_type, ::System::Object* in_info)
+	::System::Void FinishedPlaying(::System::Object* a1, ::AkCallbackType a2, ::System::Object* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*, ::AkCallbackType, ::System::Object*))((::PBYTE)hIl2Cpp + AKMULTIPOSEVENT_FINISHEDPLAYING_OFFSET))(this, in_cookie, in_type, in_info);
+		return ((::System::Void(*)(::PVOID, ::System::Object*, ::AkCallbackType, ::System::Object*))((::PBYTE)hIl2Cpp + AKMULTIPOSEVENT_FINISHEDPLAYING_OFFSET))(this, a1, a2, a3);
 	}
 };

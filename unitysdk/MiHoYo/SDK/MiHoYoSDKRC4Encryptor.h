@@ -6,30 +6,30 @@
 namespace System { class String; }
 namespace System::Text { class Encoding; }
 
-#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_BYTETOHEX_OFFSET UNITYSDK_OFFSET(0x1728EFF0)
-#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_DECRYPT_1_OFFSET UNITYSDK_OFFSET(0x1728F140)
-#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_DECRYPT_2_OFFSET UNITYSDK_OFFSET(0x1728F3E0)
-#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_DECRYPT_3_OFFSET UNITYSDK_OFFSET(0x1728F1F0)
-#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_DECRYPT_OFFSET UNITYSDK_OFFSET(0x1728F130)
-#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_ENCRYPT_1_OFFSET UNITYSDK_OFFSET(0x1728EBC0)
-#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_ENCRYPT_2_OFFSET UNITYSDK_OFFSET(0x1728F3D0)
-#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_ENCRYPT_3_OFFSET UNITYSDK_OFFSET(0x1728ED60)
-#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_ENCRYPT_OFFSET UNITYSDK_OFFSET(0x1726CBF0)
-#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_GETKEY_OFFSET UNITYSDK_OFFSET(0x1728F3F0)
-#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_GET_ENCODERMODE_OFFSET UNITYSDK_OFFSET(0x1728EAB0)
-#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_GET_ENCODING_OFFSET UNITYSDK_OFFSET(0x1728EA90)
-#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1728EA70)
-#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_GET_RC4_OFFSET UNITYSDK_OFFSET(0x1728EAD0)
-#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_HEXTOBYTE_OFFSET UNITYSDK_OFFSET(0x1728F200)
-#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_SET_ENCODERMODE_OFFSET UNITYSDK_OFFSET(0x1728EAC0)
-#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_SET_ENCODING_OFFSET UNITYSDK_OFFSET(0x1728EAA0)
-#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_SET_KEY_OFFSET UNITYSDK_OFFSET(0x1728EA80)
-#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_SUBCONVERTTOBASE64_OFFSET UNITYSDK_OFFSET(0x1728F5F0)
-#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1726CB40)
+#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_BYTETOHEX_OFFSET UNITYSDK_OFFSET(0x16AADD20)
+#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_DECRYPT_1_OFFSET UNITYSDK_OFFSET(0x16AAE120)
+#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_DECRYPT_2_OFFSET UNITYSDK_OFFSET(0x16AAE3B0)
+#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_DECRYPT_3_OFFSET UNITYSDK_OFFSET(0x16AAE1D0)
+#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_DECRYPT_OFFSET UNITYSDK_OFFSET(0x16AAE110)
+#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_ENCRYPT_1_OFFSET UNITYSDK_OFFSET(0x16AAD950)
+#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_ENCRYPT_2_OFFSET UNITYSDK_OFFSET(0x16AAE3A0)
+#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_ENCRYPT_3_OFFSET UNITYSDK_OFFSET(0x16AADAF0)
+#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_ENCRYPT_OFFSET UNITYSDK_OFFSET(0x16AAD940)
+#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_GETKEY_OFFSET UNITYSDK_OFFSET(0x16AAE3C0)
+#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_GET_ENCODERMODE_OFFSET UNITYSDK_OFFSET(0x16AAD830)
+#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_GET_ENCODING_OFFSET UNITYSDK_OFFSET(0x16AAD810)
+#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_GET_KEY_OFFSET UNITYSDK_OFFSET(0x16AAD7F0)
+#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_GET_RC4_OFFSET UNITYSDK_OFFSET(0x16AAD850)
+#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_HEXTOBYTE_OFFSET UNITYSDK_OFFSET(0x16AAE1E0)
+#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_SET_ENCODERMODE_OFFSET UNITYSDK_OFFSET(0x16AAD840)
+#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_SET_ENCODING_OFFSET UNITYSDK_OFFSET(0x16AAD820)
+#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_SET_KEY_OFFSET UNITYSDK_OFFSET(0x16AAD800)
+#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_SUBCONVERTTOBASE64_OFFSET UNITYSDK_OFFSET(0x16AAE590)
+#define MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x16AAD740)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKRC4Encryptor_TypeDefinitionIndex = 43086;
+	inline static constexpr unsigned int MiHoYoSDKRC4Encryptor_TypeDefinitionIndex = 43889;
 
 	class MiHoYoSDKRC4Encryptor : public ::System::Object
 	{
@@ -48,9 +48,9 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_GET_KEY_OFFSET))(this);
 		}
 
-		::System::Void set_Key(::System::String* value)
+		::System::Void set_Key(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_SET_KEY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_SET_KEY_OFFSET))(this, a1);
 		}
 
 		::System::Text::Encoding* get_encoding()
@@ -58,9 +58,9 @@ namespace MiHoYo::SDK
 			return ((::System::Text::Encoding*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_GET_ENCODING_OFFSET))(this);
 		}
 
-		::System::Void set_encoding(::System::Text::Encoding* value)
+		::System::Void set_encoding(::System::Text::Encoding* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_SET_ENCODING_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_SET_ENCODING_OFFSET))(this, a1);
 		}
 
 		::MiHoYo::SDK::MiHoYoSDKRC4Encryptor_EncoderMode get_encoderMode()
@@ -68,9 +68,9 @@ namespace MiHoYo::SDK
 			return ((::MiHoYo::SDK::MiHoYoSDKRC4Encryptor_EncoderMode(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_GET_ENCODERMODE_OFFSET))(this);
 		}
 
-		::System::Void set_encoderMode(::MiHoYo::SDK::MiHoYoSDKRC4Encryptor_EncoderMode value)
+		::System::Void set_encoderMode(::MiHoYo::SDK::MiHoYoSDKRC4Encryptor_EncoderMode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKRC4Encryptor_EncoderMode))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_SET_ENCODERMODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKRC4Encryptor_EncoderMode))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_SET_ENCODERMODE_OFFSET))(this, a1);
 		}
 
 		static ::MiHoYo::SDK::MiHoYoSDKRC4Encryptor* get_RC4()
@@ -78,64 +78,64 @@ namespace MiHoYo::SDK
 			return ((::MiHoYo::SDK::MiHoYoSDKRC4Encryptor*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_GET_RC4_OFFSET))();
 		}
 
-		::System::String* Encrypt(::System::String* data)
+		::System::String* Encrypt(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_ENCRYPT_OFFSET))(this, data);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_ENCRYPT_OFFSET))(this, a1);
 		}
 
-		::System::String* Encrypt_1(::System::String* data, ::System::String* key, ::MiHoYo::SDK::MiHoYoSDKRC4Encryptor_EncoderMode em)
+		::System::String* Encrypt_1(::System::String* a1, ::System::String* a2, ::MiHoYo::SDK::MiHoYoSDKRC4Encryptor_EncoderMode a3)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*, ::MiHoYo::SDK::MiHoYoSDKRC4Encryptor_EncoderMode))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_ENCRYPT_1_OFFSET))(this, data, key, em);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*, ::MiHoYo::SDK::MiHoYoSDKRC4Encryptor_EncoderMode))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_ENCRYPT_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::String* Decrypt(::System::String* data)
+		::System::String* Decrypt(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_DECRYPT_OFFSET))(this, data);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_DECRYPT_OFFSET))(this, a1);
 		}
 
-		::System::String* Decrypt_1(::System::String* data, ::System::String* key, ::MiHoYo::SDK::MiHoYoSDKRC4Encryptor_EncoderMode em)
+		::System::String* Decrypt_1(::System::String* a1, ::System::String* a2, ::MiHoYo::SDK::MiHoYoSDKRC4Encryptor_EncoderMode a3)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*, ::MiHoYo::SDK::MiHoYoSDKRC4Encryptor_EncoderMode))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_DECRYPT_1_OFFSET))(this, data, key, em);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*, ::MiHoYo::SDK::MiHoYoSDKRC4Encryptor_EncoderMode))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_DECRYPT_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::String* Encrypt_2(::System::String* data, ::System::String* key)
+		::System::String* Encrypt_2(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_ENCRYPT_2_OFFSET))(this, data, key);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_ENCRYPT_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::String* Decrypt_2(::System::String* data, ::System::String* key)
+		::System::String* Decrypt_2(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_DECRYPT_2_OFFSET))(this, data, key);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_DECRYPT_2_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::System::Byte>* HexToByte(::System::String* hex)
+		::Il2CppArray<::System::Byte>* HexToByte(::System::String* a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_HEXTOBYTE_OFFSET))(this, hex);
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_HEXTOBYTE_OFFSET))(this, a1);
 		}
 
-		::System::String* ByteToHex(::Il2CppArray<::System::Byte>* bytes)
+		::System::String* ByteToHex(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_BYTETOHEX_OFFSET))(this, bytes);
+			return ((::System::String*(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_BYTETOHEX_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Byte>* Encrypt_3(::Il2CppArray<::System::Byte>* data, ::System::String* key)
+		::Il2CppArray<::System::Byte>* Encrypt_3(::Il2CppArray<::System::Byte>* a1, ::System::String* a2)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_ENCRYPT_3_OFFSET))(this, data, key);
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_ENCRYPT_3_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::System::Byte>* Decrypt_3(::Il2CppArray<::System::Byte>* data, ::System::String* key)
+		::Il2CppArray<::System::Byte>* Decrypt_3(::Il2CppArray<::System::Byte>* a1, ::System::String* a2)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_DECRYPT_3_OFFSET))(this, data, key);
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_DECRYPT_3_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::System::Byte>* GetKey(::Il2CppArray<::System::Byte>* pass, ::System::Int32 kLen)
+		::Il2CppArray<::System::Byte>* GetKey(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_GETKEY_OFFSET))(this, pass, kLen);
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_GETKEY_OFFSET))(this, a1, a2);
 		}
 
-		::System::String* SubConvertToBase64(::Il2CppArray<::System::Byte>* data, ::System::Int32 bufferSizeInbytesDiv3)
+		::System::String* SubConvertToBase64(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_SUBCONVERTTOBASE64_OFFSET))(this, data, bufferSizeInbytesDiv3);
+			return ((::System::String*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRC4ENCRYPTOR_SUBCONVERTTOBASE64_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelEntitlementsResult; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelGooglePlay; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS16_0__CHECKENTITLEMENTS_B__0_OFFSET UNITYSDK_OFFSET(0x17421370)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1741F220)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS16_0__CHECKENTITLEMENTS_B__0_OFFSET UNITYSDK_OFFSET(0x1869BCF0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18699B80)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass16_0_TypeDefinitionIndex = 7538;
+	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass16_0_TypeDefinitionIndex = 8441;
 
 	class HoYoChannelGooglePlay___c__DisplayClass16_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace MiHoYo::SDK::PC::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS16_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _CheckEntitlements_b__0(::MiHoYo::SDK::PC::OS::HoYoChannelEntitlementsResult* result)
+		::System::Void _CheckEntitlements_b__0(::MiHoYo::SDK::PC::OS::HoYoChannelEntitlementsResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PC::OS::HoYoChannelEntitlementsResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS16_0__CHECKENTITLEMENTS_B__0_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PC::OS::HoYoChannelEntitlementsResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS16_0__CHECKENTITLEMENTS_B__0_OFFSET))(this, a1);
 		}
 	};
 }

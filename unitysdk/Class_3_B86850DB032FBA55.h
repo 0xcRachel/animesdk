@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsInCharmAction; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B86850DB032FBA55_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDEBEE90)
-#define CLASS_3_B86850DB032FBA55__CTOR_OFFSET UNITYSDK_OFFSET(0xDEBEE60)
+#define CLASS_3_B86850DB032FBA55_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13FDF8C0)
+#define CLASS_3_B86850DB032FBA55__CTOR_OFFSET UNITYSDK_OFFSET(0x13FDF890)
 
-inline static constexpr unsigned int Class_3_B86850DB032FBA55_TypeDefinitionIndex = 50440;
+inline static constexpr unsigned int Class_3_B86850DB032FBA55_TypeDefinitionIndex = 51105;
 
 class Class_3_B86850DB032FBA55 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsInCharmAction*>
 {

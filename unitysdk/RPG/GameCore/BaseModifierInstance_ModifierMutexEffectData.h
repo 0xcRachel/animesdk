@@ -7,26 +7,26 @@
 
 namespace System { class String; }
 
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_MODIFIERMUTEXEFFECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11D247F0)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_MODIFIERMUTEXEFFECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x141967B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BaseModifierInstance_ModifierMutexEffectData_TypeDefinitionIndex = 50210;
+	inline static constexpr unsigned int BaseModifierInstance_ModifierMutexEffectData_TypeDefinitionIndex = 50876;
 
 	class BaseModifierInstance_ModifierMutexEffectData : public ::System::Object
 	{
 	public:
-		::System::String* DynamicAttach; // 0x10
-		::Il2CppArray<::RPG::GameCore::MonoEffectFlag>* Flag; // 0x18
-		::System::String* EffectPath; // 0x20
-		::System::Int32 MaxMutexCount; // 0x28
+		::Il2CppArray<::RPG::GameCore::MonoEffectFlag>* Flag; // 0x10
+		::System::String* EffectPath; // 0x18
+		::System::String* DynamicAttach; // 0x20
+		::System::Single MinMutexTime; // 0x28
 		::RPG::GameCore::EffectMutexType MutexType; // 0x2C
 		::RPG::MVector3 PositionOffset; // 0x30
-		::System::Single MinMutexTime; // 0x3C
+		::System::Int32 MaxMutexCount; // 0x3C
 
-		::System::Void _ctor(::System::String* sEffectPath, ::System::String* sDynamicAttach, ::RPG::MVector3 vPositionOffset, ::Il2CppArray<::RPG::GameCore::MonoEffectFlag>* pFlag, ::RPG::GameCore::EffectMutexType pMutexType, ::System::Single fMinMutexTime, ::System::Int32 iMaxMutexCount)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::RPG::MVector3 a3, ::Il2CppArray<::RPG::GameCore::MonoEffectFlag>* a4, ::RPG::GameCore::EffectMutexType a5, ::System::Single a6, ::System::Int32 a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::RPG::MVector3, ::Il2CppArray<::RPG::GameCore::MonoEffectFlag>*, ::RPG::GameCore::EffectMutexType, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE_MODIFIERMUTEXEFFECTDATA__CTOR_OFFSET))(this, sEffectPath, sDynamicAttach, vPositionOffset, pFlag, pMutexType, fMinMutexTime, iMaxMutexCount);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::RPG::MVector3, ::Il2CppArray<::RPG::GameCore::MonoEffectFlag>*, ::RPG::GameCore::EffectMutexType, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEMODIFIERINSTANCE_MODIFIERMUTEXEFFECTDATA__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 	};
 }

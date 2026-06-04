@@ -5,11 +5,11 @@
 #include "unitysdk/Code/MonoBehavior/Level/MonoTrainPartyBuildEffectSetting_ShaderVector.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define CODE_MONOBEHAVIOR_LEVEL_MONOTRAINPARTYBUILDEFFECTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xECF1600)
+#define CODE_MONOBEHAVIOR_LEVEL_MONOTRAINPARTYBUILDEFFECTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x14E48DD0)
 
 namespace Code::MonoBehavior::Level
 {
-	inline static constexpr unsigned int MonoTrainPartyBuildEffectSetting_TypeDefinitionIndex = 46282;
+	inline static constexpr unsigned int MonoTrainPartyBuildEffectSetting_TypeDefinitionIndex = 46872;
 
 	class MonoTrainPartyBuildEffectSetting : public ::UnityEngine::MonoBehaviour
 	{

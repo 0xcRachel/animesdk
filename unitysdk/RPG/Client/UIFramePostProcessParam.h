@@ -5,13 +5,13 @@
 
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_UIFRAMEPOSTPROCESSPARAM_CLONE_OFFSET UNITYSDK_OFFSET(0x12F15460)
-#define RPG_CLIENT_UIFRAMEPOSTPROCESSPARAM_CREATEBLURPOSTPROCESSPARAM_OFFSET UNITYSDK_OFFSET(0x12F157D0)
-#define RPG_CLIENT_UIFRAMEPOSTPROCESSPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x12F15850)
+#define RPG_CLIENT_UIFRAMEPOSTPROCESSPARAM_CLONE_OFFSET UNITYSDK_OFFSET(0x144084C0)
+#define RPG_CLIENT_UIFRAMEPOSTPROCESSPARAM_CREATEBLURPOSTPROCESSPARAM_OFFSET UNITYSDK_OFFSET(0x14408800)
+#define RPG_CLIENT_UIFRAMEPOSTPROCESSPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x14408880)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIFramePostProcessParam_TypeDefinitionIndex = 67279;
+	inline static constexpr unsigned int UIFramePostProcessParam_TypeDefinitionIndex = 68231;
 
 	class UIFramePostProcessParam : public ::System::Object
 	{
@@ -29,9 +29,9 @@ namespace RPG::Client
 			return ((::RPG::Client::UIFramePostProcessParam*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMEPOSTPROCESSPARAM_CREATEBLURPOSTPROCESSPARAM_OFFSET))();
 		}
 
-		static ::RPG::Client::UIFramePostProcessParam* Clone(::RPG::Client::UIFramePostProcessParam* param)
+		static ::RPG::Client::UIFramePostProcessParam* Clone(::RPG::Client::UIFramePostProcessParam* a1)
 		{
-			return ((::RPG::Client::UIFramePostProcessParam*(*)(::RPG::Client::UIFramePostProcessParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMEPOSTPROCESSPARAM_CLONE_OFFSET))(param);
+			return ((::RPG::Client::UIFramePostProcessParam*(*)(::RPG::Client::UIFramePostProcessParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMEPOSTPROCESSPARAM_CLONE_OFFSET))(a1);
 		}
 	};
 }

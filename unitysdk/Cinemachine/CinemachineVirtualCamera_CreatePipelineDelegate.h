@@ -10,36 +10,36 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x167D69D0)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x167D6A10)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x167D5A00)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x167D69B0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x151120D0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x15112110)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x15111650)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x15111FE0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineVirtualCamera_CreatePipelineDelegate_TypeDefinitionIndex = 36528;
+	inline static constexpr unsigned int CinemachineVirtualCamera_CreatePipelineDelegate_TypeDefinitionIndex = 36828;
 
 	class CinemachineVirtualCamera_CreatePipelineDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Transform* Invoke(::Cinemachine::CinemachineVirtualCamera* vcam, ::System::String* name, ::Il2CppArray<::Cinemachine::CinemachineComponentBase*>* copyFrom)
+		::UnityEngine::Transform* Invoke(::Cinemachine::CinemachineVirtualCamera* a1, ::System::String* a2, ::Il2CppArray<::Cinemachine::CinemachineComponentBase*>* a3)
 		{
-			return ((::UnityEngine::Transform*(*)(::PVOID, ::Cinemachine::CinemachineVirtualCamera*, ::System::String*, ::Il2CppArray<::Cinemachine::CinemachineComponentBase*>*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE_INVOKE_OFFSET))(this, vcam, name, copyFrom);
+			return ((::UnityEngine::Transform*(*)(::PVOID, ::Cinemachine::CinemachineVirtualCamera*, ::System::String*, ::Il2CppArray<::Cinemachine::CinemachineComponentBase*>*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Cinemachine::CinemachineVirtualCamera* vcam, ::System::String* name, ::Il2CppArray<::Cinemachine::CinemachineComponentBase*>* copyFrom, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Cinemachine::CinemachineVirtualCamera* a1, ::System::String* a2, ::Il2CppArray<::Cinemachine::CinemachineComponentBase*>* a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Cinemachine::CinemachineVirtualCamera*, ::System::String*, ::Il2CppArray<::Cinemachine::CinemachineComponentBase*>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE_BEGININVOKE_OFFSET))(this, vcam, name, copyFrom, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Cinemachine::CinemachineVirtualCamera*, ::System::String*, ::Il2CppArray<::Cinemachine::CinemachineComponentBase*>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::UnityEngine::Transform* EndInvoke(::System::IAsyncResult* result)
+		::UnityEngine::Transform* EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::UnityEngine::Transform*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::UnityEngine::Transform*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERA_CREATEPIPELINEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

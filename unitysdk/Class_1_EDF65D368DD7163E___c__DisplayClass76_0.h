@@ -6,10 +6,10 @@
 class Class_1_EDF65D368DD7163E;
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define CLASS_1_EDF65D368DD7163E___C__DISPLAYCLASS76_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE393870)
-#define CLASS_1_EDF65D368DD7163E___C__DISPLAYCLASS76_0__ONCASTERMODIFIERPREVIEWCREATEENTITIES_B__0_OFFSET UNITYSDK_OFFSET(0xE3975E0)
+#define CLASS_1_EDF65D368DD7163E___C__DISPLAYCLASS76_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13C50210)
+#define CLASS_1_EDF65D368DD7163E___C__DISPLAYCLASS76_0__ONCASTERMODIFIERPREVIEWCREATEENTITIES_B__0_OFFSET UNITYSDK_OFFSET(0x13C54200)
 
-inline static constexpr unsigned int Class_1_EDF65D368DD7163E___c__DisplayClass76_0_TypeDefinitionIndex = 65724;
+inline static constexpr unsigned int Class_1_EDF65D368DD7163E___c__DisplayClass76_0_TypeDefinitionIndex = 66658;
 
 class Class_1_EDF65D368DD7163E___c__DisplayClass76_0 : public ::System::Object
 {
@@ -22,8 +22,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_EDF65D368DD7163E___C__DISPLAYCLASS76_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Void _OnCasterModifierPreviewCreateEntities_b__0(::RPG::GameCore::TurnBasedModifierInstance* modifier)
+	::System::Void _OnCasterModifierPreviewCreateEntities_b__0(::RPG::GameCore::TurnBasedModifierInstance* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + CLASS_1_EDF65D368DD7163E___C__DISPLAYCLASS76_0__ONCASTERMODIFIERPREVIEWCREATEENTITIES_B__0_OFFSET))(this, modifier);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + CLASS_1_EDF65D368DD7163E___C__DISPLAYCLASS76_0__ONCASTERMODIFIERPREVIEWCREATEENTITIES_B__0_OFFSET))(this, a1);
 	}
 };

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFIERBINDEFFECTCONFIG_METHOD_2_87D13AC2FFF5576F_OFFSET UNITYSDK_OFFSET(0x19078270)
-#define RPG_GAMECORE_MODIFIERBINDEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190783B0)
+#define RPG_GAMECORE_MODIFIERBINDEFFECTCONFIG_METHOD_2_F113802BBF355DAD_OFFSET UNITYSDK_OFFSET(0x196A33A0)
+#define RPG_GAMECORE_MODIFIERBINDEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196A34D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierBindEffectConfig_TypeDefinitionIndex = 15603;
+	inline static constexpr unsigned int ModifierBindEffectConfig_TypeDefinitionIndex = 15665;
 
 	class ModifierBindEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERBINDEFFECTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_87D13AC2FFF5576F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifierBindEffectConfig*& a2)
+		static ::System::Void Method_2_F113802BBF355DAD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifierBindEffectConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifierBindEffectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERBINDEFFECTCONFIG_METHOD_2_87D13AC2FFF5576F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifierBindEffectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERBINDEFFECTCONFIG_METHOD_2_F113802BBF355DAD_OFFSET))(a1, a2);
 		}
 	};
 }

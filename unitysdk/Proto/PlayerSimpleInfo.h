@@ -16,117 +16,117 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class AssistSimpleInfo; }
 namespace System { class String; }
 
-#define PROTO_PLAYERSIMPLEINFO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1A588DA0)
-#define PROTO_PLAYERSIMPLEINFO_CLONE_OFFSET UNITYSDK_OFFSET(0x19770D80)
-#define PROTO_PLAYERSIMPLEINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1A588320)
-#define PROTO_PLAYERSIMPLEINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A5882F0)
-#define PROTO_PLAYERSIMPLEINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A588570)
-#define PROTO_PLAYERSIMPLEINFO_GET_ASSISTINFOLIST_OFFSET UNITYSDK_OFFSET(0x19771940)
-#define PROTO_PLAYERSIMPLEINFO_GET_CHATBUBBLE_OFFSET UNITYSDK_OFFSET(0x19771990)
-#define PROTO_PLAYERSIMPLEINFO_GET_GENDER_OFFSET UNITYSDK_OFFSET(0x1A588130)
-#define PROTO_PLAYERSIMPLEINFO_GET_HEADICONFRAMEINFO_OFFSET UNITYSDK_OFFSET(0x197718A0)
-#define PROTO_PLAYERSIMPLEINFO_GET_HEADICON_OFFSET UNITYSDK_OFFSET(0x1A588230)
-#define PROTO_PLAYERSIMPLEINFO_GET_ISBANNED_OFFSET UNITYSDK_OFFSET(0x1A588210)
-#define PROTO_PLAYERSIMPLEINFO_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x19771950)
-#define PROTO_PLAYERSIMPLEINFO_GET_LOGOUTTIME_OFFSET UNITYSDK_OFFSET(0x1A5882D0)
-#define PROTO_PLAYERSIMPLEINFO_GET_NICKNAME_OFFSET UNITYSDK_OFFSET(0x1A588150)
-#define PROTO_PLAYERSIMPLEINFO_GET_ONLINESTATUS_OFFSET UNITYSDK_OFFSET(0x19771920)
-#define PROTO_PLAYERSIMPLEINFO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x19771690)
-#define PROTO_PLAYERSIMPLEINFO_GET_PERSONALCARD_OFFSET UNITYSDK_OFFSET(0x1A588250)
-#define PROTO_PLAYERSIMPLEINFO_GET_PLATFORMNICK_OFFSET UNITYSDK_OFFSET(0x197718C0)
-#define PROTO_PLAYERSIMPLEINFO_GET_PLATFORMUUID_OFFSET UNITYSDK_OFFSET(0x197719B0)
-#define PROTO_PLAYERSIMPLEINFO_GET_PLATFORM_OFFSET UNITYSDK_OFFSET(0x1A588290)
-#define PROTO_PLAYERSIMPLEINFO_GET_PLAYEROUTFITDATA_OFFSET UNITYSDK_OFFSET(0x1A5882B0)
-#define PROTO_PLAYERSIMPLEINFO_GET_SIGNATURE_OFFSET UNITYSDK_OFFSET(0x1A5881B0)
-#define PROTO_PLAYERSIMPLEINFO_GET_UID_OFFSET UNITYSDK_OFFSET(0x19771970)
-#define PROTO_PLAYERSIMPLEINFO_GET_UPDATETIME_OFFSET UNITYSDK_OFFSET(0x1A588270)
-#define PROTO_PLAYERSIMPLEINFO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1A589AF0)
-#define PROTO_PLAYERSIMPLEINFO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1A589840)
-#define PROTO_PLAYERSIMPLEINFO_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x197716C0)
-#define PROTO_PLAYERSIMPLEINFO_SET_CHATBUBBLE_OFFSET UNITYSDK_OFFSET(0x197719A0)
-#define PROTO_PLAYERSIMPLEINFO_SET_GENDER_OFFSET UNITYSDK_OFFSET(0x1A588140)
-#define PROTO_PLAYERSIMPLEINFO_SET_HEADICONFRAMEINFO_OFFSET UNITYSDK_OFFSET(0x197718B0)
-#define PROTO_PLAYERSIMPLEINFO_SET_HEADICON_OFFSET UNITYSDK_OFFSET(0x1A588240)
-#define PROTO_PLAYERSIMPLEINFO_SET_ISBANNED_OFFSET UNITYSDK_OFFSET(0x1A588220)
-#define PROTO_PLAYERSIMPLEINFO_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x19771960)
-#define PROTO_PLAYERSIMPLEINFO_SET_LOGOUTTIME_OFFSET UNITYSDK_OFFSET(0x1A5882E0)
-#define PROTO_PLAYERSIMPLEINFO_SET_NICKNAME_OFFSET UNITYSDK_OFFSET(0x1A588160)
-#define PROTO_PLAYERSIMPLEINFO_SET_ONLINESTATUS_OFFSET UNITYSDK_OFFSET(0x19771930)
-#define PROTO_PLAYERSIMPLEINFO_SET_PERSONALCARD_OFFSET UNITYSDK_OFFSET(0x1A588260)
-#define PROTO_PLAYERSIMPLEINFO_SET_PLATFORMNICK_OFFSET UNITYSDK_OFFSET(0x197718D0)
-#define PROTO_PLAYERSIMPLEINFO_SET_PLATFORMUUID_OFFSET UNITYSDK_OFFSET(0x1A5880E0)
-#define PROTO_PLAYERSIMPLEINFO_SET_PLATFORM_OFFSET UNITYSDK_OFFSET(0x1A5882A0)
-#define PROTO_PLAYERSIMPLEINFO_SET_PLAYEROUTFITDATA_OFFSET UNITYSDK_OFFSET(0x1A5882C0)
-#define PROTO_PLAYERSIMPLEINFO_SET_SIGNATURE_OFFSET UNITYSDK_OFFSET(0x1A5881C0)
-#define PROTO_PLAYERSIMPLEINFO_SET_UID_OFFSET UNITYSDK_OFFSET(0x19771980)
-#define PROTO_PLAYERSIMPLEINFO_SET_UPDATETIME_OFFSET UNITYSDK_OFFSET(0x1A588280)
-#define PROTO_PLAYERSIMPLEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A588910)
-#define PROTO_PLAYERSIMPLEINFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1A588970)
-#define PROTO_PLAYERSIMPLEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A589F20)
-#define PROTO_PLAYERSIMPLEINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x197716D0)
-#define PROTO_PLAYERSIMPLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19771340)
+#define PROTO_PLAYERSIMPLEINFO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1AB082E0)
+#define PROTO_PLAYERSIMPLEINFO_CLONE_OFFSET UNITYSDK_OFFSET(0x1AB06530)
+#define PROTO_PLAYERSIMPLEINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1AB07C00)
+#define PROTO_PLAYERSIMPLEINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1AB07BD0)
+#define PROTO_PLAYERSIMPLEINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1AB06800)
+#define PROTO_PLAYERSIMPLEINFO_GET_ASSISTINFOLIST_OFFSET UNITYSDK_OFFSET(0x1AB07B80)
+#define PROTO_PLAYERSIMPLEINFO_GET_CHATBUBBLE_OFFSET UNITYSDK_OFFSET(0x1AB07B20)
+#define PROTO_PLAYERSIMPLEINFO_GET_GENDER_OFFSET UNITYSDK_OFFSET(0x1AB07BB0)
+#define PROTO_PLAYERSIMPLEINFO_GET_HEADICONFRAMEINFO_OFFSET UNITYSDK_OFFSET(0x1AB07960)
+#define PROTO_PLAYERSIMPLEINFO_GET_HEADICON_OFFSET UNITYSDK_OFFSET(0x1AB07B00)
+#define PROTO_PLAYERSIMPLEINFO_GET_ISBANNED_OFFSET UNITYSDK_OFFSET(0x1AB07B90)
+#define PROTO_PLAYERSIMPLEINFO_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1AB07B60)
+#define PROTO_PLAYERSIMPLEINFO_GET_LOGOUTTIME_OFFSET UNITYSDK_OFFSET(0x1AB07900)
+#define PROTO_PLAYERSIMPLEINFO_GET_NICKNAME_OFFSET UNITYSDK_OFFSET(0x1AB078A0)
+#define PROTO_PLAYERSIMPLEINFO_GET_ONLINESTATUS_OFFSET UNITYSDK_OFFSET(0x1AB07A60)
+#define PROTO_PLAYERSIMPLEINFO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1AB076A0)
+#define PROTO_PLAYERSIMPLEINFO_GET_PERSONALCARD_OFFSET UNITYSDK_OFFSET(0x1AB07940)
+#define PROTO_PLAYERSIMPLEINFO_GET_PLATFORMNICK_OFFSET UNITYSDK_OFFSET(0x1AB07A80)
+#define PROTO_PLAYERSIMPLEINFO_GET_PLATFORMUUID_OFFSET UNITYSDK_OFFSET(0x1AB07A00)
+#define PROTO_PLAYERSIMPLEINFO_GET_PLATFORM_OFFSET UNITYSDK_OFFSET(0x1AB079E0)
+#define PROTO_PLAYERSIMPLEINFO_GET_PLAYEROUTFITDATA_OFFSET UNITYSDK_OFFSET(0x1AB07920)
+#define PROTO_PLAYERSIMPLEINFO_GET_SIGNATURE_OFFSET UNITYSDK_OFFSET(0x1AB07980)
+#define PROTO_PLAYERSIMPLEINFO_GET_UID_OFFSET UNITYSDK_OFFSET(0x1AB07AE0)
+#define PROTO_PLAYERSIMPLEINFO_GET_UPDATETIME_OFFSET UNITYSDK_OFFSET(0x1AB07B40)
+#define PROTO_PLAYERSIMPLEINFO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1AB08D70)
+#define PROTO_PLAYERSIMPLEINFO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1AB06FE0)
+#define PROTO_PLAYERSIMPLEINFO_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1AB076D0)
+#define PROTO_PLAYERSIMPLEINFO_SET_CHATBUBBLE_OFFSET UNITYSDK_OFFSET(0x1AB07B30)
+#define PROTO_PLAYERSIMPLEINFO_SET_GENDER_OFFSET UNITYSDK_OFFSET(0x1AB07BC0)
+#define PROTO_PLAYERSIMPLEINFO_SET_HEADICONFRAMEINFO_OFFSET UNITYSDK_OFFSET(0x1AB07970)
+#define PROTO_PLAYERSIMPLEINFO_SET_HEADICON_OFFSET UNITYSDK_OFFSET(0x1AB07B10)
+#define PROTO_PLAYERSIMPLEINFO_SET_ISBANNED_OFFSET UNITYSDK_OFFSET(0x1AB07BA0)
+#define PROTO_PLAYERSIMPLEINFO_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1AB07B70)
+#define PROTO_PLAYERSIMPLEINFO_SET_LOGOUTTIME_OFFSET UNITYSDK_OFFSET(0x1AB07910)
+#define PROTO_PLAYERSIMPLEINFO_SET_NICKNAME_OFFSET UNITYSDK_OFFSET(0x1AB078B0)
+#define PROTO_PLAYERSIMPLEINFO_SET_ONLINESTATUS_OFFSET UNITYSDK_OFFSET(0x1AB07A70)
+#define PROTO_PLAYERSIMPLEINFO_SET_PERSONALCARD_OFFSET UNITYSDK_OFFSET(0x1AB07950)
+#define PROTO_PLAYERSIMPLEINFO_SET_PLATFORMNICK_OFFSET UNITYSDK_OFFSET(0x1AB07A90)
+#define PROTO_PLAYERSIMPLEINFO_SET_PLATFORMUUID_OFFSET UNITYSDK_OFFSET(0x1AB07A10)
+#define PROTO_PLAYERSIMPLEINFO_SET_PLATFORM_OFFSET UNITYSDK_OFFSET(0x1AB079F0)
+#define PROTO_PLAYERSIMPLEINFO_SET_PLAYEROUTFITDATA_OFFSET UNITYSDK_OFFSET(0x1AB07930)
+#define PROTO_PLAYERSIMPLEINFO_SET_SIGNATURE_OFFSET UNITYSDK_OFFSET(0x1AB07990)
+#define PROTO_PLAYERSIMPLEINFO_SET_UID_OFFSET UNITYSDK_OFFSET(0x1AB07AF0)
+#define PROTO_PLAYERSIMPLEINFO_SET_UPDATETIME_OFFSET UNITYSDK_OFFSET(0x1AB07B50)
+#define PROTO_PLAYERSIMPLEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1AB07E50)
+#define PROTO_PLAYERSIMPLEINFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1AB07EB0)
+#define PROTO_PLAYERSIMPLEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB091A0)
+#define PROTO_PLAYERSIMPLEINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AB076E0)
+#define PROTO_PLAYERSIMPLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB06F60)
 
 namespace Proto
 {
-	inline static constexpr unsigned int PlayerSimpleInfo_TypeDefinitionIndex = 27166;
+	inline static constexpr unsigned int PlayerSimpleInfo_TypeDefinitionIndex = 27139;
 
 	class PlayerSimpleInfo : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::MessageParser_1<::Proto::PlayerSimpleInfo*>** StaticGet__parser()
-		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::PlayerSimpleInfo*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerSimpleInfo_TypeDefinitionIndex)->GetStaticField(0x13F90);
-		}
 		static ::Google::Protobuf::FieldCodec_1<::Proto::AssistSimpleInfo*>** StaticGet__repeated_assistInfoList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Proto::AssistSimpleInfo*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerSimpleInfo_TypeDefinitionIndex)->GetStaticField(0x13F98);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::AssistSimpleInfo*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerSimpleInfo_TypeDefinitionIndex)->GetStaticField(0x3FD0);
 		}
-		// static const ::System::Int32 HeadIconFrameInfoFieldNumber = 0x69; // 0x0
-		// static const ::System::Int32 PlatformNickFieldNumber = 0x6; // 0x0
+		static ::Google::Protobuf::MessageParser_1<::Proto::PlayerSimpleInfo*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Proto::PlayerSimpleInfo*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerSimpleInfo_TypeDefinitionIndex)->GetStaticField(0x3FD8);
+		}
+		// static const ::System::Int32 NicknameFieldNumber = 0x8; // 0x0
+		// static const ::System::Int32 LogoutTimeFieldNumber = 0xD; // 0x0
+		// static const ::System::Int32 PlayerOutfitDataFieldNumber = 0x1; // 0x0
+		// static const ::System::Int32 PersonalCardFieldNumber = 0xB; // 0x0
+		// static const ::System::Int32 HeadIconFrameInfoFieldNumber = 0x419; // 0x0
+		// static const ::System::Int32 SignatureFieldNumber = 0x5; // 0x0
+		// static const ::System::Int32 PlatformFieldNumber = 0xE; // 0x0
+		// static const ::System::Int32 PlatformUuidFieldNumber = 0xF; // 0x0
 		// static const ::System::Int32 OnlineStatusFieldNumber = 0xA; // 0x0
-		// static const ::System::Int32 AssistInfoListFieldNumber = 0xF; // 0x0
-		// static const ::System::Int32 LevelFieldNumber = 0xE; // 0x0
-		// static const ::System::Int32 UidFieldNumber = 0x5; // 0x0
-		// static const ::System::Int32 ChatBubbleFieldNumber = 0xB; // 0x0
-		// static const ::System::Int32 PlatformUuidFieldNumber = 0x3; // 0x0
-		// static const ::System::Int32 GenderFieldNumber = 0x57B; // 0x0
-		// static const ::System::Int32 NicknameFieldNumber = 0x1; // 0x0
-		// static const ::System::Int32 SignatureFieldNumber = 0x2; // 0x0
-		// static const ::System::Int32 IsBannedFieldNumber = 0xD; // 0x0
-		// static const ::System::Int32 HeadIconFieldNumber = 0xC; // 0x0
-		// static const ::System::Int32 PersonalCardFieldNumber = 0x8; // 0x0
-		// static const ::System::Int32 UpdateTimeFieldNumber = 0x71E; // 0x0
-		// static const ::System::Int32 PlatformFieldNumber = 0x7; // 0x0
-		// static const ::System::Int32 PlayerOutfitDataFieldNumber = 0x4; // 0x0
-		// static const ::System::Int32 LogoutTimeFieldNumber = 0x9; // 0x0
+		// static const ::System::Int32 PlatformNickFieldNumber = 0x3; // 0x0
+		// static const ::System::Int32 UidFieldNumber = 0x7; // 0x0
+		// static const ::System::Int32 HeadIconFieldNumber = 0x2; // 0x0
+		// static const ::System::Int32 ChatBubbleFieldNumber = 0x4; // 0x0
+		// static const ::System::Int32 UpdateTimeFieldNumber = 0x31D; // 0x0
+		// static const ::System::Int32 LevelFieldNumber = 0x9; // 0x0
+		// static const ::System::Int32 AssistInfoListFieldNumber = 0x6; // 0x0
+		// static const ::System::Int32 IsBannedFieldNumber = 0xC; // 0x0
+		// static const ::System::Int32 GenderFieldNumber = 0x73; // 0x0
 		::Class_1_075C34D03AFA1215_7* playerOutfitData_; // 0x10
-		::System::String* platformUuid_; // 0x18
-		::Class_1_C9E417278351157F_4* headIconFrameInfo_; // 0x20
-		::System::String* nickname_; // 0x28
-		::System::String* platformNick_; // 0x30
-		::System::String* signature_; // 0x38
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x40
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::AssistSimpleInfo*>* assistInfoList_; // 0x48
-		::Enum_3_ED790DAC948A65A9_16 onlineStatus_; // 0x50
-		::System::Boolean isBanned_; // 0x54
-		::System::UInt32 gender_; // 0x58
-		::System::UInt32 uid_; // 0x5C
-		::System::UInt32 headIcon_; // 0x60
-		::System::Int64 logoutTime_; // 0x68
-		::System::UInt32 personalCard_; // 0x70
-		::System::UInt32 chatBubble_; // 0x74
-		::System::Int64 updateTime_; // 0x78
-		::Enum_3_7D0231C413D78CFA platform_; // 0x80
-		::System::UInt32 level_; // 0x84
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::AssistSimpleInfo*>* assistInfoList_; // 0x18
+		::System::String* signature_; // 0x20
+		::System::String* platformNick_; // 0x28
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x30
+		::Class_1_C9E417278351157F_4* headIconFrameInfo_; // 0x38
+		::System::String* nickname_; // 0x40
+		::System::String* platformUuid_; // 0x48
+		::System::Int64 updateTime_; // 0x50
+		::System::Boolean isBanned_; // 0x58
+		::System::UInt32 gender_; // 0x5C
+		::System::UInt32 uid_; // 0x60
+		::System::UInt32 headIcon_; // 0x64
+		::Enum_3_ED790DAC948A65A9_16 onlineStatus_; // 0x68
+		::System::Int64 logoutTime_; // 0x70
+		::System::UInt32 level_; // 0x78
+		::Enum_3_7D0231C413D78CFA platform_; // 0x7C
+		::System::UInt32 personalCard_; // 0x80
+		::System::UInt32 chatBubble_; // 0x84
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::Proto::PlayerSimpleInfo* other)
+		::System::Void _ctor_1(::Proto::PlayerSimpleInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::PlayerSimpleInfo*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO__CTOR_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Proto::PlayerSimpleInfo*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO__CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -149,169 +149,14 @@ namespace Proto
 			return ((::Proto::PlayerSimpleInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_CLONE_OFFSET))(this);
 		}
 
-		::Class_1_C9E417278351157F_4* get_HeadIconFrameInfo()
-		{
-			return ((::Class_1_C9E417278351157F_4*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_HEADICONFRAMEINFO_OFFSET))(this);
-		}
-
-		::System::Void set_HeadIconFrameInfo(::Class_1_C9E417278351157F_4* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_C9E417278351157F_4*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_HEADICONFRAMEINFO_OFFSET))(this, value);
-		}
-
-		::System::String* get_PlatformNick()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_PLATFORMNICK_OFFSET))(this);
-		}
-
-		::System::Void set_PlatformNick(::System::String* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_PLATFORMNICK_OFFSET))(this, value);
-		}
-
-		::Enum_3_ED790DAC948A65A9_16 get_OnlineStatus()
-		{
-			return ((::Enum_3_ED790DAC948A65A9_16(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_ONLINESTATUS_OFFSET))(this);
-		}
-
-		::System::Void set_OnlineStatus(::Enum_3_ED790DAC948A65A9_16 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_ED790DAC948A65A9_16))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_ONLINESTATUS_OFFSET))(this, value);
-		}
-
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::AssistSimpleInfo*>* get_AssistInfoList()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::Proto::AssistSimpleInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_ASSISTINFOLIST_OFFSET))(this);
-		}
-
-		::System::UInt32 get_Level()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_LEVEL_OFFSET))(this);
-		}
-
-		::System::Void set_Level(::System::UInt32 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_LEVEL_OFFSET))(this, value);
-		}
-
-		::System::UInt32 get_Uid()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_UID_OFFSET))(this);
-		}
-
-		::System::Void set_Uid(::System::UInt32 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_UID_OFFSET))(this, value);
-		}
-
-		::System::UInt32 get_ChatBubble()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_CHATBUBBLE_OFFSET))(this);
-		}
-
-		::System::Void set_ChatBubble(::System::UInt32 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_CHATBUBBLE_OFFSET))(this, value);
-		}
-
-		::System::String* get_PlatformUuid()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_PLATFORMUUID_OFFSET))(this);
-		}
-
-		::System::Void set_PlatformUuid(::System::String* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_PLATFORMUUID_OFFSET))(this, value);
-		}
-
-		::System::UInt32 get_Gender()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_GENDER_OFFSET))(this);
-		}
-
-		::System::Void set_Gender(::System::UInt32 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_GENDER_OFFSET))(this, value);
-		}
-
 		::System::String* get_Nickname()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_NICKNAME_OFFSET))(this);
 		}
 
-		::System::Void set_Nickname(::System::String* value)
+		::System::Void set_Nickname(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_NICKNAME_OFFSET))(this, value);
-		}
-
-		::System::String* get_Signature()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_SIGNATURE_OFFSET))(this);
-		}
-
-		::System::Void set_Signature(::System::String* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_SIGNATURE_OFFSET))(this, value);
-		}
-
-		::System::Boolean get_IsBanned()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_ISBANNED_OFFSET))(this);
-		}
-
-		::System::Void set_IsBanned(::System::Boolean value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_ISBANNED_OFFSET))(this, value);
-		}
-
-		::System::UInt32 get_HeadIcon()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_HEADICON_OFFSET))(this);
-		}
-
-		::System::Void set_HeadIcon(::System::UInt32 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_HEADICON_OFFSET))(this, value);
-		}
-
-		::System::UInt32 get_PersonalCard()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_PERSONALCARD_OFFSET))(this);
-		}
-
-		::System::Void set_PersonalCard(::System::UInt32 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_PERSONALCARD_OFFSET))(this, value);
-		}
-
-		::System::Int64 get_UpdateTime()
-		{
-			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_UPDATETIME_OFFSET))(this);
-		}
-
-		::System::Void set_UpdateTime(::System::Int64 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_UPDATETIME_OFFSET))(this, value);
-		}
-
-		::Enum_3_7D0231C413D78CFA get_Platform()
-		{
-			return ((::Enum_3_7D0231C413D78CFA(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_PLATFORM_OFFSET))(this);
-		}
-
-		::System::Void set_Platform(::Enum_3_7D0231C413D78CFA value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_7D0231C413D78CFA))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_PLATFORM_OFFSET))(this, value);
-		}
-
-		::Class_1_075C34D03AFA1215_7* get_PlayerOutfitData()
-		{
-			return ((::Class_1_075C34D03AFA1215_7*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_PLAYEROUTFITDATA_OFFSET))(this);
-		}
-
-		::System::Void set_PlayerOutfitData(::Class_1_075C34D03AFA1215_7* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_075C34D03AFA1215_7*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_PLAYEROUTFITDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_NICKNAME_OFFSET))(this, a1);
 		}
 
 		::System::Int64 get_LogoutTime()
@@ -319,19 +164,174 @@ namespace Proto
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_LOGOUTTIME_OFFSET))(this);
 		}
 
-		::System::Void set_LogoutTime(::System::Int64 value)
+		::System::Void set_LogoutTime(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_LOGOUTTIME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_LOGOUTTIME_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::System::Object* other)
+		::Class_1_075C34D03AFA1215_7* get_PlayerOutfitData()
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_EQUALS_OFFSET))(this, other);
+			return ((::Class_1_075C34D03AFA1215_7*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_PLAYEROUTFITDATA_OFFSET))(this);
 		}
 
-		::System::Boolean Equals_1(::Proto::PlayerSimpleInfo* other)
+		::System::Void set_PlayerOutfitData(::Class_1_075C34D03AFA1215_7* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Proto::PlayerSimpleInfo*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Class_1_075C34D03AFA1215_7*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_PLAYEROUTFITDATA_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_PersonalCard()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_PERSONALCARD_OFFSET))(this);
+		}
+
+		::System::Void set_PersonalCard(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_PERSONALCARD_OFFSET))(this, a1);
+		}
+
+		::Class_1_C9E417278351157F_4* get_HeadIconFrameInfo()
+		{
+			return ((::Class_1_C9E417278351157F_4*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_HEADICONFRAMEINFO_OFFSET))(this);
+		}
+
+		::System::Void set_HeadIconFrameInfo(::Class_1_C9E417278351157F_4* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_C9E417278351157F_4*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_HEADICONFRAMEINFO_OFFSET))(this, a1);
+		}
+
+		::System::String* get_Signature()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_SIGNATURE_OFFSET))(this);
+		}
+
+		::System::Void set_Signature(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_SIGNATURE_OFFSET))(this, a1);
+		}
+
+		::Enum_3_7D0231C413D78CFA get_Platform()
+		{
+			return ((::Enum_3_7D0231C413D78CFA(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_PLATFORM_OFFSET))(this);
+		}
+
+		::System::Void set_Platform(::Enum_3_7D0231C413D78CFA a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Enum_3_7D0231C413D78CFA))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_PLATFORM_OFFSET))(this, a1);
+		}
+
+		::System::String* get_PlatformUuid()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_PLATFORMUUID_OFFSET))(this);
+		}
+
+		::System::Void set_PlatformUuid(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_PLATFORMUUID_OFFSET))(this, a1);
+		}
+
+		::Enum_3_ED790DAC948A65A9_16 get_OnlineStatus()
+		{
+			return ((::Enum_3_ED790DAC948A65A9_16(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_ONLINESTATUS_OFFSET))(this);
+		}
+
+		::System::Void set_OnlineStatus(::Enum_3_ED790DAC948A65A9_16 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Enum_3_ED790DAC948A65A9_16))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_ONLINESTATUS_OFFSET))(this, a1);
+		}
+
+		::System::String* get_PlatformNick()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_PLATFORMNICK_OFFSET))(this);
+		}
+
+		::System::Void set_PlatformNick(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_PLATFORMNICK_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_Uid()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_UID_OFFSET))(this);
+		}
+
+		::System::Void set_Uid(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_UID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_HeadIcon()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_HEADICON_OFFSET))(this);
+		}
+
+		::System::Void set_HeadIcon(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_HEADICON_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_ChatBubble()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_CHATBUBBLE_OFFSET))(this);
+		}
+
+		::System::Void set_ChatBubble(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_CHATBUBBLE_OFFSET))(this, a1);
+		}
+
+		::System::Int64 get_UpdateTime()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_UPDATETIME_OFFSET))(this);
+		}
+
+		::System::Void set_UpdateTime(::System::Int64 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_UPDATETIME_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_Level()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_LEVEL_OFFSET))(this);
+		}
+
+		::System::Void set_Level(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_LEVEL_OFFSET))(this, a1);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::AssistSimpleInfo*>* get_AssistInfoList()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::Proto::AssistSimpleInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_ASSISTINFOLIST_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsBanned()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_ISBANNED_OFFSET))(this);
+		}
+
+		::System::Void set_IsBanned(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_ISBANNED_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_Gender()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_GET_GENDER_OFFSET))(this);
+		}
+
+		::System::Void set_Gender(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_SET_GENDER_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Equals(::System::Object* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_EQUALS_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Equals_1(::Proto::PlayerSimpleInfo* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Proto::PlayerSimpleInfo*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -344,9 +344,9 @@ namespace Proto
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Void WriteTo(::Google::Protobuf::CodedOutputStream* output)
+		::System::Void WriteTo(::Google::Protobuf::CodedOutputStream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_WRITETO_OFFSET))(this, output);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_WRITETO_OFFSET))(this, a1);
 		}
 
 		::System::Int32 CalculateSize()
@@ -354,14 +354,14 @@ namespace Proto
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_CALCULATESIZE_OFFSET))(this);
 		}
 
-		::System::Void MergeFrom(::Proto::PlayerSimpleInfo* other)
+		::System::Void MergeFrom(::Proto::PlayerSimpleInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::PlayerSimpleInfo*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_MERGEFROM_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Proto::PlayerSimpleInfo*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_MERGEFROM_OFFSET))(this, a1);
 		}
 
-		::System::Void MergeFrom_1(::Google::Protobuf::CodedInputStream* input)
+		::System::Void MergeFrom_1(::Google::Protobuf::CodedInputStream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_MERGEFROM_1_OFFSET))(this, input);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + PROTO_PLAYERSIMPLEINFO_MERGEFROM_1_OFFSET))(this, a1);
 		}
 	};
 }

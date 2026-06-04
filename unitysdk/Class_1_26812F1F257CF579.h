@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 
-#define CLASS_1_26812F1F257CF579__CTOR_OFFSET UNITYSDK_OFFSET(0x15387200)
+#define CLASS_1_26812F1F257CF579__CTOR_OFFSET UNITYSDK_OFFSET(0x15F7A6A0)
 
-inline static constexpr unsigned int Class_1_26812F1F257CF579_TypeDefinitionIndex = 38820;
+inline static constexpr unsigned int Class_1_26812F1F257CF579_TypeDefinitionIndex = 39588;
 
 class Class_1_26812F1F257CF579 : public ::System::Object
 {
 public:
-	::System::Int32 Field_1_0; // 0x10
-	::UnityEngine::Bounds Field_1_4; // 0x14
-	::UnityEngine::Bounds Field_1_3; // 0x2C
-	::System::Int32 Field_1_2; // 0x44
-	::System::Int32 Field_1_1; // 0x48
+	::UnityEngine::Bounds Field_1_0; // 0x10
+	::System::Int32 Field_1_1; // 0x28
+	::System::Int32 Field_1_2; // 0x2C
+	::UnityEngine::Bounds Field_1_3; // 0x30
+	::System::Int32 Field_1_4; // 0x48
 
 	::System::Void _ctor()
 	{

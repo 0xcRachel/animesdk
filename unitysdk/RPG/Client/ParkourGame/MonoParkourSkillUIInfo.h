@@ -7,11 +7,11 @@ namespace System { class String; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURSKILLUIINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x162CE490)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURSKILLUIINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18C5F240)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourSkillUIInfo_TypeDefinitionIndex = 68275;
+	inline static constexpr unsigned int MonoParkourSkillUIInfo_TypeDefinitionIndex = 69249;
 
 	class MonoParkourSkillUIInfo : public ::UnityEngine::MonoBehaviour
 	{

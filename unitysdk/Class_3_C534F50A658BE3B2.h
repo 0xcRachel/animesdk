@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsDirectKillBattle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C534F50A658BE3B2_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1003C230)
-#define CLASS_3_C534F50A658BE3B2__CTOR_OFFSET UNITYSDK_OFFSET(0x1003C200)
+#define CLASS_3_C534F50A658BE3B2_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14F5BBC0)
+#define CLASS_3_C534F50A658BE3B2__CTOR_OFFSET UNITYSDK_OFFSET(0x14F5BB90)
 
-inline static constexpr unsigned int Class_3_C534F50A658BE3B2_TypeDefinitionIndex = 50425;
+inline static constexpr unsigned int Class_3_C534F50A658BE3B2_TypeDefinitionIndex = 51090;
 
 class Class_3_C534F50A658BE3B2 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsDirectKillBattle*>
 {

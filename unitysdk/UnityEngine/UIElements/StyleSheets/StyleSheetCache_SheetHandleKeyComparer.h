@@ -3,13 +3,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/UIElements/StyleSheets/StyleSheetCache_SheetHandleKey.h"
 
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE_SHEETHANDLEKEYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1922EAA0)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE_SHEETHANDLEKEYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1922EAB0)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE_SHEETHANDLEKEYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1922E9D0)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE_SHEETHANDLEKEYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x19F966E0)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE_SHEETHANDLEKEYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19F966F0)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE_SHEETHANDLEKEYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x19F96610)
 
 namespace UnityEngine::UIElements::StyleSheets
 {
-	inline static constexpr unsigned int StyleSheetCache_SheetHandleKeyComparer_TypeDefinitionIndex = 5991;
+	inline static constexpr unsigned int StyleSheetCache_SheetHandleKeyComparer_TypeDefinitionIndex = 6268;
 
 	class StyleSheetCache_SheetHandleKeyComparer : public ::System::Object
 	{
@@ -19,14 +19,14 @@ namespace UnityEngine::UIElements::StyleSheets
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE_SHEETHANDLEKEYCOMPARER__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey x, ::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey y)
+		::System::Boolean Equals(::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey a1, ::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey, ::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE_SHEETHANDLEKEYCOMPARER_EQUALS_OFFSET))(this, x, y);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey, ::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE_SHEETHANDLEKEYCOMPARER_EQUALS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 GetHashCode(::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey key)
+		::System::Int32 GetHashCode(::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE_SHEETHANDLEKEYCOMPARER_GETHASHCODE_OFFSET))(this, key);
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE_SHEETHANDLEKEYCOMPARER_GETHASHCODE_OFFSET))(this, a1);
 		}
 	};
 }

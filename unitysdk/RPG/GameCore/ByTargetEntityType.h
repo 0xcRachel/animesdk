@@ -6,14 +6,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYTARGETENTITYTYPE_METHOD_4_0DB6079465FD2B06_OFFSET UNITYSDK_OFFSET(0x19A71940)
-#define RPG_GAMECORE_BYTARGETENTITYTYPE_METHOD_4_D9C5CFA706D6936A_OFFSET UNITYSDK_OFFSET(0x19A71860)
-#define RPG_GAMECORE_BYTARGETENTITYTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A718E0)
+#define RPG_GAMECORE_BYTARGETENTITYTYPE_METHOD_4_0DB6079465FD2B06_OFFSET UNITYSDK_OFFSET(0x19E6BD30)
+#define RPG_GAMECORE_BYTARGETENTITYTYPE_METHOD_4_888086B7E2DA6E50_OFFSET UNITYSDK_OFFSET(0x19E6BFC0)
+#define RPG_GAMECORE_BYTARGETENTITYTYPE_METHOD_4_C805892020B85C2B_OFFSET UNITYSDK_OFFSET(0x19E6BF40)
+#define RPG_GAMECORE_BYTARGETENTITYTYPE_METHOD_4_D9C5CFA706D6936A_OFFSET UNITYSDK_OFFSET(0x19E6BC50)
+#define RPG_GAMECORE_BYTARGETENTITYTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E6BCD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByTargetEntityType_TypeDefinitionIndex = 21939;
+	inline static constexpr unsigned int ByTargetEntityType_TypeDefinitionIndex = 21762;
 
 	class ByTargetEntityType : public ::RPG::GameCore::PredicateConfig
 	{
@@ -35,6 +38,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_0DB6079465FD2B06(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByTargetEntityType* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByTargetEntityType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETENTITYTYPE_METHOD_4_0DB6079465FD2B06_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_C805892020B85C2B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTargetEntityType*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTargetEntityType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETENTITYTYPE_METHOD_4_C805892020B85C2B_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_888086B7E2DA6E50(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTargetEntityType* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTargetEntityType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETENTITYTYPE_METHOD_4_888086B7E2DA6E50_OFFSET))(a1, a2);
 		}
 	};
 }

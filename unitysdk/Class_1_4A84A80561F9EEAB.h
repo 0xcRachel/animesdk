@@ -3,13 +3,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_4A84A80561F9EEAB_GET_ID_OFFSET UNITYSDK_OFFSET(0x10C96240)
-#define CLASS_1_4A84A80561F9EEAB_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x10C96260)
-#define CLASS_1_4A84A80561F9EEAB_SET_ID_OFFSET UNITYSDK_OFFSET(0x10C96250)
-#define CLASS_1_4A84A80561F9EEAB_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x10C96280)
-#define CLASS_1_4A84A80561F9EEAB__CTOR_OFFSET UNITYSDK_OFFSET(0x10C96290)
+#define CLASS_1_4A84A80561F9EEAB_GET_ID_OFFSET UNITYSDK_OFFSET(0x16B6B6B0)
+#define CLASS_1_4A84A80561F9EEAB_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x16B6B6D0)
+#define CLASS_1_4A84A80561F9EEAB_SET_ID_OFFSET UNITYSDK_OFFSET(0x16B6B6C0)
+#define CLASS_1_4A84A80561F9EEAB_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x16B6B6F0)
+#define CLASS_1_4A84A80561F9EEAB__CTOR_OFFSET UNITYSDK_OFFSET(0x16B6B700)
 
-inline static constexpr unsigned int Class_1_4A84A80561F9EEAB_TypeDefinitionIndex = 57330;
+inline static constexpr unsigned int Class_1_4A84A80561F9EEAB_TypeDefinitionIndex = 58120;
 
 class Class_1_4A84A80561F9EEAB : public ::System::Object
 {
@@ -27,9 +27,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4A84A80561F9EEAB_GET_ID_OFFSET))(this);
 	}
 
-	::System::Void set_ID(::System::UInt32 value)
+	::System::Void set_ID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_4A84A80561F9EEAB_SET_ID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_4A84A80561F9EEAB_SET_ID_OFFSET))(this, a1);
 	}
 
 	::UnityEngine::Vector3 get_Position()
@@ -37,8 +37,8 @@ public:
 		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4A84A80561F9EEAB_GET_POSITION_OFFSET))(this);
 	}
 
-	::System::Void set_Position(::UnityEngine::Vector3 value)
+	::System::Void set_Position(::UnityEngine::Vector3 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_1_4A84A80561F9EEAB_SET_POSITION_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_1_4A84A80561F9EEAB_SET_POSITION_OFFSET))(this, a1);
 	}
 };

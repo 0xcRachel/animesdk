@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_E21F6DE9B7FA4D05;
+class Class_3_07C3C4D2990C49EE;
 namespace RPG::GameCore { class SetMusicRhythmCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_D02DC09721D8452B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15A559F0)
-#define CLASS_2_D02DC09721D8452B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A55800)
-#define CLASS_2_D02DC09721D8452B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15A559A0)
-#define CLASS_2_D02DC09721D8452B_TICK_OFFSET UNITYSDK_OFFSET(0x15A55A80)
-#define CLASS_2_D02DC09721D8452B__CTOR_OFFSET UNITYSDK_OFFSET(0x15A55710)
+#define CLASS_2_D02DC09721D8452B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1674F3D0)
+#define CLASS_2_D02DC09721D8452B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1674F1E0)
+#define CLASS_2_D02DC09721D8452B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1674F380)
+#define CLASS_2_D02DC09721D8452B_TICK_OFFSET UNITYSDK_OFFSET(0x1674F460)
+#define CLASS_2_D02DC09721D8452B__CTOR_OFFSET UNITYSDK_OFFSET(0x1674F0F0)
 
-inline static constexpr unsigned int Class_2_D02DC09721D8452B_TypeDefinitionIndex = 49100;
+inline static constexpr unsigned int Class_2_D02DC09721D8452B_TypeDefinitionIndex = 49767;
 
 class Class_2_D02DC09721D8452B : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::SetMusicRhythmCamera* Field_2_1; // 0x18
-	::Class_3_E21F6DE9B7FA4D05* Field_2_3; // 0x20
-	::Class_3_E21F6DE9B7FA4D05* Field_2_4; // 0x28
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x30
-	::System::Boolean Field_2_2; // 0x38
+	::Class_3_07C3C4D2990C49EE* Field_2_0; // 0x18
+	::Class_3_07C3C4D2990C49EE* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_2; // 0x28
+	::RPG::GameCore::SetMusicRhythmCamera* Field_2_3; // 0x30
+	::System::Boolean Field_2_4; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetMusicRhythmCamera* a2)
 	{

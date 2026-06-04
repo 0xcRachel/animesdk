@@ -5,13 +5,13 @@
 
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_IKSOLVER_NODE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x175EDE90)
-#define ROOTMOTION_FINALIK_IKSOLVER_NODE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x175EDEB0)
-#define ROOTMOTION_FINALIK_IKSOLVER_NODE__CTOR_OFFSET UNITYSDK_OFFSET(0x175EDE70)
+#define ROOTMOTION_FINALIK_IKSOLVER_NODE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17A7D030)
+#define ROOTMOTION_FINALIK_IKSOLVER_NODE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x17A7D050)
+#define ROOTMOTION_FINALIK_IKSOLVER_NODE__CTOR_OFFSET UNITYSDK_OFFSET(0x17A7D010)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int IKSolver_Node_TypeDefinitionIndex = 41032;
+	inline static constexpr unsigned int IKSolver_Node_TypeDefinitionIndex = 41835;
 
 	class IKSolver_Node : public ::RootMotion::FinalIK::IKSolver_Point
 	{
@@ -26,14 +26,14 @@ namespace RootMotion::FinalIK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_NODE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::UnityEngine::Transform* transform)
+		::System::Void _ctor_1(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_NODE__CTOR_1_OFFSET))(this, transform);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_NODE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::UnityEngine::Transform* transform, ::System::Single weight)
+		::System::Void _ctor_2(::UnityEngine::Transform* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_NODE__CTOR_2_OFFSET))(this, transform, weight);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_NODE__CTOR_2_OFFSET))(this, a1, a2);
 		}
 	};
 }

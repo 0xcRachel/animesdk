@@ -7,24 +7,24 @@ namespace System::Text { class Decoder; }
 namespace System::Text { class Encoder; }
 namespace System::Xml { class Ucs4Decoder; }
 
-#define SYSTEM_XML_UCS4ENCODING_GETBYTECOUNT_1_OFFSET UNITYSDK_OFFSET(0x17AA9950)
-#define SYSTEM_XML_UCS4ENCODING_GETBYTECOUNT_OFFSET UNITYSDK_OFFSET(0x17AA98F0)
-#define SYSTEM_XML_UCS4ENCODING_GETBYTES_1_OFFSET UNITYSDK_OFFSET(0x17AA9980)
-#define SYSTEM_XML_UCS4ENCODING_GETBYTES_OFFSET UNITYSDK_OFFSET(0x17AA9970)
-#define SYSTEM_XML_UCS4ENCODING_GETCHARCOUNT_1_OFFSET UNITYSDK_OFFSET(0x17AA9A10)
-#define SYSTEM_XML_UCS4ENCODING_GETCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x17AA99A0)
-#define SYSTEM_XML_UCS4ENCODING_GETCHARS_OFFSET UNITYSDK_OFFSET(0x17AA99D0)
-#define SYSTEM_XML_UCS4ENCODING_GETDECODER_OFFSET UNITYSDK_OFFSET(0x17AA98E0)
-#define SYSTEM_XML_UCS4ENCODING_GETENCODER_OFFSET UNITYSDK_OFFSET(0x17AA9A40)
-#define SYSTEM_XML_UCS4ENCODING_GETMAXBYTECOUNT_OFFSET UNITYSDK_OFFSET(0x17AA9990)
-#define SYSTEM_XML_UCS4ENCODING_GETMAXCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x17AA99F0)
-#define SYSTEM_XML_UCS4ENCODING_GET_CODEPAGE_OFFSET UNITYSDK_OFFSET(0x17AA9A00)
-#define SYSTEM_XML_UCS4ENCODING_GET_UCS4_2143_OFFSET UNITYSDK_OFFSET(0x17AA9C70)
-#define SYSTEM_XML_UCS4ENCODING_GET_UCS4_3412_OFFSET UNITYSDK_OFFSET(0x17AA9D80)
-#define SYSTEM_XML_UCS4ENCODING_GET_UCS4_BIGENDIAN_OFFSET UNITYSDK_OFFSET(0x17AA9B60)
-#define SYSTEM_XML_UCS4ENCODING_GET_UCS4_LITTLEENDIAN_OFFSET UNITYSDK_OFFSET(0x17AA9A50)
-#define SYSTEM_XML_UCS4ENCODING_GET_WEBNAME_OFFSET UNITYSDK_OFFSET(0x17AA98D0)
-#define SYSTEM_XML_UCS4ENCODING__CTOR_OFFSET UNITYSDK_OFFSET(0x17AA9E90)
+#define SYSTEM_XML_UCS4ENCODING_GETBYTECOUNT_1_OFFSET UNITYSDK_OFFSET(0x16CDA990)
+#define SYSTEM_XML_UCS4ENCODING_GETBYTECOUNT_OFFSET UNITYSDK_OFFSET(0x16CDA930)
+#define SYSTEM_XML_UCS4ENCODING_GETBYTES_1_OFFSET UNITYSDK_OFFSET(0x16CDA9C0)
+#define SYSTEM_XML_UCS4ENCODING_GETBYTES_OFFSET UNITYSDK_OFFSET(0x16CDA9B0)
+#define SYSTEM_XML_UCS4ENCODING_GETCHARCOUNT_1_OFFSET UNITYSDK_OFFSET(0x16CDAA50)
+#define SYSTEM_XML_UCS4ENCODING_GETCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x16CDA9E0)
+#define SYSTEM_XML_UCS4ENCODING_GETCHARS_OFFSET UNITYSDK_OFFSET(0x16CDAA10)
+#define SYSTEM_XML_UCS4ENCODING_GETDECODER_OFFSET UNITYSDK_OFFSET(0x16CDA920)
+#define SYSTEM_XML_UCS4ENCODING_GETENCODER_OFFSET UNITYSDK_OFFSET(0x16CDAA80)
+#define SYSTEM_XML_UCS4ENCODING_GETMAXBYTECOUNT_OFFSET UNITYSDK_OFFSET(0x16CDA9D0)
+#define SYSTEM_XML_UCS4ENCODING_GETMAXCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x16CDAA30)
+#define SYSTEM_XML_UCS4ENCODING_GET_CODEPAGE_OFFSET UNITYSDK_OFFSET(0x16CDAA40)
+#define SYSTEM_XML_UCS4ENCODING_GET_UCS4_2143_OFFSET UNITYSDK_OFFSET(0x16CDACB0)
+#define SYSTEM_XML_UCS4ENCODING_GET_UCS4_3412_OFFSET UNITYSDK_OFFSET(0x16CDADC0)
+#define SYSTEM_XML_UCS4ENCODING_GET_UCS4_BIGENDIAN_OFFSET UNITYSDK_OFFSET(0x16CDABA0)
+#define SYSTEM_XML_UCS4ENCODING_GET_UCS4_LITTLEENDIAN_OFFSET UNITYSDK_OFFSET(0x16CDAA90)
+#define SYSTEM_XML_UCS4ENCODING_GET_WEBNAME_OFFSET UNITYSDK_OFFSET(0x16CDA910)
+#define SYSTEM_XML_UCS4ENCODING__CTOR_OFFSET UNITYSDK_OFFSET(0x16CDAED0)
 
 namespace System::Xml
 {
@@ -50,44 +50,44 @@ namespace System::Xml
 			return ((::System::Text::Decoder*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING_GETDECODER_OFFSET))(this);
 		}
 
-		::System::Int32 GetByteCount(::Il2CppArray<::System::Char>* chars, ::System::Int32 index, ::System::Int32 count)
+		::System::Int32 GetByteCount(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING_GETBYTECOUNT_OFFSET))(this, chars, index, count);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING_GETBYTECOUNT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 GetByteCount_1(::Il2CppArray<::System::Char>* chars)
+		::System::Int32 GetByteCount_1(::Il2CppArray<::System::Char>* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Char>*))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING_GETBYTECOUNT_1_OFFSET))(this, chars);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Char>*))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING_GETBYTECOUNT_1_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Byte>* GetBytes(::System::String* s)
+		::Il2CppArray<::System::Byte>* GetBytes(::System::String* a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING_GETBYTES_OFFSET))(this, s);
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING_GETBYTES_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetBytes_1(::Il2CppArray<::System::Char>* chars, ::System::Int32 charIndex, ::System::Int32 charCount, ::Il2CppArray<::System::Byte>* bytes, ::System::Int32 byteIndex)
+		::System::Int32 GetBytes_1(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Int32 a3, ::Il2CppArray<::System::Byte>* a4, ::System::Int32 a5)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING_GETBYTES_1_OFFSET))(this, chars, charIndex, charCount, bytes, byteIndex);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING_GETBYTES_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Int32 GetMaxByteCount(::System::Int32 charCount)
+		::System::Int32 GetMaxByteCount(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING_GETMAXBYTECOUNT_OFFSET))(this, charCount);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING_GETMAXBYTECOUNT_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetCharCount(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 index, ::System::Int32 count)
+		::System::Int32 GetCharCount(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING_GETCHARCOUNT_OFFSET))(this, bytes, index, count);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING_GETCHARCOUNT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 GetChars(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 byteIndex, ::System::Int32 byteCount, ::Il2CppArray<::System::Char>* chars, ::System::Int32 charIndex)
+		::System::Int32 GetChars(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::Il2CppArray<::System::Char>* a4, ::System::Int32 a5)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Char>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING_GETCHARS_OFFSET))(this, bytes, byteIndex, byteCount, chars, charIndex);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Char>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING_GETCHARS_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Int32 GetMaxCharCount(::System::Int32 byteCount)
+		::System::Int32 GetMaxCharCount(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING_GETMAXCHARCOUNT_OFFSET))(this, byteCount);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING_GETMAXCHARCOUNT_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_CodePage()
@@ -95,9 +95,9 @@ namespace System::Xml
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING_GET_CODEPAGE_OFFSET))(this);
 		}
 
-		::System::Int32 GetCharCount_1(::Il2CppArray<::System::Byte>* bytes)
+		::System::Int32 GetCharCount_1(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING_GETCHARCOUNT_1_OFFSET))(this, bytes);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_XML_UCS4ENCODING_GETCHARCOUNT_1_OFFSET))(this, a1);
 		}
 
 		::System::Text::Encoder* GetEncoder()

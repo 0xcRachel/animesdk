@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGGAMEINSTANCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1584ECF0)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGGAMEINSTANCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1584ED30)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGGAMEINSTANCE___C___ONCLEAR_B__7_0_OFFSET UNITYSDK_OFFSET(0x1584ED40)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGGAMEINSTANCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E1AF00)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGGAMEINSTANCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17E1AF40)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGGAMEINSTANCE___C___ONCLEAR_B__7_0_OFFSET UNITYSDK_OFFSET(0x17E1AF50)
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingGameInstance___c_TypeDefinitionIndex = 71297;
+	inline static constexpr unsigned int ChenLingGameInstance___c_TypeDefinitionIndex = 72319;
 
 	class ChenLingGameInstance___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__7_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChenLingGameInstance___c_TypeDefinitionIndex)->GetStaticField(0x3E800);
-		}
 		static ::RPG::Client::LittleGame::ChenLing::ChenLingGameInstance___c** StaticGet___9()
 		{
-			return (::RPG::Client::LittleGame::ChenLing::ChenLingGameInstance___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingGameInstance___c_TypeDefinitionIndex)->GetStaticField(0x3E808);
+			return (::RPG::Client::LittleGame::ChenLing::ChenLingGameInstance___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingGameInstance___c_TypeDefinitionIndex)->GetStaticField(0x40390);
+		}
+		static ::System::Action** StaticGet___9__7_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChenLingGameInstance___c_TypeDefinitionIndex)->GetStaticField(0x40398);
 		}
 
 		static ::System::Void _cctor()

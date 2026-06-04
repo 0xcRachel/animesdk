@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ChallengePeakTarget; }
 
-#define RPG_CLIENT_CHALLENGEPEAK___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15FA2010)
-#define RPG_CLIENT_CHALLENGEPEAK___C__DISPLAYCLASS55_0__GETTARGETINDEXBYID_B__0_OFFSET UNITYSDK_OFFSET(0x15FA29E0)
+#define RPG_CLIENT_CHALLENGEPEAK___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17A37E90)
+#define RPG_CLIENT_CHALLENGEPEAK___C__DISPLAYCLASS55_0__GETTARGETINDEXBYID_B__0_OFFSET UNITYSDK_OFFSET(0x17A388F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeak___c__DisplayClass55_0_TypeDefinitionIndex = 58168;
+	inline static constexpr unsigned int ChallengePeak___c__DisplayClass55_0_TypeDefinitionIndex = 59098;
 
 	class ChallengePeak___c__DisplayClass55_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAK___C__DISPLAYCLASS55_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetTargetIndexByID_b__0(::RPG::Client::ChallengePeakTarget* target)
+		::System::Boolean _GetTargetIndexByID_b__0(::RPG::Client::ChallengePeakTarget* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChallengePeakTarget*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAK___C__DISPLAYCLASS55_0__GETTARGETINDEXBYID_B__0_OFFSET))(this, target);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChallengePeakTarget*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAK___C__DISPLAYCLASS55_0__GETTARGETINDEXBYID_B__0_OFFSET))(this, a1);
 		}
 	};
 }

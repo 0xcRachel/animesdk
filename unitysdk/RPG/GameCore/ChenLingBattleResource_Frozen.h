@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseChenLingBattleEffect; }
 namespace RPG::GameCore { class BaseChenLingBattleValueGetter; }
 
-#define RPG_GAMECORE_CHENLINGBATTLERESOURCE_FROZEN_METHOD_3_7125111F87B04720_OFFSET UNITYSDK_OFFSET(0x196A2A50)
-#define RPG_GAMECORE_CHENLINGBATTLERESOURCE_FROZEN_METHOD_3_B47E9103584B33EC_OFFSET UNITYSDK_OFFSET(0x196A2AB0)
-#define RPG_GAMECORE_CHENLINGBATTLERESOURCE_FROZEN__CTOR_OFFSET UNITYSDK_OFFSET(0x196A2AA0)
+#define RPG_GAMECORE_CHENLINGBATTLERESOURCE_FROZEN_METHOD_3_475098BC571E2D3E_OFFSET UNITYSDK_OFFSET(0x1A1550C0)
+#define RPG_GAMECORE_CHENLINGBATTLERESOURCE_FROZEN_METHOD_3_BE6FAE311896E4EA_OFFSET UNITYSDK_OFFSET(0x1A155120)
+#define RPG_GAMECORE_CHENLINGBATTLERESOURCE_FROZEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A155110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleResource_Frozen_TypeDefinitionIndex = 14944;
+	inline static constexpr unsigned int ChenLingBattleResource_Frozen_TypeDefinitionIndex = 15007;
 
 	class ChenLingBattleResource_Frozen : public ::RPG::GameCore::BaseChenLingBattleResource
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLERESOURCE_FROZEN__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7125111F87B04720(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleResource_Frozen*& a2)
+		static ::System::Void Method_3_475098BC571E2D3E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleResource_Frozen*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleResource_Frozen*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLERESOURCE_FROZEN_METHOD_3_7125111F87B04720_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleResource_Frozen*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLERESOURCE_FROZEN_METHOD_3_475098BC571E2D3E_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B47E9103584B33EC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleResource_Frozen* a2)
+		static ::System::Void Method_3_BE6FAE311896E4EA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleResource_Frozen* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleResource_Frozen*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLERESOURCE_FROZEN_METHOD_3_B47E9103584B33EC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleResource_Frozen*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLERESOURCE_FROZEN_METHOD_3_BE6FAE311896E4EA_OFFSET))(a1, a2);
 		}
 	};
 }

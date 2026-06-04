@@ -8,20 +8,20 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_RELICPRESETAVATARPLANS_ADDPLAN_OFFSET UNITYSDK_OFFSET(0x1319C560)
-#define RPG_CLIENT_RELICPRESETAVATARPLANS_CREATEBYSERVER_OFFSET UNITYSDK_OFFSET(0x1319BC90)
-#define RPG_CLIENT_RELICPRESETAVATARPLANS_DELETEPLAN_OFFSET UNITYSDK_OFFSET(0x1319C930)
-#define RPG_CLIENT_RELICPRESETAVATARPLANS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1319C200)
-#define RPG_CLIENT_RELICPRESETAVATARPLANS_ISPLANFULL_OFFSET UNITYSDK_OFFSET(0x1319C500)
-#define RPG_CLIENT_RELICPRESETAVATARPLANS_TRYGETPLAN_OFFSET UNITYSDK_OFFSET(0x1319C670)
-#define RPG_CLIENT_RELICPRESETAVATARPLANS_UPDATEPLAN_1_OFFSET UNITYSDK_OFFSET(0x1319CE40)
-#define RPG_CLIENT_RELICPRESETAVATARPLANS_UPDATEPLAN_2_OFFSET UNITYSDK_OFFSET(0x1319CF90)
-#define RPG_CLIENT_RELICPRESETAVATARPLANS_UPDATEPLAN_OFFSET UNITYSDK_OFFSET(0x1319C780)
-#define RPG_CLIENT_RELICPRESETAVATARPLANS__CTOR_OFFSET UNITYSDK_OFFSET(0x1319C0D0)
+#define RPG_CLIENT_RELICPRESETAVATARPLANS_ADDPLAN_OFFSET UNITYSDK_OFFSET(0x14CEFD60)
+#define RPG_CLIENT_RELICPRESETAVATARPLANS_CREATEBYSERVER_OFFSET UNITYSDK_OFFSET(0x14CEF460)
+#define RPG_CLIENT_RELICPRESETAVATARPLANS_DELETEPLAN_OFFSET UNITYSDK_OFFSET(0x14CF00F0)
+#define RPG_CLIENT_RELICPRESETAVATARPLANS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14CEF9D0)
+#define RPG_CLIENT_RELICPRESETAVATARPLANS_ISPLANFULL_OFFSET UNITYSDK_OFFSET(0x14CEFD00)
+#define RPG_CLIENT_RELICPRESETAVATARPLANS_TRYGETPLAN_OFFSET UNITYSDK_OFFSET(0x14CEFE70)
+#define RPG_CLIENT_RELICPRESETAVATARPLANS_UPDATEPLAN_1_OFFSET UNITYSDK_OFFSET(0x14CF0600)
+#define RPG_CLIENT_RELICPRESETAVATARPLANS_UPDATEPLAN_2_OFFSET UNITYSDK_OFFSET(0x14CF0750)
+#define RPG_CLIENT_RELICPRESETAVATARPLANS_UPDATEPLAN_OFFSET UNITYSDK_OFFSET(0x14CEFF40)
+#define RPG_CLIENT_RELICPRESETAVATARPLANS__CTOR_OFFSET UNITYSDK_OFFSET(0x14CEF8A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicPresetAvatarPlans_TypeDefinitionIndex = 61581;
+	inline static constexpr unsigned int RelicPresetAvatarPlans_TypeDefinitionIndex = 62514;
 
 	class RelicPresetAvatarPlans : public ::System::Object
 	{
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETAVATARPLANS__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::RelicPresetAvatarPlans* CreateByServer(::System::UInt32 avatarID, ::System::Collections::Generic::IEnumerable_1<::Class_1_4C7B8542D6DC5824*>* plans)
+		static ::RPG::Client::RelicPresetAvatarPlans* CreateByServer(::System::UInt32 a1, ::System::Collections::Generic::IEnumerable_1<::Class_1_4C7B8542D6DC5824*>* a2)
 		{
-			return ((::RPG::Client::RelicPresetAvatarPlans*(*)(::System::UInt32, ::System::Collections::Generic::IEnumerable_1<::Class_1_4C7B8542D6DC5824*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETAVATARPLANS_CREATEBYSERVER_OFFSET))(avatarID, plans);
+			return ((::RPG::Client::RelicPresetAvatarPlans*(*)(::System::UInt32, ::System::Collections::Generic::IEnumerable_1<::Class_1_4C7B8542D6DC5824*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETAVATARPLANS_CREATEBYSERVER_OFFSET))(a1, a2);
 		}
 
 		::System::Void Dispose()
@@ -50,34 +50,34 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETAVATARPLANS_ISPLANFULL_OFFSET))(this);
 		}
 
-		::System::Void AddPlan(::Class_1_4C7B8542D6DC5824* plan)
+		::System::Void AddPlan(::Class_1_4C7B8542D6DC5824* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_4C7B8542D6DC5824*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETAVATARPLANS_ADDPLAN_OFFSET))(this, plan);
+			return ((::System::Void(*)(::PVOID, ::Class_1_4C7B8542D6DC5824*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETAVATARPLANS_ADDPLAN_OFFSET))(this, a1);
 		}
 
-		::System::Void DeletePlan(::System::UInt32 uniqueID)
+		::System::Void DeletePlan(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETAVATARPLANS_DELETEPLAN_OFFSET))(this, uniqueID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETAVATARPLANS_DELETEPLAN_OFFSET))(this, a1);
 		}
 
-		::System::Boolean TryGetPlan(::System::UInt32 uniqueID, ::RPG::Client::RelicPresetPlanData*& planData)
+		::System::Boolean TryGetPlan(::System::UInt32 a1, ::RPG::Client::RelicPresetPlanData*& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicPresetPlanData*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETAVATARPLANS_TRYGETPLAN_OFFSET))(this, uniqueID, planData);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicPresetPlanData*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETAVATARPLANS_TRYGETPLAN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void UpdatePlan(::Class_1_4C7B8542D6DC5824* plan)
+		::System::Void UpdatePlan(::Class_1_4C7B8542D6DC5824* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_4C7B8542D6DC5824*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETAVATARPLANS_UPDATEPLAN_OFFSET))(this, plan);
+			return ((::System::Void(*)(::PVOID, ::Class_1_4C7B8542D6DC5824*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETAVATARPLANS_UPDATEPLAN_OFFSET))(this, a1);
 		}
 
-		::System::Void UpdatePlan_1(::System::UInt32 uniqueID, ::System::String* name)
+		::System::Void UpdatePlan_1(::System::UInt32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETAVATARPLANS_UPDATEPLAN_1_OFFSET))(this, uniqueID, name);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETAVATARPLANS_UPDATEPLAN_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void UpdatePlan_2(::System::UInt32 uniqueID, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>* relicUniqueIDs)
+		::System::Void UpdatePlan_2(::System::UInt32 a1, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETAVATARPLANS_UPDATEPLAN_2_OFFSET))(this, uniqueID, relicUniqueIDs);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETAVATARPLANS_UPDATEPLAN_2_OFFSET))(this, a1, a2);
 		}
 	};
 }

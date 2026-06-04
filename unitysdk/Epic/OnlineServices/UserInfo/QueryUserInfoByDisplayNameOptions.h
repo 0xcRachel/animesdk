@@ -5,21 +5,21 @@
 namespace Epic::OnlineServices { class EpicAccountId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_USERINFO_QUERYUSERINFOBYDISPLAYNAMEOPTIONS_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x18CFB460)
-#define EPIC_ONLINESERVICES_USERINFO_QUERYUSERINFOBYDISPLAYNAMEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x18CFB440)
-#define EPIC_ONLINESERVICES_USERINFO_QUERYUSERINFOBYDISPLAYNAMEOPTIONS_SET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x18CFB470)
-#define EPIC_ONLINESERVICES_USERINFO_QUERYUSERINFOBYDISPLAYNAMEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x18CFB450)
-#define EPIC_ONLINESERVICES_USERINFO_QUERYUSERINFOBYDISPLAYNAMEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x18CFB480)
+#define EPIC_ONLINESERVICES_USERINFO_QUERYUSERINFOBYDISPLAYNAMEOPTIONS_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x19C4E980)
+#define EPIC_ONLINESERVICES_USERINFO_QUERYUSERINFOBYDISPLAYNAMEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19C4E960)
+#define EPIC_ONLINESERVICES_USERINFO_QUERYUSERINFOBYDISPLAYNAMEOPTIONS_SET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x19C4E990)
+#define EPIC_ONLINESERVICES_USERINFO_QUERYUSERINFOBYDISPLAYNAMEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19C4E970)
+#define EPIC_ONLINESERVICES_USERINFO_QUERYUSERINFOBYDISPLAYNAMEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19C4E9A0)
 
 namespace Epic::OnlineServices::UserInfo
 {
-	inline static constexpr unsigned int QueryUserInfoByDisplayNameOptions_TypeDefinitionIndex = 41112;
+	inline static constexpr unsigned int QueryUserInfoByDisplayNameOptions_TypeDefinitionIndex = 41915;
 
 	class QueryUserInfoByDisplayNameOptions : public ::System::Object
 	{
 	public:
-		::System::String* _DisplayName_k__BackingField; // 0x10
-		::Epic::OnlineServices::EpicAccountId* _LocalUserId_k__BackingField; // 0x18
+		::Epic::OnlineServices::EpicAccountId* _LocalUserId_k__BackingField; // 0x10
+		::System::String* _DisplayName_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -31,9 +31,9 @@ namespace Epic::OnlineServices::UserInfo
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_QUERYUSERINFOBYDISPLAYNAMEOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_QUERYUSERINFOBYDISPLAYNAMEOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_QUERYUSERINFOBYDISPLAYNAMEOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_DisplayName()
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::UserInfo
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_QUERYUSERINFOBYDISPLAYNAMEOPTIONS_GET_DISPLAYNAME_OFFSET))(this);
 		}
 
-		::System::Void set_DisplayName(::System::String* value)
+		::System::Void set_DisplayName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_QUERYUSERINFOBYDISPLAYNAMEOPTIONS_SET_DISPLAYNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_QUERYUSERINFOBYDISPLAYNAMEOPTIONS_SET_DISPLAYNAME_OFFSET))(this, a1);
 		}
 	};
 }

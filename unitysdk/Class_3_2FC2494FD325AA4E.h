@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_2_7B2C949E9A2AA065.h"
 
-class Class_0_16E4307DCC419505_69;
+class Class_0_16E4307DCC419505_68;
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_3_2FC2494FD325AA4E_GETTYPENAME_OFFSET UNITYSDK_OFFSET(0x103CC350)
-#define CLASS_3_2FC2494FD325AA4E_METHOD_3_442FB31BA698F929_OFFSET UNITYSDK_OFFSET(0x103CC5A0)
-#define CLASS_3_2FC2494FD325AA4E_ONALLSUCCEED_OFFSET UNITYSDK_OFFSET(0x103CC470)
-#define CLASS_3_2FC2494FD325AA4E_ONENUMBLOCKITEMS_OFFSET UNITYSDK_OFFSET(0x103CC3C0)
-#define CLASS_3_2FC2494FD325AA4E__CTOR_OFFSET UNITYSDK_OFFSET(0x103CC660)
-#define CLASS_3_2FC2494FD325AA4E___IFIXBASEPROXY_GETTYPENAME_OFFSET UNITYSDK_OFFSET(0x103CC6D0)
-#define CLASS_3_2FC2494FD325AA4E___IFIXBASEPROXY_ONALLSUCCEED_OFFSET UNITYSDK_OFFSET(0x103CC800)
-#define CLASS_3_2FC2494FD325AA4E___IFIXBASEPROXY_ONENUMBLOCKITEMS_OFFSET UNITYSDK_OFFSET(0x103CC740)
-#define CLASS_3_2FC2494FD325AA4E___N__0_OFFSET UNITYSDK_OFFSET(0x103CC690)
+#define CLASS_3_2FC2494FD325AA4E_GETTYPENAME_OFFSET UNITYSDK_OFFSET(0x172029A0)
+#define CLASS_3_2FC2494FD325AA4E_METHOD_3_442FB31BA698F929_OFFSET UNITYSDK_OFFSET(0x17202BF0)
+#define CLASS_3_2FC2494FD325AA4E_ONALLSUCCEED_OFFSET UNITYSDK_OFFSET(0x17202AC0)
+#define CLASS_3_2FC2494FD325AA4E_ONENUMBLOCKITEMS_OFFSET UNITYSDK_OFFSET(0x17202A10)
+#define CLASS_3_2FC2494FD325AA4E__CTOR_OFFSET UNITYSDK_OFFSET(0x17202CB0)
+#define CLASS_3_2FC2494FD325AA4E___IFIXBASEPROXY_GETTYPENAME_OFFSET UNITYSDK_OFFSET(0x17202D20)
+#define CLASS_3_2FC2494FD325AA4E___IFIXBASEPROXY_ONALLSUCCEED_OFFSET UNITYSDK_OFFSET(0x17202E30)
+#define CLASS_3_2FC2494FD325AA4E___IFIXBASEPROXY_ONENUMBLOCKITEMS_OFFSET UNITYSDK_OFFSET(0x17202D80)
+#define CLASS_3_2FC2494FD325AA4E___N__0_OFFSET UNITYSDK_OFFSET(0x17202CE0)
 
-inline static constexpr unsigned int Class_3_2FC2494FD325AA4E_TypeDefinitionIndex = 54879;
+inline static constexpr unsigned int Class_3_2FC2494FD325AA4E_TypeDefinitionIndex = 55609;
 
 class Class_3_2FC2494FD325AA4E : public ::Class_2_7B2C949E9A2AA065
 {
@@ -32,9 +32,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2FC2494FD325AA4E_GETTYPENAME_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_69*>* OnEnumBlockItems()
+	::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_68*>* OnEnumBlockItems()
 	{
-		return ((::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_69*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2FC2494FD325AA4E_ONENUMBLOCKITEMS_OFFSET))(this);
+		return ((::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_68*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2FC2494FD325AA4E_ONENUMBLOCKITEMS_OFFSET))(this);
 	}
 
 	::System::Void OnAllSucceed()
@@ -47,9 +47,9 @@ public:
 		return ((::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::System::String*, ::System::Boolean>*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_3_2FC2494FD325AA4E_METHOD_3_442FB31BA698F929_OFFSET))(this, a1);
 	}
 
-	::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_69*>* __n__0()
+	::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_68*>* __n__0()
 	{
-		return ((::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_69*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2FC2494FD325AA4E___N__0_OFFSET))(this);
+		return ((::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_68*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2FC2494FD325AA4E___N__0_OFFSET))(this);
 	}
 
 	::System::String* __iFixBaseProxy_GetTypeName()
@@ -57,9 +57,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2FC2494FD325AA4E___IFIXBASEPROXY_GETTYPENAME_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_69*>* __iFixBaseProxy_OnEnumBlockItems()
+	::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_68*>* __iFixBaseProxy_OnEnumBlockItems()
 	{
-		return ((::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_69*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2FC2494FD325AA4E___IFIXBASEPROXY_ONENUMBLOCKITEMS_OFFSET))(this);
+		return ((::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_68*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2FC2494FD325AA4E___IFIXBASEPROXY_ONENUMBLOCKITEMS_OFFSET))(this);
 	}
 
 	::System::Void __iFixBaseProxy_OnAllSucceed()

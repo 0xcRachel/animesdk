@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_BOOKLETLUAPANELPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x16D463B0)
+#define RPG_CLIENT_BOOKLETLUAPANELPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x182C5F30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookletLuaPanelParam_TypeDefinitionIndex = 66694;
+	inline static constexpr unsigned int BookletLuaPanelParam_TypeDefinitionIndex = 67634;
 
 	class BookletLuaPanelParam : public ::System::Object
 	{

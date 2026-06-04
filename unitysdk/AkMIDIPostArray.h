@@ -5,38 +5,38 @@
 class AkMIDIPost;
 namespace UnityEngine { class GameObject; }
 
-#define AKMIDIPOSTARRAY_COUNT_OFFSET UNITYSDK_OFFSET(0x196E63B0)
-#define AKMIDIPOSTARRAY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x196E5E80)
-#define AKMIDIPOSTARRAY_GETBUFFER_OFFSET UNITYSDK_OFFSET(0x196E6370)
-#define AKMIDIPOSTARRAY_GETOBJECTPTR_OFFSET UNITYSDK_OFFSET(0x196E5C40)
-#define AKMIDIPOSTARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x196E5AC0)
-#define AKMIDIPOSTARRAY_POSTONEVENT_1_OFFSET UNITYSDK_OFFSET(0x196E6100)
-#define AKMIDIPOSTARRAY_POSTONEVENT_OFFSET UNITYSDK_OFFSET(0x196E5F00)
-#define AKMIDIPOSTARRAY_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x196E5CA0)
-#define AKMIDIPOSTARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x196E5A20)
+#define AKMIDIPOSTARRAY_COUNT_OFFSET UNITYSDK_OFFSET(0x1A2727F0)
+#define AKMIDIPOSTARRAY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A2722C0)
+#define AKMIDIPOSTARRAY_GETBUFFER_OFFSET UNITYSDK_OFFSET(0x1A2727B0)
+#define AKMIDIPOSTARRAY_GETOBJECTPTR_OFFSET UNITYSDK_OFFSET(0x1A272080)
+#define AKMIDIPOSTARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1A271F00)
+#define AKMIDIPOSTARRAY_POSTONEVENT_1_OFFSET UNITYSDK_OFFSET(0x1A272540)
+#define AKMIDIPOSTARRAY_POSTONEVENT_OFFSET UNITYSDK_OFFSET(0x1A272340)
+#define AKMIDIPOSTARRAY_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1A2720E0)
+#define AKMIDIPOSTARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A271E60)
 
-inline static constexpr unsigned int AkMIDIPostArray_TypeDefinitionIndex = 40422;
+inline static constexpr unsigned int AkMIDIPostArray_TypeDefinitionIndex = 41249;
 
 class AkMIDIPostArray : public ::System::Object
 {
 public:
-	::System::Int32 m_Count; // 0x10
-	::System::Int32 SIZE_OF; // 0x14
-	::System::IntPtr m_Buffer; // 0x18
+	::System::IntPtr m_Buffer; // 0x10
+	::System::Int32 m_Count; // 0x18
+	::System::Int32 SIZE_OF; // 0x1C
 
-	::System::Void _ctor(::System::Int32 size)
+	::System::Void _ctor(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKMIDIPOSTARRAY__CTOR_OFFSET))(this, size);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKMIDIPOSTARRAY__CTOR_OFFSET))(this, a1);
 	}
 
-	::AkMIDIPost* get_Item(::System::Int32 index)
+	::AkMIDIPost* get_Item(::System::Int32 a1)
 	{
-		return ((::AkMIDIPost*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKMIDIPOSTARRAY_GET_ITEM_OFFSET))(this, index);
+		return ((::AkMIDIPost*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKMIDIPOSTARRAY_GET_ITEM_OFFSET))(this, a1);
 	}
 
-	::System::Void set_Item(::System::Int32 index, ::AkMIDIPost* value)
+	::System::Void set_Item(::System::Int32 a1, ::AkMIDIPost* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32, ::AkMIDIPost*))((::PBYTE)hIl2Cpp + AKMIDIPOSTARRAY_SET_ITEM_OFFSET))(this, index, value);
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::AkMIDIPost*))((::PBYTE)hIl2Cpp + AKMIDIPOSTARRAY_SET_ITEM_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Finalize()
@@ -44,14 +44,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIPOSTARRAY_FINALIZE_OFFSET))(this);
 	}
 
-	::System::Void PostOnEvent(::System::UInt32 in_eventID, ::UnityEngine::GameObject* gameObject)
+	::System::Void PostOnEvent(::System::UInt32 a1, ::UnityEngine::GameObject* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKMIDIPOSTARRAY_POSTONEVENT_OFFSET))(this, in_eventID, gameObject);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKMIDIPOSTARRAY_POSTONEVENT_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void PostOnEvent_1(::System::UInt32 in_eventID, ::UnityEngine::GameObject* gameObject, ::System::Int32 count)
+	::System::Void PostOnEvent_1(::System::UInt32 a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + AKMIDIPOSTARRAY_POSTONEVENT_1_OFFSET))(this, in_eventID, gameObject, count);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + AKMIDIPOSTARRAY_POSTONEVENT_1_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::IntPtr GetBuffer()
@@ -64,8 +64,8 @@ public:
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIPOSTARRAY_COUNT_OFFSET))(this);
 	}
 
-	::System::IntPtr GetObjectPtr(::System::Int32 index)
+	::System::IntPtr GetObjectPtr(::System::Int32 a1)
 	{
-		return ((::System::IntPtr(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKMIDIPOSTARRAY_GETOBJECTPTR_OFFSET))(this, index);
+		return ((::System::IntPtr(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKMIDIPOSTARRAY_GETOBJECTPTR_OFFSET))(this, a1);
 	}
 };

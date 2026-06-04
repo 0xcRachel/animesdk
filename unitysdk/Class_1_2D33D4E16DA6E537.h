@@ -3,27 +3,27 @@
 #include "unitysdk/RPG/Client/Prop/ChessDirection.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_2D33D4E16DA6E537_GET_DIRECTION_OFFSET UNITYSDK_OFFSET(0xA6073E0)
-#define CLASS_1_2D33D4E16DA6E537_GET_ISBLOCK_OFFSET UNITYSDK_OFFSET(0xA607400)
-#define CLASS_1_2D33D4E16DA6E537_GET_POSITIONX_OFFSET UNITYSDK_OFFSET(0xA6073A0)
-#define CLASS_1_2D33D4E16DA6E537_GET_POSITIONY_OFFSET UNITYSDK_OFFSET(0xA6073C0)
-#define CLASS_1_2D33D4E16DA6E537_METHOD_1_38DD9133D62B85E3_OFFSET UNITYSDK_OFFSET(0xA6072F0)
-#define CLASS_1_2D33D4E16DA6E537_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0xA607350)
-#define CLASS_1_2D33D4E16DA6E537_SET_DIRECTION_OFFSET UNITYSDK_OFFSET(0xA6073F0)
-#define CLASS_1_2D33D4E16DA6E537_SET_ISBLOCK_OFFSET UNITYSDK_OFFSET(0xA607410)
-#define CLASS_1_2D33D4E16DA6E537_SET_POSITIONX_OFFSET UNITYSDK_OFFSET(0xA6073B0)
-#define CLASS_1_2D33D4E16DA6E537_SET_POSITIONY_OFFSET UNITYSDK_OFFSET(0xA6073D0)
-#define CLASS_1_2D33D4E16DA6E537__CTOR_OFFSET UNITYSDK_OFFSET(0xA607420)
+#define CLASS_1_2D33D4E16DA6E537_GET_DIRECTION_OFFSET UNITYSDK_OFFSET(0x15346450)
+#define CLASS_1_2D33D4E16DA6E537_GET_ISBLOCK_OFFSET UNITYSDK_OFFSET(0x15346470)
+#define CLASS_1_2D33D4E16DA6E537_GET_POSITIONX_OFFSET UNITYSDK_OFFSET(0x15346410)
+#define CLASS_1_2D33D4E16DA6E537_GET_POSITIONY_OFFSET UNITYSDK_OFFSET(0x15346430)
+#define CLASS_1_2D33D4E16DA6E537_METHOD_1_38DD9133D62B85E3_OFFSET UNITYSDK_OFFSET(0x15346360)
+#define CLASS_1_2D33D4E16DA6E537_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x153463C0)
+#define CLASS_1_2D33D4E16DA6E537_SET_DIRECTION_OFFSET UNITYSDK_OFFSET(0x15346460)
+#define CLASS_1_2D33D4E16DA6E537_SET_ISBLOCK_OFFSET UNITYSDK_OFFSET(0x15346480)
+#define CLASS_1_2D33D4E16DA6E537_SET_POSITIONX_OFFSET UNITYSDK_OFFSET(0x15346420)
+#define CLASS_1_2D33D4E16DA6E537_SET_POSITIONY_OFFSET UNITYSDK_OFFSET(0x15346440)
+#define CLASS_1_2D33D4E16DA6E537__CTOR_OFFSET UNITYSDK_OFFSET(0x15346490)
 
-inline static constexpr unsigned int Class_1_2D33D4E16DA6E537_TypeDefinitionIndex = 72055;
+inline static constexpr unsigned int Class_1_2D33D4E16DA6E537_TypeDefinitionIndex = 73077;
 
 class Class_1_2D33D4E16DA6E537 : public ::System::Object
 {
 public:
-	::System::Boolean _IsBlock_k__BackingField; // 0x10
+	::RPG::Client::Prop::ChessDirection _Direction_k__BackingField; // 0x10
 	::System::Int32 _PositionX_k__BackingField; // 0x14
-	::RPG::Client::Prop::ChessDirection _Direction_k__BackingField; // 0x18
-	::System::Int32 _PositionY_k__BackingField; // 0x1C
+	::System::Int32 _PositionY_k__BackingField; // 0x18
+	::System::Boolean _IsBlock_k__BackingField; // 0x1C
 
 	::System::Void _ctor()
 	{
@@ -45,9 +45,9 @@ public:
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2D33D4E16DA6E537_GET_POSITIONX_OFFSET))(this);
 	}
 
-	::System::Void set_PositionX(::System::Int32 value)
+	::System::Void set_PositionX(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_2D33D4E16DA6E537_SET_POSITIONX_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_2D33D4E16DA6E537_SET_POSITIONX_OFFSET))(this, a1);
 	}
 
 	::System::Int32 get_PositionY()
@@ -55,9 +55,9 @@ public:
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2D33D4E16DA6E537_GET_POSITIONY_OFFSET))(this);
 	}
 
-	::System::Void set_PositionY(::System::Int32 value)
+	::System::Void set_PositionY(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_2D33D4E16DA6E537_SET_POSITIONY_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_2D33D4E16DA6E537_SET_POSITIONY_OFFSET))(this, a1);
 	}
 
 	::RPG::Client::Prop::ChessDirection get_Direction()
@@ -65,9 +65,9 @@ public:
 		return ((::RPG::Client::Prop::ChessDirection(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2D33D4E16DA6E537_GET_DIRECTION_OFFSET))(this);
 	}
 
-	::System::Void set_Direction(::RPG::Client::Prop::ChessDirection value)
+	::System::Void set_Direction(::RPG::Client::Prop::ChessDirection a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChessDirection))((::PBYTE)hIl2Cpp + CLASS_1_2D33D4E16DA6E537_SET_DIRECTION_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChessDirection))((::PBYTE)hIl2Cpp + CLASS_1_2D33D4E16DA6E537_SET_DIRECTION_OFFSET))(this, a1);
 	}
 
 	::System::Boolean get_IsBlock()
@@ -75,8 +75,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2D33D4E16DA6E537_GET_ISBLOCK_OFFSET))(this);
 	}
 
-	::System::Void set_IsBlock(::System::Boolean value)
+	::System::Void set_IsBlock(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_2D33D4E16DA6E537_SET_ISBLOCK_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_2D33D4E16DA6E537_SET_ISBLOCK_OFFSET))(this, a1);
 	}
 };

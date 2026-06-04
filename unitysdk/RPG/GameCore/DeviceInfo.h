@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class GraphicsSettingRequirements; }
 namespace RPG::GameCore { class RenderResolution; }
 
-#define RPG_GAMECORE_DEVICEINFO_METHOD_2_2DC94C861BC54494_OFFSET UNITYSDK_OFFSET(0x195865E0)
-#define RPG_GAMECORE_DEVICEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19586AB0)
+#define RPG_GAMECORE_DEVICEINFO_METHOD_2_FE735B0BCD4FC6CB_OFFSET UNITYSDK_OFFSET(0x19B38710)
+#define RPG_GAMECORE_DEVICEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19B38BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeviceInfo_TypeDefinitionIndex = 17358;
+	inline static constexpr unsigned int DeviceInfo_TypeDefinitionIndex = 17362;
 
 	class DeviceInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICEINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_2DC94C861BC54494(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeviceInfo*& a2)
+		static ::System::Void Method_2_FE735B0BCD4FC6CB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeviceInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeviceInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICEINFO_METHOD_2_2DC94C861BC54494_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeviceInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICEINFO_METHOD_2_FE735B0BCD4FC6CB_OFFSET))(a1, a2);
 		}
 	};
 }

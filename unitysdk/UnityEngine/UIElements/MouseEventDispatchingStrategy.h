@@ -5,13 +5,13 @@
 namespace UnityEngine::UIElements { class EventBase; }
 namespace UnityEngine::UIElements { class IPanel; }
 
-#define UNITYENGINE_UIELEMENTS_MOUSEEVENTDISPATCHINGSTRATEGY_CANDISPATCHEVENT_OFFSET UNITYSDK_OFFSET(0x19224C80)
-#define UNITYENGINE_UIELEMENTS_MOUSEEVENTDISPATCHINGSTRATEGY_DISPATCHEVENT_OFFSET UNITYSDK_OFFSET(0x19224CC0)
-#define UNITYENGINE_UIELEMENTS_MOUSEEVENTDISPATCHINGSTRATEGY__CTOR_OFFSET UNITYSDK_OFFSET(0x1921DBF0)
+#define UNITYENGINE_UIELEMENTS_MOUSEEVENTDISPATCHINGSTRATEGY_CANDISPATCHEVENT_OFFSET UNITYSDK_OFFSET(0x19F8CB00)
+#define UNITYENGINE_UIELEMENTS_MOUSEEVENTDISPATCHINGSTRATEGY_DISPATCHEVENT_OFFSET UNITYSDK_OFFSET(0x19F8CB60)
+#define UNITYENGINE_UIELEMENTS_MOUSEEVENTDISPATCHINGSTRATEGY__CTOR_OFFSET UNITYSDK_OFFSET(0x19F858A0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int MouseEventDispatchingStrategy_TypeDefinitionIndex = 5933;
+	inline static constexpr unsigned int MouseEventDispatchingStrategy_TypeDefinitionIndex = 6210;
 
 	class MouseEventDispatchingStrategy : public ::System::Object
 	{
@@ -21,14 +21,14 @@ namespace UnityEngine::UIElements
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_MOUSEEVENTDISPATCHINGSTRATEGY__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt)
+		::System::Boolean CanDispatchEvent(::UnityEngine::UIElements::EventBase* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UIElements::EventBase*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_MOUSEEVENTDISPATCHINGSTRATEGY_CANDISPATCHEVENT_OFFSET))(this, evt);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UIElements::EventBase*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_MOUSEEVENTDISPATCHINGSTRATEGY_CANDISPATCHEVENT_OFFSET))(this, a1);
 		}
 
-		::System::Void DispatchEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel)
+		::System::Void DispatchEvent(::UnityEngine::UIElements::EventBase* a1, ::UnityEngine::UIElements::IPanel* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_MOUSEEVENTDISPATCHINGSTRATEGY_DISPATCHEVENT_OFFSET))(this, evt, panel);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_MOUSEEVENTDISPATCHINGSTRATEGY_DISPATCHEVENT_OFFSET))(this, a1, a2);
 		}
 	};
 }

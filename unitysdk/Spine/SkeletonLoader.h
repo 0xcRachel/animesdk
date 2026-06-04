@@ -9,14 +9,14 @@ namespace Spine { class SkeletonLoader_LinkedMesh; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SPINE_SKELETONLOADER_GET_SCALE_OFFSET UNITYSDK_OFFSET(0x15700D70)
-#define SPINE_SKELETONLOADER_SET_SCALE_OFFSET UNITYSDK_OFFSET(0x15700D80)
-#define SPINE_SKELETONLOADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x156D0900)
-#define SPINE_SKELETONLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x156D0990)
+#define SPINE_SKELETONLOADER_GET_SCALE_OFFSET UNITYSDK_OFFSET(0x12BC9990)
+#define SPINE_SKELETONLOADER_SET_SCALE_OFFSET UNITYSDK_OFFSET(0x12BC99A0)
+#define SPINE_SKELETONLOADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x12B990F0)
+#define SPINE_SKELETONLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x12B99180)
 
 namespace Spine
 {
-	inline static constexpr unsigned int SkeletonLoader_TypeDefinitionIndex = 36456;
+	inline static constexpr unsigned int SkeletonLoader_TypeDefinitionIndex = 36756;
 
 	class SkeletonLoader : public ::System::Object
 	{
@@ -25,14 +25,14 @@ namespace Spine
 		::System::Collections::Generic::List_1<::Spine::SkeletonLoader_LinkedMesh*>* linkedMeshes; // 0x18
 		::System::Single scale; // 0x20
 
-		::System::Void _ctor(::Il2CppArray<::Spine::Atlas*>* atlasArray)
+		::System::Void _ctor(::Il2CppArray<::Spine::Atlas*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Spine::Atlas*>*))((::PBYTE)hIl2Cpp + SPINE_SKELETONLOADER__CTOR_OFFSET))(this, atlasArray);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Spine::Atlas*>*))((::PBYTE)hIl2Cpp + SPINE_SKELETONLOADER__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::Spine::AttachmentLoader* attachmentLoader)
+		::System::Void _ctor_1(::Spine::AttachmentLoader* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AttachmentLoader*))((::PBYTE)hIl2Cpp + SPINE_SKELETONLOADER__CTOR_1_OFFSET))(this, attachmentLoader);
+			return ((::System::Void(*)(::PVOID, ::Spine::AttachmentLoader*))((::PBYTE)hIl2Cpp + SPINE_SKELETONLOADER__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Scale()
@@ -40,9 +40,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SKELETONLOADER_GET_SCALE_OFFSET))(this);
 		}
 
-		::System::Void set_Scale(::System::Single value)
+		::System::Void set_Scale(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONLOADER_SET_SCALE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONLOADER_SET_SCALE_OFFSET))(this, a1);
 		}
 	};
 }

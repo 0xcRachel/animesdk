@@ -6,27 +6,27 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x19309BE0)
-#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x19309B80)
-#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_GET_URL_OFFSET UNITYSDK_OFFSET(0x19309BA0)
-#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x19309BC0)
-#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x1930A080)
-#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x19309BF0)
-#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_OFFSET UNITYSDK_OFFSET(0x19309C00)
-#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x19309B90)
-#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_URL_OFFSET UNITYSDK_OFFSET(0x19309BB0)
-#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0x19309BD0)
-#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1930A1B0)
+#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x19EF4FB0)
+#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x19EF4F50)
+#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_GET_URL_OFFSET UNITYSDK_OFFSET(0x19EF4F70)
+#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x19EF4F90)
+#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x19EF5450)
+#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x19EF4FC0)
+#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_OFFSET UNITYSDK_OFFSET(0x19EF4FD0)
+#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x19EF4F60)
+#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_URL_OFFSET UNITYSDK_OFFSET(0x19EF4F80)
+#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0x19EF4FA0)
+#define EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19EF5580)
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int KeyImageInfo_TypeDefinitionIndex = 42192;
+	inline static constexpr unsigned int KeyImageInfo_TypeDefinitionIndex = 42995;
 
 	class KeyImageInfo : public ::System::Object
 	{
 	public:
-		::System::String* _Type_k__BackingField; // 0x10
-		::System::String* _Url_k__BackingField; // 0x18
+		::System::String* _Url_k__BackingField; // 0x10
+		::System::String* _Type_k__BackingField; // 0x18
 		::System::UInt32 _Height_k__BackingField; // 0x20
 		::System::UInt32 _Width_k__BackingField; // 0x24
 
@@ -40,9 +40,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Void set_Type(::System::String* value)
+		::System::Void set_Type(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_TYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_TYPE_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Url()
@@ -50,9 +50,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_GET_URL_OFFSET))(this);
 		}
 
-		::System::Void set_Url(::System::String* value)
+		::System::Void set_Url(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_URL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_URL_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_Width()
@@ -60,9 +60,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_GET_WIDTH_OFFSET))(this);
 		}
 
-		::System::Void set_Width(::System::UInt32 value)
+		::System::Void set_Width(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_WIDTH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_WIDTH_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_Height()
@@ -70,19 +70,19 @@ namespace Epic::OnlineServices::Ecom
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_GET_HEIGHT_OFFSET))(this);
 		}
 
-		::System::Void set_Height(::System::UInt32 value)
+		::System::Void set_Height(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_HEIGHT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_HEIGHT_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Ecom::KeyImageInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Ecom::KeyImageInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Ecom::KeyImageInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Ecom::KeyImageInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_KEYIMAGEINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

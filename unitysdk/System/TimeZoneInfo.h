@@ -21,145 +21,145 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 namespace System::IO { class Stream; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_TIMEZONEINFO_BUILDFROMSTREAM_OFFSET UNITYSDK_OFFSET(0x18BE52D0)
-#define SYSTEM_TIMEZONEINFO_CONVERTTIMEFROMUTC_1_OFFSET UNITYSDK_OFFSET(0x18BE4120)
-#define SYSTEM_TIMEZONEINFO_CONVERTTIMEFROMUTC_OFFSET UNITYSDK_OFFSET(0x18BE4190)
-#define SYSTEM_TIMEZONEINFO_CONVERTTIMETOUTC_1_OFFSET UNITYSDK_OFFSET(0x18BE4110)
-#define SYSTEM_TIMEZONEINFO_CONVERTTIMETOUTC_2_OFFSET UNITYSDK_OFFSET(0x18BE44A0)
-#define SYSTEM_TIMEZONEINFO_CONVERTTIMETOUTC_OFFSET UNITYSDK_OFFSET(0x18BE4410)
-#define SYSTEM_TIMEZONEINFO_CONVERTTIME_OFFSET UNITYSDK_OFFSET(0x18BE3A50)
-#define SYSTEM_TIMEZONEINFO_CREATEADJUSTMENTRULEFROMTIMEZONEINFORMATION_OFFSET UNITYSDK_OFFSET(0x18BDF500)
-#define SYSTEM_TIMEZONEINFO_CREATEADJUSTMENTRULE_OFFSET UNITYSDK_OFFSET(0x18BDC230)
-#define SYSTEM_TIMEZONEINFO_CREATECUSTOMTIMEZONE_1_OFFSET UNITYSDK_OFFSET(0x18BE4BB0)
-#define SYSTEM_TIMEZONEINFO_CREATECUSTOMTIMEZONE_2_OFFSET UNITYSDK_OFFSET(0x18BDD860)
-#define SYSTEM_TIMEZONEINFO_CREATECUSTOMTIMEZONE_OFFSET UNITYSDK_OFFSET(0x18BE3950)
-#define SYSTEM_TIMEZONEINFO_CREATELOCALUNITY_OFFSET UNITYSDK_OFFSET(0x18BDD180)
-#define SYSTEM_TIMEZONEINFO_CREATELOCAL_OFFSET UNITYSDK_OFFSET(0x18BE18A0)
-#define SYSTEM_TIMEZONEINFO_DATETIMEFROMUNIXTIME_OFFSET UNITYSDK_OFFSET(0x18BEA930)
-#define SYSTEM_TIMEZONEINFO_ENUMDYNAMICTIMEZONEINFORMATION_OFFSET UNITYSDK_OFFSET(0x18BDD8E0)
-#define SYSTEM_TIMEZONEINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x18BE4C80)
-#define SYSTEM_TIMEZONEINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x18BE4C20)
-#define SYSTEM_TIMEZONEINFO_FINDSYSTEMTIMEZONEBYFILENAME_OFFSET UNITYSDK_OFFSET(0x18BE2B20)
-#define SYSTEM_TIMEZONEINFO_FINDSYSTEMTIMEZONEBYIDCORE_OFFSET UNITYSDK_OFFSET(0x18BE2CC0)
-#define SYSTEM_TIMEZONEINFO_FINDSYSTEMTIMEZONEBYIDWINRTFALLBACK_OFFSET UNITYSDK_OFFSET(0x18BE0EA0)
-#define SYSTEM_TIMEZONEINFO_FINDSYSTEMTIMEZONEBYID_OFFSET UNITYSDK_OFFSET(0x18BE28B0)
-#define SYSTEM_TIMEZONEINFO_FROMREGISTRYKEY_OFFSET UNITYSDK_OFFSET(0x18BE4E60)
-#define SYSTEM_TIMEZONEINFO_GETADJUSTMENTRULES_OFFSET UNITYSDK_OFFSET(0x18BE5CA0)
-#define SYSTEM_TIMEZONEINFO_GETAPPLICABLERULE_OFFSET UNITYSDK_OFFSET(0x18BE7030)
-#define SYSTEM_TIMEZONEINFO_GETDATETIMENOWUTCOFFSETFROMUTC_OFFSET UNITYSDK_OFFSET(0x18BE4A90)
-#define SYSTEM_TIMEZONEINFO_GETDYNAMICTIMEZONEINFORMATIONEFFECTIVEYEARS_OFFSET UNITYSDK_OFFSET(0x18BDE2A0)
-#define SYSTEM_TIMEZONEINFO_GETDYNAMICTIMEZONEINFORMATIONWIN32_OFFSET UNITYSDK_OFFSET(0x18BDDF60)
-#define SYSTEM_TIMEZONEINFO_GETDYNAMICTIMEZONEINFORMATION_OFFSET UNITYSDK_OFFSET(0x18BDDC20)
-#define SYSTEM_TIMEZONEINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18BE5DC0)
-#define SYSTEM_TIMEZONEINFO_GETLOCALTIMEZONEINFOWINRTFALLBACK_OFFSET UNITYSDK_OFFSET(0x18BE06D0)
-#define SYSTEM_TIMEZONEINFO_GETLOCALTIMEZONEKEYNAMEWIN32FALLBACK_OFFSET UNITYSDK_OFFSET(0x18BE0BC0)
-#define SYSTEM_TIMEZONEINFO_GETLOCALUTCOFFSET_OFFSET UNITYSDK_OFFSET(0x18BEA970)
-#define SYSTEM_TIMEZONEINFO_GETSYSTEMTIMEZONESCORE_OFFSET UNITYSDK_OFFSET(0x18BE2D30)
-#define SYSTEM_TIMEZONEINFO_GETSYSTEMTIMEZONESWINRTFALLBACK_OFFSET UNITYSDK_OFFSET(0x18BE1320)
-#define SYSTEM_TIMEZONEINFO_GETSYSTEMTIMEZONES_OFFSET UNITYSDK_OFFSET(0x18BE11F0)
-#define SYSTEM_TIMEZONEINFO_GETTIMEZONEINFORMATIONFORYEAR_OFFSET UNITYSDK_OFFSET(0x18BDEAC0)
-#define SYSTEM_TIMEZONEINFO_GETUTCOFFSETFROMUTC_OFFSET UNITYSDK_OFFSET(0x18BE4B50)
-#define SYSTEM_TIMEZONEINFO_GETUTCOFFSETHELPER_OFFSET UNITYSDK_OFFSET(0x18BE62E0)
-#define SYSTEM_TIMEZONEINFO_GETUTCOFFSET_1_OFFSET UNITYSDK_OFFSET(0x18BE4800)
-#define SYSTEM_TIMEZONEINFO_GETUTCOFFSET_2_OFFSET UNITYSDK_OFFSET(0x18BEAA10)
-#define SYSTEM_TIMEZONEINFO_GETUTCOFFSET_OFFSET UNITYSDK_OFFSET(0x18BE43F0)
-#define SYSTEM_TIMEZONEINFO_GET_BASEUTCOFFSET_OFFSET UNITYSDK_OFFSET(0x18BE17F0)
-#define SYSTEM_TIMEZONEINFO_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x18BE1800)
-#define SYSTEM_TIMEZONEINFO_GET_ID_OFFSET UNITYSDK_OFFSET(0x18BE1810)
-#define SYSTEM_TIMEZONEINFO_GET_ISWINDOWS_OFFSET UNITYSDK_OFFSET(0x18BE2560)
-#define SYSTEM_TIMEZONEINFO_GET_LOCALZONEKEY_OFFSET UNITYSDK_OFFSET(0x18BE25F0)
-#define SYSTEM_TIMEZONEINFO_GET_LOCAL_OFFSET UNITYSDK_OFFSET(0x18BE1820)
-#define SYSTEM_TIMEZONEINFO_GET_SUPPORTSDAYLIGHTSAVINGTIME_OFFSET UNITYSDK_OFFSET(0x18BE3940)
-#define SYSTEM_TIMEZONEINFO_GET_TIMEZONEDIRECTORY_OFFSET UNITYSDK_OFFSET(0x18BE2500)
-#define SYSTEM_TIMEZONEINFO_GET_TIMEZONEKEY_OFFSET UNITYSDK_OFFSET(0x18BE3800)
-#define SYSTEM_TIMEZONEINFO_GET_UTC_OFFSET UNITYSDK_OFFSET(0x18BE0B50)
-#define SYSTEM_TIMEZONEINFO_HASSAMERULES_OFFSET UNITYSDK_OFFSET(0x18BE4CE0)
-#define SYSTEM_TIMEZONEINFO_ISAMBIGUOUSLOCALDSTFROMUTC_OFFSET UNITYSDK_OFFSET(0x18BE7CB0)
-#define SYSTEM_TIMEZONEINFO_ISAMBIGUOUSTIME_OFFSET UNITYSDK_OFFSET(0x18BE76D0)
-#define SYSTEM_TIMEZONEINFO_ISDAYLIGHTSAVINGTIME_1_OFFSET UNITYSDK_OFFSET(0x18BE8350)
-#define SYSTEM_TIMEZONEINFO_ISDAYLIGHTSAVINGTIME_OFFSET UNITYSDK_OFFSET(0x18BE8230)
-#define SYSTEM_TIMEZONEINFO_ISINDSTFORYEAR_OFFSET UNITYSDK_OFFSET(0x18BE7FF0)
-#define SYSTEM_TIMEZONEINFO_ISINDST_OFFSET UNITYSDK_OFFSET(0x18BE7480)
-#define SYSTEM_TIMEZONEINFO_ISINVALIDTIME_OFFSET UNITYSDK_OFFSET(0x18BE3EC0)
-#define SYSTEM_TIMEZONEINFO_PARSEABBREVIATIONS_OFFSET UNITYSDK_OFFSET(0x18BEA040)
-#define SYSTEM_TIMEZONEINFO_PARSEREGTZI_OFFSET UNITYSDK_OFFSET(0x18BE5430)
-#define SYSTEM_TIMEZONEINFO_PARSETIMESTYPES_OFFSET UNITYSDK_OFFSET(0x18BEA3A0)
-#define SYSTEM_TIMEZONEINFO_PARSETRANSITIONS_OFFSET UNITYSDK_OFFSET(0x18BEA680)
-#define SYSTEM_TIMEZONEINFO_PARSETZBUFFER_OFFSET UNITYSDK_OFFSET(0x18BE8D50)
-#define SYSTEM_TIMEZONEINFO_READBIGENDIANINT32_OFFSET UNITYSDK_OFFSET(0x18BEA020)
-#define SYSTEM_TIMEZONEINFO_READLINK_1_OFFSET UNITYSDK_OFFSET(0x18BE2010)
-#define SYSTEM_TIMEZONEINFO_READLINK_OFFSET UNITYSDK_OFFSET(0x18BE1F60)
-#define SYSTEM_TIMEZONEINFO_SWAPINT32_OFFSET UNITYSDK_OFFSET(0x18BEA010)
-#define SYSTEM_TIMEZONEINFO_SYSTEM_RUNTIME_SERIALIZATION_IDESERIALIZATIONCALLBACK_ONDESERIALIZATION_OFFSET UNITYSDK_OFFSET(0x18BE8360)
-#define SYSTEM_TIMEZONEINFO_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x18BE5FC0)
-#define SYSTEM_TIMEZONEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18BE8860)
-#define SYSTEM_TIMEZONEINFO_TRANSITIONPOINT_OFFSET UNITYSDK_OFFSET(0x18BE7A90)
-#define SYSTEM_TIMEZONEINFO_TRANSITIONTIMEFROMTIMEZONEINFORMATION_OFFSET UNITYSDK_OFFSET(0x18BDFA80)
-#define SYSTEM_TIMEZONEINFO_TRIMSPECIAL_OFFSET UNITYSDK_OFFSET(0x18BE2730)
-#define SYSTEM_TIMEZONEINFO_TRYADDTICKS_OFFSET UNITYSDK_OFFSET(0x18BE39B0)
-#define SYSTEM_TIMEZONEINFO_TRYCREATETIMEZONE_OFFSET UNITYSDK_OFFSET(0x18BDFD50)
-#define SYSTEM_TIMEZONEINFO_TRYGETNAMEFROMPATH_OFFSET UNITYSDK_OFFSET(0x18BE2280)
-#define SYSTEM_TIMEZONEINFO_TRYGETTRANSITIONOFFSET_OFFSET UNITYSDK_OFFSET(0x18BE6730)
-#define SYSTEM_TIMEZONEINFO_UTCOFFSETOUTOFRANGE_OFFSET UNITYSDK_OFFSET(0x18BDC1F0)
-#define SYSTEM_TIMEZONEINFO_VALIDATERULES_OFFSET UNITYSDK_OFFSET(0x18BE5AD0)
-#define SYSTEM_TIMEZONEINFO_VALIDATE_OFFSET UNITYSDK_OFFSET(0x18BE8440)
-#define SYSTEM_TIMEZONEINFO_VALIDTZFILE_OFFSET UNITYSDK_OFFSET(0x18BE8BE0)
-#define SYSTEM_TIMEZONEINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18BE0250)
-#define SYSTEM_TIMEZONEINFO__CTOR_2_OFFSET UNITYSDK_OFFSET(0x18BEAA30)
-#define SYSTEM_TIMEZONEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18BE8870)
+#define SYSTEM_TIMEZONEINFO_BUILDFROMSTREAM_OFFSET UNITYSDK_OFFSET(0x18D9FCC0)
+#define SYSTEM_TIMEZONEINFO_CONVERTTIMEFROMUTC_1_OFFSET UNITYSDK_OFFSET(0x18D9EB30)
+#define SYSTEM_TIMEZONEINFO_CONVERTTIMEFROMUTC_OFFSET UNITYSDK_OFFSET(0x18D9EBA0)
+#define SYSTEM_TIMEZONEINFO_CONVERTTIMETOUTC_1_OFFSET UNITYSDK_OFFSET(0x18D9EB20)
+#define SYSTEM_TIMEZONEINFO_CONVERTTIMETOUTC_2_OFFSET UNITYSDK_OFFSET(0x18D9EEB0)
+#define SYSTEM_TIMEZONEINFO_CONVERTTIMETOUTC_OFFSET UNITYSDK_OFFSET(0x18D9EE20)
+#define SYSTEM_TIMEZONEINFO_CONVERTTIME_OFFSET UNITYSDK_OFFSET(0x18D9E460)
+#define SYSTEM_TIMEZONEINFO_CREATEADJUSTMENTRULEFROMTIMEZONEINFORMATION_OFFSET UNITYSDK_OFFSET(0x18D99DA0)
+#define SYSTEM_TIMEZONEINFO_CREATEADJUSTMENTRULE_OFFSET UNITYSDK_OFFSET(0x18D963A0)
+#define SYSTEM_TIMEZONEINFO_CREATECUSTOMTIMEZONE_1_OFFSET UNITYSDK_OFFSET(0x18D9F5C0)
+#define SYSTEM_TIMEZONEINFO_CREATECUSTOMTIMEZONE_2_OFFSET UNITYSDK_OFFSET(0x18D98150)
+#define SYSTEM_TIMEZONEINFO_CREATECUSTOMTIMEZONE_OFFSET UNITYSDK_OFFSET(0x18D9E360)
+#define SYSTEM_TIMEZONEINFO_CREATELOCALUNITY_OFFSET UNITYSDK_OFFSET(0x18D97AE0)
+#define SYSTEM_TIMEZONEINFO_CREATELOCAL_OFFSET UNITYSDK_OFFSET(0x18D9C280)
+#define SYSTEM_TIMEZONEINFO_DATETIMEFROMUNIXTIME_OFFSET UNITYSDK_OFFSET(0x18DA5B30)
+#define SYSTEM_TIMEZONEINFO_ENUMDYNAMICTIMEZONEINFORMATION_OFFSET UNITYSDK_OFFSET(0x18D981D0)
+#define SYSTEM_TIMEZONEINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x18D9F690)
+#define SYSTEM_TIMEZONEINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x18D9F630)
+#define SYSTEM_TIMEZONEINFO_FINDSYSTEMTIMEZONEBYFILENAME_OFFSET UNITYSDK_OFFSET(0x18D9D5F0)
+#define SYSTEM_TIMEZONEINFO_FINDSYSTEMTIMEZONEBYIDCORE_OFFSET UNITYSDK_OFFSET(0x18D9D790)
+#define SYSTEM_TIMEZONEINFO_FINDSYSTEMTIMEZONEBYIDWINRTFALLBACK_OFFSET UNITYSDK_OFFSET(0x18D9B7E0)
+#define SYSTEM_TIMEZONEINFO_FINDSYSTEMTIMEZONEBYID_OFFSET UNITYSDK_OFFSET(0x18D9D340)
+#define SYSTEM_TIMEZONEINFO_FROMREGISTRYKEY_OFFSET UNITYSDK_OFFSET(0x18D9F850)
+#define SYSTEM_TIMEZONEINFO_GETADJUSTMENTRULES_OFFSET UNITYSDK_OFFSET(0x18DA0630)
+#define SYSTEM_TIMEZONEINFO_GETAPPLICABLERULE_OFFSET UNITYSDK_OFFSET(0x18DA19A0)
+#define SYSTEM_TIMEZONEINFO_GETDATETIMENOWUTCOFFSETFROMUTC_OFFSET UNITYSDK_OFFSET(0x18D9F4A0)
+#define SYSTEM_TIMEZONEINFO_GETDYNAMICTIMEZONEINFORMATIONEFFECTIVEYEARS_OFFSET UNITYSDK_OFFSET(0x18D98B90)
+#define SYSTEM_TIMEZONEINFO_GETDYNAMICTIMEZONEINFORMATIONWIN32_OFFSET UNITYSDK_OFFSET(0x18D98850)
+#define SYSTEM_TIMEZONEINFO_GETDYNAMICTIMEZONEINFORMATION_OFFSET UNITYSDK_OFFSET(0x18D98510)
+#define SYSTEM_TIMEZONEINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18DA0760)
+#define SYSTEM_TIMEZONEINFO_GETLOCALTIMEZONEINFOWINRTFALLBACK_OFFSET UNITYSDK_OFFSET(0x18D9B010)
+#define SYSTEM_TIMEZONEINFO_GETLOCALTIMEZONEKEYNAMEWIN32FALLBACK_OFFSET UNITYSDK_OFFSET(0x18D9B500)
+#define SYSTEM_TIMEZONEINFO_GETLOCALUTCOFFSET_OFFSET UNITYSDK_OFFSET(0x18DA5B70)
+#define SYSTEM_TIMEZONEINFO_GETSYSTEMTIMEZONESCORE_OFFSET UNITYSDK_OFFSET(0x18D9D800)
+#define SYSTEM_TIMEZONEINFO_GETSYSTEMTIMEZONESWINRTFALLBACK_OFFSET UNITYSDK_OFFSET(0x18D9BC60)
+#define SYSTEM_TIMEZONEINFO_GETSYSTEMTIMEZONES_OFFSET UNITYSDK_OFFSET(0x18D9BB30)
+#define SYSTEM_TIMEZONEINFO_GETTIMEZONEINFORMATIONFORYEAR_OFFSET UNITYSDK_OFFSET(0x18D99390)
+#define SYSTEM_TIMEZONEINFO_GETUTCOFFSETFROMUTC_OFFSET UNITYSDK_OFFSET(0x18D9F560)
+#define SYSTEM_TIMEZONEINFO_GETUTCOFFSETHELPER_OFFSET UNITYSDK_OFFSET(0x18DA0C50)
+#define SYSTEM_TIMEZONEINFO_GETUTCOFFSET_1_OFFSET UNITYSDK_OFFSET(0x18D9F210)
+#define SYSTEM_TIMEZONEINFO_GETUTCOFFSET_2_OFFSET UNITYSDK_OFFSET(0x18DA5C10)
+#define SYSTEM_TIMEZONEINFO_GETUTCOFFSET_OFFSET UNITYSDK_OFFSET(0x18D9EE00)
+#define SYSTEM_TIMEZONEINFO_GET_BASEUTCOFFSET_OFFSET UNITYSDK_OFFSET(0x18D9C1D0)
+#define SYSTEM_TIMEZONEINFO_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x18D9C1E0)
+#define SYSTEM_TIMEZONEINFO_GET_ID_OFFSET UNITYSDK_OFFSET(0x18D9C1F0)
+#define SYSTEM_TIMEZONEINFO_GET_ISWINDOWS_OFFSET UNITYSDK_OFFSET(0x18D9CF80)
+#define SYSTEM_TIMEZONEINFO_GET_LOCALZONEKEY_OFFSET UNITYSDK_OFFSET(0x18D9D040)
+#define SYSTEM_TIMEZONEINFO_GET_LOCAL_OFFSET UNITYSDK_OFFSET(0x18D9C200)
+#define SYSTEM_TIMEZONEINFO_GET_SUPPORTSDAYLIGHTSAVINGTIME_OFFSET UNITYSDK_OFFSET(0x18D9E350)
+#define SYSTEM_TIMEZONEINFO_GET_TIMEZONEDIRECTORY_OFFSET UNITYSDK_OFFSET(0x18D9CF20)
+#define SYSTEM_TIMEZONEINFO_GET_TIMEZONEKEY_OFFSET UNITYSDK_OFFSET(0x18D9E1D0)
+#define SYSTEM_TIMEZONEINFO_GET_UTC_OFFSET UNITYSDK_OFFSET(0x18D9B490)
+#define SYSTEM_TIMEZONEINFO_HASSAMERULES_OFFSET UNITYSDK_OFFSET(0x18D9F6F0)
+#define SYSTEM_TIMEZONEINFO_ISAMBIGUOUSLOCALDSTFROMUTC_OFFSET UNITYSDK_OFFSET(0x18DA2610)
+#define SYSTEM_TIMEZONEINFO_ISAMBIGUOUSTIME_OFFSET UNITYSDK_OFFSET(0x18DA2030)
+#define SYSTEM_TIMEZONEINFO_ISDAYLIGHTSAVINGTIME_1_OFFSET UNITYSDK_OFFSET(0x18DA2CB0)
+#define SYSTEM_TIMEZONEINFO_ISDAYLIGHTSAVINGTIME_OFFSET UNITYSDK_OFFSET(0x18DA2B90)
+#define SYSTEM_TIMEZONEINFO_ISINDSTFORYEAR_OFFSET UNITYSDK_OFFSET(0x18DA2950)
+#define SYSTEM_TIMEZONEINFO_ISINDST_OFFSET UNITYSDK_OFFSET(0x18DA1DF0)
+#define SYSTEM_TIMEZONEINFO_ISINVALIDTIME_OFFSET UNITYSDK_OFFSET(0x18D9E8D0)
+#define SYSTEM_TIMEZONEINFO_PARSEABBREVIATIONS_OFFSET UNITYSDK_OFFSET(0x18DA5040)
+#define SYSTEM_TIMEZONEINFO_PARSEREGTZI_OFFSET UNITYSDK_OFFSET(0x18D9FE30)
+#define SYSTEM_TIMEZONEINFO_PARSETIMESTYPES_OFFSET UNITYSDK_OFFSET(0x18DA54D0)
+#define SYSTEM_TIMEZONEINFO_PARSETRANSITIONS_OFFSET UNITYSDK_OFFSET(0x18DA57F0)
+#define SYSTEM_TIMEZONEINFO_PARSETZBUFFER_OFFSET UNITYSDK_OFFSET(0x18DA3830)
+#define SYSTEM_TIMEZONEINFO_READBIGENDIANINT32_OFFSET UNITYSDK_OFFSET(0x18DA5020)
+#define SYSTEM_TIMEZONEINFO_READLINK_1_OFFSET UNITYSDK_OFFSET(0x18D9CA30)
+#define SYSTEM_TIMEZONEINFO_READLINK_OFFSET UNITYSDK_OFFSET(0x18D9C980)
+#define SYSTEM_TIMEZONEINFO_SWAPINT32_OFFSET UNITYSDK_OFFSET(0x18DA5010)
+#define SYSTEM_TIMEZONEINFO_SYSTEM_RUNTIME_SERIALIZATION_IDESERIALIZATIONCALLBACK_ONDESERIALIZATION_OFFSET UNITYSDK_OFFSET(0x18DA2CC0)
+#define SYSTEM_TIMEZONEINFO_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x18DA0960)
+#define SYSTEM_TIMEZONEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18DA31E0)
+#define SYSTEM_TIMEZONEINFO_TRANSITIONPOINT_OFFSET UNITYSDK_OFFSET(0x18DA23F0)
+#define SYSTEM_TIMEZONEINFO_TRANSITIONTIMEFROMTIMEZONEINFORMATION_OFFSET UNITYSDK_OFFSET(0x18D9A320)
+#define SYSTEM_TIMEZONEINFO_TRIMSPECIAL_OFFSET UNITYSDK_OFFSET(0x18D9D1C0)
+#define SYSTEM_TIMEZONEINFO_TRYADDTICKS_OFFSET UNITYSDK_OFFSET(0x18D9E3C0)
+#define SYSTEM_TIMEZONEINFO_TRYCREATETIMEZONE_OFFSET UNITYSDK_OFFSET(0x18D9A5E0)
+#define SYSTEM_TIMEZONEINFO_TRYGETNAMEFROMPATH_OFFSET UNITYSDK_OFFSET(0x18D9CCA0)
+#define SYSTEM_TIMEZONEINFO_TRYGETTRANSITIONOFFSET_OFFSET UNITYSDK_OFFSET(0x18DA10A0)
+#define SYSTEM_TIMEZONEINFO_UTCOFFSETOUTOFRANGE_OFFSET UNITYSDK_OFFSET(0x18D96360)
+#define SYSTEM_TIMEZONEINFO_VALIDATERULES_OFFSET UNITYSDK_OFFSET(0x18DA0540)
+#define SYSTEM_TIMEZONEINFO_VALIDATE_OFFSET UNITYSDK_OFFSET(0x18DA2DA0)
+#define SYSTEM_TIMEZONEINFO_VALIDTZFILE_OFFSET UNITYSDK_OFFSET(0x18DA3540)
+#define SYSTEM_TIMEZONEINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18D9AB80)
+#define SYSTEM_TIMEZONEINFO__CTOR_2_OFFSET UNITYSDK_OFFSET(0x18DA5C30)
+#define SYSTEM_TIMEZONEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18DA31F0)
 
 namespace System
 {
-	inline static constexpr unsigned int TimeZoneInfo_TypeDefinitionIndex = 341;
+	inline static constexpr unsigned int TimeZoneInfo_TypeDefinitionIndex = 340;
 
 	class TimeZoneInfo : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_timeZoneDirectory()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TimeZoneInfo_TypeDefinitionIndex)->GetStaticField(0x9600);
-		}
-		static ::System::TimeZoneInfo** StaticGet_local()
-		{
-			return (::System::TimeZoneInfo**)Il2CppClass::FromTypeDefinitionIndex(TimeZoneInfo_TypeDefinitionIndex)->GetStaticField(0x9608);
-		}
 		static ::Microsoft::Win32::RegistryKey** StaticGet_localZoneKey()
 		{
-			return (::Microsoft::Win32::RegistryKey**)Il2CppClass::FromTypeDefinitionIndex(TimeZoneInfo_TypeDefinitionIndex)->GetStaticField(0x9610);
-		}
-		static ::System::TimeZoneInfo** StaticGet_utc()
-		{
-			return (::System::TimeZoneInfo**)Il2CppClass::FromTypeDefinitionIndex(TimeZoneInfo_TypeDefinitionIndex)->GetStaticField(0x9618);
+			return (::Microsoft::Win32::RegistryKey**)Il2CppClass::FromTypeDefinitionIndex(TimeZoneInfo_TypeDefinitionIndex)->GetStaticField(0x13A20);
 		}
 		static ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::TimeZoneInfo*>** StaticGet_systemTimeZones()
 		{
-			return (::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::TimeZoneInfo*>**)Il2CppClass::FromTypeDefinitionIndex(TimeZoneInfo_TypeDefinitionIndex)->GetStaticField(0x9620);
+			return (::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::TimeZoneInfo*>**)Il2CppClass::FromTypeDefinitionIndex(TimeZoneInfo_TypeDefinitionIndex)->GetStaticField(0x13A28);
 		}
 		static ::Microsoft::Win32::RegistryKey** StaticGet_timeZoneKey()
 		{
-			return (::Microsoft::Win32::RegistryKey**)Il2CppClass::FromTypeDefinitionIndex(TimeZoneInfo_TypeDefinitionIndex)->GetStaticField(0x9628);
+			return (::Microsoft::Win32::RegistryKey**)Il2CppClass::FromTypeDefinitionIndex(TimeZoneInfo_TypeDefinitionIndex)->GetStaticField(0x13A30);
+		}
+		static ::System::TimeZoneInfo** StaticGet_local()
+		{
+			return (::System::TimeZoneInfo**)Il2CppClass::FromTypeDefinitionIndex(TimeZoneInfo_TypeDefinitionIndex)->GetStaticField(0x13A38);
+		}
+		static ::System::String** StaticGet_timeZoneDirectory()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TimeZoneInfo_TypeDefinitionIndex)->GetStaticField(0x13A40);
+		}
+		static ::System::TimeZoneInfo** StaticGet_utc()
+		{
+			return (::System::TimeZoneInfo**)Il2CppClass::FromTypeDefinitionIndex(TimeZoneInfo_TypeDefinitionIndex)->GetStaticField(0x13A48);
 		}
 		static ::System::Boolean* StaticGet_readlinkNotFound()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TimeZoneInfo_TypeDefinitionIndex)->GetStaticField(0x40B0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TimeZoneInfo_TypeDefinitionIndex)->GetStaticField(0x79D0);
 		}
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::DateTime, ::System::TimeType*>>* transitions; // 0x10
-		::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>* adjustmentRules; // 0x18
-		::System::String* id; // 0x20
+		::System::String* daylightDisplayName; // 0x10
+		::System::String* id; // 0x18
+		::System::String* standardDisplayName; // 0x20
 		::System::String* displayName; // 0x28
-		::System::String* standardDisplayName; // 0x30
-		::System::String* daylightDisplayName; // 0x38
-		::System::Boolean supportsDaylightSavingTime; // 0x40
-		::System::TimeSpan baseUtcOffset; // 0x48
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::DateTime, ::System::TimeType*>>* transitions; // 0x30
+		::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>* adjustmentRules; // 0x38
+		::System::TimeSpan baseUtcOffset; // 0x40
+		::System::Boolean supportsDaylightSavingTime; // 0x48
 
-		::System::Void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void _ctor(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO__CTOR_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::System::String* id, ::System::TimeSpan baseUtcOffset, ::System::String* displayName, ::System::String* standardDisplayName, ::System::String* daylightDisplayName, ::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>* adjustmentRules, ::System::Boolean disableDaylightSavingTime)
+		::System::Void _ctor_1(::System::String* a1, ::System::TimeSpan a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>* a6, ::System::Boolean a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::TimeSpan, ::System::String*, ::System::String*, ::System::String*, ::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO__CTOR_1_OFFSET))(this, id, baseUtcOffset, displayName, standardDisplayName, daylightDisplayName, adjustmentRules, disableDaylightSavingTime);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::TimeSpan, ::System::String*, ::System::String*, ::System::String*, ::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO__CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Void _ctor_2()
@@ -167,14 +167,14 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO__CTOR_2_OFFSET))(this);
 		}
 
-		static ::System::Boolean UtcOffsetOutOfRange(::System::TimeSpan offset)
+		static ::System::Boolean UtcOffsetOutOfRange(::System::TimeSpan a1)
 		{
-			return ((::System::Boolean(*)(::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_UTCOFFSETOUTOFRANGE_OFFSET))(offset);
+			return ((::System::Boolean(*)(::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_UTCOFFSETOUTOFRANGE_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::TimeZoneInfo_AdjustmentRule*>* CreateAdjustmentRule(::System::Int32 year, ::Il2CppArray<::System::Int64>*& data, ::Il2CppArray<::System::String*>*& names, ::System::String* standardNameCurrentYear, ::System::String* daylightNameCurrentYear)
+		static ::System::Collections::Generic::List_1<::System::TimeZoneInfo_AdjustmentRule*>* CreateAdjustmentRule(::System::Int32 a1, ::Il2CppArray<::System::Int64>*& a2, ::Il2CppArray<::System::String*>*& a3, ::System::String* a4, ::System::String* a5)
 		{
-			return ((::System::Collections::Generic::List_1<::System::TimeZoneInfo_AdjustmentRule*>*(*)(::System::Int32, ::Il2CppArray<::System::Int64>*&, ::Il2CppArray<::System::String*>*&, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CREATEADJUSTMENTRULE_OFFSET))(year, data, names, standardNameCurrentYear, daylightNameCurrentYear);
+			return ((::System::Collections::Generic::List_1<::System::TimeZoneInfo_AdjustmentRule*>*(*)(::System::Int32, ::Il2CppArray<::System::Int64>*&, ::Il2CppArray<::System::String*>*&, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CREATEADJUSTMENTRULE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::System::TimeZoneInfo* CreateLocalUnity()
@@ -182,44 +182,44 @@ namespace System
 			return ((::System::TimeZoneInfo*(*)())((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CREATELOCALUNITY_OFFSET))();
 		}
 
-		static ::System::UInt32 EnumDynamicTimeZoneInformation(::System::UInt32 dwIndex, ::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION& lpTimeZoneInformation)
+		static ::System::UInt32 EnumDynamicTimeZoneInformation(::System::UInt32 a1, ::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION& a2)
 		{
-			return ((::System::UInt32(*)(::System::UInt32, ::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION&))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_ENUMDYNAMICTIMEZONEINFORMATION_OFFSET))(dwIndex, lpTimeZoneInformation);
+			return ((::System::UInt32(*)(::System::UInt32, ::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION&))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_ENUMDYNAMICTIMEZONEINFORMATION_OFFSET))(a1, a2);
 		}
 
-		static ::System::UInt32 GetDynamicTimeZoneInformation(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION& pTimeZoneInformation)
+		static ::System::UInt32 GetDynamicTimeZoneInformation(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION& a1)
 		{
-			return ((::System::UInt32(*)(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION&))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETDYNAMICTIMEZONEINFORMATION_OFFSET))(pTimeZoneInformation);
+			return ((::System::UInt32(*)(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION&))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETDYNAMICTIMEZONEINFORMATION_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetDynamicTimeZoneInformationWin32(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION& pTimeZoneInformation)
+		static ::System::UInt32 GetDynamicTimeZoneInformationWin32(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION& a1)
 		{
-			return ((::System::UInt32(*)(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION&))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETDYNAMICTIMEZONEINFORMATIONWIN32_OFFSET))(pTimeZoneInformation);
+			return ((::System::UInt32(*)(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION&))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETDYNAMICTIMEZONEINFORMATIONWIN32_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetDynamicTimeZoneInformationEffectiveYears(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION& lpTimeZoneInformation, ::System::UInt32& FirstYear, ::System::UInt32& LastYear)
+		static ::System::UInt32 GetDynamicTimeZoneInformationEffectiveYears(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION& a1, ::System::UInt32& a2, ::System::UInt32& a3)
 		{
-			return ((::System::UInt32(*)(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION&, ::System::UInt32&, ::System::UInt32&))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETDYNAMICTIMEZONEINFORMATIONEFFECTIVEYEARS_OFFSET))(lpTimeZoneInformation, FirstYear, LastYear);
+			return ((::System::UInt32(*)(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION&, ::System::UInt32&, ::System::UInt32&))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETDYNAMICTIMEZONEINFORMATIONEFFECTIVEYEARS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetTimeZoneInformationForYear(::System::UInt16 wYear, ::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION& pdtzi, ::System::TimeZoneInfo_TIME_ZONE_INFORMATION& ptzi)
+		static ::System::Boolean GetTimeZoneInformationForYear(::System::UInt16 a1, ::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION& a2, ::System::TimeZoneInfo_TIME_ZONE_INFORMATION& a3)
 		{
-			return ((::System::Boolean(*)(::System::UInt16, ::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION&, ::System::TimeZoneInfo_TIME_ZONE_INFORMATION&))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETTIMEZONEINFORMATIONFORYEAR_OFFSET))(wYear, pdtzi, ptzi);
+			return ((::System::Boolean(*)(::System::UInt16, ::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION&, ::System::TimeZoneInfo_TIME_ZONE_INFORMATION&))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETTIMEZONEINFORMATIONFORYEAR_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::TimeZoneInfo_AdjustmentRule* CreateAdjustmentRuleFromTimeZoneInformation(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION& timeZoneInformation, ::System::DateTime startDate, ::System::DateTime endDate, ::System::Int32 defaultBaseUtcOffset)
+		static ::System::TimeZoneInfo_AdjustmentRule* CreateAdjustmentRuleFromTimeZoneInformation(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION& a1, ::System::DateTime a2, ::System::DateTime a3, ::System::Int32 a4)
 		{
-			return ((::System::TimeZoneInfo_AdjustmentRule*(*)(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION&, ::System::DateTime, ::System::DateTime, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CREATEADJUSTMENTRULEFROMTIMEZONEINFORMATION_OFFSET))(timeZoneInformation, startDate, endDate, defaultBaseUtcOffset);
+			return ((::System::TimeZoneInfo_AdjustmentRule*(*)(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION&, ::System::DateTime, ::System::DateTime, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CREATEADJUSTMENTRULEFROMTIMEZONEINFORMATION_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean TransitionTimeFromTimeZoneInformation(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION timeZoneInformation, ::System::TimeZoneInfo_TransitionTime& transitionTime, ::System::Boolean readStartDate)
+		static ::System::Boolean TransitionTimeFromTimeZoneInformation(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION a1, ::System::TimeZoneInfo_TransitionTime& a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION, ::System::TimeZoneInfo_TransitionTime&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_TRANSITIONTIMEFROMTIMEZONEINFORMATION_OFFSET))(timeZoneInformation, transitionTime, readStartDate);
+			return ((::System::Boolean(*)(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION, ::System::TimeZoneInfo_TransitionTime&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_TRANSITIONTIMEFROMTIMEZONEINFORMATION_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::TimeZoneInfo* TryCreateTimeZone(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION timeZoneInformation)
+		static ::System::TimeZoneInfo* TryCreateTimeZone(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION a1)
 		{
-			return ((::System::TimeZoneInfo*(*)(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_TRYCREATETIMEZONE_OFFSET))(timeZoneInformation);
+			return ((::System::TimeZoneInfo*(*)(::System::TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_TRYCREATETIMEZONE_OFFSET))(a1);
 		}
 
 		static ::System::TimeZoneInfo* GetLocalTimeZoneInfoWinRTFallback()
@@ -232,9 +232,9 @@ namespace System
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETLOCALTIMEZONEKEYNAMEWIN32FALLBACK_OFFSET))();
 		}
 
-		static ::System::TimeZoneInfo* FindSystemTimeZoneByIdWinRTFallback(::System::String* id)
+		static ::System::TimeZoneInfo* FindSystemTimeZoneByIdWinRTFallback(::System::String* a1)
 		{
-			return ((::System::TimeZoneInfo*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_FINDSYSTEMTIMEZONEBYIDWINRTFALLBACK_OFFSET))(id);
+			return ((::System::TimeZoneInfo*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_FINDSYSTEMTIMEZONEBYIDWINRTFALLBACK_OFFSET))(a1);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::TimeZoneInfo*>* GetSystemTimeZonesWinRTFallback()
@@ -262,19 +262,19 @@ namespace System
 			return ((::System::TimeZoneInfo*(*)())((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GET_LOCAL_OFFSET))();
 		}
 
-		static ::System::Int32 readlink(::System::String* path, ::Il2CppArray<::System::Byte>* buffer, ::System::Int32 buflen)
+		static ::System::Int32 readlink(::System::String* a1, ::Il2CppArray<::System::Byte>* a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::System::String*, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_READLINK_OFFSET))(path, buffer, buflen);
+			return ((::System::Int32(*)(::System::String*, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_READLINK_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* readlink_1(::System::String* path)
+		static ::System::String* readlink_1(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_READLINK_1_OFFSET))(path);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_READLINK_1_OFFSET))(a1);
 		}
 
-		static ::System::Boolean TryGetNameFromPath(::System::String* path, ::System::String*& name)
+		static ::System::Boolean TryGetNameFromPath(::System::String* a1, ::System::String*& a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_TRYGETNAMEFROMPATH_OFFSET))(path, name);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_TRYGETNAMEFROMPATH_OFFSET))(a1, a2);
 		}
 
 		static ::System::TimeZoneInfo* CreateLocal()
@@ -282,14 +282,14 @@ namespace System
 			return ((::System::TimeZoneInfo*(*)())((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CREATELOCAL_OFFSET))();
 		}
 
-		static ::System::TimeZoneInfo* FindSystemTimeZoneByIdCore(::System::String* id)
+		static ::System::TimeZoneInfo* FindSystemTimeZoneByIdCore(::System::String* a1)
 		{
-			return ((::System::TimeZoneInfo*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_FINDSYSTEMTIMEZONEBYIDCORE_OFFSET))(id);
+			return ((::System::TimeZoneInfo*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_FINDSYSTEMTIMEZONEBYIDCORE_OFFSET))(a1);
 		}
 
-		static ::System::Void GetSystemTimeZonesCore(::System::Collections::Generic::List_1<::System::TimeZoneInfo*>* systemTimeZones)
+		static ::System::Void GetSystemTimeZonesCore(::System::Collections::Generic::List_1<::System::TimeZoneInfo*>* a1)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::System::TimeZoneInfo*>*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETSYSTEMTIMEZONESCORE_OFFSET))(systemTimeZones);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::System::TimeZoneInfo*>*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETSYSTEMTIMEZONESCORE_OFFSET))(a1);
 		}
 
 		::System::Boolean get_SupportsDaylightSavingTime()
@@ -312,9 +312,9 @@ namespace System
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GET_ISWINDOWS_OFFSET))();
 		}
 
-		static ::System::String* TrimSpecial(::System::String* str)
+		static ::System::String* TrimSpecial(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_TRIMSPECIAL_OFFSET))(str);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_TRIMSPECIAL_OFFSET))(a1);
 		}
 
 		static ::Microsoft::Win32::RegistryKey* get_TimeZoneKey()
@@ -327,89 +327,89 @@ namespace System
 			return ((::Microsoft::Win32::RegistryKey*(*)())((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GET_LOCALZONEKEY_OFFSET))();
 		}
 
-		static ::System::Boolean TryAddTicks(::System::DateTime date, ::System::Int64 ticks, ::System::DateTime& result, ::System::DateTimeKind kind)
+		static ::System::Boolean TryAddTicks(::System::DateTime a1, ::System::Int64 a2, ::System::DateTime& a3, ::System::DateTimeKind a4)
 		{
-			return ((::System::Boolean(*)(::System::DateTime, ::System::Int64, ::System::DateTime&, ::System::DateTimeKind))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_TRYADDTICKS_OFFSET))(date, ticks, result, kind);
+			return ((::System::Boolean(*)(::System::DateTime, ::System::Int64, ::System::DateTime&, ::System::DateTimeKind))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_TRYADDTICKS_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::DateTime ConvertTime(::System::DateTime dateTime, ::System::TimeZoneInfo* sourceTimeZone, ::System::TimeZoneInfo* destinationTimeZone)
+		static ::System::DateTime ConvertTime(::System::DateTime a1, ::System::TimeZoneInfo* a2, ::System::TimeZoneInfo* a3)
 		{
-			return ((::System::DateTime(*)(::System::DateTime, ::System::TimeZoneInfo*, ::System::TimeZoneInfo*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CONVERTTIME_OFFSET))(dateTime, sourceTimeZone, destinationTimeZone);
+			return ((::System::DateTime(*)(::System::DateTime, ::System::TimeZoneInfo*, ::System::TimeZoneInfo*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CONVERTTIME_OFFSET))(a1, a2, a3);
 		}
 
-		::System::DateTime ConvertTimeFromUtc(::System::DateTime dateTime)
+		::System::DateTime ConvertTimeFromUtc(::System::DateTime a1)
 		{
-			return ((::System::DateTime(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CONVERTTIMEFROMUTC_OFFSET))(this, dateTime);
+			return ((::System::DateTime(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CONVERTTIMEFROMUTC_OFFSET))(this, a1);
 		}
 
-		static ::System::DateTime ConvertTimeFromUtc_1(::System::DateTime dateTime, ::System::TimeZoneInfo* destinationTimeZone)
+		static ::System::DateTime ConvertTimeFromUtc_1(::System::DateTime a1, ::System::TimeZoneInfo* a2)
 		{
-			return ((::System::DateTime(*)(::System::DateTime, ::System::TimeZoneInfo*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CONVERTTIMEFROMUTC_1_OFFSET))(dateTime, destinationTimeZone);
+			return ((::System::DateTime(*)(::System::DateTime, ::System::TimeZoneInfo*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CONVERTTIMEFROMUTC_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::DateTime ConvertTimeToUtc(::System::DateTime dateTime, ::System::TimeZoneInfoOptions flags)
+		static ::System::DateTime ConvertTimeToUtc(::System::DateTime a1, ::System::TimeZoneInfoOptions a2)
 		{
-			return ((::System::DateTime(*)(::System::DateTime, ::System::TimeZoneInfoOptions))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CONVERTTIMETOUTC_OFFSET))(dateTime, flags);
+			return ((::System::DateTime(*)(::System::DateTime, ::System::TimeZoneInfoOptions))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CONVERTTIMETOUTC_OFFSET))(a1, a2);
 		}
 
-		static ::System::DateTime ConvertTimeToUtc_1(::System::DateTime dateTime, ::System::TimeZoneInfo* sourceTimeZone)
+		static ::System::DateTime ConvertTimeToUtc_1(::System::DateTime a1, ::System::TimeZoneInfo* a2)
 		{
-			return ((::System::DateTime(*)(::System::DateTime, ::System::TimeZoneInfo*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CONVERTTIMETOUTC_1_OFFSET))(dateTime, sourceTimeZone);
+			return ((::System::DateTime(*)(::System::DateTime, ::System::TimeZoneInfo*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CONVERTTIMETOUTC_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::DateTime ConvertTimeToUtc_2(::System::DateTime dateTime, ::System::TimeZoneInfo* sourceTimeZone, ::System::TimeZoneInfoOptions flags)
+		static ::System::DateTime ConvertTimeToUtc_2(::System::DateTime a1, ::System::TimeZoneInfo* a2, ::System::TimeZoneInfoOptions a3)
 		{
-			return ((::System::DateTime(*)(::System::DateTime, ::System::TimeZoneInfo*, ::System::TimeZoneInfoOptions))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CONVERTTIMETOUTC_2_OFFSET))(dateTime, sourceTimeZone, flags);
+			return ((::System::DateTime(*)(::System::DateTime, ::System::TimeZoneInfo*, ::System::TimeZoneInfoOptions))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CONVERTTIMETOUTC_2_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::TimeSpan GetDateTimeNowUtcOffsetFromUtc(::System::DateTime time, ::System::Boolean& isAmbiguousLocalDst)
+		static ::System::TimeSpan GetDateTimeNowUtcOffsetFromUtc(::System::DateTime a1, ::System::Boolean& a2)
 		{
-			return ((::System::TimeSpan(*)(::System::DateTime, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETDATETIMENOWUTCOFFSETFROMUTC_OFFSET))(time, isAmbiguousLocalDst);
+			return ((::System::TimeSpan(*)(::System::DateTime, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETDATETIMENOWUTCOFFSETFROMUTC_OFFSET))(a1, a2);
 		}
 
-		static ::System::TimeZoneInfo* CreateCustomTimeZone(::System::String* id, ::System::TimeSpan baseUtcOffset, ::System::String* displayName, ::System::String* standardDisplayName)
+		static ::System::TimeZoneInfo* CreateCustomTimeZone(::System::String* a1, ::System::TimeSpan a2, ::System::String* a3, ::System::String* a4)
 		{
-			return ((::System::TimeZoneInfo*(*)(::System::String*, ::System::TimeSpan, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CREATECUSTOMTIMEZONE_OFFSET))(id, baseUtcOffset, displayName, standardDisplayName);
+			return ((::System::TimeZoneInfo*(*)(::System::String*, ::System::TimeSpan, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CREATECUSTOMTIMEZONE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::TimeZoneInfo* CreateCustomTimeZone_1(::System::String* id, ::System::TimeSpan baseUtcOffset, ::System::String* displayName, ::System::String* standardDisplayName, ::System::String* daylightDisplayName, ::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>* adjustmentRules)
+		static ::System::TimeZoneInfo* CreateCustomTimeZone_1(::System::String* a1, ::System::TimeSpan a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>* a6)
 		{
-			return ((::System::TimeZoneInfo*(*)(::System::String*, ::System::TimeSpan, ::System::String*, ::System::String*, ::System::String*, ::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CREATECUSTOMTIMEZONE_1_OFFSET))(id, baseUtcOffset, displayName, standardDisplayName, daylightDisplayName, adjustmentRules);
+			return ((::System::TimeZoneInfo*(*)(::System::String*, ::System::TimeSpan, ::System::String*, ::System::String*, ::System::String*, ::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CREATECUSTOMTIMEZONE_1_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::TimeZoneInfo* CreateCustomTimeZone_2(::System::String* id, ::System::TimeSpan baseUtcOffset, ::System::String* displayName, ::System::String* standardDisplayName, ::System::String* daylightDisplayName, ::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>* adjustmentRules, ::System::Boolean disableDaylightSavingTime)
+		static ::System::TimeZoneInfo* CreateCustomTimeZone_2(::System::String* a1, ::System::TimeSpan a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>* a6, ::System::Boolean a7)
 		{
-			return ((::System::TimeZoneInfo*(*)(::System::String*, ::System::TimeSpan, ::System::String*, ::System::String*, ::System::String*, ::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CREATECUSTOMTIMEZONE_2_OFFSET))(id, baseUtcOffset, displayName, standardDisplayName, daylightDisplayName, adjustmentRules, disableDaylightSavingTime);
+			return ((::System::TimeZoneInfo*(*)(::System::String*, ::System::TimeSpan, ::System::String*, ::System::String*, ::System::String*, ::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_CREATECUSTOMTIMEZONE_2_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::TimeZoneInfo* other)
+		::System::Boolean Equals_1(::System::TimeZoneInfo* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::TimeZoneInfo*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::TimeZoneInfo*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_EQUALS_1_OFFSET))(this, a1);
 		}
 
-		static ::System::TimeZoneInfo* FindSystemTimeZoneById(::System::String* id)
+		static ::System::TimeZoneInfo* FindSystemTimeZoneById(::System::String* a1)
 		{
-			return ((::System::TimeZoneInfo*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_FINDSYSTEMTIMEZONEBYID_OFFSET))(id);
+			return ((::System::TimeZoneInfo*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_FINDSYSTEMTIMEZONEBYID_OFFSET))(a1);
 		}
 
-		static ::System::TimeZoneInfo* FindSystemTimeZoneByFileName(::System::String* id, ::System::String* filepath)
+		static ::System::TimeZoneInfo* FindSystemTimeZoneByFileName(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::TimeZoneInfo*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_FINDSYSTEMTIMEZONEBYFILENAME_OFFSET))(id, filepath);
+			return ((::System::TimeZoneInfo*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_FINDSYSTEMTIMEZONEBYFILENAME_OFFSET))(a1, a2);
 		}
 
-		static ::System::TimeZoneInfo* FromRegistryKey(::System::String* id, ::Microsoft::Win32::RegistryKey* key)
+		static ::System::TimeZoneInfo* FromRegistryKey(::System::String* a1, ::Microsoft::Win32::RegistryKey* a2)
 		{
-			return ((::System::TimeZoneInfo*(*)(::System::String*, ::Microsoft::Win32::RegistryKey*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_FROMREGISTRYKEY_OFFSET))(id, key);
+			return ((::System::TimeZoneInfo*(*)(::System::String*, ::Microsoft::Win32::RegistryKey*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_FROMREGISTRYKEY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ParseRegTzi(::System::Collections::Generic::List_1<::System::TimeZoneInfo_AdjustmentRule*>* adjustmentRules, ::System::Int32 start_year, ::System::Int32 end_year, ::Il2CppArray<::System::Byte>* buffer)
+		static ::System::Void ParseRegTzi(::System::Collections::Generic::List_1<::System::TimeZoneInfo_AdjustmentRule*>* a1, ::System::Int32 a2, ::System::Int32 a3, ::Il2CppArray<::System::Byte>* a4)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::System::TimeZoneInfo_AdjustmentRule*>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_PARSEREGTZI_OFFSET))(adjustmentRules, start_year, end_year, buffer);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::System::TimeZoneInfo_AdjustmentRule*>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_PARSEREGTZI_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>* GetAdjustmentRules()
@@ -422,9 +422,9 @@ namespace System
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::TimeZoneInfo*>* GetSystemTimeZones()
@@ -432,69 +432,69 @@ namespace System
 			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::TimeZoneInfo*>*(*)())((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETSYSTEMTIMEZONES_OFFSET))();
 		}
 
-		::System::TimeSpan GetUtcOffset(::System::DateTime dateTime)
+		::System::TimeSpan GetUtcOffset(::System::DateTime a1)
 		{
-			return ((::System::TimeSpan(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETUTCOFFSET_OFFSET))(this, dateTime);
+			return ((::System::TimeSpan(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETUTCOFFSET_OFFSET))(this, a1);
 		}
 
-		::System::TimeSpan GetUtcOffset_1(::System::DateTime dateTime, ::System::Boolean& isDST, ::System::Boolean forOffset)
+		::System::TimeSpan GetUtcOffset_1(::System::DateTime a1, ::System::Boolean& a2, ::System::Boolean a3)
 		{
-			return ((::System::TimeSpan(*)(::PVOID, ::System::DateTime, ::System::Boolean&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETUTCOFFSET_1_OFFSET))(this, dateTime, isDST, forOffset);
+			return ((::System::TimeSpan(*)(::PVOID, ::System::DateTime, ::System::Boolean&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETUTCOFFSET_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::TimeSpan GetUtcOffsetHelper(::System::DateTime dateTime, ::System::TimeZoneInfo* tz, ::System::Boolean& isDST, ::System::Boolean forOffset)
+		static ::System::TimeSpan GetUtcOffsetHelper(::System::DateTime a1, ::System::TimeZoneInfo* a2, ::System::Boolean& a3, ::System::Boolean a4)
 		{
-			return ((::System::TimeSpan(*)(::System::DateTime, ::System::TimeZoneInfo*, ::System::Boolean&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETUTCOFFSETHELPER_OFFSET))(dateTime, tz, isDST, forOffset);
+			return ((::System::TimeSpan(*)(::System::DateTime, ::System::TimeZoneInfo*, ::System::Boolean&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETUTCOFFSETHELPER_OFFSET))(a1, a2, a3, a4);
 		}
 
-		::System::Boolean HasSameRules(::System::TimeZoneInfo* other)
+		::System::Boolean HasSameRules(::System::TimeZoneInfo* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::TimeZoneInfo*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_HASSAMERULES_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::TimeZoneInfo*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_HASSAMERULES_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsAmbiguousTime(::System::DateTime dateTime)
+		::System::Boolean IsAmbiguousTime(::System::DateTime a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_ISAMBIGUOUSTIME_OFFSET))(this, dateTime);
+			return ((::System::Boolean(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_ISAMBIGUOUSTIME_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsAmbiguousLocalDstFromUtc(::System::DateTime dateTime)
+		::System::Boolean IsAmbiguousLocalDstFromUtc(::System::DateTime a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_ISAMBIGUOUSLOCALDSTFROMUTC_OFFSET))(this, dateTime);
+			return ((::System::Boolean(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_ISAMBIGUOUSLOCALDSTFROMUTC_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsInDST(::System::TimeZoneInfo_AdjustmentRule* rule, ::System::DateTime dateTime)
+		::System::Boolean IsInDST(::System::TimeZoneInfo_AdjustmentRule* a1, ::System::DateTime a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::TimeZoneInfo_AdjustmentRule*, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_ISINDST_OFFSET))(this, rule, dateTime);
+			return ((::System::Boolean(*)(::PVOID, ::System::TimeZoneInfo_AdjustmentRule*, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_ISINDST_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsInDSTForYear(::System::TimeZoneInfo_AdjustmentRule* rule, ::System::DateTime dateTime, ::System::Int32 year)
+		::System::Boolean IsInDSTForYear(::System::TimeZoneInfo_AdjustmentRule* a1, ::System::DateTime a2, ::System::Int32 a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::TimeZoneInfo_AdjustmentRule*, ::System::DateTime, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_ISINDSTFORYEAR_OFFSET))(this, rule, dateTime, year);
+			return ((::System::Boolean(*)(::PVOID, ::System::TimeZoneInfo_AdjustmentRule*, ::System::DateTime, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_ISINDSTFORYEAR_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean IsDaylightSavingTime(::System::DateTime dateTime)
+		::System::Boolean IsDaylightSavingTime(::System::DateTime a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_ISDAYLIGHTSAVINGTIME_OFFSET))(this, dateTime);
+			return ((::System::Boolean(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_ISDAYLIGHTSAVINGTIME_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsDaylightSavingTime_1(::System::DateTime dateTime, ::System::TimeZoneInfoOptions flags)
+		::System::Boolean IsDaylightSavingTime_1(::System::DateTime a1, ::System::TimeZoneInfoOptions a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::DateTime, ::System::TimeZoneInfoOptions))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_ISDAYLIGHTSAVINGTIME_1_OFFSET))(this, dateTime, flags);
+			return ((::System::Boolean(*)(::PVOID, ::System::DateTime, ::System::TimeZoneInfoOptions))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_ISDAYLIGHTSAVINGTIME_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsInvalidTime(::System::DateTime dateTime)
+		::System::Boolean IsInvalidTime(::System::DateTime a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_ISINVALIDTIME_OFFSET))(this, dateTime);
+			return ((::System::Boolean(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_ISINVALIDTIME_OFFSET))(this, a1);
 		}
 
-		::System::Void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender)
+		::System::Void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_SYSTEM_RUNTIME_SERIALIZATION_IDESERIALIZATIONCALLBACK_ONDESERIALIZATION_OFFSET))(this, sender);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_SYSTEM_RUNTIME_SERIALIZATION_IDESERIALIZATIONCALLBACK_ONDESERIALIZATION_OFFSET))(this, a1);
 		}
 
-		static ::System::Void Validate(::System::String* id, ::System::TimeSpan baseUtcOffset, ::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>* adjustmentRules)
+		static ::System::Void Validate(::System::String* a1, ::System::TimeSpan a2, ::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>* a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::TimeSpan, ::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_VALIDATE_OFFSET))(id, baseUtcOffset, adjustmentRules);
+			return ((::System::Void(*)(::System::String*, ::System::TimeSpan, ::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_VALIDATE_OFFSET))(a1, a2, a3);
 		}
 
 		::System::String* ToString()
@@ -502,84 +502,84 @@ namespace System
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_TOSTRING_OFFSET))(this);
 		}
 
-		::System::TimeZoneInfo_AdjustmentRule* GetApplicableRule(::System::DateTime dateTime)
+		::System::TimeZoneInfo_AdjustmentRule* GetApplicableRule(::System::DateTime a1)
 		{
-			return ((::System::TimeZoneInfo_AdjustmentRule*(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETAPPLICABLERULE_OFFSET))(this, dateTime);
+			return ((::System::TimeZoneInfo_AdjustmentRule*(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETAPPLICABLERULE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean TryGetTransitionOffset(::System::DateTime dateTime, ::System::TimeSpan& offset, ::System::Boolean& isDst, ::System::Boolean forOffset)
+		::System::Boolean TryGetTransitionOffset(::System::DateTime a1, ::System::TimeSpan& a2, ::System::Boolean& a3, ::System::Boolean a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::DateTime, ::System::TimeSpan&, ::System::Boolean&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_TRYGETTRANSITIONOFFSET_OFFSET))(this, dateTime, offset, isDst, forOffset);
+			return ((::System::Boolean(*)(::PVOID, ::System::DateTime, ::System::TimeSpan&, ::System::Boolean&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_TRYGETTRANSITIONOFFSET_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		static ::System::DateTime TransitionPoint(::System::TimeZoneInfo_TransitionTime transition, ::System::Int32 year)
+		static ::System::DateTime TransitionPoint(::System::TimeZoneInfo_TransitionTime a1, ::System::Int32 a2)
 		{
-			return ((::System::DateTime(*)(::System::TimeZoneInfo_TransitionTime, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_TRANSITIONPOINT_OFFSET))(transition, year);
+			return ((::System::DateTime(*)(::System::TimeZoneInfo_TransitionTime, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_TRANSITIONPOINT_OFFSET))(a1, a2);
 		}
 
-		static ::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>* ValidateRules(::System::Collections::Generic::List_1<::System::TimeZoneInfo_AdjustmentRule*>* adjustmentRules)
+		static ::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>* ValidateRules(::System::Collections::Generic::List_1<::System::TimeZoneInfo_AdjustmentRule*>* a1)
 		{
-			return ((::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>*(*)(::System::Collections::Generic::List_1<::System::TimeZoneInfo_AdjustmentRule*>*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_VALIDATERULES_OFFSET))(adjustmentRules);
+			return ((::Il2CppArray<::System::TimeZoneInfo_AdjustmentRule*>*(*)(::System::Collections::Generic::List_1<::System::TimeZoneInfo_AdjustmentRule*>*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_VALIDATERULES_OFFSET))(a1);
 		}
 
-		static ::System::TimeZoneInfo* BuildFromStream(::System::String* id, ::System::IO::Stream* stream)
+		static ::System::TimeZoneInfo* BuildFromStream(::System::String* a1, ::System::IO::Stream* a2)
 		{
-			return ((::System::TimeZoneInfo*(*)(::System::String*, ::System::IO::Stream*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_BUILDFROMSTREAM_OFFSET))(id, stream);
+			return ((::System::TimeZoneInfo*(*)(::System::String*, ::System::IO::Stream*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_BUILDFROMSTREAM_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean ValidTZFile(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 length)
+		static ::System::Boolean ValidTZFile(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_VALIDTZFILE_OFFSET))(buffer, length);
+			return ((::System::Boolean(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_VALIDTZFILE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 SwapInt32(::System::Int32 i)
+		static ::System::Int32 SwapInt32(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_SWAPINT32_OFFSET))(i);
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_SWAPINT32_OFFSET))(a1);
 		}
 
-		static ::System::Int32 ReadBigEndianInt32(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 start)
+		static ::System::Int32 ReadBigEndianInt32(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_READBIGENDIANINT32_OFFSET))(buffer, start);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_READBIGENDIANINT32_OFFSET))(a1, a2);
 		}
 
-		static ::System::TimeZoneInfo* ParseTZBuffer(::System::String* id, ::Il2CppArray<::System::Byte>* buffer, ::System::Int32 length)
+		static ::System::TimeZoneInfo* ParseTZBuffer(::System::String* a1, ::Il2CppArray<::System::Byte>* a2, ::System::Int32 a3)
 		{
-			return ((::System::TimeZoneInfo*(*)(::System::String*, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_PARSETZBUFFER_OFFSET))(id, buffer, length);
+			return ((::System::TimeZoneInfo*(*)(::System::String*, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_PARSETZBUFFER_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* ParseAbbreviations(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 index, ::System::Int32 count)
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* ParseAbbreviations(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_PARSEABBREVIATIONS_OFFSET))(buffer, index, count);
+			return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_PARSEABBREVIATIONS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::TimeType*>* ParseTimesTypes(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 index, ::System::Int32 count, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* abbreviations)
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::TimeType*>* ParseTimesTypes(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* a4)
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::TimeType*>*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_PARSETIMESTYPES_OFFSET))(buffer, index, count, abbreviations);
+			return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::TimeType*>*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_PARSETIMESTYPES_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::DateTime, ::System::TimeType*>>* ParseTransitions(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 index, ::System::Int32 count, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::TimeType*>* time_types)
+		static ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::DateTime, ::System::TimeType*>>* ParseTransitions(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::TimeType*>* a4)
 		{
-			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::DateTime, ::System::TimeType*>>*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::TimeType*>*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_PARSETRANSITIONS_OFFSET))(buffer, index, count, time_types);
+			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::DateTime, ::System::TimeType*>>*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::TimeType*>*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_PARSETRANSITIONS_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::DateTime DateTimeFromUnixTime(::System::Int64 unix_time)
+		static ::System::DateTime DateTimeFromUnixTime(::System::Int64 a1)
 		{
-			return ((::System::DateTime(*)(::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_DATETIMEFROMUNIXTIME_OFFSET))(unix_time);
+			return ((::System::DateTime(*)(::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_DATETIMEFROMUNIXTIME_OFFSET))(a1);
 		}
 
-		static ::System::TimeSpan GetLocalUtcOffset(::System::DateTime dateTime, ::System::TimeZoneInfoOptions flags)
+		static ::System::TimeSpan GetLocalUtcOffset(::System::DateTime a1, ::System::TimeZoneInfoOptions a2)
 		{
-			return ((::System::TimeSpan(*)(::System::DateTime, ::System::TimeZoneInfoOptions))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETLOCALUTCOFFSET_OFFSET))(dateTime, flags);
+			return ((::System::TimeSpan(*)(::System::DateTime, ::System::TimeZoneInfoOptions))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETLOCALUTCOFFSET_OFFSET))(a1, a2);
 		}
 
-		::System::TimeSpan GetUtcOffset_2(::System::DateTime dateTime, ::System::TimeZoneInfoOptions flags)
+		::System::TimeSpan GetUtcOffset_2(::System::DateTime a1, ::System::TimeZoneInfoOptions a2)
 		{
-			return ((::System::TimeSpan(*)(::PVOID, ::System::DateTime, ::System::TimeZoneInfoOptions))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETUTCOFFSET_2_OFFSET))(this, dateTime, flags);
+			return ((::System::TimeSpan(*)(::PVOID, ::System::DateTime, ::System::TimeZoneInfoOptions))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETUTCOFFSET_2_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::TimeSpan GetUtcOffsetFromUtc(::System::DateTime time, ::System::TimeZoneInfo* zone, ::System::Boolean& isDaylightSavings, ::System::Boolean& isAmbiguousLocalDst)
+		static ::System::TimeSpan GetUtcOffsetFromUtc(::System::DateTime a1, ::System::TimeZoneInfo* a2, ::System::Boolean& a3, ::System::Boolean& a4)
 		{
-			return ((::System::TimeSpan(*)(::System::DateTime, ::System::TimeZoneInfo*, ::System::Boolean&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETUTCOFFSETFROMUTC_OFFSET))(time, zone, isDaylightSavings, isAmbiguousLocalDst);
+			return ((::System::TimeSpan(*)(::System::DateTime, ::System::TimeZoneInfo*, ::System::Boolean&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_GETUTCOFFSETFROMUTC_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

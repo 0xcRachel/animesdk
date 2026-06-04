@@ -7,15 +7,15 @@ namespace Google::Protobuf::Reflection { class EnumValueDescriptorProto; }
 namespace Google::Protobuf::Reflection { class FileDescriptor; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_ENUMDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x17EC5370)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x17EC52A0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_NUMBER_OFFSET UNITYSDK_OFFSET(0x17EB7600)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x17EC5290)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17EC1970)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_ENUMDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x178A3D10)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x178A3C40)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_NUMBER_OFFSET UNITYSDK_OFFSET(0x17896DE0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x178A3C30)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x178A00C0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int EnumValueDescriptor_TypeDefinitionIndex = 6331;
+	inline static constexpr unsigned int EnumValueDescriptor_TypeDefinitionIndex = 5533;
 
 	class EnumValueDescriptor : public ::Google::Protobuf::Reflection::DescriptorBase
 	{
@@ -23,9 +23,9 @@ namespace Google::Protobuf::Reflection
 		::Google::Protobuf::Reflection::EnumValueDescriptorProto* proto; // 0x28
 		::Google::Protobuf::Reflection::EnumDescriptor* enumDescriptor; // 0x30
 
-		::System::Void _ctor(::Google::Protobuf::Reflection::EnumValueDescriptorProto* proto, ::Google::Protobuf::Reflection::FileDescriptor* file, ::Google::Protobuf::Reflection::EnumDescriptor* parent, ::System::Int32 index)
+		::System::Void _ctor(::Google::Protobuf::Reflection::EnumValueDescriptorProto* a1, ::Google::Protobuf::Reflection::FileDescriptor* a2, ::Google::Protobuf::Reflection::EnumDescriptor* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Reflection::EnumValueDescriptorProto*, ::Google::Protobuf::Reflection::FileDescriptor*, ::Google::Protobuf::Reflection::EnumDescriptor*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR__CTOR_OFFSET))(this, proto, file, parent, index);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Reflection::EnumValueDescriptorProto*, ::Google::Protobuf::Reflection::FileDescriptor*, ::Google::Protobuf::Reflection::EnumDescriptor*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTOR__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::Google::Protobuf::Reflection::EnumValueDescriptorProto* get_Proto()

@@ -5,18 +5,18 @@
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_GET_ISEQUIPDATAADDED_OFFSET UNITYSDK_OFFSET(0x180511C0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_GET_ISEQUIPDATAUPDATE_OFFSET UNITYSDK_OFFSET(0x180511A0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x18051130)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x180510D0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0x18051080)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_SET_ISEQUIPDATAADDED_OFFSET UNITYSDK_OFFSET(0x180511D0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_SET_ISEQUIPDATAUPDATE_OFFSET UNITYSDK_OFFSET(0x180511B0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x180511E0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_GET_ISEQUIPDATAADDED_OFFSET UNITYSDK_OFFSET(0x18914620)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_GET_ISEQUIPDATAUPDATE_OFFSET UNITYSDK_OFFSET(0x18914600)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x18914590)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x18914530)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0x189144E0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_SET_ISEQUIPDATAADDED_OFFSET UNITYSDK_OFFSET(0x18914630)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_SET_ISEQUIPDATAUPDATE_OFFSET UNITYSDK_OFFSET(0x18914610)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18914640)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipChangeCollector_TypeDefinitionIndex = 59405;
+	inline static constexpr unsigned int GridFightEquipChangeCollector_TypeDefinitionIndex = 60340;
 
 	class GridFightEquipChangeCollector : public ::System::Object
 	{
@@ -34,14 +34,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_RESET_OFFSET))(this);
 		}
 
-		::System::Void OnPropertyChangedEventHandler(::System::Object* sender, ::System::ComponentModel::PropertyChangedEventArgs* e)
+		::System::Void OnPropertyChangedEventHandler(::System::Object* a1, ::System::ComponentModel::PropertyChangedEventArgs* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ComponentModel::PropertyChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET))(this, sender, e);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ComponentModel::PropertyChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnCollectionChangedEventHandler(::System::Object* sender, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs* e)
+		::System::Void OnCollectionChangedEventHandler(::System::Object* a1, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET))(this, sender, e);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_IsEquipDataUpdate()
@@ -49,9 +49,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_GET_ISEQUIPDATAUPDATE_OFFSET))(this);
 		}
 
-		::System::Void set_IsEquipDataUpdate(::System::Boolean value)
+		::System::Void set_IsEquipDataUpdate(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_SET_ISEQUIPDATAUPDATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_SET_ISEQUIPDATAUPDATE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsEquipDataAdded()
@@ -59,9 +59,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_GET_ISEQUIPDATAADDED_OFFSET))(this);
 		}
 
-		::System::Void set_IsEquipDataAdded(::System::Boolean value)
+		::System::Void set_IsEquipDataAdded(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_SET_ISEQUIPDATAADDED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCHANGECOLLECTOR_SET_ISEQUIPDATAADDED_OFFSET))(this, a1);
 		}
 	};
 }

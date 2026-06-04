@@ -3,15 +3,18 @@
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BYCURRENTSKILLNAME_METHOD_4_695DF84745E3BAEF_OFFSET UNITYSDK_OFFSET(0x19ADA060)
-#define RPG_GAMECORE_BYCURRENTSKILLNAME_METHOD_4_C4D1695BA513DD0F_OFFSET UNITYSDK_OFFSET(0x19ADA130)
-#define RPG_GAMECORE_BYCURRENTSKILLNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x19ADA0E0)
+#define RPG_GAMECORE_BYCURRENTSKILLNAME_METHOD_4_2E4156EB6C95B848_OFFSET UNITYSDK_OFFSET(0x190024E0)
+#define RPG_GAMECORE_BYCURRENTSKILLNAME_METHOD_4_32E1CE2A91DB45D2_OFFSET UNITYSDK_OFFSET(0x19002410)
+#define RPG_GAMECORE_BYCURRENTSKILLNAME_METHOD_4_F757396EC89661BC_OFFSET UNITYSDK_OFFSET(0x190027A0)
+#define RPG_GAMECORE_BYCURRENTSKILLNAME_METHOD_4_FF23B4683ED9F561_OFFSET UNITYSDK_OFFSET(0x19002720)
+#define RPG_GAMECORE_BYCURRENTSKILLNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x19002490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCurrentSkillName_TypeDefinitionIndex = 22475;
+	inline static constexpr unsigned int ByCurrentSkillName_TypeDefinitionIndex = 22224;
 
 	class ByCurrentSkillName : public ::RPG::GameCore::PredicateConfig
 	{
@@ -25,14 +28,24 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTSKILLNAME__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_695DF84745E3BAEF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCurrentSkillName*& a2)
+		static ::System::Void Method_4_32E1CE2A91DB45D2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCurrentSkillName*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCurrentSkillName*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTSKILLNAME_METHOD_4_695DF84745E3BAEF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCurrentSkillName*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTSKILLNAME_METHOD_4_32E1CE2A91DB45D2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_C4D1695BA513DD0F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCurrentSkillName* a2)
+		static ::System::Void Method_4_2E4156EB6C95B848(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCurrentSkillName* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCurrentSkillName*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTSKILLNAME_METHOD_4_C4D1695BA513DD0F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCurrentSkillName*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTSKILLNAME_METHOD_4_2E4156EB6C95B848_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_FF23B4683ED9F561(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCurrentSkillName*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCurrentSkillName*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTSKILLNAME_METHOD_4_FF23B4683ED9F561_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_F757396EC89661BC(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCurrentSkillName* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCurrentSkillName*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTSKILLNAME_METHOD_4_F757396EC89661BC_OFFSET))(a1, a2);
 		}
 	};
 }

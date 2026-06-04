@@ -6,14 +6,14 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TALKIMAGE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199CBEF0)
-#define RPG_GAMECORE_TALKIMAGE_PATHINVALID_OFFSET UNITYSDK_OFFSET(0x199CC2D0)
-#define RPG_GAMECORE_TALKIMAGE_SHAREBYCOPY_OFFSET UNITYSDK_OFFSET(0x199CC230)
-#define RPG_GAMECORE_TALKIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x199CC220)
+#define RPG_GAMECORE_TALKIMAGE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19871140)
+#define RPG_GAMECORE_TALKIMAGE_PATHINVALID_OFFSET UNITYSDK_OFFSET(0x19871500)
+#define RPG_GAMECORE_TALKIMAGE_SHAREBYCOPY_OFFSET UNITYSDK_OFFSET(0x19871460)
+#define RPG_GAMECORE_TALKIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19871450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkImage_TypeDefinitionIndex = 23406;
+	inline static constexpr unsigned int TalkImage_TypeDefinitionIndex = 23061;
 
 	class TalkImage : public ::RPG::GameCore::JsonConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKIMAGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::TalkImage*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TalkImage*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TalkImage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKIMAGE_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TalkImage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKIMAGE_FROMBINARY_OFFSET))(a1, a2);
 		}
 
 		::System::Object* ShareByCopy()
@@ -42,9 +42,9 @@ namespace RPG::GameCore
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKIMAGE_SHAREBYCOPY_OFFSET))(this);
 		}
 
-		::System::Boolean PathInvalid(::System::String* path)
+		::System::Boolean PathInvalid(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKIMAGE_PATHINVALID_OFFSET))(this, path);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKIMAGE_PATHINVALID_OFFSET))(this, a1);
 		}
 	};
 }

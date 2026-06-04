@@ -5,11 +5,11 @@
 namespace RPG::Client { class MonoEffectPluginNumber_RendererDigitData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINNUMBER_SINGLEDIGITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1660B600)
+#define RPG_CLIENT_MONOEFFECTPLUGINNUMBER_SINGLEDIGITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15A4C4F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginNumber_SingleDigitData_TypeDefinitionIndex = 64609;
+	inline static constexpr unsigned int MonoEffectPluginNumber_SingleDigitData_TypeDefinitionIndex = 65530;
 
 	class MonoEffectPluginNumber_SingleDigitData : public ::System::Object
 	{

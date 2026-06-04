@@ -6,15 +6,15 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define SRINSTANTIATE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x1A322910)
+#define SRINSTANTIATE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x1B2D91D0)
 
-inline static constexpr unsigned int SRInstantiate_TypeDefinitionIndex = 33262;
+inline static constexpr unsigned int SRInstantiate_TypeDefinitionIndex = 33544;
 
 class SRInstantiate : public ::System::Object
 {
 public:
-	static ::UnityEngine::GameObject* Instantiate(::UnityEngine::GameObject* prefab)
+	static ::UnityEngine::GameObject* Instantiate(::UnityEngine::GameObject* a1)
 	{
-		return ((::UnityEngine::GameObject*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + SRINSTANTIATE_INSTANTIATE_OFFSET))(prefab);
+		return ((::UnityEngine::GameObject*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + SRINSTANTIATE_INSTANTIATE_OFFSET))(a1);
 	}
 };

@@ -6,26 +6,26 @@
 namespace Epic::OnlineServices { class ProductUserId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_GET_CUSTOMINVITEID_OFFSET UNITYSDK_OFFSET(0x196D04E0)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x196D04C0)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_GET_PROCESSINGRESULT_OFFSET UNITYSDK_OFFSET(0x196D0500)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x196D04A0)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_SET_CUSTOMINVITEID_OFFSET UNITYSDK_OFFSET(0x196D04F0)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x196D04D0)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_SET_PROCESSINGRESULT_OFFSET UNITYSDK_OFFSET(0x196D0510)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x196D04B0)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x196D0520)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_GET_CUSTOMINVITEID_OFFSET UNITYSDK_OFFSET(0x1A4BDF10)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A4BDEF0)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_GET_PROCESSINGRESULT_OFFSET UNITYSDK_OFFSET(0x1A4BDF30)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x1A4BDED0)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_SET_CUSTOMINVITEID_OFFSET UNITYSDK_OFFSET(0x1A4BDF20)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A4BDF00)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_SET_PROCESSINGRESULT_OFFSET UNITYSDK_OFFSET(0x1A4BDF40)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x1A4BDEE0)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4BDF50)
 
 namespace Epic::OnlineServices::CustomInvites
 {
-	inline static constexpr unsigned int FinalizeInviteOptions_TypeDefinitionIndex = 42237;
+	inline static constexpr unsigned int FinalizeInviteOptions_TypeDefinitionIndex = 43040;
 
 	class FinalizeInviteOptions : public ::System::Object
 	{
 	public:
-		::System::String* _CustomInviteId_k__BackingField; // 0x10
-		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x18
-		::Epic::OnlineServices::ProductUserId* _TargetUserId_k__BackingField; // 0x20
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x10
+		::Epic::OnlineServices::ProductUserId* _TargetUserId_k__BackingField; // 0x18
+		::System::String* _CustomInviteId_k__BackingField; // 0x20
 		::Epic::OnlineServices::Result _ProcessingResult_k__BackingField; // 0x28
 
 		::System::Void _ctor()
@@ -38,9 +38,9 @@ namespace Epic::OnlineServices::CustomInvites
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_GET_TARGETUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_SET_TARGETUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_SET_TARGETUSERID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ProductUserId* get_LocalUserId()
@@ -48,9 +48,9 @@ namespace Epic::OnlineServices::CustomInvites
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_CustomInviteId()
@@ -58,9 +58,9 @@ namespace Epic::OnlineServices::CustomInvites
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_GET_CUSTOMINVITEID_OFFSET))(this);
 		}
 
-		::System::Void set_CustomInviteId(::System::String* value)
+		::System::Void set_CustomInviteId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_SET_CUSTOMINVITEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_SET_CUSTOMINVITEID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::Result get_ProcessingResult()
@@ -68,9 +68,9 @@ namespace Epic::OnlineServices::CustomInvites
 			return ((::Epic::OnlineServices::Result(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_GET_PROCESSINGRESULT_OFFSET))(this);
 		}
 
-		::System::Void set_ProcessingResult(::Epic::OnlineServices::Result value)
+		::System::Void set_ProcessingResult(::Epic::OnlineServices::Result a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_SET_PROCESSINGRESULT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_FINALIZEINVITEOPTIONS_SET_PROCESSINGRESULT_OFFSET))(this, a1);
 		}
 	};
 }

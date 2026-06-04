@@ -6,19 +6,19 @@ namespace RPG::Client { class UIController; }
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class String; }
 
-#define CLASS_1_F15061585E1D9D69_METHOD_1_124784A23C76D006_OFFSET UNITYSDK_OFFSET(0x119232F0)
-#define CLASS_1_F15061585E1D9D69_METHOD_1_49091FA7D0FEFC35_OFFSET UNITYSDK_OFFSET(0x11923400)
-#define CLASS_1_F15061585E1D9D69__CTOR_1_OFFSET UNITYSDK_OFFSET(0x119232D0)
-#define CLASS_1_F15061585E1D9D69__CTOR_OFFSET UNITYSDK_OFFSET(0x119232C0)
+#define CLASS_1_F15061585E1D9D69_METHOD_1_124784A23C76D006_OFFSET UNITYSDK_OFFSET(0x15E3E900)
+#define CLASS_1_F15061585E1D9D69_METHOD_1_49091FA7D0FEFC35_OFFSET UNITYSDK_OFFSET(0x15E3EA20)
+#define CLASS_1_F15061585E1D9D69__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15E3E8E0)
+#define CLASS_1_F15061585E1D9D69__CTOR_OFFSET UNITYSDK_OFFSET(0x15E3E8D0)
 
-inline static constexpr unsigned int Class_1_F15061585E1D9D69_TypeDefinitionIndex = 67323;
+inline static constexpr unsigned int Class_1_F15061585E1D9D69_TypeDefinitionIndex = 68275;
 
 class Class_1_F15061585E1D9D69 : public ::System::Object
 {
 public:
-	::RPG::Client::UIController* Field_1_1; // 0x10
-	::RPG::Client::UIController* Field_1_2; // 0x18
-	::System::Boolean Field_1_0; // 0x20
+	::RPG::Client::UIController* Field_1_0; // 0x10
+	::RPG::Client::UIController* Field_1_1; // 0x18
+	::System::Boolean Field_1_2; // 0x20
 
 	::System::Void _ctor(::RPG::Client::UIController* a1, ::RPG::Client::UIController* a2, ::System::Boolean a3)
 	{

@@ -8,13 +8,15 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class CheckFloorSavedValueConfig; }
 namespace RPG::GameCore { class FloorCustomValueConfig; }
 namespace RPG::GameCore { class MissionCustomValue; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_MISSIONWAYPOINTDATAPACK_METHOD_2_5935F32D8C451650_OFFSET UNITYSDK_OFFSET(0x190766D0)
-#define RPG_GAMECORE_MISSIONWAYPOINTDATAPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19076A50)
+#define RPG_GAMECORE_MISSIONWAYPOINTDATAPACK_METHOD_2_5935F32D8C451650_OFFSET UNITYSDK_OFFSET(0x196A1270)
+#define RPG_GAMECORE_MISSIONWAYPOINTDATAPACK_METHOD_2_FCD5741B72146A5C_OFFSET UNITYSDK_OFFSET(0x196A1600)
+#define RPG_GAMECORE_MISSIONWAYPOINTDATAPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x196A15F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionWaypointDataPack_TypeDefinitionIndex = 18034;
+	inline static constexpr unsigned int MissionWaypointDataPack_TypeDefinitionIndex = 18060;
 
 	class MissionWaypointDataPack : public ::RPG::GameCore::JsonConfig
 	{
@@ -40,6 +42,11 @@ namespace RPG::GameCore
 		static ::System::Void Method_2_5935F32D8C451650(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MissionWaypointDataPack*& a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MissionWaypointDataPack*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONWAYPOINTDATAPACK_METHOD_2_5935F32D8C451650_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_2_FCD5741B72146A5C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::MissionWaypointDataPack*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::MissionWaypointDataPack*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONWAYPOINTDATAPACK_METHOD_2_FCD5741B72146A5C_OFFSET))(a1, a2);
 		}
 	};
 }

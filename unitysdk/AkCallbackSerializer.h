@@ -3,22 +3,22 @@
 #include "unitysdk/AKRESULT.h"
 #include "unitysdk/System/Object.h"
 
-#define AKCALLBACKSERIALIZER_AUDIOSOURCECHANGECALLBACKFUNC_OFFSET UNITYSDK_OFFSET(0x192B98A0)
-#define AKCALLBACKSERIALIZER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x192B9700)
-#define AKCALLBACKSERIALIZER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x192B9610)
-#define AKCALLBACKSERIALIZER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x192B9690)
-#define AKCALLBACKSERIALIZER_GETCPTR_OFFSET UNITYSDK_OFFSET(0x192B9500)
-#define AKCALLBACKSERIALIZER_INIT_OFFSET UNITYSDK_OFFSET(0x192B5940)
-#define AKCALLBACKSERIALIZER_ISMISSEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x192B5CA0)
-#define AKCALLBACKSERIALIZER_LOCK_OFFSET UNITYSDK_OFFSET(0x192B7560)
-#define AKCALLBACKSERIALIZER_SETCPTR_OFFSET UNITYSDK_OFFSET(0x192B9550)
-#define AKCALLBACKSERIALIZER_SETLOCALOUTPUT_OFFSET UNITYSDK_OFFSET(0x192B5E60)
-#define AKCALLBACKSERIALIZER_TERM_OFFSET UNITYSDK_OFFSET(0x192B5BF0)
-#define AKCALLBACKSERIALIZER_UNLOCK_OFFSET UNITYSDK_OFFSET(0x192B8590)
-#define AKCALLBACKSERIALIZER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x192B99A0)
-#define AKCALLBACKSERIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x192B94F0)
+#define AKCALLBACKSERIALIZER_AUDIOSOURCECHANGECALLBACKFUNC_OFFSET UNITYSDK_OFFSET(0x19DD40C0)
+#define AKCALLBACKSERIALIZER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x19DD3EE0)
+#define AKCALLBACKSERIALIZER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19DD3DC0)
+#define AKCALLBACKSERIALIZER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x19DD3E70)
+#define AKCALLBACKSERIALIZER_GETCPTR_OFFSET UNITYSDK_OFFSET(0x19DD3C80)
+#define AKCALLBACKSERIALIZER_INIT_OFFSET UNITYSDK_OFFSET(0x19DD0C20)
+#define AKCALLBACKSERIALIZER_ISMISSEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x19DD0F80)
+#define AKCALLBACKSERIALIZER_LOCK_OFFSET UNITYSDK_OFFSET(0x19DD27C0)
+#define AKCALLBACKSERIALIZER_SETCPTR_OFFSET UNITYSDK_OFFSET(0x19DD3CD0)
+#define AKCALLBACKSERIALIZER_SETLOCALOUTPUT_OFFSET UNITYSDK_OFFSET(0x19DD1140)
+#define AKCALLBACKSERIALIZER_TERM_OFFSET UNITYSDK_OFFSET(0x19DD0ED0)
+#define AKCALLBACKSERIALIZER_UNLOCK_OFFSET UNITYSDK_OFFSET(0x19DD2B10)
+#define AKCALLBACKSERIALIZER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19DD41C0)
+#define AKCALLBACKSERIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x19DD3C70)
 
-inline static constexpr unsigned int AkCallbackSerializer_TypeDefinitionIndex = 40279;
+inline static constexpr unsigned int AkCallbackSerializer_TypeDefinitionIndex = 41106;
 
 class AkCallbackSerializer : public ::System::Object
 {
@@ -26,9 +26,9 @@ public:
 	::System::IntPtr swigCPtr; // 0x10
 	::System::Boolean swigCMemOwn; // 0x18
 
-	::System::Void _ctor(::System::IntPtr cPtr, ::System::Boolean cMemoryOwn)
+	::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKCALLBACKSERIALIZER__CTOR_OFFSET))(this, cPtr, cMemoryOwn);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKCALLBACKSERIALIZER__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void _ctor_1()
@@ -36,14 +36,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCALLBACKSERIALIZER__CTOR_1_OFFSET))(this);
 	}
 
-	static ::System::IntPtr getCPtr(::AkCallbackSerializer* obj)
+	static ::System::IntPtr getCPtr(::AkCallbackSerializer* a1)
 	{
-		return ((::System::IntPtr(*)(::AkCallbackSerializer*))((::PBYTE)hIl2Cpp + AKCALLBACKSERIALIZER_GETCPTR_OFFSET))(obj);
+		return ((::System::IntPtr(*)(::AkCallbackSerializer*))((::PBYTE)hIl2Cpp + AKCALLBACKSERIALIZER_GETCPTR_OFFSET))(a1);
 	}
 
-	::System::Void setCPtr(::System::IntPtr cPtr)
+	::System::Void setCPtr(::System::IntPtr a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKCALLBACKSERIALIZER_SETCPTR_OFFSET))(this, cPtr);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKCALLBACKSERIALIZER_SETCPTR_OFFSET))(this, a1);
 	}
 
 	::System::Void Finalize()
@@ -56,14 +56,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCALLBACKSERIALIZER_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Dispose_1(::System::Boolean disposing)
+	::System::Void Dispose_1(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKCALLBACKSERIALIZER_DISPOSE_1_OFFSET))(this, disposing);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKCALLBACKSERIALIZER_DISPOSE_1_OFFSET))(this, a1);
 	}
 
-	static ::AKRESULT Init(::System::IntPtr in_pMemory, ::System::UInt32 in_uSize)
+	static ::AKRESULT Init(::System::IntPtr a1, ::System::UInt32 a2)
 	{
-		return ((::AKRESULT(*)(::System::IntPtr, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCALLBACKSERIALIZER_INIT_OFFSET))(in_pMemory, in_uSize);
+		return ((::AKRESULT(*)(::System::IntPtr, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCALLBACKSERIALIZER_INIT_OFFSET))(a1, a2);
 	}
 
 	static ::System::Void Term()
@@ -86,13 +86,13 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + AKCALLBACKSERIALIZER_UNLOCK_OFFSET))();
 	}
 
-	static ::System::Void SetLocalOutput(::System::UInt32 in_uErrorLevel)
+	static ::System::Void SetLocalOutput(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::System::UInt32))((::PBYTE)hIl2Cpp + AKCALLBACKSERIALIZER_SETLOCALOUTPUT_OFFSET))(in_uErrorLevel);
+		return ((::System::Void(*)(::System::UInt32))((::PBYTE)hIl2Cpp + AKCALLBACKSERIALIZER_SETLOCALOUTPUT_OFFSET))(a1);
 	}
 
-	static ::AKRESULT AudioSourceChangeCallbackFunc(::System::Boolean in_bOtherAudioPlaying, ::System::Object* in_pCookie)
+	static ::AKRESULT AudioSourceChangeCallbackFunc(::System::Boolean a1, ::System::Object* a2)
 	{
-		return ((::AKRESULT(*)(::System::Boolean, ::System::Object*))((::PBYTE)hIl2Cpp + AKCALLBACKSERIALIZER_AUDIOSOURCECHANGECALLBACKFUNC_OFFSET))(in_bOtherAudioPlaying, in_pCookie);
+		return ((::AKRESULT(*)(::System::Boolean, ::System::Object*))((::PBYTE)hIl2Cpp + AKCALLBACKSERIALIZER_AUDIOSOURCECHANGECALLBACKFUNC_OFFSET))(a1, a2);
 	}
 };

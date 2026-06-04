@@ -6,23 +6,23 @@
 namespace System { class String; }
 namespace UnityEngine::Profiling { class Recorder; }
 
-#define RPG_PROFILERECORDERINFO_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1A6FD9F0)
-#define RPG_PROFILERECORDERINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x1A6FD980)
-#define RPG_PROFILERECORDERINFO_GET_ELAPSEDMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x1A6FD620)
-#define RPG_PROFILERECORDERINFO_GET_ISFILTERED_OFFSET UNITYSDK_OFFSET(0x1A6FD600)
-#define RPG_PROFILERECORDERINFO_GET_ISGETCALLED_OFFSET UNITYSDK_OFFSET(0x1A6FD5E0)
-#define RPG_PROFILERECORDERINFO_GET_TIMESAMPLE_OFFSET UNITYSDK_OFFSET(0x1A6FD5C0)
-#define RPG_PROFILERECORDERINFO_SET_ISFILTERED_OFFSET UNITYSDK_OFFSET(0x1A6FD610)
-#define RPG_PROFILERECORDERINFO_SET_ISGETCALLED_OFFSET UNITYSDK_OFFSET(0x1A6FD5F0)
-#define RPG_PROFILERECORDERINFO_SET_TIMESAMPLE_OFFSET UNITYSDK_OFFSET(0x1A6FD5D0)
-#define RPG_PROFILERECORDERINFO_UPDATERECORDER_OFFSET UNITYSDK_OFFSET(0x1A6FD660)
-#define RPG_PROFILERECORDERINFO_UPDATETIMESAMPLE_OFFSET UNITYSDK_OFFSET(0x1A6FD930)
-#define RPG_PROFILERECORDERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6FD9E0)
-#define RPG_PROFILERECORDERINFO__UPDATERECORDER_B__17_0_OFFSET UNITYSDK_OFFSET(0x1A6FDA50)
+#define RPG_PROFILERECORDERINFO_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1B51DE20)
+#define RPG_PROFILERECORDERINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x1B51DDB0)
+#define RPG_PROFILERECORDERINFO_GET_ELAPSEDMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x1B51DA90)
+#define RPG_PROFILERECORDERINFO_GET_ISFILTERED_OFFSET UNITYSDK_OFFSET(0x1B51DA70)
+#define RPG_PROFILERECORDERINFO_GET_ISGETCALLED_OFFSET UNITYSDK_OFFSET(0x1B51DA50)
+#define RPG_PROFILERECORDERINFO_GET_TIMESAMPLE_OFFSET UNITYSDK_OFFSET(0x1B51DA30)
+#define RPG_PROFILERECORDERINFO_SET_ISFILTERED_OFFSET UNITYSDK_OFFSET(0x1B51DA80)
+#define RPG_PROFILERECORDERINFO_SET_ISGETCALLED_OFFSET UNITYSDK_OFFSET(0x1B51DA60)
+#define RPG_PROFILERECORDERINFO_SET_TIMESAMPLE_OFFSET UNITYSDK_OFFSET(0x1B51DA40)
+#define RPG_PROFILERECORDERINFO_UPDATERECORDER_OFFSET UNITYSDK_OFFSET(0x1B51DAD0)
+#define RPG_PROFILERECORDERINFO_UPDATETIMESAMPLE_OFFSET UNITYSDK_OFFSET(0x1B51DD60)
+#define RPG_PROFILERECORDERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B51DE10)
+#define RPG_PROFILERECORDERINFO__UPDATERECORDER_B__17_0_OFFSET UNITYSDK_OFFSET(0x1B51DE80)
 
 namespace RPG
 {
-	inline static constexpr unsigned int ProfileRecorderInfo_TypeDefinitionIndex = 33247;
+	inline static constexpr unsigned int ProfileRecorderInfo_TypeDefinitionIndex = 33356;
 
 	class ProfileRecorderInfo : public ::System::Object
 	{
@@ -31,8 +31,8 @@ namespace RPG
 		::UnityEngine::Profiling::Recorder* Recorder; // 0x18
 		::System::Double _TimeSample_k__BackingField; // 0x20
 		::Unity::Profiling::ProfilerMarker Marker; // 0x28
-		::System::Boolean _IsFiltered_k__BackingField; // 0x30
-		::System::Boolean _IsGetCalled_k__BackingField; // 0x31
+		::System::Boolean _IsGetCalled_k__BackingField; // 0x30
+		::System::Boolean _IsFiltered_k__BackingField; // 0x31
 
 		::System::Void _ctor()
 		{
@@ -44,9 +44,9 @@ namespace RPG
 			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_PROFILERECORDERINFO_GET_TIMESAMPLE_OFFSET))(this);
 		}
 
-		::System::Void set_TimeSample(::System::Double value)
+		::System::Void set_TimeSample(::System::Double a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + RPG_PROFILERECORDERINFO_SET_TIMESAMPLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + RPG_PROFILERECORDERINFO_SET_TIMESAMPLE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsGetCalled()
@@ -54,9 +54,9 @@ namespace RPG
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_PROFILERECORDERINFO_GET_ISGETCALLED_OFFSET))(this);
 		}
 
-		::System::Void set_IsGetCalled(::System::Boolean value)
+		::System::Void set_IsGetCalled(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_PROFILERECORDERINFO_SET_ISGETCALLED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_PROFILERECORDERINFO_SET_ISGETCALLED_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsFiltered()
@@ -64,9 +64,9 @@ namespace RPG
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_PROFILERECORDERINFO_GET_ISFILTERED_OFFSET))(this);
 		}
 
-		::System::Void set_IsFiltered(::System::Boolean value)
+		::System::Void set_IsFiltered(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_PROFILERECORDERINFO_SET_ISFILTERED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_PROFILERECORDERINFO_SET_ISFILTERED_OFFSET))(this, a1);
 		}
 
 		::System::Double get_ElapsedMilliseconds()
@@ -74,9 +74,9 @@ namespace RPG
 			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_PROFILERECORDERINFO_GET_ELAPSEDMILLISECONDS_OFFSET))(this);
 		}
 
-		::System::Void UpdateRecorder(::System::String* Name)
+		::System::Void UpdateRecorder(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_PROFILERECORDERINFO_UPDATERECORDER_OFFSET))(this, Name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_PROFILERECORDERINFO_UPDATERECORDER_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateTimeSample()
@@ -84,14 +84,14 @@ namespace RPG
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_PROFILERECORDERINFO_UPDATETIMESAMPLE_OFFSET))(this);
 		}
 
-		static ::RPG::ProfileRecorderInfo* Create(::System::String* markerName)
+		static ::RPG::ProfileRecorderInfo* Create(::System::String* a1)
 		{
-			return ((::RPG::ProfileRecorderInfo*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_PROFILERECORDERINFO_CREATE_OFFSET))(markerName);
+			return ((::RPG::ProfileRecorderInfo*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_PROFILERECORDERINFO_CREATE_OFFSET))(a1);
 		}
 
-		static ::RPG::ProfileRecorderInfo* Create_1(::Unity::Profiling::ProfilerMarker marker, ::UnityEngine::Profiling::Recorder* recorder)
+		static ::RPG::ProfileRecorderInfo* Create_1(::Unity::Profiling::ProfilerMarker a1, ::UnityEngine::Profiling::Recorder* a2)
 		{
-			return ((::RPG::ProfileRecorderInfo*(*)(::Unity::Profiling::ProfilerMarker, ::UnityEngine::Profiling::Recorder*))((::PBYTE)hIl2Cpp + RPG_PROFILERECORDERINFO_CREATE_1_OFFSET))(marker, recorder);
+			return ((::RPG::ProfileRecorderInfo*(*)(::Unity::Profiling::ProfilerMarker, ::UnityEngine::Profiling::Recorder*))((::PBYTE)hIl2Cpp + RPG_PROFILERECORDERINFO_CREATE_1_OFFSET))(a1, a2);
 		}
 
 		::System::Void _UpdateRecorder_b__17_0()

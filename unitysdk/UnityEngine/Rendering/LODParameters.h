@@ -5,13 +5,13 @@
 
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_LODPARAMETERS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22F28A0)
-#define UNITYENGINE_RENDERING_LODPARAMETERS_EQUALS_OFFSET UNITYSDK_OFFSET(0x22F27E0)
-#define UNITYENGINE_RENDERING_LODPARAMETERS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22F29C0)
+#define UNITYENGINE_RENDERING_LODPARAMETERS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x388F2F0)
+#define UNITYENGINE_RENDERING_LODPARAMETERS_EQUALS_OFFSET UNITYSDK_OFFSET(0x388F230)
+#define UNITYENGINE_RENDERING_LODPARAMETERS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x388F410)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int LODParameters_TypeDefinitionIndex = 4564;
+	inline static constexpr unsigned int LODParameters_TypeDefinitionIndex = 4738;
 
 	struct alignas(4) LODParameters
 	{
@@ -21,14 +21,14 @@ namespace UnityEngine::Rendering
 		::System::Single m_OrthoSize; // 0x24
 		::System::Int32 m_CameraPixelHeight; // 0x28
 
-		::System::Boolean Equals(::UnityEngine::Rendering::LODParameters other)
+		::System::Boolean Equals(::UnityEngine::Rendering::LODParameters a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::LODParameters))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_LODPARAMETERS_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::LODParameters))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_LODPARAMETERS_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_LODPARAMETERS_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_LODPARAMETERS_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

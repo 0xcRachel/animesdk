@@ -4,14 +4,14 @@
 
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_RPGPPDOWNSAMPLERENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x15A89920)
-#define RPG_CUSTOMRP_RPGPPDOWNSAMPLERENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x15A89A00)
-#define RPG_CUSTOMRP_RPGPPDOWNSAMPLERENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x15A898E0)
-#define RPG_CUSTOMRP_RPGPPDOWNSAMPLERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x15A898D0)
+#define RPG_CUSTOMRP_RPGPPDOWNSAMPLERENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1581C2A0)
+#define RPG_CUSTOMRP_RPGPPDOWNSAMPLERENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x1581C380)
+#define RPG_CUSTOMRP_RPGPPDOWNSAMPLERENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1581C260)
+#define RPG_CUSTOMRP_RPGPPDOWNSAMPLERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1581C250)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGPPDownsampleRenderer_TypeDefinitionIndex = 35208;
+	inline static constexpr unsigned int RPGPPDownsampleRenderer_TypeDefinitionIndex = 35508;
 
 	class RPGPPDownsampleRenderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
@@ -26,14 +26,14 @@ namespace RPG::CustomRP
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGPPDOWNSAMPLERENDERER_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void FrameCleanup(::UnityEngine::Rendering::CommandBuffer* cmd)
+		::System::Void FrameCleanup(::UnityEngine::Rendering::CommandBuffer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGPPDOWNSAMPLERENDERER_FRAMECLEANUP_OFFSET))(this, cmd);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGPPDOWNSAMPLERENDERER_FRAMECLEANUP_OFFSET))(this, a1);
 		}
 
-		::System::Void InnerExecute(::UnityEngine::Rendering::CommandBuffer* cmd)
+		::System::Void InnerExecute(::UnityEngine::Rendering::CommandBuffer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGPPDOWNSAMPLERENDERER_INNEREXECUTE_OFFSET))(this, cmd);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGPPDOWNSAMPLERENDERER_INNEREXECUTE_OFFSET))(this, a1);
 		}
 	};
 }

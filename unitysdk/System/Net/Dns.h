@@ -9,20 +9,20 @@ namespace System::Net { class IPAddress; }
 namespace System::Net { class IPHostEntry; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_NET_DNS_BEGINGETHOSTENTRY_OFFSET UNITYSDK_OFFSET(0x17698440)
-#define SYSTEM_NET_DNS_ENDGETHOSTENTRY_OFFSET UNITYSDK_OFFSET(0x176985E0)
-#define SYSTEM_NET_DNS_ERROR_11001_OFFSET UNITYSDK_OFFSET(0x17698750)
-#define SYSTEM_NET_DNS_GETHOSTADDRESSES_OFFSET UNITYSDK_OFFSET(0x17699550)
-#define SYSTEM_NET_DNS_GETHOSTBYADDRESSFROMSTRING_OFFSET UNITYSDK_OFFSET(0x17698C20)
-#define SYSTEM_NET_DNS_GETHOSTBYADDR_INTERNAL_OFFSET UNITYSDK_OFFSET(0x17698730)
-#define SYSTEM_NET_DNS_GETHOSTBYNAME_INTERNAL_OFFSET UNITYSDK_OFFSET(0x17698720)
-#define SYSTEM_NET_DNS_GETHOSTBYNAME_OFFSET UNITYSDK_OFFSET(0x17698FC0)
-#define SYSTEM_NET_DNS_GETHOSTENTRYASYNC_OFFSET UNITYSDK_OFFSET(0x176997D0)
-#define SYSTEM_NET_DNS_GETHOSTENTRY_1_OFFSET UNITYSDK_OFFSET(0x17698F40)
-#define SYSTEM_NET_DNS_GETHOSTENTRY_OFFSET UNITYSDK_OFFSET(0x17698DA0)
-#define SYSTEM_NET_DNS_GETHOSTNAME_INTERNAL_OFFSET UNITYSDK_OFFSET(0x17698740)
-#define SYSTEM_NET_DNS_GETHOSTNAME_OFFSET UNITYSDK_OFFSET(0x17699740)
-#define SYSTEM_NET_DNS_HOSTENT_TO_IPHOSTENTRY_OFFSET UNITYSDK_OFFSET(0x176987C0)
+#define SYSTEM_NET_DNS_BEGINGETHOSTENTRY_OFFSET UNITYSDK_OFFSET(0x17CC82C0)
+#define SYSTEM_NET_DNS_ENDGETHOSTENTRY_OFFSET UNITYSDK_OFFSET(0x17CC8460)
+#define SYSTEM_NET_DNS_ERROR_11001_OFFSET UNITYSDK_OFFSET(0x17CC85D0)
+#define SYSTEM_NET_DNS_GETHOSTADDRESSES_OFFSET UNITYSDK_OFFSET(0x17CC9580)
+#define SYSTEM_NET_DNS_GETHOSTBYADDRESSFROMSTRING_OFFSET UNITYSDK_OFFSET(0x17CC8A80)
+#define SYSTEM_NET_DNS_GETHOSTBYADDR_INTERNAL_OFFSET UNITYSDK_OFFSET(0x17CC85B0)
+#define SYSTEM_NET_DNS_GETHOSTBYNAME_INTERNAL_OFFSET UNITYSDK_OFFSET(0x17CC85A0)
+#define SYSTEM_NET_DNS_GETHOSTBYNAME_OFFSET UNITYSDK_OFFSET(0x17CC8F00)
+#define SYSTEM_NET_DNS_GETHOSTENTRYASYNC_OFFSET UNITYSDK_OFFSET(0x17CC9830)
+#define SYSTEM_NET_DNS_GETHOSTENTRY_1_OFFSET UNITYSDK_OFFSET(0x17CC8E80)
+#define SYSTEM_NET_DNS_GETHOSTENTRY_OFFSET UNITYSDK_OFFSET(0x17CC8C40)
+#define SYSTEM_NET_DNS_GETHOSTNAME_INTERNAL_OFFSET UNITYSDK_OFFSET(0x17CC85C0)
+#define SYSTEM_NET_DNS_GETHOSTNAME_OFFSET UNITYSDK_OFFSET(0x17CC97A0)
+#define SYSTEM_NET_DNS_HOSTENT_TO_IPHOSTENTRY_OFFSET UNITYSDK_OFFSET(0x17CC8640)
 
 namespace System::Net
 {
@@ -31,64 +31,64 @@ namespace System::Net
 	class Dns : public ::System::Object
 	{
 	public:
-		static ::System::IAsyncResult* BeginGetHostEntry(::System::String* hostNameOrAddress, ::System::AsyncCallback* requestCallback, ::System::Object* stateObject)
+		static ::System::IAsyncResult* BeginGetHostEntry(::System::String* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_BEGINGETHOSTENTRY_OFFSET))(hostNameOrAddress, requestCallback, stateObject);
+			return ((::System::IAsyncResult*(*)(::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_BEGINGETHOSTENTRY_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Net::IPHostEntry* EndGetHostEntry(::System::IAsyncResult* asyncResult)
+		static ::System::Net::IPHostEntry* EndGetHostEntry(::System::IAsyncResult* a1)
 		{
-			return ((::System::Net::IPHostEntry*(*)(::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_ENDGETHOSTENTRY_OFFSET))(asyncResult);
+			return ((::System::Net::IPHostEntry*(*)(::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_ENDGETHOSTENTRY_OFFSET))(a1);
 		}
 
-		static ::System::Boolean GetHostByName_internal(::System::String* host, ::System::String*& h_name, ::Il2CppArray<::System::String*>*& h_aliases, ::Il2CppArray<::System::String*>*& h_addr_list, ::System::Int32 hint)
+		static ::System::Boolean GetHostByName_internal(::System::String* a1, ::System::String*& a2, ::Il2CppArray<::System::String*>*& a3, ::Il2CppArray<::System::String*>*& a4, ::System::Int32 a5)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*&, ::Il2CppArray<::System::String*>*&, ::Il2CppArray<::System::String*>*&, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTBYNAME_INTERNAL_OFFSET))(host, h_name, h_aliases, h_addr_list, hint);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*&, ::Il2CppArray<::System::String*>*&, ::Il2CppArray<::System::String*>*&, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTBYNAME_INTERNAL_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean GetHostByAddr_internal(::System::String* addr, ::System::String*& h_name, ::Il2CppArray<::System::String*>*& h_aliases, ::Il2CppArray<::System::String*>*& h_addr_list, ::System::Int32 hint)
+		static ::System::Boolean GetHostByAddr_internal(::System::String* a1, ::System::String*& a2, ::Il2CppArray<::System::String*>*& a3, ::Il2CppArray<::System::String*>*& a4, ::System::Int32 a5)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*&, ::Il2CppArray<::System::String*>*&, ::Il2CppArray<::System::String*>*&, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTBYADDR_INTERNAL_OFFSET))(addr, h_name, h_aliases, h_addr_list, hint);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*&, ::Il2CppArray<::System::String*>*&, ::Il2CppArray<::System::String*>*&, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTBYADDR_INTERNAL_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean GetHostName_internal(::System::String*& h_name)
+		static ::System::Boolean GetHostName_internal(::System::String*& a1)
 		{
-			return ((::System::Boolean(*)(::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTNAME_INTERNAL_OFFSET))(h_name);
+			return ((::System::Boolean(*)(::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTNAME_INTERNAL_OFFSET))(a1);
 		}
 
-		static ::System::Void Error_11001(::System::String* hostName)
+		static ::System::Void Error_11001(::System::String* a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_ERROR_11001_OFFSET))(hostName);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_ERROR_11001_OFFSET))(a1);
 		}
 
-		static ::System::Net::IPHostEntry* hostent_to_IPHostEntry(::System::String* originalHostName, ::System::String* h_name, ::Il2CppArray<::System::String*>* h_aliases, ::Il2CppArray<::System::String*>* h_addrlist)
+		static ::System::Net::IPHostEntry* hostent_to_IPHostEntry(::System::String* a1, ::System::String* a2, ::Il2CppArray<::System::String*>* a3, ::Il2CppArray<::System::String*>* a4)
 		{
-			return ((::System::Net::IPHostEntry*(*)(::System::String*, ::System::String*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_HOSTENT_TO_IPHOSTENTRY_OFFSET))(originalHostName, h_name, h_aliases, h_addrlist);
+			return ((::System::Net::IPHostEntry*(*)(::System::String*, ::System::String*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_HOSTENT_TO_IPHOSTENTRY_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Net::IPHostEntry* GetHostByAddressFromString(::System::String* address, ::System::Boolean parse)
+		static ::System::Net::IPHostEntry* GetHostByAddressFromString(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Net::IPHostEntry*(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTBYADDRESSFROMSTRING_OFFSET))(address, parse);
+			return ((::System::Net::IPHostEntry*(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTBYADDRESSFROMSTRING_OFFSET))(a1, a2);
 		}
 
-		static ::System::Net::IPHostEntry* GetHostEntry(::System::String* hostNameOrAddress)
+		static ::System::Net::IPHostEntry* GetHostEntry(::System::String* a1)
 		{
-			return ((::System::Net::IPHostEntry*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRY_OFFSET))(hostNameOrAddress);
+			return ((::System::Net::IPHostEntry*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRY_OFFSET))(a1);
 		}
 
-		static ::System::Net::IPHostEntry* GetHostEntry_1(::System::Net::IPAddress* address)
+		static ::System::Net::IPHostEntry* GetHostEntry_1(::System::Net::IPAddress* a1)
 		{
-			return ((::System::Net::IPHostEntry*(*)(::System::Net::IPAddress*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRY_1_OFFSET))(address);
+			return ((::System::Net::IPHostEntry*(*)(::System::Net::IPAddress*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRY_1_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::System::Net::IPAddress*>* GetHostAddresses(::System::String* hostNameOrAddress)
+		static ::Il2CppArray<::System::Net::IPAddress*>* GetHostAddresses(::System::String* a1)
 		{
-			return ((::Il2CppArray<::System::Net::IPAddress*>*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTADDRESSES_OFFSET))(hostNameOrAddress);
+			return ((::Il2CppArray<::System::Net::IPAddress*>*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTADDRESSES_OFFSET))(a1);
 		}
 
-		static ::System::Net::IPHostEntry* GetHostByName(::System::String* hostName)
+		static ::System::Net::IPHostEntry* GetHostByName(::System::String* a1)
 		{
-			return ((::System::Net::IPHostEntry*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTBYNAME_OFFSET))(hostName);
+			return ((::System::Net::IPHostEntry*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTBYNAME_OFFSET))(a1);
 		}
 
 		static ::System::String* GetHostName()
@@ -96,9 +96,9 @@ namespace System::Net
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTNAME_OFFSET))();
 		}
 
-		static ::System::Threading::Tasks::Task_1<::System::Net::IPHostEntry*>* GetHostEntryAsync(::System::String* hostNameOrAddress)
+		static ::System::Threading::Tasks::Task_1<::System::Net::IPHostEntry*>* GetHostEntryAsync(::System::String* a1)
 		{
-			return ((::System::Threading::Tasks::Task_1<::System::Net::IPHostEntry*>*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRYASYNC_OFFSET))(hostNameOrAddress);
+			return ((::System::Threading::Tasks::Task_1<::System::Net::IPHostEntry*>*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRYASYNC_OFFSET))(a1);
 		}
 	};
 }

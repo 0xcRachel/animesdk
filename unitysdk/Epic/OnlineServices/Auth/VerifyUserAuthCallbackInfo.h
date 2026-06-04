@@ -5,18 +5,18 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x19641850)
-#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x19641830)
-#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x19641810)
-#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x19641AF0)
-#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x19641840)
-#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x19641870)
-#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x19641820)
-#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19641C00)
+#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x19F64A70)
+#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x19F64A50)
+#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x19F64A30)
+#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x19F64D10)
+#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x19F64A60)
+#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x19F64A90)
+#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x19F64A40)
+#define EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19F64E30)
 
 namespace Epic::OnlineServices::Auth
 {
-	inline static constexpr unsigned int VerifyUserAuthCallbackInfo_TypeDefinitionIndex = 42415;
+	inline static constexpr unsigned int VerifyUserAuthCallbackInfo_TypeDefinitionIndex = 43218;
 
 	class VerifyUserAuthCallbackInfo : public ::System::Object
 	{
@@ -34,9 +34,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::Epic::OnlineServices::Result(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_GET_RESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void set_ResultCode(::Epic::OnlineServices::Result value)
+		::System::Void set_ResultCode(::Epic::OnlineServices::Result a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_ClientData()
@@ -44,9 +44,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_GET_CLIENTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ClientData(::System::Object* value)
+		::System::Void set_ClientData(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::Epic::OnlineServices::Result> GetResultCode()
@@ -54,14 +54,14 @@ namespace Epic::OnlineServices::Auth
 			return ((::System::Nullable_1<::Epic::OnlineServices::Result>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_GETRESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Auth::VerifyUserAuthCallbackInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Auth::VerifyUserAuthCallbackInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Auth::VerifyUserAuthCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Auth::VerifyUserAuthCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYUSERAUTHCALLBACKINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

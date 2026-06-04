@@ -4,14 +4,17 @@
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_CLIENT_ST_PARKOUR_BYCOMPARERANK_METHOD_4_1FDE4693B0DDE6D9_OFFSET UNITYSDK_OFFSET(0x1884FE00)
-#define RPG_CLIENT_ST_PARKOUR_BYCOMPARERANK_METHOD_4_911084033AD37B3F_OFFSET UNITYSDK_OFFSET(0x1884FED0)
-#define RPG_CLIENT_ST_PARKOUR_BYCOMPARERANK__CTOR_OFFSET UNITYSDK_OFFSET(0x1884FE80)
+#define RPG_CLIENT_ST_PARKOUR_BYCOMPARERANK_METHOD_4_1FDE4693B0DDE6D9_OFFSET UNITYSDK_OFFSET(0x1987BC90)
+#define RPG_CLIENT_ST_PARKOUR_BYCOMPARERANK_METHOD_4_2B15F09C7B357520_OFFSET UNITYSDK_OFFSET(0x1987BFA0)
+#define RPG_CLIENT_ST_PARKOUR_BYCOMPARERANK_METHOD_4_57FA65BF139EA211_OFFSET UNITYSDK_OFFSET(0x1987C020)
+#define RPG_CLIENT_ST_PARKOUR_BYCOMPARERANK_METHOD_4_911084033AD37B3F_OFFSET UNITYSDK_OFFSET(0x1987BD60)
+#define RPG_CLIENT_ST_PARKOUR_BYCOMPARERANK__CTOR_OFFSET UNITYSDK_OFFSET(0x1987BD10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ST_Parkour_ByCompareRank_TypeDefinitionIndex = 10134;
+	inline static constexpr unsigned int ST_Parkour_ByCompareRank_TypeDefinitionIndex = 9936;
 
 	class ST_Parkour_ByCompareRank : public ::RPG::GameCore::PredicateConfig
 	{
@@ -33,6 +36,16 @@ namespace RPG::Client
 		static ::System::Void Method_4_911084033AD37B3F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ST_Parkour_ByCompareRank* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::ST_Parkour_ByCompareRank*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_BYCOMPARERANK_METHOD_4_911084033AD37B3F_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_2B15F09C7B357520(::SimpleJSON::JSONNode* a1, ::RPG::Client::ST_Parkour_ByCompareRank*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::Client::ST_Parkour_ByCompareRank*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_BYCOMPARERANK_METHOD_4_2B15F09C7B357520_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_57FA65BF139EA211(::SimpleJSON::JSONNode* a1, ::RPG::Client::ST_Parkour_ByCompareRank* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::Client::ST_Parkour_ByCompareRank*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_BYCOMPARERANK_METHOD_4_57FA65BF139EA211_OFFSET))(a1, a2);
 		}
 	};
 }

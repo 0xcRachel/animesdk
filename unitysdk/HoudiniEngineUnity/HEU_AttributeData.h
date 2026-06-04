@@ -7,13 +7,14 @@
 
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA_COPYVALUESTO_OFFSET UNITYSDK_OFFSET(0x12C2DD20)
-#define HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA_ISCOLORATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x12C2DCB0)
-#define HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x12C2DE10)
+#define HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA_COPYVALUESTO_OFFSET UNITYSDK_OFFSET(0x1368DB20)
+#define HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA_ISCOLORATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1368DAB0)
+#define HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1368DC10)
+#define HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1368DF50)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_AttributeData_TypeDefinitionIndex = 43524;
+	inline static constexpr unsigned int HEU_AttributeData_TypeDefinitionIndex = 37458;
 
 	class HEU_AttributeData : public ::System::Object
 	{
@@ -36,9 +37,14 @@ namespace HoudiniEngineUnity
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA_ISCOLORATTRIBUTE_OFFSET))(this);
 		}
 
-		::System::Void CopyValuesTo(::HoudiniEngineUnity::HEU_AttributeData* destAttrData)
+		::System::Void CopyValuesTo(::HoudiniEngineUnity::HEU_AttributeData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_AttributeData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA_COPYVALUESTO_OFFSET))(this, destAttrData);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_AttributeData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA_COPYVALUESTO_OFFSET))(this, a1);
+		}
+
+		::System::Boolean IsEquivalentTo(::HoudiniEngineUnity::HEU_AttributeData* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_AttributeData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_ATTRIBUTEDATA_ISEQUIVALENTTO_OFFSET))(this, a1);
 		}
 	};
 }

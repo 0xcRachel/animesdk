@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_2_EF65DA6A20789AD8;
+class Class_2_42AE0E6E31F59F96;
 namespace RPG::Client { class AnimatorClipOverride_AnimClipOverride; }
 
-#define RPG_CLIENT_ANIMATORCLIPOVERRIDE_AWAKE_OFFSET UNITYSDK_OFFSET(0x15333CF0)
-#define RPG_CLIENT_ANIMATORCLIPOVERRIDE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15333E10)
-#define RPG_CLIENT_ANIMATORCLIPOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x15333E70)
+#define RPG_CLIENT_ANIMATORCLIPOVERRIDE_AWAKE_OFFSET UNITYSDK_OFFSET(0x17E41160)
+#define RPG_CLIENT_ANIMATORCLIPOVERRIDE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17E41280)
+#define RPG_CLIENT_ANIMATORCLIPOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x17E412E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimatorClipOverride_TypeDefinitionIndex = 64856;
+	inline static constexpr unsigned int AnimatorClipOverride_TypeDefinitionIndex = 65782;
 
 	class AnimatorClipOverride : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::Il2CppArray<::RPG::Client::AnimatorClipOverride_AnimClipOverride*>* AnimClipOverrides; // 0x18
-		::Class_2_EF65DA6A20789AD8* Field_5_1; // 0x20
+		::Class_2_42AE0E6E31F59F96* Field_5_1; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -8,51 +8,51 @@ namespace RPG::Client { class ChimeraTeamWorkSettleData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x177A9EB0)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x177AA400)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GETDEADCHIMERACNT_OFFSET UNITYSDK_OFFSET(0x177AA750)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GETFINISHEDWORKVALUE_OFFSET UNITYSDK_OFFSET(0x177AA520)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_ALLWORKIDS_OFFSET UNITYSDK_OFFSET(0x177A7AE0)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_BEFOREBATTLEFINISHEDWORKVAL_OFFSET UNITYSDK_OFFSET(0x177A9E50)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_CHIMERAIDS_OFFSET UNITYSDK_OFFSET(0x177A9DD0)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_CHIMERAINBATTLEATTRIBUTEDICT_OFFSET UNITYSDK_OFFSET(0x177A9E90)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_CHIMERATEAMWORKSETTLEDATA_OFFSET UNITYSDK_OFFSET(0x177AA7B0)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_FINISHEDWORKIDS_OFFSET UNITYSDK_OFFSET(0x177A9E70)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_LEADERCHIMERAID_OFFSET UNITYSDK_OFFSET(0x177A9DF0)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_NEWWORKINDEX_OFFSET UNITYSDK_OFFSET(0x177A9E30)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_RECORD_OFFSET UNITYSDK_OFFSET(0x177AA7D0)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_WORKROUNDID_OFFSET UNITYSDK_OFFSET(0x177A9E10)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_BEFOREBATTLEFINISHEDWORKVAL_OFFSET UNITYSDK_OFFSET(0x177A9E60)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_CHIMERAIDS_OFFSET UNITYSDK_OFFSET(0x177A9DE0)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_CHIMERAINBATTLEATTRIBUTEDICT_OFFSET UNITYSDK_OFFSET(0x177A9EA0)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_CHIMERATEAMWORKSETTLEDATA_OFFSET UNITYSDK_OFFSET(0x177AA7C0)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_FINISHEDWORKIDS_OFFSET UNITYSDK_OFFSET(0x177A9E80)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_LEADERCHIMERAID_OFFSET UNITYSDK_OFFSET(0x177A9E00)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_NEWWORKINDEX_OFFSET UNITYSDK_OFFSET(0x177A9E40)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_RECORD_OFFSET UNITYSDK_OFFSET(0x177AA7E0)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_WORKROUNDID_OFFSET UNITYSDK_OFFSET(0x177A9E20)
-#define RPG_CLIENT_CHIMERADOINGROUNDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x177A9F70)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x18A68210)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18A68790)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GETDEADCHIMERACNT_OFFSET UNITYSDK_OFFSET(0x18A68A70)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GETFINISHEDWORKVALUE_OFFSET UNITYSDK_OFFSET(0x18A68880)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_ALLWORKIDS_OFFSET UNITYSDK_OFFSET(0x18A65F50)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_BEFOREBATTLEFINISHEDWORKVAL_OFFSET UNITYSDK_OFFSET(0x18A681B0)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_CHIMERAIDS_OFFSET UNITYSDK_OFFSET(0x18A68130)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_CHIMERAINBATTLEATTRIBUTEDICT_OFFSET UNITYSDK_OFFSET(0x18A681F0)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_CHIMERATEAMWORKSETTLEDATA_OFFSET UNITYSDK_OFFSET(0x18A68AD0)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_FINISHEDWORKIDS_OFFSET UNITYSDK_OFFSET(0x18A681D0)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_LEADERCHIMERAID_OFFSET UNITYSDK_OFFSET(0x18A68150)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_NEWWORKINDEX_OFFSET UNITYSDK_OFFSET(0x18A68190)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_RECORD_OFFSET UNITYSDK_OFFSET(0x18A68AF0)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_WORKROUNDID_OFFSET UNITYSDK_OFFSET(0x18A68170)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_BEFOREBATTLEFINISHEDWORKVAL_OFFSET UNITYSDK_OFFSET(0x18A681C0)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_CHIMERAIDS_OFFSET UNITYSDK_OFFSET(0x18A68140)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_CHIMERAINBATTLEATTRIBUTEDICT_OFFSET UNITYSDK_OFFSET(0x18A68200)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_CHIMERATEAMWORKSETTLEDATA_OFFSET UNITYSDK_OFFSET(0x18A68AE0)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_FINISHEDWORKIDS_OFFSET UNITYSDK_OFFSET(0x18A681E0)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_LEADERCHIMERAID_OFFSET UNITYSDK_OFFSET(0x18A68160)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_NEWWORKINDEX_OFFSET UNITYSDK_OFFSET(0x18A681A0)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_RECORD_OFFSET UNITYSDK_OFFSET(0x18A68B00)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_WORKROUNDID_OFFSET UNITYSDK_OFFSET(0x18A68180)
+#define RPG_CLIENT_CHIMERADOINGROUNDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18A682D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDoingRoundData_TypeDefinitionIndex = 58512;
+	inline static constexpr unsigned int ChimeraDoingRoundData_TypeDefinitionIndex = 59442;
 
 	class ChimeraDoingRoundData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* _FinishedWorkIDs_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* _ChimeraIDs_k__BackingField; // 0x18
-		::RPG::Client::ChimeraTeamWorkSettleData* _ChimeraTeamWorkSettleData_k__BackingField; // 0x20
-		::RPG::Client::ChimeraBattleRecordData* _Record_k__BackingField; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_C27C9F2BD1AB8E7E*>* _ChimeraInBattleAttributeDict_k__BackingField; // 0x30
+		::RPG::Client::ChimeraBattleRecordData* _Record_k__BackingField; // 0x10
+		::RPG::Client::ChimeraTeamWorkSettleData* _ChimeraTeamWorkSettleData_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* _ChimeraIDs_k__BackingField; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_C27C9F2BD1AB8E7E*>* _ChimeraInBattleAttributeDict_k__BackingField; // 0x28
+		::System::Collections::Generic::List_1<::System::UInt32>* _FinishedWorkIDs_k__BackingField; // 0x30
 		::System::UInt32 _BeforeBattleFinishedWorkVal_k__BackingField; // 0x38
-		::System::UInt32 _LeaderChimeraID_k__BackingField; // 0x3C
-		::System::Int32 _NewWorkIndex_k__BackingField; // 0x40
-		::System::UInt32 _WorkRoundID_k__BackingField; // 0x44
+		::System::UInt32 _WorkRoundID_k__BackingField; // 0x3C
+		::System::UInt32 _LeaderChimeraID_k__BackingField; // 0x40
+		::System::Int32 _NewWorkIndex_k__BackingField; // 0x44
 
-		::System::Void _ctor(::Il2CppArray<::System::UInt32>* chimeraIDs, ::System::UInt32 leaderID, ::System::UInt32 workRoundID, ::System::Int32 newWorkIndex)
+		::System::Void _ctor(::Il2CppArray<::System::UInt32>* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::System::UInt32, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA__CTOR_OFFSET))(this, chimeraIDs, leaderID, workRoundID, newWorkIndex);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::System::UInt32, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* get_ChimeraIDs()
@@ -60,9 +60,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_CHIMERAIDS_OFFSET))(this);
 		}
 
-		::System::Void set_ChimeraIDs(::System::Collections::Generic::List_1<::System::UInt32>* value)
+		::System::Void set_ChimeraIDs(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_CHIMERAIDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_CHIMERAIDS_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_LeaderChimeraID()
@@ -70,9 +70,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_LEADERCHIMERAID_OFFSET))(this);
 		}
 
-		::System::Void set_LeaderChimeraID(::System::UInt32 value)
+		::System::Void set_LeaderChimeraID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_LEADERCHIMERAID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_LEADERCHIMERAID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_WorkRoundID()
@@ -80,9 +80,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_WORKROUNDID_OFFSET))(this);
 		}
 
-		::System::Void set_WorkRoundID(::System::UInt32 value)
+		::System::Void set_WorkRoundID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_WORKROUNDID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_WORKROUNDID_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_NewWorkIndex()
@@ -90,9 +90,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_NEWWORKINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_NewWorkIndex(::System::Int32 value)
+		::System::Void set_NewWorkIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_NEWWORKINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_NEWWORKINDEX_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::UInt32>* get_AllWorkIDs()
@@ -105,9 +105,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_BEFOREBATTLEFINISHEDWORKVAL_OFFSET))(this);
 		}
 
-		::System::Void set_BeforeBattleFinishedWorkVal(::System::UInt32 value)
+		::System::Void set_BeforeBattleFinishedWorkVal(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_BEFOREBATTLEFINISHEDWORKVAL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_BEFOREBATTLEFINISHEDWORKVAL_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* get_FinishedWorkIDs()
@@ -115,9 +115,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_FINISHEDWORKIDS_OFFSET))(this);
 		}
 
-		::System::Void set_FinishedWorkIDs(::System::Collections::Generic::List_1<::System::UInt32>* value)
+		::System::Void set_FinishedWorkIDs(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_FINISHEDWORKIDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_FINISHEDWORKIDS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_C27C9F2BD1AB8E7E*>* get_ChimeraInBattleAttributeDict()
@@ -125,14 +125,14 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_C27C9F2BD1AB8E7E*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_CHIMERAINBATTLEATTRIBUTEDICT_OFFSET))(this);
 		}
 
-		::System::Void set_ChimeraInBattleAttributeDict(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_C27C9F2BD1AB8E7E*>* value)
+		::System::Void set_ChimeraInBattleAttributeDict(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_C27C9F2BD1AB8E7E*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_C27C9F2BD1AB8E7E*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_CHIMERAINBATTLEATTRIBUTEDICT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_C27C9F2BD1AB8E7E*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_CHIMERAINBATTLEATTRIBUTEDICT_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::ChimeraDoingRoundData* Create(::Il2CppArray<::System::UInt32>* chimeraIDs, ::System::UInt32 leaderID, ::System::UInt32 workRoundID, ::System::Int32 newWorkIndex)
+		static ::RPG::Client::ChimeraDoingRoundData* Create(::Il2CppArray<::System::UInt32>* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Int32 a4)
 		{
-			return ((::RPG::Client::ChimeraDoingRoundData*(*)(::Il2CppArray<::System::UInt32>*, ::System::UInt32, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_CREATE_OFFSET))(chimeraIDs, leaderID, workRoundID, newWorkIndex);
+			return ((::RPG::Client::ChimeraDoingRoundData*(*)(::Il2CppArray<::System::UInt32>*, ::System::UInt32, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_CREATE_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::System::Void Dispose()
@@ -155,9 +155,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ChimeraTeamWorkSettleData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_CHIMERATEAMWORKSETTLEDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ChimeraTeamWorkSettleData(::RPG::Client::ChimeraTeamWorkSettleData* value)
+		::System::Void set_ChimeraTeamWorkSettleData(::RPG::Client::ChimeraTeamWorkSettleData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraTeamWorkSettleData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_CHIMERATEAMWORKSETTLEDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraTeamWorkSettleData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_CHIMERATEAMWORKSETTLEDATA_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ChimeraBattleRecordData* get_Record()
@@ -165,9 +165,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ChimeraBattleRecordData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_GET_RECORD_OFFSET))(this);
 		}
 
-		::System::Void set_Record(::RPG::Client::ChimeraBattleRecordData* value)
+		::System::Void set_Record(::RPG::Client::ChimeraBattleRecordData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraBattleRecordData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_RECORD_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraBattleRecordData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADOINGROUNDDATA_SET_RECORD_OFFSET))(this, a1);
 		}
 	};
 }

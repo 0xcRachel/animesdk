@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY_CLONE_OFFSET UNITYSDK_OFFSET(0x17AF9500)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x17AED9A0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY_INCREASECAPACITY_OFFSET UNITYSDK_OFFSET(0x17AF96E0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x17AF9550)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17AF9420)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY__CTOR_2_OFFSET UNITYSDK_OFFSET(0x17AF9460)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x17AF93E0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY_CLONE_OFFSET UNITYSDK_OFFSET(0x17479CE0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1746E860)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY_INCREASECAPACITY_OFFSET UNITYSDK_OFFSET(0x17479E70)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x17479D30)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17479C00)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY__CTOR_2_OFFSET UNITYSDK_OFFSET(0x17479C40)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x17479BC0)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int SizedArray_TypeDefinitionIndex = 1186;
+	inline static constexpr unsigned int SizedArray_TypeDefinitionIndex = 1185;
 
 	class SizedArray : public ::System::Object
 	{
@@ -25,14 +25,14 @@ namespace System::Runtime::Serialization::Formatters::Binary
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Int32 length)
+		::System::Void _ctor_1(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY__CTOR_1_OFFSET))(this, length);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::Runtime::Serialization::Formatters::Binary::SizedArray* sizedArray)
+		::System::Void _ctor_2(::System::Runtime::Serialization::Formatters::Binary::SizedArray* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::Formatters::Binary::SizedArray*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY__CTOR_2_OFFSET))(this, sizedArray);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::Formatters::Binary::SizedArray*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY__CTOR_2_OFFSET))(this, a1);
 		}
 
 		::System::Object* Clone()
@@ -40,19 +40,19 @@ namespace System::Runtime::Serialization::Formatters::Binary
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY_CLONE_OFFSET))(this);
 		}
 
-		::System::Object* get_Item(::System::Int32 index)
+		::System::Object* get_Item(::System::Int32 a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY_GET_ITEM_OFFSET))(this, index);
+			return ((::System::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY_GET_ITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Item(::System::Int32 index, ::System::Object* value)
+		::System::Void set_Item(::System::Int32 a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY_SET_ITEM_OFFSET))(this, index, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY_SET_ITEM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void IncreaseCapacity(::System::Int32 index)
+		::System::Void IncreaseCapacity(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY_INCREASECAPACITY_OFFSET))(this, index);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SIZEDARRAY_INCREASECAPACITY_OFFSET))(this, a1);
 		}
 	};
 }

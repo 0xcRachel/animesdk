@@ -1,11 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/HoudiniEngineUnity/HEU_InputNodeTypeWrapper.h"
 #include "unitysdk/HoudiniEngineUnity/HEU_InputNode_InputNodeType.h"
 #include "unitysdk/HoudiniEngineUnity/HEU_InputNode_InputObjectType.h"
+#include "unitysdk/HoudiniEngineUnity/HEU_InputNode_InternalObjectType.h"
+#include "unitysdk/HoudiniEngineUnity/HEU_InputObjectTypeWrapper.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
 namespace HoudiniEngineUnity { class HEU_HoudiniAsset; }
 namespace HoudiniEngineUnity { class HEU_InputHDAInfo; }
+namespace HoudiniEngineUnity { class HEU_InputInterfaceMeshSettings; }
+namespace HoudiniEngineUnity { class HEU_InputInterfaceSplineSettings; }
 namespace HoudiniEngineUnity { class HEU_InputNodeUICache; }
 namespace HoudiniEngineUnity { class HEU_InputObjectInfo; }
 namespace HoudiniEngineUnity { class HEU_InputPreset; }
@@ -14,69 +20,94 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_ADDINPUTENTRYATENDMESH_OFFSET UNITYSDK_OFFSET(0x1543DD20)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_ADDINPUTENTRYATEND_OFFSET UNITYSDK_OFFSET(0x1543D9F0)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_AREANYINPUTHDASCONNECTED_OFFSET UNITYSDK_OFFSET(0x1543DE70)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_CHANGEINPUTTYPE_OFFSET UNITYSDK_OFFSET(0x1543D100)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_CLEARCONNECTEDINPUTHDAS_OFFSET UNITYSDK_OFFSET(0x1543E150)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_CLEARUICACHE_OFFSET UNITYSDK_OFFSET(0x1543CD80)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_CONNECTTOMERGEOBJECT_OFFSET UNITYSDK_OFFSET(0x1543E960)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_COPYINPUTVALUESTO_OFFSET UNITYSDK_OFFSET(0x154327B0)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_CREATEINPUTHDAINFO_OFFSET UNITYSDK_OFFSET(0x1543D620)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_CREATEINPUTOBJECTINFO_OFFSET UNITYSDK_OFFSET(0x1543D570)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_CREATESETUPINPUT_OFFSET UNITYSDK_OFFSET(0x154247E0)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_DESTROYALLDATA_OFFSET UNITYSDK_OFFSET(0x154217C0)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_DISCONNECTANDDESTROYINPUTS_OFFSET UNITYSDK_OFFSET(0x1543CD90)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_DISCONNECTCONNECTEDMERGENODE_OFFSET UNITYSDK_OFFSET(0x1543DF90)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_FINDADDTOINPUTHDA_OFFSET UNITYSDK_OFFSET(0x1543FA60)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GETCONNECTEDINPUTCOUNT_OFFSET UNITYSDK_OFFSET(0x1543F200)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GETCONNECTEDNODEID_OFFSET UNITYSDK_OFFSET(0x1543F240)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GETINPUTENTRYGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1543D670)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_INPUTNAME_OFFSET UNITYSDK_OFFSET(0x1543CCE0)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_INPUTNODEID_OFFSET UNITYSDK_OFFSET(0x1543CC90)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_INPUTTYPE_OFFSET UNITYSDK_OFFSET(0x1543CC50)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_KEEPWORLDTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1543CD20)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_LABELNAME_OFFSET UNITYSDK_OFFSET(0x1543CCF0)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_PACKGEOMETRYBEFOREMERGING_OFFSET UNITYSDK_OFFSET(0x1543CD40)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_PARAMNAME_OFFSET UNITYSDK_OFFSET(0x1543CD00)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_PARENTASSET_OFFSET UNITYSDK_OFFSET(0x1543CD60)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_PENDINGINPUTOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1543CC70)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_REQUIRESCOOK_OFFSET UNITYSDK_OFFSET(0x1543CCA0)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_REQUIRESUPLOAD_OFFSET UNITYSDK_OFFSET(0x1543CCC0)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_THISINPUTOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1543CC60)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_HANDLESELECTEDOBJECTSFORINPUTHDAS_OFFSET UNITYSDK_OFFSET(0x1543FF90)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_HANDLESELECTEDOBJECTSFORINPUTOBJECTS_OFFSET UNITYSDK_OFFSET(0x1543FCA0)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_HASINPUTNODETRANSFORMCHANGED_OFFSET UNITYSDK_OFFSET(0x15420860)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_INSERTINPUTENTRY_OFFSET UNITYSDK_OFFSET(0x1543D130)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_INTERNALADDINPUTHDAATEND_OFFSET UNITYSDK_OFFSET(0x1543DC90)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_INTERNALADDINPUTOBJECTATEND_OFFSET UNITYSDK_OFFSET(0x1543DB90)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_ISASSETINPUT_OFFSET UNITYSDK_OFFSET(0x1542CF20)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_LOADPRESET_OFFSET UNITYSDK_OFFSET(0x15430F20)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_NOTIFYPARENTREMOVEDINPUT_OFFSET UNITYSDK_OFFSET(0x1543FC20)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_NUMINPUTENTRIES_OFFSET UNITYSDK_OFFSET(0x1543DE30)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_POPULATEINPUTPRESET_OFFSET UNITYSDK_OFFSET(0x15430240)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_RECONNECTTOUPSTREAMASSET_OFFSET UNITYSDK_OFFSET(0x1542AA20)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_REMOVEALLINPUTENTRIES_OFFSET UNITYSDK_OFFSET(0x1543CFE0)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_RESETCONNECTIONFORFORCEUPDATE_OFFSET UNITYSDK_OFFSET(0x15424960)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_RESETINPUTNODE_OFFSET UNITYSDK_OFFSET(0x15430110)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_RESETINPUTOBJECTTRANSFORMS_OFFSET UNITYSDK_OFFSET(0x1543D050)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_SETINPUTNODEID_OFFSET UNITYSDK_OFFSET(0x1543CD70)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_KEEPWORLDTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1543CD30)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_PACKGEOMETRYBEFOREMERGING_OFFSET UNITYSDK_OFFSET(0x1543CD50)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_PARAMNAME_OFFSET UNITYSDK_OFFSET(0x1543CD10)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_PENDINGINPUTOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1543CC80)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_REQUIRESCOOK_OFFSET UNITYSDK_OFFSET(0x1543CCB0)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_REQUIRESUPLOAD_OFFSET UNITYSDK_OFFSET(0x1543CCD0)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_UPDATEONASSETRECREATION_OFFSET UNITYSDK_OFFSET(0x1542A770)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_UPLOADINPUTOBJECTTRANSFORMS_OFFSET UNITYSDK_OFFSET(0x1543F2E0)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_UPLOADINPUT_OFFSET UNITYSDK_OFFSET(0x154249A0)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_UPLOADOBJECTMERGEPACKGEOMETRY_OFFSET UNITYSDK_OFFSET(0x1543EBE0)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE_UPLOADOBJECTMERGETRANSFORMTYPE_OFFSET UNITYSDK_OFFSET(0x1543EA80)
-#define HOUDINIENGINEUNITY_HEU_INPUTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x15440210)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_ADDINPUTENTRYATENDHDA_OFFSET UNITYSDK_OFFSET(0x1051E490)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_ADDINPUTENTRYATENDMESH_OFFSET UNITYSDK_OFFSET(0x1051E3D0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_ADDINPUTENTRYATEND_OFFSET UNITYSDK_OFFSET(0x1051CA20)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_AREANYINPUTHDASCONNECTED_OFFSET UNITYSDK_OFFSET(0x1051DDD0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_CHANGEINPUTTYPE_1_OFFSET UNITYSDK_OFFSET(0x1051CF60)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_CHANGEINPUTTYPE_OFFSET UNITYSDK_OFFSET(0x1051CEA0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_CLEARCONNECTEDINPUTHDAS_OFFSET UNITYSDK_OFFSET(0x1051E7D0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_CLEARUICACHE_OFFSET UNITYSDK_OFFSET(0x1051E0B0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_CONNECTTOMERGEOBJECT_OFFSET UNITYSDK_OFFSET(0x1051F9E0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_COPYINPUTVALUESTO_OFFSET UNITYSDK_OFFSET(0x10509D90)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_CREATEINPUTHDAINFO_OFFSET UNITYSDK_OFFSET(0x1051C3E0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_CREATEINPUTOBJECTINFO_OFFSET UNITYSDK_OFFSET(0x1051C2C0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_CREATESETUPINPUT_OFFSET UNITYSDK_OFFSET(0x104FEA00)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_DESTROYALLDATA_OFFSET UNITYSDK_OFFSET(0x104FB440)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_DISCONNECTANDDESTROYINPUTS_OFFSET UNITYSDK_OFFSET(0x1051E0C0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_DISCONNECTCONNECTEDMERGENODE_OFFSET UNITYSDK_OFFSET(0x1051E4B0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_FINDADDTOINPUTHDA_OFFSET UNITYSDK_OFFSET(0x105214B0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GETCONNECTEDINPUTCOUNT_OFFSET UNITYSDK_OFFSET(0x1051DED0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GETCONNECTEDNODEID_OFFSET UNITYSDK_OFFSET(0x1051DF20)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GETINPUTENTRYGAMEOBJECTS_OFFSET UNITYSDK_OFFSET(0x1051BAC0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GETINPUTENTRYGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1051B4F0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GETINTERNALOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1051B4D0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GETSESSION_OFFSET UNITYSDK_OFFSET(0x1051B400)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_INPUTASSETINFOS_OFFSET UNITYSDK_OFFSET(0x1051B3B0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_INPUTNAME_OFFSET UNITYSDK_OFFSET(0x1051B340)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_INPUTNODEID_OFFSET UNITYSDK_OFFSET(0x1051B330)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_INPUTOBJECTS_OFFSET UNITYSDK_OFFSET(0x1051B3A0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_INPUTTYPE_OFFSET UNITYSDK_OFFSET(0x1051B390)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_KEEPWORLDTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1051B220)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_LABELNAME_OFFSET UNITYSDK_OFFSET(0x1051B350)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_MESHSETTINGS_OFFSET UNITYSDK_OFFSET(0x1051B370)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1051B260)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_OBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1051B290)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_PACKGEOMETRYBEFOREMERGING_OFFSET UNITYSDK_OFFSET(0x1051B240)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_PARAMNAME_OFFSET UNITYSDK_OFFSET(0x1051B360)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_PARENTASSET_OFFSET UNITYSDK_OFFSET(0x1051B210)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_PENDINGOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1051B2D0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_REQUIRESCOOK_OFFSET UNITYSDK_OFFSET(0x1051B3C0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_REQUIRESUPLOAD_OFFSET UNITYSDK_OFFSET(0x1051B3E0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_SPLINESETTINGS_OFFSET UNITYSDK_OFFSET(0x1051B380)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_HANDLESELECTEDOBJECTSFORINPUTHDAS_OFFSET UNITYSDK_OFFSET(0x10521A10)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_HANDLESELECTEDOBJECTSFORINPUTOBJECTS_OFFSET UNITYSDK_OFFSET(0x10521760)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_HASINPUTNODETRANSFORMCHANGED_OFFSET UNITYSDK_OFFSET(0x104FACF0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_INPUTNODETYPE_INTERNALTOWRAPPER_1_OFFSET UNITYSDK_OFFSET(0x10521FF0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_INPUTNODETYPE_INTERNALTOWRAPPER_OFFSET UNITYSDK_OFFSET(0x1051B280)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_INPUTOBJECTTYPE_INTERNALTOWRAPPER_OFFSET UNITYSDK_OFFSET(0x1051B2B0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_INPUTOBJECTTYPE_WRAPPERTOINTERNAL_OFFSET UNITYSDK_OFFSET(0x1051B310)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_INSERTINPUTENTRY_OFFSET UNITYSDK_OFFSET(0x1051C430)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_INTERNALADDINPUTHDAATEND_OFFSET UNITYSDK_OFFSET(0x1051CD20)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_INTERNALADDINPUTOBJECTATEND_OFFSET UNITYSDK_OFFSET(0x1051CC70)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_ISASSETINPUT_OFFSET UNITYSDK_OFFSET(0x104EC2A0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x10521B90)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_LOADPRESET_1_OFFSET UNITYSDK_OFFSET(0x10507190)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_LOADPRESET_OFFSET UNITYSDK_OFFSET(0x1051DFD0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_NOTIFYPARENTREMOVEDINPUT_OFFSET UNITYSDK_OFFSET(0x105216E0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_NUMINPUTENTRIES_OFFSET UNITYSDK_OFFSET(0x1051B480)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_POPULATEINPUTPRESET_OFFSET UNITYSDK_OFFSET(0x104EE220)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_RECONNECTTOUPSTREAMASSET_OFFSET UNITYSDK_OFFSET(0x10502F50)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_RECOOK_OFFSET UNITYSDK_OFFSET(0x1051B470)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_REMOVEALLINPUTENTRIES_OFFSET UNITYSDK_OFFSET(0x1051D5A0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_REMOVEINPUTENTRY_OFFSET UNITYSDK_OFFSET(0x1051CF90)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_RESETCONNECTIONFORFORCEUPDATE_OFFSET UNITYSDK_OFFSET(0x104FEC50)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_RESETINPUTNODE_1_OFFSET UNITYSDK_OFFSET(0x104ED1C0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_RESETINPUTNODE_OFFSET UNITYSDK_OFFSET(0x1051CE10)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_RESETINPUTOBJECTTRANSFORMS_OFFSET UNITYSDK_OFFSET(0x1051E2B0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_SETINPUTENTRYOBJECTTRANSFORMROTATEOFFSET_OFFSET UNITYSDK_OFFSET(0x1051D9F0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_SETINPUTENTRYOBJECTTRANSFORMSCALEOFFSET_OFFSET UNITYSDK_OFFSET(0x1051DBE0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_SETINPUTENTRYOBJECTTRANSFORMTRANSLATEOFFSET_OFFSET UNITYSDK_OFFSET(0x1051D810)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_SETINPUTENTRYOBJECTUSETRANSFORMOFFSET_OFFSET UNITYSDK_OFFSET(0x1051D630)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_SETINPUTENTRY_OFFSET UNITYSDK_OFFSET(0x1051BCA0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_SETINPUTNODEID_OFFSET UNITYSDK_OFFSET(0x1051E0A0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_KEEPWORLDTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1051B230)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_PACKGEOMETRYBEFOREMERGING_OFFSET UNITYSDK_OFFSET(0x1051B250)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_PENDINGOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1051B2F0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_REQUIRESCOOK_OFFSET UNITYSDK_OFFSET(0x1051B3D0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_REQUIRESUPLOAD_OFFSET UNITYSDK_OFFSET(0x1051B3F0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_UPDATEONASSETRECREATION_OFFSET UNITYSDK_OFFSET(0x10502D40)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_UPLOADHDAINPUT_OFFSET UNITYSDK_OFFSET(0x1051EA70)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_UPLOADINPUTOBJECTTRANSFORMS_OFFSET UNITYSDK_OFFSET(0x10520CA0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_UPLOADINPUT_OFFSET UNITYSDK_OFFSET(0x104FEC90)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_UPLOADOBJECTMERGEPACKGEOMETRY_OFFSET UNITYSDK_OFFSET(0x1051FEA0)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_UPLOADOBJECTMERGETRANSFORMTYPE_OFFSET UNITYSDK_OFFSET(0x1051FD40)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE_UPLOADUNITYINPUT_OFFSET UNITYSDK_OFFSET(0x1051ED10)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x10522000)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_InputNode_TypeDefinitionIndex = 43505;
+	inline static constexpr unsigned int HEU_InputNode_TypeDefinitionIndex = 37438;
 
 	class HEU_InputNode : public ::UnityEngine::ScriptableObject
 	{
@@ -100,56 +131,64 @@ namespace HoudiniEngineUnity
 		::System::Boolean _keepWorldTransform; // 0x7C
 		::System::Boolean _packGeometryBeforeMerging; // 0x7D
 		::HoudiniEngineUnity::HEU_HoudiniAsset* _parentAsset; // 0x80
-		::HoudiniEngineUnity::HEU_InputNodeUICache* _uiCache; // 0x88
+		::HoudiniEngineUnity::HEU_InputInterfaceMeshSettings* _meshSettings; // 0x88
+		::HoudiniEngineUnity::HEU_InputInterfaceSplineSettings* _splineSettings; // 0x90
+		::System::Boolean _usingSelectFromHierarchy; // 0x98
+		::HoudiniEngineUnity::HEU_InputNodeUICache* _uiCache; // 0xA0
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE__CTOR_OFFSET))(this);
 		}
 
-		::HoudiniEngineUnity::HEU_InputNode_InputNodeType get_InputType()
+		::HoudiniEngineUnity::HEU_HoudiniAsset* get_ParentAsset()
 		{
-			return ((::HoudiniEngineUnity::HEU_InputNode_InputNodeType(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_INPUTTYPE_OFFSET))(this);
+			return ((::HoudiniEngineUnity::HEU_HoudiniAsset*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_PARENTASSET_OFFSET))(this);
 		}
 
-		::HoudiniEngineUnity::HEU_InputNode_InputObjectType get_ThisInputObjectType()
+		::System::Boolean get_KeepWorldTransform()
 		{
-			return ((::HoudiniEngineUnity::HEU_InputNode_InputObjectType(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_THISINPUTOBJECTTYPE_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_KEEPWORLDTRANSFORM_OFFSET))(this);
 		}
 
-		::HoudiniEngineUnity::HEU_InputNode_InputObjectType get_PendingInputObjectType()
+		::System::Void set_KeepWorldTransform(::System::Boolean a1)
 		{
-			return ((::HoudiniEngineUnity::HEU_InputNode_InputObjectType(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_PENDINGINPUTOBJECTTYPE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_KEEPWORLDTRANSFORM_OFFSET))(this, a1);
 		}
 
-		::System::Void set_PendingInputObjectType(::HoudiniEngineUnity::HEU_InputNode_InputObjectType value)
+		::System::Boolean get_PackGeometryBeforeMerging()
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_InputNode_InputObjectType))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_PENDINGINPUTOBJECTTYPE_OFFSET))(this, value);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_PACKGEOMETRYBEFOREMERGING_OFFSET))(this);
+		}
+
+		::System::Void set_PackGeometryBeforeMerging(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_PACKGEOMETRYBEFOREMERGING_OFFSET))(this, a1);
+		}
+
+		::HoudiniEngineUnity::HEU_InputNodeTypeWrapper get_NodeType()
+		{
+			return ((::HoudiniEngineUnity::HEU_InputNodeTypeWrapper(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_NODETYPE_OFFSET))(this);
+		}
+
+		::HoudiniEngineUnity::HEU_InputObjectTypeWrapper get_ObjectType()
+		{
+			return ((::HoudiniEngineUnity::HEU_InputObjectTypeWrapper(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_OBJECTTYPE_OFFSET))(this);
+		}
+
+		::HoudiniEngineUnity::HEU_InputObjectTypeWrapper get_PendingObjectType()
+		{
+			return ((::HoudiniEngineUnity::HEU_InputObjectTypeWrapper(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_PENDINGOBJECTTYPE_OFFSET))(this);
+		}
+
+		::System::Void set_PendingObjectType(::HoudiniEngineUnity::HEU_InputObjectTypeWrapper a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_InputObjectTypeWrapper))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_PENDINGOBJECTTYPE_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_InputNodeID()
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_INPUTNODEID_OFFSET))(this);
-		}
-
-		::System::Boolean get_RequiresCook()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_REQUIRESCOOK_OFFSET))(this);
-		}
-
-		::System::Void set_RequiresCook(::System::Boolean value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_REQUIRESCOOK_OFFSET))(this, value);
-		}
-
-		::System::Boolean get_RequiresUpload()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_REQUIRESUPLOAD_OFFSET))(this);
-		}
-
-		::System::Void set_RequiresUpload(::System::Boolean value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_REQUIRESUPLOAD_OFFSET))(this, value);
 		}
 
 		::System::String* get_InputName()
@@ -167,34 +206,59 @@ namespace HoudiniEngineUnity
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_PARAMNAME_OFFSET))(this);
 		}
 
-		::System::Void set_ParamName(::System::String* value)
+		::HoudiniEngineUnity::HEU_InputInterfaceMeshSettings* get_MeshSettings()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_PARAMNAME_OFFSET))(this, value);
+			return ((::HoudiniEngineUnity::HEU_InputInterfaceMeshSettings*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_MESHSETTINGS_OFFSET))(this);
 		}
 
-		::System::Boolean get_KeepWorldTransform()
+		::HoudiniEngineUnity::HEU_InputInterfaceSplineSettings* get_SplineSettings()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_KEEPWORLDTRANSFORM_OFFSET))(this);
+			return ((::HoudiniEngineUnity::HEU_InputInterfaceSplineSettings*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_SPLINESETTINGS_OFFSET))(this);
 		}
 
-		::System::Void set_KeepWorldTransform(::System::Boolean value)
+		::HoudiniEngineUnity::HEU_InputNode_InputNodeType get_InputType()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_KEEPWORLDTRANSFORM_OFFSET))(this, value);
+			return ((::HoudiniEngineUnity::HEU_InputNode_InputNodeType(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_INPUTTYPE_OFFSET))(this);
 		}
 
-		::System::Boolean get_PackGeometryBeforeMerging()
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>* get_InputObjects()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_PACKGEOMETRYBEFOREMERGING_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_INPUTOBJECTS_OFFSET))(this);
 		}
 
-		::System::Void set_PackGeometryBeforeMerging(::System::Boolean value)
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>* get_InputAssetInfos()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_PACKGEOMETRYBEFOREMERGING_OFFSET))(this, value);
+			return ((::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_INPUTASSETINFOS_OFFSET))(this);
 		}
 
-		::HoudiniEngineUnity::HEU_HoudiniAsset* get_ParentAsset()
+		::System::Boolean get_RequiresCook()
 		{
-			return ((::HoudiniEngineUnity::HEU_HoudiniAsset*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_PARENTASSET_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_REQUIRESCOOK_OFFSET))(this);
+		}
+
+		::System::Void set_RequiresCook(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_REQUIRESCOOK_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_RequiresUpload()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GET_REQUIRESUPLOAD_OFFSET))(this);
+		}
+
+		::System::Void set_RequiresUpload(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_SET_REQUIRESUPLOAD_OFFSET))(this, a1);
+		}
+
+		::HoudiniEngineUnity::HEU_SessionBase* GetSession()
+		{
+			return ((::HoudiniEngineUnity::HEU_SessionBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GETSESSION_OFFSET))(this);
+		}
+
+		::System::Void Recook()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_RECOOK_OFFSET))(this);
 		}
 
 		::System::Boolean IsAssetInput()
@@ -202,74 +266,74 @@ namespace HoudiniEngineUnity
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_ISASSETINPUT_OFFSET))(this);
 		}
 
-		static ::HoudiniEngineUnity::HEU_InputNode* CreateSetupInput(::System::Int32 nodeID, ::System::Int32 inputIndex, ::System::String* inputName, ::System::String* labelName, ::HoudiniEngineUnity::HEU_InputNode_InputNodeType inputNodeType, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset)
-		{
-			return ((::HoudiniEngineUnity::HEU_InputNode*(*)(::System::Int32, ::System::Int32, ::System::String*, ::System::String*, ::HoudiniEngineUnity::HEU_InputNode_InputNodeType, ::HoudiniEngineUnity::HEU_HoudiniAsset*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_CREATESETUPINPUT_OFFSET))(nodeID, inputIndex, inputName, labelName, inputNodeType, parentAsset);
-		}
-
-		::System::Void SetInputNodeID(::System::Int32 nodeID)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_SETINPUTNODEID_OFFSET))(this, nodeID);
-		}
-
-		::System::Void DestroyAllData(::HoudiniEngineUnity::HEU_SessionBase* session)
-		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_DESTROYALLDATA_OFFSET))(this, session);
-		}
-
-		::System::Void ResetInputObjectTransforms()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_RESETINPUTOBJECTTRANSFORMS_OFFSET))(this);
-		}
-
-		::System::Void ResetInputNode(::HoudiniEngineUnity::HEU_SessionBase* session)
-		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_RESETINPUTNODE_OFFSET))(this, session);
-		}
-
-		::System::Void InsertInputEntry(::System::Int32 index, ::UnityEngine::GameObject* newInputGameObject)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_INSERTINPUTENTRY_OFFSET))(this, index, newInputGameObject);
-		}
-
-		::UnityEngine::GameObject* GetInputEntryGameObject(::System::Int32 index)
-		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GETINPUTENTRYGAMEOBJECT_OFFSET))(this, index);
-		}
-
-		::System::Void AddInputEntryAtEnd(::UnityEngine::GameObject* newEntryGameObject)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_ADDINPUTENTRYATEND_OFFSET))(this, newEntryGameObject);
-		}
-
-		::HoudiniEngineUnity::HEU_InputObjectInfo* AddInputEntryAtEndMesh(::UnityEngine::GameObject* newEntryGameObject)
-		{
-			return ((::HoudiniEngineUnity::HEU_InputObjectInfo*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_ADDINPUTENTRYATENDMESH_OFFSET))(this, newEntryGameObject);
-		}
-
-		::System::Void RemoveAllInputEntries()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_REMOVEALLINPUTENTRIES_OFFSET))(this);
-		}
-
 		::System::Int32 NumInputEntries()
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_NUMINPUTENTRIES_OFFSET))(this);
 		}
 
-		::System::Void ChangeInputType(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_InputNode_InputObjectType newType)
+		::UnityEngine::GameObject* GetInputEntryGameObject(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_InputNode_InputObjectType))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_CHANGEINPUTTYPE_OFFSET))(this, session, newType);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GETINPUTENTRYGAMEOBJECT_OFFSET))(this, a1);
 		}
 
-		::System::Void ResetConnectionForForceUpdate(::HoudiniEngineUnity::HEU_SessionBase* session)
+		::Il2CppArray<::UnityEngine::GameObject*>* GetInputEntryGameObjects()
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_RESETCONNECTIONFORFORCEUPDATE_OFFSET))(this, session);
+			return ((::Il2CppArray<::UnityEngine::GameObject*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GETINPUTENTRYGAMEOBJECTS_OFFSET))(this);
 		}
 
-		::System::Void UploadInput(::HoudiniEngineUnity::HEU_SessionBase* session)
+		::System::Void SetInputEntry(::System::Int32 a1, ::UnityEngine::GameObject* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_UPLOADINPUT_OFFSET))(this, session);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_SETINPUTENTRY_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void InsertInputEntry(::System::Int32 a1, ::UnityEngine::GameObject* a2, ::System::Boolean a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_INSERTINPUTENTRY_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void AddInputEntryAtEnd(::UnityEngine::GameObject* a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_ADDINPUTENTRYATEND_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void ResetInputNode(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_RESETINPUTNODE_OFFSET))(this, a1);
+		}
+
+		::System::Void ChangeInputType(::HoudiniEngineUnity::HEU_InputObjectTypeWrapper a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_InputObjectTypeWrapper, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_CHANGEINPUTTYPE_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void RemoveInputEntry(::System::Int32 a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_REMOVEINPUTENTRY_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void RemoveAllInputEntries(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_REMOVEALLINPUTENTRIES_OFFSET))(this, a1);
+		}
+
+		::System::Void SetInputEntryObjectUseTransformOffset(::System::Int32 a1, ::System::Boolean a2, ::System::Boolean a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_SETINPUTENTRYOBJECTUSETRANSFORMOFFSET_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void SetInputEntryObjectTransformTranslateOffset(::System::Int32 a1, ::UnityEngine::Vector3 a2, ::System::Boolean a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_SETINPUTENTRYOBJECTTRANSFORMTRANSLATEOFFSET_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void SetInputEntryObjectTransformRotateOffset(::System::Int32 a1, ::UnityEngine::Vector3 a2, ::System::Boolean a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_SETINPUTENTRYOBJECTTRANSFORMROTATEOFFSET_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void SetInputEntryObjectTransformScaleOffset(::System::Int32 a1, ::UnityEngine::Vector3 a2, ::System::Boolean a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_SETINPUTENTRYOBJECTTRANSFORMSCALEOFFSET_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean AreAnyInputHDAsConnected()
@@ -277,34 +341,114 @@ namespace HoudiniEngineUnity
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_AREANYINPUTHDASCONNECTED_OFFSET))(this);
 		}
 
+		::System::Int32 GetConnectedInputCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GETCONNECTEDINPUTCOUNT_OFFSET))(this);
+		}
+
+		::System::Int32 GetConnectedNodeID(::System::Int32 a1)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GETCONNECTEDNODEID_OFFSET))(this, a1);
+		}
+
+		::System::Void LoadPreset(::HoudiniEngineUnity::HEU_InputPreset* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_InputPreset*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_LOADPRESET_OFFSET))(this, a1);
+		}
+
+		::System::Void PopulateInputPreset(::HoudiniEngineUnity::HEU_InputPreset* a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_InputPreset*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_POPULATEINPUTPRESET_OFFSET))(this, a1, a2);
+		}
+
+		static ::HoudiniEngineUnity::HEU_InputNode* CreateSetupInput(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3, ::System::String* a4, ::HoudiniEngineUnity::HEU_InputNode_InputNodeType a5, ::HoudiniEngineUnity::HEU_HoudiniAsset* a6)
+		{
+			return ((::HoudiniEngineUnity::HEU_InputNode*(*)(::System::Int32, ::System::Int32, ::System::String*, ::System::String*, ::HoudiniEngineUnity::HEU_InputNode_InputNodeType, ::HoudiniEngineUnity::HEU_HoudiniAsset*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_CREATESETUPINPUT_OFFSET))(a1, a2, a3, a4, a5, a6);
+		}
+
+		::System::Void SetInputNodeID(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_SETINPUTNODEID_OFFSET))(this, a1);
+		}
+
+		::System::Void DestroyAllData(::HoudiniEngineUnity::HEU_SessionBase* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_DESTROYALLDATA_OFFSET))(this, a1);
+		}
+
+		::System::Void ResetInputObjectTransforms()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_RESETINPUTOBJECTTRANSFORMS_OFFSET))(this);
+		}
+
+		::System::Void ResetInputNode_1(::HoudiniEngineUnity::HEU_SessionBase* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_RESETINPUTNODE_1_OFFSET))(this, a1);
+		}
+
+		::HoudiniEngineUnity::HEU_InputObjectInfo* AddInputEntryAtEndMesh(::UnityEngine::GameObject* a1)
+		{
+			return ((::HoudiniEngineUnity::HEU_InputObjectInfo*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_ADDINPUTENTRYATENDMESH_OFFSET))(this, a1);
+		}
+
+		::HoudiniEngineUnity::HEU_InputHDAInfo* AddInputEntryAtEndHDA(::UnityEngine::GameObject* a1)
+		{
+			return ((::HoudiniEngineUnity::HEU_InputHDAInfo*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_ADDINPUTENTRYATENDHDA_OFFSET))(this, a1);
+		}
+
+		::System::Void ChangeInputType_1(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_InputNode_InputObjectType a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_InputNode_InputObjectType))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_CHANGEINPUTTYPE_1_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void ResetConnectionForForceUpdate(::HoudiniEngineUnity::HEU_SessionBase* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_RESETCONNECTIONFORFORCEUPDATE_OFFSET))(this, a1);
+		}
+
+		::System::Void UploadInput(::HoudiniEngineUnity::HEU_SessionBase* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_UPLOADINPUT_OFFSET))(this, a1);
+		}
+
+		::System::Void UploadHDAInput(::HoudiniEngineUnity::HEU_SessionBase* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_UPLOADHDAINPUT_OFFSET))(this, a1);
+		}
+
+		::System::Void UploadUnityInput(::HoudiniEngineUnity::HEU_SessionBase* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_UPLOADUNITYINPUT_OFFSET))(this, a1);
+		}
+
 		::System::Void ReconnectToUpstreamAsset()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_RECONNECTTOUPSTREAMASSET_OFFSET))(this);
 		}
 
-		::HoudiniEngineUnity::HEU_InputObjectInfo* CreateInputObjectInfo(::UnityEngine::GameObject* inputGameObject)
+		::HoudiniEngineUnity::HEU_InputObjectInfo* CreateInputObjectInfo(::UnityEngine::GameObject* a1)
 		{
-			return ((::HoudiniEngineUnity::HEU_InputObjectInfo*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_CREATEINPUTOBJECTINFO_OFFSET))(this, inputGameObject);
+			return ((::HoudiniEngineUnity::HEU_InputObjectInfo*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_CREATEINPUTOBJECTINFO_OFFSET))(this, a1);
 		}
 
-		::HoudiniEngineUnity::HEU_InputHDAInfo* CreateInputHDAInfo(::UnityEngine::GameObject* inputGameObject)
+		::HoudiniEngineUnity::HEU_InputHDAInfo* CreateInputHDAInfo(::UnityEngine::GameObject* a1)
 		{
-			return ((::HoudiniEngineUnity::HEU_InputHDAInfo*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_CREATEINPUTHDAINFO_OFFSET))(this, inputGameObject);
+			return ((::HoudiniEngineUnity::HEU_InputHDAInfo*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_CREATEINPUTHDAINFO_OFFSET))(this, a1);
 		}
 
-		::HoudiniEngineUnity::HEU_InputObjectInfo* InternalAddInputObjectAtEnd(::UnityEngine::GameObject* newInputGameObject)
+		::HoudiniEngineUnity::HEU_InputObjectInfo* InternalAddInputObjectAtEnd(::UnityEngine::GameObject* a1)
 		{
-			return ((::HoudiniEngineUnity::HEU_InputObjectInfo*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_INTERNALADDINPUTOBJECTATEND_OFFSET))(this, newInputGameObject);
+			return ((::HoudiniEngineUnity::HEU_InputObjectInfo*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_INTERNALADDINPUTOBJECTATEND_OFFSET))(this, a1);
 		}
 
-		::HoudiniEngineUnity::HEU_InputHDAInfo* InternalAddInputHDAAtEnd(::UnityEngine::GameObject* newInputHDA)
+		::HoudiniEngineUnity::HEU_InputHDAInfo* InternalAddInputHDAAtEnd(::UnityEngine::GameObject* a1)
 		{
-			return ((::HoudiniEngineUnity::HEU_InputHDAInfo*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_INTERNALADDINPUTHDAATEND_OFFSET))(this, newInputHDA);
+			return ((::HoudiniEngineUnity::HEU_InputHDAInfo*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_INTERNALADDINPUTHDAATEND_OFFSET))(this, a1);
 		}
 
-		::System::Void DisconnectConnectedMergeNode(::HoudiniEngineUnity::HEU_SessionBase* session)
+		::System::Void DisconnectConnectedMergeNode(::HoudiniEngineUnity::HEU_SessionBase* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_DISCONNECTCONNECTEDMERGENODE_OFFSET))(this, session);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_DISCONNECTCONNECTEDMERGENODE_OFFSET))(this, a1);
 		}
 
 		::System::Void ClearConnectedInputHDAs()
@@ -312,34 +456,24 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_CLEARCONNECTEDINPUTHDAS_OFFSET))(this);
 		}
 
-		::System::Void ConnectToMergeObject(::HoudiniEngineUnity::HEU_SessionBase* session)
+		::System::Void ConnectToMergeObject(::HoudiniEngineUnity::HEU_SessionBase* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_CONNECTTOMERGEOBJECT_OFFSET))(this, session);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_CONNECTTOMERGEOBJECT_OFFSET))(this, a1);
 		}
 
-		::System::Void DisconnectAndDestroyInputs(::HoudiniEngineUnity::HEU_SessionBase* session)
+		::System::Void DisconnectAndDestroyInputs(::HoudiniEngineUnity::HEU_SessionBase* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_DISCONNECTANDDESTROYINPUTS_OFFSET))(this, session);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_DISCONNECTANDDESTROYINPUTS_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetConnectedInputCount()
+		::System::Boolean UploadObjectMergeTransformType(::HoudiniEngineUnity::HEU_SessionBase* a1)
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GETCONNECTEDINPUTCOUNT_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_UPLOADOBJECTMERGETRANSFORMTYPE_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetConnectedNodeID(::System::Int32 index)
+		::System::Boolean UploadObjectMergePackGeometry(::HoudiniEngineUnity::HEU_SessionBase* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GETCONNECTEDNODEID_OFFSET))(this, index);
-		}
-
-		::System::Boolean UploadObjectMergeTransformType(::HoudiniEngineUnity::HEU_SessionBase* session)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_UPLOADOBJECTMERGETRANSFORMTYPE_OFFSET))(this, session);
-		}
-
-		::System::Boolean UploadObjectMergePackGeometry(::HoudiniEngineUnity::HEU_SessionBase* session)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_UPLOADOBJECTMERGEPACKGEOMETRY_OFFSET))(this, session);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_UPLOADOBJECTMERGEPACKGEOMETRY_OFFSET))(this, a1);
 		}
 
 		::System::Boolean HasInputNodeTransformChanged()
@@ -347,34 +481,29 @@ namespace HoudiniEngineUnity
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_HASINPUTNODETRANSFORMCHANGED_OFFSET))(this);
 		}
 
-		::System::Void UploadInputObjectTransforms(::HoudiniEngineUnity::HEU_SessionBase* session)
+		::System::Void UploadInputObjectTransforms(::HoudiniEngineUnity::HEU_SessionBase* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_UPLOADINPUTOBJECTTRANSFORMS_OFFSET))(this, session);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_UPLOADINPUTOBJECTTRANSFORMS_OFFSET))(this, a1);
 		}
 
-		::System::Void UpdateOnAssetRecreation(::HoudiniEngineUnity::HEU_SessionBase* session)
+		::System::Void UpdateOnAssetRecreation(::HoudiniEngineUnity::HEU_SessionBase* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_UPDATEONASSETRECREATION_OFFSET))(this, session);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_UPDATEONASSETRECREATION_OFFSET))(this, a1);
 		}
 
-		::System::Void CopyInputValuesTo(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_InputNode* destInputNode)
+		::System::Void CopyInputValuesTo(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_InputNode* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_InputNode*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_COPYINPUTVALUESTO_OFFSET))(this, session, destInputNode);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_InputNode*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_COPYINPUTVALUESTO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void PopulateInputPreset(::HoudiniEngineUnity::HEU_InputPreset* inputPreset)
+		::System::Void LoadPreset_1(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_InputPreset* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_InputPreset*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_POPULATEINPUTPRESET_OFFSET))(this, inputPreset);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_InputPreset*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_LOADPRESET_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void LoadPreset(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_InputPreset* inputPreset)
+		::System::Boolean FindAddToInputHDA(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_InputPreset*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_LOADPRESET_OFFSET))(this, session, inputPreset);
-		}
-
-		::System::Boolean FindAddToInputHDA(::System::String* gameObjectName)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_FINDADDTOINPUTHDA_OFFSET))(this, gameObjectName);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_FINDADDTOINPUTHDA_OFFSET))(this, a1);
 		}
 
 		::System::Void NotifyParentRemovedInput()
@@ -387,14 +516,44 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_CLEARUICACHE_OFFSET))(this);
 		}
 
-		::System::Void HandleSelectedObjectsForInputObjects(::Il2CppArray<::UnityEngine::GameObject*>* selectedObjects)
+		::System::Void HandleSelectedObjectsForInputObjects(::Il2CppArray<::UnityEngine::GameObject*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_HANDLESELECTEDOBJECTSFORINPUTOBJECTS_OFFSET))(this, selectedObjects);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_HANDLESELECTEDOBJECTSFORINPUTOBJECTS_OFFSET))(this, a1);
 		}
 
-		::System::Void HandleSelectedObjectsForInputHDAs(::Il2CppArray<::UnityEngine::GameObject*>* selectedObjects)
+		::System::Void HandleSelectedObjectsForInputHDAs(::Il2CppArray<::UnityEngine::GameObject*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_HANDLESELECTEDOBJECTSFORINPUTHDAS_OFFSET))(this, selectedObjects);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_HANDLESELECTEDOBJECTSFORINPUTHDAS_OFFSET))(this, a1);
+		}
+
+		::System::Boolean IsEquivalentTo(::HoudiniEngineUnity::HEU_InputNode* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_InputNode*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_ISEQUIVALENTTO_OFFSET))(this, a1);
+		}
+
+		static ::HoudiniEngineUnity::HEU_InputNode_InternalObjectType GetInternalObjectType(::HoudiniEngineUnity::HEU_InputNode_InputObjectType a1)
+		{
+			return ((::HoudiniEngineUnity::HEU_InputNode_InternalObjectType(*)(::HoudiniEngineUnity::HEU_InputNode_InputObjectType))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_GETINTERNALOBJECTTYPE_OFFSET))(a1);
+		}
+
+		static ::HoudiniEngineUnity::HEU_InputNodeTypeWrapper InputNodeType_InternalToWrapper(::HoudiniEngineUnity::HEU_InputNode_InputNodeType a1)
+		{
+			return ((::HoudiniEngineUnity::HEU_InputNodeTypeWrapper(*)(::HoudiniEngineUnity::HEU_InputNode_InputNodeType))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_INPUTNODETYPE_INTERNALTOWRAPPER_OFFSET))(a1);
+		}
+
+		static ::HoudiniEngineUnity::HEU_InputNode_InputNodeType InputNodeType_InternalToWrapper_1(::HoudiniEngineUnity::HEU_InputNodeTypeWrapper a1)
+		{
+			return ((::HoudiniEngineUnity::HEU_InputNode_InputNodeType(*)(::HoudiniEngineUnity::HEU_InputNodeTypeWrapper))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_INPUTNODETYPE_INTERNALTOWRAPPER_1_OFFSET))(a1);
+		}
+
+		static ::HoudiniEngineUnity::HEU_InputObjectTypeWrapper InputObjectType_InternalToWrapper(::HoudiniEngineUnity::HEU_InputNode_InputObjectType a1)
+		{
+			return ((::HoudiniEngineUnity::HEU_InputObjectTypeWrapper(*)(::HoudiniEngineUnity::HEU_InputNode_InputObjectType))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_INPUTOBJECTTYPE_INTERNALTOWRAPPER_OFFSET))(a1);
+		}
+
+		static ::HoudiniEngineUnity::HEU_InputNode_InputObjectType InputObjectType_WrapperToInternal(::HoudiniEngineUnity::HEU_InputObjectTypeWrapper a1)
+		{
+			return ((::HoudiniEngineUnity::HEU_InputNode_InputObjectType(*)(::HoudiniEngineUnity::HEU_InputObjectTypeWrapper))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTNODE_INPUTOBJECTTYPE_WRAPPERTOINTERNAL_OFFSET))(a1);
 		}
 	};
 }

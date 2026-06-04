@@ -6,17 +6,17 @@ namespace Epic::OnlineServices { class ProductUserId; }
 namespace Epic::OnlineServices::RTCAudio { class AudioBuffer; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS_GET_BUFFER_OFFSET UNITYSDK_OFFSET(0x1966EC50)
-#define EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1966EC10)
-#define EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS_GET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x1966EC30)
-#define EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS_SET_BUFFER_OFFSET UNITYSDK_OFFSET(0x1966EC60)
-#define EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1966EC20)
-#define EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x1966EC40)
-#define EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1966EC70)
+#define EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS_GET_BUFFER_OFFSET UNITYSDK_OFFSET(0x1A42C870)
+#define EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A42C830)
+#define EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS_GET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x1A42C850)
+#define EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS_SET_BUFFER_OFFSET UNITYSDK_OFFSET(0x1A42C880)
+#define EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A42C840)
+#define EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x1A42C860)
+#define EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A42C890)
 
 namespace Epic::OnlineServices::RTCAudio
 {
-	inline static constexpr unsigned int SendAudioOptions_TypeDefinitionIndex = 41477;
+	inline static constexpr unsigned int SendAudioOptions_TypeDefinitionIndex = 42280;
 
 	class SendAudioOptions : public ::System::Object
 	{
@@ -35,9 +35,9 @@ namespace Epic::OnlineServices::RTCAudio
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_RoomName()
@@ -45,9 +45,9 @@ namespace Epic::OnlineServices::RTCAudio
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS_GET_ROOMNAME_OFFSET))(this);
 		}
 
-		::System::Void set_RoomName(::System::String* value)
+		::System::Void set_RoomName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS_SET_ROOMNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS_SET_ROOMNAME_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::RTCAudio::AudioBuffer* get_Buffer()
@@ -55,9 +55,9 @@ namespace Epic::OnlineServices::RTCAudio
 			return ((::Epic::OnlineServices::RTCAudio::AudioBuffer*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS_GET_BUFFER_OFFSET))(this);
 		}
 
-		::System::Void set_Buffer(::Epic::OnlineServices::RTCAudio::AudioBuffer* value)
+		::System::Void set_Buffer(::Epic::OnlineServices::RTCAudio::AudioBuffer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::AudioBuffer*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS_SET_BUFFER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::AudioBuffer*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_SENDAUDIOOPTIONS_SET_BUFFER_OFFSET))(this, a1);
 		}
 	};
 }

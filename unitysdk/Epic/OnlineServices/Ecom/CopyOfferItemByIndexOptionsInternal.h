@@ -7,16 +7,16 @@ namespace Epic::OnlineServices::Ecom { class CopyOfferItemByIndexOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x22F9D00)
-#define EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x22F9C90)
-#define EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_SET_ITEMINDEX_OFFSET UNITYSDK_OFFSET(0x2233770)
-#define EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x22F9B10)
-#define EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_SET_OFFERID_OFFSET UNITYSDK_OFFSET(0x22F9BD0)
-#define EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x22F9C80)
+#define EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x38A2180)
+#define EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x38A2100)
+#define EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_SET_ITEMINDEX_OFFSET UNITYSDK_OFFSET(0x374B860)
+#define EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x38A1F80)
+#define EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_SET_OFFERID_OFFSET UNITYSDK_OFFSET(0x38A2040)
+#define EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x38A20F0)
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int CopyOfferItemByIndexOptionsInternal_TypeDefinitionIndex = 42165;
+	inline static constexpr unsigned int CopyOfferItemByIndexOptionsInternal_TypeDefinitionIndex = 42968;
 
 	struct alignas(8) CopyOfferItemByIndexOptionsInternal
 	{
@@ -25,29 +25,29 @@ namespace Epic::OnlineServices::Ecom
 		::System::IntPtr m_OfferId; // 0x20
 		::System::UInt32 m_ItemIndex; // 0x28
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_OfferId(::System::String* value)
+		::System::Void set_OfferId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_SET_OFFERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_SET_OFFERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ItemIndex(::System::UInt32 value)
+		::System::Void set_ItemIndex(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_SET_ITEMINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_SET_ITEMINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Ecom::CopyOfferItemByIndexOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Ecom::CopyOfferItemByIndexOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyOfferItemByIndexOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyOfferItemByIndexOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYOFFERITEMBYINDEXOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

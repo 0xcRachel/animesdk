@@ -4,14 +4,14 @@
 
 namespace UnityEngine { class Object; }
 
-#define RPGTOOLS_TIMELINE_ARCHIVEASSET_GET_BASETARGET_OFFSET UNITYSDK_OFFSET(0x16F3AC20)
-#define RPGTOOLS_TIMELINE_ARCHIVEASSET_METHOD_3_EE73EC1D0D6BA806_OFFSET UNITYSDK_OFFSET(0x16F3AC40)
-#define RPGTOOLS_TIMELINE_ARCHIVEASSET_SET_BASETARGET_OFFSET UNITYSDK_OFFSET(0x16F3AC30)
-#define RPGTOOLS_TIMELINE_ARCHIVEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x16F3ACC0)
+#define RPGTOOLS_TIMELINE_ARCHIVEASSET_GET_BASETARGET_OFFSET UNITYSDK_OFFSET(0x198B4E50)
+#define RPGTOOLS_TIMELINE_ARCHIVEASSET_METHOD_3_EE73EC1D0D6BA806_OFFSET UNITYSDK_OFFSET(0x198B4E70)
+#define RPGTOOLS_TIMELINE_ARCHIVEASSET_SET_BASETARGET_OFFSET UNITYSDK_OFFSET(0x198B4E60)
+#define RPGTOOLS_TIMELINE_ARCHIVEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x198B4EF0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ArchiveAsset_TypeDefinitionIndex = 45218;
+	inline static constexpr unsigned int ArchiveAsset_TypeDefinitionIndex = 45775;
 
 	class ArchiveAsset : public ::UnityEngine::ScriptableObject
 	{
@@ -28,9 +28,9 @@ namespace RPGTools::Timeline
 			return ((::UnityEngine::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ARCHIVEASSET_GET_BASETARGET_OFFSET))(this);
 		}
 
-		::System::Void set_BaseTarget(::UnityEngine::Object* value)
+		::System::Void set_BaseTarget(::UnityEngine::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ARCHIVEASSET_SET_BASETARGET_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ARCHIVEASSET_SET_BASETARGET_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Method_3_EE73EC1D0D6BA806(::RPGTools::Timeline::ArchiveAsset* a1)

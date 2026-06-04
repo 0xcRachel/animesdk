@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define XLUA_LUAINDEXES_GET_LUA_REGISTRYINDEX_OFFSET UNITYSDK_OFFSET(0xA287820)
-#define XLUA_LUAINDEXES_SET_LUA_REGISTRYINDEX_OFFSET UNITYSDK_OFFSET(0xA28E5F0)
-#define XLUA_LUAINDEXES__CTOR_OFFSET UNITYSDK_OFFSET(0xA291110)
+#define XLUA_LUAINDEXES_GET_LUA_REGISTRYINDEX_OFFSET UNITYSDK_OFFSET(0xEDC7680)
+#define XLUA_LUAINDEXES_SET_LUA_REGISTRYINDEX_OFFSET UNITYSDK_OFFSET(0xEDCE330)
+#define XLUA_LUAINDEXES__CTOR_OFFSET UNITYSDK_OFFSET(0xEDD0E60)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaIndexes_TypeDefinitionIndex = 46444;
+	inline static constexpr unsigned int LuaIndexes_TypeDefinitionIndex = 47034;
 
 	class LuaIndexes : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace XLua
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + XLUA_LUAINDEXES_GET_LUA_REGISTRYINDEX_OFFSET))();
 		}
 
-		static ::System::Void set_LUA_REGISTRYINDEX(::System::Int32 value)
+		static ::System::Void set_LUA_REGISTRYINDEX(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + XLUA_LUAINDEXES_SET_LUA_REGISTRYINDEX_OFFSET))(value);
+			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + XLUA_LUAINDEXES_SET_LUA_REGISTRYINDEX_OFFSET))(a1);
 		}
 	};
 }

@@ -4,14 +4,14 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_HTTPDNSPLUSBOXCONFIG_GETAREA_OFFSET UNITYSDK_OFFSET(0x153FA110)
-#define MIHOYO_SDK_HTTPDNSPLUSBOXCONFIG_ISENABLE_OFFSET UNITYSDK_OFFSET(0x153FA0E0)
-#define MIHOYO_SDK_HTTPDNSPLUSBOXCONFIG_ISIPREPORTENABLE_OFFSET UNITYSDK_OFFSET(0x153FA1D0)
-#define MIHOYO_SDK_HTTPDNSPLUSBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x153F9DF0)
+#define MIHOYO_SDK_HTTPDNSPLUSBOXCONFIG_GETAREA_OFFSET UNITYSDK_OFFSET(0x14C6C750)
+#define MIHOYO_SDK_HTTPDNSPLUSBOXCONFIG_ISENABLE_OFFSET UNITYSDK_OFFSET(0x14C6C720)
+#define MIHOYO_SDK_HTTPDNSPLUSBOXCONFIG_ISIPREPORTENABLE_OFFSET UNITYSDK_OFFSET(0x14C6C810)
+#define MIHOYO_SDK_HTTPDNSPLUSBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14C6C3F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HttpDnsPlusBoxConfig_TypeDefinitionIndex = 6963;
+	inline static constexpr unsigned int HttpDnsPlusBoxConfig_TypeDefinitionIndex = 7866;
 
 	class HttpDnsPlusBoxConfig : public ::System::Object
 	{
@@ -20,9 +20,9 @@ namespace MiHoYo::SDK
 		::System::Int32 cache_expire_time; // 0x14
 		::System::Int32 ip_report_enable; // 0x18
 
-		::System::Void _ctor(::System::String* strJson)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HTTPDNSPLUSBOXCONFIG__CTOR_OFFSET))(this, strJson);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HTTPDNSPLUSBOXCONFIG__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsEnable()

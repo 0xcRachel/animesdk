@@ -5,10 +5,10 @@
 
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINFORMATIONEXCEPTION_GET_ERRORCODE_OFFSET UNITYSDK_OFFSET(0x176CC3F0)
-#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINFORMATIONEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x176CC1E0)
-#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINFORMATIONEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x176CC310)
-#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINFORMATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x176CB2B0)
+#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINFORMATIONEXCEPTION_GET_ERRORCODE_OFFSET UNITYSDK_OFFSET(0x17CFAA70)
+#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINFORMATIONEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17CFA900)
+#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINFORMATIONEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x17CFA9B0)
+#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINFORMATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17CF9B10)
 
 namespace System::Net::NetworkInformation
 {
@@ -22,14 +22,14 @@ namespace System::Net::NetworkInformation
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_NETWORKINFORMATIONEXCEPTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Int32 errorCode)
+		::System::Void _ctor_1(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_NETWORKINFORMATIONEXCEPTION__CTOR_1_OFFSET))(this, errorCode);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_NETWORKINFORMATIONEXCEPTION__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext)
+		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_NETWORKINFORMATIONEXCEPTION__CTOR_2_OFFSET))(this, serializationInfo, streamingContext);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_NETWORKINFORMATIONEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_ErrorCode()

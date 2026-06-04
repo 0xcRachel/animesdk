@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GamePlayLockTargetFunc.h"
 
-class Class_0_16E4307DCC419505_303;
+class Class_0_16E4307DCC419505_316;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_B3566F804A22C208_14_LOCK_OFFSET UNITYSDK_OFFSET(0xD06B8A0)
-#define CLASS_2_B3566F804A22C208_14_UNLOCK_OFFSET UNITYSDK_OFFSET(0xD06BC50)
-#define CLASS_2_B3566F804A22C208_14__CTOR_OFFSET UNITYSDK_OFFSET(0xD06B890)
-#define CLASS_2_B3566F804A22C208_14___IFIXBASEPROXY_LOCK_OFFSET UNITYSDK_OFFSET(0xD06BFE0)
-#define CLASS_2_B3566F804A22C208_14___IFIXBASEPROXY_UNLOCK_OFFSET UNITYSDK_OFFSET(0xD06C050)
+#define CLASS_2_B3566F804A22C208_14_LOCK_OFFSET UNITYSDK_OFFSET(0x16A80890)
+#define CLASS_2_B3566F804A22C208_14_UNLOCK_OFFSET UNITYSDK_OFFSET(0x16A80CA0)
+#define CLASS_2_B3566F804A22C208_14__CTOR_OFFSET UNITYSDK_OFFSET(0x16A80880)
+#define CLASS_2_B3566F804A22C208_14___IFIXBASEPROXY_LOCK_OFFSET UNITYSDK_OFFSET(0x16A81090)
+#define CLASS_2_B3566F804A22C208_14___IFIXBASEPROXY_UNLOCK_OFFSET UNITYSDK_OFFSET(0x16A810F0)
 
-inline static constexpr unsigned int Class_2_B3566F804A22C208_14_TypeDefinitionIndex = 69004;
+inline static constexpr unsigned int Class_2_B3566F804A22C208_14_TypeDefinitionIndex = 69816;
 
 class Class_2_B3566F804A22C208_14 : public ::RPG::Client::GamePlayLockTargetFunc
 {
 public:
-	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_303*>* a1)
+	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_316*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_303*>*))((::PBYTE)hIl2Cpp + CLASS_2_B3566F804A22C208_14__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_316*>*))((::PBYTE)hIl2Cpp + CLASS_2_B3566F804A22C208_14__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Void Lock(::Il2CppArray<::System::Object*>* a1)
@@ -32,13 +32,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + CLASS_2_B3566F804A22C208_14_UNLOCK_OFFSET))(this, a1);
 	}
 
-	::System::Void __iFixBaseProxy_Lock(::Il2CppArray<::System::Object*>* P0)
+	::System::Void __iFixBaseProxy_Lock(::Il2CppArray<::System::Object*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + CLASS_2_B3566F804A22C208_14___IFIXBASEPROXY_LOCK_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + CLASS_2_B3566F804A22C208_14___IFIXBASEPROXY_LOCK_OFFSET))(this, a1);
 	}
 
-	::System::Void __iFixBaseProxy_Unlock(::Il2CppArray<::System::Object*>* P0)
+	::System::Void __iFixBaseProxy_Unlock(::Il2CppArray<::System::Object*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + CLASS_2_B3566F804A22C208_14___IFIXBASEPROXY_UNLOCK_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + CLASS_2_B3566F804A22C208_14___IFIXBASEPROXY_UNLOCK_OFFSET))(this, a1);
 	}
 };

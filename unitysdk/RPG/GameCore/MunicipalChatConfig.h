@@ -7,12 +7,12 @@ namespace RPG::GameCore { class MunicipalChatNPCInfo; }
 namespace RPG::GameCore { class MunicipalChatNodeInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUNICIPALCHATCONFIG_METHOD_2_40C7BC8CA55763CC_OFFSET UNITYSDK_OFFSET(0x18636E30)
-#define RPG_GAMECORE_MUNICIPALCHATCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x186370A0)
+#define RPG_GAMECORE_MUNICIPALCHATCONFIG_METHOD_2_29AEDB1D95A71E77_OFFSET UNITYSDK_OFFSET(0x190EFEF0)
+#define RPG_GAMECORE_MUNICIPALCHATCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190F0150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MunicipalChatConfig_TypeDefinitionIndex = 16022;
+	inline static constexpr unsigned int MunicipalChatConfig_TypeDefinitionIndex = 16072;
 
 	class MunicipalChatConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUNICIPALCHATCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_40C7BC8CA55763CC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MunicipalChatConfig*& a2)
+		static ::System::Void Method_2_29AEDB1D95A71E77(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MunicipalChatConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MunicipalChatConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUNICIPALCHATCONFIG_METHOD_2_40C7BC8CA55763CC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MunicipalChatConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUNICIPALCHATCONFIG_METHOD_2_29AEDB1D95A71E77_OFFSET))(a1, a2);
 		}
 	};
 }

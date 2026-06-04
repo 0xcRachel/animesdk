@@ -3,37 +3,37 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_3A031B4969E41A12;
+class Class_1_31F7AA61A6C51B11;
 class Class_1_5F96B92B05C740DB;
-class Class_1_617AD23D5D1C2C36;
+class Class_1_F4428E4EEF88CB9C;
 namespace RPG::Client { class TimeSpaceCrisscrossLightsBehavior_Class_1_157DF0DD0C4E4084; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_8345B8E9167A0BA3_METHOD_1_1757A5346B290CED_1_OFFSET UNITYSDK_OFFSET(0xF2C7F20)
-#define CLASS_1_8345B8E9167A0BA3_METHOD_1_1757A5346B290CED_OFFSET UNITYSDK_OFFSET(0xF2C7E40)
-#define CLASS_1_8345B8E9167A0BA3_METHOD_1_19575D1AD52D1399_OFFSET UNITYSDK_OFFSET(0xF2C81E0)
-#define CLASS_1_8345B8E9167A0BA3_METHOD_1_66F501070C8F9EA1_OFFSET UNITYSDK_OFFSET(0xF2C8000)
-#define CLASS_1_8345B8E9167A0BA3_METHOD_1_9C9D8EE91FFBC0C0_OFFSET UNITYSDK_OFFSET(0xF2C6260)
-#define CLASS_1_8345B8E9167A0BA3_METHOD_1_C03074CAF4801A1C_OFFSET UNITYSDK_OFFSET(0xF2C7130)
-#define CLASS_1_8345B8E9167A0BA3_METHOD_1_FDC75E773C3424A0_OFFSET UNITYSDK_OFFSET(0xF2C6310)
-#define CLASS_1_8345B8E9167A0BA3__CCTOR_OFFSET UNITYSDK_OFFSET(0xF2C83D0)
-#define CLASS_1_8345B8E9167A0BA3__CTOR_OFFSET UNITYSDK_OFFSET(0xF2C5FE0)
+#define CLASS_1_8345B8E9167A0BA3_METHOD_1_1757A5346B290CED_1_OFFSET UNITYSDK_OFFSET(0x1603DCC0)
+#define CLASS_1_8345B8E9167A0BA3_METHOD_1_1757A5346B290CED_OFFSET UNITYSDK_OFFSET(0x1603DBE0)
+#define CLASS_1_8345B8E9167A0BA3_METHOD_1_19575D1AD52D1399_OFFSET UNITYSDK_OFFSET(0x1603DF60)
+#define CLASS_1_8345B8E9167A0BA3_METHOD_1_2B37EFC04765C317_OFFSET UNITYSDK_OFFSET(0x1603C0B0)
+#define CLASS_1_8345B8E9167A0BA3_METHOD_1_66F501070C8F9EA1_OFFSET UNITYSDK_OFFSET(0x1603DDA0)
+#define CLASS_1_8345B8E9167A0BA3_METHOD_1_C03074CAF4801A1C_OFFSET UNITYSDK_OFFSET(0x1603CF20)
+#define CLASS_1_8345B8E9167A0BA3_METHOD_1_FDC75E773C3424A0_OFFSET UNITYSDK_OFFSET(0x1603C150)
+#define CLASS_1_8345B8E9167A0BA3__CCTOR_OFFSET UNITYSDK_OFFSET(0x1603E130)
+#define CLASS_1_8345B8E9167A0BA3__CTOR_OFFSET UNITYSDK_OFFSET(0x1603BE30)
 
-inline static constexpr unsigned int Class_1_8345B8E9167A0BA3_TypeDefinitionIndex = 64754;
+inline static constexpr unsigned int Class_1_8345B8E9167A0BA3_TypeDefinitionIndex = 65676;
 
 class Class_1_8345B8E9167A0BA3 : public ::System::Object
 {
 public:
-	static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_Field_1_6()
+	static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_Field_1_0()
 	{
-		return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8345B8E9167A0BA3_TypeDefinitionIndex)->GetStaticField(0x2F840);
+		return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8345B8E9167A0BA3_TypeDefinitionIndex)->GetStaticField(0x3E6E0);
 	}
-	::System::Collections::Generic::Dictionary_2<::Class_1_5F96B92B05C740DB*, ::Class_1_3A031B4969E41A12*>* Field_1_3; // 0x10
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::TimeSpaceCrisscrossLightsBehavior_Class_1_157DF0DD0C4E4084*, ::Class_1_3A031B4969E41A12*>* Field_1_4; // 0x18
-	::System::Collections::Generic::Dictionary_2<::Class_1_5F96B92B05C740DB*, ::Class_1_3A031B4969E41A12*>* Field_1_2; // 0x20
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::TimeSpaceCrisscrossLightsBehavior_Class_1_157DF0DD0C4E4084*, ::Class_1_3A031B4969E41A12*>* Field_1_5; // 0x28
-	::Class_1_617AD23D5D1C2C36* Field_1_0; // 0x30
-	::UnityEngine::Vector3 Field_1_1; // 0x38
+	::System::Collections::Generic::Dictionary_2<::Class_1_5F96B92B05C740DB*, ::Class_1_F4428E4EEF88CB9C*>* Field_1_1; // 0x10
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::TimeSpaceCrisscrossLightsBehavior_Class_1_157DF0DD0C4E4084*, ::Class_1_F4428E4EEF88CB9C*>* Field_1_2; // 0x18
+	::System::Collections::Generic::Dictionary_2<::Class_1_5F96B92B05C740DB*, ::Class_1_F4428E4EEF88CB9C*>* Field_1_3; // 0x20
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::TimeSpaceCrisscrossLightsBehavior_Class_1_157DF0DD0C4E4084*, ::Class_1_F4428E4EEF88CB9C*>* Field_1_4; // 0x28
+	::Class_1_31F7AA61A6C51B11* Field_1_5; // 0x30
+	::UnityEngine::Vector3 Field_1_6; // 0x38
 
 	::System::Void _ctor(::System::Int32 a1, ::UnityEngine::Vector3 a2)
 	{
@@ -45,9 +45,9 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_8345B8E9167A0BA3__CCTOR_OFFSET))();
 	}
 
-	::System::Void Method_1_9C9D8EE91FFBC0C0(::Il2CppArray<::Class_1_3A031B4969E41A12*>* a1)
+	::System::Void Method_1_2B37EFC04765C317(::Il2CppArray<::Class_1_F4428E4EEF88CB9C*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Class_1_3A031B4969E41A12*>*))((::PBYTE)hIl2Cpp + CLASS_1_8345B8E9167A0BA3_METHOD_1_9C9D8EE91FFBC0C0_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Class_1_F4428E4EEF88CB9C*>*))((::PBYTE)hIl2Cpp + CLASS_1_8345B8E9167A0BA3_METHOD_1_2B37EFC04765C317_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_FDC75E773C3424A0(::Class_1_5F96B92B05C740DB* a1)

@@ -5,12 +5,12 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define UNITYENGINE_VOLUMETRICCLOUDSPHERE_GET_MATERIAL_OFFSET UNITYSDK_OFFSET(0x1A68B820)
-#define UNITYENGINE_VOLUMETRICCLOUDSPHERE_SETMATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0x1A68B830)
+#define UNITYENGINE_VOLUMETRICCLOUDSPHERE_GET_MATERIAL_OFFSET UNITYSDK_OFFSET(0x1B4B6040)
+#define UNITYENGINE_VOLUMETRICCLOUDSPHERE_SETMATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0x1B4B6050)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int VolumetricCloudSphere_TypeDefinitionIndex = 4083;
+	inline static constexpr unsigned int VolumetricCloudSphere_TypeDefinitionIndex = 4257;
 
 	class VolumetricCloudSphere : public ::UnityEngine::Behaviour
 	{
@@ -20,9 +20,9 @@ namespace UnityEngine
 			return ((::UnityEngine::Material*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_VOLUMETRICCLOUDSPHERE_GET_MATERIAL_OFFSET))(this);
 		}
 
-		::System::Void SetMaterialPropertyBlock(::UnityEngine::MaterialPropertyBlock* mpb)
+		::System::Void SetMaterialPropertyBlock(::UnityEngine::MaterialPropertyBlock* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::MaterialPropertyBlock*))((::PBYTE)hIl2Cpp + UNITYENGINE_VOLUMETRICCLOUDSPHERE_SETMATERIALPROPERTYBLOCK_OFFSET))(this, mpb);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::MaterialPropertyBlock*))((::PBYTE)hIl2Cpp + UNITYENGINE_VOLUMETRICCLOUDSPHERE_SETMATERIALPROPERTYBLOCK_OFFSET))(this, a1);
 		}
 	};
 }

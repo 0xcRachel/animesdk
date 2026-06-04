@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GACHANEWSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B7C6C0)
-#define RPG_GAMECORE_GACHANEWSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B7C950)
+#define RPG_GAMECORE_GACHANEWSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C8B130)
+#define RPG_GAMECORE_GACHANEWSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19C8B3B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GachaNewsRow_TypeDefinitionIndex = 12641;
+	inline static constexpr unsigned int GachaNewsRow_TypeDefinitionIndex = 12731;
 
 	class GachaNewsRow : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GACHANEWSROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GachaNewsRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GachaNewsRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GachaNewsRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GACHANEWSROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GachaNewsRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GACHANEWSROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

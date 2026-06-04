@@ -2,49 +2,49 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_53763D498DB8321D_8;
+class Class_1_53763D498DB8321D_5;
 namespace RPG::GameCore { class RogueAeonDisplayRow; }
 namespace RPG::GameCore { class RogueAeonListConfigRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA_GET_DISPLAYROW_OFFSET UNITYSDK_OFFSET(0x172A9C30)
-#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0x172A9B80)
-#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA_GET_REDDOTLIST_OFFSET UNITYSDK_OFFSET(0x172A8990)
-#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0x172A9B20)
-#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA_GET_SORTID_OFFSET UNITYSDK_OFFSET(0x172A9B90)
-#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA_INITROGUEHANDBOOKAEON_OFFSET UNITYSDK_OFFSET(0x172A8C70)
-#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA_ONDOCCLICKED_OFFSET UNITYSDK_OFFSET(0x172A9560)
-#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA_UPDATEBYSERVER_OFFSET UNITYSDK_OFFSET(0x172A8E60)
-#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x172A8BB0)
-#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA__INITREDDOT_OFFSET UNITYSDK_OFFSET(0x172A99D0)
-#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA__UPDATEREDDOT_OFFSET UNITYSDK_OFFSET(0x172A9220)
+#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA_GET_DISPLAYROW_OFFSET UNITYSDK_OFFSET(0x184CE870)
+#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0x184CE7C0)
+#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA_GET_REDDOTLIST_OFFSET UNITYSDK_OFFSET(0x184CD3A0)
+#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0x184CE760)
+#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA_GET_SORTID_OFFSET UNITYSDK_OFFSET(0x184CE7D0)
+#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA_INITROGUEHANDBOOKAEON_OFFSET UNITYSDK_OFFSET(0x184CD660)
+#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA_ONDOCCLICKED_OFFSET UNITYSDK_OFFSET(0x184CE140)
+#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA_UPDATEBYSERVER_OFFSET UNITYSDK_OFFSET(0x184CD960)
+#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x184CD5A0)
+#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA__INITREDDOT_OFFSET UNITYSDK_OFFSET(0x184CE5D0)
+#define RPG_CLIENT_ROGUEHANDBOOKAEONSDATA__UPDATEREDDOT_OFFSET UNITYSDK_OFFSET(0x184CDD20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueHandbookAeonsData_TypeDefinitionIndex = 62070;
+	inline static constexpr unsigned int RogueHandbookAeonsData_TypeDefinitionIndex = 63003;
 
 	class RogueHandbookAeonsData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Boolean>* DocUnlockStatus; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* DocKeys; // 0x18
-		::System::Collections::Generic::List_1<::System::UInt32>* _RedDotList; // 0x20
+		::System::Collections::Generic::List_1<::System::UInt32>* DocKeys; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* _RedDotList; // 0x18
+		::System::Collections::Generic::List_1<::System::Boolean>* DocUnlockStatus; // 0x20
 		::System::Boolean IsUnLocked; // 0x28
 		::System::UInt32 _RogueAeonHandbookID; // 0x2C
 
-		::System::Void _ctor(::RPG::GameCore::RogueAeonListConfigRow* row)
+		::System::Void _ctor(::RPG::GameCore::RogueAeonListConfigRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RogueAeonListConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEHANDBOOKAEONSDATA__CTOR_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RogueAeonListConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEHANDBOOKAEONSDATA__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void UpdateByServer(::Class_1_53763D498DB8321D_8* data)
+		::System::Void UpdateByServer(::Class_1_53763D498DB8321D_5* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_53763D498DB8321D_8*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEHANDBOOKAEONSDATA_UPDATEBYSERVER_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Class_1_53763D498DB8321D_5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEHANDBOOKAEONSDATA_UPDATEBYSERVER_OFFSET))(this, a1);
 		}
 
-		::System::Void OnDocClicked(::System::UInt32 docID)
+		::System::Void OnDocClicked(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEHANDBOOKAEONSDATA_ONDOCCLICKED_OFFSET))(this, docID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEHANDBOOKAEONSDATA_ONDOCCLICKED_OFFSET))(this, a1);
 		}
 
 		::System::Void InitRogueHandbookAeon()
@@ -57,9 +57,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEHANDBOOKAEONSDATA__INITREDDOT_OFFSET))(this);
 		}
 
-		::System::Void _UpdateRedDot(::System::UInt32 currentDoc)
+		::System::Void _UpdateRedDot(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEHANDBOOKAEONSDATA__UPDATEREDDOT_OFFSET))(this, currentDoc);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEHANDBOOKAEONSDATA__UPDATEREDDOT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ID()

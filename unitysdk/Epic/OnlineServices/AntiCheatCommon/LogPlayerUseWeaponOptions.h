@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices::AntiCheatCommon { class LogPlayerUseWeaponData; }
 
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONOPTIONS_GET_USEWEAPONDATA_OFFSET UNITYSDK_OFFSET(0x1977D800)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONOPTIONS_SET_USEWEAPONDATA_OFFSET UNITYSDK_OFFSET(0x1977D810)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1977D820)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONOPTIONS_GET_USEWEAPONDATA_OFFSET UNITYSDK_OFFSET(0x1A5642C0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONOPTIONS_SET_USEWEAPONDATA_OFFSET UNITYSDK_OFFSET(0x1A5642D0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5642E0)
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int LogPlayerUseWeaponOptions_TypeDefinitionIndex = 42494;
+	inline static constexpr unsigned int LogPlayerUseWeaponOptions_TypeDefinitionIndex = 43297;
 
 	class LogPlayerUseWeaponOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::AntiCheatCommon
 			return ((::Epic::OnlineServices::AntiCheatCommon::LogPlayerUseWeaponData*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONOPTIONS_GET_USEWEAPONDATA_OFFSET))(this);
 		}
 
-		::System::Void set_UseWeaponData(::Epic::OnlineServices::AntiCheatCommon::LogPlayerUseWeaponData* value)
+		::System::Void set_UseWeaponData(::Epic::OnlineServices::AntiCheatCommon::LogPlayerUseWeaponData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::LogPlayerUseWeaponData*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONOPTIONS_SET_USEWEAPONDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::LogPlayerUseWeaponData*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERUSEWEAPONOPTIONS_SET_USEWEAPONDATA_OFFSET))(this, a1);
 		}
 	};
 }

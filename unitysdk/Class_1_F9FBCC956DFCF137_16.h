@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_409DDE73E6219FD7;
+class Class_1_61097837E1D530F4;
 
-#define CLASS_1_F9FBCC956DFCF137_16_GET_NOTIFY_OFFSET UNITYSDK_OFFSET(0xD4C82F0)
-#define CLASS_1_F9FBCC956DFCF137_16__CTOR_OFFSET UNITYSDK_OFFSET(0xD4C8300)
+#define CLASS_1_F9FBCC956DFCF137_16_METHOD_1_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0xF450CC0)
+#define CLASS_1_F9FBCC956DFCF137_16__CTOR_OFFSET UNITYSDK_OFFSET(0xF450CB0)
 
-inline static constexpr unsigned int Class_1_F9FBCC956DFCF137_16_TypeDefinitionIndex = 69821;
+inline static constexpr unsigned int Class_1_F9FBCC956DFCF137_16_TypeDefinitionIndex = 58811;
 
 class Class_1_F9FBCC956DFCF137_16 : public ::System::Object
 {
 public:
-	::Class_1_409DDE73E6219FD7* _Notify_k__BackingField; // 0x10
+	::Class_1_61097837E1D530F4* Field_1_0; // 0x10
 
-	::System::Void _ctor(::Class_1_409DDE73E6219FD7* a1)
+	::System::Void _ctor(::Class_1_61097837E1D530F4* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_409DDE73E6219FD7*))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_16__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_61097837E1D530F4*))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_16__CTOR_OFFSET))(this, a1);
 	}
 
-	::Class_1_409DDE73E6219FD7* get_Notify()
+	::Class_1_61097837E1D530F4* Method_1_F8B73ECE7F883AC1()
 	{
-		return ((::Class_1_409DDE73E6219FD7*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_16_GET_NOTIFY_OFFSET))(this);
+		return ((::Class_1_61097837E1D530F4*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_16_METHOD_1_F8B73ECE7F883AC1_OFFSET))(this);
 	}
 };

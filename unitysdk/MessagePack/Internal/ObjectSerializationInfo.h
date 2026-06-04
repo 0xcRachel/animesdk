@@ -12,42 +12,42 @@ namespace System::Reflection { class FieldInfo; }
 namespace System::Reflection { class PropertyInfo; }
 namespace System::Reflection { class TypeInfo; }
 
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_CREATEORNULL_OFFSET UNITYSDK_OFFSET(0x164B7990)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GETALLFIELDS_OFFSET UNITYSDK_OFFSET(0x164CA810)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GETALLPROPERTIES_OFFSET UNITYSDK_OFFSET(0x164CA7B0)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GET_BESTMATCHCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x164C9CC0)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GET_CONSTRUCTORPARAMETERS_OFFSET UNITYSDK_OFFSET(0x164C9CD0)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GET_ISCLASS_OFFSET UNITYSDK_OFFSET(0x164C9C90)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GET_ISINTKEY_OFFSET UNITYSDK_OFFSET(0x164C9C80)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GET_ISSTRINGKEY_OFFSET UNITYSDK_OFFSET(0x164BB600)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GET_ISSTRUCT_OFFSET UNITYSDK_OFFSET(0x164C27D0)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GET_MEMBERS_OFFSET UNITYSDK_OFFSET(0x164C9CE0)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GET_SHOULDUSEFORMATTERRESOLVER_OFFSET UNITYSDK_OFFSET(0x164C9CA0)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x164C9C70)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_ISCLASSRECORD_OFFSET UNITYSDK_OFFSET(0x164CA080)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_ISOPTIMIZETARGETTYPE_OFFSET UNITYSDK_OFFSET(0x164BF630)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_SET_SHOULDUSEFORMATTERRESOLVER_OFFSET UNITYSDK_OFFSET(0x164C9CB0)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_TRYGETNEXTCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x164CA880)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x164C9CF0)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_CREATEORNULL_OFFSET UNITYSDK_OFFSET(0x140136E0)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GETALLFIELDS_OFFSET UNITYSDK_OFFSET(0x14025B30)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GETALLPROPERTIES_OFFSET UNITYSDK_OFFSET(0x14025AD0)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GET_BESTMATCHCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x14024FC0)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GET_CONSTRUCTORPARAMETERS_OFFSET UNITYSDK_OFFSET(0x14024FD0)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GET_ISCLASS_OFFSET UNITYSDK_OFFSET(0x14024F90)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GET_ISINTKEY_OFFSET UNITYSDK_OFFSET(0x14024F80)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GET_ISSTRINGKEY_OFFSET UNITYSDK_OFFSET(0x14017510)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GET_ISSTRUCT_OFFSET UNITYSDK_OFFSET(0x1401E440)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GET_MEMBERS_OFFSET UNITYSDK_OFFSET(0x14024FE0)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GET_SHOULDUSEFORMATTERRESOLVER_OFFSET UNITYSDK_OFFSET(0x14024FA0)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x14024F70)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_ISCLASSRECORD_OFFSET UNITYSDK_OFFSET(0x140253E0)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_ISOPTIMIZETARGETTYPE_OFFSET UNITYSDK_OFFSET(0x1401B420)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_SET_SHOULDUSEFORMATTERRESOLVER_OFFSET UNITYSDK_OFFSET(0x14024FB0)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_TRYGETNEXTCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x14025BA0)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x14024FF0)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int ObjectSerializationInfo_TypeDefinitionIndex = 9382;
+	inline static constexpr unsigned int ObjectSerializationInfo_TypeDefinitionIndex = 7285;
 
 	class ObjectSerializationInfo : public ::System::Object
 	{
 	public:
-		::System::Reflection::ConstructorInfo* _BestmatchConstructor_k__BackingField; // 0x10
-		::System::Type* _Type_k__BackingField; // 0x18
+		::System::Type* _Type_k__BackingField; // 0x10
+		::System::Reflection::ConstructorInfo* _BestmatchConstructor_k__BackingField; // 0x18
 		::Il2CppArray<::MessagePack::Internal::ObjectSerializationInfo_EmittableMemberAndConstructorParameter*>* _ConstructorParameters_k__BackingField; // 0x20
 		::Il2CppArray<::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*>* _Members_k__BackingField; // 0x28
-		::System::Boolean _IsClass_k__BackingField; // 0x30
-		::System::Boolean _ShouldUseFormatterResolver_k__BackingField; // 0x31
-		::System::Boolean _IsIntKey_k__BackingField; // 0x32
+		::System::Boolean _IsIntKey_k__BackingField; // 0x30
+		::System::Boolean _IsClass_k__BackingField; // 0x31
+		::System::Boolean _ShouldUseFormatterResolver_k__BackingField; // 0x32
 
-		::System::Void _ctor(::System::Type* type, ::Il2CppArray<::MessagePack::Internal::ObjectSerializationInfo_EmittableMemberAndConstructorParameter*>* constructorParameters, ::Il2CppArray<::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*>* members, ::System::Boolean isClass, ::System::Reflection::ConstructorInfo* bestmatchConstructor, ::System::Boolean isIntKey)
+		::System::Void _ctor(::System::Type* a1, ::Il2CppArray<::MessagePack::Internal::ObjectSerializationInfo_EmittableMemberAndConstructorParameter*>* a2, ::Il2CppArray<::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*>* a3, ::System::Boolean a4, ::System::Reflection::ConstructorInfo* a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::Il2CppArray<::MessagePack::Internal::ObjectSerializationInfo_EmittableMemberAndConstructorParameter*>*, ::Il2CppArray<::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*>*, ::System::Boolean, ::System::Reflection::ConstructorInfo*, ::System::Boolean))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO__CTOR_OFFSET))(this, type, constructorParameters, members, isClass, bestmatchConstructor, isIntKey);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::Il2CppArray<::MessagePack::Internal::ObjectSerializationInfo_EmittableMemberAndConstructorParameter*>*, ::Il2CppArray<::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*>*, ::System::Boolean, ::System::Reflection::ConstructorInfo*, ::System::Boolean))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Type* get_Type()
@@ -80,9 +80,9 @@ namespace MessagePack::Internal
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GET_SHOULDUSEFORMATTERRESOLVER_OFFSET))(this);
 		}
 
-		::System::Void set_ShouldUseFormatterResolver(::System::Boolean value)
+		::System::Void set_ShouldUseFormatterResolver(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_SET_SHOULDUSEFORMATTERRESOLVER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_SET_SHOULDUSEFORMATTERRESOLVER_OFFSET))(this, a1);
 		}
 
 		::System::Reflection::ConstructorInfo* get_BestmatchConstructor()
@@ -100,34 +100,34 @@ namespace MessagePack::Internal
 			return ((::Il2CppArray<::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GET_MEMBERS_OFFSET))(this);
 		}
 
-		static ::MessagePack::Internal::ObjectSerializationInfo* CreateOrNull(::System::Type* type, ::System::Boolean forceStringKey, ::System::Boolean contractless, ::System::Boolean allowPrivate)
+		static ::MessagePack::Internal::ObjectSerializationInfo* CreateOrNull(::System::Type* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4)
 		{
-			return ((::MessagePack::Internal::ObjectSerializationInfo*(*)(::System::Type*, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_CREATEORNULL_OFFSET))(type, forceStringKey, contractless, allowPrivate);
+			return ((::MessagePack::Internal::ObjectSerializationInfo*(*)(::System::Type*, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_CREATEORNULL_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean IsOptimizeTargetType(::System::Type* type)
+		static ::System::Boolean IsOptimizeTargetType(::System::Type* a1)
 		{
-			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_ISOPTIMIZETARGETTYPE_OFFSET))(type);
+			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_ISOPTIMIZETARGETTYPE_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::System::Reflection::FieldInfo*>* GetAllFields(::System::Type* type)
+		static ::System::Collections::Generic::IEnumerable_1<::System::Reflection::FieldInfo*>* GetAllFields(::System::Type* a1)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Reflection::FieldInfo*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GETALLFIELDS_OFFSET))(type);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Reflection::FieldInfo*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GETALLFIELDS_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::System::Reflection::PropertyInfo*>* GetAllProperties(::System::Type* type)
+		static ::System::Collections::Generic::IEnumerable_1<::System::Reflection::PropertyInfo*>* GetAllProperties(::System::Type* a1)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Reflection::PropertyInfo*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GETALLPROPERTIES_OFFSET))(type);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Reflection::PropertyInfo*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_GETALLPROPERTIES_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsClassRecord(::System::Reflection::TypeInfo* type)
+		static ::System::Boolean IsClassRecord(::System::Reflection::TypeInfo* a1)
 		{
-			return ((::System::Boolean(*)(::System::Reflection::TypeInfo*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_ISCLASSRECORD_OFFSET))(type);
+			return ((::System::Boolean(*)(::System::Reflection::TypeInfo*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_ISCLASSRECORD_OFFSET))(a1);
 		}
 
-		static ::System::Boolean TryGetNextConstructor(::System::Collections::Generic::IEnumerator_1<::System::Reflection::ConstructorInfo*>* ctorEnumerator, ::System::Reflection::ConstructorInfo*& ctor)
+		static ::System::Boolean TryGetNextConstructor(::System::Collections::Generic::IEnumerator_1<::System::Reflection::ConstructorInfo*>* a1, ::System::Reflection::ConstructorInfo*& a2)
 		{
-			return ((::System::Boolean(*)(::System::Collections::Generic::IEnumerator_1<::System::Reflection::ConstructorInfo*>*, ::System::Reflection::ConstructorInfo*&))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_TRYGETNEXTCONSTRUCTOR_OFFSET))(ctorEnumerator, ctor);
+			return ((::System::Boolean(*)(::System::Collections::Generic::IEnumerator_1<::System::Reflection::ConstructorInfo*>*, ::System::Reflection::ConstructorInfo*&))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_TRYGETNEXTCONSTRUCTOR_OFFSET))(a1, a2);
 		}
 	};
 }

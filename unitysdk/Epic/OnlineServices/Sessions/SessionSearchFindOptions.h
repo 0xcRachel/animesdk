@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices { class ProductUserId; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19691650)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19691660)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19691670)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A468040)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A468050)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A468060)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int SessionSearchFindOptions_TypeDefinitionIndex = 41365;
+	inline static constexpr unsigned int SessionSearchFindOptions_TypeDefinitionIndex = 42168;
 
 	class SessionSearchFindOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::Sessions
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 	};
 }

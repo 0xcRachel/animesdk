@@ -6,20 +6,20 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UIElements { class VisualElement; }
 namespace UnityEngine::UIElements { template <typename T> class ObjectPool_1; }
 
-#define UNITYENGINE_UIELEMENTS_VISUALELEMENTLISTPOOL_GET_OFFSET UNITYSDK_OFFSET(0x19232E30)
-#define UNITYENGINE_UIELEMENTS_VISUALELEMENTLISTPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0x19232EF0)
-#define UNITYENGINE_UIELEMENTS_VISUALELEMENTLISTPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x19232FA0)
+#define UNITYENGINE_UIELEMENTS_VISUALELEMENTLISTPOOL_GET_OFFSET UNITYSDK_OFFSET(0x19F9BAA0)
+#define UNITYENGINE_UIELEMENTS_VISUALELEMENTLISTPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0x19F9BB60)
+#define UNITYENGINE_UIELEMENTS_VISUALELEMENTLISTPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F9BC10)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int VisualElementListPool_TypeDefinitionIndex = 5878;
+	inline static constexpr unsigned int VisualElementListPool_TypeDefinitionIndex = 6155;
 
 	class VisualElementListPool : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*>** StaticGet_pool()
 		{
-			return (::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*>**)Il2CppClass::FromTypeDefinitionIndex(VisualElementListPool_TypeDefinitionIndex)->GetStaticField(0x25970);
+			return (::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*>**)Il2CppClass::FromTypeDefinitionIndex(VisualElementListPool_TypeDefinitionIndex)->GetStaticField(0x2990);
 		}
 
 		static ::System::Void _cctor()
@@ -27,14 +27,14 @@ namespace UnityEngine::UIElements
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_VISUALELEMENTLISTPOOL__CCTOR_OFFSET))();
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* Get(::System::Int32 initialCapacity)
+		static ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* Get(::System::Int32 a1)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_VISUALELEMENTLISTPOOL_GET_OFFSET))(initialCapacity);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_VISUALELEMENTLISTPOOL_GET_OFFSET))(a1);
 		}
 
-		static ::System::Void Release(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* elements)
+		static ::System::Void Release(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* a1)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_VISUALELEMENTLISTPOOL_RELEASE_OFFSET))(elements);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_VISUALELEMENTLISTPOOL_RELEASE_OFFSET))(a1);
 		}
 	};
 }

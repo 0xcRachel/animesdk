@@ -11,32 +11,32 @@ namespace Spine { template <typename T> class ExposedList_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define SPINE_ANIMATION_APPLY_OFFSET UNITYSDK_OFFSET(0x156ACA10)
-#define SPINE_ANIMATION_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x156AC960)
-#define SPINE_ANIMATION_GET_NAME_OFFSET UNITYSDK_OFFSET(0x156AC980)
-#define SPINE_ANIMATION_GET_TIMELINES_OFFSET UNITYSDK_OFFSET(0x156AC940)
-#define SPINE_ANIMATION_HASTIMELINE_OFFSET UNITYSDK_OFFSET(0x156AC990)
-#define SPINE_ANIMATION_SETTIMELINES_OFFSET UNITYSDK_OFFSET(0x156AC5F0)
-#define SPINE_ANIMATION_SET_DURATION_OFFSET UNITYSDK_OFFSET(0x156AC970)
-#define SPINE_ANIMATION_SET_TIMELINES_OFFSET UNITYSDK_OFFSET(0x156AC950)
-#define SPINE_ANIMATION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x156ACBC0)
-#define SPINE_ANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x156AC580)
+#define SPINE_ANIMATION_APPLY_OFFSET UNITYSDK_OFFSET(0x12B77580)
+#define SPINE_ANIMATION_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x12B774E0)
+#define SPINE_ANIMATION_GET_NAME_OFFSET UNITYSDK_OFFSET(0x12B77500)
+#define SPINE_ANIMATION_GET_TIMELINES_OFFSET UNITYSDK_OFFSET(0x12B774C0)
+#define SPINE_ANIMATION_HASTIMELINE_OFFSET UNITYSDK_OFFSET(0x12B77510)
+#define SPINE_ANIMATION_SETTIMELINES_OFFSET UNITYSDK_OFFSET(0x12B771B0)
+#define SPINE_ANIMATION_SET_DURATION_OFFSET UNITYSDK_OFFSET(0x12B774F0)
+#define SPINE_ANIMATION_SET_TIMELINES_OFFSET UNITYSDK_OFFSET(0x12B774D0)
+#define SPINE_ANIMATION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x12B77720)
+#define SPINE_ANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x12B77140)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Animation_TypeDefinitionIndex = 36355;
+	inline static constexpr unsigned int Animation_TypeDefinitionIndex = 36655;
 
 	class Animation : public ::System::Object
 	{
 	public:
-		::System::String* name; // 0x10
-		::System::Collections::Generic::HashSet_1<::System::String*>* timelineIds; // 0x18
+		::System::Collections::Generic::HashSet_1<::System::String*>* timelineIds; // 0x10
+		::System::String* name; // 0x18
 		::Spine::ExposedList_1<::Spine::Timeline*>* timelines; // 0x20
 		::System::Single duration; // 0x28
 
-		::System::Void _ctor(::System::String* name, ::Spine::ExposedList_1<::Spine::Timeline*>* timelines, ::System::Single duration)
+		::System::Void _ctor(::System::String* a1, ::Spine::ExposedList_1<::Spine::Timeline*>* a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Spine::ExposedList_1<::Spine::Timeline*>*, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATION__CTOR_OFFSET))(this, name, timelines, duration);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Spine::ExposedList_1<::Spine::Timeline*>*, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATION__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::Spine::ExposedList_1<::Spine::Timeline*>* get_Timelines()
@@ -44,14 +44,14 @@ namespace Spine
 			return ((::Spine::ExposedList_1<::Spine::Timeline*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_ANIMATION_GET_TIMELINES_OFFSET))(this);
 		}
 
-		::System::Void set_Timelines(::Spine::ExposedList_1<::Spine::Timeline*>* value)
+		::System::Void set_Timelines(::Spine::ExposedList_1<::Spine::Timeline*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::ExposedList_1<::Spine::Timeline*>*))((::PBYTE)hIl2Cpp + SPINE_ANIMATION_SET_TIMELINES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::ExposedList_1<::Spine::Timeline*>*))((::PBYTE)hIl2Cpp + SPINE_ANIMATION_SET_TIMELINES_OFFSET))(this, a1);
 		}
 
-		::System::Void SetTimelines(::Spine::ExposedList_1<::Spine::Timeline*>* timelines)
+		::System::Void SetTimelines(::Spine::ExposedList_1<::Spine::Timeline*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::ExposedList_1<::Spine::Timeline*>*))((::PBYTE)hIl2Cpp + SPINE_ANIMATION_SETTIMELINES_OFFSET))(this, timelines);
+			return ((::System::Void(*)(::PVOID, ::Spine::ExposedList_1<::Spine::Timeline*>*))((::PBYTE)hIl2Cpp + SPINE_ANIMATION_SETTIMELINES_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Duration()
@@ -59,9 +59,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_ANIMATION_GET_DURATION_OFFSET))(this);
 		}
 
-		::System::Void set_Duration(::System::Single value)
+		::System::Void set_Duration(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATION_SET_DURATION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_ANIMATION_SET_DURATION_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Name()
@@ -69,14 +69,14 @@ namespace Spine
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_ANIMATION_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Boolean HasTimeline(::Il2CppArray<::System::String*>* propertyIds)
+		::System::Boolean HasTimeline(::Il2CppArray<::System::String*>* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SPINE_ANIMATION_HASTIMELINE_OFFSET))(this, propertyIds);
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SPINE_ANIMATION_HASTIMELINE_OFFSET))(this, a1);
 		}
 
-		::System::Void Apply(::Spine::Skeleton* skeleton, ::System::Single lastTime, ::System::Single time, ::System::Boolean loop, ::Spine::ExposedList_1<::Spine::Event*>* events, ::System::Single alpha, ::Spine::MixBlend blend, ::Spine::MixDirection direction)
+		::System::Void Apply(::Spine::Skeleton* a1, ::System::Single a2, ::System::Single a3, ::System::Boolean a4, ::Spine::ExposedList_1<::Spine::Event*>* a5, ::System::Single a6, ::Spine::MixBlend a7, ::Spine::MixDirection a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::System::Single, ::System::Single, ::System::Boolean, ::Spine::ExposedList_1<::Spine::Event*>*, ::System::Single, ::Spine::MixBlend, ::Spine::MixDirection))((::PBYTE)hIl2Cpp + SPINE_ANIMATION_APPLY_OFFSET))(this, skeleton, lastTime, time, loop, events, alpha, blend, direction);
+			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::System::Single, ::System::Single, ::System::Boolean, ::Spine::ExposedList_1<::Spine::Event*>*, ::System::Single, ::Spine::MixBlend, ::Spine::MixDirection))((::PBYTE)hIl2Cpp + SPINE_ANIMATION_APPLY_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		::System::String* ToString()

@@ -6,21 +6,21 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYTERMINATEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16519130)
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYTERMINATEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16519160)
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYTERMINATEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x164F7250)
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYTERMINATEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16519110)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYTERMINATEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1742D910)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYTERMINATEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1742D940)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYTERMINATEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x17411620)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYTERMINATEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1742D8A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_ActivityTerminateDelegate_TypeDefinitionIndex = 6801;
+	inline static constexpr unsigned int PSDelegate_ActivityTerminateDelegate_TypeDefinitionIndex = 7704;
 
 	class PSDelegate_ActivityTerminateDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYTERMINATEDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYTERMINATEDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke()
@@ -28,14 +28,14 @@ namespace MiHoYo::SDK
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYTERMINATEDELEGATE_INVOKE_OFFSET))(this);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYTERMINATEDELEGATE_BEGININVOKE_OFFSET))(this, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYTERMINATEDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 EndInvoke(::System::IAsyncResult* result)
+		::System::Int32 EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYTERMINATEDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYTERMINATEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

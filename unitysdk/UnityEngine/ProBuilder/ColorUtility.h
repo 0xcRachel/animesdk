@@ -10,29 +10,29 @@ namespace UnityEngine::ProBuilder { class CIELabColor; }
 namespace UnityEngine::ProBuilder { class HSVColor; }
 namespace UnityEngine::ProBuilder { class XYZColor; }
 
-#define UNITYENGINE_PROBUILDER_COLORUTILITY_APPROX_OFFSET UNITYSDK_OFFSET(0xB93D730)
-#define UNITYENGINE_PROBUILDER_COLORUTILITY_CIELABFROMRGB_OFFSET UNITYSDK_OFFSET(0xB93E450)
-#define UNITYENGINE_PROBUILDER_COLORUTILITY_DELTAE_OFFSET UNITYSDK_OFFSET(0xB93DBC0)
-#define UNITYENGINE_PROBUILDER_COLORUTILITY_GETCOLORNAME_OFFSET UNITYSDK_OFFSET(0xB93E120)
-#define UNITYENGINE_PROBUILDER_COLORUTILITY_GETCOLOR_OFFSET UNITYSDK_OFFSET(0xB93D750)
-#define UNITYENGINE_PROBUILDER_COLORUTILITY_HSVTORGB_1_OFFSET UNITYSDK_OFFSET(0xB93DDE0)
-#define UNITYENGINE_PROBUILDER_COLORUTILITY_HSVTORGB_OFFSET UNITYSDK_OFFSET(0xB93DC30)
-#define UNITYENGINE_PROBUILDER_COLORUTILITY_RGBTOHSV_OFFSET UNITYSDK_OFFSET(0xB93DF30)
-#define UNITYENGINE_PROBUILDER_COLORUTILITY_RGBTOXYZ_1_OFFSET UNITYSDK_OFFSET(0xB93DA10)
-#define UNITYENGINE_PROBUILDER_COLORUTILITY_RGBTOXYZ_OFFSET UNITYSDK_OFFSET(0xB93D800)
-#define UNITYENGINE_PROBUILDER_COLORUTILITY_XYZTOCIE_LAB_OFFSET UNITYSDK_OFFSET(0xB93C2C0)
-#define UNITYENGINE_PROBUILDER_COLORUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0xB93E4D0)
+#define UNITYENGINE_PROBUILDER_COLORUTILITY_APPROX_OFFSET UNITYSDK_OFFSET(0xC1E0A70)
+#define UNITYENGINE_PROBUILDER_COLORUTILITY_CIELABFROMRGB_OFFSET UNITYSDK_OFFSET(0xC1E1710)
+#define UNITYENGINE_PROBUILDER_COLORUTILITY_DELTAE_OFFSET UNITYSDK_OFFSET(0xC1E0EC0)
+#define UNITYENGINE_PROBUILDER_COLORUTILITY_GETCOLORNAME_OFFSET UNITYSDK_OFFSET(0xC1E1410)
+#define UNITYENGINE_PROBUILDER_COLORUTILITY_GETCOLOR_OFFSET UNITYSDK_OFFSET(0xC1E0A90)
+#define UNITYENGINE_PROBUILDER_COLORUTILITY_HSVTORGB_1_OFFSET UNITYSDK_OFFSET(0xC1E10D0)
+#define UNITYENGINE_PROBUILDER_COLORUTILITY_HSVTORGB_OFFSET UNITYSDK_OFFSET(0xC1E0F20)
+#define UNITYENGINE_PROBUILDER_COLORUTILITY_RGBTOHSV_OFFSET UNITYSDK_OFFSET(0xC1E1220)
+#define UNITYENGINE_PROBUILDER_COLORUTILITY_RGBTOXYZ_1_OFFSET UNITYSDK_OFFSET(0xC1E0D30)
+#define UNITYENGINE_PROBUILDER_COLORUTILITY_RGBTOXYZ_OFFSET UNITYSDK_OFFSET(0xC1E0B40)
+#define UNITYENGINE_PROBUILDER_COLORUTILITY_XYZTOCIE_LAB_OFFSET UNITYSDK_OFFSET(0xC1DF240)
+#define UNITYENGINE_PROBUILDER_COLORUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0xC1E1790)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ColorUtility_TypeDefinitionIndex = 39905;
+	inline static constexpr unsigned int ColorUtility_TypeDefinitionIndex = 40732;
 
 	class ColorUtility : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::ProBuilder::CIELabColor*>** StaticGet_ColorNameLookup()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::ProBuilder::CIELabColor*>**)Il2CppClass::FromTypeDefinitionIndex(ColorUtility_TypeDefinitionIndex)->GetStaticField(0x55800);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::ProBuilder::CIELabColor*>**)Il2CppClass::FromTypeDefinitionIndex(ColorUtility_TypeDefinitionIndex)->GetStaticField(0x4F330);
 		}
 
 		static ::System::Void _cctor()
@@ -40,59 +40,59 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY__CCTOR_OFFSET))();
 		}
 
-		static ::System::Boolean approx(::System::Single lhs, ::System::Single rhs)
+		static ::System::Boolean approx(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Boolean(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_APPROX_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_APPROX_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Color GetColor(::UnityEngine::Vector3 vec)
+		static ::UnityEngine::Color GetColor(::UnityEngine::Vector3 a1)
 		{
-			return ((::UnityEngine::Color(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_GETCOLOR_OFFSET))(vec);
+			return ((::UnityEngine::Color(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_GETCOLOR_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::ProBuilder::XYZColor* RGBToXYZ(::UnityEngine::Color col)
+		static ::UnityEngine::ProBuilder::XYZColor* RGBToXYZ(::UnityEngine::Color a1)
 		{
-			return ((::UnityEngine::ProBuilder::XYZColor*(*)(::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_RGBTOXYZ_OFFSET))(col);
+			return ((::UnityEngine::ProBuilder::XYZColor*(*)(::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_RGBTOXYZ_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::ProBuilder::XYZColor* RGBToXYZ_1(::System::Single r, ::System::Single g, ::System::Single b)
+		static ::UnityEngine::ProBuilder::XYZColor* RGBToXYZ_1(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::UnityEngine::ProBuilder::XYZColor*(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_RGBTOXYZ_1_OFFSET))(r, g, b);
+			return ((::UnityEngine::ProBuilder::XYZColor*(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_RGBTOXYZ_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::ProBuilder::CIELabColor* XYZToCIE_Lab(::UnityEngine::ProBuilder::XYZColor* xyz)
+		static ::UnityEngine::ProBuilder::CIELabColor* XYZToCIE_Lab(::UnityEngine::ProBuilder::XYZColor* a1)
 		{
-			return ((::UnityEngine::ProBuilder::CIELabColor*(*)(::UnityEngine::ProBuilder::XYZColor*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_XYZTOCIE_LAB_OFFSET))(xyz);
+			return ((::UnityEngine::ProBuilder::CIELabColor*(*)(::UnityEngine::ProBuilder::XYZColor*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_XYZTOCIE_LAB_OFFSET))(a1);
 		}
 
-		static ::System::Single DeltaE(::UnityEngine::ProBuilder::CIELabColor* lhs, ::UnityEngine::ProBuilder::CIELabColor* rhs)
+		static ::System::Single DeltaE(::UnityEngine::ProBuilder::CIELabColor* a1, ::UnityEngine::ProBuilder::CIELabColor* a2)
 		{
-			return ((::System::Single(*)(::UnityEngine::ProBuilder::CIELabColor*, ::UnityEngine::ProBuilder::CIELabColor*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_DELTAE_OFFSET))(lhs, rhs);
+			return ((::System::Single(*)(::UnityEngine::ProBuilder::CIELabColor*, ::UnityEngine::ProBuilder::CIELabColor*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_DELTAE_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Color HSVtoRGB(::UnityEngine::ProBuilder::HSVColor* hsv)
+		static ::UnityEngine::Color HSVtoRGB(::UnityEngine::ProBuilder::HSVColor* a1)
 		{
-			return ((::UnityEngine::Color(*)(::UnityEngine::ProBuilder::HSVColor*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_HSVTORGB_OFFSET))(hsv);
+			return ((::UnityEngine::Color(*)(::UnityEngine::ProBuilder::HSVColor*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_HSVTORGB_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Color HSVtoRGB_1(::System::Single h, ::System::Single s, ::System::Single v)
+		static ::UnityEngine::Color HSVtoRGB_1(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::UnityEngine::Color(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_HSVTORGB_1_OFFSET))(h, s, v);
+			return ((::UnityEngine::Color(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_HSVTORGB_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::ProBuilder::HSVColor* RGBtoHSV(::UnityEngine::Color color)
+		static ::UnityEngine::ProBuilder::HSVColor* RGBtoHSV(::UnityEngine::Color a1)
 		{
-			return ((::UnityEngine::ProBuilder::HSVColor*(*)(::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_RGBTOHSV_OFFSET))(color);
+			return ((::UnityEngine::ProBuilder::HSVColor*(*)(::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_RGBTOHSV_OFFSET))(a1);
 		}
 
-		static ::System::String* GetColorName(::UnityEngine::Color InColor)
+		static ::System::String* GetColorName(::UnityEngine::Color a1)
 		{
-			return ((::System::String*(*)(::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_GETCOLORNAME_OFFSET))(InColor);
+			return ((::System::String*(*)(::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_GETCOLORNAME_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::ProBuilder::CIELabColor* CIELabFromRGB(::System::Single R, ::System::Single G, ::System::Single B, ::System::Single Scale)
+		static ::UnityEngine::ProBuilder::CIELabColor* CIELabFromRGB(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::UnityEngine::ProBuilder::CIELabColor*(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_CIELABFROMRGB_OFFSET))(R, G, B, Scale);
+			return ((::UnityEngine::ProBuilder::CIELabColor*(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_COLORUTILITY_CIELABFROMRGB_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

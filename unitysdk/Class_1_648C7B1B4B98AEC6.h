@@ -9,22 +9,22 @@ namespace RPG::GameCore { class LittleGameLevelConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_648C7B1B4B98AEC6_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0x12C723F0)
-#define CLASS_1_648C7B1B4B98AEC6_METHOD_1_16E792B668863BDD_OFFSET UNITYSDK_OFFSET(0x12C72430)
-#define CLASS_1_648C7B1B4B98AEC6_METHOD_1_809094DEBF13B21A_OFFSET UNITYSDK_OFFSET(0x12C725F0)
-#define CLASS_1_648C7B1B4B98AEC6_METHOD_1_89C3D3C22458DF76_OFFSET UNITYSDK_OFFSET(0x12C727E0)
-#define CLASS_1_648C7B1B4B98AEC6_METHOD_1_B71EC7803FF07770_OFFSET UNITYSDK_OFFSET(0x12C729C0)
-#define CLASS_1_648C7B1B4B98AEC6_METHOD_1_CF703479DC99D27C_OFFSET UNITYSDK_OFFSET(0x12C72930)
-#define CLASS_1_648C7B1B4B98AEC6__CTOR_OFFSET UNITYSDK_OFFSET(0x12C724B0)
+#define CLASS_1_648C7B1B4B98AEC6_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0x15381020)
+#define CLASS_1_648C7B1B4B98AEC6_METHOD_1_16E792B668863BDD_OFFSET UNITYSDK_OFFSET(0x15381060)
+#define CLASS_1_648C7B1B4B98AEC6_METHOD_1_809094DEBF13B21A_OFFSET UNITYSDK_OFFSET(0x15381220)
+#define CLASS_1_648C7B1B4B98AEC6_METHOD_1_B71EC7803FF07770_OFFSET UNITYSDK_OFFSET(0x153815A0)
+#define CLASS_1_648C7B1B4B98AEC6_METHOD_1_D9B69CBFF2C3295F_OFFSET UNITYSDK_OFFSET(0x153813F0)
+#define CLASS_1_648C7B1B4B98AEC6_METHOD_1_E94FB3AC6CD51D5D_OFFSET UNITYSDK_OFFSET(0x15381510)
+#define CLASS_1_648C7B1B4B98AEC6__CTOR_OFFSET UNITYSDK_OFFSET(0x153810E0)
 
-inline static constexpr unsigned int Class_1_648C7B1B4B98AEC6_TypeDefinitionIndex = 71529;
+inline static constexpr unsigned int Class_1_648C7B1B4B98AEC6_TypeDefinitionIndex = 72551;
 
 class Class_1_648C7B1B4B98AEC6 : public ::System::Object
 {
 public:
-	::RPG::GameCore::LittleGameLevelConfig* Field_1_1; // 0x10
-	::Class_1_532073A7C89441B0* Field_1_0; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LittleGameEntityConfig*>* Field_1_2; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LittleGameEntityConfig*>* Field_1_0; // 0x10
+	::RPG::GameCore::LittleGameLevelConfig* Field_1_1; // 0x18
+	::Class_1_532073A7C89441B0* Field_1_2; // 0x20
 
 	::System::Void _ctor(::Class_1_532073A7C89441B0* a1)
 	{
@@ -41,14 +41,14 @@ public:
 		return ((::Class_1_648C7B1B4B98AEC6*(*)(::Class_1_532073A7C89441B0*))((::PBYTE)hIl2Cpp + CLASS_1_648C7B1B4B98AEC6_METHOD_1_16E792B668863BDD_OFFSET))(a1);
 	}
 
-	::RPG::GameCore::LittleGameEntityConfig* Method_1_89C3D3C22458DF76(::System::UInt32 a1)
+	::RPG::GameCore::LittleGameEntityConfig* Method_1_D9B69CBFF2C3295F(::System::UInt32 a1)
 	{
-		return ((::RPG::GameCore::LittleGameEntityConfig*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_648C7B1B4B98AEC6_METHOD_1_89C3D3C22458DF76_OFFSET))(this, a1);
+		return ((::RPG::GameCore::LittleGameEntityConfig*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_648C7B1B4B98AEC6_METHOD_1_D9B69CBFF2C3295F_OFFSET))(this, a1);
 	}
 
-	::RPG::GameCore::CakeRaceRegionConfig* Method_1_CF703479DC99D27C(::System::UInt32 a1)
+	::RPG::GameCore::CakeRaceRegionConfig* Method_1_E94FB3AC6CD51D5D(::System::UInt32 a1)
 	{
-		return ((::RPG::GameCore::CakeRaceRegionConfig*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_648C7B1B4B98AEC6_METHOD_1_CF703479DC99D27C_OFFSET))(this, a1);
+		return ((::RPG::GameCore::CakeRaceRegionConfig*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_648C7B1B4B98AEC6_METHOD_1_E94FB3AC6CD51D5D_OFFSET))(this, a1);
 	}
 
 	::RPG::GameCore::CakeRaceRegionConfig* Method_1_B71EC7803FF07770(::System::UInt32 a1, ::System::Int32& a2, ::System::Int32& a3)

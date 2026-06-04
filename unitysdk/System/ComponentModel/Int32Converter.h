@@ -7,11 +7,11 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Globalization { class NumberFormatInfo; }
 
-#define SYSTEM_COMPONENTMODEL_INT32CONVERTER_FROMSTRING_1_OFFSET UNITYSDK_OFFSET(0x182FFAE0)
-#define SYSTEM_COMPONENTMODEL_INT32CONVERTER_FROMSTRING_OFFSET UNITYSDK_OFFSET(0x182FFA30)
-#define SYSTEM_COMPONENTMODEL_INT32CONVERTER_GET_TARGETTYPE_OFFSET UNITYSDK_OFFSET(0x182FFA00)
-#define SYSTEM_COMPONENTMODEL_INT32CONVERTER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x182FFB20)
-#define SYSTEM_COMPONENTMODEL_INT32CONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x182FFBB0)
+#define SYSTEM_COMPONENTMODEL_INT32CONVERTER_FROMSTRING_1_OFFSET UNITYSDK_OFFSET(0x1816F080)
+#define SYSTEM_COMPONENTMODEL_INT32CONVERTER_FROMSTRING_OFFSET UNITYSDK_OFFSET(0x1816EFD0)
+#define SYSTEM_COMPONENTMODEL_INT32CONVERTER_GET_TARGETTYPE_OFFSET UNITYSDK_OFFSET(0x1816EFA0)
+#define SYSTEM_COMPONENTMODEL_INT32CONVERTER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1816F0C0)
+#define SYSTEM_COMPONENTMODEL_INT32CONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1816F150)
 
 namespace System::ComponentModel
 {
@@ -30,19 +30,19 @@ namespace System::ComponentModel
 			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_INT32CONVERTER_GET_TARGETTYPE_OFFSET))(this);
 		}
 
-		::System::Object* FromString(::System::String* value, ::System::Int32 radix)
+		::System::Object* FromString(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_INT32CONVERTER_FROMSTRING_OFFSET))(this, value, radix);
+			return ((::System::Object*(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_INT32CONVERTER_FROMSTRING_OFFSET))(this, a1, a2);
 		}
 
-		::System::Object* FromString_1(::System::String* value, ::System::Globalization::NumberFormatInfo* formatInfo)
+		::System::Object* FromString_1(::System::String* a1, ::System::Globalization::NumberFormatInfo* a2)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::String*, ::System::Globalization::NumberFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_INT32CONVERTER_FROMSTRING_1_OFFSET))(this, value, formatInfo);
+			return ((::System::Object*(*)(::PVOID, ::System::String*, ::System::Globalization::NumberFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_INT32CONVERTER_FROMSTRING_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::String* ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo)
+		::System::String* ToString(::System::Object* a1, ::System::Globalization::NumberFormatInfo* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Object*, ::System::Globalization::NumberFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_INT32CONVERTER_TOSTRING_OFFSET))(this, value, formatInfo);
+			return ((::System::String*(*)(::PVOID, ::System::Object*, ::System::Globalization::NumberFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_INT32CONVERTER_TOSTRING_OFFSET))(this, a1, a2);
 		}
 	};
 }

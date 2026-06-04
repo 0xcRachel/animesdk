@@ -10,41 +10,41 @@
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLE2_OFFSET UNITYSDK_OFFSET(0x1A571AC0)
-#define UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLE3_OFFSET UNITYSDK_OFFSET(0x1A571B30)
-#define UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLE4_OFFSET UNITYSDK_OFFSET(0x1A571BC0)
-#define UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE2IMPL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A571C70)
-#define UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE2IMPL_OFFSET UNITYSDK_OFFSET(0x1A571B20)
-#define UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE3IMPL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A571C80)
-#define UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE3IMPL_OFFSET UNITYSDK_OFFSET(0x1A571BB0)
-#define UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE4IMPL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A571C90)
-#define UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE4IMPL_OFFSET UNITYSDK_OFFSET(0x1A571C60)
-#define UNITYENGINE_PROFILING_PROFILER_GETCURRENTTHREADNAME_OFFSET UNITYSDK_OFFSET(0x1A571DC0)
-#define UNITYENGINE_PROFILING_PROFILER_GETGFXTEXMEMORYINFO_OFFSET UNITYSDK_OFFSET(0x1A571DB0)
-#define UNITYENGINE_PROFILING_PROFILER_GETGFXTOTALBATCHCALLS_OFFSET UNITYSDK_OFFSET(0x1A571CE0)
-#define UNITYENGINE_PROFILING_PROFILER_GETGFXTOTALTRIANGLECOUNT_OFFSET UNITYSDK_OFFSET(0x1A571CF0)
-#define UNITYENGINE_PROFILING_PROFILER_GETMONOHEAPSIZELONG_OFFSET UNITYSDK_OFFSET(0x1A571D70)
-#define UNITYENGINE_PROFILING_PROFILER_GETMONOUSEDSIZELONG_OFFSET UNITYSDK_OFFSET(0x1A571D80)
-#define UNITYENGINE_PROFILING_PROFILER_GETRENDERERBATCHCALLS_OFFSET UNITYSDK_OFFSET(0x1A571CB0)
-#define UNITYENGINE_PROFILING_PROFILER_GETRENDERERVERTEXCOUNT_OFFSET UNITYSDK_OFFSET(0x1A571CC0)
-#define UNITYENGINE_PROFILING_PROFILER_GETRUNTIMEMEMORYSIZELONG_OFFSET UNITYSDK_OFFSET(0x1A571CA0)
-#define UNITYENGINE_PROFILING_PROFILER_GETTOTALALLOCATEDMEMORYLONG_OFFSET UNITYSDK_OFFSET(0x1A571D90)
-#define UNITYENGINE_PROFILING_PROFILER_GETTOTALRESERVEDMEMORYLONG_OFFSET UNITYSDK_OFFSET(0x1A571DA0)
-#define UNITYENGINE_PROFILING_PROFILER_GETVISIBLERATIO_OFFSET UNITYSDK_OFFSET(0x1A571D60)
-#define UNITYENGINE_PROFILING_PROFILER_GETWAITCLIENTTIME_OFFSET UNITYSDK_OFFSET(0x1A571CD0)
-#define UNITYENGINE_PROFILING_PROFILER_GET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1A571AA0)
-#define UNITYENGINE_PROFILING_PROFILER_GET_SUPPORTED_OFFSET UNITYSDK_OFFSET(0x1A571A90)
-#define UNITYENGINE_PROFILING_PROFILER_INITVISRATIO_OFFSET UNITYSDK_OFFSET(0x1A571D40)
-#define UNITYENGINE_PROFILING_PROFILER_SETDEFAULTPSPROFILETYPE_OFFSET UNITYSDK_OFFSET(0x1A571D20)
-#define UNITYENGINE_PROFILING_PROFILER_SETFILTERLAYERS_OFFSET UNITYSDK_OFFSET(0x1A571D30)
-#define UNITYENGINE_PROFILING_PROFILER_SETQUERYENABLE_OFFSET UNITYSDK_OFFSET(0x1A571D50)
-#define UNITYENGINE_PROFILING_PROFILER_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1A571AB0)
-#define UNITYENGINE_PROFILING_PROFILER_STARTRUNTIMEPROFILER_OFFSET UNITYSDK_OFFSET(0x1A571D00)
-#define UNITYENGINE_PROFILING_PROFILER_STOPRUNTIMEPROFILER_OFFSET UNITYSDK_OFFSET(0x1A571D10)
+#define UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLE2_OFFSET UNITYSDK_OFFSET(0x1B3143C0)
+#define UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLE3_OFFSET UNITYSDK_OFFSET(0x1B314430)
+#define UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLE4_OFFSET UNITYSDK_OFFSET(0x1B3144C0)
+#define UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE2IMPL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B314570)
+#define UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE2IMPL_OFFSET UNITYSDK_OFFSET(0x1B314420)
+#define UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE3IMPL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B314580)
+#define UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE3IMPL_OFFSET UNITYSDK_OFFSET(0x1B3144B0)
+#define UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE4IMPL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B314590)
+#define UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE4IMPL_OFFSET UNITYSDK_OFFSET(0x1B314560)
+#define UNITYENGINE_PROFILING_PROFILER_GETCURRENTTHREADNAME_OFFSET UNITYSDK_OFFSET(0x1B3146C0)
+#define UNITYENGINE_PROFILING_PROFILER_GETGFXTEXMEMORYINFO_OFFSET UNITYSDK_OFFSET(0x1B3146B0)
+#define UNITYENGINE_PROFILING_PROFILER_GETGFXTOTALBATCHCALLS_OFFSET UNITYSDK_OFFSET(0x1B3145E0)
+#define UNITYENGINE_PROFILING_PROFILER_GETGFXTOTALTRIANGLECOUNT_OFFSET UNITYSDK_OFFSET(0x1B3145F0)
+#define UNITYENGINE_PROFILING_PROFILER_GETMONOHEAPSIZELONG_OFFSET UNITYSDK_OFFSET(0x1B314670)
+#define UNITYENGINE_PROFILING_PROFILER_GETMONOUSEDSIZELONG_OFFSET UNITYSDK_OFFSET(0x1B314680)
+#define UNITYENGINE_PROFILING_PROFILER_GETRENDERERBATCHCALLS_OFFSET UNITYSDK_OFFSET(0x1B3145B0)
+#define UNITYENGINE_PROFILING_PROFILER_GETRENDERERVERTEXCOUNT_OFFSET UNITYSDK_OFFSET(0x1B3145C0)
+#define UNITYENGINE_PROFILING_PROFILER_GETRUNTIMEMEMORYSIZELONG_OFFSET UNITYSDK_OFFSET(0x1B3145A0)
+#define UNITYENGINE_PROFILING_PROFILER_GETTOTALALLOCATEDMEMORYLONG_OFFSET UNITYSDK_OFFSET(0x1B314690)
+#define UNITYENGINE_PROFILING_PROFILER_GETTOTALRESERVEDMEMORYLONG_OFFSET UNITYSDK_OFFSET(0x1B3146A0)
+#define UNITYENGINE_PROFILING_PROFILER_GETVISIBLERATIO_OFFSET UNITYSDK_OFFSET(0x1B314660)
+#define UNITYENGINE_PROFILING_PROFILER_GETWAITCLIENTTIME_OFFSET UNITYSDK_OFFSET(0x1B3145D0)
+#define UNITYENGINE_PROFILING_PROFILER_GET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1B3143A0)
+#define UNITYENGINE_PROFILING_PROFILER_GET_SUPPORTED_OFFSET UNITYSDK_OFFSET(0x1B314390)
+#define UNITYENGINE_PROFILING_PROFILER_INITVISRATIO_OFFSET UNITYSDK_OFFSET(0x1B314640)
+#define UNITYENGINE_PROFILING_PROFILER_SETDEFAULTPSPROFILETYPE_OFFSET UNITYSDK_OFFSET(0x1B314620)
+#define UNITYENGINE_PROFILING_PROFILER_SETFILTERLAYERS_OFFSET UNITYSDK_OFFSET(0x1B314630)
+#define UNITYENGINE_PROFILING_PROFILER_SETQUERYENABLE_OFFSET UNITYSDK_OFFSET(0x1B314650)
+#define UNITYENGINE_PROFILING_PROFILER_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1B3143B0)
+#define UNITYENGINE_PROFILING_PROFILER_STARTRUNTIMEPROFILER_OFFSET UNITYSDK_OFFSET(0x1B314600)
+#define UNITYENGINE_PROFILING_PROFILER_STOPRUNTIMEPROFILER_OFFSET UNITYSDK_OFFSET(0x1B314610)
 
 namespace UnityEngine::Profiling
 {
-	inline static constexpr unsigned int Profiler_TypeDefinitionIndex = 4323;
+	inline static constexpr unsigned int Profiler_TypeDefinitionIndex = 4497;
 
 	class Profiler : public ::System::Object
 	{
@@ -59,54 +59,54 @@ namespace UnityEngine::Profiling
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_GET_ENABLED_OFFSET))();
 		}
 
-		static ::System::Void set_enabled(::System::Boolean value)
+		static ::System::Void set_enabled(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_SET_ENABLED_OFFSET))(value);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_SET_ENABLED_OFFSET))(a1);
 		}
 
-		static ::System::Void BeginSample2(::System::String* format, ::UnityEngine::AnyType arg1, ::UnityEngine::Object* targetObject)
+		static ::System::Void BeginSample2(::System::String* a1, ::UnityEngine::AnyType a2, ::UnityEngine::Object* a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::UnityEngine::AnyType, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLE2_OFFSET))(format, arg1, targetObject);
+			return ((::System::Void(*)(::System::String*, ::UnityEngine::AnyType, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLE2_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void BeginSample3(::System::String* format, ::UnityEngine::AnyType arg1, ::UnityEngine::AnyType arg2, ::UnityEngine::Object* targetObject)
+		static ::System::Void BeginSample3(::System::String* a1, ::UnityEngine::AnyType a2, ::UnityEngine::AnyType a3, ::UnityEngine::Object* a4)
 		{
-			return ((::System::Void(*)(::System::String*, ::UnityEngine::AnyType, ::UnityEngine::AnyType, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLE3_OFFSET))(format, arg1, arg2, targetObject);
+			return ((::System::Void(*)(::System::String*, ::UnityEngine::AnyType, ::UnityEngine::AnyType, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLE3_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void BeginSample4(::System::String* format, ::UnityEngine::AnyType arg1, ::UnityEngine::AnyType arg2, ::UnityEngine::AnyType arg3, ::UnityEngine::Object* targetObject)
+		static ::System::Void BeginSample4(::System::String* a1, ::UnityEngine::AnyType a2, ::UnityEngine::AnyType a3, ::UnityEngine::AnyType a4, ::UnityEngine::Object* a5)
 		{
-			return ((::System::Void(*)(::System::String*, ::UnityEngine::AnyType, ::UnityEngine::AnyType, ::UnityEngine::AnyType, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLE4_OFFSET))(format, arg1, arg2, arg3, targetObject);
+			return ((::System::Void(*)(::System::String*, ::UnityEngine::AnyType, ::UnityEngine::AnyType, ::UnityEngine::AnyType, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLE4_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void BeginSampleWithTuple2Impl(::UnityEngine::AnyTuple2 name, ::UnityEngine::Object* targetObject)
+		static ::System::Void BeginSampleWithTuple2Impl(::UnityEngine::AnyTuple2 a1, ::UnityEngine::Object* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::AnyTuple2, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE2IMPL_OFFSET))(name, targetObject);
+			return ((::System::Void(*)(::UnityEngine::AnyTuple2, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE2IMPL_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void BeginSampleWithTuple3Impl(::UnityEngine::AnyTuple3 name, ::UnityEngine::Object* targetObject)
+		static ::System::Void BeginSampleWithTuple3Impl(::UnityEngine::AnyTuple3 a1, ::UnityEngine::Object* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::AnyTuple3, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE3IMPL_OFFSET))(name, targetObject);
+			return ((::System::Void(*)(::UnityEngine::AnyTuple3, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE3IMPL_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void BeginSampleWithTuple4Impl(::UnityEngine::AnyTuple4 name, ::UnityEngine::Object* targetObject)
+		static ::System::Void BeginSampleWithTuple4Impl(::UnityEngine::AnyTuple4 a1, ::UnityEngine::Object* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::AnyTuple4, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE4IMPL_OFFSET))(name, targetObject);
+			return ((::System::Void(*)(::UnityEngine::AnyTuple4, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE4IMPL_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int64 GetRuntimeMemorySizeLong(::UnityEngine::Object* o)
+		static ::System::Int64 GetRuntimeMemorySizeLong(::UnityEngine::Object* a1)
 		{
-			return ((::System::Int64(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_GETRUNTIMEMEMORYSIZELONG_OFFSET))(o);
+			return ((::System::Int64(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_GETRUNTIMEMEMORYSIZELONG_OFFSET))(a1);
 		}
 
-		static ::System::Int32 GetRendererBatchCalls(::UnityEngine::Profiling::RendererType renderType)
+		static ::System::Int32 GetRendererBatchCalls(::UnityEngine::Profiling::RendererType a1)
 		{
-			return ((::System::Int32(*)(::UnityEngine::Profiling::RendererType))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_GETRENDERERBATCHCALLS_OFFSET))(renderType);
+			return ((::System::Int32(*)(::UnityEngine::Profiling::RendererType))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_GETRENDERERBATCHCALLS_OFFSET))(a1);
 		}
 
-		static ::System::Int32 GetRendererVertexCount(::UnityEngine::Profiling::RendererType renderType)
+		static ::System::Int32 GetRendererVertexCount(::UnityEngine::Profiling::RendererType a1)
 		{
-			return ((::System::Int32(*)(::UnityEngine::Profiling::RendererType))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_GETRENDERERVERTEXCOUNT_OFFSET))(renderType);
+			return ((::System::Int32(*)(::UnityEngine::Profiling::RendererType))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_GETRENDERERVERTEXCOUNT_OFFSET))(a1);
 		}
 
 		static ::System::Single GetWaitClientTime()
@@ -134,29 +134,29 @@ namespace UnityEngine::Profiling
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_STOPRUNTIMEPROFILER_OFFSET))();
 		}
 
-		static ::System::Void SetDefaultPSProfileType(::System::UInt32 profileType)
+		static ::System::Void SetDefaultPSProfileType(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_SETDEFAULTPSPROFILETYPE_OFFSET))(profileType);
+			return ((::System::Void(*)(::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_SETDEFAULTPSPROFILETYPE_OFFSET))(a1);
 		}
 
-		static ::System::Void SetFilterLayers(::System::UInt32 id)
+		static ::System::Void SetFilterLayers(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_SETFILTERLAYERS_OFFSET))(id);
+			return ((::System::Void(*)(::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_SETFILTERLAYERS_OFFSET))(a1);
 		}
 
-		static ::System::Void InitVisRatio(::System::Int32 count)
+		static ::System::Void InitVisRatio(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_INITVISRATIO_OFFSET))(count);
+			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_INITVISRATIO_OFFSET))(a1);
 		}
 
-		static ::System::Void SetQueryEnable(::System::UInt32 type, ::System::Boolean enable, ::System::UInt32 queryEvent, ::System::Int32 cameraType)
+		static ::System::Void SetQueryEnable(::System::UInt32 a1, ::System::Boolean a2, ::System::UInt32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::System::UInt32, ::System::Boolean, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_SETQUERYENABLE_OFFSET))(type, enable, queryEvent, cameraType);
+			return ((::System::Void(*)(::System::UInt32, ::System::Boolean, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_SETQUERYENABLE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Single GetVisibleRatio(::System::UInt32 type, ::System::Int32 cameraType)
+		static ::System::Single GetVisibleRatio(::System::UInt32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Single(*)(::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_GETVISIBLERATIO_OFFSET))(type, cameraType);
+			return ((::System::Single(*)(::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_GETVISIBLERATIO_OFFSET))(a1, a2);
 		}
 
 		static ::System::Int64 GetMonoHeapSizeLong()
@@ -189,19 +189,19 @@ namespace UnityEngine::Profiling
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_GETCURRENTTHREADNAME_OFFSET))();
 		}
 
-		static ::System::Void BeginSampleWithTuple2Impl_Injected(::UnityEngine::AnyTuple2& name, ::UnityEngine::Object* targetObject)
+		static ::System::Void BeginSampleWithTuple2Impl_Injected(::UnityEngine::AnyTuple2& a1, ::UnityEngine::Object* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::AnyTuple2&, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE2IMPL_INJECTED_OFFSET))(name, targetObject);
+			return ((::System::Void(*)(::UnityEngine::AnyTuple2&, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE2IMPL_INJECTED_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void BeginSampleWithTuple3Impl_Injected(::UnityEngine::AnyTuple3& name, ::UnityEngine::Object* targetObject)
+		static ::System::Void BeginSampleWithTuple3Impl_Injected(::UnityEngine::AnyTuple3& a1, ::UnityEngine::Object* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::AnyTuple3&, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE3IMPL_INJECTED_OFFSET))(name, targetObject);
+			return ((::System::Void(*)(::UnityEngine::AnyTuple3&, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE3IMPL_INJECTED_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void BeginSampleWithTuple4Impl_Injected(::UnityEngine::AnyTuple4& name, ::UnityEngine::Object* targetObject)
+		static ::System::Void BeginSampleWithTuple4Impl_Injected(::UnityEngine::AnyTuple4& a1, ::UnityEngine::Object* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::AnyTuple4&, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE4IMPL_INJECTED_OFFSET))(name, targetObject);
+			return ((::System::Void(*)(::UnityEngine::AnyTuple4&, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_PROFILER_BEGINSAMPLEWITHTUPLE4IMPL_INJECTED_OFFSET))(a1, a2);
 		}
 	};
 }

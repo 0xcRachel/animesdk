@@ -19,42 +19,50 @@ namespace UnityEngine { class TerrainData; }
 namespace UnityEngine { class TerrainLayer; }
 namespace UnityEngine { class Texture2D; }
 
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_APPLYPRESET_OFFSET UNITYSDK_OFFSET(0x17DFE160)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_COPYDETAILPROPERTIES_OFFSET UNITYSDK_OFFSET(0x17DFED10)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_COPYLAYER_OFFSET UNITYSDK_OFFSET(0x17DFBDD0)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_COPYPROTOTYPE_OFFSET UNITYSDK_OFFSET(0x17DFED50)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_COPYVALUESTO_OFFSET UNITYSDK_OFFSET(0x17DFEB40)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_FINISHUPDATELAYERS_OFFSET UNITYSDK_OFFSET(0x17DFBC70)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GENERATETERRAINWITHALPHAMAPS_OFFSET UNITYSDK_OFFSET(0x17DFC850)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GETLAYER_OFFSET UNITYSDK_OFFSET(0x17DFBED0)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GETPARTLAYERATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x17DFC010)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_GEONAME_OFFSET UNITYSDK_OFFSET(0x17DFAE10)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x17DFADD0)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_OBJECTNAME_OFFSET UNITYSDK_OFFSET(0x17DFAE00)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_TILEINDEX_OFFSET UNITYSDK_OFFSET(0x17DFADF0)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_UIEXPANDED_OFFSET UNITYSDK_OFFSET(0x17DFAE20)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x17DFBC20)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADASSETTEXTURE_OFFSET UNITYSDK_OFFSET(0x17DFC240)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADDEFAULTSPLATTEXTURE_OFFSET UNITYSDK_OFFSET(0x17DFE420)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADLAYERCOLORFROMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x17DFC4B0)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADLAYERFLOATFROMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x17DFC340)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADLAYERPROPERTIESFROMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x17DFE450)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADLAYERTEXTUREFROMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x17DFC190)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADLAYERVECTOR2FROMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x17DFC6D0)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_POPULATEDETAILPROTOTYPE_OFFSET UNITYSDK_OFFSET(0x17DFE940)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_POPULATEPRESET_OFFSET UNITYSDK_OFFSET(0x17DFE970)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_POPULATESCATTERTREES_OFFSET UNITYSDK_OFFSET(0x17DFE910)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_RESETPARAMETERS_OFFSET UNITYSDK_OFFSET(0x17DFBC90)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_SET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x17DFADE0)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_SET_UIEXPANDED_OFFSET UNITYSDK_OFFSET(0x17DFAE30)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_STARTUPDATELAYERS_OFFSET UNITYSDK_OFFSET(0x17DFB840)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_UPDATELAYERFROMPART_OFFSET UNITYSDK_OFFSET(0x17DFB890)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_UPDATEVOLUMECACHESFROMPARTS_OFFSET UNITYSDK_OFFSET(0x17DFAE40)
-#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x17DFEDA0)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_APPLYPRESET_OFFSET UNITYSDK_OFFSET(0x18315160)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_COPYDETAILPROPERTIES_OFFSET UNITYSDK_OFFSET(0x18318BE0)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_COPYLAYER_OFFSET UNITYSDK_OFFSET(0x18314CA0)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_COPYPROTOTYPE_OFFSET UNITYSDK_OFFSET(0x18318C10)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_COPYVALUESTO_OFFSET UNITYSDK_OFFSET(0x183189E0)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_FINISHUPDATELAYERS_OFFSET UNITYSDK_OFFSET(0x18316380)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GENERATETERRAINWITHALPHAMAPS_OFFSET UNITYSDK_OFFSET(0x18316CF0)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GETLAYER_OFFSET UNITYSDK_OFFSET(0x18314DA0)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GETPARTLAYERATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x183163A0)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GETSESSION_OFFSET UNITYSDK_OFFSET(0x18314B00)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_DETAILPROPERTIES_OFFSET UNITYSDK_OFFSET(0x18314AA0)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_GEONAME_OFFSET UNITYSDK_OFFSET(0x18314A70)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x18314AC0)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_LAYERS_OFFSET UNITYSDK_OFFSET(0x18314A40)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_OBJECTNAME_OFFSET UNITYSDK_OFFSET(0x18314A60)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_PARENTASSET_OFFSET UNITYSDK_OFFSET(0x18314AB0)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_SCATTERTREES_OFFSET UNITYSDK_OFFSET(0x18314A90)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_TERRAINDATA_OFFSET UNITYSDK_OFFSET(0x18314A80)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_TILEINDEX_OFFSET UNITYSDK_OFFSET(0x18314A50)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_UIEXPANDED_OFFSET UNITYSDK_OFFSET(0x18314AE0)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x18316310)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x18318C60)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADASSETTEXTURE_OFFSET UNITYSDK_OFFSET(0x18316490)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADDEFAULTSPLATTEXTURE_OFFSET UNITYSDK_OFFSET(0x18318430)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADLAYERCOLORFROMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x183167B0)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADLAYERFLOATFROMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x18316560)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADLAYERPROPERTIESFROMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x183184D0)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADLAYERTEXTUREFROMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x183163F0)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADLAYERVECTOR2FROMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x18316A90)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_POPULATEDETAILPROTOTYPE_OFFSET UNITYSDK_OFFSET(0x183189B0)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_POPULATEPRESET_OFFSET UNITYSDK_OFFSET(0x18314F00)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_POPULATESCATTERTREES_OFFSET UNITYSDK_OFFSET(0x18318970)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_RECOOK_OFFSET UNITYSDK_OFFSET(0x18314B70)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_RESETPARAMETERS_OFFSET UNITYSDK_OFFSET(0x18314B80)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_SET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x18314AD0)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_SET_UIEXPANDED_OFFSET UNITYSDK_OFFSET(0x18314AF0)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_STARTUPDATELAYERS_OFFSET UNITYSDK_OFFSET(0x18315E00)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_UPDATELAYERFROMPART_OFFSET UNITYSDK_OFFSET(0x18315E50)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE_UPDATEVOLUMECACHESFROMPARTS_OFFSET UNITYSDK_OFFSET(0x183153B0)
+#define HOUDINIENGINEUNITY_HEU_VOLUMECACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x18318F00)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_VolumeCache_TypeDefinitionIndex = 43747;
+	inline static constexpr unsigned int HEU_VolumeCache_TypeDefinitionIndex = 37811;
 
 	class HEU_VolumeCache : public ::UnityEngine::ScriptableObject
 	{
@@ -70,20 +78,16 @@ namespace HoudiniEngineUnity
 		::UnityEngine::TerrainData* _terrainData; // 0x50
 		::HoudiniEngineUnity::HEU_VolumeScatterTrees* _scatterTrees; // 0x58
 		::HoudiniEngineUnity::HEU_DetailProperties* _detailProperties; // 0x60
+		::HoudiniEngineUnity::HEU_HoudiniAsset* _parentAsset; // 0x68
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean get_IsDirty()
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayer*>* get_Layers()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_ISDIRTY_OFFSET))(this);
-		}
-
-		::System::Void set_IsDirty(::System::Boolean value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_SET_ISDIRTY_OFFSET))(this, value);
+			return ((::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_LAYERS_OFFSET))(this);
 		}
 
 		::System::Int32 get_TileIndex()
@@ -101,24 +105,54 @@ namespace HoudiniEngineUnity
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_GEONAME_OFFSET))(this);
 		}
 
+		::UnityEngine::TerrainData* get_TerrainData()
+		{
+			return ((::UnityEngine::TerrainData*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_TERRAINDATA_OFFSET))(this);
+		}
+
+		::HoudiniEngineUnity::HEU_VolumeScatterTrees* get_ScatterTrees()
+		{
+			return ((::HoudiniEngineUnity::HEU_VolumeScatterTrees*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_SCATTERTREES_OFFSET))(this);
+		}
+
+		::HoudiniEngineUnity::HEU_DetailProperties* get_DetailProperties()
+		{
+			return ((::HoudiniEngineUnity::HEU_DetailProperties*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_DETAILPROPERTIES_OFFSET))(this);
+		}
+
+		::HoudiniEngineUnity::HEU_HoudiniAsset* get_ParentAsset()
+		{
+			return ((::HoudiniEngineUnity::HEU_HoudiniAsset*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_PARENTASSET_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsDirty()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_ISDIRTY_OFFSET))(this);
+		}
+
+		::System::Void set_IsDirty(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_SET_ISDIRTY_OFFSET))(this, a1);
+		}
+
 		::System::Boolean get_UIExpanded()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GET_UIEXPANDED_OFFSET))(this);
 		}
 
-		::System::Void set_UIExpanded(::System::Boolean value)
+		::System::Void set_UIExpanded(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_SET_UIEXPANDED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_SET_UIEXPANDED_OFFSET))(this, a1);
 		}
 
-		static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache*>* UpdateVolumeCachesFromParts(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GeoNode* ownerNode, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* volumeParts, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache*>* volumeCaches)
+		::HoudiniEngineUnity::HEU_SessionBase* GetSession()
 		{
-			return ((::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache*>*(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_GeoNode*, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>*, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_UPDATEVOLUMECACHESFROMPARTS_OFFSET))(session, ownerNode, volumeParts, volumeCaches);
+			return ((::HoudiniEngineUnity::HEU_SessionBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GETSESSION_OFFSET))(this);
 		}
 
-		::System::Void Initialize(::HoudiniEngineUnity::HEU_GeoNode* ownerNode, ::System::Int32 tileIndex)
+		::System::Void Recook()
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_GeoNode*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_INITIALIZE_OFFSET))(this, ownerNode, tileIndex);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_RECOOK_OFFSET))(this);
 		}
 
 		::System::Void ResetParameters()
@@ -126,9 +160,29 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_RESETPARAMETERS_OFFSET))(this);
 		}
 
-		::HoudiniEngineUnity::HEU_VolumeLayer* GetLayer(::System::String* layerName)
+		::HoudiniEngineUnity::HEU_VolumeLayer* GetLayer(::System::String* a1)
 		{
-			return ((::HoudiniEngineUnity::HEU_VolumeLayer*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GETLAYER_OFFSET))(this, layerName);
+			return ((::HoudiniEngineUnity::HEU_VolumeLayer*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GETLAYER_OFFSET))(this, a1);
+		}
+
+		::System::Void PopulatePreset(::HoudiniEngineUnity::HEU_VolumeCachePreset* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_VolumeCachePreset*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_POPULATEPRESET_OFFSET))(this, a1);
+		}
+
+		::System::Boolean ApplyPreset(::HoudiniEngineUnity::HEU_VolumeCachePreset* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_VolumeCachePreset*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_APPLYPRESET_OFFSET))(this, a1);
+		}
+
+		static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache*>* UpdateVolumeCachesFromParts(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_GeoNode* a2, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* a3, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache*>* a4)
+		{
+			return ((::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache*>*(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_GeoNode*, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>*, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_UPDATEVOLUMECACHESFROMPARTS_OFFSET))(a1, a2, a3, a4);
+		}
+
+		::System::Void Initialize(::HoudiniEngineUnity::HEU_GeoNode* a1, ::System::Int32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_GeoNode*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_INITIALIZE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void StartUpdateLayers()
@@ -141,84 +195,74 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_FINISHUPDATELAYERS_OFFSET))(this);
 		}
 
-		::System::Void GetPartLayerAttributes(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::HoudiniEngineUnity::HEU_VolumeLayer* layer)
+		::System::Void GetPartLayerAttributes(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::HoudiniEngineUnity::HEU_VolumeLayer* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::HEU_VolumeLayer*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GETPARTLAYERATTRIBUTES_OFFSET))(this, session, geoID, partID, layer);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::HEU_VolumeLayer*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GETPARTLAYERATTRIBUTES_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean LoadLayerTextureFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::System::String* attrName, ::UnityEngine::Texture2D*& outTexture)
+		::System::Boolean LoadLayerTextureFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::UnityEngine::Texture2D*& a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*, ::UnityEngine::Texture2D*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADLAYERTEXTUREFROMATTRIBUTE_OFFSET))(this, session, geoID, partID, attrName, outTexture);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*, ::UnityEngine::Texture2D*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADLAYERTEXTUREFROMATTRIBUTE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean LoadLayerFloatFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::System::String* attrName, ::System::Single& floatValue)
+		::System::Boolean LoadLayerFloatFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::System::Single& a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Single&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADLAYERFLOATFROMATTRIBUTE_OFFSET))(this, session, geoID, partID, attrName, floatValue);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Single&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADLAYERFLOATFROMATTRIBUTE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean LoadLayerColorFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::System::String* attrName, ::UnityEngine::Color& colorValue)
+		::System::Boolean LoadLayerColorFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::UnityEngine::Color& a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADLAYERCOLORFROMATTRIBUTE_OFFSET))(this, session, geoID, partID, attrName, colorValue);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADLAYERCOLORFROMATTRIBUTE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean LoadLayerVector2FromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::System::String* attrName, ::UnityEngine::Vector2& vectorValue)
+		::System::Boolean LoadLayerVector2FromAttribute(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::UnityEngine::Vector2& a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADLAYERVECTOR2FROMATTRIBUTE_OFFSET))(this, session, geoID, partID, attrName, vectorValue);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADLAYERVECTOR2FROMATTRIBUTE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void UpdateLayerFromPart(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_PartData* part)
+		::System::Void UpdateLayerFromPart(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_PartData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_PartData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_UPDATELAYERFROMPART_OFFSET))(this, session, part);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_PartData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_UPDATELAYERFROMPART_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void GenerateTerrainWithAlphamaps(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset, ::System::Boolean bRebuild)
+		::System::Void GenerateTerrainWithAlphamaps(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_HoudiniAsset* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GENERATETERRAINWITHALPHAMAPS_OFFSET))(this, session, houdiniAsset, bRebuild);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_GENERATETERRAINWITHALPHAMAPS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void LoadLayerPropertiesFromAttributes(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::UnityEngine::TerrainLayer* terrainLayer, ::System::Boolean bNewTerrainLayer, ::UnityEngine::Texture2D* defaultTexture)
+		::System::Void LoadLayerPropertiesFromAttributes(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::TerrainLayer* a4, ::System::Boolean a5, ::UnityEngine::Texture2D* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::UnityEngine::TerrainLayer*, ::System::Boolean, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADLAYERPROPERTIESFROMATTRIBUTES_OFFSET))(this, session, geoID, partID, terrainLayer, bNewTerrainLayer, defaultTexture);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::UnityEngine::TerrainLayer*, ::System::Boolean, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADLAYERPROPERTIESFROMATTRIBUTES_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void PopulateScatterTrees(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::System::Int32 pointCount)
+		::System::Void PopulateScatterTrees(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_POPULATESCATTERTREES_OFFSET))(this, session, geoID, partID, pointCount);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_POPULATESCATTERTREES_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void PopulateDetailPrototype(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::HoudiniEngineUnity::HEU_VolumeLayer* layer)
+		::System::Void PopulateDetailPrototype(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::HoudiniEngineUnity::HEU_VolumeLayer* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::HEU_VolumeLayer*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_POPULATEDETAILPROTOTYPE_OFFSET))(this, session, geoID, partID, layer);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::HEU_VolumeLayer*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_POPULATEDETAILPROTOTYPE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void PopulatePreset(::HoudiniEngineUnity::HEU_VolumeCachePreset* cachePreset)
+		::System::Void CopyValuesTo(::HoudiniEngineUnity::HEU_VolumeCache* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_VolumeCachePreset*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_POPULATEPRESET_OFFSET))(this, cachePreset);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_VolumeCache*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_COPYVALUESTO_OFFSET))(this, a1);
 		}
 
-		::System::Boolean ApplyPreset(::HoudiniEngineUnity::HEU_VolumeCachePreset* volumeCachePreset)
+		static ::System::Void CopyDetailProperties(::HoudiniEngineUnity::HEU_DetailProperties* a1, ::HoudiniEngineUnity::HEU_DetailProperties* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_VolumeCachePreset*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_APPLYPRESET_OFFSET))(this, volumeCachePreset);
+			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_DetailProperties*, ::HoudiniEngineUnity::HEU_DetailProperties*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_COPYDETAILPROPERTIES_OFFSET))(a1, a2);
 		}
 
-		::System::Void CopyValuesTo(::HoudiniEngineUnity::HEU_VolumeCache* destCache)
+		static ::System::Void CopyLayer(::HoudiniEngineUnity::HEU_VolumeLayer* a1, ::HoudiniEngineUnity::HEU_VolumeLayer* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_VolumeCache*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_COPYVALUESTO_OFFSET))(this, destCache);
+			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_VolumeLayer*, ::HoudiniEngineUnity::HEU_VolumeLayer*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_COPYLAYER_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void CopyDetailProperties(::HoudiniEngineUnity::HEU_DetailProperties* srcProp, ::HoudiniEngineUnity::HEU_DetailProperties* destProp)
+		static ::System::Void CopyPrototype(::HoudiniEngineUnity::HEU_DetailPrototype* a1, ::HoudiniEngineUnity::HEU_DetailPrototype* a2)
 		{
-			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_DetailProperties*, ::HoudiniEngineUnity::HEU_DetailProperties*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_COPYDETAILPROPERTIES_OFFSET))(srcProp, destProp);
-		}
-
-		static ::System::Void CopyLayer(::HoudiniEngineUnity::HEU_VolumeLayer* srcLayer, ::HoudiniEngineUnity::HEU_VolumeLayer* destLayer)
-		{
-			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_VolumeLayer*, ::HoudiniEngineUnity::HEU_VolumeLayer*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_COPYLAYER_OFFSET))(srcLayer, destLayer);
-		}
-
-		static ::System::Void CopyPrototype(::HoudiniEngineUnity::HEU_DetailPrototype* srcProto, ::HoudiniEngineUnity::HEU_DetailPrototype* destProto)
-		{
-			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_DetailPrototype*, ::HoudiniEngineUnity::HEU_DetailPrototype*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_COPYPROTOTYPE_OFFSET))(srcProto, destProto);
+			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_DetailPrototype*, ::HoudiniEngineUnity::HEU_DetailPrototype*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_COPYPROTOTYPE_OFFSET))(a1, a2);
 		}
 
 		static ::UnityEngine::Texture2D* LoadDefaultSplatTexture()
@@ -226,9 +270,14 @@ namespace HoudiniEngineUnity
 			return ((::UnityEngine::Texture2D*(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADDEFAULTSPLATTEXTURE_OFFSET))();
 		}
 
-		static ::UnityEngine::Texture2D* LoadAssetTexture(::System::String* path)
+		static ::UnityEngine::Texture2D* LoadAssetTexture(::System::String* a1)
 		{
-			return ((::UnityEngine::Texture2D*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADASSETTEXTURE_OFFSET))(path);
+			return ((::UnityEngine::Texture2D*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_LOADASSETTEXTURE_OFFSET))(a1);
+		}
+
+		::System::Boolean IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeCache* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_VolumeCache*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_VOLUMECACHE_ISEQUIVALENTTO_OFFSET))(this, a1);
 		}
 	};
 }

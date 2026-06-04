@@ -7,19 +7,19 @@
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace HedgehogTeam::EasyTouch { class QuickTwist_OnTwistAction; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_DOACTION_OFFSET UNITYSDK_OFFSET(0x191B0280)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_ISRIGHTROTATION_OFFSET UNITYSDK_OFFSET(0x191B01E0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x191B0130)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x191AFF60)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_ONENABLE_OFFSET UNITYSDK_OFFSET(0x191AFDA0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_ON_TWISTEND_OFFSET UNITYSDK_OFFSET(0x191B04B0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_ON_TWIST_OFFSET UNITYSDK_OFFSET(0x191B0140)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_UNSUBSCRIBEEVENT_OFFSET UNITYSDK_OFFSET(0x191AFF70)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST__CTOR_OFFSET UNITYSDK_OFFSET(0x191AFD10)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_DOACTION_OFFSET UNITYSDK_OFFSET(0x198FF5A0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_ISRIGHTROTATION_OFFSET UNITYSDK_OFFSET(0x198FF500)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x198FF450)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x198FF240)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_ONENABLE_OFFSET UNITYSDK_OFFSET(0x198FF040)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_ON_TWISTEND_OFFSET UNITYSDK_OFFSET(0x198FF7D0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_ON_TWIST_OFFSET UNITYSDK_OFFSET(0x198FF460)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_UNSUBSCRIBEEVENT_OFFSET UNITYSDK_OFFSET(0x198FF250)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST__CTOR_OFFSET UNITYSDK_OFFSET(0x198FEFB0)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickTwist_TypeDefinitionIndex = 37016;
+	inline static constexpr unsigned int QuickTwist_TypeDefinitionIndex = 37316;
 
 	class QuickTwist : public ::HedgehogTeam::EasyTouch::QuickBase
 	{
@@ -56,24 +56,24 @@ namespace HedgehogTeam::EasyTouch
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_UNSUBSCRIBEEVENT_OFFSET))(this);
 		}
 
-		::System::Void On_Twist(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void On_Twist(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_ON_TWIST_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_ON_TWIST_OFFSET))(this, a1);
 		}
 
-		::System::Void On_TwistEnd(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void On_TwistEnd(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_ON_TWISTEND_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_ON_TWISTEND_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsRightRotation(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Boolean IsRightRotation(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_ISRIGHTROTATION_OFFSET))(this, gesture);
+			return ((::System::Boolean(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_ISRIGHTROTATION_OFFSET))(this, a1);
 		}
 
-		::System::Void DoAction(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void DoAction(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_DOACTION_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTWIST_DOACTION_OFFSET))(this, a1);
 		}
 	};
 }

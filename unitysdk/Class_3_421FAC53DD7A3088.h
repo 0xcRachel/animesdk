@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AddTimeRewindBtnCD; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_421FAC53DD7A3088_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF781EE0)
-#define CLASS_3_421FAC53DD7A3088__CTOR_OFFSET UNITYSDK_OFFSET(0xF781EB0)
+#define CLASS_3_421FAC53DD7A3088_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14A0FCB0)
+#define CLASS_3_421FAC53DD7A3088__CTOR_OFFSET UNITYSDK_OFFSET(0x14A0FC80)
 
-inline static constexpr unsigned int Class_3_421FAC53DD7A3088_TypeDefinitionIndex = 49188;
+inline static constexpr unsigned int Class_3_421FAC53DD7A3088_TypeDefinitionIndex = 49855;
 
 class Class_3_421FAC53DD7A3088 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AddTimeRewindBtnCD*>
 {

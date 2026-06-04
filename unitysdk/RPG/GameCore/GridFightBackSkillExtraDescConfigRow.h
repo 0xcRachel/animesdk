@@ -6,22 +6,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTBACKSKILLEXTRADESCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x195671B0)
-#define RPG_GAMECORE_GRIDFIGHTBACKSKILLEXTRADESCCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19567530)
+#define RPG_GAMECORE_GRIDFIGHTBACKSKILLEXTRADESCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AC7D350)
+#define RPG_GAMECORE_GRIDFIGHTBACKSKILLEXTRADESCCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC7D6B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightBackSkillExtraDescConfigRow_TypeDefinitionIndex = 12809;
+	inline static constexpr unsigned int GridFightBackSkillExtraDescConfigRow_TypeDefinitionIndex = 12896;
 
 	class GridFightBackSkillExtraDescConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* SimpleParamList; // 0x18
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x18
 		::Il2CppArray<::System::UInt32>* SimpleExtraEffectIDList; // 0x20
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x28
-		::RPG::Client::TextID ConditionSimpleDesc; // 0x30
-		::System::UInt32 SkillID; // 0x40
+		::Il2CppArray<::RPG::GameCore::FixPoint>* SimpleParamList; // 0x28
+		::System::UInt32 SkillID; // 0x30
+		::RPG::Client::TextID ConditionSimpleDesc; // 0x38
 		::RPG::Client::TextID ConditionDesc; // 0x48
 
 		::System::Void _ctor()
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTBACKSKILLEXTRADESCCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GridFightBackSkillExtraDescConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightBackSkillExtraDescConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightBackSkillExtraDescConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTBACKSKILLEXTRADESCCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightBackSkillExtraDescConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTBACKSKILLEXTRADESCCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

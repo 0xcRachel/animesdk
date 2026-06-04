@@ -8,10 +8,10 @@ namespace System { class Object; }
 namespace System::Net { class IPAddress; }
 namespace System::Net { class IPHostEntry; }
 
-#define SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x17699E70)
-#define SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17698700)
-#define SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x17699910)
-#define SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x176998F0)
+#define SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x17CC9A80)
+#define SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17CC8580)
+#define SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x17CC9A70)
+#define SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x17CC9980)
 
 namespace System::Net
 {
@@ -20,24 +20,24 @@ namespace System::Net
 	class Dns_GetHostEntryIPCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Net::IPHostEntry* Invoke(::System::Net::IPAddress* hostAddress)
+		::System::Net::IPHostEntry* Invoke(::System::Net::IPAddress* a1)
 		{
-			return ((::System::Net::IPHostEntry*(*)(::PVOID, ::System::Net::IPAddress*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK_INVOKE_OFFSET))(this, hostAddress);
+			return ((::System::Net::IPHostEntry*(*)(::PVOID, ::System::Net::IPAddress*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Net::IPAddress* hostAddress, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Net::IPAddress* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Net::IPAddress*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK_BEGININVOKE_OFFSET))(this, hostAddress, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Net::IPAddress*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Net::IPHostEntry* EndInvoke(::System::IAsyncResult* result)
+		::System::Net::IPHostEntry* EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Net::IPHostEntry*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Net::IPHostEntry*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

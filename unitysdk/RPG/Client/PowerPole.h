@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_POWERPOLE__CTOR_OFFSET UNITYSDK_OFFSET(0x12748E70)
+#define RPG_CLIENT_POWERPOLE__CTOR_OFFSET UNITYSDK_OFFSET(0x161F7A40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PowerPole_TypeDefinitionIndex = 65552;
+	inline static constexpr unsigned int PowerPole_TypeDefinitionIndex = 66482;
 
 	class PowerPole : public ::UnityEngine::MonoBehaviour
 	{

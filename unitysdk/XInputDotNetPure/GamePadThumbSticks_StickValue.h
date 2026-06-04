@@ -3,22 +3,22 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_STICKVALUE_GET_VECTOR_OFFSET UNITYSDK_OFFSET(0x5078B0)
-#define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_STICKVALUE_GET_X_OFFSET UNITYSDK_OFFSET(0x608BC0)
-#define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_STICKVALUE_GET_Y_OFFSET UNITYSDK_OFFSET(0x608BD0)
-#define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_STICKVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x608BB0)
+#define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_STICKVALUE_GET_VECTOR_OFFSET UNITYSDK_OFFSET(0x66AF90)
+#define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_STICKVALUE_GET_X_OFFSET UNITYSDK_OFFSET(0x72BD60)
+#define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_STICKVALUE_GET_Y_OFFSET UNITYSDK_OFFSET(0x72BD70)
+#define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_STICKVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x6C3BE0)
 
 namespace XInputDotNetPure
 {
-	inline static constexpr unsigned int GamePadThumbSticks_StickValue_TypeDefinitionIndex = 37088;
+	inline static constexpr unsigned int GamePadThumbSticks_StickValue_TypeDefinitionIndex = 37820;
 
 	struct alignas(4) GamePadThumbSticks_StickValue
 	{
 		::UnityEngine::Vector2 vector; // 0x10
 
-		::System::Void _ctor(::System::Single x, ::System::Single y)
+		::System::Void _ctor(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_STICKVALUE__CTOR_OFFSET))(this, x, y);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_STICKVALUE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single get_X()

@@ -2,57 +2,57 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D17272E82AE804C2_669;
+class Class_1_D17272E82AE804C2_705;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_CREATE_1_OFFSET UNITYSDK_OFFSET(0x17DBC8E0)
-#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_CREATE_OFFSET UNITYSDK_OFFSET(0x17DBC620)
-#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_GET_CARDID_OFFSET UNITYSDK_OFFSET(0x17DBCC00)
-#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0x17DBCC80)
-#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_GET_ITEMCOUNT_OFFSET UNITYSDK_OFFSET(0x17DBCC40)
-#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0x17DBCC20)
-#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_GET_ORIGINITEMCOUNTDICT_OFFSET UNITYSDK_OFFSET(0x17DBCBE0)
-#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_GET_THEMECURRENTFINISHCOUNT_OFFSET UNITYSDK_OFFSET(0x17DBCC60)
-#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_SET_CARDID_OFFSET UNITYSDK_OFFSET(0x17DBCC10)
-#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_SET_ITEMCOUNT_OFFSET UNITYSDK_OFFSET(0x17DBCC50)
-#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_SET_ITEMID_OFFSET UNITYSDK_OFFSET(0x17DBCC30)
-#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_SET_ORIGINITEMCOUNTDICT_OFFSET UNITYSDK_OFFSET(0x17DBCBF0)
-#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_SET_THEMECURRENTFINISHCOUNT_OFFSET UNITYSDK_OFFSET(0x17DBCC70)
-#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT__CHECKISFINISH_OFFSET UNITYSDK_OFFSET(0x17DBCA70)
-#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x17DBC7B0)
-#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT__GETTHEMECURRENTFINISHCOUNT_OFFSET UNITYSDK_OFFSET(0x17DBC7C0)
+#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_CREATE_1_OFFSET UNITYSDK_OFFSET(0x194CA9B0)
+#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_CREATE_OFFSET UNITYSDK_OFFSET(0x194CA620)
+#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_GET_CARDID_OFFSET UNITYSDK_OFFSET(0x194CACF0)
+#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0x194CAD70)
+#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_GET_ITEMCOUNT_OFFSET UNITYSDK_OFFSET(0x194CAD30)
+#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0x194CAD10)
+#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_GET_ORIGINITEMCOUNTDICT_OFFSET UNITYSDK_OFFSET(0x194CACD0)
+#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_GET_THEMECURRENTFINISHCOUNT_OFFSET UNITYSDK_OFFSET(0x194CAD50)
+#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_SET_CARDID_OFFSET UNITYSDK_OFFSET(0x194CAD00)
+#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_SET_ITEMCOUNT_OFFSET UNITYSDK_OFFSET(0x194CAD40)
+#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_SET_ITEMID_OFFSET UNITYSDK_OFFSET(0x194CAD20)
+#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_SET_ORIGINITEMCOUNTDICT_OFFSET UNITYSDK_OFFSET(0x194CACE0)
+#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_SET_THEMECURRENTFINISHCOUNT_OFFSET UNITYSDK_OFFSET(0x194CAD60)
+#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT__CHECKISFINISH_OFFSET UNITYSDK_OFFSET(0x194CAB90)
+#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x194CA7F0)
+#define RPG_CLIENT_PLANETFESPIECEGETTINGRESULT__GETTHEMECURRENTFINISHCOUNT_OFFSET UNITYSDK_OFFSET(0x194CA800)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesPieceGettingResult_TypeDefinitionIndex = 61325;
+	inline static constexpr unsigned int PlanetFesPieceGettingResult_TypeDefinitionIndex = 62249;
 
 	class PlanetFesPieceGettingResult : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _originItemCountDict_k__BackingField; // 0x10
-		::System::Int32 _ThemeCurrentFinishCount_k__BackingField; // 0x18
-		::System::UInt32 _ItemID_k__BackingField; // 0x1C
-		::System::UInt32 _ItemCount_k__BackingField; // 0x20
-		::System::UInt32 _CardID_k__BackingField; // 0x24
+		::System::UInt32 _CardID_k__BackingField; // 0x18
+		::System::Int32 _ThemeCurrentFinishCount_k__BackingField; // 0x1C
+		::System::UInt32 _ItemID_k__BackingField; // 0x20
+		::System::UInt32 _ItemCount_k__BackingField; // 0x24
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::PlanetFesPieceGettingResult* Create(::Class_1_D17272E82AE804C2_669* gachaItem, ::System::UInt32 cardID)
+		static ::RPG::Client::PlanetFesPieceGettingResult* Create(::Class_1_D17272E82AE804C2_705* a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::PlanetFesPieceGettingResult*(*)(::Class_1_D17272E82AE804C2_669*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_CREATE_OFFSET))(gachaItem, cardID);
+			return ((::RPG::Client::PlanetFesPieceGettingResult*(*)(::Class_1_D17272E82AE804C2_705*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_CREATE_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::PlanetFesPieceGettingResult* Create_1(::System::UInt32 pieceID, ::System::UInt32 cardID, ::System::UInt32 count)
+		static ::RPG::Client::PlanetFesPieceGettingResult* Create_1(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::RPG::Client::PlanetFesPieceGettingResult*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_CREATE_1_OFFSET))(pieceID, cardID, count);
+			return ((::RPG::Client::PlanetFesPieceGettingResult*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_CREATE_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 _GetThemeCurrentFinishCount(::System::UInt32 cardID)
+		static ::System::Int32 _GetThemeCurrentFinishCount(::System::UInt32 a1)
 		{
-			return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT__GETTHEMECURRENTFINISHCOUNT_OFFSET))(cardID);
+			return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT__GETTHEMECURRENTFINISHCOUNT_OFFSET))(a1);
 		}
 
 		::System::Boolean _CheckIsFinish()
@@ -65,9 +65,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_GET_ORIGINITEMCOUNTDICT_OFFSET))(this);
 		}
 
-		::System::Void set_originItemCountDict(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* value)
+		::System::Void set_originItemCountDict(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_SET_ORIGINITEMCOUNTDICT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_SET_ORIGINITEMCOUNTDICT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_CardID()
@@ -75,9 +75,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_GET_CARDID_OFFSET))(this);
 		}
 
-		::System::Void set_CardID(::System::UInt32 value)
+		::System::Void set_CardID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_SET_CARDID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_SET_CARDID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ItemID()
@@ -85,9 +85,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_GET_ITEMID_OFFSET))(this);
 		}
 
-		::System::Void set_ItemID(::System::UInt32 value)
+		::System::Void set_ItemID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_SET_ITEMID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_SET_ITEMID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ItemCount()
@@ -95,9 +95,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_GET_ITEMCOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_ItemCount(::System::UInt32 value)
+		::System::Void set_ItemCount(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_SET_ITEMCOUNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_SET_ITEMCOUNT_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_ThemeCurrentFinishCount()
@@ -105,9 +105,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_GET_THEMECURRENTFINISHCOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_ThemeCurrentFinishCount(::System::Int32 value)
+		::System::Void set_ThemeCurrentFinishCount(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_SET_THEMECURRENTFINISHCOUNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPIECEGETTINGRESULT_SET_THEMECURRENTFINISHCOUNT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsFinish()

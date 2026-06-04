@@ -8,34 +8,34 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETOURNTITANTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1983AA90)
-#define RPG_GAMECORE_ROGUETOURNTITANTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1983B2F0)
+#define RPG_GAMECORE_ROGUETOURNTITANTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1940C240)
+#define RPG_GAMECORE_ROGUETOURNTITANTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1940CAC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournTitanTypeRow_TypeDefinitionIndex = 14282;
+	inline static constexpr unsigned int RogueTournTitanTypeRow_TypeDefinitionIndex = 14338;
 
 	class RogueTournTitanTypeRow : public ::System::Object
 	{
 	public:
 		::System::String* RogueTitanTalentIcon; // 0x10
-		::System::String* RogueTitanCardShadowIcon; // 0x18
-		::System::String* RogueTitanAvatarRoundIconSmall; // 0x20
+		::System::String* RogueTitanAvatarRoundIconSmall; // 0x18
+		::System::String* RogueTitanCardIcon; // 0x20
 		::System::String* RogueTitanAvatarRoundIconMid; // 0x28
-		::System::String* RogueTitanCardIcon; // 0x30
-		::RPG::Client::TextID CharacterName; // 0x38
-		::RPG::Client::TextID TitanTitle; // 0x48
-		::RPG::GameCore::RogueTitanType RogueTitanType; // 0x58
-		::RPG::GameCore::RogueTitanCategory RogueTitanCategory; // 0x5C
+		::System::String* RogueTitanCardShadowIcon; // 0x30
+		::RPG::GameCore::RogueTitanType RogueTitanType; // 0x38
+		::RPG::GameCore::RogueTitanCategory RogueTitanCategory; // 0x3C
+		::RPG::Client::TextID CharacterName; // 0x40
+		::RPG::Client::TextID TitanTitle; // 0x50
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNTITANTYPEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueTournTitanTypeRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTournTitanTypeRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournTitanTypeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNTITANTYPEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournTitanTypeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNTITANTYPEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

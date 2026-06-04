@@ -10,11 +10,11 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define WAVEFLOATING_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE1B55A0)
-#define WAVEFLOATING__CTOR_OFFSET UNITYSDK_OFFSET(0xE1B55F0)
-#define WAVEFLOATING___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE1B56A0)
+#define WAVEFLOATING_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE2913F0)
+#define WAVEFLOATING__CTOR_OFFSET UNITYSDK_OFFSET(0xE291440)
+#define WAVEFLOATING___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE2914F0)
 
-inline static constexpr unsigned int WaveFloating_TypeDefinitionIndex = 44233;
+inline static constexpr unsigned int WaveFloating_TypeDefinitionIndex = 44779;
 
 class WaveFloating : public ::RPG::Client::TAMonoPlugin_1<::Class_3_927C86CDC6E097B0*>
 {

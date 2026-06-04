@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
-#include "unitysdk/Struct_2_CC45B4503679E14E.h"
+#include "unitysdk/Struct_2_CC45B4503679E14E_45.h"
 
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerAnimState; }
 namespace UnityEngine { class Animator; }
 
-#define CLASS_2_DAB8355A2CB27364_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAD78ED0)
-#define CLASS_2_DAB8355A2CB27364_METHOD_2_123DFB09BD2C9B9E_OFFSET UNITYSDK_OFFSET(0xAD79E00)
-#define CLASS_2_DAB8355A2CB27364_METHOD_2_F31A78859F2EF3C9_OFFSET UNITYSDK_OFFSET(0xAD79C20)
-#define CLASS_2_DAB8355A2CB27364_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD78F10)
-#define CLASS_2_DAB8355A2CB27364_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xAD79900)
-#define CLASS_2_DAB8355A2CB27364_TICK_OFFSET UNITYSDK_OFFSET(0xAD799C0)
-#define CLASS_2_DAB8355A2CB27364__CTOR_OFFSET UNITYSDK_OFFSET(0xAD78E30)
+#define CLASS_2_DAB8355A2CB27364_DISPOSE_OFFSET UNITYSDK_OFFSET(0x178E4000)
+#define CLASS_2_DAB8355A2CB27364_METHOD_2_123DFB09BD2C9B9E_OFFSET UNITYSDK_OFFSET(0x178E5030)
+#define CLASS_2_DAB8355A2CB27364_METHOD_2_F31A78859F2EF3C9_OFFSET UNITYSDK_OFFSET(0x178E4E50)
+#define CLASS_2_DAB8355A2CB27364_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x178E4040)
+#define CLASS_2_DAB8355A2CB27364_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x178E4B10)
+#define CLASS_2_DAB8355A2CB27364_TICK_OFFSET UNITYSDK_OFFSET(0x178E4BD0)
+#define CLASS_2_DAB8355A2CB27364__CTOR_OFFSET UNITYSDK_OFFSET(0x178E3F60)
 
-inline static constexpr unsigned int Class_2_DAB8355A2CB27364_TypeDefinitionIndex = 51369;
+inline static constexpr unsigned int Class_2_DAB8355A2CB27364_TypeDefinitionIndex = 52037;
 
 class Class_2_DAB8355A2CB27364 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::TriggerAnimState* Field_2_0; // 0x20
-	::RPG::GameCore::GameEntity* Field_2_2; // 0x28
-	::UnityEngine::Animator* Field_2_4; // 0x30
-	::Struct_2_CC45B4503679E14E Field_2_6; // 0x38
-	::System::Int32 Field_2_5; // 0x48
-	::System::Boolean Field_2_7; // 0x4C
-	::System::UInt32 Field_2_3; // 0x50
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::RPG::GameCore::TriggerAnimState* Field_2_1; // 0x20
+	::UnityEngine::Animator* Field_2_2; // 0x28
+	::RPG::GameCore::GameEntity* Field_2_3; // 0x30
+	::Struct_2_CC45B4503679E14E_45 Field_2_4; // 0x38
+	::System::UInt32 Field_2_5; // 0x48
+	::System::Int32 Field_2_6; // 0x4C
+	::System::Boolean Field_2_7; // 0x50
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerAnimState* a2)
 	{

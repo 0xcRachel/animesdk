@@ -6,23 +6,23 @@
 namespace RPG::Client { class ItemData; }
 namespace RPG::GameCore { class MuseumStuffRow; }
 
-#define RPG_CLIENT_MUSEUMSTAFFDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x15F16020)
-#define RPG_CLIENT_MUSEUMSTAFFDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0x15F16310)
-#define RPG_CLIENT_MUSEUMSTAFFDATA_GET_ISOWNED_OFFSET UNITYSDK_OFFSET(0x15F16380)
-#define RPG_CLIENT_MUSEUMSTAFFDATA_GET_ISSETTLED_OFFSET UNITYSDK_OFFSET(0x15F16370)
-#define RPG_CLIENT_MUSEUMSTAFFDATA_GET_ITEMDATA_OFFSET UNITYSDK_OFFSET(0x15F161C0)
-#define RPG_CLIENT_MUSEUMSTAFFDATA_GET_OWNERAREAID_OFFSET UNITYSDK_OFFSET(0x15F16330)
-#define RPG_CLIENT_MUSEUMSTAFFDATA_GET_STAFFROW_OFFSET UNITYSDK_OFFSET(0x15F160E0)
-#define RPG_CLIENT_MUSEUMSTAFFDATA_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x15F16350)
-#define RPG_CLIENT_MUSEUMSTAFFDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0x15F16320)
-#define RPG_CLIENT_MUSEUMSTAFFDATA_SET_OWNERAREAID_OFFSET UNITYSDK_OFFSET(0x15F16340)
-#define RPG_CLIENT_MUSEUMSTAFFDATA_SET_STATUS_OFFSET UNITYSDK_OFFSET(0x15F16360)
-#define RPG_CLIENT_MUSEUMSTAFFDATA_SYNCMUSEUMSTAFFDATA_OFFSET UNITYSDK_OFFSET(0x15F16080)
-#define RPG_CLIENT_MUSEUMSTAFFDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15F16010)
+#define RPG_CLIENT_MUSEUMSTAFFDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x187446F0)
+#define RPG_CLIENT_MUSEUMSTAFFDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0x1874E5A0)
+#define RPG_CLIENT_MUSEUMSTAFFDATA_GET_ISOWNED_OFFSET UNITYSDK_OFFSET(0x1874E610)
+#define RPG_CLIENT_MUSEUMSTAFFDATA_GET_ISSETTLED_OFFSET UNITYSDK_OFFSET(0x1874E600)
+#define RPG_CLIENT_MUSEUMSTAFFDATA_GET_ITEMDATA_OFFSET UNITYSDK_OFFSET(0x1874E450)
+#define RPG_CLIENT_MUSEUMSTAFFDATA_GET_OWNERAREAID_OFFSET UNITYSDK_OFFSET(0x1874E5C0)
+#define RPG_CLIENT_MUSEUMSTAFFDATA_GET_STAFFROW_OFFSET UNITYSDK_OFFSET(0x1873E6C0)
+#define RPG_CLIENT_MUSEUMSTAFFDATA_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x1874E5E0)
+#define RPG_CLIENT_MUSEUMSTAFFDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0x1874E5B0)
+#define RPG_CLIENT_MUSEUMSTAFFDATA_SET_OWNERAREAID_OFFSET UNITYSDK_OFFSET(0x1874E5D0)
+#define RPG_CLIENT_MUSEUMSTAFFDATA_SET_STATUS_OFFSET UNITYSDK_OFFSET(0x1874E5F0)
+#define RPG_CLIENT_MUSEUMSTAFFDATA_SYNCMUSEUMSTAFFDATA_OFFSET UNITYSDK_OFFSET(0x1873CF10)
+#define RPG_CLIENT_MUSEUMSTAFFDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1874E440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumStaffData_TypeDefinitionIndex = 61114;
+	inline static constexpr unsigned int MuseumStaffData_TypeDefinitionIndex = 62038;
 
 	class MuseumStaffData : public ::System::Object
 	{
@@ -30,22 +30,22 @@ namespace RPG::Client
 		::RPG::GameCore::MuseumStuffRow* _StaffRow; // 0x10
 		::RPG::Client::ItemData* _ItemData; // 0x18
 		::System::UInt32 _ID_k__BackingField; // 0x20
-		::System::UInt32 _OwnerAreaID_k__BackingField; // 0x24
-		::RPG::Client::MuseumStaffData_StaffStatus _Status_k__BackingField; // 0x28
+		::RPG::Client::MuseumStaffData_StaffStatus _Status_k__BackingField; // 0x24
+		::System::UInt32 _OwnerAreaID_k__BackingField; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMSTAFFDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::MuseumStaffData* Create(::System::UInt32 staffID)
+		static ::RPG::Client::MuseumStaffData* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::MuseumStaffData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMSTAFFDATA_CREATE_OFFSET))(staffID);
+			return ((::RPG::Client::MuseumStaffData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMSTAFFDATA_CREATE_OFFSET))(a1);
 		}
 
-		::System::Void SyncMuseumStaffData(::System::UInt32 belongAreaId)
+		::System::Void SyncMuseumStaffData(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMSTAFFDATA_SYNCMUSEUMSTAFFDATA_OFFSET))(this, belongAreaId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMSTAFFDATA_SYNCMUSEUMSTAFFDATA_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::MuseumStuffRow* get_StaffRow()
@@ -63,9 +63,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMSTAFFDATA_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMSTAFFDATA_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMSTAFFDATA_SET_ID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_OwnerAreaID()
@@ -73,9 +73,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMSTAFFDATA_GET_OWNERAREAID_OFFSET))(this);
 		}
 
-		::System::Void set_OwnerAreaID(::System::UInt32 value)
+		::System::Void set_OwnerAreaID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMSTAFFDATA_SET_OWNERAREAID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMSTAFFDATA_SET_OWNERAREAID_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MuseumStaffData_StaffStatus get_Status()
@@ -83,9 +83,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MuseumStaffData_StaffStatus(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMSTAFFDATA_GET_STATUS_OFFSET))(this);
 		}
 
-		::System::Void set_Status(::RPG::Client::MuseumStaffData_StaffStatus value)
+		::System::Void set_Status(::RPG::Client::MuseumStaffData_StaffStatus a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MuseumStaffData_StaffStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMSTAFFDATA_SET_STATUS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MuseumStaffData_StaffStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMSTAFFDATA_SET_STATUS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsSettled()

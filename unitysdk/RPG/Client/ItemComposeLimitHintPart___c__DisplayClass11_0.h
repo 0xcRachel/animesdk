@@ -4,12 +4,12 @@
 
 namespace RPG::Client { template <typename T> class PrefHashSet_1; }
 
-#define RPG_CLIENT_ITEMCOMPOSELIMITHINTPART___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x133A4630)
-#define RPG_CLIENT_ITEMCOMPOSELIMITHINTPART___C__DISPLAYCLASS11_0___AREHINTSDATACORRUPTED_B__0_OFFSET UNITYSDK_OFFSET(0x133A5350)
+#define RPG_CLIENT_ITEMCOMPOSELIMITHINTPART___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16238BF0)
+#define RPG_CLIENT_ITEMCOMPOSELIMITHINTPART___C__DISPLAYCLASS11_0___AREHINTSDATACORRUPTED_B__0_OFFSET UNITYSDK_OFFSET(0x16239850)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemComposeLimitHintPart___c__DisplayClass11_0_TypeDefinitionIndex = 60530;
+	inline static constexpr unsigned int ItemComposeLimitHintPart___c__DisplayClass11_0_TypeDefinitionIndex = 61464;
 
 	class ItemComposeLimitHintPart___c__DisplayClass11_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMCOMPOSELIMITHINTPART___C__DISPLAYCLASS11_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __AreHintsDataCorrupted_b__0(::System::UInt32 composeID)
+		::System::Boolean __AreHintsDataCorrupted_b__0(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMCOMPOSELIMITHINTPART___C__DISPLAYCLASS11_0___AREHINTSDATACORRUPTED_B__0_OFFSET))(this, composeID);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMCOMPOSELIMITHINTPART___C__DISPLAYCLASS11_0___AREHINTSDATACORRUPTED_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,10 +4,10 @@
 
 namespace System::Runtime::ExceptionServices { class ExceptionDispatchInfo; }
 
-#define MONO_NET_SECURITY_ASYNCPROTOCOLRESULT_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x18460C40)
-#define MONO_NET_SECURITY_ASYNCPROTOCOLRESULT_GET_USERRESULT_OFFSET UNITYSDK_OFFSET(0x18460C30)
-#define MONO_NET_SECURITY_ASYNCPROTOCOLRESULT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18460C10)
-#define MONO_NET_SECURITY_ASYNCPROTOCOLRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x18460A40)
+#define MONO_NET_SECURITY_ASYNCPROTOCOLRESULT_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x18E7FCE0)
+#define MONO_NET_SECURITY_ASYNCPROTOCOLRESULT_GET_USERRESULT_OFFSET UNITYSDK_OFFSET(0x18E7FCD0)
+#define MONO_NET_SECURITY_ASYNCPROTOCOLRESULT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18E7FCB0)
+#define MONO_NET_SECURITY_ASYNCPROTOCOLRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x18E7FAD0)
 
 namespace Mono::Net::Security
 {
@@ -19,14 +19,14 @@ namespace Mono::Net::Security
 		::System::Runtime::ExceptionServices::ExceptionDispatchInfo* _Error_k__BackingField; // 0x10
 		::System::Int32 _UserResult_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::Int32 result)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_ASYNCPROTOCOLRESULT__CTOR_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_ASYNCPROTOCOLRESULT__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* error)
+		::System::Void _ctor_1(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_ASYNCPROTOCOLRESULT__CTOR_1_OFFSET))(this, error);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_ASYNCPROTOCOLRESULT__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_UserResult()

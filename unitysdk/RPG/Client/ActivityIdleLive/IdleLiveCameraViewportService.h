@@ -8,34 +8,34 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE_APPLYVIEWPORT_OFFSET UNITYSDK_OFFSET(0x1734F5B0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1734F830)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE_REGISTERVIEWPORTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1734EFB0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE_RESETVIEWPORT_OFFSET UNITYSDK_OFFSET(0x1734F740)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE_SETINBATTLE_OFFSET UNITYSDK_OFFSET(0x1734F7E0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE__APPLYVIEWPORT_OFFSET UNITYSDK_OFFSET(0x1734F600)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1734EF40)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE__ONUISCREENSIZECHANGED_OFFSET UNITYSDK_OFFSET(0x1734FA90)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE__SAMPLERATIOSATANIMEND_OFFSET UNITYSDK_OFFSET(0x1734F140)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE__STOPDELAYAPPLYVIEWPORTCOR_OFFSET UNITYSDK_OFFSET(0x1734F9B0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE__UPDATERATIO_OFFSET UNITYSDK_OFFSET(0x1734F0B0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE___ONUISCREENSIZECHANGED_B__18_0_OFFSET UNITYSDK_OFFSET(0x1734FCA0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE_APPLYVIEWPORT_OFFSET UNITYSDK_OFFSET(0x1855AE60)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1855B0E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE_REGISTERVIEWPORTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1855A880)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE_RESETVIEWPORT_OFFSET UNITYSDK_OFFSET(0x1855AFF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE_SETINBATTLE_OFFSET UNITYSDK_OFFSET(0x1855B090)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE__APPLYVIEWPORT_OFFSET UNITYSDK_OFFSET(0x1855AEB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1855A7F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE__ONUISCREENSIZECHANGED_OFFSET UNITYSDK_OFFSET(0x1855B370)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE__SAMPLERATIOSATANIMEND_OFFSET UNITYSDK_OFFSET(0x1855AA10)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE__STOPDELAYAPPLYVIEWPORTCOR_OFFSET UNITYSDK_OFFSET(0x1855B290)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE__UPDATERATIO_OFFSET UNITYSDK_OFFSET(0x1855A980)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE___ONUISCREENSIZECHANGED_B__18_0_OFFSET UNITYSDK_OFFSET(0x1855B590)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveCameraViewportService_TypeDefinitionIndex = 69339;
+	inline static constexpr unsigned int IdleLiveCameraViewportService_TypeDefinitionIndex = 70151;
 
 	class IdleLiveCameraViewportService : public ::System::Object
 	{
 	public:
 		// static const ::System::Single c_DefaultLeftRatio; // 0x0
 		// static const ::System::Single c_DefaultBottomRatio; // 0x0
-		::UnityEngine::Coroutine* _DelayApplyViewPortCor; // 0x10
-		::System::String* _AnimClipName; // 0x18
-		::UnityEngine::Animation* _Animation; // 0x20
-		::UnityEngine::RectTransform* _RectTrans; // 0x28
-		::System::Single _CachedTopRatio; // 0x30
-		::System::Single _CachedLeftRatio; // 0x34
+		::UnityEngine::RectTransform* _RectTrans; // 0x10
+		::UnityEngine::Coroutine* _DelayApplyViewPortCor; // 0x18
+		::System::String* _AnimClipName; // 0x20
+		::UnityEngine::Animation* _Animation; // 0x28
+		::System::Single _CachedLeftRatio; // 0x30
+		::System::Single _CachedTopRatio; // 0x34
 		::System::Boolean _IsInBattle; // 0x38
 		::System::Single _CachedBottomRatio; // 0x3C
 
@@ -44,9 +44,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void RegisterViewportReference(::UnityEngine::RectTransform* referenceTransform, ::UnityEngine::Animation* animation, ::System::String* animClipName)
+		::System::Void RegisterViewportReference(::UnityEngine::RectTransform* a1, ::UnityEngine::Animation* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::Animation*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE_REGISTERVIEWPORTREFERENCE_OFFSET))(this, referenceTransform, animation, animClipName);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::Animation*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE_REGISTERVIEWPORTREFERENCE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _UpdateRatio()
@@ -64,9 +64,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE_RESETVIEWPORT_OFFSET))(this);
 		}
 
-		::System::Void SetInBattle(::System::Boolean _isInBattle)
+		::System::Void SetInBattle(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE_SETINBATTLE_OFFSET))(this, _isInBattle);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE_SETINBATTLE_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()
@@ -79,14 +79,14 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE__STOPDELAYAPPLYVIEWPORTCOR_OFFSET))(this);
 		}
 
-		::System::Void _OnUiScreenSizeChanged(::System::Object* _param)
+		::System::Void _OnUiScreenSizeChanged(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE__ONUISCREENSIZECHANGED_OFFSET))(this, _param);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE__ONUISCREENSIZECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple_3<::System::Single, ::System::Single, ::System::Single> _SampleRatiosAtAnimEnd(::UnityEngine::RectTransform* referenceTransform, ::UnityEngine::Animation* animation, ::System::String* animClipName)
+		::System::ValueTuple_3<::System::Single, ::System::Single, ::System::Single> _SampleRatiosAtAnimEnd(::UnityEngine::RectTransform* a1, ::UnityEngine::Animation* a2, ::System::String* a3)
 		{
-			return ((::System::ValueTuple_3<::System::Single, ::System::Single, ::System::Single>(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::Animation*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE__SAMPLERATIOSATANIMEND_OFFSET))(this, referenceTransform, animation, animClipName);
+			return ((::System::ValueTuple_3<::System::Single, ::System::Single, ::System::Single>(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::Animation*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE__SAMPLERATIOSATANIMEND_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ApplyViewport()

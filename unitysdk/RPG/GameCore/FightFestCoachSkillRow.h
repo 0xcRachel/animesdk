@@ -7,33 +7,33 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIGHTFESTCOACHSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D14120)
-#define RPG_GAMECORE_FIGHTFESTCOACHSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D14940)
+#define RPG_GAMECORE_FIGHTFESTCOACHSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A413D20)
+#define RPG_GAMECORE_FIGHTFESTCOACHSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A414560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FightFestCoachSkillRow_TypeDefinitionIndex = 12560;
+	inline static constexpr unsigned int FightFestCoachSkillRow_TypeDefinitionIndex = 12652;
 
 	class FightFestCoachSkillRow : public ::System::Object
 	{
 	public:
 		::System::String* FigurePath; // 0x10
 		::RPG::Client::TextID UnlockDesc; // 0x18
-		::System::UInt32 MazeBuffID; // 0x28
-		::RPG::GameCore::FightFestCoachType CoachType; // 0x2C
-		::RPG::Client::TextID CoachSkillExtraDesc; // 0x30
-		::System::UInt32 SortWeight; // 0x40
-		::System::UInt32 CoachItemID; // 0x44
-		::RPG::Client::TextID CoachSkillName; // 0x48
+		::RPG::Client::TextID CoachSkillName; // 0x28
+		::RPG::Client::TextID CoachSkillExtraDesc; // 0x38
+		::RPG::GameCore::FightFestCoachType CoachType; // 0x48
+		::System::UInt32 MazeBuffID; // 0x4C
+		::System::UInt32 CoachItemID; // 0x50
+		::System::UInt32 SortWeight; // 0x54
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIGHTFESTCOACHSKILLROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::FightFestCoachSkillRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FightFestCoachSkillRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FightFestCoachSkillRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIGHTFESTCOACHSKILLROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FightFestCoachSkillRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIGHTFESTCOACHSKILLROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

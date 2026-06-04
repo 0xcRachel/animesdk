@@ -33,111 +33,111 @@ namespace UnityEngine { class Texture3D; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering { class RTHandle; }
 
-#define UNITYENGINE_RENDERING_COREUTILS_AREANIMATEDMATERIALSENABLED_OFFSET UNITYSDK_OFFSET(0x18B051E0)
-#define UNITYENGINE_RENDERING_COREUTILS_AREPOSTPROCESSESENABLED_OFFSET UNITYSDK_OFFSET(0x18B051D0)
-#define UNITYENGINE_RENDERING_COREUTILS_CLEARCUBEMAP_OFFSET UNITYSDK_OFFSET(0x18B03AB0)
-#define UNITYENGINE_RENDERING_COREUTILS_CLEARRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x18B01290)
-#define UNITYENGINE_RENDERING_COREUTILS_CONVERTLINEARTOACTIVECOLORSPACE_OFFSET UNITYSDK_OFFSET(0x18B04830)
-#define UNITYENGINE_RENDERING_COREUTILS_CONVERTSRGBTOACTIVECOLORSPACE_OFFSET UNITYSDK_OFFSET(0x18B047A0)
-#define UNITYENGINE_RENDERING_COREUTILS_CREATECUBEMESH_OFFSET UNITYSDK_OFFSET(0x18B04A30)
-#define UNITYENGINE_RENDERING_COREUTILS_CREATEENGINEMATERIAL_1_OFFSET UNITYSDK_OFFSET(0x18B048D0)
-#define UNITYENGINE_RENDERING_COREUTILS_CREATEENGINEMATERIAL_OFFSET UNITYSDK_OFFSET(0x18B048C0)
-#define UNITYENGINE_RENDERING_COREUTILS_DEBUGPRINT_OFFSET UNITYSDK_OFFSET(0x18B05E90)
-#define UNITYENGINE_RENDERING_COREUTILS_DESTROY_OFFSET UNITYSDK_OFFSET(0x18B049B0)
-#define UNITYENGINE_RENDERING_COREUTILS_DRAWFULLSCREEN_1_OFFSET UNITYSDK_OFFSET(0x18B03F90)
-#define UNITYENGINE_RENDERING_COREUTILS_DRAWFULLSCREEN_2_OFFSET UNITYSDK_OFFSET(0x18B04170)
-#define UNITYENGINE_RENDERING_COREUTILS_DRAWFULLSCREEN_3_OFFSET UNITYSDK_OFFSET(0x18B043E0)
-#define UNITYENGINE_RENDERING_COREUTILS_DRAWFULLSCREEN_4_OFFSET UNITYSDK_OFFSET(0x18B04580)
-#define UNITYENGINE_RENDERING_COREUTILS_DRAWFULLSCREEN_OFFSET UNITYSDK_OFFSET(0x18B03E40)
-#define UNITYENGINE_RENDERING_COREUTILS_FIXUPDEPTHSLICE_1_OFFSET UNITYSDK_OFFSET(0x18B01340)
-#define UNITYENGINE_RENDERING_COREUTILS_FIXUPDEPTHSLICE_OFFSET UNITYSDK_OFFSET(0x18B01300)
-#define UNITYENGINE_RENDERING_COREUTILS_GETRENDERTARGETAUTONAME_1_OFFSET UNITYSDK_OFFSET(0x18B03130)
-#define UNITYENGINE_RENDERING_COREUTILS_GETRENDERTARGETAUTONAME_2_OFFSET UNITYSDK_OFFSET(0x18B02EF0)
-#define UNITYENGINE_RENDERING_COREUTILS_GETRENDERTARGETAUTONAME_OFFSET UNITYSDK_OFFSET(0x18B02E20)
-#define UNITYENGINE_RENDERING_COREUTILS_GETTEXTUREAUTONAME_1_OFFSET UNITYSDK_OFFSET(0x18B039E0)
-#define UNITYENGINE_RENDERING_COREUTILS_GETTEXTUREAUTONAME_2_OFFSET UNITYSDK_OFFSET(0x18B032D0)
-#define UNITYENGINE_RENDERING_COREUTILS_GETTEXTUREAUTONAME_OFFSET UNITYSDK_OFFSET(0x18B03200)
-#define UNITYENGINE_RENDERING_COREUTILS_GET_BLACKCUBETEXTURE_OFFSET UNITYSDK_OFFSET(0x18AFF620)
-#define UNITYENGINE_RENDERING_COREUTILS_GET_BLACKVOLUMETEXTURE_OFFSET UNITYSDK_OFFSET(0x18B01090)
-#define UNITYENGINE_RENDERING_COREUTILS_GET_EMPTYUAV_OFFSET UNITYSDK_OFFSET(0x18B00ED0)
-#define UNITYENGINE_RENDERING_COREUTILS_GET_MAGENTACUBETEXTUREARRAY_OFFSET UNITYSDK_OFFSET(0x18B00300)
-#define UNITYENGINE_RENDERING_COREUTILS_GET_MAGENTACUBETEXTURE_OFFSET UNITYSDK_OFFSET(0x18AFFC90)
-#define UNITYENGINE_RENDERING_COREUTILS_GET_WHITECUBETEXTURE_OFFSET UNITYSDK_OFFSET(0x18B00860)
-#define UNITYENGINE_RENDERING_COREUTILS_ISSCENELIGHTINGDISABLED_OFFSET UNITYSDK_OFFSET(0x18B051F0)
-#define UNITYENGINE_RENDERING_COREUTILS_ISSCENEVIEWFOGENABLED_OFFSET UNITYSDK_OFFSET(0x18B05200)
-#define UNITYENGINE_RENDERING_COREUTILS_SAFERELEASE_OFFSET UNITYSDK_OFFSET(0x18B049D0)
-#define UNITYENGINE_RENDERING_COREUTILS_SETKEYWORD_1_OFFSET UNITYSDK_OFFSET(0x18B04970)
-#define UNITYENGINE_RENDERING_COREUTILS_SETKEYWORD_OFFSET UNITYSDK_OFFSET(0x18B04930)
-#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_10_OFFSET UNITYSDK_OFFSET(0x18B01FF0)
-#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_11_OFFSET UNITYSDK_OFFSET(0x18B021E0)
-#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_12_OFFSET UNITYSDK_OFFSET(0x18AEF470)
-#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_13_OFFSET UNITYSDK_OFFSET(0x18AEBC40)
-#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_14_OFFSET UNITYSDK_OFFSET(0x18AEBB40)
-#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_15_OFFSET UNITYSDK_OFFSET(0x18B02940)
-#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_16_OFFSET UNITYSDK_OFFSET(0x18B02560)
-#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_17_OFFSET UNITYSDK_OFFSET(0x18AEB990)
-#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_18_OFFSET UNITYSDK_OFFSET(0x18B02A50)
-#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_19_OFFSET UNITYSDK_OFFSET(0x18B02CA0)
-#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_1_OFFSET UNITYSDK_OFFSET(0x18B01460)
-#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_2_OFFSET UNITYSDK_OFFSET(0x18B015E0)
-#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_3_OFFSET UNITYSDK_OFFSET(0x18B018E0)
-#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_4_OFFSET UNITYSDK_OFFSET(0x18B017B0)
-#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_5_OFFSET UNITYSDK_OFFSET(0x18B01A80)
-#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_6_OFFSET UNITYSDK_OFFSET(0x18B01C20)
-#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_7_OFFSET UNITYSDK_OFFSET(0x18B01B40)
-#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_8_OFFSET UNITYSDK_OFFSET(0x18B01D30)
-#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_9_OFFSET UNITYSDK_OFFSET(0x18B01E90)
-#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x18B01360)
-#define UNITYENGINE_RENDERING_COREUTILS_SETVIEWPORTANDCLEAR_OFFSET UNITYSDK_OFFSET(0x18B023D0)
-#define UNITYENGINE_RENDERING_COREUTILS_SETVIEWPORT_OFFSET UNITYSDK_OFFSET(0x18B024E0)
-#define UNITYENGINE_RENDERING_COREUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B05F10)
-#define UNITYENGINE_RENDERING_COREUTILS__DEBUGPRINGEX_OFFSET UNITYSDK_OFFSET(0x18B05360)
-#define UNITYENGINE_RENDERING_COREUTILS__DEBUGPRINTSPACE_OFFSET UNITYSDK_OFFSET(0x18B05300)
-#define UNITYENGINE_RENDERING_COREUTILS__HASRELOADGROUP_OFFSET UNITYSDK_OFFSET(0x18B05210)
-#define UNITYENGINE_RENDERING_COREUTILS__HASRELOAD_OFFSET UNITYSDK_OFFSET(0x18B05290)
+#define UNITYENGINE_RENDERING_COREUTILS_AREANIMATEDMATERIALSENABLED_OFFSET UNITYSDK_OFFSET(0x195B61A0)
+#define UNITYENGINE_RENDERING_COREUTILS_AREPOSTPROCESSESENABLED_OFFSET UNITYSDK_OFFSET(0x195B6190)
+#define UNITYENGINE_RENDERING_COREUTILS_CLEARCUBEMAP_OFFSET UNITYSDK_OFFSET(0x195B4CF0)
+#define UNITYENGINE_RENDERING_COREUTILS_CLEARRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x195B26D0)
+#define UNITYENGINE_RENDERING_COREUTILS_CONVERTLINEARTOACTIVECOLORSPACE_OFFSET UNITYSDK_OFFSET(0x195B5A70)
+#define UNITYENGINE_RENDERING_COREUTILS_CONVERTSRGBTOACTIVECOLORSPACE_OFFSET UNITYSDK_OFFSET(0x195B59E0)
+#define UNITYENGINE_RENDERING_COREUTILS_CREATECUBEMESH_OFFSET UNITYSDK_OFFSET(0x195B5C90)
+#define UNITYENGINE_RENDERING_COREUTILS_CREATEENGINEMATERIAL_1_OFFSET UNITYSDK_OFFSET(0x195B5B10)
+#define UNITYENGINE_RENDERING_COREUTILS_CREATEENGINEMATERIAL_OFFSET UNITYSDK_OFFSET(0x195B5B00)
+#define UNITYENGINE_RENDERING_COREUTILS_DEBUGPRINT_OFFSET UNITYSDK_OFFSET(0x195B6DF0)
+#define UNITYENGINE_RENDERING_COREUTILS_DESTROY_OFFSET UNITYSDK_OFFSET(0x195B5BF0)
+#define UNITYENGINE_RENDERING_COREUTILS_DRAWFULLSCREEN_1_OFFSET UNITYSDK_OFFSET(0x195B51E0)
+#define UNITYENGINE_RENDERING_COREUTILS_DRAWFULLSCREEN_2_OFFSET UNITYSDK_OFFSET(0x195B53C0)
+#define UNITYENGINE_RENDERING_COREUTILS_DRAWFULLSCREEN_3_OFFSET UNITYSDK_OFFSET(0x195B5630)
+#define UNITYENGINE_RENDERING_COREUTILS_DRAWFULLSCREEN_4_OFFSET UNITYSDK_OFFSET(0x195B57D0)
+#define UNITYENGINE_RENDERING_COREUTILS_DRAWFULLSCREEN_OFFSET UNITYSDK_OFFSET(0x195B5090)
+#define UNITYENGINE_RENDERING_COREUTILS_FIXUPDEPTHSLICE_1_OFFSET UNITYSDK_OFFSET(0x195B2780)
+#define UNITYENGINE_RENDERING_COREUTILS_FIXUPDEPTHSLICE_OFFSET UNITYSDK_OFFSET(0x195B2740)
+#define UNITYENGINE_RENDERING_COREUTILS_GETRENDERTARGETAUTONAME_1_OFFSET UNITYSDK_OFFSET(0x195B44F0)
+#define UNITYENGINE_RENDERING_COREUTILS_GETRENDERTARGETAUTONAME_2_OFFSET UNITYSDK_OFFSET(0x195B42B0)
+#define UNITYENGINE_RENDERING_COREUTILS_GETRENDERTARGETAUTONAME_OFFSET UNITYSDK_OFFSET(0x195B4220)
+#define UNITYENGINE_RENDERING_COREUTILS_GETTEXTUREAUTONAME_1_OFFSET UNITYSDK_OFFSET(0x195B4C60)
+#define UNITYENGINE_RENDERING_COREUTILS_GETTEXTUREAUTONAME_2_OFFSET UNITYSDK_OFFSET(0x195B4630)
+#define UNITYENGINE_RENDERING_COREUTILS_GETTEXTUREAUTONAME_OFFSET UNITYSDK_OFFSET(0x195B4580)
+#define UNITYENGINE_RENDERING_COREUTILS_GET_BLACKCUBETEXTURE_OFFSET UNITYSDK_OFFSET(0x195B0A70)
+#define UNITYENGINE_RENDERING_COREUTILS_GET_BLACKVOLUMETEXTURE_OFFSET UNITYSDK_OFFSET(0x195B24D0)
+#define UNITYENGINE_RENDERING_COREUTILS_GET_EMPTYUAV_OFFSET UNITYSDK_OFFSET(0x195B2310)
+#define UNITYENGINE_RENDERING_COREUTILS_GET_MAGENTACUBETEXTUREARRAY_OFFSET UNITYSDK_OFFSET(0x195B1750)
+#define UNITYENGINE_RENDERING_COREUTILS_GET_MAGENTACUBETEXTURE_OFFSET UNITYSDK_OFFSET(0x195B10E0)
+#define UNITYENGINE_RENDERING_COREUTILS_GET_WHITECUBETEXTURE_OFFSET UNITYSDK_OFFSET(0x195B1CA0)
+#define UNITYENGINE_RENDERING_COREUTILS_ISSCENELIGHTINGDISABLED_OFFSET UNITYSDK_OFFSET(0x195B61B0)
+#define UNITYENGINE_RENDERING_COREUTILS_ISSCENEVIEWFOGENABLED_OFFSET UNITYSDK_OFFSET(0x195B61C0)
+#define UNITYENGINE_RENDERING_COREUTILS_SAFERELEASE_OFFSET UNITYSDK_OFFSET(0x195B5C10)
+#define UNITYENGINE_RENDERING_COREUTILS_SETKEYWORD_1_OFFSET UNITYSDK_OFFSET(0x195B5BB0)
+#define UNITYENGINE_RENDERING_COREUTILS_SETKEYWORD_OFFSET UNITYSDK_OFFSET(0x195B5B70)
+#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_10_OFFSET UNITYSDK_OFFSET(0x195B3430)
+#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_11_OFFSET UNITYSDK_OFFSET(0x195B3620)
+#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_12_OFFSET UNITYSDK_OFFSET(0x195A5280)
+#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_13_OFFSET UNITYSDK_OFFSET(0x195A1570)
+#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_14_OFFSET UNITYSDK_OFFSET(0x195A1470)
+#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_15_OFFSET UNITYSDK_OFFSET(0x195B3D50)
+#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_16_OFFSET UNITYSDK_OFFSET(0x195B39A0)
+#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_17_OFFSET UNITYSDK_OFFSET(0x195A12E0)
+#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_18_OFFSET UNITYSDK_OFFSET(0x195B3E60)
+#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_19_OFFSET UNITYSDK_OFFSET(0x195B40A0)
+#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_1_OFFSET UNITYSDK_OFFSET(0x195B28A0)
+#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_2_OFFSET UNITYSDK_OFFSET(0x195B2A20)
+#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_3_OFFSET UNITYSDK_OFFSET(0x195B2D20)
+#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_4_OFFSET UNITYSDK_OFFSET(0x195B2BF0)
+#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_5_OFFSET UNITYSDK_OFFSET(0x195B2EC0)
+#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_6_OFFSET UNITYSDK_OFFSET(0x195B3060)
+#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_7_OFFSET UNITYSDK_OFFSET(0x195B2F80)
+#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_8_OFFSET UNITYSDK_OFFSET(0x195B3170)
+#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_9_OFFSET UNITYSDK_OFFSET(0x195B32D0)
+#define UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x195B27A0)
+#define UNITYENGINE_RENDERING_COREUTILS_SETVIEWPORTANDCLEAR_OFFSET UNITYSDK_OFFSET(0x195B3810)
+#define UNITYENGINE_RENDERING_COREUTILS_SETVIEWPORT_OFFSET UNITYSDK_OFFSET(0x195B3920)
+#define UNITYENGINE_RENDERING_COREUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x195B6E70)
+#define UNITYENGINE_RENDERING_COREUTILS__DEBUGPRINGEX_OFFSET UNITYSDK_OFFSET(0x195B6310)
+#define UNITYENGINE_RENDERING_COREUTILS__DEBUGPRINTSPACE_OFFSET UNITYSDK_OFFSET(0x195B62B0)
+#define UNITYENGINE_RENDERING_COREUTILS__HASRELOADGROUP_OFFSET UNITYSDK_OFFSET(0x195B61D0)
+#define UNITYENGINE_RENDERING_COREUTILS__HASRELOAD_OFFSET UNITYSDK_OFFSET(0x195B6250)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CoreUtils_TypeDefinitionIndex = 33509;
+	inline static constexpr unsigned int CoreUtils_TypeDefinitionIndex = 33791;
 
 	class CoreUtils : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_lookAtList()
+		static ::UnityEngine::Cubemap** StaticGet_m_WhiteCubeTexture()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(CoreUtils_TypeDefinitionIndex)->GetStaticField(0x50B30);
-		}
-		static ::UnityEngine::Cubemap** StaticGet_m_BlackCubeTexture()
-		{
-			return (::UnityEngine::Cubemap**)Il2CppClass::FromTypeDefinitionIndex(CoreUtils_TypeDefinitionIndex)->GetStaticField(0x50B38);
-		}
-		static ::UnityEngine::CubemapArray** StaticGet_m_MagentaCubeTextureArray()
-		{
-			return (::UnityEngine::CubemapArray**)Il2CppClass::FromTypeDefinitionIndex(CoreUtils_TypeDefinitionIndex)->GetStaticField(0x50B40);
-		}
-		static ::UnityEngine::Texture3D** StaticGet_m_BlackVolumeTexture()
-		{
-			return (::UnityEngine::Texture3D**)Il2CppClass::FromTypeDefinitionIndex(CoreUtils_TypeDefinitionIndex)->GetStaticField(0x50B48);
+			return (::UnityEngine::Cubemap**)Il2CppClass::FromTypeDefinitionIndex(CoreUtils_TypeDefinitionIndex)->GetStaticField(0x45E60);
 		}
 		static ::System::Collections::Generic::IEnumerable_1<::System::Type*>** StaticGet_m_AssemblyTypes()
 		{
-			return (::System::Collections::Generic::IEnumerable_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(CoreUtils_TypeDefinitionIndex)->GetStaticField(0x50B50);
-		}
-		static ::UnityEngine::RenderTexture** StaticGet_m_EmptyUAV()
-		{
-			return (::UnityEngine::RenderTexture**)Il2CppClass::FromTypeDefinitionIndex(CoreUtils_TypeDefinitionIndex)->GetStaticField(0x50B58);
-		}
-		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_upVectorList()
-		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(CoreUtils_TypeDefinitionIndex)->GetStaticField(0x50B60);
-		}
-		static ::UnityEngine::Cubemap** StaticGet_m_WhiteCubeTexture()
-		{
-			return (::UnityEngine::Cubemap**)Il2CppClass::FromTypeDefinitionIndex(CoreUtils_TypeDefinitionIndex)->GetStaticField(0x50B68);
+			return (::System::Collections::Generic::IEnumerable_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(CoreUtils_TypeDefinitionIndex)->GetStaticField(0x45E68);
 		}
 		static ::UnityEngine::Cubemap** StaticGet_m_MagentaCubeTexture()
 		{
-			return (::UnityEngine::Cubemap**)Il2CppClass::FromTypeDefinitionIndex(CoreUtils_TypeDefinitionIndex)->GetStaticField(0x50B70);
+			return (::UnityEngine::Cubemap**)Il2CppClass::FromTypeDefinitionIndex(CoreUtils_TypeDefinitionIndex)->GetStaticField(0x45E70);
+		}
+		static ::UnityEngine::RenderTexture** StaticGet_m_EmptyUAV()
+		{
+			return (::UnityEngine::RenderTexture**)Il2CppClass::FromTypeDefinitionIndex(CoreUtils_TypeDefinitionIndex)->GetStaticField(0x45E78);
+		}
+		static ::UnityEngine::Cubemap** StaticGet_m_BlackCubeTexture()
+		{
+			return (::UnityEngine::Cubemap**)Il2CppClass::FromTypeDefinitionIndex(CoreUtils_TypeDefinitionIndex)->GetStaticField(0x45E80);
+		}
+		static ::UnityEngine::CubemapArray** StaticGet_m_MagentaCubeTextureArray()
+		{
+			return (::UnityEngine::CubemapArray**)Il2CppClass::FromTypeDefinitionIndex(CoreUtils_TypeDefinitionIndex)->GetStaticField(0x45E88);
+		}
+		static ::UnityEngine::Texture3D** StaticGet_m_BlackVolumeTexture()
+		{
+			return (::UnityEngine::Texture3D**)Il2CppClass::FromTypeDefinitionIndex(CoreUtils_TypeDefinitionIndex)->GetStaticField(0x45E90);
+		}
+		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_lookAtList()
+		{
+			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(CoreUtils_TypeDefinitionIndex)->GetStaticField(0x45E98);
+		}
+		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_upVectorList()
+		{
+			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(CoreUtils_TypeDefinitionIndex)->GetStaticField(0x45EA0);
 		}
 		// static const ::System::Int32 editMenuPriority1 = 0x140; // 0x0
 		// static const ::System::Int32 editMenuPriority2 = 0x14B; // 0x0
@@ -183,279 +183,279 @@ namespace UnityEngine::Rendering
 			return ((::UnityEngine::Texture3D*(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_GET_BLACKVOLUMETEXTURE_OFFSET))();
 		}
 
-		static ::System::Void ClearRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor)
+		static ::System::Void ClearRenderTarget(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::ClearFlag a2, ::UnityEngine::Color a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_CLEARRENDERTARGET_OFFSET))(cmd, clearFlag, clearColor);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_CLEARRENDERTARGET_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 FixupDepthSlice(::System::Int32 depthSlice, ::UnityEngine::Rendering::RTHandle* buffer)
+		static ::System::Int32 FixupDepthSlice(::System::Int32 a1, ::UnityEngine::Rendering::RTHandle* a2)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::UnityEngine::Rendering::RTHandle*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_FIXUPDEPTHSLICE_OFFSET))(depthSlice, buffer);
+			return ((::System::Int32(*)(::System::Int32, ::UnityEngine::Rendering::RTHandle*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_FIXUPDEPTHSLICE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 FixupDepthSlice_1(::System::Int32 depthSlice, ::UnityEngine::CubemapFace cubemapFace)
+		static ::System::Int32 FixupDepthSlice_1(::System::Int32 a1, ::UnityEngine::CubemapFace a2)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::UnityEngine::CubemapFace))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_FIXUPDEPTHSLICE_1_OFFSET))(depthSlice, cubemapFace);
+			return ((::System::Int32(*)(::System::Int32, ::UnityEngine::CubemapFace))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_FIXUPDEPTHSLICE_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier buffer, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor, ::System::Int32 miplevel, ::UnityEngine::CubemapFace cubemapFace, ::System::Int32 depthSlice)
+		static ::System::Void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::RenderTargetIdentifier a2, ::UnityEngine::Rendering::ClearFlag a3, ::UnityEngine::Color a4, ::System::Int32 a5, ::UnityEngine::CubemapFace a6, ::System::Int32 a7)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Color, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_OFFSET))(cmd, buffer, clearFlag, clearColor, miplevel, cubemapFace, depthSlice);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Color, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Void SetRenderTarget_1(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier buffer, ::UnityEngine::Rendering::ClearFlag clearFlag, ::System::Int32 miplevel, ::UnityEngine::CubemapFace cubemapFace, ::System::Int32 depthSlice)
+		static ::System::Void SetRenderTarget_1(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::RenderTargetIdentifier a2, ::UnityEngine::Rendering::ClearFlag a3, ::System::Int32 a4, ::UnityEngine::CubemapFace a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::ClearFlag, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_1_OFFSET))(cmd, buffer, clearFlag, miplevel, cubemapFace, depthSlice);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::ClearFlag, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_1_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void SetRenderTarget_2(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier colorBuffer, ::UnityEngine::Rendering::RenderTargetIdentifier depthBuffer, ::System::Int32 miplevel, ::UnityEngine::CubemapFace cubemapFace, ::System::Int32 depthSlice)
+		static ::System::Void SetRenderTarget_2(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::RenderTargetIdentifier a2, ::UnityEngine::Rendering::RenderTargetIdentifier a3, ::System::Int32 a4, ::UnityEngine::CubemapFace a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderTargetIdentifier, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_2_OFFSET))(cmd, colorBuffer, depthBuffer, miplevel, cubemapFace, depthSlice);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderTargetIdentifier, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_2_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void SetRenderTarget_3(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier colorBuffer, ::UnityEngine::Rendering::RenderTargetIdentifier depthBuffer, ::UnityEngine::Rendering::ClearFlag clearFlag, ::System::Int32 miplevel, ::UnityEngine::CubemapFace cubemapFace, ::System::Int32 depthSlice)
+		static ::System::Void SetRenderTarget_3(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::RenderTargetIdentifier a2, ::UnityEngine::Rendering::RenderTargetIdentifier a3, ::UnityEngine::Rendering::ClearFlag a4, ::System::Int32 a5, ::UnityEngine::CubemapFace a6, ::System::Int32 a7)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::ClearFlag, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_3_OFFSET))(cmd, colorBuffer, depthBuffer, clearFlag, miplevel, cubemapFace, depthSlice);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::ClearFlag, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_3_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Void SetRenderTarget_4(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier colorBuffer, ::UnityEngine::Rendering::RenderTargetIdentifier depthBuffer, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor, ::System::Int32 miplevel, ::UnityEngine::CubemapFace cubemapFace, ::System::Int32 depthSlice)
+		static ::System::Void SetRenderTarget_4(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::RenderTargetIdentifier a2, ::UnityEngine::Rendering::RenderTargetIdentifier a3, ::UnityEngine::Rendering::ClearFlag a4, ::UnityEngine::Color a5, ::System::Int32 a6, ::UnityEngine::CubemapFace a7, ::System::Int32 a8)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Color, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_4_OFFSET))(cmd, colorBuffer, depthBuffer, clearFlag, clearColor, miplevel, cubemapFace, depthSlice);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Color, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_4_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::System::Void SetRenderTarget_5(::UnityEngine::Rendering::CommandBuffer* cmd, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* colorBuffers, ::UnityEngine::Rendering::RenderTargetIdentifier depthBuffer)
+		static ::System::Void SetRenderTarget_5(::UnityEngine::Rendering::CommandBuffer* a1, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* a2, ::UnityEngine::Rendering::RenderTargetIdentifier a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>*, ::UnityEngine::Rendering::RenderTargetIdentifier))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_5_OFFSET))(cmd, colorBuffers, depthBuffer);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>*, ::UnityEngine::Rendering::RenderTargetIdentifier))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_5_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SetRenderTarget_6(::UnityEngine::Rendering::CommandBuffer* cmd, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* colorBuffers, ::UnityEngine::Rendering::RenderTargetIdentifier depthBuffer, ::UnityEngine::Rendering::ClearFlag clearFlag)
+		static ::System::Void SetRenderTarget_6(::UnityEngine::Rendering::CommandBuffer* a1, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* a2, ::UnityEngine::Rendering::RenderTargetIdentifier a3, ::UnityEngine::Rendering::ClearFlag a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::ClearFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_6_OFFSET))(cmd, colorBuffers, depthBuffer, clearFlag);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::ClearFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_6_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void SetRenderTarget_7(::UnityEngine::Rendering::CommandBuffer* cmd, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* colorBuffers, ::UnityEngine::Rendering::RenderTargetIdentifier depthBuffer, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor)
+		static ::System::Void SetRenderTarget_7(::UnityEngine::Rendering::CommandBuffer* a1, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* a2, ::UnityEngine::Rendering::RenderTargetIdentifier a3, ::UnityEngine::Rendering::ClearFlag a4, ::UnityEngine::Color a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_7_OFFSET))(cmd, colorBuffers, depthBuffer, clearFlag, clearColor);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_7_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void SetRenderTarget_8(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier buffer, ::UnityEngine::Rendering::RenderBufferLoadAction loadAction, ::UnityEngine::Rendering::RenderBufferStoreAction storeAction, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor)
+		static ::System::Void SetRenderTarget_8(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::RenderTargetIdentifier a2, ::UnityEngine::Rendering::RenderBufferLoadAction a3, ::UnityEngine::Rendering::RenderBufferStoreAction a4, ::UnityEngine::Rendering::ClearFlag a5, ::UnityEngine::Color a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_8_OFFSET))(cmd, buffer, loadAction, storeAction, clearFlag, clearColor);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_8_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void SetRenderTarget_9(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier buffer, ::UnityEngine::Rendering::RenderBufferLoadAction loadAction, ::UnityEngine::Rendering::RenderBufferStoreAction storeAction, ::UnityEngine::Rendering::ClearFlag clearFlag)
+		static ::System::Void SetRenderTarget_9(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::RenderTargetIdentifier a2, ::UnityEngine::Rendering::RenderBufferLoadAction a3, ::UnityEngine::Rendering::RenderBufferStoreAction a4, ::UnityEngine::Rendering::ClearFlag a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::ClearFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_9_OFFSET))(cmd, buffer, loadAction, storeAction, clearFlag);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::ClearFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_9_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void SetRenderTarget_10(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier colorBuffer, ::UnityEngine::Rendering::RenderBufferLoadAction colorLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction colorStoreAction, ::UnityEngine::Rendering::RenderTargetIdentifier depthBuffer, ::UnityEngine::Rendering::RenderBufferLoadAction depthLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction depthStoreAction, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor)
+		static ::System::Void SetRenderTarget_10(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::RenderTargetIdentifier a2, ::UnityEngine::Rendering::RenderBufferLoadAction a3, ::UnityEngine::Rendering::RenderBufferStoreAction a4, ::UnityEngine::Rendering::RenderTargetIdentifier a5, ::UnityEngine::Rendering::RenderBufferLoadAction a6, ::UnityEngine::Rendering::RenderBufferStoreAction a7, ::UnityEngine::Rendering::ClearFlag a8, ::UnityEngine::Color a9)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_10_OFFSET))(cmd, colorBuffer, colorLoadAction, colorStoreAction, depthBuffer, depthLoadAction, depthStoreAction, clearFlag, clearColor);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_10_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		static ::System::Void SetRenderTarget_11(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier colorBuffer, ::UnityEngine::Rendering::RenderBufferLoadAction colorLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction colorStoreAction, ::UnityEngine::Rendering::RenderTargetIdentifier depthBuffer, ::UnityEngine::Rendering::RenderBufferLoadAction depthLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction depthStoreAction, ::UnityEngine::Rendering::ClearFlag clearFlag)
+		static ::System::Void SetRenderTarget_11(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::RenderTargetIdentifier a2, ::UnityEngine::Rendering::RenderBufferLoadAction a3, ::UnityEngine::Rendering::RenderBufferStoreAction a4, ::UnityEngine::Rendering::RenderTargetIdentifier a5, ::UnityEngine::Rendering::RenderBufferLoadAction a6, ::UnityEngine::Rendering::RenderBufferStoreAction a7, ::UnityEngine::Rendering::ClearFlag a8)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::ClearFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_11_OFFSET))(cmd, colorBuffer, colorLoadAction, colorStoreAction, depthBuffer, depthLoadAction, depthStoreAction, clearFlag);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::ClearFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_11_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::System::Void SetViewportAndClear(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* buffer, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor)
+		static ::System::Void SetViewportAndClear(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::RTHandle* a2, ::UnityEngine::Rendering::ClearFlag a3, ::UnityEngine::Color a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETVIEWPORTANDCLEAR_OFFSET))(cmd, buffer, clearFlag, clearColor);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETVIEWPORTANDCLEAR_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void SetRenderTarget_12(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* buffer, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor, ::System::Int32 miplevel, ::UnityEngine::CubemapFace cubemapFace, ::System::Int32 depthSlice)
+		static ::System::Void SetRenderTarget_12(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::RTHandle* a2, ::UnityEngine::Rendering::ClearFlag a3, ::UnityEngine::Color a4, ::System::Int32 a5, ::UnityEngine::CubemapFace a6, ::System::Int32 a7)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Color, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_12_OFFSET))(cmd, buffer, clearFlag, clearColor, miplevel, cubemapFace, depthSlice);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Color, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_12_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Void SetRenderTarget_13(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* buffer, ::UnityEngine::Rendering::ClearFlag clearFlag, ::System::Int32 miplevel, ::UnityEngine::CubemapFace cubemapFace, ::System::Int32 depthSlice)
+		static ::System::Void SetRenderTarget_13(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::RTHandle* a2, ::UnityEngine::Rendering::ClearFlag a3, ::System::Int32 a4, ::UnityEngine::CubemapFace a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::ClearFlag, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_13_OFFSET))(cmd, buffer, clearFlag, miplevel, cubemapFace, depthSlice);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::ClearFlag, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_13_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void SetRenderTarget_14(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* colorBuffer, ::UnityEngine::Rendering::RTHandle* depthBuffer, ::System::Int32 miplevel, ::UnityEngine::CubemapFace cubemapFace, ::System::Int32 depthSlice)
+		static ::System::Void SetRenderTarget_14(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::RTHandle* a2, ::UnityEngine::Rendering::RTHandle* a3, ::System::Int32 a4, ::UnityEngine::CubemapFace a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_14_OFFSET))(cmd, colorBuffer, depthBuffer, miplevel, cubemapFace, depthSlice);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_14_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void SetRenderTarget_15(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* colorBuffer, ::UnityEngine::Rendering::RTHandle* depthBuffer, ::UnityEngine::Rendering::ClearFlag clearFlag, ::System::Int32 miplevel, ::UnityEngine::CubemapFace cubemapFace, ::System::Int32 depthSlice)
+		static ::System::Void SetRenderTarget_15(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::RTHandle* a2, ::UnityEngine::Rendering::RTHandle* a3, ::UnityEngine::Rendering::ClearFlag a4, ::System::Int32 a5, ::UnityEngine::CubemapFace a6, ::System::Int32 a7)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::ClearFlag, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_15_OFFSET))(cmd, colorBuffer, depthBuffer, clearFlag, miplevel, cubemapFace, depthSlice);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::ClearFlag, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_15_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Void SetRenderTarget_16(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* colorBuffer, ::UnityEngine::Rendering::RTHandle* depthBuffer, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor, ::System::Int32 miplevel, ::UnityEngine::CubemapFace cubemapFace, ::System::Int32 depthSlice)
+		static ::System::Void SetRenderTarget_16(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::RTHandle* a2, ::UnityEngine::Rendering::RTHandle* a3, ::UnityEngine::Rendering::ClearFlag a4, ::UnityEngine::Color a5, ::System::Int32 a6, ::UnityEngine::CubemapFace a7, ::System::Int32 a8)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Color, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_16_OFFSET))(cmd, colorBuffer, depthBuffer, clearFlag, clearColor, miplevel, cubemapFace, depthSlice);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Color, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_16_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::System::Void SetRenderTarget_17(::UnityEngine::Rendering::CommandBuffer* cmd, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* colorBuffers, ::UnityEngine::Rendering::RTHandle* depthBuffer)
+		static ::System::Void SetRenderTarget_17(::UnityEngine::Rendering::CommandBuffer* a1, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* a2, ::UnityEngine::Rendering::RTHandle* a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>*, ::UnityEngine::Rendering::RTHandle*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_17_OFFSET))(cmd, colorBuffers, depthBuffer);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>*, ::UnityEngine::Rendering::RTHandle*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_17_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SetRenderTarget_18(::UnityEngine::Rendering::CommandBuffer* cmd, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* colorBuffers, ::UnityEngine::Rendering::RTHandle* depthBuffer, ::UnityEngine::Rendering::ClearFlag clearFlag)
+		static ::System::Void SetRenderTarget_18(::UnityEngine::Rendering::CommandBuffer* a1, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* a2, ::UnityEngine::Rendering::RTHandle* a3, ::UnityEngine::Rendering::ClearFlag a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::ClearFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_18_OFFSET))(cmd, colorBuffers, depthBuffer, clearFlag);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::ClearFlag))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_18_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void SetRenderTarget_19(::UnityEngine::Rendering::CommandBuffer* cmd, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* colorBuffers, ::UnityEngine::Rendering::RTHandle* depthBuffer, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor)
+		static ::System::Void SetRenderTarget_19(::UnityEngine::Rendering::CommandBuffer* a1, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* a2, ::UnityEngine::Rendering::RTHandle* a3, ::UnityEngine::Rendering::ClearFlag a4, ::UnityEngine::Color a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_19_OFFSET))(cmd, colorBuffers, depthBuffer, clearFlag, clearColor);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETRENDERTARGET_19_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void SetViewport(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* target)
+		static ::System::Void SetViewport(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::RTHandle* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETVIEWPORT_OFFSET))(cmd, target);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETVIEWPORT_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* GetRenderTargetAutoName(::System::Int32 width, ::System::Int32 height, ::System::Int32 depth, ::UnityEngine::RenderTextureFormat format, ::System::String* name, ::System::Boolean mips, ::System::Boolean enableMSAA, ::UnityEngine::Rendering::MSAASamples msaaSamples)
+		static ::System::String* GetRenderTargetAutoName(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::RenderTextureFormat a4, ::System::String* a5, ::System::Boolean a6, ::System::Boolean a7, ::UnityEngine::Rendering::MSAASamples a8)
 		{
-			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::System::Int32, ::UnityEngine::RenderTextureFormat, ::System::String*, ::System::Boolean, ::System::Boolean, ::UnityEngine::Rendering::MSAASamples))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_GETRENDERTARGETAUTONAME_OFFSET))(width, height, depth, format, name, mips, enableMSAA, msaaSamples);
+			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::System::Int32, ::UnityEngine::RenderTextureFormat, ::System::String*, ::System::Boolean, ::System::Boolean, ::UnityEngine::Rendering::MSAASamples))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_GETRENDERTARGETAUTONAME_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::System::String* GetRenderTargetAutoName_1(::System::Int32 width, ::System::Int32 height, ::System::Int32 depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::System::String* name, ::System::Boolean mips, ::System::Boolean enableMSAA, ::UnityEngine::Rendering::MSAASamples msaaSamples)
+		static ::System::String* GetRenderTargetAutoName_1(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::Experimental::Rendering::GraphicsFormat a4, ::System::String* a5, ::System::Boolean a6, ::System::Boolean a7, ::UnityEngine::Rendering::MSAASamples a8)
 		{
-			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::System::Int32, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::String*, ::System::Boolean, ::System::Boolean, ::UnityEngine::Rendering::MSAASamples))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_GETRENDERTARGETAUTONAME_1_OFFSET))(width, height, depth, format, name, mips, enableMSAA, msaaSamples);
+			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::System::Int32, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::String*, ::System::Boolean, ::System::Boolean, ::UnityEngine::Rendering::MSAASamples))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_GETRENDERTARGETAUTONAME_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::System::String* GetRenderTargetAutoName_2(::System::Int32 width, ::System::Int32 height, ::System::Int32 depth, ::System::String* format, ::System::String* name, ::System::Boolean mips, ::System::Boolean enableMSAA, ::UnityEngine::Rendering::MSAASamples msaaSamples)
+		static ::System::String* GetRenderTargetAutoName_2(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::System::String* a5, ::System::Boolean a6, ::System::Boolean a7, ::UnityEngine::Rendering::MSAASamples a8)
 		{
-			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::String*, ::System::String*, ::System::Boolean, ::System::Boolean, ::UnityEngine::Rendering::MSAASamples))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_GETRENDERTARGETAUTONAME_2_OFFSET))(width, height, depth, format, name, mips, enableMSAA, msaaSamples);
+			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::String*, ::System::String*, ::System::Boolean, ::System::Boolean, ::UnityEngine::Rendering::MSAASamples))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_GETRENDERTARGETAUTONAME_2_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::System::String* GetTextureAutoName(::System::Int32 width, ::System::Int32 height, ::UnityEngine::TextureFormat format, ::UnityEngine::Rendering::TextureDimension dim, ::System::String* name, ::System::Boolean mips, ::System::Int32 depth)
+		static ::System::String* GetTextureAutoName(::System::Int32 a1, ::System::Int32 a2, ::UnityEngine::TextureFormat a3, ::UnityEngine::Rendering::TextureDimension a4, ::System::String* a5, ::System::Boolean a6, ::System::Int32 a7)
 		{
-			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::UnityEngine::TextureFormat, ::UnityEngine::Rendering::TextureDimension, ::System::String*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_GETTEXTUREAUTONAME_OFFSET))(width, height, format, dim, name, mips, depth);
+			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::UnityEngine::TextureFormat, ::UnityEngine::Rendering::TextureDimension, ::System::String*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_GETTEXTUREAUTONAME_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::String* GetTextureAutoName_1(::System::Int32 width, ::System::Int32 height, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Rendering::TextureDimension dim, ::System::String* name, ::System::Boolean mips, ::System::Int32 depth)
+		static ::System::String* GetTextureAutoName_1(::System::Int32 a1, ::System::Int32 a2, ::UnityEngine::Experimental::Rendering::GraphicsFormat a3, ::UnityEngine::Rendering::TextureDimension a4, ::System::String* a5, ::System::Boolean a6, ::System::Int32 a7)
 		{
-			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::Rendering::TextureDimension, ::System::String*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_GETTEXTUREAUTONAME_1_OFFSET))(width, height, format, dim, name, mips, depth);
+			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::Rendering::TextureDimension, ::System::String*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_GETTEXTUREAUTONAME_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::String* GetTextureAutoName_2(::System::Int32 width, ::System::Int32 height, ::System::String* format, ::UnityEngine::Rendering::TextureDimension dim, ::System::String* name, ::System::Boolean mips, ::System::Int32 depth)
+		static ::System::String* GetTextureAutoName_2(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3, ::UnityEngine::Rendering::TextureDimension a4, ::System::String* a5, ::System::Boolean a6, ::System::Int32 a7)
 		{
-			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::System::String*, ::UnityEngine::Rendering::TextureDimension, ::System::String*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_GETTEXTUREAUTONAME_2_OFFSET))(width, height, format, dim, name, mips, depth);
+			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::System::String*, ::UnityEngine::Rendering::TextureDimension, ::System::String*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_GETTEXTUREAUTONAME_2_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Void ClearCubemap(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTexture* renderTexture, ::UnityEngine::Color clearColor, ::System::Boolean clearMips)
+		static ::System::Void ClearCubemap(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::RenderTexture* a2, ::UnityEngine::Color a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTexture*, ::UnityEngine::Color, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_CLEARCUBEMAP_OFFSET))(cmd, renderTexture, clearColor, clearMips);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTexture*, ::UnityEngine::Color, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_CLEARCUBEMAP_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void DrawFullScreen(::UnityEngine::Rendering::CommandBuffer* commandBuffer, ::UnityEngine::Material* material, ::UnityEngine::MaterialPropertyBlock* properties, ::System::Int32 shaderPassId)
+		static ::System::Void DrawFullScreen(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Material* a2, ::UnityEngine::MaterialPropertyBlock* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Material*, ::UnityEngine::MaterialPropertyBlock*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_DRAWFULLSCREEN_OFFSET))(commandBuffer, material, properties, shaderPassId);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Material*, ::UnityEngine::MaterialPropertyBlock*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_DRAWFULLSCREEN_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void DrawFullScreen_1(::UnityEngine::Rendering::CommandBuffer* commandBuffer, ::UnityEngine::Material* material, ::UnityEngine::Rendering::RenderTargetIdentifier colorBuffer, ::UnityEngine::MaterialPropertyBlock* properties, ::System::Int32 shaderPassId)
+		static ::System::Void DrawFullScreen_1(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Material* a2, ::UnityEngine::Rendering::RenderTargetIdentifier a3, ::UnityEngine::MaterialPropertyBlock* a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Material*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::MaterialPropertyBlock*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_DRAWFULLSCREEN_1_OFFSET))(commandBuffer, material, colorBuffer, properties, shaderPassId);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Material*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::MaterialPropertyBlock*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_DRAWFULLSCREEN_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void DrawFullScreen_2(::UnityEngine::Rendering::CommandBuffer* commandBuffer, ::UnityEngine::Material* material, ::UnityEngine::Rendering::RenderTargetIdentifier colorBuffer, ::UnityEngine::Rendering::RenderTargetIdentifier depthStencilBuffer, ::UnityEngine::MaterialPropertyBlock* properties, ::System::Int32 shaderPassId)
+		static ::System::Void DrawFullScreen_2(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Material* a2, ::UnityEngine::Rendering::RenderTargetIdentifier a3, ::UnityEngine::Rendering::RenderTargetIdentifier a4, ::UnityEngine::MaterialPropertyBlock* a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Material*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::MaterialPropertyBlock*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_DRAWFULLSCREEN_2_OFFSET))(commandBuffer, material, colorBuffer, depthStencilBuffer, properties, shaderPassId);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Material*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::MaterialPropertyBlock*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_DRAWFULLSCREEN_2_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void DrawFullScreen_3(::UnityEngine::Rendering::CommandBuffer* commandBuffer, ::UnityEngine::Material* material, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* colorBuffers, ::UnityEngine::Rendering::RenderTargetIdentifier depthStencilBuffer, ::UnityEngine::MaterialPropertyBlock* properties, ::System::Int32 shaderPassId)
+		static ::System::Void DrawFullScreen_3(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Material* a2, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* a3, ::UnityEngine::Rendering::RenderTargetIdentifier a4, ::UnityEngine::MaterialPropertyBlock* a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Material*, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::MaterialPropertyBlock*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_DRAWFULLSCREEN_3_OFFSET))(commandBuffer, material, colorBuffers, depthStencilBuffer, properties, shaderPassId);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Material*, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::MaterialPropertyBlock*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_DRAWFULLSCREEN_3_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void DrawFullScreen_4(::UnityEngine::Rendering::CommandBuffer* commandBuffer, ::UnityEngine::Material* material, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* colorBuffers, ::UnityEngine::MaterialPropertyBlock* properties, ::System::Int32 shaderPassId)
+		static ::System::Void DrawFullScreen_4(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Material* a2, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* a3, ::UnityEngine::MaterialPropertyBlock* a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Material*, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>*, ::UnityEngine::MaterialPropertyBlock*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_DRAWFULLSCREEN_4_OFFSET))(commandBuffer, material, colorBuffers, properties, shaderPassId);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Material*, ::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>*, ::UnityEngine::MaterialPropertyBlock*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_DRAWFULLSCREEN_4_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::UnityEngine::Color ConvertSRGBToActiveColorSpace(::UnityEngine::Color color)
+		static ::UnityEngine::Color ConvertSRGBToActiveColorSpace(::UnityEngine::Color a1)
 		{
-			return ((::UnityEngine::Color(*)(::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_CONVERTSRGBTOACTIVECOLORSPACE_OFFSET))(color);
+			return ((::UnityEngine::Color(*)(::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_CONVERTSRGBTOACTIVECOLORSPACE_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Color ConvertLinearToActiveColorSpace(::UnityEngine::Color color)
+		static ::UnityEngine::Color ConvertLinearToActiveColorSpace(::UnityEngine::Color a1)
 		{
-			return ((::UnityEngine::Color(*)(::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_CONVERTLINEARTOACTIVECOLORSPACE_OFFSET))(color);
+			return ((::UnityEngine::Color(*)(::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_CONVERTLINEARTOACTIVECOLORSPACE_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Material* CreateEngineMaterial(::System::String* shaderPath)
+		static ::UnityEngine::Material* CreateEngineMaterial(::System::String* a1)
 		{
-			return ((::UnityEngine::Material*(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_CREATEENGINEMATERIAL_OFFSET))(shaderPath);
+			return ((::UnityEngine::Material*(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_CREATEENGINEMATERIAL_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Material* CreateEngineMaterial_1(::UnityEngine::Shader* shader)
+		static ::UnityEngine::Material* CreateEngineMaterial_1(::UnityEngine::Shader* a1)
 		{
-			return ((::UnityEngine::Material*(*)(::UnityEngine::Shader*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_CREATEENGINEMATERIAL_1_OFFSET))(shader);
+			return ((::UnityEngine::Material*(*)(::UnityEngine::Shader*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_CREATEENGINEMATERIAL_1_OFFSET))(a1);
 		}
 
-		static ::System::Void SetKeyword(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::String* keyword, ::System::Boolean state)
+		static ::System::Void SetKeyword(::UnityEngine::Rendering::CommandBuffer* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETKEYWORD_OFFSET))(cmd, keyword, state);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETKEYWORD_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SetKeyword_1(::UnityEngine::Material* material, ::System::String* keyword, ::System::Boolean state)
+		static ::System::Void SetKeyword_1(::UnityEngine::Material* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Material*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETKEYWORD_1_OFFSET))(material, keyword, state);
+			return ((::System::Void(*)(::UnityEngine::Material*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SETKEYWORD_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void Destroy(::UnityEngine::Object* obj)
+		static ::System::Void Destroy(::UnityEngine::Object* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_DESTROY_OFFSET))(obj);
+			return ((::System::Void(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_DESTROY_OFFSET))(a1);
 		}
 
-		static ::System::Void SafeRelease(::UnityEngine::ComputeBuffer* buffer)
+		static ::System::Void SafeRelease(::UnityEngine::ComputeBuffer* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::ComputeBuffer*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SAFERELEASE_OFFSET))(buffer);
+			return ((::System::Void(*)(::UnityEngine::ComputeBuffer*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_SAFERELEASE_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Mesh* CreateCubeMesh(::UnityEngine::Vector3 min, ::UnityEngine::Vector3 max)
+		static ::UnityEngine::Mesh* CreateCubeMesh(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::UnityEngine::Mesh*(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_CREATECUBEMESH_OFFSET))(min, max);
+			return ((::UnityEngine::Mesh*(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_CREATECUBEMESH_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean ArePostProcessesEnabled(::UnityEngine::Camera* camera)
+		static ::System::Boolean ArePostProcessesEnabled(::UnityEngine::Camera* a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_AREPOSTPROCESSESENABLED_OFFSET))(camera);
+			return ((::System::Boolean(*)(::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_AREPOSTPROCESSESENABLED_OFFSET))(a1);
 		}
 
-		static ::System::Boolean AreAnimatedMaterialsEnabled(::UnityEngine::Camera* camera)
+		static ::System::Boolean AreAnimatedMaterialsEnabled(::UnityEngine::Camera* a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_AREANIMATEDMATERIALSENABLED_OFFSET))(camera);
+			return ((::System::Boolean(*)(::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_AREANIMATEDMATERIALSENABLED_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsSceneLightingDisabled(::UnityEngine::Camera* camera)
+		static ::System::Boolean IsSceneLightingDisabled(::UnityEngine::Camera* a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_ISSCENELIGHTINGDISABLED_OFFSET))(camera);
+			return ((::System::Boolean(*)(::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_ISSCENELIGHTINGDISABLED_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsSceneViewFogEnabled(::UnityEngine::Camera* camera)
+		static ::System::Boolean IsSceneViewFogEnabled(::UnityEngine::Camera* a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_ISSCENEVIEWFOGENABLED_OFFSET))(camera);
+			return ((::System::Boolean(*)(::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_ISSCENEVIEWFOGENABLED_OFFSET))(a1);
 		}
 
-		static ::System::Boolean _HasReloadGroup(::System::Reflection::FieldInfo* info)
+		static ::System::Boolean _HasReloadGroup(::System::Reflection::FieldInfo* a1)
 		{
-			return ((::System::Boolean(*)(::System::Reflection::FieldInfo*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS__HASRELOADGROUP_OFFSET))(info);
+			return ((::System::Boolean(*)(::System::Reflection::FieldInfo*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS__HASRELOADGROUP_OFFSET))(a1);
 		}
 
-		static ::System::Boolean _HasReload(::System::Reflection::FieldInfo* info)
+		static ::System::Boolean _HasReload(::System::Reflection::FieldInfo* a1)
 		{
-			return ((::System::Boolean(*)(::System::Reflection::FieldInfo*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS__HASRELOAD_OFFSET))(info);
+			return ((::System::Boolean(*)(::System::Reflection::FieldInfo*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS__HASRELOAD_OFFSET))(a1);
 		}
 
-		static ::System::Void _DebugPrintSpace(::System::Text::StringBuilder* sb, ::System::Int32 depth)
+		static ::System::Void _DebugPrintSpace(::System::Text::StringBuilder* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::System::Text::StringBuilder*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS__DEBUGPRINTSPACE_OFFSET))(sb, depth);
+			return ((::System::Void(*)(::System::Text::StringBuilder*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS__DEBUGPRINTSPACE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void _DebugPringEx(::System::Object* container, ::Il2CppArray<::System::Reflection::FieldInfo*>* fields, ::System::Text::StringBuilder* sb, ::System::Int32 depth)
+		static ::System::Void _DebugPringEx(::System::Object* a1, ::Il2CppArray<::System::Reflection::FieldInfo*>* a2, ::System::Text::StringBuilder* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::System::Object*, ::Il2CppArray<::System::Reflection::FieldInfo*>*, ::System::Text::StringBuilder*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS__DEBUGPRINGEX_OFFSET))(container, fields, sb, depth);
+			return ((::System::Void(*)(::System::Object*, ::Il2CppArray<::System::Reflection::FieldInfo*>*, ::System::Text::StringBuilder*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS__DEBUGPRINGEX_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void DebugPrint(::System::Object* container, ::System::Text::StringBuilder* sb, ::System::Int32 depth)
+		static ::System::Void DebugPrint(::System::Object* a1, ::System::Text::StringBuilder* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::System::Object*, ::System::Text::StringBuilder*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_DEBUGPRINT_OFFSET))(container, sb, depth);
+			return ((::System::Void(*)(::System::Object*, ::System::Text::StringBuilder*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUTILS_DEBUGPRINT_OFFSET))(a1, a2, a3);
 		}
 	};
 }

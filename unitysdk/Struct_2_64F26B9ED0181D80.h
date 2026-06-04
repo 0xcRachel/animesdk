@@ -8,19 +8,19 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
-#define STRUCT_2_64F26B9ED0181D80_METHOD_2_6676B536AB0BDA5B_OFFSET UNITYSDK_OFFSET(0x1C8F200)
-#define STRUCT_2_64F26B9ED0181D80_METHOD_2_77DC958FDB6DF417_OFFSET UNITYSDK_OFFSET(0x1C8F250)
-#define STRUCT_2_64F26B9ED0181D80__CCTOR_OFFSET UNITYSDK_OFFSET(0xF0CB660)
+#define STRUCT_2_64F26B9ED0181D80_METHOD_2_4ACC56B3341873DA_OFFSET UNITYSDK_OFFSET(0x3748AF0)
+#define STRUCT_2_64F26B9ED0181D80_METHOD_2_6676B536AB0BDA5B_OFFSET UNITYSDK_OFFSET(0x3748AA0)
+#define STRUCT_2_64F26B9ED0181D80__CCTOR_OFFSET UNITYSDK_OFFSET(0x13529EE0)
 
-inline static constexpr unsigned int Struct_2_64F26B9ED0181D80_TypeDefinitionIndex = 54412;
+inline static constexpr unsigned int Struct_2_64F26B9ED0181D80_TypeDefinitionIndex = 55139;
 
 struct alignas(8) Struct_2_64F26B9ED0181D80
 {
-	static ::Il2CppArray<::RPG::GameCore::AbilityProperty>** StaticGet_Field_2_1()
+	static ::Il2CppArray<::RPG::GameCore::AbilityProperty>** StaticGet_Field_2_0()
 	{
-		return (::Il2CppArray<::RPG::GameCore::AbilityProperty>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_64F26B9ED0181D80_TypeDefinitionIndex)->GetStaticField(0x2BC20);
+		return (::Il2CppArray<::RPG::GameCore::AbilityProperty>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_64F26B9ED0181D80_TypeDefinitionIndex)->GetStaticField(0x3ADF0);
 	}
-	// static const ::System::Int32 Field_2_0 = 0x1B; // 0x0
+	// static const ::System::Int32 Field_2_1 = 0x1B; // 0x0
 	::System::UInt32 Field_2_2; // 0x10
 	::Struct_2_64F26B9ED0181D80__PropertyRawValues_e__FixedBuffer Field_2_3; // 0x18
 
@@ -34,8 +34,8 @@ struct alignas(8) Struct_2_64F26B9ED0181D80
 		return ((::System::Boolean(*)(::PVOID, ::Struct_2_64F26B9ED0181D80, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + STRUCT_2_64F26B9ED0181D80_METHOD_2_6676B536AB0BDA5B_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_77DC958FDB6DF417(::System::Text::StringBuilder* a1)
+	::System::Void Method_2_4ACC56B3341873DA(::System::Text::StringBuilder* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + STRUCT_2_64F26B9ED0181D80_METHOD_2_77DC958FDB6DF417_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + STRUCT_2_64F26B9ED0181D80_METHOD_2_4ACC56B3341873DA_OFFSET))(this, a1);
 	}
 };

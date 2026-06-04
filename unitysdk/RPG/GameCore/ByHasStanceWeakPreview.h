@@ -6,14 +6,17 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AttackDamageTypeConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYHASSTANCEWEAKPREVIEW_METHOD_4_4003166403879B72_OFFSET UNITYSDK_OFFSET(0x19AE08B0)
-#define RPG_GAMECORE_BYHASSTANCEWEAKPREVIEW_METHOD_4_D66EC403087BE0B5_OFFSET UNITYSDK_OFFSET(0x19AE07D0)
-#define RPG_GAMECORE_BYHASSTANCEWEAKPREVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AE0850)
+#define RPG_GAMECORE_BYHASSTANCEWEAKPREVIEW_METHOD_4_4003166403879B72_OFFSET UNITYSDK_OFFSET(0x19D93980)
+#define RPG_GAMECORE_BYHASSTANCEWEAKPREVIEW_METHOD_4_85BD267B4FB28859_OFFSET UNITYSDK_OFFSET(0x19D93C80)
+#define RPG_GAMECORE_BYHASSTANCEWEAKPREVIEW_METHOD_4_C2A822CAD94FD4F6_OFFSET UNITYSDK_OFFSET(0x19D93D00)
+#define RPG_GAMECORE_BYHASSTANCEWEAKPREVIEW_METHOD_4_D66EC403087BE0B5_OFFSET UNITYSDK_OFFSET(0x19D938A0)
+#define RPG_GAMECORE_BYHASSTANCEWEAKPREVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D93920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByHasStanceWeakPreview_TypeDefinitionIndex = 21442;
+	inline static constexpr unsigned int ByHasStanceWeakPreview_TypeDefinitionIndex = 21326;
 
 	class ByHasStanceWeakPreview : public ::RPG::GameCore::PredicateConfig
 	{
@@ -38,6 +41,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_4003166403879B72(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByHasStanceWeakPreview* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByHasStanceWeakPreview*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASSTANCEWEAKPREVIEW_METHOD_4_4003166403879B72_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_85BD267B4FB28859(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHasStanceWeakPreview*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHasStanceWeakPreview*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASSTANCEWEAKPREVIEW_METHOD_4_85BD267B4FB28859_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_C2A822CAD94FD4F6(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHasStanceWeakPreview* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHasStanceWeakPreview*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASSTANCEWEAKPREVIEW_METHOD_4_C2A822CAD94FD4F6_OFFSET))(a1, a2);
 		}
 	};
 }

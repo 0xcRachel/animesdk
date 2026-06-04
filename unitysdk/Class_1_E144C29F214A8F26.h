@@ -6,27 +6,27 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define CLASS_1_E144C29F214A8F26_CLEAR_OFFSET UNITYSDK_OFFSET(0xF589920)
-#define CLASS_1_E144C29F214A8F26_GET_ISRELEASED_OFFSET UNITYSDK_OFFSET(0xF5899D0)
-#define CLASS_1_E144C29F214A8F26_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0xF589980)
-#define CLASS_1_E144C29F214A8F26_SET_ISRELEASED_OFFSET UNITYSDK_OFFSET(0xF5899E0)
-#define CLASS_1_E144C29F214A8F26__CTOR_OFFSET UNITYSDK_OFFSET(0xF5899F0)
+#define CLASS_1_E144C29F214A8F26_CLEAR_OFFSET UNITYSDK_OFFSET(0x12025760)
+#define CLASS_1_E144C29F214A8F26_GET_ISRELEASED_OFFSET UNITYSDK_OFFSET(0x12025810)
+#define CLASS_1_E144C29F214A8F26_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x120257C0)
+#define CLASS_1_E144C29F214A8F26_SET_ISRELEASED_OFFSET UNITYSDK_OFFSET(0x12025820)
+#define CLASS_1_E144C29F214A8F26__CTOR_OFFSET UNITYSDK_OFFSET(0x12025830)
 
-inline static constexpr unsigned int Class_1_E144C29F214A8F26_TypeDefinitionIndex = 64451;
+inline static constexpr unsigned int Class_1_E144C29F214A8F26_TypeDefinitionIndex = 65372;
 
 class Class_1_E144C29F214A8F26 : public ::System::Object
 {
 public:
-	::Il2CppArray<::RPG::GameCore::MonoEffectFlag>* Field_1_5; // 0x10
-	::System::String* Field_1_3; // 0x18
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x20
-	::System::String* Field_1_1; // 0x28
-	::System::String* Field_1_2; // 0x30
-	::System::UInt32 Field_1_4; // 0x38
-	::System::Boolean _IsReleased_k__BackingField; // 0x3C
-	::System::Boolean Field_1_6; // 0x3D
-	::System::Boolean Field_1_7; // 0x3E
-	::System::Boolean Field_1_8; // 0x3F
+	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
+	::Il2CppArray<::RPG::GameCore::MonoEffectFlag>* Field_1_1; // 0x18
+	::System::String* Field_1_2; // 0x20
+	::System::String* Field_1_3; // 0x28
+	::System::String* Field_1_4; // 0x30
+	::System::Boolean _IsReleased_k__BackingField; // 0x38
+	::System::Boolean Field_1_6; // 0x39
+	::System::Boolean Field_1_7; // 0x3A
+	::System::Boolean Field_1_8; // 0x3B
+	::System::UInt32 Field_1_9; // 0x3C
 
 	::System::Void _ctor()
 	{
@@ -48,8 +48,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E144C29F214A8F26_GET_ISRELEASED_OFFSET))(this);
 	}
 
-	::System::Void set_IsReleased(::System::Boolean value)
+	::System::Void set_IsReleased(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_E144C29F214A8F26_SET_ISRELEASED_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_E144C29F214A8F26_SET_ISRELEASED_OFFSET))(this, a1);
 	}
 };

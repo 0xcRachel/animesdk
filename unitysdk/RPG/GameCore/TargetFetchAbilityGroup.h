@@ -3,14 +3,17 @@
 #include "unitysdk/RPG/GameCore/TargetEvaluator.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETFETCHABILITYGROUP_METHOD_4_53302C24C51CF703_OFFSET UNITYSDK_OFFSET(0x199D4CF0)
-#define RPG_GAMECORE_TARGETFETCHABILITYGROUP_METHOD_4_85F0DD8309BB75B5_OFFSET UNITYSDK_OFFSET(0x199DE700)
-#define RPG_GAMECORE_TARGETFETCHABILITYGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x199D4CA0)
+#define RPG_GAMECORE_TARGETFETCHABILITYGROUP_METHOD_4_53302C24C51CF703_OFFSET UNITYSDK_OFFSET(0x1AC3CE90)
+#define RPG_GAMECORE_TARGETFETCHABILITYGROUP_METHOD_4_74B4AB4DAA70BDFB_OFFSET UNITYSDK_OFFSET(0x1AC50CC0)
+#define RPG_GAMECORE_TARGETFETCHABILITYGROUP_METHOD_4_85F0DD8309BB75B5_OFFSET UNITYSDK_OFFSET(0x1AC50C00)
+#define RPG_GAMECORE_TARGETFETCHABILITYGROUP_METHOD_4_8CCAA3A0D0B2E72B_OFFSET UNITYSDK_OFFSET(0x1AC4BA40)
+#define RPG_GAMECORE_TARGETFETCHABILITYGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC3CE40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchAbilityGroup_TypeDefinitionIndex = 22902;
+	inline static constexpr unsigned int TargetFetchAbilityGroup_TypeDefinitionIndex = 22593;
 
 	class TargetFetchAbilityGroup : public ::RPG::GameCore::TargetEvaluator
 	{
@@ -28,6 +31,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_53302C24C51CF703(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAbilityGroup* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAbilityGroup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHABILITYGROUP_METHOD_4_53302C24C51CF703_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_8CCAA3A0D0B2E72B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAbilityGroup*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAbilityGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHABILITYGROUP_METHOD_4_8CCAA3A0D0B2E72B_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_74B4AB4DAA70BDFB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAbilityGroup* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAbilityGroup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHABILITYGROUP_METHOD_4_74B4AB4DAA70BDFB_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,13 +4,13 @@
 
 namespace RPG::Client { class StaminaExchangeCalculatorResult; }
 
-#define RPG_CLIENT_STAMINAEXCHANGECALCULATOR_CALCULATE_OFFSET UNITYSDK_OFFSET(0x161FFC60)
-#define RPG_CLIENT_STAMINAEXCHANGECALCULATOR__GETFUELITEMID_OFFSET UNITYSDK_OFFSET(0x161FFF10)
-#define RPG_CLIENT_STAMINAEXCHANGECALCULATOR__GETFUELTOSTAMINANUM_OFFSET UNITYSDK_OFFSET(0x161FFF50)
+#define RPG_CLIENT_STAMINAEXCHANGECALCULATOR_CALCULATE_OFFSET UNITYSDK_OFFSET(0x17BDD5F0)
+#define RPG_CLIENT_STAMINAEXCHANGECALCULATOR__GETFUELITEMID_OFFSET UNITYSDK_OFFSET(0x17BDD8A0)
+#define RPG_CLIENT_STAMINAEXCHANGECALCULATOR__GETFUELTOSTAMINANUM_OFFSET UNITYSDK_OFFSET(0x17BDD8E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StaminaExchangeCalculator_TypeDefinitionIndex = 60527;
+	inline static constexpr unsigned int StaminaExchangeCalculator_TypeDefinitionIndex = 61461;
 
 	class StaminaExchangeCalculator : public ::System::Object
 	{
@@ -18,9 +18,9 @@ namespace RPG::Client
 		// static const ::System::UInt32 _FuelItemID = 0xC9; // 0x0
 		// static const ::System::UInt32 _FuelToStaminaNum = 0x3C; // 0x0
 
-		static ::RPG::Client::StaminaExchangeCalculatorResult* Calculate(::System::UInt32 staminaCost)
+		static ::RPG::Client::StaminaExchangeCalculatorResult* Calculate(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::StaminaExchangeCalculatorResult*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAMINAEXCHANGECALCULATOR_CALCULATE_OFFSET))(staminaCost);
+			return ((::RPG::Client::StaminaExchangeCalculatorResult*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAMINAEXCHANGECALCULATOR_CALCULATE_OFFSET))(a1);
 		}
 
 		static ::System::UInt32 _GetFuelItemID()

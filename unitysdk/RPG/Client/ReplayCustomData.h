@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_REPLAYCUSTOMDATA_METHOD_1_5BF0E61BD5CA40A5_OFFSET UNITYSDK_OFFSET(0x131D5F60)
-#define RPG_CLIENT_REPLAYCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x131D5FB0)
+#define RPG_CLIENT_REPLAYCUSTOMDATA_METHOD_1_DB0D23A9175AE8ED_OFFSET UNITYSDK_OFFSET(0x14D25320)
+#define RPG_CLIENT_REPLAYCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14D25370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ReplayCustomData_TypeDefinitionIndex = 56237;
+	inline static constexpr unsigned int ReplayCustomData_TypeDefinitionIndex = 56999;
 
 	class ReplayCustomData : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYCUSTOMDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::String* Method_1_5BF0E61BD5CA40A5()
+		::System::String* Method_1_DB0D23A9175AE8ED()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYCUSTOMDATA_METHOD_1_5BF0E61BD5CA40A5_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REPLAYCUSTOMDATA_METHOD_1_DB0D23A9175AE8ED_OFFSET))(this);
 		}
 	};
 }

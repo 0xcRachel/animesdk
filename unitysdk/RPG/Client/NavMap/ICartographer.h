@@ -11,7 +11,7 @@ namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int ICartographer_TypeDefinitionIndex = 68754;
+	inline static constexpr unsigned int ICartographer_TypeDefinitionIndex = 69566;
 
 	class ICartographer
 	{

@@ -7,15 +7,15 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x17E14C20)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x17E14D20)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x17E14E40)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x17E14E50)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x17E14E90)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x199D00E0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x199D01E0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x199D02B0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x199D0390)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x199D03D0)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoDiscussionMouthTrack_TypeDefinitionIndex = 45448;
+	inline static constexpr unsigned int EmoDiscussionMouthTrack_TypeDefinitionIndex = 46031;
 
 	class EmoDiscussionMouthTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
@@ -35,14 +35,14 @@ namespace RPGTools::Timeline::Emotion
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::UnityEngine::Timeline::TimelineClip* P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::System::Int32 P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONMOUTHTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

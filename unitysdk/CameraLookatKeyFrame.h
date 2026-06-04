@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CAMERALOOKATKEYFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0xECE13D0)
+#define CAMERALOOKATKEYFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x14E393B0)
 
-inline static constexpr unsigned int CameraLookatKeyFrame_TypeDefinitionIndex = 44073;
+inline static constexpr unsigned int CameraLookatKeyFrame_TypeDefinitionIndex = 44619;
 
 class CameraLookatKeyFrame : public ::System::Object
 {

@@ -13,13 +13,13 @@ class Class_1_A88C3AAF0DD46F4C_13;
 namespace RPG::GameCore { class MazeBuffRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUEMAGICSCEPTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1996F880)
-#define RPG_GAMECORE_ROGUEMAGICSCEPTERROW_GETMAZEBUFF_OFFSET UNITYSDK_OFFSET(0x1996FD40)
-#define RPG_GAMECORE_ROGUEMAGICSCEPTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1996FD30)
+#define RPG_GAMECORE_ROGUEMAGICSCEPTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19EC44E0)
+#define RPG_GAMECORE_ROGUEMAGICSCEPTERROW_GETMAZEBUFF_OFFSET UNITYSDK_OFFSET(0x19EC4900)
+#define RPG_GAMECORE_ROGUEMAGICSCEPTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19EC48F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicScepterRow_TypeDefinitionIndex = 14083;
+	inline static constexpr unsigned int RogueMagicScepterRow_TypeDefinitionIndex = 14147;
 
 	class RogueMagicScepterRow : public ::System::Object
 	{
@@ -27,23 +27,23 @@ namespace RPG::GameCore
 		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_13*>* LockMagicUnit; // 0x10
 		::Il2CppArray<::RPG::GameCore::RogueMagicEffectType>* EffectTypeList; // 0x18
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>* TrenchCount; // 0x20
-		::RPG::GameCore::RogueMagicScepterFuncType FuncType; // 0x28
-		::System::UInt32 ScepterLevel; // 0x2C
-		::RPG::GameCore::RogueMagicRangeType LimitRangeType; // 0x30
+		::RPG::GameCore::RogueMagicRangeType LimitRangeType; // 0x28
+		::System::UInt32 ScepterID; // 0x2C
+		::RPG::GameCore::RogueMagicScepterFuncType FuncType; // 0x30
 		::System::UInt32 UnlockID; // 0x34
-		::RPG::GameCore::FixPoint ScepterBasicPower; // 0x38
-		::System::UInt32 StaffMazeBuffID; // 0x40
-		::RPG::GameCore::RogueMagicStyleType StyleType; // 0x44
-		::System::UInt32 ScepterID; // 0x48
+		::RPG::GameCore::RogueMagicStyleType StyleType; // 0x38
+		::System::UInt32 StaffMazeBuffID; // 0x3C
+		::System::UInt32 ScepterLevel; // 0x40
+		::RPG::GameCore::FixPoint ScepterBasicPower; // 0x48
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICSCEPTERROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueMagicScepterRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueMagicScepterRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMagicScepterRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICSCEPTERROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMagicScepterRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICSCEPTERROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 
 		::RPG::GameCore::MazeBuffRow* GetMazeBuff()

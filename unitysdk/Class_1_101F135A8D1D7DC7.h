@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_101F135A8D1D7DC7_METHOD_1_81F3FEDEB8077FC5_OFFSET UNITYSDK_OFFSET(0x18597570)
-#define CLASS_1_101F135A8D1D7DC7__CTOR_OFFSET UNITYSDK_OFFSET(0x18597730)
+#define CLASS_1_101F135A8D1D7DC7_METHOD_1_81F3FEDEB8077FC5_OFFSET UNITYSDK_OFFSET(0x19153280)
+#define CLASS_1_101F135A8D1D7DC7__CTOR_OFFSET UNITYSDK_OFFSET(0x19153440)
 
-inline static constexpr unsigned int Class_1_101F135A8D1D7DC7_TypeDefinitionIndex = 10799;
+inline static constexpr unsigned int Class_1_101F135A8D1D7DC7_TypeDefinitionIndex = 10854;
 
 class Class_1_101F135A8D1D7DC7 : public ::System::Object
 {
 public:
-	::System::String* Field_1_3; // 0x10
-	::System::String* Field_1_2; // 0x18
-	::System::UInt32 Field_1_1; // 0x20
-	::System::UInt32 Field_1_0; // 0x24
+	::System::String* Field_1_0; // 0x10
+	::System::String* Field_1_1; // 0x18
+	::System::UInt32 Field_1_2; // 0x20
+	::System::UInt32 Field_1_3; // 0x24
 
 	::System::Void _ctor()
 	{

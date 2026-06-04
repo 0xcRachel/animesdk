@@ -5,12 +5,12 @@
 namespace RPG::Client { class GridFightFlowDirector_IFlowStateEvent; }
 namespace RPG::Client { class GridFightFlowDirector_ITransitionRule; }
 
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C__DISPLAYCLASS53_0__CTOR_OFFSET UNITYSDK_OFFSET(0x174CBF70)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C__DISPLAYCLASS53_0___TRIGGERTRANSITION_B__0_OFFSET UNITYSDK_OFFSET(0x174CCCA0)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C__DISPLAYCLASS53_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18935F00)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C__DISPLAYCLASS53_0___TRIGGERTRANSITION_B__0_OFFSET UNITYSDK_OFFSET(0x18936C80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFlowDirector___c__DisplayClass53_0_TypeDefinitionIndex = 59460;
+	inline static constexpr unsigned int GridFightFlowDirector___c__DisplayClass53_0_TypeDefinitionIndex = 60395;
 
 	class GridFightFlowDirector___c__DisplayClass53_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C__DISPLAYCLASS53_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __TriggerTransition_b__0(::RPG::Client::GridFightFlowDirector_ITransitionRule* x)
+		::System::Boolean __TriggerTransition_b__0(::RPG::Client::GridFightFlowDirector_ITransitionRule* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightFlowDirector_ITransitionRule*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C__DISPLAYCLASS53_0___TRIGGERTRANSITION_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightFlowDirector_ITransitionRule*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C__DISPLAYCLASS53_0___TRIGGERTRANSITION_B__0_OFFSET))(this, a1);
 		}
 	};
 }

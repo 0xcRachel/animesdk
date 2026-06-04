@@ -3,32 +3,32 @@
 #include "unitysdk/Unity/Profiling/ProfilerMarker.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_0_16E4307DCC419505_614;
+class Class_0_16E4307DCC419505_637;
 namespace RPG::Client { class UIController; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class ScrollRect; }
 
-#define RPG_CLIENT_MONOINCONTROLMOVE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1169FAE0)
-#define RPG_CLIENT_MONOINCONTROLMOVE_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x116A0C70)
-#define RPG_CLIENT_MONOINCONTROLMOVE_GET_OFFSET UNITYSDK_OFFSET(0x1169F9C0)
-#define RPG_CLIENT_MONOINCONTROLMOVE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x116A0B40)
-#define RPG_CLIENT_MONOINCONTROLMOVE_SPAWNED_OFFSET UNITYSDK_OFFSET(0x116A0C00)
-#define RPG_CLIENT_MONOINCONTROLMOVE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1169FB50)
-#define RPG_CLIENT_MONOINCONTROLMOVE__CCTOR_OFFSET UNITYSDK_OFFSET(0x116A0CF0)
-#define RPG_CLIENT_MONOINCONTROLMOVE__CLEAR_OFFSET UNITYSDK_OFFSET(0x116A0BB0)
-#define RPG_CLIENT_MONOINCONTROLMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x116A0CD0)
-#define RPG_CLIENT_MONOINCONTROLMOVE__GETUICONTROLLER_OFFSET UNITYSDK_OFFSET(0x116A0A40)
+#define RPG_CLIENT_MONOINCONTROLMOVE_AWAKE_OFFSET UNITYSDK_OFFSET(0x17ACAEE0)
+#define RPG_CLIENT_MONOINCONTROLMOVE_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x17ACC070)
+#define RPG_CLIENT_MONOINCONTROLMOVE_GET_OFFSET UNITYSDK_OFFSET(0x17ACADC0)
+#define RPG_CLIENT_MONOINCONTROLMOVE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17ACBF40)
+#define RPG_CLIENT_MONOINCONTROLMOVE_SPAWNED_OFFSET UNITYSDK_OFFSET(0x17ACC000)
+#define RPG_CLIENT_MONOINCONTROLMOVE_UPDATE_OFFSET UNITYSDK_OFFSET(0x17ACAF50)
+#define RPG_CLIENT_MONOINCONTROLMOVE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17ACC0F0)
+#define RPG_CLIENT_MONOINCONTROLMOVE__CLEAR_OFFSET UNITYSDK_OFFSET(0x17ACBFB0)
+#define RPG_CLIENT_MONOINCONTROLMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x17ACC0D0)
+#define RPG_CLIENT_MONOINCONTROLMOVE__GETUICONTROLLER_OFFSET UNITYSDK_OFFSET(0x17ACBE40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoInControlMove_TypeDefinitionIndex = 56570;
+	inline static constexpr unsigned int MonoInControlMove_TypeDefinitionIndex = 57347;
 
 	class MonoInControlMove : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::Unity::Profiling::ProfilerMarker* StaticGet_InControlMoveUpdateMarker()
 		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(MonoInControlMove_TypeDefinitionIndex)->GetStaticField(0xFC20);
+			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(MonoInControlMove_TypeDefinitionIndex)->GetStaticField(0x11940);
 		}
 		::System::Boolean ActionEnabled; // 0x18
 		::System::Boolean IsVertical; // 0x19
@@ -36,7 +36,7 @@ namespace RPG::Client
 		::System::Single MoveStepFactor; // 0x20
 		::UnityEngine::UI::ScrollRect* ScrollRect; // 0x28
 		::System::Single _Threshold; // 0x30
-		::Class_0_16E4307DCC419505_614* _ControllerGetter; // 0x38
+		::Class_0_16E4307DCC419505_637* _ControllerGetter; // 0x38
 		::RPG::Client::UIController* OverrideController; // 0x40
 
 		::System::Void _ctor()
@@ -49,9 +49,9 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOINCONTROLMOVE__CCTOR_OFFSET))();
 		}
 
-		static ::RPG::Client::MonoInControlMove* Get(::UnityEngine::Transform* target)
+		static ::RPG::Client::MonoInControlMove* Get(::UnityEngine::Transform* a1)
 		{
-			return ((::RPG::Client::MonoInControlMove*(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOINCONTROLMOVE_GET_OFFSET))(target);
+			return ((::RPG::Client::MonoInControlMove*(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOINCONTROLMOVE_GET_OFFSET))(a1);
 		}
 
 		::System::Void Awake()

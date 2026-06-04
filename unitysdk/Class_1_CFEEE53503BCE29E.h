@@ -5,10 +5,10 @@
 class Class_1_DE9FECC5B78033A2;
 namespace RPG::GameCore { class FiveDimTriggerEventEmitterListConfig; }
 
-#define CLASS_1_CFEEE53503BCE29E_CLEAR_OFFSET UNITYSDK_OFFSET(0x16DDACC0)
-#define CLASS_1_CFEEE53503BCE29E__CTOR_OFFSET UNITYSDK_OFFSET(0x16DDAD20)
+#define CLASS_1_CFEEE53503BCE29E_CLEAR_OFFSET UNITYSDK_OFFSET(0x18A38080)
+#define CLASS_1_CFEEE53503BCE29E__CTOR_OFFSET UNITYSDK_OFFSET(0x18A380E0)
 
-inline static constexpr unsigned int Class_1_CFEEE53503BCE29E_TypeDefinitionIndex = 39136;
+inline static constexpr unsigned int Class_1_CFEEE53503BCE29E_TypeDefinitionIndex = 39905;
 
 class Class_1_CFEEE53503BCE29E : public ::System::Object
 {

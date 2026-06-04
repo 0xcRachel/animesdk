@@ -4,15 +4,15 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_SCRIPTING_REQUIREDBYNATIVECODEATTRIBUTE_SET_GENERATEPROXY_OFFSET UNITYSDK_OFFSET(0x1A753800)
-#define UNITYENGINE_SCRIPTING_REQUIREDBYNATIVECODEATTRIBUTE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1A7537E0)
-#define UNITYENGINE_SCRIPTING_REQUIREDBYNATIVECODEATTRIBUTE_SET_OPTIONAL_OFFSET UNITYSDK_OFFSET(0x1A7537F0)
-#define UNITYENGINE_SCRIPTING_REQUIREDBYNATIVECODEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A7537D0)
-#define UNITYENGINE_SCRIPTING_REQUIREDBYNATIVECODEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7537C0)
+#define UNITYENGINE_SCRIPTING_REQUIREDBYNATIVECODEATTRIBUTE_SET_GENERATEPROXY_OFFSET UNITYSDK_OFFSET(0x1B5792F0)
+#define UNITYENGINE_SCRIPTING_REQUIREDBYNATIVECODEATTRIBUTE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1B5792D0)
+#define UNITYENGINE_SCRIPTING_REQUIREDBYNATIVECODEATTRIBUTE_SET_OPTIONAL_OFFSET UNITYSDK_OFFSET(0x1B5792E0)
+#define UNITYENGINE_SCRIPTING_REQUIREDBYNATIVECODEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B5792C0)
+#define UNITYENGINE_SCRIPTING_REQUIREDBYNATIVECODEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5792B0)
 
 namespace UnityEngine::Scripting
 {
-	inline static constexpr unsigned int RequiredByNativeCodeAttribute_TypeDefinitionIndex = 3719;
+	inline static constexpr unsigned int RequiredByNativeCodeAttribute_TypeDefinitionIndex = 3726;
 
 	class RequiredByNativeCodeAttribute : public ::System::Attribute
 	{
@@ -26,24 +26,24 @@ namespace UnityEngine::Scripting
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTING_REQUIREDBYNATIVECODEATTRIBUTE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* name)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTING_REQUIREDBYNATIVECODEATTRIBUTE__CTOR_1_OFFSET))(this, name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTING_REQUIREDBYNATIVECODEATTRIBUTE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Name(::System::String* value)
+		::System::Void set_Name(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTING_REQUIREDBYNATIVECODEATTRIBUTE_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTING_REQUIREDBYNATIVECODEATTRIBUTE_SET_NAME_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Optional(::System::Boolean value)
+		::System::Void set_Optional(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTING_REQUIREDBYNATIVECODEATTRIBUTE_SET_OPTIONAL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTING_REQUIREDBYNATIVECODEATTRIBUTE_SET_OPTIONAL_OFFSET))(this, a1);
 		}
 
-		::System::Void set_GenerateProxy(::System::Boolean value)
+		::System::Void set_GenerateProxy(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTING_REQUIREDBYNATIVECODEATTRIBUTE_SET_GENERATEPROXY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTING_REQUIREDBYNATIVECODEATTRIBUTE_SET_GENERATEPROXY_OFFSET))(this, a1);
 		}
 	};
 }

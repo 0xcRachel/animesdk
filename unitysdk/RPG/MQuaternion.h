@@ -5,37 +5,37 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_MQUATERNION_ANGLE_OFFSET UNITYSDK_OFFSET(0x15DCA200)
-#define RPG_MQUATERNION_CREATEQUATERNIONFROMAXISQUATERNIONS_OFFSET UNITYSDK_OFFSET(0x15DCAC50)
-#define RPG_MQUATERNION_DOT_OFFSET UNITYSDK_OFFSET(0x15DCA190)
-#define RPG_MQUATERNION_EQUALS_OFFSET UNITYSDK_OFFSET(0x2257070)
-#define RPG_MQUATERNION_EULER_OFFSET UNITYSDK_OFFSET(0x15DCAA50)
-#define RPG_MQUATERNION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22562C0)
-#define RPG_MQUATERNION_GET_EULERANGLES_OFFSET UNITYSDK_OFFSET(0x2257050)
-#define RPG_MQUATERNION_GET_IDENTITY_OFFSET UNITYSDK_OFFSET(0x15DC9F60)
-#define RPG_MQUATERNION_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x2256EF0)
-#define RPG_MQUATERNION_INTERNAL_MAKEPOSITIVE_OFFSET UNITYSDK_OFFSET(0x15DCA260)
-#define RPG_MQUATERNION_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x15DCA150)
-#define RPG_MQUATERNION_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x15DCA1C0)
-#define RPG_MQUATERNION_OP_MULTIPLY_1_OFFSET UNITYSDK_OFFSET(0x15DCA020)
-#define RPG_MQUATERNION_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x15DC9F70)
-#define RPG_MQUATERNION_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x2256FA0)
-#define RPG_MQUATERNION_SET_OFFSET UNITYSDK_OFFSET(0x1FEFEB0)
-#define RPG_MQUATERNION_TOEULERANGLE_OFFSET UNITYSDK_OFFSET(0x15DC9BF0)
-#define RPG_MQUATERNION_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x2257180)
-#define RPG_MQUATERNION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2257170)
-#define RPG_MQUATERNION__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DCAE00)
-#define RPG_MQUATERNION__CTOR_OFFSET UNITYSDK_OFFSET(0x1FEFEB0)
+#define RPG_MQUATERNION_ANGLE_OFFSET UNITYSDK_OFFSET(0x12EAC6B0)
+#define RPG_MQUATERNION_CREATEQUATERNIONFROMAXISQUATERNIONS_OFFSET UNITYSDK_OFFSET(0x12EAD040)
+#define RPG_MQUATERNION_DOT_OFFSET UNITYSDK_OFFSET(0x12EAC640)
+#define RPG_MQUATERNION_EQUALS_OFFSET UNITYSDK_OFFSET(0x3740AA0)
+#define RPG_MQUATERNION_EULER_OFFSET UNITYSDK_OFFSET(0x12EACE40)
+#define RPG_MQUATERNION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3740A20)
+#define RPG_MQUATERNION_GET_EULERANGLES_OFFSET UNITYSDK_OFFSET(0x3740A00)
+#define RPG_MQUATERNION_GET_IDENTITY_OFFSET UNITYSDK_OFFSET(0x12EAC410)
+#define RPG_MQUATERNION_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x37408A0)
+#define RPG_MQUATERNION_INTERNAL_MAKEPOSITIVE_OFFSET UNITYSDK_OFFSET(0x12EAC710)
+#define RPG_MQUATERNION_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x12EAC600)
+#define RPG_MQUATERNION_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x12EAC670)
+#define RPG_MQUATERNION_OP_MULTIPLY_1_OFFSET UNITYSDK_OFFSET(0x12EAC4D0)
+#define RPG_MQUATERNION_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x12EAC420)
+#define RPG_MQUATERNION_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x3740950)
+#define RPG_MQUATERNION_SET_OFFSET UNITYSDK_OFFSET(0x3740880)
+#define RPG_MQUATERNION_TOEULERANGLE_OFFSET UNITYSDK_OFFSET(0x12EAC0A0)
+#define RPG_MQUATERNION_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x3740BB0)
+#define RPG_MQUATERNION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3740BA0)
+#define RPG_MQUATERNION__CCTOR_OFFSET UNITYSDK_OFFSET(0x12EAD1F0)
+#define RPG_MQUATERNION__CTOR_OFFSET UNITYSDK_OFFSET(0x3740880)
 
 namespace RPG
 {
-	inline static constexpr unsigned int MQuaternion_TypeDefinitionIndex = 8898;
+	inline static constexpr unsigned int MQuaternion_TypeDefinitionIndex = 6762;
 
 	struct alignas(4) MQuaternion
 	{
 		static ::RPG::MQuaternion* StaticGet_identityQuaternion()
 		{
-			return (::RPG::MQuaternion*)Il2CppClass::FromTypeDefinitionIndex(MQuaternion_TypeDefinitionIndex)->GetStaticField(0x6C90);
+			return (::RPG::MQuaternion*)Il2CppClass::FromTypeDefinitionIndex(MQuaternion_TypeDefinitionIndex)->GetStaticField(0x3720);
 		}
 		// static const ::System::Single kEpsilon; // 0x0
 		::System::Single x; // 0x10
@@ -43,9 +43,9 @@ namespace RPG
 		::System::Single z; // 0x18
 		::System::Single w; // 0x1C
 
-		::System::Void _ctor(::System::Single x, ::System::Single y, ::System::Single z, ::System::Single w)
+		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MQUATERNION__CTOR_OFFSET))(this, x, y, z, w);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MQUATERNION__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		static ::System::Void _cctor()
@@ -53,14 +53,14 @@ namespace RPG
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_MQUATERNION__CCTOR_OFFSET))();
 		}
 
-		::System::Single get_Item(::System::Int32 index)
+		::System::Single get_Item(::System::Int32 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_GET_ITEM_OFFSET))(this, index);
+			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_GET_ITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Item(::System::Int32 index, ::System::Single value)
+		::System::Void set_Item(::System::Int32 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_SET_ITEM_OFFSET))(this, index, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_SET_ITEM_OFFSET))(this, a1, a2);
 		}
 
 		/*
@@ -70,9 +70,9 @@ namespace RPG
 		}
 		*/
 
-		::System::Void Set(::System::Single newX, ::System::Single newY, ::System::Single newZ, ::System::Single newW)
+		::System::Void Set(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_SET_OFFSET))(this, newX, newY, newZ, newW);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_SET_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		static ::RPG::MQuaternion get_identity()
@@ -80,49 +80,49 @@ namespace RPG
 			return ((::RPG::MQuaternion(*)())((::PBYTE)hIl2Cpp + RPG_MQUATERNION_GET_IDENTITY_OFFSET))();
 		}
 
-		static ::RPG::MQuaternion op_Multiply(::RPG::MQuaternion lhs, ::RPG::MQuaternion rhs)
+		static ::RPG::MQuaternion op_Multiply(::RPG::MQuaternion a1, ::RPG::MQuaternion a2)
 		{
-			return ((::RPG::MQuaternion(*)(::RPG::MQuaternion, ::RPG::MQuaternion))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_OP_MULTIPLY_OFFSET))(lhs, rhs);
+			return ((::RPG::MQuaternion(*)(::RPG::MQuaternion, ::RPG::MQuaternion))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_OP_MULTIPLY_OFFSET))(a1, a2);
 		}
 
 		/*
-		static ::RPG::MVector3 op_Multiply_1(::RPG::MQuaternion rotation, ::RPG::MVector3 point)
+		static ::RPG::MVector3 op_Multiply_1(::RPG::MQuaternion a1, ::RPG::MVector3 a2)
 		{
-			return ((::RPG::MVector3(*)(::RPG::MQuaternion, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_OP_MULTIPLY_1_OFFSET))(rotation, point);
+			return ((::RPG::MVector3(*)(::RPG::MQuaternion, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_OP_MULTIPLY_1_OFFSET))(a1, a2);
 		}
 		*/
 
-		static ::System::Boolean op_Equality(::RPG::MQuaternion lhs, ::RPG::MQuaternion rhs)
+		static ::System::Boolean op_Equality(::RPG::MQuaternion a1, ::RPG::MQuaternion a2)
 		{
-			return ((::System::Boolean(*)(::RPG::MQuaternion, ::RPG::MQuaternion))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_OP_EQUALITY_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::RPG::MQuaternion, ::RPG::MQuaternion))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::RPG::MQuaternion lhs, ::RPG::MQuaternion rhs)
+		static ::System::Boolean op_Inequality(::RPG::MQuaternion a1, ::RPG::MQuaternion a2)
 		{
-			return ((::System::Boolean(*)(::RPG::MQuaternion, ::RPG::MQuaternion))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_OP_INEQUALITY_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::RPG::MQuaternion, ::RPG::MQuaternion))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single Dot(::RPG::MQuaternion a, ::RPG::MQuaternion b)
+		static ::System::Single Dot(::RPG::MQuaternion a1, ::RPG::MQuaternion a2)
 		{
-			return ((::System::Single(*)(::RPG::MQuaternion, ::RPG::MQuaternion))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_DOT_OFFSET))(a, b);
+			return ((::System::Single(*)(::RPG::MQuaternion, ::RPG::MQuaternion))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_DOT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single Angle(::RPG::MQuaternion a, ::RPG::MQuaternion b)
+		static ::System::Single Angle(::RPG::MQuaternion a1, ::RPG::MQuaternion a2)
 		{
-			return ((::System::Single(*)(::RPG::MQuaternion, ::RPG::MQuaternion))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_ANGLE_OFFSET))(a, b);
+			return ((::System::Single(*)(::RPG::MQuaternion, ::RPG::MQuaternion))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_ANGLE_OFFSET))(a1, a2);
 		}
 
 		/*
-		static ::RPG::MVector3 Internal_MakePositive(::RPG::MVector3 euler)
+		static ::RPG::MVector3 Internal_MakePositive(::RPG::MVector3 a1)
 		{
-			return ((::RPG::MVector3(*)(::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_INTERNAL_MAKEPOSITIVE_OFFSET))(euler);
+			return ((::RPG::MVector3(*)(::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_INTERNAL_MAKEPOSITIVE_OFFSET))(a1);
 		}
 		*/
 
 		/*
-		static ::RPG::MVector3 ToEulerAngle(::RPG::MQuaternion& rotation)
+		static ::RPG::MVector3 ToEulerAngle(::RPG::MQuaternion& a1)
 		{
-			return ((::RPG::MVector3(*)(::RPG::MQuaternion&))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_TOEULERANGLE_OFFSET))(rotation);
+			return ((::RPG::MVector3(*)(::RPG::MQuaternion&))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_TOEULERANGLE_OFFSET))(a1);
 		}
 		*/
 
@@ -131,9 +131,9 @@ namespace RPG
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* other)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()
@@ -141,19 +141,19 @@ namespace RPG
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_TOSTRING_OFFSET))(this);
 		}
 
-		::System::String* ToString_1(::System::String* format)
+		::System::String* ToString_1(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_TOSTRING_1_OFFSET))(this, format);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_TOSTRING_1_OFFSET))(this, a1);
 		}
 
-		static ::RPG::MQuaternion Euler(::System::Single fX, ::System::Single fY, ::System::Single fZ)
+		static ::RPG::MQuaternion Euler(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::RPG::MQuaternion(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_EULER_OFFSET))(fX, fY, fZ);
+			return ((::RPG::MQuaternion(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_EULER_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::MQuaternion CreateQuaternionFromAxisQuaternions(::RPG::MQuaternion Q1, ::RPG::MQuaternion Q2, ::RPG::MQuaternion Q3, ::RPG::MQuaternion& QReturn)
+		static ::RPG::MQuaternion CreateQuaternionFromAxisQuaternions(::RPG::MQuaternion a1, ::RPG::MQuaternion a2, ::RPG::MQuaternion a3, ::RPG::MQuaternion& a4)
 		{
-			return ((::RPG::MQuaternion(*)(::RPG::MQuaternion, ::RPG::MQuaternion, ::RPG::MQuaternion, ::RPG::MQuaternion&))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_CREATEQUATERNIONFROMAXISQUATERNIONS_OFFSET))(Q1, Q2, Q3, QReturn);
+			return ((::RPG::MQuaternion(*)(::RPG::MQuaternion, ::RPG::MQuaternion, ::RPG::MQuaternion, ::RPG::MQuaternion&))((::PBYTE)hIl2Cpp + RPG_MQUATERNION_CREATEQUATERNIONFROMAXISQUATERNIONS_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

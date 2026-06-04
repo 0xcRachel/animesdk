@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define HEU_SCRIPTCALLBACKEXAMPLE_ASSETCALLBACKNOMSG_OFFSET UNITYSDK_OFFSET(0x18D0E4B0)
-#define HEU_SCRIPTCALLBACKEXAMPLE_ASSETCALLBACKWITHMSG_OFFSET UNITYSDK_OFFSET(0x18D0E400)
-#define HEU_SCRIPTCALLBACKEXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18D0E560)
+#define HEU_SCRIPTCALLBACKEXAMPLE_ASSETCALLBACKNOMSG_OFFSET UNITYSDK_OFFSET(0x13684600)
+#define HEU_SCRIPTCALLBACKEXAMPLE_ASSETCALLBACKWITHMSG_OFFSET UNITYSDK_OFFSET(0x13684550)
+#define HEU_SCRIPTCALLBACKEXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x136846B0)
 
-inline static constexpr unsigned int HEU_ScriptCallbackExample_TypeDefinitionIndex = 40917;
+inline static constexpr unsigned int HEU_ScriptCallbackExample_TypeDefinitionIndex = 37386;
 
 class HEU_ScriptCallbackExample : public ::UnityEngine::MonoBehaviour
 {
@@ -20,9 +20,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEU_SCRIPTCALLBACKEXAMPLE__CTOR_OFFSET))(this);
 	}
 
-	::System::Void AssetCallbackWithMsg(::System::String* msg)
+	::System::Void AssetCallbackWithMsg(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HEU_SCRIPTCALLBACKEXAMPLE_ASSETCALLBACKWITHMSG_OFFSET))(this, msg);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HEU_SCRIPTCALLBACKEXAMPLE_ASSETCALLBACKWITHMSG_OFFSET))(this, a1);
 	}
 
 	::System::Void AssetCallbackNoMsg()

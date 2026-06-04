@@ -5,20 +5,20 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_GPUPARTICLESASSET_CREATE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x197F7530)
-#define UNITYENGINE_GPUPARTICLESASSET_DISPATCHFROMSCRIPT_1_OFFSET UNITYSDK_OFFSET(0x197F7650)
-#define UNITYENGINE_GPUPARTICLESASSET_DISPATCHFROMSCRIPT_OFFSET UNITYSDK_OFFSET(0x197F7600)
-#define UNITYENGINE_GPUPARTICLESASSET_GET_NUMMAXPARTICLES_OFFSET UNITYSDK_OFFSET(0x197F74D0)
-#define UNITYENGINE_GPUPARTICLESASSET_SETDISPATCHMODE_1_OFFSET UNITYSDK_OFFSET(0x197F7590)
-#define UNITYENGINE_GPUPARTICLESASSET_SETDISPATCHMODE_OFFSET UNITYSDK_OFFSET(0x197F7540)
-#define UNITYENGINE_GPUPARTICLESASSET_SETNUMKERNELS_1_OFFSET UNITYSDK_OFFSET(0x197F75F0)
-#define UNITYENGINE_GPUPARTICLESASSET_SETNUMKERNELS_OFFSET UNITYSDK_OFFSET(0x197F75A0)
-#define UNITYENGINE_GPUPARTICLESASSET_SET_NUMMAXPARTICLES_OFFSET UNITYSDK_OFFSET(0x197F74E0)
-#define UNITYENGINE_GPUPARTICLESASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x197F74F0)
+#define UNITYENGINE_GPUPARTICLESASSET_CREATE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1A4E2470)
+#define UNITYENGINE_GPUPARTICLESASSET_DISPATCHFROMSCRIPT_1_OFFSET UNITYSDK_OFFSET(0x1A4E2590)
+#define UNITYENGINE_GPUPARTICLESASSET_DISPATCHFROMSCRIPT_OFFSET UNITYSDK_OFFSET(0x1A4E2540)
+#define UNITYENGINE_GPUPARTICLESASSET_GET_NUMMAXPARTICLES_OFFSET UNITYSDK_OFFSET(0x1A4E2410)
+#define UNITYENGINE_GPUPARTICLESASSET_SETDISPATCHMODE_1_OFFSET UNITYSDK_OFFSET(0x1A4E24D0)
+#define UNITYENGINE_GPUPARTICLESASSET_SETDISPATCHMODE_OFFSET UNITYSDK_OFFSET(0x1A4E2480)
+#define UNITYENGINE_GPUPARTICLESASSET_SETNUMKERNELS_1_OFFSET UNITYSDK_OFFSET(0x1A4E2530)
+#define UNITYENGINE_GPUPARTICLESASSET_SETNUMKERNELS_OFFSET UNITYSDK_OFFSET(0x1A4E24E0)
+#define UNITYENGINE_GPUPARTICLESASSET_SET_NUMMAXPARTICLES_OFFSET UNITYSDK_OFFSET(0x1A4E2420)
+#define UNITYENGINE_GPUPARTICLESASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4E2430)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GPUParticlesAsset_TypeDefinitionIndex = 3926;
+	inline static constexpr unsigned int GPUParticlesAsset_TypeDefinitionIndex = 4100;
 
 	class GPUParticlesAsset : public ::UnityEngine::ComputeShaderAsset
 	{
@@ -33,44 +33,44 @@ namespace UnityEngine
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESASSET_GET_NUMMAXPARTICLES_OFFSET))(this);
 		}
 
-		::System::Void set_numMaxParticles(::System::UInt32 value)
+		::System::Void set_numMaxParticles(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESASSET_SET_NUMMAXPARTICLES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESASSET_SET_NUMMAXPARTICLES_OFFSET))(this, a1);
 		}
 
-		::System::Void SetDispatchMode(::System::String* kernelName, ::UnityEngine::GPUParticlesPass_DispatchMode mode)
+		::System::Void SetDispatchMode(::System::String* a1, ::UnityEngine::GPUParticlesPass_DispatchMode a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::GPUParticlesPass_DispatchMode))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESASSET_SETDISPATCHMODE_OFFSET))(this, kernelName, mode);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::GPUParticlesPass_DispatchMode))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESASSET_SETDISPATCHMODE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetDispatchMode_1(::System::Int32 kernelID, ::UnityEngine::GPUParticlesPass_DispatchMode mode)
+		::System::Void SetDispatchMode_1(::System::Int32 a1, ::UnityEngine::GPUParticlesPass_DispatchMode a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::GPUParticlesPass_DispatchMode))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESASSET_SETDISPATCHMODE_1_OFFSET))(this, kernelID, mode);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::GPUParticlesPass_DispatchMode))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESASSET_SETDISPATCHMODE_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetNumKernels(::System::String* kernelName, ::System::Int32 numKernels)
+		::System::Void SetNumKernels(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESASSET_SETNUMKERNELS_OFFSET))(this, kernelName, numKernels);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESASSET_SETNUMKERNELS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetNumKernels_1(::System::Int32 kernelID, ::System::Int32 numKernels)
+		::System::Void SetNumKernels_1(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESASSET_SETNUMKERNELS_1_OFFSET))(this, kernelID, numKernels);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESASSET_SETNUMKERNELS_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void DispatchFromScript(::System::String* kernelName, ::System::Int32 threadGroupsX, ::System::Int32 threadGroupsY, ::System::Int32 threadGroupsZ)
+		::System::Void DispatchFromScript(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESASSET_DISPATCHFROMSCRIPT_OFFSET))(this, kernelName, threadGroupsX, threadGroupsY, threadGroupsZ);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESASSET_DISPATCHFROMSCRIPT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void DispatchFromScript_1(::System::Int32 kernelID, ::System::Int32 threadGroupsX, ::System::Int32 threadGroupsY, ::System::Int32 threadGroupsZ)
+		::System::Void DispatchFromScript_1(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESASSET_DISPATCHFROMSCRIPT_1_OFFSET))(this, kernelID, threadGroupsX, threadGroupsY, threadGroupsZ);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESASSET_DISPATCHFROMSCRIPT_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		static ::System::Void Create_Internal(::UnityEngine::GPUParticlesAsset* asset, ::System::String* name)
+		static ::System::Void Create_Internal(::UnityEngine::GPUParticlesAsset* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::GPUParticlesAsset*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESASSET_CREATE_INTERNAL_OFFSET))(asset, name);
+			return ((::System::Void(*)(::UnityEngine::GPUParticlesAsset*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESASSET_CREATE_INTERNAL_OFFSET))(a1, a2);
 		}
 	};
 }

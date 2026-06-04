@@ -4,29 +4,29 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_PROFILING_RECORDER_DISPOSENATIVE_OFFSET UNITYSDK_OFFSET(0x1A571E80)
-#define UNITYENGINE_PROFILING_RECORDER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A571DF0)
-#define UNITYENGINE_PROFILING_RECORDER_GETELAPSEDNANOSECONDS_OFFSET UNITYSDK_OFFSET(0x1A571F40)
-#define UNITYENGINE_PROFILING_RECORDER_GETINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A571F00)
-#define UNITYENGINE_PROFILING_RECORDER_GETSAMPLEBLOCKCOUNT_OFFSET UNITYSDK_OFFSET(0x1A571F70)
-#define UNITYENGINE_PROFILING_RECORDER_GET_ELAPSEDNANOSECONDS_OFFSET UNITYSDK_OFFSET(0x1A571F20)
-#define UNITYENGINE_PROFILING_RECORDER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1A571F10)
-#define UNITYENGINE_PROFILING_RECORDER_GET_OFFSET UNITYSDK_OFFSET(0x1A571E90)
-#define UNITYENGINE_PROFILING_RECORDER_GET_SAMPLEBLOCKCOUNT_OFFSET UNITYSDK_OFFSET(0x1A571F50)
-#define UNITYENGINE_PROFILING_RECORDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A571F80)
-#define UNITYENGINE_PROFILING_RECORDER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A571DE0)
-#define UNITYENGINE_PROFILING_RECORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A571DD0)
+#define UNITYENGINE_PROFILING_RECORDER_DISPOSENATIVE_OFFSET UNITYSDK_OFFSET(0x1B314780)
+#define UNITYENGINE_PROFILING_RECORDER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1B3146F0)
+#define UNITYENGINE_PROFILING_RECORDER_GETELAPSEDNANOSECONDS_OFFSET UNITYSDK_OFFSET(0x1B314840)
+#define UNITYENGINE_PROFILING_RECORDER_GETINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B314800)
+#define UNITYENGINE_PROFILING_RECORDER_GETSAMPLEBLOCKCOUNT_OFFSET UNITYSDK_OFFSET(0x1B314870)
+#define UNITYENGINE_PROFILING_RECORDER_GET_ELAPSEDNANOSECONDS_OFFSET UNITYSDK_OFFSET(0x1B314820)
+#define UNITYENGINE_PROFILING_RECORDER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1B314810)
+#define UNITYENGINE_PROFILING_RECORDER_GET_OFFSET UNITYSDK_OFFSET(0x1B314790)
+#define UNITYENGINE_PROFILING_RECORDER_GET_SAMPLEBLOCKCOUNT_OFFSET UNITYSDK_OFFSET(0x1B314850)
+#define UNITYENGINE_PROFILING_RECORDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B314880)
+#define UNITYENGINE_PROFILING_RECORDER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B3146E0)
+#define UNITYENGINE_PROFILING_RECORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3146D0)
 
 namespace UnityEngine::Profiling
 {
-	inline static constexpr unsigned int Recorder_TypeDefinitionIndex = 4324;
+	inline static constexpr unsigned int Recorder_TypeDefinitionIndex = 4498;
 
 	class Recorder : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Profiling::Recorder** StaticGet_s_InvalidRecorder()
 		{
-			return (::UnityEngine::Profiling::Recorder**)Il2CppClass::FromTypeDefinitionIndex(Recorder_TypeDefinitionIndex)->GetStaticField(0x13C50);
+			return (::UnityEngine::Profiling::Recorder**)Il2CppClass::FromTypeDefinitionIndex(Recorder_TypeDefinitionIndex)->GetStaticField(0x32400);
 		}
 		::System::IntPtr m_Ptr; // 0x10
 
@@ -35,9 +35,9 @@ namespace UnityEngine::Profiling
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_RECORDER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr ptr)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_RECORDER__CTOR_1_OFFSET))(this, ptr);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_RECORDER__CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -50,14 +50,14 @@ namespace UnityEngine::Profiling
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_RECORDER_FINALIZE_OFFSET))(this);
 		}
 
-		static ::UnityEngine::Profiling::Recorder* Get(::System::String* samplerName)
+		static ::UnityEngine::Profiling::Recorder* Get(::System::String* a1)
 		{
-			return ((::UnityEngine::Profiling::Recorder*(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_RECORDER_GET_OFFSET))(samplerName);
+			return ((::UnityEngine::Profiling::Recorder*(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_RECORDER_GET_OFFSET))(a1);
 		}
 
-		static ::System::IntPtr GetInternal(::System::String* samplerName)
+		static ::System::IntPtr GetInternal(::System::String* a1)
 		{
-			return ((::System::IntPtr(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_RECORDER_GETINTERNAL_OFFSET))(samplerName);
+			return ((::System::IntPtr(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_RECORDER_GETINTERNAL_OFFSET))(a1);
 		}
 
 		::System::Boolean get_isValid()
@@ -65,9 +65,9 @@ namespace UnityEngine::Profiling
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_RECORDER_GET_ISVALID_OFFSET))(this);
 		}
 
-		static ::System::Void DisposeNative(::System::IntPtr ptr)
+		static ::System::Void DisposeNative(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_RECORDER_DISPOSENATIVE_OFFSET))(ptr);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_RECORDER_DISPOSENATIVE_OFFSET))(a1);
 		}
 
 		::System::Int64 get_elapsedNanoseconds()

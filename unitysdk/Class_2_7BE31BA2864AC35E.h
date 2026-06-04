@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGameShare/AComponentUpdateHandler_1.h"
 
-class Class_0_16E4307DCC419505_30;
+class Class_0_16E4307DCC419505_29;
 class Class_1_AEDED6B377F2000F;
 namespace Entitas { class IEntity; }
 
-#define CLASS_2_7BE31BA2864AC35E_ONADD_OFFSET UNITYSDK_OFFSET(0xAD787D0)
-#define CLASS_2_7BE31BA2864AC35E_ONREMOVE_OFFSET UNITYSDK_OFFSET(0xAD789B0)
-#define CLASS_2_7BE31BA2864AC35E_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xAD78830)
-#define CLASS_2_7BE31BA2864AC35E__CTOR_OFFSET UNITYSDK_OFFSET(0xAD78A10)
+#define CLASS_2_7BE31BA2864AC35E_ONADD_OFFSET UNITYSDK_OFFSET(0x14EC3AE0)
+#define CLASS_2_7BE31BA2864AC35E_ONREMOVE_OFFSET UNITYSDK_OFFSET(0x14EC3CC0)
+#define CLASS_2_7BE31BA2864AC35E_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x14EC3B40)
+#define CLASS_2_7BE31BA2864AC35E__CTOR_OFFSET UNITYSDK_OFFSET(0x14EC3D20)
 
-inline static constexpr unsigned int Class_2_7BE31BA2864AC35E_TypeDefinitionIndex = 69768;
+inline static constexpr unsigned int Class_2_7BE31BA2864AC35E_TypeDefinitionIndex = 70580;
 
 class Class_2_7BE31BA2864AC35E : public ::RPG::Client::LittleGameShare::AComponentUpdateHandler_1<::Class_1_AEDED6B377F2000F*>
 {
@@ -21,18 +21,18 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7BE31BA2864AC35E__CTOR_OFFSET))(this);
 	}
 
-	::System::Void OnAdd(::Entitas::IEntity* a1, ::Class_1_AEDED6B377F2000F* a2, ::Class_0_16E4307DCC419505_30* a3)
+	::System::Void OnAdd(::Entitas::IEntity* a1, ::Class_1_AEDED6B377F2000F* a2, ::Class_0_16E4307DCC419505_29* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::Class_1_AEDED6B377F2000F*, ::Class_0_16E4307DCC419505_30*))((::PBYTE)hIl2Cpp + CLASS_2_7BE31BA2864AC35E_ONADD_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::Class_1_AEDED6B377F2000F*, ::Class_0_16E4307DCC419505_29*))((::PBYTE)hIl2Cpp + CLASS_2_7BE31BA2864AC35E_ONADD_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void OnUpdate(::Entitas::IEntity* a1, ::Class_1_AEDED6B377F2000F* a2, ::Class_0_16E4307DCC419505_30* a3)
+	::System::Void OnUpdate(::Entitas::IEntity* a1, ::Class_1_AEDED6B377F2000F* a2, ::Class_0_16E4307DCC419505_29* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::Class_1_AEDED6B377F2000F*, ::Class_0_16E4307DCC419505_30*))((::PBYTE)hIl2Cpp + CLASS_2_7BE31BA2864AC35E_ONUPDATE_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::Class_1_AEDED6B377F2000F*, ::Class_0_16E4307DCC419505_29*))((::PBYTE)hIl2Cpp + CLASS_2_7BE31BA2864AC35E_ONUPDATE_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void OnRemove(::Entitas::IEntity* a1, ::Class_1_AEDED6B377F2000F* a2, ::Class_0_16E4307DCC419505_30* a3)
+	::System::Void OnRemove(::Entitas::IEntity* a1, ::Class_1_AEDED6B377F2000F* a2, ::Class_0_16E4307DCC419505_29* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::Class_1_AEDED6B377F2000F*, ::Class_0_16E4307DCC419505_30*))((::PBYTE)hIl2Cpp + CLASS_2_7BE31BA2864AC35E_ONREMOVE_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::Class_1_AEDED6B377F2000F*, ::Class_0_16E4307DCC419505_29*))((::PBYTE)hIl2Cpp + CLASS_2_7BE31BA2864AC35E_ONREMOVE_OFFSET))(this, a1, a2, a3);
 	}
 };

@@ -4,14 +4,14 @@
 
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_TYPEINFORMATION_GET_ASSEMBLYSTRING_OFFSET UNITYSDK_OFFSET(0x17AF9840)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_TYPEINFORMATION_GET_FULLTYPENAME_OFFSET UNITYSDK_OFFSET(0x17AF9830)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_TYPEINFORMATION_GET_HASTYPEFORWARDEDFROM_OFFSET UNITYSDK_OFFSET(0x17AF9850)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_TYPEINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x17AE8760)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_TYPEINFORMATION_GET_ASSEMBLYSTRING_OFFSET UNITYSDK_OFFSET(0x17479FD0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_TYPEINFORMATION_GET_FULLTYPENAME_OFFSET UNITYSDK_OFFSET(0x17479FC0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_TYPEINFORMATION_GET_HASTYPEFORWARDEDFROM_OFFSET UNITYSDK_OFFSET(0x17479FE0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_TYPEINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1746A220)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int TypeInformation_TypeDefinitionIndex = 1178;
+	inline static constexpr unsigned int TypeInformation_TypeDefinitionIndex = 1177;
 
 	class TypeInformation : public ::System::Object
 	{
@@ -20,9 +20,9 @@ namespace System::Runtime::Serialization::Formatters::Binary
 		::System::String* assemblyString; // 0x18
 		::System::Boolean hasTypeForwardedFrom; // 0x20
 
-		::System::Void _ctor(::System::String* fullTypeName, ::System::String* assemblyString, ::System::Boolean hasTypeForwardedFrom)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_TYPEINFORMATION__CTOR_OFFSET))(this, fullTypeName, assemblyString, hasTypeForwardedFrom);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_TYPEINFORMATION__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::String* get_FullTypeName()

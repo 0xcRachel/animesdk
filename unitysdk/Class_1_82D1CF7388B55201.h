@@ -10,19 +10,19 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_82D1CF7388B55201_METHOD_1_43D99DDD80B1E30C_OFFSET UNITYSDK_OFFSET(0xAD7D4C0)
-#define CLASS_1_82D1CF7388B55201_METHOD_1_90E798C7C6C23CB2_OFFSET UNITYSDK_OFFSET(0xAD7D3F0)
-#define CLASS_1_82D1CF7388B55201__CTOR_OFFSET UNITYSDK_OFFSET(0xAD7D6F0)
+#define CLASS_1_82D1CF7388B55201_METHOD_1_43D99DDD80B1E30C_OFFSET UNITYSDK_OFFSET(0x1556E780)
+#define CLASS_1_82D1CF7388B55201_METHOD_1_90E798C7C6C23CB2_OFFSET UNITYSDK_OFFSET(0x1556E6B0)
+#define CLASS_1_82D1CF7388B55201__CTOR_OFFSET UNITYSDK_OFFSET(0x1556E9B0)
 
-inline static constexpr unsigned int Class_1_82D1CF7388B55201_TypeDefinitionIndex = 69597;
+inline static constexpr unsigned int Class_1_82D1CF7388B55201_TypeDefinitionIndex = 70409;
 
 class Class_1_82D1CF7388B55201 : public ::System::Object
 {
 public:
 	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::UnityEngine::Transform* Field_1_3; // 0x18
-	::RPG::MVector3 Field_1_1; // 0x20
-	::System::Nullable_1<::UnityEngine::Vector3> Field_1_2; // 0x2C
+	::UnityEngine::Transform* Field_1_1; // 0x18
+	::RPG::MVector3 Field_1_2; // 0x20
+	::System::Nullable_1<::UnityEngine::Vector3> Field_1_3; // 0x2C
 
 	::System::Void _ctor()
 	{

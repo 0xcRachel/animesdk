@@ -6,13 +6,13 @@ namespace RPG::Client::UI::UIStateCtrl { class SwitchRampColorData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class IRampColor; }
 
-#define RPG_CLIENT_UI_UISTATECTRL_SWITCHRAMPCOLORACTION_METHOD_3_0ED2EEE19D10A0A7_OFFSET UNITYSDK_OFFSET(0x138E1370)
-#define RPG_CLIENT_UI_UISTATECTRL_SWITCHRAMPCOLORACTION_METHOD_3_0F9501A1A0E8C6CD_OFFSET UNITYSDK_OFFSET(0x138E1550)
-#define RPG_CLIENT_UI_UISTATECTRL_SWITCHRAMPCOLORACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x138E1AA0)
+#define RPG_CLIENT_UI_UISTATECTRL_SWITCHRAMPCOLORACTION_METHOD_3_0F9501A1A0E8C6CD_OFFSET UNITYSDK_OFFSET(0x17FEE4E0)
+#define RPG_CLIENT_UI_UISTATECTRL_SWITCHRAMPCOLORACTION_METHOD_3_4D512A12A2845DB4_OFFSET UNITYSDK_OFFSET(0x17FEE2F0)
+#define RPG_CLIENT_UI_UISTATECTRL_SWITCHRAMPCOLORACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17FEEA30)
 
 namespace RPG::Client::UI::UIStateCtrl
 {
-	inline static constexpr unsigned int SwitchRampColorAction_TypeDefinitionIndex = 68170;
+	inline static constexpr unsigned int SwitchRampColorAction_TypeDefinitionIndex = 69143;
 
 	class SwitchRampColorAction : public ::RPG::Client::UI::UIStateCtrl::InstantAction
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client::UI::UIStateCtrl
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_SWITCHRAMPCOLORACTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_3_0ED2EEE19D10A0A7()
+		::System::Void Method_3_4D512A12A2845DB4()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_SWITCHRAMPCOLORACTION_METHOD_3_0ED2EEE19D10A0A7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_SWITCHRAMPCOLORACTION_METHOD_3_4D512A12A2845DB4_OFFSET))(this);
 		}
 
 		::System::Void Method_3_0F9501A1A0E8C6CD(::UnityEngine::UI::IRampColor* a1, ::RPG::Client::UI::UIStateCtrl::SwitchRampColorData* a2)

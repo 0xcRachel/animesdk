@@ -5,12 +5,12 @@
 namespace System::Text { class EncoderFallbackBuffer; }
 namespace System::Xml { class CharEntityEncoderFallbackBuffer; }
 
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_CANREPLACEAT_OFFSET UNITYSDK_OFFSET(0x186C18D0)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_CREATEFALLBACKBUFFER_OFFSET UNITYSDK_OFFSET(0x186C1810)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_GET_MAXCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x186C18A0)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_RESET_OFFSET UNITYSDK_OFFSET(0x186C18C0)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_SET_STARTOFFSET_OFFSET UNITYSDK_OFFSET(0x186C18B0)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x186C1800)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_CANREPLACEAT_OFFSET UNITYSDK_OFFSET(0x18A6D760)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_CREATEFALLBACKBUFFER_OFFSET UNITYSDK_OFFSET(0x18A6D6A0)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_GET_MAXCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x18A6D730)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_RESET_OFFSET UNITYSDK_OFFSET(0x18A6D750)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_SET_STARTOFFSET_OFFSET UNITYSDK_OFFSET(0x18A6D740)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18A6D690)
 
 namespace System::Xml
 {
@@ -19,10 +19,10 @@ namespace System::Xml
 	class CharEntityEncoderFallback : public ::System::Text::EncoderFallback
 	{
 	public:
-		::Il2CppArray<::System::Int32>* textContentMarks; // 0x18
-		::System::Xml::CharEntityEncoderFallbackBuffer* fallbackBuffer; // 0x20
-		::System::Int32 startOffset; // 0x28
-		::System::Int32 endMarkPos; // 0x2C
+		::System::Xml::CharEntityEncoderFallbackBuffer* fallbackBuffer; // 0x18
+		::Il2CppArray<::System::Int32>* textContentMarks; // 0x20
+		::System::Int32 endMarkPos; // 0x28
+		::System::Int32 startOffset; // 0x2C
 		::System::Int32 curMarkPos; // 0x30
 
 		::System::Void _ctor()
@@ -40,19 +40,19 @@ namespace System::Xml
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_CHARENTITYENCODERFALLBACK_GET_MAXCHARCOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_StartOffset(::System::Int32 value)
+		::System::Void set_StartOffset(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_CHARENTITYENCODERFALLBACK_SET_STARTOFFSET_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_CHARENTITYENCODERFALLBACK_SET_STARTOFFSET_OFFSET))(this, a1);
 		}
 
-		::System::Void Reset(::Il2CppArray<::System::Int32>* textContentMarks, ::System::Int32 endMarkPos)
+		::System::Void Reset(::Il2CppArray<::System::Int32>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_CHARENTITYENCODERFALLBACK_RESET_OFFSET))(this, textContentMarks, endMarkPos);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_CHARENTITYENCODERFALLBACK_RESET_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean CanReplaceAt(::System::Int32 index)
+		::System::Boolean CanReplaceAt(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_CHARENTITYENCODERFALLBACK_CANREPLACEAT_OFFSET))(this, index);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_CHARENTITYENCODERFALLBACK_CANREPLACEAT_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,24 +5,24 @@
 namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_PREPAREUNLOCKGRIDPHASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17CB1750)
-#define RPG_CLIENT_CHENLINGBATTLE_PREPAREUNLOCKGRIDPHASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17CB1790)
-#define RPG_CLIENT_CHENLINGBATTLE_PREPAREUNLOCKGRIDPHASE___C__REQUESTUNLOCKGRID_B__3_0_OFFSET UNITYSDK_OFFSET(0x17CB17A0)
+#define RPG_CLIENT_CHENLINGBATTLE_PREPAREUNLOCKGRIDPHASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18DC9AE0)
+#define RPG_CLIENT_CHENLINGBATTLE_PREPAREUNLOCKGRIDPHASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18DC9B20)
+#define RPG_CLIENT_CHENLINGBATTLE_PREPAREUNLOCKGRIDPHASE___C__REQUESTUNLOCKGRID_B__3_0_OFFSET UNITYSDK_OFFSET(0x18DC9B30)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int PrepareUnlockGridPhase___c_TypeDefinitionIndex = 70072;
+	inline static constexpr unsigned int PrepareUnlockGridPhase___c_TypeDefinitionIndex = 70884;
 
 	class PrepareUnlockGridPhase___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Exception*>** StaticGet___9__3_0()
 		{
-			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(PrepareUnlockGridPhase___c_TypeDefinitionIndex)->GetStaticField(0x5E950);
+			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(PrepareUnlockGridPhase___c_TypeDefinitionIndex)->GetStaticField(0x67FC0);
 		}
 		static ::RPG::Client::ChenLingBattle::PrepareUnlockGridPhase___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChenLingBattle::PrepareUnlockGridPhase___c**)Il2CppClass::FromTypeDefinitionIndex(PrepareUnlockGridPhase___c_TypeDefinitionIndex)->GetStaticField(0x5E958);
+			return (::RPG::Client::ChenLingBattle::PrepareUnlockGridPhase___c**)Il2CppClass::FromTypeDefinitionIndex(PrepareUnlockGridPhase___c_TypeDefinitionIndex)->GetStaticField(0x67FC8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client::ChenLingBattle
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_PREPAREUNLOCKGRIDPHASE___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _RequestUnlockGrid_b__3_0(::System::Exception* e)
+		::System::Void _RequestUnlockGrid_b__3_0(::System::Exception* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_PREPAREUNLOCKGRIDPHASE___C__REQUESTUNLOCKGRID_B__3_0_OFFSET))(this, e);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_PREPAREUNLOCKGRIDPHASE___C__REQUESTUNLOCKGRID_B__3_0_OFFSET))(this, a1);
 		}
 	};
 }

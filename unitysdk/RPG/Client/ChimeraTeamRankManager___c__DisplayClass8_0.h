@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ChimeraTeamRowWrapper; }
 
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x178A34C0)
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS8_0__GETTEAMROWDATA_B__0_OFFSET UNITYSDK_OFFSET(0x178A4240)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182AC9C0)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS8_0__GETTEAMROWDATA_B__0_OFFSET UNITYSDK_OFFSET(0x182AD7E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraTeamRankManager___c__DisplayClass8_0_TypeDefinitionIndex = 58452;
+	inline static constexpr unsigned int ChimeraTeamRankManager___c__DisplayClass8_0_TypeDefinitionIndex = 59382;
 
 	class ChimeraTeamRankManager___c__DisplayClass8_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetTeamRowData_b__0(::RPG::Client::ChimeraTeamRowWrapper* row)
+		::System::Boolean _GetTeamRowData_b__0(::RPG::Client::ChimeraTeamRowWrapper* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChimeraTeamRowWrapper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS8_0__GETTEAMROWDATA_B__0_OFFSET))(this, row);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChimeraTeamRowWrapper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS8_0__GETTEAMROWDATA_B__0_OFFSET))(this, a1);
 		}
 	};
 }

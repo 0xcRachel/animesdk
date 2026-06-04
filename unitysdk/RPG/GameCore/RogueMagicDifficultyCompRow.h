@@ -6,30 +6,30 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYCOMPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1996DB90)
-#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYCOMPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1996DDD0)
+#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYCOMPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19EC2810)
+#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYCOMPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19EC2A40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicDifficultyCompRow_TypeDefinitionIndex = 14069;
+	inline static constexpr unsigned int RogueMagicDifficultyCompRow_TypeDefinitionIndex = 14133;
 
 	class RogueMagicDifficultyCompRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
-		::System::UInt32 Level; // 0x18
+		::System::UInt32 UnlockID; // 0x18
 		::RPG::Client::TextID DifficultyDesc; // 0x20
 		::System::UInt32 DifficultyCompID; // 0x30
-		::System::UInt32 UnlockID; // 0x34
+		::System::UInt32 Level; // 0x34
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICDIFFICULTYCOMPROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueMagicDifficultyCompRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueMagicDifficultyCompRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMagicDifficultyCompRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICDIFFICULTYCOMPROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMagicDifficultyCompRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICDIFFICULTYCOMPROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

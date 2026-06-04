@@ -7,16 +7,16 @@ namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define AKMEMBANKLOADER_ALLOCATEALIGNEDBUFFER_OFFSET UNITYSDK_OFFSET(0x196E6E90)
-#define AKMEMBANKLOADER_DOLOADBANK_OFFSET UNITYSDK_OFFSET(0x196E6DD0)
-#define AKMEMBANKLOADER_LOADFILE_OFFSET UNITYSDK_OFFSET(0x196E7090)
-#define AKMEMBANKLOADER_LOADLOCALIZEDBANK_OFFSET UNITYSDK_OFFSET(0x196E6C50)
-#define AKMEMBANKLOADER_LOADNONLOCALIZEDBANK_OFFSET UNITYSDK_OFFSET(0x196E6D30)
-#define AKMEMBANKLOADER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x196E7120)
-#define AKMEMBANKLOADER_START_OFFSET UNITYSDK_OFFSET(0x196E6BF0)
-#define AKMEMBANKLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x196E7350)
+#define AKMEMBANKLOADER_ALLOCATEALIGNEDBUFFER_OFFSET UNITYSDK_OFFSET(0x1A273450)
+#define AKMEMBANKLOADER_DOLOADBANK_OFFSET UNITYSDK_OFFSET(0x1A273390)
+#define AKMEMBANKLOADER_LOADFILE_OFFSET UNITYSDK_OFFSET(0x1A273650)
+#define AKMEMBANKLOADER_LOADLOCALIZEDBANK_OFFSET UNITYSDK_OFFSET(0x1A2730D0)
+#define AKMEMBANKLOADER_LOADNONLOCALIZEDBANK_OFFSET UNITYSDK_OFFSET(0x1A273250)
+#define AKMEMBANKLOADER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1A2736E0)
+#define AKMEMBANKLOADER_START_OFFSET UNITYSDK_OFFSET(0x1A273070)
+#define AKMEMBANKLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A273910)
 
-inline static constexpr unsigned int AkMemBankLoader_TypeDefinitionIndex = 40491;
+inline static constexpr unsigned int AkMemBankLoader_TypeDefinitionIndex = 41318;
 
 class AkMemBankLoader : public ::UnityEngine::MonoBehaviour
 {
@@ -42,19 +42,19 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_START_OFFSET))(this);
 	}
 
-	::System::Void LoadNonLocalizedBank(::System::String* in_bankFilename)
+	::System::Void LoadNonLocalizedBank(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_LOADNONLOCALIZEDBANK_OFFSET))(this, in_bankFilename);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_LOADNONLOCALIZEDBANK_OFFSET))(this, a1);
 	}
 
-	::System::Void LoadLocalizedBank(::System::String* in_bankFilename)
+	::System::Void LoadLocalizedBank(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_LOADLOCALIZEDBANK_OFFSET))(this, in_bankFilename);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_LOADLOCALIZEDBANK_OFFSET))(this, a1);
 	}
 
-	::System::UInt32 AllocateAlignedBuffer(::Il2CppArray<::System::Byte>* data)
+	::System::UInt32 AllocateAlignedBuffer(::Il2CppArray<::System::Byte>* a1)
 	{
-		return ((::System::UInt32(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_ALLOCATEALIGNEDBUFFER_OFFSET))(this, data);
+		return ((::System::UInt32(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_ALLOCATEALIGNEDBUFFER_OFFSET))(this, a1);
 	}
 
 	::System::Collections::IEnumerator* LoadFile()
@@ -62,9 +62,9 @@ public:
 		return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_LOADFILE_OFFSET))(this);
 	}
 
-	::System::Void DoLoadBank(::System::String* in_bankPath)
+	::System::Void DoLoadBank(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_DOLOADBANK_OFFSET))(this, in_bankPath);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + AKMEMBANKLOADER_DOLOADBANK_OFFSET))(this, a1);
 	}
 
 	::System::Void OnDestroy()

@@ -6,15 +6,15 @@ namespace RPG::Client::NavMap { class ICartography3D; }
 namespace System { class Action; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_UIMAP3DCONTAINER_ROTATABLEPOSETRANSFORMPROVIDER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12F36100)
-#define RPG_CLIENT_UIMAP3DCONTAINER_ROTATABLEPOSETRANSFORMPROVIDER_GET_POSETRANSFORMS_OFFSET UNITYSDK_OFFSET(0x12F36140)
-#define RPG_CLIENT_UIMAP3DCONTAINER_ROTATABLEPOSETRANSFORMPROVIDER_INIT_OFFSET UNITYSDK_OFFSET(0x12F35B80)
-#define RPG_CLIENT_UIMAP3DCONTAINER_ROTATABLEPOSETRANSFORMPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x12F34760)
-#define RPG_CLIENT_UIMAP3DCONTAINER_ROTATABLEPOSETRANSFORMPROVIDER__INITMODELPOSEINFO_OFFSET UNITYSDK_OFFSET(0x12F35BF0)
+#define RPG_CLIENT_UIMAP3DCONTAINER_ROTATABLEPOSETRANSFORMPROVIDER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14B6E700)
+#define RPG_CLIENT_UIMAP3DCONTAINER_ROTATABLEPOSETRANSFORMPROVIDER_GET_POSETRANSFORMS_OFFSET UNITYSDK_OFFSET(0x14B6E740)
+#define RPG_CLIENT_UIMAP3DCONTAINER_ROTATABLEPOSETRANSFORMPROVIDER_INIT_OFFSET UNITYSDK_OFFSET(0x14B6E2E0)
+#define RPG_CLIENT_UIMAP3DCONTAINER_ROTATABLEPOSETRANSFORMPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x14B6CEC0)
+#define RPG_CLIENT_UIMAP3DCONTAINER_ROTATABLEPOSETRANSFORMPROVIDER__INITMODELPOSEINFO_OFFSET UNITYSDK_OFFSET(0x14B6E350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIMap3DContainer_RotatablePoseTransformProvider_TypeDefinitionIndex = 63660;
+	inline static constexpr unsigned int UIMap3DContainer_RotatablePoseTransformProvider_TypeDefinitionIndex = 64581;
 
 	class UIMap3DContainer_RotatablePoseTransformProvider : public ::System::Object
 	{
@@ -26,14 +26,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER_ROTATABLEPOSETRANSFORMPROVIDER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Init(::UnityEngine::Transform* modelTrans, ::System::Action* onTransChanged, ::RPG::Client::NavMap::ICartography3D* cartography)
+		::System::Void Init(::UnityEngine::Transform* a1, ::System::Action* a2, ::RPG::Client::NavMap::ICartography3D* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Action*, ::RPG::Client::NavMap::ICartography3D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER_ROTATABLEPOSETRANSFORMPROVIDER_INIT_OFFSET))(this, modelTrans, onTransChanged, cartography);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Action*, ::RPG::Client::NavMap::ICartography3D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER_ROTATABLEPOSETRANSFORMPROVIDER_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _InitModelPoseInfo(::UnityEngine::Transform* modelTrans)
+		::System::Void _InitModelPoseInfo(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER_ROTATABLEPOSETRANSFORMPROVIDER__INITMODELPOSEINFO_OFFSET))(this, modelTrans);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER_ROTATABLEPOSETRANSFORMPROVIDER__INITMODELPOSEINFO_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

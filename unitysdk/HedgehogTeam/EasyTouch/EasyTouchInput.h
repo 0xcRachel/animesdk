@@ -5,31 +5,31 @@
 
 namespace HedgehogTeam::EasyTouch { class Finger; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_GETCOMPLEX2FINGER_OFFSET UNITYSDK_OFFSET(0x191A53F0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_GETMOUSETOUCH_OFFSET UNITYSDK_OFFSET(0x1918F570)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_GETPINCHTWIST2FINGER_OFFSET UNITYSDK_OFFSET(0x191A54E0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_GETPOINTERPOSITION_OFFSET UNITYSDK_OFFSET(0x191A5000)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_GETSECONDFINGERPOSITION_OFFSET UNITYSDK_OFFSET(0x191A5040)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_GETTOUCHCOUNT_OFFSET UNITYSDK_OFFSET(0x191A4D50)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_TOUCHCOUNT_OFFSET UNITYSDK_OFFSET(0x1918B150)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1918A800)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_GETCOMPLEX2FINGER_OFFSET UNITYSDK_OFFSET(0x198F3B30)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_GETMOUSETOUCH_OFFSET UNITYSDK_OFFSET(0x198E85A0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_GETPINCHTWIST2FINGER_OFFSET UNITYSDK_OFFSET(0x198F3C20)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_GETPOINTERPOSITION_OFFSET UNITYSDK_OFFSET(0x198F3760)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_GETSECONDFINGERPOSITION_OFFSET UNITYSDK_OFFSET(0x198F37A0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_GETTOUCHCOUNT_OFFSET UNITYSDK_OFFSET(0x198F34B0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_TOUCHCOUNT_OFFSET UNITYSDK_OFFSET(0x198E4750)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x198E4040)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouchInput_TypeDefinitionIndex = 37074;
+	inline static constexpr unsigned int EasyTouchInput_TypeDefinitionIndex = 37374;
 
 	class EasyTouchInput : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Int32>* tapCount; // 0x10
-		::Il2CppArray<::System::Single>* tapeTime; // 0x18
-		::Il2CppArray<::System::Single>* startActionTime; // 0x20
-		::Il2CppArray<::UnityEngine::Vector2>* oldMousePosition; // 0x28
-		::Il2CppArray<::System::Single>* deltaTime; // 0x30
-		::UnityEngine::Vector2 deltaFingerPosition; // 0x38
-		::UnityEngine::Vector2 oldFinger2Position; // 0x40
-		::UnityEngine::Vector2 complexCenter; // 0x48
-		::System::Boolean bComplex; // 0x50
+		::Il2CppArray<::System::Single>* deltaTime; // 0x10
+		::Il2CppArray<::UnityEngine::Vector2>* oldMousePosition; // 0x18
+		::Il2CppArray<::System::Single>* tapeTime; // 0x20
+		::Il2CppArray<::System::Int32>* tapCount; // 0x28
+		::Il2CppArray<::System::Single>* startActionTime; // 0x30
+		::System::Boolean bComplex; // 0x38
+		::UnityEngine::Vector2 deltaFingerPosition; // 0x3C
+		::UnityEngine::Vector2 complexCenter; // 0x44
+		::UnityEngine::Vector2 oldFinger2Position; // 0x4C
 
 		::System::Void _ctor()
 		{
@@ -41,14 +41,14 @@ namespace HedgehogTeam::EasyTouch
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_TOUCHCOUNT_OFFSET))(this);
 		}
 
-		::System::Int32 getTouchCount(::System::Boolean realTouch)
+		::System::Int32 getTouchCount(::System::Boolean a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_GETTOUCHCOUNT_OFFSET))(this, realTouch);
+			return ((::System::Int32(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_GETTOUCHCOUNT_OFFSET))(this, a1);
 		}
 
-		::HedgehogTeam::EasyTouch::Finger* GetMouseTouch(::System::Int32 fingerIndex, ::HedgehogTeam::EasyTouch::Finger* myFinger)
+		::HedgehogTeam::EasyTouch::Finger* GetMouseTouch(::System::Int32 a1, ::HedgehogTeam::EasyTouch::Finger* a2)
 		{
-			return ((::HedgehogTeam::EasyTouch::Finger*(*)(::PVOID, ::System::Int32, ::HedgehogTeam::EasyTouch::Finger*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_GETMOUSETOUCH_OFFSET))(this, fingerIndex, myFinger);
+			return ((::HedgehogTeam::EasyTouch::Finger*(*)(::PVOID, ::System::Int32, ::HedgehogTeam::EasyTouch::Finger*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_GETMOUSETOUCH_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Vector2 GetSecondFingerPosition()
@@ -56,14 +56,14 @@ namespace HedgehogTeam::EasyTouch
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_GETSECONDFINGERPOSITION_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector2 GetPointerPosition(::System::Int32 index)
+		::UnityEngine::Vector2 GetPointerPosition(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_GETPOINTERPOSITION_OFFSET))(this, index);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_GETPOINTERPOSITION_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector2 GetPinchTwist2Finger(::System::Boolean newSim)
+		::UnityEngine::Vector2 GetPinchTwist2Finger(::System::Boolean a1)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_GETPINCHTWIST2FINGER_OFFSET))(this, newSim);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHINPUT_GETPINCHTWIST2FINGER_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector2 GetComplex2finger()

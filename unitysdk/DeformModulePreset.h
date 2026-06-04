@@ -9,25 +9,25 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class Renderer; }
 
-#define DEFORMMODULEPRESET_GET_IFDISABLEAUTOADJUST_OFFSET UNITYSDK_OFFSET(0xAD7ED60)
-#define DEFORMMODULEPRESET_SET_IFDISABLEAUTOADJUST_OFFSET UNITYSDK_OFFSET(0xAD7ED70)
-#define DEFORMMODULEPRESET__CCTOR_OFFSET UNITYSDK_OFFSET(0xAD7EDC0)
-#define DEFORMMODULEPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0xAD7ED80)
+#define DEFORMMODULEPRESET_GET_IFDISABLEAUTOADJUST_OFFSET UNITYSDK_OFFSET(0x154A8D00)
+#define DEFORMMODULEPRESET_SET_IFDISABLEAUTOADJUST_OFFSET UNITYSDK_OFFSET(0x154A8D10)
+#define DEFORMMODULEPRESET__CCTOR_OFFSET UNITYSDK_OFFSET(0x154A8D60)
+#define DEFORMMODULEPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x154A8D20)
 
-inline static constexpr unsigned int DeformModulePreset_TypeDefinitionIndex = 43955;
+inline static constexpr unsigned int DeformModulePreset_TypeDefinitionIndex = 44501;
 
 class DeformModulePreset : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::System::String** StaticGet_Field_5_7()
+	static ::System::String** StaticGet_Field_5_0()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DeformModulePreset_TypeDefinitionIndex)->GetStaticField(0x69030);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DeformModulePreset_TypeDefinitionIndex)->GetStaticField(0x12BC0);
 	}
 	::DeformModulePreset_UVTillingMode UVMode; // 0x18
 	::UnityEngine::Vector3 ModuleSize; // 0x1C
-	::UnityEngine::MaterialPropertyBlock* Field_5_2; // 0x28
-	::UnityEngine::Renderer* Field_5_3; // 0x30
-	::UnityEngine::MeshFilter* Field_5_4; // 0x38
+	::UnityEngine::MaterialPropertyBlock* Field_5_3; // 0x28
+	::UnityEngine::Renderer* Field_5_4; // 0x30
+	::UnityEngine::MeshFilter* Field_5_5; // 0x38
 	::System::String* InfoText; // 0x40
 	::System::Boolean _IfDisableAutoAdjust_k__BackingField; // 0x48
 
@@ -46,8 +46,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + DEFORMMODULEPRESET_GET_IFDISABLEAUTOADJUST_OFFSET))(this);
 	}
 
-	::System::Void set_IfDisableAutoAdjust(::System::Boolean value)
+	::System::Void set_IfDisableAutoAdjust(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + DEFORMMODULEPRESET_SET_IFDISABLEAUTOADJUST_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + DEFORMMODULEPRESET_SET_IFDISABLEAUTOADJUST_OFFSET))(this, a1);
 	}
 };

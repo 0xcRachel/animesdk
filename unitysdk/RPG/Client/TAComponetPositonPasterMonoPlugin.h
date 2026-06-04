@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 
-class Class_3_F8BCB67C43CA6645;
+class Class_3_31C5F93890BFC923;
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_TACOMPONETPOSITONPASTERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x17005FF0)
-#define RPG_CLIENT_TACOMPONETPOSITONPASTERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x17006040)
-#define RPG_CLIENT_TACOMPONETPOSITONPASTERMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x17006050)
+#define RPG_CLIENT_TACOMPONETPOSITONPASTERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1809E240)
+#define RPG_CLIENT_TACOMPONETPOSITONPASTERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1809E290)
+#define RPG_CLIENT_TACOMPONETPOSITONPASTERMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1809E2A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TAComponetPositonPasterMonoPlugin_TypeDefinitionIndex = 65253;
+	inline static constexpr unsigned int TAComponetPositonPasterMonoPlugin_TypeDefinitionIndex = 66180;
 
-	class TAComponetPositonPasterMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::Class_3_F8BCB67C43CA6645*>
+	class TAComponetPositonPasterMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::Class_3_31C5F93890BFC923*>
 	{
 	public:
 		::UnityEngine::GameObject* referencePos; // 0x30
@@ -23,7 +23,7 @@ namespace RPG::Client
 		::UnityEngine::GameObject* posReceiver; // 0x48
 		::System::Boolean projectionDebug; // 0x50
 		::UnityEngine::GameObject* DebugObj; // 0x58
-		::Class_3_F8BCB67C43CA6645* _Behavior; // 0x60
+		::Class_3_31C5F93890BFC923* _Behavior; // 0x60
 
 		::System::Void _ctor()
 		{

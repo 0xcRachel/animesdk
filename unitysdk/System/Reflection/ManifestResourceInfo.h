@@ -6,14 +6,14 @@
 namespace System { class String; }
 namespace System::Reflection { class Assembly; }
 
-#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0x19053F60)
-#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_GET_REFERENCEDASSEMBLY_OFFSET UNITYSDK_OFFSET(0x19053F50)
-#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_GET_RESOURCELOCATION_OFFSET UNITYSDK_OFFSET(0x19053F70)
-#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x190477E0)
+#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0x197B8870)
+#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_GET_REFERENCEDASSEMBLY_OFFSET UNITYSDK_OFFSET(0x197B8860)
+#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_GET_RESOURCELOCATION_OFFSET UNITYSDK_OFFSET(0x197B8880)
+#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x197AD370)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int ManifestResourceInfo_TypeDefinitionIndex = 567;
+	inline static constexpr unsigned int ManifestResourceInfo_TypeDefinitionIndex = 566;
 
 	class ManifestResourceInfo : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace System::Reflection
 		::System::String* _containingFileName; // 0x18
 		::System::Reflection::ResourceLocation _resourceLocation; // 0x20
 
-		::System::Void _ctor(::System::Reflection::Assembly* containingAssembly, ::System::String* containingFileName, ::System::Reflection::ResourceLocation resourceLocation)
+		::System::Void _ctor(::System::Reflection::Assembly* a1, ::System::String* a2, ::System::Reflection::ResourceLocation a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Assembly*, ::System::String*, ::System::Reflection::ResourceLocation))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MANIFESTRESOURCEINFO__CTOR_OFFSET))(this, containingAssembly, containingFileName, resourceLocation);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Assembly*, ::System::String*, ::System::Reflection::ResourceLocation))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MANIFESTRESOURCEINFO__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Reflection::Assembly* get_ReferencedAssembly()

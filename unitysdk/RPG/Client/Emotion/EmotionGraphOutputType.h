@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Emotion
 {
-	inline static constexpr unsigned int EmotionGraphOutputType_TypeDefinitionIndex = 67706;
+	inline static constexpr unsigned int EmotionGraphOutputType_TypeDefinitionIndex = 68664;
 
 	enum class EmotionGraphOutputType : ::System::Int32
 	{

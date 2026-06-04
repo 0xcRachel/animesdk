@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BookletView.h"
 
-class Class_0_16E4307DCC419505_989;
+class Class_0_16E4307DCC419505_1039;
 namespace RPG::Client { class Booklet; }
 namespace RPG::Client { class BookletLuaPanelParam; }
 namespace RPG::Client { class BookletPageView; }
@@ -13,30 +13,30 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW_ADJUSTUIADAPTATION_OFFSET UNITYSDK_OFFSET(0x16D45980)
-#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW_DESTROY_OFFSET UNITYSDK_OFFSET(0x16D44D90)
-#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW_GETPAGE_OFFSET UNITYSDK_OFFSET(0x16D45280)
-#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW_GET_LEFTFLIPAUDIOEVENTNAME_OFFSET UNITYSDK_OFFSET(0x16D448B0)
-#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW_GET_RIGHTFLIPAUDIOEVENTNAME_OFFSET UNITYSDK_OFFSET(0x16D448D0)
-#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW_INIT_OFFSET UNITYSDK_OFFSET(0x16D448F0)
-#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW_LEFTFLIP_OFFSET UNITYSDK_OFFSET(0x16D45370)
-#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW_RIGHTFLIP_OFFSET UNITYSDK_OFFSET(0x16D457E0)
-#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW_SET_LEFTFLIPAUDIOEVENTNAME_OFFSET UNITYSDK_OFFSET(0x16D448C0)
-#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW_SET_RIGHTFLIPAUDIOEVENTNAME_OFFSET UNITYSDK_OFFSET(0x16D448E0)
-#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D45C20)
-#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW__DESTROYEVENTLISTENER_OFFSET UNITYSDK_OFFSET(0x16D450D0)
-#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW__DESTROYPAGES_OFFSET UNITYSDK_OFFSET(0x16D44EE0)
-#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW__INITEVENTLISTENER_OFFSET UNITYSDK_OFFSET(0x16D44C70)
-#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW__INITPAGES_OFFSET UNITYSDK_OFFSET(0x16D44A40)
-#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW__ONNEXTFLIPPED_OFFSET UNITYSDK_OFFSET(0x16D45AB0)
-#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW__ONPREVIOUSFLIPPED_OFFSET UNITYSDK_OFFSET(0x16D459E0)
-#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW___IFIXBASEPROXY_ADJUSTUIADAPTATION_OFFSET UNITYSDK_OFFSET(0x16D45DE0)
-#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW___IFIXBASEPROXY_DESTROY_OFFSET UNITYSDK_OFFSET(0x16D45DD0)
-#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x16D45D50)
+#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW_ADJUSTUIADAPTATION_OFFSET UNITYSDK_OFFSET(0x182C54B0)
+#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW_DESTROY_OFFSET UNITYSDK_OFFSET(0x182C49A0)
+#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW_GETPAGE_OFFSET UNITYSDK_OFFSET(0x182C4DB0)
+#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW_GET_LEFTFLIPAUDIOEVENTNAME_OFFSET UNITYSDK_OFFSET(0x182C4440)
+#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW_GET_RIGHTFLIPAUDIOEVENTNAME_OFFSET UNITYSDK_OFFSET(0x182C4460)
+#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW_INIT_OFFSET UNITYSDK_OFFSET(0x182C4480)
+#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW_LEFTFLIP_OFFSET UNITYSDK_OFFSET(0x182C4E80)
+#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW_RIGHTFLIP_OFFSET UNITYSDK_OFFSET(0x182C5310)
+#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW_SET_LEFTFLIPAUDIOEVENTNAME_OFFSET UNITYSDK_OFFSET(0x182C4450)
+#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW_SET_RIGHTFLIPAUDIOEVENTNAME_OFFSET UNITYSDK_OFFSET(0x182C4470)
+#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x182C5750)
+#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW__DESTROYEVENTLISTENER_OFFSET UNITYSDK_OFFSET(0x182C4C40)
+#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW__DESTROYPAGES_OFFSET UNITYSDK_OFFSET(0x182C4A20)
+#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW__INITEVENTLISTENER_OFFSET UNITYSDK_OFFSET(0x182C4860)
+#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW__INITPAGES_OFFSET UNITYSDK_OFFSET(0x182C45D0)
+#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW__ONNEXTFLIPPED_OFFSET UNITYSDK_OFFSET(0x182C55E0)
+#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW__ONPREVIOUSFLIPPED_OFFSET UNITYSDK_OFFSET(0x182C5510)
+#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW___IFIXBASEPROXY_ADJUSTUIADAPTATION_OFFSET UNITYSDK_OFFSET(0x182C5960)
+#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW___IFIXBASEPROXY_DESTROY_OFFSET UNITYSDK_OFFSET(0x182C5900)
+#define RPG_CLIENT_BOOKLETFLIPPABLEVIEW___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x182C5880)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookletFlippableView_TypeDefinitionIndex = 66692;
+	inline static constexpr unsigned int BookletFlippableView_TypeDefinitionIndex = 67632;
 
 	class BookletFlippableView : public ::RPG::Client::BookletView
 	{
@@ -45,7 +45,7 @@ namespace RPG::Client
 		::RPG::Client::BookletPageView* AbovePage; // 0x48
 		::RPG::Client::UIAutoFlipMonoPlugin* AutoFlipPlugin; // 0x50
 		::RPG::Client::UIPageTurnMonoPlugin* PageTurnPlugin; // 0x58
-		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_989*>* _Pages; // 0x60
+		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1039*>* _Pages; // 0x60
 		::System::String* _LeftFlipAudioEventName_k__BackingField; // 0x68
 		::System::String* _RightFlipAudioEventName_k__BackingField; // 0x70
 
@@ -59,9 +59,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKLETFLIPPABLEVIEW_GET_LEFTFLIPAUDIOEVENTNAME_OFFSET))(this);
 		}
 
-		::System::Void set_LeftFlipAudioEventName(::System::String* value)
+		::System::Void set_LeftFlipAudioEventName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKLETFLIPPABLEVIEW_SET_LEFTFLIPAUDIOEVENTNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKLETFLIPPABLEVIEW_SET_LEFTFLIPAUDIOEVENTNAME_OFFSET))(this, a1);
 		}
 
 		::System::String* get_RightFlipAudioEventName()
@@ -69,14 +69,14 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKLETFLIPPABLEVIEW_GET_RIGHTFLIPAUDIOEVENTNAME_OFFSET))(this);
 		}
 
-		::System::Void set_RightFlipAudioEventName(::System::String* value)
+		::System::Void set_RightFlipAudioEventName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKLETFLIPPABLEVIEW_SET_RIGHTFLIPAUDIOEVENTNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKLETFLIPPABLEVIEW_SET_RIGHTFLIPAUDIOEVENTNAME_OFFSET))(this, a1);
 		}
 
-		::System::Void Init(::RPG::Client::UIController* owner, ::RPG::Client::Booklet* context, ::System::Action_1<::RPG::Client::BookletLuaPanelParam*>* panelCreator, ::System::Action_1<::System::UInt32>* panelDestroyer)
+		::System::Void Init(::RPG::Client::UIController* a1, ::RPG::Client::Booklet* a2, ::System::Action_1<::RPG::Client::BookletLuaPanelParam*>* a3, ::System::Action_1<::System::UInt32>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIController*, ::RPG::Client::Booklet*, ::System::Action_1<::RPG::Client::BookletLuaPanelParam*>*, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKLETFLIPPABLEVIEW_INIT_OFFSET))(this, owner, context, panelCreator, panelDestroyer);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIController*, ::RPG::Client::Booklet*, ::System::Action_1<::RPG::Client::BookletLuaPanelParam*>*, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKLETFLIPPABLEVIEW_INIT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void Destroy()
@@ -84,9 +84,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKLETFLIPPABLEVIEW_DESTROY_OFFSET))(this);
 		}
 
-		::Class_0_16E4307DCC419505_989* GetPage(::System::Int32 index)
+		::Class_0_16E4307DCC419505_1039* GetPage(::System::Int32 a1)
 		{
-			return ((::Class_0_16E4307DCC419505_989*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKLETFLIPPABLEVIEW_GETPAGE_OFFSET))(this, index);
+			return ((::Class_0_16E4307DCC419505_1039*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKLETFLIPPABLEVIEW_GETPAGE_OFFSET))(this, a1);
 		}
 
 		::System::Void LeftFlip()
@@ -134,9 +134,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKLETFLIPPABLEVIEW__DESTROYPAGES_OFFSET))(this);
 		}
 
-		::System::Void __iFixBaseProxy_Init(::RPG::Client::UIController* P0, ::RPG::Client::Booklet* P1, ::System::Action_1<::RPG::Client::BookletLuaPanelParam*>* P2, ::System::Action_1<::System::UInt32>* P3)
+		::System::Void __iFixBaseProxy_Init(::RPG::Client::UIController* a1, ::RPG::Client::Booklet* a2, ::System::Action_1<::RPG::Client::BookletLuaPanelParam*>* a3, ::System::Action_1<::System::UInt32>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIController*, ::RPG::Client::Booklet*, ::System::Action_1<::RPG::Client::BookletLuaPanelParam*>*, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKLETFLIPPABLEVIEW___IFIXBASEPROXY_INIT_OFFSET))(this, P0, P1, P2, P3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIController*, ::RPG::Client::Booklet*, ::System::Action_1<::RPG::Client::BookletLuaPanelParam*>*, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKLETFLIPPABLEVIEW___IFIXBASEPROXY_INIT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __iFixBaseProxy_Destroy()

@@ -5,16 +5,16 @@
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_1_A33B5D17A96691F2_METHOD_1_C42D048CAA739CB1_OFFSET UNITYSDK_OFFSET(0x10FA0750)
-#define CLASS_1_A33B5D17A96691F2__CTOR_OFFSET UNITYSDK_OFFSET(0x10FA07E0)
+#define CLASS_1_A33B5D17A96691F2_METHOD_1_C42D048CAA739CB1_OFFSET UNITYSDK_OFFSET(0x166596B0)
+#define CLASS_1_A33B5D17A96691F2__CTOR_OFFSET UNITYSDK_OFFSET(0x16659740)
 
-inline static constexpr unsigned int Class_1_A33B5D17A96691F2_TypeDefinitionIndex = 66238;
+inline static constexpr unsigned int Class_1_A33B5D17A96691F2_TypeDefinitionIndex = 67177;
 
 class Class_1_A33B5D17A96691F2 : public ::System::Object
 {
 public:
-	::UnityEngine::UI::Text* Field_1_1; // 0x10
-	::UnityEngine::RectTransform* Field_1_0; // 0x18
+	::UnityEngine::RectTransform* Field_1_0; // 0x10
+	::UnityEngine::UI::Text* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

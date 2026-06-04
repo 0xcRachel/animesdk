@@ -6,10 +6,10 @@ namespace RPG::GameCore { class ShowFightFestMainRaceUpgradeResultDialog; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_3_97BB48B85A7D2D91_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA41CC10)
-#define CLASS_3_97BB48B85A7D2D91__CTOR_OFFSET UNITYSDK_OFFSET(0xA41CBB0)
+#define CLASS_3_97BB48B85A7D2D91_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1649F0F0)
+#define CLASS_3_97BB48B85A7D2D91__CTOR_OFFSET UNITYSDK_OFFSET(0x1649F090)
 
-inline static constexpr unsigned int Class_3_97BB48B85A7D2D91_TypeDefinitionIndex = 54069;
+inline static constexpr unsigned int Class_3_97BB48B85A7D2D91_TypeDefinitionIndex = 54795;
 
 class Class_3_97BB48B85A7D2D91 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowFightFestMainRaceUpgradeResultDialog*>
 {

@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELOBJECTINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18A386C0)
-#define RPG_GAMECORE_LEVELOBJECTINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A37D40)
-#define RPG_GAMECORE_LEVELOBJECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A386B0)
+#define RPG_GAMECORE_LEVELOBJECTINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18E74280)
+#define RPG_GAMECORE_LEVELOBJECTINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E738F0)
+#define RPG_GAMECORE_LEVELOBJECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18E74270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelObjectInfo_TypeDefinitionIndex = 16359;
+	inline static constexpr unsigned int LevelObjectInfo_TypeDefinitionIndex = 16391;
 
 	class LevelObjectInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELOBJECTINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelObjectInfo*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelObjectInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelObjectInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELOBJECTINFO_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelObjectInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELOBJECTINFO_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelObjectInfo* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelObjectInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelObjectInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELOBJECTINFO_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelObjectInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELOBJECTINFO_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 	};
 }

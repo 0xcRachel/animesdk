@@ -8,26 +8,26 @@ namespace InControl { class BindingSource; }
 namespace InControl { class InputControl; }
 namespace InControl { class InputDevice; }
 
-#define INCONTROL_DEVICEBINDINGSOURCELISTENER_ISCONTROLTYPEINARRAY_OFFSET UNITYSDK_OFFSET(0x16403A80)
-#define INCONTROL_DEVICEBINDINGSOURCELISTENER_ISPRESSED_1_OFFSET UNITYSDK_OFFSET(0x164039A0)
-#define INCONTROL_DEVICEBINDINGSOURCELISTENER_ISPRESSED_2_OFFSET UNITYSDK_OFFSET(0x164034F0)
-#define INCONTROL_DEVICEBINDINGSOURCELISTENER_ISPRESSED_OFFSET UNITYSDK_OFFSET(0x16403950)
-#define INCONTROL_DEVICEBINDINGSOURCELISTENER_LISTENFORCONTROL_OFFSET UNITYSDK_OFFSET(0x16403570)
-#define INCONTROL_DEVICEBINDINGSOURCELISTENER_LISTEN_OFFSET UNITYSDK_OFFSET(0x164033A0)
-#define INCONTROL_DEVICEBINDINGSOURCELISTENER_RESET_OFFSET UNITYSDK_OFFSET(0x16403390)
-#define INCONTROL_DEVICEBINDINGSOURCELISTENER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16403AD0)
-#define INCONTROL_DEVICEBINDINGSOURCELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x16403AC0)
+#define INCONTROL_DEVICEBINDINGSOURCELISTENER_ISCONTROLTYPEINARRAY_OFFSET UNITYSDK_OFFSET(0x15226D10)
+#define INCONTROL_DEVICEBINDINGSOURCELISTENER_ISPRESSED_1_OFFSET UNITYSDK_OFFSET(0x15226C30)
+#define INCONTROL_DEVICEBINDINGSOURCELISTENER_ISPRESSED_2_OFFSET UNITYSDK_OFFSET(0x152266E0)
+#define INCONTROL_DEVICEBINDINGSOURCELISTENER_ISPRESSED_OFFSET UNITYSDK_OFFSET(0x15226BE0)
+#define INCONTROL_DEVICEBINDINGSOURCELISTENER_LISTENFORCONTROL_OFFSET UNITYSDK_OFFSET(0x15226750)
+#define INCONTROL_DEVICEBINDINGSOURCELISTENER_LISTEN_OFFSET UNITYSDK_OFFSET(0x152264E0)
+#define INCONTROL_DEVICEBINDINGSOURCELISTENER_RESET_OFFSET UNITYSDK_OFFSET(0x152264D0)
+#define INCONTROL_DEVICEBINDINGSOURCELISTENER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15226D60)
+#define INCONTROL_DEVICEBINDINGSOURCELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x15226D50)
 
 namespace InControl
 {
-	inline static constexpr unsigned int DeviceBindingSourceListener_TypeDefinitionIndex = 37102;
+	inline static constexpr unsigned int DeviceBindingSourceListener_TypeDefinitionIndex = 37834;
 
 	class DeviceBindingSourceListener : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_maxSize()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DeviceBindingSourceListener_TypeDefinitionIndex)->GetStaticField(0x5350);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DeviceBindingSourceListener_TypeDefinitionIndex)->GetStaticField(0x52F0);
 		}
 		::Il2CppArray<::InControl::InputControlType>* detectFound; // 0x10
 		::System::Int32 detectPhase; // 0x18
@@ -47,34 +47,34 @@ namespace InControl
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_DEVICEBINDINGSOURCELISTENER_RESET_OFFSET))(this);
 		}
 
-		::InControl::BindingSource* Listen(::InControl::BindingListenOptions* listenOptions, ::InControl::InputDevice* device)
+		::InControl::BindingSource* Listen(::InControl::BindingListenOptions* a1, ::InControl::InputDevice* a2)
 		{
-			return ((::InControl::BindingSource*(*)(::PVOID, ::InControl::BindingListenOptions*, ::InControl::InputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_DEVICEBINDINGSOURCELISTENER_LISTEN_OFFSET))(this, listenOptions, device);
+			return ((::InControl::BindingSource*(*)(::PVOID, ::InControl::BindingListenOptions*, ::InControl::InputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_DEVICEBINDINGSOURCELISTENER_LISTEN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsPressed(::InControl::InputControl* control)
+		::System::Boolean IsPressed(::InControl::InputControl* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::InControl::InputControl*))((::PBYTE)hIl2Cpp + INCONTROL_DEVICEBINDINGSOURCELISTENER_ISPRESSED_OFFSET))(this, control);
+			return ((::System::Boolean(*)(::PVOID, ::InControl::InputControl*))((::PBYTE)hIl2Cpp + INCONTROL_DEVICEBINDINGSOURCELISTENER_ISPRESSED_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsPressed_1(::InControl::InputControlType control, ::InControl::InputDevice* device)
+		::System::Boolean IsPressed_1(::InControl::InputControlType a1, ::InControl::InputDevice* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::InControl::InputControlType, ::InControl::InputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_DEVICEBINDINGSOURCELISTENER_ISPRESSED_1_OFFSET))(this, control, device);
+			return ((::System::Boolean(*)(::PVOID, ::InControl::InputControlType, ::InControl::InputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_DEVICEBINDINGSOURCELISTENER_ISPRESSED_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsPressed_2(::Il2CppArray<::InControl::InputControlType>* controls, ::InControl::InputDevice* device)
+		::System::Boolean IsPressed_2(::Il2CppArray<::InControl::InputControlType>* a1, ::InControl::InputDevice* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::InControl::InputControlType>*, ::InControl::InputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_DEVICEBINDINGSOURCELISTENER_ISPRESSED_2_OFFSET))(this, controls, device);
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::InControl::InputControlType>*, ::InControl::InputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_DEVICEBINDINGSOURCELISTENER_ISPRESSED_2_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::InControl::InputControlType>* ListenForControl(::InControl::BindingListenOptions* listenOptions, ::InControl::InputDevice* device, ::Il2CppArray<::InControl::InputControlType>* lastInputControl, ::System::Boolean defaultInheritLastInput)
+		::Il2CppArray<::InControl::InputControlType>* ListenForControl(::InControl::BindingListenOptions* a1, ::InControl::InputDevice* a2, ::Il2CppArray<::InControl::InputControlType>* a3, ::System::Boolean a4)
 		{
-			return ((::Il2CppArray<::InControl::InputControlType>*(*)(::PVOID, ::InControl::BindingListenOptions*, ::InControl::InputDevice*, ::Il2CppArray<::InControl::InputControlType>*, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_DEVICEBINDINGSOURCELISTENER_LISTENFORCONTROL_OFFSET))(this, listenOptions, device, lastInputControl, defaultInheritLastInput);
+			return ((::Il2CppArray<::InControl::InputControlType>*(*)(::PVOID, ::InControl::BindingListenOptions*, ::InControl::InputDevice*, ::Il2CppArray<::InControl::InputControlType>*, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_DEVICEBINDINGSOURCELISTENER_LISTENFORCONTROL_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean IsControlTypeInArray(::InControl::InputControlType control, ::Il2CppArray<::InControl::InputControlType>* controlTypes)
+		::System::Boolean IsControlTypeInArray(::InControl::InputControlType a1, ::Il2CppArray<::InControl::InputControlType>* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::InControl::InputControlType, ::Il2CppArray<::InControl::InputControlType>*))((::PBYTE)hIl2Cpp + INCONTROL_DEVICEBINDINGSOURCELISTENER_ISCONTROLTYPEINARRAY_OFFSET))(this, control, controlTypes);
+			return ((::System::Boolean(*)(::PVOID, ::InControl::InputControlType, ::Il2CppArray<::InControl::InputControlType>*))((::PBYTE)hIl2Cpp + INCONTROL_DEVICEBINDINGSOURCELISTENER_ISCONTROLTYPEINARRAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

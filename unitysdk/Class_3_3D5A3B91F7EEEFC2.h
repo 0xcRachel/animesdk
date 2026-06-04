@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByVersusBar; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3D5A3B91F7EEEFC2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x118B41E0)
-#define CLASS_3_3D5A3B91F7EEEFC2__CTOR_OFFSET UNITYSDK_OFFSET(0x118B4100)
+#define CLASS_3_3D5A3B91F7EEEFC2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16EC81F0)
+#define CLASS_3_3D5A3B91F7EEEFC2__CTOR_OFFSET UNITYSDK_OFFSET(0x16EC8110)
 
-inline static constexpr unsigned int Class_3_3D5A3B91F7EEEFC2_TypeDefinitionIndex = 51451;
+inline static constexpr unsigned int Class_3_3D5A3B91F7EEEFC2_TypeDefinitionIndex = 52119;
 
 class Class_3_3D5A3B91F7EEEFC2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByVersusBar*>
 {

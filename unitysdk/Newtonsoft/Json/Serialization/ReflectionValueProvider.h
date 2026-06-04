@@ -4,32 +4,32 @@
 
 namespace System::Reflection { class MemberInfo; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_REFLECTIONVALUEPROVIDER_GETVALUE_OFFSET UNITYSDK_OFFSET(0x173D02C0)
-#define NEWTONSOFT_JSON_SERIALIZATION_REFLECTIONVALUEPROVIDER_SETVALUE_OFFSET UNITYSDK_OFFSET(0x173D04D0)
-#define NEWTONSOFT_JSON_SERIALIZATION_REFLECTIONVALUEPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x173BEBF0)
+#define NEWTONSOFT_JSON_SERIALIZATION_REFLECTIONVALUEPROVIDER_GETVALUE_OFFSET UNITYSDK_OFFSET(0x158D6740)
+#define NEWTONSOFT_JSON_SERIALIZATION_REFLECTIONVALUEPROVIDER_SETVALUE_OFFSET UNITYSDK_OFFSET(0x158D6950)
+#define NEWTONSOFT_JSON_SERIALIZATION_REFLECTIONVALUEPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x158C6860)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int ReflectionValueProvider_TypeDefinitionIndex = 8495;
+	inline static constexpr unsigned int ReflectionValueProvider_TypeDefinitionIndex = 9398;
 
 	class ReflectionValueProvider : public ::System::Object
 	{
 	public:
 		::System::Reflection::MemberInfo* _memberInfo; // 0x10
 
-		::System::Void _ctor(::System::Reflection::MemberInfo* memberInfo)
+		::System::Void _ctor(::System::Reflection::MemberInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::MemberInfo*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_REFLECTIONVALUEPROVIDER__CTOR_OFFSET))(this, memberInfo);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::MemberInfo*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_REFLECTIONVALUEPROVIDER__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void SetValue(::System::Object* target, ::System::Object* value)
+		::System::Void SetValue(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_REFLECTIONVALUEPROVIDER_SETVALUE_OFFSET))(this, target, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_REFLECTIONVALUEPROVIDER_SETVALUE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Object* GetValue(::System::Object* target)
+		::System::Object* GetValue(::System::Object* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_REFLECTIONVALUEPROVIDER_GETVALUE_OFFSET))(this, target);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_REFLECTIONVALUEPROVIDER_GETVALUE_OFFSET))(this, a1);
 		}
 	};
 }

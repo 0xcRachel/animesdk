@@ -6,27 +6,27 @@ class AkAudioListener_DefaultListenerList;
 class AkGameObj;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AKAUDIOLISTENER_AWAKE_OFFSET UNITYSDK_OFFSET(0x192ACB10)
-#define AKAUDIOLISTENER_GETAKGAMEOBJECTID_OFFSET UNITYSDK_OFFSET(0x192AD110)
-#define AKAUDIOLISTENER_GET_DEFAULTLISTENERS_OFFSET UNITYSDK_OFFSET(0x192AC5F0)
-#define AKAUDIOLISTENER_MIGRATE14_OFFSET UNITYSDK_OFFSET(0x192AD150)
-#define AKAUDIOLISTENER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x192ACDE0)
-#define AKAUDIOLISTENER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x192ACD40)
-#define AKAUDIOLISTENER_SETISDEFAULTLISTENER_OFFSET UNITYSDK_OFFSET(0x192AC720)
-#define AKAUDIOLISTENER_STARTLISTENINGTOEMITTER_OFFSET UNITYSDK_OFFSET(0x192AC620)
-#define AKAUDIOLISTENER_STOPLISTENINGTOEMITTER_OFFSET UNITYSDK_OFFSET(0x192AC6A0)
-#define AKAUDIOLISTENER_UPDATE_OFFSET UNITYSDK_OFFSET(0x192ACE80)
-#define AKAUDIOLISTENER__CCTOR_OFFSET UNITYSDK_OFFSET(0x192AD2D0)
-#define AKAUDIOLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x192AD270)
+#define AKAUDIOLISTENER_AWAKE_OFFSET UNITYSDK_OFFSET(0x19DC7B20)
+#define AKAUDIOLISTENER_GETAKGAMEOBJECTID_OFFSET UNITYSDK_OFFSET(0x19DC8180)
+#define AKAUDIOLISTENER_GET_DEFAULTLISTENERS_OFFSET UNITYSDK_OFFSET(0x19DC7580)
+#define AKAUDIOLISTENER_MIGRATE14_OFFSET UNITYSDK_OFFSET(0x19DC81C0)
+#define AKAUDIOLISTENER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x19DC7DF0)
+#define AKAUDIOLISTENER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19DC7D50)
+#define AKAUDIOLISTENER_SETISDEFAULTLISTENER_OFFSET UNITYSDK_OFFSET(0x19DC7750)
+#define AKAUDIOLISTENER_STARTLISTENINGTOEMITTER_OFFSET UNITYSDK_OFFSET(0x19DC75B0)
+#define AKAUDIOLISTENER_STOPLISTENINGTOEMITTER_OFFSET UNITYSDK_OFFSET(0x19DC7680)
+#define AKAUDIOLISTENER_UPDATE_OFFSET UNITYSDK_OFFSET(0x19DC7E90)
+#define AKAUDIOLISTENER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19DC8350)
+#define AKAUDIOLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x19DC82F0)
 
-inline static constexpr unsigned int AkAudioListener_TypeDefinitionIndex = 40466;
+inline static constexpr unsigned int AkAudioListener_TypeDefinitionIndex = 41293;
 
 class AkAudioListener : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::AkAudioListener_DefaultListenerList** StaticGet_defaultListeners()
 	{
-		return (::AkAudioListener_DefaultListenerList**)Il2CppClass::FromTypeDefinitionIndex(AkAudioListener_TypeDefinitionIndex)->GetStaticField(0x55630);
+		return (::AkAudioListener_DefaultListenerList**)Il2CppClass::FromTypeDefinitionIndex(AkAudioListener_TypeDefinitionIndex)->GetStaticField(0x56A60);
 	}
 	::System::UInt64 akGameObjectID; // 0x18
 	::System::Collections::Generic::List_1<::AkGameObj*>* EmittersToStartListeningTo; // 0x20
@@ -49,19 +49,19 @@ public:
 		return ((::AkAudioListener_DefaultListenerList*(*)())((::PBYTE)hIl2Cpp + AKAUDIOLISTENER_GET_DEFAULTLISTENERS_OFFSET))();
 	}
 
-	::System::Void StartListeningToEmitter(::AkGameObj* emitter)
+	::System::Void StartListeningToEmitter(::AkGameObj* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkGameObj*))((::PBYTE)hIl2Cpp + AKAUDIOLISTENER_STARTLISTENINGTOEMITTER_OFFSET))(this, emitter);
+		return ((::System::Void(*)(::PVOID, ::AkGameObj*))((::PBYTE)hIl2Cpp + AKAUDIOLISTENER_STARTLISTENINGTOEMITTER_OFFSET))(this, a1);
 	}
 
-	::System::Void StopListeningToEmitter(::AkGameObj* emitter)
+	::System::Void StopListeningToEmitter(::AkGameObj* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkGameObj*))((::PBYTE)hIl2Cpp + AKAUDIOLISTENER_STOPLISTENINGTOEMITTER_OFFSET))(this, emitter);
+		return ((::System::Void(*)(::PVOID, ::AkGameObj*))((::PBYTE)hIl2Cpp + AKAUDIOLISTENER_STOPLISTENINGTOEMITTER_OFFSET))(this, a1);
 	}
 
-	::System::Void SetIsDefaultListener(::System::Boolean isDefault)
+	::System::Void SetIsDefaultListener(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKAUDIOLISTENER_SETISDEFAULTLISTENER_OFFSET))(this, isDefault);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKAUDIOLISTENER_SETISDEFAULTLISTENER_OFFSET))(this, a1);
 	}
 
 	::System::Void Awake()

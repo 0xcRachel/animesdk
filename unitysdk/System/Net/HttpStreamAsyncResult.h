@@ -7,13 +7,13 @@ namespace System { class Exception; }
 namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class WaitHandle; }
 
-#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_COMPLETE_1_OFFSET UNITYSDK_OFFSET(0x176BC130)
-#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_COMPLETE_OFFSET UNITYSDK_OFFSET(0x176BC120)
-#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x176BC270)
-#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x176BC280)
-#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x176BC370)
-#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x176BC380)
-#define SYSTEM_NET_HTTPSTREAMASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x176BC430)
+#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_COMPLETE_1_OFFSET UNITYSDK_OFFSET(0x17CEA0F0)
+#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_COMPLETE_OFFSET UNITYSDK_OFFSET(0x17CEA0E0)
+#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x17CEA200)
+#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x17CEA210)
+#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x17CEA300)
+#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x17CEA310)
+#define SYSTEM_NET_HTTPSTREAMASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x17CEA3C0)
 
 namespace System::Net
 {
@@ -22,15 +22,15 @@ namespace System::Net
 	class HttpStreamAsyncResult : public ::System::Object
 	{
 	public:
-		::System::Exception* Error; // 0x10
+		::Il2CppArray<::System::Byte>* Buffer; // 0x10
 		::System::Object* State; // 0x18
-		::System::Object* locker; // 0x20
-		::System::Threading::ManualResetEvent* handle; // 0x28
-		::System::AsyncCallback* Callback; // 0x30
-		::Il2CppArray<::System::Byte>* Buffer; // 0x38
+		::System::Exception* Error; // 0x20
+		::System::AsyncCallback* Callback; // 0x28
+		::System::Object* locker; // 0x30
+		::System::Threading::ManualResetEvent* handle; // 0x38
 		::System::Boolean completed; // 0x40
-		::System::Int32 Offset; // 0x44
-		::System::Int32 Count; // 0x48
+		::System::Int32 Count; // 0x44
+		::System::Int32 Offset; // 0x48
 		::System::Int32 SynchRead; // 0x4C
 
 		::System::Void _ctor()
@@ -38,9 +38,9 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPSTREAMASYNCRESULT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Complete(::System::Exception* e)
+		::System::Void Complete(::System::Exception* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPSTREAMASYNCRESULT_COMPLETE_OFFSET))(this, e);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPSTREAMASYNCRESULT_COMPLETE_OFFSET))(this, a1);
 		}
 
 		::System::Void Complete_1()

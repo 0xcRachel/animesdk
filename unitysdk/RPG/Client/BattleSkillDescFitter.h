@@ -8,38 +8,38 @@ namespace RPG::Client { class BattleSkillDescItemFitterParamCollector; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_BATTLESKILLDESCFITTER_ADDITEMFITTER_OFFSET UNITYSDK_OFFSET(0x14723E50)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER_CREATE_OFFSET UNITYSDK_OFFSET(0x14723D00)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER_TRYFIT_OFFSET UNITYSDK_OFFSET(0x14724030)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x14723E00)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYFITITEMS_OFFSET UNITYSDK_OFFSET(0x14724090)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYUPDATEPOS_OFFSET UNITYSDK_OFFSET(0x147241F0)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER_ADDITEMFITTER_OFFSET UNITYSDK_OFFSET(0x17909240)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER_CREATE_OFFSET UNITYSDK_OFFSET(0x179090F0)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER_TRYFIT_OFFSET UNITYSDK_OFFSET(0x179094A0)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x179091F0)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYFITITEMS_OFFSET UNITYSDK_OFFSET(0x17909500)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYUPDATEPOS_OFFSET UNITYSDK_OFFSET(0x17909640)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleSkillDescFitter_TypeDefinitionIndex = 66236;
+	inline static constexpr unsigned int BattleSkillDescFitter_TypeDefinitionIndex = 67175;
 
 	class BattleSkillDescFitter : public ::System::Object
 	{
 	public:
-		::Class_1_99E47DBBD38370B7* _RootTransformCornerData; // 0x10
+		::UnityEngine::RectTransform* _NeedRefreshFitterTransform; // 0x10
 		::System::Collections::Generic::List_1<::RPG::Client::BattleSkillDescItemFitter*>* _ItemFitterList; // 0x18
-		::UnityEngine::RectTransform* _NeedRefreshFitterTransform; // 0x20
-		::UnityEngine::RectTransform* _PosChangeTransform; // 0x28
+		::UnityEngine::RectTransform* _PosChangeTransform; // 0x20
+		::Class_1_99E47DBBD38370B7* _RootTransformCornerData; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLESKILLDESCFITTER__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::BattleSkillDescFitter* Create(::UnityEngine::RectTransform* rootTransform, ::UnityEngine::RectTransform* needRefreshFitterTransform, ::UnityEngine::RectTransform* posChangeTransform)
+		static ::RPG::Client::BattleSkillDescFitter* Create(::UnityEngine::RectTransform* a1, ::UnityEngine::RectTransform* a2, ::UnityEngine::RectTransform* a3)
 		{
-			return ((::RPG::Client::BattleSkillDescFitter*(*)(::UnityEngine::RectTransform*, ::UnityEngine::RectTransform*, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLESKILLDESCFITTER_CREATE_OFFSET))(rootTransform, needRefreshFitterTransform, posChangeTransform);
+			return ((::RPG::Client::BattleSkillDescFitter*(*)(::UnityEngine::RectTransform*, ::UnityEngine::RectTransform*, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLESKILLDESCFITTER_CREATE_OFFSET))(a1, a2, a3);
 		}
 
-		::RPG::Client::BattleSkillDescItemFitter* AddItemFitter(::RPG::Client::BattleSkillDescItemFitterParamCollector* collector)
+		::RPG::Client::BattleSkillDescItemFitter* AddItemFitter(::RPG::Client::BattleSkillDescItemFitterParamCollector* a1)
 		{
-			return ((::RPG::Client::BattleSkillDescItemFitter*(*)(::PVOID, ::RPG::Client::BattleSkillDescItemFitterParamCollector*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLESKILLDESCFITTER_ADDITEMFITTER_OFFSET))(this, collector);
+			return ((::RPG::Client::BattleSkillDescItemFitter*(*)(::PVOID, ::RPG::Client::BattleSkillDescItemFitterParamCollector*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLESKILLDESCFITTER_ADDITEMFITTER_OFFSET))(this, a1);
 		}
 
 		::System::Boolean TryFit()

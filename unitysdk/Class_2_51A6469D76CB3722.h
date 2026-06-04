@@ -6,20 +6,20 @@ namespace RPG::GameCore { class FinishMazePuzzleChallenge; }
 namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_51A6469D76CB3722_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10921370)
-#define CLASS_2_51A6469D76CB3722_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x109213B0)
-#define CLASS_2_51A6469D76CB3722_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x10921510)
-#define CLASS_2_51A6469D76CB3722_TICK_OFFSET UNITYSDK_OFFSET(0x10921560)
-#define CLASS_2_51A6469D76CB3722__CTOR_OFFSET UNITYSDK_OFFSET(0x10921360)
+#define CLASS_2_51A6469D76CB3722_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13C5A490)
+#define CLASS_2_51A6469D76CB3722_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13C5A4D0)
+#define CLASS_2_51A6469D76CB3722_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13C5A640)
+#define CLASS_2_51A6469D76CB3722_TICK_OFFSET UNITYSDK_OFFSET(0x13C5A690)
+#define CLASS_2_51A6469D76CB3722__CTOR_OFFSET UNITYSDK_OFFSET(0x13C5A480)
 
-inline static constexpr unsigned int Class_2_51A6469D76CB3722_TypeDefinitionIndex = 48711;
+inline static constexpr unsigned int Class_2_51A6469D76CB3722_TypeDefinitionIndex = 49376;
 
 class Class_2_51A6469D76CB3722 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::PropComponent* Field_2_2; // 0x20
-	::RPG::GameCore::FinishMazePuzzleChallenge* Field_2_0; // 0x28
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::RPG::GameCore::PropComponent* Field_2_1; // 0x20
+	::RPG::GameCore::FinishMazePuzzleChallenge* Field_2_2; // 0x28
 	::System::UInt32 Field_2_3; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::FinishMazePuzzleChallenge* a2)

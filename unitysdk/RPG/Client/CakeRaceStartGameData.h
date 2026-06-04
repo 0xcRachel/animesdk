@@ -4,30 +4,30 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CAKERACESTARTGAMEDATA_CREATEPVEDATA_OFFSET UNITYSDK_OFFSET(0x15E19F00)
-#define RPG_CLIENT_CAKERACESTARTGAMEDATA_CREATEPVPDATAWITHUIDLIST_OFFSET UNITYSDK_OFFSET(0x15E19DB0)
-#define RPG_CLIENT_CAKERACESTARTGAMEDATA_CREATEPVPDATA_OFFSET UNITYSDK_OFFSET(0x15E19BC0)
-#define RPG_CLIENT_CAKERACESTARTGAMEDATA_GET_COINCOUNTINGAMESTART_OFFSET UNITYSDK_OFFSET(0x15E19BA0)
-#define RPG_CLIENT_CAKERACESTARTGAMEDATA_GET_FIELDID_OFFSET UNITYSDK_OFFSET(0x15E19B60)
-#define RPG_CLIENT_CAKERACESTARTGAMEDATA_GET_ISPVP_OFFSET UNITYSDK_OFFSET(0x15E19B40)
-#define RPG_CLIENT_CAKERACESTARTGAMEDATA_GET_UIDLIST_OFFSET UNITYSDK_OFFSET(0x15E19B80)
-#define RPG_CLIENT_CAKERACESTARTGAMEDATA_SET_COINCOUNTINGAMESTART_OFFSET UNITYSDK_OFFSET(0x15E19BB0)
-#define RPG_CLIENT_CAKERACESTARTGAMEDATA_SET_FIELDID_OFFSET UNITYSDK_OFFSET(0x15E19B70)
-#define RPG_CLIENT_CAKERACESTARTGAMEDATA_SET_ISPVP_OFFSET UNITYSDK_OFFSET(0x15E19B50)
-#define RPG_CLIENT_CAKERACESTARTGAMEDATA_SET_UIDLIST_OFFSET UNITYSDK_OFFSET(0x15E19B90)
-#define RPG_CLIENT_CAKERACESTARTGAMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15E19D00)
+#define RPG_CLIENT_CAKERACESTARTGAMEDATA_CREATEPVEDATA_OFFSET UNITYSDK_OFFSET(0x18FABC60)
+#define RPG_CLIENT_CAKERACESTARTGAMEDATA_CREATEPVPDATAWITHUIDLIST_OFFSET UNITYSDK_OFFSET(0x18FABB10)
+#define RPG_CLIENT_CAKERACESTARTGAMEDATA_CREATEPVPDATA_OFFSET UNITYSDK_OFFSET(0x18FAB920)
+#define RPG_CLIENT_CAKERACESTARTGAMEDATA_GET_COINCOUNTINGAMESTART_OFFSET UNITYSDK_OFFSET(0x18FAB900)
+#define RPG_CLIENT_CAKERACESTARTGAMEDATA_GET_FIELDID_OFFSET UNITYSDK_OFFSET(0x18FAB8C0)
+#define RPG_CLIENT_CAKERACESTARTGAMEDATA_GET_ISPVP_OFFSET UNITYSDK_OFFSET(0x18FAB8A0)
+#define RPG_CLIENT_CAKERACESTARTGAMEDATA_GET_UIDLIST_OFFSET UNITYSDK_OFFSET(0x18FAB8E0)
+#define RPG_CLIENT_CAKERACESTARTGAMEDATA_SET_COINCOUNTINGAMESTART_OFFSET UNITYSDK_OFFSET(0x18FAB910)
+#define RPG_CLIENT_CAKERACESTARTGAMEDATA_SET_FIELDID_OFFSET UNITYSDK_OFFSET(0x18FAB8D0)
+#define RPG_CLIENT_CAKERACESTARTGAMEDATA_SET_ISPVP_OFFSET UNITYSDK_OFFSET(0x18FAB8B0)
+#define RPG_CLIENT_CAKERACESTARTGAMEDATA_SET_UIDLIST_OFFSET UNITYSDK_OFFSET(0x18FAB8F0)
+#define RPG_CLIENT_CAKERACESTARTGAMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18FABA60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceStartGameData_TypeDefinitionIndex = 58063;
+	inline static constexpr unsigned int CakeRaceStartGameData_TypeDefinitionIndex = 58979;
 
 	class CakeRaceStartGameData : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* _UidList_k__BackingField; // 0x10
 		::System::Int32 _CoinCountInGameStart_k__BackingField; // 0x18
-		::System::UInt32 _FieldID_k__BackingField; // 0x1C
-		::System::Boolean _IsPvp_k__BackingField; // 0x20
+		::System::Boolean _IsPvp_k__BackingField; // 0x1C
+		::System::UInt32 _FieldID_k__BackingField; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -39,9 +39,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTARTGAMEDATA_GET_ISPVP_OFFSET))(this);
 		}
 
-		::System::Void set_IsPvp(::System::Boolean value)
+		::System::Void set_IsPvp(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTARTGAMEDATA_SET_ISPVP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTARTGAMEDATA_SET_ISPVP_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_FieldID()
@@ -49,9 +49,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTARTGAMEDATA_GET_FIELDID_OFFSET))(this);
 		}
 
-		::System::Void set_FieldID(::System::UInt32 value)
+		::System::Void set_FieldID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTARTGAMEDATA_SET_FIELDID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTARTGAMEDATA_SET_FIELDID_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* get_UidList()
@@ -59,9 +59,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTARTGAMEDATA_GET_UIDLIST_OFFSET))(this);
 		}
 
-		::System::Void set_UidList(::System::Collections::Generic::List_1<::System::UInt32>* value)
+		::System::Void set_UidList(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTARTGAMEDATA_SET_UIDLIST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTARTGAMEDATA_SET_UIDLIST_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_CoinCountInGameStart()
@@ -69,24 +69,24 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTARTGAMEDATA_GET_COINCOUNTINGAMESTART_OFFSET))(this);
 		}
 
-		::System::Void set_CoinCountInGameStart(::System::Int32 value)
+		::System::Void set_CoinCountInGameStart(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTARTGAMEDATA_SET_COINCOUNTINGAMESTART_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTARTGAMEDATA_SET_COINCOUNTINGAMESTART_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::CakeRaceStartGameData* CreatePvpData(::System::UInt32 fieldID)
+		static ::RPG::Client::CakeRaceStartGameData* CreatePvpData(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::CakeRaceStartGameData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTARTGAMEDATA_CREATEPVPDATA_OFFSET))(fieldID);
+			return ((::RPG::Client::CakeRaceStartGameData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTARTGAMEDATA_CREATEPVPDATA_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::CakeRaceStartGameData* CreatePvpDataWithUIDList(::System::UInt32 fieldID, ::System::Collections::Generic::List_1<::System::UInt32>* uidList)
+		static ::RPG::Client::CakeRaceStartGameData* CreatePvpDataWithUIDList(::System::UInt32 a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2)
 		{
-			return ((::RPG::Client::CakeRaceStartGameData*(*)(::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTARTGAMEDATA_CREATEPVPDATAWITHUIDLIST_OFFSET))(fieldID, uidList);
+			return ((::RPG::Client::CakeRaceStartGameData*(*)(::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTARTGAMEDATA_CREATEPVPDATAWITHUIDLIST_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::CakeRaceStartGameData* CreatePveData(::System::UInt32 fieldID, ::System::Collections::Generic::List_1<::System::UInt32>* uidList)
+		static ::RPG::Client::CakeRaceStartGameData* CreatePveData(::System::UInt32 a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2)
 		{
-			return ((::RPG::Client::CakeRaceStartGameData*(*)(::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTARTGAMEDATA_CREATEPVEDATA_OFFSET))(fieldID, uidList);
+			return ((::RPG::Client::CakeRaceStartGameData*(*)(::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACESTARTGAMEDATA_CREATEPVEDATA_OFFSET))(a1, a2);
 		}
 	};
 }

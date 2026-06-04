@@ -8,13 +8,13 @@ namespace RPG::Client::Prop { class ChimeraEntranceAnchorConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERAENTRANCEROUNDCONFIG_INITANCHORCONFIGS_OFFSET UNITYSDK_OFFSET(0x14FD6EC0)
-#define RPG_CLIENT_PROP_CHIMERAENTRANCEROUNDCONFIG_TRYGETCHIMERATALKINFOLIST_OFFSET UNITYSDK_OFFSET(0x14FD7160)
-#define RPG_CLIENT_PROP_CHIMERAENTRANCEROUNDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14FD7300)
+#define RPG_CLIENT_PROP_CHIMERAENTRANCEROUNDCONFIG_INITANCHORCONFIGS_OFFSET UNITYSDK_OFFSET(0x1709B540)
+#define RPG_CLIENT_PROP_CHIMERAENTRANCEROUNDCONFIG_TRYGETCHIMERATALKINFOLIST_OFFSET UNITYSDK_OFFSET(0x1709B810)
+#define RPG_CLIENT_PROP_CHIMERAENTRANCEROUNDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1709BA00)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraEntranceRoundConfig_TypeDefinitionIndex = 71984;
+	inline static constexpr unsigned int ChimeraEntranceRoundConfig_TypeDefinitionIndex = 73006;
 
 	class ChimeraEntranceRoundConfig : public ::UnityEngine::MonoBehaviour
 	{

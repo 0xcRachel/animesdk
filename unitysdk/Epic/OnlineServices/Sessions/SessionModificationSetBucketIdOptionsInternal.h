@@ -6,33 +6,33 @@ namespace Epic::OnlineServices::Sessions { class SessionModificationSetBucketIdO
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETBUCKETIDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x233DF70)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETBUCKETIDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x233DE50)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETBUCKETIDOPTIONSINTERNAL_SET_BUCKETID_OFFSET UNITYSDK_OFFSET(0x233DCD0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETBUCKETIDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x233DD80)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETBUCKETIDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x38EEE60)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETBUCKETIDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x38EEE50)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETBUCKETIDOPTIONSINTERNAL_SET_BUCKETID_OFFSET UNITYSDK_OFFSET(0x38EECD0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETBUCKETIDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x38EED80)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int SessionModificationSetBucketIdOptionsInternal_TypeDefinitionIndex = 41349;
+	inline static constexpr unsigned int SessionModificationSetBucketIdOptionsInternal_TypeDefinitionIndex = 42152;
 
 	struct alignas(8) SessionModificationSetBucketIdOptionsInternal
 	{
 		::System::Int32 m_ApiVersion; // 0x10
 		::System::IntPtr m_BucketId; // 0x18
 
-		::System::Void set_BucketId(::System::String* value)
+		::System::Void set_BucketId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETBUCKETIDOPTIONSINTERNAL_SET_BUCKETID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETBUCKETIDOPTIONSINTERNAL_SET_BUCKETID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Sessions::SessionModificationSetBucketIdOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Sessions::SessionModificationSetBucketIdOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionModificationSetBucketIdOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETBUCKETIDOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionModificationSetBucketIdOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETBUCKETIDOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETBUCKETIDOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETBUCKETIDOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

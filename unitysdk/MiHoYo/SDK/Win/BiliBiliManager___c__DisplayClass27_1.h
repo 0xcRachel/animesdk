@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK { class JSONObject; }
 namespace MiHoYo::SDK::Win { class BiliBiliManager___c__DisplayClass27_0; }
 
-#define MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS27_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1503F500)
-#define MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS27_1__ONCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1503FA00)
+#define MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS27_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1483E290)
+#define MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS27_1__ONCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1483E7E0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BiliBiliManager___c__DisplayClass27_1_TypeDefinitionIndex = 8083;
+	inline static constexpr unsigned int BiliBiliManager___c__DisplayClass27_1_TypeDefinitionIndex = 8986;
 
 	class BiliBiliManager___c__DisplayClass27_1 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Win::BiliBiliManager___c__DisplayClass27_0* CS___8__locals1; // 0x10
-		::MiHoYo::SDK::JSONObject* initCallback; // 0x18
+		::MiHoYo::SDK::JSONObject* initCallback; // 0x10
+		::MiHoYo::SDK::Win::BiliBiliManager___c__DisplayClass27_0* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{

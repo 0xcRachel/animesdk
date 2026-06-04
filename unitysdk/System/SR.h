@@ -5,33 +5,33 @@
 namespace System { class String; }
 namespace System::Resources { class ResourceManager; }
 
-#define SYSTEM_SR_FORMAT_OFFSET UNITYSDK_OFFSET(0x1A755B00)
-#define SYSTEM_SR_GETRESOURCESTRING_OFFSET UNITYSDK_OFFSET(0x1A755880)
-#define SYSTEM_SR_GET_ARG_KEYNOTFOUNDWITHKEY_OFFSET UNITYSDK_OFFSET(0x1A755D10)
-#define SYSTEM_SR_GET_ARRAYINITIALIZEDSTATENOTEQUAL_OFFSET UNITYSDK_OFFSET(0x1A755D80)
-#define SYSTEM_SR_GET_ARRAYLENGTHSNOTEQUAL_OFFSET UNITYSDK_OFFSET(0x1A755DF0)
-#define SYSTEM_SR_GET_COLLECTIONMODIFIEDDURINGENUMERATION_OFFSET UNITYSDK_OFFSET(0x1A755E60)
-#define SYSTEM_SR_GET_DUPLICATEKEY_OFFSET UNITYSDK_OFFSET(0x1A755ED0)
-#define SYSTEM_SR_GET_INVALIDEMPTYOPERATION_OFFSET UNITYSDK_OFFSET(0x1A755F40)
-#define SYSTEM_SR_GET_INVALIDOPERATIONONDEFAULTARRAY_OFFSET UNITYSDK_OFFSET(0x1A755FB0)
-#define SYSTEM_SR_GET_RESOURCEMANAGER_OFFSET UNITYSDK_OFFSET(0x1A755A10)
-#define SYSTEM_SR_USINGRESOURCEKEYS_OFFSET UNITYSDK_OFFSET(0x1A755820)
-#define SYSTEM_SR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A756020)
+#define SYSTEM_SR_FORMAT_OFFSET UNITYSDK_OFFSET(0x1B57AAD0)
+#define SYSTEM_SR_GETRESOURCESTRING_OFFSET UNITYSDK_OFFSET(0x1B57A850)
+#define SYSTEM_SR_GET_ARG_KEYNOTFOUNDWITHKEY_OFFSET UNITYSDK_OFFSET(0x1B57ACB0)
+#define SYSTEM_SR_GET_ARRAYINITIALIZEDSTATENOTEQUAL_OFFSET UNITYSDK_OFFSET(0x1B57AD20)
+#define SYSTEM_SR_GET_ARRAYLENGTHSNOTEQUAL_OFFSET UNITYSDK_OFFSET(0x1B57AD90)
+#define SYSTEM_SR_GET_COLLECTIONMODIFIEDDURINGENUMERATION_OFFSET UNITYSDK_OFFSET(0x1B57AE00)
+#define SYSTEM_SR_GET_DUPLICATEKEY_OFFSET UNITYSDK_OFFSET(0x1B57AE70)
+#define SYSTEM_SR_GET_INVALIDEMPTYOPERATION_OFFSET UNITYSDK_OFFSET(0x1B57AEE0)
+#define SYSTEM_SR_GET_INVALIDOPERATIONONDEFAULTARRAY_OFFSET UNITYSDK_OFFSET(0x1B57AF50)
+#define SYSTEM_SR_GET_RESOURCEMANAGER_OFFSET UNITYSDK_OFFSET(0x1B57A9E0)
+#define SYSTEM_SR_USINGRESOURCEKEYS_OFFSET UNITYSDK_OFFSET(0x1B57A7F0)
+#define SYSTEM_SR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B57AFC0)
 
 namespace System
 {
-	inline static constexpr unsigned int SR_TypeDefinitionIndex = 9087;
+	inline static constexpr unsigned int SR_TypeDefinitionIndex = 6951;
 
 	class SR : public ::System::Object
 	{
 	public:
 		static ::System::Resources::ResourceManager** StaticGet_s_resourceManager()
 		{
-			return (::System::Resources::ResourceManager**)Il2CppClass::FromTypeDefinitionIndex(SR_TypeDefinitionIndex)->GetStaticField(0x9E0);
+			return (::System::Resources::ResourceManager**)Il2CppClass::FromTypeDefinitionIndex(SR_TypeDefinitionIndex)->GetStaticField(0x520);
 		}
 		static ::System::Boolean* StaticGet_s_usingResourceKeys()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SR_TypeDefinitionIndex)->GetStaticField(0x600);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SR_TypeDefinitionIndex)->GetStaticField(0x530);
 		}
 
 		static ::System::Void _cctor()
@@ -44,14 +44,14 @@ namespace System
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + SYSTEM_SR_USINGRESOURCEKEYS_OFFSET))();
 		}
 
-		static ::System::String* GetResourceString(::System::String* resourceKey)
+		static ::System::String* GetResourceString(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SR_GETRESOURCESTRING_OFFSET))(resourceKey);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SR_GETRESOURCESTRING_OFFSET))(a1);
 		}
 
-		static ::System::String* Format(::System::String* resourceFormat, ::System::Object* p1)
+		static ::System::String* Format(::System::String* a1, ::System::Object* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_SR_FORMAT_OFFSET))(resourceFormat, p1);
+			return ((::System::String*(*)(::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_SR_FORMAT_OFFSET))(a1, a2);
 		}
 
 		static ::System::Resources::ResourceManager* get_ResourceManager()

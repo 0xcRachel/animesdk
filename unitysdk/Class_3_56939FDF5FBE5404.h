@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareTextJoinValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_56939FDF5FBE5404_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE3A4020)
-#define CLASS_3_56939FDF5FBE5404__CTOR_OFFSET UNITYSDK_OFFSET(0xE3A3FF0)
+#define CLASS_3_56939FDF5FBE5404_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16F6C870)
+#define CLASS_3_56939FDF5FBE5404__CTOR_OFFSET UNITYSDK_OFFSET(0x16F6C840)
 
-inline static constexpr unsigned int Class_3_56939FDF5FBE5404_TypeDefinitionIndex = 48564;
+inline static constexpr unsigned int Class_3_56939FDF5FBE5404_TypeDefinitionIndex = 49191;
 
 class Class_3_56939FDF5FBE5404 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareTextJoinValue*>
 {

@@ -6,15 +6,15 @@ namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define SYSTEM_DYNAMIC_UTILS_CONTRACTUTILS_GETPARAMNAME_OFFSET UNITYSDK_OFFSET(0x1841C420)
-#define SYSTEM_DYNAMIC_UTILS_CONTRACTUTILS_GET_UNREACHABLE_OFFSET UNITYSDK_OFFSET(0x1841C200)
-#define SYSTEM_DYNAMIC_UTILS_CONTRACTUTILS_REQUIRESNOTNULL_1_OFFSET UNITYSDK_OFFSET(0x1841C3A0)
-#define SYSTEM_DYNAMIC_UTILS_CONTRACTUTILS_REQUIRESNOTNULL_OFFSET UNITYSDK_OFFSET(0x184191A0)
-#define SYSTEM_DYNAMIC_UTILS_CONTRACTUTILS_REQUIRES_OFFSET UNITYSDK_OFFSET(0x1841C2A0)
+#define SYSTEM_DYNAMIC_UTILS_CONTRACTUTILS_GETPARAMNAME_OFFSET UNITYSDK_OFFSET(0x17A8F380)
+#define SYSTEM_DYNAMIC_UTILS_CONTRACTUTILS_GET_UNREACHABLE_OFFSET UNITYSDK_OFFSET(0x17A8F160)
+#define SYSTEM_DYNAMIC_UTILS_CONTRACTUTILS_REQUIRESNOTNULL_1_OFFSET UNITYSDK_OFFSET(0x17A8F300)
+#define SYSTEM_DYNAMIC_UTILS_CONTRACTUTILS_REQUIRESNOTNULL_OFFSET UNITYSDK_OFFSET(0x17A8C250)
+#define SYSTEM_DYNAMIC_UTILS_CONTRACTUTILS_REQUIRES_OFFSET UNITYSDK_OFFSET(0x17A8F200)
 
 namespace System::Dynamic::Utils
 {
-	inline static constexpr unsigned int ContractUtils_TypeDefinitionIndex = 3672;
+	inline static constexpr unsigned int ContractUtils_TypeDefinitionIndex = 3673;
 
 	class ContractUtils : public ::System::Object
 	{
@@ -24,24 +24,24 @@ namespace System::Dynamic::Utils
 			return ((::System::Exception*(*)())((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_UTILS_CONTRACTUTILS_GET_UNREACHABLE_OFFSET))();
 		}
 
-		static ::System::Void Requires(::System::Boolean precondition, ::System::String* paramName)
+		static ::System::Void Requires(::System::Boolean a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_UTILS_CONTRACTUTILS_REQUIRES_OFFSET))(precondition, paramName);
+			return ((::System::Void(*)(::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_UTILS_CONTRACTUTILS_REQUIRES_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void RequiresNotNull(::System::Object* value, ::System::String* paramName)
+		static ::System::Void RequiresNotNull(::System::Object* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_UTILS_CONTRACTUTILS_REQUIRESNOTNULL_OFFSET))(value, paramName);
+			return ((::System::Void(*)(::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_UTILS_CONTRACTUTILS_REQUIRESNOTNULL_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void RequiresNotNull_1(::System::Object* value, ::System::String* paramName, ::System::Int32 index)
+		static ::System::Void RequiresNotNull_1(::System::Object* a1, ::System::String* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::System::Object*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_UTILS_CONTRACTUTILS_REQUIRESNOTNULL_1_OFFSET))(value, paramName, index);
+			return ((::System::Void(*)(::System::Object*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_UTILS_CONTRACTUTILS_REQUIRESNOTNULL_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* GetParamName(::System::String* paramName, ::System::Int32 index)
+		static ::System::String* GetParamName(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_UTILS_CONTRACTUTILS_GETPARAMNAME_OFFSET))(paramName, index);
+			return ((::System::String*(*)(::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_UTILS_CONTRACTUTILS_GETPARAMNAME_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -6,31 +6,31 @@ namespace RPG::Client { class PlayerPlatformInfo; }
 namespace RPG::Client::DiceCombat { class IDiceCombatAvatarInfo; }
 namespace System { class String; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1420F9D0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x1420A670)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_GET_CARDINFO_OFFSET UNITYSDK_OFFSET(0x14210120)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x14210100)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x142100E0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_GET_PLAYERPLATFORMINFO_OFFSET UNITYSDK_OFFSET(0x14210160)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_GET_PVPSCORE_OFFSET UNITYSDK_OFFSET(0x14210140)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_SET_CARDINFO_OFFSET UNITYSDK_OFFSET(0x14210130)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x14210110)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_SET_NAME_OFFSET UNITYSDK_OFFSET(0x142100F0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_SET_PLAYERPLATFORMINFO_OFFSET UNITYSDK_OFFSET(0x14210170)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_SET_PVPSCORE_OFFSET UNITYSDK_OFFSET(0x14210150)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1420FEA0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_CREATE_1_OFFSET UNITYSDK_OFFSET(0x18B76060)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x18B709D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_GET_CARDINFO_OFFSET UNITYSDK_OFFSET(0x18B76930)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x18B76910)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x18B768F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_GET_PLAYERPLATFORMINFO_OFFSET UNITYSDK_OFFSET(0x18B76970)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_GET_PVPSCORE_OFFSET UNITYSDK_OFFSET(0x18B76950)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_SET_CARDINFO_OFFSET UNITYSDK_OFFSET(0x18B76940)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x18B76920)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_SET_NAME_OFFSET UNITYSDK_OFFSET(0x18B76900)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_SET_PLAYERPLATFORMINFO_OFFSET UNITYSDK_OFFSET(0x18B76980)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_SET_PVPSCORE_OFFSET UNITYSDK_OFFSET(0x18B76960)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18B766B0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatBattleResultPlayerInfo_TypeDefinitionIndex = 69812;
+	inline static constexpr unsigned int DiceCombatBattleResultPlayerInfo_TypeDefinitionIndex = 70624;
 
 	class DiceCombatBattleResultPlayerInfo : public ::System::Object
 	{
 	public:
-		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* _CardInfo_k__BackingField; // 0x10
-		::RPG::Client::PlayerPlatformInfo* _PlayerPlatformInfo_k__BackingField; // 0x18
-		::System::String* _Name_k__BackingField; // 0x20
-		::System::String* _IconPath_k__BackingField; // 0x28
+		::System::String* _IconPath_k__BackingField; // 0x10
+		::System::String* _Name_k__BackingField; // 0x18
+		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* _CardInfo_k__BackingField; // 0x20
+		::RPG::Client::PlayerPlatformInfo* _PlayerPlatformInfo_k__BackingField; // 0x28
 		::System::UInt32 _PvpScore_k__BackingField; // 0x30
 
 		::System::Void _ctor()
@@ -38,14 +38,14 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::DiceCombat::DiceCombatBattleResultPlayerInfo* Create(::System::Boolean isPlayer)
+		static ::RPG::Client::DiceCombat::DiceCombatBattleResultPlayerInfo* Create(::System::Boolean a1)
 		{
-			return ((::RPG::Client::DiceCombat::DiceCombatBattleResultPlayerInfo*(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_CREATE_OFFSET))(isPlayer);
+			return ((::RPG::Client::DiceCombat::DiceCombatBattleResultPlayerInfo*(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_CREATE_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::DiceCombat::DiceCombatBattleResultPlayerInfo* Create_1(::System::String* name, ::System::String* iconPath, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* cardInfo)
+		static ::RPG::Client::DiceCombat::DiceCombatBattleResultPlayerInfo* Create_1(::System::String* a1, ::System::String* a2, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* a3)
 		{
-			return ((::RPG::Client::DiceCombat::DiceCombatBattleResultPlayerInfo*(*)(::System::String*, ::System::String*, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_CREATE_1_OFFSET))(name, iconPath, cardInfo);
+			return ((::RPG::Client::DiceCombat::DiceCombatBattleResultPlayerInfo*(*)(::System::String*, ::System::String*, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_CREATE_1_OFFSET))(a1, a2, a3);
 		}
 
 		::System::String* get_Name()
@@ -53,9 +53,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Void set_Name(::System::String* value)
+		::System::Void set_Name(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_SET_NAME_OFFSET))(this, a1);
 		}
 
 		::System::String* get_IconPath()
@@ -63,9 +63,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_GET_ICONPATH_OFFSET))(this);
 		}
 
-		::System::Void set_IconPath(::System::String* value)
+		::System::Void set_IconPath(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_SET_ICONPATH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_SET_ICONPATH_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* get_CardInfo()
@@ -73,9 +73,9 @@ namespace RPG::Client::DiceCombat
 			return ((::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_GET_CARDINFO_OFFSET))(this);
 		}
 
-		::System::Void set_CardInfo(::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* value)
+		::System::Void set_CardInfo(::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_SET_CARDINFO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_SET_CARDINFO_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_PvpScore()
@@ -83,9 +83,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_GET_PVPSCORE_OFFSET))(this);
 		}
 
-		::System::Void set_PvpScore(::System::UInt32 value)
+		::System::Void set_PvpScore(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_SET_PVPSCORE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_SET_PVPSCORE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::PlayerPlatformInfo* get_PlayerPlatformInfo()
@@ -93,9 +93,9 @@ namespace RPG::Client::DiceCombat
 			return ((::RPG::Client::PlayerPlatformInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_GET_PLAYERPLATFORMINFO_OFFSET))(this);
 		}
 
-		::System::Void set_PlayerPlatformInfo(::RPG::Client::PlayerPlatformInfo* value)
+		::System::Void set_PlayerPlatformInfo(::RPG::Client::PlayerPlatformInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::PlayerPlatformInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_SET_PLAYERPLATFORMINFO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PlayerPlatformInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTPLAYERINFO_SET_PLAYERPLATFORMINFO_OFFSET))(this, a1);
 		}
 	};
 }

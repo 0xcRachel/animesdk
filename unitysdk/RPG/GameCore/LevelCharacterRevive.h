@@ -4,28 +4,28 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_43BD383C98B4C0C5_103;
+class Class_1_43BD383C98B4C0C5_114;
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELCHARACTERREVIVE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF2A3610)
-#define RPG_GAMECORE_LEVELCHARACTERREVIVE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF2A35C0)
-#define RPG_GAMECORE_LEVELCHARACTERREVIVE_GET_ISFROMDEATH_OFFSET UNITYSDK_OFFSET(0xF2A3660)
-#define RPG_GAMECORE_LEVELCHARACTERREVIVE__CTOR_OFFSET UNITYSDK_OFFSET(0xF2888B0)
+#define RPG_GAMECORE_LEVELCHARACTERREVIVE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1872A040)
+#define RPG_GAMECORE_LEVELCHARACTERREVIVE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18729FF0)
+#define RPG_GAMECORE_LEVELCHARACTERREVIVE_GET_ISFROMDEATH_OFFSET UNITYSDK_OFFSET(0x1872A090)
+#define RPG_GAMECORE_LEVELCHARACTERREVIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1870D9F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCharacterRevive_TypeDefinitionIndex = 52341;
+	inline static constexpr unsigned int LevelCharacterRevive_TypeDefinitionIndex = 53038;
 
 	class LevelCharacterRevive : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* Entity; // 0x10
-		::Class_1_43BD383C98B4C0C5_103* Param; // 0x18
+		::Class_1_43BD383C98B4C0C5_114* Param; // 0x18
 		::RPG::GameCore::AliveState FromState; // 0x20
 
-		::System::Void _ctor(::RPG::GameCore::GameEntity* pEntity, ::RPG::GameCore::AliveState fromState, ::Class_1_43BD383C98B4C0C5_103* param)
+		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::AliveState a2, ::Class_1_43BD383C98B4C0C5_114* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::AliveState, ::Class_1_43BD383C98B4C0C5_103*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERREVIVE__CTOR_OFFSET))(this, pEntity, fromState, param);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::AliveState, ::Class_1_43BD383C98B4C0C5_114*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERREVIVE__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

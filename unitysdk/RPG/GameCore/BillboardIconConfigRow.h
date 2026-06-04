@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BILLBOARDICONCONFIGROW_COMPARETO_OFFSET UNITYSDK_OFFSET(0x187B8EC0)
-#define RPG_GAMECORE_BILLBOARDICONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187B8910)
-#define RPG_GAMECORE_BILLBOARDICONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187B8EB0)
+#define RPG_GAMECORE_BILLBOARDICONCONFIGROW_COMPARETO_OFFSET UNITYSDK_OFFSET(0x195DAC20)
+#define RPG_GAMECORE_BILLBOARDICONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x195DA650)
+#define RPG_GAMECORE_BILLBOARDICONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x195DAC10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BillboardIconConfigRow_TypeDefinitionIndex = 11845;
+	inline static constexpr unsigned int BillboardIconConfigRow_TypeDefinitionIndex = 11940;
 
 	class BillboardIconConfigRow : public ::System::Object
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BILLBOARDICONCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::BillboardIconConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BillboardIconConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BillboardIconConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BILLBOARDICONCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BillboardIconConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BILLBOARDICONCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		::System::Int32 CompareTo(::RPG::GameCore::BillboardIconConfigRow* other)
+		::System::Int32 CompareTo(::RPG::GameCore::BillboardIconConfigRow* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::BillboardIconConfigRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BILLBOARDICONCONFIGROW_COMPARETO_OFFSET))(this, other);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::BillboardIconConfigRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BILLBOARDICONCONFIGROW_COMPARETO_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,19 +6,19 @@ namespace Epic::OnlineServices::Ecom { class CatalogRelease; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x234AA00)
-#define EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_GET_COMPATIBLEAPPIDS_OFFSET UNITYSDK_OFFSET(0x234A3C0)
-#define EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_GET_COMPATIBLEPLATFORMS_OFFSET UNITYSDK_OFFSET(0x234A5F0)
-#define EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_GET_RELEASENOTE_OFFSET UNITYSDK_OFFSET(0x234A820)
-#define EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x234A990)
-#define EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_SET_COMPATIBLEAPPIDS_OFFSET UNITYSDK_OFFSET(0x234A4D0)
-#define EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_SET_COMPATIBLEPLATFORMS_OFFSET UNITYSDK_OFFSET(0x234A700)
-#define EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x234A980)
-#define EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_SET_RELEASENOTE_OFFSET UNITYSDK_OFFSET(0x234A8D0)
+#define EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x38FB9E0)
+#define EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_GET_COMPATIBLEAPPIDS_OFFSET UNITYSDK_OFFSET(0x38FB390)
+#define EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_GET_COMPATIBLEPLATFORMS_OFFSET UNITYSDK_OFFSET(0x38FB5C0)
+#define EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_GET_RELEASENOTE_OFFSET UNITYSDK_OFFSET(0x38FB7F0)
+#define EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x38FB960)
+#define EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_SET_COMPATIBLEAPPIDS_OFFSET UNITYSDK_OFFSET(0x38FB4A0)
+#define EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_SET_COMPATIBLEPLATFORMS_OFFSET UNITYSDK_OFFSET(0x38FB6D0)
+#define EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x38FB950)
+#define EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_SET_RELEASENOTE_OFFSET UNITYSDK_OFFSET(0x38FB8A0)
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int CatalogReleaseInternal_TypeDefinitionIndex = 42139;
+	inline static constexpr unsigned int CatalogReleaseInternal_TypeDefinitionIndex = 42942;
 
 	struct alignas(8) CatalogReleaseInternal
 	{
@@ -34,9 +34,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::Il2CppArray<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_GET_COMPATIBLEAPPIDS_OFFSET))(this);
 		}
 
-		::System::Void set_CompatibleAppIds(::Il2CppArray<::System::String*>* value)
+		::System::Void set_CompatibleAppIds(::Il2CppArray<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_SET_COMPATIBLEAPPIDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_SET_COMPATIBLEAPPIDS_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::String*>* get_CompatiblePlatforms()
@@ -44,9 +44,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::Il2CppArray<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_GET_COMPATIBLEPLATFORMS_OFFSET))(this);
 		}
 
-		::System::Void set_CompatiblePlatforms(::Il2CppArray<::System::String*>* value)
+		::System::Void set_CompatiblePlatforms(::Il2CppArray<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_SET_COMPATIBLEPLATFORMS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_SET_COMPATIBLEPLATFORMS_OFFSET))(this, a1);
 		}
 
 		::System::String* get_ReleaseNote()
@@ -54,19 +54,19 @@ namespace Epic::OnlineServices::Ecom
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_GET_RELEASENOTE_OFFSET))(this);
 		}
 
-		::System::Void set_ReleaseNote(::System::String* value)
+		::System::Void set_ReleaseNote(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_SET_RELEASENOTE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_SET_RELEASENOTE_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Ecom::CatalogRelease* other)
+		::System::Void Set(::Epic::OnlineServices::Ecom::CatalogRelease* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::CatalogRelease*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::CatalogRelease*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_CATALOGRELEASEINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

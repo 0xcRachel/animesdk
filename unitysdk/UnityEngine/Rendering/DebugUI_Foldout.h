@@ -7,20 +7,20 @@ namespace System { class String; }
 namespace UnityEngine::Rendering { class DebugUI_Widget; }
 namespace UnityEngine::Rendering { template <typename T> class ObservableList_1; }
 
-#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_GETVALUE_OFFSET UNITYSDK_OFFSET(0x18B0F4F0)
-#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_GET_COLUMNLABELS_OFFSET UNITYSDK_OFFSET(0x18B0F4A0)
-#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x18B0F490)
-#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_SETVALUE_1_OFFSET UNITYSDK_OFFSET(0x18B0F5C0)
-#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_SETVALUE_OFFSET UNITYSDK_OFFSET(0x18B0F530)
-#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_SET_COLUMNLABELS_OFFSET UNITYSDK_OFFSET(0x18B0F4B0)
-#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_UNITYENGINE_RENDERING_DEBUGUI_IVALUEFIELD_GETVALUE_OFFSET UNITYSDK_OFFSET(0x18B0F500)
-#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x18B0F5B0)
-#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18B0F4D0)
-#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x18B0F4C0)
+#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_GETVALUE_OFFSET UNITYSDK_OFFSET(0x195C04F0)
+#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_GET_COLUMNLABELS_OFFSET UNITYSDK_OFFSET(0x195C04A0)
+#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x195C0490)
+#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_SETVALUE_1_OFFSET UNITYSDK_OFFSET(0x195C05C0)
+#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_SETVALUE_OFFSET UNITYSDK_OFFSET(0x195C0530)
+#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_SET_COLUMNLABELS_OFFSET UNITYSDK_OFFSET(0x195C04B0)
+#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_UNITYENGINE_RENDERING_DEBUGUI_IVALUEFIELD_GETVALUE_OFFSET UNITYSDK_OFFSET(0x195C0500)
+#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x195C05B0)
+#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x195C04D0)
+#define UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x195C04C0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_Foldout_TypeDefinitionIndex = 33436;
+	inline static constexpr unsigned int DebugUI_Foldout_TypeDefinitionIndex = 33718;
 
 	class DebugUI_Foldout : public ::UnityEngine::Rendering::DebugUI_Container
 	{
@@ -33,9 +33,9 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* displayName, ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* children, ::Il2CppArray<::System::String*>* columnLabels)
+		::System::Void _ctor_1(::System::String* a1, ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>* a2, ::Il2CppArray<::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT__CTOR_1_OFFSET))(this, displayName, children, columnLabels);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Rendering::ObservableList_1<::UnityEngine::Rendering::DebugUI_Widget*>*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT__CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean get_isReadOnly()
@@ -48,9 +48,9 @@ namespace UnityEngine::Rendering
 			return ((::Il2CppArray<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_GET_COLUMNLABELS_OFFSET))(this);
 		}
 
-		::System::Void set_columnLabels(::Il2CppArray<::System::String*>* value)
+		::System::Void set_columnLabels(::Il2CppArray<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_SET_COLUMNLABELS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_SET_COLUMNLABELS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean GetValue()
@@ -63,19 +63,19 @@ namespace UnityEngine::Rendering
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_UNITYENGINE_RENDERING_DEBUGUI_IVALUEFIELD_GETVALUE_OFFSET))(this);
 		}
 
-		::System::Void SetValue(::System::Object* value)
+		::System::Void SetValue(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_SETVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_SETVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Object* ValidateValue(::System::Object* value)
+		::System::Object* ValidateValue(::System::Object* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_VALIDATEVALUE_OFFSET))(this, value);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_VALIDATEVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetValue_1(::System::Boolean value)
+		::System::Void SetValue_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_SETVALUE_1_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_FOLDOUT_SETVALUE_1_OFFSET))(this, a1);
 		}
 	};
 }

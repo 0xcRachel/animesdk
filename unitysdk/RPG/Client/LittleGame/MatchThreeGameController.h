@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_DC55B9E766BF1C8D;
+class Class_1_4C75491B780B94AA;
 namespace RPG::Client { class MatchThreeBoard; }
 namespace RPG::Client::LittleGame { class MatchThreeTimelineBattleField; }
 namespace System { class Object; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_DESTROYGAME_OFFSET UNITYSDK_OFFSET(0x1652D8A0)
-#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0x1652D4F0)
-#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_TRYSTARTGAME_OFFSET UNITYSDK_OFFSET(0x1652D670)
-#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1652D990)
-#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER__ONSCREENSIZECHANGED_OFFSET UNITYSDK_OFFSET(0x1652D930)
+#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_DESTROYGAME_OFFSET UNITYSDK_OFFSET(0x188758A0)
+#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0x188754F0)
+#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_TRYSTARTGAME_OFFSET UNITYSDK_OFFSET(0x18875670)
+#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x188759C0)
+#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER__ONSCREENSIZECHANGED_OFFSET UNITYSDK_OFFSET(0x18875960)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MatchThreeGameController_TypeDefinitionIndex = 70318;
+	inline static constexpr unsigned int MatchThreeGameController_TypeDefinitionIndex = 71134;
 
 	class MatchThreeGameController : public ::UnityEngine::MonoBehaviour
 	{
@@ -25,7 +25,7 @@ namespace RPG::Client::LittleGame
 		// static const ::System::UInt32 COLUMN_COUNT = 0x7; // 0x0
 		::RPG::Client::MatchThreeBoard* ChessBoardView; // 0x18
 		::Il2CppArray<::UnityEngine::RectTransform*>* BirdAdaptivePositions; // 0x20
-		::Class_1_DC55B9E766BF1C8D* _EcsInstance; // 0x28
+		::Class_1_4C75491B780B94AA* _EcsInstance; // 0x28
 		::RPG::Client::LittleGame::MatchThreeTimelineBattleField* _BattleField; // 0x30
 
 		::System::Void _ctor()
@@ -33,9 +33,9 @@ namespace RPG::Client::LittleGame
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Init(::RPG::Client::LittleGame::MatchThreeTimelineBattleField* battleField)
+		::System::Void Init(::RPG::Client::LittleGame::MatchThreeTimelineBattleField* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::MatchThreeTimelineBattleField*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_INIT_OFFSET))(this, battleField);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::MatchThreeTimelineBattleField*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_INIT_OFFSET))(this, a1);
 		}
 
 		::System::Void TryStartGame()
@@ -48,9 +48,9 @@ namespace RPG::Client::LittleGame
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_DESTROYGAME_OFFSET))(this);
 		}
 
-		::System::Void _OnScreenSizeChanged(::System::Object* arg)
+		::System::Void _OnScreenSizeChanged(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER__ONSCREENSIZECHANGED_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER__ONSCREENSIZECHANGED_OFFSET))(this, a1);
 		}
 	};
 }

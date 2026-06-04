@@ -13,21 +13,21 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTBATTLECONST_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x18E76320)
-#define RPG_GAMECORE_RTBATTLECONST_METHOD_2_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x18E763A0)
-#define RPG_GAMECORE_RTBATTLECONST_METHOD_2_FBABC0B2AD8E53BF_OFFSET UNITYSDK_OFFSET(0x18E753A0)
-#define RPG_GAMECORE_RTBATTLECONST__CTOR_OFFSET UNITYSDK_OFFSET(0x18E75C50)
+#define RPG_GAMECORE_RTBATTLECONST_METHOD_2_0EA072BBD5F3CC4C_OFFSET UNITYSDK_OFFSET(0x19416380)
+#define RPG_GAMECORE_RTBATTLECONST_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x19417290)
+#define RPG_GAMECORE_RTBATTLECONST_METHOD_2_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x19417310)
+#define RPG_GAMECORE_RTBATTLECONST__CTOR_OFFSET UNITYSDK_OFFSET(0x19416BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleConst_TypeDefinitionIndex = 17142;
+	inline static constexpr unsigned int RtBattleConst_TypeDefinitionIndex = 17153;
 
 	class RtBattleConst : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		static ::RPG::GameCore::RtBattleConst** StaticGet_Config()
 		{
-			return (::RPG::GameCore::RtBattleConst**)Il2CppClass::FromTypeDefinitionIndex(RtBattleConst_TypeDefinitionIndex)->GetStaticField(0x6A40);
+			return (::RPG::GameCore::RtBattleConst**)Il2CppClass::FromTypeDefinitionIndex(RtBattleConst_TypeDefinitionIndex)->GetStaticField(0x39B00);
 		}
 		::System::String* MainLevelGraphPath; // 0x10
 		::RPG::GameCore::FixPoint BaseTimeScale; // 0x18
@@ -58,9 +58,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLECONST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_FBABC0B2AD8E53BF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtBattleConst*& a2)
+		static ::System::Void Method_2_0EA072BBD5F3CC4C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtBattleConst*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtBattleConst*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLECONST_METHOD_2_FBABC0B2AD8E53BF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtBattleConst*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLECONST_METHOD_2_0EA072BBD5F3CC4C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_2_5790A55946AA509D()

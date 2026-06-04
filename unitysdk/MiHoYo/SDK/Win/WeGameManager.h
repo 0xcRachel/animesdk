@@ -11,42 +11,42 @@ namespace MiHoYo::SDK::Win { class WeGameSessionTicketModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ADD_WEGAMEANTIADDICTIONEVENT_OFFSET UNITYSDK_OFFSET(0x19FBFBC0)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ADD_WEGAMEEXITEVENT_OFFSET UNITYSDK_OFFSET(0x19FBFAC0)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0x19FBFE30)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_CHECKCHANNEL_OFFSET UNITYSDK_OFFSET(0x19FBFD80)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_CREATORDER_OFFSET UNITYSDK_OFFSET(0x19FC0630)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_HANDLELOGINFLOWNOTIFICATION_OFFSET UNITYSDK_OFFSET(0x19FC2440)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x19FC0030)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_INSTANCE_OFFSET UNITYSDK_OFFSET(0x19FBFCC0)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_LOGIN_OFFSET UNITYSDK_OFFSET(0x19FC00C0)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x19FC2200)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ONCREATEORDER_OFFSET UNITYSDK_OFFSET(0x19FC1CC0)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19FBFF30)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ONGETWEGAMESESSIONTICKET_OFFSET UNITYSDK_OFFSET(0x19FC2550)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ONPAYCANCEL_OFFSET UNITYSDK_OFFSET(0x19FC2400)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ONPAYFAIL_OFFSET UNITYSDK_OFFSET(0x19FC0620)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ONPAYSUCCESS_OFFSET UNITYSDK_OFFSET(0x19FC2420)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ONWEGAMEANTIADDICTION_OFFSET UNITYSDK_OFFSET(0x19FC2710)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ONWEGAMEEXIT_OFFSET UNITYSDK_OFFSET(0x19FC2C70)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_PAY_OFFSET UNITYSDK_OFFSET(0x19FC0170)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_REMOVE_WEGAMEANTIADDICTIONEVENT_OFFSET UNITYSDK_OFFSET(0x19FBFC40)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_REMOVE_WEGAMEEXITEVENT_OFFSET UNITYSDK_OFFSET(0x19FBFB40)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_SETNOTIFYWINDOWENABLE_OFFSET UNITYSDK_OFFSET(0x19FC0040)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_START_OFFSET UNITYSDK_OFFSET(0x19FBFEB0)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x19FBFFB0)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19FC2F70)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ADD_WEGAMEANTIADDICTIONEVENT_OFFSET UNITYSDK_OFFSET(0x1B3EADA0)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ADD_WEGAMEEXITEVENT_OFFSET UNITYSDK_OFFSET(0x1B3EACA0)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B3EB010)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_CHECKCHANNEL_OFFSET UNITYSDK_OFFSET(0x1B3EAF60)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_CREATORDER_OFFSET UNITYSDK_OFFSET(0x1B3EB790)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_HANDLELOGINFLOWNOTIFICATION_OFFSET UNITYSDK_OFFSET(0x1B3ED4F0)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x1B3EB250)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B3EAEA0)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_LOGIN_OFFSET UNITYSDK_OFFSET(0x1B3EB2E0)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B3ED310)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ONCREATEORDER_OFFSET UNITYSDK_OFFSET(0x1B3ECE20)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B3EB130)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ONGETWEGAMESESSIONTICKET_OFFSET UNITYSDK_OFFSET(0x1B3ED600)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ONPAYCANCEL_OFFSET UNITYSDK_OFFSET(0x1B3ED4B0)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ONPAYFAIL_OFFSET UNITYSDK_OFFSET(0x1B3EB780)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ONPAYSUCCESS_OFFSET UNITYSDK_OFFSET(0x1B3ED4D0)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ONWEGAMEANTIADDICTION_OFFSET UNITYSDK_OFFSET(0x1B3ED7D0)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_ONWEGAMEEXIT_OFFSET UNITYSDK_OFFSET(0x1B3ED800)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_PAY_OFFSET UNITYSDK_OFFSET(0x1B3EB3B0)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_REMOVE_WEGAMEANTIADDICTIONEVENT_OFFSET UNITYSDK_OFFSET(0x1B3EAE20)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_REMOVE_WEGAMEEXITEVENT_OFFSET UNITYSDK_OFFSET(0x1B3EAD20)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_SETNOTIFYWINDOWENABLE_OFFSET UNITYSDK_OFFSET(0x1B3EB260)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_START_OFFSET UNITYSDK_OFFSET(0x1B3EB0A0)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B3EB1C0)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3ED830)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int WeGameManager_TypeDefinitionIndex = 8230;
+	inline static constexpr unsigned int WeGameManager_TypeDefinitionIndex = 9133;
 
 	class WeGameManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::MiHoYo::SDK::Win::WeGameManager** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::Win::WeGameManager**)Il2CppClass::FromTypeDefinitionIndex(WeGameManager_TypeDefinitionIndex)->GetStaticField(0x7C0);
+			return (::MiHoYo::SDK::Win::WeGameManager**)Il2CppClass::FromTypeDefinitionIndex(WeGameManager_TypeDefinitionIndex)->GetStaticField(0x830);
 		}
 		::MiHoYo::SDK::Win::WeGameManager_WeGameExitDelegate* WeGameExitEvent; // 0x18
 		::MiHoYo::SDK::Win::WeGameManager_WeGameAntiAddictionDelegate* WeGameAntiAddictionEvent; // 0x20
@@ -58,24 +58,24 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void add_WeGameExitEvent(::MiHoYo::SDK::Win::WeGameManager_WeGameExitDelegate* value)
+		::System::Void add_WeGameExitEvent(::MiHoYo::SDK::Win::WeGameManager_WeGameExitDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::WeGameManager_WeGameExitDelegate*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_ADD_WEGAMEEXITEVENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::WeGameManager_WeGameExitDelegate*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_ADD_WEGAMEEXITEVENT_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_WeGameExitEvent(::MiHoYo::SDK::Win::WeGameManager_WeGameExitDelegate* value)
+		::System::Void remove_WeGameExitEvent(::MiHoYo::SDK::Win::WeGameManager_WeGameExitDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::WeGameManager_WeGameExitDelegate*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_REMOVE_WEGAMEEXITEVENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::WeGameManager_WeGameExitDelegate*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_REMOVE_WEGAMEEXITEVENT_OFFSET))(this, a1);
 		}
 
-		::System::Void add_WeGameAntiAddictionEvent(::MiHoYo::SDK::Win::WeGameManager_WeGameAntiAddictionDelegate* value)
+		::System::Void add_WeGameAntiAddictionEvent(::MiHoYo::SDK::Win::WeGameManager_WeGameAntiAddictionDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::WeGameManager_WeGameAntiAddictionDelegate*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_ADD_WEGAMEANTIADDICTIONEVENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::WeGameManager_WeGameAntiAddictionDelegate*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_ADD_WEGAMEANTIADDICTIONEVENT_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_WeGameAntiAddictionEvent(::MiHoYo::SDK::Win::WeGameManager_WeGameAntiAddictionDelegate* value)
+		::System::Void remove_WeGameAntiAddictionEvent(::MiHoYo::SDK::Win::WeGameManager_WeGameAntiAddictionDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::WeGameManager_WeGameAntiAddictionDelegate*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_REMOVE_WEGAMEANTIADDICTIONEVENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::WeGameManager_WeGameAntiAddictionDelegate*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_REMOVE_WEGAMEANTIADDICTIONEVENT_OFFSET))(this, a1);
 		}
 
 		static ::MiHoYo::SDK::Win::WeGameManager* Instance()
@@ -113,69 +113,69 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_INIT_OFFSET))(this);
 		}
 
-		::System::Void SetNotifyWindowEnable(::System::Boolean enable)
+		::System::Void SetNotifyWindowEnable(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_SETNOTIFYWINDOWENABLE_OFFSET))(this, enable);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_SETNOTIFYWINDOWENABLE_OFFSET))(this, a1);
 		}
 
-		::System::Void Login(::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>*>* callback)
+		::System::Void Login(::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_LOGIN_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_LOGIN_OFFSET))(this, a1);
 		}
 
-		::System::Void Pay(::System::String* jsonString, ::System::Action_1<::System::String*>* callback)
+		::System::Void Pay(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_PAY_OFFSET))(this, jsonString, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_PAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CreatOrder(::MiHoYo::SDK::JSONNode* payInfo, ::MiHoYo::SDK::JSONNode* specialInfo, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback)
+		::System::Void CreatOrder(::MiHoYo::SDK::JSONNode* a1, ::MiHoYo::SDK::JSONNode* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::JSONNode*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_CREATORDER_OFFSET))(this, payInfo, specialInfo, callback);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::JSONNode*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_CREATORDER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void OnCreateOrder(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void OnCreateOrder(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_ONCREATEORDER_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_ONCREATEORDER_OFFSET))(this, a1);
 		}
 
-		static ::System::Void OnPayFail(::System::Action_1<::System::String*>* callback, ::System::String* msg)
+		static ::System::Void OnPayFail(::System::Action_1<::System::String*>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_ONPAYFAIL_OFFSET))(callback, msg);
+			return ((::System::Void(*)(::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_ONPAYFAIL_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void OnPayCancel(::System::Action_1<::System::String*>* callback)
+		static ::System::Void OnPayCancel(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_ONPAYCANCEL_OFFSET))(callback);
+			return ((::System::Void(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_ONPAYCANCEL_OFFSET))(a1);
 		}
 
-		static ::System::Void OnPaySuccess(::System::Action_1<::System::String*>* callback)
+		static ::System::Void OnPaySuccess(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_ONPAYSUCCESS_OFFSET))(callback);
+			return ((::System::Void(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_ONPAYSUCCESS_OFFSET))(a1);
 		}
 
-		static ::System::Void OnCallback(::System::Int32 ret, ::System::String* msg, ::System::Action_1<::System::String*>* callback, ::MiHoYo::SDK::JSONNode* data)
+		static ::System::Void OnCallback(::System::Int32 a1, ::System::String* a2, ::System::Action_1<::System::String*>* a3, ::MiHoYo::SDK::JSONNode* a4)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::String*, ::System::Action_1<::System::String*>*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_ONCALLBACK_OFFSET))(ret, msg, callback, data);
+			return ((::System::Void(*)(::System::Int32, ::System::String*, ::System::Action_1<::System::String*>*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_ONCALLBACK_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void HandleLoginFlowNotification(::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>* responseModel)
+		static ::System::Void HandleLoginFlowNotification(::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>* a1)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_HANDLELOGINFLOWNOTIFICATION_OFFSET))(responseModel);
+			return ((::System::Void(*)(::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_HANDLELOGINFLOWNOTIFICATION_OFFSET))(a1);
 		}
 
-		::System::Void OnGetWeGameSessionTicket(::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>* responseModel)
+		::System::Void OnGetWeGameSessionTicket(::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_ONGETWEGAMESESSIONTICKET_OFFSET))(this, responseModel);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_ONGETWEGAMESESSIONTICKET_OFFSET))(this, a1);
 		}
 
-		::System::Void OnWeGameAntiAddiction(::System::String* responseString)
+		::System::Void OnWeGameAntiAddiction(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_ONWEGAMEANTIADDICTION_OFFSET))(this, responseString);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_ONWEGAMEANTIADDICTION_OFFSET))(this, a1);
 		}
 
-		::System::Void OnWeGameExit(::System::Int32 code)
+		::System::Void OnWeGameExit(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_ONWEGAMEEXIT_OFFSET))(this, code);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_ONWEGAMEEXIT_OFFSET))(this, a1);
 		}
 	};
 }

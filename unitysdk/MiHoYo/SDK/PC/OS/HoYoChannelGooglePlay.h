@@ -13,41 +13,41 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_CHECKENTITLEMENTS_OFFSET UNITYSDK_OFFSET(0x1741EFE0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_GETCHANNEL_OFFSET UNITYSDK_OFFSET(0x1741C100)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_GETDEFAULTBODY_OFFSET UNITYSDK_OFFSET(0x1741C5E0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_GETPRODUCTLIST_OFFSET UNITYSDK_OFFSET(0x1741C690)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_INIT_OFFSET UNITYSDK_OFFSET(0x1741C190)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_LOGIN_OFFSET UNITYSDK_OFFSET(0x1741F360)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_ONGETPRODUCTLISTERROR_OFFSET UNITYSDK_OFFSET(0x1741CC80)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_ONPAYCALLBACKCANCEL_OFFSET UNITYSDK_OFFSET(0x1741EBD0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_ONPAYCALLBACKFAIL_OFFSET UNITYSDK_OFFSET(0x1741D840)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_ONPAYCALLBACKSUCCESS_OFFSET UNITYSDK_OFFSET(0x1741EDE0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_PAY_1_OFFSET UNITYSDK_OFFSET(0x1741DA80)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_PAY_OFFSET UNITYSDK_OFFSET(0x1741CEA0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_PROCESSENTITLEMENT_OFFSET UNITYSDK_OFFSET(0x1741F230)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_SDKREPORTPAY_OFFSET UNITYSDK_OFFSET(0x1741E170)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_SDKVERIFYRECEIPT_OFFSET UNITYSDK_OFFSET(0x1741DDB0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_USEHOYOCHANNEL_OFFSET UNITYSDK_OFFSET(0x1741C110)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_VERIFYORDER_OFFSET UNITYSDK_OFFSET(0x1741DCC0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1741F3B0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY__CTOR_OFFSET UNITYSDK_OFFSET(0x174177F0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_CHECKENTITLEMENTS_OFFSET UNITYSDK_OFFSET(0x186999D0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_GETCHANNEL_OFFSET UNITYSDK_OFFSET(0x18696CE0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_GETDEFAULTBODY_OFFSET UNITYSDK_OFFSET(0x186971C0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_GETPRODUCTLIST_OFFSET UNITYSDK_OFFSET(0x18697270)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_INIT_OFFSET UNITYSDK_OFFSET(0x18696D70)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_LOGIN_OFFSET UNITYSDK_OFFSET(0x18699CE0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_ONGETPRODUCTLISTERROR_OFFSET UNITYSDK_OFFSET(0x18697770)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_ONPAYCALLBACKCANCEL_OFFSET UNITYSDK_OFFSET(0x18699610)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_ONPAYCALLBACKFAIL_OFFSET UNITYSDK_OFFSET(0x18698360)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_ONPAYCALLBACKSUCCESS_OFFSET UNITYSDK_OFFSET(0x186997F0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_PAY_1_OFFSET UNITYSDK_OFFSET(0x18698570)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_PAY_OFFSET UNITYSDK_OFFSET(0x18697990)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_PROCESSENTITLEMENT_OFFSET UNITYSDK_OFFSET(0x18699B90)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_SDKREPORTPAY_OFFSET UNITYSDK_OFFSET(0x18698C10)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_SDKVERIFYRECEIPT_OFFSET UNITYSDK_OFFSET(0x18698850)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_USEHOYOCHANNEL_OFFSET UNITYSDK_OFFSET(0x18696CF0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_VERIFYORDER_OFFSET UNITYSDK_OFFSET(0x18698740)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY__CCTOR_OFFSET UNITYSDK_OFFSET(0x18699D30)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY__CTOR_OFFSET UNITYSDK_OFFSET(0x186950C0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelGooglePlay_TypeDefinitionIndex = 7529;
+	inline static constexpr unsigned int HoYoChannelGooglePlay_TypeDefinitionIndex = 8432;
 
 	class HoYoChannelGooglePlay : public ::MiHoYo::SDK::PC::OS::HoYoChannel
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::PC::OS::ProductData*>** StaticGet__productDataMapCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::PC::OS::ProductData*>**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelGooglePlay_TypeDefinitionIndex)->GetStaticField(0x11FA0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::PC::OS::ProductData*>**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelGooglePlay_TypeDefinitionIndex)->GetStaticField(0x16D70);
 		}
 		::System::Action_1<::System::String*>* _actionPayCallback; // 0x10
-		::System::Boolean _isChannelDllAvailable; // 0x18
-		::System::Boolean _isPaying; // 0x19
-		::System::Boolean _isAlertOpened; // 0x1A
+		::System::Boolean _isPaying; // 0x18
+		::System::Boolean _isAlertOpened; // 0x19
+		::System::Boolean _isChannelDllAvailable; // 0x1A
 
 		::System::Void _ctor()
 		{
@@ -74,44 +74,44 @@ namespace MiHoYo::SDK::PC::OS
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_INIT_OFFSET))(this);
 		}
 
-		::System::Void GetProductList(::System::String* jsonString, ::System::Action_1<::System::String*>* callback)
+		::System::Void GetProductList(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_GETPRODUCTLIST_OFFSET))(this, jsonString, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_GETPRODUCTLIST_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnGetProductListError(::System::Action_1<::System::String*>* callback, ::System::String* msg)
+		::System::Void OnGetProductListError(::System::Action_1<::System::String*>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_ONGETPRODUCTLISTERROR_OFFSET))(this, callback, msg);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_ONGETPRODUCTLISTERROR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Pay(::System::String* jsonPayInfo, ::System::Action_1<::System::String*>* callback)
+		::System::Void Pay(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_PAY_OFFSET))(this, jsonPayInfo, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_PAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Pay_1(::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* gamePayInfo)
+		::System::Void Pay_1(::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_PAY_1_OFFSET))(this, gamePayInfo);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_PAY_1_OFFSET))(this, a1);
 		}
 
-		::System::Void VerifyOrder(::MiHoYo::SDK::AccountModel* account, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* payInfo, ::System::Boolean isSlient)
+		::System::Void VerifyOrder(::MiHoYo::SDK::AccountModel* a1, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AccountModel*, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_VERIFYORDER_OFFSET))(this, account, payInfo, isSlient);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AccountModel*, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_VERIFYORDER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void OnPayCallbackFail(::System::String* msg, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* info)
+		::System::Void OnPayCallbackFail(::System::String* a1, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_ONPAYCALLBACKFAIL_OFFSET))(this, msg, info);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_ONPAYCALLBACKFAIL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnPayCallbackCancel(::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* info)
+		::System::Void OnPayCallbackCancel(::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_ONPAYCALLBACKCANCEL_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_ONPAYCALLBACKCANCEL_OFFSET))(this, a1);
 		}
 
-		::System::Void OnPayCallbackSuccess(::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* info)
+		::System::Void OnPayCallbackSuccess(::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_ONPAYCALLBACKSUCCESS_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_ONPAYCALLBACKSUCCESS_OFFSET))(this, a1);
 		}
 
 		::System::Void CheckEntitlements()
@@ -119,14 +119,14 @@ namespace MiHoYo::SDK::PC::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_CHECKENTITLEMENTS_OFFSET))(this);
 		}
 
-		::System::Void ProcessEntitlement(::MiHoYo::SDK::AccountModel* account, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* payInfo)
+		::System::Void ProcessEntitlement(::MiHoYo::SDK::AccountModel* a1, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AccountModel*, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_PROCESSENTITLEMENT_OFFSET))(this, account, payInfo);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AccountModel*, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_PROCESSENTITLEMENT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Login(::System::Action_1<::System::String*>* callback)
+		::System::Void Login(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_LOGIN_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_LOGIN_OFFSET))(this, a1);
 		}
 
 		static ::MiHoYo::SDK::JSONObject* GetDefaultBody()
@@ -134,14 +134,14 @@ namespace MiHoYo::SDK::PC::OS
 			return ((::MiHoYo::SDK::JSONObject*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_GETDEFAULTBODY_OFFSET))();
 		}
 
-		static ::System::Void SDKReportPay(::MiHoYo::SDK::ReportStage stage, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* info, ::MiHoYo::SDK::NetworkResponseModelEx* response)
+		static ::System::Void SDKReportPay(::MiHoYo::SDK::ReportStage a1, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* a2, ::MiHoYo::SDK::NetworkResponseModelEx* a3)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::ReportStage, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*, ::MiHoYo::SDK::NetworkResponseModelEx*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_SDKREPORTPAY_OFFSET))(stage, info, response);
+			return ((::System::Void(*)(::MiHoYo::SDK::ReportStage, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*, ::MiHoYo::SDK::NetworkResponseModelEx*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_SDKREPORTPAY_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SDKVerifyReceipt(::MiHoYo::SDK::ReportStage stage, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* info, ::System::Int32 portType)
+		static ::System::Void SDKVerifyReceipt(::MiHoYo::SDK::ReportStage a1, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::ReportStage, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_SDKVERIFYRECEIPT_OFFSET))(stage, info, portType);
+			return ((::System::Void(*)(::MiHoYo::SDK::ReportStage, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY_SDKVERIFYRECEIPT_OFFSET))(a1, a2, a3);
 		}
 	};
 }

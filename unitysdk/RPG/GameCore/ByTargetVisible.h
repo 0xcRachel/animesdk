@@ -4,14 +4,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYTARGETVISIBLE_METHOD_4_E38B3BEE4734ED44_OFFSET UNITYSDK_OFFSET(0x19A73B00)
-#define RPG_GAMECORE_BYTARGETVISIBLE_METHOD_4_FA57737ACF91A7CA_OFFSET UNITYSDK_OFFSET(0x19A73BD0)
-#define RPG_GAMECORE_BYTARGETVISIBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A73B80)
+#define RPG_GAMECORE_BYTARGETVISIBLE_METHOD_4_584CB9720D0D3747_OFFSET UNITYSDK_OFFSET(0x19E71190)
+#define RPG_GAMECORE_BYTARGETVISIBLE_METHOD_4_718AD7379EC4CF2E_OFFSET UNITYSDK_OFFSET(0x19E71210)
+#define RPG_GAMECORE_BYTARGETVISIBLE_METHOD_4_E38B3BEE4734ED44_OFFSET UNITYSDK_OFFSET(0x19E70F40)
+#define RPG_GAMECORE_BYTARGETVISIBLE_METHOD_4_FA57737ACF91A7CA_OFFSET UNITYSDK_OFFSET(0x19E71010)
+#define RPG_GAMECORE_BYTARGETVISIBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E70FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByTargetVisible_TypeDefinitionIndex = 19573;
+	inline static constexpr unsigned int ByTargetVisible_TypeDefinitionIndex = 19463;
 
 	class ByTargetVisible : public ::RPG::GameCore::PredicateConfig
 	{
@@ -31,6 +34,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_FA57737ACF91A7CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByTargetVisible* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByTargetVisible*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETVISIBLE_METHOD_4_FA57737ACF91A7CA_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_584CB9720D0D3747(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTargetVisible*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTargetVisible*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETVISIBLE_METHOD_4_584CB9720D0D3747_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_718AD7379EC4CF2E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTargetVisible* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTargetVisible*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETVISIBLE_METHOD_4_718AD7379EC4CF2E_OFFSET))(a1, a2);
 		}
 	};
 }

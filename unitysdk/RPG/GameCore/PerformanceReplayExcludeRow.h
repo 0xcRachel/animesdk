@@ -6,15 +6,15 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PERFORMANCEREPLAYEXCLUDEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x18F10880)
-#define RPG_GAMECORE_PERFORMANCEREPLAYEXCLUDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18F10970)
-#define RPG_GAMECORE_PERFORMANCEREPLAYEXCLUDEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x18F10810)
-#define RPG_GAMECORE_PERFORMANCEREPLAYEXCLUDEROW_RESET_OFFSET UNITYSDK_OFFSET(0x18F10870)
-#define RPG_GAMECORE_PERFORMANCEREPLAYEXCLUDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18F10AA0)
+#define RPG_GAMECORE_PERFORMANCEREPLAYEXCLUDEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x19D27D60)
+#define RPG_GAMECORE_PERFORMANCEREPLAYEXCLUDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D27E50)
+#define RPG_GAMECORE_PERFORMANCEREPLAYEXCLUDEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x19D27CF0)
+#define RPG_GAMECORE_PERFORMANCEREPLAYEXCLUDEROW_RESET_OFFSET UNITYSDK_OFFSET(0x19D27D50)
+#define RPG_GAMECORE_PERFORMANCEREPLAYEXCLUDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D27F80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceReplayExcludeRow_TypeDefinitionIndex = 13604;
+	inline static constexpr unsigned int PerformanceReplayExcludeRow_TypeDefinitionIndex = 13674;
 
 	class PerformanceReplayExcludeRow : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEREPLAYEXCLUDEROW__CTOR_OFFSET))(this);
 		}
 
-		::System::Void FromTableOffset(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> offsetData)
+		::System::Void FromTableOffset(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEREPLAYEXCLUDEROW_FROMTABLEOFFSET_OFFSET))(this, offsetData);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEREPLAYEXCLUDEROW_FROMTABLEOFFSET_OFFSET))(this, a1);
 		}
 
 		::System::Void Reset()
@@ -37,14 +37,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEREPLAYEXCLUDEROW_RESET_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinaryWithoutNew(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PerformanceReplayExcludeRow* val)
+		static ::System::Void FromBinaryWithoutNew(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceReplayExcludeRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceReplayExcludeRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEREPLAYEXCLUDEROW_FROMBINARYWITHOUTNEW_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceReplayExcludeRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEREPLAYEXCLUDEROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PerformanceReplayExcludeRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceReplayExcludeRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceReplayExcludeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEREPLAYEXCLUDEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceReplayExcludeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEREPLAYEXCLUDEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

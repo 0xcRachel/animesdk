@@ -6,36 +6,36 @@
 
 namespace System { class String; }
 
-#define SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR_GETTEXTELEMENT_OFFSET UNITYSDK_OFFSET(0x1710F190)
-#define SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1710F180)
-#define SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1710F130)
-#define SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR_ONDESERIALIZED_OFFSET UNITYSDK_OFFSET(0x1710F0C0)
-#define SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR_ONDESERIALIZING_OFFSET UNITYSDK_OFFSET(0x1710F0B0)
-#define SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR_ONSERIALIZING_OFFSET UNITYSDK_OFFSET(0x1710F120)
-#define SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1710F060)
-#define SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1710F250)
-#define SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1710E910)
+#define SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR_GETTEXTELEMENT_OFFSET UNITYSDK_OFFSET(0x15783C00)
+#define SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15783BF0)
+#define SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x15783BA0)
+#define SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR_ONDESERIALIZED_OFFSET UNITYSDK_OFFSET(0x15783B30)
+#define SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR_ONDESERIALIZING_OFFSET UNITYSDK_OFFSET(0x15783B20)
+#define SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR_ONSERIALIZING_OFFSET UNITYSDK_OFFSET(0x15783B90)
+#define SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15783AD0)
+#define SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15783CC0)
+#define SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x157833B0)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int TextElementEnumerator_TypeDefinitionIndex = 763;
+	inline static constexpr unsigned int TextElementEnumerator_TypeDefinitionIndex = 762;
 
 	class TextElementEnumerator : public ::System::Object
 	{
 	public:
 		::System::String* str; // 0x10
-		::System::Int32 startIndex; // 0x18
-		::System::Int32 currTextElementLen; // 0x1C
-		::System::Int32 strLen; // 0x20
-		::System::Int32 charLen; // 0x24
-		::System::Int32 nextTextElementLen; // 0x28
-		::System::Int32 endIndex; // 0x2C
-		::System::Globalization::UnicodeCategory uc; // 0x30
-		::System::Int32 index; // 0x34
+		::System::Int32 index; // 0x18
+		::System::Int32 startIndex; // 0x1C
+		::System::Globalization::UnicodeCategory uc; // 0x20
+		::System::Int32 nextTextElementLen; // 0x24
+		::System::Int32 endIndex; // 0x28
+		::System::Int32 currTextElementLen; // 0x2C
+		::System::Int32 strLen; // 0x30
+		::System::Int32 charLen; // 0x34
 
-		::System::Void _ctor(::System::String* str, ::System::Int32 startIndex, ::System::Int32 strLen)
+		::System::Void _ctor(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR__CTOR_OFFSET))(this, str, startIndex, strLen);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_1()
@@ -43,19 +43,19 @@ namespace System::Globalization
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR__CTOR_1_OFFSET))(this);
 		}
 
-		::System::Void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx)
+		::System::Void OnDeserializing(::System::Runtime::Serialization::StreamingContext a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR_ONDESERIALIZING_OFFSET))(this, ctx);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR_ONDESERIALIZING_OFFSET))(this, a1);
 		}
 
-		::System::Void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx)
+		::System::Void OnDeserialized(::System::Runtime::Serialization::StreamingContext a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR_ONDESERIALIZED_OFFSET))(this, ctx);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR_ONDESERIALIZED_OFFSET))(this, a1);
 		}
 
-		::System::Void OnSerializing(::System::Runtime::Serialization::StreamingContext ctx)
+		::System::Void OnSerializing(::System::Runtime::Serialization::StreamingContext a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR_ONSERIALIZING_OFFSET))(this, ctx);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TEXTELEMENTENUMERATOR_ONSERIALIZING_OFFSET))(this, a1);
 		}
 
 		::System::Boolean MoveNext()

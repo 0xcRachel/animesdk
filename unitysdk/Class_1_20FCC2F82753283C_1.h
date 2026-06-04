@@ -9,38 +9,38 @@
 
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_20FCC2F82753283C_1_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFE66390)
-#define CLASS_1_20FCC2F82753283C_1_METHOD_1_2288BF7B54BF86A9_OFFSET UNITYSDK_OFFSET(0xFE679B0)
-#define CLASS_1_20FCC2F82753283C_1_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xFE67950)
-#define CLASS_1_20FCC2F82753283C_1_METHOD_1_4967D395F2BF3624_OFFSET UNITYSDK_OFFSET(0xFE66440)
-#define CLASS_1_20FCC2F82753283C_1_METHOD_1_938C5AA708433B7C_OFFSET UNITYSDK_OFFSET(0xFE66150)
-#define CLASS_1_20FCC2F82753283C_1_METHOD_1_A7188DFAB5831CB7_OFFSET UNITYSDK_OFFSET(0xFE66E50)
-#define CLASS_1_20FCC2F82753283C_1_METHOD_1_A984848EA3E436DA_OFFSET UNITYSDK_OFFSET(0xFE663D0)
-#define CLASS_1_20FCC2F82753283C_1_METHOD_1_AF5DADE427749D02_OFFSET UNITYSDK_OFFSET(0xFE661A0)
-#define CLASS_1_20FCC2F82753283C_1_METHOD_1_D1149065CC4CFA55_OFFSET UNITYSDK_OFFSET(0xFE660A0)
-#define CLASS_1_20FCC2F82753283C_1__CTOR_OFFSET UNITYSDK_OFFSET(0xFE66060)
+#define CLASS_1_20FCC2F82753283C_1_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17874330)
+#define CLASS_1_20FCC2F82753283C_1_METHOD_1_2288BF7B54BF86A9_OFFSET UNITYSDK_OFFSET(0x17875970)
+#define CLASS_1_20FCC2F82753283C_1_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x17875910)
+#define CLASS_1_20FCC2F82753283C_1_METHOD_1_4967D395F2BF3624_OFFSET UNITYSDK_OFFSET(0x178743F0)
+#define CLASS_1_20FCC2F82753283C_1_METHOD_1_7646FFE662147970_OFFSET UNITYSDK_OFFSET(0x17874370)
+#define CLASS_1_20FCC2F82753283C_1_METHOD_1_938C5AA708433B7C_OFFSET UNITYSDK_OFFSET(0x178740E0)
+#define CLASS_1_20FCC2F82753283C_1_METHOD_1_A7188DFAB5831CB7_OFFSET UNITYSDK_OFFSET(0x17874E10)
+#define CLASS_1_20FCC2F82753283C_1_METHOD_1_AF5DADE427749D02_OFFSET UNITYSDK_OFFSET(0x17874130)
+#define CLASS_1_20FCC2F82753283C_1_METHOD_1_D1149065CC4CFA55_OFFSET UNITYSDK_OFFSET(0x17874030)
+#define CLASS_1_20FCC2F82753283C_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17873FF0)
 
-inline static constexpr unsigned int Class_1_20FCC2F82753283C_1_TypeDefinitionIndex = 64246;
+inline static constexpr unsigned int Class_1_20FCC2F82753283C_1_TypeDefinitionIndex = 65167;
 
 class Class_1_20FCC2F82753283C_1 : public ::System::Object
 {
 public:
-	::UnityEngine::Transform* Field_1_9; // 0x10
-	::UnityEngine::Quaternion Field_1_13; // 0x18
-	::RPG::Client::SwipeCameraStateEnum Field_1_1; // 0x28
-	::System::Single Field_1_4; // 0x2C
-	::System::Single Field_1_2; // 0x30
-	::UnityEngine::Vector2 Field_1_7; // 0x34
-	::System::Boolean Field_1_0; // 0x3C
-	::UnityEngine::Quaternion Field_1_10; // 0x40
-	::System::Single Field_1_15; // 0x50
-	::System::Single Field_1_6; // 0x54
-	::System::Single Field_1_3; // 0x58
-	::UnityEngine::Vector2 Field_1_8; // 0x5C
-	::System::Single Field_1_14; // 0x64
-	::UnityEngine::Quaternion Field_1_12; // 0x68
-	::UnityEngine::Quaternion Field_1_11; // 0x78
-	::System::Single Field_1_5; // 0x88
+	::UnityEngine::Transform* Field_1_0; // 0x10
+	::UnityEngine::Vector2 Field_1_1; // 0x18
+	::UnityEngine::Vector2 Field_1_2; // 0x20
+	::System::Single Field_1_3; // 0x28
+	::UnityEngine::Quaternion Field_1_4; // 0x2C
+	::System::Single Field_1_5; // 0x3C
+	::System::Boolean Field_1_6; // 0x40
+	::UnityEngine::Quaternion Field_1_7; // 0x44
+	::System::Single Field_1_8; // 0x54
+	::System::Single Field_1_9; // 0x58
+	::UnityEngine::Quaternion Field_1_10; // 0x5C
+	::System::Single Field_1_11; // 0x6C
+	::RPG::Client::SwipeCameraStateEnum Field_1_12; // 0x70
+	::System::Single Field_1_13; // 0x74
+	::UnityEngine::Quaternion Field_1_14; // 0x78
+	::System::Single Field_1_15; // 0x88
 
 	::System::Void _ctor(::UnityEngine::Transform* a1)
 	{
@@ -62,9 +62,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_20FCC2F82753283C_1_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Method_1_A984848EA3E436DA()
+	::System::Void Method_1_7646FFE662147970()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_20FCC2F82753283C_1_METHOD_1_A984848EA3E436DA_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_20FCC2F82753283C_1_METHOD_1_7646FFE662147970_OFFSET))(this);
 	}
 
 	::System::Void Method_1_4967D395F2BF3624(::UnityEngine::Vector2 a1, ::Cinemachine::CameraState& a2)

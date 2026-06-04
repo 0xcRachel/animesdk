@@ -7,25 +7,25 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x16503710)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x16505720)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x16505700)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x164DF010)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x165056C0)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x164DE0E0)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x164DCDC0)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x16505740)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x17419AE0)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1741BAD0)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1741BAA0)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x173FF480)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1741BA80)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x173FE860)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x173FD590)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1741BB00)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PSAccountInfoDialog_TypeDefinitionIndex = 7692;
+	inline static constexpr unsigned int PSAccountInfoDialog_TypeDefinitionIndex = 8595;
 
 	class PSAccountInfoDialog : public ::MiHoYo::SDK::PS::PSDialogBase
 	{
 	public:
 		static ::MiHoYo::SDK::PS::PSAccountInfoDialog** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::PS::PSAccountInfoDialog**)Il2CppClass::FromTypeDefinitionIndex(PSAccountInfoDialog_TypeDefinitionIndex)->GetStaticField(0x129A0);
+			return (::MiHoYo::SDK::PS::PSAccountInfoDialog**)Il2CppClass::FromTypeDefinitionIndex(PSAccountInfoDialog_TypeDefinitionIndex)->GetStaticField(0x17C90);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* TitleTextPath; // 0x0
@@ -59,9 +59,9 @@ namespace MiHoYo::SDK::PS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSACCOUNTINFODIALOG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Show(::System::String* psnAccountName, ::System::String* hoyoAccountName, ::System::String* currentZone, ::System::Collections::Generic::List_1<::MiHoYo::SDK::PS::UserGameServerInfo*>* userGameInfoList)
+		static ::System::Void Show(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Collections::Generic::List_1<::MiHoYo::SDK::PS::UserGameServerInfo*>* a4)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*, ::System::Collections::Generic::List_1<::MiHoYo::SDK::PS::UserGameServerInfo*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_SHOW_OFFSET))(psnAccountName, hoyoAccountName, currentZone, userGameInfoList);
+			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*, ::System::Collections::Generic::List_1<::MiHoYo::SDK::PS::UserGameServerInfo*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_SHOW_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Void Hide()
@@ -69,9 +69,9 @@ namespace MiHoYo::SDK::PS
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_HIDE_OFFSET))();
 		}
 
-		static ::System::Void SetInteractable(::System::Boolean interactable)
+		static ::System::Void SetInteractable(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_SETINTERACTABLE_OFFSET))(interactable);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_SETINTERACTABLE_OFFSET))(a1);
 		}
 
 		::System::Void Awake()

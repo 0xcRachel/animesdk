@@ -4,36 +4,36 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_NATIVEJSONVALUEREF_ADDORSETMEMBER_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A569B00)
-#define UNITYENGINE_NATIVEJSONVALUEREF_ADDORSETMEMBER_OFFSET UNITYSDK_OFFSET(0x2387F80)
-#define UNITYENGINE_NATIVEJSONVALUEREF_ASOBJECT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A569AB0)
-#define UNITYENGINE_NATIVEJSONVALUEREF_ASOBJECT_OFFSET UNITYSDK_OFFSET(0x2387F50)
-#define UNITYENGINE_NATIVEJSONVALUEREF_SETINT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A569A30)
-#define UNITYENGINE_NATIVEJSONVALUEREF_SETINT_OFFSET UNITYSDK_OFFSET(0x2387F20)
-#define UNITYENGINE_NATIVEJSONVALUEREF_SETNATIVESTRING_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A569A60)
-#define UNITYENGINE_NATIVEJSONVALUEREF_SETNATIVESTRING_OFFSET UNITYSDK_OFFSET(0x2387F30)
-#define UNITYENGINE_NATIVEJSONVALUEREF_TOSTRINGINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A569B30)
-#define UNITYENGINE_NATIVEJSONVALUEREF_TOSTRINGINTERNAL_OFFSET UNITYSDK_OFFSET(0x2387FD0)
-#define UNITYENGINE_NATIVEJSONVALUEREF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2387FC0)
+#define UNITYENGINE_NATIVEJSONVALUEREF_ADDORSETMEMBER_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B30CA50)
+#define UNITYENGINE_NATIVEJSONVALUEREF_ADDORSETMEMBER_OFFSET UNITYSDK_OFFSET(0x392FE40)
+#define UNITYENGINE_NATIVEJSONVALUEREF_ASOBJECT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B30CA00)
+#define UNITYENGINE_NATIVEJSONVALUEREF_ASOBJECT_OFFSET UNITYSDK_OFFSET(0x392FE10)
+#define UNITYENGINE_NATIVEJSONVALUEREF_SETINT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B30C980)
+#define UNITYENGINE_NATIVEJSONVALUEREF_SETINT_OFFSET UNITYSDK_OFFSET(0x392FDE0)
+#define UNITYENGINE_NATIVEJSONVALUEREF_SETNATIVESTRING_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B30C9B0)
+#define UNITYENGINE_NATIVEJSONVALUEREF_SETNATIVESTRING_OFFSET UNITYSDK_OFFSET(0x392FDF0)
+#define UNITYENGINE_NATIVEJSONVALUEREF_TOSTRINGINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B30CA80)
+#define UNITYENGINE_NATIVEJSONVALUEREF_TOSTRINGINTERNAL_OFFSET UNITYSDK_OFFSET(0x392FE90)
+#define UNITYENGINE_NATIVEJSONVALUEREF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x392FE80)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int NativeJsonValueRef_TypeDefinitionIndex = 4141;
+	inline static constexpr unsigned int NativeJsonValueRef_TypeDefinitionIndex = 4315;
 
 	struct alignas(8) NativeJsonValueRef
 	{
 		::System::IntPtr _Root_k__BackingField; // 0x10
 		::System::IntPtr _Val_k__BackingField; // 0x18
 
-		::System::Void SetInt(::System::Int64 i)
+		::System::Void SetInt(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEJSONVALUEREF_SETINT_OFFSET))(this, i);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEJSONVALUEREF_SETINT_OFFSET))(this, a1);
 		}
 
 		/*
-		::System::Void SetNativeString(::UnityEngine::NativeStringRef str)
+		::System::Void SetNativeString(::UnityEngine::NativeStringRef a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::NativeStringRef))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEJSONVALUEREF_SETNATIVESTRING_OFFSET))(this, str);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::NativeStringRef))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEJSONVALUEREF_SETNATIVESTRING_OFFSET))(this, a1);
 		}
 		*/
 
@@ -42,9 +42,9 @@ namespace UnityEngine
 			return ((::UnityEngine::NativeJsonValueRef(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEJSONVALUEREF_ASOBJECT_OFFSET))(this);
 		}
 
-		::UnityEngine::NativeJsonValueRef AddOrSetMember(::System::String* name)
+		::UnityEngine::NativeJsonValueRef AddOrSetMember(::System::String* a1)
 		{
-			return ((::UnityEngine::NativeJsonValueRef(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEJSONVALUEREF_ADDORSETMEMBER_OFFSET))(this, name);
+			return ((::UnityEngine::NativeJsonValueRef(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEJSONVALUEREF_ADDORSETMEMBER_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()
@@ -52,36 +52,36 @@ namespace UnityEngine
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEJSONVALUEREF_TOSTRING_OFFSET))(this);
 		}
 
-		::System::String* ToStringInternal(::System::Boolean usePretty)
+		::System::String* ToStringInternal(::System::Boolean a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEJSONVALUEREF_TOSTRINGINTERNAL_OFFSET))(this, usePretty);
+			return ((::System::String*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEJSONVALUEREF_TOSTRINGINTERNAL_OFFSET))(this, a1);
 		}
 
-		static ::System::Void SetInt_Injected(::UnityEngine::NativeJsonValueRef& _unity_self, ::System::Int64 i)
+		static ::System::Void SetInt_Injected(::UnityEngine::NativeJsonValueRef& a1, ::System::Int64 a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::NativeJsonValueRef&, ::System::Int64))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEJSONVALUEREF_SETINT_INJECTED_OFFSET))(_unity_self, i);
+			return ((::System::Void(*)(::UnityEngine::NativeJsonValueRef&, ::System::Int64))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEJSONVALUEREF_SETINT_INJECTED_OFFSET))(a1, a2);
 		}
 
 		/*
-		static ::System::Void SetNativeString_Injected(::UnityEngine::NativeJsonValueRef& _unity_self, ::UnityEngine::NativeStringRef& str)
+		static ::System::Void SetNativeString_Injected(::UnityEngine::NativeJsonValueRef& a1, ::UnityEngine::NativeStringRef& a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::NativeJsonValueRef&, ::UnityEngine::NativeStringRef&))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEJSONVALUEREF_SETNATIVESTRING_INJECTED_OFFSET))(_unity_self, str);
+			return ((::System::Void(*)(::UnityEngine::NativeJsonValueRef&, ::UnityEngine::NativeStringRef&))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEJSONVALUEREF_SETNATIVESTRING_INJECTED_OFFSET))(a1, a2);
 		}
 		*/
 
-		static ::System::Void AsObject_Injected(::UnityEngine::NativeJsonValueRef& _unity_self, ::UnityEngine::NativeJsonValueRef& ret)
+		static ::System::Void AsObject_Injected(::UnityEngine::NativeJsonValueRef& a1, ::UnityEngine::NativeJsonValueRef& a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::NativeJsonValueRef&, ::UnityEngine::NativeJsonValueRef&))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEJSONVALUEREF_ASOBJECT_INJECTED_OFFSET))(_unity_self, ret);
+			return ((::System::Void(*)(::UnityEngine::NativeJsonValueRef&, ::UnityEngine::NativeJsonValueRef&))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEJSONVALUEREF_ASOBJECT_INJECTED_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void AddOrSetMember_Injected(::UnityEngine::NativeJsonValueRef& _unity_self, ::System::String* name, ::UnityEngine::NativeJsonValueRef& ret)
+		static ::System::Void AddOrSetMember_Injected(::UnityEngine::NativeJsonValueRef& a1, ::System::String* a2, ::UnityEngine::NativeJsonValueRef& a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::NativeJsonValueRef&, ::System::String*, ::UnityEngine::NativeJsonValueRef&))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEJSONVALUEREF_ADDORSETMEMBER_INJECTED_OFFSET))(_unity_self, name, ret);
+			return ((::System::Void(*)(::UnityEngine::NativeJsonValueRef&, ::System::String*, ::UnityEngine::NativeJsonValueRef&))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEJSONVALUEREF_ADDORSETMEMBER_INJECTED_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* ToStringInternal_Injected(::UnityEngine::NativeJsonValueRef& _unity_self, ::System::Boolean usePretty)
+		static ::System::String* ToStringInternal_Injected(::UnityEngine::NativeJsonValueRef& a1, ::System::Boolean a2)
 		{
-			return ((::System::String*(*)(::UnityEngine::NativeJsonValueRef&, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEJSONVALUEREF_TOSTRINGINTERNAL_INJECTED_OFFSET))(_unity_self, usePretty);
+			return ((::System::String*(*)(::UnityEngine::NativeJsonValueRef&, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVEJSONVALUEREF_TOSTRINGINTERNAL_INJECTED_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -7,30 +7,30 @@ namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER__LOADTEXTURE_D__28_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x15D0DED0)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER__LOADTEXTURE_D__28_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15D0E0C0)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER__LOADTEXTURE_D__28_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15D0E120)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER__LOADTEXTURE_D__28_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15D0E0D0)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER__LOADTEXTURE_D__28_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15D0DEC0)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER__LOADTEXTURE_D__28__CTOR_OFFSET UNITYSDK_OFFSET(0x15D0D390)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER__LOADTEXTURE_D__28_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x16B22010)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER__LOADTEXTURE_D__28_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x16B22200)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER__LOADTEXTURE_D__28_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x16B22260)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER__LOADTEXTURE_D__28_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x16B22210)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER__LOADTEXTURE_D__28_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16B22000)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER__LOADTEXTURE_D__28__CTOR_OFFSET UNITYSDK_OFFSET(0x16B21490)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int PopImageManager__LoadTexture_d__28_TypeDefinitionIndex = 8223;
+	inline static constexpr unsigned int PopImageManager__LoadTexture_d__28_TypeDefinitionIndex = 9126;
 
 	class PopImageManager__LoadTexture_d__28 : public ::System::Object
 	{
 	public:
-		::System::String* url; // 0x10
-		::MiHoYo::SDK::Win::PopImageManager* __4__this; // 0x18
-		::System::String* _name_5__1; // 0x20
-		::UnityEngine::Events::UnityAction_1<::UnityEngine::Texture2D*>* callback; // 0x28
-		::System::Object* __2__current; // 0x30
+		::System::Object* __2__current; // 0x10
+		::System::String* _name_5__1; // 0x18
+		::UnityEngine::Events::UnityAction_1<::UnityEngine::Texture2D*>* callback; // 0x20
+		::MiHoYo::SDK::Win::PopImageManager* __4__this; // 0x28
+		::System::String* url; // 0x30
 		::System::Int32 __1__state; // 0x38
 
-		::System::Void _ctor(::System::Int32 __1__state)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_POPIMAGEMANAGER__LOADTEXTURE_D__28__CTOR_OFFSET))(this, __1__state);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_POPIMAGEMANAGER__LOADTEXTURE_D__28__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()

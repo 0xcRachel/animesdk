@@ -4,12 +4,12 @@
 
 namespace System { class Type; }
 
-#define XLUA_UTILS___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA09A650)
-#define XLUA_UTILS___C__DISPLAYCLASS15_0__REFLECTIONWRAP_B__0_OFFSET UNITYSDK_OFFSET(0xA0A0A80)
+#define XLUA_UTILS___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xFACFC70)
+#define XLUA_UTILS___C__DISPLAYCLASS15_0__REFLECTIONWRAP_B__0_OFFSET UNITYSDK_OFFSET(0xFAD5FF0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int Utils___c__DisplayClass15_0_TypeDefinitionIndex = 46459;
+	inline static constexpr unsigned int Utils___c__DisplayClass15_0_TypeDefinitionIndex = 47049;
 
 	class Utils___c__DisplayClass15_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_UTILS___C__DISPLAYCLASS15_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _ReflectionWrap_b__0(::System::IntPtr LL)
+		::System::Int32 _ReflectionWrap_b__0(::System::IntPtr a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_UTILS___C__DISPLAYCLASS15_0__REFLECTIONWRAP_B__0_OFFSET))(this, LL);
+			return ((::System::Int32(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_UTILS___C__DISPLAYCLASS15_0__REFLECTIONWRAP_B__0_OFFSET))(this, a1);
 		}
 	};
 }

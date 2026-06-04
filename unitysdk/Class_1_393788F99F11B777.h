@@ -7,37 +7,37 @@ namespace RPG::Client { class Freelook3rdRigParams; }
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_393788F99F11B777_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC2DD20)
-#define CLASS_1_393788F99F11B777_GET_MODE_OFFSET UNITYSDK_OFFSET(0xBC2E520)
-#define CLASS_1_393788F99F11B777_METHOD_1_369AC92A41E507A8_OFFSET UNITYSDK_OFFSET(0xBC2E0E0)
-#define CLASS_1_393788F99F11B777_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0xBC2D280)
-#define CLASS_1_393788F99F11B777_METHOD_1_64748F4446A4BF5B_OFFSET UNITYSDK_OFFSET(0xBC2E2F0)
-#define CLASS_1_393788F99F11B777_METHOD_1_D4975DF907B2431F_OFFSET UNITYSDK_OFFSET(0xBC2D2D0)
-#define CLASS_1_393788F99F11B777_METHOD_1_DD452FFC9DB74C79_OFFSET UNITYSDK_OFFSET(0xBC2DEA0)
-#define CLASS_1_393788F99F11B777_METHOD_1_ECE69D9D242E4D7A_OFFSET UNITYSDK_OFFSET(0xBC2D830)
-#define CLASS_1_393788F99F11B777_METHOD_1_F5972DD1C3F4267B_OFFSET UNITYSDK_OFFSET(0xBC2D6E0)
-#define CLASS_1_393788F99F11B777_SET_MODE_OFFSET UNITYSDK_OFFSET(0xBC2E530)
-#define CLASS_1_393788F99F11B777__CTOR_OFFSET UNITYSDK_OFFSET(0xBC2D220)
+#define CLASS_1_393788F99F11B777_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16CA59A0)
+#define CLASS_1_393788F99F11B777_GET_MODE_OFFSET UNITYSDK_OFFSET(0x16CA61B0)
+#define CLASS_1_393788F99F11B777_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x16CA4F00)
+#define CLASS_1_393788F99F11B777_METHOD_1_53E30A4F2E776E4F_OFFSET UNITYSDK_OFFSET(0x16CA5D60)
+#define CLASS_1_393788F99F11B777_METHOD_1_64748F4446A4BF5B_OFFSET UNITYSDK_OFFSET(0x16CA5F80)
+#define CLASS_1_393788F99F11B777_METHOD_1_D4975DF907B2431F_OFFSET UNITYSDK_OFFSET(0x16CA4F50)
+#define CLASS_1_393788F99F11B777_METHOD_1_DD452FFC9DB74C79_OFFSET UNITYSDK_OFFSET(0x16CA5B20)
+#define CLASS_1_393788F99F11B777_METHOD_1_ECE69D9D242E4D7A_OFFSET UNITYSDK_OFFSET(0x16CA54B0)
+#define CLASS_1_393788F99F11B777_METHOD_1_F5972DD1C3F4267B_OFFSET UNITYSDK_OFFSET(0x16CA5360)
+#define CLASS_1_393788F99F11B777_SET_MODE_OFFSET UNITYSDK_OFFSET(0x16CA61C0)
+#define CLASS_1_393788F99F11B777__CTOR_OFFSET UNITYSDK_OFFSET(0x16CA4EA0)
 
-inline static constexpr unsigned int Class_1_393788F99F11B777_TypeDefinitionIndex = 63430;
+inline static constexpr unsigned int Class_1_393788F99F11B777_TypeDefinitionIndex = 64347;
 
 class Class_1_393788F99F11B777 : public ::System::Object
 {
 public:
 	// static const ::System::Single Field_1_0; // 0x0
-	::UnityEngine::Transform* Field_1_3; // 0x10
-	::RPG::GameCore::GameEntity* Field_1_2; // 0x18
-	::System::Single Field_1_7; // 0x20
-	::System::Single Field_1_6; // 0x24
-	::System::Single Field_1_12; // 0x28
-	::System::Single Field_1_5; // 0x2C
-	::System::Single Field_1_4; // 0x30
-	::RPG::Client::TravelShipCameraMode _Mode_k__BackingField; // 0x34
-	::System::Single Field_1_8; // 0x38
-	::System::Single Field_1_10; // 0x3C
-	::System::Boolean Field_1_13; // 0x40
-	::System::Boolean Field_1_11; // 0x41
-	::System::Single Field_1_9; // 0x44
+	::RPG::GameCore::GameEntity* Field_1_1; // 0x10
+	::UnityEngine::Transform* Field_1_2; // 0x18
+	::System::Single Field_1_3; // 0x20
+	::System::Single Field_1_4; // 0x24
+	::RPG::Client::TravelShipCameraMode _Mode_k__BackingField; // 0x28
+	::System::Single Field_1_6; // 0x2C
+	::System::Single Field_1_7; // 0x30
+	::System::Boolean Field_1_8; // 0x34
+	::System::Boolean Field_1_9; // 0x35
+	::System::Single Field_1_10; // 0x38
+	::System::Single Field_1_11; // 0x3C
+	::System::Single Field_1_12; // 0x40
+	::System::Single Field_1_13; // 0x44
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1)
 	{
@@ -74,9 +74,9 @@ public:
 		return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_393788F99F11B777_METHOD_1_ECE69D9D242E4D7A_OFFSET))(this, a1);
 	}
 
-	::System::Single Method_1_369AC92A41E507A8(::System::Single a1)
+	::System::Single Method_1_53E30A4F2E776E4F(::System::Single a1)
 	{
-		return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_393788F99F11B777_METHOD_1_369AC92A41E507A8_OFFSET))(this, a1);
+		return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_393788F99F11B777_METHOD_1_53E30A4F2E776E4F_OFFSET))(this, a1);
 	}
 
 	::System::Single Method_1_64748F4446A4BF5B(::RPG::Client::Freelook3rdRigParams* a1, ::System::Single a2)
@@ -89,8 +89,8 @@ public:
 		return ((::RPG::Client::TravelShipCameraMode(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_393788F99F11B777_GET_MODE_OFFSET))(this);
 	}
 
-	::System::Void set_Mode(::RPG::Client::TravelShipCameraMode value)
+	::System::Void set_Mode(::RPG::Client::TravelShipCameraMode a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::TravelShipCameraMode))((::PBYTE)hIl2Cpp + CLASS_1_393788F99F11B777_SET_MODE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::TravelShipCameraMode))((::PBYTE)hIl2Cpp + CLASS_1_393788F99F11B777_SET_MODE_OFFSET))(this, a1);
 	}
 };

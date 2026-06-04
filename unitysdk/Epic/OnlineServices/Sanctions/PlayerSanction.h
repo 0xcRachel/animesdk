@@ -6,29 +6,29 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_GET_ACTION_OFFSET UNITYSDK_OFFSET(0x19674F70)
-#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_GET_REFERENCEID_OFFSET UNITYSDK_OFFSET(0x19674FB0)
-#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_GET_TIMEEXPIRES_OFFSET UNITYSDK_OFFSET(0x19674F90)
-#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_GET_TIMEPLACED_OFFSET UNITYSDK_OFFSET(0x19674F50)
-#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_1_OFFSET UNITYSDK_OFFSET(0x19675400)
-#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_ACTION_OFFSET UNITYSDK_OFFSET(0x19674F80)
-#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_OFFSET UNITYSDK_OFFSET(0x19674FD0)
-#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_REFERENCEID_OFFSET UNITYSDK_OFFSET(0x19674FC0)
-#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_TIMEEXPIRES_OFFSET UNITYSDK_OFFSET(0x19674FA0)
-#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_TIMEPLACED_OFFSET UNITYSDK_OFFSET(0x19674F60)
-#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19675530)
+#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_GET_ACTION_OFFSET UNITYSDK_OFFSET(0x1A431E40)
+#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_GET_REFERENCEID_OFFSET UNITYSDK_OFFSET(0x1A431E80)
+#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_GET_TIMEEXPIRES_OFFSET UNITYSDK_OFFSET(0x1A431E60)
+#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_GET_TIMEPLACED_OFFSET UNITYSDK_OFFSET(0x1A431E20)
+#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_1_OFFSET UNITYSDK_OFFSET(0x1A4322D0)
+#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_ACTION_OFFSET UNITYSDK_OFFSET(0x1A431E50)
+#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_OFFSET UNITYSDK_OFFSET(0x1A431EA0)
+#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_REFERENCEID_OFFSET UNITYSDK_OFFSET(0x1A431E90)
+#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_TIMEEXPIRES_OFFSET UNITYSDK_OFFSET(0x1A431E70)
+#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_TIMEPLACED_OFFSET UNITYSDK_OFFSET(0x1A431E30)
+#define EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A432400)
 
 namespace Epic::OnlineServices::Sanctions
 {
-	inline static constexpr unsigned int PlayerSanction_TypeDefinitionIndex = 41402;
+	inline static constexpr unsigned int PlayerSanction_TypeDefinitionIndex = 42205;
 
 	class PlayerSanction : public ::System::Object
 	{
 	public:
-		::System::String* _ReferenceId_k__BackingField; // 0x10
-		::System::String* _Action_k__BackingField; // 0x18
-		::System::Int64 _TimePlaced_k__BackingField; // 0x20
-		::System::Int64 _TimeExpires_k__BackingField; // 0x28
+		::System::String* _Action_k__BackingField; // 0x10
+		::System::String* _ReferenceId_k__BackingField; // 0x18
+		::System::Int64 _TimeExpires_k__BackingField; // 0x20
+		::System::Int64 _TimePlaced_k__BackingField; // 0x28
 
 		::System::Void _ctor()
 		{
@@ -40,9 +40,9 @@ namespace Epic::OnlineServices::Sanctions
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_GET_TIMEPLACED_OFFSET))(this);
 		}
 
-		::System::Void set_TimePlaced(::System::Int64 value)
+		::System::Void set_TimePlaced(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_TIMEPLACED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_TIMEPLACED_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Action()
@@ -50,9 +50,9 @@ namespace Epic::OnlineServices::Sanctions
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_GET_ACTION_OFFSET))(this);
 		}
 
-		::System::Void set_Action(::System::String* value)
+		::System::Void set_Action(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_ACTION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_ACTION_OFFSET))(this, a1);
 		}
 
 		::System::Int64 get_TimeExpires()
@@ -60,9 +60,9 @@ namespace Epic::OnlineServices::Sanctions
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_GET_TIMEEXPIRES_OFFSET))(this);
 		}
 
-		::System::Void set_TimeExpires(::System::Int64 value)
+		::System::Void set_TimeExpires(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_TIMEEXPIRES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_TIMEEXPIRES_OFFSET))(this, a1);
 		}
 
 		::System::String* get_ReferenceId()
@@ -70,19 +70,19 @@ namespace Epic::OnlineServices::Sanctions
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_GET_REFERENCEID_OFFSET))(this);
 		}
 
-		::System::Void set_ReferenceId(::System::String* value)
+		::System::Void set_ReferenceId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_REFERENCEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_REFERENCEID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Sanctions::PlayerSanctionInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Sanctions::PlayerSanctionInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Sanctions::PlayerSanctionInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Sanctions::PlayerSanctionInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_PLAYERSANCTION_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

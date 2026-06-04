@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Reflection/ParameterInfo.h"
 
-#define SYSTEM_REFLECTION_RUNTIMEPARAMETERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18F43350)
+#define SYSTEM_REFLECTION_RUNTIMEPARAMETERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x196F58A0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int RuntimeParameterInfo_TypeDefinitionIndex = 625;
+	inline static constexpr unsigned int RuntimeParameterInfo_TypeDefinitionIndex = 624;
 
 	class RuntimeParameterInfo : public ::System::Reflection::ParameterInfo
 	{

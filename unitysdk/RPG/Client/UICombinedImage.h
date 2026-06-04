@@ -9,21 +9,21 @@ namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_UICOMBINEDIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x12EFDA60)
-#define RPG_CLIENT_UICOMBINEDIMAGE_HIDE_OFFSET UNITYSDK_OFFSET(0x12EFD800)
-#define RPG_CLIENT_UICOMBINEDIMAGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x12EFDAC0)
-#define RPG_CLIENT_UICOMBINEDIMAGE_SHOW_OFFSET UNITYSDK_OFFSET(0x12EFD280)
-#define RPG_CLIENT_UICOMBINEDIMAGE__CLEARTEXTURES_OFFSET UNITYSDK_OFFSET(0x12EFD850)
-#define RPG_CLIENT_UICOMBINEDIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x12EFDC90)
-#define RPG_CLIENT_UICOMBINEDIMAGE__GETTEXTUREPROPERTY_OFFSET UNITYSDK_OFFSET(0x12EFDB20)
-#define RPG_CLIENT_UICOMBINEDIMAGE__LOADCOMBINEDTEXTURES_OFFSET UNITYSDK_OFFSET(0x12EFD4D0)
-#define RPG_CLIENT_UICOMBINEDIMAGE__RELEASECOMBINEDTEXTURES_OFFSET UNITYSDK_OFFSET(0x12EFD3E0)
-#define RPG_CLIENT_UICOMBINEDIMAGE__SAFEINIT_OFFSET UNITYSDK_OFFSET(0x12EFD300)
-#define RPG_CLIENT_UICOMBINEDIMAGE__SETUPTEXTURES_OFFSET UNITYSDK_OFFSET(0x12EFD5D0)
+#define RPG_CLIENT_UICOMBINEDIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x143F19C0)
+#define RPG_CLIENT_UICOMBINEDIMAGE_HIDE_OFFSET UNITYSDK_OFFSET(0x143F1760)
+#define RPG_CLIENT_UICOMBINEDIMAGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x143F1A20)
+#define RPG_CLIENT_UICOMBINEDIMAGE_SHOW_OFFSET UNITYSDK_OFFSET(0x143F1190)
+#define RPG_CLIENT_UICOMBINEDIMAGE__CLEARTEXTURES_OFFSET UNITYSDK_OFFSET(0x143F17B0)
+#define RPG_CLIENT_UICOMBINEDIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x143F1B60)
+#define RPG_CLIENT_UICOMBINEDIMAGE__GETTEXTUREPROPERTY_OFFSET UNITYSDK_OFFSET(0x143F1A80)
+#define RPG_CLIENT_UICOMBINEDIMAGE__LOADCOMBINEDTEXTURES_OFFSET UNITYSDK_OFFSET(0x143F13D0)
+#define RPG_CLIENT_UICOMBINEDIMAGE__RELEASECOMBINEDTEXTURES_OFFSET UNITYSDK_OFFSET(0x143F12F0)
+#define RPG_CLIENT_UICOMBINEDIMAGE__SAFEINIT_OFFSET UNITYSDK_OFFSET(0x143F1210)
+#define RPG_CLIENT_UICOMBINEDIMAGE__SETUPTEXTURES_OFFSET UNITYSDK_OFFSET(0x143F1550)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UICombinedImage_TypeDefinitionIndex = 63685;
+	inline static constexpr unsigned int UICombinedImage_TypeDefinitionIndex = 64606;
 
 	class UICombinedImage : public ::UnityEngine::MonoBehaviour
 	{
@@ -41,9 +41,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICOMBINEDIMAGE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Show(::System::Collections::Generic::List_1<::System::String*>* texturePaths)
+		::System::Void Show(::System::Collections::Generic::List_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICOMBINEDIMAGE_SHOW_OFFSET))(this, texturePaths);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICOMBINEDIMAGE_SHOW_OFFSET))(this, a1);
 		}
 
 		::System::Void Hide()
@@ -76,9 +76,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICOMBINEDIMAGE__CLEARTEXTURES_OFFSET))(this);
 		}
 
-		::System::Void _LoadCombinedTextures(::System::Collections::Generic::List_1<::System::String*>* texturePaths)
+		::System::Void _LoadCombinedTextures(::System::Collections::Generic::List_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICOMBINEDIMAGE__LOADCOMBINEDTEXTURES_OFFSET))(this, texturePaths);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICOMBINEDIMAGE__LOADCOMBINEDTEXTURES_OFFSET))(this, a1);
 		}
 
 		::System::Void _ReleaseCombinedTextures()
@@ -86,9 +86,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICOMBINEDIMAGE__RELEASECOMBINEDTEXTURES_OFFSET))(this);
 		}
 
-		::System::String* _GetTextureProperty(::System::Int32 index)
+		::System::String* _GetTextureProperty(::System::Int32 a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICOMBINEDIMAGE__GETTEXTUREPROPERTY_OFFSET))(this, index);
+			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICOMBINEDIMAGE__GETTEXTUREPROPERTY_OFFSET))(this, a1);
 		}
 	};
 }

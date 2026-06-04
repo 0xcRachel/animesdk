@@ -4,23 +4,23 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_PROBUILDER_ARRAYUTILITY_SEARCHRANGE_CENTER_OFFSET UNITYSDK_OFFSET(0x878D50)
-#define UNITYENGINE_PROBUILDER_ARRAYUTILITY_SEARCHRANGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x878D70)
-#define UNITYENGINE_PROBUILDER_ARRAYUTILITY_SEARCHRANGE_VALID_OFFSET UNITYSDK_OFFSET(0x878D40)
-#define UNITYENGINE_PROBUILDER_ARRAYUTILITY_SEARCHRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x6179C0)
+#define UNITYENGINE_PROBUILDER_ARRAYUTILITY_SEARCHRANGE_CENTER_OFFSET UNITYSDK_OFFSET(0xFD2340)
+#define UNITYENGINE_PROBUILDER_ARRAYUTILITY_SEARCHRANGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xFD2360)
+#define UNITYENGINE_PROBUILDER_ARRAYUTILITY_SEARCHRANGE_VALID_OFFSET UNITYSDK_OFFSET(0xFD2330)
+#define UNITYENGINE_PROBUILDER_ARRAYUTILITY_SEARCHRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x6BD370)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ArrayUtility_SearchRange_TypeDefinitionIndex = 39884;
+	inline static constexpr unsigned int ArrayUtility_SearchRange_TypeDefinitionIndex = 40711;
 
 	struct alignas(4) ArrayUtility_SearchRange
 	{
 		::System::Int32 begin; // 0x10
 		::System::Int32 end; // 0x14
 
-		::System::Void _ctor(::System::Int32 begin, ::System::Int32 end)
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_ARRAYUTILITY_SEARCHRANGE__CTOR_OFFSET))(this, begin, end);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_ARRAYUTILITY_SEARCHRANGE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Valid()

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ELECTRICCHAINV2_CONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x15F52170)
+#define RPG_CLIENT_ELECTRICCHAINV2_CONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x156D53D0)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int Constraint_TypeDefinitionIndex = 67742;
+	inline static constexpr unsigned int Constraint_TypeDefinitionIndex = 68700;
 
 	class Constraint : public ::System::Object
 	{

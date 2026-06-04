@@ -5,15 +5,15 @@
 namespace RPG::GameCore { class StopSerialBells; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define RPG_GAMECORE_STOPSERIALBELLSTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9F6CE40)
-#define RPG_GAMECORE_STOPSERIALBELLSTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9F6CE80)
-#define RPG_GAMECORE_STOPSERIALBELLSTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x9F6CEE0)
-#define RPG_GAMECORE_STOPSERIALBELLSTASK_TICK_OFFSET UNITYSDK_OFFSET(0x9F6CF30)
-#define RPG_GAMECORE_STOPSERIALBELLSTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x9F6CE30)
+#define RPG_GAMECORE_STOPSERIALBELLSTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEF2B7C0)
+#define RPG_GAMECORE_STOPSERIALBELLSTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEF2B800)
+#define RPG_GAMECORE_STOPSERIALBELLSTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEF2B860)
+#define RPG_GAMECORE_STOPSERIALBELLSTASK_TICK_OFFSET UNITYSDK_OFFSET(0xEF2B8B0)
+#define RPG_GAMECORE_STOPSERIALBELLSTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xEF2B7B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StopSerialBellsTask_TypeDefinitionIndex = 54152;
+	inline static constexpr unsigned int StopSerialBellsTask_TypeDefinitionIndex = 54878;
 
 	class StopSerialBellsTask : public ::Class_1_5F51D4049EA87B7B
 	{
@@ -21,9 +21,9 @@ namespace RPG::GameCore
 		::RPG::GameCore::StopSerialBells* _ConfigRef; // 0x18
 		::RPG::GameCore::TaskContext* _TaskContext; // 0x20
 
-		::System::Void _ctor(::RPG::GameCore::TaskContext* Context, ::RPG::GameCore::StopSerialBells* Config)
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StopSerialBells* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::StopSerialBells*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPSERIALBELLSTASK__CTOR_OFFSET))(this, Context, Config);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::StopSerialBells*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPSERIALBELLSTASK__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dispose()
@@ -41,9 +41,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPSERIALBELLSTASK_ONTASKRESET_OFFSET))(this);
 		}
 
-		::System::Void Tick(::System::Single fElapsedTimeInSec)
+		::System::Void Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPSERIALBELLSTASK_TICK_OFFSET))(this, fElapsedTimeInSec);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPSERIALBELLSTASK_TICK_OFFSET))(this, a1);
 		}
 	};
 }

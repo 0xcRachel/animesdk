@@ -15,65 +15,65 @@ namespace RPG::Client::NavMap { class ICartography3D; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_CARTOGRAPHY_OFFSET UNITYSDK_OFFSET(0x159417B0)
-#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_FRIENDLYNAME_OFFSET UNITYSDK_OFFSET(0x15941BC0)
-#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_HASMINIMAPICON_OFFSET UNITYSDK_OFFSET(0x15941910)
-#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_HASMODELICON_OFFSET UNITYSDK_OFFSET(0x15941F80)
-#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_ICON2DPATH_OFFSET UNITYSDK_OFFSET(0x15941F00)
-#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_ICONCOLOR_OFFSET UNITYSDK_OFFSET(0x15941FE0)
-#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_ICONTYPE_OFFSET UNITYSDK_OFFSET(0x15941990)
-#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_ISPLAYER_OFFSET UNITYSDK_OFFSET(0x159418E0)
-#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x159417C0)
-#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_MODELICONPATH_OFFSET UNITYSDK_OFFSET(0x15941A50)
-#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_POSEIDS_OFFSET UNITYSDK_OFFSET(0x159418F0)
-#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x15941760)
-#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_RAWPOSITION_OFFSET UNITYSDK_OFFSET(0x15941780)
-#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x159417A0)
-#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_SHOW2DICON_OFFSET UNITYSDK_OFFSET(0x15941DF0)
-#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_SET_POSEIDS_OFFSET UNITYSDK_OFFSET(0x15941900)
-#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15933AD0)
-#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA__CTOR_2_OFFSET UNITYSDK_OFFSET(0x159317B0)
-#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA__CTOR_3_OFFSET UNITYSDK_OFFSET(0x159331F0)
-#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15933D00)
+#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_CARTOGRAPHY_OFFSET UNITYSDK_OFFSET(0x155EEFD0)
+#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_FRIENDLYNAME_OFFSET UNITYSDK_OFFSET(0x155EF3E0)
+#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_HASMINIMAPICON_OFFSET UNITYSDK_OFFSET(0x155EF130)
+#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_HASMODELICON_OFFSET UNITYSDK_OFFSET(0x155EF790)
+#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_ICON2DPATH_OFFSET UNITYSDK_OFFSET(0x155EF710)
+#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_ICONCOLOR_OFFSET UNITYSDK_OFFSET(0x155EF7F0)
+#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_ICONTYPE_OFFSET UNITYSDK_OFFSET(0x155EF1B0)
+#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_ISPLAYER_OFFSET UNITYSDK_OFFSET(0x155EF100)
+#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x155EEFE0)
+#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_MODELICONPATH_OFFSET UNITYSDK_OFFSET(0x155EF270)
+#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_POSEIDS_OFFSET UNITYSDK_OFFSET(0x155EF110)
+#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x166A94F0)
+#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_RAWPOSITION_OFFSET UNITYSDK_OFFSET(0x155EEFA0)
+#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x155EEFC0)
+#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_SHOW2DICON_OFFSET UNITYSDK_OFFSET(0x155EF600)
+#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_SET_POSEIDS_OFFSET UNITYSDK_OFFSET(0x155EF120)
+#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1669B7C0)
+#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA__CTOR_2_OFFSET UNITYSDK_OFFSET(0x16699320)
+#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1669AE50)
+#define RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1669BA40)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int NavMap3DIconData_TypeDefinitionIndex = 68744;
+	inline static constexpr unsigned int NavMap3DIconData_TypeDefinitionIndex = 69556;
 
 	class NavMap3DIconData : public ::System::Object
 	{
 	public:
-		::RPG::Client::MapMissionData* MissionData; // 0x10
-		::RPG::Client::MapTeleportData* TeleportData; // 0x18
-		::RPG::Client::MapTrackMonsterData* TrackMonsterData; // 0x20
+		::RPG::Client::IBigMapIcon* BigMapIconData; // 0x10
+		::RPG::Client::NavMap::ICartography3D* _Cartography_k__BackingField; // 0x18
+		::RPG::Client::MapMappingInfoData* MappingInfoData; // 0x20
 		::System::Collections::Generic::List_1<::System::UInt32>* _PoseIDs_k__BackingField; // 0x28
-		::RPG::Client::MapMappingInfoData* MappingInfoData; // 0x30
-		::RPG::Client::MapOutControlTeamLeaderData* OutControlTeamLeaderData; // 0x38
-		::RPG::Client::NavMap::ICartography3D* _Cartography_k__BackingField; // 0x40
-		::RPG::Client::IBigMapIcon* BigMapIconData; // 0x48
-		::UnityEngine::Vector3 _Position_k__BackingField; // 0x50
-		::UnityEngine::Quaternion _Rotation_k__BackingField; // 0x5C
-		::UnityEngine::Vector3 _RawPosition_k__BackingField; // 0x6C
-		::System::Boolean _IsPlayer_k__BackingField; // 0x78
+		::RPG::Client::MapMissionData* MissionData; // 0x30
+		::RPG::Client::MapTeleportData* TeleportData; // 0x38
+		::RPG::Client::MapTrackMonsterData* TrackMonsterData; // 0x40
+		::RPG::Client::MapOutControlTeamLeaderData* OutControlTeamLeaderData; // 0x48
+		::UnityEngine::Vector3 _RawPosition_k__BackingField; // 0x50
+		::UnityEngine::Vector3 _Position_k__BackingField; // 0x5C
+		::System::Boolean _IsPlayer_k__BackingField; // 0x68
+		::UnityEngine::Quaternion _Rotation_k__BackingField; // 0x6C
 
-		::System::Void _ctor(::RPG::Client::NavMap::ICartography3D* cartography3D, ::RPG::Client::MapMissionData* missionData, ::System::Collections::Generic::List_1<::System::UInt32>* poseIDs, ::UnityEngine::Quaternion rotation)
+		::System::Void _ctor(::RPG::Client::NavMap::ICartography3D* a1, ::RPG::Client::MapMissionData* a2, ::System::Collections::Generic::List_1<::System::UInt32>* a3, ::UnityEngine::Quaternion a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::NavMap::ICartography3D*, ::RPG::Client::MapMissionData*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA__CTOR_OFFSET))(this, cartography3D, missionData, poseIDs, rotation);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::NavMap::ICartography3D*, ::RPG::Client::MapMissionData*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _ctor_1(::RPG::Client::NavMap::ICartography3D* cartography3D, ::RPG::Client::IBigMapIcon* iconData, ::System::Collections::Generic::List_1<::System::UInt32>* poseIDs, ::UnityEngine::Quaternion rotation)
+		::System::Void _ctor_1(::RPG::Client::NavMap::ICartography3D* a1, ::RPG::Client::IBigMapIcon* a2, ::System::Collections::Generic::List_1<::System::UInt32>* a3, ::UnityEngine::Quaternion a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::NavMap::ICartography3D*, ::RPG::Client::IBigMapIcon*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA__CTOR_1_OFFSET))(this, cartography3D, iconData, poseIDs, rotation);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::NavMap::ICartography3D*, ::RPG::Client::IBigMapIcon*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA__CTOR_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _ctor_2(::RPG::Client::NavMap::ICartography3D* cartography3D, ::UnityEngine::Vector3 playerPosition, ::UnityEngine::Quaternion playerRotation, ::System::Collections::Generic::List_1<::System::UInt32>* poseIDs)
+		::System::Void _ctor_2(::RPG::Client::NavMap::ICartography3D* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::System::Collections::Generic::List_1<::System::UInt32>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::NavMap::ICartography3D*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA__CTOR_2_OFFSET))(this, cartography3D, playerPosition, playerRotation, poseIDs);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::NavMap::ICartography3D*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA__CTOR_2_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _ctor_3(::RPG::Client::NavMap::ICartography3D* cartography3D, ::RPG::Client::MapOutControlTeamLeaderData* iconData, ::System::Collections::Generic::List_1<::System::UInt32>* poseIDs)
+		::System::Void _ctor_3(::RPG::Client::NavMap::ICartography3D* a1, ::RPG::Client::MapOutControlTeamLeaderData* a2, ::System::Collections::Generic::List_1<::System::UInt32>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::NavMap::ICartography3D*, ::RPG::Client::MapOutControlTeamLeaderData*, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA__CTOR_3_OFFSET))(this, cartography3D, iconData, poseIDs);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::NavMap::ICartography3D*, ::RPG::Client::MapOutControlTeamLeaderData*, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA__CTOR_3_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Vector3 get_Position()
@@ -111,9 +111,9 @@ namespace RPG::Client::NavMap
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_GET_POSEIDS_OFFSET))(this);
 		}
 
-		::System::Void set_PoseIDs(::System::Collections::Generic::List_1<::System::UInt32>* value)
+		::System::Void set_PoseIDs(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_SET_POSEIDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAP3DICONDATA_SET_POSEIDS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_HasMiniMapIcon()

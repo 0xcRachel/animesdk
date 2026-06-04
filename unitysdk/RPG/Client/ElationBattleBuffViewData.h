@@ -4,34 +4,34 @@
 
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x15F4FC00)
-#define RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA_GET_ELATIONECHOPOINT_OFFSET UNITYSDK_OFFSET(0x15F4FE40)
-#define RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA_SET_ELATIONECHOPOINT_OFFSET UNITYSDK_OFFSET(0x15F4FE50)
-#define RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15F4FD40)
-#define RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA__GETELATIONECHOPOINT_OFFSET UNITYSDK_OFFSET(0x15F4FDC0)
+#define RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x156D2AF0)
+#define RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA_GET_ELATIONECHOPOINT_OFFSET UNITYSDK_OFFSET(0x156D2D80)
+#define RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA_SET_ELATIONECHOPOINT_OFFSET UNITYSDK_OFFSET(0x156D2D90)
+#define RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x156D2C50)
+#define RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA__GETELATIONECHOPOINT_OFFSET UNITYSDK_OFFSET(0x156D2D00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElationBattleBuffViewData_TypeDefinitionIndex = 65919;
+	inline static constexpr unsigned int ElationBattleBuffViewData_TypeDefinitionIndex = 66852;
 
 	class ElationBattleBuffViewData : public ::RPG::Client::BattleBuffViewData
 	{
 	public:
 		::System::Single _ElationEchoPoint_k__BackingField; // 0x38
 
-		::System::Void _ctor(::RPG::GameCore::TurnBasedModifierInstance* modifier)
+		::System::Void _ctor(::RPG::GameCore::TurnBasedModifierInstance* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA__CTOR_OFFSET))(this, modifier);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA__CTOR_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::ElationBattleBuffViewData* Create(::RPG::GameCore::TurnBasedModifierInstance* modifier)
+		static ::RPG::Client::ElationBattleBuffViewData* Create(::RPG::GameCore::TurnBasedModifierInstance* a1)
 		{
-			return ((::RPG::Client::ElationBattleBuffViewData*(*)(::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA_CREATE_OFFSET))(modifier);
+			return ((::RPG::Client::ElationBattleBuffViewData*(*)(::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA_CREATE_OFFSET))(a1);
 		}
 
-		::System::Single _GetElationEchoPoint(::RPG::GameCore::TurnBasedModifierInstance* modifier)
+		::System::Single _GetElationEchoPoint(::RPG::GameCore::TurnBasedModifierInstance* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA__GETELATIONECHOPOINT_OFFSET))(this, modifier);
+			return ((::System::Single(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA__GETELATIONECHOPOINT_OFFSET))(this, a1);
 		}
 
 		::System::Single get_ElationEchoPoint()
@@ -39,9 +39,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA_GET_ELATIONECHOPOINT_OFFSET))(this);
 		}
 
-		::System::Void set_ElationEchoPoint(::System::Single value)
+		::System::Void set_ElationEchoPoint(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA_SET_ELATIONECHOPOINT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA_SET_ELATIONECHOPOINT_OFFSET))(this, a1);
 		}
 	};
 }

@@ -12,31 +12,31 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ADDANDRECYCLEITEM_OFFSET UNITYSDK_OFFSET(0x14F98B60)
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_CLEARTMPRECYCLEDITEM_OFFSET UNITYSDK_OFFSET(0x14F99020)
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_CREATEITEM_OFFSET UNITYSDK_OFFSET(0x14F97EF0)
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_DESTROYALLITEM_OFFSET UNITYSDK_OFFSET(0x14F98BB0)
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_FINDITEM_OFFSET UNITYSDK_OFFSET(0x14F983F0)
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_GETITEM_1_OFFSET UNITYSDK_OFFSET(0x14F98900)
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_GETITEM_OFFSET UNITYSDK_OFFSET(0x14F988B0)
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_GET_POOLEDITEMLIST_OFFSET UNITYSDK_OFFSET(0x14F99A60)
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_INIT_OFFSET UNITYSDK_OFFSET(0x14F97DA0)
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_RECYCLEITEMREAL_OFFSET UNITYSDK_OFFSET(0x14F982C0)
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_RECYCLEITEM_OFFSET UNITYSDK_OFFSET(0x14F997D0)
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_REGISTERSLOTMAP_OFFSET UNITYSDK_OFFSET(0x14F98670)
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_SETITEMVISIBLEBYPOS_OFFSET UNITYSDK_OFFSET(0x14F98820)
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x14F97C90)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ADDANDRECYCLEITEM_OFFSET UNITYSDK_OFFSET(0x13ED1E80)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_CLEARTMPRECYCLEDITEM_OFFSET UNITYSDK_OFFSET(0x13ED23B0)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_CREATEITEM_OFFSET UNITYSDK_OFFSET(0x13ED1170)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_DESTROYALLITEM_OFFSET UNITYSDK_OFFSET(0x13ED1ED0)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_FINDITEM_OFFSET UNITYSDK_OFFSET(0x13ED16D0)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_GETITEM_1_OFFSET UNITYSDK_OFFSET(0x13ED1C50)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_GETITEM_OFFSET UNITYSDK_OFFSET(0x13ED1C00)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_GET_POOLEDITEMLIST_OFFSET UNITYSDK_OFFSET(0x13ED2B00)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_INIT_OFFSET UNITYSDK_OFFSET(0x13ED1020)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_RECYCLEITEMREAL_OFFSET UNITYSDK_OFFSET(0x13ED1540)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_RECYCLEITEM_OFFSET UNITYSDK_OFFSET(0x13ED2800)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_REGISTERSLOTMAP_OFFSET UNITYSDK_OFFSET(0x13ED19A0)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_SETITEMVISIBLEBYPOS_OFFSET UNITYSDK_OFFSET(0x13ED1B70)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x13ED0F10)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int FlexibleGridItemPool_TypeDefinitionIndex = 44384;
+	inline static constexpr unsigned int FlexibleGridItemPool_TypeDefinitionIndex = 44930;
 
 	class FlexibleGridItemPool : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Int32* StaticGet_mCurItemIdCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlexibleGridItemPool_TypeDefinitionIndex)->GetStaticField(0x1730);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FlexibleGridItemPool_TypeDefinitionIndex)->GetStaticField(0x5180);
 		}
 		::SuperScrollView::FlexibleGridItemPool_OnNewPrefabIns* onNewPrefabHandler; // 0x18
 		::UnityEngine::GameObject* mPrefabObj; // 0x20
@@ -55,19 +55,19 @@ namespace SuperScrollView
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Init(::UnityEngine::GameObject* prefabObj, ::System::Int32 createCount, ::UnityEngine::RectTransform* parent)
+		::System::Void Init(::UnityEngine::GameObject* a1, ::System::Int32 a2, ::UnityEngine::RectTransform* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Int32, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_INIT_OFFSET))(this, prefabObj, createCount, parent);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Int32, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::SuperScrollView::LoopFlexibleGridViewItem* FindItem(::System::Int32 intanceID)
+		::SuperScrollView::LoopFlexibleGridViewItem* FindItem(::System::Int32 a1)
 		{
-			return ((::SuperScrollView::LoopFlexibleGridViewItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_FINDITEM_OFFSET))(this, intanceID);
+			return ((::SuperScrollView::LoopFlexibleGridViewItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_FINDITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterSlotMap(::SuperScrollView::LoopFlexibleGridViewItem* item)
+		::System::Void RegisterSlotMap(::SuperScrollView::LoopFlexibleGridViewItem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopFlexibleGridViewItem*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_REGISTERSLOTMAP_OFFSET))(this, item);
+			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopFlexibleGridViewItem*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_REGISTERSLOTMAP_OFFSET))(this, a1);
 		}
 
 		::SuperScrollView::LoopFlexibleGridViewItem* GetItem()
@@ -75,9 +75,9 @@ namespace SuperScrollView
 			return ((::SuperScrollView::LoopFlexibleGridViewItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_GETITEM_OFFSET))(this);
 		}
 
-		::SuperScrollView::LoopFlexibleGridViewItem* GetItem_1(::System::Int32 preferredSlotItemIndex)
+		::SuperScrollView::LoopFlexibleGridViewItem* GetItem_1(::System::Int32 a1)
 		{
-			return ((::SuperScrollView::LoopFlexibleGridViewItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_GETITEM_1_OFFSET))(this, preferredSlotItemIndex);
+			return ((::SuperScrollView::LoopFlexibleGridViewItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_GETITEM_1_OFFSET))(this, a1);
 		}
 
 		::System::Void AddAndRecycleItem()
@@ -85,9 +85,9 @@ namespace SuperScrollView
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ADDANDRECYCLEITEM_OFFSET))(this);
 		}
 
-		::System::Void DestroyAllItem(::System::Boolean im)
+		::System::Void DestroyAllItem(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_DESTROYALLITEM_OFFSET))(this, im);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_DESTROYALLITEM_OFFSET))(this, a1);
 		}
 
 		::SuperScrollView::LoopFlexibleGridViewItem* CreateItem()
@@ -95,19 +95,19 @@ namespace SuperScrollView
 			return ((::SuperScrollView::LoopFlexibleGridViewItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_CREATEITEM_OFFSET))(this);
 		}
 
-		::System::Void RecycleItemReal(::SuperScrollView::LoopFlexibleGridViewItem* item)
+		::System::Void RecycleItemReal(::SuperScrollView::LoopFlexibleGridViewItem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopFlexibleGridViewItem*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_RECYCLEITEMREAL_OFFSET))(this, item);
+			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopFlexibleGridViewItem*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_RECYCLEITEMREAL_OFFSET))(this, a1);
 		}
 
-		::System::Void SetItemVisibleByPos(::SuperScrollView::LoopFlexibleGridViewItem* item, ::System::Boolean visible)
+		::System::Void SetItemVisibleByPos(::SuperScrollView::LoopFlexibleGridViewItem* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopFlexibleGridViewItem*, ::System::Boolean))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_SETITEMVISIBLEBYPOS_OFFSET))(this, item, visible);
+			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopFlexibleGridViewItem*, ::System::Boolean))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_SETITEMVISIBLEBYPOS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RecycleItem(::SuperScrollView::LoopFlexibleGridViewItem* item, ::System::Boolean isSeleced)
+		::System::Void RecycleItem(::SuperScrollView::LoopFlexibleGridViewItem* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopFlexibleGridViewItem*, ::System::Boolean))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_RECYCLEITEM_OFFSET))(this, item, isSeleced);
+			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopFlexibleGridViewItem*, ::System::Boolean))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_RECYCLEITEM_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ClearTmpRecycledItem()

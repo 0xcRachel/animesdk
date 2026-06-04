@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ShowRogueSelectMainPageMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3BB44795B5901986_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC13310)
-#define CLASS_3_3BB44795B5901986__CTOR_OFFSET UNITYSDK_OFFSET(0xBC132E0)
+#define CLASS_3_3BB44795B5901986_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14808940)
+#define CLASS_3_3BB44795B5901986__CTOR_OFFSET UNITYSDK_OFFSET(0x14808910)
 
-inline static constexpr unsigned int Class_3_3BB44795B5901986_TypeDefinitionIndex = 54102;
+inline static constexpr unsigned int Class_3_3BB44795B5901986_TypeDefinitionIndex = 54828;
 
 class Class_3_3BB44795B5901986 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowRogueSelectMainPageMode*>
 {

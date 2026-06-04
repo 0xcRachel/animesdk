@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CRPVOLUMETRICFOGSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x15FB9AB0)
+#define RPG_CLIENT_CRPVOLUMETRICFOGSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x182DDAA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CRPVolumetricFogSettings_TypeDefinitionIndex = 62624;
+	inline static constexpr unsigned int CRPVolumetricFogSettings_TypeDefinitionIndex = 63557;
 
 	class CRPVolumetricFogSettings : public ::System::Object
 	{

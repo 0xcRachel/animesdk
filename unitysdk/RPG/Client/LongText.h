@@ -15,49 +15,49 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_LONGTEXT_APPLYTEXTGENERATOR_OFFSET UNITYSDK_OFFSET(0x16559D00)
-#define RPG_CLIENT_LONGTEXT_CULL_OFFSET UNITYSDK_OFFSET(0x16559350)
-#define RPG_CLIENT_LONGTEXT_FILLVERTICES_OFFSET UNITYSDK_OFFSET(0x1655C4E0)
-#define RPG_CLIENT_LONGTEXT_FINDVERTICESRANGE_OFFSET UNITYSDK_OFFSET(0x1655C0F0)
-#define RPG_CLIENT_LONGTEXT_FINDVISIBLERANGE_OFFSET UNITYSDK_OFFSET(0x1655BAA0)
-#define RPG_CLIENT_LONGTEXT_GET_CLIPRECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x16559270)
-#define RPG_CLIENT_LONGTEXT_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x16559290)
-#define RPG_CLIENT_LONGTEXT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x16559A70)
-#define RPG_CLIENT_LONGTEXT_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1655A2C0)
-#define RPG_CLIENT_LONGTEXT_ONTEXTCHANGED_OFFSET UNITYSDK_OFFSET(0x1655BA50)
-#define RPG_CLIENT_LONGTEXT_SETCLIPRECT_OFFSET UNITYSDK_OFFSET(0x16559790)
-#define RPG_CLIENT_LONGTEXT_SETCLIPSOFTNESS_OFFSET UNITYSDK_OFFSET(0x16559900)
-#define RPG_CLIENT_LONGTEXT_SETNTHMESH_OFFSET UNITYSDK_OFFSET(0x1655C9D0)
-#define RPG_CLIENT_LONGTEXT_SET_CLIPRECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x16559280)
-#define RPG_CLIENT_LONGTEXT_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x165592A0)
-#define RPG_CLIENT_LONGTEXT_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x16559F30)
-#define RPG_CLIENT_LONGTEXT_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0x16559B40)
-#define RPG_CLIENT_LONGTEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1655CD50)
-#define RPG_CLIENT_LONGTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1655CBF0)
-#define RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_CULL_OFFSET UNITYSDK_OFFSET(0x1655CDB0)
-#define RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x16940070)
-#define RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x16940180)
-#define RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_ONTEXTCHANGED_OFFSET UNITYSDK_OFFSET(0x16940170)
-#define RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_SETCLIPRECT_OFFSET UNITYSDK_OFFSET(0x1655CDD0)
-#define RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_SETCLIPSOFTNESS_OFFSET UNITYSDK_OFFSET(0x1693FFC0)
-#define RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x1655CDA0)
-#define RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x16940120)
-#define RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0x169400E0)
+#define RPG_CLIENT_LONGTEXT_APPLYTEXTGENERATOR_OFFSET UNITYSDK_OFFSET(0x151ACBF0)
+#define RPG_CLIENT_LONGTEXT_CULL_OFFSET UNITYSDK_OFFSET(0x151AC0E0)
+#define RPG_CLIENT_LONGTEXT_FILLVERTICES_OFFSET UNITYSDK_OFFSET(0x151AF550)
+#define RPG_CLIENT_LONGTEXT_FINDVERTICESRANGE_OFFSET UNITYSDK_OFFSET(0x151AF150)
+#define RPG_CLIENT_LONGTEXT_FINDVISIBLERANGE_OFFSET UNITYSDK_OFFSET(0x151AEB20)
+#define RPG_CLIENT_LONGTEXT_GET_CLIPRECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x151ABFF0)
+#define RPG_CLIENT_LONGTEXT_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x151AC010)
+#define RPG_CLIENT_LONGTEXT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x151AC8E0)
+#define RPG_CLIENT_LONGTEXT_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x151AD230)
+#define RPG_CLIENT_LONGTEXT_ONTEXTCHANGED_OFFSET UNITYSDK_OFFSET(0x151AEAD0)
+#define RPG_CLIENT_LONGTEXT_SETCLIPRECT_OFFSET UNITYSDK_OFFSET(0x151AC5B0)
+#define RPG_CLIENT_LONGTEXT_SETCLIPSOFTNESS_OFFSET UNITYSDK_OFFSET(0x151AC750)
+#define RPG_CLIENT_LONGTEXT_SETNTHMESH_OFFSET UNITYSDK_OFFSET(0x151AFA00)
+#define RPG_CLIENT_LONGTEXT_SET_CLIPRECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x151AC000)
+#define RPG_CLIENT_LONGTEXT_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x151AC020)
+#define RPG_CLIENT_LONGTEXT_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x151ACEB0)
+#define RPG_CLIENT_LONGTEXT_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0x151AC9E0)
+#define RPG_CLIENT_LONGTEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x151AFF90)
+#define RPG_CLIENT_LONGTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x151AFE30)
+#define RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_CULL_OFFSET UNITYSDK_OFFSET(0x151AFFF0)
+#define RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x151B00E0)
+#define RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x151B01D0)
+#define RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_ONTEXTCHANGED_OFFSET UNITYSDK_OFFSET(0x151B01C0)
+#define RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_SETCLIPRECT_OFFSET UNITYSDK_OFFSET(0x151B0010)
+#define RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_SETCLIPSOFTNESS_OFFSET UNITYSDK_OFFSET(0x151B0030)
+#define RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x151AFFE0)
+#define RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x151B0170)
+#define RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0x151B0130)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LongText_TypeDefinitionIndex = 66863;
+	inline static constexpr unsigned int LongText_TypeDefinitionIndex = 67803;
 
 	class LongText : public ::RPG::Client::LocalizedText
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_worldCorners()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(LongText_TypeDefinitionIndex)->GetStaticField(0x49E70);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(LongText_TypeDefinitionIndex)->GetStaticField(0x49580);
 		}
 		static ::UnityEngine::UI::VertexHelper** StaticGet_s_VertexHelper()
 		{
-			return (::UnityEngine::UI::VertexHelper**)Il2CppClass::FromTypeDefinitionIndex(LongText_TypeDefinitionIndex)->GetStaticField(0x49E78);
+			return (::UnityEngine::UI::VertexHelper**)Il2CppClass::FromTypeDefinitionIndex(LongText_TypeDefinitionIndex)->GetStaticField(0x49588);
 		}
 		::UnityEngine::RectTransform* _clipRectTransform_k__BackingField; // 0x1F8
 		::UnityEngine::Rect m_ClipRect; // 0x200
@@ -80,9 +80,9 @@ namespace RPG::Client
 			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_GET_CLIPRECTTRANSFORM_OFFSET))(this);
 		}
 
-		::System::Void set_clipRectTransform(::UnityEngine::RectTransform* value)
+		::System::Void set_clipRectTransform(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_SET_CLIPRECTTRANSFORM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_SET_CLIPRECTTRANSFORM_OFFSET))(this, a1);
 		}
 
 		::System::String* get_text()
@@ -90,24 +90,24 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_GET_TEXT_OFFSET))(this);
 		}
 
-		::System::Void set_text(::System::String* value)
+		::System::Void set_text(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_SET_TEXT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_SET_TEXT_OFFSET))(this, a1);
 		}
 
-		::System::Void Cull(::UnityEngine::Rect clipRect, ::System::Boolean validRect)
+		::System::Void Cull(::UnityEngine::Rect a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_CULL_OFFSET))(this, clipRect, validRect);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_CULL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetClipRect(::UnityEngine::Rect clipRect, ::System::Boolean validRect)
+		::System::Void SetClipRect(::UnityEngine::Rect a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_SETCLIPRECT_OFFSET))(this, clipRect, validRect);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_SETCLIPRECT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetClipSoftness(::UnityEngine::Vector4 clipSoftness)
+		::System::Void SetClipSoftness(::UnityEngine::Vector4 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_SETCLIPSOFTNESS_OFFSET))(this, clipSoftness);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_SETCLIPSOFTNESS_OFFSET))(this, a1);
 		}
 
 		::System::Void OnDisable()
@@ -135,49 +135,49 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_ONTEXTCHANGED_OFFSET))(this);
 		}
 
-		::System::Void OnPopulateMesh(::UnityEngine::UI::VertexHelper* toFill)
+		::System::Void OnPopulateMesh(::UnityEngine::UI::VertexHelper* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_ONPOPULATEMESH_OFFSET))(this, toFill);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_ONPOPULATEMESH_OFFSET))(this, a1);
 		}
 
-		::System::Void FillVertices(::UnityEngine::UI::VertexHelper* toFill, ::System::Collections::Generic::IList_1<::UnityEngine::UIVertex>* verts, ::System::Int32& k, ::System::Int32 maxVertex, ::System::Int32 endIndex, ::UnityEngine::Vector2 roundingOffset, ::System::Single unitsPerPixel)
+		::System::Void FillVertices(::UnityEngine::UI::VertexHelper* a1, ::System::Collections::Generic::IList_1<::UnityEngine::UIVertex>* a2, ::System::Int32& a3, ::System::Int32 a4, ::System::Int32 a5, ::UnityEngine::Vector2 a6, ::System::Single a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*, ::System::Collections::Generic::IList_1<::UnityEngine::UIVertex>*, ::System::Int32&, ::System::Int32, ::System::Int32, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_FILLVERTICES_OFFSET))(this, toFill, verts, k, maxVertex, endIndex, roundingOffset, unitsPerPixel);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*, ::System::Collections::Generic::IList_1<::UnityEngine::UIVertex>*, ::System::Int32&, ::System::Int32, ::System::Int32, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_FILLVERTICES_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void FindVisibleRange(::UnityEngine::RectTransform* clipRectTransform, ::System::Single& topY, ::System::Single& bottomY)
+		::System::Void FindVisibleRange(::UnityEngine::RectTransform* a1, ::System::Single& a2, ::System::Single& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_FINDVISIBLERANGE_OFFSET))(this, clipRectTransform, topY, bottomY);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_FINDVISIBLERANGE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void FindVerticesRange(::System::Collections::Generic::IList_1<::UnityEngine::UIVertex>* verts, ::System::Int32 vertexCount, ::System::Single topY, ::System::Single bottomY, ::System::Single unitsPerPixel, ::System::Int32& begin, ::System::Int32& end)
+		::System::Void FindVerticesRange(::System::Collections::Generic::IList_1<::UnityEngine::UIVertex>* a1, ::System::Int32 a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Int32& a6, ::System::Int32& a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::UnityEngine::UIVertex>*, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_FINDVERTICESRANGE_OFFSET))(this, verts, vertexCount, topY, bottomY, unitsPerPixel, begin, end);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::UnityEngine::UIVertex>*, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_FINDVERTICESRANGE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void SetNthMesh(::UnityEngine::Mesh* mesh, ::System::Int32 n)
+		::System::Void SetNthMesh(::UnityEngine::Mesh* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_SETNTHMESH_OFFSET))(this, mesh, n);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_SETNTHMESH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_set_text(::System::String* P0)
+		::System::Void __iFixBaseProxy_set_text(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_SET_TEXT_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_SET_TEXT_OFFSET))(this, a1);
 		}
 
-		::System::Void __iFixBaseProxy_Cull(::UnityEngine::Rect P0, ::System::Boolean P1)
+		::System::Void __iFixBaseProxy_Cull(::UnityEngine::Rect a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_CULL_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_CULL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_SetClipRect(::UnityEngine::Rect P0, ::System::Boolean P1)
+		::System::Void __iFixBaseProxy_SetClipRect(::UnityEngine::Rect a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_SETCLIPRECT_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_SETCLIPRECT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_SetClipSoftness(::UnityEngine::Vector4 P0)
+		::System::Void __iFixBaseProxy_SetClipSoftness(::UnityEngine::Vector4 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_SETCLIPSOFTNESS_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_SETCLIPSOFTNESS_OFFSET))(this, a1);
 		}
 
 		::System::Void __iFixBaseProxy_OnDisable()
@@ -200,9 +200,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_ONTEXTCHANGED_OFFSET))(this);
 		}
 
-		::System::Void __iFixBaseProxy_OnPopulateMesh(::UnityEngine::UI::VertexHelper* P0)
+		::System::Void __iFixBaseProxy_OnPopulateMesh(::UnityEngine::UI::VertexHelper* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_ONPOPULATEMESH_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT___IFIXBASEPROXY_ONPOPULATEMESH_OFFSET))(this, a1);
 		}
 	};
 }

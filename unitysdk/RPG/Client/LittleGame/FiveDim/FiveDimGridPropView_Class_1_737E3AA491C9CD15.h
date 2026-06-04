@@ -9,36 +9,36 @@ namespace System { class String; }
 namespace UnityEngine { class BoxCollider; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_737E3AA491C9CD15_CLEAR_OFFSET UNITYSDK_OFFSET(0x158F8850)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_737E3AA491C9CD15_METHOD_1_AF9F503C79D68F52_OFFSET UNITYSDK_OFFSET(0x158F77F0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_737E3AA491C9CD15_METHOD_1_CF8551534BA217CC_OFFSET UNITYSDK_OFFSET(0x158F7710)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_737E3AA491C9CD15__CTOR_OFFSET UNITYSDK_OFFSET(0x158F8940)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_737E3AA491C9CD15_CLEAR_OFFSET UNITYSDK_OFFSET(0x17995890)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_737E3AA491C9CD15_METHOD_1_AF9F503C79D68F52_OFFSET UNITYSDK_OFFSET(0x17994950)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_737E3AA491C9CD15_METHOD_1_B560799CAB48EE76_OFFSET UNITYSDK_OFFSET(0x17994820)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_737E3AA491C9CD15__CTOR_OFFSET UNITYSDK_OFFSET(0x17995970)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimGridPropView_Class_1_737E3AA491C9CD15_TypeDefinitionIndex = 70888;
+	inline static constexpr unsigned int FiveDimGridPropView_Class_1_737E3AA491C9CD15_TypeDefinitionIndex = 71710;
 
 	class FiveDimGridPropView_Class_1_737E3AA491C9CD15 : public ::System::Object
 	{
 	public:
-		::System::String* Field_1_5; // 0x10
-		::UnityEngine::BoxCollider* Field_1_0; // 0x18
-		::UnityEngine::Transform* Field_1_3; // 0x20
-		::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView* Field_1_6; // 0x28
-		::System::Boolean Field_1_4; // 0x30
-		::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_CellWaterReflectionState Field_1_7; // 0x34
-		::UnityEngine::Vector3 Field_1_2; // 0x38
-		::UnityEngine::Vector3 Field_1_1; // 0x44
-		::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_CellWaterReflectionState Field_1_8; // 0x50
+		::System::String* Field_1_0; // 0x10
+		::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView* Field_1_1; // 0x18
+		::UnityEngine::BoxCollider* Field_1_2; // 0x20
+		::UnityEngine::Transform* Field_1_3; // 0x28
+		::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_CellWaterReflectionState Field_1_4; // 0x30
+		::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_CellWaterReflectionState Field_1_5; // 0x34
+		::UnityEngine::Vector3 Field_1_6; // 0x38
+		::UnityEngine::Vector3 Field_1_7; // 0x44
+		::System::Boolean Field_1_8; // 0x50
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_737E3AA491C9CD15__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_CF8551534BA217CC(::System::Boolean a1)
+		::System::Void Method_1_B560799CAB48EE76(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_737E3AA491C9CD15_METHOD_1_CF8551534BA217CC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_737E3AA491C9CD15_METHOD_1_B560799CAB48EE76_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()

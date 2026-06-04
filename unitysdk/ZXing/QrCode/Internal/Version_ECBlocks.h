@@ -4,15 +4,15 @@
 
 namespace ZXing::QrCode::Internal { class Version_ECB; }
 
-#define ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS_GETECBLOCKS_OFFSET UNITYSDK_OFFSET(0x16CD2280)
-#define ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS_GET_ECCODEWORDSPERBLOCK_OFFSET UNITYSDK_OFFSET(0x16CD2270)
-#define ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS_GET_NUMBLOCKS_OFFSET UNITYSDK_OFFSET(0x16CBFC30)
-#define ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS_GET_TOTALECCODEWORDS_OFFSET UNITYSDK_OFFSET(0x16CBF960)
-#define ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS__CTOR_OFFSET UNITYSDK_OFFSET(0x16CD21A0)
+#define ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS_GETECBLOCKS_OFFSET UNITYSDK_OFFSET(0x13D01FC0)
+#define ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS_GET_ECCODEWORDSPERBLOCK_OFFSET UNITYSDK_OFFSET(0x13D01FB0)
+#define ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS_GET_NUMBLOCKS_OFFSET UNITYSDK_OFFSET(0x13CF14B0)
+#define ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS_GET_TOTALECCODEWORDS_OFFSET UNITYSDK_OFFSET(0x13CF11E0)
+#define ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS__CTOR_OFFSET UNITYSDK_OFFSET(0x13D01EE0)
 
 namespace ZXing::QrCode::Internal
 {
-	inline static constexpr unsigned int Version_ECBlocks_TypeDefinitionIndex = 6062;
+	inline static constexpr unsigned int Version_ECBlocks_TypeDefinitionIndex = 6435;
 
 	class Version_ECBlocks : public ::System::Object
 	{
@@ -20,9 +20,9 @@ namespace ZXing::QrCode::Internal
 		::Il2CppArray<::ZXing::QrCode::Internal::Version_ECB*>* ecBlocks; // 0x10
 		::System::Int32 ecCodewordsPerBlock; // 0x18
 
-		::System::Void _ctor(::System::Int32 ecCodewordsPerBlock, ::Il2CppArray<::ZXing::QrCode::Internal::Version_ECB*>* ecBlocks)
+		::System::Void _ctor(::System::Int32 a1, ::Il2CppArray<::ZXing::QrCode::Internal::Version_ECB*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::ZXing::QrCode::Internal::Version_ECB*>*))((::PBYTE)hIl2Cpp + ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS__CTOR_OFFSET))(this, ecCodewordsPerBlock, ecBlocks);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::ZXing::QrCode::Internal::Version_ECB*>*))((::PBYTE)hIl2Cpp + ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_ECCodewordsPerBlock()

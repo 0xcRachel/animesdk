@@ -8,26 +8,26 @@
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_RENDERING_TEXTURECURVE_ADDKEY_OFFSET UNITYSDK_OFFSET(0x198D02D0)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x198CFCE0)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x198D0060)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x198CFCD0)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_GETTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x198CFD50)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_GETTEXTURE_OFFSET UNITYSDK_OFFSET(0x198CFD90)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x198CFB10)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x198CFAF0)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_MOVEKEY_OFFSET UNITYSDK_OFFSET(0x198D0300)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_RELEASE_OFFSET UNITYSDK_OFFSET(0x198CFCF0)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_REMOVEKEY_OFFSET UNITYSDK_OFFSET(0x198D0350)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_SETDIRTY_OFFSET UNITYSDK_OFFSET(0x198CFD40)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_SET_LENGTH_OFFSET UNITYSDK_OFFSET(0x198CFB00)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_SMOOTHTANGENTS_OFFSET UNITYSDK_OFFSET(0x198D0380)
-#define UNITYENGINE_RENDERING_TEXTURECURVE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x198CFC20)
-#define UNITYENGINE_RENDERING_TEXTURECURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x198CFB60)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_ADDKEY_OFFSET UNITYSDK_OFFSET(0x1A5F0120)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A5EFB10)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A5EFEB0)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A5EFB00)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_GETTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x1A5EFB80)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_GETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1A5EFBC0)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1A5EF940)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1A5EF920)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_MOVEKEY_OFFSET UNITYSDK_OFFSET(0x1A5F0150)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_RELEASE_OFFSET UNITYSDK_OFFSET(0x1A5EFB20)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_REMOVEKEY_OFFSET UNITYSDK_OFFSET(0x1A5F01A0)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_SETDIRTY_OFFSET UNITYSDK_OFFSET(0x1A5EFB70)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_SET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1A5EF930)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_SMOOTHTANGENTS_OFFSET UNITYSDK_OFFSET(0x1A5F01D0)
+#define UNITYENGINE_RENDERING_TEXTURECURVE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A5EFA50)
+#define UNITYENGINE_RENDERING_TEXTURECURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5EF990)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int TextureCurve_TypeDefinitionIndex = 33521;
+	inline static constexpr unsigned int TextureCurve_TypeDefinitionIndex = 33803;
 
 	class TextureCurve : public ::System::Object
 	{
@@ -44,14 +44,14 @@ namespace UnityEngine::Rendering
 		::System::Boolean m_IsCurveDirty; // 0x38
 		::System::Boolean m_IsTextureDirty; // 0x39
 
-		::System::Void _ctor(::UnityEngine::AnimationCurve* baseCurve, ::System::Single zeroValue, ::System::Boolean loop, ::UnityEngine::Vector2& bounds)
+		::System::Void _ctor(::UnityEngine::AnimationCurve* a1, ::System::Single a2, ::System::Boolean a3, ::UnityEngine::Vector2& a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimationCurve*, ::System::Single, ::System::Boolean, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE__CTOR_OFFSET))(this, baseCurve, zeroValue, loop, bounds);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimationCurve*, ::System::Single, ::System::Boolean, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _ctor_1(::Il2CppArray<::UnityEngine::Keyframe>* keys, ::System::Single zeroValue, ::System::Boolean loop, ::UnityEngine::Vector2& bounds)
+		::System::Void _ctor_1(::Il2CppArray<::UnityEngine::Keyframe>* a1, ::System::Single a2, ::System::Boolean a3, ::UnityEngine::Vector2& a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Keyframe>*, ::System::Single, ::System::Boolean, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE__CTOR_1_OFFSET))(this, keys, zeroValue, loop, bounds);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Keyframe>*, ::System::Single, ::System::Boolean, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE__CTOR_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 get_length()
@@ -59,14 +59,14 @@ namespace UnityEngine::Rendering
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_GET_LENGTH_OFFSET))(this);
 		}
 
-		::System::Void set_length(::System::Int32 value)
+		::System::Void set_length(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_SET_LENGTH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_SET_LENGTH_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Keyframe get_Item(::System::Int32 index)
+		::UnityEngine::Keyframe get_Item(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Keyframe(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_GET_ITEM_OFFSET))(this, index);
+			return ((::UnityEngine::Keyframe(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_GET_ITEM_OFFSET))(this, a1);
 		}
 
 		::System::Void Finalize()
@@ -99,29 +99,29 @@ namespace UnityEngine::Rendering
 			return ((::UnityEngine::Texture2D*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_GETTEXTURE_OFFSET))(this);
 		}
 
-		::System::Single Evaluate(::System::Single time)
+		::System::Single Evaluate(::System::Single a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_EVALUATE_OFFSET))(this, time);
+			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_EVALUATE_OFFSET))(this, a1);
 		}
 
-		::System::Int32 AddKey(::System::Single time, ::System::Single value)
+		::System::Int32 AddKey(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_ADDKEY_OFFSET))(this, time, value);
+			return ((::System::Int32(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_ADDKEY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 MoveKey(::System::Int32 index, ::UnityEngine::Keyframe& key)
+		::System::Int32 MoveKey(::System::Int32 a1, ::UnityEngine::Keyframe& a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::UnityEngine::Keyframe&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_MOVEKEY_OFFSET))(this, index, key);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::UnityEngine::Keyframe&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_MOVEKEY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RemoveKey(::System::Int32 index)
+		::System::Void RemoveKey(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_REMOVEKEY_OFFSET))(this, index);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_REMOVEKEY_OFFSET))(this, a1);
 		}
 
-		::System::Void SmoothTangents(::System::Int32 index, ::System::Single weight)
+		::System::Void SmoothTangents(::System::Int32 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_SMOOTHTANGENTS_OFFSET))(this, index, weight);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_SMOOTHTANGENTS_OFFSET))(this, a1, a2);
 		}
 	};
 }

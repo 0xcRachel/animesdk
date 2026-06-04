@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class CakeCatchCatData; }
 
-#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15FD6E00)
-#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS55_0__ISCAKELOCALAVAILABLE_B__0_OFFSET UNITYSDK_OFFSET(0x15FD86E0)
+#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x185D4E40)
+#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS55_0__ISCAKELOCALAVAILABLE_B__0_OFFSET UNITYSDK_OFFSET(0x185D6AE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeCatchModule___c__DisplayClass55_0_TypeDefinitionIndex = 58002;
+	inline static constexpr unsigned int CakeCatchModule___c__DisplayClass55_0_TypeDefinitionIndex = 58918;
 
 	class CakeCatchModule___c__DisplayClass55_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS55_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _IsCakeLocalAvailable_b__0(::RPG::Client::CakeCatchCatData* x)
+		::System::Boolean _IsCakeLocalAvailable_b__0(::RPG::Client::CakeCatchCatData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CakeCatchCatData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS55_0__ISCAKELOCALAVAILABLE_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CakeCatchCatData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS55_0__ISCAKELOCALAVAILABLE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

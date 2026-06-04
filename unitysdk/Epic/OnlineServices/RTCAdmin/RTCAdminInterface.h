@@ -14,20 +14,20 @@ namespace Epic::OnlineServices::RTCAdmin { class SetParticipantHardMuteOptions; 
 namespace Epic::OnlineServices::RTCAdmin { class UserToken; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_COPYUSERTOKENBYINDEX_OFFSET UNITYSDK_OFFSET(0x1965E580)
-#define EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_COPYUSERTOKENBYUSERID_OFFSET UNITYSDK_OFFSET(0x1965E780)
-#define EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_KICK_OFFSET UNITYSDK_OFFSET(0x1965EA10)
-#define EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_ONKICKCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1965E3B0)
-#define EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_ONQUERYJOINROOMTOKENCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1965E440)
-#define EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_ONSETPARTICIPANTHARDMUTECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1965E4D0)
-#define EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_QUERYJOINROOMTOKEN_OFFSET UNITYSDK_OFFSET(0x1965EBD0)
-#define EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_SETPARTICIPANTHARDMUTE_OFFSET UNITYSDK_OFFSET(0x1965ED90)
-#define EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1965E570)
-#define EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1965E560)
+#define EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_COPYUSERTOKENBYINDEX_OFFSET UNITYSDK_OFFSET(0x1A41F6C0)
+#define EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_COPYUSERTOKENBYUSERID_OFFSET UNITYSDK_OFFSET(0x1A41F8C0)
+#define EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_KICK_OFFSET UNITYSDK_OFFSET(0x1A41FB50)
+#define EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_ONKICKCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A41F4C0)
+#define EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_ONQUERYJOINROOMTOKENCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A41F560)
+#define EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_ONSETPARTICIPANTHARDMUTECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A41F600)
+#define EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_QUERYJOINROOMTOKEN_OFFSET UNITYSDK_OFFSET(0x1A41FD30)
+#define EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_SETPARTICIPANTHARDMUTE_OFFSET UNITYSDK_OFFSET(0x1A41FF10)
+#define EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A41F6B0)
+#define EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A41F6A0)
 
 namespace Epic::OnlineServices::RTCAdmin
 {
-	inline static constexpr unsigned int RTCAdminInterface_TypeDefinitionIndex = 41511;
+	inline static constexpr unsigned int RTCAdminInterface_TypeDefinitionIndex = 42314;
 
 	class RTCAdminInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -44,49 +44,49 @@ namespace Epic::OnlineServices::RTCAdmin
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result CopyUserTokenByIndex(::Epic::OnlineServices::RTCAdmin::CopyUserTokenByIndexOptions* options, ::Epic::OnlineServices::RTCAdmin::UserToken*& outUserToken)
+		::Epic::OnlineServices::Result CopyUserTokenByIndex(::Epic::OnlineServices::RTCAdmin::CopyUserTokenByIndexOptions* a1, ::Epic::OnlineServices::RTCAdmin::UserToken*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::RTCAdmin::CopyUserTokenByIndexOptions*, ::Epic::OnlineServices::RTCAdmin::UserToken*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_COPYUSERTOKENBYINDEX_OFFSET))(this, options, outUserToken);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::RTCAdmin::CopyUserTokenByIndexOptions*, ::Epic::OnlineServices::RTCAdmin::UserToken*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_COPYUSERTOKENBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyUserTokenByUserId(::Epic::OnlineServices::RTCAdmin::CopyUserTokenByUserIdOptions* options, ::Epic::OnlineServices::RTCAdmin::UserToken*& outUserToken)
+		::Epic::OnlineServices::Result CopyUserTokenByUserId(::Epic::OnlineServices::RTCAdmin::CopyUserTokenByUserIdOptions* a1, ::Epic::OnlineServices::RTCAdmin::UserToken*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::RTCAdmin::CopyUserTokenByUserIdOptions*, ::Epic::OnlineServices::RTCAdmin::UserToken*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_COPYUSERTOKENBYUSERID_OFFSET))(this, options, outUserToken);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::RTCAdmin::CopyUserTokenByUserIdOptions*, ::Epic::OnlineServices::RTCAdmin::UserToken*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_COPYUSERTOKENBYUSERID_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Kick(::Epic::OnlineServices::RTCAdmin::KickOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::RTCAdmin::OnKickCompleteCallback* completionDelegate)
+		::System::Void Kick(::Epic::OnlineServices::RTCAdmin::KickOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::RTCAdmin::OnKickCompleteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAdmin::KickOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAdmin::OnKickCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_KICK_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAdmin::KickOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAdmin::OnKickCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_KICK_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void QueryJoinRoomToken(::Epic::OnlineServices::RTCAdmin::QueryJoinRoomTokenOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::RTCAdmin::OnQueryJoinRoomTokenCompleteCallback* completionDelegate)
+		::System::Void QueryJoinRoomToken(::Epic::OnlineServices::RTCAdmin::QueryJoinRoomTokenOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::RTCAdmin::OnQueryJoinRoomTokenCompleteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAdmin::QueryJoinRoomTokenOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAdmin::OnQueryJoinRoomTokenCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_QUERYJOINROOMTOKEN_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAdmin::QueryJoinRoomTokenOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAdmin::OnQueryJoinRoomTokenCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_QUERYJOINROOMTOKEN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetParticipantHardMute(::Epic::OnlineServices::RTCAdmin::SetParticipantHardMuteOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::RTCAdmin::OnSetParticipantHardMuteCompleteCallback* completionDelegate)
+		::System::Void SetParticipantHardMute(::Epic::OnlineServices::RTCAdmin::SetParticipantHardMuteOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::RTCAdmin::OnSetParticipantHardMuteCompleteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAdmin::SetParticipantHardMuteOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAdmin::OnSetParticipantHardMuteCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_SETPARTICIPANTHARDMUTE_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAdmin::SetParticipantHardMuteOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAdmin::OnSetParticipantHardMuteCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_SETPARTICIPANTHARDMUTE_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void OnKickCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnKickCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_ONKICKCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_ONKICKCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnQueryJoinRoomTokenCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryJoinRoomTokenCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_ONQUERYJOINROOMTOKENCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_ONQUERYJOINROOMTOKENCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnSetParticipantHardMuteCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnSetParticipantHardMuteCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_ONSETPARTICIPANTHARDMUTECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_RTCADMININTERFACE_ONSETPARTICIPANTHARDMUTECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

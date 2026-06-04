@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/TurnState.h"
 
-#define RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF2A1AD0)
-#define RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF2A1B20)
-#define RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_GET_CURRENTTURNSTATE_OFFSET UNITYSDK_OFFSET(0xF2A1B90)
-#define RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_GET_PREVTURNSTATE_OFFSET UNITYSDK_OFFSET(0xF2A1B70)
-#define RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xF2A1A70)
-#define RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_SET_CURRENTTURNSTATE_OFFSET UNITYSDK_OFFSET(0xF2A1BA0)
-#define RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_SET_PREVTURNSTATE_OFFSET UNITYSDK_OFFSET(0xF2A1B80)
-#define RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xF2A1BB0)
+#define RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x18728590)
+#define RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x187285E0)
+#define RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_GET_CURRENTTURNSTATE_OFFSET UNITYSDK_OFFSET(0x18728650)
+#define RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_GET_PREVTURNSTATE_OFFSET UNITYSDK_OFFSET(0x18728630)
+#define RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_INIT_OFFSET UNITYSDK_OFFSET(0x18728530)
+#define RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_SET_CURRENTTURNSTATE_OFFSET UNITYSDK_OFFSET(0x18728660)
+#define RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_SET_PREVTURNSTATE_OFFSET UNITYSDK_OFFSET(0x18728640)
+#define RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x18728670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelBeforeTurnStateChange_TypeDefinitionIndex = 52244;
+	inline static constexpr unsigned int LevelBeforeTurnStateChange_TypeDefinitionIndex = 52941;
 
-	class LevelBeforeTurnStateChange : public ::Class_1_9988289E7F8AA214
+	class LevelBeforeTurnStateChange : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::RPG::GameCore::TurnState _CurrentTurnState_k__BackingField; // 0x18
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelBeforeTurnStateChange* Init(::RPG::GameCore::TurnState ePrevTurnState, ::RPG::GameCore::TurnState eCurrentTurnState)
+		::RPG::GameCore::LevelBeforeTurnStateChange* Init(::RPG::GameCore::TurnState a1, ::RPG::GameCore::TurnState a2)
 		{
-			return ((::RPG::GameCore::LevelBeforeTurnStateChange*(*)(::PVOID, ::RPG::GameCore::TurnState, ::RPG::GameCore::TurnState))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_INIT_OFFSET))(this, ePrevTurnState, eCurrentTurnState);
+			return ((::RPG::GameCore::LevelBeforeTurnStateChange*(*)(::PVOID, ::RPG::GameCore::TurnState, ::RPG::GameCore::TurnState))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_INIT_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::GameCore::EventType GetEventType()
@@ -48,9 +48,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::TurnState(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_GET_PREVTURNSTATE_OFFSET))(this);
 		}
 
-		::System::Void set_PrevTurnState(::RPG::GameCore::TurnState value)
+		::System::Void set_PrevTurnState(::RPG::GameCore::TurnState a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnState))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_SET_PREVTURNSTATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnState))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_SET_PREVTURNSTATE_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::TurnState get_CurrentTurnState()
@@ -58,9 +58,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::TurnState(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_GET_CURRENTTURNSTATE_OFFSET))(this);
 		}
 
-		::System::Void set_CurrentTurnState(::RPG::GameCore::TurnState value)
+		::System::Void set_CurrentTurnState(::RPG::GameCore::TurnState a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnState))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_SET_CURRENTTURNSTATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnState))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBEFORETURNSTATECHANGE_SET_CURRENTTURNSTATE_OFFSET))(this, a1);
 		}
 	};
 }

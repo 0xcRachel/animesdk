@@ -5,12 +5,12 @@
 
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_EDITOR_BGCURVEPCG_ROAD___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB1A60E0)
-#define RPG_EDITOR_BGCURVEPCG_ROAD___C__DISPLAYCLASS27_0__MERGELINEARMODULEGROUP_B__0_OFFSET UNITYSDK_OFFSET(0xB1A6950)
+#define RPG_EDITOR_BGCURVEPCG_ROAD___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12AF6DC0)
+#define RPG_EDITOR_BGCURVEPCG_ROAD___C__DISPLAYCLASS27_0__MERGELINEARMODULEGROUP_B__0_OFFSET UNITYSDK_OFFSET(0x12AF7600)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int BGCurvePCG_Road___c__DisplayClass27_0_TypeDefinitionIndex = 48015;
+	inline static constexpr unsigned int BGCurvePCG_Road___c__DisplayClass27_0_TypeDefinitionIndex = 48633;
 
 	class BGCurvePCG_Road___c__DisplayClass27_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::Editor
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_ROAD___C__DISPLAYCLASS27_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _MergeLinearModuleGroup_b__0(::RPG::Client::LinearModuleRendererBehavior_ItemData data)
+		::System::Boolean _MergeLinearModuleGroup_b__0(::RPG::Client::LinearModuleRendererBehavior_ItemData a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::LinearModuleRendererBehavior_ItemData))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_ROAD___C__DISPLAYCLASS27_0__MERGELINEARMODULEGROUP_B__0_OFFSET))(this, data);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::LinearModuleRendererBehavior_ItemData))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_ROAD___C__DISPLAYCLASS27_0__MERGELINEARMODULEGROUP_B__0_OFFSET))(this, a1);
 		}
 	};
 }

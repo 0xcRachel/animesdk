@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class HipplenGameSwitchCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D1F27A49DCF9D8C0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x103261C0)
-#define CLASS_3_D1F27A49DCF9D8C0__CTOR_OFFSET UNITYSDK_OFFSET(0x10326190)
+#define CLASS_3_D1F27A49DCF9D8C0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14451CC0)
+#define CLASS_3_D1F27A49DCF9D8C0__CTOR_OFFSET UNITYSDK_OFFSET(0x14451C90)
 
-inline static constexpr unsigned int Class_3_D1F27A49DCF9D8C0_TypeDefinitionIndex = 48258;
+inline static constexpr unsigned int Class_3_D1F27A49DCF9D8C0_TypeDefinitionIndex = 48882;
 
 class Class_3_D1F27A49DCF9D8C0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::HipplenGameSwitchCamera*>
 {

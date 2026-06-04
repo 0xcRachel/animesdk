@@ -7,25 +7,25 @@ namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class GameObject; }
 
-#define MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG_AUTOCLOSECOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x15F10DC0)
-#define MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x15F10430)
-#define MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x15F10E50)
-#define MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x15F103C0)
-#define MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15F10E10)
-#define MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x15F007D0)
-#define MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG_UPDATECOUNTDOWNTIPS_OFFSET UNITYSDK_OFFSET(0x15F10BA0)
-#define MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x15F10EF0)
+#define MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG_AUTOCLOSECOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x161A8BB0)
+#define MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x161A8200)
+#define MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x161A8C20)
+#define MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x161A8190)
+#define MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x161A8C00)
+#define MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x161989E0)
+#define MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG_UPDATECOUNTDOWNTIPS_OFFSET UNITYSDK_OFFSET(0x161A8990)
+#define MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x161A8CD0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int PS4BindResultDialog_TypeDefinitionIndex = 7777;
+	inline static constexpr unsigned int PS4BindResultDialog_TypeDefinitionIndex = 8680;
 
 	class PS4BindResultDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:
 		static ::MiHoYo::SDK::Console::PS4BindResultDialog** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Console::PS4BindResultDialog**)Il2CppClass::FromTypeDefinitionIndex(PS4BindResultDialog_TypeDefinitionIndex)->GetStaticField(0xBDC0);
+			return (::MiHoYo::SDK::Console::PS4BindResultDialog**)Il2CppClass::FromTypeDefinitionIndex(PS4BindResultDialog_TypeDefinitionIndex)->GetStaticField(0x11100);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* TitleTextPath; // 0x0
@@ -43,9 +43,9 @@ namespace MiHoYo::SDK::Console
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Show(::System::String* userName, ::System::String* email)
+		static ::System::Void Show(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG_SHOW_OFFSET))(userName, email);
+			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG_SHOW_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Hide()
@@ -68,9 +68,9 @@ namespace MiHoYo::SDK::Console
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG_CONFIRMDIALOG_OFFSET))(this);
 		}
 
-		::System::Void UpdateCountdownTips(::System::Single left)
+		::System::Void UpdateCountdownTips(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG_UPDATECOUNTDOWNTIPS_OFFSET))(this, left);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PS4BINDRESULTDIALOG_UPDATECOUNTDOWNTIPS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::IEnumerator* AutoCloseCountdown()

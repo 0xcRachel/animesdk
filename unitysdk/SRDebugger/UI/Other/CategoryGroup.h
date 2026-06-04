@@ -7,16 +7,16 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI { class Toggle; }
 
-#define SRDEBUGGER_UI_OTHER_CATEGORYGROUP_GET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0x17C56540)
-#define SRDEBUGGER_UI_OTHER_CATEGORYGROUP_GET_SELECTIONMODEENABLED_OFFSET UNITYSDK_OFFSET(0x17C565E0)
-#define SRDEBUGGER_UI_OTHER_CATEGORYGROUP_SET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0x17C56560)
-#define SRDEBUGGER_UI_OTHER_CATEGORYGROUP_SET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x17C56680)
-#define SRDEBUGGER_UI_OTHER_CATEGORYGROUP_SET_SELECTIONMODEENABLED_OFFSET UNITYSDK_OFFSET(0x17C565F0)
-#define SRDEBUGGER_UI_OTHER_CATEGORYGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x17C566B0)
+#define SRDEBUGGER_UI_OTHER_CATEGORYGROUP_GET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0x18701ED0)
+#define SRDEBUGGER_UI_OTHER_CATEGORYGROUP_GET_SELECTIONMODEENABLED_OFFSET UNITYSDK_OFFSET(0x18701F70)
+#define SRDEBUGGER_UI_OTHER_CATEGORYGROUP_SET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0x18701EF0)
+#define SRDEBUGGER_UI_OTHER_CATEGORYGROUP_SET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x18701FF0)
+#define SRDEBUGGER_UI_OTHER_CATEGORYGROUP_SET_SELECTIONMODEENABLED_OFFSET UNITYSDK_OFFSET(0x18701F80)
+#define SRDEBUGGER_UI_OTHER_CATEGORYGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x18702020)
 
 namespace SRDebugger::UI::Other
 {
-	inline static constexpr unsigned int CategoryGroup_TypeDefinitionIndex = 35365;
+	inline static constexpr unsigned int CategoryGroup_TypeDefinitionIndex = 35665;
 
 	class CategoryGroup : public ::SRF::SRMonoBehaviourEx
 	{
@@ -38,9 +38,9 @@ namespace SRDebugger::UI::Other
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_CATEGORYGROUP_GET_ISSELECTED_OFFSET))(this);
 		}
 
-		::System::Void set_IsSelected(::System::Boolean value)
+		::System::Void set_IsSelected(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_CATEGORYGROUP_SET_ISSELECTED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_CATEGORYGROUP_SET_ISSELECTED_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_SelectionModeEnabled()
@@ -48,14 +48,14 @@ namespace SRDebugger::UI::Other
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_CATEGORYGROUP_GET_SELECTIONMODEENABLED_OFFSET))(this);
 		}
 
-		::System::Void set_SelectionModeEnabled(::System::Boolean value)
+		::System::Void set_SelectionModeEnabled(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_CATEGORYGROUP_SET_SELECTIONMODEENABLED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_CATEGORYGROUP_SET_SELECTIONMODEENABLED_OFFSET))(this, a1);
 		}
 
-		::System::Void set_IsShow(::System::Boolean value)
+		::System::Void set_IsShow(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_CATEGORYGROUP_SET_ISSHOW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_CATEGORYGROUP_SET_ISSHOW_OFFSET))(this, a1);
 		}
 	};
 }

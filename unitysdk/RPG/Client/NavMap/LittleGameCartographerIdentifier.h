@@ -6,22 +6,22 @@
 namespace RPG::Client::NavMap { class ICartographerIdentifier; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x2245240)
-#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_EQUALS_2_OFFSET UNITYSDK_OFFSET(0x2245250)
-#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_EQUALS_OFFSET UNITYSDK_OFFSET(0x2245160)
-#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22450C0)
-#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_GET_FLOORID_OFFSET UNITYSDK_OFFSET(0x608A20)
-#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_GET_SUBMAPID_OFFSET UNITYSDK_OFFSET(0x608600)
-#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_GET_VERSEPARAM_OFFSET UNITYSDK_OFFSET(0x1FF8210)
-#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1592F8F0)
-#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1593CB80)
-#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x2245090)
-#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0x2245360)
-#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22452F0)
+#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x37D2DD0)
+#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_EQUALS_2_OFFSET UNITYSDK_OFFSET(0x37D2DE0)
+#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_EQUALS_OFFSET UNITYSDK_OFFSET(0x37D2D00)
+#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x37D2C40)
+#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_GET_FLOORID_OFFSET UNITYSDK_OFFSET(0x72BBF0)
+#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_GET_SUBMAPID_OFFSET UNITYSDK_OFFSET(0x72B7E0)
+#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_GET_VERSEPARAM_OFFSET UNITYSDK_OFFSET(0x3742A70)
+#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x16697660)
+#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x166A4810)
+#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x37D2C10)
+#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0x37D2EE0)
+#define RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x37D2DF0)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int LittleGameCartographerIdentifier_TypeDefinitionIndex = 68753;
+	inline static constexpr unsigned int LittleGameCartographerIdentifier_TypeDefinitionIndex = 69565;
 
 	struct alignas(4) LittleGameCartographerIdentifier
 	{
@@ -29,9 +29,9 @@ namespace RPG::Client::NavMap
 		::System::UInt32 _SubMapID_k__BackingField; // 0x14
 		::RPG::Client::VerseParam _VerseParam_k__BackingField; // 0x18
 
-		::System::Void _ctor(::RPG::Client::VerseParam verseParam, ::System::UInt32 floorID, ::System::UInt32 subMapID)
+		::System::Void _ctor(::RPG::Client::VerseParam a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::VerseParam, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER__CTOR_OFFSET))(this, verseParam, floorID, subMapID);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::VerseParam, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 get_FloorID()
@@ -54,29 +54,29 @@ namespace RPG::Client::NavMap
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::RPG::Client::NavMap::LittleGameCartographerIdentifier other)
+		::System::Boolean Equals(::RPG::Client::NavMap::LittleGameCartographerIdentifier a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::LittleGameCartographerIdentifier))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::LittleGameCartographerIdentifier))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::RPG::Client::NavMap::ICartographerIdentifier* obj)
+		::System::Boolean Equals_1(::RPG::Client::NavMap::ICartographerIdentifier* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::ICartographerIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::ICartographerIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_EQUALS_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_2(::System::Object* obj)
+		::System::Boolean Equals_2(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_EQUALS_2_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_EQUALS_2_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean op_Equality(::RPG::Client::NavMap::LittleGameCartographerIdentifier left, ::RPG::Client::NavMap::ICartographerIdentifier* right)
+		static ::System::Boolean op_Equality(::RPG::Client::NavMap::LittleGameCartographerIdentifier a1, ::RPG::Client::NavMap::ICartographerIdentifier* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::NavMap::LittleGameCartographerIdentifier, ::RPG::Client::NavMap::ICartographerIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_OP_EQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::RPG::Client::NavMap::LittleGameCartographerIdentifier, ::RPG::Client::NavMap::ICartographerIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::RPG::Client::NavMap::LittleGameCartographerIdentifier left, ::RPG::Client::NavMap::ICartographerIdentifier* right)
+		static ::System::Boolean op_Inequality(::RPG::Client::NavMap::LittleGameCartographerIdentifier a1, ::RPG::Client::NavMap::ICartographerIdentifier* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::NavMap::LittleGameCartographerIdentifier, ::RPG::Client::NavMap::ICartographerIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_OP_INEQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::RPG::Client::NavMap::LittleGameCartographerIdentifier, ::RPG::Client::NavMap::ICartographerIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
 		::System::Int32 __iFixBaseProxy_GetHashCode()
@@ -84,9 +84,9 @@ namespace RPG::Client::NavMap
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER___IFIXBASEPROXY_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean __iFixBaseProxy_Equals(::System::Object* P0)
+		::System::Boolean __iFixBaseProxy_Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER___IFIXBASEPROXY_EQUALS_OFFSET))(this, P0);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_LITTLEGAMECARTOGRAPHERIDENTIFIER___IFIXBASEPROXY_EQUALS_OFFSET))(this, a1);
 		}
 	};
 }

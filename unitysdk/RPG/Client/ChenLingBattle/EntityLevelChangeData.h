@@ -4,11 +4,11 @@
 
 namespace RPG::Client::ChenLingBattle { class IEntity; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_ENTITYLEVELCHANGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17CAE290)
+#define RPG_CLIENT_CHENLINGBATTLE_ENTITYLEVELCHANGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18DC6310)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int EntityLevelChangeData_TypeDefinitionIndex = 70003;
+	inline static constexpr unsigned int EntityLevelChangeData_TypeDefinitionIndex = 70815;
 
 	class EntityLevelChangeData : public ::System::Object
 	{

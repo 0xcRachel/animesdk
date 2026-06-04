@@ -4,15 +4,15 @@
 
 namespace RPG::Client { class GachaTokenData; }
 
-#define RPG_CLIENT_GACHADRAWDATA_GETGOLDCOSTNUM_OFFSET UNITYSDK_OFFSET(0x15507FF0)
-#define RPG_CLIENT_GACHADRAWDATA_GETTOKENCOSTNUM_OFFSET UNITYSDK_OFFSET(0x15508050)
-#define RPG_CLIENT_GACHADRAWDATA_HAVEDISCOUNT_OFFSET UNITYSDK_OFFSET(0x155080A0)
-#define RPG_CLIENT_GACHADRAWDATA_SETTOKENPRICE_OFFSET UNITYSDK_OFFSET(0x15507F90)
-#define RPG_CLIENT_GACHADRAWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15507E50)
+#define RPG_CLIENT_GACHADRAWDATA_GETGOLDCOSTNUM_OFFSET UNITYSDK_OFFSET(0x15FFE0C0)
+#define RPG_CLIENT_GACHADRAWDATA_GETTOKENCOSTNUM_OFFSET UNITYSDK_OFFSET(0x15FFE120)
+#define RPG_CLIENT_GACHADRAWDATA_HAVEDISCOUNT_OFFSET UNITYSDK_OFFSET(0x15FFE170)
+#define RPG_CLIENT_GACHADRAWDATA_SETTOKENPRICE_OFFSET UNITYSDK_OFFSET(0x15FFE060)
+#define RPG_CLIENT_GACHADRAWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15FFDF30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GachaDrawData_TypeDefinitionIndex = 59157;
+	inline static constexpr unsigned int GachaDrawData_TypeDefinitionIndex = 60091;
 
 	class GachaDrawData : public ::System::Object
 	{
@@ -21,17 +21,17 @@ namespace RPG::Client
 		// static const ::System::Single _DEFAULT_TOKEN_COST_PER_DRAW; // 0x0
 		::RPG::Client::GachaTokenData* _GachaTokenData; // 0x10
 		::System::Single TokenCostNumPerDraw; // 0x18
-		::System::Boolean Active; // 0x1C
-		::System::Int32 DrawTime; // 0x20
+		::System::Int32 DrawTime; // 0x1C
+		::System::Boolean Active; // 0x20
 
-		::System::Void _ctor(::System::UInt32 itemID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHADRAWDATA__CTOR_OFFSET))(this, itemID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHADRAWDATA__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void SetTokenPrice(::System::UInt32 price)
+		::System::Void SetTokenPrice(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHADRAWDATA_SETTOKENPRICE_OFFSET))(this, price);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHADRAWDATA_SETTOKENPRICE_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetGoldCostNum()

@@ -18,102 +18,102 @@ namespace System::Reflection { class MethodInfo; }
 namespace System::Text { class StringBuilder; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 
-#define MIHOYO_SDK_BROWSERWIN32HELPER_ATTACHTHREADINPUT_OFFSET UNITYSDK_OFFSET(0x17368D50)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_AUTOADJUSTWNDZORDER_OFFSET UNITYSDK_OFFSET(0x17369720)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1736AF70)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_BRINGBROWSERFOREGROUND_OFFSET UNITYSDK_OFFSET(0x1736BC50)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_BRINGGAMEWNDFOREGROUND_OFFSET UNITYSDK_OFFSET(0x1736BBB0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_CALLWINDOWPROC_OFFSET UNITYSDK_OFFSET(0x17367500)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_CLIENTTOSCREEN_OFFSET UNITYSDK_OFFSET(0x17367960)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_CONVERTRECTFROMGAMETOGDICORE_OFFSET UNITYSDK_OFFSET(0x1736C530)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_CONVERTRECTFROMGAMETOGDI_OFFSET UNITYSDK_OFFSET(0x1736C900)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_DEFSUBCLASSPROC_OFFSET UNITYSDK_OFFSET(0x17367DE0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMDISPLAYSETTINGS_OFFSET UNITYSDK_OFFSET(0x17368790)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMTHREADWINDOWSPROC_OFFSET UNITYSDK_OFFSET(0x173667C0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMTHREADWINDOWS_OFFSET UNITYSDK_OFFSET(0x17367420)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_FINDWINDOWEX_OFFSET UNITYSDK_OFFSET(0x173678B0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_FORCETOFOREGROUND_OFFSET UNITYSDK_OFFSET(0x1736B350)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_GETBROWSERMANAGER_OFFSET UNITYSDK_OFFSET(0x1736AFD0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_GETCLASSNAME_OFFSET UNITYSDK_OFFSET(0x17367330)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_GETCLIENTRECT_OFFSET UNITYSDK_OFFSET(0x173676C0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_GETCURRENTDPI_OFFSET UNITYSDK_OFFSET(0x1736A110)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_GETCURRENTTHREADID_OFFSET UNITYSDK_OFFSET(0x173672B0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_GETDC_OFFSET UNITYSDK_OFFSET(0x173681D0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_GETDEVICECAPS_OFFSET UNITYSDK_OFFSET(0x17368370)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_GETDPIFORWINDOW_OFFSET UNITYSDK_OFFSET(0x17368110)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_GETFOREGROUNDWINDOW_OFFSET UNITYSDK_OFFSET(0x17368BC0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_GETMONITORINFO_OFFSET UNITYSDK_OFFSET(0x17368440)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_GETWINDOWRECT_OFFSET UNITYSDK_OFFSET(0x173675F0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_GETWINDOWTHREADPROCESSID_OFFSET UNITYSDK_OFFSET(0x17368E20)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_GET_BROWSERID_OFFSET UNITYSDK_OFFSET(0x17369280)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_GET_GAMESCREENSIZE_OFFSET UNITYSDK_OFFSET(0x1736C260)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_GET_WEBVIEWMANAGERNAME_OFFSET UNITYSDK_OFFSET(0x17369230)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_GET_WEBVIEWMANAGER_OFFSET UNITYSDK_OFFSET(0x17369250)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_HANDLEDISPLAYCHANGED_OFFSET UNITYSDK_OFFSET(0x1736B1A0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_HANDLEDPICHANGED_OFFSET UNITYSDK_OFFSET(0x1736B100)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_HANDLEKEYDOWN_OFFSET UNITYSDK_OFFSET(0x1736B250)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_HANDLEKEYUP_OFFSET UNITYSDK_OFFSET(0x1736B2D0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_ISVALIDWINDOW_OFFSET UNITYSDK_OFFSET(0x1736BF70)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_ISWINDOWVISIBLE_OFFSET UNITYSDK_OFFSET(0x17368050)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_ISWINDOW_OFFSET UNITYSDK_OFFSET(0x17367F90)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_KEYBD_EVENT_OFFSET UNITYSDK_OFFSET(0x17368C80)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_MESSAGEBOX_OFFSET UNITYSDK_OFFSET(0x17367A30)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_MONITORFROMWINDOW_OFFSET UNITYSDK_OFFSET(0x173686D0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1736C1F0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_ONNATIVEREADY_OFFSET UNITYSDK_OFFSET(0x1736C200)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_POSTMESSAGE_OFFSET UNITYSDK_OFFSET(0x17369090)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_QUERYOWNERHWNDIFNEED_OFFSET UNITYSDK_OFFSET(0x173694A0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_RELEASECAPTUREIFNEED_OFFSET UNITYSDK_OFFSET(0x1736C090)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_RELEASECAPTURE_OFFSET UNITYSDK_OFFSET(0x17369170)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_RELEASEDC_OFFSET UNITYSDK_OFFSET(0x173682A0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_REMOVESUBCLASS_1_OFFSET UNITYSDK_OFFSET(0x17369E80)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_REMOVESUBCLASS_OFFSET UNITYSDK_OFFSET(0x17369C00)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_REMOVEWINDOWSUBCLASS_OFFSET UNITYSDK_OFFSET(0x17367D10)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_SETACTIVEWINDOW_OFFSET UNITYSDK_OFFSET(0x17368EF0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_SETBROWSERWINDOWPOS_OFFSET UNITYSDK_OFFSET(0x1736A840)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_SETFOCUS_OFFSET UNITYSDK_OFFSET(0x17368FC0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_SETFOREGROUNDWINDOW_OFFSET UNITYSDK_OFFSET(0x17368B00)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_SETWINDOWLONG32_OFFSET UNITYSDK_OFFSET(0x17367790)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_SETWINDOWLONGPTR64_OFFSET UNITYSDK_OFFSET(0x17367820)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_SETWINDOWPOS_OFFSET UNITYSDK_OFFSET(0x17367B20)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_SETWINDOWSUBCLASS_OFFSET UNITYSDK_OFFSET(0x17367C30)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_SET_BROWSERID_OFFSET UNITYSDK_OFFSET(0x17369290)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_SET_WEBVIEWMANAGERNAME_OFFSET UNITYSDK_OFFSET(0x17369240)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_SHOWWINDOW_OFFSET UNITYSDK_OFFSET(0x17367EC0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_SUBCLASSOWNERWINDOW_OFFSET UNITYSDK_OFFSET(0x173698D0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_TOPMOST_OFFSET UNITYSDK_OFFSET(0x1736AD70)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_UPDATEBROWSERWINDOWPOS_OFFSET UNITYSDK_OFFSET(0x1736A6C0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_UPDATEHELPER_OFFSET UNITYSDK_OFFSET(0x1736A5D0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_WNDPROC_OFFSET UNITYSDK_OFFSET(0x17366A00)
-#define MIHOYO_SDK_BROWSERWIN32HELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1736C9F0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1736C9E0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_ATTACHTHREADINPUT_OFFSET UNITYSDK_OFFSET(0x144D1D90)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_AUTOADJUSTWNDZORDER_OFFSET UNITYSDK_OFFSET(0x144D2790)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_AWAKE_OFFSET UNITYSDK_OFFSET(0x144D3FB0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_BRINGBROWSERFOREGROUND_OFFSET UNITYSDK_OFFSET(0x144D4C60)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_BRINGGAMEWNDFOREGROUND_OFFSET UNITYSDK_OFFSET(0x144D4BC0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_CALLWINDOWPROC_OFFSET UNITYSDK_OFFSET(0x144D0550)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_CLIENTTOSCREEN_OFFSET UNITYSDK_OFFSET(0x144D09B0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_CONVERTRECTFROMGAMETOGDICORE_OFFSET UNITYSDK_OFFSET(0x144D5540)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_CONVERTRECTFROMGAMETOGDI_OFFSET UNITYSDK_OFFSET(0x144D5910)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_DEFSUBCLASSPROC_OFFSET UNITYSDK_OFFSET(0x144D0E30)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMDISPLAYSETTINGS_OFFSET UNITYSDK_OFFSET(0x144D17D0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMTHREADWINDOWSPROC_OFFSET UNITYSDK_OFFSET(0x144CF800)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMTHREADWINDOWS_OFFSET UNITYSDK_OFFSET(0x144D0470)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_FINDWINDOWEX_OFFSET UNITYSDK_OFFSET(0x144D0900)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_FORCETOFOREGROUND_OFFSET UNITYSDK_OFFSET(0x144D4360)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_GETBROWSERMANAGER_OFFSET UNITYSDK_OFFSET(0x144D4010)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_GETCLASSNAME_OFFSET UNITYSDK_OFFSET(0x144D0380)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_GETCLIENTRECT_OFFSET UNITYSDK_OFFSET(0x144D0710)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_GETCURRENTDPI_OFFSET UNITYSDK_OFFSET(0x144D3150)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_GETCURRENTTHREADID_OFFSET UNITYSDK_OFFSET(0x144D0300)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_GETDC_OFFSET UNITYSDK_OFFSET(0x144D1220)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_GETDEVICECAPS_OFFSET UNITYSDK_OFFSET(0x144D13C0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_GETDPIFORWINDOW_OFFSET UNITYSDK_OFFSET(0x144D1160)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_GETFOREGROUNDWINDOW_OFFSET UNITYSDK_OFFSET(0x144D1C00)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_GETMONITORINFO_OFFSET UNITYSDK_OFFSET(0x144D1490)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_GETWINDOWRECT_OFFSET UNITYSDK_OFFSET(0x144D0640)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_GETWINDOWTHREADPROCESSID_OFFSET UNITYSDK_OFFSET(0x144D1E60)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_GET_BROWSERID_OFFSET UNITYSDK_OFFSET(0x144D22C0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_GET_GAMESCREENSIZE_OFFSET UNITYSDK_OFFSET(0x144D5270)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_GET_WEBVIEWMANAGERNAME_OFFSET UNITYSDK_OFFSET(0x144D2270)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_GET_WEBVIEWMANAGER_OFFSET UNITYSDK_OFFSET(0x144D2290)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_HANDLEDISPLAYCHANGED_OFFSET UNITYSDK_OFFSET(0x144D41B0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_HANDLEDPICHANGED_OFFSET UNITYSDK_OFFSET(0x144D4110)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_HANDLEKEYDOWN_OFFSET UNITYSDK_OFFSET(0x144D4260)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_HANDLEKEYUP_OFFSET UNITYSDK_OFFSET(0x144D42E0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_ISVALIDWINDOW_OFFSET UNITYSDK_OFFSET(0x144D4F80)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_ISWINDOWVISIBLE_OFFSET UNITYSDK_OFFSET(0x144D10A0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_ISWINDOW_OFFSET UNITYSDK_OFFSET(0x144D0FE0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_KEYBD_EVENT_OFFSET UNITYSDK_OFFSET(0x144D1CC0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_MESSAGEBOX_OFFSET UNITYSDK_OFFSET(0x144D0A80)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_MONITORFROMWINDOW_OFFSET UNITYSDK_OFFSET(0x144D1710)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x144D5200)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_ONNATIVEREADY_OFFSET UNITYSDK_OFFSET(0x144D5210)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_POSTMESSAGE_OFFSET UNITYSDK_OFFSET(0x144D20D0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_QUERYOWNERHWNDIFNEED_OFFSET UNITYSDK_OFFSET(0x144D24F0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_RELEASECAPTUREIFNEED_OFFSET UNITYSDK_OFFSET(0x144D50A0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_RELEASECAPTURE_OFFSET UNITYSDK_OFFSET(0x144D21B0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_RELEASEDC_OFFSET UNITYSDK_OFFSET(0x144D12F0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_REMOVESUBCLASS_1_OFFSET UNITYSDK_OFFSET(0x144D2EF0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_REMOVESUBCLASS_OFFSET UNITYSDK_OFFSET(0x144D2C80)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_REMOVEWINDOWSUBCLASS_OFFSET UNITYSDK_OFFSET(0x144D0D60)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_SETACTIVEWINDOW_OFFSET UNITYSDK_OFFSET(0x144D1F30)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_SETBROWSERWINDOWPOS_OFFSET UNITYSDK_OFFSET(0x144D3880)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_SETFOCUS_OFFSET UNITYSDK_OFFSET(0x144D2000)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_SETFOREGROUNDWINDOW_OFFSET UNITYSDK_OFFSET(0x144D1B40)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_SETWINDOWLONG32_OFFSET UNITYSDK_OFFSET(0x144D07E0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_SETWINDOWLONGPTR64_OFFSET UNITYSDK_OFFSET(0x144D0870)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_SETWINDOWPOS_OFFSET UNITYSDK_OFFSET(0x144D0B70)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_SETWINDOWSUBCLASS_OFFSET UNITYSDK_OFFSET(0x144D0C80)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_SET_BROWSERID_OFFSET UNITYSDK_OFFSET(0x144D22D0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_SET_WEBVIEWMANAGERNAME_OFFSET UNITYSDK_OFFSET(0x144D2280)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_SHOWWINDOW_OFFSET UNITYSDK_OFFSET(0x144D0F10)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_SUBCLASSOWNERWINDOW_OFFSET UNITYSDK_OFFSET(0x144D2940)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_TOPMOST_OFFSET UNITYSDK_OFFSET(0x144D3DB0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_UPDATEBROWSERWINDOWPOS_OFFSET UNITYSDK_OFFSET(0x144D3720)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_UPDATEHELPER_OFFSET UNITYSDK_OFFSET(0x144D3630)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_WNDPROC_OFFSET UNITYSDK_OFFSET(0x144CFA40)
+#define MIHOYO_SDK_BROWSERWIN32HELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x144D5A00)
+#define MIHOYO_SDK_BROWSERWIN32HELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x144D59F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BrowserWin32Helper_TypeDefinitionIndex = 43166;
+	inline static constexpr unsigned int BrowserWin32Helper_TypeDefinitionIndex = 43969;
 
 	class BrowserWin32Helper : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>** StaticGet_browserIdWebViewManagerDic()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(BrowserWin32Helper_TypeDefinitionIndex)->GetStaticField(0x42650);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(BrowserWin32Helper_TypeDefinitionIndex)->GetStaticField(0xA3D0);
 		}
 		static ::System::Reflection::MethodInfo** StaticGet_methodGetSizeOfMainGameView()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(BrowserWin32Helper_TypeDefinitionIndex)->GetStaticField(0x42658);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(BrowserWin32Helper_TypeDefinitionIndex)->GetStaticField(0xA3D8);
 		}
 		static ::System::Int32* StaticGet_gameScreenSizeFrame()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BrowserWin32Helper_TypeDefinitionIndex)->GetStaticField(0xD2A0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BrowserWin32Helper_TypeDefinitionIndex)->GetStaticField(0x4280);
 		}
 		static ::UnityEngine::Vector2* StaticGet_currentGameSize()
 		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(BrowserWin32Helper_TypeDefinitionIndex)->GetStaticField(0xD2A4);
+			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(BrowserWin32Helper_TypeDefinitionIndex)->GetStaticField(0x4284);
 		}
 		static ::System::IntPtr* StaticGet_ownerHWnd()
 		{
-			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(BrowserWin32Helper_TypeDefinitionIndex)->GetStaticField(0xD2B0);
+			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(BrowserWin32Helper_TypeDefinitionIndex)->GetStaticField(0x4290);
 		}
 		// static const ::System::Int32 WM_SIZE = 0x5; // 0x0
 		// static const ::System::Int32 WM_MOVE = 0x3; // 0x0
@@ -173,129 +173,129 @@ namespace MiHoYo::SDK
 			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETCURRENTTHREADID_OFFSET))();
 		}
 
-		static ::System::Int32 GetClassName(::System::IntPtr hWnd, ::System::Text::StringBuilder* lpString, ::System::Int32 nMaxCount)
+		static ::System::Int32 GetClassName(::System::IntPtr a1, ::System::Text::StringBuilder* a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::Text::StringBuilder*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETCLASSNAME_OFFSET))(hWnd, lpString, nMaxCount);
+			return ((::System::Int32(*)(::System::IntPtr, ::System::Text::StringBuilder*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETCLASSNAME_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean EnumThreadWindows(::System::UInt32 dwThreadId, ::MiHoYo::SDK::BrowserWin32Helper_EnumWindowsProc* lpEnumFunc, ::System::IntPtr lParam)
+		static ::System::Boolean EnumThreadWindows(::System::UInt32 a1, ::MiHoYo::SDK::BrowserWin32Helper_EnumWindowsProc* a2, ::System::IntPtr a3)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::MiHoYo::SDK::BrowserWin32Helper_EnumWindowsProc*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ENUMTHREADWINDOWS_OFFSET))(dwThreadId, lpEnumFunc, lParam);
+			return ((::System::Boolean(*)(::System::UInt32, ::MiHoYo::SDK::BrowserWin32Helper_EnumWindowsProc*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ENUMTHREADWINDOWS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::IntPtr CallWindowProc(::System::IntPtr lpPrevWndFunc, ::System::IntPtr hWnd, ::System::UInt32 Msg, ::System::IntPtr wParam, ::System::IntPtr lParam)
+		static ::System::IntPtr CallWindowProc(::System::IntPtr a1, ::System::IntPtr a2, ::System::UInt32 a3, ::System::IntPtr a4, ::System::IntPtr a5)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr, ::System::IntPtr, ::System::UInt32, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_CALLWINDOWPROC_OFFSET))(lpPrevWndFunc, hWnd, Msg, wParam, lParam);
+			return ((::System::IntPtr(*)(::System::IntPtr, ::System::IntPtr, ::System::UInt32, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_CALLWINDOWPROC_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean GetWindowRect(::System::IntPtr hwnd, ::MiHoYo::SDK::BrowserWin32Helper_RECT& lpRect)
+		static ::System::Boolean GetWindowRect(::System::IntPtr a1, ::MiHoYo::SDK::BrowserWin32Helper_RECT& a2)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr, ::MiHoYo::SDK::BrowserWin32Helper_RECT&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETWINDOWRECT_OFFSET))(hwnd, lpRect);
+			return ((::System::Boolean(*)(::System::IntPtr, ::MiHoYo::SDK::BrowserWin32Helper_RECT&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETWINDOWRECT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetClientRect(::System::IntPtr hWnd, ::MiHoYo::SDK::BrowserWin32Helper_RECT& lpRect)
+		static ::System::Boolean GetClientRect(::System::IntPtr a1, ::MiHoYo::SDK::BrowserWin32Helper_RECT& a2)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr, ::MiHoYo::SDK::BrowserWin32Helper_RECT&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETCLIENTRECT_OFFSET))(hWnd, lpRect);
+			return ((::System::Boolean(*)(::System::IntPtr, ::MiHoYo::SDK::BrowserWin32Helper_RECT&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETCLIENTRECT_OFFSET))(a1, a2);
 		}
 
-		static ::System::IntPtr SetWindowLong32(::System::IntPtr hWnd, ::System::Int32 nIndex, ::System::IntPtr dwNewLong)
+		static ::System::IntPtr SetWindowLong32(::System::IntPtr a1, ::System::Int32 a2, ::System::IntPtr a3)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SETWINDOWLONG32_OFFSET))(hWnd, nIndex, dwNewLong);
+			return ((::System::IntPtr(*)(::System::IntPtr, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SETWINDOWLONG32_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::IntPtr SetWindowLongPtr64(::System::IntPtr hWnd, ::System::Int32 nIndex, ::System::IntPtr dwNewLong)
+		static ::System::IntPtr SetWindowLongPtr64(::System::IntPtr a1, ::System::Int32 a2, ::System::IntPtr a3)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SETWINDOWLONGPTR64_OFFSET))(hWnd, nIndex, dwNewLong);
+			return ((::System::IntPtr(*)(::System::IntPtr, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SETWINDOWLONGPTR64_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::IntPtr FindWindowEx(::System::IntPtr hParentWnd, ::System::IntPtr hChildWndAfter, ::System::String* lpszClass, ::System::String* lpszWindow)
+		static ::System::IntPtr FindWindowEx(::System::IntPtr a1, ::System::IntPtr a2, ::System::String* a3, ::System::String* a4)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr, ::System::IntPtr, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_FINDWINDOWEX_OFFSET))(hParentWnd, hChildWndAfter, lpszClass, lpszWindow);
+			return ((::System::IntPtr(*)(::System::IntPtr, ::System::IntPtr, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_FINDWINDOWEX_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 ClientToScreen(::System::IntPtr hWnd, ::MiHoYo::SDK::BrowserWin32Helper_POINT& lpPt)
+		static ::System::Int32 ClientToScreen(::System::IntPtr a1, ::MiHoYo::SDK::BrowserWin32Helper_POINT& a2)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::MiHoYo::SDK::BrowserWin32Helper_POINT&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_CLIENTTOSCREEN_OFFSET))(hWnd, lpPt);
+			return ((::System::Int32(*)(::System::IntPtr, ::MiHoYo::SDK::BrowserWin32Helper_POINT&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_CLIENTTOSCREEN_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 MessageBox(::System::IntPtr hWnd, ::System::String* lpText, ::System::String* lpCaption, ::System::UInt32 uType)
+		static ::System::Int32 MessageBox(::System::IntPtr a1, ::System::String* a2, ::System::String* a3, ::System::UInt32 a4)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::String*, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_MESSAGEBOX_OFFSET))(hWnd, lpText, lpCaption, uType);
+			return ((::System::Int32(*)(::System::IntPtr, ::System::String*, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_MESSAGEBOX_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean SetWindowPos(::System::IntPtr hWnd, ::System::IntPtr hWndInsertAfter, ::System::Int32 x, ::System::Int32 y, ::System::Int32 cx, ::System::Int32 cy, ::System::UInt32 uFlags)
+		static ::System::Boolean SetWindowPos(::System::IntPtr a1, ::System::IntPtr a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::UInt32 a7)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr, ::System::IntPtr, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SETWINDOWPOS_OFFSET))(hWnd, hWndInsertAfter, x, y, cx, cy, uFlags);
+			return ((::System::Boolean(*)(::System::IntPtr, ::System::IntPtr, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SETWINDOWPOS_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Int32 SetWindowSubclass(::System::IntPtr hWnd, ::MiHoYo::SDK::BrowserWin32Helper_WndProcDelegate* pfnSubclass, ::System::IntPtr uIdSubclass, ::System::IntPtr dwRefData)
+		static ::System::Int32 SetWindowSubclass(::System::IntPtr a1, ::MiHoYo::SDK::BrowserWin32Helper_WndProcDelegate* a2, ::System::IntPtr a3, ::System::IntPtr a4)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::MiHoYo::SDK::BrowserWin32Helper_WndProcDelegate*, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SETWINDOWSUBCLASS_OFFSET))(hWnd, pfnSubclass, uIdSubclass, dwRefData);
+			return ((::System::Int32(*)(::System::IntPtr, ::MiHoYo::SDK::BrowserWin32Helper_WndProcDelegate*, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SETWINDOWSUBCLASS_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 RemoveWindowSubclass(::System::IntPtr hWnd, ::MiHoYo::SDK::BrowserWin32Helper_WndProcDelegate* pfnSubclass, ::System::IntPtr uIdSubclass)
+		static ::System::Int32 RemoveWindowSubclass(::System::IntPtr a1, ::MiHoYo::SDK::BrowserWin32Helper_WndProcDelegate* a2, ::System::IntPtr a3)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::MiHoYo::SDK::BrowserWin32Helper_WndProcDelegate*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_REMOVEWINDOWSUBCLASS_OFFSET))(hWnd, pfnSubclass, uIdSubclass);
+			return ((::System::Int32(*)(::System::IntPtr, ::MiHoYo::SDK::BrowserWin32Helper_WndProcDelegate*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_REMOVEWINDOWSUBCLASS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::IntPtr DefSubclassProc(::System::IntPtr hWnd, ::System::UInt32 Msg, ::System::IntPtr wParam, ::System::IntPtr lParam)
+		static ::System::IntPtr DefSubclassProc(::System::IntPtr a1, ::System::UInt32 a2, ::System::IntPtr a3, ::System::IntPtr a4)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr, ::System::UInt32, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_DEFSUBCLASSPROC_OFFSET))(hWnd, Msg, wParam, lParam);
+			return ((::System::IntPtr(*)(::System::IntPtr, ::System::UInt32, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_DEFSUBCLASSPROC_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean ShowWindow(::System::IntPtr hWnd, ::System::Int32 nCmdShow)
+		static ::System::Boolean ShowWindow(::System::IntPtr a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SHOWWINDOW_OFFSET))(hWnd, nCmdShow);
+			return ((::System::Boolean(*)(::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SHOWWINDOW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsWindow(::System::IntPtr hWnd)
+		static ::System::Boolean IsWindow(::System::IntPtr a1)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ISWINDOW_OFFSET))(hWnd);
+			return ((::System::Boolean(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ISWINDOW_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsWindowVisible(::System::IntPtr hWnd)
+		static ::System::Boolean IsWindowVisible(::System::IntPtr a1)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ISWINDOWVISIBLE_OFFSET))(hWnd);
+			return ((::System::Boolean(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ISWINDOWVISIBLE_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetDpiForWindow(::System::IntPtr hWnd)
+		static ::System::UInt32 GetDpiForWindow(::System::IntPtr a1)
 		{
-			return ((::System::UInt32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETDPIFORWINDOW_OFFSET))(hWnd);
+			return ((::System::UInt32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETDPIFORWINDOW_OFFSET))(a1);
 		}
 
-		static ::System::IntPtr GetDC(::System::IntPtr hWnd)
+		static ::System::IntPtr GetDC(::System::IntPtr a1)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETDC_OFFSET))(hWnd);
+			return ((::System::IntPtr(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETDC_OFFSET))(a1);
 		}
 
-		static ::System::Int32 ReleaseDC(::System::IntPtr hWnd, ::System::IntPtr hDC)
+		static ::System::Int32 ReleaseDC(::System::IntPtr a1, ::System::IntPtr a2)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_RELEASEDC_OFFSET))(hWnd, hDC);
+			return ((::System::Int32(*)(::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_RELEASEDC_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 GetDeviceCaps(::System::IntPtr hDC, ::System::Int32 index)
+		static ::System::Int32 GetDeviceCaps(::System::IntPtr a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETDEVICECAPS_OFFSET))(hDC, index);
+			return ((::System::Int32(*)(::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETDEVICECAPS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetMonitorInfo(::System::IntPtr monitorHandle, ::MiHoYo::SDK::BrowserWin32Helper_MONITORINFOEX* mInfo)
+		static ::System::Boolean GetMonitorInfo(::System::IntPtr a1, ::MiHoYo::SDK::BrowserWin32Helper_MONITORINFOEX* a2)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr, ::MiHoYo::SDK::BrowserWin32Helper_MONITORINFOEX*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETMONITORINFO_OFFSET))(monitorHandle, mInfo);
+			return ((::System::Boolean(*)(::System::IntPtr, ::MiHoYo::SDK::BrowserWin32Helper_MONITORINFOEX*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETMONITORINFO_OFFSET))(a1, a2);
 		}
 
-		static ::System::IntPtr MonitorFromWindow(::System::IntPtr hwnd, ::System::UInt32 dwFlags)
+		static ::System::IntPtr MonitorFromWindow(::System::IntPtr a1, ::System::UInt32 a2)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr, ::System::UInt32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_MONITORFROMWINDOW_OFFSET))(hwnd, dwFlags);
+			return ((::System::IntPtr(*)(::System::IntPtr, ::System::UInt32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_MONITORFROMWINDOW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 EnumDisplaySettings(::System::String* lpszDeviceName, ::System::Int32 iModeNum, ::MiHoYo::SDK::BrowserWin32Helper_DEVMODE& lpDevMode)
+		static ::System::Int32 EnumDisplaySettings(::System::String* a1, ::System::Int32 a2, ::MiHoYo::SDK::BrowserWin32Helper_DEVMODE& a3)
 		{
-			return ((::System::Int32(*)(::System::String*, ::System::Int32, ::MiHoYo::SDK::BrowserWin32Helper_DEVMODE&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ENUMDISPLAYSETTINGS_OFFSET))(lpszDeviceName, iModeNum, lpDevMode);
+			return ((::System::Int32(*)(::System::String*, ::System::Int32, ::MiHoYo::SDK::BrowserWin32Helper_DEVMODE&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ENUMDISPLAYSETTINGS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean SetForegroundWindow(::System::IntPtr hWnd)
+		static ::System::Boolean SetForegroundWindow(::System::IntPtr a1)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SETFOREGROUNDWINDOW_OFFSET))(hWnd);
+			return ((::System::Boolean(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SETFOREGROUNDWINDOW_OFFSET))(a1);
 		}
 
 		static ::System::IntPtr GetForegroundWindow()
@@ -303,34 +303,34 @@ namespace MiHoYo::SDK
 			return ((::System::IntPtr(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETFOREGROUNDWINDOW_OFFSET))();
 		}
 
-		static ::System::Void keybd_event(::System::Int32 bVk, ::System::Int32 bScan, ::System::Int32 dwFlags, ::System::IntPtr dwExtraInfo)
+		static ::System::Void keybd_event(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::IntPtr a4)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_KEYBD_EVENT_OFFSET))(bVk, bScan, dwFlags, dwExtraInfo);
+			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_KEYBD_EVENT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean AttachThreadInput(::System::UInt32 idAttach, ::System::UInt32 idAttachTo, ::System::Boolean fAttach)
+		static ::System::Boolean AttachThreadInput(::System::UInt32 a1, ::System::UInt32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ATTACHTHREADINPUT_OFFSET))(idAttach, idAttachTo, fAttach);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ATTACHTHREADINPUT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::UInt32 GetWindowThreadProcessId(::System::IntPtr hWnd, ::System::UInt32& lpdwProcessId)
+		static ::System::UInt32 GetWindowThreadProcessId(::System::IntPtr a1, ::System::UInt32& a2)
 		{
-			return ((::System::UInt32(*)(::System::IntPtr, ::System::UInt32&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETWINDOWTHREADPROCESSID_OFFSET))(hWnd, lpdwProcessId);
+			return ((::System::UInt32(*)(::System::IntPtr, ::System::UInt32&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETWINDOWTHREADPROCESSID_OFFSET))(a1, a2);
 		}
 
-		static ::System::IntPtr SetActiveWindow(::System::IntPtr hWnd)
+		static ::System::IntPtr SetActiveWindow(::System::IntPtr a1)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SETACTIVEWINDOW_OFFSET))(hWnd);
+			return ((::System::IntPtr(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SETACTIVEWINDOW_OFFSET))(a1);
 		}
 
-		static ::System::IntPtr SetFocus(::System::IntPtr hWnd)
+		static ::System::IntPtr SetFocus(::System::IntPtr a1)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SETFOCUS_OFFSET))(hWnd);
+			return ((::System::IntPtr(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SETFOCUS_OFFSET))(a1);
 		}
 
-		static ::System::IntPtr PostMessage(::System::IntPtr hWnd, ::System::UInt32 msg, ::System::IntPtr wParam, ::System::IntPtr lParam)
+		static ::System::IntPtr PostMessage(::System::IntPtr a1, ::System::UInt32 a2, ::System::IntPtr a3, ::System::IntPtr a4)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr, ::System::UInt32, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_POSTMESSAGE_OFFSET))(hWnd, msg, wParam, lParam);
+			return ((::System::IntPtr(*)(::System::IntPtr, ::System::UInt32, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_POSTMESSAGE_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Boolean ReleaseCapture()
@@ -343,9 +343,9 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GET_WEBVIEWMANAGERNAME_OFFSET))(this);
 		}
 
-		::System::Void set_WebViewManagerName(::System::String* value)
+		::System::Void set_WebViewManagerName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SET_WEBVIEWMANAGERNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SET_WEBVIEWMANAGERNAME_OFFSET))(this, a1);
 		}
 
 		::MiHoYo::SDK::MiHoYoSDKWebViewManager* get_WebViewManager()
@@ -358,29 +358,29 @@ namespace MiHoYo::SDK
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GET_BROWSERID_OFFSET))(this);
 		}
 
-		::System::Void set_BrowserId(::System::Int32 value)
+		::System::Void set_BrowserId(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SET_BROWSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SET_BROWSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void SubClassOwnerWindow(::System::Int32 browserId)
+		::System::Void SubClassOwnerWindow(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SUBCLASSOWNERWINDOW_OFFSET))(this, browserId);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SUBCLASSOWNERWINDOW_OFFSET))(this, a1);
 		}
 
-		static ::System::Single GetCurrentDPI(::System::IntPtr hWnd)
+		static ::System::Single GetCurrentDPI(::System::IntPtr a1)
 		{
-			return ((::System::Single(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETCURRENTDPI_OFFSET))(hWnd);
+			return ((::System::Single(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETCURRENTDPI_OFFSET))(a1);
 		}
 
-		static ::System::Boolean EnumThreadWindowsProc(::System::IntPtr hWnd, ::System::IntPtr lParam)
+		static ::System::Boolean EnumThreadWindowsProc(::System::IntPtr a1, ::System::IntPtr a2)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ENUMTHREADWINDOWSPROC_OFFSET))(hWnd, lParam);
+			return ((::System::Boolean(*)(::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ENUMTHREADWINDOWSPROC_OFFSET))(a1, a2);
 		}
 
-		::System::Void UpdateHelper(::System::Boolean affectWnd)
+		::System::Void UpdateHelper(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_UPDATEHELPER_OFFSET))(this, affectWnd);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_UPDATEHELPER_OFFSET))(this, a1);
 		}
 
 		static ::System::Void QueryOwnerHWndIfNeed()
@@ -388,19 +388,19 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_QUERYOWNERHWNDIFNEED_OFFSET))();
 		}
 
-		static ::System::Void SetBrowserWindowPos(::ZenFulcrum::EmbeddedBrowser::Browser* browser, ::System::Int32 clientX, ::System::Int32 clientY, ::System::Int32 w, ::System::Int32 h)
+		static ::System::Void SetBrowserWindowPos(::ZenFulcrum::EmbeddedBrowser::Browser* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SETBROWSERWINDOWPOS_OFFSET))(browser, clientX, clientY, w, h);
+			return ((::System::Void(*)(::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_SETBROWSERWINDOWPOS_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void TopMost(::System::IntPtr hWnd, ::System::Boolean topMost)
+		static ::System::Void TopMost(::System::IntPtr a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_TOPMOST_OFFSET))(hWnd, topMost);
+			return ((::System::Void(*)(::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_TOPMOST_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void AutoAdjustWndZOrder(::ZenFulcrum::EmbeddedBrowser::Browser* browser)
+		static ::System::Void AutoAdjustWndZOrder(::ZenFulcrum::EmbeddedBrowser::Browser* a1)
 		{
-			return ((::System::Void(*)(::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_AUTOADJUSTWNDZORDER_OFFSET))(browser);
+			return ((::System::Void(*)(::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_AUTOADJUSTWNDZORDER_OFFSET))(a1);
 		}
 
 		::System::Void Awake()
@@ -408,34 +408,34 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_AWAKE_OFFSET))(this);
 		}
 
-		static ::MiHoYo::SDK::MiHoYoSDKWebViewManager* GetBrowserManager(::System::Int32 browserId)
+		static ::MiHoYo::SDK::MiHoYoSDKWebViewManager* GetBrowserManager(::System::Int32 a1)
 		{
-			return ((::MiHoYo::SDK::MiHoYoSDKWebViewManager*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETBROWSERMANAGER_OFFSET))(browserId);
+			return ((::MiHoYo::SDK::MiHoYoSDKWebViewManager*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GETBROWSERMANAGER_OFFSET))(a1);
 		}
 
-		static ::System::Void UpdateBrowserWindowPos(::System::Int32 browserId, ::System::Boolean recalculateSize)
+		static ::System::Void UpdateBrowserWindowPos(::System::Int32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_UPDATEBROWSERWINDOWPOS_OFFSET))(browserId, recalculateSize);
+			return ((::System::Void(*)(::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_UPDATEBROWSERWINDOWPOS_OFFSET))(a1, a2);
 		}
 
-		static ::System::IntPtr wndProc(::System::IntPtr hWnd, ::System::UInt32 msg, ::System::IntPtr wParam, ::System::IntPtr lParam, ::System::IntPtr uIdSubclass, ::System::IntPtr dwRefData)
+		static ::System::IntPtr wndProc(::System::IntPtr a1, ::System::UInt32 a2, ::System::IntPtr a3, ::System::IntPtr a4, ::System::IntPtr a5, ::System::IntPtr a6)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr, ::System::UInt32, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_WNDPROC_OFFSET))(hWnd, msg, wParam, lParam, uIdSubclass, dwRefData);
+			return ((::System::IntPtr(*)(::System::IntPtr, ::System::UInt32, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_WNDPROC_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Boolean ForceToForeground(::System::IntPtr hWnd, ::System::Boolean checkInput)
+		static ::System::Boolean ForceToForeground(::System::IntPtr a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_FORCETOFOREGROUND_OFFSET))(hWnd, checkInput);
+			return ((::System::Boolean(*)(::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_FORCETOFOREGROUND_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void BringGameWndForeground(::System::Boolean checkInput)
+		static ::System::Void BringGameWndForeground(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_BRINGGAMEWNDFOREGROUND_OFFSET))(checkInput);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_BRINGGAMEWNDFOREGROUND_OFFSET))(a1);
 		}
 
-		static ::System::Void BringBrowserForeground(::ZenFulcrum::EmbeddedBrowser::Browser* browser)
+		static ::System::Void BringBrowserForeground(::ZenFulcrum::EmbeddedBrowser::Browser* a1)
 		{
-			return ((::System::Void(*)(::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_BRINGBROWSERFOREGROUND_OFFSET))(browser);
+			return ((::System::Void(*)(::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_BRINGBROWSERFOREGROUND_OFFSET))(a1);
 		}
 
 		static ::System::Void ReleaseCaptureIfNeed()
@@ -443,24 +443,24 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_RELEASECAPTUREIFNEED_OFFSET))();
 		}
 
-		static ::System::Void HandleDPIChanged(::System::Single dpi, ::System::Int32 browserId, ::MiHoYo::SDK::BrowserWin32Helper_RECT suggestRt)
+		static ::System::Void HandleDPIChanged(::System::Single a1, ::System::Int32 a2, ::MiHoYo::SDK::BrowserWin32Helper_RECT a3)
 		{
-			return ((::System::Void(*)(::System::Single, ::System::Int32, ::MiHoYo::SDK::BrowserWin32Helper_RECT))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_HANDLEDPICHANGED_OFFSET))(dpi, browserId, suggestRt);
+			return ((::System::Void(*)(::System::Single, ::System::Int32, ::MiHoYo::SDK::BrowserWin32Helper_RECT))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_HANDLEDPICHANGED_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void HandleDisplayChanged(::System::Int32 browserId)
+		static ::System::Void HandleDisplayChanged(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_HANDLEDISPLAYCHANGED_OFFSET))(browserId);
+			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_HANDLEDISPLAYCHANGED_OFFSET))(a1);
 		}
 
-		static ::System::IntPtr HandleKeyDown(::System::Int32 vkCode, ::System::Int32 browserId)
+		static ::System::IntPtr HandleKeyDown(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::IntPtr(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_HANDLEKEYDOWN_OFFSET))(vkCode, browserId);
+			return ((::System::IntPtr(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_HANDLEKEYDOWN_OFFSET))(a1, a2);
 		}
 
-		static ::System::IntPtr HandleKeyuP(::System::Int32 vkCode, ::System::Int32 browserId)
+		static ::System::IntPtr HandleKeyuP(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::IntPtr(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_HANDLEKEYUP_OFFSET))(vkCode, browserId);
+			return ((::System::IntPtr(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_HANDLEKEYUP_OFFSET))(a1, a2);
 		}
 
 		::System::Void OnDestroy()
@@ -473,14 +473,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_REMOVESUBCLASS_OFFSET))(this);
 		}
 
-		static ::System::Void RemoveSubclass_1(::System::Int32 browserId)
+		static ::System::Void RemoveSubclass_1(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_REMOVESUBCLASS_1_OFFSET))(browserId);
+			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_REMOVESUBCLASS_1_OFFSET))(a1);
 		}
 
-		::System::Void OnNativeReady(::System::Int32 browserId)
+		::System::Void OnNativeReady(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ONNATIVEREADY_OFFSET))(this, browserId);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ONNATIVEREADY_OFFSET))(this, a1);
 		}
 
 		static ::UnityEngine::Vector2 get_GameScreenSize()
@@ -488,19 +488,19 @@ namespace MiHoYo::SDK
 			return ((::UnityEngine::Vector2(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_GET_GAMESCREENSIZE_OFFSET))();
 		}
 
-		static ::System::Boolean IsValidWindow(::System::IntPtr hwnd)
+		static ::System::Boolean IsValidWindow(::System::IntPtr a1)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ISVALIDWINDOW_OFFSET))(hwnd);
+			return ((::System::Boolean(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ISVALIDWINDOW_OFFSET))(a1);
 		}
 
-		static ::System::Void ConvertRectFromGameToGDICore(::System::Single& x, ::System::Single& y, ::System::Single& width, ::System::Single& height)
+		static ::System::Void ConvertRectFromGameToGDICore(::System::Single& a1, ::System::Single& a2, ::System::Single& a3, ::System::Single& a4)
 		{
-			return ((::System::Void(*)(::System::Single&, ::System::Single&, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_CONVERTRECTFROMGAMETOGDICORE_OFFSET))(x, y, width, height);
+			return ((::System::Void(*)(::System::Single&, ::System::Single&, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_CONVERTRECTFROMGAMETOGDICORE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::UnityEngine::Rect ConvertRectFromGameToGDI(::UnityEngine::Rect rt)
+		static ::UnityEngine::Rect ConvertRectFromGameToGDI(::UnityEngine::Rect a1)
 		{
-			return ((::UnityEngine::Rect(*)(::UnityEngine::Rect))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_CONVERTRECTFROMGAMETOGDI_OFFSET))(rt);
+			return ((::UnityEngine::Rect(*)(::UnityEngine::Rect))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_CONVERTRECTFROMGAMETOGDI_OFFSET))(a1);
 		}
 	};
 }

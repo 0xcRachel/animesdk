@@ -5,20 +5,20 @@
 namespace System { class String; }
 namespace UnityEngine { class Sprite; }
 
-#define UNITYENGINE_U2D_SPRITEATLAS_CANBINDTO_OFFSET UNITYSDK_OFFSET(0x1A55D620)
-#define UNITYENGINE_U2D_SPRITEATLAS_GETSPRITESSCRIPTING_OFFSET UNITYSDK_OFFSET(0x1A55D650)
-#define UNITYENGINE_U2D_SPRITEATLAS_GETSPRITESWITHNAMESCRIPTING_OFFSET UNITYSDK_OFFSET(0x1A55D670)
-#define UNITYENGINE_U2D_SPRITEATLAS_GETSPRITES_1_OFFSET UNITYSDK_OFFSET(0x1A55D660)
-#define UNITYENGINE_U2D_SPRITEATLAS_GETSPRITES_OFFSET UNITYSDK_OFFSET(0x1A55D640)
-#define UNITYENGINE_U2D_SPRITEATLAS_GETSPRITE_OFFSET UNITYSDK_OFFSET(0x1A55D630)
-#define UNITYENGINE_U2D_SPRITEATLAS_GET_ISVARIANT_OFFSET UNITYSDK_OFFSET(0x1A55D5F0)
-#define UNITYENGINE_U2D_SPRITEATLAS_GET_SPRITECOUNT_OFFSET UNITYSDK_OFFSET(0x1A55D610)
-#define UNITYENGINE_U2D_SPRITEATLAS_GET_TAG_OFFSET UNITYSDK_OFFSET(0x1A55D600)
-#define UNITYENGINE_U2D_SPRITEATLAS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A55D680)
+#define UNITYENGINE_U2D_SPRITEATLAS_CANBINDTO_OFFSET UNITYSDK_OFFSET(0x1B37BED0)
+#define UNITYENGINE_U2D_SPRITEATLAS_GETSPRITESSCRIPTING_OFFSET UNITYSDK_OFFSET(0x1B37BF00)
+#define UNITYENGINE_U2D_SPRITEATLAS_GETSPRITESWITHNAMESCRIPTING_OFFSET UNITYSDK_OFFSET(0x1B37BF20)
+#define UNITYENGINE_U2D_SPRITEATLAS_GETSPRITES_1_OFFSET UNITYSDK_OFFSET(0x1B37BF10)
+#define UNITYENGINE_U2D_SPRITEATLAS_GETSPRITES_OFFSET UNITYSDK_OFFSET(0x1B37BEF0)
+#define UNITYENGINE_U2D_SPRITEATLAS_GETSPRITE_OFFSET UNITYSDK_OFFSET(0x1B37BEE0)
+#define UNITYENGINE_U2D_SPRITEATLAS_GET_ISVARIANT_OFFSET UNITYSDK_OFFSET(0x1B37BEA0)
+#define UNITYENGINE_U2D_SPRITEATLAS_GET_SPRITECOUNT_OFFSET UNITYSDK_OFFSET(0x1B37BEC0)
+#define UNITYENGINE_U2D_SPRITEATLAS_GET_TAG_OFFSET UNITYSDK_OFFSET(0x1B37BEB0)
+#define UNITYENGINE_U2D_SPRITEATLAS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B37BF30)
 
 namespace UnityEngine::U2D
 {
-	inline static constexpr unsigned int SpriteAtlas_TypeDefinitionIndex = 4232;
+	inline static constexpr unsigned int SpriteAtlas_TypeDefinitionIndex = 4406;
 
 	class SpriteAtlas : public ::UnityEngine::Object
 	{
@@ -43,34 +43,34 @@ namespace UnityEngine::U2D
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_U2D_SPRITEATLAS_GET_SPRITECOUNT_OFFSET))(this);
 		}
 
-		::System::Boolean CanBindTo(::UnityEngine::Sprite* sprite)
+		::System::Boolean CanBindTo(::UnityEngine::Sprite* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + UNITYENGINE_U2D_SPRITEATLAS_CANBINDTO_OFFSET))(this, sprite);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + UNITYENGINE_U2D_SPRITEATLAS_CANBINDTO_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Sprite* GetSprite(::System::String* name)
+		::UnityEngine::Sprite* GetSprite(::System::String* a1)
 		{
-			return ((::UnityEngine::Sprite*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_U2D_SPRITEATLAS_GETSPRITE_OFFSET))(this, name);
+			return ((::UnityEngine::Sprite*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_U2D_SPRITEATLAS_GETSPRITE_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetSprites(::Il2CppArray<::UnityEngine::Sprite*>* sprites)
+		::System::Int32 GetSprites(::Il2CppArray<::UnityEngine::Sprite*>* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::UnityEngine::Sprite*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_U2D_SPRITEATLAS_GETSPRITES_OFFSET))(this, sprites);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::UnityEngine::Sprite*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_U2D_SPRITEATLAS_GETSPRITES_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetSprites_1(::Il2CppArray<::UnityEngine::Sprite*>* sprites, ::System::String* name)
+		::System::Int32 GetSprites_1(::Il2CppArray<::UnityEngine::Sprite*>* a1, ::System::String* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::UnityEngine::Sprite*>*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_U2D_SPRITEATLAS_GETSPRITES_1_OFFSET))(this, sprites, name);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::UnityEngine::Sprite*>*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_U2D_SPRITEATLAS_GETSPRITES_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 GetSpritesScripting(::Il2CppArray<::UnityEngine::Sprite*>* sprites)
+		::System::Int32 GetSpritesScripting(::Il2CppArray<::UnityEngine::Sprite*>* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::UnityEngine::Sprite*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_U2D_SPRITEATLAS_GETSPRITESSCRIPTING_OFFSET))(this, sprites);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::UnityEngine::Sprite*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_U2D_SPRITEATLAS_GETSPRITESSCRIPTING_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetSpritesWithNameScripting(::Il2CppArray<::UnityEngine::Sprite*>* sprites, ::System::String* name)
+		::System::Int32 GetSpritesWithNameScripting(::Il2CppArray<::UnityEngine::Sprite*>* a1, ::System::String* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::UnityEngine::Sprite*>*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_U2D_SPRITEATLAS_GETSPRITESWITHNAMESCRIPTING_OFFSET))(this, sprites, name);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::UnityEngine::Sprite*>*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_U2D_SPRITEATLAS_GETSPRITESWITHNAMESCRIPTING_OFFSET))(this, a1, a2);
 		}
 	};
 }

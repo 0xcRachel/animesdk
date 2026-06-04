@@ -4,12 +4,12 @@
 
 namespace RPG::Client::Promises { class Promise___c__DisplayClass69_0; }
 
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS69_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A718830)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS69_1__RACE_B__1_OFFSET UNITYSDK_OFFSET(0x1A7188A0)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS69_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B53CF50)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS69_1__RACE_B__1_OFFSET UNITYSDK_OFFSET(0x1B53CFC0)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass69_1_TypeDefinitionIndex = 8677;
+	inline static constexpr unsigned int Promise___c__DisplayClass69_1_TypeDefinitionIndex = 9580;
 
 	class Promise___c__DisplayClass69_1 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client::Promises
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS69_1__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Race_b__1(::System::Single v)
+		::System::Void _Race_b__1(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS69_1__RACE_B__1_OFFSET))(this, v);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS69_1__RACE_B__1_OFFSET))(this, a1);
 		}
 	};
 }

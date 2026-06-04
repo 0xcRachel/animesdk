@@ -8,15 +8,15 @@ namespace RPG::Client::CrowdAnimator { class CrowdPrototype; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_METHOD_3_4204875C2FA6F503_OFFSET UNITYSDK_OFFSET(0x16D860B0)
-#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_METHOD_3_7BAE42DF43893E29_OFFSET UNITYSDK_OFFSET(0x16D86000)
-#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_METHOD_3_EA0BA3E4AF50C583_OFFSET UNITYSDK_OFFSET(0x16D861A0)
-#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x16D86430)
-#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16D864E0)
+#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_METHOD_3_1E69147855C867D9_OFFSET UNITYSDK_OFFSET(0x17E6E5F0)
+#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_METHOD_3_4204875C2FA6F503_OFFSET UNITYSDK_OFFSET(0x17E6E6E0)
+#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_METHOD_3_EA0BA3E4AF50C583_OFFSET UNITYSDK_OFFSET(0x17E6E7C0)
+#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x17E6EA30)
+#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17E6EAD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceMoodMapConfig_TypeDefinitionIndex = 63757;
+	inline static constexpr unsigned int AudienceMoodMapConfig_TypeDefinitionIndex = 64678;
 
 	class AudienceMoodMapConfig : public ::UnityEngine::ScriptableObject
 	{
@@ -33,9 +33,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEMOODMAPCONFIG__CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::AudienceMoodMapConfig_MoodClipData* Method_3_7BAE42DF43893E29(::System::String* a1, ::System::Int32 a2)
+		::RPG::Client::AudienceMoodMapConfig_MoodClipData* Method_3_1E69147855C867D9(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::RPG::Client::AudienceMoodMapConfig_MoodClipData*(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEMOODMAPCONFIG_METHOD_3_7BAE42DF43893E29_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::AudienceMoodMapConfig_MoodClipData*(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEMOODMAPCONFIG_METHOD_3_1E69147855C867D9_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::AudienceMoodMapConfig_MoodData* Method_3_4204875C2FA6F503(::System::String* a1)

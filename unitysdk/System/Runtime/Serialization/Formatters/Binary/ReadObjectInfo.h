@@ -15,56 +15,56 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Runtime::Serialization::Formatters::Binary { class SerObjectInfoCache; }
 namespace System::Runtime::Serialization::Formatters::Binary { class SerObjectInfoInit; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_ADDVALUE_OFFSET UNITYSDK_OFFSET(0x17AF31D0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_CREATE_1_OFFSET UNITYSDK_OFFSET(0x17AEF4E0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x17AEF400)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETMEMBERINFO_OFFSET UNITYSDK_OFFSET(0x17AF3510)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETMEMBERTYPES_OFFSET UNITYSDK_OFFSET(0x17AECD50)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETMEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x17AF8C70)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETOBJECTINFO_OFFSET UNITYSDK_OFFSET(0x17AF83D0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETTYPE_OFFSET UNITYSDK_OFFSET(0x17AF3090)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITDATASTORE_OFFSET UNITYSDK_OFFSET(0x17AEDB70)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITMEMBERINFO_OFFSET UNITYSDK_OFFSET(0x17AF88C0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITNOMEMBERS_OFFSET UNITYSDK_OFFSET(0x17AF8770)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITREADCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x17AF8470)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITSIREAD_OFFSET UNITYSDK_OFFSET(0x17AF8830)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INIT_1_OFFSET UNITYSDK_OFFSET(0x17AF86E0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INIT_OFFSET UNITYSDK_OFFSET(0x17AF8420)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_OBJECTEND_OFFSET UNITYSDK_OFFSET(0x17AF1D80)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_POPULATEOBJECTMEMBERS_OFFSET UNITYSDK_OFFSET(0x17AF1A20)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_POSITION_OFFSET UNITYSDK_OFFSET(0x17AF8D90)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_PREPAREFORREUSE_OFFSET UNITYSDK_OFFSET(0x17AEDC20)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_RECORDFIXUP_OFFSET UNITYSDK_OFFSET(0x17AF3310)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17AF83C0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_ADDVALUE_OFFSET UNITYSDK_OFFSET(0x17473CC0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_CREATE_1_OFFSET UNITYSDK_OFFSET(0x17470320)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x17470240)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETMEMBERINFO_OFFSET UNITYSDK_OFFSET(0x17473FD0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETMEMBERTYPES_OFFSET UNITYSDK_OFFSET(0x1746DD70)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETMEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x17479520)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETOBJECTINFO_OFFSET UNITYSDK_OFFSET(0x17478CD0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETTYPE_OFFSET UNITYSDK_OFFSET(0x17473B80)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITDATASTORE_OFFSET UNITYSDK_OFFSET(0x1746EA10)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITMEMBERINFO_OFFSET UNITYSDK_OFFSET(0x174791C0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITNOMEMBERS_OFFSET UNITYSDK_OFFSET(0x17479070)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITREADCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x17478D70)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITSIREAD_OFFSET UNITYSDK_OFFSET(0x17479130)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INIT_1_OFFSET UNITYSDK_OFFSET(0x17478FE0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INIT_OFFSET UNITYSDK_OFFSET(0x17478D20)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_OBJECTEND_OFFSET UNITYSDK_OFFSET(0x17472A40)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_POPULATEOBJECTMEMBERS_OFFSET UNITYSDK_OFFSET(0x174726E0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_POSITION_OFFSET UNITYSDK_OFFSET(0x17479650)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_PREPAREFORREUSE_OFFSET UNITYSDK_OFFSET(0x1746EAC0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_RECORDFIXUP_OFFSET UNITYSDK_OFFSET(0x17473DE0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17478CC0)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int ReadObjectInfo_TypeDefinitionIndex = 1175;
+	inline static constexpr unsigned int ReadObjectInfo_TypeDefinitionIndex = 1174;
 
 	class ReadObjectInfo : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_readObjectInfoCounter()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ReadObjectInfo_TypeDefinitionIndex)->GetStaticField(0x4090);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ReadObjectInfo_TypeDefinitionIndex)->GetStaticField(0x4A20);
 		}
-		::System::Collections::Generic::List_1<::System::Type*>* memberTypesList; // 0x10
-		::System::Type* objectType; // 0x18
-		::System::Runtime::Serialization::StreamingContext context; // 0x20
-		::Il2CppArray<::System::String*>* wireMemberNames; // 0x30
-		::System::Runtime::Serialization::IFormatterConverter* formatterConverter; // 0x38
-		::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* cache; // 0x40
-		::Il2CppArray<::System::Type*>* wireMemberTypes; // 0x48
-		::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit; // 0x50
-		::System::Runtime::Serialization::ISerializationSurrogate* serializationSurrogate; // 0x58
-		::System::Runtime::Serialization::ObjectManager* objectManager; // 0x60
-		::System::Boolean isNamed; // 0x68
-		::System::Boolean bSimpleAssembly; // 0x69
-		::System::Boolean isTyped; // 0x6A
-		::System::Boolean isSi; // 0x6B
-		::System::Int32 objectInfoId; // 0x6C
-		::System::Int32 count; // 0x70
-		::System::Int32 lastPosition; // 0x74
+		::System::Runtime::Serialization::ObjectManager* objectManager; // 0x10
+		::System::Collections::Generic::List_1<::System::Type*>* memberTypesList; // 0x18
+		::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* cache; // 0x20
+		::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit; // 0x28
+		::Il2CppArray<::System::Type*>* wireMemberTypes; // 0x30
+		::System::Runtime::Serialization::ISerializationSurrogate* serializationSurrogate; // 0x38
+		::Il2CppArray<::System::String*>* wireMemberNames; // 0x40
+		::System::Runtime::Serialization::StreamingContext context; // 0x48
+		::System::Type* objectType; // 0x58
+		::System::Runtime::Serialization::IFormatterConverter* formatterConverter; // 0x60
+		::System::Int32 lastPosition; // 0x68
+		::System::Boolean bSimpleAssembly; // 0x6C
+		::System::Boolean isTyped; // 0x6D
+		::System::Boolean isSi; // 0x6E
+		::System::Boolean isNamed; // 0x6F
+		::System::Int32 objectInfoId; // 0x70
+		::System::Int32 count; // 0x74
 
 		::System::Void _ctor()
 		{
@@ -81,29 +81,29 @@ namespace System::Runtime::Serialization::Formatters::Binary
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_PREPAREFORREUSE_OFFSET))(this);
 		}
 
-		static ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* Create(::System::Type* objectType, ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, ::System::Runtime::Serialization::StreamingContext context, ::System::Runtime::Serialization::ObjectManager* objectManager, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit, ::System::Runtime::Serialization::IFormatterConverter* converter, ::System::Boolean bSimpleAssembly)
+		static ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* Create(::System::Type* a1, ::System::Runtime::Serialization::ISurrogateSelector* a2, ::System::Runtime::Serialization::StreamingContext a3, ::System::Runtime::Serialization::ObjectManager* a4, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* a5, ::System::Runtime::Serialization::IFormatterConverter* a6, ::System::Boolean a7)
 		{
-			return ((::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*(*)(::System::Type*, ::System::Runtime::Serialization::ISurrogateSelector*, ::System::Runtime::Serialization::StreamingContext, ::System::Runtime::Serialization::ObjectManager*, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*, ::System::Runtime::Serialization::IFormatterConverter*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_CREATE_OFFSET))(objectType, surrogateSelector, context, objectManager, serObjectInfoInit, converter, bSimpleAssembly);
+			return ((::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*(*)(::System::Type*, ::System::Runtime::Serialization::ISurrogateSelector*, ::System::Runtime::Serialization::StreamingContext, ::System::Runtime::Serialization::ObjectManager*, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*, ::System::Runtime::Serialization::IFormatterConverter*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_CREATE_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void Init(::System::Type* objectType, ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, ::System::Runtime::Serialization::StreamingContext context, ::System::Runtime::Serialization::ObjectManager* objectManager, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit, ::System::Runtime::Serialization::IFormatterConverter* converter, ::System::Boolean bSimpleAssembly)
+		::System::Void Init(::System::Type* a1, ::System::Runtime::Serialization::ISurrogateSelector* a2, ::System::Runtime::Serialization::StreamingContext a3, ::System::Runtime::Serialization::ObjectManager* a4, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* a5, ::System::Runtime::Serialization::IFormatterConverter* a6, ::System::Boolean a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Runtime::Serialization::ISurrogateSelector*, ::System::Runtime::Serialization::StreamingContext, ::System::Runtime::Serialization::ObjectManager*, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*, ::System::Runtime::Serialization::IFormatterConverter*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INIT_OFFSET))(this, objectType, surrogateSelector, context, objectManager, serObjectInfoInit, converter, bSimpleAssembly);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Runtime::Serialization::ISurrogateSelector*, ::System::Runtime::Serialization::StreamingContext, ::System::Runtime::Serialization::ObjectManager*, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*, ::System::Runtime::Serialization::IFormatterConverter*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INIT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* Create_1(::System::Type* objectType, ::Il2CppArray<::System::String*>* memberNames, ::Il2CppArray<::System::Type*>* memberTypes, ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, ::System::Runtime::Serialization::StreamingContext context, ::System::Runtime::Serialization::ObjectManager* objectManager, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit, ::System::Runtime::Serialization::IFormatterConverter* converter, ::System::Boolean bSimpleAssembly)
+		static ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* Create_1(::System::Type* a1, ::Il2CppArray<::System::String*>* a2, ::Il2CppArray<::System::Type*>* a3, ::System::Runtime::Serialization::ISurrogateSelector* a4, ::System::Runtime::Serialization::StreamingContext a5, ::System::Runtime::Serialization::ObjectManager* a6, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* a7, ::System::Runtime::Serialization::IFormatterConverter* a8, ::System::Boolean a9)
 		{
-			return ((::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*(*)(::System::Type*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::Type*>*, ::System::Runtime::Serialization::ISurrogateSelector*, ::System::Runtime::Serialization::StreamingContext, ::System::Runtime::Serialization::ObjectManager*, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*, ::System::Runtime::Serialization::IFormatterConverter*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_CREATE_1_OFFSET))(objectType, memberNames, memberTypes, surrogateSelector, context, objectManager, serObjectInfoInit, converter, bSimpleAssembly);
+			return ((::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*(*)(::System::Type*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::Type*>*, ::System::Runtime::Serialization::ISurrogateSelector*, ::System::Runtime::Serialization::StreamingContext, ::System::Runtime::Serialization::ObjectManager*, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*, ::System::Runtime::Serialization::IFormatterConverter*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_CREATE_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		::System::Void Init_1(::System::Type* objectType, ::Il2CppArray<::System::String*>* memberNames, ::Il2CppArray<::System::Type*>* memberTypes, ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, ::System::Runtime::Serialization::StreamingContext context, ::System::Runtime::Serialization::ObjectManager* objectManager, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit, ::System::Runtime::Serialization::IFormatterConverter* converter, ::System::Boolean bSimpleAssembly)
+		::System::Void Init_1(::System::Type* a1, ::Il2CppArray<::System::String*>* a2, ::Il2CppArray<::System::Type*>* a3, ::System::Runtime::Serialization::ISurrogateSelector* a4, ::System::Runtime::Serialization::StreamingContext a5, ::System::Runtime::Serialization::ObjectManager* a6, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* a7, ::System::Runtime::Serialization::IFormatterConverter* a8, ::System::Boolean a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::Type*>*, ::System::Runtime::Serialization::ISurrogateSelector*, ::System::Runtime::Serialization::StreamingContext, ::System::Runtime::Serialization::ObjectManager*, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*, ::System::Runtime::Serialization::IFormatterConverter*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INIT_1_OFFSET))(this, objectType, memberNames, memberTypes, surrogateSelector, context, objectManager, serObjectInfoInit, converter, bSimpleAssembly);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::Type*>*, ::System::Runtime::Serialization::ISurrogateSelector*, ::System::Runtime::Serialization::StreamingContext, ::System::Runtime::Serialization::ObjectManager*, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*, ::System::Runtime::Serialization::IFormatterConverter*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INIT_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		::System::Void InitReadConstructor(::System::Type* objectType, ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void InitReadConstructor(::System::Type* a1, ::System::Runtime::Serialization::ISurrogateSelector* a2, ::System::Runtime::Serialization::StreamingContext a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Runtime::Serialization::ISurrogateSelector*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITREADCONSTRUCTOR_OFFSET))(this, objectType, surrogateSelector, context);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Runtime::Serialization::ISurrogateSelector*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITREADCONSTRUCTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void InitSiRead()
@@ -121,54 +121,54 @@ namespace System::Runtime::Serialization::Formatters::Binary
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITMEMBERINFO_OFFSET))(this);
 		}
 
-		::System::Reflection::MemberInfo* GetMemberInfo(::System::String* name)
+		::System::Reflection::MemberInfo* GetMemberInfo(::System::String* a1)
 		{
-			return ((::System::Reflection::MemberInfo*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETMEMBERINFO_OFFSET))(this, name);
+			return ((::System::Reflection::MemberInfo*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETMEMBERINFO_OFFSET))(this, a1);
 		}
 
-		::System::Type* GetType(::System::String* name)
+		::System::Type* GetType(::System::String* a1)
 		{
-			return ((::System::Type*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETTYPE_OFFSET))(this, name);
+			return ((::System::Type*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETTYPE_OFFSET))(this, a1);
 		}
 
-		::System::Void AddValue(::System::String* name, ::System::Object* value, ::System::Runtime::Serialization::SerializationInfo*& si, ::Il2CppArray<::System::Object*>*& memberData)
+		::System::Void AddValue(::System::String* a1, ::System::Object* a2, ::System::Runtime::Serialization::SerializationInfo*& a3, ::Il2CppArray<::System::Object*>*& a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*, ::System::Runtime::Serialization::SerializationInfo*&, ::Il2CppArray<::System::Object*>*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_ADDVALUE_OFFSET))(this, name, value, si, memberData);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*, ::System::Runtime::Serialization::SerializationInfo*&, ::Il2CppArray<::System::Object*>*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_ADDVALUE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void InitDataStore(::System::Runtime::Serialization::SerializationInfo*& si, ::Il2CppArray<::System::Object*>*& memberData)
+		::System::Void InitDataStore(::System::Runtime::Serialization::SerializationInfo*& a1, ::Il2CppArray<::System::Object*>*& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*&, ::Il2CppArray<::System::Object*>*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITDATASTORE_OFFSET))(this, si, memberData);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*&, ::Il2CppArray<::System::Object*>*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITDATASTORE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RecordFixup(::System::Int64 objectId, ::System::String* name, ::System::Int64 idRef)
+		::System::Void RecordFixup(::System::Int64 a1, ::System::String* a2, ::System::Int64 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64, ::System::String*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_RECORDFIXUP_OFFSET))(this, objectId, name, idRef);
+			return ((::System::Void(*)(::PVOID, ::System::Int64, ::System::String*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_RECORDFIXUP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void PopulateObjectMembers(::System::Object* obj, ::Il2CppArray<::System::Object*>* memberData)
+		::System::Void PopulateObjectMembers(::System::Object* a1, ::Il2CppArray<::System::Object*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_POPULATEOBJECTMEMBERS_OFFSET))(this, obj, memberData);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_POPULATEOBJECTMEMBERS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 Position(::System::String* name)
+		::System::Int32 Position(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_POSITION_OFFSET))(this, name);
+			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_POSITION_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Type*>* GetMemberTypes(::Il2CppArray<::System::String*>* inMemberNames, ::System::Type* objectType)
+		::Il2CppArray<::System::Type*>* GetMemberTypes(::Il2CppArray<::System::String*>* a1, ::System::Type* a2)
 		{
-			return ((::Il2CppArray<::System::Type*>*(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETMEMBERTYPES_OFFSET))(this, inMemberNames, objectType);
+			return ((::Il2CppArray<::System::Type*>*(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETMEMBERTYPES_OFFSET))(this, a1, a2);
 		}
 
-		::System::Type* GetMemberType(::System::Reflection::MemberInfo* objMember)
+		::System::Type* GetMemberType(::System::Reflection::MemberInfo* a1)
 		{
-			return ((::System::Type*(*)(::PVOID, ::System::Reflection::MemberInfo*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETMEMBERTYPE_OFFSET))(this, objMember);
+			return ((::System::Type*(*)(::PVOID, ::System::Reflection::MemberInfo*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETMEMBERTYPE_OFFSET))(this, a1);
 		}
 
-		static ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* GetObjectInfo(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit)
+		static ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* GetObjectInfo(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* a1)
 		{
-			return ((::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*(*)(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETOBJECTINFO_OFFSET))(serObjectInfoInit);
+			return ((::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*(*)(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETOBJECTINFO_OFFSET))(a1);
 		}
 	};
 }

@@ -11,13 +11,13 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_CHARACTERDISSOLVE_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x15DDA430)
-#define RPG_CLIENT_CHARACTERDISSOLVE__CTOR_OFFSET UNITYSDK_OFFSET(0x15DDA480)
-#define RPG_CLIENT_CHARACTERDISSOLVE___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x15DDA520)
+#define RPG_CLIENT_CHARACTERDISSOLVE_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x17B08580)
+#define RPG_CLIENT_CHARACTERDISSOLVE__CTOR_OFFSET UNITYSDK_OFFSET(0x17B085D0)
+#define RPG_CLIENT_CHARACTERDISSOLVE___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x17B08670)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterDissolve_TypeDefinitionIndex = 64779;
+	inline static constexpr unsigned int CharacterDissolve_TypeDefinitionIndex = 65701;
 
 	class CharacterDissolve : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::CharacterDissolveBehavior*>
 	{

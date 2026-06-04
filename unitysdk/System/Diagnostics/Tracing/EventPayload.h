@@ -9,28 +9,28 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_ADD_1_OFFSET UNITYSDK_OFFSET(0x17D04370)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_ADD_OFFSET UNITYSDK_OFFSET(0x17D04320)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_CLEAR_OFFSET UNITYSDK_OFFSET(0x17D043C0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_CONTAINSKEY_OFFSET UNITYSDK_OFFSET(0x17D04420)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_CONTAINS_OFFSET UNITYSDK_OFFSET(0x17D04410)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_COPYTO_OFFSET UNITYSDK_OFFSET(0x17D04670)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17D045C0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x17D04590)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x17D045B0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x17D04120)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_GET_KEYS_OFFSET UNITYSDK_OFFSET(0x17D04100)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_GET_VALUES_OFFSET UNITYSDK_OFFSET(0x17D04110)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_REMOVE_1_OFFSET UNITYSDK_OFFSET(0x17D04710)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_REMOVE_OFFSET UNITYSDK_OFFSET(0x17D046C0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x17D042D0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17D04620)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_TRYGETVALUE_OFFSET UNITYSDK_OFFSET(0x17D04760)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD__CTOR_OFFSET UNITYSDK_OFFSET(0x17D040F0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_ADD_1_OFFSET UNITYSDK_OFFSET(0x175F7C40)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_ADD_OFFSET UNITYSDK_OFFSET(0x175F7BF0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_CLEAR_OFFSET UNITYSDK_OFFSET(0x175F7C90)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_CONTAINSKEY_OFFSET UNITYSDK_OFFSET(0x175F7CF0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_CONTAINS_OFFSET UNITYSDK_OFFSET(0x175F7CE0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_COPYTO_OFFSET UNITYSDK_OFFSET(0x175F7F40)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x175F7E90)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x175F7E60)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x175F7E80)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x175F79D0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_GET_KEYS_OFFSET UNITYSDK_OFFSET(0x175F79B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_GET_VALUES_OFFSET UNITYSDK_OFFSET(0x175F79C0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_REMOVE_1_OFFSET UNITYSDK_OFFSET(0x175F7FE0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_REMOVE_OFFSET UNITYSDK_OFFSET(0x175F7F90)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x175F7BA0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x175F7EF0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_TRYGETVALUE_OFFSET UNITYSDK_OFFSET(0x175F8030)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD__CTOR_OFFSET UNITYSDK_OFFSET(0x175F79A0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventPayload_TypeDefinitionIndex = 1593;
+	inline static constexpr unsigned int EventPayload_TypeDefinitionIndex = 1591;
 
 	class EventPayload : public ::System::Object
 	{
@@ -38,9 +38,9 @@ namespace System::Diagnostics::Tracing
 		::System::Collections::Generic::List_1<::System::Object*>* m_values; // 0x10
 		::System::Collections::Generic::List_1<::System::String*>* m_names; // 0x18
 
-		::System::Void _ctor(::System::Collections::Generic::List_1<::System::String*>* payloadNames, ::System::Collections::Generic::List_1<::System::Object*>* payloadValues)
+		::System::Void _ctor(::System::Collections::Generic::List_1<::System::String*>* a1, ::System::Collections::Generic::List_1<::System::Object*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD__CTOR_OFFSET))(this, payloadNames, payloadValues);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::Generic::ICollection_1<::System::String*>* get_Keys()
@@ -53,24 +53,24 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Collections::Generic::ICollection_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_GET_VALUES_OFFSET))(this);
 		}
 
-		::System::Object* get_Item(::System::String* key)
+		::System::Object* get_Item(::System::String* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_GET_ITEM_OFFSET))(this, key);
+			return ((::System::Object*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_GET_ITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Item(::System::String* key, ::System::Object* value)
+		::System::Void set_Item(::System::String* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_SET_ITEM_OFFSET))(this, key, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_SET_ITEM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Add(::System::String* key, ::System::Object* value)
+		::System::Void Add(::System::String* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_ADD_OFFSET))(this, key, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_ADD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Add_1(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*> payloadEntry)
+		::System::Void Add_1(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_ADD_1_OFFSET))(this, payloadEntry);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_ADD_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()
@@ -78,14 +78,14 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_CLEAR_OFFSET))(this);
 		}
 
-		::System::Boolean Contains(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*> entry)
+		::System::Boolean Contains(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_CONTAINS_OFFSET))(this, entry);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_CONTAINS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean ContainsKey(::System::String* key)
+		::System::Boolean ContainsKey(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_CONTAINSKEY_OFFSET))(this, key);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_CONTAINSKEY_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_Count()
@@ -108,24 +108,24 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
 		}
 
-		::System::Void CopyTo(::Il2CppArray<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>* payloadEntries, ::System::Int32 count)
+		::System::Void CopyTo(::Il2CppArray<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_COPYTO_OFFSET))(this, payloadEntries, count);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_COPYTO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Remove(::System::String* key)
+		::System::Boolean Remove(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_REMOVE_OFFSET))(this, key);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_REMOVE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Remove_1(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*> entry)
+		::System::Boolean Remove_1(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_REMOVE_1_OFFSET))(this, entry);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_REMOVE_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean TryGetValue(::System::String* key, ::System::Object*& value)
+		::System::Boolean TryGetValue(::System::String* a1, ::System::Object*& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_TRYGETVALUE_OFFSET))(this, key, value);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPAYLOAD_TRYGETVALUE_OFFSET))(this, a1, a2);
 		}
 	};
 }

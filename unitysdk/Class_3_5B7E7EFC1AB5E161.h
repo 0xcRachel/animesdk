@@ -7,11 +7,11 @@ namespace RPG::Client { class MemberData; }
 namespace RPG::GameCore { class AdventureModifyTeamPlayerHP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5B7E7EFC1AB5E161_METHOD_3_386DDA0C9929DC16_OFFSET UNITYSDK_OFFSET(0x11A60540)
-#define CLASS_3_5B7E7EFC1AB5E161_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11A60050)
-#define CLASS_3_5B7E7EFC1AB5E161__CTOR_OFFSET UNITYSDK_OFFSET(0x11A60020)
+#define CLASS_3_5B7E7EFC1AB5E161_METHOD_3_84F17E62E0812058_OFFSET UNITYSDK_OFFSET(0x162736B0)
+#define CLASS_3_5B7E7EFC1AB5E161_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x162731A0)
+#define CLASS_3_5B7E7EFC1AB5E161__CTOR_OFFSET UNITYSDK_OFFSET(0x16273170)
 
-inline static constexpr unsigned int Class_3_5B7E7EFC1AB5E161_TypeDefinitionIndex = 53397;
+inline static constexpr unsigned int Class_3_5B7E7EFC1AB5E161_TypeDefinitionIndex = 54110;
 
 class Class_3_5B7E7EFC1AB5E161 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdventureModifyTeamPlayerHP*>
 {
@@ -26,8 +26,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_5B7E7EFC1AB5E161_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::RPG::GameCore::FixPoint Method_3_386DDA0C9929DC16(::RPG::Client::MemberData* a1)
+	::RPG::GameCore::FixPoint Method_3_84F17E62E0812058(::RPG::Client::MemberData* a1)
 	{
-		return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::Client::MemberData*))((::PBYTE)hIl2Cpp + CLASS_3_5B7E7EFC1AB5E161_METHOD_3_386DDA0C9929DC16_OFFSET))(this, a1);
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::Client::MemberData*))((::PBYTE)hIl2Cpp + CLASS_3_5B7E7EFC1AB5E161_METHOD_3_84F17E62E0812058_OFFSET))(this, a1);
 	}
 };

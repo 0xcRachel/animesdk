@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Subway
 {
-	inline static constexpr unsigned int AirlineSubwayWay_DoorSide_TypeDefinitionIndex = 72561;
+	inline static constexpr unsigned int AirlineSubwayWay_DoorSide_TypeDefinitionIndex = 74384;
 
 	enum class AirlineSubwayWay_DoorSide : ::System::Int32
 	{

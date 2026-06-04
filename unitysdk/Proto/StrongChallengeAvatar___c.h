@@ -4,20 +4,20 @@
 
 namespace Proto { class StrongChallengeAvatar; }
 
-#define PROTO_STRONGCHALLENGEAVATAR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A593C60)
-#define PROTO_STRONGCHALLENGEAVATAR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A593CA0)
-#define PROTO_STRONGCHALLENGEAVATAR___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1A593CB0)
+#define PROTO_STRONGCHALLENGEAVATAR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB131D0)
+#define PROTO_STRONGCHALLENGEAVATAR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB13210)
+#define PROTO_STRONGCHALLENGEAVATAR___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1AB13220)
 
 namespace Proto
 {
-	inline static constexpr unsigned int StrongChallengeAvatar___c_TypeDefinitionIndex = 32361;
+	inline static constexpr unsigned int StrongChallengeAvatar___c_TypeDefinitionIndex = 32470;
 
 	class StrongChallengeAvatar___c : public ::System::Object
 	{
 	public:
 		static ::Proto::StrongChallengeAvatar___c** StaticGet___9()
 		{
-			return (::Proto::StrongChallengeAvatar___c**)Il2CppClass::FromTypeDefinitionIndex(StrongChallengeAvatar___c_TypeDefinitionIndex)->GetStaticField(0x4EAB0);
+			return (::Proto::StrongChallengeAvatar___c**)Il2CppClass::FromTypeDefinitionIndex(StrongChallengeAvatar___c_TypeDefinitionIndex)->GetStaticField(0x3F710);
 		}
 
 		static ::System::Void _cctor()

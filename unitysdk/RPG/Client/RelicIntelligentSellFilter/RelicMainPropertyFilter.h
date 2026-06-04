@@ -7,25 +7,25 @@ namespace RPG::Client { class RelicRecommendData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER_FILTER_OFFSET UNITYSDK_OFFSET(0x1602C180)
-#define RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER_GETDESC_OFFSET UNITYSDK_OFFSET(0x1602C5C0)
-#define RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER_GET_ISOPENED_OFFSET UNITYSDK_OFFSET(0x1602C0E0)
-#define RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER_SET_ISOPENED_OFFSET UNITYSDK_OFFSET(0x1602C0F0)
-#define RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1602C100)
-#define RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER__ISMATCH_OFFSET UNITYSDK_OFFSET(0x1602C3E0)
-#define RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER__ISRECOMMENDMAINPROPERTY_OFFSET UNITYSDK_OFFSET(0x1602C1D0)
+#define RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER_FILTER_OFFSET UNITYSDK_OFFSET(0x174B9040)
+#define RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER_GETDESC_OFFSET UNITYSDK_OFFSET(0x174B9490)
+#define RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER_GET_ISOPENED_OFFSET UNITYSDK_OFFSET(0x174B8FA0)
+#define RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER_SET_ISOPENED_OFFSET UNITYSDK_OFFSET(0x174B8FB0)
+#define RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x174B8FC0)
+#define RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER__ISMATCH_OFFSET UNITYSDK_OFFSET(0x174B92B0)
+#define RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER__ISRECOMMENDMAINPROPERTY_OFFSET UNITYSDK_OFFSET(0x174B9090)
 
 namespace RPG::Client::RelicIntelligentSellFilter
 {
-	inline static constexpr unsigned int RelicMainPropertyFilter_TypeDefinitionIndex = 68714;
+	inline static constexpr unsigned int RelicMainPropertyFilter_TypeDefinitionIndex = 69526;
 
 	class RelicMainPropertyFilter : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::RelicRecommendData*>* _NoDataAvatarList; // 0x10
-		::System::UInt32 FilterCount; // 0x18
-		::System::UInt32 FlagID; // 0x1C
-		::System::Boolean _IsOpened_k__BackingField; // 0x20
+		::System::Boolean _IsOpened_k__BackingField; // 0x18
+		::System::UInt32 FilterCount; // 0x1C
+		::System::UInt32 FlagID; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -37,24 +37,24 @@ namespace RPG::Client::RelicIntelligentSellFilter
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER_GET_ISOPENED_OFFSET))(this);
 		}
 
-		::System::Void set_IsOpened(::System::Boolean value)
+		::System::Void set_IsOpened(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER_SET_ISOPENED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER_SET_ISOPENED_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Filter(::RPG::Client::RelicItemData* itemData)
+		::System::Boolean Filter(::RPG::Client::RelicItemData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER_FILTER_OFFSET))(this, itemData);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER_FILTER_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _IsRecommendMainProperty(::RPG::Client::RelicItemData* itemData)
+		::System::Boolean _IsRecommendMainProperty(::RPG::Client::RelicItemData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER__ISRECOMMENDMAINPROPERTY_OFFSET))(this, itemData);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER__ISRECOMMENDMAINPROPERTY_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _IsMatch(::System::UInt32 avatarID, ::RPG::Client::RelicItemData* itemData)
+		::System::Boolean _IsMatch(::System::UInt32 a1, ::RPG::Client::RelicItemData* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER__ISMATCH_OFFSET))(this, avatarID, itemData);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICINTELLIGENTSELLFILTER_RELICMAINPROPERTYFILTER__ISMATCH_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* GetDesc()

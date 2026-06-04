@@ -9,29 +9,29 @@ namespace Epic::OnlineServices::Presence { class Info; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2321530)
-#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_PLATFORM_OFFSET UNITYSDK_OFFSET(0x2320FB0)
-#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_PRODUCTID_OFFSET UNITYSDK_OFFSET(0x2320CF0)
-#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_PRODUCTNAME_OFFSET UNITYSDK_OFFSET(0x2321350)
-#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_PRODUCTVERSION_OFFSET UNITYSDK_OFFSET(0x2320E50)
-#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_RECORDS_OFFSET UNITYSDK_OFFSET(0x2321270)
-#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_RICHTEXT_OFFSET UNITYSDK_OFFSET(0x2321110)
-#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x608600)
-#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_USERID_OFFSET UNITYSDK_OFFSET(0x2320BC0)
-#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x23214C0)
-#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x23214B0)
-#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_PLATFORM_OFFSET UNITYSDK_OFFSET(0x2321060)
-#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_PRODUCTID_OFFSET UNITYSDK_OFFSET(0x2320DA0)
-#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_PRODUCTNAME_OFFSET UNITYSDK_OFFSET(0x2321400)
-#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_PRODUCTVERSION_OFFSET UNITYSDK_OFFSET(0x2320F00)
-#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_RECORDS_OFFSET UNITYSDK_OFFSET(0x23212E0)
-#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_RICHTEXT_OFFSET UNITYSDK_OFFSET(0x23211C0)
-#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_STATUS_OFFSET UNITYSDK_OFFSET(0x878E70)
-#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_USERID_OFFSET UNITYSDK_OFFSET(0x2320C30)
+#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x38D8A60)
+#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_PLATFORM_OFFSET UNITYSDK_OFFSET(0x38D84D0)
+#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_PRODUCTID_OFFSET UNITYSDK_OFFSET(0x38D8210)
+#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_PRODUCTNAME_OFFSET UNITYSDK_OFFSET(0x38D8870)
+#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_PRODUCTVERSION_OFFSET UNITYSDK_OFFSET(0x38D8370)
+#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_RECORDS_OFFSET UNITYSDK_OFFSET(0x38D8790)
+#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_RICHTEXT_OFFSET UNITYSDK_OFFSET(0x38D8630)
+#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x72B7E0)
+#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_USERID_OFFSET UNITYSDK_OFFSET(0x38D80E0)
+#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x38D89E0)
+#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x38D89D0)
+#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_PLATFORM_OFFSET UNITYSDK_OFFSET(0x38D8580)
+#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_PRODUCTID_OFFSET UNITYSDK_OFFSET(0x38D82C0)
+#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_PRODUCTNAME_OFFSET UNITYSDK_OFFSET(0x38D8920)
+#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_PRODUCTVERSION_OFFSET UNITYSDK_OFFSET(0x38D8420)
+#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_RECORDS_OFFSET UNITYSDK_OFFSET(0x38D8800)
+#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_RICHTEXT_OFFSET UNITYSDK_OFFSET(0x38D86E0)
+#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_STATUS_OFFSET UNITYSDK_OFFSET(0xFD2470)
+#define EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_USERID_OFFSET UNITYSDK_OFFSET(0x38D8150)
 
 namespace Epic::OnlineServices::Presence
 {
-	inline static constexpr unsigned int InfoInternal_TypeDefinitionIndex = 41591;
+	inline static constexpr unsigned int InfoInternal_TypeDefinitionIndex = 42394;
 
 	struct alignas(8) InfoInternal
 	{
@@ -51,9 +51,9 @@ namespace Epic::OnlineServices::Presence
 			return ((::Epic::OnlineServices::Presence::Status(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_STATUS_OFFSET))(this);
 		}
 
-		::System::Void set_Status(::Epic::OnlineServices::Presence::Status value)
+		::System::Void set_Status(::Epic::OnlineServices::Presence::Status a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Presence::Status))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_STATUS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Presence::Status))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_STATUS_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::EpicAccountId* get_UserId()
@@ -61,9 +61,9 @@ namespace Epic::OnlineServices::Presence
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_USERID_OFFSET))(this);
 		}
 
-		::System::Void set_UserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_UserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_USERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_USERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_ProductId()
@@ -71,9 +71,9 @@ namespace Epic::OnlineServices::Presence
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_PRODUCTID_OFFSET))(this);
 		}
 
-		::System::Void set_ProductId(::System::String* value)
+		::System::Void set_ProductId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_PRODUCTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_PRODUCTID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_ProductVersion()
@@ -81,9 +81,9 @@ namespace Epic::OnlineServices::Presence
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_PRODUCTVERSION_OFFSET))(this);
 		}
 
-		::System::Void set_ProductVersion(::System::String* value)
+		::System::Void set_ProductVersion(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_PRODUCTVERSION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_PRODUCTVERSION_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Platform()
@@ -91,9 +91,9 @@ namespace Epic::OnlineServices::Presence
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_PLATFORM_OFFSET))(this);
 		}
 
-		::System::Void set_Platform(::System::String* value)
+		::System::Void set_Platform(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_PLATFORM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_PLATFORM_OFFSET))(this, a1);
 		}
 
 		::System::String* get_RichText()
@@ -101,9 +101,9 @@ namespace Epic::OnlineServices::Presence
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_RICHTEXT_OFFSET))(this);
 		}
 
-		::System::Void set_RichText(::System::String* value)
+		::System::Void set_RichText(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_RICHTEXT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_RICHTEXT_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::Epic::OnlineServices::Presence::DataRecord*>* get_Records()
@@ -111,9 +111,9 @@ namespace Epic::OnlineServices::Presence
 			return ((::Il2CppArray<::Epic::OnlineServices::Presence::DataRecord*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_RECORDS_OFFSET))(this);
 		}
 
-		::System::Void set_Records(::Il2CppArray<::Epic::OnlineServices::Presence::DataRecord*>* value)
+		::System::Void set_Records(::Il2CppArray<::Epic::OnlineServices::Presence::DataRecord*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Epic::OnlineServices::Presence::DataRecord*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_RECORDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Epic::OnlineServices::Presence::DataRecord*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_RECORDS_OFFSET))(this, a1);
 		}
 
 		::System::String* get_ProductName()
@@ -121,19 +121,19 @@ namespace Epic::OnlineServices::Presence
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_GET_PRODUCTNAME_OFFSET))(this);
 		}
 
-		::System::Void set_ProductName(::System::String* value)
+		::System::Void set_ProductName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_PRODUCTNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_PRODUCTNAME_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Presence::Info* other)
+		::System::Void Set(::Epic::OnlineServices::Presence::Info* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Presence::Info*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Presence::Info*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_INFOINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

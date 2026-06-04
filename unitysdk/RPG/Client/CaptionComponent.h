@@ -12,23 +12,23 @@ namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_CAPTIONCOMPONENT_BIND_OFFSET UNITYSDK_OFFSET(0x15E29E20)
-#define RPG_CLIENT_CAPTIONCOMPONENT_GET_CURRENTSTATE_OFFSET UNITYSDK_OFFSET(0x15E29940)
-#define RPG_CLIENT_CAPTIONCOMPONENT_GET__MOVIECONTROLLERFORUI_OFFSET UNITYSDK_OFFSET(0x15E29B40)
-#define RPG_CLIENT_CAPTIONCOMPONENT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15E29D30)
-#define RPG_CLIENT_CAPTIONCOMPONENT_REFRESHCAPTION_OFFSET UNITYSDK_OFFSET(0x15E29E90)
-#define RPG_CLIENT_CAPTIONCOMPONENT_SETCAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x15E29DD0)
-#define RPG_CLIENT_CAPTIONCOMPONENT_SETCAPTIONPARAM_OFFSET UNITYSDK_OFFSET(0x15E29D80)
-#define RPG_CLIENT_CAPTIONCOMPONENT_TICKCAPTION_OFFSET UNITYSDK_OFFSET(0x15E291C0)
-#define RPG_CLIENT_CAPTIONCOMPONENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x15E29170)
-#define RPG_CLIENT_CAPTIONCOMPONENT__CLOSECAPTION_OFFSET UNITYSDK_OFFSET(0x15E29C70)
-#define RPG_CLIENT_CAPTIONCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x15E29F00)
-#define RPG_CLIENT_CAPTIONCOMPONENT__SETCAPTIONALPHA_OFFSET UNITYSDK_OFFSET(0x15E29CC0)
-#define RPG_CLIENT_CAPTIONCOMPONENT__SHOWCAPTION_OFFSET UNITYSDK_OFFSET(0x15E29BC0)
+#define RPG_CLIENT_CAPTIONCOMPONENT_BIND_OFFSET UNITYSDK_OFFSET(0x18FBC140)
+#define RPG_CLIENT_CAPTIONCOMPONENT_GET_CURRENTSTATE_OFFSET UNITYSDK_OFFSET(0x18FBBC70)
+#define RPG_CLIENT_CAPTIONCOMPONENT_GET__MOVIECONTROLLERFORUI_OFFSET UNITYSDK_OFFSET(0x18FBBE60)
+#define RPG_CLIENT_CAPTIONCOMPONENT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18FBC050)
+#define RPG_CLIENT_CAPTIONCOMPONENT_REFRESHCAPTION_OFFSET UNITYSDK_OFFSET(0x18FBC1B0)
+#define RPG_CLIENT_CAPTIONCOMPONENT_SETCAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x18FBC0F0)
+#define RPG_CLIENT_CAPTIONCOMPONENT_SETCAPTIONPARAM_OFFSET UNITYSDK_OFFSET(0x18FBC0A0)
+#define RPG_CLIENT_CAPTIONCOMPONENT_TICKCAPTION_OFFSET UNITYSDK_OFFSET(0x18FBB500)
+#define RPG_CLIENT_CAPTIONCOMPONENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x18FBB4B0)
+#define RPG_CLIENT_CAPTIONCOMPONENT__CLOSECAPTION_OFFSET UNITYSDK_OFFSET(0x18FBBF90)
+#define RPG_CLIENT_CAPTIONCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18FBC220)
+#define RPG_CLIENT_CAPTIONCOMPONENT__SETCAPTIONALPHA_OFFSET UNITYSDK_OFFSET(0x18FBBFE0)
+#define RPG_CLIENT_CAPTIONCOMPONENT__SHOWCAPTION_OFFSET UNITYSDK_OFFSET(0x18FBBEE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CaptionComponent_TypeDefinitionIndex = 66816;
+	inline static constexpr unsigned int CaptionComponent_TypeDefinitionIndex = 67756;
 
 	class CaptionComponent : public ::UnityEngine::MonoBehaviour
 	{
@@ -63,9 +63,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAPTIONCOMPONENT_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void _ShowCaption(::RPG::Client::TextID textID)
+		::System::Void _ShowCaption(::RPG::Client::TextID a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAPTIONCOMPONENT__SHOWCAPTION_OFFSET))(this, textID);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAPTIONCOMPONENT__SHOWCAPTION_OFFSET))(this, a1);
 		}
 
 		::System::Void _CloseCaption()
@@ -73,24 +73,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAPTIONCOMPONENT__CLOSECAPTION_OFFSET))(this);
 		}
 
-		::System::Void _SetCaptionAlpha(::System::Single alpha)
+		::System::Void _SetCaptionAlpha(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAPTIONCOMPONENT__SETCAPTIONALPHA_OFFSET))(this, alpha);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAPTIONCOMPONENT__SETCAPTIONALPHA_OFFSET))(this, a1);
 		}
 
-		::System::Void SetCaptionParam(::RPG::Client::ManaVideoPlayer* _manaVideoPlayer)
+		::System::Void SetCaptionParam(::RPG::Client::ManaVideoPlayer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ManaVideoPlayer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAPTIONCOMPONENT_SETCAPTIONPARAM_OFFSET))(this, _manaVideoPlayer);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ManaVideoPlayer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAPTIONCOMPONENT_SETCAPTIONPARAM_OFFSET))(this, a1);
 		}
 
-		::System::Void SetCaptionConfig(::RPG::GameCore::VideoCaptionConfig* config)
+		::System::Void SetCaptionConfig(::RPG::GameCore::VideoCaptionConfig* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::VideoCaptionConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAPTIONCOMPONENT_SETCAPTIONCONFIG_OFFSET))(this, config);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::VideoCaptionConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAPTIONCOMPONENT_SETCAPTIONCONFIG_OFFSET))(this, a1);
 		}
 
-		::System::Void Bind(::UnityEngine::UI::Text* text, ::UnityEngine::CanvasGroup* canvasGroup, ::UnityEngine::Transform* root)
+		::System::Void Bind(::UnityEngine::UI::Text* a1, ::UnityEngine::CanvasGroup* a2, ::UnityEngine::Transform* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Text*, ::UnityEngine::CanvasGroup*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAPTIONCOMPONENT_BIND_OFFSET))(this, text, canvasGroup, root);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Text*, ::UnityEngine::CanvasGroup*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAPTIONCOMPONENT_BIND_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void RefreshCaption()

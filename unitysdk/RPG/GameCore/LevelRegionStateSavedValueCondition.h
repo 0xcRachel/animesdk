@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELREGIONSTATESAVEDVALUECONDITION_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18A422C0)
-#define RPG_GAMECORE_LEVELREGIONSTATESAVEDVALUECONDITION_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A42700)
-#define RPG_GAMECORE_LEVELREGIONSTATESAVEDVALUECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x18A422B0)
+#define RPG_GAMECORE_LEVELREGIONSTATESAVEDVALUECONDITION_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1A116320)
+#define RPG_GAMECORE_LEVELREGIONSTATESAVEDVALUECONDITION_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A116760)
+#define RPG_GAMECORE_LEVELREGIONSTATESAVEDVALUECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A116310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelRegionStateSavedValueCondition_TypeDefinitionIndex = 16492;
+	inline static constexpr unsigned int LevelRegionStateSavedValueCondition_TypeDefinitionIndex = 16523;
 
 	class LevelRegionStateSavedValueCondition : public ::RPG::GameCore::LevelRegionStateCondition
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREGIONSTATESAVEDVALUECONDITION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelRegionStateSavedValueCondition*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelRegionStateSavedValueCondition*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelRegionStateSavedValueCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREGIONSTATESAVEDVALUECONDITION_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelRegionStateSavedValueCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREGIONSTATESAVEDVALUECONDITION_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelRegionStateSavedValueCondition* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelRegionStateSavedValueCondition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelRegionStateSavedValueCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREGIONSTATESAVEDVALUECONDITION_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelRegionStateSavedValueCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREGIONSTATESAVEDVALUECONDITION_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 	};
 }

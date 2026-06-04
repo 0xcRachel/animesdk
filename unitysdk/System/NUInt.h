@@ -2,43 +2,43 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_NUINT_OP_EXPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1A5CE820)
-#define SYSTEM_NUINT_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1A5CE810)
-#define SYSTEM_NUINT_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1A5CE830)
-#define SYSTEM_NUINT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x6163B0)
-#define SYSTEM_NUINT__CTOR_OFFSET UNITYSDK_OFFSET(0x2389B20)
+#define SYSTEM_NUINT_OP_EXPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1B3846B0)
+#define SYSTEM_NUINT_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1B3846A0)
+#define SYSTEM_NUINT_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1B3846C0)
+#define SYSTEM_NUINT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x66AF20)
+#define SYSTEM_NUINT__CTOR_OFFSET UNITYSDK_OFFSET(0x39335F0)
 
 namespace System
 {
-	inline static constexpr unsigned int NUInt_TypeDefinitionIndex = 4972;
+	inline static constexpr unsigned int NUInt_TypeDefinitionIndex = 4946;
 
 	struct alignas(8) NUInt
 	{
 		::System::Void* _value; // 0x10
 
-		::System::Void _ctor(::System::UInt32 value)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_NUINT__CTOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_NUINT__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::UInt64 value)
+		::System::Void _ctor_1(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + SYSTEM_NUINT__CTOR_1_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + SYSTEM_NUINT__CTOR_1_OFFSET))(this, a1);
 		}
 
-		static ::System::NUInt op_Explicit(::System::Int32 value)
+		static ::System::NUInt op_Explicit(::System::Int32 a1)
 		{
-			return ((::System::NUInt(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NUINT_OP_EXPLICIT_OFFSET))(value);
+			return ((::System::NUInt(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NUINT_OP_EXPLICIT_OFFSET))(a1);
 		}
 
-		static ::System::Void* op_Explicit_1(::System::NUInt value)
+		static ::System::Void* op_Explicit_1(::System::NUInt a1)
 		{
-			return ((::System::Void*(*)(::System::NUInt))((::PBYTE)hIl2Cpp + SYSTEM_NUINT_OP_EXPLICIT_1_OFFSET))(value);
+			return ((::System::Void*(*)(::System::NUInt))((::PBYTE)hIl2Cpp + SYSTEM_NUINT_OP_EXPLICIT_1_OFFSET))(a1);
 		}
 
-		static ::System::NUInt op_Multiply(::System::NUInt left, ::System::NUInt right)
+		static ::System::NUInt op_Multiply(::System::NUInt a1, ::System::NUInt a2)
 		{
-			return ((::System::NUInt(*)(::System::NUInt, ::System::NUInt))((::PBYTE)hIl2Cpp + SYSTEM_NUINT_OP_MULTIPLY_OFFSET))(left, right);
+			return ((::System::NUInt(*)(::System::NUInt, ::System::NUInt))((::PBYTE)hIl2Cpp + SYSTEM_NUINT_OP_MULTIPLY_OFFSET))(a1, a2);
 		}
 	};
 }

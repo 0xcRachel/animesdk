@@ -35,50 +35,50 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class RPGInstancedItemClusterVolumeManager; }
 
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_CLEAR_OFFSET UNITYSDK_OFFSET(0xCA96A50)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_ENABLEIRISHADOW_OFFSET UNITYSDK_OFFSET(0xCA95190)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_FLASHLIGHT_OFFSET UNITYSDK_OFFSET(0xCA98390)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0xCA949B0)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_ISENABLEIRISHADOW_OFFSET UNITYSDK_OFFSET(0xCA951C0)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_LOADENVPROFILE_OFFSET UNITYSDK_OFFSET(0xCA94E00)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_1B9BAFE25893B138_OFFSET UNITYSDK_OFFSET(0xCA96630)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_2B9D478141E0F891_OFFSET UNITYSDK_OFFSET(0xCA93910)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_5AFFA079DA8B20AA_OFFSET UNITYSDK_OFFSET(0xCA98480)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_6DDC67928C034C6F_OFFSET UNITYSDK_OFFSET(0xCA93830)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_737220D2233A9067_OFFSET UNITYSDK_OFFSET(0xCA98150)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_813C8FDB3E66B6BF_OFFSET UNITYSDK_OFFSET(0xCA94660)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_83E361AE37D8A749_OFFSET UNITYSDK_OFFSET(0xCA94470)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_E11AC65AA0DC2249_OFFSET UNITYSDK_OFFSET(0xCA93EF0)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_E16066A129C758CD_OFFSET UNITYSDK_OFFSET(0xCA94850)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_E402C04CEC1622AF_OFFSET UNITYSDK_OFFSET(0xCA951F0)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_E67B8EE7D04609D0_OFFSET UNITYSDK_OFFSET(0xCA93740)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0xCA95070)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_EC90259991730611_OFFSET UNITYSDK_OFFSET(0xCA94120)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCA968E0)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_STARTHOTRELOADSERVER_OFFSET UNITYSDK_OFFSET(0xCA93AC0)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_START_OFFSET UNITYSDK_OFFSET(0xCA948F0)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_STOPHOTRELOADSERVER_OFFSET UNITYSDK_OFFSET(0xCA93DD0)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_TURNLIGHT_OFFSET UNITYSDK_OFFSET(0xCA98250)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0xCA94E70)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xCA984E0)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_CLEAR_OFFSET UNITYSDK_OFFSET(0x1405B9E0)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_ENABLEIRISHADOW_OFFSET UNITYSDK_OFFSET(0x1405A000)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_FLASHLIGHT_OFFSET UNITYSDK_OFFSET(0x1405CFA0)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x14059790)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_ISENABLEIRISHADOW_OFFSET UNITYSDK_OFFSET(0x1405A030)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_LOADENVPROFILE_OFFSET UNITYSDK_OFFSET(0x14059CC0)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_19B91D58E02869BC_OFFSET UNITYSDK_OFFSET(0x14058CF0)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_2450CFC043E97F54_OFFSET UNITYSDK_OFFSET(0x14058710)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_5AFFA079DA8B20AA_OFFSET UNITYSDK_OFFSET(0x1405D090)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_639D753455DD6897_OFFSET UNITYSDK_OFFSET(0x1405CC50)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_7BF32EC41F6B4DD6_OFFSET UNITYSDK_OFFSET(0x14059200)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_813C8FDB3E66B6BF_OFFSET UNITYSDK_OFFSET(0x14059420)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_8C68E2CDEEC884A6_OFFSET UNITYSDK_OFFSET(0x14058EA0)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_90DAC38E6899C803_OFFSET UNITYSDK_OFFSET(0x14058620)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_E16066A129C758CD_OFFSET UNITYSDK_OFFSET(0x14059630)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_E402C04CEC1622AF_OFFSET UNITYSDK_OFFSET(0x1405A060)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_E67B8EE7D04609D0_OFFSET UNITYSDK_OFFSET(0x14058530)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0x14059EE0)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_EA1355C3DBBA00B4_OFFSET UNITYSDK_OFFSET(0x1405B560)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1405B8A0)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_STARTHOTRELOADSERVER_OFFSET UNITYSDK_OFFSET(0x140588B0)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_START_OFFSET UNITYSDK_OFFSET(0x140596F0)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_STOPHOTRELOADSERVER_OFFSET UNITYSDK_OFFSET(0x14058BD0)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_TURNLIGHT_OFFSET UNITYSDK_OFFSET(0x1405CE40)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x14059D30)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1405D0F0)
 
 namespace IRIClusterBuilder::Test
 {
-	inline static constexpr unsigned int IRICarTestManager_TypeDefinitionIndex = 44528;
+	inline static constexpr unsigned int IRICarTestManager_TypeDefinitionIndex = 45075;
 
 	class IRICarTestManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::IRIClusterBuilder::Test::IRICarTestManager** StaticGet_Instance()
 		{
-			return (::IRIClusterBuilder::Test::IRICarTestManager**)Il2CppClass::FromTypeDefinitionIndex(IRICarTestManager_TypeDefinitionIndex)->GetStaticField(0x9570);
+			return (::IRIClusterBuilder::Test::IRICarTestManager**)Il2CppClass::FromTypeDefinitionIndex(IRICarTestManager_TypeDefinitionIndex)->GetStaticField(0x19D90);
 		}
 		::System::Int32 HotReloadPort; // 0x18
-		::System::Net::Sockets::TcpListener* Field_5_1; // 0x20
-		::System::Threading::Thread* Field_5_2; // 0x28
-		::System::Boolean Field_5_3; // 0x30
-		::System::Collections::Generic::Queue_1<::System::Action*>* Field_5_4; // 0x38
-		::IRIClusterBuilder::Test::IRICarTestManager_PlatformInfoMessage* Field_5_5; // 0x40
+		::System::Net::Sockets::TcpListener* Field_5_2; // 0x20
+		::System::Threading::Thread* Field_5_3; // 0x28
+		::System::Boolean Field_5_4; // 0x30
+		::System::Collections::Generic::Queue_1<::System::Action*>* Field_5_5; // 0x38
+		::IRIClusterBuilder::Test::IRICarTestManager_PlatformInfoMessage* Field_5_6; // 0x40
 		::EnviromentSystem::EnviromentProfile* EnvProfile; // 0x48
 		::System::Int32 CarCount; // 0x50
 		::System::Boolean CarMove; // 0x54
@@ -87,19 +87,19 @@ namespace IRIClusterBuilder::Test
 		::IRIClusterBuilder::Test::IRICarTestManager_EPositionMode PositionMode; // 0x6C
 		::UnityEngine::Vector3 FixedPosition; // 0x70
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* CarNPRResource; // 0x80
-		::UnityEngine::RPGInstancedItemClusterVolumeManager* Field_5_14; // 0x88
+		::UnityEngine::RPGInstancedItemClusterVolumeManager* Field_5_15; // 0x88
 		::IRIClusterBuilder::IRIClusterBuildConfig* IRIClusterBuildConfig; // 0x90
 		::UnityEngine::Material* IRI2CarClusterMaterial; // 0x98
 		::System::Collections::Generic::List_1<::IRIClusterBuilder::IRI2VolumeTemplate*>* IRI2VolumeTemplate; // 0xA0
-		::System::Collections::Generic::List_1<::System::ValueTuple_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::UnityEngine::IRIClusterVolumeInfo>>* Field_5_18; // 0xA8
-		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::Unity::Collections::NativeArray_1<::UnityEngine::ClusterIRIType>>* Field_5_19; // 0xB0
-		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>>*>* Field_5_20; // 0xB8
-		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::ClusterMeshLodInfo>>*>* Field_5_21; // 0xC0
-		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::MeshClusterInfo>>*>* Field_5_22; // 0xC8
-		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::System::UInt32>>*>* Field_5_23; // 0xD0
-		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>>*>* Field_5_24; // 0xD8
-		::System::Collections::Generic::List_1<::Class_1_8595EBB95116F4B2*>* Field_5_25; // 0xE0
-		::UnityEngine::Coroutine* Field_5_26; // 0xE8
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::UnityEngine::IRIClusterVolumeInfo>>* Field_5_19; // 0xA8
+		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::Unity::Collections::NativeArray_1<::UnityEngine::ClusterIRIType>>* Field_5_20; // 0xB0
+		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>>*>* Field_5_21; // 0xB8
+		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::ClusterMeshLodInfo>>*>* Field_5_22; // 0xC0
+		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::MeshClusterInfo>>*>* Field_5_23; // 0xC8
+		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::System::UInt32>>*>* Field_5_24; // 0xD0
+		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>>*>* Field_5_25; // 0xD8
+		::System::Collections::Generic::List_1<::Class_1_8595EBB95116F4B2*>* Field_5_26; // 0xE0
+		::UnityEngine::Coroutine* Field_5_27; // 0xE8
 		::UnityEngine::Color EmissionColor; // 0xF0
 		::System::Single LightStrength; // 0x100
 		::System::Int32 ID; // 0x104
@@ -121,14 +121,14 @@ namespace IRIClusterBuilder::Test
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_E67B8EE7D04609D0_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_6DDC67928C034C6F()
+		::System::Void Method_5_90DAC38E6899C803()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_6DDC67928C034C6F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_90DAC38E6899C803_OFFSET))(this);
 		}
 
-		::System::Void Method_5_2B9D478141E0F891()
+		::System::Void Method_5_2450CFC043E97F54()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_2B9D478141E0F891_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_2450CFC043E97F54_OFFSET))(this);
 		}
 
 		::System::Void StartHotReloadServer()
@@ -141,14 +141,14 @@ namespace IRIClusterBuilder::Test
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_STOPHOTRELOADSERVER_OFFSET))(this);
 		}
 
-		::System::Void Method_5_E11AC65AA0DC2249()
+		::System::Void Method_5_19B91D58E02869BC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_E11AC65AA0DC2249_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_19B91D58E02869BC_OFFSET))(this);
 		}
 
-		::System::Void Method_5_EC90259991730611(::System::Object* a1)
+		::System::Void Method_5_8C68E2CDEEC884A6(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_EC90259991730611_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_8C68E2CDEEC884A6_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_5_813C8FDB3E66B6BF(::IRIClusterBuilder::Test::IRICarTestManager_HotReloadCommand a1, ::Il2CppArray<::System::Byte>* a2)
@@ -161,9 +161,9 @@ namespace IRIClusterBuilder::Test
 			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_E16066A129C758CD_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_83E361AE37D8A749(::System::Net::Sockets::TcpClient* a1)
+		::System::Void Method_5_7BF32EC41F6B4DD6(::System::Net::Sockets::TcpClient* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Sockets::TcpClient*))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_83E361AE37D8A749_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Sockets::TcpClient*))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_7BF32EC41F6B4DD6_OFFSET))(this, a1);
 		}
 
 		::System::Void Start()
@@ -201,9 +201,9 @@ namespace IRIClusterBuilder::Test
 			return ((::UnityEngine::IRIClusterVolumeInfo(*)(::PVOID, ::IRIClusterBuilder::IRI2VolumeTemplate*))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_E402C04CEC1622AF_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_1B9BAFE25893B138()
+		::System::Void Method_5_EA1355C3DBBA00B4()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_1B9BAFE25893B138_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_EA1355C3DBBA00B4_OFFSET))(this);
 		}
 
 		::System::Void OnDestroy()
@@ -221,9 +221,9 @@ namespace IRIClusterBuilder::Test
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_CLEAR_OFFSET))(this);
 		}
 
-		::System::Void Method_5_737220D2233A9067()
+		::System::Void Method_5_639D753455DD6897()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_737220D2233A9067_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER_METHOD_5_639D753455DD6897_OFFSET))(this);
 		}
 
 		::System::Void TurnLight(::IRIClusterBuilder::Test::IRICarTestManager_LightType a1, ::System::Boolean a2)

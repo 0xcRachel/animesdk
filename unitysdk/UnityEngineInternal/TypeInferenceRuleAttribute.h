@@ -5,27 +5,27 @@
 
 namespace System { class String; }
 
-#define UNITYENGINEINTERNAL_TYPEINFERENCERULEATTRIBUTE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A68E560)
-#define UNITYENGINEINTERNAL_TYPEINFERENCERULEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A68E550)
-#define UNITYENGINEINTERNAL_TYPEINFERENCERULEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A68E4E0)
+#define UNITYENGINEINTERNAL_TYPEINFERENCERULEATTRIBUTE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B4B72A0)
+#define UNITYENGINEINTERNAL_TYPEINFERENCERULEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B4B7290)
+#define UNITYENGINEINTERNAL_TYPEINFERENCERULEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B7220)
 
 namespace UnityEngineInternal
 {
-	inline static constexpr unsigned int TypeInferenceRuleAttribute_TypeDefinitionIndex = 3733;
+	inline static constexpr unsigned int TypeInferenceRuleAttribute_TypeDefinitionIndex = 3907;
 
 	class TypeInferenceRuleAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* _rule; // 0x10
 
-		::System::Void _ctor(::UnityEngineInternal::TypeInferenceRules rule)
+		::System::Void _ctor(::UnityEngineInternal::TypeInferenceRules a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngineInternal::TypeInferenceRules))((::PBYTE)hIl2Cpp + UNITYENGINEINTERNAL_TYPEINFERENCERULEATTRIBUTE__CTOR_OFFSET))(this, rule);
+			return ((::System::Void(*)(::PVOID, ::UnityEngineInternal::TypeInferenceRules))((::PBYTE)hIl2Cpp + UNITYENGINEINTERNAL_TYPEINFERENCERULEATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::String* rule)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINEINTERNAL_TYPEINFERENCERULEATTRIBUTE__CTOR_1_OFFSET))(this, rule);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINEINTERNAL_TYPEINFERENCERULEATTRIBUTE__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()

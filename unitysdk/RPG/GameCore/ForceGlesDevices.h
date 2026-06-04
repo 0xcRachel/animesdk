@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DeviceModelInfo; }
 namespace RPG::GameCore { class GraphicDeviceInfo; }
 
-#define RPG_GAMECORE_FORCEGLESDEVICES_METHOD_2_725E1EB405474EE6_OFFSET UNITYSDK_OFFSET(0x191FCFE0)
-#define RPG_GAMECORE_FORCEGLESDEVICES__CTOR_OFFSET UNITYSDK_OFFSET(0x191FD150)
+#define RPG_GAMECORE_FORCEGLESDEVICES_METHOD_2_747C1C750E34FF24_OFFSET UNITYSDK_OFFSET(0x1A3B10F0)
+#define RPG_GAMECORE_FORCEGLESDEVICES__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3B1250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ForceGlesDevices_TypeDefinitionIndex = 17362;
+	inline static constexpr unsigned int ForceGlesDevices_TypeDefinitionIndex = 17366;
 
 	class ForceGlesDevices : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCEGLESDEVICES__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_725E1EB405474EE6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ForceGlesDevices*& a2)
+		static ::System::Void Method_2_747C1C750E34FF24(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ForceGlesDevices*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ForceGlesDevices*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCEGLESDEVICES_METHOD_2_725E1EB405474EE6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ForceGlesDevices*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCEGLESDEVICES_METHOD_2_747C1C750E34FF24_OFFSET))(a1, a2);
 		}
 	};
 }

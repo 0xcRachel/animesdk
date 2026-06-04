@@ -11,51 +11,51 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Text { class Encoding; }
 
-#define GOOGLE_PROTOBUF_BYTESTRING_ATTACHBYTES_OFFSET UNITYSDK_OFFSET(0x17EA3730)
-#define GOOGLE_PROTOBUF_BYTESTRING_COPYFROMUTF8_OFFSET UNITYSDK_OFFSET(0x17EA3CC0)
-#define GOOGLE_PROTOBUF_BYTESTRING_COPYFROM_1_OFFSET UNITYSDK_OFFSET(0x17EA3AD0)
-#define GOOGLE_PROTOBUF_BYTESTRING_COPYFROM_2_OFFSET UNITYSDK_OFFSET(0x17EA3B60)
-#define GOOGLE_PROTOBUF_BYTESTRING_COPYFROM_3_OFFSET UNITYSDK_OFFSET(0x17EA3C70)
-#define GOOGLE_PROTOBUF_BYTESTRING_COPYFROM_OFFSET UNITYSDK_OFFSET(0x17EA39E0)
-#define GOOGLE_PROTOBUF_BYTESTRING_COPYTO_OFFSET UNITYSDK_OFFSET(0x17EA44D0)
-#define GOOGLE_PROTOBUF_BYTESTRING_CREATECODEDINPUT_OFFSET UNITYSDK_OFFSET(0x17EA3FA0)
-#define GOOGLE_PROTOBUF_BYTESTRING_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x17EA4360)
-#define GOOGLE_PROTOBUF_BYTESTRING_EQUALS_OFFSET UNITYSDK_OFFSET(0x17EA4210)
-#define GOOGLE_PROTOBUF_BYTESTRING_FINALIZE_OFFSET UNITYSDK_OFFSET(0x17EA37B0)
-#define GOOGLE_PROTOBUF_BYTESTRING_FROMBASE64_OFFSET UNITYSDK_OFFSET(0x17EA3900)
-#define GOOGLE_PROTOBUF_BYTESTRING_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17EA3EB0)
-#define GOOGLE_PROTOBUF_BYTESTRING_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17EA4260)
-#define GOOGLE_PROTOBUF_BYTESTRING_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x17EA3830)
-#define GOOGLE_PROTOBUF_BYTESTRING_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x17EA3860)
-#define GOOGLE_PROTOBUF_BYTESTRING_GET_MEMORY_OFFSET UNITYSDK_OFFSET(0x17EA3870)
-#define GOOGLE_PROTOBUF_BYTESTRING_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x17EA40E0)
-#define GOOGLE_PROTOBUF_BYTESTRING_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x17EA41D0)
-#define GOOGLE_PROTOBUF_BYTESTRING_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17EA3F90)
-#define GOOGLE_PROTOBUF_BYTESTRING_TOBASE64_OFFSET UNITYSDK_OFFSET(0x17EA38E0)
-#define GOOGLE_PROTOBUF_BYTESTRING_TOBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x17EA38A0)
-#define GOOGLE_PROTOBUF_BYTESTRING_TOSTRINGUTF8_OFFSET UNITYSDK_OFFSET(0x17EA3E00)
-#define GOOGLE_PROTOBUF_BYTESTRING_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17EA3DC0)
-#define GOOGLE_PROTOBUF_BYTESTRING_WRITERAWBYTESTO_OFFSET UNITYSDK_OFFSET(0x17EA43A0)
-#define GOOGLE_PROTOBUF_BYTESTRING__CCTOR_OFFSET UNITYSDK_OFFSET(0x17EA4500)
-#define GOOGLE_PROTOBUF_BYTESTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x17EA3780)
+#define GOOGLE_PROTOBUF_BYTESTRING_ATTACHBYTES_OFFSET UNITYSDK_OFFSET(0x17883490)
+#define GOOGLE_PROTOBUF_BYTESTRING_COPYFROMUTF8_OFFSET UNITYSDK_OFFSET(0x17883A20)
+#define GOOGLE_PROTOBUF_BYTESTRING_COPYFROM_1_OFFSET UNITYSDK_OFFSET(0x17883830)
+#define GOOGLE_PROTOBUF_BYTESTRING_COPYFROM_2_OFFSET UNITYSDK_OFFSET(0x178838C0)
+#define GOOGLE_PROTOBUF_BYTESTRING_COPYFROM_3_OFFSET UNITYSDK_OFFSET(0x178839D0)
+#define GOOGLE_PROTOBUF_BYTESTRING_COPYFROM_OFFSET UNITYSDK_OFFSET(0x17883740)
+#define GOOGLE_PROTOBUF_BYTESTRING_COPYTO_OFFSET UNITYSDK_OFFSET(0x17884470)
+#define GOOGLE_PROTOBUF_BYTESTRING_CREATECODEDINPUT_OFFSET UNITYSDK_OFFSET(0x17883D50)
+#define GOOGLE_PROTOBUF_BYTESTRING_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x17884240)
+#define GOOGLE_PROTOBUF_BYTESTRING_EQUALS_OFFSET UNITYSDK_OFFSET(0x17884040)
+#define GOOGLE_PROTOBUF_BYTESTRING_FINALIZE_OFFSET UNITYSDK_OFFSET(0x17883510)
+#define GOOGLE_PROTOBUF_BYTESTRING_FROMBASE64_OFFSET UNITYSDK_OFFSET(0x17883660)
+#define GOOGLE_PROTOBUF_BYTESTRING_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17883C60)
+#define GOOGLE_PROTOBUF_BYTESTRING_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17884150)
+#define GOOGLE_PROTOBUF_BYTESTRING_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x17883590)
+#define GOOGLE_PROTOBUF_BYTESTRING_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x178835C0)
+#define GOOGLE_PROTOBUF_BYTESTRING_GET_MEMORY_OFFSET UNITYSDK_OFFSET(0x178835D0)
+#define GOOGLE_PROTOBUF_BYTESTRING_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x17883E90)
+#define GOOGLE_PROTOBUF_BYTESTRING_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x17883F60)
+#define GOOGLE_PROTOBUF_BYTESTRING_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17883D40)
+#define GOOGLE_PROTOBUF_BYTESTRING_TOBASE64_OFFSET UNITYSDK_OFFSET(0x17883640)
+#define GOOGLE_PROTOBUF_BYTESTRING_TOBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x17883600)
+#define GOOGLE_PROTOBUF_BYTESTRING_TOSTRINGUTF8_OFFSET UNITYSDK_OFFSET(0x17883B90)
+#define GOOGLE_PROTOBUF_BYTESTRING_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17883B50)
+#define GOOGLE_PROTOBUF_BYTESTRING_WRITERAWBYTESTO_OFFSET UNITYSDK_OFFSET(0x17884340)
+#define GOOGLE_PROTOBUF_BYTESTRING__CCTOR_OFFSET UNITYSDK_OFFSET(0x17884500)
+#define GOOGLE_PROTOBUF_BYTESTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x178834E0)
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int ByteString_TypeDefinitionIndex = 6164;
+	inline static constexpr unsigned int ByteString_TypeDefinitionIndex = 5366;
 
 	class ByteString : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::ByteString** StaticGet_empty()
 		{
-			return (::Google::Protobuf::ByteString**)Il2CppClass::FromTypeDefinitionIndex(ByteString_TypeDefinitionIndex)->GetStaticField(0x4B90);
+			return (::Google::Protobuf::ByteString**)Il2CppClass::FromTypeDefinitionIndex(ByteString_TypeDefinitionIndex)->GetStaticField(0x117F0);
 		}
 		::Il2CppArray<::System::Byte>* bytes; // 0x10
 		::System::Int32 length; // 0x18
 
-		::System::Void _ctor(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 length)
+		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING__CTOR_OFFSET))(this, bytes, length);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
@@ -63,9 +63,9 @@ namespace Google::Protobuf
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING__CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::ByteString* AttachBytes(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 length)
+		static ::Google::Protobuf::ByteString* AttachBytes(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::Google::Protobuf::ByteString*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_ATTACHBYTES_OFFSET))(bytes, length);
+			return ((::Google::Protobuf::ByteString*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_ATTACHBYTES_OFFSET))(a1, a2);
 		}
 
 		::System::Void Finalize()
@@ -98,39 +98,39 @@ namespace Google::Protobuf
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_TOBASE64_OFFSET))(this);
 		}
 
-		static ::Google::Protobuf::ByteString* FromBase64(::System::String* bytes)
+		static ::Google::Protobuf::ByteString* FromBase64(::System::String* a1)
 		{
-			return ((::Google::Protobuf::ByteString*(*)(::System::String*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_FROMBASE64_OFFSET))(bytes);
+			return ((::Google::Protobuf::ByteString*(*)(::System::String*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_FROMBASE64_OFFSET))(a1);
 		}
 
-		static ::Google::Protobuf::ByteString* CopyFrom(::Il2CppArray<::System::Byte>* bytes)
+		static ::Google::Protobuf::ByteString* CopyFrom(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::Google::Protobuf::ByteString*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_COPYFROM_OFFSET))(bytes);
+			return ((::Google::Protobuf::ByteString*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_COPYFROM_OFFSET))(a1);
 		}
 
-		static ::Google::Protobuf::ByteString* CopyFrom_1(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 offset, ::System::Int32 count)
+		static ::Google::Protobuf::ByteString* CopyFrom_1(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::Google::Protobuf::ByteString*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_COPYFROM_1_OFFSET))(bytes, offset, count);
+			return ((::Google::Protobuf::ByteString*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_COPYFROM_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::Google::Protobuf::ByteString* CopyFrom_2(::System::ReadOnlySpan_1<::System::Byte> bytes)
+		static ::Google::Protobuf::ByteString* CopyFrom_2(::System::ReadOnlySpan_1<::System::Byte> a1)
 		{
-			return ((::Google::Protobuf::ByteString*(*)(::System::ReadOnlySpan_1<::System::Byte>))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_COPYFROM_2_OFFSET))(bytes);
+			return ((::Google::Protobuf::ByteString*(*)(::System::ReadOnlySpan_1<::System::Byte>))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_COPYFROM_2_OFFSET))(a1);
 		}
 
-		static ::Google::Protobuf::ByteString* CopyFrom_3(::System::String* text, ::System::Text::Encoding* encoding)
+		static ::Google::Protobuf::ByteString* CopyFrom_3(::System::String* a1, ::System::Text::Encoding* a2)
 		{
-			return ((::Google::Protobuf::ByteString*(*)(::System::String*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_COPYFROM_3_OFFSET))(text, encoding);
+			return ((::Google::Protobuf::ByteString*(*)(::System::String*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_COPYFROM_3_OFFSET))(a1, a2);
 		}
 
-		static ::Google::Protobuf::ByteString* CopyFromUtf8(::System::String* text)
+		static ::Google::Protobuf::ByteString* CopyFromUtf8(::System::String* a1)
 		{
-			return ((::Google::Protobuf::ByteString*(*)(::System::String*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_COPYFROMUTF8_OFFSET))(text);
+			return ((::Google::Protobuf::ByteString*(*)(::System::String*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_COPYFROMUTF8_OFFSET))(a1);
 		}
 
-		::System::String* ToString(::System::Text::Encoding* encoding)
+		::System::String* ToString(::System::Text::Encoding* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_TOSTRING_OFFSET))(this, encoding);
+			return ((::System::String*(*)(::PVOID, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_TOSTRING_OFFSET))(this, a1);
 		}
 
 		::System::String* ToStringUtf8()
@@ -153,19 +153,19 @@ namespace Google::Protobuf
 			return ((::Google::Protobuf::CodedInputStream*(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_CREATECODEDINPUT_OFFSET))(this);
 		}
 
-		static ::System::Boolean op_Equality(::Google::Protobuf::ByteString* lhs, ::Google::Protobuf::ByteString* rhs)
+		static ::System::Boolean op_Equality(::Google::Protobuf::ByteString* a1, ::Google::Protobuf::ByteString* a2)
 		{
-			return ((::System::Boolean(*)(::Google::Protobuf::ByteString*, ::Google::Protobuf::ByteString*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_OP_EQUALITY_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::Google::Protobuf::ByteString*, ::Google::Protobuf::ByteString*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::Google::Protobuf::ByteString* lhs, ::Google::Protobuf::ByteString* rhs)
+		static ::System::Boolean op_Inequality(::Google::Protobuf::ByteString* a1, ::Google::Protobuf::ByteString* a2)
 		{
-			return ((::System::Boolean(*)(::Google::Protobuf::ByteString*, ::Google::Protobuf::ByteString*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_OP_INEQUALITY_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::Google::Protobuf::ByteString*, ::Google::Protobuf::ByteString*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -173,19 +173,19 @@ namespace Google::Protobuf
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals_1(::Google::Protobuf::ByteString* other)
+		::System::Boolean Equals_1(::Google::Protobuf::ByteString* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Google::Protobuf::ByteString*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::Google::Protobuf::ByteString*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_EQUALS_1_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteRawBytesTo(::Google::Protobuf::CodedOutputStream* outputStream)
+		::System::Void WriteRawBytesTo(::Google::Protobuf::CodedOutputStream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_WRITERAWBYTESTO_OFFSET))(this, outputStream);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_WRITERAWBYTESTO_OFFSET))(this, a1);
 		}
 
-		::System::Void CopyTo(::Il2CppArray<::System::Byte>* array, ::System::Int32 position)
+		::System::Void CopyTo(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_COPYTO_OFFSET))(this, array, position);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_BYTESTRING_COPYTO_OFFSET))(this, a1, a2);
 		}
 	};
 }

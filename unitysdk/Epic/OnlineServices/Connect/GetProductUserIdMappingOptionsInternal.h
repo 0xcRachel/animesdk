@@ -7,16 +7,16 @@ namespace Epic::OnlineServices { class ProductUserId; }
 namespace Epic::OnlineServices::Connect { class GetProductUserIdMappingOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x23445A0)
-#define EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x2344530)
-#define EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_SET_ACCOUNTIDTYPE_OFFSET UNITYSDK_OFFSET(0x1464EA0)
-#define EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x23443A0)
-#define EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x2344520)
-#define EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_SET_TARGETPRODUCTUSERID_OFFSET UNITYSDK_OFFSET(0x2344460)
+#define EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x38F5450)
+#define EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x38F53D0)
+#define EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_SET_ACCOUNTIDTYPE_OFFSET UNITYSDK_OFFSET(0x3741A70)
+#define EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x38F5240)
+#define EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x38F53C0)
+#define EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_SET_TARGETPRODUCTUSERID_OFFSET UNITYSDK_OFFSET(0x38F5300)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int GetProductUserIdMappingOptionsInternal_TypeDefinitionIndex = 42293;
+	inline static constexpr unsigned int GetProductUserIdMappingOptionsInternal_TypeDefinitionIndex = 43096;
 
 	struct alignas(8) GetProductUserIdMappingOptionsInternal
 	{
@@ -25,29 +25,29 @@ namespace Epic::OnlineServices::Connect
 		::Epic::OnlineServices::ExternalAccountType m_AccountIdType; // 0x20
 		::System::IntPtr m_TargetProductUserId; // 0x28
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_AccountIdType(::Epic::OnlineServices::ExternalAccountType value)
+		::System::Void set_AccountIdType(::Epic::OnlineServices::ExternalAccountType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ExternalAccountType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_SET_ACCOUNTIDTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ExternalAccountType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_SET_ACCOUNTIDTYPE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_TargetProductUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_TargetProductUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_SET_TARGETPRODUCTUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_SET_TARGETPRODUCTUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Connect::GetProductUserIdMappingOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Connect::GetProductUserIdMappingOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::GetProductUserIdMappingOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::GetProductUserIdMappingOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_GETPRODUCTUSERIDMAPPINGOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

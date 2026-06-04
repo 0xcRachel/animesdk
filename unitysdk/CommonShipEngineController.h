@@ -12,34 +12,34 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define COMMONSHIPENGINECONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0xECF1A90)
-#define COMMONSHIPENGINECONTROLLER_GET_CURRENTWORKINGSTATE_OFFSET UNITYSDK_OFFSET(0xECF1A30)
-#define COMMONSHIPENGINECONTROLLER_METHOD_5_BBCA18DAE2CF5CB1_OFFSET UNITYSDK_OFFSET(0xECF1BF0)
-#define COMMONSHIPENGINECONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xECF1D40)
-#define COMMONSHIPENGINECONTROLLER_SETCURRENTWORKINGSTATE_OFFSET UNITYSDK_OFFSET(0xECF17C0)
-#define COMMONSHIPENGINECONTROLLER_SET_CURRENTWORKINGSTATE_OFFSET UNITYSDK_OFFSET(0xECF1A40)
-#define COMMONSHIPENGINECONTROLLER_TICK_OFFSET UNITYSDK_OFFSET(0xECF1EB0)
-#define COMMONSHIPENGINECONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0xECF1E60)
-#define COMMONSHIPENGINECONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0xECF2640)
-#define COMMONSHIPENGINECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xECF2600)
+#define COMMONSHIPENGINECONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x14E492F0)
+#define COMMONSHIPENGINECONTROLLER_GET_CURRENTWORKINGSTATE_OFFSET UNITYSDK_OFFSET(0x14E49290)
+#define COMMONSHIPENGINECONTROLLER_METHOD_5_481F397A7A0618DD_OFFSET UNITYSDK_OFFSET(0x14E49500)
+#define COMMONSHIPENGINECONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x14E49620)
+#define COMMONSHIPENGINECONTROLLER_SETCURRENTWORKINGSTATE_OFFSET UNITYSDK_OFFSET(0x14E48F90)
+#define COMMONSHIPENGINECONTROLLER_SET_CURRENTWORKINGSTATE_OFFSET UNITYSDK_OFFSET(0x14E492A0)
+#define COMMONSHIPENGINECONTROLLER_TICK_OFFSET UNITYSDK_OFFSET(0x14E49790)
+#define COMMONSHIPENGINECONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x14E49740)
+#define COMMONSHIPENGINECONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x14E49F40)
+#define COMMONSHIPENGINECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x14E49F00)
 
-inline static constexpr unsigned int CommonShipEngineController_TypeDefinitionIndex = 43891;
+inline static constexpr unsigned int CommonShipEngineController_TypeDefinitionIndex = 44437;
 
 class CommonShipEngineController : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::System::Int32* StaticGet_Field_5_8()
+	static ::System::Int32* StaticGet_Field_5_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CommonShipEngineController_TypeDefinitionIndex)->GetStaticField(0xF9B0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CommonShipEngineController_TypeDefinitionIndex)->GetStaticField(0x140F0);
 	}
 	::UnityEngine::Renderer* MREngine; // 0x18
 	::System::Collections::Generic::List_1<::AirshipEngineBehaviorMode*>* EngineBehaviorModes; // 0x20
-	::RPG::Client::AirshipAudio* Field_5_2; // 0x28
-	::UnityEngine::Transform* Field_5_3; // 0x30
-	::UnityEngine::Renderer* Field_5_4; // 0x38
-	::EAirshipWorkingState Field_5_5; // 0x40
-	::System::Single Field_5_6; // 0x44
-	::CommonShipEngineController_Struct_2_6F908A01393DE9DB Field_5_7; // 0x48
+	::RPG::Client::AirshipAudio* Field_5_3; // 0x28
+	::UnityEngine::Transform* Field_5_4; // 0x30
+	::UnityEngine::Renderer* Field_5_5; // 0x38
+	::EAirshipWorkingState Field_5_6; // 0x40
+	::System::Single Field_5_7; // 0x44
+	::CommonShipEngineController_Struct_2_6F908A01393DE9DB Field_5_8; // 0x48
 	::UnityEngine::MaterialPropertyBlock* Field_5_9; // 0xA0
 	::System::Collections::Generic::List_1<::UnityEngine::Material*>* Field_5_10; // 0xA8
 
@@ -88,8 +88,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + COMMONSHIPENGINECONTROLLER_TICK_OFFSET))(this, a1);
 	}
 
-	::AirshipEngineBehaviorMode* Method_5_BBCA18DAE2CF5CB1(::EAirshipWorkingState a1)
+	::AirshipEngineBehaviorMode* Method_5_481F397A7A0618DD(::EAirshipWorkingState a1)
 	{
-		return ((::AirshipEngineBehaviorMode*(*)(::PVOID, ::EAirshipWorkingState))((::PBYTE)hIl2Cpp + COMMONSHIPENGINECONTROLLER_METHOD_5_BBCA18DAE2CF5CB1_OFFSET))(this, a1);
+		return ((::AirshipEngineBehaviorMode*(*)(::PVOID, ::EAirshipWorkingState))((::PBYTE)hIl2Cpp + COMMONSHIPENGINECONTROLLER_METHOD_5_481F397A7A0618DD_OFFSET))(this, a1);
 	}
 };

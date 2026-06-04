@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x158B12A0)
-#define RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x158B12D0)
-#define RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH_INVOKE_OFFSET UNITYSDK_OFFSET(0x158AF000)
-#define RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x158B1280)
+#define RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x15130860)
+#define RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x15130890)
+#define RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH_INVOKE_OFFSET UNITYSDK_OFFSET(0x1512EBE0)
+#define RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x15130770)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Map_OnMapObjectsUpdateRequestFinish_TypeDefinitionIndex = 56124;
+	inline static constexpr unsigned int Map_OnMapObjectsUpdateRequestFinish_TypeDefinitionIndex = 56886;
 
 	class Map_OnMapObjectsUpdateRequestFinish : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::RPG::Client::Map_MapObjectsUpdateRequest* req)
+		::System::Void Invoke(::RPG::Client::Map_MapObjectsUpdateRequest* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Map_MapObjectsUpdateRequest*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH_INVOKE_OFFSET))(this, req);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Map_MapObjectsUpdateRequest*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::RPG::Client::Map_MapObjectsUpdateRequest* req, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::RPG::Client::Map_MapObjectsUpdateRequest* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::Client::Map_MapObjectsUpdateRequest*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH_BEGININVOKE_OFFSET))(this, req, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::Client::Map_MapObjectsUpdateRequest*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

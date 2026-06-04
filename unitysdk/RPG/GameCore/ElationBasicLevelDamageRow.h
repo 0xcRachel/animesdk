@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ELATIONBASICLEVELDAMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1914B1E0)
-#define RPG_GAMECORE_ELATIONBASICLEVELDAMAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1914B320)
+#define RPG_GAMECORE_ELATIONBASICLEVELDAMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D67280)
+#define RPG_GAMECORE_ELATIONBASICLEVELDAMAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D673C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationBasicLevelDamageRow_TypeDefinitionIndex = 12493;
+	inline static constexpr unsigned int ElationBasicLevelDamageRow_TypeDefinitionIndex = 12581;
 
 	class ElationBasicLevelDamageRow : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELATIONBASICLEVELDAMAGEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ElationBasicLevelDamageRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElationBasicLevelDamageRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElationBasicLevelDamageRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELATIONBASICLEVELDAMAGEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElationBasicLevelDamageRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELATIONBASICLEVELDAMAGEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

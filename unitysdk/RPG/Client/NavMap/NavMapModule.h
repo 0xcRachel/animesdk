@@ -5,8 +5,8 @@
 #include "unitysdk/System/ValueTuple_3.h"
 
 class Class_1_0AC901BFE4E36FC0;
-class Class_1_813743369E0E31B2_1;
-class Class_1_813743369E0E31B2_2;
+class Class_1_CB66E39D32BF42FF_1;
+class Class_1_CB66E39D32BF42FF_2;
 namespace RPG::Client { class ConditionChecker; }
 namespace RPG::Client { class MapDataKey; }
 namespace RPG::Client::NavMap { class ICartographer; }
@@ -31,126 +31,126 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_CLEARMAPDATA_OFFSET UNITYSDK_OFFSET(0x15942DB0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERENTITYIN_OFFSET UNITYSDK_OFFSET(0x159453F0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERMAPPINGINFOIDIN_1_OFFSET UNITYSDK_OFFSET(0x15946BF0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERMAPPINGINFOIDIN_OFFSET UNITYSDK_OFFSET(0x15946350)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERPLAYERIN_OFFSET UNITYSDK_OFFSET(0x1591F580)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERSUBMISSIONIN_OFFSET UNITYSDK_OFFSET(0x15945220)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETENTRYIDBYFLOORID_OFFSET UNITYSDK_OFFSET(0x159270B0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETFIVEDIMINSTANCECONTAINSCHESTMONSTERLIMAO_OFFSET UNITYSDK_OFFSET(0x15942230)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETFIVEDIMINSTANCECONTAINSCHEST_OFFSET UNITYSDK_OFFSET(0x15942120)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETFIVEDIMINSTANCECONTAINSCOLLECTIONDATA_OFFSET UNITYSDK_OFFSET(0x15942340)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETMAPDATASOURCE_1_OFFSET UNITYSDK_OFFSET(0x1592E520)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETMAPDATASOURCE_OFFSET UNITYSDK_OFFSET(0x1593DBA0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETPLANEIDBYFLOORID_OFFSET UNITYSDK_OFFSET(0x1592A660)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETPLAYERLOCATEDMAINTAB_OFFSET UNITYSDK_OFFSET(0x15946FB0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETPLAYERLOCATEDSUBNAVMAP_OFFSET UNITYSDK_OFFSET(0x159449A0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETPLAYERLOCATEDSUBTAB_OFFSET UNITYSDK_OFFSET(0x15944F80)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETRAIDSUBTAB_OFFSET UNITYSDK_OFFSET(0x15946C70)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETSUBTABFLOORID_OFFSET UNITYSDK_OFFSET(0x15930050)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETSYNCEDMAPDATASOURCE_OFFSET UNITYSDK_OFFSET(0x1592EC60)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETUNIVERSEDATA_OFFSET UNITYSDK_OFFSET(0x15945EF0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GET_CURRENTMAPDATASTRATEGY_OFFSET UNITYSDK_OFFSET(0x15940C80)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1591F520)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GET_PLAYERLOCATEDVERSE_OFFSET UNITYSDK_OFFSET(0x15946D30)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GET_SUBTABCONDITIONCHECKERS_OFFSET UNITYSDK_OFFSET(0x1594D590)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GET_SUBTABCONTAINOTHERFLOORSUBNAVMAPS_OFFSET UNITYSDK_OFFSET(0x1594D570)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GET_SUBTABCONTAINSAMEFLOORSUBNAVMAPS_OFFSET UNITYSDK_OFFSET(0x1594D580)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GET_TABCONTAINSUBTABS_OFFSET UNITYSDK_OFFSET(0x1594D560)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GET_WORLDCONTAINTABS_OFFSET UNITYSDK_OFFSET(0x1594D550)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x15947AE0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_ISSCENEENTERED_OFFSET UNITYSDK_OFFSET(0x15947A80)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_MARKALLMAPDATADIRTY_OFFSET UNITYSDK_OFFSET(0x159440B0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_ONRECONNECT_OFFSET UNITYSDK_OFFSET(0x159483F0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_PREPAREMAPDATASOURCE_OFFSET UNITYSDK_OFFSET(0x1592EF50)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_PREPAREMISSIONDATA_OFFSET UNITYSDK_OFFSET(0x159484D0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ADDCHESTMONSTERLIMAO_OFFSET UNITYSDK_OFFSET(0x159428B0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ADDCOLLECTIONDATA_OFFSET UNITYSDK_OFFSET(0x15942BB0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ADDGPCHEST_OFFSET UNITYSDK_OFFSET(0x15942580)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x159487D0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x159486B0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__BUILDTABCONDITIONCHECKER_OFFSET UNITYSDK_OFFSET(0x159481C0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__CLEARRAIDCARTOGRAPHYDATA_OFFSET UNITYSDK_OFFSET(0x15943A20)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__CLEARRAIDSUBTABDATA_OFFSET UNITYSDK_OFFSET(0x1594B480)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1594D5A0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__GETCARTOGRAPHERENTITYIN_OFFSET UNITYSDK_OFFSET(0x15945700)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__HAVEMAPPINGINFOID_OFFSET UNITYSDK_OFFSET(0x15946620)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITDEFAULTENTRANCEID_OFFSET UNITYSDK_OFFSET(0x15947BF0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITFIVEDIMINSTANCECONTAINSCHESTMONSTERLIMAO_OFFSET UNITYSDK_OFFSET(0x15942780)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITFIVEDIMINSTANCECONTAINSCHEST_OFFSET UNITYSDK_OFFSET(0x15942450)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITFIVEDIMINSTANCECONTAINSCOLLECTIONDATA_OFFSET UNITYSDK_OFFSET(0x15942A90)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITFLOORID2PLANEID_OFFSET UNITYSDK_OFFSET(0x15947F30)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITSAMEFLOORSUBNAVMAPHIERARCHY_OFFSET UNITYSDK_OFFSET(0x1594CD70)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITSUBTABCONTAINOTHERFLOORSUBNAVMAPS_OFFSET UNITYSDK_OFFSET(0x1594C9D0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITTABCONTAINSUBTABS_OFFSET UNITYSDK_OFFSET(0x1594C430)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITTABHIERARCHYINDEX_OFFSET UNITYSDK_OFFSET(0x15948160)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITWORLDCONTAINTABS_OFFSET UNITYSDK_OFFSET(0x1594C110)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ISREQUESTEDSYNCMAPDATA_OFFSET UNITYSDK_OFFSET(0x1594CF60)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONADDTEMPSHOWICON_OFFSET UNITYSDK_OFFSET(0x1594C070)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONADVENTUREPHASEENTERED_OFFSET UNITYSDK_OFFSET(0x1594B370)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONCMDENTEREDSCENECHANGESCNOTIFY_OFFSET UNITYSDK_OFFSET(0x1594A910)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONCMDGETENTEREDSCENESCRSP_OFFSET UNITYSDK_OFFSET(0x1594A5C0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONCMDGETSCENEMAPINFOSCRSP_OFFSET UNITYSDK_OFFSET(0x15948A70)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONCMDWORLDUNLOCKSCRSP_OFFSET UNITYSDK_OFFSET(0x1594B2F0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONFINISHEDMAINMISSION_OFFSET UNITYSDK_OFFSET(0x1594B4D0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONFINISHSUBMISSION_OFFSET UNITYSDK_OFFSET(0x1594BAB0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONMAPGROUPDEFREFRESH_OFFSET UNITYSDK_OFFSET(0x1594C020)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONMASTERMAINTABUNLOCK_OFFSET UNITYSDK_OFFSET(0x1594AC70)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONMISSIONSYNC_OFFSET UNITYSDK_OFFSET(0x1594BFD0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONRAIDMAPDATADIRTY_OFFSET UNITYSDK_OFFSET(0x15944710)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONREMOVETEMPSHOWICON_OFFSET UNITYSDK_OFFSET(0x1594C0C0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__REFRESHCURRENTMAPDATASTRATEGY_OFFSET UNITYSDK_OFFSET(0x1594B430)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__SENDGETSCENEMAPINFO_OFFSET UNITYSDK_OFFSET(0x1594D0A0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__TRYUPDATERAIDDATA_OFFSET UNITYSDK_OFFSET(0x1594A280)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x1594DBA0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___IFIXBASEPROXY_ONRECONNECT_OFFSET UNITYSDK_OFFSET(0x1594DC30)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___IFIXBASEPROXY__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x1594DCF0)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___IFIXBASEPROXY__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x1594DC90)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_CLEARMAPDATA_OFFSET UNITYSDK_OFFSET(0x155F0660)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERENTITYIN_OFFSET UNITYSDK_OFFSET(0x155F3290)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERMAPPINGINFOIDIN_1_OFFSET UNITYSDK_OFFSET(0x155F4E90)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERMAPPINGINFOIDIN_OFFSET UNITYSDK_OFFSET(0x155F41E0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERPLAYERIN_OFFSET UNITYSDK_OFFSET(0x155F1830)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERSUBMISSIONIN_OFFSET UNITYSDK_OFFSET(0x155F30C0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETENTRYIDBYFLOORID_OFFSET UNITYSDK_OFFSET(0x155F6AA0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETFIVEDIMINSTANCECONTAINSCHESTMONSTERLIMAO_OFFSET UNITYSDK_OFFSET(0x155EFA00)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETFIVEDIMINSTANCECONTAINSCHEST_OFFSET UNITYSDK_OFFSET(0x155EF930)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETFIVEDIMINSTANCECONTAINSCOLLECTIONDATA_OFFSET UNITYSDK_OFFSET(0x155EFAD0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETMAPDATASOURCE_1_OFFSET UNITYSDK_OFFSET(0x155FB6B0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETMAPDATASOURCE_OFFSET UNITYSDK_OFFSET(0x155F3F90)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETPLANEIDBYFLOORID_OFFSET UNITYSDK_OFFSET(0x155F6B30)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETPLAYERLOCATEDMAINTAB_OFFSET UNITYSDK_OFFSET(0x155F5220)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETPLAYERLOCATEDSUBNAVMAP_OFFSET UNITYSDK_OFFSET(0x155F2850)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETPLAYERLOCATEDSUBTAB_OFFSET UNITYSDK_OFFSET(0x155F2E60)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETRAIDSUBTAB_OFFSET UNITYSDK_OFFSET(0x155F4F10)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETSUBTABFLOORID_OFFSET UNITYSDK_OFFSET(0x155F5DD0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETSYNCEDMAPDATASOURCE_OFFSET UNITYSDK_OFFSET(0x155F4580)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETUNIVERSEDATA_OFFSET UNITYSDK_OFFSET(0x155F3B80)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GET_CURRENTMAPDATASTRATEGY_OFFSET UNITYSDK_OFFSET(0x155FC310)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x155F0600)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GET_PLAYERLOCATEDVERSE_OFFSET UNITYSDK_OFFSET(0x155F4FD0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GET_SUBTABCONDITIONCHECKERS_OFFSET UNITYSDK_OFFSET(0x155FC300)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GET_SUBTABCONTAINOTHERFLOORSUBNAVMAPS_OFFSET UNITYSDK_OFFSET(0x155FC2E0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GET_SUBTABCONTAINSAMEFLOORSUBNAVMAPS_OFFSET UNITYSDK_OFFSET(0x155FC2F0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GET_TABCONTAINSUBTABS_OFFSET UNITYSDK_OFFSET(0x155FC2D0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_GET_WORLDCONTAINTABS_OFFSET UNITYSDK_OFFSET(0x155FC2C0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x155F5E60)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_ISSCENEENTERED_OFFSET UNITYSDK_OFFSET(0x155F5D70)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_MARKALLMAPDATADIRTY_OFFSET UNITYSDK_OFFSET(0x155F1D20)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_ONRECONNECT_OFFSET UNITYSDK_OFFSET(0x155F6820)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_PREPAREMAPDATASOURCE_OFFSET UNITYSDK_OFFSET(0x155FB7E0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE_PREPAREMISSIONDATA_OFFSET UNITYSDK_OFFSET(0x155F68F0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ADDCHESTMONSTERLIMAO_OFFSET UNITYSDK_OFFSET(0x155F00B0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ADDCOLLECTIONDATA_OFFSET UNITYSDK_OFFSET(0x155F03E0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ADDGPCHEST_OFFSET UNITYSDK_OFFSET(0x155EFD10)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x155F6F10)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x155F6C50)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__BUILDTABCONDITIONCHECKER_OFFSET UNITYSDK_OFFSET(0x155F65C0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__CLEARRAIDCARTOGRAPHYDATA_OFFSET UNITYSDK_OFFSET(0x155F1560)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__CLEARRAIDSUBTABDATA_OFFSET UNITYSDK_OFFSET(0x155F9AC0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x155FC370)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__GETCARTOGRAPHERENTITYIN_OFFSET UNITYSDK_OFFSET(0x155F3590)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__HAVEMAPPINGINFOID_OFFSET UNITYSDK_OFFSET(0x155F48A0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITDEFAULTENTRANCEID_OFFSET UNITYSDK_OFFSET(0x155F5F70)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITFIVEDIMINSTANCECONTAINSCHESTMONSTERLIMAO_OFFSET UNITYSDK_OFFSET(0x155EFF40)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITFIVEDIMINSTANCECONTAINSCHEST_OFFSET UNITYSDK_OFFSET(0x155EFBA0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITFIVEDIMINSTANCECONTAINSCOLLECTIONDATA_OFFSET UNITYSDK_OFFSET(0x155F0280)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITFLOORID2PLANEID_OFFSET UNITYSDK_OFFSET(0x155F6320)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITSAMEFLOORSUBNAVMAPHIERARCHY_OFFSET UNITYSDK_OFFSET(0x155FB4E0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITSUBTABCONTAINOTHERFLOORSUBNAVMAPS_OFFSET UNITYSDK_OFFSET(0x155FB100)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITTABCONTAINSUBTABS_OFFSET UNITYSDK_OFFSET(0x155FAA80)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITTABHIERARCHYINDEX_OFFSET UNITYSDK_OFFSET(0x155F6560)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITWORLDCONTAINTABS_OFFSET UNITYSDK_OFFSET(0x155FA720)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ISREQUESTEDSYNCMAPDATA_OFFSET UNITYSDK_OFFSET(0x155FBAF0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONADDTEMPSHOWICON_OFFSET UNITYSDK_OFFSET(0x155FA680)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONADVENTUREPHASEENTERED_OFFSET UNITYSDK_OFFSET(0x155F99B0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONCMDENTEREDSCENECHANGESCNOTIFY_OFFSET UNITYSDK_OFFSET(0x155F8F70)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONCMDGETENTEREDSCENESCRSP_OFFSET UNITYSDK_OFFSET(0x155F8C20)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONCMDGETSCENEMAPINFOSCRSP_OFFSET UNITYSDK_OFFSET(0x155F7230)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONCMDWORLDUNLOCKSCRSP_OFFSET UNITYSDK_OFFSET(0x155F9930)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONFINISHEDMAINMISSION_OFFSET UNITYSDK_OFFSET(0x155F9B10)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONFINISHSUBMISSION_OFFSET UNITYSDK_OFFSET(0x155FA0C0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONMAPGROUPDEFREFRESH_OFFSET UNITYSDK_OFFSET(0x155FA630)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONMASTERMAINTABUNLOCK_OFFSET UNITYSDK_OFFSET(0x155F92B0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONMISSIONSYNC_OFFSET UNITYSDK_OFFSET(0x155FA5E0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONRAIDMAPDATADIRTY_OFFSET UNITYSDK_OFFSET(0x155F25A0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONREMOVETEMPSHOWICON_OFFSET UNITYSDK_OFFSET(0x155FA6D0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__REFRESHCURRENTMAPDATASTRATEGY_OFFSET UNITYSDK_OFFSET(0x155F9A70)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__SENDGETSCENEMAPINFO_OFFSET UNITYSDK_OFFSET(0x155FBC20)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE__TRYUPDATERAIDDATA_OFFSET UNITYSDK_OFFSET(0x155F88E0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x155FC980)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___IFIXBASEPROXY_ONRECONNECT_OFFSET UNITYSDK_OFFSET(0x155FCA00)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___IFIXBASEPROXY__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x155FCAC0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___IFIXBASEPROXY__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x155FCA60)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int NavMapModule_TypeDefinitionIndex = 68860;
+	inline static constexpr unsigned int NavMapModule_TypeDefinitionIndex = 69672;
 
 	class NavMapModule : public ::RPG::Client::BaseModule
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ConditionChecker*>* _SubTabConditionCheckers; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::SubNavMapRow*>*>* _SubTabContainOtherFloorSubNavMaps; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _FloorID2DefaultEntranceID; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::Class_1_813743369E0E31B2_1*>*>* _FiveDimInstanceContainsGPChestDatas; // 0x28
-		::Class_1_0AC901BFE4E36FC0* _CurrentMapDataStrategy; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _FloorID2PlaneID; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::NavMapTabRow*>*>* _WorldContainTabs; // 0x40
-		::RPG::Client::NavMap::SubTabData* _RaidSubTabData; // 0x48
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::VerseParam, ::RPG::Client::NavMap::UniverseData*>* _UniverseDatas; // 0x50
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::MapDataKey*, ::RPG::Client::Promises::Promise_1<::RPG::Client::NavMap::IMapDataSource*>*>* _SyncMapDataPromises; // 0x58
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _OtherFloorSubNavMapIDs; // 0x60
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* _EnteredFloors; // 0x68
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::MapDataKey*, ::RPG::Client::NavMap::IMapDataSource*>* _CacheMapDatas; // 0x70
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::System::UInt32>*>* _FiveDimInstanceContainsChestMonsterLimaoIDs; // 0x78
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::NavMapSubTabRow*>*>* _TabContainSubTabs; // 0x80
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::RPG::GameCore::LevelFloorBakedSubmapInfo*>*>* _SubTabContainSameFloorSubNavMaps; // 0x88
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::Class_1_813743369E0E31B2_2*>*>* _FiveDimInstanceContainsCollectionDatas; // 0x90
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* _EnteredFloors; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _FloorID2DefaultEntranceID; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::MapDataKey*, ::RPG::Client::NavMap::IMapDataSource*>* _CacheMapDatas; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::System::UInt32>*>* _FiveDimInstanceContainsChestMonsterLimaoIDs; // 0x28
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::VerseParam, ::RPG::Client::NavMap::UniverseData*>* _UniverseDatas; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::RPG::GameCore::LevelFloorBakedSubmapInfo*>*>* _SubTabContainSameFloorSubNavMaps; // 0x38
+		::RPG::Client::NavMap::SubTabData* _RaidSubTabData; // 0x40
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::MapDataKey*, ::RPG::Client::Promises::Promise_1<::RPG::Client::NavMap::IMapDataSource*>*>* _SyncMapDataPromises; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::Class_1_CB66E39D32BF42FF_1*>*>* _FiveDimInstanceContainsCollectionDatas; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::Class_1_CB66E39D32BF42FF_2*>*>* _FiveDimInstanceContainsGPChestDatas; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _FloorID2PlaneID; // 0x60
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::NavMapSubTabRow*>*>* _TabContainSubTabs; // 0x68
+		::Class_1_0AC901BFE4E36FC0* _CurrentMapDataStrategy; // 0x70
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::NavMapTabRow*>*>* _WorldContainTabs; // 0x78
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::SubNavMapRow*>*>* _SubTabContainOtherFloorSubNavMaps; // 0x80
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _OtherFloorSubNavMapIDs; // 0x88
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ConditionChecker*>* _SubTabConditionCheckers; // 0x90
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::Class_1_813743369E0E31B2_1*>* GetFiveDimInstanceContainsChest(::System::UInt32 floorID, ::System::UInt32 groupID, ::System::UInt32 instanceID)
+		::System::Collections::Generic::List_1<::Class_1_CB66E39D32BF42FF_2*>* GetFiveDimInstanceContainsChest(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Collections::Generic::List_1<::Class_1_813743369E0E31B2_1*>*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETFIVEDIMINSTANCECONTAINSCHEST_OFFSET))(this, floorID, groupID, instanceID);
+			return ((::System::Collections::Generic::List_1<::Class_1_CB66E39D32BF42FF_2*>*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETFIVEDIMINSTANCECONTAINSCHEST_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Collections::Generic::List_1<::System::UInt32>* GetFiveDimInstanceContainsChestMonsterLimao(::System::UInt32 floorID, ::System::UInt32 groupID, ::System::UInt32 instanceID)
+		::System::Collections::Generic::List_1<::System::UInt32>* GetFiveDimInstanceContainsChestMonsterLimao(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETFIVEDIMINSTANCECONTAINSCHESTMONSTERLIMAO_OFFSET))(this, floorID, groupID, instanceID);
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETFIVEDIMINSTANCECONTAINSCHESTMONSTERLIMAO_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Collections::Generic::List_1<::Class_1_813743369E0E31B2_2*>* GetFiveDimInstanceContainsCollectionData(::System::UInt32 floorID, ::System::UInt32 groupID, ::System::UInt32 instanceID)
+		::System::Collections::Generic::List_1<::Class_1_CB66E39D32BF42FF_1*>* GetFiveDimInstanceContainsCollectionData(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Collections::Generic::List_1<::Class_1_813743369E0E31B2_2*>*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETFIVEDIMINSTANCECONTAINSCOLLECTIONDATA_OFFSET))(this, floorID, groupID, instanceID);
+			return ((::System::Collections::Generic::List_1<::Class_1_CB66E39D32BF42FF_1*>*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETFIVEDIMINSTANCECONTAINSCOLLECTIONDATA_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _InitFiveDimInstanceContainsChest()
@@ -158,9 +158,9 @@ namespace RPG::Client::NavMap
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITFIVEDIMINSTANCECONTAINSCHEST_OFFSET))(this);
 		}
 
-		::System::Void _AddGPChest(::RPG::GameCore::ChestGroupPropertyRow* row)
+		::System::Void _AddGPChest(::RPG::GameCore::ChestGroupPropertyRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChestGroupPropertyRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ADDGPCHEST_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChestGroupPropertyRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ADDGPCHEST_OFFSET))(this, a1);
 		}
 
 		::System::Void _InitFiveDimInstanceContainsChestMonsterLimao()
@@ -168,9 +168,9 @@ namespace RPG::Client::NavMap
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITFIVEDIMINSTANCECONTAINSCHESTMONSTERLIMAO_OFFSET))(this);
 		}
 
-		::System::Void _AddChestMonsterLimao(::RPG::GameCore::ChestMonsterRow* row)
+		::System::Void _AddChestMonsterLimao(::RPG::GameCore::ChestMonsterRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChestMonsterRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ADDCHESTMONSTERLIMAO_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChestMonsterRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ADDCHESTMONSTERLIMAO_OFFSET))(this, a1);
 		}
 
 		::System::Void _InitFiveDimInstanceContainsCollectionData()
@@ -178,9 +178,9 @@ namespace RPG::Client::NavMap
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITFIVEDIMINSTANCECONTAINSCOLLECTIONDATA_OFFSET))(this);
 		}
 
-		::System::Void _AddCollectionData(::RPG::GameCore::MazePuzzleOrigamiFDRow* row)
+		::System::Void _AddCollectionData(::RPG::GameCore::MazePuzzleOrigamiFDRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MazePuzzleOrigamiFDRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ADDCOLLECTIONDATA_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MazePuzzleOrigamiFDRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ADDCOLLECTIONDATA_OFFSET))(this, a1);
 		}
 
 		static ::RPG::Client::NavMap::NavMapModule* get_Instance()
@@ -203,34 +203,34 @@ namespace RPG::Client::NavMap
 			return ((::RPG::Client::NavMap::ICartographer*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERPLAYERIN_OFFSET))(this);
 		}
 
-		::RPG::Client::NavMap::ICartographer* GetCartographerSubMissionIn(::System::UInt32 subMissionID)
+		::RPG::Client::NavMap::ICartographer* GetCartographerSubMissionIn(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::NavMap::ICartographer*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERSUBMISSIONIN_OFFSET))(this, subMissionID);
+			return ((::RPG::Client::NavMap::ICartographer*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERSUBMISSIONIN_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::NavMap::ICartographer* GetCartographerEntityIn(::System::UInt32 storyLineID, ::System::UInt32 contentID, ::System::UInt32 floorID, ::System::UInt32 groupID, ::System::UInt32 instanceID, ::System::UInt32 littleGameEntityID)
+		::RPG::Client::NavMap::ICartographer* GetCartographerEntityIn(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5, ::System::UInt32 a6)
 		{
-			return ((::RPG::Client::NavMap::ICartographer*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERENTITYIN_OFFSET))(this, storyLineID, contentID, floorID, groupID, instanceID, littleGameEntityID);
+			return ((::RPG::Client::NavMap::ICartographer*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERENTITYIN_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::RPG::Client::NavMap::ICartographer* _GetCartographerEntityIn(::RPG::Client::NavMap::SubTabData* subTabData, ::System::UInt32 floorID, ::System::UInt32 groupID, ::System::UInt32 instanceID, ::System::UInt32 littleGameEntityID)
+		::RPG::Client::NavMap::ICartographer* _GetCartographerEntityIn(::RPG::Client::NavMap::SubTabData* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5)
 		{
-			return ((::RPG::Client::NavMap::ICartographer*(*)(::PVOID, ::RPG::Client::NavMap::SubTabData*, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__GETCARTOGRAPHERENTITYIN_OFFSET))(this, subTabData, floorID, groupID, instanceID, littleGameEntityID);
+			return ((::RPG::Client::NavMap::ICartographer*(*)(::PVOID, ::RPG::Client::NavMap::SubTabData*, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__GETCARTOGRAPHERENTITYIN_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>* GetCartographerMappingInfoIDIn(::System::UInt32 storyLineID, ::System::UInt32 contentID, ::System::UInt32 floorID, ::System::UInt32 groupID, ::System::UInt32 mappingInfoID)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>* GetCartographerMappingInfoIDIn(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5)
 		{
-			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERMAPPINGINFOIDIN_OFFSET))(this, storyLineID, contentID, floorID, groupID, mappingInfoID);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERMAPPINGINFOIDIN_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean _HaveMappingInfoID(::RPG::Client::NavMap::ICartographer* cartographer, ::System::UInt32 mappingInfoID, ::System::UInt32 groupID)
+		::System::Boolean _HaveMappingInfoID(::RPG::Client::NavMap::ICartographer* a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::ICartographer*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__HAVEMAPPINGINFOID_OFFSET))(this, cartographer, mappingInfoID, groupID);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::ICartographer*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__HAVEMAPPINGINFOID_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>* GetCartographerMappingInfoIDIn_1(::System::UInt32 storyLineID, ::System::UInt32 contentID, ::System::UInt32 floorID, ::System::UInt32 mappingInfoID)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>* GetCartographerMappingInfoIDIn_1(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4)
 		{
-			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERMAPPINGINFOIDIN_1_OFFSET))(this, storyLineID, contentID, floorID, mappingInfoID);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERMAPPINGINFOIDIN_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::RPG::Client::NavMap::SubTabData* GetPlayerLocatedSubTab()
@@ -243,9 +243,9 @@ namespace RPG::Client::NavMap
 			return ((::RPG::Client::NavMap::IMainTab*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETPLAYERLOCATEDMAINTAB_OFFSET))(this);
 		}
 
-		::RPG::Client::NavMap::SubTabData* GetRaidSubTab(::System::UInt32 worldID, ::System::UInt32 floorID, ::System::UInt32 entranceID)
+		::RPG::Client::NavMap::SubTabData* GetRaidSubTab(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::RPG::Client::NavMap::SubTabData*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETRAIDSUBTAB_OFFSET))(this, worldID, floorID, entranceID);
+			return ((::RPG::Client::NavMap::SubTabData*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETRAIDSUBTAB_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::NavMap::ISubNavMap* GetPlayerLocatedSubNavMap()
@@ -253,14 +253,14 @@ namespace RPG::Client::NavMap
 			return ((::RPG::Client::NavMap::ISubNavMap*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETPLAYERLOCATEDSUBNAVMAP_OFFSET))(this);
 		}
 
-		::System::Boolean IsSceneEntered(::System::UInt32 floorID)
+		::System::Boolean IsSceneEntered(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_ISSCENEENTERED_OFFSET))(this, floorID);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_ISSCENEENTERED_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetSubTabFloorID(::System::UInt32 floorID)
+		::System::UInt32 GetSubTabFloorID(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETSUBTABFLOORID_OFFSET))(this, floorID);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETSUBTABFLOORID_OFFSET))(this, a1);
 		}
 
 		::System::Void Init()
@@ -278,14 +278,14 @@ namespace RPG::Client::NavMap
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_PREPAREMISSIONDATA_OFFSET))(this);
 		}
 
-		::System::UInt32 GetEntryIDByFloorID(::System::UInt32 floorID)
+		::System::UInt32 GetEntryIDByFloorID(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETENTRYIDBYFLOORID_OFFSET))(this, floorID);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETENTRYIDBYFLOORID_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetPlaneIDByFloorID(::System::UInt32 floorID)
+		::System::UInt32 GetPlaneIDByFloorID(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETPLANEIDBYFLOORID_OFFSET))(this, floorID);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETPLANEIDBYFLOORID_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::VerseParam get_PlayerLocatedVerse()
@@ -293,9 +293,9 @@ namespace RPG::Client::NavMap
 			return ((::RPG::Client::VerseParam(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GET_PLAYERLOCATEDVERSE_OFFSET))(this);
 		}
 
-		::RPG::Client::NavMap::UniverseData* GetUniverseData(::RPG::Client::VerseParam verseParam)
+		::RPG::Client::NavMap::UniverseData* GetUniverseData(::RPG::Client::VerseParam a1)
 		{
-			return ((::RPG::Client::NavMap::UniverseData*(*)(::PVOID, ::RPG::Client::VerseParam))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETUNIVERSEDATA_OFFSET))(this, verseParam);
+			return ((::RPG::Client::NavMap::UniverseData*(*)(::PVOID, ::RPG::Client::VerseParam))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETUNIVERSEDATA_OFFSET))(this, a1);
 		}
 
 		::System::Void _AddPacketHandlers()
@@ -308,64 +308,64 @@ namespace RPG::Client::NavMap
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ADDNOTIFYHANDLERS_OFFSET))(this);
 		}
 
-		::System::Void _OnCmdGetSceneMapInfoScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		::System::Void _OnCmdGetSceneMapInfoScRsp(::System::UInt16 a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONCMDGETSCENEMAPINFOSCRSP_OFFSET))(this, cmd, rspObject);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONCMDGETSCENEMAPINFOSCRSP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _OnCmdGetEnteredSceneScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		::System::Void _OnCmdGetEnteredSceneScRsp(::System::UInt16 a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONCMDGETENTEREDSCENESCRSP_OFFSET))(this, cmd, rspObject);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONCMDGETENTEREDSCENESCRSP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _OnCmdEnteredSceneChangeScNotify(::System::UInt16 cmd, ::System::Object* ntfObject)
+		::System::Void _OnCmdEnteredSceneChangeScNotify(::System::UInt16 a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONCMDENTEREDSCENECHANGESCNOTIFY_OFFSET))(this, cmd, ntfObject);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONCMDENTEREDSCENECHANGESCNOTIFY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _OnMasterMainTabUnlock(::System::Collections::Generic::List_1<::RPG::Client::NavMap::IMainTab*>* mainTabs)
+		::System::Void _OnMasterMainTabUnlock(::System::Collections::Generic::List_1<::RPG::Client::NavMap::IMainTab*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::NavMap::IMainTab*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONMASTERMAINTABUNLOCK_OFFSET))(this, mainTabs);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::NavMap::IMainTab*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONMASTERMAINTABUNLOCK_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnCmdWorldUnlockScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		::System::Void _OnCmdWorldUnlockScRsp(::System::UInt16 a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONCMDWORLDUNLOCKSCRSP_OFFSET))(this, cmd, rspObject);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONCMDWORLDUNLOCKSCRSP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _OnAdventurePhaseEntered(::System::Object* arg)
+		::System::Void _OnAdventurePhaseEntered(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONADVENTUREPHASEENTERED_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONADVENTUREPHASEENTERED_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnFinishedMainMission(::System::Object* arg)
+		::System::Void _OnFinishedMainMission(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONFINISHEDMAINMISSION_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONFINISHEDMAINMISSION_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnFinishSubMission(::System::Object* arg)
+		::System::Void _OnFinishSubMission(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONFINISHSUBMISSION_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONFINISHSUBMISSION_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnMissionSync(::System::Object* arg)
+		::System::Void _OnMissionSync(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONMISSIONSYNC_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONMISSIONSYNC_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnMapGroupDefRefresh(::System::Object* arg)
+		::System::Void _OnMapGroupDefRefresh(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONMAPGROUPDEFREFRESH_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONMAPGROUPDEFREFRESH_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnAddTempShowIcon(::System::Object* arg)
+		::System::Void _OnAddTempShowIcon(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONADDTEMPSHOWICON_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONADDTEMPSHOWICON_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnRemoveTempShowIcon(::System::Object* arg)
+		::System::Void _OnRemoveTempShowIcon(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONREMOVETEMPSHOWICON_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONREMOVETEMPSHOWICON_OFFSET))(this, a1);
 		}
 
 		::System::Void _RefreshCurrentMapDataStrategy()
@@ -413,24 +413,24 @@ namespace RPG::Client::NavMap
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__INITSAMEFLOORSUBNAVMAPHIERARCHY_OFFSET))(this);
 		}
 
-		::RPG::Client::NavMap::IMapDataSource* GetMapDataSource(::System::UInt32 storyLineID, ::System::UInt32 contentID, ::System::UInt32 floorID, ::System::Boolean isInOnlinePlayRoom)
+		::RPG::Client::NavMap::IMapDataSource* GetMapDataSource(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Boolean a4)
 		{
-			return ((::RPG::Client::NavMap::IMapDataSource*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETMAPDATASOURCE_OFFSET))(this, storyLineID, contentID, floorID, isInOnlinePlayRoom);
+			return ((::RPG::Client::NavMap::IMapDataSource*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETMAPDATASOURCE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::RPG::Client::NavMap::IMapDataSource* GetMapDataSource_1(::RPG::Client::MapDataKey* mapDataKey)
+		::RPG::Client::NavMap::IMapDataSource* GetMapDataSource_1(::RPG::Client::MapDataKey* a1)
 		{
-			return ((::RPG::Client::NavMap::IMapDataSource*(*)(::PVOID, ::RPG::Client::MapDataKey*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETMAPDATASOURCE_1_OFFSET))(this, mapDataKey);
+			return ((::RPG::Client::NavMap::IMapDataSource*(*)(::PVOID, ::RPG::Client::MapDataKey*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETMAPDATASOURCE_1_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::IMapDataSource*>*>* GetSyncedMapDataSource(::System::Boolean fullScreenBlock, ::Il2CppArray<::RPG::Client::MapDataKey*>* mapDataKeys)
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::IMapDataSource*>*>* GetSyncedMapDataSource(::System::Boolean a1, ::Il2CppArray<::RPG::Client::MapDataKey*>* a2)
 		{
-			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::IMapDataSource*>*>*(*)(::PVOID, ::System::Boolean, ::Il2CppArray<::RPG::Client::MapDataKey*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETSYNCEDMAPDATASOURCE_OFFSET))(this, fullScreenBlock, mapDataKeys);
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::IMapDataSource*>*>*(*)(::PVOID, ::System::Boolean, ::Il2CppArray<::RPG::Client::MapDataKey*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETSYNCEDMAPDATASOURCE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void PrepareMapDataSource(::System::Boolean fullScreenBlock, ::Il2CppArray<::RPG::Client::MapDataKey*>* mapDataKeys)
+		::System::Void PrepareMapDataSource(::System::Boolean a1, ::Il2CppArray<::RPG::Client::MapDataKey*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Il2CppArray<::RPG::Client::MapDataKey*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_PREPAREMAPDATASOURCE_OFFSET))(this, fullScreenBlock, mapDataKeys);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Il2CppArray<::RPG::Client::MapDataKey*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_PREPAREMAPDATASOURCE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _BuildTabConditionChecker()
@@ -438,14 +438,14 @@ namespace RPG::Client::NavMap
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__BUILDTABCONDITIONCHECKER_OFFSET))(this);
 		}
 
-		::System::Void _SendGetSceneMapInfo(::System::Boolean fullScreenBlock, ::Il2CppArray<::RPG::Client::MapDataKey*>* mapDataKeys)
+		::System::Void _SendGetSceneMapInfo(::System::Boolean a1, ::Il2CppArray<::RPG::Client::MapDataKey*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Il2CppArray<::RPG::Client::MapDataKey*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__SENDGETSCENEMAPINFO_OFFSET))(this, fullScreenBlock, mapDataKeys);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Il2CppArray<::RPG::Client::MapDataKey*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__SENDGETSCENEMAPINFO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean _IsRequestedSyncMapData(::RPG::Client::MapDataKey* mapDataKey)
+		::System::Boolean _IsRequestedSyncMapData(::RPG::Client::MapDataKey* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MapDataKey*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ISREQUESTEDSYNCMAPDATA_OFFSET))(this, mapDataKey);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MapDataKey*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ISREQUESTEDSYNCMAPDATA_OFFSET))(this, a1);
 		}
 
 		::System::Void _ClearRaidCartographyData()
@@ -458,9 +458,9 @@ namespace RPG::Client::NavMap
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__ONRAIDMAPDATADIRTY_OFFSET))(this);
 		}
 
-		::System::Void _TryUpdateRaidData(::System::UInt32 floorID)
+		::System::Void _TryUpdateRaidData(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__TRYUPDATERAIDDATA_OFFSET))(this, floorID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__TRYUPDATERAIDDATA_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::NavMapTabRow*>*>* get_WorldContainTabs()

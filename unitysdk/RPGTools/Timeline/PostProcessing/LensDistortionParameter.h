@@ -7,11 +7,11 @@
 
 namespace UnityEngine { class Texture; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_LENSDISTORTIONPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x2261A30)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_LENSDISTORTIONPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x385C080)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int LensDistortionParameter_TypeDefinitionIndex = 45288;
+	inline static constexpr unsigned int LensDistortionParameter_TypeDefinitionIndex = 45845;
 
 	struct alignas(8) LensDistortionParameter
 	{

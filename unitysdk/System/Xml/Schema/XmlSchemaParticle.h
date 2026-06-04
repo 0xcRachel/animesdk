@@ -4,10 +4,10 @@
 #include "unitysdk/System/Xml/Schema/XmlSchemaAnnotated.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaParticle_Occurs.h"
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_SET_MAXOCCURS_OFFSET UNITYSDK_OFFSET(0x1854C8E0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_SET_MINOCCURS_OFFSET UNITYSDK_OFFSET(0x1854C720)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1854E150)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1854BBA0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_SET_MAXOCCURS_OFFSET UNITYSDK_OFFSET(0x1847AE20)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_SET_MINOCCURS_OFFSET UNITYSDK_OFFSET(0x1847AC60)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1847C650)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1847A0D0)
 
 namespace System::Xml::Schema
 {
@@ -18,11 +18,11 @@ namespace System::Xml::Schema
 	public:
 		static ::System::Xml::Schema::XmlSchemaParticle** StaticGet_Empty()
 		{
-			return (::System::Xml::Schema::XmlSchemaParticle**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaParticle_TypeDefinitionIndex)->GetStaticField(0xBCF0);
+			return (::System::Xml::Schema::XmlSchemaParticle**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaParticle_TypeDefinitionIndex)->GetStaticField(0x16580);
 		}
-		::System::Decimal maxOccurs; // 0x10
+		::System::Decimal minOccurs; // 0x10
 		::System::Xml::Schema::XmlSchemaParticle_Occurs flags; // 0x20
-		::System::Decimal minOccurs; // 0x24
+		::System::Decimal maxOccurs; // 0x24
 
 		::System::Void _ctor()
 		{
@@ -34,14 +34,14 @@ namespace System::Xml::Schema
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE__CCTOR_OFFSET))();
 		}
 
-		::System::Void set_MinOccurs(::System::Decimal value)
+		::System::Void set_MinOccurs(::System::Decimal a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Decimal))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_SET_MINOCCURS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Decimal))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_SET_MINOCCURS_OFFSET))(this, a1);
 		}
 
-		::System::Void set_MaxOccurs(::System::Decimal value)
+		::System::Void set_MaxOccurs(::System::Decimal a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Decimal))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_SET_MAXOCCURS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Decimal))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_SET_MAXOCCURS_OFFSET))(this, a1);
 		}
 	};
 }

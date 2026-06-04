@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetEntityArtRotation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_364E6C8740482977_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x103912C0)
-#define CLASS_3_364E6C8740482977__CTOR_OFFSET UNITYSDK_OFFSET(0x10391290)
+#define CLASS_3_364E6C8740482977_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x161B4630)
+#define CLASS_3_364E6C8740482977__CTOR_OFFSET UNITYSDK_OFFSET(0x161B4600)
 
-inline static constexpr unsigned int Class_3_364E6C8740482977_TypeDefinitionIndex = 53967;
+inline static constexpr unsigned int Class_3_364E6C8740482977_TypeDefinitionIndex = 54692;
 
 class Class_3_364E6C8740482977 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetEntityArtRotation*>
 {

@@ -4,13 +4,13 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_SPRINGBONECOMMONCONFIG_GET_NAMEHASH_OFFSET UNITYSDK_OFFSET(0x16C35A90)
-#define RPG_CLIENT_SPRINGBONECOMMONCONFIG_SET_NAMEHASH_OFFSET UNITYSDK_OFFSET(0x16C35AA0)
-#define RPG_CLIENT_SPRINGBONECOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16C35AB0)
+#define RPG_CLIENT_SPRINGBONECOMMONCONFIG_GET_NAMEHASH_OFFSET UNITYSDK_OFFSET(0x17C23FA0)
+#define RPG_CLIENT_SPRINGBONECOMMONCONFIG_SET_NAMEHASH_OFFSET UNITYSDK_OFFSET(0x17C23FB0)
+#define RPG_CLIENT_SPRINGBONECOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17C23FC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SpringBoneCommonConfig_TypeDefinitionIndex = 55412;
+	inline static constexpr unsigned int SpringBoneCommonConfig_TypeDefinitionIndex = 56157;
 
 	class SpringBoneCommonConfig : public ::UnityEngine::ScriptableObject
 	{
@@ -31,9 +31,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPRINGBONECOMMONCONFIG_GET_NAMEHASH_OFFSET))(this);
 		}
 
-		::System::Void set_NameHash(::System::Int32 value)
+		::System::Void set_NameHash(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPRINGBONECOMMONCONFIG_SET_NAMEHASH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPRINGBONECOMMONCONFIG_SET_NAMEHASH_OFFSET))(this, a1);
 		}
 	};
 }

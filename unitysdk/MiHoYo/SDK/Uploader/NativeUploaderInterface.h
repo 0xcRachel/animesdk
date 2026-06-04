@@ -6,17 +6,17 @@ namespace MiHoYo::SDK::Uploader { class BaseUploaderWorker; }
 namespace MiHoYo::SDK::Uploader { class UploadCallbackAction; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_ALIYUNINITUPLOADER_OFFSET UNITYSDK_OFFSET(0x17CF56C0)
-#define MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_ALIYUNUPLOADBUFFER_OFFSET UNITYSDK_OFFSET(0x17CF5830)
-#define MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_ALIYUNUPLOADFILE_OFFSET UNITYSDK_OFFSET(0x17CF57C0)
-#define MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_AWSINITUPLOADER_OFFSET UNITYSDK_OFFSET(0x17CF3910)
-#define MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_AWSUPLOADBUFFER_OFFSET UNITYSDK_OFFSET(0x17CF3D00)
-#define MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_AWSUPLOADFILE_OFFSET UNITYSDK_OFFSET(0x17CF3D80)
-#define MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x17CF58B0)
+#define MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_ALIYUNINITUPLOADER_OFFSET UNITYSDK_OFFSET(0x19B9B4B0)
+#define MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_ALIYUNUPLOADBUFFER_OFFSET UNITYSDK_OFFSET(0x19B9B620)
+#define MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_ALIYUNUPLOADFILE_OFFSET UNITYSDK_OFFSET(0x19B9B5B0)
+#define MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_AWSINITUPLOADER_OFFSET UNITYSDK_OFFSET(0x19B99AC0)
+#define MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_AWSUPLOADBUFFER_OFFSET UNITYSDK_OFFSET(0x19B99EC0)
+#define MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_AWSUPLOADFILE_OFFSET UNITYSDK_OFFSET(0x19B99F40)
+#define MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B9B6A0)
 
 namespace MiHoYo::SDK::Uploader
 {
-	inline static constexpr unsigned int NativeUploaderInterface_TypeDefinitionIndex = 43220;
+	inline static constexpr unsigned int NativeUploaderInterface_TypeDefinitionIndex = 44023;
 
 	class NativeUploaderInterface : public ::System::Object
 	{
@@ -28,34 +28,34 @@ namespace MiHoYo::SDK::Uploader
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void AliyunInitUploader(::System::String* strKeyId, ::System::String* strKeySecret, ::System::String* strToken, ::System::String* strEndPoint, ::System::String* strBucketName, ::System::Int32 nErrorRetryCount)
+		::System::Void AliyunInitUploader(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_ALIYUNINITUPLOADER_OFFSET))(this, strKeyId, strKeySecret, strToken, strEndPoint, strBucketName, nErrorRetryCount);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_ALIYUNINITUPLOADER_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void AliyunUploadFile(::System::Int32 nTaskID, ::System::String* strFilePath, ::System::String* strFileID, ::MiHoYo::SDK::Uploader::UploadCallbackAction* callback)
+		::System::Void AliyunUploadFile(::System::Int32 a1, ::System::String* a2, ::System::String* a3, ::MiHoYo::SDK::Uploader::UploadCallbackAction* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::System::String*, ::MiHoYo::SDK::Uploader::UploadCallbackAction*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_ALIYUNUPLOADFILE_OFFSET))(this, nTaskID, strFilePath, strFileID, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::System::String*, ::MiHoYo::SDK::Uploader::UploadCallbackAction*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_ALIYUNUPLOADFILE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void AliyunUploadBuffer(::System::Int32 nTaskID, ::Il2CppArray<::System::Byte>* buffer, ::System::UInt32 nSize, ::System::String* strFileID, ::MiHoYo::SDK::Uploader::UploadCallbackAction* callback)
+		::System::Void AliyunUploadBuffer(::System::Int32 a1, ::Il2CppArray<::System::Byte>* a2, ::System::UInt32 a3, ::System::String* a4, ::MiHoYo::SDK::Uploader::UploadCallbackAction* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::System::UInt32, ::System::String*, ::MiHoYo::SDK::Uploader::UploadCallbackAction*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_ALIYUNUPLOADBUFFER_OFFSET))(this, nTaskID, buffer, nSize, strFileID, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::System::UInt32, ::System::String*, ::MiHoYo::SDK::Uploader::UploadCallbackAction*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_ALIYUNUPLOADBUFFER_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void AwsInitUploader(::System::String* strKeyId, ::System::String* strKeySecret, ::System::String* strToken, ::System::String* strEndPoint, ::System::String* strBucketName, ::System::Int32 nErrorRetryCount)
+		::System::Void AwsInitUploader(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_AWSINITUPLOADER_OFFSET))(this, strKeyId, strKeySecret, strToken, strEndPoint, strBucketName, nErrorRetryCount);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_AWSINITUPLOADER_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void AwsUploadFile(::System::Int32 nTaskID, ::System::String* strFilePath, ::System::String* strFileID, ::MiHoYo::SDK::Uploader::UploadCallbackAction* callback)
+		::System::Void AwsUploadFile(::System::Int32 a1, ::System::String* a2, ::System::String* a3, ::MiHoYo::SDK::Uploader::UploadCallbackAction* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::System::String*, ::MiHoYo::SDK::Uploader::UploadCallbackAction*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_AWSUPLOADFILE_OFFSET))(this, nTaskID, strFilePath, strFileID, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::System::String*, ::MiHoYo::SDK::Uploader::UploadCallbackAction*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_AWSUPLOADFILE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void AwsUploadBuffer(::System::Int32 nTaskID, ::Il2CppArray<::System::Byte>* buffer, ::System::UInt32 nSize, ::System::String* strFileID, ::MiHoYo::SDK::Uploader::UploadCallbackAction* callback)
+		::System::Void AwsUploadBuffer(::System::Int32 a1, ::Il2CppArray<::System::Byte>* a2, ::System::UInt32 a3, ::System::String* a4, ::MiHoYo::SDK::Uploader::UploadCallbackAction* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::System::UInt32, ::System::String*, ::MiHoYo::SDK::Uploader::UploadCallbackAction*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_AWSUPLOADBUFFER_OFFSET))(this, nTaskID, buffer, nSize, strFileID, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::System::UInt32, ::System::String*, ::MiHoYo::SDK::Uploader::UploadCallbackAction*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_NATIVEUPLOADERINTERFACE_AWSUPLOADBUFFER_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 	};
 }

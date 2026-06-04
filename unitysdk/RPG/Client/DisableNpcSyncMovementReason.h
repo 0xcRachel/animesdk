@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DisableNpcSyncMovementReason_TypeDefinitionIndex = 67505;
+	inline static constexpr unsigned int DisableNpcSyncMovementReason_TypeDefinitionIndex = 68459;
 
 	enum class DisableNpcSyncMovementReason : ::System::Int32
 	{

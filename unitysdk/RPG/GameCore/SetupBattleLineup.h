@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SETUPBATTLELINEUP_METHOD_3_463C37D77A0B962F_OFFSET UNITYSDK_OFFSET(0x19396A10)
-#define RPG_GAMECORE_SETUPBATTLELINEUP_METHOD_3_AA00D950ACFB8031_OFFSET UNITYSDK_OFFSET(0x19396A90)
-#define RPG_GAMECORE_SETUPBATTLELINEUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19396A60)
+#define RPG_GAMECORE_SETUPBATTLELINEUP_METHOD_3_34690C87F06C603B_OFFSET UNITYSDK_OFFSET(0x19FF0EA0)
+#define RPG_GAMECORE_SETUPBATTLELINEUP_METHOD_3_EAC9A8904AAD9135_OFFSET UNITYSDK_OFFSET(0x19FF0E20)
+#define RPG_GAMECORE_SETUPBATTLELINEUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF0E70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetupBattleLineup_TypeDefinitionIndex = 21879;
+	inline static constexpr unsigned int SetupBattleLineup_TypeDefinitionIndex = 21703;
 
 	class SetupBattleLineup : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPBATTLELINEUP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_463C37D77A0B962F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetupBattleLineup*& a2)
+		static ::System::Void Method_3_EAC9A8904AAD9135(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetupBattleLineup*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetupBattleLineup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPBATTLELINEUP_METHOD_3_463C37D77A0B962F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetupBattleLineup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPBATTLELINEUP_METHOD_3_EAC9A8904AAD9135_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_AA00D950ACFB8031(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetupBattleLineup* a2)
+		static ::System::Void Method_3_34690C87F06C603B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetupBattleLineup* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetupBattleLineup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPBATTLELINEUP_METHOD_3_AA00D950ACFB8031_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetupBattleLineup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPBATTLELINEUP_METHOD_3_34690C87F06C603B_OFFSET))(a1, a2);
 		}
 	};
 }

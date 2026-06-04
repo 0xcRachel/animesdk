@@ -5,33 +5,33 @@
 namespace MiHoYo::SDK::Protobuf::Reflection { class IDescriptor; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_DESCRIPTORINTPAIR_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22CC3F0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_DESCRIPTORINTPAIR_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D67490)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_DESCRIPTORINTPAIR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D674C0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_DESCRIPTORINTPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D67480)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_DESCRIPTORINTPAIR_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x383ABC0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_DESCRIPTORINTPAIR_EQUALS_OFFSET UNITYSDK_OFFSET(0x364B410)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_DESCRIPTORINTPAIR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x364B440)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_DESCRIPTORINTPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x364B400)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int DescriptorPool_DescriptorIntPair_TypeDefinitionIndex = 33733;
+	inline static constexpr unsigned int DescriptorPool_DescriptorIntPair_TypeDefinitionIndex = 34015;
 
 	struct alignas(8) DescriptorPool_DescriptorIntPair
 	{
 		::System::Int32 number; // 0x10
 		::MiHoYo::SDK::Protobuf::Reflection::IDescriptor* descriptor; // 0x18
 
-		::System::Void _ctor(::MiHoYo::SDK::Protobuf::Reflection::IDescriptor* descriptor, ::System::Int32 number)
+		::System::Void _ctor(::MiHoYo::SDK::Protobuf::Reflection::IDescriptor* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::Reflection::IDescriptor*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_DESCRIPTORINTPAIR__CTOR_OFFSET))(this, descriptor, number);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::Reflection::IDescriptor*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_DESCRIPTORINTPAIR__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Equals(::MiHoYo::SDK::Protobuf::Reflection::DescriptorPool_DescriptorIntPair other)
+		::System::Boolean Equals(::MiHoYo::SDK::Protobuf::Reflection::DescriptorPool_DescriptorIntPair a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::Protobuf::Reflection::DescriptorPool_DescriptorIntPair))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_DESCRIPTORINTPAIR_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::Protobuf::Reflection::DescriptorPool_DescriptorIntPair))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_DESCRIPTORINTPAIR_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_DESCRIPTORINTPAIR_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPOOL_DESCRIPTORINTPAIR_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

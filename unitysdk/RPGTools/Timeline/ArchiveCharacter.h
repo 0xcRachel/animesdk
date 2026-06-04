@@ -5,16 +5,16 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_ARCHIVECHARACTER_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0x16F3AD50)
-#define RPGTOOLS_TIMELINE_ARCHIVECHARACTER_GET_ISPLAYER_OFFSET UNITYSDK_OFFSET(0x16F3ACE0)
-#define RPGTOOLS_TIMELINE_ARCHIVECHARACTER_METHOD_4_35B1D6F5AD964588_OFFSET UNITYSDK_OFFSET(0x16F3AE60)
-#define RPGTOOLS_TIMELINE_ARCHIVECHARACTER_METHOD_4_F8CFE1100A85137E_OFFSET UNITYSDK_OFFSET(0x16F3AD70)
-#define RPGTOOLS_TIMELINE_ARCHIVECHARACTER_SET_ENTITY_OFFSET UNITYSDK_OFFSET(0x16F3AD60)
-#define RPGTOOLS_TIMELINE_ARCHIVECHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16F3AE40)
+#define RPGTOOLS_TIMELINE_ARCHIVECHARACTER_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0x198B4F80)
+#define RPGTOOLS_TIMELINE_ARCHIVECHARACTER_GET_ISPLAYER_OFFSET UNITYSDK_OFFSET(0x198B4F10)
+#define RPGTOOLS_TIMELINE_ARCHIVECHARACTER_METHOD_4_0E98210FFD41D920_OFFSET UNITYSDK_OFFSET(0x198B5090)
+#define RPGTOOLS_TIMELINE_ARCHIVECHARACTER_METHOD_4_784C221F8D8DF4FC_OFFSET UNITYSDK_OFFSET(0x198B4FA0)
+#define RPGTOOLS_TIMELINE_ARCHIVECHARACTER_SET_ENTITY_OFFSET UNITYSDK_OFFSET(0x198B4F90)
+#define RPGTOOLS_TIMELINE_ARCHIVECHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x198B5070)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ArchiveCharacter_TypeDefinitionIndex = 45215;
+	inline static constexpr unsigned int ArchiveCharacter_TypeDefinitionIndex = 45772;
 
 	class ArchiveCharacter : public ::RPGTools::Timeline::ArchiveAsset
 	{
@@ -37,19 +37,19 @@ namespace RPGTools::Timeline
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ARCHIVECHARACTER_GET_ENTITY_OFFSET))(this);
 		}
 
-		::System::Void set_Entity(::RPG::GameCore::GameEntity* value)
+		::System::Void set_Entity(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ARCHIVECHARACTER_SET_ENTITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ARCHIVECHARACTER_SET_ENTITY_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_4_F8CFE1100A85137E(::RPGTools::Timeline::ArchiveAsset* a1)
+		::System::Boolean Method_4_784C221F8D8DF4FC(::RPGTools::Timeline::ArchiveAsset* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPGTools::Timeline::ArchiveAsset*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ARCHIVECHARACTER_METHOD_4_F8CFE1100A85137E_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPGTools::Timeline::ArchiveAsset*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ARCHIVECHARACTER_METHOD_4_784C221F8D8DF4FC_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_4_35B1D6F5AD964588(::RPGTools::Timeline::ArchiveAsset* P0)
+		::System::Boolean Method_4_0E98210FFD41D920(::RPGTools::Timeline::ArchiveAsset* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPGTools::Timeline::ArchiveAsset*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ARCHIVECHARACTER_METHOD_4_35B1D6F5AD964588_OFFSET))(this, P0);
+			return ((::System::Boolean(*)(::PVOID, ::RPGTools::Timeline::ArchiveAsset*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ARCHIVECHARACTER_METHOD_4_0E98210FFD41D920_OFFSET))(this, a1);
 		}
 	};
 }

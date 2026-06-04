@@ -4,32 +4,32 @@
 
 class AkPlaylistItem;
 
-#define AKITERATOR_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x192D2C80)
-#define AKITERATOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x192D2B90)
-#define AKITERATOR_FINALIZE_OFFSET UNITYSDK_OFFSET(0x192D2C10)
-#define AKITERATOR_GETCPTR_OFFSET UNITYSDK_OFFSET(0x192D2A80)
-#define AKITERATOR_GETITEM_OFFSET UNITYSDK_OFFSET(0x192D3250)
-#define AKITERATOR_GET_PITEM_OFFSET UNITYSDK_OFFSET(0x192D2F40)
-#define AKITERATOR_ISDIFFERENTFROM_OFFSET UNITYSDK_OFFSET(0x196DDE20)
-#define AKITERATOR_ISEQUALTO_OFFSET UNITYSDK_OFFSET(0x192D3350)
-#define AKITERATOR_NEXTITER_OFFSET UNITYSDK_OFFSET(0x192D3050)
-#define AKITERATOR_PREVITER_OFFSET UNITYSDK_OFFSET(0x192D3150)
-#define AKITERATOR_SETCPTR_OFFSET UNITYSDK_OFFSET(0x192D2AD0)
-#define AKITERATOR_SET_PITEM_OFFSET UNITYSDK_OFFSET(0x192D2E20)
-#define AKITERATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x196DDF40)
-#define AKITERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x192D2A70)
+#define AKITERATOR_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x19DEDA00)
+#define AKITERATOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19DED8E0)
+#define AKITERATOR_FINALIZE_OFFSET UNITYSDK_OFFSET(0x19DED990)
+#define AKITERATOR_GETCPTR_OFFSET UNITYSDK_OFFSET(0x19DED7A0)
+#define AKITERATOR_GETITEM_OFFSET UNITYSDK_OFFSET(0x19DEE010)
+#define AKITERATOR_GET_PITEM_OFFSET UNITYSDK_OFFSET(0x19DEDD00)
+#define AKITERATOR_ISDIFFERENTFROM_OFFSET UNITYSDK_OFFSET(0x1A26A240)
+#define AKITERATOR_ISEQUALTO_OFFSET UNITYSDK_OFFSET(0x19DEE110)
+#define AKITERATOR_NEXTITER_OFFSET UNITYSDK_OFFSET(0x19DEDE10)
+#define AKITERATOR_PREVITER_OFFSET UNITYSDK_OFFSET(0x19DEDF10)
+#define AKITERATOR_SETCPTR_OFFSET UNITYSDK_OFFSET(0x19DED7F0)
+#define AKITERATOR_SET_PITEM_OFFSET UNITYSDK_OFFSET(0x19DEDBE0)
+#define AKITERATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A26A360)
+#define AKITERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19DED790)
 
-inline static constexpr unsigned int AkIterator_TypeDefinitionIndex = 40303;
+inline static constexpr unsigned int AkIterator_TypeDefinitionIndex = 41130;
 
 class AkIterator : public ::System::Object
 {
 public:
-	::System::Boolean swigCMemOwn; // 0x10
-	::System::IntPtr swigCPtr; // 0x18
+	::System::IntPtr swigCPtr; // 0x10
+	::System::Boolean swigCMemOwn; // 0x18
 
-	::System::Void _ctor(::System::IntPtr cPtr, ::System::Boolean cMemoryOwn)
+	::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKITERATOR__CTOR_OFFSET))(this, cPtr, cMemoryOwn);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKITERATOR__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void _ctor_1()
@@ -37,14 +37,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKITERATOR__CTOR_1_OFFSET))(this);
 	}
 
-	static ::System::IntPtr getCPtr(::AkIterator* obj)
+	static ::System::IntPtr getCPtr(::AkIterator* a1)
 	{
-		return ((::System::IntPtr(*)(::AkIterator*))((::PBYTE)hIl2Cpp + AKITERATOR_GETCPTR_OFFSET))(obj);
+		return ((::System::IntPtr(*)(::AkIterator*))((::PBYTE)hIl2Cpp + AKITERATOR_GETCPTR_OFFSET))(a1);
 	}
 
-	::System::Void setCPtr(::System::IntPtr cPtr)
+	::System::Void setCPtr(::System::IntPtr a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKITERATOR_SETCPTR_OFFSET))(this, cPtr);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKITERATOR_SETCPTR_OFFSET))(this, a1);
 	}
 
 	::System::Void Finalize()
@@ -57,14 +57,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKITERATOR_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Dispose_1(::System::Boolean disposing)
+	::System::Void Dispose_1(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKITERATOR_DISPOSE_1_OFFSET))(this, disposing);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKITERATOR_DISPOSE_1_OFFSET))(this, a1);
 	}
 
-	::System::Void set_pItem(::AkPlaylistItem* value)
+	::System::Void set_pItem(::AkPlaylistItem* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkPlaylistItem*))((::PBYTE)hIl2Cpp + AKITERATOR_SET_PITEM_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::AkPlaylistItem*))((::PBYTE)hIl2Cpp + AKITERATOR_SET_PITEM_OFFSET))(this, a1);
 	}
 
 	::AkPlaylistItem* get_pItem()
@@ -87,13 +87,13 @@ public:
 		return ((::AkPlaylistItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKITERATOR_GETITEM_OFFSET))(this);
 	}
 
-	::System::Boolean IsEqualTo(::AkIterator* in_rOp)
+	::System::Boolean IsEqualTo(::AkIterator* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::AkIterator*))((::PBYTE)hIl2Cpp + AKITERATOR_ISEQUALTO_OFFSET))(this, in_rOp);
+		return ((::System::Boolean(*)(::PVOID, ::AkIterator*))((::PBYTE)hIl2Cpp + AKITERATOR_ISEQUALTO_OFFSET))(this, a1);
 	}
 
-	::System::Boolean IsDifferentFrom(::AkIterator* in_rOp)
+	::System::Boolean IsDifferentFrom(::AkIterator* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::AkIterator*))((::PBYTE)hIl2Cpp + AKITERATOR_ISDIFFERENTFROM_OFFSET))(this, in_rOp);
+		return ((::System::Boolean(*)(::PVOID, ::AkIterator*))((::PBYTE)hIl2Cpp + AKITERATOR_ISDIFFERENTFROM_OFFSET))(this, a1);
 	}
 };

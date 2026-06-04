@@ -6,35 +6,35 @@
 namespace System { class Type; }
 namespace System::Linq::Expressions { class ExpressionVisitor; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_ACCEPT_OFFSET UNITYSDK_OFFSET(0x1842CF10)
-#define SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_GETFALSE_OFFSET UNITYSDK_OFFSET(0x1842CEB0)
-#define SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_GET_IFFALSE_OFFSET UNITYSDK_OFFSET(0x1842CEA0)
-#define SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_GET_IFTRUE_OFFSET UNITYSDK_OFFSET(0x1842CE90)
-#define SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1842CE30)
-#define SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_GET_TEST_OFFSET UNITYSDK_OFFSET(0x1842CE80)
-#define SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1842CE40)
-#define SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_MAKE_OFFSET UNITYSDK_OFFSET(0x1842CAF0)
-#define SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_UPDATE_OFFSET UNITYSDK_OFFSET(0x1842CF40)
-#define SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1842CA80)
+#define SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_ACCEPT_OFFSET UNITYSDK_OFFSET(0x17A9F8C0)
+#define SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_GETFALSE_OFFSET UNITYSDK_OFFSET(0x17A9F860)
+#define SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_GET_IFFALSE_OFFSET UNITYSDK_OFFSET(0x17A9F850)
+#define SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_GET_IFTRUE_OFFSET UNITYSDK_OFFSET(0x17A9F840)
+#define SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x17A9F7E0)
+#define SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_GET_TEST_OFFSET UNITYSDK_OFFSET(0x17A9F830)
+#define SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x17A9F7F0)
+#define SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_MAKE_OFFSET UNITYSDK_OFFSET(0x17A9F4B0)
+#define SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_UPDATE_OFFSET UNITYSDK_OFFSET(0x17A9F8F0)
+#define SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x17A9F440)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int ConditionalExpression_TypeDefinitionIndex = 3195;
+	inline static constexpr unsigned int ConditionalExpression_TypeDefinitionIndex = 3196;
 
 	class ConditionalExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:
-		::System::Linq::Expressions::Expression* _Test_k__BackingField; // 0x10
-		::System::Linq::Expressions::Expression* _IfTrue_k__BackingField; // 0x18
+		::System::Linq::Expressions::Expression* _IfTrue_k__BackingField; // 0x10
+		::System::Linq::Expressions::Expression* _Test_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue)
+		::System::Void _ctor(::System::Linq::Expressions::Expression* a1, ::System::Linq::Expressions::Expression* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION__CTOR_OFFSET))(this, test, ifTrue);
+			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Linq::Expressions::ConditionalExpression* Make(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue, ::System::Linq::Expressions::Expression* ifFalse, ::System::Type* type)
+		static ::System::Linq::Expressions::ConditionalExpression* Make(::System::Linq::Expressions::Expression* a1, ::System::Linq::Expressions::Expression* a2, ::System::Linq::Expressions::Expression* a3, ::System::Type* a4)
 		{
-			return ((::System::Linq::Expressions::ConditionalExpression*(*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_MAKE_OFFSET))(test, ifTrue, ifFalse, type);
+			return ((::System::Linq::Expressions::ConditionalExpression*(*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_MAKE_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::System::Linq::Expressions::ExpressionType get_NodeType()
@@ -67,14 +67,14 @@ namespace System::Linq::Expressions
 			return ((::System::Linq::Expressions::Expression*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_GETFALSE_OFFSET))(this);
 		}
 
-		::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor)
+		::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* a1)
 		{
-			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::ExpressionVisitor*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_ACCEPT_OFFSET))(this, visitor);
+			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::ExpressionVisitor*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_ACCEPT_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::ConditionalExpression* Update(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue, ::System::Linq::Expressions::Expression* ifFalse)
+		::System::Linq::Expressions::ConditionalExpression* Update(::System::Linq::Expressions::Expression* a1, ::System::Linq::Expressions::Expression* a2, ::System::Linq::Expressions::Expression* a3)
 		{
-			return ((::System::Linq::Expressions::ConditionalExpression*(*)(::PVOID, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_UPDATE_OFFSET))(this, test, ifTrue, ifFalse);
+			return ((::System::Linq::Expressions::ConditionalExpression*(*)(::PVOID, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_CONDITIONALEXPRESSION_UPDATE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

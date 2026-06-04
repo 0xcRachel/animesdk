@@ -4,14 +4,17 @@
 #include "unitysdk/RPG/GameCore/TargetEvaluator.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_GROUPFETCHLOCALTARGET_METHOD_4_1E2052D63AB8A012_OFFSET UNITYSDK_OFFSET(0x19B93C10)
-#define RPG_GAMECORE_GROUPFETCHLOCALTARGET_METHOD_4_2E55DDAD0AC699DE_OFFSET UNITYSDK_OFFSET(0x19B93CD0)
-#define RPG_GAMECORE_GROUPFETCHLOCALTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x19B93C80)
+#define RPG_GAMECORE_GROUPFETCHLOCALTARGET_METHOD_4_01347C146E95CF88_OFFSET UNITYSDK_OFFSET(0x1A1C6D10)
+#define RPG_GAMECORE_GROUPFETCHLOCALTARGET_METHOD_4_1E2052D63AB8A012_OFFSET UNITYSDK_OFFSET(0x1A1C6B40)
+#define RPG_GAMECORE_GROUPFETCHLOCALTARGET_METHOD_4_25F0A45C4B94AC8B_OFFSET UNITYSDK_OFFSET(0x1A1C6D80)
+#define RPG_GAMECORE_GROUPFETCHLOCALTARGET_METHOD_4_2E55DDAD0AC699DE_OFFSET UNITYSDK_OFFSET(0x1A1C6C00)
+#define RPG_GAMECORE_GROUPFETCHLOCALTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C6BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupFetchLocalTarget_TypeDefinitionIndex = 20130;
+	inline static constexpr unsigned int GroupFetchLocalTarget_TypeDefinitionIndex = 19987;
 
 	class GroupFetchLocalTarget : public ::RPG::GameCore::TargetEvaluator
 	{
@@ -32,6 +35,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_2E55DDAD0AC699DE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GroupFetchLocalTarget* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GroupFetchLocalTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPFETCHLOCALTARGET_METHOD_4_2E55DDAD0AC699DE_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_01347C146E95CF88(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::GroupFetchLocalTarget*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::GroupFetchLocalTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPFETCHLOCALTARGET_METHOD_4_01347C146E95CF88_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_25F0A45C4B94AC8B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::GroupFetchLocalTarget* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::GroupFetchLocalTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPFETCHLOCALTARGET_METHOD_4_25F0A45C4B94AC8B_OFFSET))(a1, a2);
 		}
 	};
 }

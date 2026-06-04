@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ENDMOSTCHRONICLEPERFORMANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1915BF40)
-#define RPG_GAMECORE_ENDMOSTCHRONICLEPERFORMANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1915C120)
+#define RPG_GAMECORE_ENDMOSTCHRONICLEPERFORMANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D77CE0)
+#define RPG_GAMECORE_ENDMOSTCHRONICLEPERFORMANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D77EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EndmostChroniclePerformanceRow_TypeDefinitionIndex = 13386;
+	inline static constexpr unsigned int EndmostChroniclePerformanceRow_TypeDefinitionIndex = 13459;
 
 	class EndmostChroniclePerformanceRow : public ::System::Object
 	{
 	public:
-		::System::Int32 Order; // 0x10
+		::RPG::GameCore::ELevelPerformanceType Type; // 0x10
 		::System::UInt32 ID; // 0x14
-		::RPG::GameCore::ELevelPerformanceType Type; // 0x18
+		::System::Int32 Order; // 0x18
 		::System::UInt32 EndmostChronicleID; // 0x1C
 
 		::System::Void _ctor()
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENDMOSTCHRONICLEPERFORMANCEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::EndmostChroniclePerformanceRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EndmostChroniclePerformanceRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EndmostChroniclePerformanceRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENDMOSTCHRONICLEPERFORMANCEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EndmostChroniclePerformanceRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENDMOSTCHRONICLEPERFORMANCEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

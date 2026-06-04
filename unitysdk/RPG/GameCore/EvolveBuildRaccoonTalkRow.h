@@ -8,29 +8,29 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1945D330)
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1945DA20)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A3F2BE0)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3F32D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildRaccoonTalkRow_TypeDefinitionIndex = 10924;
+	inline static constexpr unsigned int EvolveBuildRaccoonTalkRow_TypeDefinitionIndex = 10977;
 
 	class EvolveBuildRaccoonTalkRow : public ::System::Object
 	{
 	public:
-		::System::String* RaccoonPicPath; // 0x10
-		::Il2CppArray<::RPG::Client::TextID>* TextmapList; // 0x18
-		::RPG::GameCore::RaccoonStateType RaccoonState; // 0x20
-		::RPG::GameCore::EvolveBuildSeason Season; // 0x24
+		::Il2CppArray<::RPG::Client::TextID>* TextmapList; // 0x10
+		::System::String* RaccoonPicPath; // 0x18
+		::RPG::GameCore::EvolveBuildSeason Season; // 0x20
+		::RPG::GameCore::RaccoonStateType RaccoonState; // 0x24
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::EvolveBuildRaccoonTalkRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EvolveBuildRaccoonTalkRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EvolveBuildRaccoonTalkRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EvolveBuildRaccoonTalkRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

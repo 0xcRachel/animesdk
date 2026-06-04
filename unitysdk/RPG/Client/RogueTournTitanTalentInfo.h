@@ -9,27 +9,27 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x172F2010)
-#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO_GETNEXTUNLOCKTALENT_OFFSET UNITYSDK_OFFSET(0x172F20F0)
-#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO_GETNODEDATABYTITANTYPE_OFFSET UNITYSDK_OFFSET(0x172F2240)
-#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO_GETTALENTUNLOCKEDPROGRESSINFO_OFFSET UNITYSDK_OFFSET(0x172F22C0)
-#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO_GET_TALENTCOINICONPATH_OFFSET UNITYSDK_OFFSET(0x172F2610)
-#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO_GET__TALENTCOINITEMDATA_OFFSET UNITYSDK_OFFSET(0x172F2580)
-#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO_GET__TALENTCOINITEMID_OFFSET UNITYSDK_OFFSET(0x172F24A0)
-#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO_INIT_OFFSET UNITYSDK_OFFSET(0x172F14B0)
-#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x172F13B0)
-#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO__GENERATETALENTUNLOCKSEQUENCE_OFFSET UNITYSDK_OFFSET(0x172F1B80)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x188C3170)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO_GETNEXTUNLOCKTALENT_OFFSET UNITYSDK_OFFSET(0x188C3270)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO_GETNODEDATABYTITANTYPE_OFFSET UNITYSDK_OFFSET(0x188C3390)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO_GETTALENTUNLOCKEDPROGRESSINFO_OFFSET UNITYSDK_OFFSET(0x188C3410)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO_GET_TALENTCOINICONPATH_OFFSET UNITYSDK_OFFSET(0x188C3750)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO_GET__TALENTCOINITEMDATA_OFFSET UNITYSDK_OFFSET(0x188C36C0)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO_GET__TALENTCOINITEMID_OFFSET UNITYSDK_OFFSET(0x188C35D0)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO_INIT_OFFSET UNITYSDK_OFFSET(0x188C2520)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x188C2420)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO__GENERATETALENTUNLOCKSEQUENCE_OFFSET UNITYSDK_OFFSET(0x188C2CC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournTitanTalentInfo_TypeDefinitionIndex = 62553;
+	inline static constexpr unsigned int RogueTournTitanTalentInfo_TypeDefinitionIndex = 63486;
 
 	class RogueTournTitanTalentInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::RogueTournTitanTalentNodeData*>* _OrderedTalentNodes; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::RogueTournTitanTalentNodeData*>* _TalentID2Nodes; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueTitanType, ::System::Collections::Generic::List_1<::RPG::Client::RogueTournTitanTalentNodeData*>*>* _TitanType2TalentNodes; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueTitanType, ::System::Collections::Generic::List_1<::RPG::Client::RogueTournTitanTalentNodeData*>*>* _TitanType2TalentNodes; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::RogueTournTitanTalentNodeData*>* _OrderedTalentNodes; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::RogueTournTitanTalentNodeData*>* _TalentID2Nodes; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -51,14 +51,14 @@ namespace RPG::Client
 			return ((::RPG::Client::RogueTournTitanTalentNodeData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTINFO_GETNEXTUNLOCKTALENT_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::RogueTournTitanTalentNodeData*>* GetNodeDataByTitanType(::RPG::GameCore::RogueTitanType titanType)
+		::System::Collections::Generic::List_1<::RPG::Client::RogueTournTitanTalentNodeData*>* GetNodeDataByTitanType(::RPG::GameCore::RogueTitanType a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::RogueTournTitanTalentNodeData*>*(*)(::PVOID, ::RPG::GameCore::RogueTitanType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTINFO_GETNODEDATABYTITANTYPE_OFFSET))(this, titanType);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::RogueTournTitanTalentNodeData*>*(*)(::PVOID, ::RPG::GameCore::RogueTitanType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTINFO_GETNODEDATABYTITANTYPE_OFFSET))(this, a1);
 		}
 
-		::System::Void GetTalentUnlockedProgressInfo(::System::UInt32& unlockedCnt, ::System::UInt32& totalCnt)
+		::System::Void GetTalentUnlockedProgressInfo(::System::UInt32& a1, ::System::UInt32& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32&, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTINFO_GETTALENTUNLOCKEDPROGRESSINFO_OFFSET))(this, unlockedCnt, totalCnt);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32&, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTINFO_GETTALENTUNLOCKEDPROGRESSINFO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _GenerateTalentUnlockSequence()

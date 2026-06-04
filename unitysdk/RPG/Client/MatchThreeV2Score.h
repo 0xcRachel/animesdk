@@ -7,29 +7,29 @@
 namespace RPG::Client { class MatchThreeV2PvpScoreData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MATCHTHREEV2SCORE_CREATE_OFFSET UNITYSDK_OFFSET(0x1758C5C0)
-#define RPG_CLIENT_MATCHTHREEV2SCORE_GET_DATA_OFFSET UNITYSDK_OFFSET(0x1758C1B0)
-#define RPG_CLIENT_MATCHTHREEV2SCORE_GET_RARITY_OFFSET UNITYSDK_OFFSET(0x1758C540)
-#define RPG_CLIENT_MATCHTHREEV2SCORE_GET_SCOREID_OFFSET UNITYSDK_OFFSET(0x1758C210)
-#define RPG_CLIENT_MATCHTHREEV2SCORE_GET_SCORE_OFFSET UNITYSDK_OFFSET(0x1758C1D0)
-#define RPG_CLIENT_MATCHTHREEV2SCORE_GET_STATICCOUNT_OFFSET UNITYSDK_OFFSET(0x1758C1F0)
-#define RPG_CLIENT_MATCHTHREEV2SCORE_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1758C230)
-#define RPG_CLIENT_MATCHTHREEV2SCORE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1758C4C0)
-#define RPG_CLIENT_MATCHTHREEV2SCORE_SET_DATA_OFFSET UNITYSDK_OFFSET(0x1758C1C0)
-#define RPG_CLIENT_MATCHTHREEV2SCORE_SET_SCORE_OFFSET UNITYSDK_OFFSET(0x1758C1E0)
-#define RPG_CLIENT_MATCHTHREEV2SCORE_SET_STATICCOUNT_OFFSET UNITYSDK_OFFSET(0x1758C200)
-#define RPG_CLIENT_MATCHTHREEV2SCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1758C650)
+#define RPG_CLIENT_MATCHTHREEV2SCORE_CREATE_OFFSET UNITYSDK_OFFSET(0x188E5EB0)
+#define RPG_CLIENT_MATCHTHREEV2SCORE_GET_DATA_OFFSET UNITYSDK_OFFSET(0x188E5A40)
+#define RPG_CLIENT_MATCHTHREEV2SCORE_GET_RARITY_OFFSET UNITYSDK_OFFSET(0x188E5E30)
+#define RPG_CLIENT_MATCHTHREEV2SCORE_GET_SCOREID_OFFSET UNITYSDK_OFFSET(0x188E5AA0)
+#define RPG_CLIENT_MATCHTHREEV2SCORE_GET_SCORE_OFFSET UNITYSDK_OFFSET(0x188E5A60)
+#define RPG_CLIENT_MATCHTHREEV2SCORE_GET_STATICCOUNT_OFFSET UNITYSDK_OFFSET(0x188E5A80)
+#define RPG_CLIENT_MATCHTHREEV2SCORE_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x188E5AC0)
+#define RPG_CLIENT_MATCHTHREEV2SCORE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x188E5DB0)
+#define RPG_CLIENT_MATCHTHREEV2SCORE_SET_DATA_OFFSET UNITYSDK_OFFSET(0x188E5A50)
+#define RPG_CLIENT_MATCHTHREEV2SCORE_SET_SCORE_OFFSET UNITYSDK_OFFSET(0x188E5A70)
+#define RPG_CLIENT_MATCHTHREEV2SCORE_SET_STATICCOUNT_OFFSET UNITYSDK_OFFSET(0x188E5A90)
+#define RPG_CLIENT_MATCHTHREEV2SCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x188E5F40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2Score_TypeDefinitionIndex = 60818;
+	inline static constexpr unsigned int MatchThreeV2Score_TypeDefinitionIndex = 61752;
 
 	class MatchThreeV2Score : public ::System::Object
 	{
 	public:
 		::RPG::Client::MatchThreeV2PvpScoreData* _Data_k__BackingField; // 0x10
-		::System::UInt32 _StaticCount_k__BackingField; // 0x18
-		::System::Int32 _Score_k__BackingField; // 0x1C
+		::System::Int32 _Score_k__BackingField; // 0x18
+		::System::UInt32 _StaticCount_k__BackingField; // 0x1C
 
 		::System::Void _ctor()
 		{
@@ -41,9 +41,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MatchThreeV2PvpScoreData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2SCORE_GET_DATA_OFFSET))(this);
 		}
 
-		::System::Void set_Data(::RPG::Client::MatchThreeV2PvpScoreData* value)
+		::System::Void set_Data(::RPG::Client::MatchThreeV2PvpScoreData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MatchThreeV2PvpScoreData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2SCORE_SET_DATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MatchThreeV2PvpScoreData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2SCORE_SET_DATA_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_Score()
@@ -51,9 +51,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2SCORE_GET_SCORE_OFFSET))(this);
 		}
 
-		::System::Void set_Score(::System::Int32 value)
+		::System::Void set_Score(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2SCORE_SET_SCORE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2SCORE_SET_SCORE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_StaticCount()
@@ -61,9 +61,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2SCORE_GET_STATICCOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_StaticCount(::System::UInt32 value)
+		::System::Void set_StaticCount(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2SCORE_SET_STATICCOUNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2SCORE_SET_STATICCOUNT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ScoreID()
@@ -86,9 +86,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::MatchThreeRarityType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2SCORE_GET_RARITY_OFFSET))(this);
 		}
 
-		static ::RPG::Client::MatchThreeV2Score* Create(::RPG::Client::MatchThreeV2PvpScoreData* data, ::System::Int32 score, ::System::UInt32 staticCount)
+		static ::RPG::Client::MatchThreeV2Score* Create(::RPG::Client::MatchThreeV2PvpScoreData* a1, ::System::Int32 a2, ::System::UInt32 a3)
 		{
-			return ((::RPG::Client::MatchThreeV2Score*(*)(::RPG::Client::MatchThreeV2PvpScoreData*, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2SCORE_CREATE_OFFSET))(data, score, staticCount);
+			return ((::RPG::Client::MatchThreeV2Score*(*)(::RPG::Client::MatchThreeV2PvpScoreData*, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2SCORE_CREATE_OFFSET))(a1, a2, a3);
 		}
 	};
 }

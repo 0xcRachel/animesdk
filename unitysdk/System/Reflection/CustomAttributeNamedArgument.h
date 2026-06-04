@@ -7,25 +7,25 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Reflection { class MemberInfo; }
 
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTENAMEDARGUMENT_EQUALS_OFFSET UNITYSDK_OFFSET(0x22F7360)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTENAMEDARGUMENT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22F7370)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTENAMEDARGUMENT_GET_MEMBERINFO_OFFSET UNITYSDK_OFFSET(0x58FAA0)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTENAMEDARGUMENT_GET_TYPEDVALUE_OFFSET UNITYSDK_OFFSET(0x6070D0)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTENAMEDARGUMENT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22F72F0)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTENAMEDARGUMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x22F7240)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTENAMEDARGUMENT_EQUALS_OFFSET UNITYSDK_OFFSET(0x388AB40)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTENAMEDARGUMENT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x388AB50)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTENAMEDARGUMENT_GET_MEMBERINFO_OFFSET UNITYSDK_OFFSET(0x6676D0)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTENAMEDARGUMENT_GET_TYPEDVALUE_OFFSET UNITYSDK_OFFSET(0x7D49D0)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTENAMEDARGUMENT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x388AAD0)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTENAMEDARGUMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x388AA20)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int CustomAttributeNamedArgument_TypeDefinitionIndex = 600;
+	inline static constexpr unsigned int CustomAttributeNamedArgument_TypeDefinitionIndex = 599;
 
 	struct alignas(8) CustomAttributeNamedArgument
 	{
 		::System::Reflection::CustomAttributeTypedArgument typedArgument; // 0x10
 		::System::Reflection::MemberInfo* memberInfo; // 0x20
 
-		::System::Void _ctor(::System::Reflection::MemberInfo* memberInfo, ::System::Object* value)
+		::System::Void _ctor(::System::Reflection::MemberInfo* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::MemberInfo*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTENAMEDARGUMENT__CTOR_OFFSET))(this, memberInfo, value);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::MemberInfo*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTENAMEDARGUMENT__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Reflection::MemberInfo* get_MemberInfo()
@@ -43,9 +43,9 @@ namespace System::Reflection
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTENAMEDARGUMENT_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTENAMEDARGUMENT_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTENAMEDARGUMENT_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

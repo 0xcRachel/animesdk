@@ -10,27 +10,27 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk { template <typename T> class PinnedList_1; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT_ABCSETUP_OFFSET UNITYSDK_OFFSET(0x18BF8F40)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT_ABCSYNCDATABEGIN_OFFSET UNITYSDK_OFFSET(0x18BF9060)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT_ABCSYNCDATAEND_OFFSET UNITYSDK_OFFSET(0x18BF97D0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT_GET_ABCSCHEMA_OFFSET UNITYSDK_OFFSET(0x18BF8EE0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT_GET_CREATERENDERINGCOMPONENT_OFFSET UNITYSDK_OFFSET(0x18BF8EC0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x18BF8EF0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT_SET_CREATERENDERINGCOMPONENT_OFFSET UNITYSDK_OFFSET(0x18BF8ED0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18BF9B90)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT_ABCSETUP_OFFSET UNITYSDK_OFFSET(0x197207A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT_ABCSYNCDATABEGIN_OFFSET UNITYSDK_OFFSET(0x197208C0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT_ABCSYNCDATAEND_OFFSET UNITYSDK_OFFSET(0x19721030)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT_GET_ABCSCHEMA_OFFSET UNITYSDK_OFFSET(0x19720750)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT_GET_CREATERENDERINGCOMPONENT_OFFSET UNITYSDK_OFFSET(0x19720730)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x19720760)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT_SET_CREATERENDERINGCOMPONENT_OFFSET UNITYSDK_OFFSET(0x19720740)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x197213E0)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicCurvesElement_TypeDefinitionIndex = 40845;
+	inline static constexpr unsigned int AlembicCurvesElement_TypeDefinitionIndex = 41671;
 
 	class AlembicCurvesElement : public ::UnityEngine::Formats::Alembic::Importer::AlembicElement
 	{
 	public:
 		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Formats::Alembic::Sdk::aiCurvesData>* m_abcData; // 0x28
-		::System::Boolean _CreateRenderingComponent_k__BackingField; // 0x30
-		::UnityEngine::Formats::Alembic::Sdk::aiCurvesSummary m_summary; // 0x31
-		::UnityEngine::Formats::Alembic::Sdk::aiCurvesSampleSummary m_sampleSummary; // 0x34
-		::UnityEngine::Formats::Alembic::Sdk::aiCurves m_abcSchema; // 0x40
+		::UnityEngine::Formats::Alembic::Sdk::aiCurves m_abcSchema; // 0x30
+		::UnityEngine::Formats::Alembic::Sdk::aiCurvesSampleSummary m_sampleSummary; // 0x38
+		::UnityEngine::Formats::Alembic::Sdk::aiCurvesSummary m_summary; // 0x40
+		::System::Boolean _CreateRenderingComponent_k__BackingField; // 0x43
 
 		::System::Void _ctor()
 		{
@@ -42,9 +42,9 @@ namespace UnityEngine::Formats::Alembic::Importer
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT_GET_CREATERENDERINGCOMPONENT_OFFSET))(this);
 		}
 
-		::System::Void set_CreateRenderingComponent(::System::Boolean value)
+		::System::Void set_CreateRenderingComponent(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT_SET_CREATERENDERINGCOMPONENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT_SET_CREATERENDERINGCOMPONENT_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::aiSchema get_abcSchema()
@@ -57,9 +57,9 @@ namespace UnityEngine::Formats::Alembic::Importer
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT_GET_VISIBILITY_OFFSET))(this);
 		}
 
-		::System::Void AbcSetup(::UnityEngine::Formats::Alembic::Sdk::aiObject abcObj, ::UnityEngine::Formats::Alembic::Sdk::aiSchema abcSchema)
+		::System::Void AbcSetup(::UnityEngine::Formats::Alembic::Sdk::aiObject a1, ::UnityEngine::Formats::Alembic::Sdk::aiSchema a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aiObject, ::UnityEngine::Formats::Alembic::Sdk::aiSchema))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT_ABCSETUP_OFFSET))(this, abcObj, abcSchema);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aiObject, ::UnityEngine::Formats::Alembic::Sdk::aiSchema))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESELEMENT_ABCSETUP_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void AbcSyncDataBegin()

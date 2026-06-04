@@ -4,11 +4,11 @@
 
 namespace UnityEngine::Rendering { class RenderPipelineAsset; }
 
-#define SCENERENDERPIPELINE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18AE8630)
-#define SCENERENDERPIPELINE_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x18AE86B0)
-#define SCENERENDERPIPELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x18AE8730)
+#define SCENERENDERPIPELINE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1959DAA0)
+#define SCENERENDERPIPELINE_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1959DB20)
+#define SCENERENDERPIPELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1959DBA0)
 
-inline static constexpr unsigned int SceneRenderPipeline_TypeDefinitionIndex = 33350;
+inline static constexpr unsigned int SceneRenderPipeline_TypeDefinitionIndex = 33632;
 
 class SceneRenderPipeline : public ::UnityEngine::MonoBehaviour
 {

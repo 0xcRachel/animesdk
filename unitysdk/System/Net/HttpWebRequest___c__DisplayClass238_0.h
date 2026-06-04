@@ -6,8 +6,8 @@ namespace System::Net { class HttpWebRequest; }
 namespace System::Net { class SimpleAsyncResult; }
 namespace System::Net { class WebAsyncResult; }
 
-#define SYSTEM_NET_HTTPWEBREQUEST___C__DISPLAYCLASS238_0__BEGINGETRESPONSE_B__0_OFFSET UNITYSDK_OFFSET(0x176C4AE0)
-#define SYSTEM_NET_HTTPWEBREQUEST___C__DISPLAYCLASS238_0__CTOR_OFFSET UNITYSDK_OFFSET(0x176BF370)
+#define SYSTEM_NET_HTTPWEBREQUEST___C__DISPLAYCLASS238_0__BEGINGETRESPONSE_B__0_OFFSET UNITYSDK_OFFSET(0x17CF2F00)
+#define SYSTEM_NET_HTTPWEBREQUEST___C__DISPLAYCLASS238_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17CED440)
 
 namespace System::Net
 {
@@ -16,17 +16,17 @@ namespace System::Net
 	class HttpWebRequest___c__DisplayClass238_0 : public ::System::Object
 	{
 	public:
-		::System::Net::HttpWebRequest* __4__this; // 0x10
-		::System::Net::WebAsyncResult* aread; // 0x18
+		::System::Net::WebAsyncResult* aread; // 0x10
+		::System::Net::HttpWebRequest* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPWEBREQUEST___C__DISPLAYCLASS238_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _BeginGetResponse_b__0(::System::Net::SimpleAsyncResult* inner)
+		::System::Void _BeginGetResponse_b__0(::System::Net::SimpleAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::SimpleAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPWEBREQUEST___C__DISPLAYCLASS238_0__BEGINGETRESPONSE_B__0_OFFSET))(this, inner);
+			return ((::System::Void(*)(::PVOID, ::System::Net::SimpleAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPWEBREQUEST___C__DISPLAYCLASS238_0__BEGINGETRESPONSE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

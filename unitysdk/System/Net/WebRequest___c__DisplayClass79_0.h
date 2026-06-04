@@ -7,8 +7,8 @@ namespace System::Net { class WebResponse; }
 namespace System::Security::Principal { class WindowsIdentity; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS79_0__CTOR_OFFSET UNITYSDK_OFFSET(0x183DD150)
-#define SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS79_0__GETRESPONSEASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x183DDB10)
+#define SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS79_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18966880)
+#define SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS79_0__GETRESPONSEASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x18967C10)
 
 namespace System::Net
 {
@@ -17,8 +17,8 @@ namespace System::Net
 	class WebRequest___c__DisplayClass79_0 : public ::System::Object
 	{
 	public:
-		::System::Net::WebRequest* __4__this; // 0x10
-		::System::Security::Principal::WindowsIdentity* currentUser; // 0x18
+		::System::Security::Principal::WindowsIdentity* currentUser; // 0x10
+		::System::Net::WebRequest* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

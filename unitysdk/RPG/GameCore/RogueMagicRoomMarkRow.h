@@ -8,12 +8,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMAGICROOMMARKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1996F140)
-#define RPG_GAMECORE_ROGUEMAGICROOMMARKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1996F3F0)
+#define RPG_GAMECORE_ROGUEMAGICROOMMARKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19EC3DA0)
+#define RPG_GAMECORE_ROGUEMAGICROOMMARKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19EC4050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicRoomMarkRow_TypeDefinitionIndex = 14067;
+	inline static constexpr unsigned int RogueMagicRoomMarkRow_TypeDefinitionIndex = 14131;
 
 	class RogueMagicRoomMarkRow : public ::System::Object
 	{
@@ -21,18 +21,18 @@ namespace RPG::GameCore
 		::System::String* RoomTypeIcon; // 0x10
 		::System::String* ToastIcon; // 0x18
 		::System::String* RoomIconEffect; // 0x20
-		::RPG::Client::TextID RoomTypeName; // 0x28
-		::RPG::GameCore::RogueMagicMarkType MarkType; // 0x38
-		::RPG::GameCore::RogueMagicRoomType RoomType; // 0x3C
+		::RPG::GameCore::RogueMagicMarkType MarkType; // 0x28
+		::RPG::GameCore::RogueMagicRoomType RoomType; // 0x2C
+		::RPG::Client::TextID RoomTypeName; // 0x30
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICROOMMARKROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueMagicRoomMarkRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueMagicRoomMarkRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMagicRoomMarkRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICROOMMARKROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMagicRoomMarkRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICROOMMARKROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

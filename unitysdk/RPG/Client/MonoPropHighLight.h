@@ -5,33 +5,33 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOPROPHIGHLIGHT_AWAKE_OFFSET UNITYSDK_OFFSET(0x162DFFE0)
-#define RPG_CLIENT_MONOPROPHIGHLIGHT_METHOD_5_03C4FFAD29DE0852_OFFSET UNITYSDK_OFFSET(0x162E04C0)
-#define RPG_CLIENT_MONOPROPHIGHLIGHT_METHOD_5_F4C8B018D655630D_OFFSET UNITYSDK_OFFSET(0x162E0240)
-#define RPG_CLIENT_MONOPROPHIGHLIGHT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x162E0470)
-#define RPG_CLIENT_MONOPROPHIGHLIGHT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x162E01F0)
-#define RPG_CLIENT_MONOPROPHIGHLIGHT_SETHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0x162E06C0)
-#define RPG_CLIENT_MONOPROPHIGHLIGHT_UPDATE_OFFSET UNITYSDK_OFFSET(0x162E0040)
-#define RPG_CLIENT_MONOPROPHIGHLIGHT__CCTOR_OFFSET UNITYSDK_OFFSET(0x162E0720)
-#define RPG_CLIENT_MONOPROPHIGHLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x162E0710)
+#define RPG_CLIENT_MONOPROPHIGHLIGHT_AWAKE_OFFSET UNITYSDK_OFFSET(0x17AE7AD0)
+#define RPG_CLIENT_MONOPROPHIGHLIGHT_METHOD_5_5D3D37F2BAE9FB65_OFFSET UNITYSDK_OFFSET(0x17AE7F80)
+#define RPG_CLIENT_MONOPROPHIGHLIGHT_METHOD_5_C495FC84AA2302E0_OFFSET UNITYSDK_OFFSET(0x17AE7D30)
+#define RPG_CLIENT_MONOPROPHIGHLIGHT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x17AE7F30)
+#define RPG_CLIENT_MONOPROPHIGHLIGHT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x17AE7CE0)
+#define RPG_CLIENT_MONOPROPHIGHLIGHT_SETHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0x17AE8130)
+#define RPG_CLIENT_MONOPROPHIGHLIGHT_UPDATE_OFFSET UNITYSDK_OFFSET(0x17AE7B30)
+#define RPG_CLIENT_MONOPROPHIGHLIGHT__CCTOR_OFFSET UNITYSDK_OFFSET(0x17AE8190)
+#define RPG_CLIENT_MONOPROPHIGHLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x17AE8180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoPropHighLight_TypeDefinitionIndex = 63412;
+	inline static constexpr unsigned int MonoPropHighLight_TypeDefinitionIndex = 64329;
 
 	class MonoPropHighLight : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_5_6()
+		static ::System::Int32* StaticGet_Field_5_0()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoPropHighLight_TypeDefinitionIndex)->GetStaticField(0xFE30);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoPropHighLight_TypeDefinitionIndex)->GetStaticField(0x11C30);
 		}
 		::System::Single Duration; // 0x18
 		::Il2CppArray<::UnityEngine::Renderer*>* Renderers; // 0x20
 		::UnityEngine::Material* HighLightMaterial; // 0x28
-		::System::Single Field_5_3; // 0x30
-		::System::Boolean Field_5_4; // 0x34
-		::Il2CppArray<::UnityEngine::Material*>* Field_5_5; // 0x38
+		::System::Single Field_5_4; // 0x30
+		::System::Boolean Field_5_5; // 0x34
+		::Il2CppArray<::UnityEngine::Material*>* Field_5_6; // 0x38
 
 		::System::Void _ctor()
 		{
@@ -68,14 +68,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPROPHIGHLIGHT_SETHIGHLIGHT_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_F4C8B018D655630D()
+		::System::Void Method_5_C495FC84AA2302E0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPROPHIGHLIGHT_METHOD_5_F4C8B018D655630D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPROPHIGHLIGHT_METHOD_5_C495FC84AA2302E0_OFFSET))(this);
 		}
 
-		::System::Void Method_5_03C4FFAD29DE0852()
+		::System::Void Method_5_5D3D37F2BAE9FB65()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPROPHIGHLIGHT_METHOD_5_03C4FFAD29DE0852_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPROPHIGHLIGHT_METHOD_5_5D3D37F2BAE9FB65_OFFSET))(this);
 		}
 	};
 }

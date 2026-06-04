@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-#define RPG_GAMECORE_ABILITYBEFOREDYING_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB1A9F60)
-#define RPG_GAMECORE_ABILITYBEFOREDYING_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB1A9F20)
-#define RPG_GAMECORE_ABILITYBEFOREDYING_INIT_OFFSET UNITYSDK_OFFSET(0xB1A9ED0)
-#define RPG_GAMECORE_ABILITYBEFOREDYING__CTOR_OFFSET UNITYSDK_OFFSET(0xB1A9FB0)
+#define RPG_GAMECORE_ABILITYBEFOREDYING_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x12AFB220)
+#define RPG_GAMECORE_ABILITYBEFOREDYING_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x12AFB1E0)
+#define RPG_GAMECORE_ABILITYBEFOREDYING_INIT_OFFSET UNITYSDK_OFFSET(0x12AFB190)
+#define RPG_GAMECORE_ABILITYBEFOREDYING__CTOR_OFFSET UNITYSDK_OFFSET(0x12AFB270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityBeforeDying_TypeDefinitionIndex = 52131;
+	inline static constexpr unsigned int AbilityBeforeDying_TypeDefinitionIndex = 52828;
 
-	class AbilityBeforeDying : public ::Class_1_9988289E7F8AA214
+	class AbilityBeforeDying : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::System::UInt32 _SourceEntityRuntimeID; // 0x18
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYBEFOREDYING__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::AbilityBeforeDying* Init(::System::UInt32 nSourceRuntimeID)
+		::RPG::GameCore::AbilityBeforeDying* Init(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::AbilityBeforeDying*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYBEFOREDYING_INIT_OFFSET))(this, nSourceRuntimeID);
+			return ((::RPG::GameCore::AbilityBeforeDying*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYBEFOREDYING_INIT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

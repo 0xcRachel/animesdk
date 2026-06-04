@@ -6,20 +6,20 @@
 class Class_1_F2415C7AC4F3ABF2;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_ADDUSECOUNT_OFFSET UNITYSDK_OFFSET(0x16C35160)
-#define RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_CHECKUSESPECIALVISION_OFFSET UNITYSDK_OFFSET(0x16C34810)
-#define RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16C34C90)
-#define RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_GETSPECIALVISIONAVAILABLETIME_OFFSET UNITYSDK_OFFSET(0x16C34D40)
-#define RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_GETSPECIALVISIONMAXTIME_OFFSET UNITYSDK_OFFSET(0x16C34F10)
-#define RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x16C34C50)
-#define RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_ISSPECIALVISIONACTIVE_OFFSET UNITYSDK_OFFSET(0x16C34E40)
-#define RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_ISSPECIALVISIONAVAILABLE_OFFSET UNITYSDK_OFFSET(0x16C35010)
-#define RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_USESPECIALVISION_OFFSET UNITYSDK_OFFSET(0x16C34860)
-#define RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x16C35290)
+#define RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_ADDUSECOUNT_OFFSET UNITYSDK_OFFSET(0x17C23540)
+#define RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_CHECKUSESPECIALVISION_OFFSET UNITYSDK_OFFSET(0x17C22B30)
+#define RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17C22FE0)
+#define RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_GETSPECIALVISIONAVAILABLETIME_OFFSET UNITYSDK_OFFSET(0x17C23080)
+#define RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_GETSPECIALVISIONMAXTIME_OFFSET UNITYSDK_OFFSET(0x17C232A0)
+#define RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x17C22FA0)
+#define RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_ISSPECIALVISIONACTIVE_OFFSET UNITYSDK_OFFSET(0x17C231B0)
+#define RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_ISSPECIALVISIONAVAILABLE_OFFSET UNITYSDK_OFFSET(0x17C233D0)
+#define RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_USESPECIALVISION_OFFSET UNITYSDK_OFFSET(0x17C22B80)
+#define RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x17C236A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SpecialVisionUseStateManager_TypeDefinitionIndex = 56200;
+	inline static constexpr unsigned int SpecialVisionUseStateManager_TypeDefinitionIndex = 56962;
 
 	class SpecialVisionUseStateManager : public ::System::Object
 	{
@@ -41,39 +41,39 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Int32 GetSpecialVisionAvailableTime(::RPG::GameCore::SpecialVisionType visionType)
+		::System::Int32 GetSpecialVisionAvailableTime(::RPG::GameCore::SpecialVisionType a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::SpecialVisionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_GETSPECIALVISIONAVAILABLETIME_OFFSET))(this, visionType);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::SpecialVisionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_GETSPECIALVISIONAVAILABLETIME_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsSpecialVisionActive(::RPG::GameCore::SpecialVisionType visionType)
+		::System::Boolean IsSpecialVisionActive(::RPG::GameCore::SpecialVisionType a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::SpecialVisionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_ISSPECIALVISIONACTIVE_OFFSET))(this, visionType);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::SpecialVisionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_ISSPECIALVISIONACTIVE_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetSpecialVisionMaxTime(::RPG::GameCore::SpecialVisionType visionType)
+		::System::Int32 GetSpecialVisionMaxTime(::RPG::GameCore::SpecialVisionType a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::SpecialVisionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_GETSPECIALVISIONMAXTIME_OFFSET))(this, visionType);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::SpecialVisionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_GETSPECIALVISIONMAXTIME_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsSpecialVisionAvailable(::RPG::GameCore::SpecialVisionType visionType)
+		::System::Boolean IsSpecialVisionAvailable(::RPG::GameCore::SpecialVisionType a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::SpecialVisionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_ISSPECIALVISIONAVAILABLE_OFFSET))(this, visionType);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::SpecialVisionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_ISSPECIALVISIONAVAILABLE_OFFSET))(this, a1);
 		}
 
-		::System::Void UseSpecialVision(::RPG::GameCore::SpecialVisionType visionType)
+		::System::Void UseSpecialVision(::RPG::GameCore::SpecialVisionType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SpecialVisionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_USESPECIALVISION_OFFSET))(this, visionType);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SpecialVisionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_USESPECIALVISION_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CheckUseSpecialVision(::RPG::GameCore::SpecialVisionType visionType)
+		::System::Boolean CheckUseSpecialVision(::RPG::GameCore::SpecialVisionType a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::SpecialVisionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_CHECKUSESPECIALVISION_OFFSET))(this, visionType);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::SpecialVisionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_CHECKUSESPECIALVISION_OFFSET))(this, a1);
 		}
 
-		::System::Boolean AddUseCount(::RPG::GameCore::SpecialVisionType visionType, ::System::Int32 count)
+		::System::Boolean AddUseCount(::RPG::GameCore::SpecialVisionType a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::SpecialVisionType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_ADDUSECOUNT_OFFSET))(this, visionType, count);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::SpecialVisionType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPECIALVISIONUSESTATEMANAGER_ADDUSECOUNT_OFFSET))(this, a1, a2);
 		}
 	};
 }

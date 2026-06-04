@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace System::Diagnostics::Tracing { class TraceLoggingDataCollector; }
 namespace System::Diagnostics::Tracing { class TraceLoggingMetadataCollector; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_DOUBLETYPEINFO_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x17D02460)
-#define SYSTEM_DIAGNOSTICS_TRACING_DOUBLETYPEINFO_WRITEMETADATA_OFFSET UNITYSDK_OFFSET(0x17D023E0)
-#define SYSTEM_DIAGNOSTICS_TRACING_DOUBLETYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17D024F0)
+#define SYSTEM_DIAGNOSTICS_TRACING_DOUBLETYPEINFO_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x175F5A90)
+#define SYSTEM_DIAGNOSTICS_TRACING_DOUBLETYPEINFO_WRITEMETADATA_OFFSET UNITYSDK_OFFSET(0x175F5A10)
+#define SYSTEM_DIAGNOSTICS_TRACING_DOUBLETYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x175F5B20)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int DoubleTypeInfo_TypeDefinitionIndex = 1616;
+	inline static constexpr unsigned int DoubleTypeInfo_TypeDefinitionIndex = 1614;
 
 	class DoubleTypeInfo : public ::System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<::System::Double>
 	{
@@ -23,14 +23,14 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_DOUBLETYPEINFO__CTOR_OFFSET))(this);
 		}
 
-		::System::Void WriteMetadata(::System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::System::String* name, ::System::Diagnostics::Tracing::EventFieldFormat format)
+		::System::Void WriteMetadata(::System::Diagnostics::Tracing::TraceLoggingMetadataCollector* a1, ::System::String* a2, ::System::Diagnostics::Tracing::EventFieldFormat a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::TraceLoggingMetadataCollector*, ::System::String*, ::System::Diagnostics::Tracing::EventFieldFormat))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_DOUBLETYPEINFO_WRITEMETADATA_OFFSET))(this, collector, name, format);
+			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::TraceLoggingMetadataCollector*, ::System::String*, ::System::Diagnostics::Tracing::EventFieldFormat))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_DOUBLETYPEINFO_WRITEMETADATA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void WriteData(::System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ::System::Double& value)
+		::System::Void WriteData(::System::Diagnostics::Tracing::TraceLoggingDataCollector* a1, ::System::Double& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::TraceLoggingDataCollector*, ::System::Double&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_DOUBLETYPEINFO_WRITEDATA_OFFSET))(this, collector, value);
+			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::TraceLoggingDataCollector*, ::System::Double&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_DOUBLETYPEINFO_WRITEDATA_OFFSET))(this, a1, a2);
 		}
 	};
 }

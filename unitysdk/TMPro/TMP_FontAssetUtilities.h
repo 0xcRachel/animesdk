@@ -11,33 +11,33 @@ namespace TMPro { class TMP_FontAsset; }
 namespace TMPro { class TMP_SpriteAsset; }
 namespace TMPro { class TMP_SpriteCharacter; }
 
-#define TMPRO_TMP_FONTASSETUTILITIES_GETCHARACTERFROMFONTASSETS_OFFSET UNITYSDK_OFFSET(0x1608AF70)
-#define TMPRO_TMP_FONTASSETUTILITIES_GETCHARACTERFROMFONTASSET_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1608AA30)
-#define TMPRO_TMP_FONTASSETUTILITIES_GETCHARACTERFROMFONTASSET_OFFSET UNITYSDK_OFFSET(0x1608A8D0)
-#define TMPRO_TMP_FONTASSETUTILITIES_GETSPRITECHARACTERFROMSPRITEASSET_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1608B5F0)
-#define TMPRO_TMP_FONTASSETUTILITIES_GETSPRITECHARACTERFROMSPRITEASSET_OFFSET UNITYSDK_OFFSET(0x1608B200)
-#define TMPRO_TMP_FONTASSETUTILITIES_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1608A8A0)
-#define TMPRO_TMP_FONTASSETUTILITIES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1608A860)
-#define TMPRO_TMP_FONTASSETUTILITIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1608A890)
+#define TMPRO_TMP_FONTASSETUTILITIES_GETCHARACTERFROMFONTASSETS_OFFSET UNITYSDK_OFFSET(0x155CA7C0)
+#define TMPRO_TMP_FONTASSETUTILITIES_GETCHARACTERFROMFONTASSET_INTERNAL_OFFSET UNITYSDK_OFFSET(0x155CA300)
+#define TMPRO_TMP_FONTASSETUTILITIES_GETCHARACTERFROMFONTASSET_OFFSET UNITYSDK_OFFSET(0x155CA1A0)
+#define TMPRO_TMP_FONTASSETUTILITIES_GETSPRITECHARACTERFROMSPRITEASSET_INTERNAL_OFFSET UNITYSDK_OFFSET(0x155CAE30)
+#define TMPRO_TMP_FONTASSETUTILITIES_GETSPRITECHARACTERFROMSPRITEASSET_OFFSET UNITYSDK_OFFSET(0x155CAA60)
+#define TMPRO_TMP_FONTASSETUTILITIES_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x155CA170)
+#define TMPRO_TMP_FONTASSETUTILITIES__CCTOR_OFFSET UNITYSDK_OFFSET(0x155CA130)
+#define TMPRO_TMP_FONTASSETUTILITIES__CTOR_OFFSET UNITYSDK_OFFSET(0x155CA160)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_FontAssetUtilities_TypeDefinitionIndex = 40140;
+	inline static constexpr unsigned int TMP_FontAssetUtilities_TypeDefinitionIndex = 40967;
 
 	class TMP_FontAssetUtilities : public ::System::Object
 	{
 	public:
 		static ::TMPro::TMP_FontAssetUtilities** StaticGet_s_Instance()
 		{
-			return (::TMPro::TMP_FontAssetUtilities**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAssetUtilities_TypeDefinitionIndex)->GetStaticField(0x5AF90);
+			return (::TMPro::TMP_FontAssetUtilities**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAssetUtilities_TypeDefinitionIndex)->GetStaticField(0x52DB0);
 		}
 		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_k_SearchedAssets()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAssetUtilities_TypeDefinitionIndex)->GetStaticField(0x5AF98);
+			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAssetUtilities_TypeDefinitionIndex)->GetStaticField(0x52DB8);
 		}
 		static ::System::Boolean* StaticGet_k_IsFontEngineInitialized()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAssetUtilities_TypeDefinitionIndex)->GetStaticField(0xF6E0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAssetUtilities_TypeDefinitionIndex)->GetStaticField(0xF800);
 		}
 
 		static ::System::Void _cctor()
@@ -55,29 +55,29 @@ namespace TMPro
 			return ((::TMPro::TMP_FontAssetUtilities*(*)())((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSETUTILITIES_GET_INSTANCE_OFFSET))();
 		}
 
-		static ::TMPro::TMP_Character* GetCharacterFromFontAsset(::System::UInt32 unicode, ::TMPro::TMP_FontAsset* sourceFontAsset, ::System::Boolean includeFallbacks, ::TMPro::FontStyles fontStyle, ::TMPro::FontWeight fontWeight, ::System::Boolean& isAlternativeTypeface)
+		static ::TMPro::TMP_Character* GetCharacterFromFontAsset(::System::UInt32 a1, ::TMPro::TMP_FontAsset* a2, ::System::Boolean a3, ::TMPro::FontStyles a4, ::TMPro::FontWeight a5, ::System::Boolean& a6)
 		{
-			return ((::TMPro::TMP_Character*(*)(::System::UInt32, ::TMPro::TMP_FontAsset*, ::System::Boolean, ::TMPro::FontStyles, ::TMPro::FontWeight, ::System::Boolean&))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSETUTILITIES_GETCHARACTERFROMFONTASSET_OFFSET))(unicode, sourceFontAsset, includeFallbacks, fontStyle, fontWeight, isAlternativeTypeface);
+			return ((::TMPro::TMP_Character*(*)(::System::UInt32, ::TMPro::TMP_FontAsset*, ::System::Boolean, ::TMPro::FontStyles, ::TMPro::FontWeight, ::System::Boolean&))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSETUTILITIES_GETCHARACTERFROMFONTASSET_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::TMPro::TMP_Character* GetCharacterFromFontAsset_Internal(::System::UInt32 unicode, ::TMPro::TMP_FontAsset* sourceFontAsset, ::System::Boolean includeFallbacks, ::TMPro::FontStyles fontStyle, ::TMPro::FontWeight fontWeight, ::System::Boolean& isAlternativeTypeface)
+		static ::TMPro::TMP_Character* GetCharacterFromFontAsset_Internal(::System::UInt32 a1, ::TMPro::TMP_FontAsset* a2, ::System::Boolean a3, ::TMPro::FontStyles a4, ::TMPro::FontWeight a5, ::System::Boolean& a6)
 		{
-			return ((::TMPro::TMP_Character*(*)(::System::UInt32, ::TMPro::TMP_FontAsset*, ::System::Boolean, ::TMPro::FontStyles, ::TMPro::FontWeight, ::System::Boolean&))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSETUTILITIES_GETCHARACTERFROMFONTASSET_INTERNAL_OFFSET))(unicode, sourceFontAsset, includeFallbacks, fontStyle, fontWeight, isAlternativeTypeface);
+			return ((::TMPro::TMP_Character*(*)(::System::UInt32, ::TMPro::TMP_FontAsset*, ::System::Boolean, ::TMPro::FontStyles, ::TMPro::FontWeight, ::System::Boolean&))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSETUTILITIES_GETCHARACTERFROMFONTASSET_INTERNAL_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::TMPro::TMP_Character* GetCharacterFromFontAssets(::System::UInt32 unicode, ::TMPro::TMP_FontAsset* sourceFontAsset, ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* fontAssets, ::System::Boolean includeFallbacks, ::TMPro::FontStyles fontStyle, ::TMPro::FontWeight fontWeight, ::System::Boolean& isAlternativeTypeface)
+		static ::TMPro::TMP_Character* GetCharacterFromFontAssets(::System::UInt32 a1, ::TMPro::TMP_FontAsset* a2, ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* a3, ::System::Boolean a4, ::TMPro::FontStyles a5, ::TMPro::FontWeight a6, ::System::Boolean& a7)
 		{
-			return ((::TMPro::TMP_Character*(*)(::System::UInt32, ::TMPro::TMP_FontAsset*, ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>*, ::System::Boolean, ::TMPro::FontStyles, ::TMPro::FontWeight, ::System::Boolean&))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSETUTILITIES_GETCHARACTERFROMFONTASSETS_OFFSET))(unicode, sourceFontAsset, fontAssets, includeFallbacks, fontStyle, fontWeight, isAlternativeTypeface);
+			return ((::TMPro::TMP_Character*(*)(::System::UInt32, ::TMPro::TMP_FontAsset*, ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>*, ::System::Boolean, ::TMPro::FontStyles, ::TMPro::FontWeight, ::System::Boolean&))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSETUTILITIES_GETCHARACTERFROMFONTASSETS_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::TMPro::TMP_SpriteCharacter* GetSpriteCharacterFromSpriteAsset(::System::UInt32 unicode, ::TMPro::TMP_SpriteAsset* spriteAsset, ::System::Boolean includeFallbacks)
+		static ::TMPro::TMP_SpriteCharacter* GetSpriteCharacterFromSpriteAsset(::System::UInt32 a1, ::TMPro::TMP_SpriteAsset* a2, ::System::Boolean a3)
 		{
-			return ((::TMPro::TMP_SpriteCharacter*(*)(::System::UInt32, ::TMPro::TMP_SpriteAsset*, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSETUTILITIES_GETSPRITECHARACTERFROMSPRITEASSET_OFFSET))(unicode, spriteAsset, includeFallbacks);
+			return ((::TMPro::TMP_SpriteCharacter*(*)(::System::UInt32, ::TMPro::TMP_SpriteAsset*, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSETUTILITIES_GETSPRITECHARACTERFROMSPRITEASSET_OFFSET))(a1, a2, a3);
 		}
 
-		static ::TMPro::TMP_SpriteCharacter* GetSpriteCharacterFromSpriteAsset_Internal(::System::UInt32 unicode, ::TMPro::TMP_SpriteAsset* spriteAsset, ::System::Boolean includeFallbacks)
+		static ::TMPro::TMP_SpriteCharacter* GetSpriteCharacterFromSpriteAsset_Internal(::System::UInt32 a1, ::TMPro::TMP_SpriteAsset* a2, ::System::Boolean a3)
 		{
-			return ((::TMPro::TMP_SpriteCharacter*(*)(::System::UInt32, ::TMPro::TMP_SpriteAsset*, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSETUTILITIES_GETSPRITECHARACTERFROMSPRITEASSET_INTERNAL_OFFSET))(unicode, spriteAsset, includeFallbacks);
+			return ((::TMPro::TMP_SpriteCharacter*(*)(::System::UInt32, ::TMPro::TMP_SpriteAsset*, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSETUTILITIES_GETSPRITECHARACTERFROMSPRITEASSET_INTERNAL_OFFSET))(a1, a2, a3);
 		}
 	};
 }

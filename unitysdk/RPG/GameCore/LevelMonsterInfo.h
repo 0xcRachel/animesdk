@@ -21,13 +21,13 @@ namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace RPG::GameCore { class SOConfigInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELMONSTERINFO_METHOD_4_D865A8CF394D8916_OFFSET UNITYSDK_OFFSET(0x18A31B40)
-#define RPG_GAMECORE_LEVELMONSTERINFO_METHOD_4_E2041FDB068DFF3F_OFFSET UNITYSDK_OFFSET(0x18A31A20)
-#define RPG_GAMECORE_LEVELMONSTERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A31AC0)
+#define RPG_GAMECORE_LEVELMONSTERINFO_METHOD_4_56CFC09813D1C52F_OFFSET UNITYSDK_OFFSET(0x18E6DF00)
+#define RPG_GAMECORE_LEVELMONSTERINFO_METHOD_4_C2897D07C4E6CAA0_OFFSET UNITYSDK_OFFSET(0x18E6DDE0)
+#define RPG_GAMECORE_LEVELMONSTERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18E6DE80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelMonsterInfo_TypeDefinitionIndex = 16368;
+	inline static constexpr unsigned int LevelMonsterInfo_TypeDefinitionIndex = 16400;
 
 	class LevelMonsterInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{
@@ -67,14 +67,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMONSTERINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_E2041FDB068DFF3F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelMonsterInfo*& a2)
+		static ::System::Void Method_4_C2897D07C4E6CAA0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelMonsterInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelMonsterInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMONSTERINFO_METHOD_4_E2041FDB068DFF3F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelMonsterInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMONSTERINFO_METHOD_4_C2897D07C4E6CAA0_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_D865A8CF394D8916(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelMonsterInfo* a2)
+		static ::System::Void Method_4_56CFC09813D1C52F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelMonsterInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelMonsterInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMONSTERINFO_METHOD_4_D865A8CF394D8916_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelMonsterInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMONSTERINFO_METHOD_4_56CFC09813D1C52F_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class RogueModifierConfig; }
 
-#define RPG_GAMECORE_ROGUEMODIFIERLISTCONFIG_METHOD_2_482B4F01EAE68455_OFFSET UNITYSDK_OFFSET(0x1A4FE330)
-#define RPG_GAMECORE_ROGUEMODIFIERLISTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4FE3C0)
+#define RPG_GAMECORE_ROGUEMODIFIERLISTCONFIG_METHOD_2_482B4F01EAE68455_OFFSET UNITYSDK_OFFSET(0x1B3447C0)
+#define RPG_GAMECORE_ROGUEMODIFIERLISTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B344850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierListConfig_TypeDefinitionIndex = 17029;
+	inline static constexpr unsigned int RogueModifierListConfig_TypeDefinitionIndex = 17042;
 
 	class RogueModifierListConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,24 +5,24 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveGiftDanmu; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMUSPAWNER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16C674B0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMUSPAWNER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16C674F0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMUSPAWNER___C___CLEANENDEDDANMUS_B__18_0_OFFSET UNITYSDK_OFFSET(0x16C67500)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMUSPAWNER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B3C920)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMUSPAWNER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18B3C960)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMUSPAWNER___C___CLEANENDEDDANMUS_B__18_0_OFFSET UNITYSDK_OFFSET(0x18B3C970)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveGiftDanmuSpawner___c_TypeDefinitionIndex = 69241;
+	inline static constexpr unsigned int IdleLiveGiftDanmuSpawner___c_TypeDefinitionIndex = 70053;
 
 	class IdleLiveGiftDanmuSpawner___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::RPG::Client::ActivityIdleLive::IdleLiveGiftDanmu*>** StaticGet___9__18_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::ActivityIdleLive::IdleLiveGiftDanmu*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGiftDanmuSpawner___c_TypeDefinitionIndex)->GetStaticField(0x48870);
+			return (::System::Predicate_1<::RPG::Client::ActivityIdleLive::IdleLiveGiftDanmu*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGiftDanmuSpawner___c_TypeDefinitionIndex)->GetStaticField(0x50200);
 		}
 		static ::RPG::Client::ActivityIdleLive::IdleLiveGiftDanmuSpawner___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityIdleLive::IdleLiveGiftDanmuSpawner___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGiftDanmuSpawner___c_TypeDefinitionIndex)->GetStaticField(0x48878);
+			return (::RPG::Client::ActivityIdleLive::IdleLiveGiftDanmuSpawner___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGiftDanmuSpawner___c_TypeDefinitionIndex)->GetStaticField(0x50208);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMUSPAWNER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __CleanEndedDanmus_b__18_0(::RPG::Client::ActivityIdleLive::IdleLiveGiftDanmu* x)
+		::System::Boolean __CleanEndedDanmus_b__18_0(::RPG::Client::ActivityIdleLive::IdleLiveGiftDanmu* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveGiftDanmu*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMUSPAWNER___C___CLEANENDEDDANMUS_B__18_0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveGiftDanmu*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMUSPAWNER___C___CLEANENDEDDANMUS_B__18_0_OFFSET))(this, a1);
 		}
 	};
 }

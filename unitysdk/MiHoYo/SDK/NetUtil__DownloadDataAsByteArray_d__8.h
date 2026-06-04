@@ -8,32 +8,32 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define MIHOYO_SDK_NETUTIL__DOWNLOADDATAASBYTEARRAY_D__8_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x173F9860)
-#define MIHOYO_SDK_NETUTIL__DOWNLOADDATAASBYTEARRAY_D__8_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x173F9C40)
-#define MIHOYO_SDK_NETUTIL__DOWNLOADDATAASBYTEARRAY_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x173F9CA0)
-#define MIHOYO_SDK_NETUTIL__DOWNLOADDATAASBYTEARRAY_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x173F9C50)
-#define MIHOYO_SDK_NETUTIL__DOWNLOADDATAASBYTEARRAY_D__8_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x173F9850)
-#define MIHOYO_SDK_NETUTIL__DOWNLOADDATAASBYTEARRAY_D__8__CTOR_OFFSET UNITYSDK_OFFSET(0x173F6600)
+#define MIHOYO_SDK_NETUTIL__DOWNLOADDATAASBYTEARRAY_D__8_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x18677140)
+#define MIHOYO_SDK_NETUTIL__DOWNLOADDATAASBYTEARRAY_D__8_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x18677520)
+#define MIHOYO_SDK_NETUTIL__DOWNLOADDATAASBYTEARRAY_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x18677580)
+#define MIHOYO_SDK_NETUTIL__DOWNLOADDATAASBYTEARRAY_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x18677530)
+#define MIHOYO_SDK_NETUTIL__DOWNLOADDATAASBYTEARRAY_D__8_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18677130)
+#define MIHOYO_SDK_NETUTIL__DOWNLOADDATAASBYTEARRAY_D__8__CTOR_OFFSET UNITYSDK_OFFSET(0x18674430)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetUtil__DownloadDataAsByteArray_d__8_TypeDefinitionIndex = 7225;
+	inline static constexpr unsigned int NetUtil__DownloadDataAsByteArray_d__8_TypeDefinitionIndex = 8128;
 
 	class NetUtil__DownloadDataAsByteArray_d__8 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Networking::UnityWebRequest* _request_5__1; // 0x10
-		::System::String* url; // 0x18
-		::System::Action_3<::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::String*>* completed; // 0x20
-		::System::Object* __2__current; // 0x28
-		::MiHoYo::SDK::NetUtil_ResponseModel* _result_5__2; // 0x30
-		::System::Exception* _e_5__3; // 0x38
-		::System::String* method; // 0x40
+		::System::String* method; // 0x10
+		::UnityEngine::Networking::UnityWebRequest* _request_5__1; // 0x18
+		::System::Exception* _e_5__3; // 0x20
+		::MiHoYo::SDK::NetUtil_ResponseModel* _result_5__2; // 0x28
+		::System::Object* __2__current; // 0x30
+		::System::String* url; // 0x38
+		::System::Action_3<::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::String*>* completed; // 0x40
 		::System::Int32 __1__state; // 0x48
 
-		::System::Void _ctor(::System::Int32 __1__state)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETUTIL__DOWNLOADDATAASBYTEARRAY_D__8__CTOR_OFFSET))(this, __1__state);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETUTIL__DOWNLOADDATAASBYTEARRAY_D__8__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()

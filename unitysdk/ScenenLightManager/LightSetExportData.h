@@ -5,14 +5,14 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x16E237D0)
-#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x16E23A90)
-#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATA_METHOD_1_90EA99C5B55095D8_OFFSET UNITYSDK_OFFSET(0x16E23510)
-#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16E234A0)
+#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x1775AD40)
+#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1775B050)
+#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATA_METHOD_1_922FB2A73E3CC6C9_OFFSET UNITYSDK_OFFSET(0x1775AA50)
+#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1775A9E0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int LightSetExportData_TypeDefinitionIndex = 45756;
+	inline static constexpr unsigned int LightSetExportData_TypeDefinitionIndex = 46339;
 
 	class LightSetExportData : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace ScenenLightManager
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_LIGHTSETEXPORTDATA__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Method_1_90EA99C5B55095D8(::ScenenLightManager::LightSetExportData* a1)
+		::System::Boolean Method_1_922FB2A73E3CC6C9(::ScenenLightManager::LightSetExportData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::ScenenLightManager::LightSetExportData*))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_LIGHTSETEXPORTDATA_METHOD_1_90EA99C5B55095D8_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::ScenenLightManager::LightSetExportData*))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_LIGHTSETEXPORTDATA_METHOD_1_922FB2A73E3CC6C9_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_4D11CE62B2BEC69E;
+class Class_1_2CDF619C23140440;
 class Class_3_D6E9A038FA23103A;
 namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelRuntimeInspector; }
 
-#define CLASS_1_2FFA47DAC39A5D43_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x12E390F0)
-#define CLASS_1_2FFA47DAC39A5D43_METHOD_1_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x12E38FF0)
-#define CLASS_1_2FFA47DAC39A5D43_METHOD_1_585F9C6EF5BC90C0_OFFSET UNITYSDK_OFFSET(0x12E396D0)
-#define CLASS_1_2FFA47DAC39A5D43_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x12E395B0)
-#define CLASS_1_2FFA47DAC39A5D43__CTOR_OFFSET UNITYSDK_OFFSET(0x12E38FE0)
+#define CLASS_1_2FFA47DAC39A5D43_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x13558D50)
+#define CLASS_1_2FFA47DAC39A5D43_METHOD_1_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x13558C50)
+#define CLASS_1_2FFA47DAC39A5D43_METHOD_1_585F9C6EF5BC90C0_OFFSET UNITYSDK_OFFSET(0x13559320)
+#define CLASS_1_2FFA47DAC39A5D43_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x135591F0)
+#define CLASS_1_2FFA47DAC39A5D43__CTOR_OFFSET UNITYSDK_OFFSET(0x13558C40)
 
-inline static constexpr unsigned int Class_1_2FFA47DAC39A5D43_TypeDefinitionIndex = 70527;
+inline static constexpr unsigned int Class_1_2FFA47DAC39A5D43_TypeDefinitionIndex = 71344;
 
 class Class_1_2FFA47DAC39A5D43 : public ::System::Object
 {
 public:
-	::Class_3_D6E9A038FA23103A* Field_1_2; // 0x10
-	::Class_1_4D11CE62B2BEC69E* Field_1_1; // 0x18
-	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelRuntimeInspector* Field_1_3; // 0x20
-	::System::Boolean Field_1_0; // 0x28
+	::Class_3_D6E9A038FA23103A* Field_1_0; // 0x10
+	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelRuntimeInspector* Field_1_1; // 0x18
+	::Class_1_2CDF619C23140440* Field_1_2; // 0x20
+	::System::Boolean Field_1_3; // 0x28
 
-	::System::Void _ctor(::Class_1_4D11CE62B2BEC69E* a1, ::Class_3_D6E9A038FA23103A* a2)
+	::System::Void _ctor(::Class_1_2CDF619C23140440* a1, ::Class_3_D6E9A038FA23103A* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_4D11CE62B2BEC69E*, ::Class_3_D6E9A038FA23103A*))((::PBYTE)hIl2Cpp + CLASS_1_2FFA47DAC39A5D43__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_2CDF619C23140440*, ::Class_3_D6E9A038FA23103A*))((::PBYTE)hIl2Cpp + CLASS_1_2FFA47DAC39A5D43__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Boolean Method_1_1808E1CF7A125519()

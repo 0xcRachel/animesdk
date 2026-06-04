@@ -9,33 +9,33 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Globalization { class DateTimeFormatInfo; }
 
-#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_ADDDATEWORDORPOSTFIX_OFFSET UNITYSDK_OFFSET(0x170FCF10)
-#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_ADDDATEWORDS_OFFSET UNITYSDK_OFFSET(0x170FD290)
-#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_ADDIGNORABLESYMBOLS_OFFSET UNITYSDK_OFFSET(0x170FD1D0)
-#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_ARRAYELEMENTSBEGINWITHDIGIT_OFFSET UNITYSDK_OFFSET(0x170FD910)
-#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_ARRAYELEMENTSHAVESPACE_OFFSET UNITYSDK_OFFSET(0x170FDB40)
-#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_EQUALSTRINGARRAYS_OFFSET UNITYSDK_OFFSET(0x170FD840)
-#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GETDATEWORDSOFDTFI_OFFSET UNITYSDK_OFFSET(0x170FB470)
-#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GETFORMATFLAGGENITIVEMONTH_OFFSET UNITYSDK_OFFSET(0x170F8A40)
-#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GETFORMATFLAGUSEHEBREWCALENDAR_OFFSET UNITYSDK_OFFSET(0x170F8B40)
-#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GETFORMATFLAGUSESPACEINDAYNAMES_OFFSET UNITYSDK_OFFSET(0x170F8B10)
-#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GETFORMATFLAGUSESPACEINMONTHNAMES_OFFSET UNITYSDK_OFFSET(0x170F8A80)
-#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GET_KNOWNWORDS_OFFSET UNITYSDK_OFFSET(0x170FC7F0)
-#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_SCANDATEWORD_OFFSET UNITYSDK_OFFSET(0x170FD580)
-#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_SCANREPEATCHAR_OFFSET UNITYSDK_OFFSET(0x170FD4F0)
-#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_SKIPWHITESPACESANDNONLETTER_OFFSET UNITYSDK_OFFSET(0x170FCE60)
-#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER__CTOR_OFFSET UNITYSDK_OFFSET(0x170FB430)
+#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_ADDDATEWORDORPOSTFIX_OFFSET UNITYSDK_OFFSET(0x15773970)
+#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_ADDDATEWORDS_OFFSET UNITYSDK_OFFSET(0x15773FD0)
+#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_ADDIGNORABLESYMBOLS_OFFSET UNITYSDK_OFFSET(0x15773E40)
+#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_ARRAYELEMENTSBEGINWITHDIGIT_OFFSET UNITYSDK_OFFSET(0x15774790)
+#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_ARRAYELEMENTSHAVESPACE_OFFSET UNITYSDK_OFFSET(0x15774990)
+#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_EQUALSTRINGARRAYS_OFFSET UNITYSDK_OFFSET(0x157746E0)
+#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GETDATEWORDSOFDTFI_OFFSET UNITYSDK_OFFSET(0x15771F90)
+#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GETFORMATFLAGGENITIVEMONTH_OFFSET UNITYSDK_OFFSET(0x1576F2B0)
+#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GETFORMATFLAGUSEHEBREWCALENDAR_OFFSET UNITYSDK_OFFSET(0x1576F6C0)
+#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GETFORMATFLAGUSESPACEINDAYNAMES_OFFSET UNITYSDK_OFFSET(0x1576F580)
+#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GETFORMATFLAGUSESPACEINMONTHNAMES_OFFSET UNITYSDK_OFFSET(0x1576F2F0)
+#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GET_KNOWNWORDS_OFFSET UNITYSDK_OFFSET(0x15773250)
+#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_SCANDATEWORD_OFFSET UNITYSDK_OFFSET(0x15774420)
+#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_SCANREPEATCHAR_OFFSET UNITYSDK_OFFSET(0x15774390)
+#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_SKIPWHITESPACESANDNONLETTER_OFFSET UNITYSDK_OFFSET(0x157738C0)
+#define SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER__CTOR_OFFSET UNITYSDK_OFFSET(0x15771F50)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int DateTimeFormatInfoScanner_TypeDefinitionIndex = 744;
+	inline static constexpr unsigned int DateTimeFormatInfoScanner_TypeDefinitionIndex = 743;
 
 	class DateTimeFormatInfoScanner : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_s_knownWords()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DateTimeFormatInfoScanner_TypeDefinitionIndex)->GetStaticField(0x5280);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DateTimeFormatInfoScanner_TypeDefinitionIndex)->GetStaticField(0x7340);
 		}
 		::System::Collections::Generic::List_1<::System::String*>* m_dateWords; // 0x10
 		::System::Globalization::DateTimeFormatInfoScanner_FoundDatePattern m_ymdFlags; // 0x18
@@ -50,74 +50,74 @@ namespace System::Globalization
 			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*(*)())((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GET_KNOWNWORDS_OFFSET))();
 		}
 
-		static ::System::Int32 SkipWhiteSpacesAndNonLetter(::System::String* pattern, ::System::Int32 currentIndex)
+		static ::System::Int32 SkipWhiteSpacesAndNonLetter(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_SKIPWHITESPACESANDNONLETTER_OFFSET))(pattern, currentIndex);
+			return ((::System::Int32(*)(::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_SKIPWHITESPACESANDNONLETTER_OFFSET))(a1, a2);
 		}
 
-		::System::Void AddDateWordOrPostfix(::System::String* formatPostfix, ::System::String* str)
+		::System::Void AddDateWordOrPostfix(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_ADDDATEWORDORPOSTFIX_OFFSET))(this, formatPostfix, str);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_ADDDATEWORDORPOSTFIX_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 AddDateWords(::System::String* pattern, ::System::Int32 index, ::System::String* formatPostfix)
+		::System::Int32 AddDateWords(::System::String* a1, ::System::Int32 a2, ::System::String* a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_ADDDATEWORDS_OFFSET))(this, pattern, index, formatPostfix);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_ADDDATEWORDS_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Int32 ScanRepeatChar(::System::String* pattern, ::System::Char ch, ::System::Int32 index, ::System::Int32& count)
+		static ::System::Int32 ScanRepeatChar(::System::String* a1, ::System::Char a2, ::System::Int32 a3, ::System::Int32& a4)
 		{
-			return ((::System::Int32(*)(::System::String*, ::System::Char, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_SCANREPEATCHAR_OFFSET))(pattern, ch, index, count);
+			return ((::System::Int32(*)(::System::String*, ::System::Char, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_SCANREPEATCHAR_OFFSET))(a1, a2, a3, a4);
 		}
 
-		::System::Void AddIgnorableSymbols(::System::String* text)
+		::System::Void AddIgnorableSymbols(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_ADDIGNORABLESYMBOLS_OFFSET))(this, text);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_ADDIGNORABLESYMBOLS_OFFSET))(this, a1);
 		}
 
-		::System::Void ScanDateWord(::System::String* pattern)
+		::System::Void ScanDateWord(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_SCANDATEWORD_OFFSET))(this, pattern);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_SCANDATEWORD_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::String*>* GetDateWordsOfDTFI(::System::Globalization::DateTimeFormatInfo* dtfi)
+		::Il2CppArray<::System::String*>* GetDateWordsOfDTFI(::System::Globalization::DateTimeFormatInfo* a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GETDATEWORDSOFDTFI_OFFSET))(this, dtfi);
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GETDATEWORDSOFDTFI_OFFSET))(this, a1);
 		}
 
-		static ::System::Globalization::FORMATFLAGS GetFormatFlagGenitiveMonth(::Il2CppArray<::System::String*>* monthNames, ::Il2CppArray<::System::String*>* genitveMonthNames, ::Il2CppArray<::System::String*>* abbrevMonthNames, ::Il2CppArray<::System::String*>* genetiveAbbrevMonthNames)
+		static ::System::Globalization::FORMATFLAGS GetFormatFlagGenitiveMonth(::Il2CppArray<::System::String*>* a1, ::Il2CppArray<::System::String*>* a2, ::Il2CppArray<::System::String*>* a3, ::Il2CppArray<::System::String*>* a4)
 		{
-			return ((::System::Globalization::FORMATFLAGS(*)(::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GETFORMATFLAGGENITIVEMONTH_OFFSET))(monthNames, genitveMonthNames, abbrevMonthNames, genetiveAbbrevMonthNames);
+			return ((::System::Globalization::FORMATFLAGS(*)(::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GETFORMATFLAGGENITIVEMONTH_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInMonthNames(::Il2CppArray<::System::String*>* monthNames, ::Il2CppArray<::System::String*>* genitveMonthNames, ::Il2CppArray<::System::String*>* abbrevMonthNames, ::Il2CppArray<::System::String*>* genetiveAbbrevMonthNames)
+		static ::System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInMonthNames(::Il2CppArray<::System::String*>* a1, ::Il2CppArray<::System::String*>* a2, ::Il2CppArray<::System::String*>* a3, ::Il2CppArray<::System::String*>* a4)
 		{
-			return ((::System::Globalization::FORMATFLAGS(*)(::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GETFORMATFLAGUSESPACEINMONTHNAMES_OFFSET))(monthNames, genitveMonthNames, abbrevMonthNames, genetiveAbbrevMonthNames);
+			return ((::System::Globalization::FORMATFLAGS(*)(::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GETFORMATFLAGUSESPACEINMONTHNAMES_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInDayNames(::Il2CppArray<::System::String*>* dayNames, ::Il2CppArray<::System::String*>* abbrevDayNames)
+		static ::System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInDayNames(::Il2CppArray<::System::String*>* a1, ::Il2CppArray<::System::String*>* a2)
 		{
-			return ((::System::Globalization::FORMATFLAGS(*)(::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GETFORMATFLAGUSESPACEINDAYNAMES_OFFSET))(dayNames, abbrevDayNames);
+			return ((::System::Globalization::FORMATFLAGS(*)(::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GETFORMATFLAGUSESPACEINDAYNAMES_OFFSET))(a1, a2);
 		}
 
-		static ::System::Globalization::FORMATFLAGS GetFormatFlagUseHebrewCalendar(::System::Int32 calID)
+		static ::System::Globalization::FORMATFLAGS GetFormatFlagUseHebrewCalendar(::System::Int32 a1)
 		{
-			return ((::System::Globalization::FORMATFLAGS(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GETFORMATFLAGUSEHEBREWCALENDAR_OFFSET))(calID);
+			return ((::System::Globalization::FORMATFLAGS(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_GETFORMATFLAGUSEHEBREWCALENDAR_OFFSET))(a1);
 		}
 
-		static ::System::Boolean EqualStringArrays(::Il2CppArray<::System::String*>* array1, ::Il2CppArray<::System::String*>* array2)
+		static ::System::Boolean EqualStringArrays(::Il2CppArray<::System::String*>* a1, ::Il2CppArray<::System::String*>* a2)
 		{
-			return ((::System::Boolean(*)(::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_EQUALSTRINGARRAYS_OFFSET))(array1, array2);
+			return ((::System::Boolean(*)(::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_EQUALSTRINGARRAYS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean ArrayElementsHaveSpace(::Il2CppArray<::System::String*>* array)
+		static ::System::Boolean ArrayElementsHaveSpace(::Il2CppArray<::System::String*>* a1)
 		{
-			return ((::System::Boolean(*)(::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_ARRAYELEMENTSHAVESPACE_OFFSET))(array);
+			return ((::System::Boolean(*)(::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_ARRAYELEMENTSHAVESPACE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean ArrayElementsBeginWithDigit(::Il2CppArray<::System::String*>* array)
+		static ::System::Boolean ArrayElementsBeginWithDigit(::Il2CppArray<::System::String*>* a1)
 		{
-			return ((::System::Boolean(*)(::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_ARRAYELEMENTSBEGINWITHDIGIT_OFFSET))(array);
+			return ((::System::Boolean(*)(::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_DATETIMEFORMATINFOSCANNER_ARRAYELEMENTSBEGINWITHDIGIT_OFFSET))(a1);
 		}
 	};
 }

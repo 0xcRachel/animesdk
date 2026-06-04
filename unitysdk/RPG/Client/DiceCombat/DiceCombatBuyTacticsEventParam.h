@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBUYTACTICSEVENTPARAM_GET_ISLOCALPLAYER_OFFSET UNITYSDK_OFFSET(0x14211410)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBUYTACTICSEVENTPARAM_GET_TACTICSINDEX_OFFSET UNITYSDK_OFFSET(0x14211430)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBUYTACTICSEVENTPARAM_SET_ISLOCALPLAYER_OFFSET UNITYSDK_OFFSET(0x14211420)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBUYTACTICSEVENTPARAM_SET_TACTICSINDEX_OFFSET UNITYSDK_OFFSET(0x14211440)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBUYTACTICSEVENTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x14211400)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBUYTACTICSEVENTPARAM_GET_ISLOCALPLAYER_OFFSET UNITYSDK_OFFSET(0x18B77C20)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBUYTACTICSEVENTPARAM_GET_TACTICSINDEX_OFFSET UNITYSDK_OFFSET(0x18B77C40)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBUYTACTICSEVENTPARAM_SET_ISLOCALPLAYER_OFFSET UNITYSDK_OFFSET(0x18B77C30)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBUYTACTICSEVENTPARAM_SET_TACTICSINDEX_OFFSET UNITYSDK_OFFSET(0x18B77C50)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBUYTACTICSEVENTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18B77C10)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatBuyTacticsEventParam_TypeDefinitionIndex = 69924;
+	inline static constexpr unsigned int DiceCombatBuyTacticsEventParam_TypeDefinitionIndex = 70736;
 
 	class DiceCombatBuyTacticsEventParam : public ::System::Object
 	{
@@ -18,9 +18,9 @@ namespace RPG::Client::DiceCombat
 		::System::Int32 _TacticsIndex_k__BackingField; // 0x10
 		::System::Boolean _IsLocalPlayer_k__BackingField; // 0x14
 
-		::System::Void _ctor(::System::Boolean isLocalPlayer, ::System::Int32 index)
+		::System::Void _ctor(::System::Boolean a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBUYTACTICSEVENTPARAM__CTOR_OFFSET))(this, isLocalPlayer, index);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBUYTACTICSEVENTPARAM__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_IsLocalPlayer()
@@ -28,9 +28,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBUYTACTICSEVENTPARAM_GET_ISLOCALPLAYER_OFFSET))(this);
 		}
 
-		::System::Void set_IsLocalPlayer(::System::Boolean value)
+		::System::Void set_IsLocalPlayer(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBUYTACTICSEVENTPARAM_SET_ISLOCALPLAYER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBUYTACTICSEVENTPARAM_SET_ISLOCALPLAYER_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_TacticsIndex()
@@ -38,9 +38,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBUYTACTICSEVENTPARAM_GET_TACTICSINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_TacticsIndex(::System::Int32 value)
+		::System::Void set_TacticsIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBUYTACTICSEVENTPARAM_SET_TACTICSINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBUYTACTICSEVENTPARAM_SET_TACTICSINDEX_OFFSET))(this, a1);
 		}
 	};
 }

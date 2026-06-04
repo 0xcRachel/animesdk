@@ -6,11 +6,11 @@ namespace RPG::QA::ProfilePipeline::RPGLuaProfiler { class SessionResult; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_RESULTPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1558C530)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_RESULTPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x17B4B9A0)
 
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler
 {
-	inline static constexpr unsigned int ResultPackage_TypeDefinitionIndex = 47837;
+	inline static constexpr unsigned int ResultPackage_TypeDefinitionIndex = 48452;
 
 	class ResultPackage : public ::System::Object
 	{

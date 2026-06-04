@@ -1,0 +1,451 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/PixAirEnchantmentType.h"
+#include "unitysdk/RPG/GameCore/PixAirSlotType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_D17272E82AE804C2_681;
+namespace RPG::Client::PixAir { class PixAirEquipData; }
+namespace RPG::Client::PixAir { class PixAirEquipLevelData; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_CLONE_1_OFFSET UNITYSDK_OFFSET(0x19940AC0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_CLONE_OFFSET UNITYSDK_OFFSET(0x19940A70)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_CREATEUPGRADE_OFFSET UNITYSDK_OFFSET(0x199354A0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GETSKILLDESCLIST_OFFSET UNITYSDK_OFFSET(0x1993F7C0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GETSKILLDESC_OFFSET UNITYSDK_OFFSET(0x1993F710)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_ADDITIONALBURNPOWER_OFFSET UNITYSDK_OFFSET(0x19940650)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_ADDITIONALDAMAGEPOWER_OFFSET UNITYSDK_OFFSET(0x19940610)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_ADDITIONALJAMPOWER_OFFSET UNITYSDK_OFFSET(0x199406B0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_ADDITIONALMULTICASTPOWER_OFFSET UNITYSDK_OFFSET(0x19940670)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_ADDITIONALSHIELDPOWER_OFFSET UNITYSDK_OFFSET(0x19940630)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_BASECOOLDOWNREDUCTION_OFFSET UNITYSDK_OFFSET(0x19940690)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_BURNBOOSTPERCENT_OFFSET UNITYSDK_OFFSET(0x19940710)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_BURNFROMDAMAGEPERCENT_OFFSET UNITYSDK_OFFSET(0x199407B0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_BURNFROMSHIELDPERCENT_OFFSET UNITYSDK_OFFSET(0x199407D0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_BURNPOWER_OFFSET UNITYSDK_OFFSET(0x199402C0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_COOLDOWN_OFFSET UNITYSDK_OFFSET(0x199404B0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_DAMAGEBOOSTPERCENT_OFFSET UNITYSDK_OFFSET(0x199406D0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_DAMAGEFROMBURNPERCENT_OFFSET UNITYSDK_OFFSET(0x19940750)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_DAMAGEFROMSHIELDPERCENT_OFFSET UNITYSDK_OFFSET(0x19940730)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_DAMAGEPOWER_OFFSET UNITYSDK_OFFSET(0x1993FEE0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_ENCHANTTYPE_OFFSET UNITYSDK_OFFSET(0x1993F390)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_EQUIPDATA_OFFSET UNITYSDK_OFFSET(0x1993F480)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_EQUIPID_OFFSET UNITYSDK_OFFSET(0x1993F350)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_EQUIPLEVELDATA_OFFSET UNITYSDK_OFFSET(0x1993F3D0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_EQUIPLEVEL_OFFSET UNITYSDK_OFFSET(0x1993F370)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_FINALBURNPOWER_OFFSET UNITYSDK_OFFSET(0x199408B0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_FINALDAMAGEPOWER_OFFSET UNITYSDK_OFFSET(0x199407F0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_FINALSHIELDPOWER_OFFSET UNITYSDK_OFFSET(0x19940850)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_HASBURN_OFFSET UNITYSDK_OFFSET(0x199409D0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_HASCOOLDOWN_OFFSET UNITYSDK_OFFSET(0x19940A30)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_HASDAMAGE_OFFSET UNITYSDK_OFFSET(0x19940910)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_HASSHIELD_OFFSET UNITYSDK_OFFSET(0x19940970)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1993F3B0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_SELLPRICE_OFFSET UNITYSDK_OFFSET(0x1993F620)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_SHIELDBOOSTPERCENT_OFFSET UNITYSDK_OFFSET(0x199406F0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_SHIELDFROMBURNPERCENT_OFFSET UNITYSDK_OFFSET(0x19940790)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_SHIELDFROMDAMAGEPERCENT_OFFSET UNITYSDK_OFFSET(0x19940770)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_SHIELDPOWER_OFFSET UNITYSDK_OFFSET(0x199400D0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x19940A50)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_SLOTTYPE_OFFSET UNITYSDK_OFFSET(0x1993F530)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0x1993F330)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_HASPOSITIONCHANGED_OFFSET UNITYSDK_OFFSET(0x19940D00)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_HASPROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x19940C90)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_RESETADDITIONALATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x19940D60)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_ADDITIONALBURNPOWER_OFFSET UNITYSDK_OFFSET(0x19940660)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_ADDITIONALDAMAGEPOWER_OFFSET UNITYSDK_OFFSET(0x19940620)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_ADDITIONALJAMPOWER_OFFSET UNITYSDK_OFFSET(0x199406C0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_ADDITIONALMULTICASTPOWER_OFFSET UNITYSDK_OFFSET(0x19940680)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_ADDITIONALSHIELDPOWER_OFFSET UNITYSDK_OFFSET(0x19940640)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_BASECOOLDOWNREDUCTION_OFFSET UNITYSDK_OFFSET(0x199406A0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_BURNBOOSTPERCENT_OFFSET UNITYSDK_OFFSET(0x19940720)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_BURNFROMDAMAGEPERCENT_OFFSET UNITYSDK_OFFSET(0x199407C0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_BURNFROMSHIELDPERCENT_OFFSET UNITYSDK_OFFSET(0x199407E0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_DAMAGEBOOSTPERCENT_OFFSET UNITYSDK_OFFSET(0x199406E0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_DAMAGEFROMBURNPERCENT_OFFSET UNITYSDK_OFFSET(0x19940760)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_DAMAGEFROMSHIELDPERCENT_OFFSET UNITYSDK_OFFSET(0x19940740)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_ENCHANTTYPE_OFFSET UNITYSDK_OFFSET(0x1993F3A0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_EQUIPID_OFFSET UNITYSDK_OFFSET(0x1993F360)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_EQUIPLEVEL_OFFSET UNITYSDK_OFFSET(0x1993F380)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x1993F3C0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_SHIELDBOOSTPERCENT_OFFSET UNITYSDK_OFFSET(0x19940700)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_SHIELDFROMBURNPERCENT_OFFSET UNITYSDK_OFFSET(0x199407A0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_SHIELDFROMDAMAGEPERCENT_OFFSET UNITYSDK_OFFSET(0x19940780)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0x1993F340)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SYNCPOSITION_OFFSET UNITYSDK_OFFSET(0x19940C40)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SYNC_OFFSET UNITYSDK_OFFSET(0x19940BD0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_TRYCREATE_OFFSET UNITYSDK_OFFSET(0x1992E360)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19940A60)
+
+namespace RPG::Client::PixAir
+{
+	inline static constexpr unsigned int PixAirEquipInstance_TypeDefinitionIndex = 73652;
+
+	class PixAirEquipInstance : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::FixPoint _BurnFromDamagePercent_k__BackingField; // 0x10
+		::System::UInt32 _UniqueID_k__BackingField; // 0x18
+		::System::Int32 _AdditionalBurnPower_k__BackingField; // 0x1C
+		::RPG::GameCore::FixPoint _BaseCooldownReduction_k__BackingField; // 0x20
+		::System::UInt32 _EquipID_k__BackingField; // 0x28
+		::System::Int32 _AdditionalDamagePower_k__BackingField; // 0x2C
+		::RPG::GameCore::FixPoint _BurnBoostPercent_k__BackingField; // 0x30
+		::System::UInt32 _EquipLevel_k__BackingField; // 0x38
+		::System::Int32 _AdditionalMultiCastPower_k__BackingField; // 0x3C
+		::RPG::GameCore::FixPoint _ShieldBoostPercent_k__BackingField; // 0x40
+		::RPG::GameCore::FixPoint _ShieldFromBurnPercent_k__BackingField; // 0x48
+		::System::UInt32 _Position_k__BackingField; // 0x50
+		::System::Int32 _AdditionalShieldPower_k__BackingField; // 0x54
+		::RPG::GameCore::PixAirEnchantmentType _EnchantType_k__BackingField; // 0x58
+		::System::Int32 _AdditionalJamPower_k__BackingField; // 0x5C
+		::RPG::GameCore::FixPoint _ShieldFromDamagePercent_k__BackingField; // 0x60
+		::RPG::GameCore::FixPoint _DamageFromShieldPercent_k__BackingField; // 0x68
+		::RPG::GameCore::FixPoint _BurnFromShieldPercent_k__BackingField; // 0x70
+		::RPG::GameCore::FixPoint _DamageBoostPercent_k__BackingField; // 0x78
+		::RPG::GameCore::FixPoint _DamageFromBurnPercent_k__BackingField; // 0x80
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE__CTOR_OFFSET))(this);
+		}
+
+		::System::UInt32 get_UniqueID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_UNIQUEID_OFFSET))(this);
+		}
+
+		::System::Void set_UniqueID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_UNIQUEID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_EquipID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_EQUIPID_OFFSET))(this);
+		}
+
+		::System::Void set_EquipID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_EQUIPID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_EquipLevel()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_EQUIPLEVEL_OFFSET))(this);
+		}
+
+		::System::Void set_EquipLevel(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_EQUIPLEVEL_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::PixAirEnchantmentType get_EnchantType()
+		{
+			return ((::RPG::GameCore::PixAirEnchantmentType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_ENCHANTTYPE_OFFSET))(this);
+		}
+
+		::System::Void set_EnchantType(::RPG::GameCore::PixAirEnchantmentType a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PixAirEnchantmentType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_ENCHANTTYPE_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_Position()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_POSITION_OFFSET))(this);
+		}
+
+		::System::Void set_Position(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_POSITION_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::PixAir::PixAirEquipLevelData* get_EquipLevelData()
+		{
+			return ((::RPG::Client::PixAir::PixAirEquipLevelData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_EQUIPLEVELDATA_OFFSET))(this);
+		}
+
+		::RPG::Client::PixAir::PixAirEquipData* get_EquipData()
+		{
+			return ((::RPG::Client::PixAir::PixAirEquipData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_EQUIPDATA_OFFSET))(this);
+		}
+
+		::RPG::GameCore::PixAirSlotType get_SlotType()
+		{
+			return ((::RPG::GameCore::PixAirSlotType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_SLOTTYPE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SellPrice()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_SELLPRICE_OFFSET))(this);
+		}
+
+		::System::String* GetSkillDesc()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GETSKILLDESC_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::System::String*>* GetSkillDescList()
+		{
+			return ((::System::Collections::Generic::List_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GETSKILLDESCLIST_OFFSET))(this);
+		}
+
+		::System::UInt32 get_DamagePower()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_DAMAGEPOWER_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ShieldPower()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_SHIELDPOWER_OFFSET))(this);
+		}
+
+		::System::UInt32 get_BurnPower()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_BURNPOWER_OFFSET))(this);
+		}
+
+		::System::Single get_CoolDown()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_COOLDOWN_OFFSET))(this);
+		}
+
+		::System::Int32 get_AdditionalDamagePower()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_ADDITIONALDAMAGEPOWER_OFFSET))(this);
+		}
+
+		::System::Void set_AdditionalDamagePower(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_ADDITIONALDAMAGEPOWER_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_AdditionalShieldPower()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_ADDITIONALSHIELDPOWER_OFFSET))(this);
+		}
+
+		::System::Void set_AdditionalShieldPower(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_ADDITIONALSHIELDPOWER_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_AdditionalBurnPower()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_ADDITIONALBURNPOWER_OFFSET))(this);
+		}
+
+		::System::Void set_AdditionalBurnPower(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_ADDITIONALBURNPOWER_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_AdditionalMultiCastPower()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_ADDITIONALMULTICASTPOWER_OFFSET))(this);
+		}
+
+		::System::Void set_AdditionalMultiCastPower(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_ADDITIONALMULTICASTPOWER_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::FixPoint get_BaseCooldownReduction()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_BASECOOLDOWNREDUCTION_OFFSET))(this);
+		}
+
+		::System::Void set_BaseCooldownReduction(::RPG::GameCore::FixPoint a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_BASECOOLDOWNREDUCTION_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_AdditionalJamPower()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_ADDITIONALJAMPOWER_OFFSET))(this);
+		}
+
+		::System::Void set_AdditionalJamPower(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_ADDITIONALJAMPOWER_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::FixPoint get_DamageBoostPercent()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_DAMAGEBOOSTPERCENT_OFFSET))(this);
+		}
+
+		::System::Void set_DamageBoostPercent(::RPG::GameCore::FixPoint a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_DAMAGEBOOSTPERCENT_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::FixPoint get_ShieldBoostPercent()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_SHIELDBOOSTPERCENT_OFFSET))(this);
+		}
+
+		::System::Void set_ShieldBoostPercent(::RPG::GameCore::FixPoint a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_SHIELDBOOSTPERCENT_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::FixPoint get_BurnBoostPercent()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_BURNBOOSTPERCENT_OFFSET))(this);
+		}
+
+		::System::Void set_BurnBoostPercent(::RPG::GameCore::FixPoint a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_BURNBOOSTPERCENT_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::FixPoint get_DamageFromShieldPercent()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_DAMAGEFROMSHIELDPERCENT_OFFSET))(this);
+		}
+
+		::System::Void set_DamageFromShieldPercent(::RPG::GameCore::FixPoint a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_DAMAGEFROMSHIELDPERCENT_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::FixPoint get_DamageFromBurnPercent()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_DAMAGEFROMBURNPERCENT_OFFSET))(this);
+		}
+
+		::System::Void set_DamageFromBurnPercent(::RPG::GameCore::FixPoint a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_DAMAGEFROMBURNPERCENT_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::FixPoint get_ShieldFromDamagePercent()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_SHIELDFROMDAMAGEPERCENT_OFFSET))(this);
+		}
+
+		::System::Void set_ShieldFromDamagePercent(::RPG::GameCore::FixPoint a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_SHIELDFROMDAMAGEPERCENT_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::FixPoint get_ShieldFromBurnPercent()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_SHIELDFROMBURNPERCENT_OFFSET))(this);
+		}
+
+		::System::Void set_ShieldFromBurnPercent(::RPG::GameCore::FixPoint a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_SHIELDFROMBURNPERCENT_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::FixPoint get_BurnFromDamagePercent()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_BURNFROMDAMAGEPERCENT_OFFSET))(this);
+		}
+
+		::System::Void set_BurnFromDamagePercent(::RPG::GameCore::FixPoint a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_BURNFROMDAMAGEPERCENT_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::FixPoint get_BurnFromShieldPercent()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_BURNFROMSHIELDPERCENT_OFFSET))(this);
+		}
+
+		::System::Void set_BurnFromShieldPercent(::RPG::GameCore::FixPoint a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SET_BURNFROMSHIELDPERCENT_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_FinalDamagePower()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_FINALDAMAGEPOWER_OFFSET))(this);
+		}
+
+		::System::Int32 get_FinalShieldPower()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_FINALSHIELDPOWER_OFFSET))(this);
+		}
+
+		::System::Int32 get_FinalBurnPower()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_FINALBURNPOWER_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasDamage()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_HASDAMAGE_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasShield()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_HASSHIELD_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasBurn()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_HASBURN_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasCoolDown()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_HASCOOLDOWN_OFFSET))(this);
+		}
+
+		::System::Int32 get_Size()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_GET_SIZE_OFFSET))(this);
+		}
+
+		static ::RPG::Client::PixAir::PixAirEquipInstance* TryCreate(::Class_1_D17272E82AE804C2_681* a1)
+		{
+			return ((::RPG::Client::PixAir::PixAirEquipInstance*(*)(::Class_1_D17272E82AE804C2_681*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_TRYCREATE_OFFSET))(a1);
+		}
+
+		static ::RPG::Client::PixAir::PixAirEquipInstance* CreateUpgrade(::RPG::Client::PixAir::PixAirEquipInstance* a1, ::System::Boolean a2, ::RPG::GameCore::PixAirEnchantmentType a3)
+		{
+			return ((::RPG::Client::PixAir::PixAirEquipInstance*(*)(::RPG::Client::PixAir::PixAirEquipInstance*, ::System::Boolean, ::RPG::GameCore::PixAirEnchantmentType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_CREATEUPGRADE_OFFSET))(a1, a2, a3);
+		}
+
+		static ::RPG::Client::PixAir::PixAirEquipInstance* Clone(::RPG::Client::PixAir::PixAirEquipInstance* a1)
+		{
+			return ((::RPG::Client::PixAir::PixAirEquipInstance*(*)(::RPG::Client::PixAir::PixAirEquipInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_CLONE_OFFSET))(a1);
+		}
+
+		::System::Void Sync(::Class_1_D17272E82AE804C2_681* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_681*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SYNC_OFFSET))(this, a1);
+		}
+
+		::System::Void SyncPosition(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_SYNCPOSITION_OFFSET))(this, a1);
+		}
+
+		::System::Boolean HasPropertyChanged(::Class_1_D17272E82AE804C2_681* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_D17272E82AE804C2_681*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_HASPROPERTYCHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Boolean HasPositionChanged(::Class_1_D17272E82AE804C2_681* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_D17272E82AE804C2_681*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_HASPOSITIONCHANGED_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::PixAir::PixAirEquipInstance* Clone_1()
+		{
+			return ((::RPG::Client::PixAir::PixAirEquipInstance*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_CLONE_1_OFFSET))(this);
+		}
+
+		::System::Void ResetAdditionalAttributes()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINSTANCE_RESETADDITIONALATTRIBUTES_OFFSET))(this);
+		}
+	};
+}

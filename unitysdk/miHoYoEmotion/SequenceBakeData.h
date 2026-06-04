@@ -4,15 +4,15 @@
 
 namespace miHoYoEmotion { class SequenceBakeData_BakeData; }
 
-#define MIHOYOEMOTION_SEQUENCEBAKEDATA_GET_EMOTIONBAKEDATA_OFFSET UNITYSDK_OFFSET(0x1A5F1980)
-#define MIHOYOEMOTION_SEQUENCEBAKEDATA_GET_PHONEMEBAKEDATA_OFFSET UNITYSDK_OFFSET(0x1A5F1960)
-#define MIHOYOEMOTION_SEQUENCEBAKEDATA_SET_EMOTIONBAKEDATA_OFFSET UNITYSDK_OFFSET(0x1A5F1970)
-#define MIHOYOEMOTION_SEQUENCEBAKEDATA_SET_PHONEMEBAKEDATA_OFFSET UNITYSDK_OFFSET(0x1A5F1950)
-#define MIHOYOEMOTION_SEQUENCEBAKEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5F1990)
+#define MIHOYOEMOTION_SEQUENCEBAKEDATA_GET_EMOTIONBAKEDATA_OFFSET UNITYSDK_OFFSET(0x17A897D0)
+#define MIHOYOEMOTION_SEQUENCEBAKEDATA_GET_PHONEMEBAKEDATA_OFFSET UNITYSDK_OFFSET(0x17A897B0)
+#define MIHOYOEMOTION_SEQUENCEBAKEDATA_SET_EMOTIONBAKEDATA_OFFSET UNITYSDK_OFFSET(0x17A897C0)
+#define MIHOYOEMOTION_SEQUENCEBAKEDATA_SET_PHONEMEBAKEDATA_OFFSET UNITYSDK_OFFSET(0x17A897A0)
+#define MIHOYOEMOTION_SEQUENCEBAKEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17A897E0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int SequenceBakeData_TypeDefinitionIndex = 40966;
+	inline static constexpr unsigned int SequenceBakeData_TypeDefinitionIndex = 41784;
 
 	class SequenceBakeData : public ::UnityEngine::ScriptableObject
 	{
@@ -22,9 +22,9 @@ namespace miHoYoEmotion
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_SEQUENCEBAKEDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void set_phonemeBakeData(::miHoYoEmotion::SequenceBakeData_BakeData* value)
+		::System::Void set_phonemeBakeData(::miHoYoEmotion::SequenceBakeData_BakeData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::miHoYoEmotion::SequenceBakeData_BakeData*))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_SEQUENCEBAKEDATA_SET_PHONEMEBAKEDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::miHoYoEmotion::SequenceBakeData_BakeData*))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_SEQUENCEBAKEDATA_SET_PHONEMEBAKEDATA_OFFSET))(this, a1);
 		}
 
 		::miHoYoEmotion::SequenceBakeData_BakeData* get_phonemeBakeData()
@@ -32,9 +32,9 @@ namespace miHoYoEmotion
 			return ((::miHoYoEmotion::SequenceBakeData_BakeData*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_SEQUENCEBAKEDATA_GET_PHONEMEBAKEDATA_OFFSET))(this);
 		}
 
-		::System::Void set_emotionBakeData(::miHoYoEmotion::SequenceBakeData_BakeData* value)
+		::System::Void set_emotionBakeData(::miHoYoEmotion::SequenceBakeData_BakeData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::miHoYoEmotion::SequenceBakeData_BakeData*))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_SEQUENCEBAKEDATA_SET_EMOTIONBAKEDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::miHoYoEmotion::SequenceBakeData_BakeData*))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_SEQUENCEBAKEDATA_SET_EMOTIONBAKEDATA_OFFSET))(this, a1);
 		}
 
 		::miHoYoEmotion::SequenceBakeData_BakeData* get_emotionBakeData()

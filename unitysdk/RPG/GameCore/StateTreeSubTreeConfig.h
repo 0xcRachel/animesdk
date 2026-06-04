@@ -10,13 +10,13 @@ namespace RPG::GameCore { class StateTreeSelectStateConfig; }
 namespace RPG::GameCore { class StateTreeTransitionConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STATETREESUBTREECONFIG_METHOD_3_EA95AEB40848E6BE_OFFSET UNITYSDK_OFFSET(0x18D6CC90)
-#define RPG_GAMECORE_STATETREESUBTREECONFIG_METHOD_3_F1C930C75F6F573B_OFFSET UNITYSDK_OFFSET(0x18D6CFC0)
-#define RPG_GAMECORE_STATETREESUBTREECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18D6CC80)
+#define RPG_GAMECORE_STATETREESUBTREECONFIG_METHOD_3_4C15209D4ACF0B65_OFFSET UNITYSDK_OFFSET(0x1934BDC0)
+#define RPG_GAMECORE_STATETREESUBTREECONFIG_METHOD_3_5397CE903E0F5F5C_OFFSET UNITYSDK_OFFSET(0x1934C0E0)
+#define RPG_GAMECORE_STATETREESUBTREECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1934BDB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StateTreeSubTreeConfig_TypeDefinitionIndex = 14666;
+	inline static constexpr unsigned int StateTreeSubTreeConfig_TypeDefinitionIndex = 14732;
 
 	class StateTreeSubTreeConfig : public ::RPG::GameCore::StateTreeStateBaseConfig
 	{
@@ -33,14 +33,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATETREESUBTREECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F1C930C75F6F573B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StateTreeSubTreeConfig*& a2)
+		static ::System::Void Method_3_5397CE903E0F5F5C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StateTreeSubTreeConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StateTreeSubTreeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATETREESUBTREECONFIG_METHOD_3_F1C930C75F6F573B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StateTreeSubTreeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATETREESUBTREECONFIG_METHOD_3_5397CE903E0F5F5C_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_EA95AEB40848E6BE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StateTreeSubTreeConfig* a2)
+		static ::System::Void Method_3_4C15209D4ACF0B65(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StateTreeSubTreeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StateTreeSubTreeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATETREESUBTREECONFIG_METHOD_3_EA95AEB40848E6BE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StateTreeSubTreeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATETREESUBTREECONFIG_METHOD_3_4C15209D4ACF0B65_OFFSET))(a1, a2);
 		}
 	};
 }

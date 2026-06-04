@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define NEWTONSOFT_JSON_UTILITIES_PROPERTYNAMETABLE_ENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x173EA4F0)
+#define NEWTONSOFT_JSON_UTILITIES_PROPERTYNAMETABLE_ENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x158F1040)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int PropertyNameTable_Entry_TypeDefinitionIndex = 8382;
+	inline static constexpr unsigned int PropertyNameTable_Entry_TypeDefinitionIndex = 9285;
 
 	class PropertyNameTable_Entry : public ::System::Object
 	{
@@ -17,9 +17,9 @@ namespace Newtonsoft::Json::Utilities
 		::System::String* Value; // 0x18
 		::System::Int32 HashCode; // 0x20
 
-		::System::Void _ctor(::System::String* value, ::System::Int32 hashCode, ::Newtonsoft::Json::Utilities::PropertyNameTable_Entry* next)
+		::System::Void _ctor(::System::String* a1, ::System::Int32 a2, ::Newtonsoft::Json::Utilities::PropertyNameTable_Entry* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::Newtonsoft::Json::Utilities::PropertyNameTable_Entry*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_PROPERTYNAMETABLE_ENTRY__CTOR_OFFSET))(this, value, hashCode, next);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::Newtonsoft::Json::Utilities::PropertyNameTable_Entry*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_PROPERTYNAMETABLE_ENTRY__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

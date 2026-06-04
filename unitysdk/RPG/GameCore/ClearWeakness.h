@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CLEARWEAKNESS_METHOD_3_137B14CF766028DF_OFFSET UNITYSDK_OFFSET(0x194D5C00)
-#define RPG_GAMECORE_CLEARWEAKNESS_METHOD_3_19CFF11432B9D1EC_OFFSET UNITYSDK_OFFSET(0x194D5C80)
-#define RPG_GAMECORE_CLEARWEAKNESS__CTOR_OFFSET UNITYSDK_OFFSET(0x194D5C50)
+#define RPG_GAMECORE_CLEARWEAKNESS_METHOD_3_81F2114C3C3CB309_OFFSET UNITYSDK_OFFSET(0x1A3101D0)
+#define RPG_GAMECORE_CLEARWEAKNESS_METHOD_3_D45E580DE0EE8676_OFFSET UNITYSDK_OFFSET(0x1A310250)
+#define RPG_GAMECORE_CLEARWEAKNESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A310220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClearWeakness_TypeDefinitionIndex = 22008;
+	inline static constexpr unsigned int ClearWeakness_TypeDefinitionIndex = 21822;
 
 	class ClearWeakness : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARWEAKNESS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_137B14CF766028DF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearWeakness*& a2)
+		static ::System::Void Method_3_81F2114C3C3CB309(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearWeakness*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearWeakness*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARWEAKNESS_METHOD_3_137B14CF766028DF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearWeakness*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARWEAKNESS_METHOD_3_81F2114C3C3CB309_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_19CFF11432B9D1EC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearWeakness* a2)
+		static ::System::Void Method_3_D45E580DE0EE8676(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearWeakness* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearWeakness*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARWEAKNESS_METHOD_3_19CFF11432B9D1EC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearWeakness*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARWEAKNESS_METHOD_3_D45E580DE0EE8676_OFFSET))(a1, a2);
 		}
 	};
 }

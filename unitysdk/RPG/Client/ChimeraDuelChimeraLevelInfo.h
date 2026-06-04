@@ -7,34 +7,34 @@ namespace RPG::Client { class ChimeraDuelChimeraLevelInfo_LevelUpRule; }
 namespace RPG::Client { class ChimeraDuelChimeraLevelInfo_SellRule; }
 namespace RPG::Client { class IChimeraDuelChimeraLevelData; }
 
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_CONVERTEXPTOATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x177B2DE0)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x177B2AE0)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GETDATA_1_OFFSET UNITYSDK_OFFSET(0x177B0A60)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GETDATA_OFFSET UNITYSDK_OFFSET(0x177B2CC0)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GETLEVELSKILLMAPPING_OFFSET UNITYSDK_OFFSET(0x177B2B20)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GETLEVELUPRULE_OFFSET UNITYSDK_OFFSET(0x177B0820)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GETSELLRULE_OFFSET UNITYSDK_OFFSET(0x177B2BF0)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GET_COREFLAMEVESSELLEVELUPRULE_OFFSET UNITYSDK_OFFSET(0x177B19F0)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GET_COREFLAMEVESSELSELLRULE_OFFSET UNITYSDK_OFFSET(0x177B1A10)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GET_DEFAULTLEVELUPRULE_OFFSET UNITYSDK_OFFSET(0x177B19C0)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GET_DEFAULTSELLRULE_OFFSET UNITYSDK_OFFSET(0x177B19E0)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GET__COREFLAMEVESSELLEVELSKILLMAPPING_OFFSET UNITYSDK_OFFSET(0x177B1A00)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GET__DEFAULTLEVELSKILLMAPPING_OFFSET UNITYSDK_OFFSET(0x177B19D0)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x177B1A20)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_CONVERTEXPTOATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x196670D0)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19666D50)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GETDATA_1_OFFSET UNITYSDK_OFFSET(0x19664970)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GETDATA_OFFSET UNITYSDK_OFFSET(0x19666F30)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GETLEVELSKILLMAPPING_OFFSET UNITYSDK_OFFSET(0x19666D90)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GETLEVELUPRULE_OFFSET UNITYSDK_OFFSET(0x19664730)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GETSELLRULE_OFFSET UNITYSDK_OFFSET(0x19666E60)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GET_COREFLAMEVESSELLEVELUPRULE_OFFSET UNITYSDK_OFFSET(0x19665A40)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GET_COREFLAMEVESSELSELLRULE_OFFSET UNITYSDK_OFFSET(0x19665A60)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GET_DEFAULTLEVELUPRULE_OFFSET UNITYSDK_OFFSET(0x19665A10)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GET_DEFAULTSELLRULE_OFFSET UNITYSDK_OFFSET(0x19665A30)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GET__COREFLAMEVESSELLEVELSKILLMAPPING_OFFSET UNITYSDK_OFFSET(0x19665A50)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GET__DEFAULTLEVELSKILLMAPPING_OFFSET UNITYSDK_OFFSET(0x19665A20)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19665A70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraLevelInfo_TypeDefinitionIndex = 58357;
+	inline static constexpr unsigned int ChimeraDuelChimeraLevelInfo_TypeDefinitionIndex = 59287;
 
 	class ChimeraDuelChimeraLevelInfo : public ::System::Object
 	{
 	public:
-		::RPG::Client::ChimeraDuelChimeraLevelInfo_SellRule* _DefaultSellRule_k__BackingField; // 0x10
+		::RPG::Client::ChimeraDuelChimeraLevelInfo_LevelUpRule* _DefaultLevelUpRule_k__BackingField; // 0x10
 		::RPG::Client::ChimeraDuelChimeraLevelInfo_SellRule* _CoreflameVesselSellRule_k__BackingField; // 0x18
-		::RPG::Client::ChimeraDuelChimeraLevelInfo_LevelSkillMapping* __CoreflameVesselLevelSkillMapping_k__BackingField; // 0x20
-		::RPG::Client::ChimeraDuelChimeraLevelInfo_LevelSkillMapping* __DefaultLevelSkillMapping_k__BackingField; // 0x28
-		::RPG::Client::ChimeraDuelChimeraLevelInfo_LevelUpRule* _DefaultLevelUpRule_k__BackingField; // 0x30
-		::RPG::Client::ChimeraDuelChimeraLevelInfo_LevelUpRule* _CoreflameVesselLevelUpRule_k__BackingField; // 0x38
+		::RPG::Client::ChimeraDuelChimeraLevelInfo_LevelSkillMapping* __DefaultLevelSkillMapping_k__BackingField; // 0x20
+		::RPG::Client::ChimeraDuelChimeraLevelInfo_LevelUpRule* _CoreflameVesselLevelUpRule_k__BackingField; // 0x28
+		::RPG::Client::ChimeraDuelChimeraLevelInfo_SellRule* _DefaultSellRule_k__BackingField; // 0x30
+		::RPG::Client::ChimeraDuelChimeraLevelInfo_LevelSkillMapping* __CoreflameVesselLevelSkillMapping_k__BackingField; // 0x38
 		::System::Int32 _ExpToAttributeDeltaScale; // 0x40
 
 		::System::Void _ctor()
@@ -77,34 +77,34 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_DISPOSE_OFFSET))(this);
 		}
 
-		::RPG::Client::ChimeraDuelChimeraLevelInfo_LevelUpRule* GetLevelUpRule(::System::UInt32 chimeraID)
+		::RPG::Client::ChimeraDuelChimeraLevelInfo_LevelUpRule* GetLevelUpRule(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ChimeraDuelChimeraLevelInfo_LevelUpRule*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GETLEVELUPRULE_OFFSET))(this, chimeraID);
+			return ((::RPG::Client::ChimeraDuelChimeraLevelInfo_LevelUpRule*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GETLEVELUPRULE_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::ChimeraDuelChimeraLevelInfo_LevelSkillMapping* GetLevelSkillMapping(::System::UInt32 chimeraID)
+		::RPG::Client::ChimeraDuelChimeraLevelInfo_LevelSkillMapping* GetLevelSkillMapping(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ChimeraDuelChimeraLevelInfo_LevelSkillMapping*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GETLEVELSKILLMAPPING_OFFSET))(this, chimeraID);
+			return ((::RPG::Client::ChimeraDuelChimeraLevelInfo_LevelSkillMapping*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GETLEVELSKILLMAPPING_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::ChimeraDuelChimeraLevelInfo_SellRule* GetSellRule(::System::UInt32 chimeraID)
+		::RPG::Client::ChimeraDuelChimeraLevelInfo_SellRule* GetSellRule(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ChimeraDuelChimeraLevelInfo_SellRule*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GETSELLRULE_OFFSET))(this, chimeraID);
+			return ((::RPG::Client::ChimeraDuelChimeraLevelInfo_SellRule*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GETSELLRULE_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::IChimeraDuelChimeraLevelData* GetData(::System::UInt32 chimeraID, ::System::UInt32 level)
+		::RPG::Client::IChimeraDuelChimeraLevelData* GetData(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::IChimeraDuelChimeraLevelData*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GETDATA_OFFSET))(this, chimeraID, level);
+			return ((::RPG::Client::IChimeraDuelChimeraLevelData*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GETDATA_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::IChimeraDuelChimeraLevelData* GetData_1(::System::UInt32 chimeraID, ::System::Int32 level)
+		::RPG::Client::IChimeraDuelChimeraLevelData* GetData_1(::System::UInt32 a1, ::System::Int32 a2)
 		{
-			return ((::RPG::Client::IChimeraDuelChimeraLevelData*(*)(::PVOID, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GETDATA_1_OFFSET))(this, chimeraID, level);
+			return ((::RPG::Client::IChimeraDuelChimeraLevelData*(*)(::PVOID, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_GETDATA_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 ConvertExpToAttribute(::System::Int32 gainedExp)
+		::System::Int32 ConvertExpToAttribute(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_CONVERTEXPTOATTRIBUTE_OFFSET))(this, gainedExp);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_CONVERTEXPTOATTRIBUTE_OFFSET))(this, a1);
 		}
 	};
 }

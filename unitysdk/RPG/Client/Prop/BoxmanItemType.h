@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int BoxmanItemType_TypeDefinitionIndex = 72344;
+	inline static constexpr unsigned int BoxmanItemType_TypeDefinitionIndex = 73366;
 
 	enum class BoxmanItemType : ::System::Int32
 	{

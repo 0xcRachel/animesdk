@@ -4,16 +4,16 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOPOLYUI3DTOUCH_FINGERUTIL_ADDFINGER_OFFSET UNITYSDK_OFFSET(0x17618D30)
-#define RPG_CLIENT_MONOPOLYUI3DTOUCH_FINGERUTIL_CLEAR_OFFSET UNITYSDK_OFFSET(0x176189C0)
-#define RPG_CLIENT_MONOPOLYUI3DTOUCH_FINGERUTIL_CONTAINFINGER_OFFSET UNITYSDK_OFFSET(0x17619130)
-#define RPG_CLIENT_MONOPOLYUI3DTOUCH_FINGERUTIL_GETFINGERNUM_OFFSET UNITYSDK_OFFSET(0x176190E0)
-#define RPG_CLIENT_MONOPOLYUI3DTOUCH_FINGERUTIL_REMOVEFINGER_OFFSET UNITYSDK_OFFSET(0x17618E70)
-#define RPG_CLIENT_MONOPOLYUI3DTOUCH_FINGERUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x17619640)
+#define RPG_CLIENT_MONOPOLYUI3DTOUCH_FINGERUTIL_ADDFINGER_OFFSET UNITYSDK_OFFSET(0x1699C5C0)
+#define RPG_CLIENT_MONOPOLYUI3DTOUCH_FINGERUTIL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1699C210)
+#define RPG_CLIENT_MONOPOLYUI3DTOUCH_FINGERUTIL_CONTAINFINGER_OFFSET UNITYSDK_OFFSET(0x1699C900)
+#define RPG_CLIENT_MONOPOLYUI3DTOUCH_FINGERUTIL_GETFINGERNUM_OFFSET UNITYSDK_OFFSET(0x1699C8B0)
+#define RPG_CLIENT_MONOPOLYUI3DTOUCH_FINGERUTIL_REMOVEFINGER_OFFSET UNITYSDK_OFFSET(0x1699C720)
+#define RPG_CLIENT_MONOPOLYUI3DTOUCH_FINGERUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1699CDB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyUI3DTouch_FingerUtil_TypeDefinitionIndex = 67109;
+	inline static constexpr unsigned int MonopolyUI3DTouch_FingerUtil_TypeDefinitionIndex = 68052;
 
 	class MonopolyUI3DTouch_FingerUtil : public ::System::Object
 	{
@@ -25,14 +25,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYUI3DTOUCH_FINGERUTIL__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean AddFinger(::System::Int32 id)
+		::System::Boolean AddFinger(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYUI3DTOUCH_FINGERUTIL_ADDFINGER_OFFSET))(this, id);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYUI3DTOUCH_FINGERUTIL_ADDFINGER_OFFSET))(this, a1);
 		}
 
-		::System::Boolean RemoveFinger(::System::Int32 id)
+		::System::Boolean RemoveFinger(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYUI3DTOUCH_FINGERUTIL_REMOVEFINGER_OFFSET))(this, id);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYUI3DTOUCH_FINGERUTIL_REMOVEFINGER_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetFingerNum()
@@ -40,9 +40,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYUI3DTOUCH_FINGERUTIL_GETFINGERNUM_OFFSET))(this);
 		}
 
-		::System::Boolean ContainFinger(::System::Int32 id)
+		::System::Boolean ContainFinger(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYUI3DTOUCH_FINGERUTIL_CONTAINFINGER_OFFSET))(this, id);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYUI3DTOUCH_FINGERUTIL_CONTAINFINGER_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()

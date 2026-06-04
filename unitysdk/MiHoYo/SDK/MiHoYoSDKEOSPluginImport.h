@@ -6,20 +6,20 @@ namespace MiHoYo::SDK { class EOSParametersModel; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETCLIENTIDGFX_OFFSET UNITYSDK_OFFSET(0x17286020)
-#define MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETCLIENTSECRETGFX_OFFSET UNITYSDK_OFFSET(0x17286210)
-#define MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETDEPLOYMENTIDGFX_OFFSET UNITYSDK_OFFSET(0x172865F0)
-#define MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETPLATFORMHANDLERGFX_OFFSET UNITYSDK_OFFSET(0x17285DB0)
-#define MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETPRODUCTIDGFX_OFFSET UNITYSDK_OFFSET(0x17285E30)
-#define MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETSANDBOXIDGFX_OFFSET UNITYSDK_OFFSET(0x17286400)
-#define MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_GETEOSPARAMETERSMODEL_OFFSET UNITYSDK_OFFSET(0x17286900)
-#define MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_GETPLATFORMHANDLER_OFFSET UNITYSDK_OFFSET(0x172868F0)
-#define MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_GETSTRINGFROMNATIVE_OFFSET UNITYSDK_OFFSET(0x172867E0)
-#define MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1727F820)
+#define MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETCLIENTIDGFX_OFFSET UNITYSDK_OFFSET(0x193BFA50)
+#define MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETCLIENTSECRETGFX_OFFSET UNITYSDK_OFFSET(0x193BFC40)
+#define MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETDEPLOYMENTIDGFX_OFFSET UNITYSDK_OFFSET(0x193C0020)
+#define MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETPLATFORMHANDLERGFX_OFFSET UNITYSDK_OFFSET(0x193BF7E0)
+#define MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETPRODUCTIDGFX_OFFSET UNITYSDK_OFFSET(0x193BF860)
+#define MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETSANDBOXIDGFX_OFFSET UNITYSDK_OFFSET(0x193BFE30)
+#define MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_GETEOSPARAMETERSMODEL_OFFSET UNITYSDK_OFFSET(0x193C0360)
+#define MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_GETPLATFORMHANDLER_OFFSET UNITYSDK_OFFSET(0x193C0350)
+#define MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_GETSTRINGFROMNATIVE_OFFSET UNITYSDK_OFFSET(0x193C0210)
+#define MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x193B92B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKEOSPluginImport_TypeDefinitionIndex = 42919;
+	inline static constexpr unsigned int MiHoYoSDKEOSPluginImport_TypeDefinitionIndex = 43722;
 
 	class MiHoYoSDKEOSPluginImport : public ::System::Object
 	{
@@ -37,34 +37,34 @@ namespace MiHoYo::SDK
 			return ((::System::IntPtr(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETPLATFORMHANDLERGFX_OFFSET))();
 		}
 
-		static ::System::Int32 EOS_Unity_GetProductIdGfx(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 bufferSize)
+		static ::System::Int32 EOS_Unity_GetProductIdGfx(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETPRODUCTIDGFX_OFFSET))(buffer, bufferSize);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETPRODUCTIDGFX_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 EOS_Unity_GetClientIdGfx(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 bufferSize)
+		static ::System::Int32 EOS_Unity_GetClientIdGfx(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETCLIENTIDGFX_OFFSET))(buffer, bufferSize);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETCLIENTIDGFX_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 EOS_Unity_GetClientSecretGfx(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 bufferSize)
+		static ::System::Int32 EOS_Unity_GetClientSecretGfx(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETCLIENTSECRETGFX_OFFSET))(buffer, bufferSize);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETCLIENTSECRETGFX_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 EOS_Unity_GetSandboxIdGfx(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 bufferSize)
+		static ::System::Int32 EOS_Unity_GetSandboxIdGfx(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETSANDBOXIDGFX_OFFSET))(buffer, bufferSize);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETSANDBOXIDGFX_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 EOS_Unity_GetDeploymentIdGfx(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 bufferSize)
+		static ::System::Int32 EOS_Unity_GetDeploymentIdGfx(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETDEPLOYMENTIDGFX_OFFSET))(buffer, bufferSize);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_EOS_UNITY_GETDEPLOYMENTIDGFX_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* GetStringFromNative(::System::Func_3<::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32>* nativeFunction)
+		static ::System::String* GetStringFromNative(::System::Func_3<::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32>* a1)
 		{
-			return ((::System::String*(*)(::System::Func_3<::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_GETSTRINGFROMNATIVE_OFFSET))(nativeFunction);
+			return ((::System::String*(*)(::System::Func_3<::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSPLUGINIMPORT_GETSTRINGFROMNATIVE_OFFSET))(a1);
 		}
 
 		::System::IntPtr GetPlatformHandler()

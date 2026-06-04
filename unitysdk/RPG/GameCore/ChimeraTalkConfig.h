@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChimeraTalk; }
 
-#define RPG_GAMECORE_CHIMERATALKCONFIG_METHOD_2_82EE41711F29A0CC_OFFSET UNITYSDK_OFFSET(0x194CCE70)
-#define RPG_GAMECORE_CHIMERATALKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194CCF70)
+#define RPG_GAMECORE_CHIMERATALKCONFIG_METHOD_2_4337A68CA6352481_OFFSET UNITYSDK_OFFSET(0x1A307440)
+#define RPG_GAMECORE_CHIMERATALKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A307530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraTalkConfig_TypeDefinitionIndex = 15012;
+	inline static constexpr unsigned int ChimeraTalkConfig_TypeDefinitionIndex = 15075;
 
 	class ChimeraTalkConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERATALKCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_82EE41711F29A0CC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraTalkConfig*& a2)
+		static ::System::Void Method_2_4337A68CA6352481(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraTalkConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraTalkConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERATALKCONFIG_METHOD_2_82EE41711F29A0CC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraTalkConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERATALKCONFIG_METHOD_2_4337A68CA6352481_OFFSET))(a1, a2);
 		}
 	};
 }

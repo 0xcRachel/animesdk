@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CINEMACHINE_SINGLESHOTSETTINGS_METHOD_2_6FD657BE0D8D170B_OFFSET UNITYSDK_OFFSET(0x1BB8260)
-#define CINEMACHINE_SINGLESHOTSETTINGS_METHOD_2_90A3556FE5B8C2F8_OFFSET UNITYSDK_OFFSET(0x1BB81F0)
-#define CINEMACHINE_SINGLESHOTSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0xECF0A90)
+#define CINEMACHINE_SINGLESHOTSETTINGS_METHOD_2_6FD657BE0D8D170B_OFFSET UNITYSDK_OFFSET(0x3793F10)
+#define CINEMACHINE_SINGLESHOTSETTINGS_METHOD_2_90A3556FE5B8C2F8_OFFSET UNITYSDK_OFFSET(0x3793EA0)
+#define CINEMACHINE_SINGLESHOTSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x14E48110)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int SingleShotSettings_TypeDefinitionIndex = 46229;
+	inline static constexpr unsigned int SingleShotSettings_TypeDefinitionIndex = 46812;
 
 	struct alignas(4) SingleShotSettings
 	{
 		static ::Cinemachine::SingleShotSettings* StaticGet_Default()
 		{
-			return (::Cinemachine::SingleShotSettings*)Il2CppClass::FromTypeDefinitionIndex(SingleShotSettings_TypeDefinitionIndex)->GetStaticField(0xADA0);
+			return (::Cinemachine::SingleShotSettings*)Il2CppClass::FromTypeDefinitionIndex(SingleShotSettings_TypeDefinitionIndex)->GetStaticField(0x13710);
 		}
 		::System::Single X; // 0x10
 		::System::Single Y; // 0x14

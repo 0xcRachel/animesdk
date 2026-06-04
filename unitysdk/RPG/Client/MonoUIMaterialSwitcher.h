@@ -5,16 +5,16 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define RPG_CLIENT_MONOUIMATERIALSWITCHER_AWAKE_OFFSET UNITYSDK_OFFSET(0x16302D20)
-#define RPG_CLIENT_MONOUIMATERIALSWITCHER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x16302DF0)
-#define RPG_CLIENT_MONOUIMATERIALSWITCHER_RECOVERMATERIAL_OFFSET UNITYSDK_OFFSET(0x16302CD0)
-#define RPG_CLIENT_MONOUIMATERIALSWITCHER_SWITCHMATERIAL_OFFSET UNITYSDK_OFFSET(0x16302B80)
-#define RPG_CLIENT_MONOUIMATERIALSWITCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x16302E40)
-#define RPG_CLIENT_MONOUIMATERIALSWITCHER__SWITCHMATERIAL_OFFSET UNITYSDK_OFFSET(0x16302C20)
+#define RPG_CLIENT_MONOUIMATERIALSWITCHER_AWAKE_OFFSET UNITYSDK_OFFSET(0x187E3F90)
+#define RPG_CLIENT_MONOUIMATERIALSWITCHER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x187E4060)
+#define RPG_CLIENT_MONOUIMATERIALSWITCHER_RECOVERMATERIAL_OFFSET UNITYSDK_OFFSET(0x187E3F40)
+#define RPG_CLIENT_MONOUIMATERIALSWITCHER_SWITCHMATERIAL_OFFSET UNITYSDK_OFFSET(0x187E3E00)
+#define RPG_CLIENT_MONOUIMATERIALSWITCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x187E40B0)
+#define RPG_CLIENT_MONOUIMATERIALSWITCHER__SWITCHMATERIAL_OFFSET UNITYSDK_OFFSET(0x187E3E90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIMaterialSwitcher_TypeDefinitionIndex = 63583;
+	inline static constexpr unsigned int MonoUIMaterialSwitcher_TypeDefinitionIndex = 64504;
 
 	class MonoUIMaterialSwitcher : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,9 +30,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIMATERIALSWITCHER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SwitchMaterial(::System::UInt32 index)
+		::System::Void SwitchMaterial(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIMATERIALSWITCHER_SWITCHMATERIAL_OFFSET))(this, index);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIMATERIALSWITCHER_SWITCHMATERIAL_OFFSET))(this, a1);
 		}
 
 		::System::Void RecoverMaterial()
@@ -40,9 +40,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIMATERIALSWITCHER_RECOVERMATERIAL_OFFSET))(this);
 		}
 
-		::System::Void _SwitchMaterial(::UnityEngine::Material* material)
+		::System::Void _SwitchMaterial(::UnityEngine::Material* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIMATERIALSWITCHER__SWITCHMATERIAL_OFFSET))(this, material);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIMATERIALSWITCHER__SWITCHMATERIAL_OFFSET))(this, a1);
 		}
 
 		::System::Void Awake()

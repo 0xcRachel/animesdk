@@ -3,14 +3,17 @@
 #include "unitysdk/RPG/GameCore/TargetSeqOperation.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETMAPSUMMONER_METHOD_3_D0F7E4D2667872D2_OFFSET UNITYSDK_OFFSET(0x199E6CB0)
-#define RPG_GAMECORE_TARGETMAPSUMMONER_METHOD_3_DCD2D56BEA1A9566_OFFSET UNITYSDK_OFFSET(0x199E6B80)
-#define RPG_GAMECORE_TARGETMAPSUMMONER__CTOR_OFFSET UNITYSDK_OFFSET(0x199E6C90)
+#define RPG_GAMECORE_TARGETMAPSUMMONER_METHOD_3_68EF654DD5FE7EFD_OFFSET UNITYSDK_OFFSET(0x1ACCC270)
+#define RPG_GAMECORE_TARGETMAPSUMMONER_METHOD_3_C36E75F65330A97C_OFFSET UNITYSDK_OFFSET(0x1ACCC2C0)
+#define RPG_GAMECORE_TARGETMAPSUMMONER_METHOD_3_D0F7E4D2667872D2_OFFSET UNITYSDK_OFFSET(0x1ACCC1B0)
+#define RPG_GAMECORE_TARGETMAPSUMMONER_METHOD_3_DCD2D56BEA1A9566_OFFSET UNITYSDK_OFFSET(0x1ACCC080)
+#define RPG_GAMECORE_TARGETMAPSUMMONER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACCC190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetMapSummoner_TypeDefinitionIndex = 22943;
+	inline static constexpr unsigned int TargetMapSummoner_TypeDefinitionIndex = 22634;
 
 	class TargetMapSummoner : public ::RPG::GameCore::TargetSeqOperation
 	{
@@ -30,6 +33,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_3_D0F7E4D2667872D2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapSummoner* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMapSummoner*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSUMMONER_METHOD_3_D0F7E4D2667872D2_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_68EF654DD5FE7EFD(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapSummoner*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapSummoner*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSUMMONER_METHOD_3_68EF654DD5FE7EFD_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_C36E75F65330A97C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapSummoner* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapSummoner*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSUMMONER_METHOD_3_C36E75F65330A97C_OFFSET))(a1, a2);
 		}
 	};
 }

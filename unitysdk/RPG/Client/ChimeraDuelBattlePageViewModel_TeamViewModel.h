@@ -9,38 +9,38 @@ namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_CREATEFORMASTER_OFFSET UNITYSDK_OFFSET(0x177AEE70)
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0x177AD510)
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_GET_CHIMERAS_OFFSET UNITYSDK_OFFSET(0x177AF8E0)
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_GET_MASTERDATA_OFFSET UNITYSDK_OFFSET(0x177AF8C0)
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_GET_PLAYERICON_OFFSET UNITYSDK_OFFSET(0x177AF840)
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_GET_PLAYERNAME_OFFSET UNITYSDK_OFFSET(0x177AF820)
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_GET_RANKICON_OFFSET UNITYSDK_OFFSET(0x177AF8A0)
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_GET_RANKLEVEL_OFFSET UNITYSDK_OFFSET(0x177AF860)
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_GET_RANKNAME_OFFSET UNITYSDK_OFFSET(0x177AF880)
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_CHIMERAS_OFFSET UNITYSDK_OFFSET(0x177AF8F0)
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_MASTERDATA_OFFSET UNITYSDK_OFFSET(0x177AF8D0)
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_PLAYERICON_OFFSET UNITYSDK_OFFSET(0x177AF850)
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_PLAYERNAME_OFFSET UNITYSDK_OFFSET(0x177AF830)
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_RANKICON_OFFSET UNITYSDK_OFFSET(0x177AF8B0)
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_RANKLEVEL_OFFSET UNITYSDK_OFFSET(0x177AF870)
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_RANKNAME_OFFSET UNITYSDK_OFFSET(0x177AF890)
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x177AF900)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_CREATEFORMASTER_OFFSET UNITYSDK_OFFSET(0x19662100)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0x196605F0)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_GET_CHIMERAS_OFFSET UNITYSDK_OFFSET(0x19662F40)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_GET_MASTERDATA_OFFSET UNITYSDK_OFFSET(0x19662F20)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_GET_PLAYERICON_OFFSET UNITYSDK_OFFSET(0x19662EA0)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_GET_PLAYERNAME_OFFSET UNITYSDK_OFFSET(0x19662E80)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_GET_RANKICON_OFFSET UNITYSDK_OFFSET(0x19662F00)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_GET_RANKLEVEL_OFFSET UNITYSDK_OFFSET(0x19662EC0)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_GET_RANKNAME_OFFSET UNITYSDK_OFFSET(0x19662EE0)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_CHIMERAS_OFFSET UNITYSDK_OFFSET(0x19662F50)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_MASTERDATA_OFFSET UNITYSDK_OFFSET(0x19662F30)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_PLAYERICON_OFFSET UNITYSDK_OFFSET(0x19662EB0)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_PLAYERNAME_OFFSET UNITYSDK_OFFSET(0x19662E90)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_RANKICON_OFFSET UNITYSDK_OFFSET(0x19662F10)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_RANKLEVEL_OFFSET UNITYSDK_OFFSET(0x19662ED0)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_RANKNAME_OFFSET UNITYSDK_OFFSET(0x19662EF0)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x19662F60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelBattlePageViewModel_TeamViewModel_TypeDefinitionIndex = 58407;
+	inline static constexpr unsigned int ChimeraDuelBattlePageViewModel_TeamViewModel_TypeDefinitionIndex = 59337;
 
 	class ChimeraDuelBattlePageViewModel_TeamViewModel : public ::System::Object
 	{
 	public:
-		::RPG::Client::ChimeraDuelMasterData* _MasterData_k__BackingField; // 0x10
-		::System::String* _RankIcon_k__BackingField; // 0x18
-		::System::String* _PlayerIcon_k__BackingField; // 0x20
-		::System::String* _PlayerName_k__BackingField; // 0x28
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* _Chimeras_k__BackingField; // 0x30
-		::System::UInt32 _RankLevel_k__BackingField; // 0x38
-		::RPG::Client::TextID _RankName_k__BackingField; // 0x40
+		::System::String* _PlayerIcon_k__BackingField; // 0x10
+		::RPG::Client::ChimeraDuelMasterData* _MasterData_k__BackingField; // 0x18
+		::System::String* _RankIcon_k__BackingField; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* _Chimeras_k__BackingField; // 0x28
+		::System::String* _PlayerName_k__BackingField; // 0x30
+		::RPG::Client::TextID _RankName_k__BackingField; // 0x38
+		::System::UInt32 _RankLevel_k__BackingField; // 0x48
 
 		::System::Void _ctor()
 		{
@@ -52,9 +52,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_GET_PLAYERNAME_OFFSET))(this);
 		}
 
-		::System::Void set_PlayerName(::System::String* value)
+		::System::Void set_PlayerName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_PLAYERNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_PLAYERNAME_OFFSET))(this, a1);
 		}
 
 		::System::String* get_PlayerIcon()
@@ -62,9 +62,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_GET_PLAYERICON_OFFSET))(this);
 		}
 
-		::System::Void set_PlayerIcon(::System::String* value)
+		::System::Void set_PlayerIcon(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_PLAYERICON_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_PLAYERICON_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_RankLevel()
@@ -72,9 +72,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_GET_RANKLEVEL_OFFSET))(this);
 		}
 
-		::System::Void set_RankLevel(::System::UInt32 value)
+		::System::Void set_RankLevel(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_RANKLEVEL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_RANKLEVEL_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_RankName()
@@ -82,9 +82,9 @@ namespace RPG::Client
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_GET_RANKNAME_OFFSET))(this);
 		}
 
-		::System::Void set_RankName(::RPG::Client::TextID value)
+		::System::Void set_RankName(::RPG::Client::TextID a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_RANKNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_RANKNAME_OFFSET))(this, a1);
 		}
 
 		::System::String* get_RankIcon()
@@ -92,9 +92,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_GET_RANKICON_OFFSET))(this);
 		}
 
-		::System::Void set_RankIcon(::System::String* value)
+		::System::Void set_RankIcon(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_RANKICON_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_RANKICON_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ChimeraDuelMasterData* get_MasterData()
@@ -102,9 +102,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ChimeraDuelMasterData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_GET_MASTERDATA_OFFSET))(this);
 		}
 
-		::System::Void set_MasterData(::RPG::Client::ChimeraDuelMasterData* value)
+		::System::Void set_MasterData(::RPG::Client::ChimeraDuelMasterData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelMasterData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_MASTERDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelMasterData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_MASTERDATA_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* get_Chimeras()
@@ -112,19 +112,19 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_GET_CHIMERAS_OFFSET))(this);
 		}
 
-		::System::Void set_Chimeras(::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* value)
+		::System::Void set_Chimeras(::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_CHIMERAS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_SET_CHIMERAS_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* Create(::RPG::Client::ChimeraDuelGameSessionBattleTeam* team)
+		static ::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* Create(::RPG::Client::ChimeraDuelGameSessionBattleTeam* a1)
 		{
-			return ((::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel*(*)(::RPG::Client::ChimeraDuelGameSessionBattleTeam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_CREATE_OFFSET))(team);
+			return ((::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel*(*)(::RPG::Client::ChimeraDuelGameSessionBattleTeam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_CREATE_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* CreateForMaster(::System::UInt32 rankLevel, ::System::UInt32 masterID, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* chimeras)
+		static ::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* CreateForMaster(::System::UInt32 a1, ::System::UInt32 a2, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* a3)
 		{
-			return ((::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel*(*)(::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_CREATEFORMASTER_OFFSET))(rankLevel, masterID, chimeras);
+			return ((::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel*(*)(::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_TEAMVIEWMODEL_CREATEFORMASTER_OFFSET))(a1, a2, a3);
 		}
 	};
 }

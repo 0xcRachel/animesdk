@@ -6,37 +6,37 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYDICECOMBATDICECONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1886A8D0)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATDICECONTENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1886AD80)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATDICECONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19896650)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATDICECONTENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19896AF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceCombatDiceContentRow_TypeDefinitionIndex = 10747;
+	inline static constexpr unsigned int ActivityDiceCombatDiceContentRow_TypeDefinitionIndex = 10802;
 
 	class ActivityDiceCombatDiceContentRow : public ::System::Object
 	{
 	public:
 		::System::String* SKillImgPathUI3D; // 0x10
-		::System::String* SKillImgPath; // 0x18
-		::System::String* SKillImagePathSmall; // 0x20
-		::System::String* DiceSkillJsonPath; // 0x28
+		::Il2CppArray<::System::UInt32>* SkillParam; // 0x18
+		::System::String* SKillImgPath; // 0x20
+		::Il2CppArray<::System::UInt32>* GlossaryIDList; // 0x28
 		::System::String* ImgPath; // 0x30
-		::Il2CppArray<::System::UInt32>* GlossaryIDList; // 0x38
-		::Il2CppArray<::System::UInt32>* SkillParam; // 0x40
-		::RPG::Client::TextID ImageTextmap; // 0x48
-		::RPG::Client::TextID SKillDesc; // 0x58
-		::System::UInt32 Content; // 0x68
-		::System::Single AIEffectWeight; // 0x6C
-		::System::UInt32 ContentID; // 0x70
+		::System::String* SKillImagePathSmall; // 0x38
+		::System::String* DiceSkillJsonPath; // 0x40
+		::RPG::Client::TextID SKillDesc; // 0x48
+		::System::UInt32 ContentID; // 0x58
+		::System::Single AIEffectWeight; // 0x5C
+		::System::UInt32 Content; // 0x60
+		::RPG::Client::TextID ImageTextmap; // 0x68
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYDICECOMBATDICECONTENTROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ActivityDiceCombatDiceContentRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActivityDiceCombatDiceContentRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityDiceCombatDiceContentRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYDICECOMBATDICECONTENTROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityDiceCombatDiceContentRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYDICECOMBATDICECONTENTROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

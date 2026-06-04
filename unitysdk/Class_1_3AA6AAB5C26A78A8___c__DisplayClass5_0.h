@@ -4,10 +4,10 @@
 
 class Class_1_671780733A8844ED;
 
-#define CLASS_1_3AA6AAB5C26A78A8___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAC8C2F0)
-#define CLASS_1_3AA6AAB5C26A78A8___C__DISPLAYCLASS5_0___GETAFFIXCOMPARERESULTS_B__0_OFFSET UNITYSDK_OFFSET(0xAC8C670)
+#define CLASS_1_3AA6AAB5C26A78A8___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E50C60)
+#define CLASS_1_3AA6AAB5C26A78A8___C__DISPLAYCLASS5_0___GETAFFIXCOMPARERESULTS_B__0_OFFSET UNITYSDK_OFFSET(0x15E50FF0)
 
-inline static constexpr unsigned int Class_1_3AA6AAB5C26A78A8___c__DisplayClass5_0_TypeDefinitionIndex = 69293;
+inline static constexpr unsigned int Class_1_3AA6AAB5C26A78A8___c__DisplayClass5_0_TypeDefinitionIndex = 70105;
 
 class Class_1_3AA6AAB5C26A78A8___c__DisplayClass5_0 : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3AA6AAB5C26A78A8___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean __GetAffixCompareResults_b__0(::Class_1_671780733A8844ED* x)
+	::System::Boolean __GetAffixCompareResults_b__0(::Class_1_671780733A8844ED* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_671780733A8844ED*))((::PBYTE)hIl2Cpp + CLASS_1_3AA6AAB5C26A78A8___C__DISPLAYCLASS5_0___GETAFFIXCOMPARERESULTS_B__0_OFFSET))(this, x);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_671780733A8844ED*))((::PBYTE)hIl2Cpp + CLASS_1_3AA6AAB5C26A78A8___C__DISPLAYCLASS5_0___GETAFFIXCOMPARERESULTS_B__0_OFFSET))(this, a1);
 	}
 };

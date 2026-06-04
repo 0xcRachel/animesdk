@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define RPG_CLIENT_SKIRTIKCONFIG_EDITORONLY__CTOR_OFFSET UNITYSDK_OFFSET(0x16C213B0)
+#define RPG_CLIENT_SKIRTIKCONFIG_EDITORONLY__CTOR_OFFSET UNITYSDK_OFFSET(0x17C0F1A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkirtIKConfig_EditorOnly_TypeDefinitionIndex = 63047;
+	inline static constexpr unsigned int SkirtIKConfig_EditorOnly_TypeDefinitionIndex = 63962;
 
 	class SkirtIKConfig_EditorOnly : public ::UnityEngine::ScriptableObject
 	{

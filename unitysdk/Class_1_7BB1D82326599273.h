@@ -6,26 +6,26 @@
 
 namespace RPG::Client::Prop { class DuelChimeraProxy; }
 
-#define CLASS_1_7BB1D82326599273_METHOD_1_367B9590522079D1_OFFSET UNITYSDK_OFFSET(0x10923E20)
-#define CLASS_1_7BB1D82326599273_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x10924CB0)
-#define CLASS_1_7BB1D82326599273_METHOD_1_8F7825DAFFB9B517_OFFSET UNITYSDK_OFFSET(0x10924A20)
-#define CLASS_1_7BB1D82326599273_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x10924C60)
-#define CLASS_1_7BB1D82326599273_METHOD_1_F6D71BB9DFA2BE91_OFFSET UNITYSDK_OFFSET(0x109241C0)
-#define CLASS_1_7BB1D82326599273__CTOR_OFFSET UNITYSDK_OFFSET(0x10923E10)
+#define CLASS_1_7BB1D82326599273_METHOD_1_367B9590522079D1_OFFSET UNITYSDK_OFFSET(0x140A0560)
+#define CLASS_1_7BB1D82326599273_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x140A13F0)
+#define CLASS_1_7BB1D82326599273_METHOD_1_8F7825DAFFB9B517_OFFSET UNITYSDK_OFFSET(0x140A1160)
+#define CLASS_1_7BB1D82326599273_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x140A13A0)
+#define CLASS_1_7BB1D82326599273_METHOD_1_F6D71BB9DFA2BE91_OFFSET UNITYSDK_OFFSET(0x140A0900)
+#define CLASS_1_7BB1D82326599273__CTOR_OFFSET UNITYSDK_OFFSET(0x140A0550)
 
-inline static constexpr unsigned int Class_1_7BB1D82326599273_TypeDefinitionIndex = 71733;
+inline static constexpr unsigned int Class_1_7BB1D82326599273_TypeDefinitionIndex = 72755;
 
 class Class_1_7BB1D82326599273 : public ::System::Object
 {
 public:
-	::RPG::Client::Prop::DuelChimeraProxy* Field_1_1; // 0x10
-	::RPG::Client::Prop::DuelChimeraProxy* Field_1_0; // 0x18
-	::System::Single Field_1_6; // 0x20
-	::UnityEngine::Vector3 Field_1_2; // 0x24
-	::System::Single Field_1_7; // 0x30
-	::UnityEngine::Vector3 Field_1_3; // 0x34
-	::UnityEngine::Quaternion Field_1_4; // 0x40
-	::UnityEngine::Quaternion Field_1_5; // 0x50
+	::RPG::Client::Prop::DuelChimeraProxy* Field_1_0; // 0x10
+	::RPG::Client::Prop::DuelChimeraProxy* Field_1_1; // 0x18
+	::UnityEngine::Quaternion Field_1_2; // 0x20
+	::UnityEngine::Vector3 Field_1_3; // 0x30
+	::UnityEngine::Quaternion Field_1_4; // 0x3C
+	::System::Single Field_1_5; // 0x4C
+	::System::Single Field_1_6; // 0x50
+	::UnityEngine::Vector3 Field_1_7; // 0x54
 
 	::System::Void _ctor(::RPG::Client::Prop::DuelChimeraProxy* a1, ::RPG::Client::Prop::DuelChimeraProxy* a2, ::System::Single a3)
 	{

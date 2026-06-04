@@ -7,14 +7,14 @@ namespace System { class String; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTTCPMESSAGELOG_READ_OFFSET UNITYSDK_OFFSET(0x209D190)
-#define HDG_RDTTCPMESSAGELOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x209D100)
-#define HDG_RDTTCPMESSAGELOG_WRITE_OFFSET UNITYSDK_OFFSET(0x209D130)
-#define HDG_RDTTCPMESSAGELOG__CTOR_OFFSET UNITYSDK_OFFSET(0x209D0F0)
+#define HDG_RDTTCPMESSAGELOG_READ_OFFSET UNITYSDK_OFFSET(0x375D470)
+#define HDG_RDTTCPMESSAGELOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x375D3E0)
+#define HDG_RDTTCPMESSAGELOG_WRITE_OFFSET UNITYSDK_OFFSET(0x375D410)
+#define HDG_RDTTCPMESSAGELOG__CTOR_OFFSET UNITYSDK_OFFSET(0x3755730)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtTcpMessageLog_TypeDefinitionIndex = 43798;
+	inline static constexpr unsigned int rdtTcpMessageLog_TypeDefinitionIndex = 44340;
 
 	struct alignas(8) rdtTcpMessageLog
 	{
@@ -22,9 +22,9 @@ namespace Hdg
 		::System::String* m_stackTrace; // 0x18
 		::UnityEngine::LogType m_logType; // 0x20
 
-		::System::Void _ctor(::System::String* message, ::System::String* stackTrace, ::UnityEngine::LogType logType)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::UnityEngine::LogType a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::UnityEngine::LogType))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGELOG__CTOR_OFFSET))(this, message, stackTrace, logType);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::UnityEngine::LogType))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGELOG__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::String* ToString()
@@ -32,14 +32,14 @@ namespace Hdg
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGELOG_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Void Write(::System::IO::BinaryWriter* w)
+		::System::Void Write(::System::IO::BinaryWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGELOG_WRITE_OFFSET))(this, w);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGELOG_WRITE_OFFSET))(this, a1);
 		}
 
-		::System::Void Read(::System::IO::BinaryReader* r)
+		::System::Void Read(::System::IO::BinaryReader* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGELOG_READ_OFFSET))(this, r);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGELOG_READ_OFFSET))(this, a1);
 		}
 	};
 }

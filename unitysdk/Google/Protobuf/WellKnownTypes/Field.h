@@ -14,65 +14,65 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Google::Protobuf::WellKnownTypes { class Option; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x197A9630)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_CLONE_OFFSET UNITYSDK_OFFSET(0x197A8BA0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x197A8E70)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_EQUALS_OFFSET UNITYSDK_OFFSET(0x197A8E10)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x197A9000)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_CARDINALITY_OFFSET UNITYSDK_OFFSET(0x197A8C10)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_DEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x197A8DB0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x197A8760)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_JSONNAME_OFFSET UNITYSDK_OFFSET(0x197A8D50)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_KIND_OFFSET UNITYSDK_OFFSET(0x197A8BF0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_NAME_OFFSET UNITYSDK_OFFSET(0x197A8C50)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_NUMBER_OFFSET UNITYSDK_OFFSET(0x197A8C30)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_ONEOFINDEX_OFFSET UNITYSDK_OFFSET(0x197A8D10)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_PACKED_OFFSET UNITYSDK_OFFSET(0x197A8D30)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x197A8700)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_TYPEURL_OFFSET UNITYSDK_OFFSET(0x197A8CB0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x197A9F70)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x197A9D60)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x197A88E0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_CARDINALITY_OFFSET UNITYSDK_OFFSET(0x197A8C20)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_DEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x197A8DC0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_JSONNAME_OFFSET UNITYSDK_OFFSET(0x197A8D60)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_KIND_OFFSET UNITYSDK_OFFSET(0x197A8C00)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_NAME_OFFSET UNITYSDK_OFFSET(0x197A8C60)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_NUMBER_OFFSET UNITYSDK_OFFSET(0x197A8C40)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_ONEOFINDEX_OFFSET UNITYSDK_OFFSET(0x197A8D20)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_PACKED_OFFSET UNITYSDK_OFFSET(0x197A8D40)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_TYPEURL_OFFSET UNITYSDK_OFFSET(0x197A8CC0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x197A9310)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_WRITETO_OFFSET UNITYSDK_OFFSET(0x197A9370)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD__CCTOR_OFFSET UNITYSDK_OFFSET(0x197AA220)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD__CTOR_1_OFFSET UNITYSDK_OFFSET(0x197A89C0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x197A8940)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1A38DD10)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_CLONE_OFFSET UNITYSDK_OFFSET(0x1A38D290)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1A38D560)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A38D500)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A38D6F0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_CARDINALITY_OFFSET UNITYSDK_OFFSET(0x1A38D300)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_DEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x1A38D4A0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1A38CE50)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_JSONNAME_OFFSET UNITYSDK_OFFSET(0x1A38D440)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_KIND_OFFSET UNITYSDK_OFFSET(0x1A38D2E0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1A38D340)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_NUMBER_OFFSET UNITYSDK_OFFSET(0x1A38D320)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_ONEOFINDEX_OFFSET UNITYSDK_OFFSET(0x1A38D400)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_PACKED_OFFSET UNITYSDK_OFFSET(0x1A38D420)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1A38CDF0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_TYPEURL_OFFSET UNITYSDK_OFFSET(0x1A38D3A0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1A38E650)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1A38E440)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1A38CFD0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_CARDINALITY_OFFSET UNITYSDK_OFFSET(0x1A38D310)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_DEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x1A38D4B0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_JSONNAME_OFFSET UNITYSDK_OFFSET(0x1A38D450)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_KIND_OFFSET UNITYSDK_OFFSET(0x1A38D2F0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1A38D350)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_NUMBER_OFFSET UNITYSDK_OFFSET(0x1A38D330)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_ONEOFINDEX_OFFSET UNITYSDK_OFFSET(0x1A38D410)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_PACKED_OFFSET UNITYSDK_OFFSET(0x1A38D430)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_TYPEURL_OFFSET UNITYSDK_OFFSET(0x1A38D3B0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A38D9F0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1A38DA50)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A38E900)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A38D0B0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A38D030)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int Field_TypeDefinitionIndex = 6242;
+	inline static constexpr unsigned int Field_TypeDefinitionIndex = 5444;
 
 	class Field : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Field*>** StaticGet__parser()
-		{
-			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Field*>**)Il2CppClass::FromTypeDefinitionIndex(Field_TypeDefinitionIndex)->GetStaticField(0x7110);
-		}
 		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::WellKnownTypes::Option*>** StaticGet__repeated_options_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::WellKnownTypes::Option*>**)Il2CppClass::FromTypeDefinitionIndex(Field_TypeDefinitionIndex)->GetStaticField(0x7118);
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::WellKnownTypes::Option*>**)Il2CppClass::FromTypeDefinitionIndex(Field_TypeDefinitionIndex)->GetStaticField(0x3CA40);
 		}
-		::System::String* defaultValue_; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::WellKnownTypes::Option*>* options_; // 0x18
-		::System::String* jsonName_; // 0x20
+		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Field*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Field*>**)Il2CppClass::FromTypeDefinitionIndex(Field_TypeDefinitionIndex)->GetStaticField(0x3CA48);
+		}
+		::System::String* jsonName_; // 0x10
+		::System::String* defaultValue_; // 0x18
+		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::WellKnownTypes::Option*>* options_; // 0x20
 		::System::String* name_; // 0x28
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x30
 		::System::String* typeUrl_; // 0x38
-		::Google::Protobuf::WellKnownTypes::Field_Types_Cardinality cardinality_; // 0x40
-		::Google::Protobuf::WellKnownTypes::Field_Types_Kind kind_; // 0x44
-		::System::Boolean packed_; // 0x48
-		::System::Int32 number_; // 0x4C
+		::Google::Protobuf::WellKnownTypes::Field_Types_Kind kind_; // 0x40
+		::System::Int32 number_; // 0x44
+		::Google::Protobuf::WellKnownTypes::Field_Types_Cardinality cardinality_; // 0x48
+		::System::Boolean packed_; // 0x4C
 		::System::Int32 oneofIndex_; // 0x50
 
 		::System::Void _ctor()
@@ -80,9 +80,9 @@ namespace Google::Protobuf::WellKnownTypes
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::Google::Protobuf::WellKnownTypes::Field* other)
+		::System::Void _ctor_1(::Google::Protobuf::WellKnownTypes::Field* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::Field*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD__CTOR_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::Field*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD__CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -115,9 +115,9 @@ namespace Google::Protobuf::WellKnownTypes
 			return ((::Google::Protobuf::WellKnownTypes::Field_Types_Kind(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_KIND_OFFSET))(this);
 		}
 
-		::System::Void set_Kind(::Google::Protobuf::WellKnownTypes::Field_Types_Kind value)
+		::System::Void set_Kind(::Google::Protobuf::WellKnownTypes::Field_Types_Kind a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::Field_Types_Kind))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_KIND_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::Field_Types_Kind))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_KIND_OFFSET))(this, a1);
 		}
 
 		::Google::Protobuf::WellKnownTypes::Field_Types_Cardinality get_Cardinality()
@@ -125,9 +125,9 @@ namespace Google::Protobuf::WellKnownTypes
 			return ((::Google::Protobuf::WellKnownTypes::Field_Types_Cardinality(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_CARDINALITY_OFFSET))(this);
 		}
 
-		::System::Void set_Cardinality(::Google::Protobuf::WellKnownTypes::Field_Types_Cardinality value)
+		::System::Void set_Cardinality(::Google::Protobuf::WellKnownTypes::Field_Types_Cardinality a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::Field_Types_Cardinality))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_CARDINALITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::Field_Types_Cardinality))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_CARDINALITY_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_Number()
@@ -135,9 +135,9 @@ namespace Google::Protobuf::WellKnownTypes
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_NUMBER_OFFSET))(this);
 		}
 
-		::System::Void set_Number(::System::Int32 value)
+		::System::Void set_Number(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_NUMBER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_NUMBER_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Name()
@@ -145,9 +145,9 @@ namespace Google::Protobuf::WellKnownTypes
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Void set_Name(::System::String* value)
+		::System::Void set_Name(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_NAME_OFFSET))(this, a1);
 		}
 
 		::System::String* get_TypeUrl()
@@ -155,9 +155,9 @@ namespace Google::Protobuf::WellKnownTypes
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_TYPEURL_OFFSET))(this);
 		}
 
-		::System::Void set_TypeUrl(::System::String* value)
+		::System::Void set_TypeUrl(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_TYPEURL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_TYPEURL_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_OneofIndex()
@@ -165,9 +165,9 @@ namespace Google::Protobuf::WellKnownTypes
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_ONEOFINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_OneofIndex(::System::Int32 value)
+		::System::Void set_OneofIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_ONEOFINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_ONEOFINDEX_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_Packed()
@@ -175,9 +175,9 @@ namespace Google::Protobuf::WellKnownTypes
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_PACKED_OFFSET))(this);
 		}
 
-		::System::Void set_Packed(::System::Boolean value)
+		::System::Void set_Packed(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_PACKED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_PACKED_OFFSET))(this, a1);
 		}
 
 		::System::String* get_JsonName()
@@ -185,9 +185,9 @@ namespace Google::Protobuf::WellKnownTypes
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_JSONNAME_OFFSET))(this);
 		}
 
-		::System::Void set_JsonName(::System::String* value)
+		::System::Void set_JsonName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_JSONNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_JSONNAME_OFFSET))(this, a1);
 		}
 
 		::System::String* get_DefaultValue()
@@ -195,19 +195,19 @@ namespace Google::Protobuf::WellKnownTypes
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_GET_DEFAULTVALUE_OFFSET))(this);
 		}
 
-		::System::Void set_DefaultValue(::System::String* value)
+		::System::Void set_DefaultValue(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_DEFAULTVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_SET_DEFAULTVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::System::Object* other)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::Google::Protobuf::WellKnownTypes::Field* other)
+		::System::Boolean Equals_1(::Google::Protobuf::WellKnownTypes::Field* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::Field*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::Field*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -220,9 +220,9 @@ namespace Google::Protobuf::WellKnownTypes
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Void WriteTo(::Google::Protobuf::CodedOutputStream* output)
+		::System::Void WriteTo(::Google::Protobuf::CodedOutputStream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_WRITETO_OFFSET))(this, output);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_WRITETO_OFFSET))(this, a1);
 		}
 
 		::System::Int32 CalculateSize()
@@ -230,14 +230,14 @@ namespace Google::Protobuf::WellKnownTypes
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_CALCULATESIZE_OFFSET))(this);
 		}
 
-		::System::Void MergeFrom(::Google::Protobuf::WellKnownTypes::Field* other)
+		::System::Void MergeFrom(::Google::Protobuf::WellKnownTypes::Field* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::Field*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_MERGEFROM_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::Field*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_MERGEFROM_OFFSET))(this, a1);
 		}
 
-		::System::Void MergeFrom_1(::Google::Protobuf::CodedInputStream* input)
+		::System::Void MergeFrom_1(::Google::Protobuf::CodedInputStream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_MERGEFROM_1_OFFSET))(this, input);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELD_MERGEFROM_1_OFFSET))(this, a1);
 		}
 	};
 }

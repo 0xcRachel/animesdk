@@ -6,36 +6,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x17888DA0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17888DF0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE_INVOKE_OFFSET UNITYSDK_OFFSET(0x17888AB0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x17888A90)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19598A00)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19598A50)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE_INVOKE_OFFSET UNITYSDK_OFFSET(0x195989F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x19598980)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRRenderModels__FreeTexture_TypeDefinitionIndex = 35906;
+	inline static constexpr unsigned int IVRRenderModels__FreeTexture_TypeDefinitionIndex = 36206;
 
 	class IVRRenderModels__FreeTexture : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::IntPtr pTexture)
+		::System::Void Invoke(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE_INVOKE_OFFSET))(this, pTexture);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::IntPtr pTexture, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::IntPtr a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE_BEGININVOKE_OFFSET))(this, pTexture, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

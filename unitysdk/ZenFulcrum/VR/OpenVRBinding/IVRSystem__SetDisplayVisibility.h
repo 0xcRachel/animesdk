@@ -6,36 +6,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__SETDISPLAYVISIBILITY_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A647490)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__SETDISPLAYVISIBILITY_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A6474E0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__SETDISPLAYVISIBILITY_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A647130)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__SETDISPLAYVISIBILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A647110)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__SETDISPLAYVISIBILITY_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B4D5440)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__SETDISPLAYVISIBILITY_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B4D5490)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__SETDISPLAYVISIBILITY_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4D5430)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__SETDISPLAYVISIBILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D53C0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSystem__SetDisplayVisibility_TypeDefinitionIndex = 35662;
+	inline static constexpr unsigned int IVRSystem__SetDisplayVisibility_TypeDefinitionIndex = 35962;
 
 	class IVRSystem__SetDisplayVisibility : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__SETDISPLAYVISIBILITY__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__SETDISPLAYVISIBILITY__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Invoke(::System::Boolean bIsVisibleOnDesktop)
+		::System::Boolean Invoke(::System::Boolean a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__SETDISPLAYVISIBILITY_INVOKE_OFFSET))(this, bIsVisibleOnDesktop);
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__SETDISPLAYVISIBILITY_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Boolean bIsVisibleOnDesktop, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Boolean a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Boolean, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__SETDISPLAYVISIBILITY_BEGININVOKE_OFFSET))(this, bIsVisibleOnDesktop, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Boolean, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__SETDISPLAYVISIBILITY_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean EndInvoke(::System::IAsyncResult* result)
+		::System::Boolean EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__SETDISPLAYVISIBILITY_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__SETDISPLAYVISIBILITY_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

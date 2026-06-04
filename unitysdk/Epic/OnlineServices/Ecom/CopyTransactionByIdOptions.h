@@ -5,21 +5,21 @@
 namespace Epic::OnlineServices { class EpicAccountId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ECOM_COPYTRANSACTIONBYIDOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x192FFE50)
-#define EPIC_ONLINESERVICES_ECOM_COPYTRANSACTIONBYIDOPTIONS_GET_TRANSACTIONID_OFFSET UNITYSDK_OFFSET(0x192FFE70)
-#define EPIC_ONLINESERVICES_ECOM_COPYTRANSACTIONBYIDOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x192FFE60)
-#define EPIC_ONLINESERVICES_ECOM_COPYTRANSACTIONBYIDOPTIONS_SET_TRANSACTIONID_OFFSET UNITYSDK_OFFSET(0x192FFE80)
-#define EPIC_ONLINESERVICES_ECOM_COPYTRANSACTIONBYIDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x192FFE90)
+#define EPIC_ONLINESERVICES_ECOM_COPYTRANSACTIONBYIDOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19EED0B0)
+#define EPIC_ONLINESERVICES_ECOM_COPYTRANSACTIONBYIDOPTIONS_GET_TRANSACTIONID_OFFSET UNITYSDK_OFFSET(0x19EED0D0)
+#define EPIC_ONLINESERVICES_ECOM_COPYTRANSACTIONBYIDOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19EED0C0)
+#define EPIC_ONLINESERVICES_ECOM_COPYTRANSACTIONBYIDOPTIONS_SET_TRANSACTIONID_OFFSET UNITYSDK_OFFSET(0x19EED0E0)
+#define EPIC_ONLINESERVICES_ECOM_COPYTRANSACTIONBYIDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19EED0F0)
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int CopyTransactionByIdOptions_TypeDefinitionIndex = 42166;
+	inline static constexpr unsigned int CopyTransactionByIdOptions_TypeDefinitionIndex = 42969;
 
 	class CopyTransactionByIdOptions : public ::System::Object
 	{
 	public:
-		::Epic::OnlineServices::EpicAccountId* _LocalUserId_k__BackingField; // 0x10
-		::System::String* _TransactionId_k__BackingField; // 0x18
+		::System::String* _TransactionId_k__BackingField; // 0x10
+		::Epic::OnlineServices::EpicAccountId* _LocalUserId_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -31,9 +31,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYTRANSACTIONBYIDOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYTRANSACTIONBYIDOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYTRANSACTIONBYIDOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_TransactionId()
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYTRANSACTIONBYIDOPTIONS_GET_TRANSACTIONID_OFFSET))(this);
 		}
 
-		::System::Void set_TransactionId(::System::String* value)
+		::System::Void set_TransactionId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYTRANSACTIONBYIDOPTIONS_SET_TRANSACTIONID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYTRANSACTIONBYIDOPTIONS_SET_TRANSACTIONID_OFFSET))(this, a1);
 		}
 	};
 }

@@ -1,31 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-class Class_1_E3A8B05AA1BBEE81;
+class Class_1_1CB8CBC69B962B41;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class JsonEnum; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY_CLEAR_OFFSET UNITYSDK_OFFSET(0x192025C0)
-#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19202660)
-#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19202610)
-#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY_INIT_OFFSET UNITYSDK_OFFSET(0x19202520)
-#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x192026B0)
-#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x192026C0)
+#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY_CLEAR_OFFSET UNITYSDK_OFFSET(0x18734920)
+#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x187349C0)
+#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18734970)
+#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY_INIT_OFFSET UNITYSDK_OFFSET(0x18734880)
+#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x18734A10)
+#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x18734A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntityUseInsertAbility_TypeDefinitionIndex = 52302;
+	inline static constexpr unsigned int LevelEntityUseInsertAbility_TypeDefinitionIndex = 52999;
 
-	class LevelEntityUseInsertAbility : public ::Class_1_9988289E7F8AA214
+	class LevelEntityUseInsertAbility : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* AbilityTargetList; // 0x18
-		::System::String* AbilityName; // 0x20
-		::RPG::GameCore::GameEntity* Target; // 0x28
+		::RPG::GameCore::GameEntity* Target; // 0x20
+		::System::String* AbilityName; // 0x28
 		::Il2CppArray<::RPG::GameCore::JsonEnum*>* CustomFlags; // 0x30
 		::System::Boolean Silence; // 0x38
 
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelEntityUseInsertAbility* Init(::Class_1_E3A8B05AA1BBEE81* insertInstance, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* abilityTargetList, ::Il2CppArray<::RPG::GameCore::JsonEnum*>* customTag)
+		::RPG::GameCore::LevelEntityUseInsertAbility* Init(::Class_1_1CB8CBC69B962B41* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2, ::Il2CppArray<::RPG::GameCore::JsonEnum*>* a3)
 		{
-			return ((::RPG::GameCore::LevelEntityUseInsertAbility*(*)(::PVOID, ::Class_1_E3A8B05AA1BBEE81*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::Il2CppArray<::RPG::GameCore::JsonEnum*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY_INIT_OFFSET))(this, insertInstance, abilityTargetList, customTag);
+			return ((::RPG::GameCore::LevelEntityUseInsertAbility*(*)(::PVOID, ::Class_1_1CB8CBC69B962B41*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::Il2CppArray<::RPG::GameCore::JsonEnum*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Clear()

@@ -9,36 +9,36 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace UnityEngine { class Object; }
 
-#define RPG_CUSTOMRP_SYNCLOADASSETDEL_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A548C60)
-#define RPG_CUSTOMRP_SYNCLOADASSETDEL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A548CD0)
-#define RPG_CUSTOMRP_SYNCLOADASSETDEL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A548620)
-#define RPG_CUSTOMRP_SYNCLOADASSETDEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A548600)
+#define RPG_CUSTOMRP_SYNCLOADASSETDEL_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B3C3690)
+#define RPG_CUSTOMRP_SYNCLOADASSETDEL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B3C3700)
+#define RPG_CUSTOMRP_SYNCLOADASSETDEL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B3C3670)
+#define RPG_CUSTOMRP_SYNCLOADASSETDEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3C35F0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int SyncLoadAssetDel_TypeDefinitionIndex = 35263;
+	inline static constexpr unsigned int SyncLoadAssetDel_TypeDefinitionIndex = 35563;
 
 	class SyncLoadAssetDel : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_SYNCLOADASSETDEL__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_SYNCLOADASSETDEL__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Object* Invoke(::System::String* assetShortName, ::System::Type* assetType, ::System::Boolean cancelOptOnFail)
+		::UnityEngine::Object* Invoke(::System::String* a1, ::System::Type* a2, ::System::Boolean a3)
 		{
-			return ((::UnityEngine::Object*(*)(::PVOID, ::System::String*, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_SYNCLOADASSETDEL_INVOKE_OFFSET))(this, assetShortName, assetType, cancelOptOnFail);
+			return ((::UnityEngine::Object*(*)(::PVOID, ::System::String*, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_SYNCLOADASSETDEL_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* assetShortName, ::System::Type* assetType, ::System::Boolean cancelOptOnFail, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::Type* a2, ::System::Boolean a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::Type*, ::System::Boolean, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_SYNCLOADASSETDEL_BEGININVOKE_OFFSET))(this, assetShortName, assetType, cancelOptOnFail, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::Type*, ::System::Boolean, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_SYNCLOADASSETDEL_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::UnityEngine::Object* EndInvoke(::System::IAsyncResult* result)
+		::UnityEngine::Object* EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::UnityEngine::Object*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_SYNCLOADASSETDEL_ENDINVOKE_OFFSET))(this, result);
+			return ((::UnityEngine::Object*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_SYNCLOADASSETDEL_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

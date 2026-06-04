@@ -4,14 +4,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PredicateConfig; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETSORTBYPREDICATE_METHOD_3_7458ED9591F1A647_OFFSET UNITYSDK_OFFSET(0x17135B50)
-#define RPG_GAMECORE_TARGETSORTBYPREDICATE_METHOD_3_89BA15031B47B4AB_OFFSET UNITYSDK_OFFSET(0x17134590)
-#define RPG_GAMECORE_TARGETSORTBYPREDICATE__CTOR_OFFSET UNITYSDK_OFFSET(0x17134570)
+#define RPG_GAMECORE_TARGETSORTBYPREDICATE_METHOD_3_47CB8CA94423044A_OFFSET UNITYSDK_OFFSET(0x1ACE3020)
+#define RPG_GAMECORE_TARGETSORTBYPREDICATE_METHOD_3_4AC0256DFFBB97E2_OFFSET UNITYSDK_OFFSET(0x1ACE5150)
+#define RPG_GAMECORE_TARGETSORTBYPREDICATE_METHOD_3_7458ED9591F1A647_OFFSET UNITYSDK_OFFSET(0x1ACE50E0)
+#define RPG_GAMECORE_TARGETSORTBYPREDICATE_METHOD_3_89BA15031B47B4AB_OFFSET UNITYSDK_OFFSET(0x1ACD57A0)
+#define RPG_GAMECORE_TARGETSORTBYPREDICATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACD5780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetSortByPredicate_TypeDefinitionIndex = 22972;
+	inline static constexpr unsigned int TargetSortByPredicate_TypeDefinitionIndex = 22663;
 
 	class TargetSortByPredicate : public ::RPG::GameCore::TargetSeqOperation
 	{
@@ -32,6 +35,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_3_89BA15031B47B4AB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetSortByPredicate* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetSortByPredicate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYPREDICATE_METHOD_3_89BA15031B47B4AB_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_47CB8CA94423044A(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetSortByPredicate*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSortByPredicate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYPREDICATE_METHOD_3_47CB8CA94423044A_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_4AC0256DFFBB97E2(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetSortByPredicate* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSortByPredicate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYPREDICATE_METHOD_3_4AC0256DFFBB97E2_OFFSET))(a1, a2);
 		}
 	};
 }

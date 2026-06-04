@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_867B6CE75953535A;
-class Class_2_43D1AA62A6D00FFF;
+class Class_1_D33B7D6901AE39E9;
+class Class_2_80F8710F847F1248;
 class Class_3_F4528A5C0F861AF2;
 namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 
-#define CLASS_1_8A9969DF5F01548D_1_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1130A260)
-#define CLASS_1_8A9969DF5F01548D_1_METHOD_1_9C95DA85A4618543_OFFSET UNITYSDK_OFFSET(0x1130ADE0)
-#define CLASS_1_8A9969DF5F01548D_1_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1130AE50)
-#define CLASS_1_8A9969DF5F01548D_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1130A240)
+#define CLASS_1_8A9969DF5F01548D_1_EXECUTE_OFFSET UNITYSDK_OFFSET(0x134C4890)
+#define CLASS_1_8A9969DF5F01548D_1_METHOD_1_51EAE3050A9A8BC9_OFFSET UNITYSDK_OFFSET(0x134C53C0)
+#define CLASS_1_8A9969DF5F01548D_1_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x134C5430)
+#define CLASS_1_8A9969DF5F01548D_1__CTOR_OFFSET UNITYSDK_OFFSET(0x134C4860)
 
-inline static constexpr unsigned int Class_1_8A9969DF5F01548D_1_TypeDefinitionIndex = 70971;
+inline static constexpr unsigned int Class_1_8A9969DF5F01548D_1_TypeDefinitionIndex = 71793;
 
 class Class_1_8A9969DF5F01548D_1 : public ::System::Object
 {
 public:
-	::Class_3_F4528A5C0F861AF2* Field_1_1; // 0x10
-	::Class_2_43D1AA62A6D00FFF* Field_1_0; // 0x18
+	::Class_2_80F8710F847F1248* Field_1_0; // 0x10
+	::Class_3_F4528A5C0F861AF2* Field_1_1; // 0x18
 
-	::System::Void _ctor(::Class_1_867B6CE75953535A* a1, ::Class_3_F4528A5C0F861AF2* a2)
+	::System::Void _ctor(::Class_1_D33B7D6901AE39E9* a1, ::Class_3_F4528A5C0F861AF2* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_867B6CE75953535A*, ::Class_3_F4528A5C0F861AF2*))((::PBYTE)hIl2Cpp + CLASS_1_8A9969DF5F01548D_1__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_D33B7D6901AE39E9*, ::Class_3_F4528A5C0F861AF2*))((::PBYTE)hIl2Cpp + CLASS_1_8A9969DF5F01548D_1__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Execute()
@@ -35,8 +35,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8A9969DF5F01548D_1_TEARDOWN_OFFSET))(this);
 	}
 
-	::System::Void Method_1_9C95DA85A4618543(::RPG::Client::LittleGame::ElfRestaurantGameEntity* a1)
+	::System::Void Method_1_51EAE3050A9A8BC9(::RPG::Client::LittleGame::ElfRestaurantGameEntity* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ElfRestaurantGameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_8A9969DF5F01548D_1_METHOD_1_9C95DA85A4618543_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ElfRestaurantGameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_8A9969DF5F01548D_1_METHOD_1_51EAE3050A9A8BC9_OFFSET))(this, a1);
 	}
 };

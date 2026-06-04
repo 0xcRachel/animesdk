@@ -6,34 +6,34 @@ class Class_1_C74059A83466814F;
 namespace RPG::Client { class ItemData; }
 namespace RPG::Client { class RogueBuffData; }
 
-#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_GET_ALREADYHAVE_OFFSET UNITYSDK_OFFSET(0x1772BCF0)
-#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_GET_AVAILABLE_OFFSET UNITYSDK_OFFSET(0x1772BCD0)
-#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_GET_CURRENCYITEM_OFFSET UNITYSDK_OFFSET(0x1772BC90)
-#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_GET_ORIGINCURRENCYITEM_OFFSET UNITYSDK_OFFSET(0x1772BCB0)
-#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_GET_ROGUEBUFFDATA_OFFSET UNITYSDK_OFFSET(0x1772BC70)
-#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_SET_ALREADYHAVE_OFFSET UNITYSDK_OFFSET(0x1772BD00)
-#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_SET_AVAILABLE_OFFSET UNITYSDK_OFFSET(0x1772BCE0)
-#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_SET_CURRENCYITEM_OFFSET UNITYSDK_OFFSET(0x1772BCA0)
-#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_SET_ORIGINCURRENCYITEM_OFFSET UNITYSDK_OFFSET(0x1772BCC0)
-#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_SET_ROGUEBUFFDATA_OFFSET UNITYSDK_OFFSET(0x1772BC80)
-#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1772B180)
+#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_GET_ALREADYHAVE_OFFSET UNITYSDK_OFFSET(0x191CBA90)
+#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_GET_AVAILABLE_OFFSET UNITYSDK_OFFSET(0x191CBA70)
+#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_GET_CURRENCYITEM_OFFSET UNITYSDK_OFFSET(0x191CBA30)
+#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_GET_ORIGINCURRENCYITEM_OFFSET UNITYSDK_OFFSET(0x191CBA50)
+#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_GET_ROGUEBUFFDATA_OFFSET UNITYSDK_OFFSET(0x191CBA10)
+#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_SET_ALREADYHAVE_OFFSET UNITYSDK_OFFSET(0x191CBAA0)
+#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_SET_AVAILABLE_OFFSET UNITYSDK_OFFSET(0x191CBA80)
+#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_SET_CURRENCYITEM_OFFSET UNITYSDK_OFFSET(0x191CBA40)
+#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_SET_ORIGINCURRENCYITEM_OFFSET UNITYSDK_OFFSET(0x191CBA60)
+#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_SET_ROGUEBUFFDATA_OFFSET UNITYSDK_OFFSET(0x191CBA20)
+#define RPG_CLIENT_ROGUEBUFFSHOPITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x191CAC30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueBuffShopItemData_TypeDefinitionIndex = 62032;
+	inline static constexpr unsigned int RogueBuffShopItemData_TypeDefinitionIndex = 62965;
 
 	class RogueBuffShopItemData : public ::System::Object
 	{
 	public:
-		::RPG::Client::ItemData* _CurrencyItem_k__BackingField; // 0x10
-		::RPG::Client::ItemData* _OriginCurrencyItem_k__BackingField; // 0x18
-		::RPG::Client::RogueBuffData* _RogueBuffData_k__BackingField; // 0x20
-		::System::Boolean _AlreadyHave_k__BackingField; // 0x28
-		::System::Boolean _Available_k__BackingField; // 0x29
+		::RPG::Client::ItemData* _OriginCurrencyItem_k__BackingField; // 0x10
+		::RPG::Client::RogueBuffData* _RogueBuffData_k__BackingField; // 0x18
+		::RPG::Client::ItemData* _CurrencyItem_k__BackingField; // 0x20
+		::System::Boolean _Available_k__BackingField; // 0x28
+		::System::Boolean _AlreadyHave_k__BackingField; // 0x29
 
-		::System::Void _ctor(::System::UInt32 buffID, ::System::UInt32 buffLevel, ::Class_1_C74059A83466814F* currency, ::Class_1_C74059A83466814F* originCurrency, ::System::Boolean isAvailable, ::System::Boolean alreadyHave)
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::Class_1_C74059A83466814F* a3, ::Class_1_C74059A83466814F* a4, ::System::Boolean a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::Class_1_C74059A83466814F*, ::Class_1_C74059A83466814F*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEBUFFSHOPITEMDATA__CTOR_OFFSET))(this, buffID, buffLevel, currency, originCurrency, isAvailable, alreadyHave);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::Class_1_C74059A83466814F*, ::Class_1_C74059A83466814F*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEBUFFSHOPITEMDATA__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::RPG::Client::RogueBuffData* get_RogueBuffData()
@@ -41,9 +41,9 @@ namespace RPG::Client
 			return ((::RPG::Client::RogueBuffData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_GET_ROGUEBUFFDATA_OFFSET))(this);
 		}
 
-		::System::Void set_RogueBuffData(::RPG::Client::RogueBuffData* value)
+		::System::Void set_RogueBuffData(::RPG::Client::RogueBuffData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueBuffData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_SET_ROGUEBUFFDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueBuffData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_SET_ROGUEBUFFDATA_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ItemData* get_CurrencyItem()
@@ -51,9 +51,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ItemData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_GET_CURRENCYITEM_OFFSET))(this);
 		}
 
-		::System::Void set_CurrencyItem(::RPG::Client::ItemData* value)
+		::System::Void set_CurrencyItem(::RPG::Client::ItemData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_SET_CURRENCYITEM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_SET_CURRENCYITEM_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ItemData* get_OriginCurrencyItem()
@@ -61,9 +61,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ItemData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_GET_ORIGINCURRENCYITEM_OFFSET))(this);
 		}
 
-		::System::Void set_OriginCurrencyItem(::RPG::Client::ItemData* value)
+		::System::Void set_OriginCurrencyItem(::RPG::Client::ItemData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_SET_ORIGINCURRENCYITEM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_SET_ORIGINCURRENCYITEM_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_Available()
@@ -71,9 +71,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_GET_AVAILABLE_OFFSET))(this);
 		}
 
-		::System::Void set_Available(::System::Boolean value)
+		::System::Void set_Available(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_SET_AVAILABLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_SET_AVAILABLE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_AlreadyHave()
@@ -81,9 +81,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_GET_ALREADYHAVE_OFFSET))(this);
 		}
 
-		::System::Void set_AlreadyHave(::System::Boolean value)
+		::System::Void set_AlreadyHave(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_SET_ALREADYHAVE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEBUFFSHOPITEMDATA_SET_ALREADYHAVE_OFFSET))(this, a1);
 		}
 	};
 }

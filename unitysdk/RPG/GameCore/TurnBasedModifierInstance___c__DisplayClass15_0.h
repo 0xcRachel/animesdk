@@ -5,12 +5,12 @@
 
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x155617A0)
-#define RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE___C__DISPLAYCLASS15_0___TRYHIDEEFFECTINSKILLUSE_B__0_OFFSET UNITYSDK_OFFSET(0x15574C40)
+#define RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x127D6500)
+#define RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE___C__DISPLAYCLASS15_0___TRYHIDEEFFECTINSKILLUSE_B__0_OFFSET UNITYSDK_OFFSET(0x127E7F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierInstance___c__DisplayClass15_0_TypeDefinitionIndex = 51477;
+	inline static constexpr unsigned int TurnBasedModifierInstance___c__DisplayClass15_0_TypeDefinitionIndex = 52145;
 
 	class TurnBasedModifierInstance___c__DisplayClass15_0 : public ::System::Object
 	{

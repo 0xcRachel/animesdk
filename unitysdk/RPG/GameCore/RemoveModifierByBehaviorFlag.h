@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_REMOVEMODIFIERBYBEHAVIORFLAG_METHOD_3_0974556B08999E79_OFFSET UNITYSDK_OFFSET(0x19028C40)
-#define RPG_GAMECORE_REMOVEMODIFIERBYBEHAVIORFLAG_METHOD_3_E4C9DC360258772A_OFFSET UNITYSDK_OFFSET(0x19028CC0)
-#define RPG_GAMECORE_REMOVEMODIFIERBYBEHAVIORFLAG__CTOR_OFFSET UNITYSDK_OFFSET(0x19028C90)
+#define RPG_GAMECORE_REMOVEMODIFIERBYBEHAVIORFLAG_METHOD_3_0B705774291E4433_OFFSET UNITYSDK_OFFSET(0x1A2E8540)
+#define RPG_GAMECORE_REMOVEMODIFIERBYBEHAVIORFLAG_METHOD_3_E936F25DE8D56D42_OFFSET UNITYSDK_OFFSET(0x1A2E84C0)
+#define RPG_GAMECORE_REMOVEMODIFIERBYBEHAVIORFLAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2E8510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveModifierByBehaviorFlag_TypeDefinitionIndex = 22015;
+	inline static constexpr unsigned int RemoveModifierByBehaviorFlag_TypeDefinitionIndex = 21827;
 
 	class RemoveModifierByBehaviorFlag : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEMODIFIERBYBEHAVIORFLAG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0974556B08999E79(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveModifierByBehaviorFlag*& a2)
+		static ::System::Void Method_3_E936F25DE8D56D42(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveModifierByBehaviorFlag*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveModifierByBehaviorFlag*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEMODIFIERBYBEHAVIORFLAG_METHOD_3_0974556B08999E79_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveModifierByBehaviorFlag*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEMODIFIERBYBEHAVIORFLAG_METHOD_3_E936F25DE8D56D42_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E4C9DC360258772A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveModifierByBehaviorFlag* a2)
+		static ::System::Void Method_3_0B705774291E4433(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveModifierByBehaviorFlag* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveModifierByBehaviorFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEMODIFIERBYBEHAVIORFLAG_METHOD_3_E4C9DC360258772A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveModifierByBehaviorFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEMODIFIERBYBEHAVIORFLAG_METHOD_3_0B705774291E4433_OFFSET))(a1, a2);
 		}
 	};
 }

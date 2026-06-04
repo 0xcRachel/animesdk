@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MUSEUMGETFUNDNOTIFYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1374AC50)
+#define RPG_CLIENT_MUSEUMGETFUNDNOTIFYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1873EF30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumGetFundNotifyParam_TypeDefinitionIndex = 61110;
+	inline static constexpr unsigned int MuseumGetFundNotifyParam_TypeDefinitionIndex = 62034;
 
 	class MuseumGetFundNotifyParam : public ::System::Object
 	{

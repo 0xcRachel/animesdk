@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SHOWGUIDEEVOLVETALK_METHOD_3_08A49B504AFD4FCD_OFFSET UNITYSDK_OFFSET(0x193A9AF0)
-#define RPG_GAMECORE_SHOWGUIDEEVOLVETALK_METHOD_3_E4DDE1146AF0759A_OFFSET UNITYSDK_OFFSET(0x193A9B70)
-#define RPG_GAMECORE_SHOWGUIDEEVOLVETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x193A9B40)
+#define RPG_GAMECORE_SHOWGUIDEEVOLVETALK_METHOD_3_6C776FA3A13698A0_OFFSET UNITYSDK_OFFSET(0x1A003520)
+#define RPG_GAMECORE_SHOWGUIDEEVOLVETALK_METHOD_3_997526CEF10C7817_OFFSET UNITYSDK_OFFSET(0x1A0034A0)
+#define RPG_GAMECORE_SHOWGUIDEEVOLVETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0034F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowGuideEvolveTalk_TypeDefinitionIndex = 23342;
+	inline static constexpr unsigned int ShowGuideEvolveTalk_TypeDefinitionIndex = 23001;
 
 	class ShowGuideEvolveTalk : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDEEVOLVETALK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_08A49B504AFD4FCD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowGuideEvolveTalk*& a2)
+		static ::System::Void Method_3_997526CEF10C7817(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowGuideEvolveTalk*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideEvolveTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDEEVOLVETALK_METHOD_3_08A49B504AFD4FCD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideEvolveTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDEEVOLVETALK_METHOD_3_997526CEF10C7817_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E4DDE1146AF0759A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowGuideEvolveTalk* a2)
+		static ::System::Void Method_3_6C776FA3A13698A0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowGuideEvolveTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideEvolveTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDEEVOLVETALK_METHOD_3_E4DDE1146AF0759A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideEvolveTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDEEVOLVETALK_METHOD_3_6C776FA3A13698A0_OFFSET))(a1, a2);
 		}
 	};
 }

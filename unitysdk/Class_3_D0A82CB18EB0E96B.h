@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetAnimatorParameterWithTransition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D0A82CB18EB0E96B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFF3DA20)
-#define CLASS_3_D0A82CB18EB0E96B__CTOR_OFFSET UNITYSDK_OFFSET(0xFF3D970)
+#define CLASS_3_D0A82CB18EB0E96B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13F46020)
+#define CLASS_3_D0A82CB18EB0E96B__CTOR_OFFSET UNITYSDK_OFFSET(0x13F45F70)
 
-inline static constexpr unsigned int Class_3_D0A82CB18EB0E96B_TypeDefinitionIndex = 51029;
+inline static constexpr unsigned int Class_3_D0A82CB18EB0E96B_TypeDefinitionIndex = 51699;
 
 class Class_3_D0A82CB18EB0E96B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetAnimatorParameterWithTransition*>
 {

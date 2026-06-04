@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ElfHeadWaiterTalkConfigItem; }
 
-#define RPG_GAMECORE_ELFHEADWAITERTALKCONFIG_METHOD_2_50BC829834E3C8D3_OFFSET UNITYSDK_OFFSET(0x1914FA20)
-#define RPG_GAMECORE_ELFHEADWAITERTALKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1914FB70)
+#define RPG_GAMECORE_ELFHEADWAITERTALKCONFIG_METHOD_2_50BC829834E3C8D3_OFFSET UNITYSDK_OFFSET(0x19D6B9E0)
+#define RPG_GAMECORE_ELFHEADWAITERTALKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19D6BB30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfHeadWaiterTalkConfig_TypeDefinitionIndex = 17532;
+	inline static constexpr unsigned int ElfHeadWaiterTalkConfig_TypeDefinitionIndex = 17558;
 
 	class ElfHeadWaiterTalkConfig : public ::RPG::GameCore::JsonConfig
 	{

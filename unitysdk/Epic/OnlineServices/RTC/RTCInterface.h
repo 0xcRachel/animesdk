@@ -18,27 +18,27 @@ namespace Epic::OnlineServices::RTC { class SetSettingOptions; }
 namespace Epic::OnlineServices::RTCAudio { class RTCAudioInterface; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ADDNOTIFYDISCONNECTED_OFFSET UNITYSDK_OFFSET(0x19617290)
-#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ADDNOTIFYPARTICIPANTSTATUSCHANGED_OFFSET UNITYSDK_OFFSET(0x19617470)
-#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_BLOCKPARTICIPANT_OFFSET UNITYSDK_OFFSET(0x19617650)
-#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_GETAUDIOINTERFACE_OFFSET UNITYSDK_OFFSET(0x19617810)
-#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_JOINROOM_OFFSET UNITYSDK_OFFSET(0x196178F0)
-#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_LEAVEROOM_OFFSET UNITYSDK_OFFSET(0x19617AB0)
-#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ONBLOCKPARTICIPANTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x19616FA0)
-#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ONDISCONNECTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x19617030)
-#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ONJOINROOMCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x196170C0)
-#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ONLEAVEROOMCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x19617150)
-#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ONPARTICIPANTSTATUSCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x196171E0)
-#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_REMOVENOTIFYDISCONNECTED_OFFSET UNITYSDK_OFFSET(0x19617C70)
-#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_REMOVENOTIFYPARTICIPANTSTATUSCHANGED_OFFSET UNITYSDK_OFFSET(0x19617D50)
-#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_SETROOMSETTING_OFFSET UNITYSDK_OFFSET(0x19617E30)
-#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_SETSETTING_OFFSET UNITYSDK_OFFSET(0x19617F90)
-#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19617280)
-#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x19617270)
+#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ADDNOTIFYDISCONNECTED_OFFSET UNITYSDK_OFFSET(0x1A3D8010)
+#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ADDNOTIFYPARTICIPANTSTATUSCHANGED_OFFSET UNITYSDK_OFFSET(0x1A3D8200)
+#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_BLOCKPARTICIPANT_OFFSET UNITYSDK_OFFSET(0x1A3D83F0)
+#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_GETAUDIOINTERFACE_OFFSET UNITYSDK_OFFSET(0x1A3D85D0)
+#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_JOINROOM_OFFSET UNITYSDK_OFFSET(0x1A3D86B0)
+#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_LEAVEROOM_OFFSET UNITYSDK_OFFSET(0x1A3D8890)
+#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ONBLOCKPARTICIPANTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A3D7CD0)
+#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ONDISCONNECTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A3D7D70)
+#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ONJOINROOMCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A3D7E10)
+#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ONLEAVEROOMCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A3D7EB0)
+#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ONPARTICIPANTSTATUSCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A3D7F50)
+#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_REMOVENOTIFYDISCONNECTED_OFFSET UNITYSDK_OFFSET(0x1A3D8A70)
+#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_REMOVENOTIFYPARTICIPANTSTATUSCHANGED_OFFSET UNITYSDK_OFFSET(0x1A3D8B50)
+#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_SETROOMSETTING_OFFSET UNITYSDK_OFFSET(0x1A3D8C30)
+#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE_SETSETTING_OFFSET UNITYSDK_OFFSET(0x1A3D8D90)
+#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A3D8000)
+#define EPIC_ONLINESERVICES_RTC_RTCINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3D7FF0)
 
 namespace Epic::OnlineServices::RTC
 {
-	inline static constexpr unsigned int RTCInterface_TypeDefinitionIndex = 41551;
+	inline static constexpr unsigned int RTCInterface_TypeDefinitionIndex = 42354;
 
 	class RTCInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -59,24 +59,24 @@ namespace Epic::OnlineServices::RTC
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::UInt64 AddNotifyDisconnected(::Epic::OnlineServices::RTC::AddNotifyDisconnectedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::RTC::OnDisconnectedCallback* completionDelegate)
+		::System::UInt64 AddNotifyDisconnected(::Epic::OnlineServices::RTC::AddNotifyDisconnectedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::RTC::OnDisconnectedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::RTC::AddNotifyDisconnectedOptions*, ::System::Object*, ::Epic::OnlineServices::RTC::OnDisconnectedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ADDNOTIFYDISCONNECTED_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::RTC::AddNotifyDisconnectedOptions*, ::System::Object*, ::Epic::OnlineServices::RTC::OnDisconnectedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ADDNOTIFYDISCONNECTED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyParticipantStatusChanged(::Epic::OnlineServices::RTC::AddNotifyParticipantStatusChangedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::RTC::OnParticipantStatusChangedCallback* completionDelegate)
+		::System::UInt64 AddNotifyParticipantStatusChanged(::Epic::OnlineServices::RTC::AddNotifyParticipantStatusChangedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::RTC::OnParticipantStatusChangedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::RTC::AddNotifyParticipantStatusChangedOptions*, ::System::Object*, ::Epic::OnlineServices::RTC::OnParticipantStatusChangedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ADDNOTIFYPARTICIPANTSTATUSCHANGED_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::RTC::AddNotifyParticipantStatusChangedOptions*, ::System::Object*, ::Epic::OnlineServices::RTC::OnParticipantStatusChangedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ADDNOTIFYPARTICIPANTSTATUSCHANGED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void BlockParticipant(::Epic::OnlineServices::RTC::BlockParticipantOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::RTC::OnBlockParticipantCallback* completionDelegate)
+		::System::Void BlockParticipant(::Epic::OnlineServices::RTC::BlockParticipantOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::RTC::OnBlockParticipantCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTC::BlockParticipantOptions*, ::System::Object*, ::Epic::OnlineServices::RTC::OnBlockParticipantCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_BLOCKPARTICIPANT_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTC::BlockParticipantOptions*, ::System::Object*, ::Epic::OnlineServices::RTC::OnBlockParticipantCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_BLOCKPARTICIPANT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::Epic::OnlineServices::RTCAudio::RTCAudioInterface* GetAudioInterface()
@@ -84,59 +84,59 @@ namespace Epic::OnlineServices::RTC
 			return ((::Epic::OnlineServices::RTCAudio::RTCAudioInterface*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_GETAUDIOINTERFACE_OFFSET))(this);
 		}
 
-		::System::Void JoinRoom(::Epic::OnlineServices::RTC::JoinRoomOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::RTC::OnJoinRoomCallback* completionDelegate)
+		::System::Void JoinRoom(::Epic::OnlineServices::RTC::JoinRoomOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::RTC::OnJoinRoomCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTC::JoinRoomOptions*, ::System::Object*, ::Epic::OnlineServices::RTC::OnJoinRoomCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_JOINROOM_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTC::JoinRoomOptions*, ::System::Object*, ::Epic::OnlineServices::RTC::OnJoinRoomCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_JOINROOM_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void LeaveRoom(::Epic::OnlineServices::RTC::LeaveRoomOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::RTC::OnLeaveRoomCallback* completionDelegate)
+		::System::Void LeaveRoom(::Epic::OnlineServices::RTC::LeaveRoomOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::RTC::OnLeaveRoomCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTC::LeaveRoomOptions*, ::System::Object*, ::Epic::OnlineServices::RTC::OnLeaveRoomCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_LEAVEROOM_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTC::LeaveRoomOptions*, ::System::Object*, ::Epic::OnlineServices::RTC::OnLeaveRoomCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_LEAVEROOM_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RemoveNotifyDisconnected(::System::UInt64 notificationId)
+		::System::Void RemoveNotifyDisconnected(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_REMOVENOTIFYDISCONNECTED_OFFSET))(this, notificationId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_REMOVENOTIFYDISCONNECTED_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyParticipantStatusChanged(::System::UInt64 notificationId)
+		::System::Void RemoveNotifyParticipantStatusChanged(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_REMOVENOTIFYPARTICIPANTSTATUSCHANGED_OFFSET))(this, notificationId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_REMOVENOTIFYPARTICIPANTSTATUSCHANGED_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SetRoomSetting(::Epic::OnlineServices::RTC::SetRoomSettingOptions* options)
+		::Epic::OnlineServices::Result SetRoomSetting(::Epic::OnlineServices::RTC::SetRoomSettingOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::RTC::SetRoomSettingOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_SETROOMSETTING_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::RTC::SetRoomSettingOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_SETROOMSETTING_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SetSetting(::Epic::OnlineServices::RTC::SetSettingOptions* options)
+		::Epic::OnlineServices::Result SetSetting(::Epic::OnlineServices::RTC::SetSettingOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::RTC::SetSettingOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_SETSETTING_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::RTC::SetSettingOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_SETSETTING_OFFSET))(this, a1);
 		}
 
-		static ::System::Void OnBlockParticipantCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnBlockParticipantCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ONBLOCKPARTICIPANTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ONBLOCKPARTICIPANTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnDisconnectedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnDisconnectedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ONDISCONNECTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ONDISCONNECTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnJoinRoomCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnJoinRoomCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ONJOINROOMCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ONJOINROOMCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnLeaveRoomCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnLeaveRoomCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ONLEAVEROOMCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ONLEAVEROOMCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnParticipantStatusChangedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnParticipantStatusChangedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ONPARTICIPANTSTATUSCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_RTCINTERFACE_ONPARTICIPANTSTATUSCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

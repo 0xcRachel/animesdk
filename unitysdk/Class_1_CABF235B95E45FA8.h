@@ -4,25 +4,25 @@
 
 namespace RPG::GameCore { class CakeRaceActionBase; }
 
-#define CLASS_1_CABF235B95E45FA8_GET_ACTION_OFFSET UNITYSDK_OFFSET(0x14CFD300)
-#define CLASS_1_CABF235B95E45FA8_GET_EXECUTEBEFOREBEGINDELAY_OFFSET UNITYSDK_OFFSET(0x14CFD360)
-#define CLASS_1_CABF235B95E45FA8_GET_REMAINEXECUTETIMES_OFFSET UNITYSDK_OFFSET(0x14CFD340)
-#define CLASS_1_CABF235B95E45FA8_GET_SHOWDURATIONMS_OFFSET UNITYSDK_OFFSET(0x14CFD320)
-#define CLASS_1_CABF235B95E45FA8_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x14CFD2B0)
-#define CLASS_1_CABF235B95E45FA8_SET_ACTION_OFFSET UNITYSDK_OFFSET(0x14CFD310)
-#define CLASS_1_CABF235B95E45FA8_SET_EXECUTEBEFOREBEGINDELAY_OFFSET UNITYSDK_OFFSET(0x14CFD370)
-#define CLASS_1_CABF235B95E45FA8_SET_REMAINEXECUTETIMES_OFFSET UNITYSDK_OFFSET(0x14CFD350)
-#define CLASS_1_CABF235B95E45FA8_SET_SHOWDURATIONMS_OFFSET UNITYSDK_OFFSET(0x14CFD330)
-#define CLASS_1_CABF235B95E45FA8__CTOR_OFFSET UNITYSDK_OFFSET(0x14CFD290)
+#define CLASS_1_CABF235B95E45FA8_GET_ACTION_OFFSET UNITYSDK_OFFSET(0x15936540)
+#define CLASS_1_CABF235B95E45FA8_GET_EXECUTEBEFOREBEGINDELAY_OFFSET UNITYSDK_OFFSET(0x159365A0)
+#define CLASS_1_CABF235B95E45FA8_GET_REMAINEXECUTETIMES_OFFSET UNITYSDK_OFFSET(0x15936580)
+#define CLASS_1_CABF235B95E45FA8_GET_SHOWDURATIONMS_OFFSET UNITYSDK_OFFSET(0x15936560)
+#define CLASS_1_CABF235B95E45FA8_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x159364F0)
+#define CLASS_1_CABF235B95E45FA8_SET_ACTION_OFFSET UNITYSDK_OFFSET(0x15936550)
+#define CLASS_1_CABF235B95E45FA8_SET_EXECUTEBEFOREBEGINDELAY_OFFSET UNITYSDK_OFFSET(0x159365B0)
+#define CLASS_1_CABF235B95E45FA8_SET_REMAINEXECUTETIMES_OFFSET UNITYSDK_OFFSET(0x15936590)
+#define CLASS_1_CABF235B95E45FA8_SET_SHOWDURATIONMS_OFFSET UNITYSDK_OFFSET(0x15936570)
+#define CLASS_1_CABF235B95E45FA8__CTOR_OFFSET UNITYSDK_OFFSET(0x159364D0)
 
-inline static constexpr unsigned int Class_1_CABF235B95E45FA8_TypeDefinitionIndex = 34697;
+inline static constexpr unsigned int Class_1_CABF235B95E45FA8_TypeDefinitionIndex = 34980;
 
 class Class_1_CABF235B95E45FA8 : public ::System::Object
 {
 public:
 	::RPG::GameCore::CakeRaceActionBase* _Action_k__BackingField; // 0x10
-	::System::UInt32 _RemainExecuteTimes_k__BackingField; // 0x18
-	::System::Boolean _ExecuteBeforeBeginDelay_k__BackingField; // 0x1C
+	::System::Boolean _ExecuteBeforeBeginDelay_k__BackingField; // 0x18
+	::System::UInt32 _RemainExecuteTimes_k__BackingField; // 0x1C
 	::System::UInt64 _ShowDurationMs_k__BackingField; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::CakeRaceActionBase* a1, ::System::UInt64 a2, ::System::UInt32 a3, ::System::Boolean a4)
@@ -40,9 +40,9 @@ public:
 		return ((::RPG::GameCore::CakeRaceActionBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CABF235B95E45FA8_GET_ACTION_OFFSET))(this);
 	}
 
-	::System::Void set_Action(::RPG::GameCore::CakeRaceActionBase* value)
+	::System::Void set_Action(::RPG::GameCore::CakeRaceActionBase* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::CakeRaceActionBase*))((::PBYTE)hIl2Cpp + CLASS_1_CABF235B95E45FA8_SET_ACTION_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::CakeRaceActionBase*))((::PBYTE)hIl2Cpp + CLASS_1_CABF235B95E45FA8_SET_ACTION_OFFSET))(this, a1);
 	}
 
 	::System::UInt64 get_ShowDurationMs()
@@ -50,9 +50,9 @@ public:
 		return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CABF235B95E45FA8_GET_SHOWDURATIONMS_OFFSET))(this);
 	}
 
-	::System::Void set_ShowDurationMs(::System::UInt64 value)
+	::System::Void set_ShowDurationMs(::System::UInt64 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + CLASS_1_CABF235B95E45FA8_SET_SHOWDURATIONMS_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + CLASS_1_CABF235B95E45FA8_SET_SHOWDURATIONMS_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_RemainExecuteTimes()
@@ -60,9 +60,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CABF235B95E45FA8_GET_REMAINEXECUTETIMES_OFFSET))(this);
 	}
 
-	::System::Void set_RemainExecuteTimes(::System::UInt32 value)
+	::System::Void set_RemainExecuteTimes(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_CABF235B95E45FA8_SET_REMAINEXECUTETIMES_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_CABF235B95E45FA8_SET_REMAINEXECUTETIMES_OFFSET))(this, a1);
 	}
 
 	::System::Boolean get_ExecuteBeforeBeginDelay()
@@ -70,8 +70,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CABF235B95E45FA8_GET_EXECUTEBEFOREBEGINDELAY_OFFSET))(this);
 	}
 
-	::System::Void set_ExecuteBeforeBeginDelay(::System::Boolean value)
+	::System::Void set_ExecuteBeforeBeginDelay(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_CABF235B95E45FA8_SET_EXECUTEBEFOREBEGINDELAY_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_CABF235B95E45FA8_SET_EXECUTEBEFOREBEGINDELAY_OFFSET))(this, a1);
 	}
 };

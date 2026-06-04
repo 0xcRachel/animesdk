@@ -5,14 +5,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCHARACTERDAMAGETYPE_METHOD_4_1F53F44815CFC985_OFFSET UNITYSDK_OFFSET(0x187CF250)
-#define RPG_GAMECORE_BYCHARACTERDAMAGETYPE_METHOD_4_DD0601D876C2DDD9_OFFSET UNITYSDK_OFFSET(0x187CF180)
-#define RPG_GAMECORE_BYCHARACTERDAMAGETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x187CF200)
+#define RPG_GAMECORE_BYCHARACTERDAMAGETYPE_METHOD_4_1F53F44815CFC985_OFFSET UNITYSDK_OFFSET(0x195F42F0)
+#define RPG_GAMECORE_BYCHARACTERDAMAGETYPE_METHOD_4_A275828A67D03A16_OFFSET UNITYSDK_OFFSET(0x195F4540)
+#define RPG_GAMECORE_BYCHARACTERDAMAGETYPE_METHOD_4_D189294F2EA7E7F9_OFFSET UNITYSDK_OFFSET(0x195F44C0)
+#define RPG_GAMECORE_BYCHARACTERDAMAGETYPE_METHOD_4_DD0601D876C2DDD9_OFFSET UNITYSDK_OFFSET(0x195F4220)
+#define RPG_GAMECORE_BYCHARACTERDAMAGETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x195F42A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCharacterDamageType_TypeDefinitionIndex = 19187;
+	inline static constexpr unsigned int ByCharacterDamageType_TypeDefinitionIndex = 19114;
 
 	class ByCharacterDamageType : public ::RPG::GameCore::PredicateConfig
 	{
@@ -33,6 +36,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_1F53F44815CFC985(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCharacterDamageType* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCharacterDamageType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHARACTERDAMAGETYPE_METHOD_4_1F53F44815CFC985_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_D189294F2EA7E7F9(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCharacterDamageType*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCharacterDamageType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHARACTERDAMAGETYPE_METHOD_4_D189294F2EA7E7F9_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_A275828A67D03A16(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCharacterDamageType* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCharacterDamageType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHARACTERDAMAGETYPE_METHOD_4_A275828A67D03A16_OFFSET))(a1, a2);
 		}
 	};
 }

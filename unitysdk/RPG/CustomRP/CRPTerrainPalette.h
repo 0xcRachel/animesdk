@@ -14,36 +14,36 @@ namespace UnityEngine { class ComputeBuffer; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture2DArray; }
 
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_CREATENEWGROUP_OFFSET UNITYSDK_OFFSET(0x15260190)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_CREATEORUPDATETEXTUREARRAY_OFFSET UNITYSDK_OFFSET(0x15260E60)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_GETLAYERID_OFFSET UNITYSDK_OFFSET(0x15260530)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_GET_CACHEDMASTERLIMIT_OFFSET UNITYSDK_OFFSET(0x15261960)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_GET_DEBUGCOLORBUFFER_OFFSET UNITYSDK_OFFSET(0x1525F970)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_GET_DIFFUSETEXTUREARRAY_OFFSET UNITYSDK_OFFSET(0x1525F910)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_GET_GROUPINFOBUFFER_OFFSET UNITYSDK_OFFSET(0x1525F8B0)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_GET_LAYERINFOBUFFER_OFFSET UNITYSDK_OFFSET(0x1525F8E0)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_GET_NORMALTEXTUREARRAY_OFFSET UNITYSDK_OFFSET(0x1525F940)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_GET_UNIQUELAYERS_OFFSET UNITYSDK_OFFSET(0x15260510)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_PACK4BYTES_OFFSET UNITYSDK_OFFSET(0x152604F0)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_PACKUNORM10A2_1_OFFSET UNITYSDK_OFFSET(0x15260D40)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_PACKUNORM10A2_OFFSET UNITYSDK_OFFSET(0x15260D20)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_SETLAYERID_OFFSET UNITYSDK_OFFSET(0x152605A0)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_SET_CACHEDMASTERLIMIT_OFFSET UNITYSDK_OFFSET(0x15261970)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_SET_UNIQUELAYERS_OFFSET UNITYSDK_OFFSET(0x15260520)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_UPDATEBUFFERS_OFFSET UNITYSDK_OFFSET(0x1525EEF0)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_UPDATEGROUPINFOBUFFER_OFFSET UNITYSDK_OFFSET(0x15260C10)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_UPDATELAYERINFOBUFFER_OFFSET UNITYSDK_OFFSET(0x15260DC0)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_UPDATETEXTUREARRAYS_OFFSET UNITYSDK_OFFSET(0x15261750)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_UPDATEUNIQUELAYERS_OFFSET UNITYSDK_OFFSET(0x15260640)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE_VALIDATEGROUPS_OFFSET UNITYSDK_OFFSET(0x15260130)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE__CTOR_OFFSET UNITYSDK_OFFSET(0x15261980)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE__UPDATEGROUPINFOBUFFER_B__17_0_OFFSET UNITYSDK_OFFSET(0x15261A30)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE__UPDATEGROUPINFOBUFFER_B__17_1_OFFSET UNITYSDK_OFFSET(0x15261D30)
-#define RPG_CUSTOMRP_CRPTERRAINPALETTE__UPDATELAYERINFOBUFFER_B__20_0_OFFSET UNITYSDK_OFFSET(0x15261D40)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_CREATENEWGROUP_OFFSET UNITYSDK_OFFSET(0x15702200)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_CREATEORUPDATETEXTUREARRAY_OFFSET UNITYSDK_OFFSET(0x15702E80)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_GETLAYERID_OFFSET UNITYSDK_OFFSET(0x157025A0)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_GET_CACHEDMASTERLIMIT_OFFSET UNITYSDK_OFFSET(0x15703830)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_GET_DEBUGCOLORBUFFER_OFFSET UNITYSDK_OFFSET(0x157019F0)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_GET_DIFFUSETEXTUREARRAY_OFFSET UNITYSDK_OFFSET(0x15701990)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_GET_GROUPINFOBUFFER_OFFSET UNITYSDK_OFFSET(0x15701930)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_GET_LAYERINFOBUFFER_OFFSET UNITYSDK_OFFSET(0x15701960)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_GET_NORMALTEXTUREARRAY_OFFSET UNITYSDK_OFFSET(0x157019C0)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_GET_UNIQUELAYERS_OFFSET UNITYSDK_OFFSET(0x15702580)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_PACK4BYTES_OFFSET UNITYSDK_OFFSET(0x15702560)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_PACKUNORM10A2_1_OFFSET UNITYSDK_OFFSET(0x15702D60)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_PACKUNORM10A2_OFFSET UNITYSDK_OFFSET(0x15702D40)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_SETLAYERID_OFFSET UNITYSDK_OFFSET(0x15702660)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_SET_CACHEDMASTERLIMIT_OFFSET UNITYSDK_OFFSET(0x15703840)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_SET_UNIQUELAYERS_OFFSET UNITYSDK_OFFSET(0x15702590)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_UPDATEBUFFERS_OFFSET UNITYSDK_OFFSET(0x15700F30)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_UPDATEGROUPINFOBUFFER_OFFSET UNITYSDK_OFFSET(0x15702C00)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_UPDATELAYERINFOBUFFER_OFFSET UNITYSDK_OFFSET(0x15702DD0)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_UPDATETEXTUREARRAYS_OFFSET UNITYSDK_OFFSET(0x15703640)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_UPDATEUNIQUELAYERS_OFFSET UNITYSDK_OFFSET(0x15702700)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE_VALIDATEGROUPS_OFFSET UNITYSDK_OFFSET(0x157021A0)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE__CTOR_OFFSET UNITYSDK_OFFSET(0x15703850)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE__UPDATEGROUPINFOBUFFER_B__17_0_OFFSET UNITYSDK_OFFSET(0x15703900)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE__UPDATEGROUPINFOBUFFER_B__17_1_OFFSET UNITYSDK_OFFSET(0x15703C00)
+#define RPG_CUSTOMRP_CRPTERRAINPALETTE__UPDATELAYERINFOBUFFER_B__20_0_OFFSET UNITYSDK_OFFSET(0x15703C10)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPTerrainPalette_TypeDefinitionIndex = 35113;
+	inline static constexpr unsigned int CRPTerrainPalette_TypeDefinitionIndex = 35399;
 
 	class CRPTerrainPalette : public ::UnityEngine::ScriptableObject
 	{
@@ -65,9 +65,9 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean ValidateGroups(::System::Collections::Generic::List_1<::RPG::CustomRP::CRPTerrainLayerGroup>* gs, ::System::String*& errorMessage)
+		::System::Boolean ValidateGroups(::System::Collections::Generic::List_1<::RPG::CustomRP::CRPTerrainLayerGroup>* a1, ::System::String*& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::CustomRP::CRPTerrainLayerGroup>*, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_VALIDATEGROUPS_OFFSET))(this, gs, errorMessage);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::CustomRP::CRPTerrainLayerGroup>*, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_VALIDATEGROUPS_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::CustomRP::CRPTerrainLayerGroup CreateNewGroup()
@@ -75,9 +75,9 @@ namespace RPG::CustomRP
 			return ((::RPG::CustomRP::CRPTerrainLayerGroup(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_CREATENEWGROUP_OFFSET))(this);
 		}
 
-		::System::UInt32 Pack4Bytes(::System::Byte b0, ::System::Byte b1, ::System::Byte b2, ::System::Byte b3)
+		::System::UInt32 Pack4Bytes(::System::Byte a1, ::System::Byte a2, ::System::Byte a3, ::System::Byte a4)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_PACK4BYTES_OFFSET))(this, b0, b1, b2, b3);
+			return ((::System::UInt32(*)(::PVOID, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_PACK4BYTES_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::Il2CppArray<::RPG::CustomRP::CRPTerrainLayer*>* get_uniqueLayers()
@@ -85,19 +85,19 @@ namespace RPG::CustomRP
 			return ((::Il2CppArray<::RPG::CustomRP::CRPTerrainLayer*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_GET_UNIQUELAYERS_OFFSET))(this);
 		}
 
-		::System::Void set_uniqueLayers(::Il2CppArray<::RPG::CustomRP::CRPTerrainLayer*>* value)
+		::System::Void set_uniqueLayers(::Il2CppArray<::RPG::CustomRP::CRPTerrainLayer*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::CustomRP::CRPTerrainLayer*>*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_SET_UNIQUELAYERS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::CustomRP::CRPTerrainLayer*>*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_SET_UNIQUELAYERS_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetLayerId(::RPG::CustomRP::CRPTerrainLayer* layer)
+		::System::Int32 GetLayerId(::RPG::CustomRP::CRPTerrainLayer* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::CustomRP::CRPTerrainLayer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_GETLAYERID_OFFSET))(this, layer);
+			return ((::System::Int32(*)(::PVOID, ::RPG::CustomRP::CRPTerrainLayer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_GETLAYERID_OFFSET))(this, a1);
 		}
 
-		::System::Void SetLayerId(::RPG::CustomRP::CRPTerrainLayer* layer, ::System::Int32 idx)
+		::System::Void SetLayerId(::RPG::CustomRP::CRPTerrainLayer* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CRPTerrainLayer*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_SETLAYERID_OFFSET))(this, layer, idx);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CRPTerrainLayer*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_SETLAYERID_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void UpdateUniqueLayers()
@@ -110,14 +110,14 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_UPDATEGROUPINFOBUFFER_OFFSET))(this);
 		}
 
-		::System::UInt32 PackUNorm10A2(::System::UInt32 v0, ::System::UInt32 v1, ::System::UInt32 v2)
+		::System::UInt32 PackUNorm10A2(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_PACKUNORM10A2_OFFSET))(this, v0, v1, v2);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_PACKUNORM10A2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt32 PackUNorm10A2_1(::System::Single v0, ::System::Single v1, ::System::Single v2)
+		::System::UInt32 PackUNorm10A2_1(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_PACKUNORM10A2_1_OFFSET))(this, v0, v1, v2);
+			return ((::System::UInt32(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_PACKUNORM10A2_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void UpdateLayerInfoBuffer()
@@ -125,9 +125,9 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_UPDATELAYERINFOBUFFER_OFFSET))(this);
 		}
 
-		::UnityEngine::Texture2DArray* CreateOrUpdateTextureArray(::UnityEngine::Texture2DArray* texArray, ::System::String* texName, ::Il2CppArray<::UnityEngine::Texture2D*>* textures)
+		::UnityEngine::Texture2DArray* CreateOrUpdateTextureArray(::UnityEngine::Texture2DArray* a1, ::System::String* a2, ::Il2CppArray<::UnityEngine::Texture2D*>* a3)
 		{
-			return ((::UnityEngine::Texture2DArray*(*)(::PVOID, ::UnityEngine::Texture2DArray*, ::System::String*, ::Il2CppArray<::UnityEngine::Texture2D*>*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_CREATEORUPDATETEXTUREARRAY_OFFSET))(this, texArray, texName, textures);
+			return ((::UnityEngine::Texture2DArray*(*)(::PVOID, ::UnityEngine::Texture2DArray*, ::System::String*, ::Il2CppArray<::UnityEngine::Texture2D*>*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_CREATEORUPDATETEXTUREARRAY_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void UpdateTextureArrays()
@@ -165,9 +165,9 @@ namespace RPG::CustomRP
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_GET_CACHEDMASTERLIMIT_OFFSET))(this);
 		}
 
-		::System::Void set_cachedMasterLimit(::System::Int32 value)
+		::System::Void set_cachedMasterLimit(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_SET_CACHEDMASTERLIMIT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_SET_CACHEDMASTERLIMIT_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateBuffers()
@@ -175,19 +175,19 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE_UPDATEBUFFERS_OFFSET))(this);
 		}
 
-		::RPG::CustomRP::CRPTerrainPalette_GroupInfoData _UpdateGroupInfoBuffer_b__17_0(::RPG::CustomRP::CRPTerrainLayerGroup g)
+		::RPG::CustomRP::CRPTerrainPalette_GroupInfoData _UpdateGroupInfoBuffer_b__17_0(::RPG::CustomRP::CRPTerrainLayerGroup a1)
 		{
-			return ((::RPG::CustomRP::CRPTerrainPalette_GroupInfoData(*)(::PVOID, ::RPG::CustomRP::CRPTerrainLayerGroup))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE__UPDATEGROUPINFOBUFFER_B__17_0_OFFSET))(this, g);
+			return ((::RPG::CustomRP::CRPTerrainPalette_GroupInfoData(*)(::PVOID, ::RPG::CustomRP::CRPTerrainLayerGroup))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE__UPDATEGROUPINFOBUFFER_B__17_0_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 _UpdateGroupInfoBuffer_b__17_1(::RPG::CustomRP::CRPTerrainLayerGroup g)
+		::System::UInt32 _UpdateGroupInfoBuffer_b__17_1(::RPG::CustomRP::CRPTerrainLayerGroup a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::RPG::CustomRP::CRPTerrainLayerGroup))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE__UPDATEGROUPINFOBUFFER_B__17_1_OFFSET))(this, g);
+			return ((::System::UInt32(*)(::PVOID, ::RPG::CustomRP::CRPTerrainLayerGroup))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE__UPDATEGROUPINFOBUFFER_B__17_1_OFFSET))(this, a1);
 		}
 
-		::RPG::CustomRP::CRPTerrainPalette_LayerInfoData _UpdateLayerInfoBuffer_b__20_0(::RPG::CustomRP::CRPTerrainLayer* layer)
+		::RPG::CustomRP::CRPTerrainPalette_LayerInfoData _UpdateLayerInfoBuffer_b__20_0(::RPG::CustomRP::CRPTerrainLayer* a1)
 		{
-			return ((::RPG::CustomRP::CRPTerrainPalette_LayerInfoData(*)(::PVOID, ::RPG::CustomRP::CRPTerrainLayer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE__UPDATELAYERINFOBUFFER_B__20_0_OFFSET))(this, layer);
+			return ((::RPG::CustomRP::CRPTerrainPalette_LayerInfoData(*)(::PVOID, ::RPG::CustomRP::CRPTerrainLayer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPTERRAINPALETTE__UPDATELAYERINFOBUFFER_B__20_0_OFFSET))(this, a1);
 		}
 	};
 }

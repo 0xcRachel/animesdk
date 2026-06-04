@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYAVATARDELIVERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188664A0)
-#define RPG_GAMECORE_ACTIVITYAVATARDELIVERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18866790)
+#define RPG_GAMECORE_ACTIVITYAVATARDELIVERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19892450)
+#define RPG_GAMECORE_ACTIVITYAVATARDELIVERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19892740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityAvatarDeliverRow_TypeDefinitionIndex = 10495;
+	inline static constexpr unsigned int ActivityAvatarDeliverRow_TypeDefinitionIndex = 10535;
 
 	class ActivityAvatarDeliverRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Name; // 0x10
-		::RPG::Client::TextID Sign; // 0x20
-		::System::Single Sort; // 0x30
-		::System::UInt32 AvatarID; // 0x34
+		::System::UInt32 AvatarID; // 0x10
+		::System::Single Sort; // 0x14
+		::RPG::Client::TextID Name; // 0x18
+		::RPG::Client::TextID Sign; // 0x28
 		::RPG::Client::TextID MailDesc; // 0x38
 
 		::System::Void _ctor()
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYAVATARDELIVERROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ActivityAvatarDeliverRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActivityAvatarDeliverRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityAvatarDeliverRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYAVATARDELIVERROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityAvatarDeliverRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYAVATARDELIVERROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

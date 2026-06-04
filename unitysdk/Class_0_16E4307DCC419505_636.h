@@ -1,8 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Vector2Int.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_636_TypeDefinitionIndex = 57498;
+namespace RPG::Client { class IAdventureSettingConflictShowInfo; }
+namespace System { class String; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_636_TypeDefinitionIndex = 57309;
 
 class Class_0_16E4307DCC419505_636
 {

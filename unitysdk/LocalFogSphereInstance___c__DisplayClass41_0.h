@@ -5,10 +5,10 @@
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class Object; }
 
-#define LOCALFOGSPHEREINSTANCE___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10789850)
-#define LOCALFOGSPHEREINSTANCE___C__DISPLAYCLASS41_0__ONOBJECTCREATEDASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x10789D60)
+#define LOCALFOGSPHEREINSTANCE___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x178549B0)
+#define LOCALFOGSPHEREINSTANCE___C__DISPLAYCLASS41_0__ONOBJECTCREATEDASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x17854EC0)
 
-inline static constexpr unsigned int LocalFogSphereInstance___c__DisplayClass41_0_TypeDefinitionIndex = 44220;
+inline static constexpr unsigned int LocalFogSphereInstance___c__DisplayClass41_0_TypeDefinitionIndex = 44766;
 
 class LocalFogSphereInstance___c__DisplayClass41_0 : public ::System::Object
 {
@@ -20,8 +20,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LOCALFOGSPHEREINSTANCE___C__DISPLAYCLASS41_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Void _OnObjectCreatedAsync_b__0(::UnityEngine::Object* m)
+	::System::Void _OnObjectCreatedAsync_b__0(::UnityEngine::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + LOCALFOGSPHEREINSTANCE___C__DISPLAYCLASS41_0__ONOBJECTCREATEDASYNC_B__0_OFFSET))(this, m);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + LOCALFOGSPHEREINSTANCE___C__DISPLAYCLASS41_0__ONOBJECTCREATEDASYNC_B__0_OFFSET))(this, a1);
 	}
 };

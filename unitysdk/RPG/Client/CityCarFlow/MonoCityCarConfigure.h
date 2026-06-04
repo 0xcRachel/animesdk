@@ -4,19 +4,19 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_567;
+class Class_0_16E4307DCC419505_589;
 namespace RPG::Client::CityCarFlow { class MonoCityCarEmitter; }
 namespace RPG::Client::CityCarFlow { class MonoCityCarFlowIntersection; }
 namespace RPG::Client::CityCarFlow { class MonoCityCarFlowRoad; }
 namespace RPG::Client::CityCarFlow { class MonoCityCarIRI; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARCONFIGURE_CREATEMANAGER_OFFSET UNITYSDK_OFFSET(0x178AC120)
-#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARCONFIGURE__CTOR_OFFSET UNITYSDK_OFFSET(0x178AC190)
+#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARCONFIGURE_CREATEMANAGER_OFFSET UNITYSDK_OFFSET(0x182B4600)
+#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARCONFIGURE__CTOR_OFFSET UNITYSDK_OFFSET(0x182B4670)
 
 namespace RPG::Client::CityCarFlow
 {
-	inline static constexpr unsigned int MonoCityCarConfigure_TypeDefinitionIndex = 72588;
+	inline static constexpr unsigned int MonoCityCarConfigure_TypeDefinitionIndex = 74411;
 
 	class MonoCityCarConfigure : public ::UnityEngine::MonoBehaviour
 	{
@@ -33,9 +33,9 @@ namespace RPG::Client::CityCarFlow
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CITYCARFLOW_MONOCITYCARCONFIGURE__CTOR_OFFSET))(this);
 		}
 
-		::Class_0_16E4307DCC419505_567* CreateManager(::System::UInt32 a1, ::System::String* a2)
+		::Class_0_16E4307DCC419505_589* CreateManager(::System::UInt32 a1, ::System::String* a2)
 		{
-			return ((::Class_0_16E4307DCC419505_567*(*)(::PVOID, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CITYCARFLOW_MONOCITYCARCONFIGURE_CREATEMANAGER_OFFSET))(this, a1, a2);
+			return ((::Class_0_16E4307DCC419505_589*(*)(::PVOID, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CITYCARFLOW_MONOCITYCARCONFIGURE_CREATEMANAGER_OFFSET))(this, a1, a2);
 		}
 	};
 }

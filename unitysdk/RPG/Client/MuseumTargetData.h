@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_53763D498DB8321D_5;
-class Class_1_D17272E82AE804C2_646;
-class Class_1_FB4A4ADDA7338C08_3;
+class Class_1_070964BB68D18B9F_4;
+class Class_1_A6623677AE360DE9;
+class Class_1_D17272E82AE804C2_659;
 namespace RPG::Client { class MuseumData; }
 namespace RPG::Client { class MuseumTarget; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MUSEUMTARGETDATA_GET_CHECKTURN_OFFSET UNITYSDK_OFFSET(0x15F17490)
-#define RPG_CLIENT_MUSEUMTARGETDATA_GET_CURTARGET_OFFSET UNITYSDK_OFFSET(0x15F17470)
-#define RPG_CLIENT_MUSEUMTARGETDATA_GET_HAVETARGET_OFFSET UNITYSDK_OFFSET(0x15F17450)
-#define RPG_CLIENT_MUSEUMTARGETDATA_GET_OWNERMUSEUM_OFFSET UNITYSDK_OFFSET(0x15F17440)
-#define RPG_CLIENT_MUSEUMTARGETDATA_SET_CURTARGET_OFFSET UNITYSDK_OFFSET(0x15F17480)
-#define RPG_CLIENT_MUSEUMTARGETDATA_SET_HAVETARGET_OFFSET UNITYSDK_OFFSET(0x15F17460)
-#define RPG_CLIENT_MUSEUMTARGETDATA_SYNCDATA_1_OFFSET UNITYSDK_OFFSET(0x15F175E0)
-#define RPG_CLIENT_MUSEUMTARGETDATA_SYNCDATA_2_OFFSET UNITYSDK_OFFSET(0x15F17660)
-#define RPG_CLIENT_MUSEUMTARGETDATA_SYNCDATA_OFFSET UNITYSDK_OFFSET(0x15F17540)
-#define RPG_CLIENT_MUSEUMTARGETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15F174A0)
+#define RPG_CLIENT_MUSEUMTARGETDATA_GET_CHECKTURN_OFFSET UNITYSDK_OFFSET(0x1874F7A0)
+#define RPG_CLIENT_MUSEUMTARGETDATA_GET_CURTARGET_OFFSET UNITYSDK_OFFSET(0x1874F780)
+#define RPG_CLIENT_MUSEUMTARGETDATA_GET_HAVETARGET_OFFSET UNITYSDK_OFFSET(0x1874F760)
+#define RPG_CLIENT_MUSEUMTARGETDATA_GET_OWNERMUSEUM_OFFSET UNITYSDK_OFFSET(0x1874F750)
+#define RPG_CLIENT_MUSEUMTARGETDATA_SET_CURTARGET_OFFSET UNITYSDK_OFFSET(0x1874F790)
+#define RPG_CLIENT_MUSEUMTARGETDATA_SET_HAVETARGET_OFFSET UNITYSDK_OFFSET(0x1874F770)
+#define RPG_CLIENT_MUSEUMTARGETDATA_SYNCDATA_1_OFFSET UNITYSDK_OFFSET(0x18749DF0)
+#define RPG_CLIENT_MUSEUMTARGETDATA_SYNCDATA_2_OFFSET UNITYSDK_OFFSET(0x18749F60)
+#define RPG_CLIENT_MUSEUMTARGETDATA_SYNCDATA_OFFSET UNITYSDK_OFFSET(0x1873E0B0)
+#define RPG_CLIENT_MUSEUMTARGETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1873CB20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumTargetData_TypeDefinitionIndex = 61117;
+	inline static constexpr unsigned int MuseumTargetData_TypeDefinitionIndex = 62041;
 
 	class MuseumTargetData : public ::System::Object
 	{
@@ -30,12 +30,12 @@ namespace RPG::Client
 		// static const ::System::String* _MuseumTargetCheckTurnKey; // 0x0
 		::RPG::Client::MuseumTarget* _CurTarget_k__BackingField; // 0x10
 		::RPG::Client::MuseumData* _OwnerMuseum_k__BackingField; // 0x18
-		::System::Boolean _HaveTarget_k__BackingField; // 0x20
-		::System::UInt32 _CheckTurn_k__BackingField; // 0x24
+		::System::UInt32 _CheckTurn_k__BackingField; // 0x20
+		::System::Boolean _HaveTarget_k__BackingField; // 0x24
 
-		::System::Void _ctor(::RPG::Client::MuseumData* ownerMuseum)
+		::System::Void _ctor(::RPG::Client::MuseumData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MuseumData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETDATA__CTOR_OFFSET))(this, ownerMuseum);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MuseumData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MuseumData* get_OwnerMuseum()
@@ -48,9 +48,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETDATA_GET_HAVETARGET_OFFSET))(this);
 		}
 
-		::System::Void set_HaveTarget(::System::Boolean value)
+		::System::Void set_HaveTarget(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETDATA_SET_HAVETARGET_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETDATA_SET_HAVETARGET_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MuseumTarget* get_CurTarget()
@@ -58,9 +58,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MuseumTarget*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETDATA_GET_CURTARGET_OFFSET))(this);
 		}
 
-		::System::Void set_CurTarget(::RPG::Client::MuseumTarget* value)
+		::System::Void set_CurTarget(::RPG::Client::MuseumTarget* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MuseumTarget*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETDATA_SET_CURTARGET_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MuseumTarget*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETDATA_SET_CURTARGET_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_CheckTurn()
@@ -68,19 +68,19 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETDATA_GET_CHECKTURN_OFFSET))(this);
 		}
 
-		::System::Void SyncData(::Class_1_53763D498DB8321D_5* proto)
+		::System::Void SyncData(::Class_1_070964BB68D18B9F_4* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_53763D498DB8321D_5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETDATA_SYNCDATA_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::Class_1_070964BB68D18B9F_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETDATA_SYNCDATA_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncData_1(::Class_1_D17272E82AE804C2_646* proto)
+		::System::Void SyncData_1(::Class_1_D17272E82AE804C2_659* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_646*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETDATA_SYNCDATA_1_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_659*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETDATA_SYNCDATA_1_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncData_2(::Class_1_FB4A4ADDA7338C08_3* proto)
+		::System::Void SyncData_2(::Class_1_A6623677AE360DE9* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_FB4A4ADDA7338C08_3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETDATA_SYNCDATA_2_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::Class_1_A6623677AE360DE9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETDATA_SYNCDATA_2_OFFSET))(this, a1);
 		}
 	};
 }

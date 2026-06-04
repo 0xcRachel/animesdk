@@ -3,22 +3,22 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-class Class_0_16E4307DCC419505_98;
+class Class_0_16E4307DCC419505_97;
 namespace RPG { template <typename T> class PoolList_1; }
 namespace UnityEngine { class Collider; }
 
-#define CLASS_1_AE5442AB62D99892_CLEAR_OFFSET UNITYSDK_OFFSET(0x1554F740)
-#define CLASS_1_AE5442AB62D99892__CTOR_OFFSET UNITYSDK_OFFSET(0x1554F7C0)
+#define CLASS_1_AE5442AB62D99892_CLEAR_OFFSET UNITYSDK_OFFSET(0x189CCEC0)
+#define CLASS_1_AE5442AB62D99892__CTOR_OFFSET UNITYSDK_OFFSET(0x189CCF40)
 
-inline static constexpr unsigned int Class_1_AE5442AB62D99892_TypeDefinitionIndex = 39089;
+inline static constexpr unsigned int Class_1_AE5442AB62D99892_TypeDefinitionIndex = 39857;
 
 class Class_1_AE5442AB62D99892 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_98* Field_1_1; // 0x10
-	::RPG::PoolList_1<::UnityEngine::Collider*>* Field_1_2; // 0x18
-	::RPG::PoolList_1<::UnityEngine::Collider*>* Field_1_3; // 0x20
-	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> Field_1_0; // 0x28
+	::Class_0_16E4307DCC419505_97* Field_1_0; // 0x10
+	::RPG::PoolList_1<::UnityEngine::Collider*>* Field_1_1; // 0x18
+	::RPG::PoolList_1<::UnityEngine::Collider*>* Field_1_2; // 0x20
+	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> Field_1_3; // 0x28
 
 	::System::Void _ctor()
 	{

@@ -7,33 +7,33 @@ namespace Epic::OnlineServices::Metrics { class EndPlayerSessionOptions; }
 namespace Epic::OnlineServices::Metrics { class EndPlayerSessionOptionsAccountId; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_METRICS_ENDPLAYERSESSIONOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x231ABA0)
-#define EPIC_ONLINESERVICES_METRICS_ENDPLAYERSESSIONOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x231AAD0)
-#define EPIC_ONLINESERVICES_METRICS_ENDPLAYERSESSIONOPTIONSINTERNAL_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0x231A9E0)
-#define EPIC_ONLINESERVICES_METRICS_ENDPLAYERSESSIONOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x231AA50)
+#define EPIC_ONLINESERVICES_METRICS_ENDPLAYERSESSIONOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x38CD5F0)
+#define EPIC_ONLINESERVICES_METRICS_ENDPLAYERSESSIONOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x38CD5E0)
+#define EPIC_ONLINESERVICES_METRICS_ENDPLAYERSESSIONOPTIONSINTERNAL_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0x38CD4F0)
+#define EPIC_ONLINESERVICES_METRICS_ENDPLAYERSESSIONOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x38CD560)
 
 namespace Epic::OnlineServices::Metrics
 {
-	inline static constexpr unsigned int EndPlayerSessionOptionsInternal_TypeDefinitionIndex = 41798;
+	inline static constexpr unsigned int EndPlayerSessionOptionsInternal_TypeDefinitionIndex = 42601;
 
 	struct alignas(4) EndPlayerSessionOptionsInternal
 	{
 		::System::Int32 m_ApiVersion; // 0x10
 		::Epic::OnlineServices::Metrics::EndPlayerSessionOptionsAccountIdInternal m_AccountId; // 0x14
 
-		::System::Void set_AccountId(::Epic::OnlineServices::Metrics::EndPlayerSessionOptionsAccountId* value)
+		::System::Void set_AccountId(::Epic::OnlineServices::Metrics::EndPlayerSessionOptionsAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Metrics::EndPlayerSessionOptionsAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_ENDPLAYERSESSIONOPTIONSINTERNAL_SET_ACCOUNTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Metrics::EndPlayerSessionOptionsAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_ENDPLAYERSESSIONOPTIONSINTERNAL_SET_ACCOUNTID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Metrics::EndPlayerSessionOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Metrics::EndPlayerSessionOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Metrics::EndPlayerSessionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_ENDPLAYERSESSIONOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Metrics::EndPlayerSessionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_ENDPLAYERSESSIONOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_ENDPLAYERSESSIONOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_ENDPLAYERSESSIONOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

@@ -5,12 +5,12 @@
 namespace ZenFulcrum::EmbeddedBrowser { class Browser_JSCallback; }
 namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS224_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182D74B0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS224_0__REGISTERFUNCTIONDIRECTLY_B__0_OFFSET UNITYSDK_OFFSET(0x182DDAE0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS224_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18E2B8D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS224_0__REGISTERFUNCTIONDIRECTLY_B__0_OFFSET UNITYSDK_OFFSET(0x18E2FD40)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Browser___c__DisplayClass224_0_TypeDefinitionIndex = 36117;
+	inline static constexpr unsigned int Browser___c__DisplayClass224_0_TypeDefinitionIndex = 36417;
 
 	class Browser___c__DisplayClass224_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS224_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _RegisterFunctionDirectly_b__0(::ZenFulcrum::EmbeddedBrowser::JSONNode* value, ::System::Boolean error)
+		::System::Void _RegisterFunctionDirectly_b__0(::ZenFulcrum::EmbeddedBrowser::JSONNode* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::JSONNode*, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS224_0__REGISTERFUNCTIONDIRECTLY_B__0_OFFSET))(this, value, error);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::JSONNode*, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS224_0__REGISTERFUNCTIONDIRECTLY_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

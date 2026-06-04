@@ -5,30 +5,30 @@
 namespace TapTap::Sdk { class ContainerWindow; }
 namespace UnityEngine { class CanvasGroup; }
 
-#define TAPTAP_SDK_CONTAINERWINDOW__PLAYENTER_D__3_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1A61E4F0)
-#define TAPTAP_SDK_CONTAINERWINDOW__PLAYENTER_D__3_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1A61E640)
-#define TAPTAP_SDK_CONTAINERWINDOW__PLAYENTER_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1A61E6A0)
-#define TAPTAP_SDK_CONTAINERWINDOW__PLAYENTER_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1A61E650)
-#define TAPTAP_SDK_CONTAINERWINDOW__PLAYENTER_D__3_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A61E4E0)
-#define TAPTAP_SDK_CONTAINERWINDOW__PLAYENTER_D__3__CTOR_OFFSET UNITYSDK_OFFSET(0x1A61E4B0)
+#define TAPTAP_SDK_CONTAINERWINDOW__PLAYENTER_D__3_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1B4653B0)
+#define TAPTAP_SDK_CONTAINERWINDOW__PLAYENTER_D__3_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B465500)
+#define TAPTAP_SDK_CONTAINERWINDOW__PLAYENTER_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B465560)
+#define TAPTAP_SDK_CONTAINERWINDOW__PLAYENTER_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1B465510)
+#define TAPTAP_SDK_CONTAINERWINDOW__PLAYENTER_D__3_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B4653A0)
+#define TAPTAP_SDK_CONTAINERWINDOW__PLAYENTER_D__3__CTOR_OFFSET UNITYSDK_OFFSET(0x1B465370)
 
 namespace TapTap::Sdk
 {
-	inline static constexpr unsigned int ContainerWindow__PlayEnter_d__3_TypeDefinitionIndex = 6445;
+	inline static constexpr unsigned int ContainerWindow__PlayEnter_d__3_TypeDefinitionIndex = 7061;
 
 	class ContainerWindow__PlayEnter_d__3 : public ::System::Object
 	{
 	public:
 		::UnityEngine::CanvasGroup* _canvasGroup_5__4; // 0x10
-		::TapTap::Sdk::ContainerWindow* __4__this; // 0x18
-		::System::Object* __2__current; // 0x20
-		::System::Single _endTime_5__3; // 0x28
-		::System::Single _startTime_5__2; // 0x2C
-		::System::Int32 __1__state; // 0x30
+		::System::Object* __2__current; // 0x18
+		::TapTap::Sdk::ContainerWindow* __4__this; // 0x20
+		::System::Int32 __1__state; // 0x28
+		::System::Single _endTime_5__3; // 0x2C
+		::System::Single _startTime_5__2; // 0x30
 
-		::System::Void _ctor(::System::Int32 __1__state)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + TAPTAP_SDK_CONTAINERWINDOW__PLAYENTER_D__3__CTOR_OFFSET))(this, __1__state);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + TAPTAP_SDK_CONTAINERWINDOW__PLAYENTER_D__3__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()

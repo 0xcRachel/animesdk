@@ -4,31 +4,31 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_GET_GUIDEID_OFFSET UNITYSDK_OFFSET(0x15203480)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_GET_ISONLINEDATA_OFFSET UNITYSDK_OFFSET(0x152034E0)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_GET_PERCENTAGE_OFFSET UNITYSDK_OFFSET(0x152034C0)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_GET_SETIDS_OFFSET UNITYSDK_OFFSET(0x152034A0)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_SET_GUIDEID_OFFSET UNITYSDK_OFFSET(0x15203490)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_SET_ISONLINEDATA_OFFSET UNITYSDK_OFFSET(0x152034F0)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_SET_PERCENTAGE_OFFSET UNITYSDK_OFFSET(0x152034D0)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_SET_SETIDS_OFFSET UNITYSDK_OFFSET(0x152034B0)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x15203300)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_GET_GUIDEID_OFFSET UNITYSDK_OFFSET(0x17690F20)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_GET_ISONLINEDATA_OFFSET UNITYSDK_OFFSET(0x17690F80)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_GET_PERCENTAGE_OFFSET UNITYSDK_OFFSET(0x17690F60)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_GET_SETIDS_OFFSET UNITYSDK_OFFSET(0x17690F40)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_SET_GUIDEID_OFFSET UNITYSDK_OFFSET(0x17690F30)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_SET_ISONLINEDATA_OFFSET UNITYSDK_OFFSET(0x17690F90)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_SET_PERCENTAGE_OFFSET UNITYSDK_OFFSET(0x17690F70)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_SET_SETIDS_OFFSET UNITYSDK_OFFSET(0x17690F50)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x17690DA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookGrowthGuideEquipmentDataItem_TypeDefinitionIndex = 60420;
+	inline static constexpr unsigned int HandbookGrowthGuideEquipmentDataItem_TypeDefinitionIndex = 61355;
 
 	class HandbookGrowthGuideEquipmentDataItem : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* _SetIDs_k__BackingField; // 0x10
-		::System::Boolean _IsOnlineData_k__BackingField; // 0x18
-		::System::UInt32 _GuideID_k__BackingField; // 0x1C
-		::System::Single _Percentage_k__BackingField; // 0x20
+		::System::Single _Percentage_k__BackingField; // 0x18
+		::System::Boolean _IsOnlineData_k__BackingField; // 0x1C
+		::System::UInt32 _GuideID_k__BackingField; // 0x20
 
-		::System::Void _ctor(::System::UInt32 guideID, ::System::Collections::Generic::List_1<::System::UInt32>* setIDs, ::System::Single percentage, ::System::Boolean isOnlineData)
+		::System::Void _ctor(::System::UInt32 a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2, ::System::Single a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM__CTOR_OFFSET))(this, guideID, setIDs, percentage, isOnlineData);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::UInt32 get_GuideID()
@@ -36,9 +36,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_GET_GUIDEID_OFFSET))(this);
 		}
 
-		::System::Void set_GuideID(::System::UInt32 value)
+		::System::Void set_GuideID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_SET_GUIDEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_SET_GUIDEID_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* get_SetIDs()
@@ -46,9 +46,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_GET_SETIDS_OFFSET))(this);
 		}
 
-		::System::Void set_SetIDs(::System::Collections::Generic::List_1<::System::UInt32>* value)
+		::System::Void set_SetIDs(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_SET_SETIDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_SET_SETIDS_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Percentage()
@@ -56,9 +56,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_GET_PERCENTAGE_OFFSET))(this);
 		}
 
-		::System::Void set_Percentage(::System::Single value)
+		::System::Void set_Percentage(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_SET_PERCENTAGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_SET_PERCENTAGE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsOnlineData()
@@ -66,9 +66,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_GET_ISONLINEDATA_OFFSET))(this);
 		}
 
-		::System::Void set_IsOnlineData(::System::Boolean value)
+		::System::Void set_IsOnlineData(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_SET_ISONLINEDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATAITEM_SET_ISONLINEDATA_OFFSET))(this, a1);
 		}
 	};
 }

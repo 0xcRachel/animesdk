@@ -21,46 +21,46 @@ namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class Module; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETATTRIBUTEFLAGSIMPL_OFFSET UNITYSDK_OFFSET(0x1904CA70)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETCONSTRUCTORIMPL_OFFSET UNITYSDK_OFFSET(0x1904CAB0)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETCONSTRUCTORS_OFFSET UNITYSDK_OFFSET(0x1904CAF0)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x1904CB70)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1904CB30)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETELEMENTTYPE_OFFSET UNITYSDK_OFFSET(0x1904C9E0)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETEVENTS_OFFSET UNITYSDK_OFFSET(0x1904CBF0)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETEVENT_OFFSET UNITYSDK_OFFSET(0x1904CBB0)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETFIELDS_OFFSET UNITYSDK_OFFSET(0x1904CC70)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETFIELD_OFFSET UNITYSDK_OFFSET(0x1904CC30)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETINTERFACES_OFFSET UNITYSDK_OFFSET(0x1904CCF0)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETINTERFACE_OFFSET UNITYSDK_OFFSET(0x1904CCB0)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETMEMBERS_OFFSET UNITYSDK_OFFSET(0x1904CD30)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETMETHODIMPL_OFFSET UNITYSDK_OFFSET(0x1904CD70)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETMETHODS_OFFSET UNITYSDK_OFFSET(0x1904CDB0)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETNESTEDTYPES_OFFSET UNITYSDK_OFFSET(0x1904CE30)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETNESTEDTYPE_OFFSET UNITYSDK_OFFSET(0x1904CDF0)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1904CE70)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETPROPERTYIMPL_OFFSET UNITYSDK_OFFSET(0x1904CEB0)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GET_ASSEMBLYQUALIFIEDNAME_OFFSET UNITYSDK_OFFSET(0x1904C7B0)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GET_ASSEMBLY_OFFSET UNITYSDK_OFFSET(0x1904C760)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GET_BASETYPE_OFFSET UNITYSDK_OFFSET(0x1904C800)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x1904C850)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GET_GUID_OFFSET UNITYSDK_OFFSET(0x1904C8A0)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GET_MODULE_OFFSET UNITYSDK_OFFSET(0x1904C8F0)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GET_NAMESPACE_OFFSET UNITYSDK_OFFSET(0x1904C990)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1904C940)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GET_UNDERLYINGSYSTEMTYPE_OFFSET UNITYSDK_OFFSET(0x1904CA30)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_HASELEMENTTYPEIMPL_OFFSET UNITYSDK_OFFSET(0x1904CEF0)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_INVOKEMEMBER_OFFSET UNITYSDK_OFFSET(0x1904CF30)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_ISARRAYIMPL_OFFSET UNITYSDK_OFFSET(0x1904CF70)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_ISBYREFIMPL_OFFSET UNITYSDK_OFFSET(0x1904CFB0)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_ISCOMOBJECTIMPL_OFFSET UNITYSDK_OFFSET(0x1904CFF0)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x1904D030)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_ISPOINTERIMPL_OFFSET UNITYSDK_OFFSET(0x1904D070)
-#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_ISPRIMITIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1904D0B0)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETATTRIBUTEFLAGSIMPL_OFFSET UNITYSDK_OFFSET(0x197B25F0)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETCONSTRUCTORIMPL_OFFSET UNITYSDK_OFFSET(0x197B2630)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETCONSTRUCTORS_OFFSET UNITYSDK_OFFSET(0x197B2670)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x197B26F0)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x197B26B0)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETELEMENTTYPE_OFFSET UNITYSDK_OFFSET(0x197B2560)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETEVENTS_OFFSET UNITYSDK_OFFSET(0x197B2770)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETEVENT_OFFSET UNITYSDK_OFFSET(0x197B2730)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETFIELDS_OFFSET UNITYSDK_OFFSET(0x197B27F0)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETFIELD_OFFSET UNITYSDK_OFFSET(0x197B27B0)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETINTERFACES_OFFSET UNITYSDK_OFFSET(0x197B2870)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETINTERFACE_OFFSET UNITYSDK_OFFSET(0x197B2830)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETMEMBERS_OFFSET UNITYSDK_OFFSET(0x197B28B0)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETMETHODIMPL_OFFSET UNITYSDK_OFFSET(0x197B28F0)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETMETHODS_OFFSET UNITYSDK_OFFSET(0x197B2930)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETNESTEDTYPES_OFFSET UNITYSDK_OFFSET(0x197B29B0)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETNESTEDTYPE_OFFSET UNITYSDK_OFFSET(0x197B2970)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETPROPERTIES_OFFSET UNITYSDK_OFFSET(0x197B29F0)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETPROPERTYIMPL_OFFSET UNITYSDK_OFFSET(0x197B2A30)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GET_ASSEMBLYQUALIFIEDNAME_OFFSET UNITYSDK_OFFSET(0x197B2330)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GET_ASSEMBLY_OFFSET UNITYSDK_OFFSET(0x197B22E0)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GET_BASETYPE_OFFSET UNITYSDK_OFFSET(0x197B2380)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x197B23D0)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GET_GUID_OFFSET UNITYSDK_OFFSET(0x197B2420)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GET_MODULE_OFFSET UNITYSDK_OFFSET(0x197B2470)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GET_NAMESPACE_OFFSET UNITYSDK_OFFSET(0x197B2510)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GET_NAME_OFFSET UNITYSDK_OFFSET(0x197B24C0)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GET_UNDERLYINGSYSTEMTYPE_OFFSET UNITYSDK_OFFSET(0x197B25B0)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_HASELEMENTTYPEIMPL_OFFSET UNITYSDK_OFFSET(0x197B2A70)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_INVOKEMEMBER_OFFSET UNITYSDK_OFFSET(0x197B2AB0)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_ISARRAYIMPL_OFFSET UNITYSDK_OFFSET(0x197B2AF0)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_ISBYREFIMPL_OFFSET UNITYSDK_OFFSET(0x197B2B30)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_ISCOMOBJECTIMPL_OFFSET UNITYSDK_OFFSET(0x197B2B70)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x197B2BB0)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_ISPOINTERIMPL_OFFSET UNITYSDK_OFFSET(0x197B2BF0)
+#define SYSTEM_REFLECTION_EMIT_ENUMBUILDER_ISPRIMITIVEIMPL_OFFSET UNITYSDK_OFFSET(0x197B2C30)
 
 namespace System::Reflection::Emit
 {
-	inline static constexpr unsigned int EnumBuilder_TypeDefinitionIndex = 641;
+	inline static constexpr unsigned int EnumBuilder_TypeDefinitionIndex = 640;
 
 	class EnumBuilder : public ::System::Reflection::TypeInfo
 	{
@@ -120,49 +120,49 @@ namespace System::Reflection::Emit
 			return ((::System::Reflection::TypeAttributes(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETATTRIBUTEFLAGSIMPL_OFFSET))(this);
 		}
 
-		::System::Reflection::ConstructorInfo* GetConstructorImpl(::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder, ::System::Reflection::CallingConventions callConvention, ::Il2CppArray<::System::Type*>* types, ::Il2CppArray<::System::Reflection::ParameterModifier>* modifiers)
+		::System::Reflection::ConstructorInfo* GetConstructorImpl(::System::Reflection::BindingFlags a1, ::System::Reflection::Binder* a2, ::System::Reflection::CallingConventions a3, ::Il2CppArray<::System::Type*>* a4, ::Il2CppArray<::System::Reflection::ParameterModifier>* a5)
 		{
-			return ((::System::Reflection::ConstructorInfo*(*)(::PVOID, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Reflection::CallingConventions, ::Il2CppArray<::System::Type*>*, ::Il2CppArray<::System::Reflection::ParameterModifier>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETCONSTRUCTORIMPL_OFFSET))(this, bindingAttr, binder, callConvention, types, modifiers);
+			return ((::System::Reflection::ConstructorInfo*(*)(::PVOID, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Reflection::CallingConventions, ::Il2CppArray<::System::Type*>*, ::Il2CppArray<::System::Reflection::ParameterModifier>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETCONSTRUCTORIMPL_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::Il2CppArray<::System::Reflection::ConstructorInfo*>* GetConstructors(::System::Reflection::BindingFlags bindingAttr)
+		::Il2CppArray<::System::Reflection::ConstructorInfo*>* GetConstructors(::System::Reflection::BindingFlags a1)
 		{
-			return ((::Il2CppArray<::System::Reflection::ConstructorInfo*>*(*)(::PVOID, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETCONSTRUCTORS_OFFSET))(this, bindingAttr);
+			return ((::Il2CppArray<::System::Reflection::ConstructorInfo*>*(*)(::PVOID, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETCONSTRUCTORS_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Boolean a1)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETCUSTOMATTRIBUTES_OFFSET))(this, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETCUSTOMATTRIBUTES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Object*>* GetCustomAttributes_1(::System::Type* attributeType, ::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* GetCustomAttributes_1(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETCUSTOMATTRIBUTES_1_OFFSET))(this, attributeType, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETCUSTOMATTRIBUTES_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Reflection::EventInfo* GetEvent(::System::String* name, ::System::Reflection::BindingFlags bindingAttr)
+		::System::Reflection::EventInfo* GetEvent(::System::String* a1, ::System::Reflection::BindingFlags a2)
 		{
-			return ((::System::Reflection::EventInfo*(*)(::PVOID, ::System::String*, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETEVENT_OFFSET))(this, name, bindingAttr);
+			return ((::System::Reflection::EventInfo*(*)(::PVOID, ::System::String*, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETEVENT_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::System::Reflection::EventInfo*>* GetEvents(::System::Reflection::BindingFlags bindingAttr)
+		::Il2CppArray<::System::Reflection::EventInfo*>* GetEvents(::System::Reflection::BindingFlags a1)
 		{
-			return ((::Il2CppArray<::System::Reflection::EventInfo*>*(*)(::PVOID, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETEVENTS_OFFSET))(this, bindingAttr);
+			return ((::Il2CppArray<::System::Reflection::EventInfo*>*(*)(::PVOID, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETEVENTS_OFFSET))(this, a1);
 		}
 
-		::System::Reflection::FieldInfo* GetField(::System::String* name, ::System::Reflection::BindingFlags bindingAttr)
+		::System::Reflection::FieldInfo* GetField(::System::String* a1, ::System::Reflection::BindingFlags a2)
 		{
-			return ((::System::Reflection::FieldInfo*(*)(::PVOID, ::System::String*, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETFIELD_OFFSET))(this, name, bindingAttr);
+			return ((::System::Reflection::FieldInfo*(*)(::PVOID, ::System::String*, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETFIELD_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::System::Reflection::FieldInfo*>* GetFields(::System::Reflection::BindingFlags bindingAttr)
+		::Il2CppArray<::System::Reflection::FieldInfo*>* GetFields(::System::Reflection::BindingFlags a1)
 		{
-			return ((::Il2CppArray<::System::Reflection::FieldInfo*>*(*)(::PVOID, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETFIELDS_OFFSET))(this, bindingAttr);
+			return ((::Il2CppArray<::System::Reflection::FieldInfo*>*(*)(::PVOID, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETFIELDS_OFFSET))(this, a1);
 		}
 
-		::System::Type* GetInterface(::System::String* name, ::System::Boolean ignoreCase)
+		::System::Type* GetInterface(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Type*(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETINTERFACE_OFFSET))(this, name, ignoreCase);
+			return ((::System::Type*(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETINTERFACE_OFFSET))(this, a1, a2);
 		}
 
 		::Il2CppArray<::System::Type*>* GetInterfaces()
@@ -170,39 +170,39 @@ namespace System::Reflection::Emit
 			return ((::Il2CppArray<::System::Type*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETINTERFACES_OFFSET))(this);
 		}
 
-		::Il2CppArray<::System::Reflection::MemberInfo*>* GetMembers(::System::Reflection::BindingFlags bindingAttr)
+		::Il2CppArray<::System::Reflection::MemberInfo*>* GetMembers(::System::Reflection::BindingFlags a1)
 		{
-			return ((::Il2CppArray<::System::Reflection::MemberInfo*>*(*)(::PVOID, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETMEMBERS_OFFSET))(this, bindingAttr);
+			return ((::Il2CppArray<::System::Reflection::MemberInfo*>*(*)(::PVOID, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETMEMBERS_OFFSET))(this, a1);
 		}
 
-		::System::Reflection::MethodInfo* GetMethodImpl(::System::String* name, ::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder, ::System::Reflection::CallingConventions callConvention, ::Il2CppArray<::System::Type*>* types, ::Il2CppArray<::System::Reflection::ParameterModifier>* modifiers)
+		::System::Reflection::MethodInfo* GetMethodImpl(::System::String* a1, ::System::Reflection::BindingFlags a2, ::System::Reflection::Binder* a3, ::System::Reflection::CallingConventions a4, ::Il2CppArray<::System::Type*>* a5, ::Il2CppArray<::System::Reflection::ParameterModifier>* a6)
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::System::String*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Reflection::CallingConventions, ::Il2CppArray<::System::Type*>*, ::Il2CppArray<::System::Reflection::ParameterModifier>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETMETHODIMPL_OFFSET))(this, name, bindingAttr, binder, callConvention, types, modifiers);
+			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::System::String*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Reflection::CallingConventions, ::Il2CppArray<::System::Type*>*, ::Il2CppArray<::System::Reflection::ParameterModifier>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETMETHODIMPL_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::Il2CppArray<::System::Reflection::MethodInfo*>* GetMethods(::System::Reflection::BindingFlags bindingAttr)
+		::Il2CppArray<::System::Reflection::MethodInfo*>* GetMethods(::System::Reflection::BindingFlags a1)
 		{
-			return ((::Il2CppArray<::System::Reflection::MethodInfo*>*(*)(::PVOID, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETMETHODS_OFFSET))(this, bindingAttr);
+			return ((::Il2CppArray<::System::Reflection::MethodInfo*>*(*)(::PVOID, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETMETHODS_OFFSET))(this, a1);
 		}
 
-		::System::Type* GetNestedType(::System::String* name, ::System::Reflection::BindingFlags bindingAttr)
+		::System::Type* GetNestedType(::System::String* a1, ::System::Reflection::BindingFlags a2)
 		{
-			return ((::System::Type*(*)(::PVOID, ::System::String*, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETNESTEDTYPE_OFFSET))(this, name, bindingAttr);
+			return ((::System::Type*(*)(::PVOID, ::System::String*, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETNESTEDTYPE_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::System::Type*>* GetNestedTypes(::System::Reflection::BindingFlags bindingAttr)
+		::Il2CppArray<::System::Type*>* GetNestedTypes(::System::Reflection::BindingFlags a1)
 		{
-			return ((::Il2CppArray<::System::Type*>*(*)(::PVOID, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETNESTEDTYPES_OFFSET))(this, bindingAttr);
+			return ((::Il2CppArray<::System::Type*>*(*)(::PVOID, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETNESTEDTYPES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Reflection::PropertyInfo*>* GetProperties(::System::Reflection::BindingFlags bindingAttr)
+		::Il2CppArray<::System::Reflection::PropertyInfo*>* GetProperties(::System::Reflection::BindingFlags a1)
 		{
-			return ((::Il2CppArray<::System::Reflection::PropertyInfo*>*(*)(::PVOID, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETPROPERTIES_OFFSET))(this, bindingAttr);
+			return ((::Il2CppArray<::System::Reflection::PropertyInfo*>*(*)(::PVOID, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETPROPERTIES_OFFSET))(this, a1);
 		}
 
-		::System::Reflection::PropertyInfo* GetPropertyImpl(::System::String* name, ::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder, ::System::Type* returnType, ::Il2CppArray<::System::Type*>* types, ::Il2CppArray<::System::Reflection::ParameterModifier>* modifiers)
+		::System::Reflection::PropertyInfo* GetPropertyImpl(::System::String* a1, ::System::Reflection::BindingFlags a2, ::System::Reflection::Binder* a3, ::System::Type* a4, ::Il2CppArray<::System::Type*>* a5, ::Il2CppArray<::System::Reflection::ParameterModifier>* a6)
 		{
-			return ((::System::Reflection::PropertyInfo*(*)(::PVOID, ::System::String*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Type*, ::Il2CppArray<::System::Type*>*, ::Il2CppArray<::System::Reflection::ParameterModifier>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETPROPERTYIMPL_OFFSET))(this, name, bindingAttr, binder, returnType, types, modifiers);
+			return ((::System::Reflection::PropertyInfo*(*)(::PVOID, ::System::String*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Type*, ::Il2CppArray<::System::Type*>*, ::Il2CppArray<::System::Reflection::ParameterModifier>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_GETPROPERTYIMPL_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Boolean HasElementTypeImpl()
@@ -210,9 +210,9 @@ namespace System::Reflection::Emit
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_HASELEMENTTYPEIMPL_OFFSET))(this);
 		}
 
-		::System::Object* InvokeMember(::System::String* name, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::System::Object* target, ::Il2CppArray<::System::Object*>* args, ::Il2CppArray<::System::Reflection::ParameterModifier>* modifiers, ::System::Globalization::CultureInfo* culture, ::Il2CppArray<::System::String*>* namedParameters)
+		::System::Object* InvokeMember(::System::String* a1, ::System::Reflection::BindingFlags a2, ::System::Reflection::Binder* a3, ::System::Object* a4, ::Il2CppArray<::System::Object*>* a5, ::Il2CppArray<::System::Reflection::ParameterModifier>* a6, ::System::Globalization::CultureInfo* a7, ::Il2CppArray<::System::String*>* a8)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::String*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Object*, ::Il2CppArray<::System::Object*>*, ::Il2CppArray<::System::Reflection::ParameterModifier>*, ::System::Globalization::CultureInfo*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_INVOKEMEMBER_OFFSET))(this, name, invokeAttr, binder, target, args, modifiers, culture, namedParameters);
+			return ((::System::Object*(*)(::PVOID, ::System::String*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Object*, ::Il2CppArray<::System::Object*>*, ::Il2CppArray<::System::Reflection::ParameterModifier>*, ::System::Globalization::CultureInfo*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_INVOKEMEMBER_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		::System::Boolean IsArrayImpl()
@@ -230,9 +230,9 @@ namespace System::Reflection::Emit
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_ISCOMOBJECTIMPL_OFFSET))(this);
 		}
 
-		::System::Boolean IsDefined(::System::Type* attributeType, ::System::Boolean inherit)
+		::System::Boolean IsDefined(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_ISDEFINED_OFFSET))(this, attributeType, inherit);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ENUMBUILDER_ISDEFINED_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean IsPointerImpl()

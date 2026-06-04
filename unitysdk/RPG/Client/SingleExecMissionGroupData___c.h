@@ -5,24 +5,24 @@
 namespace RPG::Client { class SubMissionData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__ADDSUBMISSION_B__1_0_OFFSET UNITYSDK_OFFSET(0x1536BE90)
-#define RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1536BE50)
-#define RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1536BE80)
+#define RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__ADDSUBMISSION_B__1_0_OFFSET UNITYSDK_OFFSET(0x17C087E0)
+#define RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17C087A0)
+#define RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17C087D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SingleExecMissionGroupData___c_TypeDefinitionIndex = 60956;
+	inline static constexpr unsigned int SingleExecMissionGroupData___c_TypeDefinitionIndex = 61890;
 
 	class SingleExecMissionGroupData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::SingleExecMissionGroupData___c** StaticGet___9()
-		{
-			return (::RPG::Client::SingleExecMissionGroupData___c**)Il2CppClass::FromTypeDefinitionIndex(SingleExecMissionGroupData___c_TypeDefinitionIndex)->GetStaticField(0x3AE90);
-		}
 		static ::System::Comparison_1<::RPG::Client::SubMissionData*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)Il2CppClass::FromTypeDefinitionIndex(SingleExecMissionGroupData___c_TypeDefinitionIndex)->GetStaticField(0x3AE98);
+			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)Il2CppClass::FromTypeDefinitionIndex(SingleExecMissionGroupData___c_TypeDefinitionIndex)->GetStaticField(0x3F320);
+		}
+		static ::RPG::Client::SingleExecMissionGroupData___c** StaticGet___9()
+		{
+			return (::RPG::Client::SingleExecMissionGroupData___c**)Il2CppClass::FromTypeDefinitionIndex(SingleExecMissionGroupData___c_TypeDefinitionIndex)->GetStaticField(0x3F328);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _AddSubMission_b__1_0(::RPG::Client::SubMissionData* x, ::RPG::Client::SubMissionData* y)
+		::System::Int32 _AddSubMission_b__1_0(::RPG::Client::SubMissionData* a1, ::RPG::Client::SubMissionData* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::SubMissionData*, ::RPG::Client::SubMissionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__ADDSUBMISSION_B__1_0_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::SubMissionData*, ::RPG::Client::SubMissionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__ADDSUBMISSION_B__1_0_OFFSET))(this, a1, a2);
 		}
 	};
 }

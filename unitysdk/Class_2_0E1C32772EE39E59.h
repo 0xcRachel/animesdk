@@ -3,29 +3,29 @@
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
 class Class_2_01F4079471966D8C;
-class Class_3_E21F6DE9B7FA4D05;
+class Class_3_07C3C4D2990C49EE;
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitPropAnimState; }
 
-#define CLASS_2_0E1C32772EE39E59_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11925CC0)
-#define CLASS_2_0E1C32772EE39E59_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11925D50)
-#define CLASS_2_0E1C32772EE39E59_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11925DF0)
-#define CLASS_2_0E1C32772EE39E59_TICK_OFFSET UNITYSDK_OFFSET(0x11925EC0)
-#define CLASS_2_0E1C32772EE39E59__CTOR_OFFSET UNITYSDK_OFFSET(0x11925B80)
+#define CLASS_2_0E1C32772EE39E59_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C32A00)
+#define CLASS_2_0E1C32772EE39E59_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C32A90)
+#define CLASS_2_0E1C32772EE39E59_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15C32B30)
+#define CLASS_2_0E1C32772EE39E59_TICK_OFFSET UNITYSDK_OFFSET(0x15C32C00)
+#define CLASS_2_0E1C32772EE39E59__CTOR_OFFSET UNITYSDK_OFFSET(0x15C328C0)
 
-inline static constexpr unsigned int Class_2_0E1C32772EE39E59_TypeDefinitionIndex = 51461;
+inline static constexpr unsigned int Class_2_0E1C32772EE39E59_TypeDefinitionIndex = 52129;
 
 class Class_2_0E1C32772EE39E59 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::Class_3_E21F6DE9B7FA4D05* Field_2_3; // 0x20
-	::RPG::GameCore::WaitPropAnimState* Field_2_0; // 0x28
-	::Class_3_E21F6DE9B7FA4D05* Field_2_2; // 0x30
-	::Class_2_01F4079471966D8C* Field_2_5; // 0x38
-	::System::Boolean Field_2_6; // 0x40
-	::System::Single Field_2_7; // 0x44
-	::System::Int32 Field_2_4; // 0x48
+	::Class_3_07C3C4D2990C49EE* Field_2_0; // 0x18
+	::Class_2_01F4079471966D8C* Field_2_1; // 0x20
+	::Class_3_07C3C4D2990C49EE* Field_2_2; // 0x28
+	::RPG::GameCore::WaitPropAnimState* Field_2_3; // 0x30
+	::RPG::GameCore::TaskContext* Field_2_4; // 0x38
+	::System::Int32 Field_2_5; // 0x40
+	::System::Boolean Field_2_6; // 0x44
+	::System::Single Field_2_7; // 0x48
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitPropAnimState* a2)
 	{

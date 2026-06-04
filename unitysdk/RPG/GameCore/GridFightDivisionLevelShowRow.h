@@ -6,34 +6,34 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTDIVISIONLEVELSHOWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1956B400)
-#define RPG_GAMECORE_GRIDFIGHTDIVISIONLEVELSHOWROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1956B7C0)
+#define RPG_GAMECORE_GRIDFIGHTDIVISIONLEVELSHOWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AC81810)
+#define RPG_GAMECORE_GRIDFIGHTDIVISIONLEVELSHOWROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC81BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightDivisionLevelShowRow_TypeDefinitionIndex = 12876;
+	inline static constexpr unsigned int GridFightDivisionLevelShowRow_TypeDefinitionIndex = 12961;
 
 	class GridFightDivisionLevelShowRow : public ::System::Object
 	{
 	public:
 		::System::String* DivisionIcon; // 0x10
 		::System::String* DivisionShowPic; // 0x18
-		::System::UInt32 DivisionLevel; // 0x20
-		::System::UInt32 DivisionSPRewardQuest; // 0x24
-		::RPG::Client::TextID DivisionNameWithNum; // 0x28
-		::RPG::Client::TextID DivisionAbbr; // 0x38
-		::RPG::Client::TextID DivisionName; // 0x48
-		::System::UInt32 SeasonID; // 0x58
-		::System::UInt32 DivisionRewardQuest; // 0x5C
+		::RPG::Client::TextID DivisionNameWithNum; // 0x20
+		::RPG::Client::TextID DivisionName; // 0x30
+		::System::UInt32 DivisionLevel; // 0x40
+		::System::UInt32 DivisionRewardQuest; // 0x44
+		::System::UInt32 SeasonID; // 0x48
+		::System::UInt32 DivisionSPRewardQuest; // 0x4C
+		::RPG::Client::TextID DivisionAbbr; // 0x50
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTDIVISIONLEVELSHOWROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GridFightDivisionLevelShowRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightDivisionLevelShowRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightDivisionLevelShowRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTDIVISIONLEVELSHOWROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightDivisionLevelShowRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTDIVISIONLEVELSHOWROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

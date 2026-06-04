@@ -26,32 +26,32 @@ namespace Epic::OnlineServices::PlayerDataStorage { class ReadFileOptions; }
 namespace Epic::OnlineServices::PlayerDataStorage { class WriteFileOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_COPYFILEMETADATAATINDEX_OFFSET UNITYSDK_OFFSET(0x195F8A40)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_COPYFILEMETADATABYFILENAME_OFFSET UNITYSDK_OFFSET(0x195F8CF0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_DELETECACHE_OFFSET UNITYSDK_OFFSET(0x195F8EF0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_DELETEFILE_OFFSET UNITYSDK_OFFSET(0x195F9150)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_DUPLICATEFILE_OFFSET UNITYSDK_OFFSET(0x195F9310)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_GETFILEMETADATACOUNT_OFFSET UNITYSDK_OFFSET(0x195F94D0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONDELETECACHECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x195F8260)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONDELETEFILECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x195F82F0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONDUPLICATEFILECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x195F8380)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONFILETRANSFERPROGRESSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x195F8410)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONQUERYFILECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x195F84E0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONQUERYFILELISTCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x195F8570)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONREADFILECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x195F8600)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONREADFILEDATACALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x195F8690)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONWRITEFILECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x195F8770)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONWRITEFILEDATACALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x195F8800)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_QUERYFILELIST_OFFSET UNITYSDK_OFFSET(0x195F9880)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_QUERYFILE_OFFSET UNITYSDK_OFFSET(0x195F96C0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_READFILE_OFFSET UNITYSDK_OFFSET(0x195F9AC0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_WRITEFILE_OFFSET UNITYSDK_OFFSET(0x195FA0F0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x195F8A30)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x195F8A20)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_COPYFILEMETADATAATINDEX_OFFSET UNITYSDK_OFFSET(0x1A3BDF70)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_COPYFILEMETADATABYFILENAME_OFFSET UNITYSDK_OFFSET(0x1A3BE220)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_DELETECACHE_OFFSET UNITYSDK_OFFSET(0x1A3BE420)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_DELETEFILE_OFFSET UNITYSDK_OFFSET(0x1A3BE690)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_DUPLICATEFILE_OFFSET UNITYSDK_OFFSET(0x1A3BE870)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_GETFILEMETADATACOUNT_OFFSET UNITYSDK_OFFSET(0x1A3BEA50)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONDELETECACHECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A3BD710)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONDELETEFILECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A3BD7B0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONDUPLICATEFILECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A3BD850)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONFILETRANSFERPROGRESSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A3BD8F0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONQUERYFILECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A3BD9C0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONQUERYFILELISTCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A3BDA60)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONREADFILECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A3BDB00)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONREADFILEDATACALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A3BDBA0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONWRITEFILECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A3BDC90)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONWRITEFILEDATACALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A3BDD30)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_QUERYFILELIST_OFFSET UNITYSDK_OFFSET(0x1A3BEE20)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_QUERYFILE_OFFSET UNITYSDK_OFFSET(0x1A3BEC40)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_READFILE_OFFSET UNITYSDK_OFFSET(0x1A3BF080)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_WRITEFILE_OFFSET UNITYSDK_OFFSET(0x1A3BF680)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A3BDF60)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3BDF50)
 
 namespace Epic::OnlineServices::PlayerDataStorage
 {
-	inline static constexpr unsigned int PlayerDataStorageInterface_TypeDefinitionIndex = 41670;
+	inline static constexpr unsigned int PlayerDataStorageInterface_TypeDefinitionIndex = 42473;
 
 	class PlayerDataStorageInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -75,109 +75,109 @@ namespace Epic::OnlineServices::PlayerDataStorage
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result CopyFileMetadataAtIndex(::Epic::OnlineServices::PlayerDataStorage::CopyFileMetadataAtIndexOptions* copyFileMetadataOptions, ::Epic::OnlineServices::PlayerDataStorage::FileMetadata*& outMetadata)
+		::Epic::OnlineServices::Result CopyFileMetadataAtIndex(::Epic::OnlineServices::PlayerDataStorage::CopyFileMetadataAtIndexOptions* a1, ::Epic::OnlineServices::PlayerDataStorage::FileMetadata*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::CopyFileMetadataAtIndexOptions*, ::Epic::OnlineServices::PlayerDataStorage::FileMetadata*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_COPYFILEMETADATAATINDEX_OFFSET))(this, copyFileMetadataOptions, outMetadata);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::CopyFileMetadataAtIndexOptions*, ::Epic::OnlineServices::PlayerDataStorage::FileMetadata*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_COPYFILEMETADATAATINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyFileMetadataByFilename(::Epic::OnlineServices::PlayerDataStorage::CopyFileMetadataByFilenameOptions* copyFileMetadataOptions, ::Epic::OnlineServices::PlayerDataStorage::FileMetadata*& outMetadata)
+		::Epic::OnlineServices::Result CopyFileMetadataByFilename(::Epic::OnlineServices::PlayerDataStorage::CopyFileMetadataByFilenameOptions* a1, ::Epic::OnlineServices::PlayerDataStorage::FileMetadata*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::CopyFileMetadataByFilenameOptions*, ::Epic::OnlineServices::PlayerDataStorage::FileMetadata*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_COPYFILEMETADATABYFILENAME_OFFSET))(this, copyFileMetadataOptions, outMetadata);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::CopyFileMetadataByFilenameOptions*, ::Epic::OnlineServices::PlayerDataStorage::FileMetadata*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_COPYFILEMETADATABYFILENAME_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result DeleteCache(::Epic::OnlineServices::PlayerDataStorage::DeleteCacheOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::PlayerDataStorage::OnDeleteCacheCompleteCallback* completionCallback)
+		::Epic::OnlineServices::Result DeleteCache(::Epic::OnlineServices::PlayerDataStorage::DeleteCacheOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::PlayerDataStorage::OnDeleteCacheCompleteCallback* a3)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::DeleteCacheOptions*, ::System::Object*, ::Epic::OnlineServices::PlayerDataStorage::OnDeleteCacheCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_DELETECACHE_OFFSET))(this, options, clientData, completionCallback);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::DeleteCacheOptions*, ::System::Object*, ::Epic::OnlineServices::PlayerDataStorage::OnDeleteCacheCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_DELETECACHE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void DeleteFile(::Epic::OnlineServices::PlayerDataStorage::DeleteFileOptions* deleteOptions, ::System::Object* clientData, ::Epic::OnlineServices::PlayerDataStorage::OnDeleteFileCompleteCallback* completionCallback)
+		::System::Void DeleteFile(::Epic::OnlineServices::PlayerDataStorage::DeleteFileOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::PlayerDataStorage::OnDeleteFileCompleteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::DeleteFileOptions*, ::System::Object*, ::Epic::OnlineServices::PlayerDataStorage::OnDeleteFileCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_DELETEFILE_OFFSET))(this, deleteOptions, clientData, completionCallback);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::DeleteFileOptions*, ::System::Object*, ::Epic::OnlineServices::PlayerDataStorage::OnDeleteFileCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_DELETEFILE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void DuplicateFile(::Epic::OnlineServices::PlayerDataStorage::DuplicateFileOptions* duplicateOptions, ::System::Object* clientData, ::Epic::OnlineServices::PlayerDataStorage::OnDuplicateFileCompleteCallback* completionCallback)
+		::System::Void DuplicateFile(::Epic::OnlineServices::PlayerDataStorage::DuplicateFileOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::PlayerDataStorage::OnDuplicateFileCompleteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::DuplicateFileOptions*, ::System::Object*, ::Epic::OnlineServices::PlayerDataStorage::OnDuplicateFileCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_DUPLICATEFILE_OFFSET))(this, duplicateOptions, clientData, completionCallback);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::DuplicateFileOptions*, ::System::Object*, ::Epic::OnlineServices::PlayerDataStorage::OnDuplicateFileCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_DUPLICATEFILE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::Result GetFileMetadataCount(::Epic::OnlineServices::PlayerDataStorage::GetFileMetadataCountOptions* getFileMetadataCountOptions, ::System::Int32& outFileMetadataCount)
+		::Epic::OnlineServices::Result GetFileMetadataCount(::Epic::OnlineServices::PlayerDataStorage::GetFileMetadataCountOptions* a1, ::System::Int32& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::GetFileMetadataCountOptions*, ::System::Int32&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_GETFILEMETADATACOUNT_OFFSET))(this, getFileMetadataCountOptions, outFileMetadataCount);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::GetFileMetadataCountOptions*, ::System::Int32&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_GETFILEMETADATACOUNT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void QueryFile(::Epic::OnlineServices::PlayerDataStorage::QueryFileOptions* queryFileOptions, ::System::Object* clientData, ::Epic::OnlineServices::PlayerDataStorage::OnQueryFileCompleteCallback* completionCallback)
+		::System::Void QueryFile(::Epic::OnlineServices::PlayerDataStorage::QueryFileOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::PlayerDataStorage::OnQueryFileCompleteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::QueryFileOptions*, ::System::Object*, ::Epic::OnlineServices::PlayerDataStorage::OnQueryFileCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_QUERYFILE_OFFSET))(this, queryFileOptions, clientData, completionCallback);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::QueryFileOptions*, ::System::Object*, ::Epic::OnlineServices::PlayerDataStorage::OnQueryFileCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_QUERYFILE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void QueryFileList(::Epic::OnlineServices::PlayerDataStorage::QueryFileListOptions* queryFileListOptions, ::System::Object* clientData, ::Epic::OnlineServices::PlayerDataStorage::OnQueryFileListCompleteCallback* completionCallback)
+		::System::Void QueryFileList(::Epic::OnlineServices::PlayerDataStorage::QueryFileListOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::PlayerDataStorage::OnQueryFileListCompleteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::QueryFileListOptions*, ::System::Object*, ::Epic::OnlineServices::PlayerDataStorage::OnQueryFileListCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_QUERYFILELIST_OFFSET))(this, queryFileListOptions, clientData, completionCallback);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::QueryFileListOptions*, ::System::Object*, ::Epic::OnlineServices::PlayerDataStorage::OnQueryFileListCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_QUERYFILELIST_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::PlayerDataStorage::PlayerDataStorageFileTransferRequest* ReadFile(::Epic::OnlineServices::PlayerDataStorage::ReadFileOptions* readOptions, ::System::Object* clientData, ::Epic::OnlineServices::PlayerDataStorage::OnReadFileCompleteCallback* completionCallback)
+		::Epic::OnlineServices::PlayerDataStorage::PlayerDataStorageFileTransferRequest* ReadFile(::Epic::OnlineServices::PlayerDataStorage::ReadFileOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::PlayerDataStorage::OnReadFileCompleteCallback* a3)
 		{
-			return ((::Epic::OnlineServices::PlayerDataStorage::PlayerDataStorageFileTransferRequest*(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::ReadFileOptions*, ::System::Object*, ::Epic::OnlineServices::PlayerDataStorage::OnReadFileCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_READFILE_OFFSET))(this, readOptions, clientData, completionCallback);
+			return ((::Epic::OnlineServices::PlayerDataStorage::PlayerDataStorageFileTransferRequest*(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::ReadFileOptions*, ::System::Object*, ::Epic::OnlineServices::PlayerDataStorage::OnReadFileCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_READFILE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::PlayerDataStorage::PlayerDataStorageFileTransferRequest* WriteFile(::Epic::OnlineServices::PlayerDataStorage::WriteFileOptions* writeOptions, ::System::Object* clientData, ::Epic::OnlineServices::PlayerDataStorage::OnWriteFileCompleteCallback* completionCallback)
+		::Epic::OnlineServices::PlayerDataStorage::PlayerDataStorageFileTransferRequest* WriteFile(::Epic::OnlineServices::PlayerDataStorage::WriteFileOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::PlayerDataStorage::OnWriteFileCompleteCallback* a3)
 		{
-			return ((::Epic::OnlineServices::PlayerDataStorage::PlayerDataStorageFileTransferRequest*(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::WriteFileOptions*, ::System::Object*, ::Epic::OnlineServices::PlayerDataStorage::OnWriteFileCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_WRITEFILE_OFFSET))(this, writeOptions, clientData, completionCallback);
+			return ((::Epic::OnlineServices::PlayerDataStorage::PlayerDataStorageFileTransferRequest*(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::WriteFileOptions*, ::System::Object*, ::Epic::OnlineServices::PlayerDataStorage::OnWriteFileCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_WRITEFILE_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void OnDeleteCacheCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnDeleteCacheCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONDELETECACHECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONDELETECACHECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnDeleteFileCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnDeleteFileCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONDELETEFILECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONDELETEFILECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnDuplicateFileCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnDuplicateFileCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONDUPLICATEFILECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONDUPLICATEFILECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnFileTransferProgressCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnFileTransferProgressCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONFILETRANSFERPROGRESSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONFILETRANSFERPROGRESSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnQueryFileCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryFileCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONQUERYFILECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONQUERYFILECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnQueryFileListCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryFileListCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONQUERYFILELISTCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONQUERYFILELISTCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnReadFileCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnReadFileCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONREADFILECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONREADFILECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::Epic::OnlineServices::PlayerDataStorage::ReadResult OnReadFileDataCallbackInternalImplementation(::System::IntPtr data)
+		static ::Epic::OnlineServices::PlayerDataStorage::ReadResult OnReadFileDataCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::Epic::OnlineServices::PlayerDataStorage::ReadResult(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONREADFILEDATACALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::Epic::OnlineServices::PlayerDataStorage::ReadResult(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONREADFILEDATACALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnWriteFileCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnWriteFileCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONWRITEFILECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONWRITEFILECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::Epic::OnlineServices::PlayerDataStorage::WriteResult OnWriteFileDataCallbackInternalImplementation(::System::IntPtr data, ::System::IntPtr outDataBuffer, ::System::UInt32& outDataWritten)
+		static ::Epic::OnlineServices::PlayerDataStorage::WriteResult OnWriteFileDataCallbackInternalImplementation(::System::IntPtr a1, ::System::IntPtr a2, ::System::UInt32& a3)
 		{
-			return ((::Epic::OnlineServices::PlayerDataStorage::WriteResult(*)(::System::IntPtr, ::System::IntPtr, ::System::UInt32&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONWRITEFILEDATACALLBACKINTERNALIMPLEMENTATION_OFFSET))(data, outDataBuffer, outDataWritten);
+			return ((::Epic::OnlineServices::PlayerDataStorage::WriteResult(*)(::System::IntPtr, ::System::IntPtr, ::System::UInt32&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_PLAYERDATASTORAGEINTERFACE_ONWRITEFILEDATACALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1, a2, a3);
 		}
 	};
 }

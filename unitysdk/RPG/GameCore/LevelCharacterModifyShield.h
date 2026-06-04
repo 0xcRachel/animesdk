@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF2A3210)
-#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF2A31C0)
-#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_INIT_OFFSET UNITYSDK_OFFSET(0xF2A3140)
-#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD__CTOR_OFFSET UNITYSDK_OFFSET(0xF2A3260)
+#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x18729C50)
+#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18729C00)
+#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_INIT_OFFSET UNITYSDK_OFFSET(0x18729B80)
+#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x18729CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCharacterModifyShield_TypeDefinitionIndex = 52338;
+	inline static constexpr unsigned int LevelCharacterModifyShield_TypeDefinitionIndex = 53035;
 
-	class LevelCharacterModifyShield : public ::Class_1_9988289E7F8AA214
+	class LevelCharacterModifyShield : public ::Class_1_BF7A075734D15E98
 	{
 	public:
-		::RPG::GameCore::GameEntity* Target; // 0x18
+		::RPG::GameCore::GameEntity* Caster; // 0x18
 		::RPG::GameCore::TaskContext* Context; // 0x20
-		::RPG::GameCore::GameEntity* Caster; // 0x28
+		::RPG::GameCore::GameEntity* Target; // 0x28
 		::RPG::GameCore::FixPoint Shield; // 0x30
 
 		::System::Void _ctor()
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelCharacterModifyShield* Init(::RPG::GameCore::GameEntity* pCaster, ::RPG::GameCore::GameEntity* pTarget, ::RPG::GameCore::FixPoint fShield, ::RPG::GameCore::TaskContext* pContext)
+		::RPG::GameCore::LevelCharacterModifyShield* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::FixPoint a3, ::RPG::GameCore::TaskContext* a4)
 		{
-			return ((::RPG::GameCore::LevelCharacterModifyShield*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_INIT_OFFSET))(this, pCaster, pTarget, fShield, pContext);
+			return ((::RPG::GameCore::LevelCharacterModifyShield*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_INIT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

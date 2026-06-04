@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-class Class_1_256D9F63CEA2C6FD;
+class Class_1_843DD6330B22E422;
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELCHARACTERBEGINATTACK_CLEAR_OFFSET UNITYSDK_OFFSET(0xF2A1FD0)
-#define RPG_GAMECORE_LEVELCHARACTERBEGINATTACK_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF2A2070)
-#define RPG_GAMECORE_LEVELCHARACTERBEGINATTACK_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF2A2020)
-#define RPG_GAMECORE_LEVELCHARACTERBEGINATTACK_INIT_OFFSET UNITYSDK_OFFSET(0xF2A1F60)
-#define RPG_GAMECORE_LEVELCHARACTERBEGINATTACK__CTOR_OFFSET UNITYSDK_OFFSET(0xF2A20C0)
-#define RPG_GAMECORE_LEVELCHARACTERBEGINATTACK___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xF2A20D0)
+#define RPG_GAMECORE_LEVELCHARACTERBEGINATTACK_CLEAR_OFFSET UNITYSDK_OFFSET(0x18728A70)
+#define RPG_GAMECORE_LEVELCHARACTERBEGINATTACK_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x18728B10)
+#define RPG_GAMECORE_LEVELCHARACTERBEGINATTACK_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18728AC0)
+#define RPG_GAMECORE_LEVELCHARACTERBEGINATTACK_INIT_OFFSET UNITYSDK_OFFSET(0x18728A00)
+#define RPG_GAMECORE_LEVELCHARACTERBEGINATTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18728B60)
+#define RPG_GAMECORE_LEVELCHARACTERBEGINATTACK___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x18728B70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCharacterBeginAttack_TypeDefinitionIndex = 52333;
+	inline static constexpr unsigned int LevelCharacterBeginAttack_TypeDefinitionIndex = 53030;
 
-	class LevelCharacterBeginAttack : public ::Class_1_9988289E7F8AA214
+	class LevelCharacterBeginAttack : public ::Class_1_BF7A075734D15E98
 	{
 	public:
-		::Class_1_256D9F63CEA2C6FD* DamageData; // 0x18
-		::RPG::GameCore::GameEntity* Attacker; // 0x20
+		::RPG::GameCore::GameEntity* Attacker; // 0x18
+		::Class_1_843DD6330B22E422* DamageData; // 0x20
 		::RPG::GameCore::GameEntity* Defender; // 0x28
 
 		::System::Void _ctor()
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERBEGINATTACK__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelCharacterBeginAttack* Init(::Class_1_256D9F63CEA2C6FD* damageData, ::RPG::GameCore::GameEntity* attacker, ::RPG::GameCore::GameEntity* defender)
+		::RPG::GameCore::LevelCharacterBeginAttack* Init(::Class_1_843DD6330B22E422* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::GameEntity* a3)
 		{
-			return ((::RPG::GameCore::LevelCharacterBeginAttack*(*)(::PVOID, ::Class_1_256D9F63CEA2C6FD*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERBEGINATTACK_INIT_OFFSET))(this, damageData, attacker, defender);
+			return ((::RPG::GameCore::LevelCharacterBeginAttack*(*)(::PVOID, ::Class_1_843DD6330B22E422*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERBEGINATTACK_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Clear()

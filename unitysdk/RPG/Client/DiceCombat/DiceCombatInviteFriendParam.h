@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0x17A227B0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM_GET_UID_OFFSET UNITYSDK_OFFSET(0x17A22840)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM_SET_UID_OFFSET UNITYSDK_OFFSET(0x17A22850)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x17A22830)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0x18B7CA40)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM_GET_UID_OFFSET UNITYSDK_OFFSET(0x18B7CAD0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM_SET_UID_OFFSET UNITYSDK_OFFSET(0x18B7CAE0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18B7CAC0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatInviteFriendParam_TypeDefinitionIndex = 69886;
+	inline static constexpr unsigned int DiceCombatInviteFriendParam_TypeDefinitionIndex = 70698;
 
 	class DiceCombatInviteFriendParam : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::DiceCombat::DiceCombatInviteFriendParam* Create(::System::UInt32 uid)
+		static ::RPG::Client::DiceCombat::DiceCombatInviteFriendParam* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::DiceCombat::DiceCombatInviteFriendParam*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM_CREATE_OFFSET))(uid);
+			return ((::RPG::Client::DiceCombat::DiceCombatInviteFriendParam*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM_CREATE_OFFSET))(a1);
 		}
 
 		::System::UInt32 get_UID()
@@ -31,9 +31,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM_GET_UID_OFFSET))(this);
 		}
 
-		::System::Void set_UID(::System::UInt32 value)
+		::System::Void set_UID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM_SET_UID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATINVITEFRIENDPARAM_SET_UID_OFFSET))(this, a1);
 		}
 	};
 }

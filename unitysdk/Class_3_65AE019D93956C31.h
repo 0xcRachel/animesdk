@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PillarPuzzleInteract; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_65AE019D93956C31_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E3F640)
-#define CLASS_3_65AE019D93956C31__CTOR_OFFSET UNITYSDK_OFFSET(0x16E3F610)
+#define CLASS_3_65AE019D93956C31_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16A80700)
+#define CLASS_3_65AE019D93956C31__CTOR_OFFSET UNITYSDK_OFFSET(0x16A806D0)
 
-inline static constexpr unsigned int Class_3_65AE019D93956C31_TypeDefinitionIndex = 53725;
+inline static constexpr unsigned int Class_3_65AE019D93956C31_TypeDefinitionIndex = 54449;
 
 class Class_3_65AE019D93956C31 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PillarPuzzleInteract*>
 {

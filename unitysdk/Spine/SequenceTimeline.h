@@ -11,16 +11,16 @@ namespace Spine { class IHasTextureRegion; }
 namespace Spine { class Skeleton; }
 namespace Spine { template <typename T> class ExposedList_1; }
 
-#define SPINE_SEQUENCETIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x156CA670)
-#define SPINE_SEQUENCETIMELINE_GET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x156CA560)
-#define SPINE_SEQUENCETIMELINE_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x156CA540)
-#define SPINE_SEQUENCETIMELINE_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x156CA550)
-#define SPINE_SEQUENCETIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x156CA5D0)
-#define SPINE_SEQUENCETIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x156CA290)
+#define SPINE_SEQUENCETIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x12B93800)
+#define SPINE_SEQUENCETIMELINE_GET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x12B93720)
+#define SPINE_SEQUENCETIMELINE_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x12B93700)
+#define SPINE_SEQUENCETIMELINE_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x12B93710)
+#define SPINE_SEQUENCETIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x12B93790)
+#define SPINE_SEQUENCETIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x12B93480)
 
 namespace Spine
 {
-	inline static constexpr unsigned int SequenceTimeline_TypeDefinitionIndex = 36389;
+	inline static constexpr unsigned int SequenceTimeline_TypeDefinitionIndex = 36689;
 
 	class SequenceTimeline : public ::Spine::Timeline
 	{
@@ -31,9 +31,9 @@ namespace Spine
 		::Spine::IHasTextureRegion* attachment; // 0x20
 		::System::Int32 slotIndex; // 0x28
 
-		::System::Void _ctor(::System::Int32 frameCount, ::System::Int32 slotIndex, ::Spine::Attachment* attachment)
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::Spine::Attachment* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::Spine::Attachment*))((::PBYTE)hIl2Cpp + SPINE_SEQUENCETIMELINE__CTOR_OFFSET))(this, frameCount, slotIndex, attachment);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::Spine::Attachment*))((::PBYTE)hIl2Cpp + SPINE_SEQUENCETIMELINE__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 get_FrameEntries()
@@ -51,14 +51,14 @@ namespace Spine
 			return ((::Spine::Attachment*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SEQUENCETIMELINE_GET_ATTACHMENT_OFFSET))(this);
 		}
 
-		::System::Void SetFrame(::System::Int32 frame, ::System::Single time, ::Spine::SequenceMode mode, ::System::Int32 index, ::System::Single delay)
+		::System::Void SetFrame(::System::Int32 a1, ::System::Single a2, ::Spine::SequenceMode a3, ::System::Int32 a4, ::System::Single a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::Spine::SequenceMode, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SEQUENCETIMELINE_SETFRAME_OFFSET))(this, frame, time, mode, index, delay);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::Spine::SequenceMode, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SEQUENCETIMELINE_SETFRAME_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void Apply(::Spine::Skeleton* skeleton, ::System::Single lastTime, ::System::Single time, ::Spine::ExposedList_1<::Spine::Event*>* firedEvents, ::System::Single alpha, ::Spine::MixBlend blend, ::Spine::MixDirection direction)
+		::System::Void Apply(::Spine::Skeleton* a1, ::System::Single a2, ::System::Single a3, ::Spine::ExposedList_1<::Spine::Event*>* a4, ::System::Single a5, ::Spine::MixBlend a6, ::Spine::MixDirection a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::System::Single, ::System::Single, ::Spine::ExposedList_1<::Spine::Event*>*, ::System::Single, ::Spine::MixBlend, ::Spine::MixDirection))((::PBYTE)hIl2Cpp + SPINE_SEQUENCETIMELINE_APPLY_OFFSET))(this, skeleton, lastTime, time, firedEvents, alpha, blend, direction);
+			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::System::Single, ::System::Single, ::Spine::ExposedList_1<::Spine::Event*>*, ::System::Single, ::Spine::MixBlend, ::Spine::MixDirection))((::PBYTE)hIl2Cpp + SPINE_SEQUENCETIMELINE_APPLY_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 	};
 }

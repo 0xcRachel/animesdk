@@ -2,12 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define HOUDINIENGINEUNITY_HEU_INSTANCEINPUTUISTATE_COPYTO_OFFSET UNITYSDK_OFFSET(0x15432780)
-#define HOUDINIENGINEUNITY_HEU_INSTANCEINPUTUISTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x15440910)
+#define HOUDINIENGINEUNITY_HEU_INSTANCEINPUTUISTATE_COPYTO_OFFSET UNITYSDK_OFFSET(0x10509D60)
+#define HOUDINIENGINEUNITY_HEU_INSTANCEINPUTUISTATE_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x10522C10)
+#define HOUDINIENGINEUNITY_HEU_INSTANCEINPUTUISTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x10522E70)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_InstanceInputUIState_TypeDefinitionIndex = 43514;
+	inline static constexpr unsigned int HEU_InstanceInputUIState_TypeDefinitionIndex = 37448;
 
 	class HEU_InstanceInputUIState : public ::UnityEngine::ScriptableObject
 	{
@@ -21,9 +22,14 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INSTANCEINPUTUISTATE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void CopyTo(::HoudiniEngineUnity::HEU_InstanceInputUIState* dest)
+		::System::Void CopyTo(::HoudiniEngineUnity::HEU_InstanceInputUIState* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_InstanceInputUIState*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INSTANCEINPUTUISTATE_COPYTO_OFFSET))(this, dest);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_InstanceInputUIState*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INSTANCEINPUTUISTATE_COPYTO_OFFSET))(this, a1);
+		}
+
+		::System::Boolean IsEquivalentTo(::HoudiniEngineUnity::HEU_InstanceInputUIState* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_InstanceInputUIState*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INSTANCEINPUTUISTATE_ISEQUIVALENTTO_OFFSET))(this, a1);
 		}
 	};
 }

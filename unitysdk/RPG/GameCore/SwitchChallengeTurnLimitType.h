@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SWITCHCHALLENGETURNLIMITTYPE_METHOD_3_3795D78A936A4932_OFFSET UNITYSDK_OFFSET(0x18D88A60)
-#define RPG_GAMECORE_SWITCHCHALLENGETURNLIMITTYPE_METHOD_3_FCFDA9135545C80D_OFFSET UNITYSDK_OFFSET(0x18D88AE0)
-#define RPG_GAMECORE_SWITCHCHALLENGETURNLIMITTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x18D88AB0)
+#define RPG_GAMECORE_SWITCHCHALLENGETURNLIMITTYPE_METHOD_3_54A41B6145012593_OFFSET UNITYSDK_OFFSET(0x1985C0C0)
+#define RPG_GAMECORE_SWITCHCHALLENGETURNLIMITTYPE_METHOD_3_FC4C4CC271833794_OFFSET UNITYSDK_OFFSET(0x1985C040)
+#define RPG_GAMECORE_SWITCHCHALLENGETURNLIMITTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1985C090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchChallengeTurnLimitType_TypeDefinitionIndex = 22418;
+	inline static constexpr unsigned int SwitchChallengeTurnLimitType_TypeDefinitionIndex = 22172;
 
 	class SwitchChallengeTurnLimitType : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCHALLENGETURNLIMITTYPE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3795D78A936A4932(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchChallengeTurnLimitType*& a2)
+		static ::System::Void Method_3_FC4C4CC271833794(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchChallengeTurnLimitType*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchChallengeTurnLimitType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCHALLENGETURNLIMITTYPE_METHOD_3_3795D78A936A4932_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchChallengeTurnLimitType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCHALLENGETURNLIMITTYPE_METHOD_3_FC4C4CC271833794_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FCFDA9135545C80D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchChallengeTurnLimitType* a2)
+		static ::System::Void Method_3_54A41B6145012593(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchChallengeTurnLimitType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchChallengeTurnLimitType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCHALLENGETURNLIMITTYPE_METHOD_3_FCFDA9135545C80D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchChallengeTurnLimitType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCHALLENGETURNLIMITTYPE_METHOD_3_54A41B6145012593_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -8,7 +8,7 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_1CBA230307F9C289_39;
-class Class_1_53763D498DB8321D_4;
+class Class_1_53763D498DB8321D_2;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace RPG::Client { class MuseumData; }
 namespace RPG::Client { class MuseumExhibitItemData; }
@@ -18,73 +18,73 @@ namespace RPG::GameCore { class MuseumAreaConfigRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MUSEUMAREADATA_ADDEXHIBITSTUFF_OFFSET UNITYSDK_OFFSET(0x13747500)
-#define RPG_CLIENT_MUSEUMAREADATA_CALCULATEANDUPDATEDATA_OFFSET UNITYSDK_OFFSET(0x13746A80)
-#define RPG_CLIENT_MUSEUMAREADATA_CLEARPREVIEW_OFFSET UNITYSDK_OFFSET(0x13747B70)
-#define RPG_CLIENT_MUSEUMAREADATA_CREATE_OFFSET UNITYSDK_OFFSET(0x13746470)
-#define RPG_CLIENT_MUSEUMAREADATA_GETNEXTLEVELRENEWPOINTADDNUM_OFFSET UNITYSDK_OFFSET(0x137477D0)
-#define RPG_CLIENT_MUSEUMAREADATA_GETNEXTLEVELSTATADDNUM_OFFSET UNITYSDK_OFFSET(0x13747760)
-#define RPG_CLIENT_MUSEUMAREADATA_GETPROPERTYDATA_1_OFFSET UNITYSDK_OFFSET(0x13746C80)
-#define RPG_CLIENT_MUSEUMAREADATA_GETPROPERTYDATA_OFFSET UNITYSDK_OFFSET(0x13746720)
-#define RPG_CLIENT_MUSEUMAREADATA_GETSTAFFNUM_OFFSET UNITYSDK_OFFSET(0x13747E10)
-#define RPG_CLIENT_MUSEUMAREADATA_GET_AREARENEWPOINT_OFFSET UNITYSDK_OFFSET(0x13748480)
-#define RPG_CLIENT_MUSEUMAREADATA_GET_EXHIBITSTUFFSCOUNT_OFFSET UNITYSDK_OFFSET(0x13748500)
-#define RPG_CLIENT_MUSEUMAREADATA_GET_EXHIBITSTUFFSMAXCOUNT_OFFSET UNITYSDK_OFFSET(0x13748550)
-#define RPG_CLIENT_MUSEUMAREADATA_GET_EXHIBITSTUFFS_OFFSET UNITYSDK_OFFSET(0x137484E0)
-#define RPG_CLIENT_MUSEUMAREADATA_GET_ID_OFFSET UNITYSDK_OFFSET(0x137484A0)
-#define RPG_CLIENT_MUSEUMAREADATA_GET_ISLOCK_OFFSET UNITYSDK_OFFSET(0x13748580)
-#define RPG_CLIENT_MUSEUMAREADATA_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x13748330)
-#define RPG_CLIENT_MUSEUMAREADATA_GET_MUSEUMAREANAME_OFFSET UNITYSDK_OFFSET(0x137486B0)
-#define RPG_CLIENT_MUSEUMAREADATA_GET_MUSEUMAREATABICON_OFFSET UNITYSDK_OFFSET(0x137486E0)
-#define RPG_CLIENT_MUSEUMAREADATA_GET_MUSEUMSTAFFDATAS_OFFSET UNITYSDK_OFFSET(0x13748460)
-#define RPG_CLIENT_MUSEUMAREADATA_GET_OWNERMUSEUM_OFFSET UNITYSDK_OFFSET(0x13748570)
-#define RPG_CLIENT_MUSEUMAREADATA_GET_PROPERTYDATAS_OFFSET UNITYSDK_OFFSET(0x137484C0)
-#define RPG_CLIENT_MUSEUMAREADATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0x137485A0)
-#define RPG_CLIENT_MUSEUMAREADATA_HAVESTAFF_OFFSET UNITYSDK_OFFSET(0x13747D90)
-#define RPG_CLIENT_MUSEUMAREADATA_INITEXHIBITMAXCOUNT_OFFSET UNITYSDK_OFFSET(0x13747F30)
-#define RPG_CLIENT_MUSEUMAREADATA_PREVIEWADDSTAFF_OFFSET UNITYSDK_OFFSET(0x13747A80)
-#define RPG_CLIENT_MUSEUMAREADATA_PREVIEWNEXTLEVELAREA_OFFSET UNITYSDK_OFFSET(0x13747830)
-#define RPG_CLIENT_MUSEUMAREADATA_PREVIEWNEXTLEVELSTAT_OFFSET UNITYSDK_OFFSET(0x13747990)
-#define RPG_CLIENT_MUSEUMAREADATA_SET_AREARENEWPOINT_OFFSET UNITYSDK_OFFSET(0x13748490)
-#define RPG_CLIENT_MUSEUMAREADATA_SET_EXHIBITSTUFFSMAXCOUNT_OFFSET UNITYSDK_OFFSET(0x13748560)
-#define RPG_CLIENT_MUSEUMAREADATA_SET_EXHIBITSTUFFS_OFFSET UNITYSDK_OFFSET(0x137484F0)
-#define RPG_CLIENT_MUSEUMAREADATA_SET_ID_OFFSET UNITYSDK_OFFSET(0x137484B0)
-#define RPG_CLIENT_MUSEUMAREADATA_SET_ISLOCK_OFFSET UNITYSDK_OFFSET(0x13748590)
-#define RPG_CLIENT_MUSEUMAREADATA_SET_MUSEUMSTAFFDATAS_OFFSET UNITYSDK_OFFSET(0x13748470)
-#define RPG_CLIENT_MUSEUMAREADATA_SET_PROPERTYDATAS_OFFSET UNITYSDK_OFFSET(0x137484D0)
-#define RPG_CLIENT_MUSEUMAREADATA_SYNCMUSEUMAREADATA_OFFSET UNITYSDK_OFFSET(0x137464F0)
-#define RPG_CLIENT_MUSEUMAREADATA_TRYADDSTAFF_OFFSET UNITYSDK_OFFSET(0x13747570)
-#define RPG_CLIENT_MUSEUMAREADATA_TRYREMOVESTAFF_OFFSET UNITYSDK_OFFSET(0x13747670)
-#define RPG_CLIENT_MUSEUMAREADATA_UPDATESTAFFDATA_OFFSET UNITYSDK_OFFSET(0x13746B50)
-#define RPG_CLIENT_MUSEUMAREADATA__CACHEPREDATA_OFFSET UNITYSDK_OFFSET(0x13746D20)
-#define RPG_CLIENT_MUSEUMAREADATA__CLEARCACHEDATA_OFFSET UNITYSDK_OFFSET(0x13748350)
-#define RPG_CLIENT_MUSEUMAREADATA__CLEARPREVIEWDATA_OFFSET UNITYSDK_OFFSET(0x13747C50)
-#define RPG_CLIENT_MUSEUMAREADATA__CLEARSTAFFLIST_OFFSET UNITYSDK_OFFSET(0x13748110)
-#define RPG_CLIENT_MUSEUMAREADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13746310)
-#define RPG_CLIENT_MUSEUMAREADATA__REFRESHPROPERTYCACHEDATA_OFFSET UNITYSDK_OFFSET(0x137470D0)
-#define RPG_CLIENT_MUSEUMAREADATA__SYNCSTAFFLIST_OFFSET UNITYSDK_OFFSET(0x13746940)
-#define RPG_CLIENT_MUSEUMAREADATA__UPDATEEXHIBITSTUFFS_OFFSET UNITYSDK_OFFSET(0x137467A0)
+#define RPG_CLIENT_MUSEUMAREADATA_ADDEXHIBITSTUFF_OFFSET UNITYSDK_OFFSET(0x1873B030)
+#define RPG_CLIENT_MUSEUMAREADATA_CALCULATEANDUPDATEDATA_OFFSET UNITYSDK_OFFSET(0x1873A670)
+#define RPG_CLIENT_MUSEUMAREADATA_CLEARPREVIEW_OFFSET UNITYSDK_OFFSET(0x1873B6E0)
+#define RPG_CLIENT_MUSEUMAREADATA_CREATE_OFFSET UNITYSDK_OFFSET(0x18739FA0)
+#define RPG_CLIENT_MUSEUMAREADATA_GETNEXTLEVELRENEWPOINTADDNUM_OFFSET UNITYSDK_OFFSET(0x1873B340)
+#define RPG_CLIENT_MUSEUMAREADATA_GETNEXTLEVELSTATADDNUM_OFFSET UNITYSDK_OFFSET(0x1873B2D0)
+#define RPG_CLIENT_MUSEUMAREADATA_GETPROPERTYDATA_1_OFFSET UNITYSDK_OFFSET(0x1873A840)
+#define RPG_CLIENT_MUSEUMAREADATA_GETPROPERTYDATA_OFFSET UNITYSDK_OFFSET(0x1873A220)
+#define RPG_CLIENT_MUSEUMAREADATA_GETSTAFFNUM_OFFSET UNITYSDK_OFFSET(0x1873B970)
+#define RPG_CLIENT_MUSEUMAREADATA_GET_AREARENEWPOINT_OFFSET UNITYSDK_OFFSET(0x1873C100)
+#define RPG_CLIENT_MUSEUMAREADATA_GET_EXHIBITSTUFFSCOUNT_OFFSET UNITYSDK_OFFSET(0x1873C180)
+#define RPG_CLIENT_MUSEUMAREADATA_GET_EXHIBITSTUFFSMAXCOUNT_OFFSET UNITYSDK_OFFSET(0x1873C1D0)
+#define RPG_CLIENT_MUSEUMAREADATA_GET_EXHIBITSTUFFS_OFFSET UNITYSDK_OFFSET(0x1873C160)
+#define RPG_CLIENT_MUSEUMAREADATA_GET_ID_OFFSET UNITYSDK_OFFSET(0x1873C120)
+#define RPG_CLIENT_MUSEUMAREADATA_GET_ISLOCK_OFFSET UNITYSDK_OFFSET(0x1873C200)
+#define RPG_CLIENT_MUSEUMAREADATA_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1873BEE0)
+#define RPG_CLIENT_MUSEUMAREADATA_GET_MUSEUMAREANAME_OFFSET UNITYSDK_OFFSET(0x1873C330)
+#define RPG_CLIENT_MUSEUMAREADATA_GET_MUSEUMAREATABICON_OFFSET UNITYSDK_OFFSET(0x1873C360)
+#define RPG_CLIENT_MUSEUMAREADATA_GET_MUSEUMSTAFFDATAS_OFFSET UNITYSDK_OFFSET(0x1873C0E0)
+#define RPG_CLIENT_MUSEUMAREADATA_GET_OWNERMUSEUM_OFFSET UNITYSDK_OFFSET(0x1873C1F0)
+#define RPG_CLIENT_MUSEUMAREADATA_GET_PROPERTYDATAS_OFFSET UNITYSDK_OFFSET(0x1873C140)
+#define RPG_CLIENT_MUSEUMAREADATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0x1873C220)
+#define RPG_CLIENT_MUSEUMAREADATA_HAVESTAFF_OFFSET UNITYSDK_OFFSET(0x1873B8F0)
+#define RPG_CLIENT_MUSEUMAREADATA_INITEXHIBITMAXCOUNT_OFFSET UNITYSDK_OFFSET(0x1873BA90)
+#define RPG_CLIENT_MUSEUMAREADATA_PREVIEWADDSTAFF_OFFSET UNITYSDK_OFFSET(0x1873B5F0)
+#define RPG_CLIENT_MUSEUMAREADATA_PREVIEWNEXTLEVELAREA_OFFSET UNITYSDK_OFFSET(0x1873B3A0)
+#define RPG_CLIENT_MUSEUMAREADATA_PREVIEWNEXTLEVELSTAT_OFFSET UNITYSDK_OFFSET(0x1873B500)
+#define RPG_CLIENT_MUSEUMAREADATA_SET_AREARENEWPOINT_OFFSET UNITYSDK_OFFSET(0x1873C110)
+#define RPG_CLIENT_MUSEUMAREADATA_SET_EXHIBITSTUFFSMAXCOUNT_OFFSET UNITYSDK_OFFSET(0x1873C1E0)
+#define RPG_CLIENT_MUSEUMAREADATA_SET_EXHIBITSTUFFS_OFFSET UNITYSDK_OFFSET(0x1873C170)
+#define RPG_CLIENT_MUSEUMAREADATA_SET_ID_OFFSET UNITYSDK_OFFSET(0x1873C130)
+#define RPG_CLIENT_MUSEUMAREADATA_SET_ISLOCK_OFFSET UNITYSDK_OFFSET(0x1873C210)
+#define RPG_CLIENT_MUSEUMAREADATA_SET_MUSEUMSTAFFDATAS_OFFSET UNITYSDK_OFFSET(0x1873C0F0)
+#define RPG_CLIENT_MUSEUMAREADATA_SET_PROPERTYDATAS_OFFSET UNITYSDK_OFFSET(0x1873C150)
+#define RPG_CLIENT_MUSEUMAREADATA_SYNCMUSEUMAREADATA_OFFSET UNITYSDK_OFFSET(0x1873A020)
+#define RPG_CLIENT_MUSEUMAREADATA_TRYADDSTAFF_OFFSET UNITYSDK_OFFSET(0x1873B0E0)
+#define RPG_CLIENT_MUSEUMAREADATA_TRYREMOVESTAFF_OFFSET UNITYSDK_OFFSET(0x1873B1E0)
+#define RPG_CLIENT_MUSEUMAREADATA_UPDATESTAFFDATA_OFFSET UNITYSDK_OFFSET(0x1873A740)
+#define RPG_CLIENT_MUSEUMAREADATA__CACHEPREDATA_OFFSET UNITYSDK_OFFSET(0x1873A8D0)
+#define RPG_CLIENT_MUSEUMAREADATA__CLEARCACHEDATA_OFFSET UNITYSDK_OFFSET(0x1873BF00)
+#define RPG_CLIENT_MUSEUMAREADATA__CLEARPREVIEWDATA_OFFSET UNITYSDK_OFFSET(0x1873B7C0)
+#define RPG_CLIENT_MUSEUMAREADATA__CLEARSTAFFLIST_OFFSET UNITYSDK_OFFSET(0x1873BD10)
+#define RPG_CLIENT_MUSEUMAREADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18739E40)
+#define RPG_CLIENT_MUSEUMAREADATA__REFRESHPROPERTYCACHEDATA_OFFSET UNITYSDK_OFFSET(0x1873AC40)
+#define RPG_CLIENT_MUSEUMAREADATA__SYNCSTAFFLIST_OFFSET UNITYSDK_OFFSET(0x1873A490)
+#define RPG_CLIENT_MUSEUMAREADATA__UPDATEEXHIBITSTUFFS_OFFSET UNITYSDK_OFFSET(0x1873A290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumAreaData_TypeDefinitionIndex = 61093;
+	inline static constexpr unsigned int MuseumAreaData_TypeDefinitionIndex = 62017;
 
 	class MuseumAreaData : public ::System::Object
 	{
 	public:
 		// static const ::System::Int32 _AREA_MAX_STAFF_COUNT = 0x3; // 0x0
 		// static const ::System::Int32 _PROPERTY_NUM = 0x3; // 0x0
-		::RPG::Client::MuseumPropertyData* _AreaRenewPoint_k__BackingField; // 0x10
+		::Il2CppArray<::System::Nullable_1<::System::Boolean>>* _PrePropertyDatasMaxCache; // 0x10
 		::RPG::Client::MuseumData* _OwnerMuseum; // 0x18
-		::Il2CppArray<::System::Nullable_1<::System::Boolean>>* _PrePropertyDatasMaxCache; // 0x20
-		::Il2CppArray<::RPG::Client::MuseumStaffData*>* _MuseumStaffDatas_k__BackingField; // 0x28
-		::Il2CppArray<::System::Nullable_1<::System::UInt32>>* _PrePropertyCurCache; // 0x30
-		::System::Collections::Generic::List_1<::RPG::Client::MuseumExhibitItemData*>* _ExhibitStuffs_k__BackingField; // 0x38
-		::RPG::GameCore::MuseumAreaConfigRow* _Row; // 0x40
-		::Il2CppArray<::RPG::Client::MuseumPropertyData*>* _PropertyDatas_k__BackingField; // 0x48
-		::System::Int32 _ExhibitStuffsMaxCount_k__BackingField; // 0x50
-		::System::UInt32 _ID_k__BackingField; // 0x54
-		::System::Nullable_1<::System::UInt32> _PreRenewPointCurCache; // 0x58
+		::Il2CppArray<::RPG::Client::MuseumStaffData*>* _MuseumStaffDatas_k__BackingField; // 0x20
+		::RPG::GameCore::MuseumAreaConfigRow* _Row; // 0x28
+		::System::Collections::Generic::List_1<::RPG::Client::MuseumExhibitItemData*>* _ExhibitStuffs_k__BackingField; // 0x30
+		::Il2CppArray<::RPG::Client::MuseumPropertyData*>* _PropertyDatas_k__BackingField; // 0x38
+		::Il2CppArray<::System::Nullable_1<::System::UInt32>>* _PrePropertyCurCache; // 0x40
+		::RPG::Client::MuseumPropertyData* _AreaRenewPoint_k__BackingField; // 0x48
+		::System::Nullable_1<::System::UInt32> _PreRenewPointCurCache; // 0x50
+		::System::UInt32 _ID_k__BackingField; // 0x58
+		::System::Int32 _ExhibitStuffsMaxCount_k__BackingField; // 0x5C
 		::System::Nullable_1<::System::Boolean> _PreRenewPointMaxCache; // 0x60
 		::System::Boolean _IsLock_k__BackingField; // 0x62
 
@@ -93,54 +93,54 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::MuseumAreaData* Create(::RPG::Client::MuseumData* ownerMuseum, ::System::UInt32 id)
+		static ::RPG::Client::MuseumAreaData* Create(::RPG::Client::MuseumData* a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::MuseumAreaData*(*)(::RPG::Client::MuseumData*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_CREATE_OFFSET))(ownerMuseum, id);
+			return ((::RPG::Client::MuseumAreaData*(*)(::RPG::Client::MuseumData*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_CREATE_OFFSET))(a1, a2);
 		}
 
-		::System::Void SyncMuseumAreaData(::RPG::Client::MuseumData* ownerMuseum, ::Class_1_53763D498DB8321D_4* museumArea)
+		::System::Void SyncMuseumAreaData(::RPG::Client::MuseumData* a1, ::Class_1_53763D498DB8321D_2* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MuseumData*, ::Class_1_53763D498DB8321D_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_SYNCMUSEUMAREADATA_OFFSET))(this, ownerMuseum, museumArea);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MuseumData*, ::Class_1_53763D498DB8321D_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_SYNCMUSEUMAREADATA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void UpdateStaffData(::RPG::Client::MuseumStaffData* museumStaffData, ::Enum_3_DB663931210BBC27_47 pos)
+		::System::Void UpdateStaffData(::RPG::Client::MuseumStaffData* a1, ::Enum_3_DB663931210BBC27_47 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MuseumStaffData*, ::Enum_3_DB663931210BBC27_47))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_UPDATESTAFFDATA_OFFSET))(this, museumStaffData, pos);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MuseumStaffData*, ::Enum_3_DB663931210BBC27_47))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_UPDATESTAFFDATA_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::MuseumPropertyData* GetPropertyData(::Enum_3_DB663931210BBC27_48 stat)
+		::RPG::Client::MuseumPropertyData* GetPropertyData(::Enum_3_DB663931210BBC27_48 a1)
 		{
-			return ((::RPG::Client::MuseumPropertyData*(*)(::PVOID, ::Enum_3_DB663931210BBC27_48))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_GETPROPERTYDATA_OFFSET))(this, stat);
+			return ((::RPG::Client::MuseumPropertyData*(*)(::PVOID, ::Enum_3_DB663931210BBC27_48))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_GETPROPERTYDATA_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::MuseumPropertyData* GetPropertyData_1(::RPG::GameCore::StuffStats stat)
+		::RPG::Client::MuseumPropertyData* GetPropertyData_1(::RPG::GameCore::StuffStats a1)
 		{
-			return ((::RPG::Client::MuseumPropertyData*(*)(::PVOID, ::RPG::GameCore::StuffStats))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_GETPROPERTYDATA_1_OFFSET))(this, stat);
+			return ((::RPG::Client::MuseumPropertyData*(*)(::PVOID, ::RPG::GameCore::StuffStats))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_GETPROPERTYDATA_1_OFFSET))(this, a1);
 		}
 
-		::System::Void CalculateAndUpdateData(::System::Boolean refreshCache)
+		::System::Void CalculateAndUpdateData(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_CALCULATEANDUPDATEDATA_OFFSET))(this, refreshCache);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_CALCULATEANDUPDATEDATA_OFFSET))(this, a1);
 		}
 
-		::System::Void AddExhibitStuff(::RPG::Client::MuseumExhibitItemData* stuff)
+		::System::Void AddExhibitStuff(::RPG::Client::MuseumExhibitItemData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MuseumExhibitItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_ADDEXHIBITSTUFF_OFFSET))(this, stuff);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MuseumExhibitItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_ADDEXHIBITSTUFF_OFFSET))(this, a1);
 		}
 
-		::System::Boolean TryAddStaff(::RPG::Client::MuseumStaffData* staff)
+		::System::Boolean TryAddStaff(::RPG::Client::MuseumStaffData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MuseumStaffData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_TRYADDSTAFF_OFFSET))(this, staff);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MuseumStaffData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_TRYADDSTAFF_OFFSET))(this, a1);
 		}
 
-		::System::Boolean TryRemoveStaff(::RPG::Client::MuseumStaffData* staff)
+		::System::Boolean TryRemoveStaff(::RPG::Client::MuseumStaffData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MuseumStaffData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_TRYREMOVESTAFF_OFFSET))(this, staff);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MuseumStaffData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_TRYREMOVESTAFF_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetNextLevelStatAddNum(::RPG::GameCore::StuffStats stat)
+		::System::UInt32 GetNextLevelStatAddNum(::RPG::GameCore::StuffStats a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::StuffStats))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_GETNEXTLEVELSTATADDNUM_OFFSET))(this, stat);
+			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::StuffStats))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_GETNEXTLEVELSTATADDNUM_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetNextLevelRenewPointAddNum()
@@ -153,19 +153,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_PREVIEWNEXTLEVELAREA_OFFSET))(this);
 		}
 
-		::System::Void PreviewNextLevelStat(::RPG::GameCore::StuffStats stat)
+		::System::Void PreviewNextLevelStat(::RPG::GameCore::StuffStats a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StuffStats))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_PREVIEWNEXTLEVELSTAT_OFFSET))(this, stat);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StuffStats))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_PREVIEWNEXTLEVELSTAT_OFFSET))(this, a1);
 		}
 
-		::System::Void PreviewAddStaff(::RPG::Client::MuseumStaffData* staffData)
+		::System::Void PreviewAddStaff(::RPG::Client::MuseumStaffData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MuseumStaffData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_PREVIEWADDSTAFF_OFFSET))(this, staffData);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MuseumStaffData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_PREVIEWADDSTAFF_OFFSET))(this, a1);
 		}
 
-		::System::Void ClearPreview(::System::Boolean isCalculate)
+		::System::Void ClearPreview(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_CLEARPREVIEW_OFFSET))(this, isCalculate);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_CLEARPREVIEW_OFFSET))(this, a1);
 		}
 
 		::System::Boolean HaveStaff()
@@ -198,9 +198,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA__CLEARSTAFFLIST_OFFSET))(this);
 		}
 
-		::System::Void _SyncStaffList(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_1CBA230307F9C289_39*>* staffList)
+		::System::Void _SyncStaffList(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_1CBA230307F9C289_39*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_1CBA230307F9C289_39*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA__SYNCSTAFFLIST_OFFSET))(this, staffList);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_1CBA230307F9C289_39*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA__SYNCSTAFFLIST_OFFSET))(this, a1);
 		}
 
 		::System::Void _CachePreData()
@@ -223,9 +223,9 @@ namespace RPG::Client
 			return ((::Il2CppArray<::RPG::Client::MuseumStaffData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_GET_MUSEUMSTAFFDATAS_OFFSET))(this);
 		}
 
-		::System::Void set_MuseumStaffDatas(::Il2CppArray<::RPG::Client::MuseumStaffData*>* value)
+		::System::Void set_MuseumStaffDatas(::Il2CppArray<::RPG::Client::MuseumStaffData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::Client::MuseumStaffData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_SET_MUSEUMSTAFFDATAS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::Client::MuseumStaffData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_SET_MUSEUMSTAFFDATAS_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_Level()
@@ -238,9 +238,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MuseumPropertyData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_GET_AREARENEWPOINT_OFFSET))(this);
 		}
 
-		::System::Void set_AreaRenewPoint(::RPG::Client::MuseumPropertyData* value)
+		::System::Void set_AreaRenewPoint(::RPG::Client::MuseumPropertyData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MuseumPropertyData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_SET_AREARENEWPOINT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MuseumPropertyData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_SET_AREARENEWPOINT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ID()
@@ -248,9 +248,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_SET_ID_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::RPG::Client::MuseumPropertyData*>* get_PropertyDatas()
@@ -258,9 +258,9 @@ namespace RPG::Client
 			return ((::Il2CppArray<::RPG::Client::MuseumPropertyData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_GET_PROPERTYDATAS_OFFSET))(this);
 		}
 
-		::System::Void set_PropertyDatas(::Il2CppArray<::RPG::Client::MuseumPropertyData*>* value)
+		::System::Void set_PropertyDatas(::Il2CppArray<::RPG::Client::MuseumPropertyData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::Client::MuseumPropertyData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_SET_PROPERTYDATAS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::Client::MuseumPropertyData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_SET_PROPERTYDATAS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::MuseumExhibitItemData*>* get_ExhibitStuffs()
@@ -268,9 +268,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::MuseumExhibitItemData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_GET_EXHIBITSTUFFS_OFFSET))(this);
 		}
 
-		::System::Void set_ExhibitStuffs(::System::Collections::Generic::List_1<::RPG::Client::MuseumExhibitItemData*>* value)
+		::System::Void set_ExhibitStuffs(::System::Collections::Generic::List_1<::RPG::Client::MuseumExhibitItemData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::MuseumExhibitItemData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_SET_EXHIBITSTUFFS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::MuseumExhibitItemData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_SET_EXHIBITSTUFFS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_ExhibitStuffsCount()
@@ -283,9 +283,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_GET_EXHIBITSTUFFSMAXCOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_ExhibitStuffsMaxCount(::System::Int32 value)
+		::System::Void set_ExhibitStuffsMaxCount(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_SET_EXHIBITSTUFFSMAXCOUNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_SET_EXHIBITSTUFFSMAXCOUNT_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MuseumData* get_OwnerMuseum()
@@ -298,9 +298,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_GET_ISLOCK_OFFSET))(this);
 		}
 
-		::System::Void set_IsLock(::System::Boolean value)
+		::System::Void set_IsLock(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_SET_ISLOCK_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMAREADATA_SET_ISLOCK_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::MuseumAreaConfigRow* get_Row()

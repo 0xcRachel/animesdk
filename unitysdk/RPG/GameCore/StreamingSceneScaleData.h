@@ -3,13 +3,15 @@
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_STREAMINGSCENESCALEDATA_METHOD_2_5CCF310502397610_OFFSET UNITYSDK_OFFSET(0x18D77B00)
-#define RPG_GAMECORE_STREAMINGSCENESCALEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18D77B90)
+#define RPG_GAMECORE_STREAMINGSCENESCALEDATA_METHOD_2_182D027A9B96A9FD_OFFSET UNITYSDK_OFFSET(0x19848300)
+#define RPG_GAMECORE_STREAMINGSCENESCALEDATA_METHOD_2_5CCF310502397610_OFFSET UNITYSDK_OFFSET(0x19848260)
+#define RPG_GAMECORE_STREAMINGSCENESCALEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x198482F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StreamingSceneScaleData_TypeDefinitionIndex = 18165;
+	inline static constexpr unsigned int StreamingSceneScaleData_TypeDefinitionIndex = 18161;
 
 	class StreamingSceneScaleData : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,6 +24,11 @@ namespace RPG::GameCore
 		static ::System::Void Method_2_5CCF310502397610(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StreamingSceneScaleData*& a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StreamingSceneScaleData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGSCENESCALEDATA_METHOD_2_5CCF310502397610_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_2_182D027A9B96A9FD(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::StreamingSceneScaleData*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::StreamingSceneScaleData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGSCENESCALEDATA_METHOD_2_182D027A9B96A9FD_OFFSET))(a1, a2);
 		}
 	};
 }

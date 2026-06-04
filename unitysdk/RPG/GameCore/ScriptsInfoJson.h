@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SCRIPTSINFOJSON_METHOD_2_62EBC16BFD9541BD_OFFSET UNITYSDK_OFFSET(0x192E34D0)
-#define RPG_GAMECORE_SCRIPTSINFOJSON__CTOR_OFFSET UNITYSDK_OFFSET(0x192E3920)
+#define RPG_GAMECORE_SCRIPTSINFOJSON_METHOD_2_94AB2AD039EBA52B_OFFSET UNITYSDK_OFFSET(0x1A1DA0C0)
+#define RPG_GAMECORE_SCRIPTSINFOJSON__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1DA4D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScriptsInfoJson_TypeDefinitionIndex = 18088;
+	inline static constexpr unsigned int ScriptsInfoJson_TypeDefinitionIndex = 18111;
 
 	class ScriptsInfoJson : public ::RPG::GameCore::JsonConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCRIPTSINFOJSON__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_62EBC16BFD9541BD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ScriptsInfoJson*& a2)
+		static ::System::Void Method_2_94AB2AD039EBA52B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ScriptsInfoJson*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ScriptsInfoJson*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCRIPTSINFOJSON_METHOD_2_62EBC16BFD9541BD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ScriptsInfoJson*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCRIPTSINFOJSON_METHOD_2_94AB2AD039EBA52B_OFFSET))(a1, a2);
 		}
 	};
 }

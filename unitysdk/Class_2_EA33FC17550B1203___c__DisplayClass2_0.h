@@ -4,10 +4,10 @@
 
 namespace System { class Action; }
 
-#define CLASS_2_EA33FC17550B1203___C__DISPLAYCLASS2_0__ADDPRISMTRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0xED23FD0)
-#define CLASS_2_EA33FC17550B1203___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xED22410)
+#define CLASS_2_EA33FC17550B1203___C__DISPLAYCLASS2_0__ADDPRISMTRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0x14EDE350)
+#define CLASS_2_EA33FC17550B1203___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14EDC7D0)
 
-inline static constexpr unsigned int Class_2_EA33FC17550B1203___c__DisplayClass2_0_TypeDefinitionIndex = 68063;
+inline static constexpr unsigned int Class_2_EA33FC17550B1203___c__DisplayClass2_0_TypeDefinitionIndex = 69036;
 
 class Class_2_EA33FC17550B1203___c__DisplayClass2_0 : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EA33FC17550B1203___C__DISPLAYCLASS2_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Void _AddPrismTrigger_b__0(::System::Int32 _)
+	::System::Void _AddPrismTrigger_b__0(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_EA33FC17550B1203___C__DISPLAYCLASS2_0__ADDPRISMTRIGGER_B__0_OFFSET))(this, _);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_EA33FC17550B1203___C__DISPLAYCLASS2_0__ADDPRISMTRIGGER_B__0_OFFSET))(this, a1);
 	}
 };

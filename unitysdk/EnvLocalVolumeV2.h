@@ -2,48 +2,48 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/EnvLocalVolume.h"
 
-class Class_0_16E4307DCC419505_299;
+class Class_0_16E4307DCC419505_312;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ENVLOCALVOLUMEV2_GETENVIROMENTPROFILESLIST_OFFSET UNITYSDK_OFFSET(0xC31E680)
-#define ENVLOCALVOLUMEV2_GETENVIROMENTPROFILE_OFFSET UNITYSDK_OFFSET(0xC31E540)
-#define ENVLOCALVOLUMEV2__CTOR_OFFSET UNITYSDK_OFFSET(0xC31E910)
-#define ENVLOCALVOLUMEV2___IFIXBASEPROXY_GETENVIROMENTPROFILESLIST_OFFSET UNITYSDK_OFFSET(0xC31EA30)
-#define ENVLOCALVOLUMEV2___IFIXBASEPROXY_GETENVIROMENTPROFILE_OFFSET UNITYSDK_OFFSET(0xC31E9F0)
+#define ENVLOCALVOLUMEV2_GETENVIROMENTPROFILESLIST_OFFSET UNITYSDK_OFFSET(0x13BAC7E0)
+#define ENVLOCALVOLUMEV2_GETENVIROMENTPROFILE_OFFSET UNITYSDK_OFFSET(0x13BAC6A0)
+#define ENVLOCALVOLUMEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x13BACAE0)
+#define ENVLOCALVOLUMEV2___IFIXBASEPROXY_GETENVIROMENTPROFILESLIST_OFFSET UNITYSDK_OFFSET(0x13BACC00)
+#define ENVLOCALVOLUMEV2___IFIXBASEPROXY_GETENVIROMENTPROFILE_OFFSET UNITYSDK_OFFSET(0x13BACBC0)
 
-inline static constexpr unsigned int EnvLocalVolumeV2_TypeDefinitionIndex = 44090;
+inline static constexpr unsigned int EnvLocalVolumeV2_TypeDefinitionIndex = 44636;
 
 class EnvLocalVolumeV2 : public ::EnvLocalVolume
 {
 public:
 	::System::String* prof; // 0x78
 	::System::Collections::Generic::List_1<::System::String*>* profiles; // 0x80
-	::Class_0_16E4307DCC419505_299* Field_7_2; // 0x88
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_299*>* Field_7_3; // 0x90
+	::Class_0_16E4307DCC419505_312* Field_7_2; // 0x88
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_312*>* Field_7_3; // 0x90
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVLOCALVOLUMEV2__CTOR_OFFSET))(this);
 	}
 
-	::Class_0_16E4307DCC419505_299* GetEnviromentProfile()
+	::Class_0_16E4307DCC419505_312* GetEnviromentProfile()
 	{
-		return ((::Class_0_16E4307DCC419505_299*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVLOCALVOLUMEV2_GETENVIROMENTPROFILE_OFFSET))(this);
+		return ((::Class_0_16E4307DCC419505_312*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVLOCALVOLUMEV2_GETENVIROMENTPROFILE_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_299*>* GetEnviromentProfilesList()
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_312*>* GetEnviromentProfilesList()
 	{
-		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_299*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVLOCALVOLUMEV2_GETENVIROMENTPROFILESLIST_OFFSET))(this);
+		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_312*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVLOCALVOLUMEV2_GETENVIROMENTPROFILESLIST_OFFSET))(this);
 	}
 
-	::Class_0_16E4307DCC419505_299* __iFixBaseProxy_GetEnviromentProfile()
+	::Class_0_16E4307DCC419505_312* __iFixBaseProxy_GetEnviromentProfile()
 	{
-		return ((::Class_0_16E4307DCC419505_299*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVLOCALVOLUMEV2___IFIXBASEPROXY_GETENVIROMENTPROFILE_OFFSET))(this);
+		return ((::Class_0_16E4307DCC419505_312*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVLOCALVOLUMEV2___IFIXBASEPROXY_GETENVIROMENTPROFILE_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_299*>* __iFixBaseProxy_GetEnviromentProfilesList()
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_312*>* __iFixBaseProxy_GetEnviromentProfilesList()
 	{
-		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_299*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVLOCALVOLUMEV2___IFIXBASEPROXY_GETENVIROMENTPROFILESLIST_OFFSET))(this);
+		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_312*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVLOCALVOLUMEV2___IFIXBASEPROXY_GETENVIROMENTPROFILESLIST_OFFSET))(this);
 	}
 };

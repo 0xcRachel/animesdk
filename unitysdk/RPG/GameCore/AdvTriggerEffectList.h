@@ -4,15 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVTRIGGEREFFECTLIST_METHOD_3_7A5373EB8EBEB84C_OFFSET UNITYSDK_OFFSET(0x18C60210)
-#define RPG_GAMECORE_ADVTRIGGEREFFECTLIST_METHOD_3_9FFF782D9471E65A_OFFSET UNITYSDK_OFFSET(0x18C60190)
-#define RPG_GAMECORE_ADVTRIGGEREFFECTLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x18C601E0)
+#define RPG_GAMECORE_ADVTRIGGEREFFECTLIST_METHOD_3_1541EF1C2CDAC1ED_OFFSET UNITYSDK_OFFSET(0x19BF7F50)
+#define RPG_GAMECORE_ADVTRIGGEREFFECTLIST_METHOD_3_69250BCBAD330E04_OFFSET UNITYSDK_OFFSET(0x19BF7FA0)
+#define RPG_GAMECORE_ADVTRIGGEREFFECTLIST_METHOD_3_7A5373EB8EBEB84C_OFFSET UNITYSDK_OFFSET(0x19BF7DE0)
+#define RPG_GAMECORE_ADVTRIGGEREFFECTLIST_METHOD_3_9FFF782D9471E65A_OFFSET UNITYSDK_OFFSET(0x19BF7D60)
+#define RPG_GAMECORE_ADVTRIGGEREFFECTLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19BF7DB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvTriggerEffectList_TypeDefinitionIndex = 21196;
+	inline static constexpr unsigned int AdvTriggerEffectList_TypeDefinitionIndex = 21092;
 
 	class AdvTriggerEffectList : public ::RPG::GameCore::TaskConfig
 	{
@@ -33,6 +36,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_3_7A5373EB8EBEB84C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvTriggerEffectList* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvTriggerEffectList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVTRIGGEREFFECTLIST_METHOD_3_7A5373EB8EBEB84C_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_1541EF1C2CDAC1ED(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdvTriggerEffectList*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdvTriggerEffectList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVTRIGGEREFFECTLIST_METHOD_3_1541EF1C2CDAC1ED_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_69250BCBAD330E04(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdvTriggerEffectList* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdvTriggerEffectList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVTRIGGEREFFECTLIST_METHOD_3_69250BCBAD330E04_OFFSET))(a1, a2);
 		}
 	};
 }

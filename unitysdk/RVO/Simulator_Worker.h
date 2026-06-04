@@ -5,14 +5,14 @@
 namespace RVO { class Simulator; }
 namespace System::Threading { class ManualResetEvent; }
 
-#define RVO_SIMULATOR_WORKER_STEP_OFFSET UNITYSDK_OFFSET(0x175D4E90)
-#define RVO_SIMULATOR_WORKER_UPDATERANGE_OFFSET UNITYSDK_OFFSET(0x175D4E80)
-#define RVO_SIMULATOR_WORKER_UPDATE_OFFSET UNITYSDK_OFFSET(0x175D50E0)
-#define RVO_SIMULATOR_WORKER__CTOR_OFFSET UNITYSDK_OFFSET(0x175D4200)
+#define RVO_SIMULATOR_WORKER_STEP_OFFSET UNITYSDK_OFFSET(0x17A62270)
+#define RVO_SIMULATOR_WORKER_UPDATERANGE_OFFSET UNITYSDK_OFFSET(0x17A62260)
+#define RVO_SIMULATOR_WORKER_UPDATE_OFFSET UNITYSDK_OFFSET(0x17A624A0)
+#define RVO_SIMULATOR_WORKER__CTOR_OFFSET UNITYSDK_OFFSET(0x17A61600)
 
 namespace RVO
 {
-	inline static constexpr unsigned int Simulator_Worker_TypeDefinitionIndex = 41056;
+	inline static constexpr unsigned int Simulator_Worker_TypeDefinitionIndex = 41859;
 
 	class Simulator_Worker : public ::System::Object
 	{
@@ -22,24 +22,24 @@ namespace RVO
 		::System::Int32 end_; // 0x20
 		::System::Int32 start_; // 0x24
 
-		::System::Void _ctor(::RVO::Simulator* simulator, ::System::Int32 start, ::System::Int32 end, ::System::Threading::ManualResetEvent* doneEvent)
+		::System::Void _ctor(::RVO::Simulator* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Threading::ManualResetEvent* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RVO::Simulator*, ::System::Int32, ::System::Int32, ::System::Threading::ManualResetEvent*))((::PBYTE)hIl2Cpp + RVO_SIMULATOR_WORKER__CTOR_OFFSET))(this, simulator, start, end, doneEvent);
+			return ((::System::Void(*)(::PVOID, ::RVO::Simulator*, ::System::Int32, ::System::Int32, ::System::Threading::ManualResetEvent*))((::PBYTE)hIl2Cpp + RVO_SIMULATOR_WORKER__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void step(::System::Object* obj)
+		::System::Void step(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RVO_SIMULATOR_WORKER_STEP_OFFSET))(this, obj);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RVO_SIMULATOR_WORKER_STEP_OFFSET))(this, a1);
 		}
 
-		::System::Void updateRange(::System::Int32 start, ::System::Int32 end)
+		::System::Void updateRange(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RVO_SIMULATOR_WORKER_UPDATERANGE_OFFSET))(this, start, end);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RVO_SIMULATOR_WORKER_UPDATERANGE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void update(::System::Object* obj)
+		::System::Void update(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RVO_SIMULATOR_WORKER_UPDATE_OFFSET))(this, obj);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RVO_SIMULATOR_WORKER_UPDATE_OFFSET))(this, a1);
 		}
 	};
 }

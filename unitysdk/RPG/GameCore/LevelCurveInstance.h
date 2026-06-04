@@ -12,48 +12,48 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LEVELCURVEINSTANCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF2A49E0)
-#define RPG_GAMECORE_LEVELCURVEINSTANCE_EVALUATECURVECLOSESTPOSANDROT_OFFSET UNITYSDK_OFFSET(0xF2A5180)
-#define RPG_GAMECORE_LEVELCURVEINSTANCE_EVALUATECURVECLOSESTPOSITION_OFFSET UNITYSDK_OFFSET(0xF2A53B0)
-#define RPG_GAMECORE_LEVELCURVEINSTANCE_EVALUATECURVEPOSANDROT_1_OFFSET UNITYSDK_OFFSET(0xF2A4FF0)
-#define RPG_GAMECORE_LEVELCURVEINSTANCE_EVALUATECURVEPOSANDROT_OFFSET UNITYSDK_OFFSET(0xF2A4C30)
-#define RPG_GAMECORE_LEVELCURVEINSTANCE_FOREACHPOINT_OFFSET UNITYSDK_OFFSET(0xF2A4A60)
-#define RPG_GAMECORE_LEVELCURVEINSTANCE_GETCURVEPOINTPOSITION_1_OFFSET UNITYSDK_OFFSET(0xF2A4BA0)
-#define RPG_GAMECORE_LEVELCURVEINSTANCE_GETCURVEPOINTPOSITION_OFFSET UNITYSDK_OFFSET(0xF2A4B30)
-#define RPG_GAMECORE_LEVELCURVEINSTANCE_GET_CURVE_OFFSET UNITYSDK_OFFSET(0xF2A5720)
-#define RPG_GAMECORE_LEVELCURVEINSTANCE_GET_DISTANCE_OFFSET UNITYSDK_OFFSET(0xF2A5710)
-#define RPG_GAMECORE_LEVELCURVEINSTANCE_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0xF2A5700)
-#define RPG_GAMECORE_LEVELCURVEINSTANCE_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0xF2A4410)
-#define RPG_GAMECORE_LEVELCURVEINSTANCE_GET_MATH_OFFSET UNITYSDK_OFFSET(0xF2A5730)
-#define RPG_GAMECORE_LEVELCURVEINSTANCE_GET_POINTCOUNT_OFFSET UNITYSDK_OFFSET(0xF2A5740)
-#define RPG_GAMECORE_LEVELCURVEINSTANCE_HASCURVEPOINT_OFFSET UNITYSDK_OFFSET(0xF2A4AA0)
-#define RPG_GAMECORE_LEVELCURVEINSTANCE_VALIDATETANGENT_1_OFFSET UNITYSDK_OFFSET(0xF2A54F0)
-#define RPG_GAMECORE_LEVELCURVEINSTANCE_VALIDATETANGENT_OFFSET UNITYSDK_OFFSET(0xF2A4EA0)
-#define RPG_GAMECORE_LEVELCURVEINSTANCE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xF2A4430)
-#define RPG_GAMECORE_LEVELCURVEINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0xF2A3D80)
+#define RPG_GAMECORE_LEVELCURVEINSTANCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1872B390)
+#define RPG_GAMECORE_LEVELCURVEINSTANCE_EVALUATECURVECLOSESTPOSANDROT_OFFSET UNITYSDK_OFFSET(0x1872BB70)
+#define RPG_GAMECORE_LEVELCURVEINSTANCE_EVALUATECURVECLOSESTPOSITION_OFFSET UNITYSDK_OFFSET(0x1872BDA0)
+#define RPG_GAMECORE_LEVELCURVEINSTANCE_EVALUATECURVEPOSANDROT_1_OFFSET UNITYSDK_OFFSET(0x1872B9E0)
+#define RPG_GAMECORE_LEVELCURVEINSTANCE_EVALUATECURVEPOSANDROT_OFFSET UNITYSDK_OFFSET(0x1872B630)
+#define RPG_GAMECORE_LEVELCURVEINSTANCE_FOREACHPOINT_OFFSET UNITYSDK_OFFSET(0x1872B410)
+#define RPG_GAMECORE_LEVELCURVEINSTANCE_GETCURVEPOINTPOSITION_1_OFFSET UNITYSDK_OFFSET(0x1872B5A0)
+#define RPG_GAMECORE_LEVELCURVEINSTANCE_GETCURVEPOINTPOSITION_OFFSET UNITYSDK_OFFSET(0x1872B4E0)
+#define RPG_GAMECORE_LEVELCURVEINSTANCE_GET_CURVE_OFFSET UNITYSDK_OFFSET(0x1872C170)
+#define RPG_GAMECORE_LEVELCURVEINSTANCE_GET_DISTANCE_OFFSET UNITYSDK_OFFSET(0x1872C160)
+#define RPG_GAMECORE_LEVELCURVEINSTANCE_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1872C150)
+#define RPG_GAMECORE_LEVELCURVEINSTANCE_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x1872ADD0)
+#define RPG_GAMECORE_LEVELCURVEINSTANCE_GET_MATH_OFFSET UNITYSDK_OFFSET(0x1872C180)
+#define RPG_GAMECORE_LEVELCURVEINSTANCE_GET_POINTCOUNT_OFFSET UNITYSDK_OFFSET(0x1872C190)
+#define RPG_GAMECORE_LEVELCURVEINSTANCE_HASCURVEPOINT_OFFSET UNITYSDK_OFFSET(0x1872B450)
+#define RPG_GAMECORE_LEVELCURVEINSTANCE_VALIDATETANGENT_1_OFFSET UNITYSDK_OFFSET(0x1872BEE0)
+#define RPG_GAMECORE_LEVELCURVEINSTANCE_VALIDATETANGENT_OFFSET UNITYSDK_OFFSET(0x1872B890)
+#define RPG_GAMECORE_LEVELCURVEINSTANCE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1872ADF0)
+#define RPG_GAMECORE_LEVELCURVEINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1872A780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCurveInstance_TypeDefinitionIndex = 53336;
+	inline static constexpr unsigned int LevelCurveInstance_TypeDefinitionIndex = 54049;
 
 	class LevelCurveInstance : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::LevelCurveInfo* _Config; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>* _PointNameMap; // 0x18
-		::BansheeGz::BGSpline::Curve::BGCurve* _Curve; // 0x20
-		::BansheeGz::BGSpline::Components::BGCcMath* _Math; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>* _PointNameMap; // 0x10
+		::BansheeGz::BGSpline::Curve::BGCurve* _Curve; // 0x18
+		::BansheeGz::BGSpline::Components::BGCcMath* _Math; // 0x20
+		::RPG::GameCore::LevelCurveInfo* _Config; // 0x28
 		::System::Single _Distance_k__BackingField; // 0x30
 		::System::UInt32 _GroupID_k__BackingField; // 0x34
 
-		::System::Void _ctor(::System::UInt32 groupID, ::RPG::GameCore::LevelCurveInfo* info)
+		::System::Void _ctor(::System::UInt32 a1, ::RPG::GameCore::LevelCurveInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::LevelCurveInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE__CTOR_OFFSET))(this, groupID, info);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::LevelCurveInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::System::UInt32 groupID, ::RPG::GameCore::LevelCurveInfo* info, ::System::Func_3<::System::Int32, ::BansheeGz::BGSpline::Curve::BGCurve*, ::BansheeGz::BGSpline::Curve::BGCurvePoint*>* curvePointFunc)
+		::System::Void _ctor_1(::System::UInt32 a1, ::RPG::GameCore::LevelCurveInfo* a2, ::System::Func_3<::System::Int32, ::BansheeGz::BGSpline::Curve::BGCurve*, ::BansheeGz::BGSpline::Curve::BGCurvePoint*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::LevelCurveInfo*, ::System::Func_3<::System::Int32, ::BansheeGz::BGSpline::Curve::BGCurve*, ::BansheeGz::BGSpline::Curve::BGCurvePoint*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE__CTOR_1_OFFSET))(this, groupID, info, curvePointFunc);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::LevelCurveInfo*, ::System::Func_3<::System::Int32, ::BansheeGz::BGSpline::Curve::BGCurve*, ::BansheeGz::BGSpline::Curve::BGCurvePoint*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE__CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Dispose()
@@ -66,49 +66,49 @@ namespace RPG::GameCore
 			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE_FOREACHPOINT_OFFSET))(this);
 		}
 
-		::System::Boolean HasCurvePoint(::System::String* pointAlias)
+		::System::Boolean HasCurvePoint(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE_HASCURVEPOINT_OFFSET))(this, pointAlias);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE_HASCURVEPOINT_OFFSET))(this, a1);
 		}
 
-		::System::Single GetCurvePointPosition(::System::String* pointAlias)
+		::System::Single GetCurvePointPosition(::System::String* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE_GETCURVEPOINTPOSITION_OFFSET))(this, pointAlias);
+			return ((::System::Single(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE_GETCURVEPOINTPOSITION_OFFSET))(this, a1);
 		}
 
-		::System::Single GetCurvePointPosition_1(::System::Int32 pointIndex)
+		::System::Single GetCurvePointPosition_1(::System::Int32 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE_GETCURVEPOINTPOSITION_1_OFFSET))(this, pointIndex);
+			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE_GETCURVEPOINTPOSITION_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean EvaluateCurvePosAndRot(::System::String* pointAlias, ::System::Boolean positive, ::UnityEngine::Vector3& pos, ::UnityEngine::Quaternion& rot)
+		::System::Boolean EvaluateCurvePosAndRot(::System::String* a1, ::System::Boolean a2, ::UnityEngine::Vector3& a3, ::UnityEngine::Quaternion& a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Boolean, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE_EVALUATECURVEPOSANDROT_OFFSET))(this, pointAlias, positive, pos, rot);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Boolean, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE_EVALUATECURVEPOSANDROT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EvaluateCurvePosAndRot_1(::System::Single distance, ::System::Boolean positive, ::UnityEngine::Vector3& pos, ::UnityEngine::Quaternion& rot)
+		::System::Void EvaluateCurvePosAndRot_1(::System::Single a1, ::System::Boolean a2, ::UnityEngine::Vector3& a3, ::UnityEngine::Quaternion& a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE_EVALUATECURVEPOSANDROT_1_OFFSET))(this, distance, positive, pos, rot);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE_EVALUATECURVEPOSANDROT_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EvaluateCurveClosestPosAndRot(::UnityEngine::Vector3 inPoint, ::System::Boolean positive, ::UnityEngine::Vector3& pos, ::UnityEngine::Quaternion& rot)
+		::System::Void EvaluateCurveClosestPosAndRot(::UnityEngine::Vector3 a1, ::System::Boolean a2, ::UnityEngine::Vector3& a3, ::UnityEngine::Quaternion& a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE_EVALUATECURVECLOSESTPOSANDROT_OFFSET))(this, inPoint, positive, pos, rot);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE_EVALUATECURVECLOSESTPOSANDROT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Single EvaluateCurveClosestPosition(::UnityEngine::Vector3 inPoint)
+		::System::Single EvaluateCurveClosestPosition(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE_EVALUATECURVECLOSESTPOSITION_OFFSET))(this, inPoint);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE_EVALUATECURVECLOSESTPOSITION_OFFSET))(this, a1);
 		}
 
-		::System::Void ValidateTangent(::System::Single distance, ::UnityEngine::Vector3& position, ::UnityEngine::Vector3& tangent)
+		::System::Void ValidateTangent(::System::Single a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Vector3& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE_VALIDATETANGENT_OFFSET))(this, distance, position, tangent);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE_VALIDATETANGENT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ValidateTangent_1(::System::Int32 index, ::UnityEngine::Vector3& position, ::UnityEngine::Vector3& tangent)
+		::System::Void ValidateTangent_1(::System::Int32 a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Vector3& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE_VALIDATETANGENT_1_OFFSET))(this, index, position, tangent);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINSTANCE_VALIDATETANGENT_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 get_GroupID()

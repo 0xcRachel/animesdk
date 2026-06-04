@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIATOMEXBEATSYNC_CBFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1827D940)
-#define CRIWARE_CRIATOMEXBEATSYNC_CBFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1827D9B0)
-#define CRIWARE_CRIATOMEXBEATSYNC_CBFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x182645D0)
-#define CRIWARE_CRIATOMEXBEATSYNC_CBFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x18264EF0)
+#define CRIWARE_CRIATOMEXBEATSYNC_CBFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18E00350)
+#define CRIWARE_CRIATOMEXBEATSYNC_CBFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18E003C0)
+#define CRIWARE_CRIATOMEXBEATSYNC_CBFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x18DE6860)
+#define CRIWARE_CRIATOMEXBEATSYNC_CBFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x18E002E0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExBeatSync_CbFunc_TypeDefinitionIndex = 36747;
+	inline static constexpr unsigned int CriAtomExBeatSync_CbFunc_TypeDefinitionIndex = 37047;
 
 	class CriAtomExBeatSync_CbFunc : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXBEATSYNC_CBFUNC__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXBEATSYNC_CBFUNC__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::CriWare::CriAtomExBeatSync_Info& info)
+		::System::Void Invoke(::CriWare::CriAtomExBeatSync_Info& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomExBeatSync_Info&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXBEATSYNC_CBFUNC_INVOKE_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomExBeatSync_Info&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXBEATSYNC_CBFUNC_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::CriWare::CriAtomExBeatSync_Info& info, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::CriWare::CriAtomExBeatSync_Info& a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::CriWare::CriAtomExBeatSync_Info&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXBEATSYNC_CBFUNC_BEGININVOKE_OFFSET))(this, info, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::CriWare::CriAtomExBeatSync_Info&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXBEATSYNC_CBFUNC_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::CriWare::CriAtomExBeatSync_Info& info, ::System::IAsyncResult* result)
+		::System::Void EndInvoke(::CriWare::CriAtomExBeatSync_Info& a1, ::System::IAsyncResult* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomExBeatSync_Info&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXBEATSYNC_CBFUNC_ENDINVOKE_OFFSET))(this, info, result);
+			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomExBeatSync_Info&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXBEATSYNC_CBFUNC_ENDINVOKE_OFFSET))(this, a1, a2);
 		}
 	};
 }

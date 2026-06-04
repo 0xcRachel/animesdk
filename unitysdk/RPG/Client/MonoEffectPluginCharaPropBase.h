@@ -19,88 +19,88 @@ namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_GETBASECHARACTERFILTER_OFFSET UNITYSDK_OFFSET(0x165DE260)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_INIT_OFFSET UNITYSDK_OFFSET(0x165DDE20)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_ISNEEDLUTPROPERTY_OFFSET UNITYSDK_OFFSET(0x165DDDE0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_133D4C22955A3FD4_OFFSET UNITYSDK_OFFSET(0x165DDCB0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_245FCA46D1ACCF75_OFFSET UNITYSDK_OFFSET(0x165DE630)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_24C4877736C7ECC1_OFFSET UNITYSDK_OFFSET(0x165DD810)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_266142690C1F4DA7_OFFSET UNITYSDK_OFFSET(0x165DDF60)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_29BBC6AFAA753571_OFFSET UNITYSDK_OFFSET(0x165DD080)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_2B99EB539996D3F8_OFFSET UNITYSDK_OFFSET(0x165DDD50)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_32DB126E17E74B6E_OFFSET UNITYSDK_OFFSET(0x165DD290)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_35B47B742E5C0C71_OFFSET UNITYSDK_OFFSET(0x165DDA20)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_36E72ACB3BD131F5_OFFSET UNITYSDK_OFFSET(0x165DD130)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_442BAD5193320576_OFFSET UNITYSDK_OFFSET(0x165DD540)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_4468B24F46F4BA49_OFFSET UNITYSDK_OFFSET(0x165DD740)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_5D7F184568E6FC20_OFFSET UNITYSDK_OFFSET(0x165DCFD0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_69B1D8DE9BA9AD35_1_OFFSET UNITYSDK_OFFSET(0x165DD600)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_69B1D8DE9BA9AD35_2_OFFSET UNITYSDK_OFFSET(0x165DD6A0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_69B1D8DE9BA9AD35_OFFSET UNITYSDK_OFFSET(0x165DD490)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_76D4F75C62ECEC1B_OFFSET UNITYSDK_OFFSET(0x165DE440)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_8D61EA2A7BA560ED_OFFSET UNITYSDK_OFFSET(0x165DE2D0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_BAE07EF3370B3AFF_OFFSET UNITYSDK_OFFSET(0x165DD980)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_D9CB18AA1728E62F_OFFSET UNITYSDK_OFFSET(0x165DD1F0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_E161C1A6F52E209B_OFFSET UNITYSDK_OFFSET(0x165DDBF0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_E66230091A8DE09B_OFFSET UNITYSDK_OFFSET(0x165DD8E0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_E86AC366BE136CAF_OFFSET UNITYSDK_OFFSET(0x165DD3F0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_EE109D3F15DCF905_OFFSET UNITYSDK_OFFSET(0x165DD340)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_F17509EC24F95022_OFFSET UNITYSDK_OFFSET(0x165DDAB0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_F99794BF9B24DA62_OFFSET UNITYSDK_OFFSET(0x165DDB50)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_UNINIT_OFFSET UNITYSDK_OFFSET(0x165DE1F0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x165DEC50)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x165DEC40)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_GETBASECHARACTERFILTER_OFFSET UNITYSDK_OFFSET(0x15A1EE40)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_INIT_OFFSET UNITYSDK_OFFSET(0x15A1EA60)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_ISNEEDLUTPROPERTY_OFFSET UNITYSDK_OFFSET(0x15A1EA20)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_133D4C22955A3FD4_OFFSET UNITYSDK_OFFSET(0x15A1E8F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_24140896E5EA07AC_OFFSET UNITYSDK_OFFSET(0x15A1F320)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_24C4877736C7ECC1_OFFSET UNITYSDK_OFFSET(0x15A1E450)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_266142690C1F4DA7_OFFSET UNITYSDK_OFFSET(0x15A1EBA0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_29BBC6AFAA753571_OFFSET UNITYSDK_OFFSET(0x15A1DCC0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_2B99EB539996D3F8_OFFSET UNITYSDK_OFFSET(0x15A1E990)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_32DB126E17E74B6E_OFFSET UNITYSDK_OFFSET(0x15A1DED0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_35B47B742E5C0C71_OFFSET UNITYSDK_OFFSET(0x15A1E660)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_36E72ACB3BD131F5_OFFSET UNITYSDK_OFFSET(0x15A1DD70)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_442BAD5193320576_OFFSET UNITYSDK_OFFSET(0x15A1E180)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_4468B24F46F4BA49_OFFSET UNITYSDK_OFFSET(0x15A1E380)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_5D7F184568E6FC20_OFFSET UNITYSDK_OFFSET(0x15A1DC10)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_69B1D8DE9BA9AD35_1_OFFSET UNITYSDK_OFFSET(0x15A1E240)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_69B1D8DE9BA9AD35_2_OFFSET UNITYSDK_OFFSET(0x15A1E2E0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_69B1D8DE9BA9AD35_OFFSET UNITYSDK_OFFSET(0x15A1E0D0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_76D4F75C62ECEC1B_OFFSET UNITYSDK_OFFSET(0x15A1F090)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_863B34925FE44D0B_OFFSET UNITYSDK_OFFSET(0x15A1EEB0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_BAE07EF3370B3AFF_OFFSET UNITYSDK_OFFSET(0x15A1E5C0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_D9CB18AA1728E62F_OFFSET UNITYSDK_OFFSET(0x15A1DE30)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_E161C1A6F52E209B_OFFSET UNITYSDK_OFFSET(0x15A1E830)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_E66230091A8DE09B_OFFSET UNITYSDK_OFFSET(0x15A1E520)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_E86AC366BE136CAF_OFFSET UNITYSDK_OFFSET(0x15A1E030)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_EE109D3F15DCF905_OFFSET UNITYSDK_OFFSET(0x15A1DF80)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_F17509EC24F95022_OFFSET UNITYSDK_OFFSET(0x15A1E6F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_F99794BF9B24DA62_OFFSET UNITYSDK_OFFSET(0x15A1E790)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_UNINIT_OFFSET UNITYSDK_OFFSET(0x15A1EDD0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x15A1F840)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x15A1F830)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropBase_TypeDefinitionIndex = 64479;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropBase_TypeDefinitionIndex = 65400;
 
 	class MonoEffectPluginCharaPropBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_4()
+		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_0()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5DB30);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_10()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5DB38);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_2()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5DB40);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_8()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5DB48);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_9()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5DB50);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_3()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5DB58);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_7()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5DB60);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5B730);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_1()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5DB68);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5B738);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_2()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5B740);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_3()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5B748);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_4()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5B750);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_5()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5DB70);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_0()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5DB78);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5B758);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_6()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5DB80);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5B760);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_7()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5B768);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_8()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5B770);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_9()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5B778);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_10()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropBase_TypeDefinitionIndex)->GetStaticField(0x5B780);
 		}
 		::Il2CppArray<::System::Boolean>* Field_5_11; // 0x18
 		::Il2CppArray<::System::Boolean>* Field_5_12; // 0x20
@@ -253,14 +253,14 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::UnityEngine::Material*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::Il2CppArray<::System::String*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_76D4F75C62ECEC1B_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::System::Int32>*>* Method_5_245FCA46D1ACCF75(::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>* a1, ::Il2CppArray<::System::String*>* a2, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*& a3)
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::System::Int32>*>* Method_5_24140896E5EA07AC(::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>* a1, ::Il2CppArray<::System::String*>* a2, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*& a3)
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::System::Int32>*>*(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>*, ::Il2CppArray<::System::String*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_245FCA46D1ACCF75_OFFSET))(this, a1, a2, a3);
+			return ((::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::System::Int32>*>*(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>*, ::Il2CppArray<::System::String*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_24140896E5EA07AC_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::String* Method_5_8D61EA2A7BA560ED(::UnityEngine::Material* a1, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*& a2)
+		::System::String* Method_5_863B34925FE44D0B(::UnityEngine::Material* a1, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*& a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::UnityEngine::Material*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_8D61EA2A7BA560ED_OFFSET))(this, a1, a2);
+			return ((::System::String*(*)(::PVOID, ::UnityEngine::Material*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPBASE_METHOD_5_863B34925FE44D0B_OFFSET))(this, a1, a2);
 		}
 	};
 }

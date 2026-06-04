@@ -7,21 +7,24 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 
-#define CLASS_4_B1452AB91A4F872E_METHOD_4_491DC5019255BE43_OFFSET UNITYSDK_OFFSET(0x187EE7F0)
-#define CLASS_4_B1452AB91A4F872E_METHOD_4_637CBE131CC2826D_OFFSET UNITYSDK_OFFSET(0x187EE6F0)
-#define CLASS_4_B1452AB91A4F872E__CTOR_OFFSET UNITYSDK_OFFSET(0x187EE780)
+#define CLASS_4_B1452AB91A4F872E_METHOD_4_491DC5019255BE43_OFFSET UNITYSDK_OFFSET(0x1919CB70)
+#define CLASS_4_B1452AB91A4F872E_METHOD_4_637CBE131CC2826D_OFFSET UNITYSDK_OFFSET(0x1919CA70)
+#define CLASS_4_B1452AB91A4F872E_METHOD_4_8F89AB4BF2E65FA1_OFFSET UNITYSDK_OFFSET(0x1919CE50)
+#define CLASS_4_B1452AB91A4F872E_METHOD_4_D904BEDF8B9A9E17_OFFSET UNITYSDK_OFFSET(0x1919CEE0)
+#define CLASS_4_B1452AB91A4F872E__CTOR_OFFSET UNITYSDK_OFFSET(0x1919CB00)
 
-inline static constexpr unsigned int Class_4_B1452AB91A4F872E_TypeDefinitionIndex = 23245;
+inline static constexpr unsigned int Class_4_B1452AB91A4F872E_TypeDefinitionIndex = 22913;
 
 class Class_4_B1452AB91A4F872E : public ::RPG::GameCore::PredicateConfig
 {
 public:
-	::RPG::GameCore::TargetEvaluator* Field_4_2; // 0x20
-	::System::Int32 Field_4_4; // 0x28
-	::RPG::GameCore::EntityTypeMask Field_4_1; // 0x30
-	::RPG::GameCore::RtStackSkillTargetRedirectPhase Field_4_3; // 0x38
-	::RPG::GameCore::TeamTypeMask Field_4_0; // 0x3C
+	::RPG::GameCore::TargetEvaluator* Field_4_0; // 0x20
+	::System::Int32 Field_4_1; // 0x28
+	::RPG::GameCore::EntityTypeMask Field_4_2; // 0x30
+	::RPG::GameCore::TeamTypeMask Field_4_3; // 0x38
+	::RPG::GameCore::RtStackSkillTargetRedirectPhase Field_4_4; // 0x3C
 
 	::System::Void _ctor()
 	{
@@ -36,5 +39,15 @@ public:
 	static ::System::Void Method_4_491DC5019255BE43(::Class_1_7A22A3DBEEDD1F80* a1, ::Class_4_B1452AB91A4F872E* a2)
 	{
 		return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::Class_4_B1452AB91A4F872E*))((::PBYTE)hIl2Cpp + CLASS_4_B1452AB91A4F872E_METHOD_4_491DC5019255BE43_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_4_8F89AB4BF2E65FA1(::SimpleJSON::JSONNode* a1, ::Class_4_B1452AB91A4F872E*& a2)
+	{
+		return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::Class_4_B1452AB91A4F872E*&))((::PBYTE)hIl2Cpp + CLASS_4_B1452AB91A4F872E_METHOD_4_8F89AB4BF2E65FA1_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_4_D904BEDF8B9A9E17(::SimpleJSON::JSONNode* a1, ::Class_4_B1452AB91A4F872E* a2)
+	{
+		return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::Class_4_B1452AB91A4F872E*))((::PBYTE)hIl2Cpp + CLASS_4_B1452AB91A4F872E_METHOD_4_D904BEDF8B9A9E17_OFFSET))(a1, a2);
 	}
 };

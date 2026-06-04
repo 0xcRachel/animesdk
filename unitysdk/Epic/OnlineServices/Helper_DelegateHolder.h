@@ -5,19 +5,19 @@
 
 namespace System { class Delegate; }
 
-#define EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_GET_NOTIFICATIONID_OFFSET UNITYSDK_OFFSET(0x1931A610)
-#define EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_GET_PRIVATE_OFFSET UNITYSDK_OFFSET(0x1931A5D0)
-#define EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_GET_PUBLIC_OFFSET UNITYSDK_OFFSET(0x1931A5B0)
-#define EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_GET_STRUCTDELEGATES_OFFSET UNITYSDK_OFFSET(0x1931A5F0)
-#define EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_SET_NOTIFICATIONID_OFFSET UNITYSDK_OFFSET(0x1931A620)
-#define EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_SET_PRIVATE_OFFSET UNITYSDK_OFFSET(0x1931A5E0)
-#define EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_SET_PUBLIC_OFFSET UNITYSDK_OFFSET(0x1931A5C0)
-#define EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_SET_STRUCTDELEGATES_OFFSET UNITYSDK_OFFSET(0x1931A600)
-#define EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1931A1F0)
+#define EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_GET_NOTIFICATIONID_OFFSET UNITYSDK_OFFSET(0x19F02FE0)
+#define EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_GET_PRIVATE_OFFSET UNITYSDK_OFFSET(0x19F02FA0)
+#define EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_GET_PUBLIC_OFFSET UNITYSDK_OFFSET(0x19F02F80)
+#define EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_GET_STRUCTDELEGATES_OFFSET UNITYSDK_OFFSET(0x19F02FC0)
+#define EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_SET_NOTIFICATIONID_OFFSET UNITYSDK_OFFSET(0x19F02FF0)
+#define EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_SET_PRIVATE_OFFSET UNITYSDK_OFFSET(0x19F02FB0)
+#define EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_SET_PUBLIC_OFFSET UNITYSDK_OFFSET(0x19F02F90)
+#define EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_SET_STRUCTDELEGATES_OFFSET UNITYSDK_OFFSET(0x19F02FD0)
+#define EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x19F02BC0)
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int Helper_DelegateHolder_TypeDefinitionIndex = 41069;
+	inline static constexpr unsigned int Helper_DelegateHolder_TypeDefinitionIndex = 41872;
 
 	class Helper_DelegateHolder : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices
 		::Il2CppArray<::System::Delegate*>* _StructDelegates_k__BackingField; // 0x20
 		::System::Nullable_1<::System::UInt64> _NotificationId_k__BackingField; // 0x28
 
-		::System::Void _ctor(::System::Delegate* publicDelegate, ::System::Delegate* privateDelegate, ::Il2CppArray<::System::Delegate*>* structDelegates)
+		::System::Void _ctor(::System::Delegate* a1, ::System::Delegate* a2, ::Il2CppArray<::System::Delegate*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Delegate*, ::System::Delegate*, ::Il2CppArray<::System::Delegate*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER__CTOR_OFFSET))(this, publicDelegate, privateDelegate, structDelegates);
+			return ((::System::Void(*)(::PVOID, ::System::Delegate*, ::System::Delegate*, ::Il2CppArray<::System::Delegate*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Delegate* get_Public()
@@ -37,9 +37,9 @@ namespace Epic::OnlineServices
 			return ((::System::Delegate*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_GET_PUBLIC_OFFSET))(this);
 		}
 
-		::System::Void set_Public(::System::Delegate* value)
+		::System::Void set_Public(::System::Delegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Delegate*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_SET_PUBLIC_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Delegate*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_SET_PUBLIC_OFFSET))(this, a1);
 		}
 
 		::System::Delegate* get_Private()
@@ -47,9 +47,9 @@ namespace Epic::OnlineServices
 			return ((::System::Delegate*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_GET_PRIVATE_OFFSET))(this);
 		}
 
-		::System::Void set_Private(::System::Delegate* value)
+		::System::Void set_Private(::System::Delegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Delegate*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_SET_PRIVATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Delegate*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_SET_PRIVATE_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::Delegate*>* get_StructDelegates()
@@ -57,9 +57,9 @@ namespace Epic::OnlineServices
 			return ((::Il2CppArray<::System::Delegate*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_GET_STRUCTDELEGATES_OFFSET))(this);
 		}
 
-		::System::Void set_StructDelegates(::Il2CppArray<::System::Delegate*>* value)
+		::System::Void set_StructDelegates(::Il2CppArray<::System::Delegate*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Delegate*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_SET_STRUCTDELEGATES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Delegate*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_SET_STRUCTDELEGATES_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::System::UInt64> get_NotificationId()
@@ -67,9 +67,9 @@ namespace Epic::OnlineServices
 			return ((::System::Nullable_1<::System::UInt64>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_GET_NOTIFICATIONID_OFFSET))(this);
 		}
 
-		::System::Void set_NotificationId(::System::Nullable_1<::System::UInt64> value)
+		::System::Void set_NotificationId(::System::Nullable_1<::System::UInt64> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::UInt64>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_SET_NOTIFICATIONID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::UInt64>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_HELPER_DELEGATEHOLDER_SET_NOTIFICATIONID_OFFSET))(this, a1);
 		}
 	};
 }

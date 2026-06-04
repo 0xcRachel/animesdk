@@ -8,12 +8,12 @@ namespace MiHoYo::SDK::Win { class SteamManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15D26320)
-#define MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS16_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x15D29B40)
+#define MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16B3A550)
+#define MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS16_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x16B3DC40)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int SteamManager___c__DisplayClass16_0_TypeDefinitionIndex = 8122;
+	inline static constexpr unsigned int SteamManager___c__DisplayClass16_0_TypeDefinitionIndex = 9025;
 
 	class SteamManager___c__DisplayClass16_0 : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS16_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _GetProductList_b__0(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void _GetProductList_b__0(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS16_0__GETPRODUCTLIST_B__0_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS16_0__GETPRODUCTLIST_B__0_OFFSET))(this, a1);
 		}
 	};
 }

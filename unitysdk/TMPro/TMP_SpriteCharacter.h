@@ -6,17 +6,17 @@ namespace System { class String; }
 namespace TMPro { class TMP_SpriteAsset; }
 namespace TMPro { class TMP_SpriteGlyph; }
 
-#define TMPRO_TMP_SPRITECHARACTER_GET_HASHCODE_OFFSET UNITYSDK_OFFSET(0x160AF020)
-#define TMPRO_TMP_SPRITECHARACTER_GET_NAME_OFFSET UNITYSDK_OFFSET(0x160AF010)
-#define TMPRO_TMP_SPRITECHARACTER_SET_NAME_OFFSET UNITYSDK_OFFSET(0x160AEDC0)
-#define TMPRO_TMP_SPRITECHARACTER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x160AF030)
-#define TMPRO_TMP_SPRITECHARACTER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x160AF060)
-#define TMPRO_TMP_SPRITECHARACTER__CTOR_3_OFFSET UNITYSDK_OFFSET(0x160AF0A0)
-#define TMPRO_TMP_SPRITECHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x160AEDB0)
+#define TMPRO_TMP_SPRITECHARACTER_GET_HASHCODE_OFFSET UNITYSDK_OFFSET(0x155ED210)
+#define TMPRO_TMP_SPRITECHARACTER_GET_NAME_OFFSET UNITYSDK_OFFSET(0x155ED200)
+#define TMPRO_TMP_SPRITECHARACTER_SET_NAME_OFFSET UNITYSDK_OFFSET(0x155ECFB0)
+#define TMPRO_TMP_SPRITECHARACTER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x155ED220)
+#define TMPRO_TMP_SPRITECHARACTER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x155ED250)
+#define TMPRO_TMP_SPRITECHARACTER__CTOR_3_OFFSET UNITYSDK_OFFSET(0x155ED290)
+#define TMPRO_TMP_SPRITECHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x155ECFA0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_SpriteCharacter_TypeDefinitionIndex = 40192;
+	inline static constexpr unsigned int TMP_SpriteCharacter_TypeDefinitionIndex = 41019;
 
 	class TMP_SpriteCharacter : public ::TMPro::TMP_TextElement
 	{
@@ -29,19 +29,19 @@ namespace TMPro
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITECHARACTER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::UInt32 unicode, ::TMPro::TMP_SpriteGlyph* glyph)
+		::System::Void _ctor_1(::System::UInt32 a1, ::TMPro::TMP_SpriteGlyph* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::TMPro::TMP_SpriteGlyph*))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITECHARACTER__CTOR_1_OFFSET))(this, unicode, glyph);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::TMPro::TMP_SpriteGlyph*))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITECHARACTER__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_2(::System::UInt32 unicode, ::TMPro::TMP_SpriteAsset* spriteAsset, ::TMPro::TMP_SpriteGlyph* glyph)
+		::System::Void _ctor_2(::System::UInt32 a1, ::TMPro::TMP_SpriteAsset* a2, ::TMPro::TMP_SpriteGlyph* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::TMPro::TMP_SpriteAsset*, ::TMPro::TMP_SpriteGlyph*))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITECHARACTER__CTOR_2_OFFSET))(this, unicode, spriteAsset, glyph);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::TMPro::TMP_SpriteAsset*, ::TMPro::TMP_SpriteGlyph*))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITECHARACTER__CTOR_2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _ctor_3(::System::UInt32 unicode, ::System::UInt32 glyphIndex)
+		::System::Void _ctor_3(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITECHARACTER__CTOR_3_OFFSET))(this, unicode, glyphIndex);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITECHARACTER__CTOR_3_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_name()
@@ -49,9 +49,9 @@ namespace TMPro
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITECHARACTER_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Void set_name(::System::String* value)
+		::System::Void set_name(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITECHARACTER_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITECHARACTER_SET_NAME_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_hashCode()

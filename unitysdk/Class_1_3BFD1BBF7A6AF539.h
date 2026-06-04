@@ -2,31 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_13FE4AAA1A281B42;
 class Class_1_1C24DB91A0CEBCF1;
+class Class_1_40CD5CE8474BAA94;
 namespace RPG::Client { class DiceCombatPhySimParameter; }
 namespace RPG::Client::DiceCombat { class DiceCombatRollDiceEffectParameter; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_3BFD1BBF7A6AF539_METHOD_1_1C62453C3F38D037_OFFSET UNITYSDK_OFFSET(0xACDCEB0)
-#define CLASS_1_3BFD1BBF7A6AF539_METHOD_1_71F791675693F9C2_OFFSET UNITYSDK_OFFSET(0xACDD0A0)
-#define CLASS_1_3BFD1BBF7A6AF539_METHOD_1_7445215661C9D65B_OFFSET UNITYSDK_OFFSET(0xACDCDF0)
-#define CLASS_1_3BFD1BBF7A6AF539_METHOD_1_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0xACDD060)
-#define CLASS_1_3BFD1BBF7A6AF539__CTOR_OFFSET UNITYSDK_OFFSET(0xACDCDE0)
+#define CLASS_1_3BFD1BBF7A6AF539_METHOD_1_1C62453C3F38D037_OFFSET UNITYSDK_OFFSET(0x1728F240)
+#define CLASS_1_3BFD1BBF7A6AF539_METHOD_1_71F791675693F9C2_OFFSET UNITYSDK_OFFSET(0x1728F430)
+#define CLASS_1_3BFD1BBF7A6AF539_METHOD_1_7445215661C9D65B_OFFSET UNITYSDK_OFFSET(0x1728F180)
+#define CLASS_1_3BFD1BBF7A6AF539_METHOD_1_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0x1728F3F0)
+#define CLASS_1_3BFD1BBF7A6AF539__CTOR_OFFSET UNITYSDK_OFFSET(0x1728F170)
 
-inline static constexpr unsigned int Class_1_3BFD1BBF7A6AF539_TypeDefinitionIndex = 69857;
+inline static constexpr unsigned int Class_1_3BFD1BBF7A6AF539_TypeDefinitionIndex = 70669;
 
 class Class_1_3BFD1BBF7A6AF539 : public ::System::Object
 {
 public:
-	::Class_1_13FE4AAA1A281B42* Field_1_0; // 0x10
-	::Class_1_1C24DB91A0CEBCF1* Field_1_2; // 0x18
-	::UnityEngine::GameObject* Field_1_1; // 0x20
-	::RPG::Client::DiceCombat::DiceCombatRollDiceEffectParameter* Field_1_3; // 0x28
+	::RPG::Client::DiceCombat::DiceCombatRollDiceEffectParameter* Field_1_0; // 0x10
+	::UnityEngine::GameObject* Field_1_1; // 0x18
+	::Class_1_1C24DB91A0CEBCF1* Field_1_2; // 0x20
+	::Class_1_40CD5CE8474BAA94* Field_1_3; // 0x28
 
-	::System::Void _ctor(::Class_1_13FE4AAA1A281B42* a1, ::Class_1_1C24DB91A0CEBCF1* a2)
+	::System::Void _ctor(::Class_1_40CD5CE8474BAA94* a1, ::Class_1_1C24DB91A0CEBCF1* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_13FE4AAA1A281B42*, ::Class_1_1C24DB91A0CEBCF1*))((::PBYTE)hIl2Cpp + CLASS_1_3BFD1BBF7A6AF539__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_40CD5CE8474BAA94*, ::Class_1_1C24DB91A0CEBCF1*))((::PBYTE)hIl2Cpp + CLASS_1_3BFD1BBF7A6AF539__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::RPG::Client::DiceCombatPhySimParameter* Method_1_7445215661C9D65B()

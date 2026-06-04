@@ -6,30 +6,30 @@ namespace System { class Array; }
 namespace System::Collections { class Hashtable; }
 namespace System::Collections { class IEnumerator; }
 
-#define SYSTEM_COLLECTIONS_HASHTABLE_KEYCOLLECTION_COPYTO_OFFSET UNITYSDK_OFFSET(0x193D2900)
-#define SYSTEM_COLLECTIONS_HASHTABLE_KEYCOLLECTION_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x193D2AF0)
-#define SYSTEM_COLLECTIONS_HASHTABLE_KEYCOLLECTION_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x193D2BB0)
-#define SYSTEM_COLLECTIONS_HASHTABLE_KEYCOLLECTION_GET_ISSYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x193D2B50)
-#define SYSTEM_COLLECTIONS_HASHTABLE_KEYCOLLECTION_GET_SYNCROOT_OFFSET UNITYSDK_OFFSET(0x193D2B80)
-#define SYSTEM_COLLECTIONS_HASHTABLE_KEYCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x193D1280)
+#define SYSTEM_COLLECTIONS_HASHTABLE_KEYCOLLECTION_COPYTO_OFFSET UNITYSDK_OFFSET(0x19A1F510)
+#define SYSTEM_COLLECTIONS_HASHTABLE_KEYCOLLECTION_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19A1F6F0)
+#define SYSTEM_COLLECTIONS_HASHTABLE_KEYCOLLECTION_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x19A1F7B0)
+#define SYSTEM_COLLECTIONS_HASHTABLE_KEYCOLLECTION_GET_ISSYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x19A1F750)
+#define SYSTEM_COLLECTIONS_HASHTABLE_KEYCOLLECTION_GET_SYNCROOT_OFFSET UNITYSDK_OFFSET(0x19A1F780)
+#define SYSTEM_COLLECTIONS_HASHTABLE_KEYCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19A1DEB0)
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int Hashtable_KeyCollection_TypeDefinitionIndex = 1464;
+	inline static constexpr unsigned int Hashtable_KeyCollection_TypeDefinitionIndex = 1463;
 
 	class Hashtable_KeyCollection : public ::System::Object
 	{
 	public:
 		::System::Collections::Hashtable* _hashtable; // 0x10
 
-		::System::Void _ctor(::System::Collections::Hashtable* hashtable)
+		::System::Void _ctor(::System::Collections::Hashtable* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Hashtable*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_HASHTABLE_KEYCOLLECTION__CTOR_OFFSET))(this, hashtable);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Hashtable*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_HASHTABLE_KEYCOLLECTION__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void CopyTo(::System::Array* array, ::System::Int32 arrayIndex)
+		::System::Void CopyTo(::System::Array* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Array*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_HASHTABLE_KEYCOLLECTION_COPYTO_OFFSET))(this, array, arrayIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Array*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_HASHTABLE_KEYCOLLECTION_COPYTO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::IEnumerator* GetEnumerator()

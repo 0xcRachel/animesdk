@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1617F3A0)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1617F3D0)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1617EE40)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1617E2F0)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x17231710)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17231740)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION_INVOKE_OFFSET UNITYSDK_OFFSET(0x17231700)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION__CTOR_OFFSET UNITYSDK_OFFSET(0x17231690)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountPlatformPlugin_Notification_TypeDefinitionIndex = 7013;
+	inline static constexpr unsigned int AccountPlatformPlugin_Notification_TypeDefinitionIndex = 7916;
 
 	class AccountPlatformPlugin_Notification : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Invoke(::System::String* strNotification)
+		::System::Boolean Invoke(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION_INVOKE_OFFSET))(this, strNotification);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* strNotification, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION_BEGININVOKE_OFFSET))(this, strNotification, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean EndInvoke(::System::IAsyncResult* result)
+		::System::Boolean EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_NOTIFICATION_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

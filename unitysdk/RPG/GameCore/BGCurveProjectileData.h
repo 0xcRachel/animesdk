@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_BGCURVEPROJECTILEDATA_METHOD_3_AF3FD6E9A78823CD_OFFSET UNITYSDK_OFFSET(0x182232D0)
-#define RPG_GAMECORE_BGCURVEPROJECTILEDATA_METHOD_3_B9C6AFD4966F3286_OFFSET UNITYSDK_OFFSET(0x182231D0)
-#define RPG_GAMECORE_BGCURVEPROJECTILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18223260)
+#define RPG_GAMECORE_BGCURVEPROJECTILEDATA_METHOD_3_AF3FD6E9A78823CD_OFFSET UNITYSDK_OFFSET(0x1764E2F0)
+#define RPG_GAMECORE_BGCURVEPROJECTILEDATA_METHOD_3_B9C6AFD4966F3286_OFFSET UNITYSDK_OFFSET(0x1764E1F0)
+#define RPG_GAMECORE_BGCURVEPROJECTILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1764E280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BGCurveProjectileData_TypeDefinitionIndex = 14834;
+	inline static constexpr unsigned int BGCurveProjectileData_TypeDefinitionIndex = 14898;
 
 	class BGCurveProjectileData : public ::RPG::GameCore::NewProjectileConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* SubCurveIndex; // 0xB0
+		::RPG::GameCore::DynamicFloat* SubCurveIndex; // 0xB8
 
 		::System::Void _ctor()
 		{

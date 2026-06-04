@@ -8,43 +8,43 @@ namespace UnityEngine { class GPUParticlesAsset; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 
-#define UNITYENGINE_GPUPARTICLESRENDERER_GET_PARTICLESASSET_OFFSET UNITYSDK_OFFSET(0x197F76E0)
-#define UNITYENGINE_GPUPARTICLESRENDERER_GET_SHAREDMESH_OFFSET UNITYSDK_OFFSET(0x197F76D0)
-#define UNITYENGINE_GPUPARTICLESRENDERER_SETLOCALAABB_INJECTED_OFFSET UNITYSDK_OFFSET(0x197F7680)
-#define UNITYENGINE_GPUPARTICLESRENDERER_SETLOCALAABB_OFFSET UNITYSDK_OFFSET(0x197F7670)
-#define UNITYENGINE_GPUPARTICLESRENDERER_SETOVERRIDEBOUNDS_OFFSET UNITYSDK_OFFSET(0x197F7720)
-#define UNITYENGINE_GPUPARTICLESRENDERER_SETOVERRIDEWORLDAABB_INJECTED_OFFSET UNITYSDK_OFFSET(0x197F7710)
-#define UNITYENGINE_GPUPARTICLESRENDERER_SETOVERRIDEWORLDAABB_OFFSET UNITYSDK_OFFSET(0x197F7700)
-#define UNITYENGINE_GPUPARTICLESRENDERER_SET_AABBMODE_OFFSET UNITYSDK_OFFSET(0x197F7660)
-#define UNITYENGINE_GPUPARTICLESRENDERER_SET_LOCALBOUNDS_OFFSET UNITYSDK_OFFSET(0x197F7690)
-#define UNITYENGINE_GPUPARTICLESRENDERER_SET_PARTICLESASSET_OFFSET UNITYSDK_OFFSET(0x197F76F0)
-#define UNITYENGINE_GPUPARTICLESRENDERER_SET_SKINNEDMESHRENDERER_OFFSET UNITYSDK_OFFSET(0x197F76C0)
+#define UNITYENGINE_GPUPARTICLESRENDERER_GET_PARTICLESASSET_OFFSET UNITYSDK_OFFSET(0x1A4E2620)
+#define UNITYENGINE_GPUPARTICLESRENDERER_GET_SHAREDMESH_OFFSET UNITYSDK_OFFSET(0x1A4E2610)
+#define UNITYENGINE_GPUPARTICLESRENDERER_SETLOCALAABB_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A4E25C0)
+#define UNITYENGINE_GPUPARTICLESRENDERER_SETLOCALAABB_OFFSET UNITYSDK_OFFSET(0x1A4E25B0)
+#define UNITYENGINE_GPUPARTICLESRENDERER_SETOVERRIDEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1A4E2660)
+#define UNITYENGINE_GPUPARTICLESRENDERER_SETOVERRIDEWORLDAABB_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A4E2650)
+#define UNITYENGINE_GPUPARTICLESRENDERER_SETOVERRIDEWORLDAABB_OFFSET UNITYSDK_OFFSET(0x1A4E2640)
+#define UNITYENGINE_GPUPARTICLESRENDERER_SET_AABBMODE_OFFSET UNITYSDK_OFFSET(0x1A4E25A0)
+#define UNITYENGINE_GPUPARTICLESRENDERER_SET_LOCALBOUNDS_OFFSET UNITYSDK_OFFSET(0x1A4E25D0)
+#define UNITYENGINE_GPUPARTICLESRENDERER_SET_PARTICLESASSET_OFFSET UNITYSDK_OFFSET(0x1A4E2630)
+#define UNITYENGINE_GPUPARTICLESRENDERER_SET_SKINNEDMESHRENDERER_OFFSET UNITYSDK_OFFSET(0x1A4E2600)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GPUParticlesRenderer_TypeDefinitionIndex = 3996;
+	inline static constexpr unsigned int GPUParticlesRenderer_TypeDefinitionIndex = 4170;
 
 	class GPUParticlesRenderer : public ::UnityEngine::Renderer
 	{
 	public:
-		::System::Void set_aabbMode(::UnityEngine::GPUParticlesRenderer_AABBMode value)
+		::System::Void set_aabbMode(::UnityEngine::GPUParticlesRenderer_AABBMode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GPUParticlesRenderer_AABBMode))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESRENDERER_SET_AABBMODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GPUParticlesRenderer_AABBMode))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESRENDERER_SET_AABBMODE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetLocalAABB(::UnityEngine::Bounds b)
+		::System::Void SetLocalAABB(::UnityEngine::Bounds a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESRENDERER_SETLOCALAABB_OFFSET))(this, b);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESRENDERER_SETLOCALAABB_OFFSET))(this, a1);
 		}
 
-		::System::Void set_localBounds(::UnityEngine::Bounds value)
+		::System::Void set_localBounds(::UnityEngine::Bounds a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESRENDERER_SET_LOCALBOUNDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESRENDERER_SET_LOCALBOUNDS_OFFSET))(this, a1);
 		}
 
-		::System::Void set_skinnedMeshRenderer(::UnityEngine::SkinnedMeshRenderer* value)
+		::System::Void set_skinnedMeshRenderer(::UnityEngine::SkinnedMeshRenderer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::SkinnedMeshRenderer*))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESRENDERER_SET_SKINNEDMESHRENDERER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::SkinnedMeshRenderer*))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESRENDERER_SET_SKINNEDMESHRENDERER_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Mesh* get_sharedMesh()
@@ -57,29 +57,29 @@ namespace UnityEngine
 			return ((::UnityEngine::GPUParticlesAsset*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESRENDERER_GET_PARTICLESASSET_OFFSET))(this);
 		}
 
-		::System::Void set_particlesAsset(::UnityEngine::GPUParticlesAsset* value)
+		::System::Void set_particlesAsset(::UnityEngine::GPUParticlesAsset* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GPUParticlesAsset*))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESRENDERER_SET_PARTICLESASSET_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GPUParticlesAsset*))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESRENDERER_SET_PARTICLESASSET_OFFSET))(this, a1);
 		}
 
-		::System::Void SetOverrideWorldAABB(::System::Boolean override, ::UnityEngine::Bounds bounds)
+		::System::Void SetOverrideWorldAABB(::System::Boolean a1, ::UnityEngine::Bounds a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESRENDERER_SETOVERRIDEWORLDAABB_OFFSET))(this, override, bounds);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESRENDERER_SETOVERRIDEWORLDAABB_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetOverrideBounds(::System::Boolean override, ::UnityEngine::Bounds bounds)
+		::System::Void SetOverrideBounds(::System::Boolean a1, ::UnityEngine::Bounds a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESRENDERER_SETOVERRIDEBOUNDS_OFFSET))(this, override, bounds);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESRENDERER_SETOVERRIDEBOUNDS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetLocalAABB_Injected(::UnityEngine::Bounds& b)
+		::System::Void SetLocalAABB_Injected(::UnityEngine::Bounds& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bounds&))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESRENDERER_SETLOCALAABB_INJECTED_OFFSET))(this, b);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bounds&))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESRENDERER_SETLOCALAABB_INJECTED_OFFSET))(this, a1);
 		}
 
-		::System::Void SetOverrideWorldAABB_Injected(::System::Boolean override, ::UnityEngine::Bounds& bounds)
+		::System::Void SetOverrideWorldAABB_Injected(::System::Boolean a1, ::UnityEngine::Bounds& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Bounds&))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESRENDERER_SETOVERRIDEWORLDAABB_INJECTED_OFFSET))(this, override, bounds);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Bounds&))((::PBYTE)hIl2Cpp + UNITYENGINE_GPUPARTICLESRENDERER_SETOVERRIDEWORLDAABB_INJECTED_OFFSET))(this, a1, a2);
 		}
 	};
 }

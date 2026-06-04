@@ -6,16 +6,16 @@
 
 namespace RPG { template <typename T> class PoolList_1; }
 
-#define CLASS_1_AEF2875F16A8B85D_CLEAR_OFFSET UNITYSDK_OFFSET(0x16DDAD30)
-#define CLASS_1_AEF2875F16A8B85D__CTOR_OFFSET UNITYSDK_OFFSET(0x16DDADB0)
+#define CLASS_1_AEF2875F16A8B85D_CLEAR_OFFSET UNITYSDK_OFFSET(0x167F28C0)
+#define CLASS_1_AEF2875F16A8B85D__CTOR_OFFSET UNITYSDK_OFFSET(0x167F2940)
 
-inline static constexpr unsigned int Class_1_AEF2875F16A8B85D_TypeDefinitionIndex = 38541;
+inline static constexpr unsigned int Class_1_AEF2875F16A8B85D_TypeDefinitionIndex = 39308;
 
 class Class_1_AEF2875F16A8B85D : public ::System::Object
 {
 public:
-	::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* Field_1_1; // 0x10
-	::RPG::GameCore::MatchThreePropType Field_1_0; // 0x18
+	::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* Field_1_0; // 0x10
+	::RPG::GameCore::MatchThreePropType Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

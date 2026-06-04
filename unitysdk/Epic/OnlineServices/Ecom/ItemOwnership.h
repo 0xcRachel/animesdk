@@ -7,17 +7,17 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_GET_ID_OFFSET UNITYSDK_OFFSET(0x19309510)
-#define EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_GET_OWNERSHIPSTATUS_OFFSET UNITYSDK_OFFSET(0x19309530)
-#define EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_SET_1_OFFSET UNITYSDK_OFFSET(0x193097B0)
-#define EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_SET_ID_OFFSET UNITYSDK_OFFSET(0x19309520)
-#define EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_SET_OFFSET UNITYSDK_OFFSET(0x19309550)
-#define EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_SET_OWNERSHIPSTATUS_OFFSET UNITYSDK_OFFSET(0x19309540)
-#define EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP__CTOR_OFFSET UNITYSDK_OFFSET(0x193098C0)
+#define EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_GET_ID_OFFSET UNITYSDK_OFFSET(0x19EF48C0)
+#define EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_GET_OWNERSHIPSTATUS_OFFSET UNITYSDK_OFFSET(0x19EF48E0)
+#define EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_SET_1_OFFSET UNITYSDK_OFFSET(0x19EF4B60)
+#define EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_SET_ID_OFFSET UNITYSDK_OFFSET(0x19EF48D0)
+#define EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_SET_OFFSET UNITYSDK_OFFSET(0x19EF4900)
+#define EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_SET_OWNERSHIPSTATUS_OFFSET UNITYSDK_OFFSET(0x19EF48F0)
+#define EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP__CTOR_OFFSET UNITYSDK_OFFSET(0x19EF4C80)
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int ItemOwnership_TypeDefinitionIndex = 42190;
+	inline static constexpr unsigned int ItemOwnership_TypeDefinitionIndex = 42993;
 
 	class ItemOwnership : public ::System::Object
 	{
@@ -35,9 +35,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_Id(::System::String* value)
+		::System::Void set_Id(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_SET_ID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::Ecom::OwnershipStatus get_OwnershipStatus()
@@ -45,19 +45,19 @@ namespace Epic::OnlineServices::Ecom
 			return ((::Epic::OnlineServices::Ecom::OwnershipStatus(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_GET_OWNERSHIPSTATUS_OFFSET))(this);
 		}
 
-		::System::Void set_OwnershipStatus(::Epic::OnlineServices::Ecom::OwnershipStatus value)
+		::System::Void set_OwnershipStatus(::Epic::OnlineServices::Ecom::OwnershipStatus a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::OwnershipStatus))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_SET_OWNERSHIPSTATUS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::OwnershipStatus))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_SET_OWNERSHIPSTATUS_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Ecom::ItemOwnershipInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Ecom::ItemOwnershipInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Ecom::ItemOwnershipInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Ecom::ItemOwnershipInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ITEMOWNERSHIP_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

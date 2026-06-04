@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetBattleTargetDialogOffset; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0EFD4390F95C31BB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEEFA3C0)
-#define CLASS_3_0EFD4390F95C31BB__CTOR_OFFSET UNITYSDK_OFFSET(0xEEFA390)
+#define CLASS_3_0EFD4390F95C31BB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164B6700)
+#define CLASS_3_0EFD4390F95C31BB__CTOR_OFFSET UNITYSDK_OFFSET(0x164B66D0)
 
-inline static constexpr unsigned int Class_3_0EFD4390F95C31BB_TypeDefinitionIndex = 44352;
+inline static constexpr unsigned int Class_3_0EFD4390F95C31BB_TypeDefinitionIndex = 44898;
 
 class Class_3_0EFD4390F95C31BB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetBattleTargetDialogOffset*>
 {

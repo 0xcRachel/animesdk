@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CLOCKPARKRAIDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x194DE080)
-#define RPG_GAMECORE_CLOCKPARKRAIDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x194DE610)
+#define RPG_GAMECORE_CLOCKPARKRAIDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A318160)
+#define RPG_GAMECORE_CLOCKPARKRAIDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A318710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkRaidRow_TypeDefinitionIndex = 10695;
+	inline static constexpr unsigned int ClockParkRaidRow_TypeDefinitionIndex = 10751;
 
 	class ClockParkRaidRow : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKRAIDROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ClockParkRaidRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClockParkRaidRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClockParkRaidRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKRAIDROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClockParkRaidRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKRAIDROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -10,24 +10,24 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace System { template <typename T> class Action_1; }
 namespace System::Diagnostics { class Stopwatch; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_ERRORCODEMAPPING_OFFSET UNITYSDK_OFFSET(0x16188C00)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_GET_LISTGOODSWORKMODE_OFFSET UNITYSDK_OFFSET(0x16188630)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_REQUESTLISTGOODSAPIWITHCDNFALLBACK_OFFSET UNITYSDK_OFFSET(0x16188B60)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_RETRIEVEGOODSLIST_OFFSET UNITYSDK_OFFSET(0x16188640)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_SET_LISTGOODSWORKMODE_OFFSET UNITYSDK_OFFSET(0x16188620)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16188CA0)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x16188C20)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_ERRORCODEMAPPING_OFFSET UNITYSDK_OFFSET(0x1723AA80)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_GET_LISTGOODSWORKMODE_OFFSET UNITYSDK_OFFSET(0x1723A470)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_REQUESTLISTGOODSAPIWITHCDNFALLBACK_OFFSET UNITYSDK_OFFSET(0x1723A9C0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_RETRIEVEGOODSLIST_OFFSET UNITYSDK_OFFSET(0x1723A480)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_SET_LISTGOODSWORKMODE_OFFSET UNITYSDK_OFFSET(0x1723A460)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1723AB20)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1723AAA0)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int GoodsPlatformManager_TypeDefinitionIndex = 7599;
+	inline static constexpr unsigned int GoodsPlatformManager_TypeDefinitionIndex = 8502;
 
 	class GoodsPlatformManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Base::GoodsPlatform::GoodsPlatformManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Base::GoodsPlatform::GoodsPlatformManager**)Il2CppClass::FromTypeDefinitionIndex(GoodsPlatformManager_TypeDefinitionIndex)->GetStaticField(0x8730);
+			return (::MiHoYo::SDK::Base::GoodsPlatform::GoodsPlatformManager**)Il2CppClass::FromTypeDefinitionIndex(GoodsPlatformManager_TypeDefinitionIndex)->GetStaticField(0xC9E0);
 		}
 		// static const ::System::Int32 EC_INTERNAL_ERROR = 0x67; // 0x0
 		// static const ::System::String* PAY_LIST_GOODS_REQUEST; // 0x0
@@ -44,9 +44,9 @@ namespace MiHoYo::SDK::Base::GoodsPlatform
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER__CCTOR_OFFSET))();
 		}
 
-		::System::Void set_ListGoodsWorkMode(::MiHoYo::SDK::Base::GoodsPlatform::GoodsPlatformManager_WorkMode value)
+		::System::Void set_ListGoodsWorkMode(::MiHoYo::SDK::Base::GoodsPlatform::GoodsPlatformManager_WorkMode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Base::GoodsPlatform::GoodsPlatformManager_WorkMode))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_SET_LISTGOODSWORKMODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Base::GoodsPlatform::GoodsPlatformManager_WorkMode))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_SET_LISTGOODSWORKMODE_OFFSET))(this, a1);
 		}
 
 		::MiHoYo::SDK::Base::GoodsPlatform::GoodsPlatformManager_WorkMode get_ListGoodsWorkMode()
@@ -54,19 +54,19 @@ namespace MiHoYo::SDK::Base::GoodsPlatform
 			return ((::MiHoYo::SDK::Base::GoodsPlatform::GoodsPlatformManager_WorkMode(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_GET_LISTGOODSWORKMODE_OFFSET))(this);
 		}
 
-		::System::Void RetrieveGoodsList(::System::String* args, ::System::Action_1<::System::String*>* callback)
+		::System::Void RetrieveGoodsList(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_RETRIEVEGOODSLIST_OFFSET))(this, args, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_RETRIEVEGOODSLIST_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RequestListGoodsAPIWithCDNFallback(::MiHoYo::SDK::JSONObject* queries, ::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONArray*>* callback)
+		::System::Void RequestListGoodsAPIWithCDNFallback(::MiHoYo::SDK::JSONObject* a1, ::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONArray*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONObject*, ::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONArray*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_REQUESTLISTGOODSAPIWITHCDNFALLBACK_OFFSET))(this, queries, callback);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONObject*, ::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONArray*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_REQUESTLISTGOODSAPIWITHCDNFALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 ErrorCodeMapping(::System::Int32 ec)
+		::System::Int32 ErrorCodeMapping(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_ERRORCODEMAPPING_OFFSET))(this, ec);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_ERRORCODEMAPPING_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,21 +6,21 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__RELOADINFO_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18A09380)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__RELOADINFO_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18A093B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__RELOADINFO_INVOKE_OFFSET UNITYSDK_OFFSET(0x189FDAA0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__RELOADINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A09360)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__RELOADINFO_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A0F13E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__RELOADINFO_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A0F1410)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__RELOADINFO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A0E9690)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__RELOADINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0F1370)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRChaperone__ReloadInfo_TypeDefinitionIndex = 35750;
+	inline static constexpr unsigned int IVRChaperone__ReloadInfo_TypeDefinitionIndex = 36050;
 
 	class IVRChaperone__ReloadInfo : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__RELOADINFO__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__RELOADINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -28,14 +28,14 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__RELOADINFO_INVOKE_OFFSET))(this);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__RELOADINFO_BEGININVOKE_OFFSET))(this, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__RELOADINFO_BEGININVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__RELOADINFO_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__RELOADINFO_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

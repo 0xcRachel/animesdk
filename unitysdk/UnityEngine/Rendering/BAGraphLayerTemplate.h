@@ -7,17 +7,17 @@ namespace System { class String; }
 namespace UnityEngine::Rendering { class BAGraphAsset; }
 namespace UnityEngine::Rendering { class BatchAnimation; }
 
-#define UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_ADDCONDITION_OFFSET UNITYSDK_OFFSET(0x1984CB90)
-#define UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_ADDLAYER_OFFSET UNITYSDK_OFFSET(0x1984CB70)
-#define UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_ALLOCCONDITION_OFFSET UNITYSDK_OFFSET(0x1984CB80)
-#define UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_CREATE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1984CB50)
-#define UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_ENABLELAYER_OFFSET UNITYSDK_OFFSET(0x1984CBB0)
-#define UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_INITINSTANCE_OFFSET UNITYSDK_OFFSET(0x1984CBA0)
-#define UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1984CB60)
+#define UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_ADDCONDITION_OFFSET UNITYSDK_OFFSET(0x1B10C7B0)
+#define UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_ADDLAYER_OFFSET UNITYSDK_OFFSET(0x1B10C790)
+#define UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_ALLOCCONDITION_OFFSET UNITYSDK_OFFSET(0x1B10C7A0)
+#define UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_CREATE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1B10C770)
+#define UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_ENABLELAYER_OFFSET UNITYSDK_OFFSET(0x1B10C7D0)
+#define UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_INITINSTANCE_OFFSET UNITYSDK_OFFSET(0x1B10C7C0)
+#define UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B10C780)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BAGraphLayerTemplate_TypeDefinitionIndex = 4609;
+	inline static constexpr unsigned int BAGraphLayerTemplate_TypeDefinitionIndex = 4783;
 
 	class BAGraphLayerTemplate : public ::UnityEngine::Object
 	{
@@ -27,34 +27,34 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Create_Internal(::UnityEngine::Rendering::BAGraphLayerTemplate* mono)
+		static ::System::Void Create_Internal(::UnityEngine::Rendering::BAGraphLayerTemplate* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::BAGraphLayerTemplate*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_CREATE_INTERNAL_OFFSET))(mono);
+			return ((::System::Void(*)(::UnityEngine::Rendering::BAGraphLayerTemplate*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_CREATE_INTERNAL_OFFSET))(a1);
 		}
 
-		::System::Void AddLayer(::UnityEngine::Rendering::BAGraphAsset* asset, ::System::Int32 layer)
+		::System::Void AddLayer(::UnityEngine::Rendering::BAGraphAsset* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BAGraphAsset*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_ADDLAYER_OFFSET))(this, asset, layer);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BAGraphAsset*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_ADDLAYER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AllocCondition(::System::Int32 count)
+		::System::Void AllocCondition(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_ALLOCCONDITION_OFFSET))(this, count);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_ALLOCCONDITION_OFFSET))(this, a1);
 		}
 
-		::System::Boolean AddCondition(::System::String* name, ::System::Int32 layer, ::UnityEngine::Rendering::BAParamRef& param)
+		::System::Boolean AddCondition(::System::String* a1, ::System::Int32 a2, ::UnityEngine::Rendering::BAParamRef& a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int32, ::UnityEngine::Rendering::BAParamRef&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_ADDCONDITION_OFFSET))(this, name, layer, param);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int32, ::UnityEngine::Rendering::BAParamRef&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_ADDCONDITION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void InitInstance(::UnityEngine::Rendering::BatchAnimation* ba, ::System::UInt32 graphLayerMask)
+		::System::Void InitInstance(::UnityEngine::Rendering::BatchAnimation* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimation*, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_INITINSTANCE_OFFSET))(this, ba, graphLayerMask);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimation*, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_INITINSTANCE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void EnableLayer(::UnityEngine::Rendering::BatchAnimation* ba, ::System::Int32 layer, ::System::Boolean enable)
+		::System::Void EnableLayer(::UnityEngine::Rendering::BatchAnimation* a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimation*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_ENABLELAYER_OFFSET))(this, ba, layer, enable);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimation*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BAGRAPHLAYERTEMPLATE_ENABLELAYER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

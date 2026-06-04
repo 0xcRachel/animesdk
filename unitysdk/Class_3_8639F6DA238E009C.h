@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetBpFeature; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8639F6DA238E009C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x126725D0)
-#define CLASS_3_8639F6DA238E009C__CTOR_OFFSET UNITYSDK_OFFSET(0x126725A0)
+#define CLASS_3_8639F6DA238E009C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x177AD3C0)
+#define CLASS_3_8639F6DA238E009C__CTOR_OFFSET UNITYSDK_OFFSET(0x177AD390)
 
-inline static constexpr unsigned int Class_3_8639F6DA238E009C_TypeDefinitionIndex = 51043;
+inline static constexpr unsigned int Class_3_8639F6DA238E009C_TypeDefinitionIndex = 51713;
 
 class Class_3_8639F6DA238E009C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetBpFeature*>
 {

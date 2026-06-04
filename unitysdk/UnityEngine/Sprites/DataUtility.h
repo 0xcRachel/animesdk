@@ -6,36 +6,36 @@
 
 namespace UnityEngine { class Sprite; }
 
-#define UNITYENGINE_SPRITES_DATAUTILITY_GETINNERUV_OFFSET UNITYSDK_OFFSET(0x1A5540F0)
-#define UNITYENGINE_SPRITES_DATAUTILITY_GETMINSIZE_OFFSET UNITYSDK_OFFSET(0x1A5541E0)
-#define UNITYENGINE_SPRITES_DATAUTILITY_GETOUTERUV_OFFSET UNITYSDK_OFFSET(0x1A554140)
-#define UNITYENGINE_SPRITES_DATAUTILITY_GETPADDING_OFFSET UNITYSDK_OFFSET(0x1A554190)
+#define UNITYENGINE_SPRITES_DATAUTILITY_GETINNERUV_OFFSET UNITYSDK_OFFSET(0x1B372930)
+#define UNITYENGINE_SPRITES_DATAUTILITY_GETMINSIZE_OFFSET UNITYSDK_OFFSET(0x1B3729F0)
+#define UNITYENGINE_SPRITES_DATAUTILITY_GETOUTERUV_OFFSET UNITYSDK_OFFSET(0x1B372970)
+#define UNITYENGINE_SPRITES_DATAUTILITY_GETPADDING_OFFSET UNITYSDK_OFFSET(0x1B3729B0)
 
 namespace UnityEngine::Sprites
 {
-	inline static constexpr unsigned int DataUtility_TypeDefinitionIndex = 4229;
+	inline static constexpr unsigned int DataUtility_TypeDefinitionIndex = 4403;
 
 	class DataUtility : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Vector4 GetInnerUV(::UnityEngine::Sprite* sprite, ::System::Boolean getAtlasData)
+		static ::UnityEngine::Vector4 GetInnerUV(::UnityEngine::Sprite* a1, ::System::Boolean a2)
 		{
-			return ((::UnityEngine::Vector4(*)(::UnityEngine::Sprite*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITES_DATAUTILITY_GETINNERUV_OFFSET))(sprite, getAtlasData);
+			return ((::UnityEngine::Vector4(*)(::UnityEngine::Sprite*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITES_DATAUTILITY_GETINNERUV_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Vector4 GetOuterUV(::UnityEngine::Sprite* sprite, ::System::Boolean getAtlasData)
+		static ::UnityEngine::Vector4 GetOuterUV(::UnityEngine::Sprite* a1, ::System::Boolean a2)
 		{
-			return ((::UnityEngine::Vector4(*)(::UnityEngine::Sprite*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITES_DATAUTILITY_GETOUTERUV_OFFSET))(sprite, getAtlasData);
+			return ((::UnityEngine::Vector4(*)(::UnityEngine::Sprite*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITES_DATAUTILITY_GETOUTERUV_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Vector4 GetPadding(::UnityEngine::Sprite* sprite, ::System::Boolean getAtlasData)
+		static ::UnityEngine::Vector4 GetPadding(::UnityEngine::Sprite* a1, ::System::Boolean a2)
 		{
-			return ((::UnityEngine::Vector4(*)(::UnityEngine::Sprite*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITES_DATAUTILITY_GETPADDING_OFFSET))(sprite, getAtlasData);
+			return ((::UnityEngine::Vector4(*)(::UnityEngine::Sprite*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITES_DATAUTILITY_GETPADDING_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Vector2 GetMinSize(::UnityEngine::Sprite* sprite)
+		static ::UnityEngine::Vector2 GetMinSize(::UnityEngine::Sprite* a1)
 		{
-			return ((::UnityEngine::Vector2(*)(::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITES_DATAUTILITY_GETMINSIZE_OFFSET))(sprite);
+			return ((::UnityEngine::Vector2(*)(::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + UNITYENGINE_SPRITES_DATAUTILITY_GETMINSIZE_OFFSET))(a1);
 		}
 	};
 }

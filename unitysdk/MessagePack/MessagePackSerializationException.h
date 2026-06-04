@@ -6,14 +6,14 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define MESSAGEPACK_MESSAGEPACKSERIALIZATIONEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1961D5A0)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZATIONEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x196223C0)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZATIONEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x19622430)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19622360)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZATIONEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A0F7220)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZATIONEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A0FC380)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZATIONEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1A0FC3F0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0FC320)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSerializationException_TypeDefinitionIndex = 9263;
+	inline static constexpr unsigned int MessagePackSerializationException_TypeDefinitionIndex = 7166;
 
 	class MessagePackSerializationException : public ::System::Exception
 	{
@@ -23,19 +23,19 @@ namespace MessagePack
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZATIONEXCEPTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* message)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZATIONEXCEPTION__CTOR_1_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZATIONEXCEPTION__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::String* message, ::System::Exception* inner)
+		::System::Void _ctor_2(::System::String* a1, ::System::Exception* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZATIONEXCEPTION__CTOR_2_OFFSET))(this, message, inner);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZATIONEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZATIONEXCEPTION__CTOR_3_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZATIONEXCEPTION__CTOR_3_OFFSET))(this, a1, a2);
 		}
 	};
 }

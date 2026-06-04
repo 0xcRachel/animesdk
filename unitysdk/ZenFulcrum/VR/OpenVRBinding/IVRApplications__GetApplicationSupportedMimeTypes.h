@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONSUPPORTEDMIMETYPES_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18A08320)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONSUPPORTEDMIMETYPES_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18A08390)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONSUPPORTEDMIMETYPES_INVOKE_OFFSET UNITYSDK_OFFSET(0x189FA260)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONSUPPORTEDMIMETYPES__CTOR_OFFSET UNITYSDK_OFFSET(0x18A08300)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONSUPPORTEDMIMETYPES_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A0EFAC0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONSUPPORTEDMIMETYPES_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A0EFB30)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONSUPPORTEDMIMETYPES_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A0E91F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONSUPPORTEDMIMETYPES__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0EFA40)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRApplications__GetApplicationSupportedMimeTypes_TypeDefinitionIndex = 35736;
+	inline static constexpr unsigned int IVRApplications__GetApplicationSupportedMimeTypes_TypeDefinitionIndex = 36036;
 
 	class IVRApplications__GetApplicationSupportedMimeTypes : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONSUPPORTEDMIMETYPES__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONSUPPORTEDMIMETYPES__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Invoke(::System::String* pchAppKey, ::System::String* pchMimeTypesBuffer, ::System::UInt32 unMimeTypesBuffer)
+		::System::Boolean Invoke(::System::String* a1, ::System::String* a2, ::System::UInt32 a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONSUPPORTEDMIMETYPES_INVOKE_OFFSET))(this, pchAppKey, pchMimeTypesBuffer, unMimeTypesBuffer);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONSUPPORTEDMIMETYPES_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* pchAppKey, ::System::String* pchMimeTypesBuffer, ::System::UInt32 unMimeTypesBuffer, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::String* a2, ::System::UInt32 a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::String*, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONSUPPORTEDMIMETYPES_BEGININVOKE_OFFSET))(this, pchAppKey, pchMimeTypesBuffer, unMimeTypesBuffer, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::String*, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONSUPPORTEDMIMETYPES_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean EndInvoke(::System::IAsyncResult* result)
+		::System::Boolean EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONSUPPORTEDMIMETYPES_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__GETAPPLICATIONSUPPORTEDMIMETYPES_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,12 +4,12 @@
 
 namespace System::Runtime::Remoting::Contexts { class CrossContextDelegate; }
 
-#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_CONTEXTCALLBACKOBJECT_DOCALLBACK_OFFSET UNITYSDK_OFFSET(0x18F6ABB0)
-#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_CONTEXTCALLBACKOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18F6ABA0)
+#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_CONTEXTCALLBACKOBJECT_DOCALLBACK_OFFSET UNITYSDK_OFFSET(0x1971C440)
+#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_CONTEXTCALLBACKOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1971C430)
 
 namespace System::Runtime::Remoting::Contexts
 {
-	inline static constexpr unsigned int ContextCallbackObject_TypeDefinitionIndex = 1241;
+	inline static constexpr unsigned int ContextCallbackObject_TypeDefinitionIndex = 1240;
 
 	class ContextCallbackObject : public ::System::ContextBoundObject
 	{
@@ -19,9 +19,9 @@ namespace System::Runtime::Remoting::Contexts
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CONTEXTS_CONTEXTCALLBACKOBJECT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void DoCallBack(::System::Runtime::Remoting::Contexts::CrossContextDelegate* deleg)
+		::System::Void DoCallBack(::System::Runtime::Remoting::Contexts::CrossContextDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Contexts::CrossContextDelegate*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CONTEXTS_CONTEXTCALLBACKOBJECT_DOCALLBACK_OFFSET))(this, deleg);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Contexts::CrossContextDelegate*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CONTEXTS_CONTEXTCALLBACKOBJECT_DOCALLBACK_OFFSET))(this, a1);
 		}
 	};
 }

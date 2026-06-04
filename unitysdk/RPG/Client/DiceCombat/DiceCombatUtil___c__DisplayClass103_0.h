@@ -4,18 +4,18 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS103_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17A3B220)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS103_0__TRANSFERTOENTRANCE_B__0_OFFSET UNITYSDK_OFFSET(0x17A3B8C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS103_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17EF7F60)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS103_0__TRANSFERTOENTRANCE_B__0_OFFSET UNITYSDK_OFFSET(0x17EFA0F0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass103_0_TypeDefinitionIndex = 69863;
+	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass103_0_TypeDefinitionIndex = 70675;
 
 	class DiceCombatUtil___c__DisplayClass103_0 : public ::System::Object
 	{
 	public:
-		::System::Action* afterTeleportCallback; // 0x10
-		::System::Action* preTeleportCallback; // 0x18
+		::System::Action* preTeleportCallback; // 0x10
+		::System::Action* afterTeleportCallback; // 0x18
 
 		::System::Void _ctor()
 		{

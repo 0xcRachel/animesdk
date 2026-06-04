@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByPreShowStanceBreak; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B907358A9F730B21_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD52A230)
-#define CLASS_3_B907358A9F730B21__CTOR_OFFSET UNITYSDK_OFFSET(0xD52A150)
+#define CLASS_3_B907358A9F730B21_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x148C12C0)
+#define CLASS_3_B907358A9F730B21__CTOR_OFFSET UNITYSDK_OFFSET(0x148C11E0)
 
-inline static constexpr unsigned int Class_3_B907358A9F730B21_TypeDefinitionIndex = 50476;
+inline static constexpr unsigned int Class_3_B907358A9F730B21_TypeDefinitionIndex = 51141;
 
 class Class_3_B907358A9F730B21 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByPreShowStanceBreak*>
 {

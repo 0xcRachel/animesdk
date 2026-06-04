@@ -4,29 +4,29 @@
 
 namespace RPG::GameCore { class RogueMiracleRow; }
 
-#define RPG_CLIENT_ROGUEMIRACLEROWWRAP_CREATE_OFFSET UNITYSDK_OFFSET(0x16343140)
-#define RPG_CLIENT_ROGUEMIRACLEROWWRAP_GET_MIRACLEDISPLAYID_OFFSET UNITYSDK_OFFSET(0x16345DC0)
-#define RPG_CLIENT_ROGUEMIRACLEROWWRAP_GET_MIRACLEEFFECTID_OFFSET UNITYSDK_OFFSET(0x16345E90)
-#define RPG_CLIENT_ROGUEMIRACLEROWWRAP_GET__ROW_OFFSET UNITYSDK_OFFSET(0x16345E30)
-#define RPG_CLIENT_ROGUEMIRACLEROWWRAP__CTOR_OFFSET UNITYSDK_OFFSET(0x16345DB0)
+#define RPG_CLIENT_ROGUEMIRACLEROWWRAP_CREATE_OFFSET UNITYSDK_OFFSET(0x18391770)
+#define RPG_CLIENT_ROGUEMIRACLEROWWRAP_GET_MIRACLEDISPLAYID_OFFSET UNITYSDK_OFFSET(0x18394700)
+#define RPG_CLIENT_ROGUEMIRACLEROWWRAP_GET_MIRACLEEFFECTID_OFFSET UNITYSDK_OFFSET(0x183947D0)
+#define RPG_CLIENT_ROGUEMIRACLEROWWRAP_GET__ROW_OFFSET UNITYSDK_OFFSET(0x18394770)
+#define RPG_CLIENT_ROGUEMIRACLEROWWRAP__CTOR_OFFSET UNITYSDK_OFFSET(0x183946F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMiracleRowWrap_TypeDefinitionIndex = 61993;
+	inline static constexpr unsigned int RogueMiracleRowWrap_TypeDefinitionIndex = 62926;
 
 	class RogueMiracleRowWrap : public ::System::Object
 	{
 	public:
 		::System::UInt32 _MiracleID; // 0x10
 
-		::System::Void _ctor(::System::UInt32 miracleID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEROWWRAP__CTOR_OFFSET))(this, miracleID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEROWWRAP__CTOR_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::RogueMiracleRowWrap* Create(::System::UInt32 miracleID)
+		static ::RPG::Client::RogueMiracleRowWrap* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::RogueMiracleRowWrap*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEROWWRAP_CREATE_OFFSET))(miracleID);
+			return ((::RPG::Client::RogueMiracleRowWrap*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEROWWRAP_CREATE_OFFSET))(a1);
 		}
 
 		::System::UInt32 get_MiracleDisplayID()

@@ -5,24 +5,24 @@
 namespace Epic::OnlineServices { class ProductUserId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS_GET_DATEOFBIRTH_OFFSET UNITYSDK_OFFSET(0x1931B440)
-#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1931B420)
-#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS_GET_PARENTEMAIL_OFFSET UNITYSDK_OFFSET(0x1931B460)
-#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS_SET_DATEOFBIRTH_OFFSET UNITYSDK_OFFSET(0x1931B450)
-#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1931B430)
-#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS_SET_PARENTEMAIL_OFFSET UNITYSDK_OFFSET(0x1931B470)
-#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1931B480)
+#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS_GET_DATEOFBIRTH_OFFSET UNITYSDK_OFFSET(0x19F03E10)
+#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19F03DF0)
+#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS_GET_PARENTEMAIL_OFFSET UNITYSDK_OFFSET(0x19F03E30)
+#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS_SET_DATEOFBIRTH_OFFSET UNITYSDK_OFFSET(0x19F03E20)
+#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19F03E00)
+#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS_SET_PARENTEMAIL_OFFSET UNITYSDK_OFFSET(0x19F03E40)
+#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19F03E50)
 
 namespace Epic::OnlineServices::KWS
 {
-	inline static constexpr unsigned int CreateUserOptions_TypeDefinitionIndex = 42056;
+	inline static constexpr unsigned int CreateUserOptions_TypeDefinitionIndex = 42859;
 
 	class CreateUserOptions : public ::System::Object
 	{
 	public:
-		::System::String* _ParentEmail_k__BackingField; // 0x10
-		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x18
-		::System::String* _DateOfBirth_k__BackingField; // 0x20
+		::System::String* _DateOfBirth_k__BackingField; // 0x10
+		::System::String* _ParentEmail_k__BackingField; // 0x18
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -34,9 +34,9 @@ namespace Epic::OnlineServices::KWS
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_DateOfBirth()
@@ -44,9 +44,9 @@ namespace Epic::OnlineServices::KWS
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS_GET_DATEOFBIRTH_OFFSET))(this);
 		}
 
-		::System::Void set_DateOfBirth(::System::String* value)
+		::System::Void set_DateOfBirth(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS_SET_DATEOFBIRTH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS_SET_DATEOFBIRTH_OFFSET))(this, a1);
 		}
 
 		::System::String* get_ParentEmail()
@@ -54,9 +54,9 @@ namespace Epic::OnlineServices::KWS
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS_GET_PARENTEMAIL_OFFSET))(this);
 		}
 
-		::System::Void set_ParentEmail(::System::String* value)
+		::System::Void set_ParentEmail(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS_SET_PARENTEMAIL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONS_SET_PARENTEMAIL_OFFSET))(this, a1);
 		}
 	};
 }

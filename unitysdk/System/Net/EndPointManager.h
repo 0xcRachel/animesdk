@@ -8,15 +8,15 @@ namespace System::Net { class EndPointListener; }
 namespace System::Net { class HttpListener; }
 namespace System::Net { class IPEndPoint; }
 
-#define SYSTEM_NET_ENDPOINTMANAGER_ADDLISTENER_OFFSET UNITYSDK_OFFSET(0x1769DB70)
-#define SYSTEM_NET_ENDPOINTMANAGER_ADDPREFIXINTERNAL_OFFSET UNITYSDK_OFFSET(0x1769E5F0)
-#define SYSTEM_NET_ENDPOINTMANAGER_ADDPREFIX_OFFSET UNITYSDK_OFFSET(0x1769E880)
-#define SYSTEM_NET_ENDPOINTMANAGER_GETEPLISTENER_OFFSET UNITYSDK_OFFSET(0x1769E9B0)
-#define SYSTEM_NET_ENDPOINTMANAGER_REMOVEENDPOINT_OFFSET UNITYSDK_OFFSET(0x1769CAF0)
-#define SYSTEM_NET_ENDPOINTMANAGER_REMOVELISTENER_OFFSET UNITYSDK_OFFSET(0x1769EE40)
-#define SYSTEM_NET_ENDPOINTMANAGER_REMOVEPREFIXINTERNAL_OFFSET UNITYSDK_OFFSET(0x1769F230)
-#define SYSTEM_NET_ENDPOINTMANAGER_REMOVEPREFIX_OFFSET UNITYSDK_OFFSET(0x1769E760)
-#define SYSTEM_NET_ENDPOINTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1769F340)
+#define SYSTEM_NET_ENDPOINTMANAGER_ADDLISTENER_OFFSET UNITYSDK_OFFSET(0x17CCD400)
+#define SYSTEM_NET_ENDPOINTMANAGER_ADDPREFIXINTERNAL_OFFSET UNITYSDK_OFFSET(0x17CCDE30)
+#define SYSTEM_NET_ENDPOINTMANAGER_ADDPREFIX_OFFSET UNITYSDK_OFFSET(0x17CCE0C0)
+#define SYSTEM_NET_ENDPOINTMANAGER_GETEPLISTENER_OFFSET UNITYSDK_OFFSET(0x17CCE1F0)
+#define SYSTEM_NET_ENDPOINTMANAGER_REMOVEENDPOINT_OFFSET UNITYSDK_OFFSET(0x17CCC2C0)
+#define SYSTEM_NET_ENDPOINTMANAGER_REMOVELISTENER_OFFSET UNITYSDK_OFFSET(0x17CCE690)
+#define SYSTEM_NET_ENDPOINTMANAGER_REMOVEPREFIXINTERNAL_OFFSET UNITYSDK_OFFSET(0x17CCEA50)
+#define SYSTEM_NET_ENDPOINTMANAGER_REMOVEPREFIX_OFFSET UNITYSDK_OFFSET(0x17CCDFA0)
+#define SYSTEM_NET_ENDPOINTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17CCEB60)
 
 namespace System::Net
 {
@@ -27,7 +27,7 @@ namespace System::Net
 	public:
 		static ::System::Collections::Hashtable** StaticGet_ip_to_endpoints()
 		{
-			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(EndPointManager_TypeDefinitionIndex)->GetStaticField(0x126F0);
+			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(EndPointManager_TypeDefinitionIndex)->GetStaticField(0x24970);
 		}
 
 		static ::System::Void _cctor()
@@ -35,44 +35,44 @@ namespace System::Net
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINTMANAGER__CCTOR_OFFSET))();
 		}
 
-		static ::System::Void AddListener(::System::Net::HttpListener* listener)
+		static ::System::Void AddListener(::System::Net::HttpListener* a1)
 		{
-			return ((::System::Void(*)(::System::Net::HttpListener*))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINTMANAGER_ADDLISTENER_OFFSET))(listener);
+			return ((::System::Void(*)(::System::Net::HttpListener*))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINTMANAGER_ADDLISTENER_OFFSET))(a1);
 		}
 
-		static ::System::Void AddPrefix(::System::String* prefix, ::System::Net::HttpListener* listener)
+		static ::System::Void AddPrefix(::System::String* a1, ::System::Net::HttpListener* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Net::HttpListener*))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINTMANAGER_ADDPREFIX_OFFSET))(prefix, listener);
+			return ((::System::Void(*)(::System::String*, ::System::Net::HttpListener*))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINTMANAGER_ADDPREFIX_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void AddPrefixInternal(::System::String* p, ::System::Net::HttpListener* listener)
+		static ::System::Void AddPrefixInternal(::System::String* a1, ::System::Net::HttpListener* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Net::HttpListener*))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINTMANAGER_ADDPREFIXINTERNAL_OFFSET))(p, listener);
+			return ((::System::Void(*)(::System::String*, ::System::Net::HttpListener*))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINTMANAGER_ADDPREFIXINTERNAL_OFFSET))(a1, a2);
 		}
 
-		static ::System::Net::EndPointListener* GetEPListener(::System::String* host, ::System::Int32 port, ::System::Net::HttpListener* listener, ::System::Boolean secure)
+		static ::System::Net::EndPointListener* GetEPListener(::System::String* a1, ::System::Int32 a2, ::System::Net::HttpListener* a3, ::System::Boolean a4)
 		{
-			return ((::System::Net::EndPointListener*(*)(::System::String*, ::System::Int32, ::System::Net::HttpListener*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINTMANAGER_GETEPLISTENER_OFFSET))(host, port, listener, secure);
+			return ((::System::Net::EndPointListener*(*)(::System::String*, ::System::Int32, ::System::Net::HttpListener*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINTMANAGER_GETEPLISTENER_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void RemoveEndPoint(::System::Net::EndPointListener* epl, ::System::Net::IPEndPoint* ep)
+		static ::System::Void RemoveEndPoint(::System::Net::EndPointListener* a1, ::System::Net::IPEndPoint* a2)
 		{
-			return ((::System::Void(*)(::System::Net::EndPointListener*, ::System::Net::IPEndPoint*))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINTMANAGER_REMOVEENDPOINT_OFFSET))(epl, ep);
+			return ((::System::Void(*)(::System::Net::EndPointListener*, ::System::Net::IPEndPoint*))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINTMANAGER_REMOVEENDPOINT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void RemoveListener(::System::Net::HttpListener* listener)
+		static ::System::Void RemoveListener(::System::Net::HttpListener* a1)
 		{
-			return ((::System::Void(*)(::System::Net::HttpListener*))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINTMANAGER_REMOVELISTENER_OFFSET))(listener);
+			return ((::System::Void(*)(::System::Net::HttpListener*))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINTMANAGER_REMOVELISTENER_OFFSET))(a1);
 		}
 
-		static ::System::Void RemovePrefix(::System::String* prefix, ::System::Net::HttpListener* listener)
+		static ::System::Void RemovePrefix(::System::String* a1, ::System::Net::HttpListener* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Net::HttpListener*))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINTMANAGER_REMOVEPREFIX_OFFSET))(prefix, listener);
+			return ((::System::Void(*)(::System::String*, ::System::Net::HttpListener*))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINTMANAGER_REMOVEPREFIX_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void RemovePrefixInternal(::System::String* prefix, ::System::Net::HttpListener* listener)
+		static ::System::Void RemovePrefixInternal(::System::String* a1, ::System::Net::HttpListener* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Net::HttpListener*))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINTMANAGER_REMOVEPREFIXINTERNAL_OFFSET))(prefix, listener);
+			return ((::System::Void(*)(::System::String*, ::System::Net::HttpListener*))((::PBYTE)hIl2Cpp + SYSTEM_NET_ENDPOINTMANAGER_REMOVEPREFIXINTERNAL_OFFSET))(a1, a2);
 		}
 	};
 }

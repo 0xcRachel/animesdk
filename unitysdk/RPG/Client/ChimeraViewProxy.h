@@ -4,14 +4,14 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_CHIMERAVIEWPROXY_GET_INDEXINTEAM_OFFSET UNITYSDK_OFFSET(0x178A51B0)
-#define RPG_CLIENT_CHIMERAVIEWPROXY_POSTEVENT_OFFSET UNITYSDK_OFFSET(0x178A52E0)
-#define RPG_CLIENT_CHIMERAVIEWPROXY_SET_INDEXINTEAM_OFFSET UNITYSDK_OFFSET(0x178A51C0)
-#define RPG_CLIENT_CHIMERAVIEWPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x178A56A0)
+#define RPG_CLIENT_CHIMERAVIEWPROXY_GET_INDEXINTEAM_OFFSET UNITYSDK_OFFSET(0x182AE860)
+#define RPG_CLIENT_CHIMERAVIEWPROXY_POSTEVENT_OFFSET UNITYSDK_OFFSET(0x182AE990)
+#define RPG_CLIENT_CHIMERAVIEWPROXY_SET_INDEXINTEAM_OFFSET UNITYSDK_OFFSET(0x182AE870)
+#define RPG_CLIENT_CHIMERAVIEWPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x182AED90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraViewProxy_TypeDefinitionIndex = 63312;
+	inline static constexpr unsigned int ChimeraViewProxy_TypeDefinitionIndex = 64229;
 
 	class ChimeraViewProxy : public ::RPG::Client::BaseChimeraViewProxy
 	{
@@ -28,14 +28,14 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAVIEWPROXY_GET_INDEXINTEAM_OFFSET))(this);
 		}
 
-		::System::Void set_IndexInTeam(::System::Int32 value)
+		::System::Void set_IndexInTeam(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAVIEWPROXY_SET_INDEXINTEAM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAVIEWPROXY_SET_INDEXINTEAM_OFFSET))(this, a1);
 		}
 
-		::System::Void PostEvent(::System::String* content)
+		::System::Void PostEvent(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAVIEWPROXY_POSTEVENT_OFFSET))(this, content);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAVIEWPROXY_POSTEVENT_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_ENDSESSIONOPTIONS_GET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x1967D2D0)
-#define EPIC_ONLINESERVICES_SESSIONS_ENDSESSIONOPTIONS_SET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x1967D2E0)
-#define EPIC_ONLINESERVICES_SESSIONS_ENDSESSIONOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1967D2F0)
+#define EPIC_ONLINESERVICES_SESSIONS_ENDSESSIONOPTIONS_GET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x1A459B50)
+#define EPIC_ONLINESERVICES_SESSIONS_ENDSESSIONOPTIONS_SET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x1A459B60)
+#define EPIC_ONLINESERVICES_SESSIONS_ENDSESSIONOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A459B70)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int EndSessionOptions_TypeDefinitionIndex = 41265;
+	inline static constexpr unsigned int EndSessionOptions_TypeDefinitionIndex = 42068;
 
 	class EndSessionOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::Sessions
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ENDSESSIONOPTIONS_GET_SESSIONNAME_OFFSET))(this);
 		}
 
-		::System::Void set_SessionName(::System::String* value)
+		::System::Void set_SessionName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ENDSESSIONOPTIONS_SET_SESSIONNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ENDSESSIONOPTIONS_SET_SESSIONNAME_OFFSET))(this, a1);
 		}
 	};
 }

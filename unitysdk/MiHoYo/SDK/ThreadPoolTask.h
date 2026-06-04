@@ -6,36 +6,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_THREADPOOLTASK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x17CE60C0)
-#define MIHOYO_SDK_THREADPOOLTASK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17CE60F0)
-#define MIHOYO_SDK_THREADPOOLTASK_INVOKE_OFFSET UNITYSDK_OFFSET(0x17CE5300)
-#define MIHOYO_SDK_THREADPOOLTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x17CE1700)
+#define MIHOYO_SDK_THREADPOOLTASK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18CB8020)
+#define MIHOYO_SDK_THREADPOOLTASK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18CB8050)
+#define MIHOYO_SDK_THREADPOOLTASK_INVOKE_OFFSET UNITYSDK_OFFSET(0x18CB76B0)
+#define MIHOYO_SDK_THREADPOOLTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x18CB7F30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ThreadPoolTask_TypeDefinitionIndex = 43097;
+	inline static constexpr unsigned int ThreadPoolTask_TypeDefinitionIndex = 43900;
 
 	class ThreadPoolTask : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLTASK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLTASK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Object* state)
+		::System::Void Invoke(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLTASK_INVOKE_OFFSET))(this, state);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLTASK_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Object* state, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Object* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Object*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLTASK_BEGININVOKE_OFFSET))(this, state, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Object*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLTASK_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLTASK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLTASK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -7,26 +7,26 @@ namespace UnityEngine::Rendering { class BAGraphAsset; }
 namespace UnityEngine::Rendering { class BatchAnimation; }
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define BADEFAULTGRAPH_GETGRAPH_OFFSET UNITYSDK_OFFSET(0x1523D1E0)
-#define BADEFAULTGRAPH_GET_OFFSET UNITYSDK_OFFSET(0x1523D0D0)
-#define BADEFAULTGRAPH_INIT_OFFSET UNITYSDK_OFFSET(0x1523D020)
-#define BADEFAULTGRAPH_PLAYCLIPS_OFFSET UNITYSDK_OFFSET(0x1523D0E0)
-#define BADEFAULTGRAPH_PLAYCLIP_OFFSET UNITYSDK_OFFSET(0x1523D130)
-#define BADEFAULTGRAPH__CTOR_OFFSET UNITYSDK_OFFSET(0x1523CF70)
+#define BADEFAULTGRAPH_GETGRAPH_OFFSET UNITYSDK_OFFSET(0x156DEDA0)
+#define BADEFAULTGRAPH_GET_OFFSET UNITYSDK_OFFSET(0x156DEC90)
+#define BADEFAULTGRAPH_INIT_OFFSET UNITYSDK_OFFSET(0x156DEBE0)
+#define BADEFAULTGRAPH_PLAYCLIPS_OFFSET UNITYSDK_OFFSET(0x156DECA0)
+#define BADEFAULTGRAPH_PLAYCLIP_OFFSET UNITYSDK_OFFSET(0x156DECF0)
+#define BADEFAULTGRAPH__CTOR_OFFSET UNITYSDK_OFFSET(0x156DEB30)
 
-inline static constexpr unsigned int BADefaultGraph_TypeDefinitionIndex = 34852;
+inline static constexpr unsigned int BADefaultGraph_TypeDefinitionIndex = 35135;
 
 class BADefaultGraph : public ::System::Object
 {
 public:
 	static ::BADefaultGraph** StaticGet__Graph()
 	{
-		return (::BADefaultGraph**)Il2CppClass::FromTypeDefinitionIndex(BADefaultGraph_TypeDefinitionIndex)->GetStaticField(0x5D6F0);
+		return (::BADefaultGraph**)Il2CppClass::FromTypeDefinitionIndex(BADefaultGraph_TypeDefinitionIndex)->GetStaticField(0x5BE40);
 	}
-	::UnityEngine::Rendering::BANodeHash blendNode; // 0x10
-	::UnityEngine::Rendering::BANodeHash outputNode; // 0x18
-	::UnityEngine::Rendering::BANodeHash clipNode0; // 0x20
-	::UnityEngine::Rendering::BANodeHash clipNode1; // 0x28
+	::UnityEngine::Rendering::BANodeHash outputNode; // 0x10
+	::UnityEngine::Rendering::BANodeHash clipNode1; // 0x18
+	::UnityEngine::Rendering::BANodeHash blendNode; // 0x20
+	::UnityEngine::Rendering::BANodeHash clipNode0; // 0x28
 
 	::System::Void _ctor()
 	{
@@ -43,14 +43,14 @@ public:
 		return ((::UnityEngine::Rendering::BAGraphAsset*(*)(::PVOID))((::PBYTE)hIl2Cpp + BADEFAULTGRAPH_GET_OFFSET))(this);
 	}
 
-	::System::Void PlayClips(::UnityEngine::Rendering::BatchAnimation* ba, ::System::Int32 clipIndex, ::System::Single speed, ::System::Int32 playState)
+	::System::Void PlayClips(::UnityEngine::Rendering::BatchAnimation* a1, ::System::Int32 a2, ::System::Single a3, ::System::Int32 a4)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimation*, ::System::Int32, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + BADEFAULTGRAPH_PLAYCLIPS_OFFSET))(this, ba, clipIndex, speed, playState);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimation*, ::System::Int32, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + BADEFAULTGRAPH_PLAYCLIPS_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::System::Void PlayClip(::UnityEngine::Rendering::BatchAnimationInstance* instance, ::System::Int32 clipIndex, ::System::Single speed, ::System::Int32 playState)
+	::System::Void PlayClip(::UnityEngine::Rendering::BatchAnimationInstance* a1, ::System::Int32 a2, ::System::Single a3, ::System::Int32 a4)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimationInstance*, ::System::Int32, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + BADEFAULTGRAPH_PLAYCLIP_OFFSET))(this, instance, clipIndex, speed, playState);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimationInstance*, ::System::Int32, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + BADEFAULTGRAPH_PLAYCLIP_OFFSET))(this, a1, a2, a3, a4);
 	}
 
 	static ::BADefaultGraph* GetGraph()

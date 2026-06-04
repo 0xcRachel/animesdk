@@ -7,13 +7,13 @@
 #include "unitysdk/System/Diagnostics/Tracing/EventTags.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEOPTIONS_SET_KEYWORDS_OFFSET UNITYSDK_OFFSET(0x229E320)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEOPTIONS_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x229E260)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEOPTIONS_SET_OPCODE_OFFSET UNITYSDK_OFFSET(0x229E2C0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEOPTIONS_SET_KEYWORDS_OFFSET UNITYSDK_OFFSET(0x382C060)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEOPTIONS_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x382BFA0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEOPTIONS_SET_OPCODE_OFFSET UNITYSDK_OFFSET(0x382C000)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventSourceOptions_TypeDefinitionIndex = 1595;
+	inline static constexpr unsigned int EventSourceOptions_TypeDefinitionIndex = 1593;
 
 	struct alignas(8) EventSourceOptions
 	{
@@ -24,19 +24,19 @@ namespace System::Diagnostics::Tracing
 		::System::Byte opcode; // 0x21
 		::System::Byte valuesSet; // 0x22
 
-		::System::Void set_Level(::System::Diagnostics::Tracing::EventLevel value)
+		::System::Void set_Level(::System::Diagnostics::Tracing::EventLevel a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventLevel))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEOPTIONS_SET_LEVEL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventLevel))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEOPTIONS_SET_LEVEL_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Opcode(::System::Diagnostics::Tracing::EventOpcode value)
+		::System::Void set_Opcode(::System::Diagnostics::Tracing::EventOpcode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventOpcode))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEOPTIONS_SET_OPCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventOpcode))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEOPTIONS_SET_OPCODE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Keywords(::System::Diagnostics::Tracing::EventKeywords value)
+		::System::Void set_Keywords(::System::Diagnostics::Tracing::EventKeywords a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventKeywords))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEOPTIONS_SET_KEYWORDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventKeywords))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCEOPTIONS_SET_KEYWORDS_OFFSET))(this, a1);
 		}
 	};
 }

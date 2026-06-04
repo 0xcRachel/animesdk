@@ -10,16 +10,16 @@ namespace RPG::Client { class AirlineVariableSpeedRange; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_AIRLINEWAY_AWAKE_OFFSET UNITYSDK_OFFSET(0x152F8FB0)
-#define RPG_CLIENT_AIRLINEWAY_GET_LEAVEDISSOLVEPOINT_OFFSET UNITYSDK_OFFSET(0x152F8F90)
-#define RPG_CLIENT_AIRLINEWAY_SET_LEAVEDISSOLVEPOINT_OFFSET UNITYSDK_OFFSET(0x152F8FA0)
-#define RPG_CLIENT_AIRLINEWAY_START_OFFSET UNITYSDK_OFFSET(0x152F99A0)
-#define RPG_CLIENT_AIRLINEWAY__CTOR_OFFSET UNITYSDK_OFFSET(0x152F9D60)
-#define RPG_CLIENT_AIRLINEWAY___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x152F9E10)
+#define RPG_CLIENT_AIRLINEWAY_AWAKE_OFFSET UNITYSDK_OFFSET(0x16E39CD0)
+#define RPG_CLIENT_AIRLINEWAY_GET_LEAVEDISSOLVEPOINT_OFFSET UNITYSDK_OFFSET(0x16E39CB0)
+#define RPG_CLIENT_AIRLINEWAY_SET_LEAVEDISSOLVEPOINT_OFFSET UNITYSDK_OFFSET(0x16E39CC0)
+#define RPG_CLIENT_AIRLINEWAY_START_OFFSET UNITYSDK_OFFSET(0x16E3A790)
+#define RPG_CLIENT_AIRLINEWAY__CTOR_OFFSET UNITYSDK_OFFSET(0x16E3AB80)
+#define RPG_CLIENT_AIRLINEWAY___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x16E3AC50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AirlineWay_TypeDefinitionIndex = 55143;
+	inline static constexpr unsigned int AirlineWay_TypeDefinitionIndex = 55877;
 
 	class AirlineWay : public ::RPG::Client::Airline
 	{
@@ -47,9 +47,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINEWAY_GET_LEAVEDISSOLVEPOINT_OFFSET))(this);
 		}
 
-		::System::Void set_LeaveDissolvePoint(::System::Single value)
+		::System::Void set_LeaveDissolvePoint(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINEWAY_SET_LEAVEDISSOLVEPOINT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINEWAY_SET_LEAVEDISSOLVEPOINT_OFFSET))(this, a1);
 		}
 
 		::System::Void Awake()

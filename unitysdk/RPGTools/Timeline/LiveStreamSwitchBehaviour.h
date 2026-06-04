@@ -6,15 +6,15 @@
 
 namespace RPGTools::Timeline { class LiveStreamSwitchClip; }
 
-#define RPGTOOLS_TIMELINE_LIVESTREAMSWITCHBEHAVIOUR_GET_LIVESTREAMSWITCHCLIP_OFFSET UNITYSDK_OFFSET(0x17E2C480)
-#define RPGTOOLS_TIMELINE_LIVESTREAMSWITCHBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x17E2C4A0)
-#define RPGTOOLS_TIMELINE_LIVESTREAMSWITCHBEHAVIOUR_SET_LIVESTREAMSWITCHCLIP_OFFSET UNITYSDK_OFFSET(0x17E2C490)
-#define RPGTOOLS_TIMELINE_LIVESTREAMSWITCHBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x17E2C540)
-#define RPGTOOLS_TIMELINE_LIVESTREAMSWITCHBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x17E2C550)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSWITCHBEHAVIOUR_GET_LIVESTREAMSWITCHCLIP_OFFSET UNITYSDK_OFFSET(0x18C3F520)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSWITCHBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x18C3F540)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSWITCHBEHAVIOUR_SET_LIVESTREAMSWITCHCLIP_OFFSET UNITYSDK_OFFSET(0x18C3F530)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSWITCHBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x18C3F5E0)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSWITCHBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x18C3F5F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LiveStreamSwitchBehaviour_TypeDefinitionIndex = 44925;
+	inline static constexpr unsigned int LiveStreamSwitchBehaviour_TypeDefinitionIndex = 45473;
 
 	class LiveStreamSwitchBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -31,9 +31,9 @@ namespace RPGTools::Timeline
 			return ((::RPGTools::Timeline::LiveStreamSwitchClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMSWITCHBEHAVIOUR_GET_LIVESTREAMSWITCHCLIP_OFFSET))(this);
 		}
 
-		::System::Void set_LiveStreamSwitchClip(::RPGTools::Timeline::LiveStreamSwitchClip* value)
+		::System::Void set_LiveStreamSwitchClip(::RPGTools::Timeline::LiveStreamSwitchClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::LiveStreamSwitchClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMSWITCHBEHAVIOUR_SET_LIVESTREAMSWITCHCLIP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::LiveStreamSwitchClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMSWITCHBEHAVIOUR_SET_LIVESTREAMSWITCHCLIP_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -41,9 +41,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMSWITCHBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMSWITCHBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMSWITCHBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -3,13 +3,13 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/TMPro/FontStyles.h"
 
-#define TMPRO_TMP_FONTSTYLESTACK_ADD_OFFSET UNITYSDK_OFFSET(0x2259F50)
-#define TMPRO_TMP_FONTSTYLESTACK_CLEAR_OFFSET UNITYSDK_OFFSET(0x2259F40)
-#define TMPRO_TMP_FONTSTYLESTACK_REMOVE_OFFSET UNITYSDK_OFFSET(0x2259F60)
+#define TMPRO_TMP_FONTSTYLESTACK_ADD_OFFSET UNITYSDK_OFFSET(0x37A9000)
+#define TMPRO_TMP_FONTSTYLESTACK_CLEAR_OFFSET UNITYSDK_OFFSET(0x37A8FF0)
+#define TMPRO_TMP_FONTSTYLESTACK_REMOVE_OFFSET UNITYSDK_OFFSET(0x37A9010)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_FontStyleStack_TypeDefinitionIndex = 40222;
+	inline static constexpr unsigned int TMP_FontStyleStack_TypeDefinitionIndex = 41049;
 
 	struct alignas(1) TMP_FontStyleStack
 	{
@@ -29,14 +29,14 @@ namespace TMPro
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTSTYLESTACK_CLEAR_OFFSET))(this);
 		}
 
-		::System::Byte Add(::TMPro::FontStyles style)
+		::System::Byte Add(::TMPro::FontStyles a1)
 		{
-			return ((::System::Byte(*)(::PVOID, ::TMPro::FontStyles))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTSTYLESTACK_ADD_OFFSET))(this, style);
+			return ((::System::Byte(*)(::PVOID, ::TMPro::FontStyles))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTSTYLESTACK_ADD_OFFSET))(this, a1);
 		}
 
-		::System::Byte Remove(::TMPro::FontStyles style)
+		::System::Byte Remove(::TMPro::FontStyles a1)
 		{
-			return ((::System::Byte(*)(::PVOID, ::TMPro::FontStyles))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTSTYLESTACK_REMOVE_OFFSET))(this, style);
+			return ((::System::Byte(*)(::PVOID, ::TMPro::FontStyles))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTSTYLESTACK_REMOVE_OFFSET))(this, a1);
 		}
 	};
 }

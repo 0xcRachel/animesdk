@@ -1,0 +1,108 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Sofa/BaseSofaWindow.h"
+
+class Class_1_43BD383C98B4C0C5_218;
+class Class_1_5F4D64A4B97E38F9;
+class Class_1_6CC143B9599F1FCA;
+namespace RPG::Client::ChenLingFes { class ChenLingFesGameBuffRewardViewModel; }
+namespace System { class Object; }
+namespace System::ComponentModel { class PropertyChangedEventArgs; }
+namespace UnityEngine::UI { class Button; }
+namespace UnityEngine::UI { class Image; }
+namespace UnityEngine::UI { class Text; }
+
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x18AEE620)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0x18AEDCD0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x18AEE0C0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW__ONBUFFREWARDCLOSEMESSAGE_OFFSET UNITYSDK_OFFSET(0x18AEEAE0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW__ONDATAPROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x18AEE740)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x18AEDDA0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW__ONSTARTEXIT_OFFSET UNITYSDK_OFFSET(0x18AEE6F0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW__REFRESHICON_OFFSET UNITYSDK_OFFSET(0x18AEE9D0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW__REFRESHTEXT_OFFSET UNITYSDK_OFFSET(0x18AEE880)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW__REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x18AEE6A0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW___IFIXBASEPROXY__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x18AEEBD0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW___IFIXBASEPROXY__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x18AEEB70)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW___IFIXBASEPROXY__ONSTARTEXIT_OFFSET UNITYSDK_OFFSET(0x18AEEC30)
+
+namespace RPG::Client::ChenLingFes
+{
+	inline static constexpr unsigned int ChenLingFesGameBuffRewardWindow_TypeDefinitionIndex = 74000;
+
+	class ChenLingFesGameBuffRewardWindow : public ::Sofa::BaseSofaWindow
+	{
+	public:
+		::UnityEngine::UI::Text* _TextDesc; // 0x40
+		::UnityEngine::UI::Text* _TextTitle; // 0x48
+		::Class_1_6CC143B9599F1FCA* _AssetLoader; // 0x50
+		::Class_1_5F4D64A4B97E38F9* _Messenger; // 0x58
+		::UnityEngine::UI::Button* _BtnClose; // 0x60
+		::UnityEngine::UI::Image* _ImageIcon; // 0x68
+
+		::System::Void _ctor(::RPG::Client::ChenLingFes::ChenLingFesGameBuffRewardViewModel* a1, ::Class_1_5F4D64A4B97E38F9* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingFes::ChenLingFesGameBuffRewardViewModel*, ::Class_1_5F4D64A4B97E38F9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW__CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void _OnInitializeComponent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW__ONINITIALIZECOMPONENT_OFFSET))(this);
+		}
+
+		::System::Void _OnBindViewModel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW__ONBINDVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void _OnStartExit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW__ONSTARTEXIT_OFFSET))(this);
+		}
+
+		::System::Void _OnDataPropertyChanged(::System::Object* a1, ::System::ComponentModel::PropertyChangedEventArgs* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ComponentModel::PropertyChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW__ONDATAPROPERTYCHANGED_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void _RefreshView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW__REFRESHVIEW_OFFSET))(this);
+		}
+
+		::System::Void _RefreshText()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW__REFRESHTEXT_OFFSET))(this);
+		}
+
+		::System::Void _RefreshIcon()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW__REFRESHICON_OFFSET))(this);
+		}
+
+		::System::Void _OnBuffRewardCloseMessage(::Class_1_43BD383C98B4C0C5_218* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_218*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW__ONBUFFREWARDCLOSEMESSAGE_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::ChenLingFes::ChenLingFesGameBuffRewardViewModel* get__ViewModel()
+		{
+			return ((::RPG::Client::ChenLingFes::ChenLingFesGameBuffRewardViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW_GET__VIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__OnInitializeComponent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW___IFIXBASEPROXY__ONINITIALIZECOMPONENT_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__OnBindViewModel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW___IFIXBASEPROXY__ONBINDVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__OnStartExit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEBUFFREWARDWINDOW___IFIXBASEPROXY__ONSTARTEXIT_OFFSET))(this);
+		}
+	};
+}

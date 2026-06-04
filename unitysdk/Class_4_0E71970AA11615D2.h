@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_3_3B76BCE1DE5BE597.h"
+#include "unitysdk/Class_3_3B76BCE1DE5BE59E.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_4_0E71970AA11615D2_METHOD_4_292F5DF952F180C0_OFFSET UNITYSDK_OFFSET(0xCE6FD40)
-#define CLASS_4_0E71970AA11615D2_METHOD_4_51C447A007739136_OFFSET UNITYSDK_OFFSET(0xCE702A0)
-#define CLASS_4_0E71970AA11615D2_METHOD_4_6CCB93D1016E82CD_OFFSET UNITYSDK_OFFSET(0xCE6FEC0)
-#define CLASS_4_0E71970AA11615D2_METHOD_4_9F2E2B246015406C_OFFSET UNITYSDK_OFFSET(0xCE6FE00)
-#define CLASS_4_0E71970AA11615D2_METHOD_4_BC46FCF99873D9DD_OFFSET UNITYSDK_OFFSET(0xCE6FDC0)
-#define CLASS_4_0E71970AA11615D2__CTOR_OFFSET UNITYSDK_OFFSET(0xCE70300)
+#define CLASS_4_0E71970AA11615D2_METHOD_4_0986E23AB72F8F9A_OFFSET UNITYSDK_OFFSET(0x14743E70)
+#define CLASS_4_0E71970AA11615D2_METHOD_4_51C447A007739136_OFFSET UNITYSDK_OFFSET(0x14744370)
+#define CLASS_4_0E71970AA11615D2_METHOD_4_5D908AB1FE0AD7F0_OFFSET UNITYSDK_OFFSET(0x14743F60)
+#define CLASS_4_0E71970AA11615D2_METHOD_4_664B011BC45034D7_OFFSET UNITYSDK_OFFSET(0x14743DB0)
+#define CLASS_4_0E71970AA11615D2_METHOD_4_BC46FCF99873D9DD_OFFSET UNITYSDK_OFFSET(0x14743E30)
+#define CLASS_4_0E71970AA11615D2__CTOR_OFFSET UNITYSDK_OFFSET(0x147443D0)
 
-inline static constexpr unsigned int Class_4_0E71970AA11615D2_TypeDefinitionIndex = 46083;
+inline static constexpr unsigned int Class_4_0E71970AA11615D2_TypeDefinitionIndex = 46666;
 
-class Class_4_0E71970AA11615D2 : public ::Class_3_3B76BCE1DE5BE597<::UnityEngine::GameObject*>
+class Class_4_0E71970AA11615D2 : public ::Class_3_3B76BCE1DE5BE59E<::UnityEngine::GameObject*>
 {
 public:
 	::System::Void _ctor()
@@ -23,9 +23,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_0E71970AA11615D2__CTOR_OFFSET))(this);
 	}
 
-	::UnityEngine::GameObject* Method_4_292F5DF952F180C0()
+	::UnityEngine::GameObject* Method_4_664B011BC45034D7()
 	{
-		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_0E71970AA11615D2_METHOD_4_292F5DF952F180C0_OFFSET))(this);
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_0E71970AA11615D2_METHOD_4_664B011BC45034D7_OFFSET))(this);
 	}
 
 	::UnityEngine::GameObject* Method_4_BC46FCF99873D9DD()
@@ -33,14 +33,14 @@ public:
 		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_0E71970AA11615D2_METHOD_4_BC46FCF99873D9DD_OFFSET))(this);
 	}
 
-	::System::String* Method_4_9F2E2B246015406C()
+	::System::String* Method_4_0986E23AB72F8F9A()
 	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_0E71970AA11615D2_METHOD_4_9F2E2B246015406C_OFFSET))(this);
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_0E71970AA11615D2_METHOD_4_0986E23AB72F8F9A_OFFSET))(this);
 	}
 
-	::System::Void Method_4_6CCB93D1016E82CD(::System::Collections::Generic::List_1<::System::Single>* a1, ::System::Collections::Generic::List_1<::System::String*>* a2)
+	::System::Void Method_4_5D908AB1FE0AD7F0(::System::Collections::Generic::List_1<::System::Single>* a1, ::System::Collections::Generic::List_1<::System::String*>* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Single>*, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + CLASS_4_0E71970AA11615D2_METHOD_4_6CCB93D1016E82CD_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Single>*, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + CLASS_4_0E71970AA11615D2_METHOD_4_5D908AB1FE0AD7F0_OFFSET))(this, a1, a2);
 	}
 
 	::UnityEngine::GameObject* Method_4_51C447A007739136(::UnityEngine::GameObject* a1, ::UnityEngine::GameObject* a2, ::System::Single a3)

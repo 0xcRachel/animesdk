@@ -4,14 +4,17 @@
 #include "unitysdk/RPG/GameCore/CompareType.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_CLIENT_LITTLEGAMESHARE_ST_BYRANDOM_METHOD_5_1E4E64BD744F6C80_OFFSET UNITYSDK_OFFSET(0x1A0EDEF0)
-#define RPG_CLIENT_LITTLEGAMESHARE_ST_BYRANDOM_METHOD_5_DA5A30176234CCE9_OFFSET UNITYSDK_OFFSET(0x1A0E9FE0)
-#define RPG_CLIENT_LITTLEGAMESHARE_ST_BYRANDOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0E9F90)
+#define RPG_CLIENT_LITTLEGAMESHARE_ST_BYRANDOM_METHOD_5_1E4E64BD744F6C80_OFFSET UNITYSDK_OFFSET(0x19246550)
+#define RPG_CLIENT_LITTLEGAMESHARE_ST_BYRANDOM_METHOD_5_33A150F63F87FC82_OFFSET UNITYSDK_OFFSET(0x192465E0)
+#define RPG_CLIENT_LITTLEGAMESHARE_ST_BYRANDOM_METHOD_5_7AA5FCB1DD1A4D30_OFFSET UNITYSDK_OFFSET(0x19245050)
+#define RPG_CLIENT_LITTLEGAMESHARE_ST_BYRANDOM_METHOD_5_DA5A30176234CCE9_OFFSET UNITYSDK_OFFSET(0x19243100)
+#define RPG_CLIENT_LITTLEGAMESHARE_ST_BYRANDOM__CTOR_OFFSET UNITYSDK_OFFSET(0x192430B0)
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int ST_ByRandom_TypeDefinitionIndex = 10158;
+	inline static constexpr unsigned int ST_ByRandom_TypeDefinitionIndex = 9963;
 
 	class ST_ByRandom : public ::RPG::Client::LittleGameShare::LittleGamePredicateConfig
 	{
@@ -34,6 +37,16 @@ namespace RPG::Client::LittleGameShare
 		static ::System::Void Method_5_DA5A30176234CCE9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::LittleGameShare::ST_ByRandom* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::LittleGameShare::ST_ByRandom*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_BYRANDOM_METHOD_5_DA5A30176234CCE9_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_5_7AA5FCB1DD1A4D30(::SimpleJSON::JSONNode* a1, ::RPG::Client::LittleGameShare::ST_ByRandom*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::Client::LittleGameShare::ST_ByRandom*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_BYRANDOM_METHOD_5_7AA5FCB1DD1A4D30_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_5_33A150F63F87FC82(::SimpleJSON::JSONNode* a1, ::RPG::Client::LittleGameShare::ST_ByRandom* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::Client::LittleGameShare::ST_ByRandom*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_BYRANDOM_METHOD_5_33A150F63F87FC82_OFFSET))(a1, a2);
 		}
 	};
 }

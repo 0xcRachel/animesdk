@@ -5,15 +5,18 @@
 #include "unitysdk/RPG/MVector3.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTUREBYISINROTATION_METHOD_4_091BD5AD5615AFF5_OFFSET UNITYSDK_OFFSET(0x18C67980)
-#define RPG_GAMECORE_ADVENTUREBYISINROTATION_METHOD_4_E1DCBC1EC452DDEE_OFFSET UNITYSDK_OFFSET(0x18C678A0)
-#define RPG_GAMECORE_ADVENTUREBYISINROTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x18C67920)
+#define RPG_GAMECORE_ADVENTUREBYISINROTATION_METHOD_4_000D135BF53E07C5_OFFSET UNITYSDK_OFFSET(0x19C00A90)
+#define RPG_GAMECORE_ADVENTUREBYISINROTATION_METHOD_4_091BD5AD5615AFF5_OFFSET UNITYSDK_OFFSET(0x19C00710)
+#define RPG_GAMECORE_ADVENTUREBYISINROTATION_METHOD_4_58E9826F33683F51_OFFSET UNITYSDK_OFFSET(0x19C00B10)
+#define RPG_GAMECORE_ADVENTUREBYISINROTATION_METHOD_4_E1DCBC1EC452DDEE_OFFSET UNITYSDK_OFFSET(0x19C00630)
+#define RPG_GAMECORE_ADVENTUREBYISINROTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x19C006B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureByIsInRotation_TypeDefinitionIndex = 19763;
+	inline static constexpr unsigned int AdventureByIsInRotation_TypeDefinitionIndex = 19639;
 
 	class AdventureByIsInRotation : public ::RPG::GameCore::PredicateConfig
 	{
@@ -41,6 +44,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_091BD5AD5615AFF5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureByIsInRotation* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureByIsInRotation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISINROTATION_METHOD_4_091BD5AD5615AFF5_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_000D135BF53E07C5(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByIsInRotation*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByIsInRotation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISINROTATION_METHOD_4_000D135BF53E07C5_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_58E9826F33683F51(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByIsInRotation* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByIsInRotation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISINROTATION_METHOD_4_58E9826F33683F51_OFFSET))(a1, a2);
 		}
 	};
 }

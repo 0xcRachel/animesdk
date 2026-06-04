@@ -5,21 +5,21 @@
 
 namespace RPG::Client { class BaseGachaPoolData; }
 
-#define RPG_CLIENT_GACHAGROUPDATA_GET_DEFAULTGACHAPOOLDATA_OFFSET UNITYSDK_OFFSET(0x15508210)
-#define RPG_CLIENT_GACHAGROUPDATA_GET_GACHATYPE_OFFSET UNITYSDK_OFFSET(0x15508270)
-#define RPG_CLIENT_GACHAGROUPDATA_GET_ISMULTIGROUPPOOL_OFFSET UNITYSDK_OFFSET(0x155081B0)
-#define RPG_CLIENT_GACHAGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15508130)
+#define RPG_CLIENT_GACHAGROUPDATA_GET_DEFAULTGACHAPOOLDATA_OFFSET UNITYSDK_OFFSET(0x15FFE2E0)
+#define RPG_CLIENT_GACHAGROUPDATA_GET_GACHATYPE_OFFSET UNITYSDK_OFFSET(0x15FFE360)
+#define RPG_CLIENT_GACHAGROUPDATA_GET_ISMULTIGROUPPOOL_OFFSET UNITYSDK_OFFSET(0x15FFE280)
+#define RPG_CLIENT_GACHAGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15FFE200)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GachaGroupData_TypeDefinitionIndex = 59174;
+	inline static constexpr unsigned int GachaGroupData_TypeDefinitionIndex = 60108;
 
 	class GachaGroupData : public ::RPG::Client::BaseGachaGroupData
 	{
 	public:
-		::System::Void _ctor(::System::UInt32 groupID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAGROUPDATA__CTOR_OFFSET))(this, groupID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAGROUPDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsMultiGroupPool()

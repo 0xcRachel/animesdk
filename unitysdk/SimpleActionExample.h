@@ -7,16 +7,16 @@ namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace System { class String; }
 namespace UnityEngine { class TextMesh; }
 
-#define SIMPLEACTIONEXAMPLE_CHANGECOLOR_OFFSET UNITYSDK_OFFSET(0x191B0D20)
-#define SIMPLEACTIONEXAMPLE_CHANGETEXT_OFFSET UNITYSDK_OFFSET(0x191B10E0)
-#define SIMPLEACTIONEXAMPLE_DISPLAYSWIPEANGLE_OFFSET UNITYSDK_OFFSET(0x191B0F30)
-#define SIMPLEACTIONEXAMPLE_RANDOMCOLOR_OFFSET UNITYSDK_OFFSET(0x191B0D30)
-#define SIMPLEACTIONEXAMPLE_RESETSCALE_OFFSET UNITYSDK_OFFSET(0x191B1110)
-#define SIMPLEACTIONEXAMPLE_START_OFFSET UNITYSDK_OFFSET(0x191B0C90)
-#define SIMPLEACTIONEXAMPLE_TIMEPRESSED_OFFSET UNITYSDK_OFFSET(0x191B0E90)
-#define SIMPLEACTIONEXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x191B1150)
+#define SIMPLEACTIONEXAMPLE_CHANGECOLOR_OFFSET UNITYSDK_OFFSET(0x19900040)
+#define SIMPLEACTIONEXAMPLE_CHANGETEXT_OFFSET UNITYSDK_OFFSET(0x19900400)
+#define SIMPLEACTIONEXAMPLE_DISPLAYSWIPEANGLE_OFFSET UNITYSDK_OFFSET(0x19900250)
+#define SIMPLEACTIONEXAMPLE_RANDOMCOLOR_OFFSET UNITYSDK_OFFSET(0x19900050)
+#define SIMPLEACTIONEXAMPLE_RESETSCALE_OFFSET UNITYSDK_OFFSET(0x19900430)
+#define SIMPLEACTIONEXAMPLE_START_OFFSET UNITYSDK_OFFSET(0x198FFFB0)
+#define SIMPLEACTIONEXAMPLE_TIMEPRESSED_OFFSET UNITYSDK_OFFSET(0x199001B0)
+#define SIMPLEACTIONEXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19900470)
 
-inline static constexpr unsigned int SimpleActionExample_TypeDefinitionIndex = 36979;
+inline static constexpr unsigned int SimpleActionExample_TypeDefinitionIndex = 37279;
 
 class SimpleActionExample : public ::UnityEngine::MonoBehaviour
 {
@@ -34,24 +34,24 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_START_OFFSET))(this);
 	}
 
-	::System::Void ChangeColor(::HedgehogTeam::EasyTouch::Gesture* gesture)
+	::System::Void ChangeColor(::HedgehogTeam::EasyTouch::Gesture* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_CHANGECOLOR_OFFSET))(this, gesture);
+		return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_CHANGECOLOR_OFFSET))(this, a1);
 	}
 
-	::System::Void TimePressed(::HedgehogTeam::EasyTouch::Gesture* gesture)
+	::System::Void TimePressed(::HedgehogTeam::EasyTouch::Gesture* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_TIMEPRESSED_OFFSET))(this, gesture);
+		return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_TIMEPRESSED_OFFSET))(this, a1);
 	}
 
-	::System::Void DisplaySwipeAngle(::HedgehogTeam::EasyTouch::Gesture* gesture)
+	::System::Void DisplaySwipeAngle(::HedgehogTeam::EasyTouch::Gesture* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_DISPLAYSWIPEANGLE_OFFSET))(this, gesture);
+		return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_DISPLAYSWIPEANGLE_OFFSET))(this, a1);
 	}
 
-	::System::Void ChangeText(::System::String* text)
+	::System::Void ChangeText(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_CHANGETEXT_OFFSET))(this, text);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_CHANGETEXT_OFFSET))(this, a1);
 	}
 
 	::System::Void ResetScale()

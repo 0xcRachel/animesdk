@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/LittleGame/FiveDim/SpikeTrapState.h"
 
-class Class_2_9DD8A46984F1AFFD;
-namespace UnityEngine { class GameObject; }
+class Class_1_38CD02622A43811A;
+class Class_1_9DB6F6BB628BF86A;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_231_TypeDefinitionIndex = 39431;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_231_TypeDefinitionIndex = 39683;
 
 class Class_0_16E4307DCC419505_231
 {

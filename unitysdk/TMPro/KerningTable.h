@@ -6,17 +6,17 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace TMPro { class KerningPair; }
 
-#define TMPRO_KERNINGTABLE_ADDGLYPHPAIRADJUSTMENTRECORD_OFFSET UNITYSDK_OFFSET(0x1606FC90)
-#define TMPRO_KERNINGTABLE_ADDKERNINGPAIR_1_OFFSET UNITYSDK_OFFSET(0x1606FB30)
-#define TMPRO_KERNINGTABLE_ADDKERNINGPAIR_OFFSET UNITYSDK_OFFSET(0x1606FA00)
-#define TMPRO_KERNINGTABLE_REMOVEKERNINGPAIR_1_OFFSET UNITYSDK_OFFSET(0x1606FF90)
-#define TMPRO_KERNINGTABLE_REMOVEKERNINGPAIR_OFFSET UNITYSDK_OFFSET(0x1606FE10)
-#define TMPRO_KERNINGTABLE_SORTKERNINGPAIRS_OFFSET UNITYSDK_OFFSET(0x16070010)
-#define TMPRO_KERNINGTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1606F9C0)
+#define TMPRO_KERNINGTABLE_ADDGLYPHPAIRADJUSTMENTRECORD_OFFSET UNITYSDK_OFFSET(0x155AF090)
+#define TMPRO_KERNINGTABLE_ADDKERNINGPAIR_1_OFFSET UNITYSDK_OFFSET(0x155AEED0)
+#define TMPRO_KERNINGTABLE_ADDKERNINGPAIR_OFFSET UNITYSDK_OFFSET(0x155AECF0)
+#define TMPRO_KERNINGTABLE_REMOVEKERNINGPAIR_1_OFFSET UNITYSDK_OFFSET(0x155AF3F0)
+#define TMPRO_KERNINGTABLE_REMOVEKERNINGPAIR_OFFSET UNITYSDK_OFFSET(0x155AF270)
+#define TMPRO_KERNINGTABLE_SORTKERNINGPAIRS_OFFSET UNITYSDK_OFFSET(0x155AF490)
+#define TMPRO_KERNINGTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x155AECB0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int KerningTable_TypeDefinitionIndex = 40134;
+	inline static constexpr unsigned int KerningTable_TypeDefinitionIndex = 40961;
 
 	class KerningTable : public ::System::Object
 	{
@@ -33,24 +33,24 @@ namespace TMPro
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_KERNINGTABLE_ADDKERNINGPAIR_OFFSET))(this);
 		}
 
-		::System::Int32 AddKerningPair_1(::System::UInt32 first, ::System::UInt32 second, ::System::Single offset)
+		::System::Int32 AddKerningPair_1(::System::UInt32 a1, ::System::UInt32 a2, ::System::Single a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + TMPRO_KERNINGTABLE_ADDKERNINGPAIR_1_OFFSET))(this, first, second, offset);
+			return ((::System::Int32(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + TMPRO_KERNINGTABLE_ADDKERNINGPAIR_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 AddGlyphPairAdjustmentRecord(::System::UInt32 first, ::TMPro::GlyphValueRecord_Legacy firstAdjustments, ::System::UInt32 second, ::TMPro::GlyphValueRecord_Legacy secondAdjustments)
+		::System::Int32 AddGlyphPairAdjustmentRecord(::System::UInt32 a1, ::TMPro::GlyphValueRecord_Legacy a2, ::System::UInt32 a3, ::TMPro::GlyphValueRecord_Legacy a4)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::UInt32, ::TMPro::GlyphValueRecord_Legacy, ::System::UInt32, ::TMPro::GlyphValueRecord_Legacy))((::PBYTE)hIl2Cpp + TMPRO_KERNINGTABLE_ADDGLYPHPAIRADJUSTMENTRECORD_OFFSET))(this, first, firstAdjustments, second, secondAdjustments);
+			return ((::System::Int32(*)(::PVOID, ::System::UInt32, ::TMPro::GlyphValueRecord_Legacy, ::System::UInt32, ::TMPro::GlyphValueRecord_Legacy))((::PBYTE)hIl2Cpp + TMPRO_KERNINGTABLE_ADDGLYPHPAIRADJUSTMENTRECORD_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void RemoveKerningPair(::System::Int32 left, ::System::Int32 right)
+		::System::Void RemoveKerningPair(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_KERNINGTABLE_REMOVEKERNINGPAIR_OFFSET))(this, left, right);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_KERNINGTABLE_REMOVEKERNINGPAIR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RemoveKerningPair_1(::System::Int32 index)
+		::System::Void RemoveKerningPair_1(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_KERNINGTABLE_REMOVEKERNINGPAIR_1_OFFSET))(this, index);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_KERNINGTABLE_REMOVEKERNINGPAIR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void SortKerningPairs()

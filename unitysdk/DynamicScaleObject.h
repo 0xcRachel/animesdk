@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define DYNAMICSCALEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0xAD80470)
+#define DYNAMICSCALEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x154AA400)
 
-inline static constexpr unsigned int DynamicScaleObject_TypeDefinitionIndex = 44125;
+inline static constexpr unsigned int DynamicScaleObject_TypeDefinitionIndex = 44671;
 
 class DynamicScaleObject : public ::UnityEngine::MonoBehaviour
 {

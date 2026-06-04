@@ -4,7 +4,7 @@
 
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
 
-inline static constexpr unsigned int Class_2_54A5646FB63D2B4F_Struct_2_A5FF422FCBA8618D_TypeDefinitionIndex = 67945;
+inline static constexpr unsigned int Class_2_54A5646FB63D2B4F_Struct_2_A5FF422FCBA8618D_TypeDefinitionIndex = 68903;
 
 struct alignas(8) Class_2_54A5646FB63D2B4F_Struct_2_A5FF422FCBA8618D
 {

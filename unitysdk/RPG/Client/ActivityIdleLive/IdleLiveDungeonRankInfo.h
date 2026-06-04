@@ -7,21 +7,21 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO_GETRANKDATASSORTED_OFFSET UNITYSDK_OFFSET(0x16C4DBA0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO_GETSELFRANKDATA_OFFSET UNITYSDK_OFFSET(0x16C4E460)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO_UPDATEFRIENDINFO_OFFSET UNITYSDK_OFFSET(0x16C4D530)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO_UPDATESELFASSISTCOUNT_OFFSET UNITYSDK_OFFSET(0x16C4D7D0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16C4E5D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO_GETRANKDATASSORTED_OFFSET UNITYSDK_OFFSET(0x18B24550)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO_GETSELFRANKDATA_OFFSET UNITYSDK_OFFSET(0x18B216A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO_UPDATEFRIENDINFO_OFFSET UNITYSDK_OFFSET(0x18B217E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO_UPDATESELFASSISTCOUNT_OFFSET UNITYSDK_OFFSET(0x18B239B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18B1E3C0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveDungeonRankInfo_TypeDefinitionIndex = 69277;
+	inline static constexpr unsigned int IdleLiveDungeonRankInfo_TypeDefinitionIndex = 70089;
 
 	class IdleLiveDungeonRankInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*>* _RankDatas; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*>* _CachedRankDatas; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*>* _CachedRankDatas; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*>* _RankDatas; // 0x18
 		::System::Boolean _IsDirty; // 0x20
 
 		::System::Void _ctor()
@@ -29,14 +29,14 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO__CTOR_OFFSET))(this);
 		}
 
-		::System::Void UpdateFriendInfo(::System::UInt32 uid, ::System::UInt32 totalProgress, ::System::UInt32 assistCount)
+		::System::Void UpdateFriendInfo(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO_UPDATEFRIENDINFO_OFFSET))(this, uid, totalProgress, assistCount);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO_UPDATEFRIENDINFO_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void UpdateSelfAssistCount(::System::UInt32 assistCount)
+		::System::Void UpdateSelfAssistCount(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO_UPDATESELFASSISTCOUNT_OFFSET))(this, assistCount);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO_UPDATESELFASSISTCOUNT_OFFSET))(this, a1);
 		}
 
 		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*>* GetRankDatasSorted()

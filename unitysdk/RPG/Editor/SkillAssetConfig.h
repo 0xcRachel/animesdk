@@ -7,14 +7,14 @@ namespace RPG::Editor { class SkillLineAssetConfig; }
 namespace RPG::Editor { class SkillPointAssetConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_EDITOR_SKILLASSETCONFIG_METHOD_1_1B167429A8B82AD3_1_OFFSET UNITYSDK_OFFSET(0xB1A8E60)
-#define RPG_EDITOR_SKILLASSETCONFIG_METHOD_1_1B167429A8B82AD3_OFFSET UNITYSDK_OFFSET(0xB1A8820)
-#define RPG_EDITOR_SKILLASSETCONFIG_METHOD_1_5FBAD89A54D9F070_OFFSET UNITYSDK_OFFSET(0xB1A88D0)
-#define RPG_EDITOR_SKILLASSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB1A8F00)
+#define RPG_EDITOR_SKILLASSETCONFIG_METHOD_1_33ACA6CB2ABC73F7_1_OFFSET UNITYSDK_OFFSET(0x12AF99C0)
+#define RPG_EDITOR_SKILLASSETCONFIG_METHOD_1_33ACA6CB2ABC73F7_2_OFFSET UNITYSDK_OFFSET(0x12AFA020)
+#define RPG_EDITOR_SKILLASSETCONFIG_METHOD_1_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x12AF98B0)
+#define RPG_EDITOR_SKILLASSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12AFA120)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int SkillAssetConfig_TypeDefinitionIndex = 48033;
+	inline static constexpr unsigned int SkillAssetConfig_TypeDefinitionIndex = 48651;
 
 	class SkillAssetConfig : public ::System::Object
 	{
@@ -28,19 +28,19 @@ namespace RPG::Editor
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_SKILLASSETCONFIG__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_1B167429A8B82AD3()
+		::System::Void Method_1_33ACA6CB2ABC73F7()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_SKILLASSETCONFIG_METHOD_1_1B167429A8B82AD3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_SKILLASSETCONFIG_METHOD_1_33ACA6CB2ABC73F7_OFFSET))(this);
 		}
 
-		::System::Void Method_1_5FBAD89A54D9F070()
+		::System::Void Method_1_33ACA6CB2ABC73F7_1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_SKILLASSETCONFIG_METHOD_1_5FBAD89A54D9F070_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_SKILLASSETCONFIG_METHOD_1_33ACA6CB2ABC73F7_1_OFFSET))(this);
 		}
 
-		::System::Void Method_1_1B167429A8B82AD3_1()
+		::System::Void Method_1_33ACA6CB2ABC73F7_2()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_SKILLASSETCONFIG_METHOD_1_1B167429A8B82AD3_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_SKILLASSETCONFIG_METHOD_1_33ACA6CB2ABC73F7_2_OFFSET))(this);
 		}
 	};
 }

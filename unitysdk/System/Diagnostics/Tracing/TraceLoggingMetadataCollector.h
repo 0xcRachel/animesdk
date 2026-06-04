@@ -8,26 +8,26 @@ namespace System { class String; }
 namespace System::Diagnostics::Tracing { class FieldMetadata; }
 namespace System::Diagnostics::Tracing { class TraceLoggingMetadataCollector_Impl; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ADDARRAY_OFFSET UNITYSDK_OFFSET(0x17CFFCE0)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ADDBINARY_OFFSET UNITYSDK_OFFSET(0x17D00490)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ADDFIELD_OFFSET UNITYSDK_OFFSET(0x17D26D10)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ADDGROUP_OFFSET UNITYSDK_OFFSET(0x17D01B40)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ADDSCALAR_OFFSET UNITYSDK_OFFSET(0x17D00130)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_BEGINBUFFEREDARRAY_OFFSET UNITYSDK_OFFSET(0x17D26F30)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ENDBUFFEREDARRAY_OFFSET UNITYSDK_OFFSET(0x17D27040)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_GETMETADATA_OFFSET UNITYSDK_OFFSET(0x17D26B90)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_GET_BEGINNINGBUFFEREDARRAY_OFFSET UNITYSDK_OFFSET(0x17D26D00)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_GET_DATACOUNT_OFFSET UNITYSDK_OFFSET(0x17D26C00)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_GET_PINCOUNT_OFFSET UNITYSDK_OFFSET(0x17D26C20)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_GET_SCRATCHSIZE_OFFSET UNITYSDK_OFFSET(0x17D26BE0)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_GET_TAGS_OFFSET UNITYSDK_OFFSET(0x17D26CE0)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_SET_TAGS_OFFSET UNITYSDK_OFFSET(0x17D26CF0)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17D26CB0)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17D26B00)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ADDARRAY_OFFSET UNITYSDK_OFFSET(0x175F32C0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ADDBINARY_OFFSET UNITYSDK_OFFSET(0x175F3B30)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ADDFIELD_OFFSET UNITYSDK_OFFSET(0x17618CC0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ADDGROUP_OFFSET UNITYSDK_OFFSET(0x175F5190)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ADDSCALAR_OFFSET UNITYSDK_OFFSET(0x175F3760)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_BEGINBUFFEREDARRAY_OFFSET UNITYSDK_OFFSET(0x17618EF0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ENDBUFFEREDARRAY_OFFSET UNITYSDK_OFFSET(0x17619050)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_GETMETADATA_OFFSET UNITYSDK_OFFSET(0x17618B40)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_GET_BEGINNINGBUFFEREDARRAY_OFFSET UNITYSDK_OFFSET(0x17618CB0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_GET_DATACOUNT_OFFSET UNITYSDK_OFFSET(0x17618BB0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_GET_PINCOUNT_OFFSET UNITYSDK_OFFSET(0x17618BD0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_GET_SCRATCHSIZE_OFFSET UNITYSDK_OFFSET(0x17618B90)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_GET_TAGS_OFFSET UNITYSDK_OFFSET(0x17618C90)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_SET_TAGS_OFFSET UNITYSDK_OFFSET(0x17618CA0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17618C60)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17618AB0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int TraceLoggingMetadataCollector_TypeDefinitionIndex = 1660;
+	inline static constexpr unsigned int TraceLoggingMetadataCollector_TypeDefinitionIndex = 1658;
 
 	class TraceLoggingMetadataCollector : public ::System::Object
 	{
@@ -42,9 +42,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Diagnostics::Tracing::TraceLoggingMetadataCollector* other, ::System::Diagnostics::Tracing::FieldMetadata* group)
+		::System::Void _ctor_1(::System::Diagnostics::Tracing::TraceLoggingMetadataCollector* a1, ::System::Diagnostics::Tracing::FieldMetadata* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::TraceLoggingMetadataCollector*, ::System::Diagnostics::Tracing::FieldMetadata*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR__CTOR_1_OFFSET))(this, other, group);
+			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::TraceLoggingMetadataCollector*, ::System::Diagnostics::Tracing::FieldMetadata*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Diagnostics::Tracing::EventFieldTags get_Tags()
@@ -52,9 +52,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Diagnostics::Tracing::EventFieldTags(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_GET_TAGS_OFFSET))(this);
 		}
 
-		::System::Void set_Tags(::System::Diagnostics::Tracing::EventFieldTags value)
+		::System::Void set_Tags(::System::Diagnostics::Tracing::EventFieldTags a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventFieldTags))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_SET_TAGS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventFieldTags))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_SET_TAGS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_ScratchSize()
@@ -77,24 +77,24 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_GET_BEGINNINGBUFFEREDARRAY_OFFSET))(this);
 		}
 
-		::System::Diagnostics::Tracing::TraceLoggingMetadataCollector* AddGroup(::System::String* name)
+		::System::Diagnostics::Tracing::TraceLoggingMetadataCollector* AddGroup(::System::String* a1)
 		{
-			return ((::System::Diagnostics::Tracing::TraceLoggingMetadataCollector*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ADDGROUP_OFFSET))(this, name);
+			return ((::System::Diagnostics::Tracing::TraceLoggingMetadataCollector*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ADDGROUP_OFFSET))(this, a1);
 		}
 
-		::System::Void AddScalar(::System::String* name, ::System::Diagnostics::Tracing::TraceLoggingDataType type)
+		::System::Void AddScalar(::System::String* a1, ::System::Diagnostics::Tracing::TraceLoggingDataType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Diagnostics::Tracing::TraceLoggingDataType))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ADDSCALAR_OFFSET))(this, name, type);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Diagnostics::Tracing::TraceLoggingDataType))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ADDSCALAR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddBinary(::System::String* name, ::System::Diagnostics::Tracing::TraceLoggingDataType type)
+		::System::Void AddBinary(::System::String* a1, ::System::Diagnostics::Tracing::TraceLoggingDataType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Diagnostics::Tracing::TraceLoggingDataType))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ADDBINARY_OFFSET))(this, name, type);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Diagnostics::Tracing::TraceLoggingDataType))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ADDBINARY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddArray(::System::String* name, ::System::Diagnostics::Tracing::TraceLoggingDataType type)
+		::System::Void AddArray(::System::String* a1, ::System::Diagnostics::Tracing::TraceLoggingDataType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Diagnostics::Tracing::TraceLoggingDataType))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ADDARRAY_OFFSET))(this, name, type);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Diagnostics::Tracing::TraceLoggingDataType))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ADDARRAY_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void BeginBufferedArray()
@@ -112,9 +112,9 @@ namespace System::Diagnostics::Tracing
 			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_GETMETADATA_OFFSET))(this);
 		}
 
-		::System::Void AddField(::System::Diagnostics::Tracing::FieldMetadata* fieldMetadata)
+		::System::Void AddField(::System::Diagnostics::Tracing::FieldMetadata* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::FieldMetadata*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ADDFIELD_OFFSET))(this, fieldMetadata);
+			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::FieldMetadata*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_ADDFIELD_OFFSET))(this, a1);
 		}
 	};
 }

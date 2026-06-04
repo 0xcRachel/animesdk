@@ -8,21 +8,21 @@ namespace BansheeGz::BGSpline::Curve { class BGCurve; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_CHECKNAME_OFFSET UNITYSDK_OFFSET(0x17250FE0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x17263C90)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_EQUALS_OFFSET UNITYSDK_OFFSET(0x17263C00)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17263DA0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_GET_CURVE_OFFSET UNITYSDK_OFFSET(0x17263BF0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_GET_FIELDNAME_OFFSET UNITYSDK_OFFSET(0x17263980)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x17263BE0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_INIT_OFFSET UNITYSDK_OFFSET(0x17251210)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_SET_FIELDNAME_OFFSET UNITYSDK_OFFSET(0x17263990)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17263E40)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x17263E50)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_CHECKNAME_OFFSET UNITYSDK_OFFSET(0x1520C720)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x15220330)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_EQUALS_OFFSET UNITYSDK_OFFSET(0x152202A0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x15220450)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_GET_CURVE_OFFSET UNITYSDK_OFFSET(0x15220290)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_GET_FIELDNAME_OFFSET UNITYSDK_OFFSET(0x15220020)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15220280)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_INIT_OFFSET UNITYSDK_OFFSET(0x1520C940)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_SET_FIELDNAME_OFFSET UNITYSDK_OFFSET(0x15220030)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x152204F0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x15220500)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurvePointField_TypeDefinitionIndex = 33819;
+	inline static constexpr unsigned int BGCurvePointField_TypeDefinitionIndex = 34101;
 
 	class BGCurvePointField : public ::UnityEngine::MonoBehaviour
 	{
@@ -45,9 +45,9 @@ namespace BansheeGz::BGSpline::Curve
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_GET_FIELDNAME_OFFSET))(this);
 		}
 
-		::System::Void set_FieldName(::System::String* value)
+		::System::Void set_FieldName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_SET_FIELDNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_SET_FIELDNAME_OFFSET))(this, a1);
 		}
 
 		::BansheeGz::BGSpline::Curve::BGCurvePointField_TypeEnum get_Type()
@@ -60,24 +60,24 @@ namespace BansheeGz::BGSpline::Curve
 			return ((::BansheeGz::BGSpline::Curve::BGCurve*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_GET_CURVE_OFFSET))(this);
 		}
 
-		::System::Void Init(::BansheeGz::BGSpline::Curve::BGCurve* curve, ::System::String* fieldName, ::BansheeGz::BGSpline::Curve::BGCurvePointField_TypeEnum type)
+		::System::Void Init(::BansheeGz::BGSpline::Curve::BGCurve* a1, ::System::String* a2, ::BansheeGz::BGSpline::Curve::BGCurvePointField_TypeEnum a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurve*, ::System::String*, ::BansheeGz::BGSpline::Curve::BGCurvePointField_TypeEnum))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_INIT_OFFSET))(this, curve, fieldName, type);
+			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurve*, ::System::String*, ::BansheeGz::BGSpline::Curve::BGCurvePointField_TypeEnum))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::String* CheckName(::BansheeGz::BGSpline::Curve::BGCurve* curve, ::System::String* name, ::System::Boolean throwException)
+		static ::System::String* CheckName(::BansheeGz::BGSpline::Curve::BGCurve* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::System::String*(*)(::BansheeGz::BGSpline::Curve::BGCurve*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_CHECKNAME_OFFSET))(curve, name, throwException);
+			return ((::System::String*(*)(::BansheeGz::BGSpline::Curve::BGCurve*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_CHECKNAME_OFFSET))(a1, a2, a3);
 		}
 
-		::System::Boolean Equals(::BansheeGz::BGSpline::Curve::BGCurvePointField* other)
+		::System::Boolean Equals(::BansheeGz::BGSpline::Curve::BGCurvePointField* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurvePointField*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurvePointField*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINTFIELD_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

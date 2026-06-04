@@ -9,60 +9,60 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define INCONTROL_UTILITY_ABSOLUTEISOVERTHRESHOLD_OFFSET UNITYSDK_OFFSET(0x941C520)
-#define INCONTROL_UTILITY_ABS_OFFSET UNITYSDK_OFFSET(0x941C400)
-#define INCONTROL_UTILITY_APPLYDEADZONE_OFFSET UNITYSDK_OFFSET(0x941C050)
-#define INCONTROL_UTILITY_APPLYSMOOTHING_OFFSET UNITYSDK_OFFSET(0x941C0B0)
-#define INCONTROL_UTILITY_APPLYSNAPPING_OFFSET UNITYSDK_OFFSET(0x941C190)
-#define INCONTROL_UTILITY_APPROXIMATELY_1_OFFSET UNITYSDK_OFFSET(0x941C450)
-#define INCONTROL_UTILITY_APPROXIMATELY_OFFSET UNITYSDK_OFFSET(0x941C420)
-#define INCONTROL_UTILITY_DRAWCIRCLEGIZMO_1_OFFSET UNITYSDK_OFFSET(0x941B7A0)
-#define INCONTROL_UTILITY_DRAWCIRCLEGIZMO_OFFSET UNITYSDK_OFFSET(0x941B620)
-#define INCONTROL_UTILITY_DRAWOVALGIZMO_1_OFFSET UNITYSDK_OFFSET(0x941B990)
-#define INCONTROL_UTILITY_DRAWOVALGIZMO_OFFSET UNITYSDK_OFFSET(0x941B7E0)
-#define INCONTROL_UTILITY_DRAWRECTGIZMO_1_OFFSET UNITYSDK_OFFSET(0x941BB00)
-#define INCONTROL_UTILITY_DRAWRECTGIZMO_2_OFFSET UNITYSDK_OFFSET(0x941BC50)
-#define INCONTROL_UTILITY_DRAWRECTGIZMO_3_OFFSET UNITYSDK_OFFSET(0x941BDF0)
-#define INCONTROL_UTILITY_DRAWRECTGIZMO_OFFSET UNITYSDK_OFFSET(0x941B9D0)
-#define INCONTROL_UTILITY_GAMEOBJECTISCULLEDONCURRENTCAMERA_OFFSET UNITYSDK_OFFSET(0x941BFB0)
-#define INCONTROL_UTILITY_GETHUMANUNDERSTANDABLEWINDOWSVERSION_OFFSET UNITYSDK_OFFSET(0x941C8D0)
-#define INCONTROL_UTILITY_GETPLATFORMNAME_OFFSET UNITYSDK_OFFSET(0x941C830)
-#define INCONTROL_UTILITY_GETSYSTEMBUILDNUMBER_OFFSET UNITYSDK_OFFSET(0x941CCC0)
-#define INCONTROL_UTILITY_GETWINDOWSVERSION_OFFSET UNITYSDK_OFFSET(0x941C9C0)
-#define INCONTROL_UTILITY_GET_IS32BIT_OFFSET UNITYSDK_OFFSET(0x941C810)
-#define INCONTROL_UTILITY_GET_IS64BIT_OFFSET UNITYSDK_OFFSET(0x941C820)
-#define INCONTROL_UTILITY_ISNOTZERO_OFFSET UNITYSDK_OFFSET(0x941C4B0)
-#define INCONTROL_UTILITY_ISZERO_OFFSET UNITYSDK_OFFSET(0x941C4E0)
-#define INCONTROL_UTILITY_LOADSCENE_OFFSET UNITYSDK_OFFSET(0x941CD40)
-#define INCONTROL_UTILITY_MAX_1_OFFSET UNITYSDK_OFFSET(0x941C6B0)
-#define INCONTROL_UTILITY_MAX_OFFSET UNITYSDK_OFFSET(0x941C650)
-#define INCONTROL_UTILITY_MIN_1_OFFSET UNITYSDK_OFFSET(0x941C670)
-#define INCONTROL_UTILITY_MIN_OFFSET UNITYSDK_OFFSET(0x941C630)
-#define INCONTROL_UTILITY_MOVECOLORTOWARDS_OFFSET UNITYSDK_OFFSET(0x941C000)
-#define INCONTROL_UTILITY_NEXTPOWEROFTWO_OFFSET UNITYSDK_OFFSET(0x941C7E0)
-#define INCONTROL_UTILITY_NORMALIZEANGLE_OFFSET UNITYSDK_OFFSET(0x941C540)
-#define INCONTROL_UTILITY_PLUGINFILEEXTENSION_OFFSET UNITYSDK_OFFSET(0x941CD70)
-#define INCONTROL_UTILITY_READFROMFILE_OFFSET UNITYSDK_OFFSET(0x941C220)
-#define INCONTROL_UTILITY_SIGN_OFFSET UNITYSDK_OFFSET(0x941C510)
-#define INCONTROL_UTILITY_TARGETISALIAS_OFFSET UNITYSDK_OFFSET(0x941C210)
-#define INCONTROL_UTILITY_TARGETISBUTTON_OFFSET UNITYSDK_OFFSET(0x941C1D0)
-#define INCONTROL_UTILITY_TARGETISSTANDARD_OFFSET UNITYSDK_OFFSET(0x941C1F0)
-#define INCONTROL_UTILITY_VALUEFROMSIDES_1_OFFSET UNITYSDK_OFFSET(0x941C740)
-#define INCONTROL_UTILITY_VALUEFROMSIDES_OFFSET UNITYSDK_OFFSET(0x941C6F0)
-#define INCONTROL_UTILITY_VECTORTOANGLE_OFFSET UNITYSDK_OFFSET(0x941C590)
-#define INCONTROL_UTILITY_WRITETOFILE_OFFSET UNITYSDK_OFFSET(0x941C330)
-#define INCONTROL_UTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x941CDB0)
+#define INCONTROL_UTILITY_ABSOLUTEISOVERTHRESHOLD_OFFSET UNITYSDK_OFFSET(0xA7272B0)
+#define INCONTROL_UTILITY_ABS_OFFSET UNITYSDK_OFFSET(0xA727190)
+#define INCONTROL_UTILITY_APPLYDEADZONE_OFFSET UNITYSDK_OFFSET(0xA726E60)
+#define INCONTROL_UTILITY_APPLYSMOOTHING_OFFSET UNITYSDK_OFFSET(0xA726EC0)
+#define INCONTROL_UTILITY_APPLYSNAPPING_OFFSET UNITYSDK_OFFSET(0xA726FA0)
+#define INCONTROL_UTILITY_APPROXIMATELY_1_OFFSET UNITYSDK_OFFSET(0xA7271E0)
+#define INCONTROL_UTILITY_APPROXIMATELY_OFFSET UNITYSDK_OFFSET(0xA7271B0)
+#define INCONTROL_UTILITY_DRAWCIRCLEGIZMO_1_OFFSET UNITYSDK_OFFSET(0xA7265C0)
+#define INCONTROL_UTILITY_DRAWCIRCLEGIZMO_OFFSET UNITYSDK_OFFSET(0xA726450)
+#define INCONTROL_UTILITY_DRAWOVALGIZMO_1_OFFSET UNITYSDK_OFFSET(0xA7267A0)
+#define INCONTROL_UTILITY_DRAWOVALGIZMO_OFFSET UNITYSDK_OFFSET(0xA726600)
+#define INCONTROL_UTILITY_DRAWRECTGIZMO_1_OFFSET UNITYSDK_OFFSET(0xA726910)
+#define INCONTROL_UTILITY_DRAWRECTGIZMO_2_OFFSET UNITYSDK_OFFSET(0xA726A60)
+#define INCONTROL_UTILITY_DRAWRECTGIZMO_3_OFFSET UNITYSDK_OFFSET(0xA726C00)
+#define INCONTROL_UTILITY_DRAWRECTGIZMO_OFFSET UNITYSDK_OFFSET(0xA7267E0)
+#define INCONTROL_UTILITY_GAMEOBJECTISCULLEDONCURRENTCAMERA_OFFSET UNITYSDK_OFFSET(0xA726DC0)
+#define INCONTROL_UTILITY_GETHUMANUNDERSTANDABLEWINDOWSVERSION_OFFSET UNITYSDK_OFFSET(0xA727660)
+#define INCONTROL_UTILITY_GETPLATFORMNAME_OFFSET UNITYSDK_OFFSET(0xA7275C0)
+#define INCONTROL_UTILITY_GETSYSTEMBUILDNUMBER_OFFSET UNITYSDK_OFFSET(0xA727A10)
+#define INCONTROL_UTILITY_GETWINDOWSVERSION_OFFSET UNITYSDK_OFFSET(0xA727790)
+#define INCONTROL_UTILITY_GET_IS32BIT_OFFSET UNITYSDK_OFFSET(0xA7275A0)
+#define INCONTROL_UTILITY_GET_IS64BIT_OFFSET UNITYSDK_OFFSET(0xA7275B0)
+#define INCONTROL_UTILITY_ISNOTZERO_OFFSET UNITYSDK_OFFSET(0xA727240)
+#define INCONTROL_UTILITY_ISZERO_OFFSET UNITYSDK_OFFSET(0xA727270)
+#define INCONTROL_UTILITY_LOADSCENE_OFFSET UNITYSDK_OFFSET(0xA727AC0)
+#define INCONTROL_UTILITY_MAX_1_OFFSET UNITYSDK_OFFSET(0xA727440)
+#define INCONTROL_UTILITY_MAX_OFFSET UNITYSDK_OFFSET(0xA7273E0)
+#define INCONTROL_UTILITY_MIN_1_OFFSET UNITYSDK_OFFSET(0xA727400)
+#define INCONTROL_UTILITY_MIN_OFFSET UNITYSDK_OFFSET(0xA7273C0)
+#define INCONTROL_UTILITY_MOVECOLORTOWARDS_OFFSET UNITYSDK_OFFSET(0xA726E10)
+#define INCONTROL_UTILITY_NEXTPOWEROFTWO_OFFSET UNITYSDK_OFFSET(0xA727570)
+#define INCONTROL_UTILITY_NORMALIZEANGLE_OFFSET UNITYSDK_OFFSET(0xA7272D0)
+#define INCONTROL_UTILITY_PLUGINFILEEXTENSION_OFFSET UNITYSDK_OFFSET(0xA727AF0)
+#define INCONTROL_UTILITY_READFROMFILE_OFFSET UNITYSDK_OFFSET(0xA727030)
+#define INCONTROL_UTILITY_SIGN_OFFSET UNITYSDK_OFFSET(0xA7272A0)
+#define INCONTROL_UTILITY_TARGETISALIAS_OFFSET UNITYSDK_OFFSET(0xA727020)
+#define INCONTROL_UTILITY_TARGETISBUTTON_OFFSET UNITYSDK_OFFSET(0xA726FE0)
+#define INCONTROL_UTILITY_TARGETISSTANDARD_OFFSET UNITYSDK_OFFSET(0xA727000)
+#define INCONTROL_UTILITY_VALUEFROMSIDES_1_OFFSET UNITYSDK_OFFSET(0xA7274D0)
+#define INCONTROL_UTILITY_VALUEFROMSIDES_OFFSET UNITYSDK_OFFSET(0xA727480)
+#define INCONTROL_UTILITY_VECTORTOANGLE_OFFSET UNITYSDK_OFFSET(0xA727320)
+#define INCONTROL_UTILITY_WRITETOFILE_OFFSET UNITYSDK_OFFSET(0xA727090)
+#define INCONTROL_UTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0xA727B30)
 
 namespace InControl
 {
-	inline static constexpr unsigned int Utility_TypeDefinitionIndex = 37221;
+	inline static constexpr unsigned int Utility_TypeDefinitionIndex = 37953;
 
 	class Utility : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::Vector2>** StaticGet_circleVertexList()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(Utility_TypeDefinitionIndex)->GetStaticField(0x13920);
+			return (::Il2CppArray<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(Utility_TypeDefinitionIndex)->GetStaticField(0x160C0);
 		}
 		// static const ::System::Single Epsilon; // 0x0
 
@@ -71,174 +71,174 @@ namespace InControl
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + INCONTROL_UTILITY__CCTOR_OFFSET))();
 		}
 
-		static ::System::Void DrawCircleGizmo(::UnityEngine::Vector2 center, ::System::Single radius)
+		static ::System::Void DrawCircleGizmo(::UnityEngine::Vector2 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_DRAWCIRCLEGIZMO_OFFSET))(center, radius);
+			return ((::System::Void(*)(::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_DRAWCIRCLEGIZMO_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void DrawCircleGizmo_1(::UnityEngine::Vector2 center, ::System::Single radius, ::UnityEngine::Color color)
+		static ::System::Void DrawCircleGizmo_1(::UnityEngine::Vector2 a1, ::System::Single a2, ::UnityEngine::Color a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector2, ::System::Single, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_DRAWCIRCLEGIZMO_1_OFFSET))(center, radius, color);
+			return ((::System::Void(*)(::UnityEngine::Vector2, ::System::Single, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_DRAWCIRCLEGIZMO_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void DrawOvalGizmo(::UnityEngine::Vector2 center, ::UnityEngine::Vector2 size)
+		static ::System::Void DrawOvalGizmo(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_DRAWOVALGIZMO_OFFSET))(center, size);
+			return ((::System::Void(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_DRAWOVALGIZMO_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void DrawOvalGizmo_1(::UnityEngine::Vector2 center, ::UnityEngine::Vector2 size, ::UnityEngine::Color color)
+		static ::System::Void DrawOvalGizmo_1(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Color a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_DRAWOVALGIZMO_1_OFFSET))(center, size, color);
+			return ((::System::Void(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_DRAWOVALGIZMO_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void DrawRectGizmo(::UnityEngine::Rect rect)
+		static ::System::Void DrawRectGizmo(::UnityEngine::Rect a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rect))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_DRAWRECTGIZMO_OFFSET))(rect);
+			return ((::System::Void(*)(::UnityEngine::Rect))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_DRAWRECTGIZMO_OFFSET))(a1);
 		}
 
-		static ::System::Void DrawRectGizmo_1(::UnityEngine::Rect rect, ::UnityEngine::Color color)
+		static ::System::Void DrawRectGizmo_1(::UnityEngine::Rect a1, ::UnityEngine::Color a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rect, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_DRAWRECTGIZMO_1_OFFSET))(rect, color);
+			return ((::System::Void(*)(::UnityEngine::Rect, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_DRAWRECTGIZMO_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void DrawRectGizmo_2(::UnityEngine::Vector2 center, ::UnityEngine::Vector2 size)
+		static ::System::Void DrawRectGizmo_2(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_DRAWRECTGIZMO_2_OFFSET))(center, size);
+			return ((::System::Void(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_DRAWRECTGIZMO_2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void DrawRectGizmo_3(::UnityEngine::Vector2 center, ::UnityEngine::Vector2 size, ::UnityEngine::Color color)
+		static ::System::Void DrawRectGizmo_3(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Color a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_DRAWRECTGIZMO_3_OFFSET))(center, size, color);
+			return ((::System::Void(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_DRAWRECTGIZMO_3_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GameObjectIsCulledOnCurrentCamera(::UnityEngine::GameObject* gameObject)
+		static ::System::Boolean GameObjectIsCulledOnCurrentCamera(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_GAMEOBJECTISCULLEDONCURRENTCAMERA_OFFSET))(gameObject);
+			return ((::System::Boolean(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_GAMEOBJECTISCULLEDONCURRENTCAMERA_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Color MoveColorTowards(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::System::Single maxDelta)
+		static ::UnityEngine::Color MoveColorTowards(::UnityEngine::Color a1, ::UnityEngine::Color a2, ::System::Single a3)
 		{
-			return ((::UnityEngine::Color(*)(::UnityEngine::Color, ::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_MOVECOLORTOWARDS_OFFSET))(color0, color1, maxDelta);
+			return ((::UnityEngine::Color(*)(::UnityEngine::Color, ::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_MOVECOLORTOWARDS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Single ApplyDeadZone(::System::Single value, ::System::Single lowerDeadZone, ::System::Single upperDeadZone)
+		static ::System::Single ApplyDeadZone(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_APPLYDEADZONE_OFFSET))(value, lowerDeadZone, upperDeadZone);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_APPLYDEADZONE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Single ApplySmoothing(::System::Single thisValue, ::System::Single lastValue, ::System::Single deltaTime, ::System::Single sensitivity)
+		static ::System::Single ApplySmoothing(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_APPLYSMOOTHING_OFFSET))(thisValue, lastValue, deltaTime, sensitivity);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_APPLYSMOOTHING_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Single ApplySnapping(::System::Single value, ::System::Single threshold)
+		static ::System::Single ApplySnapping(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_APPLYSNAPPING_OFFSET))(value, threshold);
+			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_APPLYSNAPPING_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean TargetIsButton(::InControl::InputControlType target)
+		static ::System::Boolean TargetIsButton(::InControl::InputControlType a1)
 		{
-			return ((::System::Boolean(*)(::InControl::InputControlType))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_TARGETISBUTTON_OFFSET))(target);
+			return ((::System::Boolean(*)(::InControl::InputControlType))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_TARGETISBUTTON_OFFSET))(a1);
 		}
 
-		static ::System::Boolean TargetIsStandard(::InControl::InputControlType target)
+		static ::System::Boolean TargetIsStandard(::InControl::InputControlType a1)
 		{
-			return ((::System::Boolean(*)(::InControl::InputControlType))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_TARGETISSTANDARD_OFFSET))(target);
+			return ((::System::Boolean(*)(::InControl::InputControlType))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_TARGETISSTANDARD_OFFSET))(a1);
 		}
 
-		static ::System::Boolean TargetIsAlias(::InControl::InputControlType target)
+		static ::System::Boolean TargetIsAlias(::InControl::InputControlType a1)
 		{
-			return ((::System::Boolean(*)(::InControl::InputControlType))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_TARGETISALIAS_OFFSET))(target);
+			return ((::System::Boolean(*)(::InControl::InputControlType))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_TARGETISALIAS_OFFSET))(a1);
 		}
 
-		static ::System::String* ReadFromFile(::System::String* path)
+		static ::System::String* ReadFromFile(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_READFROMFILE_OFFSET))(path);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_READFROMFILE_OFFSET))(a1);
 		}
 
-		static ::System::Void WriteToFile(::System::String* path, ::System::String* data)
+		static ::System::Void WriteToFile(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_WRITETOFILE_OFFSET))(path, data);
+			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_WRITETOFILE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single Abs(::System::Single value)
+		static ::System::Single Abs(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_ABS_OFFSET))(value);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_ABS_OFFSET))(a1);
 		}
 
-		static ::System::Boolean Approximately(::System::Single v1, ::System::Single v2)
+		static ::System::Boolean Approximately(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Boolean(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_APPROXIMATELY_OFFSET))(v1, v2);
+			return ((::System::Boolean(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_APPROXIMATELY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean Approximately_1(::UnityEngine::Vector2 v1, ::UnityEngine::Vector2 v2)
+		static ::System::Boolean Approximately_1(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_APPROXIMATELY_1_OFFSET))(v1, v2);
+			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_APPROXIMATELY_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsNotZero(::System::Single value)
+		static ::System::Boolean IsNotZero(::System::Single a1)
 		{
-			return ((::System::Boolean(*)(::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_ISNOTZERO_OFFSET))(value);
+			return ((::System::Boolean(*)(::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_ISNOTZERO_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsZero(::System::Single value)
+		static ::System::Boolean IsZero(::System::Single a1)
 		{
-			return ((::System::Boolean(*)(::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_ISZERO_OFFSET))(value);
+			return ((::System::Boolean(*)(::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_ISZERO_OFFSET))(a1);
 		}
 
-		static ::System::Int32 Sign(::System::Single f)
+		static ::System::Int32 Sign(::System::Single a1)
 		{
-			return ((::System::Int32(*)(::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_SIGN_OFFSET))(f);
+			return ((::System::Int32(*)(::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_SIGN_OFFSET))(a1);
 		}
 
-		static ::System::Boolean AbsoluteIsOverThreshold(::System::Single value, ::System::Single threshold)
+		static ::System::Boolean AbsoluteIsOverThreshold(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Boolean(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_ABSOLUTEISOVERTHRESHOLD_OFFSET))(value, threshold);
+			return ((::System::Boolean(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_ABSOLUTEISOVERTHRESHOLD_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single NormalizeAngle(::System::Single angle)
+		static ::System::Single NormalizeAngle(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_NORMALIZEANGLE_OFFSET))(angle);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_NORMALIZEANGLE_OFFSET))(a1);
 		}
 
-		static ::System::Single VectorToAngle(::UnityEngine::Vector2 vector)
+		static ::System::Single VectorToAngle(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Single(*)(::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_VECTORTOANGLE_OFFSET))(vector);
+			return ((::System::Single(*)(::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_VECTORTOANGLE_OFFSET))(a1);
 		}
 
-		static ::System::Single Min(::System::Single v0, ::System::Single v1)
+		static ::System::Single Min(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_MIN_OFFSET))(v0, v1);
+			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_MIN_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single Max(::System::Single v0, ::System::Single v1)
+		static ::System::Single Max(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_MAX_OFFSET))(v0, v1);
+			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_MAX_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single Min_1(::System::Single v0, ::System::Single v1, ::System::Single v2, ::System::Single v3)
+		static ::System::Single Min_1(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_MIN_1_OFFSET))(v0, v1, v2, v3);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_MIN_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Single Max_1(::System::Single v0, ::System::Single v1, ::System::Single v2, ::System::Single v3)
+		static ::System::Single Max_1(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_MAX_1_OFFSET))(v0, v1, v2, v3);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_MAX_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Single ValueFromSides(::System::Single negativeSide, ::System::Single positiveSide)
+		static ::System::Single ValueFromSides(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_VALUEFROMSIDES_OFFSET))(negativeSide, positiveSide);
+			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_VALUEFROMSIDES_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single ValueFromSides_1(::System::Single negativeSide, ::System::Single positiveSide, ::System::Boolean invertSides)
+		static ::System::Single ValueFromSides_1(::System::Single a1, ::System::Single a2, ::System::Boolean a3)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_VALUEFROMSIDES_1_OFFSET))(negativeSide, positiveSide, invertSides);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_VALUEFROMSIDES_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 NextPowerOfTwo(::System::Int32 value)
+		static ::System::Int32 NextPowerOfTwo(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_NEXTPOWEROFTWO_OFFSET))(value);
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_NEXTPOWEROFTWO_OFFSET))(a1);
 		}
 
 		static ::System::Boolean get_Is32Bit()
@@ -251,9 +251,9 @@ namespace InControl
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_GET_IS64BIT_OFFSET))();
 		}
 
-		static ::System::String* GetPlatformName(::System::Boolean uppercase)
+		static ::System::String* GetPlatformName(::System::Boolean a1)
 		{
-			return ((::System::String*(*)(::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_GETPLATFORMNAME_OFFSET))(uppercase);
+			return ((::System::String*(*)(::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_GETPLATFORMNAME_OFFSET))(a1);
 		}
 
 		static ::System::String* GetHumanUnderstandableWindowsVersion()
@@ -271,9 +271,9 @@ namespace InControl
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_GETSYSTEMBUILDNUMBER_OFFSET))();
 		}
 
-		static ::System::Void LoadScene(::System::String* sceneName)
+		static ::System::Void LoadScene(::System::String* a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_LOADSCENE_OFFSET))(sceneName);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + INCONTROL_UTILITY_LOADSCENE_OFFSET))(a1);
 		}
 
 		static ::System::String* PluginFileExtension()

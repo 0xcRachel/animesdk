@@ -6,29 +6,29 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUENOUSDICEBRANCHVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A50B040)
-#define RPG_GAMECORE_ROGUENOUSDICEBRANCHVALUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A50B750)
+#define RPG_GAMECORE_ROGUENOUSDICEBRANCHVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AE40E00)
+#define RPG_GAMECORE_ROGUENOUSDICEBRANCHVALUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE41520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueNousDiceBranchValueRow_TypeDefinitionIndex = 14106;
+	inline static constexpr unsigned int RogueNousDiceBranchValueRow_TypeDefinitionIndex = 14168;
 
 	class RogueNousDiceBranchValueRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
-		::System::UInt32 AeonID; // 0x18
-		::System::UInt32 BranchID; // 0x1C
-		::RPG::Client::TextID BranchEffectDesc; // 0x20
+		::RPG::Client::TextID BranchEffectDesc; // 0x18
+		::System::UInt32 AeonID; // 0x28
+		::System::UInt32 BranchID; // 0x2C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUENOUSDICEBRANCHVALUEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueNousDiceBranchValueRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueNousDiceBranchValueRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueNousDiceBranchValueRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUENOUSDICEBRANCHVALUEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueNousDiceBranchValueRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUENOUSDICEBRANCHVALUEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

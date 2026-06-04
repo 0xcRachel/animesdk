@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_WOLFSLIVERHACKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x11E65CF0)
+#define RPG_CLIENT_WOLFSLIVERHACKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x12AD2BA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfSliverHackEvent_TypeDefinitionIndex = 60012;
+	inline static constexpr unsigned int WolfSliverHackEvent_TypeDefinitionIndex = 60947;
 
 	class WolfSliverHackEvent : public ::System::Object
 	{
 	public:
-		::System::UInt32 CurHP; // 0x10
+		::System::UInt32 HPMin; // 0x10
 		::System::UInt32 HPMax; // 0x14
-		::System::UInt32 HPMin; // 0x18
+		::System::UInt32 CurHP; // 0x18
 
 		::System::Void _ctor()
 		{

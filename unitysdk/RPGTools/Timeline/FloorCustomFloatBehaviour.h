@@ -6,15 +6,15 @@
 
 namespace RPGTools::Timeline { class FloorCustomFloatClip; }
 
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x17E1EC00)
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x17E1EC20)
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x17E1EC10)
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x17E1EE70)
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x17E1EE80)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x18C32C10)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x18C32C30)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x18C32C20)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x18C32F30)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x18C32F40)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int FloorCustomFloatBehaviour_TypeDefinitionIndex = 44866;
+	inline static constexpr unsigned int FloorCustomFloatBehaviour_TypeDefinitionIndex = 45423;
 
 	class FloorCustomFloatBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -31,9 +31,9 @@ namespace RPGTools::Timeline
 			return ((::RPGTools::Timeline::FloorCustomFloatClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATBEHAVIOUR_GET_CLIP_OFFSET))(this);
 		}
 
-		::System::Void set_Clip(::RPGTools::Timeline::FloorCustomFloatClip* value)
+		::System::Void set_Clip(::RPGTools::Timeline::FloorCustomFloatClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::FloorCustomFloatClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATBEHAVIOUR_SET_CLIP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::FloorCustomFloatClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATBEHAVIOUR_SET_CLIP_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -41,9 +41,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

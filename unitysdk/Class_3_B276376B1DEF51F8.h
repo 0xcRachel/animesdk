@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ClearRegardAsSkillType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B276376B1DEF51F8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFBF0090)
-#define CLASS_3_B276376B1DEF51F8__CTOR_OFFSET UNITYSDK_OFFSET(0xFBF0060)
+#define CLASS_3_B276376B1DEF51F8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1416EE90)
+#define CLASS_3_B276376B1DEF51F8__CTOR_OFFSET UNITYSDK_OFFSET(0x1416EE60)
 
-inline static constexpr unsigned int Class_3_B276376B1DEF51F8_TypeDefinitionIndex = 50698;
+inline static constexpr unsigned int Class_3_B276376B1DEF51F8_TypeDefinitionIndex = 51366;
 
 class Class_3_B276376B1DEF51F8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ClearRegardAsSkillType*>
 {

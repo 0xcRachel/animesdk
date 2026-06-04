@@ -7,16 +7,16 @@ namespace Epic::OnlineServices::Ecom { class QueryOwnershipTokenOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x22FD190)
-#define EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x22FD120)
-#define EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_SET_CATALOGITEMIDS_OFFSET UNITYSDK_OFFSET(0x22FCFF0)
-#define EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_SET_CATALOGNAMESPACE_OFFSET UNITYSDK_OFFSET(0x22FD060)
-#define EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x22FCF30)
-#define EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x22FD110)
+#define EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x38A5C20)
+#define EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x38A5BA0)
+#define EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_SET_CATALOGITEMIDS_OFFSET UNITYSDK_OFFSET(0x38A5A70)
+#define EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_SET_CATALOGNAMESPACE_OFFSET UNITYSDK_OFFSET(0x38A5AE0)
+#define EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x38A59B0)
+#define EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x38A5B90)
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int QueryOwnershipTokenOptionsInternal_TypeDefinitionIndex = 42222;
+	inline static constexpr unsigned int QueryOwnershipTokenOptionsInternal_TypeDefinitionIndex = 43025;
 
 	struct alignas(8) QueryOwnershipTokenOptionsInternal
 	{
@@ -26,29 +26,29 @@ namespace Epic::OnlineServices::Ecom
 		::System::UInt32 m_CatalogItemIdCount; // 0x28
 		::System::IntPtr m_CatalogNamespace; // 0x30
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_CatalogItemIds(::Il2CppArray<::System::String*>* value)
+		::System::Void set_CatalogItemIds(::Il2CppArray<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_SET_CATALOGITEMIDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_SET_CATALOGITEMIDS_OFFSET))(this, a1);
 		}
 
-		::System::Void set_CatalogNamespace(::System::String* value)
+		::System::Void set_CatalogNamespace(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_SET_CATALOGNAMESPACE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_SET_CATALOGNAMESPACE_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Ecom::QueryOwnershipTokenOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Ecom::QueryOwnershipTokenOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::QueryOwnershipTokenOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::QueryOwnershipTokenOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYOWNERSHIPTOKENOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

@@ -7,42 +7,42 @@
 class EasingFunction_Function;
 class EasingFunction_FunctionValue;
 
-#define RPGCAMERA_BLENDERUTILS_LERPPOS_OFFSET UNITYSDK_OFFSET(0x175BDAD0)
-#define RPGCAMERA_BLENDERUTILS_LERPRADIUS_OFFSET UNITYSDK_OFFSET(0x175BD090)
-#define RPGCAMERA_BLENDERUTILS_LERPSPHERICAL_OFFSET UNITYSDK_OFFSET(0x175BD170)
-#define RPGCAMERA_BLENDERUTILS_LERPSPH_OFFSET UNITYSDK_OFFSET(0x175BD2A0)
-#define RPGCAMERA_BLENDERUTILS_LERPVECTOR3_OFFSET UNITYSDK_OFFSET(0x175BCFE0)
+#define RPGCAMERA_BLENDERUTILS_LERPPOS_OFFSET UNITYSDK_OFFSET(0x19BAD480)
+#define RPGCAMERA_BLENDERUTILS_LERPRADIUS_OFFSET UNITYSDK_OFFSET(0x19BACA40)
+#define RPGCAMERA_BLENDERUTILS_LERPSPHERICAL_OFFSET UNITYSDK_OFFSET(0x19BACB20)
+#define RPGCAMERA_BLENDERUTILS_LERPSPH_OFFSET UNITYSDK_OFFSET(0x19BACC50)
+#define RPGCAMERA_BLENDERUTILS_LERPVECTOR3_OFFSET UNITYSDK_OFFSET(0x19BAC970)
 
 namespace RPGCamera
 {
-	inline static constexpr unsigned int BlenderUtils_TypeDefinitionIndex = 40957;
+	inline static constexpr unsigned int BlenderUtils_TypeDefinitionIndex = 41775;
 
 	class BlenderUtils : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Vector3 LerpVector3(::System::Single t, ::EasingFunction_Function* lerpFunc, ::UnityEngine::Vector3 fromVec, ::UnityEngine::Vector3 toVec)
+		static ::UnityEngine::Vector3 LerpVector3(::System::Single a1, ::EasingFunction_Function* a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4)
 		{
-			return ((::UnityEngine::Vector3(*)(::System::Single, ::EasingFunction_Function*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPGCAMERA_BLENDERUTILS_LERPVECTOR3_OFFSET))(t, lerpFunc, fromVec, toVec);
+			return ((::UnityEngine::Vector3(*)(::System::Single, ::EasingFunction_Function*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPGCAMERA_BLENDERUTILS_LERPVECTOR3_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Single LerpRadius(::System::Single t, ::EasingFunction_FunctionValue* lerpFunc, ::System::Single from, ::System::Single to)
+		static ::System::Single LerpRadius(::System::Single a1, ::EasingFunction_FunctionValue* a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Single(*)(::System::Single, ::EasingFunction_FunctionValue*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPGCAMERA_BLENDERUTILS_LERPRADIUS_OFFSET))(t, lerpFunc, from, to);
+			return ((::System::Single(*)(::System::Single, ::EasingFunction_FunctionValue*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPGCAMERA_BLENDERUTILS_LERPRADIUS_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::UnityEngine::Vector3 LerpSpherical(::System::Single t, ::EasingFunction_FunctionValue* lerpFunc, ::UnityEngine::Vector3 fromSph, ::UnityEngine::Vector3 toSph)
+		static ::UnityEngine::Vector3 LerpSpherical(::System::Single a1, ::EasingFunction_FunctionValue* a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4)
 		{
-			return ((::UnityEngine::Vector3(*)(::System::Single, ::EasingFunction_FunctionValue*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPGCAMERA_BLENDERUTILS_LERPSPHERICAL_OFFSET))(t, lerpFunc, fromSph, toSph);
+			return ((::UnityEngine::Vector3(*)(::System::Single, ::EasingFunction_FunctionValue*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPGCAMERA_BLENDERUTILS_LERPSPHERICAL_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::RPGCamera::CameraStateData LerpSph(::System::Single t, ::EasingFunction_FunctionValue* lerpFunc, ::RPGCamera::CameraStateData fromData, ::RPGCamera::CameraStateData toData, ::RPGCamera::CameraStateData& retData)
+		static ::RPGCamera::CameraStateData LerpSph(::System::Single a1, ::EasingFunction_FunctionValue* a2, ::RPGCamera::CameraStateData a3, ::RPGCamera::CameraStateData a4, ::RPGCamera::CameraStateData& a5)
 		{
-			return ((::RPGCamera::CameraStateData(*)(::System::Single, ::EasingFunction_FunctionValue*, ::RPGCamera::CameraStateData, ::RPGCamera::CameraStateData, ::RPGCamera::CameraStateData&))((::PBYTE)hIl2Cpp + RPGCAMERA_BLENDERUTILS_LERPSPH_OFFSET))(t, lerpFunc, fromData, toData, retData);
+			return ((::RPGCamera::CameraStateData(*)(::System::Single, ::EasingFunction_FunctionValue*, ::RPGCamera::CameraStateData, ::RPGCamera::CameraStateData, ::RPGCamera::CameraStateData&))((::PBYTE)hIl2Cpp + RPGCAMERA_BLENDERUTILS_LERPSPH_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::RPGCamera::CameraStateData LerpPos(::System::Single t, ::EasingFunction_FunctionValue* lerpFunc, ::RPGCamera::CameraStateData fromData, ::RPGCamera::CameraStateData toData, ::RPGCamera::CameraStateData& retData)
+		static ::RPGCamera::CameraStateData LerpPos(::System::Single a1, ::EasingFunction_FunctionValue* a2, ::RPGCamera::CameraStateData a3, ::RPGCamera::CameraStateData a4, ::RPGCamera::CameraStateData& a5)
 		{
-			return ((::RPGCamera::CameraStateData(*)(::System::Single, ::EasingFunction_FunctionValue*, ::RPGCamera::CameraStateData, ::RPGCamera::CameraStateData, ::RPGCamera::CameraStateData&))((::PBYTE)hIl2Cpp + RPGCAMERA_BLENDERUTILS_LERPPOS_OFFSET))(t, lerpFunc, fromData, toData, retData);
+			return ((::RPGCamera::CameraStateData(*)(::System::Single, ::EasingFunction_FunctionValue*, ::RPGCamera::CameraStateData, ::RPGCamera::CameraStateData, ::RPGCamera::CameraStateData&))((::PBYTE)hIl2Cpp + RPGCAMERA_BLENDERUTILS_LERPPOS_OFFSET))(a1, a2, a3, a4, a5);
 		}
 	};
 }

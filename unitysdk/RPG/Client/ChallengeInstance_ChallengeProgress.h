@@ -2,67 +2,67 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D17272E82AE804C2_147;
+class Class_1_D17272E82AE804C2_148;
 namespace RPG::Client { class BaseChallengeTargetData; }
 namespace RPG::Client { class ChallengeData; }
 namespace RPG::Client { class ChallengeInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS_DEEPCOPYFROM_OFFSET UNITYSDK_OFFSET(0x15F8DA40)
-#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS_UPDATEPROGRESS_OFFSET UNITYSDK_OFFSET(0x15F8E670)
-#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS_UPDATETARGETSTATUS_OFFSET UNITYSDK_OFFSET(0x15F8EC80)
-#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15F8EB20)
-#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x15F8D9B0)
-#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__DEEPCOPYCHALLENGETARGETDATA_OFFSET UNITYSDK_OFFSET(0x15F8F850)
-#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__UPDATECHALLENGETARGETDATA_OFFSET UNITYSDK_OFFSET(0x15F8F9C0)
+#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS_DEEPCOPYFROM_OFFSET UNITYSDK_OFFSET(0x17A234D0)
+#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS_UPDATEPROGRESS_OFFSET UNITYSDK_OFFSET(0x17A24FC0)
+#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS_UPDATETARGETSTATUS_OFFSET UNITYSDK_OFFSET(0x17A22D00)
+#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17A22910)
+#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x17A23440)
+#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__DEEPCOPYCHALLENGETARGETDATA_OFFSET UNITYSDK_OFFSET(0x17A25240)
+#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__UPDATECHALLENGETARGETDATA_OFFSET UNITYSDK_OFFSET(0x17A25460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeInstance_ChallengeProgress_TypeDefinitionIndex = 58115;
+	inline static constexpr unsigned int ChallengeInstance_ChallengeProgress_TypeDefinitionIndex = 59037;
 
 	class ChallengeInstance_ChallengeProgress : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::BaseChallengeTargetData*>* ChallengeTargetDatas; // 0x10
-		::System::Collections::Generic::List_1<::Class_1_D17272E82AE804C2_147*>* KillMonsters; // 0x18
-		::RPG::Client::ChallengeInstance* _ChallengeInstanceRef; // 0x20
-		::System::UInt32 DeadAvatarNum; // 0x28
+		::RPG::Client::ChallengeInstance* _ChallengeInstanceRef; // 0x10
+		::System::Collections::Generic::List_1<::Class_1_D17272E82AE804C2_148*>* KillMonsters; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::BaseChallengeTargetData*>* ChallengeTargetDatas; // 0x20
+		::System::UInt32 Score; // 0x28
 		::System::UInt32 TurnCost; // 0x2C
-		::System::UInt32 Score; // 0x30
+		::System::UInt32 DeadAvatarNum; // 0x30
 
-		::System::Void _ctor(::RPG::Client::ChallengeInstance* challengeInstance)
+		::System::Void _ctor(::RPG::Client::ChallengeInstance* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChallengeInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__CTOR_OFFSET))(this, challengeInstance);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChallengeInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::RPG::Client::ChallengeData* challengeData, ::RPG::Client::ChallengeInstance* challengeInstance)
+		::System::Void _ctor_1(::RPG::Client::ChallengeData* a1, ::RPG::Client::ChallengeInstance* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChallengeData*, ::RPG::Client::ChallengeInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__CTOR_1_OFFSET))(this, challengeData, challengeInstance);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChallengeData*, ::RPG::Client::ChallengeInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void UpdateProgress(::System::UInt32 turnCost, ::System::UInt32 avatarDeadNum, ::System::Collections::Generic::List_1<::Class_1_D17272E82AE804C2_147*>* killMonsters, ::System::UInt32 currentScore)
+		::System::Void UpdateProgress(::System::UInt32 a1, ::System::UInt32 a2, ::System::Collections::Generic::List_1<::Class_1_D17272E82AE804C2_148*>* a3, ::System::UInt32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::Class_1_D17272E82AE804C2_147*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS_UPDATEPROGRESS_OFFSET))(this, turnCost, avatarDeadNum, killMonsters, currentScore);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::Class_1_D17272E82AE804C2_148*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS_UPDATEPROGRESS_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void UpdateTargetStatus(::System::UInt32 targetBitSet)
+		::System::Void UpdateTargetStatus(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS_UPDATETARGETSTATUS_OFFSET))(this, targetBitSet);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS_UPDATETARGETSTATUS_OFFSET))(this, a1);
 		}
 
-		::System::Void DeepCopyFrom(::RPG::Client::ChallengeInstance_ChallengeProgress* progress)
+		::System::Void DeepCopyFrom(::RPG::Client::ChallengeInstance_ChallengeProgress* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChallengeInstance_ChallengeProgress*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS_DEEPCOPYFROM_OFFSET))(this, progress);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChallengeInstance_ChallengeProgress*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS_DEEPCOPYFROM_OFFSET))(this, a1);
 		}
 
-		::System::Void _DeepCopyChallengeTargetData(::System::Collections::Generic::List_1<::RPG::Client::BaseChallengeTargetData*>* challengeTargetDatas)
+		::System::Void _DeepCopyChallengeTargetData(::System::Collections::Generic::List_1<::RPG::Client::BaseChallengeTargetData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::BaseChallengeTargetData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__DEEPCOPYCHALLENGETARGETDATA_OFFSET))(this, challengeTargetDatas);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::BaseChallengeTargetData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__DEEPCOPYCHALLENGETARGETDATA_OFFSET))(this, a1);
 		}
 
-		::System::Void _UpdateChallengeTargetData(::System::Boolean isFinish)
+		::System::Void _UpdateChallengeTargetData(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__UPDATECHALLENGETARGETDATA_OFFSET))(this, isFinish);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__UPDATECHALLENGETARGETDATA_OFFSET))(this, a1);
 		}
 	};
 }

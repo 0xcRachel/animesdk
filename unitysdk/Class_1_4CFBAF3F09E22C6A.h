@@ -4,24 +4,24 @@
 
 namespace System { class String; }
 
-#define CLASS_1_4CFBAF3F09E22C6A_METHOD_1_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0xC4C80B0)
-#define CLASS_1_4CFBAF3F09E22C6A_METHOD_1_3CE8A1831DA14AB7_OFFSET UNITYSDK_OFFSET(0xC4C8200)
-#define CLASS_1_4CFBAF3F09E22C6A_METHOD_1_D335C42499186977_OFFSET UNITYSDK_OFFSET(0xC4C80C0)
-#define CLASS_1_4CFBAF3F09E22C6A__CCTOR_OFFSET UNITYSDK_OFFSET(0xC4C8330)
-#define CLASS_1_4CFBAF3F09E22C6A__CTOR_OFFSET UNITYSDK_OFFSET(0xC4C8320)
+#define CLASS_1_4CFBAF3F09E22C6A_METHOD_1_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0x178C9E30)
+#define CLASS_1_4CFBAF3F09E22C6A_METHOD_1_3CE8A1831DA14AB7_OFFSET UNITYSDK_OFFSET(0x178C9F80)
+#define CLASS_1_4CFBAF3F09E22C6A_METHOD_1_D335C42499186977_OFFSET UNITYSDK_OFFSET(0x178C9E40)
+#define CLASS_1_4CFBAF3F09E22C6A__CCTOR_OFFSET UNITYSDK_OFFSET(0x178CA0A0)
+#define CLASS_1_4CFBAF3F09E22C6A__CTOR_OFFSET UNITYSDK_OFFSET(0x178CA090)
 
-inline static constexpr unsigned int Class_1_4CFBAF3F09E22C6A_TypeDefinitionIndex = 56454;
+inline static constexpr unsigned int Class_1_4CFBAF3F09E22C6A_TypeDefinitionIndex = 57217;
 
 class Class_1_4CFBAF3F09E22C6A : public ::System::Object
 {
 public:
-	static ::System::String** StaticGet_Field_1_3()
+	static ::System::String** StaticGet_Field_1_0()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4CFBAF3F09E22C6A_TypeDefinitionIndex)->GetStaticField(0x5EB30);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4CFBAF3F09E22C6A_TypeDefinitionIndex)->GetStaticField(0x5A780);
 	}
-	// static const ::System::String* Field_1_0; // 0x0
 	// static const ::System::String* Field_1_1; // 0x0
 	// static const ::System::String* Field_1_2; // 0x0
+	// static const ::System::String* Field_1_3; // 0x0
 	// static const ::System::String* Field_1_4; // 0x0
 	// static const ::System::String* Field_1_5; // 0x0
 

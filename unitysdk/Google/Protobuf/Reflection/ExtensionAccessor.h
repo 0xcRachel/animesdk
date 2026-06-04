@@ -7,14 +7,14 @@ namespace Google::Protobuf { class IMessage; }
 namespace Google::Protobuf::Reflection { class FieldDescriptor; }
 namespace Google::Protobuf::Reflection { class ReflectionUtil_IExtensionReflectionHelper; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR_GETVALUE_OFFSET UNITYSDK_OFFSET(0x17EC7660)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x17EC7570)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR_HASVALUE_OFFSET UNITYSDK_OFFSET(0x17EC7580)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17EC7500)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR_GETVALUE_OFFSET UNITYSDK_OFFSET(0x178A6240)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x178A6150)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR_HASVALUE_OFFSET UNITYSDK_OFFSET(0x178A6160)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x178A60E0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ExtensionAccessor_TypeDefinitionIndex = 6332;
+	inline static constexpr unsigned int ExtensionAccessor_TypeDefinitionIndex = 5534;
 
 	class ExtensionAccessor : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace Google::Protobuf::Reflection
 		::Google::Protobuf::Extension* extension; // 0x18
 		::Google::Protobuf::Reflection::FieldDescriptor* _Descriptor_k__BackingField; // 0x20
 
-		::System::Void _ctor(::Google::Protobuf::Reflection::FieldDescriptor* descriptor)
+		::System::Void _ctor(::Google::Protobuf::Reflection::FieldDescriptor* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Reflection::FieldDescriptor*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR__CTOR_OFFSET))(this, descriptor);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Reflection::FieldDescriptor*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR__CTOR_OFFSET))(this, a1);
 		}
 
 		::Google::Protobuf::Reflection::FieldDescriptor* get_Descriptor()
@@ -33,14 +33,14 @@ namespace Google::Protobuf::Reflection
 			return ((::Google::Protobuf::Reflection::FieldDescriptor*(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR_GET_DESCRIPTOR_OFFSET))(this);
 		}
 
-		::System::Boolean HasValue(::Google::Protobuf::IMessage* message)
+		::System::Boolean HasValue(::Google::Protobuf::IMessage* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Google::Protobuf::IMessage*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR_HASVALUE_OFFSET))(this, message);
+			return ((::System::Boolean(*)(::PVOID, ::Google::Protobuf::IMessage*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR_HASVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Object* GetValue(::Google::Protobuf::IMessage* message)
+		::System::Object* GetValue(::Google::Protobuf::IMessage* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::Google::Protobuf::IMessage*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR_GETVALUE_OFFSET))(this, message);
+			return ((::System::Object*(*)(::PVOID, ::Google::Protobuf::IMessage*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_EXTENSIONACCESSOR_GETVALUE_OFFSET))(this, a1);
 		}
 	};
 }

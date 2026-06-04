@@ -6,26 +6,26 @@ namespace System { class LocalDataStoreElement; }
 namespace System { class LocalDataStoreMgr; }
 namespace System { class LocalDataStoreSlot; }
 
-#define SYSTEM_LOCALDATASTORE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19508F90)
-#define SYSTEM_LOCALDATASTORE_FREEDATA_OFFSET UNITYSDK_OFFSET(0x19509680)
-#define SYSTEM_LOCALDATASTORE_GETDATA_OFFSET UNITYSDK_OFFSET(0x195090A0)
-#define SYSTEM_LOCALDATASTORE_POPULATEELEMENT_OFFSET UNITYSDK_OFFSET(0x195093D0)
-#define SYSTEM_LOCALDATASTORE_SETDATA_OFFSET UNITYSDK_OFFSET(0x19509260)
-#define SYSTEM_LOCALDATASTORE__CTOR_OFFSET UNITYSDK_OFFSET(0x19508F40)
+#define SYSTEM_LOCALDATASTORE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A07FD40)
+#define SYSTEM_LOCALDATASTORE_FREEDATA_OFFSET UNITYSDK_OFFSET(0x1A080390)
+#define SYSTEM_LOCALDATASTORE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1A07FE50)
+#define SYSTEM_LOCALDATASTORE_POPULATEELEMENT_OFFSET UNITYSDK_OFFSET(0x1A080160)
+#define SYSTEM_LOCALDATASTORE_SETDATA_OFFSET UNITYSDK_OFFSET(0x1A080000)
+#define SYSTEM_LOCALDATASTORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A07FCF0)
 
 namespace System
 {
-	inline static constexpr unsigned int LocalDataStore_TypeDefinitionIndex = 166;
+	inline static constexpr unsigned int LocalDataStore_TypeDefinitionIndex = 165;
 
 	class LocalDataStore : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::LocalDataStoreElement*>* m_DataTable; // 0x10
-		::System::LocalDataStoreMgr* m_Manager; // 0x18
+		::System::LocalDataStoreMgr* m_Manager; // 0x10
+		::Il2CppArray<::System::LocalDataStoreElement*>* m_DataTable; // 0x18
 
-		::System::Void _ctor(::System::LocalDataStoreMgr* mgr, ::System::Int32 InitialCapacity)
+		::System::Void _ctor(::System::LocalDataStoreMgr* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::LocalDataStoreMgr*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTORE__CTOR_OFFSET))(this, mgr, InitialCapacity);
+			return ((::System::Void(*)(::PVOID, ::System::LocalDataStoreMgr*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTORE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dispose()
@@ -33,24 +33,24 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTORE_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Object* GetData(::System::LocalDataStoreSlot* slot)
+		::System::Object* GetData(::System::LocalDataStoreSlot* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::LocalDataStoreSlot*))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTORE_GETDATA_OFFSET))(this, slot);
+			return ((::System::Object*(*)(::PVOID, ::System::LocalDataStoreSlot*))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTORE_GETDATA_OFFSET))(this, a1);
 		}
 
-		::System::Void SetData(::System::LocalDataStoreSlot* slot, ::System::Object* data)
+		::System::Void SetData(::System::LocalDataStoreSlot* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::LocalDataStoreSlot*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTORE_SETDATA_OFFSET))(this, slot, data);
+			return ((::System::Void(*)(::PVOID, ::System::LocalDataStoreSlot*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTORE_SETDATA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void FreeData(::System::Int32 slot, ::System::Int64 cookie)
+		::System::Void FreeData(::System::Int32 a1, ::System::Int64 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTORE_FREEDATA_OFFSET))(this, slot, cookie);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTORE_FREEDATA_OFFSET))(this, a1, a2);
 		}
 
-		::System::LocalDataStoreElement* PopulateElement(::System::LocalDataStoreSlot* slot)
+		::System::LocalDataStoreElement* PopulateElement(::System::LocalDataStoreSlot* a1)
 		{
-			return ((::System::LocalDataStoreElement*(*)(::PVOID, ::System::LocalDataStoreSlot*))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTORE_POPULATEELEMENT_OFFSET))(this, slot);
+			return ((::System::LocalDataStoreElement*(*)(::PVOID, ::System::LocalDataStoreSlot*))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTORE_POPULATEELEMENT_OFFSET))(this, a1);
 		}
 	};
 }

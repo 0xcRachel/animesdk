@@ -3,60 +3,60 @@
 #include "unitysdk/RPG/GameCore/StringHash.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_8EF487E59CBE69CD__CCTOR_OFFSET UNITYSDK_OFFSET(0xD7F2420)
+#define CLASS_1_8EF487E59CBE69CD__CCTOR_OFFSET UNITYSDK_OFFSET(0x163001A0)
 
-inline static constexpr unsigned int Class_1_8EF487E59CBE69CD_TypeDefinitionIndex = 54446;
+inline static constexpr unsigned int Class_1_8EF487E59CBE69CD_TypeDefinitionIndex = 55173;
 
 class Class_1_8EF487E59CBE69CD : public ::System::Object
 {
 public:
-	static ::RPG::GameCore::StringHash* StaticGet_Field_1_6()
-	{
-		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0x75E0);
-	}
-	static ::RPG::GameCore::StringHash* StaticGet_Field_1_10()
-	{
-		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0x75E4);
-	}
-	static ::RPG::GameCore::StringHash* StaticGet_Field_1_4()
-	{
-		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0x75E8);
-	}
-	static ::RPG::GameCore::StringHash* StaticGet_Field_1_3()
-	{
-		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0x75EC);
-	}
-	static ::RPG::GameCore::StringHash* StaticGet_Field_1_5()
-	{
-		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0x75F0);
-	}
 	static ::RPG::GameCore::StringHash* StaticGet_Field_1_0()
 	{
-		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0x75F4);
-	}
-	static ::RPG::GameCore::StringHash* StaticGet_Field_1_9()
-	{
-		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0x75F8);
-	}
-	static ::RPG::GameCore::StringHash* StaticGet_Field_1_7()
-	{
-		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0x75FC);
-	}
-	static ::RPG::GameCore::StringHash* StaticGet_Field_1_2()
-	{
-		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0x7600);
+		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0xAC90);
 	}
 	static ::RPG::GameCore::StringHash* StaticGet_Field_1_1()
 	{
-		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0x7604);
+		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0xAC94);
 	}
-	static ::RPG::GameCore::StringHash* StaticGet_Field_1_11()
+	static ::RPG::GameCore::StringHash* StaticGet_Field_1_2()
 	{
-		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0x7608);
+		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0xAC98);
+	}
+	static ::RPG::GameCore::StringHash* StaticGet_Field_1_3()
+	{
+		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0xAC9C);
+	}
+	static ::RPG::GameCore::StringHash* StaticGet_Field_1_4()
+	{
+		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0xACA0);
+	}
+	static ::RPG::GameCore::StringHash* StaticGet_Field_1_5()
+	{
+		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0xACA4);
+	}
+	static ::RPG::GameCore::StringHash* StaticGet_Field_1_6()
+	{
+		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0xACA8);
+	}
+	static ::RPG::GameCore::StringHash* StaticGet_Field_1_7()
+	{
+		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0xACAC);
 	}
 	static ::RPG::GameCore::StringHash* StaticGet_Field_1_8()
 	{
-		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0x760C);
+		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0xACB0);
+	}
+	static ::RPG::GameCore::StringHash* StaticGet_Field_1_9()
+	{
+		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0xACB4);
+	}
+	static ::RPG::GameCore::StringHash* StaticGet_Field_1_10()
+	{
+		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0xACB8);
+	}
+	static ::RPG::GameCore::StringHash* StaticGet_Field_1_11()
+	{
+		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF487E59CBE69CD_TypeDefinitionIndex)->GetStaticField(0xACBC);
 	}
 
 	static ::System::Void _cctor()

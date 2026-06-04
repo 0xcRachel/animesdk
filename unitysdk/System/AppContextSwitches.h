@@ -4,22 +4,22 @@
 
 namespace System
 {
-	inline static constexpr unsigned int AppContextSwitches_TypeDefinitionIndex = 157;
+	inline static constexpr unsigned int AppContextSwitches_TypeDefinitionIndex = 156;
 
 	class AppContextSwitches : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_ThrowExceptionIfDisposedCancellationTokenSource()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x1E20);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x2FE0);
 		}
 		static ::System::Boolean* StaticGet_SetActorAsReferenceWhenCopyingClaimsIdentity()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x1E21);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x2FE1);
 		}
 		static ::System::Boolean* StaticGet_PreserveEventListnerObjectIdentity()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x1E22);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x2FE2);
 		}
 	};
 }

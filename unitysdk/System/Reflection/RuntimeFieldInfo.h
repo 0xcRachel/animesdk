@@ -9,17 +9,17 @@ namespace System::Reflection { class Module; }
 namespace System::Reflection { class RuntimeModule; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_REFLECTION_RUNTIMEFIELDINFO_GETDECLARINGTYPEINTERNAL_OFFSET UNITYSDK_OFFSET(0x18F476C0)
-#define SYSTEM_REFLECTION_RUNTIMEFIELDINFO_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x18F47760)
-#define SYSTEM_REFLECTION_RUNTIMEFIELDINFO_GETRUNTIMEMODULE_OFFSET UNITYSDK_OFFSET(0x18F47660)
-#define SYSTEM_REFLECTION_RUNTIMEFIELDINFO_GET_BINDINGFLAGS_OFFSET UNITYSDK_OFFSET(0x18F475F0)
-#define SYSTEM_REFLECTION_RUNTIMEFIELDINFO_GET_MODULE_OFFSET UNITYSDK_OFFSET(0x18F47600)
-#define SYSTEM_REFLECTION_RUNTIMEFIELDINFO_GET_REFLECTEDTYPEINTERNAL_OFFSET UNITYSDK_OFFSET(0x18F47710)
-#define SYSTEM_REFLECTION_RUNTIMEFIELDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18F46C60)
+#define SYSTEM_REFLECTION_RUNTIMEFIELDINFO_GETDECLARINGTYPEINTERNAL_OFFSET UNITYSDK_OFFSET(0x196F95F0)
+#define SYSTEM_REFLECTION_RUNTIMEFIELDINFO_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x196F9690)
+#define SYSTEM_REFLECTION_RUNTIMEFIELDINFO_GETRUNTIMEMODULE_OFFSET UNITYSDK_OFFSET(0x196F9580)
+#define SYSTEM_REFLECTION_RUNTIMEFIELDINFO_GET_BINDINGFLAGS_OFFSET UNITYSDK_OFFSET(0x196F9500)
+#define SYSTEM_REFLECTION_RUNTIMEFIELDINFO_GET_MODULE_OFFSET UNITYSDK_OFFSET(0x196F9510)
+#define SYSTEM_REFLECTION_RUNTIMEFIELDINFO_GET_REFLECTEDTYPEINTERNAL_OFFSET UNITYSDK_OFFSET(0x196F9640)
+#define SYSTEM_REFLECTION_RUNTIMEFIELDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x196F8BC0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int RuntimeFieldInfo_TypeDefinitionIndex = 615;
+	inline static constexpr unsigned int RuntimeFieldInfo_TypeDefinitionIndex = 614;
 
 	class RuntimeFieldInfo : public ::System::Reflection::FieldInfo
 	{
@@ -54,9 +54,9 @@ namespace System::Reflection
 			return ((::System::Reflection::RuntimeModule*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEFIELDINFO_GETRUNTIMEMODULE_OFFSET))(this);
 		}
 
-		::System::Void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void GetObjectData(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEFIELDINFO_GETOBJECTDATA_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEFIELDINFO_GETOBJECTDATA_OFFSET))(this, a1, a2);
 		}
 	};
 }

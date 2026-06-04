@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ITEMGIFTPACKDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1889F870)
-#define RPG_GAMECORE_ITEMGIFTPACKDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1889FA80)
+#define RPG_GAMECORE_ITEMGIFTPACKDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E53F10)
+#define RPG_GAMECORE_ITEMGIFTPACKDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18E54120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemGiftPackDataRow_TypeDefinitionIndex = 13147;
+	inline static constexpr unsigned int ItemGiftPackDataRow_TypeDefinitionIndex = 13227;
 
 	class ItemGiftPackDataRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* RewardList; // 0x10
-		::System::UInt32 GroupID; // 0x18
-		::System::UInt32 ID; // 0x1C
+		::System::UInt32 ID; // 0x18
+		::System::UInt32 GroupID; // 0x1C
 		::RPG::Client::TextID GroupDesc; // 0x20
 
 		::System::Void _ctor()
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMGIFTPACKDATAROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ItemGiftPackDataRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ItemGiftPackDataRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ItemGiftPackDataRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMGIFTPACKDATAROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ItemGiftPackDataRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMGIFTPACKDATAROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

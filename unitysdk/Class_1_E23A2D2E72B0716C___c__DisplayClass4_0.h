@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_E23A2D2E72B0716C;
-class Class_1_F9FBCC956DFCF137_17;
+class Class_1_F9FBCC956DFCF137_25;
 namespace System { class Action; }
 
-#define CLASS_1_E23A2D2E72B0716C___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE9EE080)
-#define CLASS_1_E23A2D2E72B0716C___C__DISPLAYCLASS4_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0xE9EE370)
+#define CLASS_1_E23A2D2E72B0716C___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16377D30)
+#define CLASS_1_E23A2D2E72B0716C___C__DISPLAYCLASS4_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x16378020)
 
-inline static constexpr unsigned int Class_1_E23A2D2E72B0716C___c__DisplayClass4_0_TypeDefinitionIndex = 71234;
+inline static constexpr unsigned int Class_1_E23A2D2E72B0716C___c__DisplayClass4_0_TypeDefinitionIndex = 72172;
 
 class Class_1_E23A2D2E72B0716C___c__DisplayClass4_0 : public ::System::Object
 {
 public:
-	::Class_1_E23A2D2E72B0716C* __4__this; // 0x10
-	::Class_1_F9FBCC956DFCF137_17* context; // 0x18
-	::System::Action* onComplete; // 0x20
+	::System::Action* onComplete; // 0x10
+	::Class_1_F9FBCC956DFCF137_25* context; // 0x18
+	::Class_1_E23A2D2E72B0716C* __4__this; // 0x20
 
 	::System::Void _ctor()
 	{

@@ -11,35 +11,35 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TransformComponent; }
 
-#define CLASS_2_E59C28A7BDCC5D07_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF775D70)
-#define CLASS_2_E59C28A7BDCC5D07_GET_FORCESKIP_OFFSET UNITYSDK_OFFSET(0xF776EC0)
-#define CLASS_2_E59C28A7BDCC5D07_METHOD_2_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xF776320)
-#define CLASS_2_E59C28A7BDCC5D07_METHOD_2_30A2382C3FCC5386_OFFSET UNITYSDK_OFFSET(0xF775DC0)
-#define CLASS_2_E59C28A7BDCC5D07_METHOD_2_AB4165C786F28621_OFFSET UNITYSDK_OFFSET(0xF776800)
-#define CLASS_2_E59C28A7BDCC5D07_ONFINISHIMMEDIATELYINPERFORMANCE_OFFSET UNITYSDK_OFFSET(0xF776E60)
-#define CLASS_2_E59C28A7BDCC5D07_ONSKIP_OFFSET UNITYSDK_OFFSET(0xF776CA0)
-#define CLASS_2_E59C28A7BDCC5D07_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF776410)
-#define CLASS_2_E59C28A7BDCC5D07_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF776860)
-#define CLASS_2_E59C28A7BDCC5D07_TICK_OFFSET UNITYSDK_OFFSET(0xF7768B0)
-#define CLASS_2_E59C28A7BDCC5D07__CTOR_OFFSET UNITYSDK_OFFSET(0xF775D50)
+#define CLASS_2_E59C28A7BDCC5D07_DISPOSE_OFFSET UNITYSDK_OFFSET(0x142A6F00)
+#define CLASS_2_E59C28A7BDCC5D07_GET_FORCESKIP_OFFSET UNITYSDK_OFFSET(0x142A8040)
+#define CLASS_2_E59C28A7BDCC5D07_METHOD_2_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x142A74B0)
+#define CLASS_2_E59C28A7BDCC5D07_METHOD_2_30A2382C3FCC5386_OFFSET UNITYSDK_OFFSET(0x142A6F50)
+#define CLASS_2_E59C28A7BDCC5D07_METHOD_2_E6F2B746784C0C83_OFFSET UNITYSDK_OFFSET(0x142A7990)
+#define CLASS_2_E59C28A7BDCC5D07_ONFINISHIMMEDIATELYINPERFORMANCE_OFFSET UNITYSDK_OFFSET(0x142A7FE0)
+#define CLASS_2_E59C28A7BDCC5D07_ONSKIP_OFFSET UNITYSDK_OFFSET(0x142A7E30)
+#define CLASS_2_E59C28A7BDCC5D07_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x142A75A0)
+#define CLASS_2_E59C28A7BDCC5D07_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x142A79F0)
+#define CLASS_2_E59C28A7BDCC5D07_TICK_OFFSET UNITYSDK_OFFSET(0x142A7A40)
+#define CLASS_2_E59C28A7BDCC5D07__CTOR_OFFSET UNITYSDK_OFFSET(0x142A6EE0)
 
-inline static constexpr unsigned int Class_2_E59C28A7BDCC5D07_TypeDefinitionIndex = 48330;
+inline static constexpr unsigned int Class_2_E59C28A7BDCC5D07_TypeDefinitionIndex = 48956;
 
 class Class_2_E59C28A7BDCC5D07 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::Client::CameraDataAndFlags* Field_2_7; // 0x18
-	::RPG::GameCore::TransformComponent* Field_2_4; // 0x20
-	::RPG::GameCore::GameEntity* Field_2_3; // 0x28
-	::RPG::GameCore::AdvEnablePropDialogMode* Field_2_1; // 0x30
-	::RPG::GameCore::AdventureCharacterController* Field_2_5; // 0x38
-	::RPG::GameCore::GameEntity* Field_2_2; // 0x40
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x48
-	::System::Boolean Field_2_6; // 0x50
-	::System::Nullable_1<::UnityEngine::Vector3> Field_2_9; // 0x54
-	::UnityEngine::Vector3 Field_2_8; // 0x64
-	::System::Single Field_2_11; // 0x70
-	::System::Single Field_2_10; // 0x74
+	::RPG::GameCore::GameEntity* Field_2_0; // 0x18
+	::RPG::GameCore::TransformComponent* Field_2_1; // 0x20
+	::RPG::GameCore::GameEntity* Field_2_2; // 0x28
+	::RPG::Client::CameraDataAndFlags* Field_2_3; // 0x30
+	::RPG::GameCore::AdventureCharacterController* Field_2_4; // 0x38
+	::RPG::GameCore::TaskContext* Field_2_5; // 0x40
+	::RPG::GameCore::AdvEnablePropDialogMode* Field_2_6; // 0x48
+	::UnityEngine::Vector3 Field_2_7; // 0x50
+	::System::Boolean Field_2_8; // 0x5C
+	::System::Nullable_1<::UnityEngine::Vector3> Field_2_9; // 0x60
+	::System::Single Field_2_10; // 0x70
+	::System::Single Field_2_11; // 0x74
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvEnablePropDialogMode* a2)
 	{
@@ -91,8 +91,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E59C28A7BDCC5D07_GET_FORCESKIP_OFFSET))(this);
 	}
 
-	::RPG::GameCore::GameEntity* Method_2_AB4165C786F28621()
+	::RPG::GameCore::GameEntity* Method_2_E6F2B746784C0C83()
 	{
-		return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E59C28A7BDCC5D07_METHOD_2_AB4165C786F28621_OFFSET))(this);
+		return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E59C28A7BDCC5D07_METHOD_2_E6F2B746784C0C83_OFFSET))(this);
 	}
 };

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/BaseBindlessArray.h"
 
-#define UNITYENGINE_CONSTANTBUFFERARRAY_DESTROY_OFFSET UNITYSDK_OFFSET(0x197E5450)
-#define UNITYENGINE_CONSTANTBUFFERARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x197E53C0)
+#define UNITYENGINE_CONSTANTBUFFERARRAY_DESTROY_OFFSET UNITYSDK_OFFSET(0x1A4D0DB0)
+#define UNITYENGINE_CONSTANTBUFFERARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A4D0D00)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ConstantBufferArray_TypeDefinitionIndex = 4064;
+	inline static constexpr unsigned int ConstantBufferArray_TypeDefinitionIndex = 4238;
 
 	class ConstantBufferArray : public ::UnityEngine::BaseBindlessArray
 	{
@@ -17,9 +17,9 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSTANTBUFFERARRAY_DISPOSE_OFFSET))(this);
 		}
 
-		static ::System::Void Destroy(::UnityEngine::ConstantBufferArray* bindlessArray)
+		static ::System::Void Destroy(::UnityEngine::ConstantBufferArray* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::ConstantBufferArray*))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSTANTBUFFERARRAY_DESTROY_OFFSET))(bindlessArray);
+			return ((::System::Void(*)(::UnityEngine::ConstantBufferArray*))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSTANTBUFFERARRAY_DESTROY_OFFSET))(a1);
 		}
 	};
 }

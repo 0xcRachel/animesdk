@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define INCONTROL_NATIVEINPUTDEVICEPROFILEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x13BC87E0)
+#define INCONTROL_NATIVEINPUTDEVICEPROFILEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x12A0F560)
 
 namespace InControl
 {
-	inline static constexpr unsigned int NativeInputDeviceProfileAttribute_TypeDefinitionIndex = 37173;
+	inline static constexpr unsigned int NativeInputDeviceProfileAttribute_TypeDefinitionIndex = 37905;
 
 	class NativeInputDeviceProfileAttribute : public ::System::Attribute
 	{

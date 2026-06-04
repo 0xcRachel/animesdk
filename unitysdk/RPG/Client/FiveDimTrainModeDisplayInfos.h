@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_CREATE_OFFSET UNITYSDK_OFFSET(0x11334630)
-#define RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_GET_DISTANCERATIO_OFFSET UNITYSDK_OFFSET(0x113346A0)
-#define RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_GET_ENERGYRATIO_OFFSET UNITYSDK_OFFSET(0x113346E0)
-#define RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_GET_ENERGY_OFFSET UNITYSDK_OFFSET(0x113346C0)
-#define RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_GET_TRAINSPEED_OFFSET UNITYSDK_OFFSET(0x11334680)
-#define RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_SET_DISTANCERATIO_OFFSET UNITYSDK_OFFSET(0x113346B0)
-#define RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_SET_ENERGYRATIO_OFFSET UNITYSDK_OFFSET(0x113346F0)
-#define RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_SET_ENERGY_OFFSET UNITYSDK_OFFSET(0x113346D0)
-#define RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_SET_TRAINSPEED_OFFSET UNITYSDK_OFFSET(0x11334690)
-#define RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS__CTOR_OFFSET UNITYSDK_OFFSET(0x11334670)
+#define RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_CREATE_OFFSET UNITYSDK_OFFSET(0x1593AF90)
+#define RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_GET_DISTANCERATIO_OFFSET UNITYSDK_OFFSET(0x1593B000)
+#define RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_GET_ENERGYRATIO_OFFSET UNITYSDK_OFFSET(0x1593B040)
+#define RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_GET_ENERGY_OFFSET UNITYSDK_OFFSET(0x1593B020)
+#define RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_GET_TRAINSPEED_OFFSET UNITYSDK_OFFSET(0x1593AFE0)
+#define RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_SET_DISTANCERATIO_OFFSET UNITYSDK_OFFSET(0x1593B010)
+#define RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_SET_ENERGYRATIO_OFFSET UNITYSDK_OFFSET(0x1593B050)
+#define RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_SET_ENERGY_OFFSET UNITYSDK_OFFSET(0x1593B030)
+#define RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_SET_TRAINSPEED_OFFSET UNITYSDK_OFFSET(0x1593AFF0)
+#define RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS__CTOR_OFFSET UNITYSDK_OFFSET(0x1593AFD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimTrainModeDisplayInfos_TypeDefinitionIndex = 59093;
+	inline static constexpr unsigned int FiveDimTrainModeDisplayInfos_TypeDefinitionIndex = 60023;
 
 	class FiveDimTrainModeDisplayInfos : public ::System::Object
 	{
 	public:
-		::System::Single _EnergyRatio_k__BackingField; // 0x10
+		::System::Single _Energy_k__BackingField; // 0x10
 		::System::Single _TrainSpeed_k__BackingField; // 0x14
-		::System::Single _DistanceRatio_k__BackingField; // 0x18
-		::System::Single _Energy_k__BackingField; // 0x1C
+		::System::Single _EnergyRatio_k__BackingField; // 0x18
+		::System::Single _DistanceRatio_k__BackingField; // 0x1C
 
 		::System::Void _ctor()
 		{
@@ -40,9 +40,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_GET_TRAINSPEED_OFFSET))(this);
 		}
 
-		::System::Void set_TrainSpeed(::System::Single value)
+		::System::Void set_TrainSpeed(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_SET_TRAINSPEED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_SET_TRAINSPEED_OFFSET))(this, a1);
 		}
 
 		::System::Single get_DistanceRatio()
@@ -50,9 +50,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_GET_DISTANCERATIO_OFFSET))(this);
 		}
 
-		::System::Void set_DistanceRatio(::System::Single value)
+		::System::Void set_DistanceRatio(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_SET_DISTANCERATIO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_SET_DISTANCERATIO_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Energy()
@@ -60,9 +60,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_GET_ENERGY_OFFSET))(this);
 		}
 
-		::System::Void set_Energy(::System::Single value)
+		::System::Void set_Energy(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_SET_ENERGY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_SET_ENERGY_OFFSET))(this, a1);
 		}
 
 		::System::Single get_EnergyRatio()
@@ -70,9 +70,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_GET_ENERGYRATIO_OFFSET))(this);
 		}
 
-		::System::Void set_EnergyRatio(::System::Single value)
+		::System::Void set_EnergyRatio(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_SET_ENERGYRATIO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMTRAINMODEDISPLAYINFOS_SET_ENERGYRATIO_OFFSET))(this, a1);
 		}
 	};
 }

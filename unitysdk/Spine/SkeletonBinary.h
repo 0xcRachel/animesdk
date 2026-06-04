@@ -19,33 +19,33 @@ namespace Spine { class Timeline; }
 namespace System { class String; }
 namespace System::IO { class Stream; }
 
-#define SPINE_SKELETONBINARY_GETVERSIONSTRING_OFFSET UNITYSDK_OFFSET(0x156D2CB0)
-#define SPINE_SKELETONBINARY_READANIMATION_OFFSET UNITYSDK_OFFSET(0x156D4170)
-#define SPINE_SKELETONBINARY_READATTACHMENT_OFFSET UNITYSDK_OFFSET(0x156DC330)
-#define SPINE_SKELETONBINARY_READFLOATARRAY_OFFSET UNITYSDK_OFFSET(0x156DDB20)
-#define SPINE_SKELETONBINARY_READSEQUENCE_OFFSET UNITYSDK_OFFSET(0x156DD300)
-#define SPINE_SKELETONBINARY_READSHORTARRAY_OFFSET UNITYSDK_OFFSET(0x156DDC20)
-#define SPINE_SKELETONBINARY_READSKELETONDATA_1_OFFSET UNITYSDK_OFFSET(0x156D0B60)
-#define SPINE_SKELETONBINARY_READSKELETONDATA_OFFSET UNITYSDK_OFFSET(0x156D0A20)
-#define SPINE_SKELETONBINARY_READSKIN_OFFSET UNITYSDK_OFFSET(0x156D39B0)
-#define SPINE_SKELETONBINARY_READTIMELINE_1_OFFSET UNITYSDK_OFFSET(0x156DE140)
-#define SPINE_SKELETONBINARY_READTIMELINE_OFFSET UNITYSDK_OFFSET(0x156DDE90)
-#define SPINE_SKELETONBINARY_READVERTICES_OFFSET UNITYSDK_OFFSET(0x156DD3A0)
-#define SPINE_SKELETONBINARY_SETBEZIER_OFFSET UNITYSDK_OFFSET(0x156DDD80)
-#define SPINE_SKELETONBINARY__CCTOR_OFFSET UNITYSDK_OFFSET(0x156DE480)
-#define SPINE_SKELETONBINARY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x156D0980)
-#define SPINE_SKELETONBINARY__CTOR_OFFSET UNITYSDK_OFFSET(0x156D0880)
+#define SPINE_SKELETONBINARY_GETVERSIONSTRING_OFFSET UNITYSDK_OFFSET(0x12B9BD70)
+#define SPINE_SKELETONBINARY_READANIMATION_OFFSET UNITYSDK_OFFSET(0x12B9D130)
+#define SPINE_SKELETONBINARY_READATTACHMENT_OFFSET UNITYSDK_OFFSET(0x12BA57F0)
+#define SPINE_SKELETONBINARY_READFLOATARRAY_OFFSET UNITYSDK_OFFSET(0x12BA6F50)
+#define SPINE_SKELETONBINARY_READSEQUENCE_OFFSET UNITYSDK_OFFSET(0x12BA6780)
+#define SPINE_SKELETONBINARY_READSHORTARRAY_OFFSET UNITYSDK_OFFSET(0x12BA7030)
+#define SPINE_SKELETONBINARY_READSKELETONDATA_1_OFFSET UNITYSDK_OFFSET(0x12B99350)
+#define SPINE_SKELETONBINARY_READSKELETONDATA_OFFSET UNITYSDK_OFFSET(0x12B99210)
+#define SPINE_SKELETONBINARY_READSKIN_OFFSET UNITYSDK_OFFSET(0x12B9C8D0)
+#define SPINE_SKELETONBINARY_READTIMELINE_1_OFFSET UNITYSDK_OFFSET(0x12BA7510)
+#define SPINE_SKELETONBINARY_READTIMELINE_OFFSET UNITYSDK_OFFSET(0x12BA7290)
+#define SPINE_SKELETONBINARY_READVERTICES_OFFSET UNITYSDK_OFFSET(0x12BA6820)
+#define SPINE_SKELETONBINARY_SETBEZIER_OFFSET UNITYSDK_OFFSET(0x12BA7180)
+#define SPINE_SKELETONBINARY__CCTOR_OFFSET UNITYSDK_OFFSET(0x12BA7880)
+#define SPINE_SKELETONBINARY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x12B99170)
+#define SPINE_SKELETONBINARY__CTOR_OFFSET UNITYSDK_OFFSET(0x12B99070)
 
 namespace Spine
 {
-	inline static constexpr unsigned int SkeletonBinary_TypeDefinitionIndex = 36448;
+	inline static constexpr unsigned int SkeletonBinary_TypeDefinitionIndex = 36748;
 
 	class SkeletonBinary : public ::Spine::SkeletonLoader
 	{
 	public:
 		static ::Il2CppArray<::Spine::TransformMode>** StaticGet_TransformModeValues()
 		{
-			return (::Il2CppArray<::Spine::TransformMode>**)Il2CppClass::FromTypeDefinitionIndex(SkeletonBinary_TypeDefinitionIndex)->GetStaticField(0x62F0);
+			return (::Il2CppArray<::Spine::TransformMode>**)Il2CppClass::FromTypeDefinitionIndex(SkeletonBinary_TypeDefinitionIndex)->GetStaticField(0x2D00);
 		}
 		// static const ::System::Int32 BONE_ROTATE = 0x0; // 0x0
 		// static const ::System::Int32 BONE_TRANSLATE = 0x1; // 0x0
@@ -72,14 +72,14 @@ namespace Spine
 		// static const ::System::Int32 CURVE_STEPPED = 0x1; // 0x0
 		// static const ::System::Int32 CURVE_BEZIER = 0x2; // 0x0
 
-		::System::Void _ctor(::Spine::AttachmentLoader* attachmentLoader)
+		::System::Void _ctor(::Spine::AttachmentLoader* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AttachmentLoader*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY__CTOR_OFFSET))(this, attachmentLoader);
+			return ((::System::Void(*)(::PVOID, ::Spine::AttachmentLoader*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::Il2CppArray<::Spine::Atlas*>* atlasArray)
+		::System::Void _ctor_1(::Il2CppArray<::Spine::Atlas*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Spine::Atlas*>*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY__CTOR_1_OFFSET))(this, atlasArray);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Spine::Atlas*>*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY__CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -87,69 +87,69 @@ namespace Spine
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY__CCTOR_OFFSET))();
 		}
 
-		::Spine::SkeletonData* ReadSkeletonData(::System::String* path)
+		::Spine::SkeletonData* ReadSkeletonData(::System::String* a1)
 		{
-			return ((::Spine::SkeletonData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READSKELETONDATA_OFFSET))(this, path);
+			return ((::Spine::SkeletonData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READSKELETONDATA_OFFSET))(this, a1);
 		}
 
-		static ::System::String* GetVersionString(::System::IO::Stream* file)
+		static ::System::String* GetVersionString(::System::IO::Stream* a1)
 		{
-			return ((::System::String*(*)(::System::IO::Stream*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_GETVERSIONSTRING_OFFSET))(file);
+			return ((::System::String*(*)(::System::IO::Stream*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_GETVERSIONSTRING_OFFSET))(a1);
 		}
 
-		::Spine::SkeletonData* ReadSkeletonData_1(::System::IO::Stream* file)
+		::Spine::SkeletonData* ReadSkeletonData_1(::System::IO::Stream* a1)
 		{
-			return ((::Spine::SkeletonData*(*)(::PVOID, ::System::IO::Stream*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READSKELETONDATA_1_OFFSET))(this, file);
+			return ((::Spine::SkeletonData*(*)(::PVOID, ::System::IO::Stream*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READSKELETONDATA_1_OFFSET))(this, a1);
 		}
 
-		::Spine::Skin* ReadSkin(::Spine::SkeletonBinary_SkeletonInput* input, ::Spine::SkeletonData* skeletonData, ::System::Boolean defaultSkin, ::System::Boolean nonessential)
+		::Spine::Skin* ReadSkin(::Spine::SkeletonBinary_SkeletonInput* a1, ::Spine::SkeletonData* a2, ::System::Boolean a3, ::System::Boolean a4)
 		{
-			return ((::Spine::Skin*(*)(::PVOID, ::Spine::SkeletonBinary_SkeletonInput*, ::Spine::SkeletonData*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READSKIN_OFFSET))(this, input, skeletonData, defaultSkin, nonessential);
+			return ((::Spine::Skin*(*)(::PVOID, ::Spine::SkeletonBinary_SkeletonInput*, ::Spine::SkeletonData*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READSKIN_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::Spine::Attachment* ReadAttachment(::Spine::SkeletonBinary_SkeletonInput* input, ::Spine::SkeletonData* skeletonData, ::Spine::Skin* skin, ::System::Int32 slotIndex, ::System::String* attachmentName, ::System::Boolean nonessential)
+		::Spine::Attachment* ReadAttachment(::Spine::SkeletonBinary_SkeletonInput* a1, ::Spine::SkeletonData* a2, ::Spine::Skin* a3, ::System::Int32 a4, ::System::String* a5, ::System::Boolean a6)
 		{
-			return ((::Spine::Attachment*(*)(::PVOID, ::Spine::SkeletonBinary_SkeletonInput*, ::Spine::SkeletonData*, ::Spine::Skin*, ::System::Int32, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READATTACHMENT_OFFSET))(this, input, skeletonData, skin, slotIndex, attachmentName, nonessential);
+			return ((::Spine::Attachment*(*)(::PVOID, ::Spine::SkeletonBinary_SkeletonInput*, ::Spine::SkeletonData*, ::Spine::Skin*, ::System::Int32, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READATTACHMENT_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::Spine::Sequence* ReadSequence(::Spine::SkeletonBinary_SkeletonInput* input)
+		::Spine::Sequence* ReadSequence(::Spine::SkeletonBinary_SkeletonInput* a1)
 		{
-			return ((::Spine::Sequence*(*)(::PVOID, ::Spine::SkeletonBinary_SkeletonInput*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READSEQUENCE_OFFSET))(this, input);
+			return ((::Spine::Sequence*(*)(::PVOID, ::Spine::SkeletonBinary_SkeletonInput*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READSEQUENCE_OFFSET))(this, a1);
 		}
 
-		::Spine::SkeletonBinary_Vertices* ReadVertices(::Spine::SkeletonBinary_SkeletonInput* input, ::System::Int32 vertexCount)
+		::Spine::SkeletonBinary_Vertices* ReadVertices(::Spine::SkeletonBinary_SkeletonInput* a1, ::System::Int32 a2)
 		{
-			return ((::Spine::SkeletonBinary_Vertices*(*)(::PVOID, ::Spine::SkeletonBinary_SkeletonInput*, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READVERTICES_OFFSET))(this, input, vertexCount);
+			return ((::Spine::SkeletonBinary_Vertices*(*)(::PVOID, ::Spine::SkeletonBinary_SkeletonInput*, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READVERTICES_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::System::Single>* ReadFloatArray(::Spine::SkeletonBinary_SkeletonInput* input, ::System::Int32 n, ::System::Single scale)
+		::Il2CppArray<::System::Single>* ReadFloatArray(::Spine::SkeletonBinary_SkeletonInput* a1, ::System::Int32 a2, ::System::Single a3)
 		{
-			return ((::Il2CppArray<::System::Single>*(*)(::PVOID, ::Spine::SkeletonBinary_SkeletonInput*, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READFLOATARRAY_OFFSET))(this, input, n, scale);
+			return ((::Il2CppArray<::System::Single>*(*)(::PVOID, ::Spine::SkeletonBinary_SkeletonInput*, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READFLOATARRAY_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Il2CppArray<::System::Int32>* ReadShortArray(::Spine::SkeletonBinary_SkeletonInput* input)
+		::Il2CppArray<::System::Int32>* ReadShortArray(::Spine::SkeletonBinary_SkeletonInput* a1)
 		{
-			return ((::Il2CppArray<::System::Int32>*(*)(::PVOID, ::Spine::SkeletonBinary_SkeletonInput*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READSHORTARRAY_OFFSET))(this, input);
+			return ((::Il2CppArray<::System::Int32>*(*)(::PVOID, ::Spine::SkeletonBinary_SkeletonInput*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READSHORTARRAY_OFFSET))(this, a1);
 		}
 
-		::Spine::Animation* ReadAnimation(::System::String* name, ::Spine::SkeletonBinary_SkeletonInput* input, ::Spine::SkeletonData* skeletonData)
+		::Spine::Animation* ReadAnimation(::System::String* a1, ::Spine::SkeletonBinary_SkeletonInput* a2, ::Spine::SkeletonData* a3)
 		{
-			return ((::Spine::Animation*(*)(::PVOID, ::System::String*, ::Spine::SkeletonBinary_SkeletonInput*, ::Spine::SkeletonData*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READANIMATION_OFFSET))(this, name, input, skeletonData);
+			return ((::Spine::Animation*(*)(::PVOID, ::System::String*, ::Spine::SkeletonBinary_SkeletonInput*, ::Spine::SkeletonData*))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READANIMATION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Spine::Timeline* ReadTimeline(::Spine::SkeletonBinary_SkeletonInput* input, ::Spine::CurveTimeline1* timeline, ::System::Single scale)
+		::Spine::Timeline* ReadTimeline(::Spine::SkeletonBinary_SkeletonInput* a1, ::Spine::CurveTimeline1* a2, ::System::Single a3)
 		{
-			return ((::Spine::Timeline*(*)(::PVOID, ::Spine::SkeletonBinary_SkeletonInput*, ::Spine::CurveTimeline1*, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READTIMELINE_OFFSET))(this, input, timeline, scale);
+			return ((::Spine::Timeline*(*)(::PVOID, ::Spine::SkeletonBinary_SkeletonInput*, ::Spine::CurveTimeline1*, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READTIMELINE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Spine::Timeline* ReadTimeline_1(::Spine::SkeletonBinary_SkeletonInput* input, ::Spine::CurveTimeline2* timeline, ::System::Single scale)
+		::Spine::Timeline* ReadTimeline_1(::Spine::SkeletonBinary_SkeletonInput* a1, ::Spine::CurveTimeline2* a2, ::System::Single a3)
 		{
-			return ((::Spine::Timeline*(*)(::PVOID, ::Spine::SkeletonBinary_SkeletonInput*, ::Spine::CurveTimeline2*, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READTIMELINE_1_OFFSET))(this, input, timeline, scale);
+			return ((::Spine::Timeline*(*)(::PVOID, ::Spine::SkeletonBinary_SkeletonInput*, ::Spine::CurveTimeline2*, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_READTIMELINE_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetBezier(::Spine::SkeletonBinary_SkeletonInput* input, ::Spine::CurveTimeline* timeline, ::System::Int32 bezier, ::System::Int32 frame, ::System::Int32 value, ::System::Single time1, ::System::Single time2, ::System::Single value1, ::System::Single value2, ::System::Single scale)
+		::System::Void SetBezier(::Spine::SkeletonBinary_SkeletonInput* a1, ::Spine::CurveTimeline* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::System::Single a9, ::System::Single a10)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::SkeletonBinary_SkeletonInput*, ::Spine::CurveTimeline*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_SETBEZIER_OFFSET))(this, input, timeline, bezier, frame, value, time1, time2, value1, value2, scale);
+			return ((::System::Void(*)(::PVOID, ::Spine::SkeletonBinary_SkeletonInput*, ::Spine::CurveTimeline*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONBINARY_SETBEZIER_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 	};
 }

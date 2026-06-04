@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define AKUTILITIES_FIXSLASHES_1_OFFSET UNITYSDK_OFFSET(0x190EA830)
-#define AKUTILITIES_FIXSLASHES_OFFSET UNITYSDK_OFFSET(0x190EA3F0)
-#define AKUTILITIES__CTOR_OFFSET UNITYSDK_OFFSET(0x190EAAB0)
+#define AKUTILITIES_FIXSLASHES_1_OFFSET UNITYSDK_OFFSET(0x196D8170)
+#define AKUTILITIES_FIXSLASHES_OFFSET UNITYSDK_OFFSET(0x196D7DB0)
+#define AKUTILITIES__CTOR_OFFSET UNITYSDK_OFFSET(0x196D8370)
 
-inline static constexpr unsigned int AkUtilities_TypeDefinitionIndex = 40407;
+inline static constexpr unsigned int AkUtilities_TypeDefinitionIndex = 41234;
 
 class AkUtilities : public ::System::Object
 {
@@ -18,13 +18,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKUTILITIES__CTOR_OFFSET))(this);
 	}
 
-	static ::System::Void FixSlashes(::System::String*& path, ::System::Char separatorChar, ::System::Char badChar, ::System::Boolean addTrailingSlash)
+	static ::System::Void FixSlashes(::System::String*& a1, ::System::Char a2, ::System::Char a3, ::System::Boolean a4)
 	{
-		return ((::System::Void(*)(::System::String*&, ::System::Char, ::System::Char, ::System::Boolean))((::PBYTE)hIl2Cpp + AKUTILITIES_FIXSLASHES_OFFSET))(path, separatorChar, badChar, addTrailingSlash);
+		return ((::System::Void(*)(::System::String*&, ::System::Char, ::System::Char, ::System::Boolean))((::PBYTE)hIl2Cpp + AKUTILITIES_FIXSLASHES_OFFSET))(a1, a2, a3, a4);
 	}
 
-	static ::System::Void FixSlashes_1(::System::String*& path)
+	static ::System::Void FixSlashes_1(::System::String*& a1)
 	{
-		return ((::System::Void(*)(::System::String*&))((::PBYTE)hIl2Cpp + AKUTILITIES_FIXSLASHES_1_OFFSET))(path);
+		return ((::System::Void(*)(::System::String*&))((::PBYTE)hIl2Cpp + AKUTILITIES_FIXSLASHES_1_OFFSET))(a1);
 	}
 };

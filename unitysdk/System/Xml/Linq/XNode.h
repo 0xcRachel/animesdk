@@ -7,15 +7,15 @@ namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 namespace System::Xml { class XmlWriter; }
 
-#define SYSTEM_XML_LINQ_XNODE_APPENDTEXT_OFFSET UNITYSDK_OFFSET(0x1A6377C0)
-#define SYSTEM_XML_LINQ_XNODE_GETXMLSTRING_OFFSET UNITYSDK_OFFSET(0x1A6373D0)
-#define SYSTEM_XML_LINQ_XNODE_REMOVE_OFFSET UNITYSDK_OFFSET(0x1A637230)
-#define SYSTEM_XML_LINQ_XNODE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A6372B0)
-#define SYSTEM_XML_LINQ_XNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A62F2C0)
+#define SYSTEM_XML_LINQ_XNODE_APPENDTEXT_OFFSET UNITYSDK_OFFSET(0x1B441B00)
+#define SYSTEM_XML_LINQ_XNODE_GETXMLSTRING_OFFSET UNITYSDK_OFFSET(0x1B441680)
+#define SYSTEM_XML_LINQ_XNODE_REMOVE_OFFSET UNITYSDK_OFFSET(0x1B4414F0)
+#define SYSTEM_XML_LINQ_XNODE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B441570)
+#define SYSTEM_XML_LINQ_XNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B439690)
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XNode_TypeDefinitionIndex = 4910;
+	inline static constexpr unsigned int XNode_TypeDefinitionIndex = 3877;
 
 	class XNode : public ::System::Xml::Linq::XObject
 	{
@@ -37,14 +37,14 @@ namespace System::Xml::Linq
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XNODE_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Void AppendText(::System::Text::StringBuilder* sb)
+		::System::Void AppendText(::System::Text::StringBuilder* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XNODE_APPENDTEXT_OFFSET))(this, sb);
+			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XNODE_APPENDTEXT_OFFSET))(this, a1);
 		}
 
-		::System::String* GetXmlString(::System::Xml::Linq::SaveOptions o)
+		::System::String* GetXmlString(::System::Xml::Linq::SaveOptions a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Xml::Linq::SaveOptions))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XNODE_GETXMLSTRING_OFFSET))(this, o);
+			return ((::System::String*(*)(::PVOID, ::System::Xml::Linq::SaveOptions))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XNODE_GETXMLSTRING_OFFSET))(this, a1);
 		}
 	};
 }

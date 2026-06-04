@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChimeraTalkContent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERABATTLESHOWNPCTALKBUBBLE_METHOD_3_18F6BDCDAADFFFE5_OFFSET UNITYSDK_OFFSET(0x196AF700)
-#define RPG_GAMECORE_CHIMERABATTLESHOWNPCTALKBUBBLE_METHOD_3_7B0EE62B7997CB5D_OFFSET UNITYSDK_OFFSET(0x196B07A0)
-#define RPG_GAMECORE_CHIMERABATTLESHOWNPCTALKBUBBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x196AF6F0)
+#define RPG_GAMECORE_CHIMERABATTLESHOWNPCTALKBUBBLE_METHOD_3_6A3EC3280202065A_OFFSET UNITYSDK_OFFSET(0x1A507850)
+#define RPG_GAMECORE_CHIMERABATTLESHOWNPCTALKBUBBLE_METHOD_3_D1A839A20C9D1476_OFFSET UNITYSDK_OFFSET(0x1A508900)
+#define RPG_GAMECORE_CHIMERABATTLESHOWNPCTALKBUBBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A507840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraBattleShowNPCTalkBubble_TypeDefinitionIndex = 15035;
+	inline static constexpr unsigned int ChimeraBattleShowNPCTalkBubble_TypeDefinitionIndex = 15098;
 
 	class ChimeraBattleShowNPCTalkBubble : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{
@@ -28,14 +28,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLESHOWNPCTALKBUBBLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7B0EE62B7997CB5D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraBattleShowNPCTalkBubble*& a2)
+		static ::System::Void Method_3_D1A839A20C9D1476(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraBattleShowNPCTalkBubble*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraBattleShowNPCTalkBubble*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLESHOWNPCTALKBUBBLE_METHOD_3_7B0EE62B7997CB5D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraBattleShowNPCTalkBubble*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLESHOWNPCTALKBUBBLE_METHOD_3_D1A839A20C9D1476_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_18F6BDCDAADFFFE5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraBattleShowNPCTalkBubble* a2)
+		static ::System::Void Method_3_6A3EC3280202065A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraBattleShowNPCTalkBubble* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraBattleShowNPCTalkBubble*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLESHOWNPCTALKBUBBLE_METHOD_3_18F6BDCDAADFFFE5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraBattleShowNPCTalkBubble*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLESHOWNPCTALKBUBBLE_METHOD_3_6A3EC3280202065A_OFFSET))(a1, a2);
 		}
 	};
 }

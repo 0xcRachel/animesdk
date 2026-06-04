@@ -5,25 +5,25 @@
 class Class_1_84A8F4443A9231B8;
 namespace RPG::Client { class RelicFilterPlanIconData; }
 
-#define RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1602B680)
-#define RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_GET_ICON_OFFSET UNITYSDK_OFFSET(0x1602B640)
-#define RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x1602B620)
-#define RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_GET_UPDATETIMESTAMP_OFFSET UNITYSDK_OFFSET(0x1602B660)
-#define RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_SET_ICON_OFFSET UNITYSDK_OFFSET(0x1602B650)
-#define RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_SET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x1602B630)
-#define RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_SET_UPDATETIMESTAMP_OFFSET UNITYSDK_OFFSET(0x1602B670)
-#define RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1602B610)
+#define RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x174B8500)
+#define RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_GET_ICON_OFFSET UNITYSDK_OFFSET(0x174B84C0)
+#define RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x174B84A0)
+#define RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_GET_UPDATETIMESTAMP_OFFSET UNITYSDK_OFFSET(0x174B84E0)
+#define RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_SET_ICON_OFFSET UNITYSDK_OFFSET(0x174B84D0)
+#define RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_SET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x174B84B0)
+#define RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_SET_UPDATETIMESTAMP_OFFSET UNITYSDK_OFFSET(0x174B84F0)
+#define RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x174B8490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicFilterPlanIconModifyData_TypeDefinitionIndex = 61599;
+	inline static constexpr unsigned int RelicFilterPlanIconModifyData_TypeDefinitionIndex = 62532;
 
 	class RelicFilterPlanIconModifyData : public ::System::Object
 	{
 	public:
 		::RPG::Client::RelicFilterPlanIconData* _Icon_k__BackingField; // 0x10
-		::System::UInt32 _SlotIndex_k__BackingField; // 0x18
-		::System::Int64 _UpdateTimestamp_k__BackingField; // 0x20
+		::System::Int64 _UpdateTimestamp_k__BackingField; // 0x18
+		::System::UInt32 _SlotIndex_k__BackingField; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_GET_SLOTINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_SlotIndex(::System::UInt32 value)
+		::System::Void set_SlotIndex(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_SET_SLOTINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_SET_SLOTINDEX_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RelicFilterPlanIconData* get_Icon()
@@ -45,9 +45,9 @@ namespace RPG::Client
 			return ((::RPG::Client::RelicFilterPlanIconData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_GET_ICON_OFFSET))(this);
 		}
 
-		::System::Void set_Icon(::RPG::Client::RelicFilterPlanIconData* value)
+		::System::Void set_Icon(::RPG::Client::RelicFilterPlanIconData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicFilterPlanIconData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_SET_ICON_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicFilterPlanIconData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_SET_ICON_OFFSET))(this, a1);
 		}
 
 		::System::Int64 get_UpdateTimestamp()
@@ -55,14 +55,14 @@ namespace RPG::Client
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_GET_UPDATETIMESTAMP_OFFSET))(this);
 		}
 
-		::System::Void set_UpdateTimestamp(::System::Int64 value)
+		::System::Void set_UpdateTimestamp(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_SET_UPDATETIMESTAMP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_SET_UPDATETIMESTAMP_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::RelicFilterPlanIconModifyData* Create(::Class_1_84A8F4443A9231B8* serverData)
+		static ::RPG::Client::RelicFilterPlanIconModifyData* Create(::Class_1_84A8F4443A9231B8* a1)
 		{
-			return ((::RPG::Client::RelicFilterPlanIconModifyData*(*)(::Class_1_84A8F4443A9231B8*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_CREATE_OFFSET))(serverData);
+			return ((::RPG::Client::RelicFilterPlanIconModifyData*(*)(::Class_1_84A8F4443A9231B8*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONMODIFYDATA_CREATE_OFFSET))(a1);
 		}
 	};
 }

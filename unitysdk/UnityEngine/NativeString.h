@@ -5,94 +5,94 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_NATIVESTRING_APPENDNATIVE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A569E90)
-#define UNITYENGINE_NATIVESTRING_APPENDNATIVE_OFFSET UNITYSDK_OFFSET(0x2388000)
-#define UNITYENGINE_NATIVESTRING_APPEND_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A569E60)
-#define UNITYENGINE_NATIVESTRING_APPEND_OFFSET UNITYSDK_OFFSET(0x2387FF0)
-#define UNITYENGINE_NATIVESTRING_CONTAINS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A569EC0)
-#define UNITYENGINE_NATIVESTRING_CONTAINS_OFFSET UNITYSDK_OFFSET(0x2388020)
-#define UNITYENGINE_NATIVESTRING_CREATEWITHSTRING_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A569B70)
-#define UNITYENGINE_NATIVESTRING_CREATEWITHSTRING_OFFSET UNITYSDK_OFFSET(0x1A569B40)
-#define UNITYENGINE_NATIVESTRING_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x23880A0)
-#define UNITYENGINE_NATIVESTRING_EQUALS_OFFSET UNITYSDK_OFFSET(0x2388080)
-#define UNITYENGINE_NATIVESTRING_GETHASHCODEINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A569F30)
-#define UNITYENGINE_NATIVESTRING_GETHASHCODEINTERNAL_OFFSET UNITYSDK_OFFSET(0x2388070)
-#define UNITYENGINE_NATIVESTRING_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2388070)
-#define UNITYENGINE_NATIVESTRING_GET_STR_OFFSET UNITYSDK_OFFSET(0x5078B0)
-#define UNITYENGINE_NATIVESTRING_ISEQUALWITHNATIVESTRING_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A569F90)
-#define UNITYENGINE_NATIVESTRING_ISEQUALWITHNATIVESTRING_OFFSET UNITYSDK_OFFSET(0x2388080)
-#define UNITYENGINE_NATIVESTRING_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1A569BD0)
-#define UNITYENGINE_NATIVESTRING_OP_IMPLICIT_2_OFFSET UNITYSDK_OFFSET(0x1A569C20)
-#define UNITYENGINE_NATIVESTRING_OP_IMPLICIT_3_OFFSET UNITYSDK_OFFSET(0x1A569C70)
-#define UNITYENGINE_NATIVESTRING_OP_IMPLICIT_4_OFFSET UNITYSDK_OFFSET(0x1A569CC0)
-#define UNITYENGINE_NATIVESTRING_OP_IMPLICIT_5_OFFSET UNITYSDK_OFFSET(0x1A569D10)
-#define UNITYENGINE_NATIVESTRING_OP_IMPLICIT_6_OFFSET UNITYSDK_OFFSET(0x1A569D60)
-#define UNITYENGINE_NATIVESTRING_OP_IMPLICIT_7_OFFSET UNITYSDK_OFFSET(0x1A569DB0)
-#define UNITYENGINE_NATIVESTRING_OP_IMPLICIT_8_OFFSET UNITYSDK_OFFSET(0x1A569E00)
-#define UNITYENGINE_NATIVESTRING_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1A569B80)
-#define UNITYENGINE_NATIVESTRING_SUBSTRING_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A569F00)
-#define UNITYENGINE_NATIVESTRING_SUBSTRING_OFFSET UNITYSDK_OFFSET(0x2388040)
-#define UNITYENGINE_NATIVESTRING_TOSTRINGINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A569E40)
-#define UNITYENGINE_NATIVESTRING_TOSTRINGINTERNAL_OFFSET UNITYSDK_OFFSET(0x2387FE0)
-#define UNITYENGINE_NATIVESTRING_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2387FE0)
+#define UNITYENGINE_NATIVESTRING_APPENDNATIVE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B30CDE0)
+#define UNITYENGINE_NATIVESTRING_APPENDNATIVE_OFFSET UNITYSDK_OFFSET(0x392FEC0)
+#define UNITYENGINE_NATIVESTRING_APPEND_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B30CDB0)
+#define UNITYENGINE_NATIVESTRING_APPEND_OFFSET UNITYSDK_OFFSET(0x392FEB0)
+#define UNITYENGINE_NATIVESTRING_CONTAINS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B30CE10)
+#define UNITYENGINE_NATIVESTRING_CONTAINS_OFFSET UNITYSDK_OFFSET(0x392FEE0)
+#define UNITYENGINE_NATIVESTRING_CREATEWITHSTRING_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B30CAC0)
+#define UNITYENGINE_NATIVESTRING_CREATEWITHSTRING_OFFSET UNITYSDK_OFFSET(0x1B30CA90)
+#define UNITYENGINE_NATIVESTRING_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x392FF60)
+#define UNITYENGINE_NATIVESTRING_EQUALS_OFFSET UNITYSDK_OFFSET(0x392FF40)
+#define UNITYENGINE_NATIVESTRING_GETHASHCODEINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B30CE80)
+#define UNITYENGINE_NATIVESTRING_GETHASHCODEINTERNAL_OFFSET UNITYSDK_OFFSET(0x392FF30)
+#define UNITYENGINE_NATIVESTRING_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x392FF30)
+#define UNITYENGINE_NATIVESTRING_GET_STR_OFFSET UNITYSDK_OFFSET(0x66AF90)
+#define UNITYENGINE_NATIVESTRING_ISEQUALWITHNATIVESTRING_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B30CEE0)
+#define UNITYENGINE_NATIVESTRING_ISEQUALWITHNATIVESTRING_OFFSET UNITYSDK_OFFSET(0x392FF40)
+#define UNITYENGINE_NATIVESTRING_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1B30CB20)
+#define UNITYENGINE_NATIVESTRING_OP_IMPLICIT_2_OFFSET UNITYSDK_OFFSET(0x1B30CB70)
+#define UNITYENGINE_NATIVESTRING_OP_IMPLICIT_3_OFFSET UNITYSDK_OFFSET(0x1B30CBC0)
+#define UNITYENGINE_NATIVESTRING_OP_IMPLICIT_4_OFFSET UNITYSDK_OFFSET(0x1B30CC10)
+#define UNITYENGINE_NATIVESTRING_OP_IMPLICIT_5_OFFSET UNITYSDK_OFFSET(0x1B30CC60)
+#define UNITYENGINE_NATIVESTRING_OP_IMPLICIT_6_OFFSET UNITYSDK_OFFSET(0x1B30CCB0)
+#define UNITYENGINE_NATIVESTRING_OP_IMPLICIT_7_OFFSET UNITYSDK_OFFSET(0x1B30CD00)
+#define UNITYENGINE_NATIVESTRING_OP_IMPLICIT_8_OFFSET UNITYSDK_OFFSET(0x1B30CD50)
+#define UNITYENGINE_NATIVESTRING_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B30CAD0)
+#define UNITYENGINE_NATIVESTRING_SUBSTRING_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B30CE50)
+#define UNITYENGINE_NATIVESTRING_SUBSTRING_OFFSET UNITYSDK_OFFSET(0x392FF00)
+#define UNITYENGINE_NATIVESTRING_TOSTRINGINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B30CD90)
+#define UNITYENGINE_NATIVESTRING_TOSTRINGINTERNAL_OFFSET UNITYSDK_OFFSET(0x392FEA0)
+#define UNITYENGINE_NATIVESTRING_TOSTRING_OFFSET UNITYSDK_OFFSET(0x392FEA0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int NativeString_TypeDefinitionIndex = 4160;
+	inline static constexpr unsigned int NativeString_TypeDefinitionIndex = 4334;
 
 	struct alignas(8) NativeString
 	{
 		::System::IntPtr _Str_k__BackingField; // 0x10
 
-		static ::UnityEngine::NativeString CreateWithString(::System::String* value, ::System::Boolean autoRelease)
+		static ::UnityEngine::NativeString CreateWithString(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::UnityEngine::NativeString(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_CREATEWITHSTRING_OFFSET))(value, autoRelease);
+			return ((::UnityEngine::NativeString(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_CREATEWITHSTRING_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::NativeString op_Implicit(::System::Boolean obj)
+		static ::UnityEngine::NativeString op_Implicit(::System::Boolean a1)
 		{
-			return ((::UnityEngine::NativeString(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_OP_IMPLICIT_OFFSET))(obj);
+			return ((::UnityEngine::NativeString(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_OP_IMPLICIT_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::NativeString op_Implicit_1(::System::Int32 obj)
+		static ::UnityEngine::NativeString op_Implicit_1(::System::Int32 a1)
 		{
-			return ((::UnityEngine::NativeString(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_OP_IMPLICIT_1_OFFSET))(obj);
+			return ((::UnityEngine::NativeString(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_OP_IMPLICIT_1_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::NativeString op_Implicit_2(::System::UInt32 obj)
+		static ::UnityEngine::NativeString op_Implicit_2(::System::UInt32 a1)
 		{
-			return ((::UnityEngine::NativeString(*)(::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_OP_IMPLICIT_2_OFFSET))(obj);
+			return ((::UnityEngine::NativeString(*)(::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_OP_IMPLICIT_2_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::NativeString op_Implicit_3(::System::Int64 obj)
+		static ::UnityEngine::NativeString op_Implicit_3(::System::Int64 a1)
 		{
-			return ((::UnityEngine::NativeString(*)(::System::Int64))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_OP_IMPLICIT_3_OFFSET))(obj);
+			return ((::UnityEngine::NativeString(*)(::System::Int64))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_OP_IMPLICIT_3_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::NativeString op_Implicit_4(::System::UInt64 obj)
+		static ::UnityEngine::NativeString op_Implicit_4(::System::UInt64 a1)
 		{
-			return ((::UnityEngine::NativeString(*)(::System::UInt64))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_OP_IMPLICIT_4_OFFSET))(obj);
+			return ((::UnityEngine::NativeString(*)(::System::UInt64))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_OP_IMPLICIT_4_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::NativeString op_Implicit_5(::System::Single obj)
+		static ::UnityEngine::NativeString op_Implicit_5(::System::Single a1)
 		{
-			return ((::UnityEngine::NativeString(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_OP_IMPLICIT_5_OFFSET))(obj);
+			return ((::UnityEngine::NativeString(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_OP_IMPLICIT_5_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::NativeString op_Implicit_6(::System::Double obj)
+		static ::UnityEngine::NativeString op_Implicit_6(::System::Double a1)
 		{
-			return ((::UnityEngine::NativeString(*)(::System::Double))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_OP_IMPLICIT_6_OFFSET))(obj);
+			return ((::UnityEngine::NativeString(*)(::System::Double))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_OP_IMPLICIT_6_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::NativeString op_Implicit_7(::System::String* obj)
+		static ::UnityEngine::NativeString op_Implicit_7(::System::String* a1)
 		{
-			return ((::UnityEngine::NativeString(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_OP_IMPLICIT_7_OFFSET))(obj);
+			return ((::UnityEngine::NativeString(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_OP_IMPLICIT_7_OFFSET))(a1);
 		}
 
 		/*
-		static ::UnityEngine::NativeStringRef op_Implicit_8(::UnityEngine::NativeString obj)
+		static ::UnityEngine::NativeStringRef op_Implicit_8(::UnityEngine::NativeString a1)
 		{
-			return ((::UnityEngine::NativeStringRef(*)(::UnityEngine::NativeString))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_OP_IMPLICIT_8_OFFSET))(obj);
+			return ((::UnityEngine::NativeStringRef(*)(::UnityEngine::NativeString))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_OP_IMPLICIT_8_OFFSET))(a1);
 		}
 		*/
 
@@ -106,28 +106,28 @@ namespace UnityEngine
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_TOSTRINGINTERNAL_OFFSET))(this);
 		}
 
-		::System::Void Append(::System::String* str)
+		::System::Void Append(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_APPEND_OFFSET))(this, str);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_APPEND_OFFSET))(this, a1);
 		}
 
 		/*
-		::System::Void AppendNative(::UnityEngine::NativeStringRef str)
+		::System::Void AppendNative(::UnityEngine::NativeStringRef a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::NativeStringRef))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_APPENDNATIVE_OFFSET))(this, str);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::NativeStringRef))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_APPENDNATIVE_OFFSET))(this, a1);
 		}
 		*/
 
 		/*
-		::System::Boolean Contains(::UnityEngine::NativeStringRef str)
+		::System::Boolean Contains(::UnityEngine::NativeStringRef a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::NativeStringRef))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_CONTAINS_OFFSET))(this, str);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::NativeStringRef))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_CONTAINS_OFFSET))(this, a1);
 		}
 		*/
 
-		::UnityEngine::NativeString SubString(::System::Int32 pos, ::System::Int32 len)
+		::UnityEngine::NativeString SubString(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_SUBSTRING_OFFSET))(this, pos, len);
+			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_SUBSTRING_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 GetHashCode()
@@ -145,63 +145,63 @@ namespace UnityEngine
 			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_GET_STR_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::UnityEngine::NativeString other)
+		::System::Boolean Equals(::UnityEngine::NativeString a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::NativeString))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::NativeString))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsEqualWithNativeString(::UnityEngine::NativeString other)
+		::System::Boolean IsEqualWithNativeString(::UnityEngine::NativeString a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::NativeString))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_ISEQUALWITHNATIVESTRING_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::NativeString))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_ISEQUALWITHNATIVESTRING_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_EQUALS_1_OFFSET))(this, a1);
 		}
 
-		static ::System::Void CreateWithString_Injected(::System::String* value, ::System::Boolean autoRelease, ::UnityEngine::NativeString& ret)
+		static ::System::Void CreateWithString_Injected(::System::String* a1, ::System::Boolean a2, ::UnityEngine::NativeString& a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Boolean, ::UnityEngine::NativeString&))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_CREATEWITHSTRING_INJECTED_OFFSET))(value, autoRelease, ret);
+			return ((::System::Void(*)(::System::String*, ::System::Boolean, ::UnityEngine::NativeString&))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_CREATEWITHSTRING_INJECTED_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* ToStringInternal_Injected(::UnityEngine::NativeString& _unity_self)
+		static ::System::String* ToStringInternal_Injected(::UnityEngine::NativeString& a1)
 		{
-			return ((::System::String*(*)(::UnityEngine::NativeString&))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_TOSTRINGINTERNAL_INJECTED_OFFSET))(_unity_self);
+			return ((::System::String*(*)(::UnityEngine::NativeString&))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_TOSTRINGINTERNAL_INJECTED_OFFSET))(a1);
 		}
 
-		static ::System::Void Append_Injected(::UnityEngine::NativeString& _unity_self, ::System::String* str)
+		static ::System::Void Append_Injected(::UnityEngine::NativeString& a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::NativeString&, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_APPEND_INJECTED_OFFSET))(_unity_self, str);
+			return ((::System::Void(*)(::UnityEngine::NativeString&, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_APPEND_INJECTED_OFFSET))(a1, a2);
 		}
 
 		/*
-		static ::System::Void AppendNative_Injected(::UnityEngine::NativeString& _unity_self, ::UnityEngine::NativeStringRef& str)
+		static ::System::Void AppendNative_Injected(::UnityEngine::NativeString& a1, ::UnityEngine::NativeStringRef& a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::NativeString&, ::UnityEngine::NativeStringRef&))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_APPENDNATIVE_INJECTED_OFFSET))(_unity_self, str);
+			return ((::System::Void(*)(::UnityEngine::NativeString&, ::UnityEngine::NativeStringRef&))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_APPENDNATIVE_INJECTED_OFFSET))(a1, a2);
 		}
 		*/
 
 		/*
-		static ::System::Boolean Contains_Injected(::UnityEngine::NativeString& _unity_self, ::UnityEngine::NativeStringRef& str)
+		static ::System::Boolean Contains_Injected(::UnityEngine::NativeString& a1, ::UnityEngine::NativeStringRef& a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::NativeString&, ::UnityEngine::NativeStringRef&))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_CONTAINS_INJECTED_OFFSET))(_unity_self, str);
+			return ((::System::Boolean(*)(::UnityEngine::NativeString&, ::UnityEngine::NativeStringRef&))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_CONTAINS_INJECTED_OFFSET))(a1, a2);
 		}
 		*/
 
-		static ::System::Void SubString_Injected(::UnityEngine::NativeString& _unity_self, ::System::Int32 pos, ::System::Int32 len, ::UnityEngine::NativeString& ret)
+		static ::System::Void SubString_Injected(::UnityEngine::NativeString& a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::NativeString& a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::NativeString&, ::System::Int32, ::System::Int32, ::UnityEngine::NativeString&))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_SUBSTRING_INJECTED_OFFSET))(_unity_self, pos, len, ret);
+			return ((::System::Void(*)(::UnityEngine::NativeString&, ::System::Int32, ::System::Int32, ::UnityEngine::NativeString&))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_SUBSTRING_INJECTED_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 GetHashCodeInternal_Injected(::UnityEngine::NativeString& _unity_self)
+		static ::System::Int32 GetHashCodeInternal_Injected(::UnityEngine::NativeString& a1)
 		{
-			return ((::System::Int32(*)(::UnityEngine::NativeString&))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_GETHASHCODEINTERNAL_INJECTED_OFFSET))(_unity_self);
+			return ((::System::Int32(*)(::UnityEngine::NativeString&))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_GETHASHCODEINTERNAL_INJECTED_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsEqualWithNativeString_Injected(::UnityEngine::NativeString& _unity_self, ::UnityEngine::NativeString& other)
+		static ::System::Boolean IsEqualWithNativeString_Injected(::UnityEngine::NativeString& a1, ::UnityEngine::NativeString& a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::NativeString&, ::UnityEngine::NativeString&))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_ISEQUALWITHNATIVESTRING_INJECTED_OFFSET))(_unity_self, other);
+			return ((::System::Boolean(*)(::UnityEngine::NativeString&, ::UnityEngine::NativeString&))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVESTRING_ISEQUALWITHNATIVESTRING_INJECTED_OFFSET))(a1, a2);
 		}
 	};
 }

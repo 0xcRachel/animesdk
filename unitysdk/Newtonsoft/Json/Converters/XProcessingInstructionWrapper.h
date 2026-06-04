@@ -5,21 +5,21 @@
 namespace System { class String; }
 namespace System::Xml::Linq { class XProcessingInstruction; }
 
-#define NEWTONSOFT_JSON_CONVERTERS_XPROCESSINGINSTRUCTIONWRAPPER_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x17B58640)
-#define NEWTONSOFT_JSON_CONVERTERS_XPROCESSINGINSTRUCTIONWRAPPER_GET_PROCESSINGINSTRUCTION_OFFSET UNITYSDK_OFFSET(0x17B585D0)
-#define NEWTONSOFT_JSON_CONVERTERS_XPROCESSINGINSTRUCTIONWRAPPER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x17B586B0)
-#define NEWTONSOFT_JSON_CONVERTERS_XPROCESSINGINSTRUCTIONWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x17B56150)
+#define NEWTONSOFT_JSON_CONVERTERS_XPROCESSINGINSTRUCTIONWRAPPER_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x17396D70)
+#define NEWTONSOFT_JSON_CONVERTERS_XPROCESSINGINSTRUCTIONWRAPPER_GET_PROCESSINGINSTRUCTION_OFFSET UNITYSDK_OFFSET(0x17396D00)
+#define NEWTONSOFT_JSON_CONVERTERS_XPROCESSINGINSTRUCTIONWRAPPER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x17396DF0)
+#define NEWTONSOFT_JSON_CONVERTERS_XPROCESSINGINSTRUCTIONWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x17394820)
 
 namespace Newtonsoft::Json::Converters
 {
-	inline static constexpr unsigned int XProcessingInstructionWrapper_TypeDefinitionIndex = 8588;
+	inline static constexpr unsigned int XProcessingInstructionWrapper_TypeDefinitionIndex = 9491;
 
 	class XProcessingInstructionWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper
 	{
 	public:
-		::System::Void _ctor(::System::Xml::Linq::XProcessingInstruction* processingInstruction)
+		::System::Void _ctor(::System::Xml::Linq::XProcessingInstruction* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XProcessingInstruction*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XPROCESSINGINSTRUCTIONWRAPPER__CTOR_OFFSET))(this, processingInstruction);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XProcessingInstruction*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XPROCESSINGINSTRUCTIONWRAPPER__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Xml::Linq::XProcessingInstruction* get_ProcessingInstruction()

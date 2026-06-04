@@ -6,11 +6,11 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 
-#define RPG_OUTLINESETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1558BF10)
+#define RPG_OUTLINESETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x17B4B3B0)
 
 namespace RPG
 {
-	inline static constexpr unsigned int OutlineSettings_TypeDefinitionIndex = 47783;
+	inline static constexpr unsigned int OutlineSettings_TypeDefinitionIndex = 48398;
 
 	class OutlineSettings : public ::System::Object
 	{

@@ -4,14 +4,14 @@
 
 namespace System { class String; }
 
-#define CLASS_1_945ACFB1FEBC7A2C_27__CTOR_OFFSET UNITYSDK_OFFSET(0xD4F0C60)
+#define CLASS_1_945ACFB1FEBC7A2C_27__CTOR_OFFSET UNITYSDK_OFFSET(0x13E955D0)
 
-inline static constexpr unsigned int Class_1_945ACFB1FEBC7A2C_27_TypeDefinitionIndex = 62475;
+inline static constexpr unsigned int Class_1_945ACFB1FEBC7A2C_27_TypeDefinitionIndex = 60577;
 
 class Class_1_945ACFB1FEBC7A2C_27 : public ::System::Object
 {
 public:
-	::System::String* StaticDataJsonStr; // 0x10
+	::System::String* CdnContent; // 0x10
 
 	::System::Void _ctor()
 	{

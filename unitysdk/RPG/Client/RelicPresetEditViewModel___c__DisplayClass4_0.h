@@ -6,29 +6,29 @@ namespace RPG::Client { class RelicItemData; }
 namespace RPG::Client { class RelicPresetEditViewModel; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1319E710)
-#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL___C__DISPLAYCLASS4_0___SORTINVENTORYRELICITEMS_B__0_OFFSET UNITYSDK_OFFSET(0x1319EB70)
+#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14CF2080)
+#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL___C__DISPLAYCLASS4_0___SORTINVENTORYRELICITEMS_B__0_OFFSET UNITYSDK_OFFSET(0x14CF24A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicPresetEditViewModel___c__DisplayClass4_0_TypeDefinitionIndex = 61572;
+	inline static constexpr unsigned int RelicPresetEditViewModel___c__DisplayClass4_0_TypeDefinitionIndex = 62505;
 
 	class RelicPresetEditViewModel___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::RelicItemData* planRelic; // 0x10
-		::RPG::Client::RelicPresetEditViewModel* __4__this; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* relicTypeMatchScore; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* subPropertyMatchCount; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* subPropertyMatchCount; // 0x18
+		::RPG::Client::RelicPresetEditViewModel* __4__this; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* relicTypeMatchScore; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETEDITVIEWMODEL___C__DISPLAYCLASS4_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 __SortInventoryRelicItems_b__0(::RPG::Client::RelicItemData* itemA, ::RPG::Client::RelicItemData* itemB)
+		::System::Int32 __SortInventoryRelicItems_b__0(::RPG::Client::RelicItemData* a1, ::RPG::Client::RelicItemData* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::RelicItemData*, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETEDITVIEWMODEL___C__DISPLAYCLASS4_0___SORTINVENTORYRELICITEMS_B__0_OFFSET))(this, itemA, itemB);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::RelicItemData*, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETEDITVIEWMODEL___C__DISPLAYCLASS4_0___SORTINVENTORYRELICITEMS_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -7,13 +7,13 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace UnityEngine { class RectOffset; }
 
-#define MESSAGEPACK_UNITY_RECTOFFSETFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A6CC450)
-#define MESSAGEPACK_UNITY_RECTOFFSETFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A6CC3B0)
-#define MESSAGEPACK_UNITY_RECTOFFSETFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6CC880)
+#define MESSAGEPACK_UNITY_RECTOFFSETFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B5076A0)
+#define MESSAGEPACK_UNITY_RECTOFFSETFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B507600)
+#define MESSAGEPACK_UNITY_RECTOFFSETFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B507AD0)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int RectOffsetFormatter_TypeDefinitionIndex = 10000;
+	inline static constexpr unsigned int RectOffsetFormatter_TypeDefinitionIndex = 9827;
 
 	class RectOffsetFormatter : public ::System::Object
 	{
@@ -23,14 +23,14 @@ namespace MessagePack::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_RECTOFFSETFORMATTER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Serialize(::MessagePack::MessagePackWriter& writer, ::UnityEngine::RectOffset* value, ::MessagePack::MessagePackSerializerOptions* options)
+		::System::Void Serialize(::MessagePack::MessagePackWriter& a1, ::UnityEngine::RectOffset* a2, ::MessagePack::MessagePackSerializerOptions* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter&, ::UnityEngine::RectOffset*, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_RECTOFFSETFORMATTER_SERIALIZE_OFFSET))(this, writer, value, options);
+			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter&, ::UnityEngine::RectOffset*, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_RECTOFFSETFORMATTER_SERIALIZE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::RectOffset* Deserialize(::MessagePack::MessagePackReader& reader, ::MessagePack::MessagePackSerializerOptions* options)
+		::UnityEngine::RectOffset* Deserialize(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackSerializerOptions* a2)
 		{
-			return ((::UnityEngine::RectOffset*(*)(::PVOID, ::MessagePack::MessagePackReader&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_RECTOFFSETFORMATTER_DESERIALIZE_OFFSET))(this, reader, options);
+			return ((::UnityEngine::RectOffset*(*)(::PVOID, ::MessagePack::MessagePackReader&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_RECTOFFSETFORMATTER_DESERIALIZE_OFFSET))(this, a1, a2);
 		}
 	};
 }

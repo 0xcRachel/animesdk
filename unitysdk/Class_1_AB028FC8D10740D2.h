@@ -4,10 +4,10 @@
 
 namespace RPG::Client { class PlanetFesTradingCardFriendsItem; }
 
-#define CLASS_1_AB028FC8D10740D2_COMPARE_OFFSET UNITYSDK_OFFSET(0xC654D70)
-#define CLASS_1_AB028FC8D10740D2__CTOR_OFFSET UNITYSDK_OFFSET(0xC6550A0)
+#define CLASS_1_AB028FC8D10740D2_COMPARE_OFFSET UNITYSDK_OFFSET(0x145B66E0)
+#define CLASS_1_AB028FC8D10740D2__CTOR_OFFSET UNITYSDK_OFFSET(0x145B6A10)
 
-inline static constexpr unsigned int Class_1_AB028FC8D10740D2_TypeDefinitionIndex = 61350;
+inline static constexpr unsigned int Class_1_AB028FC8D10740D2_TypeDefinitionIndex = 62274;
 
 class Class_1_AB028FC8D10740D2 : public ::System::Object
 {

@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/NotifyType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1007;
+class Class_0_16E4307DCC419505_1058;
 namespace System::Reflection { class MethodInfo; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AutoBindNotifyHandlerCreator_1_TypeDefinitionIndex = 67359;
+	inline static constexpr unsigned int AutoBindNotifyHandlerCreator_1_TypeDefinitionIndex = 68311;
 
 	template <typename T>
 	class AutoBindNotifyHandlerCreator_1 : public ::System::Object

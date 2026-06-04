@@ -3,14 +3,14 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_LEVELADVENTUREADDBUFFEVENT_GETBUFFID_OFFSET UNITYSDK_OFFSET(0xF29AF70)
-#define RPG_GAMECORE_LEVELADVENTUREADDBUFFEVENT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF29AF20)
-#define RPG_GAMECORE_LEVELADVENTUREADDBUFFEVENT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF29AED0)
-#define RPG_GAMECORE_LEVELADVENTUREADDBUFFEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xF29AEC0)
+#define RPG_GAMECORE_LEVELADVENTUREADDBUFFEVENT_GETBUFFID_OFFSET UNITYSDK_OFFSET(0x18721830)
+#define RPG_GAMECORE_LEVELADVENTUREADDBUFFEVENT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x187217E0)
+#define RPG_GAMECORE_LEVELADVENTUREADDBUFFEVENT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18721790)
+#define RPG_GAMECORE_LEVELADVENTUREADDBUFFEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18721780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAdventureAddBuffEvent_TypeDefinitionIndex = 52168;
+	inline static constexpr unsigned int LevelAdventureAddBuffEvent_TypeDefinitionIndex = 52865;
 
 	class LevelAdventureAddBuffEvent : public ::System::Object
 	{
@@ -18,9 +18,9 @@ namespace RPG::GameCore
 		::System::UInt32 _BuffID; // 0x10
 		::System::UInt32 _EntityRuntimeID; // 0x14
 
-		::System::Void _ctor(::System::UInt32 entityID, ::System::UInt32 buffID)
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELADVENTUREADDBUFFEVENT__CTOR_OFFSET))(this, entityID, buffID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELADVENTUREADDBUFFEVENT__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

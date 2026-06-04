@@ -4,9 +4,9 @@
 
 namespace System::Text::RegularExpressions { class RegexRunner; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE_GET_OFFSET UNITYSDK_OFFSET(0x16B45680)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE_RELEASE_OFFSET UNITYSDK_OFFSET(0x16B456B0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x16B45770)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE_GET_OFFSET UNITYSDK_OFFSET(0x1492A2B0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE_RELEASE_OFFSET UNITYSDK_OFFSET(0x1492A2E0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1492A3A0)
 
 namespace System::Text::RegularExpressions
 {
@@ -15,8 +15,8 @@ namespace System::Text::RegularExpressions
 	class ExclusiveReference : public ::System::Object
 	{
 	public:
-		::System::Text::RegularExpressions::RegexRunner* _ref; // 0x10
-		::System::Object* _obj; // 0x18
+		::System::Object* _obj; // 0x10
+		::System::Text::RegularExpressions::RegexRunner* _ref; // 0x18
 		::System::Int32 _locked; // 0x20
 
 		::System::Void _ctor()
@@ -29,9 +29,9 @@ namespace System::Text::RegularExpressions
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE_GET_OFFSET))(this);
 		}
 
-		::System::Void Release(::System::Object* obj)
+		::System::Void Release(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE_RELEASE_OFFSET))(this, obj);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE_RELEASE_OFFSET))(this, a1);
 		}
 	};
 }

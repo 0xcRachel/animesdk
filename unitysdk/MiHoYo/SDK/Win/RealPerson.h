@@ -9,29 +9,29 @@ namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_REALPERSON_AWAKE_OFFSET UNITYSDK_OFFSET(0x15D19700)
-#define MIHOYO_SDK_WIN_REALPERSON_BACK_OFFSET UNITYSDK_OFFSET(0x15D1A4F0)
-#define MIHOYO_SDK_WIN_REALPERSON_HIDE_OFFSET UNITYSDK_OFFSET(0x15D1A510)
-#define MIHOYO_SDK_WIN_REALPERSON_MEETPROBLEM_OFFSET UNITYSDK_OFFSET(0x15D1A4B0)
-#define MIHOYO_SDK_WIN_REALPERSON_MEETRULE_OFFSET UNITYSDK_OFFSET(0x15D1A4D0)
-#define MIHOYO_SDK_WIN_REALPERSON_NOTVERIFY_OFFSET UNITYSDK_OFFSET(0x15D1A580)
-#define MIHOYO_SDK_WIN_REALPERSON_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15D1A760)
-#define MIHOYO_SDK_WIN_REALPERSON_SETREALNAMEINFO_OFFSET UNITYSDK_OFFSET(0x15D1A710)
-#define MIHOYO_SDK_WIN_REALPERSON_SHOW_OFFSET UNITYSDK_OFFSET(0x15D1A3C0)
-#define MIHOYO_SDK_WIN_REALPERSON_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x15D19E50)
-#define MIHOYO_SDK_WIN_REALPERSON__CTOR_OFFSET UNITYSDK_OFFSET(0x15D1A7A0)
-#define MIHOYO_SDK_WIN_REALPERSON__NOTVERIFY_B__31_0_OFFSET UNITYSDK_OFFSET(0x15D1A7E0)
+#define MIHOYO_SDK_WIN_REALPERSON_AWAKE_OFFSET UNITYSDK_OFFSET(0x16B2DB20)
+#define MIHOYO_SDK_WIN_REALPERSON_BACK_OFFSET UNITYSDK_OFFSET(0x16B2E940)
+#define MIHOYO_SDK_WIN_REALPERSON_HIDE_OFFSET UNITYSDK_OFFSET(0x16B2E960)
+#define MIHOYO_SDK_WIN_REALPERSON_MEETPROBLEM_OFFSET UNITYSDK_OFFSET(0x16B2E900)
+#define MIHOYO_SDK_WIN_REALPERSON_MEETRULE_OFFSET UNITYSDK_OFFSET(0x16B2E920)
+#define MIHOYO_SDK_WIN_REALPERSON_NOTVERIFY_OFFSET UNITYSDK_OFFSET(0x16B2E9D0)
+#define MIHOYO_SDK_WIN_REALPERSON_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x16B2EBD0)
+#define MIHOYO_SDK_WIN_REALPERSON_SETREALNAMEINFO_OFFSET UNITYSDK_OFFSET(0x16B2EB80)
+#define MIHOYO_SDK_WIN_REALPERSON_SHOW_OFFSET UNITYSDK_OFFSET(0x16B2E800)
+#define MIHOYO_SDK_WIN_REALPERSON_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x16B2E2A0)
+#define MIHOYO_SDK_WIN_REALPERSON__CTOR_OFFSET UNITYSDK_OFFSET(0x16B2EBF0)
+#define MIHOYO_SDK_WIN_REALPERSON__NOTVERIFY_B__31_0_OFFSET UNITYSDK_OFFSET(0x16B2EC30)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int RealPerson_TypeDefinitionIndex = 8238;
+	inline static constexpr unsigned int RealPerson_TypeDefinitionIndex = 9141;
 
 	class RealPerson : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		static ::MiHoYo::SDK::Win::RealPerson** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::RealPerson**)Il2CppClass::FromTypeDefinitionIndex(RealPerson_TypeDefinitionIndex)->GetStaticField(0x24550);
+			return (::MiHoYo::SDK::Win::RealPerson**)Il2CppClass::FromTypeDefinitionIndex(RealPerson_TypeDefinitionIndex)->GetStaticField(0x12170);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* DescTextPath; // 0x0
@@ -67,9 +67,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALPERSON_AWAKE_OFFSET))(this);
 		}
 
-		static ::System::Void Show(::MiHoYo::SDK::AccountModel* model)
+		static ::System::Void Show(::MiHoYo::SDK::AccountModel* a1)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::AccountModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALPERSON_SHOW_OFFSET))(model);
+			return ((::System::Void(*)(::MiHoYo::SDK::AccountModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALPERSON_SHOW_OFFSET))(a1);
 		}
 
 		::System::Void updateText()
@@ -102,9 +102,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALPERSON_NOTVERIFY_OFFSET))(this);
 		}
 
-		::System::Void SetRealnameInfo(::System::String* realname, ::System::String* identityCard)
+		::System::Void SetRealnameInfo(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALPERSON_SETREALNAMEINFO_OFFSET))(this, realname, identityCard);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALPERSON_SETREALNAMEINFO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void OnDestroy()
@@ -112,9 +112,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALPERSON_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void _NotVerify_b__31_0(::MiHoYo::SDK::Confirm_ConfirmResult result)
+		::System::Void _NotVerify_b__31_0(::MiHoYo::SDK::Confirm_ConfirmResult a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm_ConfirmResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALPERSON__NOTVERIFY_B__31_0_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm_ConfirmResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALPERSON__NOTVERIFY_B__31_0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -7,36 +7,36 @@ namespace System { class String; }
 namespace System::Globalization { class CompareInfo; }
 namespace System::Globalization { class DateTimeFormatInfo; }
 
-#define SYSTEM___DTSTRING_ADVANCE_OFFSET UNITYSDK_OFFSET(0x23B6710)
-#define SYSTEM___DTSTRING_ATEND_OFFSET UNITYSDK_OFFSET(0x23B6700)
-#define SYSTEM___DTSTRING_CONSUMESUBSTRING_OFFSET UNITYSDK_OFFSET(0x23B6DA0)
-#define SYSTEM___DTSTRING_GETCHAR_OFFSET UNITYSDK_OFFSET(0x23B6B50)
-#define SYSTEM___DTSTRING_GETDIGIT_OFFSET UNITYSDK_OFFSET(0x23B6BB0)
-#define SYSTEM___DTSTRING_GETNEXTDIGIT_OFFSET UNITYSDK_OFFSET(0x23B6AC0)
-#define SYSTEM___DTSTRING_GETNEXT_OFFSET UNITYSDK_OFFSET(0x23B6690)
-#define SYSTEM___DTSTRING_GETREGULARTOKEN_OFFSET UNITYSDK_OFFSET(0x23B6780)
-#define SYSTEM___DTSTRING_GETREPEATCOUNT_OFFSET UNITYSDK_OFFSET(0x23B69E0)
-#define SYSTEM___DTSTRING_GETSEPARATORTOKEN_OFFSET UNITYSDK_OFFSET(0x23B6790)
-#define SYSTEM___DTSTRING_GETSUBSTRING_OFFSET UNITYSDK_OFFSET(0x23B6D80)
-#define SYSTEM___DTSTRING_GET_COMPAREINFO_OFFSET UNITYSDK_OFFSET(0x6469A0)
-#define SYSTEM___DTSTRING_MATCHLONGESTWORDS_OFFSET UNITYSDK_OFFSET(0x23B69D0)
-#define SYSTEM___DTSTRING_MATCHSPECIFIEDWORDS_OFFSET UNITYSDK_OFFSET(0x23B68A0)
-#define SYSTEM___DTSTRING_MATCHSPECIFIEDWORD_1_OFFSET UNITYSDK_OFFSET(0x23B6820)
-#define SYSTEM___DTSTRING_MATCHSPECIFIEDWORD_OFFSET UNITYSDK_OFFSET(0x23B67A0)
-#define SYSTEM___DTSTRING_MATCH_1_OFFSET UNITYSDK_OFFSET(0x23B6950)
-#define SYSTEM___DTSTRING_MATCH_OFFSET UNITYSDK_OFFSET(0x23B68B0)
-#define SYSTEM___DTSTRING_REMOVELEADINGINQUOTESPACES_OFFSET UNITYSDK_OFFSET(0x23B6D70)
-#define SYSTEM___DTSTRING_REMOVETRAILINGINQUOTESPACES_OFFSET UNITYSDK_OFFSET(0x23B6D60)
-#define SYSTEM___DTSTRING_SKIPWHITESPACECURRENT_OFFSET UNITYSDK_OFFSET(0x23B6CA0)
-#define SYSTEM___DTSTRING_SKIPWHITESPACES_OFFSET UNITYSDK_OFFSET(0x23B6C10)
-#define SYSTEM___DTSTRING_TRIMTAIL_OFFSET UNITYSDK_OFFSET(0x23B6D50)
-#define SYSTEM___DTSTRING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A67E4C0)
-#define SYSTEM___DTSTRING__CTOR_1_OFFSET UNITYSDK_OFFSET(0x23B6680)
-#define SYSTEM___DTSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x23B6660)
+#define SYSTEM___DTSTRING_ADVANCE_OFFSET UNITYSDK_OFFSET(0x3958C80)
+#define SYSTEM___DTSTRING_ATEND_OFFSET UNITYSDK_OFFSET(0x3958C70)
+#define SYSTEM___DTSTRING_CONSUMESUBSTRING_OFFSET UNITYSDK_OFFSET(0x39593B0)
+#define SYSTEM___DTSTRING_GETCHAR_OFFSET UNITYSDK_OFFSET(0x3959160)
+#define SYSTEM___DTSTRING_GETDIGIT_OFFSET UNITYSDK_OFFSET(0x39591C0)
+#define SYSTEM___DTSTRING_GETNEXTDIGIT_OFFSET UNITYSDK_OFFSET(0x39590D0)
+#define SYSTEM___DTSTRING_GETNEXT_OFFSET UNITYSDK_OFFSET(0x3958C00)
+#define SYSTEM___DTSTRING_GETREGULARTOKEN_OFFSET UNITYSDK_OFFSET(0x3958CF0)
+#define SYSTEM___DTSTRING_GETREPEATCOUNT_OFFSET UNITYSDK_OFFSET(0x3958FF0)
+#define SYSTEM___DTSTRING_GETSEPARATORTOKEN_OFFSET UNITYSDK_OFFSET(0x3958D00)
+#define SYSTEM___DTSTRING_GETSUBSTRING_OFFSET UNITYSDK_OFFSET(0x3959390)
+#define SYSTEM___DTSTRING_GET_COMPAREINFO_OFFSET UNITYSDK_OFFSET(0x66C010)
+#define SYSTEM___DTSTRING_MATCHLONGESTWORDS_OFFSET UNITYSDK_OFFSET(0x3958F40)
+#define SYSTEM___DTSTRING_MATCHSPECIFIEDWORDS_OFFSET UNITYSDK_OFFSET(0x3958E10)
+#define SYSTEM___DTSTRING_MATCHSPECIFIEDWORD_1_OFFSET UNITYSDK_OFFSET(0x3958D90)
+#define SYSTEM___DTSTRING_MATCHSPECIFIEDWORD_OFFSET UNITYSDK_OFFSET(0x3958D10)
+#define SYSTEM___DTSTRING_MATCH_1_OFFSET UNITYSDK_OFFSET(0x3958EC0)
+#define SYSTEM___DTSTRING_MATCH_OFFSET UNITYSDK_OFFSET(0x3958E20)
+#define SYSTEM___DTSTRING_REMOVELEADINGINQUOTESPACES_OFFSET UNITYSDK_OFFSET(0x3959380)
+#define SYSTEM___DTSTRING_REMOVETRAILINGINQUOTESPACES_OFFSET UNITYSDK_OFFSET(0x3959370)
+#define SYSTEM___DTSTRING_SKIPWHITESPACECURRENT_OFFSET UNITYSDK_OFFSET(0x39592B0)
+#define SYSTEM___DTSTRING_SKIPWHITESPACES_OFFSET UNITYSDK_OFFSET(0x3959220)
+#define SYSTEM___DTSTRING_TRIMTAIL_OFFSET UNITYSDK_OFFSET(0x3959360)
+#define SYSTEM___DTSTRING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4A9670)
+#define SYSTEM___DTSTRING__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3958BF0)
+#define SYSTEM___DTSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x3958BD0)
 
 namespace System
 {
-	inline static constexpr unsigned int __DTString_TypeDefinitionIndex = 258;
+	inline static constexpr unsigned int __DTString_TypeDefinitionIndex = 257;
 
 	struct alignas(8) __DTString
 	{
@@ -51,14 +51,14 @@ namespace System
 		::System::Globalization::CompareInfo* m_info; // 0x28
 		::System::Boolean m_checkDigitToken; // 0x30
 
-		::System::Void _ctor(::System::String* str, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Boolean checkDigitToken)
+		::System::Void _ctor(::System::String* a1, ::System::Globalization::DateTimeFormatInfo* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING__CTOR_OFFSET))(this, str, dtfi, checkDigitToken);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _ctor_1(::System::String* str, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		::System::Void _ctor_1(::System::String* a1, ::System::Globalization::DateTimeFormatInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING__CTOR_1_OFFSET))(this, str, dtfi);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
@@ -81,49 +81,49 @@ namespace System
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING_ATEND_OFFSET))(this);
 		}
 
-		::System::Boolean Advance(::System::Int32 count)
+		::System::Boolean Advance(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING_ADVANCE_OFFSET))(this, count);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING_ADVANCE_OFFSET))(this, a1);
 		}
 
-		::System::Void GetRegularToken(::System::TokenType& tokenType, ::System::Int32& tokenValue, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		::System::Void GetRegularToken(::System::TokenType& a1, ::System::Int32& a2, ::System::Globalization::DateTimeFormatInfo* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::TokenType&, ::System::Int32&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING_GETREGULARTOKEN_OFFSET))(this, tokenType, tokenValue, dtfi);
+			return ((::System::Void(*)(::PVOID, ::System::TokenType&, ::System::Int32&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING_GETREGULARTOKEN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::TokenType GetSeparatorToken(::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Int32& indexBeforeSeparator, ::System::Char& charBeforeSeparator)
+		::System::TokenType GetSeparatorToken(::System::Globalization::DateTimeFormatInfo* a1, ::System::Int32& a2, ::System::Char& a3)
 		{
-			return ((::System::TokenType(*)(::PVOID, ::System::Globalization::DateTimeFormatInfo*, ::System::Int32&, ::System::Char&))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING_GETSEPARATORTOKEN_OFFSET))(this, dtfi, indexBeforeSeparator, charBeforeSeparator);
+			return ((::System::TokenType(*)(::PVOID, ::System::Globalization::DateTimeFormatInfo*, ::System::Int32&, ::System::Char&))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING_GETSEPARATORTOKEN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean MatchSpecifiedWord(::System::String* target)
+		::System::Boolean MatchSpecifiedWord(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING_MATCHSPECIFIEDWORD_OFFSET))(this, target);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING_MATCHSPECIFIEDWORD_OFFSET))(this, a1);
 		}
 
-		::System::Boolean MatchSpecifiedWord_1(::System::String* target, ::System::Int32 endIndex)
+		::System::Boolean MatchSpecifiedWord_1(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING_MATCHSPECIFIEDWORD_1_OFFSET))(this, target, endIndex);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING_MATCHSPECIFIEDWORD_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean MatchSpecifiedWords(::System::String* target, ::System::Boolean checkWordBoundary, ::System::Int32& matchLength)
+		::System::Boolean MatchSpecifiedWords(::System::String* a1, ::System::Boolean a2, ::System::Int32& a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING_MATCHSPECIFIEDWORDS_OFFSET))(this, target, checkWordBoundary, matchLength);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING_MATCHSPECIFIEDWORDS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Match(::System::String* str)
+		::System::Boolean Match(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING_MATCH_OFFSET))(this, str);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING_MATCH_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Match_1(::System::Char ch)
+		::System::Boolean Match_1(::System::Char a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING_MATCH_1_OFFSET))(this, ch);
+			return ((::System::Boolean(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING_MATCH_1_OFFSET))(this, a1);
 		}
 
-		::System::Int32 MatchLongestWords(::Il2CppArray<::System::String*>* words, ::System::Int32& maxMatchStrLen)
+		::System::Int32 MatchLongestWords(::Il2CppArray<::System::String*>* a1, ::System::Int32& a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING_MATCHLONGESTWORDS_OFFSET))(this, words, maxMatchStrLen);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING_MATCHLONGESTWORDS_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 GetRepeatCount()
@@ -179,9 +179,9 @@ namespace System
 		*/
 
 		/*
-		::System::Void ConsumeSubString(::System::DTSubString sub)
+		::System::Void ConsumeSubString(::System::DTSubString a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::DTSubString))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING_CONSUMESUBSTRING_OFFSET))(this, sub);
+			return ((::System::Void(*)(::PVOID, ::System::DTSubString))((::PBYTE)hIl2Cpp + SYSTEM___DTSTRING_CONSUMESUBSTRING_OFFSET))(this, a1);
 		}
 		*/
 	};

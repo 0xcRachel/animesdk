@@ -4,16 +4,16 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_NETWORKING_MULTIPARTFORMFILESECTION_GET_CONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x1A6F05D0)
-#define UNITYENGINE_NETWORKING_MULTIPARTFORMFILESECTION_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0x1A6F05C0)
-#define UNITYENGINE_NETWORKING_MULTIPARTFORMFILESECTION_GET_SECTIONDATA_OFFSET UNITYSDK_OFFSET(0x1A6F05B0)
-#define UNITYENGINE_NETWORKING_MULTIPARTFORMFILESECTION_GET_SECTIONNAME_OFFSET UNITYSDK_OFFSET(0x1A6F05A0)
-#define UNITYENGINE_NETWORKING_MULTIPARTFORMFILESECTION_INIT_OFFSET UNITYSDK_OFFSET(0x1A6F04C0)
-#define UNITYENGINE_NETWORKING_MULTIPARTFORMFILESECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6F04E0)
+#define UNITYENGINE_NETWORKING_MULTIPARTFORMFILESECTION_GET_CONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x1B5160C0)
+#define UNITYENGINE_NETWORKING_MULTIPARTFORMFILESECTION_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0x1B5160B0)
+#define UNITYENGINE_NETWORKING_MULTIPARTFORMFILESECTION_GET_SECTIONDATA_OFFSET UNITYSDK_OFFSET(0x1B5160A0)
+#define UNITYENGINE_NETWORKING_MULTIPARTFORMFILESECTION_GET_SECTIONNAME_OFFSET UNITYSDK_OFFSET(0x1B516090)
+#define UNITYENGINE_NETWORKING_MULTIPARTFORMFILESECTION_INIT_OFFSET UNITYSDK_OFFSET(0x1B515FB0)
+#define UNITYENGINE_NETWORKING_MULTIPARTFORMFILESECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B515FD0)
 
 namespace UnityEngine::Networking
 {
-	inline static constexpr unsigned int MultipartFormFileSection_TypeDefinitionIndex = 5277;
+	inline static constexpr unsigned int MultipartFormFileSection_TypeDefinitionIndex = 5353;
 
 	class MultipartFormFileSection : public ::System::Object
 	{
@@ -23,14 +23,14 @@ namespace UnityEngine::Networking
 		::System::String* file; // 0x20
 		::System::String* content; // 0x28
 
-		::System::Void _ctor(::System::String* name, ::Il2CppArray<::System::Byte>* data, ::System::String* fileName, ::System::String* contentType)
+		::System::Void _ctor(::System::String* a1, ::Il2CppArray<::System::Byte>* a2, ::System::String* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_MULTIPARTFORMFILESECTION__CTOR_OFFSET))(this, name, data, fileName, contentType);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_MULTIPARTFORMFILESECTION__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Init(::System::String* name, ::Il2CppArray<::System::Byte>* data, ::System::String* fileName, ::System::String* contentType)
+		::System::Void Init(::System::String* a1, ::Il2CppArray<::System::Byte>* a2, ::System::String* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_MULTIPARTFORMFILESECTION_INIT_OFFSET))(this, name, data, fileName, contentType);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_MULTIPARTFORMFILESECTION_INIT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::String* get_sectionName()

@@ -6,27 +6,27 @@ namespace RPG::GameCore { class DynamicValue; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_2_FBC1E64DC5B2C441___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1578CC10)
-#define CLASS_2_FBC1E64DC5B2C441___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1578CC50)
-#define CLASS_2_FBC1E64DC5B2C441___C__KICKUNCONNECTEDPLAYERS_B__13_0_OFFSET UNITYSDK_OFFSET(0x1578CCC0)
-#define CLASS_2_FBC1E64DC5B2C441___C___INITROBOT_B__8_0_OFFSET UNITYSDK_OFFSET(0x1578CC60)
+#define CLASS_2_FBC1E64DC5B2C441___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x142FE5C0)
+#define CLASS_2_FBC1E64DC5B2C441___C__CTOR_OFFSET UNITYSDK_OFFSET(0x142FE600)
+#define CLASS_2_FBC1E64DC5B2C441___C__KICKUNCONNECTEDPLAYERS_B__13_0_OFFSET UNITYSDK_OFFSET(0x142FE670)
+#define CLASS_2_FBC1E64DC5B2C441___C___INITROBOT_B__8_0_OFFSET UNITYSDK_OFFSET(0x142FE610)
 
-inline static constexpr unsigned int Class_2_FBC1E64DC5B2C441___c_TypeDefinitionIndex = 34601;
+inline static constexpr unsigned int Class_2_FBC1E64DC5B2C441___c_TypeDefinitionIndex = 34884;
 
 class Class_2_FBC1E64DC5B2C441___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__8_0()
+	static ::Class_2_FBC1E64DC5B2C441___c** StaticGet___9()
 	{
-		return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_FBC1E64DC5B2C441___c_TypeDefinitionIndex)->GetStaticField(0x5C130);
+		return (::Class_2_FBC1E64DC5B2C441___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_FBC1E64DC5B2C441___c_TypeDefinitionIndex)->GetStaticField(0x4F0B0);
 	}
 	static ::System::Func_2<::System::UInt32, ::System::String*>** StaticGet___9__13_0()
 	{
-		return (::System::Func_2<::System::UInt32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_FBC1E64DC5B2C441___c_TypeDefinitionIndex)->GetStaticField(0x5C138);
+		return (::System::Func_2<::System::UInt32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_FBC1E64DC5B2C441___c_TypeDefinitionIndex)->GetStaticField(0x4F0B8);
 	}
-	static ::Class_2_FBC1E64DC5B2C441___c** StaticGet___9()
+	static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__8_0()
 	{
-		return (::Class_2_FBC1E64DC5B2C441___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_FBC1E64DC5B2C441___c_TypeDefinitionIndex)->GetStaticField(0x5C140);
+		return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_FBC1E64DC5B2C441___c_TypeDefinitionIndex)->GetStaticField(0x4F0C0);
 	}
 
 	static ::System::Void _cctor()
@@ -39,13 +39,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FBC1E64DC5B2C441___C__CTOR_OFFSET))(this);
 	}
 
-	::System::UInt32 __initRobot_b__8_0(::RPG::GameCore::DynamicValue* s)
+	::System::UInt32 __initRobot_b__8_0(::RPG::GameCore::DynamicValue* a1)
 	{
-		return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::DynamicValue*))((::PBYTE)hIl2Cpp + CLASS_2_FBC1E64DC5B2C441___C___INITROBOT_B__8_0_OFFSET))(this, s);
+		return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::DynamicValue*))((::PBYTE)hIl2Cpp + CLASS_2_FBC1E64DC5B2C441___C___INITROBOT_B__8_0_OFFSET))(this, a1);
 	}
 
-	::System::String* _KickUnconnectedPlayers_b__13_0(::System::UInt32 p)
+	::System::String* _KickUnconnectedPlayers_b__13_0(::System::UInt32 a1)
 	{
-		return ((::System::String*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_FBC1E64DC5B2C441___C__KICKUNCONNECTEDPLAYERS_B__13_0_OFFSET))(this, p);
+		return ((::System::String*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_FBC1E64DC5B2C441___C__KICKUNCONNECTEDPLAYERS_B__13_0_OFFSET))(this, a1);
 	}
 };

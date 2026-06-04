@@ -12,44 +12,44 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_E856DAA70D46D1F2_GET_HARDDEATHAREARATIO_OFFSET UNITYSDK_OFFSET(0x10624950)
-#define CLASS_1_E856DAA70D46D1F2_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x10624830)
-#define CLASS_1_E856DAA70D46D1F2_GET_INITANGLE_OFFSET UNITYSDK_OFFSET(0x10624870)
-#define CLASS_1_E856DAA70D46D1F2_GET_RADIUS_OFFSET UNITYSDK_OFFSET(0x10624850)
-#define CLASS_1_E856DAA70D46D1F2_GET_SCALE_OFFSET UNITYSDK_OFFSET(0x10624910)
-#define CLASS_1_E856DAA70D46D1F2_GET_SOFTDEATHAREARATIO_OFFSET UNITYSDK_OFFSET(0x10624930)
-#define CLASS_1_E856DAA70D46D1F2_GET_TARGETPOSTYPE_OFFSET UNITYSDK_OFFSET(0x10624970)
-#define CLASS_1_E856DAA70D46D1F2_METHOD_1_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x10624A70)
-#define CLASS_1_E856DAA70D46D1F2_METHOD_1_18D9238B9C310BFF_OFFSET UNITYSDK_OFFSET(0x10625200)
-#define CLASS_1_E856DAA70D46D1F2_METHOD_1_31AEF55B1D3B1014_OFFSET UNITYSDK_OFFSET(0x106251F0)
-#define CLASS_1_E856DAA70D46D1F2_METHOD_1_53CBBA41017A5552_OFFSET UNITYSDK_OFFSET(0x10625080)
-#define CLASS_1_E856DAA70D46D1F2_METHOD_1_C2245EC58D417830_OFFSET UNITYSDK_OFFSET(0x10624990)
-#define CLASS_1_E856DAA70D46D1F2_METHOD_1_F10A0D072D26C4BF_OFFSET UNITYSDK_OFFSET(0x10624890)
-#define CLASS_1_E856DAA70D46D1F2_SET_HARDDEATHAREARATIO_OFFSET UNITYSDK_OFFSET(0x10624960)
-#define CLASS_1_E856DAA70D46D1F2_SET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x10624840)
-#define CLASS_1_E856DAA70D46D1F2_SET_INITANGLE_OFFSET UNITYSDK_OFFSET(0x10624880)
-#define CLASS_1_E856DAA70D46D1F2_SET_RADIUS_OFFSET UNITYSDK_OFFSET(0x10624860)
-#define CLASS_1_E856DAA70D46D1F2_SET_SCALE_OFFSET UNITYSDK_OFFSET(0x10624920)
-#define CLASS_1_E856DAA70D46D1F2_SET_SOFTDEATHAREARATIO_OFFSET UNITYSDK_OFFSET(0x10624940)
-#define CLASS_1_E856DAA70D46D1F2_SET_TARGETPOSTYPE_OFFSET UNITYSDK_OFFSET(0x10624980)
-#define CLASS_1_E856DAA70D46D1F2__CTOR_OFFSET UNITYSDK_OFFSET(0x10624B30)
+#define CLASS_1_E856DAA70D46D1F2_GET_HARDDEATHAREARATIO_OFFSET UNITYSDK_OFFSET(0x16D89950)
+#define CLASS_1_E856DAA70D46D1F2_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x16D89830)
+#define CLASS_1_E856DAA70D46D1F2_GET_INITANGLE_OFFSET UNITYSDK_OFFSET(0x16D89870)
+#define CLASS_1_E856DAA70D46D1F2_GET_RADIUS_OFFSET UNITYSDK_OFFSET(0x16D89850)
+#define CLASS_1_E856DAA70D46D1F2_GET_SCALE_OFFSET UNITYSDK_OFFSET(0x16D89910)
+#define CLASS_1_E856DAA70D46D1F2_GET_SOFTDEATHAREARATIO_OFFSET UNITYSDK_OFFSET(0x16D89930)
+#define CLASS_1_E856DAA70D46D1F2_GET_TARGETPOSTYPE_OFFSET UNITYSDK_OFFSET(0x16D89970)
+#define CLASS_1_E856DAA70D46D1F2_METHOD_1_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x16D89A70)
+#define CLASS_1_E856DAA70D46D1F2_METHOD_1_18D9238B9C310BFF_OFFSET UNITYSDK_OFFSET(0x16D8A240)
+#define CLASS_1_E856DAA70D46D1F2_METHOD_1_31AEF55B1D3B1014_OFFSET UNITYSDK_OFFSET(0x16D8A230)
+#define CLASS_1_E856DAA70D46D1F2_METHOD_1_53CBBA41017A5552_OFFSET UNITYSDK_OFFSET(0x16D8A0C0)
+#define CLASS_1_E856DAA70D46D1F2_METHOD_1_C2245EC58D417830_OFFSET UNITYSDK_OFFSET(0x16D89990)
+#define CLASS_1_E856DAA70D46D1F2_METHOD_1_F10A0D072D26C4BF_OFFSET UNITYSDK_OFFSET(0x16D89890)
+#define CLASS_1_E856DAA70D46D1F2_SET_HARDDEATHAREARATIO_OFFSET UNITYSDK_OFFSET(0x16D89960)
+#define CLASS_1_E856DAA70D46D1F2_SET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x16D89840)
+#define CLASS_1_E856DAA70D46D1F2_SET_INITANGLE_OFFSET UNITYSDK_OFFSET(0x16D89880)
+#define CLASS_1_E856DAA70D46D1F2_SET_RADIUS_OFFSET UNITYSDK_OFFSET(0x16D89860)
+#define CLASS_1_E856DAA70D46D1F2_SET_SCALE_OFFSET UNITYSDK_OFFSET(0x16D89920)
+#define CLASS_1_E856DAA70D46D1F2_SET_SOFTDEATHAREARATIO_OFFSET UNITYSDK_OFFSET(0x16D89940)
+#define CLASS_1_E856DAA70D46D1F2_SET_TARGETPOSTYPE_OFFSET UNITYSDK_OFFSET(0x16D89980)
+#define CLASS_1_E856DAA70D46D1F2__CTOR_OFFSET UNITYSDK_OFFSET(0x16D89B30)
 
-inline static constexpr unsigned int Class_1_E856DAA70D46D1F2_TypeDefinitionIndex = 53143;
+inline static constexpr unsigned int Class_1_E856DAA70D46D1F2_TypeDefinitionIndex = 53853;
 
 class Class_1_E856DAA70D46D1F2 : public ::System::Object
 {
 public:
-	::Class_1_C6A5C62ABDACBCF0* Field_1_9; // 0x10
-	::CruiseOrbitBGCurvePlugin* Field_1_10; // 0x18
-	::UnityEngine::Vector3 Field_1_4; // 0x20
-	::UnityEngine::Vector3 Field_1_3; // 0x2C
-	::System::Single _Height_k__BackingField; // 0x38
-	::System::Single _Scale_k__BackingField; // 0x3C
-	::System::Single _HardDeathAreaRatio_k__BackingField; // 0x40
-	::System::Single _Radius_k__BackingField; // 0x44
-	::RPG::GameCore::OrbitTargetPosType _TargetPosType_k__BackingField; // 0x48
-	::System::Single _InitAngle_k__BackingField; // 0x4C
-	::System::Single _SoftDeathAreaRatio_k__BackingField; // 0x50
+	::CruiseOrbitBGCurvePlugin* Field_1_0; // 0x10
+	::Class_1_C6A5C62ABDACBCF0* Field_1_1; // 0x18
+	::RPG::GameCore::OrbitTargetPosType _TargetPosType_k__BackingField; // 0x20
+	::System::Single _Height_k__BackingField; // 0x24
+	::System::Single _HardDeathAreaRatio_k__BackingField; // 0x28
+	::System::Single _Scale_k__BackingField; // 0x2C
+	::System::Single _Radius_k__BackingField; // 0x30
+	::UnityEngine::Vector3 Field_1_7; // 0x34
+	::System::Single _SoftDeathAreaRatio_k__BackingField; // 0x40
+	::UnityEngine::Vector3 Field_1_9; // 0x44
+	::System::Single _InitAngle_k__BackingField; // 0x50
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_2_E5D38AB31F1F266B* a2, ::UnityEngine::Transform* a3, ::CruiseOrbitBGCurvePlugin* a4)
 	{
@@ -61,9 +61,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E856DAA70D46D1F2_GET_HEIGHT_OFFSET))(this);
 	}
 
-	::System::Void set_Height(::System::Single value)
+	::System::Void set_Height(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_E856DAA70D46D1F2_SET_HEIGHT_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_E856DAA70D46D1F2_SET_HEIGHT_OFFSET))(this, a1);
 	}
 
 	::System::Single get_Radius()
@@ -71,9 +71,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E856DAA70D46D1F2_GET_RADIUS_OFFSET))(this);
 	}
 
-	::System::Void set_Radius(::System::Single value)
+	::System::Void set_Radius(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_E856DAA70D46D1F2_SET_RADIUS_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_E856DAA70D46D1F2_SET_RADIUS_OFFSET))(this, a1);
 	}
 
 	::System::Single get_InitAngle()
@@ -81,9 +81,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E856DAA70D46D1F2_GET_INITANGLE_OFFSET))(this);
 	}
 
-	::System::Void set_InitAngle(::System::Single value)
+	::System::Void set_InitAngle(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_E856DAA70D46D1F2_SET_INITANGLE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_E856DAA70D46D1F2_SET_INITANGLE_OFFSET))(this, a1);
 	}
 
 	::UnityEngine::Vector3 Method_1_F10A0D072D26C4BF()
@@ -96,9 +96,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E856DAA70D46D1F2_GET_SCALE_OFFSET))(this);
 	}
 
-	::System::Void set_Scale(::System::Single value)
+	::System::Void set_Scale(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_E856DAA70D46D1F2_SET_SCALE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_E856DAA70D46D1F2_SET_SCALE_OFFSET))(this, a1);
 	}
 
 	::System::Single get_SoftDeathAreaRatio()
@@ -106,9 +106,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E856DAA70D46D1F2_GET_SOFTDEATHAREARATIO_OFFSET))(this);
 	}
 
-	::System::Void set_SoftDeathAreaRatio(::System::Single value)
+	::System::Void set_SoftDeathAreaRatio(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_E856DAA70D46D1F2_SET_SOFTDEATHAREARATIO_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_E856DAA70D46D1F2_SET_SOFTDEATHAREARATIO_OFFSET))(this, a1);
 	}
 
 	::System::Single get_HardDeathAreaRatio()
@@ -116,9 +116,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E856DAA70D46D1F2_GET_HARDDEATHAREARATIO_OFFSET))(this);
 	}
 
-	::System::Void set_HardDeathAreaRatio(::System::Single value)
+	::System::Void set_HardDeathAreaRatio(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_E856DAA70D46D1F2_SET_HARDDEATHAREARATIO_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_E856DAA70D46D1F2_SET_HARDDEATHAREARATIO_OFFSET))(this, a1);
 	}
 
 	::RPG::GameCore::OrbitTargetPosType get_TargetPosType()
@@ -126,9 +126,9 @@ public:
 		return ((::RPG::GameCore::OrbitTargetPosType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E856DAA70D46D1F2_GET_TARGETPOSTYPE_OFFSET))(this);
 	}
 
-	::System::Void set_TargetPosType(::RPG::GameCore::OrbitTargetPosType value)
+	::System::Void set_TargetPosType(::RPG::GameCore::OrbitTargetPosType a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::OrbitTargetPosType))((::PBYTE)hIl2Cpp + CLASS_1_E856DAA70D46D1F2_SET_TARGETPOSTYPE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::OrbitTargetPosType))((::PBYTE)hIl2Cpp + CLASS_1_E856DAA70D46D1F2_SET_TARGETPOSTYPE_OFFSET))(this, a1);
 	}
 
 	::UnityEngine::Vector3 Method_1_C2245EC58D417830()

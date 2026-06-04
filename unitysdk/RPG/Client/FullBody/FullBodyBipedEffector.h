@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FullBody
 {
-	inline static constexpr unsigned int FullBodyBipedEffector_TypeDefinitionIndex = 68369;
+	inline static constexpr unsigned int FullBodyBipedEffector_TypeDefinitionIndex = 69343;
 
 	enum class FullBodyBipedEffector : ::System::Int32
 	{

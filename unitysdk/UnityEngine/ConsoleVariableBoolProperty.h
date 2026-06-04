@@ -6,25 +6,25 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_GET_BOOLVALUE_OFFSET UNITYSDK_OFFSET(0x235EF30)
-#define UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x197E4C30)
-#define UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_OP_IMPLICIT_2_OFFSET UNITYSDK_OFFSET(0x197E4C50)
-#define UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_OP_IMPLICIT_3_OFFSET UNITYSDK_OFFSET(0x197E4C70)
-#define UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x197E4C10)
-#define UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_SET_BOOLVALUE_OFFSET UNITYSDK_OFFSET(0x235EF40)
-#define UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x235EEF0)
+#define UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_GET_BOOLVALUE_OFFSET UNITYSDK_OFFSET(0x38FEA10)
+#define UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1A4D0570)
+#define UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_OP_IMPLICIT_2_OFFSET UNITYSDK_OFFSET(0x1A4D0590)
+#define UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_OP_IMPLICIT_3_OFFSET UNITYSDK_OFFSET(0x1A4D05B0)
+#define UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1A4D0550)
+#define UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_SET_BOOLVALUE_OFFSET UNITYSDK_OFFSET(0x38FEA20)
+#define UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x38FE9D0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ConsoleVariableBoolProperty_TypeDefinitionIndex = 3868;
+	inline static constexpr unsigned int ConsoleVariableBoolProperty_TypeDefinitionIndex = 4042;
 
 	struct alignas(8) ConsoleVariableBoolProperty
 	{
 		::UnityEngine::ConsoleVariableProperty property; // 0x10
 
-		::System::Void _ctor(::System::String* name, ::System::String* description, ::System::Boolean defaultValue, ::System::Action* onValueChanged)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::Boolean a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY__CTOR_OFFSET))(this, name, description, defaultValue, onValueChanged);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean get_BoolValue()
@@ -32,29 +32,29 @@ namespace UnityEngine
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_GET_BOOLVALUE_OFFSET))(this);
 		}
 
-		::System::Void set_BoolValue(::System::Boolean value)
+		::System::Void set_BoolValue(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_SET_BOOLVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_SET_BOOLVALUE_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean op_Implicit(::UnityEngine::ConsoleVariableBoolProperty property)
+		static ::System::Boolean op_Implicit(::UnityEngine::ConsoleVariableBoolProperty a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ConsoleVariableBoolProperty))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_OP_IMPLICIT_OFFSET))(property);
+			return ((::System::Boolean(*)(::UnityEngine::ConsoleVariableBoolProperty))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_OP_IMPLICIT_OFFSET))(a1);
 		}
 
-		static ::System::Int32 op_Implicit_1(::UnityEngine::ConsoleVariableBoolProperty property)
+		static ::System::Int32 op_Implicit_1(::UnityEngine::ConsoleVariableBoolProperty a1)
 		{
-			return ((::System::Int32(*)(::UnityEngine::ConsoleVariableBoolProperty))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_OP_IMPLICIT_1_OFFSET))(property);
+			return ((::System::Int32(*)(::UnityEngine::ConsoleVariableBoolProperty))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_OP_IMPLICIT_1_OFFSET))(a1);
 		}
 
-		static ::System::String* op_Implicit_2(::UnityEngine::ConsoleVariableBoolProperty property)
+		static ::System::String* op_Implicit_2(::UnityEngine::ConsoleVariableBoolProperty a1)
 		{
-			return ((::System::String*(*)(::UnityEngine::ConsoleVariableBoolProperty))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_OP_IMPLICIT_2_OFFSET))(property);
+			return ((::System::String*(*)(::UnityEngine::ConsoleVariableBoolProperty))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_OP_IMPLICIT_2_OFFSET))(a1);
 		}
 
-		static ::System::Single op_Implicit_3(::UnityEngine::ConsoleVariableBoolProperty property)
+		static ::System::Single op_Implicit_3(::UnityEngine::ConsoleVariableBoolProperty a1)
 		{
-			return ((::System::Single(*)(::UnityEngine::ConsoleVariableBoolProperty))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_OP_IMPLICIT_3_OFFSET))(property);
+			return ((::System::Single(*)(::UnityEngine::ConsoleVariableBoolProperty))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLEBOOLPROPERTY_OP_IMPLICIT_3_OFFSET))(a1);
 		}
 	};
 }

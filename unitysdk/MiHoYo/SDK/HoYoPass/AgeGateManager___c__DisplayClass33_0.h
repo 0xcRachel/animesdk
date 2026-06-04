@@ -8,22 +8,22 @@ namespace MiHoYo::SDK::HoYoPass { class AgeGateManager; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x153C87D0)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS33_0__SHOWAGEAPPEALCONFIRMDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x153CA4A0)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS33_0__SHOWAGEAPPEALCONFIRMDIALOG_B__1_OFFSET UNITYSDK_OFFSET(0x153CA500)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS33_0__SHOWAGEAPPEALCONFIRMDIALOG_B__2_OFFSET UNITYSDK_OFFSET(0x153CA6D0)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS33_0__SHOWAGEAPPEALCONFIRMDIALOG_B__3_OFFSET UNITYSDK_OFFSET(0x153CA670)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C3BE20)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS33_0__SHOWAGEAPPEALCONFIRMDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x14C3DBB0)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS33_0__SHOWAGEAPPEALCONFIRMDIALOG_B__1_OFFSET UNITYSDK_OFFSET(0x14C3DC20)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS33_0__SHOWAGEAPPEALCONFIRMDIALOG_B__2_OFFSET UNITYSDK_OFFSET(0x14C3DE10)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS33_0__SHOWAGEAPPEALCONFIRMDIALOG_B__3_OFFSET UNITYSDK_OFFSET(0x14C3DDA0)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int AgeGateManager___c__DisplayClass33_0_TypeDefinitionIndex = 7305;
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass33_0_TypeDefinitionIndex = 8208;
 
 	class AgeGateManager___c__DisplayClass33_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::JSONObject* cbody; // 0x10
-		::MiHoYo::SDK::HoYoPass::AgeGateManager* __4__this; // 0x18
-		::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONNode*>* __9__3; // 0x20
+		::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONNode*>* __9__3; // 0x10
+		::MiHoYo::SDK::JSONObject* cbody; // 0x18
+		::MiHoYo::SDK::HoYoPass::AgeGateManager* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -40,9 +40,9 @@ namespace MiHoYo::SDK::HoYoPass
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS33_0__SHOWAGEAPPEALCONFIRMDIALOG_B__1_OFFSET))(this);
 		}
 
-		::System::Void _ShowAgeAppealConfirmDialog_b__3(::System::Int32 retcode, ::System::String* type, ::MiHoYo::SDK::JSONNode* result)
+		::System::Void _ShowAgeAppealConfirmDialog_b__3(::System::Int32 a1, ::System::String* a2, ::MiHoYo::SDK::JSONNode* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS33_0__SHOWAGEAPPEALCONFIRMDIALOG_B__3_OFFSET))(this, retcode, type, result);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS33_0__SHOWAGEAPPEALCONFIRMDIALOG_B__3_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ShowAgeAppealConfirmDialog_b__2()

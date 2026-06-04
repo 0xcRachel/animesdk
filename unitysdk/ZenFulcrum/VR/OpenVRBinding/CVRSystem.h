@@ -26,95 +26,95 @@
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_ACKNOWLEDGEQUIT_EXITING_OFFSET UNITYSDK_OFFSET(0x18A07480)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_ACKNOWLEDGEQUIT_USERPROMPT_OFFSET UNITYSDK_OFFSET(0x18A074A0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_APPLYTRANSFORM_OFFSET UNITYSDK_OFFSET(0x18A06140)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_CAPTUREINPUTFOCUS_OFFSET UNITYSDK_OFFSET(0x18A073E0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_COMPUTEDISTORTION_OFFSET UNITYSDK_OFFSET(0x18A05E90)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_DRIVERDEBUGREQUEST_OFFSET UNITYSDK_OFFSET(0x18A07440)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETBOOLTRACKEDDEVICEPROPERTY_OFFSET UNITYSDK_OFFSET(0x18A061E0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETBUTTONIDNAMEFROMENUM_OFFSET UNITYSDK_OFFSET(0x18A07340)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETCONTROLLERAXISTYPENAMEFROMENUM_OFFSET UNITYSDK_OFFSET(0x18A07390)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETCONTROLLERROLEFORTRACKEDDEVICEINDEX_OFFSET UNITYSDK_OFFSET(0x18A06180)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETCONTROLLERSTATEWITHPOSE_OFFSET UNITYSDK_OFFSET(0x18A06D90)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETCONTROLLERSTATE_OFFSET UNITYSDK_OFFSET(0x18A06880)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETD3D9ADAPTERINDEX_OFFSET UNITYSDK_OFFSET(0x18A05F30)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETDEVICETOABSOLUTETRACKINGPOSE_OFFSET UNITYSDK_OFFSET(0x18A05FF0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETDXGIOUTPUTINFO_OFFSET UNITYSDK_OFFSET(0x18A05F50)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETEVENTTYPENAMEFROMENUM_OFFSET UNITYSDK_OFFSET(0x18A067F0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETEYETOHEADTRANSFORM_OFFSET UNITYSDK_OFFSET(0x18A05EB0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETFLOATTRACKEDDEVICEPROPERTY_OFFSET UNITYSDK_OFFSET(0x18A06200)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETHIDDENAREAMESH_OFFSET UNITYSDK_OFFSET(0x18A06840)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETINT32TRACKEDDEVICEPROPERTY_OFFSET UNITYSDK_OFFSET(0x18A06220)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETMATRIX34TRACKEDDEVICEPROPERTY_OFFSET UNITYSDK_OFFSET(0x18A06260)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETOUTPUTDEVICE_OFFSET UNITYSDK_OFFSET(0x18A05F80)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETPROJECTIONMATRIX_OFFSET UNITYSDK_OFFSET(0x18A05DE0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETPROJECTIONRAW_OFFSET UNITYSDK_OFFSET(0x18A05E40)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETPROPERRORNAMEFROMENUM_OFFSET UNITYSDK_OFFSET(0x18A062E0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETRAWZEROPOSETOSTANDINGABSOLUTETRACKINGPOSE_OFFSET UNITYSDK_OFFSET(0x18A06090)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETRECOMMENDEDRENDERTARGETSIZE_OFFSET UNITYSDK_OFFSET(0x18A05DB0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETSEATEDZEROPOSETOSTANDINGABSOLUTETRACKINGPOSE_OFFSET UNITYSDK_OFFSET(0x18A06040)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETSORTEDTRACKEDDEVICEINDICESOFCLASS_OFFSET UNITYSDK_OFFSET(0x18A060E0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETSTRINGTRACKEDDEVICEPROPERTY_OFFSET UNITYSDK_OFFSET(0x18A062C0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETTIMESINCELASTVSYNC_OFFSET UNITYSDK_OFFSET(0x18A05F00)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETTRACKEDDEVICEACTIVITYLEVEL_OFFSET UNITYSDK_OFFSET(0x18A06120)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETTRACKEDDEVICECLASS_OFFSET UNITYSDK_OFFSET(0x18A061A0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETTRACKEDDEVICEINDEXFORCONTROLLERROLE_OFFSET UNITYSDK_OFFSET(0x18A06160)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETUINT64TRACKEDDEVICEPROPERTY_OFFSET UNITYSDK_OFFSET(0x18A06240)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_ISDISPLAYONDESKTOP_OFFSET UNITYSDK_OFFSET(0x18A05FB0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_ISINPUTFOCUSCAPTUREDBYANOTHERPROCESS_OFFSET UNITYSDK_OFFSET(0x18A07420)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_ISTRACKEDDEVICECONNECTED_OFFSET UNITYSDK_OFFSET(0x18A061C0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_PERFORMFIRMWAREUPDATE_OFFSET UNITYSDK_OFFSET(0x18A07460)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_POLLNEXTEVENTWITHPOSE_OFFSET UNITYSDK_OFFSET(0x18A067D0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_POLLNEXTEVENT_OFFSET UNITYSDK_OFFSET(0x18A06330)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_RELEASEINPUTFOCUS_OFFSET UNITYSDK_OFFSET(0x18A07400)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_RESETSEATEDZEROPOSE_OFFSET UNITYSDK_OFFSET(0x18A06020)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_SETDISPLAYVISIBILITY_OFFSET UNITYSDK_OFFSET(0x18A05FD0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_TRIGGERHAPTICPULSE_OFFSET UNITYSDK_OFFSET(0x18A07320)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18A05CC0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_ACKNOWLEDGEQUIT_EXITING_OFFSET UNITYSDK_OFFSET(0x1A0EE5A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_ACKNOWLEDGEQUIT_USERPROMPT_OFFSET UNITYSDK_OFFSET(0x1A0EE5D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_APPLYTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1A0ED8F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_CAPTUREINPUTFOCUS_OFFSET UNITYSDK_OFFSET(0x1A0EE4A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_COMPUTEDISTORTION_OFFSET UNITYSDK_OFFSET(0x1A0ED5A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_DRIVERDEBUGREQUEST_OFFSET UNITYSDK_OFFSET(0x1A0EE530)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETBOOLTRACKEDDEVICEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1A0ED9E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETBUTTONIDNAMEFROMENUM_OFFSET UNITYSDK_OFFSET(0x1A0EE400)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETCONTROLLERAXISTYPENAMEFROMENUM_OFFSET UNITYSDK_OFFSET(0x1A0EE450)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETCONTROLLERROLEFORTRACKEDDEVICEINDEX_OFFSET UNITYSDK_OFFSET(0x1A0ED950)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETCONTROLLERSTATEWITHPOSE_OFFSET UNITYSDK_OFFSET(0x1A0EE110)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETCONTROLLERSTATE_OFFSET UNITYSDK_OFFSET(0x1A0EDEA0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETD3D9ADAPTERINDEX_OFFSET UNITYSDK_OFFSET(0x1A0ED670)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETDEVICETOABSOLUTETRACKINGPOSE_OFFSET UNITYSDK_OFFSET(0x1A0ED760)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETDXGIOUTPUTINFO_OFFSET UNITYSDK_OFFSET(0x1A0ED6A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETEVENTTYPENAMEFROMENUM_OFFSET UNITYSDK_OFFSET(0x1A0EDE10)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETEYETOHEADTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1A0ED5E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETFLOATTRACKEDDEVICEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1A0EDA10)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETHIDDENAREAMESH_OFFSET UNITYSDK_OFFSET(0x1A0EDE60)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETINT32TRACKEDDEVICEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1A0EDA40)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETMATRIX34TRACKEDDEVICEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1A0EDAA0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETOUTPUTDEVICE_OFFSET UNITYSDK_OFFSET(0x1A0ED6D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETPROJECTIONMATRIX_OFFSET UNITYSDK_OFFSET(0x1A0ED4D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETPROJECTIONRAW_OFFSET UNITYSDK_OFFSET(0x1A0ED540)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETPROPERRORNAMEFROMENUM_OFFSET UNITYSDK_OFFSET(0x1A0EDB50)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETRAWZEROPOSETOSTANDINGABSOLUTETRACKINGPOSE_OFFSET UNITYSDK_OFFSET(0x1A0ED820)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETRECOMMENDEDRENDERTARGETSIZE_OFFSET UNITYSDK_OFFSET(0x1A0ED490)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETSEATEDZEROPOSETOSTANDINGABSOLUTETRACKINGPOSE_OFFSET UNITYSDK_OFFSET(0x1A0ED7D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETSORTEDTRACKEDDEVICEINDICESOFCLASS_OFFSET UNITYSDK_OFFSET(0x1A0ED870)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETSTRINGTRACKEDDEVICEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1A0EDB00)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETTIMESINCELASTVSYNC_OFFSET UNITYSDK_OFFSET(0x1A0ED630)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETTRACKEDDEVICEACTIVITYLEVEL_OFFSET UNITYSDK_OFFSET(0x1A0ED8C0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETTRACKEDDEVICECLASS_OFFSET UNITYSDK_OFFSET(0x1A0ED980)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETTRACKEDDEVICEINDEXFORCONTROLLERROLE_OFFSET UNITYSDK_OFFSET(0x1A0ED920)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETUINT64TRACKEDDEVICEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1A0EDA70)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_ISDISPLAYONDESKTOP_OFFSET UNITYSDK_OFFSET(0x1A0ED700)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_ISINPUTFOCUSCAPTUREDBYANOTHERPROCESS_OFFSET UNITYSDK_OFFSET(0x1A0EE500)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_ISTRACKEDDEVICECONNECTED_OFFSET UNITYSDK_OFFSET(0x1A0ED9B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_PERFORMFIRMWAREUPDATE_OFFSET UNITYSDK_OFFSET(0x1A0EE570)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_POLLNEXTEVENTWITHPOSE_OFFSET UNITYSDK_OFFSET(0x1A0EDDD0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_POLLNEXTEVENT_OFFSET UNITYSDK_OFFSET(0x1A0EDBA0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_RELEASEINPUTFOCUS_OFFSET UNITYSDK_OFFSET(0x1A0EE4D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_RESETSEATEDZEROPOSE_OFFSET UNITYSDK_OFFSET(0x1A0ED7A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_SETDISPLAYVISIBILITY_OFFSET UNITYSDK_OFFSET(0x1A0ED730)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_TRIGGERHAPTICPULSE_OFFSET UNITYSDK_OFFSET(0x1A0EE3D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0ED3B0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int CVRSystem_TypeDefinitionIndex = 35951;
+	inline static constexpr unsigned int CVRSystem_TypeDefinitionIndex = 36251;
 
 	class CVRSystem : public ::System::Object
 	{
 	public:
 		::ZenFulcrum::VR::OpenVRBinding::IVRSystem FnTable; // 0x10
 
-		::System::Void _ctor(::System::IntPtr pInterface)
+		::System::Void _ctor(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM__CTOR_OFFSET))(this, pInterface);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void GetRecommendedRenderTargetSize(::System::UInt32& pnWidth, ::System::UInt32& pnHeight)
+		::System::Void GetRecommendedRenderTargetSize(::System::UInt32& a1, ::System::UInt32& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32&, ::System::UInt32&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETRECOMMENDEDRENDERTARGETSIZE_OFFSET))(this, pnWidth, pnHeight);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32&, ::System::UInt32&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETRECOMMENDEDRENDERTARGETSIZE_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::HmdMatrix44_t GetProjectionMatrix(::ZenFulcrum::VR::OpenVRBinding::EVREye eEye, ::System::Single fNearZ, ::System::Single fFarZ)
+		::ZenFulcrum::VR::OpenVRBinding::HmdMatrix44_t GetProjectionMatrix(::ZenFulcrum::VR::OpenVRBinding::EVREye a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::HmdMatrix44_t(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREye, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETPROJECTIONMATRIX_OFFSET))(this, eEye, fNearZ, fFarZ);
+			return ((::ZenFulcrum::VR::OpenVRBinding::HmdMatrix44_t(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREye, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETPROJECTIONMATRIX_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void GetProjectionRaw(::ZenFulcrum::VR::OpenVRBinding::EVREye eEye, ::System::Single& pfLeft, ::System::Single& pfRight, ::System::Single& pfTop, ::System::Single& pfBottom)
+		::System::Void GetProjectionRaw(::ZenFulcrum::VR::OpenVRBinding::EVREye a1, ::System::Single& a2, ::System::Single& a3, ::System::Single& a4, ::System::Single& a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREye, ::System::Single&, ::System::Single&, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETPROJECTIONRAW_OFFSET))(this, eEye, pfLeft, pfRight, pfTop, pfBottom);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREye, ::System::Single&, ::System::Single&, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETPROJECTIONRAW_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean ComputeDistortion(::ZenFulcrum::VR::OpenVRBinding::EVREye eEye, ::System::Single fU, ::System::Single fV, ::ZenFulcrum::VR::OpenVRBinding::DistortionCoordinates_t& pDistortionCoordinates)
+		::System::Boolean ComputeDistortion(::ZenFulcrum::VR::OpenVRBinding::EVREye a1, ::System::Single a2, ::System::Single a3, ::ZenFulcrum::VR::OpenVRBinding::DistortionCoordinates_t& a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREye, ::System::Single, ::System::Single, ::ZenFulcrum::VR::OpenVRBinding::DistortionCoordinates_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_COMPUTEDISTORTION_OFFSET))(this, eEye, fU, fV, pDistortionCoordinates);
+			return ((::System::Boolean(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREye, ::System::Single, ::System::Single, ::ZenFulcrum::VR::OpenVRBinding::DistortionCoordinates_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_COMPUTEDISTORTION_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t GetEyeToHeadTransform(::ZenFulcrum::VR::OpenVRBinding::EVREye eEye)
+		::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t GetEyeToHeadTransform(::ZenFulcrum::VR::OpenVRBinding::EVREye a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREye))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETEYETOHEADTRANSFORM_OFFSET))(this, eEye);
+			return ((::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREye))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETEYETOHEADTRANSFORM_OFFSET))(this, a1);
 		}
 
-		::System::Boolean GetTimeSinceLastVsync(::System::Single& pfSecondsSinceLastVsync, ::System::UInt64& pulFrameCounter)
+		::System::Boolean GetTimeSinceLastVsync(::System::Single& a1, ::System::UInt64& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single&, ::System::UInt64&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETTIMESINCELASTVSYNC_OFFSET))(this, pfSecondsSinceLastVsync, pulFrameCounter);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single&, ::System::UInt64&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETTIMESINCELASTVSYNC_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 GetD3D9AdapterIndex()
@@ -122,14 +122,14 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETD3D9ADAPTERINDEX_OFFSET))(this);
 		}
 
-		::System::Void GetDXGIOutputInfo(::System::Int32& pnAdapterIndex)
+		::System::Void GetDXGIOutputInfo(::System::Int32& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETDXGIOUTPUTINFO_OFFSET))(this, pnAdapterIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Int32&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETDXGIOUTPUTINFO_OFFSET))(this, a1);
 		}
 
-		::System::Void GetOutputDevice(::System::UInt64& pnDevice, ::ZenFulcrum::VR::OpenVRBinding::ETextureType textureType, ::System::IntPtr pInstance)
+		::System::Void GetOutputDevice(::System::UInt64& a1, ::ZenFulcrum::VR::OpenVRBinding::ETextureType a2, ::System::IntPtr a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64&, ::ZenFulcrum::VR::OpenVRBinding::ETextureType, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETOUTPUTDEVICE_OFFSET))(this, pnDevice, textureType, pInstance);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64&, ::ZenFulcrum::VR::OpenVRBinding::ETextureType, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETOUTPUTDEVICE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean IsDisplayOnDesktop()
@@ -137,14 +137,14 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_ISDISPLAYONDESKTOP_OFFSET))(this);
 		}
 
-		::System::Boolean SetDisplayVisibility(::System::Boolean bIsVisibleOnDesktop)
+		::System::Boolean SetDisplayVisibility(::System::Boolean a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_SETDISPLAYVISIBILITY_OFFSET))(this, bIsVisibleOnDesktop);
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_SETDISPLAYVISIBILITY_OFFSET))(this, a1);
 		}
 
-		::System::Void GetDeviceToAbsoluteTrackingPose(::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin eOrigin, ::System::Single fPredictedSecondsToPhotonsFromNow, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>* pTrackedDevicePoseArray)
+		::System::Void GetDeviceToAbsoluteTrackingPose(::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin a1, ::System::Single a2, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin, ::System::Single, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETDEVICETOABSOLUTETRACKINGPOSE_OFFSET))(this, eOrigin, fPredictedSecondsToPhotonsFromNow, pTrackedDevicePoseArray);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin, ::System::Single, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETDEVICETOABSOLUTETRACKINGPOSE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void ResetSeatedZeroPose()
@@ -162,119 +162,119 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETRAWZEROPOSETOSTANDINGABSOLUTETRACKINGPOSE_OFFSET))(this);
 		}
 
-		::System::UInt32 GetSortedTrackedDeviceIndicesOfClass(::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceClass eTrackedDeviceClass, ::Il2CppArray<::System::UInt32>* punTrackedDeviceIndexArray, ::System::UInt32 unRelativeToTrackedDeviceIndex)
+		::System::UInt32 GetSortedTrackedDeviceIndicesOfClass(::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceClass a1, ::Il2CppArray<::System::UInt32>* a2, ::System::UInt32 a3)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceClass, ::Il2CppArray<::System::UInt32>*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETSORTEDTRACKEDDEVICEINDICESOFCLASS_OFFSET))(this, eTrackedDeviceClass, punTrackedDeviceIndexArray, unRelativeToTrackedDeviceIndex);
+			return ((::System::UInt32(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceClass, ::Il2CppArray<::System::UInt32>*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETSORTEDTRACKEDDEVICEINDICESOFCLASS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EDeviceActivityLevel GetTrackedDeviceActivityLevel(::System::UInt32 unDeviceId)
+		::ZenFulcrum::VR::OpenVRBinding::EDeviceActivityLevel GetTrackedDeviceActivityLevel(::System::UInt32 a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EDeviceActivityLevel(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETTRACKEDDEVICEACTIVITYLEVEL_OFFSET))(this, unDeviceId);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EDeviceActivityLevel(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETTRACKEDDEVICEACTIVITYLEVEL_OFFSET))(this, a1);
 		}
 
-		::System::Void ApplyTransform(::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t& pOutputPose, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t& pTrackedDevicePose, ::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t& pTransform)
+		::System::Void ApplyTransform(::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t& a1, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t& a2, ::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t&, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t&, ::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_APPLYTRANSFORM_OFFSET))(this, pOutputPose, pTrackedDevicePose, pTransform);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t&, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t&, ::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_APPLYTRANSFORM_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt32 GetTrackedDeviceIndexForControllerRole(::ZenFulcrum::VR::OpenVRBinding::ETrackedControllerRole unDeviceType)
+		::System::UInt32 GetTrackedDeviceIndexForControllerRole(::ZenFulcrum::VR::OpenVRBinding::ETrackedControllerRole a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::ETrackedControllerRole))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETTRACKEDDEVICEINDEXFORCONTROLLERROLE_OFFSET))(this, unDeviceType);
+			return ((::System::UInt32(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::ETrackedControllerRole))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETTRACKEDDEVICEINDEXFORCONTROLLERROLE_OFFSET))(this, a1);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::ETrackedControllerRole GetControllerRoleForTrackedDeviceIndex(::System::UInt32 unDeviceIndex)
+		::ZenFulcrum::VR::OpenVRBinding::ETrackedControllerRole GetControllerRoleForTrackedDeviceIndex(::System::UInt32 a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::ETrackedControllerRole(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETCONTROLLERROLEFORTRACKEDDEVICEINDEX_OFFSET))(this, unDeviceIndex);
+			return ((::ZenFulcrum::VR::OpenVRBinding::ETrackedControllerRole(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETCONTROLLERROLEFORTRACKEDDEVICEINDEX_OFFSET))(this, a1);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceClass GetTrackedDeviceClass(::System::UInt32 unDeviceIndex)
+		::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceClass GetTrackedDeviceClass(::System::UInt32 a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceClass(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETTRACKEDDEVICECLASS_OFFSET))(this, unDeviceIndex);
+			return ((::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceClass(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETTRACKEDDEVICECLASS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsTrackedDeviceConnected(::System::UInt32 unDeviceIndex)
+		::System::Boolean IsTrackedDeviceConnected(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_ISTRACKEDDEVICECONNECTED_OFFSET))(this, unDeviceIndex);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_ISTRACKEDDEVICECONNECTED_OFFSET))(this, a1);
 		}
 
-		::System::Boolean GetBoolTrackedDeviceProperty(::System::UInt32 unDeviceIndex, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty prop, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError& pError)
+		::System::Boolean GetBoolTrackedDeviceProperty(::System::UInt32 a1, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty a2, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError& a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETBOOLTRACKEDDEVICEPROPERTY_OFFSET))(this, unDeviceIndex, prop, pError);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETBOOLTRACKEDDEVICEPROPERTY_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single GetFloatTrackedDeviceProperty(::System::UInt32 unDeviceIndex, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty prop, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError& pError)
+		::System::Single GetFloatTrackedDeviceProperty(::System::UInt32 a1, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty a2, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError& a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETFLOATTRACKEDDEVICEPROPERTY_OFFSET))(this, unDeviceIndex, prop, pError);
+			return ((::System::Single(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETFLOATTRACKEDDEVICEPROPERTY_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 GetInt32TrackedDeviceProperty(::System::UInt32 unDeviceIndex, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty prop, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError& pError)
+		::System::Int32 GetInt32TrackedDeviceProperty(::System::UInt32 a1, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty a2, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError& a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETINT32TRACKEDDEVICEPROPERTY_OFFSET))(this, unDeviceIndex, prop, pError);
+			return ((::System::Int32(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETINT32TRACKEDDEVICEPROPERTY_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 GetUint64TrackedDeviceProperty(::System::UInt32 unDeviceIndex, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty prop, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError& pError)
+		::System::UInt64 GetUint64TrackedDeviceProperty(::System::UInt32 a1, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty a2, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError& a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETUINT64TRACKEDDEVICEPROPERTY_OFFSET))(this, unDeviceIndex, prop, pError);
+			return ((::System::UInt64(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETUINT64TRACKEDDEVICEPROPERTY_OFFSET))(this, a1, a2, a3);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t GetMatrix34TrackedDeviceProperty(::System::UInt32 unDeviceIndex, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty prop, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError& pError)
+		::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t GetMatrix34TrackedDeviceProperty(::System::UInt32 a1, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty a2, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError& a3)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETMATRIX34TRACKEDDEVICEPROPERTY_OFFSET))(this, unDeviceIndex, prop, pError);
+			return ((::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETMATRIX34TRACKEDDEVICEPROPERTY_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt32 GetStringTrackedDeviceProperty(::System::UInt32 unDeviceIndex, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty prop, ::System::Text::StringBuilder* pchValue, ::System::UInt32 unBufferSize, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError& pError)
+		::System::UInt32 GetStringTrackedDeviceProperty(::System::UInt32 a1, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty a2, ::System::Text::StringBuilder* a3, ::System::UInt32 a4, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError& a5)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty, ::System::Text::StringBuilder*, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETSTRINGTRACKEDDEVICEPROPERTY_OFFSET))(this, unDeviceIndex, prop, pchValue, unBufferSize, pError);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::ETrackedDeviceProperty, ::System::Text::StringBuilder*, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETSTRINGTRACKEDDEVICEPROPERTY_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::String* GetPropErrorNameFromEnum(::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError error)
+		::System::String* GetPropErrorNameFromEnum(::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETPROPERRORNAMEFROMENUM_OFFSET))(this, error);
+			return ((::System::String*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::ETrackedPropertyError))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETPROPERRORNAMEFROMENUM_OFFSET))(this, a1);
 		}
 
-		::System::Boolean PollNextEvent(::ZenFulcrum::VR::OpenVRBinding::VREvent_t& pEvent, ::System::UInt32 uncbVREvent)
+		::System::Boolean PollNextEvent(::ZenFulcrum::VR::OpenVRBinding::VREvent_t& a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::VREvent_t&, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_POLLNEXTEVENT_OFFSET))(this, pEvent, uncbVREvent);
+			return ((::System::Boolean(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::VREvent_t&, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_POLLNEXTEVENT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean PollNextEventWithPose(::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin eOrigin, ::ZenFulcrum::VR::OpenVRBinding::VREvent_t& pEvent, ::System::UInt32 uncbVREvent, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t& pTrackedDevicePose)
+		::System::Boolean PollNextEventWithPose(::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin a1, ::ZenFulcrum::VR::OpenVRBinding::VREvent_t& a2, ::System::UInt32 a3, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t& a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin, ::ZenFulcrum::VR::OpenVRBinding::VREvent_t&, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_POLLNEXTEVENTWITHPOSE_OFFSET))(this, eOrigin, pEvent, uncbVREvent, pTrackedDevicePose);
+			return ((::System::Boolean(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin, ::ZenFulcrum::VR::OpenVRBinding::VREvent_t&, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_POLLNEXTEVENTWITHPOSE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::String* GetEventTypeNameFromEnum(::ZenFulcrum::VR::OpenVRBinding::EVREventType eType)
+		::System::String* GetEventTypeNameFromEnum(::ZenFulcrum::VR::OpenVRBinding::EVREventType a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREventType))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETEVENTTYPENAMEFROMENUM_OFFSET))(this, eType);
+			return ((::System::String*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREventType))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETEVENTTYPENAMEFROMENUM_OFFSET))(this, a1);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::HiddenAreaMesh_t GetHiddenAreaMesh(::ZenFulcrum::VR::OpenVRBinding::EVREye eEye, ::ZenFulcrum::VR::OpenVRBinding::EHiddenAreaMeshType type)
+		::ZenFulcrum::VR::OpenVRBinding::HiddenAreaMesh_t GetHiddenAreaMesh(::ZenFulcrum::VR::OpenVRBinding::EVREye a1, ::ZenFulcrum::VR::OpenVRBinding::EHiddenAreaMeshType a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::HiddenAreaMesh_t(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREye, ::ZenFulcrum::VR::OpenVRBinding::EHiddenAreaMeshType))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETHIDDENAREAMESH_OFFSET))(this, eEye, type);
+			return ((::ZenFulcrum::VR::OpenVRBinding::HiddenAreaMesh_t(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREye, ::ZenFulcrum::VR::OpenVRBinding::EHiddenAreaMeshType))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETHIDDENAREAMESH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean GetControllerState(::System::UInt32 unControllerDeviceIndex, ::ZenFulcrum::VR::OpenVRBinding::VRControllerState_t& pControllerState, ::System::UInt32 unControllerStateSize)
+		::System::Boolean GetControllerState(::System::UInt32 a1, ::ZenFulcrum::VR::OpenVRBinding::VRControllerState_t& a2, ::System::UInt32 a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::VRControllerState_t&, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETCONTROLLERSTATE_OFFSET))(this, unControllerDeviceIndex, pControllerState, unControllerStateSize);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::VRControllerState_t&, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETCONTROLLERSTATE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean GetControllerStateWithPose(::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin eOrigin, ::System::UInt32 unControllerDeviceIndex, ::ZenFulcrum::VR::OpenVRBinding::VRControllerState_t& pControllerState, ::System::UInt32 unControllerStateSize, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t& pTrackedDevicePose)
+		::System::Boolean GetControllerStateWithPose(::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin a1, ::System::UInt32 a2, ::ZenFulcrum::VR::OpenVRBinding::VRControllerState_t& a3, ::System::UInt32 a4, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t& a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::VRControllerState_t&, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETCONTROLLERSTATEWITHPOSE_OFFSET))(this, eOrigin, unControllerDeviceIndex, pControllerState, unControllerStateSize, pTrackedDevicePose);
+			return ((::System::Boolean(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::VRControllerState_t&, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETCONTROLLERSTATEWITHPOSE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void TriggerHapticPulse(::System::UInt32 unControllerDeviceIndex, ::System::UInt32 unAxisId, ::System::Char usDurationMicroSec)
+		::System::Void TriggerHapticPulse(::System::UInt32 a1, ::System::UInt32 a2, ::System::Char a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Char))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_TRIGGERHAPTICPULSE_OFFSET))(this, unControllerDeviceIndex, unAxisId, usDurationMicroSec);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Char))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_TRIGGERHAPTICPULSE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::String* GetButtonIdNameFromEnum(::ZenFulcrum::VR::OpenVRBinding::EVRButtonId eButtonId)
+		::System::String* GetButtonIdNameFromEnum(::ZenFulcrum::VR::OpenVRBinding::EVRButtonId a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRButtonId))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETBUTTONIDNAMEFROMENUM_OFFSET))(this, eButtonId);
+			return ((::System::String*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRButtonId))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETBUTTONIDNAMEFROMENUM_OFFSET))(this, a1);
 		}
 
-		::System::String* GetControllerAxisTypeNameFromEnum(::ZenFulcrum::VR::OpenVRBinding::EVRControllerAxisType eAxisType)
+		::System::String* GetControllerAxisTypeNameFromEnum(::ZenFulcrum::VR::OpenVRBinding::EVRControllerAxisType a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRControllerAxisType))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETCONTROLLERAXISTYPENAMEFROMENUM_OFFSET))(this, eAxisType);
+			return ((::System::String*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRControllerAxisType))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_GETCONTROLLERAXISTYPENAMEFROMENUM_OFFSET))(this, a1);
 		}
 
 		::System::Boolean CaptureInputFocus()
@@ -292,14 +292,14 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_ISINPUTFOCUSCAPTUREDBYANOTHERPROCESS_OFFSET))(this);
 		}
 
-		::System::UInt32 DriverDebugRequest(::System::UInt32 unDeviceIndex, ::System::String* pchRequest, ::System::String* pchResponseBuffer, ::System::UInt32 unResponseBufferSize)
+		::System::UInt32 DriverDebugRequest(::System::UInt32 a1, ::System::String* a2, ::System::String* a3, ::System::UInt32 a4)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::String*, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_DRIVERDEBUGREQUEST_OFFSET))(this, unDeviceIndex, pchRequest, pchResponseBuffer, unResponseBufferSize);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::String*, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_DRIVERDEBUGREQUEST_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRFirmwareError PerformFirmwareUpdate(::System::UInt32 unDeviceIndex)
+		::ZenFulcrum::VR::OpenVRBinding::EVRFirmwareError PerformFirmwareUpdate(::System::UInt32 a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRFirmwareError(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_PERFORMFIRMWAREUPDATE_OFFSET))(this, unDeviceIndex);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRFirmwareError(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSYSTEM_PERFORMFIRMWAREUPDATE_OFFSET))(this, a1);
 		}
 
 		::System::Void AcknowledgeQuit_Exiting()

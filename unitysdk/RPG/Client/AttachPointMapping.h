@@ -12,31 +12,31 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text::RegularExpressions { class Regex; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ATTACHPOINTMAPPING_AWAKEINEDITOR_OFFSET UNITYSDK_OFFSET(0x16D7B6B0)
-#define RPG_CLIENT_ATTACHPOINTMAPPING_AWAKE_OFFSET UNITYSDK_OFFSET(0x16D7B910)
-#define RPG_CLIENT_ATTACHPOINTMAPPING_BINDDYNAMICPOINTS_OFFSET UNITYSDK_OFFSET(0x16D7BB80)
-#define RPG_CLIENT_ATTACHPOINTMAPPING_BUILDDICTIFUNCREATED_OFFSET UNITYSDK_OFFSET(0x16D7B980)
-#define RPG_CLIENT_ATTACHPOINTMAPPING_BUILDDICT_OFFSET UNITYSDK_OFFSET(0x16D7B700)
-#define RPG_CLIENT_ATTACHPOINTMAPPING_CLEARMAPPING_OFFSET UNITYSDK_OFFSET(0x16D7D400)
-#define RPG_CLIENT_ATTACHPOINTMAPPING_CREATEADDITIONALATTACHPOINT_OFFSET UNITYSDK_OFFSET(0x16D7C8E0)
-#define RPG_CLIENT_ATTACHPOINTMAPPING_FINDATTACHPOINTINST_1_OFFSET UNITYSDK_OFFSET(0x16D7CFB0)
-#define RPG_CLIENT_ATTACHPOINTMAPPING_FINDATTACHPOINTINST_OFFSET UNITYSDK_OFFSET(0x16D7C500)
-#define RPG_CLIENT_ATTACHPOINTMAPPING_FINDATTACHPOINT_1_OFFSET UNITYSDK_OFFSET(0x16D7CF20)
-#define RPG_CLIENT_ATTACHPOINTMAPPING_FINDATTACHPOINT_OFFSET UNITYSDK_OFFSET(0x16D7C1F0)
-#define RPG_CLIENT_ATTACHPOINTMAPPING_GETMAPPINGHASH_1_OFFSET UNITYSDK_OFFSET(0x16D7D580)
-#define RPG_CLIENT_ATTACHPOINTMAPPING_GETMAPPINGHASH_OFFSET UNITYSDK_OFFSET(0x16D7D4A0)
-#define RPG_CLIENT_ATTACHPOINTMAPPING_ISATTACHPOINTMAPPEDTOANOTHER_OFFSET UNITYSDK_OFFSET(0x16D7D610)
-#define RPG_CLIENT_ATTACHPOINTMAPPING_ONROOTMODELUNLOADED_OFFSET UNITYSDK_OFFSET(0x16D7B9D0)
-#define RPG_CLIENT_ATTACHPOINTMAPPING_SETATTACHPOINT_1_OFFSET UNITYSDK_OFFSET(0x16D7D040)
-#define RPG_CLIENT_ATTACHPOINTMAPPING_SETATTACHPOINT_OFFSET UNITYSDK_OFFSET(0x16D7C810)
-#define RPG_CLIENT_ATTACHPOINTMAPPING_SETMAPPING_1_OFFSET UNITYSDK_OFFSET(0x16D7D2E0)
-#define RPG_CLIENT_ATTACHPOINTMAPPING_SETMAPPING_OFFSET UNITYSDK_OFFSET(0x16D7D180)
-#define RPG_CLIENT_ATTACHPOINTMAPPING_UNBINDDYNAMICPOINTS_OFFSET UNITYSDK_OFFSET(0x16D7C000)
-#define RPG_CLIENT_ATTACHPOINTMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x16D7D6A0)
+#define RPG_CLIENT_ATTACHPOINTMAPPING_AWAKEINEDITOR_OFFSET UNITYSDK_OFFSET(0x17E63900)
+#define RPG_CLIENT_ATTACHPOINTMAPPING_AWAKE_OFFSET UNITYSDK_OFFSET(0x17E63B70)
+#define RPG_CLIENT_ATTACHPOINTMAPPING_BINDDYNAMICPOINTS_OFFSET UNITYSDK_OFFSET(0x17E63DE0)
+#define RPG_CLIENT_ATTACHPOINTMAPPING_BUILDDICTIFUNCREATED_OFFSET UNITYSDK_OFFSET(0x17E63BE0)
+#define RPG_CLIENT_ATTACHPOINTMAPPING_BUILDDICT_OFFSET UNITYSDK_OFFSET(0x17E63950)
+#define RPG_CLIENT_ATTACHPOINTMAPPING_CLEARMAPPING_OFFSET UNITYSDK_OFFSET(0x17E655B0)
+#define RPG_CLIENT_ATTACHPOINTMAPPING_CREATEADDITIONALATTACHPOINT_OFFSET UNITYSDK_OFFSET(0x17E64AA0)
+#define RPG_CLIENT_ATTACHPOINTMAPPING_FINDATTACHPOINTINST_1_OFFSET UNITYSDK_OFFSET(0x17E65200)
+#define RPG_CLIENT_ATTACHPOINTMAPPING_FINDATTACHPOINTINST_OFFSET UNITYSDK_OFFSET(0x17E64740)
+#define RPG_CLIENT_ATTACHPOINTMAPPING_FINDATTACHPOINT_1_OFFSET UNITYSDK_OFFSET(0x17E3A1C0)
+#define RPG_CLIENT_ATTACHPOINTMAPPING_FINDATTACHPOINT_OFFSET UNITYSDK_OFFSET(0x17E64480)
+#define RPG_CLIENT_ATTACHPOINTMAPPING_GETMAPPINGHASH_1_OFFSET UNITYSDK_OFFSET(0x17E65720)
+#define RPG_CLIENT_ATTACHPOINTMAPPING_GETMAPPINGHASH_OFFSET UNITYSDK_OFFSET(0x17E65640)
+#define RPG_CLIENT_ATTACHPOINTMAPPING_ISATTACHPOINTMAPPEDTOANOTHER_OFFSET UNITYSDK_OFFSET(0x17E657A0)
+#define RPG_CLIENT_ATTACHPOINTMAPPING_ONROOTMODELUNLOADED_OFFSET UNITYSDK_OFFSET(0x17E63C30)
+#define RPG_CLIENT_ATTACHPOINTMAPPING_SETATTACHPOINT_1_OFFSET UNITYSDK_OFFSET(0x17E65290)
+#define RPG_CLIENT_ATTACHPOINTMAPPING_SETATTACHPOINT_OFFSET UNITYSDK_OFFSET(0x17E64A00)
+#define RPG_CLIENT_ATTACHPOINTMAPPING_SETMAPPING_1_OFFSET UNITYSDK_OFFSET(0x17E65480)
+#define RPG_CLIENT_ATTACHPOINTMAPPING_SETMAPPING_OFFSET UNITYSDK_OFFSET(0x17E65310)
+#define RPG_CLIENT_ATTACHPOINTMAPPING_UNBINDDYNAMICPOINTS_OFFSET UNITYSDK_OFFSET(0x17E64270)
+#define RPG_CLIENT_ATTACHPOINTMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x17E65830)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AttachPointMapping_TypeDefinitionIndex = 63029;
+	inline static constexpr unsigned int AttachPointMapping_TypeDefinitionIndex = 63944;
 
 	class AttachPointMapping : public ::UnityEngine::MonoBehaviour
 	{
@@ -77,9 +77,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_BUILDDICT_OFFSET))(this);
 		}
 
-		::System::Void BindDynamicPoints(::UnityEngine::Transform* dynamicRoot)
+		::System::Void BindDynamicPoints(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_BINDDYNAMICPOINTS_OFFSET))(this, dynamicRoot);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_BINDDYNAMICPOINTS_OFFSET))(this, a1);
 		}
 
 		::System::Void UnbindDynamicPoints()
@@ -87,49 +87,49 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_UNBINDDYNAMICPOINTS_OFFSET))(this);
 		}
 
-		::UnityEngine::Transform* FindAttachPoint(::System::Int32 hash, ::System::Boolean forceFindDynamicPoint, ::System::String* resName)
+		::UnityEngine::Transform* FindAttachPoint(::System::Int32 a1, ::System::Boolean a2, ::System::String* a3)
 		{
-			return ((::UnityEngine::Transform*(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_FINDATTACHPOINT_OFFSET))(this, hash, forceFindDynamicPoint, resName);
+			return ((::UnityEngine::Transform*(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_FINDATTACHPOINT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::AttachPoint* FindAttachPointInst(::System::Int32 hash, ::System::Boolean forceFindDynamicPoint, ::System::String* resName)
+		::RPG::Client::AttachPoint* FindAttachPointInst(::System::Int32 a1, ::System::Boolean a2, ::System::String* a3)
 		{
-			return ((::RPG::Client::AttachPoint*(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_FINDATTACHPOINTINST_OFFSET))(this, hash, forceFindDynamicPoint, resName);
+			return ((::RPG::Client::AttachPoint*(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_FINDATTACHPOINTINST_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetAttachPoint(::System::Int32 hash, ::UnityEngine::Transform* trans)
+		::System::Void SetAttachPoint(::System::Int32 a1, ::UnityEngine::Transform* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_SETATTACHPOINT_OFFSET))(this, hash, trans);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_SETATTACHPOINT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean CreateAdditionalAttachPoint(::System::String* srcPointName, ::System::String* mapToPointName, ::UnityEngine::Vector3 posOffset, ::UnityEngine::Quaternion rotOffset, ::System::Boolean followBasePoint)
+		::System::Boolean CreateAdditionalAttachPoint(::System::String* a1, ::System::String* a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Quaternion a4, ::System::Boolean a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_CREATEADDITIONALATTACHPOINT_OFFSET))(this, srcPointName, mapToPointName, posOffset, rotOffset, followBasePoint);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_CREATEADDITIONALATTACHPOINT_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::UnityEngine::Transform* FindAttachPoint_1(::System::String* Name, ::System::Boolean forceFindDynamicPoint, ::System::String* resName)
+		::UnityEngine::Transform* FindAttachPoint_1(::System::String* a1, ::System::Boolean a2, ::System::String* a3)
 		{
-			return ((::UnityEngine::Transform*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_FINDATTACHPOINT_1_OFFSET))(this, Name, forceFindDynamicPoint, resName);
+			return ((::UnityEngine::Transform*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_FINDATTACHPOINT_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::AttachPoint* FindAttachPointInst_1(::System::String* Name, ::System::Boolean forceFindDynamicPoint, ::System::String* resName)
+		::RPG::Client::AttachPoint* FindAttachPointInst_1(::System::String* a1, ::System::Boolean a2, ::System::String* a3)
 		{
-			return ((::RPG::Client::AttachPoint*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_FINDATTACHPOINTINST_1_OFFSET))(this, Name, forceFindDynamicPoint, resName);
+			return ((::RPG::Client::AttachPoint*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_FINDATTACHPOINTINST_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetAttachPoint_1(::System::String* Name, ::UnityEngine::Transform* trans)
+		::System::Void SetAttachPoint_1(::System::String* a1, ::UnityEngine::Transform* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_SETATTACHPOINT_1_OFFSET))(this, Name, trans);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_SETATTACHPOINT_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetMapping(::System::String* srcPointName, ::System::String* mapToPointName, ::Il2CppArray<::System::Text::RegularExpressions::Regex*>* matchRules)
+		::System::Void SetMapping(::System::String* a1, ::System::String* a2, ::Il2CppArray<::System::Text::RegularExpressions::Regex*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Il2CppArray<::System::Text::RegularExpressions::Regex*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_SETMAPPING_OFFSET))(this, srcPointName, mapToPointName, matchRules);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Il2CppArray<::System::Text::RegularExpressions::Regex*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_SETMAPPING_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetMapping_1(::System::Int32 srcHash, ::System::Int32 mapHash, ::Il2CppArray<::System::Text::RegularExpressions::Regex*>* matchRules)
+		::System::Void SetMapping_1(::System::Int32 a1, ::System::Int32 a2, ::Il2CppArray<::System::Text::RegularExpressions::Regex*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Text::RegularExpressions::Regex*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_SETMAPPING_1_OFFSET))(this, srcHash, mapHash, matchRules);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Text::RegularExpressions::Regex*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_SETMAPPING_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void ClearMapping()
@@ -137,19 +137,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_CLEARMAPPING_OFFSET))(this);
 		}
 
-		::System::Int32 GetMappingHash(::System::String* srcPointName)
+		::System::Int32 GetMappingHash(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_GETMAPPINGHASH_OFFSET))(this, srcPointName);
+			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_GETMAPPINGHASH_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetMappingHash_1(::System::Int32 srcHash)
+		::System::Int32 GetMappingHash_1(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_GETMAPPINGHASH_1_OFFSET))(this, srcHash);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_GETMAPPINGHASH_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsAttachPointMappedToAnother(::System::String* srcPointName)
+		::System::Boolean IsAttachPointMappedToAnother(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_ISATTACHPOINTMAPPEDTOANOTHER_OFFSET))(this, srcPointName);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINTMAPPING_ISATTACHPOINTMAPPEDTOANOTHER_OFFSET))(this, a1);
 		}
 	};
 }

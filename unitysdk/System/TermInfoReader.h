@@ -6,78 +6,78 @@
 
 namespace System { class String; }
 
-#define SYSTEM_TERMINFOREADER_GETINT16_OFFSET UNITYSDK_OFFSET(0x16DC9630)
-#define SYSTEM_TERMINFOREADER_GETSTRINGBYTES_1_OFFSET UNITYSDK_OFFSET(0x16DC97A0)
-#define SYSTEM_TERMINFOREADER_GETSTRINGBYTES_OFFSET UNITYSDK_OFFSET(0x16DC8FB0)
-#define SYSTEM_TERMINFOREADER_GETSTRING_OFFSET UNITYSDK_OFFSET(0x16DC96B0)
-#define SYSTEM_TERMINFOREADER_GET_1_OFFSET UNITYSDK_OFFSET(0x16DC3B20)
-#define SYSTEM_TERMINFOREADER_GET_OFFSET UNITYSDK_OFFSET(0x16DC3CC0)
-#define SYSTEM_TERMINFOREADER_READHEADER_OFFSET UNITYSDK_OFFSET(0x16DC9240)
-#define SYSTEM_TERMINFOREADER_READNAMES_OFFSET UNITYSDK_OFFSET(0x16DC9530)
-#define SYSTEM_TERMINFOREADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16DC31B0)
-#define SYSTEM_TERMINFOREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x16DC2F40)
+#define SYSTEM_TERMINFOREADER_GETINT16_OFFSET UNITYSDK_OFFSET(0x142EEF60)
+#define SYSTEM_TERMINFOREADER_GETSTRINGBYTES_1_OFFSET UNITYSDK_OFFSET(0x142EF0B0)
+#define SYSTEM_TERMINFOREADER_GETSTRINGBYTES_OFFSET UNITYSDK_OFFSET(0x142EEA20)
+#define SYSTEM_TERMINFOREADER_GETSTRING_OFFSET UNITYSDK_OFFSET(0x142EEFD0)
+#define SYSTEM_TERMINFOREADER_GET_1_OFFSET UNITYSDK_OFFSET(0x142E9450)
+#define SYSTEM_TERMINFOREADER_GET_OFFSET UNITYSDK_OFFSET(0x142E95C0)
+#define SYSTEM_TERMINFOREADER_READHEADER_OFFSET UNITYSDK_OFFSET(0x142EEC30)
+#define SYSTEM_TERMINFOREADER_READNAMES_OFFSET UNITYSDK_OFFSET(0x142EEE60)
+#define SYSTEM_TERMINFOREADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x142E89C0)
+#define SYSTEM_TERMINFOREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x142E8750)
 
 namespace System
 {
-	inline static constexpr unsigned int TermInfoReader_TypeDefinitionIndex = 430;
+	inline static constexpr unsigned int TermInfoReader_TypeDefinitionIndex = 429;
 
 	class TermInfoReader : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Byte>* buffer; // 0x10
 		::System::Int16 boolSize; // 0x18
-		::System::Int32 booleansOffset; // 0x1C
-		::System::Int16 strOffsets; // 0x20
-		::System::Int16 numSize; // 0x22
+		::System::Int16 strOffsets; // 0x1A
+		::System::Int16 numSize; // 0x1C
+		::System::Int32 booleansOffset; // 0x20
 
-		::System::Void _ctor(::System::String* term, ::System::String* filename)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TERMINFOREADER__CTOR_OFFSET))(this, term, filename);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TERMINFOREADER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::System::String* term, ::Il2CppArray<::System::Byte>* buffer)
+		::System::Void _ctor_1(::System::String* a1, ::Il2CppArray<::System::Byte>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_TERMINFOREADER__CTOR_1_OFFSET))(this, term, buffer);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_TERMINFOREADER__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ReadHeader(::Il2CppArray<::System::Byte>* buffer, ::System::Int32& position)
+		::System::Void ReadHeader(::Il2CppArray<::System::Byte>* a1, ::System::Int32& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_TERMINFOREADER_READHEADER_OFFSET))(this, buffer, position);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_TERMINFOREADER_READHEADER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ReadNames(::Il2CppArray<::System::Byte>* buffer, ::System::Int32& position)
+		::System::Void ReadNames(::Il2CppArray<::System::Byte>* a1, ::System::Int32& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_TERMINFOREADER_READNAMES_OFFSET))(this, buffer, position);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_TERMINFOREADER_READNAMES_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 Get(::System::TermInfoNumbers number)
+		::System::Int32 Get(::System::TermInfoNumbers a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::TermInfoNumbers))((::PBYTE)hIl2Cpp + SYSTEM_TERMINFOREADER_GET_OFFSET))(this, number);
+			return ((::System::Int32(*)(::PVOID, ::System::TermInfoNumbers))((::PBYTE)hIl2Cpp + SYSTEM_TERMINFOREADER_GET_OFFSET))(this, a1);
 		}
 
-		::System::String* Get_1(::System::TermInfoStrings tstr)
+		::System::String* Get_1(::System::TermInfoStrings a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::TermInfoStrings))((::PBYTE)hIl2Cpp + SYSTEM_TERMINFOREADER_GET_1_OFFSET))(this, tstr);
+			return ((::System::String*(*)(::PVOID, ::System::TermInfoStrings))((::PBYTE)hIl2Cpp + SYSTEM_TERMINFOREADER_GET_1_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Byte>* GetStringBytes(::System::TermInfoStrings tstr)
+		::Il2CppArray<::System::Byte>* GetStringBytes(::System::TermInfoStrings a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::System::TermInfoStrings))((::PBYTE)hIl2Cpp + SYSTEM_TERMINFOREADER_GETSTRINGBYTES_OFFSET))(this, tstr);
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::System::TermInfoStrings))((::PBYTE)hIl2Cpp + SYSTEM_TERMINFOREADER_GETSTRINGBYTES_OFFSET))(this, a1);
 		}
 
-		::System::Int16 GetInt16(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset)
+		::System::Int16 GetInt16(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Int16(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TERMINFOREADER_GETINT16_OFFSET))(this, buffer, offset);
+			return ((::System::Int16(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TERMINFOREADER_GETINT16_OFFSET))(this, a1, a2);
 		}
 
-		::System::String* GetString(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset)
+		::System::String* GetString(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TERMINFOREADER_GETSTRING_OFFSET))(this, buffer, offset);
+			return ((::System::String*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TERMINFOREADER_GETSTRING_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::System::Byte>* GetStringBytes_1(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset)
+		::Il2CppArray<::System::Byte>* GetStringBytes_1(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TERMINFOREADER_GETSTRINGBYTES_1_OFFSET))(this, buffer, offset);
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TERMINFOREADER_GETSTRINGBYTES_1_OFFSET))(this, a1, a2);
 		}
 	};
 }

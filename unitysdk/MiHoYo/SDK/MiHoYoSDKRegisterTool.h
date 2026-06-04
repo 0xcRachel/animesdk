@@ -4,34 +4,34 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGCLOSEKEY_OFFSET UNITYSDK_OFFSET(0x172905B0)
-#define MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGCREATEKEY_OFFSET UNITYSDK_OFFSET(0x17290440)
-#define MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGGETVALUE_OFFSET UNITYSDK_OFFSET(0x1728FD60)
-#define MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGISTERGETSTRING_OFFSET UNITYSDK_OFFSET(0x1728F7F0)
-#define MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGISTERSETSTRING_OFFSET UNITYSDK_OFFSET(0x1728FE50)
-#define MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGOPENKEY_OFFSET UNITYSDK_OFFSET(0x172903A0)
-#define MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGSETVALUEEX_OFFSET UNITYSDK_OFFSET(0x172904E0)
-#define MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_STRINGTOUNIBUFFER_OFFSET UNITYSDK_OFFSET(0x1728FC90)
-#define MIHOYO_SDK_MIHOYOSDKREGISTERTOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x17290650)
-#define MIHOYO_SDK_MIHOYOSDKREGISTERTOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x17290630)
+#define MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGCLOSEKEY_OFFSET UNITYSDK_OFFSET(0x16AAF550)
+#define MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGCREATEKEY_OFFSET UNITYSDK_OFFSET(0x16AAF3E0)
+#define MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGGETVALUE_OFFSET UNITYSDK_OFFSET(0x16AAED00)
+#define MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGISTERGETSTRING_OFFSET UNITYSDK_OFFSET(0x16AAE790)
+#define MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGISTERSETSTRING_OFFSET UNITYSDK_OFFSET(0x16AAEDF0)
+#define MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGOPENKEY_OFFSET UNITYSDK_OFFSET(0x16AAF340)
+#define MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGSETVALUEEX_OFFSET UNITYSDK_OFFSET(0x16AAF480)
+#define MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_STRINGTOUNIBUFFER_OFFSET UNITYSDK_OFFSET(0x16AAEC30)
+#define MIHOYO_SDK_MIHOYOSDKREGISTERTOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x16AAF5F0)
+#define MIHOYO_SDK_MIHOYOSDKREGISTERTOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x16AAF5D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKRegisterTool_TypeDefinitionIndex = 43089;
+	inline static constexpr unsigned int MiHoYoSDKRegisterTool_TypeDefinitionIndex = 43892;
 
 	class MiHoYoSDKRegisterTool : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::MiHoYoSDKRegisterTool** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::MiHoYoSDKRegisterTool**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKRegisterTool_TypeDefinitionIndex)->GetStaticField(0x48100);
+			return (::MiHoYo::SDK::MiHoYoSDKRegisterTool**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKRegisterTool_TypeDefinitionIndex)->GetStaticField(0xB510);
 		}
 		// static const ::System::String* REGISTRY_KEY_NAME; // 0x0
 		// static const ::System::String* SOFTWARE; // 0x0
 		// static const ::System::String* REGISTER_MODULE_NAME; // 0x0
 		::System::Int64 HKEY_CURRENT_USER; // 0x10
-		::System::Int32 RRF_RT_REG_SZ; // 0x18
-		::System::Int32 REG_SZ; // 0x1C
+		::System::Int32 REG_SZ; // 0x18
+		::System::Int32 RRF_RT_REG_SZ; // 0x1C
 
 		::System::Void _ctor()
 		{
@@ -43,44 +43,44 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKREGISTERTOOL__CCTOR_OFFSET))();
 		}
 
-		::System::String* RegisterGetString(::System::String* strKey)
+		::System::String* RegisterGetString(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGISTERGETSTRING_OFFSET))(this, strKey);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGISTERGETSTRING_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterSetString(::System::String* strKey, ::System::String* strValue)
+		::System::Void RegisterSetString(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGISTERSETSTRING_OFFSET))(this, strKey, strValue);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGISTERSETSTRING_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::System::Byte>* StringToUniBuffer(::System::String* strSrc)
+		::Il2CppArray<::System::Byte>* StringToUniBuffer(::System::String* a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_STRINGTOUNIBUFFER_OFFSET))(this, strSrc);
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_STRINGTOUNIBUFFER_OFFSET))(this, a1);
 		}
 
-		static ::System::Int32 RegGetValue(::System::Int64 hKey, ::Il2CppArray<::System::Byte>* lpSubkey, ::Il2CppArray<::System::Byte>* lpKey, ::System::Int32 nFlags, ::System::Int32& nType, ::Il2CppArray<::System::Byte>* buffer, ::System::Int32& nSize)
+		static ::System::Int32 RegGetValue(::System::Int64 a1, ::Il2CppArray<::System::Byte>* a2, ::Il2CppArray<::System::Byte>* a3, ::System::Int32 a4, ::System::Int32& a5, ::Il2CppArray<::System::Byte>* a6, ::System::Int32& a7)
 		{
-			return ((::System::Int32(*)(::System::Int64, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32&, ::Il2CppArray<::System::Byte>*, ::System::Int32&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGGETVALUE_OFFSET))(hKey, lpSubkey, lpKey, nFlags, nType, buffer, nSize);
+			return ((::System::Int32(*)(::System::Int64, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32&, ::Il2CppArray<::System::Byte>*, ::System::Int32&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGGETVALUE_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Int32 RegOpenKey(::System::Int64 hKey, ::Il2CppArray<::System::Byte>* lpSubkey, ::System::Int64& lSubKey)
+		static ::System::Int32 RegOpenKey(::System::Int64 a1, ::Il2CppArray<::System::Byte>* a2, ::System::Int64& a3)
 		{
-			return ((::System::Int32(*)(::System::Int64, ::Il2CppArray<::System::Byte>*, ::System::Int64&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGOPENKEY_OFFSET))(hKey, lpSubkey, lSubKey);
+			return ((::System::Int32(*)(::System::Int64, ::Il2CppArray<::System::Byte>*, ::System::Int64&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGOPENKEY_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 RegCreateKey(::System::Int64 hKey, ::Il2CppArray<::System::Byte>* lpSubkey, ::System::Int64& lSubKey)
+		static ::System::Int32 RegCreateKey(::System::Int64 a1, ::Il2CppArray<::System::Byte>* a2, ::System::Int64& a3)
 		{
-			return ((::System::Int32(*)(::System::Int64, ::Il2CppArray<::System::Byte>*, ::System::Int64&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGCREATEKEY_OFFSET))(hKey, lpSubkey, lSubKey);
+			return ((::System::Int32(*)(::System::Int64, ::Il2CppArray<::System::Byte>*, ::System::Int64&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGCREATEKEY_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 RegSetValueEx(::System::Int64 hKey, ::Il2CppArray<::System::Byte>* lpKey, ::System::Int32 nReserved, ::System::Int32 nType, ::Il2CppArray<::System::Byte>* buffer, ::System::Int32 nSize)
+		static ::System::Int32 RegSetValueEx(::System::Int64 a1, ::Il2CppArray<::System::Byte>* a2, ::System::Int32 a3, ::System::Int32 a4, ::Il2CppArray<::System::Byte>* a5, ::System::Int32 a6)
 		{
-			return ((::System::Int32(*)(::System::Int64, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGSETVALUEEX_OFFSET))(hKey, lpKey, nReserved, nType, buffer, nSize);
+			return ((::System::Int32(*)(::System::Int64, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGSETVALUEEX_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Int32 RegCloseKey(::System::Int64 lSubKey)
+		static ::System::Int32 RegCloseKey(::System::Int64 a1)
 		{
-			return ((::System::Int32(*)(::System::Int64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGCLOSEKEY_OFFSET))(lSubKey);
+			return ((::System::Int32(*)(::System::Int64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKREGISTERTOOL_REGCLOSEKEY_OFFSET))(a1);
 		}
 	};
 }

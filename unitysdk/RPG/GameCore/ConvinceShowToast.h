@@ -6,13 +6,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CONVINCESHOWTOAST_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18FAA480)
-#define RPG_GAMECORE_CONVINCESHOWTOAST_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18FAA400)
-#define RPG_GAMECORE_CONVINCESHOWTOAST__CTOR_OFFSET UNITYSDK_OFFSET(0x18FAA450)
+#define RPG_GAMECORE_CONVINCESHOWTOAST_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x19B1AA50)
+#define RPG_GAMECORE_CONVINCESHOWTOAST_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B1A9D0)
+#define RPG_GAMECORE_CONVINCESHOWTOAST__CTOR_OFFSET UNITYSDK_OFFSET(0x19B1AA20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConvinceShowToast_TypeDefinitionIndex = 20697;
+	inline static constexpr unsigned int ConvinceShowToast_TypeDefinitionIndex = 20625;
 
 	class ConvinceShowToast : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCESHOWTOAST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ConvinceShowToast*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvinceShowToast*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConvinceShowToast*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCESHOWTOAST_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConvinceShowToast*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCESHOWTOAST_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ConvinceShowToast* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvinceShowToast* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConvinceShowToast*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCESHOWTOAST_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConvinceShowToast*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCESHOWTOAST_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -10,16 +10,16 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOPOLYDICECONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0x175F4B00)
-#define RPG_CLIENT_MONOPOLYDICECONTROLLER_ROTATE_OFFSET UNITYSDK_OFFSET(0x175F4C10)
-#define RPG_CLIENT_MONOPOLYDICECONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x175F4AA0)
-#define RPG_CLIENT_MONOPOLYDICECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x175F4EC0)
-#define RPG_CLIENT_MONOPOLYDICECONTROLLER__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0x175F4F20)
-#define RPG_CLIENT_MONOPOLYDICECONTROLLER__ONROTATEFINISH_OFFSET UNITYSDK_OFFSET(0x175F4DE0)
+#define RPG_CLIENT_MONOPOLYDICECONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0x187ED6F0)
+#define RPG_CLIENT_MONOPOLYDICECONTROLLER_ROTATE_OFFSET UNITYSDK_OFFSET(0x187ED820)
+#define RPG_CLIENT_MONOPOLYDICECONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x187ED690)
+#define RPG_CLIENT_MONOPOLYDICECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x187EDAE0)
+#define RPG_CLIENT_MONOPOLYDICECONTROLLER__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0x187EDB40)
+#define RPG_CLIENT_MONOPOLYDICECONTROLLER__ONROTATEFINISH_OFFSET UNITYSDK_OFFSET(0x187EDA00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyDiceController_TypeDefinitionIndex = 67102;
+	inline static constexpr unsigned int MonopolyDiceController_TypeDefinitionIndex = 68045;
 
 	class MonopolyDiceController : public ::UnityEngine::MonoBehaviour
 	{
@@ -40,14 +40,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDICECONTROLLER_START_OFFSET))(this);
 		}
 
-		::System::Void Init(::System::Action* animFinishCallback, ::System::String* animationClipName)
+		::System::Void Init(::System::Action* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDICECONTROLLER_INIT_OFFSET))(this, animFinishCallback, animationClipName);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDICECONTROLLER_INIT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Rotate(::System::Int32 value, ::System::String* trigger)
+		::System::Void Rotate(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDICECONTROLLER_ROTATE_OFFSET))(this, value, trigger);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDICECONTROLLER_ROTATE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _OnRotateFinish()

@@ -3,60 +3,60 @@
 #include "unitysdk/RPG/GameCore/FarmTypeConfig.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_FARMUTILS_ISCOCOON3_1_OFFSET UNITYSDK_OFFSET(0x161F3DF0)
-#define RPG_CLIENT_FARMUTILS_ISCOCOON3_OFFSET UNITYSDK_OFFSET(0x161F3D50)
-#define RPG_CLIENT_FARMUTILS_ISCOCOONOTHER_1_OFFSET UNITYSDK_OFFSET(0x161F3D00)
-#define RPG_CLIENT_FARMUTILS_ISCOCOONOTHER_OFFSET UNITYSDK_OFFSET(0x161F3C60)
-#define RPG_CLIENT_FARMUTILS_ISCOCOON_1_OFFSET UNITYSDK_OFFSET(0x161F3E30)
-#define RPG_CLIENT_FARMUTILS_ISCOCOON_OFFSET UNITYSDK_OFFSET(0x161F10B0)
-#define RPG_CLIENT_FARMUTILS_ISELEMENT_1_OFFSET UNITYSDK_OFFSET(0x161F3C20)
-#define RPG_CLIENT_FARMUTILS_ISELEMENT_OFFSET UNITYSDK_OFFSET(0x161F1150)
+#define RPG_CLIENT_FARMUTILS_ISCOCOON3_1_OFFSET UNITYSDK_OFFSET(0x1826C760)
+#define RPG_CLIENT_FARMUTILS_ISCOCOON3_OFFSET UNITYSDK_OFFSET(0x1826C6C0)
+#define RPG_CLIENT_FARMUTILS_ISCOCOONOTHER_1_OFFSET UNITYSDK_OFFSET(0x1826C670)
+#define RPG_CLIENT_FARMUTILS_ISCOCOONOTHER_OFFSET UNITYSDK_OFFSET(0x1826C5D0)
+#define RPG_CLIENT_FARMUTILS_ISCOCOON_1_OFFSET UNITYSDK_OFFSET(0x1826C7A0)
+#define RPG_CLIENT_FARMUTILS_ISCOCOON_OFFSET UNITYSDK_OFFSET(0x182698C0)
+#define RPG_CLIENT_FARMUTILS_ISELEMENT_1_OFFSET UNITYSDK_OFFSET(0x1826C590)
+#define RPG_CLIENT_FARMUTILS_ISELEMENT_OFFSET UNITYSDK_OFFSET(0x18269960)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FarmUtils_TypeDefinitionIndex = 58851;
+	inline static constexpr unsigned int FarmUtils_TypeDefinitionIndex = 59781;
 
 	class FarmUtils : public ::System::Object
 	{
 	public:
-		static ::System::Boolean IsElement(::System::UInt32 farmID)
+		static ::System::Boolean IsElement(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMUTILS_ISELEMENT_OFFSET))(farmID);
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMUTILS_ISELEMENT_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsCocoonOther(::System::UInt32 farmID)
+		static ::System::Boolean IsCocoonOther(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMUTILS_ISCOCOONOTHER_OFFSET))(farmID);
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMUTILS_ISCOCOONOTHER_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsCocoon3(::System::UInt32 farmID)
+		static ::System::Boolean IsCocoon3(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMUTILS_ISCOCOON3_OFFSET))(farmID);
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMUTILS_ISCOCOON3_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsCocoon(::System::UInt32 farmID)
+		static ::System::Boolean IsCocoon(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMUTILS_ISCOCOON_OFFSET))(farmID);
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMUTILS_ISCOCOON_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsElement_1(::RPG::GameCore::FarmTypeConfig farmType)
+		static ::System::Boolean IsElement_1(::RPG::GameCore::FarmTypeConfig a1)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::FarmTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMUTILS_ISELEMENT_1_OFFSET))(farmType);
+			return ((::System::Boolean(*)(::RPG::GameCore::FarmTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMUTILS_ISELEMENT_1_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsCocoon3_1(::RPG::GameCore::FarmTypeConfig farmType)
+		static ::System::Boolean IsCocoon3_1(::RPG::GameCore::FarmTypeConfig a1)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::FarmTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMUTILS_ISCOCOON3_1_OFFSET))(farmType);
+			return ((::System::Boolean(*)(::RPG::GameCore::FarmTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMUTILS_ISCOCOON3_1_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsCocoonOther_1(::RPG::GameCore::FarmTypeConfig farmType)
+		static ::System::Boolean IsCocoonOther_1(::RPG::GameCore::FarmTypeConfig a1)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::FarmTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMUTILS_ISCOCOONOTHER_1_OFFSET))(farmType);
+			return ((::System::Boolean(*)(::RPG::GameCore::FarmTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMUTILS_ISCOCOONOTHER_1_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsCocoon_1(::RPG::GameCore::FarmTypeConfig farmType)
+		static ::System::Boolean IsCocoon_1(::RPG::GameCore::FarmTypeConfig a1)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::FarmTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMUTILS_ISCOCOON_1_OFFSET))(farmType);
+			return ((::System::Boolean(*)(::RPG::GameCore::FarmTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMUTILS_ISCOCOON_1_OFFSET))(a1);
 		}
 	};
 }

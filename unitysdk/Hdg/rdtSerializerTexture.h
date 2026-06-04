@@ -7,15 +7,15 @@ namespace System { class String; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTSERIALIZERTEXTURE_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x12C26690)
-#define HDG_RDTSERIALIZERTEXTURE_READ_OFFSET UNITYSDK_OFFSET(0x12C266D0)
-#define HDG_RDTSERIALIZERTEXTURE_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x12C265D0)
-#define HDG_RDTSERIALIZERTEXTURE_WRITE_OFFSET UNITYSDK_OFFSET(0x12C266A0)
-#define HDG_RDTSERIALIZERTEXTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x12C26680)
+#define HDG_RDTSERIALIZERTEXTURE_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x144C1E70)
+#define HDG_RDTSERIALIZERTEXTURE_READ_OFFSET UNITYSDK_OFFSET(0x144C1EB0)
+#define HDG_RDTSERIALIZERTEXTURE_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x144C1DA0)
+#define HDG_RDTSERIALIZERTEXTURE_WRITE_OFFSET UNITYSDK_OFFSET(0x144C1E80)
+#define HDG_RDTSERIALIZERTEXTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x144C1E60)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerTexture_TypeDefinitionIndex = 43784;
+	inline static constexpr unsigned int rdtSerializerTexture_TypeDefinitionIndex = 44326;
 
 	class rdtSerializerTexture : public ::System::Object
 	{
@@ -27,24 +27,24 @@ namespace Hdg
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERTEXTURE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Object* Serialize(::System::Object* objIn, ::Hdg::rdtSerializerRegistry* registry)
+		static ::System::Object* Serialize(::System::Object* a1, ::Hdg::rdtSerializerRegistry* a2)
 		{
-			return ((::System::Object*(*)(::System::Object*, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERTEXTURE_SERIALIZE_OFFSET))(objIn, registry);
+			return ((::System::Object*(*)(::System::Object*, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERTEXTURE_SERIALIZE_OFFSET))(a1, a2);
 		}
 
-		::System::Object* Deserialize(::Hdg::rdtSerializerRegistry* registry)
+		::System::Object* Deserialize(::Hdg::rdtSerializerRegistry* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERTEXTURE_DESERIALIZE_OFFSET))(this, registry);
+			return ((::System::Object*(*)(::PVOID, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERTEXTURE_DESERIALIZE_OFFSET))(this, a1);
 		}
 
-		::System::Void Write(::System::IO::BinaryWriter* w)
+		::System::Void Write(::System::IO::BinaryWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERTEXTURE_WRITE_OFFSET))(this, w);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERTEXTURE_WRITE_OFFSET))(this, a1);
 		}
 
-		::System::Void Read(::System::IO::BinaryReader* r)
+		::System::Void Read(::System::IO::BinaryReader* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERTEXTURE_READ_OFFSET))(this, r);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERTEXTURE_READ_OFFSET))(this, a1);
 		}
 	};
 }

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_DICECOMBATTALKOPTIONEXTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1705F390)
+#define RPG_CLIENT_DICECOMBATTALKOPTIONEXTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18CBF890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DiceCombatTalkOptionExtData_TypeDefinitionIndex = 62726;
+	inline static constexpr unsigned int DiceCombatTalkOptionExtData_TypeDefinitionIndex = 63659;
 
 	class DiceCombatTalkOptionExtData : public ::System::Object
 	{

@@ -8,12 +8,12 @@ namespace RPG::Client { class ChimeraDuelPvpTeamSnapshot; }
 namespace RPG::Client { class IChimeraDuelChallengeTeam; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x177AD670)
-#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL___C__DISPLAYCLASS21_0___CREATEFORCHALLENGEBATTLE_B__0_OFFSET UNITYSDK_OFFSET(0x177AF350)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x196607B0)
+#define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL___C__DISPLAYCLASS21_0___CREATEFORCHALLENGEBATTLE_B__0_OFFSET UNITYSDK_OFFSET(0x196627F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelBattlePageViewModel___c__DisplayClass21_0_TypeDefinitionIndex = 58409;
+	inline static constexpr unsigned int ChimeraDuelBattlePageViewModel___c__DisplayClass21_0_TypeDefinitionIndex = 59339;
 
 	class ChimeraDuelBattlePageViewModel___c__DisplayClass21_0 : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL___C__DISPLAYCLASS21_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void __CreateForChallengeBattle_b__0(::Class_1_C563E5E77DCDB6EB* settleInfo)
+		::System::Void __CreateForChallengeBattle_b__0(::Class_1_C563E5E77DCDB6EB* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_C563E5E77DCDB6EB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL___C__DISPLAYCLASS21_0___CREATEFORCHALLENGEBATTLE_B__0_OFFSET))(this, settleInfo);
+			return ((::System::Void(*)(::PVOID, ::Class_1_C563E5E77DCDB6EB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL___C__DISPLAYCLASS21_0___CREATEFORCHALLENGEBATTLE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,41 +5,41 @@
 #include "unitysdk/System/ArraySegment_1.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_261;
-class Class_1_21DCD4640D389503_43;
+class Class_0_16E4307DCC419505_274;
+class Class_1_21DCD4640D389503_45;
 class Class_4_6BD781EAA1CAFD20;
 namespace Google::Protobuf { class IMessage; }
 namespace System::IO { class MemoryStream; }
 
-#define RPG_CLIENT_NETPACKET_CLEARDATA_OFFSET UNITYSDK_OFFSET(0x1A4BC770)
-#define RPG_CLIENT_NETPACKET_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A4B0560)
-#define RPG_CLIENT_NETPACKET_GETBODYLEN_OFFSET UNITYSDK_OFFSET(0x1A4BC580)
-#define RPG_CLIENT_NETPACKET_GETCMDID_OFFSET UNITYSDK_OFFSET(0x1A4AE650)
-#define RPG_CLIENT_NETPACKET_GETDATA_OFFSET UNITYSDK_OFFSET(0x1A4BC660)
-#define RPG_CLIENT_NETPACKET_GETHEADLEN_OFFSET UNITYSDK_OFFSET(0x1A4BC530)
-#define RPG_CLIENT_NETPACKET_GETHEADMAGIC_OFFSET UNITYSDK_OFFSET(0x1A4BC4D0)
-#define RPG_CLIENT_NETPACKET_GETLENGTH_OFFSET UNITYSDK_OFFSET(0x1A4BC780)
-#define RPG_CLIENT_NETPACKET_GETPACKETID_OFFSET UNITYSDK_OFFSET(0x1A4BC5E0)
-#define RPG_CLIENT_NETPACKET_GETPACKETLEN_OFFSET UNITYSDK_OFFSET(0x1A4A4240)
-#define RPG_CLIENT_NETPACKET_GETPACKETRECVTIMEMS_OFFSET UNITYSDK_OFFSET(0x1A4BC650)
-#define RPG_CLIENT_NETPACKET_GETRAWDATA_OFFSET UNITYSDK_OFFSET(0x1A4BC670)
-#define RPG_CLIENT_NETPACKET_GETTAILMAGIC_OFFSET UNITYSDK_OFFSET(0x1A4BC5F0)
-#define RPG_CLIENT_NETPACKET_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1A4B4BB0)
-#define RPG_CLIENT_NETPACKET_ONNEW_OFFSET UNITYSDK_OFFSET(0x1A4BC3A0)
-#define RPG_CLIENT_NETPACKET_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1A4BC3B0)
-#define RPG_CLIENT_NETPACKET_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A4AFDF0)
-#define RPG_CLIENT_NETPACKET_SETBODYLEN_OFFSET UNITYSDK_OFFSET(0x1A4BC860)
-#define RPG_CLIENT_NETPACKET_SETCMDID_OFFSET UNITYSDK_OFFSET(0x1A4AB870)
-#define RPG_CLIENT_NETPACKET_SETDATA_OFFSET UNITYSDK_OFFSET(0x1A4BC8C0)
-#define RPG_CLIENT_NETPACKET_SETHEADLEN_OFFSET UNITYSDK_OFFSET(0x1A4BC810)
-#define RPG_CLIENT_NETPACKET_SETPACKETID_OFFSET UNITYSDK_OFFSET(0x1A4BC800)
-#define RPG_CLIENT_NETPACKET_SETPACKETRECVTIMEMS_OFFSET UNITYSDK_OFFSET(0x1A4BC900)
-#define RPG_CLIENT_NETPACKET_SETRAWDATA_OFFSET UNITYSDK_OFFSET(0x1A4BC8E0)
-#define RPG_CLIENT_NETPACKET__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4AB660)
+#define RPG_CLIENT_NETPACKET_CLEARDATA_OFFSET UNITYSDK_OFFSET(0x1B1E8060)
+#define RPG_CLIENT_NETPACKET_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B1DFA40)
+#define RPG_CLIENT_NETPACKET_GETBODYLEN_OFFSET UNITYSDK_OFFSET(0x1B1E7E70)
+#define RPG_CLIENT_NETPACKET_GETCMDID_OFFSET UNITYSDK_OFFSET(0x1B1D1A10)
+#define RPG_CLIENT_NETPACKET_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B1E7F50)
+#define RPG_CLIENT_NETPACKET_GETHEADLEN_OFFSET UNITYSDK_OFFSET(0x1B1E7E20)
+#define RPG_CLIENT_NETPACKET_GETHEADMAGIC_OFFSET UNITYSDK_OFFSET(0x1B1E7DC0)
+#define RPG_CLIENT_NETPACKET_GETLENGTH_OFFSET UNITYSDK_OFFSET(0x1B1E8070)
+#define RPG_CLIENT_NETPACKET_GETPACKETID_OFFSET UNITYSDK_OFFSET(0x1B1E7ED0)
+#define RPG_CLIENT_NETPACKET_GETPACKETLEN_OFFSET UNITYSDK_OFFSET(0x1B1E2140)
+#define RPG_CLIENT_NETPACKET_GETPACKETRECVTIMEMS_OFFSET UNITYSDK_OFFSET(0x1B1E7F40)
+#define RPG_CLIENT_NETPACKET_GETRAWDATA_OFFSET UNITYSDK_OFFSET(0x1B1E7F60)
+#define RPG_CLIENT_NETPACKET_GETTAILMAGIC_OFFSET UNITYSDK_OFFSET(0x1B1E7EE0)
+#define RPG_CLIENT_NETPACKET_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B1D1A00)
+#define RPG_CLIENT_NETPACKET_ONNEW_OFFSET UNITYSDK_OFFSET(0x1B1E7C80)
+#define RPG_CLIENT_NETPACKET_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1B1E7C90)
+#define RPG_CLIENT_NETPACKET_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B1DF180)
+#define RPG_CLIENT_NETPACKET_SETBODYLEN_OFFSET UNITYSDK_OFFSET(0x1B1E8150)
+#define RPG_CLIENT_NETPACKET_SETCMDID_OFFSET UNITYSDK_OFFSET(0x1B1D0580)
+#define RPG_CLIENT_NETPACKET_SETDATA_OFFSET UNITYSDK_OFFSET(0x1B1E81B0)
+#define RPG_CLIENT_NETPACKET_SETHEADLEN_OFFSET UNITYSDK_OFFSET(0x1B1E8100)
+#define RPG_CLIENT_NETPACKET_SETPACKETID_OFFSET UNITYSDK_OFFSET(0x1B1E80F0)
+#define RPG_CLIENT_NETPACKET_SETPACKETRECVTIMEMS_OFFSET UNITYSDK_OFFSET(0x1B1E81F0)
+#define RPG_CLIENT_NETPACKET_SETRAWDATA_OFFSET UNITYSDK_OFFSET(0x1B1E81D0)
+#define RPG_CLIENT_NETPACKET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1D0370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NetPacket_TypeDefinitionIndex = 39643;
+	inline static constexpr unsigned int NetPacket_TypeDefinitionIndex = 40466;
 
 	class NetPacket : public ::System::Object
 	{
@@ -49,22 +49,22 @@ namespace RPG::Client
 		// static const ::System::UInt16 HeadVersion = 0x1; // 0x0
 		// static const ::System::Int32 PacketHeadLen = 0xC; // 0x0
 		// static const ::System::Int32 PacketTailLen = 0x4; // 0x0
-		::Google::Protobuf::IMessage* _Data; // 0x10
-		::System::IO::MemoryStream* _Head; // 0x18
-		::Il2CppArray<::System::Byte>* _RawData; // 0x20
-		::Class_1_21DCD4640D389503_43* _MsgProtoHead; // 0x28
-		::Class_4_6BD781EAA1CAFD20* _Body; // 0x30
-		::System::UInt32 _TailMagic; // 0x38
-		::System::Int32 HeadSize; // 0x3C
-		::System::UInt32 _BodyLen; // 0x40
-		::System::Int32 BodySize; // 0x44
-		::System::UInt64 _RecvTimeStampMs; // 0x48
-		::System::Boolean isInUse; // 0x50
-		::System::UInt32 _PacketID; // 0x54
-		::System::UInt32 _HeadMagic; // 0x58
-		::System::UInt32 _Seed; // 0x5C
-		::System::UInt16 _HeadLen; // 0x60
-		::System::UInt16 _CmdID; // 0x62
+		::System::IO::MemoryStream* _Head; // 0x10
+		::Google::Protobuf::IMessage* _Data; // 0x18
+		::Class_4_6BD781EAA1CAFD20* _Body; // 0x20
+		::Il2CppArray<::System::Byte>* _RawData; // 0x28
+		::Class_1_21DCD4640D389503_45* _MsgProtoHead; // 0x30
+		::System::UInt32 _PacketID; // 0x38
+		::System::UInt32 _TailMagic; // 0x3C
+		::System::UInt32 _HeadMagic; // 0x40
+		::System::UInt16 _HeadLen; // 0x44
+		::System::Boolean isInUse; // 0x46
+		::System::UInt16 _CmdID; // 0x48
+		::System::UInt32 _BodyLen; // 0x4C
+		::System::UInt32 _Seed; // 0x50
+		::System::UInt64 _RecvTimeStampMs; // 0x58
+		::System::Int32 HeadSize; // 0x60
+		::System::Int32 BodySize; // 0x64
 
 		::System::Void _ctor()
 		{
@@ -141,39 +141,39 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETPACKET_GETPACKETLEN_OFFSET))(this);
 		}
 
-		::System::Void SetPacketID(::System::UInt32 packetID)
+		::System::Void SetPacketID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETPACKET_SETPACKETID_OFFSET))(this, packetID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETPACKET_SETPACKETID_OFFSET))(this, a1);
 		}
 
-		::System::Void SetCmdId(::System::UInt16 cmd_id)
+		::System::Void SetCmdId(::System::UInt16 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETPACKET_SETCMDID_OFFSET))(this, cmd_id);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETPACKET_SETCMDID_OFFSET))(this, a1);
 		}
 
-		::System::Void SetHeadLen(::System::UInt16 len)
+		::System::Void SetHeadLen(::System::UInt16 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETPACKET_SETHEADLEN_OFFSET))(this, len);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETPACKET_SETHEADLEN_OFFSET))(this, a1);
 		}
 
-		::System::Void SetBodyLen(::System::Int32 len)
+		::System::Void SetBodyLen(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETPACKET_SETBODYLEN_OFFSET))(this, len);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETPACKET_SETBODYLEN_OFFSET))(this, a1);
 		}
 
-		::System::Boolean SetData(::Google::Protobuf::IMessage* data, ::System::UInt32 seed)
+		::System::Boolean SetData(::Google::Protobuf::IMessage* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Google::Protobuf::IMessage*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETPACKET_SETDATA_OFFSET))(this, data, seed);
+			return ((::System::Boolean(*)(::PVOID, ::Google::Protobuf::IMessage*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETPACKET_SETDATA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean SetRawData(::Il2CppArray<::System::Byte>* bytes, ::System::UInt32 seed)
+		::System::Boolean SetRawData(::Il2CppArray<::System::Byte>* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETPACKET_SETRAWDATA_OFFSET))(this, bytes, seed);
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETPACKET_SETRAWDATA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetPacketRecvTimeMs(::System::UInt64 timeStampMs)
+		::System::Void SetPacketRecvTimeMs(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETPACKET_SETPACKETRECVTIMEMS_OFFSET))(this, timeStampMs);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETPACKET_SETPACKETRECVTIMEMS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsDataEmpty()
@@ -181,14 +181,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETPACKET_ISDATAEMPTY_OFFSET))(this);
 		}
 
-		::System::Boolean Serialize(::System::IO::MemoryStream* ms, ::System::IO::MemoryStream* bodyStream, ::Class_0_16E4307DCC419505_261* bodyEncrypter)
+		::System::Boolean Serialize(::System::IO::MemoryStream* a1, ::System::IO::MemoryStream* a2, ::Class_0_16E4307DCC419505_274* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IO::MemoryStream*, ::System::IO::MemoryStream*, ::Class_0_16E4307DCC419505_261*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETPACKET_SERIALIZE_OFFSET))(this, ms, bodyStream, bodyEncrypter);
+			return ((::System::Boolean(*)(::PVOID, ::System::IO::MemoryStream*, ::System::IO::MemoryStream*, ::Class_0_16E4307DCC419505_274*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETPACKET_SERIALIZE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::PacketStatus Deserialize(::System::ArraySegment_1<::System::Byte> buf, ::Class_0_16E4307DCC419505_261* bodyEncrypter)
+		::RPG::Client::PacketStatus Deserialize(::System::ArraySegment_1<::System::Byte> a1, ::Class_0_16E4307DCC419505_274* a2)
 		{
-			return ((::RPG::Client::PacketStatus(*)(::PVOID, ::System::ArraySegment_1<::System::Byte>, ::Class_0_16E4307DCC419505_261*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETPACKET_DESERIALIZE_OFFSET))(this, buf, bodyEncrypter);
+			return ((::RPG::Client::PacketStatus(*)(::PVOID, ::System::ArraySegment_1<::System::Byte>, ::Class_0_16E4307DCC419505_274*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETPACKET_DESERIALIZE_OFFSET))(this, a1, a2);
 		}
 	};
 }

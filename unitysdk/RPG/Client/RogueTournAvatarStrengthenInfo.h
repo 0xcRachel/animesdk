@@ -5,22 +5,22 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
+namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class IAvatarComparer; }
-namespace RPG::Client { class IAvatarInfoProvider; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_CREATESTRENGTHENEDAVATARCOMPARER_OFFSET UNITYSDK_OFFSET(0x16EF94D0)
-#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16EF9430)
-#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_GETSTRENGTHENEDAVATARS_OFFSET UNITYSDK_OFFSET(0x16EF9890)
-#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_GETSTRENGTHENTEXTBYAVATARID_OFFSET UNITYSDK_OFFSET(0x16EF9D60)
-#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_INIT_OFFSET UNITYSDK_OFFSET(0x16EF9230)
-#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16EF91B0)
+#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_CREATESTRENGTHENEDAVATARCOMPARER_OFFSET UNITYSDK_OFFSET(0x17DDE6B0)
+#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17DDE620)
+#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_GETSTRENGTHENEDAVATARS_OFFSET UNITYSDK_OFFSET(0x17DDEA10)
+#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_GETSTRENGTHENTEXTBYAVATARID_OFFSET UNITYSDK_OFFSET(0x17DDEEC0)
+#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_INIT_OFFSET UNITYSDK_OFFSET(0x17DDE3C0)
+#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17DDE340)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournAvatarStrengthenInfo_TypeDefinitionIndex = 62202;
+	inline static constexpr unsigned int RogueTournAvatarStrengthenInfo_TypeDefinitionIndex = 63135;
 
 	class RogueTournAvatarStrengthenInfo : public ::System::Object
 	{
@@ -47,14 +47,14 @@ namespace RPG::Client
 			return ((::RPG::Client::IAvatarComparer*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_CREATESTRENGTHENEDAVATARCOMPARER_OFFSET))();
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>* GetStrengthenedAvatars()
+		::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>* GetStrengthenedAvatars()
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_GETSTRENGTHENEDAVATARS_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_GETSTRENGTHENEDAVATARS_OFFSET))(this);
 		}
 
-		::System::String* GetStrengthenTextByAvatarID(::System::UInt32 avatarID)
+		::System::String* GetStrengthenTextByAvatarID(::System::UInt32 a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_GETSTRENGTHENTEXTBYAVATARID_OFFSET))(this, avatarID);
+			return ((::System::String*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO_GETSTRENGTHENTEXTBYAVATARID_OFFSET))(this, a1);
 		}
 	};
 }

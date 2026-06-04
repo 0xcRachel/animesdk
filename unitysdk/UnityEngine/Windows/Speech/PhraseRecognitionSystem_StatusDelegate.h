@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_STATUSDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A68D810)
-#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_STATUSDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A68D880)
-#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_STATUSDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A68D460)
-#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_STATUSDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A68D7F0)
+#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_STATUSDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B4B6990)
+#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_STATUSDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B4B6A00)
+#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_STATUSDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4B6820)
+#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_STATUSDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B6920)
 
 namespace UnityEngine::Windows::Speech
 {
-	inline static constexpr unsigned int PhraseRecognitionSystem_StatusDelegate_TypeDefinitionIndex = 4241;
+	inline static constexpr unsigned int PhraseRecognitionSystem_StatusDelegate_TypeDefinitionIndex = 4415;
 
 	class PhraseRecognitionSystem_StatusDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_STATUSDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_STATUSDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::UnityEngine::Windows::Speech::SpeechSystemStatus status)
+		::System::Void Invoke(::UnityEngine::Windows::Speech::SpeechSystemStatus a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Windows::Speech::SpeechSystemStatus))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_STATUSDELEGATE_INVOKE_OFFSET))(this, status);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Windows::Speech::SpeechSystemStatus))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_STATUSDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::UnityEngine::Windows::Speech::SpeechSystemStatus status, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::UnityEngine::Windows::Speech::SpeechSystemStatus a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Windows::Speech::SpeechSystemStatus, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_STATUSDELEGATE_BEGININVOKE_OFFSET))(this, status, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Windows::Speech::SpeechSystemStatus, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_STATUSDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_STATUSDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_STATUSDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

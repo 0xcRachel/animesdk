@@ -7,26 +7,26 @@
 
 namespace Epic::OnlineServices { class ProductUserId; }
 
-#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x18CEC920)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x18CEC8E0)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x18CEC900)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x18CEC8C0)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x18CECD20)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x18CEC8F0)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x18CEC910)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x18CEC940)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x18CEC8D0)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18CECE30)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x19C425E0)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x19C425A0)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19C425C0)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x19C42580)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x19C429E0)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x19C425B0)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19C425D0)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x19C42600)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x19C42590)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19C42B00)
 
 namespace Epic::OnlineServices::TitleStorage
 {
-	inline static constexpr unsigned int QueryFileCallbackInfo_TypeDefinitionIndex = 41186;
+	inline static constexpr unsigned int QueryFileCallbackInfo_TypeDefinitionIndex = 41989;
 
 	class QueryFileCallbackInfo : public ::System::Object
 	{
 	public:
-		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x10
-		::System::Object* _ClientData_k__BackingField; // 0x18
+		::System::Object* _ClientData_k__BackingField; // 0x10
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x18
 		::Epic::OnlineServices::Result _ResultCode_k__BackingField; // 0x20
 
 		::System::Void _ctor()
@@ -39,9 +39,9 @@ namespace Epic::OnlineServices::TitleStorage
 			return ((::Epic::OnlineServices::Result(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_GET_RESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void set_ResultCode(::Epic::OnlineServices::Result value)
+		::System::Void set_ResultCode(::Epic::OnlineServices::Result a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_SET_RESULTCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_SET_RESULTCODE_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_ClientData()
@@ -49,9 +49,9 @@ namespace Epic::OnlineServices::TitleStorage
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_GET_CLIENTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ClientData(::System::Object* value)
+		::System::Void set_ClientData(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ProductUserId* get_LocalUserId()
@@ -59,9 +59,9 @@ namespace Epic::OnlineServices::TitleStorage
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::Epic::OnlineServices::Result> GetResultCode()
@@ -69,14 +69,14 @@ namespace Epic::OnlineServices::TitleStorage
 			return ((::System::Nullable_1<::Epic::OnlineServices::Result>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_GETRESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::TitleStorage::QueryFileCallbackInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::TitleStorage::QueryFileCallbackInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::TitleStorage::QueryFileCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::TitleStorage::QueryFileCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILECALLBACKINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

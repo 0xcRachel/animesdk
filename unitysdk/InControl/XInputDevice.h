@@ -5,17 +5,17 @@
 
 namespace InControl { class XInputDeviceManager; }
 
-#define INCONTROL_XINPUTDEVICE_GETSTATE_OFFSET UNITYSDK_OFFSET(0x941EBE0)
-#define INCONTROL_XINPUTDEVICE_GET_DEVICEINDEX_OFFSET UNITYSDK_OFFSET(0x941DCE0)
-#define INCONTROL_XINPUTDEVICE_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0x941EE70)
-#define INCONTROL_XINPUTDEVICE_SET_DEVICEINDEX_OFFSET UNITYSDK_OFFSET(0x941DCF0)
-#define INCONTROL_XINPUTDEVICE_UPDATE_OFFSET UNITYSDK_OFFSET(0x941E130)
-#define INCONTROL_XINPUTDEVICE_VIBRATE_OFFSET UNITYSDK_OFFSET(0x941ECA0)
-#define INCONTROL_XINPUTDEVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x941DD00)
+#define INCONTROL_XINPUTDEVICE_GETSTATE_OFFSET UNITYSDK_OFFSET(0xA729650)
+#define INCONTROL_XINPUTDEVICE_GET_DEVICEINDEX_OFFSET UNITYSDK_OFFSET(0xA728820)
+#define INCONTROL_XINPUTDEVICE_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0xA7298D0)
+#define INCONTROL_XINPUTDEVICE_SET_DEVICEINDEX_OFFSET UNITYSDK_OFFSET(0xA728830)
+#define INCONTROL_XINPUTDEVICE_UPDATE_OFFSET UNITYSDK_OFFSET(0xA728C70)
+#define INCONTROL_XINPUTDEVICE_VIBRATE_OFFSET UNITYSDK_OFFSET(0xA729700)
+#define INCONTROL_XINPUTDEVICE__CTOR_OFFSET UNITYSDK_OFFSET(0xA728840)
 
 namespace InControl
 {
-	inline static constexpr unsigned int XInputDevice_TypeDefinitionIndex = 37223;
+	inline static constexpr unsigned int XInputDevice_TypeDefinitionIndex = 37955;
 
 	class XInputDevice : public ::InControl::InputDevice
 	{
@@ -26,9 +26,9 @@ namespace InControl
 		::XInputDotNetPure::GamePadState state; // 0x1A0
 		::System::Int32 _DeviceIndex_k__BackingField; // 0x1F8
 
-		::System::Void _ctor(::System::Int32 deviceIndex, ::InControl::XInputDeviceManager* owner)
+		::System::Void _ctor(::System::Int32 a1, ::InControl::XInputDeviceManager* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::InControl::XInputDeviceManager*))((::PBYTE)hIl2Cpp + INCONTROL_XINPUTDEVICE__CTOR_OFFSET))(this, deviceIndex, owner);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::InControl::XInputDeviceManager*))((::PBYTE)hIl2Cpp + INCONTROL_XINPUTDEVICE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_DeviceIndex()
@@ -36,19 +36,19 @@ namespace InControl
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_XINPUTDEVICE_GET_DEVICEINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_DeviceIndex(::System::Int32 value)
+		::System::Void set_DeviceIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_XINPUTDEVICE_SET_DEVICEINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_XINPUTDEVICE_SET_DEVICEINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Void Update(::System::UInt64 updateTick, ::System::Single deltaTime)
+		::System::Void Update(::System::UInt64 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_XINPUTDEVICE_UPDATE_OFFSET))(this, updateTick, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_XINPUTDEVICE_UPDATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Vibrate(::System::Single leftMotor, ::System::Single rightMotor)
+		::System::Void Vibrate(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_XINPUTDEVICE_VIBRATE_OFFSET))(this, leftMotor, rightMotor);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_XINPUTDEVICE_VIBRATE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void GetState()

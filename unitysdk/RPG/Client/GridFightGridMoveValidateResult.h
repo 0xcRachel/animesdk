@@ -5,18 +5,18 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_GRIDFIGHTGRIDMOVEVALIDATERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1754FA90)
+#define RPG_CLIENT_GRIDFIGHTGRIDMOVEVALIDATERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x17CA4870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridMoveValidateResult_TypeDefinitionIndex = 59705;
+	inline static constexpr unsigned int GridFightGridMoveValidateResult_TypeDefinitionIndex = 60640;
 
 	class GridFightGridMoveValidateResult : public ::System::Object
 	{
 	public:
 		::System::String* Reason; // 0x10
-		::System::Boolean IsSuccess; // 0x18
-		::RPG::Client::GridFightGridMoveValidateResultType Type; // 0x1C
+		::RPG::Client::GridFightGridMoveValidateResultType Type; // 0x18
+		::System::Boolean IsSuccess; // 0x1C
 
 		::System::Void _ctor()
 		{

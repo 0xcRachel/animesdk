@@ -12,48 +12,48 @@ namespace UnityEngine { class Texture; }
 namespace UnityEngine::Rendering { class RTHandleSystem; }
 namespace UnityEngine::Rendering { class ScaleFunc; }
 
-#define UNITYENGINE_RENDERING_RTHANDLE_GETSCALEDSIZE_OFFSET UNITYSDK_OFFSET(0x198CC0F0)
-#define UNITYENGINE_RENDERING_RTHANDLE_GET_NAMEID_OFFSET UNITYSDK_OFFSET(0x198CBD60)
-#define UNITYENGINE_RENDERING_RTHANDLE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x198CBD80)
-#define UNITYENGINE_RENDERING_RTHANDLE_GET_REFERENCESIZE_OFFSET UNITYSDK_OFFSET(0x18B15060)
-#define UNITYENGINE_RENDERING_RTHANDLE_GET_RTHANDLEPROPERTIES_OFFSET UNITYSDK_OFFSET(0x198CBD10)
-#define UNITYENGINE_RENDERING_RTHANDLE_GET_RT_OFFSET UNITYSDK_OFFSET(0x198CBD50)
-#define UNITYENGINE_RENDERING_RTHANDLE_GET_SCALEFACTOR_OFFSET UNITYSDK_OFFSET(0x18B15020)
-#define UNITYENGINE_RENDERING_RTHANDLE_GET_USESCALING_OFFSET UNITYSDK_OFFSET(0x18B15040)
-#define UNITYENGINE_RENDERING_RTHANDLE_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x198CBDC0)
-#define UNITYENGINE_RENDERING_RTHANDLE_OP_IMPLICIT_2_OFFSET UNITYSDK_OFFSET(0x198CBDF0)
-#define UNITYENGINE_RENDERING_RTHANDLE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x198CBDA0)
-#define UNITYENGINE_RENDERING_RTHANDLE_RELEASE_OFFSET UNITYSDK_OFFSET(0x198CBFA0)
-#define UNITYENGINE_RENDERING_RTHANDLE_SETRENDERTEXTURE_OFFSET UNITYSDK_OFFSET(0x198CBE20)
-#define UNITYENGINE_RENDERING_RTHANDLE_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0x198CBEE0)
-#define UNITYENGINE_RENDERING_RTHANDLE_SET_REFERENCESIZE_OFFSET UNITYSDK_OFFSET(0x198CBD00)
-#define UNITYENGINE_RENDERING_RTHANDLE_SET_SCALEFACTOR_OFFSET UNITYSDK_OFFSET(0x18B15030)
-#define UNITYENGINE_RENDERING_RTHANDLE_SET_USESCALING_OFFSET UNITYSDK_OFFSET(0x18B15050)
-#define UNITYENGINE_RENDERING_RTHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x198CBD90)
+#define UNITYENGINE_RENDERING_RTHANDLE_GETSCALEDSIZE_OFFSET UNITYSDK_OFFSET(0x1A5EC350)
+#define UNITYENGINE_RENDERING_RTHANDLE_GET_NAMEID_OFFSET UNITYSDK_OFFSET(0x1A5EBFD0)
+#define UNITYENGINE_RENDERING_RTHANDLE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1A5EBFF0)
+#define UNITYENGINE_RENDERING_RTHANDLE_GET_REFERENCESIZE_OFFSET UNITYSDK_OFFSET(0x195C5490)
+#define UNITYENGINE_RENDERING_RTHANDLE_GET_RTHANDLEPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1A5EBF80)
+#define UNITYENGINE_RENDERING_RTHANDLE_GET_RT_OFFSET UNITYSDK_OFFSET(0x1A5EBFC0)
+#define UNITYENGINE_RENDERING_RTHANDLE_GET_SCALEFACTOR_OFFSET UNITYSDK_OFFSET(0x195C5450)
+#define UNITYENGINE_RENDERING_RTHANDLE_GET_USESCALING_OFFSET UNITYSDK_OFFSET(0x195C5470)
+#define UNITYENGINE_RENDERING_RTHANDLE_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1A5EC030)
+#define UNITYENGINE_RENDERING_RTHANDLE_OP_IMPLICIT_2_OFFSET UNITYSDK_OFFSET(0x1A5EC060)
+#define UNITYENGINE_RENDERING_RTHANDLE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1A5EC010)
+#define UNITYENGINE_RENDERING_RTHANDLE_RELEASE_OFFSET UNITYSDK_OFFSET(0x1A5EC210)
+#define UNITYENGINE_RENDERING_RTHANDLE_SETRENDERTEXTURE_OFFSET UNITYSDK_OFFSET(0x1A5EC090)
+#define UNITYENGINE_RENDERING_RTHANDLE_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1A5EC150)
+#define UNITYENGINE_RENDERING_RTHANDLE_SET_REFERENCESIZE_OFFSET UNITYSDK_OFFSET(0x1A5EBF70)
+#define UNITYENGINE_RENDERING_RTHANDLE_SET_SCALEFACTOR_OFFSET UNITYSDK_OFFSET(0x195C5460)
+#define UNITYENGINE_RENDERING_RTHANDLE_SET_USESCALING_OFFSET UNITYSDK_OFFSET(0x195C5480)
+#define UNITYENGINE_RENDERING_RTHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5EC000)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RTHandle_TypeDefinitionIndex = 33492;
+	inline static constexpr unsigned int RTHandle_TypeDefinitionIndex = 33774;
 
 	class RTHandle : public ::System::Object
 	{
 	public:
-		::UnityEngine::RenderTexture* m_RT; // 0x10
-		::System::String* m_Name; // 0x18
-		::UnityEngine::Rendering::ScaleFunc* scaleFunc; // 0x20
-		::UnityEngine::Rendering::RTHandleSystem* m_Owner; // 0x28
-		::UnityEngine::Texture* m_ExternalTexture; // 0x30
-		::UnityEngine::Vector2 _scaleFactor_k__BackingField; // 0x38
-		::UnityEngine::Vector2Int _referenceSize_k__BackingField; // 0x40
-		::UnityEngine::Rendering::RenderTargetIdentifier m_NameID; // 0x48
-		::System::Boolean _useScaling_k__BackingField; // 0x70
-		::System::Boolean m_EnableHWDynamicScale; // 0x71
-		::System::Boolean m_EnableMSAA; // 0x72
-		::System::Boolean m_EnableRandomWrite; // 0x73
+		::UnityEngine::Rendering::RTHandleSystem* m_Owner; // 0x10
+		::UnityEngine::RenderTexture* m_RT; // 0x18
+		::UnityEngine::Texture* m_ExternalTexture; // 0x20
+		::System::String* m_Name; // 0x28
+		::UnityEngine::Rendering::ScaleFunc* scaleFunc; // 0x30
+		::UnityEngine::Vector2Int _referenceSize_k__BackingField; // 0x38
+		::UnityEngine::Vector2 _scaleFactor_k__BackingField; // 0x40
+		::System::Boolean m_EnableMSAA; // 0x48
+		::System::Boolean m_EnableHWDynamicScale; // 0x49
+		::System::Boolean _useScaling_k__BackingField; // 0x4A
+		::System::Boolean m_EnableRandomWrite; // 0x4B
+		::UnityEngine::Rendering::RenderTargetIdentifier m_NameID; // 0x50
 
-		::System::Void _ctor(::UnityEngine::Rendering::RTHandleSystem* owner)
+		::System::Void _ctor(::UnityEngine::Rendering::RTHandleSystem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::RTHandleSystem*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE__CTOR_OFFSET))(this, owner);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::RTHandleSystem*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE__CTOR_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector2 get_scaleFactor()
@@ -61,9 +61,9 @@ namespace UnityEngine::Rendering
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_GET_SCALEFACTOR_OFFSET))(this);
 		}
 
-		::System::Void set_scaleFactor(::UnityEngine::Vector2 value)
+		::System::Void set_scaleFactor(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_SET_SCALEFACTOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_SET_SCALEFACTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_useScaling()
@@ -71,9 +71,9 @@ namespace UnityEngine::Rendering
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_GET_USESCALING_OFFSET))(this);
 		}
 
-		::System::Void set_useScaling(::System::Boolean value)
+		::System::Void set_useScaling(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_SET_USESCALING_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_SET_USESCALING_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector2Int get_referenceSize()
@@ -81,9 +81,9 @@ namespace UnityEngine::Rendering
 			return ((::UnityEngine::Vector2Int(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_GET_REFERENCESIZE_OFFSET))(this);
 		}
 
-		::System::Void set_referenceSize(::UnityEngine::Vector2Int value)
+		::System::Void set_referenceSize(::UnityEngine::Vector2Int a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_SET_REFERENCESIZE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_SET_REFERENCESIZE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Rendering::RTHandleProperties get_rtHandleProperties()
@@ -106,29 +106,29 @@ namespace UnityEngine::Rendering
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_GET_NAME_OFFSET))(this);
 		}
 
-		static ::UnityEngine::RenderTexture* op_Implicit(::UnityEngine::Rendering::RTHandle* handle)
+		static ::UnityEngine::RenderTexture* op_Implicit(::UnityEngine::Rendering::RTHandle* a1)
 		{
-			return ((::UnityEngine::RenderTexture*(*)(::UnityEngine::Rendering::RTHandle*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_OP_IMPLICIT_OFFSET))(handle);
+			return ((::UnityEngine::RenderTexture*(*)(::UnityEngine::Rendering::RTHandle*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_OP_IMPLICIT_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Texture* op_Implicit_1(::UnityEngine::Rendering::RTHandle* handle)
+		static ::UnityEngine::Texture* op_Implicit_1(::UnityEngine::Rendering::RTHandle* a1)
 		{
-			return ((::UnityEngine::Texture*(*)(::UnityEngine::Rendering::RTHandle*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_OP_IMPLICIT_1_OFFSET))(handle);
+			return ((::UnityEngine::Texture*(*)(::UnityEngine::Rendering::RTHandle*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_OP_IMPLICIT_1_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit_2(::UnityEngine::Rendering::RTHandle* handle)
+		static ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit_2(::UnityEngine::Rendering::RTHandle* a1)
 		{
-			return ((::UnityEngine::Rendering::RenderTargetIdentifier(*)(::UnityEngine::Rendering::RTHandle*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_OP_IMPLICIT_2_OFFSET))(handle);
+			return ((::UnityEngine::Rendering::RenderTargetIdentifier(*)(::UnityEngine::Rendering::RTHandle*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_OP_IMPLICIT_2_OFFSET))(a1);
 		}
 
-		::System::Void SetRenderTexture(::UnityEngine::RenderTexture* rt)
+		::System::Void SetRenderTexture(::UnityEngine::RenderTexture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RenderTexture*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_SETRENDERTEXTURE_OFFSET))(this, rt);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RenderTexture*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_SETRENDERTEXTURE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetTexture(::UnityEngine::Texture* tex)
+		::System::Void SetTexture(::UnityEngine::Texture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_SETTEXTURE_OFFSET))(this, tex);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_SETTEXTURE_OFFSET))(this, a1);
 		}
 
 		::System::Void Release()
@@ -136,9 +136,9 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_RELEASE_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector2Int GetScaledSize(::UnityEngine::Vector2Int refSize)
+		::UnityEngine::Vector2Int GetScaledSize(::UnityEngine::Vector2Int a1)
 		{
-			return ((::UnityEngine::Vector2Int(*)(::PVOID, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_GETSCALEDSIZE_OFFSET))(this, refSize);
+			return ((::UnityEngine::Vector2Int(*)(::PVOID, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLE_GETSCALEDSIZE_OFFSET))(this, a1);
 		}
 	};
 }

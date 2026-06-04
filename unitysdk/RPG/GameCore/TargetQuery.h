@@ -7,14 +7,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PredicateConfig; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETQUERY_METHOD_4_81D1D2118B9DF1EC_OFFSET UNITYSDK_OFFSET(0x199DE290)
-#define RPG_GAMECORE_TARGETQUERY_METHOD_4_FD142F713EF58B3D_OFFSET UNITYSDK_OFFSET(0x199E7320)
-#define RPG_GAMECORE_TARGETQUERY__CTOR_OFFSET UNITYSDK_OFFSET(0x199DE200)
+#define RPG_GAMECORE_TARGETQUERY_METHOD_4_1F9D78512B12DD96_OFFSET UNITYSDK_OFFSET(0x1ACCCD50)
+#define RPG_GAMECORE_TARGETQUERY_METHOD_4_81D1D2118B9DF1EC_OFFSET UNITYSDK_OFFSET(0x1ACCCAC0)
+#define RPG_GAMECORE_TARGETQUERY_METHOD_4_B33473EA5CC59497_OFFSET UNITYSDK_OFFSET(0x1ACCCCA0)
+#define RPG_GAMECORE_TARGETQUERY_METHOD_4_FD142F713EF58B3D_OFFSET UNITYSDK_OFFSET(0x1ACCC980)
+#define RPG_GAMECORE_TARGETQUERY__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACCCA30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetQuery_TypeDefinitionIndex = 22962;
+	inline static constexpr unsigned int TargetQuery_TypeDefinitionIndex = 22653;
 
 	class TargetQuery : public ::RPG::GameCore::TargetEvaluator
 	{
@@ -38,6 +41,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_81D1D2118B9DF1EC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetQuery* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetQuery*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETQUERY_METHOD_4_81D1D2118B9DF1EC_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_B33473EA5CC59497(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetQuery*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetQuery*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETQUERY_METHOD_4_B33473EA5CC59497_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_1F9D78512B12DD96(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetQuery* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetQuery*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETQUERY_METHOD_4_1F9D78512B12DD96_OFFSET))(a1, a2);
 		}
 	};
 }

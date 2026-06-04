@@ -4,15 +4,15 @@
 
 namespace System { class String; }
 
-#define SROPTIONS_DISPLAYNAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5F0E70)
+#define SROPTIONS_DISPLAYNAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17A88C20)
 
-inline static constexpr unsigned int SROptions_DisplayNameAttribute_TypeDefinitionIndex = 40923;
+inline static constexpr unsigned int SROptions_DisplayNameAttribute_TypeDefinitionIndex = 41741;
 
 class SROptions_DisplayNameAttribute : public ::System::ComponentModel::DisplayNameAttribute
 {
 public:
-	::System::Void _ctor(::System::String* displayName)
+	::System::Void _ctor(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SROPTIONS_DISPLAYNAMEATTRIBUTE__CTOR_OFFSET))(this, displayName);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SROPTIONS_DISPLAYNAMEATTRIBUTE__CTOR_OFFSET))(this, a1);
 	}
 };

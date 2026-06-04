@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_EIGHTBITDOSNES30MACUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x9341480)
-#define INCONTROL_UNITYDEVICEPROFILES_EIGHTBITDOSNES30MACUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x9342010)
+#define INCONTROL_UNITYDEVICEPROFILES_EIGHTBITDOSNES30MACUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0xA66CFE0)
+#define INCONTROL_UNITYDEVICEPROFILES_EIGHTBITDOSNES30MACUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0xA66D980)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int EightBitdoSNES30MacUnityProfile_TypeDefinitionIndex = 37316;
+	inline static constexpr unsigned int EightBitdoSNES30MacUnityProfile_TypeDefinitionIndex = 38048;
 
 	class EightBitdoSNES30MacUnityProfile : public ::InControl::InputDeviceProfile
 	{

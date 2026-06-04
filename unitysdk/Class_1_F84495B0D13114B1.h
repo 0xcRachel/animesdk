@@ -6,20 +6,20 @@
 
 class Class_1_16CA124888A687A8;
 
-#define CLASS_1_F84495B0D13114B1_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFF7E760)
-#define CLASS_1_F84495B0D13114B1_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xFF7E7E0)
-#define CLASS_1_F84495B0D13114B1__CTOR_OFFSET UNITYSDK_OFFSET(0xFF7E840)
+#define CLASS_1_F84495B0D13114B1_DISPOSE_OFFSET UNITYSDK_OFFSET(0x168B1360)
+#define CLASS_1_F84495B0D13114B1_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x168B13E0)
+#define CLASS_1_F84495B0D13114B1__CTOR_OFFSET UNITYSDK_OFFSET(0x168B1440)
 
-inline static constexpr unsigned int Class_1_F84495B0D13114B1_TypeDefinitionIndex = 72048;
+inline static constexpr unsigned int Class_1_F84495B0D13114B1_TypeDefinitionIndex = 73070;
 
 class Class_1_F84495B0D13114B1 : public ::System::Object
 {
 public:
 	::Class_1_16CA124888A687A8* Field_1_0; // 0x10
 	::UnityEngine::Vector2Int Field_1_1; // 0x18
-	::UnityEngine::Vector2Int Field_1_3; // 0x20
-	::System::Int32 Field_1_4; // 0x28
-	::RPG::Client::Prop::DestroyRootPuzzleBlockType Field_1_2; // 0x2C
+	::RPG::Client::Prop::DestroyRootPuzzleBlockType Field_1_2; // 0x20
+	::UnityEngine::Vector2Int Field_1_3; // 0x24
+	::System::Int32 Field_1_4; // 0x2C
 
 	::System::Void _ctor()
 	{

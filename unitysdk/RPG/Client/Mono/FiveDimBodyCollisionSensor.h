@@ -5,17 +5,17 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Collision; }
 
-#define RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR_ADD_ONENTER_OFFSET UNITYSDK_OFFSET(0x152B9600)
-#define RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR_ADD_ONEXIT_OFFSET UNITYSDK_OFFSET(0x152B96C0)
-#define RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x152B9540)
-#define RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR_ONCOLLISIONEXIT_OFFSET UNITYSDK_OFFSET(0x152B95A0)
-#define RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR_REMOVE_ONENTER_OFFSET UNITYSDK_OFFSET(0x152B9660)
-#define RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR_REMOVE_ONEXIT_OFFSET UNITYSDK_OFFSET(0x152B9720)
-#define RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x152B9780)
+#define RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR_ADD_ONENTER_OFFSET UNITYSDK_OFFSET(0x12A27890)
+#define RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR_ADD_ONEXIT_OFFSET UNITYSDK_OFFSET(0x12A27950)
+#define RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x12A277B0)
+#define RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR_ONCOLLISIONEXIT_OFFSET UNITYSDK_OFFSET(0x12A27820)
+#define RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR_REMOVE_ONENTER_OFFSET UNITYSDK_OFFSET(0x12A278F0)
+#define RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR_REMOVE_ONEXIT_OFFSET UNITYSDK_OFFSET(0x12A279B0)
+#define RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x12A27A10)
 
 namespace RPG::Client::Mono
 {
-	inline static constexpr unsigned int FiveDimBodyCollisionSensor_TypeDefinitionIndex = 69782;
+	inline static constexpr unsigned int FiveDimBodyCollisionSensor_TypeDefinitionIndex = 70594;
 
 	class FiveDimBodyCollisionSensor : public ::UnityEngine::MonoBehaviour
 	{
@@ -38,24 +38,24 @@ namespace RPG::Client::Mono
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR_ONCOLLISIONEXIT_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnEnter(::System::Action_1<::UnityEngine::Collision*>* value)
+		::System::Void add_OnEnter(::System::Action_1<::UnityEngine::Collision*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Collision*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR_ADD_ONENTER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Collision*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR_ADD_ONENTER_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnEnter(::System::Action_1<::UnityEngine::Collision*>* value)
+		::System::Void remove_OnEnter(::System::Action_1<::UnityEngine::Collision*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Collision*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR_REMOVE_ONENTER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Collision*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR_REMOVE_ONENTER_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnExit(::System::Action_1<::UnityEngine::Collision*>* value)
+		::System::Void add_OnExit(::System::Action_1<::UnityEngine::Collision*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Collision*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR_ADD_ONEXIT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Collision*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR_ADD_ONEXIT_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnExit(::System::Action_1<::UnityEngine::Collision*>* value)
+		::System::Void remove_OnExit(::System::Action_1<::UnityEngine::Collision*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Collision*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR_REMOVE_ONEXIT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Collision*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONO_FIVEDIMBODYCOLLISIONSENSOR_REMOVE_ONEXIT_OFFSET))(this, a1);
 		}
 	};
 }

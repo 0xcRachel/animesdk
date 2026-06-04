@@ -9,30 +9,30 @@ namespace RPG::Client::DiceCombat { class DiceCombatV2PvPScoreData; }
 namespace RPG::Client::DiceCombat { class DiceCombatV2PvPTitleData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x17043E20)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_GET_LOCALPLAYERTITLEDATA_OFFSET UNITYSDK_OFFSET(0x170442A0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_GET_SCOREDATAS_OFFSET UNITYSDK_OFFSET(0x170442E0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_GET_TEAMMATEPLATFORMINFO_OFFSET UNITYSDK_OFFSET(0x17044320)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_GET_TEAMMATETITLEDATA_OFFSET UNITYSDK_OFFSET(0x170442C0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_GET_TOTALSCORE_OFFSET UNITYSDK_OFFSET(0x17044300)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_SET_LOCALPLAYERTITLEDATA_OFFSET UNITYSDK_OFFSET(0x170442B0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_SET_SCOREDATAS_OFFSET UNITYSDK_OFFSET(0x170442F0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_SET_TEAMMATEPLATFORMINFO_OFFSET UNITYSDK_OFFSET(0x17044330)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_SET_TEAMMATETITLEDATA_OFFSET UNITYSDK_OFFSET(0x170442D0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_SET_TOTALSCORE_OFFSET UNITYSDK_OFFSET(0x17044310)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17044340)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x17F0E4B0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_GET_LOCALPLAYERTITLEDATA_OFFSET UNITYSDK_OFFSET(0x17F0E950)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_GET_SCOREDATAS_OFFSET UNITYSDK_OFFSET(0x17F0E990)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_GET_TEAMMATEPLATFORMINFO_OFFSET UNITYSDK_OFFSET(0x17F0E9D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_GET_TEAMMATETITLEDATA_OFFSET UNITYSDK_OFFSET(0x17F0E970)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_GET_TOTALSCORE_OFFSET UNITYSDK_OFFSET(0x17F0E9B0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_SET_LOCALPLAYERTITLEDATA_OFFSET UNITYSDK_OFFSET(0x17F0E960)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_SET_SCOREDATAS_OFFSET UNITYSDK_OFFSET(0x17F0E9A0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_SET_TEAMMATEPLATFORMINFO_OFFSET UNITYSDK_OFFSET(0x17F0E9E0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_SET_TEAMMATETITLEDATA_OFFSET UNITYSDK_OFFSET(0x17F0E980)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_SET_TOTALSCORE_OFFSET UNITYSDK_OFFSET(0x17F0E9C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17F0E9F0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2PvPBattleResultInfo_TypeDefinitionIndex = 69908;
+	inline static constexpr unsigned int DiceCombatV2PvPBattleResultInfo_TypeDefinitionIndex = 70720;
 
 	class DiceCombatV2PvPBattleResultInfo : public ::RPG::Client::DiceCombat::DiceCombatV2BattleResultInfo
 	{
 	public:
 		::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData* _LocalPlayerTitleData_k__BackingField; // 0x48
-		::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatV2PvPScoreData*>* _ScoreDatas_k__BackingField; // 0x50
-		::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData* _TeamMateTitleData_k__BackingField; // 0x58
-		::RPG::Client::PlayerPlatformInfo* _TeamMatePlatformInfo_k__BackingField; // 0x60
+		::RPG::Client::PlayerPlatformInfo* _TeamMatePlatformInfo_k__BackingField; // 0x50
+		::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatV2PvPScoreData*>* _ScoreDatas_k__BackingField; // 0x58
+		::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData* _TeamMateTitleData_k__BackingField; // 0x60
 		::System::UInt32 _TotalScore_k__BackingField; // 0x68
 
 		::System::Void _ctor()
@@ -45,9 +45,9 @@ namespace RPG::Client::DiceCombat
 			return ((::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_GET_LOCALPLAYERTITLEDATA_OFFSET))(this);
 		}
 
-		::System::Void set_LocalPlayerTitleData(::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData* value)
+		::System::Void set_LocalPlayerTitleData(::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_SET_LOCALPLAYERTITLEDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_SET_LOCALPLAYERTITLEDATA_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData* get_TeamMateTitleData()
@@ -55,9 +55,9 @@ namespace RPG::Client::DiceCombat
 			return ((::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_GET_TEAMMATETITLEDATA_OFFSET))(this);
 		}
 
-		::System::Void set_TeamMateTitleData(::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData* value)
+		::System::Void set_TeamMateTitleData(::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_SET_TEAMMATETITLEDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_SET_TEAMMATETITLEDATA_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatV2PvPScoreData*>* get_ScoreDatas()
@@ -65,9 +65,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatV2PvPScoreData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_GET_SCOREDATAS_OFFSET))(this);
 		}
 
-		::System::Void set_ScoreDatas(::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatV2PvPScoreData*>* value)
+		::System::Void set_ScoreDatas(::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatV2PvPScoreData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatV2PvPScoreData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_SET_SCOREDATAS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::DiceCombat::DiceCombatV2PvPScoreData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_SET_SCOREDATAS_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_TotalScore()
@@ -75,9 +75,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_GET_TOTALSCORE_OFFSET))(this);
 		}
 
-		::System::Void set_TotalScore(::System::UInt32 value)
+		::System::Void set_TotalScore(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_SET_TOTALSCORE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_SET_TOTALSCORE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::PlayerPlatformInfo* get_TeamMatePlatformInfo()
@@ -85,14 +85,14 @@ namespace RPG::Client::DiceCombat
 			return ((::RPG::Client::PlayerPlatformInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_GET_TEAMMATEPLATFORMINFO_OFFSET))(this);
 		}
 
-		::System::Void set_TeamMatePlatformInfo(::RPG::Client::PlayerPlatformInfo* value)
+		::System::Void set_TeamMatePlatformInfo(::RPG::Client::PlayerPlatformInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::PlayerPlatformInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_SET_TEAMMATEPLATFORMINFO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PlayerPlatformInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_SET_TEAMMATEPLATFORMINFO_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::DiceCombat::DiceCombatV2PvPBattleResultInfo* Create(::RPG::Client::DiceCombat::DiceCombatBattlePlayerInfo* localPlayerInfo, ::RPG::Client::DiceCombat::DiceCombatBattlePlayerInfo* teamMatePlayerInfo, ::RPG::Client::DiceCombat::DiceCombatBattlePlayerInfo* opponentInfo, ::Class_1_409DDE73E6219FD7* notify)
+		static ::RPG::Client::DiceCombat::DiceCombatV2PvPBattleResultInfo* Create(::RPG::Client::DiceCombat::DiceCombatBattlePlayerInfo* a1, ::RPG::Client::DiceCombat::DiceCombatBattlePlayerInfo* a2, ::RPG::Client::DiceCombat::DiceCombatBattlePlayerInfo* a3, ::Class_1_409DDE73E6219FD7* a4)
 		{
-			return ((::RPG::Client::DiceCombat::DiceCombatV2PvPBattleResultInfo*(*)(::RPG::Client::DiceCombat::DiceCombatBattlePlayerInfo*, ::RPG::Client::DiceCombat::DiceCombatBattlePlayerInfo*, ::RPG::Client::DiceCombat::DiceCombatBattlePlayerInfo*, ::Class_1_409DDE73E6219FD7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_CREATE_OFFSET))(localPlayerInfo, teamMatePlayerInfo, opponentInfo, notify);
+			return ((::RPG::Client::DiceCombat::DiceCombatV2PvPBattleResultInfo*(*)(::RPG::Client::DiceCombat::DiceCombatBattlePlayerInfo*, ::RPG::Client::DiceCombat::DiceCombatBattlePlayerInfo*, ::RPG::Client::DiceCombat::DiceCombatBattlePlayerInfo*, ::Class_1_409DDE73E6219FD7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVPBATTLERESULTINFO_CREATE_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

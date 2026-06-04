@@ -5,30 +5,30 @@
 namespace System { class Array; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_NOALLOCHELPERS_EXTRACTARRAYFROMLIST_OFFSET UNITYSDK_OFFSET(0x1A5672B0)
-#define UNITYENGINE_NOALLOCHELPERS_INTERNAL_RESIZELIST_OFFSET UNITYSDK_OFFSET(0x1A56C600)
-#define UNITYENGINE_NOALLOCHELPERS_SAFELENGTH_OFFSET UNITYSDK_OFFSET(0x1A5637E0)
+#define UNITYENGINE_NOALLOCHELPERS_EXTRACTARRAYFROMLIST_OFFSET UNITYSDK_OFFSET(0x1B30A2B0)
+#define UNITYENGINE_NOALLOCHELPERS_INTERNAL_RESIZELIST_OFFSET UNITYSDK_OFFSET(0x1B30F460)
+#define UNITYENGINE_NOALLOCHELPERS_SAFELENGTH_OFFSET UNITYSDK_OFFSET(0x1B3067F0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int NoAllocHelpers_TypeDefinitionIndex = 4143;
+	inline static constexpr unsigned int NoAllocHelpers_TypeDefinitionIndex = 4317;
 
 	class NoAllocHelpers : public ::System::Object
 	{
 	public:
-		static ::System::Int32 SafeLength(::System::Array* values)
+		static ::System::Int32 SafeLength(::System::Array* a1)
 		{
-			return ((::System::Int32(*)(::System::Array*))((::PBYTE)hIl2Cpp + UNITYENGINE_NOALLOCHELPERS_SAFELENGTH_OFFSET))(values);
+			return ((::System::Int32(*)(::System::Array*))((::PBYTE)hIl2Cpp + UNITYENGINE_NOALLOCHELPERS_SAFELENGTH_OFFSET))(a1);
 		}
 
-		static ::System::Void Internal_ResizeList(::System::Object* list, ::System::Int32 size)
+		static ::System::Void Internal_ResizeList(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_NOALLOCHELPERS_INTERNAL_RESIZELIST_OFFSET))(list, size);
+			return ((::System::Void(*)(::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_NOALLOCHELPERS_INTERNAL_RESIZELIST_OFFSET))(a1, a2);
 		}
 
-		static ::System::Array* ExtractArrayFromList(::System::Object* list)
+		static ::System::Array* ExtractArrayFromList(::System::Object* a1)
 		{
-			return ((::System::Array*(*)(::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_NOALLOCHELPERS_EXTRACTARRAYFROMLIST_OFFSET))(list);
+			return ((::System::Array*(*)(::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_NOALLOCHELPERS_EXTRACTARRAYFROMLIST_OFFSET))(a1);
 		}
 	};
 }

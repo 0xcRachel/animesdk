@@ -4,25 +4,25 @@
 
 class AkWwiseInitializationSettings;
 
-#define AKINITIALIZER_AWAKE_OFFSET UNITYSDK_OFFSET(0x192D2380)
-#define AKINITIALIZER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x192D2370)
-#define AKINITIALIZER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x192D2970)
-#define AKINITIALIZER_ONAPPLICATIONFOCUS_OFFSET UNITYSDK_OFFSET(0x192D2830)
-#define AKINITIALIZER_ONAPPLICATIONPAUSE_OFFSET UNITYSDK_OFFSET(0x192D2710)
-#define AKINITIALIZER_ONAPPLICATIONQUIT_OFFSET UNITYSDK_OFFSET(0x192D2880)
-#define AKINITIALIZER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x192D2680)
-#define AKINITIALIZER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x192D2580)
-#define AKINITIALIZER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x192D2480)
-#define AKINITIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x192D2A60)
+#define AKINITIALIZER_AWAKE_OFFSET UNITYSDK_OFFSET(0x19DED0A0)
+#define AKINITIALIZER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x19DED090)
+#define AKINITIALIZER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x19DED690)
+#define AKINITIALIZER_ONAPPLICATIONFOCUS_OFFSET UNITYSDK_OFFSET(0x19DED550)
+#define AKINITIALIZER_ONAPPLICATIONPAUSE_OFFSET UNITYSDK_OFFSET(0x19DED430)
+#define AKINITIALIZER_ONAPPLICATIONQUIT_OFFSET UNITYSDK_OFFSET(0x19DED5A0)
+#define AKINITIALIZER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19DED3A0)
+#define AKINITIALIZER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x19DED2A0)
+#define AKINITIALIZER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19DED1A0)
+#define AKINITIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x19DED780)
 
-inline static constexpr unsigned int AkInitializer_TypeDefinitionIndex = 40490;
+inline static constexpr unsigned int AkInitializer_TypeDefinitionIndex = 41317;
 
 class AkInitializer : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::AkInitializer** StaticGet_ms_Instance()
 	{
-		return (::AkInitializer**)Il2CppClass::FromTypeDefinitionIndex(AkInitializer_TypeDefinitionIndex)->GetStaticField(0x560D0);
+		return (::AkInitializer**)Il2CppClass::FromTypeDefinitionIndex(AkInitializer_TypeDefinitionIndex)->GetStaticField(0x57460);
 	}
 	::AkWwiseInitializationSettings* InitializationSettings; // 0x18
 
@@ -56,14 +56,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKINITIALIZER_ONDESTROY_OFFSET))(this);
 	}
 
-	::System::Void OnApplicationPause(::System::Boolean pauseStatus)
+	::System::Void OnApplicationPause(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKINITIALIZER_ONAPPLICATIONPAUSE_OFFSET))(this, pauseStatus);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKINITIALIZER_ONAPPLICATIONPAUSE_OFFSET))(this, a1);
 	}
 
-	::System::Void OnApplicationFocus(::System::Boolean focus)
+	::System::Void OnApplicationFocus(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKINITIALIZER_ONAPPLICATIONFOCUS_OFFSET))(this, focus);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKINITIALIZER_ONAPPLICATIONFOCUS_OFFSET))(this, a1);
 	}
 
 	::System::Void OnApplicationQuit()

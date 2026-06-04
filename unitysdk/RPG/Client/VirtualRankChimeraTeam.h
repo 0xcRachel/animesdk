@@ -2,43 +2,43 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_COMPARETO_OFFSET UNITYSDK_OFFSET(0x11E43C10)
-#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_GET_CURFINISHWORKCNT_OFFSET UNITYSDK_OFFSET(0x11E43D00)
-#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_GET_CURRANK_OFFSET UNITYSDK_OFFSET(0x11E43D40)
-#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_GET_ITEMINDEX_OFFSET UNITYSDK_OFFSET(0x11E43CC0)
-#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_GET_MAXFINISHWORKCNT_OFFSET UNITYSDK_OFFSET(0x11E43D20)
-#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_GET_TARGETRANK_OFFSET UNITYSDK_OFFSET(0x11E43D60)
-#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_GET_TEAMID_OFFSET UNITYSDK_OFFSET(0x11E43CE0)
-#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_CURFINISHWORKCNT_OFFSET UNITYSDK_OFFSET(0x11E43D10)
-#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_CURRANK_OFFSET UNITYSDK_OFFSET(0x11E43D50)
-#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_ITEMINDEX_OFFSET UNITYSDK_OFFSET(0x11E43CD0)
-#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_MAXFINISHWORKCNT_OFFSET UNITYSDK_OFFSET(0x11E43D30)
-#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_TARGETRANK_OFFSET UNITYSDK_OFFSET(0x11E43D70)
-#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_TEAMID_OFFSET UNITYSDK_OFFSET(0x11E43CF0)
-#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM__CTOR_OFFSET UNITYSDK_OFFSET(0x11E43BE0)
+#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_COMPARETO_OFFSET UNITYSDK_OFFSET(0x17727390)
+#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_GET_CURFINISHWORKCNT_OFFSET UNITYSDK_OFFSET(0x17727480)
+#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_GET_CURRANK_OFFSET UNITYSDK_OFFSET(0x177274C0)
+#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_GET_ITEMINDEX_OFFSET UNITYSDK_OFFSET(0x17727440)
+#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_GET_MAXFINISHWORKCNT_OFFSET UNITYSDK_OFFSET(0x177274A0)
+#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_GET_TARGETRANK_OFFSET UNITYSDK_OFFSET(0x177274E0)
+#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_GET_TEAMID_OFFSET UNITYSDK_OFFSET(0x17727460)
+#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_CURFINISHWORKCNT_OFFSET UNITYSDK_OFFSET(0x17727490)
+#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_CURRANK_OFFSET UNITYSDK_OFFSET(0x177274D0)
+#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_ITEMINDEX_OFFSET UNITYSDK_OFFSET(0x17727450)
+#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_MAXFINISHWORKCNT_OFFSET UNITYSDK_OFFSET(0x177274B0)
+#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_TARGETRANK_OFFSET UNITYSDK_OFFSET(0x177274F0)
+#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_TEAMID_OFFSET UNITYSDK_OFFSET(0x17727470)
+#define RPG_CLIENT_VIRTUALRANKCHIMERATEAM__CTOR_OFFSET UNITYSDK_OFFSET(0x17727360)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VirtualRankChimeraTeam_TypeDefinitionIndex = 66779;
+	inline static constexpr unsigned int VirtualRankChimeraTeam_TypeDefinitionIndex = 67719;
 
 	class VirtualRankChimeraTeam : public ::System::Object
 	{
 	public:
-		::System::UInt32 _TeamID_k__BackingField; // 0x10
-		::System::UInt32 _MaxFinishWorkCnt_k__BackingField; // 0x14
-		::System::UInt32 _CurRank_k__BackingField; // 0x18
+		::System::UInt32 _CurRank_k__BackingField; // 0x10
+		::System::Int32 _ItemIndex_k__BackingField; // 0x14
+		::System::UInt32 _MaxFinishWorkCnt_k__BackingField; // 0x18
 		::System::Single _CurFinishWorkCnt_k__BackingField; // 0x1C
-		::System::Int32 _ItemIndex_k__BackingField; // 0x20
+		::System::UInt32 _TeamID_k__BackingField; // 0x20
 		::System::UInt32 _TargetRank_k__BackingField; // 0x24
 
-		::System::Void _ctor(::System::Int32 itemIndex, ::System::UInt32 teamID, ::System::Single curFinishWorkCnt, ::System::UInt32 maxFinishWorkCnt, ::System::UInt32 rank, ::System::UInt32 targetRank)
+		::System::Void _ctor(::System::Int32 a1, ::System::UInt32 a2, ::System::Single a3, ::System::UInt32 a4, ::System::UInt32 a5, ::System::UInt32 a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::UInt32, ::System::Single, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM__CTOR_OFFSET))(this, itemIndex, teamID, curFinishWorkCnt, maxFinishWorkCnt, rank, targetRank);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::UInt32, ::System::Single, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Int32 CompareTo(::RPG::Client::VirtualRankChimeraTeam* other)
+		::System::Int32 CompareTo(::RPG::Client::VirtualRankChimeraTeam* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::VirtualRankChimeraTeam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM_COMPARETO_OFFSET))(this, other);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::VirtualRankChimeraTeam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM_COMPARETO_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_ItemIndex()
@@ -46,9 +46,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM_GET_ITEMINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_ItemIndex(::System::Int32 value)
+		::System::Void set_ItemIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_ITEMINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_ITEMINDEX_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_TeamID()
@@ -56,9 +56,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM_GET_TEAMID_OFFSET))(this);
 		}
 
-		::System::Void set_TeamID(::System::UInt32 value)
+		::System::Void set_TeamID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_TEAMID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_TEAMID_OFFSET))(this, a1);
 		}
 
 		::System::Single get_CurFinishWorkCnt()
@@ -66,9 +66,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM_GET_CURFINISHWORKCNT_OFFSET))(this);
 		}
 
-		::System::Void set_CurFinishWorkCnt(::System::Single value)
+		::System::Void set_CurFinishWorkCnt(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_CURFINISHWORKCNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_CURFINISHWORKCNT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_MaxFinishWorkCnt()
@@ -76,9 +76,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM_GET_MAXFINISHWORKCNT_OFFSET))(this);
 		}
 
-		::System::Void set_MaxFinishWorkCnt(::System::UInt32 value)
+		::System::Void set_MaxFinishWorkCnt(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_MAXFINISHWORKCNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_MAXFINISHWORKCNT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_CurRank()
@@ -86,9 +86,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM_GET_CURRANK_OFFSET))(this);
 		}
 
-		::System::Void set_CurRank(::System::UInt32 value)
+		::System::Void set_CurRank(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_CURRANK_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_CURRANK_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_TargetRank()
@@ -96,9 +96,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM_GET_TARGETRANK_OFFSET))(this);
 		}
 
-		::System::Void set_TargetRank(::System::UInt32 value)
+		::System::Void set_TargetRank(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_TARGETRANK_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALRANKCHIMERATEAM_SET_TARGETRANK_OFFSET))(this, a1);
 		}
 	};
 }

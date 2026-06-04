@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvGameplayTrackNpcInit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CAB497F2C13379CB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDE5EDA0)
-#define CLASS_3_CAB497F2C13379CB__CTOR_OFFSET UNITYSDK_OFFSET(0xDE5ED70)
+#define CLASS_3_CAB497F2C13379CB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14166CF0)
+#define CLASS_3_CAB497F2C13379CB__CTOR_OFFSET UNITYSDK_OFFSET(0x14166CC0)
 
-inline static constexpr unsigned int Class_3_CAB497F2C13379CB_TypeDefinitionIndex = 48354;
+inline static constexpr unsigned int Class_3_CAB497F2C13379CB_TypeDefinitionIndex = 48980;
 
 class Class_3_CAB497F2C13379CB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvGameplayTrackNpcInit*>
 {

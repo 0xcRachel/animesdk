@@ -5,21 +5,21 @@
 namespace Epic::OnlineServices { class ProductUserId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_LOBBY_DESTROYLOBBYOPTIONS_GET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x19880EE0)
-#define EPIC_ONLINESERVICES_LOBBY_DESTROYLOBBYOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19880EC0)
-#define EPIC_ONLINESERVICES_LOBBY_DESTROYLOBBYOPTIONS_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x19880EF0)
-#define EPIC_ONLINESERVICES_LOBBY_DESTROYLOBBYOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19880ED0)
-#define EPIC_ONLINESERVICES_LOBBY_DESTROYLOBBYOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19880F00)
+#define EPIC_ONLINESERVICES_LOBBY_DESTROYLOBBYOPTIONS_GET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x1A5BF6E0)
+#define EPIC_ONLINESERVICES_LOBBY_DESTROYLOBBYOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A5BF6C0)
+#define EPIC_ONLINESERVICES_LOBBY_DESTROYLOBBYOPTIONS_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x1A5BF6F0)
+#define EPIC_ONLINESERVICES_LOBBY_DESTROYLOBBYOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A5BF6D0)
+#define EPIC_ONLINESERVICES_LOBBY_DESTROYLOBBYOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5BF700)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int DestroyLobbyOptions_TypeDefinitionIndex = 41845;
+	inline static constexpr unsigned int DestroyLobbyOptions_TypeDefinitionIndex = 42648;
 
 	class DestroyLobbyOptions : public ::System::Object
 	{
 	public:
-		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x10
-		::System::String* _LobbyId_k__BackingField; // 0x18
+		::System::String* _LobbyId_k__BackingField; // 0x10
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -31,9 +31,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_DESTROYLOBBYOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_DESTROYLOBBYOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_DESTROYLOBBYOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_LobbyId()
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_DESTROYLOBBYOPTIONS_GET_LOBBYID_OFFSET))(this);
 		}
 
-		::System::Void set_LobbyId(::System::String* value)
+		::System::Void set_LobbyId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_DESTROYLOBBYOPTIONS_SET_LOBBYID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_DESTROYLOBBYOPTIONS_SET_LOBBYID_OFFSET))(this, a1);
 		}
 	};
 }

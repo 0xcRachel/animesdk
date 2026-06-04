@@ -9,34 +9,34 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_F155723455666643_GET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x1267C760)
-#define CLASS_1_F155723455666643_METHOD_1_1C5367087CB1B680_OFFSET UNITYSDK_OFFSET(0x1267CA80)
-#define CLASS_1_F155723455666643_METHOD_1_31BFEC2AE7894E31_OFFSET UNITYSDK_OFFSET(0x1267CD80)
-#define CLASS_1_F155723455666643_METHOD_1_5895C62C75495BAE_OFFSET UNITYSDK_OFFSET(0x1267CEB0)
-#define CLASS_1_F155723455666643_METHOD_1_645EB903F9235220_OFFSET UNITYSDK_OFFSET(0x1267CF80)
-#define CLASS_1_F155723455666643_METHOD_1_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x1267C780)
-#define CLASS_1_F155723455666643_METHOD_1_A3A0E53DF970A3C5_OFFSET UNITYSDK_OFFSET(0x1267C870)
-#define CLASS_1_F155723455666643_METHOD_1_B34D6B5EC2E4D29F_OFFSET UNITYSDK_OFFSET(0x1267C990)
-#define CLASS_1_F155723455666643_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1267CF40)
-#define CLASS_1_F155723455666643_SET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x1267C770)
-#define CLASS_1_F155723455666643__CTOR_OFFSET UNITYSDK_OFFSET(0x1267C7D0)
+#define CLASS_1_F155723455666643_GET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x16033110)
+#define CLASS_1_F155723455666643_METHOD_1_645EB903F9235220_OFFSET UNITYSDK_OFFSET(0x16033970)
+#define CLASS_1_F155723455666643_METHOD_1_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x16033130)
+#define CLASS_1_F155723455666643_METHOD_1_A3A0E53DF970A3C5_OFFSET UNITYSDK_OFFSET(0x16033220)
+#define CLASS_1_F155723455666643_METHOD_1_B34D6B5EC2E4D29F_OFFSET UNITYSDK_OFFSET(0x16033330)
+#define CLASS_1_F155723455666643_METHOD_1_C3A1D7A266E0BFB1_OFFSET UNITYSDK_OFFSET(0x16033420)
+#define CLASS_1_F155723455666643_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x16033930)
+#define CLASS_1_F155723455666643_METHOD_1_D3C1E02147B0C84A_OFFSET UNITYSDK_OFFSET(0x160336D0)
+#define CLASS_1_F155723455666643_METHOD_1_FDE09C8D62639E3E_OFFSET UNITYSDK_OFFSET(0x160338A0)
+#define CLASS_1_F155723455666643_SET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x16033120)
+#define CLASS_1_F155723455666643__CTOR_OFFSET UNITYSDK_OFFSET(0x16033180)
 
-inline static constexpr unsigned int Class_1_F155723455666643_TypeDefinitionIndex = 62603;
+inline static constexpr unsigned int Class_1_F155723455666643_TypeDefinitionIndex = 63536;
 
 class Class_1_F155723455666643 : public ::System::Object
 {
 public:
-	static ::System::Action_1<::Class_1_F155723455666643*>** StaticGet_Field_1_7()
+	static ::System::Action_1<::Class_1_F155723455666643*>** StaticGet_Field_1_0()
 	{
-		return (::System::Action_1<::Class_1_F155723455666643*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F155723455666643_TypeDefinitionIndex)->GetStaticField(0x5B720);
+		return (::System::Action_1<::Class_1_F155723455666643*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F155723455666643_TypeDefinitionIndex)->GetStaticField(0x3E230);
 	}
-	::System::Type* Field_1_6; // 0x10
-	::Class_1_7A22A3DBEEDD1F80* Field_1_1; // 0x18
-	::System::String* Field_1_4; // 0x20
-	::System::Boolean _IsDirty_k__BackingField; // 0x28
-	::System::UInt32 Field_1_0; // 0x2C
-	::RPG::GameCore::ServerPrefsType Field_1_2; // 0x30
-	::System::UInt32 Field_1_5; // 0x34
+	::System::Type* Field_1_1; // 0x10
+	::System::String* Field_1_2; // 0x18
+	::Class_1_7A22A3DBEEDD1F80* Field_1_3; // 0x20
+	::System::UInt32 Field_1_4; // 0x28
+	::System::UInt32 Field_1_5; // 0x2C
+	::System::Boolean _IsDirty_k__BackingField; // 0x30
+	::RPG::GameCore::ServerPrefsType Field_1_7; // 0x34
 
 	::System::Void _ctor(::RPG::GameCore::ServerPrefsType a1, ::System::Type* a2, ::System::UInt32 a3)
 	{
@@ -48,9 +48,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F155723455666643_GET_ISDIRTY_OFFSET))(this);
 	}
 
-	::System::Void set_IsDirty(::System::Boolean value)
+	::System::Void set_IsDirty(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_F155723455666643_SET_ISDIRTY_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_F155723455666643_SET_ISDIRTY_OFFSET))(this, a1);
 	}
 
 	::System::Int32 Method_1_95780ED94B90ED36()
@@ -68,19 +68,19 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + CLASS_1_F155723455666643_METHOD_1_B34D6B5EC2E4D29F_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_1C5367087CB1B680(::Class_1_7A22A3DBEEDD1F80* a1, ::System::Boolean a2)
+	::System::Void Method_1_C3A1D7A266E0BFB1(::Class_1_7A22A3DBEEDD1F80* a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_F155723455666643_METHOD_1_1C5367087CB1B680_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_F155723455666643_METHOD_1_C3A1D7A266E0BFB1_OFFSET))(this, a1, a2);
 	}
 
-	::Google::Protobuf::ByteString* Method_1_31BFEC2AE7894E31()
+	::Google::Protobuf::ByteString* Method_1_D3C1E02147B0C84A()
 	{
-		return ((::Google::Protobuf::ByteString*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F155723455666643_METHOD_1_31BFEC2AE7894E31_OFFSET))(this);
+		return ((::Google::Protobuf::ByteString*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F155723455666643_METHOD_1_D3C1E02147B0C84A_OFFSET))(this);
 	}
 
-	::System::Void Method_1_5895C62C75495BAE(::System::Boolean a1)
+	::System::Void Method_1_FDE09C8D62639E3E(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_F155723455666643_METHOD_1_5895C62C75495BAE_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_F155723455666643_METHOD_1_FDE09C8D62639E3E_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_CA373AA1C7054598()

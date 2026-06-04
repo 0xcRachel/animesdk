@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetResilience; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_951ADAFD529F1CDB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF406BB0)
-#define CLASS_3_951ADAFD529F1CDB__CTOR_OFFSET UNITYSDK_OFFSET(0xF406B80)
+#define CLASS_3_951ADAFD529F1CDB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13FC9A20)
+#define CLASS_3_951ADAFD529F1CDB__CTOR_OFFSET UNITYSDK_OFFSET(0x13FC99F0)
 
-inline static constexpr unsigned int Class_3_951ADAFD529F1CDB_TypeDefinitionIndex = 51550;
+inline static constexpr unsigned int Class_3_951ADAFD529F1CDB_TypeDefinitionIndex = 52219;
 
 class Class_3_951ADAFD529F1CDB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetResilience*>
 {

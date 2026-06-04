@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ALLEYEVENTEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AC5760)
-#define RPG_GAMECORE_ALLEYEVENTEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC5E10)
+#define RPG_GAMECORE_ALLEYEVENTEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BCAC50)
+#define RPG_GAMECORE_ALLEYEVENTEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BCB320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyEventEffectRow_TypeDefinitionIndex = 11908;
+	inline static constexpr unsigned int AlleyEventEffectRow_TypeDefinitionIndex = 12001;
 
 	class AlleyEventEffectRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 EventEffectID; // 0x10
+		::System::Single Param1; // 0x10
 		::RPG::GameCore::EventEffectEnum EventEffectType; // 0x14
-		::System::Single Param1; // 0x18
-		::System::Single Param3; // 0x1C
+		::System::Single Param3; // 0x18
+		::System::UInt32 EventEffectID; // 0x1C
 		::System::Single Param2; // 0x20
 
 		::System::Void _ctor()
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYEVENTEFFECTROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::AlleyEventEffectRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AlleyEventEffectRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AlleyEventEffectRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYEVENTEFFECTROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AlleyEventEffectRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYEVENTEFFECTROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

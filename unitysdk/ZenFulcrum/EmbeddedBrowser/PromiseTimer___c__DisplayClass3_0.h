@@ -5,12 +5,12 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x189EE980)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER___C__DISPLAYCLASS3_0__WAITWHILE_B__0_OFFSET UNITYSDK_OFFSET(0x189EEC60)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0E4140)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER___C__DISPLAYCLASS3_0__WAITWHILE_B__0_OFFSET UNITYSDK_OFFSET(0x1A0E4430)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int PromiseTimer___c__DisplayClass3_0_TypeDefinitionIndex = 36301;
+	inline static constexpr unsigned int PromiseTimer___c__DisplayClass3_0_TypeDefinitionIndex = 36601;
 
 	class PromiseTimer___c__DisplayClass3_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER___C__DISPLAYCLASS3_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _WaitWhile_b__0(::ZenFulcrum::EmbeddedBrowser::TimeData t)
+		::System::Boolean _WaitWhile_b__0(::ZenFulcrum::EmbeddedBrowser::TimeData a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::TimeData))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER___C__DISPLAYCLASS3_0__WAITWHILE_B__0_OFFSET))(this, t);
+			return ((::System::Boolean(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::TimeData))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER___C__DISPLAYCLASS3_0__WAITWHILE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

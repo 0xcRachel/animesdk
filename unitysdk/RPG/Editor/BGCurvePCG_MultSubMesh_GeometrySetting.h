@@ -6,17 +6,17 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_GEOMETRYSETTING__CCTOR_OFFSET UNITYSDK_OFFSET(0xB1A4600)
+#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_GEOMETRYSETTING__CCTOR_OFFSET UNITYSDK_OFFSET(0x12AF5240)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int BGCurvePCG_MultSubMesh_GeometrySetting_TypeDefinitionIndex = 48031;
+	inline static constexpr unsigned int BGCurvePCG_MultSubMesh_GeometrySetting_TypeDefinitionIndex = 48649;
 
 	struct alignas(8) BGCurvePCG_MultSubMesh_GeometrySetting
 	{
 		static ::RPG::Editor::BGCurvePCG_MultSubMesh_GeometrySetting* StaticGet_init()
 		{
-			return (::RPG::Editor::BGCurvePCG_MultSubMesh_GeometrySetting*)Il2CppClass::FromTypeDefinitionIndex(BGCurvePCG_MultSubMesh_GeometrySetting_TypeDefinitionIndex)->GetStaticField(0x5E2C0);
+			return (::RPG::Editor::BGCurvePCG_MultSubMesh_GeometrySetting*)Il2CppClass::FromTypeDefinitionIndex(BGCurvePCG_MultSubMesh_GeometrySetting_TypeDefinitionIndex)->GetStaticField(0x5DDA0);
 		}
 		::System::Boolean IfAdaptiveDivide; // 0x10
 		::System::Single VertexDistance; // 0x14

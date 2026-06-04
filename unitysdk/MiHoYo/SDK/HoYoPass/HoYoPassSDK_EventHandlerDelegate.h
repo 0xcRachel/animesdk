@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_EVENTHANDLERDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x153D1CF0)
-#define MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_EVENTHANDLERDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x153D1DB0)
-#define MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_EVENTHANDLERDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x153D18E0)
-#define MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_EVENTHANDLERDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x153CD7E0)
+#define MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_EVENTHANDLERDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14C451C0)
+#define MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_EVENTHANDLERDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14C45280)
+#define MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_EVENTHANDLERDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x14C45190)
+#define MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_EVENTHANDLERDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x14C45120)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int HoYoPassSDK_EventHandlerDelegate_TypeDefinitionIndex = 7331;
+	inline static constexpr unsigned int HoYoPassSDK_EventHandlerDelegate_TypeDefinitionIndex = 8234;
 
 	class HoYoPassSDK_EventHandlerDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_EVENTHANDLERDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_EVENTHANDLERDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Invoke(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_EventId evt, ::Il2CppArray<::System::Byte>* args, ::System::UInt64 len, ::System::IntPtr context)
+		::System::Boolean Invoke(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_EventId a1, ::Il2CppArray<::System::Byte>* a2, ::System::UInt64 a3, ::System::IntPtr a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_EventId, ::Il2CppArray<::System::Byte>*, ::System::UInt64, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_EVENTHANDLERDELEGATE_INVOKE_OFFSET))(this, evt, args, len, context);
+			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_EventId, ::Il2CppArray<::System::Byte>*, ::System::UInt64, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_EVENTHANDLERDELEGATE_INVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_EventId evt, ::Il2CppArray<::System::Byte>* args, ::System::UInt64 len, ::System::IntPtr context, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_EventId a1, ::Il2CppArray<::System::Byte>* a2, ::System::UInt64 a3, ::System::IntPtr a4, ::System::AsyncCallback* a5, ::System::Object* a6)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_EventId, ::Il2CppArray<::System::Byte>*, ::System::UInt64, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_EVENTHANDLERDELEGATE_BEGININVOKE_OFFSET))(this, evt, args, len, context, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_EventId, ::Il2CppArray<::System::Byte>*, ::System::UInt64, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_EVENTHANDLERDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Boolean EndInvoke(::System::IAsyncResult* result)
+		::System::Boolean EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_EVENTHANDLERDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_EVENTHANDLERDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

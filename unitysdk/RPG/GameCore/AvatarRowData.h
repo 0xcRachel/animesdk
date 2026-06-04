@@ -17,13 +17,12 @@
 #include "unitysdk/Struct_2_88A74A9E9AE5BA51.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_13;
-class Class_1_015CBEAEE0FDE159;
+class Class_0_16E4307DCC419505_11;
 class Class_1_4AAB34DEAFC894B3;
 class Class_1_7AB88D713F5121B3_47;
+class Class_1_EA6B9573C4BF1DD5;
 class Class_2_9D2DEA765AF5C2B0;
-namespace RPG::Client { class AvatarData; }
-namespace RPG::Client { class IAvatarInfoProvider; }
+namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::GameCore { class AvatarRankConfigRow; }
 namespace RPG::GameCore { class AvatarSkillTreeRow; }
 namespace RPG::GameCore { class AvatarUltraSkillConfigRow; }
@@ -40,133 +39,133 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_AVATARROWDATA_GETAVATARBASETYPEMASK_OFFSET UNITYSDK_OFFSET(0x11D1E640)
-#define RPG_GAMECORE_AVATARROWDATA_GETRANKCONFIGROWBYTRIGGERKEY_OFFSET UNITYSDK_OFFSET(0x11D19C70)
-#define RPG_GAMECORE_AVATARROWDATA_GETRANKROWMAP_OFFSET UNITYSDK_OFFSET(0x11D196A0)
-#define RPG_GAMECORE_AVATARROWDATA_GETSKILLROWDATABYID_OFFSET UNITYSDK_OFFSET(0x11D1EBC0)
-#define RPG_GAMECORE_AVATARROWDATA_GETSKILLROWDATABYNAME_OFFSET UNITYSDK_OFFSET(0x11D1EB70)
-#define RPG_GAMECORE_AVATARROWDATA_GETSKILLROWDATA_OFFSET UNITYSDK_OFFSET(0x11D1EAE0)
-#define RPG_GAMECORE_AVATARROWDATA_GETSKILLTREELEVELMAP_OFFSET UNITYSDK_OFFSET(0x11D1EC10)
-#define RPG_GAMECORE_AVATARROWDATA_GETSKILLTREEPOINTLEVEL_OFFSET UNITYSDK_OFFSET(0x11D1D330)
-#define RPG_GAMECORE_AVATARROWDATA_GETSKILLTREEPROPERTYMAP_OFFSET UNITYSDK_OFFSET(0x11D1A080)
-#define RPG_GAMECORE_AVATARROWDATA_GETSKILLTREEROWBYTRIGGERKEY_OFFSET UNITYSDK_OFFSET(0x11D19AC0)
-#define RPG_GAMECORE_AVATARROWDATA_GETSKILLTREEROWMAP_OFFSET UNITYSDK_OFFSET(0x11D19660)
-#define RPG_GAMECORE_AVATARROWDATA_GET_ACTIONICONPATH_OFFSET UNITYSDK_OFFSET(0x11D1DE90)
-#define RPG_GAMECORE_AVATARROWDATA_GET_AIPATH_OFFSET UNITYSDK_OFFSET(0x11D1D670)
-#define RPG_GAMECORE_AVATARROWDATA_GET_ATTACK_OFFSET UNITYSDK_OFFSET(0x11D15F60)
-#define RPG_GAMECORE_AVATARROWDATA_GET_AVATARBASETYPE_OFFSET UNITYSDK_OFFSET(0x11D196E0)
-#define RPG_GAMECORE_AVATARROWDATA_GET_AVATARDATA_OFFSET UNITYSDK_OFFSET(0x11D1E8B0)
-#define RPG_GAMECORE_AVATARROWDATA_GET_AVATARMINIICONPATH_OFFSET UNITYSDK_OFFSET(0x11D1E070)
-#define RPG_GAMECORE_AVATARROWDATA_GET_AVATARROW_OFFSET UNITYSDK_OFFSET(0x11D1D410)
-#define RPG_GAMECORE_AVATARROWDATA_GET_AVATARSIDEICONPATH_OFFSET UNITYSDK_OFFSET(0x11D1DFB0)
-#define RPG_GAMECORE_AVATARROWDATA_GET_AVATARVOTAG_OFFSET UNITYSDK_OFFSET(0x11D1E7B0)
-#define RPG_GAMECORE_AVATARROWDATA_GET_AVATAR_OFFSET UNITYSDK_OFFSET(0x11D17E20)
-#define RPG_GAMECORE_AVATARROWDATA_GET_BASEAGGRO_OFFSET UNITYSDK_OFFSET(0x11D1D990)
-#define RPG_GAMECORE_AVATARROWDATA_GET_BATTLEEQUIPMENTLIST_OFFSET UNITYSDK_OFFSET(0x11D1D870)
-#define RPG_GAMECORE_AVATARROWDATA_GET_BATTLERELICITEMMODULE_OFFSET UNITYSDK_OFFSET(0x11D1D880)
-#define RPG_GAMECORE_AVATARROWDATA_GET_CHARACTERNAME_OFFSET UNITYSDK_OFFSET(0x11D1DBE0)
-#define RPG_GAMECORE_AVATARROWDATA_GET_CONFIGID_OFFSET UNITYSDK_OFFSET(0x11D1D490)
-#define RPG_GAMECORE_AVATARROWDATA_GET_CRITICALCHANCE_OFFSET UNITYSDK_OFFSET(0x11D170A0)
-#define RPG_GAMECORE_AVATARROWDATA_GET_CRITICALDAMAGE_OFFSET UNITYSDK_OFFSET(0x11D17320)
-#define RPG_GAMECORE_AVATARROWDATA_GET_DAMAGETYPERESISTANCE_OFFSET UNITYSDK_OFFSET(0x11D1E390)
-#define RPG_GAMECORE_AVATARROWDATA_GET_DAMAGETYPE_OFFSET UNITYSDK_OFFSET(0x11D1E290)
-#define RPG_GAMECORE_AVATARROWDATA_GET_DEFENCE_OFFSET UNITYSDK_OFFSET(0x11D16520)
-#define RPG_GAMECORE_AVATARROWDATA_GET_ENHANCEDID_OFFSET UNITYSDK_OFFSET(0x11D1D450)
-#define RPG_GAMECORE_AVATARROWDATA_GET_EQUIPEXTRARANK_OFFSET UNITYSDK_OFFSET(0x11D1D480)
-#define RPG_GAMECORE_AVATARROWDATA_GET_EXTRAAVATARBASETYPE_OFFSET UNITYSDK_OFFSET(0x11D1E5E0)
-#define RPG_GAMECORE_AVATARROWDATA_GET_HAVEACTIONDELAY_OFFSET UNITYSDK_OFFSET(0x11D1E580)
-#define RPG_GAMECORE_AVATARROWDATA_GET_HEADICONPATH_OFFSET UNITYSDK_OFFSET(0x11D1DDD0)
-#define RPG_GAMECORE_AVATARROWDATA_GET_INITACTIONDELAYRATIO_OFFSET UNITYSDK_OFFSET(0x11D1DB40)
-#define RPG_GAMECORE_AVATARROWDATA_GET_INITHP_OFFSET UNITYSDK_OFFSET(0x11D1D890)
-#define RPG_GAMECORE_AVATARROWDATA_GET_INTRODUCTION_OFFSET UNITYSDK_OFFSET(0x11D1DD20)
-#define RPG_GAMECORE_AVATARROWDATA_GET_ISASSISTANTAVATAR_OFFSET UNITYSDK_OFFSET(0x11D1E8A0)
-#define RPG_GAMECORE_AVATARROWDATA_GET_JSONPATH_OFFSET UNITYSDK_OFFSET(0x11D1D570)
-#define RPG_GAMECORE_AVATARROWDATA_GET_JSON_OFFSET UNITYSDK_OFFSET(0x11D1D420)
-#define RPG_GAMECORE_AVATARROWDATA_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x11D1D760)
-#define RPG_GAMECORE_AVATARROWDATA_GET_MAXHP_OFFSET UNITYSDK_OFFSET(0x11D159A0)
-#define RPG_GAMECORE_AVATARROWDATA_GET_MAXSTANCE_OFFSET UNITYSDK_OFFSET(0x11D1DA80)
-#define RPG_GAMECORE_AVATARROWDATA_GET_MINIMUMFATIGUERATIO_OFFSET UNITYSDK_OFFSET(0x11D1D8A0)
-#define RPG_GAMECORE_AVATARROWDATA_GET_MODELPATH_OFFSET UNITYSDK_OFFSET(0x11D1DB90)
-#define RPG_GAMECORE_AVATARROWDATA_GET_NATUREID_OFFSET UNITYSDK_OFFSET(0x11D1E1A0)
-#define RPG_GAMECORE_AVATARROWDATA_GET_PREVIEWSERVANTROWDATA_OFFSET UNITYSDK_OFFSET(0x11D1E900)
-#define RPG_GAMECORE_AVATARROWDATA_GET_PROMOTIONROW_OFFSET UNITYSDK_OFFSET(0x11D1D440)
-#define RPG_GAMECORE_AVATARROWDATA_GET_PROMOTION_OFFSET UNITYSDK_OFFSET(0x11D1D470)
-#define RPG_GAMECORE_AVATARROWDATA_GET_RANK_OFFSET UNITYSDK_OFFSET(0x11D1D460)
-#define RPG_GAMECORE_AVATARROWDATA_GET_RARITY_OFFSET UNITYSDK_OFFSET(0x11D1D770)
-#define RPG_GAMECORE_AVATARROWDATA_GET_RESISTANCE_OFFSET UNITYSDK_OFFSET(0x11D1DAC0)
-#define RPG_GAMECORE_AVATARROWDATA_GET_ROUNDICONPATH_OFFSET UNITYSDK_OFFSET(0x11D1DE30)
-#define RPG_GAMECORE_AVATARROWDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0x11D1D3D0)
-#define RPG_GAMECORE_AVATARROWDATA_GET_SIDEAVATARHEADICONPATH_OFFSET UNITYSDK_OFFSET(0x11D1DEF0)
-#define RPG_GAMECORE_AVATARROWDATA_GET_SKILLROWDATAS_OFFSET UNITYSDK_OFFSET(0x11D1D850)
-#define RPG_GAMECORE_AVATARROWDATA_GET_SPECIALROW_OFFSET UNITYSDK_OFFSET(0x11D1D430)
-#define RPG_GAMECORE_AVATARROWDATA_GET_SPEED_OFFSET UNITYSDK_OFFSET(0x11D16AE0)
-#define RPG_GAMECORE_AVATARROWDATA_GET_SPNEED_OFFSET UNITYSDK_OFFSET(0x11D1E480)
-#define RPG_GAMECORE_AVATARROWDATA_GET_STATUSPROBABILITY_OFFSET UNITYSDK_OFFSET(0x11D1DB00)
-#define RPG_GAMECORE_AVATARROWDATA_GET_ULTRASKILLCONFIG_OFFSET UNITYSDK_OFFSET(0x11D1D860)
-#define RPG_GAMECORE_AVATARROWDATA_GET_ULTRASKILLCUTINPREFABPATH_OFFSET UNITYSDK_OFFSET(0x11D1E010)
-#define RPG_GAMECORE_AVATARROWDATA_GET_ULTRASKILLTYPE_OFFSET UNITYSDK_OFFSET(0x11D13780)
-#define RPG_GAMECORE_AVATARROWDATA_GET_WAITINGAVATARHEADICONPATH_OFFSET UNITYSDK_OFFSET(0x11D1DF50)
-#define RPG_GAMECORE_AVATARROWDATA_INITFROMAVATARDATA_OFFSET UNITYSDK_OFFSET(0x11D1B7D0)
-#define RPG_GAMECORE_AVATARROWDATA_INITFROMCREATEPARAMS_OFFSET UNITYSDK_OFFSET(0x11D13010)
-#define RPG_GAMECORE_AVATARROWDATA_OVERRIDEDATA_OFFSET UNITYSDK_OFFSET(0x11D1C8D0)
-#define RPG_GAMECORE_AVATARROWDATA_OVERRIDEDISPLAY_OFFSET UNITYSDK_OFFSET(0x11D1E0C0)
-#define RPG_GAMECORE_AVATARROWDATA_SET_ROW_OFFSET UNITYSDK_OFFSET(0x11D1D3E0)
-#define RPG_GAMECORE_AVATARROWDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x11D1F4B0)
-#define RPG_GAMECORE_AVATARROWDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x11D1B7C0)
-#define RPG_GAMECORE_AVATARROWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11D13000)
-#define RPG_GAMECORE_AVATARROWDATA__INITDATA_OFFSET UNITYSDK_OFFSET(0x11D1BEA0)
-#define RPG_GAMECORE_AVATARROWDATA__OVERRIDESKILLHIDEINUI_OFFSET UNITYSDK_OFFSET(0x11D1EE30)
-#define RPG_GAMECORE_AVATARROWDATA__SETUPSKILLLIST_OFFSET UNITYSDK_OFFSET(0x11D1CA30)
+#define RPG_GAMECORE_AVATARROWDATA_GETAVATARBASETYPEMASK_OFFSET UNITYSDK_OFFSET(0x1689C060)
+#define RPG_GAMECORE_AVATARROWDATA_GETRANKCONFIGROWBYTRIGGERKEY_OFFSET UNITYSDK_OFFSET(0x16896430)
+#define RPG_GAMECORE_AVATARROWDATA_GETRANKROWMAP_OFFSET UNITYSDK_OFFSET(0x16895EE0)
+#define RPG_GAMECORE_AVATARROWDATA_GETSKILLROWDATABYID_OFFSET UNITYSDK_OFFSET(0x1689C460)
+#define RPG_GAMECORE_AVATARROWDATA_GETSKILLROWDATABYNAME_OFFSET UNITYSDK_OFFSET(0x1689C410)
+#define RPG_GAMECORE_AVATARROWDATA_GETSKILLROWDATA_OFFSET UNITYSDK_OFFSET(0x1689C3C0)
+#define RPG_GAMECORE_AVATARROWDATA_GETSKILLTREELEVELMAP_OFFSET UNITYSDK_OFFSET(0x1689C4B0)
+#define RPG_GAMECORE_AVATARROWDATA_GETSKILLTREEPOINTLEVEL_OFFSET UNITYSDK_OFFSET(0x1689AC40)
+#define RPG_GAMECORE_AVATARROWDATA_GETSKILLTREEPROPERTYMAP_OFFSET UNITYSDK_OFFSET(0x16896830)
+#define RPG_GAMECORE_AVATARROWDATA_GETSKILLTREEROWBYTRIGGERKEY_OFFSET UNITYSDK_OFFSET(0x168962E0)
+#define RPG_GAMECORE_AVATARROWDATA_GETSKILLTREEROWMAP_OFFSET UNITYSDK_OFFSET(0x16895E90)
+#define RPG_GAMECORE_AVATARROWDATA_GET_ACTIONICONPATH_OFFSET UNITYSDK_OFFSET(0x1689B8B0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_AIPATH_OFFSET UNITYSDK_OFFSET(0x1689AFD0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_ATTACK_OFFSET UNITYSDK_OFFSET(0x168932C0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_AVATARBASETYPE_OFFSET UNITYSDK_OFFSET(0x16895F20)
+#define RPG_GAMECORE_AVATARROWDATA_GET_AVATARMINIICONPATH_OFFSET UNITYSDK_OFFSET(0x1689BA90)
+#define RPG_GAMECORE_AVATARROWDATA_GET_AVATARROW_OFFSET UNITYSDK_OFFSET(0x1689AD60)
+#define RPG_GAMECORE_AVATARROWDATA_GET_AVATARSIDEICONPATH_OFFSET UNITYSDK_OFFSET(0x1689B9D0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_AVATARVOTAG_OFFSET UNITYSDK_OFFSET(0x1689C0D0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_AVATAR_OFFSET UNITYSDK_OFFSET(0x16894910)
+#define RPG_GAMECORE_AVATARROWDATA_GET_BASEAGGRO_OFFSET UNITYSDK_OFFSET(0x1689B3B0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_BATTLEEQUIPMENTLIST_OFFSET UNITYSDK_OFFSET(0x1689B290)
+#define RPG_GAMECORE_AVATARROWDATA_GET_BATTLERELICITEMMODULE_OFFSET UNITYSDK_OFFSET(0x1689B2A0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_CHARACTERNAME_OFFSET UNITYSDK_OFFSET(0x1689B600)
+#define RPG_GAMECORE_AVATARROWDATA_GET_CONFIGID_OFFSET UNITYSDK_OFFSET(0x1689ADE0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_CRITICALCHANCE_OFFSET UNITYSDK_OFFSET(0x16893D40)
+#define RPG_GAMECORE_AVATARROWDATA_GET_CRITICALDAMAGE_OFFSET UNITYSDK_OFFSET(0x16893F10)
+#define RPG_GAMECORE_AVATARROWDATA_GET_DAMAGETYPERESISTANCE_OFFSET UNITYSDK_OFFSET(0x1689BDB0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_DAMAGETYPE_OFFSET UNITYSDK_OFFSET(0x1689BCB0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_DEFENCE_OFFSET UNITYSDK_OFFSET(0x16893640)
+#define RPG_GAMECORE_AVATARROWDATA_GET_ENHANCEDID_OFFSET UNITYSDK_OFFSET(0x1689ADA0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_EQUIPEXTRARANK_OFFSET UNITYSDK_OFFSET(0x1689ADD0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_EXTRAAVATARBASETYPE_OFFSET UNITYSDK_OFFSET(0x1689C000)
+#define RPG_GAMECORE_AVATARROWDATA_GET_HAVEACTIONDELAY_OFFSET UNITYSDK_OFFSET(0x1689BFA0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_HEADICONPATH_OFFSET UNITYSDK_OFFSET(0x1689B7F0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_INITACTIONDELAYRATIO_OFFSET UNITYSDK_OFFSET(0x1689B560)
+#define RPG_GAMECORE_AVATARROWDATA_GET_INITHP_OFFSET UNITYSDK_OFFSET(0x1689B2B0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_INTRODUCTION_OFFSET UNITYSDK_OFFSET(0x1689B740)
+#define RPG_GAMECORE_AVATARROWDATA_GET_ISASSISTANTAVATAR_OFFSET UNITYSDK_OFFSET(0x1689C1C0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_JSONPATH_OFFSET UNITYSDK_OFFSET(0x1689AEC0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_JSON_OFFSET UNITYSDK_OFFSET(0x1689AD70)
+#define RPG_GAMECORE_AVATARROWDATA_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1689B170)
+#define RPG_GAMECORE_AVATARROWDATA_GET_MAXHP_OFFSET UNITYSDK_OFFSET(0x16892F40)
+#define RPG_GAMECORE_AVATARROWDATA_GET_MAXSTANCE_OFFSET UNITYSDK_OFFSET(0x1689B4A0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_MINIMUMFATIGUERATIO_OFFSET UNITYSDK_OFFSET(0x1689B2C0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_MODELPATH_OFFSET UNITYSDK_OFFSET(0x1689B5B0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_NATUREID_OFFSET UNITYSDK_OFFSET(0x1689BBC0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_OVERRIDEAIPATH_OFFSET UNITYSDK_OFFSET(0x1689B0C0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_PREVIEWSERVANTROWDATA_OFFSET UNITYSDK_OFFSET(0x1689C1D0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_PROMOTIONROW_OFFSET UNITYSDK_OFFSET(0x1689AD90)
+#define RPG_GAMECORE_AVATARROWDATA_GET_PROMOTION_OFFSET UNITYSDK_OFFSET(0x1689ADC0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_RANK_OFFSET UNITYSDK_OFFSET(0x1689ADB0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_RARITY_OFFSET UNITYSDK_OFFSET(0x1689B180)
+#define RPG_GAMECORE_AVATARROWDATA_GET_RESISTANCE_OFFSET UNITYSDK_OFFSET(0x1689B4E0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_ROUNDICONPATH_OFFSET UNITYSDK_OFFSET(0x1689B850)
+#define RPG_GAMECORE_AVATARROWDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0x1689AD10)
+#define RPG_GAMECORE_AVATARROWDATA_GET_SIDEAVATARHEADICONPATH_OFFSET UNITYSDK_OFFSET(0x1689B910)
+#define RPG_GAMECORE_AVATARROWDATA_GET_SKILLROWDATAS_OFFSET UNITYSDK_OFFSET(0x1689B270)
+#define RPG_GAMECORE_AVATARROWDATA_GET_SPECIALROW_OFFSET UNITYSDK_OFFSET(0x1689AD80)
+#define RPG_GAMECORE_AVATARROWDATA_GET_SPEED_OFFSET UNITYSDK_OFFSET(0x168939C0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_SPNEED_OFFSET UNITYSDK_OFFSET(0x1689BEA0)
+#define RPG_GAMECORE_AVATARROWDATA_GET_STATUSPROBABILITY_OFFSET UNITYSDK_OFFSET(0x1689B520)
+#define RPG_GAMECORE_AVATARROWDATA_GET_ULTRASKILLCONFIG_OFFSET UNITYSDK_OFFSET(0x1689B280)
+#define RPG_GAMECORE_AVATARROWDATA_GET_ULTRASKILLCUTINPREFABPATH_OFFSET UNITYSDK_OFFSET(0x1689BA30)
+#define RPG_GAMECORE_AVATARROWDATA_GET_ULTRASKILLTYPE_OFFSET UNITYSDK_OFFSET(0x16891230)
+#define RPG_GAMECORE_AVATARROWDATA_GET_WAITINGAVATARHEADICONPATH_OFFSET UNITYSDK_OFFSET(0x1689B970)
+#define RPG_GAMECORE_AVATARROWDATA_INITFROMAVATARDATA_OFFSET UNITYSDK_OFFSET(0x16898FE0)
+#define RPG_GAMECORE_AVATARROWDATA_INITFROMCREATEPARAMS_OFFSET UNITYSDK_OFFSET(0x16890CC0)
+#define RPG_GAMECORE_AVATARROWDATA_OVERRIDEDATA_OFFSET UNITYSDK_OFFSET(0x1689A140)
+#define RPG_GAMECORE_AVATARROWDATA_OVERRIDEDISPLAY_OFFSET UNITYSDK_OFFSET(0x1689BAE0)
+#define RPG_GAMECORE_AVATARROWDATA_SET_ROW_OFFSET UNITYSDK_OFFSET(0x1689AD20)
+#define RPG_GAMECORE_AVATARROWDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1689D010)
+#define RPG_GAMECORE_AVATARROWDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16898FD0)
+#define RPG_GAMECORE_AVATARROWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16890CB0)
+#define RPG_GAMECORE_AVATARROWDATA__INITDATA_OFFSET UNITYSDK_OFFSET(0x168996F0)
+#define RPG_GAMECORE_AVATARROWDATA__OVERRIDESKILLHIDEINUI_OFFSET UNITYSDK_OFFSET(0x1689C930)
+#define RPG_GAMECORE_AVATARROWDATA__SETUPSKILLLIST_OFFSET UNITYSDK_OFFSET(0x1689A290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarRowData_TypeDefinitionIndex = 52464;
+	inline static constexpr unsigned int AvatarRowData_TypeDefinitionIndex = 53164;
 
 	class AvatarRowData : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::RPG::GameCore::IAvatarSkillCommonRowWrap*>** StaticGet__TmpSkillRowList()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::GameCore::IAvatarSkillCommonRowWrap*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarRowData_TypeDefinitionIndex)->GetStaticField(0x5F100);
+			return (::System::Collections::Generic::List_1<::RPG::GameCore::IAvatarSkillCommonRowWrap*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarRowData_TypeDefinitionIndex)->GetStaticField(0x61F40);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::IAvatarSkillCommonRowWrap*>** StaticGet__TmpSkillRowMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::IAvatarSkillCommonRowWrap*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarRowData_TypeDefinitionIndex)->GetStaticField(0x5F108);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::IAvatarSkillCommonRowWrap*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarRowData_TypeDefinitionIndex)->GetStaticField(0x61F48);
 		}
-		::Class_1_015CBEAEE0FDE159* _BattleRelicItemModule; // 0x10
-		::System::Collections::Generic::List_1<::Class_1_7AB88D713F5121B3_47*>* _SkillTreeDataList; // 0x18
-		::RPG::GameCore::SpecialAvatarRow* _SpecialRow; // 0x20
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* _SkillTreePropertyMap; // 0x28
-		::RPG::GameCore::IAvatarCommonRowWrap* _Row; // 0x30
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::RPG::GameCore::AvatarRankConfigRow*>* _RankConfigTriggerKeMap; // 0x38
-		::System::Collections::Generic::List_1<::RPG::GameCore::ICharacterSkillRowData*>* _SkillRowDatas; // 0x40
-		::RPG::Client::IAvatarInfoProvider* _Avatar; // 0x48
-		::RPG::GameCore::IAvatarPromotionCommonRowWrap* _PromotionRow; // 0x50
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::AvatarSkillTreeRow*>* _SkillTreeTriggerKeyMap; // 0x58
-		::Struct_2_88A74A9E9AE5BA51 _OverrideDisplay; // 0x60
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* _SkillTreeSkillLevelMap; // 0xC0
-		::RPG::GameCore::CharacterConfig* _Json; // 0xC8
-		::System::Collections::Generic::List_1<::Class_1_7AB88D713F5121B3_47*>* _ChangedSkillTreeDataList; // 0xD0
-		::RPG::GameCore::AvatarUltraSkillConfigRow* _UltraSkillConfig; // 0xD8
-		::Il2CppArray<::Class_1_4AAB34DEAFC894B3*>* _BattleEquipmentList; // 0xE0
-		::RPG::GameCore::ServantRowData* _PreviewServantRowData; // 0xE8
+		::RPG::GameCore::IAvatarPromotionCommonRowWrap* _PromotionRow; // 0x10
+		::RPG::GameCore::IAvatarCommonRowWrap* _Row; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::ICharacterSkillRowData*>* _SkillRowDatas; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::RPG::GameCore::AvatarRankConfigRow*>* _RankConfigTriggerKeMap; // 0x28
+		::System::Collections::Generic::List_1<::Class_1_7AB88D713F5121B3_47*>* _SkillTreeDataList; // 0x30
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* _SkillTreePropertyMap; // 0x38
+		::System::Collections::Generic::List_1<::Class_1_7AB88D713F5121B3_47*>* _ChangedSkillTreeDataList; // 0x40
+		::RPG::GameCore::SpecialAvatarRow* _SpecialRow; // 0x48
+		::Struct_2_88A74A9E9AE5BA51 _OverrideDisplay; // 0x50
+		::Il2CppArray<::Class_1_4AAB34DEAFC894B3*>* _BattleEquipmentList; // 0xB0
+		::RPG::GameCore::ServantRowData* _PreviewServantRowData; // 0xB8
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::AvatarSkillTreeRow*>* _SkillTreeTriggerKeyMap; // 0xC0
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* _SkillTreeSkillLevelMap; // 0xC8
+		::RPG::GameCore::CharacterConfig* _Json; // 0xD0
+		::RPG::AvatarSystem::IAvatar* _Avatar; // 0xD8
+		::RPG::GameCore::AvatarUltraSkillConfigRow* _UltraSkillConfig; // 0xE0
+		::Class_1_EA6B9573C4BF1DD5* _BattleRelicItemModule; // 0xE8
 		::System::UInt32 _EnhancedID; // 0xF0
-		::System::Boolean _IsAssistantAvatar; // 0xF4
-		::System::UInt32 _Level; // 0xF8
-		::RPG::GameCore::AvatarBaseType _ExtraAvatarBaseType; // 0xFC
-		::System::UInt32 _Rank; // 0x100
-		::System::UInt32 _EquipExtraRank; // 0x104
-		::System::UInt32 _Promotion; // 0x108
-		::Struct_2_2D4CFA76DB950A9A _OverrideData; // 0x110
+		::System::UInt32 _Rank; // 0xF4
+		::System::UInt32 _EquipExtraRank; // 0xF8
+		::Struct_2_2D4CFA76DB950A9A _OverrideData; // 0x100
+		::RPG::GameCore::AvatarBaseType _ExtraAvatarBaseType; // 0x128
+		::System::UInt32 _Promotion; // 0x12C
+		::System::UInt32 _Level; // 0x130
+		::System::Boolean _IsAssistantAvatar; // 0x134
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::RPG::Client::IAvatarInfoProvider* avatarData)
+		::System::Void _ctor_1(::RPG::AvatarSystem::IAvatar* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::IAvatarInfoProvider*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA__CTOR_1_OFFSET))(this, avatarData);
+			return ((::System::Void(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA__CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -174,24 +173,24 @@ namespace RPG::GameCore
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA__CCTOR_OFFSET))();
 		}
 
-		::System::Void InitFromAvatarData(::RPG::Client::IAvatarInfoProvider* avatar)
+		::System::Void InitFromAvatarData(::RPG::AvatarSystem::IAvatar* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::IAvatarInfoProvider*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_INITFROMAVATARDATA_OFFSET))(this, avatar);
+			return ((::System::Void(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_INITFROMAVATARDATA_OFFSET))(this, a1);
 		}
 
-		::System::Void InitFromCreateParams(::Class_2_9D2DEA765AF5C2B0* createParams)
+		::System::Void InitFromCreateParams(::Class_2_9D2DEA765AF5C2B0* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_9D2DEA765AF5C2B0*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_INITFROMCREATEPARAMS_OFFSET))(this, createParams);
+			return ((::System::Void(*)(::PVOID, ::Class_2_9D2DEA765AF5C2B0*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_INITFROMCREATEPARAMS_OFFSET))(this, a1);
 		}
 
-		::System::Void _InitData(::System::UInt32 characterID, ::RPG::GameCore::CharacterConfig* jsonConfig, ::System::UInt32 rank, ::System::UInt32 promotion, ::System::UInt32 level, ::System::UInt32 specialAvatarID, ::System::UInt32 enhancedID, ::System::UInt32 worldLevel, ::System::Boolean isAssistantAvatar, ::RPG::GameCore::AvatarRowWrapperDeriveType avatarDeriveType, ::System::Collections::Generic::List_1<::Class_1_7AB88D713F5121B3_47*>* skillTreeDataList, ::System::Collections::Generic::List_1<::Class_1_7AB88D713F5121B3_47*>* changedSkillTreeDataList, ::Il2CppArray<::Class_1_4AAB34DEAFC894B3*>* battleEquipmentList, ::Class_1_015CBEAEE0FDE159* battleRelicItemModule, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BattleExtraPropertyAddition, ::RPG::GameCore::FixPoint>* battleExtraPropertyAdditionDict, ::RPG::GameCore::BattleGridFightAvatarData* battleGridAvatarData)
+		::System::Void _InitData(::System::UInt32 a1, ::RPG::GameCore::CharacterConfig* a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5, ::System::UInt32 a6, ::System::UInt32 a7, ::System::UInt32 a8, ::System::Boolean a9, ::RPG::GameCore::AvatarRowWrapperDeriveType a10, ::System::Collections::Generic::List_1<::Class_1_7AB88D713F5121B3_47*>* a11, ::System::Collections::Generic::List_1<::Class_1_7AB88D713F5121B3_47*>* a12, ::Il2CppArray<::Class_1_4AAB34DEAFC894B3*>* a13, ::Class_1_EA6B9573C4BF1DD5* a14, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BattleExtraPropertyAddition, ::RPG::GameCore::FixPoint>* a15, ::RPG::GameCore::BattleGridFightAvatarData* a16)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::CharacterConfig*, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Boolean, ::RPG::GameCore::AvatarRowWrapperDeriveType, ::System::Collections::Generic::List_1<::Class_1_7AB88D713F5121B3_47*>*, ::System::Collections::Generic::List_1<::Class_1_7AB88D713F5121B3_47*>*, ::Il2CppArray<::Class_1_4AAB34DEAFC894B3*>*, ::Class_1_015CBEAEE0FDE159*, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BattleExtraPropertyAddition, ::RPG::GameCore::FixPoint>*, ::RPG::GameCore::BattleGridFightAvatarData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA__INITDATA_OFFSET))(this, characterID, jsonConfig, rank, promotion, level, specialAvatarID, enhancedID, worldLevel, isAssistantAvatar, avatarDeriveType, skillTreeDataList, changedSkillTreeDataList, battleEquipmentList, battleRelicItemModule, battleExtraPropertyAdditionDict, battleGridAvatarData);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::CharacterConfig*, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Boolean, ::RPG::GameCore::AvatarRowWrapperDeriveType, ::System::Collections::Generic::List_1<::Class_1_7AB88D713F5121B3_47*>*, ::System::Collections::Generic::List_1<::Class_1_7AB88D713F5121B3_47*>*, ::Il2CppArray<::Class_1_4AAB34DEAFC894B3*>*, ::Class_1_EA6B9573C4BF1DD5*, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BattleExtraPropertyAddition, ::RPG::GameCore::FixPoint>*, ::RPG::GameCore::BattleGridFightAvatarData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA__INITDATA_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16);
 		}
 
-		::System::UInt32 GetSkillTreePointLevel(::System::UInt32 skillTreePointID)
+		::System::UInt32 GetSkillTreePointLevel(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GETSKILLTREEPOINTLEVEL_OFFSET))(this, skillTreePointID);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GETSKILLTREEPOINTLEVEL_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_Row()
@@ -199,9 +198,9 @@ namespace RPG::GameCore
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GET_ROW_OFFSET))(this);
 		}
 
-		::System::Void set_Row(::System::Object* value)
+		::System::Void set_Row(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_SET_ROW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_SET_ROW_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::IAvatarCommonRowWrap* get_AvatarRow()
@@ -219,9 +218,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::SpecialAvatarRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GET_SPECIALROW_OFFSET))(this);
 		}
 
-		::Class_0_16E4307DCC419505_13* get_PromotionRow()
+		::Class_0_16E4307DCC419505_11* get_PromotionRow()
 		{
-			return ((::Class_0_16E4307DCC419505_13*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GET_PROMOTIONROW_OFFSET))(this);
+			return ((::Class_0_16E4307DCC419505_11*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GET_PROMOTIONROW_OFFSET))(this);
 		}
 
 		::System::UInt32 get_EnhancedID()
@@ -259,6 +258,11 @@ namespace RPG::GameCore
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GET_AIPATH_OFFSET))(this);
 		}
 
+		::System::String* get_OverrideAIPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GET_OVERRIDEAIPATH_OFFSET))(this);
+		}
+
 		::System::UInt32 get_Level()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GET_LEVEL_OFFSET))(this);
@@ -289,9 +293,9 @@ namespace RPG::GameCore
 			return ((::Il2CppArray<::Class_1_4AAB34DEAFC894B3*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GET_BATTLEEQUIPMENTLIST_OFFSET))(this);
 		}
 
-		::Class_1_015CBEAEE0FDE159* get_BattleRelicItemModule()
+		::Class_1_EA6B9573C4BF1DD5* get_BattleRelicItemModule()
 		{
-			return ((::Class_1_015CBEAEE0FDE159*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GET_BATTLERELICITEMMODULE_OFFSET))(this);
+			return ((::Class_1_EA6B9573C4BF1DD5*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GET_BATTLERELICITEMMODULE_OFFSET))(this);
 		}
 
 		::RPG::GameCore::FixPoint get_MaxHP()
@@ -414,9 +418,9 @@ namespace RPG::GameCore
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GET_AVATARMINIICONPATH_OFFSET))(this);
 		}
 
-		::System::Void OverrideDisplay(::Struct_2_88A74A9E9AE5BA51 overrideData)
+		::System::Void OverrideDisplay(::Struct_2_88A74A9E9AE5BA51 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_88A74A9E9AE5BA51))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_OVERRIDEDISPLAY_OFFSET))(this, overrideData);
+			return ((::System::Void(*)(::PVOID, ::Struct_2_88A74A9E9AE5BA51))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_OVERRIDEDISPLAY_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_NatureID()
@@ -454,9 +458,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::AvatarBaseType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GET_EXTRAAVATARBASETYPE_OFFSET))(this);
 		}
 
-		::RPG::GameCore::AvatarBaseTypeMask GetAvatarBaseTypeMask(::RPG::GameCore::AvatarBaseTypeKind kind)
+		::RPG::GameCore::AvatarBaseTypeMask GetAvatarBaseTypeMask(::RPG::GameCore::AvatarBaseTypeKind a1)
 		{
-			return ((::RPG::GameCore::AvatarBaseTypeMask(*)(::PVOID, ::RPG::GameCore::AvatarBaseTypeKind))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GETAVATARBASETYPEMASK_OFFSET))(this, kind);
+			return ((::RPG::GameCore::AvatarBaseTypeMask(*)(::PVOID, ::RPG::GameCore::AvatarBaseTypeKind))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GETAVATARBASETYPEMASK_OFFSET))(this, a1);
 		}
 
 		::System::String* get_AvatarVOTag()
@@ -469,19 +473,14 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GET_ISASSISTANTAVATAR_OFFSET))(this);
 		}
 
-		::System::Void OverrideData(::Struct_2_2D4CFA76DB950A9A overrideData)
+		::System::Void OverrideData(::Struct_2_2D4CFA76DB950A9A a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_2D4CFA76DB950A9A))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_OVERRIDEDATA_OFFSET))(this, overrideData);
+			return ((::System::Void(*)(::PVOID, ::Struct_2_2D4CFA76DB950A9A))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_OVERRIDEDATA_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::AvatarData* get_AvatarData()
+		::RPG::AvatarSystem::IAvatar* get_Avatar()
 		{
-			return ((::RPG::Client::AvatarData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GET_AVATARDATA_OFFSET))(this);
-		}
-
-		::RPG::Client::IAvatarInfoProvider* get_Avatar()
-		{
-			return ((::RPG::Client::IAvatarInfoProvider*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GET_AVATAR_OFFSET))(this);
+			return ((::RPG::AvatarSystem::IAvatar*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GET_AVATAR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::ServantRowData* get_PreviewServantRowData()
@@ -489,19 +488,19 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::ServantRowData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GET_PREVIEWSERVANTROWDATA_OFFSET))(this);
 		}
 
-		::RPG::GameCore::ICharacterSkillRowData* GetSkillRowData(::System::Int32 nSkillIndex)
+		::RPG::GameCore::ICharacterSkillRowData* GetSkillRowData(::System::Int32 a1)
 		{
-			return ((::RPG::GameCore::ICharacterSkillRowData*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GETSKILLROWDATA_OFFSET))(this, nSkillIndex);
+			return ((::RPG::GameCore::ICharacterSkillRowData*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GETSKILLROWDATA_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::ICharacterSkillRowData* GetSkillRowDataByName(::System::String* skillName)
+		::RPG::GameCore::ICharacterSkillRowData* GetSkillRowDataByName(::System::String* a1)
 		{
-			return ((::RPG::GameCore::ICharacterSkillRowData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GETSKILLROWDATABYNAME_OFFSET))(this, skillName);
+			return ((::RPG::GameCore::ICharacterSkillRowData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GETSKILLROWDATABYNAME_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::ICharacterSkillRowData* GetSkillRowDataByID(::System::UInt32 skillID)
+		::RPG::GameCore::ICharacterSkillRowData* GetSkillRowDataByID(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::ICharacterSkillRowData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GETSKILLROWDATABYID_OFFSET))(this, skillID);
+			return ((::RPG::GameCore::ICharacterSkillRowData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GETSKILLROWDATABYID_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::AvatarSkillTreeRow*>* GetSkillTreeRowMap()
@@ -524,19 +523,19 @@ namespace RPG::GameCore
 			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GETSKILLTREELEVELMAP_OFFSET))(this);
 		}
 
-		::RPG::GameCore::AvatarSkillTreeRow* GetSkillTreeRowByTriggerKey(::RPG::GameCore::AvatarSkillTreePointTriggerKey pTriggerKey)
+		::RPG::GameCore::AvatarSkillTreeRow* GetSkillTreeRowByTriggerKey(::RPG::GameCore::AvatarSkillTreePointTriggerKey a1)
 		{
-			return ((::RPG::GameCore::AvatarSkillTreeRow*(*)(::PVOID, ::RPG::GameCore::AvatarSkillTreePointTriggerKey))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GETSKILLTREEROWBYTRIGGERKEY_OFFSET))(this, pTriggerKey);
+			return ((::RPG::GameCore::AvatarSkillTreeRow*(*)(::PVOID, ::RPG::GameCore::AvatarSkillTreePointTriggerKey))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GETSKILLTREEROWBYTRIGGERKEY_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::AvatarRankConfigRow* GetRankConfigRowByTriggerKey(::RPG::GameCore::StringHash pTriggerKey)
+		::RPG::GameCore::AvatarRankConfigRow* GetRankConfigRowByTriggerKey(::RPG::GameCore::StringHash a1)
 		{
-			return ((::RPG::GameCore::AvatarRankConfigRow*(*)(::PVOID, ::RPG::GameCore::StringHash))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GETRANKCONFIGROWBYTRIGGERKEY_OFFSET))(this, pTriggerKey);
+			return ((::RPG::GameCore::AvatarRankConfigRow*(*)(::PVOID, ::RPG::GameCore::StringHash))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA_GETRANKCONFIGROWBYTRIGGERKEY_OFFSET))(this, a1);
 		}
 
-		::System::Void _SetupSkillList(::Il2CppArray<::System::UInt32>* SkillIdList, ::Il2CppArray<::System::UInt32>* inheritedSkillList)
+		::System::Void _SetupSkillList(::Il2CppArray<::System::UInt32>* a1, ::Il2CppArray<::System::UInt32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA__SETUPSKILLLIST_OFFSET))(this, SkillIdList, inheritedSkillList);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARROWDATA__SETUPSKILLLIST_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _OverrideSkillHideInUI()

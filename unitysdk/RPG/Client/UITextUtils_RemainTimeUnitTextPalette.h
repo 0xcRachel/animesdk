@@ -3,32 +3,32 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE_GET_DAY_OFFSET UNITYSDK_OFFSET(0x1597DAF0)
-#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE_GET_HOUR_OFFSET UNITYSDK_OFFSET(0x1597DB00)
-#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE_GET_MINUTE_OFFSET UNITYSDK_OFFSET(0x1597DB10)
-#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE_GET_SECOND_OFFSET UNITYSDK_OFFSET(0x1597DB20)
-#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1597DB60)
-#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1597DB30)
+#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE_GET_DAY_OFFSET UNITYSDK_OFFSET(0x14BA01D0)
+#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE_GET_HOUR_OFFSET UNITYSDK_OFFSET(0x14BA01E0)
+#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE_GET_MINUTE_OFFSET UNITYSDK_OFFSET(0x14BA01F0)
+#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE_GET_SECOND_OFFSET UNITYSDK_OFFSET(0x14BA0200)
+#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x14BA0240)
+#define RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE__CTOR_OFFSET UNITYSDK_OFFSET(0x14BA0210)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UITextUtils_RemainTimeUnitTextPalette_TypeDefinitionIndex = 67391;
+	inline static constexpr unsigned int UITextUtils_RemainTimeUnitTextPalette_TypeDefinitionIndex = 68343;
 
 	class UITextUtils_RemainTimeUnitTextPalette : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::UITextUtils_RemainTimeUnitTextPalette** StaticGet_FullName()
 		{
-			return (::RPG::Client::UITextUtils_RemainTimeUnitTextPalette**)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_RemainTimeUnitTextPalette_TypeDefinitionIndex)->GetStaticField(0x5BC20);
+			return (::RPG::Client::UITextUtils_RemainTimeUnitTextPalette**)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_RemainTimeUnitTextPalette_TypeDefinitionIndex)->GetStaticField(0x5A950);
 		}
-		::RPG::Client::TextID _Hour_k__BackingField; // 0x10
-		::RPG::Client::TextID _Second_k__BackingField; // 0x20
-		::RPG::Client::TextID _Day_k__BackingField; // 0x30
-		::RPG::Client::TextID _Minute_k__BackingField; // 0x40
+		::RPG::Client::TextID _Minute_k__BackingField; // 0x10
+		::RPG::Client::TextID _Day_k__BackingField; // 0x20
+		::RPG::Client::TextID _Second_k__BackingField; // 0x30
+		::RPG::Client::TextID _Hour_k__BackingField; // 0x40
 
-		::System::Void _ctor(::RPG::Client::TextID day, ::RPG::Client::TextID hour, ::RPG::Client::TextID minute, ::RPG::Client::TextID second)
+		::System::Void _ctor(::RPG::Client::TextID a1, ::RPG::Client::TextID a2, ::RPG::Client::TextID a3, ::RPG::Client::TextID a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID, ::RPG::Client::TextID, ::RPG::Client::TextID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE__CTOR_OFFSET))(this, day, hour, minute, second);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID, ::RPG::Client::TextID, ::RPG::Client::TextID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS_REMAINTIMEUNITTEXTPALETTE__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		static ::System::Void _cctor()

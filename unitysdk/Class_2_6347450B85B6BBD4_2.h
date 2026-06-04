@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_7ACCB923E979A908.h"
+#include "unitysdk/Class_1_3713064DEE761936.h"
 
-class Class_1_D811CE24096BDBCA_2;
+class Class_1_7BF8FDF00F218876_11;
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 
-#define CLASS_2_6347450B85B6BBD4_2_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xECA4220)
-#define CLASS_2_6347450B85B6BBD4_2__CTOR_OFFSET UNITYSDK_OFFSET(0xECA4550)
-#define CLASS_2_6347450B85B6BBD4_2__ONEXECUTE_B__0_0_OFFSET UNITYSDK_OFFSET(0xECA4560)
-#define CLASS_2_6347450B85B6BBD4_2___IFIXBASEPROXY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xECA4570)
+#define CLASS_2_6347450B85B6BBD4_2_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x145E6A90)
+#define CLASS_2_6347450B85B6BBD4_2__CTOR_OFFSET UNITYSDK_OFFSET(0x145E6DE0)
+#define CLASS_2_6347450B85B6BBD4_2__ONEXECUTE_B__0_0_OFFSET UNITYSDK_OFFSET(0x145E6DF0)
+#define CLASS_2_6347450B85B6BBD4_2___IFIXBASEPROXY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x145E6E00)
 
-inline static constexpr unsigned int Class_2_6347450B85B6BBD4_2_TypeDefinitionIndex = 70013;
+inline static constexpr unsigned int Class_2_6347450B85B6BBD4_2_TypeDefinitionIndex = 70825;
 
-class Class_2_6347450B85B6BBD4_2 : public ::Class_1_7ACCB923E979A908
+class Class_2_6347450B85B6BBD4_2 : public ::Class_1_3713064DEE761936
 {
 public:
 	::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* Field_2_0; // 0x20
-	::Class_1_D811CE24096BDBCA_2* Field_2_1; // 0x28
+	::Class_1_7BF8FDF00F218876_11* Field_2_1; // 0x28
 
-	::System::Void _ctor(::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* a1, ::Class_1_D811CE24096BDBCA_2* a2)
+	::System::Void _ctor(::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* a1, ::Class_1_7BF8FDF00F218876_11* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::ChenLingBattleGameContext*, ::Class_1_D811CE24096BDBCA_2*))((::PBYTE)hIl2Cpp + CLASS_2_6347450B85B6BBD4_2__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::ChenLingBattleGameContext*, ::Class_1_7BF8FDF00F218876_11*))((::PBYTE)hIl2Cpp + CLASS_2_6347450B85B6BBD4_2__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void OnExecute()

@@ -6,30 +6,30 @@
 namespace UnityEngine { class Collision; }
 namespace UnityEngine { class Rigidbody; }
 
-#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_AWAKE_OFFSET UNITYSDK_OFFSET(0xBF46F80)
-#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0xBF47990)
-#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_METHOD_5_06330CD58CB602B6_OFFSET UNITYSDK_OFFSET(0xBF470A0)
-#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0xBF47420)
-#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_SETSIMULATIONSPEED_OFFSET UNITYSDK_OFFSET(0xBF469D0)
-#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP__CTOR_OFFSET UNITYSDK_OFFSET(0xBF47BF0)
+#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_AWAKE_OFFSET UNITYSDK_OFFSET(0x12A44FA0)
+#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x12A459B0)
+#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_METHOD_5_06330CD58CB602B6_OFFSET UNITYSDK_OFFSET(0x12A450C0)
+#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x12A45440)
+#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP_SETSIMULATIONSPEED_OFFSET UNITYSDK_OFFSET(0x12A44A00)
+#define RPG_CLIENT_MONODESTRUCTIBLEOBJECTPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x12A45C10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoDestructibleObjectProp_TypeDefinitionIndex = 63245;
+	inline static constexpr unsigned int MonoDestructibleObjectProp_TypeDefinitionIndex = 64162;
 
 	class MonoDestructibleObjectProp : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Single Field_5_9; // 0x0
+		// static const ::System::Single Field_5_0; // 0x0
 		::System::Int32 collisionLimit; // 0x18
 		::System::Single angularDecaySpeed; // 0x1C
-		::UnityEngine::Rigidbody* Field_5_2; // 0x20
-		::System::Single Field_5_3; // 0x28
-		::UnityEngine::Vector3 Field_5_4; // 0x2C
-		::UnityEngine::Vector3 Field_5_5; // 0x38
-		::System::Boolean Field_5_6; // 0x44
-		::UnityEngine::Vector3 Field_5_7; // 0x48
-		::UnityEngine::Vector3 Field_5_8; // 0x54
+		::UnityEngine::Rigidbody* Field_5_3; // 0x20
+		::System::Single Field_5_4; // 0x28
+		::UnityEngine::Vector3 Field_5_5; // 0x2C
+		::UnityEngine::Vector3 Field_5_6; // 0x38
+		::System::Boolean Field_5_7; // 0x44
+		::UnityEngine::Vector3 Field_5_8; // 0x48
+		::UnityEngine::Vector3 Field_5_9; // 0x54
 
 		::System::Void _ctor()
 		{

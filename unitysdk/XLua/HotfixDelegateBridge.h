@@ -4,30 +4,30 @@
 
 namespace XLua { class DelegateBridge; }
 
-#define XLUA_HOTFIXDELEGATEBRIDGE_GET_OFFSET UNITYSDK_OFFSET(0xA26A1F0)
-#define XLUA_HOTFIXDELEGATEBRIDGE_SET_OFFSET UNITYSDK_OFFSET(0xA26A260)
-#define XLUA_HOTFIXDELEGATEBRIDGE_XLUA_GET_HOTFIX_FLAG_OFFSET UNITYSDK_OFFSET(0xA26A140)
+#define XLUA_HOTFIXDELEGATEBRIDGE_GET_OFFSET UNITYSDK_OFFSET(0x12735830)
+#define XLUA_HOTFIXDELEGATEBRIDGE_SET_OFFSET UNITYSDK_OFFSET(0x12735890)
+#define XLUA_HOTFIXDELEGATEBRIDGE_XLUA_GET_HOTFIX_FLAG_OFFSET UNITYSDK_OFFSET(0x12735780)
 
 namespace XLua
 {
-	inline static constexpr unsigned int HotfixDelegateBridge_TypeDefinitionIndex = 46393;
+	inline static constexpr unsigned int HotfixDelegateBridge_TypeDefinitionIndex = 46983;
 
 	class HotfixDelegateBridge : public ::System::Object
 	{
 	public:
-		static ::System::Boolean xlua_get_hotfix_flag(::System::Int32 idx)
+		static ::System::Boolean xlua_get_hotfix_flag(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + XLUA_HOTFIXDELEGATEBRIDGE_XLUA_GET_HOTFIX_FLAG_OFFSET))(idx);
+			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + XLUA_HOTFIXDELEGATEBRIDGE_XLUA_GET_HOTFIX_FLAG_OFFSET))(a1);
 		}
 
-		static ::XLua::DelegateBridge* Get(::System::Int32 idx)
+		static ::XLua::DelegateBridge* Get(::System::Int32 a1)
 		{
-			return ((::XLua::DelegateBridge*(*)(::System::Int32))((::PBYTE)hIl2Cpp + XLUA_HOTFIXDELEGATEBRIDGE_GET_OFFSET))(idx);
+			return ((::XLua::DelegateBridge*(*)(::System::Int32))((::PBYTE)hIl2Cpp + XLUA_HOTFIXDELEGATEBRIDGE_GET_OFFSET))(a1);
 		}
 
-		static ::System::Void Set(::System::Int32 idx, ::XLua::DelegateBridge* val)
+		static ::System::Void Set(::System::Int32 a1, ::XLua::DelegateBridge* a2)
 		{
-			return ((::System::Void(*)(::System::Int32, ::XLua::DelegateBridge*))((::PBYTE)hIl2Cpp + XLUA_HOTFIXDELEGATEBRIDGE_SET_OFFSET))(idx, val);
+			return ((::System::Void(*)(::System::Int32, ::XLua::DelegateBridge*))((::PBYTE)hIl2Cpp + XLUA_HOTFIXDELEGATEBRIDGE_SET_OFFSET))(a1, a2);
 		}
 	};
 }

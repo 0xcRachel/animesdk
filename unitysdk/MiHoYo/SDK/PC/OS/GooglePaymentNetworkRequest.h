@@ -9,15 +9,15 @@ namespace MiHoYo::SDK::PC::OS { class GooglePlayBillingPayInfo; }
 namespace MiHoYo::SDK::PC::OS { class PurchaseData; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_CREATEORDER_OFFSET UNITYSDK_OFFSET(0x17414BF0)
-#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_FIRSTPAYMENT_OFFSET UNITYSDK_OFFSET(0x174167F0)
-#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_PROCESSRECEIPTTOJSON_OFFSET UNITYSDK_OFFSET(0x17414750)
-#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_VERIFYRECEIPT_OFFSET UNITYSDK_OFFSET(0x17415D20)
-#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x174173A0)
+#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_CREATEORDER_OFFSET UNITYSDK_OFFSET(0x18692450)
+#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_FIRSTPAYMENT_OFFSET UNITYSDK_OFFSET(0x186940A0)
+#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_PROCESSRECEIPTTOJSON_OFFSET UNITYSDK_OFFSET(0x18691FB0)
+#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_VERIFYRECEIPT_OFFSET UNITYSDK_OFFSET(0x186935D0)
+#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x18694C50)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int GooglePaymentNetworkRequest_TypeDefinitionIndex = 7516;
+	inline static constexpr unsigned int GooglePaymentNetworkRequest_TypeDefinitionIndex = 8419;
 
 	class GooglePaymentNetworkRequest : public ::System::Object
 	{
@@ -29,24 +29,24 @@ namespace MiHoYo::SDK::PC::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST__CTOR_OFFSET))(this);
 		}
 
-		static ::MiHoYo::SDK::JSONObject* ProcessReceiptToJson(::MiHoYo::SDK::PC::OS::PurchaseData* payInfo)
+		static ::MiHoYo::SDK::JSONObject* ProcessReceiptToJson(::MiHoYo::SDK::PC::OS::PurchaseData* a1)
 		{
-			return ((::MiHoYo::SDK::JSONObject*(*)(::MiHoYo::SDK::PC::OS::PurchaseData*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_PROCESSRECEIPTTOJSON_OFFSET))(payInfo);
+			return ((::MiHoYo::SDK::JSONObject*(*)(::MiHoYo::SDK::PC::OS::PurchaseData*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_PROCESSRECEIPTTOJSON_OFFSET))(a1);
 		}
 
-		static ::System::Void CreateOrder(::MiHoYo::SDK::AccountModel* accountModel, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* payInfo, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* onCreateOrder)
+		static ::System::Void CreateOrder(::MiHoYo::SDK::AccountModel* a1, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* a3)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::AccountModel*, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_CREATEORDER_OFFSET))(accountModel, payInfo, onCreateOrder);
+			return ((::System::Void(*)(::MiHoYo::SDK::AccountModel*, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_CREATEORDER_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void VerifyReceipt(::MiHoYo::SDK::AccountModel* accountModel, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* payInfo, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* onVerifyReceipt)
+		static ::System::Void VerifyReceipt(::MiHoYo::SDK::AccountModel* a1, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* a3)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::AccountModel*, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_VERIFYRECEIPT_OFFSET))(accountModel, payInfo, onVerifyReceipt);
+			return ((::System::Void(*)(::MiHoYo::SDK::AccountModel*, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_VERIFYRECEIPT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void FirstPayment(::MiHoYo::SDK::AccountModel* accountModel, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* payInfo, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* onFirstPayment)
+		static ::System::Void FirstPayment(::MiHoYo::SDK::AccountModel* a1, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* a3)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::AccountModel*, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_FIRSTPAYMENT_OFFSET))(accountModel, payInfo, onFirstPayment);
+			return ((::System::Void(*)(::MiHoYo::SDK::AccountModel*, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_FIRSTPAYMENT_OFFSET))(a1, a2, a3);
 		}
 	};
 }

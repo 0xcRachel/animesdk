@@ -5,21 +5,21 @@
 
 namespace RPG::Client { class CurveUndirectedEdge; }
 
-#define RPG_CLIENT_CURVEEDGEPOINT_GET_EMPTYPOINT_OFFSET UNITYSDK_OFFSET(0x15C0B3D0)
-#define RPG_CLIENT_CURVEEDGEPOINT_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x2251180)
-#define RPG_CLIENT_CURVEEDGEPOINT_METHOD_2_9D255C917A1DECA7_OFFSET UNITYSDK_OFFSET(0x2251250)
-#define RPG_CLIENT_CURVEEDGEPOINT_METHOD_2_F5758E0A6FE89A9D_OFFSET UNITYSDK_OFFSET(0x22511E0)
-#define RPG_CLIENT_CURVEEDGEPOINT__CCTOR_OFFSET UNITYSDK_OFFSET(0x15C0B580)
+#define RPG_CLIENT_CURVEEDGEPOINT_GET_EMPTYPOINT_OFFSET UNITYSDK_OFFSET(0x15F3A470)
+#define RPG_CLIENT_CURVEEDGEPOINT_METHOD_2_9D255C917A1DECA7_OFFSET UNITYSDK_OFFSET(0x37B54B0)
+#define RPG_CLIENT_CURVEEDGEPOINT_METHOD_2_F39234F2606D8D97_OFFSET UNITYSDK_OFFSET(0x37B5390)
+#define RPG_CLIENT_CURVEEDGEPOINT_METHOD_2_F5758E0A6FE89A9D_OFFSET UNITYSDK_OFFSET(0x37B5440)
+#define RPG_CLIENT_CURVEEDGEPOINT__CCTOR_OFFSET UNITYSDK_OFFSET(0x15F3A8C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CurveEdgePoint_TypeDefinitionIndex = 63229;
+	inline static constexpr unsigned int CurveEdgePoint_TypeDefinitionIndex = 64146;
 
 	struct alignas(8) CurveEdgePoint
 	{
 		static ::RPG::Client::CurveEdgePoint* StaticGet__EmptyPoint_k__BackingField()
 		{
-			return (::RPG::Client::CurveEdgePoint*)Il2CppClass::FromTypeDefinitionIndex(CurveEdgePoint_TypeDefinitionIndex)->GetStaticField(0x68660);
+			return (::RPG::Client::CurveEdgePoint*)Il2CppClass::FromTypeDefinitionIndex(CurveEdgePoint_TypeDefinitionIndex)->GetStaticField(0x26E0);
 		}
 		::RPG::Client::ECurveEdgePoint point; // 0x10
 		::RPG::Client::CurveUndirectedEdge* edge; // 0x18
@@ -34,9 +34,9 @@ namespace RPG::Client
 			return ((::RPG::Client::CurveEdgePoint(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEEDGEPOINT_GET_EMPTYPOINT_OFFSET))();
 		}
 
-		::System::Boolean Method_2_1D4018D4200358D0()
+		::System::Boolean Method_2_F39234F2606D8D97()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEEDGEPOINT_METHOD_2_1D4018D4200358D0_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEEDGEPOINT_METHOD_2_F39234F2606D8D97_OFFSET))(this);
 		}
 
 		::RPG::Client::CurveEdgePoint Method_2_F5758E0A6FE89A9D()

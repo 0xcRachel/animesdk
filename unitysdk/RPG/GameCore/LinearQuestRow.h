@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LINEARQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A47970)
-#define RPG_GAMECORE_LINEARQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A47FD0)
+#define RPG_GAMECORE_LINEARQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A11BE80)
+#define RPG_GAMECORE_LINEARQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A11C500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LinearQuestRow_TypeDefinitionIndex = 13774;
+	inline static constexpr unsigned int LinearQuestRow_TypeDefinitionIndex = 13841;
 
 	class LinearQuestRow : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEARQUESTROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LinearQuestRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LinearQuestRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LinearQuestRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEARQUESTROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LinearQuestRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEARQUESTROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

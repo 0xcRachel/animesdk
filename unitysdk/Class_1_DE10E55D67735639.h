@@ -8,33 +8,33 @@ class Class_2_A0580152EB393340;
 namespace RPG::Client { class MovementStoppedRootMotionBakedData_Class_1_3B76E13757985C28_2; }
 namespace RPG::GameCore { class AdventureCharacterController; }
 
-#define CLASS_1_DE10E55D67735639_GET_ALLOWROTATION_OFFSET UNITYSDK_OFFSET(0xDB7CDC0)
-#define CLASS_1_DE10E55D67735639_GET_STATE_OFFSET UNITYSDK_OFFSET(0xDB7CDA0)
-#define CLASS_1_DE10E55D67735639_METHOD_1_4166DF40939A3516_OFFSET UNITYSDK_OFFSET(0xDB7D0E0)
-#define CLASS_1_DE10E55D67735639_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xDB7D060)
-#define CLASS_1_DE10E55D67735639_METHOD_1_C10F8EF31879ABA4_OFFSET UNITYSDK_OFFSET(0xDB7CE00)
-#define CLASS_1_DE10E55D67735639_METHOD_1_D437D090E63BE8A7_OFFSET UNITYSDK_OFFSET(0xDB7D6E0)
-#define CLASS_1_DE10E55D67735639_METHOD_1_D64FD9A228A1C4E0_OFFSET UNITYSDK_OFFSET(0xDB7CFA0)
-#define CLASS_1_DE10E55D67735639_METHOD_1_FB4BE762B6186C23_OFFSET UNITYSDK_OFFSET(0xDB7CDE0)
-#define CLASS_1_DE10E55D67735639_SET_ALLOWROTATION_OFFSET UNITYSDK_OFFSET(0xDB7CDD0)
-#define CLASS_1_DE10E55D67735639_SET_STATE_OFFSET UNITYSDK_OFFSET(0xDB7CDB0)
-#define CLASS_1_DE10E55D67735639__CTOR_OFFSET UNITYSDK_OFFSET(0xDB7D790)
+#define CLASS_1_DE10E55D67735639_GET_ALLOWROTATION_OFFSET UNITYSDK_OFFSET(0x14BF1A30)
+#define CLASS_1_DE10E55D67735639_GET_STATE_OFFSET UNITYSDK_OFFSET(0x14BF1A10)
+#define CLASS_1_DE10E55D67735639_METHOD_1_4166DF40939A3516_OFFSET UNITYSDK_OFFSET(0x14BF1D60)
+#define CLASS_1_DE10E55D67735639_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x14BF1CE0)
+#define CLASS_1_DE10E55D67735639_METHOD_1_C10F8EF31879ABA4_OFFSET UNITYSDK_OFFSET(0x14BF1A70)
+#define CLASS_1_DE10E55D67735639_METHOD_1_D437D090E63BE8A7_OFFSET UNITYSDK_OFFSET(0x14BF2360)
+#define CLASS_1_DE10E55D67735639_METHOD_1_D64FD9A228A1C4E0_OFFSET UNITYSDK_OFFSET(0x14BF1C20)
+#define CLASS_1_DE10E55D67735639_METHOD_1_FB4BE762B6186C23_OFFSET UNITYSDK_OFFSET(0x14BF1A50)
+#define CLASS_1_DE10E55D67735639_SET_ALLOWROTATION_OFFSET UNITYSDK_OFFSET(0x14BF1A40)
+#define CLASS_1_DE10E55D67735639_SET_STATE_OFFSET UNITYSDK_OFFSET(0x14BF1A20)
+#define CLASS_1_DE10E55D67735639__CTOR_OFFSET UNITYSDK_OFFSET(0x14BF2410)
 
-inline static constexpr unsigned int Class_1_DE10E55D67735639_TypeDefinitionIndex = 52654;
+inline static constexpr unsigned int Class_1_DE10E55D67735639_TypeDefinitionIndex = 53354;
 
 class Class_1_DE10E55D67735639 : public ::System::Object
 {
 public:
-	::RPG::Client::MovementStoppedRootMotionBakedData_Class_1_3B76E13757985C28_2* Field_1_8; // 0x10
-	::RPG::Client::MovementStoppedRootMotionBakedData_RootMotionCurve Field_1_9; // 0x18
-	::RPG::GameCore::AdventureCharacterController* Field_1_1; // 0x30
-	::Class_2_A0580152EB393340* Field_1_0; // 0x38
+	::Class_2_A0580152EB393340* Field_1_0; // 0x10
+	::RPG::GameCore::AdventureCharacterController* Field_1_1; // 0x18
+	::RPG::Client::MovementStoppedRootMotionBakedData_Class_1_3B76E13757985C28_2* Field_1_2; // 0x20
+	::RPG::Client::MovementStoppedRootMotionBakedData_RootMotionCurve Field_1_3; // 0x28
 	::RPG::GameCore::EAdventureNavigationRootMotionHandlerState _State_k__BackingField; // 0x40
-	::System::Single Field_1_4; // 0x44
+	::System::Boolean Field_1_5; // 0x44
+	::System::Boolean _AllowRotation_k__BackingField; // 0x45
 	::System::Single Field_1_7; // 0x48
-	::System::Single Field_1_5; // 0x4C
-	::System::Boolean _AllowRotation_k__BackingField; // 0x50
-	::System::Boolean Field_1_6; // 0x51
+	::System::Single Field_1_8; // 0x4C
+	::System::Single Field_1_9; // 0x50
 
 	::System::Void _ctor()
 	{
@@ -46,9 +46,9 @@ public:
 		return ((::RPG::GameCore::EAdventureNavigationRootMotionHandlerState(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DE10E55D67735639_GET_STATE_OFFSET))(this);
 	}
 
-	::System::Void set_State(::RPG::GameCore::EAdventureNavigationRootMotionHandlerState value)
+	::System::Void set_State(::RPG::GameCore::EAdventureNavigationRootMotionHandlerState a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EAdventureNavigationRootMotionHandlerState))((::PBYTE)hIl2Cpp + CLASS_1_DE10E55D67735639_SET_STATE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EAdventureNavigationRootMotionHandlerState))((::PBYTE)hIl2Cpp + CLASS_1_DE10E55D67735639_SET_STATE_OFFSET))(this, a1);
 	}
 
 	::System::Boolean get_AllowRotation()
@@ -56,9 +56,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DE10E55D67735639_GET_ALLOWROTATION_OFFSET))(this);
 	}
 
-	::System::Void set_AllowRotation(::System::Boolean value)
+	::System::Void set_AllowRotation(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_DE10E55D67735639_SET_ALLOWROTATION_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_DE10E55D67735639_SET_ALLOWROTATION_OFFSET))(this, a1);
 	}
 
 	::System::Single Method_1_FB4BE762B6186C23()

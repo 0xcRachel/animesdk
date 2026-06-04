@@ -8,25 +8,25 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenTraitData; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE_GET_GETTRAITLIST_OFFSET UNITYSDK_OFFSET(0x171EE590)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE_GET_STATETYPE_OFFSET UNITYSDK_OFFSET(0x171EE050)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE_RPG_CLIENT_ACTIVITYHIPPLEN_IACTIVITYHIPPLENGAMESTATE_ONENTER_OFFSET UNITYSDK_OFFSET(0x171EE3C0)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE_RPG_CLIENT_ACTIVITYHIPPLEN_IACTIVITYHIPPLENGAMESTATE_ONFINISH_OFFSET UNITYSDK_OFFSET(0x171EE540)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE_SET_GETTRAITLIST_OFFSET UNITYSDK_OFFSET(0x171EE5A0)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x171EE060)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE_GET_GETTRAITLIST_OFFSET UNITYSDK_OFFSET(0x186B3A20)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE_GET_STATETYPE_OFFSET UNITYSDK_OFFSET(0x186B34D0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE_RPG_CLIENT_ACTIVITYHIPPLEN_IACTIVITYHIPPLENGAMESTATE_ONENTER_OFFSET UNITYSDK_OFFSET(0x186B3880)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE_RPG_CLIENT_ACTIVITYHIPPLEN_IACTIVITYHIPPLENGAMESTATE_ONFINISH_OFFSET UNITYSDK_OFFSET(0x186B39D0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE_SET_GETTRAITLIST_OFFSET UNITYSDK_OFFSET(0x186B3A30)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x186B34E0)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenGetTraitGameState_TypeDefinitionIndex = 69574;
+	inline static constexpr unsigned int ActivityHipplenGetTraitGameState_TypeDefinitionIndex = 70386;
 
 	class ActivityHipplenGetTraitGameState : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>* _GetTraitList_k__BackingField; // 0x10
 
-		::System::Void _ctor(::System::Collections::Generic::IList_1<::System::UInt32>* getTraitIDList)
+		::System::Void _ctor(::System::Collections::Generic::IList_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE__CTOR_OFFSET))(this, getTraitIDList);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE__CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ActivityHipplen::ActivityHipplenGameStateType get_StateType()
@@ -34,14 +34,14 @@ namespace RPG::Client::ActivityHipplen
 			return ((::RPG::Client::ActivityHipplen::ActivityHipplenGameStateType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE_GET_STATETYPE_OFFSET))(this);
 		}
 
-		::System::Void RPG_Client_ActivityHipplen_IActivityHipplenGameState_OnEnter(::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance* game)
+		::System::Void RPG_Client_ActivityHipplen_IActivityHipplenGameState_OnEnter(::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE_RPG_CLIENT_ACTIVITYHIPPLEN_IACTIVITYHIPPLENGAMESTATE_ONENTER_OFFSET))(this, game);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE_RPG_CLIENT_ACTIVITYHIPPLEN_IACTIVITYHIPPLENGAMESTATE_ONENTER_OFFSET))(this, a1);
 		}
 
-		::System::Void RPG_Client_ActivityHipplen_IActivityHipplenGameState_OnFinish(::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance* game)
+		::System::Void RPG_Client_ActivityHipplen_IActivityHipplenGameState_OnFinish(::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE_RPG_CLIENT_ACTIVITYHIPPLEN_IACTIVITYHIPPLENGAMESTATE_ONFINISH_OFFSET))(this, game);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE_RPG_CLIENT_ACTIVITYHIPPLEN_IACTIVITYHIPPLENGAMESTATE_ONFINISH_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>* get_GetTraitList()
@@ -49,9 +49,9 @@ namespace RPG::Client::ActivityHipplen
 			return ((::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE_GET_GETTRAITLIST_OFFSET))(this);
 		}
 
-		::System::Void set_GetTraitList(::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>* value)
+		::System::Void set_GetTraitList(::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE_SET_GETTRAITLIST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGETTRAITGAMESTATE_SET_GETTRAITLIST_OFFSET))(this, a1);
 		}
 	};
 }

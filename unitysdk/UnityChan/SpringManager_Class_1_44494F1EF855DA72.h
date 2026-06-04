@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYCHAN_SPRINGMANAGER_CLASS_1_44494F1EF855DA72__CTOR_OFFSET UNITYSDK_OFFSET(0xE1A96E0)
+#define UNITYCHAN_SPRINGMANAGER_CLASS_1_44494F1EF855DA72__CTOR_OFFSET UNITYSDK_OFFSET(0xE2855C0)
 
 namespace UnityChan
 {
-	inline static constexpr unsigned int SpringManager_Class_1_44494F1EF855DA72_TypeDefinitionIndex = 44438;
+	inline static constexpr unsigned int SpringManager_Class_1_44494F1EF855DA72_TypeDefinitionIndex = 44984;
 
 	class SpringManager_Class_1_44494F1EF855DA72 : public ::System::Object
 	{
 	public:
-		::System::Boolean Field_1_3; // 0x10
-		::System::Single Field_1_2; // 0x14
-		::System::Single Field_1_1; // 0x18
-		::System::Single Field_1_0; // 0x1C
+		::System::Single Field_1_0; // 0x10
+		::System::Boolean Field_1_1; // 0x14
+		::System::Single Field_1_2; // 0x18
+		::System::Single Field_1_3; // 0x1C
 
 		::System::Void _ctor()
 		{

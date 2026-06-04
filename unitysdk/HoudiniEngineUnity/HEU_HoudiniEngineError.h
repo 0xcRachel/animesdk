@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_HOUDINIENGINEERROR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15433300)
-#define HOUDINIENGINEUNITY_HEU_HOUDINIENGINEERROR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15433270)
-#define HOUDINIENGINEUNITY_HEU_HOUDINIENGINEERROR__CTOR_OFFSET UNITYSDK_OFFSET(0x154331F0)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIENGINEERROR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1050C230)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIENGINEERROR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1050C1A0)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIENGINEERROR__CTOR_OFFSET UNITYSDK_OFFSET(0x1050C120)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_HoudiniEngineError_TypeDefinitionIndex = 43537;
+	inline static constexpr unsigned int HEU_HoudiniEngineError_TypeDefinitionIndex = 37471;
 
 	class HEU_HoudiniEngineError : public ::System::Exception
 	{
@@ -22,9 +22,9 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_HOUDINIENGINEERROR__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* errorMsg)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_HOUDINIENGINEERROR__CTOR_1_OFFSET))(this, errorMsg);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_HOUDINIENGINEERROR__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()

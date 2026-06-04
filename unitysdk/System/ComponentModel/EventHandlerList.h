@@ -6,8 +6,8 @@ namespace System { class Delegate; }
 namespace System::ComponentModel { class Component; }
 namespace System::ComponentModel { class EventHandlerList_ListEntry; }
 
-#define SYSTEM_COMPONENTMODEL_EVENTHANDLERLIST_FIND_OFFSET UNITYSDK_OFFSET(0x182FF840)
-#define SYSTEM_COMPONENTMODEL_EVENTHANDLERLIST_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x182FF7E0)
+#define SYSTEM_COMPONENTMODEL_EVENTHANDLERLIST_FIND_OFFSET UNITYSDK_OFFSET(0x1816EDE0)
+#define SYSTEM_COMPONENTMODEL_EVENTHANDLERLIST_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1816ED80)
 
 namespace System::ComponentModel
 {
@@ -19,14 +19,14 @@ namespace System::ComponentModel
 		::System::ComponentModel::EventHandlerList_ListEntry* head; // 0x10
 		::System::ComponentModel::Component* parent; // 0x18
 
-		::System::Delegate* get_Item(::System::Object* key)
+		::System::Delegate* get_Item(::System::Object* a1)
 		{
-			return ((::System::Delegate*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_EVENTHANDLERLIST_GET_ITEM_OFFSET))(this, key);
+			return ((::System::Delegate*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_EVENTHANDLERLIST_GET_ITEM_OFFSET))(this, a1);
 		}
 
-		::System::ComponentModel::EventHandlerList_ListEntry* Find(::System::Object* key)
+		::System::ComponentModel::EventHandlerList_ListEntry* Find(::System::Object* a1)
 		{
-			return ((::System::ComponentModel::EventHandlerList_ListEntry*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_EVENTHANDLERLIST_FIND_OFFSET))(this, key);
+			return ((::System::ComponentModel::EventHandlerList_ListEntry*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_EVENTHANDLERLIST_FIND_OFFSET))(this, a1);
 		}
 	};
 }

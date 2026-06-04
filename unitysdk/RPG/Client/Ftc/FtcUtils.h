@@ -7,17 +7,17 @@ namespace RPG::Client { class BaseGachaPoolData; }
 namespace RPG::Client { class Product; }
 namespace System { class String; }
 
-#define RPG_CLIENT_FTC_FTCUTILS_ALLOWCOMMUNITY_OFFSET UNITYSDK_OFFSET(0x154D4890)
-#define RPG_CLIENT_FTC_FTCUTILS_CANCHANGENICKNAME_OFFSET UNITYSDK_OFFSET(0x154D4A40)
-#define RPG_CLIENT_FTC_FTCUTILS_GETFTCPRODUCTDATA_OFFSET UNITYSDK_OFFSET(0x154D4B90)
-#define RPG_CLIENT_FTC_FTCUTILS_GETGACHAPOOLFTCDESC_OFFSET UNITYSDK_OFFSET(0x154D4DC0)
-#define RPG_CLIENT_FTC_FTCUTILS_GETSHOWRESBARKEY_OFFSET UNITYSDK_OFFSET(0x154D4B00)
-#define RPG_CLIENT_FTC_FTCUTILS_ISFTCOPEN_OFFSET UNITYSDK_OFFSET(0x154D4770)
-#define RPG_CLIENT_FTC_FTCUTILS__ISUNDER13YEARSOLD_OFFSET UNITYSDK_OFFSET(0x154D49C0)
+#define RPG_CLIENT_FTC_FTCUTILS_ALLOWCOMMUNITY_OFFSET UNITYSDK_OFFSET(0x15963E40)
+#define RPG_CLIENT_FTC_FTCUTILS_CANCHANGENICKNAME_OFFSET UNITYSDK_OFFSET(0x15963FF0)
+#define RPG_CLIENT_FTC_FTCUTILS_GETFTCPRODUCTDATA_OFFSET UNITYSDK_OFFSET(0x15964140)
+#define RPG_CLIENT_FTC_FTCUTILS_GETGACHAPOOLFTCDESC_OFFSET UNITYSDK_OFFSET(0x15964370)
+#define RPG_CLIENT_FTC_FTCUTILS_GETSHOWRESBARKEY_OFFSET UNITYSDK_OFFSET(0x159640B0)
+#define RPG_CLIENT_FTC_FTCUTILS_ISFTCOPEN_OFFSET UNITYSDK_OFFSET(0x15963D20)
+#define RPG_CLIENT_FTC_FTCUTILS__ISUNDER13YEARSOLD_OFFSET UNITYSDK_OFFSET(0x15963F70)
 
 namespace RPG::Client::Ftc
 {
-	inline static constexpr unsigned int FtcUtils_TypeDefinitionIndex = 69012;
+	inline static constexpr unsigned int FtcUtils_TypeDefinitionIndex = 69824;
 
 	class FtcUtils : public ::System::Object
 	{
@@ -45,19 +45,19 @@ namespace RPG::Client::Ftc
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FTC_FTCUTILS__ISUNDER13YEARSOLD_OFFSET))();
 		}
 
-		static ::System::String* GetShowResBarKey(::System::UInt32 itemConfigID)
+		static ::System::String* GetShowResBarKey(::System::UInt32 a1)
 		{
-			return ((::System::String*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FTC_FTCUTILS_GETSHOWRESBARKEY_OFFSET))(itemConfigID);
+			return ((::System::String*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FTC_FTCUTILS_GETSHOWRESBARKEY_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::Product* GetFtcProductData(::System::UInt32 itemConfigID, ::System::UInt32 drawTime)
+		static ::RPG::Client::Product* GetFtcProductData(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::Product*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FTC_FTCUTILS_GETFTCPRODUCTDATA_OFFSET))(itemConfigID, drawTime);
+			return ((::RPG::Client::Product*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FTC_FTCUTILS_GETFTCPRODUCTDATA_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::TextID GetGachaPoolFtcDesc(::RPG::Client::BaseGachaPoolData* gachaPoolData)
+		static ::RPG::Client::TextID GetGachaPoolFtcDesc(::RPG::Client::BaseGachaPoolData* a1)
 		{
-			return ((::RPG::Client::TextID(*)(::RPG::Client::BaseGachaPoolData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FTC_FTCUTILS_GETGACHAPOOLFTCDESC_OFFSET))(gachaPoolData);
+			return ((::RPG::Client::TextID(*)(::RPG::Client::BaseGachaPoolData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FTC_FTCUTILS_GETGACHAPOOLFTCDESC_OFFSET))(a1);
 		}
 	};
 }

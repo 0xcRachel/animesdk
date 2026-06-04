@@ -5,11 +5,11 @@
 class Class_1_21DCD4640D389503_17;
 class Class_1_A44FCD13AEE81932;
 
-#define CLASS_1_A44FCD13AEE81932___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCD04CB0)
-#define CLASS_1_A44FCD13AEE81932___C__DISPLAYCLASS11_0___ONBATTLEENDSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xCD05CB0)
-#define CLASS_1_A44FCD13AEE81932___C__DISPLAYCLASS11_0___ONBATTLEENDSCRSP_B__1_OFFSET UNITYSDK_OFFSET(0xCD05CE0)
+#define CLASS_1_A44FCD13AEE81932___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13297FA0)
+#define CLASS_1_A44FCD13AEE81932___C__DISPLAYCLASS11_0___ONBATTLEENDSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0x13298E30)
+#define CLASS_1_A44FCD13AEE81932___C__DISPLAYCLASS11_0___ONBATTLEENDSCRSP_B__1_OFFSET UNITYSDK_OFFSET(0x13298E60)
 
-inline static constexpr unsigned int Class_1_A44FCD13AEE81932___c__DisplayClass11_0_TypeDefinitionIndex = 56254;
+inline static constexpr unsigned int Class_1_A44FCD13AEE81932___c__DisplayClass11_0_TypeDefinitionIndex = 57016;
 
 class Class_1_A44FCD13AEE81932___c__DisplayClass11_0 : public ::System::Object
 {
@@ -22,13 +22,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A44FCD13AEE81932___C__DISPLAYCLASS11_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Void __OnBattleEndScRsp_b__0(::System::Boolean _)
+	::System::Void __OnBattleEndScRsp_b__0(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_A44FCD13AEE81932___C__DISPLAYCLASS11_0___ONBATTLEENDSCRSP_B__0_OFFSET))(this, _);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_A44FCD13AEE81932___C__DISPLAYCLASS11_0___ONBATTLEENDSCRSP_B__0_OFFSET))(this, a1);
 	}
 
-	::System::Void __OnBattleEndScRsp_b__1(::System::Boolean _)
+	::System::Void __OnBattleEndScRsp_b__1(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_A44FCD13AEE81932___C__DISPLAYCLASS11_0___ONBATTLEENDSCRSP_B__1_OFFSET))(this, _);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_A44FCD13AEE81932___C__DISPLAYCLASS11_0___ONBATTLEENDSCRSP_B__1_OFFSET))(this, a1);
 	}
 };

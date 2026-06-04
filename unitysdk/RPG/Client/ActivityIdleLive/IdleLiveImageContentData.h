@@ -5,23 +5,23 @@
 namespace RPG::GameCore { class IdleLiveImgDanmuRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x16C67870)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x16C67850)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA_SET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x16C67860)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16C67940)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x18B3CCE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x18B3CCC0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA_SET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x18B3CCD0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18B3CDB0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveImageContentData_TypeDefinitionIndex = 69407;
+	inline static constexpr unsigned int IdleLiveImageContentData_TypeDefinitionIndex = 70219;
 
 	class IdleLiveImageContentData : public ::RPG::Client::ActivityIdleLive::IdleLiveDanmuContentData
 	{
 	public:
 		::System::String* _ImagePath_k__BackingField; // 0x18
 
-		::System::Void _ctor(::RPG::GameCore::IdleLiveImgDanmuRow* row)
+		::System::Void _ctor(::RPG::GameCore::IdleLiveImgDanmuRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IdleLiveImgDanmuRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA__CTOR_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IdleLiveImgDanmuRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_ImagePath()
@@ -29,14 +29,14 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA_GET_IMAGEPATH_OFFSET))(this);
 		}
 
-		::System::Void set_ImagePath(::System::String* value)
+		::System::Void set_ImagePath(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA_SET_IMAGEPATH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA_SET_IMAGEPATH_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::ActivityIdleLive::IdleLiveImageContentData* Create(::System::UInt32 imgDanmuId)
+		static ::RPG::Client::ActivityIdleLive::IdleLiveImageContentData* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ActivityIdleLive::IdleLiveImageContentData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA_CREATE_OFFSET))(imgDanmuId);
+			return ((::RPG::Client::ActivityIdleLive::IdleLiveImageContentData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA_CREATE_OFFSET))(a1);
 		}
 	};
 }

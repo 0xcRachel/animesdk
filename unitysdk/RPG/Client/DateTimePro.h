@@ -7,80 +7,80 @@ namespace System { class IFormatProvider; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_CLIENT_DATETIMEPRO_ADDDAYS_OFFSET UNITYSDK_OFFSET(0x22F1500)
-#define RPG_CLIENT_DATETIMEPRO_ADDHOURS_OFFSET UNITYSDK_OFFSET(0x22F15A0)
-#define RPG_CLIENT_DATETIMEPRO_ADDMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x22F1780)
-#define RPG_CLIENT_DATETIMEPRO_ADDMINUTES_OFFSET UNITYSDK_OFFSET(0x22F1640)
-#define RPG_CLIENT_DATETIMEPRO_ADDMONTHSINBEIJINGTIME_OFFSET UNITYSDK_OFFSET(0x22F1900)
-#define RPG_CLIENT_DATETIMEPRO_ADDMONTHSINSERVERTIME_OFFSET UNITYSDK_OFFSET(0x22F1820)
-#define RPG_CLIENT_DATETIMEPRO_ADDMONTHSINUTCTIME_OFFSET UNITYSDK_OFFSET(0x22F1870)
-#define RPG_CLIENT_DATETIMEPRO_ADDSECONDS_OFFSET UNITYSDK_OFFSET(0x22F16E0)
-#define RPG_CLIENT_DATETIMEPRO_ADDTICKS_OFFSET UNITYSDK_OFFSET(0x22F1410)
-#define RPG_CLIENT_DATETIMEPRO_ADD_OFFSET UNITYSDK_OFFSET(0x22F1410)
-#define RPG_CLIENT_DATETIMEPRO_COMPARETO_OFFSET UNITYSDK_OFFSET(0x22AAAC0)
-#define RPG_CLIENT_DATETIMEPRO_COMPARE_OFFSET UNITYSDK_OFFSET(0x18E1ADC0)
-#define RPG_CLIENT_DATETIMEPRO_CREATEBYBEIJINGTIME_OFFSET UNITYSDK_OFFSET(0x18E1A0C0)
-#define RPG_CLIENT_DATETIMEPRO_CREATEBYSERVERTIME_OFFSET UNITYSDK_OFFSET(0x18E1A010)
-#define RPG_CLIENT_DATETIMEPRO_CREATEBYTIMESTAMPMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x18E19A30)
-#define RPG_CLIENT_DATETIMEPRO_CREATEBYTIMESTAMPSECONDS_OFFSET UNITYSDK_OFFSET(0x18E19840)
-#define RPG_CLIENT_DATETIMEPRO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22AAB20)
-#define RPG_CLIENT_DATETIMEPRO_EQUALS_2_OFFSET UNITYSDK_OFFSET(0x22F19D0)
-#define RPG_CLIENT_DATETIMEPRO_EQUALS_OFFSET UNITYSDK_OFFSET(0x18E1AE20)
-#define RPG_CLIENT_DATETIMEPRO_GETBEIJINGLITERALDATE_OFFSET UNITYSDK_OFFSET(0x22F10C0)
-#define RPG_CLIENT_DATETIMEPRO_GETBEIJINGSTARTOFDAY_OFFSET UNITYSDK_OFFSET(0x22F1230)
-#define RPG_CLIENT_DATETIMEPRO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22AADD0)
-#define RPG_CLIENT_DATETIMEPRO_GETLOCALLITERALDATE_OFFSET UNITYSDK_OFFSET(0x22F1030)
-#define RPG_CLIENT_DATETIMEPRO_GETSERVERLITERALDATE_OFFSET UNITYSDK_OFFSET(0x22F1090)
-#define RPG_CLIENT_DATETIMEPRO_GETSERVERSTARTOFDAY_OFFSET UNITYSDK_OFFSET(0x22F11C0)
-#define RPG_CLIENT_DATETIMEPRO_GETSERVERSTARTOFHOUR_OFFSET UNITYSDK_OFFSET(0x22F1310)
-#define RPG_CLIENT_DATETIMEPRO_GETSERVERSTARTOFMONTH_OFFSET UNITYSDK_OFFSET(0x22F1400)
-#define RPG_CLIENT_DATETIMEPRO_GETTIMESTAMPMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x22F0FD0)
-#define RPG_CLIENT_DATETIMEPRO_GETTIMESTAMPSECONDS_OFFSET UNITYSDK_OFFSET(0x22F0F60)
-#define RPG_CLIENT_DATETIMEPRO_GETUTCLITERALDATE_OFFSET UNITYSDK_OFFSET(0x22F1060)
-#define RPG_CLIENT_DATETIMEPRO_GETUTCSTARTOFDAY_OFFSET UNITYSDK_OFFSET(0x22F10F0)
-#define RPG_CLIENT_DATETIMEPRO_GET_MAXVALUE_OFFSET UNITYSDK_OFFSET(0x1A71D380)
-#define RPG_CLIENT_DATETIMEPRO_GET_MINVALUE_OFFSET UNITYSDK_OFFSET(0x1A71D410)
-#define RPG_CLIENT_DATETIMEPRO_GET__BEIJINGTIME_OFFSET UNITYSDK_OFFSET(0x23BFF50)
-#define RPG_CLIENT_DATETIMEPRO_GET__LOCALTIME_OFFSET UNITYSDK_OFFSET(0x23BFF40)
-#define RPG_CLIENT_DATETIMEPRO_GET__SERVERTIME_OFFSET UNITYSDK_OFFSET(0x23BFE80)
-#define RPG_CLIENT_DATETIMEPRO_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1A71C740)
-#define RPG_CLIENT_DATETIMEPRO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x18E1AE90)
-#define RPG_CLIENT_DATETIMEPRO_OP_GREATERTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x1A71C720)
-#define RPG_CLIENT_DATETIMEPRO_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x18E1AED0)
-#define RPG_CLIENT_DATETIMEPRO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x18E1AEA0)
-#define RPG_CLIENT_DATETIMEPRO_OP_LESSTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x18E1AEF0)
-#define RPG_CLIENT_DATETIMEPRO_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x18E1AEB0)
-#define RPG_CLIENT_DATETIMEPRO_OP_SUBTRACTION_1_OFFSET UNITYSDK_OFFSET(0x1A71C9C0)
-#define RPG_CLIENT_DATETIMEPRO_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1A71C8A0)
-#define RPG_CLIENT_DATETIMEPRO_PARSEBEIJINGTIME_OFFSET UNITYSDK_OFFSET(0x18E19E00)
-#define RPG_CLIENT_DATETIMEPRO_PARSESERVERTIME_OFFSET UNITYSDK_OFFSET(0x18E19C20)
-#define RPG_CLIENT_DATETIMEPRO_SUBTRACT_1_OFFSET UNITYSDK_OFFSET(0x23BFD20)
-#define RPG_CLIENT_DATETIMEPRO_SUBTRACT_OFFSET UNITYSDK_OFFSET(0x22AB070)
-#define RPG_CLIENT_DATETIMEPRO_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x23BFE50)
-#define RPG_CLIENT_DATETIMEPRO_TOSTRING_2_OFFSET UNITYSDK_OFFSET(0x23BFE60)
-#define RPG_CLIENT_DATETIMEPRO_TOSTRING_3_OFFSET UNITYSDK_OFFSET(0x23BFE70)
-#define RPG_CLIENT_DATETIMEPRO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x23BFE40)
-#define RPG_CLIENT_DATETIMEPRO_TRYPARSEBEIJINGTIME_OFFSET UNITYSDK_OFFSET(0x18E19E40)
-#define RPG_CLIENT_DATETIMEPRO_TRYPARSESERVERTIME_OFFSET UNITYSDK_OFFSET(0x18E19C60)
-#define RPG_CLIENT_DATETIMEPRO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A71D4A0)
-#define RPG_CLIENT_DATETIMEPRO__CREATEBYBEIJINGTIME_OFFSET UNITYSDK_OFFSET(0x1A71D230)
-#define RPG_CLIENT_DATETIMEPRO__CREATEBYLOCALTIME_OFFSET UNITYSDK_OFFSET(0x1A71D120)
-#define RPG_CLIENT_DATETIMEPRO__CREATEBYSERVERTIME_OFFSET UNITYSDK_OFFSET(0x1A71D040)
-#define RPG_CLIENT_DATETIMEPRO__CREATEBYUTCTIME_OFFSET UNITYSDK_OFFSET(0x1A71C830)
+#define RPG_CLIENT_DATETIMEPRO_ADDDAYS_OFFSET UNITYSDK_OFFSET(0x387A300)
+#define RPG_CLIENT_DATETIMEPRO_ADDHOURS_OFFSET UNITYSDK_OFFSET(0x387A3A0)
+#define RPG_CLIENT_DATETIMEPRO_ADDMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x387A580)
+#define RPG_CLIENT_DATETIMEPRO_ADDMINUTES_OFFSET UNITYSDK_OFFSET(0x387A440)
+#define RPG_CLIENT_DATETIMEPRO_ADDMONTHSINBEIJINGTIME_OFFSET UNITYSDK_OFFSET(0x387A700)
+#define RPG_CLIENT_DATETIMEPRO_ADDMONTHSINSERVERTIME_OFFSET UNITYSDK_OFFSET(0x387A620)
+#define RPG_CLIENT_DATETIMEPRO_ADDMONTHSINUTCTIME_OFFSET UNITYSDK_OFFSET(0x387A670)
+#define RPG_CLIENT_DATETIMEPRO_ADDSECONDS_OFFSET UNITYSDK_OFFSET(0x387A4E0)
+#define RPG_CLIENT_DATETIMEPRO_ADDTICKS_OFFSET UNITYSDK_OFFSET(0x387A210)
+#define RPG_CLIENT_DATETIMEPRO_ADD_OFFSET UNITYSDK_OFFSET(0x387A210)
+#define RPG_CLIENT_DATETIMEPRO_COMPARETO_OFFSET UNITYSDK_OFFSET(0x381FCE0)
+#define RPG_CLIENT_DATETIMEPRO_COMPARE_OFFSET UNITYSDK_OFFSET(0x192B20F0)
+#define RPG_CLIENT_DATETIMEPRO_CREATEBYBEIJINGTIME_OFFSET UNITYSDK_OFFSET(0x192B12E0)
+#define RPG_CLIENT_DATETIMEPRO_CREATEBYSERVERTIME_OFFSET UNITYSDK_OFFSET(0x192B1230)
+#define RPG_CLIENT_DATETIMEPRO_CREATEBYTIMESTAMPMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x192B0C80)
+#define RPG_CLIENT_DATETIMEPRO_CREATEBYTIMESTAMPSECONDS_OFFSET UNITYSDK_OFFSET(0x192B0A90)
+#define RPG_CLIENT_DATETIMEPRO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x381FD40)
+#define RPG_CLIENT_DATETIMEPRO_EQUALS_2_OFFSET UNITYSDK_OFFSET(0x387A7D0)
+#define RPG_CLIENT_DATETIMEPRO_EQUALS_OFFSET UNITYSDK_OFFSET(0x192B2150)
+#define RPG_CLIENT_DATETIMEPRO_GETBEIJINGLITERALDATE_OFFSET UNITYSDK_OFFSET(0x3879EC0)
+#define RPG_CLIENT_DATETIMEPRO_GETBEIJINGSTARTOFDAY_OFFSET UNITYSDK_OFFSET(0x387A030)
+#define RPG_CLIENT_DATETIMEPRO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x381FFF0)
+#define RPG_CLIENT_DATETIMEPRO_GETLOCALLITERALDATE_OFFSET UNITYSDK_OFFSET(0x3879E30)
+#define RPG_CLIENT_DATETIMEPRO_GETSERVERLITERALDATE_OFFSET UNITYSDK_OFFSET(0x3879E90)
+#define RPG_CLIENT_DATETIMEPRO_GETSERVERSTARTOFDAY_OFFSET UNITYSDK_OFFSET(0x3879FC0)
+#define RPG_CLIENT_DATETIMEPRO_GETSERVERSTARTOFHOUR_OFFSET UNITYSDK_OFFSET(0x387A110)
+#define RPG_CLIENT_DATETIMEPRO_GETSERVERSTARTOFMONTH_OFFSET UNITYSDK_OFFSET(0x387A200)
+#define RPG_CLIENT_DATETIMEPRO_GETTIMESTAMPMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x3879DD0)
+#define RPG_CLIENT_DATETIMEPRO_GETTIMESTAMPSECONDS_OFFSET UNITYSDK_OFFSET(0x3879D60)
+#define RPG_CLIENT_DATETIMEPRO_GETUTCLITERALDATE_OFFSET UNITYSDK_OFFSET(0x3879E60)
+#define RPG_CLIENT_DATETIMEPRO_GETUTCSTARTOFDAY_OFFSET UNITYSDK_OFFSET(0x3879EF0)
+#define RPG_CLIENT_DATETIMEPRO_GET_MAXVALUE_OFFSET UNITYSDK_OFFSET(0x1B54BAE0)
+#define RPG_CLIENT_DATETIMEPRO_GET_MINVALUE_OFFSET UNITYSDK_OFFSET(0x1B54BB70)
+#define RPG_CLIENT_DATETIMEPRO_GET__BEIJINGTIME_OFFSET UNITYSDK_OFFSET(0x3962BF0)
+#define RPG_CLIENT_DATETIMEPRO_GET__LOCALTIME_OFFSET UNITYSDK_OFFSET(0x3962BE0)
+#define RPG_CLIENT_DATETIMEPRO_GET__SERVERTIME_OFFSET UNITYSDK_OFFSET(0x3962B20)
+#define RPG_CLIENT_DATETIMEPRO_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1B54AEA0)
+#define RPG_CLIENT_DATETIMEPRO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x192B21C0)
+#define RPG_CLIENT_DATETIMEPRO_OP_GREATERTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x1B54AE80)
+#define RPG_CLIENT_DATETIMEPRO_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1B54AE40)
+#define RPG_CLIENT_DATETIMEPRO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x192B21D0)
+#define RPG_CLIENT_DATETIMEPRO_OP_LESSTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x1B54AE60)
+#define RPG_CLIENT_DATETIMEPRO_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x192B21E0)
+#define RPG_CLIENT_DATETIMEPRO_OP_SUBTRACTION_1_OFFSET UNITYSDK_OFFSET(0x1B54B120)
+#define RPG_CLIENT_DATETIMEPRO_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1B54B000)
+#define RPG_CLIENT_DATETIMEPRO_PARSEBEIJINGTIME_OFFSET UNITYSDK_OFFSET(0x192B1050)
+#define RPG_CLIENT_DATETIMEPRO_PARSESERVERTIME_OFFSET UNITYSDK_OFFSET(0x192B0E70)
+#define RPG_CLIENT_DATETIMEPRO_SUBTRACT_1_OFFSET UNITYSDK_OFFSET(0x39629C0)
+#define RPG_CLIENT_DATETIMEPRO_SUBTRACT_OFFSET UNITYSDK_OFFSET(0x38203B0)
+#define RPG_CLIENT_DATETIMEPRO_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x3962AF0)
+#define RPG_CLIENT_DATETIMEPRO_TOSTRING_2_OFFSET UNITYSDK_OFFSET(0x3962B00)
+#define RPG_CLIENT_DATETIMEPRO_TOSTRING_3_OFFSET UNITYSDK_OFFSET(0x3962B10)
+#define RPG_CLIENT_DATETIMEPRO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3962AE0)
+#define RPG_CLIENT_DATETIMEPRO_TRYPARSEBEIJINGTIME_OFFSET UNITYSDK_OFFSET(0x192B1090)
+#define RPG_CLIENT_DATETIMEPRO_TRYPARSESERVERTIME_OFFSET UNITYSDK_OFFSET(0x192B0EB0)
+#define RPG_CLIENT_DATETIMEPRO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B54BC00)
+#define RPG_CLIENT_DATETIMEPRO__CREATEBYBEIJINGTIME_OFFSET UNITYSDK_OFFSET(0x1B54B990)
+#define RPG_CLIENT_DATETIMEPRO__CREATEBYLOCALTIME_OFFSET UNITYSDK_OFFSET(0x1B54B880)
+#define RPG_CLIENT_DATETIMEPRO__CREATEBYSERVERTIME_OFFSET UNITYSDK_OFFSET(0x1B54B7A0)
+#define RPG_CLIENT_DATETIMEPRO__CREATEBYUTCTIME_OFFSET UNITYSDK_OFFSET(0x1B54AF90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DateTimePro_TypeDefinitionIndex = 9690;
+	inline static constexpr unsigned int DateTimePro_TypeDefinitionIndex = 33459;
 
 	struct alignas(8) DateTimePro
 	{
-		static ::System::DateTime* StaticGet__TimeStampEpoch()
-		{
-			return (::System::DateTime*)Il2CppClass::FromTypeDefinitionIndex(DateTimePro_TypeDefinitionIndex)->GetStaticField(0x610);
-		}
 		static ::System::Int32* StaticGet__BeijingTimeOffset()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimePro_TypeDefinitionIndex)->GetStaticField(0x618);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimePro_TypeDefinitionIndex)->GetStaticField(0x6B0);
+		}
+		static ::System::DateTime* StaticGet__TimeStampEpoch()
+		{
+			return (::System::DateTime*)Il2CppClass::FromTypeDefinitionIndex(DateTimePro_TypeDefinitionIndex)->GetStaticField(0x6B8);
 		}
 		// static const ::System::UInt64 _MAX_SAFE_SECONDS = 0xD6BF94D5E5; // 0x0
 		// static const ::System::UInt64 _MAX_SAFE_MILLISECONDS = 0x346DC5D638865; // 0x0
@@ -91,44 +91,44 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO__CCTOR_OFFSET))();
 		}
 
-		static ::RPG::Client::DateTimePro CreateByTimeStampSeconds(::System::UInt64 seconds)
+		static ::RPG::Client::DateTimePro CreateByTimeStampSeconds(::System::UInt64 a1)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_CREATEBYTIMESTAMPSECONDS_OFFSET))(seconds);
+			return ((::RPG::Client::DateTimePro(*)(::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_CREATEBYTIMESTAMPSECONDS_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::DateTimePro CreateByTimeStampMilliseconds(::System::UInt64 milliseconds)
+		static ::RPG::Client::DateTimePro CreateByTimeStampMilliseconds(::System::UInt64 a1)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_CREATEBYTIMESTAMPMILLISECONDS_OFFSET))(milliseconds);
+			return ((::RPG::Client::DateTimePro(*)(::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_CREATEBYTIMESTAMPMILLISECONDS_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::DateTimePro ParseServerTime(::System::String* serverTime)
+		static ::RPG::Client::DateTimePro ParseServerTime(::System::String* a1)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_PARSESERVERTIME_OFFSET))(serverTime);
+			return ((::RPG::Client::DateTimePro(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_PARSESERVERTIME_OFFSET))(a1);
 		}
 
-		static ::System::Boolean TryParseServerTime(::System::String* serverTime, ::RPG::Client::DateTimePro& result)
+		static ::System::Boolean TryParseServerTime(::System::String* a1, ::RPG::Client::DateTimePro& a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::RPG::Client::DateTimePro&))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_TRYPARSESERVERTIME_OFFSET))(serverTime, result);
+			return ((::System::Boolean(*)(::System::String*, ::RPG::Client::DateTimePro&))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_TRYPARSESERVERTIME_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::DateTimePro ParseBeijingTime(::System::String* beijingTime)
+		static ::RPG::Client::DateTimePro ParseBeijingTime(::System::String* a1)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_PARSEBEIJINGTIME_OFFSET))(beijingTime);
+			return ((::RPG::Client::DateTimePro(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_PARSEBEIJINGTIME_OFFSET))(a1);
 		}
 
-		static ::System::Boolean TryParseBeijingTime(::System::String* beijingTime, ::RPG::Client::DateTimePro& result)
+		static ::System::Boolean TryParseBeijingTime(::System::String* a1, ::RPG::Client::DateTimePro& a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::RPG::Client::DateTimePro&))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_TRYPARSEBEIJINGTIME_OFFSET))(beijingTime, result);
+			return ((::System::Boolean(*)(::System::String*, ::RPG::Client::DateTimePro&))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_TRYPARSEBEIJINGTIME_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::DateTimePro CreateByServerTime(::System::Int32 year, ::System::Int32 month, ::System::Int32 day, ::System::Int32 hour, ::System::Int32 minute, ::System::Int32 second)
+		static ::RPG::Client::DateTimePro CreateByServerTime(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_CREATEBYSERVERTIME_OFFSET))(year, month, day, hour, minute, second);
+			return ((::RPG::Client::DateTimePro(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_CREATEBYSERVERTIME_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::RPG::Client::DateTimePro CreateByBeijingTime(::System::Int32 year, ::System::Int32 month, ::System::Int32 day, ::System::Int32 hour, ::System::Int32 minute, ::System::Int32 second)
+		static ::RPG::Client::DateTimePro CreateByBeijingTime(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_CREATEBYBEIJINGTIME_OFFSET))(year, month, day, hour, minute, second);
+			return ((::RPG::Client::DateTimePro(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_CREATEBYBEIJINGTIME_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Int64 GetTimeStampSeconds()
@@ -195,80 +195,80 @@ namespace RPG::Client
 		}
 
 		/*
-		::RPG::Client::DateTimePro Add(::System::TimeSpan value)
+		::RPG::Client::DateTimePro Add(::System::TimeSpan a1)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_ADD_OFFSET))(this, value);
+			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_ADD_OFFSET))(this, a1);
 		}
 		*/
 
-		::RPG::Client::DateTimePro AddDays(::System::Double value)
+		::RPG::Client::DateTimePro AddDays(::System::Double a1)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_ADDDAYS_OFFSET))(this, value);
+			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_ADDDAYS_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::DateTimePro AddHours(::System::Double value)
+		::RPG::Client::DateTimePro AddHours(::System::Double a1)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_ADDHOURS_OFFSET))(this, value);
+			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_ADDHOURS_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::DateTimePro AddMinutes(::System::Double value)
+		::RPG::Client::DateTimePro AddMinutes(::System::Double a1)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_ADDMINUTES_OFFSET))(this, value);
+			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_ADDMINUTES_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::DateTimePro AddSeconds(::System::Double value)
+		::RPG::Client::DateTimePro AddSeconds(::System::Double a1)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_ADDSECONDS_OFFSET))(this, value);
+			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_ADDSECONDS_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::DateTimePro AddMilliseconds(::System::Double value)
+		::RPG::Client::DateTimePro AddMilliseconds(::System::Double a1)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_ADDMILLISECONDS_OFFSET))(this, value);
+			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_ADDMILLISECONDS_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::DateTimePro AddTicks(::System::Int64 value)
+		::RPG::Client::DateTimePro AddTicks(::System::Int64 a1)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_ADDTICKS_OFFSET))(this, value);
+			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_ADDTICKS_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::DateTimePro AddMonthsInServerTime(::System::Int32 months)
+		::RPG::Client::DateTimePro AddMonthsInServerTime(::System::Int32 a1)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_ADDMONTHSINSERVERTIME_OFFSET))(this, months);
+			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_ADDMONTHSINSERVERTIME_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::DateTimePro AddMonthsInUtcTime(::System::Int32 months)
+		::RPG::Client::DateTimePro AddMonthsInUtcTime(::System::Int32 a1)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_ADDMONTHSINUTCTIME_OFFSET))(this, months);
+			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_ADDMONTHSINUTCTIME_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::DateTimePro AddMonthsInBeijingTime(::System::Int32 months)
+		::RPG::Client::DateTimePro AddMonthsInBeijingTime(::System::Int32 a1)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_ADDMONTHSINBEIJINGTIME_OFFSET))(this, months);
+			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_ADDMONTHSINBEIJINGTIME_OFFSET))(this, a1);
 		}
 
-		static ::System::Int32 Compare(::RPG::Client::DateTimePro first, ::RPG::Client::DateTimePro second)
+		static ::System::Int32 Compare(::RPG::Client::DateTimePro a1, ::RPG::Client::DateTimePro a2)
 		{
-			return ((::System::Int32(*)(::RPG::Client::DateTimePro, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_COMPARE_OFFSET))(first, second);
+			return ((::System::Int32(*)(::RPG::Client::DateTimePro, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_COMPARE_OFFSET))(a1, a2);
 		}
 
-		::System::Int32 CompareTo(::RPG::Client::DateTimePro other)
+		::System::Int32 CompareTo(::RPG::Client::DateTimePro a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_COMPARETO_OFFSET))(this, other);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_COMPARETO_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean Equals(::RPG::Client::DateTimePro first, ::RPG::Client::DateTimePro second)
+		static ::System::Boolean Equals(::RPG::Client::DateTimePro a1, ::RPG::Client::DateTimePro a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::DateTimePro, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_EQUALS_OFFSET))(first, second);
+			return ((::System::Boolean(*)(::RPG::Client::DateTimePro, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_EQUALS_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean Equals_1(::RPG::Client::DateTimePro other)
+		::System::Boolean Equals_1(::RPG::Client::DateTimePro a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_EQUALS_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_2(::System::Object* obj)
+		::System::Boolean Equals_2(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_EQUALS_2_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_EQUALS_2_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -276,68 +276,68 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_GETHASHCODE_OFFSET))(this);
 		}
 
-		static ::System::Boolean op_Equality(::RPG::Client::DateTimePro left, ::RPG::Client::DateTimePro right)
+		static ::System::Boolean op_Equality(::RPG::Client::DateTimePro a1, ::RPG::Client::DateTimePro a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::DateTimePro, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_OP_EQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::RPG::Client::DateTimePro, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::RPG::Client::DateTimePro left, ::RPG::Client::DateTimePro right)
+		static ::System::Boolean op_Inequality(::RPG::Client::DateTimePro a1, ::RPG::Client::DateTimePro a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::DateTimePro, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_OP_INEQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::RPG::Client::DateTimePro, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_LessThan(::RPG::Client::DateTimePro left, ::RPG::Client::DateTimePro right)
+		static ::System::Boolean op_LessThan(::RPG::Client::DateTimePro a1, ::RPG::Client::DateTimePro a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::DateTimePro, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_OP_LESSTHAN_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::RPG::Client::DateTimePro, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_OP_LESSTHAN_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_GreaterThan(::RPG::Client::DateTimePro left, ::RPG::Client::DateTimePro right)
+		static ::System::Boolean op_GreaterThan(::RPG::Client::DateTimePro a1, ::RPG::Client::DateTimePro a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::DateTimePro, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_OP_GREATERTHAN_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::RPG::Client::DateTimePro, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_OP_GREATERTHAN_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_LessThanOrEqual(::RPG::Client::DateTimePro left, ::RPG::Client::DateTimePro right)
+		static ::System::Boolean op_LessThanOrEqual(::RPG::Client::DateTimePro a1, ::RPG::Client::DateTimePro a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::DateTimePro, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_OP_LESSTHANOREQUAL_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::RPG::Client::DateTimePro, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_OP_LESSTHANOREQUAL_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_GreaterThanOrEqual(::RPG::Client::DateTimePro left, ::RPG::Client::DateTimePro right)
+		static ::System::Boolean op_GreaterThanOrEqual(::RPG::Client::DateTimePro a1, ::RPG::Client::DateTimePro a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::DateTimePro, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_OP_GREATERTHANOREQUAL_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::RPG::Client::DateTimePro, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_OP_GREATERTHANOREQUAL_OFFSET))(a1, a2);
 		}
 
 		/*
-		static ::RPG::Client::DateTimePro op_Addition(::RPG::Client::DateTimePro d, ::System::TimeSpan t)
+		static ::RPG::Client::DateTimePro op_Addition(::RPG::Client::DateTimePro a1, ::System::TimeSpan a2)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::RPG::Client::DateTimePro, ::System::TimeSpan))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_OP_ADDITION_OFFSET))(d, t);
+			return ((::RPG::Client::DateTimePro(*)(::RPG::Client::DateTimePro, ::System::TimeSpan))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_OP_ADDITION_OFFSET))(a1, a2);
 		}
 		*/
 
 		/*
-		static ::RPG::Client::DateTimePro op_Subtraction(::RPG::Client::DateTimePro d, ::System::TimeSpan t)
+		static ::RPG::Client::DateTimePro op_Subtraction(::RPG::Client::DateTimePro a1, ::System::TimeSpan a2)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::RPG::Client::DateTimePro, ::System::TimeSpan))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_OP_SUBTRACTION_OFFSET))(d, t);
+			return ((::RPG::Client::DateTimePro(*)(::RPG::Client::DateTimePro, ::System::TimeSpan))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_OP_SUBTRACTION_OFFSET))(a1, a2);
 		}
 		*/
 
 		/*
-		static ::System::TimeSpan op_Subtraction_1(::RPG::Client::DateTimePro left, ::RPG::Client::DateTimePro right)
+		static ::System::TimeSpan op_Subtraction_1(::RPG::Client::DateTimePro a1, ::RPG::Client::DateTimePro a2)
 		{
-			return ((::System::TimeSpan(*)(::RPG::Client::DateTimePro, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_OP_SUBTRACTION_1_OFFSET))(left, right);
+			return ((::System::TimeSpan(*)(::RPG::Client::DateTimePro, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_OP_SUBTRACTION_1_OFFSET))(a1, a2);
 		}
 		*/
 
 		/*
-		::System::TimeSpan Subtract(::RPG::Client::DateTimePro value)
+		::System::TimeSpan Subtract(::RPG::Client::DateTimePro a1)
 		{
-			return ((::System::TimeSpan(*)(::PVOID, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_SUBTRACT_OFFSET))(this, value);
+			return ((::System::TimeSpan(*)(::PVOID, ::RPG::Client::DateTimePro))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_SUBTRACT_OFFSET))(this, a1);
 		}
 		*/
 
 		/*
-		::RPG::Client::DateTimePro Subtract_1(::System::TimeSpan value)
+		::RPG::Client::DateTimePro Subtract_1(::System::TimeSpan a1)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_SUBTRACT_1_OFFSET))(this, value);
+			return ((::RPG::Client::DateTimePro(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_SUBTRACT_1_OFFSET))(this, a1);
 		}
 		*/
 
@@ -346,39 +346,39 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_TOSTRING_OFFSET))(this);
 		}
 
-		::System::String* ToString_1(::System::String* format)
+		::System::String* ToString_1(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_TOSTRING_1_OFFSET))(this, format);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_TOSTRING_1_OFFSET))(this, a1);
 		}
 
-		::System::String* ToString_2(::System::IFormatProvider* provider)
+		::System::String* ToString_2(::System::IFormatProvider* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_TOSTRING_2_OFFSET))(this, provider);
+			return ((::System::String*(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_TOSTRING_2_OFFSET))(this, a1);
 		}
 
-		::System::String* ToString_3(::System::String* format, ::System::IFormatProvider* provider)
+		::System::String* ToString_3(::System::String* a1, ::System::IFormatProvider* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_TOSTRING_3_OFFSET))(this, format, provider);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO_TOSTRING_3_OFFSET))(this, a1, a2);
 		}
 
-		static ::RPG::Client::DateTimePro _CreateByServerTime(::System::DateTime dateTime)
+		static ::RPG::Client::DateTimePro _CreateByServerTime(::System::DateTime a1)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::System::DateTime))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO__CREATEBYSERVERTIME_OFFSET))(dateTime);
+			return ((::RPG::Client::DateTimePro(*)(::System::DateTime))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO__CREATEBYSERVERTIME_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::DateTimePro _CreateByLocalTime(::System::DateTime dateTime)
+		static ::RPG::Client::DateTimePro _CreateByLocalTime(::System::DateTime a1)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::System::DateTime))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO__CREATEBYLOCALTIME_OFFSET))(dateTime);
+			return ((::RPG::Client::DateTimePro(*)(::System::DateTime))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO__CREATEBYLOCALTIME_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::DateTimePro _CreateByUtcTime(::System::DateTime dateTime)
+		static ::RPG::Client::DateTimePro _CreateByUtcTime(::System::DateTime a1)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::System::DateTime))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO__CREATEBYUTCTIME_OFFSET))(dateTime);
+			return ((::RPG::Client::DateTimePro(*)(::System::DateTime))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO__CREATEBYUTCTIME_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::DateTimePro _CreateByBeijingTime(::System::DateTime dateTime)
+		static ::RPG::Client::DateTimePro _CreateByBeijingTime(::System::DateTime a1)
 		{
-			return ((::RPG::Client::DateTimePro(*)(::System::DateTime))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO__CREATEBYBEIJINGTIME_OFFSET))(dateTime);
+			return ((::RPG::Client::DateTimePro(*)(::System::DateTime))((::PBYTE)hIl2Cpp + RPG_CLIENT_DATETIMEPRO__CREATEBYBEIJINGTIME_OFFSET))(a1);
 		}
 
 		::System::DateTime get__ServerTime()

@@ -9,19 +9,19 @@ namespace RPG::GameCore { class ST_Side_OverrideStandByStance; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_3_D51065E8829795C2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10F7F680)
-#define CLASS_3_D51065E8829795C2_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x10F7F7C0)
-#define CLASS_3_D51065E8829795C2__CCTOR_OFFSET UNITYSDK_OFFSET(0x10F7F850)
-#define CLASS_3_D51065E8829795C2__CTOR_OFFSET UNITYSDK_OFFSET(0x10F7F620)
+#define CLASS_3_D51065E8829795C2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1588BCD0)
+#define CLASS_3_D51065E8829795C2_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1588BE10)
+#define CLASS_3_D51065E8829795C2__CCTOR_OFFSET UNITYSDK_OFFSET(0x1588BEA0)
+#define CLASS_3_D51065E8829795C2__CTOR_OFFSET UNITYSDK_OFFSET(0x1588BC70)
 
-inline static constexpr unsigned int Class_3_D51065E8829795C2_TypeDefinitionIndex = 48227;
+inline static constexpr unsigned int Class_3_D51065E8829795C2_TypeDefinitionIndex = 48851;
 
 class Class_3_D51065E8829795C2 : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Side_OverrideStandByStance*>
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StandByStance, ::RPG::GameCore::CharacterAlertLevel>** StaticGet_Field_3_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StandByStance, ::RPG::GameCore::CharacterAlertLevel>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_D51065E8829795C2_TypeDefinitionIndex)->GetStaticField(0x60A00);
+		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StandByStance, ::RPG::GameCore::CharacterAlertLevel>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_D51065E8829795C2_TypeDefinitionIndex)->GetStaticField(0x27A0);
 	}
 	::RPG::GameCore::AdventureCharacterController* Field_3_1; // 0x28
 

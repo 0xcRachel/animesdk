@@ -4,10 +4,10 @@
 
 namespace RPG { template <typename T> class PoolList_1; }
 
-#define CLASS_1_FFAEB1CB334EA88D___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17A73B50)
-#define CLASS_1_FFAEB1CB334EA88D___C__DISPLAYCLASS20_0___PICKPIECEFROMLIBRARY_B__0_OFFSET UNITYSDK_OFFSET(0x17A74AB0)
+#define CLASS_1_FFAEB1CB334EA88D___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18607C40)
+#define CLASS_1_FFAEB1CB334EA88D___C__DISPLAYCLASS20_0___PICKPIECEFROMLIBRARY_B__0_OFFSET UNITYSDK_OFFSET(0x186089C0)
 
-inline static constexpr unsigned int Class_1_FFAEB1CB334EA88D___c__DisplayClass20_0_TypeDefinitionIndex = 38563;
+inline static constexpr unsigned int Class_1_FFAEB1CB334EA88D___c__DisplayClass20_0_TypeDefinitionIndex = 39330;
 
 class Class_1_FFAEB1CB334EA88D___c__DisplayClass20_0 : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FFAEB1CB334EA88D___C__DISPLAYCLASS20_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean __PickPieceFromLibrary_b__0(::System::UInt32 elem)
+	::System::Boolean __PickPieceFromLibrary_b__0(::System::UInt32 a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_FFAEB1CB334EA88D___C__DISPLAYCLASS20_0___PICKPIECEFROMLIBRARY_B__0_OFFSET))(this, elem);
+		return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_FFAEB1CB334EA88D___C__DISPLAYCLASS20_0___PICKPIECEFROMLIBRARY_B__0_OFFSET))(this, a1);
 	}
 };

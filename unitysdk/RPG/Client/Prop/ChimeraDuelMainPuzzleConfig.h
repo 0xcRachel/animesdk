@@ -6,11 +6,11 @@ namespace RPG::Client::Prop { class ChimeraDuelMainPuzzleConfig_StateEntry; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15829C60)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x166E5230)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelMainPuzzleConfig_TypeDefinitionIndex = 71800;
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleConfig_TypeDefinitionIndex = 72822;
 
 	class ChimeraDuelMainPuzzleConfig : public ::System::Object
 	{

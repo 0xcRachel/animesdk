@@ -5,22 +5,22 @@
 namespace System { class String; }
 namespace TapTap::Sdk { class AccessToken; }
 
-#define MIHOYO_SDK_WIN_TAPTAPTOKEN_ISVALID_OFFSET UNITYSDK_OFFSET(0x15D2B480)
-#define MIHOYO_SDK_WIN_TAPTAPTOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x15D2AEF0)
+#define MIHOYO_SDK_WIN_TAPTAPTOKEN_ISVALID_OFFSET UNITYSDK_OFFSET(0x16B3F240)
+#define MIHOYO_SDK_WIN_TAPTAPTOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x16B3EFB0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int TapTapToken_TypeDefinitionIndex = 8126;
+	inline static constexpr unsigned int TapTapToken_TypeDefinitionIndex = 9029;
 
 	class TapTapToken : public ::System::Object
 	{
 	public:
-		::System::String* MacKey; // 0x10
-		::System::String* Kid; // 0x18
+		::System::String* Kid; // 0x10
+		::System::String* MacKey; // 0x18
 
-		::System::Void _ctor(::TapTap::Sdk::AccessToken* accessToken)
+		::System::Void _ctor(::TapTap::Sdk::AccessToken* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::TapTap::Sdk::AccessToken*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_TAPTAPTOKEN__CTOR_OFFSET))(this, accessToken);
+			return ((::System::Void(*)(::PVOID, ::TapTap::Sdk::AccessToken*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_TAPTAPTOKEN__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsValid()

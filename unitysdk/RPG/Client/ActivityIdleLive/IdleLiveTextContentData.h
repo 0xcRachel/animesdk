@@ -5,23 +5,23 @@
 
 namespace RPG::GameCore { class IdleLiveChatContentRow; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x17308010)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x17307FF0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0x17308000)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x173080C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x18649CA0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x18649C80)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0x18649C90)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18649D50)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveTextContentData_TypeDefinitionIndex = 69412;
+	inline static constexpr unsigned int IdleLiveTextContentData_TypeDefinitionIndex = 70224;
 
 	class IdleLiveTextContentData : public ::RPG::Client::ActivityIdleLive::IdleLiveDanmuContentData
 	{
 	public:
 		::RPG::Client::TextID _Content_k__BackingField; // 0x18
 
-		::System::Void _ctor(::RPG::GameCore::IdleLiveChatContentRow* row)
+		::System::Void _ctor(::RPG::GameCore::IdleLiveChatContentRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IdleLiveChatContentRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA__CTOR_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IdleLiveChatContentRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_Content()
@@ -29,14 +29,14 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_GET_CONTENT_OFFSET))(this);
 		}
 
-		::System::Void set_Content(::RPG::Client::TextID value)
+		::System::Void set_Content(::RPG::Client::TextID a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_SET_CONTENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_SET_CONTENT_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::ActivityIdleLive::IdleLiveTextContentData* Create(::System::UInt32 chatContentId)
+		static ::RPG::Client::ActivityIdleLive::IdleLiveTextContentData* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ActivityIdleLive::IdleLiveTextContentData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_CREATE_OFFSET))(chatContentId);
+			return ((::RPG::Client::ActivityIdleLive::IdleLiveTextContentData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_CREATE_OFFSET))(a1);
 		}
 	};
 }

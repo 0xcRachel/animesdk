@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_ABILITYTRIGGERLIMBO_CLEAR_OFFSET UNITYSDK_OFFSET(0xB1F5DA0)
-#define RPG_GAMECORE_ABILITYTRIGGERLIMBO_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB1F5E30)
-#define RPG_GAMECORE_ABILITYTRIGGERLIMBO_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB1F5DF0)
-#define RPG_GAMECORE_ABILITYTRIGGERLIMBO_INIT_OFFSET UNITYSDK_OFFSET(0xB1C2780)
-#define RPG_GAMECORE_ABILITYTRIGGERLIMBO__CTOR_OFFSET UNITYSDK_OFFSET(0xB1F5E80)
-#define RPG_GAMECORE_ABILITYTRIGGERLIMBO___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xB1F5E90)
+#define RPG_GAMECORE_ABILITYTRIGGERLIMBO_CLEAR_OFFSET UNITYSDK_OFFSET(0x12948050)
+#define RPG_GAMECORE_ABILITYTRIGGERLIMBO_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x129480E0)
+#define RPG_GAMECORE_ABILITYTRIGGERLIMBO_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x129480A0)
+#define RPG_GAMECORE_ABILITYTRIGGERLIMBO_INIT_OFFSET UNITYSDK_OFFSET(0x12947FF0)
+#define RPG_GAMECORE_ABILITYTRIGGERLIMBO__CTOR_OFFSET UNITYSDK_OFFSET(0x12948130)
+#define RPG_GAMECORE_ABILITYTRIGGERLIMBO___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x12948140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityTriggerLimbo_TypeDefinitionIndex = 52129;
+	inline static constexpr unsigned int AbilityTriggerLimbo_TypeDefinitionIndex = 52826;
 
-	class AbilityTriggerLimbo : public ::Class_1_9988289E7F8AA214
+	class AbilityTriggerLimbo : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::RPG::GameCore::GameEntity* TargetEntity; // 0x18
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYTRIGGERLIMBO__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::AbilityTriggerLimbo* Init(::System::UInt32 nSourceRuntimeID, ::RPG::GameCore::GameEntity* pTarget)
+		::RPG::GameCore::AbilityTriggerLimbo* Init(::System::UInt32 a1, ::RPG::GameCore::GameEntity* a2)
 		{
-			return ((::RPG::GameCore::AbilityTriggerLimbo*(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYTRIGGERLIMBO_INIT_OFFSET))(this, nSourceRuntimeID, pTarget);
+			return ((::RPG::GameCore::AbilityTriggerLimbo*(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYTRIGGERLIMBO_INIT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Clear()

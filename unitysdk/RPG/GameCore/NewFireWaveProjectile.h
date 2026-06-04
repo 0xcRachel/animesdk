@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class NewProjectileConfig; }
 
-#define RPG_GAMECORE_NEWFIREWAVEPROJECTILE_METHOD_4_6D4D8A1A87D27E37_OFFSET UNITYSDK_OFFSET(0x1864D4B0)
-#define RPG_GAMECORE_NEWFIREWAVEPROJECTILE_METHOD_4_BB3C63466CF8776B_OFFSET UNITYSDK_OFFSET(0x1864D420)
-#define RPG_GAMECORE_NEWFIREWAVEPROJECTILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1864D480)
+#define RPG_GAMECORE_NEWFIREWAVEPROJECTILE_METHOD_4_D032BA428DBA3686_OFFSET UNITYSDK_OFFSET(0x19105D20)
+#define RPG_GAMECORE_NEWFIREWAVEPROJECTILE_METHOD_4_F90B41F5A575862C_OFFSET UNITYSDK_OFFSET(0x19105DB0)
+#define RPG_GAMECORE_NEWFIREWAVEPROJECTILE__CTOR_OFFSET UNITYSDK_OFFSET(0x19105D80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NewFireWaveProjectile_TypeDefinitionIndex = 21469;
+	inline static constexpr unsigned int NewFireWaveProjectile_TypeDefinitionIndex = 21351;
 
 	class NewFireWaveProjectile : public ::RPG::GameCore::FireWaveProjectileBase
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NEWFIREWAVEPROJECTILE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_BB3C63466CF8776B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NewFireWaveProjectile*& a2)
+		static ::System::Void Method_4_D032BA428DBA3686(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NewFireWaveProjectile*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NewFireWaveProjectile*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NEWFIREWAVEPROJECTILE_METHOD_4_BB3C63466CF8776B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NewFireWaveProjectile*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NEWFIREWAVEPROJECTILE_METHOD_4_D032BA428DBA3686_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_6D4D8A1A87D27E37(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NewFireWaveProjectile* a2)
+		static ::System::Void Method_4_F90B41F5A575862C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NewFireWaveProjectile* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NewFireWaveProjectile*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NEWFIREWAVEPROJECTILE_METHOD_4_6D4D8A1A87D27E37_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NewFireWaveProjectile*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NEWFIREWAVEPROJECTILE_METHOD_4_F90B41F5A575862C_OFFSET))(a1, a2);
 		}
 	};
 }

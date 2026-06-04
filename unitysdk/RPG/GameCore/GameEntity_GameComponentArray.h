@@ -4,15 +4,15 @@
 
 namespace RPG::GameCore { class GameComponentBase; }
 
-#define RPG_GAMECORE_GAMEENTITY_GAMECOMPONENTARRAY_CLEAR_OFFSET UNITYSDK_OFFSET(0xFE4C5D0)
-#define RPG_GAMECORE_GAMEENTITY_GAMECOMPONENTARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xFE4C6B0)
-#define RPG_GAMECORE_GAMEENTITY_GAMECOMPONENTARRAY_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0xFE4C660)
-#define RPG_GAMECORE_GAMEENTITY_GAMECOMPONENTARRAY_SET_ITEM_OFFSET UNITYSDK_OFFSET(0xFE4C720)
-#define RPG_GAMECORE_GAMEENTITY_GAMECOMPONENTARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0xFE4C7F0)
+#define RPG_GAMECORE_GAMEENTITY_GAMECOMPONENTARRAY_CLEAR_OFFSET UNITYSDK_OFFSET(0x136FD650)
+#define RPG_GAMECORE_GAMEENTITY_GAMECOMPONENTARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x136FD720)
+#define RPG_GAMECORE_GAMEENTITY_GAMECOMPONENTARRAY_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x136FD6D0)
+#define RPG_GAMECORE_GAMEENTITY_GAMECOMPONENTARRAY_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x136FD790)
+#define RPG_GAMECORE_GAMEENTITY_GAMECOMPONENTARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x136FD840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameEntity_GameComponentArray_TypeDefinitionIndex = 49338;
+	inline static constexpr unsigned int GameEntity_GameComponentArray_TypeDefinitionIndex = 50005;
 
 	class GameEntity_GameComponentArray : public ::System::Object
 	{
@@ -34,14 +34,14 @@ namespace RPG::GameCore
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITY_GAMECOMPONENTARRAY_GET_LENGTH_OFFSET))(this);
 		}
 
-		::RPG::GameCore::GameComponentBase* get_Item(::System::Int32 index)
+		::RPG::GameCore::GameComponentBase* get_Item(::System::Int32 a1)
 		{
-			return ((::RPG::GameCore::GameComponentBase*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITY_GAMECOMPONENTARRAY_GET_ITEM_OFFSET))(this, index);
+			return ((::RPG::GameCore::GameComponentBase*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITY_GAMECOMPONENTARRAY_GET_ITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Item(::System::Int32 index, ::RPG::GameCore::GameComponentBase* value)
+		::System::Void set_Item(::System::Int32 a1, ::RPG::GameCore::GameComponentBase* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::GameCore::GameComponentBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITY_GAMECOMPONENTARRAY_SET_ITEM_OFFSET))(this, index, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::GameCore::GameComponentBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITY_GAMECOMPONENTARRAY_SET_ITEM_OFFSET))(this, a1, a2);
 		}
 	};
 }

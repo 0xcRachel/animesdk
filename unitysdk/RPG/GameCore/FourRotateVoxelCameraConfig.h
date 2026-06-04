@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimCameraFollowConfig; }
 namespace RPG::GameCore { class FiveDimCameraLensConfig; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELCAMERACONFIG_METHOD_2_78CD1F0AA49FDD0A_OFFSET UNITYSDK_OFFSET(0x18B6EAF0)
-#define RPG_GAMECORE_FOURROTATEVOXELCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18B6EBD0)
+#define RPG_GAMECORE_FOURROTATEVOXELCAMERACONFIG_METHOD_2_78CD1F0AA49FDD0A_OFFSET UNITYSDK_OFFSET(0x1A3B5620)
+#define RPG_GAMECORE_FOURROTATEVOXELCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3B5700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelCameraConfig_TypeDefinitionIndex = 15856;
+	inline static constexpr unsigned int FourRotateVoxelCameraConfig_TypeDefinitionIndex = 15910;
 
 	class FourRotateVoxelCameraConfig : public ::RPG::GameCore::JsonConfig
 	{

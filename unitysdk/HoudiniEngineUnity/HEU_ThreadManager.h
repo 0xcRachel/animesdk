@@ -5,30 +5,30 @@
 namespace HoudiniEngineUnity { class HEU_ThreadedTask; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_ADDTASK_OFFSET UNITYSDK_OFFSET(0x17DF2D00)
-#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x17DF2810)
-#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x17DF2820)
-#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x17DF27D0)
-#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x17DF2840)
-#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_REMOVETASK_OFFSET UNITYSDK_OFFSET(0x17DF2DA0)
-#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x17DF2830)
-#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x17DF2850)
-#define HOUDINIENGINEUNITY_HEU_THREADMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x17DF2E40)
+#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_ADDTASK_OFFSET UNITYSDK_OFFSET(0x1830C270)
+#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1830BD10)
+#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1830BD20)
+#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1830BD00)
+#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1830BD40)
+#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_REMOVETASK_OFFSET UNITYSDK_OFFSET(0x1830C460)
+#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1830BD30)
+#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1830BD50)
+#define HOUDINIENGINEUNITY_HEU_THREADMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1830C650)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ThreadManager_TypeDefinitionIndex = 43666;
+	inline static constexpr unsigned int HEU_ThreadManager_TypeDefinitionIndex = 37642;
 
 	class HEU_ThreadManager : public ::System::Object
 	{
 	public:
 		static ::HoudiniEngineUnity::HEU_ThreadManager** StaticGet__instance()
 		{
-			return (::HoudiniEngineUnity::HEU_ThreadManager**)Il2CppClass::FromTypeDefinitionIndex(HEU_ThreadManager_TypeDefinitionIndex)->GetStaticField(0x3E270);
+			return (::HoudiniEngineUnity::HEU_ThreadManager**)Il2CppClass::FromTypeDefinitionIndex(HEU_ThreadManager_TypeDefinitionIndex)->GetStaticField(0x10A00);
 		}
-		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* _pendingRemove; // 0x10
-		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* _tasks; // 0x18
-		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* _pendingAdd; // 0x20
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* _tasks; // 0x10
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* _pendingAdd; // 0x18
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* _pendingRemove; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -65,14 +65,14 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADMANAGER_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void AddTask(::HoudiniEngineUnity::HEU_ThreadedTask* task)
+		::System::Void AddTask(::HoudiniEngineUnity::HEU_ThreadedTask* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_ThreadedTask*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADMANAGER_ADDTASK_OFFSET))(this, task);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_ThreadedTask*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADMANAGER_ADDTASK_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveTask(::HoudiniEngineUnity::HEU_ThreadedTask* task)
+		::System::Void RemoveTask(::HoudiniEngineUnity::HEU_ThreadedTask* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_ThreadedTask*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADMANAGER_REMOVETASK_OFFSET))(this, task);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_ThreadedTask*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADMANAGER_REMOVETASK_OFFSET))(this, a1);
 		}
 	};
 }

@@ -10,24 +10,24 @@
 namespace System { class String; }
 namespace UnityEngine::UIElements { template <typename T> class IStyleValue_1; }
 
-#define UNITYENGINE_UIELEMENTS_STYLEVALUEEXTENSIONS_TOSTYLEFLOAT_OFFSET UNITYSDK_OFFSET(0x1922EF60)
-#define UNITYENGINE_UIELEMENTS_STYLEVALUEEXTENSIONS_TOSTYLELENGTH_OFFSET UNITYSDK_OFFSET(0x1922EF40)
+#define UNITYENGINE_UIELEMENTS_STYLEVALUEEXTENSIONS_TOSTYLEFLOAT_OFFSET UNITYSDK_OFFSET(0x19F97BD0)
+#define UNITYENGINE_UIELEMENTS_STYLEVALUEEXTENSIONS_TOSTYLELENGTH_OFFSET UNITYSDK_OFFSET(0x19F97BB0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleValueExtensions_TypeDefinitionIndex = 5984;
+	inline static constexpr unsigned int StyleValueExtensions_TypeDefinitionIndex = 6261;
 
 	class StyleValueExtensions : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::UIElements::StyleLength ToStyleLength(::UnityEngine::UIElements::StyleSheets::StyleValue styleValue)
+		static ::UnityEngine::UIElements::StyleLength ToStyleLength(::UnityEngine::UIElements::StyleSheets::StyleValue a1)
 		{
-			return ((::UnityEngine::UIElements::StyleLength(*)(::UnityEngine::UIElements::StyleSheets::StyleValue))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEVALUEEXTENSIONS_TOSTYLELENGTH_OFFSET))(styleValue);
+			return ((::UnityEngine::UIElements::StyleLength(*)(::UnityEngine::UIElements::StyleSheets::StyleValue))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEVALUEEXTENSIONS_TOSTYLELENGTH_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::UIElements::StyleFloat ToStyleFloat(::UnityEngine::UIElements::StyleSheets::StyleValue styleValue)
+		static ::UnityEngine::UIElements::StyleFloat ToStyleFloat(::UnityEngine::UIElements::StyleSheets::StyleValue a1)
 		{
-			return ((::UnityEngine::UIElements::StyleFloat(*)(::UnityEngine::UIElements::StyleSheets::StyleValue))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEVALUEEXTENSIONS_TOSTYLEFLOAT_OFFSET))(styleValue);
+			return ((::UnityEngine::UIElements::StyleFloat(*)(::UnityEngine::UIElements::StyleSheets::StyleValue))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEVALUEEXTENSIONS_TOSTYLEFLOAT_OFFSET))(a1);
 		}
 	};
 }

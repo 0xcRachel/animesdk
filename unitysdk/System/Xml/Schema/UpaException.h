@@ -4,7 +4,7 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_XML_SCHEMA_UPAEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18534FF0)
+#define SYSTEM_XML_SCHEMA_UPAEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18462C30)
 
 namespace System::Xml::Schema
 {
@@ -16,9 +16,9 @@ namespace System::Xml::Schema
 		::System::Object* particle2; // 0x88
 		::System::Object* particle1; // 0x90
 
-		::System::Void _ctor(::System::Object* particle1, ::System::Object* particle2)
+		::System::Void _ctor(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_UPAEXCEPTION__CTOR_OFFSET))(this, particle1, particle2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_UPAEXCEPTION__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

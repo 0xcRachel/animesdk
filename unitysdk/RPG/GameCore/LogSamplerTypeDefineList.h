@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LogSamplerTypeDefine; }
 
-#define RPG_GAMECORE_LOGSAMPLERTYPEDEFINELIST_METHOD_2_78727830B1D1A950_OFFSET UNITYSDK_OFFSET(0x18FCC4E0)
-#define RPG_GAMECORE_LOGSAMPLERTYPEDEFINELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x18FCC5E0)
+#define RPG_GAMECORE_LOGSAMPLERTYPEDEFINELIST_METHOD_2_D294CBFDD60B4565_OFFSET UNITYSDK_OFFSET(0x19C166F0)
+#define RPG_GAMECORE_LOGSAMPLERTYPEDEFINELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19C167E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LogSamplerTypeDefineList_TypeDefinitionIndex = 17251;
+	inline static constexpr unsigned int LogSamplerTypeDefineList_TypeDefinitionIndex = 17259;
 
 	class LogSamplerTypeDefineList : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOGSAMPLERTYPEDEFINELIST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_78727830B1D1A950(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LogSamplerTypeDefineList*& a2)
+		static ::System::Void Method_2_D294CBFDD60B4565(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LogSamplerTypeDefineList*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LogSamplerTypeDefineList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOGSAMPLERTYPEDEFINELIST_METHOD_2_78727830B1D1A950_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LogSamplerTypeDefineList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOGSAMPLERTYPEDEFINELIST_METHOD_2_D294CBFDD60B4565_OFFSET))(a1, a2);
 		}
 	};
 }

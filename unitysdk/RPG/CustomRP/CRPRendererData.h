@@ -17,40 +17,40 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 
-#define RPG_CUSTOMRP_CRPRENDERERDATA_GETDEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1525E3E0)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_GETDEFAULTSHADER_OFFSET UNITYSDK_OFFSET(0x1525E560)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_GETMATID_OFFSET UNITYSDK_OFFSET(0x15251150)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_GETMAT_OFFSET UNITYSDK_OFFSET(0x1525E3A0)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_INITMAT_1_OFFSET UNITYSDK_OFFSET(0x1524AF50)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_INITMAT_OFFSET UNITYSDK_OFFSET(0x1525E580)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_RELOADRES_OFFSET UNITYSDK_OFFSET(0x1525E150)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_UNITMAT_OFFSET UNITYSDK_OFFSET(0x1524FBA0)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_UPDATECHAREYESTENCIL_OFFSET UNITYSDK_OFFSET(0x1525E170)
-#define RPG_CUSTOMRP_CRPRENDERERDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1525E740)
-#define RPG_CUSTOMRP_CRPRENDERERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1525E6A0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_GETDEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x15700450)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_GETDEFAULTSHADER_OFFSET UNITYSDK_OFFSET(0x157005D0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_GETMATID_OFFSET UNITYSDK_OFFSET(0x156F48D0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_GETMAT_OFFSET UNITYSDK_OFFSET(0x15700420)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_INITMAT_1_OFFSET UNITYSDK_OFFSET(0x156ECE60)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_INITMAT_OFFSET UNITYSDK_OFFSET(0x157005F0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_RELOADRES_OFFSET UNITYSDK_OFFSET(0x157001D0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_UNITMAT_OFFSET UNITYSDK_OFFSET(0x156F1BD0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_UPDATECHAREYESTENCIL_OFFSET UNITYSDK_OFFSET(0x157001F0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x15700790)
+#define RPG_CUSTOMRP_CRPRENDERERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x157006F0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPRendererData_TypeDefinitionIndex = 35234;
+	inline static constexpr unsigned int CRPRendererData_TypeDefinitionIndex = 35534;
 
 	class CRPRendererData : public ::RPG::CustomRP::CRPRendererDataBase
 	{
 	public:
 		static ::System::UInt32* StaticGet_Flag_PreLightMRTPass()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0x101C0);
-		}
-		static ::System::UInt32* StaticGet_Flag_ShadowHalfRes()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0x101C4);
-		}
-		static ::System::UInt32* StaticGet_Flag_StencilDebug()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0x101C8);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0x10C50);
 		}
 		static ::System::UInt32* StaticGet_Flag_PreAOPass()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0x101CC);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0x10C54);
+		}
+		static ::System::UInt32* StaticGet_Flag_StencilDebug()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0x10C58);
+		}
+		static ::System::UInt32* StaticGet_Flag_ShadowHalfRes()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0x10C5C);
 		}
 		::RPG::CustomRP::CRPRendererData_CRPShaderResources* shaders; // 0x28
 		::RPG::CustomRP::CRPRendererData_CRPComputeResources* computes; // 0x30
@@ -90,19 +90,19 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPRENDERERDATA_UPDATECHAREYESTENCIL_OFFSET))(this);
 		}
 
-		::UnityEngine::Material* GetMat(::RPG::CustomRP::PipelineMat matType)
+		::UnityEngine::Material* GetMat(::RPG::CustomRP::PipelineMat a1)
 		{
-			return ((::UnityEngine::Material*(*)(::PVOID, ::RPG::CustomRP::PipelineMat))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPRENDERERDATA_GETMAT_OFFSET))(this, matType);
+			return ((::UnityEngine::Material*(*)(::PVOID, ::RPG::CustomRP::PipelineMat))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPRENDERERDATA_GETMAT_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetMatID(::RPG::CustomRP::PipelineMat matType)
+		::System::Int32 GetMatID(::RPG::CustomRP::PipelineMat a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::CustomRP::PipelineMat))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPRENDERERDATA_GETMATID_OFFSET))(this, matType);
+			return ((::System::Int32(*)(::PVOID, ::RPG::CustomRP::PipelineMat))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPRENDERERDATA_GETMATID_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Material* GetDefaultMaterial(::RPG::CustomRP::DefaultMatType materialType)
+		::UnityEngine::Material* GetDefaultMaterial(::RPG::CustomRP::DefaultMatType a1)
 		{
-			return ((::UnityEngine::Material*(*)(::PVOID, ::RPG::CustomRP::DefaultMatType))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPRENDERERDATA_GETDEFAULTMATERIAL_OFFSET))(this, materialType);
+			return ((::UnityEngine::Material*(*)(::PVOID, ::RPG::CustomRP::DefaultMatType))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPRENDERERDATA_GETDEFAULTMATERIAL_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Shader* GetDefaultShader()
@@ -110,9 +110,9 @@ namespace RPG::CustomRP
 			return ((::UnityEngine::Shader*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPRENDERERDATA_GETDEFAULTSHADER_OFFSET))(this);
 		}
 
-		::UnityEngine::Material* InitMat(::UnityEngine::Shader* s, ::RPG::CustomRP::PipelineMat matType)
+		::UnityEngine::Material* InitMat(::UnityEngine::Shader* a1, ::RPG::CustomRP::PipelineMat a2)
 		{
-			return ((::UnityEngine::Material*(*)(::PVOID, ::UnityEngine::Shader*, ::RPG::CustomRP::PipelineMat))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPRENDERERDATA_INITMAT_OFFSET))(this, s, matType);
+			return ((::UnityEngine::Material*(*)(::PVOID, ::UnityEngine::Shader*, ::RPG::CustomRP::PipelineMat))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPRENDERERDATA_INITMAT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void InitMat_1()

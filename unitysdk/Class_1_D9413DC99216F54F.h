@@ -1,0 +1,149 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/Struct_2_ABC67D4EFBF3BD9A.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_458;
+class Class_1_83AB3963F9C15714;
+class Class_1_E7BD46EB43F1A06F;
+class Class_1_F335F1C12D8F872C;
+namespace RPG { template <typename T> class LinkableNodeList_1; }
+namespace RPG::GameCore { class GameWorld; }
+namespace RPG::GameCore { template <typename T> class LockableList_1; }
+namespace System { class Action; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_1_D9413DC99216F54F_METHOD_1_1085B073A2D0BE26_OFFSET UNITYSDK_OFFSET(0x154CE5A0)
+#define CLASS_1_D9413DC99216F54F_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x154CE5C0)
+#define CLASS_1_D9413DC99216F54F_METHOD_1_203E45456F967B36_OFFSET UNITYSDK_OFFSET(0x154CE1D0)
+#define CLASS_1_D9413DC99216F54F_METHOD_1_69607B7E4783C654_OFFSET UNITYSDK_OFFSET(0x154CE530)
+#define CLASS_1_D9413DC99216F54F_METHOD_1_8EDB7FE5AA37C50F_1_OFFSET UNITYSDK_OFFSET(0x154CE520)
+#define CLASS_1_D9413DC99216F54F_METHOD_1_8EDB7FE5AA37C50F_2_OFFSET UNITYSDK_OFFSET(0x154CE590)
+#define CLASS_1_D9413DC99216F54F_METHOD_1_8EDB7FE5AA37C50F_OFFSET UNITYSDK_OFFSET(0x154CE4B0)
+#define CLASS_1_D9413DC99216F54F_METHOD_1_9C1F668AC136A1A1_OFFSET UNITYSDK_OFFSET(0x154CD7F0)
+#define CLASS_1_D9413DC99216F54F_METHOD_1_A497B3ECFD0EA55C_OFFSET UNITYSDK_OFFSET(0x154CD880)
+#define CLASS_1_D9413DC99216F54F_METHOD_1_C114A1F8E08B6F92_OFFSET UNITYSDK_OFFSET(0x154CE4A0)
+#define CLASS_1_D9413DC99216F54F_METHOD_1_C358B64A98292B4F_OFFSET UNITYSDK_OFFSET(0x154CD970)
+#define CLASS_1_D9413DC99216F54F_METHOD_1_C74CF020AA42ED85_1_OFFSET UNITYSDK_OFFSET(0x154CE580)
+#define CLASS_1_D9413DC99216F54F_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x154CE490)
+#define CLASS_1_D9413DC99216F54F_METHOD_1_DAF13E2DDF8F15E7_OFFSET UNITYSDK_OFFSET(0x154CDC10)
+#define CLASS_1_D9413DC99216F54F_METHOD_1_E6A464C09590E175_OFFSET UNITYSDK_OFFSET(0x154CDD20)
+#define CLASS_1_D9413DC99216F54F_METHOD_1_EA672F77F1086A27_OFFSET UNITYSDK_OFFSET(0x154CE4C0)
+#define CLASS_1_D9413DC99216F54F_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0x154CD710)
+#define CLASS_1_D9413DC99216F54F_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0x154CD7A0)
+#define CLASS_1_D9413DC99216F54F__CTOR_OFFSET UNITYSDK_OFFSET(0x154CE620)
+
+inline static constexpr unsigned int Class_1_D9413DC99216F54F_TypeDefinitionIndex = 50575;
+
+class Class_1_D9413DC99216F54F : public ::System::Object
+{
+public:
+	::System::Collections::Generic::List_1<::Class_1_F335F1C12D8F872C*>* Field_1_0; // 0x10
+	::Class_1_83AB3963F9C15714* Field_1_1; // 0x18
+	::Class_1_E7BD46EB43F1A06F* Field_1_2; // 0x20
+	::RPG::LinkableNodeList_1<::Class_1_F335F1C12D8F872C*>* Field_1_3; // 0x28
+	::System::Collections::Generic::List_1<::Struct_2_ABC67D4EFBF3BD9A>* Field_1_4; // 0x30
+	::RPG::GameCore::LockableList_1<::Class_0_16E4307DCC419505_458*>* Field_1_5; // 0x38
+	::RPG::GameCore::FixPoint Field_1_6; // 0x40
+	::RPG::GameCore::FixPoint Field_1_7; // 0x48
+	::RPG::GameCore::FixPoint Field_1_8; // 0x50
+	::System::Int32 Field_1_9; // 0x58
+	::System::Int32 Field_1_10; // 0x5C
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D9413DC99216F54F__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OnPluginInit(::RPG::GameCore::GameWorld* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameWorld*))((::PBYTE)hIl2Cpp + CLASS_1_D9413DC99216F54F_ONPLUGININIT_OFFSET))(this, a1);
+	}
+
+	::System::Void OnPluginUninit()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D9413DC99216F54F_ONPLUGINUNINIT_OFFSET))(this);
+	}
+
+	::System::Void Method_1_9C1F668AC136A1A1(::Class_0_16E4307DCC419505_458* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_458*))((::PBYTE)hIl2Cpp + CLASS_1_D9413DC99216F54F_METHOD_1_9C1F668AC136A1A1_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_A497B3ECFD0EA55C(::Class_0_16E4307DCC419505_458* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_458*))((::PBYTE)hIl2Cpp + CLASS_1_D9413DC99216F54F_METHOD_1_A497B3ECFD0EA55C_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_C358B64A98292B4F(::Class_1_F335F1C12D8F872C*& a1, ::System::Action* a2, ::RPG::GameCore::FixPoint a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_F335F1C12D8F872C*&, ::System::Action*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_1_D9413DC99216F54F_METHOD_1_C358B64A98292B4F_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_1_DAF13E2DDF8F15E7(::Class_1_F335F1C12D8F872C*& a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_F335F1C12D8F872C*&))((::PBYTE)hIl2Cpp + CLASS_1_D9413DC99216F54F_METHOD_1_DAF13E2DDF8F15E7_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_E6A464C09590E175(::Class_1_E7BD46EB43F1A06F* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_E7BD46EB43F1A06F*))((::PBYTE)hIl2Cpp + CLASS_1_D9413DC99216F54F_METHOD_1_E6A464C09590E175_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_203E45456F967B36(::System::Boolean a1, ::System::String* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_D9413DC99216F54F_METHOD_1_203E45456F967B36_OFFSET))(this, a1, a2);
+	}
+
+	::System::Int32 Method_1_C74CF020AA42ED85()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D9413DC99216F54F_METHOD_1_C74CF020AA42ED85_OFFSET))(this);
+	}
+
+	::System::Void Method_1_C114A1F8E08B6F92(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_D9413DC99216F54F_METHOD_1_C114A1F8E08B6F92_OFFSET))(this, a1);
+	}
+
+	::RPG::GameCore::FixPoint Method_1_8EDB7FE5AA37C50F()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D9413DC99216F54F_METHOD_1_8EDB7FE5AA37C50F_OFFSET))(this);
+	}
+
+	::System::Void Method_1_EA672F77F1086A27(::RPG::GameCore::FixPoint a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_1_D9413DC99216F54F_METHOD_1_EA672F77F1086A27_OFFSET))(this, a1);
+	}
+
+	::RPG::GameCore::FixPoint Method_1_8EDB7FE5AA37C50F_1()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D9413DC99216F54F_METHOD_1_8EDB7FE5AA37C50F_1_OFFSET))(this);
+	}
+
+	::RPG::GameCore::FixPoint Method_1_69607B7E4783C654()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D9413DC99216F54F_METHOD_1_69607B7E4783C654_OFFSET))(this);
+	}
+
+	::System::Int32 Method_1_C74CF020AA42ED85_1()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D9413DC99216F54F_METHOD_1_C74CF020AA42ED85_1_OFFSET))(this);
+	}
+
+	::RPG::GameCore::FixPoint Method_1_8EDB7FE5AA37C50F_2()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D9413DC99216F54F_METHOD_1_8EDB7FE5AA37C50F_2_OFFSET))(this);
+	}
+
+	::RPG::GameCore::FixPoint Method_1_1085B073A2D0BE26()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D9413DC99216F54F_METHOD_1_1085B073A2D0BE26_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_1D4018D4200358D0()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D9413DC99216F54F_METHOD_1_1D4018D4200358D0_OFFSET))(this);
+	}
+};

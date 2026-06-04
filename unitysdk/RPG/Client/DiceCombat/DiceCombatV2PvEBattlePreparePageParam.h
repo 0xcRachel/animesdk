@@ -6,37 +6,37 @@ namespace RPG::Client::DiceCombat { class DiceCombatV2BattleVsPlayerDisplayData;
 namespace RPG::Client::DiceCombat { class DiceCombatV2OpponentData; }
 namespace RPG::Client::DiceCombat { class IDiceCombatAvatarInfo; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0x17042FF0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_GET_LOCALPLAYERDATA_OFFSET UNITYSDK_OFFSET(0x17042F30)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_GET_OPPONENTAVATARINFO_OFFSET UNITYSDK_OFFSET(0x17042FB0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_GET_OPPONENTDATA_OFFSET UNITYSDK_OFFSET(0x17042F90)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_GET_SHOWIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0x17042FD0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_GET_STAGEID_OFFSET UNITYSDK_OFFSET(0x17042F10)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_GET_TEAMMATEPLAYERAVATARINFO_OFFSET UNITYSDK_OFFSET(0x17042F70)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_GET_TEAMMATEPLAYERDATA_OFFSET UNITYSDK_OFFSET(0x17042F50)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_LOCALPLAYERDATA_OFFSET UNITYSDK_OFFSET(0x17042F40)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_OPPONENTAVATARINFO_OFFSET UNITYSDK_OFFSET(0x17042FC0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_OPPONENTDATA_OFFSET UNITYSDK_OFFSET(0x17042FA0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_SHOWIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0x17042FE0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_STAGEID_OFFSET UNITYSDK_OFFSET(0x17042F20)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_TEAMMATEPLAYERAVATARINFO_OFFSET UNITYSDK_OFFSET(0x17042F80)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_TEAMMATEPLAYERDATA_OFFSET UNITYSDK_OFFSET(0x17042F60)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x17042F00)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0x17F0D700)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_GET_LOCALPLAYERDATA_OFFSET UNITYSDK_OFFSET(0x17F0D640)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_GET_OPPONENTAVATARINFO_OFFSET UNITYSDK_OFFSET(0x17F0D6C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_GET_OPPONENTDATA_OFFSET UNITYSDK_OFFSET(0x17F0D6A0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_GET_SHOWIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0x17F0D6E0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_GET_STAGEID_OFFSET UNITYSDK_OFFSET(0x17F0D620)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_GET_TEAMMATEPLAYERAVATARINFO_OFFSET UNITYSDK_OFFSET(0x17F0D680)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_GET_TEAMMATEPLAYERDATA_OFFSET UNITYSDK_OFFSET(0x17F0D660)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_LOCALPLAYERDATA_OFFSET UNITYSDK_OFFSET(0x17F0D650)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_OPPONENTAVATARINFO_OFFSET UNITYSDK_OFFSET(0x17F0D6D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_OPPONENTDATA_OFFSET UNITYSDK_OFFSET(0x17F0D6B0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_SHOWIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0x17F0D6F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_STAGEID_OFFSET UNITYSDK_OFFSET(0x17F0D630)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_TEAMMATEPLAYERAVATARINFO_OFFSET UNITYSDK_OFFSET(0x17F0D690)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_TEAMMATEPLAYERDATA_OFFSET UNITYSDK_OFFSET(0x17F0D670)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x17F0D610)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2PvEBattlePreparePageParam_TypeDefinitionIndex = 69961;
+	inline static constexpr unsigned int DiceCombatV2PvEBattlePreparePageParam_TypeDefinitionIndex = 70773;
 
 	class DiceCombatV2PvEBattlePreparePageParam : public ::System::Object
 	{
 	public:
-		::RPG::Client::DiceCombat::DiceCombatV2BattleVsPlayerDisplayData* _LocalPlayerData_k__BackingField; // 0x10
-		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* _TeamMatePlayerAvatarInfo_k__BackingField; // 0x18
-		::RPG::Client::DiceCombat::DiceCombatV2OpponentData* _OpponentData_k__BackingField; // 0x20
-		::RPG::Client::DiceCombat::DiceCombatV2BattleVsPlayerDisplayData* _TeamMatePlayerData_k__BackingField; // 0x28
+		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* _TeamMatePlayerAvatarInfo_k__BackingField; // 0x10
+		::RPG::Client::DiceCombat::DiceCombatV2OpponentData* _OpponentData_k__BackingField; // 0x18
+		::RPG::Client::DiceCombat::DiceCombatV2BattleVsPlayerDisplayData* _TeamMatePlayerData_k__BackingField; // 0x20
+		::RPG::Client::DiceCombat::DiceCombatV2BattleVsPlayerDisplayData* _LocalPlayerData_k__BackingField; // 0x28
 		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* _OpponentAvatarInfo_k__BackingField; // 0x30
-		::System::UInt32 _StageID_k__BackingField; // 0x38
-		::System::Boolean _ShowImmediately_k__BackingField; // 0x3C
+		::System::Boolean _ShowImmediately_k__BackingField; // 0x38
+		::System::UInt32 _StageID_k__BackingField; // 0x3C
 
 		::System::Void _ctor()
 		{
@@ -48,9 +48,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_GET_STAGEID_OFFSET))(this);
 		}
 
-		::System::Void set_StageID(::System::UInt32 value)
+		::System::Void set_StageID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_STAGEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_STAGEID_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::DiceCombat::DiceCombatV2BattleVsPlayerDisplayData* get_LocalPlayerData()
@@ -58,9 +58,9 @@ namespace RPG::Client::DiceCombat
 			return ((::RPG::Client::DiceCombat::DiceCombatV2BattleVsPlayerDisplayData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_GET_LOCALPLAYERDATA_OFFSET))(this);
 		}
 
-		::System::Void set_LocalPlayerData(::RPG::Client::DiceCombat::DiceCombatV2BattleVsPlayerDisplayData* value)
+		::System::Void set_LocalPlayerData(::RPG::Client::DiceCombat::DiceCombatV2BattleVsPlayerDisplayData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatV2BattleVsPlayerDisplayData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_LOCALPLAYERDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatV2BattleVsPlayerDisplayData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_LOCALPLAYERDATA_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::DiceCombat::DiceCombatV2BattleVsPlayerDisplayData* get_TeamMatePlayerData()
@@ -68,9 +68,9 @@ namespace RPG::Client::DiceCombat
 			return ((::RPG::Client::DiceCombat::DiceCombatV2BattleVsPlayerDisplayData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_GET_TEAMMATEPLAYERDATA_OFFSET))(this);
 		}
 
-		::System::Void set_TeamMatePlayerData(::RPG::Client::DiceCombat::DiceCombatV2BattleVsPlayerDisplayData* value)
+		::System::Void set_TeamMatePlayerData(::RPG::Client::DiceCombat::DiceCombatV2BattleVsPlayerDisplayData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatV2BattleVsPlayerDisplayData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_TEAMMATEPLAYERDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatV2BattleVsPlayerDisplayData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_TEAMMATEPLAYERDATA_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* get_TeamMatePlayerAvatarInfo()
@@ -78,9 +78,9 @@ namespace RPG::Client::DiceCombat
 			return ((::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_GET_TEAMMATEPLAYERAVATARINFO_OFFSET))(this);
 		}
 
-		::System::Void set_TeamMatePlayerAvatarInfo(::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* value)
+		::System::Void set_TeamMatePlayerAvatarInfo(::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_TEAMMATEPLAYERAVATARINFO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_TEAMMATEPLAYERAVATARINFO_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::DiceCombat::DiceCombatV2OpponentData* get_OpponentData()
@@ -88,9 +88,9 @@ namespace RPG::Client::DiceCombat
 			return ((::RPG::Client::DiceCombat::DiceCombatV2OpponentData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_GET_OPPONENTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_OpponentData(::RPG::Client::DiceCombat::DiceCombatV2OpponentData* value)
+		::System::Void set_OpponentData(::RPG::Client::DiceCombat::DiceCombatV2OpponentData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatV2OpponentData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_OPPONENTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatV2OpponentData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_OPPONENTDATA_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* get_OpponentAvatarInfo()
@@ -98,9 +98,9 @@ namespace RPG::Client::DiceCombat
 			return ((::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_GET_OPPONENTAVATARINFO_OFFSET))(this);
 		}
 
-		::System::Void set_OpponentAvatarInfo(::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* value)
+		::System::Void set_OpponentAvatarInfo(::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_OPPONENTAVATARINFO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_OPPONENTAVATARINFO_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_ShowImmediately()
@@ -108,14 +108,14 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_GET_SHOWIMMEDIATELY_OFFSET))(this);
 		}
 
-		::System::Void set_ShowImmediately(::System::Boolean value)
+		::System::Void set_ShowImmediately(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_SHOWIMMEDIATELY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_SET_SHOWIMMEDIATELY_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::DiceCombat::DiceCombatV2PvEBattlePreparePageParam* Create(::System::UInt32 pveStageID, ::System::Boolean showImmediately)
+		static ::RPG::Client::DiceCombat::DiceCombatV2PvEBattlePreparePageParam* Create(::System::UInt32 a1, ::System::Boolean a2)
 		{
-			return ((::RPG::Client::DiceCombat::DiceCombatV2PvEBattlePreparePageParam*(*)(::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_CREATE_OFFSET))(pveStageID, showImmediately);
+			return ((::RPG::Client::DiceCombat::DiceCombatV2PvEBattlePreparePageParam*(*)(::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLEPREPAREPAGEPARAM_CREATE_OFFSET))(a1, a2);
 		}
 	};
 }

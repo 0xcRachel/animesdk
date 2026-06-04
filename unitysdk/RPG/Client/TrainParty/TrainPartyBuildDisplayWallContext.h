@@ -9,44 +9,44 @@ namespace RPG::Client::TrainParty { class TrainPartyBuildSubArea; }
 namespace System::Collections::Generic { template <typename T> class IComparer_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_CREATE_OFFSET UNITYSDK_OFFSET(0x177F7730)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_GET_CURRENTDIYITEMS_OFFSET UNITYSDK_OFFSET(0x177F87D0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_GET_CURRENTSLOT_OFFSET UNITYSDK_OFFSET(0x177F87B0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_GET_CURRENTSUBAREA_OFFSET UNITYSDK_OFFSET(0x177F8790)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_GET_SUBAREALIST_OFFSET UNITYSDK_OFFSET(0x177F8770)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_REFRESHCURRENTDIYITEMS_OFFSET UNITYSDK_OFFSET(0x177F7CA0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SET_CURRENTDIYITEMS_OFFSET UNITYSDK_OFFSET(0x177F87E0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SET_CURRENTSLOT_OFFSET UNITYSDK_OFFSET(0x177F87C0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SET_CURRENTSUBAREA_OFFSET UNITYSDK_OFFSET(0x177F87A0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SET_SUBAREALIST_OFFSET UNITYSDK_OFFSET(0x177F8780)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SORTCURRENTDIYITEMS_OFFSET UNITYSDK_OFFSET(0x177F7DE0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SYNCCURRENTDIYITEMREFS_OFFSET UNITYSDK_OFFSET(0x177F7880)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x177F87F0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT__CREATECOMPOSITECOMPARER_OFFSET UNITYSDK_OFFSET(0x177F7E70)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x177F77C0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT__FINDMATCHINGITEM_OFFSET UNITYSDK_OFFSET(0x177F7B60)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT__GETDEFAULTSUBAREA_OFFSET UNITYSDK_OFFSET(0x177F8410)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_CREATE_OFFSET UNITYSDK_OFFSET(0x18122080)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_GET_CURRENTDIYITEMS_OFFSET UNITYSDK_OFFSET(0x18123250)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_GET_CURRENTSLOT_OFFSET UNITYSDK_OFFSET(0x18123230)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_GET_CURRENTSUBAREA_OFFSET UNITYSDK_OFFSET(0x18123210)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_GET_SUBAREALIST_OFFSET UNITYSDK_OFFSET(0x181231F0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_REFRESHCURRENTDIYITEMS_OFFSET UNITYSDK_OFFSET(0x181225F0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SET_CURRENTDIYITEMS_OFFSET UNITYSDK_OFFSET(0x18123260)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SET_CURRENTSLOT_OFFSET UNITYSDK_OFFSET(0x18123240)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SET_CURRENTSUBAREA_OFFSET UNITYSDK_OFFSET(0x18123220)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SET_SUBAREALIST_OFFSET UNITYSDK_OFFSET(0x18123200)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SORTCURRENTDIYITEMS_OFFSET UNITYSDK_OFFSET(0x18122730)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SYNCCURRENTDIYITEMREFS_OFFSET UNITYSDK_OFFSET(0x181221D0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x18123270)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT__CREATECOMPOSITECOMPARER_OFFSET UNITYSDK_OFFSET(0x181227C0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18122110)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT__FINDMATCHINGITEM_OFFSET UNITYSDK_OFFSET(0x181224B0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT__GETDEFAULTSUBAREA_OFFSET UNITYSDK_OFFSET(0x18122E90)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_TypeDefinitionIndex = 68558;
+	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_TypeDefinitionIndex = 69370;
 
 	class TrainPartyBuildDisplayWallContext : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::TrainParty::TrainPartyBuildDisplayWallContext_SlotComparerSelector** StaticGet__SlotComparerSelector()
 		{
-			return (::RPG::Client::TrainParty::TrainPartyBuildDisplayWallContext_SlotComparerSelector**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildDisplayWallContext_TypeDefinitionIndex)->GetStaticField(0x53420);
+			return (::RPG::Client::TrainParty::TrainPartyBuildDisplayWallContext_SlotComparerSelector**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildDisplayWallContext_TypeDefinitionIndex)->GetStaticField(0x51390);
 		}
 		// static const ::System::UInt32 _INVALID_SUB_AREA_ID = 0x0; // 0x0
 		::RPG::Client::TrainParty::TrainPartyBuildSlotInfo* _CurrentSlot_k__BackingField; // 0x10
-		::RPG::Client::TrainParty::TrainPartyBuildSubArea* _CurrentSubArea_k__BackingField; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyBuildSubArea*>* _SubAreaList_k__BackingField; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyBuildSubArea*>* _SubAreaList_k__BackingField; // 0x18
+		::RPG::Client::TrainParty::TrainPartyBuildSubArea* _CurrentSubArea_k__BackingField; // 0x20
 		::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyBuildDIYItem*>* _CurrentDIYItems_k__BackingField; // 0x28
 
-		::System::Void _ctor(::System::UInt32 subAreaID, ::System::UInt32 slotGroupID)
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT__CTOR_OFFSET))(this, subAreaID, slotGroupID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
@@ -54,9 +54,9 @@ namespace RPG::Client::TrainParty
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT__CCTOR_OFFSET))();
 		}
 
-		static ::RPG::Client::TrainParty::TrainPartyBuildDisplayWallContext* Create(::System::UInt32 subAreaID, ::System::UInt32 slotGroupID)
+		static ::RPG::Client::TrainParty::TrainPartyBuildDisplayWallContext* Create(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::TrainParty::TrainPartyBuildDisplayWallContext*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_CREATE_OFFSET))(subAreaID, slotGroupID);
+			return ((::RPG::Client::TrainParty::TrainPartyBuildDisplayWallContext*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_CREATE_OFFSET))(a1, a2);
 		}
 
 		::System::Void SyncCurrentDIYItemRefs()
@@ -64,9 +64,9 @@ namespace RPG::Client::TrainParty
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SYNCCURRENTDIYITEMREFS_OFFSET))(this);
 		}
 
-		::RPG::Client::TrainParty::TrainPartyBuildDIYItem* _FindMatchingItem(::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyBuildDIYItem*>* list, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem* target)
+		::RPG::Client::TrainParty::TrainPartyBuildDIYItem* _FindMatchingItem(::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyBuildDIYItem*>* a1, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem* a2)
 		{
-			return ((::RPG::Client::TrainParty::TrainPartyBuildDIYItem*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyBuildDIYItem*>*, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT__FINDMATCHINGITEM_OFFSET))(this, list, target);
+			return ((::RPG::Client::TrainParty::TrainPartyBuildDIYItem*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyBuildDIYItem*>*, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT__FINDMATCHINGITEM_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void RefreshCurrentDIYItems()
@@ -79,9 +79,9 @@ namespace RPG::Client::TrainParty
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SORTCURRENTDIYITEMS_OFFSET))(this);
 		}
 
-		::RPG::Client::TrainParty::TrainPartyBuildSubArea* _GetDefaultSubArea(::System::UInt32 subAreaID)
+		::RPG::Client::TrainParty::TrainPartyBuildSubArea* _GetDefaultSubArea(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::TrainParty::TrainPartyBuildSubArea*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT__GETDEFAULTSUBAREA_OFFSET))(this, subAreaID);
+			return ((::RPG::Client::TrainParty::TrainPartyBuildSubArea*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT__GETDEFAULTSUBAREA_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IComparer_1<::RPG::Client::TrainParty::TrainPartyBuildDIYItem*>* _CreateCompositeComparer()
@@ -94,9 +94,9 @@ namespace RPG::Client::TrainParty
 			return ((::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyBuildSubArea*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_GET_SUBAREALIST_OFFSET))(this);
 		}
 
-		::System::Void set_SubAreaList(::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyBuildSubArea*>* value)
+		::System::Void set_SubAreaList(::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyBuildSubArea*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyBuildSubArea*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SET_SUBAREALIST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyBuildSubArea*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SET_SUBAREALIST_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TrainParty::TrainPartyBuildSubArea* get_CurrentSubArea()
@@ -104,9 +104,9 @@ namespace RPG::Client::TrainParty
 			return ((::RPG::Client::TrainParty::TrainPartyBuildSubArea*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_GET_CURRENTSUBAREA_OFFSET))(this);
 		}
 
-		::System::Void set_CurrentSubArea(::RPG::Client::TrainParty::TrainPartyBuildSubArea* value)
+		::System::Void set_CurrentSubArea(::RPG::Client::TrainParty::TrainPartyBuildSubArea* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildSubArea*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SET_CURRENTSUBAREA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildSubArea*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SET_CURRENTSUBAREA_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TrainParty::TrainPartyBuildSlotInfo* get_CurrentSlot()
@@ -114,9 +114,9 @@ namespace RPG::Client::TrainParty
 			return ((::RPG::Client::TrainParty::TrainPartyBuildSlotInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_GET_CURRENTSLOT_OFFSET))(this);
 		}
 
-		::System::Void set_CurrentSlot(::RPG::Client::TrainParty::TrainPartyBuildSlotInfo* value)
+		::System::Void set_CurrentSlot(::RPG::Client::TrainParty::TrainPartyBuildSlotInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildSlotInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SET_CURRENTSLOT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildSlotInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SET_CURRENTSLOT_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyBuildDIYItem*>* get_CurrentDIYItems()
@@ -124,9 +124,9 @@ namespace RPG::Client::TrainParty
 			return ((::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyBuildDIYItem*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_GET_CURRENTDIYITEMS_OFFSET))(this);
 		}
 
-		::System::Void set_CurrentDIYItems(::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyBuildDIYItem*>* value)
+		::System::Void set_CurrentDIYItems(::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyBuildDIYItem*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyBuildDIYItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SET_CURRENTDIYITEMS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyBuildDIYItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SET_CURRENTDIYITEMS_OFFSET))(this, a1);
 		}
 	};
 }

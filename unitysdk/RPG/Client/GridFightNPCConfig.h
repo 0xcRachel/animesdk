@@ -9,40 +9,40 @@ namespace RPG::GameCore { class GridFightNpcConfigRow; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x177DC560)
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_DESCTEXTID_OFFSET UNITYSDK_OFFSET(0x177DD500)
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_FRONTBACKTYPE_OFFSET UNITYSDK_OFFSET(0x177DD570)
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x177DD490)
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_ID_OFFSET UNITYSDK_OFFSET(0x177DD470)
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_ISEQUIPPABLE_OFFSET UNITYSDK_OFFSET(0x177DD550)
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0x177DD4D0)
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_POSITIONREGION_OFFSET UNITYSDK_OFFSET(0x177DD530)
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_ROUNDICONPATH_OFFSET UNITYSDK_OFFSET(0x177DD4B0)
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_SET_ID_OFFSET UNITYSDK_OFFSET(0x177DD480)
-#define RPG_CLIENT_GRIDFIGHTNPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x177DD5D0)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x19774440)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_DESCTEXTID_OFFSET UNITYSDK_OFFSET(0x19775510)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_FRONTBACKTYPE_OFFSET UNITYSDK_OFFSET(0x19775580)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x197754A0)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_ID_OFFSET UNITYSDK_OFFSET(0x19775480)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_ISEQUIPPABLE_OFFSET UNITYSDK_OFFSET(0x19775560)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0x197754E0)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_POSITIONREGION_OFFSET UNITYSDK_OFFSET(0x19775540)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_ROUNDICONPATH_OFFSET UNITYSDK_OFFSET(0x197754C0)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG_SET_ID_OFFSET UNITYSDK_OFFSET(0x19775490)
+#define RPG_CLIENT_GRIDFIGHTNPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x197755E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightNPCConfig_TypeDefinitionIndex = 59905;
+	inline static constexpr unsigned int GridFightNPCConfig_TypeDefinitionIndex = 60840;
 
 	class GridFightNPCConfig : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightNPCConfig*>** StaticGet_GetConfigImpl()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightNPCConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightNPCConfig_TypeDefinitionIndex)->GetStaticField(0x29C40);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightNPCConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightNPCConfig_TypeDefinitionIndex)->GetStaticField(0x2EFB0);
 		}
 		::RPG::GameCore::GridFightNpcConfigRow* _Row; // 0x10
 		::System::UInt32 _ID_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::UInt32 id)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPCCONFIG__CTOR_OFFSET))(this, id);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPCCONFIG__CTOR_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::GridFightNPCConfig* GetConfig(::System::UInt32 id)
+		static ::RPG::Client::GridFightNPCConfig* GetConfig(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::GridFightNPCConfig*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPCCONFIG_GETCONFIG_OFFSET))(id);
+			return ((::RPG::Client::GridFightNPCConfig*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPCCONFIG_GETCONFIG_OFFSET))(a1);
 		}
 
 		::System::UInt32 get_ID()
@@ -50,9 +50,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPCCONFIG_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPCCONFIG_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPCCONFIG_SET_ID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_IconPath()

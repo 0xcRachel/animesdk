@@ -8,43 +8,43 @@ namespace UnityEngine { class Object; }
 namespace UnityEngine::Playables { class INotification; }
 namespace UnityEngine::Playables { class INotificationReceiver; }
 
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_ADDNOTIFICATIONRECEIVER_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A56FD90)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_ADDNOTIFICATIONRECEIVER_OFFSET UNITYSDK_OFFSET(0x2389670)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_COMPAREVERSION_OFFSET UNITYSDK_OFFSET(0x1A56F9A0)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x23893A0)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x2389340)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2388BB0)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETPLAYABLEOUTPUTTYPE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A56FAE0)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETPLAYABLEOUTPUTTYPE_OFFSET UNITYSDK_OFFSET(0x2389430)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETSOURCEOUTPUTPORT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A56FC80)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETSOURCEOUTPUTPORT_OFFSET UNITYSDK_OFFSET(0x2389590)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETSOURCEPLAYABLE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A56FBE0)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETSOURCEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x23894F0)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GET_NULL_OFFSET UNITYSDK_OFFSET(0x1A56F950)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_ISVALID_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A56FAA0)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_ISVALID_OFFSET UNITYSDK_OFFSET(0x23893F0)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1A56F8B0)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_PUSHNOTIFICATION_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A56FD40)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_PUSHNOTIFICATION_OFFSET UNITYSDK_OFFSET(0x2389620)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETREFERENCEOBJECT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A56FB30)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETREFERENCEOBJECT_OFFSET UNITYSDK_OFFSET(0x2389470)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETSOURCEPLAYABLE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A56FC40)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETSOURCEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x2389540)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETUSERDATA_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A56FB80)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETUSERDATA_OFFSET UNITYSDK_OFFSET(0x23894B0)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETWEIGHT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A56FCE0)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETWEIGHT_OFFSET UNITYSDK_OFFSET(0x23895D0)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A56FDA0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_ADDNOTIFICATIONRECEIVER_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B3126B0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_ADDNOTIFICATIONRECEIVER_OFFSET UNITYSDK_OFFSET(0x39315F0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_COMPAREVERSION_OFFSET UNITYSDK_OFFSET(0x1B3122C0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3931320)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x39312C0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3930B30)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETPLAYABLEOUTPUTTYPE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B312400)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETPLAYABLEOUTPUTTYPE_OFFSET UNITYSDK_OFFSET(0x39313B0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETSOURCEOUTPUTPORT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B3125A0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETSOURCEOUTPUTPORT_OFFSET UNITYSDK_OFFSET(0x3931510)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETSOURCEPLAYABLE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B312500)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETSOURCEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x3931470)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GET_NULL_OFFSET UNITYSDK_OFFSET(0x1B312270)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_ISVALID_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B3123C0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_ISVALID_OFFSET UNITYSDK_OFFSET(0x3931370)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B3121D0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_PUSHNOTIFICATION_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B312660)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_PUSHNOTIFICATION_OFFSET UNITYSDK_OFFSET(0x39315A0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETREFERENCEOBJECT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B312450)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETREFERENCEOBJECT_OFFSET UNITYSDK_OFFSET(0x39313F0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETSOURCEPLAYABLE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B312560)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETSOURCEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x39314C0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETUSERDATA_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B3124A0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETUSERDATA_OFFSET UNITYSDK_OFFSET(0x3931430)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETWEIGHT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B312600)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETWEIGHT_OFFSET UNITYSDK_OFFSET(0x3931550)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3126C0)
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int PlayableOutputHandle_TypeDefinitionIndex = 4727;
+	inline static constexpr unsigned int PlayableOutputHandle_TypeDefinitionIndex = 4901;
 
 	struct alignas(8) PlayableOutputHandle
 	{
 		static ::UnityEngine::Playables::PlayableOutputHandle* StaticGet_m_Null()
 		{
-			return (::UnityEngine::Playables::PlayableOutputHandle*)Il2CppClass::FromTypeDefinitionIndex(PlayableOutputHandle_TypeDefinitionIndex)->GetStaticField(0x5CF0);
+			return (::UnityEngine::Playables::PlayableOutputHandle*)Il2CppClass::FromTypeDefinitionIndex(PlayableOutputHandle_TypeDefinitionIndex)->GetStaticField(0xA720);
 		}
 		::System::IntPtr m_Handle; // 0x10
 		::System::UInt32 m_Version; // 0x18
@@ -64,24 +64,24 @@ namespace UnityEngine::Playables
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETHASHCODE_OFFSET))(this);
 		}
 
-		static ::System::Boolean op_Equality(::UnityEngine::Playables::PlayableOutputHandle lhs, ::UnityEngine::Playables::PlayableOutputHandle rhs)
+		static ::System::Boolean op_Equality(::UnityEngine::Playables::PlayableOutputHandle a1, ::UnityEngine::Playables::PlayableOutputHandle a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Playables::PlayableOutputHandle, ::UnityEngine::Playables::PlayableOutputHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_OP_EQUALITY_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::UnityEngine::Playables::PlayableOutputHandle, ::UnityEngine::Playables::PlayableOutputHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean Equals(::System::Object* p)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_EQUALS_OFFSET))(this, p);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::UnityEngine::Playables::PlayableOutputHandle other)
+		::System::Boolean Equals_1(::UnityEngine::Playables::PlayableOutputHandle a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Playables::PlayableOutputHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Playables::PlayableOutputHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_EQUALS_1_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean CompareVersion(::UnityEngine::Playables::PlayableOutputHandle lhs, ::UnityEngine::Playables::PlayableOutputHandle rhs)
+		static ::System::Boolean CompareVersion(::UnityEngine::Playables::PlayableOutputHandle a1, ::UnityEngine::Playables::PlayableOutputHandle a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Playables::PlayableOutputHandle, ::UnityEngine::Playables::PlayableOutputHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_COMPAREVERSION_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::UnityEngine::Playables::PlayableOutputHandle, ::UnityEngine::Playables::PlayableOutputHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_COMPAREVERSION_OFFSET))(a1, a2);
 		}
 
 		::System::Boolean IsValid()
@@ -94,14 +94,14 @@ namespace UnityEngine::Playables
 			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETPLAYABLEOUTPUTTYPE_OFFSET))(this);
 		}
 
-		::System::Void SetReferenceObject(::UnityEngine::Object* target)
+		::System::Void SetReferenceObject(::UnityEngine::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETREFERENCEOBJECT_OFFSET))(this, target);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETREFERENCEOBJECT_OFFSET))(this, a1);
 		}
 
-		::System::Void SetUserData(::UnityEngine::Object* target)
+		::System::Void SetUserData(::UnityEngine::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETUSERDATA_OFFSET))(this, target);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETUSERDATA_OFFSET))(this, a1);
 		}
 
 		/*
@@ -112,9 +112,9 @@ namespace UnityEngine::Playables
 		*/
 
 		/*
-		::System::Void SetSourcePlayable(::UnityEngine::Playables::PlayableHandle target, ::System::Int32 port)
+		::System::Void SetSourcePlayable(::UnityEngine::Playables::PlayableHandle a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableHandle, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETSOURCEPLAYABLE_OFFSET))(this, target, port);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableHandle, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETSOURCEPLAYABLE_OFFSET))(this, a1, a2);
 		}
 		*/
 
@@ -123,77 +123,77 @@ namespace UnityEngine::Playables
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETSOURCEOUTPUTPORT_OFFSET))(this);
 		}
 
-		::System::Void SetWeight(::System::Single weight)
+		::System::Void SetWeight(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETWEIGHT_OFFSET))(this, weight);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETWEIGHT_OFFSET))(this, a1);
 		}
 
 		/*
-		::System::Void PushNotification(::UnityEngine::Playables::PlayableHandle origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context)
+		::System::Void PushNotification(::UnityEngine::Playables::PlayableHandle a1, ::UnityEngine::Playables::INotification* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableHandle, ::UnityEngine::Playables::INotification*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_PUSHNOTIFICATION_OFFSET))(this, origin, notification, context);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableHandle, ::UnityEngine::Playables::INotification*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_PUSHNOTIFICATION_OFFSET))(this, a1, a2, a3);
 		}
 		*/
 
-		::System::Void AddNotificationReceiver(::UnityEngine::Playables::INotificationReceiver* receiver)
+		::System::Void AddNotificationReceiver(::UnityEngine::Playables::INotificationReceiver* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::INotificationReceiver*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_ADDNOTIFICATIONRECEIVER_OFFSET))(this, receiver);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::INotificationReceiver*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_ADDNOTIFICATIONRECEIVER_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean IsValid_Injected(::UnityEngine::Playables::PlayableOutputHandle& _unity_self)
+		static ::System::Boolean IsValid_Injected(::UnityEngine::Playables::PlayableOutputHandle& a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Playables::PlayableOutputHandle&))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_ISVALID_INJECTED_OFFSET))(_unity_self);
+			return ((::System::Boolean(*)(::UnityEngine::Playables::PlayableOutputHandle&))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_ISVALID_INJECTED_OFFSET))(a1);
 		}
 
-		static ::System::Type* GetPlayableOutputType_Injected(::UnityEngine::Playables::PlayableOutputHandle& _unity_self)
+		static ::System::Type* GetPlayableOutputType_Injected(::UnityEngine::Playables::PlayableOutputHandle& a1)
 		{
-			return ((::System::Type*(*)(::UnityEngine::Playables::PlayableOutputHandle&))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETPLAYABLEOUTPUTTYPE_INJECTED_OFFSET))(_unity_self);
+			return ((::System::Type*(*)(::UnityEngine::Playables::PlayableOutputHandle&))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETPLAYABLEOUTPUTTYPE_INJECTED_OFFSET))(a1);
 		}
 
-		static ::System::Void SetReferenceObject_Injected(::UnityEngine::Playables::PlayableOutputHandle& _unity_self, ::UnityEngine::Object* target)
+		static ::System::Void SetReferenceObject_Injected(::UnityEngine::Playables::PlayableOutputHandle& a1, ::UnityEngine::Object* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Playables::PlayableOutputHandle&, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETREFERENCEOBJECT_INJECTED_OFFSET))(_unity_self, target);
+			return ((::System::Void(*)(::UnityEngine::Playables::PlayableOutputHandle&, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETREFERENCEOBJECT_INJECTED_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetUserData_Injected(::UnityEngine::Playables::PlayableOutputHandle& _unity_self, ::UnityEngine::Object* target)
+		static ::System::Void SetUserData_Injected(::UnityEngine::Playables::PlayableOutputHandle& a1, ::UnityEngine::Object* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Playables::PlayableOutputHandle&, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETUSERDATA_INJECTED_OFFSET))(_unity_self, target);
+			return ((::System::Void(*)(::UnityEngine::Playables::PlayableOutputHandle&, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETUSERDATA_INJECTED_OFFSET))(a1, a2);
 		}
 
 		/*
-		static ::System::Void GetSourcePlayable_Injected(::UnityEngine::Playables::PlayableOutputHandle& _unity_self, ::UnityEngine::Playables::PlayableHandle& ret)
+		static ::System::Void GetSourcePlayable_Injected(::UnityEngine::Playables::PlayableOutputHandle& a1, ::UnityEngine::Playables::PlayableHandle& a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Playables::PlayableOutputHandle&, ::UnityEngine::Playables::PlayableHandle&))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETSOURCEPLAYABLE_INJECTED_OFFSET))(_unity_self, ret);
+			return ((::System::Void(*)(::UnityEngine::Playables::PlayableOutputHandle&, ::UnityEngine::Playables::PlayableHandle&))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETSOURCEPLAYABLE_INJECTED_OFFSET))(a1, a2);
 		}
 		*/
 
 		/*
-		static ::System::Void SetSourcePlayable_Injected(::UnityEngine::Playables::PlayableOutputHandle& _unity_self, ::UnityEngine::Playables::PlayableHandle& target, ::System::Int32 port)
+		static ::System::Void SetSourcePlayable_Injected(::UnityEngine::Playables::PlayableOutputHandle& a1, ::UnityEngine::Playables::PlayableHandle& a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Playables::PlayableOutputHandle&, ::UnityEngine::Playables::PlayableHandle&, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETSOURCEPLAYABLE_INJECTED_OFFSET))(_unity_self, target, port);
+			return ((::System::Void(*)(::UnityEngine::Playables::PlayableOutputHandle&, ::UnityEngine::Playables::PlayableHandle&, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETSOURCEPLAYABLE_INJECTED_OFFSET))(a1, a2, a3);
 		}
 		*/
 
-		static ::System::Int32 GetSourceOutputPort_Injected(::UnityEngine::Playables::PlayableOutputHandle& _unity_self)
+		static ::System::Int32 GetSourceOutputPort_Injected(::UnityEngine::Playables::PlayableOutputHandle& a1)
 		{
-			return ((::System::Int32(*)(::UnityEngine::Playables::PlayableOutputHandle&))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETSOURCEOUTPUTPORT_INJECTED_OFFSET))(_unity_self);
+			return ((::System::Int32(*)(::UnityEngine::Playables::PlayableOutputHandle&))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_GETSOURCEOUTPUTPORT_INJECTED_OFFSET))(a1);
 		}
 
-		static ::System::Void SetWeight_Injected(::UnityEngine::Playables::PlayableOutputHandle& _unity_self, ::System::Single weight)
+		static ::System::Void SetWeight_Injected(::UnityEngine::Playables::PlayableOutputHandle& a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Playables::PlayableOutputHandle&, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETWEIGHT_INJECTED_OFFSET))(_unity_self, weight);
+			return ((::System::Void(*)(::UnityEngine::Playables::PlayableOutputHandle&, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_SETWEIGHT_INJECTED_OFFSET))(a1, a2);
 		}
 
 		/*
-		static ::System::Void PushNotification_Injected(::UnityEngine::Playables::PlayableOutputHandle& _unity_self, ::UnityEngine::Playables::PlayableHandle& origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context)
+		static ::System::Void PushNotification_Injected(::UnityEngine::Playables::PlayableOutputHandle& a1, ::UnityEngine::Playables::PlayableHandle& a2, ::UnityEngine::Playables::INotification* a3, ::System::Object* a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Playables::PlayableOutputHandle&, ::UnityEngine::Playables::PlayableHandle&, ::UnityEngine::Playables::INotification*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_PUSHNOTIFICATION_INJECTED_OFFSET))(_unity_self, origin, notification, context);
+			return ((::System::Void(*)(::UnityEngine::Playables::PlayableOutputHandle&, ::UnityEngine::Playables::PlayableHandle&, ::UnityEngine::Playables::INotification*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_PUSHNOTIFICATION_INJECTED_OFFSET))(a1, a2, a3, a4);
 		}
 		*/
 
-		static ::System::Void AddNotificationReceiver_Injected(::UnityEngine::Playables::PlayableOutputHandle& _unity_self, ::UnityEngine::Playables::INotificationReceiver* receiver)
+		static ::System::Void AddNotificationReceiver_Injected(::UnityEngine::Playables::PlayableOutputHandle& a1, ::UnityEngine::Playables::INotificationReceiver* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Playables::PlayableOutputHandle&, ::UnityEngine::Playables::INotificationReceiver*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_ADDNOTIFICATIONRECEIVER_INJECTED_OFFSET))(_unity_self, receiver);
+			return ((::System::Void(*)(::UnityEngine::Playables::PlayableOutputHandle&, ::UnityEngine::Playables::INotificationReceiver*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEOUTPUTHANDLE_ADDNOTIFICATIONRECEIVER_INJECTED_OFFSET))(a1, a2);
 		}
 	};
 }

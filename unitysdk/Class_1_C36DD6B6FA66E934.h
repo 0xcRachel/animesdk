@@ -3,19 +3,19 @@
 #include "unitysdk/RPG/GameCore/CommonIndexKey.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_C36DD6B6FA66E934_EQUALS_OFFSET UNITYSDK_OFFSET(0x16BF09C0)
-#define CLASS_1_C36DD6B6FA66E934_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x16BF09D0)
-#define CLASS_1_C36DD6B6FA66E934__CCTOR_OFFSET UNITYSDK_OFFSET(0x16BF09F0)
-#define CLASS_1_C36DD6B6FA66E934__CTOR_OFFSET UNITYSDK_OFFSET(0x16BF09E0)
+#define CLASS_1_C36DD6B6FA66E934_EQUALS_OFFSET UNITYSDK_OFFSET(0x18F5DFC0)
+#define CLASS_1_C36DD6B6FA66E934_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18F5DFD0)
+#define CLASS_1_C36DD6B6FA66E934__CCTOR_OFFSET UNITYSDK_OFFSET(0x18F5DFF0)
+#define CLASS_1_C36DD6B6FA66E934__CTOR_OFFSET UNITYSDK_OFFSET(0x18F5DFE0)
 
-inline static constexpr unsigned int Class_1_C36DD6B6FA66E934_TypeDefinitionIndex = 23547;
+inline static constexpr unsigned int Class_1_C36DD6B6FA66E934_TypeDefinitionIndex = 10422;
 
 class Class_1_C36DD6B6FA66E934 : public ::System::Object
 {
 public:
 	static ::Class_1_C36DD6B6FA66E934** StaticGet_Field_1_0()
 	{
-		return (::Class_1_C36DD6B6FA66E934**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C36DD6B6FA66E934_TypeDefinitionIndex)->GetStaticField(0x49D0);
+		return (::Class_1_C36DD6B6FA66E934**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C36DD6B6FA66E934_TypeDefinitionIndex)->GetStaticField(0x17D0);
 	}
 
 	::System::Void _ctor()

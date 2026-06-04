@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AudioSetRTPCValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C92D2FC5FA572B96_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE783560)
-#define CLASS_3_C92D2FC5FA572B96__CTOR_OFFSET UNITYSDK_OFFSET(0xE783530)
+#define CLASS_3_C92D2FC5FA572B96_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15392400)
+#define CLASS_3_C92D2FC5FA572B96__CTOR_OFFSET UNITYSDK_OFFSET(0x153923D0)
 
-inline static constexpr unsigned int Class_3_C92D2FC5FA572B96_TypeDefinitionIndex = 51934;
+inline static constexpr unsigned int Class_3_C92D2FC5FA572B96_TypeDefinitionIndex = 52608;
 
 class Class_3_C92D2FC5FA572B96 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AudioSetRTPCValue*>
 {

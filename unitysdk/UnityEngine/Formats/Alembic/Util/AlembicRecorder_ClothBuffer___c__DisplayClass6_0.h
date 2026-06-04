@@ -7,14 +7,14 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Mesh; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER___C__DISPLAYCLASS6_0__CAPTURE_B__0_OFFSET UNITYSDK_OFFSET(0x18C141A0)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER___C__DISPLAYCLASS6_0__CAPTURE_B__1_OFFSET UNITYSDK_OFFSET(0x18C14250)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER___C__DISPLAYCLASS6_0__CAPTURE_B__2_OFFSET UNITYSDK_OFFSET(0x18C14300)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18C13E00)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER___C__DISPLAYCLASS6_0__CAPTURE_B__0_OFFSET UNITYSDK_OFFSET(0x1973C4A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER___C__DISPLAYCLASS6_0__CAPTURE_B__1_OFFSET UNITYSDK_OFFSET(0x1973C4E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER___C__DISPLAYCLASS6_0__CAPTURE_B__2_OFFSET UNITYSDK_OFFSET(0x1973C520)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1973C060)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int AlembicRecorder_ClothBuffer___c__DisplayClass6_0_TypeDefinitionIndex = 40761;
+	inline static constexpr unsigned int AlembicRecorder_ClothBuffer___c__DisplayClass6_0_TypeDefinitionIndex = 41587;
 
 	class AlembicRecorder_ClothBuffer___c__DisplayClass6_0 : public ::System::Object
 	{
@@ -26,19 +26,19 @@ namespace UnityEngine::Formats::Alembic::Util
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER___C__DISPLAYCLASS6_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Capture_b__0(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* ls)
+		::System::Void _Capture_b__0(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER___C__DISPLAYCLASS6_0__CAPTURE_B__0_OFFSET))(this, ls);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER___C__DISPLAYCLASS6_0__CAPTURE_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Void _Capture_b__1(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* ls)
+		::System::Void _Capture_b__1(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER___C__DISPLAYCLASS6_0__CAPTURE_B__1_OFFSET))(this, ls);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER___C__DISPLAYCLASS6_0__CAPTURE_B__1_OFFSET))(this, a1);
 		}
 
-		::System::Void _Capture_b__2(::System::Collections::Generic::List_1<::UnityEngine::Color>* ls)
+		::System::Void _Capture_b__2(::System::Collections::Generic::List_1<::UnityEngine::Color>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER___C__DISPLAYCLASS6_0__CAPTURE_B__2_OFFSET))(this, ls);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER___C__DISPLAYCLASS6_0__CAPTURE_B__2_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,18 +5,18 @@
 namespace RPGCamera { class CommonPriorityStack; }
 namespace RPGCamera { class ICameraState; }
 
-#define RPGCAMERA_CAMERASTACK_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x175BEF20)
-#define RPGCAMERA_CAMERASTACK_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x175BEF40)
-#define RPGCAMERA_CAMERASTACK_NEXT_OFFSET UNITYSDK_OFFSET(0x175BF640)
-#define RPGCAMERA_CAMERASTACK_PEEK_OFFSET UNITYSDK_OFFSET(0x175BF5D0)
-#define RPGCAMERA_CAMERASTACK_POP_OFFSET UNITYSDK_OFFSET(0x175BF320)
-#define RPGCAMERA_CAMERASTACK_PUSH_OFFSET UNITYSDK_OFFSET(0x175BF110)
-#define RPGCAMERA_CAMERASTACK_TOP_OFFSET UNITYSDK_OFFSET(0x175BF560)
-#define RPGCAMERA_CAMERASTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x175BF810)
+#define RPGCAMERA_CAMERASTACK_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x19BAE8E0)
+#define RPGCAMERA_CAMERASTACK_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x19BAE900)
+#define RPGCAMERA_CAMERASTACK_NEXT_OFFSET UNITYSDK_OFFSET(0x19BAF0A0)
+#define RPGCAMERA_CAMERASTACK_PEEK_OFFSET UNITYSDK_OFFSET(0x19BAF030)
+#define RPGCAMERA_CAMERASTACK_POP_OFFSET UNITYSDK_OFFSET(0x19BAED60)
+#define RPGCAMERA_CAMERASTACK_PUSH_OFFSET UNITYSDK_OFFSET(0x19BAEA20)
+#define RPGCAMERA_CAMERASTACK_TOP_OFFSET UNITYSDK_OFFSET(0x19BAEFC0)
+#define RPGCAMERA_CAMERASTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19BAF290)
 
 namespace RPGCamera
 {
-	inline static constexpr unsigned int CameraStack_TypeDefinitionIndex = 40934;
+	inline static constexpr unsigned int CameraStack_TypeDefinitionIndex = 41752;
 
 	class CameraStack : public ::System::Object
 	{
@@ -33,19 +33,19 @@ namespace RPGCamera
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGCAMERA_CAMERASTACK_GET_COUNT_OFFSET))(this);
 		}
 
-		::RPGCamera::ICameraState* get_Item(::System::Int32 index)
+		::RPGCamera::ICameraState* get_Item(::System::Int32 a1)
 		{
-			return ((::RPGCamera::ICameraState*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPGCAMERA_CAMERASTACK_GET_ITEM_OFFSET))(this, index);
+			return ((::RPGCamera::ICameraState*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPGCAMERA_CAMERASTACK_GET_ITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void Push(::RPGCamera::ICameraState* state)
+		::System::Void Push(::RPGCamera::ICameraState* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGCamera::ICameraState*))((::PBYTE)hIl2Cpp + RPGCAMERA_CAMERASTACK_PUSH_OFFSET))(this, state);
+			return ((::System::Void(*)(::PVOID, ::RPGCamera::ICameraState*))((::PBYTE)hIl2Cpp + RPGCAMERA_CAMERASTACK_PUSH_OFFSET))(this, a1);
 		}
 
-		::RPGCamera::ICameraState* Pop(::System::Int32 index)
+		::RPGCamera::ICameraState* Pop(::System::Int32 a1)
 		{
-			return ((::RPGCamera::ICameraState*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPGCAMERA_CAMERASTACK_POP_OFFSET))(this, index);
+			return ((::RPGCamera::ICameraState*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPGCAMERA_CAMERASTACK_POP_OFFSET))(this, a1);
 		}
 
 		::RPGCamera::ICameraState* Top()
@@ -58,9 +58,9 @@ namespace RPGCamera
 			return ((::RPGCamera::ICameraState*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGCAMERA_CAMERASTACK_NEXT_OFFSET))(this);
 		}
 
-		::RPGCamera::ICameraState* Peek(::System::Int32 index)
+		::RPGCamera::ICameraState* Peek(::System::Int32 a1)
 		{
-			return ((::RPGCamera::ICameraState*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPGCAMERA_CAMERASTACK_PEEK_OFFSET))(this, index);
+			return ((::RPGCamera::ICameraState*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPGCAMERA_CAMERASTACK_PEEK_OFFSET))(this, a1);
 		}
 	};
 }

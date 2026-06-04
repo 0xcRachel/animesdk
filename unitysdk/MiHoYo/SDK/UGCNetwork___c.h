@@ -6,29 +6,29 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MIHOYO_SDK_UGCNETWORK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17CF2320)
-#define MIHOYO_SDK_UGCNETWORK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17CF2360)
-#define MIHOYO_SDK_UGCNETWORK___C__PERFORMHTTPREQUESTBINARY_B__6_0_OFFSET UNITYSDK_OFFSET(0x17CF2370)
-#define MIHOYO_SDK_UGCNETWORK___C__PERFORMHTTPREQUESTBINARY_B__6_1_OFFSET UNITYSDK_OFFSET(0x17CF2390)
+#define MIHOYO_SDK_UGCNETWORK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B98380)
+#define MIHOYO_SDK_UGCNETWORK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19B983C0)
+#define MIHOYO_SDK_UGCNETWORK___C__PERFORMHTTPREQUESTBINARY_B__6_0_OFFSET UNITYSDK_OFFSET(0x19B983D0)
+#define MIHOYO_SDK_UGCNETWORK___C__PERFORMHTTPREQUESTBINARY_B__6_1_OFFSET UNITYSDK_OFFSET(0x19B983F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCNetwork___c_TypeDefinitionIndex = 43061;
+	inline static constexpr unsigned int UGCNetwork___c_TypeDefinitionIndex = 43864;
 
 	class UGCNetwork___c : public ::System::Object
 	{
 	public:
+		static ::MiHoYo::SDK::UGCNetwork___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::UGCNetwork___c**)Il2CppClass::FromTypeDefinitionIndex(UGCNetwork___c_TypeDefinitionIndex)->GetStaticField(0x14880);
+		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>, ::System::String*>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UGCNetwork___c_TypeDefinitionIndex)->GetStaticField(0x55A90);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UGCNetwork___c_TypeDefinitionIndex)->GetStaticField(0x14888);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>, ::System::String*>** StaticGet___9__6_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UGCNetwork___c_TypeDefinitionIndex)->GetStaticField(0x55A98);
-		}
-		static ::MiHoYo::SDK::UGCNetwork___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::UGCNetwork___c**)Il2CppClass::FromTypeDefinitionIndex(UGCNetwork___c_TypeDefinitionIndex)->GetStaticField(0x55AA0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UGCNetwork___c_TypeDefinitionIndex)->GetStaticField(0x14890);
 		}
 
 		static ::System::Void _cctor()
@@ -41,14 +41,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCNETWORK___C__CTOR_OFFSET))(this);
 		}
 
-		::System::String* _PerformHttpRequestBinary_b__6_0(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*> kvp)
+		::System::String* _PerformHttpRequestBinary_b__6_0(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*> a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCNETWORK___C__PERFORMHTTPREQUESTBINARY_B__6_0_OFFSET))(this, kvp);
+			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCNETWORK___C__PERFORMHTTPREQUESTBINARY_B__6_0_OFFSET))(this, a1);
 		}
 
-		::System::String* _PerformHttpRequestBinary_b__6_1(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*> kvp)
+		::System::String* _PerformHttpRequestBinary_b__6_1(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*> a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCNETWORK___C__PERFORMHTTPREQUESTBINARY_B__6_1_OFFSET))(this, kvp);
+			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCNETWORK___C__PERFORMHTTPREQUESTBINARY_B__6_1_OFFSET))(this, a1);
 		}
 	};
 }

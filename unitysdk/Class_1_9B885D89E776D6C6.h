@@ -6,26 +6,26 @@ namespace RPG::GameCore { class CSVRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_9B885D89E776D6C6_METHOD_1_470C8608A6F7A2BA_OFFSET UNITYSDK_OFFSET(0x186F5400)
-#define CLASS_1_9B885D89E776D6C6_TOSTRING_OFFSET UNITYSDK_OFFSET(0x186F5490)
-#define CLASS_1_9B885D89E776D6C6__CTOR_OFFSET UNITYSDK_OFFSET(0x186F53A0)
+#define CLASS_1_9B885D89E776D6C6_METHOD_1_FC513BFB4DDB9C61_OFFSET UNITYSDK_OFFSET(0x18F68490)
+#define CLASS_1_9B885D89E776D6C6_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18F68570)
+#define CLASS_1_9B885D89E776D6C6__CTOR_OFFSET UNITYSDK_OFFSET(0x18F68430)
 
-inline static constexpr unsigned int Class_1_9B885D89E776D6C6_TypeDefinitionIndex = 23540;
+inline static constexpr unsigned int Class_1_9B885D89E776D6C6_TypeDefinitionIndex = 10415;
 
 class Class_1_9B885D89E776D6C6 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::GameCore::CSVRow*>* Field_1_1; // 0x10
-	::Il2CppArray<::System::String*>* Field_1_0; // 0x18
+	::System::Collections::Generic::List_1<::RPG::GameCore::CSVRow*>* Field_1_0; // 0x10
+	::Il2CppArray<::System::String*>* Field_1_1; // 0x18
 
 	::System::Void _ctor(::Il2CppArray<::System::String*>* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + CLASS_1_9B885D89E776D6C6__CTOR_OFFSET))(this, a1);
 	}
 
-	::RPG::GameCore::CSVRow* Method_1_470C8608A6F7A2BA()
+	::RPG::GameCore::CSVRow* Method_1_FC513BFB4DDB9C61()
 	{
-		return ((::RPG::GameCore::CSVRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9B885D89E776D6C6_METHOD_1_470C8608A6F7A2BA_OFFSET))(this);
+		return ((::RPG::GameCore::CSVRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9B885D89E776D6C6_METHOD_1_FC513BFB4DDB9C61_OFFSET))(this);
 	}
 
 	::System::String* ToString()

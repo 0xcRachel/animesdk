@@ -3,14 +3,17 @@
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCHECKFIGHTFINISH_METHOD_4_1E5DB1E69EE66563_OFFSET UNITYSDK_OFFSET(0x187D13D0)
-#define RPG_GAMECORE_BYCHECKFIGHTFINISH_METHOD_4_EF0056CE4BF148B9_OFFSET UNITYSDK_OFFSET(0x187D1300)
-#define RPG_GAMECORE_BYCHECKFIGHTFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x187D1380)
+#define RPG_GAMECORE_BYCHECKFIGHTFINISH_METHOD_4_1E5DB1E69EE66563_OFFSET UNITYSDK_OFFSET(0x195F8860)
+#define RPG_GAMECORE_BYCHECKFIGHTFINISH_METHOD_4_B65A0058C2A21AB4_OFFSET UNITYSDK_OFFSET(0x195F89A0)
+#define RPG_GAMECORE_BYCHECKFIGHTFINISH_METHOD_4_BABE18FC6BC2FE6C_OFFSET UNITYSDK_OFFSET(0x195F8A20)
+#define RPG_GAMECORE_BYCHECKFIGHTFINISH_METHOD_4_EF0056CE4BF148B9_OFFSET UNITYSDK_OFFSET(0x195F8790)
+#define RPG_GAMECORE_BYCHECKFIGHTFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x195F8810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCheckFightFinish_TypeDefinitionIndex = 22411;
+	inline static constexpr unsigned int ByCheckFightFinish_TypeDefinitionIndex = 22165;
 
 	class ByCheckFightFinish : public ::RPG::GameCore::PredicateConfig
 	{
@@ -28,6 +31,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_1E5DB1E69EE66563(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCheckFightFinish* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCheckFightFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKFIGHTFINISH_METHOD_4_1E5DB1E69EE66563_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_B65A0058C2A21AB4(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckFightFinish*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckFightFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKFIGHTFINISH_METHOD_4_B65A0058C2A21AB4_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_BABE18FC6BC2FE6C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckFightFinish* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckFightFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKFIGHTFINISH_METHOD_4_BABE18FC6BC2FE6C_OFFSET))(a1, a2);
 		}
 	};
 }

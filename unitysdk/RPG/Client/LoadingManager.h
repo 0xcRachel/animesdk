@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/Client/LoadingManager_VerifyLoadingType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0EF666754493EADC;
-class Class_1_B3D4E13199540E4F;
-class Class_1_F59C8DF29FF9694F;
+class Class_1_3074563A66A2D0FE;
+class Class_1_31B28970A5870409;
+class Class_1_9D40F9D90905A4A4;
 namespace RPG::Client { class IAssetOperation; }
 namespace RPG::Client { class LoadingManager_WorkDefCounter; }
 namespace RPG::Client { class RPGProfilerMarker; }
@@ -17,71 +17,71 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LOADINGMANAGER_GET_ENABLECUSTOMPRELOAD_OFFSET UNITYSDK_OFFSET(0x1653F820)
-#define RPG_CLIENT_LOADINGMANAGER_GET_FINISHEDWORKCOUNT_OFFSET UNITYSDK_OFFSET(0x1653F810)
-#define RPG_CLIENT_LOADINGMANAGER_GET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x1653F750)
-#define RPG_CLIENT_LOADINGMANAGER_GET_SKIPSCENEITEMFADING_OFFSET UNITYSDK_OFFSET(0x1653F840)
-#define RPG_CLIENT_LOADINGMANAGER_GET_TOTALWORKCOUNT_OFFSET UNITYSDK_OFFSET(0x1653F800)
-#define RPG_CLIENT_LOADINGMANAGER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1653C5D0)
-#define RPG_CLIENT_LOADINGMANAGER_ISGAMELOADING_OFFSET UNITYSDK_OFFSET(0x1653CD70)
-#define RPG_CLIENT_LOADINGMANAGER_LATETICK_OFFSET UNITYSDK_OFFSET(0x1653D010)
-#define RPG_CLIENT_LOADINGMANAGER_RECORDPERFORMANCEID_OFFSET UNITYSDK_OFFSET(0x1653D910)
-#define RPG_CLIENT_LOADINGMANAGER_REGISTELOADINGWORKDEFSCOUNTER_OFFSET UNITYSDK_OFFSET(0x1653C760)
-#define RPG_CLIENT_LOADINGMANAGER_REPORTEFFECTTRANSITIONBEGIN_OFFSET UNITYSDK_OFFSET(0x1653D730)
-#define RPG_CLIENT_LOADINGMANAGER_REPORTEFFECTTRANSITIONEND_OFFSET UNITYSDK_OFFSET(0x1653D7E0)
-#define RPG_CLIENT_LOADINGMANAGER_REPORTLOADINGADVINITEND_OFFSET UNITYSDK_OFFSET(0x1653D5C0)
-#define RPG_CLIENT_LOADINGMANAGER_REPORTLOADINGBEGIN_OFFSET UNITYSDK_OFFSET(0x1653D960)
-#define RPG_CLIENT_LOADINGMANAGER_REPORTLOADINGDATA_OFFSET UNITYSDK_OFFSET(0x1653DBE0)
-#define RPG_CLIENT_LOADINGMANAGER_REPORTLOADINGTRYFAILCOUNT_OFFSET UNITYSDK_OFFSET(0x1653D2C0)
-#define RPG_CLIENT_LOADINGMANAGER_REPORTLOADINGTRYRESULT_OFFSET UNITYSDK_OFFSET(0x1653D440)
-#define RPG_CLIENT_LOADINGMANAGER_REPORTSCREENSTUCKBEGIN_OFFSET UNITYSDK_OFFSET(0x1653D680)
-#define RPG_CLIENT_LOADINGMANAGER_SETLOADFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0x1653CCD0)
-#define RPG_CLIENT_LOADINGMANAGER_SETLOADINGCONFIGDATA_OFFSET UNITYSDK_OFFSET(0x1653D050)
-#define RPG_CLIENT_LOADINGMANAGER_SETPROGRESSCHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1653CD20)
-#define RPG_CLIENT_LOADINGMANAGER_SET_ENABLECUSTOMPRELOAD_OFFSET UNITYSDK_OFFSET(0x1653F830)
-#define RPG_CLIENT_LOADINGMANAGER_SET_SKIPSCENEITEMFADING_OFFSET UNITYSDK_OFFSET(0x1653F850)
-#define RPG_CLIENT_LOADINGMANAGER_STARTTICK_OFFSET UNITYSDK_OFFSET(0x1653C860)
-#define RPG_CLIENT_LOADINGMANAGER_STOPTICK_OFFSET UNITYSDK_OFFSET(0x1653CA40)
-#define RPG_CLIENT_LOADINGMANAGER_TICK_OFFSET UNITYSDK_OFFSET(0x1653CDC0)
-#define RPG_CLIENT_LOADINGMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1653F860)
-#define RPG_CLIENT_LOADINGMANAGER__COMPUTEFINISHEDPROGRESS_OFFSET UNITYSDK_OFFSET(0x1653F4A0)
-#define RPG_CLIENT_LOADINGMANAGER__COMPUTENEXTPROGRESS_OFFSET UNITYSDK_OFFSET(0x1653F7A0)
-#define RPG_CLIENT_LOADINGMANAGER__CONVERTTIMETOSECOND_OFFSET UNITYSDK_OFFSET(0x1653EE90)
-#define RPG_CLIENT_LOADINGMANAGER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1653C240)
-#define RPG_CLIENT_LOADINGMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1653BF40)
-#define RPG_CLIENT_LOADINGMANAGER__CUSTOMUPDATEPRELOADMANAGER_OFFSET UNITYSDK_OFFSET(0x1653CE40)
-#define RPG_CLIENT_LOADINGMANAGER__GETMAXLOADINGTIME_OFFSET UNITYSDK_OFFSET(0x1653EF10)
-#define RPG_CLIENT_LOADINGMANAGER__ISLOADINGTYPEREPORTMATCH_OFFSET UNITYSDK_OFFSET(0x1653EDF0)
-#define RPG_CLIENT_LOADINGMANAGER__ONLOADMAPSTUCKSAMPLEPOINT_OFFSET UNITYSDK_OFFSET(0x1653BD40)
-#define RPG_CLIENT_LOADINGMANAGER__ONQUEUENEWWORK_OFFSET UNITYSDK_OFFSET(0x1653F350)
-#define RPG_CLIENT_LOADINGMANAGER__ONWORKFINISH_OFFSET UNITYSDK_OFFSET(0x1653F4F0)
-#define RPG_CLIENT_LOADINGMANAGER__REFRESHWORKDEFCOUNT_OFFSET UNITYSDK_OFFSET(0x1653C7B0)
-#define RPG_CLIENT_LOADINGMANAGER__RESETSTUCKCHECKTIMERWHENWORKFINISH_OFFSET UNITYSDK_OFFSET(0x1653BC20)
-#define RPG_CLIENT_LOADINGMANAGER__STARTSTUCKCHECK_OFFSET UNITYSDK_OFFSET(0x1653B800)
-#define RPG_CLIENT_LOADINGMANAGER__STOPSTUCKCHECK_OFFSET UNITYSDK_OFFSET(0x1653B9C0)
-#define RPG_CLIENT_LOADINGMANAGER__TICKSTUCKCHECK_LOADMAP_OFFSET UNITYSDK_OFFSET(0x1653BB60)
-#define RPG_CLIENT_LOADINGMANAGER__TICKSTUCKCHECK_OFFSET UNITYSDK_OFFSET(0x1653BA70)
-#define RPG_CLIENT_LOADINGMANAGER__TRYADDTOWATCH_OFFSET UNITYSDK_OFFSET(0x1653EFD0)
-#define RPG_CLIENT_LOADINGMANAGER__UPDATEFINISHPROGRESS_OFFSET UNITYSDK_OFFSET(0x1653F3B0)
+#define RPG_CLIENT_LOADINGMANAGER_GET_ENABLECUSTOMPRELOAD_OFFSET UNITYSDK_OFFSET(0x18897450)
+#define RPG_CLIENT_LOADINGMANAGER_GET_FINISHEDWORKCOUNT_OFFSET UNITYSDK_OFFSET(0x18897440)
+#define RPG_CLIENT_LOADINGMANAGER_GET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x18897380)
+#define RPG_CLIENT_LOADINGMANAGER_GET_SKIPSCENEITEMFADING_OFFSET UNITYSDK_OFFSET(0x18897470)
+#define RPG_CLIENT_LOADINGMANAGER_GET_TOTALWORKCOUNT_OFFSET UNITYSDK_OFFSET(0x18897430)
+#define RPG_CLIENT_LOADINGMANAGER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x188943B0)
+#define RPG_CLIENT_LOADINGMANAGER_ISGAMELOADING_OFFSET UNITYSDK_OFFSET(0x18894B20)
+#define RPG_CLIENT_LOADINGMANAGER_LATETICK_OFFSET UNITYSDK_OFFSET(0x18894E80)
+#define RPG_CLIENT_LOADINGMANAGER_RECORDPERFORMANCEID_OFFSET UNITYSDK_OFFSET(0x18895740)
+#define RPG_CLIENT_LOADINGMANAGER_REGISTELOADINGWORKDEFSCOUNTER_OFFSET UNITYSDK_OFFSET(0x188944C0)
+#define RPG_CLIENT_LOADINGMANAGER_REPORTEFFECTTRANSITIONBEGIN_OFFSET UNITYSDK_OFFSET(0x18895560)
+#define RPG_CLIENT_LOADINGMANAGER_REPORTEFFECTTRANSITIONEND_OFFSET UNITYSDK_OFFSET(0x18895610)
+#define RPG_CLIENT_LOADINGMANAGER_REPORTLOADINGADVINITEND_OFFSET UNITYSDK_OFFSET(0x188953F0)
+#define RPG_CLIENT_LOADINGMANAGER_REPORTLOADINGBEGIN_OFFSET UNITYSDK_OFFSET(0x18895790)
+#define RPG_CLIENT_LOADINGMANAGER_REPORTLOADINGDATA_OFFSET UNITYSDK_OFFSET(0x18895A00)
+#define RPG_CLIENT_LOADINGMANAGER_REPORTLOADINGTRYFAILCOUNT_OFFSET UNITYSDK_OFFSET(0x18895130)
+#define RPG_CLIENT_LOADINGMANAGER_REPORTLOADINGTRYRESULT_OFFSET UNITYSDK_OFFSET(0x18895290)
+#define RPG_CLIENT_LOADINGMANAGER_REPORTSCREENSTUCKBEGIN_OFFSET UNITYSDK_OFFSET(0x188954B0)
+#define RPG_CLIENT_LOADINGMANAGER_SETLOADFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0x18894A80)
+#define RPG_CLIENT_LOADINGMANAGER_SETLOADINGCONFIGDATA_OFFSET UNITYSDK_OFFSET(0x18894EC0)
+#define RPG_CLIENT_LOADINGMANAGER_SETPROGRESSCHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x18894AD0)
+#define RPG_CLIENT_LOADINGMANAGER_SET_ENABLECUSTOMPRELOAD_OFFSET UNITYSDK_OFFSET(0x18897460)
+#define RPG_CLIENT_LOADINGMANAGER_SET_SKIPSCENEITEMFADING_OFFSET UNITYSDK_OFFSET(0x18897480)
+#define RPG_CLIENT_LOADINGMANAGER_STARTTICK_OFFSET UNITYSDK_OFFSET(0x188945D0)
+#define RPG_CLIENT_LOADINGMANAGER_STOPTICK_OFFSET UNITYSDK_OFFSET(0x188947D0)
+#define RPG_CLIENT_LOADINGMANAGER_TICK_OFFSET UNITYSDK_OFFSET(0x18894B70)
+#define RPG_CLIENT_LOADINGMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18897490)
+#define RPG_CLIENT_LOADINGMANAGER__COMPUTEFINISHEDPROGRESS_OFFSET UNITYSDK_OFFSET(0x188970A0)
+#define RPG_CLIENT_LOADINGMANAGER__COMPUTENEXTPROGRESS_OFFSET UNITYSDK_OFFSET(0x188973D0)
+#define RPG_CLIENT_LOADINGMANAGER__CONVERTTIMETOSECOND_OFFSET UNITYSDK_OFFSET(0x18896D10)
+#define RPG_CLIENT_LOADINGMANAGER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18894000)
+#define RPG_CLIENT_LOADINGMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x18893D00)
+#define RPG_CLIENT_LOADINGMANAGER__CUSTOMUPDATEPRELOADMANAGER_OFFSET UNITYSDK_OFFSET(0x18894CB0)
+#define RPG_CLIENT_LOADINGMANAGER__GETMAXLOADINGTIME_OFFSET UNITYSDK_OFFSET(0x18896D90)
+#define RPG_CLIENT_LOADINGMANAGER__ISLOADINGTYPEREPORTMATCH_OFFSET UNITYSDK_OFFSET(0x18896C70)
+#define RPG_CLIENT_LOADINGMANAGER__ONLOADMAPSTUCKSAMPLEPOINT_OFFSET UNITYSDK_OFFSET(0x18893A90)
+#define RPG_CLIENT_LOADINGMANAGER__ONQUEUENEWWORK_OFFSET UNITYSDK_OFFSET(0x18896F30)
+#define RPG_CLIENT_LOADINGMANAGER__ONWORKFINISH_OFFSET UNITYSDK_OFFSET(0x188970F0)
+#define RPG_CLIENT_LOADINGMANAGER__REFRESHWORKDEFCOUNT_OFFSET UNITYSDK_OFFSET(0x18894510)
+#define RPG_CLIENT_LOADINGMANAGER__RESETSTUCKCHECKTIMERWHENWORKFINISH_OFFSET UNITYSDK_OFFSET(0x18893970)
+#define RPG_CLIENT_LOADINGMANAGER__STARTSTUCKCHECK_OFFSET UNITYSDK_OFFSET(0x18893530)
+#define RPG_CLIENT_LOADINGMANAGER__STOPSTUCKCHECK_OFFSET UNITYSDK_OFFSET(0x18893700)
+#define RPG_CLIENT_LOADINGMANAGER__TICKSTUCKCHECK_LOADMAP_OFFSET UNITYSDK_OFFSET(0x188938B0)
+#define RPG_CLIENT_LOADINGMANAGER__TICKSTUCKCHECK_OFFSET UNITYSDK_OFFSET(0x188937C0)
+#define RPG_CLIENT_LOADINGMANAGER__TRYADDTOWATCH_OFFSET UNITYSDK_OFFSET(0x18896E50)
+#define RPG_CLIENT_LOADINGMANAGER__UPDATEFINISHPROGRESS_OFFSET UNITYSDK_OFFSET(0x18896F90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoadingManager_TypeDefinitionIndex = 55853;
+	inline static constexpr unsigned int LoadingManager_TypeDefinitionIndex = 56608;
 
 	class LoadingManager : public ::System::Object
 	{
 	public:
+		static ::RPG::Client::RPGProfilerMarker** StaticGet__StartTickMarker()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(LoadingManager_TypeDefinitionIndex)->GetStaticField(0x48210);
+		}
 		static ::RPG::Client::RPGProfilerMarker** StaticGet__StopTickMarker()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(LoadingManager_TypeDefinitionIndex)->GetStaticField(0x48900);
+			return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(LoadingManager_TypeDefinitionIndex)->GetStaticField(0x48218);
 		}
 		static ::RPG::Client::RPGProfilerMarker** StaticGet__CustomUpdatePreloadManagerMarker()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(LoadingManager_TypeDefinitionIndex)->GetStaticField(0x48908);
-		}
-		static ::RPG::Client::RPGProfilerMarker** StaticGet__StartTickMarker()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(LoadingManager_TypeDefinitionIndex)->GetStaticField(0x48910);
+			return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(LoadingManager_TypeDefinitionIndex)->GetStaticField(0x48220);
 		}
 		// static const ::System::Int32 _TARGET_FRAME_RATE_DURING_TICK = 0xF; // 0x0
 		// static const ::System::String* _Loading_Max_Time_LoadMapIDKey; // 0x0
@@ -92,59 +92,59 @@ namespace RPG::Client
 		// static const ::System::String* _Loading_Max_Time_LeavePerformanceIDKey; // 0x0
 		// static const ::System::String* _adv_loading_receive_packet_count_key; // 0x0
 		// static const ::System::String* _adv_loading_receive_packet_list_key; // 0x0
-		::System::Collections::Generic::List_1<::System::String*>* _MonsterWaveList; // 0x10
-		::RPG::Client::LoadingManager_WorkDefCounter* _workDefCounter; // 0x18
-		::System::Action* _LoadFinishCallback; // 0x20
-		::System::Action_1<::System::Single>* _ProgressChangedCallback; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _ReportArguments; // 0x30
-		::Class_1_0EF666754493EADC* _LoadMapStuckReportData; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _ReportTryLoadFails; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _ReportNotifyArguments; // 0x48
-		::System::Collections::Generic::HashSet_1<::Class_1_F59C8DF29FF9694F*>* _LoadingWorks; // 0x50
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _ReportTryLoadStates; // 0x58
-		::Class_1_B3D4E13199540E4F* _AsyncProcessor; // 0x60
-		::System::Int32 _LoadingType; // 0x68
-		::System::Single _FinishedProgress; // 0x6C
-		::System::UInt64 _WorkActionTimeBegin; // 0x70
-		::System::Int32 _TargetFrameRateBeforeStartTick; // 0x78
-		::System::Boolean _EnableCustomPreload_k__BackingField; // 0x7C
-		::System::Boolean _ResetTargetFPSFlag; // 0x7D
-		::System::Boolean _StartTick; // 0x7E
-		::System::Boolean _ResetMainCameraCullingFlag; // 0x7F
-		::System::Single _DesignDataLoadMaxTime; // 0x80
-		::System::UInt64 _EffectTransitionExistTime; // 0x88
-		::System::Int32 _FinishedWorkCount; // 0x90
-		::System::Int32 _WorkActionCallNums; // 0x94
-		::System::UInt64 _ScreenStuckTime; // 0x98
-		::System::UInt64 _ADVInitTime; // 0xA0
-		::System::Boolean _LogReported; // 0xA8
-		::System::Boolean _SkipSceneItemFading_k__BackingField; // 0xA9
-		::System::UInt32 _LastMapID; // 0xAC
-		::System::UInt64 _WorkActionTime; // 0xB0
-		::System::UInt64 _EffectTransitionExistTimeBegin; // 0xB8
-		::System::Single _BattleToMazeMaxTime; // 0xC0
-		::System::Int32 _TotalWorkCount; // 0xC4
-		::System::UInt64 _ADVInitTimeBegin; // 0xC8
-		::System::Single _LoadMapMaxTime; // 0xD0
-		::System::Single _EnterPerformanceMaxTime; // 0xD4
-		::System::UInt64 _TotalLoadingTimeBegin; // 0xD8
-		::System::Single _LeavePerformanceMaxTime; // 0xE0
-		::System::Single _StuckCheckTimer; // 0xE4
-		::System::Single _MazeToBattleMaxTime; // 0xE8
-		::System::Int32 _MainCameraOriginCullingMask; // 0xEC
-		::System::UInt32 _PerformanceID; // 0xF0
-		::System::UInt32 _LastStageID; // 0xF4
-		::System::UInt64 _ScreenStuckTimeBegin; // 0xF8
-		::System::UInt64 _TotalLoadingTime; // 0x100
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _ReportTryLoadStates; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _ReportNotifyArguments; // 0x18
+		::Class_1_31B28970A5870409* _AsyncProcessor; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _ReportTryLoadFails; // 0x28
+		::System::Collections::Generic::HashSet_1<::Class_1_9D40F9D90905A4A4*>* _LoadingWorks; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _ReportArguments; // 0x38
+		::System::Action* _LoadFinishCallback; // 0x40
+		::System::Collections::Generic::List_1<::System::String*>* _MonsterWaveList; // 0x48
+		::Class_1_3074563A66A2D0FE* _LoadMapStuckReportData; // 0x50
+		::System::Action_1<::System::Single>* _ProgressChangedCallback; // 0x58
+		::RPG::Client::LoadingManager_WorkDefCounter* _workDefCounter; // 0x60
+		::System::UInt64 _ScreenStuckTime; // 0x68
+		::System::UInt64 _TotalLoadingTime; // 0x70
+		::System::UInt64 _ScreenStuckTimeBegin; // 0x78
+		::System::Single _MazeToBattleMaxTime; // 0x80
+		::System::UInt64 _WorkActionTimeBegin; // 0x88
+		::System::Int32 _MainCameraOriginCullingMask; // 0x90
+		::System::Int32 _LoadingType; // 0x94
+		::System::UInt64 _TotalLoadingTimeBegin; // 0x98
+		::System::UInt64 _EffectTransitionExistTimeBegin; // 0xA0
+		::System::Int32 _FinishedWorkCount; // 0xA8
+		::System::Int32 _WorkActionCallNums; // 0xAC
+		::System::Single _EnterPerformanceMaxTime; // 0xB0
+		::System::Int32 _TargetFrameRateBeforeStartTick; // 0xB4
+		::System::UInt64 _EffectTransitionExistTime; // 0xB8
+		::System::Single _DesignDataLoadMaxTime; // 0xC0
+		::System::Boolean _StartTick; // 0xC4
+		::System::Boolean _SkipSceneItemFading_k__BackingField; // 0xC5
+		::System::UInt64 _ADVInitTime; // 0xC8
+		::System::UInt64 _ADVInitTimeBegin; // 0xD0
+		::System::Single _StuckCheckTimer; // 0xD8
+		::System::Single _FinishedProgress; // 0xDC
+		::System::UInt32 _LastStageID; // 0xE0
+		::System::UInt32 _PerformanceID; // 0xE4
+		::System::Single _LoadMapMaxTime; // 0xE8
+		::System::Single _BattleToMazeMaxTime; // 0xEC
+		::System::Boolean _ResetTargetFPSFlag; // 0xF0
+		::System::Boolean _ResetMainCameraCullingFlag; // 0xF1
+		::System::Boolean _EnableCustomPreload_k__BackingField; // 0xF2
+		::System::Boolean _LogReported; // 0xF3
+		::System::Single _LeavePerformanceMaxTime; // 0xF4
+		::System::Int32 _TotalWorkCount; // 0xF8
+		::System::UInt32 _LastMapID; // 0xFC
+		::System::UInt64 _WorkActionTime; // 0x100
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::Class_1_B3D4E13199540E4F* asyncProcessor)
+		::System::Void _ctor_1(::Class_1_31B28970A5870409* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_B3D4E13199540E4F*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__CTOR_1_OFFSET))(this, asyncProcessor);
+			return ((::System::Void(*)(::PVOID, ::Class_1_31B28970A5870409*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -162,24 +162,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__STOPSTUCKCHECK_OFFSET))(this);
 		}
 
-		::System::Void _TickStuckCheck(::System::Single dt)
+		::System::Void _TickStuckCheck(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__TICKSTUCKCHECK_OFFSET))(this, dt);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__TICKSTUCKCHECK_OFFSET))(this, a1);
 		}
 
-		::System::Void _ResetStuckCheckTimerWhenWorkFinish(::Class_1_F59C8DF29FF9694F* workDefinition, ::System::Boolean success)
+		::System::Void _ResetStuckCheckTimerWhenWorkFinish(::Class_1_9D40F9D90905A4A4* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_F59C8DF29FF9694F*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__RESETSTUCKCHECKTIMERWHENWORKFINISH_OFFSET))(this, workDefinition, success);
+			return ((::System::Void(*)(::PVOID, ::Class_1_9D40F9D90905A4A4*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__RESETSTUCKCHECKTIMERWHENWORKFINISH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _TickStuckCheck_LoadMap(::System::Single dt)
+		::System::Void _TickStuckCheck_LoadMap(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__TICKSTUCKCHECK_LOADMAP_OFFSET))(this, dt);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__TICKSTUCKCHECK_LOADMAP_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnLoadMapStuckSamplePoint(::System::Single stuckTime, ::System::Boolean upload)
+		::System::Void _OnLoadMapStuckSamplePoint(::System::Single a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__ONLOADMAPSTUCKSAMPLEPOINT_OFFSET))(this, stuckTime, upload);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__ONLOADMAPSTUCKSAMPLEPOINT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Initialize()
@@ -187,14 +187,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_INITIALIZE_OFFSET))(this);
 		}
 
-		::System::Void RegisteLoadingWorkDefsCounter(::RPG::Client::LoadingManager_WorkDefCounter* getWorkDefsFunc)
+		::System::Void RegisteLoadingWorkDefsCounter(::RPG::Client::LoadingManager_WorkDefCounter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LoadingManager_WorkDefCounter*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_REGISTELOADINGWORKDEFSCOUNTER_OFFSET))(this, getWorkDefsFunc);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LoadingManager_WorkDefCounter*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_REGISTELOADINGWORKDEFSCOUNTER_OFFSET))(this, a1);
 		}
 
-		::System::Void StartTick(::System::Boolean skipSceneItemFading)
+		::System::Void StartTick(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_STARTTICK_OFFSET))(this, skipSceneItemFading);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_STARTTICK_OFFSET))(this, a1);
 		}
 
 		::System::Void StopTick()
@@ -202,14 +202,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_STOPTICK_OFFSET))(this);
 		}
 
-		::System::Void SetLoadFinishCallback(::System::Action* callback)
+		::System::Void SetLoadFinishCallback(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_SETLOADFINISHCALLBACK_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_SETLOADFINISHCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void SetProgressChangedCallback(::System::Action_1<::System::Single>* callback)
+		::System::Void SetProgressChangedCallback(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_SETPROGRESSCHANGEDCALLBACK_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_SETPROGRESSCHANGEDCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsGameLoading()
@@ -217,9 +217,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_ISGAMELOADING_OFFSET))(this);
 		}
 
-		::System::Void Tick(::System::Single deltaTime)
+		::System::Void Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_TICK_OFFSET))(this, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_TICK_OFFSET))(this, a1);
 		}
 
 		::System::Void LateTick()
@@ -237,14 +237,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_SETLOADINGCONFIGDATA_OFFSET))(this);
 		}
 
-		::System::Void ReportLoadingTryFailCount(::RPG::Client::IAssetOperation* _, ::Il2CppArray<::System::Object*>* args)
+		::System::Void ReportLoadingTryFailCount(::RPG::Client::IAssetOperation* a1, ::Il2CppArray<::System::Object*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::IAssetOperation*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_REPORTLOADINGTRYFAILCOUNT_OFFSET))(this, _, args);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::IAssetOperation*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_REPORTLOADINGTRYFAILCOUNT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ReportLoadingTryResult(::RPG::Client::IAssetOperation* _, ::Il2CppArray<::System::Object*>* args)
+		::System::Void ReportLoadingTryResult(::RPG::Client::IAssetOperation* a1, ::Il2CppArray<::System::Object*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::IAssetOperation*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_REPORTLOADINGTRYRESULT_OFFSET))(this, _, args);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::IAssetOperation*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_REPORTLOADINGTRYRESULT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ReportLoadingADVInitEnd()
@@ -267,39 +267,39 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_REPORTEFFECTTRANSITIONEND_OFFSET))(this);
 		}
 
-		::System::Void RecordPerformanceID(::System::UInt32 performanceID)
+		::System::Void RecordPerformanceID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_RECORDPERFORMANCEID_OFFSET))(this, performanceID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_RECORDPERFORMANCEID_OFFSET))(this, a1);
 		}
 
-		::System::Void ReportLoadingBegin(::RPG::Client::LoadingManager_LoadingType type)
+		::System::Void ReportLoadingBegin(::RPG::Client::LoadingManager_LoadingType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LoadingManager_LoadingType))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_REPORTLOADINGBEGIN_OFFSET))(this, type);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LoadingManager_LoadingType))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_REPORTLOADINGBEGIN_OFFSET))(this, a1);
 		}
 
-		::System::Void ReportLoadingData(::RPG::Client::LoadingManager_VerifyLoadingType verifyLoadingType)
+		::System::Void ReportLoadingData(::RPG::Client::LoadingManager_VerifyLoadingType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LoadingManager_VerifyLoadingType))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_REPORTLOADINGDATA_OFFSET))(this, verifyLoadingType);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LoadingManager_VerifyLoadingType))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_REPORTLOADINGDATA_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _IsLoadingTypeReportMatch(::RPG::Client::LoadingManager_LoadingType startLoadingType, ::RPG::Client::LoadingManager_VerifyLoadingType verifyLoadingType)
+		::System::Boolean _IsLoadingTypeReportMatch(::RPG::Client::LoadingManager_LoadingType a1, ::RPG::Client::LoadingManager_VerifyLoadingType a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::LoadingManager_LoadingType, ::RPG::Client::LoadingManager_VerifyLoadingType))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__ISLOADINGTYPEREPORTMATCH_OFFSET))(this, startLoadingType, verifyLoadingType);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::LoadingManager_LoadingType, ::RPG::Client::LoadingManager_VerifyLoadingType))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__ISLOADINGTYPEREPORTMATCH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Single _GetMaxLoadingTime(::RPG::Client::LoadingManager_LoadingType type)
+		::System::Single _GetMaxLoadingTime(::RPG::Client::LoadingManager_LoadingType a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::RPG::Client::LoadingManager_LoadingType))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__GETMAXLOADINGTIME_OFFSET))(this, type);
+			return ((::System::Single(*)(::PVOID, ::RPG::Client::LoadingManager_LoadingType))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__GETMAXLOADINGTIME_OFFSET))(this, a1);
 		}
 
-		::System::Single _ConvertTimeToSecond(::System::UInt64 ms)
+		::System::Single _ConvertTimeToSecond(::System::UInt64 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__CONVERTTIMETOSECOND_OFFSET))(this, ms);
+			return ((::System::Single(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__CONVERTTIMETOSECOND_OFFSET))(this, a1);
 		}
 
-		::System::Void _TryAddToWatch(::Class_1_F59C8DF29FF9694F* workDefinition)
+		::System::Void _TryAddToWatch(::Class_1_9D40F9D90905A4A4* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_F59C8DF29FF9694F*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__TRYADDTOWATCH_OFFSET))(this, workDefinition);
+			return ((::System::Void(*)(::PVOID, ::Class_1_9D40F9D90905A4A4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__TRYADDTOWATCH_OFFSET))(this, a1);
 		}
 
 		::System::Void _RefreshWorkDefCount()
@@ -307,9 +307,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__REFRESHWORKDEFCOUNT_OFFSET))(this);
 		}
 
-		::System::Void _OnQueueNewWork(::Class_1_F59C8DF29FF9694F* workDefinition)
+		::System::Void _OnQueueNewWork(::Class_1_9D40F9D90905A4A4* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_F59C8DF29FF9694F*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__ONQUEUENEWWORK_OFFSET))(this, workDefinition);
+			return ((::System::Void(*)(::PVOID, ::Class_1_9D40F9D90905A4A4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__ONQUEUENEWWORK_OFFSET))(this, a1);
 		}
 
 		::System::Void _UpdateFinishProgress()
@@ -317,9 +317,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__UPDATEFINISHPROGRESS_OFFSET))(this);
 		}
 
-		::System::Void _OnWorkFinish(::Class_1_F59C8DF29FF9694F* workDefinition, ::System::Boolean success)
+		::System::Void _OnWorkFinish(::Class_1_9D40F9D90905A4A4* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_F59C8DF29FF9694F*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__ONWORKFINISH_OFFSET))(this, workDefinition, success);
+			return ((::System::Void(*)(::PVOID, ::Class_1_9D40F9D90905A4A4*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER__ONWORKFINISH_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single _ComputeFinishedProgress()
@@ -352,9 +352,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_GET_ENABLECUSTOMPRELOAD_OFFSET))(this);
 		}
 
-		::System::Void set_EnableCustomPreload(::System::Boolean value)
+		::System::Void set_EnableCustomPreload(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_SET_ENABLECUSTOMPRELOAD_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_SET_ENABLECUSTOMPRELOAD_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_SkipSceneItemFading()
@@ -362,9 +362,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_GET_SKIPSCENEITEMFADING_OFFSET))(this);
 		}
 
-		::System::Void set_SkipSceneItemFading(::System::Boolean value)
+		::System::Void set_SkipSceneItemFading(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_SET_SKIPSCENEITEMFADING_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_SET_SKIPSCENEITEMFADING_OFFSET))(this, a1);
 		}
 	};
 }

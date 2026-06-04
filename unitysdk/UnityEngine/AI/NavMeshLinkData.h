@@ -3,20 +3,20 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_AI_NAVMESHLINKDATA_GET_ENDPOSITION_OFFSET UNITYSDK_OFFSET(0x1FF82F0)
-#define UNITYENGINE_AI_NAVMESHLINKDATA_GET_STARTPOSITION_OFFSET UNITYSDK_OFFSET(0x657BF0)
-#define UNITYENGINE_AI_NAVMESHLINKDATA_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x22CC360)
-#define UNITYENGINE_AI_NAVMESHLINKDATA_SET_AGENTTYPEID_OFFSET UNITYSDK_OFFSET(0x1464ED0)
-#define UNITYENGINE_AI_NAVMESHLINKDATA_SET_AREA_OFFSET UNITYSDK_OFFSET(0x70B7A0)
-#define UNITYENGINE_AI_NAVMESHLINKDATA_SET_BIDIRECTIONAL_OFFSET UNITYSDK_OFFSET(0x23BE630)
-#define UNITYENGINE_AI_NAVMESHLINKDATA_SET_COSTMODIFIER_OFFSET UNITYSDK_OFFSET(0x878EA0)
-#define UNITYENGINE_AI_NAVMESHLINKDATA_SET_ENDPOSITION_OFFSET UNITYSDK_OFFSET(0x1FF8310)
-#define UNITYENGINE_AI_NAVMESHLINKDATA_SET_STARTPOSITION_OFFSET UNITYSDK_OFFSET(0x6579B0)
-#define UNITYENGINE_AI_NAVMESHLINKDATA_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0x23BE640)
+#define UNITYENGINE_AI_NAVMESHLINKDATA_GET_ENDPOSITION_OFFSET UNITYSDK_OFFSET(0x3742C20)
+#define UNITYENGINE_AI_NAVMESHLINKDATA_GET_STARTPOSITION_OFFSET UNITYSDK_OFFSET(0xFD37D0)
+#define UNITYENGINE_AI_NAVMESHLINKDATA_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x3859B20)
+#define UNITYENGINE_AI_NAVMESHLINKDATA_SET_AGENTTYPEID_OFFSET UNITYSDK_OFFSET(0x3793880)
+#define UNITYENGINE_AI_NAVMESHLINKDATA_SET_AREA_OFFSET UNITYSDK_OFFSET(0xBC52D0)
+#define UNITYENGINE_AI_NAVMESHLINKDATA_SET_BIDIRECTIONAL_OFFSET UNITYSDK_OFFSET(0x3960AB0)
+#define UNITYENGINE_AI_NAVMESHLINKDATA_SET_COSTMODIFIER_OFFSET UNITYSDK_OFFSET(0xFD24A0)
+#define UNITYENGINE_AI_NAVMESHLINKDATA_SET_ENDPOSITION_OFFSET UNITYSDK_OFFSET(0x3742C40)
+#define UNITYENGINE_AI_NAVMESHLINKDATA_SET_STARTPOSITION_OFFSET UNITYSDK_OFFSET(0xFD2FE0)
+#define UNITYENGINE_AI_NAVMESHLINKDATA_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0x3960AC0)
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMeshLinkData_TypeDefinitionIndex = 5376;
+	inline static constexpr unsigned int NavMeshLinkData_TypeDefinitionIndex = 5653;
 
 	struct alignas(4) NavMeshLinkData
 	{
@@ -33,9 +33,9 @@ namespace UnityEngine::AI
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINKDATA_GET_STARTPOSITION_OFFSET))(this);
 		}
 
-		::System::Void set_startPosition(::UnityEngine::Vector3 value)
+		::System::Void set_startPosition(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINKDATA_SET_STARTPOSITION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINKDATA_SET_STARTPOSITION_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 get_endPosition()
@@ -43,19 +43,19 @@ namespace UnityEngine::AI
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINKDATA_GET_ENDPOSITION_OFFSET))(this);
 		}
 
-		::System::Void set_endPosition(::UnityEngine::Vector3 value)
+		::System::Void set_endPosition(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINKDATA_SET_ENDPOSITION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINKDATA_SET_ENDPOSITION_OFFSET))(this, a1);
 		}
 
-		::System::Void set_costModifier(::System::Single value)
+		::System::Void set_costModifier(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINKDATA_SET_COSTMODIFIER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINKDATA_SET_COSTMODIFIER_OFFSET))(this, a1);
 		}
 
-		::System::Void set_bidirectional(::System::Boolean value)
+		::System::Void set_bidirectional(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINKDATA_SET_BIDIRECTIONAL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINKDATA_SET_BIDIRECTIONAL_OFFSET))(this, a1);
 		}
 
 		::System::Single get_width()
@@ -63,19 +63,19 @@ namespace UnityEngine::AI
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINKDATA_GET_WIDTH_OFFSET))(this);
 		}
 
-		::System::Void set_width(::System::Single value)
+		::System::Void set_width(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINKDATA_SET_WIDTH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINKDATA_SET_WIDTH_OFFSET))(this, a1);
 		}
 
-		::System::Void set_area(::System::Int32 value)
+		::System::Void set_area(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINKDATA_SET_AREA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINKDATA_SET_AREA_OFFSET))(this, a1);
 		}
 
-		::System::Void set_agentTypeID(::System::Int32 value)
+		::System::Void set_agentTypeID(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINKDATA_SET_AGENTTYPEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINKDATA_SET_AGENTTYPEID_OFFSET))(this, a1);
 		}
 	};
 }

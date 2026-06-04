@@ -12,17 +12,17 @@ namespace UnityEngine::UI { class HorizontalLayoutGroup; }
 namespace UnityEngine::UI { class ScrollRect; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MONOCURVERATESLIDER_PLAYSIMPLIFIED_OFFSET UNITYSDK_OFFSET(0xBF3EB30)
-#define RPG_CLIENT_MONOCURVERATESLIDER_PLAY_OFFSET UNITYSDK_OFFSET(0xBF3E6E0)
-#define RPG_CLIENT_MONOCURVERATESLIDER_REGISTERFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0xBF3EB90)
-#define RPG_CLIENT_MONOCURVERATESLIDER_UPDATE_OFFSET UNITYSDK_OFFSET(0xBF3EBF0)
-#define RPG_CLIENT_MONOCURVERATESLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0xBF3EE70)
-#define RPG_CLIENT_MONOCURVERATESLIDER__INIT_OFFSET UNITYSDK_OFFSET(0xBF3E740)
-#define RPG_CLIENT_MONOCURVERATESLIDER__UPDATECURPOSITION_OFFSET UNITYSDK_OFFSET(0xBF3EC50)
+#define RPG_CLIENT_MONOCURVERATESLIDER_PLAYSIMPLIFIED_OFFSET UNITYSDK_OFFSET(0x12A3C860)
+#define RPG_CLIENT_MONOCURVERATESLIDER_PLAY_OFFSET UNITYSDK_OFFSET(0x12A3C410)
+#define RPG_CLIENT_MONOCURVERATESLIDER_REGISTERFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0x12A3C8C0)
+#define RPG_CLIENT_MONOCURVERATESLIDER_UPDATE_OFFSET UNITYSDK_OFFSET(0x12A3C920)
+#define RPG_CLIENT_MONOCURVERATESLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x12A3CB90)
+#define RPG_CLIENT_MONOCURVERATESLIDER__INIT_OFFSET UNITYSDK_OFFSET(0x12A3C470)
+#define RPG_CLIENT_MONOCURVERATESLIDER__UPDATECURPOSITION_OFFSET UNITYSDK_OFFSET(0x12A3C980)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveRateSlider_TypeDefinitionIndex = 66871;
+	inline static constexpr unsigned int MonoCurveRateSlider_TypeDefinitionIndex = 67811;
 
 	class MonoCurveRateSlider : public ::UnityEngine::MonoBehaviour
 	{
@@ -66,9 +66,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVERATESLIDER_PLAYSIMPLIFIED_OFFSET))(this);
 		}
 
-		::System::Void RegisterFinishCallback(::System::Action_1<::XLua::LuaTable*>* function, ::XLua::LuaTable* table)
+		::System::Void RegisterFinishCallback(::System::Action_1<::XLua::LuaTable*>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::XLua::LuaTable*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVERATESLIDER_REGISTERFINISHCALLBACK_OFFSET))(this, function, table);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::XLua::LuaTable*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVERATESLIDER_REGISTERFINISHCALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Update()
@@ -81,9 +81,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVERATESLIDER__INIT_OFFSET))(this);
 		}
 
-		::System::Void _UpdateCurPosition(::System::Single deltaTime)
+		::System::Void _UpdateCurPosition(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVERATESLIDER__UPDATECURPOSITION_OFFSET))(this, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVERATESLIDER__UPDATECURPOSITION_OFFSET))(this, a1);
 		}
 	};
 }

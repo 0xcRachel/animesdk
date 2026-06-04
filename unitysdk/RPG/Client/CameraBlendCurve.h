@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_CAMERABLENDCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x15E1CA10)
+#define RPG_CLIENT_CAMERABLENDCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x18FAEA60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraBlendCurve_TypeDefinitionIndex = 64080;
+	inline static constexpr unsigned int CameraBlendCurve_TypeDefinitionIndex = 65001;
 
 	class CameraBlendCurve : public ::UnityEngine::ScriptableObject
 	{

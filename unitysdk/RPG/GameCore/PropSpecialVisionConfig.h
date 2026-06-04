@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_PROPSPECIALVISIONCONFIG_METHOD_2_8EB957D2710286C8_OFFSET UNITYSDK_OFFSET(0x191D0E20)
-#define RPG_GAMECORE_PROPSPECIALVISIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x191D1070)
+#define RPG_GAMECORE_PROPSPECIALVISIONCONFIG_METHOD_2_8EB957D2710286C8_OFFSET UNITYSDK_OFFSET(0x19A95D70)
+#define RPG_GAMECORE_PROPSPECIALVISIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A95FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSpecialVisionConfig_TypeDefinitionIndex = 19466;
+	inline static constexpr unsigned int PropSpecialVisionConfig_TypeDefinitionIndex = 19370;
 
 	class PropSpecialVisionConfig : public ::RPG::GameCore::JsonConfig
 	{

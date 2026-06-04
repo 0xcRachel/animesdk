@@ -6,14 +6,14 @@
 class WwiseAcousticTextureReference;
 class WwiseObjectReference;
 
-#define AK_WWISE_ACOUSTICTEXTURE_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x192A2D10)
-#define AK_WWISE_ACOUSTICTEXTURE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x192A2D90)
-#define AK_WWISE_ACOUSTICTEXTURE_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x192A2D20)
-#define AK_WWISE_ACOUSTICTEXTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x192A2DA0)
+#define AK_WWISE_ACOUSTICTEXTURE_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x19DBE8F0)
+#define AK_WWISE_ACOUSTICTEXTURE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x19DBE970)
+#define AK_WWISE_ACOUSTICTEXTURE_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x19DBE900)
+#define AK_WWISE_ACOUSTICTEXTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DBE980)
 
 namespace AK::Wwise
 {
-	inline static constexpr unsigned int AcousticTexture_TypeDefinitionIndex = 40530;
+	inline static constexpr unsigned int AcousticTexture_TypeDefinitionIndex = 41357;
 
 	class AcousticTexture : public ::AK::Wwise::BaseType
 	{
@@ -30,9 +30,9 @@ namespace AK::Wwise
 			return ((::WwiseObjectReference*(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_ACOUSTICTEXTURE_GET_OBJECTREFERENCE_OFFSET))(this);
 		}
 
-		::System::Void set_ObjectReference(::WwiseObjectReference* value)
+		::System::Void set_ObjectReference(::WwiseObjectReference* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::WwiseObjectReference*))((::PBYTE)hIl2Cpp + AK_WWISE_ACOUSTICTEXTURE_SET_OBJECTREFERENCE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::WwiseObjectReference*))((::PBYTE)hIl2Cpp + AK_WWISE_ACOUSTICTEXTURE_SET_OBJECTREFERENCE_OFFSET))(this, a1);
 		}
 
 		::WwiseObjectType get_WwiseObjectType()

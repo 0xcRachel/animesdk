@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_184.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_195.h"
 
-#define CLASS_2_0A976FBB3E6CCAE3_GET_TIMESTAMP_OFFSET UNITYSDK_OFFSET(0xF0F1A20)
-#define CLASS_2_0A976FBB3E6CCAE3_SET_TIMESTAMP_OFFSET UNITYSDK_OFFSET(0xF0F1A30)
-#define CLASS_2_0A976FBB3E6CCAE3__CTOR_OFFSET UNITYSDK_OFFSET(0xF0F1A40)
+#define CLASS_2_0A976FBB3E6CCAE3_GET_TIMESTAMP_OFFSET UNITYSDK_OFFSET(0x1359C3E0)
+#define CLASS_2_0A976FBB3E6CCAE3_SET_TIMESTAMP_OFFSET UNITYSDK_OFFSET(0x1359C3F0)
+#define CLASS_2_0A976FBB3E6CCAE3__CTOR_OFFSET UNITYSDK_OFFSET(0x1359C400)
 
-inline static constexpr unsigned int Class_2_0A976FBB3E6CCAE3_TypeDefinitionIndex = 71553;
+inline static constexpr unsigned int Class_2_0A976FBB3E6CCAE3_TypeDefinitionIndex = 72575;
 
-class Class_2_0A976FBB3E6CCAE3 : public ::Class_1_43BD383C98B4C0C5_184
+class Class_2_0A976FBB3E6CCAE3 : public ::Class_1_43BD383C98B4C0C5_195
 {
 public:
 	::System::UInt64 _TimeStamp_k__BackingField; // 0x10
@@ -23,8 +23,8 @@ public:
 		return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0A976FBB3E6CCAE3_GET_TIMESTAMP_OFFSET))(this);
 	}
 
-	::System::Void set_TimeStamp(::System::UInt64 value)
+	::System::Void set_TimeStamp(::System::UInt64 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + CLASS_2_0A976FBB3E6CCAE3_SET_TIMESTAMP_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + CLASS_2_0A976FBB3E6CCAE3_SET_TIMESTAMP_OFFSET))(this, a1);
 	}
 };

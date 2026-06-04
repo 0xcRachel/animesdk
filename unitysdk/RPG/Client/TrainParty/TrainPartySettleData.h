@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/TrainParty/TrainPartySettleSourceType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_45BB92167AED63A0_99;
-class Class_1_6FC4D75D938BC053_19;
-class Class_1_C4B679728AD83B32_21;
+class Class_1_22B4C7CF09D1BAC1_9;
+class Class_1_45BB92167AED63A0_101;
+class Class_1_963E317C37FB5E9A_83;
 namespace RPG::Client::TrainParty { class TrainPartyCardData; }
 namespace RPG::Client::TrainParty { class TrainPartyGameInstance; }
 namespace RPG::Client::TrainParty { class TrainPartyPassengerChangeInfo; }
@@ -17,69 +17,69 @@ namespace RPG::Client::TrainParty { template <typename T> class TrainPartyCacheD
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1681F5E0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1681F400)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GETHISTORYMEETINGSCORELIST_OFFSET UNITYSDK_OFFSET(0x16820340)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GETRECORDINFOLIST_OFFSET UNITYSDK_OFFSET(0x168201C0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GETSORTEDCHANGEINFOLIST_OFFSET UNITYSDK_OFFSET(0x16820230)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET_ISSHOWN_OFFSET UNITYSDK_OFFSET(0x168205D0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET_LASTFUNDS_OFFSET UNITYSDK_OFFSET(0x168204F0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET_LASTMOVESTEP_OFFSET UNITYSDK_OFFSET(0x16820510)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET_LASTUSEDCARD_OFFSET UNITYSDK_OFFSET(0x16820490)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET_OWNERGAME_OFFSET UNITYSDK_OFFSET(0x16820450)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET_PASSENGERCHANGEINFOLIST_OFFSET UNITYSDK_OFFSET(0x16820430)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET_SETTLESOURCE_OFFSET UNITYSDK_OFFSET(0x16820470)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET_SKILLSETTLEDATA_OFFSET UNITYSDK_OFFSET(0x16820570)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET__SHOWNOCHANGEPASSENGER_OFFSET UNITYSDK_OFFSET(0x16820420)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_HASRECORD_OFFSET UNITYSDK_OFFSET(0x1681FF00)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_RECORDPASSENGERINFOS_OFFSET UNITYSDK_OFFSET(0x1681FFD0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SETHISTORYMEETINGSCORES_OFFSET UNITYSDK_OFFSET(0x16820170)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SETSOURCETYPE_OFFSET UNITYSDK_OFFSET(0x1681FF80)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SET_ISSHOWN_OFFSET UNITYSDK_OFFSET(0x168205E0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SET_LASTFUNDS_OFFSET UNITYSDK_OFFSET(0x16820500)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SET_OWNERGAME_OFFSET UNITYSDK_OFFSET(0x16820460)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SET_PASSENGERCHANGEINFOLIST_OFFSET UNITYSDK_OFFSET(0x16820440)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SET_SETTLESOURCE_OFFSET UNITYSDK_OFFSET(0x16820480)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SYNC_OFFSET UNITYSDK_OFFSET(0x1681F560)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA__CHANGEINFOCOMPARE_OFFSET UNITYSDK_OFFSET(0x16820380)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1681F3A0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA__GENERATERECORDLIST_OFFSET UNITYSDK_OFFSET(0x1681FC70)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA__SYNCPASSENGECHANGEINFOLIST_OFFSET UNITYSDK_OFFSET(0x1681F6B0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1859F640)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1859F460)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GETHISTORYMEETINGSCORELIST_OFFSET UNITYSDK_OFFSET(0x185A0420)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GETRECORDINFOLIST_OFFSET UNITYSDK_OFFSET(0x185A0290)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GETSORTEDCHANGEINFOLIST_OFFSET UNITYSDK_OFFSET(0x185A0300)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET_ISSHOWN_OFFSET UNITYSDK_OFFSET(0x185A06B0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET_LASTFUNDS_OFFSET UNITYSDK_OFFSET(0x185A05D0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET_LASTMOVESTEP_OFFSET UNITYSDK_OFFSET(0x185A05F0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET_LASTUSEDCARD_OFFSET UNITYSDK_OFFSET(0x185A0570)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET_OWNERGAME_OFFSET UNITYSDK_OFFSET(0x185A0530)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET_PASSENGERCHANGEINFOLIST_OFFSET UNITYSDK_OFFSET(0x185A0510)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET_SETTLESOURCE_OFFSET UNITYSDK_OFFSET(0x185A0550)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET_SKILLSETTLEDATA_OFFSET UNITYSDK_OFFSET(0x185A0650)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET__SHOWNOCHANGEPASSENGER_OFFSET UNITYSDK_OFFSET(0x185A0500)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_HASRECORD_OFFSET UNITYSDK_OFFSET(0x1859FF70)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_RECORDPASSENGERINFOS_OFFSET UNITYSDK_OFFSET(0x185A0040)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SETHISTORYMEETINGSCORES_OFFSET UNITYSDK_OFFSET(0x185A0240)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SETSOURCETYPE_OFFSET UNITYSDK_OFFSET(0x1859FFF0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SET_ISSHOWN_OFFSET UNITYSDK_OFFSET(0x185A06C0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SET_LASTFUNDS_OFFSET UNITYSDK_OFFSET(0x185A05E0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SET_OWNERGAME_OFFSET UNITYSDK_OFFSET(0x185A0540)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SET_PASSENGERCHANGEINFOLIST_OFFSET UNITYSDK_OFFSET(0x185A0520)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SET_SETTLESOURCE_OFFSET UNITYSDK_OFFSET(0x185A0560)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SYNC_OFFSET UNITYSDK_OFFSET(0x1859F5C0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA__CHANGEINFOCOMPARE_OFFSET UNITYSDK_OFFSET(0x185A0460)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1859F400)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA__GENERATERECORDLIST_OFFSET UNITYSDK_OFFSET(0x1859FCD0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA__SYNCPASSENGECHANGEINFOLIST_OFFSET UNITYSDK_OFFSET(0x1859F710)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartySettleData_TypeDefinitionIndex = 68635;
+	inline static constexpr unsigned int TrainPartySettleData_TypeDefinitionIndex = 69447;
 
 	class TrainPartySettleData : public ::System::Object
 	{
 	public:
 		::RPG::Client::TrainParty::TrainPartyGameInstance* _OwnerGame_k__BackingField; // 0x10
-		::System::Collections::Generic::IList_1<::System::UInt32>* _HistoryMeetingScores; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyPassengerChangeInfo*>* _PassengerChangeInfoList_k__BackingField; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyPassengerChangeInfo*>* _PassengerChangeInfoList_k__BackingField; // 0x18
+		::RPG::Client::TrainParty::TrainPartyCacheDataList_1<::RPG::Client::TrainParty::TrainPartyPassengerChangeInfo*>* _CacheChangeInfoList; // 0x20
 		::RPG::Client::TrainParty::TrainPartyRecordGroup* _RecordGroup; // 0x28
-		::RPG::Client::TrainParty::TrainPartyCacheDataList_1<::RPG::Client::TrainParty::TrainPartyPassengerChangeInfo*>* _CacheChangeInfoList; // 0x30
-		::RPG::Client::TrainParty::TrainPartySettleSourceType _SettleSource_k__BackingField; // 0x38
+		::System::Collections::Generic::IList_1<::System::UInt32>* _HistoryMeetingScores; // 0x30
+		::System::Boolean _IsShown_k__BackingField; // 0x38
 		::System::UInt32 _LastFunds_k__BackingField; // 0x3C
-		::System::Boolean _IsShown_k__BackingField; // 0x40
+		::RPG::Client::TrainParty::TrainPartySettleSourceType _SettleSource_k__BackingField; // 0x40
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::TrainParty::TrainPartySettleData* Create(::Class_1_6FC4D75D938BC053_19* serverInfo, ::RPG::Client::TrainParty::TrainPartyGameInstance* owner, ::RPG::Client::TrainParty::TrainPartySettleSourceType sourceType)
+		static ::RPG::Client::TrainParty::TrainPartySettleData* Create(::Class_1_22B4C7CF09D1BAC1_9* a1, ::RPG::Client::TrainParty::TrainPartyGameInstance* a2, ::RPG::Client::TrainParty::TrainPartySettleSourceType a3)
 		{
-			return ((::RPG::Client::TrainParty::TrainPartySettleData*(*)(::Class_1_6FC4D75D938BC053_19*, ::RPG::Client::TrainParty::TrainPartyGameInstance*, ::RPG::Client::TrainParty::TrainPartySettleSourceType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_CREATE_OFFSET))(serverInfo, owner, sourceType);
+			return ((::RPG::Client::TrainParty::TrainPartySettleData*(*)(::Class_1_22B4C7CF09D1BAC1_9*, ::RPG::Client::TrainParty::TrainPartyGameInstance*, ::RPG::Client::TrainParty::TrainPartySettleSourceType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_CREATE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::TrainParty::TrainPartySettleData* Create_1(::RPG::Client::TrainParty::TrainPartyGameInstance* owner, ::RPG::Client::TrainParty::TrainPartySettleSourceType sourceType)
+		static ::RPG::Client::TrainParty::TrainPartySettleData* Create_1(::RPG::Client::TrainParty::TrainPartyGameInstance* a1, ::RPG::Client::TrainParty::TrainPartySettleSourceType a2)
 		{
-			return ((::RPG::Client::TrainParty::TrainPartySettleData*(*)(::RPG::Client::TrainParty::TrainPartyGameInstance*, ::RPG::Client::TrainParty::TrainPartySettleSourceType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_CREATE_1_OFFSET))(owner, sourceType);
+			return ((::RPG::Client::TrainParty::TrainPartySettleData*(*)(::RPG::Client::TrainParty::TrainPartyGameInstance*, ::RPG::Client::TrainParty::TrainPartySettleSourceType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_CREATE_1_OFFSET))(a1, a2);
 		}
 
-		::System::Void Sync(::Class_1_6FC4D75D938BC053_19* serverInfo, ::RPG::Client::TrainParty::TrainPartySettleSourceType sourceType)
+		::System::Void Sync(::Class_1_22B4C7CF09D1BAC1_9* a1, ::RPG::Client::TrainParty::TrainPartySettleSourceType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_6FC4D75D938BC053_19*, ::RPG::Client::TrainParty::TrainPartySettleSourceType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SYNC_OFFSET))(this, serverInfo, sourceType);
+			return ((::System::Void(*)(::PVOID, ::Class_1_22B4C7CF09D1BAC1_9*, ::RPG::Client::TrainParty::TrainPartySettleSourceType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SYNC_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean HasRecord()
@@ -87,19 +87,19 @@ namespace RPG::Client::TrainParty
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_HASRECORD_OFFSET))(this);
 		}
 
-		::System::Void SetSourceType(::RPG::Client::TrainParty::TrainPartySettleSourceType sourceType)
+		::System::Void SetSourceType(::RPG::Client::TrainParty::TrainPartySettleSourceType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartySettleSourceType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SETSOURCETYPE_OFFSET))(this, sourceType);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartySettleSourceType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SETSOURCETYPE_OFFSET))(this, a1);
 		}
 
-		::System::Void RecordPassengerInfos(::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyPassengerData*>* passengerList)
+		::System::Void RecordPassengerInfos(::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyPassengerData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyPassengerData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_RECORDPASSENGERINFOS_OFFSET))(this, passengerList);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyPassengerData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_RECORDPASSENGERINFOS_OFFSET))(this, a1);
 		}
 
-		::System::Void SetHistoryMeetingScores(::System::Collections::Generic::IList_1<::System::UInt32>* scores)
+		::System::Void SetHistoryMeetingScores(::System::Collections::Generic::IList_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SETHISTORYMEETINGSCORES_OFFSET))(this, scores);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SETHISTORYMEETINGSCORES_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyRecordInfo*>* GetRecordInfoList()
@@ -117,19 +117,19 @@ namespace RPG::Client::TrainParty
 			return ((::System::Collections::Generic::IList_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GETHISTORYMEETINGSCORELIST_OFFSET))(this);
 		}
 
-		::System::Int32 _ChangeInfoCompare(::RPG::Client::TrainParty::TrainPartyPassengerChangeInfo* a, ::RPG::Client::TrainParty::TrainPartyPassengerChangeInfo* b)
+		::System::Int32 _ChangeInfoCompare(::RPG::Client::TrainParty::TrainPartyPassengerChangeInfo* a1, ::RPG::Client::TrainParty::TrainPartyPassengerChangeInfo* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyPassengerChangeInfo*, ::RPG::Client::TrainParty::TrainPartyPassengerChangeInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA__CHANGEINFOCOMPARE_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyPassengerChangeInfo*, ::RPG::Client::TrainParty::TrainPartyPassengerChangeInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA__CHANGEINFOCOMPARE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _SyncPassengeChangeInfoList(::System::Collections::Generic::IList_1<::Class_1_C4B679728AD83B32_21*>* passengers)
+		::System::Void _SyncPassengeChangeInfoList(::System::Collections::Generic::IList_1<::Class_1_963E317C37FB5E9A_83*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::Class_1_C4B679728AD83B32_21*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA__SYNCPASSENGECHANGEINFOLIST_OFFSET))(this, passengers);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::Class_1_963E317C37FB5E9A_83*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA__SYNCPASSENGECHANGEINFOLIST_OFFSET))(this, a1);
 		}
 
-		::System::Void _GenerateRecordList(::System::Collections::Generic::IList_1<::Class_1_45BB92167AED63A0_99*>* recordLogList)
+		::System::Void _GenerateRecordList(::System::Collections::Generic::IList_1<::Class_1_45BB92167AED63A0_101*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::Class_1_45BB92167AED63A0_99*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA__GENERATERECORDLIST_OFFSET))(this, recordLogList);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::Class_1_45BB92167AED63A0_101*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA__GENERATERECORDLIST_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyPassengerChangeInfo*>* get_PassengerChangeInfoList()
@@ -137,9 +137,9 @@ namespace RPG::Client::TrainParty
 			return ((::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyPassengerChangeInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET_PASSENGERCHANGEINFOLIST_OFFSET))(this);
 		}
 
-		::System::Void set_PassengerChangeInfoList(::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyPassengerChangeInfo*>* value)
+		::System::Void set_PassengerChangeInfoList(::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyPassengerChangeInfo*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyPassengerChangeInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SET_PASSENGERCHANGEINFOLIST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyPassengerChangeInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SET_PASSENGERCHANGEINFOLIST_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TrainParty::TrainPartyGameInstance* get_OwnerGame()
@@ -147,9 +147,9 @@ namespace RPG::Client::TrainParty
 			return ((::RPG::Client::TrainParty::TrainPartyGameInstance*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET_OWNERGAME_OFFSET))(this);
 		}
 
-		::System::Void set_OwnerGame(::RPG::Client::TrainParty::TrainPartyGameInstance* value)
+		::System::Void set_OwnerGame(::RPG::Client::TrainParty::TrainPartyGameInstance* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyGameInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SET_OWNERGAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyGameInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SET_OWNERGAME_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TrainParty::TrainPartySettleSourceType get_SettleSource()
@@ -157,9 +157,9 @@ namespace RPG::Client::TrainParty
 			return ((::RPG::Client::TrainParty::TrainPartySettleSourceType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET_SETTLESOURCE_OFFSET))(this);
 		}
 
-		::System::Void set_SettleSource(::RPG::Client::TrainParty::TrainPartySettleSourceType value)
+		::System::Void set_SettleSource(::RPG::Client::TrainParty::TrainPartySettleSourceType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartySettleSourceType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SET_SETTLESOURCE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartySettleSourceType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SET_SETTLESOURCE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TrainParty::TrainPartyCardData* get_LastUsedCard()
@@ -172,9 +172,9 @@ namespace RPG::Client::TrainParty
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET_LASTFUNDS_OFFSET))(this);
 		}
 
-		::System::Void set_LastFunds(::System::UInt32 value)
+		::System::Void set_LastFunds(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SET_LASTFUNDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SET_LASTFUNDS_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_LastMoveStep()
@@ -192,9 +192,9 @@ namespace RPG::Client::TrainParty
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_GET_ISSHOWN_OFFSET))(this);
 		}
 
-		::System::Void set_IsShown(::System::Boolean value)
+		::System::Void set_IsShown(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SET_ISSHOWN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSETTLEDATA_SET_ISSHOWN_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get__ShowNoChangePassenger()

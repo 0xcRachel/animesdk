@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Resources { class ResourceSet; }
 
-#define SYSTEM_RESOURCES_RESOURCEMANAGER_CULTURENAMERESOURCESETPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x18F4E3F0)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_CULTURENAMERESOURCESETPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x196FFB00)
 
 namespace System::Resources
 {
-	inline static constexpr unsigned int ResourceManager_CultureNameResourceSetPair_TypeDefinitionIndex = 525;
+	inline static constexpr unsigned int ResourceManager_CultureNameResourceSetPair_TypeDefinitionIndex = 524;
 
 	class ResourceManager_CultureNameResourceSetPair : public ::System::Object
 	{

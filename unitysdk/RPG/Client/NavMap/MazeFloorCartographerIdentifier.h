@@ -6,30 +6,30 @@
 namespace RPG::Client::NavMap { class ICartographerIdentifier; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x2245870)
-#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_EQUALS_2_OFFSET UNITYSDK_OFFSET(0x2245880)
-#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_EQUALS_OFFSET UNITYSDK_OFFSET(0x22457A0)
-#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2245710)
-#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_GET_FLOORID_OFFSET UNITYSDK_OFFSET(0x608A20)
-#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_GET_VERSEPARAM_OFFSET UNITYSDK_OFFSET(0x2237570)
-#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x159415E0)
-#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x15941640)
-#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x22456E0)
-#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0x2245980)
-#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2245920)
+#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x37D33E0)
+#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_EQUALS_2_OFFSET UNITYSDK_OFFSET(0x37D33F0)
+#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_EQUALS_OFFSET UNITYSDK_OFFSET(0x37D3320)
+#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x37D3290)
+#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_GET_FLOORID_OFFSET UNITYSDK_OFFSET(0x72BBF0)
+#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_GET_VERSEPARAM_OFFSET UNITYSDK_OFFSET(0x3796160)
+#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x166A92F0)
+#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x166A9350)
+#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x37D3260)
+#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0x37D34F0)
+#define RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x37D3400)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int MazeFloorCartographerIdentifier_TypeDefinitionIndex = 68752;
+	inline static constexpr unsigned int MazeFloorCartographerIdentifier_TypeDefinitionIndex = 69564;
 
 	struct alignas(4) MazeFloorCartographerIdentifier
 	{
 		::System::UInt32 _FloorID_k__BackingField; // 0x10
 		::RPG::Client::VerseParam _VerseParam_k__BackingField; // 0x14
 
-		::System::Void _ctor(::RPG::Client::VerseParam verseParam, ::System::UInt32 floorID)
+		::System::Void _ctor(::RPG::Client::VerseParam a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::VerseParam, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER__CTOR_OFFSET))(this, verseParam, floorID);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::VerseParam, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 get_FloorID()
@@ -47,29 +47,29 @@ namespace RPG::Client::NavMap
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::RPG::Client::NavMap::MazeFloorCartographerIdentifier other)
+		::System::Boolean Equals(::RPG::Client::NavMap::MazeFloorCartographerIdentifier a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::MazeFloorCartographerIdentifier))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::MazeFloorCartographerIdentifier))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::RPG::Client::NavMap::ICartographerIdentifier* obj)
+		::System::Boolean Equals_1(::RPG::Client::NavMap::ICartographerIdentifier* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::ICartographerIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::ICartographerIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_EQUALS_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_2(::System::Object* obj)
+		::System::Boolean Equals_2(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_EQUALS_2_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_EQUALS_2_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean op_Equality(::RPG::Client::NavMap::MazeFloorCartographerIdentifier left, ::RPG::Client::NavMap::ICartographerIdentifier* right)
+		static ::System::Boolean op_Equality(::RPG::Client::NavMap::MazeFloorCartographerIdentifier a1, ::RPG::Client::NavMap::ICartographerIdentifier* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::NavMap::MazeFloorCartographerIdentifier, ::RPG::Client::NavMap::ICartographerIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_OP_EQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::RPG::Client::NavMap::MazeFloorCartographerIdentifier, ::RPG::Client::NavMap::ICartographerIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::RPG::Client::NavMap::MazeFloorCartographerIdentifier left, ::RPG::Client::NavMap::ICartographerIdentifier* right)
+		static ::System::Boolean op_Inequality(::RPG::Client::NavMap::MazeFloorCartographerIdentifier a1, ::RPG::Client::NavMap::ICartographerIdentifier* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::NavMap::MazeFloorCartographerIdentifier, ::RPG::Client::NavMap::ICartographerIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_OP_INEQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::RPG::Client::NavMap::MazeFloorCartographerIdentifier, ::RPG::Client::NavMap::ICartographerIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
 		::System::Int32 __iFixBaseProxy_GetHashCode()
@@ -77,9 +77,9 @@ namespace RPG::Client::NavMap
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER___IFIXBASEPROXY_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean __iFixBaseProxy_Equals(::System::Object* P0)
+		::System::Boolean __iFixBaseProxy_Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER___IFIXBASEPROXY_EQUALS_OFFSET))(this, P0);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_MAZEFLOORCARTOGRAPHERIDENTIFIER___IFIXBASEPROXY_EQUALS_OFFSET))(this, a1);
 		}
 	};
 }

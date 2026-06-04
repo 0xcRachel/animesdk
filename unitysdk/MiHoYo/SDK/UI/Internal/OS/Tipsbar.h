@@ -5,14 +5,14 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UI_INTERNAL_OS_TIPSBAR_GET_ONHIDECOMPLETED_OFFSET UNITYSDK_OFFSET(0x1840BF20)
-#define MIHOYO_SDK_UI_INTERNAL_OS_TIPSBAR_SET_ONHIDECOMPLETED_OFFSET UNITYSDK_OFFSET(0x1840BF30)
-#define MIHOYO_SDK_UI_INTERNAL_OS_TIPSBAR_SHOW_OFFSET UNITYSDK_OFFSET(0x1840BF40)
-#define MIHOYO_SDK_UI_INTERNAL_OS_TIPSBAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1840BF50)
+#define MIHOYO_SDK_UI_INTERNAL_OS_TIPSBAR_GET_ONHIDECOMPLETED_OFFSET UNITYSDK_OFFSET(0x19E37E60)
+#define MIHOYO_SDK_UI_INTERNAL_OS_TIPSBAR_SET_ONHIDECOMPLETED_OFFSET UNITYSDK_OFFSET(0x19E37E70)
+#define MIHOYO_SDK_UI_INTERNAL_OS_TIPSBAR_SHOW_OFFSET UNITYSDK_OFFSET(0x19E37E80)
+#define MIHOYO_SDK_UI_INTERNAL_OS_TIPSBAR__CTOR_OFFSET UNITYSDK_OFFSET(0x19E37E90)
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int Tipsbar_TypeDefinitionIndex = 7465;
+	inline static constexpr unsigned int Tipsbar_TypeDefinitionIndex = 8368;
 
 	class Tipsbar : public ::System::Object
 	{
@@ -29,14 +29,14 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_TIPSBAR_GET_ONHIDECOMPLETED_OFFSET))(this);
 		}
 
-		::System::Void set_OnHideCompleted(::System::Action* value)
+		::System::Void set_OnHideCompleted(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_TIPSBAR_SET_ONHIDECOMPLETED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_TIPSBAR_SET_ONHIDECOMPLETED_OFFSET))(this, a1);
 		}
 
-		::System::Void Show(::System::String* message, ::System::String* imagePath)
+		::System::Void Show(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_TIPSBAR_SHOW_OFFSET))(this, message, imagePath);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_TIPSBAR_SHOW_OFFSET))(this, a1, a2);
 		}
 	};
 }

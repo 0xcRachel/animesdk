@@ -4,15 +4,15 @@
 
 namespace RPG::GameCore { class ActivityDiceCombatDiceContentRow; }
 
-#define RPG_CLIENT_DICECOMBATDICECONTENTINFO_GET_ID_OFFSET UNITYSDK_OFFSET(0x17050FD0)
-#define RPG_CLIENT_DICECOMBATDICECONTENTINFO_GET_ISSKILLCONTENT_OFFSET UNITYSDK_OFFSET(0x17050BB0)
-#define RPG_CLIENT_DICECOMBATDICECONTENTINFO_GET_ROW_OFFSET UNITYSDK_OFFSET(0x17050FF0)
-#define RPG_CLIENT_DICECOMBATDICECONTENTINFO_SET_ID_OFFSET UNITYSDK_OFFSET(0x17050FE0)
-#define RPG_CLIENT_DICECOMBATDICECONTENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17050A00)
+#define RPG_CLIENT_DICECOMBATDICECONTENTINFO_GET_ID_OFFSET UNITYSDK_OFFSET(0x17F1AA70)
+#define RPG_CLIENT_DICECOMBATDICECONTENTINFO_GET_ISSKILLCONTENT_OFFSET UNITYSDK_OFFSET(0x17F1A6A0)
+#define RPG_CLIENT_DICECOMBATDICECONTENTINFO_GET_ROW_OFFSET UNITYSDK_OFFSET(0x17F1AA90)
+#define RPG_CLIENT_DICECOMBATDICECONTENTINFO_SET_ID_OFFSET UNITYSDK_OFFSET(0x17F1AA80)
+#define RPG_CLIENT_DICECOMBATDICECONTENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17F1A550)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DiceCombatDiceContentInfo_TypeDefinitionIndex = 58548;
+	inline static constexpr unsigned int DiceCombatDiceContentInfo_TypeDefinitionIndex = 59478;
 
 	class DiceCombatDiceContentInfo : public ::System::Object
 	{
@@ -20,9 +20,9 @@ namespace RPG::Client
 		::RPG::GameCore::ActivityDiceCombatDiceContentRow* _Row; // 0x10
 		::System::UInt32 _ID_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::UInt32 contentID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATDICECONTENTINFO__CTOR_OFFSET))(this, contentID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATDICECONTENTINFO__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ID()
@@ -30,9 +30,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATDICECONTENTINFO_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATDICECONTENTINFO_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATDICECONTENTINFO_SET_ID_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::ActivityDiceCombatDiceContentRow* get_Row()

@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_HELIOBUSACTIVITYQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A68730)
-#define RPG_GAMECORE_HELIOBUSACTIVITYQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A68E20)
+#define RPG_GAMECORE_HELIOBUSACTIVITYQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AB5960)
+#define RPG_GAMECORE_HELIOBUSACTIVITYQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB5BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusActivityQuestRow_TypeDefinitionIndex = 13030;
+	inline static constexpr unsigned int HeliobusActivityQuestRow_TypeDefinitionIndex = 13113;
 
 	class HeliobusActivityQuestRow : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HELIOBUSACTIVITYQUESTROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::HeliobusActivityQuestRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HeliobusActivityQuestRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HeliobusActivityQuestRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HELIOBUSACTIVITYQUESTROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HeliobusActivityQuestRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HELIOBUSACTIVITYQUESTROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOADINGWORLDIMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18FC5C90)
-#define RPG_GAMECORE_LOADINGWORLDIMAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18FC6280)
+#define RPG_GAMECORE_LOADINGWORLDIMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C10030)
+#define RPG_GAMECORE_LOADINGWORLDIMAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19C10640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoadingWorldImageRow_TypeDefinitionIndex = 13244;
+	inline static constexpr unsigned int LoadingWorldImageRow_TypeDefinitionIndex = 13320;
 
 	class LoadingWorldImageRow : public ::System::Object
 	{
 	public:
-		::System::String* ImagePath; // 0x10
+		::System::String* PamuPrefabName; // 0x10
 		::System::String* EffectContainer; // 0x18
-		::System::String* PamuPrefabName; // 0x20
+		::System::String* ImagePath; // 0x20
 		::System::UInt32 WorldID; // 0x28
 
 		::System::Void _ctor()
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGWORLDIMAGEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LoadingWorldImageRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoadingWorldImageRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoadingWorldImageRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGWORLDIMAGEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoadingWorldImageRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGWORLDIMAGEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

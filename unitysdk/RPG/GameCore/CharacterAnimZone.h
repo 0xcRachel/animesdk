@@ -5,38 +5,38 @@
 #include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 #include "unitysdk/UnityEngine/AnimatorTransitionInfo.h"
 
-class Class_0_16E4307DCC419505_20;
-class Class_1_4EBEA112A94807DC;
+class Class_0_16E4307DCC419505_16;
+class Class_1_9CC9BA8044EDE678;
 namespace RPG::Client { class MockAnimator; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_GAMECORE_CHARACTERANIMZONE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11D3DC60)
-#define RPG_GAMECORE_CHARACTERANIMZONE_GET_ANIMATORMOVECALLBACKORDER_OFFSET UNITYSDK_OFFSET(0x11D3E3D0)
-#define RPG_GAMECORE_CHARACTERANIMZONE_GET_ENABLEANIMATORMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0x11D3E3E0)
-#define RPG_GAMECORE_CHARACTERANIMZONE_GET_ISARTLOADED_OFFSET UNITYSDK_OFFSET(0x11D3E790)
-#define RPG_GAMECORE_CHARACTERANIMZONE_INITCOMPONENT_1_OFFSET UNITYSDK_OFFSET(0x11D3E0D0)
-#define RPG_GAMECORE_CHARACTERANIMZONE_INITCOMPONENT_OFFSET UNITYSDK_OFFSET(0x11D3DF40)
-#define RPG_GAMECORE_CHARACTERANIMZONE_INITMODEL_OFFSET UNITYSDK_OFFSET(0x11D3DD70)
-#define RPG_GAMECORE_CHARACTERANIMZONE_ISINANIMZONE_1_OFFSET UNITYSDK_OFFSET(0x11D3E2A0)
-#define RPG_GAMECORE_CHARACTERANIMZONE_ISINANIMZONE_OFFSET UNITYSDK_OFFSET(0x11D3E230)
-#define RPG_GAMECORE_CHARACTERANIMZONE_ONANIMATORMOVE_OFFSET UNITYSDK_OFFSET(0x11D3E3F0)
-#define RPG_GAMECORE_CHARACTERANIMZONE_ONMODELARTLOADED_OFFSET UNITYSDK_OFFSET(0x11D3DD20)
-#define RPG_GAMECORE_CHARACTERANIMZONE_ONMODELARTUNLOADED_OFFSET UNITYSDK_OFFSET(0x11D3DE70)
-#define RPG_GAMECORE_CHARACTERANIMZONE_RESETTODEFAULT_OFFSET UNITYSDK_OFFSET(0x11D3E7A0)
-#define RPG_GAMECORE_CHARACTERANIMZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x11D3DAC0)
-#define RPG_GAMECORE_CHARACTERANIMZONE__ONANIMATORJOBCALLBACK_OFFSET UNITYSDK_OFFSET(0x11D3E440)
+#define RPG_GAMECORE_CHARACTERANIMZONE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x141B0220)
+#define RPG_GAMECORE_CHARACTERANIMZONE_GET_ANIMATORMOVECALLBACKORDER_OFFSET UNITYSDK_OFFSET(0x141B09A0)
+#define RPG_GAMECORE_CHARACTERANIMZONE_GET_ENABLEANIMATORMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0x141B09B0)
+#define RPG_GAMECORE_CHARACTERANIMZONE_GET_ISARTLOADED_OFFSET UNITYSDK_OFFSET(0x141B0D60)
+#define RPG_GAMECORE_CHARACTERANIMZONE_INITCOMPONENT_1_OFFSET UNITYSDK_OFFSET(0x141B06B0)
+#define RPG_GAMECORE_CHARACTERANIMZONE_INITCOMPONENT_OFFSET UNITYSDK_OFFSET(0x141B0520)
+#define RPG_GAMECORE_CHARACTERANIMZONE_INITMODEL_OFFSET UNITYSDK_OFFSET(0x141B0330)
+#define RPG_GAMECORE_CHARACTERANIMZONE_ISINANIMZONE_1_OFFSET UNITYSDK_OFFSET(0x141B0880)
+#define RPG_GAMECORE_CHARACTERANIMZONE_ISINANIMZONE_OFFSET UNITYSDK_OFFSET(0x141B0810)
+#define RPG_GAMECORE_CHARACTERANIMZONE_ONANIMATORMOVE_OFFSET UNITYSDK_OFFSET(0x141B09C0)
+#define RPG_GAMECORE_CHARACTERANIMZONE_ONMODELARTLOADED_OFFSET UNITYSDK_OFFSET(0x141B02E0)
+#define RPG_GAMECORE_CHARACTERANIMZONE_ONMODELARTUNLOADED_OFFSET UNITYSDK_OFFSET(0x141B0440)
+#define RPG_GAMECORE_CHARACTERANIMZONE_RESETTODEFAULT_OFFSET UNITYSDK_OFFSET(0x141B0D70)
+#define RPG_GAMECORE_CHARACTERANIMZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x141B0090)
+#define RPG_GAMECORE_CHARACTERANIMZONE__ONANIMATORJOBCALLBACK_OFFSET UNITYSDK_OFFSET(0x141B0A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterAnimZone_TypeDefinitionIndex = 52702;
+	inline static constexpr unsigned int CharacterAnimZone_TypeDefinitionIndex = 53402;
 
 	class CharacterAnimZone : public ::RPG::GameCore::GameComponentBase
 	{
 	public:
 		::Il2CppArray<::System::Boolean>* _InAnimZoneCache; // 0x18
-		::Class_1_4EBEA112A94807DC* _AnimatorStateZoneInstance; // 0x20
-		::RPG::Client::MockAnimator* _AnimatorRef; // 0x28
+		::RPG::Client::MockAnimator* _AnimatorRef; // 0x20
+		::Class_1_9CC9BA8044EDE678* _AnimatorStateZoneInstance; // 0x28
 		::System::Boolean _IsArtLoaded; // 0x30
 
 		::System::Void _ctor()
@@ -59,24 +59,24 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERANIMZONE_ONMODELARTUNLOADED_OFFSET))(this);
 		}
 
-		::System::Void InitComponent(::Class_0_16E4307DCC419505_20* configJson)
+		::System::Void InitComponent(::Class_0_16E4307DCC419505_16* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_20*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERANIMZONE_INITCOMPONENT_OFFSET))(this, configJson);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_16*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERANIMZONE_INITCOMPONENT_OFFSET))(this, a1);
 		}
 
-		::System::Void InitComponent_1(::System::String* commonConfigPath, ::System::String* overrideAnimZoneConfigPath)
+		::System::Void InitComponent_1(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERANIMZONE_INITCOMPONENT_1_OFFSET))(this, commonConfigPath, overrideAnimZoneConfigPath);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERANIMZONE_INITCOMPONENT_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsInAnimZone(::RPG::GameCore::AnimZoneType eZoneType)
+		::System::Boolean IsInAnimZone(::RPG::GameCore::AnimZoneType a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::AnimZoneType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERANIMZONE_ISINANIMZONE_OFFSET))(this, eZoneType);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::AnimZoneType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERANIMZONE_ISINANIMZONE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsInAnimZone_1(::System::String* customName)
+		::System::Boolean IsInAnimZone_1(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERANIMZONE_ISINANIMZONE_1_OFFSET))(this, customName);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERANIMZONE_ISINANIMZONE_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_AnimatorMoveCallbackOrder()
@@ -89,14 +89,14 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERANIMZONE_GET_ENABLEANIMATORMOVECALLBACK_OFFSET))(this);
 		}
 
-		::System::Void OnAnimatorMove(::UnityEngine::Animator* animator)
+		::System::Void OnAnimatorMove(::UnityEngine::Animator* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERANIMZONE_ONANIMATORMOVE_OFFSET))(this, animator);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERANIMZONE_ONANIMATORMOVE_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnAnimatorJobCallback(::UnityEngine::AnimatorStateInfo currStateInfo, ::UnityEngine::AnimatorStateInfo nextStateInfo, ::UnityEngine::AnimatorTransitionInfo transitionInfo, ::System::Boolean isInTransition)
+		::System::Void _OnAnimatorJobCallback(::UnityEngine::AnimatorStateInfo a1, ::UnityEngine::AnimatorStateInfo a2, ::UnityEngine::AnimatorTransitionInfo a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimatorStateInfo, ::UnityEngine::AnimatorStateInfo, ::UnityEngine::AnimatorTransitionInfo, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERANIMZONE__ONANIMATORJOBCALLBACK_OFFSET))(this, currStateInfo, nextStateInfo, transitionInfo, isInTransition);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimatorStateInfo, ::UnityEngine::AnimatorStateInfo, ::UnityEngine::AnimatorTransitionInfo, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERANIMZONE__ONANIMATORJOBCALLBACK_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void InitModel()

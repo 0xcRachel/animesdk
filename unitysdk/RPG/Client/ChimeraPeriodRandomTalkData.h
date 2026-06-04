@@ -6,25 +6,25 @@ namespace RPG::Client { class ChimeraPeriodRandomTalkData_AccWeightedTalkData; }
 namespace RPG::Client { class ChimeraTalkData; }
 namespace RPG::GameCore { class ChimeraPeriodicRandomTalk; }
 
-#define RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA_GET_CHIMERAID_OFFSET UNITYSDK_OFFSET(0x17482F30)
-#define RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA_GET_INTERVAL_OFFSET UNITYSDK_OFFSET(0x17482F40)
-#define RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA_SAMPLE_OFFSET UNITYSDK_OFFSET(0x17483290)
-#define RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17482F50)
+#define RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA_GET_CHIMERAID_OFFSET UNITYSDK_OFFSET(0x1829C040)
+#define RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA_GET_INTERVAL_OFFSET UNITYSDK_OFFSET(0x1829C050)
+#define RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA_SAMPLE_OFFSET UNITYSDK_OFFSET(0x1829C460)
+#define RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1829C060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraPeriodRandomTalkData_TypeDefinitionIndex = 58505;
+	inline static constexpr unsigned int ChimeraPeriodRandomTalkData_TypeDefinitionIndex = 59435;
 
 	class ChimeraPeriodRandomTalkData : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::Client::ChimeraPeriodRandomTalkData_AccWeightedTalkData*>* _AccWeightedTalks; // 0x10
-		::System::UInt32 _ChimeraID_k__BackingField; // 0x18
-		::System::Single _Interval_k__BackingField; // 0x1C
+		::System::Single _Interval_k__BackingField; // 0x18
+		::System::UInt32 _ChimeraID_k__BackingField; // 0x1C
 
-		::System::Void _ctor(::System::UInt32 chimeraID, ::RPG::GameCore::ChimeraPeriodicRandomTalk* talk)
+		::System::Void _ctor(::System::UInt32 a1, ::RPG::GameCore::ChimeraPeriodicRandomTalk* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::ChimeraPeriodicRandomTalk*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA__CTOR_OFFSET))(this, chimeraID, talk);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::ChimeraPeriodicRandomTalk*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 get_ChimeraID()

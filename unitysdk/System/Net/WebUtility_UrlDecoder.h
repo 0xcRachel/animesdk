@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_NET_WEBUTILITY_URLDECODER_ADDBYTE_OFFSET UNITYSDK_OFFSET(0x183DECD0)
-#define SYSTEM_NET_WEBUTILITY_URLDECODER_ADDCHAR_OFFSET UNITYSDK_OFFSET(0x183DED40)
-#define SYSTEM_NET_WEBUTILITY_URLDECODER_FLUSHBYTES_OFFSET UNITYSDK_OFFSET(0x183DF000)
-#define SYSTEM_NET_WEBUTILITY_URLDECODER_GETSTRING_OFFSET UNITYSDK_OFFSET(0x183DEDE0)
-#define SYSTEM_NET_WEBUTILITY_URLDECODER__CTOR_OFFSET UNITYSDK_OFFSET(0x183DEC60)
+#define SYSTEM_NET_WEBUTILITY_URLDECODER_ADDBYTE_OFFSET UNITYSDK_OFFSET(0x18969270)
+#define SYSTEM_NET_WEBUTILITY_URLDECODER_ADDCHAR_OFFSET UNITYSDK_OFFSET(0x189692D0)
+#define SYSTEM_NET_WEBUTILITY_URLDECODER_FLUSHBYTES_OFFSET UNITYSDK_OFFSET(0x18969570)
+#define SYSTEM_NET_WEBUTILITY_URLDECODER_GETSTRING_OFFSET UNITYSDK_OFFSET(0x18969360)
+#define SYSTEM_NET_WEBUTILITY_URLDECODER__CTOR_OFFSET UNITYSDK_OFFSET(0x18969200)
 
 namespace System::Net
 {
@@ -19,15 +19,15 @@ namespace System::Net
 	{
 	public:
 		::Il2CppArray<::System::Char>* _charBuffer; // 0x10
-		::Il2CppArray<::System::Byte>* _byteBuffer; // 0x18
-		::System::Text::Encoding* _encoding; // 0x20
-		::System::Int32 _bufferSize; // 0x28
+		::System::Text::Encoding* _encoding; // 0x18
+		::Il2CppArray<::System::Byte>* _byteBuffer; // 0x20
+		::System::Int32 _numBytes; // 0x28
 		::System::Int32 _numChars; // 0x2C
-		::System::Int32 _numBytes; // 0x30
+		::System::Int32 _bufferSize; // 0x30
 
-		::System::Void _ctor(::System::Int32 bufferSize, ::System::Text::Encoding* encoding)
+		::System::Void _ctor(::System::Int32 a1, ::System::Text::Encoding* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBUTILITY_URLDECODER__CTOR_OFFSET))(this, bufferSize, encoding);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBUTILITY_URLDECODER__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void FlushBytes()
@@ -35,14 +35,14 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBUTILITY_URLDECODER_FLUSHBYTES_OFFSET))(this);
 		}
 
-		::System::Void AddChar(::System::Char ch)
+		::System::Void AddChar(::System::Char a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBUTILITY_URLDECODER_ADDCHAR_OFFSET))(this, ch);
+			return ((::System::Void(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBUTILITY_URLDECODER_ADDCHAR_OFFSET))(this, a1);
 		}
 
-		::System::Void AddByte(::System::Byte b)
+		::System::Void AddByte(::System::Byte a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBUTILITY_URLDECODER_ADDBYTE_OFFSET))(this, b);
+			return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBUTILITY_URLDECODER_ADDBYTE_OFFSET))(this, a1);
 		}
 
 		::System::String* GetString()

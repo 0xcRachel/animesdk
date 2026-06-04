@@ -1,14 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/GameFramework/FileSystem/FileSystemAccess.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_6C719BA8F85845D8;
-namespace System { class String; }
+#define CLASS_1_43BD383C98B4C0C5_92__CTOR_OFFSET UNITYSDK_OFFSET(0x189CCA60)
 
-#define CLASS_1_43BD383C98B4C0C5_92__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6C44D0)
-
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_92_TypeDefinitionIndex = 39600;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_92_TypeDefinitionIndex = 39598;
 
 class Class_1_43BD383C98B4C0C5_92 : public ::System::Object
 {

@@ -5,18 +5,18 @@
 namespace RPG::Client { class UIController; }
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenMainController; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMAINCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16917C10)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMAINCONTROLLER___C__DISPLAYCLASS9_0__ONENTERMAINPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x16918E50)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMAINCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186BB240)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMAINCONTROLLER___C__DISPLAYCLASS9_0__ONENTERMAINPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x186BC3D0)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenMainController___c__DisplayClass9_0_TypeDefinitionIndex = 69536;
+	inline static constexpr unsigned int ActivityHipplenMainController___c__DisplayClass9_0_TypeDefinitionIndex = 70348;
 
 	class ActivityHipplenMainController___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityHipplen::ActivityHipplenMainController* __4__this; // 0x10
-		::RPG::Client::UIController* topPage; // 0x18
+		::RPG::Client::UIController* topPage; // 0x10
+		::RPG::Client::ActivityHipplen::ActivityHipplenMainController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

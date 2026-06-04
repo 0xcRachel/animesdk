@@ -4,39 +4,39 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_2_E9C9AAD7C711B3E3;
+class Class_2_2090B77B5C7838F2;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_APPLYASPECTFOVONCE_OFFSET UNITYSDK_OFFSET(0x15848800)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_APPLYASPECTFOVTOALLCAMERAS_OFFSET UNITYSDK_OFFSET(0x1584A030)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_INITIALIZEIMMEDIATE_OFFSET UNITYSDK_OFFSET(0x15848060)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x15849390)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_METHOD_5_682FA2F0C959D8A1_OFFSET UNITYSDK_OFFSET(0x15849F90)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_METHOD_5_A61E03BB3EA971E9_OFFSET UNITYSDK_OFFSET(0x158483C0)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_METHOD_5_BD4E024E91D3F21C_OFFSET UNITYSDK_OFFSET(0x15849C70)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_METHOD_5_C2F48AC549E484D7_OFFSET UNITYSDK_OFFSET(0x15848AA0)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_METHOD_5_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x15849970)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15849320)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_STARTFINALPUSH_OFFSET UNITYSDK_OFFSET(0x15848D40)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_STOPFINALPUSH_OFFSET UNITYSDK_OFFSET(0x158492A0)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1584A5E0)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1584A520)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_APPLYASPECTFOVONCE_OFFSET UNITYSDK_OFFSET(0x17E14910)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_APPLYASPECTFOVTOALLCAMERAS_OFFSET UNITYSDK_OFFSET(0x17E16090)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_INITIALIZEIMMEDIATE_OFFSET UNITYSDK_OFFSET(0x17E141C0)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x17E15430)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_METHOD_5_682FA2F0C959D8A1_OFFSET UNITYSDK_OFFSET(0x17E15FF0)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_METHOD_5_A3923838734452A7_OFFSET UNITYSDK_OFFSET(0x17E14520)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_METHOD_5_BD4E024E91D3F21C_OFFSET UNITYSDK_OFFSET(0x17E15D10)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_METHOD_5_C2F48AC549E484D7_OFFSET UNITYSDK_OFFSET(0x17E14BB0)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_METHOD_5_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x17E15A10)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17E153C0)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_STARTFINALPUSH_OFFSET UNITYSDK_OFFSET(0x17E14E10)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_STOPFINALPUSH_OFFSET UNITYSDK_OFFSET(0x17E15340)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E16770)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER__CTOR_OFFSET UNITYSDK_OFFSET(0x17E16600)
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingCameraTargetSmoother_TypeDefinitionIndex = 71468;
+	inline static constexpr unsigned int ChenLingCameraTargetSmoother_TypeDefinitionIndex = 72490;
 
 	class ChenLingCameraTargetSmoother : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>** StaticGet_Field_5_40()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>** StaticGet_Field_5_0()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingCameraTargetSmoother_TypeDefinitionIndex)->GetStaticField(0x3E600);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingCameraTargetSmoother_TypeDefinitionIndex)->GetStaticField(0x40150);
 		}
 		::System::Single BattleGroundSize; // 0x18
-		::Class_2_E9C9AAD7C711B3E3* Context; // 0x20
+		::Class_2_2090B77B5C7838F2* Context; // 0x20
 		::UnityEngine::Vector3 MinZoomOffset; // 0x28
 		::UnityEngine::Vector3 MaxZoomOffset; // 0x34
 		::UnityEngine::AnimationCurve* ZoomCurve; // 0x40
@@ -54,27 +54,27 @@ namespace RPG::Client::LittleGame::ChenLing
 		::System::Single PushDuration; // 0x88
 		::UnityEngine::AnimationCurve* PushCurve; // 0x90
 		::System::Boolean IsPause; // 0x98
-		::UnityEngine::Vector3 Field_5_19; // 0x9C
-		::UnityEngine::Vector3 Field_5_20; // 0xA8
-		::UnityEngine::Vector3 Field_5_21; // 0xB4
-		::UnityEngine::Vector3 Field_5_22; // 0xC0
-		::UnityEngine::Vector3 Field_5_23; // 0xCC
-		::UnityEngine::Vector3 Field_5_24; // 0xD8
-		::System::Boolean Field_5_25; // 0xE4
-		::UnityEngine::Vector3 Field_5_26; // 0xE8
-		::UnityEngine::Vector3 Field_5_27; // 0xF4
-		::System::Boolean Field_5_28; // 0x100
-		::System::Boolean Field_5_29; // 0x101
-		::System::Boolean Field_5_30; // 0x102
-		::System::Single Field_5_31; // 0x104
-		::UnityEngine::Vector3 Field_5_32; // 0x108
-		::UnityEngine::Vector3 Field_5_33; // 0x114
-		::UnityEngine::GameObject* Field_5_34; // 0x120
-		::UnityEngine::Vector3 Field_5_35; // 0x128
-		::UnityEngine::Vector3 Field_5_36; // 0x134
-		::System::Single Field_5_37; // 0x140
-		::System::Single Field_5_38; // 0x144
-		::System::Boolean Field_5_39; // 0x148
+		::UnityEngine::Vector3 Field_5_20; // 0x9C
+		::UnityEngine::Vector3 Field_5_21; // 0xA8
+		::UnityEngine::Vector3 Field_5_22; // 0xB4
+		::UnityEngine::Vector3 Field_5_23; // 0xC0
+		::UnityEngine::Vector3 Field_5_24; // 0xCC
+		::UnityEngine::Vector3 Field_5_25; // 0xD8
+		::System::Boolean Field_5_26; // 0xE4
+		::UnityEngine::Vector3 Field_5_27; // 0xE8
+		::UnityEngine::Vector3 Field_5_28; // 0xF4
+		::System::Boolean Field_5_29; // 0x100
+		::System::Boolean Field_5_30; // 0x101
+		::System::Boolean Field_5_31; // 0x102
+		::System::Single Field_5_32; // 0x104
+		::UnityEngine::Vector3 Field_5_33; // 0x108
+		::UnityEngine::Vector3 Field_5_34; // 0x114
+		::UnityEngine::GameObject* Field_5_35; // 0x120
+		::UnityEngine::Vector3 Field_5_36; // 0x128
+		::UnityEngine::Vector3 Field_5_37; // 0x134
+		::System::Single Field_5_38; // 0x140
+		::System::Single Field_5_39; // 0x144
+		::System::Boolean Field_5_40; // 0x148
 
 		::System::Void _ctor()
 		{
@@ -131,9 +131,9 @@ namespace RPG::Client::LittleGame::ChenLing
 			return ((::System::Void(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_APPLYASPECTFOVTOALLCAMERAS_OFFSET))(a1, a2, a3);
 		}
 
-		::System::Boolean Method_5_A61E03BB3EA971E9(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2, ::System::Int32& a3)
+		::System::Boolean Method_5_A3923838734452A7(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2, ::System::Int32& a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_METHOD_5_A61E03BB3EA971E9_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGCAMERATARGETSMOOTHER_METHOD_5_A3923838734452A7_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Method_5_C2F48AC549E484D7(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)

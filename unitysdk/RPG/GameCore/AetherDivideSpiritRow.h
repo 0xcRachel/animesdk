@@ -11,55 +11,55 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AETHERDIVIDESPIRITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18ABB200)
-#define RPG_GAMECORE_AETHERDIVIDESPIRITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18ABD810)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BC1FE0)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC41A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideSpiritRow_TypeDefinitionIndex = 10458;
+	inline static constexpr unsigned int AetherDivideSpiritRow_TypeDefinitionIndex = 10499;
 
 	class AetherDivideSpiritRow : public ::System::Object
 	{
 	public:
-		::System::String* JsonPath; // 0x10
-		::System::String* TeamRightPrefabPath; // 0x18
-		::System::String* TeamLeftPrefabPath; // 0x20
-		::System::String* DefaultAvatarHeadIconPath; // 0x28
-		::System::String* AtlasAvatarHeadIconPath; // 0x30
-		::System::String* MiddleAvatarHeadIconPath; // 0x38
-		::System::String* AIPath; // 0x40
-		::System::String* AvatarVOTag; // 0x48
-		::System::String* ManikinJsonPath; // 0x50
-		::System::String* AvatarSideIconPath; // 0x58
-		::System::String* ManikinAvatarModelPath; // 0x60
-		::Il2CppArray<::RPG::GameCore::AetherPassiveSkillType>* PassiveSkillSlotList; // 0x68
-		::System::String* SideAvatarHeadIconPath; // 0x70
-		::System::String* DefaultAvatarModelPath; // 0x78
-		::Il2CppArray<::System::UInt32>* SkillList; // 0x80
-		::System::String* WaitingAvatarHeadIconPath; // 0x88
-		::Il2CppArray<::System::UInt32>* RecommendPassiveSkillList; // 0x90
-		::System::String* ActionAvatarHeadIconPath; // 0x98
-		::System::String* UltraSkillCutInPrefabPath; // 0xA0
-		::RPG::Client::TextID SpiritDescription; // 0xA8
-		::System::UInt32 MaxPromotion; // 0xB8
-		::RPG::GameCore::AttackDamageType DamageType; // 0xBC
-		::RPG::GameCore::AetherSpiritType SpiritType; // 0xC0
-		::System::UInt32 AvatarID; // 0xC4
-		::RPG::GameCore::FixPoint SPMax; // 0xC8
-		::System::UInt32 ExpItemID; // 0xD0
-		::RPG::Client::TextID AvatarName; // 0xD8
-		::RPG::Client::TextID SpiritUnlockDescription; // 0xE8
-		::System::UInt32 GymLocation; // 0xF8
-		::RPG::GameCore::AetherRarityType Rarity; // 0xFC
+		::System::String* AvatarSideIconPath; // 0x10
+		::System::String* AIPath; // 0x18
+		::System::String* MiddleAvatarHeadIconPath; // 0x20
+		::System::String* TeamLeftPrefabPath; // 0x28
+		::System::String* SideAvatarHeadIconPath; // 0x30
+		::System::String* ManikinJsonPath; // 0x38
+		::System::String* ActionAvatarHeadIconPath; // 0x40
+		::System::String* DefaultAvatarModelPath; // 0x48
+		::System::String* AtlasAvatarHeadIconPath; // 0x50
+		::System::String* DefaultAvatarHeadIconPath; // 0x58
+		::System::String* JsonPath; // 0x60
+		::System::String* UltraSkillCutInPrefabPath; // 0x68
+		::Il2CppArray<::RPG::GameCore::AetherPassiveSkillType>* PassiveSkillSlotList; // 0x70
+		::Il2CppArray<::System::UInt32>* RecommendPassiveSkillList; // 0x78
+		::System::String* WaitingAvatarHeadIconPath; // 0x80
+		::System::String* TeamRightPrefabPath; // 0x88
+		::Il2CppArray<::System::UInt32>* SkillList; // 0x90
+		::System::String* AvatarVOTag; // 0x98
+		::System::String* ManikinAvatarModelPath; // 0xA0
+		::System::UInt32 GymLocation; // 0xA8
+		::RPG::Client::TextID SpiritDescription; // 0xB0
+		::RPG::Client::TextID AvatarName; // 0xC0
+		::RPG::GameCore::AetherSpiritType SpiritType; // 0xD0
+		::System::UInt32 AvatarID; // 0xD4
+		::RPG::GameCore::FixPoint SPMax; // 0xD8
+		::System::UInt32 ExpItemID; // 0xE0
+		::RPG::GameCore::AetherRarityType Rarity; // 0xE4
+		::System::UInt32 MaxPromotion; // 0xE8
+		::RPG::GameCore::AttackDamageType DamageType; // 0xEC
+		::RPG::Client::TextID SpiritUnlockDescription; // 0xF0
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AETHERDIVIDESPIRITROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::AetherDivideSpiritRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AetherDivideSpiritRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AetherDivideSpiritRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AETHERDIVIDESPIRITROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AetherDivideSpiritRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AETHERDIVIDESPIRITROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

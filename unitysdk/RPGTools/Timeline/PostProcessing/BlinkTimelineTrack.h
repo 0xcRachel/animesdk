@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x16B1C920)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x16B1CB00)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKTIMELINETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x16B1CBE0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x18C4FD20)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18C4FE90)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKTIMELINETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x18C4FF70)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int BlinkTimelineTrack_TypeDefinitionIndex = 45257;
+	inline static constexpr unsigned int BlinkTimelineTrack_TypeDefinitionIndex = 45814;
 
 	class BlinkTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -29,9 +29,9 @@ namespace RPGTools::Timeline::PostProcessing
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKTIMELINETRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::System::Int32 P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKTIMELINETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKTIMELINETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

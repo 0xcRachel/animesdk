@@ -6,12 +6,12 @@ namespace RPG::GameCore { class EffectConfig; }
 namespace RPG::GameCore { class TriggerEffectListOnCharacter; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTLISTONCHARACTERDATA_METHOD_1_95AFCE0225BD2881_OFFSET UNITYSDK_OFFSET(0x16E131D0)
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTLISTONCHARACTERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16E132B0)
+#define RPGTOOLS_TIMELINE_TRIGGEREFFECTLISTONCHARACTERDATA_METHOD_1_95AFCE0225BD2881_OFFSET UNITYSDK_OFFSET(0x177457F0)
+#define RPGTOOLS_TIMELINE_TRIGGEREFFECTLISTONCHARACTERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x177458D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TriggerEffectListOnCharacterData_TypeDefinitionIndex = 45068;
+	inline static constexpr unsigned int TriggerEffectListOnCharacterData_TypeDefinitionIndex = 45616;
 
 	class TriggerEffectListOnCharacterData : public ::System::Object
 	{

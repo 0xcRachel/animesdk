@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVESUPERCHATROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18886D70)
-#define RPG_GAMECORE_IDLELIVESUPERCHATROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18887030)
+#define RPG_GAMECORE_IDLELIVESUPERCHATROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19ADB9A0)
+#define RPG_GAMECORE_IDLELIVESUPERCHATROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19ADBC60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveSuperChatRow_TypeDefinitionIndex = 11239;
+	inline static constexpr unsigned int IdleLiveSuperChatRow_TypeDefinitionIndex = 11286;
 
 	class IdleLiveSuperChatRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 RewardID; // 0x10
+		::System::UInt32 ScSenderID; // 0x10
 		::System::UInt32 UnlockID; // 0x14
-		::System::UInt32 ScSenderID; // 0x18
-		::System::UInt32 ID; // 0x1C
-		::RPG::Client::TextID MainText; // 0x20
+		::RPG::Client::TextID MainText; // 0x18
+		::System::UInt32 RewardID; // 0x28
+		::System::UInt32 ID; // 0x2C
 		::System::Single Duration; // 0x30
 		::System::UInt32 TriggerID; // 0x34
 
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVESUPERCHATROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::IdleLiveSuperChatRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IdleLiveSuperChatRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveSuperChatRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVESUPERCHATROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveSuperChatRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVESUPERCHATROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

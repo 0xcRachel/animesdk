@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ResidentPossessionConfigItem; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESIDENTPOSSESSIONCONFIG_METHOD_2_7E6930D4A0811543_OFFSET UNITYSDK_OFFSET(0x190300A0)
-#define RPG_GAMECORE_RESIDENTPOSSESSIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19030240)
+#define RPG_GAMECORE_RESIDENTPOSSESSIONCONFIG_METHOD_2_77CB37C830722391_OFFSET UNITYSDK_OFFSET(0x1A2EF800)
+#define RPG_GAMECORE_RESIDENTPOSSESSIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2EF990)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResidentPossessionConfig_TypeDefinitionIndex = 15659;
+	inline static constexpr unsigned int ResidentPossessionConfig_TypeDefinitionIndex = 15716;
 
 	class ResidentPossessionConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESIDENTPOSSESSIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_7E6930D4A0811543(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResidentPossessionConfig*& a2)
+		static ::System::Void Method_2_77CB37C830722391(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResidentPossessionConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResidentPossessionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESIDENTPOSSESSIONCONFIG_METHOD_2_7E6930D4A0811543_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResidentPossessionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESIDENTPOSSESSIONCONFIG_METHOD_2_77CB37C830722391_OFFSET))(a1, a2);
 		}
 	};
 }

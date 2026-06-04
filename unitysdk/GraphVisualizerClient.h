@@ -6,22 +6,22 @@
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GRAPHVISUALIZERCLIENT_CLEARGRAPHS_OFFSET UNITYSDK_OFFSET(0x1A75B210)
-#define GRAPHVISUALIZERCLIENT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A75B060)
-#define GRAPHVISUALIZERCLIENT_GETGRAPHS_OFFSET UNITYSDK_OFFSET(0x1A75B260)
-#define GRAPHVISUALIZERCLIENT_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1A75AEA0)
-#define GRAPHVISUALIZERCLIENT_HIDE_OFFSET UNITYSDK_OFFSET(0x1A75B170)
-#define GRAPHVISUALIZERCLIENT_SHOW_OFFSET UNITYSDK_OFFSET(0x1A75B0F0)
-#define GRAPHVISUALIZERCLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A75AFC0)
+#define GRAPHVISUALIZERCLIENT_CLEARGRAPHS_OFFSET UNITYSDK_OFFSET(0x1B57ED70)
+#define GRAPHVISUALIZERCLIENT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1B57EB30)
+#define GRAPHVISUALIZERCLIENT_GETGRAPHS_OFFSET UNITYSDK_OFFSET(0x1B57EDB0)
+#define GRAPHVISUALIZERCLIENT_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B57E970)
+#define GRAPHVISUALIZERCLIENT_HIDE_OFFSET UNITYSDK_OFFSET(0x1B57EC90)
+#define GRAPHVISUALIZERCLIENT_SHOW_OFFSET UNITYSDK_OFFSET(0x1B57EBB0)
+#define GRAPHVISUALIZERCLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B57EA90)
 
-inline static constexpr unsigned int GraphVisualizerClient_TypeDefinitionIndex = 40890;
+inline static constexpr unsigned int GraphVisualizerClient_TypeDefinitionIndex = 41716;
 
 class GraphVisualizerClient : public ::System::Object
 {
 public:
 	static ::GraphVisualizerClient** StaticGet_s_Instance()
 	{
-		return (::GraphVisualizerClient**)Il2CppClass::FromTypeDefinitionIndex(GraphVisualizerClient_TypeDefinitionIndex)->GetStaticField(0x1580);
+		return (::GraphVisualizerClient**)Il2CppClass::FromTypeDefinitionIndex(GraphVisualizerClient_TypeDefinitionIndex)->GetStaticField(0x14B0);
 	}
 	::System::Collections::Generic::List_1<::UnityEngine::Playables::PlayableGraph>* m_Graphs; // 0x10
 
@@ -40,14 +40,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GRAPHVISUALIZERCLIENT_FINALIZE_OFFSET))(this);
 	}
 
-	static ::System::Void Show(::UnityEngine::Playables::PlayableGraph graph)
+	static ::System::Void Show(::UnityEngine::Playables::PlayableGraph a1)
 	{
-		return ((::System::Void(*)(::UnityEngine::Playables::PlayableGraph))((::PBYTE)hIl2Cpp + GRAPHVISUALIZERCLIENT_SHOW_OFFSET))(graph);
+		return ((::System::Void(*)(::UnityEngine::Playables::PlayableGraph))((::PBYTE)hIl2Cpp + GRAPHVISUALIZERCLIENT_SHOW_OFFSET))(a1);
 	}
 
-	static ::System::Void Hide(::UnityEngine::Playables::PlayableGraph graph)
+	static ::System::Void Hide(::UnityEngine::Playables::PlayableGraph a1)
 	{
-		return ((::System::Void(*)(::UnityEngine::Playables::PlayableGraph))((::PBYTE)hIl2Cpp + GRAPHVISUALIZERCLIENT_HIDE_OFFSET))(graph);
+		return ((::System::Void(*)(::UnityEngine::Playables::PlayableGraph))((::PBYTE)hIl2Cpp + GRAPHVISUALIZERCLIENT_HIDE_OFFSET))(a1);
 	}
 
 	static ::System::Void ClearGraphs()

@@ -10,35 +10,35 @@ namespace Cinemachine { class ICinemachineCamera; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Transform; }
 
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_FORCECAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x167C0240)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_GETWEIGHT_1_OFFSET UNITYSDK_OFFSET(0x167BF990)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_GETWEIGHT_OFFSET UNITYSDK_OFFSET(0x167BF700)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_GET_CHILDCAMERAS_OFFSET UNITYSDK_OFFSET(0x167C0AC0)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_GET_FOLLOW_OFFSET UNITYSDK_OFFSET(0x167C00E0)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_GET_LIVECHILD_OFFSET UNITYSDK_OFFSET(0x167C0080)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_GET_LOOKAT_OFFSET UNITYSDK_OFFSET(0x167C00C0)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_GET_STATE_OFFSET UNITYSDK_OFFSET(0x167C0090)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_INTERNALUPDATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x167C0F70)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_INVALIDATELISTOFCHILDRENMANUAL_OFFSET UNITYSDK_OFFSET(0x167C05C0)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_INVALIDATELISTOFCHILDREN_OFFSET UNITYSDK_OFFSET(0x167C0400)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_ISLIVECHILD_OFFSET UNITYSDK_OFFSET(0x167C0940)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x167C03C0)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_ONTARGETOBJECTWARPED_OFFSET UNITYSDK_OFFSET(0x167C0100)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_ONTRANSFORMCHILDRENCHANGED_OFFSET UNITYSDK_OFFSET(0x167C0420)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_ONTRANSITIONFROMCAMERA_OFFSET UNITYSDK_OFFSET(0x167C0AE0)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x167C05E0)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_SETCHILDRENMANUAL_OFFSET UNITYSDK_OFFSET(0x167C0440)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_SETWEIGHT_1_OFFSET UNITYSDK_OFFSET(0x167BFED0)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_SETWEIGHT_OFFSET UNITYSDK_OFFSET(0x167BF840)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_SET_FOLLOW_OFFSET UNITYSDK_OFFSET(0x167C00F0)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_SET_LIVECHILD_OFFSET UNITYSDK_OFFSET(0x167C0070)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_SET_LOOKAT_OFFSET UNITYSDK_OFFSET(0x167C00D0)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_VALIDATELISTOFCHILDREN_OFFSET UNITYSDK_OFFSET(0x167BFB20)
-#define CINEMACHINE_CINEMACHINEMIXINGCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x167C1210)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_FORCECAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x150FD600)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_GETWEIGHT_1_OFFSET UNITYSDK_OFFSET(0x150FCC20)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_GETWEIGHT_OFFSET UNITYSDK_OFFSET(0x150FC9C0)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_GET_CHILDCAMERAS_OFFSET UNITYSDK_OFFSET(0x150FDAD0)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_GET_FOLLOW_OFFSET UNITYSDK_OFFSET(0x150FD510)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_GET_LIVECHILD_OFFSET UNITYSDK_OFFSET(0x150FD4B0)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_GET_LOOKAT_OFFSET UNITYSDK_OFFSET(0x150FD4F0)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_GET_STATE_OFFSET UNITYSDK_OFFSET(0x150FD4C0)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_INTERNALUPDATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x150FDE00)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_INVALIDATELISTOFCHILDRENMANUAL_OFFSET UNITYSDK_OFFSET(0x150FD8B0)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_INVALIDATELISTOFCHILDREN_OFFSET UNITYSDK_OFFSET(0x150FD730)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_ISLIVECHILD_OFFSET UNITYSDK_OFFSET(0x150FD930)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x150FD6F0)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_ONTARGETOBJECTWARPED_OFFSET UNITYSDK_OFFSET(0x150FD530)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_ONTRANSFORMCHILDRENCHANGED_OFFSET UNITYSDK_OFFSET(0x150FD750)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_ONTRANSITIONFROMCAMERA_OFFSET UNITYSDK_OFFSET(0x150FDAF0)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x150FD8D0)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_SETCHILDRENMANUAL_OFFSET UNITYSDK_OFFSET(0x150FD770)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_SETWEIGHT_1_OFFSET UNITYSDK_OFFSET(0x150FD210)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_SETWEIGHT_OFFSET UNITYSDK_OFFSET(0x150FCAF0)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_SET_FOLLOW_OFFSET UNITYSDK_OFFSET(0x150FD520)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_SET_LIVECHILD_OFFSET UNITYSDK_OFFSET(0x150FD4A0)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_SET_LOOKAT_OFFSET UNITYSDK_OFFSET(0x150FD500)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA_VALIDATELISTOFCHILDREN_OFFSET UNITYSDK_OFFSET(0x150FCEA0)
+#define CINEMACHINE_CINEMACHINEMIXINGCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x150FE280)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineMixingCamera_TypeDefinitionIndex = 36504;
+	inline static constexpr unsigned int CinemachineMixingCamera_TypeDefinitionIndex = 36804;
 
 	class CinemachineMixingCamera : public ::Cinemachine::CinemachineVirtualCameraBase
 	{
@@ -65,29 +65,29 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA__CTOR_OFFSET))(this);
 		}
 
-		::System::Single GetWeight(::System::Int32 index)
+		::System::Single GetWeight(::System::Int32 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_GETWEIGHT_OFFSET))(this, index);
+			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_GETWEIGHT_OFFSET))(this, a1);
 		}
 
-		::System::Void SetWeight(::System::Int32 index, ::System::Single w)
+		::System::Void SetWeight(::System::Int32 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_SETWEIGHT_OFFSET))(this, index, w);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_SETWEIGHT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Single GetWeight_1(::Cinemachine::CinemachineVirtualCameraBase* vcam)
+		::System::Single GetWeight_1(::Cinemachine::CinemachineVirtualCameraBase* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_GETWEIGHT_1_OFFSET))(this, vcam);
+			return ((::System::Single(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_GETWEIGHT_1_OFFSET))(this, a1);
 		}
 
-		::System::Void SetWeight_1(::Cinemachine::CinemachineVirtualCameraBase* vcam, ::System::Single w)
+		::System::Void SetWeight_1(::Cinemachine::CinemachineVirtualCameraBase* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_SETWEIGHT_1_OFFSET))(this, vcam, w);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_SETWEIGHT_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void set_LiveChild(::Cinemachine::ICinemachineCamera* value)
+		::System::Void set_LiveChild(::Cinemachine::ICinemachineCamera* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::ICinemachineCamera*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_SET_LIVECHILD_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::ICinemachineCamera*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_SET_LIVECHILD_OFFSET))(this, a1);
 		}
 
 		::Cinemachine::ICinemachineCamera* get_LiveChild()
@@ -105,9 +105,9 @@ namespace Cinemachine
 			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_GET_LOOKAT_OFFSET))(this);
 		}
 
-		::System::Void set_LookAt(::UnityEngine::Transform* value)
+		::System::Void set_LookAt(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_SET_LOOKAT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_SET_LOOKAT_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Transform* get_Follow()
@@ -115,19 +115,19 @@ namespace Cinemachine
 			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_GET_FOLLOW_OFFSET))(this);
 		}
 
-		::System::Void set_Follow(::UnityEngine::Transform* value)
+		::System::Void set_Follow(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_SET_FOLLOW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_SET_FOLLOW_OFFSET))(this, a1);
 		}
 
-		::System::Void OnTargetObjectWarped(::UnityEngine::Transform* target, ::UnityEngine::Vector3 positionDelta)
+		::System::Void OnTargetObjectWarped(::UnityEngine::Transform* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_ONTARGETOBJECTWARPED_OFFSET))(this, target, positionDelta);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_ONTARGETOBJECTWARPED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ForceCameraPosition(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot)
+		::System::Void ForceCameraPosition(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_FORCECAMERAPOSITION_OFFSET))(this, pos, rot);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_FORCECAMERAPOSITION_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void OnEnable()
@@ -140,9 +140,9 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_ONTRANSFORMCHILDRENCHANGED_OFFSET))(this);
 		}
 
-		::System::Void SetChildrenManual(::Il2CppArray<::Cinemachine::CinemachineVirtualCameraBase*>* mixCameras)
+		::System::Void SetChildrenManual(::Il2CppArray<::Cinemachine::CinemachineVirtualCameraBase*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Cinemachine::CinemachineVirtualCameraBase*>*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_SETCHILDRENMANUAL_OFFSET))(this, mixCameras);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Cinemachine::CinemachineVirtualCameraBase*>*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_SETCHILDRENMANUAL_OFFSET))(this, a1);
 		}
 
 		::System::Void InvalidateListOfChildrenManual()
@@ -155,9 +155,9 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_ONVALIDATE_OFFSET))(this);
 		}
 
-		::System::Boolean IsLiveChild(::Cinemachine::ICinemachineCamera* vcam, ::System::Boolean dominantChildOnly)
+		::System::Boolean IsLiveChild(::Cinemachine::ICinemachineCamera* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_ISLIVECHILD_OFFSET))(this, vcam, dominantChildOnly);
+			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_ISLIVECHILD_OFFSET))(this, a1, a2);
 		}
 
 		::Il2CppArray<::Cinemachine::CinemachineVirtualCameraBase*>* get_ChildCameras()
@@ -175,14 +175,14 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_VALIDATELISTOFCHILDREN_OFFSET))(this);
 		}
 
-		::System::Void OnTransitionFromCamera(::Cinemachine::ICinemachineCamera* fromCam, ::UnityEngine::Vector3 worldUp, ::System::Single deltaTime)
+		::System::Void OnTransitionFromCamera(::Cinemachine::ICinemachineCamera* a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_ONTRANSITIONFROMCAMERA_OFFSET))(this, fromCam, worldUp, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_ONTRANSITIONFROMCAMERA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void InternalUpdateCameraState(::UnityEngine::Vector3 worldUp, ::System::Single deltaTime)
+		::System::Void InternalUpdateCameraState(::UnityEngine::Vector3 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_INTERNALUPDATECAMERASTATE_OFFSET))(this, worldUp, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEMIXINGCAMERA_INTERNALUPDATECAMERASTATE_OFFSET))(this, a1, a2);
 		}
 	};
 }

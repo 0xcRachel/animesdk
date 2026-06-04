@@ -5,22 +5,22 @@
 
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_INDEXKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x22CE9E0)
-#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_INDEXKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x608A20)
-#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_INDEXKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22CE930)
-#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_INDEXKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x63F9C0)
+#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_INDEXKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x3741990)
+#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_INDEXKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x72BBF0)
+#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_INDEXKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x37418E0)
+#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_INDEXKEY__CTOR_OFFSET UNITYSDK_OFFSET(0xB1EAF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTalkNameColorExcelTable_IndexKey_TypeDefinitionIndex = 14016;
+	inline static constexpr unsigned int RogueTalkNameColorExcelTable_IndexKey_TypeDefinitionIndex = 14080;
 
 	struct alignas(8) RogueTalkNameColorExcelTable_IndexKey
 	{
 		::RPG::Client::TextID TextmapID; // 0x10
 
-		::System::Void _ctor(::RPG::Client::TextID TextmapID)
+		::System::Void _ctor(::RPG::Client::TextID a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_INDEXKEY__CTOR_OFFSET))(this, TextmapID);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_INDEXKEY__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_INDEXKEY_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::RPG::GameCore::RogueTalkNameColorExcelTable_IndexKey other)
+		::System::Boolean Equals(::RPG::GameCore::RogueTalkNameColorExcelTable_IndexKey a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::RogueTalkNameColorExcelTable_IndexKey))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_INDEXKEY_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::RogueTalkNameColorExcelTable_IndexKey))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_INDEXKEY_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

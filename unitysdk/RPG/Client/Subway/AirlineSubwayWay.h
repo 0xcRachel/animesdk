@@ -7,15 +7,15 @@ namespace RPG::Client::Subway { class AirlineSubwayWay_MemberConfig; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_AWAKE_OFFSET UNITYSDK_OFFSET(0x16220EE0)
-#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_GET_STOPDISTANCE_OFFSET UNITYSDK_OFFSET(0x16220EC0)
-#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_SET_STOPDISTANCE_OFFSET UNITYSDK_OFFSET(0x16220ED0)
-#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY__CTOR_OFFSET UNITYSDK_OFFSET(0x16220F40)
-#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x16220FA0)
+#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_AWAKE_OFFSET UNITYSDK_OFFSET(0x17C001C0)
+#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_GET_STOPDISTANCE_OFFSET UNITYSDK_OFFSET(0x17C001A0)
+#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_SET_STOPDISTANCE_OFFSET UNITYSDK_OFFSET(0x17C001B0)
+#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY__CTOR_OFFSET UNITYSDK_OFFSET(0x17C00220)
+#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x17C00280)
 
 namespace RPG::Client::Subway
 {
-	inline static constexpr unsigned int AirlineSubwayWay_TypeDefinitionIndex = 72560;
+	inline static constexpr unsigned int AirlineSubwayWay_TypeDefinitionIndex = 74383;
 
 	class AirlineSubwayWay : public ::RPG::Client::Airline
 	{
@@ -47,9 +47,9 @@ namespace RPG::Client::Subway
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_GET_STOPDISTANCE_OFFSET))(this);
 		}
 
-		::System::Void set_StopDistance(::System::Single value)
+		::System::Void set_StopDistance(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_SET_STOPDISTANCE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_SET_STOPDISTANCE_OFFSET))(this, a1);
 		}
 
 		::System::Void Awake()

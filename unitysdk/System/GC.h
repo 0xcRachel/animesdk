@@ -3,33 +3,33 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/CompilerServices/Ephemeron.h"
 
-#define SYSTEM_GC_COLLECTIONCOUNT_OFFSET UNITYSDK_OFFSET(0x17D33480)
-#define SYSTEM_GC_COLLECT_OFFSET UNITYSDK_OFFSET(0x17D333F0)
-#define SYSTEM_GC_GETCOLLECTIONCOUNT_OFFSET UNITYSDK_OFFSET(0x17D33380)
-#define SYSTEM_GC_GETMAXGENERATION_OFFSET UNITYSDK_OFFSET(0x17D33390)
-#define SYSTEM_GC_GETTOTALMEMORY_OFFSET UNITYSDK_OFFSET(0x170E5FA0)
-#define SYSTEM_GC_GET_EPHEMERON_TOMBSTONE_OFFSET UNITYSDK_OFFSET(0x17D333E0)
-#define SYSTEM_GC_GET_MAXGENERATION_OFFSET UNITYSDK_OFFSET(0x17D33450)
-#define SYSTEM_GC_INTERNALCOLLECT_OFFSET UNITYSDK_OFFSET(0x17D333A0)
-#define SYSTEM_GC_KEEPALIVE_OFFSET UNITYSDK_OFFSET(0x17D334F0)
-#define SYSTEM_GC_REGISTER_EPHEMERON_ARRAY_OFFSET UNITYSDK_OFFSET(0x17D333D0)
-#define SYSTEM_GC_REREGISTERFORFINALIZE_OFFSET UNITYSDK_OFFSET(0x170E5F20)
-#define SYSTEM_GC_SUPPRESSFINALIZE_OFFSET UNITYSDK_OFFSET(0x170E5E90)
-#define SYSTEM_GC_WAITFORPENDINGFINALIZERS_OFFSET UNITYSDK_OFFSET(0x17D33500)
-#define SYSTEM_GC__CCTOR_OFFSET UNITYSDK_OFFSET(0x170E5FE0)
-#define SYSTEM_GC__REREGISTERFORFINALIZE_OFFSET UNITYSDK_OFFSET(0x170E5EF0)
-#define SYSTEM_GC__SUPPRESSFINALIZE_OFFSET UNITYSDK_OFFSET(0x170E5E60)
+#define SYSTEM_GC_COLLECTIONCOUNT_OFFSET UNITYSDK_OFFSET(0x176242F0)
+#define SYSTEM_GC_COLLECT_OFFSET UNITYSDK_OFFSET(0x17624290)
+#define SYSTEM_GC_GETCOLLECTIONCOUNT_OFFSET UNITYSDK_OFFSET(0x17624220)
+#define SYSTEM_GC_GETMAXGENERATION_OFFSET UNITYSDK_OFFSET(0x17624230)
+#define SYSTEM_GC_GETTOTALMEMORY_OFFSET UNITYSDK_OFFSET(0x1575CCE0)
+#define SYSTEM_GC_GET_EPHEMERON_TOMBSTONE_OFFSET UNITYSDK_OFFSET(0x17624280)
+#define SYSTEM_GC_GET_MAXGENERATION_OFFSET UNITYSDK_OFFSET(0x1575CAC0)
+#define SYSTEM_GC_INTERNALCOLLECT_OFFSET UNITYSDK_OFFSET(0x17624240)
+#define SYSTEM_GC_KEEPALIVE_OFFSET UNITYSDK_OFFSET(0x17624360)
+#define SYSTEM_GC_REGISTER_EPHEMERON_ARRAY_OFFSET UNITYSDK_OFFSET(0x17624270)
+#define SYSTEM_GC_REREGISTERFORFINALIZE_OFFSET UNITYSDK_OFFSET(0x1575CC30)
+#define SYSTEM_GC_SUPPRESSFINALIZE_OFFSET UNITYSDK_OFFSET(0x1575CB50)
+#define SYSTEM_GC_WAITFORPENDINGFINALIZERS_OFFSET UNITYSDK_OFFSET(0x1575CAF0)
+#define SYSTEM_GC__CCTOR_OFFSET UNITYSDK_OFFSET(0x1575CD20)
+#define SYSTEM_GC__REREGISTERFORFINALIZE_OFFSET UNITYSDK_OFFSET(0x1575CBE0)
+#define SYSTEM_GC__SUPPRESSFINALIZE_OFFSET UNITYSDK_OFFSET(0x1575CB00)
 
 namespace System
 {
-	inline static constexpr unsigned int GC_TypeDefinitionIndex = 251;
+	inline static constexpr unsigned int GC_TypeDefinitionIndex = 250;
 
 	class GC : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet_EPHEMERON_TOMBSTONE()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(GC_TypeDefinitionIndex)->GetStaticField(0x4D30);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(GC_TypeDefinitionIndex)->GetStaticField(0x6B60);
 		}
 
 		static ::System::Void _cctor()
@@ -37,9 +37,9 @@ namespace System
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_GC__CCTOR_OFFSET))();
 		}
 
-		static ::System::Int32 GetCollectionCount(::System::Int32 generation)
+		static ::System::Int32 GetCollectionCount(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GC_GETCOLLECTIONCOUNT_OFFSET))(generation);
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GC_GETCOLLECTIONCOUNT_OFFSET))(a1);
 		}
 
 		static ::System::Int32 GetMaxGeneration()
@@ -47,14 +47,14 @@ namespace System
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + SYSTEM_GC_GETMAXGENERATION_OFFSET))();
 		}
 
-		static ::System::Void InternalCollect(::System::Int32 generation)
+		static ::System::Void InternalCollect(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GC_INTERNALCOLLECT_OFFSET))(generation);
+			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GC_INTERNALCOLLECT_OFFSET))(a1);
 		}
 
-		static ::System::Void register_ephemeron_array(::Il2CppArray<::System::Runtime::CompilerServices::Ephemeron>* array)
+		static ::System::Void register_ephemeron_array(::Il2CppArray<::System::Runtime::CompilerServices::Ephemeron>* a1)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::Runtime::CompilerServices::Ephemeron>*))((::PBYTE)hIl2Cpp + SYSTEM_GC_REGISTER_EPHEMERON_ARRAY_OFFSET))(array);
+			return ((::System::Void(*)(::Il2CppArray<::System::Runtime::CompilerServices::Ephemeron>*))((::PBYTE)hIl2Cpp + SYSTEM_GC_REGISTER_EPHEMERON_ARRAY_OFFSET))(a1);
 		}
 
 		static ::System::Object* get_ephemeron_tombstone()
@@ -67,14 +67,14 @@ namespace System
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_GC_COLLECT_OFFSET))();
 		}
 
-		static ::System::Int32 CollectionCount(::System::Int32 generation)
+		static ::System::Int32 CollectionCount(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GC_COLLECTIONCOUNT_OFFSET))(generation);
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GC_COLLECTIONCOUNT_OFFSET))(a1);
 		}
 
-		static ::System::Void KeepAlive(::System::Object* obj)
+		static ::System::Void KeepAlive(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GC_KEEPALIVE_OFFSET))(obj);
+			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GC_KEEPALIVE_OFFSET))(a1);
 		}
 
 		static ::System::Int32 get_MaxGeneration()
@@ -87,29 +87,29 @@ namespace System
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_GC_WAITFORPENDINGFINALIZERS_OFFSET))();
 		}
 
-		static ::System::Void _SuppressFinalize(::System::Object* o)
+		static ::System::Void _SuppressFinalize(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GC__SUPPRESSFINALIZE_OFFSET))(o);
+			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GC__SUPPRESSFINALIZE_OFFSET))(a1);
 		}
 
-		static ::System::Void SuppressFinalize(::System::Object* obj)
+		static ::System::Void SuppressFinalize(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GC_SUPPRESSFINALIZE_OFFSET))(obj);
+			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GC_SUPPRESSFINALIZE_OFFSET))(a1);
 		}
 
-		static ::System::Void _ReRegisterForFinalize(::System::Object* o)
+		static ::System::Void _ReRegisterForFinalize(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GC__REREGISTERFORFINALIZE_OFFSET))(o);
+			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GC__REREGISTERFORFINALIZE_OFFSET))(a1);
 		}
 
-		static ::System::Void ReRegisterForFinalize(::System::Object* obj)
+		static ::System::Void ReRegisterForFinalize(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GC_REREGISTERFORFINALIZE_OFFSET))(obj);
+			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GC_REREGISTERFORFINALIZE_OFFSET))(a1);
 		}
 
-		static ::System::Int64 GetTotalMemory(::System::Boolean forceFullCollection)
+		static ::System::Int64 GetTotalMemory(::System::Boolean a1)
 		{
-			return ((::System::Int64(*)(::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GC_GETTOTALMEMORY_OFFSET))(forceFullCollection);
+			return ((::System::Int64(*)(::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GC_GETTOTALMEMORY_OFFSET))(a1);
 		}
 	};
 }

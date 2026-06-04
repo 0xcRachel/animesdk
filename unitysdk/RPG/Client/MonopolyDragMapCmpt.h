@@ -8,17 +8,17 @@ namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace RPG::Client { class MonopolyBoundaryUtils; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_DODRAG_OFFSET UNITYSDK_OFFSET(0x175F5110)
-#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_GET_ISCAMERAMOVED_OFFSET UNITYSDK_OFFSET(0x175F5530)
-#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_ONDRAGSTART_OFFSET UNITYSDK_OFFSET(0x175F50B0)
-#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_RESETCAMERA_OFFSET UNITYSDK_OFFSET(0x175F5550)
-#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_SET_ISCAMERAMOVED_OFFSET UNITYSDK_OFFSET(0x175F5540)
-#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_START_OFFSET UNITYSDK_OFFSET(0x175F4F30)
-#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT__CTOR_OFFSET UNITYSDK_OFFSET(0x175F5650)
+#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_DODRAG_OFFSET UNITYSDK_OFFSET(0x187EDD40)
+#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_GET_ISCAMERAMOVED_OFFSET UNITYSDK_OFFSET(0x187EE160)
+#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_ONDRAGSTART_OFFSET UNITYSDK_OFFSET(0x187EDCE0)
+#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_RESETCAMERA_OFFSET UNITYSDK_OFFSET(0x187EE180)
+#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_SET_ISCAMERAMOVED_OFFSET UNITYSDK_OFFSET(0x187EE170)
+#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT_START_OFFSET UNITYSDK_OFFSET(0x187EDB60)
+#define RPG_CLIENT_MONOPOLYDRAGMAPCMPT__CTOR_OFFSET UNITYSDK_OFFSET(0x187EE280)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyDragMapCmpt_TypeDefinitionIndex = 67103;
+	inline static constexpr unsigned int MonopolyDragMapCmpt_TypeDefinitionIndex = 68046;
 
 	class MonopolyDragMapCmpt : public ::UnityEngine::MonoBehaviour
 	{
@@ -46,9 +46,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDRAGMAPCMPT_ONDRAGSTART_OFFSET))(this);
 		}
 
-		::System::Void DoDrag(::UnityEngine::Vector2 gestureParam)
+		::System::Void DoDrag(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDRAGMAPCMPT_DODRAG_OFFSET))(this, gestureParam);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDRAGMAPCMPT_DODRAG_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsCameraMoved()
@@ -56,9 +56,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDRAGMAPCMPT_GET_ISCAMERAMOVED_OFFSET))(this);
 		}
 
-		::System::Void set_IsCameraMoved(::System::Boolean value)
+		::System::Void set_IsCameraMoved(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDRAGMAPCMPT_SET_ISCAMERAMOVED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYDRAGMAPCMPT_SET_ISCAMERAMOVED_OFFSET))(this, a1);
 		}
 
 		::System::Void ResetCamera()

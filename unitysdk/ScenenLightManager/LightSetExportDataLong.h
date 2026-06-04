@@ -5,14 +5,14 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG_EQUALS_OFFSET UNITYSDK_OFFSET(0x16E24150)
-#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x16E24410)
-#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG_METHOD_1_7172FE331F6185E2_OFFSET UNITYSDK_OFFSET(0x16E23E90)
-#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG__CTOR_OFFSET UNITYSDK_OFFSET(0x16E23DE0)
+#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG_EQUALS_OFFSET UNITYSDK_OFFSET(0x1775B740)
+#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1775BA50)
+#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG_METHOD_1_F4D768D64F0A99F7_OFFSET UNITYSDK_OFFSET(0x1775B450)
+#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG__CTOR_OFFSET UNITYSDK_OFFSET(0x1775B3E0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int LightSetExportDataLong_TypeDefinitionIndex = 45758;
+	inline static constexpr unsigned int LightSetExportDataLong_TypeDefinitionIndex = 46341;
 
 	class LightSetExportDataLong : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace ScenenLightManager
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::System::Int64>*))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Method_1_7172FE331F6185E2(::ScenenLightManager::LightSetExportDataLong* a1)
+		::System::Boolean Method_1_F4D768D64F0A99F7(::ScenenLightManager::LightSetExportDataLong* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::ScenenLightManager::LightSetExportDataLong*))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG_METHOD_1_7172FE331F6185E2_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::ScenenLightManager::LightSetExportDataLong*))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG_METHOD_1_F4D768D64F0A99F7_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

@@ -6,16 +6,16 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MESSAGECONTENTPLAINTEXTBLOCK_BYCONTENT_OFFSET UNITYSDK_OFFSET(0x175B21F0)
-#define RPG_CLIENT_MESSAGECONTENTPLAINTEXTBLOCK_BYTEXTID_OFFSET UNITYSDK_OFFSET(0x175B2260)
-#define RPG_CLIENT_MESSAGECONTENTPLAINTEXTBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x175B22D0)
-#define RPG_CLIENT_MESSAGECONTENTPLAINTEXTBLOCK_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x175B2390)
-#define RPG_CLIENT_MESSAGECONTENTPLAINTEXTBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x175B21E0)
-#define RPG_CLIENT_MESSAGECONTENTPLAINTEXTBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x175B2250)
+#define RPG_CLIENT_MESSAGECONTENTPLAINTEXTBLOCK_BYCONTENT_OFFSET UNITYSDK_OFFSET(0x1792F130)
+#define RPG_CLIENT_MESSAGECONTENTPLAINTEXTBLOCK_BYTEXTID_OFFSET UNITYSDK_OFFSET(0x1792F1A0)
+#define RPG_CLIENT_MESSAGECONTENTPLAINTEXTBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x1792F210)
+#define RPG_CLIENT_MESSAGECONTENTPLAINTEXTBLOCK_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x1792F2D0)
+#define RPG_CLIENT_MESSAGECONTENTPLAINTEXTBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1792F120)
+#define RPG_CLIENT_MESSAGECONTENTPLAINTEXTBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1792F190)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentPlainTextBlock_TypeDefinitionIndex = 58249;
+	inline static constexpr unsigned int MessageContentPlainTextBlock_TypeDefinitionIndex = 59179;
 
 	class MessageContentPlainTextBlock : public ::RPG::Client::MessageContentBlock
 	{
@@ -33,19 +33,19 @@ namespace RPG::Client
 			return ((::RPG::Client::MessageContentBlock_BlockType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTPLAINTEXTBLOCK_GET_TYPE_OFFSET))(this);
 		}
 
-		static ::RPG::Client::MessageContentPlainTextBlock* ByContent(::System::String* content)
+		static ::RPG::Client::MessageContentPlainTextBlock* ByContent(::System::String* a1)
 		{
-			return ((::RPG::Client::MessageContentPlainTextBlock*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTPLAINTEXTBLOCK_BYCONTENT_OFFSET))(content);
+			return ((::RPG::Client::MessageContentPlainTextBlock*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTPLAINTEXTBLOCK_BYCONTENT_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::MessageContentPlainTextBlock* ByTextID(::RPG::Client::TextID textID)
+		static ::RPG::Client::MessageContentPlainTextBlock* ByTextID(::RPG::Client::TextID a1)
 		{
-			return ((::RPG::Client::MessageContentPlainTextBlock*(*)(::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTPLAINTEXTBLOCK_BYTEXTID_OFFSET))(textID);
+			return ((::RPG::Client::MessageContentPlainTextBlock*(*)(::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTPLAINTEXTBLOCK_BYTEXTID_OFFSET))(a1);
 		}
 
-		::System::Boolean Equals(::RPG::Client::MessageContentBlock* other)
+		::System::Boolean Equals(::RPG::Client::MessageContentBlock* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTPLAINTEXTBLOCK_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTPLAINTEXTBLOCK_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Content()

@@ -8,31 +8,31 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKERACEPERFORMANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A84D20)
-#define RPG_GAMECORE_CAKERACEPERFORMANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A84FB0)
+#define RPG_GAMECORE_CAKERACEPERFORMANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19E82A80)
+#define RPG_GAMECORE_CAKERACEPERFORMANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19E82D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRacePerformanceRow_TypeDefinitionIndex = 10544;
+	inline static constexpr unsigned int CakeRacePerformanceRow_TypeDefinitionIndex = 10582;
 
 	class CakeRacePerformanceRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::String*>* PerformanceParam; // 0x10
-		::RPG::GameCore::CakeRacePerformenceAudioTagType AudioTag; // 0x18
-		::System::UInt32 PerformanceID; // 0x1C
-		::RPG::Client::TextID PerformTextmap; // 0x20
-		::System::UInt32 Priority; // 0x30
-		::RPG::GameCore::CakeRaceTriggerPerformanceType PerformType; // 0x34
+		::RPG::GameCore::CakeRaceTriggerPerformanceType PerformType; // 0x18
+		::RPG::GameCore::CakeRacePerformenceAudioTagType AudioTag; // 0x1C
+		::System::UInt32 PerformanceID; // 0x20
+		::System::UInt32 Priority; // 0x24
+		::RPG::Client::TextID PerformTextmap; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEPERFORMANCEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::CakeRacePerformanceRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRacePerformanceRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRacePerformanceRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEPERFORMANCEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRacePerformanceRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEPERFORMANCEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -8,36 +8,36 @@ namespace RPG::GameCore { class AlleyOrderRow; }
 namespace RPG::GameCore { class GoodsClass; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ALLEYORDERDATA_GET_ISONCEFINISHEDBEFORE_OFFSET UNITYSDK_OFFSET(0x15325850)
-#define RPG_CLIENT_ALLEYORDERDATA_GET_ORDERCONTENT_OFFSET UNITYSDK_OFFSET(0x15325870)
-#define RPG_CLIENT_ALLEYORDERDATA_GET_ORDERGOODS_OFFSET UNITYSDK_OFFSET(0x15325890)
-#define RPG_CLIENT_ALLEYORDERDATA_GET_ORDERID_OFFSET UNITYSDK_OFFSET(0x15325810)
-#define RPG_CLIENT_ALLEYORDERDATA_GET_ORDERPROFIT_OFFSET UNITYSDK_OFFSET(0x153258D0)
-#define RPG_CLIENT_ALLEYORDERDATA_GET_ORDERSHIP_OFFSET UNITYSDK_OFFSET(0x153258B0)
-#define RPG_CLIENT_ALLEYORDERDATA_GET_ORDERTIPSPATH_OFFSET UNITYSDK_OFFSET(0x15325B10)
-#define RPG_CLIENT_ALLEYORDERDATA_GET_ORDERTIPSTIME_OFFSET UNITYSDK_OFFSET(0x15325B30)
-#define RPG_CLIENT_ALLEYORDERDATA_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x15325830)
-#define RPG_CLIENT_ALLEYORDERDATA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15325820)
-#define RPG_CLIENT_ALLEYORDERDATA_SET_ISONCEFINISHEDBEFORE_OFFSET UNITYSDK_OFFSET(0x15325860)
-#define RPG_CLIENT_ALLEYORDERDATA_SET_STATUS_OFFSET UNITYSDK_OFFSET(0x15325840)
-#define RPG_CLIENT_ALLEYORDERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x153257C0)
+#define RPG_CLIENT_ALLEYORDERDATA_GET_ISONCEFINISHEDBEFORE_OFFSET UNITYSDK_OFFSET(0x16E66E90)
+#define RPG_CLIENT_ALLEYORDERDATA_GET_ORDERCONTENT_OFFSET UNITYSDK_OFFSET(0x16E66EB0)
+#define RPG_CLIENT_ALLEYORDERDATA_GET_ORDERGOODS_OFFSET UNITYSDK_OFFSET(0x16E66ED0)
+#define RPG_CLIENT_ALLEYORDERDATA_GET_ORDERID_OFFSET UNITYSDK_OFFSET(0x16E66E50)
+#define RPG_CLIENT_ALLEYORDERDATA_GET_ORDERPROFIT_OFFSET UNITYSDK_OFFSET(0x16E66F10)
+#define RPG_CLIENT_ALLEYORDERDATA_GET_ORDERSHIP_OFFSET UNITYSDK_OFFSET(0x16E66EF0)
+#define RPG_CLIENT_ALLEYORDERDATA_GET_ORDERTIPSPATH_OFFSET UNITYSDK_OFFSET(0x16E67140)
+#define RPG_CLIENT_ALLEYORDERDATA_GET_ORDERTIPSTIME_OFFSET UNITYSDK_OFFSET(0x16E67160)
+#define RPG_CLIENT_ALLEYORDERDATA_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x16E66E70)
+#define RPG_CLIENT_ALLEYORDERDATA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x16E66E60)
+#define RPG_CLIENT_ALLEYORDERDATA_SET_ISONCEFINISHEDBEFORE_OFFSET UNITYSDK_OFFSET(0x16E66EA0)
+#define RPG_CLIENT_ALLEYORDERDATA_SET_STATUS_OFFSET UNITYSDK_OFFSET(0x16E66E80)
+#define RPG_CLIENT_ALLEYORDERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16E66E00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyOrderData_TypeDefinitionIndex = 57431;
+	inline static constexpr unsigned int AlleyOrderData_TypeDefinitionIndex = 58243;
 
 	class AlleyOrderData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::AlleyOrderRow* Row; // 0x10
 		::RPG::Client::AlleyOrderStatus _Status_k__BackingField; // 0x18
-		::RPG::Client::AlleyOrderType _Type_k__BackingField; // 0x1C
-		::System::UInt32 _OrderID_k__BackingField; // 0x20
-		::System::Boolean _IsOnceFinishedBefore_k__BackingField; // 0x24
+		::System::Boolean _IsOnceFinishedBefore_k__BackingField; // 0x1C
+		::RPG::Client::AlleyOrderType _Type_k__BackingField; // 0x20
+		::System::UInt32 _OrderID_k__BackingField; // 0x24
 
-		::System::Void _ctor(::System::UInt32 orderID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYORDERDATA__CTOR_OFFSET))(this, orderID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYORDERDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_OrderID()
@@ -55,9 +55,9 @@ namespace RPG::Client
 			return ((::RPG::Client::AlleyOrderStatus(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYORDERDATA_GET_STATUS_OFFSET))(this);
 		}
 
-		::System::Void set_Status(::RPG::Client::AlleyOrderStatus value)
+		::System::Void set_Status(::RPG::Client::AlleyOrderStatus a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::AlleyOrderStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYORDERDATA_SET_STATUS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::AlleyOrderStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYORDERDATA_SET_STATUS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsOnceFinishedBefore()
@@ -65,9 +65,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYORDERDATA_GET_ISONCEFINISHEDBEFORE_OFFSET))(this);
 		}
 
-		::System::Void set_IsOnceFinishedBefore(::System::Boolean value)
+		::System::Void set_IsOnceFinishedBefore(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYORDERDATA_SET_ISONCEFINISHEDBEFORE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYORDERDATA_SET_ISONCEFINISHEDBEFORE_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::RPG::GameCore::GoodsClass*>* get_OrderContent()

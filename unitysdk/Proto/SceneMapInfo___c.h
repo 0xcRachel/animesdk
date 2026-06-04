@@ -4,20 +4,20 @@
 
 namespace Proto { class SceneMapInfo; }
 
-#define PROTO_SCENEMAPINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A591A80)
-#define PROTO_SCENEMAPINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A591AB0)
-#define PROTO_SCENEMAPINFO___C___CCTOR_B__98_0_OFFSET UNITYSDK_OFFSET(0x1A591AC0)
+#define PROTO_SCENEMAPINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB10E60)
+#define PROTO_SCENEMAPINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB10E90)
+#define PROTO_SCENEMAPINFO___C___CCTOR_B__98_0_OFFSET UNITYSDK_OFFSET(0x1AB10EA0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int SceneMapInfo___c_TypeDefinitionIndex = 32191;
+	inline static constexpr unsigned int SceneMapInfo___c_TypeDefinitionIndex = 32300;
 
 	class SceneMapInfo___c : public ::System::Object
 	{
 	public:
 		static ::Proto::SceneMapInfo___c** StaticGet___9()
 		{
-			return (::Proto::SceneMapInfo___c**)Il2CppClass::FromTypeDefinitionIndex(SceneMapInfo___c_TypeDefinitionIndex)->GetStaticField(0x4E900);
+			return (::Proto::SceneMapInfo___c**)Il2CppClass::FromTypeDefinitionIndex(SceneMapInfo___c_TypeDefinitionIndex)->GetStaticField(0x3F3E0);
 		}
 
 		static ::System::Void _cctor()

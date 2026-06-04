@@ -10,25 +10,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_D311B9D517905070_METHOD_1_1F29F81CADD13A09_OFFSET UNITYSDK_OFFSET(0x18916CE0)
-#define CLASS_1_D311B9D517905070__CTOR_OFFSET UNITYSDK_OFFSET(0x189171D0)
+#define CLASS_1_D311B9D517905070_METHOD_1_1F29F81CADD13A09_OFFSET UNITYSDK_OFFSET(0xADAF030)
+#define CLASS_1_D311B9D517905070__CTOR_OFFSET UNITYSDK_OFFSET(0xADAF4D0)
 
-inline static constexpr unsigned int Class_1_D311B9D517905070_TypeDefinitionIndex = 10741;
+inline static constexpr unsigned int Class_1_D311B9D517905070_TypeDefinitionIndex = 10797;
 
 class Class_1_D311B9D517905070 : public ::System::Object
 {
 public:
-	::Il2CppArray<::RPG::GameCore::DiceCombatDiceFunctionTag>* Field_1_10; // 0x10
-	::System::String* Field_1_7; // 0x18
-	::Il2CppArray<::System::UInt32>* Field_1_5; // 0x20
-	::Il2CppArray<::System::UInt32>* Field_1_8; // 0x28
-	::RPG::Client::TextID Field_1_1; // 0x30
-	::RPG::Client::TextID Field_1_9; // 0x40
-	::RPG::GameCore::DiceCombatDiceValidTurnType Field_1_6; // 0x50
-	::RPG::GameCore::DiceCombatDiceType Field_1_3; // 0x54
-	::System::Boolean Field_1_2; // 0x58
-	::System::UInt32 Field_1_0; // 0x5C
-	::RPG::GameCore::DiceCombatDiceRare Field_1_4; // 0x60
+	::Il2CppArray<::System::UInt32>* Field_1_0; // 0x10
+	::System::String* Field_1_1; // 0x18
+	::Il2CppArray<::System::UInt32>* Field_1_2; // 0x20
+	::Il2CppArray<::RPG::GameCore::DiceCombatDiceFunctionTag>* Field_1_3; // 0x28
+	::RPG::GameCore::DiceCombatDiceValidTurnType Field_1_4; // 0x30
+	::RPG::Client::TextID Field_1_5; // 0x38
+	::RPG::GameCore::DiceCombatDiceRare Field_1_6; // 0x48
+	::RPG::GameCore::DiceCombatDiceType Field_1_7; // 0x4C
+	::System::UInt32 Field_1_8; // 0x50
+	::System::Boolean Field_1_9; // 0x54
+	::RPG::Client::TextID Field_1_10; // 0x58
 
 	::System::Void _ctor()
 	{

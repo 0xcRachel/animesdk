@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUBLEVELGRAPHDYNAMICSTRINGOVERRIDE_METHOD_2_AB28569F95578D7E_OFFSET UNITYSDK_OFFSET(0x18D7C160)
-#define RPG_GAMECORE_SUBLEVELGRAPHDYNAMICSTRINGOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x18D7C270)
+#define RPG_GAMECORE_SUBLEVELGRAPHDYNAMICSTRINGOVERRIDE_METHOD_2_AB28569F95578D7E_OFFSET UNITYSDK_OFFSET(0x1984CA90)
+#define RPG_GAMECORE_SUBLEVELGRAPHDYNAMICSTRINGOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1984CBA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubLevelGraphDynamicStringOverride_TypeDefinitionIndex = 19693;
+	inline static constexpr unsigned int SubLevelGraphDynamicStringOverride_TypeDefinitionIndex = 19573;
 
 	class SubLevelGraphDynamicStringOverride : public ::RPG::GameCore::JsonConfig
 	{

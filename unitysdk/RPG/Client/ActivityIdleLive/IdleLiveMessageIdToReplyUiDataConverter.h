@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class MessageReplyUiData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEMESSAGEIDTOREPLYUIDATACONVERTER_PRODUCEREPLYUIDATA_OFFSET UNITYSDK_OFFSET(0x16C6C330)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEMESSAGEIDTOREPLYUIDATACONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16C6C510)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEMESSAGEIDTOREPLYUIDATACONVERTER_PRODUCEREPLYUIDATA_OFFSET UNITYSDK_OFFSET(0x18B41F40)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEMESSAGEIDTOREPLYUIDATACONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18B42180)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveMessageIdToReplyUiDataConverter_TypeDefinitionIndex = 69428;
+	inline static constexpr unsigned int IdleLiveMessageIdToReplyUiDataConverter_TypeDefinitionIndex = 70240;
 
 	class IdleLiveMessageIdToReplyUiDataConverter : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEMESSAGEIDTOREPLYUIDATACONVERTER__CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::MessageReplyUiData* ProduceReplyUiData(::System::UInt32 contentId)
+		::RPG::Client::MessageReplyUiData* ProduceReplyUiData(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::MessageReplyUiData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEMESSAGEIDTOREPLYUIDATACONVERTER_PRODUCEREPLYUIDATA_OFFSET))(this, contentId);
+			return ((::RPG::Client::MessageReplyUiData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEMESSAGEIDTOREPLYUIDATACONVERTER_PRODUCEREPLYUIDATA_OFFSET))(this, a1);
 		}
 	};
 }

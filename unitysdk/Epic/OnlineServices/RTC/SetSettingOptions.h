@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_RTC_SETSETTINGOPTIONS_GET_SETTINGNAME_OFFSET UNITYSDK_OFFSET(0x19618A30)
-#define EPIC_ONLINESERVICES_RTC_SETSETTINGOPTIONS_GET_SETTINGVALUE_OFFSET UNITYSDK_OFFSET(0x1965A320)
-#define EPIC_ONLINESERVICES_RTC_SETSETTINGOPTIONS_SET_SETTINGNAME_OFFSET UNITYSDK_OFFSET(0x1965A310)
-#define EPIC_ONLINESERVICES_RTC_SETSETTINGOPTIONS_SET_SETTINGVALUE_OFFSET UNITYSDK_OFFSET(0x1965A330)
-#define EPIC_ONLINESERVICES_RTC_SETSETTINGOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1965A340)
+#define EPIC_ONLINESERVICES_RTC_SETSETTINGOPTIONS_GET_SETTINGNAME_OFFSET UNITYSDK_OFFSET(0x1A3D9840)
+#define EPIC_ONLINESERVICES_RTC_SETSETTINGOPTIONS_GET_SETTINGVALUE_OFFSET UNITYSDK_OFFSET(0x1A41C900)
+#define EPIC_ONLINESERVICES_RTC_SETSETTINGOPTIONS_SET_SETTINGNAME_OFFSET UNITYSDK_OFFSET(0x1A41C8F0)
+#define EPIC_ONLINESERVICES_RTC_SETSETTINGOPTIONS_SET_SETTINGVALUE_OFFSET UNITYSDK_OFFSET(0x1A41C910)
+#define EPIC_ONLINESERVICES_RTC_SETSETTINGOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A41C920)
 
 namespace Epic::OnlineServices::RTC
 {
-	inline static constexpr unsigned int SetSettingOptions_TypeDefinitionIndex = 41555;
+	inline static constexpr unsigned int SetSettingOptions_TypeDefinitionIndex = 42358;
 
 	class SetSettingOptions : public ::System::Object
 	{
 	public:
-		::System::String* _SettingValue_k__BackingField; // 0x10
-		::System::String* _SettingName_k__BackingField; // 0x18
+		::System::String* _SettingName_k__BackingField; // 0x10
+		::System::String* _SettingValue_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -30,9 +30,9 @@ namespace Epic::OnlineServices::RTC
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_SETSETTINGOPTIONS_GET_SETTINGNAME_OFFSET))(this);
 		}
 
-		::System::Void set_SettingName(::System::String* value)
+		::System::Void set_SettingName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_SETSETTINGOPTIONS_SET_SETTINGNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_SETSETTINGOPTIONS_SET_SETTINGNAME_OFFSET))(this, a1);
 		}
 
 		::System::String* get_SettingValue()
@@ -40,9 +40,9 @@ namespace Epic::OnlineServices::RTC
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_SETSETTINGOPTIONS_GET_SETTINGVALUE_OFFSET))(this);
 		}
 
-		::System::Void set_SettingValue(::System::String* value)
+		::System::Void set_SettingValue(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_SETSETTINGOPTIONS_SET_SETTINGVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_SETSETTINGOPTIONS_SET_SETTINGVALUE_OFFSET))(this, a1);
 		}
 	};
 }

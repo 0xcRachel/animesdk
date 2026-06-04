@@ -7,26 +7,26 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x157A48A0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_ONCREATESERVICE_OFFSET UNITYSDK_OFFSET(0x157A4980)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_SHOWGRANTMAILPLUGINUI_OFFSET UNITYSDK_OFFSET(0x157A5E70)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_SHOWGRANTPHONEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x157A55A0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_SHOWREALNAMEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x157A4B10)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_SHOWREALPERSONPLUGINUI_OFFSET UNITYSDK_OFFSET(0x157A6740)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_SHOWSECONDREALNAMEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x157A5030)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE__CCTOR_OFFSET UNITYSDK_OFFSET(0x157A6F50)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x157A4890)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x16A19F70)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_ONCREATESERVICE_OFFSET UNITYSDK_OFFSET(0x16A1A050)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_SHOWGRANTMAILPLUGINUI_OFFSET UNITYSDK_OFFSET(0x16A1BE90)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_SHOWGRANTPHONEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x16A1B2F0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_SHOWREALNAMEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x16A1A240)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_SHOWREALPERSONPLUGINUI_OFFSET UNITYSDK_OFFSET(0x16A1CA30)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_SHOWSECONDREALNAMEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x16A1AA40)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16A1D510)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x16A19F60)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIRealNameService_TypeDefinitionIndex = 7910;
+	inline static constexpr unsigned int PluginUIRealNameService_TypeDefinitionIndex = 8813;
 
 	class PluginUIRealNameService : public ::MiHoYo::SDK::PluginUI::IPluginUIService
 	{
 	public:
 		static ::MiHoYo::SDK::PluginUI::PluginUIRealNameService** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::PluginUI::PluginUIRealNameService**)Il2CppClass::FromTypeDefinitionIndex(PluginUIRealNameService_TypeDefinitionIndex)->GetStaticField(0x146C0);
+			return (::MiHoYo::SDK::PluginUI::PluginUIRealNameService**)Il2CppClass::FromTypeDefinitionIndex(PluginUIRealNameService_TypeDefinitionIndex)->GetStaticField(0x19A60);
 		}
 
 		::System::Void _ctor()
@@ -49,29 +49,29 @@ namespace MiHoYo::SDK::PluginUI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_ONCREATESERVICE_OFFSET))(this);
 		}
 
-		::System::Void ShowRealNamePluginUI(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>* dicElement2Action, ::System::String* strCustomData)
+		::System::Void ShowRealNamePluginUI(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_SHOWREALNAMEPLUGINUI_OFFSET))(this, dicElement2Action, strCustomData);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_SHOWREALNAMEPLUGINUI_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ShowSecondRealNamePluginUI(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>* dicElement2Action, ::System::String* strCustomData)
+		::System::Void ShowSecondRealNamePluginUI(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_SHOWSECONDREALNAMEPLUGINUI_OFFSET))(this, dicElement2Action, strCustomData);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_SHOWSECONDREALNAMEPLUGINUI_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ShowGrantPhonePluginUI(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>* dicElement2Action, ::System::String* strCustomData)
+		::System::Void ShowGrantPhonePluginUI(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_SHOWGRANTPHONEPLUGINUI_OFFSET))(this, dicElement2Action, strCustomData);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_SHOWGRANTPHONEPLUGINUI_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ShowGrantMailPluginUI(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>* dicElement2Action, ::System::String* strCustomData)
+		::System::Void ShowGrantMailPluginUI(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_SHOWGRANTMAILPLUGINUI_OFFSET))(this, dicElement2Action, strCustomData);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_SHOWGRANTMAILPLUGINUI_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ShowRealPersonPluginUI(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>* dicElement2Action, ::System::String* strCustomData)
+		::System::Void ShowRealPersonPluginUI(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_SHOWREALPERSONPLUGINUI_OFFSET))(this, dicElement2Action, strCustomData);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIREALNAMESERVICE_SHOWREALPERSONPLUGINUI_OFFSET))(this, a1, a2);
 		}
 	};
 }

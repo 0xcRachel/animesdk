@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerAutoLayoutTransferPerform; }
 
-#define CLASS_3_C3B3B7A82E5A83CD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDB33850)
-#define CLASS_3_C3B3B7A82E5A83CD__CTOR_OFFSET UNITYSDK_OFFSET(0xDB33820)
+#define CLASS_3_C3B3B7A82E5A83CD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13FAD030)
+#define CLASS_3_C3B3B7A82E5A83CD__CTOR_OFFSET UNITYSDK_OFFSET(0x13FAD000)
 
-inline static constexpr unsigned int Class_3_C3B3B7A82E5A83CD_TypeDefinitionIndex = 51371;
+inline static constexpr unsigned int Class_3_C3B3B7A82E5A83CD_TypeDefinitionIndex = 52039;
 
 class Class_3_C3B3B7A82E5A83CD : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerAutoLayoutTransferPerform*>
 {

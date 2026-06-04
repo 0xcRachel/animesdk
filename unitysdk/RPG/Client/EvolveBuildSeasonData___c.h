@@ -5,24 +5,24 @@
 namespace RPG::Client { class EvolveBuildStage; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_EVOLVEBUILDSEASONDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x161CC380)
-#define RPG_CLIENT_EVOLVEBUILDSEASONDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x161CC3B0)
-#define RPG_CLIENT_EVOLVEBUILDSEASONDATA___C__INITSTAGES_B__9_0_OFFSET UNITYSDK_OFFSET(0x161CC3C0)
+#define RPG_CLIENT_EVOLVEBUILDSEASONDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17DC23E0)
+#define RPG_CLIENT_EVOLVEBUILDSEASONDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17DC2410)
+#define RPG_CLIENT_EVOLVEBUILDSEASONDATA___C__INITSTAGES_B__9_0_OFFSET UNITYSDK_OFFSET(0x17DC2420)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildSeasonData___c_TypeDefinitionIndex = 58798;
+	inline static constexpr unsigned int EvolveBuildSeasonData___c_TypeDefinitionIndex = 59728;
 
 	class EvolveBuildSeasonData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::EvolveBuildSeasonData___c** StaticGet___9()
-		{
-			return (::RPG::Client::EvolveBuildSeasonData___c**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildSeasonData___c_TypeDefinitionIndex)->GetStaticField(0xD970);
-		}
 		static ::System::Comparison_1<::RPG::Client::EvolveBuildStage*>** StaticGet___9__9_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::EvolveBuildStage*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildSeasonData___c_TypeDefinitionIndex)->GetStaticField(0xD978);
+			return (::System::Comparison_1<::RPG::Client::EvolveBuildStage*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildSeasonData___c_TypeDefinitionIndex)->GetStaticField(0x14A30);
+		}
+		static ::RPG::Client::EvolveBuildSeasonData___c** StaticGet___9()
+		{
+			return (::RPG::Client::EvolveBuildSeasonData___c**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildSeasonData___c_TypeDefinitionIndex)->GetStaticField(0x14A38);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSEASONDATA___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _InitStages_b__9_0(::RPG::Client::EvolveBuildStage* a, ::RPG::Client::EvolveBuildStage* b)
+		::System::Int32 _InitStages_b__9_0(::RPG::Client::EvolveBuildStage* a1, ::RPG::Client::EvolveBuildStage* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::EvolveBuildStage*, ::RPG::Client::EvolveBuildStage*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSEASONDATA___C__INITSTAGES_B__9_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::EvolveBuildStage*, ::RPG::Client::EvolveBuildStage*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSEASONDATA___C__INITSTAGES_B__9_0_OFFSET))(this, a1, a2);
 		}
 	};
 }

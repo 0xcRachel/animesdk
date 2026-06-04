@@ -5,10 +5,10 @@
 namespace Mono::Security { class ASN1; }
 namespace Mono::Security { class PKCS7_ContentInfo; }
 
-#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA_GET_ENCRYPTEDCONTENT_OFFSET UNITYSDK_OFFSET(0x19411AC0)
-#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA_GET_ENCRYPTIONALGORITHM_OFFSET UNITYSDK_OFFSET(0x19411AB0)
-#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x194115D0)
-#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x194115C0)
+#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA_GET_ENCRYPTEDCONTENT_OFFSET UNITYSDK_OFFSET(0x19CC3910)
+#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA_GET_ENCRYPTIONALGORITHM_OFFSET UNITYSDK_OFFSET(0x19CC3900)
+#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19CC3420)
+#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19CC3410)
 
 namespace Mono::Security
 {
@@ -17,9 +17,9 @@ namespace Mono::Security
 	class PKCS7_EncryptedData : public ::System::Object
 	{
 	public:
-		::Mono::Security::PKCS7_ContentInfo* _encryptionAlgorithm; // 0x10
-		::Mono::Security::PKCS7_ContentInfo* _content; // 0x18
-		::Il2CppArray<::System::Byte>* _encrypted; // 0x20
+		::Mono::Security::PKCS7_ContentInfo* _content; // 0x10
+		::Il2CppArray<::System::Byte>* _encrypted; // 0x18
+		::Mono::Security::PKCS7_ContentInfo* _encryptionAlgorithm; // 0x20
 		::System::Byte _version; // 0x28
 
 		::System::Void _ctor()
@@ -27,9 +27,9 @@ namespace Mono::Security
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_PKCS7_ENCRYPTEDDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::Mono::Security::ASN1* asn1)
+		::System::Void _ctor_1(::Mono::Security::ASN1* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Security::ASN1*))((::PBYTE)hIl2Cpp + MONO_SECURITY_PKCS7_ENCRYPTEDDATA__CTOR_1_OFFSET))(this, asn1);
+			return ((::System::Void(*)(::PVOID, ::Mono::Security::ASN1*))((::PBYTE)hIl2Cpp + MONO_SECURITY_PKCS7_ENCRYPTEDDATA__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::Mono::Security::PKCS7_ContentInfo* get_EncryptionAlgorithm()

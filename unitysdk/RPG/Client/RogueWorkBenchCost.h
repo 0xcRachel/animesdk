@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class ItemConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUEWORKBENCHCOST_GETCOSTCONFIGID_OFFSET UNITYSDK_OFFSET(0x15BA5260)
-#define RPG_CLIENT_ROGUEWORKBENCHCOST_GETCOSTNUM_OFFSET UNITYSDK_OFFSET(0x15BA51F0)
-#define RPG_CLIENT_ROGUEWORKBENCHCOST_GET_COSTCOUNT_OFFSET UNITYSDK_OFFSET(0x15BA52F0)
-#define RPG_CLIENT_ROGUEWORKBENCHCOST_GET_FREECOUNT_OFFSET UNITYSDK_OFFSET(0x15BA52D0)
-#define RPG_CLIENT_ROGUEWORKBENCHCOST_REFRESH_1_OFFSET UNITYSDK_OFFSET(0x15BA4660)
-#define RPG_CLIENT_ROGUEWORKBENCHCOST_REFRESH_OFFSET UNITYSDK_OFFSET(0x15BA5160)
-#define RPG_CLIENT_ROGUEWORKBENCHCOST_SET_COSTCOUNT_OFFSET UNITYSDK_OFFSET(0x15BA5300)
-#define RPG_CLIENT_ROGUEWORKBENCHCOST_SET_FREECOUNT_OFFSET UNITYSDK_OFFSET(0x15BA52E0)
-#define RPG_CLIENT_ROGUEWORKBENCHCOST__CTOR_OFFSET UNITYSDK_OFFSET(0x15BA4500)
+#define RPG_CLIENT_ROGUEWORKBENCHCOST_GETCOSTCONFIGID_OFFSET UNITYSDK_OFFSET(0x176AC410)
+#define RPG_CLIENT_ROGUEWORKBENCHCOST_GETCOSTNUM_OFFSET UNITYSDK_OFFSET(0x176AC380)
+#define RPG_CLIENT_ROGUEWORKBENCHCOST_GET_COSTCOUNT_OFFSET UNITYSDK_OFFSET(0x176AC4B0)
+#define RPG_CLIENT_ROGUEWORKBENCHCOST_GET_FREECOUNT_OFFSET UNITYSDK_OFFSET(0x176AC490)
+#define RPG_CLIENT_ROGUEWORKBENCHCOST_REFRESH_1_OFFSET UNITYSDK_OFFSET(0x176AB910)
+#define RPG_CLIENT_ROGUEWORKBENCHCOST_REFRESH_OFFSET UNITYSDK_OFFSET(0x176AC2F0)
+#define RPG_CLIENT_ROGUEWORKBENCHCOST_SET_COSTCOUNT_OFFSET UNITYSDK_OFFSET(0x176AC4C0)
+#define RPG_CLIENT_ROGUEWORKBENCHCOST_SET_FREECOUNT_OFFSET UNITYSDK_OFFSET(0x176AC4A0)
+#define RPG_CLIENT_ROGUEWORKBENCHCOST__CTOR_OFFSET UNITYSDK_OFFSET(0x176AB810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueWorkBenchCost_TypeDefinitionIndex = 62042;
+	inline static constexpr unsigned int RogueWorkBenchCost_TypeDefinitionIndex = 62975;
 
 	class RogueWorkBenchCost : public ::System::Object
 	{
@@ -26,19 +26,19 @@ namespace RPG::Client
 		::System::UInt32 _FreeCount_k__BackingField; // 0x18
 		::System::Int32 _CostCount_k__BackingField; // 0x1C
 
-		::System::Void _ctor(::System::UInt32 freeCount, ::System::Int32 costCount, ::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* costList)
+		::System::Void _ctor(::System::UInt32 a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Int32, ::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOST__CTOR_OFFSET))(this, freeCount, costCount, costList);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Int32, ::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOST__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Refresh(::System::UInt32 freeCount, ::System::Int32 costCount, ::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* costList)
+		::System::Void Refresh(::System::UInt32 a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Int32, ::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOST_REFRESH_OFFSET))(this, freeCount, costCount, costList);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Int32, ::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOST_REFRESH_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Refresh_1(::RPG::Client::RogueWorkBenchCost* costData)
+		::System::Void Refresh_1(::RPG::Client::RogueWorkBenchCost* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueWorkBenchCost*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOST_REFRESH_1_OFFSET))(this, costData);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueWorkBenchCost*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOST_REFRESH_1_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetCostNum()
@@ -56,9 +56,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOST_GET_FREECOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_FreeCount(::System::UInt32 value)
+		::System::Void set_FreeCount(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOST_SET_FREECOUNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOST_SET_FREECOUNT_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_CostCount()
@@ -66,9 +66,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOST_GET_COSTCOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_CostCount(::System::Int32 value)
+		::System::Void set_CostCount(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOST_SET_COSTCOUNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHCOST_SET_COSTCOUNT_OFFSET))(this, a1);
 		}
 	};
 }

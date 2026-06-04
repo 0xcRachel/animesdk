@@ -6,32 +6,32 @@ namespace System { class String; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class GameObject; }
 
-#define UNITYENGINE_SENDMOUSEEVENTS_HITINFO_COMPARE_OFFSET UNITYSDK_OFFSET(0x1A7433A0)
-#define UNITYENGINE_SENDMOUSEEVENTS_HITINFO_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1A743340)
-#define UNITYENGINE_SENDMOUSEEVENTS_HITINFO_SENDMESSAGE__OFFSET UNITYSDK_OFFSET(0x23C50F0)
+#define UNITYENGINE_SENDMOUSEEVENTS_HITINFO_COMPARE_OFFSET UNITYSDK_OFFSET(0x1B564D20)
+#define UNITYENGINE_SENDMOUSEEVENTS_HITINFO_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B564CC0)
+#define UNITYENGINE_SENDMOUSEEVENTS_HITINFO_SENDMESSAGE__OFFSET UNITYSDK_OFFSET(0x3964560)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SendMouseEvents_HitInfo_TypeDefinitionIndex = 5168;
+	inline static constexpr unsigned int SendMouseEvents_HitInfo_TypeDefinitionIndex = 5262;
 
 	struct alignas(8) SendMouseEvents_HitInfo
 	{
 		::UnityEngine::GameObject* target; // 0x10
 		::UnityEngine::Camera* camera; // 0x18
 
-		::System::Void SendMessage_(::System::String* name)
+		::System::Void SendMessage_(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_SENDMOUSEEVENTS_HITINFO_SENDMESSAGE__OFFSET))(this, name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_SENDMOUSEEVENTS_HITINFO_SENDMESSAGE__OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean op_Implicit(::UnityEngine::SendMouseEvents_HitInfo exists)
+		static ::System::Boolean op_Implicit(::UnityEngine::SendMouseEvents_HitInfo a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::SendMouseEvents_HitInfo))((::PBYTE)hIl2Cpp + UNITYENGINE_SENDMOUSEEVENTS_HITINFO_OP_IMPLICIT_OFFSET))(exists);
+			return ((::System::Boolean(*)(::UnityEngine::SendMouseEvents_HitInfo))((::PBYTE)hIl2Cpp + UNITYENGINE_SENDMOUSEEVENTS_HITINFO_OP_IMPLICIT_OFFSET))(a1);
 		}
 
-		static ::System::Boolean Compare(::UnityEngine::SendMouseEvents_HitInfo lhs, ::UnityEngine::SendMouseEvents_HitInfo rhs)
+		static ::System::Boolean Compare(::UnityEngine::SendMouseEvents_HitInfo a1, ::UnityEngine::SendMouseEvents_HitInfo a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::SendMouseEvents_HitInfo, ::UnityEngine::SendMouseEvents_HitInfo))((::PBYTE)hIl2Cpp + UNITYENGINE_SENDMOUSEEVENTS_HITINFO_COMPARE_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::UnityEngine::SendMouseEvents_HitInfo, ::UnityEngine::SendMouseEvents_HitInfo))((::PBYTE)hIl2Cpp + UNITYENGINE_SENDMOUSEEVENTS_HITINFO_COMPARE_OFFSET))(a1, a2);
 		}
 	};
 }

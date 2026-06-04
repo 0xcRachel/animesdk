@@ -6,12 +6,12 @@
 class AkEnvironment;
 namespace UnityEngine { class BoxCollider; }
 
-#define AKENVIRONMENTPORTAL_GETAUXSENDVALUEFORPOSITION_OFFSET UNITYSDK_OFFSET(0x192C6920)
-#define AKENVIRONMENTPORTAL_GET_BOXCOLLIDER_OFFSET UNITYSDK_OFFSET(0x192C6640)
-#define AKENVIRONMENTPORTAL_GET_ENVIRONMENTSSHAREAUXBUS_OFFSET UNITYSDK_OFFSET(0x192C6700)
-#define AKENVIRONMENTPORTAL__CTOR_OFFSET UNITYSDK_OFFSET(0x192C6E40)
+#define AKENVIRONMENTPORTAL_GETAUXSENDVALUEFORPOSITION_OFFSET UNITYSDK_OFFSET(0x19DE12C0)
+#define AKENVIRONMENTPORTAL_GET_BOXCOLLIDER_OFFSET UNITYSDK_OFFSET(0x19DE1060)
+#define AKENVIRONMENTPORTAL_GET_ENVIRONMENTSSHAREAUXBUS_OFFSET UNITYSDK_OFFSET(0x19DE1110)
+#define AKENVIRONMENTPORTAL__CTOR_OFFSET UNITYSDK_OFFSET(0x19DE17E0)
 
-inline static constexpr unsigned int AkEnvironmentPortal_TypeDefinitionIndex = 40475;
+inline static constexpr unsigned int AkEnvironmentPortal_TypeDefinitionIndex = 41302;
 
 class AkEnvironmentPortal : public ::UnityEngine::MonoBehaviour
 {
@@ -36,8 +36,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AKENVIRONMENTPORTAL_GET_ENVIRONMENTSSHAREAUXBUS_OFFSET))(this);
 	}
 
-	::System::Single GetAuxSendValueForPosition(::UnityEngine::Vector3 in_position, ::System::Int32 index)
+	::System::Single GetAuxSendValueForPosition(::UnityEngine::Vector3 a1, ::System::Int32 a2)
 	{
-		return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3, ::System::Int32))((::PBYTE)hIl2Cpp + AKENVIRONMENTPORTAL_GETAUXSENDVALUEFORPOSITION_OFFSET))(this, in_position, index);
+		return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3, ::System::Int32))((::PBYTE)hIl2Cpp + AKENVIRONMENTPORTAL_GETAUXSENDVALUEFORPOSITION_OFFSET))(this, a1, a2);
 	}
 };

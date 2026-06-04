@@ -8,36 +8,36 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class SharedVertex; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY_AVERAGENORMALWITHINDEXES_OFFSET UNITYSDK_OFFSET(0xB9C9B30)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY_CREATEMESHWITHTRANSFORM_OFFSET UNITYSDK_OFFSET(0xB9CB4E0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY_FILTERUNUSEDSUBMESHINDEXES_OFFSET UNITYSDK_OFFSET(0xB9AF340)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY_RESETPBOBJECTWITHMESHFILTER_OFFSET UNITYSDK_OFFSET(0xB9CDB40)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY_AVERAGENORMALWITHINDEXES_OFFSET UNITYSDK_OFFSET(0xC26B770)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY_CREATEMESHWITHTRANSFORM_OFFSET UNITYSDK_OFFSET(0xC26CF30)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY_FILTERUNUSEDSUBMESHINDEXES_OFFSET UNITYSDK_OFFSET(0xC251AB0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY_RESETPBOBJECTWITHMESHFILTER_OFFSET UNITYSDK_OFFSET(0xC26F240)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int InternalMeshUtility_TypeDefinitionIndex = 40054;
+	inline static constexpr unsigned int InternalMeshUtility_TypeDefinitionIndex = 40881;
 
 	class InternalMeshUtility : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Vector3 AverageNormalWithIndexes(::UnityEngine::ProBuilder::SharedVertex* shared, ::Il2CppArray<::System::Int32>* all, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* norm)
+		static ::UnityEngine::Vector3 AverageNormalWithIndexes(::UnityEngine::ProBuilder::SharedVertex* a1, ::Il2CppArray<::System::Int32>* a2, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a3)
 		{
-			return ((::UnityEngine::Vector3(*)(::UnityEngine::ProBuilder::SharedVertex*, ::Il2CppArray<::System::Int32>*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY_AVERAGENORMALWITHINDEXES_OFFSET))(shared, all, norm);
+			return ((::UnityEngine::Vector3(*)(::UnityEngine::ProBuilder::SharedVertex*, ::Il2CppArray<::System::Int32>*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY_AVERAGENORMALWITHINDEXES_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::ProBuilder::ProBuilderMesh* CreateMeshWithTransform(::UnityEngine::Transform* t, ::System::Boolean preserveFaces)
+		static ::UnityEngine::ProBuilder::ProBuilderMesh* CreateMeshWithTransform(::UnityEngine::Transform* a1, ::System::Boolean a2)
 		{
-			return ((::UnityEngine::ProBuilder::ProBuilderMesh*(*)(::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY_CREATEMESHWITHTRANSFORM_OFFSET))(t, preserveFaces);
+			return ((::UnityEngine::ProBuilder::ProBuilderMesh*(*)(::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY_CREATEMESHWITHTRANSFORM_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean ResetPbObjectWithMeshFilter(::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::System::Boolean preserveFaces)
+		static ::System::Boolean ResetPbObjectWithMeshFilter(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY_RESETPBOBJECTWITHMESHFILTER_OFFSET))(pb, preserveFaces);
+			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY_RESETPBOBJECTWITHMESHFILTER_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FilterUnusedSubmeshIndexes(::UnityEngine::ProBuilder::ProBuilderMesh* mesh)
+		static ::System::Void FilterUnusedSubmeshIndexes(::UnityEngine::ProBuilder::ProBuilderMesh* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY_FILTERUNUSEDSUBMESHINDEXES_OFFSET))(mesh);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_INTERNALMESHUTILITY_FILTERUNUSEDSUBMESHINDEXES_OFFSET))(a1);
 		}
 	};
 }

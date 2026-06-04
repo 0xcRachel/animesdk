@@ -4,15 +4,15 @@
 
 namespace System { class String; }
 
-#define CLASS_1_217BBF64891C4D7A_GET_MAPPATH_OFFSET UNITYSDK_OFFSET(0xB573B40)
-#define CLASS_1_217BBF64891C4D7A_GET_STARTCELLID_OFFSET UNITYSDK_OFFSET(0xB573B60)
-#define CLASS_1_217BBF64891C4D7A_GET_STARTMAPID_OFFSET UNITYSDK_OFFSET(0xB573B80)
-#define CLASS_1_217BBF64891C4D7A_SET_MAPPATH_OFFSET UNITYSDK_OFFSET(0xB573B50)
-#define CLASS_1_217BBF64891C4D7A_SET_STARTCELLID_OFFSET UNITYSDK_OFFSET(0xB573B70)
-#define CLASS_1_217BBF64891C4D7A_SET_STARTMAPID_OFFSET UNITYSDK_OFFSET(0xB573B90)
-#define CLASS_1_217BBF64891C4D7A__CTOR_OFFSET UNITYSDK_OFFSET(0xB573BA0)
+#define CLASS_1_217BBF64891C4D7A_GET_MAPPATH_OFFSET UNITYSDK_OFFSET(0x168C82A0)
+#define CLASS_1_217BBF64891C4D7A_GET_STARTCELLID_OFFSET UNITYSDK_OFFSET(0x168C82C0)
+#define CLASS_1_217BBF64891C4D7A_GET_STARTMAPID_OFFSET UNITYSDK_OFFSET(0x168C82E0)
+#define CLASS_1_217BBF64891C4D7A_SET_MAPPATH_OFFSET UNITYSDK_OFFSET(0x168C82B0)
+#define CLASS_1_217BBF64891C4D7A_SET_STARTCELLID_OFFSET UNITYSDK_OFFSET(0x168C82D0)
+#define CLASS_1_217BBF64891C4D7A_SET_STARTMAPID_OFFSET UNITYSDK_OFFSET(0x168C82F0)
+#define CLASS_1_217BBF64891C4D7A__CTOR_OFFSET UNITYSDK_OFFSET(0x168C8300)
 
-inline static constexpr unsigned int Class_1_217BBF64891C4D7A_TypeDefinitionIndex = 69734;
+inline static constexpr unsigned int Class_1_217BBF64891C4D7A_TypeDefinitionIndex = 70546;
 
 class Class_1_217BBF64891C4D7A : public ::System::Object
 {
@@ -31,9 +31,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_217BBF64891C4D7A_GET_MAPPATH_OFFSET))(this);
 	}
 
-	::System::Void set_MapPath(::System::String* value)
+	::System::Void set_MapPath(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_217BBF64891C4D7A_SET_MAPPATH_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_217BBF64891C4D7A_SET_MAPPATH_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_StartCellID()
@@ -41,9 +41,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_217BBF64891C4D7A_GET_STARTCELLID_OFFSET))(this);
 	}
 
-	::System::Void set_StartCellID(::System::UInt32 value)
+	::System::Void set_StartCellID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_217BBF64891C4D7A_SET_STARTCELLID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_217BBF64891C4D7A_SET_STARTCELLID_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_StartMapID()
@@ -51,8 +51,8 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_217BBF64891C4D7A_GET_STARTMAPID_OFFSET))(this);
 	}
 
-	::System::Void set_StartMapID(::System::UInt32 value)
+	::System::Void set_StartMapID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_217BBF64891C4D7A_SET_STARTMAPID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_217BBF64891C4D7A_SET_STARTMAPID_OFFSET))(this, a1);
 	}
 };

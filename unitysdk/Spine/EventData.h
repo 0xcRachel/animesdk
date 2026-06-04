@@ -4,25 +4,25 @@
 
 namespace System { class String; }
 
-#define SPINE_EVENTDATA_GET_AUDIOPATH_OFFSET UNITYSDK_OFFSET(0x156BC080)
-#define SPINE_EVENTDATA_GET_BALANCE_OFFSET UNITYSDK_OFFSET(0x156BC0C0)
-#define SPINE_EVENTDATA_GET_FLOAT_OFFSET UNITYSDK_OFFSET(0x156BC040)
-#define SPINE_EVENTDATA_GET_INT_OFFSET UNITYSDK_OFFSET(0x156BC020)
-#define SPINE_EVENTDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x156BC010)
-#define SPINE_EVENTDATA_GET_STRING_OFFSET UNITYSDK_OFFSET(0x156BC060)
-#define SPINE_EVENTDATA_GET_VOLUME_OFFSET UNITYSDK_OFFSET(0x156BC0A0)
-#define SPINE_EVENTDATA_SET_AUDIOPATH_OFFSET UNITYSDK_OFFSET(0x156BC090)
-#define SPINE_EVENTDATA_SET_BALANCE_OFFSET UNITYSDK_OFFSET(0x156BC0D0)
-#define SPINE_EVENTDATA_SET_FLOAT_OFFSET UNITYSDK_OFFSET(0x156BC050)
-#define SPINE_EVENTDATA_SET_INT_OFFSET UNITYSDK_OFFSET(0x156BC030)
-#define SPINE_EVENTDATA_SET_STRING_OFFSET UNITYSDK_OFFSET(0x156BC070)
-#define SPINE_EVENTDATA_SET_VOLUME_OFFSET UNITYSDK_OFFSET(0x156BC0B0)
-#define SPINE_EVENTDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x156BC150)
-#define SPINE_EVENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x156BC0E0)
+#define SPINE_EVENTDATA_GET_AUDIOPATH_OFFSET UNITYSDK_OFFSET(0x12B86740)
+#define SPINE_EVENTDATA_GET_BALANCE_OFFSET UNITYSDK_OFFSET(0x12B86780)
+#define SPINE_EVENTDATA_GET_FLOAT_OFFSET UNITYSDK_OFFSET(0x12B86700)
+#define SPINE_EVENTDATA_GET_INT_OFFSET UNITYSDK_OFFSET(0x12B866E0)
+#define SPINE_EVENTDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x12B866D0)
+#define SPINE_EVENTDATA_GET_STRING_OFFSET UNITYSDK_OFFSET(0x12B86720)
+#define SPINE_EVENTDATA_GET_VOLUME_OFFSET UNITYSDK_OFFSET(0x12B86760)
+#define SPINE_EVENTDATA_SET_AUDIOPATH_OFFSET UNITYSDK_OFFSET(0x12B86750)
+#define SPINE_EVENTDATA_SET_BALANCE_OFFSET UNITYSDK_OFFSET(0x12B86790)
+#define SPINE_EVENTDATA_SET_FLOAT_OFFSET UNITYSDK_OFFSET(0x12B86710)
+#define SPINE_EVENTDATA_SET_INT_OFFSET UNITYSDK_OFFSET(0x12B866F0)
+#define SPINE_EVENTDATA_SET_STRING_OFFSET UNITYSDK_OFFSET(0x12B86730)
+#define SPINE_EVENTDATA_SET_VOLUME_OFFSET UNITYSDK_OFFSET(0x12B86770)
+#define SPINE_EVENTDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x12B86810)
+#define SPINE_EVENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x12B867A0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int EventData_TypeDefinitionIndex = 36431;
+	inline static constexpr unsigned int EventData_TypeDefinitionIndex = 36731;
 
 	class EventData : public ::System::Object
 	{
@@ -30,14 +30,14 @@ namespace Spine
 		::System::String* _AudioPath_k__BackingField; // 0x10
 		::System::String* _String_k__BackingField; // 0x18
 		::System::String* name; // 0x20
-		::System::Single _Balance_k__BackingField; // 0x28
-		::System::Single _Float_k__BackingField; // 0x2C
-		::System::Int32 _Int_k__BackingField; // 0x30
+		::System::Single _Float_k__BackingField; // 0x28
+		::System::Int32 _Int_k__BackingField; // 0x2C
+		::System::Single _Balance_k__BackingField; // 0x30
 		::System::Single _Volume_k__BackingField; // 0x34
 
-		::System::Void _ctor(::System::String* name)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_EVENTDATA__CTOR_OFFSET))(this, name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_EVENTDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Name()
@@ -50,9 +50,9 @@ namespace Spine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_EVENTDATA_GET_INT_OFFSET))(this);
 		}
 
-		::System::Void set_Int(::System::Int32 value)
+		::System::Void set_Int(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_EVENTDATA_SET_INT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_EVENTDATA_SET_INT_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Float()
@@ -60,9 +60,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_EVENTDATA_GET_FLOAT_OFFSET))(this);
 		}
 
-		::System::Void set_Float(::System::Single value)
+		::System::Void set_Float(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_EVENTDATA_SET_FLOAT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_EVENTDATA_SET_FLOAT_OFFSET))(this, a1);
 		}
 
 		::System::String* get_String()
@@ -70,9 +70,9 @@ namespace Spine
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_EVENTDATA_GET_STRING_OFFSET))(this);
 		}
 
-		::System::Void set_String(::System::String* value)
+		::System::Void set_String(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_EVENTDATA_SET_STRING_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_EVENTDATA_SET_STRING_OFFSET))(this, a1);
 		}
 
 		::System::String* get_AudioPath()
@@ -80,9 +80,9 @@ namespace Spine
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_EVENTDATA_GET_AUDIOPATH_OFFSET))(this);
 		}
 
-		::System::Void set_AudioPath(::System::String* value)
+		::System::Void set_AudioPath(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_EVENTDATA_SET_AUDIOPATH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_EVENTDATA_SET_AUDIOPATH_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Volume()
@@ -90,9 +90,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_EVENTDATA_GET_VOLUME_OFFSET))(this);
 		}
 
-		::System::Void set_Volume(::System::Single value)
+		::System::Void set_Volume(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_EVENTDATA_SET_VOLUME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_EVENTDATA_SET_VOLUME_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Balance()
@@ -100,9 +100,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_EVENTDATA_GET_BALANCE_OFFSET))(this);
 		}
 
-		::System::Void set_Balance(::System::Single value)
+		::System::Void set_Balance(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_EVENTDATA_SET_BALANCE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_EVENTDATA_SET_BALANCE_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()

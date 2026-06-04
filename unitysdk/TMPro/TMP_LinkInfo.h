@@ -5,13 +5,13 @@
 namespace System { class String; }
 namespace TMPro { class TMP_Text; }
 
-#define TMPRO_TMP_LINKINFO_GETLINKID_OFFSET UNITYSDK_OFFSET(0x225A020)
-#define TMPRO_TMP_LINKINFO_GETLINKTEXT_OFFSET UNITYSDK_OFFSET(0x225A010)
-#define TMPRO_TMP_LINKINFO_SETLINKID_OFFSET UNITYSDK_OFFSET(0x225A000)
+#define TMPRO_TMP_LINKINFO_GETLINKID_OFFSET UNITYSDK_OFFSET(0x37A90A0)
+#define TMPRO_TMP_LINKINFO_GETLINKTEXT_OFFSET UNITYSDK_OFFSET(0x37A9090)
+#define TMPRO_TMP_LINKINFO_SETLINKID_OFFSET UNITYSDK_OFFSET(0x37A9080)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_LinkInfo_TypeDefinitionIndex = 40238;
+	inline static constexpr unsigned int TMP_LinkInfo_TypeDefinitionIndex = 41065;
 
 	struct alignas(8) TMP_LinkInfo
 	{
@@ -23,9 +23,9 @@ namespace TMPro
 		::System::Int32 linkTextLength; // 0x28
 		::Il2CppArray<::System::Char>* linkID; // 0x30
 
-		::System::Void SetLinkID(::Il2CppArray<::System::Char>* text, ::System::Int32 startIndex, ::System::Int32 length)
+		::System::Void SetLinkID(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_LINKINFO_SETLINKID_OFFSET))(this, text, startIndex, length);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_LINKINFO_SETLINKID_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::String* GetLinkText()

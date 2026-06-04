@@ -10,49 +10,49 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define UNITYENGINE_AI_NAVMESHLINK_ADDLINK_OFFSET UNITYSDK_OFFSET(0x1A7269A0)
-#define UNITYENGINE_AI_NAVMESHLINK_ADDTRACKING_OFFSET UNITYSDK_OFFSET(0x1A726BB0)
-#define UNITYENGINE_AI_NAVMESHLINK_ALIGNTRANSFORMTOENDPOINTS_OFFSET UNITYSDK_OFFSET(0x1A727130)
-#define UNITYENGINE_AI_NAVMESHLINK_GETALLTRACKEDLINKS_OFFSET UNITYSDK_OFFSET(0x1A726EC0)
-#define UNITYENGINE_AI_NAVMESHLINK_GET_AGENTTYPEID_OFFSET UNITYSDK_OFFSET(0x1A7265D0)
-#define UNITYENGINE_AI_NAVMESHLINK_GET_AREA_OFFSET UNITYSDK_OFFSET(0x1A7268F0)
-#define UNITYENGINE_AI_NAVMESHLINK_GET_AUTOUPDATE_OFFSET UNITYSDK_OFFSET(0x1A726800)
-#define UNITYENGINE_AI_NAVMESHLINK_GET_BIDIRECTIONAL_OFFSET UNITYSDK_OFFSET(0x1A7267B0)
-#define UNITYENGINE_AI_NAVMESHLINK_GET_COSTMODIFIER_OFFSET UNITYSDK_OFFSET(0x1A726760)
-#define UNITYENGINE_AI_NAVMESHLINK_GET_ENDPOINT_OFFSET UNITYSDK_OFFSET(0x1A7266B0)
-#define UNITYENGINE_AI_NAVMESHLINK_GET_NAVMESHLINKINSTANCEATTACHED_OFFSET UNITYSDK_OFFSET(0x1A726940)
-#define UNITYENGINE_AI_NAVMESHLINK_GET_STARTPOINT_OFFSET UNITYSDK_OFFSET(0x1A726650)
-#define UNITYENGINE_AI_NAVMESHLINK_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x1A726710)
-#define UNITYENGINE_AI_NAVMESHLINK_HASTRANSFORMCHANGED_OFFSET UNITYSDK_OFFSET(0x1A726EF0)
-#define UNITYENGINE_AI_NAVMESHLINK_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1A727840)
-#define UNITYENGINE_AI_NAVMESHLINK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A726D40)
-#define UNITYENGINE_AI_NAVMESHLINK_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A726950)
-#define UNITYENGINE_AI_NAVMESHLINK_REMOVETRACKING_OFFSET UNITYSDK_OFFSET(0x1A726D80)
-#define UNITYENGINE_AI_NAVMESHLINK_SETAUTOUPDATE_OFFSET UNITYSDK_OFFSET(0x1A726880)
-#define UNITYENGINE_AI_NAVMESHLINK_SET_AGENTTYPEID_OFFSET UNITYSDK_OFFSET(0x1A7265E0)
-#define UNITYENGINE_AI_NAVMESHLINK_SET_AREA_OFFSET UNITYSDK_OFFSET(0x1A726900)
-#define UNITYENGINE_AI_NAVMESHLINK_SET_AUTOUPDATE_OFFSET UNITYSDK_OFFSET(0x1A726810)
-#define UNITYENGINE_AI_NAVMESHLINK_SET_BIDIRECTIONAL_OFFSET UNITYSDK_OFFSET(0x1A7267C0)
-#define UNITYENGINE_AI_NAVMESHLINK_SET_COSTMODIFIER_OFFSET UNITYSDK_OFFSET(0x1A726770)
-#define UNITYENGINE_AI_NAVMESHLINK_SET_ENDPOINT_OFFSET UNITYSDK_OFFSET(0x1A7266D0)
-#define UNITYENGINE_AI_NAVMESHLINK_SET_STARTPOINT_OFFSET UNITYSDK_OFFSET(0x1A726670)
-#define UNITYENGINE_AI_NAVMESHLINK_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0x1A726720)
-#define UNITYENGINE_AI_NAVMESHLINK_UPDATELINK_OFFSET UNITYSDK_OFFSET(0x1A726620)
-#define UNITYENGINE_AI_NAVMESHLINK_UPDATETRACKEDINSTANCES_OFFSET UNITYSDK_OFFSET(0x1A727870)
-#define UNITYENGINE_AI_NAVMESHLINK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A727A10)
-#define UNITYENGINE_AI_NAVMESHLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7279C0)
-#define UNITYENGINE_AI_NAVMESHLINK__UNSCALEDLOCALTOWORLDMATRIX_OFFSET UNITYSDK_OFFSET(0x1A727010)
+#define UNITYENGINE_AI_NAVMESHLINK_ADDLINK_OFFSET UNITYSDK_OFFSET(0x1B55AE50)
+#define UNITYENGINE_AI_NAVMESHLINK_ADDTRACKING_OFFSET UNITYSDK_OFFSET(0x1B55B060)
+#define UNITYENGINE_AI_NAVMESHLINK_ALIGNTRANSFORMTOENDPOINTS_OFFSET UNITYSDK_OFFSET(0x1B55B600)
+#define UNITYENGINE_AI_NAVMESHLINK_GETALLTRACKEDLINKS_OFFSET UNITYSDK_OFFSET(0x1B55B390)
+#define UNITYENGINE_AI_NAVMESHLINK_GET_AGENTTYPEID_OFFSET UNITYSDK_OFFSET(0x1B55AA80)
+#define UNITYENGINE_AI_NAVMESHLINK_GET_AREA_OFFSET UNITYSDK_OFFSET(0x1B55ADA0)
+#define UNITYENGINE_AI_NAVMESHLINK_GET_AUTOUPDATE_OFFSET UNITYSDK_OFFSET(0x1B55ACB0)
+#define UNITYENGINE_AI_NAVMESHLINK_GET_BIDIRECTIONAL_OFFSET UNITYSDK_OFFSET(0x1B55AC60)
+#define UNITYENGINE_AI_NAVMESHLINK_GET_COSTMODIFIER_OFFSET UNITYSDK_OFFSET(0x1B55AC10)
+#define UNITYENGINE_AI_NAVMESHLINK_GET_ENDPOINT_OFFSET UNITYSDK_OFFSET(0x1B55AB60)
+#define UNITYENGINE_AI_NAVMESHLINK_GET_NAVMESHLINKINSTANCEATTACHED_OFFSET UNITYSDK_OFFSET(0x1B55ADF0)
+#define UNITYENGINE_AI_NAVMESHLINK_GET_STARTPOINT_OFFSET UNITYSDK_OFFSET(0x1B55AB00)
+#define UNITYENGINE_AI_NAVMESHLINK_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x1B55ABC0)
+#define UNITYENGINE_AI_NAVMESHLINK_HASTRANSFORMCHANGED_OFFSET UNITYSDK_OFFSET(0x1B55B3C0)
+#define UNITYENGINE_AI_NAVMESHLINK_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1B55BD10)
+#define UNITYENGINE_AI_NAVMESHLINK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B55B210)
+#define UNITYENGINE_AI_NAVMESHLINK_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B55AE00)
+#define UNITYENGINE_AI_NAVMESHLINK_REMOVETRACKING_OFFSET UNITYSDK_OFFSET(0x1B55B250)
+#define UNITYENGINE_AI_NAVMESHLINK_SETAUTOUPDATE_OFFSET UNITYSDK_OFFSET(0x1B55AD30)
+#define UNITYENGINE_AI_NAVMESHLINK_SET_AGENTTYPEID_OFFSET UNITYSDK_OFFSET(0x1B55AA90)
+#define UNITYENGINE_AI_NAVMESHLINK_SET_AREA_OFFSET UNITYSDK_OFFSET(0x1B55ADB0)
+#define UNITYENGINE_AI_NAVMESHLINK_SET_AUTOUPDATE_OFFSET UNITYSDK_OFFSET(0x1B55ACC0)
+#define UNITYENGINE_AI_NAVMESHLINK_SET_BIDIRECTIONAL_OFFSET UNITYSDK_OFFSET(0x1B55AC70)
+#define UNITYENGINE_AI_NAVMESHLINK_SET_COSTMODIFIER_OFFSET UNITYSDK_OFFSET(0x1B55AC20)
+#define UNITYENGINE_AI_NAVMESHLINK_SET_ENDPOINT_OFFSET UNITYSDK_OFFSET(0x1B55AB80)
+#define UNITYENGINE_AI_NAVMESHLINK_SET_STARTPOINT_OFFSET UNITYSDK_OFFSET(0x1B55AB20)
+#define UNITYENGINE_AI_NAVMESHLINK_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0x1B55ABD0)
+#define UNITYENGINE_AI_NAVMESHLINK_UPDATELINK_OFFSET UNITYSDK_OFFSET(0x1B55AAD0)
+#define UNITYENGINE_AI_NAVMESHLINK_UPDATETRACKEDINSTANCES_OFFSET UNITYSDK_OFFSET(0x1B55BD40)
+#define UNITYENGINE_AI_NAVMESHLINK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B55BEC0)
+#define UNITYENGINE_AI_NAVMESHLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B55BE70)
+#define UNITYENGINE_AI_NAVMESHLINK__UNSCALEDLOCALTOWORLDMATRIX_OFFSET UNITYSDK_OFFSET(0x1B55B4E0)
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMeshLink_TypeDefinitionIndex = 37652;
+	inline static constexpr unsigned int NavMeshLink_TypeDefinitionIndex = 38384;
 
 	class NavMeshLink : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshLink*>** StaticGet_s_Tracked()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshLink*>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshLink_TypeDefinitionIndex)->GetStaticField(0x1080);
+			return (::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshLink*>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshLink_TypeDefinitionIndex)->GetStaticField(0xFB0);
 		}
 		::System::Int32 m_AgentTypeID; // 0x18
 		::UnityEngine::Vector3 m_StartPoint; // 0x1C
@@ -81,9 +81,9 @@ namespace UnityEngine::AI
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_GET_AGENTTYPEID_OFFSET))(this);
 		}
 
-		::System::Void set_agentTypeID(::System::Int32 value)
+		::System::Void set_agentTypeID(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_SET_AGENTTYPEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_SET_AGENTTYPEID_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 get_startPoint()
@@ -91,9 +91,9 @@ namespace UnityEngine::AI
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_GET_STARTPOINT_OFFSET))(this);
 		}
 
-		::System::Void set_startPoint(::UnityEngine::Vector3 value)
+		::System::Void set_startPoint(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_SET_STARTPOINT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_SET_STARTPOINT_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 get_endPoint()
@@ -101,9 +101,9 @@ namespace UnityEngine::AI
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_GET_ENDPOINT_OFFSET))(this);
 		}
 
-		::System::Void set_endPoint(::UnityEngine::Vector3 value)
+		::System::Void set_endPoint(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_SET_ENDPOINT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_SET_ENDPOINT_OFFSET))(this, a1);
 		}
 
 		::System::Single get_width()
@@ -111,9 +111,9 @@ namespace UnityEngine::AI
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_GET_WIDTH_OFFSET))(this);
 		}
 
-		::System::Void set_width(::System::Single value)
+		::System::Void set_width(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_SET_WIDTH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_SET_WIDTH_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_costModifier()
@@ -121,9 +121,9 @@ namespace UnityEngine::AI
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_GET_COSTMODIFIER_OFFSET))(this);
 		}
 
-		::System::Void set_costModifier(::System::Int32 value)
+		::System::Void set_costModifier(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_SET_COSTMODIFIER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_SET_COSTMODIFIER_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_bidirectional()
@@ -131,9 +131,9 @@ namespace UnityEngine::AI
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_GET_BIDIRECTIONAL_OFFSET))(this);
 		}
 
-		::System::Void set_bidirectional(::System::Boolean value)
+		::System::Void set_bidirectional(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_SET_BIDIRECTIONAL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_SET_BIDIRECTIONAL_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_autoUpdate()
@@ -141,9 +141,9 @@ namespace UnityEngine::AI
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_GET_AUTOUPDATE_OFFSET))(this);
 		}
 
-		::System::Void set_autoUpdate(::System::Boolean value)
+		::System::Void set_autoUpdate(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_SET_AUTOUPDATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_SET_AUTOUPDATE_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_area()
@@ -151,9 +151,9 @@ namespace UnityEngine::AI
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_GET_AREA_OFFSET))(this);
 		}
 
-		::System::Void set_area(::System::Int32 value)
+		::System::Void set_area(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_SET_AREA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_SET_AREA_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_navMeshLinkInstanceAttached()
@@ -181,19 +181,19 @@ namespace UnityEngine::AI
 			return ((::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::AI::NavMeshLink*>*(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_GETALLTRACKEDLINKS_OFFSET))();
 		}
 
-		static ::System::Void AddTracking(::UnityEngine::AI::NavMeshLink* link)
+		static ::System::Void AddTracking(::UnityEngine::AI::NavMeshLink* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::AI::NavMeshLink*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_ADDTRACKING_OFFSET))(link);
+			return ((::System::Void(*)(::UnityEngine::AI::NavMeshLink*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_ADDTRACKING_OFFSET))(a1);
 		}
 
-		static ::System::Void RemoveTracking(::UnityEngine::AI::NavMeshLink* link)
+		static ::System::Void RemoveTracking(::UnityEngine::AI::NavMeshLink* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::AI::NavMeshLink*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_REMOVETRACKING_OFFSET))(link);
+			return ((::System::Void(*)(::UnityEngine::AI::NavMeshLink*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_REMOVETRACKING_OFFSET))(a1);
 		}
 
-		::System::Void SetAutoUpdate(::System::Boolean value)
+		::System::Void SetAutoUpdate(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_SETAUTOUPDATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_SETAUTOUPDATE_OFFSET))(this, a1);
 		}
 
 		::System::Void AddLink()
@@ -206,9 +206,9 @@ namespace UnityEngine::AI
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK_HASTRANSFORMCHANGED_OFFSET))(this);
 		}
 
-		static ::UnityEngine::Matrix4x4 _UnscaledLocalToWorldMatrix(::UnityEngine::Transform* t)
+		static ::UnityEngine::Matrix4x4 _UnscaledLocalToWorldMatrix(::UnityEngine::Transform* a1)
 		{
-			return ((::UnityEngine::Matrix4x4(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK__UNSCALEDLOCALTOWORLDMATRIX_OFFSET))(t);
+			return ((::UnityEngine::Matrix4x4(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHLINK__UNSCALEDLOCALTOWORLDMATRIX_OFFSET))(a1);
 		}
 
 		::System::Void AlignTransformToEndPoints()

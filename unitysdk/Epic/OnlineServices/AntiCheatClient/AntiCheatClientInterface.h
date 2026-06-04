@@ -26,35 +26,35 @@ namespace Epic::OnlineServices::AntiCheatClient { class UnregisterPeerOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ADDEXTERNALINTEGRITYCATALOG_OFFSET UNITYSDK_OFFSET(0x1944AA00)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ADDNOTIFYMESSAGETOPEER_OFFSET UNITYSDK_OFFSET(0x1944AC00)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ADDNOTIFYMESSAGETOSERVER_OFFSET UNITYSDK_OFFSET(0x1944AE80)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ADDNOTIFYPEERACTIONREQUIRED_OFFSET UNITYSDK_OFFSET(0x1944B100)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ADDNOTIFYPEERAUTHSTATUSCHANGED_OFFSET UNITYSDK_OFFSET(0x1944B380)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_BEGINSESSION_OFFSET UNITYSDK_OFFSET(0x1944B600)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ENDSESSION_OFFSET UNITYSDK_OFFSET(0x1944B810)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_GETPROTECTMESSAGEOUTPUTLENGTH_OFFSET UNITYSDK_OFFSET(0x1944BA30)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ONMESSAGETOPEERCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1944A7A0)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ONMESSAGETOSERVERCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1944A830)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ONPEERACTIONREQUIREDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1944A8C0)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ONPEERAUTHSTATUSCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1944A950)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_POLLSTATUS_OFFSET UNITYSDK_OFFSET(0x1944BBA0)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_PROTECTMESSAGE_OFFSET UNITYSDK_OFFSET(0x1944BED0)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_RECEIVEMESSAGEFROMPEER_OFFSET UNITYSDK_OFFSET(0x1944C250)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_RECEIVEMESSAGEFROMSERVER_OFFSET UNITYSDK_OFFSET(0x1944C480)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_REGISTERPEER_OFFSET UNITYSDK_OFFSET(0x1944C5E0)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_REMOVENOTIFYMESSAGETOPEER_OFFSET UNITYSDK_OFFSET(0x1944C740)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_REMOVENOTIFYMESSAGETOSERVER_OFFSET UNITYSDK_OFFSET(0x1944C820)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_REMOVENOTIFYPEERACTIONREQUIRED_OFFSET UNITYSDK_OFFSET(0x1944C900)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_REMOVENOTIFYPEERAUTHSTATUSCHANGED_OFFSET UNITYSDK_OFFSET(0x1944C9E0)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_UNPROTECTMESSAGE_OFFSET UNITYSDK_OFFSET(0x1944CAC0)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_UNREGISTERPEER_OFFSET UNITYSDK_OFFSET(0x1944CE40)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1944A9F0)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1944A9E0)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ADDEXTERNALINTEGRITYCATALOG_OFFSET UNITYSDK_OFFSET(0x1A1A4890)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ADDNOTIFYMESSAGETOPEER_OFFSET UNITYSDK_OFFSET(0x1A1A4A90)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ADDNOTIFYMESSAGETOSERVER_OFFSET UNITYSDK_OFFSET(0x1A1A4D40)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ADDNOTIFYPEERACTIONREQUIRED_OFFSET UNITYSDK_OFFSET(0x1A1A4FF0)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ADDNOTIFYPEERAUTHSTATUSCHANGED_OFFSET UNITYSDK_OFFSET(0x1A1A52A0)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_BEGINSESSION_OFFSET UNITYSDK_OFFSET(0x1A1A5550)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ENDSESSION_OFFSET UNITYSDK_OFFSET(0x1A1A5760)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_GETPROTECTMESSAGEOUTPUTLENGTH_OFFSET UNITYSDK_OFFSET(0x1A1A59A0)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ONMESSAGETOPEERCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A1A45F0)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ONMESSAGETOSERVERCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A1A4690)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ONPEERACTIONREQUIREDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A1A4730)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ONPEERAUTHSTATUSCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A1A47D0)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_POLLSTATUS_OFFSET UNITYSDK_OFFSET(0x1A1A5B10)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_PROTECTMESSAGE_OFFSET UNITYSDK_OFFSET(0x1A1A5E20)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_RECEIVEMESSAGEFROMPEER_OFFSET UNITYSDK_OFFSET(0x1A1A6190)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_RECEIVEMESSAGEFROMSERVER_OFFSET UNITYSDK_OFFSET(0x1A1A63C0)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_REGISTERPEER_OFFSET UNITYSDK_OFFSET(0x1A1A65C0)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_REMOVENOTIFYMESSAGETOPEER_OFFSET UNITYSDK_OFFSET(0x1A1A6720)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_REMOVENOTIFYMESSAGETOSERVER_OFFSET UNITYSDK_OFFSET(0x1A1A6800)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_REMOVENOTIFYPEERACTIONREQUIRED_OFFSET UNITYSDK_OFFSET(0x1A1A68E0)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_REMOVENOTIFYPEERAUTHSTATUSCHANGED_OFFSET UNITYSDK_OFFSET(0x1A1A69C0)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_UNPROTECTMESSAGE_OFFSET UNITYSDK_OFFSET(0x1A1A6AA0)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_UNREGISTERPEER_OFFSET UNITYSDK_OFFSET(0x1A1A6E10)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A1A4880)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1A4870)
 
 namespace Epic::OnlineServices::AntiCheatClient
 {
-	inline static constexpr unsigned int AntiCheatClientInterface_TypeDefinitionIndex = 42524;
+	inline static constexpr unsigned int AntiCheatClientInterface_TypeDefinitionIndex = 43327;
 
 	class AntiCheatClientInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -81,124 +81,124 @@ namespace Epic::OnlineServices::AntiCheatClient
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result AddExternalIntegrityCatalog(::Epic::OnlineServices::AntiCheatClient::AddExternalIntegrityCatalogOptions* options)
+		::Epic::OnlineServices::Result AddExternalIntegrityCatalog(::Epic::OnlineServices::AntiCheatClient::AddExternalIntegrityCatalogOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::AddExternalIntegrityCatalogOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ADDEXTERNALINTEGRITYCATALOG_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::AddExternalIntegrityCatalogOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ADDEXTERNALINTEGRITYCATALOG_OFFSET))(this, a1);
 		}
 
-		::System::UInt64 AddNotifyMessageToPeer(::Epic::OnlineServices::AntiCheatClient::AddNotifyMessageToPeerOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::AntiCheatClient::OnMessageToPeerCallback* notificationFn)
+		::System::UInt64 AddNotifyMessageToPeer(::Epic::OnlineServices::AntiCheatClient::AddNotifyMessageToPeerOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::AntiCheatClient::OnMessageToPeerCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::AddNotifyMessageToPeerOptions*, ::System::Object*, ::Epic::OnlineServices::AntiCheatClient::OnMessageToPeerCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ADDNOTIFYMESSAGETOPEER_OFFSET))(this, options, clientData, notificationFn);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::AddNotifyMessageToPeerOptions*, ::System::Object*, ::Epic::OnlineServices::AntiCheatClient::OnMessageToPeerCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ADDNOTIFYMESSAGETOPEER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyMessageToServer(::Epic::OnlineServices::AntiCheatClient::AddNotifyMessageToServerOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::AntiCheatClient::OnMessageToServerCallback* notificationFn)
+		::System::UInt64 AddNotifyMessageToServer(::Epic::OnlineServices::AntiCheatClient::AddNotifyMessageToServerOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::AntiCheatClient::OnMessageToServerCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::AddNotifyMessageToServerOptions*, ::System::Object*, ::Epic::OnlineServices::AntiCheatClient::OnMessageToServerCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ADDNOTIFYMESSAGETOSERVER_OFFSET))(this, options, clientData, notificationFn);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::AddNotifyMessageToServerOptions*, ::System::Object*, ::Epic::OnlineServices::AntiCheatClient::OnMessageToServerCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ADDNOTIFYMESSAGETOSERVER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyPeerActionRequired(::Epic::OnlineServices::AntiCheatClient::AddNotifyPeerActionRequiredOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::AntiCheatClient::OnPeerActionRequiredCallback* notificationFn)
+		::System::UInt64 AddNotifyPeerActionRequired(::Epic::OnlineServices::AntiCheatClient::AddNotifyPeerActionRequiredOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::AntiCheatClient::OnPeerActionRequiredCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::AddNotifyPeerActionRequiredOptions*, ::System::Object*, ::Epic::OnlineServices::AntiCheatClient::OnPeerActionRequiredCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ADDNOTIFYPEERACTIONREQUIRED_OFFSET))(this, options, clientData, notificationFn);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::AddNotifyPeerActionRequiredOptions*, ::System::Object*, ::Epic::OnlineServices::AntiCheatClient::OnPeerActionRequiredCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ADDNOTIFYPEERACTIONREQUIRED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyPeerAuthStatusChanged(::Epic::OnlineServices::AntiCheatClient::AddNotifyPeerAuthStatusChangedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::AntiCheatClient::OnPeerAuthStatusChangedCallback* notificationFn)
+		::System::UInt64 AddNotifyPeerAuthStatusChanged(::Epic::OnlineServices::AntiCheatClient::AddNotifyPeerAuthStatusChangedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::AntiCheatClient::OnPeerAuthStatusChangedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::AddNotifyPeerAuthStatusChangedOptions*, ::System::Object*, ::Epic::OnlineServices::AntiCheatClient::OnPeerAuthStatusChangedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ADDNOTIFYPEERAUTHSTATUSCHANGED_OFFSET))(this, options, clientData, notificationFn);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::AddNotifyPeerAuthStatusChangedOptions*, ::System::Object*, ::Epic::OnlineServices::AntiCheatClient::OnPeerAuthStatusChangedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ADDNOTIFYPEERAUTHSTATUSCHANGED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::Result BeginSession(::Epic::OnlineServices::AntiCheatClient::BeginSessionOptions* options)
+		::Epic::OnlineServices::Result BeginSession(::Epic::OnlineServices::AntiCheatClient::BeginSessionOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::BeginSessionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_BEGINSESSION_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::BeginSessionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_BEGINSESSION_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result EndSession(::Epic::OnlineServices::AntiCheatClient::EndSessionOptions* options)
+		::Epic::OnlineServices::Result EndSession(::Epic::OnlineServices::AntiCheatClient::EndSessionOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::EndSessionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ENDSESSION_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::EndSessionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ENDSESSION_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result GetProtectMessageOutputLength(::Epic::OnlineServices::AntiCheatClient::GetProtectMessageOutputLengthOptions* options, ::System::UInt32& outBufferSizeBytes)
+		::Epic::OnlineServices::Result GetProtectMessageOutputLength(::Epic::OnlineServices::AntiCheatClient::GetProtectMessageOutputLengthOptions* a1, ::System::UInt32& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::GetProtectMessageOutputLengthOptions*, ::System::UInt32&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_GETPROTECTMESSAGEOUTPUTLENGTH_OFFSET))(this, options, outBufferSizeBytes);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::GetProtectMessageOutputLengthOptions*, ::System::UInt32&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_GETPROTECTMESSAGEOUTPUTLENGTH_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result PollStatus(::Epic::OnlineServices::AntiCheatClient::PollStatusOptions* options, ::Epic::OnlineServices::AntiCheatClient::AntiCheatClientViolationType& outViolationType, ::System::String*& outMessage)
+		::Epic::OnlineServices::Result PollStatus(::Epic::OnlineServices::AntiCheatClient::PollStatusOptions* a1, ::Epic::OnlineServices::AntiCheatClient::AntiCheatClientViolationType& a2, ::System::String*& a3)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::PollStatusOptions*, ::Epic::OnlineServices::AntiCheatClient::AntiCheatClientViolationType&, ::System::String*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_POLLSTATUS_OFFSET))(this, options, outViolationType, outMessage);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::PollStatusOptions*, ::Epic::OnlineServices::AntiCheatClient::AntiCheatClientViolationType&, ::System::String*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_POLLSTATUS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::Result ProtectMessage(::Epic::OnlineServices::AntiCheatClient::ProtectMessageOptions* options, ::Il2CppArray<::System::Byte>*& outBuffer)
+		::Epic::OnlineServices::Result ProtectMessage(::Epic::OnlineServices::AntiCheatClient::ProtectMessageOptions* a1, ::Il2CppArray<::System::Byte>*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::ProtectMessageOptions*, ::Il2CppArray<::System::Byte>*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_PROTECTMESSAGE_OFFSET))(this, options, outBuffer);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::ProtectMessageOptions*, ::Il2CppArray<::System::Byte>*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_PROTECTMESSAGE_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result ReceiveMessageFromPeer(::Epic::OnlineServices::AntiCheatClient::ReceiveMessageFromPeerOptions* options)
+		::Epic::OnlineServices::Result ReceiveMessageFromPeer(::Epic::OnlineServices::AntiCheatClient::ReceiveMessageFromPeerOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::ReceiveMessageFromPeerOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_RECEIVEMESSAGEFROMPEER_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::ReceiveMessageFromPeerOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_RECEIVEMESSAGEFROMPEER_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result ReceiveMessageFromServer(::Epic::OnlineServices::AntiCheatClient::ReceiveMessageFromServerOptions* options)
+		::Epic::OnlineServices::Result ReceiveMessageFromServer(::Epic::OnlineServices::AntiCheatClient::ReceiveMessageFromServerOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::ReceiveMessageFromServerOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_RECEIVEMESSAGEFROMSERVER_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::ReceiveMessageFromServerOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_RECEIVEMESSAGEFROMSERVER_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result RegisterPeer(::Epic::OnlineServices::AntiCheatClient::RegisterPeerOptions* options)
+		::Epic::OnlineServices::Result RegisterPeer(::Epic::OnlineServices::AntiCheatClient::RegisterPeerOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::RegisterPeerOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_REGISTERPEER_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::RegisterPeerOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_REGISTERPEER_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyMessageToPeer(::System::UInt64 notificationId)
+		::System::Void RemoveNotifyMessageToPeer(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_REMOVENOTIFYMESSAGETOPEER_OFFSET))(this, notificationId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_REMOVENOTIFYMESSAGETOPEER_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyMessageToServer(::System::UInt64 notificationId)
+		::System::Void RemoveNotifyMessageToServer(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_REMOVENOTIFYMESSAGETOSERVER_OFFSET))(this, notificationId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_REMOVENOTIFYMESSAGETOSERVER_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyPeerActionRequired(::System::UInt64 notificationId)
+		::System::Void RemoveNotifyPeerActionRequired(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_REMOVENOTIFYPEERACTIONREQUIRED_OFFSET))(this, notificationId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_REMOVENOTIFYPEERACTIONREQUIRED_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyPeerAuthStatusChanged(::System::UInt64 notificationId)
+		::System::Void RemoveNotifyPeerAuthStatusChanged(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_REMOVENOTIFYPEERAUTHSTATUSCHANGED_OFFSET))(this, notificationId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_REMOVENOTIFYPEERAUTHSTATUSCHANGED_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result UnprotectMessage(::Epic::OnlineServices::AntiCheatClient::UnprotectMessageOptions* options, ::Il2CppArray<::System::Byte>*& outBuffer)
+		::Epic::OnlineServices::Result UnprotectMessage(::Epic::OnlineServices::AntiCheatClient::UnprotectMessageOptions* a1, ::Il2CppArray<::System::Byte>*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::UnprotectMessageOptions*, ::Il2CppArray<::System::Byte>*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_UNPROTECTMESSAGE_OFFSET))(this, options, outBuffer);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::UnprotectMessageOptions*, ::Il2CppArray<::System::Byte>*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_UNPROTECTMESSAGE_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result UnregisterPeer(::Epic::OnlineServices::AntiCheatClient::UnregisterPeerOptions* options)
+		::Epic::OnlineServices::Result UnregisterPeer(::Epic::OnlineServices::AntiCheatClient::UnregisterPeerOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::UnregisterPeerOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_UNREGISTERPEER_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::UnregisterPeerOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_UNREGISTERPEER_OFFSET))(this, a1);
 		}
 
-		static ::System::Void OnMessageToPeerCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnMessageToPeerCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ONMESSAGETOPEERCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ONMESSAGETOPEERCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnMessageToServerCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnMessageToServerCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ONMESSAGETOSERVERCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ONMESSAGETOSERVERCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnPeerActionRequiredCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnPeerActionRequiredCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ONPEERACTIONREQUIREDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ONPEERACTIONREQUIREDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnPeerAuthStatusChangedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnPeerAuthStatusChangedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ONPEERAUTHSTATUSCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_ANTICHEATCLIENTINTERFACE_ONPEERAUTHSTATUSCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

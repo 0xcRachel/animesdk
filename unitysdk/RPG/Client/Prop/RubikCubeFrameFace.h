@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RubikCubeFrameFace_TypeDefinitionIndex = 72333;
+	inline static constexpr unsigned int RubikCubeFrameFace_TypeDefinitionIndex = 73355;
 
 	enum class RubikCubeFrameFace : ::System::Int32
 	{

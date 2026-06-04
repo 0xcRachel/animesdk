@@ -7,18 +7,18 @@ class WwiseObjectReference;
 class WwiseRtpcReference;
 namespace UnityEngine { class GameObject; }
 
-#define AK_WWISE_RTPC_GETGLOBALVALUE_OFFSET UNITYSDK_OFFSET(0x192A4C00)
-#define AK_WWISE_RTPC_GETVALUE_OFFSET UNITYSDK_OFFSET(0x192A49F0)
-#define AK_WWISE_RTPC_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x192A48C0)
-#define AK_WWISE_RTPC_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x192A4940)
-#define AK_WWISE_RTPC_SETGLOBALVALUE_OFFSET UNITYSDK_OFFSET(0x192A4AC0)
-#define AK_WWISE_RTPC_SETVALUE_OFFSET UNITYSDK_OFFSET(0x192A4950)
-#define AK_WWISE_RTPC_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x192A48D0)
-#define AK_WWISE_RTPC__CTOR_OFFSET UNITYSDK_OFFSET(0x192A4CB0)
+#define AK_WWISE_RTPC_GETGLOBALVALUE_OFFSET UNITYSDK_OFFSET(0x19DC0740)
+#define AK_WWISE_RTPC_GETVALUE_OFFSET UNITYSDK_OFFSET(0x19DC0530)
+#define AK_WWISE_RTPC_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x19DC0400)
+#define AK_WWISE_RTPC_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x19DC0480)
+#define AK_WWISE_RTPC_SETGLOBALVALUE_OFFSET UNITYSDK_OFFSET(0x19DC0600)
+#define AK_WWISE_RTPC_SETVALUE_OFFSET UNITYSDK_OFFSET(0x19DC0490)
+#define AK_WWISE_RTPC_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x19DC0410)
+#define AK_WWISE_RTPC__CTOR_OFFSET UNITYSDK_OFFSET(0x19DC07F0)
 
 namespace AK::Wwise
 {
-	inline static constexpr unsigned int RTPC_TypeDefinitionIndex = 40537;
+	inline static constexpr unsigned int RTPC_TypeDefinitionIndex = 41364;
 
 	class RTPC : public ::AK::Wwise::BaseType
 	{
@@ -35,9 +35,9 @@ namespace AK::Wwise
 			return ((::WwiseObjectReference*(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_RTPC_GET_OBJECTREFERENCE_OFFSET))(this);
 		}
 
-		::System::Void set_ObjectReference(::WwiseObjectReference* value)
+		::System::Void set_ObjectReference(::WwiseObjectReference* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::WwiseObjectReference*))((::PBYTE)hIl2Cpp + AK_WWISE_RTPC_SET_OBJECTREFERENCE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::WwiseObjectReference*))((::PBYTE)hIl2Cpp + AK_WWISE_RTPC_SET_OBJECTREFERENCE_OFFSET))(this, a1);
 		}
 
 		::WwiseObjectType get_WwiseObjectType()
@@ -45,19 +45,19 @@ namespace AK::Wwise
 			return ((::WwiseObjectType(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_RTPC_GET_WWISEOBJECTTYPE_OFFSET))(this);
 		}
 
-		::System::Void SetValue(::UnityEngine::GameObject* gameObject, ::System::Single value)
+		::System::Void SetValue(::UnityEngine::GameObject* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Single))((::PBYTE)hIl2Cpp + AK_WWISE_RTPC_SETVALUE_OFFSET))(this, gameObject, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Single))((::PBYTE)hIl2Cpp + AK_WWISE_RTPC_SETVALUE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Single GetValue(::UnityEngine::GameObject* gameObject)
+		::System::Single GetValue(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AK_WWISE_RTPC_GETVALUE_OFFSET))(this, gameObject);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AK_WWISE_RTPC_GETVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetGlobalValue(::System::Single value)
+		::System::Void SetGlobalValue(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AK_WWISE_RTPC_SETGLOBALVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AK_WWISE_RTPC_SETGLOBALVALUE_OFFSET))(this, a1);
 		}
 
 		::System::Single GetGlobalValue()

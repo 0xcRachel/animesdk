@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CHENLINGBATTLE_PREVIEWSNAPSHOT_CREATE_OFFSET UNITYSDK_OFFSET(0x17CB17B0)
-#define RPG_CLIENT_CHENLINGBATTLE_PREVIEWSNAPSHOT_GET_CURRENTSELECTCARDINDEX_OFFSET UNITYSDK_OFFSET(0x17CB1830)
-#define RPG_CLIENT_CHENLINGBATTLE_PREVIEWSNAPSHOT_SET_CURRENTSELECTCARDINDEX_OFFSET UNITYSDK_OFFSET(0x17CB1840)
-#define RPG_CLIENT_CHENLINGBATTLE_PREVIEWSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x17CB1820)
+#define RPG_CLIENT_CHENLINGBATTLE_PREVIEWSNAPSHOT_CREATE_OFFSET UNITYSDK_OFFSET(0x18DC9B40)
+#define RPG_CLIENT_CHENLINGBATTLE_PREVIEWSNAPSHOT_GET_CURRENTSELECTCARDINDEX_OFFSET UNITYSDK_OFFSET(0x18DC9BC0)
+#define RPG_CLIENT_CHENLINGBATTLE_PREVIEWSNAPSHOT_SET_CURRENTSELECTCARDINDEX_OFFSET UNITYSDK_OFFSET(0x18DC9BD0)
+#define RPG_CLIENT_CHENLINGBATTLE_PREVIEWSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x18DC9BB0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int PreviewSnapshot_TypeDefinitionIndex = 70056;
+	inline static constexpr unsigned int PreviewSnapshot_TypeDefinitionIndex = 70868;
 
 	class PreviewSnapshot : public ::System::Object
 	{
 	public:
 		::System::Int32 _CurrentSelectCardIndex_k__BackingField; // 0x10
 
-		::System::Void _ctor(::System::Int32 currentSelectCardIndex)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_PREVIEWSNAPSHOT__CTOR_OFFSET))(this, currentSelectCardIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_PREVIEWSNAPSHOT__CTOR_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::ChenLingBattle::PreviewSnapshot* Create(::System::Int32 currentSelectCardIndex)
+		static ::RPG::Client::ChenLingBattle::PreviewSnapshot* Create(::System::Int32 a1)
 		{
-			return ((::RPG::Client::ChenLingBattle::PreviewSnapshot*(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_PREVIEWSNAPSHOT_CREATE_OFFSET))(currentSelectCardIndex);
+			return ((::RPG::Client::ChenLingBattle::PreviewSnapshot*(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_PREVIEWSNAPSHOT_CREATE_OFFSET))(a1);
 		}
 
 		::System::Int32 get_CurrentSelectCardIndex()
@@ -31,9 +31,9 @@ namespace RPG::Client::ChenLingBattle
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_PREVIEWSNAPSHOT_GET_CURRENTSELECTCARDINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_CurrentSelectCardIndex(::System::Int32 value)
+		::System::Void set_CurrentSelectCardIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_PREVIEWSNAPSHOT_SET_CURRENTSELECTCARDINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_PREVIEWSNAPSHOT_SET_CURRENTSELECTCARDINDEX_OFFSET))(this, a1);
 		}
 	};
 }

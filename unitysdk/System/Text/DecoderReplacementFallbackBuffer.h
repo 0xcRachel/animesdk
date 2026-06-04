@@ -5,16 +5,16 @@
 namespace System { class String; }
 namespace System::Text { class DecoderReplacementFallback; }
 
-#define SYSTEM_TEXT_DECODERREPLACEMENTFALLBACKBUFFER_FALLBACK_OFFSET UNITYSDK_OFFSET(0x1872E640)
-#define SYSTEM_TEXT_DECODERREPLACEMENTFALLBACKBUFFER_GETNEXTCHAR_OFFSET UNITYSDK_OFFSET(0x1872E690)
-#define SYSTEM_TEXT_DECODERREPLACEMENTFALLBACKBUFFER_GET_REMAINING_OFFSET UNITYSDK_OFFSET(0x1872E700)
-#define SYSTEM_TEXT_DECODERREPLACEMENTFALLBACKBUFFER_INTERNALFALLBACK_OFFSET UNITYSDK_OFFSET(0x1872E730)
-#define SYSTEM_TEXT_DECODERREPLACEMENTFALLBACKBUFFER_RESET_OFFSET UNITYSDK_OFFSET(0x1872E710)
-#define SYSTEM_TEXT_DECODERREPLACEMENTFALLBACKBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1872E610)
+#define SYSTEM_TEXT_DECODERREPLACEMENTFALLBACKBUFFER_FALLBACK_OFFSET UNITYSDK_OFFSET(0x18564570)
+#define SYSTEM_TEXT_DECODERREPLACEMENTFALLBACKBUFFER_GETNEXTCHAR_OFFSET UNITYSDK_OFFSET(0x185645C0)
+#define SYSTEM_TEXT_DECODERREPLACEMENTFALLBACKBUFFER_GET_REMAINING_OFFSET UNITYSDK_OFFSET(0x18564630)
+#define SYSTEM_TEXT_DECODERREPLACEMENTFALLBACKBUFFER_INTERNALFALLBACK_OFFSET UNITYSDK_OFFSET(0x18564660)
+#define SYSTEM_TEXT_DECODERREPLACEMENTFALLBACKBUFFER_RESET_OFFSET UNITYSDK_OFFSET(0x18564640)
+#define SYSTEM_TEXT_DECODERREPLACEMENTFALLBACKBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x18564540)
 
 namespace System::Text
 {
-	inline static constexpr unsigned int DecoderReplacementFallbackBuffer_TypeDefinitionIndex = 475;
+	inline static constexpr unsigned int DecoderReplacementFallbackBuffer_TypeDefinitionIndex = 474;
 
 	class DecoderReplacementFallbackBuffer : public ::System::Text::DecoderFallbackBuffer
 	{
@@ -23,14 +23,14 @@ namespace System::Text
 		::System::Int32 fallbackIndex; // 0x28
 		::System::Int32 fallbackCount; // 0x2C
 
-		::System::Void _ctor(::System::Text::DecoderReplacementFallback* fallback)
+		::System::Void _ctor(::System::Text::DecoderReplacementFallback* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::DecoderReplacementFallback*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERREPLACEMENTFALLBACKBUFFER__CTOR_OFFSET))(this, fallback);
+			return ((::System::Void(*)(::PVOID, ::System::Text::DecoderReplacementFallback*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERREPLACEMENTFALLBACKBUFFER__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Fallback(::Il2CppArray<::System::Byte>* bytesUnknown, ::System::Int32 index)
+		::System::Boolean Fallback(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERREPLACEMENTFALLBACKBUFFER_FALLBACK_OFFSET))(this, bytesUnknown, index);
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERREPLACEMENTFALLBACKBUFFER_FALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Char GetNextChar()
@@ -48,9 +48,9 @@ namespace System::Text
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERREPLACEMENTFALLBACKBUFFER_RESET_OFFSET))(this);
 		}
 
-		::System::Int32 InternalFallback(::Il2CppArray<::System::Byte>* bytes, ::System::Byte* pBytes)
+		::System::Int32 InternalFallback(::Il2CppArray<::System::Byte>* a1, ::System::Byte* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Byte*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERREPLACEMENTFALLBACKBUFFER_INTERNALFALLBACK_OFFSET))(this, bytes, pBytes);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Byte*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERREPLACEMENTFALLBACKBUFFER_INTERNALFALLBACK_OFFSET))(this, a1, a2);
 		}
 	};
 }

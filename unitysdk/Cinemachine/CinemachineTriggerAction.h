@@ -12,23 +12,23 @@ namespace UnityEngine { class Collision2D; }
 namespace UnityEngine { class Collision; }
 namespace UnityEngine { class GameObject; }
 
-#define CINEMACHINE_CINEMACHINETRIGGERACTION_FILTER_OFFSET UNITYSDK_OFFSET(0x167D2740)
-#define CINEMACHINE_CINEMACHINETRIGGERACTION_INTERNALDOTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x167D27D0)
-#define CINEMACHINE_CINEMACHINETRIGGERACTION_INTERNALDOTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x167D2DB0)
-#define CINEMACHINE_CINEMACHINETRIGGERACTION_ONCOLLISIONENTER2D_OFFSET UNITYSDK_OFFSET(0x167D3350)
-#define CINEMACHINE_CINEMACHINETRIGGERACTION_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x167D2FD0)
-#define CINEMACHINE_CINEMACHINETRIGGERACTION_ONCOLLISIONEXIT2D_OFFSET UNITYSDK_OFFSET(0x167D3460)
-#define CINEMACHINE_CINEMACHINETRIGGERACTION_ONCOLLISIONEXIT_OFFSET UNITYSDK_OFFSET(0x167D3100)
-#define CINEMACHINE_CINEMACHINETRIGGERACTION_ONENABLE_OFFSET UNITYSDK_OFFSET(0x167D34F0)
-#define CINEMACHINE_CINEMACHINETRIGGERACTION_ONTRIGGERENTER2D_OFFSET UNITYSDK_OFFSET(0x167D31B0)
-#define CINEMACHINE_CINEMACHINETRIGGERACTION_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x167D2E30)
-#define CINEMACHINE_CINEMACHINETRIGGERACTION_ONTRIGGEREXIT2D_OFFSET UNITYSDK_OFFSET(0x167D32C0)
-#define CINEMACHINE_CINEMACHINETRIGGERACTION_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x167D2F40)
-#define CINEMACHINE_CINEMACHINETRIGGERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x167D3500)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_FILTER_OFFSET UNITYSDK_OFFSET(0x1510E980)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_INTERNALDOTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x1510EA10)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_INTERNALDOTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x1510EFE0)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_ONCOLLISIONENTER2D_OFFSET UNITYSDK_OFFSET(0x1510F580)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x1510F200)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_ONCOLLISIONEXIT2D_OFFSET UNITYSDK_OFFSET(0x1510F690)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_ONCOLLISIONEXIT_OFFSET UNITYSDK_OFFSET(0x1510F330)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1510F720)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_ONTRIGGERENTER2D_OFFSET UNITYSDK_OFFSET(0x1510F3E0)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x1510F060)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_ONTRIGGEREXIT2D_OFFSET UNITYSDK_OFFSET(0x1510F4F0)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x1510F170)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1510F730)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineTriggerAction_TypeDefinitionIndex = 36619;
+	inline static constexpr unsigned int CinemachineTriggerAction_TypeDefinitionIndex = 36919;
 
 	class CinemachineTriggerAction : public ::UnityEngine::MonoBehaviour
 	{
@@ -47,59 +47,59 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Filter(::UnityEngine::GameObject* other)
+		::System::Boolean Filter(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_FILTER_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_FILTER_OFFSET))(this, a1);
 		}
 
-		::System::Void InternalDoTriggerEnter(::UnityEngine::GameObject* other)
+		::System::Void InternalDoTriggerEnter(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_INTERNALDOTRIGGERENTER_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_INTERNALDOTRIGGERENTER_OFFSET))(this, a1);
 		}
 
-		::System::Void InternalDoTriggerExit(::UnityEngine::GameObject* other)
+		::System::Void InternalDoTriggerExit(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_INTERNALDOTRIGGEREXIT_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_INTERNALDOTRIGGEREXIT_OFFSET))(this, a1);
 		}
 
-		::System::Void OnTriggerEnter(::UnityEngine::Collider* other)
+		::System::Void OnTriggerEnter(::UnityEngine::Collider* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_ONTRIGGERENTER_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_ONTRIGGERENTER_OFFSET))(this, a1);
 		}
 
-		::System::Void OnTriggerExit(::UnityEngine::Collider* other)
+		::System::Void OnTriggerExit(::UnityEngine::Collider* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_ONTRIGGEREXIT_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_ONTRIGGEREXIT_OFFSET))(this, a1);
 		}
 
-		::System::Void OnCollisionEnter(::UnityEngine::Collision* other)
+		::System::Void OnCollisionEnter(::UnityEngine::Collision* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_ONCOLLISIONENTER_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_ONCOLLISIONENTER_OFFSET))(this, a1);
 		}
 
-		::System::Void OnCollisionExit(::UnityEngine::Collision* other)
+		::System::Void OnCollisionExit(::UnityEngine::Collision* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_ONCOLLISIONEXIT_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_ONCOLLISIONEXIT_OFFSET))(this, a1);
 		}
 
-		::System::Void OnTriggerEnter2D(::UnityEngine::Collider2D* other)
+		::System::Void OnTriggerEnter2D(::UnityEngine::Collider2D* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider2D*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_ONTRIGGERENTER2D_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider2D*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_ONTRIGGERENTER2D_OFFSET))(this, a1);
 		}
 
-		::System::Void OnTriggerExit2D(::UnityEngine::Collider2D* other)
+		::System::Void OnTriggerExit2D(::UnityEngine::Collider2D* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider2D*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_ONTRIGGEREXIT2D_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider2D*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_ONTRIGGEREXIT2D_OFFSET))(this, a1);
 		}
 
-		::System::Void OnCollisionEnter2D(::UnityEngine::Collision2D* other)
+		::System::Void OnCollisionEnter2D(::UnityEngine::Collision2D* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision2D*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_ONCOLLISIONENTER2D_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision2D*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_ONCOLLISIONENTER2D_OFFSET))(this, a1);
 		}
 
-		::System::Void OnCollisionExit2D(::UnityEngine::Collision2D* other)
+		::System::Void OnCollisionExit2D(::UnityEngine::Collision2D* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision2D*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_ONCOLLISIONEXIT2D_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision2D*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_ONCOLLISIONEXIT2D_OFFSET))(this, a1);
 		}
 
 		::System::Void OnEnable()

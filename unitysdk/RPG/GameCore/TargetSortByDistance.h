@@ -4,14 +4,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETSORTBYDISTANCE_METHOD_3_0D1C3BCFD4BF3F75_OFFSET UNITYSDK_OFFSET(0x17133670)
-#define RPG_GAMECORE_TARGETSORTBYDISTANCE_METHOD_3_D0C60F1A2B56EDB9_OFFSET UNITYSDK_OFFSET(0x171355F0)
-#define RPG_GAMECORE_TARGETSORTBYDISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x17133650)
+#define RPG_GAMECORE_TARGETSORTBYDISTANCE_METHOD_3_0D1C3BCFD4BF3F75_OFFSET UNITYSDK_OFFSET(0x1ACD4870)
+#define RPG_GAMECORE_TARGETSORTBYDISTANCE_METHOD_3_1EA76C67B15B23E9_OFFSET UNITYSDK_OFFSET(0x1ACE2A40)
+#define RPG_GAMECORE_TARGETSORTBYDISTANCE_METHOD_3_59562AADDFF69120_OFFSET UNITYSDK_OFFSET(0x1ACE4090)
+#define RPG_GAMECORE_TARGETSORTBYDISTANCE_METHOD_3_D0C60F1A2B56EDB9_OFFSET UNITYSDK_OFFSET(0x1ACE4040)
+#define RPG_GAMECORE_TARGETSORTBYDISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACD4850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetSortByDistance_TypeDefinitionIndex = 22983;
+	inline static constexpr unsigned int TargetSortByDistance_TypeDefinitionIndex = 22674;
 
 	class TargetSortByDistance : public ::RPG::GameCore::TargetSeqOperation
 	{
@@ -33,6 +36,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_3_0D1C3BCFD4BF3F75(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetSortByDistance* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetSortByDistance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYDISTANCE_METHOD_3_0D1C3BCFD4BF3F75_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_1EA76C67B15B23E9(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetSortByDistance*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSortByDistance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYDISTANCE_METHOD_3_1EA76C67B15B23E9_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_59562AADDFF69120(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetSortByDistance* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSortByDistance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYDISTANCE_METHOD_3_59562AADDFF69120_OFFSET))(a1, a2);
 		}
 	};
 }

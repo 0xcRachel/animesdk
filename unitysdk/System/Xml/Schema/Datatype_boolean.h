@@ -14,16 +14,16 @@ namespace System::Xml::Schema { class FacetsChecker; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 namespace System::Xml::Schema { class XmlValueConverter; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_COMPARE_OFFSET UNITYSDK_OFFSET(0x186E3DE0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x186E3C50)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x186E3DD0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x186E3CA0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x186E3D70)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x186E3D00)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x186E3D10)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x186E3EE0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN__CCTOR_OFFSET UNITYSDK_OFFSET(0x186E3FE0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN__CTOR_OFFSET UNITYSDK_OFFSET(0x186DCD40)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_COMPARE_OFFSET UNITYSDK_OFFSET(0x18A8D5B0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x18A8D420)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x18A8D5A0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x18A8D470)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x18A8D540)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x18A8D4D0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x18A8D4E0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x18A8D6B0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A8D7B0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN__CTOR_OFFSET UNITYSDK_OFFSET(0x18A86670)
 
 namespace System::Xml::Schema
 {
@@ -34,11 +34,11 @@ namespace System::Xml::Schema
 	public:
 		static ::System::Type** StaticGet_listValueType()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_boolean_TypeDefinitionIndex)->GetStaticField(0xAD00);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_boolean_TypeDefinitionIndex)->GetStaticField(0x15470);
 		}
 		static ::System::Type** StaticGet_atomicValueType()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_boolean_TypeDefinitionIndex)->GetStaticField(0xAD08);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_boolean_TypeDefinitionIndex)->GetStaticField(0x15478);
 		}
 
 		::System::Void _ctor()
@@ -51,9 +51,9 @@ namespace System::Xml::Schema
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN__CCTOR_OFFSET))();
 		}
 
-		::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType)
+		::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* a1)
 		{
-			return ((::System::Xml::Schema::XmlValueConverter*(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_CREATEVALUECONVERTER_OFFSET))(this, schemaType);
+			return ((::System::Xml::Schema::XmlValueConverter*(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_CREATEVALUECONVERTER_OFFSET))(this, a1);
 		}
 
 		::System::Xml::Schema::FacetsChecker* get_FacetsChecker()
@@ -81,14 +81,14 @@ namespace System::Xml::Schema
 			return ((::System::Xml::Schema::XmlSchemaWhiteSpace(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_GET_BUILTINWHITESPACEFACET_OFFSET))(this);
 		}
 
-		::System::Int32 Compare(::System::Object* value1, ::System::Object* value2)
+		::System::Int32 Compare(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_COMPARE_OFFSET))(this, value1, value2);
+			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_COMPARE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* TryParseValue(::System::String* s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::System::Object*& typedValue)
+		::System::Exception* TryParseValue(::System::String* a1, ::System::Xml::XmlNameTable* a2, ::System::Xml::IXmlNamespaceResolver* a3, ::System::Object*& a4)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::String*, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_TRYPARSEVALUE_OFFSET))(this, s, nameTable, nsmgr, typedValue);
+			return ((::System::Exception*(*)(::PVOID, ::System::String*, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BOOLEAN_TRYPARSEVALUE_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

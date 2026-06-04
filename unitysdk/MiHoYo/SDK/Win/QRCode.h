@@ -7,16 +7,16 @@ namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define MIHOYO_SDK_WIN_QRCODE_CREATEQRCODE_OFFSET UNITYSDK_OFFSET(0x15D0E940)
-#define MIHOYO_SDK_WIN_QRCODE_ENCODE_OFFSET UNITYSDK_OFFSET(0x15D0E780)
-#define MIHOYO_SDK_WIN_QRCODE_GENERATEQRIMAGE_OFFSET UNITYSDK_OFFSET(0x15D0E250)
-#define MIHOYO_SDK_WIN_QRCODE_START_OFFSET UNITYSDK_OFFSET(0x15D0E130)
-#define MIHOYO_SDK_WIN_QRCODE_UPDATE_OFFSET UNITYSDK_OFFSET(0x15D0E220)
-#define MIHOYO_SDK_WIN_QRCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x15D0EA30)
+#define MIHOYO_SDK_WIN_QRCODE_CREATEQRCODE_OFFSET UNITYSDK_OFFSET(0x16B22AC0)
+#define MIHOYO_SDK_WIN_QRCODE_ENCODE_OFFSET UNITYSDK_OFFSET(0x16B22900)
+#define MIHOYO_SDK_WIN_QRCODE_GENERATEQRIMAGE_OFFSET UNITYSDK_OFFSET(0x16B22390)
+#define MIHOYO_SDK_WIN_QRCODE_START_OFFSET UNITYSDK_OFFSET(0x16B22270)
+#define MIHOYO_SDK_WIN_QRCODE_UPDATE_OFFSET UNITYSDK_OFFSET(0x16B22360)
+#define MIHOYO_SDK_WIN_QRCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16B22BD0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int QRCode_TypeDefinitionIndex = 8292;
+	inline static constexpr unsigned int QRCode_TypeDefinitionIndex = 9195;
 
 	class QRCode : public ::UnityEngine::MonoBehaviour
 	{
@@ -41,19 +41,19 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_QRCODE_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void GenerateQRImage(::System::String* content)
+		::System::Void GenerateQRImage(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_QRCODE_GENERATEQRIMAGE_OFFSET))(this, content);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_QRCODE_GENERATEQRIMAGE_OFFSET))(this, a1);
 		}
 
-		static ::Il2CppArray<::UnityEngine::Color32>* Encode(::System::String* textForEncoding, ::System::Int32 width, ::System::Int32 height)
+		static ::Il2CppArray<::UnityEngine::Color32>* Encode(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::Il2CppArray<::UnityEngine::Color32>*(*)(::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_QRCODE_ENCODE_OFFSET))(textForEncoding, width, height);
+			return ((::Il2CppArray<::UnityEngine::Color32>*(*)(::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_QRCODE_ENCODE_OFFSET))(a1, a2, a3);
 		}
 
-		::System::Void CreateQRCode(::System::String* url)
+		::System::Void CreateQRCode(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_QRCODE_CREATEQRCODE_OFFSET))(this, url);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_QRCODE_CREATEQRCODE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class BaseAdventureCameraLookAt; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_970B0509215BE1E4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDEB7A20)
-#define CLASS_3_970B0509215BE1E4__CTOR_OFFSET UNITYSDK_OFFSET(0xDEB79F0)
+#define CLASS_3_970B0509215BE1E4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14D6FD20)
+#define CLASS_3_970B0509215BE1E4__CTOR_OFFSET UNITYSDK_OFFSET(0x14D6FCF0)
 
-inline static constexpr unsigned int Class_3_970B0509215BE1E4_TypeDefinitionIndex = 50613;
+inline static constexpr unsigned int Class_3_970B0509215BE1E4_TypeDefinitionIndex = 51280;
 
 class Class_3_970B0509215BE1E4 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::BaseAdventureCameraLookAt*>
 {

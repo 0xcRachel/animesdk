@@ -7,10 +7,10 @@ namespace System { class Type; }
 namespace System { class Uri; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_XML_XMLRESOLVER_GETENTITYASYNC_OFFSET UNITYSDK_OFFSET(0x1767D000)
-#define SYSTEM_XML_XMLRESOLVER_RESOLVEURI_OFFSET UNITYSDK_OFFSET(0x1767CCB0)
-#define SYSTEM_XML_XMLRESOLVER_SUPPORTSTYPE_OFFSET UNITYSDK_OFFSET(0x1767CF40)
-#define SYSTEM_XML_XMLRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1767D050)
+#define SYSTEM_XML_XMLRESOLVER_GETENTITYASYNC_OFFSET UNITYSDK_OFFSET(0x16DD7E30)
+#define SYSTEM_XML_XMLRESOLVER_RESOLVEURI_OFFSET UNITYSDK_OFFSET(0x16DD7AE0)
+#define SYSTEM_XML_XMLRESOLVER_SUPPORTSTYPE_OFFSET UNITYSDK_OFFSET(0x16DD7D70)
+#define SYSTEM_XML_XMLRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x16DD7E80)
 
 namespace System::Xml
 {
@@ -24,19 +24,19 @@ namespace System::Xml
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLRESOLVER__CTOR_OFFSET))(this);
 		}
 
-		::System::Uri* ResolveUri(::System::Uri* baseUri, ::System::String* relativeUri)
+		::System::Uri* ResolveUri(::System::Uri* a1, ::System::String* a2)
 		{
-			return ((::System::Uri*(*)(::PVOID, ::System::Uri*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLRESOLVER_RESOLVEURI_OFFSET))(this, baseUri, relativeUri);
+			return ((::System::Uri*(*)(::PVOID, ::System::Uri*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLRESOLVER_RESOLVEURI_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean SupportsType(::System::Uri* absoluteUri, ::System::Type* type)
+		::System::Boolean SupportsType(::System::Uri* a1, ::System::Type* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Uri*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLRESOLVER_SUPPORTSTYPE_OFFSET))(this, absoluteUri, type);
+			return ((::System::Boolean(*)(::PVOID, ::System::Uri*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLRESOLVER_SUPPORTSTYPE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Threading::Tasks::Task_1<::System::Object*>* GetEntityAsync(::System::Uri* absoluteUri, ::System::String* role, ::System::Type* ofObjectToReturn)
+		::System::Threading::Tasks::Task_1<::System::Object*>* GetEntityAsync(::System::Uri* a1, ::System::String* a2, ::System::Type* a3)
 		{
-			return ((::System::Threading::Tasks::Task_1<::System::Object*>*(*)(::PVOID, ::System::Uri*, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLRESOLVER_GETENTITYASYNC_OFFSET))(this, absoluteUri, role, ofObjectToReturn);
+			return ((::System::Threading::Tasks::Task_1<::System::Object*>*(*)(::PVOID, ::System::Uri*, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLRESOLVER_GETENTITYASYNC_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

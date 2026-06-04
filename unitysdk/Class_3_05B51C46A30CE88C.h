@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PropMove; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_05B51C46A30CE88C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF10CA60)
-#define CLASS_3_05B51C46A30CE88C__CTOR_OFFSET UNITYSDK_OFFSET(0xF10CA30)
+#define CLASS_3_05B51C46A30CE88C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14BEC560)
+#define CLASS_3_05B51C46A30CE88C__CTOR_OFFSET UNITYSDK_OFFSET(0x14BEC530)
 
-inline static constexpr unsigned int Class_3_05B51C46A30CE88C_TypeDefinitionIndex = 53801;
+inline static constexpr unsigned int Class_3_05B51C46A30CE88C_TypeDefinitionIndex = 54526;
 
 class Class_3_05B51C46A30CE88C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropMove*>
 {

@@ -7,32 +7,32 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_GAMECORE_HEARTDIALTRACECONSUMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A67B40)
-#define RPG_GAMECORE_HEARTDIALTRACECONSUMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A67E00)
+#define RPG_GAMECORE_HEARTDIALTRACECONSUMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A1D4C10)
+#define RPG_GAMECORE_HEARTDIALTRACECONSUMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1D4ED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeartDialTraceConsumeRow_TypeDefinitionIndex = 13003;
+	inline static constexpr unsigned int HeartDialTraceConsumeRow_TypeDefinitionIndex = 13086;
 
 	class HeartDialTraceConsumeRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ItemConfig*>* MaterialCost; // 0x10
-		::System::UInt32 HeartDialTraceID; // 0x18
-		::System::UInt32 MapInfoID; // 0x1C
-		::System::UInt32 FloorID; // 0x20
-		::System::Int32 MiniMapID; // 0x24
-		::RPG::GameCore::HeartDialStepType HeartDialStep; // 0x28
-		::RPG::GameCore::HeartDialEmoType HeartDialEmotion; // 0x2C
+		::System::Int32 MiniMapID; // 0x18
+		::RPG::GameCore::HeartDialEmoType HeartDialEmotion; // 0x1C
+		::System::UInt32 HeartDialTraceID; // 0x20
+		::System::UInt32 FloorID; // 0x24
+		::System::UInt32 MapInfoID; // 0x28
+		::RPG::GameCore::HeartDialStepType HeartDialStep; // 0x2C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HEARTDIALTRACECONSUMEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::HeartDialTraceConsumeRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HeartDialTraceConsumeRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HeartDialTraceConsumeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HEARTDIALTRACECONSUMEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HeartDialTraceConsumeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HEARTDIALTRACECONSUMEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

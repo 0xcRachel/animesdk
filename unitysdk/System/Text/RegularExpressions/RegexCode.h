@@ -8,8 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text::RegularExpressions { class RegexBoyerMoore; }
 namespace System::Text::RegularExpressions { class RegexPrefix; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE_OPCODEBACKTRACKS_OFFSET UNITYSDK_OFFSET(0x16B55FA0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16B55EE0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE_OPCODEBACKTRACKS_OFFSET UNITYSDK_OFFSET(0x149397B0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x149396F0)
 
 namespace System::Text::RegularExpressions
 {
@@ -19,23 +19,23 @@ namespace System::Text::RegularExpressions
 	{
 	public:
 		::System::Text::RegularExpressions::RegexBoyerMoore* _bmPrefix; // 0x10
-		::System::Collections::Hashtable* _caps; // 0x18
-		::Il2CppArray<::System::String*>* _strings; // 0x20
-		::Il2CppArray<::System::Int32>* _codes; // 0x28
+		::Il2CppArray<::System::String*>* _strings; // 0x18
+		::Il2CppArray<::System::Int32>* _codes; // 0x20
+		::System::Collections::Hashtable* _caps; // 0x28
 		::System::Text::RegularExpressions::RegexPrefix* _fcPrefix; // 0x30
-		::System::Int32 _trackcount; // 0x38
-		::System::Boolean _rightToLeft; // 0x3C
-		::System::Int32 _anchors; // 0x40
-		::System::Int32 _capsize; // 0x44
+		::System::Int32 _capsize; // 0x38
+		::System::Int32 _anchors; // 0x3C
+		::System::Boolean _rightToLeft; // 0x40
+		::System::Int32 _trackcount; // 0x44
 
-		::System::Void _ctor(::Il2CppArray<::System::Int32>* codes, ::System::Collections::Generic::List_1<::System::String*>* stringlist, ::System::Int32 trackcount, ::System::Collections::Hashtable* caps, ::System::Int32 capsize, ::System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix, ::System::Text::RegularExpressions::RegexPrefix* fcPrefix, ::System::Int32 anchors, ::System::Boolean rightToLeft)
+		::System::Void _ctor(::Il2CppArray<::System::Int32>* a1, ::System::Collections::Generic::List_1<::System::String*>* a2, ::System::Int32 a3, ::System::Collections::Hashtable* a4, ::System::Int32 a5, ::System::Text::RegularExpressions::RegexBoyerMoore* a6, ::System::Text::RegularExpressions::RegexPrefix* a7, ::System::Int32 a8, ::System::Boolean a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Int32, ::System::Collections::Hashtable*, ::System::Int32, ::System::Text::RegularExpressions::RegexBoyerMoore*, ::System::Text::RegularExpressions::RegexPrefix*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE__CTOR_OFFSET))(this, codes, stringlist, trackcount, caps, capsize, bmPrefix, fcPrefix, anchors, rightToLeft);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Int32, ::System::Collections::Hashtable*, ::System::Int32, ::System::Text::RegularExpressions::RegexBoyerMoore*, ::System::Text::RegularExpressions::RegexPrefix*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		static ::System::Boolean OpcodeBacktracks(::System::Int32 Op)
+		static ::System::Boolean OpcodeBacktracks(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE_OPCODEBACKTRACKS_OFFSET))(Op);
+			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE_OPCODEBACKTRACKS_OFFSET))(a1);
 		}
 	};
 }

@@ -5,28 +5,28 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_AUDIOLANGUAGEITEM_GET_AUDIOID_OFFSET UNITYSDK_OFFSET(0x16D86E20)
-#define RPG_CLIENT_AUDIOLANGUAGEITEM_GET_LANGUAGEKEY_OFFSET UNITYSDK_OFFSET(0x16D86E40)
-#define RPG_CLIENT_AUDIOLANGUAGEITEM_GET_NAME_OFFSET UNITYSDK_OFFSET(0x16D86E50)
-#define RPG_CLIENT_AUDIOLANGUAGEITEM_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x16D86F00)
-#define RPG_CLIENT_AUDIOLANGUAGEITEM_SETSIZE_OFFSET UNITYSDK_OFFSET(0x16D86F10)
-#define RPG_CLIENT_AUDIOLANGUAGEITEM_SET_AUDIOID_OFFSET UNITYSDK_OFFSET(0x16D86E30)
-#define RPG_CLIENT_AUDIOLANGUAGEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x16D86E10)
+#define RPG_CLIENT_AUDIOLANGUAGEITEM_GET_AUDIOID_OFFSET UNITYSDK_OFFSET(0x1597DF80)
+#define RPG_CLIENT_AUDIOLANGUAGEITEM_GET_LANGUAGEKEY_OFFSET UNITYSDK_OFFSET(0x1597DFA0)
+#define RPG_CLIENT_AUDIOLANGUAGEITEM_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1597DFB0)
+#define RPG_CLIENT_AUDIOLANGUAGEITEM_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x1597E060)
+#define RPG_CLIENT_AUDIOLANGUAGEITEM_SETSIZE_OFFSET UNITYSDK_OFFSET(0x1597E070)
+#define RPG_CLIENT_AUDIOLANGUAGEITEM_SET_AUDIOID_OFFSET UNITYSDK_OFFSET(0x1597DF90)
+#define RPG_CLIENT_AUDIOLANGUAGEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1597DF70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudioLanguageItem_TypeDefinitionIndex = 55119;
+	inline static constexpr unsigned int AudioLanguageItem_TypeDefinitionIndex = 55853;
 
 	class AudioLanguageItem : public ::System::Object
 	{
 	public:
-		::System::String* SizeStr; // 0x10
-		::System::String* _AudioID_k__BackingField; // 0x18
+		::System::String* _AudioID_k__BackingField; // 0x10
+		::System::String* SizeStr; // 0x18
 		::System::Int64 DownloadSize; // 0x20
 
-		::System::Void _ctor(::System::String* audioKey)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOLANGUAGEITEM__CTOR_OFFSET))(this, audioKey);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOLANGUAGEITEM__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_AudioID()
@@ -34,9 +34,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOLANGUAGEITEM_GET_AUDIOID_OFFSET))(this);
 		}
 
-		::System::Void set_AudioID(::System::String* value)
+		::System::Void set_AudioID(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOLANGUAGEITEM_SET_AUDIOID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOLANGUAGEITEM_SET_AUDIOID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_languageKey()
@@ -54,9 +54,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOLANGUAGEITEM_GET_SIZE_OFFSET))(this);
 		}
 
-		::System::Void SetSize(::System::Int64 size)
+		::System::Void SetSize(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOLANGUAGEITEM_SETSIZE_OFFSET))(this, size);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOLANGUAGEITEM_SETSIZE_OFFSET))(this, a1);
 		}
 	};
 }

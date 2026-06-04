@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HASDICETRIPLE_METHOD_4_2022525DA845CC8E_OFFSET UNITYSDK_OFFSET(0x195975E0)
-#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HASDICETRIPLE_METHOD_4_BE4C76E8785E9965_OFFSET UNITYSDK_OFFSET(0x19599AA0)
-#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HASDICETRIPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19597590)
+#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HASDICETRIPLE_METHOD_4_35B61A4AC7001F95_OFFSET UNITYSDK_OFFSET(0x1A094780)
+#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HASDICETRIPLE_METHOD_4_3B34872CA21EBB75_OFFSET UNITYSDK_OFFSET(0x1A0922F0)
+#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HASDICETRIPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0922A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatPredicateConfig_HasDiceTriple_TypeDefinitionIndex = 15264;
+	inline static constexpr unsigned int DiceCombatPredicateConfig_HasDiceTriple_TypeDefinitionIndex = 15323;
 
 	class DiceCombatPredicateConfig_HasDiceTriple : public ::RPG::GameCore::DiceCombatPredicateConfig
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HASDICETRIPLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_BE4C76E8785E9965(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatPredicateConfig_HasDiceTriple*& a2)
+		static ::System::Void Method_4_35B61A4AC7001F95(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatPredicateConfig_HasDiceTriple*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatPredicateConfig_HasDiceTriple*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HASDICETRIPLE_METHOD_4_BE4C76E8785E9965_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatPredicateConfig_HasDiceTriple*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HASDICETRIPLE_METHOD_4_35B61A4AC7001F95_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_2022525DA845CC8E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatPredicateConfig_HasDiceTriple* a2)
+		static ::System::Void Method_4_3B34872CA21EBB75(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatPredicateConfig_HasDiceTriple* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatPredicateConfig_HasDiceTriple*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HASDICETRIPLE_METHOD_4_2022525DA845CC8E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatPredicateConfig_HasDiceTriple*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPREDICATECONFIG_HASDICETRIPLE_METHOD_4_3B34872CA21EBB75_OFFSET))(a1, a2);
 		}
 	};
 }

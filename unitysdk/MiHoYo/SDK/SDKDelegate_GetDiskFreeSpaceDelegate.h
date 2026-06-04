@@ -7,21 +7,21 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_SDKDELEGATE_GETDISKFREESPACEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x157D6930)
-#define MIHOYO_SDK_SDKDELEGATE_GETDISKFREESPACEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x157D6960)
-#define MIHOYO_SDK_SDKDELEGATE_GETDISKFREESPACEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x157D6680)
-#define MIHOYO_SDK_SDKDELEGATE_GETDISKFREESPACEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x157D6660)
+#define MIHOYO_SDK_SDKDELEGATE_GETDISKFREESPACEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16A49570)
+#define MIHOYO_SDK_SDKDELEGATE_GETDISKFREESPACEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16A495A0)
+#define MIHOYO_SDK_SDKDELEGATE_GETDISKFREESPACEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16A49560)
+#define MIHOYO_SDK_SDKDELEGATE_GETDISKFREESPACEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16A494F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_GetDiskFreeSpaceDelegate_TypeDefinitionIndex = 6833;
+	inline static constexpr unsigned int SDKDelegate_GetDiskFreeSpaceDelegate_TypeDefinitionIndex = 7736;
 
 	class SDKDelegate_GetDiskFreeSpaceDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_GETDISKFREESPACEDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_GETDISKFREESPACEDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* Invoke()
@@ -29,14 +29,14 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_GETDISKFREESPACEDELEGATE_INVOKE_OFFSET))(this);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_GETDISKFREESPACEDELEGATE_BEGININVOKE_OFFSET))(this, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_GETDISKFREESPACEDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::String* EndInvoke(::System::IAsyncResult* result)
+		::System::String* EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_GETDISKFREESPACEDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::String*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_GETDISKFREESPACEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

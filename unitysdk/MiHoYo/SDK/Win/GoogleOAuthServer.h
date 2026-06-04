@@ -8,36 +8,36 @@ namespace System { class String; }
 namespace System::Net { class HttpListener; }
 namespace System::Net { class HttpListenerResponse; }
 
-#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_GETAUTHSTATUS_OFFSET UNITYSDK_OFFSET(0x154740F0)
-#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_GETRANDOMUNUSEDPORT_OFFSET UNITYSDK_OFFSET(0x15474100)
-#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_GET_OAUTHCODE_OFFSET UNITYSDK_OFFSET(0x15474070)
-#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_GET_OAUTHSCOPE_OFFSET UNITYSDK_OFFSET(0x154740B0)
-#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_GET_OAUTHSTATE_OFFSET UNITYSDK_OFFSET(0x15474090)
-#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_GET_REDIRECTURI_OFFSET UNITYSDK_OFFSET(0x154740D0)
-#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_ONOAUTHCONTEXTCALLBACK_OFFSET UNITYSDK_OFFSET(0x15474ED0)
-#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_OPENAUTHURL_OFFSET UNITYSDK_OFFSET(0x15474590)
-#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_REDIRECTRESULTURL_OFFSET UNITYSDK_OFFSET(0x15474BA0)
-#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_SET_OAUTHCODE_OFFSET UNITYSDK_OFFSET(0x15474080)
-#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_SET_OAUTHSCOPE_OFFSET UNITYSDK_OFFSET(0x154740C0)
-#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_SET_OAUTHSTATE_OFFSET UNITYSDK_OFFSET(0x154740A0)
-#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_SET_REDIRECTURI_OFFSET UNITYSDK_OFFSET(0x154740E0)
-#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_START_OFFSET UNITYSDK_OFFSET(0x15474210)
-#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_STOP_OFFSET UNITYSDK_OFFSET(0x154750C0)
-#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x15475200)
+#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_GETAUTHSTATUS_OFFSET UNITYSDK_OFFSET(0x153C5D40)
+#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_GETRANDOMUNUSEDPORT_OFFSET UNITYSDK_OFFSET(0x153C5D50)
+#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_GET_OAUTHCODE_OFFSET UNITYSDK_OFFSET(0x153C5CC0)
+#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_GET_OAUTHSCOPE_OFFSET UNITYSDK_OFFSET(0x153C5D00)
+#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_GET_OAUTHSTATE_OFFSET UNITYSDK_OFFSET(0x153C5CE0)
+#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_GET_REDIRECTURI_OFFSET UNITYSDK_OFFSET(0x153C5D20)
+#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_ONOAUTHCONTEXTCALLBACK_OFFSET UNITYSDK_OFFSET(0x153C6A90)
+#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_OPENAUTHURL_OFFSET UNITYSDK_OFFSET(0x153C6200)
+#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_REDIRECTRESULTURL_OFFSET UNITYSDK_OFFSET(0x153C6720)
+#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_SET_OAUTHCODE_OFFSET UNITYSDK_OFFSET(0x153C5CD0)
+#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_SET_OAUTHSCOPE_OFFSET UNITYSDK_OFFSET(0x153C5D10)
+#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_SET_OAUTHSTATE_OFFSET UNITYSDK_OFFSET(0x153C5CF0)
+#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_SET_REDIRECTURI_OFFSET UNITYSDK_OFFSET(0x153C5D30)
+#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_START_OFFSET UNITYSDK_OFFSET(0x153C5E70)
+#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_STOP_OFFSET UNITYSDK_OFFSET(0x153C6C80)
+#define MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x153C6DC0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int GoogleOAuthServer_TypeDefinitionIndex = 8067;
+	inline static constexpr unsigned int GoogleOAuthServer_TypeDefinitionIndex = 8970;
 
 	class GoogleOAuthServer : public ::System::Object
 	{
 	public:
-		::System::String* requestScope; // 0x10
-		::System::String* _OAuthState_k__BackingField; // 0x18
-		::System::String* _RedirectURI_k__BackingField; // 0x20
-		::System::Net::HttpListener* httpListener; // 0x28
-		::System::String* _OAuthScope_k__BackingField; // 0x30
-		::System::String* _OAuthCode_k__BackingField; // 0x38
+		::System::String* _RedirectURI_k__BackingField; // 0x10
+		::System::String* _OAuthScope_k__BackingField; // 0x18
+		::System::Net::HttpListener* httpListener; // 0x20
+		::System::String* _OAuthCode_k__BackingField; // 0x28
+		::System::String* _OAuthState_k__BackingField; // 0x30
+		::System::String* requestScope; // 0x38
 		::System::Boolean IsRunning; // 0x40
 		::MiHoYo::SDK::Win::GoogleOAuthServer_AuthStatus authStatus; // 0x44
 
@@ -51,9 +51,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_GET_OAUTHCODE_OFFSET))(this);
 		}
 
-		::System::Void set_OAuthCode(::System::String* value)
+		::System::Void set_OAuthCode(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_SET_OAUTHCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_SET_OAUTHCODE_OFFSET))(this, a1);
 		}
 
 		::System::String* get_OAuthState()
@@ -61,9 +61,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_GET_OAUTHSTATE_OFFSET))(this);
 		}
 
-		::System::Void set_OAuthState(::System::String* value)
+		::System::Void set_OAuthState(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_SET_OAUTHSTATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_SET_OAUTHSTATE_OFFSET))(this, a1);
 		}
 
 		::System::String* get_OAuthScope()
@@ -71,9 +71,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_GET_OAUTHSCOPE_OFFSET))(this);
 		}
 
-		::System::Void set_OAuthScope(::System::String* value)
+		::System::Void set_OAuthScope(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_SET_OAUTHSCOPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_SET_OAUTHSCOPE_OFFSET))(this, a1);
 		}
 
 		::System::String* get_RedirectURI()
@@ -81,9 +81,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_GET_REDIRECTURI_OFFSET))(this);
 		}
 
-		::System::Void set_RedirectURI(::System::String* value)
+		::System::Void set_RedirectURI(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_SET_REDIRECTURI_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_SET_REDIRECTURI_OFFSET))(this, a1);
 		}
 
 		::MiHoYo::SDK::Win::GoogleOAuthServer_AuthStatus GetAuthStatus()
@@ -96,24 +96,24 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_GETRANDOMUNUSEDPORT_OFFSET))();
 		}
 
-		::System::Void Start(::System::String* url)
+		::System::Void Start(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_START_OFFSET))(this, url);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_START_OFFSET))(this, a1);
 		}
 
-		::System::Void OpenAuthUrl(::System::String* url)
+		::System::Void OpenAuthUrl(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_OPENAUTHURL_OFFSET))(this, url);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_OPENAUTHURL_OFFSET))(this, a1);
 		}
 
-		::System::Void RedirectResultUrl(::System::Net::HttpListenerResponse* response, ::MiHoYo::SDK::Win::GoogleOAuthServer_AuthStatus status)
+		::System::Void RedirectResultUrl(::System::Net::HttpListenerResponse* a1, ::MiHoYo::SDK::Win::GoogleOAuthServer_AuthStatus a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::HttpListenerResponse*, ::MiHoYo::SDK::Win::GoogleOAuthServer_AuthStatus))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_REDIRECTRESULTURL_OFFSET))(this, response, status);
+			return ((::System::Void(*)(::PVOID, ::System::Net::HttpListenerResponse*, ::MiHoYo::SDK::Win::GoogleOAuthServer_AuthStatus))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_REDIRECTRESULTURL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnOAuthContextCallback(::System::IAsyncResult* result)
+		::System::Void OnOAuthContextCallback(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_ONOAUTHCONTEXTCALLBACK_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEOAUTHSERVER_ONOAUTHCONTEXTCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void Stop()

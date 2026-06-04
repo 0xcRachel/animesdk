@@ -4,11 +4,11 @@
 
 namespace System::Diagnostics::Tracing { class EventListener; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x17D03480)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x175F6C10)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventDispatcher_TypeDefinitionIndex = 1695;
+	inline static constexpr unsigned int EventDispatcher_TypeDefinitionIndex = 1693;
 
 	class EventDispatcher : public ::System::Object
 	{
@@ -18,9 +18,9 @@ namespace System::Diagnostics::Tracing
 		::System::Diagnostics::Tracing::EventDispatcher* m_Next; // 0x20
 		::System::Boolean m_activityFilteringEnabled; // 0x28
 
-		::System::Void _ctor(::System::Diagnostics::Tracing::EventDispatcher* next, ::Il2CppArray<::System::Boolean>* eventEnabled, ::System::Diagnostics::Tracing::EventListener* listener)
+		::System::Void _ctor(::System::Diagnostics::Tracing::EventDispatcher* a1, ::Il2CppArray<::System::Boolean>* a2, ::System::Diagnostics::Tracing::EventListener* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventDispatcher*, ::Il2CppArray<::System::Boolean>*, ::System::Diagnostics::Tracing::EventListener*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTDISPATCHER__CTOR_OFFSET))(this, next, eventEnabled, listener);
+			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventDispatcher*, ::Il2CppArray<::System::Boolean>*, ::System::Diagnostics::Tracing::EventListener*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTDISPATCHER__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

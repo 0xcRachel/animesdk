@@ -8,36 +8,36 @@
 namespace Epic::OnlineServices { class ProductUserId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x1986F850)
-#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x1986F7B0)
-#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_GET_DATEOFBIRTH_OFFSET UNITYSDK_OFFSET(0x1986F810)
-#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_GET_ISMINOR_OFFSET UNITYSDK_OFFSET(0x1986F830)
-#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_GET_KWSUSERID_OFFSET UNITYSDK_OFFSET(0x1986F7F0)
-#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1986F7D0)
-#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x1986F790)
-#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x198701D0)
-#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x1986F7C0)
-#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_DATEOFBIRTH_OFFSET UNITYSDK_OFFSET(0x1986F820)
-#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_ISMINOR_OFFSET UNITYSDK_OFFSET(0x1986F840)
-#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_KWSUSERID_OFFSET UNITYSDK_OFFSET(0x1986F800)
-#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1986F7E0)
-#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x1986F870)
-#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x1986F7A0)
-#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19870310)
+#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x1A5AF370)
+#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x1A5AF2D0)
+#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_GET_DATEOFBIRTH_OFFSET UNITYSDK_OFFSET(0x1A5AF330)
+#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_GET_ISMINOR_OFFSET UNITYSDK_OFFSET(0x1A5AF350)
+#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_GET_KWSUSERID_OFFSET UNITYSDK_OFFSET(0x1A5AF310)
+#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A5AF2F0)
+#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x1A5AF2B0)
+#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x1A5AFCF0)
+#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x1A5AF2E0)
+#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_DATEOFBIRTH_OFFSET UNITYSDK_OFFSET(0x1A5AF340)
+#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_ISMINOR_OFFSET UNITYSDK_OFFSET(0x1A5AF360)
+#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_KWSUSERID_OFFSET UNITYSDK_OFFSET(0x1A5AF320)
+#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A5AF300)
+#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x1A5AF390)
+#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x1A5AF2C0)
+#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5AFE30)
 
 namespace Epic::OnlineServices::KWS
 {
-	inline static constexpr unsigned int QueryPermissionsCallbackInfo_TypeDefinitionIndex = 42084;
+	inline static constexpr unsigned int QueryPermissionsCallbackInfo_TypeDefinitionIndex = 42887;
 
 	class QueryPermissionsCallbackInfo : public ::System::Object
 	{
 	public:
 		::System::String* _DateOfBirth_k__BackingField; // 0x10
-		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x18
-		::System::Object* _ClientData_k__BackingField; // 0x20
-		::System::String* _KWSUserId_k__BackingField; // 0x28
-		::Epic::OnlineServices::Result _ResultCode_k__BackingField; // 0x30
-		::System::Boolean _IsMinor_k__BackingField; // 0x34
+		::System::Object* _ClientData_k__BackingField; // 0x18
+		::System::String* _KWSUserId_k__BackingField; // 0x20
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x28
+		::System::Boolean _IsMinor_k__BackingField; // 0x30
+		::Epic::OnlineServices::Result _ResultCode_k__BackingField; // 0x34
 
 		::System::Void _ctor()
 		{
@@ -49,9 +49,9 @@ namespace Epic::OnlineServices::KWS
 			return ((::Epic::OnlineServices::Result(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_GET_RESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void set_ResultCode(::Epic::OnlineServices::Result value)
+		::System::Void set_ResultCode(::Epic::OnlineServices::Result a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_ClientData()
@@ -59,9 +59,9 @@ namespace Epic::OnlineServices::KWS
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_GET_CLIENTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ClientData(::System::Object* value)
+		::System::Void set_ClientData(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ProductUserId* get_LocalUserId()
@@ -69,9 +69,9 @@ namespace Epic::OnlineServices::KWS
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_KWSUserId()
@@ -79,9 +79,9 @@ namespace Epic::OnlineServices::KWS
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_GET_KWSUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_KWSUserId(::System::String* value)
+		::System::Void set_KWSUserId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_KWSUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_KWSUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_DateOfBirth()
@@ -89,9 +89,9 @@ namespace Epic::OnlineServices::KWS
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_GET_DATEOFBIRTH_OFFSET))(this);
 		}
 
-		::System::Void set_DateOfBirth(::System::String* value)
+		::System::Void set_DateOfBirth(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_DATEOFBIRTH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_DATEOFBIRTH_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsMinor()
@@ -99,9 +99,9 @@ namespace Epic::OnlineServices::KWS
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_GET_ISMINOR_OFFSET))(this);
 		}
 
-		::System::Void set_IsMinor(::System::Boolean value)
+		::System::Void set_IsMinor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_ISMINOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_ISMINOR_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::Epic::OnlineServices::Result> GetResultCode()
@@ -109,14 +109,14 @@ namespace Epic::OnlineServices::KWS
 			return ((::System::Nullable_1<::Epic::OnlineServices::Result>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_GETRESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::KWS::QueryPermissionsCallbackInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::KWS::QueryPermissionsCallbackInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::KWS::QueryPermissionsCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::KWS::QueryPermissionsCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSCALLBACKINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

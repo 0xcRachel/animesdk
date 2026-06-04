@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HOUDINIENGINEUNITY_HEU_TASK_TASKCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x17DECB10)
-#define HOUDINIENGINEUNITY_HEU_TASK_TASKCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17DECB40)
-#define HOUDINIENGINEUNITY_HEU_TASK_TASKCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x17DEC5C0)
-#define HOUDINIENGINEUNITY_HEU_TASK_TASKCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x17DEC5A0)
+#define HOUDINIENGINEUNITY_HEU_TASK_TASKCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x183039F0)
+#define HOUDINIENGINEUNITY_HEU_TASK_TASKCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18303A20)
+#define HOUDINIENGINEUNITY_HEU_TASK_TASKCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x183039E0)
+#define HOUDINIENGINEUNITY_HEU_TASK_TASKCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x183038F0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_Task_TaskCallback_TypeDefinitionIndex = 43662;
+	inline static constexpr unsigned int HEU_Task_TaskCallback_TypeDefinitionIndex = 37638;
 
 	class HEU_Task_TaskCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TASK_TASKCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TASK_TASKCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::HoudiniEngineUnity::HEU_Task* task)
+		::System::Void Invoke(::HoudiniEngineUnity::HEU_Task* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_Task*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TASK_TASKCALLBACK_INVOKE_OFFSET))(this, task);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_Task*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TASK_TASKCALLBACK_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::HoudiniEngineUnity::HEU_Task* task, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::HoudiniEngineUnity::HEU_Task* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::HoudiniEngineUnity::HEU_Task*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TASK_TASKCALLBACK_BEGININVOKE_OFFSET))(this, task, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::HoudiniEngineUnity::HEU_Task*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TASK_TASKCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TASK_TASKCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TASK_TASKCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

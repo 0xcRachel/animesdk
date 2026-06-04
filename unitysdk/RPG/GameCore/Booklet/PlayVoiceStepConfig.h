@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BOOKLET_PLAYVOICESTEPCONFIG_METHOD_3_6F5F08CEA0B05D1B_OFFSET UNITYSDK_OFFSET(0x187C04E0)
-#define RPG_GAMECORE_BOOKLET_PLAYVOICESTEPCONFIG_METHOD_3_9D080F12030B1451_OFFSET UNITYSDK_OFFSET(0x187C0480)
-#define RPG_GAMECORE_BOOKLET_PLAYVOICESTEPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x187C04D0)
+#define RPG_GAMECORE_BOOKLET_PLAYVOICESTEPCONFIG_METHOD_3_346CAAA4BB71CA1E_OFFSET UNITYSDK_OFFSET(0x195E1BC0)
+#define RPG_GAMECORE_BOOKLET_PLAYVOICESTEPCONFIG_METHOD_3_943960C470B6D444_OFFSET UNITYSDK_OFFSET(0x195E1B60)
+#define RPG_GAMECORE_BOOKLET_PLAYVOICESTEPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x195E1BB0)
 
 namespace RPG::GameCore::Booklet
 {
-	inline static constexpr unsigned int PlayVoiceStepConfig_TypeDefinitionIndex = 23789;
+	inline static constexpr unsigned int PlayVoiceStepConfig_TypeDefinitionIndex = 23622;
 
 	class PlayVoiceStepConfig : public ::RPG::GameCore::Booklet::StepConfig
 	{
@@ -22,14 +22,14 @@ namespace RPG::GameCore::Booklet
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_PLAYVOICESTEPCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9D080F12030B1451(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Booklet::PlayVoiceStepConfig*& a2)
+		static ::System::Void Method_3_943960C470B6D444(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Booklet::PlayVoiceStepConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Booklet::PlayVoiceStepConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_PLAYVOICESTEPCONFIG_METHOD_3_9D080F12030B1451_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Booklet::PlayVoiceStepConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_PLAYVOICESTEPCONFIG_METHOD_3_943960C470B6D444_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6F5F08CEA0B05D1B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Booklet::PlayVoiceStepConfig* a2)
+		static ::System::Void Method_3_346CAAA4BB71CA1E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Booklet::PlayVoiceStepConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Booklet::PlayVoiceStepConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_PLAYVOICESTEPCONFIG_METHOD_3_6F5F08CEA0B05D1B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Booklet::PlayVoiceStepConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_PLAYVOICESTEPCONFIG_METHOD_3_346CAAA4BB71CA1E_OFFSET))(a1, a2);
 		}
 	};
 }

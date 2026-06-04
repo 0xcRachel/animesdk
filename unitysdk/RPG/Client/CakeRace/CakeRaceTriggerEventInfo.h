@@ -7,15 +7,15 @@ namespace RPG::Client::CakeRace { class CakeRaceTriggerEventDataItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CAKERACE_CAKERACETRIGGEREVENTINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x15FEDEA0)
-#define RPG_CLIENT_CAKERACE_CAKERACETRIGGEREVENTINFO_GETTRIGGEREVENTDATAITEMS_OFFSET UNITYSDK_OFFSET(0x15FEE3A0)
-#define RPG_CLIENT_CAKERACE_CAKERACETRIGGEREVENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15FEDF90)
-#define RPG_CLIENT_CAKERACE_CAKERACETRIGGEREVENTINFO__INITTRIGGEREVENTDATAITEMS_OFFSET UNITYSDK_OFFSET(0x15FEE060)
-#define RPG_CLIENT_CAKERACE_CAKERACETRIGGEREVENTINFO__INIT_OFFSET UNITYSDK_OFFSET(0x15FEE010)
+#define RPG_CLIENT_CAKERACE_CAKERACETRIGGEREVENTINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x185ED2F0)
+#define RPG_CLIENT_CAKERACE_CAKERACETRIGGEREVENTINFO_GETTRIGGEREVENTDATAITEMS_OFFSET UNITYSDK_OFFSET(0x185ED860)
+#define RPG_CLIENT_CAKERACE_CAKERACETRIGGEREVENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x185ED3E0)
+#define RPG_CLIENT_CAKERACE_CAKERACETRIGGEREVENTINFO__INITTRIGGEREVENTDATAITEMS_OFFSET UNITYSDK_OFFSET(0x185ED4B0)
+#define RPG_CLIENT_CAKERACE_CAKERACETRIGGEREVENTINFO__INIT_OFFSET UNITYSDK_OFFSET(0x185ED460)
 
 namespace RPG::Client::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceTriggerEventInfo_TypeDefinitionIndex = 70238;
+	inline static constexpr unsigned int CakeRaceTriggerEventInfo_TypeDefinitionIndex = 71050;
 
 	class CakeRaceTriggerEventInfo : public ::System::Object
 	{
@@ -42,9 +42,9 @@ namespace RPG::Client::CakeRace
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACETRIGGEREVENTINFO__INITTRIGGEREVENTDATAITEMS_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::CakeRace::CakeRaceTriggerEventDataItem*>* GetTriggerEventDataItems(::RPG::GameCore::CakeRaceTriggerEventType triggerEventType)
+		::System::Collections::Generic::List_1<::RPG::Client::CakeRace::CakeRaceTriggerEventDataItem*>* GetTriggerEventDataItems(::RPG::GameCore::CakeRaceTriggerEventType a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::CakeRace::CakeRaceTriggerEventDataItem*>*(*)(::PVOID, ::RPG::GameCore::CakeRaceTriggerEventType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACETRIGGEREVENTINFO_GETTRIGGEREVENTDATAITEMS_OFFSET))(this, triggerEventType);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::CakeRace::CakeRaceTriggerEventDataItem*>*(*)(::PVOID, ::RPG::GameCore::CakeRaceTriggerEventType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACETRIGGEREVENTINFO_GETTRIGGEREVENTDATAITEMS_OFFSET))(this, a1);
 		}
 	};
 }

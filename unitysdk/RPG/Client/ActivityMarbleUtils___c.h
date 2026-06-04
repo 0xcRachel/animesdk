@@ -7,44 +7,44 @@ namespace RPG::GameCore { class MarblePVPRankConfigRow; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17023F20)
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__CREATEMARBLETEACHMATCH_B__5_0_OFFSET UNITYSDK_OFFSET(0x17023F70)
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17023F60)
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETALLRANKCONFIG_B__18_0_OFFSET UNITYSDK_OFFSET(0x17024050)
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETPVPMARBLESEALIDS_B__13_0_OFFSET UNITYSDK_OFFSET(0x17024040)
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETPVPMARBLESEALIDS_B__13_1_OFFSET UNITYSDK_OFFSET(0x17024030)
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETPVPMARBLESEALIDS_B__13_2_OFFSET UNITYSDK_OFFSET(0x17023FD0)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17BBE500)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__CREATEMARBLETEACHMATCH_B__5_0_OFFSET UNITYSDK_OFFSET(0x17BBE550)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17BBE540)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETALLRANKCONFIG_B__18_0_OFFSET UNITYSDK_OFFSET(0x17BBE630)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETPVPMARBLESEALIDS_B__13_0_OFFSET UNITYSDK_OFFSET(0x17BBE620)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETPVPMARBLESEALIDS_B__13_1_OFFSET UNITYSDK_OFFSET(0x17BBE610)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETPVPMARBLESEALIDS_B__13_2_OFFSET UNITYSDK_OFFSET(0x17BBE5B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityMarbleUtils___c_TypeDefinitionIndex = 60576;
+	inline static constexpr unsigned int ActivityMarbleUtils___c_TypeDefinitionIndex = 61510;
 
 	class ActivityMarbleUtils___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::UInt32, ::System::UInt32>** StaticGet___9__13_0()
+		static ::System::Func_2<::System::UInt32, ::System::UInt32>** StaticGet___9__13_1()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityMarbleUtils___c_TypeDefinitionIndex)->GetStaticField(0x4E560);
-		}
-		static ::System::Comparison_1<::RPG::GameCore::MarblePVPRankConfigRow*>** StaticGet___9__18_0()
-		{
-			return (::System::Comparison_1<::RPG::GameCore::MarblePVPRankConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityMarbleUtils___c_TypeDefinitionIndex)->GetStaticField(0x4E568);
+			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityMarbleUtils___c_TypeDefinitionIndex)->GetStaticField(0x52DC0);
 		}
 		static ::RPG::Client::ActivityMarbleUtils___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityMarbleUtils___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityMarbleUtils___c_TypeDefinitionIndex)->GetStaticField(0x4E570);
+			return (::RPG::Client::ActivityMarbleUtils___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityMarbleUtils___c_TypeDefinitionIndex)->GetStaticField(0x52DC8);
+		}
+		static ::System::Func_2<::System::UInt32, ::System::UInt32>** StaticGet___9__13_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityMarbleUtils___c_TypeDefinitionIndex)->GetStaticField(0x52DD0);
 		}
 		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__13_2()
 		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityMarbleUtils___c_TypeDefinitionIndex)->GetStaticField(0x4E578);
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityMarbleUtils___c_TypeDefinitionIndex)->GetStaticField(0x52DD8);
+		}
+		static ::System::Comparison_1<::RPG::GameCore::MarblePVPRankConfigRow*>** StaticGet___9__18_0()
+		{
+			return (::System::Comparison_1<::RPG::GameCore::MarblePVPRankConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityMarbleUtils___c_TypeDefinitionIndex)->GetStaticField(0x52DE0);
 		}
 		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityMarbleUtils___c_TypeDefinitionIndex)->GetStaticField(0x4E580);
-		}
-		static ::System::Func_2<::System::UInt32, ::System::UInt32>** StaticGet___9__13_1()
-		{
-			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityMarbleUtils___c_TypeDefinitionIndex)->GetStaticField(0x4E588);
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityMarbleUtils___c_TypeDefinitionIndex)->GetStaticField(0x52DE8);
 		}
 
 		static ::System::Void _cctor()
@@ -57,29 +57,29 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLEUTILS___C__CTOR_OFFSET))(this);
 		}
 
-		::System::UInt32 _CreateMarbleTeachMatch_b__5_0(::RPG::GameCore::DynamicValue* x)
+		::System::UInt32 _CreateMarbleTeachMatch_b__5_0(::RPG::GameCore::DynamicValue* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::DynamicValue*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLEUTILS___C__CREATEMARBLETEACHMATCH_B__5_0_OFFSET))(this, x);
+			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::DynamicValue*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLEUTILS___C__CREATEMARBLETEACHMATCH_B__5_0_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 _GetPVPMarbleSealIDs_b__13_2(::RPG::GameCore::DynamicValue* e)
+		::System::UInt32 _GetPVPMarbleSealIDs_b__13_2(::RPG::GameCore::DynamicValue* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::DynamicValue*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETPVPMARBLESEALIDS_B__13_2_OFFSET))(this, e);
+			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::DynamicValue*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETPVPMARBLESEALIDS_B__13_2_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 _GetPVPMarbleSealIDs_b__13_1(::System::UInt32 x)
+		::System::UInt32 _GetPVPMarbleSealIDs_b__13_1(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETPVPMARBLESEALIDS_B__13_1_OFFSET))(this, x);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETPVPMARBLESEALIDS_B__13_1_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 _GetPVPMarbleSealIDs_b__13_0(::System::UInt32 x)
+		::System::UInt32 _GetPVPMarbleSealIDs_b__13_0(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETPVPMARBLESEALIDS_B__13_0_OFFSET))(this, x);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETPVPMARBLESEALIDS_B__13_0_OFFSET))(this, a1);
 		}
 
-		::System::Int32 _GetAllRankConfig_b__18_0(::RPG::GameCore::MarblePVPRankConfigRow* a, ::RPG::GameCore::MarblePVPRankConfigRow* b)
+		::System::Int32 _GetAllRankConfig_b__18_0(::RPG::GameCore::MarblePVPRankConfigRow* a1, ::RPG::GameCore::MarblePVPRankConfigRow* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::MarblePVPRankConfigRow*, ::RPG::GameCore::MarblePVPRankConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETALLRANKCONFIG_B__18_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::MarblePVPRankConfigRow*, ::RPG::GameCore::MarblePVPRankConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETALLRANKCONFIG_B__18_0_OFFSET))(this, a1, a2);
 		}
 	};
 }

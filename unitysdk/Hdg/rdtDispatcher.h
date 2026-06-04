@@ -5,14 +5,14 @@
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define HDG_RDTDISPATCHER_CLEAR_OFFSET UNITYSDK_OFFSET(0x12C11030)
-#define HDG_RDTDISPATCHER_ENQUEUE_OFFSET UNITYSDK_OFFSET(0x12C0CEE0)
-#define HDG_RDTDISPATCHER_UPDATE_OFFSET UNITYSDK_OFFSET(0x12C11E30)
-#define HDG_RDTDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x12C12370)
+#define HDG_RDTDISPATCHER_CLEAR_OFFSET UNITYSDK_OFFSET(0x144AB8B0)
+#define HDG_RDTDISPATCHER_ENQUEUE_OFFSET UNITYSDK_OFFSET(0x144B5C00)
+#define HDG_RDTDISPATCHER_UPDATE_OFFSET UNITYSDK_OFFSET(0x144AC710)
+#define HDG_RDTDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x144ACCB0)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtDispatcher_TypeDefinitionIndex = 43763;
+	inline static constexpr unsigned int rdtDispatcher_TypeDefinitionIndex = 44305;
 
 	class rdtDispatcher : public ::System::Object
 	{
@@ -29,9 +29,9 @@ namespace Hdg
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTDISPATCHER_CLEAR_OFFSET))(this);
 		}
 
-		::System::Void Enqueue(::System::Action* action)
+		::System::Void Enqueue(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + HDG_RDTDISPATCHER_ENQUEUE_OFFSET))(this, action);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + HDG_RDTDISPATCHER_ENQUEUE_OFFSET))(this, a1);
 		}
 
 		::System::Void Update()

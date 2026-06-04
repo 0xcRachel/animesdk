@@ -4,22 +4,22 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_OBJECT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x19041420)
-#define SYSTEM_OBJECT_EQUALS_OFFSET UNITYSDK_OFFSET(0x19041410)
-#define SYSTEM_OBJECT_FIELDGETTER_OFFSET UNITYSDK_OFFSET(0x190414F0)
-#define SYSTEM_OBJECT_FIELDSETTER_OFFSET UNITYSDK_OFFSET(0x19041500)
-#define SYSTEM_OBJECT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x19041460)
-#define SYSTEM_OBJECT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19041470)
-#define SYSTEM_OBJECT_GETTYPE_OFFSET UNITYSDK_OFFSET(0x19041490)
-#define SYSTEM_OBJECT_INTERNALGETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19041480)
-#define SYSTEM_OBJECT_MEMBERWISECLONE_OFFSET UNITYSDK_OFFSET(0x19041270)
-#define SYSTEM_OBJECT_REFERENCEEQUALS_OFFSET UNITYSDK_OFFSET(0x190414E0)
-#define SYSTEM_OBJECT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x190414A0)
-#define SYSTEM_OBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1903AFD0)
+#define SYSTEM_OBJECT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x197A5120)
+#define SYSTEM_OBJECT_EQUALS_OFFSET UNITYSDK_OFFSET(0x197A5110)
+#define SYSTEM_OBJECT_FIELDGETTER_OFFSET UNITYSDK_OFFSET(0x197A51F0)
+#define SYSTEM_OBJECT_FIELDSETTER_OFFSET UNITYSDK_OFFSET(0x197A5200)
+#define SYSTEM_OBJECT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x197A5160)
+#define SYSTEM_OBJECT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x197A5170)
+#define SYSTEM_OBJECT_GETTYPE_OFFSET UNITYSDK_OFFSET(0x197A5190)
+#define SYSTEM_OBJECT_INTERNALGETHASHCODE_OFFSET UNITYSDK_OFFSET(0x197A5180)
+#define SYSTEM_OBJECT_MEMBERWISECLONE_OFFSET UNITYSDK_OFFSET(0x197A4F70)
+#define SYSTEM_OBJECT_REFERENCEEQUALS_OFFSET UNITYSDK_OFFSET(0x197A51E0)
+#define SYSTEM_OBJECT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x197A51A0)
+#define SYSTEM_OBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1979E780)
 
 namespace System
 {
-	inline static constexpr unsigned int Object_TypeDefinitionIndex = 414;
+	inline static constexpr unsigned int Object_TypeDefinitionIndex = 413;
 
 	class Object : public Il2CppObject
 	{
@@ -29,14 +29,14 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_OBJECT__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_OBJECT_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_OBJECT_EQUALS_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean Equals_1(::System::Object* objA, ::System::Object* objB)
+		static ::System::Boolean Equals_1(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Boolean(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_OBJECT_EQUALS_1_OFFSET))(objA, objB);
+			return ((::System::Boolean(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_OBJECT_EQUALS_1_OFFSET))(a1, a2);
 		}
 
 		::System::Void Finalize()
@@ -64,24 +64,24 @@ namespace System
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_OBJECT_TOSTRING_OFFSET))(this);
 		}
 
-		static ::System::Boolean ReferenceEquals(::System::Object* objA, ::System::Object* objB)
+		static ::System::Boolean ReferenceEquals(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Boolean(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_OBJECT_REFERENCEEQUALS_OFFSET))(objA, objB);
+			return ((::System::Boolean(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_OBJECT_REFERENCEEQUALS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 InternalGetHashCode(::System::Object* o)
+		static ::System::Int32 InternalGetHashCode(::System::Object* a1)
 		{
-			return ((::System::Int32(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_OBJECT_INTERNALGETHASHCODE_OFFSET))(o);
+			return ((::System::Int32(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_OBJECT_INTERNALGETHASHCODE_OFFSET))(a1);
 		}
 
-		::System::Void FieldGetter(::System::String* typeName, ::System::String* fieldName, ::System::Object*& val)
+		::System::Void FieldGetter(::System::String* a1, ::System::String* a2, ::System::Object*& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_OBJECT_FIELDGETTER_OFFSET))(this, typeName, fieldName, val);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_OBJECT_FIELDGETTER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void FieldSetter(::System::String* typeName, ::System::String* fieldName, ::System::Object* val)
+		::System::Void FieldSetter(::System::String* a1, ::System::String* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_OBJECT_FIELDSETTER_OFFSET))(this, typeName, fieldName, val);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_OBJECT_FIELDSETTER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

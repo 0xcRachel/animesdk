@@ -5,18 +5,18 @@
 namespace System { class Type; }
 namespace System::Reflection { class TypeInfo; }
 
-#define SYSTEM_REFLECTION_INTROSPECTIONEXTENSIONS_GETTYPEINFO_OFFSET UNITYSDK_OFFSET(0x19053CA0)
+#define SYSTEM_REFLECTION_INTROSPECTIONEXTENSIONS_GETTYPEINFO_OFFSET UNITYSDK_OFFSET(0x197B85B0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int IntrospectionExtensions_TypeDefinitionIndex = 563;
+	inline static constexpr unsigned int IntrospectionExtensions_TypeDefinitionIndex = 562;
 
 	class IntrospectionExtensions : public ::System::Object
 	{
 	public:
-		static ::System::Reflection::TypeInfo* GetTypeInfo(::System::Type* type)
+		static ::System::Reflection::TypeInfo* GetTypeInfo(::System::Type* a1)
 		{
-			return ((::System::Reflection::TypeInfo*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_INTROSPECTIONEXTENSIONS_GETTYPEINFO_OFFSET))(type);
+			return ((::System::Reflection::TypeInfo*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_INTROSPECTIONEXTENSIONS_GETTYPEINFO_OFFSET))(a1);
 		}
 	};
 }

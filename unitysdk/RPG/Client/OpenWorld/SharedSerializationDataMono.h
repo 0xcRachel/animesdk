@@ -1,30 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_CC45B4503679E14E_11.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-namespace RPG::GameCore { class StageSceneItemSharedSerializationData; }
-
-#define RPG_CLIENT_OPENWORLD_SHAREDSERIALIZATIONDATAMONO_APPLY_OFFSET UNITYSDK_OFFSET(0x162A7380)
-#define RPG_CLIENT_OPENWORLD_SHAREDSERIALIZATIONDATAMONO_REVERT_OFFSET UNITYSDK_OFFSET(0x1629FC20)
-#define RPG_CLIENT_OPENWORLD_SHAREDSERIALIZATIONDATAMONO__CTOR_OFFSET UNITYSDK_OFFSET(0x162A7420)
+#define RPG_CLIENT_OPENWORLD_SHAREDSERIALIZATIONDATAMONO_APPLY_OFFSET UNITYSDK_OFFSET(0x16FDE410)
+#define RPG_CLIENT_OPENWORLD_SHAREDSERIALIZATIONDATAMONO_REVERT_OFFSET UNITYSDK_OFFSET(0x16FD5B20)
+#define RPG_CLIENT_OPENWORLD_SHAREDSERIALIZATIONDATAMONO__CTOR_OFFSET UNITYSDK_OFFSET(0x16FDE5C0)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int SharedSerializationDataMono_TypeDefinitionIndex = 67972;
+	inline static constexpr unsigned int SharedSerializationDataMono_TypeDefinitionIndex = 68930;
 
 	class SharedSerializationDataMono : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::RPG::GameCore::StageSceneItemSharedSerializationData* Field_5_0; // 0x18
+		::Struct_2_CC45B4503679E14E_11 Field_5_0; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_SHAREDSERIALIZATIONDATAMONO__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Apply(::RPG::GameCore::StageSceneItemSharedSerializationData* a1)
+		::System::Void Apply(::Struct_2_CC45B4503679E14E_11 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StageSceneItemSharedSerializationData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_SHAREDSERIALIZATIONDATAMONO_APPLY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Struct_2_CC45B4503679E14E_11))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_SHAREDSERIALIZATIONDATAMONO_APPLY_OFFSET))(this, a1);
 		}
 
 		::System::Void Revert()

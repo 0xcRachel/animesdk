@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARLOST_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19209E10)
-#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARLOST_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19209DC0)
-#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARLOST_INIT_OFFSET UNITYSDK_OFFSET(0x19209D70)
-#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARLOST__CTOR_OFFSET UNITYSDK_OFFSET(0x19209E60)
+#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARLOST_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19B761D0)
+#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARLOST_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19B76180)
+#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARLOST_INIT_OFFSET UNITYSDK_OFFSET(0x19B76130)
+#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARLOST__CTOR_OFFSET UNITYSDK_OFFSET(0x19B76220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelSelectEvolveBuildGearLost_TypeDefinitionIndex = 52370;
+	inline static constexpr unsigned int LevelSelectEvolveBuildGearLost_TypeDefinitionIndex = 53067;
 
-	class LevelSelectEvolveBuildGearLost : public ::Class_1_9988289E7F8AA214
+	class LevelSelectEvolveBuildGearLost : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::System::UInt32 SelectIndex; // 0x18
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARLOST__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelSelectEvolveBuildGearLost* Init(::System::UInt32 nIndex)
+		::RPG::GameCore::LevelSelectEvolveBuildGearLost* Init(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::LevelSelectEvolveBuildGearLost*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARLOST_INIT_OFFSET))(this, nIndex);
+			return ((::RPG::GameCore::LevelSelectEvolveBuildGearLost*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARLOST_INIT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

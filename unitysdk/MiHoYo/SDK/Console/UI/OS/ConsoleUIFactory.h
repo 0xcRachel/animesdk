@@ -13,20 +13,20 @@ namespace MiHoYo::SDK::UI::OS { class IAgeGateParentalPermissionDialog; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateVerificationDialog; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEAGEAPPEALOPTIONDIALOG_OFFSET UNITYSDK_OFFSET(0x1720CDA0)
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEERRORDIALOG_OFFSET UNITYSDK_OFFSET(0x1720CB80)
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEGENERALERRORDIALOG_OFFSET UNITYSDK_OFFSET(0x1720CBD0)
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEPARENTALCONSENTDIALOG_OFFSET UNITYSDK_OFFSET(0x1720CC40)
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEPARENTALCONSENTPROCESSDIALOG_OFFSET UNITYSDK_OFFSET(0x1720CCD0)
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEPARENTALCONSENTREQUIREDDIALOG_OFFSET UNITYSDK_OFFSET(0x1720CD50)
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEPARENTALCONSENTSENTDIALOG_OFFSET UNITYSDK_OFFSET(0x1720CC80)
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEVERIFICATIONDIALOG_OFFSET UNITYSDK_OFFSET(0x1720CD10)
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_TOAST_OFFSET UNITYSDK_OFFSET(0x1720CDE0)
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1720CE40)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEAGEAPPEALOPTIONDIALOG_OFFSET UNITYSDK_OFFSET(0x18EBBC30)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEERRORDIALOG_OFFSET UNITYSDK_OFFSET(0x18EBBB40)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEGENERALERRORDIALOG_OFFSET UNITYSDK_OFFSET(0x18EBBB60)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEPARENTALCONSENTDIALOG_OFFSET UNITYSDK_OFFSET(0x18EBBB90)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEPARENTALCONSENTPROCESSDIALOG_OFFSET UNITYSDK_OFFSET(0x18EBBBD0)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEPARENTALCONSENTREQUIREDDIALOG_OFFSET UNITYSDK_OFFSET(0x18EBBC10)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEPARENTALCONSENTSENTDIALOG_OFFSET UNITYSDK_OFFSET(0x18EBBBB0)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEVERIFICATIONDIALOG_OFFSET UNITYSDK_OFFSET(0x18EBBBF0)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_TOAST_OFFSET UNITYSDK_OFFSET(0x18EBBC50)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x18EBBCB0)
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
-	inline static constexpr unsigned int ConsoleUIFactory_TypeDefinitionIndex = 7808;
+	inline static constexpr unsigned int ConsoleUIFactory_TypeDefinitionIndex = 8711;
 
 	class ConsoleUIFactory : public ::System::Object
 	{
@@ -36,29 +36,29 @@ namespace MiHoYo::SDK::Console::UI::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY__CTOR_OFFSET))(this);
 		}
 
-		static ::MiHoYo::SDK::UI::OS::IAgeGateErrorDialog* CreateAgeGateErrorDialog(::System::String* title, ::System::String* desc, ::System::String* sub_message)
+		static ::MiHoYo::SDK::UI::OS::IAgeGateErrorDialog* CreateAgeGateErrorDialog(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::MiHoYo::SDK::UI::OS::IAgeGateErrorDialog*(*)(::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEERRORDIALOG_OFFSET))(title, desc, sub_message);
+			return ((::MiHoYo::SDK::UI::OS::IAgeGateErrorDialog*(*)(::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEERRORDIALOG_OFFSET))(a1, a2, a3);
 		}
 
-		static ::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog* CreateAgeGateGeneralErrorDialog(::System::String* title, ::System::String* desc, ::System::String* sub_message, ::System::String* closeText, ::System::String* confirmText)
+		static ::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog* CreateAgeGateGeneralErrorDialog(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5)
 		{
-			return ((::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*(*)(::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEGENERALERRORDIALOG_OFFSET))(title, desc, sub_message, closeText, confirmText);
+			return ((::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*(*)(::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEGENERALERRORDIALOG_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog* CreateAgeGateParentalConsentDialog(::MiHoYo::SDK::AgeGateFlowType type)
+		static ::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog* CreateAgeGateParentalConsentDialog(::MiHoYo::SDK::AgeGateFlowType a1)
 		{
-			return ((::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*(*)(::MiHoYo::SDK::AgeGateFlowType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEPARENTALCONSENTDIALOG_OFFSET))(type);
+			return ((::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog*(*)(::MiHoYo::SDK::AgeGateFlowType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEPARENTALCONSENTDIALOG_OFFSET))(a1);
 		}
 
-		static ::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentSentDialog* CreateAgeGateParentalConsentSentDialog(::System::String* email, ::System::String* date, ::MiHoYo::SDK::AgeGateFlowType type)
+		static ::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentSentDialog* CreateAgeGateParentalConsentSentDialog(::System::String* a1, ::System::String* a2, ::MiHoYo::SDK::AgeGateFlowType a3)
 		{
-			return ((::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentSentDialog*(*)(::System::String*, ::System::String*, ::MiHoYo::SDK::AgeGateFlowType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEPARENTALCONSENTSENTDIALOG_OFFSET))(email, date, type);
+			return ((::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentSentDialog*(*)(::System::String*, ::System::String*, ::MiHoYo::SDK::AgeGateFlowType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEPARENTALCONSENTSENTDIALOG_OFFSET))(a1, a2, a3);
 		}
 
-		static ::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentProcessDialog* CreateAgeGateParentalConsentProcessDialog(::MiHoYo::SDK::AgeGateFlowType type)
+		static ::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentProcessDialog* CreateAgeGateParentalConsentProcessDialog(::MiHoYo::SDK::AgeGateFlowType a1)
 		{
-			return ((::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentProcessDialog*(*)(::MiHoYo::SDK::AgeGateFlowType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEPARENTALCONSENTPROCESSDIALOG_OFFSET))(type);
+			return ((::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentProcessDialog*(*)(::MiHoYo::SDK::AgeGateFlowType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEPARENTALCONSENTPROCESSDIALOG_OFFSET))(a1);
 		}
 
 		static ::MiHoYo::SDK::UI::OS::IAgeGateVerificationDialog* CreateAgeGateVerificationDialog()
@@ -66,19 +66,19 @@ namespace MiHoYo::SDK::Console::UI::OS
 			return ((::MiHoYo::SDK::UI::OS::IAgeGateVerificationDialog*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEVERIFICATIONDIALOG_OFFSET))();
 		}
 
-		static ::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog* CreateAgeGateParentalConsentRequiredDialog(::System::String* email, ::MiHoYo::SDK::AgeGateFlowType type)
+		static ::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog* CreateAgeGateParentalConsentRequiredDialog(::System::String* a1, ::MiHoYo::SDK::AgeGateFlowType a2)
 		{
-			return ((::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*(*)(::System::String*, ::MiHoYo::SDK::AgeGateFlowType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEPARENTALCONSENTREQUIREDDIALOG_OFFSET))(email, type);
+			return ((::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*(*)(::System::String*, ::MiHoYo::SDK::AgeGateFlowType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEPARENTALCONSENTREQUIREDDIALOG_OFFSET))(a1, a2);
 		}
 
-		static ::MiHoYo::SDK::UI::OS::IAgeGateAgeAppealOptionDialog* CreateAgeGateAgeAppealOptionDialog(::System::Int32 days)
+		static ::MiHoYo::SDK::UI::OS::IAgeGateAgeAppealOptionDialog* CreateAgeGateAgeAppealOptionDialog(::System::Int32 a1)
 		{
-			return ((::MiHoYo::SDK::UI::OS::IAgeGateAgeAppealOptionDialog*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEAGEAPPEALOPTIONDIALOG_OFFSET))(days);
+			return ((::MiHoYo::SDK::UI::OS::IAgeGateAgeAppealOptionDialog*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_CREATEAGEGATEAGEAPPEALOPTIONDIALOG_OFFSET))(a1);
 		}
 
-		static ::System::Void Toast(::System::String* message)
+		static ::System::Void Toast(::System::String* a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_TOAST_OFFSET))(message);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEUIFACTORY_TOAST_OFFSET))(a1);
 		}
 	};
 }

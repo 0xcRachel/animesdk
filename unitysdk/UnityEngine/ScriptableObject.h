@@ -4,14 +4,14 @@
 
 namespace System { class Type; }
 
-#define UNITYENGINE_SCRIPTABLEOBJECT_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x18F23080)
-#define UNITYENGINE_SCRIPTABLEOBJECT_CREATESCRIPTABLEOBJECTINSTANCEFROMTYPE_OFFSET UNITYSDK_OFFSET(0x18F23090)
-#define UNITYENGINE_SCRIPTABLEOBJECT_CREATESCRIPTABLEOBJECT_OFFSET UNITYSDK_OFFSET(0x18F23070)
-#define UNITYENGINE_SCRIPTABLEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18F1CBE0)
+#define UNITYENGINE_SCRIPTABLEOBJECT_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x198DD970)
+#define UNITYENGINE_SCRIPTABLEOBJECT_CREATESCRIPTABLEOBJECTINSTANCEFROMTYPE_OFFSET UNITYSDK_OFFSET(0x198DD980)
+#define UNITYENGINE_SCRIPTABLEOBJECT_CREATESCRIPTABLEOBJECT_OFFSET UNITYSDK_OFFSET(0x198DD960)
+#define UNITYENGINE_SCRIPTABLEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x198D6CC0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ScriptableObject_TypeDefinitionIndex = 4147;
+	inline static constexpr unsigned int ScriptableObject_TypeDefinitionIndex = 4321;
 
 	class ScriptableObject : public ::UnityEngine::Object
 	{
@@ -21,19 +21,19 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTABLEOBJECT__CTOR_OFFSET))(this);
 		}
 
-		static ::UnityEngine::ScriptableObject* CreateInstance(::System::Type* type)
+		static ::UnityEngine::ScriptableObject* CreateInstance(::System::Type* a1)
 		{
-			return ((::UnityEngine::ScriptableObject*(*)(::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTABLEOBJECT_CREATEINSTANCE_OFFSET))(type);
+			return ((::UnityEngine::ScriptableObject*(*)(::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTABLEOBJECT_CREATEINSTANCE_OFFSET))(a1);
 		}
 
-		static ::System::Void CreateScriptableObject(::UnityEngine::ScriptableObject* self)
+		static ::System::Void CreateScriptableObject(::UnityEngine::ScriptableObject* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::ScriptableObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTABLEOBJECT_CREATESCRIPTABLEOBJECT_OFFSET))(self);
+			return ((::System::Void(*)(::UnityEngine::ScriptableObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTABLEOBJECT_CREATESCRIPTABLEOBJECT_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::ScriptableObject* CreateScriptableObjectInstanceFromType(::System::Type* type, ::System::Boolean applyDefaultsAndReset)
+		static ::UnityEngine::ScriptableObject* CreateScriptableObjectInstanceFromType(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::UnityEngine::ScriptableObject*(*)(::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTABLEOBJECT_CREATESCRIPTABLEOBJECTINSTANCEFROMTYPE_OFFSET))(type, applyDefaultsAndReset);
+			return ((::UnityEngine::ScriptableObject*(*)(::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTABLEOBJECT_CREATESCRIPTABLEOBJECTINSTANCEFROMTYPE_OFFSET))(a1, a2);
 		}
 	};
 }

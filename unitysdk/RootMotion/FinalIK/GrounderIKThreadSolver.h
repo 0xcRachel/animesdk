@@ -7,13 +7,13 @@
 
 namespace RootMotion::FinalIK { class GroundingThread; }
 
-#define ROOTMOTION_FINALIK_GROUNDERIKTHREADSOLVER_SOLVE_OFFSET UNITYSDK_OFFSET(0x226E8E0)
-#define ROOTMOTION_FINALIK_GROUNDERIKTHREADSOLVER__POSTSOLVE_OFFSET UNITYSDK_OFFSET(0x226E910)
-#define ROOTMOTION_FINALIK_GROUNDERIKTHREADSOLVER__PRESOLVE_OFFSET UNITYSDK_OFFSET(0x226E900)
+#define ROOTMOTION_FINALIK_GROUNDERIKTHREADSOLVER_SOLVE_OFFSET UNITYSDK_OFFSET(0x3830AB0)
+#define ROOTMOTION_FINALIK_GROUNDERIKTHREADSOLVER__POSTSOLVE_OFFSET UNITYSDK_OFFSET(0x3830B40)
+#define ROOTMOTION_FINALIK_GROUNDERIKTHREADSOLVER__PRESOLVE_OFFSET UNITYSDK_OFFSET(0x3830B30)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int GrounderIKThreadSolver_TypeDefinitionIndex = 41018;
+	inline static constexpr unsigned int GrounderIKThreadSolver_TypeDefinitionIndex = 41821;
 
 	struct alignas(8) GrounderIKThreadSolver
 	{
@@ -23,14 +23,14 @@ namespace RootMotion::FinalIK
 		::UnityEngine::Vector3 AnimatedPelvisLocalPosition; // 0x30
 		::UnityEngine::Vector3 SolvedPelvisLocalPosition; // 0x3C
 
-		::System::Boolean Solve(::System::Single deltaTime)
+		::System::Boolean Solve(::System::Single a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDERIKTHREADSOLVER_SOLVE_OFFSET))(this, deltaTime);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDERIKTHREADSOLVER_SOLVE_OFFSET))(this, a1);
 		}
 
-		::System::Void _PreSolve(::System::Single deltaTime)
+		::System::Void _PreSolve(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDERIKTHREADSOLVER__PRESOLVE_OFFSET))(this, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDERIKTHREADSOLVER__PRESOLVE_OFFSET))(this, a1);
 		}
 
 		::System::Void _PostSolve()

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int ItemType_TypeDefinitionIndex = 68247;
+	inline static constexpr unsigned int ItemType_TypeDefinitionIndex = 69221;
 
 	enum class ItemType : ::System::Int32
 	{

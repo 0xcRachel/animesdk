@@ -4,26 +4,26 @@
 #include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_B1E2EEF1A82C7A76_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x1646A9E0)
-#define CLASS_1_B1E2EEF1A82C7A76_METHOD_1_3B5ED44E3BCB0FFF_OFFSET UNITYSDK_OFFSET(0x1646A9D0)
-#define CLASS_1_B1E2EEF1A82C7A76_METHOD_1_7EADEF08F0D4BEB0_OFFSET UNITYSDK_OFFSET(0x1646A9C0)
-#define CLASS_1_B1E2EEF1A82C7A76_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1646AA40)
-#define CLASS_1_B1E2EEF1A82C7A76__CTOR_OFFSET UNITYSDK_OFFSET(0x1646AA90)
+#define CLASS_1_B1E2EEF1A82C7A76_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x192020B0)
+#define CLASS_1_B1E2EEF1A82C7A76_METHOD_1_3B5ED44E3BCB0FFF_OFFSET UNITYSDK_OFFSET(0x192020A0)
+#define CLASS_1_B1E2EEF1A82C7A76_METHOD_1_7EADEF08F0D4BEB0_OFFSET UNITYSDK_OFFSET(0x19202090)
+#define CLASS_1_B1E2EEF1A82C7A76_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x19202110)
+#define CLASS_1_B1E2EEF1A82C7A76__CTOR_OFFSET UNITYSDK_OFFSET(0x19202160)
 
-inline static constexpr unsigned int Class_1_B1E2EEF1A82C7A76_TypeDefinitionIndex = 34635;
+inline static constexpr unsigned int Class_1_B1E2EEF1A82C7A76_TypeDefinitionIndex = 34918;
 
 class Class_1_B1E2EEF1A82C7A76 : public ::System::Object
 {
 public:
-	::RPG::GameCore::CakeRaceMoveState Field_1_0; // 0x10
-	::System::Boolean Field_1_8; // 0x14
-	::System::Boolean Field_1_1; // 0x15
-	::RPG::MVector3 Field_1_2; // 0x18
-	::System::Int32 Field_1_5; // 0x24
-	::System::Int32 Field_1_7; // 0x28
-	::RPG::MVector3 Field_1_3; // 0x2C
-	::System::Int32 Field_1_6; // 0x38
-	::System::UInt32 Field_1_4; // 0x3C
+	::System::Int32 Field_1_0; // 0x10
+	::System::Int32 Field_1_1; // 0x14
+	::System::Int32 Field_1_2; // 0x18
+	::RPG::MVector3 Field_1_3; // 0x1C
+	::System::UInt32 Field_1_4; // 0x28
+	::System::Boolean Field_1_5; // 0x2C
+	::System::Boolean Field_1_6; // 0x2D
+	::RPG::MVector3 Field_1_7; // 0x30
+	::RPG::GameCore::CakeRaceMoveState Field_1_8; // 0x3C
 
 	::System::Void _ctor()
 	{

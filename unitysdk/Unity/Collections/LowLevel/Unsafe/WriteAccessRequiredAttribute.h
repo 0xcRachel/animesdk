@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_WRITEACCESSREQUIREDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19CF8C90)
+#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_WRITEACCESSREQUIREDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB3D560)
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int WriteAccessRequiredAttribute_TypeDefinitionIndex = 3812;
+	inline static constexpr unsigned int WriteAccessRequiredAttribute_TypeDefinitionIndex = 3986;
 
 	class WriteAccessRequiredAttribute : public ::System::Attribute
 	{

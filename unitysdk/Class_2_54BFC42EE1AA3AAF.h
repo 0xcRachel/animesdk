@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
@@ -8,21 +8,21 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_54BFC42EE1AA3AAF_CLEAR_OFFSET UNITYSDK_OFFSET(0x10316A40)
-#define CLASS_2_54BFC42EE1AA3AAF_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x10316AE0)
-#define CLASS_2_54BFC42EE1AA3AAF_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x10316A90)
-#define CLASS_2_54BFC42EE1AA3AAF_METHOD_2_AE395979358CE0CE_OFFSET UNITYSDK_OFFSET(0x103169C0)
-#define CLASS_2_54BFC42EE1AA3AAF__CTOR_OFFSET UNITYSDK_OFFSET(0x10316B30)
-#define CLASS_2_54BFC42EE1AA3AAF___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x10316B40)
+#define CLASS_2_54BFC42EE1AA3AAF_CLEAR_OFFSET UNITYSDK_OFFSET(0x15186EA0)
+#define CLASS_2_54BFC42EE1AA3AAF_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x15186F40)
+#define CLASS_2_54BFC42EE1AA3AAF_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x15186EF0)
+#define CLASS_2_54BFC42EE1AA3AAF_METHOD_2_AE395979358CE0CE_OFFSET UNITYSDK_OFFSET(0x15186E20)
+#define CLASS_2_54BFC42EE1AA3AAF__CTOR_OFFSET UNITYSDK_OFFSET(0x15186F90)
+#define CLASS_2_54BFC42EE1AA3AAF___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x15186FA0)
 
-inline static constexpr unsigned int Class_2_54BFC42EE1AA3AAF_TypeDefinitionIndex = 49867;
+inline static constexpr unsigned int Class_2_54BFC42EE1AA3AAF_TypeDefinitionIndex = 50534;
 
-class Class_2_54BFC42EE1AA3AAF : public ::Class_1_9988289E7F8AA214
+class Class_2_54BFC42EE1AA3AAF : public ::Class_1_BF7A075734D15E98
 {
 public:
 	::RPG::GameCore::GameEntity* Field_2_0; // 0x18
-	::System::Collections::Generic::List_1<::System::String*>* Field_2_2; // 0x20
-	::RPG::GameCore::GameEntity* Field_2_1; // 0x28
+	::RPG::GameCore::GameEntity* Field_2_1; // 0x20
+	::System::Collections::Generic::List_1<::System::String*>* Field_2_2; // 0x28
 	::RPG::GameCore::FixPoint Field_2_3; // 0x30
 
 	::System::Void _ctor()

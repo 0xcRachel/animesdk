@@ -6,31 +6,31 @@
 namespace RPG::GameCore { class PerformanceRecallRow; }
 namespace System { class String; }
 
-#define CLASS_1_90269F040CBA17C9_GET_FLOORID_OFFSET UNITYSDK_OFFSET(0xEDB2FD0)
-#define CLASS_1_90269F040CBA17C9_GET_PERFORMANCEPATH_OFFSET UNITYSDK_OFFSET(0xEDB2FF0)
-#define CLASS_1_90269F040CBA17C9_GET_PERFORMANCETYPE_OFFSET UNITYSDK_OFFSET(0xEDB2F90)
-#define CLASS_1_90269F040CBA17C9_GET_PLANEID_OFFSET UNITYSDK_OFFSET(0xEDB2FB0)
-#define CLASS_1_90269F040CBA17C9_GET_ROW_OFFSET UNITYSDK_OFFSET(0xEDB2F20)
-#define CLASS_1_90269F040CBA17C9_METHOD_1_018FF68C61BA285D_OFFSET UNITYSDK_OFFSET(0xEDB2CA0)
-#define CLASS_1_90269F040CBA17C9_METHOD_1_3175CE94BDA1B5BB_OFFSET UNITYSDK_OFFSET(0xEDB2D00)
-#define CLASS_1_90269F040CBA17C9_METHOD_1_AA2D3E889C8A52CA_OFFSET UNITYSDK_OFFSET(0xEDB2F40)
-#define CLASS_1_90269F040CBA17C9_SET_FLOORID_OFFSET UNITYSDK_OFFSET(0xEDB2FE0)
-#define CLASS_1_90269F040CBA17C9_SET_PERFORMANCEPATH_OFFSET UNITYSDK_OFFSET(0xEDB3000)
-#define CLASS_1_90269F040CBA17C9_SET_PERFORMANCETYPE_OFFSET UNITYSDK_OFFSET(0xEDB2FA0)
-#define CLASS_1_90269F040CBA17C9_SET_PLANEID_OFFSET UNITYSDK_OFFSET(0xEDB2FC0)
-#define CLASS_1_90269F040CBA17C9_SET_ROW_OFFSET UNITYSDK_OFFSET(0xEDB2F30)
-#define CLASS_1_90269F040CBA17C9__CTOR_OFFSET UNITYSDK_OFFSET(0xEDB2F10)
+#define CLASS_1_90269F040CBA17C9_GET_FLOORID_OFFSET UNITYSDK_OFFSET(0x13F45F30)
+#define CLASS_1_90269F040CBA17C9_GET_PERFORMANCEPATH_OFFSET UNITYSDK_OFFSET(0x13F45F50)
+#define CLASS_1_90269F040CBA17C9_GET_PERFORMANCETYPE_OFFSET UNITYSDK_OFFSET(0x13F45EF0)
+#define CLASS_1_90269F040CBA17C9_GET_PLANEID_OFFSET UNITYSDK_OFFSET(0x13F45F10)
+#define CLASS_1_90269F040CBA17C9_GET_ROW_OFFSET UNITYSDK_OFFSET(0x13F45E80)
+#define CLASS_1_90269F040CBA17C9_METHOD_1_018FF68C61BA285D_OFFSET UNITYSDK_OFFSET(0x13F45C00)
+#define CLASS_1_90269F040CBA17C9_METHOD_1_3175CE94BDA1B5BB_OFFSET UNITYSDK_OFFSET(0x13F45C60)
+#define CLASS_1_90269F040CBA17C9_METHOD_1_AA2D3E889C8A52CA_OFFSET UNITYSDK_OFFSET(0x13F45EA0)
+#define CLASS_1_90269F040CBA17C9_SET_FLOORID_OFFSET UNITYSDK_OFFSET(0x13F45F40)
+#define CLASS_1_90269F040CBA17C9_SET_PERFORMANCEPATH_OFFSET UNITYSDK_OFFSET(0x13F45F60)
+#define CLASS_1_90269F040CBA17C9_SET_PERFORMANCETYPE_OFFSET UNITYSDK_OFFSET(0x13F45F00)
+#define CLASS_1_90269F040CBA17C9_SET_PLANEID_OFFSET UNITYSDK_OFFSET(0x13F45F20)
+#define CLASS_1_90269F040CBA17C9_SET_ROW_OFFSET UNITYSDK_OFFSET(0x13F45E90)
+#define CLASS_1_90269F040CBA17C9__CTOR_OFFSET UNITYSDK_OFFSET(0x13F45E70)
 
-inline static constexpr unsigned int Class_1_90269F040CBA17C9_TypeDefinitionIndex = 61198;
+inline static constexpr unsigned int Class_1_90269F040CBA17C9_TypeDefinitionIndex = 62122;
 
 class Class_1_90269F040CBA17C9 : public ::System::Object
 {
 public:
 	::RPG::GameCore::PerformanceRecallRow* _Row_k__BackingField; // 0x10
 	::System::String* _PerformancePath_k__BackingField; // 0x18
-	::System::UInt32 _PlaneID_k__BackingField; // 0x20
-	::System::UInt32 _FloorID_k__BackingField; // 0x24
-	::RPG::GameCore::ELevelPerformanceType _PerformanceType_k__BackingField; // 0x28
+	::System::UInt32 _FloorID_k__BackingField; // 0x20
+	::RPG::GameCore::ELevelPerformanceType _PerformanceType_k__BackingField; // 0x24
+	::System::UInt32 _PlaneID_k__BackingField; // 0x28
 
 	::System::Void _ctor()
 	{
@@ -52,9 +52,9 @@ public:
 		return ((::RPG::GameCore::PerformanceRecallRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_90269F040CBA17C9_GET_ROW_OFFSET))(this);
 	}
 
-	::System::Void set_Row(::RPG::GameCore::PerformanceRecallRow* value)
+	::System::Void set_Row(::RPG::GameCore::PerformanceRecallRow* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PerformanceRecallRow*))((::PBYTE)hIl2Cpp + CLASS_1_90269F040CBA17C9_SET_ROW_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PerformanceRecallRow*))((::PBYTE)hIl2Cpp + CLASS_1_90269F040CBA17C9_SET_ROW_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 Method_1_AA2D3E889C8A52CA()
@@ -67,9 +67,9 @@ public:
 		return ((::RPG::GameCore::ELevelPerformanceType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_90269F040CBA17C9_GET_PERFORMANCETYPE_OFFSET))(this);
 	}
 
-	::System::Void set_PerformanceType(::RPG::GameCore::ELevelPerformanceType value)
+	::System::Void set_PerformanceType(::RPG::GameCore::ELevelPerformanceType a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ELevelPerformanceType))((::PBYTE)hIl2Cpp + CLASS_1_90269F040CBA17C9_SET_PERFORMANCETYPE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ELevelPerformanceType))((::PBYTE)hIl2Cpp + CLASS_1_90269F040CBA17C9_SET_PERFORMANCETYPE_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_PlaneID()
@@ -77,9 +77,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_90269F040CBA17C9_GET_PLANEID_OFFSET))(this);
 	}
 
-	::System::Void set_PlaneID(::System::UInt32 value)
+	::System::Void set_PlaneID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_90269F040CBA17C9_SET_PLANEID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_90269F040CBA17C9_SET_PLANEID_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_FloorID()
@@ -87,9 +87,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_90269F040CBA17C9_GET_FLOORID_OFFSET))(this);
 	}
 
-	::System::Void set_FloorID(::System::UInt32 value)
+	::System::Void set_FloorID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_90269F040CBA17C9_SET_FLOORID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_90269F040CBA17C9_SET_FLOORID_OFFSET))(this, a1);
 	}
 
 	::System::String* get_PerformancePath()
@@ -97,8 +97,8 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_90269F040CBA17C9_GET_PERFORMANCEPATH_OFFSET))(this);
 	}
 
-	::System::Void set_PerformancePath(::System::String* value)
+	::System::Void set_PerformancePath(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_90269F040CBA17C9_SET_PERFORMANCEPATH_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_90269F040CBA17C9_SET_PERFORMANCEPATH_OFFSET))(this, a1);
 	}
 };

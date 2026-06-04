@@ -6,24 +6,24 @@ namespace System { class Type; }
 namespace System { struct Enum; }
 namespace UnityEngine { class GUIContent; }
 
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_GET_ENUMNAMES_OFFSET UNITYSDK_OFFSET(0x18B0D180)
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_GET_ENUMTYPE_OFFSET UNITYSDK_OFFSET(0x18B0D640)
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_GET_ENUMVALUES_OFFSET UNITYSDK_OFFSET(0x18B0D1A0)
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_SET_ENUMNAMES_OFFSET UNITYSDK_OFFSET(0x18B0D190)
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_SET_ENUMTYPE_OFFSET UNITYSDK_OFFSET(0x18B0D1C0)
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_SET_ENUMVALUES_OFFSET UNITYSDK_OFFSET(0x18B0D1B0)
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x18B0D650)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_GET_ENUMNAMES_OFFSET UNITYSDK_OFFSET(0x195BDC40)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_GET_ENUMTYPE_OFFSET UNITYSDK_OFFSET(0x195BE130)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_GET_ENUMVALUES_OFFSET UNITYSDK_OFFSET(0x195BDC60)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_SET_ENUMNAMES_OFFSET UNITYSDK_OFFSET(0x195BDC50)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_SET_ENUMTYPE_OFFSET UNITYSDK_OFFSET(0x195BDC80)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_SET_ENUMVALUES_OFFSET UNITYSDK_OFFSET(0x195BDC70)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x195BE140)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_BitField_TypeDefinitionIndex = 33448;
+	inline static constexpr unsigned int DebugUI_BitField_TypeDefinitionIndex = 33730;
 
 	class DebugUI_BitField : public ::UnityEngine::Rendering::DebugUI_Field_1<::System::Enum*>
 	{
 	public:
 		::System::Type* m_EnumType; // 0x50
-		::Il2CppArray<::UnityEngine::GUIContent*>* _enumNames_k__BackingField; // 0x58
-		::Il2CppArray<::System::Int32>* _enumValues_k__BackingField; // 0x60
+		::Il2CppArray<::System::Int32>* _enumValues_k__BackingField; // 0x58
+		::Il2CppArray<::UnityEngine::GUIContent*>* _enumNames_k__BackingField; // 0x60
 
 		::System::Void _ctor()
 		{
@@ -35,9 +35,9 @@ namespace UnityEngine::Rendering
 			return ((::Il2CppArray<::UnityEngine::GUIContent*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_GET_ENUMNAMES_OFFSET))(this);
 		}
 
-		::System::Void set_enumNames(::Il2CppArray<::UnityEngine::GUIContent*>* value)
+		::System::Void set_enumNames(::Il2CppArray<::UnityEngine::GUIContent*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::GUIContent*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_SET_ENUMNAMES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::GUIContent*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_SET_ENUMNAMES_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::Int32>* get_enumValues()
@@ -45,14 +45,14 @@ namespace UnityEngine::Rendering
 			return ((::Il2CppArray<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_GET_ENUMVALUES_OFFSET))(this);
 		}
 
-		::System::Void set_enumValues(::Il2CppArray<::System::Int32>* value)
+		::System::Void set_enumValues(::Il2CppArray<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_SET_ENUMVALUES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_SET_ENUMVALUES_OFFSET))(this, a1);
 		}
 
-		::System::Void set_enumType(::System::Type* value)
+		::System::Void set_enumType(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_SET_ENUMTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_BITFIELD_SET_ENUMTYPE_OFFSET))(this, a1);
 		}
 
 		::System::Type* get_enumType()

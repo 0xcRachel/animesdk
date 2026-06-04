@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define CONFLICT_NORMALGROUPNPCINDEXKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BB87A0)
-#define CONFLICT_NORMALGROUPNPCINDEXKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BB8810)
-#define CONFLICT_NORMALGROUPNPCINDEXKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB8790)
-#define CONFLICT_NORMALGROUPNPCINDEXKEY___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BB8870)
+#define CONFLICT_NORMALGROUPNPCINDEXKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x3794500)
+#define CONFLICT_NORMALGROUPNPCINDEXKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3794570)
+#define CONFLICT_NORMALGROUPNPCINDEXKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x6C9750)
+#define CONFLICT_NORMALGROUPNPCINDEXKEY___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x37945D0)
 
-inline static constexpr unsigned int Conflict_NormalGroupNPCIndexKey_TypeDefinitionIndex = 43948;
+inline static constexpr unsigned int Conflict_NormalGroupNPCIndexKey_TypeDefinitionIndex = 44494;
 
 struct alignas(4) Conflict_NormalGroupNPCIndexKey
 {
@@ -17,14 +17,14 @@ struct alignas(4) Conflict_NormalGroupNPCIndexKey
 	::System::UInt32 InstanceID; // 0x14
 	::System::UInt32 ConflictID; // 0x18
 
-	::System::Void _ctor(::System::UInt32 groupID, ::System::UInt32 instanceID, ::System::UInt32 conflictID)
+	::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CONFLICT_NORMALGROUPNPCINDEXKEY__CTOR_OFFSET))(this, groupID, instanceID, conflictID);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CONFLICT_NORMALGROUPNPCINDEXKEY__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Boolean Equals(::Conflict_NormalGroupNPCIndexKey other)
+	::System::Boolean Equals(::Conflict_NormalGroupNPCIndexKey a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Conflict_NormalGroupNPCIndexKey))((::PBYTE)hIl2Cpp + CONFLICT_NORMALGROUPNPCINDEXKEY_EQUALS_OFFSET))(this, other);
+		return ((::System::Boolean(*)(::PVOID, ::Conflict_NormalGroupNPCIndexKey))((::PBYTE)hIl2Cpp + CONFLICT_NORMALGROUPNPCINDEXKEY_EQUALS_OFFSET))(this, a1);
 	}
 
 	::System::String* ToString()

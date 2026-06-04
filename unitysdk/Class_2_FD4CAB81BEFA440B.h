@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_E8C81730380D9B3A.h"
+#include "unitysdk/Class_1_FCEA91136CC875E4.h"
 #include "unitysdk/RPG/Client/NotifyType.h"
 
 namespace RPG::Client { class NotifyHandler; }
 namespace System { class Object; }
 
-#define CLASS_2_FD4CAB81BEFA440B_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0xD4E6E60)
-#define CLASS_2_FD4CAB81BEFA440B__CTOR_OFFSET UNITYSDK_OFFSET(0xD4E6E50)
+#define CLASS_2_FD4CAB81BEFA440B_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0x149BB510)
+#define CLASS_2_FD4CAB81BEFA440B__CTOR_OFFSET UNITYSDK_OFFSET(0x149BB500)
 
-inline static constexpr unsigned int Class_2_FD4CAB81BEFA440B_TypeDefinitionIndex = 67351;
+inline static constexpr unsigned int Class_2_FD4CAB81BEFA440B_TypeDefinitionIndex = 68303;
 
-class Class_2_FD4CAB81BEFA440B : public ::Class_1_E8C81730380D9B3A
+class Class_2_FD4CAB81BEFA440B : public ::Class_1_FCEA91136CC875E4
 {
 public:
 	::RPG::Client::NotifyHandler* Field_2_0; // 0x18

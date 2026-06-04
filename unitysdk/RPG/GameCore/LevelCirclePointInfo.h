@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELCIRCLEPOINTINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x188ADA00)
-#define RPG_GAMECORE_LEVELCIRCLEPOINTINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188AE710)
-#define RPG_GAMECORE_LEVELCIRCLEPOINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x188AD9F0)
+#define RPG_GAMECORE_LEVELCIRCLEPOINTINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18E61E30)
+#define RPG_GAMECORE_LEVELCIRCLEPOINTINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E62B00)
+#define RPG_GAMECORE_LEVELCIRCLEPOINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18E61E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCirclePointInfo_TypeDefinitionIndex = 16484;
+	inline static constexpr unsigned int LevelCirclePointInfo_TypeDefinitionIndex = 16516;
 
 	class LevelCirclePointInfo : public ::RPG::GameCore::LevelBaseCurvePointInfo
 	{
@@ -22,14 +22,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCIRCLEPOINTINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelCirclePointInfo*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelCirclePointInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelCirclePointInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCIRCLEPOINTINFO_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelCirclePointInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCIRCLEPOINTINFO_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelCirclePointInfo* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelCirclePointInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelCirclePointInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCIRCLEPOINTINFO_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelCirclePointInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCIRCLEPOINTINFO_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 	};
 }

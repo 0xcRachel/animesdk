@@ -22,62 +22,62 @@ namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_CLEARANIMATORSTATE_OFFSET UNITYSDK_OFFSET(0x10346F20)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10344D70)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_HIDEOUTLINE_OFFSET UNITYSDK_OFFSET(0x1034F840)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_INIT_OFFSET UNITYSDK_OFFSET(0x1034B6B0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ISINANIMATION_OFFSET UNITYSDK_OFFSET(0x1034CE80)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ONDRAGBEGIN_OFFSET UNITYSDK_OFFSET(0x10352B50)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ONDRAG_OFFSET UNITYSDK_OFFSET(0x10352D40)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ONHOVEREXIT_OFFSET UNITYSDK_OFFSET(0x10348200)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ONHOVER_OFFSET UNITYSDK_OFFSET(0x10349C50)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ONSELECTUP_OFFSET UNITYSDK_OFFSET(0x10352B10)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ONSELECT_OFFSET UNITYSDK_OFFSET(0x10352AD0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ROTATEWITHANIMATION_OFFSET UNITYSDK_OFFSET(0x103494C0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETACTIVE_OFFSET UNITYSDK_OFFSET(0x10352950)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETANIMATORACTIVE_OFFSET UNITYSDK_OFFSET(0x1034B840)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETCOLORMASK_OFFSET UNITYSDK_OFFSET(0x103532B0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETDARKSTATE_OFFSET UNITYSDK_OFFSET(0x10352FC0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETDIRECTION_OFFSET UNITYSDK_OFFSET(0x103529C0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETDISSOLVECENTER_OFFSET UNITYSDK_OFFSET(0x1034F580)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETDISSOLVERATE_OFFSET UNITYSDK_OFFSET(0x1034FA90)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETEMPTYSTATE_OFFSET UNITYSDK_OFFSET(0x10353100)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETITEMDATA_OFFSET UNITYSDK_OFFSET(0x10352F70)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETOUTLINECOLOR_OFFSET UNITYSDK_OFFSET(0x10352320)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETOUTLINEOFFSET_OFFSET UNITYSDK_OFFSET(0x1034FFF0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETSTATE_OFFSET UNITYSDK_OFFSET(0x10346300)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETUPITEM_OFFSET UNITYSDK_OFFSET(0x1034B4D0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_STARTMOVETOANIMATION_OFFSET UNITYSDK_OFFSET(0x1034AA90)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_STARTROTATEANIMATION_OFFSET UNITYSDK_OFFSET(0x10353450)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_STARTSCALEANIMATION_OFFSET UNITYSDK_OFFSET(0x1034CC90)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_TICK_OFFSET UNITYSDK_OFFSET(0x103456B0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_TRIGGERFADEOUTPERFORM_OFFSET UNITYSDK_OFFSET(0x1034E640)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_TRIGGEROUTLINEFADEPERFORM_OFFSET UNITYSDK_OFFSET(0x10350150)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_TRIGGERSUCCESSPERFORM_OFFSET UNITYSDK_OFFSET(0x10351210)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__CALCURRENTOUTLINEOFFSET_OFFSET UNITYSDK_OFFSET(0x10352440)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__CALTEXSCALEANDOFFSET_OFFSET UNITYSDK_OFFSET(0x103522A0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x10353790)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__INITOUTLINESHADOWOFFSET_OFFSET UNITYSDK_OFFSET(0x103523C0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__ITEMDIR2LOCALOFFSET_OFFSET UNITYSDK_OFFSET(0x10353690)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__ITEMDIR2LOCALROTATION_OFFSET UNITYSDK_OFFSET(0x10353340)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__LOADCOLLIDERMESH_OFFSET UNITYSDK_OFFSET(0x10352750)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__LOADHINTMESH_OFFSET UNITYSDK_OFFSET(0x10351C70)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__LOADMESH_OFFSET UNITYSDK_OFFSET(0x10351630)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__LOADOUTLINE_OFFSET UNITYSDK_OFFSET(0x10351840)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__SETTEXTURE_OFFSET UNITYSDK_OFFSET(0x103512C0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__SHOWOUTLINESHADOW_OFFSET UNITYSDK_OFFSET(0x103525E0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10353850)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x10353800)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_ONDRAGBEGIN_OFFSET UNITYSDK_OFFSET(0x10353920)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_ONDRAG_OFFSET UNITYSDK_OFFSET(0x103539B0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_ONHOVEREXIT_OFFSET UNITYSDK_OFFSET(0x103538D0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_ONHOVER_OFFSET UNITYSDK_OFFSET(0x103538C0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_ONSELECTUP_OFFSET UNITYSDK_OFFSET(0x103538B0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_ONSELECT_OFFSET UNITYSDK_OFFSET(0x103538A0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_CLEARANIMATORSTATE_OFFSET UNITYSDK_OFFSET(0x1339A4F0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x133982E0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_HIDEOUTLINE_OFFSET UNITYSDK_OFFSET(0x133A3220)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_INIT_OFFSET UNITYSDK_OFFSET(0x1339EEF0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ISINANIMATION_OFFSET UNITYSDK_OFFSET(0x133A0830)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ONDRAGBEGIN_OFFSET UNITYSDK_OFFSET(0x133A6740)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ONDRAG_OFFSET UNITYSDK_OFFSET(0x133A6930)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ONHOVEREXIT_OFFSET UNITYSDK_OFFSET(0x1339B890)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ONHOVER_OFFSET UNITYSDK_OFFSET(0x1339D3D0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ONSELECTUP_OFFSET UNITYSDK_OFFSET(0x133A6700)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ONSELECT_OFFSET UNITYSDK_OFFSET(0x133A66C0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ROTATEWITHANIMATION_OFFSET UNITYSDK_OFFSET(0x1339CC10)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETACTIVE_OFFSET UNITYSDK_OFFSET(0x133A6540)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETANIMATORACTIVE_OFFSET UNITYSDK_OFFSET(0x1339F070)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETCOLORMASK_OFFSET UNITYSDK_OFFSET(0x133A6EA0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETDARKSTATE_OFFSET UNITYSDK_OFFSET(0x133A6BB0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETDIRECTION_OFFSET UNITYSDK_OFFSET(0x133A65B0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETDISSOLVECENTER_OFFSET UNITYSDK_OFFSET(0x133A2F60)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETDISSOLVERATE_OFFSET UNITYSDK_OFFSET(0x133A3480)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETEMPTYSTATE_OFFSET UNITYSDK_OFFSET(0x133A6CF0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETITEMDATA_OFFSET UNITYSDK_OFFSET(0x133A6B60)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETOUTLINECOLOR_OFFSET UNITYSDK_OFFSET(0x133A5EA0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETOUTLINEOFFSET_OFFSET UNITYSDK_OFFSET(0x133A3A10)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETSTATE_OFFSET UNITYSDK_OFFSET(0x13399870)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETUPITEM_OFFSET UNITYSDK_OFFSET(0x1339ED20)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_STARTMOVETOANIMATION_OFFSET UNITYSDK_OFFSET(0x1339E2D0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_STARTROTATEANIMATION_OFFSET UNITYSDK_OFFSET(0x133A7040)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_STARTSCALEANIMATION_OFFSET UNITYSDK_OFFSET(0x133A0620)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_TICK_OFFSET UNITYSDK_OFFSET(0x13398C00)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_TRIGGERFADEOUTPERFORM_OFFSET UNITYSDK_OFFSET(0x133A2000)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_TRIGGEROUTLINEFADEPERFORM_OFFSET UNITYSDK_OFFSET(0x133A3B60)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_TRIGGERSUCCESSPERFORM_OFFSET UNITYSDK_OFFSET(0x133A4C50)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__CALCURRENTOUTLINEOFFSET_OFFSET UNITYSDK_OFFSET(0x133A5FC0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__CALTEXSCALEANDOFFSET_OFFSET UNITYSDK_OFFSET(0x133A5E20)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x133A73A0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__INITOUTLINESHADOWOFFSET_OFFSET UNITYSDK_OFFSET(0x133A5F40)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__ITEMDIR2LOCALOFFSET_OFFSET UNITYSDK_OFFSET(0x133A72A0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__ITEMDIR2LOCALROTATION_OFFSET UNITYSDK_OFFSET(0x133A6F30)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__LOADCOLLIDERMESH_OFFSET UNITYSDK_OFFSET(0x133A62E0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__LOADHINTMESH_OFFSET UNITYSDK_OFFSET(0x133A5770)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__LOADMESH_OFFSET UNITYSDK_OFFSET(0x133A5090)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__LOADOUTLINE_OFFSET UNITYSDK_OFFSET(0x133A52F0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__SETTEXTURE_OFFSET UNITYSDK_OFFSET(0x133A4D20)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__SHOWOUTLINESHADOW_OFFSET UNITYSDK_OFFSET(0x133A6160)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x133A7440)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x133A73F0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_ONDRAGBEGIN_OFFSET UNITYSDK_OFFSET(0x133A7510)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_ONDRAG_OFFSET UNITYSDK_OFFSET(0x133A75A0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_ONHOVEREXIT_OFFSET UNITYSDK_OFFSET(0x133A74C0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_ONHOVER_OFFSET UNITYSDK_OFFSET(0x133A74B0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_ONSELECTUP_OFFSET UNITYSDK_OFFSET(0x133A74A0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_ONSELECT_OFFSET UNITYSDK_OFFSET(0x133A7490)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int JigsawPuzzleItem_TypeDefinitionIndex = 72156;
+	inline static constexpr unsigned int JigsawPuzzleItem_TypeDefinitionIndex = 73178;
 
 	class JigsawPuzzleItem : public ::RPG::Client::Prop::InteractPuzzleItemBase
 	{
@@ -131,14 +131,14 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetupItem(::UnityEngine::Texture2D* tex, ::System::Int32 w, ::System::Int32 h)
+		::System::Void SetupItem(::UnityEngine::Texture2D* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2D*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETUPITEM_OFFSET))(this, tex, w, h);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2D*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETUPITEM_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _SetTexture(::UnityEngine::Texture2D* tex, ::System::Int32 w, ::System::Int32 h)
+		::System::Void _SetTexture(::UnityEngine::Texture2D* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2D*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__SETTEXTURE_OFFSET))(this, tex, w, h);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2D*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__SETTEXTURE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _LoadMesh()
@@ -161,9 +161,9 @@ namespace RPG::Client::Prop
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__CALCURRENTOUTLINEOFFSET_OFFSET))(this);
 		}
 
-		::System::Void _ShowOutlineShadow(::System::Boolean isShow, ::System::Single duration)
+		::System::Void _ShowOutlineShadow(::System::Boolean a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__SHOWOUTLINESHADOW_OFFSET))(this, isShow, duration);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__SHOWOUTLINESHADOW_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _LoadHintMesh()
@@ -176,14 +176,14 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__LOADCOLLIDERMESH_OFFSET))(this);
 		}
 
-		::System::Void Init(::RPG::Client::Prop::PuzzleBoardBase* board)
+		::System::Void Init(::RPG::Client::Prop::PuzzleBoardBase* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::PuzzleBoardBase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_INIT_OFFSET))(this, board);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::PuzzleBoardBase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_INIT_OFFSET))(this, a1);
 		}
 
-		::System::Void Tick(::System::Single deltaTime)
+		::System::Void Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_TICK_OFFSET))(this, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_TICK_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()
@@ -201,34 +201,34 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ONSELECTUP_OFFSET))(this);
 		}
 
-		::System::Void OnHover(::System::Boolean isJoyStickSelect)
+		::System::Void OnHover(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ONHOVER_OFFSET))(this, isJoyStickSelect);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ONHOVER_OFFSET))(this, a1);
 		}
 
-		::System::Void OnHoverExit(::System::Boolean isJoyStickSelect)
+		::System::Void OnHoverExit(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ONHOVEREXIT_OFFSET))(this, isJoyStickSelect);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ONHOVEREXIT_OFFSET))(this, a1);
 		}
 
-		::System::Void OnDragBegin(::UnityEngine::Vector3 mousePosition, ::UnityEngine::Vector3 hitPosition)
+		::System::Void OnDragBegin(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ONDRAGBEGIN_OFFSET))(this, mousePosition, hitPosition);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ONDRAGBEGIN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnDrag(::UnityEngine::Vector3 mousePosition, ::UnityEngine::Vector3 hitPosition)
+		::System::Void OnDrag(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ONDRAG_OFFSET))(this, mousePosition, hitPosition);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ONDRAG_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetItemData(::RPG::Client::Prop::JigsawItemData* data)
+		::System::Void SetItemData(::RPG::Client::Prop::JigsawItemData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::JigsawItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETITEMDATA_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::JigsawItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETITEMDATA_OFFSET))(this, a1);
 		}
 
-		::System::Void SetAnimatorActive(::System::Boolean isActive)
+		::System::Void SetAnimatorActive(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETANIMATORACTIVE_OFFSET))(this, isActive);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETANIMATORACTIVE_OFFSET))(this, a1);
 		}
 
 		::System::Void TriggerOutlineFadePerform()
@@ -251,79 +251,79 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_CLEARANIMATORSTATE_OFFSET))(this);
 		}
 
-		::System::Void SetState(::RPG::Client::Prop::JigsawItemState state, ::System::Boolean forceReset)
+		::System::Void SetState(::RPG::Client::Prop::JigsawItemState a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::JigsawItemState, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETSTATE_OFFSET))(this, state, forceReset);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::JigsawItemState, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETSTATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetDarkState(::System::Boolean isDark)
+		::System::Void SetDarkState(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETDARKSTATE_OFFSET))(this, isDark);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETDARKSTATE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetEmptyState(::System::Boolean isEmpty)
+		::System::Void SetEmptyState(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETEMPTYSTATE_OFFSET))(this, isEmpty);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETEMPTYSTATE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetActive(::System::Boolean isActive)
+		::System::Void SetActive(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETACTIVE_OFFSET))(this, isActive);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETACTIVE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetDissolveCenter(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 forward)
+		::System::Void SetDissolveCenter(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETDISSOLVECENTER_OFFSET))(this, center, forward);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETDISSOLVECENTER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetDissolveRate(::System::Single rate)
+		::System::Void SetDissolveRate(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETDISSOLVERATE_OFFSET))(this, rate);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETDISSOLVERATE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetOutlineOffset(::System::Single offset)
+		::System::Void SetOutlineOffset(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETOUTLINEOFFSET_OFFSET))(this, offset);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETOUTLINEOFFSET_OFFSET))(this, a1);
 		}
 
-		::System::Void SetOutlineColor(::UnityEngine::Color color)
+		::System::Void SetOutlineColor(::UnityEngine::Color a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETOUTLINECOLOR_OFFSET))(this, color);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETOUTLINECOLOR_OFFSET))(this, a1);
 		}
 
-		::System::Void HideOutline(::System::Boolean isHide)
+		::System::Void HideOutline(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_HIDEOUTLINE_OFFSET))(this, isHide);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_HIDEOUTLINE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetColorMask(::System::Int32 colorMask)
+		::System::Void SetColorMask(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETCOLORMASK_OFFSET))(this, colorMask);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETCOLORMASK_OFFSET))(this, a1);
 		}
 
-		::System::Void SetDirection(::RPG::Client::Prop::JigsawItemDirection dir)
+		::System::Void SetDirection(::RPG::Client::Prop::JigsawItemDirection a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::JigsawItemDirection))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETDIRECTION_OFFSET))(this, dir);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::JigsawItemDirection))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_SETDIRECTION_OFFSET))(this, a1);
 		}
 
-		::System::Void RotateWithAnimation(::UnityEngine::AnimationCurve* curve, ::System::Single duration, ::System::Boolean isClockWise, ::System::Action* OnRotationDone)
+		::System::Void RotateWithAnimation(::UnityEngine::AnimationCurve* a1, ::System::Single a2, ::System::Boolean a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimationCurve*, ::System::Single, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ROTATEWITHANIMATION_OFFSET))(this, curve, duration, isClockWise, OnRotationDone);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimationCurve*, ::System::Single, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ROTATEWITHANIMATION_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void StartRotateAnimation(::UnityEngine::Quaternion targetRotation, ::UnityEngine::AnimationCurve* curve, ::System::Single duration, ::System::Action* OnRotationDone)
+		::System::Void StartRotateAnimation(::UnityEngine::Quaternion a1, ::UnityEngine::AnimationCurve* a2, ::System::Single a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion, ::UnityEngine::AnimationCurve*, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_STARTROTATEANIMATION_OFFSET))(this, targetRotation, curve, duration, OnRotationDone);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion, ::UnityEngine::AnimationCurve*, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_STARTROTATEANIMATION_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void StartScaleAnimation(::UnityEngine::AnimationCurve* curve, ::System::Single scaleSize, ::System::Single duration, ::System::Action* OnScaleDone)
+		::System::Void StartScaleAnimation(::UnityEngine::AnimationCurve* a1, ::System::Single a2, ::System::Single a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimationCurve*, ::System::Single, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_STARTSCALEANIMATION_OFFSET))(this, curve, scaleSize, duration, OnScaleDone);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimationCurve*, ::System::Single, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_STARTSCALEANIMATION_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void StartMoveToAnimation(::UnityEngine::Vector3 targetPosition, ::System::Single duration, ::System::Action* OnMoveToDone, ::UnityEngine::AnimationCurve* curve)
+		::System::Void StartMoveToAnimation(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Action* a3, ::UnityEngine::AnimationCurve* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Action*, ::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_STARTMOVETOANIMATION_OFFSET))(this, targetPosition, duration, OnMoveToDone, curve);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Action*, ::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_STARTMOVETOANIMATION_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean IsInAnimation()
@@ -331,24 +331,24 @@ namespace RPG::Client::Prop
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM_ISINANIMATION_OFFSET))(this);
 		}
 
-		::UnityEngine::Quaternion _ItemDir2LocalRotation(::RPG::Client::Prop::JigsawItemDirection dir)
+		::UnityEngine::Quaternion _ItemDir2LocalRotation(::RPG::Client::Prop::JigsawItemDirection a1)
 		{
-			return ((::UnityEngine::Quaternion(*)(::PVOID, ::RPG::Client::Prop::JigsawItemDirection))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__ITEMDIR2LOCALROTATION_OFFSET))(this, dir);
+			return ((::UnityEngine::Quaternion(*)(::PVOID, ::RPG::Client::Prop::JigsawItemDirection))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__ITEMDIR2LOCALROTATION_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 _ItemDir2LocalOffset(::RPG::Client::Prop::JigsawItemDirection dir, ::UnityEngine::Vector3 localOffset)
+		::UnityEngine::Vector3 _ItemDir2LocalOffset(::RPG::Client::Prop::JigsawItemDirection a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::RPG::Client::Prop::JigsawItemDirection, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__ITEMDIR2LOCALOFFSET_OFFSET))(this, dir, localOffset);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::RPG::Client::Prop::JigsawItemDirection, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__ITEMDIR2LOCALOFFSET_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _CalTexScaleAndOffset(::System::Int32 w, ::System::Int32 h)
+		::System::Void _CalTexScaleAndOffset(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__CALTEXSCALEANDOFFSET_OFFSET))(this, w, h);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM__CALTEXSCALEANDOFFSET_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_Init(::RPG::Client::Prop::PuzzleBoardBase* P0)
+		::System::Void __iFixBaseProxy_Init(::RPG::Client::Prop::PuzzleBoardBase* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::PuzzleBoardBase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_INIT_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::PuzzleBoardBase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_INIT_OFFSET))(this, a1);
 		}
 
 		::System::Void __iFixBaseProxy_Dispose()
@@ -366,24 +366,24 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_ONSELECTUP_OFFSET))(this);
 		}
 
-		::System::Void __iFixBaseProxy_OnHover(::System::Boolean P0)
+		::System::Void __iFixBaseProxy_OnHover(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_ONHOVER_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_ONHOVER_OFFSET))(this, a1);
 		}
 
-		::System::Void __iFixBaseProxy_OnHoverExit(::System::Boolean P0)
+		::System::Void __iFixBaseProxy_OnHoverExit(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_ONHOVEREXIT_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_ONHOVEREXIT_OFFSET))(this, a1);
 		}
 
-		::System::Void __iFixBaseProxy_OnDragBegin(::UnityEngine::Vector3 P0, ::UnityEngine::Vector3 P1)
+		::System::Void __iFixBaseProxy_OnDragBegin(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_ONDRAGBEGIN_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_ONDRAGBEGIN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnDrag(::UnityEngine::Vector3 P0, ::UnityEngine::Vector3 P1)
+		::System::Void __iFixBaseProxy_OnDrag(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_ONDRAG_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___IFIXBASEPROXY_ONDRAG_OFFSET))(this, a1, a2);
 		}
 	};
 }

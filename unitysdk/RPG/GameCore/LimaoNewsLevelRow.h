@@ -5,30 +5,30 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LIMAONEWSLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A44AC0)
-#define RPG_GAMECORE_LIMAONEWSLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A45230)
+#define RPG_GAMECORE_LIMAONEWSLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A119090)
+#define RPG_GAMECORE_LIMAONEWSLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A119820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LimaoNewsLevelRow_TypeDefinitionIndex = 13226;
+	inline static constexpr unsigned int LimaoNewsLevelRow_TypeDefinitionIndex = 13303;
 
 	class LimaoNewsLevelRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* EventFinishConditionIDList; // 0x10
-		::System::Boolean IsTriggerEvent; // 0x18
-		::System::UInt32 Level; // 0x1C
-		::RPG::Client::TextID AfterLevelEvent; // 0x20
-		::RPG::Client::TextID BeforeLevelEvent; // 0x30
+		::RPG::Client::TextID AfterLevelEvent; // 0x18
+		::RPG::Client::TextID BeforeLevelEvent; // 0x28
+		::System::UInt32 Level; // 0x38
+		::System::Boolean IsTriggerEvent; // 0x3C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LIMAONEWSLEVELROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LimaoNewsLevelRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LimaoNewsLevelRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LimaoNewsLevelRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LIMAONEWSLEVELROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LimaoNewsLevelRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LIMAONEWSLEVELROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

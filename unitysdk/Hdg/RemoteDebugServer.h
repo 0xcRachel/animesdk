@@ -21,47 +21,47 @@ namespace System::Net::Sockets { class TcpClient; }
 namespace System::Net::Sockets { class TcpListener; }
 namespace UnityEngine { class GameObject; }
 
-#define HDG_REMOTEDEBUGSERVER_ADDCALLBACK_OFFSET UNITYSDK_OFFSET(0x12C0F020)
-#define HDG_REMOTEDEBUGSERVER_ADDDONTDESTROYONLOADOBJECT_OFFSET UNITYSDK_OFFSET(0x12C0F1B0)
-#define HDG_REMOTEDEBUGSERVER_ENQUEUEMESSAGE_OFFSET UNITYSDK_OFFSET(0x12C0F2B0)
-#define HDG_REMOTEDEBUGSERVER_GET_CLIENTIP_OFFSET UNITYSDK_OFFSET(0x12C0EFC0)
-#define HDG_REMOTEDEBUGSERVER_GET_DONTDESTROYONLOADOBJECTS_OFFSET UNITYSDK_OFFSET(0x12C0D8F0)
-#define HDG_REMOTEDEBUGSERVER_GET_ENABLESERVICE_OFFSET UNITYSDK_OFFSET(0x12C0D430)
-#define HDG_REMOTEDEBUGSERVER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x12C0D3D0)
-#define HDG_REMOTEDEBUGSERVER_GET_SERIALIZERREGISTRY_OFFSET UNITYSDK_OFFSET(0x12C0D900)
-#define HDG_REMOTEDEBUGSERVER_INIT_OFFSET UNITYSDK_OFFSET(0x12C0F5C0)
-#define HDG_REMOTEDEBUGSERVER_ONAPPLICATIONPAUSE_OFFSET UNITYSDK_OFFSET(0x12C12090)
-#define HDG_REMOTEDEBUGSERVER_ONCONNECTED_OFFSET UNITYSDK_OFFSET(0x12C119D0)
-#define HDG_REMOTEDEBUGSERVER_ONCONNECTING_OFFSET UNITYSDK_OFFSET(0x12C11320)
-#define HDG_REMOTEDEBUGSERVER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x12C101D0)
-#define HDG_REMOTEDEBUGSERVER_ONDISCONNECTED_OFFSET UNITYSDK_OFFSET(0x12C11F10)
-#define HDG_REMOTEDEBUGSERVER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x12C0FD90)
-#define HDG_REMOTEDEBUGSERVER_ONLOGMESSAGERECEIVEDTHREADED_OFFSET UNITYSDK_OFFSET(0x12C0FD30)
-#define HDG_REMOTEDEBUGSERVER_ONREADMESSAGE_OFFSET UNITYSDK_OFFSET(0x12C11FC0)
-#define HDG_REMOTEDEBUGSERVER_ONWAITING_OFFSET UNITYSDK_OFFSET(0x12C11260)
-#define HDG_REMOTEDEBUGSERVER_REFRESHDONTDESTROYONLOADOBJECTS_OFFSET UNITYSDK_OFFSET(0x12C0F450)
-#define HDG_REMOTEDEBUGSERVER_REGISTERCALLBACKS_OFFSET UNITYSDK_OFFSET(0x12C0F810)
-#define HDG_REMOTEDEBUGSERVER_REMOVEDONTDESTROYONLOADOBJECT_OFFSET UNITYSDK_OFFSET(0x12C0F230)
-#define HDG_REMOTEDEBUGSERVER_SETSTATE_OFFSET UNITYSDK_OFFSET(0x12C10270)
-#define HDG_REMOTEDEBUGSERVER_SET_ENABLESERVICE_OFFSET UNITYSDK_OFFSET(0x12C0D460)
-#define HDG_REMOTEDEBUGSERVER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x12C0D420)
-#define HDG_REMOTEDEBUGSERVER_STARTLISTENING_OFFSET UNITYSDK_OFFSET(0x12C0D520)
-#define HDG_REMOTEDEBUGSERVER_STOPLISTENING_OFFSET UNITYSDK_OFFSET(0x12C0D8A0)
-#define HDG_REMOTEDEBUGSERVER_STOP_OFFSET UNITYSDK_OFFSET(0x12C10590)
-#define HDG_REMOTEDEBUGSERVER_TOGGLEWORLDPAUSED_OFFSET UNITYSDK_OFFSET(0x12C0F420)
-#define HDG_REMOTEDEBUGSERVER_UPDATE_OFFSET UNITYSDK_OFFSET(0x12C11140)
-#define HDG_REMOTEDEBUGSERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x12C12220)
+#define HDG_REMOTEDEBUGSERVER_ADDCALLBACK_OFFSET UNITYSDK_OFFSET(0x19C5F690)
+#define HDG_REMOTEDEBUGSERVER_ADDDONTDESTROYONLOADOBJECT_OFFSET UNITYSDK_OFFSET(0x19C5F880)
+#define HDG_REMOTEDEBUGSERVER_ENQUEUEMESSAGE_OFFSET UNITYSDK_OFFSET(0x19C5F9C0)
+#define HDG_REMOTEDEBUGSERVER_GET_CLIENTIP_OFFSET UNITYSDK_OFFSET(0x19C5F630)
+#define HDG_REMOTEDEBUGSERVER_GET_DONTDESTROYONLOADOBJECTS_OFFSET UNITYSDK_OFFSET(0x19C5F5E0)
+#define HDG_REMOTEDEBUGSERVER_GET_ENABLESERVICE_OFFSET UNITYSDK_OFFSET(0x19C5F4F0)
+#define HDG_REMOTEDEBUGSERVER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x19C5F490)
+#define HDG_REMOTEDEBUGSERVER_GET_SERIALIZERREGISTRY_OFFSET UNITYSDK_OFFSET(0x19C5F5F0)
+#define HDG_REMOTEDEBUGSERVER_INIT_OFFSET UNITYSDK_OFFSET(0x19C5FBC0)
+#define HDG_REMOTEDEBUGSERVER_ONAPPLICATIONPAUSE_OFFSET UNITYSDK_OFFSET(0x144AC9D0)
+#define HDG_REMOTEDEBUGSERVER_ONCONNECTED_OFFSET UNITYSDK_OFFSET(0x144AC2C0)
+#define HDG_REMOTEDEBUGSERVER_ONCONNECTING_OFFSET UNITYSDK_OFFSET(0x144ABB80)
+#define HDG_REMOTEDEBUGSERVER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x19C60310)
+#define HDG_REMOTEDEBUGSERVER_ONDISCONNECTED_OFFSET UNITYSDK_OFFSET(0x144AC800)
+#define HDG_REMOTEDEBUGSERVER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19C5FF60)
+#define HDG_REMOTEDEBUGSERVER_ONLOGMESSAGERECEIVEDTHREADED_OFFSET UNITYSDK_OFFSET(0x19C5FF00)
+#define HDG_REMOTEDEBUGSERVER_ONREADMESSAGE_OFFSET UNITYSDK_OFFSET(0x144AC8B0)
+#define HDG_REMOTEDEBUGSERVER_ONWAITING_OFFSET UNITYSDK_OFFSET(0x144ABAC0)
+#define HDG_REMOTEDEBUGSERVER_REFRESHDONTDESTROYONLOADOBJECTS_OFFSET UNITYSDK_OFFSET(0x19C5FA00)
+#define HDG_REMOTEDEBUGSERVER_REGISTERCALLBACKS_OFFSET UNITYSDK_OFFSET(0x19C5FDF0)
+#define HDG_REMOTEDEBUGSERVER_REMOVEDONTDESTROYONLOADOBJECT_OFFSET UNITYSDK_OFFSET(0x19C5F940)
+#define HDG_REMOTEDEBUGSERVER_SETSTATE_OFFSET UNITYSDK_OFFSET(0x144AA8F0)
+#define HDG_REMOTEDEBUGSERVER_SET_ENABLESERVICE_OFFSET UNITYSDK_OFFSET(0x19C5F520)
+#define HDG_REMOTEDEBUGSERVER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x19C5F4E0)
+#define HDG_REMOTEDEBUGSERVER_STARTLISTENING_OFFSET UNITYSDK_OFFSET(0x144AADF0)
+#define HDG_REMOTEDEBUGSERVER_STOPLISTENING_OFFSET UNITYSDK_OFFSET(0x144AAA50)
+#define HDG_REMOTEDEBUGSERVER_STOP_OFFSET UNITYSDK_OFFSET(0x144AAC00)
+#define HDG_REMOTEDEBUGSERVER_TOGGLEWORLDPAUSED_OFFSET UNITYSDK_OFFSET(0x19C5F9D0)
+#define HDG_REMOTEDEBUGSERVER_UPDATE_OFFSET UNITYSDK_OFFSET(0x144AB9C0)
+#define HDG_REMOTEDEBUGSERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x144ACB60)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int RemoteDebugServer_TypeDefinitionIndex = 43752;
+	inline static constexpr unsigned int RemoteDebugServer_TypeDefinitionIndex = 44294;
 
 	class RemoteDebugServer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::Hdg::RemoteDebugServer** StaticGet_s_instance()
 		{
-			return (::Hdg::RemoteDebugServer**)Il2CppClass::FromTypeDefinitionIndex(RemoteDebugServer_TypeDefinitionIndex)->GetStaticField(0x35340);
+			return (::Hdg::RemoteDebugServer**)Il2CppClass::FromTypeDefinitionIndex(RemoteDebugServer_TypeDefinitionIndex)->GetStaticField(0x8D40);
 		}
 		::Hdg::ServerBroadcaster* m_broadcaster; // 0x18
 		::System::Boolean m_enableService; // 0x20
@@ -89,9 +89,9 @@ namespace Hdg
 			return ((::Hdg::RemoteDebugServer*(*)())((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_GET_INSTANCE_OFFSET))();
 		}
 
-		static ::System::Void set_Instance(::Hdg::RemoteDebugServer* value)
+		static ::System::Void set_Instance(::Hdg::RemoteDebugServer* a1)
 		{
-			return ((::System::Void(*)(::Hdg::RemoteDebugServer*))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_SET_INSTANCE_OFFSET))(value);
+			return ((::System::Void(*)(::Hdg::RemoteDebugServer*))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_SET_INSTANCE_OFFSET))(a1);
 		}
 
 		static ::System::Boolean get_EnableService()
@@ -99,9 +99,9 @@ namespace Hdg
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_GET_ENABLESERVICE_OFFSET))();
 		}
 
-		static ::System::Void set_EnableService(::System::Boolean value)
+		static ::System::Void set_EnableService(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_SET_ENABLESERVICE_OFFSET))(value);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_SET_ENABLESERVICE_OFFSET))(a1);
 		}
 
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* get_DontDestroyOnLoadObjects()
@@ -119,24 +119,24 @@ namespace Hdg
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_GET_CLIENTIP_OFFSET))(this);
 		}
 
-		::System::Void AddCallback(::System::Type* type, ::System::Action_1<::Hdg::rdtTcpMessage*>* callback)
+		::System::Void AddCallback(::System::Type* a1, ::System::Action_1<::Hdg::rdtTcpMessage*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Action_1<::Hdg::rdtTcpMessage*>*))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_ADDCALLBACK_OFFSET))(this, type, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Action_1<::Hdg::rdtTcpMessage*>*))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_ADDCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void AddDontDestroyOnLoadObject(::UnityEngine::GameObject* gob)
+		static ::System::Void AddDontDestroyOnLoadObject(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_ADDDONTDESTROYONLOADOBJECT_OFFSET))(gob);
+			return ((::System::Void(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_ADDDONTDESTROYONLOADOBJECT_OFFSET))(a1);
 		}
 
-		static ::System::Void RemoveDontDestroyOnLoadObject(::UnityEngine::GameObject* gob)
+		static ::System::Void RemoveDontDestroyOnLoadObject(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_REMOVEDONTDESTROYONLOADOBJECT_OFFSET))(gob);
+			return ((::System::Void(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_REMOVEDONTDESTROYONLOADOBJECT_OFFSET))(a1);
 		}
 
-		::System::Void EnqueueMessage(::Hdg::rdtTcpMessage* message)
+		::System::Void EnqueueMessage(::Hdg::rdtTcpMessage* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Hdg::rdtTcpMessage*))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_ENQUEUEMESSAGE_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::Hdg::rdtTcpMessage*))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_ENQUEUEMESSAGE_OFFSET))(this, a1);
 		}
 
 		::System::Void ToggleWorldPaused()
@@ -159,9 +159,9 @@ namespace Hdg
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_REGISTERCALLBACKS_OFFSET))(this);
 		}
 
-		::System::Void OnLogMessageReceivedThreaded(::System::String* message, ::System::String* stackTrace, ::UnityEngine::LogType type)
+		::System::Void OnLogMessageReceivedThreaded(::System::String* a1, ::System::String* a2, ::UnityEngine::LogType a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::UnityEngine::LogType))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_ONLOGMESSAGERECEIVEDTHREADED_OFFSET))(this, message, stackTrace, type);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::UnityEngine::LogType))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_ONLOGMESSAGERECEIVEDTHREADED_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void OnEnable()
@@ -174,9 +174,9 @@ namespace Hdg
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_ONDISABLE_OFFSET))(this);
 		}
 
-		::System::Void SetState(::Hdg::RemoteDebugServer_State state)
+		::System::Void SetState(::Hdg::RemoteDebugServer_State a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Hdg::RemoteDebugServer_State))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_SETSTATE_OFFSET))(this, state);
+			return ((::System::Void(*)(::PVOID, ::Hdg::RemoteDebugServer_State))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_SETSTATE_OFFSET))(this, a1);
 		}
 
 		::System::Void StopListening()
@@ -219,14 +219,14 @@ namespace Hdg
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_ONDISCONNECTED_OFFSET))(this);
 		}
 
-		::System::Void OnReadMessage(::Hdg::rdtTcpMessage* message)
+		::System::Void OnReadMessage(::Hdg::rdtTcpMessage* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Hdg::rdtTcpMessage*))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_ONREADMESSAGE_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::Hdg::rdtTcpMessage*))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_ONREADMESSAGE_OFFSET))(this, a1);
 		}
 
-		::System::Void OnApplicationPause(::System::Boolean pause)
+		::System::Void OnApplicationPause(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_ONAPPLICATIONPAUSE_OFFSET))(this, pause);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_ONAPPLICATIONPAUSE_OFFSET))(this, a1);
 		}
 	};
 }

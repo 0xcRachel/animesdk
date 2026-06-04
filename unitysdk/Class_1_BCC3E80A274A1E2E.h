@@ -7,17 +7,17 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_BCC3E80A274A1E2E_METHOD_1_7A772A33A90355AA_OFFSET UNITYSDK_OFFSET(0x16BE5DD0)
-#define CLASS_1_BCC3E80A274A1E2E__CTOR_OFFSET UNITYSDK_OFFSET(0x16BE5FA0)
+#define CLASS_1_BCC3E80A274A1E2E_METHOD_1_7A772A33A90355AA_OFFSET UNITYSDK_OFFSET(0x192EB520)
+#define CLASS_1_BCC3E80A274A1E2E__CTOR_OFFSET UNITYSDK_OFFSET(0x192EB6F0)
 
-inline static constexpr unsigned int Class_1_BCC3E80A274A1E2E_TypeDefinitionIndex = 13207;
+inline static constexpr unsigned int Class_1_BCC3E80A274A1E2E_TypeDefinitionIndex = 13284;
 
 class Class_1_BCC3E80A274A1E2E : public ::System::Object
 {
 public:
-	::System::String* Field_1_1; // 0x10
-	::RPG::Client::TextID Field_1_2; // 0x18
-	::RPG::GameCore::LimaoNewsOfficeSurveyType Field_1_0; // 0x28
+	::System::String* Field_1_0; // 0x10
+	::RPG::Client::TextID Field_1_1; // 0x18
+	::RPG::GameCore::LimaoNewsOfficeSurveyType Field_1_2; // 0x28
 
 	::System::Void _ctor()
 	{

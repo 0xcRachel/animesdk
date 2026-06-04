@@ -8,22 +8,22 @@
 namespace Newtonsoft::Json { class JsonConverter; }
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_GET_FINALITEMCONTRACT_OFFSET UNITYSDK_OFFSET(0x173C2F20)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_GET_ITEMCONTRACT_OFFSET UNITYSDK_OFFSET(0x173C2EB0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_GET_ITEMCONVERTER_OFFSET UNITYSDK_OFFSET(0x173C2F30)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_GET_ITEMISREFERENCE_OFFSET UNITYSDK_OFFSET(0x173C2F50)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_GET_ITEMREFERENCELOOPHANDLING_OFFSET UNITYSDK_OFFSET(0x173C2F70)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_GET_ITEMTYPENAMEHANDLING_OFFSET UNITYSDK_OFFSET(0x173C2F90)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_SET_ITEMCONTRACT_OFFSET UNITYSDK_OFFSET(0x173C2EC0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_SET_ITEMCONVERTER_OFFSET UNITYSDK_OFFSET(0x173C2F40)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_SET_ITEMISREFERENCE_OFFSET UNITYSDK_OFFSET(0x173C2F60)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_SET_ITEMREFERENCELOOPHANDLING_OFFSET UNITYSDK_OFFSET(0x173C2F80)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_SET_ITEMTYPENAMEHANDLING_OFFSET UNITYSDK_OFFSET(0x173C2FA0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT__CTOR_OFFSET UNITYSDK_OFFSET(0x173C23F0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_GET_FINALITEMCONTRACT_OFFSET UNITYSDK_OFFSET(0x158CA0A0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_GET_ITEMCONTRACT_OFFSET UNITYSDK_OFFSET(0x158CA030)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_GET_ITEMCONVERTER_OFFSET UNITYSDK_OFFSET(0x158CA0B0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_GET_ITEMISREFERENCE_OFFSET UNITYSDK_OFFSET(0x158CA0D0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_GET_ITEMREFERENCELOOPHANDLING_OFFSET UNITYSDK_OFFSET(0x158CA0F0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_GET_ITEMTYPENAMEHANDLING_OFFSET UNITYSDK_OFFSET(0x158CA110)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_SET_ITEMCONTRACT_OFFSET UNITYSDK_OFFSET(0x158CA040)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_SET_ITEMCONVERTER_OFFSET UNITYSDK_OFFSET(0x158CA0C0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_SET_ITEMISREFERENCE_OFFSET UNITYSDK_OFFSET(0x158CA0E0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_SET_ITEMREFERENCELOOPHANDLING_OFFSET UNITYSDK_OFFSET(0x158CA100)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_SET_ITEMTYPENAMEHANDLING_OFFSET UNITYSDK_OFFSET(0x158CA120)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT__CTOR_OFFSET UNITYSDK_OFFSET(0x158C9640)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int JsonContainerContract_TypeDefinitionIndex = 8439;
+	inline static constexpr unsigned int JsonContainerContract_TypeDefinitionIndex = 9342;
 
 	class JsonContainerContract : public ::Newtonsoft::Json::Serialization::JsonContract
 	{
@@ -32,12 +32,12 @@ namespace Newtonsoft::Json::Serialization
 		::Newtonsoft::Json::Serialization::JsonContract* _finalItemContract; // 0x88
 		::Newtonsoft::Json::Serialization::JsonContract* _itemContract; // 0x90
 		::System::Nullable_1<::System::Boolean> _ItemIsReference_k__BackingField; // 0x98
-		::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _ItemTypeNameHandling_k__BackingField; // 0x9C
-		::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> _ItemReferenceLoopHandling_k__BackingField; // 0xA4
+		::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> _ItemReferenceLoopHandling_k__BackingField; // 0x9C
+		::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _ItemTypeNameHandling_k__BackingField; // 0xA4
 
-		::System::Void _ctor(::System::Type* underlyingType)
+		::System::Void _ctor(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT__CTOR_OFFSET))(this, underlyingType);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT__CTOR_OFFSET))(this, a1);
 		}
 
 		::Newtonsoft::Json::Serialization::JsonContract* get_ItemContract()
@@ -45,9 +45,9 @@ namespace Newtonsoft::Json::Serialization
 			return ((::Newtonsoft::Json::Serialization::JsonContract*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_GET_ITEMCONTRACT_OFFSET))(this);
 		}
 
-		::System::Void set_ItemContract(::Newtonsoft::Json::Serialization::JsonContract* value)
+		::System::Void set_ItemContract(::Newtonsoft::Json::Serialization::JsonContract* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Serialization::JsonContract*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_SET_ITEMCONTRACT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Serialization::JsonContract*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_SET_ITEMCONTRACT_OFFSET))(this, a1);
 		}
 
 		::Newtonsoft::Json::Serialization::JsonContract* get_FinalItemContract()
@@ -60,9 +60,9 @@ namespace Newtonsoft::Json::Serialization
 			return ((::Newtonsoft::Json::JsonConverter*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_GET_ITEMCONVERTER_OFFSET))(this);
 		}
 
-		::System::Void set_ItemConverter(::Newtonsoft::Json::JsonConverter* value)
+		::System::Void set_ItemConverter(::Newtonsoft::Json::JsonConverter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonConverter*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_SET_ITEMCONVERTER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonConverter*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_SET_ITEMCONVERTER_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::System::Boolean> get_ItemIsReference()
@@ -70,9 +70,9 @@ namespace Newtonsoft::Json::Serialization
 			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_GET_ITEMISREFERENCE_OFFSET))(this);
 		}
 
-		::System::Void set_ItemIsReference(::System::Nullable_1<::System::Boolean> value)
+		::System::Void set_ItemIsReference(::System::Nullable_1<::System::Boolean> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Boolean>))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_SET_ITEMISREFERENCE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Boolean>))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_SET_ITEMISREFERENCE_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> get_ItemReferenceLoopHandling()
@@ -80,9 +80,9 @@ namespace Newtonsoft::Json::Serialization
 			return ((::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_GET_ITEMREFERENCELOOPHANDLING_OFFSET))(this);
 		}
 
-		::System::Void set_ItemReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value)
+		::System::Void set_ItemReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_SET_ITEMREFERENCELOOPHANDLING_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_SET_ITEMREFERENCELOOPHANDLING_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> get_ItemTypeNameHandling()
@@ -90,9 +90,9 @@ namespace Newtonsoft::Json::Serialization
 			return ((::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_GET_ITEMTYPENAMEHANDLING_OFFSET))(this);
 		}
 
-		::System::Void set_ItemTypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value)
+		::System::Void set_ItemTypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_SET_ITEMTYPENAMEHANDLING_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTAINERCONTRACT_SET_ITEMTYPENAMEHANDLING_OFFSET))(this, a1);
 		}
 	};
 }

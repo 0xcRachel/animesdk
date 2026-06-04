@@ -6,19 +6,19 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ConditionParam; }
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_GAMECORE_ACTIVITYDICECOMBATSHOPGOODSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1886BFA0)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATSHOPGOODSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1886C220)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATSHOPGOODSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19897CB0)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATSHOPGOODSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19897F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceCombatShopGoodsRow_TypeDefinitionIndex = 10751;
+	inline static constexpr unsigned int ActivityDiceCombatShopGoodsRow_TypeDefinitionIndex = 10806;
 
 	class ActivityDiceCombatShopGoodsRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* ItemCost; // 0x10
-		::Il2CppArray<::RPG::GameCore::ConditionParam*>* UnlockCondition; // 0x18
-		::Il2CppArray<::System::UInt32>* UnlockTipsList; // 0x20
+		::Il2CppArray<::System::UInt32>* UnlockTipsList; // 0x10
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* ItemCost; // 0x18
+		::Il2CppArray<::RPG::GameCore::ConditionParam*>* UnlockCondition; // 0x20
 		::System::UInt32 GoodsSortID; // 0x28
 		::System::UInt32 DiceShopGoodsID; // 0x2C
 		::System::UInt32 ItemID; // 0x30
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYDICECOMBATSHOPGOODSROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ActivityDiceCombatShopGoodsRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActivityDiceCombatShopGoodsRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityDiceCombatShopGoodsRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYDICECOMBATSHOPGOODSROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityDiceCombatShopGoodsRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYDICECOMBATSHOPGOODSROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

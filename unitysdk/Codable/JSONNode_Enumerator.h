@@ -8,15 +8,15 @@
 namespace Codable { class JSONNode; }
 namespace System { class String; }
 
-#define CODABLE_JSONNODE_ENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x226E2E0)
-#define CODABLE_JSONNODE_ENUMERATOR_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x133DD10)
-#define CODABLE_JSONNODE_ENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x230BDE0)
-#define CODABLE_JSONNODE_ENUMERATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2241970)
-#define CODABLE_JSONNODE_ENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x2241920)
+#define CODABLE_JSONNODE_ENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x38949E0)
+#define CODABLE_JSONNODE_ENUMERATOR_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x3725520)
+#define CODABLE_JSONNODE_ENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x38C0120)
+#define CODABLE_JSONNODE_ENUMERATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x378DC70)
+#define CODABLE_JSONNODE_ENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x378DC20)
 
 namespace Codable
 {
-	inline static constexpr unsigned int JSONNode_Enumerator_TypeDefinitionIndex = 42671;
+	inline static constexpr unsigned int JSONNode_Enumerator_TypeDefinitionIndex = 43474;
 
 	struct alignas(8) JSONNode_Enumerator
 	{
@@ -24,14 +24,14 @@ namespace Codable
 		::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::Codable::JSONNode*> m_Object; // 0x18
 		::System::Collections::Generic::List_1_Enumerator<::Codable::JSONNode*> m_Array; // 0x40
 
-		::System::Void _ctor(::System::Collections::Generic::List_1_Enumerator<::Codable::JSONNode*> aArrayEnum)
+		::System::Void _ctor(::System::Collections::Generic::List_1_Enumerator<::Codable::JSONNode*> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1_Enumerator<::Codable::JSONNode*>))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_ENUMERATOR__CTOR_OFFSET))(this, aArrayEnum);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1_Enumerator<::Codable::JSONNode*>))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_ENUMERATOR__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::Codable::JSONNode*> aDictEnum)
+		::System::Void _ctor_1(::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::Codable::JSONNode*> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::Codable::JSONNode*>))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_ENUMERATOR__CTOR_1_OFFSET))(this, aDictEnum);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::Codable::JSONNode*>))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_ENUMERATOR__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsValid()

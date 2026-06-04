@@ -6,40 +6,40 @@
 class AkAuxSendValue;
 namespace UnityEngine { class GameObject; }
 
-#define AKAUXSENDARRAY_ADD_1_OFFSET UNITYSDK_OFFSET(0x192AED40)
-#define AKAUXSENDARRAY_ADD_OFFSET UNITYSDK_OFFSET(0x192AEAE0)
-#define AKAUXSENDARRAY_CONTAINS_1_OFFSET UNITYSDK_OFFSET(0x192AF120)
-#define AKAUXSENDARRAY_CONTAINS_OFFSET UNITYSDK_OFFSET(0x192AEED0)
-#define AKAUXSENDARRAY_COUNT_OFFSET UNITYSDK_OFFSET(0x192AF5E0)
-#define AKAUXSENDARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x192AE980)
-#define AKAUXSENDARRAY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x192AE9E0)
-#define AKAUXSENDARRAY_GETBUFFER_OFFSET UNITYSDK_OFFSET(0x192AF5A0)
-#define AKAUXSENDARRAY_GETOBJECTPTR_OFFSET UNITYSDK_OFFSET(0x192AE8C0)
-#define AKAUXSENDARRAY_GETVALUES_OFFSET UNITYSDK_OFFSET(0x192AF410)
-#define AKAUXSENDARRAY_GET_ISFULL_OFFSET UNITYSDK_OFFSET(0x192AE930)
-#define AKAUXSENDARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x192AE7D0)
-#define AKAUXSENDARRAY_RESET_OFFSET UNITYSDK_OFFSET(0x192AEA90)
-#define AKAUXSENDARRAY_SETVALUES_OFFSET UNITYSDK_OFFSET(0x192AF290)
-#define AKAUXSENDARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x192AE730)
+#define AKAUXSENDARRAY_ADD_1_OFFSET UNITYSDK_OFFSET(0x19DCA100)
+#define AKAUXSENDARRAY_ADD_OFFSET UNITYSDK_OFFSET(0x19DC9EA0)
+#define AKAUXSENDARRAY_CONTAINS_1_OFFSET UNITYSDK_OFFSET(0x19DCA4E0)
+#define AKAUXSENDARRAY_CONTAINS_OFFSET UNITYSDK_OFFSET(0x19DCA290)
+#define AKAUXSENDARRAY_COUNT_OFFSET UNITYSDK_OFFSET(0x19DCA9A0)
+#define AKAUXSENDARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19DC9D40)
+#define AKAUXSENDARRAY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x19DC9DA0)
+#define AKAUXSENDARRAY_GETBUFFER_OFFSET UNITYSDK_OFFSET(0x19DCA960)
+#define AKAUXSENDARRAY_GETOBJECTPTR_OFFSET UNITYSDK_OFFSET(0x19DC9C80)
+#define AKAUXSENDARRAY_GETVALUES_OFFSET UNITYSDK_OFFSET(0x19DCA7D0)
+#define AKAUXSENDARRAY_GET_ISFULL_OFFSET UNITYSDK_OFFSET(0x19DC9CF0)
+#define AKAUXSENDARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x19DC9B90)
+#define AKAUXSENDARRAY_RESET_OFFSET UNITYSDK_OFFSET(0x19DC9E50)
+#define AKAUXSENDARRAY_SETVALUES_OFFSET UNITYSDK_OFFSET(0x19DCA650)
+#define AKAUXSENDARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x19DC9AF0)
 
-inline static constexpr unsigned int AkAuxSendArray_TypeDefinitionIndex = 40416;
+inline static constexpr unsigned int AkAuxSendArray_TypeDefinitionIndex = 41243;
 
 class AkAuxSendArray : public ::System::Object
 {
 public:
 	// static const ::System::Int32 MAX_COUNT = 0x4; // 0x0
 	::System::IntPtr m_Buffer; // 0x10
-	::System::Int32 m_Count; // 0x18
-	::System::Int32 SIZE_OF_AKAUXSENDVALUE; // 0x1C
+	::System::Int32 SIZE_OF_AKAUXSENDVALUE; // 0x18
+	::System::Int32 m_Count; // 0x1C
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKAUXSENDARRAY__CTOR_OFFSET))(this);
 	}
 
-	::AkAuxSendValue* get_Item(::System::Int32 index)
+	::AkAuxSendValue* get_Item(::System::Int32 a1)
 	{
-		return ((::AkAuxSendValue*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKAUXSENDARRAY_GET_ITEM_OFFSET))(this, index);
+		return ((::AkAuxSendValue*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKAUXSENDARRAY_GET_ITEM_OFFSET))(this, a1);
 	}
 
 	::System::Boolean get_isFull()
@@ -62,34 +62,34 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKAUXSENDARRAY_RESET_OFFSET))(this);
 	}
 
-	::System::Boolean Add(::UnityEngine::GameObject* in_listenerGameObj, ::System::UInt32 in_AuxBusID, ::System::Single in_fValue)
+	::System::Boolean Add(::UnityEngine::GameObject* a1, ::System::UInt32 a2, ::System::Single a3)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GameObject*, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + AKAUXSENDARRAY_ADD_OFFSET))(this, in_listenerGameObj, in_AuxBusID, in_fValue);
+		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GameObject*, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + AKAUXSENDARRAY_ADD_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Boolean Add_1(::System::UInt32 in_AuxBusID, ::System::Single in_fValue)
+	::System::Boolean Add_1(::System::UInt32 a1, ::System::Single a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + AKAUXSENDARRAY_ADD_1_OFFSET))(this, in_AuxBusID, in_fValue);
+		return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + AKAUXSENDARRAY_ADD_1_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Contains(::UnityEngine::GameObject* in_listenerGameObj, ::System::UInt32 in_AuxBusID)
+	::System::Boolean Contains(::UnityEngine::GameObject* a1, ::System::UInt32 a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GameObject*, ::System::UInt32))((::PBYTE)hIl2Cpp + AKAUXSENDARRAY_CONTAINS_OFFSET))(this, in_listenerGameObj, in_AuxBusID);
+		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GameObject*, ::System::UInt32))((::PBYTE)hIl2Cpp + AKAUXSENDARRAY_CONTAINS_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Contains_1(::System::UInt32 in_AuxBusID)
+	::System::Boolean Contains_1(::System::UInt32 a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKAUXSENDARRAY_CONTAINS_1_OFFSET))(this, in_AuxBusID);
+		return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKAUXSENDARRAY_CONTAINS_1_OFFSET))(this, a1);
 	}
 
-	::AKRESULT SetValues(::UnityEngine::GameObject* gameObject)
+	::AKRESULT SetValues(::UnityEngine::GameObject* a1)
 	{
-		return ((::AKRESULT(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKAUXSENDARRAY_SETVALUES_OFFSET))(this, gameObject);
+		return ((::AKRESULT(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKAUXSENDARRAY_SETVALUES_OFFSET))(this, a1);
 	}
 
-	::AKRESULT GetValues(::UnityEngine::GameObject* gameObject)
+	::AKRESULT GetValues(::UnityEngine::GameObject* a1)
 	{
-		return ((::AKRESULT(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKAUXSENDARRAY_GETVALUES_OFFSET))(this, gameObject);
+		return ((::AKRESULT(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKAUXSENDARRAY_GETVALUES_OFFSET))(this, a1);
 	}
 
 	::System::IntPtr GetBuffer()
@@ -102,8 +102,8 @@ public:
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKAUXSENDARRAY_COUNT_OFFSET))(this);
 	}
 
-	::System::IntPtr GetObjectPtr(::System::Int32 index)
+	::System::IntPtr GetObjectPtr(::System::Int32 a1)
 	{
-		return ((::System::IntPtr(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKAUXSENDARRAY_GETOBJECTPTR_OFFSET))(this, index);
+		return ((::System::IntPtr(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKAUXSENDARRAY_GETOBJECTPTR_OFFSET))(this, a1);
 	}
 };

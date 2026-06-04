@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_EVOLVEGEARCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19463120)
-#define RPG_GAMECORE_EVOLVEGEARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19463240)
+#define RPG_GAMECORE_EVOLVEGEARCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A3F8690)
+#define RPG_GAMECORE_EVOLVEGEARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3F87B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveGearConfig_TypeDefinitionIndex = 12351;
+	inline static constexpr unsigned int EvolveGearConfig_TypeDefinitionIndex = 12439;
 
 	class EvolveGearConfig : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEGEARCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::EvolveGearConfig*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EvolveGearConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EvolveGearConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEGEARCONFIG_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EvolveGearConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEGEARCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

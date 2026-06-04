@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
 
-class Class_1_D55C9EF3F758FF20_5;
+class Class_1_D55C9EF3F758FF20_4;
 namespace RPG::Client { class ItemData; }
 namespace RPG::Client { class RollShopData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_ROLLSHOPMODULE_GETROLLSHOP_OFFSET UNITYSDK_OFFSET(0x15BAE4A0)
-#define RPG_CLIENT_ROLLSHOPMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x15BAE240)
-#define RPG_CLIENT_ROLLSHOPMODULE_REWARDID2ITEMDATA_OFFSET UNITYSDK_OFFSET(0x15BAE740)
-#define RPG_CLIENT_ROLLSHOPMODULE_SENDGACHAREQUEST_OFFSET UNITYSDK_OFFSET(0x15BAE580)
-#define RPG_CLIENT_ROLLSHOPMODULE_SETGACHARANDOM_OFFSET UNITYSDK_OFFSET(0x15BAE6F0)
-#define RPG_CLIENT_ROLLSHOPMODULE_UPDATEROLLSHOPINFO_OFFSET UNITYSDK_OFFSET(0x15BAE640)
-#define RPG_CLIENT_ROLLSHOPMODULE__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x15BAE460)
-#define RPG_CLIENT_ROLLSHOPMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x15BAE7F0)
-#define RPG_CLIENT_ROLLSHOPMODULE___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x15BAE880)
-#define RPG_CLIENT_ROLLSHOPMODULE___IFIXBASEPROXY__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x15BAE910)
+#define RPG_CLIENT_ROLLSHOPMODULE_GETROLLSHOP_OFFSET UNITYSDK_OFFSET(0x176B5A60)
+#define RPG_CLIENT_ROLLSHOPMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x176B57B0)
+#define RPG_CLIENT_ROLLSHOPMODULE_REWARDID2ITEMDATA_OFFSET UNITYSDK_OFFSET(0x176B5D20)
+#define RPG_CLIENT_ROLLSHOPMODULE_SENDGACHAREQUEST_OFFSET UNITYSDK_OFFSET(0x176B5B10)
+#define RPG_CLIENT_ROLLSHOPMODULE_SETGACHARANDOM_OFFSET UNITYSDK_OFFSET(0x176B5CD0)
+#define RPG_CLIENT_ROLLSHOPMODULE_UPDATEROLLSHOPINFO_OFFSET UNITYSDK_OFFSET(0x176B5BD0)
+#define RPG_CLIENT_ROLLSHOPMODULE__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x176B5A20)
+#define RPG_CLIENT_ROLLSHOPMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x176B5DD0)
+#define RPG_CLIENT_ROLLSHOPMODULE___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x176B5E60)
+#define RPG_CLIENT_ROLLSHOPMODULE___IFIXBASEPROXY__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x176B5EE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RollShopModule_TypeDefinitionIndex = 62581;
+	inline static constexpr unsigned int RollShopModule_TypeDefinitionIndex = 63514;
 
 	class RollShopModule : public ::RPG::Client::BaseModule
 	{
@@ -43,29 +43,29 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLLSHOPMODULE__ADDNOTIFYHANDLERS_OFFSET))(this);
 		}
 
-		::RPG::Client::RollShopData* GetRollShop(::System::UInt32 rollShopID)
+		::RPG::Client::RollShopData* GetRollShop(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::RollShopData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLLSHOPMODULE_GETROLLSHOP_OFFSET))(this, rollShopID);
+			return ((::RPG::Client::RollShopData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLLSHOPMODULE_GETROLLSHOP_OFFSET))(this, a1);
 		}
 
-		::System::Void SendGachaRequest(::System::UInt32 rollShopID, ::System::UInt32 gachaCnt)
+		::System::Void SendGachaRequest(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLLSHOPMODULE_SENDGACHAREQUEST_OFFSET))(this, rollShopID, gachaCnt);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLLSHOPMODULE_SENDGACHAREQUEST_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void UpdateRollShopInfo(::Class_1_D55C9EF3F758FF20_5* rsp)
+		::System::Void UpdateRollShopInfo(::Class_1_D55C9EF3F758FF20_4* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D55C9EF3F758FF20_5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLLSHOPMODULE_UPDATEROLLSHOPINFO_OFFSET))(this, rsp);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D55C9EF3F758FF20_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLLSHOPMODULE_UPDATEROLLSHOPINFO_OFFSET))(this, a1);
 		}
 
-		::System::Void SetGachaRandom(::System::UInt32 newGachaRandom)
+		::System::Void SetGachaRandom(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLLSHOPMODULE_SETGACHARANDOM_OFFSET))(this, newGachaRandom);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLLSHOPMODULE_SETGACHARANDOM_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::ItemData* RewardID2ItemData(::System::UInt32 rewardID)
+		::RPG::Client::ItemData* RewardID2ItemData(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ItemData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLLSHOPMODULE_REWARDID2ITEMDATA_OFFSET))(this, rewardID);
+			return ((::RPG::Client::ItemData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLLSHOPMODULE_REWARDID2ITEMDATA_OFFSET))(this, a1);
 		}
 
 		::System::Void __iFixBaseProxy_Init()

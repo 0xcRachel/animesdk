@@ -6,16 +6,16 @@
 namespace RPG::Client { class ChimeraDuelGameSessionChimera; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT_GET_DELTAATTACK_OFFSET UNITYSDK_OFFSET(0x14FD5720)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT_GET_DELTAHEALTH_OFFSET UNITYSDK_OFFSET(0x14FD5730)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT_GET_MUTATED_OFFSET UNITYSDK_OFFSET(0x14FD5710)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT_VISITTARGETS_OFFSET UNITYSDK_OFFSET(0x14FD58A0)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x14FD5740)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT__IGNOREZERO_OFFSET UNITYSDK_OFFSET(0x14FD5840)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT_GET_DELTAATTACK_OFFSET UNITYSDK_OFFSET(0x17099D50)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT_GET_DELTAHEALTH_OFFSET UNITYSDK_OFFSET(0x17099D60)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT_GET_MUTATED_OFFSET UNITYSDK_OFFSET(0x17099D40)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT_VISITTARGETS_OFFSET UNITYSDK_OFFSET(0x17099ED0)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x17099D70)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT__IGNOREZERO_OFFSET UNITYSDK_OFFSET(0x17099E70)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelShopViewMutationEffect_TypeDefinitionIndex = 71864;
+	inline static constexpr unsigned int ChimeraDuelShopViewMutationEffect_TypeDefinitionIndex = 72886;
 
 	class ChimeraDuelShopViewMutationEffect : public ::RPG::Client::Prop::ChimeraDuelShopViewEffectBase
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client::Prop
 		::System::Nullable_1<::System::Int32> _DeltaHealth_k__BackingField; // 0x18
 		::System::Nullable_1<::System::Int32> _DeltaAttack_k__BackingField; // 0x20
 
-		::System::Void _ctor(::RPG::Client::ChimeraDuelGameSessionChimera* target, ::System::UInt32 newChimeraID, ::System::Int32 deltaAtk, ::System::Int32 deltaHp)
+		::System::Void _ctor(::RPG::Client::ChimeraDuelGameSessionChimera* a1, ::System::UInt32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelGameSessionChimera*, ::System::UInt32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT__CTOR_OFFSET))(this, target, newChimeraID, deltaAtk, deltaHp);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelGameSessionChimera*, ::System::UInt32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::RPG::Client::ChimeraDuelGameSessionChimera* get_Mutated()
@@ -44,14 +44,14 @@ namespace RPG::Client::Prop
 			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT_GET_DELTAHEALTH_OFFSET))(this);
 		}
 
-		::System::Void VisitTargets(::System::Action_1<::System::UInt32>* visit)
+		::System::Void VisitTargets(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT_VISITTARGETS_OFFSET))(this, visit);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT_VISITTARGETS_OFFSET))(this, a1);
 		}
 
-		static ::System::Nullable_1<::System::Int32> _IgnoreZero(::System::Int32 value)
+		static ::System::Nullable_1<::System::Int32> _IgnoreZero(::System::Int32 a1)
 		{
-			return ((::System::Nullable_1<::System::Int32>(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT__IGNOREZERO_OFFSET))(value);
+			return ((::System::Nullable_1<::System::Int32>(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWMUTATIONEFFECT__IGNOREZERO_OFFSET))(a1);
 		}
 	};
 }

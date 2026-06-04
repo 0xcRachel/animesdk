@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_2B2C39A45CFC5540;
+class Class_1_3F916053B9BB8D97;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_GAMECORE_LINEUPCONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19215BA0)
-#define RPG_GAMECORE_LINEUPCONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19215BE0)
-#define RPG_GAMECORE_LINEUPCONTEXT___C__GETMONSTERWAVESTAGECOUNT_B__2_0_OFFSET UNITYSDK_OFFSET(0x19215BF0)
+#define RPG_GAMECORE_LINEUPCONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B825E0)
+#define RPG_GAMECORE_LINEUPCONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19B82620)
+#define RPG_GAMECORE_LINEUPCONTEXT___C__GETMONSTERWAVESTAGECOUNT_B__2_0_OFFSET UNITYSDK_OFFSET(0x19B82630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LineUpContext___c_TypeDefinitionIndex = 51887;
+	inline static constexpr unsigned int LineUpContext___c_TypeDefinitionIndex = 52561;
 
 	class LineUpContext___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_1_2B2C39A45CFC5540*, ::System::Boolean>** StaticGet___9__2_0()
-		{
-			return (::System::Func_2<::Class_1_2B2C39A45CFC5540*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LineUpContext___c_TypeDefinitionIndex)->GetStaticField(0x68D30);
-		}
 		static ::RPG::GameCore::LineUpContext___c** StaticGet___9()
 		{
-			return (::RPG::GameCore::LineUpContext___c**)Il2CppClass::FromTypeDefinitionIndex(LineUpContext___c_TypeDefinitionIndex)->GetStaticField(0x68D38);
+			return (::RPG::GameCore::LineUpContext___c**)Il2CppClass::FromTypeDefinitionIndex(LineUpContext___c_TypeDefinitionIndex)->GetStaticField(0x68200);
+		}
+		static ::System::Func_2<::Class_1_3F916053B9BB8D97*, ::System::Boolean>** StaticGet___9__2_0()
+		{
+			return (::System::Func_2<::Class_1_3F916053B9BB8D97*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LineUpContext___c_TypeDefinitionIndex)->GetStaticField(0x68208);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEUPCONTEXT___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetMonsterWaveStageCount_b__2_0(::Class_1_2B2C39A45CFC5540* info)
+		::System::Boolean _GetMonsterWaveStageCount_b__2_0(::Class_1_3F916053B9BB8D97* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_2B2C39A45CFC5540*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEUPCONTEXT___C__GETMONSTERWAVESTAGECOUNT_B__2_0_OFFSET))(this, info);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_3F916053B9BB8D97*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEUPCONTEXT___C__GETMONSTERWAVESTAGECOUNT_B__2_0_OFFSET))(this, a1);
 		}
 	};
 }

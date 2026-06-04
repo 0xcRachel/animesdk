@@ -13,22 +13,22 @@
 
 namespace Cinemachine { class ICinemachineCamera; }
 
-#define CINEMACHINE_CINEMACHINEPOV_FORCECAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x167C6C00)
-#define CINEMACHINE_CINEMACHINEPOV_GETRECENTERTARGET_OFFSET UNITYSDK_OFFSET(0x167C6800)
-#define CINEMACHINE_CINEMACHINEPOV_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x167C60F0)
-#define CINEMACHINE_CINEMACHINEPOV_GET_STAGE_OFFSET UNITYSDK_OFFSET(0x167C6100)
-#define CINEMACHINE_CINEMACHINEPOV_MUTATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x167C6360)
-#define CINEMACHINE_CINEMACHINEPOV_ONENABLE_OFFSET UNITYSDK_OFFSET(0x167C61C0)
-#define CINEMACHINE_CINEMACHINEPOV_ONTRANSITIONFROMCAMERA_OFFSET UNITYSDK_OFFSET(0x167C74D0)
-#define CINEMACHINE_CINEMACHINEPOV_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x167C6110)
-#define CINEMACHINE_CINEMACHINEPOV_PREPIPELINEMUTATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x167C6350)
-#define CINEMACHINE_CINEMACHINEPOV_SETAXESFORROTATION_OFFSET UNITYSDK_OFFSET(0x167C6C20)
-#define CINEMACHINE_CINEMACHINEPOV_UPDATEINPUTAXISPROVIDER_OFFSET UNITYSDK_OFFSET(0x167C61D0)
-#define CINEMACHINE_CINEMACHINEPOV__CTOR_OFFSET UNITYSDK_OFFSET(0x167C77D0)
+#define CINEMACHINE_CINEMACHINEPOV_FORCECAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x15103440)
+#define CINEMACHINE_CINEMACHINEPOV_GETRECENTERTARGET_OFFSET UNITYSDK_OFFSET(0x15103040)
+#define CINEMACHINE_CINEMACHINEPOV_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x151029C0)
+#define CINEMACHINE_CINEMACHINEPOV_GET_STAGE_OFFSET UNITYSDK_OFFSET(0x151029D0)
+#define CINEMACHINE_CINEMACHINEPOV_MUTATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x15102C30)
+#define CINEMACHINE_CINEMACHINEPOV_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15102A90)
+#define CINEMACHINE_CINEMACHINEPOV_ONTRANSITIONFROMCAMERA_OFFSET UNITYSDK_OFFSET(0x15103D10)
+#define CINEMACHINE_CINEMACHINEPOV_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x151029E0)
+#define CINEMACHINE_CINEMACHINEPOV_PREPIPELINEMUTATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x15102C20)
+#define CINEMACHINE_CINEMACHINEPOV_SETAXESFORROTATION_OFFSET UNITYSDK_OFFSET(0x15103460)
+#define CINEMACHINE_CINEMACHINEPOV_UPDATEINPUTAXISPROVIDER_OFFSET UNITYSDK_OFFSET(0x15102AA0)
+#define CINEMACHINE_CINEMACHINEPOV__CTOR_OFFSET UNITYSDK_OFFSET(0x15104010)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachinePOV_TypeDefinitionIndex = 36548;
+	inline static constexpr unsigned int CinemachinePOV_TypeDefinitionIndex = 36848;
 
 	class CinemachinePOV : public ::Cinemachine::CinemachineComponentBase
 	{
@@ -70,14 +70,14 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPOV_UPDATEINPUTAXISPROVIDER_OFFSET))(this);
 		}
 
-		::System::Void PrePipelineMutateCameraState(::Cinemachine::CameraState& state, ::System::Single deltaTime)
+		::System::Void PrePipelineMutateCameraState(::Cinemachine::CameraState& a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPOV_PREPIPELINEMUTATECAMERASTATE_OFFSET))(this, state, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPOV_PREPIPELINEMUTATECAMERASTATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void MutateCameraState(::Cinemachine::CameraState& curState, ::System::Single deltaTime)
+		::System::Void MutateCameraState(::Cinemachine::CameraState& a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPOV_MUTATECAMERASTATE_OFFSET))(this, curState, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPOV_MUTATECAMERASTATE_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Vector2 GetRecenterTarget()
@@ -85,19 +85,19 @@ namespace Cinemachine
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPOV_GETRECENTERTARGET_OFFSET))(this);
 		}
 
-		::System::Void ForceCameraPosition(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot)
+		::System::Void ForceCameraPosition(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPOV_FORCECAMERAPOSITION_OFFSET))(this, pos, rot);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPOV_FORCECAMERAPOSITION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean OnTransitionFromCamera(::Cinemachine::ICinemachineCamera* fromCam, ::UnityEngine::Vector3 worldUp, ::System::Single deltaTime, ::Cinemachine::CinemachineVirtualCameraBase_TransitionParams& transitionParams)
+		::System::Boolean OnTransitionFromCamera(::Cinemachine::ICinemachineCamera* a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::Cinemachine::CinemachineVirtualCameraBase_TransitionParams& a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::UnityEngine::Vector3, ::System::Single, ::Cinemachine::CinemachineVirtualCameraBase_TransitionParams&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPOV_ONTRANSITIONFROMCAMERA_OFFSET))(this, fromCam, worldUp, deltaTime, transitionParams);
+			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::UnityEngine::Vector3, ::System::Single, ::Cinemachine::CinemachineVirtualCameraBase_TransitionParams&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPOV_ONTRANSITIONFROMCAMERA_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void SetAxesForRotation(::UnityEngine::Quaternion targetRot)
+		::System::Void SetAxesForRotation(::UnityEngine::Quaternion a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPOV_SETAXESFORROTATION_OFFSET))(this, targetRot);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEPOV_SETAXESFORROTATION_OFFSET))(this, a1);
 		}
 	};
 }

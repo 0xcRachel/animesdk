@@ -4,7 +4,7 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_CONFIGURATION_CONFIGURATIONCOLLECTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A75A590)
+#define SYSTEM_CONFIGURATION_CONFIGURATIONCOLLECTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B57EF70)
 
 namespace System::Configuration
 {
@@ -13,9 +13,9 @@ namespace System::Configuration
 	class ConfigurationCollectionAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Void _ctor(::System::Type* itemType)
+		::System::Void _ctor(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_CONFIGURATION_CONFIGURATIONCOLLECTIONATTRIBUTE__CTOR_OFFSET))(this, itemType);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_CONFIGURATION_CONFIGURATIONCOLLECTIONATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

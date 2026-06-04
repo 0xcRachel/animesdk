@@ -4,8 +4,8 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_ISDUPLICATE_OFFSET UNITYSDK_OFFSET(0x2380D00)
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_SET_OFFSET UNITYSDK_OFFSET(0x2380CE0)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_ISDUPLICATE_OFFSET UNITYSDK_OFFSET(0x392D460)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_SET_OFFSET UNITYSDK_OFFSET(0x392D440)
 
 namespace System::Xml
 {
@@ -18,14 +18,14 @@ namespace System::Xml
 		::System::String* localName; // 0x20
 		::System::Int32 prev; // 0x28
 
-		::System::Void Set(::System::String* prefix, ::System::String* localName, ::System::String* namespaceUri)
+		::System::Void Set(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_SET_OFFSET))(this, prefix, localName, namespaceUri);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_SET_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean IsDuplicate(::System::String* prefix, ::System::String* localName, ::System::String* namespaceUri)
+		::System::Boolean IsDuplicate(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_ISDUPLICATE_OFFSET))(this, prefix, localName, namespaceUri);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_ISDUPLICATE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_310D67B31C67B0C3;
+class Class_1_059915F1CFEF189E;
 class Class_1_F3391C70DC37088D;
 namespace RPG::Client { class TalkDebateUIControlData; }
 namespace RPG::GameCore { class DebateTestimonySetting; }
@@ -13,43 +13,43 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_C111985823ED1A98_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF7634C0)
-#define CLASS_1_C111985823ED1A98_METHOD_1_0F30679B05E70FC1_OFFSET UNITYSDK_OFFSET(0xF763B80)
-#define CLASS_1_C111985823ED1A98_METHOD_1_242E861C22A24AF8_OFFSET UNITYSDK_OFFSET(0xF764050)
-#define CLASS_1_C111985823ED1A98_METHOD_1_2ADDC85169A509AB_OFFSET UNITYSDK_OFFSET(0xF763740)
-#define CLASS_1_C111985823ED1A98_METHOD_1_460F8AE6EF9687FD_OFFSET UNITYSDK_OFFSET(0xF763C40)
-#define CLASS_1_C111985823ED1A98_METHOD_1_4EA6B1791DACA9CC_OFFSET UNITYSDK_OFFSET(0xF763DB0)
-#define CLASS_1_C111985823ED1A98_METHOD_1_635445A7258F7A25_OFFSET UNITYSDK_OFFSET(0xF764490)
-#define CLASS_1_C111985823ED1A98_METHOD_1_73D9152D2B0F9D38_OFFSET UNITYSDK_OFFSET(0xF7642F0)
-#define CLASS_1_C111985823ED1A98_METHOD_1_7C41A79FCDF3C4D8_OFFSET UNITYSDK_OFFSET(0xF764790)
-#define CLASS_1_C111985823ED1A98_METHOD_1_858867D5D29B5F72_OFFSET UNITYSDK_OFFSET(0xF763AF0)
-#define CLASS_1_C111985823ED1A98_METHOD_1_8D61BE16C9463302_OFFSET UNITYSDK_OFFSET(0xF7638A0)
-#define CLASS_1_C111985823ED1A98_METHOD_1_A10DADB5B6A4C8AC_OFFSET UNITYSDK_OFFSET(0xF764610)
-#define CLASS_1_C111985823ED1A98_METHOD_1_F390A81E071CC72C_OFFSET UNITYSDK_OFFSET(0xF763FD0)
-#define CLASS_1_C111985823ED1A98_METHOD_1_F3DC69CDF2DF8EF5_OFFSET UNITYSDK_OFFSET(0xF763840)
-#define CLASS_1_C111985823ED1A98_TICK_OFFSET UNITYSDK_OFFSET(0xF7636D0)
-#define CLASS_1_C111985823ED1A98__CTOR_OFFSET UNITYSDK_OFFSET(0xF763430)
+#define CLASS_1_C111985823ED1A98_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13C570B0)
+#define CLASS_1_C111985823ED1A98_METHOD_1_0A33F82BD72BC622_OFFSET UNITYSDK_OFFSET(0x13C57370)
+#define CLASS_1_C111985823ED1A98_METHOD_1_0F30679B05E70FC1_OFFSET UNITYSDK_OFFSET(0x13C577D0)
+#define CLASS_1_C111985823ED1A98_METHOD_1_242E861C22A24AF8_OFFSET UNITYSDK_OFFSET(0x13C57CB0)
+#define CLASS_1_C111985823ED1A98_METHOD_1_460F8AE6EF9687FD_OFFSET UNITYSDK_OFFSET(0x13C57890)
+#define CLASS_1_C111985823ED1A98_METHOD_1_4EA6B1791DACA9CC_OFFSET UNITYSDK_OFFSET(0x13C57A00)
+#define CLASS_1_C111985823ED1A98_METHOD_1_7B7D6BD6F55BCF32_OFFSET UNITYSDK_OFFSET(0x13C58000)
+#define CLASS_1_C111985823ED1A98_METHOD_1_7C41A79FCDF3C4D8_OFFSET UNITYSDK_OFFSET(0x13C58510)
+#define CLASS_1_C111985823ED1A98_METHOD_1_858867D5D29B5F72_OFFSET UNITYSDK_OFFSET(0x13C57740)
+#define CLASS_1_C111985823ED1A98_METHOD_1_96BDC4B57CCFE000_OFFSET UNITYSDK_OFFSET(0x13C58370)
+#define CLASS_1_C111985823ED1A98_METHOD_1_AAD864A9DF964170_OFFSET UNITYSDK_OFFSET(0x13C574D0)
+#define CLASS_1_C111985823ED1A98_METHOD_1_DAE67D4DC8B67113_OFFSET UNITYSDK_OFFSET(0x13C581C0)
+#define CLASS_1_C111985823ED1A98_METHOD_1_F390A81E071CC72C_OFFSET UNITYSDK_OFFSET(0x13C57C30)
+#define CLASS_1_C111985823ED1A98_METHOD_1_F3DC69CDF2DF8EF5_OFFSET UNITYSDK_OFFSET(0x13C57470)
+#define CLASS_1_C111985823ED1A98_TICK_OFFSET UNITYSDK_OFFSET(0x13C57300)
+#define CLASS_1_C111985823ED1A98__CTOR_OFFSET UNITYSDK_OFFSET(0x13C57020)
 
-inline static constexpr unsigned int Class_1_C111985823ED1A98_TypeDefinitionIndex = 55970;
+inline static constexpr unsigned int Class_1_C111985823ED1A98_TypeDefinitionIndex = 56726;
 
 class Class_1_C111985823ED1A98 : public ::System::Object
 {
 public:
-	// static const ::System::String* Field_1_9; // 0x0
-	// static const ::System::String* Field_1_10; // 0x0
-	::RPG::GameCore::SelectMissionItem* Field_1_2; // 0x10
+	// static const ::System::String* Field_1_0; // 0x0
+	// static const ::System::String* Field_1_1; // 0x0
+	::RPG::GameCore::DebateTestimonySetting* Field_1_2; // 0x10
 	::Class_1_F3391C70DC37088D* Field_1_3; // 0x18
-	::Class_1_310D67B31C67B0C3* Field_1_6; // 0x20
-	::RPG::GameCore::DebateTestimonySetting* Field_1_4; // 0x28
-	::RPG::GameCore::TaskContext* Field_1_5; // 0x30
-	::System::Collections::Generic::HashSet_1<::System::UInt32>* Field_1_1; // 0x38
-	::System::Collections::Generic::List_1<::RPG::GameCore::OptionTalkInfo*>* Field_1_8; // 0x40
-	::RPG::Client::TalkDebateUIControlData* Field_1_7; // 0x48
-	::System::Boolean Field_1_0; // 0x50
+	::RPG::GameCore::SelectMissionItem* Field_1_4; // 0x20
+	::RPG::GameCore::TaskContext* Field_1_5; // 0x28
+	::Class_1_059915F1CFEF189E* Field_1_6; // 0x30
+	::RPG::Client::TalkDebateUIControlData* Field_1_7; // 0x38
+	::System::Collections::Generic::HashSet_1<::System::UInt32>* Field_1_8; // 0x40
+	::System::Collections::Generic::List_1<::RPG::GameCore::OptionTalkInfo*>* Field_1_9; // 0x48
+	::System::Boolean Field_1_10; // 0x50
 
-	::System::Void _ctor(::RPG::GameCore::DebateTestimonySetting* a1, ::RPG::GameCore::TaskContext* a2, ::Class_1_310D67B31C67B0C3* a3)
+	::System::Void _ctor(::RPG::GameCore::DebateTestimonySetting* a1, ::RPG::GameCore::TaskContext* a2, ::Class_1_059915F1CFEF189E* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DebateTestimonySetting*, ::RPG::GameCore::TaskContext*, ::Class_1_310D67B31C67B0C3*))((::PBYTE)hIl2Cpp + CLASS_1_C111985823ED1A98__CTOR_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DebateTestimonySetting*, ::RPG::GameCore::TaskContext*, ::Class_1_059915F1CFEF189E*))((::PBYTE)hIl2Cpp + CLASS_1_C111985823ED1A98__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Void Dispose()
@@ -62,14 +62,14 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_C111985823ED1A98_TICK_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_2ADDC85169A509AB()
+	::System::Void Method_1_0A33F82BD72BC622()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C111985823ED1A98_METHOD_1_2ADDC85169A509AB_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C111985823ED1A98_METHOD_1_0A33F82BD72BC622_OFFSET))(this);
 	}
 
-	::System::Void Method_1_8D61BE16C9463302()
+	::System::Void Method_1_AAD864A9DF964170()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C111985823ED1A98_METHOD_1_8D61BE16C9463302_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C111985823ED1A98_METHOD_1_AAD864A9DF964170_OFFSET))(this);
 	}
 
 	::System::Boolean Method_1_0F30679B05E70FC1()
@@ -87,19 +87,19 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C111985823ED1A98_METHOD_1_4EA6B1791DACA9CC_OFFSET))(this);
 	}
 
-	::System::Void Method_1_73D9152D2B0F9D38(::System::Object* a1)
+	::System::Void Method_1_7B7D6BD6F55BCF32(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_C111985823ED1A98_METHOD_1_73D9152D2B0F9D38_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_C111985823ED1A98_METHOD_1_7B7D6BD6F55BCF32_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_635445A7258F7A25(::System::Object* a1)
+	::System::Void Method_1_DAE67D4DC8B67113(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_C111985823ED1A98_METHOD_1_635445A7258F7A25_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_C111985823ED1A98_METHOD_1_DAE67D4DC8B67113_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_A10DADB5B6A4C8AC(::System::Object* a1)
+	::System::Void Method_1_96BDC4B57CCFE000(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_C111985823ED1A98_METHOD_1_A10DADB5B6A4C8AC_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_C111985823ED1A98_METHOD_1_96BDC4B57CCFE000_OFFSET))(this, a1);
 	}
 
 	::RPG::GameCore::SelectMissionItem* Method_1_858867D5D29B5F72()

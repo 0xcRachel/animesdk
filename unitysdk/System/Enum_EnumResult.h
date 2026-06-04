@@ -7,15 +7,15 @@ namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_ENUM_ENUMRESULT_GETENUMPARSEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x229EB70)
-#define SYSTEM_ENUM_ENUMRESULT_INIT_OFFSET UNITYSDK_OFFSET(0x229EAB0)
-#define SYSTEM_ENUM_ENUMRESULT_SETFAILURE_1_OFFSET UNITYSDK_OFFSET(0x229EB00)
-#define SYSTEM_ENUM_ENUMRESULT_SETFAILURE_2_OFFSET UNITYSDK_OFFSET(0x229EB30)
-#define SYSTEM_ENUM_ENUMRESULT_SETFAILURE_OFFSET UNITYSDK_OFFSET(0x229EAF0)
+#define SYSTEM_ENUM_ENUMRESULT_GETENUMPARSEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x382C8A0)
+#define SYSTEM_ENUM_ENUMRESULT_INIT_OFFSET UNITYSDK_OFFSET(0x382C7E0)
+#define SYSTEM_ENUM_ENUMRESULT_SETFAILURE_1_OFFSET UNITYSDK_OFFSET(0x382C830)
+#define SYSTEM_ENUM_ENUMRESULT_SETFAILURE_2_OFFSET UNITYSDK_OFFSET(0x382C860)
+#define SYSTEM_ENUM_ENUMRESULT_SETFAILURE_OFFSET UNITYSDK_OFFSET(0x382C820)
 
 namespace System
 {
-	inline static constexpr unsigned int Enum_EnumResult_TypeDefinitionIndex = 240;
+	inline static constexpr unsigned int Enum_EnumResult_TypeDefinitionIndex = 239;
 
 	struct alignas(8) Enum_EnumResult
 	{
@@ -27,24 +27,24 @@ namespace System
 		::System::Object* m_failureMessageFormatArgument; // 0x30
 		::System::Exception* m_innerException; // 0x38
 
-		::System::Void Init(::System::Boolean canMethodThrow)
+		::System::Void Init(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_ENUMRESULT_INIT_OFFSET))(this, canMethodThrow);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_ENUMRESULT_INIT_OFFSET))(this, a1);
 		}
 
-		::System::Void SetFailure(::System::Exception* unhandledException)
+		::System::Void SetFailure(::System::Exception* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_ENUMRESULT_SETFAILURE_OFFSET))(this, unhandledException);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_ENUMRESULT_SETFAILURE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetFailure_1(::System::Enum_ParseFailureKind failure, ::System::String* failureParameter)
+		::System::Void SetFailure_1(::System::Enum_ParseFailureKind a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Enum_ParseFailureKind, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_ENUMRESULT_SETFAILURE_1_OFFSET))(this, failure, failureParameter);
+			return ((::System::Void(*)(::PVOID, ::System::Enum_ParseFailureKind, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_ENUMRESULT_SETFAILURE_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetFailure_2(::System::Enum_ParseFailureKind failure, ::System::String* failureMessageID, ::System::Object* failureMessageFormatArgument)
+		::System::Void SetFailure_2(::System::Enum_ParseFailureKind a1, ::System::String* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Enum_ParseFailureKind, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_ENUMRESULT_SETFAILURE_2_OFFSET))(this, failure, failureMessageID, failureMessageFormatArgument);
+			return ((::System::Void(*)(::PVOID, ::System::Enum_ParseFailureKind, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_ENUMRESULT_SETFAILURE_2_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Exception* GetEnumParseException()

@@ -7,29 +7,29 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Xml::Linq { class XElement; }
 
-#define NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_APPENDCHILD_OFFSET UNITYSDK_OFFSET(0x17B58290)
-#define NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_GETPREFIXOFNAMESPACE_OFFSET UNITYSDK_OFFSET(0x17B581D0)
-#define NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x17B57770)
-#define NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_GET_ELEMENT_OFFSET UNITYSDK_OFFSET(0x17B57610)
-#define NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x17B583B0)
-#define NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x17B58330)
-#define NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_GET_NAMESPACEURI_OFFSET UNITYSDK_OFFSET(0x17B58140)
-#define NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x17B582C0)
-#define NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_SETATTRIBUTENODE_OFFSET UNITYSDK_OFFSET(0x17B57680)
-#define NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x17B560F0)
+#define NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_APPENDCHILD_OFFSET UNITYSDK_OFFSET(0x173969A0)
+#define NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_GETPREFIXOFNAMESPACE_OFFSET UNITYSDK_OFFSET(0x173968E0)
+#define NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x17395EA0)
+#define NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_GET_ELEMENT_OFFSET UNITYSDK_OFFSET(0x17395D30)
+#define NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x17396AE0)
+#define NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x17396A50)
+#define NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_GET_NAMESPACEURI_OFFSET UNITYSDK_OFFSET(0x17396850)
+#define NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x173969D0)
+#define NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_SETATTRIBUTENODE_OFFSET UNITYSDK_OFFSET(0x17395DA0)
+#define NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x173947C0)
 
 namespace Newtonsoft::Json::Converters
 {
-	inline static constexpr unsigned int XElementWrapper_TypeDefinitionIndex = 8592;
+	inline static constexpr unsigned int XElementWrapper_TypeDefinitionIndex = 9495;
 
 	class XElementWrapper : public ::Newtonsoft::Json::Converters::XContainerWrapper
 	{
 	public:
 		::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* _attributes; // 0x20
 
-		::System::Void _ctor(::System::Xml::Linq::XElement* element)
+		::System::Void _ctor(::System::Xml::Linq::XElement* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XElement*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER__CTOR_OFFSET))(this, element);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XElement*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Xml::Linq::XElement* get_Element()
@@ -37,9 +37,9 @@ namespace Newtonsoft::Json::Converters
 			return ((::System::Xml::Linq::XElement*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_GET_ELEMENT_OFFSET))(this);
 		}
 
-		::System::Void SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode* attribute)
+		::System::Void SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Converters::IXmlNode*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_SETATTRIBUTENODE_OFFSET))(this, attribute);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Converters::IXmlNode*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_SETATTRIBUTENODE_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_Attributes()
@@ -47,9 +47,9 @@ namespace Newtonsoft::Json::Converters
 			return ((::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_GET_ATTRIBUTES_OFFSET))(this);
 		}
 
-		::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* newChild)
+		::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* a1)
 		{
-			return ((::Newtonsoft::Json::Converters::IXmlNode*(*)(::PVOID, ::Newtonsoft::Json::Converters::IXmlNode*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_APPENDCHILD_OFFSET))(this, newChild);
+			return ((::Newtonsoft::Json::Converters::IXmlNode*(*)(::PVOID, ::Newtonsoft::Json::Converters::IXmlNode*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_APPENDCHILD_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Value()
@@ -67,9 +67,9 @@ namespace Newtonsoft::Json::Converters
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_GET_NAMESPACEURI_OFFSET))(this);
 		}
 
-		::System::String* GetPrefixOfNamespace(::System::String* namespaceUri)
+		::System::String* GetPrefixOfNamespace(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_GETPREFIXOFNAMESPACE_OFFSET))(this, namespaceUri);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XELEMENTWRAPPER_GETPREFIXOFNAMESPACE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsEmpty()

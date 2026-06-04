@@ -5,29 +5,29 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_AFFECTSAGENTTYPE_OFFSET UNITYSDK_OFFSET(0x1A728010)
-#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_GET_ACTIVEMODIFIERS_OFFSET UNITYSDK_OFFSET(0x1A727E30)
-#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_GET_AREA_OFFSET UNITYSDK_OFFSET(0x1A727E10)
-#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_GET_CENTER_OFFSET UNITYSDK_OFFSET(0x1A727DE0)
-#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x1A727DB0)
-#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A727F80)
-#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A727E90)
-#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_SET_AREA_OFFSET UNITYSDK_OFFSET(0x1A727E20)
-#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_SET_CENTER_OFFSET UNITYSDK_OFFSET(0x1A727E00)
-#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_SET_SIZE_OFFSET UNITYSDK_OFFSET(0x1A727DD0)
-#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A7280F0)
-#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1A728060)
+#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_AFFECTSAGENTTYPE_OFFSET UNITYSDK_OFFSET(0x1B55C6D0)
+#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_GET_ACTIVEMODIFIERS_OFFSET UNITYSDK_OFFSET(0x1B55C410)
+#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_GET_AREA_OFFSET UNITYSDK_OFFSET(0x1B55C3F0)
+#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_GET_CENTER_OFFSET UNITYSDK_OFFSET(0x1B55C3C0)
+#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x1B55C390)
+#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B55C640)
+#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B55C470)
+#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_SET_AREA_OFFSET UNITYSDK_OFFSET(0x1B55C400)
+#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_SET_CENTER_OFFSET UNITYSDK_OFFSET(0x1B55C3E0)
+#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_SET_SIZE_OFFSET UNITYSDK_OFFSET(0x1B55C3B0)
+#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B55C7F0)
+#define UNITYENGINE_AI_NAVMESHMODIFIERVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B55C770)
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMeshModifierVolume_TypeDefinitionIndex = 37655;
+	inline static constexpr unsigned int NavMeshModifierVolume_TypeDefinitionIndex = 38387;
 
 	class NavMeshModifierVolume : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshModifierVolume*>** StaticGet_s_NavMeshModifiers()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshModifierVolume*>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshModifierVolume_TypeDefinitionIndex)->GetStaticField(0x10C0);
+			return (::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshModifierVolume*>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshModifierVolume_TypeDefinitionIndex)->GetStaticField(0xFF0);
 		}
 		::UnityEngine::Vector3 m_Size; // 0x18
 		::UnityEngine::Vector3 m_Center; // 0x24
@@ -49,9 +49,9 @@ namespace UnityEngine::AI
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_GET_SIZE_OFFSET))(this);
 		}
 
-		::System::Void set_size(::UnityEngine::Vector3 value)
+		::System::Void set_size(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_SET_SIZE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_SET_SIZE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 get_center()
@@ -59,9 +59,9 @@ namespace UnityEngine::AI
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_GET_CENTER_OFFSET))(this);
 		}
 
-		::System::Void set_center(::UnityEngine::Vector3 value)
+		::System::Void set_center(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_SET_CENTER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_SET_CENTER_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_area()
@@ -69,9 +69,9 @@ namespace UnityEngine::AI
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_GET_AREA_OFFSET))(this);
 		}
 
-		::System::Void set_area(::System::Int32 value)
+		::System::Void set_area(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_SET_AREA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_SET_AREA_OFFSET))(this, a1);
 		}
 
 		static ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshModifierVolume*>* get_activeModifiers()
@@ -89,9 +89,9 @@ namespace UnityEngine::AI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_ONDISABLE_OFFSET))(this);
 		}
 
-		::System::Boolean AffectsAgentType(::System::Int32 agentTypeID)
+		::System::Boolean AffectsAgentType(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_AFFECTSAGENTTYPE_OFFSET))(this, agentTypeID);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHMODIFIERVOLUME_AFFECTSAGENTTYPE_OFFSET))(this, a1);
 		}
 	};
 }

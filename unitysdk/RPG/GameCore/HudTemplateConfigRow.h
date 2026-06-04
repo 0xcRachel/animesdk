@@ -7,19 +7,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_HUDTEMPLATECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A82C90)
-#define RPG_GAMECORE_HUDTEMPLATECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A83380)
+#define RPG_GAMECORE_HUDTEMPLATECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19ACF1B0)
+#define RPG_GAMECORE_HUDTEMPLATECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19ACF830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HudTemplateConfigRow_TypeDefinitionIndex = 13043;
+	inline static constexpr unsigned int HudTemplateConfigRow_TypeDefinitionIndex = 13126;
 
 	class HudTemplateConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* LockInputActionName; // 0x10
-		::Il2CppArray<::RPG::GameCore::HudType>* HideHudUINodeList; // 0x18
-		::Il2CppArray<::RPG::GameCore::GotoType>* LockGotoTypeList; // 0x20
+		::Il2CppArray<::RPG::GameCore::GotoType>* LockGotoTypeList; // 0x10
+		::Il2CppArray<::System::String*>* LockInputActionName; // 0x18
+		::Il2CppArray<::RPG::GameCore::HudType>* HideHudUINodeList; // 0x20
 		::System::UInt32 ID; // 0x28
 		::System::UInt32 ActionOperationSetID; // 0x2C
 
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HUDTEMPLATECONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::HudTemplateConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HudTemplateConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HudTemplateConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HUDTEMPLATECONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HudTemplateConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HUDTEMPLATECONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

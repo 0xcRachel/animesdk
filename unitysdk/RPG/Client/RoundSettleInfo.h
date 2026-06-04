@@ -2,38 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_3AD2528CD53B1639_3;
+class Class_1_3AD2528CD53B1639_4;
 namespace RPG::Client { class ChenLingDamageSettleInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROUNDSETTLEINFO_GET_COINCOUNT_OFFSET UNITYSDK_OFFSET(0x15BAFD50)
-#define RPG_CLIENT_ROUNDSETTLEINFO_GET_HP_OFFSET UNITYSDK_OFFSET(0x15BAFD90)
-#define RPG_CLIENT_ROUNDSETTLEINFO_GET_ISWIN_OFFSET UNITYSDK_OFFSET(0x15BAFD70)
-#define RPG_CLIENT_ROUNDSETTLEINFO_GET_MAXHP_OFFSET UNITYSDK_OFFSET(0x15BAFDB0)
-#define RPG_CLIENT_ROUNDSETTLEINFO_GET_SOLIDERDAMAGEINFOS_OFFSET UNITYSDK_OFFSET(0x15BAFDD0)
-#define RPG_CLIENT_ROUNDSETTLEINFO_SET_COINCOUNT_OFFSET UNITYSDK_OFFSET(0x15BAFD60)
-#define RPG_CLIENT_ROUNDSETTLEINFO_SET_HP_OFFSET UNITYSDK_OFFSET(0x15BAFDA0)
-#define RPG_CLIENT_ROUNDSETTLEINFO_SET_ISWIN_OFFSET UNITYSDK_OFFSET(0x15BAFD80)
-#define RPG_CLIENT_ROUNDSETTLEINFO_SET_MAXHP_OFFSET UNITYSDK_OFFSET(0x15BAFDC0)
-#define RPG_CLIENT_ROUNDSETTLEINFO_SET_SOLIDERDAMAGEINFOS_OFFSET UNITYSDK_OFFSET(0x15BAFDE0)
-#define RPG_CLIENT_ROUNDSETTLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15BAF910)
+#define RPG_CLIENT_ROUNDSETTLEINFO_GET_COINCOUNT_OFFSET UNITYSDK_OFFSET(0x176B7250)
+#define RPG_CLIENT_ROUNDSETTLEINFO_GET_HP_OFFSET UNITYSDK_OFFSET(0x176B7290)
+#define RPG_CLIENT_ROUNDSETTLEINFO_GET_ISWIN_OFFSET UNITYSDK_OFFSET(0x176B7270)
+#define RPG_CLIENT_ROUNDSETTLEINFO_GET_MAXHP_OFFSET UNITYSDK_OFFSET(0x176B72B0)
+#define RPG_CLIENT_ROUNDSETTLEINFO_GET_SOLIDERDAMAGEINFOS_OFFSET UNITYSDK_OFFSET(0x176B72D0)
+#define RPG_CLIENT_ROUNDSETTLEINFO_SET_COINCOUNT_OFFSET UNITYSDK_OFFSET(0x176B7260)
+#define RPG_CLIENT_ROUNDSETTLEINFO_SET_HP_OFFSET UNITYSDK_OFFSET(0x176B72A0)
+#define RPG_CLIENT_ROUNDSETTLEINFO_SET_ISWIN_OFFSET UNITYSDK_OFFSET(0x176B7280)
+#define RPG_CLIENT_ROUNDSETTLEINFO_SET_MAXHP_OFFSET UNITYSDK_OFFSET(0x176B72C0)
+#define RPG_CLIENT_ROUNDSETTLEINFO_SET_SOLIDERDAMAGEINFOS_OFFSET UNITYSDK_OFFSET(0x176B72E0)
+#define RPG_CLIENT_ROUNDSETTLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x176B6F10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoundSettleInfo_TypeDefinitionIndex = 56664;
+	inline static constexpr unsigned int RoundSettleInfo_TypeDefinitionIndex = 57441;
 
 	class RoundSettleInfo : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::ChenLingDamageSettleInfo*>* _SoliderDamageInfos_k__BackingField; // 0x10
-		::System::UInt32 _MaxHp_k__BackingField; // 0x18
+		::System::UInt32 _CoinCount_k__BackingField; // 0x18
 		::System::Boolean _IsWin_k__BackingField; // 0x1C
 		::System::UInt32 _Hp_k__BackingField; // 0x20
-		::System::UInt32 _CoinCount_k__BackingField; // 0x24
+		::System::UInt32 _MaxHp_k__BackingField; // 0x24
 
-		::System::Void _ctor(::Class_1_3AD2528CD53B1639_3* rsp, ::System::UInt32 maxHp)
+		::System::Void _ctor(::Class_1_3AD2528CD53B1639_4* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_3AD2528CD53B1639_3*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROUNDSETTLEINFO__CTOR_OFFSET))(this, rsp, maxHp);
+			return ((::System::Void(*)(::PVOID, ::Class_1_3AD2528CD53B1639_4*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROUNDSETTLEINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 get_CoinCount()
@@ -41,9 +41,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROUNDSETTLEINFO_GET_COINCOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_CoinCount(::System::UInt32 value)
+		::System::Void set_CoinCount(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROUNDSETTLEINFO_SET_COINCOUNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROUNDSETTLEINFO_SET_COINCOUNT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsWin()
@@ -51,9 +51,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROUNDSETTLEINFO_GET_ISWIN_OFFSET))(this);
 		}
 
-		::System::Void set_IsWin(::System::Boolean value)
+		::System::Void set_IsWin(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROUNDSETTLEINFO_SET_ISWIN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROUNDSETTLEINFO_SET_ISWIN_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_Hp()
@@ -61,9 +61,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROUNDSETTLEINFO_GET_HP_OFFSET))(this);
 		}
 
-		::System::Void set_Hp(::System::UInt32 value)
+		::System::Void set_Hp(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROUNDSETTLEINFO_SET_HP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROUNDSETTLEINFO_SET_HP_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_MaxHp()
@@ -71,9 +71,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROUNDSETTLEINFO_GET_MAXHP_OFFSET))(this);
 		}
 
-		::System::Void set_MaxHp(::System::UInt32 value)
+		::System::Void set_MaxHp(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROUNDSETTLEINFO_SET_MAXHP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROUNDSETTLEINFO_SET_MAXHP_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::ChenLingDamageSettleInfo*>* get_SoliderDamageInfos()
@@ -81,9 +81,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::ChenLingDamageSettleInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROUNDSETTLEINFO_GET_SOLIDERDAMAGEINFOS_OFFSET))(this);
 		}
 
-		::System::Void set_SoliderDamageInfos(::System::Collections::Generic::List_1<::RPG::Client::ChenLingDamageSettleInfo*>* value)
+		::System::Void set_SoliderDamageInfos(::System::Collections::Generic::List_1<::RPG::Client::ChenLingDamageSettleInfo*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChenLingDamageSettleInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROUNDSETTLEINFO_SET_SOLIDERDAMAGEINFOS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChenLingDamageSettleInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROUNDSETTLEINFO_SET_SOLIDERDAMAGEINFOS_OFFSET))(this, a1);
 		}
 	};
 }

@@ -9,40 +9,40 @@ namespace System::Security::Util { class Tokenizer_ITokenReader; }
 namespace System::Security::Util { class Tokenizer_StringMaker; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_BASICINITIALIZATION_OFFSET UNITYSDK_OFFSET(0x16DB5CA0)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_CHANGEFORMAT_OFFSET UNITYSDK_OFFSET(0x16DB4CD0)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_GETSTRINGTOKEN_OFFSET UNITYSDK_OFFSET(0x16DB64A0)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_GETTOKENS_OFFSET UNITYSDK_OFFSET(0x16DB3E60)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_RECYCLE_OFFSET UNITYSDK_OFFSET(0x16DB5AF0)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x16DB5C10)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_BASICINITIALIZATION_OFFSET UNITYSDK_OFFSET(0x142DAFD0)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_CHANGEFORMAT_OFFSET UNITYSDK_OFFSET(0x142D9BF0)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_GETSTRINGTOKEN_OFFSET UNITYSDK_OFFSET(0x142DB7D0)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_GETTOKENS_OFFSET UNITYSDK_OFFSET(0x142D8DD0)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_RECYCLE_OFFSET UNITYSDK_OFFSET(0x142DAE20)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x142DAF40)
 
 namespace System::Security::Util
 {
-	inline static constexpr unsigned int Tokenizer_TypeDefinitionIndex = 969;
+	inline static constexpr unsigned int Tokenizer_TypeDefinitionIndex = 968;
 
 	class Tokenizer : public ::System::Object
 	{
 	public:
-		::System::Security::Util::Tokenizer_StringMaker* _maker; // 0x10
-		::System::Security::Util::Tokenizer_ITokenReader* _inTokenReader; // 0x18
-		::System::String* _inNestedString; // 0x20
-		::System::String* _inString; // 0x28
-		::Il2CppArray<::System::Char>* _inChars; // 0x30
-		::Il2CppArray<::System::String*>* _replaceStrings; // 0x38
-		::Il2CppArray<::System::String*>* _searchStrings; // 0x40
-		::Il2CppArray<::System::Byte>* _inBytes; // 0x48
-		::System::Security::Util::Tokenizer_TokenSource _inTokenSource; // 0x50
+		::System::String* _inString; // 0x10
+		::Il2CppArray<::System::Char>* _inChars; // 0x18
+		::Il2CppArray<::System::Byte>* _inBytes; // 0x20
+		::Il2CppArray<::System::String*>* _replaceStrings; // 0x28
+		::Il2CppArray<::System::String*>* _searchStrings; // 0x30
+		::System::Security::Util::Tokenizer_ITokenReader* _inTokenReader; // 0x38
+		::System::String* _inNestedString; // 0x40
+		::System::Security::Util::Tokenizer_StringMaker* _maker; // 0x48
+		::System::Int32 LineNo; // 0x50
 		::System::Int32 _inSavedCharacter; // 0x54
-		::System::Int32 _inNestedIndex; // 0x58
+		::System::Int32 _inNestedSize; // 0x58
 		::System::Int32 _inSize; // 0x5C
-		::System::Int32 LineNo; // 0x60
-		::System::Int32 _inIndex; // 0x64
-		::System::Int32 _inNestedSize; // 0x68
-		::System::Int32 _inProcessingTag; // 0x6C
+		::System::Int32 _inIndex; // 0x60
+		::System::Int32 _inProcessingTag; // 0x64
+		::System::Int32 _inNestedIndex; // 0x68
+		::System::Security::Util::Tokenizer_TokenSource _inTokenSource; // 0x6C
 
-		::System::Void _ctor(::System::String* input)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZER__CTOR_OFFSET))(this, input);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZER__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void BasicInitialization()
@@ -55,14 +55,14 @@ namespace System::Security::Util
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZER_RECYCLE_OFFSET))(this);
 		}
 
-		::System::Void ChangeFormat(::System::Text::Encoding* encoding)
+		::System::Void ChangeFormat(::System::Text::Encoding* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZER_CHANGEFORMAT_OFFSET))(this, encoding);
+			return ((::System::Void(*)(::PVOID, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZER_CHANGEFORMAT_OFFSET))(this, a1);
 		}
 
-		::System::Void GetTokens(::System::Security::Util::TokenizerStream* stream, ::System::Int32 maxNum, ::System::Boolean endAfterKet)
+		::System::Void GetTokens(::System::Security::Util::TokenizerStream* a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Security::Util::TokenizerStream*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZER_GETTOKENS_OFFSET))(this, stream, maxNum, endAfterKet);
+			return ((::System::Void(*)(::PVOID, ::System::Security::Util::TokenizerStream*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZER_GETTOKENS_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::String* GetStringToken()

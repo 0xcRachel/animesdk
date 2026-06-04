@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
-#define CINEMACHINE_CINEMACHINECOMPOSER_FOVCACHE_SCREENTOFOV_OFFSET UNITYSDK_OFFSET(0x225F230)
-#define CINEMACHINE_CINEMACHINECOMPOSER_FOVCACHE_UPDATECACHE_OFFSET UNITYSDK_OFFSET(0x225F1C0)
+#define CINEMACHINE_CINEMACHINECOMPOSER_FOVCACHE_SCREENTOFOV_OFFSET UNITYSDK_OFFSET(0x37A16E0)
+#define CINEMACHINE_CINEMACHINECOMPOSER_FOVCACHE_UPDATECACHE_OFFSET UNITYSDK_OFFSET(0x37A1670)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineComposer_FovCache_TypeDefinitionIndex = 36534;
+	inline static constexpr unsigned int CinemachineComposer_FovCache_TypeDefinitionIndex = 36834;
 
 	struct alignas(4) CinemachineComposer_FovCache
 	{
@@ -22,15 +22,15 @@ namespace Cinemachine
 		::UnityEngine::Rect mHardGuideRect; // 0x50
 
 		/*
-		::System::Void UpdateCache(::Cinemachine::LensSettings lens, ::UnityEngine::Rect softGuide, ::UnityEngine::Rect hardGuide, ::System::Single targetDistance)
+		::System::Void UpdateCache(::Cinemachine::LensSettings a1, ::UnityEngine::Rect a2, ::UnityEngine::Rect a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::LensSettings, ::UnityEngine::Rect, ::UnityEngine::Rect, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOMPOSER_FOVCACHE_UPDATECACHE_OFFSET))(this, lens, softGuide, hardGuide, targetDistance);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::LensSettings, ::UnityEngine::Rect, ::UnityEngine::Rect, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOMPOSER_FOVCACHE_UPDATECACHE_OFFSET))(this, a1, a2, a3, a4);
 		}
 		*/
 
-		::UnityEngine::Rect ScreenToFOV(::UnityEngine::Rect rScreen, ::System::Single fov, ::System::Single fovH, ::System::Single aspect)
+		::UnityEngine::Rect ScreenToFOV(::UnityEngine::Rect a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::UnityEngine::Rect(*)(::PVOID, ::UnityEngine::Rect, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOMPOSER_FOVCACHE_SCREENTOFOV_OFFSET))(this, rScreen, fov, fovH, aspect);
+			return ((::UnityEngine::Rect(*)(::PVOID, ::UnityEngine::Rect, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOMPOSER_FOVCACHE_SCREENTOFOV_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

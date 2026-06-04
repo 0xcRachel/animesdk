@@ -16,24 +16,24 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x12F3BCF0)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x12F3B9C0)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_REFRESH_OFFSET UNITYSDK_OFFSET(0x12F3D0A0)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_SETCACHEANIMTIME_OFFSET UNITYSDK_OFFSET(0x12F3DF30)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_SETCACHESTATUS_OFFSET UNITYSDK_OFFSET(0x12F3DE70)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_START_OFFSET UNITYSDK_OFFSET(0x12F3B7B0)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x12F3E510)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__DESTORYWAYPOINT_OFFSET UNITYSDK_OFFSET(0x12F3C910)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__DOLOADWARINGPREFAB_OFFSET UNITYSDK_OFFSET(0x12F3E000)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__LOADWARINGPREFAB_OFFSET UNITYSDK_OFFSET(0x12F3B910)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__ONALLINTERNALRESOURCEREADY_OFFSET UNITYSDK_OFFSET(0x12F3E110)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__ONMAZEMONSTERATTACK_OFFSET UNITYSDK_OFFSET(0x12F3E320)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__SPAWNWAYPOINT_OFFSET UNITYSDK_OFFSET(0x12F3D8E0)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER___DOLOADWARINGPREFAB_B__7_0_OFFSET UNITYSDK_OFFSET(0x12F3E6E0)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x14B74270)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x14B73EB0)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_REFRESH_OFFSET UNITYSDK_OFFSET(0x14B75710)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_SETCACHEANIMTIME_OFFSET UNITYSDK_OFFSET(0x14B76790)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_SETCACHESTATUS_OFFSET UNITYSDK_OFFSET(0x14B766D0)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_START_OFFSET UNITYSDK_OFFSET(0x14B73C60)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x14B76D70)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__DESTORYWAYPOINT_OFFSET UNITYSDK_OFFSET(0x14B74ED0)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__DOLOADWARINGPREFAB_OFFSET UNITYSDK_OFFSET(0x14B76860)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__LOADWARINGPREFAB_OFFSET UNITYSDK_OFFSET(0x14B73DD0)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__ONALLINTERNALRESOURCEREADY_OFFSET UNITYSDK_OFFSET(0x14B769B0)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__ONMAZEMONSTERATTACK_OFFSET UNITYSDK_OFFSET(0x14B76BC0)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__SPAWNWAYPOINT_OFFSET UNITYSDK_OFFSET(0x14B76160)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER___DOLOADWARINGPREFAB_B__7_0_OFFSET UNITYSDK_OFFSET(0x14B76F40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UINPCWarningTipsContainer_TypeDefinitionIndex = 63707;
+	inline static constexpr unsigned int UINPCWarningTipsContainer_TypeDefinitionIndex = 64628;
 
 	class UINPCWarningTipsContainer : public ::UnityEngine::MonoBehaviour
 	{
@@ -72,19 +72,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_LATEUPDATE_OFFSET))(this);
 		}
 
-		::System::Void Refresh(::System::Collections::Generic::List_1<::RPG::Client::NPCWarningTipConfig*>* pWaypointConfigs)
+		::System::Void Refresh(::System::Collections::Generic::List_1<::RPG::Client::NPCWarningTipConfig*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::NPCWarningTipConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_REFRESH_OFFSET))(this, pWaypointConfigs);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::NPCWarningTipConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_REFRESH_OFFSET))(this, a1);
 		}
 
-		::System::Void SetCacheStatus(::RPG::GameCore::GameEntity* entity, ::RPG::Client::UINPCWarningTipsContainer_WaypointStatus status)
+		::System::Void SetCacheStatus(::RPG::GameCore::GameEntity* a1, ::RPG::Client::UINPCWarningTipsContainer_WaypointStatus a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::Client::UINPCWarningTipsContainer_WaypointStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_SETCACHESTATUS_OFFSET))(this, entity, status);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::Client::UINPCWarningTipsContainer_WaypointStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_SETCACHESTATUS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetCacheAnimTime(::RPG::GameCore::GameEntity* entity, ::System::Single animTime)
+		::System::Void SetCacheAnimTime(::RPG::GameCore::GameEntity* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_SETCACHEANIMTIME_OFFSET))(this, entity, animTime);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_SETCACHEANIMTIME_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _LoadWaringPrefab()
@@ -92,9 +92,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__LOADWARINGPREFAB_OFFSET))(this);
 		}
 
-		::System::Void _DoLoadWaringPrefab(::System::Object* arg)
+		::System::Void _DoLoadWaringPrefab(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__DOLOADWARINGPREFAB_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__DOLOADWARINGPREFAB_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnAllInternalResourceReady()
@@ -102,24 +102,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__ONALLINTERNALRESOURCEREADY_OFFSET))(this);
 		}
 
-		::RPG::Client::UINPCWarningTipsContainer_Waypoint* _SpawnWaypoint(::System::String* prefabPath)
+		::RPG::Client::UINPCWarningTipsContainer_Waypoint* _SpawnWaypoint(::System::String* a1)
 		{
-			return ((::RPG::Client::UINPCWarningTipsContainer_Waypoint*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__SPAWNWAYPOINT_OFFSET))(this, prefabPath);
+			return ((::RPG::Client::UINPCWarningTipsContainer_Waypoint*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__SPAWNWAYPOINT_OFFSET))(this, a1);
 		}
 
-		::System::Void _DestoryWaypoint(::RPG::Client::UINPCWarningTipsContainer_Waypoint* wp)
+		::System::Void _DestoryWaypoint(::RPG::Client::UINPCWarningTipsContainer_Waypoint* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UINPCWarningTipsContainer_Waypoint*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__DESTORYWAYPOINT_OFFSET))(this, wp);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UINPCWarningTipsContainer_Waypoint*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__DESTORYWAYPOINT_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnMazeMonsterAttack(::System::Object* param)
+		::System::Void _OnMazeMonsterAttack(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__ONMAZEMONSTERATTACK_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER__ONMAZEMONSTERATTACK_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __DoLoadWaringPrefab_b__7_0(::RPG::Client::IAssetOperation* assetOp)
+		::System::Boolean __DoLoadWaringPrefab_b__7_0(::RPG::Client::IAssetOperation* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IAssetOperation*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER___DOLOADWARINGPREFAB_B__7_0_OFFSET))(this, assetOp);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IAssetOperation*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER___DOLOADWARINGPREFAB_B__7_0_OFFSET))(this, a1);
 		}
 	};
 }

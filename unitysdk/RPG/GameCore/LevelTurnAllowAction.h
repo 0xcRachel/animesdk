@@ -5,15 +5,15 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELTURNALLOWACTION_GETACTIVEENTITY_OFFSET UNITYSDK_OFFSET(0x1920A9E0)
-#define RPG_GAMECORE_LEVELTURNALLOWACTION_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1920A990)
-#define RPG_GAMECORE_LEVELTURNALLOWACTION_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1920A940)
-#define RPG_GAMECORE_LEVELTURNALLOWACTION_GETTURNCOUNTER_OFFSET UNITYSDK_OFFSET(0x1920AA20)
-#define RPG_GAMECORE_LEVELTURNALLOWACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1920A930)
+#define RPG_GAMECORE_LEVELTURNALLOWACTION_GETACTIVEENTITY_OFFSET UNITYSDK_OFFSET(0x19B76D90)
+#define RPG_GAMECORE_LEVELTURNALLOWACTION_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19B76D40)
+#define RPG_GAMECORE_LEVELTURNALLOWACTION_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19B76CF0)
+#define RPG_GAMECORE_LEVELTURNALLOWACTION_GETTURNCOUNTER_OFFSET UNITYSDK_OFFSET(0x19B76DD0)
+#define RPG_GAMECORE_LEVELTURNALLOWACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19B76CE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelTurnAllowAction_TypeDefinitionIndex = 52251;
+	inline static constexpr unsigned int LevelTurnAllowAction_TypeDefinitionIndex = 52948;
 
 	class LevelTurnAllowAction : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::GameCore
 		::RPG::GameCore::GameEntity* _ActiveEntity; // 0x10
 		::System::UInt32 _TurnCounter; // 0x18
 
-		::System::Void _ctor(::RPG::GameCore::GameEntity* ActiveEntity, ::System::UInt32 TurnCounter)
+		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNALLOWACTION__CTOR_OFFSET))(this, ActiveEntity, TurnCounter);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNALLOWACTION__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

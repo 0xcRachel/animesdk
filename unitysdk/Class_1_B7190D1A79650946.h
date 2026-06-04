@@ -6,21 +6,21 @@
 
 namespace System { class Action; }
 
-#define CLASS_1_B7190D1A79650946__CTOR_OFFSET UNITYSDK_OFFSET(0x15D57140)
+#define CLASS_1_B7190D1A79650946__CTOR_OFFSET UNITYSDK_OFFSET(0x1834F7F0)
 
-inline static constexpr unsigned int Class_1_B7190D1A79650946_TypeDefinitionIndex = 39042;
+inline static constexpr unsigned int Class_1_B7190D1A79650946_TypeDefinitionIndex = 39810;
 
 class Class_1_B7190D1A79650946 : public ::System::Object
 {
 public:
-	::System::Action* Field_1_7; // 0x10
-	::UnityEngine::Vector3 Field_1_2; // 0x18
-	::UnityEngine::Quaternion Field_1_4; // 0x24
-	::UnityEngine::Vector3 Field_1_1; // 0x34
-	::System::Single Field_1_6; // 0x40
-	::System::Boolean Field_1_0; // 0x44
-	::System::Single Field_1_5; // 0x48
-	::UnityEngine::Quaternion Field_1_3; // 0x4C
+	::System::Action* Field_1_0; // 0x10
+	::System::Single Field_1_1; // 0x18
+	::UnityEngine::Quaternion Field_1_2; // 0x1C
+	::UnityEngine::Vector3 Field_1_3; // 0x2C
+	::System::Single Field_1_4; // 0x38
+	::UnityEngine::Quaternion Field_1_5; // 0x3C
+	::System::Boolean Field_1_6; // 0x4C
+	::UnityEngine::Vector3 Field_1_7; // 0x50
 
 	::System::Void _ctor()
 	{

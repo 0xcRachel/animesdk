@@ -4,10 +4,10 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define STRUCT_2_639D4030F98AB624_DISPOSE_OFFSET UNITYSDK_OFFSET(0x878A90)
-#define STRUCT_2_639D4030F98AB624_EXECUTE_OFFSET UNITYSDK_OFFSET(0x878AA0)
+#define STRUCT_2_639D4030F98AB624_DISPOSE_OFFSET UNITYSDK_OFFSET(0x378BB90)
+#define STRUCT_2_639D4030F98AB624_EXECUTE_OFFSET UNITYSDK_OFFSET(0x378BBA0)
 
-inline static constexpr unsigned int Struct_2_639D4030F98AB624_TypeDefinitionIndex = 53289;
+inline static constexpr unsigned int Struct_2_639D4030F98AB624_TypeDefinitionIndex = 54002;
 
 struct alignas(8) Struct_2_639D4030F98AB624
 {

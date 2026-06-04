@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_2_237D836A4F61924C;
+class Class_2_91130F3B3A18FE6F;
 namespace RPG::Client { class EmsMatCustomDictionay; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOLIGHTRANDOMCOONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0x116A7C50)
-#define RPG_CLIENT_MONOLIGHTRANDOMCOONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x116A7DA0)
-#define RPG_CLIENT_MONOLIGHTRANDOMCOONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x116A7CF0)
-#define RPG_CLIENT_MONOLIGHTRANDOMCOONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x116A7D50)
-#define RPG_CLIENT_MONOLIGHTRANDOMCOONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x116A7E30)
+#define RPG_CLIENT_MONOLIGHTRANDOMCOONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0x17AD34A0)
+#define RPG_CLIENT_MONOLIGHTRANDOMCOONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17AD35F0)
+#define RPG_CLIENT_MONOLIGHTRANDOMCOONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x17AD3540)
+#define RPG_CLIENT_MONOLIGHTRANDOMCOONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x17AD35A0)
+#define RPG_CLIENT_MONOLIGHTRANDOMCOONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x17AD3680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoLightRandomCoontrol_TypeDefinitionIndex = 65230;
+	inline static constexpr unsigned int MonoLightRandomCoontrol_TypeDefinitionIndex = 66157;
 
 	class MonoLightRandomCoontrol : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,7 +30,7 @@ namespace RPG::Client
 		::System::Single flashPhase; // 0x40
 		::System::Boolean editorSaving; // 0x44
 		::RPG::Client::EmsMatCustomDictionay* EmissionMaterialDic; // 0x48
-		::Class_2_237D836A4F61924C* _Behavior; // 0x50
+		::Class_2_91130F3B3A18FE6F* _Behavior; // 0x50
 
 		::System::Void _ctor()
 		{

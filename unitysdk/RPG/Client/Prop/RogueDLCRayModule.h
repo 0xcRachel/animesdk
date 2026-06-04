@@ -3,56 +3,56 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_9CBC71DC5240DC00;
+class Class_1_1342B57709FD7AC5;
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE_ACTIVEPRESIGHT_OFFSET UNITYSDK_OFFSET(0x13AB4360)
-#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE_DEACTIVEPRESIGHT_OFFSET UNITYSDK_OFFSET(0x13AB4400)
-#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x13AB4AD0)
-#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE_METHOD_5_25DEA5C65A602671_OFFSET UNITYSDK_OFFSET(0x13AB5120)
-#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE_METHOD_5_F0BD65B017F2AC0B_OFFSET UNITYSDK_OFFSET(0x13AB4DD0)
-#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x13AB5280)
-#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE_ROTATETO_OFFSET UNITYSDK_OFFSET(0x13AB44A0)
-#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE_SETEMISSION_OFFSET UNITYSDK_OFFSET(0x13AB49D0)
-#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE_SETPRESIGHTSCALE_OFFSET UNITYSDK_OFFSET(0x13AB4CF0)
-#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE_UPDATE_OFFSET UNITYSDK_OFFSET(0x13AB4D80)
-#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE__CCTOR_OFFSET UNITYSDK_OFFSET(0x13AB5320)
-#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x13AB5310)
+#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE_ACTIVEPRESIGHT_OFFSET UNITYSDK_OFFSET(0x15B62430)
+#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE_DEACTIVEPRESIGHT_OFFSET UNITYSDK_OFFSET(0x15B624D0)
+#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x15B62BA0)
+#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE_METHOD_5_25DEA5C65A602671_OFFSET UNITYSDK_OFFSET(0x15B631F0)
+#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE_METHOD_5_F0BD65B017F2AC0B_OFFSET UNITYSDK_OFFSET(0x15B62EA0)
+#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15B63350)
+#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE_ROTATETO_OFFSET UNITYSDK_OFFSET(0x15B62570)
+#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE_SETEMISSION_OFFSET UNITYSDK_OFFSET(0x15B62AA0)
+#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE_SETPRESIGHTSCALE_OFFSET UNITYSDK_OFFSET(0x15B62DC0)
+#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE_UPDATE_OFFSET UNITYSDK_OFFSET(0x15B62E50)
+#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B633F0)
+#define RPG_CLIENT_PROP_ROGUEDLCRAYMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x15B633E0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RogueDLCRayModule_TypeDefinitionIndex = 72453;
+	inline static constexpr unsigned int RogueDLCRayModule_TypeDefinitionIndex = 73475;
 
 	class RogueDLCRayModule : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_5_17()
+		static ::System::Int32* StaticGet_Field_5_0()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RogueDLCRayModule_TypeDefinitionIndex)->GetStaticField(0x5380);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RogueDLCRayModule_TypeDefinitionIndex)->GetStaticField(0x8870);
 		}
-		static ::System::Int32* StaticGet_Field_5_18()
+		static ::System::Int32* StaticGet_Field_5_1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RogueDLCRayModule_TypeDefinitionIndex)->GetStaticField(0x5384);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RogueDLCRayModule_TypeDefinitionIndex)->GetStaticField(0x8874);
 		}
 		::System::Single RotateSpeed; // 0x18
 		::System::Single ChangeEmissionSpeed; // 0x1C
-		::UnityEngine::Animator* Field_5_2; // 0x20
-		::System::Boolean Field_5_3; // 0x28
-		::System::Single Field_5_4; // 0x2C
-		::System::Single Field_5_5; // 0x30
-		::UnityEngine::Vector3 Field_5_6; // 0x34
-		::System::Int32 Field_5_7; // 0x40
-		::UnityEngine::Transform* Field_5_8; // 0x48
-		::UnityEngine::Vector3 Field_5_9; // 0x50
-		::UnityEngine::MeshRenderer* Field_5_10; // 0x60
-		::Class_1_9CBC71DC5240DC00* Field_5_11; // 0x68
-		::System::Single Field_5_12; // 0x70
-		::System::Single Field_5_13; // 0x74
-		::System::Boolean Field_5_14; // 0x78
-		::System::Single Field_5_15; // 0x7C
-		::System::Single Field_5_16; // 0x80
+		::UnityEngine::Animator* Field_5_4; // 0x20
+		::System::Boolean Field_5_5; // 0x28
+		::System::Single Field_5_6; // 0x2C
+		::System::Single Field_5_7; // 0x30
+		::UnityEngine::Vector3 Field_5_8; // 0x34
+		::System::Int32 Field_5_9; // 0x40
+		::UnityEngine::Transform* Field_5_10; // 0x48
+		::UnityEngine::Vector3 Field_5_11; // 0x50
+		::UnityEngine::MeshRenderer* Field_5_12; // 0x60
+		::Class_1_1342B57709FD7AC5* Field_5_13; // 0x68
+		::System::Single Field_5_14; // 0x70
+		::System::Single Field_5_15; // 0x74
+		::System::Boolean Field_5_16; // 0x78
+		::System::Single Field_5_17; // 0x7C
+		::System::Single Field_5_18; // 0x80
 
 		::System::Void _ctor()
 		{

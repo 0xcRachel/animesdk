@@ -7,22 +7,22 @@ namespace RPG::Client { class PlanetFesAvatarLink; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PLANETFESAVATARLINKDATA_GETAVATARLINK_OFFSET UNITYSDK_OFFSET(0xF6EF930)
-#define RPG_CLIENT_PLANETFESAVATARLINKDATA_GETSHOWLINKS_OFFSET UNITYSDK_OFFSET(0xF6EF6E0)
-#define RPG_CLIENT_PLANETFESAVATARLINKDATA_INIT_OFFSET UNITYSDK_OFFSET(0xF6EEDE0)
-#define RPG_CLIENT_PLANETFESAVATARLINKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xF6EFAF0)
-#define RPG_CLIENT_PLANETFESAVATARLINKDATA__FINDLINKS_OFFSET UNITYSDK_OFFSET(0xF6EF1A0)
-#define RPG_CLIENT_PLANETFESAVATARLINKDATA__SORTLINKS_OFFSET UNITYSDK_OFFSET(0xF6EFA10)
+#define RPG_CLIENT_PLANETFESAVATARLINKDATA_GETAVATARLINK_OFFSET UNITYSDK_OFFSET(0x18D17C70)
+#define RPG_CLIENT_PLANETFESAVATARLINKDATA_GETSHOWLINKS_OFFSET UNITYSDK_OFFSET(0x18D17980)
+#define RPG_CLIENT_PLANETFESAVATARLINKDATA_INIT_OFFSET UNITYSDK_OFFSET(0x18D17100)
+#define RPG_CLIENT_PLANETFESAVATARLINKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18D17E10)
+#define RPG_CLIENT_PLANETFESAVATARLINKDATA__FINDLINKS_OFFSET UNITYSDK_OFFSET(0x18D17590)
+#define RPG_CLIENT_PLANETFESAVATARLINKDATA__SORTLINKS_OFFSET UNITYSDK_OFFSET(0x18D17D20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesAvatarLinkData_TypeDefinitionIndex = 61283;
+	inline static constexpr unsigned int PlanetFesAvatarLinkData_TypeDefinitionIndex = 62207;
 
 	class PlanetFesAvatarLinkData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::PlanetFesAvatarLink*>* _LinkByAvatarID; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::PlanetFesAvatarLink*>* _AllLinks; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::PlanetFesAvatarLink*>* _AllLinks; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::PlanetFesAvatarLink*>* _LinkByAvatarID; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -39,19 +39,19 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::PlanetFesAvatarLink*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARLINKDATA_GETSHOWLINKS_OFFSET))(this);
 		}
 
-		::RPG::Client::PlanetFesAvatarLink* GetAvatarLink(::System::UInt32 avatarID)
+		::RPG::Client::PlanetFesAvatarLink* GetAvatarLink(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::PlanetFesAvatarLink*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARLINKDATA_GETAVATARLINK_OFFSET))(this, avatarID);
+			return ((::RPG::Client::PlanetFesAvatarLink*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARLINKDATA_GETAVATARLINK_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::System::UInt32>* _FindLinks(::System::UInt32 avatarID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::PlanetFesAvatarData*>* avatarMap)
+		::System::Collections::Generic::List_1<::System::UInt32>* _FindLinks(::System::UInt32 a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::PlanetFesAvatarData*>* a2)
 		{
-			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::PlanetFesAvatarData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARLINKDATA__FINDLINKS_OFFSET))(this, avatarID, avatarMap);
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::PlanetFesAvatarData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARLINKDATA__FINDLINKS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _SortLinks(::RPG::Client::PlanetFesAvatarLink* lhs, ::RPG::Client::PlanetFesAvatarLink* rhs)
+		::System::Int32 _SortLinks(::RPG::Client::PlanetFesAvatarLink* a1, ::RPG::Client::PlanetFesAvatarLink* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::PlanetFesAvatarLink*, ::RPG::Client::PlanetFesAvatarLink*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARLINKDATA__SORTLINKS_OFFSET))(this, lhs, rhs);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::PlanetFesAvatarLink*, ::RPG::Client::PlanetFesAvatarLink*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARLINKDATA__SORTLINKS_OFFSET))(this, a1, a2);
 		}
 	};
 }

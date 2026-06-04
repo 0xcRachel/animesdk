@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_E04EA714F2B36785.h"
+#include "unitysdk/Class_2_44637C6D4CD7073A.h"
 #include "unitysdk/RPG/GameCore/AdventureModifierBehaviorFlag.h"
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_3_681443AC61F98011_GET_FLAG_OFFSET UNITYSDK_OFFSET(0xB576240)
-#define CLASS_3_681443AC61F98011__CTOR_OFFSET UNITYSDK_OFFSET(0xB5761F0)
+#define CLASS_3_681443AC61F98011_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x155028D0)
+#define CLASS_3_681443AC61F98011__CTOR_OFFSET UNITYSDK_OFFSET(0x15502880)
 
-inline static constexpr unsigned int Class_3_681443AC61F98011_TypeDefinitionIndex = 52573;
+inline static constexpr unsigned int Class_3_681443AC61F98011_TypeDefinitionIndex = 53273;
 
-class Class_3_681443AC61F98011 : public ::Class_2_E04EA714F2B36785
+class Class_3_681443AC61F98011 : public ::Class_2_44637C6D4CD7073A
 {
 public:
 	::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0x90

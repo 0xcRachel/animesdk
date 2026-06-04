@@ -12,71 +12,71 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Mesh; }
 
-#define UNITYENGINE_PROBUILDER_VERTEX_ADD_1_OFFSET UNITYSDK_OFFSET(0x1785D970)
-#define UNITYENGINE_PROBUILDER_VERTEX_ADD_OFFSET UNITYSDK_OFFSET(0x1785D900)
-#define UNITYENGINE_PROBUILDER_VERTEX_AVERAGE_OFFSET UNITYSDK_OFFSET(0x1785FFD0)
-#define UNITYENGINE_PROBUILDER_VERTEX_DIVIDE_1_OFFSET UNITYSDK_OFFSET(0x1785E030)
-#define UNITYENGINE_PROBUILDER_VERTEX_DIVIDE_OFFSET UNITYSDK_OFFSET(0x1785DF70)
-#define UNITYENGINE_PROBUILDER_VERTEX_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1785CE10)
-#define UNITYENGINE_PROBUILDER_VERTEX_EQUALS_2_OFFSET UNITYSDK_OFFSET(0x1785D0E0)
-#define UNITYENGINE_PROBUILDER_VERTEX_EQUALS_OFFSET UNITYSDK_OFFSET(0x1785CDB0)
-#define UNITYENGINE_PROBUILDER_VERTEX_GETARRAYS_1_OFFSET UNITYSDK_OFFSET(0x1785E900)
-#define UNITYENGINE_PROBUILDER_VERTEX_GETARRAYS_OFFSET UNITYSDK_OFFSET(0x1785E8C0)
-#define UNITYENGINE_PROBUILDER_VERTEX_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1785D460)
-#define UNITYENGINE_PROBUILDER_VERTEX_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1785CD20)
-#define UNITYENGINE_PROBUILDER_VERTEX_GET_COLOR_OFFSET UNITYSDK_OFFSET(0x1785CBF0)
-#define UNITYENGINE_PROBUILDER_VERTEX_GET_HASCOLOR_OFFSET UNITYSDK_OFFSET(0x1785CD40)
-#define UNITYENGINE_PROBUILDER_VERTEX_GET_HASNORMAL_OFFSET UNITYSDK_OFFSET(0x1785CD50)
-#define UNITYENGINE_PROBUILDER_VERTEX_GET_HASPOSITION_OFFSET UNITYSDK_OFFSET(0x1785CD30)
-#define UNITYENGINE_PROBUILDER_VERTEX_GET_HASTANGENT_OFFSET UNITYSDK_OFFSET(0x1785CD60)
-#define UNITYENGINE_PROBUILDER_VERTEX_GET_HASUV0_OFFSET UNITYSDK_OFFSET(0x1785CD70)
-#define UNITYENGINE_PROBUILDER_VERTEX_GET_HASUV2_OFFSET UNITYSDK_OFFSET(0x1785CD80)
-#define UNITYENGINE_PROBUILDER_VERTEX_GET_HASUV3_OFFSET UNITYSDK_OFFSET(0x1785CD90)
-#define UNITYENGINE_PROBUILDER_VERTEX_GET_HASUV4_OFFSET UNITYSDK_OFFSET(0x1785CDA0)
-#define UNITYENGINE_PROBUILDER_VERTEX_GET_NORMAL_OFFSET UNITYSDK_OFFSET(0x1785CC20)
-#define UNITYENGINE_PROBUILDER_VERTEX_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1785CBC0)
-#define UNITYENGINE_PROBUILDER_VERTEX_GET_TANGENT_OFFSET UNITYSDK_OFFSET(0x1785CC60)
-#define UNITYENGINE_PROBUILDER_VERTEX_GET_UV0_OFFSET UNITYSDK_OFFSET(0x1785CC90)
-#define UNITYENGINE_PROBUILDER_VERTEX_GET_UV2_OFFSET UNITYSDK_OFFSET(0x1785CCB0)
-#define UNITYENGINE_PROBUILDER_VERTEX_GET_UV3_OFFSET UNITYSDK_OFFSET(0x1785CCD0)
-#define UNITYENGINE_PROBUILDER_VERTEX_GET_UV4_OFFSET UNITYSDK_OFFSET(0x1785CCF0)
-#define UNITYENGINE_PROBUILDER_VERTEX_HASARRAYS_OFFSET UNITYSDK_OFFSET(0x17858420)
-#define UNITYENGINE_PROBUILDER_VERTEX_MIX_OFFSET UNITYSDK_OFFSET(0x17861070)
-#define UNITYENGINE_PROBUILDER_VERTEX_MULTIPLY_1_OFFSET UNITYSDK_OFFSET(0x1785DE50)
-#define UNITYENGINE_PROBUILDER_VERTEX_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1785DD90)
-#define UNITYENGINE_PROBUILDER_VERTEX_NORMALIZE_OFFSET UNITYSDK_OFFSET(0x1785E090)
-#define UNITYENGINE_PROBUILDER_VERTEX_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1785D890)
-#define UNITYENGINE_PROBUILDER_VERTEX_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0x1785DEB0)
-#define UNITYENGINE_PROBUILDER_VERTEX_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1785D840)
-#define UNITYENGINE_PROBUILDER_VERTEX_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1785D860)
-#define UNITYENGINE_PROBUILDER_VERTEX_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1785DCD0)
-#define UNITYENGINE_PROBUILDER_VERTEX_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1785DAB0)
-#define UNITYENGINE_PROBUILDER_VERTEX_SETMESH_OFFSET UNITYSDK_OFFSET(0x1785F630)
-#define UNITYENGINE_PROBUILDER_VERTEX_SET_COLOR_OFFSET UNITYSDK_OFFSET(0x17858450)
-#define UNITYENGINE_PROBUILDER_VERTEX_SET_HASCOLOR_OFFSET UNITYSDK_OFFSET(0x1785CC00)
-#define UNITYENGINE_PROBUILDER_VERTEX_SET_HASNORMAL_OFFSET UNITYSDK_OFFSET(0x1785CC40)
-#define UNITYENGINE_PROBUILDER_VERTEX_SET_HASPOSITION_OFFSET UNITYSDK_OFFSET(0x1785CBE0)
-#define UNITYENGINE_PROBUILDER_VERTEX_SET_HASTANGENT_OFFSET UNITYSDK_OFFSET(0x1785CC70)
-#define UNITYENGINE_PROBUILDER_VERTEX_SET_HASUV0_OFFSET UNITYSDK_OFFSET(0x1785CCA0)
-#define UNITYENGINE_PROBUILDER_VERTEX_SET_HASUV2_OFFSET UNITYSDK_OFFSET(0x1785CCC0)
-#define UNITYENGINE_PROBUILDER_VERTEX_SET_HASUV3_OFFSET UNITYSDK_OFFSET(0x1785CCE0)
-#define UNITYENGINE_PROBUILDER_VERTEX_SET_HASUV4_OFFSET UNITYSDK_OFFSET(0x1785CD00)
-#define UNITYENGINE_PROBUILDER_VERTEX_SET_NORMAL_OFFSET UNITYSDK_OFFSET(0x17858460)
-#define UNITYENGINE_PROBUILDER_VERTEX_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x17858430)
-#define UNITYENGINE_PROBUILDER_VERTEX_SET_TANGENT_OFFSET UNITYSDK_OFFSET(0x17858480)
-#define UNITYENGINE_PROBUILDER_VERTEX_SET_UV0_OFFSET UNITYSDK_OFFSET(0x17858490)
-#define UNITYENGINE_PROBUILDER_VERTEX_SET_UV2_OFFSET UNITYSDK_OFFSET(0x178584A0)
-#define UNITYENGINE_PROBUILDER_VERTEX_SET_UV3_OFFSET UNITYSDK_OFFSET(0x178584B0)
-#define UNITYENGINE_PROBUILDER_VERTEX_SET_UV4_OFFSET UNITYSDK_OFFSET(0x178584C0)
-#define UNITYENGINE_PROBUILDER_VERTEX_SUBTRACT_1_OFFSET UNITYSDK_OFFSET(0x1785DB90)
-#define UNITYENGINE_PROBUILDER_VERTEX_SUBTRACT_OFFSET UNITYSDK_OFFSET(0x1785DB20)
-#define UNITYENGINE_PROBUILDER_VERTEX_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1785E3F0)
-#define UNITYENGINE_PROBUILDER_VERTEX__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1785D700)
-#define UNITYENGINE_PROBUILDER_VERTEX__CTOR_OFFSET UNITYSDK_OFFSET(0x17858410)
+#define UNITYENGINE_PROBUILDER_VERTEX_ADD_1_OFFSET UNITYSDK_OFFSET(0x15C771A0)
+#define UNITYENGINE_PROBUILDER_VERTEX_ADD_OFFSET UNITYSDK_OFFSET(0x15C77130)
+#define UNITYENGINE_PROBUILDER_VERTEX_AVERAGE_OFFSET UNITYSDK_OFFSET(0x15C79820)
+#define UNITYENGINE_PROBUILDER_VERTEX_DIVIDE_1_OFFSET UNITYSDK_OFFSET(0x15C77860)
+#define UNITYENGINE_PROBUILDER_VERTEX_DIVIDE_OFFSET UNITYSDK_OFFSET(0x15C777A0)
+#define UNITYENGINE_PROBUILDER_VERTEX_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x15C766F0)
+#define UNITYENGINE_PROBUILDER_VERTEX_EQUALS_2_OFFSET UNITYSDK_OFFSET(0x15C769C0)
+#define UNITYENGINE_PROBUILDER_VERTEX_EQUALS_OFFSET UNITYSDK_OFFSET(0x15C76690)
+#define UNITYENGINE_PROBUILDER_VERTEX_GETARRAYS_1_OFFSET UNITYSDK_OFFSET(0x15C78130)
+#define UNITYENGINE_PROBUILDER_VERTEX_GETARRAYS_OFFSET UNITYSDK_OFFSET(0x15C780F0)
+#define UNITYENGINE_PROBUILDER_VERTEX_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x15C76D40)
+#define UNITYENGINE_PROBUILDER_VERTEX_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x15C76600)
+#define UNITYENGINE_PROBUILDER_VERTEX_GET_COLOR_OFFSET UNITYSDK_OFFSET(0x15C764D0)
+#define UNITYENGINE_PROBUILDER_VERTEX_GET_HASCOLOR_OFFSET UNITYSDK_OFFSET(0x15C76620)
+#define UNITYENGINE_PROBUILDER_VERTEX_GET_HASNORMAL_OFFSET UNITYSDK_OFFSET(0x15C76630)
+#define UNITYENGINE_PROBUILDER_VERTEX_GET_HASPOSITION_OFFSET UNITYSDK_OFFSET(0x15C76610)
+#define UNITYENGINE_PROBUILDER_VERTEX_GET_HASTANGENT_OFFSET UNITYSDK_OFFSET(0x15C76640)
+#define UNITYENGINE_PROBUILDER_VERTEX_GET_HASUV0_OFFSET UNITYSDK_OFFSET(0x15C76650)
+#define UNITYENGINE_PROBUILDER_VERTEX_GET_HASUV2_OFFSET UNITYSDK_OFFSET(0x15C76660)
+#define UNITYENGINE_PROBUILDER_VERTEX_GET_HASUV3_OFFSET UNITYSDK_OFFSET(0x15C76670)
+#define UNITYENGINE_PROBUILDER_VERTEX_GET_HASUV4_OFFSET UNITYSDK_OFFSET(0x15C76680)
+#define UNITYENGINE_PROBUILDER_VERTEX_GET_NORMAL_OFFSET UNITYSDK_OFFSET(0x15C76500)
+#define UNITYENGINE_PROBUILDER_VERTEX_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x15C764A0)
+#define UNITYENGINE_PROBUILDER_VERTEX_GET_TANGENT_OFFSET UNITYSDK_OFFSET(0x15C76540)
+#define UNITYENGINE_PROBUILDER_VERTEX_GET_UV0_OFFSET UNITYSDK_OFFSET(0x15C76570)
+#define UNITYENGINE_PROBUILDER_VERTEX_GET_UV2_OFFSET UNITYSDK_OFFSET(0x15C76590)
+#define UNITYENGINE_PROBUILDER_VERTEX_GET_UV3_OFFSET UNITYSDK_OFFSET(0x15C765B0)
+#define UNITYENGINE_PROBUILDER_VERTEX_GET_UV4_OFFSET UNITYSDK_OFFSET(0x15C765D0)
+#define UNITYENGINE_PROBUILDER_VERTEX_HASARRAYS_OFFSET UNITYSDK_OFFSET(0x15C71FF0)
+#define UNITYENGINE_PROBUILDER_VERTEX_MIX_OFFSET UNITYSDK_OFFSET(0x15C7A8E0)
+#define UNITYENGINE_PROBUILDER_VERTEX_MULTIPLY_1_OFFSET UNITYSDK_OFFSET(0x15C77680)
+#define UNITYENGINE_PROBUILDER_VERTEX_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x15C775C0)
+#define UNITYENGINE_PROBUILDER_VERTEX_NORMALIZE_OFFSET UNITYSDK_OFFSET(0x15C778C0)
+#define UNITYENGINE_PROBUILDER_VERTEX_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x15C770C0)
+#define UNITYENGINE_PROBUILDER_VERTEX_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0x15C776E0)
+#define UNITYENGINE_PROBUILDER_VERTEX_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x15C77070)
+#define UNITYENGINE_PROBUILDER_VERTEX_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x15C77090)
+#define UNITYENGINE_PROBUILDER_VERTEX_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x15C77500)
+#define UNITYENGINE_PROBUILDER_VERTEX_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x15C772E0)
+#define UNITYENGINE_PROBUILDER_VERTEX_SETMESH_OFFSET UNITYSDK_OFFSET(0x15C78E90)
+#define UNITYENGINE_PROBUILDER_VERTEX_SET_COLOR_OFFSET UNITYSDK_OFFSET(0x15C72020)
+#define UNITYENGINE_PROBUILDER_VERTEX_SET_HASCOLOR_OFFSET UNITYSDK_OFFSET(0x15C764E0)
+#define UNITYENGINE_PROBUILDER_VERTEX_SET_HASNORMAL_OFFSET UNITYSDK_OFFSET(0x15C76520)
+#define UNITYENGINE_PROBUILDER_VERTEX_SET_HASPOSITION_OFFSET UNITYSDK_OFFSET(0x15C764C0)
+#define UNITYENGINE_PROBUILDER_VERTEX_SET_HASTANGENT_OFFSET UNITYSDK_OFFSET(0x15C76550)
+#define UNITYENGINE_PROBUILDER_VERTEX_SET_HASUV0_OFFSET UNITYSDK_OFFSET(0x15C76580)
+#define UNITYENGINE_PROBUILDER_VERTEX_SET_HASUV2_OFFSET UNITYSDK_OFFSET(0x15C765A0)
+#define UNITYENGINE_PROBUILDER_VERTEX_SET_HASUV3_OFFSET UNITYSDK_OFFSET(0x15C765C0)
+#define UNITYENGINE_PROBUILDER_VERTEX_SET_HASUV4_OFFSET UNITYSDK_OFFSET(0x15C765E0)
+#define UNITYENGINE_PROBUILDER_VERTEX_SET_NORMAL_OFFSET UNITYSDK_OFFSET(0x15C72030)
+#define UNITYENGINE_PROBUILDER_VERTEX_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x15C72000)
+#define UNITYENGINE_PROBUILDER_VERTEX_SET_TANGENT_OFFSET UNITYSDK_OFFSET(0x15C72050)
+#define UNITYENGINE_PROBUILDER_VERTEX_SET_UV0_OFFSET UNITYSDK_OFFSET(0x15C72060)
+#define UNITYENGINE_PROBUILDER_VERTEX_SET_UV2_OFFSET UNITYSDK_OFFSET(0x15C72070)
+#define UNITYENGINE_PROBUILDER_VERTEX_SET_UV3_OFFSET UNITYSDK_OFFSET(0x15C72080)
+#define UNITYENGINE_PROBUILDER_VERTEX_SET_UV4_OFFSET UNITYSDK_OFFSET(0x15C72090)
+#define UNITYENGINE_PROBUILDER_VERTEX_SUBTRACT_1_OFFSET UNITYSDK_OFFSET(0x15C773C0)
+#define UNITYENGINE_PROBUILDER_VERTEX_SUBTRACT_OFFSET UNITYSDK_OFFSET(0x15C77350)
+#define UNITYENGINE_PROBUILDER_VERTEX_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15C77C20)
+#define UNITYENGINE_PROBUILDER_VERTEX__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15C76F30)
+#define UNITYENGINE_PROBUILDER_VERTEX__CTOR_OFFSET UNITYSDK_OFFSET(0x15C71FE0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Vertex_TypeDefinitionIndex = 40007;
+	inline static constexpr unsigned int Vertex_TypeDefinitionIndex = 40834;
 
 	class Vertex : public ::System::Object
 	{
@@ -96,9 +96,9 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::UnityEngine::ProBuilder::Vertex* vertex)
+		::System::Void _ctor_1(::UnityEngine::ProBuilder::Vertex* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX__CTOR_1_OFFSET))(this, vertex);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 get_position()
@@ -106,9 +106,9 @@ namespace UnityEngine::ProBuilder
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GET_POSITION_OFFSET))(this);
 		}
 
-		::System::Void set_position(::UnityEngine::Vector3 value)
+		::System::Void set_position(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_POSITION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_POSITION_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Color get_color()
@@ -116,9 +116,9 @@ namespace UnityEngine::ProBuilder
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GET_COLOR_OFFSET))(this);
 		}
 
-		::System::Void set_color(::UnityEngine::Color value)
+		::System::Void set_color(::UnityEngine::Color a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_COLOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_COLOR_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 get_normal()
@@ -126,9 +126,9 @@ namespace UnityEngine::ProBuilder
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GET_NORMAL_OFFSET))(this);
 		}
 
-		::System::Void set_normal(::UnityEngine::Vector3 value)
+		::System::Void set_normal(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_NORMAL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_NORMAL_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector4 get_tangent()
@@ -136,9 +136,9 @@ namespace UnityEngine::ProBuilder
 			return ((::UnityEngine::Vector4(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GET_TANGENT_OFFSET))(this);
 		}
 
-		::System::Void set_tangent(::UnityEngine::Vector4 value)
+		::System::Void set_tangent(::UnityEngine::Vector4 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_TANGENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_TANGENT_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector2 get_uv0()
@@ -146,9 +146,9 @@ namespace UnityEngine::ProBuilder
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GET_UV0_OFFSET))(this);
 		}
 
-		::System::Void set_uv0(::UnityEngine::Vector2 value)
+		::System::Void set_uv0(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_UV0_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_UV0_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector2 get_uv2()
@@ -156,9 +156,9 @@ namespace UnityEngine::ProBuilder
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GET_UV2_OFFSET))(this);
 		}
 
-		::System::Void set_uv2(::UnityEngine::Vector2 value)
+		::System::Void set_uv2(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_UV2_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_UV2_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector4 get_uv3()
@@ -166,9 +166,9 @@ namespace UnityEngine::ProBuilder
 			return ((::UnityEngine::Vector4(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GET_UV3_OFFSET))(this);
 		}
 
-		::System::Void set_uv3(::UnityEngine::Vector4 value)
+		::System::Void set_uv3(::UnityEngine::Vector4 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_UV3_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_UV3_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector4 get_uv4()
@@ -176,9 +176,9 @@ namespace UnityEngine::ProBuilder
 			return ((::UnityEngine::Vector4(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GET_UV4_OFFSET))(this);
 		}
 
-		::System::Void set_uv4(::UnityEngine::Vector4 value)
+		::System::Void set_uv4(::UnityEngine::Vector4 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_UV4_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_UV4_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::ProBuilder::MeshArrays get_attributes()
@@ -186,9 +186,9 @@ namespace UnityEngine::ProBuilder
 			return ((::UnityEngine::ProBuilder::MeshArrays(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GET_ATTRIBUTES_OFFSET))(this);
 		}
 
-		::System::Boolean HasArrays(::UnityEngine::ProBuilder::MeshArrays attribute)
+		::System::Boolean HasArrays(::UnityEngine::ProBuilder::MeshArrays a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::MeshArrays))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_HASARRAYS_OFFSET))(this, attribute);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::MeshArrays))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_HASARRAYS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_hasPosition()
@@ -196,9 +196,9 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GET_HASPOSITION_OFFSET))(this);
 		}
 
-		::System::Void set_hasPosition(::System::Boolean value)
+		::System::Void set_hasPosition(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_HASPOSITION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_HASPOSITION_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_hasColor()
@@ -206,9 +206,9 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GET_HASCOLOR_OFFSET))(this);
 		}
 
-		::System::Void set_hasColor(::System::Boolean value)
+		::System::Void set_hasColor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_HASCOLOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_HASCOLOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_hasNormal()
@@ -216,9 +216,9 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GET_HASNORMAL_OFFSET))(this);
 		}
 
-		::System::Void set_hasNormal(::System::Boolean value)
+		::System::Void set_hasNormal(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_HASNORMAL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_HASNORMAL_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_hasTangent()
@@ -226,9 +226,9 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GET_HASTANGENT_OFFSET))(this);
 		}
 
-		::System::Void set_hasTangent(::System::Boolean value)
+		::System::Void set_hasTangent(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_HASTANGENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_HASTANGENT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_hasUV0()
@@ -236,9 +236,9 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GET_HASUV0_OFFSET))(this);
 		}
 
-		::System::Void set_hasUV0(::System::Boolean value)
+		::System::Void set_hasUV0(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_HASUV0_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_HASUV0_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_hasUV2()
@@ -246,9 +246,9 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GET_HASUV2_OFFSET))(this);
 		}
 
-		::System::Void set_hasUV2(::System::Boolean value)
+		::System::Void set_hasUV2(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_HASUV2_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_HASUV2_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_hasUV3()
@@ -256,9 +256,9 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GET_HASUV3_OFFSET))(this);
 		}
 
-		::System::Void set_hasUV3(::System::Boolean value)
+		::System::Void set_hasUV3(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_HASUV3_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_HASUV3_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_hasUV4()
@@ -266,24 +266,24 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GET_HASUV4_OFFSET))(this);
 		}
 
-		::System::Void set_hasUV4(::System::Boolean value)
+		::System::Void set_hasUV4(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_HASUV4_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SET_HASUV4_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::UnityEngine::ProBuilder::Vertex* other)
+		::System::Boolean Equals_1(::UnityEngine::ProBuilder::Vertex* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_EQUALS_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_2(::UnityEngine::ProBuilder::Vertex* other, ::UnityEngine::ProBuilder::MeshArrays mask)
+		::System::Boolean Equals_2(::UnityEngine::ProBuilder::Vertex* a1, ::UnityEngine::ProBuilder::MeshArrays a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::ProBuilder::MeshArrays))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_EQUALS_2_OFFSET))(this, other, mask);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::ProBuilder::MeshArrays))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_EQUALS_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 GetHashCode()
@@ -291,74 +291,74 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GETHASHCODE_OFFSET))(this);
 		}
 
-		static ::System::Boolean op_Equality(::UnityEngine::ProBuilder::Vertex* a, ::UnityEngine::ProBuilder::Vertex* b)
+		static ::System::Boolean op_Equality(::UnityEngine::ProBuilder::Vertex* a1, ::UnityEngine::ProBuilder::Vertex* a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_OP_EQUALITY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::UnityEngine::ProBuilder::Vertex* a, ::UnityEngine::ProBuilder::Vertex* b)
+		static ::System::Boolean op_Inequality(::UnityEngine::ProBuilder::Vertex* a1, ::UnityEngine::ProBuilder::Vertex* a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_OP_INEQUALITY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::ProBuilder::Vertex* op_Addition(::UnityEngine::ProBuilder::Vertex* a, ::UnityEngine::ProBuilder::Vertex* b)
+		static ::UnityEngine::ProBuilder::Vertex* op_Addition(::UnityEngine::ProBuilder::Vertex* a1, ::UnityEngine::ProBuilder::Vertex* a2)
 		{
-			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_OP_ADDITION_OFFSET))(a, b);
+			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_OP_ADDITION_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::ProBuilder::Vertex* Add(::UnityEngine::ProBuilder::Vertex* a, ::UnityEngine::ProBuilder::Vertex* b)
+		static ::UnityEngine::ProBuilder::Vertex* Add(::UnityEngine::ProBuilder::Vertex* a1, ::UnityEngine::ProBuilder::Vertex* a2)
 		{
-			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_ADD_OFFSET))(a, b);
+			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_ADD_OFFSET))(a1, a2);
 		}
 
-		::System::Void Add_1(::UnityEngine::ProBuilder::Vertex* b)
+		::System::Void Add_1(::UnityEngine::ProBuilder::Vertex* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_ADD_1_OFFSET))(this, b);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_ADD_1_OFFSET))(this, a1);
 		}
 
-		static ::UnityEngine::ProBuilder::Vertex* op_Subtraction(::UnityEngine::ProBuilder::Vertex* a, ::UnityEngine::ProBuilder::Vertex* b)
+		static ::UnityEngine::ProBuilder::Vertex* op_Subtraction(::UnityEngine::ProBuilder::Vertex* a1, ::UnityEngine::ProBuilder::Vertex* a2)
 		{
-			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_OP_SUBTRACTION_OFFSET))(a, b);
+			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_OP_SUBTRACTION_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::ProBuilder::Vertex* Subtract(::UnityEngine::ProBuilder::Vertex* a, ::UnityEngine::ProBuilder::Vertex* b)
+		static ::UnityEngine::ProBuilder::Vertex* Subtract(::UnityEngine::ProBuilder::Vertex* a1, ::UnityEngine::ProBuilder::Vertex* a2)
 		{
-			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SUBTRACT_OFFSET))(a, b);
+			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SUBTRACT_OFFSET))(a1, a2);
 		}
 
-		::System::Void Subtract_1(::UnityEngine::ProBuilder::Vertex* b)
+		::System::Void Subtract_1(::UnityEngine::ProBuilder::Vertex* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SUBTRACT_1_OFFSET))(this, b);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SUBTRACT_1_OFFSET))(this, a1);
 		}
 
-		static ::UnityEngine::ProBuilder::Vertex* op_Multiply(::UnityEngine::ProBuilder::Vertex* a, ::System::Single value)
+		static ::UnityEngine::ProBuilder::Vertex* op_Multiply(::UnityEngine::ProBuilder::Vertex* a1, ::System::Single a2)
 		{
-			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::Vertex*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_OP_MULTIPLY_OFFSET))(a, value);
+			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::Vertex*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_OP_MULTIPLY_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::ProBuilder::Vertex* Multiply(::UnityEngine::ProBuilder::Vertex* a, ::System::Single value)
+		static ::UnityEngine::ProBuilder::Vertex* Multiply(::UnityEngine::ProBuilder::Vertex* a1, ::System::Single a2)
 		{
-			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::Vertex*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_MULTIPLY_OFFSET))(a, value);
+			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::Vertex*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_MULTIPLY_OFFSET))(a1, a2);
 		}
 
-		::System::Void Multiply_1(::System::Single value)
+		::System::Void Multiply_1(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_MULTIPLY_1_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_MULTIPLY_1_OFFSET))(this, a1);
 		}
 
-		static ::UnityEngine::ProBuilder::Vertex* op_Division(::UnityEngine::ProBuilder::Vertex* a, ::System::Single value)
+		static ::UnityEngine::ProBuilder::Vertex* op_Division(::UnityEngine::ProBuilder::Vertex* a1, ::System::Single a2)
 		{
-			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::Vertex*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_OP_DIVISION_OFFSET))(a, value);
+			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::Vertex*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_OP_DIVISION_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::ProBuilder::Vertex* Divide(::UnityEngine::ProBuilder::Vertex* a, ::System::Single value)
+		static ::UnityEngine::ProBuilder::Vertex* Divide(::UnityEngine::ProBuilder::Vertex* a1, ::System::Single a2)
 		{
-			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::Vertex*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_DIVIDE_OFFSET))(a, value);
+			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::Vertex*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_DIVIDE_OFFSET))(a1, a2);
 		}
 
-		::System::Void Divide_1(::System::Single value)
+		::System::Void Divide_1(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_DIVIDE_1_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_DIVIDE_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Normalize()
@@ -366,34 +366,34 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_NORMALIZE_OFFSET))(this);
 		}
 
-		::System::String* ToString(::System::String* args)
+		::System::String* ToString(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_TOSTRING_OFFSET))(this, args);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_TOSTRING_OFFSET))(this, a1);
 		}
 
-		static ::System::Void GetArrays(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::Il2CppArray<::UnityEngine::Vector3>*& position, ::Il2CppArray<::UnityEngine::Color>*& color, ::Il2CppArray<::UnityEngine::Vector2>*& uv0, ::Il2CppArray<::UnityEngine::Vector3>*& normal, ::Il2CppArray<::UnityEngine::Vector4>*& tangent, ::Il2CppArray<::UnityEngine::Vector2>*& uv2, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& uv3, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& uv4)
+		static ::System::Void GetArrays(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* a1, ::Il2CppArray<::UnityEngine::Vector3>*& a2, ::Il2CppArray<::UnityEngine::Color>*& a3, ::Il2CppArray<::UnityEngine::Vector2>*& a4, ::Il2CppArray<::UnityEngine::Vector3>*& a5, ::Il2CppArray<::UnityEngine::Vector4>*& a6, ::Il2CppArray<::UnityEngine::Vector2>*& a7, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& a8, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& a9)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*, ::Il2CppArray<::UnityEngine::Vector3>*&, ::Il2CppArray<::UnityEngine::Color>*&, ::Il2CppArray<::UnityEngine::Vector2>*&, ::Il2CppArray<::UnityEngine::Vector3>*&, ::Il2CppArray<::UnityEngine::Vector4>*&, ::Il2CppArray<::UnityEngine::Vector2>*&, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*&, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GETARRAYS_OFFSET))(vertices, position, color, uv0, normal, tangent, uv2, uv3, uv4);
+			return ((::System::Void(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*, ::Il2CppArray<::UnityEngine::Vector3>*&, ::Il2CppArray<::UnityEngine::Color>*&, ::Il2CppArray<::UnityEngine::Vector2>*&, ::Il2CppArray<::UnityEngine::Vector3>*&, ::Il2CppArray<::UnityEngine::Vector4>*&, ::Il2CppArray<::UnityEngine::Vector2>*&, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*&, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GETARRAYS_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		static ::System::Void GetArrays_1(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::Il2CppArray<::UnityEngine::Vector3>*& position, ::Il2CppArray<::UnityEngine::Color>*& color, ::Il2CppArray<::UnityEngine::Vector2>*& uv0, ::Il2CppArray<::UnityEngine::Vector3>*& normal, ::Il2CppArray<::UnityEngine::Vector4>*& tangent, ::Il2CppArray<::UnityEngine::Vector2>*& uv2, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& uv3, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& uv4, ::UnityEngine::ProBuilder::MeshArrays attributes)
+		static ::System::Void GetArrays_1(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* a1, ::Il2CppArray<::UnityEngine::Vector3>*& a2, ::Il2CppArray<::UnityEngine::Color>*& a3, ::Il2CppArray<::UnityEngine::Vector2>*& a4, ::Il2CppArray<::UnityEngine::Vector3>*& a5, ::Il2CppArray<::UnityEngine::Vector4>*& a6, ::Il2CppArray<::UnityEngine::Vector2>*& a7, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& a8, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& a9, ::UnityEngine::ProBuilder::MeshArrays a10)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*, ::Il2CppArray<::UnityEngine::Vector3>*&, ::Il2CppArray<::UnityEngine::Color>*&, ::Il2CppArray<::UnityEngine::Vector2>*&, ::Il2CppArray<::UnityEngine::Vector3>*&, ::Il2CppArray<::UnityEngine::Vector4>*&, ::Il2CppArray<::UnityEngine::Vector2>*&, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*&, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*&, ::UnityEngine::ProBuilder::MeshArrays))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GETARRAYS_1_OFFSET))(vertices, position, color, uv0, normal, tangent, uv2, uv3, uv4, attributes);
+			return ((::System::Void(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*, ::Il2CppArray<::UnityEngine::Vector3>*&, ::Il2CppArray<::UnityEngine::Color>*&, ::Il2CppArray<::UnityEngine::Vector2>*&, ::Il2CppArray<::UnityEngine::Vector3>*&, ::Il2CppArray<::UnityEngine::Vector4>*&, ::Il2CppArray<::UnityEngine::Vector2>*&, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*&, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*&, ::UnityEngine::ProBuilder::MeshArrays))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_GETARRAYS_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
-		static ::System::Void SetMesh(::UnityEngine::Mesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices)
+		static ::System::Void SetMesh(::UnityEngine::Mesh* a1, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Mesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SETMESH_OFFSET))(mesh, vertices);
+			return ((::System::Void(*)(::UnityEngine::Mesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_SETMESH_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::ProBuilder::Vertex* Average(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::IList_1<::System::Int32>* indexes)
+		static ::UnityEngine::ProBuilder::Vertex* Average(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* a1, ::System::Collections::Generic::IList_1<::System::Int32>* a2)
 		{
-			return ((::UnityEngine::ProBuilder::Vertex*(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::IList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_AVERAGE_OFFSET))(vertices, indexes);
+			return ((::UnityEngine::ProBuilder::Vertex*(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::IList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_AVERAGE_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::ProBuilder::Vertex* Mix(::UnityEngine::ProBuilder::Vertex* x, ::UnityEngine::ProBuilder::Vertex* y, ::System::Single weight)
+		static ::UnityEngine::ProBuilder::Vertex* Mix(::UnityEngine::ProBuilder::Vertex* a1, ::UnityEngine::ProBuilder::Vertex* a2, ::System::Single a3)
 		{
-			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::ProBuilder::Vertex*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_MIX_OFFSET))(x, y, weight);
+			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::ProBuilder::Vertex*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEX_MIX_OFFSET))(a1, a2, a3);
 		}
 	};
 }

@@ -10,28 +10,28 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_PROTOCOL_AWAKE_OFFSET UNITYSDK_OFFSET(0x157AF720)
-#define MIHOYO_SDK_PROTOCOL_CLICKACCEPTBUTTON_OFFSET UNITYSDK_OFFSET(0x157B0810)
-#define MIHOYO_SDK_PROTOCOL_CLICKREFUSEBUTTON_OFFSET UNITYSDK_OFFSET(0x157B06F0)
-#define MIHOYO_SDK_PROTOCOL_HIDE_OFFSET UNITYSDK_OFFSET(0x157AF6B0)
-#define MIHOYO_SDK_PROTOCOL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x157B0970)
-#define MIHOYO_SDK_PROTOCOL_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0x157B0830)
-#define MIHOYO_SDK_PROTOCOL_SHOW_1_OFFSET UNITYSDK_OFFSET(0x157AF5C0)
-#define MIHOYO_SDK_PROTOCOL_SHOW_OFFSET UNITYSDK_OFFSET(0x157AF4D0)
-#define MIHOYO_SDK_PROTOCOL_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x157AFCB0)
-#define MIHOYO_SDK_PROTOCOL__CLICKREFUSEBUTTON_B__33_0_OFFSET UNITYSDK_OFFSET(0x157B0A00)
-#define MIHOYO_SDK_PROTOCOL__CTOR_OFFSET UNITYSDK_OFFSET(0x157B09B0)
+#define MIHOYO_SDK_PROTOCOL_AWAKE_OFFSET UNITYSDK_OFFSET(0x16A26590)
+#define MIHOYO_SDK_PROTOCOL_CLICKACCEPTBUTTON_OFFSET UNITYSDK_OFFSET(0x16A27630)
+#define MIHOYO_SDK_PROTOCOL_CLICKREFUSEBUTTON_OFFSET UNITYSDK_OFFSET(0x16A274F0)
+#define MIHOYO_SDK_PROTOCOL_HIDE_OFFSET UNITYSDK_OFFSET(0x16A26520)
+#define MIHOYO_SDK_PROTOCOL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x16A277A0)
+#define MIHOYO_SDK_PROTOCOL_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0x16A27650)
+#define MIHOYO_SDK_PROTOCOL_SHOW_1_OFFSET UNITYSDK_OFFSET(0x16A26420)
+#define MIHOYO_SDK_PROTOCOL_SHOW_OFFSET UNITYSDK_OFFSET(0x16A26320)
+#define MIHOYO_SDK_PROTOCOL_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x16A26B20)
+#define MIHOYO_SDK_PROTOCOL__CLICKREFUSEBUTTON_B__33_0_OFFSET UNITYSDK_OFFSET(0x16A27810)
+#define MIHOYO_SDK_PROTOCOL__CTOR_OFFSET UNITYSDK_OFFSET(0x16A277C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Protocol_TypeDefinitionIndex = 7285;
+	inline static constexpr unsigned int Protocol_TypeDefinitionIndex = 8188;
 
 	class Protocol : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		static ::MiHoYo::SDK::Protocol** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Protocol**)Il2CppClass::FromTypeDefinitionIndex(Protocol_TypeDefinitionIndex)->GetStaticField(0x14BA0);
+			return (::MiHoYo::SDK::Protocol**)Il2CppClass::FromTypeDefinitionIndex(Protocol_TypeDefinitionIndex)->GetStaticField(0x11F70);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* UserAgreementBtnPath; // 0x0
@@ -66,14 +66,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Show(::System::Boolean update)
+		static ::System::Void Show(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOL_SHOW_OFFSET))(update);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOL_SHOW_OFFSET))(a1);
 		}
 
-		static ::System::Void Show_1(::System::String* strTitle)
+		static ::System::Void Show_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOL_SHOW_1_OFFSET))(strTitle);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOL_SHOW_1_OFFSET))(a1);
 		}
 
 		static ::System::Void Hide()
@@ -101,9 +101,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOL_CLICKACCEPTBUTTON_OFFSET))(this);
 		}
 
-		::System::Void OnHrefClick(::System::String* hrefName)
+		::System::Void OnHrefClick(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOL_ONHREFCLICK_OFFSET))(this, hrefName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOL_ONHREFCLICK_OFFSET))(this, a1);
 		}
 
 		::System::Void OnDestroy()
@@ -111,9 +111,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOL_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void _ClickRefuseButton_b__33_0(::MiHoYo::SDK::Confirm_ConfirmResult result)
+		::System::Void _ClickRefuseButton_b__33_0(::MiHoYo::SDK::Confirm_ConfirmResult a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm_ConfirmResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOL__CLICKREFUSEBUTTON_B__33_0_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm_ConfirmResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOL__CLICKREFUSEBUTTON_B__33_0_OFFSET))(this, a1);
 		}
 	};
 }

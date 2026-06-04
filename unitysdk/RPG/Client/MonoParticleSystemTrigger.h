@@ -4,14 +4,14 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_MONOPARTICLESYSTEMTRIGGER_ONPARTICLESYSTEMSTOPPED_OFFSET UNITYSDK_OFFSET(0x162DD000)
-#define RPG_CLIENT_MONOPARTICLESYSTEMTRIGGER_REGISTERPARTICLESYSTEMSTOPCALLBACK_OFFSET UNITYSDK_OFFSET(0x162DCEA0)
-#define RPG_CLIENT_MONOPARTICLESYSTEMTRIGGER_SETSTOPCALLBACKENABLED_OFFSET UNITYSDK_OFFSET(0x162DCEF0)
-#define RPG_CLIENT_MONOPARTICLESYSTEMTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x162DD050)
+#define RPG_CLIENT_MONOPARTICLESYSTEMTRIGGER_ONPARTICLESYSTEMSTOPPED_OFFSET UNITYSDK_OFFSET(0x17AE50D0)
+#define RPG_CLIENT_MONOPARTICLESYSTEMTRIGGER_REGISTERPARTICLESYSTEMSTOPCALLBACK_OFFSET UNITYSDK_OFFSET(0x17AE4F80)
+#define RPG_CLIENT_MONOPARTICLESYSTEMTRIGGER_SETSTOPCALLBACKENABLED_OFFSET UNITYSDK_OFFSET(0x17AE4FD0)
+#define RPG_CLIENT_MONOPARTICLESYSTEMTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x17AE5130)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoParticleSystemTrigger_TypeDefinitionIndex = 63567;
+	inline static constexpr unsigned int MonoParticleSystemTrigger_TypeDefinitionIndex = 64488;
 
 	class MonoParticleSystemTrigger : public ::UnityEngine::MonoBehaviour
 	{
@@ -23,14 +23,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPARTICLESYSTEMTRIGGER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void RegisterParticleSystemStopCallback(::System::Action* callback)
+		::System::Void RegisterParticleSystemStopCallback(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPARTICLESYSTEMTRIGGER_REGISTERPARTICLESYSTEMSTOPCALLBACK_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPARTICLESYSTEMTRIGGER_REGISTERPARTICLESYSTEMSTOPCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void SetStopCallbackEnabled(::System::Boolean value)
+		::System::Void SetStopCallbackEnabled(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPARTICLESYSTEMTRIGGER_SETSTOPCALLBACKENABLED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPARTICLESYSTEMTRIGGER_SETSTOPCALLBACKENABLED_OFFSET))(this, a1);
 		}
 
 		::System::Void OnParticleSystemStopped()

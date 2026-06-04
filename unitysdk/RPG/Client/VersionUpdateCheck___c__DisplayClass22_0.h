@@ -2,31 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D6D8D891CDDE5DED;
+class Class_1_718B8238EA10D3FF;
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18E32990)
-#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_0__STARTLOCALASSETVERIFY_B__0_OFFSET UNITYSDK_OFFSET(0x18E335F0)
-#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_0__STARTLOCALASSETVERIFY_B__1_OFFSET UNITYSDK_OFFSET(0x18E33650)
-#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_0__STARTLOCALASSETVERIFY_B__3_OFFSET UNITYSDK_OFFSET(0x18E33D30)
+#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17711BC0)
+#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_0__STARTLOCALASSETVERIFY_B__0_OFFSET UNITYSDK_OFFSET(0x17712730)
+#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_0__STARTLOCALASSETVERIFY_B__1_OFFSET UNITYSDK_OFFSET(0x17712790)
+#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_0__STARTLOCALASSETVERIFY_B__3_OFFSET UNITYSDK_OFFSET(0x17712E10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VersionUpdateCheck___c__DisplayClass22_0_TypeDefinitionIndex = 56488;
+	inline static constexpr unsigned int VersionUpdateCheck___c__DisplayClass22_0_TypeDefinitionIndex = 57265;
 
 	class VersionUpdateCheck___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::Class_1_D6D8D891CDDE5DED*>* callback; // 0x10
+		::System::Action_1<::Class_1_718B8238EA10D3FF*>* callback; // 0x10
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _StartLocalAssetVerify_b__0(::System::Boolean isSucceed)
+		::System::Void _StartLocalAssetVerify_b__0(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_0__STARTLOCALASSETVERIFY_B__0_OFFSET))(this, isSucceed);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_0__STARTLOCALASSETVERIFY_B__0_OFFSET))(this, a1);
 		}
 
 		::System::Void _StartLocalAssetVerify_b__1()

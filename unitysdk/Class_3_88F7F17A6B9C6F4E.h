@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvSetSkillSlotData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_88F7F17A6B9C6F4E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF0C99F0)
-#define CLASS_3_88F7F17A6B9C6F4E__CTOR_OFFSET UNITYSDK_OFFSET(0xF0C99C0)
+#define CLASS_3_88F7F17A6B9C6F4E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x172BC910)
+#define CLASS_3_88F7F17A6B9C6F4E__CTOR_OFFSET UNITYSDK_OFFSET(0x172BC8E0)
 
-inline static constexpr unsigned int Class_3_88F7F17A6B9C6F4E_TypeDefinitionIndex = 53382;
+inline static constexpr unsigned int Class_3_88F7F17A6B9C6F4E_TypeDefinitionIndex = 54095;
 
 class Class_3_88F7F17A6B9C6F4E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvSetSkillSlotData*>
 {

@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_30;
-namespace Entitas { class IComponent; }
-namespace Entitas { class IEntity; }
-namespace System { class Type; }
+class Class_1_8278C4CB5E7C57A4;
+class Class_1_829CFD6018DBC4E4;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_32_TypeDefinitionIndex = 34356;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_32_TypeDefinitionIndex = 34711;
 
 class Class_0_16E4307DCC419505_32
 {

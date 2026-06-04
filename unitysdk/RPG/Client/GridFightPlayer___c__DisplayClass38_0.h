@@ -4,12 +4,12 @@
 
 class Class_2_FD0167EB507B9435_4;
 
-#define RPG_CLIENT_GRIDFIGHTPLAYER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1810A840)
-#define RPG_CLIENT_GRIDFIGHTPLAYER___C__DISPLAYCLASS38_0__ISVICTORYRULEUNLOCK_B__0_OFFSET UNITYSDK_OFFSET(0x1810A850)
+#define RPG_CLIENT_GRIDFIGHTPLAYER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19787840)
+#define RPG_CLIENT_GRIDFIGHTPLAYER___C__DISPLAYCLASS38_0__ISVICTORYRULEUNLOCK_B__0_OFFSET UNITYSDK_OFFSET(0x19789230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPlayer___c__DisplayClass38_0_TypeDefinitionIndex = 59915;
+	inline static constexpr unsigned int GridFightPlayer___c__DisplayClass38_0_TypeDefinitionIndex = 60850;
 
 	class GridFightPlayer___c__DisplayClass38_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPLAYER___C__DISPLAYCLASS38_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _IsVictoryRuleUnlock_b__0(::Class_2_FD0167EB507B9435_4* x)
+		::System::Boolean _IsVictoryRuleUnlock_b__0(::Class_2_FD0167EB507B9435_4* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_FD0167EB507B9435_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPLAYER___C__DISPLAYCLASS38_0__ISVICTORYRULEUNLOCK_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::Class_2_FD0167EB507B9435_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPLAYER___C__DISPLAYCLASS38_0__ISVICTORYRULEUNLOCK_B__0_OFFSET))(this, a1);
 		}
 	};
 }

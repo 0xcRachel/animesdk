@@ -7,17 +7,17 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace TMPro { class TMP_Style; }
 
-#define TMPRO_TMP_STYLESHEET_GETSTYLE_1_OFFSET UNITYSDK_OFFSET(0x160AFAA0)
-#define TMPRO_TMP_STYLESHEET_GETSTYLE_OFFSET UNITYSDK_OFFSET(0x160AFA00)
-#define TMPRO_TMP_STYLESHEET_GET_STYLES_OFFSET UNITYSDK_OFFSET(0x160AF620)
-#define TMPRO_TMP_STYLESHEET_LOADSTYLEDICTIONARYINTERNAL_OFFSET UNITYSDK_OFFSET(0x160AF640)
-#define TMPRO_TMP_STYLESHEET_REFRESHSTYLES_OFFSET UNITYSDK_OFFSET(0x160AFB60)
-#define TMPRO_TMP_STYLESHEET_RESET_OFFSET UNITYSDK_OFFSET(0x160AF630)
-#define TMPRO_TMP_STYLESHEET__CTOR_OFFSET UNITYSDK_OFFSET(0x160AFB70)
+#define TMPRO_TMP_STYLESHEET_GETSTYLE_1_OFFSET UNITYSDK_OFFSET(0x155EDC70)
+#define TMPRO_TMP_STYLESHEET_GETSTYLE_OFFSET UNITYSDK_OFFSET(0x155EDC00)
+#define TMPRO_TMP_STYLESHEET_GET_STYLES_OFFSET UNITYSDK_OFFSET(0x155ED7E0)
+#define TMPRO_TMP_STYLESHEET_LOADSTYLEDICTIONARYINTERNAL_OFFSET UNITYSDK_OFFSET(0x155ED800)
+#define TMPRO_TMP_STYLESHEET_REFRESHSTYLES_OFFSET UNITYSDK_OFFSET(0x155EDD00)
+#define TMPRO_TMP_STYLESHEET_RESET_OFFSET UNITYSDK_OFFSET(0x155ED7F0)
+#define TMPRO_TMP_STYLESHEET__CTOR_OFFSET UNITYSDK_OFFSET(0x155EDD10)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_StyleSheet_TypeDefinitionIndex = 40195;
+	inline static constexpr unsigned int TMP_StyleSheet_TypeDefinitionIndex = 41022;
 
 	class TMP_StyleSheet : public ::UnityEngine::ScriptableObject
 	{
@@ -40,14 +40,14 @@ namespace TMPro
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_STYLESHEET_RESET_OFFSET))(this);
 		}
 
-		::TMPro::TMP_Style* GetStyle(::System::Int32 hashCode)
+		::TMPro::TMP_Style* GetStyle(::System::Int32 a1)
 		{
-			return ((::TMPro::TMP_Style*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_STYLESHEET_GETSTYLE_OFFSET))(this, hashCode);
+			return ((::TMPro::TMP_Style*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_STYLESHEET_GETSTYLE_OFFSET))(this, a1);
 		}
 
-		::TMPro::TMP_Style* GetStyle_1(::System::String* name)
+		::TMPro::TMP_Style* GetStyle_1(::System::String* a1)
 		{
-			return ((::TMPro::TMP_Style*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_STYLESHEET_GETSTYLE_1_OFFSET))(this, name);
+			return ((::TMPro::TMP_Style*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_STYLESHEET_GETSTYLE_1_OFFSET))(this, a1);
 		}
 
 		::System::Void RefreshStyles()

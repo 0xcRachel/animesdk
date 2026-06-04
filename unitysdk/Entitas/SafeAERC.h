@@ -5,15 +5,15 @@
 namespace Entitas { class IEntity; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define ENTITAS_SAFEAERC_GET_OWNERS_OFFSET UNITYSDK_OFFSET(0x1A63E030)
-#define ENTITAS_SAFEAERC_GET_RETAINCOUNT_OFFSET UNITYSDK_OFFSET(0x1A63E010)
-#define ENTITAS_SAFEAERC_RELEASE_OFFSET UNITYSDK_OFFSET(0x1A63E0D0)
-#define ENTITAS_SAFEAERC_RETAIN_OFFSET UNITYSDK_OFFSET(0x1A63E040)
-#define ENTITAS_SAFEAERC__CTOR_OFFSET UNITYSDK_OFFSET(0x1A63AC30)
+#define ENTITAS_SAFEAERC_GET_OWNERS_OFFSET UNITYSDK_OFFSET(0x1B45F340)
+#define ENTITAS_SAFEAERC_GET_RETAINCOUNT_OFFSET UNITYSDK_OFFSET(0x1B45F320)
+#define ENTITAS_SAFEAERC_RELEASE_OFFSET UNITYSDK_OFFSET(0x1B45F3E0)
+#define ENTITAS_SAFEAERC_RETAIN_OFFSET UNITYSDK_OFFSET(0x1B45F350)
+#define ENTITAS_SAFEAERC__CTOR_OFFSET UNITYSDK_OFFSET(0x1B45CD90)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int SafeAERC_TypeDefinitionIndex = 9838;
+	inline static constexpr unsigned int SafeAERC_TypeDefinitionIndex = 9665;
 
 	class SafeAERC : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace Entitas
 		::Entitas::IEntity* _entity; // 0x10
 		::System::Collections::Generic::HashSet_1<::System::Object*>* _owners; // 0x18
 
-		::System::Void _ctor(::Entitas::IEntity* entity)
+		::System::Void _ctor(::Entitas::IEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*))((::PBYTE)hIl2Cpp + ENTITAS_SAFEAERC__CTOR_OFFSET))(this, entity);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*))((::PBYTE)hIl2Cpp + ENTITAS_SAFEAERC__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_retainCount()
@@ -36,14 +36,14 @@ namespace Entitas
 			return ((::System::Collections::Generic::HashSet_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENTITAS_SAFEAERC_GET_OWNERS_OFFSET))(this);
 		}
 
-		::System::Void Retain(::System::Object* owner)
+		::System::Void Retain(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ENTITAS_SAFEAERC_RETAIN_OFFSET))(this, owner);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ENTITAS_SAFEAERC_RETAIN_OFFSET))(this, a1);
 		}
 
-		::System::Void Release(::System::Object* owner)
+		::System::Void Release(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ENTITAS_SAFEAERC_RELEASE_OFFSET))(this, owner);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ENTITAS_SAFEAERC_RELEASE_OFFSET))(this, a1);
 		}
 	};
 }

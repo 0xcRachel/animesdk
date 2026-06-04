@@ -10,23 +10,23 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class ScrollRect; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MONOLISTMULTIMOVEANIM_AWAKE_OFFSET UNITYSDK_OFFSET(0x116A80A0)
-#define RPG_CLIENT_MONOLISTMULTIMOVEANIM_EXECUTEMOVE_OFFSET UNITYSDK_OFFSET(0x116A8B00)
-#define RPG_CLIENT_MONOLISTMULTIMOVEANIM_INIT_OFFSET UNITYSDK_OFFSET(0x116A8360)
-#define RPG_CLIENT_MONOLISTMULTIMOVEANIM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x116A8200)
-#define RPG_CLIENT_MONOLISTMULTIMOVEANIM_STANDBY_OFFSET UNITYSDK_OFFSET(0x116A83D0)
-#define RPG_CLIENT_MONOLISTMULTIMOVEANIM__ADJUSTSCROLLRECTPOSITION_OFFSET UNITYSDK_OFFSET(0x116A8840)
-#define RPG_CLIENT_MONOLISTMULTIMOVEANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x116A9630)
-#define RPG_CLIENT_MONOLISTMULTIMOVEANIM__GETSHOWINGINDEXBYTARGETINDEXFORFOCUS_OFFSET UNITYSDK_OFFSET(0x116A8F50)
-#define RPG_CLIENT_MONOLISTMULTIMOVEANIM__GETSHOWINGINDEXBYTARGETINDEX_OFFSET UNITYSDK_OFFSET(0x116A93D0)
-#define RPG_CLIENT_MONOLISTMULTIMOVEANIM__MOVEFOCUSITEM_OFFSET UNITYSDK_OFFSET(0x116A8FC0)
-#define RPG_CLIENT_MONOLISTMULTIMOVEANIM__MOVEITEMIMMEDIATE_OFFSET UNITYSDK_OFFSET(0x116A89B0)
-#define RPG_CLIENT_MONOLISTMULTIMOVEANIM__MOVEITEM_OFFSET UNITYSDK_OFFSET(0x116A9440)
-#define RPG_CLIENT_MONOLISTMULTIMOVEANIM__RECORDPOSITIONS_OFFSET UNITYSDK_OFFSET(0x116A8660)
+#define RPG_CLIENT_MONOLISTMULTIMOVEANIM_AWAKE_OFFSET UNITYSDK_OFFSET(0x17AD38E0)
+#define RPG_CLIENT_MONOLISTMULTIMOVEANIM_EXECUTEMOVE_OFFSET UNITYSDK_OFFSET(0x17AD4340)
+#define RPG_CLIENT_MONOLISTMULTIMOVEANIM_INIT_OFFSET UNITYSDK_OFFSET(0x17AD3BB0)
+#define RPG_CLIENT_MONOLISTMULTIMOVEANIM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x17AD3A60)
+#define RPG_CLIENT_MONOLISTMULTIMOVEANIM_STANDBY_OFFSET UNITYSDK_OFFSET(0x17AD3C20)
+#define RPG_CLIENT_MONOLISTMULTIMOVEANIM__ADJUSTSCROLLRECTPOSITION_OFFSET UNITYSDK_OFFSET(0x17AD40D0)
+#define RPG_CLIENT_MONOLISTMULTIMOVEANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x17AD4D50)
+#define RPG_CLIENT_MONOLISTMULTIMOVEANIM__GETSHOWINGINDEXBYTARGETINDEXFORFOCUS_OFFSET UNITYSDK_OFFSET(0x17AD4750)
+#define RPG_CLIENT_MONOLISTMULTIMOVEANIM__GETSHOWINGINDEXBYTARGETINDEX_OFFSET UNITYSDK_OFFSET(0x17AD4B40)
+#define RPG_CLIENT_MONOLISTMULTIMOVEANIM__MOVEFOCUSITEM_OFFSET UNITYSDK_OFFSET(0x17AD47C0)
+#define RPG_CLIENT_MONOLISTMULTIMOVEANIM__MOVEITEMIMMEDIATE_OFFSET UNITYSDK_OFFSET(0x17AD4250)
+#define RPG_CLIENT_MONOLISTMULTIMOVEANIM__MOVEITEM_OFFSET UNITYSDK_OFFSET(0x17AD4BB0)
+#define RPG_CLIENT_MONOLISTMULTIMOVEANIM__RECORDPOSITIONS_OFFSET UNITYSDK_OFFSET(0x17AD3EC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoListMultiMoveAnim_TypeDefinitionIndex = 66876;
+	inline static constexpr unsigned int MonoListMultiMoveAnim_TypeDefinitionIndex = 67816;
 
 	class MonoListMultiMoveAnim : public ::UnityEngine::MonoBehaviour
 	{
@@ -60,9 +60,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLISTMULTIMOVEANIM_ONDISABLE_OFFSET))(this);
 		}
 
-		::System::Void Init(::XLua::LuaTable* luaTable, ::System::Func_3<::XLua::LuaTable*, ::SuperScrollView::LoopListViewItem2*, ::System::Int32>* getIndexByItem, ::System::Func_3<::XLua::LuaTable*, ::System::Int32, ::System::Boolean>* isFocusItem)
+		::System::Void Init(::XLua::LuaTable* a1, ::System::Func_3<::XLua::LuaTable*, ::SuperScrollView::LoopListViewItem2*, ::System::Int32>* a2, ::System::Func_3<::XLua::LuaTable*, ::System::Int32, ::System::Boolean>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Func_3<::XLua::LuaTable*, ::SuperScrollView::LoopListViewItem2*, ::System::Int32>*, ::System::Func_3<::XLua::LuaTable*, ::System::Int32, ::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLISTMULTIMOVEANIM_INIT_OFFSET))(this, luaTable, getIndexByItem, isFocusItem);
+			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Func_3<::XLua::LuaTable*, ::SuperScrollView::LoopListViewItem2*, ::System::Int32>*, ::System::Func_3<::XLua::LuaTable*, ::System::Int32, ::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLISTMULTIMOVEANIM_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void StandBy()
@@ -80,34 +80,34 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLISTMULTIMOVEANIM__RECORDPOSITIONS_OFFSET))(this);
 		}
 
-		::System::Void _MoveItem(::System::Int32 from, ::System::Int32 to, ::System::Single moveDuration)
+		::System::Void _MoveItem(::System::Int32 a1, ::System::Int32 a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLISTMULTIMOVEANIM__MOVEITEM_OFFSET))(this, from, to, moveDuration);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLISTMULTIMOVEANIM__MOVEITEM_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _MoveItemImmediate(::System::Int32 from, ::System::Int32 to)
+		::System::Void _MoveItemImmediate(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLISTMULTIMOVEANIM__MOVEITEMIMMEDIATE_OFFSET))(this, from, to);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLISTMULTIMOVEANIM__MOVEITEMIMMEDIATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _MoveFocusItem(::System::Int32 from, ::System::Int32 to, ::System::Single moveDuration)
+		::System::Void _MoveFocusItem(::System::Int32 a1, ::System::Int32 a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLISTMULTIMOVEANIM__MOVEFOCUSITEM_OFFSET))(this, from, to, moveDuration);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLISTMULTIMOVEANIM__MOVEFOCUSITEM_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _AdjustScrollRectPosition(::System::Int32 targetIndex)
+		::System::Void _AdjustScrollRectPosition(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLISTMULTIMOVEANIM__ADJUSTSCROLLRECTPOSITION_OFFSET))(this, targetIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLISTMULTIMOVEANIM__ADJUSTSCROLLRECTPOSITION_OFFSET))(this, a1);
 		}
 
-		::System::Int32 _GetShowingIndexByTargetIndexForFocus(::System::Int32 targetIndex)
+		::System::Int32 _GetShowingIndexByTargetIndexForFocus(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLISTMULTIMOVEANIM__GETSHOWINGINDEXBYTARGETINDEXFORFOCUS_OFFSET))(this, targetIndex);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLISTMULTIMOVEANIM__GETSHOWINGINDEXBYTARGETINDEXFORFOCUS_OFFSET))(this, a1);
 		}
 
-		::System::Int32 _GetShowingIndexByTargetIndex(::System::Int32 targetIndex)
+		::System::Int32 _GetShowingIndexByTargetIndex(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLISTMULTIMOVEANIM__GETSHOWINGINDEXBYTARGETINDEX_OFFSET))(this, targetIndex);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLISTMULTIMOVEANIM__GETSHOWINGINDEXBYTARGETINDEX_OFFSET))(this, a1);
 		}
 	};
 }

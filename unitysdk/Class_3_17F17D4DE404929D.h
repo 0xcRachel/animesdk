@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_1_7AB88D713F5121B3_45;
+class Class_1_7AB88D713F5121B3_44;
 namespace RPG::GameCore { class SetBattleRougeGoalProgress; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_17F17D4DE404929D_METHOD_3_1FF0B87A9F818945_OFFSET UNITYSDK_OFFSET(0x13580690)
-#define CLASS_3_17F17D4DE404929D_METHOD_3_79E3564873031768_OFFSET UNITYSDK_OFFSET(0x13580730)
-#define CLASS_3_17F17D4DE404929D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13580570)
-#define CLASS_3_17F17D4DE404929D__CTOR_OFFSET UNITYSDK_OFFSET(0x13580540)
+#define CLASS_3_17F17D4DE404929D_METHOD_3_1FF0B87A9F818945_OFFSET UNITYSDK_OFFSET(0x172712B0)
+#define CLASS_3_17F17D4DE404929D_METHOD_3_59C9C2EFD4EDF51F_OFFSET UNITYSDK_OFFSET(0x17271350)
+#define CLASS_3_17F17D4DE404929D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x172710F0)
+#define CLASS_3_17F17D4DE404929D__CTOR_OFFSET UNITYSDK_OFFSET(0x172710C0)
 
-inline static constexpr unsigned int Class_3_17F17D4DE404929D_TypeDefinitionIndex = 53948;
+inline static constexpr unsigned int Class_3_17F17D4DE404929D_TypeDefinitionIndex = 54673;
 
 class Class_3_17F17D4DE404929D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetBattleRougeGoalProgress*>
 {
 public:
-	::Class_1_7AB88D713F5121B3_45* Field_3_0; // 0x28
+	::Class_1_7AB88D713F5121B3_44* Field_3_0; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetBattleRougeGoalProgress* a2)
 	{
@@ -34,8 +34,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_3_17F17D4DE404929D_METHOD_3_1FF0B87A9F818945_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_3_79E3564873031768(::System::UInt32 a1, ::RPG::GameCore::FixPoint a2)
+	::System::Void Method_3_59C9C2EFD4EDF51F(::System::UInt32 a1, ::RPG::GameCore::FixPoint a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_3_17F17D4DE404929D_METHOD_3_79E3564873031768_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_3_17F17D4DE404929D_METHOD_3_59C9C2EFD4EDF51F_OFFSET))(this, a1, a2);
 	}
 };

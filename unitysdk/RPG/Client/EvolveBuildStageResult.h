@@ -4,66 +4,66 @@
 #include "unitysdk/RPG/GameCore/EvolveBuildSeason.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_C9DFE5EE7107C629_6;
+class Class_1_0F00B330391D7109;
 namespace RPG::Client { class EvolveBuildModule; }
 namespace RPG::Client { class EvolveBuildStageResultItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_CREATEFAKE_OFFSET UNITYSDK_OFFSET(0x161D0210)
-#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_CREATEFROMFINISHNOTIFY_OFFSET UNITYSDK_OFFSET(0x161CF8E0)
-#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_CREATE_OFFSET UNITYSDK_OFFSET(0x161CF510)
-#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GETSCORENUM_OFFSET UNITYSDK_OFFSET(0x161CF970)
-#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GETTEAMDAMAGENUM_OFFSET UNITYSDK_OFFSET(0x161CFF30)
-#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GETTITLE_OFFSET UNITYSDK_OFFSET(0x161D0370)
-#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GETWEAPONDAMAGENUM_OFFSET UNITYSDK_OFFSET(0x161CFC40)
-#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GET_ISINTUTORIALSTAGE_OFFSET UNITYSDK_OFFSET(0x161D04A0)
-#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x161D0480)
-#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GET_SCORE_OFFSET UNITYSDK_OFFSET(0x161D0460)
-#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GET__MODULE_OFFSET UNITYSDK_OFFSET(0x161D0310)
-#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_OPENPHASETREASUREUI_OFFSET UNITYSDK_OFFSET(0x161D0270)
-#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_SET_ITEMS_OFFSET UNITYSDK_OFFSET(0x161D0490)
-#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_SET_SCORE_OFFSET UNITYSDK_OFFSET(0x161D0470)
-#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x161CF8D0)
+#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_CREATEFAKE_OFFSET UNITYSDK_OFFSET(0x17DC5DE0)
+#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_CREATEFROMFINISHNOTIFY_OFFSET UNITYSDK_OFFSET(0x17DC5470)
+#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_CREATE_OFFSET UNITYSDK_OFFSET(0x17DC5000)
+#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GETSCORENUM_OFFSET UNITYSDK_OFFSET(0x17DC5510)
+#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GETTEAMDAMAGENUM_OFFSET UNITYSDK_OFFSET(0x17DC5AF0)
+#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GETTITLE_OFFSET UNITYSDK_OFFSET(0x17DC5F40)
+#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GETWEAPONDAMAGENUM_OFFSET UNITYSDK_OFFSET(0x17DC57F0)
+#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GET_ISINTUTORIALSTAGE_OFFSET UNITYSDK_OFFSET(0x17DC6070)
+#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x17DC6050)
+#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GET_SCORE_OFFSET UNITYSDK_OFFSET(0x17DC6030)
+#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GET__MODULE_OFFSET UNITYSDK_OFFSET(0x17DC5EE0)
+#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_OPENPHASETREASUREUI_OFFSET UNITYSDK_OFFSET(0x17DC5E40)
+#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_SET_ITEMS_OFFSET UNITYSDK_OFFSET(0x17DC6060)
+#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT_SET_SCORE_OFFSET UNITYSDK_OFFSET(0x17DC6040)
+#define RPG_CLIENT_EVOLVEBUILDSTAGERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x17DC5460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildStageResult_TypeDefinitionIndex = 58776;
+	inline static constexpr unsigned int EvolveBuildStageResult_TypeDefinitionIndex = 59706;
 
 	class EvolveBuildStageResult : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::EvolveBuildStageResultItem*>* _Items_k__BackingField; // 0x10
-		::System::UInt32 _Score_k__BackingField; // 0x18
-		::System::UInt32 _PeriodIndex; // 0x1C
+		::System::UInt32 _PeriodIndex; // 0x18
+		::System::UInt32 _Score_k__BackingField; // 0x1C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSTAGERESULT__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::EvolveBuildStageResult* Create(::System::UInt32 score, ::System::UInt32 coinNum, ::System::UInt32 exp, ::RPG::GameCore::EvolveBuildSeason season, ::System::UInt32 stageID, ::System::UInt32 periodIndex)
+		static ::RPG::Client::EvolveBuildStageResult* Create(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::RPG::GameCore::EvolveBuildSeason a4, ::System::UInt32 a5, ::System::UInt32 a6)
 		{
-			return ((::RPG::Client::EvolveBuildStageResult*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::RPG::GameCore::EvolveBuildSeason, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSTAGERESULT_CREATE_OFFSET))(score, coinNum, exp, season, stageID, periodIndex);
+			return ((::RPG::Client::EvolveBuildStageResult*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::RPG::GameCore::EvolveBuildSeason, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSTAGERESULT_CREATE_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::RPG::Client::EvolveBuildStageResult* CreateFromFinishNotify(::Class_1_C9DFE5EE7107C629_6* levelInfo, ::RPG::GameCore::EvolveBuildSeason season, ::System::UInt32 stageID)
+		static ::RPG::Client::EvolveBuildStageResult* CreateFromFinishNotify(::Class_1_0F00B330391D7109* a1, ::RPG::GameCore::EvolveBuildSeason a2, ::System::UInt32 a3)
 		{
-			return ((::RPG::Client::EvolveBuildStageResult*(*)(::Class_1_C9DFE5EE7107C629_6*, ::RPG::GameCore::EvolveBuildSeason, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSTAGERESULT_CREATEFROMFINISHNOTIFY_OFFSET))(levelInfo, season, stageID);
+			return ((::RPG::Client::EvolveBuildStageResult*(*)(::Class_1_0F00B330391D7109*, ::RPG::GameCore::EvolveBuildSeason, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSTAGERESULT_CREATEFROMFINISHNOTIFY_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::UInt32 GetWeaponDamageNum(::Class_1_C9DFE5EE7107C629_6* levelInfo)
+		static ::System::UInt32 GetWeaponDamageNum(::Class_1_0F00B330391D7109* a1)
 		{
-			return ((::System::UInt32(*)(::Class_1_C9DFE5EE7107C629_6*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GETWEAPONDAMAGENUM_OFFSET))(levelInfo);
+			return ((::System::UInt32(*)(::Class_1_0F00B330391D7109*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GETWEAPONDAMAGENUM_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetTeamDamageNum(::Class_1_C9DFE5EE7107C629_6* levelInfo)
+		static ::System::UInt32 GetTeamDamageNum(::Class_1_0F00B330391D7109* a1)
 		{
-			return ((::System::UInt32(*)(::Class_1_C9DFE5EE7107C629_6*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GETTEAMDAMAGENUM_OFFSET))(levelInfo);
+			return ((::System::UInt32(*)(::Class_1_0F00B330391D7109*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GETTEAMDAMAGENUM_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetScoreNum(::Class_1_C9DFE5EE7107C629_6* levelInfo)
+		static ::System::UInt32 GetScoreNum(::Class_1_0F00B330391D7109* a1)
 		{
-			return ((::System::UInt32(*)(::Class_1_C9DFE5EE7107C629_6*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GETSCORENUM_OFFSET))(levelInfo);
+			return ((::System::UInt32(*)(::Class_1_0F00B330391D7109*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GETSCORENUM_OFFSET))(a1);
 		}
 
 		static ::RPG::Client::EvolveBuildStageResult* CreateFake()
@@ -86,9 +86,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GET_SCORE_OFFSET))(this);
 		}
 
-		::System::Void set_Score(::System::UInt32 value)
+		::System::Void set_Score(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSTAGERESULT_SET_SCORE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSTAGERESULT_SET_SCORE_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::EvolveBuildStageResultItem*>* get_Items()
@@ -96,9 +96,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::EvolveBuildStageResultItem*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSTAGERESULT_GET_ITEMS_OFFSET))(this);
 		}
 
-		::System::Void set_Items(::System::Collections::Generic::List_1<::RPG::Client::EvolveBuildStageResultItem*>* value)
+		::System::Void set_Items(::System::Collections::Generic::List_1<::RPG::Client::EvolveBuildStageResultItem*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::EvolveBuildStageResultItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSTAGERESULT_SET_ITEMS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::EvolveBuildStageResultItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSTAGERESULT_SET_ITEMS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsInTutorialStage()

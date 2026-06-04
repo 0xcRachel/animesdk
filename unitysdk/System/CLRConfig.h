@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_CLRCONFIG_CHECKTHROWUNOBSERVEDTASKEXCEPTIONS_OFFSET UNITYSDK_OFFSET(0x193C2F30)
+#define SYSTEM_CLRCONFIG_CHECKTHROWUNOBSERVEDTASKEXCEPTIONS_OFFSET UNITYSDK_OFFSET(0x19A0F180)
 
 namespace System
 {
-	inline static constexpr unsigned int CLRConfig_TypeDefinitionIndex = 367;
+	inline static constexpr unsigned int CLRConfig_TypeDefinitionIndex = 366;
 
 	class CLRConfig : public ::System::Object
 	{

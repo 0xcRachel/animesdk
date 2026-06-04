@@ -5,17 +5,17 @@
 
 namespace RPG::Client { class IRogueMiracle; }
 
-#define CLASS_1_2D441118ED4608C7_METHOD_1_155A94F929B734CD_OFFSET UNITYSDK_OFFSET(0xF7833E0)
-#define CLASS_1_2D441118ED4608C7_METHOD_1_9BD82D5B883ABACD_OFFSET UNITYSDK_OFFSET(0xF7832C0)
-#define CLASS_1_2D441118ED4608C7__CTOR_OFFSET UNITYSDK_OFFSET(0xF7832B0)
+#define CLASS_1_2D441118ED4608C7_METHOD_1_155A94F929B734CD_OFFSET UNITYSDK_OFFSET(0x1735A600)
+#define CLASS_1_2D441118ED4608C7_METHOD_1_9BD82D5B883ABACD_OFFSET UNITYSDK_OFFSET(0x1735A4E0)
+#define CLASS_1_2D441118ED4608C7__CTOR_OFFSET UNITYSDK_OFFSET(0x1735A4D0)
 
-inline static constexpr unsigned int Class_1_2D441118ED4608C7_TypeDefinitionIndex = 61964;
+inline static constexpr unsigned int Class_1_2D441118ED4608C7_TypeDefinitionIndex = 62897;
 
 class Class_1_2D441118ED4608C7 : public ::System::Object
 {
 public:
-	::RPG::Client::IRogueMiracle* Field_1_1; // 0x10
-	::RPG::Client::RogueMiracleIdentifier Field_1_0; // 0x18
+	::RPG::Client::IRogueMiracle* Field_1_0; // 0x10
+	::RPG::Client::RogueMiracleIdentifier Field_1_1; // 0x18
 
 	::System::Void _ctor(::RPG::Client::RogueMiracleIdentifier a1)
 	{

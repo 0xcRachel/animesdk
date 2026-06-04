@@ -7,12 +7,12 @@ class Class_1_303D5A33D1401D59;
 class Class_1_8A6989C352B0F0F0;
 namespace System { class String; }
 
-#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x165B2410)
-#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS24_0__ONSTREAMINGINSTANCECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x165B56B0)
+#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18C6EEB0)
+#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS24_0__ONSTREAMINGINSTANCECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x18C72210)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PartialFlipDeviceComponent___c__DisplayClass24_0_TypeDefinitionIndex = 67520;
+	inline static constexpr unsigned int PartialFlipDeviceComponent___c__DisplayClass24_0_TypeDefinitionIndex = 68474;
 
 	class PartialFlipDeviceComponent___c__DisplayClass24_0 : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS24_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _OnStreamingInstanceChange_b__0(::System::ValueTuple_2<::System::String*, ::System::String*> x)
+		::System::Boolean _OnStreamingInstanceChange_b__0(::System::ValueTuple_2<::System::String*, ::System::String*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::String*, ::System::String*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS24_0__ONSTREAMINGINSTANCECHANGE_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::String*, ::System::String*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS24_0__ONSTREAMINGINSTANCECHANGE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

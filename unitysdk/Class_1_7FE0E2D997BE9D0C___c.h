@@ -3,31 +3,31 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_7FE0E2D997BE9D0C;
-class Class_2_9DD8A46984F1AFFD;
+class Class_2_B9E8C2EEAA5C96EC;
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Collider; }
 
-#define CLASS_1_7FE0E2D997BE9D0C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDEBB810)
-#define CLASS_1_7FE0E2D997BE9D0C___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDEBB840)
-#define CLASS_1_7FE0E2D997BE9D0C___C___INITONESIDEPASSPROP_B__5_0_OFFSET UNITYSDK_OFFSET(0xDEBB850)
-#define CLASS_1_7FE0E2D997BE9D0C___C___INITONESIDEPASSPROP_B__5_1_OFFSET UNITYSDK_OFFSET(0xDEBB880)
+#define CLASS_1_7FE0E2D997BE9D0C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x159CA120)
+#define CLASS_1_7FE0E2D997BE9D0C___C__CTOR_OFFSET UNITYSDK_OFFSET(0x159CA150)
+#define CLASS_1_7FE0E2D997BE9D0C___C___INITONESIDEPASSPROP_B__5_0_OFFSET UNITYSDK_OFFSET(0x159CA160)
+#define CLASS_1_7FE0E2D997BE9D0C___C___INITONESIDEPASSPROP_B__5_1_OFFSET UNITYSDK_OFFSET(0x159CA190)
 
-inline static constexpr unsigned int Class_1_7FE0E2D997BE9D0C___c_TypeDefinitionIndex = 70842;
+inline static constexpr unsigned int Class_1_7FE0E2D997BE9D0C___c_TypeDefinitionIndex = 71661;
 
 class Class_1_7FE0E2D997BE9D0C___c : public ::System::Object
 {
 public:
 	static ::Class_1_7FE0E2D997BE9D0C___c** StaticGet___9()
 	{
-		return (::Class_1_7FE0E2D997BE9D0C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7FE0E2D997BE9D0C___c_TypeDefinitionIndex)->GetStaticField(0x6AFC0);
+		return (::Class_1_7FE0E2D997BE9D0C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7FE0E2D997BE9D0C___c_TypeDefinitionIndex)->GetStaticField(0x51D60);
 	}
-	static ::System::Action_3<::Class_1_7FE0E2D997BE9D0C*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>** StaticGet___9__5_0()
+	static ::System::Action_3<::Class_1_7FE0E2D997BE9D0C*, ::Class_2_B9E8C2EEAA5C96EC*, ::UnityEngine::Collider*>** StaticGet___9__5_1()
 	{
-		return (::System::Action_3<::Class_1_7FE0E2D997BE9D0C*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7FE0E2D997BE9D0C___c_TypeDefinitionIndex)->GetStaticField(0x6AFC8);
+		return (::System::Action_3<::Class_1_7FE0E2D997BE9D0C*, ::Class_2_B9E8C2EEAA5C96EC*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7FE0E2D997BE9D0C___c_TypeDefinitionIndex)->GetStaticField(0x51D68);
 	}
-	static ::System::Action_3<::Class_1_7FE0E2D997BE9D0C*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>** StaticGet___9__5_1()
+	static ::System::Action_3<::Class_1_7FE0E2D997BE9D0C*, ::Class_2_B9E8C2EEAA5C96EC*, ::UnityEngine::Collider*>** StaticGet___9__5_0()
 	{
-		return (::System::Action_3<::Class_1_7FE0E2D997BE9D0C*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7FE0E2D997BE9D0C___c_TypeDefinitionIndex)->GetStaticField(0x6AFD0);
+		return (::System::Action_3<::Class_1_7FE0E2D997BE9D0C*, ::Class_2_B9E8C2EEAA5C96EC*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7FE0E2D997BE9D0C___c_TypeDefinitionIndex)->GetStaticField(0x51D70);
 	}
 
 	static ::System::Void _cctor()
@@ -40,13 +40,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7FE0E2D997BE9D0C___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Void __InitOneSidePassProp_b__5_0(::Class_1_7FE0E2D997BE9D0C* self, ::Class_2_9DD8A46984F1AFFD* prop, ::UnityEngine::Collider* other)
+	::System::Void __InitOneSidePassProp_b__5_0(::Class_1_7FE0E2D997BE9D0C* a1, ::Class_2_B9E8C2EEAA5C96EC* a2, ::UnityEngine::Collider* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_7FE0E2D997BE9D0C*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_1_7FE0E2D997BE9D0C___C___INITONESIDEPASSPROP_B__5_0_OFFSET))(this, self, prop, other);
+		return ((::System::Void(*)(::PVOID, ::Class_1_7FE0E2D997BE9D0C*, ::Class_2_B9E8C2EEAA5C96EC*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_1_7FE0E2D997BE9D0C___C___INITONESIDEPASSPROP_B__5_0_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void __InitOneSidePassProp_b__5_1(::Class_1_7FE0E2D997BE9D0C* self, ::Class_2_9DD8A46984F1AFFD* prop, ::UnityEngine::Collider* other)
+	::System::Void __InitOneSidePassProp_b__5_1(::Class_1_7FE0E2D997BE9D0C* a1, ::Class_2_B9E8C2EEAA5C96EC* a2, ::UnityEngine::Collider* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_7FE0E2D997BE9D0C*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_1_7FE0E2D997BE9D0C___C___INITONESIDEPASSPROP_B__5_1_OFFSET))(this, self, prop, other);
+		return ((::System::Void(*)(::PVOID, ::Class_1_7FE0E2D997BE9D0C*, ::Class_2_B9E8C2EEAA5C96EC*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_1_7FE0E2D997BE9D0C___C___INITONESIDEPASSPROP_B__5_1_OFFSET))(this, a1, a2, a3);
 	}
 };

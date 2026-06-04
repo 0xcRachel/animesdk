@@ -1,0 +1,190 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_1165;
+class Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11;
+
+#define CLASS_1_5175A8A362457A24___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15175E30)
+#define CLASS_1_5175A8A362457A24___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15175E70)
+#define CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_0_OFFSET UNITYSDK_OFFSET(0x15175E80)
+#define CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_10_OFFSET UNITYSDK_OFFSET(0x15176100)
+#define CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_11_OFFSET UNITYSDK_OFFSET(0x15176140)
+#define CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_12_OFFSET UNITYSDK_OFFSET(0x15176180)
+#define CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_13_OFFSET UNITYSDK_OFFSET(0x151761C0)
+#define CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_14_OFFSET UNITYSDK_OFFSET(0x15176200)
+#define CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_15_OFFSET UNITYSDK_OFFSET(0x15176240)
+#define CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_1_OFFSET UNITYSDK_OFFSET(0x15175EC0)
+#define CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_2_OFFSET UNITYSDK_OFFSET(0x15175F00)
+#define CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_3_OFFSET UNITYSDK_OFFSET(0x15175F40)
+#define CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_4_OFFSET UNITYSDK_OFFSET(0x15175F80)
+#define CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_5_OFFSET UNITYSDK_OFFSET(0x15175FC0)
+#define CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_6_OFFSET UNITYSDK_OFFSET(0x15176000)
+#define CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_7_OFFSET UNITYSDK_OFFSET(0x15176040)
+#define CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_8_OFFSET UNITYSDK_OFFSET(0x15176080)
+#define CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_9_OFFSET UNITYSDK_OFFSET(0x151760C0)
+
+inline static constexpr unsigned int Class_1_5175A8A362457A24___c_TypeDefinitionIndex = 71893;
+
+class Class_1_5175A8A362457A24___c : public ::System::Object
+{
+public:
+	static ::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11** StaticGet___9__2_14()
+	{
+		return (::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5175A8A362457A24___c_TypeDefinitionIndex)->GetStaticField(0x1A810);
+	}
+	static ::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11** StaticGet___9__2_2()
+	{
+		return (::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5175A8A362457A24___c_TypeDefinitionIndex)->GetStaticField(0x1A818);
+	}
+	static ::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11** StaticGet___9__2_7()
+	{
+		return (::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5175A8A362457A24___c_TypeDefinitionIndex)->GetStaticField(0x1A820);
+	}
+	static ::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11** StaticGet___9__2_3()
+	{
+		return (::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5175A8A362457A24___c_TypeDefinitionIndex)->GetStaticField(0x1A828);
+	}
+	static ::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11** StaticGet___9__2_6()
+	{
+		return (::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5175A8A362457A24___c_TypeDefinitionIndex)->GetStaticField(0x1A830);
+	}
+	static ::Class_1_5175A8A362457A24___c** StaticGet___9()
+	{
+		return (::Class_1_5175A8A362457A24___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5175A8A362457A24___c_TypeDefinitionIndex)->GetStaticField(0x1A838);
+	}
+	static ::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11** StaticGet___9__2_9()
+	{
+		return (::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5175A8A362457A24___c_TypeDefinitionIndex)->GetStaticField(0x1A840);
+	}
+	static ::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11** StaticGet___9__2_11()
+	{
+		return (::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5175A8A362457A24___c_TypeDefinitionIndex)->GetStaticField(0x1A848);
+	}
+	static ::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11** StaticGet___9__2_5()
+	{
+		return (::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5175A8A362457A24___c_TypeDefinitionIndex)->GetStaticField(0x1A850);
+	}
+	static ::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11** StaticGet___9__2_15()
+	{
+		return (::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5175A8A362457A24___c_TypeDefinitionIndex)->GetStaticField(0x1A858);
+	}
+	static ::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11** StaticGet___9__2_1()
+	{
+		return (::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5175A8A362457A24___c_TypeDefinitionIndex)->GetStaticField(0x1A860);
+	}
+	static ::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11** StaticGet___9__2_12()
+	{
+		return (::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5175A8A362457A24___c_TypeDefinitionIndex)->GetStaticField(0x1A868);
+	}
+	static ::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11** StaticGet___9__2_8()
+	{
+		return (::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5175A8A362457A24___c_TypeDefinitionIndex)->GetStaticField(0x1A870);
+	}
+	static ::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11** StaticGet___9__2_0()
+	{
+		return (::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5175A8A362457A24___c_TypeDefinitionIndex)->GetStaticField(0x1A878);
+	}
+	static ::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11** StaticGet___9__2_10()
+	{
+		return (::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5175A8A362457A24___c_TypeDefinitionIndex)->GetStaticField(0x1A880);
+	}
+	static ::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11** StaticGet___9__2_4()
+	{
+		return (::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5175A8A362457A24___c_TypeDefinitionIndex)->GetStaticField(0x1A888);
+	}
+	static ::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11** StaticGet___9__2_13()
+	{
+		return (::Class_1_5175A8A362457A24_Class_3_50D343C44D28BEFB_11**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5175A8A362457A24___c_TypeDefinitionIndex)->GetStaticField(0x1A890);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_5175A8A362457A24___C__CCTOR_OFFSET))();
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5175A8A362457A24___C__CTOR_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_1165* __InitDefaultMappings_b__2_0()
+	{
+		return ((::Class_0_16E4307DCC419505_1165*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_0_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_1165* __InitDefaultMappings_b__2_1()
+	{
+		return ((::Class_0_16E4307DCC419505_1165*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_1_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_1165* __InitDefaultMappings_b__2_2()
+	{
+		return ((::Class_0_16E4307DCC419505_1165*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_2_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_1165* __InitDefaultMappings_b__2_3()
+	{
+		return ((::Class_0_16E4307DCC419505_1165*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_3_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_1165* __InitDefaultMappings_b__2_4()
+	{
+		return ((::Class_0_16E4307DCC419505_1165*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_4_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_1165* __InitDefaultMappings_b__2_5()
+	{
+		return ((::Class_0_16E4307DCC419505_1165*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_5_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_1165* __InitDefaultMappings_b__2_6()
+	{
+		return ((::Class_0_16E4307DCC419505_1165*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_6_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_1165* __InitDefaultMappings_b__2_7()
+	{
+		return ((::Class_0_16E4307DCC419505_1165*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_7_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_1165* __InitDefaultMappings_b__2_8()
+	{
+		return ((::Class_0_16E4307DCC419505_1165*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_8_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_1165* __InitDefaultMappings_b__2_9()
+	{
+		return ((::Class_0_16E4307DCC419505_1165*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_9_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_1165* __InitDefaultMappings_b__2_10()
+	{
+		return ((::Class_0_16E4307DCC419505_1165*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_10_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_1165* __InitDefaultMappings_b__2_11()
+	{
+		return ((::Class_0_16E4307DCC419505_1165*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_11_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_1165* __InitDefaultMappings_b__2_12()
+	{
+		return ((::Class_0_16E4307DCC419505_1165*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_12_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_1165* __InitDefaultMappings_b__2_13()
+	{
+		return ((::Class_0_16E4307DCC419505_1165*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_13_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_1165* __InitDefaultMappings_b__2_14()
+	{
+		return ((::Class_0_16E4307DCC419505_1165*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_14_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_1165* __InitDefaultMappings_b__2_15()
+	{
+		return ((::Class_0_16E4307DCC419505_1165*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5175A8A362457A24___C___INITDEFAULTMAPPINGS_B__2_15_OFFSET))(this);
+	}
+};

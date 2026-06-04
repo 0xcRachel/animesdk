@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_UNSAFEVALUETYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18F5A7C0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_UNSAFEVALUETYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1970BD00)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int UnsafeValueTypeAttribute_TypeDefinitionIndex = 1385;
+	inline static constexpr unsigned int UnsafeValueTypeAttribute_TypeDefinitionIndex = 1384;
 
 	class UnsafeValueTypeAttribute : public ::System::Attribute
 	{

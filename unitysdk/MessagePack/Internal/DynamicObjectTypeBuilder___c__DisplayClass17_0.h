@@ -12,27 +12,27 @@ namespace System::Reflection::Emit { class ILGenerator; }
 namespace System::Reflection::Emit { class LocalBuilder; }
 namespace System::Reflection::Emit { class TypeBuilder; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS17_0__BUILDDESERIALIZEINTERNALDESERIALIZELOOPSTRINGKEY_G__FORBODY_0_OFFSET UNITYSDK_OFFSET(0x164C6100)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x164C27C0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS17_0__BUILDDESERIALIZEINTERNALDESERIALIZELOOPSTRINGKEY_G__FORBODY_0_OFFSET UNITYSDK_OFFSET(0x14021B40)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1401E430)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass17_0_TypeDefinitionIndex = 9374;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass17_0_TypeDefinitionIndex = 7277;
 
 	class DynamicObjectTypeBuilder___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
-		::MessagePack::Internal::AutomataDictionary* automata; // 0x10
-		::System::Reflection::Emit::LocalBuilder* longKey; // 0x18
-		::System::Func_3<::System::Int32, ::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*, ::System::Action*>* tryEmitLoadCustomFormatter; // 0x20
-		::Il2CppArray<::MessagePack::Internal::DynamicObjectTypeBuilder_DeserializeInfo*>* infoList; // 0x28
-		::MessagePack::Internal::ArgumentField options; // 0x30
-		::System::Reflection::Emit::TypeBuilder* typeBuilder; // 0x40
-		::System::Reflection::Emit::LocalBuilder* buffer; // 0x48
+		::System::Reflection::Emit::LocalBuilder* longKey; // 0x10
+		::System::Reflection::Emit::LocalBuilder* localResult; // 0x18
+		::System::Reflection::Emit::LocalBuilder* localResolver; // 0x20
+		::MessagePack::Internal::ArgumentField reader; // 0x28
+		::Il2CppArray<::MessagePack::Internal::DynamicObjectTypeBuilder_DeserializeInfo*>* infoList; // 0x38
+		::MessagePack::Internal::ArgumentField options; // 0x40
 		::System::Reflection::Emit::ILGenerator* il; // 0x50
-		::System::Reflection::Emit::LocalBuilder* localResolver; // 0x58
-		::MessagePack::Internal::ArgumentField reader; // 0x60
-		::System::Reflection::Emit::LocalBuilder* localResult; // 0x70
+		::System::Reflection::Emit::TypeBuilder* typeBuilder; // 0x58
+		::System::Reflection::Emit::LocalBuilder* buffer; // 0x60
+		::MessagePack::Internal::AutomataDictionary* automata; // 0x68
+		::System::Func_3<::System::Int32, ::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*, ::System::Action*>* tryEmitLoadCustomFormatter; // 0x70
 		::System::Boolean canOverwrite; // 0x78
 
 		::System::Void _ctor()
@@ -40,9 +40,9 @@ namespace MessagePack::Internal
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS17_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _BuildDeserializeInternalDeserializeLoopStringKey_g__ForBody_0(::System::Reflection::Emit::LocalBuilder* forILocal)
+		::System::Void _BuildDeserializeInternalDeserializeLoopStringKey_g__ForBody_0(::System::Reflection::Emit::LocalBuilder* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::LocalBuilder*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS17_0__BUILDDESERIALIZEINTERNALDESERIALIZELOOPSTRINGKEY_G__FORBODY_0_OFFSET))(this, forILocal);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::LocalBuilder*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS17_0__BUILDDESERIALIZEINTERNALDESERIALIZELOOPSTRINGKEY_G__FORBODY_0_OFFSET))(this, a1);
 		}
 	};
 }

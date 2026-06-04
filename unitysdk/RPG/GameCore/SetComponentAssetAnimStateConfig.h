@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class SetComponentAssetAnimParameterConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETCOMPONENTASSETANIMSTATECONFIG_METHOD_2_51BEBA6C9DBCC9CF_OFFSET UNITYSDK_OFFSET(0x192F5870)
-#define RPG_GAMECORE_SETCOMPONENTASSETANIMSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x192F59E0)
+#define RPG_GAMECORE_SETCOMPONENTASSETANIMSTATECONFIG_METHOD_2_51BEBA6C9DBCC9CF_OFFSET UNITYSDK_OFFSET(0x1A1EC1C0)
+#define RPG_GAMECORE_SETCOMPONENTASSETANIMSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1EC320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetComponentAssetAnimStateConfig_TypeDefinitionIndex = 21718;
+	inline static constexpr unsigned int SetComponentAssetAnimStateConfig_TypeDefinitionIndex = 21568;
 
 	class SetComponentAssetAnimStateConfig : public ::RPG::GameCore::JsonConfig
 	{

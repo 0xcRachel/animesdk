@@ -5,18 +5,18 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYEVENTFADEINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x178075C0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYEVENTFADEINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18132B90)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyEventFadeInData_TypeDefinitionIndex = 68587;
+	inline static constexpr unsigned int TrainPartyEventFadeInData_TypeDefinitionIndex = 69399;
 
 	class TrainPartyEventFadeInData : public ::System::Object
 	{
 	public:
 		::System::String* ImagePath; // 0x10
-		::System::Boolean IsReplaceImage; // 0x18
-		::RPG::GameCore::TrainPartyEventFadeInType Type; // 0x1C
+		::RPG::GameCore::TrainPartyEventFadeInType Type; // 0x18
+		::System::Boolean IsReplaceImage; // 0x1C
 
 		::System::Void _ctor()
 		{

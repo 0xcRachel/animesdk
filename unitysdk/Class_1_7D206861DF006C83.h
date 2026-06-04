@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_867B6CE75953535A;
+class Class_1_D33B7D6901AE39E9;
 class Class_3_F4528A5C0F861AF2;
 namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 
-#define CLASS_1_7D206861DF006C83_EXECUTE_OFFSET UNITYSDK_OFFSET(0xE0D3C60)
-#define CLASS_1_7D206861DF006C83_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xE0D3B30)
-#define CLASS_1_7D206861DF006C83_METHOD_1_6E17CBFDDFD73EDB_OFFSET UNITYSDK_OFFSET(0xE0D45F0)
-#define CLASS_1_7D206861DF006C83_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xE0D4A30)
-#define CLASS_1_7D206861DF006C83__CTOR_OFFSET UNITYSDK_OFFSET(0xE0D3B20)
+#define CLASS_1_7D206861DF006C83_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16EAE4F0)
+#define CLASS_1_7D206861DF006C83_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x16EAE3F0)
+#define CLASS_1_7D206861DF006C83_METHOD_1_6E17CBFDDFD73EDB_OFFSET UNITYSDK_OFFSET(0x16EAEED0)
+#define CLASS_1_7D206861DF006C83_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x16EAF2D0)
+#define CLASS_1_7D206861DF006C83__CTOR_OFFSET UNITYSDK_OFFSET(0x16EAE3E0)
 
-inline static constexpr unsigned int Class_1_7D206861DF006C83_TypeDefinitionIndex = 70975;
+inline static constexpr unsigned int Class_1_7D206861DF006C83_TypeDefinitionIndex = 71797;
 
 class Class_1_7D206861DF006C83 : public ::System::Object
 {
 public:
-	::Entitas::IGroup_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>* Field_1_0; // 0x10
-	::Class_3_F4528A5C0F861AF2* Field_1_2; // 0x18
-	::Class_1_867B6CE75953535A* Field_1_1; // 0x20
+	::Class_3_F4528A5C0F861AF2* Field_1_0; // 0x10
+	::Class_1_D33B7D6901AE39E9* Field_1_1; // 0x18
+	::Entitas::IGroup_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>* Field_1_2; // 0x20
 
-	::System::Void _ctor(::Class_1_867B6CE75953535A* a1, ::Class_3_F4528A5C0F861AF2* a2)
+	::System::Void _ctor(::Class_1_D33B7D6901AE39E9* a1, ::Class_3_F4528A5C0F861AF2* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_867B6CE75953535A*, ::Class_3_F4528A5C0F861AF2*))((::PBYTE)hIl2Cpp + CLASS_1_7D206861DF006C83__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_D33B7D6901AE39E9*, ::Class_3_F4528A5C0F861AF2*))((::PBYTE)hIl2Cpp + CLASS_1_7D206861DF006C83__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Initialize()

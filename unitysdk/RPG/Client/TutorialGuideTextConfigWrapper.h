@@ -14,36 +14,36 @@ namespace RPG::GameCore { class TutorialGuideTextAdaptConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_CREATECUSTOMDIRECTIONGUIDETEXT_OFFSET UNITYSDK_OFFSET(0x138CFA20)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_CREATECUSTOMWEAKDIRECTIONGUIDETEXT_OFFSET UNITYSDK_OFFSET(0x138CFE50)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_CREATEGUIDETEXT_OFFSET UNITYSDK_OFFSET(0x138CF600)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_CREATEWEAKGUIDETEXT_OFFSET UNITYSDK_OFFSET(0x138CFBE0)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_GETACTIONNAME_OFFSET UNITYSDK_OFFSET(0x138CFFE0)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_GETCONTENTPATH_OFFSET UNITYSDK_OFFSET(0x138D0200)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_GETGUIDETALKDATAROW_OFFSET UNITYSDK_OFFSET(0x138D0020)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_GETKEYMAPPATH_OFFSET UNITYSDK_OFFSET(0x138D0130)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_GETTEXTCONTENT_OFFSET UNITYSDK_OFFSET(0x138CFF80)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_GETTEXTPATH_OFFSET UNITYSDK_OFFSET(0x138D0060)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_GET_CONFIGTYPE_OFFSET UNITYSDK_OFFSET(0x138D0BB0)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_GET_ISSHOWKEYMAP_OFFSET UNITYSDK_OFFSET(0x138D0BC0)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_GET__NEEDSYNC_OFFSET UNITYSDK_OFFSET(0x138D0C20)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_REFRESHADAPTION_1_OFFSET UNITYSDK_OFFSET(0x138D03E0)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_REFRESHADAPTION_OFFSET UNITYSDK_OFFSET(0x138D02A0)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_SETACTIONNAME_OFFSET UNITYSDK_OFFSET(0x138D07D0)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_SETGUIDETALKID_OFFSET UNITYSDK_OFFSET(0x138D0820)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_SETTEXT_OFFSET UNITYSDK_OFFSET(0x138D0470)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x138CF5C0)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__GETADAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x138CF770)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__GETPREFABPATH_1_OFFSET UNITYSDK_OFFSET(0x138CF8D0)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__GETPREFABPATH_OFFSET UNITYSDK_OFFSET(0x138CFB50)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__GETWEAKPREFABPATH_OFFSET UNITYSDK_OFFSET(0x138CFD80)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__ONSETSHOWCONFIG_OFFSET UNITYSDK_OFFSET(0x138D0A30)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER___IFIXBASEPROXY_GET__NEEDSYNC_OFFSET UNITYSDK_OFFSET(0x138D0CE0)
-#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER___IFIXBASEPROXY__ONSETSHOWCONFIG_OFFSET UNITYSDK_OFFSET(0x138D0C80)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_CREATECUSTOMDIRECTIONGUIDETEXT_OFFSET UNITYSDK_OFFSET(0x17FDC4B0)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_CREATECUSTOMWEAKDIRECTIONGUIDETEXT_OFFSET UNITYSDK_OFFSET(0x17FDC8E0)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_CREATEGUIDETEXT_OFFSET UNITYSDK_OFFSET(0x17FDC090)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_CREATEWEAKGUIDETEXT_OFFSET UNITYSDK_OFFSET(0x17FDC670)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_GETACTIONNAME_OFFSET UNITYSDK_OFFSET(0x17FDCA70)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_GETCONTENTPATH_OFFSET UNITYSDK_OFFSET(0x17FDCC90)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_GETGUIDETALKDATAROW_OFFSET UNITYSDK_OFFSET(0x17FDCAB0)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_GETKEYMAPPATH_OFFSET UNITYSDK_OFFSET(0x17FDCBC0)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_GETTEXTCONTENT_OFFSET UNITYSDK_OFFSET(0x17FDCA10)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_GETTEXTPATH_OFFSET UNITYSDK_OFFSET(0x17FDCAF0)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_GET_CONFIGTYPE_OFFSET UNITYSDK_OFFSET(0x17FDD640)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_GET_ISSHOWKEYMAP_OFFSET UNITYSDK_OFFSET(0x17FDD650)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_GET__NEEDSYNC_OFFSET UNITYSDK_OFFSET(0x17FDD6B0)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_REFRESHADAPTION_1_OFFSET UNITYSDK_OFFSET(0x17FDCE70)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_REFRESHADAPTION_OFFSET UNITYSDK_OFFSET(0x17FDCD30)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_SETACTIONNAME_OFFSET UNITYSDK_OFFSET(0x17FDD260)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_SETGUIDETALKID_OFFSET UNITYSDK_OFFSET(0x17FDD2B0)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_SETTEXT_OFFSET UNITYSDK_OFFSET(0x17FDCF00)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x17FDC050)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__GETADAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x17FDC200)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__GETPREFABPATH_1_OFFSET UNITYSDK_OFFSET(0x17FDC360)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__GETPREFABPATH_OFFSET UNITYSDK_OFFSET(0x17FDC5E0)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__GETWEAKPREFABPATH_OFFSET UNITYSDK_OFFSET(0x17FDC810)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__ONSETSHOWCONFIG_OFFSET UNITYSDK_OFFSET(0x17FDD4C0)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER___IFIXBASEPROXY_GET__NEEDSYNC_OFFSET UNITYSDK_OFFSET(0x17FDD770)
+#define RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER___IFIXBASEPROXY__ONSETSHOWCONFIG_OFFSET UNITYSDK_OFFSET(0x17FDD710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TutorialGuideTextConfigWrapper_TypeDefinitionIndex = 62888;
+	inline static constexpr unsigned int TutorialGuideTextConfigWrapper_TypeDefinitionIndex = 63823;
 
 	class TutorialGuideTextConfigWrapper : public ::RPG::Client::TutorialGuideConfigWrapper
 	{
@@ -55,29 +55,29 @@ namespace RPG::Client
 		::RPG::GameCore::TutorialGuideDirectionType _DirectionType; // 0x54
 		::RPG::Client::TextID _TextContent; // 0x58
 
-		::System::Void _ctor(::System::Collections::Generic::IList_1<::System::String*>* nodeIDList)
+		::System::Void _ctor(::System::Collections::Generic::IList_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__CTOR_OFFSET))(this, nodeIDList);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__CTOR_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::TutorialGuideTextConfigWrapper* CreateGuideText(::RPG::GameCore::TutorialGuideTextType textType, ::System::Collections::Generic::IList_1<::System::String*>* nodeIDList, ::System::Boolean isBlock, ::UnityEngine::Rect rect)
+		static ::RPG::Client::TutorialGuideTextConfigWrapper* CreateGuideText(::RPG::GameCore::TutorialGuideTextType a1, ::System::Collections::Generic::IList_1<::System::String*>* a2, ::System::Boolean a3, ::UnityEngine::Rect a4)
 		{
-			return ((::RPG::Client::TutorialGuideTextConfigWrapper*(*)(::RPG::GameCore::TutorialGuideTextType, ::System::Collections::Generic::IList_1<::System::String*>*, ::System::Boolean, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_CREATEGUIDETEXT_OFFSET))(textType, nodeIDList, isBlock, rect);
+			return ((::RPG::Client::TutorialGuideTextConfigWrapper*(*)(::RPG::GameCore::TutorialGuideTextType, ::System::Collections::Generic::IList_1<::System::String*>*, ::System::Boolean, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_CREATEGUIDETEXT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::RPG::Client::TutorialGuideTextConfigWrapper* CreateCustomDirectionGuideText(::RPG::GameCore::TutorialGuideTextType textType, ::System::Collections::Generic::IList_1<::System::String*>* nodeIDList, ::RPG::GameCore::TutorialGuideDirectionType directionType)
+		static ::RPG::Client::TutorialGuideTextConfigWrapper* CreateCustomDirectionGuideText(::RPG::GameCore::TutorialGuideTextType a1, ::System::Collections::Generic::IList_1<::System::String*>* a2, ::RPG::GameCore::TutorialGuideDirectionType a3)
 		{
-			return ((::RPG::Client::TutorialGuideTextConfigWrapper*(*)(::RPG::GameCore::TutorialGuideTextType, ::System::Collections::Generic::IList_1<::System::String*>*, ::RPG::GameCore::TutorialGuideDirectionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_CREATECUSTOMDIRECTIONGUIDETEXT_OFFSET))(textType, nodeIDList, directionType);
+			return ((::RPG::Client::TutorialGuideTextConfigWrapper*(*)(::RPG::GameCore::TutorialGuideTextType, ::System::Collections::Generic::IList_1<::System::String*>*, ::RPG::GameCore::TutorialGuideDirectionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_CREATECUSTOMDIRECTIONGUIDETEXT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::TutorialGuideWeakConfigWrapper* CreateWeakGuideText(::System::Collections::Generic::IList_1<::System::String*>* nodeIDList, ::UnityEngine::Rect rect, ::System::Single lifeTime)
+		static ::RPG::Client::TutorialGuideWeakConfigWrapper* CreateWeakGuideText(::System::Collections::Generic::IList_1<::System::String*>* a1, ::UnityEngine::Rect a2, ::System::Single a3)
 		{
-			return ((::RPG::Client::TutorialGuideWeakConfigWrapper*(*)(::System::Collections::Generic::IList_1<::System::String*>*, ::UnityEngine::Rect, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_CREATEWEAKGUIDETEXT_OFFSET))(nodeIDList, rect, lifeTime);
+			return ((::RPG::Client::TutorialGuideWeakConfigWrapper*(*)(::System::Collections::Generic::IList_1<::System::String*>*, ::UnityEngine::Rect, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_CREATEWEAKGUIDETEXT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::TutorialGuideWeakConfigWrapper* CreateCustomWeakDirectionGuideText(::System::Collections::Generic::IList_1<::System::String*>* nodeIDList, ::RPG::GameCore::TutorialGuideDirectionType directionType, ::System::Single lifeTime)
+		static ::RPG::Client::TutorialGuideWeakConfigWrapper* CreateCustomWeakDirectionGuideText(::System::Collections::Generic::IList_1<::System::String*>* a1, ::RPG::GameCore::TutorialGuideDirectionType a2, ::System::Single a3)
 		{
-			return ((::RPG::Client::TutorialGuideWeakConfigWrapper*(*)(::System::Collections::Generic::IList_1<::System::String*>*, ::RPG::GameCore::TutorialGuideDirectionType, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_CREATECUSTOMWEAKDIRECTIONGUIDETEXT_OFFSET))(nodeIDList, directionType, lifeTime);
+			return ((::RPG::Client::TutorialGuideWeakConfigWrapper*(*)(::System::Collections::Generic::IList_1<::System::String*>*, ::RPG::GameCore::TutorialGuideDirectionType, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_CREATECUSTOMWEAKDIRECTIONGUIDETEXT_OFFSET))(a1, a2, a3);
 		}
 
 		::RPG::Client::TextID GetTextContent()
@@ -110,54 +110,54 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_GETCONTENTPATH_OFFSET))(this);
 		}
 
-		::System::Void RefreshAdaption(::RPG::Client::RuntimeTutorialNode* tutorialNode)
+		::System::Void RefreshAdaption(::RPG::Client::RuntimeTutorialNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RuntimeTutorialNode*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_REFRESHADAPTION_OFFSET))(this, tutorialNode);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RuntimeTutorialNode*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_REFRESHADAPTION_OFFSET))(this, a1);
 		}
 
-		::System::Void RefreshAdaption_1(::UnityEngine::Rect rect)
+		::System::Void RefreshAdaption_1(::UnityEngine::Rect a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_REFRESHADAPTION_1_OFFSET))(this, rect);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_REFRESHADAPTION_1_OFFSET))(this, a1);
 		}
 
-		::System::Void SetText(::System::String* textID, ::System::String* textIDPC, ::System::String* textIDController)
+		::System::Void SetText(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_SETTEXT_OFFSET))(this, textID, textIDPC, textIDController);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_SETTEXT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetActionName(::System::String* actionName)
+		::System::Void SetActionName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_SETACTIONNAME_OFFSET))(this, actionName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_SETACTIONNAME_OFFSET))(this, a1);
 		}
 
-		::System::Void SetGuideTalkID(::System::UInt32 guideTalkID, ::System::UInt32 guideTalkIDPC, ::System::UInt32 guideTalkIDController)
+		::System::Void SetGuideTalkID(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_SETGUIDETALKID_OFFSET))(this, guideTalkID, guideTalkIDPC, guideTalkIDController);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_SETGUIDETALKID_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _OnSetShowConfig(::UnityEngine::Rect rect)
+		::System::Void _OnSetShowConfig(::UnityEngine::Rect a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__ONSETSHOWCONFIG_OFFSET))(this, rect);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__ONSETSHOWCONFIG_OFFSET))(this, a1);
 		}
 
-		::System::String* _GetPrefabPath(::RPG::GameCore::TutorialGuideDirectionType directionType)
+		::System::String* _GetPrefabPath(::RPG::GameCore::TutorialGuideDirectionType a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::RPG::GameCore::TutorialGuideDirectionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__GETPREFABPATH_OFFSET))(this, directionType);
+			return ((::System::String*(*)(::PVOID, ::RPG::GameCore::TutorialGuideDirectionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__GETPREFABPATH_OFFSET))(this, a1);
 		}
 
-		::System::String* _GetPrefabPath_1(::System::Boolean isBlock, ::UnityEngine::Rect rect)
+		::System::String* _GetPrefabPath_1(::System::Boolean a1, ::UnityEngine::Rect a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Boolean, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__GETPREFABPATH_1_OFFSET))(this, isBlock, rect);
+			return ((::System::String*(*)(::PVOID, ::System::Boolean, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__GETPREFABPATH_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::String* _GetWeakPrefabPath(::UnityEngine::Rect rect)
+		::System::String* _GetWeakPrefabPath(::UnityEngine::Rect a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__GETWEAKPREFABPATH_OFFSET))(this, rect);
+			return ((::System::String*(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__GETWEAKPREFABPATH_OFFSET))(this, a1);
 		}
 
-		static ::RPG::GameCore::TutorialGuideTextAdaptConfig* _GetAdaptionConfig(::RPG::GameCore::TutorialGuideTextType textType)
+		static ::RPG::GameCore::TutorialGuideTextAdaptConfig* _GetAdaptionConfig(::RPG::GameCore::TutorialGuideTextType a1)
 		{
-			return ((::RPG::GameCore::TutorialGuideTextAdaptConfig*(*)(::RPG::GameCore::TutorialGuideTextType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__GETADAPTIONCONFIG_OFFSET))(textType);
+			return ((::RPG::GameCore::TutorialGuideTextAdaptConfig*(*)(::RPG::GameCore::TutorialGuideTextType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER__GETADAPTIONCONFIG_OFFSET))(a1);
 		}
 
 		::RPG::Client::TutorialGuideConfigType get_ConfigType()
@@ -175,9 +175,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER_GET__NEEDSYNC_OFFSET))(this);
 		}
 
-		::System::Void __iFixBaseProxy__OnSetShowConfig(::UnityEngine::Rect P0)
+		::System::Void __iFixBaseProxy__OnSetShowConfig(::UnityEngine::Rect a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER___IFIXBASEPROXY__ONSETSHOWCONFIG_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALGUIDETEXTCONFIGWRAPPER___IFIXBASEPROXY__ONSETSHOWCONFIG_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __iFixBaseProxy_get__NeedSync()

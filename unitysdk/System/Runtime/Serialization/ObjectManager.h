@@ -16,65 +16,65 @@ namespace System::Runtime::Serialization { class ObjectHolderList; }
 namespace System::Runtime::Serialization { class SerializationEventHandler; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_ADDOBJECTHOLDER_OFFSET UNITYSDK_OFFSET(0x1762BB70)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_ADDONDESERIALIZATION_OFFSET UNITYSDK_OFFSET(0x1762F240)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_ADDONDESERIALIZED_OFFSET UNITYSDK_OFFSET(0x1762F2A0)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_CANCALLGETTYPE_OFFSET UNITYSDK_OFFSET(0x1762BA40)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_COMPLETEISERIALIZABLEOBJECT_OFFSET UNITYSDK_OFFSET(0x1762C3F0)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_COMPLETEOBJECT_OFFSET UNITYSDK_OFFSET(0x1762A2C0)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_DOFIXUPS_OFFSET UNITYSDK_OFFSET(0x1762E3B0)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_DONEWLYREGISTEREDOBJECTFIXUPS_OFFSET UNITYSDK_OFFSET(0x1762CBE0)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_DOVALUETYPEFIXUP_OFFSET UNITYSDK_OFFSET(0x1762C5E0)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_FINDOBJECTHOLDER_OFFSET UNITYSDK_OFFSET(0x1762BB00)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_FINDORCREATEOBJECTHOLDER_OFFSET UNITYSDK_OFFSET(0x17629C10)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_FIXUPSPECIALOBJECT_OFFSET UNITYSDK_OFFSET(0x1762C090)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_GETCOMPLETIONINFO_OFFSET UNITYSDK_OFFSET(0x1762BC90)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_GETCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x1762DF70)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_GETOBJECT_OFFSET UNITYSDK_OFFSET(0x1762D560)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_GET_SPECIALFIXUPOBJECTS_OFFSET UNITYSDK_OFFSET(0x1762BA70)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_GET_TOPOBJECT_OFFSET UNITYSDK_OFFSET(0x1762BA60)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RAISEDESERIALIZATIONEVENT_OFFSET UNITYSDK_OFFSET(0x1762EE30)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RAISEONDESERIALIZEDEVENT_OFFSET UNITYSDK_OFFSET(0x1762F870)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RAISEONDESERIALIZINGEVENT_OFFSET UNITYSDK_OFFSET(0x1762FB50)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RECORDARRAYELEMENTFIXUP_OFFSET UNITYSDK_OFFSET(0x1762ED30)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RECORDDELAYEDFIXUP_OFFSET UNITYSDK_OFFSET(0x1762EC30)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RECORDFIXUP_OFFSET UNITYSDK_OFFSET(0x1762EA40)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_REGISTERFIXUP_OFFSET UNITYSDK_OFFSET(0x1762E8F0)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_REGISTEROBJECT_OFFSET UNITYSDK_OFFSET(0x1762D7A0)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_REGISTERSTRING_OFFSET UNITYSDK_OFFSET(0x1762D690)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RESOLVEOBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1762D060)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_SET_TOPOBJECT_OFFSET UNITYSDK_OFFSET(0x1762BA50)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1762B9E0)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_ADDOBJECTHOLDER_OFFSET UNITYSDK_OFFSET(0x16DFA680)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_ADDONDESERIALIZATION_OFFSET UNITYSDK_OFFSET(0x16DFDA50)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_ADDONDESERIALIZED_OFFSET UNITYSDK_OFFSET(0x16DFDAB0)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_CANCALLGETTYPE_OFFSET UNITYSDK_OFFSET(0x16DFA560)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_COMPLETEISERIALIZABLEOBJECT_OFFSET UNITYSDK_OFFSET(0x16DFAF30)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_COMPLETEOBJECT_OFFSET UNITYSDK_OFFSET(0x16DF8F20)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_DOFIXUPS_OFFSET UNITYSDK_OFFSET(0x16DFCF80)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_DONEWLYREGISTEREDOBJECTFIXUPS_OFFSET UNITYSDK_OFFSET(0x16DFB6C0)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_DOVALUETYPEFIXUP_OFFSET UNITYSDK_OFFSET(0x16DFB130)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_FINDOBJECTHOLDER_OFFSET UNITYSDK_OFFSET(0x16DFA620)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_FINDORCREATEOBJECTHOLDER_OFFSET UNITYSDK_OFFSET(0x16DF8840)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_FIXUPSPECIALOBJECT_OFFSET UNITYSDK_OFFSET(0x16DFAB90)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_GETCOMPLETIONINFO_OFFSET UNITYSDK_OFFSET(0x16DFA790)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_GETCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x16DFCB80)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_GETOBJECT_OFFSET UNITYSDK_OFFSET(0x16DFBFF0)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_GET_SPECIALFIXUPOBJECTS_OFFSET UNITYSDK_OFFSET(0x16DFA590)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_GET_TOPOBJECT_OFFSET UNITYSDK_OFFSET(0x16DFA580)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RAISEDESERIALIZATIONEVENT_OFFSET UNITYSDK_OFFSET(0x16DFD9D0)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RAISEONDESERIALIZEDEVENT_OFFSET UNITYSDK_OFFSET(0x16DFE080)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RAISEONDESERIALIZINGEVENT_OFFSET UNITYSDK_OFFSET(0x16DFE340)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RECORDARRAYELEMENTFIXUP_OFFSET UNITYSDK_OFFSET(0x16DFD8D0)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RECORDDELAYEDFIXUP_OFFSET UNITYSDK_OFFSET(0x16DFD7D0)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RECORDFIXUP_OFFSET UNITYSDK_OFFSET(0x16DFD5E0)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_REGISTERFIXUP_OFFSET UNITYSDK_OFFSET(0x16DFD490)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_REGISTEROBJECT_OFFSET UNITYSDK_OFFSET(0x16DFC220)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_REGISTERSTRING_OFFSET UNITYSDK_OFFSET(0x16DFC110)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RESOLVEOBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x16DFBB00)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_SET_TOPOBJECT_OFFSET UNITYSDK_OFFSET(0x16DFA570)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x16DFA500)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int ObjectManager_TypeDefinitionIndex = 1101;
+	inline static constexpr unsigned int ObjectManager_TypeDefinitionIndex = 1100;
 
 	class ObjectManager : public ::System::Object
 	{
 	public:
-		::System::Runtime::Serialization::DeserializationEventHandler* m_onDeserializationHandler; // 0x10
-		::System::Object* m_topObject; // 0x18
-		::System::Runtime::Serialization::SerializationEventHandler* m_onDeserializedHandler; // 0x20
-		::System::Runtime::Serialization::ISurrogateSelector* m_selector; // 0x28
-		::System::Runtime::Serialization::StreamingContext m_context; // 0x30
-		::System::Runtime::Serialization::ObjectHolderList* m_specialFixupObjects; // 0x40
-		::Il2CppArray<::System::Runtime::Serialization::ObjectHolder*>* m_objects; // 0x48
+		::System::Runtime::Serialization::SerializationEventHandler* m_onDeserializedHandler; // 0x10
+		::System::Runtime::Serialization::ObjectHolderList* m_specialFixupObjects; // 0x18
+		::System::Runtime::Serialization::ISurrogateSelector* m_selector; // 0x20
+		::System::Runtime::Serialization::DeserializationEventHandler* m_onDeserializationHandler; // 0x28
+		::Il2CppArray<::System::Runtime::Serialization::ObjectHolder*>* m_objects; // 0x30
+		::System::Runtime::Serialization::StreamingContext m_context; // 0x38
+		::System::Object* m_topObject; // 0x48
 		::System::Int64 m_fixupCount; // 0x50
 
-		::System::Void _ctor(::System::Runtime::Serialization::ISurrogateSelector* selector, ::System::Runtime::Serialization::StreamingContext context, ::System::Boolean checkSecurity, ::System::Boolean isCrossAppDomain)
+		::System::Void _ctor(::System::Runtime::Serialization::ISurrogateSelector* a1, ::System::Runtime::Serialization::StreamingContext a2, ::System::Boolean a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::ISurrogateSelector*, ::System::Runtime::Serialization::StreamingContext, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER__CTOR_OFFSET))(this, selector, context, checkSecurity, isCrossAppDomain);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::ISurrogateSelector*, ::System::Runtime::Serialization::StreamingContext, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean CanCallGetType(::System::Object* obj)
+		::System::Boolean CanCallGetType(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_CANCALLGETTYPE_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_CANCALLGETTYPE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_TopObject(::System::Object* value)
+		::System::Void set_TopObject(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_SET_TOPOBJECT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_SET_TOPOBJECT_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_TopObject()
@@ -87,74 +87,74 @@ namespace System::Runtime::Serialization
 			return ((::System::Runtime::Serialization::ObjectHolderList*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_GET_SPECIALFIXUPOBJECTS_OFFSET))(this);
 		}
 
-		::System::Runtime::Serialization::ObjectHolder* FindObjectHolder(::System::Int64 objectID)
+		::System::Runtime::Serialization::ObjectHolder* FindObjectHolder(::System::Int64 a1)
 		{
-			return ((::System::Runtime::Serialization::ObjectHolder*(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_FINDOBJECTHOLDER_OFFSET))(this, objectID);
+			return ((::System::Runtime::Serialization::ObjectHolder*(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_FINDOBJECTHOLDER_OFFSET))(this, a1);
 		}
 
-		::System::Runtime::Serialization::ObjectHolder* FindOrCreateObjectHolder(::System::Int64 objectID)
+		::System::Runtime::Serialization::ObjectHolder* FindOrCreateObjectHolder(::System::Int64 a1)
 		{
-			return ((::System::Runtime::Serialization::ObjectHolder*(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_FINDORCREATEOBJECTHOLDER_OFFSET))(this, objectID);
+			return ((::System::Runtime::Serialization::ObjectHolder*(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_FINDORCREATEOBJECTHOLDER_OFFSET))(this, a1);
 		}
 
-		::System::Void AddObjectHolder(::System::Runtime::Serialization::ObjectHolder* holder)
+		::System::Void AddObjectHolder(::System::Runtime::Serialization::ObjectHolder* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::ObjectHolder*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_ADDOBJECTHOLDER_OFFSET))(this, holder);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::ObjectHolder*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_ADDOBJECTHOLDER_OFFSET))(this, a1);
 		}
 
-		::System::Boolean GetCompletionInfo(::System::Runtime::Serialization::FixupHolder* fixup, ::System::Runtime::Serialization::ObjectHolder*& holder, ::System::Object*& member, ::System::Boolean bThrowIfMissing)
+		::System::Boolean GetCompletionInfo(::System::Runtime::Serialization::FixupHolder* a1, ::System::Runtime::Serialization::ObjectHolder*& a2, ::System::Object*& a3, ::System::Boolean a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Runtime::Serialization::FixupHolder*, ::System::Runtime::Serialization::ObjectHolder*&, ::System::Object*&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_GETCOMPLETIONINFO_OFFSET))(this, fixup, holder, member, bThrowIfMissing);
+			return ((::System::Boolean(*)(::PVOID, ::System::Runtime::Serialization::FixupHolder*, ::System::Runtime::Serialization::ObjectHolder*&, ::System::Object*&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_GETCOMPLETIONINFO_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void FixupSpecialObject(::System::Runtime::Serialization::ObjectHolder* holder)
+		::System::Void FixupSpecialObject(::System::Runtime::Serialization::ObjectHolder* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::ObjectHolder*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_FIXUPSPECIALOBJECT_OFFSET))(this, holder);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::ObjectHolder*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_FIXUPSPECIALOBJECT_OFFSET))(this, a1);
 		}
 
-		::System::Boolean ResolveObjectReference(::System::Runtime::Serialization::ObjectHolder* holder)
+		::System::Boolean ResolveObjectReference(::System::Runtime::Serialization::ObjectHolder* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Runtime::Serialization::ObjectHolder*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RESOLVEOBJECTREFERENCE_OFFSET))(this, holder);
+			return ((::System::Boolean(*)(::PVOID, ::System::Runtime::Serialization::ObjectHolder*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RESOLVEOBJECTREFERENCE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean DoValueTypeFixup(::System::Reflection::FieldInfo* memberToFix, ::System::Runtime::Serialization::ObjectHolder* holder, ::System::Object* value)
+		::System::Boolean DoValueTypeFixup(::System::Reflection::FieldInfo* a1, ::System::Runtime::Serialization::ObjectHolder* a2, ::System::Object* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Reflection::FieldInfo*, ::System::Runtime::Serialization::ObjectHolder*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_DOVALUETYPEFIXUP_OFFSET))(this, memberToFix, holder, value);
+			return ((::System::Boolean(*)(::PVOID, ::System::Reflection::FieldInfo*, ::System::Runtime::Serialization::ObjectHolder*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_DOVALUETYPEFIXUP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void CompleteObject(::System::Runtime::Serialization::ObjectHolder* holder, ::System::Boolean bObjectFullyComplete)
+		::System::Void CompleteObject(::System::Runtime::Serialization::ObjectHolder* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::ObjectHolder*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_COMPLETEOBJECT_OFFSET))(this, holder, bObjectFullyComplete);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::ObjectHolder*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_COMPLETEOBJECT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void DoNewlyRegisteredObjectFixups(::System::Runtime::Serialization::ObjectHolder* holder)
+		::System::Void DoNewlyRegisteredObjectFixups(::System::Runtime::Serialization::ObjectHolder* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::ObjectHolder*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_DONEWLYREGISTEREDOBJECTFIXUPS_OFFSET))(this, holder);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::ObjectHolder*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_DONEWLYREGISTEREDOBJECTFIXUPS_OFFSET))(this, a1);
 		}
 
-		::System::Object* GetObject(::System::Int64 objectID)
+		::System::Object* GetObject(::System::Int64 a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_GETOBJECT_OFFSET))(this, objectID);
+			return ((::System::Object*(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_GETOBJECT_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterString(::System::String* obj, ::System::Int64 objectID, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Int64 idOfContainingObj, ::System::Reflection::MemberInfo* member)
+		::System::Void RegisterString(::System::String* a1, ::System::Int64 a2, ::System::Runtime::Serialization::SerializationInfo* a3, ::System::Int64 a4, ::System::Reflection::MemberInfo* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int64, ::System::Runtime::Serialization::SerializationInfo*, ::System::Int64, ::System::Reflection::MemberInfo*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_REGISTERSTRING_OFFSET))(this, obj, objectID, info, idOfContainingObj, member);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int64, ::System::Runtime::Serialization::SerializationInfo*, ::System::Int64, ::System::Reflection::MemberInfo*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_REGISTERSTRING_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void RegisterObject(::System::Object* obj, ::System::Int64 objectID, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Int64 idOfContainingObj, ::System::Reflection::MemberInfo* member, ::Il2CppArray<::System::Int32>* arrayIndex)
+		::System::Void RegisterObject(::System::Object* a1, ::System::Int64 a2, ::System::Runtime::Serialization::SerializationInfo* a3, ::System::Int64 a4, ::System::Reflection::MemberInfo* a5, ::Il2CppArray<::System::Int32>* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int64, ::System::Runtime::Serialization::SerializationInfo*, ::System::Int64, ::System::Reflection::MemberInfo*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_REGISTEROBJECT_OFFSET))(this, obj, objectID, info, idOfContainingObj, member, arrayIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int64, ::System::Runtime::Serialization::SerializationInfo*, ::System::Int64, ::System::Reflection::MemberInfo*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_REGISTEROBJECT_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void CompleteISerializableObject(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void CompleteISerializableObject(::System::Object* a1, ::System::Runtime::Serialization::SerializationInfo* a2, ::System::Runtime::Serialization::StreamingContext a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_COMPLETEISERIALIZABLEOBJECT_OFFSET))(this, obj, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_COMPLETEISERIALIZABLEOBJECT_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Reflection::RuntimeConstructorInfo* GetConstructor(::System::RuntimeType* t)
+		static ::System::Reflection::RuntimeConstructorInfo* GetConstructor(::System::RuntimeType* a1)
 		{
-			return ((::System::Reflection::RuntimeConstructorInfo*(*)(::System::RuntimeType*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_GETCONSTRUCTOR_OFFSET))(t);
+			return ((::System::Reflection::RuntimeConstructorInfo*(*)(::System::RuntimeType*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_GETCONSTRUCTOR_OFFSET))(a1);
 		}
 
 		::System::Void DoFixups()
@@ -162,24 +162,24 @@ namespace System::Runtime::Serialization
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_DOFIXUPS_OFFSET))(this);
 		}
 
-		::System::Void RegisterFixup(::System::Runtime::Serialization::FixupHolder* fixup, ::System::Int64 objectToBeFixed, ::System::Int64 objectRequired)
+		::System::Void RegisterFixup(::System::Runtime::Serialization::FixupHolder* a1, ::System::Int64 a2, ::System::Int64 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::FixupHolder*, ::System::Int64, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_REGISTERFIXUP_OFFSET))(this, fixup, objectToBeFixed, objectRequired);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::FixupHolder*, ::System::Int64, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_REGISTERFIXUP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RecordFixup(::System::Int64 objectToBeFixed, ::System::Reflection::MemberInfo* member, ::System::Int64 objectRequired)
+		::System::Void RecordFixup(::System::Int64 a1, ::System::Reflection::MemberInfo* a2, ::System::Int64 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64, ::System::Reflection::MemberInfo*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RECORDFIXUP_OFFSET))(this, objectToBeFixed, member, objectRequired);
+			return ((::System::Void(*)(::PVOID, ::System::Int64, ::System::Reflection::MemberInfo*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RECORDFIXUP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RecordDelayedFixup(::System::Int64 objectToBeFixed, ::System::String* memberName, ::System::Int64 objectRequired)
+		::System::Void RecordDelayedFixup(::System::Int64 a1, ::System::String* a2, ::System::Int64 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64, ::System::String*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RECORDDELAYEDFIXUP_OFFSET))(this, objectToBeFixed, memberName, objectRequired);
+			return ((::System::Void(*)(::PVOID, ::System::Int64, ::System::String*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RECORDDELAYEDFIXUP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RecordArrayElementFixup(::System::Int64 arrayToBeFixed, ::Il2CppArray<::System::Int32>* indices, ::System::Int64 objectRequired)
+		::System::Void RecordArrayElementFixup(::System::Int64 a1, ::Il2CppArray<::System::Int32>* a2, ::System::Int64 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64, ::Il2CppArray<::System::Int32>*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RECORDARRAYELEMENTFIXUP_OFFSET))(this, arrayToBeFixed, indices, objectRequired);
+			return ((::System::Void(*)(::PVOID, ::System::Int64, ::Il2CppArray<::System::Int32>*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RECORDARRAYELEMENTFIXUP_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void RaiseDeserializationEvent()
@@ -187,24 +187,24 @@ namespace System::Runtime::Serialization
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RAISEDESERIALIZATIONEVENT_OFFSET))(this);
 		}
 
-		::System::Void AddOnDeserialization(::System::Runtime::Serialization::DeserializationEventHandler* handler)
+		::System::Void AddOnDeserialization(::System::Runtime::Serialization::DeserializationEventHandler* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::DeserializationEventHandler*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_ADDONDESERIALIZATION_OFFSET))(this, handler);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::DeserializationEventHandler*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_ADDONDESERIALIZATION_OFFSET))(this, a1);
 		}
 
-		::System::Void AddOnDeserialized(::System::Object* obj)
+		::System::Void AddOnDeserialized(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_ADDONDESERIALIZED_OFFSET))(this, obj);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_ADDONDESERIALIZED_OFFSET))(this, a1);
 		}
 
-		::System::Void RaiseOnDeserializedEvent(::System::Object* obj)
+		::System::Void RaiseOnDeserializedEvent(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RAISEONDESERIALIZEDEVENT_OFFSET))(this, obj);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RAISEONDESERIALIZEDEVENT_OFFSET))(this, a1);
 		}
 
-		::System::Void RaiseOnDeserializingEvent(::System::Object* obj)
+		::System::Void RaiseOnDeserializingEvent(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RAISEONDESERIALIZINGEVENT_OFFSET))(this, obj);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_OBJECTMANAGER_RAISEONDESERIALIZINGEVENT_OFFSET))(this, a1);
 		}
 	};
 }

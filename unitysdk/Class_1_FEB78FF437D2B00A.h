@@ -7,24 +7,24 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_FEB78FF437D2B00A_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA49D1B0)
-#define CLASS_1_FEB78FF437D2B00A_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0xA49D9E0)
-#define CLASS_1_FEB78FF437D2B00A_METHOD_1_6577AED8AAF02628_OFFSET UNITYSDK_OFFSET(0xA49D460)
-#define CLASS_1_FEB78FF437D2B00A_METHOD_1_937F8473216A3162_OFFSET UNITYSDK_OFFSET(0xA49D740)
-#define CLASS_1_FEB78FF437D2B00A_METHOD_1_9E38127F40B34F1F_OFFSET UNITYSDK_OFFSET(0xA49D210)
-#define CLASS_1_FEB78FF437D2B00A_METHOD_1_A234FCCAD6D2867B_OFFSET UNITYSDK_OFFSET(0xA49D6A0)
-#define CLASS_1_FEB78FF437D2B00A__CTOR_OFFSET UNITYSDK_OFFSET(0xA49D400)
+#define CLASS_1_FEB78FF437D2B00A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1515E810)
+#define CLASS_1_FEB78FF437D2B00A_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x1515F060)
+#define CLASS_1_FEB78FF437D2B00A_METHOD_1_46C14BF43A3952E2_OFFSET UNITYSDK_OFFSET(0x1515EAC0)
+#define CLASS_1_FEB78FF437D2B00A_METHOD_1_937F8473216A3162_OFFSET UNITYSDK_OFFSET(0x1515EDC0)
+#define CLASS_1_FEB78FF437D2B00A_METHOD_1_9E38127F40B34F1F_OFFSET UNITYSDK_OFFSET(0x1515E870)
+#define CLASS_1_FEB78FF437D2B00A_METHOD_1_A234FCCAD6D2867B_OFFSET UNITYSDK_OFFSET(0x1515ED20)
+#define CLASS_1_FEB78FF437D2B00A__CTOR_OFFSET UNITYSDK_OFFSET(0x1515EA60)
 
-inline static constexpr unsigned int Class_1_FEB78FF437D2B00A_TypeDefinitionIndex = 56028;
+inline static constexpr unsigned int Class_1_FEB78FF437D2B00A_TypeDefinitionIndex = 56790;
 
 class Class_1_FEB78FF437D2B00A : public ::System::Object
 {
 public:
-	::UnityEngine::GameObject* Field_1_0; // 0x10
+	::UnityEngine::Transform* Field_1_0; // 0x10
 	::UnityEngine::SkinnedMeshRenderer* Field_1_1; // 0x18
-	::UnityEngine::Transform* Field_1_2; // 0x20
-	::System::Boolean Field_1_4; // 0x28
-	::RPG::CustomRP::EObjectFeature Field_1_3; // 0x2C
+	::UnityEngine::GameObject* Field_1_2; // 0x20
+	::System::Boolean Field_1_3; // 0x28
+	::RPG::CustomRP::EObjectFeature Field_1_4; // 0x2C
 
 	::System::Void _ctor(::UnityEngine::GameObject* a1)
 	{
@@ -51,9 +51,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FEB78FF437D2B00A_METHOD_1_9E38127F40B34F1F_OFFSET))(this);
 	}
 
-	::UnityEngine::SkinnedMeshRenderer* Method_1_6577AED8AAF02628(::UnityEngine::GameObject* a1)
+	::UnityEngine::SkinnedMeshRenderer* Method_1_46C14BF43A3952E2(::UnityEngine::GameObject* a1)
 	{
-		return ((::UnityEngine::SkinnedMeshRenderer*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CLASS_1_FEB78FF437D2B00A_METHOD_1_6577AED8AAF02628_OFFSET))(this, a1);
+		return ((::UnityEngine::SkinnedMeshRenderer*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CLASS_1_FEB78FF437D2B00A_METHOD_1_46C14BF43A3952E2_OFFSET))(this, a1);
 	}
 
 	::UnityEngine::Transform* Method_1_A234FCCAD6D2867B(::UnityEngine::GameObject* a1, ::UnityEngine::SkinnedMeshRenderer* a2)

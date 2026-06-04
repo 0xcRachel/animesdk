@@ -9,25 +9,25 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Selectable; }
 
-#define MIHOYO_SDK_PS_SDKUICONTROLLER_GETACTIVEGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x16515540)
-#define MIHOYO_SDK_PS_SDKUICONTROLLER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x165149F0)
-#define MIHOYO_SDK_PS_SDKUICONTROLLER_HIGHLIGHTNEXTGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x165150D0)
-#define MIHOYO_SDK_PS_SDKUICONTROLLER_SEARCHNEXTHIGHLIGHTGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x16515B30)
-#define MIHOYO_SDK_PS_SDKUICONTROLLER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x16514A30)
-#define MIHOYO_SDK_PS_SDKUICONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x16514A70)
-#define MIHOYO_SDK_PS_SDKUICONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x16514AB0)
-#define MIHOYO_SDK_PS_SDKUICONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x165162F0)
+#define MIHOYO_SDK_PS_SDKUICONTROLLER_GETACTIVEGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x17429D80)
+#define MIHOYO_SDK_PS_SDKUICONTROLLER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x174292A0)
+#define MIHOYO_SDK_PS_SDKUICONTROLLER_HIGHLIGHTNEXTGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x17429910)
+#define MIHOYO_SDK_PS_SDKUICONTROLLER_SEARCHNEXTHIGHLIGHTGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1742A360)
+#define MIHOYO_SDK_PS_SDKUICONTROLLER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x174292B0)
+#define MIHOYO_SDK_PS_SDKUICONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x174292C0)
+#define MIHOYO_SDK_PS_SDKUICONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x174292D0)
+#define MIHOYO_SDK_PS_SDKUICONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1742AB30)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int SDKUIController_TypeDefinitionIndex = 7682;
+	inline static constexpr unsigned int SDKUIController_TypeDefinitionIndex = 8585;
 
 	class SDKUIController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::MiHoYo::SDK::PS::SDKUIController** StaticGet__Instance_k__BackingField()
 		{
-			return (::MiHoYo::SDK::PS::SDKUIController**)Il2CppClass::FromTypeDefinitionIndex(SDKUIController_TypeDefinitionIndex)->GetStaticField(0x13A20);
+			return (::MiHoYo::SDK::PS::SDKUIController**)Il2CppClass::FromTypeDefinitionIndex(SDKUIController_TypeDefinitionIndex)->GetStaticField(0x18DE0);
 		}
 
 		::System::Void _ctor()
@@ -40,9 +40,9 @@ namespace MiHoYo::SDK::PS
 			return ((::MiHoYo::SDK::PS::SDKUIController*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_SDKUICONTROLLER_GET_INSTANCE_OFFSET))();
 		}
 
-		static ::System::Void set_Instance(::MiHoYo::SDK::PS::SDKUIController* value)
+		static ::System::Void set_Instance(::MiHoYo::SDK::PS::SDKUIController* a1)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::PS::SDKUIController*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_SDKUICONTROLLER_SET_INSTANCE_OFFSET))(value);
+			return ((::System::Void(*)(::MiHoYo::SDK::PS::SDKUIController*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_SDKUICONTROLLER_SET_INSTANCE_OFFSET))(a1);
 		}
 
 		::System::Void Start()
@@ -60,14 +60,14 @@ namespace MiHoYo::SDK::PS
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_SDKUICONTROLLER_GETACTIVEGAMEOBJECT_OFFSET))(this);
 		}
 
-		::System::Void HighlightNextGameObject(::MiHoYo::SDK::PS::SDKUIController_Direction direction)
+		::System::Void HighlightNextGameObject(::MiHoYo::SDK::PS::SDKUIController_Direction a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PS::SDKUIController_Direction))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_SDKUICONTROLLER_HIGHLIGHTNEXTGAMEOBJECT_OFFSET))(this, direction);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PS::SDKUIController_Direction))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_SDKUICONTROLLER_HIGHLIGHTNEXTGAMEOBJECT_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::GameObject* SearchNextHighlightGameObject(::MiHoYo::SDK::PS::SDKUIController_Direction direction, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UI::Selectable*>* components, ::MiHoYo::SDK::PS::SDKUIRect targetRect, ::MiHoYo::SDK::PS::SDKUIDialog* dialog, ::MiHoYo::SDK::PS::SDKUIRect currentHighlightedRect)
+		::UnityEngine::GameObject* SearchNextHighlightGameObject(::MiHoYo::SDK::PS::SDKUIController_Direction a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UI::Selectable*>* a2, ::MiHoYo::SDK::PS::SDKUIRect a3, ::MiHoYo::SDK::PS::SDKUIDialog* a4, ::MiHoYo::SDK::PS::SDKUIRect a5)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::MiHoYo::SDK::PS::SDKUIController_Direction, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UI::Selectable*>*, ::MiHoYo::SDK::PS::SDKUIRect, ::MiHoYo::SDK::PS::SDKUIDialog*, ::MiHoYo::SDK::PS::SDKUIRect))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_SDKUICONTROLLER_SEARCHNEXTHIGHLIGHTGAMEOBJECT_OFFSET))(this, direction, components, targetRect, dialog, currentHighlightedRect);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::MiHoYo::SDK::PS::SDKUIController_Direction, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UI::Selectable*>*, ::MiHoYo::SDK::PS::SDKUIRect, ::MiHoYo::SDK::PS::SDKUIDialog*, ::MiHoYo::SDK::PS::SDKUIRect))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_SDKUICONTROLLER_SEARCHNEXTHIGHLIGHTGAMEOBJECT_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 	};
 }

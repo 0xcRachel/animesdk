@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYWORLDUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18DAF6D0)
-#define RPG_GAMECORE_ACTIVITYWORLDUNLOCKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18DAF7C0)
+#define RPG_GAMECORE_ACTIVITYWORLDUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1954A050)
+#define RPG_GAMECORE_ACTIVITYWORLDUNLOCKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1954A140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityWorldUnlockRow_TypeDefinitionIndex = 10734;
+	inline static constexpr unsigned int ActivityWorldUnlockRow_TypeDefinitionIndex = 10790;
 
 	class ActivityWorldUnlockRow : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYWORLDUNLOCKROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ActivityWorldUnlockRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActivityWorldUnlockRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityWorldUnlockRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYWORLDUNLOCKROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityWorldUnlockRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYWORLDUNLOCKROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

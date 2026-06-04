@@ -4,14 +4,17 @@
 #include "unitysdk/RPG/GameCore/StageType.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPARESTAGETYPE_METHOD_4_CC249D221517F756_OFFSET UNITYSDK_OFFSET(0x19AD2FE0)
-#define RPG_GAMECORE_BYCOMPARESTAGETYPE_METHOD_4_E36DFD7C7BB65228_OFFSET UNITYSDK_OFFSET(0x19AD2F10)
-#define RPG_GAMECORE_BYCOMPARESTAGETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD2F90)
+#define RPG_GAMECORE_BYCOMPARESTAGETYPE_METHOD_4_85A06994B7EE0F76_OFFSET UNITYSDK_OFFSET(0x18FF2B40)
+#define RPG_GAMECORE_BYCOMPARESTAGETYPE_METHOD_4_C095D51C7497E99B_OFFSET UNITYSDK_OFFSET(0x18FF2AC0)
+#define RPG_GAMECORE_BYCOMPARESTAGETYPE_METHOD_4_CC249D221517F756_OFFSET UNITYSDK_OFFSET(0x18FF2940)
+#define RPG_GAMECORE_BYCOMPARESTAGETYPE_METHOD_4_E36DFD7C7BB65228_OFFSET UNITYSDK_OFFSET(0x18FF2870)
+#define RPG_GAMECORE_BYCOMPARESTAGETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x18FF28F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareStageType_TypeDefinitionIndex = 21985;
+	inline static constexpr unsigned int ByCompareStageType_TypeDefinitionIndex = 21808;
 
 	class ByCompareStageType : public ::RPG::GameCore::PredicateConfig
 	{
@@ -31,6 +34,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_CC249D221517F756(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareStageType* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareStageType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESTAGETYPE_METHOD_4_CC249D221517F756_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_C095D51C7497E99B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareStageType*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareStageType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESTAGETYPE_METHOD_4_C095D51C7497E99B_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_85A06994B7EE0F76(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareStageType* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareStageType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESTAGETYPE_METHOD_4_85A06994B7EE0F76_OFFSET))(a1, a2);
 		}
 	};
 }

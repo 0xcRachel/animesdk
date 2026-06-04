@@ -3,21 +3,21 @@
 #include "unitysdk/Spine/Skin_SkinKey.h"
 #include "unitysdk/System/Object.h"
 
-#define SPINE_SKIN_SKINKEYCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SPINE_SKIN_SKINKEY__EQUALS_OFFSET UNITYSDK_OFFSET(0x15701BC0)
-#define SPINE_SKIN_SKINKEYCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SPINE_SKIN_SKINKEY__GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x15701BE0)
-#define SPINE_SKIN_SKINKEYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15701C00)
-#define SPINE_SKIN_SKINKEYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x15701BF0)
+#define SPINE_SKIN_SKINKEYCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SPINE_SKIN_SKINKEY__EQUALS_OFFSET UNITYSDK_OFFSET(0x12BCA770)
+#define SPINE_SKIN_SKINKEYCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SPINE_SKIN_SKINKEY__GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x12BCA790)
+#define SPINE_SKIN_SKINKEYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12BCA7B0)
+#define SPINE_SKIN_SKINKEYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x12BCA7A0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Skin_SkinKeyComparer_TypeDefinitionIndex = 36461;
+	inline static constexpr unsigned int Skin_SkinKeyComparer_TypeDefinitionIndex = 36761;
 
 	class Skin_SkinKeyComparer : public ::System::Object
 	{
 	public:
 		static ::Spine::Skin_SkinKeyComparer** StaticGet_Instance()
 		{
-			return (::Spine::Skin_SkinKeyComparer**)Il2CppClass::FromTypeDefinitionIndex(Skin_SkinKeyComparer_TypeDefinitionIndex)->GetStaticField(0x6E40);
+			return (::Spine::Skin_SkinKeyComparer**)Il2CppClass::FromTypeDefinitionIndex(Skin_SkinKeyComparer_TypeDefinitionIndex)->GetStaticField(0x3A90);
 		}
 
 		::System::Void _ctor()
@@ -30,14 +30,14 @@ namespace Spine
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_SKIN_SKINKEYCOMPARER__CCTOR_OFFSET))();
 		}
 
-		::System::Boolean System_Collections_Generic_IEqualityComparer_Spine_Skin_SkinKey__Equals(::Spine::Skin_SkinKey e1, ::Spine::Skin_SkinKey e2)
+		::System::Boolean System_Collections_Generic_IEqualityComparer_Spine_Skin_SkinKey__Equals(::Spine::Skin_SkinKey a1, ::Spine::Skin_SkinKey a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Spine::Skin_SkinKey, ::Spine::Skin_SkinKey))((::PBYTE)hIl2Cpp + SPINE_SKIN_SKINKEYCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SPINE_SKIN_SKINKEY__EQUALS_OFFSET))(this, e1, e2);
+			return ((::System::Boolean(*)(::PVOID, ::Spine::Skin_SkinKey, ::Spine::Skin_SkinKey))((::PBYTE)hIl2Cpp + SPINE_SKIN_SKINKEYCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SPINE_SKIN_SKINKEY__EQUALS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 System_Collections_Generic_IEqualityComparer_Spine_Skin_SkinKey__GetHashCode(::Spine::Skin_SkinKey e)
+		::System::Int32 System_Collections_Generic_IEqualityComparer_Spine_Skin_SkinKey__GetHashCode(::Spine::Skin_SkinKey a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Spine::Skin_SkinKey))((::PBYTE)hIl2Cpp + SPINE_SKIN_SKINKEYCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SPINE_SKIN_SKINKEY__GETHASHCODE_OFFSET))(this, e);
+			return ((::System::Int32(*)(::PVOID, ::Spine::Skin_SkinKey))((::PBYTE)hIl2Cpp + SPINE_SKIN_SKINKEYCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SPINE_SKIN_SKINKEY__GETHASHCODE_OFFSET))(this, a1);
 		}
 	};
 }

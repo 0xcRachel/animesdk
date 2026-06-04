@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_ASSEMBLYCONFIGURATIONATTRIBUTE_GET_CONFIGURATION_OFFSET UNITYSDK_OFFSET(0x19047AD0)
-#define SYSTEM_REFLECTION_ASSEMBLYCONFIGURATIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19047AC0)
+#define SYSTEM_REFLECTION_ASSEMBLYCONFIGURATIONATTRIBUTE_GET_CONFIGURATION_OFFSET UNITYSDK_OFFSET(0x197AD670)
+#define SYSTEM_REFLECTION_ASSEMBLYCONFIGURATIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x197AD660)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int AssemblyConfigurationAttribute_TypeDefinitionIndex = 544;
+	inline static constexpr unsigned int AssemblyConfigurationAttribute_TypeDefinitionIndex = 543;
 
 	class AssemblyConfigurationAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* m_configuration; // 0x10
 
-		::System::Void _ctor(::System::String* configuration)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYCONFIGURATIONATTRIBUTE__CTOR_OFFSET))(this, configuration);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYCONFIGURATIONATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Configuration()

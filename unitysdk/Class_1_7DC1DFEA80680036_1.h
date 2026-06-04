@@ -10,100 +10,100 @@
 namespace RPG::Client { class MapAnchorDef; }
 namespace RPG::Client { class MapEntityDef; }
 
-#define CLASS_1_7DC1DFEA80680036_1_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12E41370)
-#define CLASS_1_7DC1DFEA80680036_1_GET_ANCHORDEF_OFFSET UNITYSDK_OFFSET(0x12E413E0)
-#define CLASS_1_7DC1DFEA80680036_1_GET_AREAID_OFFSET UNITYSDK_OFFSET(0x12E41860)
-#define CLASS_1_7DC1DFEA80680036_1_GET_CANTINT_OFFSET UNITYSDK_OFFSET(0x12E414A0)
-#define CLASS_1_7DC1DFEA80680036_1_GET_CIRCLECOLOR_OFFSET UNITYSDK_OFFSET(0x12E41600)
-#define CLASS_1_7DC1DFEA80680036_1_GET_COLOR_OFFSET UNITYSDK_OFFSET(0x12E41480)
-#define CLASS_1_7DC1DFEA80680036_1_GET_ENTITYDEF_OFFSET UNITYSDK_OFFSET(0x12E413C0)
-#define CLASS_1_7DC1DFEA80680036_1_GET_HASH_OFFSET UNITYSDK_OFFSET(0x12E41420)
-#define CLASS_1_7DC1DFEA80680036_1_GET_ICONID_OFFSET UNITYSDK_OFFSET(0x12E41460)
-#define CLASS_1_7DC1DFEA80680036_1_GET_ICONTYPE_OFFSET UNITYSDK_OFFSET(0x12E41650)
-#define CLASS_1_7DC1DFEA80680036_1_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x12E41400)
-#define CLASS_1_7DC1DFEA80680036_1_GET_ISSTATIC_OFFSET UNITYSDK_OFFSET(0x12E41520)
-#define CLASS_1_7DC1DFEA80680036_1_GET_ISTRACKINGMAPPINGINFO_OFFSET UNITYSDK_OFFSET(0x12E41560)
-#define CLASS_1_7DC1DFEA80680036_1_GET_ISTRACKINGMISSION_OFFSET UNITYSDK_OFFSET(0x12E41540)
-#define CLASS_1_7DC1DFEA80680036_1_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x12E41620)
-#define CLASS_1_7DC1DFEA80680036_1_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x12E41440)
-#define CLASS_1_7DC1DFEA80680036_1_GET_RANGERADIUS_OFFSET UNITYSDK_OFFSET(0x12E415A0)
-#define CLASS_1_7DC1DFEA80680036_1_GET_RAWPOSITION_OFFSET UNITYSDK_OFFSET(0x12E41AE0)
-#define CLASS_1_7DC1DFEA80680036_1_GET_RAWROTATION_OFFSET UNITYSDK_OFFSET(0x12E41AC0)
-#define CLASS_1_7DC1DFEA80680036_1_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x12E41580)
-#define CLASS_1_7DC1DFEA80680036_1_GET_WAYPOINTSHOWRANGEMAX_OFFSET UNITYSDK_OFFSET(0x12E415E0)
-#define CLASS_1_7DC1DFEA80680036_1_GET_WAYPOINTSHOWRANGEMIN_OFFSET UNITYSDK_OFFSET(0x12E415C0)
-#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_03BE804B9317DF84_OFFSET UNITYSDK_OFFSET(0x12E41250)
-#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_1D4018D4200358D0_1_OFFSET UNITYSDK_OFFSET(0x12E417E0)
-#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x12E414C0)
-#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_222640CE7F3FC014_OFFSET UNITYSDK_OFFSET(0x12E40CB0)
-#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_22480F729441D318_OFFSET UNITYSDK_OFFSET(0x12E41C40)
-#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_32AD1EA306F6A2E7_OFFSET UNITYSDK_OFFSET(0x12E41C50)
-#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x12E41320)
-#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_4737D68B509F6660_OFFSET UNITYSDK_OFFSET(0x12E410A0)
-#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_4AADAF19CDCB660E_OFFSET UNITYSDK_OFFSET(0x12E41B10)
-#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_595E641DF1B4387D_OFFSET UNITYSDK_OFFSET(0x12E41920)
-#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_91B8F7110D8178C8_OFFSET UNITYSDK_OFFSET(0x12E41670)
-#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x12E41C20)
-#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_D30FF8DA38644CB5_OFFSET UNITYSDK_OFFSET(0x12E40FD0)
-#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x12E41C30)
-#define CLASS_1_7DC1DFEA80680036_1_SET_ANCHORDEF_OFFSET UNITYSDK_OFFSET(0x12E413F0)
-#define CLASS_1_7DC1DFEA80680036_1_SET_CANTINT_OFFSET UNITYSDK_OFFSET(0x12E414B0)
-#define CLASS_1_7DC1DFEA80680036_1_SET_CIRCLECOLOR_OFFSET UNITYSDK_OFFSET(0x12E41610)
-#define CLASS_1_7DC1DFEA80680036_1_SET_COLOR_OFFSET UNITYSDK_OFFSET(0x12E41490)
-#define CLASS_1_7DC1DFEA80680036_1_SET_ENTITYDEF_OFFSET UNITYSDK_OFFSET(0x12E413D0)
-#define CLASS_1_7DC1DFEA80680036_1_SET_HASH_OFFSET UNITYSDK_OFFSET(0x12E41430)
-#define CLASS_1_7DC1DFEA80680036_1_SET_ICONID_OFFSET UNITYSDK_OFFSET(0x12E41470)
-#define CLASS_1_7DC1DFEA80680036_1_SET_ICONTYPE_OFFSET UNITYSDK_OFFSET(0x12E41660)
-#define CLASS_1_7DC1DFEA80680036_1_SET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x12E41410)
-#define CLASS_1_7DC1DFEA80680036_1_SET_ISSTATIC_OFFSET UNITYSDK_OFFSET(0x12E41530)
-#define CLASS_1_7DC1DFEA80680036_1_SET_ISTRACKINGMAPPINGINFO_OFFSET UNITYSDK_OFFSET(0x12E41570)
-#define CLASS_1_7DC1DFEA80680036_1_SET_ISTRACKINGMISSION_OFFSET UNITYSDK_OFFSET(0x12E41550)
-#define CLASS_1_7DC1DFEA80680036_1_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x12E41640)
-#define CLASS_1_7DC1DFEA80680036_1_SET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x12E41450)
-#define CLASS_1_7DC1DFEA80680036_1_SET_RANGERADIUS_OFFSET UNITYSDK_OFFSET(0x12E415B0)
-#define CLASS_1_7DC1DFEA80680036_1_SET_RAWPOSITION_OFFSET UNITYSDK_OFFSET(0x12E41B00)
-#define CLASS_1_7DC1DFEA80680036_1_SET_RAWROTATION_OFFSET UNITYSDK_OFFSET(0x12E41AD0)
-#define CLASS_1_7DC1DFEA80680036_1_SET_ROTATION_OFFSET UNITYSDK_OFFSET(0x12E41590)
-#define CLASS_1_7DC1DFEA80680036_1_SET_WAYPOINTSHOWRANGEMAX_OFFSET UNITYSDK_OFFSET(0x12E415F0)
-#define CLASS_1_7DC1DFEA80680036_1_SET_WAYPOINTSHOWRANGEMIN_OFFSET UNITYSDK_OFFSET(0x12E415D0)
-#define CLASS_1_7DC1DFEA80680036_1__CTOR_OFFSET UNITYSDK_OFFSET(0x12E41DA0)
+#define CLASS_1_7DC1DFEA80680036_1_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14ABB8E0)
+#define CLASS_1_7DC1DFEA80680036_1_GET_ANCHORDEF_OFFSET UNITYSDK_OFFSET(0x14ABB950)
+#define CLASS_1_7DC1DFEA80680036_1_GET_AREAID_OFFSET UNITYSDK_OFFSET(0x14ABBDD0)
+#define CLASS_1_7DC1DFEA80680036_1_GET_CANTINT_OFFSET UNITYSDK_OFFSET(0x14ABBA10)
+#define CLASS_1_7DC1DFEA80680036_1_GET_CIRCLECOLOR_OFFSET UNITYSDK_OFFSET(0x14ABBB70)
+#define CLASS_1_7DC1DFEA80680036_1_GET_COLOR_OFFSET UNITYSDK_OFFSET(0x14ABB9F0)
+#define CLASS_1_7DC1DFEA80680036_1_GET_ENTITYDEF_OFFSET UNITYSDK_OFFSET(0x14ABB930)
+#define CLASS_1_7DC1DFEA80680036_1_GET_HASH_OFFSET UNITYSDK_OFFSET(0x14ABB990)
+#define CLASS_1_7DC1DFEA80680036_1_GET_ICONID_OFFSET UNITYSDK_OFFSET(0x14ABB9D0)
+#define CLASS_1_7DC1DFEA80680036_1_GET_ICONTYPE_OFFSET UNITYSDK_OFFSET(0x14ABBBD0)
+#define CLASS_1_7DC1DFEA80680036_1_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x14ABB970)
+#define CLASS_1_7DC1DFEA80680036_1_GET_ISSTATIC_OFFSET UNITYSDK_OFFSET(0x14ABBA90)
+#define CLASS_1_7DC1DFEA80680036_1_GET_ISTRACKINGMAPPINGINFO_OFFSET UNITYSDK_OFFSET(0x14ABBAD0)
+#define CLASS_1_7DC1DFEA80680036_1_GET_ISTRACKINGMISSION_OFFSET UNITYSDK_OFFSET(0x14ABBAB0)
+#define CLASS_1_7DC1DFEA80680036_1_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x14ABBB90)
+#define CLASS_1_7DC1DFEA80680036_1_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x14ABB9B0)
+#define CLASS_1_7DC1DFEA80680036_1_GET_RANGERADIUS_OFFSET UNITYSDK_OFFSET(0x14ABBB10)
+#define CLASS_1_7DC1DFEA80680036_1_GET_RAWPOSITION_OFFSET UNITYSDK_OFFSET(0x14ABC050)
+#define CLASS_1_7DC1DFEA80680036_1_GET_RAWROTATION_OFFSET UNITYSDK_OFFSET(0x14ABC030)
+#define CLASS_1_7DC1DFEA80680036_1_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x14ABBAF0)
+#define CLASS_1_7DC1DFEA80680036_1_GET_WAYPOINTSHOWRANGEMAX_OFFSET UNITYSDK_OFFSET(0x14ABBB50)
+#define CLASS_1_7DC1DFEA80680036_1_GET_WAYPOINTSHOWRANGEMIN_OFFSET UNITYSDK_OFFSET(0x14ABBB30)
+#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_03BE804B9317DF84_OFFSET UNITYSDK_OFFSET(0x14ABB7C0)
+#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_1D4018D4200358D0_1_OFFSET UNITYSDK_OFFSET(0x14ABBD50)
+#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x14ABBA30)
+#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_22480F729441D318_OFFSET UNITYSDK_OFFSET(0x14ABC1C0)
+#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_296C60ADAA522878_OFFSET UNITYSDK_OFFSET(0x14ABBBF0)
+#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_32AD1EA306F6A2E7_OFFSET UNITYSDK_OFFSET(0x14ABC1D0)
+#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x14ABB890)
+#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_4737D68B509F6660_OFFSET UNITYSDK_OFFSET(0x14ABB600)
+#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_595E641DF1B4387D_OFFSET UNITYSDK_OFFSET(0x14ABBE90)
+#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_B128C90853E23A16_OFFSET UNITYSDK_OFFSET(0x14ABC080)
+#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x14ABC1A0)
+#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_D30FF8DA38644CB5_OFFSET UNITYSDK_OFFSET(0x14ABB530)
+#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x14ABC1B0)
+#define CLASS_1_7DC1DFEA80680036_1_METHOD_1_F694503B9E4BB71D_OFFSET UNITYSDK_OFFSET(0x14ABB1D0)
+#define CLASS_1_7DC1DFEA80680036_1_SET_ANCHORDEF_OFFSET UNITYSDK_OFFSET(0x14ABB960)
+#define CLASS_1_7DC1DFEA80680036_1_SET_CANTINT_OFFSET UNITYSDK_OFFSET(0x14ABBA20)
+#define CLASS_1_7DC1DFEA80680036_1_SET_CIRCLECOLOR_OFFSET UNITYSDK_OFFSET(0x14ABBB80)
+#define CLASS_1_7DC1DFEA80680036_1_SET_COLOR_OFFSET UNITYSDK_OFFSET(0x14ABBA00)
+#define CLASS_1_7DC1DFEA80680036_1_SET_ENTITYDEF_OFFSET UNITYSDK_OFFSET(0x14ABB940)
+#define CLASS_1_7DC1DFEA80680036_1_SET_HASH_OFFSET UNITYSDK_OFFSET(0x14ABB9A0)
+#define CLASS_1_7DC1DFEA80680036_1_SET_ICONID_OFFSET UNITYSDK_OFFSET(0x14ABB9E0)
+#define CLASS_1_7DC1DFEA80680036_1_SET_ICONTYPE_OFFSET UNITYSDK_OFFSET(0x14ABBBE0)
+#define CLASS_1_7DC1DFEA80680036_1_SET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x14ABB980)
+#define CLASS_1_7DC1DFEA80680036_1_SET_ISSTATIC_OFFSET UNITYSDK_OFFSET(0x14ABBAA0)
+#define CLASS_1_7DC1DFEA80680036_1_SET_ISTRACKINGMAPPINGINFO_OFFSET UNITYSDK_OFFSET(0x14ABBAE0)
+#define CLASS_1_7DC1DFEA80680036_1_SET_ISTRACKINGMISSION_OFFSET UNITYSDK_OFFSET(0x14ABBAC0)
+#define CLASS_1_7DC1DFEA80680036_1_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x14ABBBB0)
+#define CLASS_1_7DC1DFEA80680036_1_SET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x14ABB9C0)
+#define CLASS_1_7DC1DFEA80680036_1_SET_RANGERADIUS_OFFSET UNITYSDK_OFFSET(0x14ABBB20)
+#define CLASS_1_7DC1DFEA80680036_1_SET_RAWPOSITION_OFFSET UNITYSDK_OFFSET(0x14ABC070)
+#define CLASS_1_7DC1DFEA80680036_1_SET_RAWROTATION_OFFSET UNITYSDK_OFFSET(0x14ABC040)
+#define CLASS_1_7DC1DFEA80680036_1_SET_ROTATION_OFFSET UNITYSDK_OFFSET(0x14ABBB00)
+#define CLASS_1_7DC1DFEA80680036_1_SET_WAYPOINTSHOWRANGEMAX_OFFSET UNITYSDK_OFFSET(0x14ABBB60)
+#define CLASS_1_7DC1DFEA80680036_1_SET_WAYPOINTSHOWRANGEMIN_OFFSET UNITYSDK_OFFSET(0x14ABBB40)
+#define CLASS_1_7DC1DFEA80680036_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14ABC330)
 
-inline static constexpr unsigned int Class_1_7DC1DFEA80680036_1_TypeDefinitionIndex = 55918;
+inline static constexpr unsigned int Class_1_7DC1DFEA80680036_1_TypeDefinitionIndex = 56673;
 
 class Class_1_7DC1DFEA80680036_1 : public ::System::Object
 {
 public:
 	::RPG::Client::MapAnchorDef* _AnchorDef_k__BackingField; // 0x10
 	::RPG::Client::MapEntityDef* _EntityDef_k__BackingField; // 0x18
-	::UnityEngine::Vector3 _Position_k__BackingField; // 0x20
-	::System::Single _RangeRadius_k__BackingField; // 0x2C
-	::System::Single _WayPointShowRangeMin_k__BackingField; // 0x30
-	::System::Single _Rotation_k__BackingField; // 0x34
-	::System::Boolean _IsTrackingMappingInfo_k__BackingField; // 0x38
-	::System::Nullable_1<::System::Boolean> Field_1_21; // 0x39
-	::System::Boolean _IsStatic_k__BackingField; // 0x3B
-	::System::Boolean _IsTrackingMission_k__BackingField; // 0x3C
-	::System::Int32 _Priority_k__BackingField; // 0x40
-	::RPG::Client::MiniMapIconType _IconType_k__BackingField; // 0x44
-	::System::Int32 _Hash_k__BackingField; // 0x48
-	::System::Single _RawRotation_k__BackingField; // 0x4C
-	::System::UInt32 _IconID_k__BackingField; // 0x50
-	::System::Int32 _Identifier_k__BackingField; // 0x54
-	::System::Boolean _CanTint_k__BackingField; // 0x58
-	::System::Boolean Field_1_20; // 0x59
-	::UnityEngine::Vector3 _RawPosition_k__BackingField; // 0x5C
-	::UnityEngine::Color _Color_k__BackingField; // 0x68
-	::System::Single _WayPointShowRangeMax_k__BackingField; // 0x78
-	::UnityEngine::Color _CircleColor_k__BackingField; // 0x7C
+	::System::Single _RangeRadius_k__BackingField; // 0x20
+	::RPG::Client::MiniMapIconType _IconType_k__BackingField; // 0x24
+	::System::Single _Rotation_k__BackingField; // 0x28
+	::System::Single _RawRotation_k__BackingField; // 0x2C
+	::UnityEngine::Color _Color_k__BackingField; // 0x30
+	::System::Int32 _Hash_k__BackingField; // 0x40
+	::System::Int32 _Priority_k__BackingField; // 0x44
+	::System::UInt32 _IconID_k__BackingField; // 0x48
+	::System::Single _WayPointShowRangeMax_k__BackingField; // 0x4C
+	::System::Single _WayPointShowRangeMin_k__BackingField; // 0x50
+	::UnityEngine::Color _CircleColor_k__BackingField; // 0x54
+	::System::Int32 _Identifier_k__BackingField; // 0x64
+	::UnityEngine::Vector3 _RawPosition_k__BackingField; // 0x68
+	::System::Boolean _IsTrackingMappingInfo_k__BackingField; // 0x74
+	::System::Boolean Field_1_16; // 0x75
+	::UnityEngine::Vector3 _Position_k__BackingField; // 0x78
+	::System::Boolean _IsTrackingMission_k__BackingField; // 0x84
+	::System::Nullable_1<::System::Boolean> Field_1_19; // 0x85
+	::System::Boolean _CanTint_k__BackingField; // 0x87
+	::System::Boolean _IsStatic_k__BackingField; // 0x88
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_222640CE7F3FC014(::RPG::Client::MapEntityDef* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Int32 a4)
+	::System::Void Method_1_F694503B9E4BB71D(::RPG::Client::MapEntityDef* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Int32 a4)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::MapEntityDef*, ::System::UInt32, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_METHOD_1_222640CE7F3FC014_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::MapEntityDef*, ::System::UInt32, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_METHOD_1_F694503B9E4BB71D_OFFSET))(this, a1, a2, a3, a4);
 	}
 
 	::System::Void Method_1_4737D68B509F6660(::RPG::Client::MapAnchorDef* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Int32 a4)
@@ -136,9 +136,9 @@ public:
 		return ((::RPG::Client::MapEntityDef*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_GET_ENTITYDEF_OFFSET))(this);
 	}
 
-	::System::Void set_EntityDef(::RPG::Client::MapEntityDef* value)
+	::System::Void set_EntityDef(::RPG::Client::MapEntityDef* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::MapEntityDef*))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_ENTITYDEF_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::MapEntityDef*))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_ENTITYDEF_OFFSET))(this, a1);
 	}
 
 	::RPG::Client::MapAnchorDef* get_AnchorDef()
@@ -146,9 +146,9 @@ public:
 		return ((::RPG::Client::MapAnchorDef*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_GET_ANCHORDEF_OFFSET))(this);
 	}
 
-	::System::Void set_AnchorDef(::RPG::Client::MapAnchorDef* value)
+	::System::Void set_AnchorDef(::RPG::Client::MapAnchorDef* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::MapAnchorDef*))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_ANCHORDEF_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::MapAnchorDef*))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_ANCHORDEF_OFFSET))(this, a1);
 	}
 
 	::System::Int32 get_Identifier()
@@ -156,9 +156,9 @@ public:
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_GET_IDENTIFIER_OFFSET))(this);
 	}
 
-	::System::Void set_Identifier(::System::Int32 value)
+	::System::Void set_Identifier(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_IDENTIFIER_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_IDENTIFIER_OFFSET))(this, a1);
 	}
 
 	::System::Int32 get_Hash()
@@ -166,9 +166,9 @@ public:
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_GET_HASH_OFFSET))(this);
 	}
 
-	::System::Void set_Hash(::System::Int32 value)
+	::System::Void set_Hash(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_HASH_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_HASH_OFFSET))(this, a1);
 	}
 
 	::System::Int32 get_Priority()
@@ -176,9 +176,9 @@ public:
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_GET_PRIORITY_OFFSET))(this);
 	}
 
-	::System::Void set_Priority(::System::Int32 value)
+	::System::Void set_Priority(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_PRIORITY_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_PRIORITY_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_IconID()
@@ -186,9 +186,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_GET_ICONID_OFFSET))(this);
 	}
 
-	::System::Void set_IconID(::System::UInt32 value)
+	::System::Void set_IconID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_ICONID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_ICONID_OFFSET))(this, a1);
 	}
 
 	::UnityEngine::Color get_Color()
@@ -196,9 +196,9 @@ public:
 		return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_GET_COLOR_OFFSET))(this);
 	}
 
-	::System::Void set_Color(::UnityEngine::Color value)
+	::System::Void set_Color(::UnityEngine::Color a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_COLOR_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_COLOR_OFFSET))(this, a1);
 	}
 
 	::System::Boolean get_CanTint()
@@ -206,9 +206,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_GET_CANTINT_OFFSET))(this);
 	}
 
-	::System::Void set_CanTint(::System::Boolean value)
+	::System::Void set_CanTint(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_CANTINT_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_CANTINT_OFFSET))(this, a1);
 	}
 
 	::System::Boolean Method_1_1D4018D4200358D0()
@@ -221,9 +221,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_GET_ISSTATIC_OFFSET))(this);
 	}
 
-	::System::Void set_IsStatic(::System::Boolean value)
+	::System::Void set_IsStatic(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_ISSTATIC_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_ISSTATIC_OFFSET))(this, a1);
 	}
 
 	::System::Boolean get_IsTrackingMission()
@@ -231,9 +231,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_GET_ISTRACKINGMISSION_OFFSET))(this);
 	}
 
-	::System::Void set_IsTrackingMission(::System::Boolean value)
+	::System::Void set_IsTrackingMission(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_ISTRACKINGMISSION_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_ISTRACKINGMISSION_OFFSET))(this, a1);
 	}
 
 	::System::Boolean get_IsTrackingMappingInfo()
@@ -241,9 +241,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_GET_ISTRACKINGMAPPINGINFO_OFFSET))(this);
 	}
 
-	::System::Void set_IsTrackingMappingInfo(::System::Boolean value)
+	::System::Void set_IsTrackingMappingInfo(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_ISTRACKINGMAPPINGINFO_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_ISTRACKINGMAPPINGINFO_OFFSET))(this, a1);
 	}
 
 	::System::Single get_Rotation()
@@ -251,9 +251,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_GET_ROTATION_OFFSET))(this);
 	}
 
-	::System::Void set_Rotation(::System::Single value)
+	::System::Void set_Rotation(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_ROTATION_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_ROTATION_OFFSET))(this, a1);
 	}
 
 	::System::Single get_RangeRadius()
@@ -261,9 +261,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_GET_RANGERADIUS_OFFSET))(this);
 	}
 
-	::System::Void set_RangeRadius(::System::Single value)
+	::System::Void set_RangeRadius(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_RANGERADIUS_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_RANGERADIUS_OFFSET))(this, a1);
 	}
 
 	::System::Single get_WayPointShowRangeMin()
@@ -271,9 +271,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_GET_WAYPOINTSHOWRANGEMIN_OFFSET))(this);
 	}
 
-	::System::Void set_WayPointShowRangeMin(::System::Single value)
+	::System::Void set_WayPointShowRangeMin(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_WAYPOINTSHOWRANGEMIN_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_WAYPOINTSHOWRANGEMIN_OFFSET))(this, a1);
 	}
 
 	::System::Single get_WayPointShowRangeMax()
@@ -281,9 +281,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_GET_WAYPOINTSHOWRANGEMAX_OFFSET))(this);
 	}
 
-	::System::Void set_WayPointShowRangeMax(::System::Single value)
+	::System::Void set_WayPointShowRangeMax(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_WAYPOINTSHOWRANGEMAX_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_WAYPOINTSHOWRANGEMAX_OFFSET))(this, a1);
 	}
 
 	::UnityEngine::Color get_CircleColor()
@@ -291,9 +291,9 @@ public:
 		return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_GET_CIRCLECOLOR_OFFSET))(this);
 	}
 
-	::System::Void set_CircleColor(::UnityEngine::Color value)
+	::System::Void set_CircleColor(::UnityEngine::Color a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_CIRCLECOLOR_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_CIRCLECOLOR_OFFSET))(this, a1);
 	}
 
 	::UnityEngine::Vector3 get_Position()
@@ -301,9 +301,9 @@ public:
 		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_GET_POSITION_OFFSET))(this);
 	}
 
-	::System::Void set_Position(::UnityEngine::Vector3 value)
+	::System::Void set_Position(::UnityEngine::Vector3 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_POSITION_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_POSITION_OFFSET))(this, a1);
 	}
 
 	::RPG::Client::MiniMapIconType get_IconType()
@@ -311,14 +311,14 @@ public:
 		return ((::RPG::Client::MiniMapIconType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_GET_ICONTYPE_OFFSET))(this);
 	}
 
-	::System::Void set_IconType(::RPG::Client::MiniMapIconType value)
+	::System::Void set_IconType(::RPG::Client::MiniMapIconType a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::MiniMapIconType))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_ICONTYPE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::MiniMapIconType))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_ICONTYPE_OFFSET))(this, a1);
 	}
 
-	::System::Int32 Method_1_91B8F7110D8178C8()
+	::System::Int32 Method_1_296C60ADAA522878()
 	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_METHOD_1_91B8F7110D8178C8_OFFSET))(this);
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_METHOD_1_296C60ADAA522878_OFFSET))(this);
 	}
 
 	::System::Boolean Method_1_1D4018D4200358D0_1()
@@ -341,9 +341,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_GET_RAWROTATION_OFFSET))(this);
 	}
 
-	::System::Void set_RawRotation(::System::Single value)
+	::System::Void set_RawRotation(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_RAWROTATION_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_RAWROTATION_OFFSET))(this, a1);
 	}
 
 	::UnityEngine::Vector3 get_RawPosition()
@@ -351,14 +351,14 @@ public:
 		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_GET_RAWPOSITION_OFFSET))(this);
 	}
 
-	::System::Void set_RawPosition(::UnityEngine::Vector3 value)
+	::System::Void set_RawPosition(::UnityEngine::Vector3 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_RAWPOSITION_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_SET_RAWPOSITION_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_1_4AADAF19CDCB660E()
+	::System::Boolean Method_1_B128C90853E23A16()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_METHOD_1_4AADAF19CDCB660E_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7DC1DFEA80680036_1_METHOD_1_B128C90853E23A16_OFFSET))(this);
 	}
 
 	::System::Int32 Method_1_C74CF020AA42ED85()

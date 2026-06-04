@@ -5,15 +5,15 @@
 namespace Proto { class ItemCost; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BATCHRANKUPENTRY_GET_EQUIPMENTUNIQUEID_OFFSET UNITYSDK_OFFSET(0xF39F670)
-#define RPG_CLIENT_BATCHRANKUPENTRY_GET_ITEMCOSTS_OFFSET UNITYSDK_OFFSET(0xF39F690)
-#define RPG_CLIENT_BATCHRANKUPENTRY_SET_EQUIPMENTUNIQUEID_OFFSET UNITYSDK_OFFSET(0xF39F680)
-#define RPG_CLIENT_BATCHRANKUPENTRY_SET_ITEMCOSTS_OFFSET UNITYSDK_OFFSET(0xF39F6A0)
-#define RPG_CLIENT_BATCHRANKUPENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xF39F6B0)
+#define RPG_CLIENT_BATCHRANKUPENTRY_GET_EQUIPMENTUNIQUEID_OFFSET UNITYSDK_OFFSET(0x17A17A30)
+#define RPG_CLIENT_BATCHRANKUPENTRY_GET_ITEMCOSTS_OFFSET UNITYSDK_OFFSET(0x17A17A50)
+#define RPG_CLIENT_BATCHRANKUPENTRY_SET_EQUIPMENTUNIQUEID_OFFSET UNITYSDK_OFFSET(0x17A17A40)
+#define RPG_CLIENT_BATCHRANKUPENTRY_SET_ITEMCOSTS_OFFSET UNITYSDK_OFFSET(0x17A17A60)
+#define RPG_CLIENT_BATCHRANKUPENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17A17A70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BatchRankUpEntry_TypeDefinitionIndex = 63959;
+	inline static constexpr unsigned int BatchRankUpEntry_TypeDefinitionIndex = 64880;
 
 	class BatchRankUpEntry : public ::System::Object
 	{
@@ -31,9 +31,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATCHRANKUPENTRY_GET_EQUIPMENTUNIQUEID_OFFSET))(this);
 		}
 
-		::System::Void set_EquipmentUniqueID(::System::UInt32 value)
+		::System::Void set_EquipmentUniqueID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATCHRANKUPENTRY_SET_EQUIPMENTUNIQUEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATCHRANKUPENTRY_SET_EQUIPMENTUNIQUEID_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::Proto::ItemCost*>* get_ItemCosts()
@@ -41,9 +41,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::Proto::ItemCost*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATCHRANKUPENTRY_GET_ITEMCOSTS_OFFSET))(this);
 		}
 
-		::System::Void set_ItemCosts(::System::Collections::Generic::List_1<::Proto::ItemCost*>* value)
+		::System::Void set_ItemCosts(::System::Collections::Generic::List_1<::Proto::ItemCost*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Proto::ItemCost*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATCHRANKUPENTRY_SET_ITEMCOSTS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Proto::ItemCost*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATCHRANKUPENTRY_SET_ITEMCOSTS_OFFSET))(this, a1);
 		}
 	};
 }

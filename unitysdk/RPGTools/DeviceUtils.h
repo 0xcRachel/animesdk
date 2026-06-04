@@ -4,32 +4,32 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_DEVICEUTILS_FORMATPOWER_OFFSET UNITYSDK_OFFSET(0x175C8050)
-#define RPGTOOLS_DEVICEUTILS_FORMATSIZE_OFFSET UNITYSDK_OFFSET(0x175C7F20)
-#define RPGTOOLS_DEVICEUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x175C81D0)
+#define RPGTOOLS_DEVICEUTILS_FORMATPOWER_OFFSET UNITYSDK_OFFSET(0x19BB7580)
+#define RPGTOOLS_DEVICEUTILS_FORMATSIZE_OFFSET UNITYSDK_OFFSET(0x19BB7450)
+#define RPGTOOLS_DEVICEUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x19BB7700)
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int DeviceUtils_TypeDefinitionIndex = 40974;
+	inline static constexpr unsigned int DeviceUtils_TypeDefinitionIndex = 44272;
 
 	class DeviceUtils : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_MESSAGE_OBJECT_NAME()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DeviceUtils_TypeDefinitionIndex)->GetStaticField(0x56B00);
-		}
-		static ::System::String** StaticGet_MESSAGE_WIFI_STATE_CHANGED()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DeviceUtils_TypeDefinitionIndex)->GetStaticField(0x56B08);
-		}
-		static ::System::String** StaticGet_MESSAGE_WIFI_RSSI_CHANGED()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DeviceUtils_TypeDefinitionIndex)->GetStaticField(0x56B10);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DeviceUtils_TypeDefinitionIndex)->GetStaticField(0x15B20);
 		}
 		static ::System::String** StaticGet_MESSAGE_BETTERY_CHANGED()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DeviceUtils_TypeDefinitionIndex)->GetStaticField(0x56B18);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DeviceUtils_TypeDefinitionIndex)->GetStaticField(0x15B28);
+		}
+		static ::System::String** StaticGet_MESSAGE_WIFI_STATE_CHANGED()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DeviceUtils_TypeDefinitionIndex)->GetStaticField(0x15B30);
+		}
+		static ::System::String** StaticGet_MESSAGE_WIFI_RSSI_CHANGED()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DeviceUtils_TypeDefinitionIndex)->GetStaticField(0x15B38);
 		}
 		// static const ::System::Int32 BATTERY_LEVEL_MAX = 0x64; // 0x0
 
@@ -38,14 +38,14 @@ namespace RPGTools
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_DEVICEUTILS__CCTOR_OFFSET))();
 		}
 
-		static ::System::String* FormatSize(::System::Int64 i)
+		static ::System::String* FormatSize(::System::Int64 a1)
 		{
-			return ((::System::String*(*)(::System::Int64))((::PBYTE)hIl2Cpp + RPGTOOLS_DEVICEUTILS_FORMATSIZE_OFFSET))(i);
+			return ((::System::String*(*)(::System::Int64))((::PBYTE)hIl2Cpp + RPGTOOLS_DEVICEUTILS_FORMATSIZE_OFFSET))(a1);
 		}
 
-		static ::System::String* FormatPower(::System::Double power)
+		static ::System::String* FormatPower(::System::Double a1)
 		{
-			return ((::System::String*(*)(::System::Double))((::PBYTE)hIl2Cpp + RPGTOOLS_DEVICEUTILS_FORMATPOWER_OFFSET))(power);
+			return ((::System::String*(*)(::System::Double))((::PBYTE)hIl2Cpp + RPGTOOLS_DEVICEUTILS_FORMATPOWER_OFFSET))(a1);
 		}
 	};
 }

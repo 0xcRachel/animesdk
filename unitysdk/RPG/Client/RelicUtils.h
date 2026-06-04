@@ -8,18 +8,18 @@
 namespace RPG::Client { class RelicItemData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RELICUTILS_DEFAULTCOMPARE_OFFSET UNITYSDK_OFFSET(0x131B99F0)
-#define RPG_CLIENT_RELICUTILS_GETALLRELICSETID_OFFSET UNITYSDK_OFFSET(0x131B9630)
-#define RPG_CLIENT_RELICUTILS_GETCOMPAREVALUE_OFFSET UNITYSDK_OFFSET(0x131B9780)
-#define RPG_CLIENT_RELICUTILS_GETMAINAFFIXIDPROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x131B9F70)
-#define RPG_CLIENT_RELICUTILS_ISRARERELICMAINPROPERTY_OFFSET UNITYSDK_OFFSET(0x131B9B30)
-#define RPG_CLIENT_RELICUTILS_NUMBERTORELICTYPE_OFFSET UNITYSDK_OFFSET(0x131B9DF0)
-#define RPG_CLIENT_RELICUTILS_REPLACEDEFAULTCOMPARE_OFFSET UNITYSDK_OFFSET(0x131B9B80)
-#define RPG_CLIENT_RELICUTILS_SELLDEFAULTCOMPARE_OFFSET UNITYSDK_OFFSET(0x131B9CB0)
+#define RPG_CLIENT_RELICUTILS_DEFAULTCOMPARE_OFFSET UNITYSDK_OFFSET(0x14D0B020)
+#define RPG_CLIENT_RELICUTILS_GETALLRELICSETID_OFFSET UNITYSDK_OFFSET(0x14D0ABC0)
+#define RPG_CLIENT_RELICUTILS_GETCOMPAREVALUE_OFFSET UNITYSDK_OFFSET(0x14D0ADA0)
+#define RPG_CLIENT_RELICUTILS_GETMAINAFFIXIDPROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x14CE89D0)
+#define RPG_CLIENT_RELICUTILS_ISRARERELICMAINPROPERTY_OFFSET UNITYSDK_OFFSET(0x14D0B160)
+#define RPG_CLIENT_RELICUTILS_NUMBERTORELICTYPE_OFFSET UNITYSDK_OFFSET(0x14D0B420)
+#define RPG_CLIENT_RELICUTILS_REPLACEDEFAULTCOMPARE_OFFSET UNITYSDK_OFFSET(0x14D0B1B0)
+#define RPG_CLIENT_RELICUTILS_SELLDEFAULTCOMPARE_OFFSET UNITYSDK_OFFSET(0x14D0B2E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicUtils_TypeDefinitionIndex = 67366;
+	inline static constexpr unsigned int RelicUtils_TypeDefinitionIndex = 68318;
 
 	class RelicUtils : public ::System::Object
 	{
@@ -29,39 +29,39 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICUTILS_GETALLRELICSETID_OFFSET))();
 		}
 
-		static ::System::Single GetCompareValue(::RPG::GameCore::InventorySortType type, ::RPG::Client::RelicItemData* relicItem)
+		static ::System::Single GetCompareValue(::RPG::GameCore::InventorySortType a1, ::RPG::Client::RelicItemData* a2)
 		{
-			return ((::System::Single(*)(::RPG::GameCore::InventorySortType, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICUTILS_GETCOMPAREVALUE_OFFSET))(type, relicItem);
+			return ((::System::Single(*)(::RPG::GameCore::InventorySortType, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICUTILS_GETCOMPAREVALUE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean DefaultCompare(::RPG::Client::RelicItemData* relicItemA, ::RPG::Client::RelicItemData* relicItemB)
+		static ::System::Boolean DefaultCompare(::RPG::Client::RelicItemData* a1, ::RPG::Client::RelicItemData* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::RelicItemData*, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICUTILS_DEFAULTCOMPARE_OFFSET))(relicItemA, relicItemB);
+			return ((::System::Boolean(*)(::RPG::Client::RelicItemData*, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICUTILS_DEFAULTCOMPARE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsRareRelicMainProperty(::RPG::GameCore::AvatarPropertyType property)
+		static ::System::Boolean IsRareRelicMainProperty(::RPG::GameCore::AvatarPropertyType a1)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICUTILS_ISRARERELICMAINPROPERTY_OFFSET))(property);
+			return ((::System::Boolean(*)(::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICUTILS_ISRARERELICMAINPROPERTY_OFFSET))(a1);
 		}
 
-		static ::System::Boolean ReplaceDefaultCompare(::RPG::Client::RelicItemData* relicItemA, ::RPG::Client::RelicItemData* relicItemB)
+		static ::System::Boolean ReplaceDefaultCompare(::RPG::Client::RelicItemData* a1, ::RPG::Client::RelicItemData* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::RelicItemData*, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICUTILS_REPLACEDEFAULTCOMPARE_OFFSET))(relicItemA, relicItemB);
+			return ((::System::Boolean(*)(::RPG::Client::RelicItemData*, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICUTILS_REPLACEDEFAULTCOMPARE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean SellDefaultCompare(::RPG::Client::RelicItemData* relicItemA, ::RPG::Client::RelicItemData* relicItemB, ::RPG::GameCore::InventorySortType sortType, ::System::Boolean isDescend)
+		static ::System::Boolean SellDefaultCompare(::RPG::Client::RelicItemData* a1, ::RPG::Client::RelicItemData* a2, ::RPG::GameCore::InventorySortType a3, ::System::Boolean a4)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::RelicItemData*, ::RPG::Client::RelicItemData*, ::RPG::GameCore::InventorySortType, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICUTILS_SELLDEFAULTCOMPARE_OFFSET))(relicItemA, relicItemB, sortType, isDescend);
+			return ((::System::Boolean(*)(::RPG::Client::RelicItemData*, ::RPG::Client::RelicItemData*, ::RPG::GameCore::InventorySortType, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICUTILS_SELLDEFAULTCOMPARE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::RPG::GameCore::RelicType NumberToRelicType(::System::Int32 number)
+		static ::RPG::GameCore::RelicType NumberToRelicType(::System::Int32 a1)
 		{
-			return ((::RPG::GameCore::RelicType(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICUTILS_NUMBERTORELICTYPE_OFFSET))(number);
+			return ((::RPG::GameCore::RelicType(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICUTILS_NUMBERTORELICTYPE_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetMainAffixIDPropertyType(::RPG::GameCore::AvatarPropertyType mainProperty, ::System::UInt32 mainAffixGroup)
+		static ::System::UInt32 GetMainAffixIDPropertyType(::RPG::GameCore::AvatarPropertyType a1, ::System::UInt32 a2)
 		{
-			return ((::System::UInt32(*)(::RPG::GameCore::AvatarPropertyType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICUTILS_GETMAINAFFIXIDPROPERTYTYPE_OFFSET))(mainProperty, mainAffixGroup);
+			return ((::System::UInt32(*)(::RPG::GameCore::AvatarPropertyType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICUTILS_GETMAINAFFIXIDPROPERTYTYPE_OFFSET))(a1, a2);
 		}
 	};
 }

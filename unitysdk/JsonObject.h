@@ -8,25 +8,25 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JSONOBJECT_GETBOOL_OFFSET UNITYSDK_OFFSET(0x1A748FD0)
-#define JSONOBJECT_GETCMD_OFFSET UNITYSDK_OFFSET(0x1A748CC0)
-#define JSONOBJECT_GETDICTVALUE_OFFSET UNITYSDK_OFFSET(0x1A748D30)
-#define JSONOBJECT_GETENUM_OFFSET UNITYSDK_OFFSET(0x1A749390)
-#define JSONOBJECT_GETFLOAT_OFFSET UNITYSDK_OFFSET(0x1A7491D0)
-#define JSONOBJECT_GETINT_OFFSET UNITYSDK_OFFSET(0x1A7490D0)
-#define JSONOBJECT_GETJSONDICT_OFFSET UNITYSDK_OFFSET(0x1A748E50)
-#define JSONOBJECT_GETJSONOBJECT_OFFSET UNITYSDK_OFFSET(0x1A748F80)
-#define JSONOBJECT_GETLISTJSONOBJECT_OFFSET UNITYSDK_OFFSET(0x1A7494F0)
-#define JSONOBJECT_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1A7492D0)
-#define JSONOBJECT_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1A748C20)
-#define JSONOBJECT_KEYEXIST_OFFSET UNITYSDK_OFFSET(0x1A748DD0)
-#define JSONOBJECT_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A748D10)
-#define JSONOBJECT_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1A748C50)
-#define JSONOBJECT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A748BA0)
-#define JSONOBJECT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A748C10)
-#define JSONOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A748B20)
+#define JSONOBJECT_GETBOOL_OFFSET UNITYSDK_OFFSET(0x1B56BA90)
+#define JSONOBJECT_GETCMD_OFFSET UNITYSDK_OFFSET(0x1B56B730)
+#define JSONOBJECT_GETDICTVALUE_OFFSET UNITYSDK_OFFSET(0x1B56B7F0)
+#define JSONOBJECT_GETENUM_OFFSET UNITYSDK_OFFSET(0x1B56BE10)
+#define JSONOBJECT_GETFLOAT_OFFSET UNITYSDK_OFFSET(0x1B56BC70)
+#define JSONOBJECT_GETINT_OFFSET UNITYSDK_OFFSET(0x1B56BB80)
+#define JSONOBJECT_GETJSONDICT_OFFSET UNITYSDK_OFFSET(0x1B56B910)
+#define JSONOBJECT_GETJSONOBJECT_OFFSET UNITYSDK_OFFSET(0x1B56BA40)
+#define JSONOBJECT_GETLISTJSONOBJECT_OFFSET UNITYSDK_OFFSET(0x1B56BF90)
+#define JSONOBJECT_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1B56BD60)
+#define JSONOBJECT_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1B56B640)
+#define JSONOBJECT_KEYEXIST_OFFSET UNITYSDK_OFFSET(0x1B56B890)
+#define JSONOBJECT_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B56B7D0)
+#define JSONOBJECT_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1B56B6C0)
+#define JSONOBJECT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B56B5C0)
+#define JSONOBJECT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B56B630)
+#define JSONOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B56B540)
 
-inline static constexpr unsigned int JsonObject_TypeDefinitionIndex = 37642;
+inline static constexpr unsigned int JsonObject_TypeDefinitionIndex = 38374;
 
 class JsonObject : public ::UnityEngine::Object
 {
@@ -38,24 +38,24 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JSONOBJECT__CTOR_OFFSET))(this);
 	}
 
-	::System::Void _ctor_1(::System::String* strJson)
+	::System::Void _ctor_1(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT__CTOR_1_OFFSET))(this, strJson);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT__CTOR_1_OFFSET))(this, a1);
 	}
 
-	::System::Void _ctor_2(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* dict)
+	::System::Void _ctor_2(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*))((::PBYTE)hIl2Cpp + JSONOBJECT__CTOR_2_OFFSET))(this, dict);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*))((::PBYTE)hIl2Cpp + JSONOBJECT__CTOR_2_OFFSET))(this, a1);
 	}
 
-	::System::Object* get_Item(::System::String* key)
+	::System::Object* get_Item(::System::String* a1)
 	{
-		return ((::System::Object*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_GET_ITEM_OFFSET))(this, key);
+		return ((::System::Object*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_GET_ITEM_OFFSET))(this, a1);
 	}
 
-	::System::Void set_Item(::System::String* key, ::System::Object* value)
+	::System::Void set_Item(::System::String* a1, ::System::Object* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + JSONOBJECT_SET_ITEM_OFFSET))(this, key, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + JSONOBJECT_SET_ITEM_OFFSET))(this, a1, a2);
 	}
 
 	::System::String* getCmd()
@@ -68,53 +68,53 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + JSONOBJECT_SERIALIZE_OFFSET))(this);
 	}
 
-	::System::Object* GetDictValue(::System::String* key)
+	::System::Object* GetDictValue(::System::String* a1)
 	{
-		return ((::System::Object*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_GETDICTVALUE_OFFSET))(this, key);
+		return ((::System::Object*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_GETDICTVALUE_OFFSET))(this, a1);
 	}
 
-	::System::Boolean KeyExist(::System::String* key)
+	::System::Boolean KeyExist(::System::String* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_KEYEXIST_OFFSET))(this, key);
+		return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_KEYEXIST_OFFSET))(this, a1);
 	}
 
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* GetJsonDict(::System::String* key)
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* GetJsonDict(::System::String* a1)
 	{
-		return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_GETJSONDICT_OFFSET))(this, key);
+		return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_GETJSONDICT_OFFSET))(this, a1);
 	}
 
-	::JsonObject* GetJsonObject(::System::String* key)
+	::JsonObject* GetJsonObject(::System::String* a1)
 	{
-		return ((::JsonObject*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_GETJSONOBJECT_OFFSET))(this, key);
+		return ((::JsonObject*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_GETJSONOBJECT_OFFSET))(this, a1);
 	}
 
-	::System::Boolean GetBool(::System::String* key)
+	::System::Boolean GetBool(::System::String* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_GETBOOL_OFFSET))(this, key);
+		return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_GETBOOL_OFFSET))(this, a1);
 	}
 
-	::System::Int32 GetInt(::System::String* key)
+	::System::Int32 GetInt(::System::String* a1)
 	{
-		return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_GETINT_OFFSET))(this, key);
+		return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_GETINT_OFFSET))(this, a1);
 	}
 
-	::System::Single GetFloat(::System::String* key)
+	::System::Single GetFloat(::System::String* a1)
 	{
-		return ((::System::Single(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_GETFLOAT_OFFSET))(this, key);
+		return ((::System::Single(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_GETFLOAT_OFFSET))(this, a1);
 	}
 
-	::System::String* GetString(::System::String* key)
+	::System::String* GetString(::System::String* a1)
 	{
-		return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_GETSTRING_OFFSET))(this, key);
+		return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_GETSTRING_OFFSET))(this, a1);
 	}
 
-	::System::Object* GetEnum(::System::Type* type, ::System::String* key)
+	::System::Object* GetEnum(::System::Type* a1, ::System::String* a2)
 	{
-		return ((::System::Object*(*)(::PVOID, ::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_GETENUM_OFFSET))(this, type, key);
+		return ((::System::Object*(*)(::PVOID, ::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_GETENUM_OFFSET))(this, a1, a2);
 	}
 
-	::System::Collections::Generic::List_1<::JsonObject*>* GetListJsonObject(::System::String* key)
+	::System::Collections::Generic::List_1<::JsonObject*>* GetListJsonObject(::System::String* a1)
 	{
-		return ((::System::Collections::Generic::List_1<::JsonObject*>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_GETLISTJSONOBJECT_OFFSET))(this, key);
+		return ((::System::Collections::Generic::List_1<::JsonObject*>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JSONOBJECT_GETLISTJSONOBJECT_OFFSET))(this, a1);
 	}
 };

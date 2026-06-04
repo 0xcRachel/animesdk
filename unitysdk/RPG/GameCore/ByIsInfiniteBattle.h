@@ -3,14 +3,17 @@
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYISINFINITEBATTLE_METHOD_4_1DD51CA7496C7926_OFFSET UNITYSDK_OFFSET(0x19A66030)
-#define RPG_GAMECORE_BYISINFINITEBATTLE_METHOD_4_B544E3689D95B9AC_OFFSET UNITYSDK_OFFSET(0x19A66100)
-#define RPG_GAMECORE_BYISINFINITEBATTLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A660B0)
+#define RPG_GAMECORE_BYISINFINITEBATTLE_METHOD_4_058F94A5CA6B9747_OFFSET UNITYSDK_OFFSET(0x19DAAF70)
+#define RPG_GAMECORE_BYISINFINITEBATTLE_METHOD_4_1DD51CA7496C7926_OFFSET UNITYSDK_OFFSET(0x19DAAD60)
+#define RPG_GAMECORE_BYISINFINITEBATTLE_METHOD_4_9C218504903D5953_OFFSET UNITYSDK_OFFSET(0x19DAAFF0)
+#define RPG_GAMECORE_BYISINFINITEBATTLE_METHOD_4_B544E3689D95B9AC_OFFSET UNITYSDK_OFFSET(0x19DAAE30)
+#define RPG_GAMECORE_BYISINFINITEBATTLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DAADE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsInfiniteBattle_TypeDefinitionIndex = 21987;
+	inline static constexpr unsigned int ByIsInfiniteBattle_TypeDefinitionIndex = 21810;
 
 	class ByIsInfiniteBattle : public ::RPG::GameCore::PredicateConfig
 	{
@@ -28,6 +31,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_B544E3689D95B9AC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsInfiniteBattle* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsInfiniteBattle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINFINITEBATTLE_METHOD_4_B544E3689D95B9AC_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_058F94A5CA6B9747(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsInfiniteBattle*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsInfiniteBattle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINFINITEBATTLE_METHOD_4_058F94A5CA6B9747_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_9C218504903D5953(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsInfiniteBattle* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsInfiniteBattle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINFINITEBATTLE_METHOD_4_9C218504903D5953_OFFSET))(a1, a2);
 		}
 	};
 }

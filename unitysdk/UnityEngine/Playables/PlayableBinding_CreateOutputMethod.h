@@ -9,36 +9,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A56E6C0)
-#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A56E720)
-#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A56E100)
-#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A56E6A0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B310FE0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B311040)
+#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B310E90)
+#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B310F70)
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int PlayableBinding_CreateOutputMethod_TypeDefinitionIndex = 4718;
+	inline static constexpr unsigned int PlayableBinding_CreateOutputMethod_TypeDefinitionIndex = 4892;
 
 	class PlayableBinding_CreateOutputMethod : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Playables::PlayableOutput Invoke(::UnityEngine::Playables::PlayableGraph graph, ::System::String* name)
+		::UnityEngine::Playables::PlayableOutput Invoke(::UnityEngine::Playables::PlayableGraph a1, ::System::String* a2)
 		{
-			return ((::UnityEngine::Playables::PlayableOutput(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD_INVOKE_OFFSET))(this, graph, name);
+			return ((::UnityEngine::Playables::PlayableOutput(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::UnityEngine::Playables::PlayableGraph graph, ::System::String* name, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::UnityEngine::Playables::PlayableGraph a1, ::System::String* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD_BEGININVOKE_OFFSET))(this, graph, name, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::UnityEngine::Playables::PlayableOutput EndInvoke(::System::IAsyncResult* result)
+		::UnityEngine::Playables::PlayableOutput EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::UnityEngine::Playables::PlayableOutput(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD_ENDINVOKE_OFFSET))(this, result);
+			return ((::UnityEngine::Playables::PlayableOutput(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -18,23 +18,23 @@ namespace Epic::OnlineServices::UserInfo { class QueryUserInfoOptions; }
 namespace Epic::OnlineServices::UserInfo { class UserInfoData; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_COPYEXTERNALUSERINFOBYACCOUNTID_OFFSET UNITYSDK_OFFSET(0x18CFEC10)
-#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_COPYEXTERNALUSERINFOBYACCOUNTTYPE_OFFSET UNITYSDK_OFFSET(0x18CFEE10)
-#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_COPYEXTERNALUSERINFOBYINDEX_OFFSET UNITYSDK_OFFSET(0x18CFF010)
-#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_COPYUSERINFO_OFFSET UNITYSDK_OFFSET(0x18CFF210)
-#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_GETEXTERNALUSERINFOCOUNT_OFFSET UNITYSDK_OFFSET(0x18CFF410)
-#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_ONQUERYUSERINFOBYDISPLAYNAMECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x18CFEA40)
-#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_ONQUERYUSERINFOBYEXTERNALACCOUNTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x18CFEAD0)
-#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_ONQUERYUSERINFOCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x18CFEB60)
-#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_QUERYUSERINFOBYDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x18CFF730)
-#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_QUERYUSERINFOBYEXTERNALACCOUNT_OFFSET UNITYSDK_OFFSET(0x18CFF8F0)
-#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_QUERYUSERINFO_OFFSET UNITYSDK_OFFSET(0x18CFF570)
-#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18CFEC00)
-#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x18CFEBF0)
+#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_COPYEXTERNALUSERINFOBYACCOUNTID_OFFSET UNITYSDK_OFFSET(0x19C521A0)
+#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_COPYEXTERNALUSERINFOBYACCOUNTTYPE_OFFSET UNITYSDK_OFFSET(0x19C523A0)
+#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_COPYEXTERNALUSERINFOBYINDEX_OFFSET UNITYSDK_OFFSET(0x19C525A0)
+#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_COPYUSERINFO_OFFSET UNITYSDK_OFFSET(0x19C527A0)
+#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_GETEXTERNALUSERINFOCOUNT_OFFSET UNITYSDK_OFFSET(0x19C529A0)
+#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_ONQUERYUSERINFOBYDISPLAYNAMECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x19C51FA0)
+#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_ONQUERYUSERINFOBYEXTERNALACCOUNTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x19C52040)
+#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_ONQUERYUSERINFOCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x19C520E0)
+#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_QUERYUSERINFOBYDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x19C52CE0)
+#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_QUERYUSERINFOBYEXTERNALACCOUNT_OFFSET UNITYSDK_OFFSET(0x19C52EC0)
+#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_QUERYUSERINFO_OFFSET UNITYSDK_OFFSET(0x19C52B00)
+#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19C52190)
+#define EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C52180)
 
 namespace Epic::OnlineServices::UserInfo
 {
-	inline static constexpr unsigned int UserInfoInterface_TypeDefinitionIndex = 41124;
+	inline static constexpr unsigned int UserInfoInterface_TypeDefinitionIndex = 41927;
 
 	class UserInfoInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -56,64 +56,64 @@ namespace Epic::OnlineServices::UserInfo
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result CopyExternalUserInfoByAccountId(::Epic::OnlineServices::UserInfo::CopyExternalUserInfoByAccountIdOptions* options, ::Epic::OnlineServices::UserInfo::ExternalUserInfo*& outExternalUserInfo)
+		::Epic::OnlineServices::Result CopyExternalUserInfoByAccountId(::Epic::OnlineServices::UserInfo::CopyExternalUserInfoByAccountIdOptions* a1, ::Epic::OnlineServices::UserInfo::ExternalUserInfo*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::UserInfo::CopyExternalUserInfoByAccountIdOptions*, ::Epic::OnlineServices::UserInfo::ExternalUserInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_COPYEXTERNALUSERINFOBYACCOUNTID_OFFSET))(this, options, outExternalUserInfo);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::UserInfo::CopyExternalUserInfoByAccountIdOptions*, ::Epic::OnlineServices::UserInfo::ExternalUserInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_COPYEXTERNALUSERINFOBYACCOUNTID_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyExternalUserInfoByAccountType(::Epic::OnlineServices::UserInfo::CopyExternalUserInfoByAccountTypeOptions* options, ::Epic::OnlineServices::UserInfo::ExternalUserInfo*& outExternalUserInfo)
+		::Epic::OnlineServices::Result CopyExternalUserInfoByAccountType(::Epic::OnlineServices::UserInfo::CopyExternalUserInfoByAccountTypeOptions* a1, ::Epic::OnlineServices::UserInfo::ExternalUserInfo*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::UserInfo::CopyExternalUserInfoByAccountTypeOptions*, ::Epic::OnlineServices::UserInfo::ExternalUserInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_COPYEXTERNALUSERINFOBYACCOUNTTYPE_OFFSET))(this, options, outExternalUserInfo);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::UserInfo::CopyExternalUserInfoByAccountTypeOptions*, ::Epic::OnlineServices::UserInfo::ExternalUserInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_COPYEXTERNALUSERINFOBYACCOUNTTYPE_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyExternalUserInfoByIndex(::Epic::OnlineServices::UserInfo::CopyExternalUserInfoByIndexOptions* options, ::Epic::OnlineServices::UserInfo::ExternalUserInfo*& outExternalUserInfo)
+		::Epic::OnlineServices::Result CopyExternalUserInfoByIndex(::Epic::OnlineServices::UserInfo::CopyExternalUserInfoByIndexOptions* a1, ::Epic::OnlineServices::UserInfo::ExternalUserInfo*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::UserInfo::CopyExternalUserInfoByIndexOptions*, ::Epic::OnlineServices::UserInfo::ExternalUserInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_COPYEXTERNALUSERINFOBYINDEX_OFFSET))(this, options, outExternalUserInfo);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::UserInfo::CopyExternalUserInfoByIndexOptions*, ::Epic::OnlineServices::UserInfo::ExternalUserInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_COPYEXTERNALUSERINFOBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyUserInfo(::Epic::OnlineServices::UserInfo::CopyUserInfoOptions* options, ::Epic::OnlineServices::UserInfo::UserInfoData*& outUserInfo)
+		::Epic::OnlineServices::Result CopyUserInfo(::Epic::OnlineServices::UserInfo::CopyUserInfoOptions* a1, ::Epic::OnlineServices::UserInfo::UserInfoData*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::UserInfo::CopyUserInfoOptions*, ::Epic::OnlineServices::UserInfo::UserInfoData*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_COPYUSERINFO_OFFSET))(this, options, outUserInfo);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::UserInfo::CopyUserInfoOptions*, ::Epic::OnlineServices::UserInfo::UserInfoData*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_COPYUSERINFO_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 GetExternalUserInfoCount(::Epic::OnlineServices::UserInfo::GetExternalUserInfoCountOptions* options)
+		::System::UInt32 GetExternalUserInfoCount(::Epic::OnlineServices::UserInfo::GetExternalUserInfoCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::UserInfo::GetExternalUserInfoCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_GETEXTERNALUSERINFOCOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::UserInfo::GetExternalUserInfoCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_GETEXTERNALUSERINFOCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::Void QueryUserInfo(::Epic::OnlineServices::UserInfo::QueryUserInfoOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::UserInfo::OnQueryUserInfoCallback* completionDelegate)
+		::System::Void QueryUserInfo(::Epic::OnlineServices::UserInfo::QueryUserInfoOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::UserInfo::OnQueryUserInfoCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::UserInfo::QueryUserInfoOptions*, ::System::Object*, ::Epic::OnlineServices::UserInfo::OnQueryUserInfoCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_QUERYUSERINFO_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::UserInfo::QueryUserInfoOptions*, ::System::Object*, ::Epic::OnlineServices::UserInfo::OnQueryUserInfoCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_QUERYUSERINFO_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void QueryUserInfoByDisplayName(::Epic::OnlineServices::UserInfo::QueryUserInfoByDisplayNameOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::UserInfo::OnQueryUserInfoByDisplayNameCallback* completionDelegate)
+		::System::Void QueryUserInfoByDisplayName(::Epic::OnlineServices::UserInfo::QueryUserInfoByDisplayNameOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::UserInfo::OnQueryUserInfoByDisplayNameCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::UserInfo::QueryUserInfoByDisplayNameOptions*, ::System::Object*, ::Epic::OnlineServices::UserInfo::OnQueryUserInfoByDisplayNameCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_QUERYUSERINFOBYDISPLAYNAME_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::UserInfo::QueryUserInfoByDisplayNameOptions*, ::System::Object*, ::Epic::OnlineServices::UserInfo::OnQueryUserInfoByDisplayNameCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_QUERYUSERINFOBYDISPLAYNAME_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void QueryUserInfoByExternalAccount(::Epic::OnlineServices::UserInfo::QueryUserInfoByExternalAccountOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::UserInfo::OnQueryUserInfoByExternalAccountCallback* completionDelegate)
+		::System::Void QueryUserInfoByExternalAccount(::Epic::OnlineServices::UserInfo::QueryUserInfoByExternalAccountOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::UserInfo::OnQueryUserInfoByExternalAccountCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::UserInfo::QueryUserInfoByExternalAccountOptions*, ::System::Object*, ::Epic::OnlineServices::UserInfo::OnQueryUserInfoByExternalAccountCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_QUERYUSERINFOBYEXTERNALACCOUNT_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::UserInfo::QueryUserInfoByExternalAccountOptions*, ::System::Object*, ::Epic::OnlineServices::UserInfo::OnQueryUserInfoByExternalAccountCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_QUERYUSERINFOBYEXTERNALACCOUNT_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void OnQueryUserInfoByDisplayNameCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryUserInfoByDisplayNameCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_ONQUERYUSERINFOBYDISPLAYNAMECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_ONQUERYUSERINFOBYDISPLAYNAMECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnQueryUserInfoByExternalAccountCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryUserInfoByExternalAccountCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_ONQUERYUSERINFOBYEXTERNALACCOUNTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_ONQUERYUSERINFOBYEXTERNALACCOUNTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnQueryUserInfoCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryUserInfoCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_ONQUERYUSERINFOCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_USERINFOINTERFACE_ONQUERYUSERINFOCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

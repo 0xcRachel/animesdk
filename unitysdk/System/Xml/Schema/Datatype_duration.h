@@ -14,16 +14,16 @@ namespace System::Xml::Schema { class FacetsChecker; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 namespace System::Xml::Schema { class XmlValueConverter; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_DURATION_COMPARE_OFFSET UNITYSDK_OFFSET(0x186E60E0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DURATION_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x186E5F50)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DURATION_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x186E60D0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DURATION_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x186E5FA0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DURATION_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x186E6070)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DURATION_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x186E6000)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DURATION_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x186E6010)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DURATION_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x186E61E0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DURATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x186E6400)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DURATION__CTOR_OFFSET UNITYSDK_OFFSET(0x186DD6B0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DURATION_COMPARE_OFFSET UNITYSDK_OFFSET(0x18A8F7E0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DURATION_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x18A8F650)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DURATION_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x18A8F7D0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DURATION_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x18A8F6A0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DURATION_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x18A8F770)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DURATION_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x18A8F700)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DURATION_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x18A8F710)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DURATION_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x18A8F8E0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DURATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A8FB00)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DURATION__CTOR_OFFSET UNITYSDK_OFFSET(0x18A86FE0)
 
 namespace System::Xml::Schema
 {
@@ -32,13 +32,13 @@ namespace System::Xml::Schema
 	class Datatype_duration : public ::System::Xml::Schema::Datatype_anySimpleType
 	{
 	public:
-		static ::System::Type** StaticGet_listValueType()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_duration_TypeDefinitionIndex)->GetStaticField(0xADE0);
-		}
 		static ::System::Type** StaticGet_atomicValueType()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_duration_TypeDefinitionIndex)->GetStaticField(0xADE8);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_duration_TypeDefinitionIndex)->GetStaticField(0x155F0);
+		}
+		static ::System::Type** StaticGet_listValueType()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_duration_TypeDefinitionIndex)->GetStaticField(0x155F8);
 		}
 
 		::System::Void _ctor()
@@ -51,9 +51,9 @@ namespace System::Xml::Schema
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_DURATION__CCTOR_OFFSET))();
 		}
 
-		::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType)
+		::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* a1)
 		{
-			return ((::System::Xml::Schema::XmlValueConverter*(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_DURATION_CREATEVALUECONVERTER_OFFSET))(this, schemaType);
+			return ((::System::Xml::Schema::XmlValueConverter*(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_DURATION_CREATEVALUECONVERTER_OFFSET))(this, a1);
 		}
 
 		::System::Xml::Schema::FacetsChecker* get_FacetsChecker()
@@ -81,14 +81,14 @@ namespace System::Xml::Schema
 			return ((::System::Xml::Schema::XmlSchemaWhiteSpace(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_DURATION_GET_BUILTINWHITESPACEFACET_OFFSET))(this);
 		}
 
-		::System::Int32 Compare(::System::Object* value1, ::System::Object* value2)
+		::System::Int32 Compare(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_DURATION_COMPARE_OFFSET))(this, value1, value2);
+			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_DURATION_COMPARE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* TryParseValue(::System::String* s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::System::Object*& typedValue)
+		::System::Exception* TryParseValue(::System::String* a1, ::System::Xml::XmlNameTable* a2, ::System::Xml::IXmlNamespaceResolver* a3, ::System::Object*& a4)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::String*, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_DURATION_TRYPARSEVALUE_OFFSET))(this, s, nameTable, nsmgr, typedValue);
+			return ((::System::Exception*(*)(::PVOID, ::System::String*, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_DURATION_TRYPARSEVALUE_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

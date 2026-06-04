@@ -5,17 +5,17 @@
 namespace Proto { class PerformanceStartSnapshot; }
 namespace RPG::GameCore { class PerformanceBackupConfig; }
 
-#define RPG_CLIENT_ADVENTUREMODULE_PERFORMANCEREPLAYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1040A540)
+#define RPG_CLIENT_ADVENTUREMODULE_PERFORMANCEREPLAYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x167B1800)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureModule_PerformanceReplayInfo_TypeDefinitionIndex = 57203;
+	inline static constexpr unsigned int AdventureModule_PerformanceReplayInfo_TypeDefinitionIndex = 57993;
 
 	class AdventureModule_PerformanceReplayInfo : public ::System::Object
 	{
 	public:
-		::Proto::PerformanceStartSnapshot* PerformanceSnapshot; // 0x10
-		::RPG::GameCore::PerformanceBackupConfig* BackupConfig; // 0x18
+		::RPG::GameCore::PerformanceBackupConfig* BackupConfig; // 0x10
+		::Proto::PerformanceStartSnapshot* PerformanceSnapshot; // 0x18
 
 		::System::Void _ctor()
 		{

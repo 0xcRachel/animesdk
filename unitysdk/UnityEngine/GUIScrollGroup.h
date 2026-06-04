@@ -4,15 +4,15 @@
 
 namespace UnityEngine { class GUIStyle; }
 
-#define UNITYENGINE_GUISCROLLGROUP_CALCHEIGHT_OFFSET UNITYSDK_OFFSET(0x19177790)
-#define UNITYENGINE_GUISCROLLGROUP_CALCWIDTH_OFFSET UNITYSDK_OFFSET(0x19177590)
-#define UNITYENGINE_GUISCROLLGROUP_SETHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x19177630)
-#define UNITYENGINE_GUISCROLLGROUP_SETVERTICAL_OFFSET UNITYSDK_OFFSET(0x191778E0)
-#define UNITYENGINE_GUISCROLLGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19177550)
+#define UNITYENGINE_GUISCROLLGROUP_CALCHEIGHT_OFFSET UNITYSDK_OFFSET(0x197D6180)
+#define UNITYENGINE_GUISCROLLGROUP_CALCWIDTH_OFFSET UNITYSDK_OFFSET(0x197D5F80)
+#define UNITYENGINE_GUISCROLLGROUP_SETHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x197D6020)
+#define UNITYENGINE_GUISCROLLGROUP_SETVERTICAL_OFFSET UNITYSDK_OFFSET(0x197D62D0)
+#define UNITYENGINE_GUISCROLLGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x197D5F40)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUIScrollGroup_TypeDefinitionIndex = 5142;
+	inline static constexpr unsigned int GUIScrollGroup_TypeDefinitionIndex = 5236;
 
 	class GUIScrollGroup : public ::UnityEngine::GUILayoutGroup
 	{
@@ -40,9 +40,9 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_GUISCROLLGROUP_CALCWIDTH_OFFSET))(this);
 		}
 
-		::System::Void SetHorizontal(::System::Single x, ::System::Single width)
+		::System::Void SetHorizontal(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_GUISCROLLGROUP_SETHORIZONTAL_OFFSET))(this, x, width);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_GUISCROLLGROUP_SETHORIZONTAL_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void CalcHeight()
@@ -50,9 +50,9 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_GUISCROLLGROUP_CALCHEIGHT_OFFSET))(this);
 		}
 
-		::System::Void SetVertical(::System::Single y, ::System::Single height)
+		::System::Void SetVertical(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_GUISCROLLGROUP_SETVERTICAL_OFFSET))(this, y, height);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_GUISCROLLGROUP_SETVERTICAL_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -4,13 +4,13 @@
 
 namespace RPG::Client { class IAvatarComparer; }
 
-#define RPG_CLIENT_HANDBOOKAVATARCOMPARERFACTORY_CREATE_1_OFFSET UNITYSDK_OFFSET(0x17458DA0)
-#define RPG_CLIENT_HANDBOOKAVATARCOMPARERFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x17458D60)
-#define RPG_CLIENT_HANDBOOKAVATARCOMPARERFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x174590C0)
+#define RPG_CLIENT_HANDBOOKAVATARCOMPARERFACTORY_CREATE_1_OFFSET UNITYSDK_OFFSET(0x176889D0)
+#define RPG_CLIENT_HANDBOOKAVATARCOMPARERFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x17688990)
+#define RPG_CLIENT_HANDBOOKAVATARCOMPARERFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x17688CE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookAvatarComparerFactory_TypeDefinitionIndex = 60408;
+	inline static constexpr unsigned int HandbookAvatarComparerFactory_TypeDefinitionIndex = 61343;
 
 	class HandbookAvatarComparerFactory : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPG::Client
 			return ((::RPG::Client::IAvatarComparer*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKAVATARCOMPARERFACTORY_CREATE_OFFSET))();
 		}
 
-		static ::RPG::Client::IAvatarComparer* Create_1(::System::Boolean isLevelFirst, ::System::Boolean isAscend, ::System::Boolean includeHighlights)
+		static ::RPG::Client::IAvatarComparer* Create_1(::System::Boolean a1, ::System::Boolean a2, ::System::Boolean a3)
 		{
-			return ((::RPG::Client::IAvatarComparer*(*)(::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKAVATARCOMPARERFACTORY_CREATE_1_OFFSET))(isLevelFirst, isAscend, includeHighlights);
+			return ((::RPG::Client::IAvatarComparer*(*)(::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKAVATARCOMPARERFACTORY_CREATE_1_OFFSET))(a1, a2, a3);
 		}
 	};
 }

@@ -5,22 +5,22 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CUSTOMRP_LOCALKEYWORDS_ADD_OFFSET UNITYSDK_OFFSET(0x15A65220)
-#define RPG_CUSTOMRP_LOCALKEYWORDS_GETKEYWORDS_OFFSET UNITYSDK_OFFSET(0x15A65390)
-#define RPG_CUSTOMRP_LOCALKEYWORDS_RESET_OFFSET UNITYSDK_OFFSET(0x15A65210)
-#define RPG_CUSTOMRP_LOCALKEYWORDS__CTOR_OFFSET UNITYSDK_OFFSET(0x15A655C0)
+#define RPG_CUSTOMRP_LOCALKEYWORDS_ADD_OFFSET UNITYSDK_OFFSET(0x157F7A40)
+#define RPG_CUSTOMRP_LOCALKEYWORDS_GETKEYWORDS_OFFSET UNITYSDK_OFFSET(0x157F7B90)
+#define RPG_CUSTOMRP_LOCALKEYWORDS_RESET_OFFSET UNITYSDK_OFFSET(0x157F7A30)
+#define RPG_CUSTOMRP_LOCALKEYWORDS__CTOR_OFFSET UNITYSDK_OFFSET(0x157F7D60)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int LocalKeywords_TypeDefinitionIndex = 35254;
+	inline static constexpr unsigned int LocalKeywords_TypeDefinitionIndex = 35554;
 
 	class LocalKeywords : public ::System::Object
 	{
 	public:
 		// static const ::System::Int32 MAX_COUNT = 0x20; // 0x0
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::System::String*>*>* _Combination; // 0x10
-		::Il2CppArray<::System::String*>* _Keywords; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _LocalMap; // 0x20
+		::Il2CppArray<::System::String*>* _Keywords; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _LocalMap; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::System::String*>*>* _Combination; // 0x20
 		::System::Int32 _Mask; // 0x28
 		::System::Int32 _Count; // 0x2C
 
@@ -34,9 +34,9 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_LOCALKEYWORDS_RESET_OFFSET))(this);
 		}
 
-		::System::Void Add(::System::String* keyword)
+		::System::Void Add(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_LOCALKEYWORDS_ADD_OFFSET))(this, keyword);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_LOCALKEYWORDS_ADD_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::String*>* GetKeywords()

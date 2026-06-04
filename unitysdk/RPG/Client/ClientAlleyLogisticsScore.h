@@ -5,36 +5,36 @@
 class Class_1_DCE302F7FD05DE84;
 namespace Proto { class ItemList; }
 
-#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_CREATE_OFFSET UNITYSDK_OFFSET(0x178AC7D0)
-#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_GET_CURSCORE_OFFSET UNITYSDK_OFFSET(0x178AC980)
-#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_GET_LASTLEVEL_OFFSET UNITYSDK_OFFSET(0x178AC960)
-#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_GET_LASTMAXSCORE_OFFSET UNITYSDK_OFFSET(0x178AC940)
-#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_GET_MAPID_OFFSET UNITYSDK_OFFSET(0x178AC9C0)
-#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_GET_MAXSCORE_OFFSET UNITYSDK_OFFSET(0x178AC9A0)
-#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_GET_REWARD_OFFSET UNITYSDK_OFFSET(0x178AC920)
-#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_GET_UNLOCKLEVEL_OFFSET UNITYSDK_OFFSET(0x178AC9E0)
-#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_CURSCORE_OFFSET UNITYSDK_OFFSET(0x178AC990)
-#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_LASTLEVEL_OFFSET UNITYSDK_OFFSET(0x178AC970)
-#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_LASTMAXSCORE_OFFSET UNITYSDK_OFFSET(0x178AC950)
-#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_MAPID_OFFSET UNITYSDK_OFFSET(0x178AC9D0)
-#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_MAXSCORE_OFFSET UNITYSDK_OFFSET(0x178AC9B0)
-#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_REWARD_OFFSET UNITYSDK_OFFSET(0x178AC930)
-#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_UNLOCKLEVEL_OFFSET UNITYSDK_OFFSET(0x178AC9F0)
-#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x178AC910)
+#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_CREATE_OFFSET UNITYSDK_OFFSET(0x182B4E50)
+#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_GET_CURSCORE_OFFSET UNITYSDK_OFFSET(0x182B5000)
+#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_GET_LASTLEVEL_OFFSET UNITYSDK_OFFSET(0x182B4FE0)
+#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_GET_LASTMAXSCORE_OFFSET UNITYSDK_OFFSET(0x182B4FC0)
+#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_GET_MAPID_OFFSET UNITYSDK_OFFSET(0x182B5040)
+#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_GET_MAXSCORE_OFFSET UNITYSDK_OFFSET(0x182B5020)
+#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_GET_REWARD_OFFSET UNITYSDK_OFFSET(0x182B4FA0)
+#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_GET_UNLOCKLEVEL_OFFSET UNITYSDK_OFFSET(0x182B5060)
+#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_CURSCORE_OFFSET UNITYSDK_OFFSET(0x182B5010)
+#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_LASTLEVEL_OFFSET UNITYSDK_OFFSET(0x182B4FF0)
+#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_LASTMAXSCORE_OFFSET UNITYSDK_OFFSET(0x182B4FD0)
+#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_MAPID_OFFSET UNITYSDK_OFFSET(0x182B5050)
+#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_MAXSCORE_OFFSET UNITYSDK_OFFSET(0x182B5030)
+#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_REWARD_OFFSET UNITYSDK_OFFSET(0x182B4FB0)
+#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_UNLOCKLEVEL_OFFSET UNITYSDK_OFFSET(0x182B5070)
+#define RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x182B4F90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClientAlleyLogisticsScore_TypeDefinitionIndex = 57450;
+	inline static constexpr unsigned int ClientAlleyLogisticsScore_TypeDefinitionIndex = 58262;
 
 	class ClientAlleyLogisticsScore : public ::System::Object
 	{
 	public:
 		::Proto::ItemList* _Reward_k__BackingField; // 0x10
-		::System::UInt32 _MapId_k__BackingField; // 0x18
-		::System::UInt32 _MaxScore_k__BackingField; // 0x1C
+		::System::UInt32 _LastMaxScore_k__BackingField; // 0x18
+		::System::UInt32 _LastLevel_k__BackingField; // 0x1C
 		::System::UInt32 _CurScore_k__BackingField; // 0x20
-		::System::UInt32 _LastLevel_k__BackingField; // 0x24
-		::System::UInt32 _LastMaxScore_k__BackingField; // 0x28
+		::System::UInt32 _MaxScore_k__BackingField; // 0x24
+		::System::UInt32 _MapId_k__BackingField; // 0x28
 		::System::UInt32 _UnlockLevel_k__BackingField; // 0x2C
 
 		::System::Void _ctor()
@@ -42,9 +42,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ClientAlleyLogisticsScore* Create(::Class_1_DCE302F7FD05DE84* protoLogisticsScore)
+		static ::RPG::Client::ClientAlleyLogisticsScore* Create(::Class_1_DCE302F7FD05DE84* a1)
 		{
-			return ((::RPG::Client::ClientAlleyLogisticsScore*(*)(::Class_1_DCE302F7FD05DE84*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_CREATE_OFFSET))(protoLogisticsScore);
+			return ((::RPG::Client::ClientAlleyLogisticsScore*(*)(::Class_1_DCE302F7FD05DE84*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_CREATE_OFFSET))(a1);
 		}
 
 		::Proto::ItemList* get_Reward()
@@ -52,9 +52,9 @@ namespace RPG::Client
 			return ((::Proto::ItemList*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_GET_REWARD_OFFSET))(this);
 		}
 
-		::System::Void set_Reward(::Proto::ItemList* value)
+		::System::Void set_Reward(::Proto::ItemList* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::ItemList*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_REWARD_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Proto::ItemList*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_REWARD_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_LastMaxScore()
@@ -62,9 +62,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_GET_LASTMAXSCORE_OFFSET))(this);
 		}
 
-		::System::Void set_LastMaxScore(::System::UInt32 value)
+		::System::Void set_LastMaxScore(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_LASTMAXSCORE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_LASTMAXSCORE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_LastLevel()
@@ -72,9 +72,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_GET_LASTLEVEL_OFFSET))(this);
 		}
 
-		::System::Void set_LastLevel(::System::UInt32 value)
+		::System::Void set_LastLevel(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_LASTLEVEL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_LASTLEVEL_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_CurScore()
@@ -82,9 +82,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_GET_CURSCORE_OFFSET))(this);
 		}
 
-		::System::Void set_CurScore(::System::UInt32 value)
+		::System::Void set_CurScore(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_CURSCORE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_CURSCORE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_MaxScore()
@@ -92,9 +92,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_GET_MAXSCORE_OFFSET))(this);
 		}
 
-		::System::Void set_MaxScore(::System::UInt32 value)
+		::System::Void set_MaxScore(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_MAXSCORE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_MAXSCORE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_MapId()
@@ -102,9 +102,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_GET_MAPID_OFFSET))(this);
 		}
 
-		::System::Void set_MapId(::System::UInt32 value)
+		::System::Void set_MapId(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_MAPID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_MAPID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_UnlockLevel()
@@ -112,9 +112,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_GET_UNLOCKLEVEL_OFFSET))(this);
 		}
 
-		::System::Void set_UnlockLevel(::System::UInt32 value)
+		::System::Void set_UnlockLevel(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_UNLOCKLEVEL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTALLEYLOGISTICSSCORE_SET_UNLOCKLEVEL_OFFSET))(this, a1);
 		}
 	};
 }

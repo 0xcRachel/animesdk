@@ -5,24 +5,24 @@
 namespace Microsoft::Win32 { class Win32Native_WIN32_FIND_DATA; }
 namespace System { class String; }
 
-#define SYSTEM_IO_SEARCHRESULT_GET_FINDDATA_OFFSET UNITYSDK_OFFSET(0x194F9900)
-#define SYSTEM_IO_SEARCHRESULT_GET_USERPATH_OFFSET UNITYSDK_OFFSET(0x194F98F0)
-#define SYSTEM_IO_SEARCHRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x194F98E0)
+#define SYSTEM_IO_SEARCHRESULT_GET_FINDDATA_OFFSET UNITYSDK_OFFSET(0x1A070310)
+#define SYSTEM_IO_SEARCHRESULT_GET_USERPATH_OFFSET UNITYSDK_OFFSET(0x1A070300)
+#define SYSTEM_IO_SEARCHRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0702F0)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int SearchResult_TypeDefinitionIndex = 675;
+	inline static constexpr unsigned int SearchResult_TypeDefinitionIndex = 674;
 
 	class SearchResult : public ::System::Object
 	{
 	public:
-		::System::String* userPath; // 0x10
-		::Microsoft::Win32::Win32Native_WIN32_FIND_DATA* findData; // 0x18
-		::System::String* fullPath; // 0x20
+		::Microsoft::Win32::Win32Native_WIN32_FIND_DATA* findData; // 0x10
+		::System::String* fullPath; // 0x18
+		::System::String* userPath; // 0x20
 
-		::System::Void _ctor(::System::String* fullPath, ::System::String* userPath, ::Microsoft::Win32::Win32Native_WIN32_FIND_DATA* findData)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::Microsoft::Win32::Win32Native_WIN32_FIND_DATA* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Microsoft::Win32::Win32Native_WIN32_FIND_DATA*))((::PBYTE)hIl2Cpp + SYSTEM_IO_SEARCHRESULT__CTOR_OFFSET))(this, fullPath, userPath, findData);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Microsoft::Win32::Win32Native_WIN32_FIND_DATA*))((::PBYTE)hIl2Cpp + SYSTEM_IO_SEARCHRESULT__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::String* get_UserPath()

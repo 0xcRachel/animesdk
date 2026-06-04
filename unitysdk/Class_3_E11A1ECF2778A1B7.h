@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCheckModifierDeathSource; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E11A1ECF2778A1B7_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF42F340)
-#define CLASS_3_E11A1ECF2778A1B7__CTOR_OFFSET UNITYSDK_OFFSET(0xF42F310)
+#define CLASS_3_E11A1ECF2778A1B7_EVALUATE_OFFSET UNITYSDK_OFFSET(0x149D3FB0)
+#define CLASS_3_E11A1ECF2778A1B7__CTOR_OFFSET UNITYSDK_OFFSET(0x149D3F80)
 
-inline static constexpr unsigned int Class_3_E11A1ECF2778A1B7_TypeDefinitionIndex = 50319;
+inline static constexpr unsigned int Class_3_E11A1ECF2778A1B7_TypeDefinitionIndex = 50984;
 
 class Class_3_E11A1ECF2778A1B7 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCheckModifierDeathSource*>
 {

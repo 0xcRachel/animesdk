@@ -4,27 +4,27 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SWORDTRAININGEXAMRESULT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D92B10)
-#define RPG_GAMECORE_SWORDTRAININGEXAMRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x18D92C30)
+#define RPG_GAMECORE_SWORDTRAININGEXAMRESULT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198660C0)
+#define RPG_GAMECORE_SWORDTRAININGEXAMRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x198661E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingExamResult_TypeDefinitionIndex = 11751;
+	inline static constexpr unsigned int SwordTrainingExamResult_TypeDefinitionIndex = 11848;
 
 	class SwordTrainingExamResult : public ::System::Object
 	{
 	public:
-		::System::UInt32 EffectID; // 0x10
-		::System::UInt32 CombatRatio; // 0x14
+		::System::UInt32 CombatRatio; // 0x10
+		::System::UInt32 EffectID; // 0x14
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGEXAMRESULT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::SwordTrainingExamResult*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwordTrainingExamResult*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwordTrainingExamResult*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGEXAMRESULT_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwordTrainingExamResult*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGEXAMRESULT_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

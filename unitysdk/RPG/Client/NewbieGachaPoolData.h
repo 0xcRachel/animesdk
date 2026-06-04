@@ -4,27 +4,27 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_NEWBIEGACHAPOOLDATA_HAVETIMELIMIT_OFFSET UNITYSDK_OFFSET(0x143DF1F0)
-#define RPG_CLIENT_NEWBIEGACHAPOOLDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0x143DF1A0)
-#define RPG_CLIENT_NEWBIEGACHAPOOLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x143DF020)
-#define RPG_CLIENT_NEWBIEGACHAPOOLDATA___IFIXBASEPROXY_HAVETIMELIMIT_OFFSET UNITYSDK_OFFSET(0x143DF2A0)
-#define RPG_CLIENT_NEWBIEGACHAPOOLDATA___IFIXBASEPROXY_ISVALID_OFFSET UNITYSDK_OFFSET(0x143DF230)
+#define RPG_CLIENT_NEWBIEGACHAPOOLDATA_HAVETIMELIMIT_OFFSET UNITYSDK_OFFSET(0x15ED5110)
+#define RPG_CLIENT_NEWBIEGACHAPOOLDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0x15ED50C0)
+#define RPG_CLIENT_NEWBIEGACHAPOOLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15ED4F40)
+#define RPG_CLIENT_NEWBIEGACHAPOOLDATA___IFIXBASEPROXY_HAVETIMELIMIT_OFFSET UNITYSDK_OFFSET(0x15ED51B0)
+#define RPG_CLIENT_NEWBIEGACHAPOOLDATA___IFIXBASEPROXY_ISVALID_OFFSET UNITYSDK_OFFSET(0x15ED5150)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NewbieGachaPoolData_TypeDefinitionIndex = 59172;
+	inline static constexpr unsigned int NewbieGachaPoolData_TypeDefinitionIndex = 60106;
 
 	class NewbieGachaPoolData : public ::RPG::Client::BaseGachaPoolData
 	{
 	public:
 		// static const ::System::String* _TOTAL_GACHCA_TIME_INDEX; // 0x0
 		// static const ::System::String* _DISCOUNT_NUM_INDEX; // 0x0
-		::System::UInt32 DoGachaTime; // 0x80
-		::System::UInt32 TotalGachaTime; // 0x84
+		::System::UInt32 TotalGachaTime; // 0x90
+		::System::UInt32 DoGachaTime; // 0x94
 
-		::System::Void _ctor(::System::UInt32 gachaID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NEWBIEGACHAPOOLDATA__CTOR_OFFSET))(this, gachaID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NEWBIEGACHAPOOLDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsValid()

@@ -8,28 +8,28 @@ namespace System::Text { class Encoding; }
 namespace System::Text { class StringBuilder; }
 namespace System::Text { class UnicodeEncoding; }
 
-#define SYSTEM_IO_STRINGWRITER_CLOSE_OFFSET UNITYSDK_OFFSET(0x195005F0)
-#define SYSTEM_IO_STRINGWRITER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19500600)
-#define SYSTEM_IO_STRINGWRITER_GET_ENCODING_OFFSET UNITYSDK_OFFSET(0x19500610)
-#define SYSTEM_IO_STRINGWRITER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19500900)
-#define SYSTEM_IO_STRINGWRITER_WRITE_1_OFFSET UNITYSDK_OFFSET(0x19500710)
-#define SYSTEM_IO_STRINGWRITER_WRITE_2_OFFSET UNITYSDK_OFFSET(0x19500880)
-#define SYSTEM_IO_STRINGWRITER_WRITE_OFFSET UNITYSDK_OFFSET(0x19500690)
-#define SYSTEM_IO_STRINGWRITER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x195004D0)
-#define SYSTEM_IO_STRINGWRITER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x19500560)
-#define SYSTEM_IO_STRINGWRITER__CTOR_3_OFFSET UNITYSDK_OFFSET(0x19500380)
-#define SYSTEM_IO_STRINGWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x19500280)
+#define SYSTEM_IO_STRINGWRITER_CLOSE_OFFSET UNITYSDK_OFFSET(0x1A077230)
+#define SYSTEM_IO_STRINGWRITER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A077240)
+#define SYSTEM_IO_STRINGWRITER_GET_ENCODING_OFFSET UNITYSDK_OFFSET(0x1A077250)
+#define SYSTEM_IO_STRINGWRITER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A0775B0)
+#define SYSTEM_IO_STRINGWRITER_WRITE_1_OFFSET UNITYSDK_OFFSET(0x1A0773C0)
+#define SYSTEM_IO_STRINGWRITER_WRITE_2_OFFSET UNITYSDK_OFFSET(0x1A077530)
+#define SYSTEM_IO_STRINGWRITER_WRITE_OFFSET UNITYSDK_OFFSET(0x1A0772D0)
+#define SYSTEM_IO_STRINGWRITER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A077110)
+#define SYSTEM_IO_STRINGWRITER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A0771A0)
+#define SYSTEM_IO_STRINGWRITER__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1A076FC0)
+#define SYSTEM_IO_STRINGWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A076EC0)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int StringWriter_TypeDefinitionIndex = 694;
+	inline static constexpr unsigned int StringWriter_TypeDefinitionIndex = 693;
 
 	class StringWriter : public ::System::IO::TextWriter
 	{
 	public:
 		static ::System::Text::UnicodeEncoding** StaticGet_m_encoding()
 		{
-			return (::System::Text::UnicodeEncoding**)Il2CppClass::FromTypeDefinitionIndex(StringWriter_TypeDefinitionIndex)->GetStaticField(0x6800);
+			return (::System::Text::UnicodeEncoding**)Il2CppClass::FromTypeDefinitionIndex(StringWriter_TypeDefinitionIndex)->GetStaticField(0x8EE0);
 		}
 		::System::Text::StringBuilder* _sb; // 0x28
 		::System::Boolean _isOpen; // 0x30
@@ -39,19 +39,19 @@ namespace System::IO
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_STRINGWRITER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IFormatProvider* formatProvider)
+		::System::Void _ctor_1(::System::IFormatProvider* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STRINGWRITER__CTOR_1_OFFSET))(this, formatProvider);
+			return ((::System::Void(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STRINGWRITER__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::Text::StringBuilder* sb)
+		::System::Void _ctor_2(::System::Text::StringBuilder* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STRINGWRITER__CTOR_2_OFFSET))(this, sb);
+			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STRINGWRITER__CTOR_2_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_3(::System::Text::StringBuilder* sb, ::System::IFormatProvider* formatProvider)
+		::System::Void _ctor_3(::System::Text::StringBuilder* a1, ::System::IFormatProvider* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STRINGWRITER__CTOR_3_OFFSET))(this, sb, formatProvider);
+			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STRINGWRITER__CTOR_3_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Close()
@@ -59,9 +59,9 @@ namespace System::IO
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_STRINGWRITER_CLOSE_OFFSET))(this);
 		}
 
-		::System::Void Dispose(::System::Boolean disposing)
+		::System::Void Dispose(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_STRINGWRITER_DISPOSE_OFFSET))(this, disposing);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_STRINGWRITER_DISPOSE_OFFSET))(this, a1);
 		}
 
 		::System::Text::Encoding* get_Encoding()
@@ -69,19 +69,19 @@ namespace System::IO
 			return ((::System::Text::Encoding*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_STRINGWRITER_GET_ENCODING_OFFSET))(this);
 		}
 
-		::System::Void Write(::System::Char value)
+		::System::Void Write(::System::Char a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_IO_STRINGWRITER_WRITE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_IO_STRINGWRITER_WRITE_OFFSET))(this, a1);
 		}
 
-		::System::Void Write_1(::Il2CppArray<::System::Char>* buffer, ::System::Int32 index, ::System::Int32 count)
+		::System::Void Write_1(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IO_STRINGWRITER_WRITE_1_OFFSET))(this, buffer, index, count);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IO_STRINGWRITER_WRITE_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Write_2(::System::String* value)
+		::System::Void Write_2(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STRINGWRITER_WRITE_2_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STRINGWRITER_WRITE_2_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()

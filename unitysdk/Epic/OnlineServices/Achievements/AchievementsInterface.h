@@ -30,34 +30,34 @@ namespace Epic::OnlineServices::Achievements { class UnlockAchievementsOptions; 
 namespace Epic::OnlineServices::Achievements { class UnlockedAchievement; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ADDNOTIFYACHIEVEMENTSUNLOCKEDV2_OFFSET UNITYSDK_OFFSET(0x19436DF0)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ADDNOTIFYACHIEVEMENTSUNLOCKED_OFFSET UNITYSDK_OFFSET(0x19436B50)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYACHIEVEMENTDEFINITIONBYACHIEVEMENTID_OFFSET UNITYSDK_OFFSET(0x19437090)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYACHIEVEMENTDEFINITIONBYINDEX_OFFSET UNITYSDK_OFFSET(0x19437320)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYACHIEVEMENTDEFINITIONV2BYACHIEVEMENTID_OFFSET UNITYSDK_OFFSET(0x19437520)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYACHIEVEMENTDEFINITIONV2BYINDEX_OFFSET UNITYSDK_OFFSET(0x194377B0)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYPLAYERACHIEVEMENTBYACHIEVEMENTID_OFFSET UNITYSDK_OFFSET(0x194379B0)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYPLAYERACHIEVEMENTBYINDEX_OFFSET UNITYSDK_OFFSET(0x19437BB0)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYUNLOCKEDACHIEVEMENTBYACHIEVEMENTID_OFFSET UNITYSDK_OFFSET(0x19437DB0)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYUNLOCKEDACHIEVEMENTBYINDEX_OFFSET UNITYSDK_OFFSET(0x19437FB0)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_GETACHIEVEMENTDEFINITIONCOUNT_OFFSET UNITYSDK_OFFSET(0x19438240)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_GETPLAYERACHIEVEMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x19438460)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_GETUNLOCKEDACHIEVEMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x19438650)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ONACHIEVEMENTSUNLOCKEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x19436860)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ONACHIEVEMENTSUNLOCKEDCALLBACKV2INTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x194368F0)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ONQUERYDEFINITIONSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x19436980)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ONQUERYPLAYERACHIEVEMENTSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x19436A10)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ONUNLOCKACHIEVEMENTSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x19436AA0)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_QUERYDEFINITIONS_OFFSET UNITYSDK_OFFSET(0x19438840)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_QUERYPLAYERACHIEVEMENTS_OFFSET UNITYSDK_OFFSET(0x19438A20)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_REMOVENOTIFYACHIEVEMENTSUNLOCKED_OFFSET UNITYSDK_OFFSET(0x19438C00)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_UNLOCKACHIEVEMENTS_OFFSET UNITYSDK_OFFSET(0x19438CE0)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19436B40)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x19436B30)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ADDNOTIFYACHIEVEMENTSUNLOCKEDV2_OFFSET UNITYSDK_OFFSET(0x1A192D60)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ADDNOTIFYACHIEVEMENTSUNLOCKED_OFFSET UNITYSDK_OFFSET(0x1A192AB0)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYACHIEVEMENTDEFINITIONBYACHIEVEMENTID_OFFSET UNITYSDK_OFFSET(0x1A193010)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYACHIEVEMENTDEFINITIONBYINDEX_OFFSET UNITYSDK_OFFSET(0x1A1932A0)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYACHIEVEMENTDEFINITIONV2BYACHIEVEMENTID_OFFSET UNITYSDK_OFFSET(0x1A1934A0)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYACHIEVEMENTDEFINITIONV2BYINDEX_OFFSET UNITYSDK_OFFSET(0x1A193730)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYPLAYERACHIEVEMENTBYACHIEVEMENTID_OFFSET UNITYSDK_OFFSET(0x1A193930)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYPLAYERACHIEVEMENTBYINDEX_OFFSET UNITYSDK_OFFSET(0x1A193B30)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYUNLOCKEDACHIEVEMENTBYACHIEVEMENTID_OFFSET UNITYSDK_OFFSET(0x1A193D30)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYUNLOCKEDACHIEVEMENTBYINDEX_OFFSET UNITYSDK_OFFSET(0x1A193F30)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_GETACHIEVEMENTDEFINITIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1A1941C0)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_GETPLAYERACHIEVEMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1A194400)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_GETUNLOCKEDACHIEVEMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1A1945F0)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ONACHIEVEMENTSUNLOCKEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A192770)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ONACHIEVEMENTSUNLOCKEDCALLBACKV2INTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A192810)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ONQUERYDEFINITIONSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A1928B0)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ONQUERYPLAYERACHIEVEMENTSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A192950)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ONUNLOCKACHIEVEMENTSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1A1929F0)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_QUERYDEFINITIONS_OFFSET UNITYSDK_OFFSET(0x1A1947E0)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_QUERYPLAYERACHIEVEMENTS_OFFSET UNITYSDK_OFFSET(0x1A1949C0)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_REMOVENOTIFYACHIEVEMENTSUNLOCKED_OFFSET UNITYSDK_OFFSET(0x1A194BA0)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_UNLOCKACHIEVEMENTS_OFFSET UNITYSDK_OFFSET(0x1A194C80)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A192AA0)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A192A90)
 
 namespace Epic::OnlineServices::Achievements
 {
-	inline static constexpr unsigned int AchievementsInterface_TypeDefinitionIndex = 42582;
+	inline static constexpr unsigned int AchievementsInterface_TypeDefinitionIndex = 43385;
 
 	class AchievementsInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -94,119 +94,119 @@ namespace Epic::OnlineServices::Achievements
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::UInt64 AddNotifyAchievementsUnlocked(::Epic::OnlineServices::Achievements::AddNotifyAchievementsUnlockedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Achievements::OnAchievementsUnlockedCallback* notificationFn)
+		::System::UInt64 AddNotifyAchievementsUnlocked(::Epic::OnlineServices::Achievements::AddNotifyAchievementsUnlockedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Achievements::OnAchievementsUnlockedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Achievements::AddNotifyAchievementsUnlockedOptions*, ::System::Object*, ::Epic::OnlineServices::Achievements::OnAchievementsUnlockedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ADDNOTIFYACHIEVEMENTSUNLOCKED_OFFSET))(this, options, clientData, notificationFn);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Achievements::AddNotifyAchievementsUnlockedOptions*, ::System::Object*, ::Epic::OnlineServices::Achievements::OnAchievementsUnlockedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ADDNOTIFYACHIEVEMENTSUNLOCKED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyAchievementsUnlockedV2(::Epic::OnlineServices::Achievements::AddNotifyAchievementsUnlockedV2Options* options, ::System::Object* clientData, ::Epic::OnlineServices::Achievements::OnAchievementsUnlockedCallbackV2* notificationFn)
+		::System::UInt64 AddNotifyAchievementsUnlockedV2(::Epic::OnlineServices::Achievements::AddNotifyAchievementsUnlockedV2Options* a1, ::System::Object* a2, ::Epic::OnlineServices::Achievements::OnAchievementsUnlockedCallbackV2* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Achievements::AddNotifyAchievementsUnlockedV2Options*, ::System::Object*, ::Epic::OnlineServices::Achievements::OnAchievementsUnlockedCallbackV2*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ADDNOTIFYACHIEVEMENTSUNLOCKEDV2_OFFSET))(this, options, clientData, notificationFn);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Achievements::AddNotifyAchievementsUnlockedV2Options*, ::System::Object*, ::Epic::OnlineServices::Achievements::OnAchievementsUnlockedCallbackV2*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ADDNOTIFYACHIEVEMENTSUNLOCKEDV2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::Result CopyAchievementDefinitionByAchievementId(::Epic::OnlineServices::Achievements::CopyAchievementDefinitionByAchievementIdOptions* options, ::Epic::OnlineServices::Achievements::Definition*& outDefinition)
+		::Epic::OnlineServices::Result CopyAchievementDefinitionByAchievementId(::Epic::OnlineServices::Achievements::CopyAchievementDefinitionByAchievementIdOptions* a1, ::Epic::OnlineServices::Achievements::Definition*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Achievements::CopyAchievementDefinitionByAchievementIdOptions*, ::Epic::OnlineServices::Achievements::Definition*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYACHIEVEMENTDEFINITIONBYACHIEVEMENTID_OFFSET))(this, options, outDefinition);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Achievements::CopyAchievementDefinitionByAchievementIdOptions*, ::Epic::OnlineServices::Achievements::Definition*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYACHIEVEMENTDEFINITIONBYACHIEVEMENTID_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyAchievementDefinitionByIndex(::Epic::OnlineServices::Achievements::CopyAchievementDefinitionByIndexOptions* options, ::Epic::OnlineServices::Achievements::Definition*& outDefinition)
+		::Epic::OnlineServices::Result CopyAchievementDefinitionByIndex(::Epic::OnlineServices::Achievements::CopyAchievementDefinitionByIndexOptions* a1, ::Epic::OnlineServices::Achievements::Definition*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Achievements::CopyAchievementDefinitionByIndexOptions*, ::Epic::OnlineServices::Achievements::Definition*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYACHIEVEMENTDEFINITIONBYINDEX_OFFSET))(this, options, outDefinition);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Achievements::CopyAchievementDefinitionByIndexOptions*, ::Epic::OnlineServices::Achievements::Definition*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYACHIEVEMENTDEFINITIONBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyAchievementDefinitionV2ByAchievementId(::Epic::OnlineServices::Achievements::CopyAchievementDefinitionV2ByAchievementIdOptions* options, ::Epic::OnlineServices::Achievements::DefinitionV2*& outDefinition)
+		::Epic::OnlineServices::Result CopyAchievementDefinitionV2ByAchievementId(::Epic::OnlineServices::Achievements::CopyAchievementDefinitionV2ByAchievementIdOptions* a1, ::Epic::OnlineServices::Achievements::DefinitionV2*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Achievements::CopyAchievementDefinitionV2ByAchievementIdOptions*, ::Epic::OnlineServices::Achievements::DefinitionV2*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYACHIEVEMENTDEFINITIONV2BYACHIEVEMENTID_OFFSET))(this, options, outDefinition);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Achievements::CopyAchievementDefinitionV2ByAchievementIdOptions*, ::Epic::OnlineServices::Achievements::DefinitionV2*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYACHIEVEMENTDEFINITIONV2BYACHIEVEMENTID_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyAchievementDefinitionV2ByIndex(::Epic::OnlineServices::Achievements::CopyAchievementDefinitionV2ByIndexOptions* options, ::Epic::OnlineServices::Achievements::DefinitionV2*& outDefinition)
+		::Epic::OnlineServices::Result CopyAchievementDefinitionV2ByIndex(::Epic::OnlineServices::Achievements::CopyAchievementDefinitionV2ByIndexOptions* a1, ::Epic::OnlineServices::Achievements::DefinitionV2*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Achievements::CopyAchievementDefinitionV2ByIndexOptions*, ::Epic::OnlineServices::Achievements::DefinitionV2*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYACHIEVEMENTDEFINITIONV2BYINDEX_OFFSET))(this, options, outDefinition);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Achievements::CopyAchievementDefinitionV2ByIndexOptions*, ::Epic::OnlineServices::Achievements::DefinitionV2*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYACHIEVEMENTDEFINITIONV2BYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyPlayerAchievementByAchievementId(::Epic::OnlineServices::Achievements::CopyPlayerAchievementByAchievementIdOptions* options, ::Epic::OnlineServices::Achievements::PlayerAchievement*& outAchievement)
+		::Epic::OnlineServices::Result CopyPlayerAchievementByAchievementId(::Epic::OnlineServices::Achievements::CopyPlayerAchievementByAchievementIdOptions* a1, ::Epic::OnlineServices::Achievements::PlayerAchievement*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Achievements::CopyPlayerAchievementByAchievementIdOptions*, ::Epic::OnlineServices::Achievements::PlayerAchievement*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYPLAYERACHIEVEMENTBYACHIEVEMENTID_OFFSET))(this, options, outAchievement);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Achievements::CopyPlayerAchievementByAchievementIdOptions*, ::Epic::OnlineServices::Achievements::PlayerAchievement*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYPLAYERACHIEVEMENTBYACHIEVEMENTID_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyPlayerAchievementByIndex(::Epic::OnlineServices::Achievements::CopyPlayerAchievementByIndexOptions* options, ::Epic::OnlineServices::Achievements::PlayerAchievement*& outAchievement)
+		::Epic::OnlineServices::Result CopyPlayerAchievementByIndex(::Epic::OnlineServices::Achievements::CopyPlayerAchievementByIndexOptions* a1, ::Epic::OnlineServices::Achievements::PlayerAchievement*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Achievements::CopyPlayerAchievementByIndexOptions*, ::Epic::OnlineServices::Achievements::PlayerAchievement*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYPLAYERACHIEVEMENTBYINDEX_OFFSET))(this, options, outAchievement);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Achievements::CopyPlayerAchievementByIndexOptions*, ::Epic::OnlineServices::Achievements::PlayerAchievement*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYPLAYERACHIEVEMENTBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyUnlockedAchievementByAchievementId(::Epic::OnlineServices::Achievements::CopyUnlockedAchievementByAchievementIdOptions* options, ::Epic::OnlineServices::Achievements::UnlockedAchievement*& outAchievement)
+		::Epic::OnlineServices::Result CopyUnlockedAchievementByAchievementId(::Epic::OnlineServices::Achievements::CopyUnlockedAchievementByAchievementIdOptions* a1, ::Epic::OnlineServices::Achievements::UnlockedAchievement*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Achievements::CopyUnlockedAchievementByAchievementIdOptions*, ::Epic::OnlineServices::Achievements::UnlockedAchievement*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYUNLOCKEDACHIEVEMENTBYACHIEVEMENTID_OFFSET))(this, options, outAchievement);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Achievements::CopyUnlockedAchievementByAchievementIdOptions*, ::Epic::OnlineServices::Achievements::UnlockedAchievement*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYUNLOCKEDACHIEVEMENTBYACHIEVEMENTID_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyUnlockedAchievementByIndex(::Epic::OnlineServices::Achievements::CopyUnlockedAchievementByIndexOptions* options, ::Epic::OnlineServices::Achievements::UnlockedAchievement*& outAchievement)
+		::Epic::OnlineServices::Result CopyUnlockedAchievementByIndex(::Epic::OnlineServices::Achievements::CopyUnlockedAchievementByIndexOptions* a1, ::Epic::OnlineServices::Achievements::UnlockedAchievement*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Achievements::CopyUnlockedAchievementByIndexOptions*, ::Epic::OnlineServices::Achievements::UnlockedAchievement*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYUNLOCKEDACHIEVEMENTBYINDEX_OFFSET))(this, options, outAchievement);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Achievements::CopyUnlockedAchievementByIndexOptions*, ::Epic::OnlineServices::Achievements::UnlockedAchievement*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_COPYUNLOCKEDACHIEVEMENTBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 GetAchievementDefinitionCount(::Epic::OnlineServices::Achievements::GetAchievementDefinitionCountOptions* options)
+		::System::UInt32 GetAchievementDefinitionCount(::Epic::OnlineServices::Achievements::GetAchievementDefinitionCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Achievements::GetAchievementDefinitionCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_GETACHIEVEMENTDEFINITIONCOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Achievements::GetAchievementDefinitionCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_GETACHIEVEMENTDEFINITIONCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetPlayerAchievementCount(::Epic::OnlineServices::Achievements::GetPlayerAchievementCountOptions* options)
+		::System::UInt32 GetPlayerAchievementCount(::Epic::OnlineServices::Achievements::GetPlayerAchievementCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Achievements::GetPlayerAchievementCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_GETPLAYERACHIEVEMENTCOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Achievements::GetPlayerAchievementCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_GETPLAYERACHIEVEMENTCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetUnlockedAchievementCount(::Epic::OnlineServices::Achievements::GetUnlockedAchievementCountOptions* options)
+		::System::UInt32 GetUnlockedAchievementCount(::Epic::OnlineServices::Achievements::GetUnlockedAchievementCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Achievements::GetUnlockedAchievementCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_GETUNLOCKEDACHIEVEMENTCOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Achievements::GetUnlockedAchievementCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_GETUNLOCKEDACHIEVEMENTCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::Void QueryDefinitions(::Epic::OnlineServices::Achievements::QueryDefinitionsOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Achievements::OnQueryDefinitionsCompleteCallback* completionDelegate)
+		::System::Void QueryDefinitions(::Epic::OnlineServices::Achievements::QueryDefinitionsOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Achievements::OnQueryDefinitionsCompleteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Achievements::QueryDefinitionsOptions*, ::System::Object*, ::Epic::OnlineServices::Achievements::OnQueryDefinitionsCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_QUERYDEFINITIONS_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Achievements::QueryDefinitionsOptions*, ::System::Object*, ::Epic::OnlineServices::Achievements::OnQueryDefinitionsCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_QUERYDEFINITIONS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void QueryPlayerAchievements(::Epic::OnlineServices::Achievements::QueryPlayerAchievementsOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Achievements::OnQueryPlayerAchievementsCompleteCallback* completionDelegate)
+		::System::Void QueryPlayerAchievements(::Epic::OnlineServices::Achievements::QueryPlayerAchievementsOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Achievements::OnQueryPlayerAchievementsCompleteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Achievements::QueryPlayerAchievementsOptions*, ::System::Object*, ::Epic::OnlineServices::Achievements::OnQueryPlayerAchievementsCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_QUERYPLAYERACHIEVEMENTS_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Achievements::QueryPlayerAchievementsOptions*, ::System::Object*, ::Epic::OnlineServices::Achievements::OnQueryPlayerAchievementsCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_QUERYPLAYERACHIEVEMENTS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RemoveNotifyAchievementsUnlocked(::System::UInt64 inId)
+		::System::Void RemoveNotifyAchievementsUnlocked(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_REMOVENOTIFYACHIEVEMENTSUNLOCKED_OFFSET))(this, inId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_REMOVENOTIFYACHIEVEMENTSUNLOCKED_OFFSET))(this, a1);
 		}
 
-		::System::Void UnlockAchievements(::Epic::OnlineServices::Achievements::UnlockAchievementsOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Achievements::OnUnlockAchievementsCompleteCallback* completionDelegate)
+		::System::Void UnlockAchievements(::Epic::OnlineServices::Achievements::UnlockAchievementsOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Achievements::OnUnlockAchievementsCompleteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Achievements::UnlockAchievementsOptions*, ::System::Object*, ::Epic::OnlineServices::Achievements::OnUnlockAchievementsCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_UNLOCKACHIEVEMENTS_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Achievements::UnlockAchievementsOptions*, ::System::Object*, ::Epic::OnlineServices::Achievements::OnUnlockAchievementsCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_UNLOCKACHIEVEMENTS_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void OnAchievementsUnlockedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnAchievementsUnlockedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ONACHIEVEMENTSUNLOCKEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ONACHIEVEMENTSUNLOCKEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnAchievementsUnlockedCallbackV2InternalImplementation(::System::IntPtr data)
+		static ::System::Void OnAchievementsUnlockedCallbackV2InternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ONACHIEVEMENTSUNLOCKEDCALLBACKV2INTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ONACHIEVEMENTSUNLOCKEDCALLBACKV2INTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnQueryDefinitionsCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryDefinitionsCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ONQUERYDEFINITIONSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ONQUERYDEFINITIONSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnQueryPlayerAchievementsCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryPlayerAchievementsCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ONQUERYPLAYERACHIEVEMENTSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ONQUERYPLAYERACHIEVEMENTSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnUnlockAchievementsCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnUnlockAchievementsCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ONUNLOCKACHIEVEMENTSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ACHIEVEMENTSINTERFACE_ONUNLOCKACHIEVEMENTSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

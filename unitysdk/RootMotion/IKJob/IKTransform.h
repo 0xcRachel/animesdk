@@ -7,15 +7,15 @@
 
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_IKJOB_IKTRANSFORM_COPYFROM_OFFSET UNITYSDK_OFFSET(0x2396F40)
-#define ROOTMOTION_IKJOB_IKTRANSFORM_COPYTO_OFFSET UNITYSDK_OFFSET(0x2396EC0)
-#define ROOTMOTION_IKJOB_IKTRANSFORM_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x2396E70)
-#define ROOTMOTION_IKJOB_IKTRANSFORM_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x2396E90)
-#define ROOTMOTION_IKJOB_IKTRANSFORM_GET_WORLDTOLOCAL_OFFSET UNITYSDK_OFFSET(0x2396DD0)
+#define ROOTMOTION_IKJOB_IKTRANSFORM_COPYFROM_OFFSET UNITYSDK_OFFSET(0x3831860)
+#define ROOTMOTION_IKJOB_IKTRANSFORM_COPYTO_OFFSET UNITYSDK_OFFSET(0x38317E0)
+#define ROOTMOTION_IKJOB_IKTRANSFORM_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x3831790)
+#define ROOTMOTION_IKJOB_IKTRANSFORM_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x38317B0)
+#define ROOTMOTION_IKJOB_IKTRANSFORM_GET_WORLDTOLOCAL_OFFSET UNITYSDK_OFFSET(0x38316F0)
 
 namespace RootMotion::IKJob
 {
-	inline static constexpr unsigned int IKTransform_TypeDefinitionIndex = 40998;
+	inline static constexpr unsigned int IKTransform_TypeDefinitionIndex = 41801;
 
 	struct alignas(4) IKTransform
 	{
@@ -40,14 +40,14 @@ namespace RootMotion::IKJob
 			return ((::UnityEngine::Quaternion(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_IKJOB_IKTRANSFORM_GET_ROTATION_OFFSET))(this);
 		}
 
-		::System::Void CopyTo(::UnityEngine::Transform* transform)
+		::System::Void CopyTo(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + ROOTMOTION_IKJOB_IKTRANSFORM_COPYTO_OFFSET))(this, transform);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + ROOTMOTION_IKJOB_IKTRANSFORM_COPYTO_OFFSET))(this, a1);
 		}
 
-		::System::Void CopyFrom(::UnityEngine::Transform* transform)
+		::System::Void CopyFrom(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + ROOTMOTION_IKJOB_IKTRANSFORM_COPYFROM_OFFSET))(this, transform);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + ROOTMOTION_IKJOB_IKTRANSFORM_COPYFROM_OFFSET))(this, a1);
 		}
 	};
 }

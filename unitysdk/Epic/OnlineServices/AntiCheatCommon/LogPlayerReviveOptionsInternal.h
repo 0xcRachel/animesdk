@@ -5,15 +5,15 @@
 namespace Epic::OnlineServices::AntiCheatCommon { class LogPlayerReviveOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERREVIVEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2357C70)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERREVIVEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x2357C00)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERREVIVEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x2357BE0)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERREVIVEOPTIONSINTERNAL_SET_REVIVEDPLAYERHANDLE_OFFSET UNITYSDK_OFFSET(0x6163C0)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERREVIVEOPTIONSINTERNAL_SET_REVIVERPLAYERHANDLE_OFFSET UNITYSDK_OFFSET(0x878E80)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERREVIVEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3902090)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERREVIVEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x3902010)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERREVIVEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x3901FF0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERREVIVEOPTIONSINTERNAL_SET_REVIVEDPLAYERHANDLE_OFFSET UNITYSDK_OFFSET(0x8BE040)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERREVIVEOPTIONSINTERNAL_SET_REVIVERPLAYERHANDLE_OFFSET UNITYSDK_OFFSET(0xFD2480)
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int LogPlayerReviveOptionsInternal_TypeDefinitionIndex = 42483;
+	inline static constexpr unsigned int LogPlayerReviveOptionsInternal_TypeDefinitionIndex = 43286;
 
 	struct alignas(8) LogPlayerReviveOptionsInternal
 	{
@@ -21,24 +21,24 @@ namespace Epic::OnlineServices::AntiCheatCommon
 		::System::IntPtr m_RevivedPlayerHandle; // 0x18
 		::System::IntPtr m_ReviverPlayerHandle; // 0x20
 
-		::System::Void set_RevivedPlayerHandle(::System::IntPtr value)
+		::System::Void set_RevivedPlayerHandle(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERREVIVEOPTIONSINTERNAL_SET_REVIVEDPLAYERHANDLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERREVIVEOPTIONSINTERNAL_SET_REVIVEDPLAYERHANDLE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ReviverPlayerHandle(::System::IntPtr value)
+		::System::Void set_ReviverPlayerHandle(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERREVIVEOPTIONSINTERNAL_SET_REVIVERPLAYERHANDLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERREVIVEOPTIONSINTERNAL_SET_REVIVERPLAYERHANDLE_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::AntiCheatCommon::LogPlayerReviveOptions* other)
+		::System::Void Set(::Epic::OnlineServices::AntiCheatCommon::LogPlayerReviveOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::LogPlayerReviveOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERREVIVEOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::LogPlayerReviveOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERREVIVEOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERREVIVEOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERREVIVEOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

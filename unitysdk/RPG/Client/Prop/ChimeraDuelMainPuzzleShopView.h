@@ -11,15 +11,15 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_ADD_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1582F740)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_GETTEAMMEMBERSLOTS_OFFSET UNITYSDK_OFFSET(0x1582EEA0)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_REMOVE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1582FEA0)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_UPDATE_OFFSET UNITYSDK_OFFSET(0x1582FF90)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x15830010)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_ADD_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x166EAA30)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_GETTEAMMEMBERSLOTS_OFFSET UNITYSDK_OFFSET(0x166EA160)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_REMOVE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x166EB140)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_UPDATE_OFFSET UNITYSDK_OFFSET(0x166EB240)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x166EB2D0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelMainPuzzleShopView_TypeDefinitionIndex = 71886;
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleShopView_TypeDefinitionIndex = 72908;
 
 	class ChimeraDuelMainPuzzleShopView : public ::RPG::Client::Prop::ChimeraDuelMainPuzzleMonoStateView
 	{
@@ -37,14 +37,14 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW__CTOR_OFFSET))(this);
 		}
 
-		::System::Void add_OnUpdate(::System::Action_1<::System::Single>* value)
+		::System::Void add_OnUpdate(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_ADD_ONUPDATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_ADD_ONUPDATE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnUpdate(::System::Action_1<::System::Single>* value)
+		::System::Void remove_OnUpdate(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_REMOVE_ONUPDATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_REMOVE_ONUPDATE_OFFSET))(this, a1);
 		}
 
 		::System::Void Update()

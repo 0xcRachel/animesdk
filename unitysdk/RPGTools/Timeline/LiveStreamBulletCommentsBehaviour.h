@@ -6,15 +6,15 @@
 
 namespace RPGTools::Timeline { class LiveStreamBulletCommentsClip; }
 
-#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x17E2B780)
-#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x17E2B7A0)
-#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x17E2B790)
-#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x17E2B840)
-#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x17E2B850)
+#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x18C3E8D0)
+#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x18C3E8F0)
+#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x18C3E8E0)
+#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x18C3E990)
+#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x18C3E9A0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LiveStreamBulletCommentsBehaviour_TypeDefinitionIndex = 44915;
+	inline static constexpr unsigned int LiveStreamBulletCommentsBehaviour_TypeDefinitionIndex = 45463;
 
 	class LiveStreamBulletCommentsBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -31,9 +31,9 @@ namespace RPGTools::Timeline
 			return ((::RPGTools::Timeline::LiveStreamBulletCommentsClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSBEHAVIOUR_GET_CLIP_OFFSET))(this);
 		}
 
-		::System::Void set_Clip(::RPGTools::Timeline::LiveStreamBulletCommentsClip* value)
+		::System::Void set_Clip(::RPGTools::Timeline::LiveStreamBulletCommentsClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::LiveStreamBulletCommentsClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSBEHAVIOUR_SET_CLIP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::LiveStreamBulletCommentsClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSBEHAVIOUR_SET_CLIP_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -41,9 +41,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

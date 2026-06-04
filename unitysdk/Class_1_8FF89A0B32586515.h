@@ -6,13 +6,13 @@ namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitCompareViewModel; }
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitResultRelicInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_8FF89A0B32586515_METHOD_1_6AB817648D551E7E_OFFSET UNITYSDK_OFFSET(0x102D6C50)
-#define CLASS_1_8FF89A0B32586515_METHOD_1_77BA15332C6C3A63_OFFSET UNITYSDK_OFFSET(0x102D6D50)
-#define CLASS_1_8FF89A0B32586515_METHOD_1_B387E1AED8A8F880_1_OFFSET UNITYSDK_OFFSET(0x102D6DD0)
-#define CLASS_1_8FF89A0B32586515_METHOD_1_B387E1AED8A8F880_OFFSET UNITYSDK_OFFSET(0x102D6CD0)
-#define CLASS_1_8FF89A0B32586515__CTOR_OFFSET UNITYSDK_OFFSET(0x102D6CC0)
+#define CLASS_1_8FF89A0B32586515_METHOD_1_6AB817648D551E7E_OFFSET UNITYSDK_OFFSET(0x173EFBD0)
+#define CLASS_1_8FF89A0B32586515_METHOD_1_7738465BA5B9D85A_OFFSET UNITYSDK_OFFSET(0x173EFCD0)
+#define CLASS_1_8FF89A0B32586515_METHOD_1_B387E1AED8A8F880_1_OFFSET UNITYSDK_OFFSET(0x173EFD50)
+#define CLASS_1_8FF89A0B32586515_METHOD_1_B387E1AED8A8F880_OFFSET UNITYSDK_OFFSET(0x173EFC50)
+#define CLASS_1_8FF89A0B32586515__CTOR_OFFSET UNITYSDK_OFFSET(0x173EFC40)
 
-inline static constexpr unsigned int Class_1_8FF89A0B32586515_TypeDefinitionIndex = 68665;
+inline static constexpr unsigned int Class_1_8FF89A0B32586515_TypeDefinitionIndex = 69477;
 
 class Class_1_8FF89A0B32586515 : public ::System::Object
 {
@@ -34,9 +34,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8FF89A0B32586515_METHOD_1_B387E1AED8A8F880_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::List_1<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*>* Method_1_77BA15332C6C3A63()
+	::System::Collections::Generic::List_1<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*>* Method_1_7738465BA5B9D85A()
 	{
-		return ((::System::Collections::Generic::List_1<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8FF89A0B32586515_METHOD_1_77BA15332C6C3A63_OFFSET))(this);
+		return ((::System::Collections::Generic::List_1<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8FF89A0B32586515_METHOD_1_7738465BA5B9D85A_OFFSET))(this);
 	}
 
 	::System::Void Method_1_B387E1AED8A8F880_1()

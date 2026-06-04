@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLEFORTRIAL_METHOD_3_4AA6D99F37786B32_OFFSET UNITYSDK_OFFSET(0x193A73A0)
-#define RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLEFORTRIAL_METHOD_3_50C9C2E033FDE585_OFFSET UNITYSDK_OFFSET(0x193A7420)
-#define RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLEFORTRIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x193A73F0)
+#define RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLEFORTRIAL_METHOD_3_3B671C51C61455D9_OFFSET UNITYSDK_OFFSET(0x1A000DA0)
+#define RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLEFORTRIAL_METHOD_3_AA9EB64CFD97332C_OFFSET UNITYSDK_OFFSET(0x1A000E20)
+#define RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLEFORTRIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A000DF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowEvolveBuildTreasureInBattleForTrial_TypeDefinitionIndex = 21399;
+	inline static constexpr unsigned int ShowEvolveBuildTreasureInBattleForTrial_TypeDefinitionIndex = 21288;
 
 	class ShowEvolveBuildTreasureInBattleForTrial : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLEFORTRIAL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4AA6D99F37786B32(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowEvolveBuildTreasureInBattleForTrial*& a2)
+		static ::System::Void Method_3_3B671C51C61455D9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowEvolveBuildTreasureInBattleForTrial*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowEvolveBuildTreasureInBattleForTrial*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLEFORTRIAL_METHOD_3_4AA6D99F37786B32_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowEvolveBuildTreasureInBattleForTrial*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLEFORTRIAL_METHOD_3_3B671C51C61455D9_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_50C9C2E033FDE585(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowEvolveBuildTreasureInBattleForTrial* a2)
+		static ::System::Void Method_3_AA9EB64CFD97332C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowEvolveBuildTreasureInBattleForTrial* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowEvolveBuildTreasureInBattleForTrial*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLEFORTRIAL_METHOD_3_50C9C2E033FDE585_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowEvolveBuildTreasureInBattleForTrial*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWEVOLVEBUILDTREASUREINBATTLEFORTRIAL_METHOD_3_AA9EB64CFD97332C_OFFSET))(a1, a2);
 		}
 	};
 }

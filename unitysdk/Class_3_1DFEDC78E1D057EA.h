@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetCharacterAlwaysIdleState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1DFEDC78E1D057EA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEEA93D0)
-#define CLASS_3_1DFEDC78E1D057EA__CTOR_OFFSET UNITYSDK_OFFSET(0xEEA93A0)
+#define CLASS_3_1DFEDC78E1D057EA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1415C0E0)
+#define CLASS_3_1DFEDC78E1D057EA__CTOR_OFFSET UNITYSDK_OFFSET(0x1415C0B0)
 
-inline static constexpr unsigned int Class_3_1DFEDC78E1D057EA_TypeDefinitionIndex = 51047;
+inline static constexpr unsigned int Class_3_1DFEDC78E1D057EA_TypeDefinitionIndex = 51717;
 
 class Class_3_1DFEDC78E1D057EA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetCharacterAlwaysIdleState*>
 {

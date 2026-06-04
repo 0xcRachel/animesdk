@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int LodTemplateSourceType_TypeDefinitionIndex = 68019;
+	inline static constexpr unsigned int LodTemplateSourceType_TypeDefinitionIndex = 68977;
 
 	enum class LodTemplateSourceType : ::System::Int32
 	{

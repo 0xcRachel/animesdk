@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareInfiniteWaveSummonProgress; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FF2B745D936A06C2_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10FADE40)
-#define CLASS_3_FF2B745D936A06C2__CTOR_OFFSET UNITYSDK_OFFSET(0x10FADE10)
+#define CLASS_3_FF2B745D936A06C2_EVALUATE_OFFSET UNITYSDK_OFFSET(0x172D2340)
+#define CLASS_3_FF2B745D936A06C2__CTOR_OFFSET UNITYSDK_OFFSET(0x172D2310)
 
-inline static constexpr unsigned int Class_3_FF2B745D936A06C2_TypeDefinitionIndex = 50625;
+inline static constexpr unsigned int Class_3_FF2B745D936A06C2_TypeDefinitionIndex = 51292;
 
 class Class_3_FF2B745D936A06C2 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareInfiniteWaveSummonProgress*>
 {

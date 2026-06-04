@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_92608A36037A1D69.h"
+#include "unitysdk/Class_1_7A3194024C7D2DEC.h"
 
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_48A395430F517D17_METHOD_2_82E992240300FB30_1_OFFSET UNITYSDK_OFFSET(0xC2A62C0)
-#define CLASS_2_48A395430F517D17_METHOD_2_82E992240300FB30_OFFSET UNITYSDK_OFFSET(0xC2A60B0)
-#define CLASS_2_48A395430F517D17_METHOD_2_867F85CA133E06EB_OFFSET UNITYSDK_OFFSET(0xC2A6260)
-#define CLASS_2_48A395430F517D17__CTOR_OFFSET UNITYSDK_OFFSET(0xC2A6090)
+#define CLASS_2_48A395430F517D17_METHOD_2_82E992240300FB30_1_OFFSET UNITYSDK_OFFSET(0x1787D580)
+#define CLASS_2_48A395430F517D17_METHOD_2_82E992240300FB30_OFFSET UNITYSDK_OFFSET(0x1787D370)
+#define CLASS_2_48A395430F517D17_METHOD_2_867F85CA133E06EB_OFFSET UNITYSDK_OFFSET(0x1787D520)
+#define CLASS_2_48A395430F517D17__CTOR_OFFSET UNITYSDK_OFFSET(0x1787D350)
 
-inline static constexpr unsigned int Class_2_48A395430F517D17_TypeDefinitionIndex = 55427;
+inline static constexpr unsigned int Class_2_48A395430F517D17_TypeDefinitionIndex = 56172;
 
-class Class_2_48A395430F517D17 : public ::Class_1_92608A36037A1D69
+class Class_2_48A395430F517D17 : public ::Class_1_7A3194024C7D2DEC
 {
 public:
-	::System::Single Field_2_1; // 0x30
-	::System::Single Field_2_0; // 0x34
+	::System::Single Field_2_0; // 0x30
+	::System::Single Field_2_1; // 0x34
 
 	::System::Void _ctor(::UnityEngine::Transform* a1, ::System::String* a2)
 	{

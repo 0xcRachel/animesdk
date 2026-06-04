@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SCALECHARACTERMODEL_METHOD_3_1955D8FE7A261719_OFFSET UNITYSDK_OFFSET(0x192E0350)
-#define RPG_GAMECORE_SCALECHARACTERMODEL_METHOD_3_94AA597E068738FA_OFFSET UNITYSDK_OFFSET(0x192E0270)
-#define RPG_GAMECORE_SCALECHARACTERMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x192E02F0)
+#define RPG_GAMECORE_SCALECHARACTERMODEL_METHOD_3_04A98E40CFEC08A6_OFFSET UNITYSDK_OFFSET(0x1A1D6FC0)
+#define RPG_GAMECORE_SCALECHARACTERMODEL_METHOD_3_2D5B5A0BF655A6A7_OFFSET UNITYSDK_OFFSET(0x1A1D6EE0)
+#define RPG_GAMECORE_SCALECHARACTERMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1D6F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScaleCharacterModel_TypeDefinitionIndex = 21626;
+	inline static constexpr unsigned int ScaleCharacterModel_TypeDefinitionIndex = 21489;
 
 	class ScaleCharacterModel : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,14 +32,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCALECHARACTERMODEL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_94AA597E068738FA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ScaleCharacterModel*& a2)
+		static ::System::Void Method_3_2D5B5A0BF655A6A7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ScaleCharacterModel*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ScaleCharacterModel*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCALECHARACTERMODEL_METHOD_3_94AA597E068738FA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ScaleCharacterModel*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCALECHARACTERMODEL_METHOD_3_2D5B5A0BF655A6A7_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1955D8FE7A261719(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ScaleCharacterModel* a2)
+		static ::System::Void Method_3_04A98E40CFEC08A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ScaleCharacterModel* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ScaleCharacterModel*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCALECHARACTERMODEL_METHOD_3_1955D8FE7A261719_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ScaleCharacterModel*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCALECHARACTERMODEL_METHOD_3_04A98E40CFEC08A6_OFFSET))(a1, a2);
 		}
 	};
 }

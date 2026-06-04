@@ -3,30 +3,30 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiSchema.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_GETSUMMARY_OFFSET UNITYSDK_OFFSET(0x22E5C30)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_GET_SAMPLE_OFFSET UNITYSDK_OFFSET(0x22E5A90)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x18C0F600)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x18C069F0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_SET_SORTBASEPOSITION_OFFSET UNITYSDK_OFFSET(0x22E5B90)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_SET_SORT_OFFSET UNITYSDK_OFFSET(0x22E5B10)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_GETSUMMARY_OFFSET UNITYSDK_OFFSET(0x3889210)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_GET_SAMPLE_OFFSET UNITYSDK_OFFSET(0x3889070)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x197373C0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1972E900)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_SET_SORTBASEPOSITION_OFFSET UNITYSDK_OFFSET(0x3889170)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_SET_SORT_OFFSET UNITYSDK_OFFSET(0x38890F0)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aiCurves_TypeDefinitionIndex = 40825;
+	inline static constexpr unsigned int aiCurves_TypeDefinitionIndex = 41651;
 
 	struct alignas(8) aiCurves
 	{
 		::System::IntPtr self; // 0x10
 		::UnityEngine::Formats::Alembic::Sdk::aiSchema schema; // 0x10
 
-		static ::System::Boolean op_Implicit(::UnityEngine::Formats::Alembic::Sdk::aiCurves v)
+		static ::System::Boolean op_Implicit(::UnityEngine::Formats::Alembic::Sdk::aiCurves a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Formats::Alembic::Sdk::aiCurves))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_OP_IMPLICIT_OFFSET))(v);
+			return ((::System::Boolean(*)(::UnityEngine::Formats::Alembic::Sdk::aiCurves))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_OP_IMPLICIT_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Formats::Alembic::Sdk::aiSchema op_Implicit_1(::UnityEngine::Formats::Alembic::Sdk::aiCurves v)
+		static ::UnityEngine::Formats::Alembic::Sdk::aiSchema op_Implicit_1(::UnityEngine::Formats::Alembic::Sdk::aiCurves a1)
 		{
-			return ((::UnityEngine::Formats::Alembic::Sdk::aiSchema(*)(::UnityEngine::Formats::Alembic::Sdk::aiCurves))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_OP_IMPLICIT_1_OFFSET))(v);
+			return ((::UnityEngine::Formats::Alembic::Sdk::aiSchema(*)(::UnityEngine::Formats::Alembic::Sdk::aiCurves))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_OP_IMPLICIT_1_OFFSET))(a1);
 		}
 
 		/*
@@ -36,22 +36,22 @@ namespace UnityEngine::Formats::Alembic::Sdk
 		}
 		*/
 
-		::System::Void set_sort(::System::Boolean value)
+		::System::Void set_sort(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_SET_SORT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_SET_SORT_OFFSET))(this, a1);
 		}
 
 		/*
-		::System::Void set_sortBasePosition(::UnityEngine::Vector3 value)
+		::System::Void set_sortBasePosition(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_SET_SORTBASEPOSITION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_SET_SORTBASEPOSITION_OFFSET))(this, a1);
 		}
 		*/
 
 		/*
-		::System::Void GetSummary(::UnityEngine::Formats::Alembic::Sdk::aiCurvesSummary& dst)
+		::System::Void GetSummary(::UnityEngine::Formats::Alembic::Sdk::aiCurvesSummary& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aiCurvesSummary&))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_GETSUMMARY_OFFSET))(this, dst);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aiCurvesSummary&))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVES_GETSUMMARY_OFFSET))(this, a1);
 		}
 		*/
 	};

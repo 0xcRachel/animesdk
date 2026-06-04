@@ -11,21 +11,21 @@ namespace UnityEngine { class AudioClip; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class AudioClipProperties; }
 
-#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x18A95170)
-#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_GET_BUFFERINGTIME_OFFSET UNITYSDK_OFFSET(0x18A95020)
-#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x18A952F0)
-#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x18A95040)
-#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x18A95080)
-#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_GET_LOOP_OFFSET UNITYSDK_OFFSET(0x18A95060)
-#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_GET_OUTPUTS_OFFSET UNITYSDK_OFFSET(0x18A950F0)
-#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_SET_BUFFERINGTIME_OFFSET UNITYSDK_OFFSET(0x18A95030)
-#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x18A95050)
-#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_SET_LOOP_OFFSET UNITYSDK_OFFSET(0x18A95070)
-#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x18A95300)
+#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x18B92640)
+#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_GET_BUFFERINGTIME_OFFSET UNITYSDK_OFFSET(0x18B924F0)
+#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x18B927C0)
+#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x18B92510)
+#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x18B92550)
+#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_GET_LOOP_OFFSET UNITYSDK_OFFSET(0x18B92530)
+#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_GET_OUTPUTS_OFFSET UNITYSDK_OFFSET(0x18B925C0)
+#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_SET_BUFFERINGTIME_OFFSET UNITYSDK_OFFSET(0x18B92500)
+#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x18B92520)
+#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_SET_LOOP_OFFSET UNITYSDK_OFFSET(0x18B92540)
+#define UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x18B927D0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int AudioPlayableAsset_TypeDefinitionIndex = 35569;
+	inline static constexpr unsigned int AudioPlayableAsset_TypeDefinitionIndex = 35869;
 
 	class AudioPlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -45,9 +45,9 @@ namespace UnityEngine::Timeline
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_GET_BUFFERINGTIME_OFFSET))(this);
 		}
 
-		::System::Void set_bufferingTime(::System::Single value)
+		::System::Void set_bufferingTime(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_SET_BUFFERINGTIME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_SET_BUFFERINGTIME_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::AudioClip* get_clip()
@@ -55,9 +55,9 @@ namespace UnityEngine::Timeline
 			return ((::UnityEngine::AudioClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_GET_CLIP_OFFSET))(this);
 		}
 
-		::System::Void set_clip(::UnityEngine::AudioClip* value)
+		::System::Void set_clip(::UnityEngine::AudioClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::AudioClip*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_SET_CLIP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::AudioClip*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_SET_CLIP_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_loop()
@@ -65,9 +65,9 @@ namespace UnityEngine::Timeline
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_GET_LOOP_OFFSET))(this);
 		}
 
-		::System::Void set_loop(::System::Boolean value)
+		::System::Void set_loop(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_SET_LOOP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_SET_LOOP_OFFSET))(this, a1);
 		}
 
 		::System::Double get_duration()
@@ -80,9 +80,9 @@ namespace UnityEngine::Timeline
 			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_GET_OUTPUTS_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go)
+		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_CREATEPLAYABLE_OFFSET))(this, graph, go);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_AUDIOPLAYABLEASSET_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()

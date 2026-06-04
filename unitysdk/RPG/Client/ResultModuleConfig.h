@@ -6,12 +6,12 @@
 namespace RPG::Client { class BlendCurveRange; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RESULTMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0x1771C2D0)
-#define RPG_CLIENT_RESULTMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1771C320)
+#define RPG_CLIENT_RESULTMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0x191BA870)
+#define RPG_CLIENT_RESULTMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x191BA8C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ResultModuleConfig_TypeDefinitionIndex = 64226;
+	inline static constexpr unsigned int ResultModuleConfig_TypeDefinitionIndex = 65147;
 
 	class ResultModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{

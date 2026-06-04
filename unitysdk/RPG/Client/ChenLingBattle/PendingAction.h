@@ -9,32 +9,32 @@ namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17CAED40)
-#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_GET_ACTIONINFO_OFFSET UNITYSDK_OFFSET(0x17CAEDE0)
-#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x17CAEDA0)
-#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_ONENTER_OFFSET UNITYSDK_OFFSET(0x17CAECC0)
-#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17CAECB0)
+#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18DC6E10)
+#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_GET_ACTIONINFO_OFFSET UNITYSDK_OFFSET(0x18DC6EB0)
+#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x18DC6E70)
+#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_ONENTER_OFFSET UNITYSDK_OFFSET(0x18DC6D90)
+#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18DC6D80)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int PendingAction_TypeDefinitionIndex = 70046;
+	inline static constexpr unsigned int PendingAction_TypeDefinitionIndex = 70858;
 
 	class PendingAction : public ::System::Object
 	{
 	public:
-		::RPG::Client::LuaUIGameFlowContext* _Page; // 0x10
-		::RPG::Client::ChenLingBattle::ActionInfo* _ActionInfo; // 0x18
-		::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* _GameContext; // 0x20
-		::RPG::Client::Promises::Promise* _FinishedPromise; // 0x28
+		::RPG::Client::ChenLingBattle::ActionInfo* _ActionInfo; // 0x10
+		::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* _GameContext; // 0x18
+		::RPG::Client::Promises::Promise* _FinishedPromise; // 0x20
+		::RPG::Client::LuaUIGameFlowContext* _Page; // 0x28
 
-		::System::Void _ctor(::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* gameContext, ::RPG::Client::ChenLingBattle::ActionInfo* actionInfo)
+		::System::Void _ctor(::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* a1, ::RPG::Client::ChenLingBattle::ActionInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::ChenLingBattleGameContext*, ::RPG::Client::ChenLingBattle::ActionInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION__CTOR_OFFSET))(this, gameContext, actionInfo);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::ChenLingBattleGameContext*, ::RPG::Client::ChenLingBattle::ActionInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* OnEnter(::System::Nullable_1<::System::Int32> defaultSelectedIndex)
+		::RPG::Client::Promises::IPromise* OnEnter(::System::Nullable_1<::System::Int32> a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_ONENTER_OFFSET))(this, defaultSelectedIndex);
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_ONENTER_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

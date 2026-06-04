@@ -10,55 +10,55 @@ namespace RPG::GameCore { class BattleEventSkillRow; }
 namespace RPG::GameCore { class GridFightSkillSubIconConfigRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_GET_CONDITIONDESC_OFFSET UNITYSDK_OFFSET(0x18129F30)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_GET_DESC_OFFSET UNITYSDK_OFFSET(0x18129D80)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x1812A100)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_GET_ISNEW_OFFSET UNITYSDK_OFFSET(0x1812A040)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_GET_ISREPLACE_OFFSET UNITYSDK_OFFSET(0x1812A0A0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_GET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0x1812A120)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_GET_SIMPLECONDITIONDESC_OFFSET UNITYSDK_OFFSET(0x18129E20)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_GET_SIMPLEDESC_OFFSET UNITYSDK_OFFSET(0x18129CE0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_GET_SKILLTYPETEXTID_OFFSET UNITYSDK_OFFSET(0x1812A140)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x1812A110)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_SET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0x1812A130)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_SET_SKILLTYPETEXTID_OFFSET UNITYSDK_OFFSET(0x1812A150)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18129B60)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG__CTOR_2_OFFSET UNITYSDK_OFFSET(0x18129C50)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18129AD0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_GET_CONDITIONDESC_OFFSET UNITYSDK_OFFSET(0x19962E50)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_GET_DESC_OFFSET UNITYSDK_OFFSET(0x19962C90)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x19963030)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_GET_ISNEW_OFFSET UNITYSDK_OFFSET(0x19962F70)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_GET_ISREPLACE_OFFSET UNITYSDK_OFFSET(0x19962FD0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_GET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0x19963050)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_GET_SIMPLECONDITIONDESC_OFFSET UNITYSDK_OFFSET(0x19962D30)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_GET_SIMPLEDESC_OFFSET UNITYSDK_OFFSET(0x19962BF0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_GET_SKILLTYPETEXTID_OFFSET UNITYSDK_OFFSET(0x19963070)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x19963040)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_SET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0x19963060)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_SET_SKILLTYPETEXTID_OFFSET UNITYSDK_OFFSET(0x19963080)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19962A60)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG__CTOR_2_OFFSET UNITYSDK_OFFSET(0x19962B50)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199629D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleSkillDescConfig_TypeDefinitionIndex = 59953;
+	inline static constexpr unsigned int GridFightRoleSkillDescConfig_TypeDefinitionIndex = 60888;
 
 	class GridFightRoleSkillDescConfig : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* _SimpleSkillDescParamList; // 0x10
-		::System::String* _IconPath_k__BackingField; // 0x18
-		::RPG::GameCore::GridFightSkillSubIconConfigRow* _SubIconRow; // 0x20
-		::Il2CppArray<::RPG::GameCore::FixPoint>* _ConditionParamList; // 0x28
-		::Il2CppArray<::RPG::GameCore::FixPoint>* _DescParamList; // 0x30
-		::Il2CppArray<::RPG::GameCore::FixPoint>* _SimpleConditionParamList; // 0x38
-		::RPG::Client::TextID _DescTextID; // 0x40
-		::RPG::Client::TextID _NameTextID_k__BackingField; // 0x50
-		::RPG::Client::TextID _ConditionTextID; // 0x60
-		::RPG::Client::TextID _SimpleConditionTextID; // 0x70
-		::RPG::Client::TextID _SimpleSkillDescTextID; // 0x80
-		::RPG::Client::TextID _SkillTypeTextID_k__BackingField; // 0x90
+		::Il2CppArray<::RPG::GameCore::FixPoint>* _DescParamList; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* _ConditionParamList; // 0x18
+		::System::String* _IconPath_k__BackingField; // 0x20
+		::RPG::GameCore::GridFightSkillSubIconConfigRow* _SubIconRow; // 0x28
+		::Il2CppArray<::RPG::GameCore::FixPoint>* _SimpleConditionParamList; // 0x30
+		::Il2CppArray<::RPG::GameCore::FixPoint>* _SimpleSkillDescParamList; // 0x38
+		::RPG::Client::TextID _SimpleSkillDescTextID; // 0x40
+		::RPG::Client::TextID _SimpleConditionTextID; // 0x50
+		::RPG::Client::TextID _SkillTypeTextID_k__BackingField; // 0x60
+		::RPG::Client::TextID _ConditionTextID; // 0x70
+		::RPG::Client::TextID _NameTextID_k__BackingField; // 0x80
+		::RPG::Client::TextID _DescTextID; // 0x90
 
-		::System::Void _ctor(::RPG::GameCore::AvatarSkillRow* row)
+		::System::Void _ctor(::RPG::GameCore::AvatarSkillRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarSkillRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG__CTOR_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarSkillRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::RPG::GameCore::BattleEventSkillRow* row)
+		::System::Void _ctor_1(::RPG::GameCore::BattleEventSkillRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleEventSkillRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG__CTOR_1_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleEventSkillRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::RPG::GameCore::AvatarServantSkillRow* row)
+		::System::Void _ctor_2(::RPG::GameCore::AvatarServantSkillRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarServantSkillRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG__CTOR_2_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarServantSkillRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG__CTOR_2_OFFSET))(this, a1);
 		}
 
 		::System::String* get_SimpleDesc()
@@ -96,9 +96,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_GET_ICONPATH_OFFSET))(this);
 		}
 
-		::System::Void set_IconPath(::System::String* value)
+		::System::Void set_IconPath(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_SET_ICONPATH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_SET_ICONPATH_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_NameTextID()
@@ -106,9 +106,9 @@ namespace RPG::Client
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_GET_NAMETEXTID_OFFSET))(this);
 		}
 
-		::System::Void set_NameTextID(::RPG::Client::TextID value)
+		::System::Void set_NameTextID(::RPG::Client::TextID a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_SET_NAMETEXTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_SET_NAMETEXTID_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_SkillTypeTextID()
@@ -116,9 +116,9 @@ namespace RPG::Client
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_GET_SKILLTYPETEXTID_OFFSET))(this);
 		}
 
-		::System::Void set_SkillTypeTextID(::RPG::Client::TextID value)
+		::System::Void set_SkillTypeTextID(::RPG::Client::TextID a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_SET_SKILLTYPETEXTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDESCCONFIG_SET_SKILLTYPETEXTID_OFFSET))(this, a1);
 		}
 	};
 }

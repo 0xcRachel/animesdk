@@ -4,8 +4,8 @@
 
 namespace System::Text::RegularExpressions { class RegexCharClass_SingleRange; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_SINGLERANGECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x16B55EA0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_SINGLERANGECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x16B55E90)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_SINGLERANGECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x149396B0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_SINGLERANGECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x149396A0)
 
 namespace System::Text::RegularExpressions
 {
@@ -19,9 +19,9 @@ namespace System::Text::RegularExpressions
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_SINGLERANGECOMPARER__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 Compare(::System::Text::RegularExpressions::RegexCharClass_SingleRange* x, ::System::Text::RegularExpressions::RegexCharClass_SingleRange* y)
+		::System::Int32 Compare(::System::Text::RegularExpressions::RegexCharClass_SingleRange* a1, ::System::Text::RegularExpressions::RegexCharClass_SingleRange* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Text::RegularExpressions::RegexCharClass_SingleRange*, ::System::Text::RegularExpressions::RegexCharClass_SingleRange*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_SINGLERANGECOMPARER_COMPARE_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::System::Text::RegularExpressions::RegexCharClass_SingleRange*, ::System::Text::RegularExpressions::RegexCharClass_SingleRange*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_SINGLERANGECOMPARER_COMPARE_OFFSET))(this, a1, a2);
 		}
 	};
 }

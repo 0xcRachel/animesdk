@@ -19,57 +19,57 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Rigidbody2D; }
 namespace UnityEngine { class Rigidbody; }
 
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_ADD_PHYSICSUPDATEROOTMOTIONOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1611B410)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_ADD_PROCESSROOTMOTIONOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1611B310)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_ADJUSTROOTMOTIONTODISTANCE_OFFSET UNITYSDK_OFFSET(0x1611CFD0)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_APPLYCONSTRAINTTOPOS_OFFSET UNITYSDK_OFFSET(0x1611D2B0)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_APPLYCONSTRAINTTOROTATION_OFFSET UNITYSDK_OFFSET(0x1611D610)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_APPLYROOTMOTION_OFFSET UNITYSDK_OFFSET(0x1611DFC0)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_APPLYTRANSFORMCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1611EAD0)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_CALCULATEANIMATIONSROTATIONDELTA_OFFSET UNITYSDK_OFFSET(0x1611CBE0)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_CLEAREFFECTIVEBONEOFFSETS_OFFSET UNITYSDK_OFFSET(0x1611C540)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_CLEARRIGIDBODYTEMPMOVEMENT_OFFSET UNITYSDK_OFFSET(0x1611C560)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_FINDRIGIDBODYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1611B680)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_FINDTRANSFORMCONSTRAINTSAFFECTINGBONE_OFFSET UNITYSDK_OFFSET(0x1611CD70)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1611BC30)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GATHERTOPLEVELBONES_OFFSET UNITYSDK_OFFSET(0x1611B7F0)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETANIMATIONROOTMOTIONINFO_OFFSET UNITYSDK_OFFSET(0x161136F0)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETANIMATIONROOTMOTIONROTATION_1_OFFSET UNITYSDK_OFFSET(0x16114210)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETANIMATIONROOTMOTIONROTATION_OFFSET UNITYSDK_OFFSET(0x1611D5E0)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETANIMATIONROOTMOTION_1_OFFSET UNITYSDK_OFFSET(0x16112A20)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETANIMATIONROOTMOTION_OFFSET UNITYSDK_OFFSET(0x1611D280)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETCONSTRAINTLASTPOSINDEX_OFFSET UNITYSDK_OFFSET(0x1611DA70)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETSCALEAFFECTINGROOTMOTION_1_OFFSET UNITYSDK_OFFSET(0x1611C370)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETSCALEAFFECTINGROOTMOTION_OFFSET UNITYSDK_OFFSET(0x1611D260)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETSKELETONSPACEMOVEMENTDELTA_OFFSET UNITYSDK_OFFSET(0x1611DEF0)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETSKELETONSPACEROTATIONDELTA_OFFSET UNITYSDK_OFFSET(0x1611DF90)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETTIMELINEMOVEMENTDELTA_OFFSET UNITYSDK_OFFSET(0x1611DC20)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GET_ADDITIONALRIGIDBODY2DMOVEMENT_OFFSET UNITYSDK_OFFSET(0x1611B580)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GET_ADDITIONALSCALE_OFFSET UNITYSDK_OFFSET(0x1611CBD0)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GET_PREVIOUSRIGIDBODYROOTMOTION2D_OFFSET UNITYSDK_OFFSET(0x1611B550)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GET_PREVIOUSRIGIDBODYROOTMOTION3D_OFFSET UNITYSDK_OFFSET(0x1611B560)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GET_ROOTMOTIONBONE_OFFSET UNITYSDK_OFFSET(0x1611B510)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GET_SKELETONANIMATIONUSESFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1611B5A0)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GET_TARGETSKELETONANIMATIONCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1611CC90)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GET_TARGETSKELETONCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1611CBF0)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GET_USESRIGIDBODY_OFFSET UNITYSDK_OFFSET(0x1611B520)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_HANDLEUPDATELOCAL_OFFSET UNITYSDK_OFFSET(0x1611DD80)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1611CB70)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_PHYSICSUPDATE_OFFSET UNITYSDK_OFFSET(0x1611BC70)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_REMOVE_PHYSICSUPDATEROOTMOTIONOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1611B490)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_REMOVE_PROCESSROOTMOTIONOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1611B390)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_RESET_OFFSET UNITYSDK_OFFSET(0x16113BE0)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_SETEFFECTIVEBONEOFFSETSTO_OFFSET UNITYSDK_OFFSET(0x1611E550)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_SETROOTMOTIONBONE_OFFSET UNITYSDK_OFFSET(0x1611BA00)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_SET_ADDITIONALRIGIDBODY2DMOVEMENT_OFFSET UNITYSDK_OFFSET(0x1611B590)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_START_OFFSET UNITYSDK_OFFSET(0x16113E10)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_UPDATELASTCONSTRAINTPOS_OFFSET UNITYSDK_OFFSET(0x1611D3B0)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_UPDATELASTCONSTRAINTROTATION_OFFSET UNITYSDK_OFFSET(0x1611D850)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x16114920)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_ADD_PHYSICSUPDATEROOTMOTIONOVERRIDE_OFFSET UNITYSDK_OFFSET(0x14D5C040)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_ADD_PROCESSROOTMOTIONOVERRIDE_OFFSET UNITYSDK_OFFSET(0x14D5BF40)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_ADJUSTROOTMOTIONTODISTANCE_OFFSET UNITYSDK_OFFSET(0x14D5D740)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_APPLYCONSTRAINTTOPOS_OFFSET UNITYSDK_OFFSET(0x14D5DA20)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_APPLYCONSTRAINTTOROTATION_OFFSET UNITYSDK_OFFSET(0x14D5DE30)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_APPLYROOTMOTION_OFFSET UNITYSDK_OFFSET(0x14D5E750)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_APPLYTRANSFORMCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x14D5F230)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_CALCULATEANIMATIONSROTATIONDELTA_OFFSET UNITYSDK_OFFSET(0x14D5D2D0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_CLEAREFFECTIVEBONEOFFSETS_OFFSET UNITYSDK_OFFSET(0x14D5D1C0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_CLEARRIGIDBODYTEMPMOVEMENT_OFFSET UNITYSDK_OFFSET(0x14D5D1E0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_FINDRIGIDBODYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x14D5C2E0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_FINDTRANSFORMCONSTRAINTSAFFECTINGBONE_OFFSET UNITYSDK_OFFSET(0x14D5D480)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x14D5C8A0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GATHERTOPLEVELBONES_OFFSET UNITYSDK_OFFSET(0x14D5C450)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETANIMATIONROOTMOTIONINFO_OFFSET UNITYSDK_OFFSET(0x14D54EC0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETANIMATIONROOTMOTIONROTATION_1_OFFSET UNITYSDK_OFFSET(0x14D559C0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETANIMATIONROOTMOTIONROTATION_OFFSET UNITYSDK_OFFSET(0x14D5DE00)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETANIMATIONROOTMOTION_1_OFFSET UNITYSDK_OFFSET(0x14D54600)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETANIMATIONROOTMOTION_OFFSET UNITYSDK_OFFSET(0x14D5D9F0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETCONSTRAINTLASTPOSINDEX_OFFSET UNITYSDK_OFFSET(0x14D5E1F0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETSCALEAFFECTINGROOTMOTION_1_OFFSET UNITYSDK_OFFSET(0x14D5CFF0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETSCALEAFFECTINGROOTMOTION_OFFSET UNITYSDK_OFFSET(0x14D5D9D0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETSKELETONSPACEMOVEMENTDELTA_OFFSET UNITYSDK_OFFSET(0x14D5E680)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETSKELETONSPACEROTATIONDELTA_OFFSET UNITYSDK_OFFSET(0x14D5E720)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GETTIMELINEMOVEMENTDELTA_OFFSET UNITYSDK_OFFSET(0x14D5E3B0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GET_ADDITIONALRIGIDBODY2DMOVEMENT_OFFSET UNITYSDK_OFFSET(0x14D5C1B0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GET_ADDITIONALSCALE_OFFSET UNITYSDK_OFFSET(0x14D5D2C0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GET_PREVIOUSRIGIDBODYROOTMOTION2D_OFFSET UNITYSDK_OFFSET(0x14D5C180)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GET_PREVIOUSRIGIDBODYROOTMOTION3D_OFFSET UNITYSDK_OFFSET(0x14D5C190)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GET_ROOTMOTIONBONE_OFFSET UNITYSDK_OFFSET(0x14D5C140)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GET_SKELETONANIMATIONUSESFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x14D5C1D0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GET_TARGETSKELETONANIMATIONCOMPONENT_OFFSET UNITYSDK_OFFSET(0x14D5D380)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GET_TARGETSKELETONCOMPONENT_OFFSET UNITYSDK_OFFSET(0x14D5D2E0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_GET_USESRIGIDBODY_OFFSET UNITYSDK_OFFSET(0x14D5C150)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_HANDLEUPDATELOCAL_OFFSET UNITYSDK_OFFSET(0x14D5E510)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x14D5D260)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_PHYSICSUPDATE_OFFSET UNITYSDK_OFFSET(0x14D5C8E0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_REMOVE_PHYSICSUPDATEROOTMOTIONOVERRIDE_OFFSET UNITYSDK_OFFSET(0x14D5C0C0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_REMOVE_PROCESSROOTMOTIONOVERRIDE_OFFSET UNITYSDK_OFFSET(0x14D5BFC0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_RESET_OFFSET UNITYSDK_OFFSET(0x14D55330)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_SETEFFECTIVEBONEOFFSETSTO_OFFSET UNITYSDK_OFFSET(0x14D5ED00)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_SETROOTMOTIONBONE_OFFSET UNITYSDK_OFFSET(0x14D5C690)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_SET_ADDITIONALRIGIDBODY2DMOVEMENT_OFFSET UNITYSDK_OFFSET(0x14D5C1C0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_START_OFFSET UNITYSDK_OFFSET(0x14D55590)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_UPDATELASTCONSTRAINTPOS_OFFSET UNITYSDK_OFFSET(0x14D5DC70)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_UPDATELASTCONSTRAINTROTATION_OFFSET UNITYSDK_OFFSET(0x14D5E070)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x14D55FD0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRootMotionBase_TypeDefinitionIndex = 40577;
+	inline static constexpr unsigned int SkeletonRootMotionBase_TypeDefinitionIndex = 41404;
 
 	class SkeletonRootMotionBase : public ::UnityEngine::MonoBehaviour
 	{
@@ -112,24 +112,24 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void add_ProcessRootMotionOverride(::Spine::Unity::SkeletonRootMotionBase_RootMotionDelegate* value)
+		::System::Void add_ProcessRootMotionOverride(::Spine::Unity::SkeletonRootMotionBase_RootMotionDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRootMotionBase_RootMotionDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_ADD_PROCESSROOTMOTIONOVERRIDE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRootMotionBase_RootMotionDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_ADD_PROCESSROOTMOTIONOVERRIDE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_ProcessRootMotionOverride(::Spine::Unity::SkeletonRootMotionBase_RootMotionDelegate* value)
+		::System::Void remove_ProcessRootMotionOverride(::Spine::Unity::SkeletonRootMotionBase_RootMotionDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRootMotionBase_RootMotionDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_REMOVE_PROCESSROOTMOTIONOVERRIDE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRootMotionBase_RootMotionDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_REMOVE_PROCESSROOTMOTIONOVERRIDE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_PhysicsUpdateRootMotionOverride(::Spine::Unity::SkeletonRootMotionBase_RootMotionDelegate* value)
+		::System::Void add_PhysicsUpdateRootMotionOverride(::Spine::Unity::SkeletonRootMotionBase_RootMotionDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRootMotionBase_RootMotionDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_ADD_PHYSICSUPDATEROOTMOTIONOVERRIDE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRootMotionBase_RootMotionDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_ADD_PHYSICSUPDATEROOTMOTIONOVERRIDE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_PhysicsUpdateRootMotionOverride(::Spine::Unity::SkeletonRootMotionBase_RootMotionDelegate* value)
+		::System::Void remove_PhysicsUpdateRootMotionOverride(::Spine::Unity::SkeletonRootMotionBase_RootMotionDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRootMotionBase_RootMotionDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_REMOVE_PHYSICSUPDATEROOTMOTIONOVERRIDE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRootMotionBase_RootMotionDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_REMOVE_PHYSICSUPDATEROOTMOTIONOVERRIDE_OFFSET))(this, a1);
 		}
 
 		::Spine::Bone* get_RootMotionBone()
@@ -157,9 +157,9 @@ namespace Spine::Unity
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GET_ADDITIONALRIGIDBODY2DMOVEMENT_OFFSET))(this);
 		}
 
-		::System::Void set_AdditionalRigidbody2DMovement(::UnityEngine::Vector2 value)
+		::System::Void set_AdditionalRigidbody2DMovement(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_SET_ADDITIONALRIGIDBODY2DMOVEMENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_SET_ADDITIONALRIGIDBODY2DMOVEMENT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_SkeletonAnimationUsesFixedUpdate()
@@ -182,9 +182,9 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_FIXEDUPDATE_OFFSET))(this);
 		}
 
-		::System::Void PhysicsUpdate(::System::Boolean skeletonAnimationUsesFixedUpdate)
+		::System::Void PhysicsUpdate(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_PHYSICSUPDATE_OFFSET))(this, skeletonAnimationUsesFixedUpdate);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_PHYSICSUPDATE_OFFSET))(this, a1);
 		}
 
 		::System::Void OnDisable()
@@ -217,64 +217,64 @@ namespace Spine::Unity
 			return ((::Spine::Unity::ISkeletonAnimation*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GET_TARGETSKELETONANIMATIONCOMPONENT_OFFSET))(this);
 		}
 
-		::System::Void SetRootMotionBone(::System::String* name)
+		::System::Void SetRootMotionBone(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_SETROOTMOTIONBONE_OFFSET))(this, name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_SETROOTMOTIONBONE_OFFSET))(this, a1);
 		}
 
-		::System::Void AdjustRootMotionToDistance(::UnityEngine::Vector2 distanceToTarget, ::System::Int32 trackIndex, ::System::Boolean adjustX, ::System::Boolean adjustY, ::System::Single minX, ::System::Single maxX, ::System::Single minY, ::System::Single maxY, ::System::Boolean allowXTranslation, ::System::Boolean allowYTranslation)
+		::System::Void AdjustRootMotionToDistance(::UnityEngine::Vector2 a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Single a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::System::Boolean a9, ::System::Boolean a10)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_ADJUSTROOTMOTIONTODISTANCE_OFFSET))(this, distanceToTarget, trackIndex, adjustX, adjustY, minX, maxX, minY, maxY, allowXTranslation, allowYTranslation);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_ADJUSTROOTMOTIONTODISTANCE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
-		::UnityEngine::Vector2 GetAnimationRootMotion(::Spine::Animation* animation)
+		::UnityEngine::Vector2 GetAnimationRootMotion(::Spine::Animation* a1)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::Spine::Animation*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GETANIMATIONROOTMOTION_OFFSET))(this, animation);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::Spine::Animation*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GETANIMATIONROOTMOTION_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector2 GetAnimationRootMotion_1(::System::Single startTime, ::System::Single endTime, ::Spine::Animation* animation)
+		::UnityEngine::Vector2 GetAnimationRootMotion_1(::System::Single a1, ::System::Single a2, ::Spine::Animation* a3)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Single, ::System::Single, ::Spine::Animation*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GETANIMATIONROOTMOTION_1_OFFSET))(this, startTime, endTime, animation);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Single, ::System::Single, ::Spine::Animation*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GETANIMATIONROOTMOTION_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single GetAnimationRootMotionRotation(::Spine::Animation* animation)
+		::System::Single GetAnimationRootMotionRotation(::Spine::Animation* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::Spine::Animation*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GETANIMATIONROOTMOTIONROTATION_OFFSET))(this, animation);
+			return ((::System::Single(*)(::PVOID, ::Spine::Animation*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GETANIMATIONROOTMOTIONROTATION_OFFSET))(this, a1);
 		}
 
-		::System::Single GetAnimationRootMotionRotation_1(::System::Single startTime, ::System::Single endTime, ::Spine::Animation* animation)
+		::System::Single GetAnimationRootMotionRotation_1(::System::Single a1, ::System::Single a2, ::Spine::Animation* a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::Spine::Animation*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GETANIMATIONROOTMOTIONROTATION_1_OFFSET))(this, startTime, endTime, animation);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::Spine::Animation*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GETANIMATIONROOTMOTIONROTATION_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ApplyConstraintToPos(::Spine::Animation* animation, ::Spine::TransformConstraint* constraint, ::System::Int32 constraintIndex, ::System::Single time, ::System::Boolean useLastConstraintPos, ::UnityEngine::Vector2& pos)
+		::System::Void ApplyConstraintToPos(::Spine::Animation* a1, ::Spine::TransformConstraint* a2, ::System::Int32 a3, ::System::Single a4, ::System::Boolean a5, ::UnityEngine::Vector2& a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Animation*, ::Spine::TransformConstraint*, ::System::Int32, ::System::Single, ::System::Boolean, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_APPLYCONSTRAINTTOPOS_OFFSET))(this, animation, constraint, constraintIndex, time, useLastConstraintPos, pos);
+			return ((::System::Void(*)(::PVOID, ::Spine::Animation*, ::Spine::TransformConstraint*, ::System::Int32, ::System::Single, ::System::Boolean, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_APPLYCONSTRAINTTOPOS_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void ApplyConstraintToRotation(::Spine::Animation* animation, ::Spine::TransformConstraint* constraint, ::System::Int32 constraintIndex, ::System::Single time, ::System::Boolean useLastConstraintRotation, ::System::Single& rotation)
+		::System::Void ApplyConstraintToRotation(::Spine::Animation* a1, ::Spine::TransformConstraint* a2, ::System::Int32 a3, ::System::Single a4, ::System::Boolean a5, ::System::Single& a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Animation*, ::Spine::TransformConstraint*, ::System::Int32, ::System::Single, ::System::Boolean, ::System::Single&))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_APPLYCONSTRAINTTOROTATION_OFFSET))(this, animation, constraint, constraintIndex, time, useLastConstraintRotation, rotation);
+			return ((::System::Void(*)(::PVOID, ::Spine::Animation*, ::Spine::TransformConstraint*, ::System::Int32, ::System::Single, ::System::Boolean, ::System::Single&))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_APPLYCONSTRAINTTOROTATION_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void UpdateLastConstraintPos(::Il2CppArray<::Spine::TransformConstraint*>* transformConstraintsItems)
+		::System::Void UpdateLastConstraintPos(::Il2CppArray<::Spine::TransformConstraint*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Spine::TransformConstraint*>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_UPDATELASTCONSTRAINTPOS_OFFSET))(this, transformConstraintsItems);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Spine::TransformConstraint*>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_UPDATELASTCONSTRAINTPOS_OFFSET))(this, a1);
 		}
 
-		::System::Void UpdateLastConstraintRotation(::Il2CppArray<::Spine::TransformConstraint*>* transformConstraintsItems)
+		::System::Void UpdateLastConstraintRotation(::Il2CppArray<::Spine::TransformConstraint*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Spine::TransformConstraint*>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_UPDATELASTCONSTRAINTROTATION_OFFSET))(this, transformConstraintsItems);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Spine::TransformConstraint*>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_UPDATELASTCONSTRAINTROTATION_OFFSET))(this, a1);
 		}
 
-		::Spine::Unity::SkeletonRootMotionBase_RootMotionInfo GetAnimationRootMotionInfo(::Spine::Animation* animation, ::System::Single currentTime)
+		::Spine::Unity::SkeletonRootMotionBase_RootMotionInfo GetAnimationRootMotionInfo(::Spine::Animation* a1, ::System::Single a2)
 		{
-			return ((::Spine::Unity::SkeletonRootMotionBase_RootMotionInfo(*)(::PVOID, ::Spine::Animation*, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GETANIMATIONROOTMOTIONINFO_OFFSET))(this, animation, currentTime);
+			return ((::Spine::Unity::SkeletonRootMotionBase_RootMotionInfo(*)(::PVOID, ::Spine::Animation*, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GETANIMATIONROOTMOTIONINFO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 GetConstraintLastPosIndex(::System::Int32 constraintIndex)
+		::System::Int32 GetConstraintLastPosIndex(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GETCONSTRAINTLASTPOSINDEX_OFFSET))(this, constraintIndex);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GETCONSTRAINTLASTPOSINDEX_OFFSET))(this, a1);
 		}
 
 		::System::Void FindTransformConstraintsAffectingBone()
@@ -282,9 +282,9 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_FINDTRANSFORMCONSTRAINTSAFFECTINGBONE_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector2 GetTimelineMovementDelta(::System::Single startTime, ::System::Single endTime, ::Spine::TranslateXTimeline* xTimeline, ::Spine::TranslateYTimeline* yTimeline, ::Spine::Animation* animation)
+		::UnityEngine::Vector2 GetTimelineMovementDelta(::System::Single a1, ::System::Single a2, ::Spine::TranslateXTimeline* a3, ::Spine::TranslateYTimeline* a4, ::Spine::Animation* a5)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Single, ::System::Single, ::Spine::TranslateXTimeline*, ::Spine::TranslateYTimeline*, ::Spine::Animation*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GETTIMELINEMOVEMENTDELTA_OFFSET))(this, startTime, endTime, xTimeline, yTimeline, animation);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Single, ::System::Single, ::Spine::TranslateXTimeline*, ::Spine::TranslateYTimeline*, ::Spine::Animation*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GETTIMELINEMOVEMENTDELTA_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void GatherTopLevelBones()
@@ -292,14 +292,14 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GATHERTOPLEVELBONES_OFFSET))(this);
 		}
 
-		::System::Void HandleUpdateLocal(::Spine::Unity::ISkeletonAnimation* animatedSkeletonComponent)
+		::System::Void HandleUpdateLocal(::Spine::Unity::ISkeletonAnimation* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::ISkeletonAnimation*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_HANDLEUPDATELOCAL_OFFSET))(this, animatedSkeletonComponent);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::ISkeletonAnimation*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_HANDLEUPDATELOCAL_OFFSET))(this, a1);
 		}
 
-		::System::Void ApplyRootMotion(::UnityEngine::Vector2 skeletonTranslationDelta, ::System::Single skeletonRotationDelta, ::UnityEngine::Vector2 parentBoneScale, ::System::Boolean skeletonAnimationUsesFixedUpdate)
+		::System::Void ApplyRootMotion(::UnityEngine::Vector2 a1, ::System::Single a2, ::UnityEngine::Vector2 a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_APPLYROOTMOTION_OFFSET))(this, skeletonTranslationDelta, skeletonRotationDelta, parentBoneScale, skeletonAnimationUsesFixedUpdate);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_APPLYROOTMOTION_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void ApplyTransformConstraints()
@@ -312,29 +312,29 @@ namespace Spine::Unity
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GETSCALEAFFECTINGROOTMOTION_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector2 GetScaleAffectingRootMotion_1(::UnityEngine::Vector2& parentBoneScale)
+		::UnityEngine::Vector2 GetScaleAffectingRootMotion_1(::UnityEngine::Vector2& a1)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GETSCALEAFFECTINGROOTMOTION_1_OFFSET))(this, parentBoneScale);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GETSCALEAFFECTINGROOTMOTION_1_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector2 GetSkeletonSpaceMovementDelta(::UnityEngine::Vector2 boneLocalDelta, ::UnityEngine::Vector2& parentBoneScale, ::UnityEngine::Vector2& totalScale)
+		::UnityEngine::Vector2 GetSkeletonSpaceMovementDelta(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2& a2, ::UnityEngine::Vector2& a3)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2&, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GETSKELETONSPACEMOVEMENTDELTA_OFFSET))(this, boneLocalDelta, parentBoneScale, totalScale);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2&, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GETSKELETONSPACEMOVEMENTDELTA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single GetSkeletonSpaceRotationDelta(::System::Single boneLocalDelta, ::UnityEngine::Vector2 totalScaleAffectingRootMotion)
+		::System::Single GetSkeletonSpaceRotationDelta(::System::Single a1, ::UnityEngine::Vector2 a2)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GETSKELETONSPACEROTATIONDELTA_OFFSET))(this, boneLocalDelta, totalScaleAffectingRootMotion);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_GETSKELETONSPACEROTATIONDELTA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetEffectiveBoneOffsetsTo(::UnityEngine::Vector2 displacementSkeletonSpace, ::System::Single rotationSkeletonSpace, ::UnityEngine::Vector2 parentBoneScale)
+		::System::Void SetEffectiveBoneOffsetsTo(::UnityEngine::Vector2 a1, ::System::Single a2, ::UnityEngine::Vector2 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_SETEFFECTIVEBONEOFFSETSTO_OFFSET))(this, displacementSkeletonSpace, rotationSkeletonSpace, parentBoneScale);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_SETEFFECTIVEBONEOFFSETSTO_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ClearEffectiveBoneOffsets(::UnityEngine::Vector2 parentBoneScale)
+		::System::Void ClearEffectiveBoneOffsets(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_CLEAREFFECTIVEBONEOFFSETS_OFFSET))(this, parentBoneScale);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_CLEAREFFECTIVEBONEOFFSETS_OFFSET))(this, a1);
 		}
 
 		::System::Void ClearRigidbodyTempMovement()

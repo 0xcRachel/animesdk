@@ -8,31 +8,31 @@ namespace RPG::Client { class PhotoGraphFilterImage; }
 namespace RPG::Client { class PhotoGraphUtils___c__DisplayClass134_0; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define RPG_CLIENT_PHOTOGRAPHUTILS__GENERATESCREENCAPTURECOROUTINE_D__134_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xF6D4990)
-#define RPG_CLIENT_PHOTOGRAPHUTILS__GENERATESCREENCAPTURECOROUTINE_D__134_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xF6D4EC0)
-#define RPG_CLIENT_PHOTOGRAPHUTILS__GENERATESCREENCAPTURECOROUTINE_D__134_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xF6D4F20)
-#define RPG_CLIENT_PHOTOGRAPHUTILS__GENERATESCREENCAPTURECOROUTINE_D__134_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xF6D4ED0)
-#define RPG_CLIENT_PHOTOGRAPHUTILS__GENERATESCREENCAPTURECOROUTINE_D__134_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF6D4980)
-#define RPG_CLIENT_PHOTOGRAPHUTILS__GENERATESCREENCAPTURECOROUTINE_D__134__CTOR_OFFSET UNITYSDK_OFFSET(0xF6D2840)
+#define RPG_CLIENT_PHOTOGRAPHUTILS__GENERATESCREENCAPTURECOROUTINE_D__134_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x14706750)
+#define RPG_CLIENT_PHOTOGRAPHUTILS__GENERATESCREENCAPTURECOROUTINE_D__134_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x14706C40)
+#define RPG_CLIENT_PHOTOGRAPHUTILS__GENERATESCREENCAPTURECOROUTINE_D__134_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x14706CA0)
+#define RPG_CLIENT_PHOTOGRAPHUTILS__GENERATESCREENCAPTURECOROUTINE_D__134_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x14706C50)
+#define RPG_CLIENT_PHOTOGRAPHUTILS__GENERATESCREENCAPTURECOROUTINE_D__134_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14706740)
+#define RPG_CLIENT_PHOTOGRAPHUTILS__GENERATESCREENCAPTURECOROUTINE_D__134__CTOR_OFFSET UNITYSDK_OFFSET(0x147045B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphUtils__GenerateScreenCaptureCoroutine_d__134_TypeDefinitionIndex = 64023;
+	inline static constexpr unsigned int PhotoGraphUtils__GenerateScreenCaptureCoroutine_d__134_TypeDefinitionIndex = 64944;
 
 	class PhotoGraphUtils__GenerateScreenCaptureCoroutine_d__134 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise_1<::Unity::Collections::NativeArray_1<::System::Byte>>* promise; // 0x10
-		::RPG::Client::PhotoGraphUtils___c__DisplayClass134_0* __8__1; // 0x18
-		::System::Object* __2__current; // 0x20
-		::RPG::Client::PhotoGraphFilterImage* image; // 0x28
-		::System::Int32 _i_5__2; // 0x30
-		::System::Int32 __1__state; // 0x34
-		::RPG::Client::PhotoGraphUtils_StorageFormatType formatType; // 0x38
+		::System::Object* __2__current; // 0x10
+		::RPG::Client::PhotoGraphFilterImage* image; // 0x18
+		::RPG::Client::Promises::Promise_1<::Unity::Collections::NativeArray_1<::System::Byte>>* promise; // 0x20
+		::RPG::Client::PhotoGraphUtils___c__DisplayClass134_0* __8__1; // 0x28
+		::RPG::Client::PhotoGraphUtils_StorageFormatType formatType; // 0x30
+		::System::Int32 _i_5__2; // 0x34
+		::System::Int32 __1__state; // 0x38
 
-		::System::Void _ctor(::System::Int32 __1__state)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHUTILS__GENERATESCREENCAPTURECOROUTINE_D__134__CTOR_OFFSET))(this, __1__state);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHUTILS__GENERATESCREENCAPTURECOROUTINE_D__134__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()

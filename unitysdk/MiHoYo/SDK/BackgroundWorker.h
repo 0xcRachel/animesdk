@@ -4,12 +4,12 @@
 
 namespace MiHoYo::SDK { class BackgroundWorker_BackgroundTask; }
 
-#define MIHOYO_SDK_BACKGROUNDWORKER_STARTBACKGROUNDTASK_OFFSET UNITYSDK_OFFSET(0x173660C0)
-#define MIHOYO_SDK_BACKGROUNDWORKER__CTOR_OFFSET UNITYSDK_OFFSET(0x17366200)
+#define MIHOYO_SDK_BACKGROUNDWORKER_STARTBACKGROUNDTASK_OFFSET UNITYSDK_OFFSET(0x144CF580)
+#define MIHOYO_SDK_BACKGROUNDWORKER__CTOR_OFFSET UNITYSDK_OFFSET(0x144CF6B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BackgroundWorker_TypeDefinitionIndex = 42886;
+	inline static constexpr unsigned int BackgroundWorker_TypeDefinitionIndex = 43689;
 
 	class BackgroundWorker : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BACKGROUNDWORKER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Boolean StartBackgroundTask(::MiHoYo::SDK::BackgroundWorker_BackgroundTask* task, ::System::Object* parameter)
+		static ::System::Boolean StartBackgroundTask(::MiHoYo::SDK::BackgroundWorker_BackgroundTask* a1, ::System::Object* a2)
 		{
-			return ((::System::Boolean(*)(::MiHoYo::SDK::BackgroundWorker_BackgroundTask*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BACKGROUNDWORKER_STARTBACKGROUNDTASK_OFFSET))(task, parameter);
+			return ((::System::Boolean(*)(::MiHoYo::SDK::BackgroundWorker_BackgroundTask*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BACKGROUNDWORKER_STARTBACKGROUNDTASK_OFFSET))(a1, a2);
 		}
 	};
 }

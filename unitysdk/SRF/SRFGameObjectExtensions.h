@@ -5,24 +5,24 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define SRF_SRFGAMEOBJECTEXTENSIONS_SETLAYERINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A316A00)
-#define SRF_SRFGAMEOBJECTEXTENSIONS_SETLAYERRECURSIVE_OFFSET UNITYSDK_OFFSET(0x1A3169D0)
+#define SRF_SRFGAMEOBJECTEXTENSIONS_SETLAYERINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B2CC9F0)
+#define SRF_SRFGAMEOBJECTEXTENSIONS_SETLAYERRECURSIVE_OFFSET UNITYSDK_OFFSET(0x1B2CC9C0)
 
 namespace SRF
 {
-	inline static constexpr unsigned int SRFGameObjectExtensions_TypeDefinitionIndex = 33280;
+	inline static constexpr unsigned int SRFGameObjectExtensions_TypeDefinitionIndex = 33562;
 
 	class SRFGameObjectExtensions : public ::System::Object
 	{
 	public:
-		static ::System::Void SetLayerRecursive(::UnityEngine::GameObject* o, ::System::Int32 layer)
+		static ::System::Void SetLayerRecursive(::UnityEngine::GameObject* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + SRF_SRFGAMEOBJECTEXTENSIONS_SETLAYERRECURSIVE_OFFSET))(o, layer);
+			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + SRF_SRFGAMEOBJECTEXTENSIONS_SETLAYERRECURSIVE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetLayerInternal(::UnityEngine::Transform* t, ::System::Int32 layer)
+		static ::System::Void SetLayerInternal(::UnityEngine::Transform* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Transform*, ::System::Int32))((::PBYTE)hIl2Cpp + SRF_SRFGAMEOBJECTEXTENSIONS_SETLAYERINTERNAL_OFFSET))(t, layer);
+			return ((::System::Void(*)(::UnityEngine::Transform*, ::System::Int32))((::PBYTE)hIl2Cpp + SRF_SRFGAMEOBJECTEXTENSIONS_SETLAYERINTERNAL_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -8,29 +8,29 @@ namespace RPG::GameCore { class MazeBuffRow; }
 namespace RPG::GameCore { class StrongChallengeBuffRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBUFFDATA_CREATEBYID_OFFSET UNITYSDK_OFFSET(0x17094C30)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBUFFDATA_GET_BUFFID_OFFSET UNITYSDK_OFFSET(0x17094B60)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBUFFDATA_GET_COST_OFFSET UNITYSDK_OFFSET(0x17094B70)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBUFFDATA_GET_DESCPARAMS_OFFSET UNITYSDK_OFFSET(0x17094C10)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBUFFDATA_GET_DESC_OFFSET UNITYSDK_OFFSET(0x17094BE0)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBUFFDATA_GET_ICON_OFFSET UNITYSDK_OFFSET(0x17094BC0)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBUFFDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x17094B90)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBUFFDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17094CE0)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBUFFDATA_CREATEBYID_OFFSET UNITYSDK_OFFSET(0x18838450)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBUFFDATA_GET_BUFFID_OFFSET UNITYSDK_OFFSET(0x18838380)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBUFFDATA_GET_COST_OFFSET UNITYSDK_OFFSET(0x18838390)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBUFFDATA_GET_DESCPARAMS_OFFSET UNITYSDK_OFFSET(0x18838430)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBUFFDATA_GET_DESC_OFFSET UNITYSDK_OFFSET(0x18838400)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBUFFDATA_GET_ICON_OFFSET UNITYSDK_OFFSET(0x188383E0)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBUFFDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x188383B0)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBUFFDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18838500)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityStrongChallengeBuffData_TypeDefinitionIndex = 57101;
+	inline static constexpr unsigned int ActivityStrongChallengeBuffData_TypeDefinitionIndex = 57891;
 
 	class ActivityStrongChallengeBuffData : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::MazeBuffRow* _MazeBuffRow; // 0x10
-		::RPG::GameCore::StrongChallengeBuffRow* _CostRow; // 0x18
+		::RPG::GameCore::StrongChallengeBuffRow* _CostRow; // 0x10
+		::RPG::GameCore::MazeBuffRow* _MazeBuffRow; // 0x18
 		::System::UInt32 _BuffID_k__BackingField; // 0x20
 
-		::System::Void _ctor(::RPG::GameCore::StrongChallengeBuffRow* costRow, ::RPG::GameCore::MazeBuffRow* mazeBuffRow)
+		::System::Void _ctor(::RPG::GameCore::StrongChallengeBuffRow* a1, ::RPG::GameCore::MazeBuffRow* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StrongChallengeBuffRow*, ::RPG::GameCore::MazeBuffRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBUFFDATA__CTOR_OFFSET))(this, costRow, mazeBuffRow);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StrongChallengeBuffRow*, ::RPG::GameCore::MazeBuffRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBUFFDATA__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 get_BuffID()
@@ -63,9 +63,9 @@ namespace RPG::Client
 			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBUFFDATA_GET_DESCPARAMS_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ActivityStrongChallengeBuffData* CreateByID(::System::UInt32 buffID)
+		static ::RPG::Client::ActivityStrongChallengeBuffData* CreateByID(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ActivityStrongChallengeBuffData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBUFFDATA_CREATEBYID_OFFSET))(buffID);
+			return ((::RPG::Client::ActivityStrongChallengeBuffData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTRONGCHALLENGEBUFFDATA_CREATEBYID_OFFSET))(a1);
 		}
 	};
 }

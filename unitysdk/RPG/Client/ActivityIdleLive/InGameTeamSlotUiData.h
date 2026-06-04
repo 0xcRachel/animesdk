@@ -6,12 +6,12 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamSlotData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_INGAMETEAMSLOTUIDATA_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x608600)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_INGAMETEAMSLOTUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x2268180)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_INGAMETEAMSLOTUIDATA_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x72B7E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_INGAMETEAMSLOTUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x383DB70)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int InGameTeamSlotUiData_TypeDefinitionIndex = 69486;
+	inline static constexpr unsigned int InGameTeamSlotUiData_TypeDefinitionIndex = 70298;
 
 	struct alignas(8) InGameTeamSlotUiData
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client::ActivityIdleLive
 		::RPG::GameCore::ILBattleCharacterLocation PosType; // 0x28
 		::System::Boolean ShowHp; // 0x2C
 
-		::System::Void _ctor(::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData* teamSlotData)
+		::System::Void _ctor(::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_INGAMETEAMSLOTUIDATA__CTOR_OFFSET))(this, teamSlotData);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_INGAMETEAMSLOTUIDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_AvatarId()

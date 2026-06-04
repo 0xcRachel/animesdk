@@ -3,14 +3,17 @@
 #include "unitysdk/RPG/GameCore/ValuePostProcessConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_VP_SIGMOID_METHOD_3_99EC068108000D71_OFFSET UNITYSDK_OFFSET(0x1951E660)
-#define RPG_GAMECORE_VP_SIGMOID_METHOD_3_CA1FAC7460F0171C_OFFSET UNITYSDK_OFFSET(0x1951E5E0)
-#define RPG_GAMECORE_VP_SIGMOID__CTOR_OFFSET UNITYSDK_OFFSET(0x1951E650)
+#define RPG_GAMECORE_VP_SIGMOID_METHOD_3_2012D6FFC937491B_OFFSET UNITYSDK_OFFSET(0x19A7A380)
+#define RPG_GAMECORE_VP_SIGMOID_METHOD_3_99EC068108000D71_OFFSET UNITYSDK_OFFSET(0x19A7A300)
+#define RPG_GAMECORE_VP_SIGMOID_METHOD_3_A553363E7C1C00AE_OFFSET UNITYSDK_OFFSET(0x19A7A360)
+#define RPG_GAMECORE_VP_SIGMOID_METHOD_3_CA1FAC7460F0171C_OFFSET UNITYSDK_OFFSET(0x19A7A280)
+#define RPG_GAMECORE_VP_SIGMOID__CTOR_OFFSET UNITYSDK_OFFSET(0x19A7A2F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VP_Sigmoid_TypeDefinitionIndex = 23050;
+	inline static constexpr unsigned int VP_Sigmoid_TypeDefinitionIndex = 22738;
 
 	class VP_Sigmoid : public ::RPG::GameCore::ValuePostProcessConfig
 	{
@@ -28,6 +31,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_3_99EC068108000D71(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VP_Sigmoid* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VP_Sigmoid*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_SIGMOID_METHOD_3_99EC068108000D71_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_A553363E7C1C00AE(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VP_Sigmoid*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VP_Sigmoid*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_SIGMOID_METHOD_3_A553363E7C1C00AE_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_2012D6FFC937491B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VP_Sigmoid* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VP_Sigmoid*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_SIGMOID_METHOD_3_2012D6FFC937491B_OFFSET))(a1, a2);
 		}
 	};
 }

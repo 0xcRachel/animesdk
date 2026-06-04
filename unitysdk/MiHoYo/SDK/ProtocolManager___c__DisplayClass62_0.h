@@ -7,12 +7,12 @@ namespace MiHoYo::SDK { class ProtocolManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS62_0__CTOR_OFFSET UNITYSDK_OFFSET(0x157BBFF0)
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS62_0__REQUESTLAUNCHPROTOCOL_B__0_OFFSET UNITYSDK_OFFSET(0x157BE000)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS62_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16A32240)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS62_0__REQUESTLAUNCHPROTOCOL_B__0_OFFSET UNITYSDK_OFFSET(0x16A33FE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolManager___c__DisplayClass62_0_TypeDefinitionIndex = 7097;
+	inline static constexpr unsigned int ProtocolManager___c__DisplayClass62_0_TypeDefinitionIndex = 8000;
 
 	class ProtocolManager___c__DisplayClass62_0 : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS62_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _RequestLaunchProtocol_b__0(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void _RequestLaunchProtocol_b__0(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS62_0__REQUESTLAUNCHPROTOCOL_B__0_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS62_0__REQUESTLAUNCHPROTOCOL_B__0_OFFSET))(this, a1);
 		}
 	};
 }

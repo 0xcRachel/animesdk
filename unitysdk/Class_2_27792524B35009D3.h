@@ -6,46 +6,46 @@ namespace RPG::GameCore { class ClockFaceEmotion; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_27792524B35009D3_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE650800)
-#define CLASS_2_27792524B35009D3_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE650DB0)
-#define CLASS_2_27792524B35009D3_METHOD_2_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0xE650900)
-#define CLASS_2_27792524B35009D3_METHOD_2_21EF1E5312EEE5C3_OFFSET UNITYSDK_OFFSET(0xE651420)
-#define CLASS_2_27792524B35009D3_METHOD_2_479759059E440327_OFFSET UNITYSDK_OFFSET(0xE650E90)
-#define CLASS_2_27792524B35009D3_METHOD_2_4A13BD8A67015544_OFFSET UNITYSDK_OFFSET(0xE6510F0)
-#define CLASS_2_27792524B35009D3_METHOD_2_89FADE33F34E4AE0_OFFSET UNITYSDK_OFFSET(0xE6513A0)
-#define CLASS_2_27792524B35009D3_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xE650D30)
-#define CLASS_2_27792524B35009D3_METHOD_2_9C45022812211693_OFFSET UNITYSDK_OFFSET(0xE651590)
-#define CLASS_2_27792524B35009D3_METHOD_2_AA169839CB93802A_OFFSET UNITYSDK_OFFSET(0xE651010)
-#define CLASS_2_27792524B35009D3_METHOD_2_DEF989BF0A5D4373_OFFSET UNITYSDK_OFFSET(0xE650F50)
-#define CLASS_2_27792524B35009D3_ONMODELARTLOADED_OFFSET UNITYSDK_OFFSET(0xE6508B0)
-#define CLASS_2_27792524B35009D3_ONMODELARTUNLOADED_OFFSET UNITYSDK_OFFSET(0xE650860)
-#define CLASS_2_27792524B35009D3__CTOR_OFFSET UNITYSDK_OFFSET(0xE651770)
-#define CLASS_2_27792524B35009D3___IFIXBASEPROXY_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE651780)
+#define CLASS_2_27792524B35009D3_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15880620)
+#define CLASS_2_27792524B35009D3_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x15880B60)
+#define CLASS_2_27792524B35009D3_METHOD_2_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x15880720)
+#define CLASS_2_27792524B35009D3_METHOD_2_21EF1E5312EEE5C3_OFFSET UNITYSDK_OFFSET(0x158811D0)
+#define CLASS_2_27792524B35009D3_METHOD_2_479759059E440327_OFFSET UNITYSDK_OFFSET(0x15880C40)
+#define CLASS_2_27792524B35009D3_METHOD_2_4A13BD8A67015544_OFFSET UNITYSDK_OFFSET(0x15880EA0)
+#define CLASS_2_27792524B35009D3_METHOD_2_89FADE33F34E4AE0_OFFSET UNITYSDK_OFFSET(0x15881150)
+#define CLASS_2_27792524B35009D3_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x15880AE0)
+#define CLASS_2_27792524B35009D3_METHOD_2_9C45022812211693_OFFSET UNITYSDK_OFFSET(0x15881340)
+#define CLASS_2_27792524B35009D3_METHOD_2_AA169839CB93802A_OFFSET UNITYSDK_OFFSET(0x15880DC0)
+#define CLASS_2_27792524B35009D3_METHOD_2_DEF989BF0A5D4373_OFFSET UNITYSDK_OFFSET(0x15880D00)
+#define CLASS_2_27792524B35009D3_ONMODELARTLOADED_OFFSET UNITYSDK_OFFSET(0x158806D0)
+#define CLASS_2_27792524B35009D3_ONMODELARTUNLOADED_OFFSET UNITYSDK_OFFSET(0x15880680)
+#define CLASS_2_27792524B35009D3__CTOR_OFFSET UNITYSDK_OFFSET(0x15881520)
+#define CLASS_2_27792524B35009D3___IFIXBASEPROXY_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x15881530)
 
-inline static constexpr unsigned int Class_2_27792524B35009D3_TypeDefinitionIndex = 52751;
+inline static constexpr unsigned int Class_2_27792524B35009D3_TypeDefinitionIndex = 53456;
 
 class Class_2_27792524B35009D3 : public ::RPG::GameCore::GameComponentBase
 {
 public:
-	// static const ::System::String* Field_2_10; // 0x0
-	// static const ::System::String* Field_2_11; // 0x0
-	// static const ::System::Int32 Field_2_12 = 0x168; // 0x0
-	// static const ::System::Int32 Field_2_13 = 0xC; // 0x0
-	// static const ::System::Int32 Field_2_14 = 0x3C; // 0x0
-	// static const ::System::Int32 Field_2_15 = 0x2D0; // 0x0
-	// static const ::System::Single Field_2_16; // 0x0
-	// static const ::System::Single Field_2_17; // 0x0
-	// static const ::System::Single Field_2_18; // 0x0
-	::UnityEngine::Transform* Field_2_0; // 0x18
-	::UnityEngine::Transform* Field_2_1; // 0x20
-	::RPG::GameCore::ClockFaceEmotion* Field_2_9; // 0x28
-	::System::Single Field_2_3; // 0x30
-	::System::Single Field_2_4; // 0x34
-	::System::Single Field_2_5; // 0x38
-	::System::Single Field_2_8; // 0x3C
-	::System::Single Field_2_6; // 0x40
-	::System::Single Field_2_7; // 0x44
-	::System::Int32 Field_2_2; // 0x48
+	// static const ::System::String* Field_2_0; // 0x0
+	// static const ::System::String* Field_2_1; // 0x0
+	// static const ::System::Int32 Field_2_2 = 0x168; // 0x0
+	// static const ::System::Int32 Field_2_3 = 0xC; // 0x0
+	// static const ::System::Int32 Field_2_4 = 0x3C; // 0x0
+	// static const ::System::Int32 Field_2_5 = 0x2D0; // 0x0
+	// static const ::System::Single Field_2_6; // 0x0
+	// static const ::System::Single Field_2_7; // 0x0
+	// static const ::System::Single Field_2_8; // 0x0
+	::RPG::GameCore::ClockFaceEmotion* Field_2_9; // 0x18
+	::UnityEngine::Transform* Field_2_10; // 0x20
+	::UnityEngine::Transform* Field_2_11; // 0x28
+	::System::Single Field_2_12; // 0x30
+	::System::Single Field_2_13; // 0x34
+	::System::Single Field_2_14; // 0x38
+	::System::Int32 Field_2_15; // 0x3C
+	::System::Single Field_2_16; // 0x40
+	::System::Single Field_2_17; // 0x44
+	::System::Single Field_2_18; // 0x48
 
 	::System::Void _ctor()
 	{
@@ -117,8 +117,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_27792524B35009D3_METHOD_2_21EF1E5312EEE5C3_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void __iFixBaseProxy_LateUpdate(::System::Single P0)
+	::System::Void __iFixBaseProxy_LateUpdate(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_27792524B35009D3___IFIXBASEPROXY_LATEUPDATE_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_27792524B35009D3___IFIXBASEPROXY_LATEUPDATE_OFFSET))(this, a1);
 	}
 };

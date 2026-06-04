@@ -6,20 +6,20 @@ namespace RPG::GameCore { class CloseRogueNousPages; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_2_481D7B32C371E378_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFC37F10)
-#define CLASS_2_481D7B32C371E378_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFC37F50)
-#define CLASS_2_481D7B32C371E378_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xFC38010)
-#define CLASS_2_481D7B32C371E378_TICK_OFFSET UNITYSDK_OFFSET(0xFC38060)
-#define CLASS_2_481D7B32C371E378__CTOR_OFFSET UNITYSDK_OFFSET(0xFC37F00)
+#define CLASS_2_481D7B32C371E378_DISPOSE_OFFSET UNITYSDK_OFFSET(0x153A38F0)
+#define CLASS_2_481D7B32C371E378_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x153A3930)
+#define CLASS_2_481D7B32C371E378_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x153A39F0)
+#define CLASS_2_481D7B32C371E378_TICK_OFFSET UNITYSDK_OFFSET(0x153A3A40)
+#define CLASS_2_481D7B32C371E378__CTOR_OFFSET UNITYSDK_OFFSET(0x153A38E0)
 
-inline static constexpr unsigned int Class_2_481D7B32C371E378_TypeDefinitionIndex = 53514;
+inline static constexpr unsigned int Class_2_481D7B32C371E378_TypeDefinitionIndex = 54227;
 
 class Class_2_481D7B32C371E378 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	// static const ::System::String* Field_2_2; // 0x0
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::CloseRogueNousPages* Field_2_0; // 0x20
+	// static const ::System::String* Field_2_0; // 0x0
+	::RPG::GameCore::CloseRogueNousPages* Field_2_1; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_2; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CloseRogueNousPages* a2)
 	{

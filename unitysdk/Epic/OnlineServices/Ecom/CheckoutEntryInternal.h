@@ -6,15 +6,15 @@ namespace Epic::OnlineServices::Ecom { class CheckoutEntry; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ECOM_CHECKOUTENTRYINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x234B130)
-#define EPIC_ONLINESERVICES_ECOM_CHECKOUTENTRYINTERNAL_GET_OFFERID_OFFSET UNITYSDK_OFFSET(0x234ADE0)
-#define EPIC_ONLINESERVICES_ECOM_CHECKOUTENTRYINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x234B010)
-#define EPIC_ONLINESERVICES_ECOM_CHECKOUTENTRYINTERNAL_SET_OFFERID_OFFSET UNITYSDK_OFFSET(0x234AE90)
-#define EPIC_ONLINESERVICES_ECOM_CHECKOUTENTRYINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x234AF40)
+#define EPIC_ONLINESERVICES_ECOM_CHECKOUTENTRYINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x38FC000)
+#define EPIC_ONLINESERVICES_ECOM_CHECKOUTENTRYINTERNAL_GET_OFFERID_OFFSET UNITYSDK_OFFSET(0x38FBDC0)
+#define EPIC_ONLINESERVICES_ECOM_CHECKOUTENTRYINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x38FBFF0)
+#define EPIC_ONLINESERVICES_ECOM_CHECKOUTENTRYINTERNAL_SET_OFFERID_OFFSET UNITYSDK_OFFSET(0x38FBE70)
+#define EPIC_ONLINESERVICES_ECOM_CHECKOUTENTRYINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x38FBF20)
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int CheckoutEntryInternal_TypeDefinitionIndex = 42143;
+	inline static constexpr unsigned int CheckoutEntryInternal_TypeDefinitionIndex = 42946;
 
 	struct alignas(8) CheckoutEntryInternal
 	{
@@ -26,19 +26,19 @@ namespace Epic::OnlineServices::Ecom
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_CHECKOUTENTRYINTERNAL_GET_OFFERID_OFFSET))(this);
 		}
 
-		::System::Void set_OfferId(::System::String* value)
+		::System::Void set_OfferId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_CHECKOUTENTRYINTERNAL_SET_OFFERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_CHECKOUTENTRYINTERNAL_SET_OFFERID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Ecom::CheckoutEntry* other)
+		::System::Void Set(::Epic::OnlineServices::Ecom::CheckoutEntry* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::CheckoutEntry*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_CHECKOUTENTRYINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::CheckoutEntry*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_CHECKOUTENTRYINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_CHECKOUTENTRYINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_CHECKOUTENTRYINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

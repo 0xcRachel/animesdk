@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByPamActionPhaseTalk; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9E604A814FB6C0E9_EVALUATE_OFFSET UNITYSDK_OFFSET(0xED65020)
-#define CLASS_3_9E604A814FB6C0E9__CTOR_OFFSET UNITYSDK_OFFSET(0xED64FF0)
+#define CLASS_3_9E604A814FB6C0E9_EVALUATE_OFFSET UNITYSDK_OFFSET(0x172FC990)
+#define CLASS_3_9E604A814FB6C0E9__CTOR_OFFSET UNITYSDK_OFFSET(0x172FC960)
 
-inline static constexpr unsigned int Class_3_9E604A814FB6C0E9_TypeDefinitionIndex = 49010;
+inline static constexpr unsigned int Class_3_9E604A814FB6C0E9_TypeDefinitionIndex = 49676;
 
 class Class_3_9E604A814FB6C0E9 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByPamActionPhaseTalk*>
 {

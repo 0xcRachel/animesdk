@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChenLingBattlePresetEnhancementConfig; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEPRESETARMYCONFIG_METHOD_2_E38E352B7C47A557_OFFSET UNITYSDK_OFFSET(0x196A2380)
-#define RPG_GAMECORE_CHENLINGBATTLEPRESETARMYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196A2790)
+#define RPG_GAMECORE_CHENLINGBATTLEPRESETARMYCONFIG_METHOD_2_E0670F36E7E87415_OFFSET UNITYSDK_OFFSET(0x1A154A00)
+#define RPG_GAMECORE_CHENLINGBATTLEPRESETARMYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A154E10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattlePresetArmyConfig_TypeDefinitionIndex = 14853;
+	inline static constexpr unsigned int ChenLingBattlePresetArmyConfig_TypeDefinitionIndex = 14917;
 
 	class ChenLingBattlePresetArmyConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEPRESETARMYCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_E38E352B7C47A557(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattlePresetArmyConfig*& a2)
+		static ::System::Void Method_2_E0670F36E7E87415(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattlePresetArmyConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattlePresetArmyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEPRESETARMYCONFIG_METHOD_2_E38E352B7C47A557_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattlePresetArmyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEPRESETARMYCONFIG_METHOD_2_E0670F36E7E87415_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -7,25 +7,25 @@ namespace RPG::GameCore { class GridFightTraitEffectIdConfigRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITBACKSTRENGTHENFRONTEFFECT_GETSHOWICON_OFFSET UNITYSDK_OFFSET(0x17BAC4D0)
-#define RPG_CLIENT_GRIDFIGHTTRAITBACKSTRENGTHENFRONTEFFECT_GETSHOWMEMBERUIDS_OFFSET UNITYSDK_OFFSET(0x17BAC520)
-#define RPG_CLIENT_GRIDFIGHTTRAITBACKSTRENGTHENFRONTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x17BAC440)
+#define RPG_CLIENT_GRIDFIGHTTRAITBACKSTRENGTHENFRONTEFFECT_GETSHOWICON_OFFSET UNITYSDK_OFFSET(0x1964BD30)
+#define RPG_CLIENT_GRIDFIGHTTRAITBACKSTRENGTHENFRONTEFFECT_GETSHOWMEMBERUIDS_OFFSET UNITYSDK_OFFSET(0x1964BD80)
+#define RPG_CLIENT_GRIDFIGHTTRAITBACKSTRENGTHENFRONTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1964BAF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitBackStrengthenFrontEffect_TypeDefinitionIndex = 60187;
+	inline static constexpr unsigned int GridFightTraitBackStrengthenFrontEffect_TypeDefinitionIndex = 61122;
 
 	class GridFightTraitBackStrengthenFrontEffect : public ::RPG::Client::GridFightTraitEffectBase
 	{
 	public:
 		// static const ::System::Int32 _RequiredLayer = 0x2; // 0x0
 		// static const ::System::UInt32 _TeamLeaderRoleID = 0x5E0; // 0x0
-		::RPG::GameCore::GridFightTraitEffectIdConfigRow* _EffectRow; // 0x30
-		::System::Collections::Generic::List_1<::System::UInt32>* _CoreMemberUIDs; // 0x38
+		::System::Collections::Generic::List_1<::System::UInt32>* _CoreMemberUIDs; // 0x30
+		::RPG::GameCore::GridFightTraitEffectIdConfigRow* _EffectRow; // 0x38
 
-		::System::Void _ctor(::System::UInt32 id, ::RPG::Client::GridFightTrait* trait)
+		::System::Void _ctor(::System::UInt32 a1, ::RPG::Client::GridFightTrait* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::GridFightTrait*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITBACKSTRENGTHENFRONTEFFECT__CTOR_OFFSET))(this, id, trait);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::GridFightTrait*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITBACKSTRENGTHENFRONTEFFECT__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* GetShowIcon()

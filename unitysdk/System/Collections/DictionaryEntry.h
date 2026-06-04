@@ -4,22 +4,22 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_COLLECTIONS_DICTIONARYENTRY_GET_KEY_OFFSET UNITYSDK_OFFSET(0x5078B0)
-#define SYSTEM_COLLECTIONS_DICTIONARYENTRY_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x608BA0)
-#define SYSTEM_COLLECTIONS_DICTIONARYENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x608B90)
+#define SYSTEM_COLLECTIONS_DICTIONARYENTRY_GET_KEY_OFFSET UNITYSDK_OFFSET(0x66AF90)
+#define SYSTEM_COLLECTIONS_DICTIONARYENTRY_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x66B7B0)
+#define SYSTEM_COLLECTIONS_DICTIONARYENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x66B770)
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int DictionaryEntry_TypeDefinitionIndex = 1446;
+	inline static constexpr unsigned int DictionaryEntry_TypeDefinitionIndex = 1445;
 
 	struct alignas(8) DictionaryEntry
 	{
 		::System::Object* _key; // 0x10
 		::System::Object* _value; // 0x18
 
-		::System::Void _ctor(::System::Object* key, ::System::Object* value)
+		::System::Void _ctor(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_DICTIONARYENTRY__CTOR_OFFSET))(this, key, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_DICTIONARYENTRY__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* get_Key()

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class EarlyAccessContent; }
 
-#define RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x160DC120)
-#define RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS28_0___GETCONTENT_B__0_OFFSET UNITYSDK_OFFSET(0x160DCC20)
+#define RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C9CAE0)
+#define RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS28_0___GETCONTENT_B__0_OFFSET UNITYSDK_OFFSET(0x14C9D5F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EarlyAccessModule___c__DisplayClass28_0_TypeDefinitionIndex = 58645;
+	inline static constexpr unsigned int EarlyAccessModule___c__DisplayClass28_0_TypeDefinitionIndex = 59575;
 
 	class EarlyAccessModule___c__DisplayClass28_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS28_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __GetContent_b__0(::RPG::Client::EarlyAccessContent* x)
+		::System::Boolean __GetContent_b__0(::RPG::Client::EarlyAccessContent* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::EarlyAccessContent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS28_0___GETCONTENT_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::EarlyAccessContent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS28_0___GETCONTENT_B__0_OFFSET))(this, a1);
 		}
 	};
 }

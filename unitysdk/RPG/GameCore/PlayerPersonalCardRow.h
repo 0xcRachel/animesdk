@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYERPERSONALCARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19360780)
-#define RPG_GAMECORE_PLAYERPERSONALCARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19360A40)
+#define RPG_GAMECORE_PLAYERPERSONALCARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A76CC10)
+#define RPG_GAMECORE_PLAYERPERSONALCARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A76CED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerPersonalCardRow_TypeDefinitionIndex = 13698;
+	inline static constexpr unsigned int PlayerPersonalCardRow_TypeDefinitionIndex = 13767;
 
 	class PlayerPersonalCardRow : public ::System::Object
 	{
 	public:
 		::System::String* CardPrefabPath; // 0x10
 		::System::String* FriendPrefabPath; // 0x18
-		::System::String* SupportPrefabPath; // 0x20
-		::System::String* ReplaceIconPath; // 0x28
-		::System::String* ChatPrefabPath; // 0x30
+		::System::String* ChatPrefabPath; // 0x20
+		::System::String* SupportPrefabPath; // 0x28
+		::System::String* ReplaceIconPath; // 0x30
 		::RPG::GameCore::PersonalizeShowType ShowType; // 0x38
 		::System::UInt32 CardID; // 0x3C
 		::System::UInt32 ShowParam; // 0x40
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERPERSONALCARDROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PlayerPersonalCardRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerPersonalCardRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerPersonalCardRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERPERSONALCARDROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerPersonalCardRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERPERSONALCARDROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

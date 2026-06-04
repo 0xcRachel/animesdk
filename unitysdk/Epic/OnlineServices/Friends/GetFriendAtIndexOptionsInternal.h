@@ -6,15 +6,15 @@ namespace Epic::OnlineServices { class EpicAccountId; }
 namespace Epic::OnlineServices::Friends { class GetFriendAtIndexOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_FRIENDS_GETFRIENDATINDEXOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x22FDF30)
-#define EPIC_ONLINESERVICES_FRIENDS_GETFRIENDATINDEXOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x22FDF20)
-#define EPIC_ONLINESERVICES_FRIENDS_GETFRIENDATINDEXOPTIONSINTERNAL_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x1464EA0)
-#define EPIC_ONLINESERVICES_FRIENDS_GETFRIENDATINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x22FDD80)
-#define EPIC_ONLINESERVICES_FRIENDS_GETFRIENDATINDEXOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x22FDE40)
+#define EPIC_ONLINESERVICES_FRIENDS_GETFRIENDATINDEXOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x38A6E40)
+#define EPIC_ONLINESERVICES_FRIENDS_GETFRIENDATINDEXOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x38A6E30)
+#define EPIC_ONLINESERVICES_FRIENDS_GETFRIENDATINDEXOPTIONSINTERNAL_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x3741A70)
+#define EPIC_ONLINESERVICES_FRIENDS_GETFRIENDATINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x38A6C90)
+#define EPIC_ONLINESERVICES_FRIENDS_GETFRIENDATINDEXOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x38A6D50)
 
 namespace Epic::OnlineServices::Friends
 {
-	inline static constexpr unsigned int GetFriendAtIndexOptionsInternal_TypeDefinitionIndex = 42105;
+	inline static constexpr unsigned int GetFriendAtIndexOptionsInternal_TypeDefinitionIndex = 42908;
 
 	struct alignas(8) GetFriendAtIndexOptionsInternal
 	{
@@ -22,24 +22,24 @@ namespace Epic::OnlineServices::Friends
 		::System::IntPtr m_LocalUserId; // 0x18
 		::System::Int32 m_Index; // 0x20
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_GETFRIENDATINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_GETFRIENDATINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Index(::System::Int32 value)
+		::System::Void set_Index(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_GETFRIENDATINDEXOPTIONSINTERNAL_SET_INDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_GETFRIENDATINDEXOPTIONSINTERNAL_SET_INDEX_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Friends::GetFriendAtIndexOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Friends::GetFriendAtIndexOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Friends::GetFriendAtIndexOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_GETFRIENDATINDEXOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Friends::GetFriendAtIndexOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_GETFRIENDATINDEXOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_GETFRIENDATINDEXOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_GETFRIENDATINDEXOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

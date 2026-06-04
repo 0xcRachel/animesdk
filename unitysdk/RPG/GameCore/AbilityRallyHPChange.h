@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/Struct_2_5909FD7779934CCA.h"
 
-#define RPG_GAMECORE_ABILITYRALLYHPCHANGE_GETCHANGEVALUE_OFFSET UNITYSDK_OFFSET(0xB1B6930)
-#define RPG_GAMECORE_ABILITYRALLYHPCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB1B68E0)
-#define RPG_GAMECORE_ABILITYRALLYHPCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB1B6890)
-#define RPG_GAMECORE_ABILITYRALLYHPCHANGE_GET_CHANGEPARAMS_OFFSET UNITYSDK_OFFSET(0xB1B6980)
-#define RPG_GAMECORE_ABILITYRALLYHPCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xB1B67F0)
-#define RPG_GAMECORE_ABILITYRALLYHPCHANGE_SET_CHANGEPARAMS_OFFSET UNITYSDK_OFFSET(0xB1B69A0)
-#define RPG_GAMECORE_ABILITYRALLYHPCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xB1B69B0)
+#define RPG_GAMECORE_ABILITYRALLYHPCHANGE_GETCHANGEVALUE_OFFSET UNITYSDK_OFFSET(0x12B064C0)
+#define RPG_GAMECORE_ABILITYRALLYHPCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x12B06470)
+#define RPG_GAMECORE_ABILITYRALLYHPCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x12B06420)
+#define RPG_GAMECORE_ABILITYRALLYHPCHANGE_GET_CHANGEPARAMS_OFFSET UNITYSDK_OFFSET(0x12B06510)
+#define RPG_GAMECORE_ABILITYRALLYHPCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0x12B06380)
+#define RPG_GAMECORE_ABILITYRALLYHPCHANGE_SET_CHANGEPARAMS_OFFSET UNITYSDK_OFFSET(0x12B06530)
+#define RPG_GAMECORE_ABILITYRALLYHPCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x12B06540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityRallyHPChange_TypeDefinitionIndex = 52143;
+	inline static constexpr unsigned int AbilityRallyHPChange_TypeDefinitionIndex = 52840;
 
-	class AbilityRallyHPChange : public ::Class_1_9988289E7F8AA214
+	class AbilityRallyHPChange : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::Struct_2_5909FD7779934CCA _ChangeParams_k__BackingField; // 0x18
-		::System::UInt32 _EntityRuntimeID; // 0x148
-		::RPG::GameCore::FixPoint _ChangeValue; // 0x150
+		::RPG::GameCore::FixPoint _ChangeValue; // 0x120
+		::System::UInt32 _EntityRuntimeID; // 0x128
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYRALLYHPCHANGE__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::AbilityRallyHPChange* Init(::System::UInt32 EntityRuntimeID, ::RPG::GameCore::FixPoint ChangeValue, ::Struct_2_5909FD7779934CCA pChangeParams)
+		::RPG::GameCore::AbilityRallyHPChange* Init(::System::UInt32 a1, ::RPG::GameCore::FixPoint a2, ::Struct_2_5909FD7779934CCA a3)
 		{
-			return ((::RPG::GameCore::AbilityRallyHPChange*(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FixPoint, ::Struct_2_5909FD7779934CCA))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYRALLYHPCHANGE_INIT_OFFSET))(this, EntityRuntimeID, ChangeValue, pChangeParams);
+			return ((::RPG::GameCore::AbilityRallyHPChange*(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FixPoint, ::Struct_2_5909FD7779934CCA))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYRALLYHPCHANGE_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()
@@ -54,9 +54,9 @@ namespace RPG::GameCore
 			return ((::Struct_2_5909FD7779934CCA(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYRALLYHPCHANGE_GET_CHANGEPARAMS_OFFSET))(this);
 		}
 
-		::System::Void set_ChangeParams(::Struct_2_5909FD7779934CCA value)
+		::System::Void set_ChangeParams(::Struct_2_5909FD7779934CCA a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_5909FD7779934CCA))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYRALLYHPCHANGE_SET_CHANGEPARAMS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Struct_2_5909FD7779934CCA))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYRALLYHPCHANGE_SET_CHANGEPARAMS_OFFSET))(this, a1);
 		}
 	};
 }

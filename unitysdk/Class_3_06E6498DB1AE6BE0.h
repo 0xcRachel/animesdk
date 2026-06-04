@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetControlSkillMapping; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_06E6498DB1AE6BE0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10A10C50)
-#define CLASS_3_06E6498DB1AE6BE0__CTOR_OFFSET UNITYSDK_OFFSET(0x10A10C20)
+#define CLASS_3_06E6498DB1AE6BE0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14513030)
+#define CLASS_3_06E6498DB1AE6BE0__CTOR_OFFSET UNITYSDK_OFFSET(0x14513000)
 
-inline static constexpr unsigned int Class_3_06E6498DB1AE6BE0_TypeDefinitionIndex = 51060;
+inline static constexpr unsigned int Class_3_06E6498DB1AE6BE0_TypeDefinitionIndex = 51730;
 
 class Class_3_06E6498DB1AE6BE0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetControlSkillMapping*>
 {

@@ -5,26 +5,26 @@
 class Class_1_F138DBFC3396EA15_1;
 namespace System { class String; }
 
-#define CLASS_1_B884A3F1FCD4287A_GET_FIGHTTOKEN_OFFSET UNITYSDK_OFFSET(0x11898BB0)
-#define CLASS_1_B884A3F1FCD4287A_GET_HOST_OFFSET UNITYSDK_OFFSET(0x11898B70)
-#define CLASS_1_B884A3F1FCD4287A_GET_PORT_OFFSET UNITYSDK_OFFSET(0x11898B90)
-#define CLASS_1_B884A3F1FCD4287A_GET_ROOMUID_OFFSET UNITYSDK_OFFSET(0x11898B50)
-#define CLASS_1_B884A3F1FCD4287A_METHOD_1_097468641FDED14E_OFFSET UNITYSDK_OFFSET(0x11898AD0)
-#define CLASS_1_B884A3F1FCD4287A_SET_FIGHTTOKEN_OFFSET UNITYSDK_OFFSET(0x11898BA0)
-#define CLASS_1_B884A3F1FCD4287A_SET_HOST_OFFSET UNITYSDK_OFFSET(0x11898B60)
-#define CLASS_1_B884A3F1FCD4287A_SET_PORT_OFFSET UNITYSDK_OFFSET(0x11898B80)
-#define CLASS_1_B884A3F1FCD4287A_SET_ROOMUID_OFFSET UNITYSDK_OFFSET(0x11898B40)
-#define CLASS_1_B884A3F1FCD4287A__CTOR_OFFSET UNITYSDK_OFFSET(0x11898BC0)
+#define CLASS_1_B884A3F1FCD4287A_GET_FIGHTTOKEN_OFFSET UNITYSDK_OFFSET(0x15BD0A20)
+#define CLASS_1_B884A3F1FCD4287A_GET_HOST_OFFSET UNITYSDK_OFFSET(0x15BD09E0)
+#define CLASS_1_B884A3F1FCD4287A_GET_PORT_OFFSET UNITYSDK_OFFSET(0x15BD0A00)
+#define CLASS_1_B884A3F1FCD4287A_GET_ROOMUID_OFFSET UNITYSDK_OFFSET(0x15BD09C0)
+#define CLASS_1_B884A3F1FCD4287A_METHOD_1_097468641FDED14E_OFFSET UNITYSDK_OFFSET(0x15BD0940)
+#define CLASS_1_B884A3F1FCD4287A_SET_FIGHTTOKEN_OFFSET UNITYSDK_OFFSET(0x15BD0A10)
+#define CLASS_1_B884A3F1FCD4287A_SET_HOST_OFFSET UNITYSDK_OFFSET(0x15BD09D0)
+#define CLASS_1_B884A3F1FCD4287A_SET_PORT_OFFSET UNITYSDK_OFFSET(0x15BD09F0)
+#define CLASS_1_B884A3F1FCD4287A_SET_ROOMUID_OFFSET UNITYSDK_OFFSET(0x15BD09B0)
+#define CLASS_1_B884A3F1FCD4287A__CTOR_OFFSET UNITYSDK_OFFSET(0x15BD0A30)
 
-inline static constexpr unsigned int Class_1_B884A3F1FCD4287A_TypeDefinitionIndex = 63935;
+inline static constexpr unsigned int Class_1_B884A3F1FCD4287A_TypeDefinitionIndex = 64856;
 
 class Class_1_B884A3F1FCD4287A : public ::System::Object
 {
 public:
-	::System::String* _FightToken_k__BackingField; // 0x10
-	::System::String* _Host_k__BackingField; // 0x18
-	::System::UInt16 _Port_k__BackingField; // 0x20
-	::System::UInt64 _RoomUID_k__BackingField; // 0x28
+	::System::String* _Host_k__BackingField; // 0x10
+	::System::String* _FightToken_k__BackingField; // 0x18
+	::System::UInt64 _RoomUID_k__BackingField; // 0x20
+	::System::UInt16 _Port_k__BackingField; // 0x28
 
 	::System::Void _ctor()
 	{
@@ -36,9 +36,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_1_F138DBFC3396EA15_1*))((::PBYTE)hIl2Cpp + CLASS_1_B884A3F1FCD4287A_METHOD_1_097468641FDED14E_OFFSET))(this, a1);
 	}
 
-	::System::Void set_RoomUID(::System::UInt64 value)
+	::System::Void set_RoomUID(::System::UInt64 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + CLASS_1_B884A3F1FCD4287A_SET_ROOMUID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + CLASS_1_B884A3F1FCD4287A_SET_ROOMUID_OFFSET))(this, a1);
 	}
 
 	::System::UInt64 get_RoomUID()
@@ -46,9 +46,9 @@ public:
 		return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B884A3F1FCD4287A_GET_ROOMUID_OFFSET))(this);
 	}
 
-	::System::Void set_Host(::System::String* value)
+	::System::Void set_Host(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_B884A3F1FCD4287A_SET_HOST_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_B884A3F1FCD4287A_SET_HOST_OFFSET))(this, a1);
 	}
 
 	::System::String* get_Host()
@@ -56,9 +56,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B884A3F1FCD4287A_GET_HOST_OFFSET))(this);
 	}
 
-	::System::Void set_Port(::System::UInt16 value)
+	::System::Void set_Port(::System::UInt16 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + CLASS_1_B884A3F1FCD4287A_SET_PORT_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + CLASS_1_B884A3F1FCD4287A_SET_PORT_OFFSET))(this, a1);
 	}
 
 	::System::UInt16 get_Port()
@@ -66,9 +66,9 @@ public:
 		return ((::System::UInt16(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B884A3F1FCD4287A_GET_PORT_OFFSET))(this);
 	}
 
-	::System::Void set_FightToken(::System::String* value)
+	::System::Void set_FightToken(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_B884A3F1FCD4287A_SET_FIGHTTOKEN_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_B884A3F1FCD4287A_SET_FIGHTTOKEN_OFFSET))(this, a1);
 	}
 
 	::System::String* get_FightToken()

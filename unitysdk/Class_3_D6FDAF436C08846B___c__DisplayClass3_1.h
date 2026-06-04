@@ -6,10 +6,10 @@
 class Class_3_D6FDAF436C08846B___c__DisplayClass3_0;
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define CLASS_3_D6FDAF436C08846B___C__DISPLAYCLASS3_1__CTOR_OFFSET UNITYSDK_OFFSET(0xCE5A960)
-#define CLASS_3_D6FDAF436C08846B___C__DISPLAYCLASS3_1__FILTERMODIFIERTOINFECT_B__3_OFFSET UNITYSDK_OFFSET(0xCE5AA50)
+#define CLASS_3_D6FDAF436C08846B___C__DISPLAYCLASS3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15C37830)
+#define CLASS_3_D6FDAF436C08846B___C__DISPLAYCLASS3_1__FILTERMODIFIERTOINFECT_B__3_OFFSET UNITYSDK_OFFSET(0x15C37920)
 
-inline static constexpr unsigned int Class_3_D6FDAF436C08846B___c__DisplayClass3_1_TypeDefinitionIndex = 50808;
+inline static constexpr unsigned int Class_3_D6FDAF436C08846B___c__DisplayClass3_1_TypeDefinitionIndex = 51476;
 
 class Class_3_D6FDAF436C08846B___c__DisplayClass3_1 : public ::System::Object
 {
@@ -22,8 +22,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_D6FDAF436C08846B___C__DISPLAYCLASS3_1__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean _FilterModifierToInfect_b__3(::RPG::GameCore::TurnBasedModifierInstance* instance)
+	::System::Boolean _FilterModifierToInfect_b__3(::RPG::GameCore::TurnBasedModifierInstance* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + CLASS_3_D6FDAF436C08846B___C__DISPLAYCLASS3_1__FILTERMODIFIERTOINFECT_B__3_OFFSET))(this, instance);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + CLASS_3_D6FDAF436C08846B___C__DISPLAYCLASS3_1__FILTERMODIFIERTOINFECT_B__3_OFFSET))(this, a1);
 	}
 };

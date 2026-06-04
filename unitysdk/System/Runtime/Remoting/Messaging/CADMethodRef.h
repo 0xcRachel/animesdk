@@ -7,31 +7,31 @@ namespace System { class Type; }
 namespace System::Reflection { class MethodBase; }
 namespace System::Runtime::Remoting::Messaging { class IMethodMessage; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF_GETTYPES_OFFSET UNITYSDK_OFFSET(0x17AC3DE0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF_RESOLVE_OFFSET UNITYSDK_OFFSET(0x17AC1050)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF__CTOR_OFFSET UNITYSDK_OFFSET(0x17AC0C90)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF_GETTYPES_OFFSET UNITYSDK_OFFSET(0x17446780)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF_RESOLVE_OFFSET UNITYSDK_OFFSET(0x17443BE0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF__CTOR_OFFSET UNITYSDK_OFFSET(0x17443840)
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int CADMethodRef_TypeDefinitionIndex = 1293;
+	inline static constexpr unsigned int CADMethodRef_TypeDefinitionIndex = 1292;
 
 	class CADMethodRef : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* generic_arg_names; // 0x10
-		::Il2CppArray<::System::String*>* param_names; // 0x18
-		::System::String* typeName; // 0x20
-		::System::String* methodName; // 0x28
+		::System::String* typeName; // 0x10
+		::Il2CppArray<::System::String*>* generic_arg_names; // 0x18
+		::System::String* methodName; // 0x20
+		::Il2CppArray<::System::String*>* param_names; // 0x28
 		::System::Boolean ctor; // 0x30
 
-		::System::Void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg)
+		::System::Void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMethodMessage*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF__CTOR_OFFSET))(this, msg);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMethodMessage*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF__CTOR_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Type*>* GetTypes(::Il2CppArray<::System::String*>* typeArray)
+		::Il2CppArray<::System::Type*>* GetTypes(::Il2CppArray<::System::String*>* a1)
 		{
-			return ((::Il2CppArray<::System::Type*>*(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF_GETTYPES_OFFSET))(this, typeArray);
+			return ((::Il2CppArray<::System::Type*>*(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF_GETTYPES_OFFSET))(this, a1);
 		}
 
 		::System::Reflection::MethodBase* Resolve()

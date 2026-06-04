@@ -7,48 +7,48 @@
 namespace RPG::GameCore { class PlanetFesEffectSourceRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PLANETFESBUFFSOURCE_CREATE_1_OFFSET UNITYSDK_OFFSET(0x174F6580)
-#define RPG_CLIENT_PLANETFESBUFFSOURCE_CREATE_OFFSET UNITYSDK_OFFSET(0x174F64F0)
-#define RPG_CLIENT_PLANETFESBUFFSOURCE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x174F6690)
-#define RPG_CLIENT_PLANETFESBUFFSOURCE_EQUALS_OFFSET UNITYSDK_OFFSET(0x174F65D0)
-#define RPG_CLIENT_PLANETFESBUFFSOURCE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x174F6710)
-#define RPG_CLIENT_PLANETFESBUFFSOURCE_GET_ICON_OFFSET UNITYSDK_OFFSET(0x174F6900)
-#define RPG_CLIENT_PLANETFESBUFFSOURCE_GET_ID_OFFSET UNITYSDK_OFFSET(0x174F6760)
-#define RPG_CLIENT_PLANETFESBUFFSOURCE_GET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0x174F68D0)
-#define RPG_CLIENT_PLANETFESBUFFSOURCE_GET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0x174F68B0)
-#define RPG_CLIENT_PLANETFESBUFFSOURCE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x174F6780)
-#define RPG_CLIENT_PLANETFESBUFFSOURCE_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x174F6800)
-#define RPG_CLIENT_PLANETFESBUFFSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x174F6570)
-#define RPG_CLIENT_PLANETFESBUFFSOURCE___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0x174F6920)
-#define RPG_CLIENT_PLANETFESBUFFSOURCE___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x174F6930)
+#define RPG_CLIENT_PLANETFESBUFFSOURCE_CREATE_1_OFFSET UNITYSDK_OFFSET(0x184FC850)
+#define RPG_CLIENT_PLANETFESBUFFSOURCE_CREATE_OFFSET UNITYSDK_OFFSET(0x184FC7C0)
+#define RPG_CLIENT_PLANETFESBUFFSOURCE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x184FC960)
+#define RPG_CLIENT_PLANETFESBUFFSOURCE_EQUALS_OFFSET UNITYSDK_OFFSET(0x184FC8A0)
+#define RPG_CLIENT_PLANETFESBUFFSOURCE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x184FC9E0)
+#define RPG_CLIENT_PLANETFESBUFFSOURCE_GET_ICON_OFFSET UNITYSDK_OFFSET(0x184FCBD0)
+#define RPG_CLIENT_PLANETFESBUFFSOURCE_GET_ID_OFFSET UNITYSDK_OFFSET(0x184FCA30)
+#define RPG_CLIENT_PLANETFESBUFFSOURCE_GET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0x184FCBA0)
+#define RPG_CLIENT_PLANETFESBUFFSOURCE_GET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0x184FCB80)
+#define RPG_CLIENT_PLANETFESBUFFSOURCE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x184FCA50)
+#define RPG_CLIENT_PLANETFESBUFFSOURCE_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x184FCAD0)
+#define RPG_CLIENT_PLANETFESBUFFSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x184FC840)
+#define RPG_CLIENT_PLANETFESBUFFSOURCE___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0x184FCBF0)
+#define RPG_CLIENT_PLANETFESBUFFSOURCE___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x184FCC00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesBuffSource_TypeDefinitionIndex = 61302;
+	inline static constexpr unsigned int PlanetFesBuffSource_TypeDefinitionIndex = 62226;
 
 	class PlanetFesBuffSource : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::PlanetFesEffectSourceRow* _Row; // 0x10
 
-		::System::Void _ctor(::RPG::GameCore::PlanetFesEffectSourceRow* row)
+		::System::Void _ctor(::RPG::GameCore::PlanetFesEffectSourceRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PlanetFesEffectSourceRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESBUFFSOURCE__CTOR_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PlanetFesEffectSourceRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESBUFFSOURCE__CTOR_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::PlanetFesBuffSource* Create(::System::UInt32 id)
+		static ::RPG::Client::PlanetFesBuffSource* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::PlanetFesBuffSource*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESBUFFSOURCE_CREATE_OFFSET))(id);
+			return ((::RPG::Client::PlanetFesBuffSource*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESBUFFSOURCE_CREATE_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::PlanetFesBuffSource* Create_1(::RPG::GameCore::PlanetFesEffectSourceRow* row)
+		static ::RPG::Client::PlanetFesBuffSource* Create_1(::RPG::GameCore::PlanetFesEffectSourceRow* a1)
 		{
-			return ((::RPG::Client::PlanetFesBuffSource*(*)(::RPG::GameCore::PlanetFesEffectSourceRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESBUFFSOURCE_CREATE_1_OFFSET))(row);
+			return ((::RPG::Client::PlanetFesBuffSource*(*)(::RPG::GameCore::PlanetFesEffectSourceRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESBUFFSOURCE_CREATE_1_OFFSET))(a1);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESBUFFSOURCE_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESBUFFSOURCE_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -56,19 +56,19 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESBUFFSOURCE_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals_1(::RPG::Client::PlanetFesBuffSource* other)
+		::System::Boolean Equals_1(::RPG::Client::PlanetFesBuffSource* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::PlanetFesBuffSource*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESBUFFSOURCE_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::PlanetFesBuffSource*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESBUFFSOURCE_EQUALS_1_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean op_Equality(::RPG::Client::PlanetFesBuffSource* lhs, ::RPG::Client::PlanetFesBuffSource* rhs)
+		static ::System::Boolean op_Equality(::RPG::Client::PlanetFesBuffSource* a1, ::RPG::Client::PlanetFesBuffSource* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::PlanetFesBuffSource*, ::RPG::Client::PlanetFesBuffSource*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESBUFFSOURCE_OP_EQUALITY_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::RPG::Client::PlanetFesBuffSource*, ::RPG::Client::PlanetFesBuffSource*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESBUFFSOURCE_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::RPG::Client::PlanetFesBuffSource* lhs, ::RPG::Client::PlanetFesBuffSource* rhs)
+		static ::System::Boolean op_Inequality(::RPG::Client::PlanetFesBuffSource* a1, ::RPG::Client::PlanetFesBuffSource* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::PlanetFesBuffSource*, ::RPG::Client::PlanetFesBuffSource*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESBUFFSOURCE_OP_INEQUALITY_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::RPG::Client::PlanetFesBuffSource*, ::RPG::Client::PlanetFesBuffSource*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESBUFFSOURCE_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
 		::System::UInt32 get_ID()
@@ -91,9 +91,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESBUFFSOURCE_GET_ICON_OFFSET))(this);
 		}
 
-		::System::Boolean __iFixBaseProxy_Equals(::System::Object* P0)
+		::System::Boolean __iFixBaseProxy_Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESBUFFSOURCE___IFIXBASEPROXY_EQUALS_OFFSET))(this, P0);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESBUFFSOURCE___IFIXBASEPROXY_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 __iFixBaseProxy_GetHashCode()

@@ -4,38 +4,38 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_PROBUILDER_SEMVER_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0x17836A80)
-#define UNITYENGINE_PROBUILDER_SEMVER_COMPARETO_OFFSET UNITYSDK_OFFSET(0x17836A20)
-#define UNITYENGINE_PROBUILDER_SEMVER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x17836710)
-#define UNITYENGINE_PROBUILDER_SEMVER_EQUALS_OFFSET UNITYSDK_OFFSET(0x178366B0)
-#define UNITYENGINE_PROBUILDER_SEMVER_GETBUILDNUMBER_OFFSET UNITYSDK_OFFSET(0x17837160)
-#define UNITYENGINE_PROBUILDER_SEMVER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17836850)
-#define UNITYENGINE_PROBUILDER_SEMVER_GET_BUILD_OFFSET UNITYSDK_OFFSET(0x17835FD0)
-#define UNITYENGINE_PROBUILDER_SEMVER_GET_DATE_OFFSET UNITYSDK_OFFSET(0x17836020)
-#define UNITYENGINE_PROBUILDER_SEMVER_GET_MAJORMINORPATCH_OFFSET UNITYSDK_OFFSET(0x17836040)
-#define UNITYENGINE_PROBUILDER_SEMVER_GET_MAJOR_OFFSET UNITYSDK_OFFSET(0x17835FA0)
-#define UNITYENGINE_PROBUILDER_SEMVER_GET_METADATA_OFFSET UNITYSDK_OFFSET(0x17836000)
-#define UNITYENGINE_PROBUILDER_SEMVER_GET_MINOR_OFFSET UNITYSDK_OFFSET(0x17835FB0)
-#define UNITYENGINE_PROBUILDER_SEMVER_GET_PATCH_OFFSET UNITYSDK_OFFSET(0x17835FC0)
-#define UNITYENGINE_PROBUILDER_SEMVER_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x17835FE0)
-#define UNITYENGINE_PROBUILDER_SEMVER_ISVALID_OFFSET UNITYSDK_OFFSET(0x17836690)
-#define UNITYENGINE_PROBUILDER_SEMVER_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x17836B90)
-#define UNITYENGINE_PROBUILDER_SEMVER_OP_GREATERTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x17836C70)
-#define UNITYENGINE_PROBUILDER_SEMVER_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x17836C10)
-#define UNITYENGINE_PROBUILDER_SEMVER_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x17836BB0)
-#define UNITYENGINE_PROBUILDER_SEMVER_OP_LESSTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x17836C30)
-#define UNITYENGINE_PROBUILDER_SEMVER_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x17836BE0)
-#define UNITYENGINE_PROBUILDER_SEMVER_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x17836FE0)
-#define UNITYENGINE_PROBUILDER_SEMVER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17836CB0)
-#define UNITYENGINE_PROBUILDER_SEMVER_TRYGETVERSIONINFO_OFFSET UNITYSDK_OFFSET(0x17836170)
-#define UNITYENGINE_PROBUILDER_SEMVER_WRAPNOVALUE_OFFSET UNITYSDK_OFFSET(0x17836B80)
-#define UNITYENGINE_PROBUILDER_SEMVER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x178360F0)
-#define UNITYENGINE_PROBUILDER_SEMVER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x178360A0)
-#define UNITYENGINE_PROBUILDER_SEMVER__CTOR_OFFSET UNITYSDK_OFFSET(0x178360D0)
+#define UNITYENGINE_PROBUILDER_SEMVER_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0x15C52040)
+#define UNITYENGINE_PROBUILDER_SEMVER_COMPARETO_OFFSET UNITYSDK_OFFSET(0x15C51FE0)
+#define UNITYENGINE_PROBUILDER_SEMVER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x15C51CD0)
+#define UNITYENGINE_PROBUILDER_SEMVER_EQUALS_OFFSET UNITYSDK_OFFSET(0x15C51C70)
+#define UNITYENGINE_PROBUILDER_SEMVER_GETBUILDNUMBER_OFFSET UNITYSDK_OFFSET(0x15C52930)
+#define UNITYENGINE_PROBUILDER_SEMVER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x15C51E10)
+#define UNITYENGINE_PROBUILDER_SEMVER_GET_BUILD_OFFSET UNITYSDK_OFFSET(0x15C51630)
+#define UNITYENGINE_PROBUILDER_SEMVER_GET_DATE_OFFSET UNITYSDK_OFFSET(0x15C51680)
+#define UNITYENGINE_PROBUILDER_SEMVER_GET_MAJORMINORPATCH_OFFSET UNITYSDK_OFFSET(0x15C516A0)
+#define UNITYENGINE_PROBUILDER_SEMVER_GET_MAJOR_OFFSET UNITYSDK_OFFSET(0x15C51600)
+#define UNITYENGINE_PROBUILDER_SEMVER_GET_METADATA_OFFSET UNITYSDK_OFFSET(0x15C51660)
+#define UNITYENGINE_PROBUILDER_SEMVER_GET_MINOR_OFFSET UNITYSDK_OFFSET(0x15C51610)
+#define UNITYENGINE_PROBUILDER_SEMVER_GET_PATCH_OFFSET UNITYSDK_OFFSET(0x15C51620)
+#define UNITYENGINE_PROBUILDER_SEMVER_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15C51640)
+#define UNITYENGINE_PROBUILDER_SEMVER_ISVALID_OFFSET UNITYSDK_OFFSET(0x15C51C50)
+#define UNITYENGINE_PROBUILDER_SEMVER_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x15C52150)
+#define UNITYENGINE_PROBUILDER_SEMVER_OP_GREATERTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x15C52230)
+#define UNITYENGINE_PROBUILDER_SEMVER_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x15C521D0)
+#define UNITYENGINE_PROBUILDER_SEMVER_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x15C52170)
+#define UNITYENGINE_PROBUILDER_SEMVER_OP_LESSTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x15C521F0)
+#define UNITYENGINE_PROBUILDER_SEMVER_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x15C521A0)
+#define UNITYENGINE_PROBUILDER_SEMVER_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x15C527B0)
+#define UNITYENGINE_PROBUILDER_SEMVER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15C52270)
+#define UNITYENGINE_PROBUILDER_SEMVER_TRYGETVERSIONINFO_OFFSET UNITYSDK_OFFSET(0x15C517D0)
+#define UNITYENGINE_PROBUILDER_SEMVER_WRAPNOVALUE_OFFSET UNITYSDK_OFFSET(0x15C52140)
+#define UNITYENGINE_PROBUILDER_SEMVER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15C51750)
+#define UNITYENGINE_PROBUILDER_SEMVER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x15C51700)
+#define UNITYENGINE_PROBUILDER_SEMVER__CTOR_OFFSET UNITYSDK_OFFSET(0x15C51730)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int SemVer_TypeDefinitionIndex = 39983;
+	inline static constexpr unsigned int SemVer_TypeDefinitionIndex = 40810;
 
 	class SemVer : public ::System::Object
 	{
@@ -54,14 +54,14 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* formatted, ::System::String* date)
+		::System::Void _ctor_1(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER__CTOR_1_OFFSET))(this, formatted, date);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_2(::System::Int32 major, ::System::Int32 minor, ::System::Int32 patch, ::System::Int32 build, ::System::String* type, ::System::String* date, ::System::String* metadata)
+		::System::Void _ctor_2(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::String* a5, ::System::String* a6, ::System::String* a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER__CTOR_2_OFFSET))(this, major, minor, patch, build, type, date, metadata);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER__CTOR_2_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Int32 get_major()
@@ -109,9 +109,9 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_ISVALID_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* o)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_EQUALS_OFFSET))(this, o);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -119,59 +119,59 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals_1(::UnityEngine::ProBuilder::SemVer* version)
+		::System::Boolean Equals_1(::UnityEngine::ProBuilder::SemVer* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::SemVer*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_EQUALS_1_OFFSET))(this, version);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::SemVer*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_EQUALS_1_OFFSET))(this, a1);
 		}
 
-		::System::Int32 CompareTo(::System::Object* obj)
+		::System::Int32 CompareTo(::System::Object* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_COMPARETO_OFFSET))(this, obj);
+			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_COMPARETO_OFFSET))(this, a1);
 		}
 
-		static ::System::Int32 WrapNoValue(::System::Int32 value)
+		static ::System::Int32 WrapNoValue(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_WRAPNOVALUE_OFFSET))(value);
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_WRAPNOVALUE_OFFSET))(a1);
 		}
 
-		::System::Int32 CompareTo_1(::UnityEngine::ProBuilder::SemVer* version)
+		::System::Int32 CompareTo_1(::UnityEngine::ProBuilder::SemVer* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::UnityEngine::ProBuilder::SemVer*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_COMPARETO_1_OFFSET))(this, version);
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::ProBuilder::SemVer*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_COMPARETO_1_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean op_Equality(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer* right)
+		static ::System::Boolean op_Equality(::UnityEngine::ProBuilder::SemVer* a1, ::UnityEngine::ProBuilder::SemVer* a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_OP_EQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer* right)
+		static ::System::Boolean op_Inequality(::UnityEngine::ProBuilder::SemVer* a1, ::UnityEngine::ProBuilder::SemVer* a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_OP_INEQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_LessThan(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer* right)
+		static ::System::Boolean op_LessThan(::UnityEngine::ProBuilder::SemVer* a1, ::UnityEngine::ProBuilder::SemVer* a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_OP_LESSTHAN_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_OP_LESSTHAN_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_GreaterThan(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer* right)
+		static ::System::Boolean op_GreaterThan(::UnityEngine::ProBuilder::SemVer* a1, ::UnityEngine::ProBuilder::SemVer* a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_OP_GREATERTHAN_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_OP_GREATERTHAN_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_LessThanOrEqual(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer* right)
+		static ::System::Boolean op_LessThanOrEqual(::UnityEngine::ProBuilder::SemVer* a1, ::UnityEngine::ProBuilder::SemVer* a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_OP_LESSTHANOREQUAL_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_OP_LESSTHANOREQUAL_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_GreaterThanOrEqual(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer* right)
+		static ::System::Boolean op_GreaterThanOrEqual(::UnityEngine::ProBuilder::SemVer* a1, ::UnityEngine::ProBuilder::SemVer* a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_OP_GREATERTHANOREQUAL_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_OP_GREATERTHANOREQUAL_OFFSET))(a1, a2);
 		}
 
-		::System::String* ToString(::System::String* format)
+		::System::String* ToString(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_TOSTRING_OFFSET))(this, format);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_TOSTRING_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString_1()
@@ -179,14 +179,14 @@ namespace UnityEngine::ProBuilder
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_TOSTRING_1_OFFSET))(this);
 		}
 
-		static ::System::Boolean TryGetVersionInfo(::System::String* input, ::UnityEngine::ProBuilder::SemVer*& version)
+		static ::System::Boolean TryGetVersionInfo(::System::String* a1, ::UnityEngine::ProBuilder::SemVer*& a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::UnityEngine::ProBuilder::SemVer*&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_TRYGETVERSIONINFO_OFFSET))(input, version);
+			return ((::System::Boolean(*)(::System::String*, ::UnityEngine::ProBuilder::SemVer*&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_TRYGETVERSIONINFO_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 GetBuildNumber(::System::String* input)
+		static ::System::Int32 GetBuildNumber(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_GETBUILDNUMBER_OFFSET))(input);
+			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SEMVER_GETBUILDNUMBER_OFFSET))(a1);
 		}
 	};
 }

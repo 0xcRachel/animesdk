@@ -4,14 +4,14 @@
 
 namespace System::Reflection { class PropertyInfo; }
 
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6B9D60)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__DISPLAYCLASS42_0__GETCHILDPRIVATEPROPERTIES_B__0_OFFSET UNITYSDK_OFFSET(0x1A6BA110)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__DISPLAYCLASS42_0__GETCHILDPRIVATEPROPERTIES_B__1_OFFSET UNITYSDK_OFFSET(0x1A6BA190)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__DISPLAYCLASS42_0__GETCHILDPRIVATEPROPERTIES_B__2_OFFSET UNITYSDK_OFFSET(0x1A6BA240)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D1990)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__DISPLAYCLASS42_0__GETCHILDPRIVATEPROPERTIES_B__0_OFFSET UNITYSDK_OFFSET(0x1B4D1D60)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__DISPLAYCLASS42_0__GETCHILDPRIVATEPROPERTIES_B__1_OFFSET UNITYSDK_OFFSET(0x1B4D1DE0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__DISPLAYCLASS42_0__GETCHILDPRIVATEPROPERTIES_B__2_OFFSET UNITYSDK_OFFSET(0x1B4D1E90)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int ReflectionUtils___c__DisplayClass42_0_TypeDefinitionIndex = 8429;
+	inline static constexpr unsigned int ReflectionUtils___c__DisplayClass42_0_TypeDefinitionIndex = 9332;
 
 	class ReflectionUtils___c__DisplayClass42_0 : public ::System::Object
 	{
@@ -23,19 +23,19 @@ namespace Newtonsoft::Json::Utilities
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__DISPLAYCLASS42_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetChildPrivateProperties_b__0(::System::Reflection::PropertyInfo* p)
+		::System::Boolean _GetChildPrivateProperties_b__0(::System::Reflection::PropertyInfo* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__DISPLAYCLASS42_0__GETCHILDPRIVATEPROPERTIES_B__0_OFFSET))(this, p);
+			return ((::System::Boolean(*)(::PVOID, ::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__DISPLAYCLASS42_0__GETCHILDPRIVATEPROPERTIES_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _GetChildPrivateProperties_b__1(::System::Reflection::PropertyInfo* p)
+		::System::Boolean _GetChildPrivateProperties_b__1(::System::Reflection::PropertyInfo* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__DISPLAYCLASS42_0__GETCHILDPRIVATEPROPERTIES_B__1_OFFSET))(this, p);
+			return ((::System::Boolean(*)(::PVOID, ::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__DISPLAYCLASS42_0__GETCHILDPRIVATEPROPERTIES_B__1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _GetChildPrivateProperties_b__2(::System::Reflection::PropertyInfo* p)
+		::System::Boolean _GetChildPrivateProperties_b__2(::System::Reflection::PropertyInfo* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__DISPLAYCLASS42_0__GETCHILDPRIVATEPROPERTIES_B__2_OFFSET))(this, p);
+			return ((::System::Boolean(*)(::PVOID, ::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__DISPLAYCLASS42_0__GETCHILDPRIVATEPROPERTIES_B__2_OFFSET))(this, a1);
 		}
 	};
 }

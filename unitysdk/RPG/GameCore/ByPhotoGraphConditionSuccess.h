@@ -3,15 +3,18 @@
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BYPHOTOGRAPHCONDITIONSUCCESS_METHOD_4_0CF89C403BDFC8C9_OFFSET UNITYSDK_OFFSET(0x19A6E100)
-#define RPG_GAMECORE_BYPHOTOGRAPHCONDITIONSUCCESS_METHOD_4_103E160E6A34D415_OFFSET UNITYSDK_OFFSET(0x19A6E030)
-#define RPG_GAMECORE_BYPHOTOGRAPHCONDITIONSUCCESS__CTOR_OFFSET UNITYSDK_OFFSET(0x19A6E0B0)
+#define RPG_GAMECORE_BYPHOTOGRAPHCONDITIONSUCCESS_METHOD_4_0CF89C403BDFC8C9_OFFSET UNITYSDK_OFFSET(0x19DBBC60)
+#define RPG_GAMECORE_BYPHOTOGRAPHCONDITIONSUCCESS_METHOD_4_103E160E6A34D415_OFFSET UNITYSDK_OFFSET(0x19DBBB90)
+#define RPG_GAMECORE_BYPHOTOGRAPHCONDITIONSUCCESS_METHOD_4_44F9EF5DC18974D1_OFFSET UNITYSDK_OFFSET(0x19DBBEA0)
+#define RPG_GAMECORE_BYPHOTOGRAPHCONDITIONSUCCESS_METHOD_4_E96A51B133AFBFE0_OFFSET UNITYSDK_OFFSET(0x19DBBE20)
+#define RPG_GAMECORE_BYPHOTOGRAPHCONDITIONSUCCESS__CTOR_OFFSET UNITYSDK_OFFSET(0x19DBBC10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByPhotoGraphConditionSuccess_TypeDefinitionIndex = 20478;
+	inline static constexpr unsigned int ByPhotoGraphConditionSuccess_TypeDefinitionIndex = 20417;
 
 	class ByPhotoGraphConditionSuccess : public ::RPG::GameCore::PredicateConfig
 	{
@@ -32,6 +35,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_0CF89C403BDFC8C9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByPhotoGraphConditionSuccess* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByPhotoGraphConditionSuccess*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPHOTOGRAPHCONDITIONSUCCESS_METHOD_4_0CF89C403BDFC8C9_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_E96A51B133AFBFE0(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByPhotoGraphConditionSuccess*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByPhotoGraphConditionSuccess*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPHOTOGRAPHCONDITIONSUCCESS_METHOD_4_E96A51B133AFBFE0_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_44F9EF5DC18974D1(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByPhotoGraphConditionSuccess* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByPhotoGraphConditionSuccess*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPHOTOGRAPHCONDITIONSUCCESS_METHOD_4_44F9EF5DC18974D1_OFFSET))(a1, a2);
 		}
 	};
 }

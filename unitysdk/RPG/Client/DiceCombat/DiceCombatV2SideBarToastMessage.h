@@ -3,16 +3,16 @@
 #include "unitysdk/RPG/Client/DiceCombat/DiceCombatV2SideBarToastMessage_MessageType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTMESSAGE_CREATE_OFFSET UNITYSDK_OFFSET(0x17047960)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTMESSAGE_GET_PARAM_OFFSET UNITYSDK_OFFSET(0x17047A20)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTMESSAGE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x17047A00)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTMESSAGE_SET_PARAM_OFFSET UNITYSDK_OFFSET(0x17047A30)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTMESSAGE_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x17047A10)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x170479F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTMESSAGE_CREATE_OFFSET UNITYSDK_OFFSET(0x17F121F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTMESSAGE_GET_PARAM_OFFSET UNITYSDK_OFFSET(0x17F122B0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTMESSAGE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x17F12290)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTMESSAGE_SET_PARAM_OFFSET UNITYSDK_OFFSET(0x17F122C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTMESSAGE_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x17F122A0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x17F12280)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2SideBarToastMessage_TypeDefinitionIndex = 69973;
+	inline static constexpr unsigned int DiceCombatV2SideBarToastMessage_TypeDefinitionIndex = 70785;
 
 	class DiceCombatV2SideBarToastMessage : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTMESSAGE__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::DiceCombat::DiceCombatV2SideBarToastMessage* Create(::RPG::Client::DiceCombat::DiceCombatV2SideBarToastMessage_MessageType messageType, ::System::Object* param)
+		static ::RPG::Client::DiceCombat::DiceCombatV2SideBarToastMessage* Create(::RPG::Client::DiceCombat::DiceCombatV2SideBarToastMessage_MessageType a1, ::System::Object* a2)
 		{
-			return ((::RPG::Client::DiceCombat::DiceCombatV2SideBarToastMessage*(*)(::RPG::Client::DiceCombat::DiceCombatV2SideBarToastMessage_MessageType, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTMESSAGE_CREATE_OFFSET))(messageType, param);
+			return ((::RPG::Client::DiceCombat::DiceCombatV2SideBarToastMessage*(*)(::RPG::Client::DiceCombat::DiceCombatV2SideBarToastMessage_MessageType, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTMESSAGE_CREATE_OFFSET))(a1, a2);
 		}
 
 		::RPG::Client::DiceCombat::DiceCombatV2SideBarToastMessage_MessageType get_Type()
@@ -35,9 +35,9 @@ namespace RPG::Client::DiceCombat
 			return ((::RPG::Client::DiceCombat::DiceCombatV2SideBarToastMessage_MessageType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTMESSAGE_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Void set_Type(::RPG::Client::DiceCombat::DiceCombatV2SideBarToastMessage_MessageType value)
+		::System::Void set_Type(::RPG::Client::DiceCombat::DiceCombatV2SideBarToastMessage_MessageType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatV2SideBarToastMessage_MessageType))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTMESSAGE_SET_TYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatV2SideBarToastMessage_MessageType))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTMESSAGE_SET_TYPE_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_Param()
@@ -45,9 +45,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTMESSAGE_GET_PARAM_OFFSET))(this);
 		}
 
-		::System::Void set_Param(::System::Object* value)
+		::System::Void set_Param(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTMESSAGE_SET_PARAM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTMESSAGE_SET_PARAM_OFFSET))(this, a1);
 		}
 	};
 }

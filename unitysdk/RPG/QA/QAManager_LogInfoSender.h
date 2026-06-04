@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_QA_QAMANAGER_LOGINFOSENDER_SENDLOG_OFFSET UNITYSDK_OFFSET(0x1558E6F0)
-#define RPG_QA_QAMANAGER_LOGINFOSENDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1558DF30)
+#define RPG_QA_QAMANAGER_LOGINFOSENDER_SENDLOG_OFFSET UNITYSDK_OFFSET(0x17B4DCC0)
+#define RPG_QA_QAMANAGER_LOGINFOSENDER__CTOR_OFFSET UNITYSDK_OFFSET(0x17B4D540)
 
 namespace RPG::QA
 {
-	inline static constexpr unsigned int QAManager_LogInfoSender_TypeDefinitionIndex = 47830;
+	inline static constexpr unsigned int QAManager_LogInfoSender_TypeDefinitionIndex = 48445;
 
 	class QAManager_LogInfoSender : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace RPG::QA
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER_LOGINFOSENDER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SendLog(::System::String* logType, ::System::String* message, ::System::String* stackTrace)
+		::System::Void SendLog(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER_LOGINFOSENDER_SENDLOG_OFFSET))(this, logType, message, stackTrace);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER_LOGINFOSENDER_SENDLOG_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

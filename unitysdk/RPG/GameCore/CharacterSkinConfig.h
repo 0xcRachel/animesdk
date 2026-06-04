@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class CharacterSkinResMapItem; }
 
-#define RPG_GAMECORE_CHARACTERSKINCONFIG_METHOD_2_094DB9A1735FFFE0_OFFSET UNITYSDK_OFFSET(0x18D62170)
-#define RPG_GAMECORE_CHARACTERSKINCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18D62240)
+#define RPG_GAMECORE_CHARACTERSKINCONFIG_METHOD_2_ABDADD775C184B9D_OFFSET UNITYSDK_OFFSET(0x1A147620)
+#define RPG_GAMECORE_CHARACTERSKINCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1476E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterSkinConfig_TypeDefinitionIndex = 15661;
+	inline static constexpr unsigned int CharacterSkinConfig_TypeDefinitionIndex = 15718;
 
 	class CharacterSkinConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSKINCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_094DB9A1735FFFE0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterSkinConfig*& a2)
+		static ::System::Void Method_2_ABDADD775C184B9D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterSkinConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterSkinConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSKINCONFIG_METHOD_2_094DB9A1735FFFE0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterSkinConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSKINCONFIG_METHOD_2_ABDADD775C184B9D_OFFSET))(a1, a2);
 		}
 	};
 }

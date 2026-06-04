@@ -9,23 +9,23 @@ namespace Epic::OnlineServices::Auth { class IOSCredentialsSystemAuthCredentials
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x235DA90)
-#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_GET_EXTERNALTYPE_OFFSET UNITYSDK_OFFSET(0x70B710)
-#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_GET_ID_OFFSET UNITYSDK_OFFSET(0x235D670)
-#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_GET_SYSTEMAUTHCREDENTIALSOPTIONS_OFFSET UNITYSDK_OFFSET(0x235D930)
-#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_GET_TOKEN_OFFSET UNITYSDK_OFFSET(0x235D7D0)
-#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x608A50)
-#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x235DA20)
-#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_EXTERNALTYPE_OFFSET UNITYSDK_OFFSET(0x1464ED0)
-#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_ID_OFFSET UNITYSDK_OFFSET(0x235D720)
-#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x235DA10)
-#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_SYSTEMAUTHCREDENTIALSOPTIONS_OFFSET UNITYSDK_OFFSET(0x235D9A0)
-#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_TOKEN_OFFSET UNITYSDK_OFFSET(0x235D880)
-#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x2233770)
+#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3908380)
+#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_GET_EXTERNALTYPE_OFFSET UNITYSDK_OFFSET(0xBC5260)
+#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_GET_ID_OFFSET UNITYSDK_OFFSET(0x3907F50)
+#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_GET_SYSTEMAUTHCREDENTIALSOPTIONS_OFFSET UNITYSDK_OFFSET(0x3908210)
+#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_GET_TOKEN_OFFSET UNITYSDK_OFFSET(0x39080B0)
+#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x72BC10)
+#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x3908300)
+#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_EXTERNALTYPE_OFFSET UNITYSDK_OFFSET(0x3793880)
+#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_ID_OFFSET UNITYSDK_OFFSET(0x3908000)
+#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x39082F0)
+#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_SYSTEMAUTHCREDENTIALSOPTIONS_OFFSET UNITYSDK_OFFSET(0x3908280)
+#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_TOKEN_OFFSET UNITYSDK_OFFSET(0x3908160)
+#define EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x374B860)
 
 namespace Epic::OnlineServices::Auth
 {
-	inline static constexpr unsigned int IOSCredentialsInternal_TypeDefinitionIndex = 42420;
+	inline static constexpr unsigned int IOSCredentialsInternal_TypeDefinitionIndex = 43223;
 
 	struct alignas(8) IOSCredentialsInternal
 	{
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_Id(::System::String* value)
+		::System::Void set_Id(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_ID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Token()
@@ -51,9 +51,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_GET_TOKEN_OFFSET))(this);
 		}
 
-		::System::Void set_Token(::System::String* value)
+		::System::Void set_Token(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_TOKEN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_TOKEN_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::Auth::LoginCredentialType get_Type()
@@ -61,9 +61,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::Epic::OnlineServices::Auth::LoginCredentialType(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Void set_Type(::Epic::OnlineServices::Auth::LoginCredentialType value)
+		::System::Void set_Type(::Epic::OnlineServices::Auth::LoginCredentialType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::LoginCredentialType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_TYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::LoginCredentialType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_TYPE_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::Auth::IOSCredentialsSystemAuthCredentialsOptions* get_SystemAuthCredentialsOptions()
@@ -71,9 +71,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::Epic::OnlineServices::Auth::IOSCredentialsSystemAuthCredentialsOptions*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_GET_SYSTEMAUTHCREDENTIALSOPTIONS_OFFSET))(this);
 		}
 
-		::System::Void set_SystemAuthCredentialsOptions(::Epic::OnlineServices::Auth::IOSCredentialsSystemAuthCredentialsOptions* value)
+		::System::Void set_SystemAuthCredentialsOptions(::Epic::OnlineServices::Auth::IOSCredentialsSystemAuthCredentialsOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::IOSCredentialsSystemAuthCredentialsOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_SYSTEMAUTHCREDENTIALSOPTIONS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::IOSCredentialsSystemAuthCredentialsOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_SYSTEMAUTHCREDENTIALSOPTIONS_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ExternalCredentialType get_ExternalType()
@@ -81,19 +81,19 @@ namespace Epic::OnlineServices::Auth
 			return ((::Epic::OnlineServices::ExternalCredentialType(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_GET_EXTERNALTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_ExternalType(::Epic::OnlineServices::ExternalCredentialType value)
+		::System::Void set_ExternalType(::Epic::OnlineServices::ExternalCredentialType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ExternalCredentialType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_EXTERNALTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ExternalCredentialType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_EXTERNALTYPE_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Auth::IOSCredentials* other)
+		::System::Void Set(::Epic::OnlineServices::Auth::IOSCredentials* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::IOSCredentials*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::IOSCredentials*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IOSCREDENTIALSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

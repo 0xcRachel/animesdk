@@ -11,31 +11,31 @@ namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class JSONObject; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_BUSINESSREPORT_OFFSET UNITYSDK_OFFSET(0x153F0C40)
-#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_DEBUG_OFFSET UNITYSDK_OFFSET(0x153F1960)
-#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_ERROR_OFFSET UNITYSDK_OFFSET(0x153C6E60)
-#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_GETMINORLOGSTOREURL_OFFSET UNITYSDK_OFFSET(0x153F0D00)
-#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_H5LOGREPORT_OFFSET UNITYSDK_OFFSET(0x153F1AE0)
-#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_INFO_OFFSET UNITYSDK_OFFSET(0x153C7F50)
-#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_PARSEANDREPORT_OFFSET UNITYSDK_OFFSET(0x153F1BA0)
-#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_PREPBUSINESSREPORT_OFFSET UNITYSDK_OFFSET(0x153F13E0)
-#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_REPORTBYLEVEL_OFFSET UNITYSDK_OFFSET(0x153F2080)
-#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_SETREPORTTARGET_OFFSET UNITYSDK_OFFSET(0x153C7920)
-#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_VALIDATECONTENT_OFFSET UNITYSDK_OFFSET(0x153F16B0)
-#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_WARNING_OFFSET UNITYSDK_OFFSET(0x153C5830)
-#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x153F2130)
-#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x153F2120)
+#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_BUSINESSREPORT_OFFSET UNITYSDK_OFFSET(0x14C631C0)
+#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_DEBUG_OFFSET UNITYSDK_OFFSET(0x14C63E70)
+#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_ERROR_OFFSET UNITYSDK_OFFSET(0x14C3A430)
+#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_GETMINORLOGSTOREURL_OFFSET UNITYSDK_OFFSET(0x14C632A0)
+#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_H5LOGREPORT_OFFSET UNITYSDK_OFFSET(0x14C64000)
+#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_INFO_OFFSET UNITYSDK_OFFSET(0x14C3B570)
+#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_PARSEANDREPORT_OFFSET UNITYSDK_OFFSET(0x14C640E0)
+#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_PREPBUSINESSREPORT_OFFSET UNITYSDK_OFFSET(0x14C638D0)
+#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_REPORTBYLEVEL_OFFSET UNITYSDK_OFFSET(0x14C64630)
+#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_SETREPORTTARGET_OFFSET UNITYSDK_OFFSET(0x14C3AF20)
+#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_VALIDATECONTENT_OFFSET UNITYSDK_OFFSET(0x14C63BB0)
+#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER_WARNING_OFFSET UNITYSDK_OFFSET(0x14C38E50)
+#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x14C646E0)
+#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x14C646D0)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int ReportManager_TypeDefinitionIndex = 7377;
+	inline static constexpr unsigned int ReportManager_TypeDefinitionIndex = 8280;
 
 	class ReportManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::HoYoPass::ReportManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::HoYoPass::ReportManager**)Il2CppClass::FromTypeDefinitionIndex(ReportManager_TypeDefinitionIndex)->GetStaticField(0xDE80);
+			return (::MiHoYo::SDK::HoYoPass::ReportManager**)Il2CppClass::FromTypeDefinitionIndex(ReportManager_TypeDefinitionIndex)->GetStaticField(0x13240);
 		}
 		// static const ::System::String* SUPER_MODULE; // 0x0
 		// static const ::System::String* CPP_MODULE; // 0x0
@@ -61,64 +61,64 @@ namespace MiHoYo::SDK::HoYoPass
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER__CCTOR_OFFSET))();
 		}
 
-		::System::Void BusinessReport(::System::String* content)
+		::System::Void BusinessReport(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_BUSINESSREPORT_OFFSET))(this, content);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_BUSINESSREPORT_OFFSET))(this, a1);
 		}
 
-		::System::Void SetReportTarget(::MiHoYo::SDK::HoYoPass::ReportManager_LogLevel strategy)
+		::System::Void SetReportTarget(::MiHoYo::SDK::HoYoPass::ReportManager_LogLevel a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::HoYoPass::ReportManager_LogLevel))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_SETREPORTTARGET_OFFSET))(this, strategy);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::HoYoPass::ReportManager_LogLevel))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_SETREPORTTARGET_OFFSET))(this, a1);
 		}
 
-		::System::String* GetMinorLogStoreUrl(::System::String* url, ::System::String* storeName)
+		::System::String* GetMinorLogStoreUrl(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_GETMINORLOGSTOREURL_OFFSET))(this, url, storeName);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_GETMINORLOGSTOREURL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void PrepBusinessReport(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ReportActionId actionId, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ReportType reportType, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ReportStage reportStage, ::MiHoYo::SDK::JSONObject* cBody)
+		::System::Void PrepBusinessReport(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ReportActionId a1, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ReportType a2, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ReportStage a3, ::MiHoYo::SDK::JSONObject* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ReportActionId, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ReportType, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ReportStage, ::MiHoYo::SDK::JSONObject*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_PREPBUSINESSREPORT_OFFSET))(this, actionId, reportType, reportStage, cBody);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ReportActionId, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ReportType, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ReportStage, ::MiHoYo::SDK::JSONObject*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_PREPBUSINESSREPORT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean ValidateContent(::MiHoYo::SDK::JSONNode* content)
+		::System::Boolean ValidateContent(::MiHoYo::SDK::JSONNode* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_VALIDATECONTENT_OFFSET))(this, content);
+			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_VALIDATECONTENT_OFFSET))(this, a1);
 		}
 
-		::System::Void Info(::System::String* module, ::System::String* eventName, ::System::String* msg, ::System::Int32 tkCode)
+		::System::Void Info(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_INFO_OFFSET))(this, module, eventName, msg, tkCode);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_INFO_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Debug(::System::String* module, ::System::String* eventName, ::System::String* msg, ::System::Int32 tkCode)
+		::System::Void Debug(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_DEBUG_OFFSET))(this, module, eventName, msg, tkCode);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_DEBUG_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Warning(::System::String* module, ::System::String* eventName, ::System::String* msg, ::System::Int32 tkCode)
+		::System::Void Warning(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_WARNING_OFFSET))(this, module, eventName, msg, tkCode);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_WARNING_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Error(::System::String* module, ::System::String* eventName, ::System::String* msg, ::System::Int32 tkCode)
+		::System::Void Error(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_ERROR_OFFSET))(this, module, eventName, msg, tkCode);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_ERROR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void H5logReport(::System::String* content)
+		::System::Void H5logReport(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_H5LOGREPORT_OFFSET))(this, content);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_H5LOGREPORT_OFFSET))(this, a1);
 		}
 
-		::System::Void ParseAndReport(::MiHoYo::SDK::JSONNode* content)
+		::System::Void ParseAndReport(::MiHoYo::SDK::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_PARSEANDREPORT_OFFSET))(this, content);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_PARSEANDREPORT_OFFSET))(this, a1);
 		}
 
-		::System::Void ReportByLevel(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ReportLevel level, ::System::String* module, ::System::String* eventName, ::System::String* msg)
+		::System::Void ReportByLevel(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ReportLevel a1, ::System::String* a2, ::System::String* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ReportLevel, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_REPORTBYLEVEL_OFFSET))(this, level, module, eventName, msg);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ReportLevel, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_REPORTMANAGER_REPORTBYLEVEL_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

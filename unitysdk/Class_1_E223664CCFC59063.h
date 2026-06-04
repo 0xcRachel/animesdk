@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_E223664CCFC59063_GET_R_OFFSET UNITYSDK_OFFSET(0x10945040)
-#define CLASS_1_E223664CCFC59063_GET_X_OFFSET UNITYSDK_OFFSET(0x10945000)
-#define CLASS_1_E223664CCFC59063_GET_Y_OFFSET UNITYSDK_OFFSET(0x10945020)
-#define CLASS_1_E223664CCFC59063_SET_R_OFFSET UNITYSDK_OFFSET(0x10945050)
-#define CLASS_1_E223664CCFC59063_SET_X_OFFSET UNITYSDK_OFFSET(0x10945010)
-#define CLASS_1_E223664CCFC59063_SET_Y_OFFSET UNITYSDK_OFFSET(0x10945030)
-#define CLASS_1_E223664CCFC59063__CTOR_OFFSET UNITYSDK_OFFSET(0x10945060)
+#define CLASS_1_E223664CCFC59063_GET_R_OFFSET UNITYSDK_OFFSET(0x17F4DC00)
+#define CLASS_1_E223664CCFC59063_GET_X_OFFSET UNITYSDK_OFFSET(0x17F4DBC0)
+#define CLASS_1_E223664CCFC59063_GET_Y_OFFSET UNITYSDK_OFFSET(0x17F4DBE0)
+#define CLASS_1_E223664CCFC59063_SET_R_OFFSET UNITYSDK_OFFSET(0x17F4DC10)
+#define CLASS_1_E223664CCFC59063_SET_X_OFFSET UNITYSDK_OFFSET(0x17F4DBD0)
+#define CLASS_1_E223664CCFC59063_SET_Y_OFFSET UNITYSDK_OFFSET(0x17F4DBF0)
+#define CLASS_1_E223664CCFC59063__CTOR_OFFSET UNITYSDK_OFFSET(0x17F4DC20)
 
-inline static constexpr unsigned int Class_1_E223664CCFC59063_TypeDefinitionIndex = 59320;
+inline static constexpr unsigned int Class_1_E223664CCFC59063_TypeDefinitionIndex = 60255;
 
 class Class_1_E223664CCFC59063 : public ::System::Object
 {
 public:
-	::System::Double _X_k__BackingField; // 0x10
-	::System::Double _Y_k__BackingField; // 0x18
-	::System::Double _R_k__BackingField; // 0x20
+	::System::Double _R_k__BackingField; // 0x10
+	::System::Double _X_k__BackingField; // 0x18
+	::System::Double _Y_k__BackingField; // 0x20
 
 	::System::Void _ctor(::System::Double a1, ::System::Double a2, ::System::Double a3)
 	{
@@ -29,9 +29,9 @@ public:
 		return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E223664CCFC59063_GET_X_OFFSET))(this);
 	}
 
-	::System::Void set_X(::System::Double value)
+	::System::Void set_X(::System::Double a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + CLASS_1_E223664CCFC59063_SET_X_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + CLASS_1_E223664CCFC59063_SET_X_OFFSET))(this, a1);
 	}
 
 	::System::Double get_Y()
@@ -39,9 +39,9 @@ public:
 		return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E223664CCFC59063_GET_Y_OFFSET))(this);
 	}
 
-	::System::Void set_Y(::System::Double value)
+	::System::Void set_Y(::System::Double a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + CLASS_1_E223664CCFC59063_SET_Y_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + CLASS_1_E223664CCFC59063_SET_Y_OFFSET))(this, a1);
 	}
 
 	::System::Double get_R()
@@ -49,8 +49,8 @@ public:
 		return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E223664CCFC59063_GET_R_OFFSET))(this);
 	}
 
-	::System::Void set_R(::System::Double value)
+	::System::Void set_R(::System::Double a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + CLASS_1_E223664CCFC59063_SET_R_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + CLASS_1_E223664CCFC59063_SET_R_OFFSET))(this, a1);
 	}
 };

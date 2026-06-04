@@ -4,28 +4,28 @@
 
 namespace System { class String; }
 
-#define TMPRO_TMP_STYLE_GET_HASHCODE_OFFSET UNITYSDK_OFFSET(0x160AF2B0)
-#define TMPRO_TMP_STYLE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x160AF260)
-#define TMPRO_TMP_STYLE_GET_NORMALSTYLE_OFFSET UNITYSDK_OFFSET(0x160AF170)
-#define TMPRO_TMP_STYLE_GET_STYLECLOSINGDEFINITION_OFFSET UNITYSDK_OFFSET(0x160AF2E0)
-#define TMPRO_TMP_STYLE_GET_STYLECLOSINGTAGARRAY_OFFSET UNITYSDK_OFFSET(0x160AF300)
-#define TMPRO_TMP_STYLE_GET_STYLEOPENINGDEFINITION_OFFSET UNITYSDK_OFFSET(0x160AF2D0)
-#define TMPRO_TMP_STYLE_GET_STYLEOPENINGTAGARRAY_OFFSET UNITYSDK_OFFSET(0x160AF2F0)
-#define TMPRO_TMP_STYLE_REFRESHSTYLE_OFFSET UNITYSDK_OFFSET(0x160AF310)
-#define TMPRO_TMP_STYLE_SET_HASHCODE_OFFSET UNITYSDK_OFFSET(0x160AF2C0)
-#define TMPRO_TMP_STYLE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x160AF270)
-#define TMPRO_TMP_STYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x160AF200)
+#define TMPRO_TMP_STYLE_GET_HASHCODE_OFFSET UNITYSDK_OFFSET(0x155ED4A0)
+#define TMPRO_TMP_STYLE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x155ED450)
+#define TMPRO_TMP_STYLE_GET_NORMALSTYLE_OFFSET UNITYSDK_OFFSET(0x155ED360)
+#define TMPRO_TMP_STYLE_GET_STYLECLOSINGDEFINITION_OFFSET UNITYSDK_OFFSET(0x155ED4D0)
+#define TMPRO_TMP_STYLE_GET_STYLECLOSINGTAGARRAY_OFFSET UNITYSDK_OFFSET(0x155ED4F0)
+#define TMPRO_TMP_STYLE_GET_STYLEOPENINGDEFINITION_OFFSET UNITYSDK_OFFSET(0x155ED4C0)
+#define TMPRO_TMP_STYLE_GET_STYLEOPENINGTAGARRAY_OFFSET UNITYSDK_OFFSET(0x155ED4E0)
+#define TMPRO_TMP_STYLE_REFRESHSTYLE_OFFSET UNITYSDK_OFFSET(0x155ED500)
+#define TMPRO_TMP_STYLE_SET_HASHCODE_OFFSET UNITYSDK_OFFSET(0x155ED4B0)
+#define TMPRO_TMP_STYLE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x155ED460)
+#define TMPRO_TMP_STYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x155ED3F0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Style_TypeDefinitionIndex = 40194;
+	inline static constexpr unsigned int TMP_Style_TypeDefinitionIndex = 41021;
 
 	class TMP_Style : public ::System::Object
 	{
 	public:
 		static ::TMPro::TMP_Style** StaticGet_k_NormalStyle()
 		{
-			return (::TMPro::TMP_Style**)Il2CppClass::FromTypeDefinitionIndex(TMP_Style_TypeDefinitionIndex)->GetStaticField(0x5B590);
+			return (::TMPro::TMP_Style**)Il2CppClass::FromTypeDefinitionIndex(TMP_Style_TypeDefinitionIndex)->GetStaticField(0x537F0);
 		}
 		::System::String* m_Name; // 0x10
 		::System::Int32 m_HashCode; // 0x18
@@ -36,9 +36,9 @@ namespace TMPro
 		::Il2CppArray<::System::UInt32>* m_OpeningTagUnicodeArray; // 0x40
 		::Il2CppArray<::System::UInt32>* m_ClosingTagUnicodeArray; // 0x48
 
-		::System::Void _ctor(::System::String* styleName, ::System::String* styleOpeningDefinition, ::System::String* styleClosingDefinition)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_STYLE__CTOR_OFFSET))(this, styleName, styleOpeningDefinition, styleClosingDefinition);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_STYLE__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::TMPro::TMP_Style* get_NormalStyle()
@@ -51,9 +51,9 @@ namespace TMPro
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_STYLE_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Void set_name(::System::String* value)
+		::System::Void set_name(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_STYLE_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_STYLE_SET_NAME_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_hashCode()
@@ -61,9 +61,9 @@ namespace TMPro
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_STYLE_GET_HASHCODE_OFFSET))(this);
 		}
 
-		::System::Void set_hashCode(::System::Int32 value)
+		::System::Void set_hashCode(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_STYLE_SET_HASHCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_STYLE_SET_HASHCODE_OFFSET))(this, a1);
 		}
 
 		::System::String* get_styleOpeningDefinition()

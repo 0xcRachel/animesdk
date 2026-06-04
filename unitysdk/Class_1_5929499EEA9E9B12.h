@@ -8,14 +8,14 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define CLASS_1_5929499EEA9E9B12_METHOD_1_A814306820B9ED13_1_OFFSET UNITYSDK_OFFSET(0x101CB6C0)
-#define CLASS_1_5929499EEA9E9B12_METHOD_1_A814306820B9ED13_2_OFFSET UNITYSDK_OFFSET(0x101CB790)
-#define CLASS_1_5929499EEA9E9B12_METHOD_1_A814306820B9ED13_OFFSET UNITYSDK_OFFSET(0x101CB5F0)
-#define CLASS_1_5929499EEA9E9B12_METHOD_1_C29DEA4E726F712E_OFFSET UNITYSDK_OFFSET(0x101CB860)
-#define CLASS_1_5929499EEA9E9B12_METHOD_1_FB9BDC73E608BDCF_OFFSET UNITYSDK_OFFSET(0x101CAD50)
-#define CLASS_1_5929499EEA9E9B12__CTOR_OFFSET UNITYSDK_OFFSET(0x101CBCC0)
+#define CLASS_1_5929499EEA9E9B12_METHOD_1_605ECC39CD413BE3_OFFSET UNITYSDK_OFFSET(0x14C2F650)
+#define CLASS_1_5929499EEA9E9B12_METHOD_1_A814306820B9ED13_1_OFFSET UNITYSDK_OFFSET(0x14C2F4B0)
+#define CLASS_1_5929499EEA9E9B12_METHOD_1_A814306820B9ED13_2_OFFSET UNITYSDK_OFFSET(0x14C2F580)
+#define CLASS_1_5929499EEA9E9B12_METHOD_1_A814306820B9ED13_OFFSET UNITYSDK_OFFSET(0x14C2F3E0)
+#define CLASS_1_5929499EEA9E9B12_METHOD_1_FB9BDC73E608BDCF_OFFSET UNITYSDK_OFFSET(0x14C2EB20)
+#define CLASS_1_5929499EEA9E9B12__CTOR_OFFSET UNITYSDK_OFFSET(0x14C2FB00)
 
-inline static constexpr unsigned int Class_1_5929499EEA9E9B12_TypeDefinitionIndex = 52712;
+inline static constexpr unsigned int Class_1_5929499EEA9E9B12_TypeDefinitionIndex = 53414;
 
 class Class_1_5929499EEA9E9B12 : public ::System::Object
 {
@@ -30,9 +30,9 @@ public:
 		return ((::System::Void(*)(::System::String*&, ::System::String*&, ::UnityEngine::GameObject*&, ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>*&, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*&))((::PBYTE)hIl2Cpp + CLASS_1_5929499EEA9E9B12_METHOD_1_FB9BDC73E608BDCF_OFFSET))(a1, a2, a3, a4, a5);
 	}
 
-	static ::System::Void Method_1_C29DEA4E726F712E(::System::String*& a1, ::System::String*& a2, ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>*& a3, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*& a4)
+	static ::System::Void Method_1_605ECC39CD413BE3(::System::String*& a1, ::System::String*& a2, ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>*& a3, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*& a4)
 	{
-		return ((::System::Void(*)(::System::String*&, ::System::String*&, ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>*&, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*&))((::PBYTE)hIl2Cpp + CLASS_1_5929499EEA9E9B12_METHOD_1_C29DEA4E726F712E_OFFSET))(a1, a2, a3, a4);
+		return ((::System::Void(*)(::System::String*&, ::System::String*&, ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>*&, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*&))((::PBYTE)hIl2Cpp + CLASS_1_5929499EEA9E9B12_METHOD_1_605ECC39CD413BE3_OFFSET))(a1, a2, a3, a4);
 	}
 
 	static ::System::Void Method_1_A814306820B9ED13(::UnityEngine::Renderer* a1, ::System::Boolean a2)

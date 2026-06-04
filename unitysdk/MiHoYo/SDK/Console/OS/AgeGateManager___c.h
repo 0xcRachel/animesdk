@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::UI::OS { class IAgeGateGeneralErrorDialog; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15EEE150)
-#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15EEE190)
-#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__HANDLEAGEGATEFROMERRORCODE_B__7_0_OFFSET UNITYSDK_OFFSET(0x15EEE1A0)
+#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x161868D0)
+#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16186910)
+#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__HANDLEAGEGATEFROMERRORCODE_B__7_0_OFFSET UNITYSDK_OFFSET(0x16186920)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int AgeGateManager___c_TypeDefinitionIndex = 7813;
+	inline static constexpr unsigned int AgeGateManager___c_TypeDefinitionIndex = 8716;
 
 	class AgeGateManager___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Console::OS::AgeGateManager___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::Console::OS::AgeGateManager___c**)Il2CppClass::FromTypeDefinitionIndex(AgeGateManager___c_TypeDefinitionIndex)->GetStaticField(0xB8E0);
-		}
 		static ::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>** StaticGet___9__7_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>**)Il2CppClass::FromTypeDefinitionIndex(AgeGateManager___c_TypeDefinitionIndex)->GetStaticField(0xB8E8);
+			return (::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>**)Il2CppClass::FromTypeDefinitionIndex(AgeGateManager___c_TypeDefinitionIndex)->GetStaticField(0x10490);
+		}
+		static ::MiHoYo::SDK::Console::OS::AgeGateManager___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::Console::OS::AgeGateManager___c**)Il2CppClass::FromTypeDefinitionIndex(AgeGateManager___c_TypeDefinitionIndex)->GetStaticField(0x10498);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MiHoYo::SDK::Console::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _HandleAgeGateFromErrorCode_b__7_0(::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog* currentDialog)
+		::System::Void _HandleAgeGateFromErrorCode_b__7_0(::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__HANDLEAGEGATEFROMERRORCODE_B__7_0_OFFSET))(this, currentDialog);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__HANDLEAGEGATEFROMERRORCODE_B__7_0_OFFSET))(this, a1);
 		}
 	};
 }

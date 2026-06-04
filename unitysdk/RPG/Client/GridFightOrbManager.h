@@ -21,57 +21,57 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_ADDHANDLEDORBUID_OFFSET UNITYSDK_OFFSET(0x177DFD20)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_ADDPRESENT_OFFSET UNITYSDK_OFFSET(0x177E1DB0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_ADDSPHERE_OFFSET UNITYSDK_OFFSET(0x177E05A0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0x177DED00)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_CHECKDRAGGEDSPHERES_OFFSET UNITYSDK_OFFSET(0x177DFF70)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_CHECKORBCANCLICK_OFFSET UNITYSDK_OFFSET(0x177DFBA0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_CLEARALLORBS_OFFSET UNITYSDK_OFFSET(0x177DF1E0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_CLEARALLSPHERES_OFFSET UNITYSDK_OFFSET(0x177E2A20)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_GETALLSPHERES_OFFSET UNITYSDK_OFFSET(0x177E2C50)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_GETBOUNDS_OFFSET UNITYSDK_OFFSET(0x177E23E0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_GETCURRENTHOVEREDSPHERE_OFFSET UNITYSDK_OFFSET(0x177E2CE0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_GETPREFABPATHFROMCONFIG_OFFSET UNITYSDK_OFFSET(0x177E0990)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_GETSPHERE_OFFSET UNITYSDK_OFFSET(0x177E26F0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_HANDLECLICKDETECTION_OFFSET UNITYSDK_OFFSET(0x177DF3A0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_HANDLEDRAGDETECTION_OFFSET UNITYSDK_OFFSET(0x177DF8D0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_HASUIONBOARD_OFFSET UNITYSDK_OFFSET(0x177DFAE0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_ISDRAGGING_OFFSET UNITYSDK_OFFSET(0x177E2D20)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x177DF180)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_REGENPENDINGSPHERES_OFFSET UNITYSDK_OFFSET(0x177E1960)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_REGISTERONCLICKCALLBACK_OFFSET UNITYSDK_OFFSET(0x177E2D60)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_REGISTERONDRAGENTERCALLBACK_OFFSET UNITYSDK_OFFSET(0x177E2DB0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_REMOVESPHERE_OFFSET UNITYSDK_OFFSET(0x177E27D0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_SETBOUNDINGBOX_OFFSET UNITYSDK_OFFSET(0x177E2BB0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_SETRAYCASTLAYERMASK_OFFSET UNITYSDK_OFFSET(0x177E2C00)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_START_OFFSET UNITYSDK_OFFSET(0x177DF140)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x177DF350)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x177E30B0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER__CHECKCOLLIDERPRESENTSPHERE_OFFSET UNITYSDK_OFFSET(0x177E13E0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER__CREATEPRESENT_OFFSET UNITYSDK_OFFSET(0x177E2010)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER__CREATESPHERE_OFFSET UNITYSDK_OFFSET(0x177E1190)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x177E2E00)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER__GENSPAWNPOS_OFFSET UNITYSDK_OFFSET(0x177E0AC0)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_ADDHANDLEDORBUID_OFFSET UNITYSDK_OFFSET(0x19777ED0)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_ADDPRESENT_OFFSET UNITYSDK_OFFSET(0x1977A1D0)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_ADDSPHERE_OFFSET UNITYSDK_OFFSET(0x19778850)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0x19776E00)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_CHECKDRAGGEDSPHERES_OFFSET UNITYSDK_OFFSET(0x19778120)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_CHECKORBCANCLICK_OFFSET UNITYSDK_OFFSET(0x19777D60)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_CLEARALLORBS_OFFSET UNITYSDK_OFFSET(0x197773E0)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_CLEARALLSPHERES_OFFSET UNITYSDK_OFFSET(0x1977AE70)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_GETALLSPHERES_OFFSET UNITYSDK_OFFSET(0x1977B080)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_GETBOUNDS_OFFSET UNITYSDK_OFFSET(0x1977A830)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_GETCURRENTHOVEREDSPHERE_OFFSET UNITYSDK_OFFSET(0x1977B110)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_GETPREFABPATHFROMCONFIG_OFFSET UNITYSDK_OFFSET(0x19778CB0)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_GETSPHERE_OFFSET UNITYSDK_OFFSET(0x1977AB10)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_HANDLECLICKDETECTION_OFFSET UNITYSDK_OFFSET(0x19777590)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_HANDLEDRAGDETECTION_OFFSET UNITYSDK_OFFSET(0x19777A90)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_HASUIONBOARD_OFFSET UNITYSDK_OFFSET(0x19777CA0)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_ISDRAGGING_OFFSET UNITYSDK_OFFSET(0x1977B150)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19777380)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_REGENPENDINGSPHERES_OFFSET UNITYSDK_OFFSET(0x19779D30)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_REGISTERONCLICKCALLBACK_OFFSET UNITYSDK_OFFSET(0x1977B190)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_REGISTERONDRAGENTERCALLBACK_OFFSET UNITYSDK_OFFSET(0x1977B1E0)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_REMOVESPHERE_OFFSET UNITYSDK_OFFSET(0x1977AC00)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_SETBOUNDINGBOX_OFFSET UNITYSDK_OFFSET(0x1977AFE0)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_SETRAYCASTLAYERMASK_OFFSET UNITYSDK_OFFSET(0x1977B030)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_START_OFFSET UNITYSDK_OFFSET(0x19777340)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x19777540)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1977B4E0)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER__CHECKCOLLIDERPRESENTSPHERE_OFFSET UNITYSDK_OFFSET(0x19779700)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER__CREATEPRESENT_OFFSET UNITYSDK_OFFSET(0x1977A4C0)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER__CREATESPHERE_OFFSET UNITYSDK_OFFSET(0x197794B0)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1977B230)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER__GENSPAWNPOS_OFFSET UNITYSDK_OFFSET(0x19778DE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightOrbManager_TypeDefinitionIndex = 59313;
+	inline static constexpr unsigned int GridFightOrbManager_TypeDefinitionIndex = 60248;
 
 	class GridFightOrbManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::String** StaticGet__PresentPrefab()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(GridFightOrbManager_TypeDefinitionIndex)->GetStaticField(0x2AD50);
-		}
 		static ::Il2CppArray<::RPG::Client::OrbSpawnConfig*>** StaticGet_orbSpawnConfigs()
 		{
-			return (::Il2CppArray<::RPG::Client::OrbSpawnConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightOrbManager_TypeDefinitionIndex)->GetStaticField(0x2AD58);
+			return (::Il2CppArray<::RPG::Client::OrbSpawnConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightOrbManager_TypeDefinitionIndex)->GetStaticField(0x30940);
+		}
+		static ::System::String** StaticGet__PresentPrefab()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(GridFightOrbManager_TypeDefinitionIndex)->GetStaticField(0x30948);
 		}
 		static ::System::Single* StaticGet__PresentRadius()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(GridFightOrbManager_TypeDefinitionIndex)->GetStaticField(0x8400);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(GridFightOrbManager_TypeDefinitionIndex)->GetStaticField(0xA1F0);
 		}
 		::UnityEngine::BoxCollider* boundingBox; // 0x18
 		::System::Single minDistance; // 0x20
@@ -134,14 +134,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_HANDLEDRAGDETECTION_OFFSET))(this);
 		}
 
-		::System::Void CheckDraggedSpheres(::UnityEngine::Vector3 mousePosition)
+		::System::Void CheckDraggedSpheres(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_CHECKDRAGGEDSPHERES_OFFSET))(this, mousePosition);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_CHECKDRAGGEDSPHERES_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::GameObject* AddSphere(::RPG::Client::GridFightOrbEntityData* orbData)
+		::UnityEngine::GameObject* AddSphere(::RPG::Client::GridFightOrbEntityData* a1)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::RPG::Client::GridFightOrbEntityData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_ADDSPHERE_OFFSET))(this, orbData);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::RPG::Client::GridFightOrbEntityData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_ADDSPHERE_OFFSET))(this, a1);
 		}
 
 		::System::Void _CheckColliderPresentSphere()
@@ -154,34 +154,34 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_REGENPENDINGSPHERES_OFFSET))(this);
 		}
 
-		::UnityEngine::GameObject* AddPresent(::RPG::Client::GridFightPresentEntity* presentData)
+		::UnityEngine::GameObject* AddPresent(::RPG::Client::GridFightPresentEntity* a1)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::RPG::Client::GridFightPresentEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_ADDPRESENT_OFFSET))(this, presentData);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::RPG::Client::GridFightPresentEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_ADDPRESENT_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 _GenSpawnPos(::System::UInt32 uid, ::System::Single radius)
+		::UnityEngine::Vector3 _GenSpawnPos(::System::UInt32 a1, ::System::Single a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER__GENSPAWNPOS_OFFSET))(this, uid, radius);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER__GENSPAWNPOS_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::GameObject* GetSphere(::System::UInt32 uid)
+		::UnityEngine::GameObject* GetSphere(::System::UInt32 a1)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_GETSPHERE_OFFSET))(this, uid);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_GETSPHERE_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveSphere(::System::UInt32 uid)
+		::System::Void RemoveSphere(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_REMOVESPHERE_OFFSET))(this, uid);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_REMOVESPHERE_OFFSET))(this, a1);
 		}
 
-		::System::Void AddHandledOrbUID(::System::UInt32 uid)
+		::System::Void AddHandledOrbUID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_ADDHANDLEDORBUID_OFFSET))(this, uid);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_ADDHANDLEDORBUID_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CheckOrbCanClick(::System::UInt32 uid)
+		::System::Boolean CheckOrbCanClick(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_CHECKORBCANCLICK_OFFSET))(this, uid);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_CHECKORBCANCLICK_OFFSET))(this, a1);
 		}
 
 		::System::Void ClearAllSpheres()
@@ -189,14 +189,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_CLEARALLSPHERES_OFFSET))(this);
 		}
 
-		::UnityEngine::GameObject* _CreateSphere(::System::String* prefabPath, ::UnityEngine::Vector3 position, ::RPG::Client::GridFightOrbEntityData* orbData)
+		::UnityEngine::GameObject* _CreateSphere(::System::String* a1, ::UnityEngine::Vector3 a2, ::RPG::Client::GridFightOrbEntityData* a3)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::String*, ::UnityEngine::Vector3, ::RPG::Client::GridFightOrbEntityData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER__CREATESPHERE_OFFSET))(this, prefabPath, position, orbData);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::String*, ::UnityEngine::Vector3, ::RPG::Client::GridFightOrbEntityData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER__CREATESPHERE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::GameObject* _CreatePresent(::System::String* prefabPath, ::Class_1_F4BC0015EEAF0CC2* slot, ::RPG::Client::GridFightPresentEntity* present)
+		::UnityEngine::GameObject* _CreatePresent(::System::String* a1, ::Class_1_F4BC0015EEAF0CC2* a2, ::RPG::Client::GridFightPresentEntity* a3)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::String*, ::Class_1_F4BC0015EEAF0CC2*, ::RPG::Client::GridFightPresentEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER__CREATEPRESENT_OFFSET))(this, prefabPath, slot, present);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::String*, ::Class_1_F4BC0015EEAF0CC2*, ::RPG::Client::GridFightPresentEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER__CREATEPRESENT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Bounds GetBounds()
@@ -204,14 +204,14 @@ namespace RPG::Client
 			return ((::UnityEngine::Bounds(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_GETBOUNDS_OFFSET))(this);
 		}
 
-		::System::Void SetBoundingBox(::UnityEngine::BoxCollider* box)
+		::System::Void SetBoundingBox(::UnityEngine::BoxCollider* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::BoxCollider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_SETBOUNDINGBOX_OFFSET))(this, box);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::BoxCollider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_SETBOUNDINGBOX_OFFSET))(this, a1);
 		}
 
-		::System::Void SetRaycastLayerMask(::UnityEngine::LayerMask layerMask)
+		::System::Void SetRaycastLayerMask(::UnityEngine::LayerMask a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_SETRAYCASTLAYERMASK_OFFSET))(this, layerMask);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_SETRAYCASTLAYERMASK_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* GetAllSpheres()
@@ -229,9 +229,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_ISDRAGGING_OFFSET))(this);
 		}
 
-		::System::String* GetPrefabPathFromConfig(::RPG::GameCore::GridFightOrbType orbType)
+		::System::String* GetPrefabPathFromConfig(::RPG::GameCore::GridFightOrbType a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::RPG::GameCore::GridFightOrbType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_GETPREFABPATHFROMCONFIG_OFFSET))(this, orbType);
+			return ((::System::String*(*)(::PVOID, ::RPG::GameCore::GridFightOrbType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_GETPREFABPATHFROMCONFIG_OFFSET))(this, a1);
 		}
 
 		::System::Void ClearAllOrbs()
@@ -239,19 +239,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_CLEARALLORBS_OFFSET))(this);
 		}
 
-		::System::Boolean HasUIOnBoard(::UnityEngine::Vector3 mousePosition)
+		::System::Boolean HasUIOnBoard(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_HASUIONBOARD_OFFSET))(this, mousePosition);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_HASUIONBOARD_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterOnClickCallback(::System::Action_1<::UnityEngine::GameObject*>* callback)
+		::System::Void RegisterOnClickCallback(::System::Action_1<::UnityEngine::GameObject*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_REGISTERONCLICKCALLBACK_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_REGISTERONCLICKCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterOnDragEnterCallback(::System::Action_1<::UnityEngine::GameObject*>* callback)
+		::System::Void RegisterOnDragEnterCallback(::System::Action_1<::UnityEngine::GameObject*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_REGISTERONDRAGENTERCALLBACK_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_REGISTERONDRAGENTERCALLBACK_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,12 +6,11 @@
 
 namespace UnityEngine { class Camera; }
 
-#define UNITYENGINE_RENDERING_REFLECTIONINFO_CLEARREFLECITONINFO_OFFSET UNITYSDK_OFFSET(0x18F1C210)
-#define UNITYENGINE_RENDERING_REFLECTIONINFO_SETREFLECITONINFO_OFFSET UNITYSDK_OFFSET(0x18F1C220)
+#define UNITYENGINE_RENDERING_REFLECTIONINFO_SETREFLECITONINFO_OFFSET UNITYSDK_OFFSET(0x198D62B0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ReflectionInfo_TypeDefinitionIndex = 4618;
+	inline static constexpr unsigned int ReflectionInfo_TypeDefinitionIndex = 4792;
 
 	struct alignas(4) ReflectionInfo
 	{
@@ -25,15 +24,11 @@ namespace UnityEngine::Rendering
 		::System::Single PlaneReflectionScale; // 0x2C
 		::UnityEngine::Rect ViewRect; // 0x30
 		::UnityEngine::Vector4 ReflectionST; // 0x40
+		::System::Boolean ReflectionCameraCmdBufferOnly; // 0x50
 
-		static ::System::Void ClearReflecitonInfo()
+		static ::System::Void SetReflecitonInfo(::UnityEngine::Camera* a1, ::UnityEngine::Rendering::ReflectionInfo& a2)
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_REFLECTIONINFO_CLEARREFLECITONINFO_OFFSET))();
-		}
-
-		static ::System::Void SetReflecitonInfo(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::ReflectionInfo& ri)
-		{
-			return ((::System::Void(*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::ReflectionInfo&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_REFLECTIONINFO_SETREFLECITONINFO_OFFSET))(camera, ri);
+			return ((::System::Void(*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::ReflectionInfo&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_REFLECTIONINFO_SETREFLECITONINFO_OFFSET))(a1, a2);
 		}
 	};
 }

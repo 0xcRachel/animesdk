@@ -3,24 +3,24 @@
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_494BD190B553B399;
+class Class_1_414BCDCDAD47B487;
 class Class_1_8A6989C352B0F0F0;
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 
-#define BOUNDSDRAWER_GET_CULLINGSTATUS_OFFSET UNITYSDK_OFFSET(0xB04EC60)
-#define BOUNDSDRAWER_GET_LODTEMPLATECFG_OFFSET UNITYSDK_OFFSET(0xB04EC80)
-#define BOUNDSDRAWER_GET_PRELOADCULLINGSTATUS_OFFSET UNITYSDK_OFFSET(0xB04EC40)
-#define BOUNDSDRAWER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0xB04E570)
-#define BOUNDSDRAWER_SETBOUND_OFFSET UNITYSDK_OFFSET(0xB04E3F0)
-#define BOUNDSDRAWER_SETOWNERINSTANCE_OFFSET UNITYSDK_OFFSET(0xB04E470)
-#define BOUNDSDRAWER_SET_CULLINGSTATUS_OFFSET UNITYSDK_OFFSET(0xB04EC70)
-#define BOUNDSDRAWER_SET_PRELOADCULLINGSTATUS_OFFSET UNITYSDK_OFFSET(0xB04EC50)
-#define BOUNDSDRAWER_START_OFFSET UNITYSDK_OFFSET(0xB04E4C0)
-#define BOUNDSDRAWER__CTOR_OFFSET UNITYSDK_OFFSET(0xB04ECE0)
+#define BOUNDSDRAWER_GET_CULLINGSTATUS_OFFSET UNITYSDK_OFFSET(0x1736C940)
+#define BOUNDSDRAWER_GET_LODTEMPLATECFG_OFFSET UNITYSDK_OFFSET(0x1736C960)
+#define BOUNDSDRAWER_GET_PRELOADCULLINGSTATUS_OFFSET UNITYSDK_OFFSET(0x1736C920)
+#define BOUNDSDRAWER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1736C1D0)
+#define BOUNDSDRAWER_SETBOUND_OFFSET UNITYSDK_OFFSET(0x1736C060)
+#define BOUNDSDRAWER_SETOWNERINSTANCE_OFFSET UNITYSDK_OFFSET(0x1736C0E0)
+#define BOUNDSDRAWER_SET_CULLINGSTATUS_OFFSET UNITYSDK_OFFSET(0x1736C950)
+#define BOUNDSDRAWER_SET_PRELOADCULLINGSTATUS_OFFSET UNITYSDK_OFFSET(0x1736C930)
+#define BOUNDSDRAWER_START_OFFSET UNITYSDK_OFFSET(0x1736C130)
+#define BOUNDSDRAWER__CTOR_OFFSET UNITYSDK_OFFSET(0x1736C9C0)
 
-inline static constexpr unsigned int BoundsDrawer_TypeDefinitionIndex = 44077;
+inline static constexpr unsigned int BoundsDrawer_TypeDefinitionIndex = 44623;
 
 class BoundsDrawer : public ::UnityEngine::MonoBehaviour
 {
@@ -67,9 +67,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_GET_PRELOADCULLINGSTATUS_OFFSET))(this);
 	}
 
-	::System::Void set_PreloadCullingStatus(::System::String* value)
+	::System::Void set_PreloadCullingStatus(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_SET_PRELOADCULLINGSTATUS_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_SET_PRELOADCULLINGSTATUS_OFFSET))(this, a1);
 	}
 
 	::System::String* get_CullingStatus()
@@ -77,13 +77,13 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_GET_CULLINGSTATUS_OFFSET))(this);
 	}
 
-	::System::Void set_CullingStatus(::System::String* value)
+	::System::Void set_CullingStatus(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_SET_CULLINGSTATUS_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_SET_CULLINGSTATUS_OFFSET))(this, a1);
 	}
 
-	::Class_1_494BD190B553B399* get_LodTemplateCfg()
+	::Class_1_414BCDCDAD47B487* get_LodTemplateCfg()
 	{
-		return ((::Class_1_494BD190B553B399*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_GET_LODTEMPLATECFG_OFFSET))(this);
+		return ((::Class_1_414BCDCDAD47B487*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOUNDSDRAWER_GET_LODTEMPLATECFG_OFFSET))(this);
 	}
 };

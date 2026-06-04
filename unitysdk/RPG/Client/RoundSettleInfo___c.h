@@ -5,24 +5,24 @@
 class Class_1_23C1B7E6B450FFB8_6;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROUNDSETTLEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15BAFDF0)
-#define RPG_CLIENT_ROUNDSETTLEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15BAFE30)
-#define RPG_CLIENT_ROUNDSETTLEINFO___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x15BAFE40)
+#define RPG_CLIENT_ROUNDSETTLEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x176B72F0)
+#define RPG_CLIENT_ROUNDSETTLEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x176B7330)
+#define RPG_CLIENT_ROUNDSETTLEINFO___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x176B7340)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoundSettleInfo___c_TypeDefinitionIndex = 56665;
+	inline static constexpr unsigned int RoundSettleInfo___c_TypeDefinitionIndex = 57442;
 
 	class RoundSettleInfo___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RoundSettleInfo___c** StaticGet___9()
-		{
-			return (::RPG::Client::RoundSettleInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RoundSettleInfo___c_TypeDefinitionIndex)->GetStaticField(0x362F0);
-		}
 		static ::System::Func_2<::Class_1_23C1B7E6B450FFB8_6*, ::System::UInt32>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::Class_1_23C1B7E6B450FFB8_6*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RoundSettleInfo___c_TypeDefinitionIndex)->GetStaticField(0x362F8);
+			return (::System::Func_2<::Class_1_23C1B7E6B450FFB8_6*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RoundSettleInfo___c_TypeDefinitionIndex)->GetStaticField(0x3BB20);
+		}
+		static ::RPG::Client::RoundSettleInfo___c** StaticGet___9()
+		{
+			return (::RPG::Client::RoundSettleInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RoundSettleInfo___c_TypeDefinitionIndex)->GetStaticField(0x3BB28);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROUNDSETTLEINFO___C__CTOR_OFFSET))(this);
 		}
 
-		::System::UInt32 __ctor_b__0_0(::Class_1_23C1B7E6B450FFB8_6* d)
+		::System::UInt32 __ctor_b__0_0(::Class_1_23C1B7E6B450FFB8_6* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Class_1_23C1B7E6B450FFB8_6*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROUNDSETTLEINFO___C___CTOR_B__0_0_OFFSET))(this, d);
+			return ((::System::UInt32(*)(::PVOID, ::Class_1_23C1B7E6B450FFB8_6*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROUNDSETTLEINFO___C___CTOR_B__0_0_OFFSET))(this, a1);
 		}
 	};
 }

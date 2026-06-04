@@ -5,18 +5,18 @@
 namespace RPG::Client { class PlanetFesAvatarEffect; }
 namespace RPG::Client { class PlanetFesAvatarEffectController; }
 
-#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF6EB4E0)
-#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER___C__DISPLAYCLASS4_0__SHOWAVATARGENBUFFEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xF6EBB80)
+#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18D13470)
+#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER___C__DISPLAYCLASS4_0__SHOWAVATARGENBUFFEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x18D13B50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesAvatarEffectController___c__DisplayClass4_0_TypeDefinitionIndex = 61234;
+	inline static constexpr unsigned int PlanetFesAvatarEffectController___c__DisplayClass4_0_TypeDefinitionIndex = 62158;
 
 	class PlanetFesAvatarEffectController___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::PlanetFesAvatarEffect* appearEffect; // 0x10
-		::RPG::Client::PlanetFesAvatarEffectController* __4__this; // 0x18
+		::RPG::Client::PlanetFesAvatarEffectController* __4__this; // 0x10
+		::RPG::Client::PlanetFesAvatarEffect* appearEffect; // 0x18
 
 		::System::Void _ctor()
 		{

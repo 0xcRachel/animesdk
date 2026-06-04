@@ -7,24 +7,24 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIGRANTSERVICE_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x16522130)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIGRANTSERVICE_ONCREATESERVICE_OFFSET UNITYSDK_OFFSET(0x165222F0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIGRANTSERVICE_SHOWGRANTPHONEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x16522400)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIGRANTSERVICE_SHOWOVERSEAGRANTMAILPLUGINUI_OFFSET UNITYSDK_OFFSET(0x16522B30)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIGRANTSERVICE_SHOWOVERSEAGRANTPHONEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x165234B0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIGRANTSERVICE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16523E30)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIGRANTSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x165222E0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIGRANTSERVICE_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x174372C0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIGRANTSERVICE_ONCREATESERVICE_OFFSET UNITYSDK_OFFSET(0x17437460)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIGRANTSERVICE_SHOWGRANTPHONEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x174375B0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIGRANTSERVICE_SHOWOVERSEAGRANTMAILPLUGINUI_OFFSET UNITYSDK_OFFSET(0x17437F90)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIGRANTSERVICE_SHOWOVERSEAGRANTPHONEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x17438BF0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIGRANTSERVICE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17439850)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIGRANTSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x17437450)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIGrantService_TypeDefinitionIndex = 7901;
+	inline static constexpr unsigned int PluginUIGrantService_TypeDefinitionIndex = 8804;
 
 	class PluginUIGrantService : public ::MiHoYo::SDK::PluginUI::IPluginUIService
 	{
 	public:
 		static ::MiHoYo::SDK::PluginUI::PluginUIGrantService** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::PluginUI::PluginUIGrantService**)Il2CppClass::FromTypeDefinitionIndex(PluginUIGrantService_TypeDefinitionIndex)->GetStaticField(0x13DF0);
+			return (::MiHoYo::SDK::PluginUI::PluginUIGrantService**)Il2CppClass::FromTypeDefinitionIndex(PluginUIGrantService_TypeDefinitionIndex)->GetStaticField(0x19270);
 		}
 
 		::System::Void _ctor()
@@ -47,19 +47,19 @@ namespace MiHoYo::SDK::PluginUI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIGRANTSERVICE_ONCREATESERVICE_OFFSET))(this);
 		}
 
-		::System::Void ShowGrantPhonePluginUI(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>* dicElement2Action, ::System::String* strCustomData)
+		::System::Void ShowGrantPhonePluginUI(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIGRANTSERVICE_SHOWGRANTPHONEPLUGINUI_OFFSET))(this, dicElement2Action, strCustomData);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIGRANTSERVICE_SHOWGRANTPHONEPLUGINUI_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ShowOverseaGrantMailPluginUI(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>* dicElement2Action, ::System::String* strCustomData)
+		::System::Void ShowOverseaGrantMailPluginUI(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIGRANTSERVICE_SHOWOVERSEAGRANTMAILPLUGINUI_OFFSET))(this, dicElement2Action, strCustomData);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIGRANTSERVICE_SHOWOVERSEAGRANTMAILPLUGINUI_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ShowOverseaGrantPhonePluginUI(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>* dicElement2Action, ::System::String* strCustomData)
+		::System::Void ShowOverseaGrantPhonePluginUI(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIGRANTSERVICE_SHOWOVERSEAGRANTPHONEPLUGINUI_OFFSET))(this, dicElement2Action, strCustomData);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIGRANTSERVICE_SHOWOVERSEAGRANTPHONEPLUGINUI_OFFSET))(this, a1, a2);
 		}
 	};
 }

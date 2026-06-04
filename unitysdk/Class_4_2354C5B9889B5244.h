@@ -5,32 +5,32 @@
 
 namespace UnityEngine { class Transform; }
 
-#define CLASS_4_2354C5B9889B5244_METHOD_4_090740344CAC81EE_OFFSET UNITYSDK_OFFSET(0xEECFA40)
-#define CLASS_4_2354C5B9889B5244_METHOD_4_17C8FC50682AAB84_OFFSET UNITYSDK_OFFSET(0xEECF640)
-#define CLASS_4_2354C5B9889B5244_METHOD_4_3DFACA893341BA03_OFFSET UNITYSDK_OFFSET(0xEECF7A0)
-#define CLASS_4_2354C5B9889B5244_METHOD_4_479759059E440327_OFFSET UNITYSDK_OFFSET(0xEECFC80)
-#define CLASS_4_2354C5B9889B5244_METHOD_4_793FFA9A76FE6840_OFFSET UNITYSDK_OFFSET(0xEED0030)
-#define CLASS_4_2354C5B9889B5244_METHOD_4_B2E1F4B7BD95D0F7_OFFSET UNITYSDK_OFFSET(0xEECFE60)
-#define CLASS_4_2354C5B9889B5244_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0xEECFBC0)
-#define CLASS_4_2354C5B9889B5244__CTOR_OFFSET UNITYSDK_OFFSET(0xEECF780)
-#define CLASS_4_2354C5B9889B5244___IFIXBASEPROXY_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0xEED0020)
+#define CLASS_4_2354C5B9889B5244_METHOD_4_090740344CAC81EE_OFFSET UNITYSDK_OFFSET(0x15B8B4A0)
+#define CLASS_4_2354C5B9889B5244_METHOD_4_17C8FC50682AAB84_OFFSET UNITYSDK_OFFSET(0x15B8B0A0)
+#define CLASS_4_2354C5B9889B5244_METHOD_4_3C927B51D2142A24_OFFSET UNITYSDK_OFFSET(0x15B8BA90)
+#define CLASS_4_2354C5B9889B5244_METHOD_4_3DFACA893341BA03_OFFSET UNITYSDK_OFFSET(0x15B8B200)
+#define CLASS_4_2354C5B9889B5244_METHOD_4_479759059E440327_OFFSET UNITYSDK_OFFSET(0x15B8B6E0)
+#define CLASS_4_2354C5B9889B5244_METHOD_4_B2E1F4B7BD95D0F7_OFFSET UNITYSDK_OFFSET(0x15B8B8C0)
+#define CLASS_4_2354C5B9889B5244_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0x15B8B620)
+#define CLASS_4_2354C5B9889B5244__CTOR_OFFSET UNITYSDK_OFFSET(0x15B8B1E0)
+#define CLASS_4_2354C5B9889B5244___IFIXBASEPROXY_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0x15B8BA80)
 
-inline static constexpr unsigned int Class_4_2354C5B9889B5244_TypeDefinitionIndex = 67658;
+inline static constexpr unsigned int Class_4_2354C5B9889B5244_TypeDefinitionIndex = 68616;
 
 class Class_4_2354C5B9889B5244 : public ::Class_3_3F1B1DE9D9F51912
 {
 public:
-	// static const ::System::Single Field_4_3; // 0x0
-	// static const ::System::Single Field_4_4; // 0x0
-	// static const ::System::Single Field_4_5; // 0x0
-	::System::Single Field_4_6; // 0x38
-	::UnityEngine::Vector3 Field_4_8; // 0x3C
-	::UnityEngine::Vector3 Field_4_7; // 0x48
-	::System::Single Field_4_0; // 0x54
-	::System::Single Field_4_1; // 0x58
-	::UnityEngine::Vector3 Field_4_10; // 0x5C
-	::System::Single Field_4_2; // 0x68
-	::UnityEngine::Vector3 Field_4_9; // 0x6C
+	// static const ::System::Single Field_4_0; // 0x0
+	// static const ::System::Single Field_4_1; // 0x0
+	// static const ::System::Single Field_4_2; // 0x0
+	::System::Single Field_4_3; // 0x38
+	::UnityEngine::Vector3 Field_4_4; // 0x3C
+	::System::Single Field_4_5; // 0x48
+	::UnityEngine::Vector3 Field_4_6; // 0x4C
+	::UnityEngine::Vector3 Field_4_7; // 0x58
+	::System::Single Field_4_8; // 0x64
+	::System::Single Field_4_9; // 0x68
+	::UnityEngine::Vector3 Field_4_10; // 0x6C
 
 	::System::Void _ctor()
 	{
@@ -67,13 +67,13 @@ public:
 		return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_4_2354C5B9889B5244_METHOD_4_B2E1F4B7BD95D0F7_OFFSET))(a1, a2, a3);
 	}
 
-	::System::Void __iFixBaseProxy_StartWithTarget(::UnityEngine::Transform* P0)
+	::System::Void __iFixBaseProxy_StartWithTarget(::UnityEngine::Transform* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CLASS_4_2354C5B9889B5244___IFIXBASEPROXY_STARTWITHTARGET_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CLASS_4_2354C5B9889B5244___IFIXBASEPROXY_STARTWITHTARGET_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_4_793FFA9A76FE6840(::System::Single P0)
+	::System::Void Method_4_3C927B51D2142A24(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_4_2354C5B9889B5244_METHOD_4_793FFA9A76FE6840_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_4_2354C5B9889B5244_METHOD_4_3C927B51D2142A24_OFFSET))(this, a1);
 	}
 };

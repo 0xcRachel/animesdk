@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR_CLEAR_OFFSET UNITYSDK_OFFSET(0xC7452C0)
-#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xC745310)
-#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xC745360)
-#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR_INIT_OFFSET UNITYSDK_OFFSET(0xC745260)
-#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0xC7453B0)
-#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xC7453C0)
+#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR_CLEAR_OFFSET UNITYSDK_OFFSET(0x129544B0)
+#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x12954500)
+#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x12954550)
+#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR_INIT_OFFSET UNITYSDK_OFFSET(0x12954450)
+#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x129545A0)
+#define RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x129545B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureBeforeSwitchFakeAvatar_TypeDefinitionIndex = 52160;
+	inline static constexpr unsigned int AdventureBeforeSwitchFakeAvatar_TypeDefinitionIndex = 52857;
 
-	class AdventureBeforeSwitchFakeAvatar : public ::Class_1_9988289E7F8AA214
+	class AdventureBeforeSwitchFakeAvatar : public ::Class_1_BF7A075734D15E98
 	{
 	public:
-		::RPG::GameCore::GameEntity* After; // 0x18
-		::RPG::GameCore::GameEntity* Before; // 0x20
+		::RPG::GameCore::GameEntity* Before; // 0x18
+		::RPG::GameCore::GameEntity* After; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::AdventureBeforeSwitchFakeAvatar* Init(::RPG::GameCore::GameEntity* before, ::RPG::GameCore::GameEntity* after)
+		::RPG::GameCore::AdventureBeforeSwitchFakeAvatar* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
 		{
-			return ((::RPG::GameCore::AdventureBeforeSwitchFakeAvatar*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR_INIT_OFFSET))(this, before, after);
+			return ((::RPG::GameCore::AdventureBeforeSwitchFakeAvatar*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBEFORESWITCHFAKEAVATAR_INIT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Clear()

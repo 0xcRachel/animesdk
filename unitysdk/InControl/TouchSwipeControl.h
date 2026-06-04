@@ -11,26 +11,26 @@
 
 namespace InControl { class Touch; }
 
-#define INCONTROL_TOUCHSWIPECONTROL_COMMITCONTROLSTATE_OFFSET UNITYSDK_OFFSET(0x9317620)
-#define INCONTROL_TOUCHSWIPECONTROL_CONFIGURECONTROL_OFFSET UNITYSDK_OFFSET(0x9317270)
-#define INCONTROL_TOUCHSWIPECONTROL_CREATECONTROL_OFFSET UNITYSDK_OFFSET(0x9317080)
-#define INCONTROL_TOUCHSWIPECONTROL_DESTROYCONTROL_OFFSET UNITYSDK_OFFSET(0x9317090)
-#define INCONTROL_TOUCHSWIPECONTROL_DRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x93172D0)
-#define INCONTROL_TOUCHSWIPECONTROL_GETBUTTONTARGETFORVECTOR_OFFSET UNITYSDK_OFFSET(0x9317980)
-#define INCONTROL_TOUCHSWIPECONTROL_GET_ACTIVEAREA_OFFSET UNITYSDK_OFFSET(0x9317A80)
-#define INCONTROL_TOUCHSWIPECONTROL_GET_AREAUNITTYPE_OFFSET UNITYSDK_OFFSET(0x9317AC0)
-#define INCONTROL_TOUCHSWIPECONTROL_SET_ACTIVEAREA_OFFSET UNITYSDK_OFFSET(0x9317A90)
-#define INCONTROL_TOUCHSWIPECONTROL_SET_AREAUNITTYPE_OFFSET UNITYSDK_OFFSET(0x9317AD0)
-#define INCONTROL_TOUCHSWIPECONTROL_SUBMITCONTROLSTATE_OFFSET UNITYSDK_OFFSET(0x9317490)
-#define INCONTROL_TOUCHSWIPECONTROL_TOUCHBEGAN_OFFSET UNITYSDK_OFFSET(0x9317670)
-#define INCONTROL_TOUCHSWIPECONTROL_TOUCHENDED_OFFSET UNITYSDK_OFFSET(0x9317180)
-#define INCONTROL_TOUCHSWIPECONTROL_TOUCHMOVED_OFFSET UNITYSDK_OFFSET(0x9317740)
-#define INCONTROL_TOUCHSWIPECONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x9317420)
-#define INCONTROL_TOUCHSWIPECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x9317AE0)
+#define INCONTROL_TOUCHSWIPECONTROL_COMMITCONTROLSTATE_OFFSET UNITYSDK_OFFSET(0xA648F70)
+#define INCONTROL_TOUCHSWIPECONTROL_CONFIGURECONTROL_OFFSET UNITYSDK_OFFSET(0xA648BC0)
+#define INCONTROL_TOUCHSWIPECONTROL_CREATECONTROL_OFFSET UNITYSDK_OFFSET(0xA6489D0)
+#define INCONTROL_TOUCHSWIPECONTROL_DESTROYCONTROL_OFFSET UNITYSDK_OFFSET(0xA6489E0)
+#define INCONTROL_TOUCHSWIPECONTROL_DRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0xA648C20)
+#define INCONTROL_TOUCHSWIPECONTROL_GETBUTTONTARGETFORVECTOR_OFFSET UNITYSDK_OFFSET(0xA6492B0)
+#define INCONTROL_TOUCHSWIPECONTROL_GET_ACTIVEAREA_OFFSET UNITYSDK_OFFSET(0xA6493B0)
+#define INCONTROL_TOUCHSWIPECONTROL_GET_AREAUNITTYPE_OFFSET UNITYSDK_OFFSET(0xA6493F0)
+#define INCONTROL_TOUCHSWIPECONTROL_SET_ACTIVEAREA_OFFSET UNITYSDK_OFFSET(0xA6493C0)
+#define INCONTROL_TOUCHSWIPECONTROL_SET_AREAUNITTYPE_OFFSET UNITYSDK_OFFSET(0xA649400)
+#define INCONTROL_TOUCHSWIPECONTROL_SUBMITCONTROLSTATE_OFFSET UNITYSDK_OFFSET(0xA648DE0)
+#define INCONTROL_TOUCHSWIPECONTROL_TOUCHBEGAN_OFFSET UNITYSDK_OFFSET(0xA648FC0)
+#define INCONTROL_TOUCHSWIPECONTROL_TOUCHENDED_OFFSET UNITYSDK_OFFSET(0xA648AD0)
+#define INCONTROL_TOUCHSWIPECONTROL_TOUCHMOVED_OFFSET UNITYSDK_OFFSET(0xA649090)
+#define INCONTROL_TOUCHSWIPECONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xA648D70)
+#define INCONTROL_TOUCHSWIPECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xA649410)
 
 namespace InControl
 {
-	inline static constexpr unsigned int TouchSwipeControl_TypeDefinitionIndex = 37183;
+	inline static constexpr unsigned int TouchSwipeControl_TypeDefinitionIndex = 37915;
 
 	class TouchSwipeControl : public ::InControl::TouchControl
 	{
@@ -87,34 +87,34 @@ namespace InControl
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSWIPECONTROL_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void SubmitControlState(::System::UInt64 updateTick, ::System::Single deltaTime)
+		::System::Void SubmitControlState(::System::UInt64 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSWIPECONTROL_SUBMITCONTROLSTATE_OFFSET))(this, updateTick, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSWIPECONTROL_SUBMITCONTROLSTATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CommitControlState(::System::UInt64 updateTick, ::System::Single deltaTime)
+		::System::Void CommitControlState(::System::UInt64 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSWIPECONTROL_COMMITCONTROLSTATE_OFFSET))(this, updateTick, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSWIPECONTROL_COMMITCONTROLSTATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void TouchBegan(::InControl::Touch* touch)
+		::System::Void TouchBegan(::InControl::Touch* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::Touch*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSWIPECONTROL_TOUCHBEGAN_OFFSET))(this, touch);
+			return ((::System::Void(*)(::PVOID, ::InControl::Touch*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSWIPECONTROL_TOUCHBEGAN_OFFSET))(this, a1);
 		}
 
-		::System::Void TouchMoved(::InControl::Touch* touch)
+		::System::Void TouchMoved(::InControl::Touch* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::Touch*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSWIPECONTROL_TOUCHMOVED_OFFSET))(this, touch);
+			return ((::System::Void(*)(::PVOID, ::InControl::Touch*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSWIPECONTROL_TOUCHMOVED_OFFSET))(this, a1);
 		}
 
-		::System::Void TouchEnded(::InControl::Touch* touch)
+		::System::Void TouchEnded(::InControl::Touch* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::Touch*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSWIPECONTROL_TOUCHENDED_OFFSET))(this, touch);
+			return ((::System::Void(*)(::PVOID, ::InControl::Touch*))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSWIPECONTROL_TOUCHENDED_OFFSET))(this, a1);
 		}
 
-		::InControl::TouchControl_ButtonTarget GetButtonTargetForVector(::UnityEngine::Vector2 vector)
+		::InControl::TouchControl_ButtonTarget GetButtonTargetForVector(::UnityEngine::Vector2 a1)
 		{
-			return ((::InControl::TouchControl_ButtonTarget(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSWIPECONTROL_GETBUTTONTARGETFORVECTOR_OFFSET))(this, vector);
+			return ((::InControl::TouchControl_ButtonTarget(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSWIPECONTROL_GETBUTTONTARGETFORVECTOR_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Rect get_ActiveArea()
@@ -122,9 +122,9 @@ namespace InControl
 			return ((::UnityEngine::Rect(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSWIPECONTROL_GET_ACTIVEAREA_OFFSET))(this);
 		}
 
-		::System::Void set_ActiveArea(::UnityEngine::Rect value)
+		::System::Void set_ActiveArea(::UnityEngine::Rect a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSWIPECONTROL_SET_ACTIVEAREA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSWIPECONTROL_SET_ACTIVEAREA_OFFSET))(this, a1);
 		}
 
 		::InControl::TouchUnitType get_AreaUnitType()
@@ -132,9 +132,9 @@ namespace InControl
 			return ((::InControl::TouchUnitType(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSWIPECONTROL_GET_AREAUNITTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_AreaUnitType(::InControl::TouchUnitType value)
+		::System::Void set_AreaUnitType(::InControl::TouchUnitType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::TouchUnitType))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSWIPECONTROL_SET_AREAUNITTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::InControl::TouchUnitType))((::PBYTE)hIl2Cpp + INCONTROL_TOUCHSWIPECONTROL_SET_AREAUNITTYPE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,13 +6,13 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_METHOD_5_EBBC49A9109F0F2F_OFFSET UNITYSDK_OFFSET(0x14AD8D10)
-#define RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_METHOD_5_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x14AD8D90)
-#define RPG_CLIENT_ERAFLIPPERMANAGERDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x14AD8DA0)
+#define RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_METHOD_5_9D455FE4693966A8_OFFSET UNITYSDK_OFFSET(0x17DA55E0)
+#define RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_METHOD_5_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x17DA5660)
+#define RPG_CLIENT_ERAFLIPPERMANAGERDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x17DA5670)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EraFlipperManagerDebug_TypeDefinitionIndex = 55797;
+	inline static constexpr unsigned int EraFlipperManagerDebug_TypeDefinitionIndex = 56552;
 
 	class EraFlipperManagerDebug : public ::UnityEngine::MonoBehaviour
 	{
@@ -28,9 +28,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERMANAGERDEBUG__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_5_EBBC49A9109F0F2F()
+		::System::Void Method_5_9D455FE4693966A8()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_METHOD_5_EBBC49A9109F0F2F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERMANAGERDEBUG_METHOD_5_9D455FE4693966A8_OFFSET))(this);
 		}
 
 		::System::Boolean Method_5_F0088C88851A7DFB()

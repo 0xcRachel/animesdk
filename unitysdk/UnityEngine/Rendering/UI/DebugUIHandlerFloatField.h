@@ -6,18 +6,18 @@ namespace UnityEngine::Rendering { class DebugUI_FloatField; }
 namespace UnityEngine::Rendering { class DebugUI_Widget; }
 namespace UnityEngine::UI { class Text; }
 
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_CHANGEVALUE_OFFSET UNITYSDK_OFFSET(0x198D82A0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_ONDECREMENT_OFFSET UNITYSDK_OFFSET(0x198D8330)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_ONDESELECTION_OFFSET UNITYSDK_OFFSET(0x198D8130)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_ONINCREMENT_OFFSET UNITYSDK_OFFSET(0x198D8220)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_ONSELECTION_OFFSET UNITYSDK_OFFSET(0x198D8050)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_SETWIDGET_OFFSET UNITYSDK_OFFSET(0x198D7F20)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_UPDATEVALUELABEL_OFFSET UNITYSDK_OFFSET(0x198D7FA0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x198D83B0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_CHANGEVALUE_OFFSET UNITYSDK_OFFSET(0x1A5F8290)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_ONDECREMENT_OFFSET UNITYSDK_OFFSET(0x1A5F8320)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_ONDESELECTION_OFFSET UNITYSDK_OFFSET(0x1A5F8120)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_ONINCREMENT_OFFSET UNITYSDK_OFFSET(0x1A5F8210)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_ONSELECTION_OFFSET UNITYSDK_OFFSET(0x1A5F8040)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_SETWIDGET_OFFSET UNITYSDK_OFFSET(0x1A5F7F00)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_UPDATEVALUELABEL_OFFSET UNITYSDK_OFFSET(0x1A5F7F80)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5F83A0)
 
 namespace UnityEngine::Rendering::UI
 {
-	inline static constexpr unsigned int DebugUIHandlerFloatField_TypeDefinitionIndex = 33595;
+	inline static constexpr unsigned int DebugUIHandlerFloatField_TypeDefinitionIndex = 33877;
 
 	class DebugUIHandlerFloatField : public ::UnityEngine::Rendering::UI::DebugUIHandlerWidget
 	{
@@ -31,14 +31,14 @@ namespace UnityEngine::Rendering::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget)
+		::System::Void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::DebugUI_Widget*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_SETWIDGET_OFFSET))(this, widget);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::DebugUI_Widget*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_SETWIDGET_OFFSET))(this, a1);
 		}
 
-		::System::Boolean OnSelection(::System::Boolean fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous)
+		::System::Boolean OnSelection(::System::Boolean a1, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_ONSELECTION_OFFSET))(this, fromNext, previous);
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_ONSELECTION_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void OnDeselection()
@@ -46,19 +46,19 @@ namespace UnityEngine::Rendering::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_ONDESELECTION_OFFSET))(this);
 		}
 
-		::System::Void OnIncrement(::System::Boolean fast)
+		::System::Void OnIncrement(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_ONINCREMENT_OFFSET))(this, fast);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_ONINCREMENT_OFFSET))(this, a1);
 		}
 
-		::System::Void OnDecrement(::System::Boolean fast)
+		::System::Void OnDecrement(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_ONDECREMENT_OFFSET))(this, fast);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_ONDECREMENT_OFFSET))(this, a1);
 		}
 
-		::System::Void ChangeValue(::System::Boolean fast, ::System::Single multiplier)
+		::System::Void ChangeValue(::System::Boolean a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_CHANGEVALUE_OFFSET))(this, fast, multiplier);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERFLOATFIELD_CHANGEVALUE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void UpdateValueLabel()

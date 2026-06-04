@@ -6,15 +6,15 @@
 
 namespace System { class String; }
 
-#define INCONTROL_INPUTDEVICEINFO_HASSAMELOCATION_OFFSET UNITYSDK_OFFSET(0x225D1E0)
-#define INCONTROL_INPUTDEVICEINFO_HASSAMEPRODUCTID_OFFSET UNITYSDK_OFFSET(0x225D1C0)
-#define INCONTROL_INPUTDEVICEINFO_HASSAMESERIALNUMBER_OFFSET UNITYSDK_OFFSET(0x225D210)
-#define INCONTROL_INPUTDEVICEINFO_HASSAMEVENDORID_OFFSET UNITYSDK_OFFSET(0x225D1B0)
-#define INCONTROL_INPUTDEVICEINFO_HASSAMEVERSIONNUMBER_OFFSET UNITYSDK_OFFSET(0x225D1D0)
+#define INCONTROL_INPUTDEVICEINFO_HASSAMELOCATION_OFFSET UNITYSDK_OFFSET(0x37A3C00)
+#define INCONTROL_INPUTDEVICEINFO_HASSAMEPRODUCTID_OFFSET UNITYSDK_OFFSET(0x37A3BE0)
+#define INCONTROL_INPUTDEVICEINFO_HASSAMESERIALNUMBER_OFFSET UNITYSDK_OFFSET(0x37A3C30)
+#define INCONTROL_INPUTDEVICEINFO_HASSAMEVENDORID_OFFSET UNITYSDK_OFFSET(0x37A3BD0)
+#define INCONTROL_INPUTDEVICEINFO_HASSAMEVERSIONNUMBER_OFFSET UNITYSDK_OFFSET(0x37A3BF0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputDeviceInfo_TypeDefinitionIndex = 37144;
+	inline static constexpr unsigned int InputDeviceInfo_TypeDefinitionIndex = 37876;
 
 	struct alignas(8) InputDeviceInfo
 	{
@@ -29,29 +29,29 @@ namespace InControl
 		::System::UInt32 numButtons; // 0x34
 		::System::UInt32 numAnalogs; // 0x38
 
-		::System::Boolean HasSameVendorID(::InControl::InputDeviceInfo deviceInfo)
+		::System::Boolean HasSameVendorID(::InControl::InputDeviceInfo a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceInfo))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEINFO_HASSAMEVENDORID_OFFSET))(this, deviceInfo);
+			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceInfo))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEINFO_HASSAMEVENDORID_OFFSET))(this, a1);
 		}
 
-		::System::Boolean HasSameProductID(::InControl::InputDeviceInfo deviceInfo)
+		::System::Boolean HasSameProductID(::InControl::InputDeviceInfo a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceInfo))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEINFO_HASSAMEPRODUCTID_OFFSET))(this, deviceInfo);
+			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceInfo))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEINFO_HASSAMEPRODUCTID_OFFSET))(this, a1);
 		}
 
-		::System::Boolean HasSameVersionNumber(::InControl::InputDeviceInfo deviceInfo)
+		::System::Boolean HasSameVersionNumber(::InControl::InputDeviceInfo a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceInfo))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEINFO_HASSAMEVERSIONNUMBER_OFFSET))(this, deviceInfo);
+			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceInfo))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEINFO_HASSAMEVERSIONNUMBER_OFFSET))(this, a1);
 		}
 
-		::System::Boolean HasSameLocation(::InControl::InputDeviceInfo deviceInfo)
+		::System::Boolean HasSameLocation(::InControl::InputDeviceInfo a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceInfo))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEINFO_HASSAMELOCATION_OFFSET))(this, deviceInfo);
+			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceInfo))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEINFO_HASSAMELOCATION_OFFSET))(this, a1);
 		}
 
-		::System::Boolean HasSameSerialNumber(::InControl::InputDeviceInfo deviceInfo)
+		::System::Boolean HasSameSerialNumber(::InControl::InputDeviceInfo a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceInfo))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEINFO_HASSAMESERIALNUMBER_OFFSET))(this, deviceInfo);
+			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceInfo))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICEINFO_HASSAMESERIALNUMBER_OFFSET))(this, a1);
 		}
 	};
 }

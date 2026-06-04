@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETTARGETPOSNOTIFYCONFIG_METHOD_2_CCB0AB7FAE7E8A0F_OFFSET UNITYSDK_OFFSET(0x1938F7F0)
-#define RPG_GAMECORE_SETTARGETPOSNOTIFYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1938F8C0)
+#define RPG_GAMECORE_SETTARGETPOSNOTIFYCONFIG_METHOD_2_CCB0AB7FAE7E8A0F_OFFSET UNITYSDK_OFFSET(0x1A79FDB0)
+#define RPG_GAMECORE_SETTARGETPOSNOTIFYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A79FE80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTargetPosNotifyConfig_TypeDefinitionIndex = 16054;
+	inline static constexpr unsigned int SetTargetPosNotifyConfig_TypeDefinitionIndex = 16104;
 
 	class SetTargetPosNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{

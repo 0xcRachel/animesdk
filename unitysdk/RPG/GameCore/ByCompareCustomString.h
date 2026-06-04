@@ -5,14 +5,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPARECUSTOMSTRING_METHOD_4_1F12AABEE37CC8D6_OFFSET UNITYSDK_OFFSET(0x19AC1060)
-#define RPG_GAMECORE_BYCOMPARECUSTOMSTRING_METHOD_4_211C2282FC9A9CFB_OFFSET UNITYSDK_OFFSET(0x19AC0F90)
-#define RPG_GAMECORE_BYCOMPARECUSTOMSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x19AC1010)
+#define RPG_GAMECORE_BYCOMPARECUSTOMSTRING_METHOD_4_1F12AABEE37CC8D6_OFFSET UNITYSDK_OFFSET(0x18FCB880)
+#define RPG_GAMECORE_BYCOMPARECUSTOMSTRING_METHOD_4_211C2282FC9A9CFB_OFFSET UNITYSDK_OFFSET(0x18FCB7B0)
+#define RPG_GAMECORE_BYCOMPARECUSTOMSTRING_METHOD_4_373FC891F3DAE013_OFFSET UNITYSDK_OFFSET(0x18FCBAA0)
+#define RPG_GAMECORE_BYCOMPARECUSTOMSTRING_METHOD_4_3AEF85BDB844CF72_OFFSET UNITYSDK_OFFSET(0x18FCBB20)
+#define RPG_GAMECORE_BYCOMPARECUSTOMSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x18FCB830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareCustomString_TypeDefinitionIndex = 22789;
+	inline static constexpr unsigned int ByCompareCustomString_TypeDefinitionIndex = 22496;
 
 	class ByCompareCustomString : public ::RPG::GameCore::PredicateConfig
 	{
@@ -35,6 +38,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_1F12AABEE37CC8D6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareCustomString* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareCustomString*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECUSTOMSTRING_METHOD_4_1F12AABEE37CC8D6_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_373FC891F3DAE013(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareCustomString*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareCustomString*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECUSTOMSTRING_METHOD_4_373FC891F3DAE013_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_3AEF85BDB844CF72(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareCustomString* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareCustomString*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECUSTOMSTRING_METHOD_4_3AEF85BDB844CF72_OFFSET))(a1, a2);
 		}
 	};
 }

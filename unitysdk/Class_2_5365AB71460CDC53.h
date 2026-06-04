@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/ModifierBehaviorFlag.h"
 
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define CLASS_2_5365AB71460CDC53_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCD744A0)
-#define CLASS_2_5365AB71460CDC53_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCD74450)
-#define CLASS_2_5365AB71460CDC53_METHOD_2_B5728DBC6FF4A218_OFFSET UNITYSDK_OFFSET(0xCD743E0)
-#define CLASS_2_5365AB71460CDC53__CTOR_OFFSET UNITYSDK_OFFSET(0xCD744F0)
+#define CLASS_2_5365AB71460CDC53_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x148EF330)
+#define CLASS_2_5365AB71460CDC53_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x148EF2E0)
+#define CLASS_2_5365AB71460CDC53_METHOD_2_B5728DBC6FF4A218_OFFSET UNITYSDK_OFFSET(0x148EF270)
+#define CLASS_2_5365AB71460CDC53__CTOR_OFFSET UNITYSDK_OFFSET(0x148EF380)
 
-inline static constexpr unsigned int Class_2_5365AB71460CDC53_TypeDefinitionIndex = 52149;
+inline static constexpr unsigned int Class_2_5365AB71460CDC53_TypeDefinitionIndex = 52846;
 
-class Class_2_5365AB71460CDC53 : public ::Class_1_9988289E7F8AA214
+class Class_2_5365AB71460CDC53 : public ::Class_1_BF7A075734D15E98
 {
 public:
-	::RPG::GameCore::GameEntity* Field_2_0; // 0x18
-	::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* Field_2_2; // 0x20
-	::RPG::GameCore::TurnBasedModifierInstance* Field_2_1; // 0x28
+	::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* Field_2_0; // 0x18
+	::RPG::GameCore::GameEntity* Field_2_1; // 0x20
+	::RPG::GameCore::TurnBasedModifierInstance* Field_2_2; // 0x28
 
 	::System::Void _ctor()
 	{

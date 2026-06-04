@@ -17,12 +17,12 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG_METHOD_2_F79F56DA97E113E6_OFFSET UNITYSDK_OFFSET(0x18FB3D90)
-#define RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18FB4610)
+#define RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG_METHOD_2_048982E058A7BD99_OFFSET UNITYSDK_OFFSET(0x19B242D0)
+#define RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19B24A00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CustomTeamFormationConfig_TypeDefinitionIndex = 15704;
+	inline static constexpr unsigned int CustomTeamFormationConfig_TypeDefinitionIndex = 15761;
 
 	class CustomTeamFormationConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -54,9 +54,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_F79F56DA97E113E6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CustomTeamFormationConfig*& a2)
+		static ::System::Void Method_2_048982E058A7BD99(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CustomTeamFormationConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CustomTeamFormationConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG_METHOD_2_F79F56DA97E113E6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CustomTeamFormationConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG_METHOD_2_048982E058A7BD99_OFFSET))(a1, a2);
 		}
 	};
 }

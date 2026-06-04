@@ -12,22 +12,30 @@ namespace RPG::GameCore { class RtModifierCallbackConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_342898B3BA2E7D21_OFFSET UNITYSDK_OFFSET(0x18E86170)
-#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_6E07D91384EA026E_OFFSET UNITYSDK_OFFSET(0x18E85AE0)
-#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_9E44E6F8EAB9EA1D_OFFSET UNITYSDK_OFFSET(0x18E85A40)
-#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_9F91AECC294331DD_OFFSET UNITYSDK_OFFSET(0x18E862C0)
-#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_A95C7D9BBBD85EEB_OFFSET UNITYSDK_OFFSET(0x18E86210)
-#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_CBD58F9821624B26_OFFSET UNITYSDK_OFFSET(0x18E86110)
-#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_FFB102BD9EB3B306_OFFSET UNITYSDK_OFFSET(0x18E86260)
-#define RPG_GAMECORE_RTMODIFIERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E85AA0)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_17E28D96F5D35177_OFFSET UNITYSDK_OFFSET(0x1942A060)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_9E44E6F8EAB9EA1D_OFFSET UNITYSDK_OFFSET(0x19429FC0)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_9F91AECC294331DD_OFFSET UNITYSDK_OFFSET(0x1942A890)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_A95C7D9BBBD85EEB_OFFSET UNITYSDK_OFFSET(0x1942A7E0)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_AA0E071F299C1742_OFFSET UNITYSDK_OFFSET(0x1942A6D0)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_B49F6902F02AD973_OFFSET UNITYSDK_OFFSET(0x1942A630)
+#define RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_FFB102BD9EB3B306_OFFSET UNITYSDK_OFFSET(0x1942A830)
+#define RPG_GAMECORE_RTMODIFIERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1942A020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtModifierConfig_TypeDefinitionIndex = 16765;
+	inline static constexpr unsigned int RtModifierConfig_TypeDefinitionIndex = 16782;
 
 	class RtModifierConfig : public ::RPG::GameCore::ModifierConfig
 	{
 	public:
+		static ::Il2CppArray<::System::String*>** StaticGet__RtModifierEventPriorityNameList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RtModifierConfig_TypeDefinitionIndex)->GetStaticField(0x6AF60);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet__RtModifierEventNameList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RtModifierConfig_TypeDefinitionIndex)->GetStaticField(0x6AF68);
+		}
 		::RPG::GameCore::FixPoint LifeTime; // 0x38
 		::System::Int32 MaxLayer; // 0x40
 		::System::Int32 LayerAddWhenStack; // 0x44
@@ -49,19 +57,19 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtModifierConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_9E44E6F8EAB9EA1D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6E07D91384EA026E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtModifierConfig* a2)
+		static ::System::Void Method_3_17E28D96F5D35177(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtModifierConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtModifierConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_6E07D91384EA026E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtModifierConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_17E28D96F5D35177_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean Method_3_CBD58F9821624B26(::RPG::GameCore::RtBehaviorFlag a1)
+		::System::Boolean Method_3_B49F6902F02AD973(::RPG::GameCore::RtBehaviorFlag a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::RtBehaviorFlag))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_CBD58F9821624B26_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::RtBehaviorFlag))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_B49F6902F02AD973_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_3_342898B3BA2E7D21(::Il2CppArray<::RPG::GameCore::RtBehaviorFlag>* a1)
+		::System::Boolean Method_3_AA0E071F299C1742(::Il2CppArray<::RPG::GameCore::RtBehaviorFlag>* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::RtBehaviorFlag>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_342898B3BA2E7D21_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::RtBehaviorFlag>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTMODIFIERCONFIG_METHOD_3_AA0E071F299C1742_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::RtModifierCallbackConfig* Method_3_A95C7D9BBBD85EEB(::RPG::GameCore::RtModifierEvent a1)

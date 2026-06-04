@@ -12,38 +12,38 @@ namespace RPG::Client { class GridFightRoleSkillDetail; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETBACKEQUIPMENTCONFIG_1_OFFSET UNITYSDK_OFFSET(0x18128EB0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETBACKEQUIPMENTCONFIG_OFFSET UNITYSDK_OFFSET(0x18128E10)
-#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETBACKRANKCONFIGS_OFFSET UNITYSDK_OFFSET(0x18128BF0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETBACKRANKCONFIG_1_OFFSET UNITYSDK_OFFSET(0x18128D30)
-#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETBACKRANKCONFIG_OFFSET UNITYSDK_OFFSET(0x18114C50)
-#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETCURROLESKILLBYSTAR_OFFSET UNITYSDK_OFFSET(0x18129480)
-#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETEQUIPMENT_OFFSET UNITYSDK_OFFSET(0x18128DB0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETSKILLDETAILS_1_OFFSET UNITYSDK_OFFSET(0x18128020)
-#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETSKILLDETAILS_OFFSET UNITYSDK_OFFSET(0x18127FC0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETSKILLTYPETEXTIDS_1_OFFSET UNITYSDK_OFFSET(0x18128A00)
-#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETSKILLTYPETEXTIDS_OFFSET UNITYSDK_OFFSET(0x181287D0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILL_GET_BACKRANKCONFIGS_OFFSET UNITYSDK_OFFSET(0x18128C70)
-#define RPG_CLIENT_GRIDFIGHTROLESKILL_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x18128F50)
-#define RPG_CLIENT_GRIDFIGHTROLESKILL_GET_ISACTIVATED_OFFSET UNITYSDK_OFFSET(0x18129190)
-#define RPG_CLIENT_GRIDFIGHTROLESKILL_GET_ROLE_OFFSET UNITYSDK_OFFSET(0x18129520)
-#define RPG_CLIENT_GRIDFIGHTROLESKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x18118EF0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILL__GETAVATARSKILLLEVEL_OFFSET UNITYSDK_OFFSET(0x181283E0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILL__GETSERVANTSKILLLEVEL_OFFSET UNITYSDK_OFFSET(0x181285B0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILL__GET_BACKRANKCONFIGS_B__7_0_OFFSET UNITYSDK_OFFSET(0x18129530)
+#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETBACKEQUIPMENTCONFIG_1_OFFSET UNITYSDK_OFFSET(0x19961DA0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETBACKEQUIPMENTCONFIG_OFFSET UNITYSDK_OFFSET(0x19961D00)
+#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETBACKRANKCONFIGS_OFFSET UNITYSDK_OFFSET(0x19961A60)
+#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETBACKRANKCONFIG_1_OFFSET UNITYSDK_OFFSET(0x19961C20)
+#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETBACKRANKCONFIG_OFFSET UNITYSDK_OFFSET(0x19961BC0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETCURROLESKILLBYSTAR_OFFSET UNITYSDK_OFFSET(0x19962350)
+#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETEQUIPMENT_OFFSET UNITYSDK_OFFSET(0x19961CA0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETSKILLDETAILS_1_OFFSET UNITYSDK_OFFSET(0x19960B80)
+#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETSKILLDETAILS_OFFSET UNITYSDK_OFFSET(0x19960B20)
+#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETSKILLTYPETEXTIDS_1_OFFSET UNITYSDK_OFFSET(0x19961770)
+#define RPG_CLIENT_GRIDFIGHTROLESKILL_GETSKILLTYPETEXTIDS_OFFSET UNITYSDK_OFFSET(0x19961430)
+#define RPG_CLIENT_GRIDFIGHTROLESKILL_GET_BACKRANKCONFIGS_OFFSET UNITYSDK_OFFSET(0x19961AE0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILL_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x19961E40)
+#define RPG_CLIENT_GRIDFIGHTROLESKILL_GET_ISACTIVATED_OFFSET UNITYSDK_OFFSET(0x19962080)
+#define RPG_CLIENT_GRIDFIGHTROLESKILL_GET_ROLE_OFFSET UNITYSDK_OFFSET(0x199623F0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x19960B10)
+#define RPG_CLIENT_GRIDFIGHTROLESKILL__GETAVATARSKILLLEVEL_OFFSET UNITYSDK_OFFSET(0x19961040)
+#define RPG_CLIENT_GRIDFIGHTROLESKILL__GETSERVANTSKILLLEVEL_OFFSET UNITYSDK_OFFSET(0x19961210)
+#define RPG_CLIENT_GRIDFIGHTROLESKILL__GET_BACKRANKCONFIGS_B__7_0_OFFSET UNITYSDK_OFFSET(0x19962400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleSkill_TypeDefinitionIndex = 59972;
+	inline static constexpr unsigned int GridFightRoleSkill_TypeDefinitionIndex = 60907;
 
 	class GridFightRoleSkill : public ::System::Object
 	{
 	public:
 		::RPG::Client::GridFightRole* _Role; // 0x10
 
-		::System::Void _ctor(::RPG::Client::GridFightRole* role)
+		::System::Void _ctor(::RPG::Client::GridFightRole* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL__CTOR_OFFSET))(this, role);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::GridFightRoleSkillDetail*>* GetSkillDetails()
@@ -51,9 +51,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightRoleSkillDetail*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL_GETSKILLDETAILS_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightRoleSkillDetail*>* GetSkillDetails_1(::System::Boolean isFront)
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightRoleSkillDetail*>* GetSkillDetails_1(::System::Boolean a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightRoleSkillDetail*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL_GETSKILLDETAILS_1_OFFSET))(this, isFront);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightRoleSkillDetail*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL_GETSKILLDETAILS_1_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::TextID>* GetSkillTypeTextIDs()
@@ -61,9 +61,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::TextID>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL_GETSKILLTYPETEXTIDS_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::TextID>* GetSkillTypeTextIDs_1(::System::Boolean isFront)
+		::System::Collections::Generic::List_1<::RPG::Client::TextID>* GetSkillTypeTextIDs_1(::System::Boolean a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::TextID>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL_GETSKILLTYPETEXTIDS_1_OFFSET))(this, isFront);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::TextID>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL_GETSKILLTYPETEXTIDS_1_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::GridFightBackRankConfig*>* GetBackRankConfigs()
@@ -81,9 +81,9 @@ namespace RPG::Client
 			return ((::RPG::Client::GridFightBackRankConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL_GETBACKRANKCONFIG_OFFSET))(this);
 		}
 
-		::RPG::Client::GridFightBackRankConfig* GetBackRankConfig_1(::System::Boolean isFront)
+		::RPG::Client::GridFightBackRankConfig* GetBackRankConfig_1(::System::Boolean a1)
 		{
-			return ((::RPG::Client::GridFightBackRankConfig*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL_GETBACKRANKCONFIG_1_OFFSET))(this, isFront);
+			return ((::RPG::Client::GridFightBackRankConfig*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL_GETBACKRANKCONFIG_1_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::EquipmentItemData* GetEquipment()
@@ -91,9 +91,9 @@ namespace RPG::Client
 			return ((::RPG::Client::EquipmentItemData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL_GETEQUIPMENT_OFFSET))(this);
 		}
 
-		::RPG::Client::GridFightBackEquipmentConfig* GetBackEquipmentConfig(::System::Boolean isFront)
+		::RPG::Client::GridFightBackEquipmentConfig* GetBackEquipmentConfig(::System::Boolean a1)
 		{
-			return ((::RPG::Client::GridFightBackEquipmentConfig*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL_GETBACKEQUIPMENTCONFIG_OFFSET))(this, isFront);
+			return ((::RPG::Client::GridFightBackEquipmentConfig*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL_GETBACKEQUIPMENTCONFIG_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::GridFightBackEquipmentConfig* GetBackEquipmentConfig_1()
@@ -111,19 +111,19 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL_GET_ISACTIVATED_OFFSET))(this);
 		}
 
-		::System::UInt32 _GetAvatarSkillLevel(::System::UInt32 skillID)
+		::System::UInt32 _GetAvatarSkillLevel(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL__GETAVATARSKILLLEVEL_OFFSET))(this, skillID);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL__GETAVATARSKILLLEVEL_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 _GetServantSkillLevel(::System::UInt32 skillID)
+		::System::UInt32 _GetServantSkillLevel(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL__GETSERVANTSKILLLEVEL_OFFSET))(this, skillID);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL__GETSERVANTSKILLLEVEL_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::GridFightRoleSkill* GetCurRoleSkillByStar(::System::UInt32 star)
+		::RPG::Client::GridFightRoleSkill* GetCurRoleSkillByStar(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::GridFightRoleSkill*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL_GETCURROLESKILLBYSTAR_OFFSET))(this, star);
+			return ((::RPG::Client::GridFightRoleSkill*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL_GETCURROLESKILLBYSTAR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::GridFightRole* get_Role()
@@ -131,9 +131,9 @@ namespace RPG::Client
 			return ((::RPG::Client::GridFightRole*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL_GET_ROLE_OFFSET))(this);
 		}
 
-		::System::Boolean _get_BackRankConfigs_b__7_0(::RPG::Client::GridFightBackRankConfig* x)
+		::System::Boolean _get_BackRankConfigs_b__7_0(::RPG::Client::GridFightBackRankConfig* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightBackRankConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL__GET_BACKRANKCONFIGS_B__7_0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightBackRankConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILL__GET_BACKRANKCONFIGS_B__7_0_OFFSET))(this, a1);
 		}
 	};
 }

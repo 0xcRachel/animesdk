@@ -8,31 +8,31 @@ namespace RPG::GameCore { class TarotBookConditionParam; }
 namespace RPG::GameCore { class TarotBookInteractionRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_TAROTBOOKINTERACTION_CREATE_OFFSET UNITYSDK_OFFSET(0x169948E0)
-#define RPG_CLIENT_TAROTBOOKINTERACTION_GET_FINISHCONDITIONS_OFFSET UNITYSDK_OFFSET(0x16994760)
-#define RPG_CLIENT_TAROTBOOKINTERACTION_GET_HASFINISHED_OFFSET UNITYSDK_OFFSET(0x16994800)
-#define RPG_CLIENT_TAROTBOOKINTERACTION_GET_HASUNLOCKED_OFFSET UNITYSDK_OFFSET(0x169947A0)
-#define RPG_CLIENT_TAROTBOOKINTERACTION_GET_ID_OFFSET UNITYSDK_OFFSET(0x16994700)
-#define RPG_CLIENT_TAROTBOOKINTERACTION_GET_LEVELGRAPHPATH_OFFSET UNITYSDK_OFFSET(0x16994780)
-#define RPG_CLIENT_TAROTBOOKINTERACTION_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x16994720)
-#define RPG_CLIENT_TAROTBOOKINTERACTION_GET_STARTCONDITIONS_OFFSET UNITYSDK_OFFSET(0x16994740)
-#define RPG_CLIENT_TAROTBOOKINTERACTION_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x169948B0)
-#define RPG_CLIENT_TAROTBOOKINTERACTION_MARKFINISHED_OFFSET UNITYSDK_OFFSET(0x16994960)
-#define RPG_CLIENT_TAROTBOOKINTERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16994950)
+#define RPG_CLIENT_TAROTBOOKINTERACTION_CREATE_OFFSET UNITYSDK_OFFSET(0x180BF300)
+#define RPG_CLIENT_TAROTBOOKINTERACTION_GET_FINISHCONDITIONS_OFFSET UNITYSDK_OFFSET(0x180BF180)
+#define RPG_CLIENT_TAROTBOOKINTERACTION_GET_HASFINISHED_OFFSET UNITYSDK_OFFSET(0x180BF220)
+#define RPG_CLIENT_TAROTBOOKINTERACTION_GET_HASUNLOCKED_OFFSET UNITYSDK_OFFSET(0x180BF1C0)
+#define RPG_CLIENT_TAROTBOOKINTERACTION_GET_ID_OFFSET UNITYSDK_OFFSET(0x180BF120)
+#define RPG_CLIENT_TAROTBOOKINTERACTION_GET_LEVELGRAPHPATH_OFFSET UNITYSDK_OFFSET(0x180BF1A0)
+#define RPG_CLIENT_TAROTBOOKINTERACTION_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x180BF140)
+#define RPG_CLIENT_TAROTBOOKINTERACTION_GET_STARTCONDITIONS_OFFSET UNITYSDK_OFFSET(0x180BF160)
+#define RPG_CLIENT_TAROTBOOKINTERACTION_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x180BF2D0)
+#define RPG_CLIENT_TAROTBOOKINTERACTION_MARKFINISHED_OFFSET UNITYSDK_OFFSET(0x180BF380)
+#define RPG_CLIENT_TAROTBOOKINTERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x180BF370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TarotBookInteraction_TypeDefinitionIndex = 62747;
+	inline static constexpr unsigned int TarotBookInteraction_TypeDefinitionIndex = 63680;
 
 	class TarotBookInteraction : public ::System::Object
 	{
 	public:
-		::RPG::Client::TarotBookInteraction_IServerAgent* _ServerAgent; // 0x10
-		::RPG::GameCore::TarotBookInteractionRow* _Meta; // 0x18
+		::RPG::GameCore::TarotBookInteractionRow* _Meta; // 0x10
+		::RPG::Client::TarotBookInteraction_IServerAgent* _ServerAgent; // 0x18
 
-		::System::Void _ctor(::RPG::GameCore::TarotBookInteractionRow* meta, ::RPG::Client::TarotBookInteraction_IServerAgent* serverAgent)
+		::System::Void _ctor(::RPG::GameCore::TarotBookInteractionRow* a1, ::RPG::Client::TarotBookInteraction_IServerAgent* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TarotBookInteractionRow*, ::RPG::Client::TarotBookInteraction_IServerAgent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKINTERACTION__CTOR_OFFSET))(this, meta, serverAgent);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TarotBookInteractionRow*, ::RPG::Client::TarotBookInteraction_IServerAgent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKINTERACTION__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 get_ID()
@@ -75,9 +75,9 @@ namespace RPG::Client
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKINTERACTION_GET_TITLE_OFFSET))(this);
 		}
 
-		static ::RPG::Client::TarotBookInteraction* Create(::RPG::GameCore::TarotBookInteractionRow* meta, ::RPG::Client::TarotBookInteraction_IServerAgent* serverAgent)
+		static ::RPG::Client::TarotBookInteraction* Create(::RPG::GameCore::TarotBookInteractionRow* a1, ::RPG::Client::TarotBookInteraction_IServerAgent* a2)
 		{
-			return ((::RPG::Client::TarotBookInteraction*(*)(::RPG::GameCore::TarotBookInteractionRow*, ::RPG::Client::TarotBookInteraction_IServerAgent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKINTERACTION_CREATE_OFFSET))(meta, serverAgent);
+			return ((::RPG::Client::TarotBookInteraction*(*)(::RPG::GameCore::TarotBookInteractionRow*, ::RPG::Client::TarotBookInteraction_IServerAgent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKINTERACTION_CREATE_OFFSET))(a1, a2);
 		}
 
 		::System::Void MarkFinished()

@@ -5,22 +5,22 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define SUPERSCROLLVIEW_LOOPGRIDVIEW_SNAPDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0x14FA5EE0)
-#define SUPERSCROLLVIEW_LOOPGRIDVIEW_SNAPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14FB3030)
+#define SUPERSCROLLVIEW_LOOPGRIDVIEW_SNAPDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0x13EDF5C0)
+#define SUPERSCROLLVIEW_LOOPGRIDVIEW_SNAPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13EECEA0)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int LoopGridView_SnapData_TypeDefinitionIndex = 44398;
+	inline static constexpr unsigned int LoopGridView_SnapData_TypeDefinitionIndex = 44944;
 
 	class LoopGridView_SnapData : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector2 mSnapNeedMoveDir; // 0x10
-		::System::Single mTargetSnapVal; // 0x18
-		::System::Single mCurSnapVal; // 0x1C
-		::System::Boolean mIsForceSnapTo; // 0x20
-		::SuperScrollView::RowColumnPair mSnapTarget; // 0x24
-		::SuperScrollView::SnapStatus mSnapStatus; // 0x2C
+		::SuperScrollView::SnapStatus mSnapStatus; // 0x10
+		::System::Single mTargetSnapVal; // 0x14
+		::System::Boolean mIsForceSnapTo; // 0x18
+		::UnityEngine::Vector2 mSnapNeedMoveDir; // 0x1C
+		::System::Single mCurSnapVal; // 0x24
+		::SuperScrollView::RowColumnPair mSnapTarget; // 0x28
 
 		::System::Void _ctor()
 		{

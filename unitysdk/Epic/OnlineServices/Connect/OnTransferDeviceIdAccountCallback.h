@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_CONNECT_ONTRANSFERDEVICEIDACCOUNTCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x196C88D0)
-#define EPIC_ONLINESERVICES_CONNECT_ONTRANSFERDEVICEIDACCOUNTCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x196C8900)
-#define EPIC_ONLINESERVICES_CONNECT_ONTRANSFERDEVICEIDACCOUNTCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x196C8380)
-#define EPIC_ONLINESERVICES_CONNECT_ONTRANSFERDEVICEIDACCOUNTCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x196C8360)
+#define EPIC_ONLINESERVICES_CONNECT_ONTRANSFERDEVICEIDACCOUNTCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A4B8290)
+#define EPIC_ONLINESERVICES_CONNECT_ONTRANSFERDEVICEIDACCOUNTCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A4B82C0)
+#define EPIC_ONLINESERVICES_CONNECT_ONTRANSFERDEVICEIDACCOUNTCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A4B8280)
+#define EPIC_ONLINESERVICES_CONNECT_ONTRANSFERDEVICEIDACCOUNTCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4B8190)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int OnTransferDeviceIdAccountCallback_TypeDefinitionIndex = 42324;
+	inline static constexpr unsigned int OnTransferDeviceIdAccountCallback_TypeDefinitionIndex = 43127;
 
 	class OnTransferDeviceIdAccountCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_ONTRANSFERDEVICEIDACCOUNTCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_ONTRANSFERDEVICEIDACCOUNTCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::Epic::OnlineServices::Connect::TransferDeviceIdAccountCallbackInfo* data)
+		::System::Void Invoke(::Epic::OnlineServices::Connect::TransferDeviceIdAccountCallbackInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::TransferDeviceIdAccountCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_ONTRANSFERDEVICEIDACCOUNTCALLBACK_INVOKE_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::TransferDeviceIdAccountCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_ONTRANSFERDEVICEIDACCOUNTCALLBACK_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Connect::TransferDeviceIdAccountCallbackInfo* data, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Connect::TransferDeviceIdAccountCallbackInfo* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Connect::TransferDeviceIdAccountCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_ONTRANSFERDEVICEIDACCOUNTCALLBACK_BEGININVOKE_OFFSET))(this, data, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Connect::TransferDeviceIdAccountCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_ONTRANSFERDEVICEIDACCOUNTCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_ONTRANSFERDEVICEIDACCOUNTCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_ONTRANSFERDEVICEIDACCOUNTCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

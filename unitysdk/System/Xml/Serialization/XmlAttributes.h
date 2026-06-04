@@ -16,23 +16,23 @@ namespace System::Xml::Serialization { class XmlRootAttribute; }
 namespace System::Xml::Serialization { class XmlTextAttribute; }
 namespace System::Xml::Serialization { class XmlTypeAttribute; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x18565C10)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_SORTABLEORDER_OFFSET UNITYSDK_OFFSET(0x18566070)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLANYATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x18565B40)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLANYELEMENTS_OFFSET UNITYSDK_OFFSET(0x18565B50)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLARRAYITEMS_OFFSET UNITYSDK_OFFSET(0x18565B70)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLARRAY_OFFSET UNITYSDK_OFFSET(0x18565B60)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x18565B80)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLCHOICEIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x18565B90)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLDEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x18565BA0)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLELEMENTS_OFFSET UNITYSDK_OFFSET(0x18565BB0)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLIGNORE_OFFSET UNITYSDK_OFFSET(0x18565BC0)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLNS_OFFSET UNITYSDK_OFFSET(0x18565BD0)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLROOT_OFFSET UNITYSDK_OFFSET(0x18565BE0)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLTEXT_OFFSET UNITYSDK_OFFSET(0x18565BF0)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLTYPE_OFFSET UNITYSDK_OFFSET(0x18565C00)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18565290)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES__CTOR_OFFSET UNITYSDK_OFFSET(0x185650E0)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x184933C0)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_SORTABLEORDER_OFFSET UNITYSDK_OFFSET(0x18493850)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLANYATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x184932F0)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLANYELEMENTS_OFFSET UNITYSDK_OFFSET(0x18493300)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLARRAYITEMS_OFFSET UNITYSDK_OFFSET(0x18493320)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLARRAY_OFFSET UNITYSDK_OFFSET(0x18493310)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x18493330)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLCHOICEIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x18493340)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLDEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x18493350)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLELEMENTS_OFFSET UNITYSDK_OFFSET(0x18493360)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLIGNORE_OFFSET UNITYSDK_OFFSET(0x18493370)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLNS_OFFSET UNITYSDK_OFFSET(0x18493380)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLROOT_OFFSET UNITYSDK_OFFSET(0x18493390)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLTEXT_OFFSET UNITYSDK_OFFSET(0x184933A0)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLTYPE_OFFSET UNITYSDK_OFFSET(0x184933B0)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES__CTOR_1_OFFSET UNITYSDK_OFFSET(0x184929B0)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES__CTOR_OFFSET UNITYSDK_OFFSET(0x18492800)
 
 namespace System::Xml::Serialization
 {
@@ -41,18 +41,18 @@ namespace System::Xml::Serialization
 	class XmlAttributes : public ::System::Object
 	{
 	public:
-		::System::Xml::Serialization::XmlTypeAttribute* xmlType; // 0x10
-		::System::Xml::Serialization::XmlAttributeAttribute* xmlAttribute; // 0x18
-		::System::Xml::Serialization::XmlTextAttribute* xmlText; // 0x20
-		::System::Xml::Serialization::XmlElementAttributes* xmlElements; // 0x28
-		::System::Xml::Serialization::XmlRootAttribute* xmlRoot; // 0x30
-		::System::Xml::Serialization::XmlAnyAttributeAttribute* xmlAnyAttribute; // 0x38
-		::System::Xml::Serialization::XmlEnumAttribute* xmlEnum; // 0x40
-		::System::Object* xmlDefaultValue; // 0x48
-		::System::Xml::Serialization::XmlChoiceIdentifierAttribute* xmlChoiceIdentifier; // 0x50
-		::System::Xml::Serialization::XmlArrayItemAttributes* xmlArrayItems; // 0x58
-		::System::Xml::Serialization::XmlAnyElementAttributes* xmlAnyElements; // 0x60
-		::System::Xml::Serialization::XmlArrayAttribute* xmlArray; // 0x68
+		::System::Xml::Serialization::XmlArrayItemAttributes* xmlArrayItems; // 0x10
+		::System::Xml::Serialization::XmlTypeAttribute* xmlType; // 0x18
+		::System::Xml::Serialization::XmlArrayAttribute* xmlArray; // 0x20
+		::System::Xml::Serialization::XmlRootAttribute* xmlRoot; // 0x28
+		::System::Object* xmlDefaultValue; // 0x30
+		::System::Xml::Serialization::XmlAnyElementAttributes* xmlAnyElements; // 0x38
+		::System::Xml::Serialization::XmlElementAttributes* xmlElements; // 0x40
+		::System::Xml::Serialization::XmlChoiceIdentifierAttribute* xmlChoiceIdentifier; // 0x48
+		::System::Xml::Serialization::XmlEnumAttribute* xmlEnum; // 0x50
+		::System::Xml::Serialization::XmlAnyAttributeAttribute* xmlAnyAttribute; // 0x58
+		::System::Xml::Serialization::XmlAttributeAttribute* xmlAttribute; // 0x60
+		::System::Xml::Serialization::XmlTextAttribute* xmlText; // 0x68
 		::System::Boolean xmlIgnore; // 0x70
 		::System::Boolean xmlns; // 0x71
 
@@ -61,9 +61,9 @@ namespace System::Xml::Serialization
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Reflection::ICustomAttributeProvider* provider)
+		::System::Void _ctor_1(::System::Reflection::ICustomAttributeProvider* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::ICustomAttributeProvider*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES__CTOR_1_OFFSET))(this, provider);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::ICustomAttributeProvider*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Xml::Serialization::XmlAnyAttributeAttribute* get_XmlAnyAttribute()

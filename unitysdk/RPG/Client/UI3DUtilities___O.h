@@ -6,14 +6,14 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UI3DUtilities___O_TypeDefinitionIndex = 67240;
+	inline static constexpr unsigned int UI3DUtilities___O_TypeDefinitionIndex = 68192;
 
 	class UI3DUtilities___O : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet__0___RemoveUnloadSceneUnavailableReason()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UI3DUtilities___O_TypeDefinitionIndex)->GetStaticField(0x57000);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UI3DUtilities___O_TypeDefinitionIndex)->GetStaticField(0x55C80);
 		}
 	};
 }

@@ -4,11 +4,11 @@
 
 namespace HoudiniEngineUnity { class HEU_ReloadEventData; }
 
-#define HOUDINIENGINEUNITY_HEU_RELOADDATAEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x17DE19B0)
+#define HOUDINIENGINEUNITY_HEU_RELOADDATAEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x182F8920)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ReloadDataEvent_TypeDefinitionIndex = 43473;
+	inline static constexpr unsigned int HEU_ReloadDataEvent_TypeDefinitionIndex = 37397;
 
 	class HEU_ReloadDataEvent : public ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_ReloadEventData*>
 	{

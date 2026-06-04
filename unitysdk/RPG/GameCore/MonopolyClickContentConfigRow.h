@@ -4,27 +4,27 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONOPOLYCLICKCONTENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19088BA0)
-#define RPG_GAMECORE_MONOPOLYCLICKCONTENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19088CC0)
+#define RPG_GAMECORE_MONOPOLYCLICKCONTENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x196B3AE0)
+#define RPG_GAMECORE_MONOPOLYCLICKCONTENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x196B3C00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyClickContentConfigRow_TypeDefinitionIndex = 11420;
+	inline static constexpr unsigned int MonopolyClickContentConfigRow_TypeDefinitionIndex = 11465;
 
 	class MonopolyClickContentConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ClickNum; // 0x10
-		::System::UInt32 ID; // 0x14
+		::System::UInt32 ID; // 0x10
+		::System::UInt32 ClickNum; // 0x14
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYCLICKCONTENTCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::MonopolyClickContentConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonopolyClickContentConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonopolyClickContentConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYCLICKCONTENTCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonopolyClickContentConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYCLICKCONTENTCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

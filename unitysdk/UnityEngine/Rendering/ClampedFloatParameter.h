@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/FloatParameter.h"
 
-#define UNITYENGINE_RENDERING_CLAMPEDFLOATPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x18AF6A00)
-#define UNITYENGINE_RENDERING_CLAMPEDFLOATPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x18AF6A10)
-#define UNITYENGINE_RENDERING_CLAMPEDFLOATPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x18AF6A30)
+#define UNITYENGINE_RENDERING_CLAMPEDFLOATPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x195AC550)
+#define UNITYENGINE_RENDERING_CLAMPEDFLOATPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x195AC560)
+#define UNITYENGINE_RENDERING_CLAMPEDFLOATPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x195AC580)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ClampedFloatParameter_TypeDefinitionIndex = 33550;
+	inline static constexpr unsigned int ClampedFloatParameter_TypeDefinitionIndex = 33832;
 
 	class ClampedFloatParameter : public ::UnityEngine::Rendering::FloatParameter
 	{
@@ -16,9 +16,9 @@ namespace UnityEngine::Rendering
 		::System::Single min; // 0x20
 		::System::Single max; // 0x24
 
-		::System::Void _ctor(::System::Single value, ::System::Single min, ::System::Single max, ::System::Boolean overrideState)
+		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CLAMPEDFLOATPARAMETER__CTOR_OFFSET))(this, value, min, max, overrideState);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CLAMPEDFLOATPARAMETER__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Single get_value()
@@ -26,9 +26,9 @@ namespace UnityEngine::Rendering
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CLAMPEDFLOATPARAMETER_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_value(::System::Single value)
+		::System::Void set_value(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CLAMPEDFLOATPARAMETER_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CLAMPEDFLOATPARAMETER_SET_VALUE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -10,66 +10,66 @@
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_ADDAPPLICATIONMANIFEST_OFFSET UNITYSDK_OFFSET(0x189F32A0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_CANCELAPPLICATIONLAUNCH_OFFSET UNITYSDK_OFFSET(0x189F65B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONAUTOLAUNCH_OFFSET UNITYSDK_OFFSET(0x189F9080)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONCOUNT_OFFSET UNITYSDK_OFFSET(0x189F43B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONKEYBYINDEX_OFFSET UNITYSDK_OFFSET(0x189F4680)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONKEYBYPROCESSID_OFFSET UNITYSDK_OFFSET(0x189F4A30)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONLAUNCHARGUMENTS_OFFSET UNITYSDK_OFFSET(0x189FAF00)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONPROCESSID_OFFSET UNITYSDK_OFFSET(0x189F6EA0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONPROPERTYBOOL_OFFSET UNITYSDK_OFFSET(0x189F7E30)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONPROPERTYSTRING_OFFSET UNITYSDK_OFFSET(0x189F7750)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONPROPERTYUINT64_OFFSET UNITYSDK_OFFSET(0x189F8460)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONSERRORNAMEFROMENUM_OFFSET UNITYSDK_OFFSET(0x189F7420)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONSTHATSUPPORTMIMETYPE_OFFSET UNITYSDK_OFFSET(0x189FA8A0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONSTRANSITIONSTATENAMEFROMENUM_OFFSET UNITYSDK_OFFSET(0x189FC080)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONSUPPORTEDMIMETYPES_OFFSET UNITYSDK_OFFSET(0x189FA240)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETCURRENTSCENEPROCESSID_OFFSET UNITYSDK_OFFSET(0x189FCCF0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETDEFAULTAPPLICATIONFORMIMETYPE_OFFSET UNITYSDK_OFFSET(0x189F9BE0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETSTARTINGAPPLICATION_OFFSET UNITYSDK_OFFSET(0x189FB2B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETTRANSITIONSTATE_OFFSET UNITYSDK_OFFSET(0x189FB830)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_IDENTIFYAPPLICATION_OFFSET UNITYSDK_OFFSET(0x189F6B30)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_ISAPPLICATIONINSTALLED_OFFSET UNITYSDK_OFFSET(0x189F3E30)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_ISQUITUSERPROMPTREQUESTED_OFFSET UNITYSDK_OFFSET(0x189FC3C0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_LAUNCHAPPLICATIONFROMMIMETYPE_OFFSET UNITYSDK_OFFSET(0x189F5A50)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_LAUNCHAPPLICATION_OFFSET UNITYSDK_OFFSET(0x189F4DE0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_LAUNCHDASHBOARDOVERLAY_OFFSET UNITYSDK_OFFSET(0x189F6030)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_LAUNCHINTERNALPROCESS_OFFSET UNITYSDK_OFFSET(0x189FC690)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_LAUNCHTEMPLATEAPPLICATION_OFFSET UNITYSDK_OFFSET(0x189F5360)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_PERFORMAPPLICATIONPRELAUNCHCHECK_OFFSET UNITYSDK_OFFSET(0x189FBB00)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_REMOVEAPPLICATIONMANIFEST_OFFSET UNITYSDK_OFFSET(0x189F38B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_SETAPPLICATIONAUTOLAUNCH_OFFSET UNITYSDK_OFFSET(0x189F8A70)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_SETDEFAULTAPPLICATIONFORMIMETYPE_OFFSET UNITYSDK_OFFSET(0x189F9600)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x189F31B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_ADDAPPLICATIONMANIFEST_OFFSET UNITYSDK_OFFSET(0x1A0E8B90)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_CANCELAPPLICATIONLAUNCH_OFFSET UNITYSDK_OFFSET(0x1A0E8E60)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONAUTOLAUNCH_OFFSET UNITYSDK_OFFSET(0x1A0E90F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1A0E8C50)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONKEYBYINDEX_OFFSET UNITYSDK_OFFSET(0x1A0E8C90)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONKEYBYPROCESSID_OFFSET UNITYSDK_OFFSET(0x1A0E8CE0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONLAUNCHARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1A0E9260)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONPROCESSID_OFFSET UNITYSDK_OFFSET(0x1A0E8EE0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONPROPERTYBOOL_OFFSET UNITYSDK_OFFSET(0x1A0E9010)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONPROPERTYSTRING_OFFSET UNITYSDK_OFFSET(0x1A0E8F80)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONPROPERTYUINT64_OFFSET UNITYSDK_OFFSET(0x1A0E9060)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONSERRORNAMEFROMENUM_OFFSET UNITYSDK_OFFSET(0x1A0E8F20)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONSTHATSUPPORTMIMETYPE_OFFSET UNITYSDK_OFFSET(0x1A0E9210)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONSTRANSITIONSTATENAMEFROMENUM_OFFSET UNITYSDK_OFFSET(0x1A0E9370)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONSUPPORTEDMIMETYPES_OFFSET UNITYSDK_OFFSET(0x1A0E91C0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETCURRENTSCENEPROCESSID_OFFSET UNITYSDK_OFFSET(0x1A0E9460)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETDEFAULTAPPLICATIONFORMIMETYPE_OFFSET UNITYSDK_OFFSET(0x1A0E9170)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETSTARTINGAPPLICATION_OFFSET UNITYSDK_OFFSET(0x1A0E92B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETTRANSITIONSTATE_OFFSET UNITYSDK_OFFSET(0x1A0E92F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_IDENTIFYAPPLICATION_OFFSET UNITYSDK_OFFSET(0x1A0E8EA0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_ISAPPLICATIONINSTALLED_OFFSET UNITYSDK_OFFSET(0x1A0E8C10)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_ISQUITUSERPROMPTREQUESTED_OFFSET UNITYSDK_OFFSET(0x1A0E93D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_LAUNCHAPPLICATIONFROMMIMETYPE_OFFSET UNITYSDK_OFFSET(0x1A0E8DE0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_LAUNCHAPPLICATION_OFFSET UNITYSDK_OFFSET(0x1A0E8D30)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_LAUNCHDASHBOARDOVERLAY_OFFSET UNITYSDK_OFFSET(0x1A0E8E20)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_LAUNCHINTERNALPROCESS_OFFSET UNITYSDK_OFFSET(0x1A0E9410)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_LAUNCHTEMPLATEAPPLICATION_OFFSET UNITYSDK_OFFSET(0x1A0E8D70)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_PERFORMAPPLICATIONPRELAUNCHCHECK_OFFSET UNITYSDK_OFFSET(0x1A0E9330)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_REMOVEAPPLICATIONMANIFEST_OFFSET UNITYSDK_OFFSET(0x1A0E8BD0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_SETAPPLICATIONAUTOLAUNCH_OFFSET UNITYSDK_OFFSET(0x1A0E90B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_SETDEFAULTAPPLICATIONFORMIMETYPE_OFFSET UNITYSDK_OFFSET(0x1A0E9130)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0E8AB0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int CVRApplications_TypeDefinitionIndex = 35960;
+	inline static constexpr unsigned int CVRApplications_TypeDefinitionIndex = 36260;
 
 	class CVRApplications : public ::System::Object
 	{
 	public:
 		::ZenFulcrum::VR::OpenVRBinding::IVRApplications FnTable; // 0x10
 
-		::System::Void _ctor(::System::IntPtr pInterface)
+		::System::Void _ctor(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS__CTOR_OFFSET))(this, pInterface);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS__CTOR_OFFSET))(this, a1);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError AddApplicationManifest(::System::String* pchApplicationManifestFullPath, ::System::Boolean bTemporary)
+		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError AddApplicationManifest(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_ADDAPPLICATIONMANIFEST_OFFSET))(this, pchApplicationManifestFullPath, bTemporary);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_ADDAPPLICATIONMANIFEST_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError RemoveApplicationManifest(::System::String* pchApplicationManifestFullPath)
+		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError RemoveApplicationManifest(::System::String* a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_REMOVEAPPLICATIONMANIFEST_OFFSET))(this, pchApplicationManifestFullPath);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_REMOVEAPPLICATIONMANIFEST_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsApplicationInstalled(::System::String* pchAppKey)
+		::System::Boolean IsApplicationInstalled(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_ISAPPLICATIONINSTALLED_OFFSET))(this, pchAppKey);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_ISAPPLICATIONINSTALLED_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetApplicationCount()
@@ -77,109 +77,109 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONCOUNT_OFFSET))(this);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError GetApplicationKeyByIndex(::System::UInt32 unApplicationIndex, ::System::Text::StringBuilder* pchAppKeyBuffer, ::System::UInt32 unAppKeyBufferLen)
+		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError GetApplicationKeyByIndex(::System::UInt32 a1, ::System::Text::StringBuilder* a2, ::System::UInt32 a3)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::UInt32, ::System::Text::StringBuilder*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONKEYBYINDEX_OFFSET))(this, unApplicationIndex, pchAppKeyBuffer, unAppKeyBufferLen);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::UInt32, ::System::Text::StringBuilder*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONKEYBYINDEX_OFFSET))(this, a1, a2, a3);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError GetApplicationKeyByProcessId(::System::UInt32 unProcessId, ::System::String* pchAppKeyBuffer, ::System::UInt32 unAppKeyBufferLen)
+		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError GetApplicationKeyByProcessId(::System::UInt32 a1, ::System::String* a2, ::System::UInt32 a3)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::UInt32, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONKEYBYPROCESSID_OFFSET))(this, unProcessId, pchAppKeyBuffer, unAppKeyBufferLen);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::UInt32, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONKEYBYPROCESSID_OFFSET))(this, a1, a2, a3);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError LaunchApplication(::System::String* pchAppKey)
+		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError LaunchApplication(::System::String* a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_LAUNCHAPPLICATION_OFFSET))(this, pchAppKey);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_LAUNCHAPPLICATION_OFFSET))(this, a1);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError LaunchTemplateApplication(::System::String* pchTemplateAppKey, ::System::String* pchNewAppKey, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::AppOverrideKeys_t>* pKeys)
+		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError LaunchTemplateApplication(::System::String* a1, ::System::String* a2, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::AppOverrideKeys_t>* a3)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*, ::System::String*, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::AppOverrideKeys_t>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_LAUNCHTEMPLATEAPPLICATION_OFFSET))(this, pchTemplateAppKey, pchNewAppKey, pKeys);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*, ::System::String*, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::AppOverrideKeys_t>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_LAUNCHTEMPLATEAPPLICATION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError LaunchApplicationFromMimeType(::System::String* pchMimeType, ::System::String* pchArgs)
+		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError LaunchApplicationFromMimeType(::System::String* a1, ::System::String* a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_LAUNCHAPPLICATIONFROMMIMETYPE_OFFSET))(this, pchMimeType, pchArgs);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_LAUNCHAPPLICATIONFROMMIMETYPE_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError LaunchDashboardOverlay(::System::String* pchAppKey)
+		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError LaunchDashboardOverlay(::System::String* a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_LAUNCHDASHBOARDOVERLAY_OFFSET))(this, pchAppKey);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_LAUNCHDASHBOARDOVERLAY_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CancelApplicationLaunch(::System::String* pchAppKey)
+		::System::Boolean CancelApplicationLaunch(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_CANCELAPPLICATIONLAUNCH_OFFSET))(this, pchAppKey);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_CANCELAPPLICATIONLAUNCH_OFFSET))(this, a1);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError IdentifyApplication(::System::UInt32 unProcessId, ::System::String* pchAppKey)
+		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError IdentifyApplication(::System::UInt32 a1, ::System::String* a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_IDENTIFYAPPLICATION_OFFSET))(this, unProcessId, pchAppKey);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_IDENTIFYAPPLICATION_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 GetApplicationProcessId(::System::String* pchAppKey)
+		::System::UInt32 GetApplicationProcessId(::System::String* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONPROCESSID_OFFSET))(this, pchAppKey);
+			return ((::System::UInt32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONPROCESSID_OFFSET))(this, a1);
 		}
 
-		::System::String* GetApplicationsErrorNameFromEnum(::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError error)
+		::System::String* GetApplicationsErrorNameFromEnum(::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONSERRORNAMEFROMENUM_OFFSET))(this, error);
+			return ((::System::String*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONSERRORNAMEFROMENUM_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetApplicationPropertyString(::System::String* pchAppKey, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationProperty eProperty, ::System::Text::StringBuilder* pchPropertyValueBuffer, ::System::UInt32 unPropertyValueBufferLen, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError& peError)
+		::System::UInt32 GetApplicationPropertyString(::System::String* a1, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationProperty a2, ::System::Text::StringBuilder* a3, ::System::UInt32 a4, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError& a5)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationProperty, ::System::Text::StringBuilder*, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONPROPERTYSTRING_OFFSET))(this, pchAppKey, eProperty, pchPropertyValueBuffer, unPropertyValueBufferLen, peError);
+			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationProperty, ::System::Text::StringBuilder*, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONPROPERTYSTRING_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean GetApplicationPropertyBool(::System::String* pchAppKey, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationProperty eProperty, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError& peError)
+		::System::Boolean GetApplicationPropertyBool(::System::String* a1, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationProperty a2, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError& a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationProperty, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONPROPERTYBOOL_OFFSET))(this, pchAppKey, eProperty, peError);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationProperty, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONPROPERTYBOOL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 GetApplicationPropertyUint64(::System::String* pchAppKey, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationProperty eProperty, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError& peError)
+		::System::UInt64 GetApplicationPropertyUint64(::System::String* a1, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationProperty a2, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError& a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationProperty, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONPROPERTYUINT64_OFFSET))(this, pchAppKey, eProperty, peError);
+			return ((::System::UInt64(*)(::PVOID, ::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationProperty, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONPROPERTYUINT64_OFFSET))(this, a1, a2, a3);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError SetApplicationAutoLaunch(::System::String* pchAppKey, ::System::Boolean bAutoLaunch)
+		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError SetApplicationAutoLaunch(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_SETAPPLICATIONAUTOLAUNCH_OFFSET))(this, pchAppKey, bAutoLaunch);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_SETAPPLICATIONAUTOLAUNCH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean GetApplicationAutoLaunch(::System::String* pchAppKey)
+		::System::Boolean GetApplicationAutoLaunch(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONAUTOLAUNCH_OFFSET))(this, pchAppKey);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONAUTOLAUNCH_OFFSET))(this, a1);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError SetDefaultApplicationForMimeType(::System::String* pchAppKey, ::System::String* pchMimeType)
+		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError SetDefaultApplicationForMimeType(::System::String* a1, ::System::String* a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_SETDEFAULTAPPLICATIONFORMIMETYPE_OFFSET))(this, pchAppKey, pchMimeType);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_SETDEFAULTAPPLICATIONFORMIMETYPE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean GetDefaultApplicationForMimeType(::System::String* pchMimeType, ::System::String* pchAppKeyBuffer, ::System::UInt32 unAppKeyBufferLen)
+		::System::Boolean GetDefaultApplicationForMimeType(::System::String* a1, ::System::String* a2, ::System::UInt32 a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETDEFAULTAPPLICATIONFORMIMETYPE_OFFSET))(this, pchMimeType, pchAppKeyBuffer, unAppKeyBufferLen);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETDEFAULTAPPLICATIONFORMIMETYPE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean GetApplicationSupportedMimeTypes(::System::String* pchAppKey, ::System::String* pchMimeTypesBuffer, ::System::UInt32 unMimeTypesBuffer)
+		::System::Boolean GetApplicationSupportedMimeTypes(::System::String* a1, ::System::String* a2, ::System::UInt32 a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONSUPPORTEDMIMETYPES_OFFSET))(this, pchAppKey, pchMimeTypesBuffer, unMimeTypesBuffer);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONSUPPORTEDMIMETYPES_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt32 GetApplicationsThatSupportMimeType(::System::String* pchMimeType, ::System::String* pchAppKeysThatSupportBuffer, ::System::UInt32 unAppKeysThatSupportBuffer)
+		::System::UInt32 GetApplicationsThatSupportMimeType(::System::String* a1, ::System::String* a2, ::System::UInt32 a3)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONSTHATSUPPORTMIMETYPE_OFFSET))(this, pchMimeType, pchAppKeysThatSupportBuffer, unAppKeysThatSupportBuffer);
+			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONSTHATSUPPORTMIMETYPE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt32 GetApplicationLaunchArguments(::System::UInt32 unHandle, ::System::String* pchArgs, ::System::UInt32 unArgs)
+		::System::UInt32 GetApplicationLaunchArguments(::System::UInt32 a1, ::System::String* a2, ::System::UInt32 a3)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONLAUNCHARGUMENTS_OFFSET))(this, unHandle, pchArgs, unArgs);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONLAUNCHARGUMENTS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError GetStartingApplication(::System::String* pchAppKeyBuffer, ::System::UInt32 unAppKeyBufferLen)
+		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError GetStartingApplication(::System::String* a1, ::System::UInt32 a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETSTARTINGAPPLICATION_OFFSET))(this, pchAppKeyBuffer, unAppKeyBufferLen);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETSTARTINGAPPLICATION_OFFSET))(this, a1, a2);
 		}
 
 		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationTransitionState GetTransitionState()
@@ -187,14 +187,14 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationTransitionState(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETTRANSITIONSTATE_OFFSET))(this);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError PerformApplicationPrelaunchCheck(::System::String* pchAppKey)
+		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError PerformApplicationPrelaunchCheck(::System::String* a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_PERFORMAPPLICATIONPRELAUNCHCHECK_OFFSET))(this, pchAppKey);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_PERFORMAPPLICATIONPRELAUNCHCHECK_OFFSET))(this, a1);
 		}
 
-		::System::String* GetApplicationsTransitionStateNameFromEnum(::ZenFulcrum::VR::OpenVRBinding::EVRApplicationTransitionState state)
+		::System::String* GetApplicationsTransitionStateNameFromEnum(::ZenFulcrum::VR::OpenVRBinding::EVRApplicationTransitionState a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationTransitionState))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONSTRANSITIONSTATENAMEFROMENUM_OFFSET))(this, state);
+			return ((::System::String*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationTransitionState))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_GETAPPLICATIONSTRANSITIONSTATENAMEFROMENUM_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsQuitUserPromptRequested()
@@ -202,9 +202,9 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_ISQUITUSERPROMPTREQUESTED_OFFSET))(this);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError LaunchInternalProcess(::System::String* pchBinaryPath, ::System::String* pchArguments, ::System::String* pchWorkingDirectory)
+		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError LaunchInternalProcess(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_LAUNCHINTERNALPROCESS_OFFSET))(this, pchBinaryPath, pchArguments, pchWorkingDirectory);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRAPPLICATIONS_LAUNCHINTERNALPROCESS_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 GetCurrentSceneProcessId()

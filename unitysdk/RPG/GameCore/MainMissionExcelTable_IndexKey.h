@@ -4,22 +4,22 @@
 
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAINMISSIONEXCELTABLE_INDEXKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x632780)
-#define RPG_GAMECORE_MAINMISSIONEXCELTABLE_INDEXKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x608A20)
-#define RPG_GAMECORE_MAINMISSIONEXCELTABLE_INDEXKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x6326E0)
-#define RPG_GAMECORE_MAINMISSIONEXCELTABLE_INDEXKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x6326D0)
+#define RPG_GAMECORE_MAINMISSIONEXCELTABLE_INDEXKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0xA185F0)
+#define RPG_GAMECORE_MAINMISSIONEXCELTABLE_INDEXKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x72BBF0)
+#define RPG_GAMECORE_MAINMISSIONEXCELTABLE_INDEXKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA18550)
+#define RPG_GAMECORE_MAINMISSIONEXCELTABLE_INDEXKEY__CTOR_OFFSET UNITYSDK_OFFSET(0xA18540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MainMissionExcelTable_IndexKey_TypeDefinitionIndex = 13399;
+	inline static constexpr unsigned int MainMissionExcelTable_IndexKey_TypeDefinitionIndex = 13472;
 
 	struct alignas(4) MainMissionExcelTable_IndexKey
 	{
 		::System::UInt32 MainMissionID; // 0x10
 
-		::System::Void _ctor(::System::UInt32 MainMissionID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAINMISSIONEXCELTABLE_INDEXKEY__CTOR_OFFSET))(this, MainMissionID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAINMISSIONEXCELTABLE_INDEXKEY__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAINMISSIONEXCELTABLE_INDEXKEY_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::RPG::GameCore::MainMissionExcelTable_IndexKey other)
+		::System::Boolean Equals(::RPG::GameCore::MainMissionExcelTable_IndexKey a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::MainMissionExcelTable_IndexKey))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAINMISSIONEXCELTABLE_INDEXKEY_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::MainMissionExcelTable_IndexKey))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAINMISSIONEXCELTABLE_INDEXKEY_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

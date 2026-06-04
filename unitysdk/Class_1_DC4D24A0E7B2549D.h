@@ -4,15 +4,15 @@
 #include "unitysdk/RPG/GameCore/TeamType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_DC4D24A0E7B2549D__CTOR_OFFSET UNITYSDK_OFFSET(0xCCC1DC0)
+#define CLASS_1_DC4D24A0E7B2549D__CTOR_OFFSET UNITYSDK_OFFSET(0x16F64920)
 
-inline static constexpr unsigned int Class_1_DC4D24A0E7B2549D_TypeDefinitionIndex = 49492;
+inline static constexpr unsigned int Class_1_DC4D24A0E7B2549D_TypeDefinitionIndex = 50159;
 
 class Class_1_DC4D24A0E7B2549D : public ::System::Object
 {
 public:
-	::RPG::GameCore::BattleModelResultType Field_1_1; // 0x10
-	::RPG::GameCore::TeamType Field_1_0; // 0x14
+	::RPG::GameCore::TeamType Field_1_0; // 0x10
+	::RPG::GameCore::BattleModelResultType Field_1_1; // 0x14
 
 	::System::Void _ctor()
 	{

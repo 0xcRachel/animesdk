@@ -6,22 +6,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_34118FB616997FA1_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x16C11320)
-#define CLASS_1_34118FB616997FA1__CTOR_OFFSET UNITYSDK_OFFSET(0x16C11690)
+#define CLASS_1_34118FB616997FA1_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x194826D0)
+#define CLASS_1_34118FB616997FA1__CTOR_OFFSET UNITYSDK_OFFSET(0x19482A30)
 
-inline static constexpr unsigned int Class_1_34118FB616997FA1_TypeDefinitionIndex = 10999;
+inline static constexpr unsigned int Class_1_34118FB616997FA1_TypeDefinitionIndex = 11048;
 
 class Class_1_34118FB616997FA1 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::UInt32>* Field_1_7; // 0x10
-	::Il2CppArray<::System::UInt32>* Field_1_6; // 0x18
-	::RPG::Client::TextID Field_1_4; // 0x20
-	::System::UInt32 Field_1_0; // 0x30
-	::RPG::GameCore::FateMasterTalkSituation Field_1_5; // 0x34
-	::RPG::Client::TextID Field_1_2; // 0x38
-	::System::UInt32 Field_1_3; // 0x48
-	::System::UInt32 Field_1_1; // 0x4C
+	::Il2CppArray<::System::UInt32>* Field_1_0; // 0x10
+	::Il2CppArray<::System::UInt32>* Field_1_1; // 0x18
+	::RPG::Client::TextID Field_1_2; // 0x20
+	::RPG::Client::TextID Field_1_3; // 0x30
+	::System::UInt32 Field_1_4; // 0x40
+	::RPG::GameCore::FateMasterTalkSituation Field_1_5; // 0x44
+	::System::UInt32 Field_1_6; // 0x48
+	::System::UInt32 Field_1_7; // 0x4C
 
 	::System::Void _ctor()
 	{

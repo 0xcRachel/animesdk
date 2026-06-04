@@ -13,55 +13,55 @@ namespace UnityEngine::Formats::Alembic::Importer { class AlembicStream_ImportCo
 namespace UnityEngine::Formats::Alembic::Importer { class AlembicTreeNode; }
 namespace UnityEngine::Formats::Alembic::Importer { class IStreamDescriptor; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCBEFOREUPDATESAMPLES_OFFSET UNITYSDK_OFFSET(0x18C03AA0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCBEGINSYNCDATA_OFFSET UNITYSDK_OFFSET(0x18C03BE0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCENDSYNCDATA_OFFSET UNITYSDK_OFFSET(0x18C03D20)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCLOAD_OFFSET UNITYSDK_OFFSET(0x18C042A0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCUPDATEBEGIN_OFFSET UNITYSDK_OFFSET(0x18C03E60)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCUPDATEEND_OFFSET UNITYSDK_OFFSET(0x18C040F0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_CLEARMOTIONVECTORS_1_OFFSET UNITYSDK_OFFSET(0x18C04150)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_CLEARMOTIONVECTORS_OFFSET UNITYSDK_OFFSET(0x18C04140)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_DISCONNECTSTREAMSWITHPATH_OFFSET UNITYSDK_OFFSET(0x18C032D0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18C05120)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_GETASPECTRATIO_OFFSET UNITYSDK_OFFSET(0x18C04D50)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_GETTIMERANGE_OFFSET UNITYSDK_OFFSET(0x18C03830)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_GET_ABCCONTEXT_OFFSET UNITYSDK_OFFSET(0x18C036C0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_GET_ABCISVALID_OFFSET UNITYSDK_OFFSET(0x18C036E0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_GET_ABCTREEROOT_OFFSET UNITYSDK_OFFSET(0x18C036B0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x18C03700)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_GET_STREAMDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x18C036A0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_IMPORTCALLBACK_OFFSET UNITYSDK_OFFSET(0x18C05540)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ISHDF5_OFFSET UNITYSDK_OFFSET(0x18C03720)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_RECONNECTSTREAMSWITHPATH_OFFSET UNITYSDK_OFFSET(0x18C035C0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_REMAPSTREAMSWITHPATH_OFFSET UNITYSDK_OFFSET(0x18C034E0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_SETVERTEXMOTIONSCALE_OFFSET UNITYSDK_OFFSET(0x18C03820)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_UPDATEABCTREE_OFFSET UNITYSDK_OFFSET(0x18C04ED0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM__CCTOR_OFFSET UNITYSDK_OFFSET(0x18C06A80)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18C03950)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCBEFOREUPDATESAMPLES_OFFSET UNITYSDK_OFFSET(0x1972B910)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCBEGINSYNCDATA_OFFSET UNITYSDK_OFFSET(0x1972BA30)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCENDSYNCDATA_OFFSET UNITYSDK_OFFSET(0x1972BB50)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCLOAD_OFFSET UNITYSDK_OFFSET(0x1972C090)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCUPDATEBEGIN_OFFSET UNITYSDK_OFFSET(0x1972BC70)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCUPDATEEND_OFFSET UNITYSDK_OFFSET(0x1972BF00)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_CLEARMOTIONVECTORS_1_OFFSET UNITYSDK_OFFSET(0x1972BF60)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_CLEARMOTIONVECTORS_OFFSET UNITYSDK_OFFSET(0x1972BF50)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_DISCONNECTSTREAMSWITHPATH_OFFSET UNITYSDK_OFFSET(0x1972AFF0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1972CF80)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_GETASPECTRATIO_OFFSET UNITYSDK_OFFSET(0x1972CBA0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_GETTIMERANGE_OFFSET UNITYSDK_OFFSET(0x1972B6A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_GET_ABCCONTEXT_OFFSET UNITYSDK_OFFSET(0x1972B530)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_GET_ABCISVALID_OFFSET UNITYSDK_OFFSET(0x1972B550)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_GET_ABCTREEROOT_OFFSET UNITYSDK_OFFSET(0x1972B520)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x1972B570)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_GET_STREAMDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1972B510)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_IMPORTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1972D3A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ISHDF5_OFFSET UNITYSDK_OFFSET(0x1972B590)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_RECONNECTSTREAMSWITHPATH_OFFSET UNITYSDK_OFFSET(0x1972B3C0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_REMAPSTREAMSWITHPATH_OFFSET UNITYSDK_OFFSET(0x1972B270)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_SETVERTEXMOTIONSCALE_OFFSET UNITYSDK_OFFSET(0x1972B690)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_UPDATEABCTREE_OFFSET UNITYSDK_OFFSET(0x1972CD20)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1972E990)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1972B7C0)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicStream_TypeDefinitionIndex = 40855;
+	inline static constexpr unsigned int AlembicStream_TypeDefinitionIndex = 41681;
 
 	class AlembicStream : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::Formats::Alembic::Importer::AlembicStream*>** StaticGet_s_streams()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Formats::Alembic::Importer::AlembicStream*>**)Il2CppClass::FromTypeDefinitionIndex(AlembicStream_TypeDefinitionIndex)->GetStaticField(0x5BE40);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Formats::Alembic::Importer::AlembicStream*>**)Il2CppClass::FromTypeDefinitionIndex(AlembicStream_TypeDefinitionIndex)->GetStaticField(0x5DB60);
 		}
 		::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode* m_abcTreeRoot; // 0x10
-		::UnityEngine::Formats::Alembic::Importer::AlembicStream_ImportContext* m_importContext; // 0x18
-		::UnityEngine::Formats::Alembic::Importer::IStreamDescriptor* m_streamDesc; // 0x20
-		::System::Double m_time; // 0x28
-		::System::Boolean m_streamInterupted; // 0x30
-		::System::Boolean m_loaded; // 0x31
-		::UnityEngine::Formats::Alembic::Sdk::aiConfig m_config; // 0x34
-		::UnityEngine::Formats::Alembic::Importer::AlembicStream_SafeContext m_context; // 0x58
+		::UnityEngine::Formats::Alembic::Importer::IStreamDescriptor* m_streamDesc; // 0x18
+		::UnityEngine::Formats::Alembic::Importer::AlembicStream_ImportContext* m_importContext; // 0x20
+		::UnityEngine::Formats::Alembic::Importer::AlembicStream_SafeContext m_context; // 0x28
+		::System::Double m_time; // 0x40
+		::UnityEngine::Formats::Alembic::Sdk::aiConfig m_config; // 0x48
+		::System::Boolean m_streamInterupted; // 0x68
+		::System::Boolean m_loaded; // 0x69
 
-		::System::Void _ctor(::UnityEngine::GameObject* rootGo, ::UnityEngine::Formats::Alembic::Importer::IStreamDescriptor* streamDesc)
+		::System::Void _ctor(::UnityEngine::GameObject* a1, ::UnityEngine::Formats::Alembic::Importer::IStreamDescriptor* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Formats::Alembic::Importer::IStreamDescriptor*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM__CTOR_OFFSET))(this, rootGo, streamDesc);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Formats::Alembic::Importer::IStreamDescriptor*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
@@ -69,19 +69,19 @@ namespace UnityEngine::Formats::Alembic::Importer
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM__CCTOR_OFFSET))();
 		}
 
-		static ::System::Void DisconnectStreamsWithPath(::System::String* path)
+		static ::System::Void DisconnectStreamsWithPath(::System::String* a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_DISCONNECTSTREAMSWITHPATH_OFFSET))(path);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_DISCONNECTSTREAMSWITHPATH_OFFSET))(a1);
 		}
 
-		static ::System::Void RemapStreamsWithPath(::System::String* oldPath, ::System::String* newPath)
+		static ::System::Void RemapStreamsWithPath(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_REMAPSTREAMSWITHPATH_OFFSET))(oldPath, newPath);
+			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_REMAPSTREAMSWITHPATH_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ReconnectStreamsWithPath(::System::String* path)
+		static ::System::Void ReconnectStreamsWithPath(::System::String* a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_RECONNECTSTREAMSWITHPATH_OFFSET))(path);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_RECONNECTSTREAMSWITHPATH_OFFSET))(a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Importer::IStreamDescriptor* get_streamDescriptor()
@@ -114,34 +114,34 @@ namespace UnityEngine::Formats::Alembic::Importer
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ISHDF5_OFFSET))(this);
 		}
 
-		::System::Void SetVertexMotionScale(::System::Single value)
+		::System::Void SetVertexMotionScale(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_SETVERTEXMOTIONSCALE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_SETVERTEXMOTIONSCALE_OFFSET))(this, a1);
 		}
 
-		::System::Void GetTimeRange(::System::Double& begin, ::System::Double& end)
+		::System::Void GetTimeRange(::System::Double& a1, ::System::Double& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double&, ::System::Double&))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_GETTIMERANGE_OFFSET))(this, begin, end);
+			return ((::System::Void(*)(::PVOID, ::System::Double&, ::System::Double&))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_GETTIMERANGE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AbcBeforeUpdateSamples(::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode* node)
+		::System::Void AbcBeforeUpdateSamples(::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCBEFOREUPDATESAMPLES_OFFSET))(this, node);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCBEFOREUPDATESAMPLES_OFFSET))(this, a1);
 		}
 
-		::System::Void AbcBeginSyncData(::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode* node)
+		::System::Void AbcBeginSyncData(::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCBEGINSYNCDATA_OFFSET))(this, node);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCBEGINSYNCDATA_OFFSET))(this, a1);
 		}
 
-		::System::Void AbcEndSyncData(::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode* node)
+		::System::Void AbcEndSyncData(::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCENDSYNCDATA_OFFSET))(this, node);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCENDSYNCDATA_OFFSET))(this, a1);
 		}
 
-		::System::Boolean AbcUpdateBegin(::System::Double time)
+		::System::Boolean AbcUpdateBegin(::System::Double a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCUPDATEBEGIN_OFFSET))(this, time);
+			return ((::System::Boolean(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCUPDATEBEGIN_OFFSET))(this, a1);
 		}
 
 		::System::Void AbcUpdateEnd()
@@ -154,14 +154,14 @@ namespace UnityEngine::Formats::Alembic::Importer
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_CLEARMOTIONVECTORS_OFFSET))(this);
 		}
 
-		::System::Void ClearMotionVectors_1(::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode* node)
+		::System::Void ClearMotionVectors_1(::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_CLEARMOTIONVECTORS_1_OFFSET))(this, node);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_CLEARMOTIONVECTORS_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean AbcLoad(::System::Boolean createMissingNodes, ::System::Boolean serializeMesh)
+		::System::Boolean AbcLoad(::System::Boolean a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCLOAD_OFFSET))(this, createMissingNodes, serializeMesh);
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_ABCLOAD_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dispose()
@@ -169,19 +169,19 @@ namespace UnityEngine::Formats::Alembic::Importer
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void UpdateAbcTree(::UnityEngine::Formats::Alembic::Sdk::aiObject top, ::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode* node, ::System::Double time, ::System::Boolean createMissingNodes, ::System::Boolean serializeMesh)
+		::System::Void UpdateAbcTree(::UnityEngine::Formats::Alembic::Sdk::aiObject a1, ::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode* a2, ::System::Double a3, ::System::Boolean a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aiObject, ::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode*, ::System::Double, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_UPDATEABCTREE_OFFSET))(this, top, node, time, createMissingNodes, serializeMesh);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aiObject, ::UnityEngine::Formats::Alembic::Importer::AlembicTreeNode*, ::System::Double, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_UPDATEABCTREE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void ImportCallback(::UnityEngine::Formats::Alembic::Sdk::aiObject obj)
+		::System::Void ImportCallback(::UnityEngine::Formats::Alembic::Sdk::aiObject a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aiObject))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_IMPORTCALLBACK_OFFSET))(this, obj);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aiObject))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_IMPORTCALLBACK_OFFSET))(this, a1);
 		}
 
-		static ::System::Single GetAspectRatio(::UnityEngine::Formats::Alembic::Sdk::AspectRatioMode mode)
+		static ::System::Single GetAspectRatio(::UnityEngine::Formats::Alembic::Sdk::AspectRatioMode a1)
 		{
-			return ((::System::Single(*)(::UnityEngine::Formats::Alembic::Sdk::AspectRatioMode))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_GETASPECTRATIO_OFFSET))(mode);
+			return ((::System::Single(*)(::UnityEngine::Formats::Alembic::Sdk::AspectRatioMode))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_GETASPECTRATIO_OFFSET))(a1);
 		}
 	};
 }

@@ -4,10 +4,10 @@
 
 namespace System { class Object; }
 
-#define MONO_RUNTIMEPROPERTYHANDLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x225E5D0)
-#define MONO_RUNTIMEPROPERTYHANDLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x608A20)
-#define MONO_RUNTIMEPROPERTYHANDLE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x5078B0)
-#define MONO_RUNTIMEPROPERTYHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x6163B0)
+#define MONO_RUNTIMEPROPERTYHANDLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3755640)
+#define MONO_RUNTIMEPROPERTYHANDLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x72BBF0)
+#define MONO_RUNTIMEPROPERTYHANDLE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x66AF90)
+#define MONO_RUNTIMEPROPERTYHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x66AF20)
 
 namespace Mono
 {
@@ -17,9 +17,9 @@ namespace Mono
 	{
 		::System::IntPtr value; // 0x10
 
-		::System::Void _ctor(::System::IntPtr v)
+		::System::Void _ctor(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_RUNTIMEPROPERTYHANDLE__CTOR_OFFSET))(this, v);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_RUNTIMEPROPERTYHANDLE__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::IntPtr get_Value()
@@ -27,9 +27,9 @@ namespace Mono
 			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_RUNTIMEPROPERTYHANDLE_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_RUNTIMEPROPERTYHANDLE_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_RUNTIMEPROPERTYHANDLE_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

@@ -6,28 +6,28 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveDanmuContentData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveImageContentData; }
 namespace RPG::GameCore { class IdleLiveImgDanmuRow; }
 
-#define CLASS_1_7B630EA0921A5074_GET_INTERVAL_OFFSET UNITYSDK_OFFSET(0xC67B090)
-#define CLASS_1_7B630EA0921A5074_GET_ISENDED_OFFSET UNITYSDK_OFFSET(0xC67B0B0)
-#define CLASS_1_7B630EA0921A5074_METHOD_1_426B9594CB3A4D9F_OFFSET UNITYSDK_OFFSET(0xC67B360)
-#define CLASS_1_7B630EA0921A5074_METHOD_1_A631C7EB7F64062E_OFFSET UNITYSDK_OFFSET(0xC67B280)
-#define CLASS_1_7B630EA0921A5074_METHOD_1_FDB878EE730B6AA4_OFFSET UNITYSDK_OFFSET(0xC67B0D0)
-#define CLASS_1_7B630EA0921A5074_SET_INTERVAL_OFFSET UNITYSDK_OFFSET(0xC67B0A0)
-#define CLASS_1_7B630EA0921A5074_SET_ISENDED_OFFSET UNITYSDK_OFFSET(0xC67B0C0)
-#define CLASS_1_7B630EA0921A5074__CTOR_OFFSET UNITYSDK_OFFSET(0xC67B220)
+#define CLASS_1_7B630EA0921A5074_GET_INTERVAL_OFFSET UNITYSDK_OFFSET(0x1552B3E0)
+#define CLASS_1_7B630EA0921A5074_GET_ISENDED_OFFSET UNITYSDK_OFFSET(0x1552B400)
+#define CLASS_1_7B630EA0921A5074_METHOD_1_426B9594CB3A4D9F_OFFSET UNITYSDK_OFFSET(0x1552B6B0)
+#define CLASS_1_7B630EA0921A5074_METHOD_1_A631C7EB7F64062E_OFFSET UNITYSDK_OFFSET(0x1552B5D0)
+#define CLASS_1_7B630EA0921A5074_METHOD_1_FDB878EE730B6AA4_OFFSET UNITYSDK_OFFSET(0x1552B420)
+#define CLASS_1_7B630EA0921A5074_SET_INTERVAL_OFFSET UNITYSDK_OFFSET(0x1552B3F0)
+#define CLASS_1_7B630EA0921A5074_SET_ISENDED_OFFSET UNITYSDK_OFFSET(0x1552B410)
+#define CLASS_1_7B630EA0921A5074__CTOR_OFFSET UNITYSDK_OFFSET(0x1552B570)
 
-inline static constexpr unsigned int Class_1_7B630EA0921A5074_TypeDefinitionIndex = 69408;
+inline static constexpr unsigned int Class_1_7B630EA0921A5074_TypeDefinitionIndex = 70220;
 
 class Class_1_7B630EA0921A5074 : public ::System::Object
 {
 public:
-	::RPG::Client::ActivityIdleLive::IdleLiveImageContentData* Field_1_2; // 0x10
-	::System::Single Field_1_5; // 0x18
-	::System::UInt32 Field_1_6; // 0x1C
-	::System::Boolean _IsEnded_k__BackingField; // 0x20
-	::System::UInt32 Field_1_3; // 0x24
-	::System::Single _Interval_k__BackingField; // 0x28
-	::System::Single Field_1_4; // 0x2C
-	::System::UInt32 Field_1_7; // 0x30
+	::RPG::Client::ActivityIdleLive::IdleLiveImageContentData* Field_1_0; // 0x10
+	::System::Boolean _IsEnded_k__BackingField; // 0x18
+	::System::UInt32 Field_1_2; // 0x1C
+	::System::Single Field_1_3; // 0x20
+	::System::UInt32 Field_1_4; // 0x24
+	::System::UInt32 Field_1_5; // 0x28
+	::System::Single _Interval_k__BackingField; // 0x2C
+	::System::Single Field_1_7; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::IdleLiveImgDanmuRow* a1)
 	{
@@ -39,9 +39,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7B630EA0921A5074_GET_INTERVAL_OFFSET))(this);
 	}
 
-	::System::Void set_Interval(::System::Single value)
+	::System::Void set_Interval(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_7B630EA0921A5074_SET_INTERVAL_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_7B630EA0921A5074_SET_INTERVAL_OFFSET))(this, a1);
 	}
 
 	::System::Boolean get_IsEnded()
@@ -49,9 +49,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7B630EA0921A5074_GET_ISENDED_OFFSET))(this);
 	}
 
-	::System::Void set_IsEnded(::System::Boolean value)
+	::System::Void set_IsEnded(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_7B630EA0921A5074_SET_ISENDED_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_7B630EA0921A5074_SET_ISENDED_OFFSET))(this, a1);
 	}
 
 	static ::Class_1_7B630EA0921A5074* Method_1_FDB878EE730B6AA4(::System::UInt32 a1)

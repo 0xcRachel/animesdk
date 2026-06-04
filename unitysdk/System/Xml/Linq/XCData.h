@@ -7,27 +7,27 @@ namespace System { class String; }
 namespace System::Xml { class XmlWriter; }
 namespace System::Xml::Linq { class XNode; }
 
-#define SYSTEM_XML_LINQ_XCDATA_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1A62F1B0)
-#define SYSTEM_XML_LINQ_XCDATA_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1A62F120)
-#define SYSTEM_XML_LINQ_XCDATA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1A62F130)
-#define SYSTEM_XML_LINQ_XCDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A62F040)
-#define SYSTEM_XML_LINQ_XCDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A62EF60)
+#define SYSTEM_XML_LINQ_XCDATA_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1B439580)
+#define SYSTEM_XML_LINQ_XCDATA_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1B4394F0)
+#define SYSTEM_XML_LINQ_XCDATA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1B439500)
+#define SYSTEM_XML_LINQ_XCDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B439410)
+#define SYSTEM_XML_LINQ_XCDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B439330)
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XCData_TypeDefinitionIndex = 4912;
+	inline static constexpr unsigned int XCData_TypeDefinitionIndex = 3879;
 
 	class XCData : public ::System::Xml::Linq::XText
 	{
 	public:
-		::System::Void _ctor(::System::String* value)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XCDATA__CTOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XCDATA__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::Xml::Linq::XCData* other)
+		::System::Void _ctor_1(::System::Xml::Linq::XCData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XCData*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XCDATA__CTOR_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XCData*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XCDATA__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Xml::XmlNodeType get_NodeType()
@@ -35,9 +35,9 @@ namespace System::Xml::Linq
 			return ((::System::Xml::XmlNodeType(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XCDATA_GET_NODETYPE_OFFSET))(this);
 		}
 
-		::System::Void WriteTo(::System::Xml::XmlWriter* writer)
+		::System::Void WriteTo(::System::Xml::XmlWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XCDATA_WRITETO_OFFSET))(this, writer);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XCDATA_WRITETO_OFFSET))(this, a1);
 		}
 
 		::System::Xml::Linq::XNode* CloneNode()

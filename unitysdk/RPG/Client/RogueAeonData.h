@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D17272E82AE804C2_758;
+class Class_1_D17272E82AE804C2_794;
 
-#define RPG_CLIENT_ROGUEAEONDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x177240A0)
-#define RPG_CLIENT_ROGUEAEONDATA_REFRESH_OFFSET UNITYSDK_OFFSET(0x17724180)
-#define RPG_CLIENT_ROGUEAEONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17724170)
+#define RPG_CLIENT_ROGUEAEONDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x191C3550)
+#define RPG_CLIENT_ROGUEAEONDATA_REFRESH_OFFSET UNITYSDK_OFFSET(0x191C3630)
+#define RPG_CLIENT_ROGUEAEONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x191C3620)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueAeonData_TypeDefinitionIndex = 62168;
+	inline static constexpr unsigned int RogueAeonData_TypeDefinitionIndex = 63101;
 
 	class RogueAeonData : public ::System::Object
 	{
@@ -25,14 +25,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEAEONDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::RogueAeonData* Create(::Class_1_D17272E82AE804C2_758* proto)
+		static ::RPG::Client::RogueAeonData* Create(::Class_1_D17272E82AE804C2_794* a1)
 		{
-			return ((::RPG::Client::RogueAeonData*(*)(::Class_1_D17272E82AE804C2_758*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEAEONDATA_CREATE_OFFSET))(proto);
+			return ((::RPG::Client::RogueAeonData*(*)(::Class_1_D17272E82AE804C2_794*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEAEONDATA_CREATE_OFFSET))(a1);
 		}
 
-		::System::Void Refresh(::Class_1_D17272E82AE804C2_758* proto)
+		::System::Void Refresh(::Class_1_D17272E82AE804C2_794* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_758*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEAEONDATA_REFRESH_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_794*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEAEONDATA_REFRESH_OFFSET))(this, a1);
 		}
 	};
 }

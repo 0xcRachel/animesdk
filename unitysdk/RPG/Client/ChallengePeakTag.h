@@ -6,32 +6,32 @@
 namespace RPG::GameCore { class MazeBuffRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CHALLENGEPEAKTAG_CREATE_OFFSET UNITYSDK_OFFSET(0x15FA2740)
-#define RPG_CLIENT_CHALLENGEPEAKTAG_GET_DESC_OFFSET UNITYSDK_OFFSET(0x15FB62C0)
-#define RPG_CLIENT_CHALLENGEPEAKTAG_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x15FB6440)
-#define RPG_CLIENT_CHALLENGEPEAKTAG_GET_ID_OFFSET UNITYSDK_OFFSET(0x15FB6270)
-#define RPG_CLIENT_CHALLENGEPEAKTAG_GET_ISNEW_OFFSET UNITYSDK_OFFSET(0x15FB6480)
-#define RPG_CLIENT_CHALLENGEPEAKTAG_GET_ISSPECIAL_OFFSET UNITYSDK_OFFSET(0x15FB6460)
-#define RPG_CLIENT_CHALLENGEPEAKTAG_GET_NAME_OFFSET UNITYSDK_OFFSET(0x15FB6290)
-#define RPG_CLIENT_CHALLENGEPEAKTAG_GET_SIMPLEDESC_OFFSET UNITYSDK_OFFSET(0x15FB6380)
-#define RPG_CLIENT_CHALLENGEPEAKTAG_SET_ISNEW_OFFSET UNITYSDK_OFFSET(0x15FB6490)
-#define RPG_CLIENT_CHALLENGEPEAKTAG_SET_ISSPECIAL_OFFSET UNITYSDK_OFFSET(0x15FB6470)
-#define RPG_CLIENT_CHALLENGEPEAKTAG__CTOR_OFFSET UNITYSDK_OFFSET(0x15FB64A0)
+#define RPG_CLIENT_CHALLENGEPEAKTAG_CREATE_OFFSET UNITYSDK_OFFSET(0x17A38640)
+#define RPG_CLIENT_CHALLENGEPEAKTAG_GET_DESC_OFFSET UNITYSDK_OFFSET(0x17A4D210)
+#define RPG_CLIENT_CHALLENGEPEAKTAG_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x17A4D390)
+#define RPG_CLIENT_CHALLENGEPEAKTAG_GET_ID_OFFSET UNITYSDK_OFFSET(0x17A4D1C0)
+#define RPG_CLIENT_CHALLENGEPEAKTAG_GET_ISNEW_OFFSET UNITYSDK_OFFSET(0x17A4D3D0)
+#define RPG_CLIENT_CHALLENGEPEAKTAG_GET_ISSPECIAL_OFFSET UNITYSDK_OFFSET(0x17A4D3B0)
+#define RPG_CLIENT_CHALLENGEPEAKTAG_GET_NAME_OFFSET UNITYSDK_OFFSET(0x17A4D1E0)
+#define RPG_CLIENT_CHALLENGEPEAKTAG_GET_SIMPLEDESC_OFFSET UNITYSDK_OFFSET(0x17A4D2D0)
+#define RPG_CLIENT_CHALLENGEPEAKTAG_SET_ISNEW_OFFSET UNITYSDK_OFFSET(0x17A4D3E0)
+#define RPG_CLIENT_CHALLENGEPEAKTAG_SET_ISSPECIAL_OFFSET UNITYSDK_OFFSET(0x17A4D3C0)
+#define RPG_CLIENT_CHALLENGEPEAKTAG__CTOR_OFFSET UNITYSDK_OFFSET(0x17A4D3F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakTag_TypeDefinitionIndex = 58175;
+	inline static constexpr unsigned int ChallengePeakTag_TypeDefinitionIndex = 59105;
 
 	class ChallengePeakTag : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::MazeBuffRow* _Meta; // 0x10
-		::System::Boolean _IsNew_k__BackingField; // 0x18
-		::System::Boolean _IsSpecial_k__BackingField; // 0x19
+		::System::Boolean _IsSpecial_k__BackingField; // 0x18
+		::System::Boolean _IsNew_k__BackingField; // 0x19
 
-		::System::Void _ctor(::RPG::GameCore::MazeBuffRow* meta)
+		::System::Void _ctor(::RPG::GameCore::MazeBuffRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MazeBuffRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKTAG__CTOR_OFFSET))(this, meta);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MazeBuffRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKTAG__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ID()
@@ -64,9 +64,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKTAG_GET_ISSPECIAL_OFFSET))(this);
 		}
 
-		::System::Void set_IsSpecial(::System::Boolean value)
+		::System::Void set_IsSpecial(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKTAG_SET_ISSPECIAL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKTAG_SET_ISSPECIAL_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsNew()
@@ -74,14 +74,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKTAG_GET_ISNEW_OFFSET))(this);
 		}
 
-		::System::Void set_IsNew(::System::Boolean value)
+		::System::Void set_IsNew(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKTAG_SET_ISNEW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKTAG_SET_ISNEW_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::ChallengePeakTag* Create(::System::UInt32 id, ::System::UInt32 level)
+		static ::RPG::Client::ChallengePeakTag* Create(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::ChallengePeakTag*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKTAG_CREATE_OFFSET))(id, level);
+			return ((::RPG::Client::ChallengePeakTag*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKTAG_CREATE_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,9 +5,9 @@
 namespace System { class String; }
 namespace System::Collections::Specialized { class ListDictionary; }
 
-#define SYSTEM_NET_KNOWNHTTPVERB_PARSE_OFFSET UNITYSDK_OFFSET(0x176A0840)
-#define SYSTEM_NET_KNOWNHTTPVERB__CCTOR_OFFSET UNITYSDK_OFFSET(0x176C77D0)
-#define SYSTEM_NET_KNOWNHTTPVERB__CTOR_OFFSET UNITYSDK_OFFSET(0x176C77B0)
+#define SYSTEM_NET_KNOWNHTTPVERB_PARSE_OFFSET UNITYSDK_OFFSET(0x17CCFFF0)
+#define SYSTEM_NET_KNOWNHTTPVERB__CCTOR_OFFSET UNITYSDK_OFFSET(0x17CF5F20)
+#define SYSTEM_NET_KNOWNHTTPVERB__CTOR_OFFSET UNITYSDK_OFFSET(0x17CF5F00)
 
 namespace System::Net
 {
@@ -16,43 +16,43 @@ namespace System::Net
 	class KnownHttpVerb : public ::System::Object
 	{
 	public:
-		static ::System::Net::KnownHttpVerb** StaticGet_Head()
+		static ::System::Net::KnownHttpVerb** StaticGet_Post()
 		{
-			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x13090);
-		}
-		static ::System::Net::KnownHttpVerb** StaticGet_MkCol()
-		{
-			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x13098);
+			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x257A0);
 		}
 		static ::System::Net::KnownHttpVerb** StaticGet_Put()
 		{
-			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x130A0);
-		}
-		static ::System::Net::KnownHttpVerb** StaticGet_Post()
-		{
-			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x130A8);
+			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x257A8);
 		}
 		static ::System::Net::KnownHttpVerb** StaticGet_Get()
 		{
-			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x130B0);
+			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x257B0);
 		}
 		static ::System::Net::KnownHttpVerb** StaticGet_Connect()
 		{
-			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x130B8);
+			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x257B8);
+		}
+		static ::System::Net::KnownHttpVerb** StaticGet_MkCol()
+		{
+			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x257C0);
 		}
 		static ::System::Collections::Specialized::ListDictionary** StaticGet_NamedHeaders()
 		{
-			return (::System::Collections::Specialized::ListDictionary**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x130C0);
+			return (::System::Collections::Specialized::ListDictionary**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x257C8);
+		}
+		static ::System::Net::KnownHttpVerb** StaticGet_Head()
+		{
+			return (::System::Net::KnownHttpVerb**)Il2CppClass::FromTypeDefinitionIndex(KnownHttpVerb_TypeDefinitionIndex)->GetStaticField(0x257D0);
 		}
 		::System::String* Name; // 0x10
 		::System::Boolean ExpectNoContentResponse; // 0x18
 		::System::Boolean ContentBodyNotAllowed; // 0x19
-		::System::Boolean ConnectRequest; // 0x1A
-		::System::Boolean RequireContentBody; // 0x1B
+		::System::Boolean RequireContentBody; // 0x1A
+		::System::Boolean ConnectRequest; // 0x1B
 
-		::System::Void _ctor(::System::String* name, ::System::Boolean requireContentBody, ::System::Boolean contentBodyNotAllowed, ::System::Boolean connectRequest, ::System::Boolean expectNoContentResponse)
+		::System::Void _ctor(::System::String* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_KNOWNHTTPVERB__CTOR_OFFSET))(this, name, requireContentBody, contentBodyNotAllowed, connectRequest, expectNoContentResponse);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_KNOWNHTTPVERB__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		static ::System::Void _cctor()
@@ -60,9 +60,9 @@ namespace System::Net
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_KNOWNHTTPVERB__CCTOR_OFFSET))();
 		}
 
-		static ::System::Net::KnownHttpVerb* Parse(::System::String* name)
+		static ::System::Net::KnownHttpVerb* Parse(::System::String* a1)
 		{
-			return ((::System::Net::KnownHttpVerb*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_KNOWNHTTPVERB_PARSE_OFFSET))(name);
+			return ((::System::Net::KnownHttpVerb*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_KNOWNHTTPVERB_PARSE_OFFSET))(a1);
 		}
 	};
 }

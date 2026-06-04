@@ -6,13 +6,13 @@
 namespace MiHoYo::SDK::HoYoPass { class LoginManager; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x153E4490)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS55_0__SHOWACCOUNTLISTLOGOUTCONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0x153ED050)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS55_0__SHOWACCOUNTLISTLOGOUTCONFIRM_B__1_OFFSET UNITYSDK_OFFSET(0x153ED230)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C567E0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS55_0__SHOWACCOUNTLISTLOGOUTCONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0x14C5F390)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS55_0__SHOWACCOUNTLISTLOGOUTCONFIRM_B__1_OFFSET UNITYSDK_OFFSET(0x14C5F550)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass55_0_TypeDefinitionIndex = 7361;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass55_0_TypeDefinitionIndex = 8264;
 
 	class LoginManager___c__DisplayClass55_0 : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace MiHoYo::SDK::HoYoPass
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS55_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ShowAccountListLogoutConfirm_b__0(::MiHoYo::SDK::UI::OS::AccountListLogoutOption option)
+		::System::Void _ShowAccountListLogoutConfirm_b__0(::MiHoYo::SDK::UI::OS::AccountListLogoutOption a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::OS::AccountListLogoutOption))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS55_0__SHOWACCOUNTLISTLOGOUTCONFIRM_B__0_OFFSET))(this, option);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::OS::AccountListLogoutOption))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS55_0__SHOWACCOUNTLISTLOGOUTCONFIRM_B__0_OFFSET))(this, a1);
 		}
 
 		::System::Void _ShowAccountListLogoutConfirm_b__1()

@@ -8,32 +8,32 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CLASS_2_1E594D28D4184726_DISPOSE_OFFSET UNITYSDK_OFFSET(0x118C9000)
-#define CLASS_2_1E594D28D4184726_METHOD_2_9871B2ED609502A4_OFFSET UNITYSDK_OFFSET(0x118C9850)
-#define CLASS_2_1E594D28D4184726_METHOD_2_AB6D97D90046D10B_OFFSET UNITYSDK_OFFSET(0x118C92E0)
-#define CLASS_2_1E594D28D4184726_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x118C90A0)
-#define CLASS_2_1E594D28D4184726_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x118C97A0)
-#define CLASS_2_1E594D28D4184726_TICK_OFFSET UNITYSDK_OFFSET(0x118C97F0)
-#define CLASS_2_1E594D28D4184726__CCTOR_OFFSET UNITYSDK_OFFSET(0x118C9930)
-#define CLASS_2_1E594D28D4184726__CTOR_OFFSET UNITYSDK_OFFSET(0x118C8FF0)
+#define CLASS_2_1E594D28D4184726_DISPOSE_OFFSET UNITYSDK_OFFSET(0x167238B0)
+#define CLASS_2_1E594D28D4184726_METHOD_2_9871B2ED609502A4_OFFSET UNITYSDK_OFFSET(0x167241B0)
+#define CLASS_2_1E594D28D4184726_METHOD_2_EDD62BDB33599FEC_OFFSET UNITYSDK_OFFSET(0x16723BC0)
+#define CLASS_2_1E594D28D4184726_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16723960)
+#define CLASS_2_1E594D28D4184726_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16724100)
+#define CLASS_2_1E594D28D4184726_TICK_OFFSET UNITYSDK_OFFSET(0x16724150)
+#define CLASS_2_1E594D28D4184726__CCTOR_OFFSET UNITYSDK_OFFSET(0x16724290)
+#define CLASS_2_1E594D28D4184726__CTOR_OFFSET UNITYSDK_OFFSET(0x167238A0)
 
-inline static constexpr unsigned int Class_2_1E594D28D4184726_TypeDefinitionIndex = 53613;
+inline static constexpr unsigned int Class_2_1E594D28D4184726_TypeDefinitionIndex = 54326;
 
 class Class_2_1E594D28D4184726 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	static ::System::String** StaticGet_Field_2_5()
+	static ::RPG::GameCore::FormationMoveConfig** StaticGet_Field_2_0()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_2_1E594D28D4184726_TypeDefinitionIndex)->GetStaticField(0x5EAD0);
+		return (::RPG::GameCore::FormationMoveConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_2_1E594D28D4184726_TypeDefinitionIndex)->GetStaticField(0x68100);
 	}
-	static ::RPG::GameCore::FormationMoveConfig** StaticGet_Field_2_4()
+	static ::System::String** StaticGet_Field_2_1()
 	{
-		return (::RPG::GameCore::FormationMoveConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_2_1E594D28D4184726_TypeDefinitionIndex)->GetStaticField(0x5EAD8);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_2_1E594D28D4184726_TypeDefinitionIndex)->GetStaticField(0x68108);
 	}
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
-	::RPG::GameCore::FormationMoveAddGroup* Field_2_1; // 0x20
-	::System::Boolean Field_2_3; // 0x28
-	::System::UInt32 Field_2_2; // 0x2C
+	::RPG::GameCore::FormationMoveAddGroup* Field_2_2; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_3; // 0x20
+	::System::UInt32 Field_2_4; // 0x28
+	::System::Boolean Field_2_5; // 0x2C
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::FormationMoveAddGroup* a2)
 	{
@@ -65,9 +65,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_1E594D28D4184726_TICK_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_2_AB6D97D90046D10B()
+	::System::Boolean Method_2_EDD62BDB33599FEC()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1E594D28D4184726_METHOD_2_AB6D97D90046D10B_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1E594D28D4184726_METHOD_2_EDD62BDB33599FEC_OFFSET))(this);
 	}
 
 	::System::Void Method_2_9871B2ED609502A4(::System::Object* a1)

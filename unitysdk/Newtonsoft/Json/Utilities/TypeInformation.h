@@ -5,15 +5,15 @@
 
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1A6BBF30)
-#define NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1A6BBF10)
-#define NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_SET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1A6BBF40)
-#define NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x1A6BBF20)
-#define NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6BBF50)
+#define NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1B4D3A30)
+#define NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1B4D3A10)
+#define NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_SET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1B4D3A40)
+#define NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x1B4D3A20)
+#define NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D3A50)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int TypeInformation_TypeDefinitionIndex = 8403;
+	inline static constexpr unsigned int TypeInformation_TypeDefinitionIndex = 9306;
 
 	class TypeInformation : public ::System::Object
 	{
@@ -31,9 +31,9 @@ namespace Newtonsoft::Json::Utilities
 			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Void set_Type(::System::Type* value)
+		::System::Void set_Type(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_SET_TYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_SET_TYPE_OFFSET))(this, a1);
 		}
 
 		::Newtonsoft::Json::Utilities::PrimitiveTypeCode get_TypeCode()
@@ -41,9 +41,9 @@ namespace Newtonsoft::Json::Utilities
 			return ((::Newtonsoft::Json::Utilities::PrimitiveTypeCode(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_GET_TYPECODE_OFFSET))(this);
 		}
 
-		::System::Void set_TypeCode(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value)
+		::System::Void set_TypeCode(::Newtonsoft::Json::Utilities::PrimitiveTypeCode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_SET_TYPECODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_SET_TYPECODE_OFFSET))(this, a1);
 		}
 	};
 }

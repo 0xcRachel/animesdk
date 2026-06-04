@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/Struct_2_5909FD7779934CCA.h"
 
-#define RPG_GAMECORE_ABILITYDIRTYHPCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB1B00A0)
-#define RPG_GAMECORE_ABILITYDIRTYHPCHANGE_GETNEWDIRTYHPRATIO_OFFSET UNITYSDK_OFFSET(0xB1B00F0)
-#define RPG_GAMECORE_ABILITYDIRTYHPCHANGE_GETNEWDIRTYHPVALUE_OFFSET UNITYSDK_OFFSET(0xB1B0140)
-#define RPG_GAMECORE_ABILITYDIRTYHPCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB1B0050)
-#define RPG_GAMECORE_ABILITYDIRTYHPCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xB1AFFE0)
-#define RPG_GAMECORE_ABILITYDIRTYHPCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xB1B0190)
+#define RPG_GAMECORE_ABILITYDIRTYHPCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x12B01660)
+#define RPG_GAMECORE_ABILITYDIRTYHPCHANGE_GETNEWDIRTYHPRATIO_OFFSET UNITYSDK_OFFSET(0x12B016B0)
+#define RPG_GAMECORE_ABILITYDIRTYHPCHANGE_GETNEWDIRTYHPVALUE_OFFSET UNITYSDK_OFFSET(0x12B01700)
+#define RPG_GAMECORE_ABILITYDIRTYHPCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x12B01610)
+#define RPG_GAMECORE_ABILITYDIRTYHPCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0x12B015A0)
+#define RPG_GAMECORE_ABILITYDIRTYHPCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x12B01750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityDirtyHPChange_TypeDefinitionIndex = 52142;
+	inline static constexpr unsigned int AbilityDirtyHPChange_TypeDefinitionIndex = 52839;
 
-	class AbilityDirtyHPChange : public ::Class_1_9988289E7F8AA214
+	class AbilityDirtyHPChange : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::Struct_2_5909FD7779934CCA ChangeParams; // 0x18
-		::RPG::GameCore::FixPoint _NewDirtyHp; // 0x148
-		::RPG::GameCore::FixPoint _NewRatio; // 0x150
-		::System::UInt32 _EntityRuntimeID; // 0x158
+		::RPG::GameCore::FixPoint _NewDirtyHp; // 0x120
+		::RPG::GameCore::FixPoint _NewRatio; // 0x128
+		::System::UInt32 _EntityRuntimeID; // 0x130
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYDIRTYHPCHANGE__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::AbilityDirtyHPChange* Init(::System::UInt32 EntityRuntimeID, ::RPG::GameCore::FixPoint newRatio, ::RPG::GameCore::FixPoint newDirtyHp)
+		::RPG::GameCore::AbilityDirtyHPChange* Init(::System::UInt32 a1, ::RPG::GameCore::FixPoint a2, ::RPG::GameCore::FixPoint a3)
 		{
-			return ((::RPG::GameCore::AbilityDirtyHPChange*(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYDIRTYHPCHANGE_INIT_OFFSET))(this, EntityRuntimeID, newRatio, newDirtyHp);
+			return ((::RPG::GameCore::AbilityDirtyHPChange*(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYDIRTYHPCHANGE_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

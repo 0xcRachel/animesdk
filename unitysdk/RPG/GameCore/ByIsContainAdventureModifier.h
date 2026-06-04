@@ -4,15 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BYISCONTAINADVENTUREMODIFIER_METHOD_4_35B2372ACE0BFE56_OFFSET UNITYSDK_OFFSET(0x19A60B80)
-#define RPG_GAMECORE_BYISCONTAINADVENTUREMODIFIER_METHOD_4_D9E9FE15D8B5E0D6_OFFSET UNITYSDK_OFFSET(0x19A60AB0)
-#define RPG_GAMECORE_BYISCONTAINADVENTUREMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x19A60B30)
+#define RPG_GAMECORE_BYISCONTAINADVENTUREMODIFIER_METHOD_4_35B2372ACE0BFE56_OFFSET UNITYSDK_OFFSET(0x19D9F8E0)
+#define RPG_GAMECORE_BYISCONTAINADVENTUREMODIFIER_METHOD_4_92F17F241A6C2C1F_OFFSET UNITYSDK_OFFSET(0x19D9FB20)
+#define RPG_GAMECORE_BYISCONTAINADVENTUREMODIFIER_METHOD_4_A8939D442E87B678_OFFSET UNITYSDK_OFFSET(0x19D9FAA0)
+#define RPG_GAMECORE_BYISCONTAINADVENTUREMODIFIER_METHOD_4_D9E9FE15D8B5E0D6_OFFSET UNITYSDK_OFFSET(0x19D9F810)
+#define RPG_GAMECORE_BYISCONTAINADVENTUREMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x19D9F890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsContainAdventureModifier_TypeDefinitionIndex = 19766;
+	inline static constexpr unsigned int ByIsContainAdventureModifier_TypeDefinitionIndex = 19642;
 
 	class ByIsContainAdventureModifier : public ::RPG::GameCore::PredicateConfig
 	{
@@ -33,6 +36,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_35B2372ACE0BFE56(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsContainAdventureModifier* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsContainAdventureModifier*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISCONTAINADVENTUREMODIFIER_METHOD_4_35B2372ACE0BFE56_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_A8939D442E87B678(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsContainAdventureModifier*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsContainAdventureModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISCONTAINADVENTUREMODIFIER_METHOD_4_A8939D442E87B678_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_92F17F241A6C2C1F(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsContainAdventureModifier* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsContainAdventureModifier*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISCONTAINADVENTUREMODIFIER_METHOD_4_92F17F241A6C2C1F_OFFSET))(a1, a2);
 		}
 	};
 }

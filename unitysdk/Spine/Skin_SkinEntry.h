@@ -5,14 +5,14 @@
 namespace Spine { class Attachment; }
 namespace System { class String; }
 
-#define SPINE_SKIN_SKINENTRY_GET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x58FAA0)
-#define SPINE_SKIN_SKINENTRY_GET_NAME_OFFSET UNITYSDK_OFFSET(0x608BA0)
-#define SPINE_SKIN_SKINENTRY_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x608A20)
-#define SPINE_SKIN_SKINENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x2244130)
+#define SPINE_SKIN_SKINENTRY_GET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x6676D0)
+#define SPINE_SKIN_SKINENTRY_GET_NAME_OFFSET UNITYSDK_OFFSET(0x66B7B0)
+#define SPINE_SKIN_SKINENTRY_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x72BBF0)
+#define SPINE_SKIN_SKINENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x3730F20)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Skin_SkinEntry_TypeDefinitionIndex = 36459;
+	inline static constexpr unsigned int Skin_SkinEntry_TypeDefinitionIndex = 36759;
 
 	struct alignas(8) Skin_SkinEntry
 	{
@@ -20,9 +20,9 @@ namespace Spine
 		::System::String* name; // 0x18
 		::Spine::Attachment* attachment; // 0x20
 
-		::System::Void _ctor(::System::Int32 slotIndex, ::System::String* name, ::Spine::Attachment* attachment)
+		::System::Void _ctor(::System::Int32 a1, ::System::String* a2, ::Spine::Attachment* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::Spine::Attachment*))((::PBYTE)hIl2Cpp + SPINE_SKIN_SKINENTRY__CTOR_OFFSET))(this, slotIndex, name, attachment);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::Spine::Attachment*))((::PBYTE)hIl2Cpp + SPINE_SKIN_SKINENTRY__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 get_SlotIndex()

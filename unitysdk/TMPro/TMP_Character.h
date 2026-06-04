@@ -5,14 +5,14 @@
 namespace TMPro { class TMP_FontAsset; }
 namespace UnityEngine::TextCore { class Glyph; }
 
-#define TMPRO_TMP_CHARACTER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x160742F0)
-#define TMPRO_TMP_CHARACTER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x16074330)
-#define TMPRO_TMP_CHARACTER__CTOR_3_OFFSET UNITYSDK_OFFSET(0x16074370)
-#define TMPRO_TMP_CHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x160742E0)
+#define TMPRO_TMP_CHARACTER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x155B3150)
+#define TMPRO_TMP_CHARACTER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x155B3190)
+#define TMPRO_TMP_CHARACTER__CTOR_3_OFFSET UNITYSDK_OFFSET(0x155B31D0)
+#define TMPRO_TMP_CHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x155B3140)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Character_TypeDefinitionIndex = 40096;
+	inline static constexpr unsigned int TMP_Character_TypeDefinitionIndex = 40923;
 
 	class TMP_Character : public ::TMPro::TMP_TextElement
 	{
@@ -22,19 +22,19 @@ namespace TMPro
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_CHARACTER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::UInt32 unicode, ::UnityEngine::TextCore::Glyph* glyph)
+		::System::Void _ctor_1(::System::UInt32 a1, ::UnityEngine::TextCore::Glyph* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::TextCore::Glyph*))((::PBYTE)hIl2Cpp + TMPRO_TMP_CHARACTER__CTOR_1_OFFSET))(this, unicode, glyph);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::TextCore::Glyph*))((::PBYTE)hIl2Cpp + TMPRO_TMP_CHARACTER__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_2(::System::UInt32 unicode, ::TMPro::TMP_FontAsset* fontAsset, ::UnityEngine::TextCore::Glyph* glyph)
+		::System::Void _ctor_2(::System::UInt32 a1, ::TMPro::TMP_FontAsset* a2, ::UnityEngine::TextCore::Glyph* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::TMPro::TMP_FontAsset*, ::UnityEngine::TextCore::Glyph*))((::PBYTE)hIl2Cpp + TMPRO_TMP_CHARACTER__CTOR_2_OFFSET))(this, unicode, fontAsset, glyph);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::TMPro::TMP_FontAsset*, ::UnityEngine::TextCore::Glyph*))((::PBYTE)hIl2Cpp + TMPRO_TMP_CHARACTER__CTOR_2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _ctor_3(::System::UInt32 unicode, ::System::UInt32 glyphIndex)
+		::System::Void _ctor_3(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_CHARACTER__CTOR_3_OFFSET))(this, unicode, glyphIndex);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_CHARACTER__CTOR_3_OFFSET))(this, a1, a2);
 		}
 	};
 }

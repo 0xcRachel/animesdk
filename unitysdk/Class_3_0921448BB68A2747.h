@@ -6,11 +6,11 @@ namespace RPG::GameCore { class AdventureAbilityComponent; }
 namespace RPG::GameCore { class ST_Side_DisablePlayerLock; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0921448BB68A2747_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB07C500)
-#define CLASS_3_0921448BB68A2747_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB07C590)
-#define CLASS_3_0921448BB68A2747__CTOR_OFFSET UNITYSDK_OFFSET(0xB07C4A0)
+#define CLASS_3_0921448BB68A2747_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x140946A0)
+#define CLASS_3_0921448BB68A2747_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x14094730)
+#define CLASS_3_0921448BB68A2747__CTOR_OFFSET UNITYSDK_OFFSET(0x14094640)
 
-inline static constexpr unsigned int Class_3_0921448BB68A2747_TypeDefinitionIndex = 48216;
+inline static constexpr unsigned int Class_3_0921448BB68A2747_TypeDefinitionIndex = 48840;
 
 class Class_3_0921448BB68A2747 : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Side_DisablePlayerLock*>
 {

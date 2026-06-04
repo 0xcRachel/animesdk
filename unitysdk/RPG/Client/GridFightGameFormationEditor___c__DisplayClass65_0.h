@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR___C__DISPLAYCLASS65_0__ADDEQUIP_B__0_OFFSET UNITYSDK_OFFSET(0x174E7460)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0x174E4460)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR___C__DISPLAYCLASS65_0__ADDEQUIP_B__0_OFFSET UNITYSDK_OFFSET(0x18D33270)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18D30160)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor___c__DisplayClass65_0_TypeDefinitionIndex = 59510;
+	inline static constexpr unsigned int GridFightGameFormationEditor___c__DisplayClass65_0_TypeDefinitionIndex = 60445;
 
 	class GridFightGameFormationEditor___c__DisplayClass65_0 : public ::System::Object
 	{
@@ -20,9 +20,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR___C__DISPLAYCLASS65_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _AddEquip_b__0(::System::UInt32 id)
+		::System::Boolean _AddEquip_b__0(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR___C__DISPLAYCLASS65_0__ADDEQUIP_B__0_OFFSET))(this, id);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR___C__DISPLAYCLASS65_0__ADDEQUIP_B__0_OFFSET))(this, a1);
 		}
 	};
 }

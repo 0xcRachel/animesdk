@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DRONESPUZZLEEVENTLISTENER_METHOD_3_5C68D4E25F4480CC_OFFSET UNITYSDK_OFFSET(0x191434A0)
-#define RPG_GAMECORE_DRONESPUZZLEEVENTLISTENER_METHOD_3_F0030FC401D8C964_OFFSET UNITYSDK_OFFSET(0x19143420)
-#define RPG_GAMECORE_DRONESPUZZLEEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x19143470)
+#define RPG_GAMECORE_DRONESPUZZLEEVENTLISTENER_METHOD_3_107CE34BCFF82A89_OFFSET UNITYSDK_OFFSET(0x1A0B2000)
+#define RPG_GAMECORE_DRONESPUZZLEEVENTLISTENER_METHOD_3_8FC9C3FE97E454EA_OFFSET UNITYSDK_OFFSET(0x1A0B2080)
+#define RPG_GAMECORE_DRONESPUZZLEEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0B2050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DronesPuzzleEventListener_TypeDefinitionIndex = 19323;
+	inline static constexpr unsigned int DronesPuzzleEventListener_TypeDefinitionIndex = 19235;
 
 	class DronesPuzzleEventListener : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DRONESPUZZLEEVENTLISTENER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F0030FC401D8C964(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DronesPuzzleEventListener*& a2)
+		static ::System::Void Method_3_107CE34BCFF82A89(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DronesPuzzleEventListener*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DronesPuzzleEventListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DRONESPUZZLEEVENTLISTENER_METHOD_3_F0030FC401D8C964_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DronesPuzzleEventListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DRONESPUZZLEEVENTLISTENER_METHOD_3_107CE34BCFF82A89_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5C68D4E25F4480CC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DronesPuzzleEventListener* a2)
+		static ::System::Void Method_3_8FC9C3FE97E454EA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DronesPuzzleEventListener* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DronesPuzzleEventListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DRONESPUZZLEEVENTLISTENER_METHOD_3_5C68D4E25F4480CC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DronesPuzzleEventListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DRONESPUZZLEEVENTLISTENER_METHOD_3_8FC9C3FE97E454EA_OFFSET))(a1, a2);
 		}
 	};
 }

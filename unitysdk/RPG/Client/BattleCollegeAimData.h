@@ -4,44 +4,44 @@
 
 namespace RPG::GameCore { class BattleCollegeAimConfigRow; }
 
-#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xF3B87C0)
-#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_GET_AIMID_OFFSET UNITYSDK_OFFSET(0xF3B8960)
-#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_GET_CURRENTVALUE_OFFSET UNITYSDK_OFFSET(0xF3B8980)
-#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0xF3B8940)
-#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_GET_TOTALVALUE_OFFSET UNITYSDK_OFFSET(0xF3B89A0)
-#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_ISFINISH_OFFSET UNITYSDK_OFFSET(0xF3B88F0)
-#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_SET_AIMID_OFFSET UNITYSDK_OFFSET(0xF3B8970)
-#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_SET_CURRENTVALUE_OFFSET UNITYSDK_OFFSET(0xF3B8990)
-#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_SET_ROW_OFFSET UNITYSDK_OFFSET(0xF3B8950)
-#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_SET_TOTALVALUE_OFFSET UNITYSDK_OFFSET(0xF3B89B0)
-#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_UPDATEVALUE_OFFSET UNITYSDK_OFFSET(0xF3B8890)
-#define RPG_CLIENT_BATTLECOLLEGEAIMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xF3B8880)
+#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x15CD5E90)
+#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_GET_AIMID_OFFSET UNITYSDK_OFFSET(0x15CD6030)
+#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_GET_CURRENTVALUE_OFFSET UNITYSDK_OFFSET(0x15CD6050)
+#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0x15CD6010)
+#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_GET_TOTALVALUE_OFFSET UNITYSDK_OFFSET(0x15CD6070)
+#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_ISFINISH_OFFSET UNITYSDK_OFFSET(0x15CD5FC0)
+#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_SET_AIMID_OFFSET UNITYSDK_OFFSET(0x15CD6040)
+#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_SET_CURRENTVALUE_OFFSET UNITYSDK_OFFSET(0x15CD6060)
+#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_SET_ROW_OFFSET UNITYSDK_OFFSET(0x15CD6020)
+#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_SET_TOTALVALUE_OFFSET UNITYSDK_OFFSET(0x15CD6080)
+#define RPG_CLIENT_BATTLECOLLEGEAIMDATA_UPDATEVALUE_OFFSET UNITYSDK_OFFSET(0x15CD5F60)
+#define RPG_CLIENT_BATTLECOLLEGEAIMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15CD5F50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleCollegeAimData_TypeDefinitionIndex = 57907;
+	inline static constexpr unsigned int BattleCollegeAimData_TypeDefinitionIndex = 58823;
 
 	class BattleCollegeAimData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::BattleCollegeAimConfigRow* _Row_k__BackingField; // 0x10
 		::System::UInt32 _AimID_k__BackingField; // 0x18
-		::System::UInt32 _CurrentValue_k__BackingField; // 0x1C
-		::System::UInt32 _TotalValue_k__BackingField; // 0x20
+		::System::UInt32 _TotalValue_k__BackingField; // 0x1C
+		::System::UInt32 _CurrentValue_k__BackingField; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLECOLLEGEAIMDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::BattleCollegeAimData* Create(::System::UInt32 ID)
+		static ::RPG::Client::BattleCollegeAimData* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::BattleCollegeAimData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLECOLLEGEAIMDATA_CREATE_OFFSET))(ID);
+			return ((::RPG::Client::BattleCollegeAimData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLECOLLEGEAIMDATA_CREATE_OFFSET))(a1);
 		}
 
-		::System::Void UpdateValue(::System::UInt32 currentValue, ::System::UInt32 totalValue)
+		::System::Void UpdateValue(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLECOLLEGEAIMDATA_UPDATEVALUE_OFFSET))(this, currentValue, totalValue);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLECOLLEGEAIMDATA_UPDATEVALUE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean IsFinish()
@@ -54,9 +54,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::BattleCollegeAimConfigRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLECOLLEGEAIMDATA_GET_ROW_OFFSET))(this);
 		}
 
-		::System::Void set_Row(::RPG::GameCore::BattleCollegeAimConfigRow* value)
+		::System::Void set_Row(::RPG::GameCore::BattleCollegeAimConfigRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleCollegeAimConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLECOLLEGEAIMDATA_SET_ROW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleCollegeAimConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLECOLLEGEAIMDATA_SET_ROW_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_AimID()
@@ -64,9 +64,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLECOLLEGEAIMDATA_GET_AIMID_OFFSET))(this);
 		}
 
-		::System::Void set_AimID(::System::UInt32 value)
+		::System::Void set_AimID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLECOLLEGEAIMDATA_SET_AIMID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLECOLLEGEAIMDATA_SET_AIMID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_CurrentValue()
@@ -74,9 +74,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLECOLLEGEAIMDATA_GET_CURRENTVALUE_OFFSET))(this);
 		}
 
-		::System::Void set_CurrentValue(::System::UInt32 value)
+		::System::Void set_CurrentValue(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLECOLLEGEAIMDATA_SET_CURRENTVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLECOLLEGEAIMDATA_SET_CURRENTVALUE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_TotalValue()
@@ -84,9 +84,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLECOLLEGEAIMDATA_GET_TOTALVALUE_OFFSET))(this);
 		}
 
-		::System::Void set_TotalValue(::System::UInt32 value)
+		::System::Void set_TotalValue(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLECOLLEGEAIMDATA_SET_TOTALVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLECOLLEGEAIMDATA_SET_TOTALVALUE_OFFSET))(this, a1);
 		}
 	};
 }

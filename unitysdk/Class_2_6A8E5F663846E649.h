@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_E21F6DE9B7FA4D05;
+class Class_3_07C3C4D2990C49EE;
 namespace RPG::GameCore { class EntityTimeRewindComponent; }
 namespace RPG::GameCore { class SetLoopRewindSnapSection; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_6A8E5F663846E649_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF7E8850)
-#define CLASS_2_6A8E5F663846E649_METHOD_2_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0xF7E8C50)
-#define CLASS_2_6A8E5F663846E649_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF7E88F0)
-#define CLASS_2_6A8E5F663846E649_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF7E8B20)
-#define CLASS_2_6A8E5F663846E649_TICK_OFFSET UNITYSDK_OFFSET(0xF7E8BF0)
-#define CLASS_2_6A8E5F663846E649__CTOR_OFFSET UNITYSDK_OFFSET(0xF7E8760)
+#define CLASS_2_6A8E5F663846E649_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14D84BD0)
+#define CLASS_2_6A8E5F663846E649_METHOD_2_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x14D84FE0)
+#define CLASS_2_6A8E5F663846E649_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14D84C70)
+#define CLASS_2_6A8E5F663846E649_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x14D84EB0)
+#define CLASS_2_6A8E5F663846E649_TICK_OFFSET UNITYSDK_OFFSET(0x14D84F80)
+#define CLASS_2_6A8E5F663846E649__CTOR_OFFSET UNITYSDK_OFFSET(0x14D84AE0)
 
-inline static constexpr unsigned int Class_2_6A8E5F663846E649_TypeDefinitionIndex = 49219;
+inline static constexpr unsigned int Class_2_6A8E5F663846E649_TypeDefinitionIndex = 49886;
 
 class Class_2_6A8E5F663846E649 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::EntityTimeRewindComponent* Field_2_4; // 0x18
-	::Class_3_E21F6DE9B7FA4D05* Field_2_3; // 0x20
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x28
-	::RPG::GameCore::SetLoopRewindSnapSection* Field_2_0; // 0x30
-	::Class_3_E21F6DE9B7FA4D05* Field_2_2; // 0x38
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::Class_3_07C3C4D2990C49EE* Field_2_1; // 0x20
+	::Class_3_07C3C4D2990C49EE* Field_2_2; // 0x28
+	::RPG::GameCore::SetLoopRewindSnapSection* Field_2_3; // 0x30
+	::RPG::GameCore::EntityTimeRewindComponent* Field_2_4; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetLoopRewindSnapSection* a2)
 	{

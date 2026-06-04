@@ -8,20 +8,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_8C2067982A673801_METHOD_1_E9A2160FD348DB23_OFFSET UNITYSDK_OFFSET(0x1081E000)
-#define CLASS_1_8C2067982A673801__CTOR_OFFSET UNITYSDK_OFFSET(0x1081E2E0)
+#define CLASS_1_8C2067982A673801_METHOD_1_E9A2160FD348DB23_OFFSET UNITYSDK_OFFSET(0x18F5DCE0)
+#define CLASS_1_8C2067982A673801__CTOR_OFFSET UNITYSDK_OFFSET(0x18F5DFB0)
 
-inline static constexpr unsigned int Class_1_8C2067982A673801_TypeDefinitionIndex = 14268;
+inline static constexpr unsigned int Class_1_8C2067982A673801_TypeDefinitionIndex = 14325;
 
 class Class_1_8C2067982A673801 : public ::System::Object
 {
 public:
-	::System::String* Field_1_5; // 0x10
-	::Il2CppArray<::RPG::GameCore::FixPoint>* Field_1_3; // 0x18
-	::System::UInt32 Field_1_0; // 0x20
-	::RPG::GameCore::RogueRoomAttributeCategory Field_1_4; // 0x24
-	::RPG::Client::TextID Field_1_1; // 0x28
-	::RPG::Client::TextID Field_1_2; // 0x38
+	::System::String* Field_1_0; // 0x10
+	::Il2CppArray<::RPG::GameCore::FixPoint>* Field_1_1; // 0x18
+	::RPG::Client::TextID Field_1_2; // 0x20
+	::RPG::GameCore::RogueRoomAttributeCategory Field_1_3; // 0x30
+	::System::UInt32 Field_1_4; // 0x34
+	::RPG::Client::TextID Field_1_5; // 0x38
 
 	::System::Void _ctor()
 	{

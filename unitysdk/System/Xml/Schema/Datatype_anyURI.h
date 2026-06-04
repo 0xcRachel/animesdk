@@ -14,16 +14,16 @@ namespace System::Xml::Schema { class FacetsChecker; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 namespace System::Xml::Schema { class XmlValueConverter; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_COMPARE_OFFSET UNITYSDK_OFFSET(0x186E33F0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x186E3260)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x186E33E0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x186E32B0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x186E3380)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x186E3310)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x186E3320)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x186E3470)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYURI__CCTOR_OFFSET UNITYSDK_OFFSET(0x186E36C0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYURI__CTOR_OFFSET UNITYSDK_OFFSET(0x186DCC00)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_COMPARE_OFFSET UNITYSDK_OFFSET(0x18A8CBC0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x18A8CA30)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x18A8CBB0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x18A8CA80)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x18A8CB50)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x18A8CAE0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x18A8CAF0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x18A8CC80)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYURI__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A8CED0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYURI__CTOR_OFFSET UNITYSDK_OFFSET(0x18A86530)
 
 namespace System::Xml::Schema
 {
@@ -32,13 +32,13 @@ namespace System::Xml::Schema
 	class Datatype_anyURI : public ::System::Xml::Schema::Datatype_anySimpleType
 	{
 	public:
-		static ::System::Type** StaticGet_listValueType()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_anyURI_TypeDefinitionIndex)->GetStaticField(0xACD0);
-		}
 		static ::System::Type** StaticGet_atomicValueType()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_anyURI_TypeDefinitionIndex)->GetStaticField(0xACD8);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_anyURI_TypeDefinitionIndex)->GetStaticField(0x15410);
+		}
+		static ::System::Type** StaticGet_listValueType()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_anyURI_TypeDefinitionIndex)->GetStaticField(0x15418);
 		}
 
 		::System::Void _ctor()
@@ -51,9 +51,9 @@ namespace System::Xml::Schema
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_ANYURI__CCTOR_OFFSET))();
 		}
 
-		::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType)
+		::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* a1)
 		{
-			return ((::System::Xml::Schema::XmlValueConverter*(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_CREATEVALUECONVERTER_OFFSET))(this, schemaType);
+			return ((::System::Xml::Schema::XmlValueConverter*(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_CREATEVALUECONVERTER_OFFSET))(this, a1);
 		}
 
 		::System::Xml::Schema::FacetsChecker* get_FacetsChecker()
@@ -81,14 +81,14 @@ namespace System::Xml::Schema
 			return ((::System::Xml::Schema::XmlSchemaWhiteSpace(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_GET_BUILTINWHITESPACEFACET_OFFSET))(this);
 		}
 
-		::System::Int32 Compare(::System::Object* value1, ::System::Object* value2)
+		::System::Int32 Compare(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_COMPARE_OFFSET))(this, value1, value2);
+			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_COMPARE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* TryParseValue(::System::String* s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::System::Object*& typedValue)
+		::System::Exception* TryParseValue(::System::String* a1, ::System::Xml::XmlNameTable* a2, ::System::Xml::IXmlNamespaceResolver* a3, ::System::Object*& a4)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::String*, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_TRYPARSEVALUE_OFFSET))(this, s, nameTable, nsmgr, typedValue);
+			return ((::System::Exception*(*)(::PVOID, ::System::String*, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_ANYURI_TRYPARSEVALUE_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

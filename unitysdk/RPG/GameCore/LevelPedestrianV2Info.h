@@ -7,13 +7,13 @@ namespace RPG::GameCore { class LevelPedestrianV2EmitInfo; }
 namespace RPG::GameCore { class LevelPedestrianV2RoadMapInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INFO_METHOD_4_B98BD0EC298056F8_OFFSET UNITYSDK_OFFSET(0x18A39080)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INFO_METHOD_4_C91298D634D534B5_OFFSET UNITYSDK_OFFSET(0x18A3C300)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A39070)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INFO_METHOD_4_5A0FB3D2EF57951A_OFFSET UNITYSDK_OFFSET(0x18E75E10)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INFO_METHOD_4_B9FA496A37079CBE_OFFSET UNITYSDK_OFFSET(0x18E74C30)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18E74C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianV2Info_TypeDefinitionIndex = 16431;
+	inline static constexpr unsigned int LevelPedestrianV2Info_TypeDefinitionIndex = 16465;
 
 	class LevelPedestrianV2Info : public ::RPG::GameCore::NamedLevelObjectInfo
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_C91298D634D534B5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2Info*& a2)
+		static ::System::Void Method_4_5A0FB3D2EF57951A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2Info*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2Info*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INFO_METHOD_4_C91298D634D534B5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2Info*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INFO_METHOD_4_5A0FB3D2EF57951A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_B98BD0EC298056F8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2Info* a2)
+		static ::System::Void Method_4_B9FA496A37079CBE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2Info* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2Info*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INFO_METHOD_4_B98BD0EC298056F8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2Info*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INFO_METHOD_4_B9FA496A37079CBE_OFFSET))(a1, a2);
 		}
 	};
 }

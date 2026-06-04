@@ -4,22 +4,22 @@
 
 namespace UnityEngine { class Texture2D; }
 
-#define CLASS_1_159F4A26A6FBCACF_METHOD_1_097468641FDED14E_OFFSET UNITYSDK_OFFSET(0xEB8FB30)
-#define CLASS_1_159F4A26A6FBCACF__CTOR_OFFSET UNITYSDK_OFFSET(0xEB8FB20)
+#define CLASS_1_159F4A26A6FBCACF_METHOD_1_097468641FDED14E_OFFSET UNITYSDK_OFFSET(0x161DDD00)
+#define CLASS_1_159F4A26A6FBCACF__CTOR_OFFSET UNITYSDK_OFFSET(0x161DDCF0)
 
-inline static constexpr unsigned int Class_1_159F4A26A6FBCACF_TypeDefinitionIndex = 65290;
+inline static constexpr unsigned int Class_1_159F4A26A6FBCACF_TypeDefinitionIndex = 66217;
 
 class Class_1_159F4A26A6FBCACF : public ::System::Object
 {
 public:
-	::UnityEngine::Texture2D* Field_1_4; // 0x10
-	::UnityEngine::Texture2D* Field_1_3; // 0x18
+	::UnityEngine::Texture2D* Field_1_0; // 0x10
+	::UnityEngine::Texture2D* Field_1_1; // 0x18
 	::System::Single Field_1_2; // 0x20
-	::System::Boolean Field_1_6; // 0x24
-	::System::Boolean Field_1_7; // 0x25
-	::System::Single Field_1_0; // 0x28
-	::System::Single Field_1_1; // 0x2C
-	::System::Single Field_1_5; // 0x30
+	::System::Single Field_1_3; // 0x24
+	::System::Single Field_1_4; // 0x28
+	::System::Boolean Field_1_5; // 0x2C
+	::System::Boolean Field_1_6; // 0x2D
+	::System::Single Field_1_7; // 0x30
 
 	::System::Void _ctor()
 	{

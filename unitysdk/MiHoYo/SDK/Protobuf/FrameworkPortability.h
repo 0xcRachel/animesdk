@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Text/RegularExpressions/RegexOptions.h"
 
-#define MIHOYO_SDK_PROTOBUF_FRAMEWORKPORTABILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x18504230)
+#define MIHOYO_SDK_PROTOBUF_FRAMEWORKPORTABILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1835D180)
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int FrameworkPortability_TypeDefinitionIndex = 33630;
+	inline static constexpr unsigned int FrameworkPortability_TypeDefinitionIndex = 33912;
 
 	class FrameworkPortability : public ::System::Object
 	{
 	public:
 		static ::System::Text::RegularExpressions::RegexOptions* StaticGet_CompiledRegexWhereAvailable()
 		{
-			return (::System::Text::RegularExpressions::RegexOptions*)Il2CppClass::FromTypeDefinitionIndex(FrameworkPortability_TypeDefinitionIndex)->GetStaticField(0xEB20);
+			return (::System::Text::RegularExpressions::RegexOptions*)Il2CppClass::FromTypeDefinitionIndex(FrameworkPortability_TypeDefinitionIndex)->GetStaticField(0xE4E0);
 		}
 
 		static ::System::Void _cctor()

@@ -4,13 +4,13 @@
 
 namespace System::IO { class StreamReader; }
 
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_STREAMTOKENREADER_GET_NUMCHARENCOUNTERED_OFFSET UNITYSDK_OFFSET(0x16DB65C0)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_STREAMTOKENREADER_READ_OFFSET UNITYSDK_OFFSET(0x16DB6470)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_STREAMTOKENREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x16DB5DC0)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_STREAMTOKENREADER_GET_NUMCHARENCOUNTERED_OFFSET UNITYSDK_OFFSET(0x142DB8F0)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_STREAMTOKENREADER_READ_OFFSET UNITYSDK_OFFSET(0x142DB7A0)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_STREAMTOKENREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x142DB0F0)
 
 namespace System::Security::Util
 {
-	inline static constexpr unsigned int Tokenizer_StreamTokenReader_TypeDefinitionIndex = 973;
+	inline static constexpr unsigned int Tokenizer_StreamTokenReader_TypeDefinitionIndex = 972;
 
 	class Tokenizer_StreamTokenReader : public ::System::Object
 	{
@@ -18,9 +18,9 @@ namespace System::Security::Util
 		::System::IO::StreamReader* _in; // 0x10
 		::System::Int32 _numCharRead; // 0x18
 
-		::System::Void _ctor(::System::IO::StreamReader* input)
+		::System::Void _ctor(::System::IO::StreamReader* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::StreamReader*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZER_STREAMTOKENREADER__CTOR_OFFSET))(this, input);
+			return ((::System::Void(*)(::PVOID, ::System::IO::StreamReader*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZER_STREAMTOKENREADER__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Int32 Read()

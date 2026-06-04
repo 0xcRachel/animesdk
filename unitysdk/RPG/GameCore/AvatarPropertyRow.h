@@ -7,38 +7,38 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARPROPERTYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1820B9D0)
-#define RPG_GAMECORE_AVATARPROPERTYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1820D520)
+#define RPG_GAMECORE_AVATARPROPERTYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x176390D0)
+#define RPG_GAMECORE_AVATARPROPERTYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1763AA50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarPropertyRow_TypeDefinitionIndex = 12042;
+	inline static constexpr unsigned int AvatarPropertyRow_TypeDefinitionIndex = 12134;
 
 	class AvatarPropertyRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::RPG::Client::TextID PropertyNameRelic; // 0x18
-		::System::UInt32 Order; // 0x28
-		::RPG::GameCore::AvatarPropertyType PropertyType; // 0x2C
-		::System::UInt32 MainRelicFilter; // 0x30
-		::System::UInt32 PropertyClassify; // 0x34
-		::RPG::Client::TextID PropertyNameFilter; // 0x38
-		::System::UInt32 PropertyInstructionID; // 0x48
-		::System::UInt32 SubRelicFilter; // 0x4C
-		::System::Boolean IsDisplay; // 0x50
-		::System::Boolean isBattleDisplay; // 0x51
-		::RPG::Client::TextID PropertyNameSkillTree; // 0x58
-		::RPG::Client::TextID PropertyName; // 0x68
+		::RPG::Client::TextID PropertyNameSkillTree; // 0x18
+		::System::Boolean isBattleDisplay; // 0x28
+		::System::Boolean IsDisplay; // 0x29
+		::System::UInt32 Order; // 0x2C
+		::RPG::Client::TextID PropertyName; // 0x30
+		::System::UInt32 MainRelicFilter; // 0x40
+		::RPG::GameCore::AvatarPropertyType PropertyType; // 0x44
+		::RPG::Client::TextID PropertyNameRelic; // 0x48
+		::System::UInt32 PropertyClassify; // 0x58
+		::System::UInt32 PropertyInstructionID; // 0x5C
+		::System::UInt32 SubRelicFilter; // 0x60
+		::RPG::Client::TextID PropertyNameFilter; // 0x68
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARPROPERTYROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::AvatarPropertyRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AvatarPropertyRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvatarPropertyRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARPROPERTYROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvatarPropertyRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARPROPERTYROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

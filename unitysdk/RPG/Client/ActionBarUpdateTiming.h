@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActionBarUpdateTiming_TypeDefinitionIndex = 65717;
+	inline static constexpr unsigned int ActionBarUpdateTiming_TypeDefinitionIndex = 66651;
 
 	enum class ActionBarUpdateTiming : ::System::Int32
 	{

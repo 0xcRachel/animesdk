@@ -12,63 +12,63 @@ class AkMIDIEvent_tNoteOnOff;
 class AkMIDIEvent_tPitchBend;
 class AkMIDIEvent_tProgramChange;
 
-#define AKMIDIEVENT_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x196DF000)
-#define AKMIDIEVENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x196DEF10)
-#define AKMIDIEVENT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x196DEF90)
-#define AKMIDIEVENT_GETCPTR_OFFSET UNITYSDK_OFFSET(0x196DEE00)
-#define AKMIDIEVENT_GET_BYAFTERTOUCHNOTE_OFFSET UNITYSDK_OFFSET(0x196E0FD0)
-#define AKMIDIEVENT_GET_BYCCVALUE_OFFSET UNITYSDK_OFFSET(0x196E0B80)
-#define AKMIDIEVENT_GET_BYCC_OFFSET UNITYSDK_OFFSET(0x196E0A10)
-#define AKMIDIEVENT_GET_BYCHANAFTERTOUCHVALUE_OFFSET UNITYSDK_OFFSET(0x196E12B0)
-#define AKMIDIEVENT_GET_BYCHAN_OFFSET UNITYSDK_OFFSET(0x196DF260)
-#define AKMIDIEVENT_GET_BYNOTEAFTERTOUCHVALUE_OFFSET UNITYSDK_OFFSET(0x196E1140)
-#define AKMIDIEVENT_GET_BYONOFFNOTE_OFFSET UNITYSDK_OFFSET(0x196E0730)
-#define AKMIDIEVENT_GET_BYPROGRAMNUM_OFFSET UNITYSDK_OFFSET(0x196E1420)
-#define AKMIDIEVENT_GET_BYTYPE_OFFSET UNITYSDK_OFFSET(0x196E05C0)
-#define AKMIDIEVENT_GET_BYVALUELSB_OFFSET UNITYSDK_OFFSET(0x196E0CF0)
-#define AKMIDIEVENT_GET_BYVALUEMSB_OFFSET UNITYSDK_OFFSET(0x196E0E60)
-#define AKMIDIEVENT_GET_BYVELOCITY_OFFSET UNITYSDK_OFFSET(0x196E08A0)
-#define AKMIDIEVENT_GET_CC_OFFSET UNITYSDK_OFFSET(0x196DF710)
-#define AKMIDIEVENT_GET_CHANAFTERTOUCH_OFFSET UNITYSDK_OFFSET(0x196E0150)
-#define AKMIDIEVENT_GET_GEN_OFFSET UNITYSDK_OFFSET(0x196DF480)
-#define AKMIDIEVENT_GET_NOTEAFTERTOUCH_OFFSET UNITYSDK_OFFSET(0x196DFEC0)
-#define AKMIDIEVENT_GET_NOTEONOFF_OFFSET UNITYSDK_OFFSET(0x196DF9A0)
-#define AKMIDIEVENT_GET_PITCHBEND_OFFSET UNITYSDK_OFFSET(0x196DFC30)
-#define AKMIDIEVENT_GET_PROGRAMCHANGE_OFFSET UNITYSDK_OFFSET(0x196E03E0)
-#define AKMIDIEVENT_SETCPTR_OFFSET UNITYSDK_OFFSET(0x196DEE50)
-#define AKMIDIEVENT_SET_BYAFTERTOUCHNOTE_OFFSET UNITYSDK_OFFSET(0x196E0F10)
-#define AKMIDIEVENT_SET_BYCCVALUE_OFFSET UNITYSDK_OFFSET(0x196E0AC0)
-#define AKMIDIEVENT_SET_BYCC_OFFSET UNITYSDK_OFFSET(0x196E0950)
-#define AKMIDIEVENT_SET_BYCHANAFTERTOUCHVALUE_OFFSET UNITYSDK_OFFSET(0x196E11F0)
-#define AKMIDIEVENT_SET_BYCHAN_OFFSET UNITYSDK_OFFSET(0x196DF1A0)
-#define AKMIDIEVENT_SET_BYNOTEAFTERTOUCHVALUE_OFFSET UNITYSDK_OFFSET(0x196E1080)
-#define AKMIDIEVENT_SET_BYONOFFNOTE_OFFSET UNITYSDK_OFFSET(0x196E0670)
-#define AKMIDIEVENT_SET_BYPROGRAMNUM_OFFSET UNITYSDK_OFFSET(0x196E1360)
-#define AKMIDIEVENT_SET_BYTYPE_OFFSET UNITYSDK_OFFSET(0x196E0500)
-#define AKMIDIEVENT_SET_BYVALUELSB_OFFSET UNITYSDK_OFFSET(0x196E0C30)
-#define AKMIDIEVENT_SET_BYVALUEMSB_OFFSET UNITYSDK_OFFSET(0x196E0DA0)
-#define AKMIDIEVENT_SET_BYVELOCITY_OFFSET UNITYSDK_OFFSET(0x196E07E0)
-#define AKMIDIEVENT_SET_CC_OFFSET UNITYSDK_OFFSET(0x196DF5A0)
-#define AKMIDIEVENT_SET_CHANAFTERTOUCH_OFFSET UNITYSDK_OFFSET(0x196DFFE0)
-#define AKMIDIEVENT_SET_GEN_OFFSET UNITYSDK_OFFSET(0x196DF310)
-#define AKMIDIEVENT_SET_NOTEAFTERTOUCH_OFFSET UNITYSDK_OFFSET(0x196DFD50)
-#define AKMIDIEVENT_SET_NOTEONOFF_OFFSET UNITYSDK_OFFSET(0x196DF830)
-#define AKMIDIEVENT_SET_PITCHBEND_OFFSET UNITYSDK_OFFSET(0x196DFAC0)
-#define AKMIDIEVENT_SET_PROGRAMCHANGE_OFFSET UNITYSDK_OFFSET(0x196E0270)
-#define AKMIDIEVENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x196E14D0)
-#define AKMIDIEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x196DEDF0)
+#define AKMIDIEVENT_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1A26AF20)
+#define AKMIDIEVENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A26AE00)
+#define AKMIDIEVENT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A26AEB0)
+#define AKMIDIEVENT_GETCPTR_OFFSET UNITYSDK_OFFSET(0x1A26ACC0)
+#define AKMIDIEVENT_GET_BYAFTERTOUCHNOTE_OFFSET UNITYSDK_OFFSET(0x1A26CF30)
+#define AKMIDIEVENT_GET_BYCCVALUE_OFFSET UNITYSDK_OFFSET(0x1A26CAE0)
+#define AKMIDIEVENT_GET_BYCC_OFFSET UNITYSDK_OFFSET(0x1A26C970)
+#define AKMIDIEVENT_GET_BYCHANAFTERTOUCHVALUE_OFFSET UNITYSDK_OFFSET(0x1A26D210)
+#define AKMIDIEVENT_GET_BYCHAN_OFFSET UNITYSDK_OFFSET(0x1A26B1C0)
+#define AKMIDIEVENT_GET_BYNOTEAFTERTOUCHVALUE_OFFSET UNITYSDK_OFFSET(0x1A26D0A0)
+#define AKMIDIEVENT_GET_BYONOFFNOTE_OFFSET UNITYSDK_OFFSET(0x1A26C690)
+#define AKMIDIEVENT_GET_BYPROGRAMNUM_OFFSET UNITYSDK_OFFSET(0x1A26D380)
+#define AKMIDIEVENT_GET_BYTYPE_OFFSET UNITYSDK_OFFSET(0x1A26C520)
+#define AKMIDIEVENT_GET_BYVALUELSB_OFFSET UNITYSDK_OFFSET(0x1A26CC50)
+#define AKMIDIEVENT_GET_BYVALUEMSB_OFFSET UNITYSDK_OFFSET(0x1A26CDC0)
+#define AKMIDIEVENT_GET_BYVELOCITY_OFFSET UNITYSDK_OFFSET(0x1A26C800)
+#define AKMIDIEVENT_GET_CC_OFFSET UNITYSDK_OFFSET(0x1A26B670)
+#define AKMIDIEVENT_GET_CHANAFTERTOUCH_OFFSET UNITYSDK_OFFSET(0x1A26C0B0)
+#define AKMIDIEVENT_GET_GEN_OFFSET UNITYSDK_OFFSET(0x1A26B3E0)
+#define AKMIDIEVENT_GET_NOTEAFTERTOUCH_OFFSET UNITYSDK_OFFSET(0x1A26BE20)
+#define AKMIDIEVENT_GET_NOTEONOFF_OFFSET UNITYSDK_OFFSET(0x1A26B900)
+#define AKMIDIEVENT_GET_PITCHBEND_OFFSET UNITYSDK_OFFSET(0x1A26BB90)
+#define AKMIDIEVENT_GET_PROGRAMCHANGE_OFFSET UNITYSDK_OFFSET(0x1A26C340)
+#define AKMIDIEVENT_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1A26AD10)
+#define AKMIDIEVENT_SET_BYAFTERTOUCHNOTE_OFFSET UNITYSDK_OFFSET(0x1A26CE70)
+#define AKMIDIEVENT_SET_BYCCVALUE_OFFSET UNITYSDK_OFFSET(0x1A26CA20)
+#define AKMIDIEVENT_SET_BYCC_OFFSET UNITYSDK_OFFSET(0x1A26C8B0)
+#define AKMIDIEVENT_SET_BYCHANAFTERTOUCHVALUE_OFFSET UNITYSDK_OFFSET(0x1A26D150)
+#define AKMIDIEVENT_SET_BYCHAN_OFFSET UNITYSDK_OFFSET(0x1A26B100)
+#define AKMIDIEVENT_SET_BYNOTEAFTERTOUCHVALUE_OFFSET UNITYSDK_OFFSET(0x1A26CFE0)
+#define AKMIDIEVENT_SET_BYONOFFNOTE_OFFSET UNITYSDK_OFFSET(0x1A26C5D0)
+#define AKMIDIEVENT_SET_BYPROGRAMNUM_OFFSET UNITYSDK_OFFSET(0x1A26D2C0)
+#define AKMIDIEVENT_SET_BYTYPE_OFFSET UNITYSDK_OFFSET(0x1A26C460)
+#define AKMIDIEVENT_SET_BYVALUELSB_OFFSET UNITYSDK_OFFSET(0x1A26CB90)
+#define AKMIDIEVENT_SET_BYVALUEMSB_OFFSET UNITYSDK_OFFSET(0x1A26CD00)
+#define AKMIDIEVENT_SET_BYVELOCITY_OFFSET UNITYSDK_OFFSET(0x1A26C740)
+#define AKMIDIEVENT_SET_CC_OFFSET UNITYSDK_OFFSET(0x1A26B500)
+#define AKMIDIEVENT_SET_CHANAFTERTOUCH_OFFSET UNITYSDK_OFFSET(0x1A26BF40)
+#define AKMIDIEVENT_SET_GEN_OFFSET UNITYSDK_OFFSET(0x1A26B270)
+#define AKMIDIEVENT_SET_NOTEAFTERTOUCH_OFFSET UNITYSDK_OFFSET(0x1A26BCB0)
+#define AKMIDIEVENT_SET_NOTEONOFF_OFFSET UNITYSDK_OFFSET(0x1A26B790)
+#define AKMIDIEVENT_SET_PITCHBEND_OFFSET UNITYSDK_OFFSET(0x1A26BA20)
+#define AKMIDIEVENT_SET_PROGRAMCHANGE_OFFSET UNITYSDK_OFFSET(0x1A26C1D0)
+#define AKMIDIEVENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A26D430)
+#define AKMIDIEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A26ACB0)
 
-inline static constexpr unsigned int AkMIDIEvent_TypeDefinitionIndex = 40305;
+inline static constexpr unsigned int AkMIDIEvent_TypeDefinitionIndex = 41132;
 
 class AkMIDIEvent : public ::System::Object
 {
 public:
-	::System::IntPtr swigCPtr; // 0x10
-	::System::Boolean swigCMemOwn; // 0x18
+	::System::Boolean swigCMemOwn; // 0x10
+	::System::IntPtr swigCPtr; // 0x18
 
-	::System::Void _ctor(::System::IntPtr cPtr, ::System::Boolean cMemoryOwn)
+	::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKMIDIEVENT__CTOR_OFFSET))(this, cPtr, cMemoryOwn);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKMIDIEVENT__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void _ctor_1()
@@ -76,14 +76,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIEVENT__CTOR_1_OFFSET))(this);
 	}
 
-	static ::System::IntPtr getCPtr(::AkMIDIEvent* obj)
+	static ::System::IntPtr getCPtr(::AkMIDIEvent* a1)
 	{
-		return ((::System::IntPtr(*)(::AkMIDIEvent*))((::PBYTE)hIl2Cpp + AKMIDIEVENT_GETCPTR_OFFSET))(obj);
+		return ((::System::IntPtr(*)(::AkMIDIEvent*))((::PBYTE)hIl2Cpp + AKMIDIEVENT_GETCPTR_OFFSET))(a1);
 	}
 
-	::System::Void setCPtr(::System::IntPtr cPtr)
+	::System::Void setCPtr(::System::IntPtr a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SETCPTR_OFFSET))(this, cPtr);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SETCPTR_OFFSET))(this, a1);
 	}
 
 	::System::Void Finalize()
@@ -96,14 +96,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIEVENT_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Dispose_1(::System::Boolean disposing)
+	::System::Void Dispose_1(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKMIDIEVENT_DISPOSE_1_OFFSET))(this, disposing);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKMIDIEVENT_DISPOSE_1_OFFSET))(this, a1);
 	}
 
-	::System::Void set_byChan(::System::Byte value)
+	::System::Void set_byChan(::System::Byte a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYCHAN_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYCHAN_OFFSET))(this, a1);
 	}
 
 	::System::Byte get_byChan()
@@ -111,9 +111,9 @@ public:
 		return ((::System::Byte(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIEVENT_GET_BYCHAN_OFFSET))(this);
 	}
 
-	::System::Void set_Gen(::AkMIDIEvent_tGen* value)
+	::System::Void set_Gen(::AkMIDIEvent_tGen* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkMIDIEvent_tGen*))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_GEN_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::AkMIDIEvent_tGen*))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_GEN_OFFSET))(this, a1);
 	}
 
 	::AkMIDIEvent_tGen* get_Gen()
@@ -121,9 +121,9 @@ public:
 		return ((::AkMIDIEvent_tGen*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIEVENT_GET_GEN_OFFSET))(this);
 	}
 
-	::System::Void set_Cc(::AkMIDIEvent_tCc* value)
+	::System::Void set_Cc(::AkMIDIEvent_tCc* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkMIDIEvent_tCc*))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_CC_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::AkMIDIEvent_tCc*))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_CC_OFFSET))(this, a1);
 	}
 
 	::AkMIDIEvent_tCc* get_Cc()
@@ -131,9 +131,9 @@ public:
 		return ((::AkMIDIEvent_tCc*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIEVENT_GET_CC_OFFSET))(this);
 	}
 
-	::System::Void set_NoteOnOff(::AkMIDIEvent_tNoteOnOff* value)
+	::System::Void set_NoteOnOff(::AkMIDIEvent_tNoteOnOff* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkMIDIEvent_tNoteOnOff*))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_NOTEONOFF_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::AkMIDIEvent_tNoteOnOff*))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_NOTEONOFF_OFFSET))(this, a1);
 	}
 
 	::AkMIDIEvent_tNoteOnOff* get_NoteOnOff()
@@ -141,9 +141,9 @@ public:
 		return ((::AkMIDIEvent_tNoteOnOff*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIEVENT_GET_NOTEONOFF_OFFSET))(this);
 	}
 
-	::System::Void set_PitchBend(::AkMIDIEvent_tPitchBend* value)
+	::System::Void set_PitchBend(::AkMIDIEvent_tPitchBend* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkMIDIEvent_tPitchBend*))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_PITCHBEND_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::AkMIDIEvent_tPitchBend*))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_PITCHBEND_OFFSET))(this, a1);
 	}
 
 	::AkMIDIEvent_tPitchBend* get_PitchBend()
@@ -151,9 +151,9 @@ public:
 		return ((::AkMIDIEvent_tPitchBend*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIEVENT_GET_PITCHBEND_OFFSET))(this);
 	}
 
-	::System::Void set_NoteAftertouch(::AkMIDIEvent_tNoteAftertouch* value)
+	::System::Void set_NoteAftertouch(::AkMIDIEvent_tNoteAftertouch* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkMIDIEvent_tNoteAftertouch*))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_NOTEAFTERTOUCH_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::AkMIDIEvent_tNoteAftertouch*))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_NOTEAFTERTOUCH_OFFSET))(this, a1);
 	}
 
 	::AkMIDIEvent_tNoteAftertouch* get_NoteAftertouch()
@@ -161,9 +161,9 @@ public:
 		return ((::AkMIDIEvent_tNoteAftertouch*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIEVENT_GET_NOTEAFTERTOUCH_OFFSET))(this);
 	}
 
-	::System::Void set_ChanAftertouch(::AkMIDIEvent_tChanAftertouch* value)
+	::System::Void set_ChanAftertouch(::AkMIDIEvent_tChanAftertouch* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkMIDIEvent_tChanAftertouch*))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_CHANAFTERTOUCH_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::AkMIDIEvent_tChanAftertouch*))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_CHANAFTERTOUCH_OFFSET))(this, a1);
 	}
 
 	::AkMIDIEvent_tChanAftertouch* get_ChanAftertouch()
@@ -171,9 +171,9 @@ public:
 		return ((::AkMIDIEvent_tChanAftertouch*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIEVENT_GET_CHANAFTERTOUCH_OFFSET))(this);
 	}
 
-	::System::Void set_ProgramChange(::AkMIDIEvent_tProgramChange* value)
+	::System::Void set_ProgramChange(::AkMIDIEvent_tProgramChange* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkMIDIEvent_tProgramChange*))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_PROGRAMCHANGE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::AkMIDIEvent_tProgramChange*))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_PROGRAMCHANGE_OFFSET))(this, a1);
 	}
 
 	::AkMIDIEvent_tProgramChange* get_ProgramChange()
@@ -181,9 +181,9 @@ public:
 		return ((::AkMIDIEvent_tProgramChange*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIEVENT_GET_PROGRAMCHANGE_OFFSET))(this);
 	}
 
-	::System::Void set_byType(::AkMIDIEventTypes value)
+	::System::Void set_byType(::AkMIDIEventTypes a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkMIDIEventTypes))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYTYPE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::AkMIDIEventTypes))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYTYPE_OFFSET))(this, a1);
 	}
 
 	::AkMIDIEventTypes get_byType()
@@ -191,9 +191,9 @@ public:
 		return ((::AkMIDIEventTypes(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIEVENT_GET_BYTYPE_OFFSET))(this);
 	}
 
-	::System::Void set_byOnOffNote(::System::Byte value)
+	::System::Void set_byOnOffNote(::System::Byte a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYONOFFNOTE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYONOFFNOTE_OFFSET))(this, a1);
 	}
 
 	::System::Byte get_byOnOffNote()
@@ -201,9 +201,9 @@ public:
 		return ((::System::Byte(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIEVENT_GET_BYONOFFNOTE_OFFSET))(this);
 	}
 
-	::System::Void set_byVelocity(::System::Byte value)
+	::System::Void set_byVelocity(::System::Byte a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYVELOCITY_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYVELOCITY_OFFSET))(this, a1);
 	}
 
 	::System::Byte get_byVelocity()
@@ -211,9 +211,9 @@ public:
 		return ((::System::Byte(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIEVENT_GET_BYVELOCITY_OFFSET))(this);
 	}
 
-	::System::Void set_byCc(::AkMIDICcTypes value)
+	::System::Void set_byCc(::AkMIDICcTypes a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkMIDICcTypes))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYCC_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::AkMIDICcTypes))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYCC_OFFSET))(this, a1);
 	}
 
 	::AkMIDICcTypes get_byCc()
@@ -221,9 +221,9 @@ public:
 		return ((::AkMIDICcTypes(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIEVENT_GET_BYCC_OFFSET))(this);
 	}
 
-	::System::Void set_byCcValue(::System::Byte value)
+	::System::Void set_byCcValue(::System::Byte a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYCCVALUE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYCCVALUE_OFFSET))(this, a1);
 	}
 
 	::System::Byte get_byCcValue()
@@ -231,9 +231,9 @@ public:
 		return ((::System::Byte(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIEVENT_GET_BYCCVALUE_OFFSET))(this);
 	}
 
-	::System::Void set_byValueLsb(::System::Byte value)
+	::System::Void set_byValueLsb(::System::Byte a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYVALUELSB_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYVALUELSB_OFFSET))(this, a1);
 	}
 
 	::System::Byte get_byValueLsb()
@@ -241,9 +241,9 @@ public:
 		return ((::System::Byte(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIEVENT_GET_BYVALUELSB_OFFSET))(this);
 	}
 
-	::System::Void set_byValueMsb(::System::Byte value)
+	::System::Void set_byValueMsb(::System::Byte a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYVALUEMSB_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYVALUEMSB_OFFSET))(this, a1);
 	}
 
 	::System::Byte get_byValueMsb()
@@ -251,9 +251,9 @@ public:
 		return ((::System::Byte(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIEVENT_GET_BYVALUEMSB_OFFSET))(this);
 	}
 
-	::System::Void set_byAftertouchNote(::System::Byte value)
+	::System::Void set_byAftertouchNote(::System::Byte a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYAFTERTOUCHNOTE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYAFTERTOUCHNOTE_OFFSET))(this, a1);
 	}
 
 	::System::Byte get_byAftertouchNote()
@@ -261,9 +261,9 @@ public:
 		return ((::System::Byte(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIEVENT_GET_BYAFTERTOUCHNOTE_OFFSET))(this);
 	}
 
-	::System::Void set_byNoteAftertouchValue(::System::Byte value)
+	::System::Void set_byNoteAftertouchValue(::System::Byte a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYNOTEAFTERTOUCHVALUE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYNOTEAFTERTOUCHVALUE_OFFSET))(this, a1);
 	}
 
 	::System::Byte get_byNoteAftertouchValue()
@@ -271,9 +271,9 @@ public:
 		return ((::System::Byte(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIEVENT_GET_BYNOTEAFTERTOUCHVALUE_OFFSET))(this);
 	}
 
-	::System::Void set_byChanAftertouchValue(::System::Byte value)
+	::System::Void set_byChanAftertouchValue(::System::Byte a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYCHANAFTERTOUCHVALUE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYCHANAFTERTOUCHVALUE_OFFSET))(this, a1);
 	}
 
 	::System::Byte get_byChanAftertouchValue()
@@ -281,9 +281,9 @@ public:
 		return ((::System::Byte(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMIDIEVENT_GET_BYCHANAFTERTOUCHVALUE_OFFSET))(this);
 	}
 
-	::System::Void set_byProgramNum(::System::Byte value)
+	::System::Void set_byProgramNum(::System::Byte a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYPROGRAMNUM_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + AKMIDIEVENT_SET_BYPROGRAMNUM_OFFSET))(this, a1);
 	}
 
 	::System::Byte get_byProgramNum()

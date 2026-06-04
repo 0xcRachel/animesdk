@@ -7,14 +7,17 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYSTATUSCOUNT_METHOD_4_945A0C20BF0D6408_OFFSET UNITYSDK_OFFSET(0x19A70D20)
-#define RPG_GAMECORE_BYSTATUSCOUNT_METHOD_4_DE032D9922A48C70_OFFSET UNITYSDK_OFFSET(0x19A70E00)
-#define RPG_GAMECORE_BYSTATUSCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x19A70DA0)
+#define RPG_GAMECORE_BYSTATUSCOUNT_METHOD_4_5A54384EF7D919CA_OFFSET UNITYSDK_OFFSET(0x19E6A610)
+#define RPG_GAMECORE_BYSTATUSCOUNT_METHOD_4_945A0C20BF0D6408_OFFSET UNITYSDK_OFFSET(0x19E6A2C0)
+#define RPG_GAMECORE_BYSTATUSCOUNT_METHOD_4_DE032D9922A48C70_OFFSET UNITYSDK_OFFSET(0x19E6A3A0)
+#define RPG_GAMECORE_BYSTATUSCOUNT_METHOD_4_EBC84F05B44A34C9_OFFSET UNITYSDK_OFFSET(0x19E6A690)
+#define RPG_GAMECORE_BYSTATUSCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E6A340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByStatusCount_TypeDefinitionIndex = 21444;
+	inline static constexpr unsigned int ByStatusCount_TypeDefinitionIndex = 21328;
 
 	class ByStatusCount : public ::RPG::GameCore::PredicateConfig
 	{
@@ -37,6 +40,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_DE032D9922A48C70(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByStatusCount* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByStatusCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSTATUSCOUNT_METHOD_4_DE032D9922A48C70_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_5A54384EF7D919CA(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByStatusCount*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByStatusCount*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSTATUSCOUNT_METHOD_4_5A54384EF7D919CA_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_EBC84F05B44A34C9(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByStatusCount* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByStatusCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSTATUSCOUNT_METHOD_4_EBC84F05B44A34C9_OFFSET))(a1, a2);
 		}
 	};
 }

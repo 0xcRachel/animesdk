@@ -6,26 +6,26 @@ namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_6E0B9E69D0FC929E_METHOD_2_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xEB54070)
-#define CLASS_2_6E0B9E69D0FC929E_METHOD_2_283228DCA08F69C7_OFFSET UNITYSDK_OFFSET(0xEB54160)
-#define CLASS_2_6E0B9E69D0FC929E_METHOD_2_3DFCA4C89D58D97F_OFFSET UNITYSDK_OFFSET(0xEB53FB0)
-#define CLASS_2_6E0B9E69D0FC929E_METHOD_2_9D86A9A378EEE9C7_OFFSET UNITYSDK_OFFSET(0xEB53F40)
-#define CLASS_2_6E0B9E69D0FC929E__CTOR_OFFSET UNITYSDK_OFFSET(0xEB54210)
-#define CLASS_2_6E0B9E69D0FC929E__ONBIND_OFFSET UNITYSDK_OFFSET(0xEB53EE0)
-#define CLASS_2_6E0B9E69D0FC929E___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0xEB54240)
+#define CLASS_2_6E0B9E69D0FC929E_METHOD_2_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x1356C430)
+#define CLASS_2_6E0B9E69D0FC929E_METHOD_2_283228DCA08F69C7_OFFSET UNITYSDK_OFFSET(0x1356C520)
+#define CLASS_2_6E0B9E69D0FC929E_METHOD_2_3DFCA4C89D58D97F_OFFSET UNITYSDK_OFFSET(0x1356C370)
+#define CLASS_2_6E0B9E69D0FC929E_METHOD_2_9D86A9A378EEE9C7_OFFSET UNITYSDK_OFFSET(0x1356C300)
+#define CLASS_2_6E0B9E69D0FC929E__CTOR_OFFSET UNITYSDK_OFFSET(0x1356C5C0)
+#define CLASS_2_6E0B9E69D0FC929E__ONBIND_OFFSET UNITYSDK_OFFSET(0x1356C2A0)
+#define CLASS_2_6E0B9E69D0FC929E___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x1356C5F0)
 
-inline static constexpr unsigned int Class_2_6E0B9E69D0FC929E_TypeDefinitionIndex = 66328;
+inline static constexpr unsigned int Class_2_6E0B9E69D0FC929E_TypeDefinitionIndex = 67267;
 
 class Class_2_6E0B9E69D0FC929E : public ::Class_1_CA217ABF4E3B4F3F
 {
 public:
+	// static const ::System::String* Field_2_0; // 0x0
+	// static const ::System::String* Field_2_1; // 0x0
+	// static const ::System::String* Field_2_2; // 0x0
 	// static const ::System::String* Field_2_3; // 0x0
-	// static const ::System::String* Field_2_4; // 0x0
-	// static const ::System::String* Field_2_5; // 0x0
-	// static const ::System::String* Field_2_6; // 0x0
-	::UnityEngine::GameObject* Field_2_0; // 0x60
-	::UnityEngine::Animation* Field_2_1; // 0x68
-	::System::Boolean Field_2_2; // 0x70
+	::UnityEngine::GameObject* Field_2_4; // 0x60
+	::UnityEngine::Animation* Field_2_5; // 0x68
+	::System::Boolean Field_2_6; // 0x70
 
 	::System::Void _ctor()
 	{

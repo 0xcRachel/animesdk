@@ -1,73 +1,70 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-class Class_1_256D9F63CEA2C6FD;
+class Class_1_843DD6330B22E422;
 namespace RPG::GameCore { class AttackData; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_CLEAR_OFFSET UNITYSDK_OFFSET(0x192090B0)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19209160)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19209110)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_ABILITYID_OFFSET UNITYSDK_OFFSET(0x19209210)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_ATTACKDATAREF_OFFSET UNITYSDK_OFFSET(0x192091D0)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_ATTACKERENTITYREF_OFFSET UNITYSDK_OFFSET(0x19209250)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_ATTACKERID_OFFSET UNITYSDK_OFFSET(0x19209230)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_CUSTOMNAME_OFFSET UNITYSDK_OFFSET(0x192091F0)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_DAMAGEDATAREF_OFFSET UNITYSDK_OFFSET(0x192091B0)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_DEFENDERENTITYREF_OFFSET UNITYSDK_OFFSET(0x19209290)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_DEFENDERID_OFFSET UNITYSDK_OFFSET(0x19209270)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_HPDAMAGEMULTIPLIER_OFFSET UNITYSDK_OFFSET(0x192092D0)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_HPDAMAGE_OFFSET UNITYSDK_OFFSET(0x192092B0)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_STANCEDAMAGE_OFFSET UNITYSDK_OFFSET(0x192092F0)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_STANCEELEMENTRATIO_OFFSET UNITYSDK_OFFSET(0x19209310)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_INIT_OFFSET UNITYSDK_OFFSET(0x19208E00)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_ABILITYID_OFFSET UNITYSDK_OFFSET(0x19209220)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_ATTACKDATAREF_OFFSET UNITYSDK_OFFSET(0x192091E0)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_ATTACKERENTITYREF_OFFSET UNITYSDK_OFFSET(0x19209260)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_ATTACKERID_OFFSET UNITYSDK_OFFSET(0x19209240)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_CUSTOMNAME_OFFSET UNITYSDK_OFFSET(0x19209200)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_DAMAGEDATAREF_OFFSET UNITYSDK_OFFSET(0x192091C0)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_DEFENDERENTITYREF_OFFSET UNITYSDK_OFFSET(0x192092A0)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_DEFENDERID_OFFSET UNITYSDK_OFFSET(0x19209280)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_HPDAMAGEMULTIPLIER_OFFSET UNITYSDK_OFFSET(0x192092E0)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_HPDAMAGE_OFFSET UNITYSDK_OFFSET(0x192092C0)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_STANCEDAMAGE_OFFSET UNITYSDK_OFFSET(0x19209300)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_STANCEELEMENTRATIO_OFFSET UNITYSDK_OFFSET(0x19209320)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x19209330)
-#define RPG_GAMECORE_LEVELPREDAMAGEENTITY___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x19209340)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_CLEAR_OFFSET UNITYSDK_OFFSET(0x19B754B0)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19B75560)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19B75510)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_ABILITYID_OFFSET UNITYSDK_OFFSET(0x19B75610)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_ATTACKDATAREF_OFFSET UNITYSDK_OFFSET(0x19B755D0)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_ATTACKERENTITYREF_OFFSET UNITYSDK_OFFSET(0x19B75650)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_ATTACKERID_OFFSET UNITYSDK_OFFSET(0x19B75630)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_CUSTOMNAME_OFFSET UNITYSDK_OFFSET(0x19B755F0)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_DAMAGEDATAREF_OFFSET UNITYSDK_OFFSET(0x19B755B0)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_DEFENDERENTITYREF_OFFSET UNITYSDK_OFFSET(0x19B75690)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_DEFENDERID_OFFSET UNITYSDK_OFFSET(0x19B75670)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_HPDAMAGE_OFFSET UNITYSDK_OFFSET(0x19B756B0)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_STANCEDAMAGE_OFFSET UNITYSDK_OFFSET(0x19B756D0)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_STANCEELEMENTRATIO_OFFSET UNITYSDK_OFFSET(0x19B756F0)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_INIT_OFFSET UNITYSDK_OFFSET(0x19B75270)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_ABILITYID_OFFSET UNITYSDK_OFFSET(0x19B75620)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_ATTACKDATAREF_OFFSET UNITYSDK_OFFSET(0x19B755E0)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_ATTACKERENTITYREF_OFFSET UNITYSDK_OFFSET(0x19B75660)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_ATTACKERID_OFFSET UNITYSDK_OFFSET(0x19B75640)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_CUSTOMNAME_OFFSET UNITYSDK_OFFSET(0x19B75600)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_DAMAGEDATAREF_OFFSET UNITYSDK_OFFSET(0x19B755C0)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_DEFENDERENTITYREF_OFFSET UNITYSDK_OFFSET(0x19B756A0)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_DEFENDERID_OFFSET UNITYSDK_OFFSET(0x19B75680)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_HPDAMAGE_OFFSET UNITYSDK_OFFSET(0x19B756C0)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_STANCEDAMAGE_OFFSET UNITYSDK_OFFSET(0x19B756E0)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_STANCEELEMENTRATIO_OFFSET UNITYSDK_OFFSET(0x19B75700)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x19B75710)
+#define RPG_GAMECORE_LEVELPREDAMAGEENTITY___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x19B75720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPreDamageEntity_TypeDefinitionIndex = 52285;
+	inline static constexpr unsigned int LevelPreDamageEntity_TypeDefinitionIndex = 52982;
 
-	class LevelPreDamageEntity : public ::Class_1_9988289E7F8AA214
+	class LevelPreDamageEntity : public ::Class_1_BF7A075734D15E98
 	{
 	public:
-		::RPG::GameCore::AttackData* _AttackDataRef_k__BackingField; // 0x18
-		::System::String* _AbilityID_k__BackingField; // 0x20
-		::Class_1_256D9F63CEA2C6FD* _DamageDataRef_k__BackingField; // 0x28
-		::System::String* _CustomName_k__BackingField; // 0x30
-		::RPG::GameCore::GameEntity* _AttackerEntityRef_k__BackingField; // 0x38
+		::System::String* _CustomName_k__BackingField; // 0x18
+		::RPG::GameCore::AttackData* _AttackDataRef_k__BackingField; // 0x20
+		::Class_1_843DD6330B22E422* _DamageDataRef_k__BackingField; // 0x28
+		::RPG::GameCore::GameEntity* _AttackerEntityRef_k__BackingField; // 0x30
+		::System::String* _AbilityID_k__BackingField; // 0x38
 		::RPG::GameCore::GameEntity* _DefenderEntityRef_k__BackingField; // 0x40
-		::System::UInt32 _DefenderID_k__BackingField; // 0x48
-		::System::UInt32 _AttackerID_k__BackingField; // 0x4C
-		::RPG::GameCore::FixPoint _StanceDamage_k__BackingField; // 0x50
-		::RPG::GameCore::FixPoint _HPDamage_k__BackingField; // 0x58
-		::RPG::GameCore::FixPoint _StanceElementRatio_k__BackingField; // 0x60
-		::RPG::GameCore::FixPoint _HPDamageMultiplier_k__BackingField; // 0x68
+		::RPG::GameCore::FixPoint _HPDamage_k__BackingField; // 0x48
+		::System::UInt32 _AttackerID_k__BackingField; // 0x50
+		::System::UInt32 _DefenderID_k__BackingField; // 0x54
+		::RPG::GameCore::FixPoint _StanceElementRatio_k__BackingField; // 0x58
+		::RPG::GameCore::FixPoint _StanceDamage_k__BackingField; // 0x60
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelPreDamageEntity* Init(::Class_1_256D9F63CEA2C6FD* pDamageData, ::RPG::GameCore::AttackData* pAttackData, ::System::String* sAbilityID, ::RPG::GameCore::GameEntity* pAttacker, ::RPG::GameCore::GameEntity* pDefender, ::RPG::GameCore::FixPoint fHPDamage, ::RPG::GameCore::FixPoint fHPDamageMultiplier, ::RPG::GameCore::FixPoint fStanceElementRatio, ::RPG::GameCore::FixPoint fStanceDamage, ::System::String* customName)
+		::RPG::GameCore::LevelPreDamageEntity* Init(::Class_1_843DD6330B22E422* a1, ::RPG::GameCore::AttackData* a2, ::System::String* a3, ::RPG::GameCore::GameEntity* a4, ::RPG::GameCore::GameEntity* a5, ::RPG::GameCore::FixPoint a6, ::RPG::GameCore::FixPoint a7, ::RPG::GameCore::FixPoint a8, ::System::String* a9)
 		{
-			return ((::RPG::GameCore::LevelPreDamageEntity*(*)(::PVOID, ::Class_1_256D9F63CEA2C6FD*, ::RPG::GameCore::AttackData*, ::System::String*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_INIT_OFFSET))(this, pDamageData, pAttackData, sAbilityID, pAttacker, pDefender, fHPDamage, fHPDamageMultiplier, fStanceElementRatio, fStanceDamage, customName);
+			return ((::RPG::GameCore::LevelPreDamageEntity*(*)(::PVOID, ::Class_1_843DD6330B22E422*, ::RPG::GameCore::AttackData*, ::System::String*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_INIT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 		::System::Void Clear()
@@ -85,14 +82,14 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_GETEVENTTYPE_OFFSET))(this);
 		}
 
-		::Class_1_256D9F63CEA2C6FD* get_DamageDataRef()
+		::Class_1_843DD6330B22E422* get_DamageDataRef()
 		{
-			return ((::Class_1_256D9F63CEA2C6FD*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_DAMAGEDATAREF_OFFSET))(this);
+			return ((::Class_1_843DD6330B22E422*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_DAMAGEDATAREF_OFFSET))(this);
 		}
 
-		::System::Void set_DamageDataRef(::Class_1_256D9F63CEA2C6FD* value)
+		::System::Void set_DamageDataRef(::Class_1_843DD6330B22E422* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_256D9F63CEA2C6FD*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_DAMAGEDATAREF_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Class_1_843DD6330B22E422*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_DAMAGEDATAREF_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::AttackData* get_AttackDataRef()
@@ -100,9 +97,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::AttackData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_ATTACKDATAREF_OFFSET))(this);
 		}
 
-		::System::Void set_AttackDataRef(::RPG::GameCore::AttackData* value)
+		::System::Void set_AttackDataRef(::RPG::GameCore::AttackData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AttackData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_ATTACKDATAREF_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AttackData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_ATTACKDATAREF_OFFSET))(this, a1);
 		}
 
 		::System::String* get_CustomName()
@@ -110,9 +107,9 @@ namespace RPG::GameCore
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_CUSTOMNAME_OFFSET))(this);
 		}
 
-		::System::Void set_CustomName(::System::String* value)
+		::System::Void set_CustomName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_CUSTOMNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_CUSTOMNAME_OFFSET))(this, a1);
 		}
 
 		::System::String* get_AbilityID()
@@ -120,9 +117,9 @@ namespace RPG::GameCore
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_ABILITYID_OFFSET))(this);
 		}
 
-		::System::Void set_AbilityID(::System::String* value)
+		::System::Void set_AbilityID(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_ABILITYID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_ABILITYID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_AttackerID()
@@ -130,9 +127,9 @@ namespace RPG::GameCore
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_ATTACKERID_OFFSET))(this);
 		}
 
-		::System::Void set_AttackerID(::System::UInt32 value)
+		::System::Void set_AttackerID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_ATTACKERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_ATTACKERID_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::GameEntity* get_AttackerEntityRef()
@@ -140,9 +137,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_ATTACKERENTITYREF_OFFSET))(this);
 		}
 
-		::System::Void set_AttackerEntityRef(::RPG::GameCore::GameEntity* value)
+		::System::Void set_AttackerEntityRef(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_ATTACKERENTITYREF_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_ATTACKERENTITYREF_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_DefenderID()
@@ -150,9 +147,9 @@ namespace RPG::GameCore
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_DEFENDERID_OFFSET))(this);
 		}
 
-		::System::Void set_DefenderID(::System::UInt32 value)
+		::System::Void set_DefenderID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_DEFENDERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_DEFENDERID_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::GameEntity* get_DefenderEntityRef()
@@ -160,9 +157,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_DEFENDERENTITYREF_OFFSET))(this);
 		}
 
-		::System::Void set_DefenderEntityRef(::RPG::GameCore::GameEntity* value)
+		::System::Void set_DefenderEntityRef(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_DEFENDERENTITYREF_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_DEFENDERENTITYREF_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::FixPoint get_HPDamage()
@@ -170,19 +167,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_HPDAMAGE_OFFSET))(this);
 		}
 
-		::System::Void set_HPDamage(::RPG::GameCore::FixPoint value)
+		::System::Void set_HPDamage(::RPG::GameCore::FixPoint a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_HPDAMAGE_OFFSET))(this, value);
-		}
-
-		::RPG::GameCore::FixPoint get_HPDamageMultiplier()
-		{
-			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_HPDAMAGEMULTIPLIER_OFFSET))(this);
-		}
-
-		::System::Void set_HPDamageMultiplier(::RPG::GameCore::FixPoint value)
-		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_HPDAMAGEMULTIPLIER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_HPDAMAGE_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::FixPoint get_StanceDamage()
@@ -190,9 +177,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_STANCEDAMAGE_OFFSET))(this);
 		}
 
-		::System::Void set_StanceDamage(::RPG::GameCore::FixPoint value)
+		::System::Void set_StanceDamage(::RPG::GameCore::FixPoint a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_STANCEDAMAGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_STANCEDAMAGE_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::FixPoint get_StanceElementRatio()
@@ -200,9 +187,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_GET_STANCEELEMENTRATIO_OFFSET))(this);
 		}
 
-		::System::Void set_StanceElementRatio(::RPG::GameCore::FixPoint value)
+		::System::Void set_StanceElementRatio(::RPG::GameCore::FixPoint a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_STANCEELEMENTRATIO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPREDAMAGEENTITY_SET_STANCEELEMENTRATIO_OFFSET))(this, a1);
 		}
 
 		::System::Void __iFixBaseProxy_Clear()

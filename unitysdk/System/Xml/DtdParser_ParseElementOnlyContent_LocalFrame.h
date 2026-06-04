@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Xml/DtdParser_Token.h"
 
-#define SYSTEM_XML_DTDPARSER_PARSEELEMENTONLYCONTENT_LOCALFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x186C9D10)
+#define SYSTEM_XML_DTDPARSER_PARSEELEMENTONLYCONTENT_LOCALFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x18A75AC0)
 
 namespace System::Xml
 {
@@ -15,9 +15,9 @@ namespace System::Xml
 		::System::Xml::DtdParser_Token parsingSchema; // 0x10
 		::System::Int32 startParenEntityId; // 0x14
 
-		::System::Void _ctor(::System::Int32 startParentEntityIdParam)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_DTDPARSER_PARSEELEMENTONLYCONTENT_LOCALFRAME__CTOR_OFFSET))(this, startParentEntityIdParam);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_DTDPARSER_PARSEELEMENTONLYCONTENT_LOCALFRAME__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

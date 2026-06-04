@@ -4,24 +4,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONDETAILDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x170773F0)
-#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONDETAILDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17077430)
-#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONDETAILDATA___C__GET__ISANYTASKOPTIONFINISH_B__21_0_OFFSET UNITYSDK_OFFSET(0x17077440)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONDETAILDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18819DD0)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONDETAILDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18819E10)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONDETAILDATA___C__GET__ISANYTASKOPTIONFINISH_B__21_0_OFFSET UNITYSDK_OFFSET(0x18819E20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityPhotoExhibitionDetailData___c_TypeDefinitionIndex = 56927;
+	inline static constexpr unsigned int ActivityPhotoExhibitionDetailData___c_TypeDefinitionIndex = 57715;
 
 	class ActivityPhotoExhibitionDetailData___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ActivityPhotoExhibitionDetailData___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityPhotoExhibitionDetailData___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityPhotoExhibitionDetailData___c_TypeDefinitionIndex)->GetStaticField(0x4F7E0);
+			return (::RPG::Client::ActivityPhotoExhibitionDetailData___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityPhotoExhibitionDetailData___c_TypeDefinitionIndex)->GetStaticField(0x53BD0);
 		}
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__21_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPhotoExhibitionDetailData___c_TypeDefinitionIndex)->GetStaticField(0x4F7E8);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPhotoExhibitionDetailData___c_TypeDefinitionIndex)->GetStaticField(0x53BD8);
 		}
 
 		static ::System::Void _cctor()
@@ -34,9 +34,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONDETAILDATA___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _get__IsAnyTaskOptionFinish_b__21_0(::System::UInt32 x)
+		::System::Boolean _get__IsAnyTaskOptionFinish_b__21_0(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONDETAILDATA___C__GET__ISANYTASKOPTIONFINISH_B__21_0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONDETAILDATA___C__GET__ISANYTASKOPTIONFINISH_B__21_0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -11,39 +11,39 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class MessageDescriptor; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class ServiceDescriptor; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class ServiceDescriptorProto; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1851D420)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1851EEC0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x1851F300)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0___CTOR_B__2_OFFSET UNITYSDK_OFFSET(0x1851F3B0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18375460)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x18377080)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x18377530)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0___CTOR_B__2_OFFSET UNITYSDK_OFFSET(0x183775E0)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FileDescriptor___c__DisplayClass0_0_TypeDefinitionIndex = 33744;
+	inline static constexpr unsigned int FileDescriptor___c__DisplayClass0_0_TypeDefinitionIndex = 34026;
 
 	class FileDescriptor___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* __4__this; // 0x10
-		::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo* generatedCodeInfo; // 0x18
+		::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo* generatedCodeInfo; // 0x10
+		::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0__CTOR_OFFSET))(this);
 		}
 
-		::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* __ctor_b__0(::MiHoYo::SDK::Protobuf::Reflection::DescriptorProto* message, ::System::Int32 index)
+		::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* __ctor_b__0(::MiHoYo::SDK::Protobuf::Reflection::DescriptorProto* a1, ::System::Int32 a2)
 		{
-			return ((::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor*(*)(::PVOID, ::MiHoYo::SDK::Protobuf::Reflection::DescriptorProto*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET))(this, message, index);
+			return ((::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor*(*)(::PVOID, ::MiHoYo::SDK::Protobuf::Reflection::DescriptorProto*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET))(this, a1, a2);
 		}
 
-		::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptor* __ctor_b__1(::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptorProto* enumType, ::System::Int32 index)
+		::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptor* __ctor_b__1(::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptorProto* a1, ::System::Int32 a2)
 		{
-			return ((::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptor*(*)(::PVOID, ::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptorProto*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0___CTOR_B__1_OFFSET))(this, enumType, index);
+			return ((::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptor*(*)(::PVOID, ::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptorProto*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0___CTOR_B__1_OFFSET))(this, a1, a2);
 		}
 
-		::MiHoYo::SDK::Protobuf::Reflection::ServiceDescriptor* __ctor_b__2(::MiHoYo::SDK::Protobuf::Reflection::ServiceDescriptorProto* service, ::System::Int32 index)
+		::MiHoYo::SDK::Protobuf::Reflection::ServiceDescriptor* __ctor_b__2(::MiHoYo::SDK::Protobuf::Reflection::ServiceDescriptorProto* a1, ::System::Int32 a2)
 		{
-			return ((::MiHoYo::SDK::Protobuf::Reflection::ServiceDescriptor*(*)(::PVOID, ::MiHoYo::SDK::Protobuf::Reflection::ServiceDescriptorProto*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0___CTOR_B__2_OFFSET))(this, service, index);
+			return ((::MiHoYo::SDK::Protobuf::Reflection::ServiceDescriptor*(*)(::PVOID, ::MiHoYo::SDK::Protobuf::Reflection::ServiceDescriptorProto*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS0_0___CTOR_B__2_OFFSET))(this, a1, a2);
 		}
 	};
 }

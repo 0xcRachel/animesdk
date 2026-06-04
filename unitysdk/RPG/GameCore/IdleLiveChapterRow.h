@@ -7,37 +7,37 @@ class Class_1_7A22A3DBEEDD1F80;
 class Class_1_DA5E269DBF62B292;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVECHAPTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A87B80)
-#define RPG_GAMECORE_IDLELIVECHAPTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A88050)
+#define RPG_GAMECORE_IDLELIVECHAPTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AD3F90)
+#define RPG_GAMECORE_IDLELIVECHAPTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD4450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveChapterRow_TypeDefinitionIndex = 11130;
+	inline static constexpr unsigned int IdleLiveChapterRow_TypeDefinitionIndex = 11178;
 
 	class IdleLiveChapterRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::Class_1_DA5E269DBF62B292*>* FSVList; // 0x10
-		::System::String* BackgroundState; // 0x18
+		::System::String* BackgroundState; // 0x10
+		::Il2CppArray<::Class_1_DA5E269DBF62B292*>* FSVList; // 0x18
 		::System::String* IconPath; // 0x20
-		::RPG::Client::TextID Number; // 0x28
+		::System::Boolean IsHardMode; // 0x28
+		::System::Boolean ReturntoMaze; // 0x29
+		::System::UInt32 BossID; // 0x2C
+		::System::UInt32 FinalAct; // 0x30
+		::System::UInt32 FinalActChatPhase; // 0x34
 		::RPG::Client::TextID Name; // 0x38
-		::System::Boolean ReturntoMaze; // 0x48
-		::System::Boolean IsHardMode; // 0x49
-		::System::UInt32 BossID; // 0x4C
-		::System::UInt32 ChapterIndex; // 0x50
-		::System::UInt32 FinalAct; // 0x54
-		::System::UInt32 FinalActChatPhase; // 0x58
-		::System::UInt32 ActivityModuleID; // 0x5C
+		::System::UInt32 ChapterIndex; // 0x48
+		::System::UInt32 ActivityModuleID; // 0x4C
+		::RPG::Client::TextID Number; // 0x50
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVECHAPTERROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::IdleLiveChapterRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IdleLiveChapterRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveChapterRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVECHAPTERROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveChapterRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVECHAPTERROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

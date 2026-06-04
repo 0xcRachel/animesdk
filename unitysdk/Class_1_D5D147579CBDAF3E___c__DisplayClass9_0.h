@@ -7,16 +7,16 @@
 class Class_1_2F95775169BD5203;
 class WaveSimPanel;
 
-#define CLASS_1_D5D147579CBDAF3E___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10C8B920)
-#define CLASS_1_D5D147579CBDAF3E___C__DISPLAYCLASS9_0__TRIGGERFALLEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x10C8CBF0)
+#define CLASS_1_D5D147579CBDAF3E___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13C3C160)
+#define CLASS_1_D5D147579CBDAF3E___C__DISPLAYCLASS9_0__TRIGGERFALLEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x13C3D400)
 
-inline static constexpr unsigned int Class_1_D5D147579CBDAF3E___c__DisplayClass9_0_TypeDefinitionIndex = 65329;
+inline static constexpr unsigned int Class_1_D5D147579CBDAF3E___c__DisplayClass9_0_TypeDefinitionIndex = 66256;
 
 class Class_1_D5D147579CBDAF3E___c__DisplayClass9_0 : public ::System::Object
 {
 public:
-	::Class_1_2F95775169BD5203* instance; // 0x10
-	::WaveSimPanel* panel; // 0x18
+	::WaveSimPanel* panel; // 0x10
+	::Class_1_2F95775169BD5203* instance; // 0x18
 	::UnityEngine::Quaternion rotation; // 0x20
 	::UnityEngine::Vector3 position; // 0x30
 	::System::Single radius; // 0x3C

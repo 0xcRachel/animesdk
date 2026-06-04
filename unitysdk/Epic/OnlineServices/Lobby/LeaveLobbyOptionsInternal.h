@@ -7,15 +7,15 @@ namespace Epic::OnlineServices::Lobby { class LeaveLobbyOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x236D1A0)
-#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x236D130)
-#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYOPTIONSINTERNAL_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x236D070)
-#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x236CFB0)
-#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x236D120)
+#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3919BE0)
+#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x3919B60)
+#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYOPTIONSINTERNAL_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x3919AA0)
+#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x39199E0)
+#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x3919B50)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int LeaveLobbyOptionsInternal_TypeDefinitionIndex = 41868;
+	inline static constexpr unsigned int LeaveLobbyOptionsInternal_TypeDefinitionIndex = 42671;
 
 	struct alignas(8) LeaveLobbyOptionsInternal
 	{
@@ -23,24 +23,24 @@ namespace Epic::OnlineServices::Lobby
 		::System::IntPtr m_LocalUserId; // 0x18
 		::System::IntPtr m_LobbyId; // 0x20
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_LobbyId(::System::String* value)
+		::System::Void set_LobbyId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYOPTIONSINTERNAL_SET_LOBBYID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYOPTIONSINTERNAL_SET_LOBBYID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Lobby::LeaveLobbyOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Lobby::LeaveLobbyOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::LeaveLobbyOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::LeaveLobbyOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

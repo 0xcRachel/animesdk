@@ -6,25 +6,25 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define UNITYENGINE_ASYNCOPERATION_ADDCOMPLETIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x19CFFE80)
-#define UNITYENGINE_ASYNCOPERATION_ADD_COMPLETED_OFFSET UNITYSDK_OFFSET(0x19D00180)
-#define UNITYENGINE_ASYNCOPERATION_FINALIZE_OFFSET UNITYSDK_OFFSET(0x19CFFD20)
-#define UNITYENGINE_ASYNCOPERATION_GET_ALLOWSCENEACTIVATION_OFFSET UNITYSDK_OFFSET(0x19CFFD00)
-#define UNITYENGINE_ASYNCOPERATION_GET_ISDONE_OFFSET UNITYSDK_OFFSET(0x19CFFCC0)
-#define UNITYENGINE_ASYNCOPERATION_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x19CFFCE0)
-#define UNITYENGINE_ASYNCOPERATION_GET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x19CFFCD0)
-#define UNITYENGINE_ASYNCOPERATION_INTERNALDESTROY_OFFSET UNITYSDK_OFFSET(0x19CFFCB0)
-#define UNITYENGINE_ASYNCOPERATION_INVOKECOMPLETIONEVENT_OFFSET UNITYSDK_OFFSET(0x19CFFDA0)
-#define UNITYENGINE_ASYNCOPERATION_REMOVECOMPLETIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x19D00040)
-#define UNITYENGINE_ASYNCOPERATION_REMOVE_COMPLETED_OFFSET UNITYSDK_OFFSET(0x19D00220)
-#define UNITYENGINE_ASYNCOPERATION_RESETCOMPLETIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x19D00280)
-#define UNITYENGINE_ASYNCOPERATION_SET_ALLOWSCENEACTIVATION_OFFSET UNITYSDK_OFFSET(0x19CFFD10)
-#define UNITYENGINE_ASYNCOPERATION_SET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x19CFFCF0)
-#define UNITYENGINE_ASYNCOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x19D00290)
+#define UNITYENGINE_ASYNCOPERATION_ADDCOMPLETIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB43910)
+#define UNITYENGINE_ASYNCOPERATION_ADD_COMPLETED_OFFSET UNITYSDK_OFFSET(0x1AB43BC0)
+#define UNITYENGINE_ASYNCOPERATION_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1AB43800)
+#define UNITYENGINE_ASYNCOPERATION_GET_ALLOWSCENEACTIVATION_OFFSET UNITYSDK_OFFSET(0x1AB437E0)
+#define UNITYENGINE_ASYNCOPERATION_GET_ISDONE_OFFSET UNITYSDK_OFFSET(0x1AB437A0)
+#define UNITYENGINE_ASYNCOPERATION_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1AB437C0)
+#define UNITYENGINE_ASYNCOPERATION_GET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x1AB437B0)
+#define UNITYENGINE_ASYNCOPERATION_INTERNALDESTROY_OFFSET UNITYSDK_OFFSET(0x1AB43790)
+#define UNITYENGINE_ASYNCOPERATION_INVOKECOMPLETIONEVENT_OFFSET UNITYSDK_OFFSET(0x1AB43880)
+#define UNITYENGINE_ASYNCOPERATION_REMOVECOMPLETIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB43A80)
+#define UNITYENGINE_ASYNCOPERATION_REMOVE_COMPLETED_OFFSET UNITYSDK_OFFSET(0x1AB43C60)
+#define UNITYENGINE_ASYNCOPERATION_RESETCOMPLETIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AB43CC0)
+#define UNITYENGINE_ASYNCOPERATION_SET_ALLOWSCENEACTIVATION_OFFSET UNITYSDK_OFFSET(0x1AB437F0)
+#define UNITYENGINE_ASYNCOPERATION_SET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1AB437D0)
+#define UNITYENGINE_ASYNCOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB43CD0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AsyncOperation_TypeDefinitionIndex = 4108;
+	inline static constexpr unsigned int AsyncOperation_TypeDefinitionIndex = 4282;
 
 	class AsyncOperation : public ::UnityEngine::YieldInstruction
 	{
@@ -37,9 +37,9 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void InternalDestroy(::System::IntPtr ptr)
+		static ::System::Void InternalDestroy(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_INTERNALDESTROY_OFFSET))(ptr);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_INTERNALDESTROY_OFFSET))(a1);
 		}
 
 		::System::Boolean get_isDone()
@@ -57,9 +57,9 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_GET_PRIORITY_OFFSET))(this);
 		}
 
-		::System::Void set_priority(::System::Int32 value)
+		::System::Void set_priority(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_SET_PRIORITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_SET_PRIORITY_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_allowSceneActivation()
@@ -67,9 +67,9 @@ namespace UnityEngine
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_GET_ALLOWSCENEACTIVATION_OFFSET))(this);
 		}
 
-		::System::Void set_allowSceneActivation(::System::Boolean value)
+		::System::Void set_allowSceneActivation(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_SET_ALLOWSCENEACTIVATION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_SET_ALLOWSCENEACTIVATION_OFFSET))(this, a1);
 		}
 
 		::System::Void Finalize()
@@ -82,24 +82,24 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_INVOKECOMPLETIONEVENT_OFFSET))(this);
 		}
 
-		::System::Void AddCompletionCallback(::UnityEngine::GCFreeClosure::ActionClosure_1<::UnityEngine::AsyncOperation*> callback)
+		::System::Void AddCompletionCallback(::UnityEngine::GCFreeClosure::ActionClosure_1<::UnityEngine::AsyncOperation*> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GCFreeClosure::ActionClosure_1<::UnityEngine::AsyncOperation*>))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_ADDCOMPLETIONCALLBACK_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GCFreeClosure::ActionClosure_1<::UnityEngine::AsyncOperation*>))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_ADDCOMPLETIONCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveCompletionCallback(::UnityEngine::GCFreeClosure::ActionClosure_1<::UnityEngine::AsyncOperation*> callback)
+		::System::Void RemoveCompletionCallback(::UnityEngine::GCFreeClosure::ActionClosure_1<::UnityEngine::AsyncOperation*> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GCFreeClosure::ActionClosure_1<::UnityEngine::AsyncOperation*>))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_REMOVECOMPLETIONCALLBACK_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GCFreeClosure::ActionClosure_1<::UnityEngine::AsyncOperation*>))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_REMOVECOMPLETIONCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void add_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* value)
+		::System::Void add_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::AsyncOperation*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_ADD_COMPLETED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::AsyncOperation*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_ADD_COMPLETED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* value)
+		::System::Void remove_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::AsyncOperation*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_REMOVE_COMPLETED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::AsyncOperation*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_REMOVE_COMPLETED_OFFSET))(this, a1);
 		}
 
 		::System::Void ResetCompletionCallback()

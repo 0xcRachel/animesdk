@@ -1,0 +1,87 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Sofa/BaseViewModel.h"
+#include "unitysdk/System/ValueTuple_2.h"
+
+namespace System { class String; }
+
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0x18B075F0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x18B08A60)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_GET_INCOME_OFFSET UNITYSDK_OFFSET(0x18B08A70)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x18B08A80)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0x18B08A90)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_SETDATA_OFFSET UNITYSDK_OFFSET(0x18B076B0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x18B08860)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_SET_INCOME_OFFSET UNITYSDK_OFFSET(0x18B088F0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x18B08980)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_SET_ITEMID_OFFSET UNITYSDK_OFFSET(0x18B089F0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x18B08830)
+
+namespace RPG::Client::ChenLingFes
+{
+	inline static constexpr unsigned int ChenLingFesGameplayRankItemViewModel_TypeDefinitionIndex = 74040;
+
+	class ChenLingFesGameplayRankItemViewModel : public ::Sofa::BaseViewModel
+	{
+	public:
+		::System::String* _IconPath; // 0x20
+		::System::UInt32 _ItemID; // 0x28
+		::System::Int32 _Index; // 0x2C
+		::System::Int32 _Income; // 0x30
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::ChenLingFes::ChenLingFesGameplayRankItemViewModel* Create(::System::ValueTuple_2<::System::UInt32, ::System::Int32> a1, ::System::Int32 a2)
+		{
+			return ((::RPG::Client::ChenLingFes::ChenLingFesGameplayRankItemViewModel*(*)(::System::ValueTuple_2<::System::UInt32, ::System::Int32>, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_CREATE_OFFSET))(a1, a2);
+		}
+
+		::System::Void SetData(::System::ValueTuple_2<::System::UInt32, ::System::Int32> a1, ::System::Int32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::Int32>, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_SETDATA_OFFSET))(this, a1, a2);
+		}
+
+		::System::String* get_IconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_GET_ICONPATH_OFFSET))(this);
+		}
+
+		::System::Void set_IconPath(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_SET_ICONPATH_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_Income()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_GET_INCOME_OFFSET))(this);
+		}
+
+		::System::Void set_Income(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_SET_INCOME_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_Index()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_GET_INDEX_OFFSET))(this);
+		}
+
+		::System::Void set_Index(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_SET_INDEX_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_ItemID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_GET_ITEMID_OFFSET))(this);
+		}
+
+		::System::Void set_ItemID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_SET_ITEMID_OFFSET))(this, a1);
+		}
+	};
+}

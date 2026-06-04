@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1803E3D0)
-#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_GET_DAMAGEPERCENT_OFFSET UNITYSDK_OFFSET(0x1803E3A0)
-#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_GET_DAMAGE_OFFSET UNITYSDK_OFFSET(0x1803E390)
-#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_GET_RELATEDDATAOBJECT_OFFSET UNITYSDK_OFFSET(0x1803E3B0)
-#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_SET_RELATEDDATAOBJECT_OFFSET UNITYSDK_OFFSET(0x1803E3C0)
-#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1803E360)
-#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1803E350)
+#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_COMPARETO_OFFSET UNITYSDK_OFFSET(0x19588F80)
+#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_GET_DAMAGEPERCENT_OFFSET UNITYSDK_OFFSET(0x19588F50)
+#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_GET_DAMAGE_OFFSET UNITYSDK_OFFSET(0x19588F40)
+#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_GET_RELATEDDATAOBJECT_OFFSET UNITYSDK_OFFSET(0x19588F60)
+#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_SET_RELATEDDATAOBJECT_OFFSET UNITYSDK_OFFSET(0x19588F70)
+#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19568A10)
+#define RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19588F30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightDamageStatisticInfo_TypeDefinitionIndex = 59267;
+	inline static constexpr unsigned int GridFightDamageStatisticInfo_TypeDefinitionIndex = 60202;
 
 	class GridFightDamageStatisticInfo : public ::System::Object
 	{
@@ -21,14 +21,14 @@ namespace RPG::Client
 		::System::Single _DamagePercent_k__BackingField; // 0x18
 		::System::Double _Damage_k__BackingField; // 0x20
 
-		::System::Void _ctor(::System::Double damage, ::System::Single damagePercent)
+		::System::Void _ctor(::System::Double a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO__CTOR_OFFSET))(this, damage, damagePercent);
+			return ((::System::Void(*)(::PVOID, ::System::Double, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::System::Double damage, ::System::Double maxDamage)
+		::System::Void _ctor_1(::System::Double a1, ::System::Double a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double, ::System::Double))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO__CTOR_1_OFFSET))(this, damage, maxDamage);
+			return ((::System::Void(*)(::PVOID, ::System::Double, ::System::Double))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Double get_Damage()
@@ -46,14 +46,14 @@ namespace RPG::Client
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_GET_RELATEDDATAOBJECT_OFFSET))(this);
 		}
 
-		::System::Void set_RelatedDataObject(::System::Object* value)
+		::System::Void set_RelatedDataObject(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_SET_RELATEDDATAOBJECT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_SET_RELATEDDATAOBJECT_OFFSET))(this, a1);
 		}
 
-		::System::Int32 CompareTo(::RPG::Client::GridFightDamageStatisticInfo* other)
+		::System::Int32 CompareTo(::RPG::Client::GridFightDamageStatisticInfo* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::GridFightDamageStatisticInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_COMPARETO_OFFSET))(this, other);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::GridFightDamageStatisticInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDAMAGESTATISTICINFO_COMPARETO_OFFSET))(this, a1);
 		}
 	};
 }

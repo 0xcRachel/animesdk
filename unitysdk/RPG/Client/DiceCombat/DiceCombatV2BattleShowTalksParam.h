@@ -6,16 +6,16 @@ namespace RPG::Client::DiceCombat { class DiceCombatV2BattleTalkData; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLESHOWTALKSPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0x17A408F0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLESHOWTALKSPARAM_GETTALK_OFFSET UNITYSDK_OFFSET(0x17A40A60)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLESHOWTALKSPARAM_GET_SECONDSPERTALK_OFFSET UNITYSDK_OFFSET(0x17A408C0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLESHOWTALKSPARAM_GET_TALKCOUNT_OFFSET UNITYSDK_OFFSET(0x17A40A10)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLESHOWTALKSPARAM_SET_SECONDSPERTALK_OFFSET UNITYSDK_OFFSET(0x17A408D0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLESHOWTALKSPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x17A408E0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLESHOWTALKSPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0x17EFEDC0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLESHOWTALKSPARAM_GETTALK_OFFSET UNITYSDK_OFFSET(0x17EFEF40)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLESHOWTALKSPARAM_GET_SECONDSPERTALK_OFFSET UNITYSDK_OFFSET(0x17EFED90)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLESHOWTALKSPARAM_GET_TALKCOUNT_OFFSET UNITYSDK_OFFSET(0x17EFEEF0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLESHOWTALKSPARAM_SET_SECONDSPERTALK_OFFSET UNITYSDK_OFFSET(0x17EFEDA0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLESHOWTALKSPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x17EFEDB0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2BattleShowTalksParam_TypeDefinitionIndex = 69956;
+	inline static constexpr unsigned int DiceCombatV2BattleShowTalksParam_TypeDefinitionIndex = 70768;
 
 	class DiceCombatV2BattleShowTalksParam : public ::System::Object
 	{
@@ -33,14 +33,14 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLESHOWTALKSPARAM_GET_SECONDSPERTALK_OFFSET))(this);
 		}
 
-		::System::Void set_SecondsPerTalk(::System::Single value)
+		::System::Void set_SecondsPerTalk(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLESHOWTALKSPARAM_SET_SECONDSPERTALK_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLESHOWTALKSPARAM_SET_SECONDSPERTALK_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::DiceCombat::DiceCombatV2BattleShowTalksParam* Create(::System::Collections::Generic::IEnumerable_1<::System::UInt32>* talkIDs, ::System::Single secondsPerTalk)
+		static ::RPG::Client::DiceCombat::DiceCombatV2BattleShowTalksParam* Create(::System::Collections::Generic::IEnumerable_1<::System::UInt32>* a1, ::System::Single a2)
 		{
-			return ((::RPG::Client::DiceCombat::DiceCombatV2BattleShowTalksParam*(*)(::System::Collections::Generic::IEnumerable_1<::System::UInt32>*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLESHOWTALKSPARAM_CREATE_OFFSET))(talkIDs, secondsPerTalk);
+			return ((::RPG::Client::DiceCombat::DiceCombatV2BattleShowTalksParam*(*)(::System::Collections::Generic::IEnumerable_1<::System::UInt32>*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLESHOWTALKSPARAM_CREATE_OFFSET))(a1, a2);
 		}
 
 		::System::Int32 get_TalkCount()
@@ -48,9 +48,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLESHOWTALKSPARAM_GET_TALKCOUNT_OFFSET))(this);
 		}
 
-		::RPG::Client::DiceCombat::DiceCombatV2BattleTalkData* GetTalk(::System::Int32 index)
+		::RPG::Client::DiceCombat::DiceCombatV2BattleTalkData* GetTalk(::System::Int32 a1)
 		{
-			return ((::RPG::Client::DiceCombat::DiceCombatV2BattleTalkData*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLESHOWTALKSPARAM_GETTALK_OFFSET))(this, index);
+			return ((::RPG::Client::DiceCombat::DiceCombatV2BattleTalkData*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLESHOWTALKSPARAM_GETTALK_OFFSET))(this, a1);
 		}
 	};
 }

@@ -7,34 +7,34 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GAMEPLAYGUIDETABCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1955A210)
-#define RPG_GAMECORE_GAMEPLAYGUIDETABCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1955B060)
+#define RPG_GAMECORE_GAMEPLAYGUIDETABCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19CAA260)
+#define RPG_GAMECORE_GAMEPLAYGUIDETABCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19CAB0E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameplayGuideTabConfigRow_TypeDefinitionIndex = 12654;
+	inline static constexpr unsigned int GameplayGuideTabConfigRow_TypeDefinitionIndex = 12744;
 
 	class GameplayGuideTabConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* ResBarKey; // 0x10
-		::System::String* IconPath; // 0x18
-		::RPG::Client::TextID Desc; // 0x20
-		::RPG::Client::TextID Name; // 0x30
-		::System::UInt32 IntroDataID; // 0x40
-		::System::UInt32 UnlockID; // 0x44
-		::RPG::GameCore::GuideType GuideType; // 0x48
-		::System::UInt32 Priority; // 0x4C
-		::System::UInt32 ID; // 0x50
+		::System::String* IconPath; // 0x10
+		::System::String* ResBarKey; // 0x18
+		::RPG::GameCore::GuideType GuideType; // 0x20
+		::System::UInt32 ID; // 0x24
+		::RPG::Client::TextID Name; // 0x28
+		::System::UInt32 IntroDataID; // 0x38
+		::System::UInt32 Priority; // 0x3C
+		::System::UInt32 UnlockID; // 0x40
+		::RPG::Client::TextID Desc; // 0x48
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEPLAYGUIDETABCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GameplayGuideTabConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GameplayGuideTabConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GameplayGuideTabConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEPLAYGUIDETABCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GameplayGuideTabConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEPLAYGUIDETABCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

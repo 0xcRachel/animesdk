@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE_GETTARGET_OFFSET UNITYSDK_OFFSET(0x19428790)
-#define BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19428780)
-#define BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19428770)
+#define BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE_GETTARGET_OFFSET UNITYSDK_OFFSET(0x1A183EC0)
+#define BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A183EB0)
+#define BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A183EA0)
 
 namespace Beebyte::Obfuscator
 {
-	inline static constexpr unsigned int RenameAttribute_TypeDefinitionIndex = 43848;
+	inline static constexpr unsigned int RenameAttribute_TypeDefinitionIndex = 44390;
 
 	class RenameAttribute : public ::System::Attribute
 	{
@@ -22,9 +22,9 @@ namespace Beebyte::Obfuscator
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* target)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE__CTOR_1_OFFSET))(this, target);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::String* GetTarget()

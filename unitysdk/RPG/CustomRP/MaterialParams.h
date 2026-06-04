@@ -7,15 +7,15 @@ namespace Newtonsoft::Json::Linq { class JToken; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CUSTOMRP_MATERIALPARAMS_CLEAR_OFFSET UNITYSDK_OFFSET(0x2246600)
-#define RPG_CUSTOMRP_MATERIALPARAMS_DIFF_OFFSET UNITYSDK_OFFSET(0x2246710)
-#define RPG_CUSTOMRP_MATERIALPARAMS_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x22466D0)
-#define RPG_CUSTOMRP_MATERIALPARAMS_NEW_OFFSET UNITYSDK_OFFSET(0x15A685C0)
-#define RPG_CUSTOMRP_MATERIALPARAMS_OUTPUTASDIFF_OFFSET UNITYSDK_OFFSET(0x2246760)
+#define RPG_CUSTOMRP_MATERIALPARAMS_CLEAR_OFFSET UNITYSDK_OFFSET(0x37AD2C0)
+#define RPG_CUSTOMRP_MATERIALPARAMS_DIFF_OFFSET UNITYSDK_OFFSET(0x37AD3C0)
+#define RPG_CUSTOMRP_MATERIALPARAMS_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x37AD380)
+#define RPG_CUSTOMRP_MATERIALPARAMS_NEW_OFFSET UNITYSDK_OFFSET(0x157FACB0)
+#define RPG_CUSTOMRP_MATERIALPARAMS_OUTPUTASDIFF_OFFSET UNITYSDK_OFFSET(0x37AD410)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MaterialParams_TypeDefinitionIndex = 35297;
+	inline static constexpr unsigned int MaterialParams_TypeDefinitionIndex = 35597;
 
 	struct alignas(8) MaterialParams
 	{
@@ -37,9 +37,9 @@ namespace RPG::CustomRP
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MATERIALPARAMS_GET_EMPTY_OFFSET))(this);
 		}
 
-		::System::Void Diff(::RPG::CustomRP::MaterialParams& rhs, ::RPG::CustomRP::MaterialParams& diff_this, ::RPG::CustomRP::MaterialParams& diff_rhs)
+		::System::Void Diff(::RPG::CustomRP::MaterialParams& a1, ::RPG::CustomRP::MaterialParams& a2, ::RPG::CustomRP::MaterialParams& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::MaterialParams&, ::RPG::CustomRP::MaterialParams&, ::RPG::CustomRP::MaterialParams&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MATERIALPARAMS_DIFF_OFFSET))(this, rhs, diff_this, diff_rhs);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::MaterialParams&, ::RPG::CustomRP::MaterialParams&, ::RPG::CustomRP::MaterialParams&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MATERIALPARAMS_DIFF_OFFSET))(this, a1, a2, a3);
 		}
 
 		::Newtonsoft::Json::Linq::JToken* OutputAsDiff()

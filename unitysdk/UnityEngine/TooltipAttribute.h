@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_TOOLTIPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A559ED0)
+#define UNITYENGINE_TOOLTIPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B378800)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TooltipAttribute_TypeDefinitionIndex = 4048;
+	inline static constexpr unsigned int TooltipAttribute_TypeDefinitionIndex = 4222;
 
 	class TooltipAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:
 		::System::String* tooltip; // 0x10
 
-		::System::Void _ctor(::System::String* tooltip)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_TOOLTIPATTRIBUTE__CTOR_OFFSET))(this, tooltip);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_TOOLTIPATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

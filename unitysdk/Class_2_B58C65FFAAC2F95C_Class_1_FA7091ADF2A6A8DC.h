@@ -6,17 +6,17 @@ namespace RPG::GameCore { class SceneTVMenuDataRow; }
 namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 
-#define CLASS_2_B58C65FFAAC2F95C_CLASS_1_FA7091ADF2A6A8DC__CTOR_OFFSET UNITYSDK_OFFSET(0xE111380)
+#define CLASS_2_B58C65FFAAC2F95C_CLASS_1_FA7091ADF2A6A8DC__CTOR_OFFSET UNITYSDK_OFFSET(0x173EBFA0)
 
-inline static constexpr unsigned int Class_2_B58C65FFAAC2F95C_Class_1_FA7091ADF2A6A8DC_TypeDefinitionIndex = 63447;
+inline static constexpr unsigned int Class_2_B58C65FFAAC2F95C_Class_1_FA7091ADF2A6A8DC_TypeDefinitionIndex = 64364;
 
 class Class_2_B58C65FFAAC2F95C_Class_1_FA7091ADF2A6A8DC : public ::System::Object
 {
 public:
-	::UnityEngine::Texture2D* Field_1_3; // 0x10
-	::System::String* Field_1_2; // 0x18
-	::RPG::GameCore::SceneTVMenuDataRow* Field_1_0; // 0x20
-	::System::Boolean Field_1_1; // 0x28
+	::RPG::GameCore::SceneTVMenuDataRow* Field_1_0; // 0x10
+	::System::String* Field_1_1; // 0x18
+	::UnityEngine::Texture2D* Field_1_2; // 0x20
+	::System::Boolean Field_1_3; // 0x28
 
 	::System::Void _ctor()
 	{

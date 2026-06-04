@@ -6,23 +6,23 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define CLASS_2_88808347B1B8AA17_GET_MSGTEXT_OFFSET UNITYSDK_OFFSET(0xE5F5F30)
-#define CLASS_2_88808347B1B8AA17_GET_URL_OFFSET UNITYSDK_OFFSET(0xE5F5F10)
-#define CLASS_2_88808347B1B8AA17_SET_MSGTEXT_OFFSET UNITYSDK_OFFSET(0xE5F5F40)
-#define CLASS_2_88808347B1B8AA17_SET_URL_OFFSET UNITYSDK_OFFSET(0xE5F5F20)
-#define CLASS_2_88808347B1B8AA17__CTOR_1_OFFSET UNITYSDK_OFFSET(0xE5F5FB0)
-#define CLASS_2_88808347B1B8AA17__CTOR_2_OFFSET UNITYSDK_OFFSET(0xE5F6020)
-#define CLASS_2_88808347B1B8AA17__CTOR_3_OFFSET UNITYSDK_OFFSET(0xE5F6080)
-#define CLASS_2_88808347B1B8AA17__CTOR_4_OFFSET UNITYSDK_OFFSET(0xE5F60F0)
-#define CLASS_2_88808347B1B8AA17__CTOR_OFFSET UNITYSDK_OFFSET(0xE5F5F50)
+#define CLASS_2_88808347B1B8AA17_GET_MSGTEXT_OFFSET UNITYSDK_OFFSET(0x13B9CA60)
+#define CLASS_2_88808347B1B8AA17_GET_URL_OFFSET UNITYSDK_OFFSET(0x13B9CA40)
+#define CLASS_2_88808347B1B8AA17_SET_MSGTEXT_OFFSET UNITYSDK_OFFSET(0x13B9CA70)
+#define CLASS_2_88808347B1B8AA17_SET_URL_OFFSET UNITYSDK_OFFSET(0x13B9CA50)
+#define CLASS_2_88808347B1B8AA17__CTOR_1_OFFSET UNITYSDK_OFFSET(0x13B9CAE0)
+#define CLASS_2_88808347B1B8AA17__CTOR_2_OFFSET UNITYSDK_OFFSET(0x13B9CB50)
+#define CLASS_2_88808347B1B8AA17__CTOR_3_OFFSET UNITYSDK_OFFSET(0x13B9CBB0)
+#define CLASS_2_88808347B1B8AA17__CTOR_4_OFFSET UNITYSDK_OFFSET(0x13B9CC20)
+#define CLASS_2_88808347B1B8AA17__CTOR_OFFSET UNITYSDK_OFFSET(0x13B9CA80)
 
-inline static constexpr unsigned int Class_2_88808347B1B8AA17_TypeDefinitionIndex = 63953;
+inline static constexpr unsigned int Class_2_88808347B1B8AA17_TypeDefinitionIndex = 64874;
 
 class Class_2_88808347B1B8AA17 : public ::System::Exception
 {
 public:
-	::System::String* _MsgText_k__BackingField; // 0x88
-	::System::String* _URL_k__BackingField; // 0x90
+	::System::String* _URL_k__BackingField; // 0x88
+	::System::String* _MsgText_k__BackingField; // 0x90
 
 	::System::Void _ctor()
 	{
@@ -54,9 +54,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_88808347B1B8AA17_GET_URL_OFFSET))(this);
 	}
 
-	::System::Void set_URL(::System::String* value)
+	::System::Void set_URL(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_88808347B1B8AA17_SET_URL_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_88808347B1B8AA17_SET_URL_OFFSET))(this, a1);
 	}
 
 	::System::String* get_MsgText()
@@ -64,8 +64,8 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_88808347B1B8AA17_GET_MSGTEXT_OFFSET))(this);
 	}
 
-	::System::Void set_MsgText(::System::String* value)
+	::System::Void set_MsgText(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_88808347B1B8AA17_SET_MSGTEXT_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_88808347B1B8AA17_SET_MSGTEXT_OFFSET))(this, a1);
 	}
 };

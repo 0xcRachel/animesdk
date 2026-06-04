@@ -4,24 +4,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SRDEBUGGER_SETTINGS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17C49670)
-#define SRDEBUGGER_SETTINGS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17C496B0)
-#define SRDEBUGGER_SETTINGS___C__SET_ENTRYCODE_B__40_0_OFFSET UNITYSDK_OFFSET(0x17C496C0)
+#define SRDEBUGGER_SETTINGS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x186F5950)
+#define SRDEBUGGER_SETTINGS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x186F5990)
+#define SRDEBUGGER_SETTINGS___C__SET_ENTRYCODE_B__40_0_OFFSET UNITYSDK_OFFSET(0x186F59A0)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int Settings___c_TypeDefinitionIndex = 35345;
+	inline static constexpr unsigned int Settings___c_TypeDefinitionIndex = 35645;
 
 	class Settings___c : public ::System::Object
 	{
 	public:
-		static ::SRDebugger::Settings___c** StaticGet___9()
-		{
-			return (::SRDebugger::Settings___c**)Il2CppClass::FromTypeDefinitionIndex(Settings___c_TypeDefinitionIndex)->GetStaticField(0x5FC30);
-		}
 		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__40_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Settings___c_TypeDefinitionIndex)->GetStaticField(0x5FC38);
+			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Settings___c_TypeDefinitionIndex)->GetStaticField(0x60E80);
+		}
+		static ::SRDebugger::Settings___c** StaticGet___9()
+		{
+			return (::SRDebugger::Settings___c**)Il2CppClass::FromTypeDefinitionIndex(Settings___c_TypeDefinitionIndex)->GetStaticField(0x60E88);
 		}
 
 		static ::System::Void _cctor()
@@ -34,9 +34,9 @@ namespace SRDebugger
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_SETTINGS___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _set_EntryCode_b__40_0(::System::Int32 p)
+		::System::Boolean _set_EntryCode_b__40_0(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SRDEBUGGER_SETTINGS___C__SET_ENTRYCODE_B__40_0_OFFSET))(this, p);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SRDEBUGGER_SETTINGS___C__SET_ENTRYCODE_B__40_0_OFFSET))(this, a1);
 		}
 	};
 }

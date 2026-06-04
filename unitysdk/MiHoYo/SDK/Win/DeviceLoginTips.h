@@ -10,30 +10,30 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_AWAKE_OFFSET UNITYSDK_OFFSET(0x1546C440)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_BACK_OFFSET UNITYSDK_OFFSET(0x1546D6B0)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_BIND_OFFSET UNITYSDK_OFFSET(0x1546D7D0)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_CLOSE_OFFSET UNITYSDK_OFFSET(0x1546D740)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_GETSHOWTIME_OFFSET UNITYSDK_OFFSET(0x1546D3E0)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_HIDE_OFFSET UNITYSDK_OFFSET(0x1546D640)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_KNOW_OFFSET UNITYSDK_OFFSET(0x1546D860)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1546D8F0)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_SHOW_OFFSET UNITYSDK_OFFSET(0x1546C2E0)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_START_OFFSET UNITYSDK_OFFSET(0x1546D040)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_UPDATECELL_OFFSET UNITYSDK_OFFSET(0x1546D050)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1546CEE0)
-#define MIHOYO_SDK_WIN_DEVICELOGINTIPS__CTOR_OFFSET UNITYSDK_OFFSET(0x1546D930)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_AWAKE_OFFSET UNITYSDK_OFFSET(0x153BE0C0)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_BACK_OFFSET UNITYSDK_OFFSET(0x153BF320)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_BIND_OFFSET UNITYSDK_OFFSET(0x153BF440)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_CLOSE_OFFSET UNITYSDK_OFFSET(0x153BF3B0)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_GETSHOWTIME_OFFSET UNITYSDK_OFFSET(0x153BF050)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_HIDE_OFFSET UNITYSDK_OFFSET(0x153BF2B0)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_KNOW_OFFSET UNITYSDK_OFFSET(0x153BF4D0)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x153BF560)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_SHOW_OFFSET UNITYSDK_OFFSET(0x153BDF50)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_START_OFFSET UNITYSDK_OFFSET(0x153BECD0)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_UPDATECELL_OFFSET UNITYSDK_OFFSET(0x153BECE0)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x153BEB70)
+#define MIHOYO_SDK_WIN_DEVICELOGINTIPS__CTOR_OFFSET UNITYSDK_OFFSET(0x153BF580)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int DeviceLoginTips_TypeDefinitionIndex = 8264;
+	inline static constexpr unsigned int DeviceLoginTips_TypeDefinitionIndex = 9167;
 
 	class DeviceLoginTips : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		static ::MiHoYo::SDK::Win::DeviceLoginTips** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::DeviceLoginTips**)Il2CppClass::FromTypeDefinitionIndex(DeviceLoginTips_TypeDefinitionIndex)->GetStaticField(0x1CA00);
+			return (::MiHoYo::SDK::Win::DeviceLoginTips**)Il2CppClass::FromTypeDefinitionIndex(DeviceLoginTips_TypeDefinitionIndex)->GetStaticField(0x269D0);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* BackButtonPath; // 0x0
@@ -70,9 +70,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICELOGINTIPS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Show(::System::Collections::Generic::List_1<::MiHoYo::SDK::Win::NewDeviceInfoModel*>* list)
+		static ::System::Void Show(::System::Collections::Generic::List_1<::MiHoYo::SDK::Win::NewDeviceInfoModel*>* a1)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::MiHoYo::SDK::Win::NewDeviceInfoModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICELOGINTIPS_SHOW_OFFSET))(list);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::MiHoYo::SDK::Win::NewDeviceInfoModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICELOGINTIPS_SHOW_OFFSET))(a1);
 		}
 
 		::System::Void Awake()
@@ -90,9 +90,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICELOGINTIPS_UPDATETEXT_OFFSET))(this);
 		}
 
-		::System::Void UpdateCell(::System::Collections::Generic::List_1<::MiHoYo::SDK::Win::NewDeviceInfoModel*>* deviceList)
+		::System::Void UpdateCell(::System::Collections::Generic::List_1<::MiHoYo::SDK::Win::NewDeviceInfoModel*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::MiHoYo::SDK::Win::NewDeviceInfoModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICELOGINTIPS_UPDATECELL_OFFSET))(this, deviceList);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::MiHoYo::SDK::Win::NewDeviceInfoModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICELOGINTIPS_UPDATECELL_OFFSET))(this, a1);
 		}
 
 		static ::System::Void Hide()
@@ -120,9 +120,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICELOGINTIPS_KNOW_OFFSET))(this);
 		}
 
-		static ::System::String* GetShowTime(::System::Int64 time)
+		static ::System::String* GetShowTime(::System::Int64 a1)
 		{
-			return ((::System::String*(*)(::System::Int64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICELOGINTIPS_GETSHOWTIME_OFFSET))(time);
+			return ((::System::String*(*)(::System::Int64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICELOGINTIPS_GETSHOWTIME_OFFSET))(a1);
 		}
 
 		::System::Void OnDestroy()

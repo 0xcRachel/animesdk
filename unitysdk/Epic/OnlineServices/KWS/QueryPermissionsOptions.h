@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices { class ProductUserId; }
 
-#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19870340)
-#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19870350)
-#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19870360)
+#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A5AFE60)
+#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A5AFE70)
+#define EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5AFE80)
 
 namespace Epic::OnlineServices::KWS
 {
-	inline static constexpr unsigned int QueryPermissionsOptions_TypeDefinitionIndex = 42086;
+	inline static constexpr unsigned int QueryPermissionsOptions_TypeDefinitionIndex = 42889;
 
 	class QueryPermissionsOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::KWS
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYPERMISSIONSOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 	};
 }

@@ -3,14 +3,17 @@
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYMAINMISSIONFINISH_METHOD_4_724AEBA713197D9D_OFFSET UNITYSDK_OFFSET(0x19A6C5E0)
-#define RPG_GAMECORE_BYMAINMISSIONFINISH_METHOD_4_73E29FBDB861606F_OFFSET UNITYSDK_OFFSET(0x19A6C510)
-#define RPG_GAMECORE_BYMAINMISSIONFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x19A6C590)
+#define RPG_GAMECORE_BYMAINMISSIONFINISH_METHOD_4_04D42183A86F1450_OFFSET UNITYSDK_OFFSET(0x19DB87A0)
+#define RPG_GAMECORE_BYMAINMISSIONFINISH_METHOD_4_724AEBA713197D9D_OFFSET UNITYSDK_OFFSET(0x19DB85B0)
+#define RPG_GAMECORE_BYMAINMISSIONFINISH_METHOD_4_73E29FBDB861606F_OFFSET UNITYSDK_OFFSET(0x19DB84E0)
+#define RPG_GAMECORE_BYMAINMISSIONFINISH_METHOD_4_CF66E8547654C5C8_OFFSET UNITYSDK_OFFSET(0x19DB8720)
+#define RPG_GAMECORE_BYMAINMISSIONFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x19DB8560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByMainMissionFinish_TypeDefinitionIndex = 19432;
+	inline static constexpr unsigned int ByMainMissionFinish_TypeDefinitionIndex = 19337;
 
 	class ByMainMissionFinish : public ::RPG::GameCore::PredicateConfig
 	{
@@ -30,6 +33,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_724AEBA713197D9D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByMainMissionFinish* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByMainMissionFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYMAINMISSIONFINISH_METHOD_4_724AEBA713197D9D_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_CF66E8547654C5C8(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByMainMissionFinish*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByMainMissionFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYMAINMISSIONFINISH_METHOD_4_CF66E8547654C5C8_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_04D42183A86F1450(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByMainMissionFinish* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByMainMissionFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYMAINMISSIONFINISH_METHOD_4_04D42183A86F1450_OFFSET))(a1, a2);
 		}
 	};
 }

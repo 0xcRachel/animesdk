@@ -7,17 +7,17 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_GET_TOKEN_OFFSET UNITYSDK_OFFSET(0x196BDE20)
-#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x196BDE40)
-#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_SET_1_OFFSET UNITYSDK_OFFSET(0x196BE0C0)
-#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_SET_OFFSET UNITYSDK_OFFSET(0x196BDE60)
-#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_SET_TOKEN_OFFSET UNITYSDK_OFFSET(0x196BDE30)
-#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x196BDE50)
-#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALS__CTOR_OFFSET UNITYSDK_OFFSET(0x196BE1D0)
+#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_GET_TOKEN_OFFSET UNITYSDK_OFFSET(0x1A4B1AA0)
+#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1A4B1AC0)
+#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_SET_1_OFFSET UNITYSDK_OFFSET(0x1A4B1D40)
+#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_SET_OFFSET UNITYSDK_OFFSET(0x1A4B1AE0)
+#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_SET_TOKEN_OFFSET UNITYSDK_OFFSET(0x1A4B1AB0)
+#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x1A4B1AD0)
+#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4B1E60)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int Credentials_TypeDefinitionIndex = 42280;
+	inline static constexpr unsigned int Credentials_TypeDefinitionIndex = 43083;
 
 	class Credentials : public ::System::Object
 	{
@@ -35,9 +35,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_GET_TOKEN_OFFSET))(this);
 		}
 
-		::System::Void set_Token(::System::String* value)
+		::System::Void set_Token(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_SET_TOKEN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_SET_TOKEN_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ExternalCredentialType get_Type()
@@ -45,19 +45,19 @@ namespace Epic::OnlineServices::Connect
 			return ((::Epic::OnlineServices::ExternalCredentialType(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Void set_Type(::Epic::OnlineServices::ExternalCredentialType value)
+		::System::Void set_Type(::Epic::OnlineServices::ExternalCredentialType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ExternalCredentialType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_SET_TYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ExternalCredentialType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_SET_TYPE_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Connect::CredentialsInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Connect::CredentialsInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Connect::CredentialsInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Connect::CredentialsInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREDENTIALS_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

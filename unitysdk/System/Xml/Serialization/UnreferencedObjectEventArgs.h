@@ -5,7 +5,7 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_XML_SERIALIZATION_UNREFERENCEDOBJECTEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18563B60)
+#define SYSTEM_XML_SERIALIZATION_UNREFERENCEDOBJECTEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18491B90)
 
 namespace System::Xml::Serialization
 {
@@ -17,9 +17,9 @@ namespace System::Xml::Serialization
 		::System::Object* o; // 0x10
 		::System::String* id; // 0x18
 
-		::System::Void _ctor(::System::Object* o, ::System::String* id)
+		::System::Void _ctor(::System::Object* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_UNREFERENCEDOBJECTEVENTARGS__CTOR_OFFSET))(this, o, id);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_UNREFERENCEDOBJECTEVENTARGS__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

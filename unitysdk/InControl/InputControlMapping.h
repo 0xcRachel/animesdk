@@ -7,38 +7,38 @@
 
 namespace System { class String; }
 
-#define INCONTROL_INPUTCONTROLMAPPING_APPLYTOVALUE_OFFSET UNITYSDK_OFFSET(0x16409C50)
-#define INCONTROL_INPUTCONTROLMAPPING_GET_IGNOREINITIALZEROVALUE_OFFSET UNITYSDK_OFFSET(0x16409B20)
-#define INCONTROL_INPUTCONTROLMAPPING_GET_INVERT_OFFSET UNITYSDK_OFFSET(0x16409AA0)
-#define INCONTROL_INPUTCONTROLMAPPING_GET_LOWERDEADZONE_OFFSET UNITYSDK_OFFSET(0x16409B70)
-#define INCONTROL_INPUTCONTROLMAPPING_GET_NAME_OFFSET UNITYSDK_OFFSET(0x16409A30)
-#define INCONTROL_INPUTCONTROLMAPPING_GET_PASSIVE_OFFSET UNITYSDK_OFFSET(0x16409B00)
-#define INCONTROL_INPUTCONTROLMAPPING_GET_RAW_OFFSET UNITYSDK_OFFSET(0x16409AE0)
-#define INCONTROL_INPUTCONTROLMAPPING_GET_SCALE_OFFSET UNITYSDK_OFFSET(0x16409AC0)
-#define INCONTROL_INPUTCONTROLMAPPING_GET_SENSITIVITY_OFFSET UNITYSDK_OFFSET(0x16409B40)
-#define INCONTROL_INPUTCONTROLMAPPING_GET_SOURCERANGE_OFFSET UNITYSDK_OFFSET(0x16409C10)
-#define INCONTROL_INPUTCONTROLMAPPING_GET_SOURCE_OFFSET UNITYSDK_OFFSET(0x16409BD0)
-#define INCONTROL_INPUTCONTROLMAPPING_GET_TARGETRANGE_OFFSET UNITYSDK_OFFSET(0x16409C30)
-#define INCONTROL_INPUTCONTROLMAPPING_GET_TARGET_OFFSET UNITYSDK_OFFSET(0x16409BF0)
-#define INCONTROL_INPUTCONTROLMAPPING_GET_UPPERDEADZONE_OFFSET UNITYSDK_OFFSET(0x16409BA0)
-#define INCONTROL_INPUTCONTROLMAPPING_SET_IGNOREINITIALZEROVALUE_OFFSET UNITYSDK_OFFSET(0x16409B30)
-#define INCONTROL_INPUTCONTROLMAPPING_SET_INVERT_OFFSET UNITYSDK_OFFSET(0x16409AB0)
-#define INCONTROL_INPUTCONTROLMAPPING_SET_LOWERDEADZONE_OFFSET UNITYSDK_OFFSET(0x16409B80)
-#define INCONTROL_INPUTCONTROLMAPPING_SET_NAME_OFFSET UNITYSDK_OFFSET(0x16409A90)
-#define INCONTROL_INPUTCONTROLMAPPING_SET_PASSIVE_OFFSET UNITYSDK_OFFSET(0x16409B10)
-#define INCONTROL_INPUTCONTROLMAPPING_SET_RAW_OFFSET UNITYSDK_OFFSET(0x16409AF0)
-#define INCONTROL_INPUTCONTROLMAPPING_SET_SCALE_OFFSET UNITYSDK_OFFSET(0x16409AD0)
-#define INCONTROL_INPUTCONTROLMAPPING_SET_SENSITIVITY_OFFSET UNITYSDK_OFFSET(0x16409B50)
-#define INCONTROL_INPUTCONTROLMAPPING_SET_SOURCERANGE_OFFSET UNITYSDK_OFFSET(0x16409C20)
-#define INCONTROL_INPUTCONTROLMAPPING_SET_SOURCE_OFFSET UNITYSDK_OFFSET(0x16409BE0)
-#define INCONTROL_INPUTCONTROLMAPPING_SET_TARGETRANGE_OFFSET UNITYSDK_OFFSET(0x16409C40)
-#define INCONTROL_INPUTCONTROLMAPPING_SET_TARGET_OFFSET UNITYSDK_OFFSET(0x16409C00)
-#define INCONTROL_INPUTCONTROLMAPPING_SET_UPPERDEADZONE_OFFSET UNITYSDK_OFFSET(0x16409BB0)
-#define INCONTROL_INPUTCONTROLMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x16409F80)
+#define INCONTROL_INPUTCONTROLMAPPING_APPLYTOVALUE_OFFSET UNITYSDK_OFFSET(0x1522CFD0)
+#define INCONTROL_INPUTCONTROLMAPPING_GET_IGNOREINITIALZEROVALUE_OFFSET UNITYSDK_OFFSET(0x1522CEA0)
+#define INCONTROL_INPUTCONTROLMAPPING_GET_INVERT_OFFSET UNITYSDK_OFFSET(0x1522CE20)
+#define INCONTROL_INPUTCONTROLMAPPING_GET_LOWERDEADZONE_OFFSET UNITYSDK_OFFSET(0x1522CEF0)
+#define INCONTROL_INPUTCONTROLMAPPING_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1522CDB0)
+#define INCONTROL_INPUTCONTROLMAPPING_GET_PASSIVE_OFFSET UNITYSDK_OFFSET(0x1522CE80)
+#define INCONTROL_INPUTCONTROLMAPPING_GET_RAW_OFFSET UNITYSDK_OFFSET(0x1522CE60)
+#define INCONTROL_INPUTCONTROLMAPPING_GET_SCALE_OFFSET UNITYSDK_OFFSET(0x1522CE40)
+#define INCONTROL_INPUTCONTROLMAPPING_GET_SENSITIVITY_OFFSET UNITYSDK_OFFSET(0x1522CEC0)
+#define INCONTROL_INPUTCONTROLMAPPING_GET_SOURCERANGE_OFFSET UNITYSDK_OFFSET(0x1522CF90)
+#define INCONTROL_INPUTCONTROLMAPPING_GET_SOURCE_OFFSET UNITYSDK_OFFSET(0x1522CF50)
+#define INCONTROL_INPUTCONTROLMAPPING_GET_TARGETRANGE_OFFSET UNITYSDK_OFFSET(0x1522CFB0)
+#define INCONTROL_INPUTCONTROLMAPPING_GET_TARGET_OFFSET UNITYSDK_OFFSET(0x1522CF70)
+#define INCONTROL_INPUTCONTROLMAPPING_GET_UPPERDEADZONE_OFFSET UNITYSDK_OFFSET(0x1522CF20)
+#define INCONTROL_INPUTCONTROLMAPPING_SET_IGNOREINITIALZEROVALUE_OFFSET UNITYSDK_OFFSET(0x1522CEB0)
+#define INCONTROL_INPUTCONTROLMAPPING_SET_INVERT_OFFSET UNITYSDK_OFFSET(0x1522CE30)
+#define INCONTROL_INPUTCONTROLMAPPING_SET_LOWERDEADZONE_OFFSET UNITYSDK_OFFSET(0x1522CF00)
+#define INCONTROL_INPUTCONTROLMAPPING_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1522CE10)
+#define INCONTROL_INPUTCONTROLMAPPING_SET_PASSIVE_OFFSET UNITYSDK_OFFSET(0x1522CE90)
+#define INCONTROL_INPUTCONTROLMAPPING_SET_RAW_OFFSET UNITYSDK_OFFSET(0x1522CE70)
+#define INCONTROL_INPUTCONTROLMAPPING_SET_SCALE_OFFSET UNITYSDK_OFFSET(0x1522CE50)
+#define INCONTROL_INPUTCONTROLMAPPING_SET_SENSITIVITY_OFFSET UNITYSDK_OFFSET(0x1522CED0)
+#define INCONTROL_INPUTCONTROLMAPPING_SET_SOURCERANGE_OFFSET UNITYSDK_OFFSET(0x1522CFA0)
+#define INCONTROL_INPUTCONTROLMAPPING_SET_SOURCE_OFFSET UNITYSDK_OFFSET(0x1522CF60)
+#define INCONTROL_INPUTCONTROLMAPPING_SET_TARGETRANGE_OFFSET UNITYSDK_OFFSET(0x1522CFC0)
+#define INCONTROL_INPUTCONTROLMAPPING_SET_TARGET_OFFSET UNITYSDK_OFFSET(0x1522CF80)
+#define INCONTROL_INPUTCONTROLMAPPING_SET_UPPERDEADZONE_OFFSET UNITYSDK_OFFSET(0x1522CF30)
+#define INCONTROL_INPUTCONTROLMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x1522D3B0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputControlMapping_TypeDefinitionIndex = 37125;
+	inline static constexpr unsigned int InputControlMapping_TypeDefinitionIndex = 37857;
 
 	class InputControlMapping : public ::System::Object
 	{
@@ -67,9 +67,9 @@ namespace InControl
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Void set_Name(::System::String* value)
+		::System::Void set_Name(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_NAME_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_Invert()
@@ -77,9 +77,9 @@ namespace InControl
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_GET_INVERT_OFFSET))(this);
 		}
 
-		::System::Void set_Invert(::System::Boolean value)
+		::System::Void set_Invert(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_INVERT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_INVERT_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Scale()
@@ -87,9 +87,9 @@ namespace InControl
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_GET_SCALE_OFFSET))(this);
 		}
 
-		::System::Void set_Scale(::System::Single value)
+		::System::Void set_Scale(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_SCALE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_SCALE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_Raw()
@@ -97,9 +97,9 @@ namespace InControl
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_GET_RAW_OFFSET))(this);
 		}
 
-		::System::Void set_Raw(::System::Boolean value)
+		::System::Void set_Raw(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_RAW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_RAW_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_Passive()
@@ -107,9 +107,9 @@ namespace InControl
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_GET_PASSIVE_OFFSET))(this);
 		}
 
-		::System::Void set_Passive(::System::Boolean value)
+		::System::Void set_Passive(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_PASSIVE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_PASSIVE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IgnoreInitialZeroValue()
@@ -117,9 +117,9 @@ namespace InControl
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_GET_IGNOREINITIALZEROVALUE_OFFSET))(this);
 		}
 
-		::System::Void set_IgnoreInitialZeroValue(::System::Boolean value)
+		::System::Void set_IgnoreInitialZeroValue(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_IGNOREINITIALZEROVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_IGNOREINITIALZEROVALUE_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Sensitivity()
@@ -127,9 +127,9 @@ namespace InControl
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_GET_SENSITIVITY_OFFSET))(this);
 		}
 
-		::System::Void set_Sensitivity(::System::Single value)
+		::System::Void set_Sensitivity(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_SENSITIVITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_SENSITIVITY_OFFSET))(this, a1);
 		}
 
 		::System::Single get_LowerDeadZone()
@@ -137,9 +137,9 @@ namespace InControl
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_GET_LOWERDEADZONE_OFFSET))(this);
 		}
 
-		::System::Void set_LowerDeadZone(::System::Single value)
+		::System::Void set_LowerDeadZone(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_LOWERDEADZONE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_LOWERDEADZONE_OFFSET))(this, a1);
 		}
 
 		::System::Single get_UpperDeadZone()
@@ -147,9 +147,9 @@ namespace InControl
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_GET_UPPERDEADZONE_OFFSET))(this);
 		}
 
-		::System::Void set_UpperDeadZone(::System::Single value)
+		::System::Void set_UpperDeadZone(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_UPPERDEADZONE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_UPPERDEADZONE_OFFSET))(this, a1);
 		}
 
 		::InControl::InputControlSource get_Source()
@@ -157,9 +157,9 @@ namespace InControl
 			return ((::InControl::InputControlSource(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_GET_SOURCE_OFFSET))(this);
 		}
 
-		::System::Void set_Source(::InControl::InputControlSource value)
+		::System::Void set_Source(::InControl::InputControlSource a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::InputControlSource))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_SOURCE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::InControl::InputControlSource))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_SOURCE_OFFSET))(this, a1);
 		}
 
 		::InControl::InputControlType get_Target()
@@ -167,9 +167,9 @@ namespace InControl
 			return ((::InControl::InputControlType(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_GET_TARGET_OFFSET))(this);
 		}
 
-		::System::Void set_Target(::InControl::InputControlType value)
+		::System::Void set_Target(::InControl::InputControlType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::InputControlType))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_TARGET_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::InControl::InputControlType))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_TARGET_OFFSET))(this, a1);
 		}
 
 		::InControl::InputRangeType get_SourceRange()
@@ -177,9 +177,9 @@ namespace InControl
 			return ((::InControl::InputRangeType(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_GET_SOURCERANGE_OFFSET))(this);
 		}
 
-		::System::Void set_SourceRange(::InControl::InputRangeType value)
+		::System::Void set_SourceRange(::InControl::InputRangeType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::InputRangeType))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_SOURCERANGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::InControl::InputRangeType))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_SOURCERANGE_OFFSET))(this, a1);
 		}
 
 		::InControl::InputRangeType get_TargetRange()
@@ -187,14 +187,14 @@ namespace InControl
 			return ((::InControl::InputRangeType(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_GET_TARGETRANGE_OFFSET))(this);
 		}
 
-		::System::Void set_TargetRange(::InControl::InputRangeType value)
+		::System::Void set_TargetRange(::InControl::InputRangeType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::InputRangeType))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_TARGETRANGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::InControl::InputRangeType))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_SET_TARGETRANGE_OFFSET))(this, a1);
 		}
 
-		::System::Single ApplyToValue(::System::Single value)
+		::System::Single ApplyToValue(::System::Single a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_APPLYTOVALUE_OFFSET))(this, value);
+			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLMAPPING_APPLYTOVALUE_OFFSET))(this, a1);
 		}
 	};
 }

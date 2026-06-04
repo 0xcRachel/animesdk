@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define NEWTONSOFT_JSON_SHIMS_PRESERVEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x173DE7A0)
+#define NEWTONSOFT_JSON_SHIMS_PRESERVEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x158E54A0)
 
 namespace Newtonsoft::Json::Shims
 {
-	inline static constexpr unsigned int PreserveAttribute_TypeDefinitionIndex = 8435;
+	inline static constexpr unsigned int PreserveAttribute_TypeDefinitionIndex = 9338;
 
 	class PreserveAttribute : public ::System::Attribute
 	{

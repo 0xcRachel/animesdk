@@ -16,70 +16,70 @@ namespace RPG::Client { class RPGProfilerMarker; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_8F18326B34D3A83D_METHOD_2_0AAC3DE499CAD432_OFFSET UNITYSDK_OFFSET(0xE5A01D0)
-#define CLASS_2_8F18326B34D3A83D_METHOD_2_25DEA5C65A602671_OFFSET UNITYSDK_OFFSET(0xE59F3D0)
-#define CLASS_2_8F18326B34D3A83D_METHOD_2_30FDF547F32DA56B_OFFSET UNITYSDK_OFFSET(0xE59DFE0)
-#define CLASS_2_8F18326B34D3A83D_METHOD_2_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0xE59EB80)
-#define CLASS_2_8F18326B34D3A83D_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xE5A3C60)
-#define CLASS_2_8F18326B34D3A83D_METHOD_2_625FBF14AF26EF8B_OFFSET UNITYSDK_OFFSET(0xE59E100)
-#define CLASS_2_8F18326B34D3A83D_METHOD_2_6828C34A483313B0_OFFSET UNITYSDK_OFFSET(0xE59E450)
-#define CLASS_2_8F18326B34D3A83D_METHOD_2_743EBB24C9ECF8BC_OFFSET UNITYSDK_OFFSET(0xE59FD70)
-#define CLASS_2_8F18326B34D3A83D_METHOD_2_9A0D1D8CA9375AD6_OFFSET UNITYSDK_OFFSET(0xE5A09C0)
-#define CLASS_2_8F18326B34D3A83D_METHOD_2_9C141224A9C73EDC_OFFSET UNITYSDK_OFFSET(0xE5A1340)
-#define CLASS_2_8F18326B34D3A83D_METHOD_2_AFDBE2353EC32F1F_OFFSET UNITYSDK_OFFSET(0xE5A3BC0)
-#define CLASS_2_8F18326B34D3A83D_METHOD_2_B07FF7EFB49C5F84_OFFSET UNITYSDK_OFFSET(0xE59F7E0)
-#define CLASS_2_8F18326B34D3A83D_METHOD_2_B12B4E4A39A083D2_OFFSET UNITYSDK_OFFSET(0xE59F530)
-#define CLASS_2_8F18326B34D3A83D_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xE5A0190)
-#define CLASS_2_8F18326B34D3A83D_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xE59E3B0)
-#define CLASS_2_8F18326B34D3A83D_METHOD_2_CF812C8F5E7668B3_OFFSET UNITYSDK_OFFSET(0xE5A0F50)
-#define CLASS_2_8F18326B34D3A83D_METHOD_2_E8BD76429D2CF671_OFFSET UNITYSDK_OFFSET(0xE59E400)
-#define CLASS_2_8F18326B34D3A83D_METHOD_2_F10A0D072D26C4BF_OFFSET UNITYSDK_OFFSET(0xE5A0FC0)
-#define CLASS_2_8F18326B34D3A83D_METHOD_2_F2B4C8D6D56758AC_OFFSET UNITYSDK_OFFSET(0xE59F870)
-#define CLASS_2_8F18326B34D3A83D_METHOD_2_FA4C1FA8992C8412_OFFSET UNITYSDK_OFFSET(0xE5A1040)
-#define CLASS_2_8F18326B34D3A83D__CCTOR_OFFSET UNITYSDK_OFFSET(0xE5A3BA0)
-#define CLASS_2_8F18326B34D3A83D__CTOR_1_OFFSET UNITYSDK_OFFSET(0xE59DEE0)
-#define CLASS_2_8F18326B34D3A83D__CTOR_OFFSET UNITYSDK_OFFSET(0xE59DE30)
+#define CLASS_2_8F18326B34D3A83D_METHOD_2_0AAC3DE499CAD432_OFFSET UNITYSDK_OFFSET(0x15432A30)
+#define CLASS_2_8F18326B34D3A83D_METHOD_2_25DEA5C65A602671_OFFSET UNITYSDK_OFFSET(0x15431CD0)
+#define CLASS_2_8F18326B34D3A83D_METHOD_2_30FDF547F32DA56B_OFFSET UNITYSDK_OFFSET(0x15430800)
+#define CLASS_2_8F18326B34D3A83D_METHOD_2_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0x15431480)
+#define CLASS_2_8F18326B34D3A83D_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x15435EF0)
+#define CLASS_2_8F18326B34D3A83D_METHOD_2_6828C34A483313B0_OFFSET UNITYSDK_OFFSET(0x15430D60)
+#define CLASS_2_8F18326B34D3A83D_METHOD_2_743EBB24C9ECF8BC_OFFSET UNITYSDK_OFFSET(0x15432620)
+#define CLASS_2_8F18326B34D3A83D_METHOD_2_9A0D1D8CA9375AD6_OFFSET UNITYSDK_OFFSET(0x15433180)
+#define CLASS_2_8F18326B34D3A83D_METHOD_2_9C141224A9C73EDC_OFFSET UNITYSDK_OFFSET(0x15433AB0)
+#define CLASS_2_8F18326B34D3A83D_METHOD_2_A6B440510BF9AC27_OFFSET UNITYSDK_OFFSET(0x15430920)
+#define CLASS_2_8F18326B34D3A83D_METHOD_2_B07FF7EFB49C5F84_OFFSET UNITYSDK_OFFSET(0x154320F0)
+#define CLASS_2_8F18326B34D3A83D_METHOD_2_B12B4E4A39A083D2_OFFSET UNITYSDK_OFFSET(0x15431E30)
+#define CLASS_2_8F18326B34D3A83D_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x154329F0)
+#define CLASS_2_8F18326B34D3A83D_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x15430CC0)
+#define CLASS_2_8F18326B34D3A83D_METHOD_2_CF812C8F5E7668B3_OFFSET UNITYSDK_OFFSET(0x154336C0)
+#define CLASS_2_8F18326B34D3A83D_METHOD_2_DD325FEFA053DBEF_OFFSET UNITYSDK_OFFSET(0x15435E60)
+#define CLASS_2_8F18326B34D3A83D_METHOD_2_E8BD76429D2CF671_OFFSET UNITYSDK_OFFSET(0x15430D10)
+#define CLASS_2_8F18326B34D3A83D_METHOD_2_F10A0D072D26C4BF_OFFSET UNITYSDK_OFFSET(0x15433730)
+#define CLASS_2_8F18326B34D3A83D_METHOD_2_F2B4C8D6D56758AC_OFFSET UNITYSDK_OFFSET(0x15432180)
+#define CLASS_2_8F18326B34D3A83D_METHOD_2_F51528A3F33BED1B_OFFSET UNITYSDK_OFFSET(0x154337B0)
+#define CLASS_2_8F18326B34D3A83D__CCTOR_OFFSET UNITYSDK_OFFSET(0x15435E40)
+#define CLASS_2_8F18326B34D3A83D__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15430700)
+#define CLASS_2_8F18326B34D3A83D__CTOR_OFFSET UNITYSDK_OFFSET(0x15430650)
 
-inline static constexpr unsigned int Class_2_8F18326B34D3A83D_TypeDefinitionIndex = 64184;
+inline static constexpr unsigned int Class_2_8F18326B34D3A83D_TypeDefinitionIndex = 65105;
 
 class Class_2_8F18326B34D3A83D : public ::Class_1_5B0B78CFE6F65A6A
 {
 public:
-	static ::RPG::Client::RPGProfilerMarker** StaticGet_Field_2_27()
+	static ::RPG::Client::RPGProfilerMarker** StaticGet_Field_2_0()
 	{
-		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_8F18326B34D3A83D_TypeDefinitionIndex)->GetStaticField(0x6B510);
+		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_8F18326B34D3A83D_TypeDefinitionIndex)->GetStaticField(0x50990);
 	}
-	static ::RPG::Client::RPGProfilerMarker** StaticGet_Field_2_28()
+	static ::RPG::Client::RPGProfilerMarker** StaticGet_Field_2_1()
 	{
-		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_8F18326B34D3A83D_TypeDefinitionIndex)->GetStaticField(0x6B518);
+		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_2_8F18326B34D3A83D_TypeDefinitionIndex)->GetStaticField(0x50998);
 	}
-	// static const ::System::Int32 Field_2_10 = 0x4; // 0x0
-	// static const ::System::Single Field_2_12; // 0x0
-	// static const ::System::Single Field_2_13; // 0x0
-	::Class_1_8A0D924C14430663_3* Field_2_15; // 0x38
-	::Il2CppArray<::System::Boolean>* Field_2_4; // 0x40
-	::Il2CppArray<::UnityEngine::RaycastHit>* Field_2_11; // 0x48
-	::UnityEngine::Camera* Field_2_20; // 0x50
-	::Il2CppArray<::System::Boolean>* Field_2_5; // 0x58
-	::Il2CppArray<::UnityEngine::Vector3>* Field_2_6; // 0x60
-	::UnityEngine::Transform* Field_2_26; // 0x68
-	::Il2CppArray<::UnityEngine::Vector3>* Field_2_3; // 0x70
-	::Il2CppArray<::UnityEngine::Vector3>* Field_2_2; // 0x78
-	::System::Single Field_2_25; // 0x80
-	::System::Single Field_2_8; // 0x84
-	::System::Single Field_2_9; // 0x88
-	::System::Int32 Field_2_14; // 0x8C
-	::System::Single Field_2_7; // 0x90
-	::RPG::Client::CameraPushType Field_2_17; // 0x94
-	::System::Boolean Field_2_23; // 0x98
-	::System::Boolean Field_2_22; // 0x99
-	::System::Boolean Field_2_16; // 0x9A
-	::System::Boolean Field_2_21; // 0x9B
-	::UnityEngine::Vector3 Field_2_18; // 0x9C
-	::UnityEngine::Ray Field_2_0; // 0xA8
-	::UnityEngine::RaycastHit Field_2_1; // 0xC0
-	::UnityEngine::Vector3 Field_2_19; // 0xF0
-	::System::Single Field_2_24; // 0xFC
+	// static const ::System::Int32 Field_2_2 = 0x4; // 0x0
+	// static const ::System::Single Field_2_3; // 0x0
+	// static const ::System::Single Field_2_4; // 0x0
+	::Il2CppArray<::UnityEngine::Vector3>* Field_2_5; // 0x38
+	::Il2CppArray<::UnityEngine::RaycastHit>* Field_2_6; // 0x40
+	::Il2CppArray<::System::Boolean>* Field_2_7; // 0x48
+	::Class_1_8A0D924C14430663_3* Field_2_8; // 0x50
+	::UnityEngine::Transform* Field_2_9; // 0x58
+	::Il2CppArray<::System::Boolean>* Field_2_10; // 0x60
+	::Il2CppArray<::UnityEngine::Vector3>* Field_2_11; // 0x68
+	::UnityEngine::Camera* Field_2_12; // 0x70
+	::Il2CppArray<::UnityEngine::Vector3>* Field_2_13; // 0x78
+	::UnityEngine::Vector3 Field_2_14; // 0x80
+	::UnityEngine::Vector3 Field_2_15; // 0x8C
+	::System::Single Field_2_16; // 0x98
+	::RPG::Client::CameraPushType Field_2_17; // 0x9C
+	::System::Int32 Field_2_18; // 0xA0
+	::System::Single Field_2_19; // 0xA4
+	::System::Single Field_2_20; // 0xA8
+	::System::Single Field_2_21; // 0xAC
+	::System::Single Field_2_22; // 0xB0
+	::System::Boolean Field_2_23; // 0xB4
+	::System::Boolean Field_2_24; // 0xB5
+	::System::Boolean Field_2_25; // 0xB6
+	::System::Boolean Field_2_26; // 0xB7
+	::UnityEngine::Ray Field_2_27; // 0xB8
+	::UnityEngine::RaycastHit Field_2_28; // 0xD0
 
 	::System::Void _ctor()
 	{
@@ -101,9 +101,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::Client::PipelineCameraEngine*, ::RPG::Client::CameraModuleConfigCollection*, ::RPG::Client::PipelineCameraGlobalConfig*, ::RPG::Client::CameraDataAndFlags*, ::RPG::Client::CameraModuleType))((::PBYTE)hIl2Cpp + CLASS_2_8F18326B34D3A83D_METHOD_2_30FDF547F32DA56B_OFFSET))(this, a1, a2, a3, a4, a5);
 	}
 
-	::System::Boolean Method_2_625FBF14AF26EF8B()
+	::System::Boolean Method_2_A6B440510BF9AC27()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8F18326B34D3A83D_METHOD_2_625FBF14AF26EF8B_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8F18326B34D3A83D_METHOD_2_A6B440510BF9AC27_OFFSET))(this);
 	}
 
 	::System::Void Method_2_E8BD76429D2CF671()
@@ -161,9 +161,9 @@ public:
 		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8F18326B34D3A83D_METHOD_2_F10A0D072D26C4BF_OFFSET))(this);
 	}
 
-	::UnityEngine::Vector3 Method_2_FA4C1FA8992C8412()
+	::UnityEngine::Vector3 Method_2_F51528A3F33BED1B()
 	{
-		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8F18326B34D3A83D_METHOD_2_FA4C1FA8992C8412_OFFSET))(this);
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8F18326B34D3A83D_METHOD_2_F51528A3F33BED1B_OFFSET))(this);
 	}
 
 	::System::Void Method_2_0AAC3DE499CAD432(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Int32 a5, ::Class_1_8A0D924C14430663_3* a6, ::UnityEngine::Vector3 a7, ::UnityEngine::Vector3 a8, ::UnityEngine::Vector3 a9)
@@ -186,9 +186,9 @@ public:
 		return ((::System::Single(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CLASS_2_8F18326B34D3A83D_METHOD_2_B07FF7EFB49C5F84_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_AFDBE2353EC32F1F(::RPG::Client::PipelineCameraEngine* P0, ::RPG::Client::CameraModuleConfigCollection* P1, ::RPG::Client::PipelineCameraGlobalConfig* P2, ::RPG::Client::CameraDataAndFlags* P3, ::RPG::Client::CameraModuleType P4)
+	::System::Void Method_2_DD325FEFA053DBEF(::RPG::Client::PipelineCameraEngine* a1, ::RPG::Client::CameraModuleConfigCollection* a2, ::RPG::Client::PipelineCameraGlobalConfig* a3, ::RPG::Client::CameraDataAndFlags* a4, ::RPG::Client::CameraModuleType a5)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::PipelineCameraEngine*, ::RPG::Client::CameraModuleConfigCollection*, ::RPG::Client::PipelineCameraGlobalConfig*, ::RPG::Client::CameraDataAndFlags*, ::RPG::Client::CameraModuleType))((::PBYTE)hIl2Cpp + CLASS_2_8F18326B34D3A83D_METHOD_2_AFDBE2353EC32F1F_OFFSET))(this, P0, P1, P2, P3, P4);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::PipelineCameraEngine*, ::RPG::Client::CameraModuleConfigCollection*, ::RPG::Client::PipelineCameraGlobalConfig*, ::RPG::Client::CameraDataAndFlags*, ::RPG::Client::CameraModuleType))((::PBYTE)hIl2Cpp + CLASS_2_8F18326B34D3A83D_METHOD_2_DD325FEFA053DBEF_OFFSET))(this, a1, a2, a3, a4, a5);
 	}
 
 	::System::Void Method_2_5790A55946AA509D()

@@ -5,20 +5,20 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerEffectList; }
 
-#define CLASS_2_86255F20D04C1150_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFBC10C0)
-#define CLASS_2_86255F20D04C1150_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFBC1100)
-#define CLASS_2_86255F20D04C1150_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xFBC1770)
-#define CLASS_2_86255F20D04C1150_TICK_OFFSET UNITYSDK_OFFSET(0xFBC17C0)
-#define CLASS_2_86255F20D04C1150__CTOR_OFFSET UNITYSDK_OFFSET(0xFBC10B0)
+#define CLASS_2_86255F20D04C1150_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15BEC520)
+#define CLASS_2_86255F20D04C1150_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15BEC560)
+#define CLASS_2_86255F20D04C1150_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15BECB70)
+#define CLASS_2_86255F20D04C1150_TICK_OFFSET UNITYSDK_OFFSET(0x15BECBC0)
+#define CLASS_2_86255F20D04C1150__CTOR_OFFSET UNITYSDK_OFFSET(0x15BEC510)
 
-inline static constexpr unsigned int Class_2_86255F20D04C1150_TypeDefinitionIndex = 51381;
+inline static constexpr unsigned int Class_2_86255F20D04C1150_TypeDefinitionIndex = 52049;
 
 class Class_2_86255F20D04C1150 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_2; // 0x18
-	::RPG::GameCore::TriggerEffectList* Field_2_1; // 0x20
-	::System::Boolean Field_2_0; // 0x28
+	::RPG::GameCore::TriggerEffectList* Field_2_0; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	::System::Boolean Field_2_2; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerEffectList* a2)
 	{

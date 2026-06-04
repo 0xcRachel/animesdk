@@ -5,22 +5,22 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define RPG_CLIENT_CLOUDUTILS_GETCLIPBOARDTEXTFROMSDK_OFFSET UNITYSDK_OFFSET(0x178C9F50)
-#define RPG_CLIENT_CLOUDUTILS_ISCLOUDGAMEURLCONFIGURATED_OFFSET UNITYSDK_OFFSET(0x178CA520)
-#define RPG_CLIENT_CLOUDUTILS_KEEPALIVEBYAUTOBATTLE_OFFSET UNITYSDK_OFFSET(0x178CA2B0)
-#define RPG_CLIENT_CLOUDUTILS_ONGETCLIPBOARDDATA_OFFSET UNITYSDK_OFFSET(0x178CA070)
-#define RPG_CLIENT_CLOUDUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x178CA5B0)
+#define RPG_CLIENT_CLOUDUTILS_GETCLIPBOARDTEXTFROMSDK_OFFSET UNITYSDK_OFFSET(0x17831940)
+#define RPG_CLIENT_CLOUDUTILS_ISCLOUDGAMEURLCONFIGURATED_OFFSET UNITYSDK_OFFSET(0x17831F30)
+#define RPG_CLIENT_CLOUDUTILS_KEEPALIVEBYAUTOBATTLE_OFFSET UNITYSDK_OFFSET(0x17831CC0)
+#define RPG_CLIENT_CLOUDUTILS_ONGETCLIPBOARDDATA_OFFSET UNITYSDK_OFFSET(0x17831A70)
+#define RPG_CLIENT_CLOUDUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x17831FC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CloudUtils_TypeDefinitionIndex = 55229;
+	inline static constexpr unsigned int CloudUtils_TypeDefinitionIndex = 55963;
 
 	class CloudUtils : public ::System::Object
 	{
 	public:
 		static ::System::Action_2<::System::Boolean, ::System::String*>** StaticGet__clipboardCallback()
 		{
-			return (::System::Action_2<::System::Boolean, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CloudUtils_TypeDefinitionIndex)->GetStaticField(0x68280);
+			return (::System::Action_2<::System::Boolean, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CloudUtils_TypeDefinitionIndex)->GetStaticField(0x68BB0);
 		}
 		// static const ::System::String* AUTO_BATTLE_KEEP_ALIVE; // 0x0
 
@@ -29,19 +29,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUTILS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void GetClipboardTextFromSDK(::System::Action_2<::System::Boolean, ::System::String*>* callback)
+		static ::System::Void GetClipboardTextFromSDK(::System::Action_2<::System::Boolean, ::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action_2<::System::Boolean, ::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUTILS_GETCLIPBOARDTEXTFROMSDK_OFFSET))(callback);
+			return ((::System::Void(*)(::System::Action_2<::System::Boolean, ::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUTILS_GETCLIPBOARDTEXTFROMSDK_OFFSET))(a1);
 		}
 
-		static ::System::Void OnGetClipBoardData(::System::String* responseString)
+		static ::System::Void OnGetClipBoardData(::System::String* a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUTILS_ONGETCLIPBOARDDATA_OFFSET))(responseString);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUTILS_ONGETCLIPBOARDDATA_OFFSET))(a1);
 		}
 
-		static ::System::Void KeepAliveByAutoBattle(::System::Boolean enable)
+		static ::System::Void KeepAliveByAutoBattle(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUTILS_KEEPALIVEBYAUTOBATTLE_OFFSET))(enable);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUTILS_KEEPALIVEBYAUTOBATTLE_OFFSET))(a1);
 		}
 
 		static ::System::Boolean IsCloudGameUrlConfigurated()

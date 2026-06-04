@@ -1,0 +1,315 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_C42EE16F2550E26E_Class_1_8781C9423B4D4C63;
+class Class_1_C47576BEFCFAD595;
+class Class_3_2BE5039CEA912003;
+namespace RPG::GameCore { class ActivityParkourAIConfigRow; }
+
+#define CLASS_1_C42EE16F2550E26E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1658C450)
+#define CLASS_1_C42EE16F2550E26E_GET_MODIFYACTIONINTERVALTIME_OFFSET UNITYSDK_OFFSET(0x1658E140)
+#define CLASS_1_C42EE16F2550E26E_GET_MODIFYAIPLAYERSCORE_OFFSET UNITYSDK_OFFSET(0x1658E240)
+#define CLASS_1_C42EE16F2550E26E_GET_MODIFYLEAVEPLAYERSCORE_OFFSET UNITYSDK_OFFSET(0x1658E280)
+#define CLASS_1_C42EE16F2550E26E_GET_MODIFYLOCALPLAYERSCORE_OFFSET UNITYSDK_OFFSET(0x1658E220)
+#define CLASS_1_C42EE16F2550E26E_GET_MODIFYNEARPLAYERSCORE_OFFSET UNITYSDK_OFFSET(0x1658E260)
+#define CLASS_1_C42EE16F2550E26E_GET_MODIFYOBSTACLESCORE_OFFSET UNITYSDK_OFFSET(0x1658E200)
+#define CLASS_1_C42EE16F2550E26E_GET_MODIFYSKILLITEMSCORE_OFFSET UNITYSDK_OFFSET(0x1658E1E0)
+#define CLASS_1_C42EE16F2550E26E_GET_MODIFYSLOWDOWNREGIONSCORE_OFFSET UNITYSDK_OFFSET(0x1658E180)
+#define CLASS_1_C42EE16F2550E26E_GET_MODIFYSPEEDITEMSCORE_OFFSET UNITYSDK_OFFSET(0x1658E1C0)
+#define CLASS_1_C42EE16F2550E26E_GET_MODIFYSPEEDUPREGIONSCORE_OFFSET UNITYSDK_OFFSET(0x1658E1A0)
+#define CLASS_1_C42EE16F2550E26E_GET_MODIFYSWITCHROADSCORE_OFFSET UNITYSDK_OFFSET(0x1658E160)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_06A7FBB34DB30C77_OFFSET UNITYSDK_OFFSET(0x1658DCE0)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_498867DA6A9DA7E3_OFFSET UNITYSDK_OFFSET(0x1658DD70)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_7223CD34BEFCBF48_OFFSET UNITYSDK_OFFSET(0x1658C590)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_7BD782E2CF2663E2_OFFSET UNITYSDK_OFFSET(0x1658DA10)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_86DD10C8E9AA9638_OFFSET UNITYSDK_OFFSET(0x1658D490)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_95780ED94B90ED36_1_OFFSET UNITYSDK_OFFSET(0x1658CED0)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x1658CE80)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x1658C4A0)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_B47351F7A15C218D_OFFSET UNITYSDK_OFFSET(0x1658D050)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_F239777256F9BA8F_OFFSET UNITYSDK_OFFSET(0x1658DD60)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_10_OFFSET UNITYSDK_OFFSET(0x1658E0E0)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_11_OFFSET UNITYSDK_OFFSET(0x1658CF20)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_1_OFFSET UNITYSDK_OFFSET(0x1658DD80)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_2_OFFSET UNITYSDK_OFFSET(0x1658DDE0)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_3_OFFSET UNITYSDK_OFFSET(0x1658DE40)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_4_OFFSET UNITYSDK_OFFSET(0x1658DEA0)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_5_OFFSET UNITYSDK_OFFSET(0x1658DF00)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_6_OFFSET UNITYSDK_OFFSET(0x1658DF60)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_7_OFFSET UNITYSDK_OFFSET(0x1658DFC0)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_8_OFFSET UNITYSDK_OFFSET(0x1658E020)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_9_OFFSET UNITYSDK_OFFSET(0x1658E080)
+#define CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_OFFSET UNITYSDK_OFFSET(0x1658C530)
+#define CLASS_1_C42EE16F2550E26E_SET_MODIFYACTIONINTERVALTIME_OFFSET UNITYSDK_OFFSET(0x1658E150)
+#define CLASS_1_C42EE16F2550E26E_SET_MODIFYAIPLAYERSCORE_OFFSET UNITYSDK_OFFSET(0x1658E250)
+#define CLASS_1_C42EE16F2550E26E_SET_MODIFYLEAVEPLAYERSCORE_OFFSET UNITYSDK_OFFSET(0x1658E290)
+#define CLASS_1_C42EE16F2550E26E_SET_MODIFYLOCALPLAYERSCORE_OFFSET UNITYSDK_OFFSET(0x1658E230)
+#define CLASS_1_C42EE16F2550E26E_SET_MODIFYNEARPLAYERSCORE_OFFSET UNITYSDK_OFFSET(0x1658E270)
+#define CLASS_1_C42EE16F2550E26E_SET_MODIFYOBSTACLESCORE_OFFSET UNITYSDK_OFFSET(0x1658E210)
+#define CLASS_1_C42EE16F2550E26E_SET_MODIFYSKILLITEMSCORE_OFFSET UNITYSDK_OFFSET(0x1658E1F0)
+#define CLASS_1_C42EE16F2550E26E_SET_MODIFYSLOWDOWNREGIONSCORE_OFFSET UNITYSDK_OFFSET(0x1658E190)
+#define CLASS_1_C42EE16F2550E26E_SET_MODIFYSPEEDITEMSCORE_OFFSET UNITYSDK_OFFSET(0x1658E1D0)
+#define CLASS_1_C42EE16F2550E26E_SET_MODIFYSPEEDUPREGIONSCORE_OFFSET UNITYSDK_OFFSET(0x1658E1B0)
+#define CLASS_1_C42EE16F2550E26E_SET_MODIFYSWITCHROADSCORE_OFFSET UNITYSDK_OFFSET(0x1658E170)
+#define CLASS_1_C42EE16F2550E26E__CTOR_OFFSET UNITYSDK_OFFSET(0x1658C1B0)
+
+inline static constexpr unsigned int Class_1_C42EE16F2550E26E_TypeDefinitionIndex = 69251;
+
+class Class_1_C42EE16F2550E26E : public ::System::Object
+{
+public:
+	// static const ::System::Int32 Field_1_0 = 0x0; // 0x0
+	// static const ::System::Int32 Field_1_1 = 0x1; // 0x0
+	// static const ::System::Int32 Field_1_2 = 0x2; // 0x0
+	::Class_1_C47576BEFCFAD595* Field_1_3; // 0x10
+	::RPG::GameCore::ActivityParkourAIConfigRow* Field_1_4; // 0x18
+	::Il2CppArray<::Il2CppArray<::Class_1_C42EE16F2550E26E_Class_1_8781C9423B4D4C63*>*>* Field_1_5; // 0x20
+	::Class_3_2BE5039CEA912003* Field_1_6; // 0x28
+	::System::Single _ModifyNearPlayerScore_k__BackingField; // 0x30
+	::System::Single _ModifyLeavePlayerScore_k__BackingField; // 0x34
+	::System::Single _ModifySlowDownRegionScore_k__BackingField; // 0x38
+	::System::Single Field_1_10; // 0x3C
+	::System::Single _ModifyLocalPlayerScore_k__BackingField; // 0x40
+	::System::Single Field_1_12; // 0x44
+	::System::Int32 Field_1_13; // 0x48
+	::System::Single _ModifyAIPlayerScore_k__BackingField; // 0x4C
+	::System::Single _ModifySwitchRoadScore_k__BackingField; // 0x50
+	::System::Single Field_1_16; // 0x54
+	::System::Single _ModifySpeedItemScore_k__BackingField; // 0x58
+	::System::Single _ModifyActionIntervalTime_k__BackingField; // 0x5C
+	::System::Single _ModifySpeedUpRegionScore_k__BackingField; // 0x60
+	::System::Single _ModifyObstacleScore_k__BackingField; // 0x64
+	::System::Single Field_1_21; // 0x68
+	::System::Single _ModifySkillItemScore_k__BackingField; // 0x6C
+
+	::System::Void _ctor(::Class_3_2BE5039CEA912003* a1, ::RPG::GameCore::ActivityParkourAIConfigRow* a2, ::Class_1_C47576BEFCFAD595* a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_3_2BE5039CEA912003*, ::RPG::GameCore::ActivityParkourAIConfigRow*, ::Class_1_C47576BEFCFAD595*))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E__CTOR_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_1_9681042564541CD6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_9681042564541CD6_OFFSET))(this);
+	}
+
+	::System::Void Method_1_7223CD34BEFCBF48()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_7223CD34BEFCBF48_OFFSET))(this);
+	}
+
+	::System::Void Method_1_86DD10C8E9AA9638(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_86DD10C8E9AA9638_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_7BD782E2CF2663E2(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Single a4, ::System::Single a5)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_7BD782E2CF2663E2_OFFSET))(this, a1, a2, a3, a4, a5);
+	}
+
+	::System::Void Method_1_B47351F7A15C218D(::System::Int32 a1, ::System::Int32 a2, ::System::Single a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_B47351F7A15C218D_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Single Method_1_06A7FBB34DB30C77(::Class_1_C42EE16F2550E26E_Class_1_8781C9423B4D4C63* a1, ::System::Int32 a2)
+	{
+		return ((::System::Single(*)(::PVOID, ::Class_1_C42EE16F2550E26E_Class_1_8781C9423B4D4C63*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_06A7FBB34DB30C77_OFFSET))(this, a1, a2);
+	}
+
+	::Class_3_2BE5039CEA912003* Method_1_F239777256F9BA8F()
+	{
+		return ((::Class_3_2BE5039CEA912003*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_F239777256F9BA8F_OFFSET))(this);
+	}
+
+	::RPG::GameCore::ActivityParkourAIConfigRow* Method_1_498867DA6A9DA7E3()
+	{
+		return ((::RPG::GameCore::ActivityParkourAIConfigRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_498867DA6A9DA7E3_OFFSET))(this);
+	}
+
+	::System::Single Method_1_FF7B2911BBACA4A9()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_OFFSET))(this);
+	}
+
+	::System::Single Method_1_FF7B2911BBACA4A9_1()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_1_OFFSET))(this);
+	}
+
+	::System::Single Method_1_FF7B2911BBACA4A9_2()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_2_OFFSET))(this);
+	}
+
+	::System::Single Method_1_FF7B2911BBACA4A9_3()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_3_OFFSET))(this);
+	}
+
+	::System::Single Method_1_FF7B2911BBACA4A9_4()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_4_OFFSET))(this);
+	}
+
+	::System::Single Method_1_FF7B2911BBACA4A9_5()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_5_OFFSET))(this);
+	}
+
+	::System::Single Method_1_FF7B2911BBACA4A9_6()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_6_OFFSET))(this);
+	}
+
+	::System::Single Method_1_FF7B2911BBACA4A9_7()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_7_OFFSET))(this);
+	}
+
+	::System::Single Method_1_FF7B2911BBACA4A9_8()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_8_OFFSET))(this);
+	}
+
+	::System::Single Method_1_FF7B2911BBACA4A9_9()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_9_OFFSET))(this);
+	}
+
+	::System::Single Method_1_FF7B2911BBACA4A9_10()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_10_OFFSET))(this);
+	}
+
+	::System::Single get_ModifyActionIntervalTime()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_GET_MODIFYACTIONINTERVALTIME_OFFSET))(this);
+	}
+
+	::System::Void set_ModifyActionIntervalTime(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_SET_MODIFYACTIONINTERVALTIME_OFFSET))(this, a1);
+	}
+
+	::System::Single get_ModifySwitchRoadScore()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_GET_MODIFYSWITCHROADSCORE_OFFSET))(this);
+	}
+
+	::System::Void set_ModifySwitchRoadScore(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_SET_MODIFYSWITCHROADSCORE_OFFSET))(this, a1);
+	}
+
+	::System::Single get_ModifySlowDownRegionScore()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_GET_MODIFYSLOWDOWNREGIONSCORE_OFFSET))(this);
+	}
+
+	::System::Void set_ModifySlowDownRegionScore(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_SET_MODIFYSLOWDOWNREGIONSCORE_OFFSET))(this, a1);
+	}
+
+	::System::Single get_ModifySpeedUpRegionScore()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_GET_MODIFYSPEEDUPREGIONSCORE_OFFSET))(this);
+	}
+
+	::System::Void set_ModifySpeedUpRegionScore(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_SET_MODIFYSPEEDUPREGIONSCORE_OFFSET))(this, a1);
+	}
+
+	::System::Single get_ModifySpeedItemScore()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_GET_MODIFYSPEEDITEMSCORE_OFFSET))(this);
+	}
+
+	::System::Void set_ModifySpeedItemScore(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_SET_MODIFYSPEEDITEMSCORE_OFFSET))(this, a1);
+	}
+
+	::System::Single get_ModifySkillItemScore()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_GET_MODIFYSKILLITEMSCORE_OFFSET))(this);
+	}
+
+	::System::Void set_ModifySkillItemScore(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_SET_MODIFYSKILLITEMSCORE_OFFSET))(this, a1);
+	}
+
+	::System::Single get_ModifyObstacleScore()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_GET_MODIFYOBSTACLESCORE_OFFSET))(this);
+	}
+
+	::System::Void set_ModifyObstacleScore(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_SET_MODIFYOBSTACLESCORE_OFFSET))(this, a1);
+	}
+
+	::System::Single get_ModifyLocalPlayerScore()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_GET_MODIFYLOCALPLAYERSCORE_OFFSET))(this);
+	}
+
+	::System::Void set_ModifyLocalPlayerScore(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_SET_MODIFYLOCALPLAYERSCORE_OFFSET))(this, a1);
+	}
+
+	::System::Single get_ModifyAIPlayerScore()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_GET_MODIFYAIPLAYERSCORE_OFFSET))(this);
+	}
+
+	::System::Void set_ModifyAIPlayerScore(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_SET_MODIFYAIPLAYERSCORE_OFFSET))(this, a1);
+	}
+
+	::System::Single get_ModifyNearPlayerScore()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_GET_MODIFYNEARPLAYERSCORE_OFFSET))(this);
+	}
+
+	::System::Void set_ModifyNearPlayerScore(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_SET_MODIFYNEARPLAYERSCORE_OFFSET))(this, a1);
+	}
+
+	::System::Single get_ModifyLeavePlayerScore()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_GET_MODIFYLEAVEPLAYERSCORE_OFFSET))(this);
+	}
+
+	::System::Void set_ModifyLeavePlayerScore(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_SET_MODIFYLEAVEPLAYERSCORE_OFFSET))(this, a1);
+	}
+
+	::System::Int32 Method_1_95780ED94B90ED36()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_95780ED94B90ED36_OFFSET))(this);
+	}
+
+	::System::Int32 Method_1_95780ED94B90ED36_1()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_95780ED94B90ED36_1_OFFSET))(this);
+	}
+
+	::System::Single Method_1_FF7B2911BBACA4A9_11()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C42EE16F2550E26E_METHOD_1_FF7B2911BBACA4A9_11_OFFSET))(this);
+	}
+};

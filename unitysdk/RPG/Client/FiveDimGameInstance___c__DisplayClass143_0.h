@@ -5,13 +5,13 @@
 
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_FIVEDIMGAMEINSTANCE___C__DISPLAYCLASS143_0__CTOR_OFFSET UNITYSDK_OFFSET(0x113224D0)
-#define RPG_CLIENT_FIVEDIMGAMEINSTANCE___C__DISPLAYCLASS143_0__SETUPSIMPLETRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0x113224E0)
-#define RPG_CLIENT_FIVEDIMGAMEINSTANCE___C__DISPLAYCLASS143_0__SETUPSIMPLETRIGGER_B__1_OFFSET UNITYSDK_OFFSET(0x11322530)
+#define RPG_CLIENT_FIVEDIMGAMEINSTANCE___C__DISPLAYCLASS143_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16B9E5E0)
+#define RPG_CLIENT_FIVEDIMGAMEINSTANCE___C__DISPLAYCLASS143_0__SETUPSIMPLETRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0x16BAB990)
+#define RPG_CLIENT_FIVEDIMGAMEINSTANCE___C__DISPLAYCLASS143_0__SETUPSIMPLETRIGGER_B__1_OFFSET UNITYSDK_OFFSET(0x16BAB9F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimGameInstance___c__DisplayClass143_0_TypeDefinitionIndex = 55695;
+	inline static constexpr unsigned int FiveDimGameInstance___c__DisplayClass143_0_TypeDefinitionIndex = 56449;
 
 	class FiveDimGameInstance___c__DisplayClass143_0 : public ::System::Object
 	{
@@ -24,14 +24,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE___C__DISPLAYCLASS143_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _SetupSimpleTrigger_b__0(::UnityEngine::Collider* _)
+		::System::Void _SetupSimpleTrigger_b__0(::UnityEngine::Collider* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE___C__DISPLAYCLASS143_0__SETUPSIMPLETRIGGER_B__0_OFFSET))(this, _);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE___C__DISPLAYCLASS143_0__SETUPSIMPLETRIGGER_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Void _SetupSimpleTrigger_b__1(::UnityEngine::Collider* _)
+		::System::Void _SetupSimpleTrigger_b__1(::UnityEngine::Collider* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE___C__DISPLAYCLASS143_0__SETUPSIMPLETRIGGER_B__1_OFFSET))(this, _);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE___C__DISPLAYCLASS143_0__SETUPSIMPLETRIGGER_B__1_OFFSET))(this, a1);
 		}
 	};
 }

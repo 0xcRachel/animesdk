@@ -8,15 +8,15 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Renderer; }
 
-#define PLANEREFLECTIONPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15244490)
-#define PLANEREFLECTIONPROXY_ORDERBYPRIORITY_OFFSET UNITYSDK_OFFSET(0x15243B50)
-#define PLANEREFLECTIONPROXY_REGISTERPLANEREFLECTIONCASTERRENDERER_OFFSET UNITYSDK_OFFSET(0x15243FC0)
-#define PLANEREFLECTIONPROXY_REGISTERPLANEREFLECTION_OFFSET UNITYSDK_OFFSET(0x15243510)
-#define PLANEREFLECTIONPROXY_UNREGISTERPLANEREFLECTIONCASTERRENDERER_OFFSET UNITYSDK_OFFSET(0x15244270)
-#define PLANEREFLECTIONPROXY_UNREGISTERPLANEREFLECTION_OFFSET UNITYSDK_OFFSET(0x15243DE0)
-#define PLANEREFLECTIONPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x15243430)
+#define PLANEREFLECTIONPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x156E6190)
+#define PLANEREFLECTIONPROXY_ORDERBYPRIORITY_OFFSET UNITYSDK_OFFSET(0x156E57F0)
+#define PLANEREFLECTIONPROXY_REGISTERPLANEREFLECTIONCASTERRENDERER_OFFSET UNITYSDK_OFFSET(0x156E5C90)
+#define PLANEREFLECTIONPROXY_REGISTERPLANEREFLECTION_OFFSET UNITYSDK_OFFSET(0x156E50F0)
+#define PLANEREFLECTIONPROXY_UNREGISTERPLANEREFLECTIONCASTERRENDERER_OFFSET UNITYSDK_OFFSET(0x156E5F80)
+#define PLANEREFLECTIONPROXY_UNREGISTERPLANEREFLECTION_OFFSET UNITYSDK_OFFSET(0x156E5AB0)
+#define PLANEREFLECTIONPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x156E5010)
 
-inline static constexpr unsigned int PlaneReflectionProxy_TypeDefinitionIndex = 34866;
+inline static constexpr unsigned int PlaneReflectionProxy_TypeDefinitionIndex = 35149;
 
 class PlaneReflectionProxy : public ::System::Object
 {
@@ -29,24 +29,24 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLANEREFLECTIONPROXY__CTOR_OFFSET))(this);
 	}
 
-	::System::Void RegisterPlaneReflection(::RPG::CustomRP::IPlaneReflection* planeReflection)
+	::System::Void RegisterPlaneReflection(::RPG::CustomRP::IPlaneReflection* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::IPlaneReflection*))((::PBYTE)hIl2Cpp + PLANEREFLECTIONPROXY_REGISTERPLANEREFLECTION_OFFSET))(this, planeReflection);
+		return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::IPlaneReflection*))((::PBYTE)hIl2Cpp + PLANEREFLECTIONPROXY_REGISTERPLANEREFLECTION_OFFSET))(this, a1);
 	}
 
-	::System::Void UnregisterPlaneReflection(::RPG::CustomRP::IPlaneReflection* planeReflection)
+	::System::Void UnregisterPlaneReflection(::RPG::CustomRP::IPlaneReflection* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::IPlaneReflection*))((::PBYTE)hIl2Cpp + PLANEREFLECTIONPROXY_UNREGISTERPLANEREFLECTION_OFFSET))(this, planeReflection);
+		return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::IPlaneReflection*))((::PBYTE)hIl2Cpp + PLANEREFLECTIONPROXY_UNREGISTERPLANEREFLECTION_OFFSET))(this, a1);
 	}
 
-	::System::Boolean RegisterPlaneReflectionCasterRenderer(::System::String* nameKey, ::UnityEngine::Renderer* renderer)
+	::System::Boolean RegisterPlaneReflectionCasterRenderer(::System::String* a1, ::UnityEngine::Renderer* a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::String*, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + PLANEREFLECTIONPROXY_REGISTERPLANEREFLECTIONCASTERRENDERER_OFFSET))(this, nameKey, renderer);
+		return ((::System::Boolean(*)(::PVOID, ::System::String*, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + PLANEREFLECTIONPROXY_REGISTERPLANEREFLECTIONCASTERRENDERER_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void UnregisterPlaneReflectionCasterRenderer(::System::String* nameKey, ::UnityEngine::Renderer* renderer)
+	::System::Void UnregisterPlaneReflectionCasterRenderer(::System::String* a1, ::UnityEngine::Renderer* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + PLANEREFLECTIONPROXY_UNREGISTERPLANEREFLECTIONCASTERRENDERER_OFFSET))(this, nameKey, renderer);
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + PLANEREFLECTIONPROXY_UNREGISTERPLANEREFLECTIONCASTERRENDERER_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Dispose()
@@ -54,8 +54,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLANEREFLECTIONPROXY_DISPOSE_OFFSET))(this);
 	}
 
-	static ::System::Void OrderByPriority(::System::Collections::Generic::List_1<::RPG::CustomRP::IPlaneReflection*>* planeReflections)
+	static ::System::Void OrderByPriority(::System::Collections::Generic::List_1<::RPG::CustomRP::IPlaneReflection*>* a1)
 	{
-		return ((::System::Void(*)(::System::Collections::Generic::List_1<::RPG::CustomRP::IPlaneReflection*>*))((::PBYTE)hIl2Cpp + PLANEREFLECTIONPROXY_ORDERBYPRIORITY_OFFSET))(planeReflections);
+		return ((::System::Void(*)(::System::Collections::Generic::List_1<::RPG::CustomRP::IPlaneReflection*>*))((::PBYTE)hIl2Cpp + PLANEREFLECTIONPROXY_ORDERBYPRIORITY_OFFSET))(a1);
 	}
 };

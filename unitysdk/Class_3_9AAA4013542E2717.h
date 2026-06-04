@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_3_E21F6DE9B7FA4D05;
+class Class_3_07C3C4D2990C49EE;
 namespace RPG::GameCore { class InitGridFightStatisticsBinding; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9AAA4013542E2717_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10592B60)
-#define CLASS_3_9AAA4013542E2717_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10592A40)
-#define CLASS_3_9AAA4013542E2717__CTOR_OFFSET UNITYSDK_OFFSET(0x105929B0)
-#define CLASS_3_9AAA4013542E2717___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10592BD0)
+#define CLASS_3_9AAA4013542E2717_DISPOSE_OFFSET UNITYSDK_OFFSET(0x154EDD70)
+#define CLASS_3_9AAA4013542E2717_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154EDC50)
+#define CLASS_3_9AAA4013542E2717__CTOR_OFFSET UNITYSDK_OFFSET(0x154EDBC0)
+#define CLASS_3_9AAA4013542E2717___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x154EDDE0)
 
-inline static constexpr unsigned int Class_3_9AAA4013542E2717_TypeDefinitionIndex = 50824;
+inline static constexpr unsigned int Class_3_9AAA4013542E2717_TypeDefinitionIndex = 51492;
 
 class Class_3_9AAA4013542E2717 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::InitGridFightStatisticsBinding*>
 {
 public:
-	::Class_3_E21F6DE9B7FA4D05* Field_3_0; // 0x28
+	::Class_3_07C3C4D2990C49EE* Field_3_0; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::InitGridFightStatisticsBinding* a2)
 	{

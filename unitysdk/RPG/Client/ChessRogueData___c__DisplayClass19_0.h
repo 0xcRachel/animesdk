@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ChessRogueModifierDataItem; }
 
-#define RPG_CLIENT_CHESSROGUEDATA___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17B480C0)
-#define RPG_CLIENT_CHESSROGUEDATA___C__DISPLAYCLASS19_0___TRYREMOVEROGUEMODIFIER_B__0_OFFSET UNITYSDK_OFFSET(0x17B48100)
+#define RPG_CLIENT_CHESSROGUEDATA___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18A492F0)
+#define RPG_CLIENT_CHESSROGUEDATA___C__DISPLAYCLASS19_0___TRYREMOVEROGUEMODIFIER_B__0_OFFSET UNITYSDK_OFFSET(0x18A49330)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueData___c__DisplayClass19_0_TypeDefinitionIndex = 61637;
+	inline static constexpr unsigned int ChessRogueData___c__DisplayClass19_0_TypeDefinitionIndex = 62570;
 
 	class ChessRogueData___c__DisplayClass19_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEDATA___C__DISPLAYCLASS19_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __TryRemoveRogueModifier_b__0(::RPG::Client::ChessRogueModifierDataItem* x)
+		::System::Boolean __TryRemoveRogueModifier_b__0(::RPG::Client::ChessRogueModifierDataItem* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChessRogueModifierDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEDATA___C__DISPLAYCLASS19_0___TRYREMOVEROGUEMODIFIER_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChessRogueModifierDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEDATA___C__DISPLAYCLASS19_0___TRYREMOVEROGUEMODIFIER_B__0_OFFSET))(this, a1);
 		}
 	};
 }

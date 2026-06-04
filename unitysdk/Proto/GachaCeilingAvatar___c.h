@@ -4,20 +4,20 @@
 
 namespace Proto { class GachaCeilingAvatar; }
 
-#define PROTO_GACHACEILINGAVATAR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1975A800)
-#define PROTO_GACHACEILINGAVATAR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1975A830)
-#define PROTO_GACHACEILINGAVATAR___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1975A840)
+#define PROTO_GACHACEILINGAVATAR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A4461F0)
+#define PROTO_GACHACEILINGAVATAR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A446220)
+#define PROTO_GACHACEILINGAVATAR___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1A446230)
 
 namespace Proto
 {
-	inline static constexpr unsigned int GachaCeilingAvatar___c_TypeDefinitionIndex = 27365;
+	inline static constexpr unsigned int GachaCeilingAvatar___c_TypeDefinitionIndex = 27344;
 
 	class GachaCeilingAvatar___c : public ::System::Object
 	{
 	public:
 		static ::Proto::GachaCeilingAvatar___c** StaticGet___9()
 		{
-			return (::Proto::GachaCeilingAvatar___c**)Il2CppClass::FromTypeDefinitionIndex(GachaCeilingAvatar___c_TypeDefinitionIndex)->GetStaticField(0x4B680);
+			return (::Proto::GachaCeilingAvatar___c**)Il2CppClass::FromTypeDefinitionIndex(GachaCeilingAvatar___c_TypeDefinitionIndex)->GetStaticField(0x3CB00);
 		}
 
 		static ::System::Void _cctor()

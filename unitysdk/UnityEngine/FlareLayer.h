@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Behaviour.h"
 
-#define UNITYENGINE_FLARELAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x197F4370)
+#define UNITYENGINE_FLARELAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4DEFD0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int FlareLayer_TypeDefinitionIndex = 3863;
+	inline static constexpr unsigned int FlareLayer_TypeDefinitionIndex = 4037;
 
 	class FlareLayer : public ::UnityEngine::Behaviour
 	{

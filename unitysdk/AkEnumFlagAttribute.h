@@ -4,17 +4,17 @@
 
 namespace System { class Type; }
 
-#define AKENUMFLAGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x192C5FD0)
+#define AKENUMFLAGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DE09F0)
 
-inline static constexpr unsigned int AkEnumFlagAttribute_TypeDefinitionIndex = 40399;
+inline static constexpr unsigned int AkEnumFlagAttribute_TypeDefinitionIndex = 41226;
 
 class AkEnumFlagAttribute : public ::UnityEngine::PropertyAttribute
 {
 public:
 	::System::Type* Type; // 0x10
 
-	::System::Void _ctor(::System::Type* type)
+	::System::Void _ctor(::System::Type* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + AKENUMFLAGATTRIBUTE__CTOR_OFFSET))(this, type);
+		return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + AKENUMFLAGATTRIBUTE__CTOR_OFFSET))(this, a1);
 	}
 };

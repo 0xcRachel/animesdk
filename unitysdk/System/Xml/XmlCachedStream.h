@@ -5,7 +5,7 @@
 namespace System { class Uri; }
 namespace System::IO { class Stream; }
 
-#define SYSTEM_XML_XMLCACHEDSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x17AB2830)
+#define SYSTEM_XML_XMLCACHEDSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x16CE3650)
 
 namespace System::Xml
 {
@@ -16,9 +16,9 @@ namespace System::Xml
 	public:
 		::System::Uri* uri; // 0x50
 
-		::System::Void _ctor(::System::Uri* uri, ::System::IO::Stream* stream)
+		::System::Void _ctor(::System::Uri* a1, ::System::IO::Stream* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Uri*, ::System::IO::Stream*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLCACHEDSTREAM__CTOR_OFFSET))(this, uri, stream);
+			return ((::System::Void(*)(::PVOID, ::System::Uri*, ::System::IO::Stream*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLCACHEDSTREAM__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

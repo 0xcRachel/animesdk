@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIATOMEXMIC_EFFECT_GET_AFXINSTANCE_OFFSET UNITYSDK_OFFSET(0x18282C60)
-#define CRIWARE_CRIATOMEXMIC_EFFECT_GET_HANDLE_OFFSET UNITYSDK_OFFSET(0x18282C40)
-#define CRIWARE_CRIATOMEXMIC_EFFECT_SET_AFXINSTANCE_OFFSET UNITYSDK_OFFSET(0x18282C70)
-#define CRIWARE_CRIATOMEXMIC_EFFECT_SET_HANDLE_OFFSET UNITYSDK_OFFSET(0x18282C50)
-#define CRIWARE_CRIATOMEXMIC_EFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18282520)
+#define CRIWARE_CRIATOMEXMIC_EFFECT_GET_AFXINSTANCE_OFFSET UNITYSDK_OFFSET(0x18E05450)
+#define CRIWARE_CRIATOMEXMIC_EFFECT_GET_HANDLE_OFFSET UNITYSDK_OFFSET(0x18E05430)
+#define CRIWARE_CRIATOMEXMIC_EFFECT_SET_AFXINSTANCE_OFFSET UNITYSDK_OFFSET(0x18E05460)
+#define CRIWARE_CRIATOMEXMIC_EFFECT_SET_HANDLE_OFFSET UNITYSDK_OFFSET(0x18E05440)
+#define CRIWARE_CRIATOMEXMIC_EFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18E04D10)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExMic_Effect_TypeDefinitionIndex = 36793;
+	inline static constexpr unsigned int CriAtomExMic_Effect_TypeDefinitionIndex = 37093;
 
 	class CriAtomExMic_Effect : public ::System::Object
 	{
 	public:
-		::System::IntPtr _afxInstance_k__BackingField; // 0x10
-		::System::IntPtr _handle_k__BackingField; // 0x18
+		::System::IntPtr _handle_k__BackingField; // 0x10
+		::System::IntPtr _afxInstance_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::IntPtr handle, ::System::IntPtr afxInstance)
+		::System::Void _ctor(::System::IntPtr a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXMIC_EFFECT__CTOR_OFFSET))(this, handle, afxInstance);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXMIC_EFFECT__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::IntPtr get_handle()
@@ -28,9 +28,9 @@ namespace CriWare
 			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXMIC_EFFECT_GET_HANDLE_OFFSET))(this);
 		}
 
-		::System::Void set_handle(::System::IntPtr value)
+		::System::Void set_handle(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXMIC_EFFECT_SET_HANDLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXMIC_EFFECT_SET_HANDLE_OFFSET))(this, a1);
 		}
 
 		::System::IntPtr get_afxInstance()
@@ -38,9 +38,9 @@ namespace CriWare
 			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXMIC_EFFECT_GET_AFXINSTANCE_OFFSET))(this);
 		}
 
-		::System::Void set_afxInstance(::System::IntPtr value)
+		::System::Void set_afxInstance(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXMIC_EFFECT_SET_AFXINSTANCE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXMIC_EFFECT_SET_AFXINSTANCE_OFFSET))(this, a1);
 		}
 	};
 }

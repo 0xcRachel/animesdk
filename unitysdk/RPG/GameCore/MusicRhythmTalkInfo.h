@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUSICRHYTHMTALKINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18644B60)
-#define RPG_GAMECORE_MUSICRHYTHMTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18644E90)
+#define RPG_GAMECORE_MUSICRHYTHMTALKINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190FD600)
+#define RPG_GAMECORE_MUSICRHYTHMTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x190FD930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MusicRhythmTalkInfo_TypeDefinitionIndex = 20926;
+	inline static constexpr unsigned int MusicRhythmTalkInfo_TypeDefinitionIndex = 20839;
 
 	class MusicRhythmTalkInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSICRHYTHMTALKINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::MusicRhythmTalkInfo*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MusicRhythmTalkInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MusicRhythmTalkInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSICRHYTHMTALKINFO_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MusicRhythmTalkInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSICRHYTHMTALKINFO_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,24 +5,24 @@
 namespace RPG::Client { class GridFightRole; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16057A50)
-#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16057A90)
-#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA___C__GET_ADDROLEPOSINDEXES_B__5_0_OFFSET UNITYSDK_OFFSET(0x16057AA0)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19568FC0)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19569000)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA___C__GET_ADDROLEPOSINDEXES_B__5_0_OFFSET UNITYSDK_OFFSET(0x19569010)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightAugmentEffectData___c_TypeDefinitionIndex = 59242;
+	inline static constexpr unsigned int GridFightAugmentEffectData___c_TypeDefinitionIndex = 60177;
 
 	class GridFightAugmentEffectData___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::UInt32>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightAugmentEffectData___c_TypeDefinitionIndex)->GetStaticField(0x1D2C0);
+			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightAugmentEffectData___c_TypeDefinitionIndex)->GetStaticField(0x283D0);
 		}
 		static ::RPG::Client::GridFightAugmentEffectData___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightAugmentEffectData___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightAugmentEffectData___c_TypeDefinitionIndex)->GetStaticField(0x1D2C8);
+			return (::RPG::Client::GridFightAugmentEffectData___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightAugmentEffectData___c_TypeDefinitionIndex)->GetStaticField(0x283D8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA___C__CTOR_OFFSET))(this);
 		}
 
-		::System::UInt32 _get_AddRolePosIndexes_b__5_0(::RPG::Client::GridFightRole* x)
+		::System::UInt32 _get_AddRolePosIndexes_b__5_0(::RPG::Client::GridFightRole* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA___C__GET_ADDROLEPOSINDEXES_B__5_0_OFFSET))(this, x);
+			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA___C__GET_ADDROLEPOSINDEXES_B__5_0_OFFSET))(this, a1);
 		}
 	};
 }

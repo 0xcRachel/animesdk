@@ -3,37 +3,37 @@
 #include "unitysdk/RPG/GameCore/ChimeraDuelBuffType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_43BD383C98B4C0C5_182;
-class Class_1_F9EBB5A401350F78;
-class Class_1_F9FBCC956DFCF137_17;
-class Class_2_49CAB3DE74280C58;
+class Class_1_3F1549C2A53A3A5B;
+class Class_1_43BD383C98B4C0C5_191;
+class Class_1_F9FBCC956DFCF137_25;
+class Class_2_B66C1067C0468FBB;
 namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_61B783805992B721_EXECUTE_OFFSET UNITYSDK_OFFSET(0x135C5080)
-#define CLASS_1_61B783805992B721_METHOD_1_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0x135C52C0)
-#define CLASS_1_61B783805992B721_TICK_OFFSET UNITYSDK_OFFSET(0x135C5250)
-#define CLASS_1_61B783805992B721__CTOR_OFFSET UNITYSDK_OFFSET(0x135C4E00)
+#define CLASS_1_61B783805992B721_EXECUTE_OFFSET UNITYSDK_OFFSET(0x158803A0)
+#define CLASS_1_61B783805992B721_METHOD_1_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0x158805E0)
+#define CLASS_1_61B783805992B721_TICK_OFFSET UNITYSDK_OFFSET(0x15880570)
+#define CLASS_1_61B783805992B721__CTOR_OFFSET UNITYSDK_OFFSET(0x15880120)
 
-inline static constexpr unsigned int Class_1_61B783805992B721_TypeDefinitionIndex = 71230;
+inline static constexpr unsigned int Class_1_61B783805992B721_TypeDefinitionIndex = 72168;
 
 class Class_1_61B783805992B721 : public ::System::Object
 {
 public:
-	::Class_1_F9EBB5A401350F78* Field_1_2; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_182*>* Field_1_1; // 0x18
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChimeraDuelBuffType, ::System::String*>* Field_1_0; // 0x20
+	::Class_1_3F1549C2A53A3A5B* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChimeraDuelBuffType, ::System::String*>* Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_191*>* Field_1_2; // 0x20
 
-	::System::Void _ctor(::Class_2_49CAB3DE74280C58* a1, ::Class_2_49CAB3DE74280C58* a2, ::Class_2_49CAB3DE74280C58* a3)
+	::System::Void _ctor(::Class_2_B66C1067C0468FBB* a1, ::Class_2_B66C1067C0468FBB* a2, ::Class_2_B66C1067C0468FBB* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_49CAB3DE74280C58*, ::Class_2_49CAB3DE74280C58*, ::Class_2_49CAB3DE74280C58*))((::PBYTE)hIl2Cpp + CLASS_1_61B783805992B721__CTOR_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::Class_2_B66C1067C0468FBB*, ::Class_2_B66C1067C0468FBB*, ::Class_2_B66C1067C0468FBB*))((::PBYTE)hIl2Cpp + CLASS_1_61B783805992B721__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Execute(::Class_1_F9FBCC956DFCF137_17* a1, ::System::Action* a2)
+	::System::Void Execute(::Class_1_F9FBCC956DFCF137_25* a1, ::System::Action* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_17*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_61B783805992B721_EXECUTE_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_25*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_61B783805992B721_EXECUTE_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Tick(::System::Single a1)
@@ -41,8 +41,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_61B783805992B721_TICK_OFFSET))(this, a1);
 	}
 
-	::Class_1_F9EBB5A401350F78* Method_1_F8B73ECE7F883AC1()
+	::Class_1_3F1549C2A53A3A5B* Method_1_F8B73ECE7F883AC1()
 	{
-		return ((::Class_1_F9EBB5A401350F78*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_61B783805992B721_METHOD_1_F8B73ECE7F883AC1_OFFSET))(this);
+		return ((::Class_1_3F1549C2A53A3A5B*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_61B783805992B721_METHOD_1_F8B73ECE7F883AC1_OFFSET))(this);
 	}
 };

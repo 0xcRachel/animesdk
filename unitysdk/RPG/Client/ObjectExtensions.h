@@ -4,30 +4,30 @@
 
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_OBJECTEXTENSIONS_ISEQUALSNULL_OFFSET UNITYSDK_OFFSET(0x143E9830)
-#define RPG_CLIENT_OBJECTEXTENSIONS_ISNOTNULL_OFFSET UNITYSDK_OFFSET(0x143E97D0)
-#define RPG_CLIENT_OBJECTEXTENSIONS_ISNULL_OFFSET UNITYSDK_OFFSET(0x143E9770)
+#define RPG_CLIENT_OBJECTEXTENSIONS_ISEQUALSNULL_OFFSET UNITYSDK_OFFSET(0x15EDF700)
+#define RPG_CLIENT_OBJECTEXTENSIONS_ISNOTNULL_OFFSET UNITYSDK_OFFSET(0x15EDF6A0)
+#define RPG_CLIENT_OBJECTEXTENSIONS_ISNULL_OFFSET UNITYSDK_OFFSET(0x15EDF640)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ObjectExtensions_TypeDefinitionIndex = 67044;
+	inline static constexpr unsigned int ObjectExtensions_TypeDefinitionIndex = 67986;
 
 	class ObjectExtensions : public ::System::Object
 	{
 	public:
-		static ::System::Boolean IsNull(::UnityEngine::Object* o)
+		static ::System::Boolean IsNull(::UnityEngine::Object* a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OBJECTEXTENSIONS_ISNULL_OFFSET))(o);
+			return ((::System::Boolean(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OBJECTEXTENSIONS_ISNULL_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsNotNull(::UnityEngine::Object* o)
+		static ::System::Boolean IsNotNull(::UnityEngine::Object* a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OBJECTEXTENSIONS_ISNOTNULL_OFFSET))(o);
+			return ((::System::Boolean(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OBJECTEXTENSIONS_ISNOTNULL_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsEqualsNull(::System::Object* o)
+		static ::System::Boolean IsEqualsNull(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OBJECTEXTENSIONS_ISEQUALSNULL_OFFSET))(o);
+			return ((::System::Boolean(*)(::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OBJECTEXTENSIONS_ISEQUALSNULL_OFFSET))(a1);
 		}
 	};
 }

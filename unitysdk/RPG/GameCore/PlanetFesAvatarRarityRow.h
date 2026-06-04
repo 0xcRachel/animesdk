@@ -6,32 +6,32 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLANETFESAVATARRARITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B2B3A0)
-#define RPG_GAMECORE_PLANETFESAVATARRARITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B2BB00)
+#define RPG_GAMECORE_PLANETFESAVATARRARITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D480D0)
+#define RPG_GAMECORE_PLANETFESAVATARRARITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D48850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesAvatarRarityRow_TypeDefinitionIndex = 11522;
+	inline static constexpr unsigned int PlanetFesAvatarRarityRow_TypeDefinitionIndex = 11621;
 
 	class PlanetFesAvatarRarityRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
 		::RPG::Client::TextID Name; // 0x18
-		::System::UInt32 IncomeParam; // 0x28
-		::System::UInt32 Rarity; // 0x2C
-		::System::UInt32 CostParam; // 0x30
-		::System::UInt32 LevelSkipStarUpDetail; // 0x34
-		::System::UInt32 PieceTransferNum; // 0x38
+		::System::UInt32 Rarity; // 0x28
+		::System::UInt32 IncomeParam; // 0x2C
+		::System::UInt32 PieceTransferNum; // 0x30
+		::System::UInt32 CostParam; // 0x34
+		::System::UInt32 LevelSkipStarUpDetail; // 0x38
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESAVATARRARITYROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PlanetFesAvatarRarityRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlanetFesAvatarRarityRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlanetFesAvatarRarityRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESAVATARRARITYROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlanetFesAvatarRarityRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESAVATARRARITYROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

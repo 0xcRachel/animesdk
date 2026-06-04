@@ -6,30 +6,30 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONCONTENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AD9C30)
-#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONCONTENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18AD9E60)
+#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONCONTENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BDE5F0)
+#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONCONTENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BDE840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnniversaryCollectionContentConfigRow_TypeDefinitionIndex = 11961;
+	inline static constexpr unsigned int AnniversaryCollectionContentConfigRow_TypeDefinitionIndex = 12054;
 
 	class AnniversaryCollectionContentConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ContentID; // 0x10
-		::RPG::GameCore::AnniversaryCollectionContentRegionScope RegionScope; // 0x14
-		::System::UInt32 RelatedGotoID; // 0x18
-		::System::UInt32 RelatedActivityID; // 0x1C
-		::RPG::Client::TextID ContentTitle; // 0x20
+		::RPG::Client::TextID ContentTitle; // 0x10
+		::System::UInt32 ContentID; // 0x20
+		::System::UInt32 RelatedActivityID; // 0x24
+		::System::UInt32 RelatedGotoID; // 0x28
+		::RPG::GameCore::AnniversaryCollectionContentRegionScope RegionScope; // 0x2C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANNIVERSARYCOLLECTIONCONTENTCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::AnniversaryCollectionContentConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AnniversaryCollectionContentConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AnniversaryCollectionContentConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANNIVERSARYCOLLECTIONCONTENTCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AnniversaryCollectionContentConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANNIVERSARYCOLLECTIONCONTENTCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

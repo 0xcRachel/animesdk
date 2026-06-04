@@ -5,40 +5,40 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define INCONTROL_OPTIONALUINT32_CLEAR_OFFSET UNITYSDK_OFFSET(0x2177600)
-#define INCONTROL_OPTIONALUINT32_COMBINEHASHCODES_OFFSET UNITYSDK_OFFSET(0x13BCCD50)
-#define INCONTROL_OPTIONALUINT32_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x2177D60)
-#define INCONTROL_OPTIONALUINT32_EQUALS_2_OFFSET UNITYSDK_OFFSET(0x2177D80)
-#define INCONTROL_OPTIONALUINT32_EQUALS_OFFSET UNITYSDK_OFFSET(0x2177F60)
-#define INCONTROL_OPTIONALUINT32_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2177D90)
-#define INCONTROL_OPTIONALUINT32_GETVALUEORDEFAULT_OFFSET UNITYSDK_OFFSET(0x2177D10)
-#define INCONTROL_OPTIONALUINT32_GETVALUEORZERO_OFFSET UNITYSDK_OFFSET(0x2177D20)
-#define INCONTROL_OPTIONALUINT32_GET_HASNOVALUE_OFFSET UNITYSDK_OFFSET(0x2177580)
-#define INCONTROL_OPTIONALUINT32_GET_HASVALUE_OFFSET UNITYSDK_OFFSET(0x608B40)
-#define INCONTROL_OPTIONALUINT32_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x2177EF0)
-#define INCONTROL_OPTIONALUINT32_OP_EQUALITY_1_OFFSET UNITYSDK_OFFSET(0x13BCCD10)
-#define INCONTROL_OPTIONALUINT32_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x13BCCCD0)
-#define INCONTROL_OPTIONALUINT32_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x13BCCDD0)
-#define INCONTROL_OPTIONALUINT32_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x13BAD060)
-#define INCONTROL_OPTIONALUINT32_OP_INEQUALITY_1_OFFSET UNITYSDK_OFFSET(0x13BCCD30)
-#define INCONTROL_OPTIONALUINT32_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x13BCCCF0)
-#define INCONTROL_OPTIONALUINT32_SETVALUE_OFFSET UNITYSDK_OFFSET(0x2177C90)
-#define INCONTROL_OPTIONALUINT32_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x2177C90)
-#define INCONTROL_OPTIONALUINT32_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2177F90)
-#define INCONTROL_OPTIONALUINT32__CTOR_OFFSET UNITYSDK_OFFSET(0x2177C90)
+#define INCONTROL_OPTIONALUINT32_CLEAR_OFFSET UNITYSDK_OFFSET(0x372D480)
+#define INCONTROL_OPTIONALUINT32_COMBINEHASHCODES_OFFSET UNITYSDK_OFFSET(0x12A12D20)
+#define INCONTROL_OPTIONALUINT32_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x372DC00)
+#define INCONTROL_OPTIONALUINT32_EQUALS_2_OFFSET UNITYSDK_OFFSET(0x372DC20)
+#define INCONTROL_OPTIONALUINT32_EQUALS_OFFSET UNITYSDK_OFFSET(0x372DE00)
+#define INCONTROL_OPTIONALUINT32_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x372DC30)
+#define INCONTROL_OPTIONALUINT32_GETVALUEORDEFAULT_OFFSET UNITYSDK_OFFSET(0x372DBB0)
+#define INCONTROL_OPTIONALUINT32_GETVALUEORZERO_OFFSET UNITYSDK_OFFSET(0x372DBC0)
+#define INCONTROL_OPTIONALUINT32_GET_HASNOVALUE_OFFSET UNITYSDK_OFFSET(0x372D400)
+#define INCONTROL_OPTIONALUINT32_GET_HASVALUE_OFFSET UNITYSDK_OFFSET(0x72BD00)
+#define INCONTROL_OPTIONALUINT32_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x372DD90)
+#define INCONTROL_OPTIONALUINT32_OP_EQUALITY_1_OFFSET UNITYSDK_OFFSET(0x12A12CF0)
+#define INCONTROL_OPTIONALUINT32_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x12A12CB0)
+#define INCONTROL_OPTIONALUINT32_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x12A12DA0)
+#define INCONTROL_OPTIONALUINT32_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x129F74F0)
+#define INCONTROL_OPTIONALUINT32_OP_INEQUALITY_1_OFFSET UNITYSDK_OFFSET(0x12A12D00)
+#define INCONTROL_OPTIONALUINT32_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x12A12CD0)
+#define INCONTROL_OPTIONALUINT32_SETVALUE_OFFSET UNITYSDK_OFFSET(0x372DB30)
+#define INCONTROL_OPTIONALUINT32_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x372DB30)
+#define INCONTROL_OPTIONALUINT32_TOSTRING_OFFSET UNITYSDK_OFFSET(0x372DE30)
+#define INCONTROL_OPTIONALUINT32__CTOR_OFFSET UNITYSDK_OFFSET(0x372DB30)
 
 namespace InControl
 {
-	inline static constexpr unsigned int OptionalUInt32_TypeDefinitionIndex = 37215;
+	inline static constexpr unsigned int OptionalUInt32_TypeDefinitionIndex = 37947;
 
 	struct alignas(4) OptionalUInt32
 	{
 		::System::Boolean hasValue; // 0x10
 		::System::UInt32 value; // 0x14
 
-		::System::Void _ctor(::System::UInt32 value)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32__CTOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_HasValue()
@@ -56,9 +56,9 @@ namespace InControl
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_Value(::System::UInt32 value)
+		::System::Void set_Value(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_SET_VALUE_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()
@@ -66,9 +66,9 @@ namespace InControl
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_CLEAR_OFFSET))(this);
 		}
 
-		::System::UInt32 GetValueOrDefault(::System::UInt32 defaultValue)
+		::System::UInt32 GetValueOrDefault(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_GETVALUEORDEFAULT_OFFSET))(this, defaultValue);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_GETVALUEORDEFAULT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetValueOrZero()
@@ -76,49 +76,49 @@ namespace InControl
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_GETVALUEORZERO_OFFSET))(this);
 		}
 
-		::System::Void SetValue(::System::UInt32 value)
+		::System::Void SetValue(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_SETVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_SETVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::System::Object* other)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::InControl::OptionalUInt32 other)
+		::System::Boolean Equals_1(::InControl::OptionalUInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::InControl::OptionalUInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::InControl::OptionalUInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_EQUALS_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_2(::System::UInt32 other)
+		::System::Boolean Equals_2(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_EQUALS_2_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_EQUALS_2_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean op_Equality(::InControl::OptionalUInt32 a, ::InControl::OptionalUInt32 b)
+		static ::System::Boolean op_Equality(::InControl::OptionalUInt32 a1, ::InControl::OptionalUInt32 a2)
 		{
-			return ((::System::Boolean(*)(::InControl::OptionalUInt32, ::InControl::OptionalUInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_OP_EQUALITY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::InControl::OptionalUInt32, ::InControl::OptionalUInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::InControl::OptionalUInt32 a, ::InControl::OptionalUInt32 b)
+		static ::System::Boolean op_Inequality(::InControl::OptionalUInt32 a1, ::InControl::OptionalUInt32 a2)
 		{
-			return ((::System::Boolean(*)(::InControl::OptionalUInt32, ::InControl::OptionalUInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_OP_INEQUALITY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::InControl::OptionalUInt32, ::InControl::OptionalUInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Equality_1(::InControl::OptionalUInt32 a, ::System::UInt32 b)
+		static ::System::Boolean op_Equality_1(::InControl::OptionalUInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::InControl::OptionalUInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_OP_EQUALITY_1_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::InControl::OptionalUInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_OP_EQUALITY_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality_1(::InControl::OptionalUInt32 a, ::System::UInt32 b)
+		static ::System::Boolean op_Inequality_1(::InControl::OptionalUInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::InControl::OptionalUInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_OP_INEQUALITY_1_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::InControl::OptionalUInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_OP_INEQUALITY_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 CombineHashCodes(::System::Int32 h1, ::System::Int32 h2)
+		static ::System::Int32 CombineHashCodes(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_COMBINEHASHCODES_OFFSET))(h1, h2);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_COMBINEHASHCODES_OFFSET))(a1, a2);
 		}
 
 		::System::Int32 GetHashCode()
@@ -131,14 +131,14 @@ namespace InControl
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_TOSTRING_OFFSET))(this);
 		}
 
-		static ::InControl::OptionalUInt32 op_Implicit(::System::UInt32 value)
+		static ::InControl::OptionalUInt32 op_Implicit(::System::UInt32 a1)
 		{
-			return ((::InControl::OptionalUInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_OP_IMPLICIT_OFFSET))(value);
+			return ((::InControl::OptionalUInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_OP_IMPLICIT_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 op_Explicit(::InControl::OptionalUInt32 optional)
+		static ::System::UInt32 op_Explicit(::InControl::OptionalUInt32 a1)
 		{
-			return ((::System::UInt32(*)(::InControl::OptionalUInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_OP_EXPLICIT_OFFSET))(optional);
+			return ((::System::UInt32(*)(::InControl::OptionalUInt32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALUINT32_OP_EXPLICIT_OFFSET))(a1);
 		}
 	};
 }

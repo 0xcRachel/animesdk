@@ -5,24 +5,24 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_PROPERTYNAMEUTILS_PROPERTYNAMEFROMSTRING_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A5723B0)
-#define UNITYENGINE_PROPERTYNAMEUTILS_PROPERTYNAMEFROMSTRING_OFFSET UNITYSDK_OFFSET(0x1A572240)
+#define UNITYENGINE_PROPERTYNAMEUTILS_PROPERTYNAMEFROMSTRING_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B314CB0)
+#define UNITYENGINE_PROPERTYNAMEUTILS_PROPERTYNAMEFROMSTRING_OFFSET UNITYSDK_OFFSET(0x1B314B40)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PropertyNameUtils_TypeDefinitionIndex = 4056;
+	inline static constexpr unsigned int PropertyNameUtils_TypeDefinitionIndex = 4230;
 
 	class PropertyNameUtils : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::PropertyName PropertyNameFromString(::System::String* name)
+		static ::UnityEngine::PropertyName PropertyNameFromString(::System::String* a1)
 		{
-			return ((::UnityEngine::PropertyName(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROPERTYNAMEUTILS_PROPERTYNAMEFROMSTRING_OFFSET))(name);
+			return ((::UnityEngine::PropertyName(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROPERTYNAMEUTILS_PROPERTYNAMEFROMSTRING_OFFSET))(a1);
 		}
 
-		static ::System::Void PropertyNameFromString_Injected(::System::String* name, ::UnityEngine::PropertyName& ret)
+		static ::System::Void PropertyNameFromString_Injected(::System::String* a1, ::UnityEngine::PropertyName& a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::UnityEngine::PropertyName&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROPERTYNAMEUTILS_PROPERTYNAMEFROMSTRING_INJECTED_OFFSET))(name, ret);
+			return ((::System::Void(*)(::System::String*, ::UnityEngine::PropertyName&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROPERTYNAMEUTILS_PROPERTYNAMEFROMSTRING_INJECTED_OFFSET))(a1, a2);
 		}
 	};
 }

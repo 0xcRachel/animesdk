@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/GameCore/SpecialBPDisplayStyle.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_8D1F4CBFE61774F3_METHOD_1_1D4018D4200358D0_1_OFFSET UNITYSDK_OFFSET(0xE645F00)
-#define CLASS_1_8D1F4CBFE61774F3_METHOD_1_1D4018D4200358D0_2_OFFSET UNITYSDK_OFFSET(0xE645F60)
-#define CLASS_1_8D1F4CBFE61774F3_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xE645EA0)
-#define CLASS_1_8D1F4CBFE61774F3__CTOR_OFFSET UNITYSDK_OFFSET(0xE645FB0)
+#define CLASS_1_8D1F4CBFE61774F3_METHOD_1_1D4018D4200358D0_1_OFFSET UNITYSDK_OFFSET(0x13E14E80)
+#define CLASS_1_8D1F4CBFE61774F3_METHOD_1_1D4018D4200358D0_2_OFFSET UNITYSDK_OFFSET(0x13E14EE0)
+#define CLASS_1_8D1F4CBFE61774F3_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x13E14E20)
+#define CLASS_1_8D1F4CBFE61774F3__CTOR_OFFSET UNITYSDK_OFFSET(0x13E14F30)
 
-inline static constexpr unsigned int Class_1_8D1F4CBFE61774F3_TypeDefinitionIndex = 65899;
+inline static constexpr unsigned int Class_1_8D1F4CBFE61774F3_TypeDefinitionIndex = 66832;
 
 class Class_1_8D1F4CBFE61774F3 : public ::System::Object
 {
 public:
-	::RPG::GameCore::SpecialBPDisplayStyle Field_1_0; // 0x10
-	::System::Int32 Field_1_3; // 0x14
-	::System::Boolean Field_1_4; // 0x18
-	::System::Boolean Field_1_2; // 0x19
-	::System::Boolean Field_1_1; // 0x1A
+	::System::Int32 Field_1_0; // 0x10
+	::System::Boolean Field_1_1; // 0x14
+	::System::Boolean Field_1_2; // 0x15
+	::System::Boolean Field_1_3; // 0x16
+	::RPG::GameCore::SpecialBPDisplayStyle Field_1_4; // 0x18
 
 	::System::Void _ctor()
 	{

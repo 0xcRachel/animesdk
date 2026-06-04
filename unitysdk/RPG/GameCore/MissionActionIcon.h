@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MISSIONACTIONICON_METHOD_2_5AD2C437A98BBBED_OFFSET UNITYSDK_OFFSET(0x1906FC60)
-#define RPG_GAMECORE_MISSIONACTIONICON__CTOR_OFFSET UNITYSDK_OFFSET(0x1906FE20)
+#define RPG_GAMECORE_MISSIONACTIONICON_METHOD_2_5AD2C437A98BBBED_OFFSET UNITYSDK_OFFSET(0x19699D50)
+#define RPG_GAMECORE_MISSIONACTIONICON__CTOR_OFFSET UNITYSDK_OFFSET(0x19699F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionActionIcon_TypeDefinitionIndex = 17985;
+	inline static constexpr unsigned int MissionActionIcon_TypeDefinitionIndex = 18012;
 
 	class MissionActionIcon : public ::RPG::GameCore::JsonConfig
 	{

@@ -8,24 +8,24 @@ namespace RPG::Client { class IBookletView; }
 namespace RPG::Client { class UIController; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_TAROTBOOKHELPER_DESTROYVIEW_OFFSET UNITYSDK_OFFSET(0x16994600)
-#define RPG_CLIENT_TAROTBOOKHELPER_INITVIEW_OFFSET UNITYSDK_OFFSET(0x16994310)
+#define RPG_CLIENT_TAROTBOOKHELPER_DESTROYVIEW_OFFSET UNITYSDK_OFFSET(0x180BF020)
+#define RPG_CLIENT_TAROTBOOKHELPER_INITVIEW_OFFSET UNITYSDK_OFFSET(0x180BED30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TarotBookHelper_TypeDefinitionIndex = 66763;
+	inline static constexpr unsigned int TarotBookHelper_TypeDefinitionIndex = 67703;
 
 	class TarotBookHelper : public ::System::Object
 	{
 	public:
-		static ::System::Void InitView(::RPG::Client::UIController* controller, ::RPG::Client::IBookletView* view, ::RPG::Client::Booklet* context, ::System::Action_1<::System::Int32>* messageReceiver, ::System::Action_1<::RPG::Client::BookletLuaPanelParam*>* panelCreator, ::System::Action_1<::System::UInt32>* panelDestroyer)
+		static ::System::Void InitView(::RPG::Client::UIController* a1, ::RPG::Client::IBookletView* a2, ::RPG::Client::Booklet* a3, ::System::Action_1<::System::Int32>* a4, ::System::Action_1<::RPG::Client::BookletLuaPanelParam*>* a5, ::System::Action_1<::System::UInt32>* a6)
 		{
-			return ((::System::Void(*)(::RPG::Client::UIController*, ::RPG::Client::IBookletView*, ::RPG::Client::Booklet*, ::System::Action_1<::System::Int32>*, ::System::Action_1<::RPG::Client::BookletLuaPanelParam*>*, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKHELPER_INITVIEW_OFFSET))(controller, view, context, messageReceiver, panelCreator, panelDestroyer);
+			return ((::System::Void(*)(::RPG::Client::UIController*, ::RPG::Client::IBookletView*, ::RPG::Client::Booklet*, ::System::Action_1<::System::Int32>*, ::System::Action_1<::RPG::Client::BookletLuaPanelParam*>*, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKHELPER_INITVIEW_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void DestroyView(::RPG::Client::IBookletView* view)
+		static ::System::Void DestroyView(::RPG::Client::IBookletView* a1)
 		{
-			return ((::System::Void(*)(::RPG::Client::IBookletView*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKHELPER_DESTROYVIEW_OFFSET))(view);
+			return ((::System::Void(*)(::RPG::Client::IBookletView*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKHELPER_DESTROYVIEW_OFFSET))(a1);
 		}
 	};
 }

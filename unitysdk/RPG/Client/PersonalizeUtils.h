@@ -5,36 +5,36 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_PERSONALIZEUTILS_CANDISPLAYINLOCK_OFFSET UNITYSDK_OFFSET(0x165CF3B0)
-#define RPG_CLIENT_PERSONALIZEUTILS_GETEQUIPPEDPHONECASEPREFABPATH_OFFSET UNITYSDK_OFFSET(0x165D1DE0)
-#define RPG_CLIENT_PERSONALIZEUTILS_GETPHONETHEMEIMAGEL_OFFSET UNITYSDK_OFFSET(0x165D1D70)
-#define RPG_CLIENT_PERSONALIZEUTILS_GETPHONETHEMEIMAGER_OFFSET UNITYSDK_OFFSET(0x165D2040)
+#define RPG_CLIENT_PERSONALIZEUTILS_CANDISPLAYINLOCK_OFFSET UNITYSDK_OFFSET(0x146CC1F0)
+#define RPG_CLIENT_PERSONALIZEUTILS_GETEQUIPPEDPHONECASEPREFABPATH_OFFSET UNITYSDK_OFFSET(0x146CF330)
+#define RPG_CLIENT_PERSONALIZEUTILS_GETPHONETHEMEIMAGEL_OFFSET UNITYSDK_OFFSET(0x146CF2C0)
+#define RPG_CLIENT_PERSONALIZEUTILS_GETPHONETHEMEIMAGER_OFFSET UNITYSDK_OFFSET(0x146CF5A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PersonalizeUtils_TypeDefinitionIndex = 61206;
+	inline static constexpr unsigned int PersonalizeUtils_TypeDefinitionIndex = 62130;
 
 	class PersonalizeUtils : public ::System::Object
 	{
 	public:
-		static ::System::Boolean CanDisplayInLock(::RPG::GameCore::PersonalizeShowType showType, ::System::UInt32 showParam)
+		static ::System::Boolean CanDisplayInLock(::RPG::GameCore::PersonalizeShowType a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::PersonalizeShowType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERSONALIZEUTILS_CANDISPLAYINLOCK_OFFSET))(showType, showParam);
+			return ((::System::Boolean(*)(::RPG::GameCore::PersonalizeShowType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERSONALIZEUTILS_CANDISPLAYINLOCK_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* GetPhoneThemeImageL(::System::UInt32 themeID)
+		static ::System::String* GetPhoneThemeImageL(::System::UInt32 a1)
 		{
-			return ((::System::String*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERSONALIZEUTILS_GETPHONETHEMEIMAGEL_OFFSET))(themeID);
+			return ((::System::String*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERSONALIZEUTILS_GETPHONETHEMEIMAGEL_OFFSET))(a1);
 		}
 
-		static ::System::String* GetEquippedPhoneCasePrefabPath(::System::UInt32 avatarID)
+		static ::System::String* GetEquippedPhoneCasePrefabPath(::System::UInt32 a1)
 		{
-			return ((::System::String*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERSONALIZEUTILS_GETEQUIPPEDPHONECASEPREFABPATH_OFFSET))(avatarID);
+			return ((::System::String*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERSONALIZEUTILS_GETEQUIPPEDPHONECASEPREFABPATH_OFFSET))(a1);
 		}
 
-		static ::System::String* GetPhoneThemeImageR(::System::UInt32 themeID)
+		static ::System::String* GetPhoneThemeImageR(::System::UInt32 a1)
 		{
-			return ((::System::String*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERSONALIZEUTILS_GETPHONETHEMEIMAGER_OFFSET))(themeID);
+			return ((::System::String*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERSONALIZEUTILS_GETPHONETHEMEIMAGER_OFFSET))(a1);
 		}
 	};
 }

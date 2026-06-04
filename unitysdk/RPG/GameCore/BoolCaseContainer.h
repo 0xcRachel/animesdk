@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BOOLCASECONTAINER_METHOD_3_49DDABB5CEC66292_OFFSET UNITYSDK_OFFSET(0x187C1660)
-#define RPG_GAMECORE_BOOLCASECONTAINER_METHOD_3_75D3C90ED0C606F9_OFFSET UNITYSDK_OFFSET(0x187C1620)
-#define RPG_GAMECORE_BOOLCASECONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x187C1650)
+#define RPG_GAMECORE_BOOLCASECONTAINER_METHOD_3_52C327CF1F70D1BF_OFFSET UNITYSDK_OFFSET(0x195E2D10)
+#define RPG_GAMECORE_BOOLCASECONTAINER_METHOD_3_7A2705D4D2695F00_OFFSET UNITYSDK_OFFSET(0x195E2D50)
+#define RPG_GAMECORE_BOOLCASECONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x195E2D40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoolCaseContainer_TypeDefinitionIndex = 16645;
+	inline static constexpr unsigned int BoolCaseContainer_TypeDefinitionIndex = 16675;
 
 	class BoolCaseContainer : public ::RPG::GameCore::CaseContainerBase
 	{
@@ -22,14 +22,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOLCASECONTAINER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_75D3C90ED0C606F9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BoolCaseContainer*& a2)
+		static ::System::Void Method_3_52C327CF1F70D1BF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BoolCaseContainer*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BoolCaseContainer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOLCASECONTAINER_METHOD_3_75D3C90ED0C606F9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BoolCaseContainer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOLCASECONTAINER_METHOD_3_52C327CF1F70D1BF_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_49DDABB5CEC66292(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BoolCaseContainer* a2)
+		static ::System::Void Method_3_7A2705D4D2695F00(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BoolCaseContainer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BoolCaseContainer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOLCASECONTAINER_METHOD_3_49DDABB5CEC66292_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BoolCaseContainer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOLCASECONTAINER_METHOD_3_7A2705D4D2695F00_OFFSET))(a1, a2);
 		}
 	};
 }

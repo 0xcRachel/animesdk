@@ -1,0 +1,205 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/AttackDamageType.h"
+#include "unitysdk/RPG/GameCore/ChallengeGroupType.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_06E38C65842C3B24;
+class Class_1_1DAF14F72B32D5C3;
+class Class_1_44884E8651008039;
+class Class_1_608D5748B6FB2DB7;
+class Class_1_A78CE7582CF7C10E;
+class Class_1_DDF2C200AE487775;
+class Class_1_FCC22A0BAD3D5A17;
+namespace RPG::AvatarSystem { class IAvatar; }
+namespace RPG::Client { class MonsterData; }
+namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSessionStageResultBase; }
+namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageMonsterDataProvider; }
+namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageMonsterDataProvider_Factory; }
+namespace System { class Action; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_ADD_ONPLANCHANGED_OFFSET UNITYSDK_OFFSET(0x181C4D80)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_ADD_ONPROGRESSCHANGED_OFFSET UNITYSDK_OFFSET(0x181C4B80)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x181C2D30)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GETBUFFID_OFFSET UNITYSDK_OFFSET(0x181B60A0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GETCOVERBOSS_OFFSET UNITYSDK_OFFSET(0x181B6230)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GETTEAMLINEUP_OFFSET UNITYSDK_OFFSET(0x181B5F40)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET_BOSSICON_OFFSET UNITYSDK_OFFSET(0x181B9770)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET_BOSSLEVEL_OFFSET UNITYSDK_OFFSET(0x181B6100)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET_GROUPTYPE_OFFSET UNITYSDK_OFFSET(0x181C4E40)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x181C48F0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET_ISFINAL_OFFSET UNITYSDK_OFFSET(0x181B5DA0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET_MONSTERDATAPROVIDER_OFFSET UNITYSDK_OFFSET(0x181C3320)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET_NAME_OFFSET UNITYSDK_OFFSET(0x181B5D30)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET_RECOMMENDDAMAGETYPES_OFFSET UNITYSDK_OFFSET(0x181B6120)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET_RESULT_OFFSET UNITYSDK_OFFSET(0x181B5EE0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET__CONFIG_OFFSET UNITYSDK_OFFSET(0x181C4900)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET__CURRENTSESSIONPLAN_OFFSET UNITYSDK_OFFSET(0x181C4C40)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET__CURRENTSESSIONPROGRESS_OFFSET UNITYSDK_OFFSET(0x181C4A40)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_ITERATELINEUPAVATARIDENTIFIERS_OFFSET UNITYSDK_OFFSET(0x181C5280)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_ITERATELINEUPAVATARS_OFFSET UNITYSDK_OFFSET(0x181C3820)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_REMOVE_ONPLANCHANGED_OFFSET UNITYSDK_OFFSET(0x181C4DE0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_REMOVE_ONPROGRESSCHANGED_OFFSET UNITYSDK_OFFSET(0x181C4BE0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x181C4EA0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL__ONCURRENTSESSIONCHANGED_OFFSET UNITYSDK_OFFSET(0x181C5330)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL__ONCURRENTSESSIONPLANCHANGED_OFFSET UNITYSDK_OFFSET(0x181C53C0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL__ONCURRENTSESSIONPROGRESSCHANGED_OFFSET UNITYSDK_OFFSET(0x181C5420)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL__SUBSCRIBESESSION_OFFSET UNITYSDK_OFFSET(0x181C4FA0)
+
+namespace RPG::Client::Challenge::Tierce
+{
+	inline static constexpr unsigned int ChallengeTierceStageViewModel_TypeDefinitionIndex = 74229;
+
+	class ChallengeTierceStageViewModel : public ::System::Object
+	{
+	public:
+		::RPG::Client::Challenge::Tierce::ChallengeTierceStageMonsterDataProvider_Factory* _MonsterDataProviderFactory; // 0x10
+		::System::Action* OnProgressChanged; // 0x18
+		::Class_1_06E38C65842C3B24* _Tierce; // 0x20
+		::Class_1_DDF2C200AE487775* _AvatarQueryService; // 0x28
+		::RPG::Client::Challenge::Tierce::ChallengeTierceStageMonsterDataProvider* _MonsterDataProvider; // 0x30
+		::Class_1_608D5748B6FB2DB7* _SubscribedSession; // 0x38
+		::System::Action* OnPlanChanged; // 0x40
+		::System::Int32 _Index_k__BackingField; // 0x48
+
+		::System::Void _ctor(::RPG::Client::Challenge::Tierce::ChallengeTierceStageMonsterDataProvider_Factory* a1, ::Class_1_DDF2C200AE487775* a2, ::Class_1_06E38C65842C3B24* a3, ::System::Int32 a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Challenge::Tierce::ChallengeTierceStageMonsterDataProvider_Factory*, ::Class_1_DDF2C200AE487775*, ::Class_1_06E38C65842C3B24*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL__CTOR_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::System::Int32 get_Index()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET_INDEX_OFFSET))(this);
+		}
+
+		::Class_1_44884E8651008039* get__Config()
+		{
+			return ((::Class_1_44884E8651008039*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET__CONFIG_OFFSET))(this);
+		}
+
+		::Class_1_FCC22A0BAD3D5A17* get__CurrentSessionProgress()
+		{
+			return ((::Class_1_FCC22A0BAD3D5A17*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET__CURRENTSESSIONPROGRESS_OFFSET))(this);
+		}
+
+		::System::Void add_OnProgressChanged(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_ADD_ONPROGRESSCHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_OnProgressChanged(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_REMOVE_ONPROGRESSCHANGED_OFFSET))(this, a1);
+		}
+
+		::Class_1_A78CE7582CF7C10E* get__CurrentSessionPlan()
+		{
+			return ((::Class_1_A78CE7582CF7C10E*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET__CURRENTSESSIONPLAN_OFFSET))(this);
+		}
+
+		::System::Void add_OnPlanChanged(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_ADD_ONPLANCHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_OnPlanChanged(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_REMOVE_ONPLANCHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_IsFinal()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET_ISFINAL_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET_NAME_OFFSET))(this);
+		}
+
+		::RPG::GameCore::ChallengeGroupType get_GroupType()
+		{
+			return ((::RPG::GameCore::ChallengeGroupType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET_GROUPTYPE_OFFSET))(this);
+		}
+
+		::System::Int32 get_BossLevel()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET_BOSSLEVEL_OFFSET))(this);
+		}
+
+		::System::String* get_BossIcon()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET_BOSSICON_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::AttackDamageType>* get_RecommendDamageTypes()
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::AttackDamageType>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET_RECOMMENDDAMAGETYPES_OFFSET))(this);
+		}
+
+		::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase* get_Result()
+		{
+			return ((::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET_RESULT_OFFSET))(this);
+		}
+
+		::RPG::Client::Challenge::Tierce::ChallengeTierceStageMonsterDataProvider* get_MonsterDataProvider()
+		{
+			return ((::RPG::Client::Challenge::Tierce::ChallengeTierceStageMonsterDataProvider*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GET_MONSTERDATAPROVIDER_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_DISPOSE_OFFSET))(this);
+		}
+
+		::RPG::Client::MonsterData* GetCoverBoss()
+		{
+			return ((::RPG::Client::MonsterData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GETCOVERBOSS_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IEnumerable_1<::Class_1_1DAF14F72B32D5C3*>* IterateLineupAvatarIdentifiers()
+		{
+			return ((::System::Collections::Generic::IEnumerable_1<::Class_1_1DAF14F72B32D5C3*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_ITERATELINEUPAVATARIDENTIFIERS_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IEnumerable_1<::RPG::AvatarSystem::IAvatar*>* IterateLineupAvatars()
+		{
+			return ((::System::Collections::Generic::IEnumerable_1<::RPG::AvatarSystem::IAvatar*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_ITERATELINEUPAVATARS_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::AvatarSystem::IAvatar*>* GetTeamLineup()
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::AvatarSystem::IAvatar*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GETTEAMLINEUP_OFFSET))(this);
+		}
+
+		::System::Nullable_1<::System::UInt32> GetBuffID()
+		{
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GETBUFFID_OFFSET))(this);
+		}
+
+		::System::Void _OnCurrentSessionChanged()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL__ONCURRENTSESSIONCHANGED_OFFSET))(this);
+		}
+
+		::System::Void _SubscribeSession(::Class_1_608D5748B6FB2DB7* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_608D5748B6FB2DB7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL__SUBSCRIBESESSION_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnCurrentSessionPlanChanged()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL__ONCURRENTSESSIONPLANCHANGED_OFFSET))(this);
+		}
+
+		::System::Void _OnCurrentSessionProgressChanged()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL__ONCURRENTSESSIONPROGRESSCHANGED_OFFSET))(this);
+		}
+	};
+}

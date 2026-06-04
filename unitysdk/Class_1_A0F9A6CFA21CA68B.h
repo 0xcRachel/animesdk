@@ -4,15 +4,15 @@
 
 namespace RPG::Client { class GridFightBonusResultData; }
 
-#define CLASS_1_A0F9A6CFA21CA68B_GET_BONUS_OFFSET UNITYSDK_OFFSET(0xB046870)
-#define CLASS_1_A0F9A6CFA21CA68B_GET_TRAITEFFECTID_OFFSET UNITYSDK_OFFSET(0xB046850)
-#define CLASS_1_A0F9A6CFA21CA68B_GET_TRAITID_OFFSET UNITYSDK_OFFSET(0xB046830)
-#define CLASS_1_A0F9A6CFA21CA68B_SET_BONUS_OFFSET UNITYSDK_OFFSET(0xB046880)
-#define CLASS_1_A0F9A6CFA21CA68B_SET_TRAITEFFECTID_OFFSET UNITYSDK_OFFSET(0xB046860)
-#define CLASS_1_A0F9A6CFA21CA68B_SET_TRAITID_OFFSET UNITYSDK_OFFSET(0xB046840)
-#define CLASS_1_A0F9A6CFA21CA68B__CTOR_OFFSET UNITYSDK_OFFSET(0xB046890)
+#define CLASS_1_A0F9A6CFA21CA68B_GET_BONUS_OFFSET UNITYSDK_OFFSET(0x15314770)
+#define CLASS_1_A0F9A6CFA21CA68B_GET_TRAITEFFECTID_OFFSET UNITYSDK_OFFSET(0x15314750)
+#define CLASS_1_A0F9A6CFA21CA68B_GET_TRAITID_OFFSET UNITYSDK_OFFSET(0x15314730)
+#define CLASS_1_A0F9A6CFA21CA68B_SET_BONUS_OFFSET UNITYSDK_OFFSET(0x15314780)
+#define CLASS_1_A0F9A6CFA21CA68B_SET_TRAITEFFECTID_OFFSET UNITYSDK_OFFSET(0x15314760)
+#define CLASS_1_A0F9A6CFA21CA68B_SET_TRAITID_OFFSET UNITYSDK_OFFSET(0x15314740)
+#define CLASS_1_A0F9A6CFA21CA68B__CTOR_OFFSET UNITYSDK_OFFSET(0x15314790)
 
-inline static constexpr unsigned int Class_1_A0F9A6CFA21CA68B_TypeDefinitionIndex = 59303;
+inline static constexpr unsigned int Class_1_A0F9A6CFA21CA68B_TypeDefinitionIndex = 60238;
 
 class Class_1_A0F9A6CFA21CA68B : public ::System::Object
 {
@@ -31,9 +31,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A0F9A6CFA21CA68B_GET_TRAITID_OFFSET))(this);
 	}
 
-	::System::Void set_TraitID(::System::UInt32 value)
+	::System::Void set_TraitID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_A0F9A6CFA21CA68B_SET_TRAITID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_A0F9A6CFA21CA68B_SET_TRAITID_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_TraitEffectID()
@@ -41,9 +41,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A0F9A6CFA21CA68B_GET_TRAITEFFECTID_OFFSET))(this);
 	}
 
-	::System::Void set_TraitEffectID(::System::UInt32 value)
+	::System::Void set_TraitEffectID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_A0F9A6CFA21CA68B_SET_TRAITEFFECTID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_A0F9A6CFA21CA68B_SET_TRAITEFFECTID_OFFSET))(this, a1);
 	}
 
 	::RPG::Client::GridFightBonusResultData* get_Bonus()
@@ -51,8 +51,8 @@ public:
 		return ((::RPG::Client::GridFightBonusResultData*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A0F9A6CFA21CA68B_GET_BONUS_OFFSET))(this);
 	}
 
-	::System::Void set_Bonus(::RPG::Client::GridFightBonusResultData* value)
+	::System::Void set_Bonus(::RPG::Client::GridFightBonusResultData* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightBonusResultData*))((::PBYTE)hIl2Cpp + CLASS_1_A0F9A6CFA21CA68B_SET_BONUS_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightBonusResultData*))((::PBYTE)hIl2Cpp + CLASS_1_A0F9A6CFA21CA68B_SET_BONUS_OFFSET))(this, a1);
 	}
 };

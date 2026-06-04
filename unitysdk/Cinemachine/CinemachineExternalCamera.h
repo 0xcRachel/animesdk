@@ -8,17 +8,17 @@
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define CINEMACHINE_CINEMACHINEEXTERNALCAMERA_GET_FOLLOW_OFFSET UNITYSDK_OFFSET(0x167AE000)
-#define CINEMACHINE_CINEMACHINEEXTERNALCAMERA_GET_LOOKAT_OFFSET UNITYSDK_OFFSET(0x167ADFE0)
-#define CINEMACHINE_CINEMACHINEEXTERNALCAMERA_GET_STATE_OFFSET UNITYSDK_OFFSET(0x167ADFC0)
-#define CINEMACHINE_CINEMACHINEEXTERNALCAMERA_INTERNALUPDATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x167AE020)
-#define CINEMACHINE_CINEMACHINEEXTERNALCAMERA_SET_FOLLOW_OFFSET UNITYSDK_OFFSET(0x167AE010)
-#define CINEMACHINE_CINEMACHINEEXTERNALCAMERA_SET_LOOKAT_OFFSET UNITYSDK_OFFSET(0x167ADFF0)
-#define CINEMACHINE_CINEMACHINEEXTERNALCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x167AE8E0)
+#define CINEMACHINE_CINEMACHINEEXTERNALCAMERA_GET_FOLLOW_OFFSET UNITYSDK_OFFSET(0x150EC040)
+#define CINEMACHINE_CINEMACHINEEXTERNALCAMERA_GET_LOOKAT_OFFSET UNITYSDK_OFFSET(0x150EC020)
+#define CINEMACHINE_CINEMACHINEEXTERNALCAMERA_GET_STATE_OFFSET UNITYSDK_OFFSET(0x150EC000)
+#define CINEMACHINE_CINEMACHINEEXTERNALCAMERA_INTERNALUPDATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x150EC060)
+#define CINEMACHINE_CINEMACHINEEXTERNALCAMERA_SET_FOLLOW_OFFSET UNITYSDK_OFFSET(0x150EC050)
+#define CINEMACHINE_CINEMACHINEEXTERNALCAMERA_SET_LOOKAT_OFFSET UNITYSDK_OFFSET(0x150EC030)
+#define CINEMACHINE_CINEMACHINEEXTERNALCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x150EC920)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineExternalCamera_TypeDefinitionIndex = 36497;
+	inline static constexpr unsigned int CinemachineExternalCamera_TypeDefinitionIndex = 36797;
 
 	class CinemachineExternalCamera : public ::Cinemachine::CinemachineVirtualCameraBase
 	{
@@ -44,9 +44,9 @@ namespace Cinemachine
 			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEEXTERNALCAMERA_GET_LOOKAT_OFFSET))(this);
 		}
 
-		::System::Void set_LookAt(::UnityEngine::Transform* value)
+		::System::Void set_LookAt(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEEXTERNALCAMERA_SET_LOOKAT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEEXTERNALCAMERA_SET_LOOKAT_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Transform* get_Follow()
@@ -54,14 +54,14 @@ namespace Cinemachine
 			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEEXTERNALCAMERA_GET_FOLLOW_OFFSET))(this);
 		}
 
-		::System::Void set_Follow(::UnityEngine::Transform* value)
+		::System::Void set_Follow(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEEXTERNALCAMERA_SET_FOLLOW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEEXTERNALCAMERA_SET_FOLLOW_OFFSET))(this, a1);
 		}
 
-		::System::Void InternalUpdateCameraState(::UnityEngine::Vector3 worldUp, ::System::Single deltaTime)
+		::System::Void InternalUpdateCameraState(::UnityEngine::Vector3 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEEXTERNALCAMERA_INTERNALUPDATECAMERASTATE_OFFSET))(this, worldUp, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEEXTERNALCAMERA_INTERNALUPDATECAMERASTATE_OFFSET))(this, a1, a2);
 		}
 	};
 }

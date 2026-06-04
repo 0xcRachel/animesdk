@@ -3,15 +3,18 @@
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_950B873C87AB3580_OFFSET UNITYSDK_OFFSET(0x19AD92B0)
-#define RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_E648914BB4840DAE_OFFSET UNITYSDK_OFFSET(0x19AD9380)
-#define RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD9330)
+#define RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_5A7567C237C44263_OFFSET UNITYSDK_OFFSET(0x19000B30)
+#define RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_950B873C87AB3580_OFFSET UNITYSDK_OFFSET(0x190008E0)
+#define RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_E648914BB4840DAE_OFFSET UNITYSDK_OFFSET(0x190009B0)
+#define RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_E6EE6D5838547002_OFFSET UNITYSDK_OFFSET(0x19000BB0)
+#define RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19000960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCurrentAudioLanguage_TypeDefinitionIndex = 22807;
+	inline static constexpr unsigned int ByCurrentAudioLanguage_TypeDefinitionIndex = 22510;
 
 	class ByCurrentAudioLanguage : public ::RPG::GameCore::PredicateConfig
 	{
@@ -31,6 +34,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_E648914BB4840DAE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCurrentAudioLanguage* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCurrentAudioLanguage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_E648914BB4840DAE_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_5A7567C237C44263(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCurrentAudioLanguage*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCurrentAudioLanguage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_5A7567C237C44263_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_E6EE6D5838547002(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCurrentAudioLanguage* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCurrentAudioLanguage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_E6EE6D5838547002_OFFSET))(a1, a2);
 		}
 	};
 }

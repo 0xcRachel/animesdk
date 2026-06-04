@@ -5,25 +5,25 @@
 #include "unitysdk/Struct_2_5909FD7779934CCA.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_ABILITYMAXHPCHANGE_GETCHANGEVALUE_OFFSET UNITYSDK_OFFSET(0xB1B5E30)
-#define RPG_GAMECORE_ABILITYMAXHPCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB1B5DE0)
-#define RPG_GAMECORE_ABILITYMAXHPCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB1B5D90)
-#define RPG_GAMECORE_ABILITYMAXHPCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xB1B5D70)
+#define RPG_GAMECORE_ABILITYMAXHPCHANGE_GETCHANGEVALUE_OFFSET UNITYSDK_OFFSET(0x12B05A00)
+#define RPG_GAMECORE_ABILITYMAXHPCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x12B059B0)
+#define RPG_GAMECORE_ABILITYMAXHPCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x12B05960)
+#define RPG_GAMECORE_ABILITYMAXHPCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x12B05940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityMaxHPChange_TypeDefinitionIndex = 52118;
+	inline static constexpr unsigned int AbilityMaxHPChange_TypeDefinitionIndex = 52815;
 
 	class AbilityMaxHPChange : public ::System::Object
 	{
 	public:
 		::Struct_2_5909FD7779934CCA ChangeParams; // 0x10
-		::RPG::GameCore::FixPoint _ChangeValue; // 0x140
-		::System::UInt32 _EntityRuntimeID; // 0x148
+		::System::UInt32 _EntityRuntimeID; // 0x118
+		::RPG::GameCore::FixPoint _ChangeValue; // 0x120
 
-		::System::Void _ctor(::System::UInt32 EntityRuntimeID, ::RPG::GameCore::FixPoint ChangeValue, ::Struct_2_5909FD7779934CCA pChangeParams)
+		::System::Void _ctor(::System::UInt32 a1, ::RPG::GameCore::FixPoint a2, ::Struct_2_5909FD7779934CCA a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FixPoint, ::Struct_2_5909FD7779934CCA))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYMAXHPCHANGE__CTOR_OFFSET))(this, EntityRuntimeID, ChangeValue, pChangeParams);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FixPoint, ::Struct_2_5909FD7779934CCA))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYMAXHPCHANGE__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

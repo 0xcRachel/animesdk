@@ -6,20 +6,20 @@ namespace RPG::Client { class MainMissionData; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA_ISEXTRACONDSATISFY_OFFSET UNITYSDK_OFFSET(0x15BE5040)
-#define RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x15BE4F80)
-#define RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x15BE4EB0)
-#define RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15BE4E90)
-#define RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA__ISEXTRACONDSATISFY_B__2_0_OFFSET UNITYSDK_OFFSET(0x15BE5630)
-#define RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA__ONCOMPANIONACTIVITYBANNERUPDATE_OFFSET UNITYSDK_OFFSET(0x15BE5240)
-#define RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA__UPDATEMAINMISSIONDATA_OFFSET UNITYSDK_OFFSET(0x15BE52A0)
-#define RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA___IFIXBASEPROXY_ISEXTRACONDSATISFY_OFFSET UNITYSDK_OFFSET(0x15BE56C0)
-#define RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x15BE5650)
-#define RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA___UPDATEMAINMISSIONDATA_B__5_0_OFFSET UNITYSDK_OFFSET(0x15BE5640)
+#define RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA_ISEXTRACONDSATISFY_OFFSET UNITYSDK_OFFSET(0x17843950)
+#define RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x17843890)
+#define RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x17843780)
+#define RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17843760)
+#define RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA__ISEXTRACONDSATISFY_B__2_0_OFFSET UNITYSDK_OFFSET(0x17843FD0)
+#define RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA__ONCOMPANIONACTIVITYBANNERUPDATE_OFFSET UNITYSDK_OFFSET(0x17843B80)
+#define RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA__UPDATEMAINMISSIONDATA_OFFSET UNITYSDK_OFFSET(0x17843BE0)
+#define RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA___IFIXBASEPROXY_ISEXTRACONDSATISFY_OFFSET UNITYSDK_OFFSET(0x17844050)
+#define RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x17843FF0)
+#define RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA___UPDATEMAINMISSIONDATA_B__5_0_OFFSET UNITYSDK_OFFSET(0x17843FE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CompanionMissionActivityData_TypeDefinitionIndex = 56820;
+	inline static constexpr unsigned int CompanionMissionActivityData_TypeDefinitionIndex = 57606;
 
 	class CompanionMissionActivityData : public ::RPG::Client::ActivityPanelData
 	{
@@ -28,9 +28,9 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::System::UInt32>* _MainMissionIDList; // 0xA8
 		::System::Boolean _Asked; // 0xB0
 
-		::System::Void _ctor(::System::UInt32 ID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA__CTOR_OFFSET))(this, ID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsShowNormalRedDot()
@@ -48,24 +48,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA__ADDNOTIFYHANDLERS_OFFSET))(this);
 		}
 
-		::System::Void _OnCompanionActivityBannerUpdate(::System::Object* arg)
+		::System::Void _OnCompanionActivityBannerUpdate(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA__ONCOMPANIONACTIVITYBANNERUPDATE_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA__ONCOMPANIONACTIVITYBANNERUPDATE_OFFSET))(this, a1);
 		}
 
-		::System::Void _UpdateMainMissionData(::System::Object* arg)
+		::System::Void _UpdateMainMissionData(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA__UPDATEMAINMISSIONDATA_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA__UPDATEMAINMISSIONDATA_OFFSET))(this, a1);
 		}
 
-		::System::Void _IsExtraCondSatisfy_b__2_0(::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>* mainMissionData)
+		::System::Void _IsExtraCondSatisfy_b__2_0(::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA__ISEXTRACONDSATISFY_B__2_0_OFFSET))(this, mainMissionData);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA__ISEXTRACONDSATISFY_B__2_0_OFFSET))(this, a1);
 		}
 
-		::System::Void __UpdateMainMissionData_b__5_0(::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>* mainMissionData)
+		::System::Void __UpdateMainMissionData_b__5_0(::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA___UPDATEMAINMISSIONDATA_B__5_0_OFFSET))(this, mainMissionData);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPANIONMISSIONACTIVITYDATA___UPDATEMAINMISSIONDATA_B__5_0_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __iFixBaseProxy_IsShowNormalRedDot()

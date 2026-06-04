@@ -11,32 +11,32 @@ namespace System::Collections { class Queue; }
 namespace System::Runtime::Remoting::Lifetime { class ISponsor; }
 namespace System::Runtime::Remoting::Lifetime { class Lease_RenewalDelegate; }
 
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_ACTIVATE_OFFSET UNITYSDK_OFFSET(0x18F6C6D0)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_CHECKNEXTSPONSOR_OFFSET UNITYSDK_OFFSET(0x17ABE510)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_GET_CURRENTLEASETIME_OFFSET UNITYSDK_OFFSET(0x18F6C670)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_GET_CURRENTSTATE_OFFSET UNITYSDK_OFFSET(0x18F6C6C0)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_GET_RENEWONCALLTIME_OFFSET UNITYSDK_OFFSET(0x18F6C6E0)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_PROCESSSPONSORRESPONSE_OFFSET UNITYSDK_OFFSET(0x17ABE810)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_RENEW_OFFSET UNITYSDK_OFFSET(0x18F6C6F0)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x18F6C7E0)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_UPDATESTATE_OFFSET UNITYSDK_OFFSET(0x18F6C920)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE__CTOR_OFFSET UNITYSDK_OFFSET(0x18F6C410)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_ACTIVATE_OFFSET UNITYSDK_OFFSET(0x1971DE30)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_CHECKNEXTSPONSOR_OFFSET UNITYSDK_OFFSET(0x17441190)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_GET_CURRENTLEASETIME_OFFSET UNITYSDK_OFFSET(0x1971DDD0)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_GET_CURRENTSTATE_OFFSET UNITYSDK_OFFSET(0x1971DE20)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_GET_RENEWONCALLTIME_OFFSET UNITYSDK_OFFSET(0x1971DE40)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_PROCESSSPONSORRESPONSE_OFFSET UNITYSDK_OFFSET(0x17441720)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_RENEW_OFFSET UNITYSDK_OFFSET(0x17440E30)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x17440F20)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_UPDATESTATE_OFFSET UNITYSDK_OFFSET(0x17441060)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1971DB70)
 
 namespace System::Runtime::Remoting::Lifetime
 {
-	inline static constexpr unsigned int Lease_TypeDefinitionIndex = 1232;
+	inline static constexpr unsigned int Lease_TypeDefinitionIndex = 1231;
 
 	class Lease : public ::System::MarshalByRefObject
 	{
 	public:
-		::System::Runtime::Remoting::Lifetime::Lease_RenewalDelegate* _renewalDelegate; // 0x18
-		::System::Collections::Queue* _renewingSponsors; // 0x20
-		::System::Collections::ArrayList* _sponsors; // 0x28
-		::System::Runtime::Remoting::Lifetime::LeaseState _currentState; // 0x30
-		::System::DateTime _leaseExpireTime; // 0x38
-		::System::TimeSpan _initialLeaseTime; // 0x40
-		::System::TimeSpan _renewOnCallTime; // 0x48
-		::System::TimeSpan _sponsorshipTimeout; // 0x50
+		::System::Collections::Queue* _renewingSponsors; // 0x18
+		::System::Collections::ArrayList* _sponsors; // 0x20
+		::System::Runtime::Remoting::Lifetime::Lease_RenewalDelegate* _renewalDelegate; // 0x28
+		::System::TimeSpan _renewOnCallTime; // 0x30
+		::System::TimeSpan _initialLeaseTime; // 0x38
+		::System::TimeSpan _sponsorshipTimeout; // 0x40
+		::System::DateTime _leaseExpireTime; // 0x48
+		::System::Runtime::Remoting::Lifetime::LeaseState _currentState; // 0x50
 
 		::System::Void _ctor()
 		{
@@ -63,14 +63,14 @@ namespace System::Runtime::Remoting::Lifetime
 			return ((::System::TimeSpan(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_GET_RENEWONCALLTIME_OFFSET))(this);
 		}
 
-		::System::TimeSpan Renew(::System::TimeSpan renewalTime)
+		::System::TimeSpan Renew(::System::TimeSpan a1)
 		{
-			return ((::System::TimeSpan(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_RENEW_OFFSET))(this, renewalTime);
+			return ((::System::TimeSpan(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_RENEW_OFFSET))(this, a1);
 		}
 
-		::System::Void Unregister(::System::Runtime::Remoting::Lifetime::ISponsor* obj)
+		::System::Void Unregister(::System::Runtime::Remoting::Lifetime::ISponsor* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Lifetime::ISponsor*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_UNREGISTER_OFFSET))(this, obj);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Lifetime::ISponsor*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_UNREGISTER_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateState()
@@ -83,9 +83,9 @@ namespace System::Runtime::Remoting::Lifetime
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_CHECKNEXTSPONSOR_OFFSET))(this);
 		}
 
-		::System::Void ProcessSponsorResponse(::System::Object* state, ::System::Boolean timedOut)
+		::System::Void ProcessSponsorResponse(::System::Object* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_PROCESSSPONSORRESPONSE_OFFSET))(this, state, timedOut);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASE_PROCESSSPONSORRESPONSE_OFFSET))(this, a1, a2);
 		}
 	};
 }

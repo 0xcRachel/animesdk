@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_THANKGIFTSERVICE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1731C1F0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_THANKGIFTSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1731BF00)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_THANKGIFTSERVICE__ONTHANKGIFT_OFFSET UNITYSDK_OFFSET(0x1731BF60)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_THANKGIFTSERVICE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1865E280)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_THANKGIFTSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1865DEF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_THANKGIFTSERVICE__ONTHANKGIFT_OFFSET UNITYSDK_OFFSET(0x1865DF80)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int ThankGiftService_TypeDefinitionIndex = 69421;
+	inline static constexpr unsigned int ThankGiftService_TypeDefinitionIndex = 70233;
 
 	class ThankGiftService : public ::System::Object
 	{
@@ -20,9 +20,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_THANKGIFTSERVICE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnThankGift(::System::Object* param)
+		::System::Void _OnThankGift(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_THANKGIFTSERVICE__ONTHANKGIFT_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_THANKGIFTSERVICE__ONTHANKGIFT_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

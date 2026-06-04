@@ -6,23 +6,23 @@
 namespace RPG::Client { class RaidModule; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RAIDMODULE___C__DISPLAYCLASS58_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16007410)
-#define RPG_CLIENT_RAIDMODULE___C__DISPLAYCLASS58_0__STARTRAID_B__0_OFFSET UNITYSDK_OFFSET(0x1600B250)
+#define RPG_CLIENT_RAIDMODULE___C__DISPLAYCLASS58_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17492940)
+#define RPG_CLIENT_RAIDMODULE___C__DISPLAYCLASS58_0__STARTRAID_B__0_OFFSET UNITYSDK_OFFSET(0x17496F20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RaidModule___c__DisplayClass58_0_TypeDefinitionIndex = 61493;
+	inline static constexpr unsigned int RaidModule___c__DisplayClass58_0_TypeDefinitionIndex = 62426;
 
 	class RaidModule___c__DisplayClass58_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::RaidModule* __4__this; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* avatarIDList; // 0x18
-		::RPG::GameCore::RaidConfigType raidType; // 0x20
-		::System::Boolean useSave; // 0x24
-		::System::UInt32 raidID; // 0x28
+		::System::Collections::Generic::List_1<::System::UInt32>* avatarIDList; // 0x10
+		::RPG::Client::RaidModule* __4__this; // 0x18
+		::System::UInt32 worldLevel; // 0x20
+		::System::UInt32 raidID; // 0x24
+		::RPG::GameCore::RaidConfigType raidType; // 0x28
 		::System::UInt32 propEntityID; // 0x2C
-		::System::UInt32 worldLevel; // 0x30
+		::System::Boolean useSave; // 0x30
 
 		::System::Void _ctor()
 		{

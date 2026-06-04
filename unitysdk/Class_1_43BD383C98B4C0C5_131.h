@@ -1,10 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/ValueTuple_2.h"
 
-#define CLASS_1_43BD383C98B4C0C5_131__CTOR_OFFSET UNITYSDK_OFFSET(0xB085610)
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_131_TypeDefinitionIndex = 59200;
+#define CLASS_1_43BD383C98B4C0C5_131_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16C04140)
+#define CLASS_1_43BD383C98B4C0C5_131_METHOD_1_EC34F314A51B8412_OFFSET UNITYSDK_OFFSET(0x16C04180)
+#define CLASS_1_43BD383C98B4C0C5_131__CTOR_OFFSET UNITYSDK_OFFSET(0x16C04560)
+
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_131_TypeDefinitionIndex = 56369;
 
 class Class_1_43BD383C98B4C0C5_131 : public ::System::Object
 {
@@ -12,5 +17,15 @@ public:
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_131__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_131_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* Method_1_EC34F314A51B8412()
+	{
+		return ((::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_131_METHOD_1_EC34F314A51B8412_OFFSET))(this);
 	}
 };

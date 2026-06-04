@@ -4,42 +4,42 @@
 
 namespace RPG::Client { class ITimeRange; }
 
-#define RPG_CLIENT_ITIMERANGEEXTENSIONS_BETWEEN_OFFSET UNITYSDK_OFFSET(0x1336F950)
-#define RPG_CLIENT_ITIMERANGEEXTENSIONS_ISEXPIRED_OFFSET UNITYSDK_OFFSET(0x1336F6E0)
-#define RPG_CLIENT_ITIMERANGEEXTENSIONS_ISFOREVER_OFFSET UNITYSDK_OFFSET(0x1336F870)
-#define RPG_CLIENT_ITIMERANGEEXTENSIONS_ISINSCHEDULE_OFFSET UNITYSDK_OFFSET(0x1336F350)
-#define RPG_CLIENT_ITIMERANGEEXTENSIONS_ISNOTSTART_OFFSET UNITYSDK_OFFSET(0x1336F560)
+#define RPG_CLIENT_ITIMERANGEEXTENSIONS_BETWEEN_OFFSET UNITYSDK_OFFSET(0x165E12F0)
+#define RPG_CLIENT_ITIMERANGEEXTENSIONS_ISEXPIRED_OFFSET UNITYSDK_OFFSET(0x165E1070)
+#define RPG_CLIENT_ITIMERANGEEXTENSIONS_ISFOREVER_OFFSET UNITYSDK_OFFSET(0x165E1200)
+#define RPG_CLIENT_ITIMERANGEEXTENSIONS_ISINSCHEDULE_OFFSET UNITYSDK_OFFSET(0x165CB9F0)
+#define RPG_CLIENT_ITIMERANGEEXTENSIONS_ISNOTSTART_OFFSET UNITYSDK_OFFSET(0x165E0EF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ITimeRangeExtensions_TypeDefinitionIndex = 62585;
+	inline static constexpr unsigned int ITimeRangeExtensions_TypeDefinitionIndex = 63518;
 
 	class ITimeRangeExtensions : public ::System::Object
 	{
 	public:
-		static ::System::Boolean IsInSchedule(::RPG::Client::ITimeRange* timeRange)
+		static ::System::Boolean IsInSchedule(::RPG::Client::ITimeRange* a1)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::ITimeRange*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITIMERANGEEXTENSIONS_ISINSCHEDULE_OFFSET))(timeRange);
+			return ((::System::Boolean(*)(::RPG::Client::ITimeRange*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITIMERANGEEXTENSIONS_ISINSCHEDULE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsNotStart(::RPG::Client::ITimeRange* timeRange)
+		static ::System::Boolean IsNotStart(::RPG::Client::ITimeRange* a1)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::ITimeRange*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITIMERANGEEXTENSIONS_ISNOTSTART_OFFSET))(timeRange);
+			return ((::System::Boolean(*)(::RPG::Client::ITimeRange*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITIMERANGEEXTENSIONS_ISNOTSTART_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsExpired(::RPG::Client::ITimeRange* timeRange)
+		static ::System::Boolean IsExpired(::RPG::Client::ITimeRange* a1)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::ITimeRange*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITIMERANGEEXTENSIONS_ISEXPIRED_OFFSET))(timeRange);
+			return ((::System::Boolean(*)(::RPG::Client::ITimeRange*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITIMERANGEEXTENSIONS_ISEXPIRED_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsForever(::RPG::Client::ITimeRange* timeRange)
+		static ::System::Boolean IsForever(::RPG::Client::ITimeRange* a1)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::ITimeRange*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITIMERANGEEXTENSIONS_ISFOREVER_OFFSET))(timeRange);
+			return ((::System::Boolean(*)(::RPG::Client::ITimeRange*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITIMERANGEEXTENSIONS_ISFOREVER_OFFSET))(a1);
 		}
 
-		static ::System::Boolean Between(::System::UInt32 value, ::System::UInt32 begin, ::System::UInt32 end)
+		static ::System::Boolean Between(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITIMERANGEEXTENSIONS_BETWEEN_OFFSET))(value, begin, end);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITIMERANGEEXTENSIONS_BETWEEN_OFFSET))(a1, a2, a3);
 		}
 	};
 }

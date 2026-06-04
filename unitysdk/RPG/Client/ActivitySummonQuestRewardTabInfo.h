@@ -7,24 +7,24 @@ namespace RPG::Client { class ActivitySummonStage; }
 namespace RPG::GameCore { class ActivityQuestRewardDataRow; }
 namespace RPG::GameCore { class ActivitySummonRewardTabRow; }
 
-#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1709DCA0)
-#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1709DC10)
-#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO___IFIXBASEPROXY_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1709DDD0)
+#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1676E880)
+#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1676E7F0)
+#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO___IFIXBASEPROXY_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1676E9B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivitySummonQuestRewardTabInfo_TypeDefinitionIndex = 57117;
+	inline static constexpr unsigned int ActivitySummonQuestRewardTabInfo_TypeDefinitionIndex = 57907;
 
 	class ActivitySummonQuestRewardTabInfo : public ::RPG::Client::CommonActivityQuestRewardTabInfo
 	{
 	public:
 		::RPG::Client::ActivitySummonStage* _Stage; // 0x48
-		::RPG::Client::TextID _TitleAfterRevealed; // 0x50
-		::RPG::Client::TextID _TitleBeforeRevealed; // 0x60
+		::RPG::Client::TextID _TitleBeforeRevealed; // 0x50
+		::RPG::Client::TextID _TitleAfterRevealed; // 0x60
 
-		::System::Void _ctor(::RPG::GameCore::ActivityQuestRewardDataRow* row, ::RPG::GameCore::ActivitySummonRewardTabRow* activityTabRow)
+		::System::Void _ctor(::RPG::GameCore::ActivityQuestRewardDataRow* a1, ::RPG::GameCore::ActivitySummonRewardTabRow* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ActivityQuestRewardDataRow*, ::RPG::GameCore::ActivitySummonRewardTabRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO__CTOR_OFFSET))(this, row, activityTabRow);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ActivityQuestRewardDataRow*, ::RPG::GameCore::ActivitySummonRewardTabRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::TextID get_Title()

@@ -3,24 +3,24 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define AKTRANSFORM_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x190E59F0)
-#define AKTRANSFORM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x190E5900)
-#define AKTRANSFORM_FINALIZE_OFFSET UNITYSDK_OFFSET(0x190E5980)
-#define AKTRANSFORM_GETCPTR_OFFSET UNITYSDK_OFFSET(0x190E57F0)
-#define AKTRANSFORM_ORIENTATIONFRONT_OFFSET UNITYSDK_OFFSET(0x190E5E20)
-#define AKTRANSFORM_ORIENTATIONTOP_OFFSET UNITYSDK_OFFSET(0x190E5EF0)
-#define AKTRANSFORM_POSITION_OFFSET UNITYSDK_OFFSET(0x190E5B90)
-#define AKTRANSFORM_SETCPTR_OFFSET UNITYSDK_OFFSET(0x190E5840)
-#define AKTRANSFORM_SETORIENTATION_1_OFFSET UNITYSDK_OFFSET(0x190E7010)
-#define AKTRANSFORM_SETORIENTATION_OFFSET UNITYSDK_OFFSET(0x190E6D20)
-#define AKTRANSFORM_SETPOSITION_1_OFFSET UNITYSDK_OFFSET(0x190E6A60)
-#define AKTRANSFORM_SETPOSITION_OFFSET UNITYSDK_OFFSET(0x190E6800)
-#define AKTRANSFORM_SET_1_OFFSET UNITYSDK_OFFSET(0x190E6360)
-#define AKTRANSFORM_SET_OFFSET UNITYSDK_OFFSET(0x190E5FC0)
-#define AKTRANSFORM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x190E73B0)
-#define AKTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x190E57E0)
+#define AKTRANSFORM_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x196D3460)
+#define AKTRANSFORM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x196D3340)
+#define AKTRANSFORM_FINALIZE_OFFSET UNITYSDK_OFFSET(0x196D33F0)
+#define AKTRANSFORM_GETCPTR_OFFSET UNITYSDK_OFFSET(0x196D3200)
+#define AKTRANSFORM_ORIENTATIONFRONT_OFFSET UNITYSDK_OFFSET(0x196D3890)
+#define AKTRANSFORM_ORIENTATIONTOP_OFFSET UNITYSDK_OFFSET(0x196D3960)
+#define AKTRANSFORM_POSITION_OFFSET UNITYSDK_OFFSET(0x196D3640)
+#define AKTRANSFORM_SETCPTR_OFFSET UNITYSDK_OFFSET(0x196D3250)
+#define AKTRANSFORM_SETORIENTATION_1_OFFSET UNITYSDK_OFFSET(0x196D4A80)
+#define AKTRANSFORM_SETORIENTATION_OFFSET UNITYSDK_OFFSET(0x196D4790)
+#define AKTRANSFORM_SETPOSITION_1_OFFSET UNITYSDK_OFFSET(0x196D44D0)
+#define AKTRANSFORM_SETPOSITION_OFFSET UNITYSDK_OFFSET(0x196D4270)
+#define AKTRANSFORM_SET_1_OFFSET UNITYSDK_OFFSET(0x196D3DD0)
+#define AKTRANSFORM_SET_OFFSET UNITYSDK_OFFSET(0x196D3A30)
+#define AKTRANSFORM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x196D4E20)
+#define AKTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x196D31F0)
 
-inline static constexpr unsigned int AkTransform_TypeDefinitionIndex = 40348;
+inline static constexpr unsigned int AkTransform_TypeDefinitionIndex = 41175;
 
 class AkTransform : public ::System::Object
 {
@@ -28,9 +28,9 @@ public:
 	::System::IntPtr swigCPtr; // 0x10
 	::System::Boolean swigCMemOwn; // 0x18
 
-	::System::Void _ctor(::System::IntPtr cPtr, ::System::Boolean cMemoryOwn)
+	::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKTRANSFORM__CTOR_OFFSET))(this, cPtr, cMemoryOwn);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKTRANSFORM__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void _ctor_1()
@@ -38,14 +38,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKTRANSFORM__CTOR_1_OFFSET))(this);
 	}
 
-	static ::System::IntPtr getCPtr(::AkTransform* obj)
+	static ::System::IntPtr getCPtr(::AkTransform* a1)
 	{
-		return ((::System::IntPtr(*)(::AkTransform*))((::PBYTE)hIl2Cpp + AKTRANSFORM_GETCPTR_OFFSET))(obj);
+		return ((::System::IntPtr(*)(::AkTransform*))((::PBYTE)hIl2Cpp + AKTRANSFORM_GETCPTR_OFFSET))(a1);
 	}
 
-	::System::Void setCPtr(::System::IntPtr cPtr)
+	::System::Void setCPtr(::System::IntPtr a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKTRANSFORM_SETCPTR_OFFSET))(this, cPtr);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKTRANSFORM_SETCPTR_OFFSET))(this, a1);
 	}
 
 	::System::Void Finalize()
@@ -58,9 +58,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKTRANSFORM_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Dispose_1(::System::Boolean disposing)
+	::System::Void Dispose_1(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKTRANSFORM_DISPOSE_1_OFFSET))(this, disposing);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKTRANSFORM_DISPOSE_1_OFFSET))(this, a1);
 	}
 
 	::UnityEngine::Vector3 Position()
@@ -78,33 +78,33 @@ public:
 		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + AKTRANSFORM_ORIENTATIONTOP_OFFSET))(this);
 	}
 
-	::System::Void Set(::UnityEngine::Vector3 in_position, ::UnityEngine::Vector3 in_orientationFront, ::UnityEngine::Vector3 in_orientationTop)
+	::System::Void Set(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + AKTRANSFORM_SET_OFFSET))(this, in_position, in_orientationFront, in_orientationTop);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + AKTRANSFORM_SET_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Set_1(::System::Single in_positionX, ::System::Single in_positionY, ::System::Single in_positionZ, ::System::Single in_orientFrontX, ::System::Single in_orientFrontY, ::System::Single in_orientFrontZ, ::System::Single in_orientTopX, ::System::Single in_orientTopY, ::System::Single in_orientTopZ)
+	::System::Void Set_1(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::System::Single a9)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + AKTRANSFORM_SET_1_OFFSET))(this, in_positionX, in_positionY, in_positionZ, in_orientFrontX, in_orientFrontY, in_orientFrontZ, in_orientTopX, in_orientTopY, in_orientTopZ);
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + AKTRANSFORM_SET_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 	}
 
-	::System::Void SetPosition(::UnityEngine::Vector3 in_position)
+	::System::Void SetPosition(::UnityEngine::Vector3 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + AKTRANSFORM_SETPOSITION_OFFSET))(this, in_position);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + AKTRANSFORM_SETPOSITION_OFFSET))(this, a1);
 	}
 
-	::System::Void SetPosition_1(::System::Single in_x, ::System::Single in_y, ::System::Single in_z)
+	::System::Void SetPosition_1(::System::Single a1, ::System::Single a2, ::System::Single a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + AKTRANSFORM_SETPOSITION_1_OFFSET))(this, in_x, in_y, in_z);
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + AKTRANSFORM_SETPOSITION_1_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void SetOrientation(::UnityEngine::Vector3 in_orientationFront, ::UnityEngine::Vector3 in_orientationTop)
+	::System::Void SetOrientation(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + AKTRANSFORM_SETORIENTATION_OFFSET))(this, in_orientationFront, in_orientationTop);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + AKTRANSFORM_SETORIENTATION_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void SetOrientation_1(::System::Single in_orientFrontX, ::System::Single in_orientFrontY, ::System::Single in_orientFrontZ, ::System::Single in_orientTopX, ::System::Single in_orientTopY, ::System::Single in_orientTopZ)
+	::System::Void SetOrientation_1(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + AKTRANSFORM_SETORIENTATION_1_OFFSET))(this, in_orientFrontX, in_orientFrontY, in_orientFrontZ, in_orientTopX, in_orientTopY, in_orientTopZ);
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + AKTRANSFORM_SETORIENTATION_1_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 	}
 };

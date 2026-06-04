@@ -3,33 +3,33 @@
 #include "unitysdk/RPG/GameCore/SO_Task_1.h"
 
 class Class_2_6A3F10CE86B200DD;
-class Class_2_6A3F10CE86B200DD_Class_1_DF76A6160DA1EDC0;
+class Class_2_6A3F10CE86B200DD_Class_1_5ED903387A1D6426;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SO_FaceTo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_62DBB62D60E1F3E3_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xD078DC0)
-#define CLASS_3_62DBB62D60E1F3E3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD0787F0)
-#define CLASS_3_62DBB62D60E1F3E3_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD078E10)
-#define CLASS_3_62DBB62D60E1F3E3_TICK_OFFSET UNITYSDK_OFFSET(0xD078CB0)
-#define CLASS_3_62DBB62D60E1F3E3__CCTOR_OFFSET UNITYSDK_OFFSET(0xD078EA0)
-#define CLASS_3_62DBB62D60E1F3E3__CTOR_OFFSET UNITYSDK_OFFSET(0xD0786F0)
-#define CLASS_3_62DBB62D60E1F3E3___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0xD078EE0)
+#define CLASS_3_62DBB62D60E1F3E3_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x13E17AF0)
+#define CLASS_3_62DBB62D60E1F3E3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13E17410)
+#define CLASS_3_62DBB62D60E1F3E3_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13E17B40)
+#define CLASS_3_62DBB62D60E1F3E3_TICK_OFFSET UNITYSDK_OFFSET(0x13E179E0)
+#define CLASS_3_62DBB62D60E1F3E3__CCTOR_OFFSET UNITYSDK_OFFSET(0x13E17BD0)
+#define CLASS_3_62DBB62D60E1F3E3__CTOR_OFFSET UNITYSDK_OFFSET(0x13E17310)
+#define CLASS_3_62DBB62D60E1F3E3___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x13E17BE0)
 
-inline static constexpr unsigned int Class_3_62DBB62D60E1F3E3_TypeDefinitionIndex = 48114;
+inline static constexpr unsigned int Class_3_62DBB62D60E1F3E3_TypeDefinitionIndex = 48732;
 
 class Class_3_62DBB62D60E1F3E3 : public ::RPG::GameCore::SO_Task_1<::RPG::GameCore::SO_FaceTo*>
 {
 public:
-	static ::System::Single* StaticGet_Field_3_5()
+	static ::System::Single* StaticGet_Field_3_0()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_3_62DBB62D60E1F3E3_TypeDefinitionIndex)->GetStaticField(0x11740);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_3_62DBB62D60E1F3E3_TypeDefinitionIndex)->GetStaticField(0x10A70);
 	}
-	::Class_2_6A3F10CE86B200DD* Field_3_0; // 0x40
-	::Class_2_6A3F10CE86B200DD_Class_1_DF76A6160DA1EDC0* Field_3_2; // 0x48
-	::RPG::GameCore::GameEntity* Field_3_1; // 0x50
-	::System::Single Field_3_4; // 0x58
-	::System::UInt32 Field_3_3; // 0x5C
+	::Class_2_6A3F10CE86B200DD_Class_1_5ED903387A1D6426* Field_3_1; // 0x40
+	::Class_2_6A3F10CE86B200DD* Field_3_2; // 0x48
+	::RPG::GameCore::GameEntity* Field_3_3; // 0x50
+	::System::UInt32 Field_3_4; // 0x58
+	::System::Single Field_3_5; // 0x5C
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SO_FaceTo* a2)
 	{
@@ -61,8 +61,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_62DBB62D60E1F3E3_ONTASKRESET_OFFSET))(this);
 	}
 
-	::System::Void __iFixBaseProxy_Tick(::System::Single P0)
+	::System::Void __iFixBaseProxy_Tick(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_62DBB62D60E1F3E3___IFIXBASEPROXY_TICK_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_62DBB62D60E1F3E3___IFIXBASEPROXY_TICK_OFFSET))(this, a1);
 	}
 };

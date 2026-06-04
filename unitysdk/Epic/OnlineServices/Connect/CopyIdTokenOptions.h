@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices { class ProductUserId; }
 
-#define EPIC_ONLINESERVICES_CONNECT_COPYIDTOKENOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x196586E0)
-#define EPIC_ONLINESERVICES_CONNECT_COPYIDTOKENOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x196586F0)
-#define EPIC_ONLINESERVICES_CONNECT_COPYIDTOKENOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19658700)
+#define EPIC_ONLINESERVICES_CONNECT_COPYIDTOKENOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19F7BC00)
+#define EPIC_ONLINESERVICES_CONNECT_COPYIDTOKENOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19F7BC10)
+#define EPIC_ONLINESERVICES_CONNECT_COPYIDTOKENOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19F7BC20)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int CopyIdTokenOptions_TypeDefinitionIndex = 42262;
+	inline static constexpr unsigned int CopyIdTokenOptions_TypeDefinitionIndex = 43065;
 
 	class CopyIdTokenOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_COPYIDTOKENOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_COPYIDTOKENOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_COPYIDTOKENOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_85;
+class Class_0_16E4307DCC419505_84;
 class Class_1_47EE63CB5C4DC8FC_5;
-class Class_1_867B6CE75953535A;
-class Class_2_9850514C0F89B91A;
+class Class_1_D33B7D6901AE39E9;
+class Class_2_FD51057495DB654F;
 class Class_3_7E25C9E6907AC48F;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -15,55 +15,55 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_GETCENTERPOSITION_OFFSET UNITYSDK_OFFSET(0x16533760)
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_INITIALIZEVIEW_OFFSET UNITYSDK_OFFSET(0x16532CE0)
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_ONHIT_OFFSET UNITYSDK_OFFSET(0x16533910)
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_ONINVISIBLEREMOVED_OFFSET UNITYSDK_OFFSET(0x16533AD0)
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_ONPLAYERHITSTATEREMOVED_OFFSET UNITYSDK_OFFSET(0x16533580)
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_ONPLAYERHITSTATE_OFFSET UNITYSDK_OFFSET(0x16533390)
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_REGISTERLISTENERS_OFFSET UNITYSDK_OFFSET(0x16533310)
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_RELEASEVIEW_OFFSET UNITYSDK_OFFSET(0x16533060)
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_SAFESETACTIVE_OFFSET UNITYSDK_OFFSET(0x165332C0)
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_SETANIMBOOLPARAM_OFFSET UNITYSDK_OFFSET(0x16533970)
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_SETANIMFLOATPARAM_OFFSET UNITYSDK_OFFSET(0x165339E0)
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_SETANIMTRIGGER_OFFSET UNITYSDK_OFFSET(0x16533A60)
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_SETLOCALROTATION_OFFSET UNITYSDK_OFFSET(0x16533890)
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_SETPOSITION_OFFSET UNITYSDK_OFFSET(0x16533800)
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS__CCTOR_OFFSET UNITYSDK_OFFSET(0x16533BC0)
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS__CTOR_OFFSET UNITYSDK_OFFSET(0x16533BB0)
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS___IFIXBASEPROXY_GETCENTERPOSITION_OFFSET UNITYSDK_OFFSET(0x16533C70)
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS___IFIXBASEPROXY_SAFESETACTIVE_OFFSET UNITYSDK_OFFSET(0x16533C60)
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS___IFIXBASEPROXY_SETLOCALROTATION_OFFSET UNITYSDK_OFFSET(0x16533E00)
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS___IFIXBASEPROXY_SETPOSITION_OFFSET UNITYSDK_OFFSET(0x16533D40)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_GETCENTERPOSITION_OFFSET UNITYSDK_OFFSET(0x1887B560)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_INITIALIZEVIEW_OFFSET UNITYSDK_OFFSET(0x1887AB20)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_ONHIT_OFFSET UNITYSDK_OFFSET(0x1887B710)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_ONINVISIBLEREMOVED_OFFSET UNITYSDK_OFFSET(0x1887B8D0)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_ONPLAYERHITSTATEREMOVED_OFFSET UNITYSDK_OFFSET(0x1887B390)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_ONPLAYERHITSTATE_OFFSET UNITYSDK_OFFSET(0x1887B1B0)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_REGISTERLISTENERS_OFFSET UNITYSDK_OFFSET(0x1887B130)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_RELEASEVIEW_OFFSET UNITYSDK_OFFSET(0x1887AE90)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_SAFESETACTIVE_OFFSET UNITYSDK_OFFSET(0x1887B0E0)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_SETANIMBOOLPARAM_OFFSET UNITYSDK_OFFSET(0x1887B770)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_SETANIMFLOATPARAM_OFFSET UNITYSDK_OFFSET(0x1887B7E0)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_SETANIMTRIGGER_OFFSET UNITYSDK_OFFSET(0x1887B860)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_SETLOCALROTATION_OFFSET UNITYSDK_OFFSET(0x1887B690)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_SETPOSITION_OFFSET UNITYSDK_OFFSET(0x1887B600)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1887B9B0)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS__CTOR_OFFSET UNITYSDK_OFFSET(0x1887B9A0)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS___IFIXBASEPROXY_GETCENTERPOSITION_OFFSET UNITYSDK_OFFSET(0x1887BA60)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS___IFIXBASEPROXY_SAFESETACTIVE_OFFSET UNITYSDK_OFFSET(0x1887BA50)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS___IFIXBASEPROXY_SETLOCALROTATION_OFFSET UNITYSDK_OFFSET(0x1887BBE0)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS___IFIXBASEPROXY_SETPOSITION_OFFSET UNITYSDK_OFFSET(0x1887BB20)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MovieGameBoss_TypeDefinitionIndex = 70361;
+	inline static constexpr unsigned int MovieGameBoss_TypeDefinitionIndex = 71177;
 
 	class MovieGameBoss : public ::RPG::Client::LittleGame::BaseMonoView
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_6_8()
+		static ::System::Int32* StaticGet_Field_6_0()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MovieGameBoss_TypeDefinitionIndex)->GetStaticField(0xD770);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MovieGameBoss_TypeDefinitionIndex)->GetStaticField(0xE110);
 		}
-		static ::System::Int32* StaticGet_Field_6_10()
+		static ::System::Int32* StaticGet_Field_6_1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MovieGameBoss_TypeDefinitionIndex)->GetStaticField(0xD774);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MovieGameBoss_TypeDefinitionIndex)->GetStaticField(0xE114);
 		}
-		static ::System::Int32* StaticGet_Field_6_7()
+		static ::System::Int32* StaticGet_Field_6_2()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MovieGameBoss_TypeDefinitionIndex)->GetStaticField(0xD778);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MovieGameBoss_TypeDefinitionIndex)->GetStaticField(0xE118);
 		}
-		static ::System::Int32* StaticGet_Field_6_9()
+		static ::System::Int32* StaticGet_Field_6_3()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MovieGameBoss_TypeDefinitionIndex)->GetStaticField(0xD77C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MovieGameBoss_TypeDefinitionIndex)->GetStaticField(0xE11C);
 		}
-		::Class_1_867B6CE75953535A* Field_6_0; // 0x18
-		::Class_2_9850514C0F89B91A* Field_6_1; // 0x20
-		::Class_3_7E25C9E6907AC48F* Field_6_2; // 0x28
+		::Class_1_D33B7D6901AE39E9* Field_6_4; // 0x18
+		::Class_2_FD51057495DB654F* Field_6_5; // 0x20
+		::Class_3_7E25C9E6907AC48F* Field_6_6; // 0x28
 		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* BodyRenderers; // 0x30
-		::System::Boolean Field_6_4; // 0x38
+		::System::Boolean Field_6_8; // 0x38
 		::UnityEngine::Animator* AnimatorController; // 0x40
 		::UnityEngine::Transform* CenterTrans; // 0x48
 
@@ -77,9 +77,9 @@ namespace RPG::Client::LittleGame
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS__CCTOR_OFFSET))();
 		}
 
-		::System::Void InitializeView(::Class_0_16E4307DCC419505_85* a1, ::Class_1_47EE63CB5C4DC8FC_5* a2, ::Class_2_9850514C0F89B91A* a3)
+		::System::Void InitializeView(::Class_0_16E4307DCC419505_84* a1, ::Class_1_47EE63CB5C4DC8FC_5* a2, ::Class_2_FD51057495DB654F* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_85*, ::Class_1_47EE63CB5C4DC8FC_5*, ::Class_2_9850514C0F89B91A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_INITIALIZEVIEW_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_84*, ::Class_1_47EE63CB5C4DC8FC_5*, ::Class_2_FD51057495DB654F*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_INITIALIZEVIEW_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void ReleaseView(::System::String* a1)
@@ -92,19 +92,19 @@ namespace RPG::Client::LittleGame
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_SAFESETACTIVE_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterListeners(::Class_2_9850514C0F89B91A* a1)
+		::System::Void RegisterListeners(::Class_2_FD51057495DB654F* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_9850514C0F89B91A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_REGISTERLISTENERS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_2_FD51057495DB654F*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_REGISTERLISTENERS_OFFSET))(this, a1);
 		}
 
-		::System::Void OnPlayerHitState(::Class_2_9850514C0F89B91A* a1, ::System::Single a2)
+		::System::Void OnPlayerHitState(::Class_2_FD51057495DB654F* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_9850514C0F89B91A*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_ONPLAYERHITSTATE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Class_2_FD51057495DB654F*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_ONPLAYERHITSTATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnPlayerHitStateRemoved(::Class_2_9850514C0F89B91A* a1)
+		::System::Void OnPlayerHitStateRemoved(::Class_2_FD51057495DB654F* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_9850514C0F89B91A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_ONPLAYERHITSTATEREMOVED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_2_FD51057495DB654F*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_ONPLAYERHITSTATEREMOVED_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 GetCenterPosition()
@@ -122,9 +122,9 @@ namespace RPG::Client::LittleGame
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_SETLOCALROTATION_OFFSET))(this, a1);
 		}
 
-		::System::Void OnHit(::Class_2_9850514C0F89B91A* a1)
+		::System::Void OnHit(::Class_2_FD51057495DB654F* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_9850514C0F89B91A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_ONHIT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_2_FD51057495DB654F*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_ONHIT_OFFSET))(this, a1);
 		}
 
 		::System::Void SetAnimBoolParam(::System::String* a1, ::System::Boolean a2)
@@ -142,14 +142,14 @@ namespace RPG::Client::LittleGame
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_SETANIMTRIGGER_OFFSET))(this, a1);
 		}
 
-		::System::Void OnInvisibleRemoved(::Class_2_9850514C0F89B91A* a1)
+		::System::Void OnInvisibleRemoved(::Class_2_FD51057495DB654F* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_9850514C0F89B91A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_ONINVISIBLEREMOVED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_2_FD51057495DB654F*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS_ONINVISIBLEREMOVED_OFFSET))(this, a1);
 		}
 
-		::System::Void __iFixBaseProxy_SafeSetActive(::System::Boolean P0)
+		::System::Void __iFixBaseProxy_SafeSetActive(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS___IFIXBASEPROXY_SAFESETACTIVE_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS___IFIXBASEPROXY_SAFESETACTIVE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 __iFixBaseProxy_GetCenterPosition()
@@ -157,14 +157,14 @@ namespace RPG::Client::LittleGame
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS___IFIXBASEPROXY_GETCENTERPOSITION_OFFSET))(this);
 		}
 
-		::System::Void __iFixBaseProxy_SetPosition(::UnityEngine::Vector3 P0)
+		::System::Void __iFixBaseProxy_SetPosition(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS___IFIXBASEPROXY_SETPOSITION_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS___IFIXBASEPROXY_SETPOSITION_OFFSET))(this, a1);
 		}
 
-		::System::Void __iFixBaseProxy_SetLocalRotation(::UnityEngine::Quaternion P0)
+		::System::Void __iFixBaseProxy_SetLocalRotation(::UnityEngine::Quaternion a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS___IFIXBASEPROXY_SETLOCALROTATION_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEGAMEBOSS___IFIXBASEPROXY_SETLOCALROTATION_OFFSET))(this, a1);
 		}
 	};
 }

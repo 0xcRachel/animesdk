@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_2_0736E73E3F10EC1F;
+class Class_2_9B6A50BEF257C699;
 namespace RPG::Client { class MonoEffectPluginRotate_RotateNode; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINROTATE_AWAKE_OFFSET UNITYSDK_OFFSET(0x16611A20)
-#define RPG_CLIENT_MONOEFFECTPLUGINROTATE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x16611BE0)
-#define RPG_CLIENT_MONOEFFECTPLUGINROTATE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x16611B30)
-#define RPG_CLIENT_MONOEFFECTPLUGINROTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16611C40)
+#define RPG_CLIENT_MONOEFFECTPLUGINROTATE_AWAKE_OFFSET UNITYSDK_OFFSET(0x174C02C0)
+#define RPG_CLIENT_MONOEFFECTPLUGINROTATE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x174C0480)
+#define RPG_CLIENT_MONOEFFECTPLUGINROTATE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x174C03D0)
+#define RPG_CLIENT_MONOEFFECTPLUGINROTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x174C04E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginRotate_TypeDefinitionIndex = 64629;
+	inline static constexpr unsigned int MonoEffectPluginRotate_TypeDefinitionIndex = 65550;
 
 	class MonoEffectPluginRotate : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::Il2CppArray<::RPG::Client::MonoEffectPluginRotate_RotateNode*>* RotateNodes; // 0x18
 		::System::Single DelayTime; // 0x20
-		::Class_2_0736E73E3F10EC1F* Field_5_2; // 0x28
+		::Class_2_9B6A50BEF257C699* Field_5_2; // 0x28
 
 		::System::Void _ctor()
 		{

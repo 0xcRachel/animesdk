@@ -7,23 +7,23 @@
 
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_CURSOR_GET_LOCKSTATE_OFFSET UNITYSDK_OFFSET(0x197E64D0)
-#define UNITYENGINE_CURSOR_GET_VISIBLE_OFFSET UNITYSDK_OFFSET(0x197E64B0)
-#define UNITYENGINE_CURSOR_SETCURSOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x197E64A0)
-#define UNITYENGINE_CURSOR_SETCURSOR_OFFSET UNITYSDK_OFFSET(0x197E6480)
-#define UNITYENGINE_CURSOR_SET_LOCKSTATE_OFFSET UNITYSDK_OFFSET(0x197E64E0)
-#define UNITYENGINE_CURSOR_SET_VISIBLE_OFFSET UNITYSDK_OFFSET(0x197E64C0)
+#define UNITYENGINE_CURSOR_GET_LOCKSTATE_OFFSET UNITYSDK_OFFSET(0x1A4D1BB0)
+#define UNITYENGINE_CURSOR_GET_VISIBLE_OFFSET UNITYSDK_OFFSET(0x1A4D1B90)
+#define UNITYENGINE_CURSOR_SETCURSOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A4D1B80)
+#define UNITYENGINE_CURSOR_SETCURSOR_OFFSET UNITYSDK_OFFSET(0x1A4D1B60)
+#define UNITYENGINE_CURSOR_SET_LOCKSTATE_OFFSET UNITYSDK_OFFSET(0x1A4D1BC0)
+#define UNITYENGINE_CURSOR_SET_VISIBLE_OFFSET UNITYSDK_OFFSET(0x1A4D1BA0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Cursor_TypeDefinitionIndex = 4021;
+	inline static constexpr unsigned int Cursor_TypeDefinitionIndex = 4195;
 
 	class Cursor : public ::System::Object
 	{
 	public:
-		static ::System::Void SetCursor(::UnityEngine::Texture2D* texture, ::UnityEngine::Vector2 hotspot, ::UnityEngine::CursorMode cursorMode)
+		static ::System::Void SetCursor(::UnityEngine::Texture2D* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::CursorMode a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Texture2D*, ::UnityEngine::Vector2, ::UnityEngine::CursorMode))((::PBYTE)hIl2Cpp + UNITYENGINE_CURSOR_SETCURSOR_OFFSET))(texture, hotspot, cursorMode);
+			return ((::System::Void(*)(::UnityEngine::Texture2D*, ::UnityEngine::Vector2, ::UnityEngine::CursorMode))((::PBYTE)hIl2Cpp + UNITYENGINE_CURSOR_SETCURSOR_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Boolean get_visible()
@@ -31,9 +31,9 @@ namespace UnityEngine
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_CURSOR_GET_VISIBLE_OFFSET))();
 		}
 
-		static ::System::Void set_visible(::System::Boolean value)
+		static ::System::Void set_visible(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_CURSOR_SET_VISIBLE_OFFSET))(value);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_CURSOR_SET_VISIBLE_OFFSET))(a1);
 		}
 
 		static ::UnityEngine::CursorLockMode get_lockState()
@@ -41,14 +41,14 @@ namespace UnityEngine
 			return ((::UnityEngine::CursorLockMode(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_CURSOR_GET_LOCKSTATE_OFFSET))();
 		}
 
-		static ::System::Void set_lockState(::UnityEngine::CursorLockMode value)
+		static ::System::Void set_lockState(::UnityEngine::CursorLockMode a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::CursorLockMode))((::PBYTE)hIl2Cpp + UNITYENGINE_CURSOR_SET_LOCKSTATE_OFFSET))(value);
+			return ((::System::Void(*)(::UnityEngine::CursorLockMode))((::PBYTE)hIl2Cpp + UNITYENGINE_CURSOR_SET_LOCKSTATE_OFFSET))(a1);
 		}
 
-		static ::System::Void SetCursor_Injected(::UnityEngine::Texture2D* texture, ::UnityEngine::Vector2& hotspot, ::UnityEngine::CursorMode cursorMode)
+		static ::System::Void SetCursor_Injected(::UnityEngine::Texture2D* a1, ::UnityEngine::Vector2& a2, ::UnityEngine::CursorMode a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Texture2D*, ::UnityEngine::Vector2&, ::UnityEngine::CursorMode))((::PBYTE)hIl2Cpp + UNITYENGINE_CURSOR_SETCURSOR_INJECTED_OFFSET))(texture, hotspot, cursorMode);
+			return ((::System::Void(*)(::UnityEngine::Texture2D*, ::UnityEngine::Vector2&, ::UnityEngine::CursorMode))((::PBYTE)hIl2Cpp + UNITYENGINE_CURSOR_SETCURSOR_INJECTED_OFFSET))(a1, a2, a3);
 		}
 	};
 }

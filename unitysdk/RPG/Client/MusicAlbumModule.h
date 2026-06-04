@@ -10,35 +10,38 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MUSICALBUMMODULE_GETMUSICALBUMITEMDATA_OFFSET UNITYSDK_OFFSET(0x15F1A4D0)
-#define RPG_CLIENT_MUSICALBUMMODULE_GETUNLOCKMUSICALBUMGROUPDATAS_OFFSET UNITYSDK_OFFSET(0x15F1A610)
-#define RPG_CLIENT_MUSICALBUMMODULE_GET_CURUSEMUSICID_OFFSET UNITYSDK_OFFSET(0x15F18E20)
-#define RPG_CLIENT_MUSICALBUMMODULE_GET_PLAYINGINFO_OFFSET UNITYSDK_OFFSET(0x15F1A8C0)
-#define RPG_CLIENT_MUSICALBUMMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x15F19E90)
-#define RPG_CLIENT_MUSICALBUMMODULE_SETCURPLAYINGINFOEXPLICIT_OFFSET UNITYSDK_OFFSET(0x15F1A1C0)
-#define RPG_CLIENT_MUSICALBUMMODULE_SETCURPLAYINGINFO_OFFSET UNITYSDK_OFFSET(0x15F1A050)
-#define RPG_CLIENT_MUSICALBUMMODULE_SETTRIALMUSICID_OFFSET UNITYSDK_OFFSET(0x15F1A230)
-#define RPG_CLIENT_MUSICALBUMMODULE_SET_PLAYINGINFO_OFFSET UNITYSDK_OFFSET(0x15F1A8D0)
-#define RPG_CLIENT_MUSICALBUMMODULE_UNLOCKBACKGROUNDMUSICCSREQ_OFFSET UNITYSDK_OFFSET(0x15F1A440)
-#define RPG_CLIENT_MUSICALBUMMODULE__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x15F19400)
-#define RPG_CLIENT_MUSICALBUMMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x15F1A8E0)
-#define RPG_CLIENT_MUSICALBUMMODULE__GETGROUPDATA_OFFSET UNITYSDK_OFFSET(0x15F19630)
-#define RPG_CLIENT_MUSICALBUMMODULE__ONGETJUKEBOXDATASCRSP_OFFSET UNITYSDK_OFFSET(0x15F19520)
-#define RPG_CLIENT_MUSICALBUMMODULE__ONPLAYBACKGROUNDMUSICSCRSP_OFFSET UNITYSDK_OFFSET(0x15F19880)
-#define RPG_CLIENT_MUSICALBUMMODULE__ONTRIALBACKGROUNDMUSICSCRSP_OFFSET UNITYSDK_OFFSET(0x15F19820)
-#define RPG_CLIENT_MUSICALBUMMODULE__ONUNLOCKBACKGROUNDMUSICSCRSP_OFFSET UNITYSDK_OFFSET(0x15F19950)
-#define RPG_CLIENT_MUSICALBUMMODULE___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x15F1AA10)
-#define RPG_CLIENT_MUSICALBUMMODULE___IFIXBASEPROXY__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x15F1A9B0)
+#define RPG_CLIENT_MUSICALBUMMODULE_GETMUSICALBUMITEMDATA_OFFSET UNITYSDK_OFFSET(0x187527E0)
+#define RPG_CLIENT_MUSICALBUMMODULE_GETUNLOCKMUSICALBUMGROUPDATAS_OFFSET UNITYSDK_OFFSET(0x187528D0)
+#define RPG_CLIENT_MUSICALBUMMODULE_GET_CURUSEMUSICID_OFFSET UNITYSDK_OFFSET(0x18750F70)
+#define RPG_CLIENT_MUSICALBUMMODULE_GET_ONLINEPLAYROOMPLAYINGINFO_OFFSET UNITYSDK_OFFSET(0x18752C80)
+#define RPG_CLIENT_MUSICALBUMMODULE_GET_PLAYINGINFO_OFFSET UNITYSDK_OFFSET(0x18752C60)
+#define RPG_CLIENT_MUSICALBUMMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x187521A0)
+#define RPG_CLIENT_MUSICALBUMMODULE_SETCURPLAYINGINFO_OFFSET UNITYSDK_OFFSET(0x187523A0)
+#define RPG_CLIENT_MUSICALBUMMODULE_SETONLINEPLAYROOMCURPLAYINGINFO_OFFSET UNITYSDK_OFFSET(0x18752510)
+#define RPG_CLIENT_MUSICALBUMMODULE_SETTRIALMUSICID_OFFSET UNITYSDK_OFFSET(0x18752570)
+#define RPG_CLIENT_MUSICALBUMMODULE_SET_ONLINEPLAYROOMPLAYINGINFO_OFFSET UNITYSDK_OFFSET(0x18752C90)
+#define RPG_CLIENT_MUSICALBUMMODULE_SET_PLAYINGINFO_OFFSET UNITYSDK_OFFSET(0x18752C70)
+#define RPG_CLIENT_MUSICALBUMMODULE_UNLOCKBACKGROUNDMUSICCSREQ_OFFSET UNITYSDK_OFFSET(0x18752750)
+#define RPG_CLIENT_MUSICALBUMMODULE__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x18751550)
+#define RPG_CLIENT_MUSICALBUMMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x18752CA0)
+#define RPG_CLIENT_MUSICALBUMMODULE__GETGROUPDATA_OFFSET UNITYSDK_OFFSET(0x18751930)
+#define RPG_CLIENT_MUSICALBUMMODULE__ONGETJUKEBOXDATASCRSP_OFFSET UNITYSDK_OFFSET(0x18751810)
+#define RPG_CLIENT_MUSICALBUMMODULE__ONPLAYBACKGROUNDMUSICSCRSP_OFFSET UNITYSDK_OFFSET(0x18751B40)
+#define RPG_CLIENT_MUSICALBUMMODULE__ONTRIALBACKGROUNDMUSICSCRSP_OFFSET UNITYSDK_OFFSET(0x18751AE0)
+#define RPG_CLIENT_MUSICALBUMMODULE__ONUNLOCKBACKGROUNDMUSICSCRSP_OFFSET UNITYSDK_OFFSET(0x18751C10)
+#define RPG_CLIENT_MUSICALBUMMODULE___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x18752E10)
+#define RPG_CLIENT_MUSICALBUMMODULE___IFIXBASEPROXY__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x18752DB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicAlbumModule_TypeDefinitionIndex = 61126;
+	inline static constexpr unsigned int MusicAlbumModule_TypeDefinitionIndex = 62050;
 
 	class MusicAlbumModule : public ::RPG::Client::BaseModule
 	{
 	public:
 		::RPG::Client::PlayingMusicItemsInfo* _PlayingInfo_k__BackingField; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::MusicAlbumGroupData*>* _MusicAlbumGroupDict; // 0x18
+		::RPG::Client::PlayingMusicItemsInfo* _OnlinePlayRoomPlayingInfo_k__BackingField; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -50,24 +53,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE__ADDPACKETHANDLERS_OFFSET))(this);
 		}
 
-		::System::Void _OnGetJukeboxDataScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		::System::Void _OnGetJukeboxDataScRsp(::System::UInt16 a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE__ONGETJUKEBOXDATASCRSP_OFFSET))(this, cmd, rspObject);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE__ONGETJUKEBOXDATASCRSP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _OnTrialBackGroundMusicScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		::System::Void _OnTrialBackGroundMusicScRsp(::System::UInt16 a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE__ONTRIALBACKGROUNDMUSICSCRSP_OFFSET))(this, cmd, rspObject);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE__ONTRIALBACKGROUNDMUSICSCRSP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _OnPlayBackGroundMusicScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		::System::Void _OnPlayBackGroundMusicScRsp(::System::UInt16 a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE__ONPLAYBACKGROUNDMUSICSCRSP_OFFSET))(this, cmd, rspObject);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE__ONPLAYBACKGROUNDMUSICSCRSP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _OnUnlockBackGroundMusicScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		::System::Void _OnUnlockBackGroundMusicScRsp(::System::UInt16 a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE__ONUNLOCKBACKGROUNDMUSICSCRSP_OFFSET))(this, cmd, rspObject);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE__ONUNLOCKBACKGROUNDMUSICSCRSP_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Init()
@@ -75,29 +78,29 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE_INIT_OFFSET))(this);
 		}
 
-		::System::Void SetCurPlayingInfo(::RPG::Client::PlayingMusicItemsInfo* info)
+		::System::Void SetCurPlayingInfo(::RPG::Client::PlayingMusicItemsInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::PlayingMusicItemsInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE_SETCURPLAYINGINFO_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PlayingMusicItemsInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE_SETCURPLAYINGINFO_OFFSET))(this, a1);
 		}
 
-		::System::Void SetCurPlayingInfoExplicit(::Class_1_C2DCB7BEBD8D0D3B* info)
+		::System::Void SetOnlinePlayRoomCurPlayingInfo(::Class_1_C2DCB7BEBD8D0D3B* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_C2DCB7BEBD8D0D3B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE_SETCURPLAYINGINFOEXPLICIT_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::Class_1_C2DCB7BEBD8D0D3B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE_SETONLINEPLAYROOMCURPLAYINGINFO_OFFSET))(this, a1);
 		}
 
-		::System::Void SetTrialMusicID(::System::UInt32 musicID)
+		::System::Void SetTrialMusicID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE_SETTRIALMUSICID_OFFSET))(this, musicID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE_SETTRIALMUSICID_OFFSET))(this, a1);
 		}
 
-		::System::Void UnlockBackGroundMusicCsReq(::System::Collections::Generic::List_1<::System::UInt32>* musicIDList)
+		::System::Void UnlockBackGroundMusicCsReq(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE_UNLOCKBACKGROUNDMUSICCSREQ_OFFSET))(this, musicIDList);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE_UNLOCKBACKGROUNDMUSICCSREQ_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::MusicAlbumItemData* GetMusicAlbumItemData(::System::UInt32 musicID)
+		::RPG::Client::MusicAlbumItemData* GetMusicAlbumItemData(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::MusicAlbumItemData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE_GETMUSICALBUMITEMDATA_OFFSET))(this, musicID);
+			return ((::RPG::Client::MusicAlbumItemData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE_GETMUSICALBUMITEMDATA_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::MusicAlbumGroupData*>* GetUnlockMusicAlbumGroupDatas()
@@ -105,9 +108,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::MusicAlbumGroupData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE_GETUNLOCKMUSICALBUMGROUPDATAS_OFFSET))(this);
 		}
 
-		::RPG::Client::MusicAlbumGroupData* _GetGroupData(::System::UInt32 groupID)
+		::RPG::Client::MusicAlbumGroupData* _GetGroupData(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::MusicAlbumGroupData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE__GETGROUPDATA_OFFSET))(this, groupID);
+			return ((::RPG::Client::MusicAlbumGroupData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE__GETGROUPDATA_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_CurUseMusicID()
@@ -120,9 +123,19 @@ namespace RPG::Client
 			return ((::RPG::Client::PlayingMusicItemsInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE_GET_PLAYINGINFO_OFFSET))(this);
 		}
 
-		::System::Void set_PlayingInfo(::RPG::Client::PlayingMusicItemsInfo* value)
+		::System::Void set_PlayingInfo(::RPG::Client::PlayingMusicItemsInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::PlayingMusicItemsInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE_SET_PLAYINGINFO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PlayingMusicItemsInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE_SET_PLAYINGINFO_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::PlayingMusicItemsInfo* get_OnlinePlayRoomPlayingInfo()
+		{
+			return ((::RPG::Client::PlayingMusicItemsInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE_GET_ONLINEPLAYROOMPLAYINGINFO_OFFSET))(this);
+		}
+
+		::System::Void set_OnlinePlayRoomPlayingInfo(::RPG::Client::PlayingMusicItemsInfo* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PlayingMusicItemsInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMMODULE_SET_ONLINEPLAYROOMPLAYINGINFO_OFFSET))(this, a1);
 		}
 
 		::System::Void __iFixBaseProxy__AddPacketHandlers()

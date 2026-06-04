@@ -5,24 +5,24 @@
 class Class_1_B547B56320B70AD4;
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x173520F0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17352130)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C___CLEARINVALIDSPECIALCHATS_B__9_0_OFFSET UNITYSDK_OFFSET(0x17352140)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1855DE90)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1855DED0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C___CLEARINVALIDSPECIALCHATS_B__9_0_OFFSET UNITYSDK_OFFSET(0x1855DEE0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveChatService___c_TypeDefinitionIndex = 69341;
+	inline static constexpr unsigned int IdleLiveChatService___c_TypeDefinitionIndex = 70153;
 
 	class IdleLiveChatService___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ActivityIdleLive::IdleLiveChatService___c** StaticGet___9()
-		{
-			return (::RPG::Client::ActivityIdleLive::IdleLiveChatService___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveChatService___c_TypeDefinitionIndex)->GetStaticField(0x41E20);
-		}
 		static ::System::Predicate_1<::Class_1_B547B56320B70AD4*>** StaticGet___9__9_0()
 		{
-			return (::System::Predicate_1<::Class_1_B547B56320B70AD4*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveChatService___c_TypeDefinitionIndex)->GetStaticField(0x41E28);
+			return (::System::Predicate_1<::Class_1_B547B56320B70AD4*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveChatService___c_TypeDefinitionIndex)->GetStaticField(0x4EE40);
+		}
+		static ::RPG::Client::ActivityIdleLive::IdleLiveChatService___c** StaticGet___9()
+		{
+			return (::RPG::Client::ActivityIdleLive::IdleLiveChatService___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveChatService___c_TypeDefinitionIndex)->GetStaticField(0x4EE48);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __ClearInvalidSpecialChats_b__9_0(::Class_1_B547B56320B70AD4* x)
+		::System::Boolean __ClearInvalidSpecialChats_b__9_0(::Class_1_B547B56320B70AD4* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_B547B56320B70AD4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C___CLEARINVALIDSPECIALCHATS_B__9_0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_B547B56320B70AD4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C___CLEARINVALIDSPECIALCHATS_B__9_0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -7,24 +7,24 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace UnityEngine { class Camera; }
 namespace VLB { class BeamGeometry; }
 
-#define VLB_BEAMGEOMETRY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE1B1A60)
-#define VLB_BEAMGEOMETRY___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE1B1A90)
-#define VLB_BEAMGEOMETRY___C__GET_ONBEGINCAMERARENDERINGHANDLER_B__29_0_OFFSET UNITYSDK_OFFSET(0xE1B1AA0)
+#define VLB_BEAMGEOMETRY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE28D9C0)
+#define VLB_BEAMGEOMETRY___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE28D9F0)
+#define VLB_BEAMGEOMETRY___C__GET_ONBEGINCAMERARENDERINGHANDLER_B__29_0_OFFSET UNITYSDK_OFFSET(0xE28DA00)
 
 namespace VLB
 {
-	inline static constexpr unsigned int BeamGeometry___c_TypeDefinitionIndex = 45596;
+	inline static constexpr unsigned int BeamGeometry___c_TypeDefinitionIndex = 46179;
 
 	class BeamGeometry___c : public ::System::Object
 	{
 	public:
 		static ::VLB::BeamGeometry___c** StaticGet___9()
 		{
-			return (::VLB::BeamGeometry___c**)Il2CppClass::FromTypeDefinitionIndex(BeamGeometry___c_TypeDefinitionIndex)->GetStaticField(0x8E60);
+			return (::VLB::BeamGeometry___c**)Il2CppClass::FromTypeDefinitionIndex(BeamGeometry___c_TypeDefinitionIndex)->GetStaticField(0x14E60);
 		}
 		static ::System::Action_3<::VLB::BeamGeometry*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>** StaticGet___9__29_0()
 		{
-			return (::System::Action_3<::VLB::BeamGeometry*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(BeamGeometry___c_TypeDefinitionIndex)->GetStaticField(0x8E68);
+			return (::System::Action_3<::VLB::BeamGeometry*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(BeamGeometry___c_TypeDefinitionIndex)->GetStaticField(0x14E68);
 		}
 
 		static ::System::Void _cctor()
@@ -37,9 +37,9 @@ namespace VLB
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _get_OnBeginCameraRenderingHandler_b__29_0(::VLB::BeamGeometry* self, ::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* c)
+		::System::Void _get_OnBeginCameraRenderingHandler_b__29_0(::VLB::BeamGeometry* a1, ::UnityEngine::Rendering::ScriptableRenderContext a2, ::UnityEngine::Camera* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::VLB::BeamGeometry*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY___C__GET_ONBEGINCAMERARENDERINGHANDLER_B__29_0_OFFSET))(this, self, context, c);
+			return ((::System::Void(*)(::PVOID, ::VLB::BeamGeometry*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + VLB_BEAMGEOMETRY___C__GET_ONBEGINCAMERARENDERINGHANDLER_B__29_0_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

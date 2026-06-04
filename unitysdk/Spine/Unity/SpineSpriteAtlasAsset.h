@@ -10,23 +10,23 @@ namespace UnityEngine { class Sprite; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::U2D { class SpriteAtlas; }
 
-#define SPINE_UNITY_SPINESPRITEATLASASSET_ACCESSPACKEDSPRITES_OFFSET UNITYSDK_OFFSET(0x16125840)
-#define SPINE_UNITY_SPINESPRITEATLASASSET_ACCESSPACKEDTEXTURE_OFFSET UNITYSDK_OFFSET(0x16125800)
-#define SPINE_UNITY_SPINESPRITEATLASASSET_ASSIGNREGIONSFROMSAVEDREGIONS_OFFSET UNITYSDK_OFFSET(0x16125370)
-#define SPINE_UNITY_SPINESPRITEATLASASSET_CLEAR_OFFSET UNITYSDK_OFFSET(0x16124F40)
-#define SPINE_UNITY_SPINESPRITEATLASASSET_CREATERUNTIMEINSTANCE_OFFSET UNITYSDK_OFFSET(0x16124BC0)
-#define SPINE_UNITY_SPINESPRITEATLASASSET_GETATLAS_OFFSET UNITYSDK_OFFSET(0x16124C60)
-#define SPINE_UNITY_SPINESPRITEATLASASSET_GET_ISLOADED_OFFSET UNITYSDK_OFFSET(0x16124B50)
-#define SPINE_UNITY_SPINESPRITEATLASASSET_GET_MATERIALCOUNT_OFFSET UNITYSDK_OFFSET(0x16124B70)
-#define SPINE_UNITY_SPINESPRITEATLASASSET_GET_MATERIALS_OFFSET UNITYSDK_OFFSET(0x16124B60)
-#define SPINE_UNITY_SPINESPRITEATLASASSET_GET_PRIMARYMATERIAL_OFFSET UNITYSDK_OFFSET(0x16124B80)
-#define SPINE_UNITY_SPINESPRITEATLASASSET_LOADATLAS_OFFSET UNITYSDK_OFFSET(0x16124F50)
-#define SPINE_UNITY_SPINESPRITEATLASASSET_RESET_OFFSET UNITYSDK_OFFSET(0x16124C50)
-#define SPINE_UNITY_SPINESPRITEATLASASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x161258A0)
+#define SPINE_UNITY_SPINESPRITEATLASASSET_ACCESSPACKEDSPRITES_OFFSET UNITYSDK_OFFSET(0x14D66170)
+#define SPINE_UNITY_SPINESPRITEATLASASSET_ACCESSPACKEDTEXTURE_OFFSET UNITYSDK_OFFSET(0x14D66130)
+#define SPINE_UNITY_SPINESPRITEATLASASSET_ASSIGNREGIONSFROMSAVEDREGIONS_OFFSET UNITYSDK_OFFSET(0x14D65CD0)
+#define SPINE_UNITY_SPINESPRITEATLASASSET_CLEAR_OFFSET UNITYSDK_OFFSET(0x14D65820)
+#define SPINE_UNITY_SPINESPRITEATLASASSET_CREATERUNTIMEINSTANCE_OFFSET UNITYSDK_OFFSET(0x14D654A0)
+#define SPINE_UNITY_SPINESPRITEATLASASSET_GETATLAS_OFFSET UNITYSDK_OFFSET(0x14D65540)
+#define SPINE_UNITY_SPINESPRITEATLASASSET_GET_ISLOADED_OFFSET UNITYSDK_OFFSET(0x14D65440)
+#define SPINE_UNITY_SPINESPRITEATLASASSET_GET_MATERIALCOUNT_OFFSET UNITYSDK_OFFSET(0x14D65460)
+#define SPINE_UNITY_SPINESPRITEATLASASSET_GET_MATERIALS_OFFSET UNITYSDK_OFFSET(0x14D65450)
+#define SPINE_UNITY_SPINESPRITEATLASASSET_GET_PRIMARYMATERIAL_OFFSET UNITYSDK_OFFSET(0x14D65470)
+#define SPINE_UNITY_SPINESPRITEATLASASSET_LOADATLAS_OFFSET UNITYSDK_OFFSET(0x14D65830)
+#define SPINE_UNITY_SPINESPRITEATLASASSET_RESET_OFFSET UNITYSDK_OFFSET(0x14D65530)
+#define SPINE_UNITY_SPINESPRITEATLASASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x14D661D0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SpineSpriteAtlasAsset_TypeDefinitionIndex = 40566;
+	inline static constexpr unsigned int SpineSpriteAtlasAsset_TypeDefinitionIndex = 41393;
 
 	class SpineSpriteAtlasAsset : public ::Spine::Unity::AtlasAssetBase
 	{
@@ -62,9 +62,9 @@ namespace Spine::Unity
 			return ((::UnityEngine::Material*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINESPRITEATLASASSET_GET_PRIMARYMATERIAL_OFFSET))(this);
 		}
 
-		static ::Spine::Unity::SpineSpriteAtlasAsset* CreateRuntimeInstance(::UnityEngine::U2D::SpriteAtlas* spriteAtlasFile, ::Il2CppArray<::UnityEngine::Material*>* materials, ::System::Boolean initialize)
+		static ::Spine::Unity::SpineSpriteAtlasAsset* CreateRuntimeInstance(::UnityEngine::U2D::SpriteAtlas* a1, ::Il2CppArray<::UnityEngine::Material*>* a2, ::System::Boolean a3)
 		{
-			return ((::Spine::Unity::SpineSpriteAtlasAsset*(*)(::UnityEngine::U2D::SpriteAtlas*, ::Il2CppArray<::UnityEngine::Material*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINESPRITEATLASASSET_CREATERUNTIMEINSTANCE_OFFSET))(spriteAtlasFile, materials, initialize);
+			return ((::Spine::Unity::SpineSpriteAtlasAsset*(*)(::UnityEngine::U2D::SpriteAtlas*, ::Il2CppArray<::UnityEngine::Material*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINESPRITEATLASASSET_CREATERUNTIMEINSTANCE_OFFSET))(a1, a2, a3);
 		}
 
 		::System::Void Reset()
@@ -77,29 +77,29 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINESPRITEATLASASSET_CLEAR_OFFSET))(this);
 		}
 
-		::Spine::Atlas* GetAtlas(::System::Boolean onlyMetaData)
+		::Spine::Atlas* GetAtlas(::System::Boolean a1)
 		{
-			return ((::Spine::Atlas*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINESPRITEATLASASSET_GETATLAS_OFFSET))(this, onlyMetaData);
+			return ((::Spine::Atlas*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINESPRITEATLASASSET_GETATLAS_OFFSET))(this, a1);
 		}
 
-		::System::Void AssignRegionsFromSavedRegions(::Il2CppArray<::UnityEngine::Sprite*>* sprites, ::Spine::Atlas* usedAtlas)
+		::System::Void AssignRegionsFromSavedRegions(::Il2CppArray<::UnityEngine::Sprite*>* a1, ::Spine::Atlas* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Sprite*>*, ::Spine::Atlas*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINESPRITEATLASASSET_ASSIGNREGIONSFROMSAVEDREGIONS_OFFSET))(this, sprites, usedAtlas);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Sprite*>*, ::Spine::Atlas*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINESPRITEATLASASSET_ASSIGNREGIONSFROMSAVEDREGIONS_OFFSET))(this, a1, a2);
 		}
 
-		::Spine::Atlas* LoadAtlas(::UnityEngine::U2D::SpriteAtlas* spriteAtlas)
+		::Spine::Atlas* LoadAtlas(::UnityEngine::U2D::SpriteAtlas* a1)
 		{
-			return ((::Spine::Atlas*(*)(::PVOID, ::UnityEngine::U2D::SpriteAtlas*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINESPRITEATLASASSET_LOADATLAS_OFFSET))(this, spriteAtlas);
+			return ((::Spine::Atlas*(*)(::PVOID, ::UnityEngine::U2D::SpriteAtlas*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINESPRITEATLASASSET_LOADATLAS_OFFSET))(this, a1);
 		}
 
-		static ::UnityEngine::Texture2D* AccessPackedTexture(::Il2CppArray<::UnityEngine::Sprite*>* sprites)
+		static ::UnityEngine::Texture2D* AccessPackedTexture(::Il2CppArray<::UnityEngine::Sprite*>* a1)
 		{
-			return ((::UnityEngine::Texture2D*(*)(::Il2CppArray<::UnityEngine::Sprite*>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINESPRITEATLASASSET_ACCESSPACKEDTEXTURE_OFFSET))(sprites);
+			return ((::UnityEngine::Texture2D*(*)(::Il2CppArray<::UnityEngine::Sprite*>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINESPRITEATLASASSET_ACCESSPACKEDTEXTURE_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::UnityEngine::Sprite*>* AccessPackedSprites(::UnityEngine::U2D::SpriteAtlas* spriteAtlas)
+		static ::Il2CppArray<::UnityEngine::Sprite*>* AccessPackedSprites(::UnityEngine::U2D::SpriteAtlas* a1)
 		{
-			return ((::Il2CppArray<::UnityEngine::Sprite*>*(*)(::UnityEngine::U2D::SpriteAtlas*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINESPRITEATLASASSET_ACCESSPACKEDSPRITES_OFFSET))(spriteAtlas);
+			return ((::Il2CppArray<::UnityEngine::Sprite*>*(*)(::UnityEngine::U2D::SpriteAtlas*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINESPRITEATLASASSET_ACCESSPACKEDSPRITES_OFFSET))(a1);
 		}
 	};
 }

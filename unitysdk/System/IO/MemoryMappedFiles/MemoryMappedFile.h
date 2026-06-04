@@ -14,19 +14,19 @@ namespace System::IO::MemoryMappedFiles { class MemoryMappedFileSecurity; }
 namespace System::IO::MemoryMappedFiles { class MemoryMappedViewAccessor; }
 namespace System::IO::MemoryMappedFiles { class MemoryMappedViewStream; }
 
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CORESHMCREATE_OFFSET UNITYSDK_OFFSET(0x18422910)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEFROMFILE_1_OFFSET UNITYSDK_OFFSET(0x18422710)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEFROMFILE_OFFSET UNITYSDK_OFFSET(0x18422570)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATENEW_1_OFFSET UNITYSDK_OFFSET(0x18422A90)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATENEW_OFFSET UNITYSDK_OFFSET(0x18422A70)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEVIEWACCESSOR_1_OFFSET UNITYSDK_OFFSET(0x18422E00)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEVIEWACCESSOR_2_OFFSET UNITYSDK_OFFSET(0x18422E80)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEVIEWACCESSOR_OFFSET UNITYSDK_OFFSET(0x18422D80)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEVIEWSTREAM_OFFSET UNITYSDK_OFFSET(0x18422AB0)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x18422FB0)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18422F90)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_GETFILEACCESS_OFFSET UNITYSDK_OFFSET(0x18423040)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x18422700)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CORESHMCREATE_OFFSET UNITYSDK_OFFSET(0x17A95800)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEFROMFILE_1_OFFSET UNITYSDK_OFFSET(0x17A95630)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEFROMFILE_OFFSET UNITYSDK_OFFSET(0x17A954C0)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATENEW_1_OFFSET UNITYSDK_OFFSET(0x17A95980)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATENEW_OFFSET UNITYSDK_OFFSET(0x17A95960)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEVIEWACCESSOR_1_OFFSET UNITYSDK_OFFSET(0x17A95C90)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEVIEWACCESSOR_2_OFFSET UNITYSDK_OFFSET(0x17A95CE0)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEVIEWACCESSOR_OFFSET UNITYSDK_OFFSET(0x17A95C40)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEVIEWSTREAM_OFFSET UNITYSDK_OFFSET(0x17A959A0)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x17A95DD0)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17A95DB0)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_GETFILEACCESS_OFFSET UNITYSDK_OFFSET(0x17A95E90)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x17A95620)
 
 namespace System::IO::MemoryMappedFiles
 {
@@ -35,8 +35,8 @@ namespace System::IO::MemoryMappedFiles
 	class MemoryMappedFile : public ::System::Object
 	{
 	public:
-		::System::IO::FileStream* stream; // 0x10
-		::Microsoft::Win32::SafeHandles::SafeMemoryMappedFileHandle* handle; // 0x18
+		::Microsoft::Win32::SafeHandles::SafeMemoryMappedFileHandle* handle; // 0x10
+		::System::IO::FileStream* stream; // 0x18
 		::System::Boolean keepOpen; // 0x20
 
 		::System::Void _ctor()
@@ -44,34 +44,34 @@ namespace System::IO::MemoryMappedFiles
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::IO::MemoryMappedFiles::MemoryMappedFile* CreateFromFile(::System::String* path, ::System::IO::FileMode mode)
+		static ::System::IO::MemoryMappedFiles::MemoryMappedFile* CreateFromFile(::System::String* a1, ::System::IO::FileMode a2)
 		{
-			return ((::System::IO::MemoryMappedFiles::MemoryMappedFile*(*)(::System::String*, ::System::IO::FileMode))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEFROMFILE_OFFSET))(path, mode);
+			return ((::System::IO::MemoryMappedFiles::MemoryMappedFile*(*)(::System::String*, ::System::IO::FileMode))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEFROMFILE_OFFSET))(a1, a2);
 		}
 
-		static ::System::IO::MemoryMappedFiles::MemoryMappedFile* CreateFromFile_1(::System::String* path, ::System::IO::FileMode mode, ::System::String* mapName, ::System::Int64 capacity, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess access)
+		static ::System::IO::MemoryMappedFiles::MemoryMappedFile* CreateFromFile_1(::System::String* a1, ::System::IO::FileMode a2, ::System::String* a3, ::System::Int64 a4, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess a5)
 		{
-			return ((::System::IO::MemoryMappedFiles::MemoryMappedFile*(*)(::System::String*, ::System::IO::FileMode, ::System::String*, ::System::Int64, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEFROMFILE_1_OFFSET))(path, mode, mapName, capacity, access);
+			return ((::System::IO::MemoryMappedFiles::MemoryMappedFile*(*)(::System::String*, ::System::IO::FileMode, ::System::String*, ::System::Int64, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEFROMFILE_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::IO::MemoryMappedFiles::MemoryMappedFile* CoreShmCreate(::System::String* mapName, ::System::Int64 capacity, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess access, ::System::IO::MemoryMappedFiles::MemoryMappedFileOptions options, ::System::IO::MemoryMappedFiles::MemoryMappedFileSecurity* memoryMappedFileSecurity, ::System::IO::HandleInheritability inheritability, ::System::IO::FileMode mode)
+		static ::System::IO::MemoryMappedFiles::MemoryMappedFile* CoreShmCreate(::System::String* a1, ::System::Int64 a2, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess a3, ::System::IO::MemoryMappedFiles::MemoryMappedFileOptions a4, ::System::IO::MemoryMappedFiles::MemoryMappedFileSecurity* a5, ::System::IO::HandleInheritability a6, ::System::IO::FileMode a7)
 		{
-			return ((::System::IO::MemoryMappedFiles::MemoryMappedFile*(*)(::System::String*, ::System::Int64, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess, ::System::IO::MemoryMappedFiles::MemoryMappedFileOptions, ::System::IO::MemoryMappedFiles::MemoryMappedFileSecurity*, ::System::IO::HandleInheritability, ::System::IO::FileMode))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CORESHMCREATE_OFFSET))(mapName, capacity, access, options, memoryMappedFileSecurity, inheritability, mode);
+			return ((::System::IO::MemoryMappedFiles::MemoryMappedFile*(*)(::System::String*, ::System::Int64, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess, ::System::IO::MemoryMappedFiles::MemoryMappedFileOptions, ::System::IO::MemoryMappedFiles::MemoryMappedFileSecurity*, ::System::IO::HandleInheritability, ::System::IO::FileMode))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CORESHMCREATE_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::IO::MemoryMappedFiles::MemoryMappedFile* CreateNew(::System::String* mapName, ::System::Int64 capacity)
+		static ::System::IO::MemoryMappedFiles::MemoryMappedFile* CreateNew(::System::String* a1, ::System::Int64 a2)
 		{
-			return ((::System::IO::MemoryMappedFiles::MemoryMappedFile*(*)(::System::String*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATENEW_OFFSET))(mapName, capacity);
+			return ((::System::IO::MemoryMappedFiles::MemoryMappedFile*(*)(::System::String*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATENEW_OFFSET))(a1, a2);
 		}
 
-		static ::System::IO::MemoryMappedFiles::MemoryMappedFile* CreateNew_1(::System::String* mapName, ::System::Int64 capacity, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess access, ::System::IO::MemoryMappedFiles::MemoryMappedFileOptions options, ::System::IO::MemoryMappedFiles::MemoryMappedFileSecurity* memoryMappedFileSecurity, ::System::IO::HandleInheritability inheritability)
+		static ::System::IO::MemoryMappedFiles::MemoryMappedFile* CreateNew_1(::System::String* a1, ::System::Int64 a2, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess a3, ::System::IO::MemoryMappedFiles::MemoryMappedFileOptions a4, ::System::IO::MemoryMappedFiles::MemoryMappedFileSecurity* a5, ::System::IO::HandleInheritability a6)
 		{
-			return ((::System::IO::MemoryMappedFiles::MemoryMappedFile*(*)(::System::String*, ::System::Int64, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess, ::System::IO::MemoryMappedFiles::MemoryMappedFileOptions, ::System::IO::MemoryMappedFiles::MemoryMappedFileSecurity*, ::System::IO::HandleInheritability))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATENEW_1_OFFSET))(mapName, capacity, access, options, memoryMappedFileSecurity, inheritability);
+			return ((::System::IO::MemoryMappedFiles::MemoryMappedFile*(*)(::System::String*, ::System::Int64, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess, ::System::IO::MemoryMappedFiles::MemoryMappedFileOptions, ::System::IO::MemoryMappedFiles::MemoryMappedFileSecurity*, ::System::IO::HandleInheritability))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATENEW_1_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::IO::MemoryMappedFiles::MemoryMappedViewStream* CreateViewStream(::System::Int64 offset, ::System::Int64 size, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess access)
+		::System::IO::MemoryMappedFiles::MemoryMappedViewStream* CreateViewStream(::System::Int64 a1, ::System::Int64 a2, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess a3)
 		{
-			return ((::System::IO::MemoryMappedFiles::MemoryMappedViewStream*(*)(::PVOID, ::System::Int64, ::System::Int64, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEVIEWSTREAM_OFFSET))(this, offset, size, access);
+			return ((::System::IO::MemoryMappedFiles::MemoryMappedViewStream*(*)(::PVOID, ::System::Int64, ::System::Int64, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEVIEWSTREAM_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::IO::MemoryMappedFiles::MemoryMappedViewAccessor* CreateViewAccessor()
@@ -79,14 +79,14 @@ namespace System::IO::MemoryMappedFiles
 			return ((::System::IO::MemoryMappedFiles::MemoryMappedViewAccessor*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEVIEWACCESSOR_OFFSET))(this);
 		}
 
-		::System::IO::MemoryMappedFiles::MemoryMappedViewAccessor* CreateViewAccessor_1(::System::Int64 offset, ::System::Int64 size)
+		::System::IO::MemoryMappedFiles::MemoryMappedViewAccessor* CreateViewAccessor_1(::System::Int64 a1, ::System::Int64 a2)
 		{
-			return ((::System::IO::MemoryMappedFiles::MemoryMappedViewAccessor*(*)(::PVOID, ::System::Int64, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEVIEWACCESSOR_1_OFFSET))(this, offset, size);
+			return ((::System::IO::MemoryMappedFiles::MemoryMappedViewAccessor*(*)(::PVOID, ::System::Int64, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEVIEWACCESSOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::IO::MemoryMappedFiles::MemoryMappedViewAccessor* CreateViewAccessor_2(::System::Int64 offset, ::System::Int64 size, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess access)
+		::System::IO::MemoryMappedFiles::MemoryMappedViewAccessor* CreateViewAccessor_2(::System::Int64 a1, ::System::Int64 a2, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess a3)
 		{
-			return ((::System::IO::MemoryMappedFiles::MemoryMappedViewAccessor*(*)(::PVOID, ::System::Int64, ::System::Int64, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEVIEWACCESSOR_2_OFFSET))(this, offset, size, access);
+			return ((::System::IO::MemoryMappedFiles::MemoryMappedViewAccessor*(*)(::PVOID, ::System::Int64, ::System::Int64, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_CREATEVIEWACCESSOR_2_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Dispose()
@@ -94,14 +94,14 @@ namespace System::IO::MemoryMappedFiles
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Dispose_1(::System::Boolean disposing)
+		::System::Void Dispose_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_DISPOSE_1_OFFSET))(this, disposing);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_DISPOSE_1_OFFSET))(this, a1);
 		}
 
-		static ::System::IO::FileAccess GetFileAccess(::System::IO::MemoryMappedFiles::MemoryMappedFileAccess access)
+		static ::System::IO::FileAccess GetFileAccess(::System::IO::MemoryMappedFiles::MemoryMappedFileAccess a1)
 		{
-			return ((::System::IO::FileAccess(*)(::System::IO::MemoryMappedFiles::MemoryMappedFileAccess))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_GETFILEACCESS_OFFSET))(access);
+			return ((::System::IO::FileAccess(*)(::System::IO::MemoryMappedFiles::MemoryMappedFileAccess))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDFILE_GETFILEACCESS_OFFSET))(a1);
 		}
 	};
 }

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MATCH3_FIGHTCONFIG_METHOD_2_0C21DABF26CCF481_OFFSET UNITYSDK_OFFSET(0x18C278E0)
-#define RPG_GAMECORE_MATCH3_FIGHTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18C27AA0)
+#define RPG_GAMECORE_MATCH3_FIGHTCONFIG_METHOD_2_0C21DABF26CCF481_OFFSET UNITYSDK_OFFSET(0x19985DF0)
+#define RPG_GAMECORE_MATCH3_FIGHTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19985FB0)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int FightConfig_TypeDefinitionIndex = 23673;
+	inline static constexpr unsigned int FightConfig_TypeDefinitionIndex = 23510;
 
 	class FightConfig : public ::RPG::GameCore::JsonConfig
 	{

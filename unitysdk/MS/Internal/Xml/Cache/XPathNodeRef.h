@@ -3,10 +3,10 @@
 #include "unitysdk/MS/Internal/Xml/Cache/XPathNode.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MS_INTERNAL_XML_CACHE_XPATHNODEREF_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22CD740)
-#define MS_INTERNAL_XML_CACHE_XPATHNODEREF_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x608310)
-#define MS_INTERNAL_XML_CACHE_XPATHNODEREF_GET_PAGE_OFFSET UNITYSDK_OFFSET(0x5078B0)
-#define MS_INTERNAL_XML_CACHE_XPATHNODEREF__CTOR_OFFSET UNITYSDK_OFFSET(0x6163F0)
+#define MS_INTERNAL_XML_CACHE_XPATHNODEREF_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x385A3D0)
+#define MS_INTERNAL_XML_CACHE_XPATHNODEREF_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x66B8A0)
+#define MS_INTERNAL_XML_CACHE_XPATHNODEREF_GET_PAGE_OFFSET UNITYSDK_OFFSET(0x66AF90)
+#define MS_INTERNAL_XML_CACHE_XPATHNODEREF__CTOR_OFFSET UNITYSDK_OFFSET(0x6C23C0)
 
 namespace MS::Internal::Xml::Cache
 {
@@ -17,9 +17,9 @@ namespace MS::Internal::Xml::Cache
 		::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>* page; // 0x10
 		::System::Int32 idx; // 0x18
 
-		::System::Void _ctor(::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>* page, ::System::Int32 idx)
+		::System::Void _ctor(::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>*, ::System::Int32))((::PBYTE)hIl2Cpp + MS_INTERNAL_XML_CACHE_XPATHNODEREF__CTOR_OFFSET))(this, page, idx);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>*, ::System::Int32))((::PBYTE)hIl2Cpp + MS_INTERNAL_XML_CACHE_XPATHNODEREF__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>* get_Page()

@@ -6,12 +6,12 @@ namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelMapInf
 namespace RPG::GameCore { class FourRotateVoxelFloorMapInfoConfig; }
 namespace RPG::GameCore { class FourRotateVoxelMapInfoConfig; }
 
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELUIVIEWCONTEXT___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1652B660)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELUIVIEWCONTEXT___C__DISPLAYCLASS66_0__GETLEVELUICONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x1652B9C0)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELUIVIEWCONTEXT___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18873640)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELUIVIEWCONTEXT___C__DISPLAYCLASS66_0__GETLEVELUICONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x188739D0)
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelUIViewContext___c__DisplayClass66_0_TypeDefinitionIndex = 70542;
+	inline static constexpr unsigned int FourRotateVoxelUIViewContext___c__DisplayClass66_0_TypeDefinitionIndex = 71359;
 
 	class FourRotateVoxelUIViewContext___c__DisplayClass66_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client::LittleGame::FourRotateVoxel
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELUIVIEWCONTEXT___C__DISPLAYCLASS66_0__CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelMapInfoConfig* _GetLevelUIConfig_b__0(::RPG::GameCore::FourRotateVoxelMapInfoConfig* config)
+		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelMapInfoConfig* _GetLevelUIConfig_b__0(::RPG::GameCore::FourRotateVoxelMapInfoConfig* a1)
 		{
-			return ((::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelMapInfoConfig*(*)(::PVOID, ::RPG::GameCore::FourRotateVoxelMapInfoConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELUIVIEWCONTEXT___C__DISPLAYCLASS66_0__GETLEVELUICONFIG_B__0_OFFSET))(this, config);
+			return ((::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelMapInfoConfig*(*)(::PVOID, ::RPG::GameCore::FourRotateVoxelMapInfoConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELUIVIEWCONTEXT___C__DISPLAYCLASS66_0__GETLEVELUICONFIG_B__0_OFFSET))(this, a1);
 		}
 	};
 }

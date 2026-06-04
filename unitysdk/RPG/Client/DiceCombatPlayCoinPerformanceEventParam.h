@@ -4,15 +4,15 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_DICECOMBATPLAYCOINPERFORMANCEEVENTPARAM_GET_CALLBACK_OFFSET UNITYSDK_OFFSET(0x1705F370)
-#define RPG_CLIENT_DICECOMBATPLAYCOINPERFORMANCEEVENTPARAM_GET_ISSELFPLAYERFIRST_OFFSET UNITYSDK_OFFSET(0x1705F350)
-#define RPG_CLIENT_DICECOMBATPLAYCOINPERFORMANCEEVENTPARAM_SET_CALLBACK_OFFSET UNITYSDK_OFFSET(0x1705F380)
-#define RPG_CLIENT_DICECOMBATPLAYCOINPERFORMANCEEVENTPARAM_SET_ISSELFPLAYERFIRST_OFFSET UNITYSDK_OFFSET(0x1705F360)
-#define RPG_CLIENT_DICECOMBATPLAYCOINPERFORMANCEEVENTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1705F340)
+#define RPG_CLIENT_DICECOMBATPLAYCOINPERFORMANCEEVENTPARAM_GET_CALLBACK_OFFSET UNITYSDK_OFFSET(0x18CBF870)
+#define RPG_CLIENT_DICECOMBATPLAYCOINPERFORMANCEEVENTPARAM_GET_ISSELFPLAYERFIRST_OFFSET UNITYSDK_OFFSET(0x18CBF850)
+#define RPG_CLIENT_DICECOMBATPLAYCOINPERFORMANCEEVENTPARAM_SET_CALLBACK_OFFSET UNITYSDK_OFFSET(0x18CBF880)
+#define RPG_CLIENT_DICECOMBATPLAYCOINPERFORMANCEEVENTPARAM_SET_ISSELFPLAYERFIRST_OFFSET UNITYSDK_OFFSET(0x18CBF860)
+#define RPG_CLIENT_DICECOMBATPLAYCOINPERFORMANCEEVENTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18CBF840)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DiceCombatPlayCoinPerformanceEventParam_TypeDefinitionIndex = 55637;
+	inline static constexpr unsigned int DiceCombatPlayCoinPerformanceEventParam_TypeDefinitionIndex = 56391;
 
 	class DiceCombatPlayCoinPerformanceEventParam : public ::System::Object
 	{
@@ -20,9 +20,9 @@ namespace RPG::Client
 		::System::Action* _CallBack_k__BackingField; // 0x10
 		::System::Boolean _IsSelfPlayerFirst_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::Boolean isSelfPlayerFirst, ::System::Action* callBack)
+		::System::Void _ctor(::System::Boolean a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATPLAYCOINPERFORMANCEEVENTPARAM__CTOR_OFFSET))(this, isSelfPlayerFirst, callBack);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATPLAYCOINPERFORMANCEEVENTPARAM__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_IsSelfPlayerFirst()
@@ -30,9 +30,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATPLAYCOINPERFORMANCEEVENTPARAM_GET_ISSELFPLAYERFIRST_OFFSET))(this);
 		}
 
-		::System::Void set_IsSelfPlayerFirst(::System::Boolean value)
+		::System::Void set_IsSelfPlayerFirst(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATPLAYCOINPERFORMANCEEVENTPARAM_SET_ISSELFPLAYERFIRST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATPLAYCOINPERFORMANCEEVENTPARAM_SET_ISSELFPLAYERFIRST_OFFSET))(this, a1);
 		}
 
 		::System::Action* get_CallBack()
@@ -40,9 +40,9 @@ namespace RPG::Client
 			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATPLAYCOINPERFORMANCEEVENTPARAM_GET_CALLBACK_OFFSET))(this);
 		}
 
-		::System::Void set_CallBack(::System::Action* value)
+		::System::Void set_CallBack(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATPLAYCOINPERFORMANCEEVENTPARAM_SET_CALLBACK_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATPLAYCOINPERFORMANCEEVENTPARAM_SET_CALLBACK_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_GETFEATURE_OFFSET UNITYSDK_OFFSET(0x182C6660)
-#define MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_GETSDKFOLDER_OFFSET UNITYSDK_OFFSET(0x182C65A0)
-#define MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_GET_BROADCASTURL_OFFSET UNITYSDK_OFFSET(0x182C6060)
-#define MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_GET_SERIALIZEDFROMFILE_OFFSET UNITYSDK_OFFSET(0x182C6090)
-#define MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_ISBROADCASTURL_OFFSET UNITYSDK_OFFSET(0x182C6620)
-#define MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x182C61D0)
-#define MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_SET_BROADCASTURL_OFFSET UNITYSDK_OFFSET(0x182C6080)
-#define MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_STRINGCONTAINSANY_OFFSET UNITYSDK_OFFSET(0x182C60A0)
-#define MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x182C68C0)
+#define MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_GETFEATURE_OFFSET UNITYSDK_OFFSET(0x18E20520)
+#define MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_GETSDKFOLDER_OFFSET UNITYSDK_OFFSET(0x18E20460)
+#define MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_GET_BROADCASTURL_OFFSET UNITYSDK_OFFSET(0x18E1FF20)
+#define MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_GET_SERIALIZEDFROMFILE_OFFSET UNITYSDK_OFFSET(0x18E1FF50)
+#define MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_ISBROADCASTURL_OFFSET UNITYSDK_OFFSET(0x18E204E0)
+#define MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x18E20090)
+#define MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_SET_BROADCASTURL_OFFSET UNITYSDK_OFFSET(0x18E1FF40)
+#define MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_STRINGCONTAINSANY_OFFSET UNITYSDK_OFFSET(0x18E1FF60)
+#define MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18E20730)
 
 namespace MiHoYo::SDK::Tools
 {
-	inline static constexpr unsigned int SettingsDocument_TypeDefinitionIndex = 35650;
+	inline static constexpr unsigned int SettingsDocument_TypeDefinitionIndex = 35950;
 
 	class SettingsDocument : public ::System::Object
 	{
@@ -55,9 +55,9 @@ namespace MiHoYo::SDK::Tools
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_GET_BROADCASTURL_OFFSET))(this);
 		}
 
-		::System::Void set_BroadCastURL(::System::String* value)
+		::System::Void set_BroadCastURL(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_SET_BROADCASTURL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_SET_BROADCASTURL_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_SerializedFromFile()
@@ -65,14 +65,14 @@ namespace MiHoYo::SDK::Tools
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_GET_SERIALIZEDFROMFILE_OFFSET))(this);
 		}
 
-		::System::Boolean StringContainsAny(::System::String* src, ::Il2CppArray<::System::String*>* keywords, ::System::Boolean ignoreCase)
+		::System::Boolean StringContainsAny(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::String*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_STRINGCONTAINSANY_OFFSET))(this, src, keywords, ignoreCase);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::String*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_STRINGCONTAINSANY_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Serialize(::System::Boolean isStoring)
+		::System::Boolean Serialize(::System::Boolean a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_SERIALIZE_OFFSET))(this, isStoring);
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_SERIALIZE_OFFSET))(this, a1);
 		}
 
 		::System::String* GetSdkFolder()
@@ -80,14 +80,14 @@ namespace MiHoYo::SDK::Tools
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_GETSDKFOLDER_OFFSET))(this);
 		}
 
-		::System::Boolean IsBroadcastUrl(::System::String* url)
+		::System::Boolean IsBroadcastUrl(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_ISBROADCASTURL_OFFSET))(this, url);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_ISBROADCASTURL_OFFSET))(this, a1);
 		}
 
-		::System::String* GetFeature(::System::String* featureKey)
+		::System::String* GetFeature(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_GETFEATURE_OFFSET))(this, featureKey);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TOOLS_SETTINGSDOCUMENT_GETFEATURE_OFFSET))(this, a1);
 		}
 	};
 }

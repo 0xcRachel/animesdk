@@ -4,17 +4,17 @@
 #include "unitysdk/MiHoYo/SDK/Win32Dll_THREADENTRY32.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_WIN32DLL_CLOSEHANDLE_OFFSET UNITYSDK_OFFSET(0x19FC4170)
-#define MIHOYO_SDK_WIN32DLL_CREATETOOLHELP32SNAPSHOT_OFFSET UNITYSDK_OFFSET(0x19FC3F00)
-#define MIHOYO_SDK_WIN32DLL_GETPROCESSMEMORYINFO_OFFSET UNITYSDK_OFFSET(0x19FC42C0)
-#define MIHOYO_SDK_WIN32DLL_OPENPROCESS_OFFSET UNITYSDK_OFFSET(0x19FC4230)
-#define MIHOYO_SDK_WIN32DLL_THREAD32FIRST_OFFSET UNITYSDK_OFFSET(0x19FC3FD0)
-#define MIHOYO_SDK_WIN32DLL_THREAD32NEXT_OFFSET UNITYSDK_OFFSET(0x19FC40A0)
-#define MIHOYO_SDK_WIN32DLL__CTOR_OFFSET UNITYSDK_OFFSET(0x19FC4390)
+#define MIHOYO_SDK_WIN32DLL_CLOSEHANDLE_OFFSET UNITYSDK_OFFSET(0x1B3EEBE0)
+#define MIHOYO_SDK_WIN32DLL_CREATETOOLHELP32SNAPSHOT_OFFSET UNITYSDK_OFFSET(0x1B3EE970)
+#define MIHOYO_SDK_WIN32DLL_GETPROCESSMEMORYINFO_OFFSET UNITYSDK_OFFSET(0x1B3EED30)
+#define MIHOYO_SDK_WIN32DLL_OPENPROCESS_OFFSET UNITYSDK_OFFSET(0x1B3EECA0)
+#define MIHOYO_SDK_WIN32DLL_THREAD32FIRST_OFFSET UNITYSDK_OFFSET(0x1B3EEA40)
+#define MIHOYO_SDK_WIN32DLL_THREAD32NEXT_OFFSET UNITYSDK_OFFSET(0x1B3EEB10)
+#define MIHOYO_SDK_WIN32DLL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3EEE00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Win32Dll_TypeDefinitionIndex = 6987;
+	inline static constexpr unsigned int Win32Dll_TypeDefinitionIndex = 7890;
 
 	class Win32Dll : public ::System::Object
 	{
@@ -24,34 +24,34 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN32DLL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::IntPtr CreateToolhelp32Snapshot(::System::UInt32 dwFlags, ::System::UInt32 th32ProcessID)
+		static ::System::IntPtr CreateToolhelp32Snapshot(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::IntPtr(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN32DLL_CREATETOOLHELP32SNAPSHOT_OFFSET))(dwFlags, th32ProcessID);
+			return ((::System::IntPtr(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN32DLL_CREATETOOLHELP32SNAPSHOT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean Thread32First(::System::IntPtr hSnapshot, ::MiHoYo::SDK::Win32Dll_THREADENTRY32& lpte)
+		static ::System::Boolean Thread32First(::System::IntPtr a1, ::MiHoYo::SDK::Win32Dll_THREADENTRY32& a2)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr, ::MiHoYo::SDK::Win32Dll_THREADENTRY32&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN32DLL_THREAD32FIRST_OFFSET))(hSnapshot, lpte);
+			return ((::System::Boolean(*)(::System::IntPtr, ::MiHoYo::SDK::Win32Dll_THREADENTRY32&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN32DLL_THREAD32FIRST_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean Thread32Next(::System::IntPtr hSnapshot, ::MiHoYo::SDK::Win32Dll_THREADENTRY32& lpte)
+		static ::System::Boolean Thread32Next(::System::IntPtr a1, ::MiHoYo::SDK::Win32Dll_THREADENTRY32& a2)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr, ::MiHoYo::SDK::Win32Dll_THREADENTRY32&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN32DLL_THREAD32NEXT_OFFSET))(hSnapshot, lpte);
+			return ((::System::Boolean(*)(::System::IntPtr, ::MiHoYo::SDK::Win32Dll_THREADENTRY32&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN32DLL_THREAD32NEXT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean CloseHandle(::System::IntPtr hObject)
+		static ::System::Boolean CloseHandle(::System::IntPtr a1)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN32DLL_CLOSEHANDLE_OFFSET))(hObject);
+			return ((::System::Boolean(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN32DLL_CLOSEHANDLE_OFFSET))(a1);
 		}
 
-		static ::System::IntPtr OpenProcess(::System::UInt32 dwDesiredAccess, ::System::Boolean bInheritHandle, ::System::Int32 dwProcessId)
+		static ::System::IntPtr OpenProcess(::System::UInt32 a1, ::System::Boolean a2, ::System::Int32 a3)
 		{
-			return ((::System::IntPtr(*)(::System::UInt32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN32DLL_OPENPROCESS_OFFSET))(dwDesiredAccess, bInheritHandle, dwProcessId);
+			return ((::System::IntPtr(*)(::System::UInt32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN32DLL_OPENPROCESS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetProcessMemoryInfo(::System::IntPtr hProcess, ::MiHoYo::SDK::Win32Dll_PROCESS_MEMORY_COUNTERS& counters, ::System::UInt32 size)
+		static ::System::Boolean GetProcessMemoryInfo(::System::IntPtr a1, ::MiHoYo::SDK::Win32Dll_PROCESS_MEMORY_COUNTERS& a2, ::System::UInt32 a3)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr, ::MiHoYo::SDK::Win32Dll_PROCESS_MEMORY_COUNTERS&, ::System::UInt32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN32DLL_GETPROCESSMEMORYINFO_OFFSET))(hProcess, counters, size);
+			return ((::System::Boolean(*)(::System::IntPtr, ::MiHoYo::SDK::Win32Dll_PROCESS_MEMORY_COUNTERS&, ::System::UInt32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN32DLL_GETPROCESSMEMORYINFO_OFFSET))(a1, a2, a3);
 		}
 	};
 }

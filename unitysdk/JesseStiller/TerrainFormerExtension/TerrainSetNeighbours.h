@@ -4,13 +4,13 @@
 
 namespace UnityEngine { class Terrain; }
 
-#define JESSESTILLER_TERRAINFORMEREXTENSION_TERRAINSETNEIGHBOURS_AWAKE_OFFSET UNITYSDK_OFFSET(0x17E08410)
-#define JESSESTILLER_TERRAINFORMEREXTENSION_TERRAINSETNEIGHBOURS_SETNEIGHBOURS_OFFSET UNITYSDK_OFFSET(0x17E084E0)
-#define JESSESTILLER_TERRAINFORMEREXTENSION_TERRAINSETNEIGHBOURS__CTOR_OFFSET UNITYSDK_OFFSET(0x17E08500)
+#define JESSESTILLER_TERRAINFORMEREXTENSION_TERRAINSETNEIGHBOURS_AWAKE_OFFSET UNITYSDK_OFFSET(0x144C3A30)
+#define JESSESTILLER_TERRAINFORMEREXTENSION_TERRAINSETNEIGHBOURS_SETNEIGHBOURS_OFFSET UNITYSDK_OFFSET(0x144C3B00)
+#define JESSESTILLER_TERRAINFORMEREXTENSION_TERRAINSETNEIGHBOURS__CTOR_OFFSET UNITYSDK_OFFSET(0x144C3B20)
 
 namespace JesseStiller::TerrainFormerExtension
 {
-	inline static constexpr unsigned int TerrainSetNeighbours_TypeDefinitionIndex = 40987;
+	inline static constexpr unsigned int TerrainSetNeighbours_TypeDefinitionIndex = 41790;
 
 	class TerrainSetNeighbours : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,9 +30,9 @@ namespace JesseStiller::TerrainFormerExtension
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JESSESTILLER_TERRAINFORMEREXTENSION_TERRAINSETNEIGHBOURS_AWAKE_OFFSET))(this);
 		}
 
-		::System::Void SetNeighbours(::UnityEngine::Terrain* leftTerrain, ::UnityEngine::Terrain* topTerrain, ::UnityEngine::Terrain* rightTerrain, ::UnityEngine::Terrain* bottomTerrain)
+		::System::Void SetNeighbours(::UnityEngine::Terrain* a1, ::UnityEngine::Terrain* a2, ::UnityEngine::Terrain* a3, ::UnityEngine::Terrain* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Terrain*, ::UnityEngine::Terrain*, ::UnityEngine::Terrain*, ::UnityEngine::Terrain*))((::PBYTE)hIl2Cpp + JESSESTILLER_TERRAINFORMEREXTENSION_TERRAINSETNEIGHBOURS_SETNEIGHBOURS_OFFSET))(this, leftTerrain, topTerrain, rightTerrain, bottomTerrain);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Terrain*, ::UnityEngine::Terrain*, ::UnityEngine::Terrain*, ::UnityEngine::Terrain*))((::PBYTE)hIl2Cpp + JESSESTILLER_TERRAINFORMEREXTENSION_TERRAINSETNEIGHBOURS_SETNEIGHBOURS_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

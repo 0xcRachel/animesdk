@@ -7,9 +7,9 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define STRUCT_2_4C8316D252AABDF5__CTOR_OFFSET UNITYSDK_OFFSET(0x20A06C0)
+#define STRUCT_2_4C8316D252AABDF5__CTOR_OFFSET UNITYSDK_OFFSET(0x37D19A0)
 
-inline static constexpr unsigned int Struct_2_4C8316D252AABDF5_TypeDefinitionIndex = 52818;
+inline static constexpr unsigned int Struct_2_4C8316D252AABDF5_TypeDefinitionIndex = 53524;
 
 struct alignas(8) Struct_2_4C8316D252AABDF5
 {

@@ -5,24 +5,24 @@
 class Class_1_F4BC0015EEAF0CC2;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__ADDPRESENT_B__32_1_OFFSET UNITYSDK_OFFSET(0x177E33D0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x177E3380)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x177E33C0)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__ADDPRESENT_B__32_1_OFFSET UNITYSDK_OFFSET(0x1977B770)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1977B720)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1977B760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightOrbManager___c_TypeDefinitionIndex = 59314;
+	inline static constexpr unsigned int GridFightOrbManager___c_TypeDefinitionIndex = 60249;
 
 	class GridFightOrbManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_1_F4BC0015EEAF0CC2*, ::System::Boolean>** StaticGet___9__32_1()
-		{
-			return (::System::Func_2<::Class_1_F4BC0015EEAF0CC2*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightOrbManager___c_TypeDefinitionIndex)->GetStaticField(0x2AE10);
-		}
 		static ::RPG::Client::GridFightOrbManager___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightOrbManager___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightOrbManager___c_TypeDefinitionIndex)->GetStaticField(0x2AE18);
+			return (::RPG::Client::GridFightOrbManager___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightOrbManager___c_TypeDefinitionIndex)->GetStaticField(0x30990);
+		}
+		static ::System::Func_2<::Class_1_F4BC0015EEAF0CC2*, ::System::Boolean>** StaticGet___9__32_1()
+		{
+			return (::System::Func_2<::Class_1_F4BC0015EEAF0CC2*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightOrbManager___c_TypeDefinitionIndex)->GetStaticField(0x30998);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _AddPresent_b__32_1(::Class_1_F4BC0015EEAF0CC2* x)
+		::System::Boolean _AddPresent_b__32_1(::Class_1_F4BC0015EEAF0CC2* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F4BC0015EEAF0CC2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER___C__ADDPRESENT_B__32_1_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_F4BC0015EEAF0CC2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER___C__ADDPRESENT_B__32_1_OFFSET))(this, a1);
 		}
 	};
 }

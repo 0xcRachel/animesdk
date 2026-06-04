@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/RogueFormulaBuffCountItemBase.h"
 
-#define RPG_CLIENT_ROGUEFORMULABUFFCOUNTSTATICITEM_GET_ACHIEVEDBUFFCOUNT_OFFSET UNITYSDK_OFFSET(0x17734B90)
-#define RPG_CLIENT_ROGUEFORMULABUFFCOUNTSTATICITEM_GET_ISBUFFCOUNTSATISFIED_OFFSET UNITYSDK_OFFSET(0x17734BB0)
-#define RPG_CLIENT_ROGUEFORMULABUFFCOUNTSTATICITEM_GET_REQUIREDBUFFCOUNT_OFFSET UNITYSDK_OFFSET(0x17734BA0)
-#define RPG_CLIENT_ROGUEFORMULABUFFCOUNTSTATICITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x17734B80)
+#define RPG_CLIENT_ROGUEFORMULABUFFCOUNTSTATICITEM_GET_ACHIEVEDBUFFCOUNT_OFFSET UNITYSDK_OFFSET(0x191D4F10)
+#define RPG_CLIENT_ROGUEFORMULABUFFCOUNTSTATICITEM_GET_ISBUFFCOUNTSATISFIED_OFFSET UNITYSDK_OFFSET(0x191D4F30)
+#define RPG_CLIENT_ROGUEFORMULABUFFCOUNTSTATICITEM_GET_REQUIREDBUFFCOUNT_OFFSET UNITYSDK_OFFSET(0x191D4F20)
+#define RPG_CLIENT_ROGUEFORMULABUFFCOUNTSTATICITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x191D4F00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueFormulaBuffCountStaticItem_TypeDefinitionIndex = 61915;
+	inline static constexpr unsigned int RogueFormulaBuffCountStaticItem_TypeDefinitionIndex = 62848;
 
 	class RogueFormulaBuffCountStaticItem : public ::RPG::Client::RogueFormulaBuffCountItemBase
 	{
 	public:
 		::System::Int32 _RequiredBuffCount_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::UInt32 buffTypeID, ::System::Int32 requiredBuffCount)
+		::System::Void _ctor(::System::UInt32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFORMULABUFFCOUNTSTATICITEM__CTOR_OFFSET))(this, buffTypeID, requiredBuffCount);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFORMULABUFFCOUNTSTATICITEM__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_AchievedBuffCount()

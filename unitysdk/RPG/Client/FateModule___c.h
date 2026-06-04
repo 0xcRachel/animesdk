@@ -5,24 +5,24 @@
 namespace RPG::Client { class ScheduleData; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_FATEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17920030)
-#define RPG_CLIENT_FATEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17920060)
-#define RPG_CLIENT_FATEMODULE___C___INITREQ_B__16_0_OFFSET UNITYSDK_OFFSET(0x17920070)
+#define RPG_CLIENT_FATEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18AC2540)
+#define RPG_CLIENT_FATEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC2570)
+#define RPG_CLIENT_FATEMODULE___C___INITREQ_B__16_0_OFFSET UNITYSDK_OFFSET(0x18AC2580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateModule___c_TypeDefinitionIndex = 58893;
+	inline static constexpr unsigned int FateModule___c_TypeDefinitionIndex = 59823;
 
 	class FateModule___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::FateModule___c** StaticGet___9()
-		{
-			return (::RPG::Client::FateModule___c**)Il2CppClass::FromTypeDefinitionIndex(FateModule___c_TypeDefinitionIndex)->GetStaticField(0x11200);
-		}
 		static ::System::Action_1<::RPG::Client::ScheduleData*>** StaticGet___9__16_0()
 		{
-			return (::System::Action_1<::RPG::Client::ScheduleData*>**)Il2CppClass::FromTypeDefinitionIndex(FateModule___c_TypeDefinitionIndex)->GetStaticField(0x11208);
+			return (::System::Action_1<::RPG::Client::ScheduleData*>**)Il2CppClass::FromTypeDefinitionIndex(FateModule___c_TypeDefinitionIndex)->GetStaticField(0x187B0);
+		}
+		static ::RPG::Client::FateModule___c** StaticGet___9()
+		{
+			return (::RPG::Client::FateModule___c**)Il2CppClass::FromTypeDefinitionIndex(FateModule___c_TypeDefinitionIndex)->GetStaticField(0x187B8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEMODULE___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void __InitReq_b__16_0(::RPG::Client::ScheduleData* _)
+		::System::Void __InitReq_b__16_0(::RPG::Client::ScheduleData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ScheduleData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEMODULE___C___INITREQ_B__16_0_OFFSET))(this, _);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ScheduleData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEMODULE___C___INITREQ_B__16_0_OFFSET))(this, a1);
 		}
 	};
 }

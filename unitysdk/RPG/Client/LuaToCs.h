@@ -7,25 +7,27 @@ namespace System { class Type; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LUATOCS_FULLGC_OFFSET UNITYSDK_OFFSET(0x1695C1D0)
-#define RPG_CLIENT_LUATOCS_GETISUSEINTERIORNETDISKDOWNLOADASSETBUNDLE_OFFSET UNITYSDK_OFFSET(0x1695C8A0)
-#define RPG_CLIENT_LUATOCS_GETLUAMEMROY_OFFSET UNITYSDK_OFFSET(0x1695C360)
-#define RPG_CLIENT_LUATOCS_INSTANTIATE_1_OFFSET UNITYSDK_OFFSET(0x1695C7A0)
-#define RPG_CLIENT_LUATOCS_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x1695C740)
-#define RPG_CLIENT_LUATOCS_ISSAMETYPE_OFFSET UNITYSDK_OFFSET(0x1695CB20)
-#define RPG_CLIENT_LUATOCS_LOAD_OFFSET UNITYSDK_OFFSET(0x1695CAC0)
-#define RPG_CLIENT_LUATOCS_MEMORYLEAKCHECK_OFFSET UNITYSDK_OFFSET(0x1695C5B0)
-#define RPG_CLIENT_LUATOCS_MEMORYLEAKREPORT_OFFSET UNITYSDK_OFFSET(0x1695C670)
-#define RPG_CLIENT_LUATOCS_PLAYAUDIO_OFFSET UNITYSDK_OFFSET(0x1695C9D0)
-#define RPG_CLIENT_LUATOCS_PLAYVIDEO_OFFSET UNITYSDK_OFFSET(0x1695C920)
-#define RPG_CLIENT_LUATOCS_SETISUSEINTERIORNETDISKDOWNLOADASSETBUNDLE_OFFSET UNITYSDK_OFFSET(0x1695C860)
-#define RPG_CLIENT_LUATOCS_SETUSELOCAL_OFFSET UNITYSDK_OFFSET(0x1695C8E0)
-#define RPG_CLIENT_LUATOCS_STARTMEMORYLEAKCHECK_OFFSET UNITYSDK_OFFSET(0x1695C4F0)
-#define RPG_CLIENT_LUATOCS_TRYONLYONCEINITPROFILE_OFFSET UNITYSDK_OFFSET(0x1695C7F0)
+#define RPG_CLIENT_LUATOCS_FULLGC_OFFSET UNITYSDK_OFFSET(0x151CFFD0)
+#define RPG_CLIENT_LUATOCS_GETISDOWNLOADALLTXTLANG_OFFSET UNITYSDK_OFFSET(0x151D0760)
+#define RPG_CLIENT_LUATOCS_GETISUSEINTERIORNETDISKDOWNLOADASSETBUNDLE_OFFSET UNITYSDK_OFFSET(0x151D06A0)
+#define RPG_CLIENT_LUATOCS_GETLUAMEMROY_OFFSET UNITYSDK_OFFSET(0x151D0160)
+#define RPG_CLIENT_LUATOCS_INSTANTIATE_1_OFFSET UNITYSDK_OFFSET(0x151D05A0)
+#define RPG_CLIENT_LUATOCS_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x151D0540)
+#define RPG_CLIENT_LUATOCS_ISSAMETYPE_OFFSET UNITYSDK_OFFSET(0x151D09A0)
+#define RPG_CLIENT_LUATOCS_LOAD_OFFSET UNITYSDK_OFFSET(0x151D0940)
+#define RPG_CLIENT_LUATOCS_MEMORYLEAKCHECK_OFFSET UNITYSDK_OFFSET(0x151D03B0)
+#define RPG_CLIENT_LUATOCS_MEMORYLEAKREPORT_OFFSET UNITYSDK_OFFSET(0x151D0470)
+#define RPG_CLIENT_LUATOCS_PLAYAUDIO_OFFSET UNITYSDK_OFFSET(0x151D0850)
+#define RPG_CLIENT_LUATOCS_PLAYVIDEO_OFFSET UNITYSDK_OFFSET(0x151D07A0)
+#define RPG_CLIENT_LUATOCS_SETDOWNLOADALLTXTLANG_OFFSET UNITYSDK_OFFSET(0x151D0720)
+#define RPG_CLIENT_LUATOCS_SETISUSEINTERIORNETDISKDOWNLOADASSETBUNDLE_OFFSET UNITYSDK_OFFSET(0x151D0660)
+#define RPG_CLIENT_LUATOCS_SETUSELOCAL_OFFSET UNITYSDK_OFFSET(0x151D06E0)
+#define RPG_CLIENT_LUATOCS_STARTMEMORYLEAKCHECK_OFFSET UNITYSDK_OFFSET(0x151D02F0)
+#define RPG_CLIENT_LUATOCS_TRYONLYONCEINITPROFILE_OFFSET UNITYSDK_OFFSET(0x151D05F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LuaToCs_TypeDefinitionIndex = 54818;
+	inline static constexpr unsigned int LuaToCs_TypeDefinitionIndex = 55545;
 
 	class LuaToCs : public ::System::Object
 	{
@@ -50,19 +52,19 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_MEMORYLEAKCHECK_OFFSET))();
 		}
 
-		static ::System::Void MemoryLeakReport(::System::Int32 level)
+		static ::System::Void MemoryLeakReport(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_MEMORYLEAKREPORT_OFFSET))(level);
+			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_MEMORYLEAKREPORT_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Object* Instantiate(::UnityEngine::Object* original, ::UnityEngine::Transform* parent, ::System::Boolean instantiateInWorldSpace)
+		static ::UnityEngine::Object* Instantiate(::UnityEngine::Object* a1, ::UnityEngine::Transform* a2, ::System::Boolean a3)
 		{
-			return ((::UnityEngine::Object*(*)(::UnityEngine::Object*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_INSTANTIATE_OFFSET))(original, parent, instantiateInWorldSpace);
+			return ((::UnityEngine::Object*(*)(::UnityEngine::Object*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_INSTANTIATE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Object* Instantiate_1(::UnityEngine::Object* original)
+		static ::UnityEngine::Object* Instantiate_1(::UnityEngine::Object* a1)
 		{
-			return ((::UnityEngine::Object*(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_INSTANTIATE_1_OFFSET))(original);
+			return ((::UnityEngine::Object*(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_INSTANTIATE_1_OFFSET))(a1);
 		}
 
 		static ::System::Void TryOnlyOnceInitProfile()
@@ -70,9 +72,9 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_TRYONLYONCEINITPROFILE_OFFSET))();
 		}
 
-		static ::System::Void SetIsUseInteriorNetdiskDownloadAssetBundle(::System::Boolean value)
+		static ::System::Void SetIsUseInteriorNetdiskDownloadAssetBundle(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_SETISUSEINTERIORNETDISKDOWNLOADASSETBUNDLE_OFFSET))(value);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_SETISUSEINTERIORNETDISKDOWNLOADASSETBUNDLE_OFFSET))(a1);
 		}
 
 		static ::System::Boolean GetIsUseInteriorNetdiskDownloadAssetBundle()
@@ -80,29 +82,39 @@ namespace RPG::Client
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_GETISUSEINTERIORNETDISKDOWNLOADASSETBUNDLE_OFFSET))();
 		}
 
-		static ::System::Void SetUseLocal(::System::Boolean value)
+		static ::System::Void SetUseLocal(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_SETUSELOCAL_OFFSET))(value);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_SETUSELOCAL_OFFSET))(a1);
 		}
 
-		static ::System::Void PlayVideo(::System::String* filePath)
+		static ::System::Void SetDownloadAllTxtLang(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_PLAYVIDEO_OFFSET))(filePath);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_SETDOWNLOADALLTXTLANG_OFFSET))(a1);
 		}
 
-		static ::System::Void PlayAudio(::System::String* eventId)
+		static ::System::Boolean GetIsDownloadAllTxtLang()
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_PLAYAUDIO_OFFSET))(eventId);
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_GETISDOWNLOADALLTXTLANG_OFFSET))();
 		}
 
-		static ::UnityEngine::Object* Load(::System::String* path, ::System::Type* systemTypeInstance)
+		static ::System::Void PlayVideo(::System::String* a1)
 		{
-			return ((::UnityEngine::Object*(*)(::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_LOAD_OFFSET))(path, systemTypeInstance);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_PLAYVIDEO_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsSameType(::System::Type* type1, ::System::Type* type2)
+		static ::System::Void PlayAudio(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::System::Type*, ::System::Type*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_ISSAMETYPE_OFFSET))(type1, type2);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_PLAYAUDIO_OFFSET))(a1);
+		}
+
+		static ::UnityEngine::Object* Load(::System::String* a1, ::System::Type* a2)
+		{
+			return ((::UnityEngine::Object*(*)(::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_LOAD_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean IsSameType(::System::Type* a1, ::System::Type* a2)
+		{
+			return ((::System::Boolean(*)(::System::Type*, ::System::Type*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUATOCS_ISSAMETYPE_OFFSET))(a1, a2);
 		}
 	};
 }

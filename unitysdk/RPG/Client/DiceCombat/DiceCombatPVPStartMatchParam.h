@@ -3,25 +3,25 @@
 #include "unitysdk/RPG/Client/DiceCombat/DiceCombatPVPMode.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPSTARTMATCHPARAM_GET_ISDIRECTSTARTGAME_OFFSET UNITYSDK_OFFSET(0x17A28D80)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPSTARTMATCHPARAM_GET_PVPMODE_OFFSET UNITYSDK_OFFSET(0x17A28D60)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPSTARTMATCHPARAM_SET_ISDIRECTSTARTGAME_OFFSET UNITYSDK_OFFSET(0x17A28D90)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPSTARTMATCHPARAM_SET_PVPMODE_OFFSET UNITYSDK_OFFSET(0x17A28D70)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPSTARTMATCHPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x17A28D50)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPSTARTMATCHPARAM_GET_ISDIRECTSTARTGAME_OFFSET UNITYSDK_OFFSET(0x18B82240)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPSTARTMATCHPARAM_GET_PVPMODE_OFFSET UNITYSDK_OFFSET(0x18B82220)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPSTARTMATCHPARAM_SET_ISDIRECTSTARTGAME_OFFSET UNITYSDK_OFFSET(0x18B82250)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPSTARTMATCHPARAM_SET_PVPMODE_OFFSET UNITYSDK_OFFSET(0x18B82230)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPSTARTMATCHPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18B82210)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatPVPStartMatchParam_TypeDefinitionIndex = 69889;
+	inline static constexpr unsigned int DiceCombatPVPStartMatchParam_TypeDefinitionIndex = 70701;
 
 	class DiceCombatPVPStartMatchParam : public ::System::Object
 	{
 	public:
-		::System::Boolean _IsDirectStartGame_k__BackingField; // 0x10
-		::RPG::Client::DiceCombat::DiceCombatPVPMode _PVPMode_k__BackingField; // 0x14
+		::RPG::Client::DiceCombat::DiceCombatPVPMode _PVPMode_k__BackingField; // 0x10
+		::System::Boolean _IsDirectStartGame_k__BackingField; // 0x14
 
-		::System::Void _ctor(::RPG::Client::DiceCombat::DiceCombatPVPMode pvpMode, ::System::Boolean isDirectStartGame)
+		::System::Void _ctor(::RPG::Client::DiceCombat::DiceCombatPVPMode a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatPVPMode, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPSTARTMATCHPARAM__CTOR_OFFSET))(this, pvpMode, isDirectStartGame);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatPVPMode, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPSTARTMATCHPARAM__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::DiceCombat::DiceCombatPVPMode get_PVPMode()
@@ -29,9 +29,9 @@ namespace RPG::Client::DiceCombat
 			return ((::RPG::Client::DiceCombat::DiceCombatPVPMode(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPSTARTMATCHPARAM_GET_PVPMODE_OFFSET))(this);
 		}
 
-		::System::Void set_PVPMode(::RPG::Client::DiceCombat::DiceCombatPVPMode value)
+		::System::Void set_PVPMode(::RPG::Client::DiceCombat::DiceCombatPVPMode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatPVPMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPSTARTMATCHPARAM_SET_PVPMODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatPVPMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPSTARTMATCHPARAM_SET_PVPMODE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsDirectStartGame()
@@ -39,9 +39,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPSTARTMATCHPARAM_GET_ISDIRECTSTARTGAME_OFFSET))(this);
 		}
 
-		::System::Void set_IsDirectStartGame(::System::Boolean value)
+		::System::Void set_IsDirectStartGame(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPSTARTMATCHPARAM_SET_ISDIRECTSTARTGAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPSTARTMATCHPARAM_SET_ISDIRECTSTARTGAME_OFFSET))(this, a1);
 		}
 	};
 }

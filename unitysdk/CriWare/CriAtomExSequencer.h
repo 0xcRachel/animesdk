@@ -6,30 +6,30 @@ namespace CriWare { class CriAtomExSequencer_EventCallback; }
 namespace CriWare { class CriAtomExSequencer_EventCbFunc; }
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXSEQUENCER_ADD_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1927C0B0)
-#define CRIWARE_CRIATOMEXSEQUENCER_REMOVE_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1927C1A0)
-#define CRIWARE_CRIATOMEXSEQUENCER_SETEVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x19284D00)
+#define CRIWARE_CRIATOMEXSEQUENCER_ADD_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x19E42A10)
+#define CRIWARE_CRIATOMEXSEQUENCER_REMOVE_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x19E42B10)
+#define CRIWARE_CRIATOMEXSEQUENCER_SETEVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x19E4B410)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExSequencer_TypeDefinitionIndex = 36741;
+	inline static constexpr unsigned int CriAtomExSequencer_TypeDefinitionIndex = 37041;
 
 	class CriAtomExSequencer : public ::System::Object
 	{
 	public:
-		static ::System::Void add_OnCallback(::CriWare::CriAtomExSequencer_EventCallback* value)
+		static ::System::Void add_OnCallback(::CriWare::CriAtomExSequencer_EventCallback* a1)
 		{
-			return ((::System::Void(*)(::CriWare::CriAtomExSequencer_EventCallback*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSEQUENCER_ADD_ONCALLBACK_OFFSET))(value);
+			return ((::System::Void(*)(::CriWare::CriAtomExSequencer_EventCallback*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSEQUENCER_ADD_ONCALLBACK_OFFSET))(a1);
 		}
 
-		static ::System::Void remove_OnCallback(::CriWare::CriAtomExSequencer_EventCallback* value)
+		static ::System::Void remove_OnCallback(::CriWare::CriAtomExSequencer_EventCallback* a1)
 		{
-			return ((::System::Void(*)(::CriWare::CriAtomExSequencer_EventCallback*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSEQUENCER_REMOVE_ONCALLBACK_OFFSET))(value);
+			return ((::System::Void(*)(::CriWare::CriAtomExSequencer_EventCallback*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSEQUENCER_REMOVE_ONCALLBACK_OFFSET))(a1);
 		}
 
-		static ::System::Void SetEventCallback(::CriWare::CriAtomExSequencer_EventCbFunc* func, ::System::String* separator)
+		static ::System::Void SetEventCallback(::CriWare::CriAtomExSequencer_EventCbFunc* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::CriWare::CriAtomExSequencer_EventCbFunc*, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSEQUENCER_SETEVENTCALLBACK_OFFSET))(func, separator);
+			return ((::System::Void(*)(::CriWare::CriAtomExSequencer_EventCbFunc*, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSEQUENCER_SETEVENTCALLBACK_OFFSET))(a1, a2);
 		}
 	};
 }

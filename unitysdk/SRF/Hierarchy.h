@@ -6,26 +6,26 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Transform; }
 
-#define SRF_HIERARCHY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1A314250)
-#define SRF_HIERARCHY_GET_OFFSET UNITYSDK_OFFSET(0x1A314280)
-#define SRF_HIERARCHY_RUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1A3145A0)
-#define SRF_HIERARCHY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A314650)
-#define SRF_HIERARCHY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A314640)
+#define SRF_HIERARCHY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1B2C9710)
+#define SRF_HIERARCHY_GET_OFFSET UNITYSDK_OFFSET(0x1B2C9740)
+#define SRF_HIERARCHY_RUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B2C9A50)
+#define SRF_HIERARCHY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B2C9AF0)
+#define SRF_HIERARCHY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2C9AE0)
 
 namespace SRF
 {
-	inline static constexpr unsigned int Hierarchy_TypeDefinitionIndex = 33285;
+	inline static constexpr unsigned int Hierarchy_TypeDefinitionIndex = 33567;
 
 	class Hierarchy : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Char>** StaticGet_Seperator()
-		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(Hierarchy_TypeDefinitionIndex)->GetStaticField(0x4F440);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>** StaticGet_Cache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Hierarchy_TypeDefinitionIndex)->GetStaticField(0x4F448);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Hierarchy_TypeDefinitionIndex)->GetStaticField(0x44740);
+		}
+		static ::Il2CppArray<::System::Char>** StaticGet_Seperator()
+		{
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(Hierarchy_TypeDefinitionIndex)->GetStaticField(0x44748);
 		}
 
 		::System::Void _ctor()
@@ -38,14 +38,14 @@ namespace SRF
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SRF_HIERARCHY__CCTOR_OFFSET))();
 		}
 
-		::UnityEngine::Transform* get_Item(::System::String* key)
+		::UnityEngine::Transform* get_Item(::System::String* a1)
 		{
-			return ((::UnityEngine::Transform*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRF_HIERARCHY_GET_ITEM_OFFSET))(this, key);
+			return ((::UnityEngine::Transform*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRF_HIERARCHY_GET_ITEM_OFFSET))(this, a1);
 		}
 
-		static ::UnityEngine::Transform* Get(::System::String* key)
+		static ::UnityEngine::Transform* Get(::System::String* a1)
 		{
-			return ((::UnityEngine::Transform*(*)(::System::String*))((::PBYTE)hIl2Cpp + SRF_HIERARCHY_GET_OFFSET))(key);
+			return ((::UnityEngine::Transform*(*)(::System::String*))((::PBYTE)hIl2Cpp + SRF_HIERARCHY_GET_OFFSET))(a1);
 		}
 
 		static ::System::Void RuntimeInitialize()

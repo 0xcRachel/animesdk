@@ -6,33 +6,33 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CLOCKPARKCHECKPOINTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x194DAE00)
-#define RPG_GAMECORE_CLOCKPARKCHECKPOINTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x194DB5E0)
+#define RPG_GAMECORE_CLOCKPARKCHECKPOINTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A3150B0)
+#define RPG_GAMECORE_CLOCKPARKCHECKPOINTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3158A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkCheckPointRow_TypeDefinitionIndex = 10670;
+	inline static constexpr unsigned int ClockParkCheckPointRow_TypeDefinitionIndex = 10726;
 
 	class ClockParkCheckPointRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::Client::TextID>* CheckFailTextList; // 0x10
 		::Il2CppArray<::RPG::Client::TextID>* CheckWinTextList; // 0x18
-		::RPG::Client::TextID CheckPoint; // 0x20
-		::System::UInt32 CheckParam2; // 0x30
-		::System::UInt32 CheckParam1; // 0x34
-		::System::UInt32 CheckPointID; // 0x38
-		::RPG::GameCore::ClockParkCheckPointType CheckPointType; // 0x3C
+		::System::UInt32 CheckParam2; // 0x20
+		::System::UInt32 CheckPointID; // 0x24
+		::System::UInt32 CheckParam1; // 0x28
+		::RPG::Client::TextID CheckPoint; // 0x30
 		::System::UInt32 CheckParam3; // 0x40
+		::RPG::GameCore::ClockParkCheckPointType CheckPointType; // 0x44
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKCHECKPOINTROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ClockParkCheckPointRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClockParkCheckPointRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClockParkCheckPointRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKCHECKPOINTROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClockParkCheckPointRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKCHECKPOINTROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

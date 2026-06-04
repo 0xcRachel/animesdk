@@ -13,33 +13,33 @@ namespace RPG::CustomRP { class POSMParams; }
 namespace UnityEngine { class Light; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_CALCAABBAUTO_OFFSET UNITYSDK_OFFSET(0x1525BF20)
-#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_COPY_OFFSET UNITYSDK_OFFSET(0x1525BDB0)
-#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_GETWEIGHT_OFFSET UNITYSDK_OFFSET(0x1525B930)
-#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_GET_POSMLIGHT_OFFSET UNITYSDK_OFFSET(0x1525C420)
-#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_GET_POSMPARAMS_OFFSET UNITYSDK_OFFSET(0x1525C460)
-#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_GET_POSMROTATION_OFFSET UNITYSDK_OFFSET(0x1525C490)
-#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_GET_USEBOUND_OFFSET UNITYSDK_OFFSET(0x1525C470)
-#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_INTERSECTS_OFFSET UNITYSDK_OFFSET(0x1525B830)
-#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_ISGZIMOVALID_OFFSET UNITYSDK_OFFSET(0x1525BF00)
-#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_ISINTERSECAABB_OFFSET UNITYSDK_OFFSET(0x1525AF10)
-#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1525A6E0)
-#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_SET_POSMLIGHT_OFFSET UNITYSDK_OFFSET(0x1525C430)
-#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME__CCTOR_OFFSET UNITYSDK_OFFSET(0x1525C4D0)
-#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1525C4A0)
-#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME__ISPOINTINBOUNDS_OFFSET UNITYSDK_OFFSET(0x1525B740)
-#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME__UPDATEPOSMPARAMS_OFFSET UNITYSDK_OFFSET(0x1525A6F0)
+#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_CALCAABBAUTO_OFFSET UNITYSDK_OFFSET(0x156FDF20)
+#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_COPY_OFFSET UNITYSDK_OFFSET(0x156FDDB0)
+#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_GETWEIGHT_OFFSET UNITYSDK_OFFSET(0x156FD940)
+#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_GET_POSMLIGHT_OFFSET UNITYSDK_OFFSET(0x156FE410)
+#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_GET_POSMPARAMS_OFFSET UNITYSDK_OFFSET(0x156FE450)
+#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_GET_POSMROTATION_OFFSET UNITYSDK_OFFSET(0x156FE480)
+#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_GET_USEBOUND_OFFSET UNITYSDK_OFFSET(0x156FE460)
+#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_INTERSECTS_OFFSET UNITYSDK_OFFSET(0x156FD850)
+#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_ISGZIMOVALID_OFFSET UNITYSDK_OFFSET(0x156FDF00)
+#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_ISINTERSECAABB_OFFSET UNITYSDK_OFFSET(0x156FCF80)
+#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x156FC740)
+#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_SET_POSMLIGHT_OFFSET UNITYSDK_OFFSET(0x156FE420)
+#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME__CCTOR_OFFSET UNITYSDK_OFFSET(0x156FE4C0)
+#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x156FE490)
+#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME__ISPOINTINBOUNDS_OFFSET UNITYSDK_OFFSET(0x156FD770)
+#define RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME__UPDATEPOSMPARAMS_OFFSET UNITYSDK_OFFSET(0x156FC750)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPLocalLightVolume_TypeDefinitionIndex = 35067;
+	inline static constexpr unsigned int CRPLocalLightVolume_TypeDefinitionIndex = 35353;
 
 	class CRPLocalLightVolume : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Vector3* StaticGet_temp()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(CRPLocalLightVolume_TypeDefinitionIndex)->GetStaticField(0x10190);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(CRPLocalLightVolume_TypeDefinitionIndex)->GetStaticField(0x10B80);
 		}
 		::System::Boolean useBoundsRender; // 0x10
 		::RPG::CustomRP::POSMType type; // 0x14
@@ -67,24 +67,24 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_ONENABLE_OFFSET))(this);
 		}
 
-		::System::Boolean IsIntersecAABB(::RPG::CustomRP::AABB& casterAABB)
+		::System::Boolean IsIntersecAABB(::RPG::CustomRP::AABB& a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::CustomRP::AABB&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_ISINTERSECAABB_OFFSET))(this, casterAABB);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::CustomRP::AABB&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_ISINTERSECAABB_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Intersects(::UnityEngine::Vector3& pos)
+		::System::Boolean Intersects(::UnityEngine::Vector3& a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_INTERSECTS_OFFSET))(this, pos);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_INTERSECTS_OFFSET))(this, a1);
 		}
 
-		::System::Single GetWeight(::UnityEngine::Vector3& location, ::System::Single radius)
+		::System::Single GetWeight(::UnityEngine::Vector3& a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_GETWEIGHT_OFFSET))(this, location, radius);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_GETWEIGHT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Copy(::UnityEngine::Rendering::LightVolumeInfo& lvi, ::UnityEngine::Rendering::CRPLightInfoCommon& lightInfo)
+		::System::Void Copy(::UnityEngine::Rendering::LightVolumeInfo& a1, ::UnityEngine::Rendering::CRPLightInfoCommon& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::LightVolumeInfo&, ::UnityEngine::Rendering::CRPLightInfoCommon&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_COPY_OFFSET))(this, lvi, lightInfo);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::LightVolumeInfo&, ::UnityEngine::Rendering::CRPLightInfoCommon&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_COPY_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean IsGzimoValid()
@@ -92,9 +92,9 @@ namespace RPG::CustomRP
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_ISGZIMOVALID_OFFSET))(this);
 		}
 
-		::System::Void CalcAABBAuto(::UnityEngine::Light* light, ::UnityEngine::Transform* trans)
+		::System::Void CalcAABBAuto(::UnityEngine::Light* a1, ::UnityEngine::Transform* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Light*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_CALCAABBAUTO_OFFSET))(this, light, trans);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Light*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_CALCAABBAUTO_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Light* get_POSMLight()
@@ -102,9 +102,9 @@ namespace RPG::CustomRP
 			return ((::UnityEngine::Light*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_GET_POSMLIGHT_OFFSET))(this);
 		}
 
-		::System::Void set_POSMLight(::UnityEngine::Light* value)
+		::System::Void set_POSMLight(::UnityEngine::Light* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Light*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_SET_POSMLIGHT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Light*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_SET_POSMLIGHT_OFFSET))(this, a1);
 		}
 
 		::RPG::CustomRP::POSMParams* get_posmParams()
@@ -117,9 +117,9 @@ namespace RPG::CustomRP
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME_GET_USEBOUND_OFFSET))(this);
 		}
 
-		::System::Boolean _IsPointInBounds(::UnityEngine::Vector3& worldPos)
+		::System::Boolean _IsPointInBounds(::UnityEngine::Vector3& a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME__ISPOINTINBOUNDS_OFFSET))(this, worldPos);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLOCALLIGHTVOLUME__ISPOINTINBOUNDS_OFFSET))(this, a1);
 		}
 
 		::System::Void _UpdatePosmParams()

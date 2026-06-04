@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsCharacterWeaknessActivated; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FF25C66139B96961_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10AFEC40)
-#define CLASS_3_FF25C66139B96961__CTOR_OFFSET UNITYSDK_OFFSET(0x10AFEC10)
+#define CLASS_3_FF25C66139B96961_EVALUATE_OFFSET UNITYSDK_OFFSET(0x135158B0)
+#define CLASS_3_FF25C66139B96961__CTOR_OFFSET UNITYSDK_OFFSET(0x13515880)
 
-inline static constexpr unsigned int Class_3_FF25C66139B96961_TypeDefinitionIndex = 50415;
+inline static constexpr unsigned int Class_3_FF25C66139B96961_TypeDefinitionIndex = 51080;
 
 class Class_3_FF25C66139B96961 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsCharacterWeaknessActivated*>
 {

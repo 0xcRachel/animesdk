@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTUREAICONTROLLERCONFIG_METHOD_2_FBE0A6606F965EBA_OFFSET UNITYSDK_OFFSET(0x18C63F20)
-#define RPG_GAMECORE_ADVENTUREAICONTROLLERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18C642A0)
+#define RPG_GAMECORE_ADVENTUREAICONTROLLERCONFIG_METHOD_2_FBE0A6606F965EBA_OFFSET UNITYSDK_OFFSET(0x19BFADF0)
+#define RPG_GAMECORE_ADVENTUREAICONTROLLERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19BFB170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureAIControllerConfig_TypeDefinitionIndex = 16544;
+	inline static constexpr unsigned int AdventureAIControllerConfig_TypeDefinitionIndex = 16574;
 
 	class AdventureAIControllerConfig : public ::RPG::GameCore::JsonConfig
 	{

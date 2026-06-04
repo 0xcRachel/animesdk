@@ -4,14 +4,17 @@
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPARECHALLENGELEFT_METHOD_4_09AA9500D6671338_OFFSET UNITYSDK_OFFSET(0x19ABE750)
-#define RPG_GAMECORE_BYCOMPARECHALLENGELEFT_METHOD_4_1296E9EEAAEB2D24_OFFSET UNITYSDK_OFFSET(0x19ABE680)
-#define RPG_GAMECORE_BYCOMPARECHALLENGELEFT__CTOR_OFFSET UNITYSDK_OFFSET(0x19ABE700)
+#define RPG_GAMECORE_BYCOMPARECHALLENGELEFT_METHOD_4_09AA9500D6671338_OFFSET UNITYSDK_OFFSET(0x18FC5E30)
+#define RPG_GAMECORE_BYCOMPARECHALLENGELEFT_METHOD_4_1296E9EEAAEB2D24_OFFSET UNITYSDK_OFFSET(0x18FC5D60)
+#define RPG_GAMECORE_BYCOMPARECHALLENGELEFT_METHOD_4_71FEBAA2AFBE106C_OFFSET UNITYSDK_OFFSET(0x18FC6070)
+#define RPG_GAMECORE_BYCOMPARECHALLENGELEFT_METHOD_4_C10B9A98BE3CA651_OFFSET UNITYSDK_OFFSET(0x18FC5FF0)
+#define RPG_GAMECORE_BYCOMPARECHALLENGELEFT__CTOR_OFFSET UNITYSDK_OFFSET(0x18FC5DE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareChallengeLeft_TypeDefinitionIndex = 22492;
+	inline static constexpr unsigned int ByCompareChallengeLeft_TypeDefinitionIndex = 22241;
 
 	class ByCompareChallengeLeft : public ::RPG::GameCore::PredicateConfig
 	{
@@ -32,6 +35,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_09AA9500D6671338(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareChallengeLeft* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareChallengeLeft*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECHALLENGELEFT_METHOD_4_09AA9500D6671338_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_C10B9A98BE3CA651(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareChallengeLeft*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareChallengeLeft*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECHALLENGELEFT_METHOD_4_C10B9A98BE3CA651_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_71FEBAA2AFBE106C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareChallengeLeft* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareChallengeLeft*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECHALLENGELEFT_METHOD_4_71FEBAA2AFBE106C_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,22 +4,22 @@
 #include "unitysdk/UnityEngine/AI/NavMeshPathStatus.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_AI_NAVMESHPATH_CALCULATECORNERSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A706670)
-#define UNITYENGINE_AI_NAVMESHPATH_CALCULATECORNERS_OFFSET UNITYSDK_OFFSET(0x1A706690)
-#define UNITYENGINE_AI_NAVMESHPATH_CLEARCORNERSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A706680)
-#define UNITYENGINE_AI_NAVMESHPATH_CLEARCORNERS_OFFSET UNITYSDK_OFFSET(0x1A704860)
-#define UNITYENGINE_AI_NAVMESHPATH_DESTROYNAVMESHPATH_OFFSET UNITYSDK_OFFSET(0x1A706640)
-#define UNITYENGINE_AI_NAVMESHPATH_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A7065C0)
-#define UNITYENGINE_AI_NAVMESHPATH_GETCORNERSNONALLOCEXT_INTERNAL_WITHMASK_OFFSET UNITYSDK_OFFSET(0x1A706660)
-#define UNITYENGINE_AI_NAVMESHPATH_GETCORNERSNONALLOCEXT_OFFSET UNITYSDK_OFFSET(0x1A706650)
-#define UNITYENGINE_AI_NAVMESHPATH_GET_CORNERS_OFFSET UNITYSDK_OFFSET(0x1A7066C0)
-#define UNITYENGINE_AI_NAVMESHPATH_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x1A7066F0)
-#define UNITYENGINE_AI_NAVMESHPATH_INITIALIZENAVMESHPATH_OFFSET UNITYSDK_OFFSET(0x1A7065B0)
-#define UNITYENGINE_AI_NAVMESHPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1A705300)
+#define UNITYENGINE_AI_NAVMESHPATH_CALCULATECORNERSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B526490)
+#define UNITYENGINE_AI_NAVMESHPATH_CALCULATECORNERS_OFFSET UNITYSDK_OFFSET(0x1B5264B0)
+#define UNITYENGINE_AI_NAVMESHPATH_CLEARCORNERSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B5264A0)
+#define UNITYENGINE_AI_NAVMESHPATH_CLEARCORNERS_OFFSET UNITYSDK_OFFSET(0x1B5245D0)
+#define UNITYENGINE_AI_NAVMESHPATH_DESTROYNAVMESHPATH_OFFSET UNITYSDK_OFFSET(0x1B526460)
+#define UNITYENGINE_AI_NAVMESHPATH_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1B5263E0)
+#define UNITYENGINE_AI_NAVMESHPATH_GETCORNERSNONALLOCEXT_INTERNAL_WITHMASK_OFFSET UNITYSDK_OFFSET(0x1B526480)
+#define UNITYENGINE_AI_NAVMESHPATH_GETCORNERSNONALLOCEXT_OFFSET UNITYSDK_OFFSET(0x1B526470)
+#define UNITYENGINE_AI_NAVMESHPATH_GET_CORNERS_OFFSET UNITYSDK_OFFSET(0x1B5264E0)
+#define UNITYENGINE_AI_NAVMESHPATH_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x1B526510)
+#define UNITYENGINE_AI_NAVMESHPATH_INITIALIZENAVMESHPATH_OFFSET UNITYSDK_OFFSET(0x1B5263D0)
+#define UNITYENGINE_AI_NAVMESHPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1B525110)
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMeshPath_TypeDefinitionIndex = 5365;
+	inline static constexpr unsigned int NavMeshPath_TypeDefinitionIndex = 5642;
 
 	class NavMeshPath : public ::System::Object
 	{
@@ -37,9 +37,9 @@ namespace UnityEngine::AI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHPATH_FINALIZE_OFFSET))(this);
 		}
 
-		::System::Int32 GetCornersNonAllocExt(::Il2CppArray<::UnityEngine::Vector3>* corners, ::Il2CppArray<::System::UInt64>* refs, ::Il2CppArray<::System::Byte>* flags, ::Il2CppArray<::System::UInt32>* areaMasks)
+		::System::Int32 GetCornersNonAllocExt(::Il2CppArray<::UnityEngine::Vector3>* a1, ::Il2CppArray<::System::UInt64>* a2, ::Il2CppArray<::System::Byte>* a3, ::Il2CppArray<::System::UInt32>* a4)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::System::UInt64>*, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHPATH_GETCORNERSNONALLOCEXT_OFFSET))(this, corners, refs, flags, areaMasks);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::System::UInt64>*, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHPATH_GETCORNERSNONALLOCEXT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		static ::System::IntPtr InitializeNavMeshPath()
@@ -47,14 +47,14 @@ namespace UnityEngine::AI
 			return ((::System::IntPtr(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHPATH_INITIALIZENAVMESHPATH_OFFSET))();
 		}
 
-		static ::System::Void DestroyNavMeshPath(::System::IntPtr ptr)
+		static ::System::Void DestroyNavMeshPath(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHPATH_DESTROYNAVMESHPATH_OFFSET))(ptr);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHPATH_DESTROYNAVMESHPATH_OFFSET))(a1);
 		}
 
-		::System::Int32 GetCornersNonAllocExt_Internal_WithMask(::Il2CppArray<::UnityEngine::Vector3>* corners, ::Il2CppArray<::System::UInt64>* refs, ::Il2CppArray<::System::Byte>* flags, ::Il2CppArray<::System::UInt32>* areaMasks)
+		::System::Int32 GetCornersNonAllocExt_Internal_WithMask(::Il2CppArray<::UnityEngine::Vector3>* a1, ::Il2CppArray<::System::UInt64>* a2, ::Il2CppArray<::System::Byte>* a3, ::Il2CppArray<::System::UInt32>* a4)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::System::UInt64>*, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHPATH_GETCORNERSNONALLOCEXT_INTERNAL_WITHMASK_OFFSET))(this, corners, refs, flags, areaMasks);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::System::UInt64>*, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHPATH_GETCORNERSNONALLOCEXT_INTERNAL_WITHMASK_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::Il2CppArray<::UnityEngine::Vector3>* CalculateCornersInternal()

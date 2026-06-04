@@ -2,78 +2,78 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_B019EAD7E127C874;
+class Class_1_B019EAD7E127C874_1;
 namespace RPG::Client { class ChimeraBattleChimeraRecordData; }
 namespace RPG::Client { class ChimeraBattleWorkRecordData; }
 namespace RPG::Client { class ChimeraDoingRoundData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x177A7820)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GETCHIMERACHIMERARECORD_OFFSET UNITYSDK_OFFSET(0x177A7D30)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GETCHIMERAWORKRECORD_OFFSET UNITYSDK_OFFSET(0x177A7E80)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_CHIMERARECORDS_OFFSET UNITYSDK_OFFSET(0x177A8300)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_COSTTIMEINSECONDS_OFFSET UNITYSDK_OFFSET(0x177A8340)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_STARTBATTLETIMESTAMP_OFFSET UNITYSDK_OFFSET(0x177A8400)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_TOTALAUTOTURNS_OFFSET UNITYSDK_OFFSET(0x177A83A0)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_TOTALDAMAGETOWORK_OFFSET UNITYSDK_OFFSET(0x177A83C0)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_TOTALQUICKERAUTOTURNS_OFFSET UNITYSDK_OFFSET(0x177A8380)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_TOTALQUICKERTURNS_OFFSET UNITYSDK_OFFSET(0x177A8360)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_TOTALTURNS_OFFSET UNITYSDK_OFFSET(0x177A83E0)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_WORKRECORDS_OFFSET UNITYSDK_OFFSET(0x177A8320)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_CHIMERARECORDS_OFFSET UNITYSDK_OFFSET(0x177A8310)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_COSTTIMEINSECONDS_OFFSET UNITYSDK_OFFSET(0x177A8350)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_STARTBATTLETIMESTAMP_OFFSET UNITYSDK_OFFSET(0x177A8410)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_TOTALAUTOTURNS_OFFSET UNITYSDK_OFFSET(0x177A83B0)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_TOTALDAMAGETOWORK_OFFSET UNITYSDK_OFFSET(0x177A83D0)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_TOTALQUICKERAUTOTURNS_OFFSET UNITYSDK_OFFSET(0x177A8390)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_TOTALQUICKERTURNS_OFFSET UNITYSDK_OFFSET(0x177A8370)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_TOTALTURNS_OFFSET UNITYSDK_OFFSET(0x177A83F0)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_WORKRECORDS_OFFSET UNITYSDK_OFFSET(0x177A8330)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_TURNUPDATE_OFFSET UNITYSDK_OFFSET(0x177A7FD0)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_UPDATEDAMAGETOWORK_OFFSET UNITYSDK_OFFSET(0x177A82B0)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA_WRITETOREQ_OFFSET UNITYSDK_OFFSET(0x177A7CE0)
-#define RPG_CLIENT_CHIMERABATTLERECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x177A7AD0)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x18A65C00)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GETCHIMERACHIMERARECORD_OFFSET UNITYSDK_OFFSET(0x18A661A0)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GETCHIMERAWORKRECORD_OFFSET UNITYSDK_OFFSET(0x18A662C0)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_CHIMERARECORDS_OFFSET UNITYSDK_OFFSET(0x18A66710)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_COSTTIMEINSECONDS_OFFSET UNITYSDK_OFFSET(0x18A66750)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_STARTBATTLETIMESTAMP_OFFSET UNITYSDK_OFFSET(0x18A66810)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_TOTALAUTOTURNS_OFFSET UNITYSDK_OFFSET(0x18A667B0)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_TOTALDAMAGETOWORK_OFFSET UNITYSDK_OFFSET(0x18A667D0)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_TOTALQUICKERAUTOTURNS_OFFSET UNITYSDK_OFFSET(0x18A66790)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_TOTALQUICKERTURNS_OFFSET UNITYSDK_OFFSET(0x18A66770)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_TOTALTURNS_OFFSET UNITYSDK_OFFSET(0x18A667F0)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_WORKRECORDS_OFFSET UNITYSDK_OFFSET(0x18A66730)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_CHIMERARECORDS_OFFSET UNITYSDK_OFFSET(0x18A66720)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_COSTTIMEINSECONDS_OFFSET UNITYSDK_OFFSET(0x18A66760)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_STARTBATTLETIMESTAMP_OFFSET UNITYSDK_OFFSET(0x18A66820)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_TOTALAUTOTURNS_OFFSET UNITYSDK_OFFSET(0x18A667C0)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_TOTALDAMAGETOWORK_OFFSET UNITYSDK_OFFSET(0x18A667E0)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_TOTALQUICKERAUTOTURNS_OFFSET UNITYSDK_OFFSET(0x18A667A0)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_TOTALQUICKERTURNS_OFFSET UNITYSDK_OFFSET(0x18A66780)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_TOTALTURNS_OFFSET UNITYSDK_OFFSET(0x18A66800)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_WORKRECORDS_OFFSET UNITYSDK_OFFSET(0x18A66740)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_TURNUPDATE_OFFSET UNITYSDK_OFFSET(0x18A663E0)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_UPDATEDAMAGETOWORK_OFFSET UNITYSDK_OFFSET(0x18A666C0)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA_WRITETOREQ_OFFSET UNITYSDK_OFFSET(0x18A66150)
+#define RPG_CLIENT_CHIMERABATTLERECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18A65F40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraBattleRecordData_TypeDefinitionIndex = 58458;
+	inline static constexpr unsigned int ChimeraBattleRecordData_TypeDefinitionIndex = 59388;
 
 	class ChimeraBattleRecordData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::ChimeraBattleWorkRecordData*>* _WorkRecords_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::ChimeraBattleChimeraRecordData*>* _ChimeraRecords_k__BackingField; // 0x18
-		::System::UInt32 _TotalDamageToWork_k__BackingField; // 0x20
-		::System::UInt32 _TotalQuickerTurns_k__BackingField; // 0x24
-		::System::UInt32 _TotalAutoTurns_k__BackingField; // 0x28
-		::System::UInt32 _TotalTurns_k__BackingField; // 0x2C
-		::System::UInt32 _TotalQuickerAutoTurns_k__BackingField; // 0x30
-		::System::UInt32 _CostTimeInSeconds_k__BackingField; // 0x34
-		::System::Single _StartBattleTimeStamp_k__BackingField; // 0x38
+		::System::Collections::Generic::List_1<::RPG::Client::ChimeraBattleChimeraRecordData*>* _ChimeraRecords_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ChimeraBattleWorkRecordData*>* _WorkRecords_k__BackingField; // 0x18
+		::System::UInt32 _CostTimeInSeconds_k__BackingField; // 0x20
+		::System::Single _StartBattleTimeStamp_k__BackingField; // 0x24
+		::System::UInt32 _TotalQuickerTurns_k__BackingField; // 0x28
+		::System::UInt32 _TotalAutoTurns_k__BackingField; // 0x2C
+		::System::UInt32 _TotalDamageToWork_k__BackingField; // 0x30
+		::System::UInt32 _TotalTurns_k__BackingField; // 0x34
+		::System::UInt32 _TotalQuickerAutoTurns_k__BackingField; // 0x38
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ChimeraBattleRecordData* Create(::RPG::Client::ChimeraDoingRoundData* doingRoundData)
+		static ::RPG::Client::ChimeraBattleRecordData* Create(::RPG::Client::ChimeraDoingRoundData* a1)
 		{
-			return ((::RPG::Client::ChimeraBattleRecordData*(*)(::RPG::Client::ChimeraDoingRoundData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_CREATE_OFFSET))(doingRoundData);
+			return ((::RPG::Client::ChimeraBattleRecordData*(*)(::RPG::Client::ChimeraDoingRoundData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_CREATE_OFFSET))(a1);
 		}
 
-		::System::Void WriteToReq(::Class_1_B019EAD7E127C874* sttRef)
+		::System::Void WriteToReq(::Class_1_B019EAD7E127C874_1* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_B019EAD7E127C874*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_WRITETOREQ_OFFSET))(this, sttRef);
+			return ((::System::Void(*)(::PVOID, ::Class_1_B019EAD7E127C874_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_WRITETOREQ_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::ChimeraBattleChimeraRecordData* GetChimeraChimeraRecord(::System::UInt32 chimeraID)
+		::RPG::Client::ChimeraBattleChimeraRecordData* GetChimeraChimeraRecord(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ChimeraBattleChimeraRecordData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_GETCHIMERACHIMERARECORD_OFFSET))(this, chimeraID);
+			return ((::RPG::Client::ChimeraBattleChimeraRecordData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_GETCHIMERACHIMERARECORD_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::ChimeraBattleWorkRecordData* GetChimeraWorkRecord(::System::UInt32 workID)
+		::RPG::Client::ChimeraBattleWorkRecordData* GetChimeraWorkRecord(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ChimeraBattleWorkRecordData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_GETCHIMERAWORKRECORD_OFFSET))(this, workID);
+			return ((::RPG::Client::ChimeraBattleWorkRecordData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_GETCHIMERAWORKRECORD_OFFSET))(this, a1);
 		}
 
 		::System::Void TurnUpdate()
@@ -81,9 +81,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_TURNUPDATE_OFFSET))(this);
 		}
 
-		::System::Void UpdateDamageToWork(::System::UInt32 damage)
+		::System::Void UpdateDamageToWork(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_UPDATEDAMAGETOWORK_OFFSET))(this, damage);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_UPDATEDAMAGETOWORK_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::ChimeraBattleChimeraRecordData*>* get_ChimeraRecords()
@@ -91,9 +91,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::ChimeraBattleChimeraRecordData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_CHIMERARECORDS_OFFSET))(this);
 		}
 
-		::System::Void set_ChimeraRecords(::System::Collections::Generic::List_1<::RPG::Client::ChimeraBattleChimeraRecordData*>* value)
+		::System::Void set_ChimeraRecords(::System::Collections::Generic::List_1<::RPG::Client::ChimeraBattleChimeraRecordData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraBattleChimeraRecordData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_CHIMERARECORDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraBattleChimeraRecordData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_CHIMERARECORDS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::ChimeraBattleWorkRecordData*>* get_WorkRecords()
@@ -101,9 +101,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::ChimeraBattleWorkRecordData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_WORKRECORDS_OFFSET))(this);
 		}
 
-		::System::Void set_WorkRecords(::System::Collections::Generic::List_1<::RPG::Client::ChimeraBattleWorkRecordData*>* value)
+		::System::Void set_WorkRecords(::System::Collections::Generic::List_1<::RPG::Client::ChimeraBattleWorkRecordData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraBattleWorkRecordData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_WORKRECORDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraBattleWorkRecordData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_WORKRECORDS_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_CostTimeInSeconds()
@@ -111,9 +111,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_COSTTIMEINSECONDS_OFFSET))(this);
 		}
 
-		::System::Void set_CostTimeInSeconds(::System::UInt32 value)
+		::System::Void set_CostTimeInSeconds(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_COSTTIMEINSECONDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_COSTTIMEINSECONDS_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_TotalQuickerTurns()
@@ -121,9 +121,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_TOTALQUICKERTURNS_OFFSET))(this);
 		}
 
-		::System::Void set_TotalQuickerTurns(::System::UInt32 value)
+		::System::Void set_TotalQuickerTurns(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_TOTALQUICKERTURNS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_TOTALQUICKERTURNS_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_TotalQuickerAutoTurns()
@@ -131,9 +131,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_TOTALQUICKERAUTOTURNS_OFFSET))(this);
 		}
 
-		::System::Void set_TotalQuickerAutoTurns(::System::UInt32 value)
+		::System::Void set_TotalQuickerAutoTurns(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_TOTALQUICKERAUTOTURNS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_TOTALQUICKERAUTOTURNS_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_TotalAutoTurns()
@@ -141,9 +141,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_TOTALAUTOTURNS_OFFSET))(this);
 		}
 
-		::System::Void set_TotalAutoTurns(::System::UInt32 value)
+		::System::Void set_TotalAutoTurns(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_TOTALAUTOTURNS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_TOTALAUTOTURNS_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_TotalDamageToWork()
@@ -151,9 +151,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_TOTALDAMAGETOWORK_OFFSET))(this);
 		}
 
-		::System::Void set_TotalDamageToWork(::System::UInt32 value)
+		::System::Void set_TotalDamageToWork(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_TOTALDAMAGETOWORK_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_TOTALDAMAGETOWORK_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_TotalTurns()
@@ -161,9 +161,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_TOTALTURNS_OFFSET))(this);
 		}
 
-		::System::Void set_TotalTurns(::System::UInt32 value)
+		::System::Void set_TotalTurns(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_TOTALTURNS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_TOTALTURNS_OFFSET))(this, a1);
 		}
 
 		::System::Single get_StartBattleTimeStamp()
@@ -171,9 +171,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_GET_STARTBATTLETIMESTAMP_OFFSET))(this);
 		}
 
-		::System::Void set_StartBattleTimeStamp(::System::Single value)
+		::System::Void set_StartBattleTimeStamp(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_STARTBATTLETIMESTAMP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERABATTLERECORDDATA_SET_STARTBATTLETIMESTAMP_OFFSET))(this, a1);
 		}
 	};
 }

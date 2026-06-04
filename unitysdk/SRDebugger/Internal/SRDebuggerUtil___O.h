@@ -9,18 +9,18 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace SRDebugger::Internal
 {
-	inline static constexpr unsigned int SRDebuggerUtil___O_TypeDefinitionIndex = 35475;
+	inline static constexpr unsigned int SRDebuggerUtil___O_TypeDefinitionIndex = 35775;
 
 	class SRDebuggerUtil___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_3<::System::Object*, ::System::Reflection::PropertyInfo*, ::SRDebugger::OptionDefinition*>** StaticGet__0___GetPropertyOptionDefinition()
 		{
-			return (::System::Func_3<::System::Object*, ::System::Reflection::PropertyInfo*, ::SRDebugger::OptionDefinition*>**)Il2CppClass::FromTypeDefinitionIndex(SRDebuggerUtil___O_TypeDefinitionIndex)->GetStaticField(0x5F7A0);
+			return (::System::Func_3<::System::Object*, ::System::Reflection::PropertyInfo*, ::SRDebugger::OptionDefinition*>**)Il2CppClass::FromTypeDefinitionIndex(SRDebuggerUtil___O_TypeDefinitionIndex)->GetStaticField(0x60830);
 		}
 		static ::System::Func_3<::System::Object*, ::System::Reflection::MethodInfo*, ::SRDebugger::OptionDefinition*>** StaticGet__1___GetMethodOptionDefinition()
 		{
-			return (::System::Func_3<::System::Object*, ::System::Reflection::MethodInfo*, ::SRDebugger::OptionDefinition*>**)Il2CppClass::FromTypeDefinitionIndex(SRDebuggerUtil___O_TypeDefinitionIndex)->GetStaticField(0x5F7A8);
+			return (::System::Func_3<::System::Object*, ::System::Reflection::MethodInfo*, ::SRDebugger::OptionDefinition*>**)Il2CppClass::FromTypeDefinitionIndex(SRDebuggerUtil___O_TypeDefinitionIndex)->GetStaticField(0x60838);
 		}
 	};
 }

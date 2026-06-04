@@ -10,40 +10,40 @@ namespace RPG::GameCore { class ChallengePeakRewardORRow; }
 namespace RPG::GameCore { class ChallengePeakRewardRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CHALLENGEPEAKREWARD_CREATE_OFFSET UNITYSDK_OFFSET(0x15FB13F0)
-#define RPG_CLIENT_CHALLENGEPEAKREWARD_GETMEDALCOREICONPATH_OFFSET UNITYSDK_OFFSET(0x15FB3F70)
-#define RPG_CLIENT_CHALLENGEPEAKREWARD_GETMEDALMIDDLEBACKGROUNDICONPATH_OFFSET UNITYSDK_OFFSET(0x15FB4150)
-#define RPG_CLIENT_CHALLENGEPEAKREWARD_GETRANK_OFFSET UNITYSDK_OFFSET(0x15FB3F10)
-#define RPG_CLIENT_CHALLENGEPEAKREWARD_GET_HEADFRAMEPATH_OFFSET UNITYSDK_OFFSET(0x15FB3AC0)
-#define RPG_CLIENT_CHALLENGEPEAKREWARD_GET_ID_OFFSET UNITYSDK_OFFSET(0x15FB3970)
-#define RPG_CLIENT_CHALLENGEPEAKREWARD_GET_ISSTAR_OFFSET UNITYSDK_OFFSET(0x15FB3A40)
-#define RPG_CLIENT_CHALLENGEPEAKREWARD_GET_PEAKGROUPID_OFFSET UNITYSDK_OFFSET(0x15FB3990)
-#define RPG_CLIENT_CHALLENGEPEAKREWARD_GET_RELATEDBOSSSPECIALREWARDDATA_OFFSET UNITYSDK_OFFSET(0x15FB3AA0)
-#define RPG_CLIENT_CHALLENGEPEAKREWARD_GET_REWARDID_OFFSET UNITYSDK_OFFSET(0x15FB39E0)
-#define RPG_CLIENT_CHALLENGEPEAKREWARD_GET_REWARDTYPE_OFFSET UNITYSDK_OFFSET(0x15FB39A0)
-#define RPG_CLIENT_CHALLENGEPEAKREWARD_GET_STATE_OFFSET UNITYSDK_OFFSET(0x15FB3C20)
-#define RPG_CLIENT_CHALLENGEPEAKREWARD_GET_TYPEVALUE_OFFSET UNITYSDK_OFFSET(0x15FB39C0)
-#define RPG_CLIENT_CHALLENGEPEAKREWARD_SET_RELATEDBOSSSPECIALREWARDDATA_OFFSET UNITYSDK_OFFSET(0x15FB3AB0)
-#define RPG_CLIENT_CHALLENGEPEAKREWARD_TAKE_OFFSET UNITYSDK_OFFSET(0x15FB43B0)
-#define RPG_CLIENT_CHALLENGEPEAKREWARD__CHECKREWARDCANTAKE_OFFSET UNITYSDK_OFFSET(0x15FB3CA0)
-#define RPG_CLIENT_CHALLENGEPEAKREWARD__CTOR_OFFSET UNITYSDK_OFFSET(0x15FB3EF0)
+#define RPG_CLIENT_CHALLENGEPEAKREWARD_CREATE_OFFSET UNITYSDK_OFFSET(0x17A483D0)
+#define RPG_CLIENT_CHALLENGEPEAKREWARD_GETMEDALCOREICONPATH_OFFSET UNITYSDK_OFFSET(0x17A4B0B0)
+#define RPG_CLIENT_CHALLENGEPEAKREWARD_GETMEDALMIDDLEBACKGROUNDICONPATH_OFFSET UNITYSDK_OFFSET(0x17A4B260)
+#define RPG_CLIENT_CHALLENGEPEAKREWARD_GETRANK_OFFSET UNITYSDK_OFFSET(0x17A4B050)
+#define RPG_CLIENT_CHALLENGEPEAKREWARD_GET_HEADFRAMEPATH_OFFSET UNITYSDK_OFFSET(0x17A4AC00)
+#define RPG_CLIENT_CHALLENGEPEAKREWARD_GET_ID_OFFSET UNITYSDK_OFFSET(0x17A4AAB0)
+#define RPG_CLIENT_CHALLENGEPEAKREWARD_GET_ISSTAR_OFFSET UNITYSDK_OFFSET(0x17A4AB80)
+#define RPG_CLIENT_CHALLENGEPEAKREWARD_GET_PEAKGROUPID_OFFSET UNITYSDK_OFFSET(0x17A4AAD0)
+#define RPG_CLIENT_CHALLENGEPEAKREWARD_GET_RELATEDBOSSSPECIALREWARDDATA_OFFSET UNITYSDK_OFFSET(0x17A4ABE0)
+#define RPG_CLIENT_CHALLENGEPEAKREWARD_GET_REWARDID_OFFSET UNITYSDK_OFFSET(0x17A4AB20)
+#define RPG_CLIENT_CHALLENGEPEAKREWARD_GET_REWARDTYPE_OFFSET UNITYSDK_OFFSET(0x17A4AAE0)
+#define RPG_CLIENT_CHALLENGEPEAKREWARD_GET_STATE_OFFSET UNITYSDK_OFFSET(0x17A4AD60)
+#define RPG_CLIENT_CHALLENGEPEAKREWARD_GET_TYPEVALUE_OFFSET UNITYSDK_OFFSET(0x17A4AB00)
+#define RPG_CLIENT_CHALLENGEPEAKREWARD_SET_RELATEDBOSSSPECIALREWARDDATA_OFFSET UNITYSDK_OFFSET(0x17A4ABF0)
+#define RPG_CLIENT_CHALLENGEPEAKREWARD_TAKE_OFFSET UNITYSDK_OFFSET(0x17A4B410)
+#define RPG_CLIENT_CHALLENGEPEAKREWARD__CHECKREWARDCANTAKE_OFFSET UNITYSDK_OFFSET(0x17A4ADE0)
+#define RPG_CLIENT_CHALLENGEPEAKREWARD__CTOR_OFFSET UNITYSDK_OFFSET(0x17A4B030)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakReward_TypeDefinitionIndex = 58196;
+	inline static constexpr unsigned int ChallengePeakReward_TypeDefinitionIndex = 59126;
 
 	class ChallengePeakReward : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ChallengePeakRewardRow* _Meta; // 0x10
-		::RPG::Client::ChallengePeakReward_IServerAgent* _ServerAgent; // 0x18
-		::RPG::GameCore::ChallengePeakRewardORRow* _OverrideMeta; // 0x20
-		::RPG::Client::ChallengePeakReward* _RelatedBossSpecialRewardData_k__BackingField; // 0x28
+		::RPG::Client::ChallengePeakReward_IServerAgent* _ServerAgent; // 0x10
+		::RPG::Client::ChallengePeakReward* _RelatedBossSpecialRewardData_k__BackingField; // 0x18
+		::RPG::GameCore::ChallengePeakRewardRow* _Meta; // 0x20
+		::RPG::GameCore::ChallengePeakRewardORRow* _OverrideMeta; // 0x28
 		::System::UInt32 _PeakGroupID_k__BackingField; // 0x30
 
-		::System::Void _ctor(::System::UInt32 peakGroupID, ::RPG::GameCore::ChallengePeakRewardRow* meta, ::RPG::GameCore::ChallengePeakRewardORRow* overrideMeta, ::RPG::Client::ChallengePeakReward_IServerAgent* serverAgent)
+		::System::Void _ctor(::System::UInt32 a1, ::RPG::GameCore::ChallengePeakRewardRow* a2, ::RPG::GameCore::ChallengePeakRewardORRow* a3, ::RPG::Client::ChallengePeakReward_IServerAgent* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::ChallengePeakRewardRow*, ::RPG::GameCore::ChallengePeakRewardORRow*, ::RPG::Client::ChallengePeakReward_IServerAgent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARD__CTOR_OFFSET))(this, peakGroupID, meta, overrideMeta, serverAgent);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::ChallengePeakRewardRow*, ::RPG::GameCore::ChallengePeakRewardORRow*, ::RPG::Client::ChallengePeakReward_IServerAgent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARD__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::UInt32 get_ID()
@@ -81,9 +81,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ChallengePeakReward*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARD_GET_RELATEDBOSSSPECIALREWARDDATA_OFFSET))(this);
 		}
 
-		::System::Void set_RelatedBossSpecialRewardData(::RPG::Client::ChallengePeakReward* value)
+		::System::Void set_RelatedBossSpecialRewardData(::RPG::Client::ChallengePeakReward* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChallengePeakReward*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARD_SET_RELATEDBOSSSPECIALREWARDDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChallengePeakReward*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARD_SET_RELATEDBOSSSPECIALREWARDDATA_OFFSET))(this, a1);
 		}
 
 		::System::String* get_HeadFramePath()
@@ -96,9 +96,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ChallengePeakRewardState(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARD_GET_STATE_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ChallengePeakReward* Create(::System::UInt32 peakGroupID, ::RPG::GameCore::ChallengePeakRewardRow* meta, ::RPG::Client::ChallengePeakReward_IServerAgent* serverAgent)
+		static ::RPG::Client::ChallengePeakReward* Create(::System::UInt32 a1, ::RPG::GameCore::ChallengePeakRewardRow* a2, ::RPG::Client::ChallengePeakReward_IServerAgent* a3)
 		{
-			return ((::RPG::Client::ChallengePeakReward*(*)(::System::UInt32, ::RPG::GameCore::ChallengePeakRewardRow*, ::RPG::Client::ChallengePeakReward_IServerAgent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARD_CREATE_OFFSET))(peakGroupID, meta, serverAgent);
+			return ((::RPG::Client::ChallengePeakReward*(*)(::System::UInt32, ::RPG::GameCore::ChallengePeakRewardRow*, ::RPG::Client::ChallengePeakReward_IServerAgent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARD_CREATE_OFFSET))(a1, a2, a3);
 		}
 
 		::RPG::Client::ChallengePeakRank GetRank()

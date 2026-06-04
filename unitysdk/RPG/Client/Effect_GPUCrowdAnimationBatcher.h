@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_2_90153E8BD5DB57E2;
+class Class_2_3092D1F427FB5418;
 namespace RPG::Client { class Effect_GPUCrowdAnimation; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_EFFECT_GPUCROWDANIMATIONBATCHER_AWAKE_OFFSET UNITYSDK_OFFSET(0x13FF6760)
-#define RPG_CLIENT_EFFECT_GPUCROWDANIMATIONBATCHER_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0x13FF6960)
-#define RPG_CLIENT_EFFECT_GPUCROWDANIMATIONBATCHER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x13FF6910)
-#define RPG_CLIENT_EFFECT_GPUCROWDANIMATIONBATCHER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x13FF6830)
-#define RPG_CLIENT_EFFECT_GPUCROWDANIMATIONBATCHER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x13FF68C0)
-#define RPG_CLIENT_EFFECT_GPUCROWDANIMATIONBATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x13FF6970)
+#define RPG_CLIENT_EFFECT_GPUCROWDANIMATIONBATCHER_AWAKE_OFFSET UNITYSDK_OFFSET(0x14CBEF20)
+#define RPG_CLIENT_EFFECT_GPUCROWDANIMATIONBATCHER_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0x14CBF120)
+#define RPG_CLIENT_EFFECT_GPUCROWDANIMATIONBATCHER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x14CBF0D0)
+#define RPG_CLIENT_EFFECT_GPUCROWDANIMATIONBATCHER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x14CBEFF0)
+#define RPG_CLIENT_EFFECT_GPUCROWDANIMATIONBATCHER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x14CBF080)
+#define RPG_CLIENT_EFFECT_GPUCROWDANIMATIONBATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x14CBF130)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_GPUCrowdAnimationBatcher_TypeDefinitionIndex = 64980;
+	inline static constexpr unsigned int Effect_GPUCrowdAnimationBatcher_TypeDefinitionIndex = 65906;
 
 	class Effect_GPUCrowdAnimationBatcher : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Class_2_90153E8BD5DB57E2* Field_5_0; // 0x18
+		::Class_2_3092D1F427FB5418* Field_5_0; // 0x18
 		::System::Collections::Generic::List_1<::RPG::Client::Effect_GPUCrowdAnimation*>* BatchList; // 0x20
 		::System::Collections::Generic::List_1<::System::String*>* FloatMPBProperty; // 0x28
 		::System::Collections::Generic::List_1<::System::String*>* FloatMaterialProperty; // 0x30
@@ -56,9 +56,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUCROWDANIMATIONBATCHER_LATEUPDATE_OFFSET))(this);
 		}
 
-		::Class_2_90153E8BD5DB57E2* get_Behavior()
+		::Class_2_3092D1F427FB5418* get_Behavior()
 		{
-			return ((::Class_2_90153E8BD5DB57E2*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUCROWDANIMATIONBATCHER_GET_BEHAVIOR_OFFSET))(this);
+			return ((::Class_2_3092D1F427FB5418*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUCROWDANIMATIONBATCHER_GET_BEHAVIOR_OFFSET))(this);
 		}
 	};
 }

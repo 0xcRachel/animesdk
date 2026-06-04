@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define ENTITAS_COLLECTOREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A638390)
+#define ENTITAS_COLLECTOREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B45AFA0)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int CollectorException_TypeDefinitionIndex = 9803;
+	inline static constexpr unsigned int CollectorException_TypeDefinitionIndex = 9630;
 
 	class CollectorException : public ::Entitas::EntitasException
 	{
 	public:
-		::System::Void _ctor(::System::String* message, ::System::String* hint)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ENTITAS_COLLECTOREXCEPTION__CTOR_OFFSET))(this, message, hint);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ENTITAS_COLLECTOREXCEPTION__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

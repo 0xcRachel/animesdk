@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define TA_LOCALLIGHTTEST_START_OFFSET UNITYSDK_OFFSET(0xE19FF30)
-#define TA_LOCALLIGHTTEST_UPDATE_OFFSET UNITYSDK_OFFSET(0xE19FF80)
-#define TA_LOCALLIGHTTEST__CTOR_OFFSET UNITYSDK_OFFSET(0xE1A0100)
+#define TA_LOCALLIGHTTEST_START_OFFSET UNITYSDK_OFFSET(0xE27B940)
+#define TA_LOCALLIGHTTEST_UPDATE_OFFSET UNITYSDK_OFFSET(0xE27B990)
+#define TA_LOCALLIGHTTEST__CTOR_OFFSET UNITYSDK_OFFSET(0xE27BB10)
 
-inline static constexpr unsigned int TA_LocalLightTest_TypeDefinitionIndex = 44186;
+inline static constexpr unsigned int TA_LocalLightTest_TypeDefinitionIndex = 44732;
 
 class TA_LocalLightTest : public ::UnityEngine::MonoBehaviour
 {

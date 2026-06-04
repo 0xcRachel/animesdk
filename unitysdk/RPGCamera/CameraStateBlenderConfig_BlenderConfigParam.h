@@ -5,11 +5,11 @@
 #include "unitysdk/RPGCamera/CameraStateBlenderConfig_PoleType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_BLENDERCONFIGPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x175C0850)
+#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_BLENDERCONFIGPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x19BB0180)
 
 namespace RPGCamera
 {
-	inline static constexpr unsigned int CameraStateBlenderConfig_BlenderConfigParam_TypeDefinitionIndex = 40936;
+	inline static constexpr unsigned int CameraStateBlenderConfig_BlenderConfigParam_TypeDefinitionIndex = 41754;
 
 	class CameraStateBlenderConfig_BlenderConfigParam : public ::System::Object
 	{

@@ -4,29 +4,29 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_GET_FLAGS_OFFSET UNITYSDK_OFFSET(0x1953D320)
-#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_GET_LOCALAUDIODEVICEINPUTSTARTSMUTED_OFFSET UNITYSDK_OFFSET(0x1953D380)
-#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_GET_USEMANUALAUDIOINPUT_OFFSET UNITYSDK_OFFSET(0x1953D340)
-#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_GET_USEMANUALAUDIOOUTPUT_OFFSET UNITYSDK_OFFSET(0x1953D360)
-#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_1_OFFSET UNITYSDK_OFFSET(0x1953D920)
-#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_FLAGS_OFFSET UNITYSDK_OFFSET(0x1953D330)
-#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_LOCALAUDIODEVICEINPUTSTARTSMUTED_OFFSET UNITYSDK_OFFSET(0x1953D390)
-#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_OFFSET UNITYSDK_OFFSET(0x1953D3A0)
-#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_USEMANUALAUDIOINPUT_OFFSET UNITYSDK_OFFSET(0x1953D350)
-#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_USEMANUALAUDIOOUTPUT_OFFSET UNITYSDK_OFFSET(0x1953D370)
-#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1953DA30)
+#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_GET_FLAGS_OFFSET UNITYSDK_OFFSET(0x1A333BA0)
+#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_GET_LOCALAUDIODEVICEINPUTSTARTSMUTED_OFFSET UNITYSDK_OFFSET(0x1A333C00)
+#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_GET_USEMANUALAUDIOINPUT_OFFSET UNITYSDK_OFFSET(0x1A333BC0)
+#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_GET_USEMANUALAUDIOOUTPUT_OFFSET UNITYSDK_OFFSET(0x1A333BE0)
+#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_1_OFFSET UNITYSDK_OFFSET(0x1A3341A0)
+#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_FLAGS_OFFSET UNITYSDK_OFFSET(0x1A333BB0)
+#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_LOCALAUDIODEVICEINPUTSTARTSMUTED_OFFSET UNITYSDK_OFFSET(0x1A333C10)
+#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_OFFSET UNITYSDK_OFFSET(0x1A333C20)
+#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_USEMANUALAUDIOINPUT_OFFSET UNITYSDK_OFFSET(0x1A333BD0)
+#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_USEMANUALAUDIOOUTPUT_OFFSET UNITYSDK_OFFSET(0x1A333BF0)
+#define EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3342C0)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int LocalRTCOptions_TypeDefinitionIndex = 41944;
+	inline static constexpr unsigned int LocalRTCOptions_TypeDefinitionIndex = 42747;
 
 	class LocalRTCOptions : public ::System::Object
 	{
 	public:
-		::System::Boolean _UseManualAudioOutput_k__BackingField; // 0x10
-		::System::Boolean _UseManualAudioInput_k__BackingField; // 0x11
-		::System::Boolean _LocalAudioDeviceInputStartsMuted_k__BackingField; // 0x12
-		::System::UInt32 _Flags_k__BackingField; // 0x14
+		::System::UInt32 _Flags_k__BackingField; // 0x10
+		::System::Boolean _LocalAudioDeviceInputStartsMuted_k__BackingField; // 0x14
+		::System::Boolean _UseManualAudioOutput_k__BackingField; // 0x15
+		::System::Boolean _UseManualAudioInput_k__BackingField; // 0x16
 
 		::System::Void _ctor()
 		{
@@ -38,9 +38,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_GET_FLAGS_OFFSET))(this);
 		}
 
-		::System::Void set_Flags(::System::UInt32 value)
+		::System::Void set_Flags(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_FLAGS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_FLAGS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_UseManualAudioInput()
@@ -48,9 +48,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_GET_USEMANUALAUDIOINPUT_OFFSET))(this);
 		}
 
-		::System::Void set_UseManualAudioInput(::System::Boolean value)
+		::System::Void set_UseManualAudioInput(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_USEMANUALAUDIOINPUT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_USEMANUALAUDIOINPUT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_UseManualAudioOutput()
@@ -58,9 +58,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_GET_USEMANUALAUDIOOUTPUT_OFFSET))(this);
 		}
 
-		::System::Void set_UseManualAudioOutput(::System::Boolean value)
+		::System::Void set_UseManualAudioOutput(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_USEMANUALAUDIOOUTPUT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_USEMANUALAUDIOOUTPUT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_LocalAudioDeviceInputStartsMuted()
@@ -68,19 +68,19 @@ namespace Epic::OnlineServices::Lobby
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_GET_LOCALAUDIODEVICEINPUTSTARTSMUTED_OFFSET))(this);
 		}
 
-		::System::Void set_LocalAudioDeviceInputStartsMuted(::System::Boolean value)
+		::System::Void set_LocalAudioDeviceInputStartsMuted(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_LOCALAUDIODEVICEINPUTSTARTSMUTED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_LOCALAUDIODEVICEINPUTSTARTSMUTED_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Lobby::LocalRTCOptionsInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Lobby::LocalRTCOptionsInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Lobby::LocalRTCOptionsInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Lobby::LocalRTCOptionsInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOCALRTCOPTIONS_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

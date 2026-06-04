@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ValueEvaluatorConfig; }
 
-#define RPG_GAMECORE_VALUEEVALUATORVEC2_METHOD_2_BBC35E0C2AE1CFC0_OFFSET UNITYSDK_OFFSET(0x1951EC20)
-#define RPG_GAMECORE_VALUEEVALUATORVEC2__CTOR_OFFSET UNITYSDK_OFFSET(0x1951ED00)
+#define RPG_GAMECORE_VALUEEVALUATORVEC2_METHOD_2_BBC35E0C2AE1CFC0_OFFSET UNITYSDK_OFFSET(0x19A7B740)
+#define RPG_GAMECORE_VALUEEVALUATORVEC2__CTOR_OFFSET UNITYSDK_OFFSET(0x19A7B820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ValueEvaluatorVec2_TypeDefinitionIndex = 23027;
+	inline static constexpr unsigned int ValueEvaluatorVec2_TypeDefinitionIndex = 22716;
 
 	class ValueEvaluatorVec2 : public ::RPG::GameCore::JsonConfig
 	{

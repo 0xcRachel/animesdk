@@ -8,74 +8,74 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define RPG_CLIENT_MONGOOBJECTID_COMPARETO_OFFSET UNITYSDK_OFFSET(0x23C0640)
-#define RPG_CLIENT_MONGOOBJECTID_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x2273130)
-#define RPG_CLIENT_MONGOOBJECTID_EQUALS_OFFSET UNITYSDK_OFFSET(0x23C0610)
-#define RPG_CLIENT_MONGOOBJECTID_FROMBYTEARRAY_1_OFFSET UNITYSDK_OFFSET(0x1A71EE60)
-#define RPG_CLIENT_MONGOOBJECTID_FROMBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1A71EE30)
-#define RPG_CLIENT_MONGOOBJECTID_FROMSTRING_OFFSET UNITYSDK_OFFSET(0x1A71EE00)
-#define RPG_CLIENT_MONGOOBJECTID_GENERATENEW_1_OFFSET UNITYSDK_OFFSET(0x1A71FD90)
-#define RPG_CLIENT_MONGOOBJECTID_GENERATENEW_2_OFFSET UNITYSDK_OFFSET(0x1A71FE30)
-#define RPG_CLIENT_MONGOOBJECTID_GENERATENEW_OFFSET UNITYSDK_OFFSET(0x1A71FCA0)
-#define RPG_CLIENT_MONGOOBJECTID_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x23C0570)
-#define RPG_CLIENT_MONGOOBJECTID_GETTYPECODE_OFFSET UNITYSDK_OFFSET(0x616CC0)
-#define RPG_CLIENT_MONGOOBJECTID_GET_CREATIONTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x608310)
-#define RPG_CLIENT_MONGOOBJECTID_GET_CREATIONTIME_OFFSET UNITYSDK_OFFSET(0x23C0BC0)
-#define RPG_CLIENT_MONGOOBJECTID_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x1A720010)
-#define RPG_CLIENT_MONGOOBJECTID_GET__CREATIONTIMESTAMPPART_OFFSET UNITYSDK_OFFSET(0x608310)
-#define RPG_CLIENT_MONGOOBJECTID_GET__INCCOUNTERPART_OFFSET UNITYSDK_OFFSET(0x23C0C30)
-#define RPG_CLIENT_MONGOOBJECTID_GET__RANDOMPART_OFFSET UNITYSDK_OFFSET(0x23C0C20)
-#define RPG_CLIENT_MONGOOBJECTID_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x23C0B00)
-#define RPG_CLIENT_MONGOOBJECTID_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1A71EE90)
-#define RPG_CLIENT_MONGOOBJECTID_OP_GREATERTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x1A71F030)
-#define RPG_CLIENT_MONGOOBJECTID_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1A71EF90)
-#define RPG_CLIENT_MONGOOBJECTID_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1A71EED0)
-#define RPG_CLIENT_MONGOOBJECTID_OP_LESSTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x1A71EFE0)
-#define RPG_CLIENT_MONGOOBJECTID_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1A71EEF0)
-#define RPG_CLIENT_MONGOOBJECTID_TOBOOLEAN_OFFSET UNITYSDK_OFFSET(0x23C0690)
-#define RPG_CLIENT_MONGOOBJECTID_TOBYTEARRAY_1_OFFSET UNITYSDK_OFFSET(0x23C0BB0)
-#define RPG_CLIENT_MONGOOBJECTID_TOBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x23C0B70)
-#define RPG_CLIENT_MONGOOBJECTID_TOBYTE_OFFSET UNITYSDK_OFFSET(0x23C06E0)
-#define RPG_CLIENT_MONGOOBJECTID_TOCHAR_OFFSET UNITYSDK_OFFSET(0x23C0730)
-#define RPG_CLIENT_MONGOOBJECTID_TODATETIME_OFFSET UNITYSDK_OFFSET(0x23C0780)
-#define RPG_CLIENT_MONGOOBJECTID_TODECIMAL_OFFSET UNITYSDK_OFFSET(0x23C07D0)
-#define RPG_CLIENT_MONGOOBJECTID_TODOUBLE_OFFSET UNITYSDK_OFFSET(0x23C0820)
-#define RPG_CLIENT_MONGOOBJECTID_TOINT16_OFFSET UNITYSDK_OFFSET(0x23C0870)
-#define RPG_CLIENT_MONGOOBJECTID_TOINT32_OFFSET UNITYSDK_OFFSET(0x23C08C0)
-#define RPG_CLIENT_MONGOOBJECTID_TOINT64_OFFSET UNITYSDK_OFFSET(0x23C0910)
-#define RPG_CLIENT_MONGOOBJECTID_TOSBYTE_OFFSET UNITYSDK_OFFSET(0x23C0960)
-#define RPG_CLIENT_MONGOOBJECTID_TOSINGLE_OFFSET UNITYSDK_OFFSET(0x23C09B0)
-#define RPG_CLIENT_MONGOOBJECTID_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x23C05B0)
-#define RPG_CLIENT_MONGOOBJECTID_TOSTRING_OFFSET UNITYSDK_OFFSET(0x23C05B0)
-#define RPG_CLIENT_MONGOOBJECTID_TOTYPE_OFFSET UNITYSDK_OFFSET(0x23C0A00)
-#define RPG_CLIENT_MONGOOBJECTID_TOUINT16_OFFSET UNITYSDK_OFFSET(0x23C0A10)
-#define RPG_CLIENT_MONGOOBJECTID_TOUINT32_OFFSET UNITYSDK_OFFSET(0x23C0A60)
-#define RPG_CLIENT_MONGOOBJECTID_TOUINT64_OFFSET UNITYSDK_OFFSET(0x23C0AB0)
-#define RPG_CLIENT_MONGOOBJECTID__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A71FA10)
-#define RPG_CLIENT_MONGOOBJECTID__CREATE_OFFSET UNITYSDK_OFFSET(0x1A71FEA0)
-#define RPG_CLIENT_MONGOOBJECTID__CTOR_1_OFFSET UNITYSDK_OFFSET(0x23C0550)
-#define RPG_CLIENT_MONGOOBJECTID__CTOR_2_OFFSET UNITYSDK_OFFSET(0x23C0560)
-#define RPG_CLIENT_MONGOOBJECTID__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1BB8790)
-#define RPG_CLIENT_MONGOOBJECTID__CTOR_OFFSET UNITYSDK_OFFSET(0x23C0540)
-#define RPG_CLIENT_MONGOOBJECTID__FROMBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1A71EA30)
+#define RPG_CLIENT_MONGOOBJECTID_COMPARETO_OFFSET UNITYSDK_OFFSET(0x3963400)
+#define RPG_CLIENT_MONGOOBJECTID_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x37B2780)
+#define RPG_CLIENT_MONGOOBJECTID_EQUALS_OFFSET UNITYSDK_OFFSET(0x39633D0)
+#define RPG_CLIENT_MONGOOBJECTID_FROMBYTEARRAY_1_OFFSET UNITYSDK_OFFSET(0x1B54D620)
+#define RPG_CLIENT_MONGOOBJECTID_FROMBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1B54D5F0)
+#define RPG_CLIENT_MONGOOBJECTID_FROMSTRING_OFFSET UNITYSDK_OFFSET(0x1B54D5C0)
+#define RPG_CLIENT_MONGOOBJECTID_GENERATENEW_1_OFFSET UNITYSDK_OFFSET(0x1B54E480)
+#define RPG_CLIENT_MONGOOBJECTID_GENERATENEW_2_OFFSET UNITYSDK_OFFSET(0x1B54E520)
+#define RPG_CLIENT_MONGOOBJECTID_GENERATENEW_OFFSET UNITYSDK_OFFSET(0x1B54E390)
+#define RPG_CLIENT_MONGOOBJECTID_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3963330)
+#define RPG_CLIENT_MONGOOBJECTID_GETTYPECODE_OFFSET UNITYSDK_OFFSET(0x6BC9A0)
+#define RPG_CLIENT_MONGOOBJECTID_GET_CREATIONTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x66B8A0)
+#define RPG_CLIENT_MONGOOBJECTID_GET_CREATIONTIME_OFFSET UNITYSDK_OFFSET(0x3963980)
+#define RPG_CLIENT_MONGOOBJECTID_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x1B54E700)
+#define RPG_CLIENT_MONGOOBJECTID_GET__CREATIONTIMESTAMPPART_OFFSET UNITYSDK_OFFSET(0x66B8A0)
+#define RPG_CLIENT_MONGOOBJECTID_GET__INCCOUNTERPART_OFFSET UNITYSDK_OFFSET(0x39639F0)
+#define RPG_CLIENT_MONGOOBJECTID_GET__RANDOMPART_OFFSET UNITYSDK_OFFSET(0x39639E0)
+#define RPG_CLIENT_MONGOOBJECTID_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x39638C0)
+#define RPG_CLIENT_MONGOOBJECTID_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B54D650)
+#define RPG_CLIENT_MONGOOBJECTID_OP_GREATERTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x1B54D7F0)
+#define RPG_CLIENT_MONGOOBJECTID_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1B54D750)
+#define RPG_CLIENT_MONGOOBJECTID_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1B54D690)
+#define RPG_CLIENT_MONGOOBJECTID_OP_LESSTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x1B54D7A0)
+#define RPG_CLIENT_MONGOOBJECTID_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1B54D6B0)
+#define RPG_CLIENT_MONGOOBJECTID_TOBOOLEAN_OFFSET UNITYSDK_OFFSET(0x3963450)
+#define RPG_CLIENT_MONGOOBJECTID_TOBYTEARRAY_1_OFFSET UNITYSDK_OFFSET(0x3963970)
+#define RPG_CLIENT_MONGOOBJECTID_TOBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x3963930)
+#define RPG_CLIENT_MONGOOBJECTID_TOBYTE_OFFSET UNITYSDK_OFFSET(0x39634A0)
+#define RPG_CLIENT_MONGOOBJECTID_TOCHAR_OFFSET UNITYSDK_OFFSET(0x39634F0)
+#define RPG_CLIENT_MONGOOBJECTID_TODATETIME_OFFSET UNITYSDK_OFFSET(0x3963540)
+#define RPG_CLIENT_MONGOOBJECTID_TODECIMAL_OFFSET UNITYSDK_OFFSET(0x3963590)
+#define RPG_CLIENT_MONGOOBJECTID_TODOUBLE_OFFSET UNITYSDK_OFFSET(0x39635E0)
+#define RPG_CLIENT_MONGOOBJECTID_TOINT16_OFFSET UNITYSDK_OFFSET(0x3963630)
+#define RPG_CLIENT_MONGOOBJECTID_TOINT32_OFFSET UNITYSDK_OFFSET(0x3963680)
+#define RPG_CLIENT_MONGOOBJECTID_TOINT64_OFFSET UNITYSDK_OFFSET(0x39636D0)
+#define RPG_CLIENT_MONGOOBJECTID_TOSBYTE_OFFSET UNITYSDK_OFFSET(0x3963720)
+#define RPG_CLIENT_MONGOOBJECTID_TOSINGLE_OFFSET UNITYSDK_OFFSET(0x3963770)
+#define RPG_CLIENT_MONGOOBJECTID_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x3963370)
+#define RPG_CLIENT_MONGOOBJECTID_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3963370)
+#define RPG_CLIENT_MONGOOBJECTID_TOTYPE_OFFSET UNITYSDK_OFFSET(0x39637C0)
+#define RPG_CLIENT_MONGOOBJECTID_TOUINT16_OFFSET UNITYSDK_OFFSET(0x39637D0)
+#define RPG_CLIENT_MONGOOBJECTID_TOUINT32_OFFSET UNITYSDK_OFFSET(0x3963820)
+#define RPG_CLIENT_MONGOOBJECTID_TOUINT64_OFFSET UNITYSDK_OFFSET(0x3963870)
+#define RPG_CLIENT_MONGOOBJECTID__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B54E100)
+#define RPG_CLIENT_MONGOOBJECTID__CREATE_OFFSET UNITYSDK_OFFSET(0x1B54E590)
+#define RPG_CLIENT_MONGOOBJECTID__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3963310)
+#define RPG_CLIENT_MONGOOBJECTID__CTOR_2_OFFSET UNITYSDK_OFFSET(0x3963320)
+#define RPG_CLIENT_MONGOOBJECTID__CTOR_3_OFFSET UNITYSDK_OFFSET(0x6C9750)
+#define RPG_CLIENT_MONGOOBJECTID__CTOR_OFFSET UNITYSDK_OFFSET(0x3963300)
+#define RPG_CLIENT_MONGOOBJECTID__FROMBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1B54D2B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MongoObjectId_TypeDefinitionIndex = 9721;
+	inline static constexpr unsigned int MongoObjectId_TypeDefinitionIndex = 33490;
 
 	struct alignas(4) MongoObjectId
 	{
 		static ::System::UInt64* StaticGet__RandomPartValue()
 		{
-			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(MongoObjectId_TypeDefinitionIndex)->GetStaticField(0x720);
-		}
-		static ::RPG::Client::MongoObjectId* StaticGet__Empty()
-		{
-			return (::RPG::Client::MongoObjectId*)Il2CppClass::FromTypeDefinitionIndex(MongoObjectId_TypeDefinitionIndex)->GetStaticField(0x728);
+			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(MongoObjectId_TypeDefinitionIndex)->GetStaticField(0x7B0);
 		}
 		static ::System::Int32* StaticGet__IncCounter()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MongoObjectId_TypeDefinitionIndex)->GetStaticField(0x734);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MongoObjectId_TypeDefinitionIndex)->GetStaticField(0x7B8);
+		}
+		static ::RPG::Client::MongoObjectId* StaticGet__Empty()
+		{
+			return (::RPG::Client::MongoObjectId*)Il2CppClass::FromTypeDefinitionIndex(MongoObjectId_TypeDefinitionIndex)->GetStaticField(0x7BC);
 		}
 		// static const ::System::UInt64 _RandomPartValueMask = 0xFFFFFFFFFF; // 0x0
 		// static const ::System::Int32 _IncCounterMask = 0xFFFFFF; // 0x0
@@ -83,24 +83,24 @@ namespace RPG::Client
 		::System::UInt32 _MiPart; // 0x14
 		::System::UInt32 _HiPart; // 0x18
 
-		::System::Void _ctor(::Il2CppArray<::System::Byte>* buf, ::System::Int32 offset)
+		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID__CTOR_OFFSET))(this, buf, offset);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::Il2CppArray<::System::Byte>* bytes)
+		::System::Void _ctor_1(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID__CTOR_1_OFFSET))(this, bytes);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::String* hex)
+		::System::Void _ctor_2(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID__CTOR_2_OFFSET))(this, hex);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID__CTOR_2_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_3(::System::UInt32 loPart, ::System::UInt32 miPart, ::System::UInt32 hiPart)
+		::System::Void _ctor_3(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID__CTOR_3_OFFSET))(this, loPart, miPart, hiPart);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID__CTOR_3_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Void _cctor()
@@ -108,49 +108,49 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID__CCTOR_OFFSET))();
 		}
 
-		static ::RPG::Client::MongoObjectId FromString(::System::String* hex)
+		static ::RPG::Client::MongoObjectId FromString(::System::String* a1)
 		{
-			return ((::RPG::Client::MongoObjectId(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_FROMSTRING_OFFSET))(hex);
+			return ((::RPG::Client::MongoObjectId(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_FROMSTRING_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::MongoObjectId FromByteArray(::Il2CppArray<::System::Byte>* bytes)
+		static ::RPG::Client::MongoObjectId FromByteArray(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::RPG::Client::MongoObjectId(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_FROMBYTEARRAY_OFFSET))(bytes);
+			return ((::RPG::Client::MongoObjectId(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_FROMBYTEARRAY_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::MongoObjectId FromByteArray_1(::Il2CppArray<::System::Byte>* buf, ::System::Int32 offset)
+		static ::RPG::Client::MongoObjectId FromByteArray_1(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::RPG::Client::MongoObjectId(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_FROMBYTEARRAY_1_OFFSET))(buf, offset);
+			return ((::RPG::Client::MongoObjectId(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_FROMBYTEARRAY_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Equality(::RPG::Client::MongoObjectId lhs, ::RPG::Client::MongoObjectId rhs)
+		static ::System::Boolean op_Equality(::RPG::Client::MongoObjectId a1, ::RPG::Client::MongoObjectId a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::MongoObjectId, ::RPG::Client::MongoObjectId))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_OP_EQUALITY_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::RPG::Client::MongoObjectId, ::RPG::Client::MongoObjectId))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::RPG::Client::MongoObjectId lhs, ::RPG::Client::MongoObjectId rhs)
+		static ::System::Boolean op_Inequality(::RPG::Client::MongoObjectId a1, ::RPG::Client::MongoObjectId a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::MongoObjectId, ::RPG::Client::MongoObjectId))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_OP_INEQUALITY_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::RPG::Client::MongoObjectId, ::RPG::Client::MongoObjectId))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_LessThan(::RPG::Client::MongoObjectId lhs, ::RPG::Client::MongoObjectId rhs)
+		static ::System::Boolean op_LessThan(::RPG::Client::MongoObjectId a1, ::RPG::Client::MongoObjectId a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::MongoObjectId, ::RPG::Client::MongoObjectId))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_OP_LESSTHAN_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::RPG::Client::MongoObjectId, ::RPG::Client::MongoObjectId))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_OP_LESSTHAN_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_GreaterThan(::RPG::Client::MongoObjectId lhs, ::RPG::Client::MongoObjectId rhs)
+		static ::System::Boolean op_GreaterThan(::RPG::Client::MongoObjectId a1, ::RPG::Client::MongoObjectId a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::MongoObjectId, ::RPG::Client::MongoObjectId))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_OP_GREATERTHAN_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::RPG::Client::MongoObjectId, ::RPG::Client::MongoObjectId))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_OP_GREATERTHAN_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_LessThanOrEqual(::RPG::Client::MongoObjectId lhs, ::RPG::Client::MongoObjectId rhs)
+		static ::System::Boolean op_LessThanOrEqual(::RPG::Client::MongoObjectId a1, ::RPG::Client::MongoObjectId a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::MongoObjectId, ::RPG::Client::MongoObjectId))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_OP_LESSTHANOREQUAL_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::RPG::Client::MongoObjectId, ::RPG::Client::MongoObjectId))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_OP_LESSTHANOREQUAL_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_GreaterThanOrEqual(::RPG::Client::MongoObjectId lhs, ::RPG::Client::MongoObjectId rhs)
+		static ::System::Boolean op_GreaterThanOrEqual(::RPG::Client::MongoObjectId a1, ::RPG::Client::MongoObjectId a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::MongoObjectId, ::RPG::Client::MongoObjectId))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_OP_GREATERTHANOREQUAL_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::RPG::Client::MongoObjectId, ::RPG::Client::MongoObjectId))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_OP_GREATERTHANOREQUAL_OFFSET))(a1, a2);
 		}
 
 		::System::Int32 GetHashCode()
@@ -163,19 +163,19 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::RPG::Client::MongoObjectId other)
+		::System::Boolean Equals_1(::RPG::Client::MongoObjectId a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MongoObjectId))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MongoObjectId))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_EQUALS_1_OFFSET))(this, a1);
 		}
 
-		::System::Int32 CompareTo(::RPG::Client::MongoObjectId other)
+		::System::Int32 CompareTo(::RPG::Client::MongoObjectId a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MongoObjectId))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_COMPARETO_OFFSET))(this, other);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MongoObjectId))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_COMPARETO_OFFSET))(this, a1);
 		}
 
 		::System::TypeCode GetTypeCode()
@@ -183,88 +183,88 @@ namespace RPG::Client
 			return ((::System::TypeCode(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_GETTYPECODE_OFFSET))(this);
 		}
 
-		::System::Boolean ToBoolean(::System::IFormatProvider* provider)
+		::System::Boolean ToBoolean(::System::IFormatProvider* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOBOOLEAN_OFFSET))(this, provider);
+			return ((::System::Boolean(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOBOOLEAN_OFFSET))(this, a1);
 		}
 
-		::System::Byte ToByte(::System::IFormatProvider* provider)
+		::System::Byte ToByte(::System::IFormatProvider* a1)
 		{
-			return ((::System::Byte(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOBYTE_OFFSET))(this, provider);
+			return ((::System::Byte(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOBYTE_OFFSET))(this, a1);
 		}
 
-		::System::Char ToChar(::System::IFormatProvider* provider)
+		::System::Char ToChar(::System::IFormatProvider* a1)
 		{
-			return ((::System::Char(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOCHAR_OFFSET))(this, provider);
+			return ((::System::Char(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOCHAR_OFFSET))(this, a1);
 		}
 
 		/*
-		::System::DateTime ToDateTime(::System::IFormatProvider* provider)
+		::System::DateTime ToDateTime(::System::IFormatProvider* a1)
 		{
-			return ((::System::DateTime(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TODATETIME_OFFSET))(this, provider);
+			return ((::System::DateTime(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TODATETIME_OFFSET))(this, a1);
 		}
 		*/
 
 		/*
-		::System::Decimal ToDecimal(::System::IFormatProvider* provider)
+		::System::Decimal ToDecimal(::System::IFormatProvider* a1)
 		{
-			return ((::System::Decimal(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TODECIMAL_OFFSET))(this, provider);
+			return ((::System::Decimal(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TODECIMAL_OFFSET))(this, a1);
 		}
 		*/
 
-		::System::Double ToDouble(::System::IFormatProvider* provider)
+		::System::Double ToDouble(::System::IFormatProvider* a1)
 		{
-			return ((::System::Double(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TODOUBLE_OFFSET))(this, provider);
+			return ((::System::Double(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TODOUBLE_OFFSET))(this, a1);
 		}
 
-		::System::Int16 ToInt16(::System::IFormatProvider* provider)
+		::System::Int16 ToInt16(::System::IFormatProvider* a1)
 		{
-			return ((::System::Int16(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOINT16_OFFSET))(this, provider);
+			return ((::System::Int16(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOINT16_OFFSET))(this, a1);
 		}
 
-		::System::Int32 ToInt32(::System::IFormatProvider* provider)
+		::System::Int32 ToInt32(::System::IFormatProvider* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOINT32_OFFSET))(this, provider);
+			return ((::System::Int32(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOINT32_OFFSET))(this, a1);
 		}
 
-		::System::Int64 ToInt64(::System::IFormatProvider* provider)
+		::System::Int64 ToInt64(::System::IFormatProvider* a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOINT64_OFFSET))(this, provider);
+			return ((::System::Int64(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOINT64_OFFSET))(this, a1);
 		}
 
-		::System::SByte ToSByte(::System::IFormatProvider* provider)
+		::System::SByte ToSByte(::System::IFormatProvider* a1)
 		{
-			return ((::System::SByte(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOSBYTE_OFFSET))(this, provider);
+			return ((::System::SByte(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOSBYTE_OFFSET))(this, a1);
 		}
 
-		::System::Single ToSingle(::System::IFormatProvider* provider)
+		::System::Single ToSingle(::System::IFormatProvider* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOSINGLE_OFFSET))(this, provider);
+			return ((::System::Single(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOSINGLE_OFFSET))(this, a1);
 		}
 
-		::System::String* ToString_1(::System::IFormatProvider* provider)
+		::System::String* ToString_1(::System::IFormatProvider* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOSTRING_1_OFFSET))(this, provider);
+			return ((::System::String*(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOSTRING_1_OFFSET))(this, a1);
 		}
 
-		::System::Object* ToType(::System::Type* conversionType, ::System::IFormatProvider* provider)
+		::System::Object* ToType(::System::Type* a1, ::System::IFormatProvider* a2)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Type*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOTYPE_OFFSET))(this, conversionType, provider);
+			return ((::System::Object*(*)(::PVOID, ::System::Type*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOTYPE_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt16 ToUInt16(::System::IFormatProvider* provider)
+		::System::UInt16 ToUInt16(::System::IFormatProvider* a1)
 		{
-			return ((::System::UInt16(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOUINT16_OFFSET))(this, provider);
+			return ((::System::UInt16(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOUINT16_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 ToUInt32(::System::IFormatProvider* provider)
+		::System::UInt32 ToUInt32(::System::IFormatProvider* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOUINT32_OFFSET))(this, provider);
+			return ((::System::UInt32(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOUINT32_OFFSET))(this, a1);
 		}
 
-		::System::UInt64 ToUInt64(::System::IFormatProvider* provider)
+		::System::UInt64 ToUInt64(::System::IFormatProvider* a1)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOUINT64_OFFSET))(this, provider);
+			return ((::System::UInt64(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOUINT64_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsEmpty()
@@ -277,9 +277,9 @@ namespace RPG::Client
 			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOBYTEARRAY_OFFSET))(this);
 		}
 
-		::System::Void ToByteArray_1(::Il2CppArray<::System::Byte>* buf, ::System::Int32 offset)
+		::System::Void ToByteArray_1(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOBYTEARRAY_1_OFFSET))(this, buf, offset);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_TOBYTEARRAY_1_OFFSET))(this, a1, a2);
 		}
 
 		static ::RPG::Client::MongoObjectId GenerateNew()
@@ -288,25 +288,25 @@ namespace RPG::Client
 		}
 
 		/*
-		static ::RPG::Client::MongoObjectId GenerateNew_1(::System::DateTime time)
+		static ::RPG::Client::MongoObjectId GenerateNew_1(::System::DateTime a1)
 		{
-			return ((::RPG::Client::MongoObjectId(*)(::System::DateTime))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_GENERATENEW_1_OFFSET))(time);
+			return ((::RPG::Client::MongoObjectId(*)(::System::DateTime))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_GENERATENEW_1_OFFSET))(a1);
 		}
 		*/
 
-		static ::RPG::Client::MongoObjectId GenerateNew_2(::System::UInt32 timestamp)
+		static ::RPG::Client::MongoObjectId GenerateNew_2(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::MongoObjectId(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_GENERATENEW_2_OFFSET))(timestamp);
+			return ((::RPG::Client::MongoObjectId(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID_GENERATENEW_2_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::MongoObjectId _Create(::System::UInt32 timestamp, ::System::UInt64 randomPart, ::System::UInt32 incCounter)
+		static ::RPG::Client::MongoObjectId _Create(::System::UInt32 a1, ::System::UInt64 a2, ::System::UInt32 a3)
 		{
-			return ((::RPG::Client::MongoObjectId(*)(::System::UInt32, ::System::UInt64, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID__CREATE_OFFSET))(timestamp, randomPart, incCounter);
+			return ((::RPG::Client::MongoObjectId(*)(::System::UInt32, ::System::UInt64, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID__CREATE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void _FromByteArray(::Il2CppArray<::System::Byte>* buf, ::System::Int32 offset, ::System::UInt32& loPart, ::System::UInt32& miPart, ::System::UInt32& hiPart)
+		static ::System::Void _FromByteArray(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::UInt32& a3, ::System::UInt32& a4, ::System::UInt32& a5)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::UInt32&, ::System::UInt32&, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID__FROMBYTEARRAY_OFFSET))(buf, offset, loPart, miPart, hiPart);
+			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::UInt32&, ::System::UInt32&, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONGOOBJECTID__FROMBYTEARRAY_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		::System::UInt32 get_CreationTimestamp()

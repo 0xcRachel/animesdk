@@ -5,26 +5,26 @@
 namespace System { class Exception; }
 namespace TapTap::Sdk { class AccessToken; }
 
-#define TAPTAP_SDK_LOGINRESULT_GET_ISCANCELED_OFFSET UNITYSDK_OFFSET(0x1A61F870)
-#define TAPTAP_SDK_LOGINRESULT_GET_ISFAULTED_OFFSET UNITYSDK_OFFSET(0x1A61F890)
-#define TAPTAP_SDK_LOGINRESULT_GET_TOKEN_OFFSET UNITYSDK_OFFSET(0x1A61F8C0)
-#define TAPTAP_SDK_LOGINRESULT_SET_EXCEPTION_OFFSET UNITYSDK_OFFSET(0x1A61F8B0)
-#define TAPTAP_SDK_LOGINRESULT_SET_ISCANCELED_OFFSET UNITYSDK_OFFSET(0x1A61F880)
-#define TAPTAP_SDK_LOGINRESULT_SET_ISFAULTED_OFFSET UNITYSDK_OFFSET(0x1A61F8A0)
-#define TAPTAP_SDK_LOGINRESULT_SET_TOKEN_OFFSET UNITYSDK_OFFSET(0x1A61F8D0)
-#define TAPTAP_SDK_LOGINRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A61F2B0)
+#define TAPTAP_SDK_LOGINRESULT_GET_ISCANCELED_OFFSET UNITYSDK_OFFSET(0x1B4662D0)
+#define TAPTAP_SDK_LOGINRESULT_GET_ISFAULTED_OFFSET UNITYSDK_OFFSET(0x1B4662F0)
+#define TAPTAP_SDK_LOGINRESULT_GET_TOKEN_OFFSET UNITYSDK_OFFSET(0x1B466320)
+#define TAPTAP_SDK_LOGINRESULT_SET_EXCEPTION_OFFSET UNITYSDK_OFFSET(0x1B466310)
+#define TAPTAP_SDK_LOGINRESULT_SET_ISCANCELED_OFFSET UNITYSDK_OFFSET(0x1B4662E0)
+#define TAPTAP_SDK_LOGINRESULT_SET_ISFAULTED_OFFSET UNITYSDK_OFFSET(0x1B466300)
+#define TAPTAP_SDK_LOGINRESULT_SET_TOKEN_OFFSET UNITYSDK_OFFSET(0x1B466330)
+#define TAPTAP_SDK_LOGINRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B466180)
 
 namespace TapTap::Sdk
 {
-	inline static constexpr unsigned int LoginResult_TypeDefinitionIndex = 6460;
+	inline static constexpr unsigned int LoginResult_TypeDefinitionIndex = 7076;
 
 	class LoginResult : public ::System::Object
 	{
 	public:
 		::TapTap::Sdk::AccessToken* _Token_k__BackingField; // 0x10
 		::System::Exception* _Exception_k__BackingField; // 0x18
-		::System::Boolean _IsCanceled_k__BackingField; // 0x20
-		::System::Boolean _IsFaulted_k__BackingField; // 0x21
+		::System::Boolean _IsFaulted_k__BackingField; // 0x20
+		::System::Boolean _IsCanceled_k__BackingField; // 0x21
 
 		::System::Void _ctor()
 		{
@@ -36,9 +36,9 @@ namespace TapTap::Sdk
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + TAPTAP_SDK_LOGINRESULT_GET_ISCANCELED_OFFSET))(this);
 		}
 
-		::System::Void set_IsCanceled(::System::Boolean value)
+		::System::Void set_IsCanceled(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + TAPTAP_SDK_LOGINRESULT_SET_ISCANCELED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + TAPTAP_SDK_LOGINRESULT_SET_ISCANCELED_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsFaulted()
@@ -46,14 +46,14 @@ namespace TapTap::Sdk
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + TAPTAP_SDK_LOGINRESULT_GET_ISFAULTED_OFFSET))(this);
 		}
 
-		::System::Void set_IsFaulted(::System::Boolean value)
+		::System::Void set_IsFaulted(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + TAPTAP_SDK_LOGINRESULT_SET_ISFAULTED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + TAPTAP_SDK_LOGINRESULT_SET_ISFAULTED_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Exception(::System::Exception* value)
+		::System::Void set_Exception(::System::Exception* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_LOGINRESULT_SET_EXCEPTION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_LOGINRESULT_SET_EXCEPTION_OFFSET))(this, a1);
 		}
 
 		::TapTap::Sdk::AccessToken* get_Token()
@@ -61,9 +61,9 @@ namespace TapTap::Sdk
 			return ((::TapTap::Sdk::AccessToken*(*)(::PVOID))((::PBYTE)hIl2Cpp + TAPTAP_SDK_LOGINRESULT_GET_TOKEN_OFFSET))(this);
 		}
 
-		::System::Void set_Token(::TapTap::Sdk::AccessToken* value)
+		::System::Void set_Token(::TapTap::Sdk::AccessToken* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::TapTap::Sdk::AccessToken*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_LOGINRESULT_SET_TOKEN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::TapTap::Sdk::AccessToken*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_LOGINRESULT_SET_TOKEN_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_BINARYPREFABINSTANTIATEREQUEST_GET_ASSET_OFFSET UNITYSDK_OFFSET(0x1A750680)
-#define UNITYENGINE_BINARYPREFABINSTANTIATEREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A750690)
+#define UNITYENGINE_BINARYPREFABINSTANTIATEREQUEST_GET_ASSET_OFFSET UNITYSDK_OFFSET(0x1B571060)
+#define UNITYENGINE_BINARYPREFABINSTANTIATEREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B571070)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int BinaryPrefabInstantiateRequest_TypeDefinitionIndex = 5418;
+	inline static constexpr unsigned int BinaryPrefabInstantiateRequest_TypeDefinitionIndex = 5695;
 
 	class BinaryPrefabInstantiateRequest : public ::UnityEngine::AsyncOperation
 	{

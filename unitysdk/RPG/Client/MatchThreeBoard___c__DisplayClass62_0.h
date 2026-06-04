@@ -6,19 +6,19 @@ namespace RPG::Client { class MatchThreeBoard; }
 namespace RPG::Client { class MatchThreeTimedEffect; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS62_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16F71120)
-#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS62_0___PLAYMATCHEDEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x16F75270)
+#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS62_0__CTOR_OFFSET UNITYSDK_OFFSET(0x197432D0)
+#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS62_0___PLAYMATCHEDEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x197432E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass62_0_TypeDefinitionIndex = 60688;
+	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass62_0_TypeDefinitionIndex = 61622;
 
 	class MatchThreeBoard___c__DisplayClass62_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::MatchThreeTimedEffect* matchEffect; // 0x10
+		::System::Action* onFinish; // 0x10
 		::RPG::Client::MatchThreeBoard* __4__this; // 0x18
-		::System::Action* onFinish; // 0x20
+		::RPG::Client::MatchThreeTimedEffect* matchEffect; // 0x20
 
 		::System::Void _ctor()
 		{

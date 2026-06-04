@@ -6,17 +6,17 @@
 namespace RPG::GameCore { class InfiniteWaveNextMonsterId; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0A64B6FBBB74CA97_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE60E2C0)
-#define CLASS_3_0A64B6FBBB74CA97__CTOR_OFFSET UNITYSDK_OFFSET(0xE60E080)
+#define CLASS_3_0A64B6FBBB74CA97_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF3F1530)
+#define CLASS_3_0A64B6FBBB74CA97__CTOR_OFFSET UNITYSDK_OFFSET(0xF3F12F0)
 
-inline static constexpr unsigned int Class_3_0A64B6FBBB74CA97_TypeDefinitionIndex = 50812;
+inline static constexpr unsigned int Class_3_0A64B6FBBB74CA97_TypeDefinitionIndex = 51480;
 
 class Class_3_0A64B6FBBB74CA97 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::InfiniteWaveNextMonsterId*>
 {
 public:
-	::RPG::GameCore::StringHash Field_3_2; // 0x28
-	::RPG::GameCore::StringHash Field_3_0; // 0x2C
-	::RPG::GameCore::StringHash Field_3_1; // 0x30
+	::RPG::GameCore::StringHash Field_3_0; // 0x28
+	::RPG::GameCore::StringHash Field_3_1; // 0x2C
+	::RPG::GameCore::StringHash Field_3_2; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::InfiniteWaveNextMonsterId* a2)
 	{

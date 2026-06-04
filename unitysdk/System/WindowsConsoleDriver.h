@@ -6,16 +6,16 @@
 #include "unitysdk/System/InputRecord.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_WINDOWSCONSOLEDRIVER_GETCONSOLESCREENBUFFERINFO_OFFSET UNITYSDK_OFFSET(0x1A67C8E0)
-#define SYSTEM_WINDOWSCONSOLEDRIVER_GETSTDHANDLE_OFFSET UNITYSDK_OFFSET(0x1A67C820)
-#define SYSTEM_WINDOWSCONSOLEDRIVER_ISMODIFIERKEY_OFFSET UNITYSDK_OFFSET(0x1A67CD80)
-#define SYSTEM_WINDOWSCONSOLEDRIVER_READCONSOLEINPUT_OFFSET UNITYSDK_OFFSET(0x1A67CC40)
-#define SYSTEM_WINDOWSCONSOLEDRIVER_READKEY_OFFSET UNITYSDK_OFFSET(0x1A67C9B0)
-#define SYSTEM_WINDOWSCONSOLEDRIVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A67C5D0)
+#define SYSTEM_WINDOWSCONSOLEDRIVER_GETCONSOLESCREENBUFFERINFO_OFFSET UNITYSDK_OFFSET(0x1B4A7A90)
+#define SYSTEM_WINDOWSCONSOLEDRIVER_GETSTDHANDLE_OFFSET UNITYSDK_OFFSET(0x1B4A79D0)
+#define SYSTEM_WINDOWSCONSOLEDRIVER_ISMODIFIERKEY_OFFSET UNITYSDK_OFFSET(0x1B4A7F30)
+#define SYSTEM_WINDOWSCONSOLEDRIVER_READCONSOLEINPUT_OFFSET UNITYSDK_OFFSET(0x1B4A7DF0)
+#define SYSTEM_WINDOWSCONSOLEDRIVER_READKEY_OFFSET UNITYSDK_OFFSET(0x1B4A7B60)
+#define SYSTEM_WINDOWSCONSOLEDRIVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4A7780)
 
 namespace System
 {
-	inline static constexpr unsigned int WindowsConsoleDriver_TypeDefinitionIndex = 460;
+	inline static constexpr unsigned int WindowsConsoleDriver_TypeDefinitionIndex = 459;
 
 	class WindowsConsoleDriver : public ::System::Object
 	{
@@ -29,29 +29,29 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_WINDOWSCONSOLEDRIVER__CTOR_OFFSET))(this);
 		}
 
-		::System::ConsoleKeyInfo ReadKey(::System::Boolean intercept)
+		::System::ConsoleKeyInfo ReadKey(::System::Boolean a1)
 		{
-			return ((::System::ConsoleKeyInfo(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_WINDOWSCONSOLEDRIVER_READKEY_OFFSET))(this, intercept);
+			return ((::System::ConsoleKeyInfo(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_WINDOWSCONSOLEDRIVER_READKEY_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean IsModifierKey(::System::Int16 virtualKeyCode)
+		static ::System::Boolean IsModifierKey(::System::Int16 a1)
 		{
-			return ((::System::Boolean(*)(::System::Int16))((::PBYTE)hIl2Cpp + SYSTEM_WINDOWSCONSOLEDRIVER_ISMODIFIERKEY_OFFSET))(virtualKeyCode);
+			return ((::System::Boolean(*)(::System::Int16))((::PBYTE)hIl2Cpp + SYSTEM_WINDOWSCONSOLEDRIVER_ISMODIFIERKEY_OFFSET))(a1);
 		}
 
-		static ::System::IntPtr GetStdHandle(::System::Handles handle)
+		static ::System::IntPtr GetStdHandle(::System::Handles a1)
 		{
-			return ((::System::IntPtr(*)(::System::Handles))((::PBYTE)hIl2Cpp + SYSTEM_WINDOWSCONSOLEDRIVER_GETSTDHANDLE_OFFSET))(handle);
+			return ((::System::IntPtr(*)(::System::Handles))((::PBYTE)hIl2Cpp + SYSTEM_WINDOWSCONSOLEDRIVER_GETSTDHANDLE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean GetConsoleScreenBufferInfo(::System::IntPtr handle, ::System::ConsoleScreenBufferInfo& info)
+		static ::System::Boolean GetConsoleScreenBufferInfo(::System::IntPtr a1, ::System::ConsoleScreenBufferInfo& a2)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr, ::System::ConsoleScreenBufferInfo&))((::PBYTE)hIl2Cpp + SYSTEM_WINDOWSCONSOLEDRIVER_GETCONSOLESCREENBUFFERINFO_OFFSET))(handle, info);
+			return ((::System::Boolean(*)(::System::IntPtr, ::System::ConsoleScreenBufferInfo&))((::PBYTE)hIl2Cpp + SYSTEM_WINDOWSCONSOLEDRIVER_GETCONSOLESCREENBUFFERINFO_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean ReadConsoleInput(::System::IntPtr handle, ::System::InputRecord& record, ::System::Int32 length, ::System::Int32& nread)
+		static ::System::Boolean ReadConsoleInput(::System::IntPtr a1, ::System::InputRecord& a2, ::System::Int32 a3, ::System::Int32& a4)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr, ::System::InputRecord&, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_WINDOWSCONSOLEDRIVER_READCONSOLEINPUT_OFFSET))(handle, record, length, nread);
+			return ((::System::Boolean(*)(::System::IntPtr, ::System::InputRecord&, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_WINDOWSCONSOLEDRIVER_READCONSOLEINPUT_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

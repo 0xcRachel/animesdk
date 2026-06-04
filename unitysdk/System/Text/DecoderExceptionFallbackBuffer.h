@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Text/DecoderFallbackBuffer.h"
 
-#define SYSTEM_TEXT_DECODEREXCEPTIONFALLBACKBUFFER_FALLBACK_OFFSET UNITYSDK_OFFSET(0x16DCC980)
-#define SYSTEM_TEXT_DECODEREXCEPTIONFALLBACKBUFFER_GETNEXTCHAR_OFFSET UNITYSDK_OFFSET(0x16DCD240)
-#define SYSTEM_TEXT_DECODEREXCEPTIONFALLBACKBUFFER_GET_REMAINING_OFFSET UNITYSDK_OFFSET(0x16DCD250)
-#define SYSTEM_TEXT_DECODEREXCEPTIONFALLBACKBUFFER_THROW_OFFSET UNITYSDK_OFFSET(0x16DCC990)
-#define SYSTEM_TEXT_DECODEREXCEPTIONFALLBACKBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x16DCC930)
+#define SYSTEM_TEXT_DECODEREXCEPTIONFALLBACKBUFFER_FALLBACK_OFFSET UNITYSDK_OFFSET(0x142F2230)
+#define SYSTEM_TEXT_DECODEREXCEPTIONFALLBACKBUFFER_GETNEXTCHAR_OFFSET UNITYSDK_OFFSET(0x142F2A40)
+#define SYSTEM_TEXT_DECODEREXCEPTIONFALLBACKBUFFER_GET_REMAINING_OFFSET UNITYSDK_OFFSET(0x142F2A50)
+#define SYSTEM_TEXT_DECODEREXCEPTIONFALLBACKBUFFER_THROW_OFFSET UNITYSDK_OFFSET(0x142F2240)
+#define SYSTEM_TEXT_DECODEREXCEPTIONFALLBACKBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x142F21E0)
 
 namespace System::Text
 {
-	inline static constexpr unsigned int DecoderExceptionFallbackBuffer_TypeDefinitionIndex = 469;
+	inline static constexpr unsigned int DecoderExceptionFallbackBuffer_TypeDefinitionIndex = 468;
 
 	class DecoderExceptionFallbackBuffer : public ::System::Text::DecoderFallbackBuffer
 	{
@@ -20,9 +20,9 @@ namespace System::Text
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODEREXCEPTIONFALLBACKBUFFER__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Fallback(::Il2CppArray<::System::Byte>* bytesUnknown, ::System::Int32 index)
+		::System::Boolean Fallback(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODEREXCEPTIONFALLBACKBUFFER_FALLBACK_OFFSET))(this, bytesUnknown, index);
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODEREXCEPTIONFALLBACKBUFFER_FALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Char GetNextChar()
@@ -35,9 +35,9 @@ namespace System::Text
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODEREXCEPTIONFALLBACKBUFFER_GET_REMAINING_OFFSET))(this);
 		}
 
-		::System::Void Throw(::Il2CppArray<::System::Byte>* bytesUnknown, ::System::Int32 index)
+		::System::Void Throw(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODEREXCEPTIONFALLBACKBUFFER_THROW_OFFSET))(this, bytesUnknown, index);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODEREXCEPTIONFALLBACKBUFFER_THROW_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -2,34 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D17272E82AE804C2_923;
+class Class_1_D17272E82AE804C2_959;
 namespace RPG::Client { class ActivitySummonLevel; }
 namespace RPG::Client { class ActivitySummonStage; }
 
-#define RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_CREATE_OFFSET UNITYSDK_OFFSET(0x17099FB0)
-#define RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x17099F60)
-#define RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_GET_ROUND_OFFSET UNITYSDK_OFFSET(0x17099F90)
-#define RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_GET_STAGE_OFFSET UNITYSDK_OFFSET(0x17099F50)
-#define RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_GET_STARS_OFFSET UNITYSDK_OFFSET(0x17099F70)
-#define RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_SET_ROUND_OFFSET UNITYSDK_OFFSET(0x17099FA0)
-#define RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_SET_STARS_OFFSET UNITYSDK_OFFSET(0x17099F80)
-#define RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1709A260)
+#define RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_CREATE_OFFSET UNITYSDK_OFFSET(0x1676AA00)
+#define RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1676A9B0)
+#define RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_GET_ROUND_OFFSET UNITYSDK_OFFSET(0x1676A9E0)
+#define RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_GET_STAGE_OFFSET UNITYSDK_OFFSET(0x1676A9A0)
+#define RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_GET_STARS_OFFSET UNITYSDK_OFFSET(0x1676A9C0)
+#define RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_SET_ROUND_OFFSET UNITYSDK_OFFSET(0x1676A9F0)
+#define RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_SET_STARS_OFFSET UNITYSDK_OFFSET(0x1676A9D0)
+#define RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1676ACB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivitySummonBattleResult_TypeDefinitionIndex = 57112;
+	inline static constexpr unsigned int ActivitySummonBattleResult_TypeDefinitionIndex = 57902;
 
 	class ActivitySummonBattleResult : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivitySummonLevel* _Level; // 0x10
-		::RPG::Client::ActivitySummonStage* _Stage; // 0x18
-		::System::UInt32 _Round_k__BackingField; // 0x20
-		::System::UInt32 _Stars_k__BackingField; // 0x24
+		::RPG::Client::ActivitySummonStage* _Stage; // 0x10
+		::RPG::Client::ActivitySummonLevel* _Level; // 0x18
+		::System::UInt32 _Stars_k__BackingField; // 0x20
+		::System::UInt32 _Round_k__BackingField; // 0x24
 
-		::System::Void _ctor(::RPG::Client::ActivitySummonStage* stage, ::RPG::Client::ActivitySummonLevel* level)
+		::System::Void _ctor(::RPG::Client::ActivitySummonStage* a1, ::RPG::Client::ActivitySummonLevel* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivitySummonStage*, ::RPG::Client::ActivitySummonLevel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT__CTOR_OFFSET))(this, stage, level);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivitySummonStage*, ::RPG::Client::ActivitySummonLevel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::ActivitySummonStage* get_Stage()
@@ -47,9 +47,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_GET_STARS_OFFSET))(this);
 		}
 
-		::System::Void set_Stars(::System::UInt32 value)
+		::System::Void set_Stars(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_SET_STARS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_SET_STARS_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_Round()
@@ -57,14 +57,14 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_GET_ROUND_OFFSET))(this);
 		}
 
-		::System::Void set_Round(::System::UInt32 value)
+		::System::Void set_Round(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_SET_ROUND_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_SET_ROUND_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::ActivitySummonBattleResult* Create(::Class_1_D17272E82AE804C2_923* ntf)
+		static ::RPG::Client::ActivitySummonBattleResult* Create(::Class_1_D17272E82AE804C2_959* a1)
 		{
-			return ((::RPG::Client::ActivitySummonBattleResult*(*)(::Class_1_D17272E82AE804C2_923*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_CREATE_OFFSET))(ntf);
+			return ((::RPG::Client::ActivitySummonBattleResult*(*)(::Class_1_D17272E82AE804C2_959*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONBATTLERESULT_CREATE_OFFSET))(a1);
 		}
 	};
 }

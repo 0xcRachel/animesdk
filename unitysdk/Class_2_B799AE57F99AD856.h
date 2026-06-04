@@ -3,31 +3,31 @@
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
 class Class_1_F3391C70DC37088D;
-class Class_3_E21F6DE9B7FA4D05;
+class Class_3_07C3C4D2990C49EE;
 namespace RPG::Client::Prop { class BlockPuzzleBase; }
 namespace RPG::GameCore { class CommonBoardPuzzleInBoard; }
 namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_B799AE57F99AD856_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12C7E830)
-#define CLASS_2_B799AE57F99AD856_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12C7EB80)
-#define CLASS_2_B799AE57F99AD856_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12C7EBD0)
-#define CLASS_2_B799AE57F99AD856_TICK_OFFSET UNITYSDK_OFFSET(0x12C7E8D0)
-#define CLASS_2_B799AE57F99AD856__CTOR_OFFSET UNITYSDK_OFFSET(0x12C7E6A0)
+#define CLASS_2_B799AE57F99AD856_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15F152A0)
+#define CLASS_2_B799AE57F99AD856_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15F155F0)
+#define CLASS_2_B799AE57F99AD856_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15F15640)
+#define CLASS_2_B799AE57F99AD856_TICK_OFFSET UNITYSDK_OFFSET(0x15F15340)
+#define CLASS_2_B799AE57F99AD856__CTOR_OFFSET UNITYSDK_OFFSET(0x15F15100)
 
-inline static constexpr unsigned int Class_2_B799AE57F99AD856_TypeDefinitionIndex = 53519;
+inline static constexpr unsigned int Class_2_B799AE57F99AD856_TypeDefinitionIndex = 54232;
 
 class Class_2_B799AE57F99AD856 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_1_F3391C70DC37088D* Field_2_7; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_2; // 0x20
-	::RPG::GameCore::CommonBoardPuzzleInBoard* Field_2_3; // 0x28
-	::Class_1_F3391C70DC37088D* Field_2_6; // 0x30
-	::Class_3_E21F6DE9B7FA4D05* Field_2_5; // 0x38
-	::Class_3_E21F6DE9B7FA4D05* Field_2_4; // 0x40
-	::RPG::Client::Prop::BlockPuzzleBase* Field_2_1; // 0x48
-	::RPG::GameCore::PropComponent* Field_2_0; // 0x50
+	::RPG::GameCore::PropComponent* Field_2_0; // 0x18
+	::Class_3_07C3C4D2990C49EE* Field_2_1; // 0x20
+	::Class_1_F3391C70DC37088D* Field_2_2; // 0x28
+	::Class_1_F3391C70DC37088D* Field_2_3; // 0x30
+	::RPG::GameCore::TaskContext* Field_2_4; // 0x38
+	::Class_3_07C3C4D2990C49EE* Field_2_5; // 0x40
+	::RPG::GameCore::CommonBoardPuzzleInBoard* Field_2_6; // 0x48
+	::RPG::Client::Prop::BlockPuzzleBase* Field_2_7; // 0x50
 	::System::Boolean Field_2_8; // 0x58
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CommonBoardPuzzleInBoard* a2)

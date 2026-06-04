@@ -7,23 +7,23 @@
 namespace RPG::Client::Prop { class ChimeraDuelBubbleEvent; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT___C__DISPLAYCLASS1_0__CREATEFACTORY_B__0_OFFSET UNITYSDK_OFFSET(0x15818920)
-#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15818780)
+#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT___C__DISPLAYCLASS1_0__CREATEFACTORY_B__0_OFFSET UNITYSDK_OFFSET(0x166D3E10)
+#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEEVENT___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x166D3C70)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelBubbleEvent___c__DisplayClass1_0_TypeDefinitionIndex = 71774;
+	inline static constexpr unsigned int ChimeraDuelBubbleEvent___c__DisplayClass1_0_TypeDefinitionIndex = 72796;
 
 	class ChimeraDuelBubbleEvent___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
 		::System::Func_1<::System::Single>* getDuration; // 0x10
-		::System::Int32 arg; // 0x18
-		::System::UInt32 skillID; // 0x1C
-		::RPG::GameCore::ChimeraDuelTeamType teamType; // 0x20
+		::RPG::GameCore::ChimeraDuelBubbleEventType eventType; // 0x18
+		::System::Int32 arg; // 0x1C
+		::System::Int32 uniqueID; // 0x20
 		::System::UInt32 configID; // 0x24
-		::RPG::GameCore::ChimeraDuelBubbleEventType eventType; // 0x28
-		::System::Int32 uniqueID; // 0x2C
+		::System::UInt32 skillID; // 0x28
+		::RPG::GameCore::ChimeraDuelTeamType teamType; // 0x2C
 
 		::System::Void _ctor()
 		{

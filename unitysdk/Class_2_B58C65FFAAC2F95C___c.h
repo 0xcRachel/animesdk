@@ -5,22 +5,22 @@
 class Class_2_B58C65FFAAC2F95C_Class_1_FA7091ADF2A6A8DC;
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_2_B58C65FFAAC2F95C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE113320)
-#define CLASS_2_B58C65FFAAC2F95C___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE113350)
-#define CLASS_2_B58C65FFAAC2F95C___C__GETCONTENT_B__8_0_OFFSET UNITYSDK_OFFSET(0xE113360)
+#define CLASS_2_B58C65FFAAC2F95C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x173EDFB0)
+#define CLASS_2_B58C65FFAAC2F95C___C__CTOR_OFFSET UNITYSDK_OFFSET(0x173EDFE0)
+#define CLASS_2_B58C65FFAAC2F95C___C__GETCONTENT_B__8_0_OFFSET UNITYSDK_OFFSET(0x173EDFF0)
 
-inline static constexpr unsigned int Class_2_B58C65FFAAC2F95C___c_TypeDefinitionIndex = 63448;
+inline static constexpr unsigned int Class_2_B58C65FFAAC2F95C___c_TypeDefinitionIndex = 64365;
 
 class Class_2_B58C65FFAAC2F95C___c : public ::System::Object
 {
 public:
 	static ::System::Comparison_1<::Class_2_B58C65FFAAC2F95C_Class_1_FA7091ADF2A6A8DC*>** StaticGet___9__8_0()
 	{
-		return (::System::Comparison_1<::Class_2_B58C65FFAAC2F95C_Class_1_FA7091ADF2A6A8DC*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_B58C65FFAAC2F95C___c_TypeDefinitionIndex)->GetStaticField(0x5B0A0);
+		return (::System::Comparison_1<::Class_2_B58C65FFAAC2F95C_Class_1_FA7091ADF2A6A8DC*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_B58C65FFAAC2F95C___c_TypeDefinitionIndex)->GetStaticField(0x51160);
 	}
 	static ::Class_2_B58C65FFAAC2F95C___c** StaticGet___9()
 	{
-		return (::Class_2_B58C65FFAAC2F95C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_B58C65FFAAC2F95C___c_TypeDefinitionIndex)->GetStaticField(0x5B0A8);
+		return (::Class_2_B58C65FFAAC2F95C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_B58C65FFAAC2F95C___c_TypeDefinitionIndex)->GetStaticField(0x51168);
 	}
 
 	static ::System::Void _cctor()
@@ -33,8 +33,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B58C65FFAAC2F95C___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Int32 _GetContent_b__8_0(::Class_2_B58C65FFAAC2F95C_Class_1_FA7091ADF2A6A8DC* a, ::Class_2_B58C65FFAAC2F95C_Class_1_FA7091ADF2A6A8DC* b)
+	::System::Int32 _GetContent_b__8_0(::Class_2_B58C65FFAAC2F95C_Class_1_FA7091ADF2A6A8DC* a1, ::Class_2_B58C65FFAAC2F95C_Class_1_FA7091ADF2A6A8DC* a2)
 	{
-		return ((::System::Int32(*)(::PVOID, ::Class_2_B58C65FFAAC2F95C_Class_1_FA7091ADF2A6A8DC*, ::Class_2_B58C65FFAAC2F95C_Class_1_FA7091ADF2A6A8DC*))((::PBYTE)hIl2Cpp + CLASS_2_B58C65FFAAC2F95C___C__GETCONTENT_B__8_0_OFFSET))(this, a, b);
+		return ((::System::Int32(*)(::PVOID, ::Class_2_B58C65FFAAC2F95C_Class_1_FA7091ADF2A6A8DC*, ::Class_2_B58C65FFAAC2F95C_Class_1_FA7091ADF2A6A8DC*))((::PBYTE)hIl2Cpp + CLASS_2_B58C65FFAAC2F95C___C__GETCONTENT_B__8_0_OFFSET))(this, a1, a2);
 	}
 };

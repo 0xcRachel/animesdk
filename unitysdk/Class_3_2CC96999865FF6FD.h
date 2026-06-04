@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class LockFov; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2CC96999865FF6FD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF593A70)
-#define CLASS_3_2CC96999865FF6FD__CTOR_OFFSET UNITYSDK_OFFSET(0xF593A40)
+#define CLASS_3_2CC96999865FF6FD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13B916B0)
+#define CLASS_3_2CC96999865FF6FD__CTOR_OFFSET UNITYSDK_OFFSET(0x13B91680)
 
-inline static constexpr unsigned int Class_3_2CC96999865FF6FD_TypeDefinitionIndex = 48862;
+inline static constexpr unsigned int Class_3_2CC96999865FF6FD_TypeDefinitionIndex = 49528;
 
 class Class_3_2CC96999865FF6FD : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::LockFov*>
 {

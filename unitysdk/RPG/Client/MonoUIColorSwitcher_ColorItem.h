@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MONOUICOLORSWITCHER_COLORITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x16301760)
+#define RPG_CLIENT_MONOUICOLORSWITCHER_COLORITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x187E29C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIColorSwitcher_ColorItem_TypeDefinitionIndex = 63580;
+	inline static constexpr unsigned int MonoUIColorSwitcher_ColorItem_TypeDefinitionIndex = 64501;
 
 	class MonoUIColorSwitcher_ColorItem : public ::System::Object
 	{

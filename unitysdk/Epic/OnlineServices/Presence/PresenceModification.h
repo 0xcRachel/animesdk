@@ -9,18 +9,18 @@ namespace Epic::OnlineServices::Presence { class PresenceModificationSetJoinInfo
 namespace Epic::OnlineServices::Presence { class PresenceModificationSetRawRichTextOptions; }
 namespace Epic::OnlineServices::Presence { class PresenceModificationSetStatusOptions; }
 
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_DELETEDATA_OFFSET UNITYSDK_OFFSET(0x196070A0)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_RELEASE_OFFSET UNITYSDK_OFFSET(0x19607200)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_SETDATA_OFFSET UNITYSDK_OFFSET(0x19607280)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_SETJOININFO_OFFSET UNITYSDK_OFFSET(0x196073E0)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_SETRAWRICHTEXT_OFFSET UNITYSDK_OFFSET(0x196075E0)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_SETSTATUS_OFFSET UNITYSDK_OFFSET(0x196077E0)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19607090)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION__CTOR_OFFSET UNITYSDK_OFFSET(0x19607080)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_DELETEDATA_OFFSET UNITYSDK_OFFSET(0x1A3CADC0)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_RELEASE_OFFSET UNITYSDK_OFFSET(0x1A3CAFC0)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_SETDATA_OFFSET UNITYSDK_OFFSET(0x1A3CB040)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_SETJOININFO_OFFSET UNITYSDK_OFFSET(0x1A3CB240)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_SETRAWRICHTEXT_OFFSET UNITYSDK_OFFSET(0x1A3CB440)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_SETSTATUS_OFFSET UNITYSDK_OFFSET(0x1A3CB640)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A3CADB0)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3CADA0)
 
 namespace Epic::OnlineServices::Presence
 {
-	inline static constexpr unsigned int PresenceModification_TypeDefinitionIndex = 41603;
+	inline static constexpr unsigned int PresenceModification_TypeDefinitionIndex = 42406;
 
 	class PresenceModification : public ::Epic::OnlineServices::Handle
 	{
@@ -38,14 +38,14 @@ namespace Epic::OnlineServices::Presence
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result DeleteData(::Epic::OnlineServices::Presence::PresenceModificationDeleteDataOptions* options)
+		::Epic::OnlineServices::Result DeleteData(::Epic::OnlineServices::Presence::PresenceModificationDeleteDataOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Presence::PresenceModificationDeleteDataOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_DELETEDATA_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Presence::PresenceModificationDeleteDataOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_DELETEDATA_OFFSET))(this, a1);
 		}
 
 		::System::Void Release()
@@ -53,24 +53,24 @@ namespace Epic::OnlineServices::Presence
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_RELEASE_OFFSET))(this);
 		}
 
-		::Epic::OnlineServices::Result SetData(::Epic::OnlineServices::Presence::PresenceModificationSetDataOptions* options)
+		::Epic::OnlineServices::Result SetData(::Epic::OnlineServices::Presence::PresenceModificationSetDataOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Presence::PresenceModificationSetDataOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_SETDATA_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Presence::PresenceModificationSetDataOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_SETDATA_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SetJoinInfo(::Epic::OnlineServices::Presence::PresenceModificationSetJoinInfoOptions* options)
+		::Epic::OnlineServices::Result SetJoinInfo(::Epic::OnlineServices::Presence::PresenceModificationSetJoinInfoOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Presence::PresenceModificationSetJoinInfoOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_SETJOININFO_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Presence::PresenceModificationSetJoinInfoOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_SETJOININFO_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SetRawRichText(::Epic::OnlineServices::Presence::PresenceModificationSetRawRichTextOptions* options)
+		::Epic::OnlineServices::Result SetRawRichText(::Epic::OnlineServices::Presence::PresenceModificationSetRawRichTextOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Presence::PresenceModificationSetRawRichTextOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_SETRAWRICHTEXT_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Presence::PresenceModificationSetRawRichTextOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_SETRAWRICHTEXT_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SetStatus(::Epic::OnlineServices::Presence::PresenceModificationSetStatusOptions* options)
+		::Epic::OnlineServices::Result SetStatus(::Epic::OnlineServices::Presence::PresenceModificationSetStatusOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Presence::PresenceModificationSetStatusOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_SETSTATUS_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Presence::PresenceModificationSetStatusOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATION_SETSTATUS_OFFSET))(this, a1);
 		}
 	};
 }

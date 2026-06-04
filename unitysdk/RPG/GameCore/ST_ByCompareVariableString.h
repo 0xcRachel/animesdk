@@ -3,15 +3,18 @@
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_BYCOMPAREVARIABLESTRING_METHOD_4_4451AD2F76E73CD4_OFFSET UNITYSDK_OFFSET(0x18E9D2C0)
-#define RPG_GAMECORE_ST_BYCOMPAREVARIABLESTRING_METHOD_4_B65510496ECC4C40_OFFSET UNITYSDK_OFFSET(0x18E9D1F0)
-#define RPG_GAMECORE_ST_BYCOMPAREVARIABLESTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x18E9D270)
+#define RPG_GAMECORE_ST_BYCOMPAREVARIABLESTRING_METHOD_4_4451AD2F76E73CD4_OFFSET UNITYSDK_OFFSET(0x1A1793D0)
+#define RPG_GAMECORE_ST_BYCOMPAREVARIABLESTRING_METHOD_4_4FA1BA116FF21770_OFFSET UNITYSDK_OFFSET(0x1A1795D0)
+#define RPG_GAMECORE_ST_BYCOMPAREVARIABLESTRING_METHOD_4_B65510496ECC4C40_OFFSET UNITYSDK_OFFSET(0x1A179300)
+#define RPG_GAMECORE_ST_BYCOMPAREVARIABLESTRING_METHOD_4_E45EA8242CFD4BA1_OFFSET UNITYSDK_OFFSET(0x1A179650)
+#define RPG_GAMECORE_ST_BYCOMPAREVARIABLESTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A179380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_ByCompareVariableString_TypeDefinitionIndex = 18997;
+	inline static constexpr unsigned int ST_ByCompareVariableString_TypeDefinitionIndex = 18949;
 
 	class ST_ByCompareVariableString : public ::RPG::GameCore::PredicateConfig
 	{
@@ -33,6 +36,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_4451AD2F76E73CD4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_ByCompareVariableString* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_ByCompareVariableString*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_BYCOMPAREVARIABLESTRING_METHOD_4_4451AD2F76E73CD4_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_4FA1BA116FF21770(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ST_ByCompareVariableString*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ST_ByCompareVariableString*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_BYCOMPAREVARIABLESTRING_METHOD_4_4FA1BA116FF21770_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_E45EA8242CFD4BA1(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ST_ByCompareVariableString* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ST_ByCompareVariableString*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_BYCOMPAREVARIABLESTRING_METHOD_4_E45EA8242CFD4BA1_OFFSET))(a1, a2);
 		}
 	};
 }

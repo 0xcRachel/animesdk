@@ -5,12 +5,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class SpecialEquip; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17310F80)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS3_0___UPDATEQUICKSTRATEGYSELECTEDEQUIPS_B__0_OFFSET UNITYSDK_OFFSET(0x17311760)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186533C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS3_0___UPDATEQUICKSTRATEGYSELECTEDEQUIPS_B__0_OFFSET UNITYSDK_OFFSET(0x18653C50)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int SpEquipInventoryDisplayData___c__DisplayClass3_0_TypeDefinitionIndex = 69499;
+	inline static constexpr unsigned int SpEquipInventoryDisplayData___c__DisplayClass3_0_TypeDefinitionIndex = 70311;
 
 	class SpEquipInventoryDisplayData___c__DisplayClass3_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS3_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __UpdateQuickStrategySelectedEquips_b__0(::RPG::Client::ActivityIdleLive::SpecialEquip* x)
+		::System::Boolean __UpdateQuickStrategySelectedEquips_b__0(::RPG::Client::ActivityIdleLive::SpecialEquip* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::SpecialEquip*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS3_0___UPDATEQUICKSTRATEGYSELECTEDEQUIPS_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::SpecialEquip*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS3_0___UPDATEQUICKSTRATEGYSELECTEDEQUIPS_B__0_OFFSET))(this, a1);
 		}
 	};
 }

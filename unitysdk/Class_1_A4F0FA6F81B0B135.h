@@ -3,22 +3,22 @@
 #include "unitysdk/RPG/GameCore/MonopolyMapMoveType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_A4F0FA6F81B0B135_GET_CELLID_OFFSET UNITYSDK_OFFSET(0x16B174C0)
-#define CLASS_1_A4F0FA6F81B0B135_GET_MAPID_OFFSET UNITYSDK_OFFSET(0x16B174E0)
-#define CLASS_1_A4F0FA6F81B0B135_GET_MOVETYPE_OFFSET UNITYSDK_OFFSET(0x16B17500)
-#define CLASS_1_A4F0FA6F81B0B135_SET_CELLID_OFFSET UNITYSDK_OFFSET(0x16B174D0)
-#define CLASS_1_A4F0FA6F81B0B135_SET_MAPID_OFFSET UNITYSDK_OFFSET(0x16B174F0)
-#define CLASS_1_A4F0FA6F81B0B135_SET_MOVETYPE_OFFSET UNITYSDK_OFFSET(0x16B17510)
-#define CLASS_1_A4F0FA6F81B0B135__CTOR_OFFSET UNITYSDK_OFFSET(0x16B17520)
+#define CLASS_1_A4F0FA6F81B0B135_GET_CELLID_OFFSET UNITYSDK_OFFSET(0x180DBBA0)
+#define CLASS_1_A4F0FA6F81B0B135_GET_MAPID_OFFSET UNITYSDK_OFFSET(0x180DBBC0)
+#define CLASS_1_A4F0FA6F81B0B135_GET_MOVETYPE_OFFSET UNITYSDK_OFFSET(0x180DBBE0)
+#define CLASS_1_A4F0FA6F81B0B135_SET_CELLID_OFFSET UNITYSDK_OFFSET(0x180DBBB0)
+#define CLASS_1_A4F0FA6F81B0B135_SET_MAPID_OFFSET UNITYSDK_OFFSET(0x180DBBD0)
+#define CLASS_1_A4F0FA6F81B0B135_SET_MOVETYPE_OFFSET UNITYSDK_OFFSET(0x180DBBF0)
+#define CLASS_1_A4F0FA6F81B0B135__CTOR_OFFSET UNITYSDK_OFFSET(0x180DBC00)
 
-inline static constexpr unsigned int Class_1_A4F0FA6F81B0B135_TypeDefinitionIndex = 38806;
+inline static constexpr unsigned int Class_1_A4F0FA6F81B0B135_TypeDefinitionIndex = 39574;
 
 class Class_1_A4F0FA6F81B0B135 : public ::System::Object
 {
 public:
-	::System::UInt32 _CellID_k__BackingField; // 0x10
-	::RPG::GameCore::MonopolyMapMoveType _MoveType_k__BackingField; // 0x14
-	::System::UInt32 _MapID_k__BackingField; // 0x18
+	::RPG::GameCore::MonopolyMapMoveType _MoveType_k__BackingField; // 0x10
+	::System::UInt32 _MapID_k__BackingField; // 0x14
+	::System::UInt32 _CellID_k__BackingField; // 0x18
 
 	::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::GameCore::MonopolyMapMoveType a3)
 	{
@@ -30,9 +30,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4F0FA6F81B0B135_GET_CELLID_OFFSET))(this);
 	}
 
-	::System::Void set_CellID(::System::UInt32 value)
+	::System::Void set_CellID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_A4F0FA6F81B0B135_SET_CELLID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_A4F0FA6F81B0B135_SET_CELLID_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_MapID()
@@ -40,9 +40,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4F0FA6F81B0B135_GET_MAPID_OFFSET))(this);
 	}
 
-	::System::Void set_MapID(::System::UInt32 value)
+	::System::Void set_MapID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_A4F0FA6F81B0B135_SET_MAPID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_A4F0FA6F81B0B135_SET_MAPID_OFFSET))(this, a1);
 	}
 
 	::RPG::GameCore::MonopolyMapMoveType get_MoveType()
@@ -50,8 +50,8 @@ public:
 		return ((::RPG::GameCore::MonopolyMapMoveType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4F0FA6F81B0B135_GET_MOVETYPE_OFFSET))(this);
 	}
 
-	::System::Void set_MoveType(::RPG::GameCore::MonopolyMapMoveType value)
+	::System::Void set_MoveType(::RPG::GameCore::MonopolyMapMoveType a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MonopolyMapMoveType))((::PBYTE)hIl2Cpp + CLASS_1_A4F0FA6F81B0B135_SET_MOVETYPE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MonopolyMapMoveType))((::PBYTE)hIl2Cpp + CLASS_1_A4F0FA6F81B0B135_SET_MOVETYPE_OFFSET))(this, a1);
 	}
 };

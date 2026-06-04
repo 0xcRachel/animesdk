@@ -4,22 +4,22 @@
 
 namespace System { class Type; }
 
-#define SRF_SERVICE_SERVICEATTRIBUTE_GET_SERVICETYPE_OFFSET UNITYSDK_OFFSET(0x1A31A710)
-#define SRF_SERVICE_SERVICEATTRIBUTE_SET_SERVICETYPE_OFFSET UNITYSDK_OFFSET(0x1A31A720)
-#define SRF_SERVICE_SERVICEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A31A700)
+#define SRF_SERVICE_SERVICEATTRIBUTE_GET_SERVICETYPE_OFFSET UNITYSDK_OFFSET(0x1B2D08E0)
+#define SRF_SERVICE_SERVICEATTRIBUTE_SET_SERVICETYPE_OFFSET UNITYSDK_OFFSET(0x1B2D08F0)
+#define SRF_SERVICE_SERVICEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2D08D0)
 
 namespace SRF::Service
 {
-	inline static constexpr unsigned int ServiceAttribute_TypeDefinitionIndex = 33318;
+	inline static constexpr unsigned int ServiceAttribute_TypeDefinitionIndex = 33600;
 
 	class ServiceAttribute : public ::UnityEngine::Scripting::PreserveAttribute
 	{
 	public:
 		::System::Type* _ServiceType_k__BackingField; // 0x10
 
-		::System::Void _ctor(::System::Type* serviceType)
+		::System::Void _ctor(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SRF_SERVICE_SERVICEATTRIBUTE__CTOR_OFFSET))(this, serviceType);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SRF_SERVICE_SERVICEATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Type* get_ServiceType()
@@ -27,9 +27,9 @@ namespace SRF::Service
 			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_SERVICE_SERVICEATTRIBUTE_GET_SERVICETYPE_OFFSET))(this);
 		}
 
-		::System::Void set_ServiceType(::System::Type* value)
+		::System::Void set_ServiceType(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SRF_SERVICE_SERVICEATTRIBUTE_SET_SERVICETYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SRF_SERVICE_SERVICEATTRIBUTE_SET_SERVICETYPE_OFFSET))(this, a1);
 		}
 	};
 }

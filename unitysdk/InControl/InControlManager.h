@@ -7,28 +7,28 @@
 #include "unitysdk/UnityEngine/SceneManagement/LoadSceneMode.h"
 #include "unitysdk/UnityEngine/SceneManagement/Scene.h"
 
-#define INCONTROL_INCONTROLMANAGER_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x16409360)
-#define INCONTROL_INCONTROLMANAGER_LOGMESSAGE_OFFSET UNITYSDK_OFFSET(0x16409640)
-#define INCONTROL_INCONTROLMANAGER_ONAPPLICATIONFOCUS_OFFSET UNITYSDK_OFFSET(0x164093C0)
-#define INCONTROL_INCONTROLMANAGER_ONAPPLICATIONPAUSE_OFFSET UNITYSDK_OFFSET(0x164094B0)
-#define INCONTROL_INCONTROLMANAGER_ONAPPLICATIONQUIT_OFFSET UNITYSDK_OFFSET(0x16409500)
-#define INCONTROL_INCONTROLMANAGER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x164088A0)
-#define INCONTROL_INCONTROLMANAGER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16407A80)
-#define INCONTROL_INCONTROLMANAGER_ONSCENEWASLOADED_OFFSET UNITYSDK_OFFSET(0x16409590)
-#define INCONTROL_INCONTROLMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x16408C20)
-#define INCONTROL_INCONTROLMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16409800)
-#define INCONTROL_INCONTROLMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x164097D0)
+#define INCONTROL_INCONTROLMANAGER_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1522C6E0)
+#define INCONTROL_INCONTROLMANAGER_LOGMESSAGE_OFFSET UNITYSDK_OFFSET(0x1522C9C0)
+#define INCONTROL_INCONTROLMANAGER_ONAPPLICATIONFOCUS_OFFSET UNITYSDK_OFFSET(0x1522C740)
+#define INCONTROL_INCONTROLMANAGER_ONAPPLICATIONPAUSE_OFFSET UNITYSDK_OFFSET(0x1522C830)
+#define INCONTROL_INCONTROLMANAGER_ONAPPLICATIONQUIT_OFFSET UNITYSDK_OFFSET(0x1522C880)
+#define INCONTROL_INCONTROLMANAGER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1522BC10)
+#define INCONTROL_INCONTROLMANAGER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1522AC90)
+#define INCONTROL_INCONTROLMANAGER_ONSCENEWASLOADED_OFFSET UNITYSDK_OFFSET(0x1522C910)
+#define INCONTROL_INCONTROLMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1522BFA0)
+#define INCONTROL_INCONTROLMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1522CB80)
+#define INCONTROL_INCONTROLMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1522CB50)
 
 namespace InControl
 {
-	inline static constexpr unsigned int InControlManager_TypeDefinitionIndex = 37119;
+	inline static constexpr unsigned int InControlManager_TypeDefinitionIndex = 37851;
 
 	class InControlManager : public ::InControl::SingletonMonoBehavior_1<::InControl::InControlManager*>
 	{
 	public:
 		static ::Unity::Profiling::ProfilerMarker* StaticGet_InControlUpdateMarker()
 		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(InControlManager_TypeDefinitionIndex)->GetStaticField(0x53D0);
+			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(InControlManager_TypeDefinitionIndex)->GetStaticField(0x54B0);
 		}
 		::System::Boolean logDebugInfo; // 0x18
 		::System::Boolean invertYAxis; // 0x19
@@ -80,14 +80,14 @@ namespace InControl
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INCONTROLMANAGER_FIXEDUPDATE_OFFSET))(this);
 		}
 
-		::System::Void OnApplicationFocus(::System::Boolean focusState)
+		::System::Void OnApplicationFocus(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_INCONTROLMANAGER_ONAPPLICATIONFOCUS_OFFSET))(this, focusState);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_INCONTROLMANAGER_ONAPPLICATIONFOCUS_OFFSET))(this, a1);
 		}
 
-		::System::Void OnApplicationPause(::System::Boolean pauseState)
+		::System::Void OnApplicationPause(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_INCONTROLMANAGER_ONAPPLICATIONPAUSE_OFFSET))(this, pauseState);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_INCONTROLMANAGER_ONAPPLICATIONPAUSE_OFFSET))(this, a1);
 		}
 
 		::System::Void OnApplicationQuit()
@@ -95,14 +95,14 @@ namespace InControl
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INCONTROLMANAGER_ONAPPLICATIONQUIT_OFFSET))(this);
 		}
 
-		::System::Void OnSceneWasLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode loadSceneMode)
+		::System::Void OnSceneWasLoaded(::UnityEngine::SceneManagement::Scene a1, ::UnityEngine::SceneManagement::LoadSceneMode a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode))((::PBYTE)hIl2Cpp + INCONTROL_INCONTROLMANAGER_ONSCENEWASLOADED_OFFSET))(this, scene, loadSceneMode);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode))((::PBYTE)hIl2Cpp + INCONTROL_INCONTROLMANAGER_ONSCENEWASLOADED_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void LogMessage(::InControl::LogMessage logMessage)
+		static ::System::Void LogMessage(::InControl::LogMessage a1)
 		{
-			return ((::System::Void(*)(::InControl::LogMessage))((::PBYTE)hIl2Cpp + INCONTROL_INCONTROLMANAGER_LOGMESSAGE_OFFSET))(logMessage);
+			return ((::System::Void(*)(::InControl::LogMessage))((::PBYTE)hIl2Cpp + INCONTROL_INCONTROLMANAGER_LOGMESSAGE_OFFSET))(a1);
 		}
 	};
 }

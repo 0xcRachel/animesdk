@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_ABILITYBEINGSTANCECOUNTDOWN_CLEAR_OFFSET UNITYSDK_OFFSET(0xB1AA3D0)
-#define RPG_GAMECORE_ABILITYBEINGSTANCECOUNTDOWN_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB1AA470)
-#define RPG_GAMECORE_ABILITYBEINGSTANCECOUNTDOWN_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB1AA420)
-#define RPG_GAMECORE_ABILITYBEINGSTANCECOUNTDOWN_INIT_OFFSET UNITYSDK_OFFSET(0xB1AA360)
-#define RPG_GAMECORE_ABILITYBEINGSTANCECOUNTDOWN__CTOR_OFFSET UNITYSDK_OFFSET(0xB1AA4C0)
-#define RPG_GAMECORE_ABILITYBEINGSTANCECOUNTDOWN___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xB1AA4D0)
+#define RPG_GAMECORE_ABILITYBEINGSTANCECOUNTDOWN_CLEAR_OFFSET UNITYSDK_OFFSET(0x12AFB680)
+#define RPG_GAMECORE_ABILITYBEINGSTANCECOUNTDOWN_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x12AFB720)
+#define RPG_GAMECORE_ABILITYBEINGSTANCECOUNTDOWN_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x12AFB6D0)
+#define RPG_GAMECORE_ABILITYBEINGSTANCECOUNTDOWN_INIT_OFFSET UNITYSDK_OFFSET(0x12AFB610)
+#define RPG_GAMECORE_ABILITYBEINGSTANCECOUNTDOWN__CTOR_OFFSET UNITYSDK_OFFSET(0x12AFB770)
+#define RPG_GAMECORE_ABILITYBEINGSTANCECOUNTDOWN___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x12AFB780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityBeingStanceCountDown_TypeDefinitionIndex = 52128;
+	inline static constexpr unsigned int AbilityBeingStanceCountDown_TypeDefinitionIndex = 52825;
 
-	class AbilityBeingStanceCountDown : public ::Class_1_9988289E7F8AA214
+	class AbilityBeingStanceCountDown : public ::Class_1_BF7A075734D15E98
 	{
 	public:
-		::RPG::GameCore::GameEntity* Source; // 0x18
-		::RPG::GameCore::GameEntity* Target; // 0x20
+		::RPG::GameCore::GameEntity* Target; // 0x18
+		::RPG::GameCore::GameEntity* Source; // 0x20
 		::System::Boolean IsExtraStance; // 0x28
 
 		::System::Void _ctor()
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYBEINGSTANCECOUNTDOWN__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::AbilityBeingStanceCountDown* Init(::RPG::GameCore::GameEntity* pSource, ::RPG::GameCore::GameEntity* pTarget, ::System::Boolean isExtraStance)
+		::RPG::GameCore::AbilityBeingStanceCountDown* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2, ::System::Boolean a3)
 		{
-			return ((::RPG::GameCore::AbilityBeingStanceCountDown*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYBEINGSTANCECOUNTDOWN_INIT_OFFSET))(this, pSource, pTarget, isExtraStance);
+			return ((::RPG::GameCore::AbilityBeingStanceCountDown*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYBEINGSTANCECOUNTDOWN_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Clear()

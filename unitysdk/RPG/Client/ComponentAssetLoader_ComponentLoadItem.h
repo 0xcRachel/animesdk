@@ -5,20 +5,22 @@
 #include "unitysdk/RPG/Client/ComponentAssetLoader_ComponentLoadAssetInfo.h"
 #include "unitysdk/System/Object.h"
 
+namespace RPG::Client { class ComponentAssetLoader; }
 namespace RPG::Client { class ComponentAssetLoader_Class_1_A733C3439371489B; }
 namespace System { class String; }
 namespace UnityEngine { class Component; }
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_COMPONENTASSETLOADER_COMPONENTLOADITEM_GET_LOADERPROXY_OFFSET UNITYSDK_OFFSET(0x15BE9020)
-#define RPG_CLIENT_COMPONENTASSETLOADER_COMPONENTLOADITEM_METHOD_1_183822470B7F369D_OFFSET UNITYSDK_OFFSET(0x15BE7A90)
-#define RPG_CLIENT_COMPONENTASSETLOADER_COMPONENTLOADITEM_METHOD_1_98B7D142FBED6D85_OFFSET UNITYSDK_OFFSET(0x15BE8700)
-#define RPG_CLIENT_COMPONENTASSETLOADER_COMPONENTLOADITEM_METHOD_1_FE6CC0AE50391631_OFFSET UNITYSDK_OFFSET(0x15BE87B0)
-#define RPG_CLIENT_COMPONENTASSETLOADER_COMPONENTLOADITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x15BE9120)
+#define RPG_CLIENT_COMPONENTASSETLOADER_COMPONENTLOADITEM_GET_LOADERPROXY_OFFSET UNITYSDK_OFFSET(0x17848440)
+#define RPG_CLIENT_COMPONENTASSETLOADER_COMPONENTLOADITEM_METHOD_1_6F856DFDDA0B1107_OFFSET UNITYSDK_OFFSET(0x17846BC0)
+#define RPG_CLIENT_COMPONENTASSETLOADER_COMPONENTLOADITEM_METHOD_1_759AE46ABF74C9EA_OFFSET UNITYSDK_OFFSET(0x17848530)
+#define RPG_CLIENT_COMPONENTASSETLOADER_COMPONENTLOADITEM_METHOD_1_98B7D142FBED6D85_OFFSET UNITYSDK_OFFSET(0x178471D0)
+#define RPG_CLIENT_COMPONENTASSETLOADER_COMPONENTLOADITEM_METHOD_1_FE6CC0AE50391631_OFFSET UNITYSDK_OFFSET(0x17847CA0)
+#define RPG_CLIENT_COMPONENTASSETLOADER_COMPONENTLOADITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x178487D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ComponentAssetLoader_ComponentLoadItem_TypeDefinitionIndex = 63060;
+	inline static constexpr unsigned int ComponentAssetLoader_ComponentLoadItem_TypeDefinitionIndex = 63975;
 
 	class ComponentAssetLoader_ComponentLoadItem : public ::System::Object
 	{
@@ -29,6 +31,7 @@ namespace RPG::Client
 		::Il2CppArray<::System::String*>* LoadedAssetPath; // 0x28
 		::Il2CppArray<::UnityEngine::Object*>* LoadedAssets; // 0x30
 		::Il2CppArray<::UnityEngine::Object*>* CachedInsts; // 0x38
+		::Il2CppArray<::System::String*>* _TempSkinMappedParamArray; // 0x40
 
 		::System::Void _ctor()
 		{
@@ -40,9 +43,14 @@ namespace RPG::Client
 			return ((::RPG::Client::ComponentAssetLoader_Class_1_A733C3439371489B*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPONENTASSETLOADER_COMPONENTLOADITEM_GET_LOADERPROXY_OFFSET))(this);
 		}
 
-		::RPG::Client::ComponentAssetLoader_AssetSyncResult Method_1_183822470B7F369D(::System::Int32 a1, ::System::Boolean a2)
+		::RPG::Client::ComponentAssetLoader_AssetSyncResult Method_1_6F856DFDDA0B1107(::RPG::Client::ComponentAssetLoader* a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::RPG::Client::ComponentAssetLoader_AssetSyncResult(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPONENTASSETLOADER_COMPONENTLOADITEM_METHOD_1_183822470B7F369D_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::ComponentAssetLoader_AssetSyncResult(*)(::PVOID, ::RPG::Client::ComponentAssetLoader*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPONENTASSETLOADER_COMPONENTLOADITEM_METHOD_1_6F856DFDDA0B1107_OFFSET))(this, a1, a2, a3);
+		}
+
+		::Il2CppArray<::System::String*>* Method_1_759AE46ABF74C9EA(::RPG::Client::ComponentAssetLoader* a1, ::Il2CppArray<::System::String*>* a2)
+		{
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::RPG::Client::ComponentAssetLoader*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPONENTASSETLOADER_COMPONENTLOADITEM_METHOD_1_759AE46ABF74C9EA_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 Method_1_FE6CC0AE50391631(::Il2CppArray<::System::String*>* a1)

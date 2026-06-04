@@ -5,22 +5,22 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_2_EC9A90E156962139___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF58D200)
-#define CLASS_2_EC9A90E156962139___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF58D240)
-#define CLASS_2_EC9A90E156962139___C___DOSPLIT_B__11_1_OFFSET UNITYSDK_OFFSET(0xF58D250)
+#define CLASS_2_EC9A90E156962139___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15BE4D90)
+#define CLASS_2_EC9A90E156962139___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15BE4DD0)
+#define CLASS_2_EC9A90E156962139___C___DOSPLIT_B__11_1_OFFSET UNITYSDK_OFFSET(0x15BE4DE0)
 
-inline static constexpr unsigned int Class_2_EC9A90E156962139___c_TypeDefinitionIndex = 71396;
+inline static constexpr unsigned int Class_2_EC9A90E156962139___c_TypeDefinitionIndex = 72418;
 
 class Class_2_EC9A90E156962139___c : public ::System::Object
 {
 public:
 	static ::Class_2_EC9A90E156962139___c** StaticGet___9()
 	{
-		return (::Class_2_EC9A90E156962139___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_EC9A90E156962139___c_TypeDefinitionIndex)->GetStaticField(0x69FF0);
+		return (::Class_2_EC9A90E156962139___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_EC9A90E156962139___c_TypeDefinitionIndex)->GetStaticField(0x36C30);
 	}
 	static ::System::Action_1<::UnityEngine::Vector3>** StaticGet___9__11_1()
 	{
-		return (::System::Action_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_EC9A90E156962139___c_TypeDefinitionIndex)->GetStaticField(0x69FF8);
+		return (::System::Action_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_EC9A90E156962139___c_TypeDefinitionIndex)->GetStaticField(0x36C38);
 	}
 
 	static ::System::Void _cctor()
@@ -33,8 +33,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EC9A90E156962139___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Void __DoSplit_b__11_1(::UnityEngine::Vector3 pos)
+	::System::Void __DoSplit_b__11_1(::UnityEngine::Vector3 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_2_EC9A90E156962139___C___DOSPLIT_B__11_1_OFFSET))(this, pos);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_2_EC9A90E156962139___C___DOSPLIT_B__11_1_OFFSET))(this, a1);
 	}
 };

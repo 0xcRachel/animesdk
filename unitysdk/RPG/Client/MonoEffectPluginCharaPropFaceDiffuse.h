@@ -11,16 +11,16 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE_INIT_OFFSET UNITYSDK_OFFSET(0x165E9310)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE_UNINIT_OFFSET UNITYSDK_OFFSET(0x165EA8A0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x165E95F0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE__CTOR_OFFSET UNITYSDK_OFFSET(0x165EA940)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x165EA9D0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE___IFIXBASEPROXY_UNINIT_OFFSET UNITYSDK_OFFSET(0x165EA9E0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE_INIT_OFFSET UNITYSDK_OFFSET(0x15A29890)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE_UNINIT_OFFSET UNITYSDK_OFFSET(0x15A2AEF0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x15A29C40)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE__CTOR_OFFSET UNITYSDK_OFFSET(0x15A2AF90)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x15A2B020)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE___IFIXBASEPROXY_UNINIT_OFFSET UNITYSDK_OFFSET(0x15A2B030)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropFaceDiffuse_TypeDefinitionIndex = 64488;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropFaceDiffuse_TypeDefinitionIndex = 65409;
 
 	class MonoEffectPluginCharaPropFaceDiffuse : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -90,9 +90,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE_UNINIT_OFFSET))(this);
 		}
 
-		::System::Void __iFixBaseProxy_Init(::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>* P0, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* P1, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*& P2)
+		::System::Void __iFixBaseProxy_Init(::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>*, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE___IFIXBASEPROXY_INIT_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>*, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE___IFIXBASEPROXY_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void __iFixBaseProxy_UnInit()

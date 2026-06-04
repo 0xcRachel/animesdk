@@ -6,34 +6,34 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MAPANCHORDEF_GET_GROUPINSTANCEID_OFFSET UNITYSDK_OFFSET(0x158B5410)
-#define RPG_CLIENT_MAPANCHORDEF_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x158B5430)
-#define RPG_CLIENT_MAPANCHORDEF_GET_NAME_OFFSET UNITYSDK_OFFSET(0x158B54A0)
-#define RPG_CLIENT_MAPANCHORDEF_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x158B5450)
-#define RPG_CLIENT_MAPANCHORDEF_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x158B5480)
-#define RPG_CLIENT_MAPANCHORDEF_SET_GROUPINSTANCEID_OFFSET UNITYSDK_OFFSET(0x158B5420)
-#define RPG_CLIENT_MAPANCHORDEF_SET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x158B5440)
-#define RPG_CLIENT_MAPANCHORDEF_SET_NAME_OFFSET UNITYSDK_OFFSET(0x158B54B0)
-#define RPG_CLIENT_MAPANCHORDEF_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x158B5470)
-#define RPG_CLIENT_MAPANCHORDEF_SET_ROTATION_OFFSET UNITYSDK_OFFSET(0x158B5490)
-#define RPG_CLIENT_MAPANCHORDEF__CTOR_OFFSET UNITYSDK_OFFSET(0x158B54C0)
+#define RPG_CLIENT_MAPANCHORDEF_GET_GROUPINSTANCEID_OFFSET UNITYSDK_OFFSET(0x15134990)
+#define RPG_CLIENT_MAPANCHORDEF_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x151349B0)
+#define RPG_CLIENT_MAPANCHORDEF_GET_NAME_OFFSET UNITYSDK_OFFSET(0x15134A20)
+#define RPG_CLIENT_MAPANCHORDEF_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x151349D0)
+#define RPG_CLIENT_MAPANCHORDEF_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x15134A00)
+#define RPG_CLIENT_MAPANCHORDEF_SET_GROUPINSTANCEID_OFFSET UNITYSDK_OFFSET(0x151349A0)
+#define RPG_CLIENT_MAPANCHORDEF_SET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x151349C0)
+#define RPG_CLIENT_MAPANCHORDEF_SET_NAME_OFFSET UNITYSDK_OFFSET(0x15134A30)
+#define RPG_CLIENT_MAPANCHORDEF_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x151349F0)
+#define RPG_CLIENT_MAPANCHORDEF_SET_ROTATION_OFFSET UNITYSDK_OFFSET(0x15134A10)
+#define RPG_CLIENT_MAPANCHORDEF__CTOR_OFFSET UNITYSDK_OFFSET(0x15134A40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MapAnchorDef_TypeDefinitionIndex = 57270;
+	inline static constexpr unsigned int MapAnchorDef_TypeDefinitionIndex = 58060;
 
 	class MapAnchorDef : public ::System::Object
 	{
 	public:
 		::System::String* _Name_k__BackingField; // 0x10
 		::UnityEngine::Vector3 _Position_k__BackingField; // 0x18
-		::UnityEngine::Quaternion _Rotation_k__BackingField; // 0x24
-		::System::UInt32 _InstanceID_k__BackingField; // 0x34
-		::System::UInt32 _GroupInstanceID_k__BackingField; // 0x38
+		::System::UInt32 _InstanceID_k__BackingField; // 0x24
+		::System::UInt32 _GroupInstanceID_k__BackingField; // 0x28
+		::UnityEngine::Quaternion _Rotation_k__BackingField; // 0x2C
 
-		::System::Void _ctor(::System::UInt32 groupID, ::System::UInt32 instanceID, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::System::String* name)
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Quaternion a4, ::System::String* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPANCHORDEF__CTOR_OFFSET))(this, groupID, instanceID, position, rotation, name);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPANCHORDEF__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::UInt32 get_GroupInstanceID()
@@ -41,9 +41,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPANCHORDEF_GET_GROUPINSTANCEID_OFFSET))(this);
 		}
 
-		::System::Void set_GroupInstanceID(::System::UInt32 value)
+		::System::Void set_GroupInstanceID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPANCHORDEF_SET_GROUPINSTANCEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPANCHORDEF_SET_GROUPINSTANCEID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_InstanceID()
@@ -51,9 +51,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPANCHORDEF_GET_INSTANCEID_OFFSET))(this);
 		}
 
-		::System::Void set_InstanceID(::System::UInt32 value)
+		::System::Void set_InstanceID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPANCHORDEF_SET_INSTANCEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPANCHORDEF_SET_INSTANCEID_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 get_Position()
@@ -61,9 +61,9 @@ namespace RPG::Client
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPANCHORDEF_GET_POSITION_OFFSET))(this);
 		}
 
-		::System::Void set_Position(::UnityEngine::Vector3 value)
+		::System::Void set_Position(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPANCHORDEF_SET_POSITION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPANCHORDEF_SET_POSITION_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Quaternion get_Rotation()
@@ -71,9 +71,9 @@ namespace RPG::Client
 			return ((::UnityEngine::Quaternion(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPANCHORDEF_GET_ROTATION_OFFSET))(this);
 		}
 
-		::System::Void set_Rotation(::UnityEngine::Quaternion value)
+		::System::Void set_Rotation(::UnityEngine::Quaternion a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPANCHORDEF_SET_ROTATION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPANCHORDEF_SET_ROTATION_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Name()
@@ -81,9 +81,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPANCHORDEF_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Void set_Name(::System::String* value)
+		::System::Void set_Name(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPANCHORDEF_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPANCHORDEF_SET_NAME_OFFSET))(this, a1);
 		}
 	};
 }

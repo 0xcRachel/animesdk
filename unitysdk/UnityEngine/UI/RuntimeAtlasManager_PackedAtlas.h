@@ -6,15 +6,15 @@
 namespace System { template <typename T> class WeakReference_1; }
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_PACKEDATLAS_CONTAINS_OFFSET UNITYSDK_OFFSET(0x15EA3790)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_PACKEDATLAS_ERASE_OFFSET UNITYSDK_OFFSET(0x15EA3A70)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_PACKEDATLAS_TRYGET_OFFSET UNITYSDK_OFFSET(0x15EA3A40)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_PACKEDATLAS_UPDATEAVAILABLE_OFFSET UNITYSDK_OFFSET(0x15EA3670)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_PACKEDATLAS__CTOR_OFFSET UNITYSDK_OFFSET(0x15EA1710)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_PACKEDATLAS_CONTAINS_OFFSET UNITYSDK_OFFSET(0x13627AC0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_PACKEDATLAS_ERASE_OFFSET UNITYSDK_OFFSET(0x13627D60)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_PACKEDATLAS_TRYGET_OFFSET UNITYSDK_OFFSET(0x13627D30)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_PACKEDATLAS_UPDATEAVAILABLE_OFFSET UNITYSDK_OFFSET(0x13627950)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_PACKEDATLAS__CTOR_OFFSET UNITYSDK_OFFSET(0x13625A80)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RuntimeAtlasManager_PackedAtlas_TypeDefinitionIndex = 5702;
+	inline static constexpr unsigned int RuntimeAtlasManager_PackedAtlas_TypeDefinitionIndex = 5979;
 
 	class RuntimeAtlasManager_PackedAtlas : public ::System::Object
 	{
@@ -23,29 +23,29 @@ namespace UnityEngine::UI
 		::System::Int32 instanceID; // 0x18
 		::System::Int32 refCount; // 0x1C
 
-		::System::Void _ctor(::UnityEngine::Texture* texture)
+		::System::Void _ctor(::UnityEngine::Texture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_PACKEDATLAS__CTOR_OFFSET))(this, texture);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_PACKEDATLAS__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Contains(::UnityEngine::Texture* texture)
+		::System::Boolean Contains(::UnityEngine::Texture* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_PACKEDATLAS_CONTAINS_OFFSET))(this, texture);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_PACKEDATLAS_CONTAINS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean TryGet(::UnityEngine::UI::SpriteElement& element)
+		::System::Boolean TryGet(::UnityEngine::UI::SpriteElement& a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UI::SpriteElement&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_PACKEDATLAS_TRYGET_OFFSET))(this, element);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UI::SpriteElement&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_PACKEDATLAS_TRYGET_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Erase(::UnityEngine::UI::SpriteElement& element)
+		::System::Boolean Erase(::UnityEngine::UI::SpriteElement& a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UI::SpriteElement&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_PACKEDATLAS_ERASE_OFFSET))(this, element);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UI::SpriteElement&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_PACKEDATLAS_ERASE_OFFSET))(this, a1);
 		}
 
-		::System::Void UpdateAvailable(::System::Boolean unloadUnUsed)
+		::System::Void UpdateAvailable(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_PACKEDATLAS_UPDATEAVAILABLE_OFFSET))(this, unloadUnUsed);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_PACKEDATLAS_UPDATEAVAILABLE_OFFSET))(this, a1);
 		}
 	};
 }

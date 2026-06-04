@@ -10,12 +10,12 @@ namespace System::IO { class Stream; }
 namespace System::Net { class HttpWebRequest; }
 namespace System::Net::Sockets { class NetworkStream; }
 
-#define MONO_NET_SECURITY_MONOTLSSTREAM_CREATESTREAM_OFFSET UNITYSDK_OFFSET(0x18469FA0)
-#define MONO_NET_SECURITY_MONOTLSSTREAM_GET_CERTIFICATEVALIDATIONFAILED_OFFSET UNITYSDK_OFFSET(0x18469EC0)
-#define MONO_NET_SECURITY_MONOTLSSTREAM_GET_EXCEPTIONSTATUS_OFFSET UNITYSDK_OFFSET(0x18469EB0)
-#define MONO_NET_SECURITY_MONOTLSSTREAM_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x18469EA0)
-#define MONO_NET_SECURITY_MONOTLSSTREAM_SET_CERTIFICATEVALIDATIONFAILED_OFFSET UNITYSDK_OFFSET(0x18469ED0)
-#define MONO_NET_SECURITY_MONOTLSSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18469EE0)
+#define MONO_NET_SECURITY_MONOTLSSTREAM_CREATESTREAM_OFFSET UNITYSDK_OFFSET(0x18E88760)
+#define MONO_NET_SECURITY_MONOTLSSTREAM_GET_CERTIFICATEVALIDATIONFAILED_OFFSET UNITYSDK_OFFSET(0x18E88690)
+#define MONO_NET_SECURITY_MONOTLSSTREAM_GET_EXCEPTIONSTATUS_OFFSET UNITYSDK_OFFSET(0x18E88680)
+#define MONO_NET_SECURITY_MONOTLSSTREAM_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x18E88670)
+#define MONO_NET_SECURITY_MONOTLSSTREAM_SET_CERTIFICATEVALIDATIONFAILED_OFFSET UNITYSDK_OFFSET(0x18E886A0)
+#define MONO_NET_SECURITY_MONOTLSSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18E886B0)
 
 namespace Mono::Net::Security
 {
@@ -24,17 +24,17 @@ namespace Mono::Net::Security
 	class MonoTlsStream : public ::System::Object
 	{
 	public:
-		::System::Net::Sockets::NetworkStream* networkStream; // 0x10
-		::System::Net::HttpWebRequest* request; // 0x18
-		::Mono::Security::Interface::MonoTlsProvider* provider; // 0x20
-		::Mono::Security::Interface::MonoTlsSettings* settings; // 0x28
-		::Mono::Security::Interface::IMonoSslStream* sslStream; // 0x30
+		::System::Net::HttpWebRequest* request; // 0x10
+		::System::Net::Sockets::NetworkStream* networkStream; // 0x18
+		::Mono::Security::Interface::MonoTlsSettings* settings; // 0x20
+		::Mono::Security::Interface::IMonoSslStream* sslStream; // 0x28
+		::Mono::Security::Interface::MonoTlsProvider* provider; // 0x30
 		::System::Net::WebExceptionStatus status; // 0x38
 		::System::Boolean _CertificateValidationFailed_k__BackingField; // 0x3C
 
-		::System::Void _ctor(::System::Net::HttpWebRequest* request, ::System::Net::Sockets::NetworkStream* networkStream)
+		::System::Void _ctor(::System::Net::HttpWebRequest* a1, ::System::Net::Sockets::NetworkStream* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::HttpWebRequest*, ::System::Net::Sockets::NetworkStream*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MONOTLSSTREAM__CTOR_OFFSET))(this, request, networkStream);
+			return ((::System::Void(*)(::PVOID, ::System::Net::HttpWebRequest*, ::System::Net::Sockets::NetworkStream*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MONOTLSSTREAM__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Net::HttpWebRequest* get_Request()
@@ -52,14 +52,14 @@ namespace Mono::Net::Security
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MONOTLSSTREAM_GET_CERTIFICATEVALIDATIONFAILED_OFFSET))(this);
 		}
 
-		::System::Void set_CertificateValidationFailed(::System::Boolean value)
+		::System::Void set_CertificateValidationFailed(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MONOTLSSTREAM_SET_CERTIFICATEVALIDATIONFAILED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MONOTLSSTREAM_SET_CERTIFICATEVALIDATIONFAILED_OFFSET))(this, a1);
 		}
 
-		::System::IO::Stream* CreateStream(::Il2CppArray<::System::Byte>* buffer)
+		::System::IO::Stream* CreateStream(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::IO::Stream*(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MONOTLSSTREAM_CREATESTREAM_OFFSET))(this, buffer);
+			return ((::System::IO::Stream*(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MONOTLSSTREAM_CREATESTREAM_OFFSET))(this, a1);
 		}
 	};
 }

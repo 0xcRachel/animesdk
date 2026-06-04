@@ -6,28 +6,28 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Linq::Expressions::Interpreter { class InstructionList; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_ADDBRANCH_OFFSET UNITYSDK_OFFSET(0x1864EA50)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_FIXUPBRANCH_OFFSET UNITYSDK_OFFSET(0x1864EAF0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_GET_HASRUNTIMELABEL_OFFSET UNITYSDK_OFFSET(0x18457150)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_GET_LABELINDEX_OFFSET UNITYSDK_OFFSET(0x18457130)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_GET_TARGETINDEX_OFFSET UNITYSDK_OFFSET(0x18457160)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_MARK_OFFSET UNITYSDK_OFFSET(0x18457190)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_SET_LABELINDEX_OFFSET UNITYSDK_OFFSET(0x18457140)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_TORUNTIMELABEL_OFFSET UNITYSDK_OFFSET(0x18457170)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1864EC00)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_ADDBRANCH_OFFSET UNITYSDK_OFFSET(0x17FFC060)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_FIXUPBRANCH_OFFSET UNITYSDK_OFFSET(0x17FFC130)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_GET_HASRUNTIMELABEL_OFFSET UNITYSDK_OFFSET(0x17ACA8B0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_GET_LABELINDEX_OFFSET UNITYSDK_OFFSET(0x17ACA890)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_GET_TARGETINDEX_OFFSET UNITYSDK_OFFSET(0x17ACA8C0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_MARK_OFFSET UNITYSDK_OFFSET(0x17ACA8F0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_SET_LABELINDEX_OFFSET UNITYSDK_OFFSET(0x17ACA8A0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_TORUNTIMELABEL_OFFSET UNITYSDK_OFFSET(0x17ACA8D0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL__CTOR_OFFSET UNITYSDK_OFFSET(0x17FFC260)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int BranchLabel_TypeDefinitionIndex = 3303;
+	inline static constexpr unsigned int BranchLabel_TypeDefinitionIndex = 3304;
 
 	class BranchLabel : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::Int32>* _forwardBranchFixups; // 0x10
-		::System::Int32 _LabelIndex_k__BackingField; // 0x18
+		::System::Int32 _stackDepth; // 0x18
 		::System::Int32 _targetIndex; // 0x1C
-		::System::Int32 _stackDepth; // 0x20
-		::System::Int32 _continuationStackDepth; // 0x24
+		::System::Int32 _continuationStackDepth; // 0x20
+		::System::Int32 _LabelIndex_k__BackingField; // 0x24
 
 		::System::Void _ctor()
 		{
@@ -39,9 +39,9 @@ namespace System::Linq::Expressions::Interpreter
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_GET_LABELINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_LabelIndex(::System::Int32 value)
+		::System::Void set_LabelIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_SET_LABELINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_SET_LABELINDEX_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_HasRuntimeLabel()
@@ -59,19 +59,19 @@ namespace System::Linq::Expressions::Interpreter
 			return ((::System::Linq::Expressions::Interpreter::RuntimeLabel(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_TORUNTIMELABEL_OFFSET))(this);
 		}
 
-		::System::Void Mark(::System::Linq::Expressions::Interpreter::InstructionList* instructions)
+		::System::Void Mark(::System::Linq::Expressions::Interpreter::InstructionList* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InstructionList*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_MARK_OFFSET))(this, instructions);
+			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InstructionList*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_MARK_OFFSET))(this, a1);
 		}
 
-		::System::Void AddBranch(::System::Linq::Expressions::Interpreter::InstructionList* instructions, ::System::Int32 branchIndex)
+		::System::Void AddBranch(::System::Linq::Expressions::Interpreter::InstructionList* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InstructionList*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_ADDBRANCH_OFFSET))(this, instructions, branchIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InstructionList*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_ADDBRANCH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void FixupBranch(::System::Linq::Expressions::Interpreter::InstructionList* instructions, ::System::Int32 branchIndex)
+		::System::Void FixupBranch(::System::Linq::Expressions::Interpreter::InstructionList* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InstructionList*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_FIXUPBRANCH_OFFSET))(this, instructions, branchIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InstructionList*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHLABEL_FIXUPBRANCH_OFFSET))(this, a1, a2);
 		}
 	};
 }

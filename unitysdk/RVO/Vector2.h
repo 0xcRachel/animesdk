@@ -4,30 +4,30 @@
 
 namespace System { class String; }
 
-#define RVO_VECTOR2_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x175CA480)
-#define RVO_VECTOR2_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0x175CA450)
-#define RVO_VECTOR2_OP_MULTIPLY_1_OFFSET UNITYSDK_OFFSET(0x175CA2E0)
-#define RVO_VECTOR2_OP_MULTIPLY_2_OFFSET UNITYSDK_OFFSET(0x175CCA90)
-#define RVO_VECTOR2_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x175CA380)
-#define RVO_VECTOR2_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x175CA2B0)
-#define RVO_VECTOR2_OP_UNARYNEGATION_OFFSET UNITYSDK_OFFSET(0x175CA360)
-#define RVO_VECTOR2_TOSTRING_OFFSET UNITYSDK_OFFSET(0x226E4E0)
-#define RVO_VECTOR2_X_OFFSET UNITYSDK_OFFSET(0x608BC0)
-#define RVO_VECTOR2_Y_OFFSET UNITYSDK_OFFSET(0x608BD0)
-#define RVO_VECTOR2__CTOR_OFFSET UNITYSDK_OFFSET(0x608BB0)
+#define RVO_VECTOR2_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x17A57840)
+#define RVO_VECTOR2_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0x17A57810)
+#define RVO_VECTOR2_OP_MULTIPLY_1_OFFSET UNITYSDK_OFFSET(0x17A576A0)
+#define RVO_VECTOR2_OP_MULTIPLY_2_OFFSET UNITYSDK_OFFSET(0x17A59E70)
+#define RVO_VECTOR2_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x17A57740)
+#define RVO_VECTOR2_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x17A57670)
+#define RVO_VECTOR2_OP_UNARYNEGATION_OFFSET UNITYSDK_OFFSET(0x17A57720)
+#define RVO_VECTOR2_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3830290)
+#define RVO_VECTOR2_X_OFFSET UNITYSDK_OFFSET(0x72BD60)
+#define RVO_VECTOR2_Y_OFFSET UNITYSDK_OFFSET(0x72BD70)
+#define RVO_VECTOR2__CTOR_OFFSET UNITYSDK_OFFSET(0x6C3BE0)
 
 namespace RVO
 {
-	inline static constexpr unsigned int Vector2_TypeDefinitionIndex = 41057;
+	inline static constexpr unsigned int Vector2_TypeDefinitionIndex = 41860;
 
 	struct alignas(4) Vector2
 	{
 		::System::Single x_; // 0x10
 		::System::Single y_; // 0x14
 
-		::System::Void _ctor(::System::Single x, ::System::Single y)
+		::System::Void _ctor(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RVO_VECTOR2__CTOR_OFFSET))(this, x, y);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RVO_VECTOR2__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* ToString()
@@ -45,39 +45,39 @@ namespace RVO
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RVO_VECTOR2_Y_OFFSET))(this);
 		}
 
-		static ::System::Single op_Multiply(::RVO::Vector2 vector1, ::RVO::Vector2 vector2)
+		static ::System::Single op_Multiply(::RVO::Vector2 a1, ::RVO::Vector2 a2)
 		{
-			return ((::System::Single(*)(::RVO::Vector2, ::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_VECTOR2_OP_MULTIPLY_OFFSET))(vector1, vector2);
+			return ((::System::Single(*)(::RVO::Vector2, ::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_VECTOR2_OP_MULTIPLY_OFFSET))(a1, a2);
 		}
 
-		static ::RVO::Vector2 op_Multiply_1(::System::Single scalar, ::RVO::Vector2 vector)
+		static ::RVO::Vector2 op_Multiply_1(::System::Single a1, ::RVO::Vector2 a2)
 		{
-			return ((::RVO::Vector2(*)(::System::Single, ::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_VECTOR2_OP_MULTIPLY_1_OFFSET))(scalar, vector);
+			return ((::RVO::Vector2(*)(::System::Single, ::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_VECTOR2_OP_MULTIPLY_1_OFFSET))(a1, a2);
 		}
 
-		static ::RVO::Vector2 op_Multiply_2(::RVO::Vector2 vector, ::System::Single scalar)
+		static ::RVO::Vector2 op_Multiply_2(::RVO::Vector2 a1, ::System::Single a2)
 		{
-			return ((::RVO::Vector2(*)(::RVO::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RVO_VECTOR2_OP_MULTIPLY_2_OFFSET))(vector, scalar);
+			return ((::RVO::Vector2(*)(::RVO::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RVO_VECTOR2_OP_MULTIPLY_2_OFFSET))(a1, a2);
 		}
 
-		static ::RVO::Vector2 op_Division(::RVO::Vector2 vector, ::System::Single scalar)
+		static ::RVO::Vector2 op_Division(::RVO::Vector2 a1, ::System::Single a2)
 		{
-			return ((::RVO::Vector2(*)(::RVO::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RVO_VECTOR2_OP_DIVISION_OFFSET))(vector, scalar);
+			return ((::RVO::Vector2(*)(::RVO::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RVO_VECTOR2_OP_DIVISION_OFFSET))(a1, a2);
 		}
 
-		static ::RVO::Vector2 op_Addition(::RVO::Vector2 vector1, ::RVO::Vector2 vector2)
+		static ::RVO::Vector2 op_Addition(::RVO::Vector2 a1, ::RVO::Vector2 a2)
 		{
-			return ((::RVO::Vector2(*)(::RVO::Vector2, ::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_VECTOR2_OP_ADDITION_OFFSET))(vector1, vector2);
+			return ((::RVO::Vector2(*)(::RVO::Vector2, ::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_VECTOR2_OP_ADDITION_OFFSET))(a1, a2);
 		}
 
-		static ::RVO::Vector2 op_Subtraction(::RVO::Vector2 vector1, ::RVO::Vector2 vector2)
+		static ::RVO::Vector2 op_Subtraction(::RVO::Vector2 a1, ::RVO::Vector2 a2)
 		{
-			return ((::RVO::Vector2(*)(::RVO::Vector2, ::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_VECTOR2_OP_SUBTRACTION_OFFSET))(vector1, vector2);
+			return ((::RVO::Vector2(*)(::RVO::Vector2, ::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_VECTOR2_OP_SUBTRACTION_OFFSET))(a1, a2);
 		}
 
-		static ::RVO::Vector2 op_UnaryNegation(::RVO::Vector2 vector)
+		static ::RVO::Vector2 op_UnaryNegation(::RVO::Vector2 a1)
 		{
-			return ((::RVO::Vector2(*)(::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_VECTOR2_OP_UNARYNEGATION_OFFSET))(vector);
+			return ((::RVO::Vector2(*)(::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_VECTOR2_OP_UNARYNEGATION_OFFSET))(a1);
 		}
 	};
 }

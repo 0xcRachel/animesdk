@@ -8,16 +8,16 @@ namespace RPG::GameCore { class PerformanceBgEffectFrameConfig; }
 namespace RPGTools::Timeline { class TalkBgEffectFrameShowClip; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x16E0D200)
-#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWBEHAVIOUR_METHOD_2_52AAE9CCF700C74B_OFFSET UNITYSDK_OFFSET(0x16E0D300)
-#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x16E0D220)
-#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x16E0D210)
-#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x16E0D500)
-#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x16E0D510)
+#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x19B69C80)
+#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWBEHAVIOUR_METHOD_2_52AAE9CCF700C74B_OFFSET UNITYSDK_OFFSET(0x19B69D80)
+#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19B69CA0)
+#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x19B69C90)
+#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19B69F80)
+#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19B69F90)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TalkBgEffectFrameShowBehaviour_TypeDefinitionIndex = 45104;
+	inline static constexpr unsigned int TalkBgEffectFrameShowBehaviour_TypeDefinitionIndex = 45652;
 
 	class TalkBgEffectFrameShowBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -34,9 +34,9 @@ namespace RPGTools::Timeline
 			return ((::RPGTools::Timeline::TalkBgEffectFrameShowClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWBEHAVIOUR_GET_CLIP_OFFSET))(this);
 		}
 
-		::System::Void set_Clip(::RPGTools::Timeline::TalkBgEffectFrameShowClip* value)
+		::System::Void set_Clip(::RPGTools::Timeline::TalkBgEffectFrameShowClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::TalkBgEffectFrameShowClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWBEHAVIOUR_SET_CLIP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::TalkBgEffectFrameShowClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWBEHAVIOUR_SET_CLIP_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -49,9 +49,9 @@ namespace RPGTools::Timeline
 			return ((::RPG::GameCore::PerformanceBgEffectFrameConfig*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWBEHAVIOUR_METHOD_2_52AAE9CCF700C74B_OFFSET))(this, a1);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

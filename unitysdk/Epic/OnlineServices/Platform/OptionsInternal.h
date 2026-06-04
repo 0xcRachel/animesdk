@@ -10,26 +10,26 @@ namespace Epic::OnlineServices::Platform { class RTCOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x23525E0)
-#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x2352570)
-#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_CACHEDIRECTORY_OFFSET UNITYSDK_OFFSET(0x2352430)
-#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_CLIENTCREDENTIALS_OFFSET UNITYSDK_OFFSET(0x2352050)
-#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_DEPLOYMENTID_OFFSET UNITYSDK_OFFSET(0x2352380)
-#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_ENCRYPTIONKEY_OFFSET UNITYSDK_OFFSET(0x2352170)
-#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_FLAGS_OFFSET UNITYSDK_OFFSET(0x1FF8510)
-#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_ISSERVER_OFFSET UNITYSDK_OFFSET(0x23520C0)
-#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x2352560)
-#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_OVERRIDECOUNTRYCODE_OFFSET UNITYSDK_OFFSET(0x2352220)
-#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_OVERRIDELOCALECODE_OFFSET UNITYSDK_OFFSET(0x23522D0)
-#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_PRODUCTID_OFFSET UNITYSDK_OFFSET(0x2351EF0)
-#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_RESERVED_OFFSET UNITYSDK_OFFSET(0x6163C0)
-#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_RTCOPTIONS_OFFSET UNITYSDK_OFFSET(0x23524F0)
-#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_SANDBOXID_OFFSET UNITYSDK_OFFSET(0x2351FA0)
-#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_TICKBUDGETINMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x23524E0)
+#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x390E6C0)
+#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x390E640)
+#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_CACHEDIRECTORY_OFFSET UNITYSDK_OFFSET(0x390E510)
+#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_CLIENTCREDENTIALS_OFFSET UNITYSDK_OFFSET(0x390E130)
+#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_DEPLOYMENTID_OFFSET UNITYSDK_OFFSET(0x390E460)
+#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_ENCRYPTIONKEY_OFFSET UNITYSDK_OFFSET(0x390E250)
+#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_FLAGS_OFFSET UNITYSDK_OFFSET(0x3760530)
+#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_ISSERVER_OFFSET UNITYSDK_OFFSET(0x390E1A0)
+#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x390E630)
+#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_OVERRIDECOUNTRYCODE_OFFSET UNITYSDK_OFFSET(0x390E300)
+#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_OVERRIDELOCALECODE_OFFSET UNITYSDK_OFFSET(0x390E3B0)
+#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_PRODUCTID_OFFSET UNITYSDK_OFFSET(0x390DFD0)
+#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_RESERVED_OFFSET UNITYSDK_OFFSET(0x8BE040)
+#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_RTCOPTIONS_OFFSET UNITYSDK_OFFSET(0x390E5C0)
+#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_SANDBOXID_OFFSET UNITYSDK_OFFSET(0x390E080)
+#define EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_TICKBUDGETINMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x3902790)
 
 namespace Epic::OnlineServices::Platform
 {
-	inline static constexpr unsigned int OptionsInternal_TypeDefinitionIndex = 42570;
+	inline static constexpr unsigned int OptionsInternal_TypeDefinitionIndex = 43373;
 
 	struct alignas(8) OptionsInternal
 	{
@@ -48,79 +48,79 @@ namespace Epic::OnlineServices::Platform
 		::System::UInt32 m_TickBudgetInMilliseconds; // 0x78
 		::System::IntPtr m_RTCOptions; // 0x80
 
-		::System::Void set_Reserved(::System::IntPtr value)
+		::System::Void set_Reserved(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_RESERVED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_RESERVED_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ProductId(::System::String* value)
+		::System::Void set_ProductId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_PRODUCTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_PRODUCTID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_SandboxId(::System::String* value)
+		::System::Void set_SandboxId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_SANDBOXID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_SANDBOXID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ClientCredentials(::Epic::OnlineServices::Platform::ClientCredentials* value)
+		::System::Void set_ClientCredentials(::Epic::OnlineServices::Platform::ClientCredentials* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Platform::ClientCredentials*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_CLIENTCREDENTIALS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Platform::ClientCredentials*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_CLIENTCREDENTIALS_OFFSET))(this, a1);
 		}
 
-		::System::Void set_IsServer(::System::Boolean value)
+		::System::Void set_IsServer(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_ISSERVER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_ISSERVER_OFFSET))(this, a1);
 		}
 
-		::System::Void set_EncryptionKey(::System::String* value)
+		::System::Void set_EncryptionKey(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_ENCRYPTIONKEY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_ENCRYPTIONKEY_OFFSET))(this, a1);
 		}
 
-		::System::Void set_OverrideCountryCode(::System::String* value)
+		::System::Void set_OverrideCountryCode(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_OVERRIDECOUNTRYCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_OVERRIDECOUNTRYCODE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_OverrideLocaleCode(::System::String* value)
+		::System::Void set_OverrideLocaleCode(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_OVERRIDELOCALECODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_OVERRIDELOCALECODE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_DeploymentId(::System::String* value)
+		::System::Void set_DeploymentId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_DEPLOYMENTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_DEPLOYMENTID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Flags(::Epic::OnlineServices::Platform::PlatformFlags value)
+		::System::Void set_Flags(::Epic::OnlineServices::Platform::PlatformFlags a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Platform::PlatformFlags))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_FLAGS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Platform::PlatformFlags))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_FLAGS_OFFSET))(this, a1);
 		}
 
-		::System::Void set_CacheDirectory(::System::String* value)
+		::System::Void set_CacheDirectory(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_CACHEDIRECTORY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_CACHEDIRECTORY_OFFSET))(this, a1);
 		}
 
-		::System::Void set_TickBudgetInMilliseconds(::System::UInt32 value)
+		::System::Void set_TickBudgetInMilliseconds(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_TICKBUDGETINMILLISECONDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_TICKBUDGETINMILLISECONDS_OFFSET))(this, a1);
 		}
 
-		::System::Void set_RTCOptions(::Epic::OnlineServices::Platform::RTCOptions* value)
+		::System::Void set_RTCOptions(::Epic::OnlineServices::Platform::RTCOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Platform::RTCOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_RTCOPTIONS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Platform::RTCOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_RTCOPTIONS_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Platform::Options* other)
+		::System::Void Set(::Epic::OnlineServices::Platform::Options* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Platform::Options*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Platform::Options*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_OPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

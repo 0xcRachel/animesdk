@@ -6,33 +6,33 @@ namespace Epic::OnlineServices::Presence { class PresenceModificationSetRawRichT
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETRAWRICHTEXTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2322B80)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETRAWRICHTEXTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x2322A60)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETRAWRICHTEXTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x2322990)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETRAWRICHTEXTOPTIONSINTERNAL_SET_RICHTEXT_OFFSET UNITYSDK_OFFSET(0x23228E0)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETRAWRICHTEXTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x38DA100)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETRAWRICHTEXTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x38DA0F0)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETRAWRICHTEXTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x38DA020)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETRAWRICHTEXTOPTIONSINTERNAL_SET_RICHTEXT_OFFSET UNITYSDK_OFFSET(0x38D9F70)
 
 namespace Epic::OnlineServices::Presence
 {
-	inline static constexpr unsigned int PresenceModificationSetRawRichTextOptionsInternal_TypeDefinitionIndex = 41613;
+	inline static constexpr unsigned int PresenceModificationSetRawRichTextOptionsInternal_TypeDefinitionIndex = 42416;
 
 	struct alignas(8) PresenceModificationSetRawRichTextOptionsInternal
 	{
 		::System::Int32 m_ApiVersion; // 0x10
 		::System::IntPtr m_RichText; // 0x18
 
-		::System::Void set_RichText(::System::String* value)
+		::System::Void set_RichText(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETRAWRICHTEXTOPTIONSINTERNAL_SET_RICHTEXT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETRAWRICHTEXTOPTIONSINTERNAL_SET_RICHTEXT_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Presence::PresenceModificationSetRawRichTextOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Presence::PresenceModificationSetRawRichTextOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Presence::PresenceModificationSetRawRichTextOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETRAWRICHTEXTOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Presence::PresenceModificationSetRawRichTextOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETRAWRICHTEXTOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETRAWRICHTEXTOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETRAWRICHTEXTOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

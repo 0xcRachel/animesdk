@@ -24,48 +24,48 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering { class VolumeStack; }
 
-#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1524FE50)
-#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x15258A20)
-#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x15257FC0)
-#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_ONCHANGEENV_OFFSET UNITYSDK_OFFSET(0x152507F0)
-#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_UPDATE_OFFSET UNITYSDK_OFFSET(0x15257E60)
-#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2__CTOR_OFFSET UNITYSDK_OFFSET(0x1524B7C0)
+#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_CLEANUP_OFFSET UNITYSDK_OFFSET(0x156F1E80)
+#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x156FAA30)
+#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x156F9F40)
+#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_ONCHANGEENV_OFFSET UNITYSDK_OFFSET(0x156F2660)
+#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_UPDATE_OFFSET UNITYSDK_OFFSET(0x156F9DD0)
+#define RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2__CTOR_OFFSET UNITYSDK_OFFSET(0x156ED6D0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CustomPostProcessPass2_TypeDefinitionIndex = 35152;
+	inline static constexpr unsigned int CustomPostProcessPass2_TypeDefinitionIndex = 35452;
 
 	class CustomPostProcessPass2 : public ::System::Object
 	{
 	public:
 		// static const ::System::String* _Tag; // 0x0
 		::System::Collections::Generic::List_1<::RPG::CustomRP::CRPPostprocessSubPass2*>* _PassListB; // 0x10
-		::RPG::CustomRP::RPGGaussianBlurRenderer* _GaussianBlurRenderer; // 0x18
-		::RPG::CustomRP::RPGPPPatternRenderer* _PPPatternRender; // 0x20
-		::RPG::CustomRP::RPGLensFlareRenderer* _LensFlareRenderer; // 0x28
-		::UnityEngine::Rendering::VolumeStack* _StackRef; // 0x30
-		::System::Collections::Generic::List_1<::RPG::CustomRP::CRPPostprocessSubPass2*>* _PassListA; // 0x38
-		::RPG::CustomRP::RPGSkillRadialBlurRenderer* _SkillRadialBlurRenderer; // 0x40
-		::System::Collections::Generic::List_1<::RPG::CustomRP::CRPPostprocessSubPass2*>* _PassListC; // 0x48
-		::RPG::CustomRP::RPGBloomRenderer* _BloomRenderer; // 0x50
-		::RPG::CustomRP::RPGLensGlitch2Renderer* _PPLensGlitch2Renderer; // 0x58
-		::RPG::CustomRP::RPGLensGlitchRenderer* _PPLensGlitchRenderer; // 0x60
-		::RPG::CustomRP::RPGDepthOfFieldRenderer* _DOFRenderer; // 0x68
-		::RPG::CustomRP::MaterialLibrary* _MaterialLib; // 0x70
-		::UnityEngine::MaterialPropertyBlock* _UberProperty; // 0x78
-		::RPG::CustomRP::CustomPostProcessSettings* _Settings; // 0x80
-		::RPG::CustomRP::RPGPPDownsampleRenderer* _DownsampleRenderer; // 0x88
-		::RPG::CustomRP::RPGFinalCompose* _FinalCompose; // 0x90
-		::RPG::CustomRP::RPGRadialBlurRenderer* _RadialBlurRenderer; // 0x98
+		::RPG::CustomRP::RPGBloomRenderer* _BloomRenderer; // 0x18
+		::UnityEngine::Rendering::VolumeStack* _StackRef; // 0x20
+		::RPG::CustomRP::RPGLensGlitchRenderer* _PPLensGlitchRenderer; // 0x28
+		::System::Collections::Generic::List_1<::RPG::CustomRP::CRPPostprocessSubPass2*>* _PassListC; // 0x30
+		::RPG::CustomRP::RPGLensFlareRenderer* _LensFlareRenderer; // 0x38
+		::RPG::CustomRP::RPGPPDownsampleRenderer* _DownsampleRenderer; // 0x40
+		::RPG::CustomRP::RPGGaussianBlurRenderer* _GaussianBlurRenderer; // 0x48
+		::System::Collections::Generic::List_1<::RPG::CustomRP::CRPPostprocessSubPass2*>* _PassListA; // 0x50
+		::RPG::CustomRP::CustomPostProcessSettings* _Settings; // 0x58
+		::RPG::CustomRP::RPGLensGlitch2Renderer* _PPLensGlitch2Renderer; // 0x60
+		::RPG::CustomRP::MaterialLibrary* _MaterialLib; // 0x68
+		::UnityEngine::MaterialPropertyBlock* _UberProperty; // 0x70
+		::RPG::CustomRP::RPGRadialBlurRenderer* _RadialBlurRenderer; // 0x78
+		::RPG::CustomRP::RPGDepthOfFieldRenderer* _DOFRenderer; // 0x80
+		::RPG::CustomRP::RPGSkillRadialBlurRenderer* _SkillRadialBlurRenderer; // 0x88
+		::RPG::CustomRP::RPGPPPatternRenderer* _PPPatternRender; // 0x90
+		::RPG::CustomRP::RPGFinalCompose* _FinalCompose; // 0x98
 		::RPG::CustomRP::MotionBlurRenderer* _MotionBlurRenderer; // 0xA0
-		::System::Int32 _SrcRT; // 0xA8
-		::System::Int32 _OutputRTTmpA; // 0xAC
-		::System::Int32 _OutputRT; // 0xB0
-		::System::Int32 _OutputRTTmpB; // 0xB4
+		::System::Int32 _OutputRT; // 0xA8
+		::System::Int32 _OutputRTTmpB; // 0xAC
+		::System::Int32 _SrcRT; // 0xB0
+		::System::Int32 _OutputRTTmpA; // 0xB4
 
-		::System::Void _ctor(::RPG::CustomRP::CRPRendererData* data, ::System::Boolean useCpp)
+		::System::Void _ctor(::RPG::CustomRP::CRPRendererData* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CRPRendererData*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2__CTOR_OFFSET))(this, data, useCpp);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CRPRendererData*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Cleanup()
@@ -73,24 +73,24 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_CLEANUP_OFFSET))(this);
 		}
 
-		::System::Boolean Update(::System::Int32 srcRT, ::System::Int32 dstRT)
+		::System::Boolean Update(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_UPDATE_OFFSET))(this, srcRT, dstRT);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_UPDATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void FrameCleanup(::UnityEngine::Rendering::CommandBuffer* cmd)
+		::System::Void FrameCleanup(::UnityEngine::Rendering::CommandBuffer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_FRAMECLEANUP_OFFSET))(this, cmd);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_FRAMECLEANUP_OFFSET))(this, a1);
 		}
 
-		::System::Void OnChangeEnv(::System::Boolean isLeaveScene)
+		::System::Void OnChangeEnv(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_ONCHANGEENV_OFFSET))(this, isLeaveScene);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_ONCHANGEENV_OFFSET))(this, a1);
 		}
 
-		::System::Void InnerExecute(::UnityEngine::Rendering::CommandBuffer* cmd)
+		::System::Void InnerExecute(::UnityEngine::Rendering::CommandBuffer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_INNEREXECUTE_OFFSET))(this, cmd);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CUSTOMPOSTPROCESSPASS2_INNEREXECUTE_OFFSET))(this, a1);
 		}
 	};
 }

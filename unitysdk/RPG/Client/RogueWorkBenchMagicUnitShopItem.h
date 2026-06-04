@@ -7,37 +7,37 @@ namespace RPG::Client { class RogueWorkBenchCost; }
 namespace RPG::GameCore { class ItemConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_GET_COSTDATA_OFFSET UNITYSDK_OFFSET(0x15BA80C0)
-#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_GET_DISPLAYUNITDATA_OFFSET UNITYSDK_OFFSET(0x15BA8100)
-#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_GET_ID_OFFSET UNITYSDK_OFFSET(0x15BA8060)
-#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_GET_ISBOUGHT_OFFSET UNITYSDK_OFFSET(0x15BA80A0)
-#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x15BA8080)
-#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_GET_ORIGINCOSTDATA_OFFSET UNITYSDK_OFFSET(0x15BA80E0)
-#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_COSTDATA_OFFSET UNITYSDK_OFFSET(0x15BA80D0)
-#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_DISPLAYUNITDATA_OFFSET UNITYSDK_OFFSET(0x15BA8110)
-#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_ID_OFFSET UNITYSDK_OFFSET(0x15BA8070)
-#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_ISBOUGHT_OFFSET UNITYSDK_OFFSET(0x15BA80B0)
-#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x15BA8090)
-#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_ORIGINCOSTDATA_OFFSET UNITYSDK_OFFSET(0x15BA80F0)
-#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x15BA7C80)
+#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_GET_COSTDATA_OFFSET UNITYSDK_OFFSET(0x176AF310)
+#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_GET_DISPLAYUNITDATA_OFFSET UNITYSDK_OFFSET(0x176AF350)
+#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_GET_ID_OFFSET UNITYSDK_OFFSET(0x176AF2B0)
+#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_GET_ISBOUGHT_OFFSET UNITYSDK_OFFSET(0x176AF2F0)
+#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x176AF2D0)
+#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_GET_ORIGINCOSTDATA_OFFSET UNITYSDK_OFFSET(0x176AF330)
+#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_COSTDATA_OFFSET UNITYSDK_OFFSET(0x176AF320)
+#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_DISPLAYUNITDATA_OFFSET UNITYSDK_OFFSET(0x176AF360)
+#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_ID_OFFSET UNITYSDK_OFFSET(0x176AF2C0)
+#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_ISBOUGHT_OFFSET UNITYSDK_OFFSET(0x176AF300)
+#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x176AF2E0)
+#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_ORIGINCOSTDATA_OFFSET UNITYSDK_OFFSET(0x176AF340)
+#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x176AEF10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueWorkBenchMagicUnitShopItem_TypeDefinitionIndex = 62047;
+	inline static constexpr unsigned int RogueWorkBenchMagicUnitShopItem_TypeDefinitionIndex = 62980;
 
 	class RogueWorkBenchMagicUnitShopItem : public ::System::Object
 	{
 	public:
-		::RPG::Client::RogueMagicUnitDataItem* _DisplayUnitData_k__BackingField; // 0x10
+		::RPG::Client::RogueWorkBenchCost* _CostData_k__BackingField; // 0x10
 		::RPG::Client::RogueWorkBenchCost* _OriginCostData_k__BackingField; // 0x18
-		::RPG::Client::RogueWorkBenchCost* _CostData_k__BackingField; // 0x20
-		::System::Boolean _IsBought_k__BackingField; // 0x28
-		::System::UInt32 _Level_k__BackingField; // 0x2C
-		::System::UInt32 _ID_k__BackingField; // 0x30
+		::RPG::Client::RogueMagicUnitDataItem* _DisplayUnitData_k__BackingField; // 0x20
+		::System::UInt32 _ID_k__BackingField; // 0x28
+		::System::Boolean _IsBought_k__BackingField; // 0x2C
+		::System::UInt32 _Level_k__BackingField; // 0x30
 
-		::System::Void _ctor(::System::UInt32 id, ::System::Boolean isBought, ::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* costList, ::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* originCostList, ::System::UInt32 level)
+		::System::Void _ctor(::System::UInt32 a1, ::System::Boolean a2, ::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* a3, ::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* a4, ::System::UInt32 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>*, ::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM__CTOR_OFFSET))(this, id, isBought, costList, originCostList, level);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>*, ::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::UInt32 get_ID()
@@ -45,9 +45,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_ID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_Level()
@@ -55,9 +55,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_GET_LEVEL_OFFSET))(this);
 		}
 
-		::System::Void set_Level(::System::UInt32 value)
+		::System::Void set_Level(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_LEVEL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_LEVEL_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsBought()
@@ -65,9 +65,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_GET_ISBOUGHT_OFFSET))(this);
 		}
 
-		::System::Void set_IsBought(::System::Boolean value)
+		::System::Void set_IsBought(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_ISBOUGHT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_ISBOUGHT_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RogueWorkBenchCost* get_CostData()
@@ -75,9 +75,9 @@ namespace RPG::Client
 			return ((::RPG::Client::RogueWorkBenchCost*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_GET_COSTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_CostData(::RPG::Client::RogueWorkBenchCost* value)
+		::System::Void set_CostData(::RPG::Client::RogueWorkBenchCost* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueWorkBenchCost*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_COSTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueWorkBenchCost*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_COSTDATA_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RogueWorkBenchCost* get_OriginCostData()
@@ -85,9 +85,9 @@ namespace RPG::Client
 			return ((::RPG::Client::RogueWorkBenchCost*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_GET_ORIGINCOSTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_OriginCostData(::RPG::Client::RogueWorkBenchCost* value)
+		::System::Void set_OriginCostData(::RPG::Client::RogueWorkBenchCost* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueWorkBenchCost*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_ORIGINCOSTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueWorkBenchCost*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_ORIGINCOSTDATA_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RogueMagicUnitDataItem* get_DisplayUnitData()
@@ -95,9 +95,9 @@ namespace RPG::Client
 			return ((::RPG::Client::RogueMagicUnitDataItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_GET_DISPLAYUNITDATA_OFFSET))(this);
 		}
 
-		::System::Void set_DisplayUnitData(::RPG::Client::RogueMagicUnitDataItem* value)
+		::System::Void set_DisplayUnitData(::RPG::Client::RogueMagicUnitDataItem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueMagicUnitDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_DISPLAYUNITDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueMagicUnitDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOPITEM_SET_DISPLAYUNITDATA_OFFSET))(this, a1);
 		}
 	};
 }

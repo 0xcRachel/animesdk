@@ -4,14 +4,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYALLOWINSTANTKILL_METHOD_4_775863C1C6B28947_OFFSET UNITYSDK_OFFSET(0x187CC570)
-#define RPG_GAMECORE_BYALLOWINSTANTKILL_METHOD_4_BCBF13F6C7A5D7D1_OFFSET UNITYSDK_OFFSET(0x187CC640)
-#define RPG_GAMECORE_BYALLOWINSTANTKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x187CC5F0)
+#define RPG_GAMECORE_BYALLOWINSTANTKILL_METHOD_4_045B01F1DD41A8CE_OFFSET UNITYSDK_OFFSET(0x195EE360)
+#define RPG_GAMECORE_BYALLOWINSTANTKILL_METHOD_4_0748633B6443EEFB_OFFSET UNITYSDK_OFFSET(0x195EE3E0)
+#define RPG_GAMECORE_BYALLOWINSTANTKILL_METHOD_4_775863C1C6B28947_OFFSET UNITYSDK_OFFSET(0x195EE110)
+#define RPG_GAMECORE_BYALLOWINSTANTKILL_METHOD_4_BCBF13F6C7A5D7D1_OFFSET UNITYSDK_OFFSET(0x195EE1E0)
+#define RPG_GAMECORE_BYALLOWINSTANTKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x195EE190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByAllowInstantKill_TypeDefinitionIndex = 19189;
+	inline static constexpr unsigned int ByAllowInstantKill_TypeDefinitionIndex = 19116;
 
 	class ByAllowInstantKill : public ::RPG::GameCore::PredicateConfig
 	{
@@ -31,6 +34,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_BCBF13F6C7A5D7D1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByAllowInstantKill* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByAllowInstantKill*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYALLOWINSTANTKILL_METHOD_4_BCBF13F6C7A5D7D1_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_045B01F1DD41A8CE(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByAllowInstantKill*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByAllowInstantKill*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYALLOWINSTANTKILL_METHOD_4_045B01F1DD41A8CE_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_0748633B6443EEFB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByAllowInstantKill* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByAllowInstantKill*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYALLOWINSTANTKILL_METHOD_4_0748633B6443EEFB_OFFSET))(a1, a2);
 		}
 	};
 }

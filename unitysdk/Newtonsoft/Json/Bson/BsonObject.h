@@ -9,15 +9,15 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NEWTONSOFT_JSON_BSON_BSONOBJECT_ADD_OFFSET UNITYSDK_OFFSET(0x17B4CD70)
-#define NEWTONSOFT_JSON_BSON_BSONOBJECT_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17B4CE50)
-#define NEWTONSOFT_JSON_BSON_BSONOBJECT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x17B4CE40)
-#define NEWTONSOFT_JSON_BSON_BSONOBJECT_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17B4CEF0)
-#define NEWTONSOFT_JSON_BSON_BSONOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x17B4CF90)
+#define NEWTONSOFT_JSON_BSON_BSONOBJECT_ADD_OFFSET UNITYSDK_OFFSET(0x1738B3C0)
+#define NEWTONSOFT_JSON_BSON_BSONOBJECT_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1738B4E0)
+#define NEWTONSOFT_JSON_BSON_BSONOBJECT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1738B4D0)
+#define NEWTONSOFT_JSON_BSON_BSONOBJECT_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1738B550)
+#define NEWTONSOFT_JSON_BSON_BSONOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1738B5C0)
 
 namespace Newtonsoft::Json::Bson
 {
-	inline static constexpr unsigned int BsonObject_TypeDefinitionIndex = 8600;
+	inline static constexpr unsigned int BsonObject_TypeDefinitionIndex = 9503;
 
 	class BsonObject : public ::Newtonsoft::Json::Bson::BsonToken
 	{
@@ -29,9 +29,9 @@ namespace Newtonsoft::Json::Bson
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONOBJECT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Add(::System::String* name, ::Newtonsoft::Json::Bson::BsonToken* token)
+		::System::Void Add(::System::String* a1, ::Newtonsoft::Json::Bson::BsonToken* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Newtonsoft::Json::Bson::BsonToken*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONOBJECT_ADD_OFFSET))(this, name, token);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Newtonsoft::Json::Bson::BsonToken*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONOBJECT_ADD_OFFSET))(this, a1, a2);
 		}
 
 		::Newtonsoft::Json::Bson::BsonType get_Type()

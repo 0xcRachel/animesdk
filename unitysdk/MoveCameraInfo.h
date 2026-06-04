@@ -6,11 +6,11 @@ namespace Cinemachine { class CinemachineDollyCart; }
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOVECAMERAINFO_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xEE70DC0)
-#define MOVECAMERAINFO_METHOD_1_17BD30EFE8176014_OFFSET UNITYSDK_OFFSET(0xEE70CF0)
-#define MOVECAMERAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xEE70DD0)
+#define MOVECAMERAINFO_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0x16B7E3D0)
+#define MOVECAMERAINFO_METHOD_1_E727F9956B5BD78B_OFFSET UNITYSDK_OFFSET(0x16B7E300)
+#define MOVECAMERAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16B7E3E0)
 
-inline static constexpr unsigned int MoveCameraInfo_TypeDefinitionIndex = 44060;
+inline static constexpr unsigned int MoveCameraInfo_TypeDefinitionIndex = 44606;
 
 class MoveCameraInfo : public ::System::Object
 {
@@ -28,9 +28,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOVECAMERAINFO__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_17BD30EFE8176014()
+	::System::Void Method_1_E727F9956B5BD78B()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOVECAMERAINFO_METHOD_1_17BD30EFE8176014_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOVECAMERAINFO_METHOD_1_E727F9956B5BD78B_OFFSET))(this);
 	}
 
 	::System::Boolean get_IsFinish()

@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BIGINTEGERLIBRARY_BASE10BIGINTEGER_DIGITCONTAINER_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x16C82890)
-#define BIGINTEGERLIBRARY_BASE10BIGINTEGER_DIGITCONTAINER_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x16C82500)
-#define BIGINTEGERLIBRARY_BASE10BIGINTEGER_DIGITCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x16C824C0)
+#define BIGINTEGERLIBRARY_BASE10BIGINTEGER_DIGITCONTAINER_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x13CB2490)
+#define BIGINTEGERLIBRARY_BASE10BIGINTEGER_DIGITCONTAINER_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x13CB2150)
+#define BIGINTEGERLIBRARY_BASE10BIGINTEGER_DIGITCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x13CB2110)
 
 namespace BigIntegerLibrary
 {
-	inline static constexpr unsigned int Base10BigInteger_DigitContainer_TypeDefinitionIndex = 6124;
+	inline static constexpr unsigned int Base10BigInteger_DigitContainer_TypeDefinitionIndex = 6497;
 
 	class Base10BigInteger_DigitContainer : public ::System::Object
 	{
@@ -20,14 +20,14 @@ namespace BigIntegerLibrary
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BIGINTEGERLIBRARY_BASE10BIGINTEGER_DIGITCONTAINER__CTOR_OFFSET))(this);
 		}
 
-		::System::Int64 get_Item(::System::Int32 index)
+		::System::Int64 get_Item(::System::Int32 a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + BIGINTEGERLIBRARY_BASE10BIGINTEGER_DIGITCONTAINER_GET_ITEM_OFFSET))(this, index);
+			return ((::System::Int64(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + BIGINTEGERLIBRARY_BASE10BIGINTEGER_DIGITCONTAINER_GET_ITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Item(::System::Int32 index, ::System::Int64 value)
+		::System::Void set_Item(::System::Int32 a1, ::System::Int64 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int64))((::PBYTE)hIl2Cpp + BIGINTEGERLIBRARY_BASE10BIGINTEGER_DIGITCONTAINER_SET_ITEM_OFFSET))(this, index, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int64))((::PBYTE)hIl2Cpp + BIGINTEGERLIBRARY_BASE10BIGINTEGER_DIGITCONTAINER_SET_ITEM_OFFSET))(this, a1, a2);
 		}
 	};
 }

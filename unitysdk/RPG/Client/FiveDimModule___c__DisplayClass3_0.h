@@ -5,19 +5,19 @@
 namespace RPG::Client::ChenLingGameBoy { class ChenLingGameBoyPlayerRankingListInfo; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1132AED0)
-#define RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__FETCHPLAYERSRANKINGINFO_B__0_OFFSET UNITYSDK_OFFSET(0x11333770)
-#define RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__FETCHPLAYERSRANKINGINFO_B__1_OFFSET UNITYSDK_OFFSET(0x113337E0)
+#define RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1593A1A0)
+#define RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__FETCHPLAYERSRANKINGINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1593A1B0)
+#define RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__FETCHPLAYERSRANKINGINFO_B__1_OFFSET UNITYSDK_OFFSET(0x1593A220)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimModule___c__DisplayClass3_0_TypeDefinitionIndex = 59078;
+	inline static constexpr unsigned int FiveDimModule___c__DisplayClass3_0_TypeDefinitionIndex = 60008;
 
 	class FiveDimModule___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingListInfo* rankingInfo; // 0x10
-		::RPG::Client::Promises::Promise_1<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingListInfo*>* promise; // 0x18
+		::RPG::Client::Promises::Promise_1<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingListInfo*>* promise; // 0x10
+		::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingListInfo* rankingInfo; // 0x18
 		::System::Boolean isFriendRefreshPromiseResResolved; // 0x20
 
 		::System::Void _ctor()
@@ -30,9 +30,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__FETCHPLAYERSRANKINGINFO_B__0_OFFSET))(this);
 		}
 
-		::System::Void _FetchPlayersRankingInfo_b__1(::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingListInfo* rankingListInfo)
+		::System::Void _FetchPlayersRankingInfo_b__1(::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingListInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingListInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__FETCHPLAYERSRANKINGINFO_B__1_OFFSET))(this, rankingListInfo);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingListInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__FETCHPLAYERSRANKINGINFO_B__1_OFFSET))(this, a1);
 		}
 	};
 }

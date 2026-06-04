@@ -6,13 +6,13 @@
 
 namespace System { class String; }
 
-#define MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO_GET_CIPHERSUITECODE_OFFSET UNITYSDK_OFFSET(0x19410AC0)
-#define MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO_GET_PROTOCOLVERSION_OFFSET UNITYSDK_OFFSET(0x19410AE0)
-#define MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO_SET_CIPHERSUITECODE_OFFSET UNITYSDK_OFFSET(0x19410AD0)
-#define MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO_SET_PEERDOMAINNAME_OFFSET UNITYSDK_OFFSET(0x19410B00)
-#define MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO_SET_PROTOCOLVERSION_OFFSET UNITYSDK_OFFSET(0x19410AF0)
-#define MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19410B10)
-#define MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19410BB0)
+#define MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO_GET_CIPHERSUITECODE_OFFSET UNITYSDK_OFFSET(0x19CC2910)
+#define MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO_GET_PROTOCOLVERSION_OFFSET UNITYSDK_OFFSET(0x19CC2930)
+#define MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO_SET_CIPHERSUITECODE_OFFSET UNITYSDK_OFFSET(0x19CC2920)
+#define MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO_SET_PEERDOMAINNAME_OFFSET UNITYSDK_OFFSET(0x19CC2950)
+#define MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO_SET_PROTOCOLVERSION_OFFSET UNITYSDK_OFFSET(0x19CC2940)
+#define MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19CC2960)
+#define MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19CC2A00)
 
 namespace Mono::Security::Interface
 {
@@ -22,8 +22,8 @@ namespace Mono::Security::Interface
 	{
 	public:
 		::System::String* _PeerDomainName_k__BackingField; // 0x10
-		::Mono::Security::Interface::TlsProtocols _ProtocolVersion_k__BackingField; // 0x18
-		::Mono::Security::Interface::CipherSuiteCode _CipherSuiteCode_k__BackingField; // 0x1C
+		::Mono::Security::Interface::CipherSuiteCode _CipherSuiteCode_k__BackingField; // 0x18
+		::Mono::Security::Interface::TlsProtocols _ProtocolVersion_k__BackingField; // 0x1C
 
 		::System::Void _ctor()
 		{
@@ -35,9 +35,9 @@ namespace Mono::Security::Interface
 			return ((::Mono::Security::Interface::CipherSuiteCode(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO_GET_CIPHERSUITECODE_OFFSET))(this);
 		}
 
-		::System::Void set_CipherSuiteCode(::Mono::Security::Interface::CipherSuiteCode value)
+		::System::Void set_CipherSuiteCode(::Mono::Security::Interface::CipherSuiteCode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Security::Interface::CipherSuiteCode))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO_SET_CIPHERSUITECODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Mono::Security::Interface::CipherSuiteCode))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO_SET_CIPHERSUITECODE_OFFSET))(this, a1);
 		}
 
 		::Mono::Security::Interface::TlsProtocols get_ProtocolVersion()
@@ -45,14 +45,14 @@ namespace Mono::Security::Interface
 			return ((::Mono::Security::Interface::TlsProtocols(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO_GET_PROTOCOLVERSION_OFFSET))(this);
 		}
 
-		::System::Void set_ProtocolVersion(::Mono::Security::Interface::TlsProtocols value)
+		::System::Void set_ProtocolVersion(::Mono::Security::Interface::TlsProtocols a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Security::Interface::TlsProtocols))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO_SET_PROTOCOLVERSION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Mono::Security::Interface::TlsProtocols))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO_SET_PROTOCOLVERSION_OFFSET))(this, a1);
 		}
 
-		::System::Void set_PeerDomainName(::System::String* value)
+		::System::Void set_PeerDomainName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO_SET_PEERDOMAINNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_MONOTLSCONNECTIONINFO_SET_PEERDOMAINNAME_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()

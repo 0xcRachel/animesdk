@@ -5,34 +5,34 @@
 
 namespace RPG::Client { class CakeRaceParticipantData; }
 
-#define RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x15E19670)
-#define RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_GET_DATAID_OFFSET UNITYSDK_OFFSET(0x15E197B0)
-#define RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_GET_PARTICIPANTDATA_OFFSET UNITYSDK_OFFSET(0x15E197D0)
-#define RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15E19790)
-#define RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_SET_DATAID_OFFSET UNITYSDK_OFFSET(0x15E197C0)
-#define RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_SET_PARTICIPANTDATA_OFFSET UNITYSDK_OFFSET(0x15E197E0)
-#define RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x15E197A0)
-#define RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15E19710)
+#define RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x18FAB420)
+#define RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_GET_DATAID_OFFSET UNITYSDK_OFFSET(0x18FAB510)
+#define RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_GET_PARTICIPANTDATA_OFFSET UNITYSDK_OFFSET(0x18FAB530)
+#define RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x18FAB4F0)
+#define RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_SET_DATAID_OFFSET UNITYSDK_OFFSET(0x18FAB520)
+#define RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_SET_PARTICIPANTDATA_OFFSET UNITYSDK_OFFSET(0x18FAB540)
+#define RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x18FAB500)
+#define RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18FAB4C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceReceiveChatEventData_TypeDefinitionIndex = 58066;
+	inline static constexpr unsigned int CakeRaceReceiveChatEventData_TypeDefinitionIndex = 58982;
 
 	class CakeRaceReceiveChatEventData : public ::System::Object
 	{
 	public:
 		::RPG::Client::CakeRaceParticipantData* _ParticipantData_k__BackingField; // 0x10
-		::System::UInt32 _DataID_k__BackingField; // 0x18
-		::RPG::Client::CakeRaceChatEventType _Type_k__BackingField; // 0x1C
+		::RPG::Client::CakeRaceChatEventType _Type_k__BackingField; // 0x18
+		::System::UInt32 _DataID_k__BackingField; // 0x1C
 
-		::System::Void _ctor(::RPG::Client::CakeRaceChatEventType type, ::System::UInt32 dataID, ::System::UInt32 playerID)
+		::System::Void _ctor(::RPG::Client::CakeRaceChatEventType a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::CakeRaceChatEventType, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA__CTOR_OFFSET))(this, type, dataID, playerID);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::CakeRaceChatEventType, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::RPG::Client::CakeRaceReceiveChatEventData* Create(::RPG::Client::CakeRaceChatEventType type, ::System::UInt32 dataID, ::System::UInt32 playerID)
+		static ::RPG::Client::CakeRaceReceiveChatEventData* Create(::RPG::Client::CakeRaceChatEventType a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::RPG::Client::CakeRaceReceiveChatEventData*(*)(::RPG::Client::CakeRaceChatEventType, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_CREATE_OFFSET))(type, dataID, playerID);
+			return ((::RPG::Client::CakeRaceReceiveChatEventData*(*)(::RPG::Client::CakeRaceChatEventType, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_CREATE_OFFSET))(a1, a2, a3);
 		}
 
 		::RPG::Client::CakeRaceChatEventType get_Type()
@@ -40,9 +40,9 @@ namespace RPG::Client
 			return ((::RPG::Client::CakeRaceChatEventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Void set_Type(::RPG::Client::CakeRaceChatEventType value)
+		::System::Void set_Type(::RPG::Client::CakeRaceChatEventType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::CakeRaceChatEventType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_SET_TYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::CakeRaceChatEventType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_SET_TYPE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_DataID()
@@ -50,9 +50,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_GET_DATAID_OFFSET))(this);
 		}
 
-		::System::Void set_DataID(::System::UInt32 value)
+		::System::Void set_DataID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_SET_DATAID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_SET_DATAID_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::CakeRaceParticipantData* get_ParticipantData()
@@ -60,9 +60,9 @@ namespace RPG::Client
 			return ((::RPG::Client::CakeRaceParticipantData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_GET_PARTICIPANTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ParticipantData(::RPG::Client::CakeRaceParticipantData* value)
+		::System::Void set_ParticipantData(::RPG::Client::CakeRaceParticipantData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::CakeRaceParticipantData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_SET_PARTICIPANTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::CakeRaceParticipantData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACERECEIVECHATEVENTDATA_SET_PARTICIPANTDATA_OFFSET))(this, a1);
 		}
 	};
 }

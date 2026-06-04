@@ -9,59 +9,59 @@ namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class ParameterInfo; }
 namespace XLua { class DelegateBridgeBase; }
 
-#define XLUA_OBJECTTRANSLATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16EE8C50)
-#define XLUA_OBJECTTRANSLATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16EE8C80)
-#define XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6514_0_OFFSET UNITYSDK_OFFSET(0x16EE8DB0)
-#define XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6514_1_OFFSET UNITYSDK_OFFSET(0x16EE8C90)
-#define XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6514_2_OFFSET UNITYSDK_OFFSET(0x16EE8CF0)
-#define XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6514_3_OFFSET UNITYSDK_OFFSET(0x16EE8D20)
-#define XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6514_4_OFFSET UNITYSDK_OFFSET(0x16EE8D80)
-#define XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6514_5_OFFSET UNITYSDK_OFFSET(0x16EE8DC0)
-#define XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6514_6_OFFSET UNITYSDK_OFFSET(0x16EE8DD0)
-#define XLUA_OBJECTTRANSLATOR___C__GETDELEGATE_B__6515_0_OFFSET UNITYSDK_OFFSET(0x16EE8E00)
+#define XLUA_OBJECTTRANSLATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DE00F0)
+#define XLUA_OBJECTTRANSLATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15DE0120)
+#define XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6632_0_OFFSET UNITYSDK_OFFSET(0x15DE0250)
+#define XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6632_1_OFFSET UNITYSDK_OFFSET(0x15DE0130)
+#define XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6632_2_OFFSET UNITYSDK_OFFSET(0x15DE0190)
+#define XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6632_3_OFFSET UNITYSDK_OFFSET(0x15DE01C0)
+#define XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6632_4_OFFSET UNITYSDK_OFFSET(0x15DE0220)
+#define XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6632_5_OFFSET UNITYSDK_OFFSET(0x15DE0260)
+#define XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6632_6_OFFSET UNITYSDK_OFFSET(0x15DE0270)
+#define XLUA_OBJECTTRANSLATOR___C__GETDELEGATE_B__6633_0_OFFSET UNITYSDK_OFFSET(0x15DE02A0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectTranslator___c_TypeDefinitionIndex = 46313;
+	inline static constexpr unsigned int ObjectTranslator___c_TypeDefinitionIndex = 46903;
 
 	class ObjectTranslator___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Reflection::MethodInfo*, ::System::Int32>** StaticGet___9__6514_2()
+		static ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>** StaticGet___9__6632_6()
 		{
-			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator___c_TypeDefinitionIndex)->GetStaticField(0x16F20);
+			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator___c_TypeDefinitionIndex)->GetStaticField(0x31DF0);
 		}
-		static ::System::Func_2<::System::Reflection::MethodInfo*, ::System::Boolean>** StaticGet___9__6515_0()
+		static ::System::Func_2<::System::Reflection::MethodInfo*, ::System::Boolean>** StaticGet___9__6633_0()
 		{
-			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator___c_TypeDefinitionIndex)->GetStaticField(0x16F28);
+			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator___c_TypeDefinitionIndex)->GetStaticField(0x31DF8);
 		}
-		static ::System::Func_2<::XLua::DelegateBridgeBase*, ::System::Delegate*>** StaticGet___9__6514_5()
+		static ::System::Func_2<::System::Reflection::MethodInfo*, ::System::Boolean>** StaticGet___9__6632_3()
 		{
-			return (::System::Func_2<::XLua::DelegateBridgeBase*, ::System::Delegate*>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator___c_TypeDefinitionIndex)->GetStaticField(0x16F30);
+			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator___c_TypeDefinitionIndex)->GetStaticField(0x31E00);
 		}
-		static ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>** StaticGet___9__6514_6()
+		static ::System::Func_2<::XLua::DelegateBridgeBase*, ::System::Delegate*>** StaticGet___9__6632_5()
 		{
-			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator___c_TypeDefinitionIndex)->GetStaticField(0x16F38);
+			return (::System::Func_2<::XLua::DelegateBridgeBase*, ::System::Delegate*>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator___c_TypeDefinitionIndex)->GetStaticField(0x31E08);
+		}
+		static ::System::Func_2<::System::Reflection::MethodInfo*, ::System::Boolean>** StaticGet___9__6632_1()
+		{
+			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator___c_TypeDefinitionIndex)->GetStaticField(0x31E10);
+		}
+		static ::System::Func_2<::XLua::DelegateBridgeBase*, ::System::Delegate*>** StaticGet___9__6632_0()
+		{
+			return (::System::Func_2<::XLua::DelegateBridgeBase*, ::System::Delegate*>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator___c_TypeDefinitionIndex)->GetStaticField(0x31E18);
+		}
+		static ::System::Func_2<::System::Reflection::MethodInfo*, ::System::Int32>** StaticGet___9__6632_4()
+		{
+			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator___c_TypeDefinitionIndex)->GetStaticField(0x31E20);
+		}
+		static ::System::Func_2<::System::Reflection::MethodInfo*, ::System::Int32>** StaticGet___9__6632_2()
+		{
+			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator___c_TypeDefinitionIndex)->GetStaticField(0x31E28);
 		}
 		static ::XLua::ObjectTranslator___c** StaticGet___9()
 		{
-			return (::XLua::ObjectTranslator___c**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator___c_TypeDefinitionIndex)->GetStaticField(0x16F40);
-		}
-		static ::System::Func_2<::System::Reflection::MethodInfo*, ::System::Boolean>** StaticGet___9__6514_1()
-		{
-			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator___c_TypeDefinitionIndex)->GetStaticField(0x16F48);
-		}
-		static ::System::Func_2<::System::Reflection::MethodInfo*, ::System::Int32>** StaticGet___9__6514_4()
-		{
-			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator___c_TypeDefinitionIndex)->GetStaticField(0x16F50);
-		}
-		static ::System::Func_2<::XLua::DelegateBridgeBase*, ::System::Delegate*>** StaticGet___9__6514_0()
-		{
-			return (::System::Func_2<::XLua::DelegateBridgeBase*, ::System::Delegate*>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator___c_TypeDefinitionIndex)->GetStaticField(0x16F58);
-		}
-		static ::System::Func_2<::System::Reflection::MethodInfo*, ::System::Boolean>** StaticGet___9__6514_3()
-		{
-			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator___c_TypeDefinitionIndex)->GetStaticField(0x16F60);
+			return (::XLua::ObjectTranslator___c**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator___c_TypeDefinitionIndex)->GetStaticField(0x31E30);
 		}
 
 		static ::System::Void _cctor()
@@ -74,44 +74,44 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _getCreatorUsingGeneric_b__6514_1(::System::Reflection::MethodInfo* m)
+		::System::Boolean _getCreatorUsingGeneric_b__6632_1(::System::Reflection::MethodInfo* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6514_1_OFFSET))(this, m);
+			return ((::System::Boolean(*)(::PVOID, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6632_1_OFFSET))(this, a1);
 		}
 
-		::System::Int32 _getCreatorUsingGeneric_b__6514_2(::System::Reflection::MethodInfo* m)
+		::System::Int32 _getCreatorUsingGeneric_b__6632_2(::System::Reflection::MethodInfo* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6514_2_OFFSET))(this, m);
+			return ((::System::Int32(*)(::PVOID, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6632_2_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _getCreatorUsingGeneric_b__6514_3(::System::Reflection::MethodInfo* m)
+		::System::Boolean _getCreatorUsingGeneric_b__6632_3(::System::Reflection::MethodInfo* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6514_3_OFFSET))(this, m);
+			return ((::System::Boolean(*)(::PVOID, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6632_3_OFFSET))(this, a1);
 		}
 
-		::System::Int32 _getCreatorUsingGeneric_b__6514_4(::System::Reflection::MethodInfo* m)
+		::System::Int32 _getCreatorUsingGeneric_b__6632_4(::System::Reflection::MethodInfo* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6514_4_OFFSET))(this, m);
+			return ((::System::Int32(*)(::PVOID, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6632_4_OFFSET))(this, a1);
 		}
 
-		::System::Delegate* _getCreatorUsingGeneric_b__6514_0(::XLua::DelegateBridgeBase* x)
+		::System::Delegate* _getCreatorUsingGeneric_b__6632_0(::XLua::DelegateBridgeBase* a1)
 		{
-			return ((::System::Delegate*(*)(::PVOID, ::XLua::DelegateBridgeBase*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6514_0_OFFSET))(this, x);
+			return ((::System::Delegate*(*)(::PVOID, ::XLua::DelegateBridgeBase*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6632_0_OFFSET))(this, a1);
 		}
 
-		::System::Delegate* _getCreatorUsingGeneric_b__6514_5(::XLua::DelegateBridgeBase* x)
+		::System::Delegate* _getCreatorUsingGeneric_b__6632_5(::XLua::DelegateBridgeBase* a1)
 		{
-			return ((::System::Delegate*(*)(::PVOID, ::XLua::DelegateBridgeBase*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6514_5_OFFSET))(this, x);
+			return ((::System::Delegate*(*)(::PVOID, ::XLua::DelegateBridgeBase*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6632_5_OFFSET))(this, a1);
 		}
 
-		::System::Type* _getCreatorUsingGeneric_b__6514_6(::System::Reflection::ParameterInfo* pinfo)
+		::System::Type* _getCreatorUsingGeneric_b__6632_6(::System::Reflection::ParameterInfo* a1)
 		{
-			return ((::System::Type*(*)(::PVOID, ::System::Reflection::ParameterInfo*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6514_6_OFFSET))(this, pinfo);
+			return ((::System::Type*(*)(::PVOID, ::System::Reflection::ParameterInfo*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR___C__GETCREATORUSINGGENERIC_B__6632_6_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _getDelegate_b__6515_0(::System::Reflection::MethodInfo* m)
+		::System::Boolean _getDelegate_b__6633_0(::System::Reflection::MethodInfo* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR___C__GETDELEGATE_B__6515_0_OFFSET))(this, m);
+			return ((::System::Boolean(*)(::PVOID, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR___C__GETDELEGATE_B__6633_0_OFFSET))(this, a1);
 		}
 	};
 }

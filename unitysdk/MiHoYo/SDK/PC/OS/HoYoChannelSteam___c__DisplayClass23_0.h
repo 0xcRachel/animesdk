@@ -5,19 +5,19 @@
 namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelSteam; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSTEAM___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x174268F0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSTEAM___C__DISPLAYCLASS23_0__ONCREATEORDER_B__0_OFFSET UNITYSDK_OFFSET(0x17428F20)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSTEAM___C__DISPLAYCLASS23_0__ONCREATEORDER_B__1_OFFSET UNITYSDK_OFFSET(0x17428F80)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSTEAM___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186A1180)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSTEAM___C__DISPLAYCLASS23_0__ONCREATEORDER_B__0_OFFSET UNITYSDK_OFFSET(0x186A3720)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSTEAM___C__DISPLAYCLASS23_0__ONCREATEORDER_B__1_OFFSET UNITYSDK_OFFSET(0x186A3780)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelSteam___c__DisplayClass23_0_TypeDefinitionIndex = 7565;
+	inline static constexpr unsigned int HoYoChannelSteam___c__DisplayClass23_0_TypeDefinitionIndex = 8468;
 
 	class HoYoChannelSteam___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::NetworkResponseModelEx* response; // 0x10
-		::MiHoYo::SDK::PC::OS::HoYoChannelSteam* __4__this; // 0x18
+		::MiHoYo::SDK::PC::OS::HoYoChannelSteam* __4__this; // 0x10
+		::MiHoYo::SDK::NetworkResponseModelEx* response; // 0x18
 
 		::System::Void _ctor()
 		{

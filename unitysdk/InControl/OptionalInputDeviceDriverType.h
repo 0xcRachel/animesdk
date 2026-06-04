@@ -6,40 +6,40 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_CLEAR_OFFSET UNITYSDK_OFFSET(0x2177880)
-#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_COMBINEHASHCODES_OFFSET UNITYSDK_OFFSET(0x13BCBEC0)
-#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x2177920)
-#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_EQUALS_2_OFFSET UNITYSDK_OFFSET(0x2177940)
-#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_EQUALS_OFFSET UNITYSDK_OFFSET(0x21778B0)
-#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2177960)
-#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_GETVALUEORDEFAULT_OFFSET UNITYSDK_OFFSET(0x2177890)
-#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_GETVALUEORZERO_OFFSET UNITYSDK_OFFSET(0x21778A0)
-#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_GET_HASNOVALUE_OFFSET UNITYSDK_OFFSET(0x2177580)
-#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_GET_HASVALUE_OFFSET UNITYSDK_OFFSET(0x608B40)
-#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x2177810)
-#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_EQUALITY_1_OFFSET UNITYSDK_OFFSET(0x13BCBE80)
-#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x13BCBE40)
-#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x13BCBF60)
-#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x13B761D0)
-#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_INEQUALITY_1_OFFSET UNITYSDK_OFFSET(0x13BCBEA0)
-#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x13BCBE60)
-#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_SETVALUE_OFFSET UNITYSDK_OFFSET(0x2177800)
-#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x2177800)
-#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2177980)
-#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x2177800)
+#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_CLEAR_OFFSET UNITYSDK_OFFSET(0x372D700)
+#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_COMBINEHASHCODES_OFFSET UNITYSDK_OFFSET(0x12A11EE0)
+#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x372D7A0)
+#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_EQUALS_2_OFFSET UNITYSDK_OFFSET(0x372D7C0)
+#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_EQUALS_OFFSET UNITYSDK_OFFSET(0x372D730)
+#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x372D7E0)
+#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_GETVALUEORDEFAULT_OFFSET UNITYSDK_OFFSET(0x372D710)
+#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_GETVALUEORZERO_OFFSET UNITYSDK_OFFSET(0x372D720)
+#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_GET_HASNOVALUE_OFFSET UNITYSDK_OFFSET(0x372D400)
+#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_GET_HASVALUE_OFFSET UNITYSDK_OFFSET(0x72BD00)
+#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x372D690)
+#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_EQUALITY_1_OFFSET UNITYSDK_OFFSET(0x12A11EB0)
+#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x12A11E70)
+#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x12A11F80)
+#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x129C7B20)
+#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_INEQUALITY_1_OFFSET UNITYSDK_OFFSET(0x12A11EC0)
+#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x12A11E90)
+#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_SETVALUE_OFFSET UNITYSDK_OFFSET(0x372D680)
+#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x372D680)
+#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x372D800)
+#define INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x372D680)
 
 namespace InControl
 {
-	inline static constexpr unsigned int OptionalInputDeviceDriverType_TypeDefinitionIndex = 37210;
+	inline static constexpr unsigned int OptionalInputDeviceDriverType_TypeDefinitionIndex = 37942;
 
 	struct alignas(2) OptionalInputDeviceDriverType
 	{
 		::System::Boolean hasValue; // 0x10
 		::InControl::InputDeviceDriverType value; // 0x12
 
-		::System::Void _ctor(::InControl::InputDeviceDriverType value)
+		::System::Void _ctor(::InControl::InputDeviceDriverType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::InputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE__CTOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::InControl::InputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_HasValue()
@@ -57,9 +57,9 @@ namespace InControl
 			return ((::InControl::InputDeviceDriverType(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_Value(::InControl::InputDeviceDriverType value)
+		::System::Void set_Value(::InControl::InputDeviceDriverType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::InputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::InControl::InputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_SET_VALUE_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()
@@ -67,9 +67,9 @@ namespace InControl
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_CLEAR_OFFSET))(this);
 		}
 
-		::InControl::InputDeviceDriverType GetValueOrDefault(::InControl::InputDeviceDriverType defaultValue)
+		::InControl::InputDeviceDriverType GetValueOrDefault(::InControl::InputDeviceDriverType a1)
 		{
-			return ((::InControl::InputDeviceDriverType(*)(::PVOID, ::InControl::InputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_GETVALUEORDEFAULT_OFFSET))(this, defaultValue);
+			return ((::InControl::InputDeviceDriverType(*)(::PVOID, ::InControl::InputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_GETVALUEORDEFAULT_OFFSET))(this, a1);
 		}
 
 		::InControl::InputDeviceDriverType GetValueOrZero()
@@ -77,49 +77,49 @@ namespace InControl
 			return ((::InControl::InputDeviceDriverType(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_GETVALUEORZERO_OFFSET))(this);
 		}
 
-		::System::Void SetValue(::InControl::InputDeviceDriverType value)
+		::System::Void SetValue(::InControl::InputDeviceDriverType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::InputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_SETVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::InControl::InputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_SETVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::System::Object* other)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::InControl::OptionalInputDeviceDriverType other)
+		::System::Boolean Equals_1(::InControl::OptionalInputDeviceDriverType a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::InControl::OptionalInputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::InControl::OptionalInputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_EQUALS_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_2(::InControl::InputDeviceDriverType other)
+		::System::Boolean Equals_2(::InControl::InputDeviceDriverType a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_EQUALS_2_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_EQUALS_2_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean op_Equality(::InControl::OptionalInputDeviceDriverType a, ::InControl::OptionalInputDeviceDriverType b)
+		static ::System::Boolean op_Equality(::InControl::OptionalInputDeviceDriverType a1, ::InControl::OptionalInputDeviceDriverType a2)
 		{
-			return ((::System::Boolean(*)(::InControl::OptionalInputDeviceDriverType, ::InControl::OptionalInputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_EQUALITY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::InControl::OptionalInputDeviceDriverType, ::InControl::OptionalInputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::InControl::OptionalInputDeviceDriverType a, ::InControl::OptionalInputDeviceDriverType b)
+		static ::System::Boolean op_Inequality(::InControl::OptionalInputDeviceDriverType a1, ::InControl::OptionalInputDeviceDriverType a2)
 		{
-			return ((::System::Boolean(*)(::InControl::OptionalInputDeviceDriverType, ::InControl::OptionalInputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_INEQUALITY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::InControl::OptionalInputDeviceDriverType, ::InControl::OptionalInputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Equality_1(::InControl::OptionalInputDeviceDriverType a, ::InControl::InputDeviceDriverType b)
+		static ::System::Boolean op_Equality_1(::InControl::OptionalInputDeviceDriverType a1, ::InControl::InputDeviceDriverType a2)
 		{
-			return ((::System::Boolean(*)(::InControl::OptionalInputDeviceDriverType, ::InControl::InputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_EQUALITY_1_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::InControl::OptionalInputDeviceDriverType, ::InControl::InputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_EQUALITY_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality_1(::InControl::OptionalInputDeviceDriverType a, ::InControl::InputDeviceDriverType b)
+		static ::System::Boolean op_Inequality_1(::InControl::OptionalInputDeviceDriverType a1, ::InControl::InputDeviceDriverType a2)
 		{
-			return ((::System::Boolean(*)(::InControl::OptionalInputDeviceDriverType, ::InControl::InputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_INEQUALITY_1_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::InControl::OptionalInputDeviceDriverType, ::InControl::InputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_INEQUALITY_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 CombineHashCodes(::System::Int32 h1, ::System::Int32 h2)
+		static ::System::Int32 CombineHashCodes(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_COMBINEHASHCODES_OFFSET))(h1, h2);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_COMBINEHASHCODES_OFFSET))(a1, a2);
 		}
 
 		::System::Int32 GetHashCode()
@@ -132,14 +132,14 @@ namespace InControl
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_TOSTRING_OFFSET))(this);
 		}
 
-		static ::InControl::OptionalInputDeviceDriverType op_Implicit(::InControl::InputDeviceDriverType value)
+		static ::InControl::OptionalInputDeviceDriverType op_Implicit(::InControl::InputDeviceDriverType a1)
 		{
-			return ((::InControl::OptionalInputDeviceDriverType(*)(::InControl::InputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_IMPLICIT_OFFSET))(value);
+			return ((::InControl::OptionalInputDeviceDriverType(*)(::InControl::InputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_IMPLICIT_OFFSET))(a1);
 		}
 
-		static ::InControl::InputDeviceDriverType op_Explicit(::InControl::OptionalInputDeviceDriverType optional)
+		static ::InControl::InputDeviceDriverType op_Explicit(::InControl::OptionalInputDeviceDriverType a1)
 		{
-			return ((::InControl::InputDeviceDriverType(*)(::InControl::OptionalInputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_EXPLICIT_OFFSET))(optional);
+			return ((::InControl::InputDeviceDriverType(*)(::InControl::OptionalInputDeviceDriverType))((::PBYTE)hIl2Cpp + INCONTROL_OPTIONALINPUTDEVICEDRIVERTYPE_OP_EXPLICIT_OFFSET))(a1);
 		}
 	};
 }

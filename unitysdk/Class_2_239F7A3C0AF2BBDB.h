@@ -3,7 +3,7 @@
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
 class Class_1_827373C1CEDFE355;
-class Class_1_BD800F5B29A08E1F;
+class Class_1_AC66714FF5876767;
 namespace RPG::GameCore { class AISelector; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameEntityList; }
@@ -11,24 +11,24 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UseSequencedSkill; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_239F7A3C0AF2BBDB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEB96790)
-#define CLASS_2_239F7A3C0AF2BBDB_METHOD_2_3BACF11473B40D3C_OFFSET UNITYSDK_OFFSET(0xEB96BE0)
-#define CLASS_2_239F7A3C0AF2BBDB_METHOD_2_63D396B662030C2A_OFFSET UNITYSDK_OFFSET(0xEB97110)
-#define CLASS_2_239F7A3C0AF2BBDB_METHOD_2_CB63CE00D92A7A9B_OFFSET UNITYSDK_OFFSET(0xEB96EC0)
-#define CLASS_2_239F7A3C0AF2BBDB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB967D0)
-#define CLASS_2_239F7A3C0AF2BBDB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEB97060)
-#define CLASS_2_239F7A3C0AF2BBDB_TICK_OFFSET UNITYSDK_OFFSET(0xEB970B0)
-#define CLASS_2_239F7A3C0AF2BBDB__CTOR_OFFSET UNITYSDK_OFFSET(0xEB96750)
+#define CLASS_2_239F7A3C0AF2BBDB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16EE1C80)
+#define CLASS_2_239F7A3C0AF2BBDB_METHOD_2_060F3E3DC8E2A26A_OFFSET UNITYSDK_OFFSET(0x14FA43C0)
+#define CLASS_2_239F7A3C0AF2BBDB_METHOD_2_63D396B662030C2A_OFFSET UNITYSDK_OFFSET(0x14FA4310)
+#define CLASS_2_239F7A3C0AF2BBDB_METHOD_2_CB63CE00D92A7A9B_OFFSET UNITYSDK_OFFSET(0x14FA4630)
+#define CLASS_2_239F7A3C0AF2BBDB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16EE1CC0)
+#define CLASS_2_239F7A3C0AF2BBDB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16EE20B0)
+#define CLASS_2_239F7A3C0AF2BBDB_TICK_OFFSET UNITYSDK_OFFSET(0x14FA42B0)
+#define CLASS_2_239F7A3C0AF2BBDB__CTOR_OFFSET UNITYSDK_OFFSET(0x16EE1C40)
 
-inline static constexpr unsigned int Class_2_239F7A3C0AF2BBDB_TypeDefinitionIndex = 50172;
+inline static constexpr unsigned int Class_2_239F7A3C0AF2BBDB_TypeDefinitionIndex = 50839;
 
 class Class_2_239F7A3C0AF2BBDB : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::UseSequencedSkill* Field_2_1; // 0x18
-	::Class_1_827373C1CEDFE355* Field_2_2; // 0x20
-	::Class_1_BD800F5B29A08E1F* Field_2_3; // 0x28
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x30
+	::Class_1_AC66714FF5876767* Field_2_0; // 0x18
+	::Class_1_827373C1CEDFE355* Field_2_1; // 0x20
+	::RPG::GameCore::UseSequencedSkill* Field_2_2; // 0x28
+	::RPG::GameCore::TaskContext* Field_2_3; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::UseSequencedSkill* a2)
 	{
@@ -60,9 +60,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::RPG::GameCore::AISelector*))((::PBYTE)hIl2Cpp + CLASS_2_239F7A3C0AF2BBDB_METHOD_2_63D396B662030C2A_OFFSET))(this, a1, a2);
 	}
 
-	::RPG::GameCore::GameEntityList* Method_2_3BACF11473B40D3C(::System::Int32 a1)
+	::RPG::GameCore::GameEntityList* Method_2_060F3E3DC8E2A26A(::System::Int32 a1)
 	{
-		return ((::RPG::GameCore::GameEntityList*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_239F7A3C0AF2BBDB_METHOD_2_3BACF11473B40D3C_OFFSET))(this, a1);
+		return ((::RPG::GameCore::GameEntityList*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_239F7A3C0AF2BBDB_METHOD_2_060F3E3DC8E2A26A_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_2_CB63CE00D92A7A9B(::System::Int32 a1, ::RPG::GameCore::GameEntity* a2)

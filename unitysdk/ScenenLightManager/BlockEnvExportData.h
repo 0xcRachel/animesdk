@@ -20,15 +20,15 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SCENENLIGHTMANAGER_BLOCKENVEXPORTDATA_FINALIZE_OFFSET UNITYSDK_OFFSET(0x16E20750)
-#define SCENENLIGHTMANAGER_BLOCKENVEXPORTDATA_METHOD_3_16E2BC73E2904F2F_OFFSET UNITYSDK_OFFSET(0x16E21F00)
-#define SCENENLIGHTMANAGER_BLOCKENVEXPORTDATA_METHOD_3_9B4CB6A2D6A8932F_OFFSET UNITYSDK_OFFSET(0x16E21BE0)
-#define SCENENLIGHTMANAGER_BLOCKENVEXPORTDATA_METHOD_3_DAF6BB5E3A6072BA_OFFSET UNITYSDK_OFFSET(0x16E20760)
-#define SCENENLIGHTMANAGER_BLOCKENVEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16E205C0)
+#define SCENENLIGHTMANAGER_BLOCKENVEXPORTDATA_FINALIZE_OFFSET UNITYSDK_OFFSET(0x17757DD0)
+#define SCENENLIGHTMANAGER_BLOCKENVEXPORTDATA_METHOD_3_9A948BCE6757BD75_OFFSET UNITYSDK_OFFSET(0x17757DE0)
+#define SCENENLIGHTMANAGER_BLOCKENVEXPORTDATA_METHOD_3_9B4CB6A2D6A8932F_OFFSET UNITYSDK_OFFSET(0x17758DF0)
+#define SCENENLIGHTMANAGER_BLOCKENVEXPORTDATA_METHOD_3_A7255BF3487CAEB2_OFFSET UNITYSDK_OFFSET(0x17759380)
+#define SCENENLIGHTMANAGER_BLOCKENVEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17757C40)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int BlockEnvExportData_TypeDefinitionIndex = 45663;
+	inline static constexpr unsigned int BlockEnvExportData_TypeDefinitionIndex = 46246;
 
 	class BlockEnvExportData : public ::UnityEngine::ScriptableObject
 	{
@@ -58,9 +58,9 @@ namespace ScenenLightManager
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_BLOCKENVEXPORTDATA_FINALIZE_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::ScenenLightManager::BaseSceneLightExportData*>* Method_3_DAF6BB5E3A6072BA()
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::ScenenLightManager::BaseSceneLightExportData*>* Method_3_9A948BCE6757BD75()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::ScenenLightManager::BaseSceneLightExportData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_BLOCKENVEXPORTDATA_METHOD_3_DAF6BB5E3A6072BA_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::ScenenLightManager::BaseSceneLightExportData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_BLOCKENVEXPORTDATA_METHOD_3_9A948BCE6757BD75_OFFSET))(this);
 		}
 
 		::System::Boolean Method_3_9B4CB6A2D6A8932F(::ScenenLightManager::LightTypeID a1, ::System::Object* a2)
@@ -68,9 +68,9 @@ namespace ScenenLightManager
 			return ((::System::Boolean(*)(::PVOID, ::ScenenLightManager::LightTypeID, ::System::Object*))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_BLOCKENVEXPORTDATA_METHOD_3_9B4CB6A2D6A8932F_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::Generic::List_1<::ScenenLightManager::BaseSceneLightExportData*>* Method_3_16E2BC73E2904F2F(::ScenenLightManager::LightTypeID a1)
+		::System::Collections::Generic::List_1<::ScenenLightManager::BaseSceneLightExportData*>* Method_3_A7255BF3487CAEB2(::ScenenLightManager::LightTypeID a1)
 		{
-			return ((::System::Collections::Generic::List_1<::ScenenLightManager::BaseSceneLightExportData*>*(*)(::PVOID, ::ScenenLightManager::LightTypeID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_BLOCKENVEXPORTDATA_METHOD_3_16E2BC73E2904F2F_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::ScenenLightManager::BaseSceneLightExportData*>*(*)(::PVOID, ::ScenenLightManager::LightTypeID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_BLOCKENVEXPORTDATA_METHOD_3_A7255BF3487CAEB2_OFFSET))(this, a1);
 		}
 	};
 }

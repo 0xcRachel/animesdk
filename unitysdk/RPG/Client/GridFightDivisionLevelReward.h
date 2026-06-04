@@ -5,24 +5,24 @@
 namespace RPG::Client { class GridFightDivisionLevelConfig; }
 namespace RPG::Client { class QuestData; }
 
-#define RPG_CLIENT_GRIDFIGHTDIVISIONLEVELREWARD_GET_EXTRAQUEST_OFFSET UNITYSDK_OFFSET(0x18040360)
-#define RPG_CLIENT_GRIDFIGHTDIVISIONLEVELREWARD_GET_LEVELCONFIG_OFFSET UNITYSDK_OFFSET(0x18040420)
-#define RPG_CLIENT_GRIDFIGHTDIVISIONLEVELREWARD_GET_QUEST_OFFSET UNITYSDK_OFFSET(0x180402B0)
-#define RPG_CLIENT_GRIDFIGHTDIVISIONLEVELREWARD_SET_LEVELCONFIG_OFFSET UNITYSDK_OFFSET(0x18040430)
-#define RPG_CLIENT_GRIDFIGHTDIVISIONLEVELREWARD__CTOR_OFFSET UNITYSDK_OFFSET(0x18040240)
+#define RPG_CLIENT_GRIDFIGHTDIVISIONLEVELREWARD_GET_EXTRAQUEST_OFFSET UNITYSDK_OFFSET(0x1958AF50)
+#define RPG_CLIENT_GRIDFIGHTDIVISIONLEVELREWARD_GET_LEVELCONFIG_OFFSET UNITYSDK_OFFSET(0x1958B010)
+#define RPG_CLIENT_GRIDFIGHTDIVISIONLEVELREWARD_GET_QUEST_OFFSET UNITYSDK_OFFSET(0x1958AEA0)
+#define RPG_CLIENT_GRIDFIGHTDIVISIONLEVELREWARD_SET_LEVELCONFIG_OFFSET UNITYSDK_OFFSET(0x1958B020)
+#define RPG_CLIENT_GRIDFIGHTDIVISIONLEVELREWARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1958AE20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightDivisionLevelReward_TypeDefinitionIndex = 59390;
+	inline static constexpr unsigned int GridFightDivisionLevelReward_TypeDefinitionIndex = 60325;
 
 	class GridFightDivisionLevelReward : public ::System::Object
 	{
 	public:
 		::RPG::Client::GridFightDivisionLevelConfig* _LevelConfig_k__BackingField; // 0x10
 
-		::System::Void _ctor(::System::UInt32 level, ::System::UInt32 seasonID)
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDIVISIONLEVELREWARD__CTOR_OFFSET))(this, level, seasonID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDIVISIONLEVELREWARD__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::QuestData* get_Quest()
@@ -40,9 +40,9 @@ namespace RPG::Client
 			return ((::RPG::Client::GridFightDivisionLevelConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDIVISIONLEVELREWARD_GET_LEVELCONFIG_OFFSET))(this);
 		}
 
-		::System::Void set_LevelConfig(::RPG::Client::GridFightDivisionLevelConfig* value)
+		::System::Void set_LevelConfig(::RPG::Client::GridFightDivisionLevelConfig* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightDivisionLevelConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDIVISIONLEVELREWARD_SET_LEVELCONFIG_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightDivisionLevelConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDIVISIONLEVELREWARD_SET_LEVELCONFIG_OFFSET))(this, a1);
 		}
 	};
 }

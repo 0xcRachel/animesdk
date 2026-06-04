@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StopElevationDither; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BCB0A0ACD06CB29D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE0B72B0)
-#define CLASS_3_BCB0A0ACD06CB29D__CTOR_OFFSET UNITYSDK_OFFSET(0xE0B7280)
+#define CLASS_3_BCB0A0ACD06CB29D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x138854E0)
+#define CLASS_3_BCB0A0ACD06CB29D__CTOR_OFFSET UNITYSDK_OFFSET(0x138854B0)
 
-inline static constexpr unsigned int Class_3_BCB0A0ACD06CB29D_TypeDefinitionIndex = 49147;
+inline static constexpr unsigned int Class_3_BCB0A0ACD06CB29D_TypeDefinitionIndex = 49814;
 
 class Class_3_BCB0A0ACD06CB29D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StopElevationDither*>
 {

@@ -7,39 +7,39 @@ namespace RPG::Client::LittleGame::FiveDim { class FiveDimGridPropView_Class_1_8
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x158F8540)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x158F8570)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C__POSTLOADASYNC_B__4_0_OFFSET UNITYSDK_OFFSET(0x158F8580)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C___ONCELLASYNCLOADFINISH_B__17_0_OFFSET UNITYSDK_OFFSET(0x158F85A0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C___TRYINITWATERREFLECTIONV2_B__27_0_OFFSET UNITYSDK_OFFSET(0x158F8610)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C___TRYINITWATERREFLECTION_B__26_0_OFFSET UNITYSDK_OFFSET(0x158F85C0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17995770)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x179957A0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C__POSTLOADASYNC_B__4_0_OFFSET UNITYSDK_OFFSET(0x179957B0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C___ONCELLASYNCLOADFINISH_B__17_0_OFFSET UNITYSDK_OFFSET(0x179957D0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C___TRYINITWATERREFLECTIONV2_B__27_0_OFFSET UNITYSDK_OFFSET(0x17995840)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C___TRYINITWATERREFLECTION_B__26_0_OFFSET UNITYSDK_OFFSET(0x179957F0)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimGridPropView___c_TypeDefinitionIndex = 70890;
+	inline static constexpr unsigned int FiveDimGridPropView___c_TypeDefinitionIndex = 71712;
 
 	class FiveDimGridPropView___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView*>** StaticGet___9__26_0()
+		static ::System::Action_1<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView*>** StaticGet___9__27_0()
 		{
-			return (::System::Action_1<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView*>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimGridPropView___c_TypeDefinitionIndex)->GetStaticField(0x41580);
+			return (::System::Action_1<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView*>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimGridPropView___c_TypeDefinitionIndex)->GetStaticField(0x44A90);
 		}
 		static ::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView___c** StaticGet___9()
 		{
-			return (::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView___c**)Il2CppClass::FromTypeDefinitionIndex(FiveDimGridPropView___c_TypeDefinitionIndex)->GetStaticField(0x41588);
+			return (::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView___c**)Il2CppClass::FromTypeDefinitionIndex(FiveDimGridPropView___c_TypeDefinitionIndex)->GetStaticField(0x44A98);
 		}
 		static ::System::Func_2<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_Class_1_8C99D32A1F367FCF*, ::System::Boolean>** StaticGet___9__17_0()
 		{
-			return (::System::Func_2<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_Class_1_8C99D32A1F367FCF*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimGridPropView___c_TypeDefinitionIndex)->GetStaticField(0x41590);
+			return (::System::Func_2<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_Class_1_8C99D32A1F367FCF*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimGridPropView___c_TypeDefinitionIndex)->GetStaticField(0x44AA0);
 		}
-		static ::System::Action_1<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView*>** StaticGet___9__27_0()
+		static ::System::Action_1<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView*>** StaticGet___9__26_0()
 		{
-			return (::System::Action_1<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView*>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimGridPropView___c_TypeDefinitionIndex)->GetStaticField(0x41598);
+			return (::System::Action_1<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView*>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimGridPropView___c_TypeDefinitionIndex)->GetStaticField(0x44AA8);
 		}
 		static ::System::Func_2<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_Class_1_8C99D32A1F367FCF*, ::System::Boolean>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_Class_1_8C99D32A1F367FCF*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimGridPropView___c_TypeDefinitionIndex)->GetStaticField(0x415A0);
+			return (::System::Func_2<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_Class_1_8C99D32A1F367FCF*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimGridPropView___c_TypeDefinitionIndex)->GetStaticField(0x44AB0);
 		}
 
 		static ::System::Void _cctor()
@@ -52,24 +52,24 @@ namespace RPG::Client::LittleGame::FiveDim
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _PostLoadAsync_b__4_0(::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_Class_1_8C99D32A1F367FCF* handle)
+		::System::Boolean _PostLoadAsync_b__4_0(::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_Class_1_8C99D32A1F367FCF* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_Class_1_8C99D32A1F367FCF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C__POSTLOADASYNC_B__4_0_OFFSET))(this, handle);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_Class_1_8C99D32A1F367FCF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C__POSTLOADASYNC_B__4_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __OnCellAsyncLoadFinish_b__17_0(::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_Class_1_8C99D32A1F367FCF* handle)
+		::System::Boolean __OnCellAsyncLoadFinish_b__17_0(::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_Class_1_8C99D32A1F367FCF* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_Class_1_8C99D32A1F367FCF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C___ONCELLASYNCLOADFINISH_B__17_0_OFFSET))(this, handle);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_Class_1_8C99D32A1F367FCF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C___ONCELLASYNCLOADFINISH_B__17_0_OFFSET))(this, a1);
 		}
 
-		::System::Void __TryInitWaterReflection_b__26_0(::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView* self)
+		::System::Void __TryInitWaterReflection_b__26_0(::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C___TRYINITWATERREFLECTION_B__26_0_OFFSET))(this, self);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C___TRYINITWATERREFLECTION_B__26_0_OFFSET))(this, a1);
 		}
 
-		::System::Void __TryInitWaterReflectionV2_b__27_0(::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView* self)
+		::System::Void __TryInitWaterReflectionV2_b__27_0(::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C___TRYINITWATERREFLECTIONV2_B__27_0_OFFSET))(this, self);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C___TRYINITWATERREFLECTIONV2_B__27_0_OFFSET))(this, a1);
 		}
 	};
 }

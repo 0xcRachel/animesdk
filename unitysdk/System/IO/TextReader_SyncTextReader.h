@@ -4,27 +4,27 @@
 
 namespace System { class String; }
 
-#define SYSTEM_IO_TEXTREADER_SYNCTEXTREADER_CLOSE_OFFSET UNITYSDK_OFFSET(0x19501080)
-#define SYSTEM_IO_TEXTREADER_SYNCTEXTREADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x195010B0)
-#define SYSTEM_IO_TEXTREADER_SYNCTEXTREADER_PEEK_OFFSET UNITYSDK_OFFSET(0x19501120)
-#define SYSTEM_IO_TEXTREADER_SYNCTEXTREADER_READLINE_OFFSET UNITYSDK_OFFSET(0x195011B0)
-#define SYSTEM_IO_TEXTREADER_SYNCTEXTREADER_READTOEND_OFFSET UNITYSDK_OFFSET(0x195011E0)
-#define SYSTEM_IO_TEXTREADER_SYNCTEXTREADER_READ_1_OFFSET UNITYSDK_OFFSET(0x19501180)
-#define SYSTEM_IO_TEXTREADER_SYNCTEXTREADER_READ_OFFSET UNITYSDK_OFFSET(0x19501150)
-#define SYSTEM_IO_TEXTREADER_SYNCTEXTREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x19500DF0)
+#define SYSTEM_IO_TEXTREADER_SYNCTEXTREADER_CLOSE_OFFSET UNITYSDK_OFFSET(0x1A077F30)
+#define SYSTEM_IO_TEXTREADER_SYNCTEXTREADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A077F60)
+#define SYSTEM_IO_TEXTREADER_SYNCTEXTREADER_PEEK_OFFSET UNITYSDK_OFFSET(0x1A077FF0)
+#define SYSTEM_IO_TEXTREADER_SYNCTEXTREADER_READLINE_OFFSET UNITYSDK_OFFSET(0x1A078080)
+#define SYSTEM_IO_TEXTREADER_SYNCTEXTREADER_READTOEND_OFFSET UNITYSDK_OFFSET(0x1A0780B0)
+#define SYSTEM_IO_TEXTREADER_SYNCTEXTREADER_READ_1_OFFSET UNITYSDK_OFFSET(0x1A078050)
+#define SYSTEM_IO_TEXTREADER_SYNCTEXTREADER_READ_OFFSET UNITYSDK_OFFSET(0x1A078020)
+#define SYSTEM_IO_TEXTREADER_SYNCTEXTREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A077C60)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int TextReader_SyncTextReader_TypeDefinitionIndex = 697;
+	inline static constexpr unsigned int TextReader_SyncTextReader_TypeDefinitionIndex = 696;
 
 	class TextReader_SyncTextReader : public ::System::IO::TextReader
 	{
 	public:
 		::System::IO::TextReader* _in; // 0x18
 
-		::System::Void _ctor(::System::IO::TextReader* t)
+		::System::Void _ctor(::System::IO::TextReader* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::TextReader*))((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTREADER_SYNCTEXTREADER__CTOR_OFFSET))(this, t);
+			return ((::System::Void(*)(::PVOID, ::System::IO::TextReader*))((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTREADER_SYNCTEXTREADER__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Close()
@@ -32,9 +32,9 @@ namespace System::IO
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTREADER_SYNCTEXTREADER_CLOSE_OFFSET))(this);
 		}
 
-		::System::Void Dispose(::System::Boolean disposing)
+		::System::Void Dispose(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTREADER_SYNCTEXTREADER_DISPOSE_OFFSET))(this, disposing);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTREADER_SYNCTEXTREADER_DISPOSE_OFFSET))(this, a1);
 		}
 
 		::System::Int32 Peek()
@@ -47,9 +47,9 @@ namespace System::IO
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTREADER_SYNCTEXTREADER_READ_OFFSET))(this);
 		}
 
-		::System::Int32 Read_1(::Il2CppArray<::System::Char>* buffer, ::System::Int32 index, ::System::Int32 count)
+		::System::Int32 Read_1(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTREADER_SYNCTEXTREADER_READ_1_OFFSET))(this, buffer, index, count);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTREADER_SYNCTEXTREADER_READ_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::String* ReadLine()

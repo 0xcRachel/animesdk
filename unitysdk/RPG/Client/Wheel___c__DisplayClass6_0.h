@@ -7,12 +7,12 @@ namespace RPG::Client { class OnAssetOperationDelegate; }
 namespace RPG::Client { class Wheel; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define RPG_CLIENT_WHEEL___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11E4BB80)
-#define RPG_CLIENT_WHEEL___C__DISPLAYCLASS6_0__SETWHEELSICON_B__0_OFFSET UNITYSDK_OFFSET(0x11E4BD60)
+#define RPG_CLIENT_WHEEL___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1772F8E0)
+#define RPG_CLIENT_WHEEL___C__DISPLAYCLASS6_0__SETWHEELSICON_B__0_OFFSET UNITYSDK_OFFSET(0x1772FAE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Wheel___c__DisplayClass6_0_TypeDefinitionIndex = 65252;
+	inline static constexpr unsigned int Wheel___c__DisplayClass6_0_TypeDefinitionIndex = 66179;
 
 	class Wheel___c__DisplayClass6_0 : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WHEEL___C__DISPLAYCLASS6_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _SetWheelsIcon_b__0(::RPG::Client::IAssetOperation* assetOpt)
+		::System::Boolean _SetWheelsIcon_b__0(::RPG::Client::IAssetOperation* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IAssetOperation*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WHEEL___C__DISPLAYCLASS6_0__SETWHEELSICON_B__0_OFFSET))(this, assetOpt);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IAssetOperation*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WHEEL___C__DISPLAYCLASS6_0__SETWHEELSICON_B__0_OFFSET))(this, a1);
 		}
 	};
 }

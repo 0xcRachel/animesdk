@@ -2,51 +2,51 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/RogueTournMiracleDataBase.h"
 
-class Class_0_16E4307DCC419505_803;
-class Class_1_2CC11CDCB897D481_2;
-class Class_1_412DDC84C44F8B4B;
-class Class_1_7BE0B64AF0A0B070_1;
+class Class_0_16E4307DCC419505_854;
+class Class_1_CDB239B5BA2266D7;
+class Class_1_FA04D10070B1B78D_1;
+class Class_1_FD893FD36F6A3A6D_2;
 namespace RPG::GameCore { class RogueMiracleDisplayRow; }
 namespace RPG::GameCore { class RogueMiracleEffectRow; }
 namespace RPG::GameCore { class RogueTournMiracleRow; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_CLONE_OFFSET UNITYSDK_OFFSET(0x16F1DE30)
-#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_CREATEDATA_OFFSET UNITYSDK_OFFSET(0x16F1DC60)
-#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_GET_DYNAMICHINT_OFFSET UNITYSDK_OFFSET(0x16F1E170)
-#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_GET_TOTALCOUNT_OFFSET UNITYSDK_OFFSET(0x16F1E150)
-#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_GET_USECOUNT_OFFSET UNITYSDK_OFFSET(0x16F1E130)
-#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_ISBROKEN_OFFSET UNITYSDK_OFFSET(0x16F1DEC0)
-#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_SET_TOTALCOUNT_OFFSET UNITYSDK_OFFSET(0x16F1E160)
-#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_SET_USECOUNT_OFFSET UNITYSDK_OFFSET(0x16F1E140)
-#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_SYNC_OFFSET UNITYSDK_OFFSET(0x16F1DDD0)
-#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16F1DF20)
-#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16F1DC50)
-#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA__INITFROMROWS_OFFSET UNITYSDK_OFFSET(0x16F1E030)
-#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16F1E230)
-#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA___IFIXBASEPROXY__INITFROMROWS_OFFSET UNITYSDK_OFFSET(0x16F1E2B0)
+#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_CLONE_OFFSET UNITYSDK_OFFSET(0x18D50900)
+#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_CREATEDATA_OFFSET UNITYSDK_OFFSET(0x18D503B0)
+#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_GET_DYNAMICHINT_OFFSET UNITYSDK_OFFSET(0x18D50E80)
+#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_GET_TOTALCOUNT_OFFSET UNITYSDK_OFFSET(0x18D50E60)
+#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_GET_USECOUNT_OFFSET UNITYSDK_OFFSET(0x18D50E40)
+#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_ISBROKEN_OFFSET UNITYSDK_OFFSET(0x18D50990)
+#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_SET_TOTALCOUNT_OFFSET UNITYSDK_OFFSET(0x18D50E70)
+#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_SET_USECOUNT_OFFSET UNITYSDK_OFFSET(0x18D50E50)
+#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_SYNC_OFFSET UNITYSDK_OFFSET(0x18D508A0)
+#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18D509F0)
+#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18D50390)
+#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA__INITFROMROWS_OFFSET UNITYSDK_OFFSET(0x18D50B00)
+#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18D50F40)
+#define RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA___IFIXBASEPROXY__INITFROMROWS_OFFSET UNITYSDK_OFFSET(0x18D50FE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournGameMiracleData_TypeDefinitionIndex = 62380;
+	inline static constexpr unsigned int RogueTournGameMiracleData_TypeDefinitionIndex = 63313;
 
 	class RogueTournGameMiracleData : public ::RPG::Client::RogueTournMiracleDataBase
 	{
 	public:
-		::Class_1_412DDC84C44F8B4B* _DynamicHint; // 0x60
-		::Class_1_7BE0B64AF0A0B070_1* _BlackboardContext; // 0x68
-		::System::UInt32 _TotalCount_k__BackingField; // 0x70
-		::System::UInt32 _UseCount_k__BackingField; // 0x74
+		::Class_1_FD893FD36F6A3A6D_2* _BlackboardContext; // 0x60
+		::Class_1_CDB239B5BA2266D7* _DynamicHint; // 0x68
+		::System::UInt32 _UseCount_k__BackingField; // 0x70
+		::System::UInt32 _TotalCount_k__BackingField; // 0x74
 
-		::System::Void _ctor(::Class_1_7BE0B64AF0A0B070_1* blackboardContext)
+		::System::Void _ctor(::Class_1_FD893FD36F6A3A6D_2* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_7BE0B64AF0A0B070_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA__CTOR_OFFSET))(this, blackboardContext);
+			return ((::System::Void(*)(::PVOID, ::Class_1_FD893FD36F6A3A6D_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA__CTOR_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::RogueTournGameMiracleData* CreateData(::Class_1_2CC11CDCB897D481_2* proto, ::Class_0_16E4307DCC419505_803* blackboardProxyFactory)
+		static ::RPG::Client::RogueTournGameMiracleData* CreateData(::Class_1_FA04D10070B1B78D_1* a1, ::Class_0_16E4307DCC419505_854* a2)
 		{
-			return ((::RPG::Client::RogueTournGameMiracleData*(*)(::Class_1_2CC11CDCB897D481_2*, ::Class_0_16E4307DCC419505_803*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_CREATEDATA_OFFSET))(proto, blackboardProxyFactory);
+			return ((::RPG::Client::RogueTournGameMiracleData*(*)(::Class_1_FA04D10070B1B78D_1*, ::Class_0_16E4307DCC419505_854*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_CREATEDATA_OFFSET))(a1, a2);
 		}
 
 		::System::Object* Clone()
@@ -64,14 +64,14 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Void _InitFromRows(::RPG::GameCore::RogueTournMiracleRow* miracleRow, ::RPG::GameCore::RogueMiracleDisplayRow* displayRow, ::RPG::GameCore::RogueMiracleEffectRow* effectRow)
+		::System::Void _InitFromRows(::RPG::GameCore::RogueTournMiracleRow* a1, ::RPG::GameCore::RogueMiracleDisplayRow* a2, ::RPG::GameCore::RogueMiracleEffectRow* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RogueTournMiracleRow*, ::RPG::GameCore::RogueMiracleDisplayRow*, ::RPG::GameCore::RogueMiracleEffectRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA__INITFROMROWS_OFFSET))(this, miracleRow, displayRow, effectRow);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RogueTournMiracleRow*, ::RPG::GameCore::RogueMiracleDisplayRow*, ::RPG::GameCore::RogueMiracleEffectRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA__INITFROMROWS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Sync(::Class_1_2CC11CDCB897D481_2* proto)
+		::System::Void Sync(::Class_1_FA04D10070B1B78D_1* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_2CC11CDCB897D481_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_SYNC_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::Class_1_FA04D10070B1B78D_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_SYNC_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_UseCount()
@@ -79,9 +79,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_GET_USECOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_UseCount(::System::UInt32 value)
+		::System::Void set_UseCount(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_SET_USECOUNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_SET_USECOUNT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_TotalCount()
@@ -89,9 +89,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_GET_TOTALCOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_TotalCount(::System::UInt32 value)
+		::System::Void set_TotalCount(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_SET_TOTALCOUNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA_SET_TOTALCOUNT_OFFSET))(this, a1);
 		}
 
 		::System::String* get_DynamicHint()
@@ -104,9 +104,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Void __iFixBaseProxy__InitFromRows(::RPG::GameCore::RogueTournMiracleRow* P0, ::RPG::GameCore::RogueMiracleDisplayRow* P1, ::RPG::GameCore::RogueMiracleEffectRow* P2)
+		::System::Void __iFixBaseProxy__InitFromRows(::RPG::GameCore::RogueTournMiracleRow* a1, ::RPG::GameCore::RogueMiracleDisplayRow* a2, ::RPG::GameCore::RogueMiracleEffectRow* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RogueTournMiracleRow*, ::RPG::GameCore::RogueMiracleDisplayRow*, ::RPG::GameCore::RogueMiracleEffectRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA___IFIXBASEPROXY__INITFROMROWS_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RogueTournMiracleRow*, ::RPG::GameCore::RogueMiracleDisplayRow*, ::RPG::GameCore::RogueMiracleEffectRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNGAMEMIRACLEDATA___IFIXBASEPROXY__INITFROMROWS_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

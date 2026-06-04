@@ -4,22 +4,22 @@
 #include "unitysdk/System/Runtime/CompilerServices/MethodCodeType.h"
 #include "unitysdk/System/Runtime/CompilerServices/MethodImplOptions.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_METHODIMPLATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18F59F20)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_METHODIMPLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18F59F10)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_METHODIMPLATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1970B440)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_METHODIMPLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1970B430)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int MethodImplAttribute_TypeDefinitionIndex = 1382;
+	inline static constexpr unsigned int MethodImplAttribute_TypeDefinitionIndex = 1381;
 
 	class MethodImplAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Runtime::CompilerServices::MethodCodeType MethodCodeType; // 0x10
-		::System::Runtime::CompilerServices::MethodImplOptions _val; // 0x14
+		::System::Runtime::CompilerServices::MethodImplOptions _val; // 0x10
+		::System::Runtime::CompilerServices::MethodCodeType MethodCodeType; // 0x14
 
-		::System::Void _ctor(::System::Int16 value)
+		::System::Void _ctor(::System::Int16 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int16))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_METHODIMPLATTRIBUTE__CTOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int16))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_METHODIMPLATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1()

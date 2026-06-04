@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_A528D96665AC832B;
+class Class_2_1C9DAFE8E76EE3E9;
 namespace Entitas { class IAERC; }
 namespace Entitas { class IEntity; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_2_884D02965B14FC41___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18EC17E0)
-#define CLASS_2_884D02965B14FC41___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18EC1820)
-#define CLASS_2_884D02965B14FC41___C___CTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x18EC1830)
-#define CLASS_2_884D02965B14FC41___C___CTOR_B__18_1_OFFSET UNITYSDK_OFFSET(0x18EC1860)
+#define CLASS_2_884D02965B14FC41___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1983E9C0)
+#define CLASS_2_884D02965B14FC41___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1983EA00)
+#define CLASS_2_884D02965B14FC41___C___CTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1983EA10)
+#define CLASS_2_884D02965B14FC41___C___CTOR_B__18_1_OFFSET UNITYSDK_OFFSET(0x1983EA40)
 
-inline static constexpr unsigned int Class_2_884D02965B14FC41___c_TypeDefinitionIndex = 38350;
+inline static constexpr unsigned int Class_2_884D02965B14FC41___c_TypeDefinitionIndex = 39113;
 
 class Class_2_884D02965B14FC41___c : public ::System::Object
 {
 public:
 	static ::Class_2_884D02965B14FC41___c** StaticGet___9()
 	{
-		return (::Class_2_884D02965B14FC41___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_884D02965B14FC41___c_TypeDefinitionIndex)->GetStaticField(0x2F100);
+		return (::Class_2_884D02965B14FC41___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_884D02965B14FC41___c_TypeDefinitionIndex)->GetStaticField(0x3C5D0);
 	}
 	static ::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>** StaticGet___9__18_0()
 	{
-		return (::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_884D02965B14FC41___c_TypeDefinitionIndex)->GetStaticField(0x2F108);
+		return (::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_884D02965B14FC41___c_TypeDefinitionIndex)->GetStaticField(0x3C5D8);
 	}
-	static ::System::Func_1<::Class_2_A528D96665AC832B*>** StaticGet___9__18_1()
+	static ::System::Func_1<::Class_2_1C9DAFE8E76EE3E9*>** StaticGet___9__18_1()
 	{
-		return (::System::Func_1<::Class_2_A528D96665AC832B*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_884D02965B14FC41___c_TypeDefinitionIndex)->GetStaticField(0x2F110);
+		return (::System::Func_1<::Class_2_1C9DAFE8E76EE3E9*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_884D02965B14FC41___c_TypeDefinitionIndex)->GetStaticField(0x3C5E0);
 	}
 
 	static ::System::Void _cctor()
@@ -41,13 +41,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_884D02965B14FC41___C__CTOR_OFFSET))(this);
 	}
 
-	::Entitas::IAERC* __ctor_b__18_0(::Entitas::IEntity* entity)
+	::Entitas::IAERC* __ctor_b__18_0(::Entitas::IEntity* a1)
 	{
-		return ((::Entitas::IAERC*(*)(::PVOID, ::Entitas::IEntity*))((::PBYTE)hIl2Cpp + CLASS_2_884D02965B14FC41___C___CTOR_B__18_0_OFFSET))(this, entity);
+		return ((::Entitas::IAERC*(*)(::PVOID, ::Entitas::IEntity*))((::PBYTE)hIl2Cpp + CLASS_2_884D02965B14FC41___C___CTOR_B__18_0_OFFSET))(this, a1);
 	}
 
-	::Class_2_A528D96665AC832B* __ctor_b__18_1()
+	::Class_2_1C9DAFE8E76EE3E9* __ctor_b__18_1()
 	{
-		return ((::Class_2_A528D96665AC832B*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_884D02965B14FC41___C___CTOR_B__18_1_OFFSET))(this);
+		return ((::Class_2_1C9DAFE8E76EE3E9*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_884D02965B14FC41___C___CTOR_B__18_1_OFFSET))(this);
 	}
 };

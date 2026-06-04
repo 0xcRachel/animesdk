@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWUI_METHOD_3_6A99478263A527EA_OFFSET UNITYSDK_OFFSET(0x185E6660)
-#define RPG_GAMECORE_SHOWUI_METHOD_3_7B0ED04179FD33C0_OFFSET UNITYSDK_OFFSET(0x185E65E0)
-#define RPG_GAMECORE_SHOWUI__CTOR_OFFSET UNITYSDK_OFFSET(0x185E6630)
+#define RPG_GAMECORE_SHOWUI_METHOD_3_4FD773016802648E_OFFSET UNITYSDK_OFFSET(0x1A00D600)
+#define RPG_GAMECORE_SHOWUI_METHOD_3_8B2288CB66385CD1_OFFSET UNITYSDK_OFFSET(0x1A00D580)
+#define RPG_GAMECORE_SHOWUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1A00D5D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowUI_TypeDefinitionIndex = 22835;
+	inline static constexpr unsigned int ShowUI_TypeDefinitionIndex = 22536;
 
 	class ShowUI : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,14 +30,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWUI__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7B0ED04179FD33C0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowUI*& a2)
+		static ::System::Void Method_3_8B2288CB66385CD1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowUI*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWUI_METHOD_3_7B0ED04179FD33C0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWUI_METHOD_3_8B2288CB66385CD1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6A99478263A527EA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowUI* a2)
+		static ::System::Void Method_3_4FD773016802648E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWUI_METHOD_3_6A99478263A527EA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWUI_METHOD_3_4FD773016802648E_OFFSET))(a1, a2);
 		}
 	};
 }

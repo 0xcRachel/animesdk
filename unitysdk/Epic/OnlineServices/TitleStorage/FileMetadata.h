@@ -6,27 +6,27 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0x18CE7AD0)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_GET_FILESIZEBYTES_OFFSET UNITYSDK_OFFSET(0x18CE7A90)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_GET_MD5HASH_OFFSET UNITYSDK_OFFSET(0x18CE7AB0)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_GET_UNENCRYPTEDDATASIZEBYTES_OFFSET UNITYSDK_OFFSET(0x18CE7AF0)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_1_OFFSET UNITYSDK_OFFSET(0x18CE7F60)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_FILENAME_OFFSET UNITYSDK_OFFSET(0x18CE7AE0)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_FILESIZEBYTES_OFFSET UNITYSDK_OFFSET(0x18CE7AA0)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_MD5HASH_OFFSET UNITYSDK_OFFSET(0x18CE7AC0)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_OFFSET UNITYSDK_OFFSET(0x18CE7B10)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_UNENCRYPTEDDATASIZEBYTES_OFFSET UNITYSDK_OFFSET(0x18CE7B00)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18CE8090)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0x19C40190)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_GET_FILESIZEBYTES_OFFSET UNITYSDK_OFFSET(0x19C40150)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_GET_MD5HASH_OFFSET UNITYSDK_OFFSET(0x19C40170)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_GET_UNENCRYPTEDDATASIZEBYTES_OFFSET UNITYSDK_OFFSET(0x19C401B0)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_1_OFFSET UNITYSDK_OFFSET(0x19C40620)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_FILENAME_OFFSET UNITYSDK_OFFSET(0x19C401A0)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_FILESIZEBYTES_OFFSET UNITYSDK_OFFSET(0x19C40160)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_MD5HASH_OFFSET UNITYSDK_OFFSET(0x19C40180)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_OFFSET UNITYSDK_OFFSET(0x19C401D0)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_UNENCRYPTEDDATASIZEBYTES_OFFSET UNITYSDK_OFFSET(0x19C401C0)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19C40750)
 
 namespace Epic::OnlineServices::TitleStorage
 {
-	inline static constexpr unsigned int FileMetadata_TypeDefinitionIndex = 41168;
+	inline static constexpr unsigned int FileMetadata_TypeDefinitionIndex = 41971;
 
 	class FileMetadata : public ::System::Object
 	{
 	public:
-		::System::String* _MD5Hash_k__BackingField; // 0x10
-		::System::String* _Filename_k__BackingField; // 0x18
+		::System::String* _Filename_k__BackingField; // 0x10
+		::System::String* _MD5Hash_k__BackingField; // 0x18
 		::System::UInt32 _UnencryptedDataSizeBytes_k__BackingField; // 0x20
 		::System::UInt32 _FileSizeBytes_k__BackingField; // 0x24
 
@@ -40,9 +40,9 @@ namespace Epic::OnlineServices::TitleStorage
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_GET_FILESIZEBYTES_OFFSET))(this);
 		}
 
-		::System::Void set_FileSizeBytes(::System::UInt32 value)
+		::System::Void set_FileSizeBytes(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_FILESIZEBYTES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_FILESIZEBYTES_OFFSET))(this, a1);
 		}
 
 		::System::String* get_MD5Hash()
@@ -50,9 +50,9 @@ namespace Epic::OnlineServices::TitleStorage
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_GET_MD5HASH_OFFSET))(this);
 		}
 
-		::System::Void set_MD5Hash(::System::String* value)
+		::System::Void set_MD5Hash(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_MD5HASH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_MD5HASH_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Filename()
@@ -60,9 +60,9 @@ namespace Epic::OnlineServices::TitleStorage
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_GET_FILENAME_OFFSET))(this);
 		}
 
-		::System::Void set_Filename(::System::String* value)
+		::System::Void set_Filename(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_FILENAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_FILENAME_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_UnencryptedDataSizeBytes()
@@ -70,19 +70,19 @@ namespace Epic::OnlineServices::TitleStorage
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_GET_UNENCRYPTEDDATASIZEBYTES_OFFSET))(this);
 		}
 
-		::System::Void set_UnencryptedDataSizeBytes(::System::UInt32 value)
+		::System::Void set_UnencryptedDataSizeBytes(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_UNENCRYPTEDDATASIZEBYTES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_UNENCRYPTEDDATASIZEBYTES_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::TitleStorage::FileMetadataInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::TitleStorage::FileMetadataInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::TitleStorage::FileMetadataInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::TitleStorage::FileMetadataInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_FILEMETADATA_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

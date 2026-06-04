@@ -9,50 +9,50 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture; }
 
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CEILING16_OFFSET UNITYSDK_OFFSET(0x192A1330)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CEILING256_OFFSET UNITYSDK_OFFSET(0x192A1360)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CEILING32_OFFSET UNITYSDK_OFFSET(0x192A1340)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CEILING64_OFFSET UNITYSDK_OFFSET(0x192A1350)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CEILINGWITH_OFFSET UNITYSDK_OFFSET(0x192A1320)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CRIWARE5267266A_OFFSET UNITYSDK_OFFSET(0x192A1600)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CRIWARE98318E69_OFFSET UNITYSDK_OFFSET(0x192A1410)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CRIWARED618B369_OFFSET UNITYSDK_OFFSET(0x192A1560)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CRIWAREE519EFD4_OFFSET UNITYSDK_OFFSET(0x192A16A0)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CRIWAREF14F77D8_OFFSET UNITYSDK_OFFSET(0x192A0F20)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_DISPOSETEXTURES_OFFSET UNITYSDK_OFFSET(0x192A1370)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x192A0DF0)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x192A0E30)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x192A0D70)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_GETBLENDMODES_OFFSET UNITYSDK_OFFSET(0x192A11D0)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_GETNUMBEROFFRAMEBEFOREDESTROY_OFFSET UNITYSDK_OFFSET(0x192A0EA0)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_HASRENDEREDNEWFRAME_OFFSET UNITYSDK_OFFSET(0x192A12B0)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_NEXTPOWEROFTWO_1_OFFSET UNITYSDK_OFFSET(0x192A12F0)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_NEXTPOWEROFTWO_OFFSET UNITYSDK_OFFSET(0x192A12C0)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_ONPLAYERPAUSE_OFFSET UNITYSDK_OFFSET(0x192A1260)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_ONPLAYERSTART_OFFSET UNITYSDK_OFFSET(0x192A1290)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_ONPLAYERSTOPFORSEEK_OFFSET UNITYSDK_OFFSET(0x192A1280)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_ONPLAYERSTOP_OFFSET UNITYSDK_OFFSET(0x192A1270)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_SETAPPLYTARGETALPHA_OFFSET UNITYSDK_OFFSET(0x192A1240)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_SETKEYWORD_OFFSET UNITYSDK_OFFSET(0x192A1200)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_SETUIRENDERMODE_OFFSET UNITYSDK_OFFSET(0x192A1250)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_SETUPSTATICMATERIALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x192A0FA0)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_SHOULDSKIPDESTROYONSTOPFORSEEK_OFFSET UNITYSDK_OFFSET(0x192A12A0)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x192A1740)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CEILING16_OFFSET UNITYSDK_OFFSET(0x19E65800)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CEILING256_OFFSET UNITYSDK_OFFSET(0x19E65830)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CEILING32_OFFSET UNITYSDK_OFFSET(0x19E65810)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CEILING64_OFFSET UNITYSDK_OFFSET(0x19E65820)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CEILINGWITH_OFFSET UNITYSDK_OFFSET(0x19E657F0)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CRIWARE5267266A_OFFSET UNITYSDK_OFFSET(0x19E65AB0)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CRIWARE98318E69_OFFSET UNITYSDK_OFFSET(0x19E658C0)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CRIWARED618B369_OFFSET UNITYSDK_OFFSET(0x19E65A10)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CRIWAREE519EFD4_OFFSET UNITYSDK_OFFSET(0x19E65B50)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CRIWAREF14F77D8_OFFSET UNITYSDK_OFFSET(0x19E653F0)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_DISPOSETEXTURES_OFFSET UNITYSDK_OFFSET(0x19E65840)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x19E65280)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19E652C0)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x19E65200)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_GETBLENDMODES_OFFSET UNITYSDK_OFFSET(0x19E656A0)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_GETNUMBEROFFRAMEBEFOREDESTROY_OFFSET UNITYSDK_OFFSET(0x19E65370)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_HASRENDEREDNEWFRAME_OFFSET UNITYSDK_OFFSET(0x19E65780)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_NEXTPOWEROFTWO_1_OFFSET UNITYSDK_OFFSET(0x19E657C0)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_NEXTPOWEROFTWO_OFFSET UNITYSDK_OFFSET(0x19E65790)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_ONPLAYERPAUSE_OFFSET UNITYSDK_OFFSET(0x19E65730)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_ONPLAYERSTART_OFFSET UNITYSDK_OFFSET(0x19E65760)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_ONPLAYERSTOPFORSEEK_OFFSET UNITYSDK_OFFSET(0x19E65750)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_ONPLAYERSTOP_OFFSET UNITYSDK_OFFSET(0x19E65740)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_SETAPPLYTARGETALPHA_OFFSET UNITYSDK_OFFSET(0x19E65710)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_SETKEYWORD_OFFSET UNITYSDK_OFFSET(0x19E656D0)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_SETUIRENDERMODE_OFFSET UNITYSDK_OFFSET(0x19E65720)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_SETUPSTATICMATERIALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x19E65470)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_SHOULDSKIPDESTROYONSTOPFORSEEK_OFFSET UNITYSDK_OFFSET(0x19E65770)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E65BF0)
 
 namespace CriWare::CriMana::Detail
 {
-	inline static constexpr unsigned int RendererResource_TypeDefinitionIndex = 36968;
+	inline static constexpr unsigned int RendererResource_TypeDefinitionIndex = 37268;
 
 	class RendererResource : public ::System::Object
 	{
 	public:
 		::UnityEngine::Material* currentMaterial; // 0x10
 		::UnityEngine::Shader* shader; // 0x18
-		::System::Boolean additive; // 0x20
-		::System::Boolean applyTargetAlpha; // 0x21
-		::System::Boolean disposed; // 0x22
-		::System::Boolean ui; // 0x23
-		::System::Boolean hasAlpha; // 0x24
+		::System::Boolean hasAlpha; // 0x20
+		::System::Boolean disposed; // 0x21
+		::System::Boolean applyTargetAlpha; // 0x22
+		::System::Boolean additive; // 0x23
+		::System::Boolean ui; // 0x24
 
 		::System::Void _ctor()
 		{
@@ -69,14 +69,14 @@ namespace CriWare::CriMana::Detail
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Dispose_1(::System::Boolean disposing)
+		::System::Void Dispose_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_DISPOSE_1_OFFSET))(this, disposing);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_DISPOSE_1_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetNumberOfFrameBeforeDestroy(::System::Int32 playerId)
+		::System::Int32 GetNumberOfFrameBeforeDestroy(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_GETNUMBEROFFRAMEBEFOREDESTROY_OFFSET))(this, playerId);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_GETNUMBEROFFRAMEBEFOREDESTROY_OFFSET))(this, a1);
 		}
 
 		::System::Void SetupStaticMaterialProperties()
@@ -84,24 +84,24 @@ namespace CriWare::CriMana::Detail
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_SETUPSTATICMATERIALPROPERTIES_OFFSET))(this);
 		}
 
-		::System::Void GetBlendModes(::System::Int32& srcBlendMode, ::System::Int32& dstBlendMode)
+		::System::Void GetBlendModes(::System::Int32& a1, ::System::Int32& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_GETBLENDMODES_OFFSET))(this, srcBlendMode, dstBlendMode);
+			return ((::System::Void(*)(::PVOID, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_GETBLENDMODES_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetApplyTargetAlpha(::System::Boolean flag)
+		::System::Void SetApplyTargetAlpha(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_SETAPPLYTARGETALPHA_OFFSET))(this, flag);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_SETAPPLYTARGETALPHA_OFFSET))(this, a1);
 		}
 
-		::System::Void SetUiRenderMode(::System::Boolean flag)
+		::System::Void SetUiRenderMode(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_SETUIRENDERMODE_OFFSET))(this, flag);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_SETUIRENDERMODE_OFFSET))(this, a1);
 		}
 
-		::System::Void OnPlayerPause(::System::Boolean pauseStatus, ::System::Boolean triggredFromApplciationPause)
+		::System::Void OnPlayerPause(::System::Boolean a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_ONPLAYERPAUSE_OFFSET))(this, pauseStatus, triggredFromApplciationPause);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_ONPLAYERPAUSE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void OnPlayerStop()
@@ -129,74 +129,74 @@ namespace CriWare::CriMana::Detail
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_HASRENDEREDNEWFRAME_OFFSET))(this);
 		}
 
-		static ::System::UInt32 NextPowerOfTwo(::System::UInt32 x)
+		static ::System::UInt32 NextPowerOfTwo(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_NEXTPOWEROFTWO_OFFSET))(x);
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_NEXTPOWEROFTWO_OFFSET))(a1);
 		}
 
-		static ::System::Int32 NextPowerOfTwo_1(::System::Int32 x)
+		static ::System::Int32 NextPowerOfTwo_1(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_NEXTPOWEROFTWO_1_OFFSET))(x);
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_NEXTPOWEROFTWO_1_OFFSET))(a1);
 		}
 
-		static ::System::Int32 CeilingWith(::System::Int32 x, ::System::Int32 ceilingValue)
+		static ::System::Int32 CeilingWith(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CEILINGWITH_OFFSET))(x, ceilingValue);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CEILINGWITH_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 Ceiling16(::System::Int32 x)
+		static ::System::Int32 Ceiling16(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CEILING16_OFFSET))(x);
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CEILING16_OFFSET))(a1);
 		}
 
-		static ::System::Int32 Ceiling32(::System::Int32 x)
+		static ::System::Int32 Ceiling32(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CEILING32_OFFSET))(x);
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CEILING32_OFFSET))(a1);
 		}
 
-		static ::System::Int32 Ceiling64(::System::Int32 x)
+		static ::System::Int32 Ceiling64(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CEILING64_OFFSET))(x);
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CEILING64_OFFSET))(a1);
 		}
 
-		static ::System::Int32 Ceiling256(::System::Int32 x)
+		static ::System::Int32 Ceiling256(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CEILING256_OFFSET))(x);
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CEILING256_OFFSET))(a1);
 		}
 
-		static ::System::Void DisposeTextures(::Il2CppArray<::UnityEngine::Texture*>* textures)
+		static ::System::Void DisposeTextures(::Il2CppArray<::UnityEngine::Texture*>* a1)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Texture*>*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_DISPOSETEXTURES_OFFSET))(textures);
+			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Texture*>*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_DISPOSETEXTURES_OFFSET))(a1);
 		}
 
-		static ::System::Void SetKeyword(::UnityEngine::Material* material, ::System::String* keyword, ::System::Boolean flag)
+		static ::System::Void SetKeyword(::UnityEngine::Material* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Material*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_SETKEYWORD_OFFSET))(material, keyword, flag);
+			return ((::System::Void(*)(::UnityEngine::Material*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_SETKEYWORD_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean CRIWARE98318E69(::System::Int32 player_id, ::System::Int32 num_textures, ::Il2CppArray<::System::IntPtr>* tex_ptrs, ::CriWare::CriMana::FrameInfo* frame_info, ::System::Boolean& frame_drop)
+		static ::System::Boolean CRIWARE98318E69(::System::Int32 a1, ::System::Int32 a2, ::Il2CppArray<::System::IntPtr>* a3, ::CriWare::CriMana::FrameInfo* a4, ::System::Boolean& a5)
 		{
-			return ((::System::Boolean(*)(::System::Int32, ::System::Int32, ::Il2CppArray<::System::IntPtr>*, ::CriWare::CriMana::FrameInfo*, ::System::Boolean&))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CRIWARE98318E69_OFFSET))(player_id, num_textures, tex_ptrs, frame_info, frame_drop);
+			return ((::System::Boolean(*)(::System::Int32, ::System::Int32, ::Il2CppArray<::System::IntPtr>*, ::CriWare::CriMana::FrameInfo*, ::System::Boolean&))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CRIWARE98318E69_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean CRIWARED618B369(::System::Int32 player_id, ::System::Int32 num_textures, ::Il2CppArray<::System::IntPtr>* tex_ptrs)
+		static ::System::Boolean CRIWARED618B369(::System::Int32 a1, ::System::Int32 a2, ::Il2CppArray<::System::IntPtr>* a3)
 		{
-			return ((::System::Boolean(*)(::System::Int32, ::System::Int32, ::Il2CppArray<::System::IntPtr>*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CRIWARED618B369_OFFSET))(player_id, num_textures, tex_ptrs);
+			return ((::System::Boolean(*)(::System::Int32, ::System::Int32, ::Il2CppArray<::System::IntPtr>*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CRIWARED618B369_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean CRIWARE5267266A(::System::Int32 player_id, ::System::Int32 num_textures, ::Il2CppArray<::System::IntPtr>* tex_ptrs)
+		static ::System::Boolean CRIWARE5267266A(::System::Int32 a1, ::System::Int32 a2, ::Il2CppArray<::System::IntPtr>* a3)
 		{
-			return ((::System::Boolean(*)(::System::Int32, ::System::Int32, ::Il2CppArray<::System::IntPtr>*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CRIWARE5267266A_OFFSET))(player_id, num_textures, tex_ptrs);
+			return ((::System::Boolean(*)(::System::Int32, ::System::Int32, ::Il2CppArray<::System::IntPtr>*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CRIWARE5267266A_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean CRIWAREE519EFD4(::System::Int32 player_id, ::System::Int32 num_textures, ::Il2CppArray<::System::IntPtr>* tex_ptrs)
+		static ::System::Boolean CRIWAREE519EFD4(::System::Int32 a1, ::System::Int32 a2, ::Il2CppArray<::System::IntPtr>* a3)
 		{
-			return ((::System::Boolean(*)(::System::Int32, ::System::Int32, ::Il2CppArray<::System::IntPtr>*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CRIWAREE519EFD4_OFFSET))(player_id, num_textures, tex_ptrs);
+			return ((::System::Boolean(*)(::System::Int32, ::System::Int32, ::Il2CppArray<::System::IntPtr>*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CRIWAREE519EFD4_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::SByte CRIWAREF14F77D8(::System::Int32 player_id)
+		static ::System::SByte CRIWAREF14F77D8(::System::Int32 a1)
 		{
-			return ((::System::SByte(*)(::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CRIWAREF14F77D8_OFFSET))(player_id);
+			return ((::System::SByte(*)(::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCE_CRIWAREF14F77D8_OFFSET))(a1);
 		}
 	};
 }

@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_OPENFARMRELIC_METHOD_3_90C547FAFDFB0102_OFFSET UNITYSDK_OFFSET(0x18EEF380)
-#define RPG_GAMECORE_OPENFARMRELIC_METHOD_3_FE94D0C1A808DB46_OFFSET UNITYSDK_OFFSET(0x18EEF300)
-#define RPG_GAMECORE_OPENFARMRELIC__CTOR_OFFSET UNITYSDK_OFFSET(0x18EEF350)
+#define RPG_GAMECORE_OPENFARMRELIC_METHOD_3_628FF0E3F0C5D010_OFFSET UNITYSDK_OFFSET(0x19D061B0)
+#define RPG_GAMECORE_OPENFARMRELIC_METHOD_3_D133B1A3E5FE7148_OFFSET UNITYSDK_OFFSET(0x19D06130)
+#define RPG_GAMECORE_OPENFARMRELIC__CTOR_OFFSET UNITYSDK_OFFSET(0x19D06180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenFarmRelic_TypeDefinitionIndex = 20957;
+	inline static constexpr unsigned int OpenFarmRelic_TypeDefinitionIndex = 20870;
 
 	class OpenFarmRelic : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENFARMRELIC__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FE94D0C1A808DB46(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenFarmRelic*& a2)
+		static ::System::Void Method_3_D133B1A3E5FE7148(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenFarmRelic*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenFarmRelic*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENFARMRELIC_METHOD_3_FE94D0C1A808DB46_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenFarmRelic*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENFARMRELIC_METHOD_3_D133B1A3E5FE7148_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_90C547FAFDFB0102(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenFarmRelic* a2)
+		static ::System::Void Method_3_628FF0E3F0C5D010(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenFarmRelic* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenFarmRelic*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENFARMRELIC_METHOD_3_90C547FAFDFB0102_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenFarmRelic*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENFARMRELIC_METHOD_3_628FF0E3F0C5D010_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCheckRoleTrialNormalWaveShowDetail; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_AA5248462102EC7A_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1249A820)
-#define CLASS_3_AA5248462102EC7A__CTOR_OFFSET UNITYSDK_OFFSET(0x1249A7F0)
+#define CLASS_3_AA5248462102EC7A_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15E41540)
+#define CLASS_3_AA5248462102EC7A__CTOR_OFFSET UNITYSDK_OFFSET(0x15E41510)
 
-inline static constexpr unsigned int Class_3_AA5248462102EC7A_TypeDefinitionIndex = 50285;
+inline static constexpr unsigned int Class_3_AA5248462102EC7A_TypeDefinitionIndex = 50950;
 
 class Class_3_AA5248462102EC7A : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCheckRoleTrialNormalWaveShowDetail*>
 {

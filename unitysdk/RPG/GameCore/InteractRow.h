@@ -8,32 +8,32 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_GAMECORE_INTERACTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188909C0)
-#define RPG_GAMECORE_INTERACTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18891100)
+#define RPG_GAMECORE_INTERACTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E45960)
+#define RPG_GAMECORE_INTERACTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18E45C50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InteractRow_TypeDefinitionIndex = 13766;
+	inline static constexpr unsigned int InteractRow_TypeDefinitionIndex = 13833;
 
 	class InteractRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ItemConfig*>* ItemCostList; // 0x10
-		::RPG::Client::TextID InteractDesc; // 0x18
-		::RPG::GameCore::PropState SrcState; // 0x28
-		::System::UInt32 InteractID; // 0x2C
-		::RPG::GameCore::PropState TargetState; // 0x30
-		::System::Boolean IsEvent; // 0x34
-		::RPG::GameCore::InteractCostType InteractCostType; // 0x38
+		::System::UInt32 InteractID; // 0x18
+		::RPG::GameCore::InteractCostType InteractCostType; // 0x1C
+		::RPG::GameCore::PropState TargetState; // 0x20
+		::RPG::Client::TextID InteractDesc; // 0x28
+		::RPG::GameCore::PropState SrcState; // 0x38
+		::System::Boolean IsEvent; // 0x3C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INTERACTROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::InteractRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InteractRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InteractRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INTERACTROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InteractRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INTERACTROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

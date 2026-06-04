@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MESHBOUND_METHOD_2_13BBD19F92B6C9CF_OFFSET UNITYSDK_OFFSET(0x19094F80)
-#define RPG_GAMECORE_MESHBOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x19095100)
+#define RPG_GAMECORE_MESHBOUND_METHOD_2_13BBD19F92B6C9CF_OFFSET UNITYSDK_OFFSET(0x1A629ED0)
+#define RPG_GAMECORE_MESHBOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x1A62A050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MeshBound_TypeDefinitionIndex = 18108;
+	inline static constexpr unsigned int MeshBound_TypeDefinitionIndex = 18130;
 
 	class MeshBound : public ::RPG::GameCore::JsonConfig
 	{

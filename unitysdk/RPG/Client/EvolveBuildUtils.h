@@ -8,7 +8,7 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_E1C52EF642F86050;
+class Class_1_997BC107281E8D79;
 namespace RPG::Client { class EvolveBuildMixData; }
 namespace RPG::Client { class EvolveBuildScMixData; }
 namespace RPG::Client { class SortedEvolveBuildGearEquipInfoLists; }
@@ -19,36 +19,36 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_EVOLVEBUILDUTILS_COUNTUNLOCKEDSLOTNUM_OFFSET UNITYSDK_OFFSET(0x161D36C0)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_GETBATTLEEXPSTEP_OFFSET UNITYSDK_OFFSET(0x161D2FA0)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_GETCOLLECTIONIDLISTBYTYPE_OFFSET UNITYSDK_OFFSET(0x161D2E10)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARFORGEID_OFFSET UNITYSDK_OFFSET(0x161D2D80)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARFORGEROW_1_OFFSET UNITYSDK_OFFSET(0x161D4240)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARFORGEROW_OFFSET UNITYSDK_OFFSET(0x161D3FB0)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARLVTOFORGE_OFFSET UNITYSDK_OFFSET(0x161D2C30)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARMIXDATASCFROMFORGEROW_OFFSET UNITYSDK_OFFSET(0x161D29B0)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARMIXDATASC_OFFSET UNITYSDK_OFFSET(0x161D41D0)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARMIXDATA_OFFSET UNITYSDK_OFFSET(0x161D1BE0)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_GETRACCOONSTATETYPE_OFFSET UNITYSDK_OFFSET(0x161D2F60)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_GETRESONANCEGEARIDINPACKET_OFFSET UNITYSDK_OFFSET(0x161D2050)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_GETSORTEDEVOLVEBUILDGEAREQUIPINFO_OFFSET UNITYSDK_OFFSET(0x161D0C50)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_GETSORTEDGEAREQUIPINFO_OFFSET UNITYSDK_OFFSET(0x161D1680)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_GETSORTEDMIXDATASC_OFFSET UNITYSDK_OFFSET(0x161D25D0)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_GETSORTEDMIXDATA_OFFSET UNITYSDK_OFFSET(0x161D20B0)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_HASRESONANCEINPACKET_OFFSET UNITYSDK_OFFSET(0x161D1EB0)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_HASRESONANCEWITHACCESSORIES_OFFSET UNITYSDK_OFFSET(0x161D1A70)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_ISGEARUNLOCK_OFFSET UNITYSDK_OFFSET(0x161D2B20)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_OPENFAKEGEARSELECTPAGE_OFFSET UNITYSDK_OFFSET(0x161D42A0)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_SETMAZEBUFFDESC_OFFSET UNITYSDK_OFFSET(0x161D37E0)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_SLOTINFO2GEAREQUIPINFO_OFFSET UNITYSDK_OFFSET(0x161D3580)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_SLOTINFOS2GEAREQUIPINFOS_OFFSET UNITYSDK_OFFSET(0x161C4D50)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_SORTACCESSORYLIST_OFFSET UNITYSDK_OFFSET(0x161D11E0)
-#define RPG_CLIENT_EVOLVEBUILDUTILS_SORTWEAPONLIST_OFFSET UNITYSDK_OFFSET(0x161D0EB0)
-#define RPG_CLIENT_EVOLVEBUILDUTILS__GETBATTLEEXPSTEP_G___GETCURSTEPEXPMAX_15_0_OFFSET UNITYSDK_OFFSET(0x161D32C0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_COUNTUNLOCKEDSLOTNUM_OFFSET UNITYSDK_OFFSET(0x17DC8880)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_GETBATTLEEXPSTEP_OFFSET UNITYSDK_OFFSET(0x17DC8210)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_GETCOLLECTIONIDLISTBYTYPE_OFFSET UNITYSDK_OFFSET(0x17DC8010)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARFORGEID_OFFSET UNITYSDK_OFFSET(0x17DC7F80)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARFORGEROW_1_OFFSET UNITYSDK_OFFSET(0x17DC9370)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARFORGEROW_OFFSET UNITYSDK_OFFSET(0x17DC9150)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARLVTOFORGE_OFFSET UNITYSDK_OFFSET(0x17DB0F10)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARMIXDATASCFROMFORGEROW_OFFSET UNITYSDK_OFFSET(0x17DC7D00)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARMIXDATASC_OFFSET UNITYSDK_OFFSET(0x17DAE3B0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARMIXDATA_OFFSET UNITYSDK_OFFSET(0x17DC7220)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_GETRACCOONSTATETYPE_OFFSET UNITYSDK_OFFSET(0x17DC81D0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_GETRESONANCEGEARIDINPACKET_OFFSET UNITYSDK_OFFSET(0x17DC76A0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_GETSORTEDEVOLVEBUILDGEAREQUIPINFO_OFFSET UNITYSDK_OFFSET(0x17DC6590)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_GETSORTEDGEAREQUIPINFO_OFFSET UNITYSDK_OFFSET(0x17DAD3F0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_GETSORTEDMIXDATASC_OFFSET UNITYSDK_OFFSET(0x17DB1BC0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_GETSORTEDMIXDATA_OFFSET UNITYSDK_OFFSET(0x17DC7700)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_HASRESONANCEINPACKET_OFFSET UNITYSDK_OFFSET(0x17DC74F0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_HASRESONANCEWITHACCESSORIES_OFFSET UNITYSDK_OFFSET(0x17DC70B0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_ISGEARUNLOCK_OFFSET UNITYSDK_OFFSET(0x17DC7E70)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_OPENFAKEGEARSELECTPAGE_OFFSET UNITYSDK_OFFSET(0x17DC93D0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_SETMAZEBUFFDESC_OFFSET UNITYSDK_OFFSET(0x17DC89D0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_SLOTINFO2GEAREQUIPINFO_OFFSET UNITYSDK_OFFSET(0x17DC8740)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_SLOTINFOS2GEAREQUIPINFOS_OFFSET UNITYSDK_OFFSET(0x17DBA900)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_SORTACCESSORYLIST_OFFSET UNITYSDK_OFFSET(0x17DC6B40)
+#define RPG_CLIENT_EVOLVEBUILDUTILS_SORTWEAPONLIST_OFFSET UNITYSDK_OFFSET(0x17DC67F0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS__GETBATTLEEXPSTEP_G___GETCURSTEPEXPMAX_15_0_OFFSET UNITYSDK_OFFSET(0x17DC8570)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildUtils_TypeDefinitionIndex = 58806;
+	inline static constexpr unsigned int EvolveBuildUtils_TypeDefinitionIndex = 59736;
 
 	class EvolveBuildUtils : public ::System::Object
 	{
@@ -58,129 +58,129 @@ namespace RPG::Client
 			return ((::RPG::Client::SortedEvolveBuildGearEquipInfoLists*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETSORTEDEVOLVEBUILDGEAREQUIPINFO_OFFSET))();
 		}
 
-		static ::RPG::Client::SortedEvolveBuildGearEquipInfoLists* GetSortedGearEquipInfo(::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>* weapons, ::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>* accessories)
+		static ::RPG::Client::SortedEvolveBuildGearEquipInfoLists* GetSortedGearEquipInfo(::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>* a2)
 		{
-			return ((::RPG::Client::SortedEvolveBuildGearEquipInfoLists*(*)(::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>*, ::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETSORTEDGEAREQUIPINFO_OFFSET))(weapons, accessories);
+			return ((::RPG::Client::SortedEvolveBuildGearEquipInfoLists*(*)(::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>*, ::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETSORTEDGEAREQUIPINFO_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SortWeaponList(::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>* weaponList)
+		static ::System::Void SortWeaponList(::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>* a1)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_SORTWEAPONLIST_OFFSET))(weaponList);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_SORTWEAPONLIST_OFFSET))(a1);
 		}
 
-		static ::System::Void SortAccessoryList(::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>* accessoryList, ::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>* weaponList)
+		static ::System::Void SortAccessoryList(::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>* a2)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>*, ::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_SORTACCESSORYLIST_OFFSET))(accessoryList, weaponList);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>*, ::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_SORTACCESSORYLIST_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean HasResonanceInPacket(::System::UInt32 gearID, ::System::UInt32& resonanceID)
+		static ::System::Boolean HasResonanceInPacket(::System::UInt32 a1, ::System::UInt32& a2)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_HASRESONANCEINPACKET_OFFSET))(gearID, resonanceID);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_HASRESONANCEINPACKET_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean HasResonanceWithAccessories(::System::UInt32 gearID, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>* accessoryIDs, ::System::UInt32& resonanceID)
+		static ::System::Boolean HasResonanceWithAccessories(::System::UInt32 a1, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>* a2, ::System::UInt32& a3)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_HASRESONANCEWITHACCESSORIES_OFFSET))(gearID, accessoryIDs, resonanceID);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_HASRESONANCEWITHACCESSORIES_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::UInt32 GetResonanceGearIDInPacket(::System::UInt32 gearID)
+		static ::System::UInt32 GetResonanceGearIDInPacket(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETRESONANCEGEARIDINPACKET_OFFSET))(gearID);
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETRESONANCEGEARIDINPACKET_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::List_1<::RPG::Client::EvolveBuildMixData*>* GetSortedMixData(::RPG::GameCore::EvolveBuildSeason season)
+		static ::System::Collections::Generic::List_1<::RPG::Client::EvolveBuildMixData*>* GetSortedMixData(::RPG::GameCore::EvolveBuildSeason a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::EvolveBuildMixData*>*(*)(::RPG::GameCore::EvolveBuildSeason))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETSORTEDMIXDATA_OFFSET))(season);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::EvolveBuildMixData*>*(*)(::RPG::GameCore::EvolveBuildSeason))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETSORTEDMIXDATA_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::List_1<::RPG::Client::EvolveBuildScMixData*>* GetSortedMixDataSC(::RPG::GameCore::EvolveBuildSeason season)
+		static ::System::Collections::Generic::List_1<::RPG::Client::EvolveBuildScMixData*>* GetSortedMixDataSC(::RPG::GameCore::EvolveBuildSeason a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::EvolveBuildScMixData*>*(*)(::RPG::GameCore::EvolveBuildSeason))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETSORTEDMIXDATASC_OFFSET))(season);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::EvolveBuildScMixData*>*(*)(::RPG::GameCore::EvolveBuildSeason))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETSORTEDMIXDATASC_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsGearUnlock(::System::UInt32 gearID)
+		static ::System::Boolean IsGearUnlock(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_ISGEARUNLOCK_OFFSET))(gearID);
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_ISGEARUNLOCK_OFFSET))(a1);
 		}
 
-		static ::System::Nullable_1<::System::UInt32> GetGearLvToForge(::System::UInt32 gearID)
+		static ::System::Nullable_1<::System::UInt32> GetGearLvToForge(::System::UInt32 a1)
 		{
-			return ((::System::Nullable_1<::System::UInt32>(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARLVTOFORGE_OFFSET))(gearID);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARLVTOFORGE_OFFSET))(a1);
 		}
 
-		static ::System::Nullable_1<::System::UInt32> GetGearForgeID(::System::UInt32 gearID)
+		static ::System::Nullable_1<::System::UInt32> GetGearForgeID(::System::UInt32 a1)
 		{
-			return ((::System::Nullable_1<::System::UInt32>(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARFORGEID_OFFSET))(gearID);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARFORGEID_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::UInt32>* GetCollectionIDListByType(::RPG::GameCore::EvolveGearType type)
+		static ::System::Collections::Generic::List_1<::System::UInt32>* GetCollectionIDListByType(::RPG::GameCore::EvolveGearType a1)
 		{
-			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::RPG::GameCore::EvolveGearType))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETCOLLECTIONIDLISTBYTYPE_OFFSET))(type);
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::RPG::GameCore::EvolveGearType))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETCOLLECTIONIDLISTBYTYPE_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::RaccoonStateType GetRaccoonStateType(::System::Int32 index)
+		static ::RPG::GameCore::RaccoonStateType GetRaccoonStateType(::System::Int32 a1)
 		{
-			return ((::RPG::GameCore::RaccoonStateType(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETRACCOONSTATETYPE_OFFSET))(index);
+			return ((::RPG::GameCore::RaccoonStateType(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETRACCOONSTATETYPE_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::EvolveBuildMixData* GetGearMixData(::System::UInt32 gearID)
+		static ::RPG::Client::EvolveBuildMixData* GetGearMixData(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::EvolveBuildMixData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARMIXDATA_OFFSET))(gearID);
+			return ((::RPG::Client::EvolveBuildMixData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARMIXDATA_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetBattleExpStep(::System::UInt32 totalExp, ::RPG::GameCore::EvolveBuildSeason eSeason)
+		static ::System::UInt32 GetBattleExpStep(::System::UInt32 a1, ::RPG::GameCore::EvolveBuildSeason a2)
 		{
-			return ((::System::UInt32(*)(::System::UInt32, ::RPG::GameCore::EvolveBuildSeason))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETBATTLEEXPSTEP_OFFSET))(totalExp, eSeason);
+			return ((::System::UInt32(*)(::System::UInt32, ::RPG::GameCore::EvolveBuildSeason))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETBATTLEEXPSTEP_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::GameCore::EvolveBuildGearEquipInfo* SlotInfo2GearEquipInfo(::Class_1_E1C52EF642F86050* slotInfo)
+		static ::RPG::GameCore::EvolveBuildGearEquipInfo* SlotInfo2GearEquipInfo(::Class_1_997BC107281E8D79* a1)
 		{
-			return ((::RPG::GameCore::EvolveBuildGearEquipInfo*(*)(::Class_1_E1C52EF642F86050*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_SLOTINFO2GEAREQUIPINFO_OFFSET))(slotInfo);
+			return ((::RPG::GameCore::EvolveBuildGearEquipInfo*(*)(::Class_1_997BC107281E8D79*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_SLOTINFO2GEAREQUIPINFO_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>* SlotInfos2GearEquipInfos(::System::Collections::Generic::IEnumerable_1<::Class_1_E1C52EF642F86050*>* slotInfos)
+		static ::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>* SlotInfos2GearEquipInfos(::System::Collections::Generic::IEnumerable_1<::Class_1_997BC107281E8D79*>* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>*(*)(::System::Collections::Generic::IEnumerable_1<::Class_1_E1C52EF642F86050*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_SLOTINFOS2GEAREQUIPINFOS_OFFSET))(slotInfos);
+			return ((::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>*(*)(::System::Collections::Generic::IEnumerable_1<::Class_1_997BC107281E8D79*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_SLOTINFOS2GEAREQUIPINFOS_OFFSET))(a1);
 		}
 
-		static ::System::Int32 CountUnlockedSlotNum(::System::Collections::Generic::IEnumerable_1<::Class_1_E1C52EF642F86050*>* slotInfos)
+		static ::System::Int32 CountUnlockedSlotNum(::System::Collections::Generic::IEnumerable_1<::Class_1_997BC107281E8D79*>* a1)
 		{
-			return ((::System::Int32(*)(::System::Collections::Generic::IEnumerable_1<::Class_1_E1C52EF642F86050*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_COUNTUNLOCKEDSLOTNUM_OFFSET))(slotInfos);
+			return ((::System::Int32(*)(::System::Collections::Generic::IEnumerable_1<::Class_1_997BC107281E8D79*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_COUNTUNLOCKEDSLOTNUM_OFFSET))(a1);
 		}
 
-		static ::System::Void SetMazeBuffDesc(::UnityEngine::UI::Text* text, ::RPG::GameCore::MazeBuffRow* mazeBuff, ::System::Boolean showSimpleDesc, ::System::Boolean ShowDiff)
+		static ::System::Void SetMazeBuffDesc(::UnityEngine::UI::Text* a1, ::RPG::GameCore::MazeBuffRow* a2, ::System::Boolean a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::UI::Text*, ::RPG::GameCore::MazeBuffRow*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_SETMAZEBUFFDESC_OFFSET))(text, mazeBuff, showSimpleDesc, ShowDiff);
+			return ((::System::Void(*)(::UnityEngine::UI::Text*, ::RPG::GameCore::MazeBuffRow*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_SETMAZEBUFFDESC_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean GetGearForgeRow(::System::UInt32 gearID, ::RPG::GameCore::ActivityEvolveGearForgeMaterialRow*& forgeMaterialRow)
+		static ::System::Boolean GetGearForgeRow(::System::UInt32 a1, ::RPG::GameCore::ActivityEvolveGearForgeMaterialRow*& a2)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::RPG::GameCore::ActivityEvolveGearForgeMaterialRow*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARFORGEROW_OFFSET))(gearID, forgeMaterialRow);
+			return ((::System::Boolean(*)(::System::UInt32, ::RPG::GameCore::ActivityEvolveGearForgeMaterialRow*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARFORGEROW_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::EvolveBuildScMixData* GetGearMixDataSc(::System::UInt32 gearID)
+		static ::RPG::Client::EvolveBuildScMixData* GetGearMixDataSc(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::EvolveBuildScMixData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARMIXDATASC_OFFSET))(gearID);
+			return ((::RPG::Client::EvolveBuildScMixData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARMIXDATASC_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::EvolveBuildScMixData* GetGearMixDataScFromForgeRow(::RPG::GameCore::ActivityEvolveGearForgeMaterialRow* forgeMaterialRow)
+		static ::RPG::Client::EvolveBuildScMixData* GetGearMixDataScFromForgeRow(::RPG::GameCore::ActivityEvolveGearForgeMaterialRow* a1)
 		{
-			return ((::RPG::Client::EvolveBuildScMixData*(*)(::RPG::GameCore::ActivityEvolveGearForgeMaterialRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARMIXDATASCFROMFORGEROW_OFFSET))(forgeMaterialRow);
+			return ((::RPG::Client::EvolveBuildScMixData*(*)(::RPG::GameCore::ActivityEvolveGearForgeMaterialRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARMIXDATASCFROMFORGEROW_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::ActivityEvolveGearForgeMaterialRow* GetGearForgeRow_1(::System::UInt32 gearID)
+		static ::RPG::GameCore::ActivityEvolveGearForgeMaterialRow* GetGearForgeRow_1(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::ActivityEvolveGearForgeMaterialRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARFORGEROW_1_OFFSET))(gearID);
+			return ((::RPG::GameCore::ActivityEvolveGearForgeMaterialRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARFORGEROW_1_OFFSET))(a1);
 		}
 
-		static ::System::Void OpenFakeGearSelectPage(::Il2CppArray<::System::UInt32>* gearIDs)
+		static ::System::Void OpenFakeGearSelectPage(::Il2CppArray<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_OPENFAKEGEARSELECTPAGE_OFFSET))(gearIDs);
+			return ((::System::Void(*)(::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_OPENFAKEGEARSELECTPAGE_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::FixPoint _GetBattleExpStep_g___GetCurStepExpMax_15_0(::RPG::GameCore::FixPoint step, ::RPG::Client::EvolveBuildUtils___c__DisplayClass15_0& a2)
+		static ::RPG::GameCore::FixPoint _GetBattleExpStep_g___GetCurStepExpMax_15_0(::RPG::GameCore::FixPoint a1, ::RPG::Client::EvolveBuildUtils___c__DisplayClass15_0& a2)
 		{
-			return ((::RPG::GameCore::FixPoint(*)(::RPG::GameCore::FixPoint, ::RPG::Client::EvolveBuildUtils___c__DisplayClass15_0&))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS__GETBATTLEEXPSTEP_G___GETCURSTEPEXPMAX_15_0_OFFSET))(step, a2);
+			return ((::RPG::GameCore::FixPoint(*)(::RPG::GameCore::FixPoint, ::RPG::Client::EvolveBuildUtils___c__DisplayClass15_0&))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS__GETBATTLEEXPSTEP_G___GETCURSTEPEXPMAX_15_0_OFFSET))(a1, a2);
 		}
 	};
 }

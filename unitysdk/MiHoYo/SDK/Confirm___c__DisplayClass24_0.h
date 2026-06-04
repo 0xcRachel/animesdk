@@ -6,29 +6,29 @@ namespace MiHoYo::SDK { class Confirm; }
 namespace MiHoYo::SDK { class Confirm_OnConfirmDelegate; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONFIRM___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x161B2010)
-#define MIHOYO_SDK_CONFIRM___C__DISPLAYCLASS24_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x161B2AD0)
+#define MIHOYO_SDK_CONFIRM___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1725EA90)
+#define MIHOYO_SDK_CONFIRM___C__DISPLAYCLASS24_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1725F250)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Confirm___c__DisplayClass24_0_TypeDefinitionIndex = 7275;
+	inline static constexpr unsigned int Confirm___c__DisplayClass24_0_TypeDefinitionIndex = 8178;
 
 	class Confirm___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::System::String* cancelButton; // 0x10
-		::MiHoYo::SDK::Confirm_OnConfirmDelegate* callback; // 0x18
-		::System::String* content; // 0x20
-		::System::String* okButton; // 0x28
+		::System::String* content; // 0x10
+		::System::String* okButton; // 0x18
+		::MiHoYo::SDK::Confirm_OnConfirmDelegate* callback; // 0x20
+		::System::String* cancelButton; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONFIRM___C__DISPLAYCLASS24_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__0(::MiHoYo::SDK::Confirm* confirmDialog)
+		::System::Void _Show_b__0(::MiHoYo::SDK::Confirm* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONFIRM___C__DISPLAYCLASS24_0__SHOW_B__0_OFFSET))(this, confirmDialog);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONFIRM___C__DISPLAYCLASS24_0__SHOW_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,14 +4,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETFILTERTARGETTYPE_METHOD_3_BC71E2910CD61BB5_OFFSET UNITYSDK_OFFSET(0x199E3910)
-#define RPG_GAMECORE_TARGETFILTERTARGETTYPE_METHOD_3_D9C196BAAFA25E8A_OFFSET UNITYSDK_OFFSET(0x199E37E0)
-#define RPG_GAMECORE_TARGETFILTERTARGETTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x199E38F0)
+#define RPG_GAMECORE_TARGETFILTERTARGETTYPE_METHOD_3_0FDA1EF33B54BEBC_OFFSET UNITYSDK_OFFSET(0x1AC59130)
+#define RPG_GAMECORE_TARGETFILTERTARGETTYPE_METHOD_3_BC71E2910CD61BB5_OFFSET UNITYSDK_OFFSET(0x1AC59020)
+#define RPG_GAMECORE_TARGETFILTERTARGETTYPE_METHOD_3_D9C196BAAFA25E8A_OFFSET UNITYSDK_OFFSET(0x1AC58EF0)
+#define RPG_GAMECORE_TARGETFILTERTARGETTYPE_METHOD_3_DBAA8A55402A4CB2_OFFSET UNITYSDK_OFFSET(0x1AC590C0)
+#define RPG_GAMECORE_TARGETFILTERTARGETTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC59000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFilterTargetType_TypeDefinitionIndex = 22897;
+	inline static constexpr unsigned int TargetFilterTargetType_TypeDefinitionIndex = 22588;
 
 	class TargetFilterTargetType : public ::RPG::GameCore::TargetSeqOperation
 	{
@@ -31,6 +34,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_3_BC71E2910CD61BB5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFilterTargetType* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFilterTargetType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFILTERTARGETTYPE_METHOD_3_BC71E2910CD61BB5_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_DBAA8A55402A4CB2(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFilterTargetType*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFilterTargetType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFILTERTARGETTYPE_METHOD_3_DBAA8A55402A4CB2_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_0FDA1EF33B54BEBC(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFilterTargetType* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFilterTargetType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFILTERTARGETTYPE_METHOD_3_0FDA1EF33B54BEBC_OFFSET))(a1, a2);
 		}
 	};
 }

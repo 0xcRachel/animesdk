@@ -9,21 +9,21 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_UVMOVELOOKATSOLVER_METHOD_1_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0x15984330)
-#define RPG_CLIENT_UVMOVELOOKATSOLVER_METHOD_1_E626BE42DAD16303_OFFSET UNITYSDK_OFFSET(0x15983FB0)
-#define RPG_CLIENT_UVMOVELOOKATSOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15984450)
-#define RPG_CLIENT_UVMOVELOOKATSOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x15984410)
+#define RPG_CLIENT_UVMOVELOOKATSOLVER_METHOD_1_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0x14BA6750)
+#define RPG_CLIENT_UVMOVELOOKATSOLVER_METHOD_1_E626BE42DAD16303_OFFSET UNITYSDK_OFFSET(0x14BA63E0)
+#define RPG_CLIENT_UVMOVELOOKATSOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x14BA6870)
+#define RPG_CLIENT_UVMOVELOOKATSOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x14BA6830)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UVMoveLookAtSolver_TypeDefinitionIndex = 64783;
+	inline static constexpr unsigned int UVMoveLookAtSolver_TypeDefinitionIndex = 65709;
 
 	class UVMoveLookAtSolver : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet__MainTexSTShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UVMoveLookAtSolver_TypeDefinitionIndex)->GetStaticField(0xF9F0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UVMoveLookAtSolver_TypeDefinitionIndex)->GetStaticField(0x10020);
 		}
 		::UnityEngine::Transform* ProxyNode; // 0x10
 		::UnityEngine::Renderer* RendererNode; // 0x18

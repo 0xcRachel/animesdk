@@ -5,12 +5,12 @@
 namespace RPG::Client::DiceCombat { class DiceCombatV2SideBarToastQueue; }
 namespace RPG::Client::DiceCombat { class DiceCombatV2SideBarToastQueue_ActiveToastInfo; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x170488F0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE___C__DISPLAYCLASS14_0___SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x17048CE0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17F13220)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE___C__DISPLAYCLASS14_0___SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x17F135F0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2SideBarToastQueue___c__DisplayClass14_0_TypeDefinitionIndex = 69977;
+	inline static constexpr unsigned int DiceCombatV2SideBarToastQueue___c__DisplayClass14_0_TypeDefinitionIndex = 70789;
 
 	class DiceCombatV2SideBarToastQueue___c__DisplayClass14_0 : public ::System::Object
 	{

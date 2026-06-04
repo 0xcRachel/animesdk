@@ -8,36 +8,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADRENDERMODEL_ASYNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1788D910)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADRENDERMODEL_ASYNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1788D970)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADRENDERMODEL_ASYNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1788D350)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADRENDERMODEL_ASYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1788D330)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADRENDERMODEL_ASYNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x195999B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADRENDERMODEL_ASYNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19599A10)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADRENDERMODEL_ASYNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x195999A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADRENDERMODEL_ASYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x19599920)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRRenderModels__LoadRenderModel_Async_TypeDefinitionIndex = 35903;
+	inline static constexpr unsigned int IVRRenderModels__LoadRenderModel_Async_TypeDefinitionIndex = 36203;
 
 	class IVRRenderModels__LoadRenderModel_Async : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADRENDERMODEL_ASYNC__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADRENDERMODEL_ASYNC__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError Invoke(::System::String* pchRenderModelName, ::System::IntPtr& ppRenderModel)
+		::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError Invoke(::System::String* a1, ::System::IntPtr& a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError(*)(::PVOID, ::System::String*, ::System::IntPtr&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADRENDERMODEL_ASYNC_INVOKE_OFFSET))(this, pchRenderModelName, ppRenderModel);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError(*)(::PVOID, ::System::String*, ::System::IntPtr&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADRENDERMODEL_ASYNC_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* pchRenderModelName, ::System::IntPtr& ppRenderModel, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::IntPtr& a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::IntPtr&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADRENDERMODEL_ASYNC_BEGININVOKE_OFFSET))(this, pchRenderModelName, ppRenderModel, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::IntPtr&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADRENDERMODEL_ASYNC_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError EndInvoke(::System::IntPtr& ppRenderModel, ::System::IAsyncResult* result)
+		::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError EndInvoke(::System::IntPtr& a1, ::System::IAsyncResult* a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError(*)(::PVOID, ::System::IntPtr&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADRENDERMODEL_ASYNC_ENDINVOKE_OFFSET))(this, ppRenderModel, result);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError(*)(::PVOID, ::System::IntPtr&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADRENDERMODEL_ASYNC_ENDINVOKE_OFFSET))(this, a1, a2);
 		}
 	};
 }

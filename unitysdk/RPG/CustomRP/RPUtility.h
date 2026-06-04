@@ -41,229 +41,229 @@ namespace UnityEngine { class Texture; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering { class CommandBufferExt; }
 
-#define RPG_CUSTOMRP_RPUTILITY_BEGINDRAWRT_OFFSET UNITYSDK_OFFSET(0x15A97B00)
-#define RPG_CUSTOMRP_RPUTILITY_BLITMRT_OFFSET UNITYSDK_OFFSET(0x15A7D0F0)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_10_OFFSET UNITYSDK_OFFSET(0x15A96A60)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_11_OFFSET UNITYSDK_OFFSET(0x15A96F80)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_1_OFFSET UNITYSDK_OFFSET(0x15A6A800)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_2_OFFSET UNITYSDK_OFFSET(0x15A72310)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_3_OFFSET UNITYSDK_OFFSET(0x15A7CFB0)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_4_OFFSET UNITYSDK_OFFSET(0x15A6AAC0)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_5_OFFSET UNITYSDK_OFFSET(0x15A7CCC0)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_6_OFFSET UNITYSDK_OFFSET(0x15A84190)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_7_OFFSET UNITYSDK_OFFSET(0x15A961E0)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_8_OFFSET UNITYSDK_OFFSET(0x15A965B0)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_9_OFFSET UNITYSDK_OFFSET(0x15A7C850)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_OFFSET UNITYSDK_OFFSET(0x15A6A500)
-#define RPG_CUSTOMRP_RPUTILITY_BLIT_OFFSET UNITYSDK_OFFSET(0x15A95A90)
-#define RPG_CUSTOMRP_RPUTILITY_CALLFUNCTION_OFFSET UNITYSDK_OFFSET(0x15A98AB0)
-#define RPG_CUSTOMRP_RPUTILITY_COMPUTEHASH32_OFFSET UNITYSDK_OFFSET(0x15A948E0)
-#define RPG_CUSTOMRP_RPUTILITY_COPYTEX_1_OFFSET UNITYSDK_OFFSET(0x15A976D0)
-#define RPG_CUSTOMRP_RPUTILITY_COPYTEX_2_OFFSET UNITYSDK_OFFSET(0x15A97810)
-#define RPG_CUSTOMRP_RPUTILITY_COPYTEX_3_OFFSET UNITYSDK_OFFSET(0x15A97980)
-#define RPG_CUSTOMRP_RPUTILITY_COPYTEX_OFFSET UNITYSDK_OFFSET(0x15A97570)
-#define RPG_CUSTOMRP_RPUTILITY_CREATERT_1_OFFSET UNITYSDK_OFFSET(0x15A95490)
-#define RPG_CUSTOMRP_RPUTILITY_CREATERT_OFFSET UNITYSDK_OFFSET(0x15A6A940)
-#define RPG_CUSTOMRP_RPUTILITY_DEBUGOBJECTNAME_OFFSET UNITYSDK_OFFSET(0x15A943D0)
-#define RPG_CUSTOMRP_RPUTILITY_DESTROYMAT_OFFSET UNITYSDK_OFFSET(0x15A94250)
-#define RPG_CUSTOMRP_RPUTILITY_DESTROY_OFFSET UNITYSDK_OFFSET(0x15A64DD0)
-#define RPG_CUSTOMRP_RPUTILITY_DRAWDUMMYDEPTH_OFFSET UNITYSDK_OFFSET(0x15A93DA0)
-#define RPG_CUSTOMRP_RPUTILITY_DRAWRT_OFFSET UNITYSDK_OFFSET(0x15A97B80)
-#define RPG_CUSTOMRP_RPUTILITY_ENABLEPREROTATION_OFFSET UNITYSDK_OFFSET(0x15A95F10)
-#define RPG_CUSTOMRP_RPUTILITY_ENDDRAWRT_OFFSET UNITYSDK_OFFSET(0x15A97E00)
-#define RPG_CUSTOMRP_RPUTILITY_FLIPDRAW_1_OFFSET UNITYSDK_OFFSET(0x15A974D0)
-#define RPG_CUSTOMRP_RPUTILITY_FLIPDRAW_OFFSET UNITYSDK_OFFSET(0x15A95E80)
-#define RPG_CUSTOMRP_RPUTILITY_FORMATBYTES_1_OFFSET UNITYSDK_OFFSET(0x15A946B0)
-#define RPG_CUSTOMRP_RPUTILITY_FORMATBYTES_OFFSET UNITYSDK_OFFSET(0x15A94570)
-#define RPG_CUSTOMRP_RPUTILITY_GETADDITIONALCAMERADATA_OFFSET UNITYSDK_OFFSET(0x15A94D60)
-#define RPG_CUSTOMRP_RPUTILITY_GETALLASSEMBLYTYPES_OFFSET UNITYSDK_OFFSET(0x15A985F0)
-#define RPG_CUSTOMRP_RPUTILITY_GETASSEMBLYTYPEFULLNAME_OFFSET UNITYSDK_OFFSET(0x15A989F0)
-#define RPG_CUSTOMRP_RPUTILITY_GETASSEMBLYTYPE_1_OFFSET UNITYSDK_OFFSET(0x15A98930)
-#define RPG_CUSTOMRP_RPUTILITY_GETASSEMBLYTYPE_OFFSET UNITYSDK_OFFSET(0x15A98860)
-#define RPG_CUSTOMRP_RPUTILITY_GETFILENAME_OFFSET UNITYSDK_OFFSET(0x15A943E0)
-#define RPG_CUSTOMRP_RPUTILITY_GETFLOAT_OFFSET UNITYSDK_OFFSET(0x15A94E00)
-#define RPG_CUSTOMRP_RPUTILITY_GETMATRIX_OFFSET UNITYSDK_OFFSET(0x15A94E80)
-#define RPG_CUSTOMRP_RPUTILITY_GETOBJID_OFFSET UNITYSDK_OFFSET(0x15A94800)
-#define RPG_CUSTOMRP_RPUTILITY_GETPASSENABLEEX_OFFSET UNITYSDK_OFFSET(0x15A94890)
-#define RPG_CUSTOMRP_RPUTILITY_GETPASSTAG_OFFSET UNITYSDK_OFFSET(0x15A94840)
-#define RPG_CUSTOMRP_RPUTILITY_GETPATHDIR_OFFSET UNITYSDK_OFFSET(0x15A94500)
-#define RPG_CUSTOMRP_RPUTILITY_GETPATHWITHOUTEXT_OFFSET UNITYSDK_OFFSET(0x15A944B0)
-#define RPG_CUSTOMRP_RPUTILITY_GETSUBMESHCOUNT_OFFSET UNITYSDK_OFFSET(0x15A942A0)
-#define RPG_CUSTOMRP_RPUTILITY_GETTEMPORARYRT_1_OFFSET UNITYSDK_OFFSET(0x15A953D0)
-#define RPG_CUSTOMRP_RPUTILITY_GETTEMPORARYRT_OFFSET UNITYSDK_OFFSET(0x15A6A4A0)
-#define RPG_CUSTOMRP_RPUTILITY_GETVECTOR_OFFSET UNITYSDK_OFFSET(0x15A94E30)
-#define RPG_CUSTOMRP_RPUTILITY_GET_DEBUGMAT_OFFSET UNITYSDK_OFFSET(0x15A93D30)
-#define RPG_CUSTOMRP_RPUTILITY_GET_FULLSCREENMESH_OFFSET UNITYSDK_OFFSET(0x15A742E0)
-#define RPG_CUSTOMRP_RPUTILITY_GET_FULLSCREENQUAD_OFFSET UNITYSDK_OFFSET(0x15A86B60)
-#define RPG_CUSTOMRP_RPUTILITY_GET_HALFSPHEREMESH_OFFSET UNITYSDK_OFFSET(0x15A93C40)
-#define RPG_CUSTOMRP_RPUTILITY_GET_IDENTITYQUAD_OFFSET UNITYSDK_OFFSET(0x15A93660)
-#define RPG_CUSTOMRP_RPUTILITY_GET_ISGAMEREALRUNNING_OFFSET UNITYSDK_OFFSET(0x15A92E60)
-#define RPG_CUSTOMRP_RPUTILITY_GET_POINTLIGHTMESH_OFFSET UNITYSDK_OFFSET(0x15A93A60)
-#define RPG_CUSTOMRP_RPUTILITY_GET_SPOTLIGHTMESH_OFFSET UNITYSDK_OFFSET(0x15A93B50)
-#define RPG_CUSTOMRP_RPUTILITY_GET_UNITCAPSULE_OFFSET UNITYSDK_OFFSET(0x15A5EF10)
-#define RPG_CUSTOMRP_RPUTILITY_GET_UNITCUBE_OFFSET UNITYSDK_OFFSET(0x15A5DBC0)
-#define RPG_CUSTOMRP_RPUTILITY_GET_UNITSPHERE_OFFSET UNITYSDK_OFFSET(0x15A5EE20)
-#define RPG_CUSTOMRP_RPUTILITY_INIT_OFFSET UNITYSDK_OFFSET(0x15A95850)
-#define RPG_CUSTOMRP_RPUTILITY_ISBLACKCOLOR_OFFSET UNITYSDK_OFFSET(0x15A94280)
-#define RPG_CUSTOMRP_RPUTILITY_RELEASEASSETDEL_OFFSET UNITYSDK_OFFSET(0x15A93080)
-#define RPG_CUSTOMRP_RPUTILITY_RELEASERT_OFFSET UNITYSDK_OFFSET(0x15A694D0)
-#define RPG_CUSTOMRP_RPUTILITY_RELEASETEMPORARYRT_OFFSET UNITYSDK_OFFSET(0x15A6ADC0)
-#define RPG_CUSTOMRP_RPUTILITY_RESET_OFFSET UNITYSDK_OFFSET(0x15A92F50)
-#define RPG_CUSTOMRP_RPUTILITY_ROTATELEFT_OFFSET UNITYSDK_OFFSET(0x15A948D0)
-#define RPG_CUSTOMRP_RPUTILITY_SAVETEX_1_OFFSET UNITYSDK_OFFSET(0x15A98260)
-#define RPG_CUSTOMRP_RPUTILITY_SAVETEX_OFFSET UNITYSDK_OFFSET(0x15A97ED0)
-#define RPG_CUSTOMRP_RPUTILITY_SETPASSENABLEEX_OFFSET UNITYSDK_OFFSET(0x15A94850)
-#define RPG_CUSTOMRP_RPUTILITY_SETRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x15A95930)
-#define RPG_CUSTOMRP_RPUTILITY_SETRT_1_OFFSET UNITYSDK_OFFSET(0x15A96170)
-#define RPG_CUSTOMRP_RPUTILITY_SETRT_2_OFFSET UNITYSDK_OFFSET(0x15A74160)
-#define RPG_CUSTOMRP_RPUTILITY_SETRT_OFFSET UNITYSDK_OFFSET(0x15A95F70)
-#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x15A6A9E0)
-#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_2_OFFSET UNITYSDK_OFFSET(0x15A95510)
-#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_3_OFFSET UNITYSDK_OFFSET(0x15A95590)
-#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_4_OFFSET UNITYSDK_OFFSET(0x15A955F0)
-#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_5_OFFSET UNITYSDK_OFFSET(0x15A95680)
-#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_6_OFFSET UNITYSDK_OFFSET(0x15A95710)
-#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0x15A6EB70)
-#define RPG_CUSTOMRP_RPUTILITY_SETUPMAT_OFFSET UNITYSDK_OFFSET(0x15A92EA0)
-#define RPG_CUSTOMRP_RPUTILITY_SET_DEBUGMAT_OFFSET UNITYSDK_OFFSET(0x15A93D60)
-#define RPG_CUSTOMRP_RPUTILITY_SUPPORTSGRAPHICSFORMAT_OFFSET UNITYSDK_OFFSET(0x15A94F10)
-#define RPG_CUSTOMRP_RPUTILITY_SUPPORTSRENDERTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x15A95260)
-#define RPG_CUSTOMRP_RPUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x15A98BC0)
+#define RPG_CUSTOMRP_RPUTILITY_BEGINDRAWRT_OFFSET UNITYSDK_OFFSET(0x15829F50)
+#define RPG_CUSTOMRP_RPUTILITY_BLITMRT_OFFSET UNITYSDK_OFFSET(0x1580F5C0)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_10_OFFSET UNITYSDK_OFFSET(0x15828EE0)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_11_OFFSET UNITYSDK_OFFSET(0x158293E0)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_1_OFFSET UNITYSDK_OFFSET(0x157FCF00)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_2_OFFSET UNITYSDK_OFFSET(0x15804B20)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_3_OFFSET UNITYSDK_OFFSET(0x1580F480)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_4_OFFSET UNITYSDK_OFFSET(0x157FD1C0)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_5_OFFSET UNITYSDK_OFFSET(0x1580F190)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_6_OFFSET UNITYSDK_OFFSET(0x15816790)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_7_OFFSET UNITYSDK_OFFSET(0x15828660)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_8_OFFSET UNITYSDK_OFFSET(0x15828A30)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_9_OFFSET UNITYSDK_OFFSET(0x1580ED20)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_OFFSET UNITYSDK_OFFSET(0x157FCC00)
+#define RPG_CUSTOMRP_RPUTILITY_BLIT_OFFSET UNITYSDK_OFFSET(0x15827F10)
+#define RPG_CUSTOMRP_RPUTILITY_CALLFUNCTION_OFFSET UNITYSDK_OFFSET(0x1582B060)
+#define RPG_CUSTOMRP_RPUTILITY_COMPUTEHASH32_OFFSET UNITYSDK_OFFSET(0x15826D80)
+#define RPG_CUSTOMRP_RPUTILITY_COPYTEX_1_OFFSET UNITYSDK_OFFSET(0x15829B20)
+#define RPG_CUSTOMRP_RPUTILITY_COPYTEX_2_OFFSET UNITYSDK_OFFSET(0x15829C60)
+#define RPG_CUSTOMRP_RPUTILITY_COPYTEX_3_OFFSET UNITYSDK_OFFSET(0x15829DD0)
+#define RPG_CUSTOMRP_RPUTILITY_COPYTEX_OFFSET UNITYSDK_OFFSET(0x158299C0)
+#define RPG_CUSTOMRP_RPUTILITY_CREATERT_1_OFFSET UNITYSDK_OFFSET(0x15827910)
+#define RPG_CUSTOMRP_RPUTILITY_CREATERT_OFFSET UNITYSDK_OFFSET(0x157FD040)
+#define RPG_CUSTOMRP_RPUTILITY_DEBUGOBJECTNAME_OFFSET UNITYSDK_OFFSET(0x15826870)
+#define RPG_CUSTOMRP_RPUTILITY_DESTROYMAT_OFFSET UNITYSDK_OFFSET(0x158266F0)
+#define RPG_CUSTOMRP_RPUTILITY_DESTROY_OFFSET UNITYSDK_OFFSET(0x157F7520)
+#define RPG_CUSTOMRP_RPUTILITY_DRAWDUMMYDEPTH_OFFSET UNITYSDK_OFFSET(0x15826220)
+#define RPG_CUSTOMRP_RPUTILITY_DRAWRT_OFFSET UNITYSDK_OFFSET(0x15829FD0)
+#define RPG_CUSTOMRP_RPUTILITY_ENABLEPREROTATION_OFFSET UNITYSDK_OFFSET(0x15828390)
+#define RPG_CUSTOMRP_RPUTILITY_ENDDRAWRT_OFFSET UNITYSDK_OFFSET(0x1582A250)
+#define RPG_CUSTOMRP_RPUTILITY_FLIPDRAW_1_OFFSET UNITYSDK_OFFSET(0x15829920)
+#define RPG_CUSTOMRP_RPUTILITY_FLIPDRAW_OFFSET UNITYSDK_OFFSET(0x15828300)
+#define RPG_CUSTOMRP_RPUTILITY_FORMATBYTES_1_OFFSET UNITYSDK_OFFSET(0x15826B50)
+#define RPG_CUSTOMRP_RPUTILITY_FORMATBYTES_OFFSET UNITYSDK_OFFSET(0x15826A10)
+#define RPG_CUSTOMRP_RPUTILITY_GETADDITIONALCAMERADATA_OFFSET UNITYSDK_OFFSET(0x15827220)
+#define RPG_CUSTOMRP_RPUTILITY_GETALLASSEMBLYTYPES_OFFSET UNITYSDK_OFFSET(0x1582AAF0)
+#define RPG_CUSTOMRP_RPUTILITY_GETASSEMBLYTYPEFULLNAME_OFFSET UNITYSDK_OFFSET(0x1582AF70)
+#define RPG_CUSTOMRP_RPUTILITY_GETASSEMBLYTYPE_1_OFFSET UNITYSDK_OFFSET(0x1582AE80)
+#define RPG_CUSTOMRP_RPUTILITY_GETASSEMBLYTYPE_OFFSET UNITYSDK_OFFSET(0x1582AD90)
+#define RPG_CUSTOMRP_RPUTILITY_GETFILENAME_OFFSET UNITYSDK_OFFSET(0x15826880)
+#define RPG_CUSTOMRP_RPUTILITY_GETFLOAT_OFFSET UNITYSDK_OFFSET(0x158272C0)
+#define RPG_CUSTOMRP_RPUTILITY_GETMATRIX_OFFSET UNITYSDK_OFFSET(0x15827340)
+#define RPG_CUSTOMRP_RPUTILITY_GETOBJID_OFFSET UNITYSDK_OFFSET(0x15826CA0)
+#define RPG_CUSTOMRP_RPUTILITY_GETPASSENABLEEX_OFFSET UNITYSDK_OFFSET(0x15826D30)
+#define RPG_CUSTOMRP_RPUTILITY_GETPASSTAG_OFFSET UNITYSDK_OFFSET(0x15826CE0)
+#define RPG_CUSTOMRP_RPUTILITY_GETPATHDIR_OFFSET UNITYSDK_OFFSET(0x158269A0)
+#define RPG_CUSTOMRP_RPUTILITY_GETPATHWITHOUTEXT_OFFSET UNITYSDK_OFFSET(0x15826950)
+#define RPG_CUSTOMRP_RPUTILITY_GETSUBMESHCOUNT_OFFSET UNITYSDK_OFFSET(0x15826740)
+#define RPG_CUSTOMRP_RPUTILITY_GETTEMPORARYRT_1_OFFSET UNITYSDK_OFFSET(0x15827850)
+#define RPG_CUSTOMRP_RPUTILITY_GETTEMPORARYRT_OFFSET UNITYSDK_OFFSET(0x157FCBA0)
+#define RPG_CUSTOMRP_RPUTILITY_GETVECTOR_OFFSET UNITYSDK_OFFSET(0x158272F0)
+#define RPG_CUSTOMRP_RPUTILITY_GET_DEBUGMAT_OFFSET UNITYSDK_OFFSET(0x158261B0)
+#define RPG_CUSTOMRP_RPUTILITY_GET_FULLSCREENMESH_OFFSET UNITYSDK_OFFSET(0x15806A00)
+#define RPG_CUSTOMRP_RPUTILITY_GET_FULLSCREENQUAD_OFFSET UNITYSDK_OFFSET(0x15819290)
+#define RPG_CUSTOMRP_RPUTILITY_GET_HALFSPHEREMESH_OFFSET UNITYSDK_OFFSET(0x158260C0)
+#define RPG_CUSTOMRP_RPUTILITY_GET_IDENTITYQUAD_OFFSET UNITYSDK_OFFSET(0x15825940)
+#define RPG_CUSTOMRP_RPUTILITY_GET_ISGAMEREALRUNNING_OFFSET UNITYSDK_OFFSET(0x158256A0)
+#define RPG_CUSTOMRP_RPUTILITY_GET_POINTLIGHTMESH_OFFSET UNITYSDK_OFFSET(0x15825EE0)
+#define RPG_CUSTOMRP_RPUTILITY_GET_SPOTLIGHTMESH_OFFSET UNITYSDK_OFFSET(0x15825FD0)
+#define RPG_CUSTOMRP_RPUTILITY_GET_UNITCAPSULE_OFFSET UNITYSDK_OFFSET(0x157F1830)
+#define RPG_CUSTOMRP_RPUTILITY_GET_UNITCUBE_OFFSET UNITYSDK_OFFSET(0x157F0980)
+#define RPG_CUSTOMRP_RPUTILITY_GET_UNITSPHERE_OFFSET UNITYSDK_OFFSET(0x157F1740)
+#define RPG_CUSTOMRP_RPUTILITY_INIT_OFFSET UNITYSDK_OFFSET(0x15827CD0)
+#define RPG_CUSTOMRP_RPUTILITY_ISBLACKCOLOR_OFFSET UNITYSDK_OFFSET(0x15826720)
+#define RPG_CUSTOMRP_RPUTILITY_RELEASEASSETDEL_OFFSET UNITYSDK_OFFSET(0x158258A0)
+#define RPG_CUSTOMRP_RPUTILITY_RELEASERT_OFFSET UNITYSDK_OFFSET(0x157FBC20)
+#define RPG_CUSTOMRP_RPUTILITY_RELEASETEMPORARYRT_OFFSET UNITYSDK_OFFSET(0x157FD4B0)
+#define RPG_CUSTOMRP_RPUTILITY_RESET_OFFSET UNITYSDK_OFFSET(0x15825780)
+#define RPG_CUSTOMRP_RPUTILITY_ROTATELEFT_OFFSET UNITYSDK_OFFSET(0x15826D70)
+#define RPG_CUSTOMRP_RPUTILITY_SAVETEX_1_OFFSET UNITYSDK_OFFSET(0x1582A740)
+#define RPG_CUSTOMRP_RPUTILITY_SAVETEX_OFFSET UNITYSDK_OFFSET(0x1582A370)
+#define RPG_CUSTOMRP_RPUTILITY_SETPASSENABLEEX_OFFSET UNITYSDK_OFFSET(0x15826CF0)
+#define RPG_CUSTOMRP_RPUTILITY_SETRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x15827DB0)
+#define RPG_CUSTOMRP_RPUTILITY_SETRT_1_OFFSET UNITYSDK_OFFSET(0x158285F0)
+#define RPG_CUSTOMRP_RPUTILITY_SETRT_2_OFFSET UNITYSDK_OFFSET(0x15806880)
+#define RPG_CUSTOMRP_RPUTILITY_SETRT_OFFSET UNITYSDK_OFFSET(0x158283F0)
+#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x157FD0E0)
+#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_2_OFFSET UNITYSDK_OFFSET(0x15827990)
+#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_3_OFFSET UNITYSDK_OFFSET(0x15827A10)
+#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_4_OFFSET UNITYSDK_OFFSET(0x15827A70)
+#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_5_OFFSET UNITYSDK_OFFSET(0x15827B00)
+#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_6_OFFSET UNITYSDK_OFFSET(0x15827B90)
+#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0x158015D0)
+#define RPG_CUSTOMRP_RPUTILITY_SETUPMAT_OFFSET UNITYSDK_OFFSET(0x158256E0)
+#define RPG_CUSTOMRP_RPUTILITY_SET_DEBUGMAT_OFFSET UNITYSDK_OFFSET(0x158261E0)
+#define RPG_CUSTOMRP_RPUTILITY_SUPPORTSGRAPHICSFORMAT_OFFSET UNITYSDK_OFFSET(0x158273D0)
+#define RPG_CUSTOMRP_RPUTILITY_SUPPORTSRENDERTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x158276F0)
+#define RPG_CUSTOMRP_RPUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1582B170)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPUtility_TypeDefinitionIndex = 35265;
+	inline static constexpr unsigned int RPUtility_TypeDefinitionIndex = 35565;
 
 	class RPUtility : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Mesh** StaticGet_s_FullscreenQuad()
-		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5A40);
-		}
-		static ::UnityEngine::MaterialPropertyBlock** StaticGet__BiltMpb()
-		{
-			return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5A48);
-		}
-		static ::RPG::CustomRP::SyncLoadAssetDel** StaticGet_loadFun()
-		{
-			return (::RPG::CustomRP::SyncLoadAssetDel**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5A50);
-		}
-		static ::UnityEngine::Mesh** StaticGet_s_FullscreenMesh()
-		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5A58);
-		}
-		static ::System::String** StaticGet__SpotLightMeshDelegatePath()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5A60);
-		}
-		static ::UnityEngine::Mesh** StaticGet__HalfSphereMesh()
-		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5A68);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet__LINEAR_TO_SRGB_CONVERSION()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5A70);
-		}
 		static ::RPG::CustomRP::ReleaseAssetDel** StaticGet_releaseFun()
 		{
-			return (::RPG::CustomRP::ReleaseAssetDel**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5A78);
-		}
-		static ::UnityEngine::Mesh** StaticGet_s_IdentityQuad()
-		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5A80);
-		}
-		static ::UnityEngine::Rendering::CommandBuffer** StaticGet_drawCB()
-		{
-			return (::UnityEngine::Rendering::CommandBuffer**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5A88);
-		}
-		static ::UnityEngine::Material** StaticGet_s_DebugMat()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5A90);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::RenderTextureFormat, ::System::Boolean>** StaticGet__RenderTextureFormatSupport()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::RenderTextureFormat, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5A98);
-		}
-		static ::UnityEngine::Mesh** StaticGet_s_UnitCube()
-		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5AA0);
-		}
-		static ::UnityEngine::Mesh** StaticGet__PointLightMesh()
-		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5AA8);
-		}
-		static ::UnityEngine::Material** StaticGet__BiltMat()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5AB0);
+			return (::RPG::CustomRP::ReleaseAssetDel**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDD50);
 		}
 		static ::UnityEngine::Mesh** StaticGet_s_Capsule()
 		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5AB8);
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDD58);
 		}
-		static ::Il2CppArray<::System::Byte>** StaticGet__hashBuffer()
+		static ::UnityEngine::Mesh** StaticGet_s_FullscreenQuad()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5AC0);
-		}
-		static ::UnityEngine::Mesh** StaticGet__SpotLightMesh()
-		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5AC8);
-		}
-		static ::Il2CppArray<::UnityEngine::Color>** StaticGet_ClearColors()
-		{
-			return (::Il2CppArray<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5AD0);
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDD60);
 		}
 		static ::System::String** StaticGet__PointLightMeshDelegatePath()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5AD8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDD68);
 		}
-		static ::System::Collections::Generic::IEnumerable_1<::System::Type*>** StaticGet__AssemblyTypes()
+		static ::RPG::CustomRP::SyncLoadAssetDel** StaticGet_loadFun()
 		{
-			return (::System::Collections::Generic::IEnumerable_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5AE0);
+			return (::RPG::CustomRP::SyncLoadAssetDel**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDD70);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::FormatUsage, ::System::Boolean>*>** StaticGet__GraphicsFormatSupport()
+		static ::UnityEngine::Rendering::CommandBuffer** StaticGet_drawCB()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::FormatUsage, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5AE8);
+			return (::UnityEngine::Rendering::CommandBuffer**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDD78);
+		}
+		static ::UnityEngine::Mesh** StaticGet_s_UnitCube()
+		{
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDD80);
+		}
+		static ::Il2CppArray<::System::Byte>** StaticGet__hashBuffer()
+		{
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDD88);
+		}
+		static ::UnityEngine::Mesh** StaticGet__HalfSphereMesh()
+		{
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDD90);
+		}
+		static ::UnityEngine::Material** StaticGet_s_DebugMat()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDD98);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::RenderTextureFormat, ::System::Boolean>** StaticGet__RenderTextureFormatSupport()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::RenderTextureFormat, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDDA0);
+		}
+		static ::Il2CppArray<::UnityEngine::Color>** StaticGet_ClearColors()
+		{
+			return (::Il2CppArray<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDDA8);
+		}
+		static ::UnityEngine::Mesh** StaticGet_s_FullscreenMesh()
+		{
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDDB0);
 		}
 		static ::UnityEngine::Mesh** StaticGet_s_UnitSphere()
 		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x5AF0);
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDDB8);
 		}
-		static ::UnityEngine::Vector2Int* StaticGet_UIScreenSize()
+		static ::UnityEngine::Mesh** StaticGet_s_IdentityQuad()
 		{
-			return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1C50);
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDDC0);
 		}
-		static ::UnityEngine::Vector2Int* StaticGet_SceneScreenSize()
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::FormatUsage, ::System::Boolean>*>** StaticGet__GraphicsFormatSupport()
 		{
-			return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1C58);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::FormatUsage, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDDC8);
+		}
+		static ::System::Collections::Generic::IEnumerable_1<::System::Type*>** StaticGet__AssemblyTypes()
+		{
+			return (::System::Collections::Generic::IEnumerable_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDDD0);
+		}
+		static ::UnityEngine::Material** StaticGet__BiltMat()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDDD8);
+		}
+		static ::UnityEngine::Mesh** StaticGet__PointLightMesh()
+		{
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDDE0);
+		}
+		static ::System::String** StaticGet__SpotLightMeshDelegatePath()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDDE8);
+		}
+		static ::UnityEngine::MaterialPropertyBlock** StaticGet__BiltMpb()
+		{
+			return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDDF0);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet__LINEAR_TO_SRGB_CONVERSION()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDDF8);
+		}
+		static ::UnityEngine::Mesh** StaticGet__SpotLightMesh()
+		{
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xDE00);
 		}
 		static ::System::Single* StaticGet_MinAspectRatio()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1C60);
-		}
-		static ::System::Single* StaticGet_MaxAspectRatio()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1C64);
-		}
-		static ::System::Boolean* StaticGet_ReleaseSimulate()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1C68);
-		}
-		static ::System::Boolean* StaticGet_useViewSpaceNormal()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1C69);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x49A0);
 		}
 		static ::System::Boolean* StaticGet_useGbufferColorCompress()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1C6A);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x49A4);
 		}
-		static ::System::Boolean* StaticGet_IsGameRunning()
+		static ::System::Boolean* StaticGet_useViewSpaceNormal()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1C6B);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x49A5);
 		}
 		static ::System::Boolean* StaticGet_useGbufferNormalCompress()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1C6C);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x49A6);
+		}
+		static ::System::Boolean* StaticGet_IsGameRunning()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x49A7);
+		}
+		static ::System::Boolean* StaticGet_ReleaseSimulate()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x49A8);
+		}
+		static ::UnityEngine::Vector2Int* StaticGet_UIScreenSize()
+		{
+			return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x49AC);
+		}
+		static ::UnityEngine::Vector2Int* StaticGet_SceneScreenSize()
+		{
+			return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x49B4);
+		}
+		static ::System::Single* StaticGet_MaxAspectRatio()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x49BC);
 		}
 		// static const ::System::Single EPSILON; // 0x0
 
@@ -277,9 +277,9 @@ namespace RPG::CustomRP
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GET_ISGAMEREALRUNNING_OFFSET))();
 		}
 
-		static ::System::Void SetupMat(::RPG::CustomRP::CRPRendererData* renderData)
+		static ::System::Void SetupMat(::RPG::CustomRP::CRPRendererData* a1)
 		{
-			return ((::System::Void(*)(::RPG::CustomRP::CRPRendererData*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETUPMAT_OFFSET))(renderData);
+			return ((::System::Void(*)(::RPG::CustomRP::CRPRendererData*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETUPMAT_OFFSET))(a1);
 		}
 
 		static ::System::Void Reset()
@@ -287,9 +287,9 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_RESET_OFFSET))();
 		}
 
-		static ::System::Void ReleaseAssetDel(::UnityEngine::Object* assetObject)
+		static ::System::Void ReleaseAssetDel(::UnityEngine::Object* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_RELEASEASSETDEL_OFFSET))(assetObject);
+			return ((::System::Void(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_RELEASEASSETDEL_OFFSET))(a1);
 		}
 
 		static ::UnityEngine::Mesh* get_fullscreenMesh()
@@ -342,319 +342,319 @@ namespace RPG::CustomRP
 			return ((::UnityEngine::Material*(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GET_DEBUGMAT_OFFSET))();
 		}
 
-		static ::System::Void set_DebugMat(::UnityEngine::Material* value)
+		static ::System::Void set_DebugMat(::UnityEngine::Material* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SET_DEBUGMAT_OFFSET))(value);
+			return ((::System::Void(*)(::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SET_DEBUGMAT_OFFSET))(a1);
 		}
 
-		static ::System::Void DrawDummyDepth(::UnityEngine::Rendering::CommandBuffer* cmd)
+		static ::System::Void DrawDummyDepth(::UnityEngine::Rendering::CommandBuffer* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_DRAWDUMMYDEPTH_OFFSET))(cmd);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_DRAWDUMMYDEPTH_OFFSET))(a1);
 		}
 
-		static ::System::Void DestroyMat(::UnityEngine::Material*& mat)
+		static ::System::Void DestroyMat(::UnityEngine::Material*& a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Material*&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_DESTROYMAT_OFFSET))(mat);
+			return ((::System::Void(*)(::UnityEngine::Material*&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_DESTROYMAT_OFFSET))(a1);
 		}
 
-		static ::System::Void Destroy(::UnityEngine::Object* obj)
+		static ::System::Void Destroy(::UnityEngine::Object* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_DESTROY_OFFSET))(obj);
+			return ((::System::Void(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_DESTROY_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsBlackColor(::UnityEngine::Color& color)
+		static ::System::Boolean IsBlackColor(::UnityEngine::Color& a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Color&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_ISBLACKCOLOR_OFFSET))(color);
+			return ((::System::Boolean(*)(::UnityEngine::Color&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_ISBLACKCOLOR_OFFSET))(a1);
 		}
 
-		static ::System::Int32 GetSubmeshCount(::UnityEngine::Renderer* renderer)
+		static ::System::Int32 GetSubmeshCount(::UnityEngine::Renderer* a1)
 		{
-			return ((::System::Int32(*)(::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETSUBMESHCOUNT_OFFSET))(renderer);
+			return ((::System::Int32(*)(::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETSUBMESHCOUNT_OFFSET))(a1);
 		}
 
-		static ::System::Void DebugObjectName(::UnityEngine::Object* obj, ::System::String* name)
+		static ::System::Void DebugObjectName(::UnityEngine::Object* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Object*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_DEBUGOBJECTNAME_OFFSET))(obj, name);
+			return ((::System::Void(*)(::UnityEngine::Object*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_DEBUGOBJECTNAME_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* GetFileName(::System::String* path, ::System::Boolean withExt)
+		static ::System::String* GetFileName(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETFILENAME_OFFSET))(path, withExt);
+			return ((::System::String*(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETFILENAME_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* GetPathWithoutExt(::System::String* path)
+		static ::System::String* GetPathWithoutExt(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETPATHWITHOUTEXT_OFFSET))(path);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETPATHWITHOUTEXT_OFFSET))(a1);
 		}
 
-		static ::System::String* GetPathDir(::System::String* path, ::System::String* relativePath)
+		static ::System::String* GetPathDir(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETPATHDIR_OFFSET))(path, relativePath);
+			return ((::System::String*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETPATHDIR_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* FormatBytes(::System::Int32 b)
+		static ::System::String* FormatBytes(::System::Int32 a1)
 		{
-			return ((::System::String*(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_FORMATBYTES_OFFSET))(b);
+			return ((::System::String*(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_FORMATBYTES_OFFSET))(a1);
 		}
 
-		static ::System::String* FormatBytes_1(::System::Int64 b)
+		static ::System::String* FormatBytes_1(::System::Int64 a1)
 		{
-			return ((::System::String*(*)(::System::Int64))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_FORMATBYTES_1_OFFSET))(b);
+			return ((::System::String*(*)(::System::Int64))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_FORMATBYTES_1_OFFSET))(a1);
 		}
 
-		static ::System::Int32 GetObjID(::UnityEngine::Object* obj)
+		static ::System::Int32 GetObjID(::UnityEngine::Object* a1)
 		{
-			return ((::System::Int32(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETOBJID_OFFSET))(obj);
+			return ((::System::Int32(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETOBJID_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::PassTagID GetPassTag(::System::String* name)
+		static ::UnityEngine::PassTagID GetPassTag(::System::String* a1)
 		{
-			return ((::UnityEngine::PassTagID(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETPASSTAG_OFFSET))(name);
+			return ((::UnityEngine::PassTagID(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETPASSTAG_OFFSET))(a1);
 		}
 
-		static ::System::Void SetPassEnableEX(::UnityEngine::Material* mat, ::UnityEngine::PassTagID& passTag, ::System::Boolean enable)
+		static ::System::Void SetPassEnableEX(::UnityEngine::Material* a1, ::UnityEngine::PassTagID& a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Material*, ::UnityEngine::PassTagID&, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETPASSENABLEEX_OFFSET))(mat, passTag, enable);
+			return ((::System::Void(*)(::UnityEngine::Material*, ::UnityEngine::PassTagID&, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETPASSENABLEEX_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetPassEnableEX(::UnityEngine::Material* mat, ::UnityEngine::PassTagID& passTag)
+		static ::System::Boolean GetPassEnableEX(::UnityEngine::Material* a1, ::UnityEngine::PassTagID& a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Material*, ::UnityEngine::PassTagID&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETPASSENABLEEX_OFFSET))(mat, passTag);
+			return ((::System::Boolean(*)(::UnityEngine::Material*, ::UnityEngine::PassTagID&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETPASSENABLEEX_OFFSET))(a1, a2);
 		}
 
-		static ::System::UInt32 RotateLeft(::System::UInt32 value, ::System::Int32 offset)
+		static ::System::UInt32 RotateLeft(::System::UInt32 a1, ::System::Int32 a2)
 		{
-			return ((::System::UInt32(*)(::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_ROTATELEFT_OFFSET))(value, offset);
+			return ((::System::UInt32(*)(::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_ROTATELEFT_OFFSET))(a1, a2);
 		}
 
-		static ::System::UInt32 ComputeHash32(::System::String* s, ::System::UInt32 seed)
+		static ::System::UInt32 ComputeHash32(::System::String* a1, ::System::UInt32 a2)
 		{
-			return ((::System::UInt32(*)(::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_COMPUTEHASH32_OFFSET))(s, seed);
+			return ((::System::UInt32(*)(::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_COMPUTEHASH32_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::CustomRP::CustomAdditionalCameraData* GetAdditionalCameraData(::UnityEngine::Camera* camera)
+		static ::RPG::CustomRP::CustomAdditionalCameraData* GetAdditionalCameraData(::UnityEngine::Camera* a1)
 		{
-			return ((::RPG::CustomRP::CustomAdditionalCameraData*(*)(::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETADDITIONALCAMERADATA_OFFSET))(camera);
+			return ((::RPG::CustomRP::CustomAdditionalCameraData*(*)(::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETADDITIONALCAMERADATA_OFFSET))(a1);
 		}
 
-		static ::System::Single GetFloat(::UnityEngine::Renderer* r, ::System::Int32 nameID, ::System::Int32 index)
+		static ::System::Single GetFloat(::UnityEngine::Renderer* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Single(*)(::UnityEngine::Renderer*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETFLOAT_OFFSET))(r, nameID, index);
+			return ((::System::Single(*)(::UnityEngine::Renderer*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETFLOAT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Vector4 GetVector(::UnityEngine::Renderer* r, ::System::Int32 nameID, ::System::Int32 index)
+		static ::UnityEngine::Vector4 GetVector(::UnityEngine::Renderer* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Vector4(*)(::UnityEngine::Renderer*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETVECTOR_OFFSET))(r, nameID, index);
+			return ((::UnityEngine::Vector4(*)(::UnityEngine::Renderer*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETVECTOR_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Matrix4x4 GetMatrix(::UnityEngine::Renderer* r, ::System::Int32 nameID, ::System::Int32 index)
+		static ::UnityEngine::Matrix4x4 GetMatrix(::UnityEngine::Renderer* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Matrix4x4(*)(::UnityEngine::Renderer*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETMATRIX_OFFSET))(r, nameID, index);
+			return ((::UnityEngine::Matrix4x4(*)(::UnityEngine::Renderer*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETMATRIX_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean SupportsGraphicsFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::FormatUsage usage)
+		static ::System::Boolean SupportsGraphicsFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat a1, ::UnityEngine::Experimental::Rendering::FormatUsage a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::Experimental::Rendering::FormatUsage))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SUPPORTSGRAPHICSFORMAT_OFFSET))(format, usage);
+			return ((::System::Boolean(*)(::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::Experimental::Rendering::FormatUsage))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SUPPORTSGRAPHICSFORMAT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean SupportsRenderTextureFormat(::UnityEngine::RenderTextureFormat format)
+		static ::System::Boolean SupportsRenderTextureFormat(::UnityEngine::RenderTextureFormat a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::RenderTextureFormat))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SUPPORTSRENDERTEXTUREFORMAT_OFFSET))(format);
+			return ((::System::Boolean(*)(::UnityEngine::RenderTextureFormat))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SUPPORTSRENDERTEXTUREFORMAT_OFFSET))(a1);
 		}
 
-		static ::System::Void GetTemporaryRT(::UnityEngine::Rendering::CommandBuffer* cmd, ::RPG::CustomRP::RTIDHandle& rtid, ::UnityEngine::RenderTextureDescriptor& desc, ::UnityEngine::FilterMode fm)
+		static ::System::Void GetTemporaryRT(::UnityEngine::Rendering::CommandBuffer* a1, ::RPG::CustomRP::RTIDHandle& a2, ::UnityEngine::RenderTextureDescriptor& a3, ::UnityEngine::FilterMode a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::RTIDHandle&, ::UnityEngine::RenderTextureDescriptor&, ::UnityEngine::FilterMode))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETTEMPORARYRT_OFFSET))(cmd, rtid, desc, fm);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::RTIDHandle&, ::UnityEngine::RenderTextureDescriptor&, ::UnityEngine::FilterMode))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETTEMPORARYRT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void GetTemporaryRT_1(::UnityEngine::Rendering::CommandBuffer* cmd, ::RPG::CustomRP::RTIDHandle& rtid, ::System::Int32 width, ::System::Int32 height, ::UnityEngine::RenderTextureFormat format, ::UnityEngine::FilterMode fm, ::System::Int32 depth)
+		static ::System::Void GetTemporaryRT_1(::UnityEngine::Rendering::CommandBuffer* a1, ::RPG::CustomRP::RTIDHandle& a2, ::System::Int32 a3, ::System::Int32 a4, ::UnityEngine::RenderTextureFormat a5, ::UnityEngine::FilterMode a6, ::System::Int32 a7)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::RTIDHandle&, ::System::Int32, ::System::Int32, ::UnityEngine::RenderTextureFormat, ::UnityEngine::FilterMode, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETTEMPORARYRT_1_OFFSET))(cmd, rtid, width, height, format, fm, depth);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::RTIDHandle&, ::System::Int32, ::System::Int32, ::UnityEngine::RenderTextureFormat, ::UnityEngine::FilterMode, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETTEMPORARYRT_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Void ReleaseTemporaryRT(::UnityEngine::Rendering::CommandBuffer* cmd, ::RPG::CustomRP::RTIDHandle& rtid)
+		static ::System::Void ReleaseTemporaryRT(::UnityEngine::Rendering::CommandBuffer* a1, ::RPG::CustomRP::RTIDHandle& a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::RTIDHandle&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_RELEASETEMPORARYRT_OFFSET))(cmd, rtid);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::RTIDHandle&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_RELEASETEMPORARYRT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void CreateRT(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Int32 id, ::UnityEngine::RenderTextureDescriptor& desc, ::UnityEngine::FilterMode fm)
+		static ::System::Void CreateRT(::UnityEngine::Rendering::CommandBuffer* a1, ::System::Int32 a2, ::UnityEngine::RenderTextureDescriptor& a3, ::UnityEngine::FilterMode a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::UnityEngine::RenderTextureDescriptor&, ::UnityEngine::FilterMode))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_CREATERT_OFFSET))(cmd, id, desc, fm);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::UnityEngine::RenderTextureDescriptor&, ::UnityEngine::FilterMode))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_CREATERT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void CreateRT_1(::UnityEngine::Rendering::CommandBufferExt* cmd, ::System::Int32 id, ::UnityEngine::RenderTextureDescriptor& desc, ::UnityEngine::FilterMode fm)
+		static ::System::Void CreateRT_1(::UnityEngine::Rendering::CommandBufferExt* a1, ::System::Int32 a2, ::UnityEngine::RenderTextureDescriptor& a3, ::UnityEngine::FilterMode a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBufferExt*, ::System::Int32, ::UnityEngine::RenderTextureDescriptor&, ::UnityEngine::FilterMode))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_CREATERT_1_OFFSET))(cmd, id, desc, fm);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBufferExt*, ::System::Int32, ::UnityEngine::RenderTextureDescriptor&, ::UnityEngine::FilterMode))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_CREATERT_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void ReleaseRT(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Int32 id)
+		static ::System::Void ReleaseRT(::UnityEngine::Rendering::CommandBuffer* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_RELEASERT_OFFSET))(cmd, id);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_RELEASERT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Int32 id, ::RPG::CustomRP::RTIDHandle& rt)
+		static ::System::Void SetTexture(::UnityEngine::Rendering::CommandBuffer* a1, ::System::Int32 a2, ::RPG::CustomRP::RTIDHandle& a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::RPG::CustomRP::RTIDHandle&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_OFFSET))(cmd, id, rt);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::RPG::CustomRP::RTIDHandle&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SetTexture_1(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Int32 id, ::System::Int32 tex, ::System::Int16 slice)
+		static ::System::Void SetTexture_1(::UnityEngine::Rendering::CommandBuffer* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int16 a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::System::Int32, ::System::Int16))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_1_OFFSET))(cmd, id, tex, slice);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::System::Int32, ::System::Int16))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void SetTexture_2(::UnityEngine::Rendering::CommandBufferExt* cmd, ::System::Int32 id, ::System::Int32 tex, ::System::Int16 slice)
+		static ::System::Void SetTexture_2(::UnityEngine::Rendering::CommandBufferExt* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int16 a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBufferExt*, ::System::Int32, ::System::Int32, ::System::Int16))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_2_OFFSET))(cmd, id, tex, slice);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBufferExt*, ::System::Int32, ::System::Int32, ::System::Int16))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_2_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void SetTexture_3(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Int32 id, ::RPG::CustomRP::PassRTRes* rtRes)
+		static ::System::Void SetTexture_3(::UnityEngine::Rendering::CommandBuffer* a1, ::System::Int32 a2, ::RPG::CustomRP::PassRTRes* a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::RPG::CustomRP::PassRTRes*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_3_OFFSET))(cmd, id, rtRes);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::RPG::CustomRP::PassRTRes*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_3_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SetTexture_4(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Int32 id, ::System::Int16 slice)
+		static ::System::Void SetTexture_4(::UnityEngine::Rendering::CommandBuffer* a1, ::System::Int32 a2, ::System::Int16 a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::System::Int16))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_4_OFFSET))(cmd, id, slice);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::System::Int16))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_4_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SetTexture_5(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Int32 id, ::UnityEngine::Rendering::RenderTargetIdentifier& tex, ::System::Int16 slice)
+		static ::System::Void SetTexture_5(::UnityEngine::Rendering::CommandBuffer* a1, ::System::Int32 a2, ::UnityEngine::Rendering::RenderTargetIdentifier& a3, ::System::Int16 a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::UnityEngine::Rendering::RenderTargetIdentifier&, ::System::Int16))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_5_OFFSET))(cmd, id, tex, slice);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::UnityEngine::Rendering::RenderTargetIdentifier&, ::System::Int16))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_5_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void SetTexture_6(::UnityEngine::Rendering::CommandBufferExt* cmd, ::System::Int32 id, ::UnityEngine::Texture* tex)
+		static ::System::Void SetTexture_6(::UnityEngine::Rendering::CommandBufferExt* a1, ::System::Int32 a2, ::UnityEngine::Texture* a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBufferExt*, ::System::Int32, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_6_OFFSET))(cmd, id, tex);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBufferExt*, ::System::Int32, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_6_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void Init(::UnityEngine::RenderTextureDescriptor& desc, ::UnityEngine::RenderTextureFormat format, ::System::Int32 depth)
+		static ::System::Void Init(::UnityEngine::RenderTextureDescriptor& a1, ::UnityEngine::RenderTextureFormat a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::RenderTextureDescriptor&, ::UnityEngine::RenderTextureFormat, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_INIT_OFFSET))(desc, format, depth);
+			return ((::System::Void(*)(::UnityEngine::RenderTextureDescriptor&, ::UnityEngine::RenderTextureFormat, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_INIT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier& color, ::UnityEngine::Rendering::RenderTargetIdentifier& depth, ::UnityEngine::Rendering::RenderBufferLoadAction cLoad, ::UnityEngine::Rendering::RenderBufferStoreAction cStore, ::UnityEngine::Rendering::RenderBufferLoadAction dLoad, ::UnityEngine::Rendering::RenderBufferStoreAction dStore)
+		static ::System::Void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::RenderTargetIdentifier& a2, ::UnityEngine::Rendering::RenderTargetIdentifier& a3, ::UnityEngine::Rendering::RenderBufferLoadAction a4, ::UnityEngine::Rendering::RenderBufferStoreAction a5, ::UnityEngine::Rendering::RenderBufferLoadAction a6, ::UnityEngine::Rendering::RenderBufferStoreAction a7)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier&, ::UnityEngine::Rendering::RenderTargetIdentifier&, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETRENDERTARGET_OFFSET))(cmd, color, depth, cLoad, cStore, dLoad, dStore);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier&, ::UnityEngine::Rendering::RenderTargetIdentifier&, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETRENDERTARGET_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Void BlitMRT(::UnityEngine::Rendering::CommandBuffer* cmd, ::RPG::CustomRP::MRTBinding& mrtBinding, ::UnityEngine::Material* mat, ::System::Int32 pass, ::UnityEngine::MaterialPropertyBlock* mpb, ::Il2CppArray<::System::String*>* keywords)
+		static ::System::Void BlitMRT(::UnityEngine::Rendering::CommandBuffer* a1, ::RPG::CustomRP::MRTBinding& a2, ::UnityEngine::Material* a3, ::System::Int32 a4, ::UnityEngine::MaterialPropertyBlock* a5, ::Il2CppArray<::System::String*>* a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::MRTBinding&, ::UnityEngine::Material*, ::System::Int32, ::UnityEngine::MaterialPropertyBlock*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITMRT_OFFSET))(cmd, mrtBinding, mat, pass, mpb, keywords);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::MRTBinding&, ::UnityEngine::Material*, ::System::Int32, ::UnityEngine::MaterialPropertyBlock*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITMRT_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void Blit(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier& des, ::System::Boolean isRenderToRT, ::System::Boolean srgbConvertion, ::System::Boolean setRT)
+		static ::System::Void Blit(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::RenderTargetIdentifier& a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier&, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLIT_OFFSET))(cmd, des, isRenderToRT, srgbConvertion, setRT);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier&, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLIT_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void SetRT(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Int32 color, ::System::Int32 depth, ::UnityEngine::Rendering::RenderBufferLoadAction cLoad, ::UnityEngine::Rendering::RenderBufferStoreAction cStore, ::UnityEngine::Rendering::RenderBufferLoadAction dLoad, ::UnityEngine::Rendering::RenderBufferStoreAction dStore)
+		static ::System::Void SetRT(::UnityEngine::Rendering::CommandBuffer* a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::Rendering::RenderBufferLoadAction a4, ::UnityEngine::Rendering::RenderBufferStoreAction a5, ::UnityEngine::Rendering::RenderBufferLoadAction a6, ::UnityEngine::Rendering::RenderBufferStoreAction a7)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::System::Int32, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETRT_OFFSET))(cmd, color, depth, cLoad, cStore, dLoad, dStore);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::System::Int32, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETRT_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Void SetRT_1(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Int32 color, ::UnityEngine::Rendering::RenderBufferLoadAction cLoad, ::UnityEngine::Rendering::RenderBufferStoreAction cStore, ::UnityEngine::Rendering::RenderBufferLoadAction dLoad, ::UnityEngine::Rendering::RenderBufferStoreAction dStore)
+		static ::System::Void SetRT_1(::UnityEngine::Rendering::CommandBuffer* a1, ::System::Int32 a2, ::UnityEngine::Rendering::RenderBufferLoadAction a3, ::UnityEngine::Rendering::RenderBufferStoreAction a4, ::UnityEngine::Rendering::RenderBufferLoadAction a5, ::UnityEngine::Rendering::RenderBufferStoreAction a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETRT_1_OFFSET))(cmd, color, cLoad, cStore, dLoad, dStore);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETRT_1_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void SetRT_2(::UnityEngine::Rendering::CommandBuffer* cmd, ::RPG::CustomRP::RTIDHandle& color, ::UnityEngine::Rendering::RenderBufferLoadAction cLoad, ::UnityEngine::Rendering::RenderBufferStoreAction cStore, ::UnityEngine::Rendering::RenderBufferLoadAction dLoad, ::UnityEngine::Rendering::RenderBufferStoreAction dStore)
+		static ::System::Void SetRT_2(::UnityEngine::Rendering::CommandBuffer* a1, ::RPG::CustomRP::RTIDHandle& a2, ::UnityEngine::Rendering::RenderBufferLoadAction a3, ::UnityEngine::Rendering::RenderBufferStoreAction a4, ::UnityEngine::Rendering::RenderBufferLoadAction a5, ::UnityEngine::Rendering::RenderBufferStoreAction a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::RTIDHandle&, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETRT_2_OFFSET))(cmd, color, cLoad, cStore, dLoad, dStore);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::RTIDHandle&, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SETRT_2_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void BlitRT(::UnityEngine::Rendering::CommandBuffer* cmd, ::RPG::CustomRP::RTIDHandle& des, ::UnityEngine::Material* mat, ::System::Int32 pass, ::UnityEngine::MaterialPropertyBlock* mpb, ::Il2CppArray<::System::String*>* keywords, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Rendering::ClearColor clearColor, ::UnityEngine::Rendering::RenderBufferLoadAction cLoad, ::UnityEngine::Rendering::RenderBufferStoreAction cStore, ::UnityEngine::Rendering::RenderBufferLoadAction dLoad, ::UnityEngine::Rendering::RenderBufferStoreAction dStore)
+		static ::System::Void BlitRT(::UnityEngine::Rendering::CommandBuffer* a1, ::RPG::CustomRP::RTIDHandle& a2, ::UnityEngine::Material* a3, ::System::Int32 a4, ::UnityEngine::MaterialPropertyBlock* a5, ::Il2CppArray<::System::String*>* a6, ::UnityEngine::Rendering::ClearFlag a7, ::UnityEngine::Rendering::ClearColor a8, ::UnityEngine::Rendering::RenderBufferLoadAction a9, ::UnityEngine::Rendering::RenderBufferStoreAction a10, ::UnityEngine::Rendering::RenderBufferLoadAction a11, ::UnityEngine::Rendering::RenderBufferStoreAction a12)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::RTIDHandle&, ::UnityEngine::Material*, ::System::Int32, ::UnityEngine::MaterialPropertyBlock*, ::Il2CppArray<::System::String*>*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Rendering::ClearColor, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_OFFSET))(cmd, des, mat, pass, mpb, keywords, clearFlag, clearColor, cLoad, cStore, dLoad, dStore);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::RTIDHandle&, ::UnityEngine::Material*, ::System::Int32, ::UnityEngine::MaterialPropertyBlock*, ::Il2CppArray<::System::String*>*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Rendering::ClearColor, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);
 		}
 
-		static ::System::Void BlitRT_1(::UnityEngine::Rendering::CommandBuffer* cmd, ::RPG::CustomRP::RTIDHandle& src, ::RPG::CustomRP::RTIDHandle& des, ::UnityEngine::Material* mat, ::System::Int32 pass, ::UnityEngine::MaterialPropertyBlock* mpb, ::Il2CppArray<::System::String*>* keywords, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Rendering::ClearColor clearColor, ::UnityEngine::Rendering::RenderBufferLoadAction cLoad, ::UnityEngine::Rendering::RenderBufferStoreAction cStore, ::UnityEngine::Rendering::RenderBufferLoadAction dLoad, ::UnityEngine::Rendering::RenderBufferStoreAction dStore)
+		static ::System::Void BlitRT_1(::UnityEngine::Rendering::CommandBuffer* a1, ::RPG::CustomRP::RTIDHandle& a2, ::RPG::CustomRP::RTIDHandle& a3, ::UnityEngine::Material* a4, ::System::Int32 a5, ::UnityEngine::MaterialPropertyBlock* a6, ::Il2CppArray<::System::String*>* a7, ::UnityEngine::Rendering::ClearFlag a8, ::UnityEngine::Rendering::ClearColor a9, ::UnityEngine::Rendering::RenderBufferLoadAction a10, ::UnityEngine::Rendering::RenderBufferStoreAction a11, ::UnityEngine::Rendering::RenderBufferLoadAction a12, ::UnityEngine::Rendering::RenderBufferStoreAction a13)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::RTIDHandle&, ::RPG::CustomRP::RTIDHandle&, ::UnityEngine::Material*, ::System::Int32, ::UnityEngine::MaterialPropertyBlock*, ::Il2CppArray<::System::String*>*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Rendering::ClearColor, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_1_OFFSET))(cmd, src, des, mat, pass, mpb, keywords, clearFlag, clearColor, cLoad, cStore, dLoad, dStore);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::RTIDHandle&, ::RPG::CustomRP::RTIDHandle&, ::UnityEngine::Material*, ::System::Int32, ::UnityEngine::MaterialPropertyBlock*, ::Il2CppArray<::System::String*>*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Rendering::ClearColor, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13);
 		}
 
-		static ::System::Void BlitRT_2(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Int32 src, ::RPG::CustomRP::RTIDHandle& des, ::UnityEngine::Material* mat, ::System::Int32 pass, ::UnityEngine::MaterialPropertyBlock* mpb, ::Il2CppArray<::System::String*>* keywords, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Rendering::ClearColor clearColor, ::UnityEngine::Rendering::RenderBufferLoadAction cLoad, ::UnityEngine::Rendering::RenderBufferStoreAction cStore, ::UnityEngine::Rendering::RenderBufferLoadAction dLoad, ::UnityEngine::Rendering::RenderBufferStoreAction dStore)
+		static ::System::Void BlitRT_2(::UnityEngine::Rendering::CommandBuffer* a1, ::System::Int32 a2, ::RPG::CustomRP::RTIDHandle& a3, ::UnityEngine::Material* a4, ::System::Int32 a5, ::UnityEngine::MaterialPropertyBlock* a6, ::Il2CppArray<::System::String*>* a7, ::UnityEngine::Rendering::ClearFlag a8, ::UnityEngine::Rendering::ClearColor a9, ::UnityEngine::Rendering::RenderBufferLoadAction a10, ::UnityEngine::Rendering::RenderBufferStoreAction a11, ::UnityEngine::Rendering::RenderBufferLoadAction a12, ::UnityEngine::Rendering::RenderBufferStoreAction a13)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::RPG::CustomRP::RTIDHandle&, ::UnityEngine::Material*, ::System::Int32, ::UnityEngine::MaterialPropertyBlock*, ::Il2CppArray<::System::String*>*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Rendering::ClearColor, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_2_OFFSET))(cmd, src, des, mat, pass, mpb, keywords, clearFlag, clearColor, cLoad, cStore, dLoad, dStore);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::RPG::CustomRP::RTIDHandle&, ::UnityEngine::Material*, ::System::Int32, ::UnityEngine::MaterialPropertyBlock*, ::Il2CppArray<::System::String*>*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Rendering::ClearColor, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_2_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13);
 		}
 
-		static ::System::Void BlitRT_3(::UnityEngine::Rendering::CommandBuffer* cmd, ::RPG::CustomRP::RTIDHandle& src, ::System::Int32 des, ::UnityEngine::Material* mat, ::System::Int32 pass, ::UnityEngine::MaterialPropertyBlock* mpb, ::Il2CppArray<::System::String*>* keywords, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Rendering::ClearColor clearColor, ::UnityEngine::Rendering::RenderBufferLoadAction cLoad, ::UnityEngine::Rendering::RenderBufferStoreAction cStore, ::UnityEngine::Rendering::RenderBufferLoadAction dLoad, ::UnityEngine::Rendering::RenderBufferStoreAction dStore)
+		static ::System::Void BlitRT_3(::UnityEngine::Rendering::CommandBuffer* a1, ::RPG::CustomRP::RTIDHandle& a2, ::System::Int32 a3, ::UnityEngine::Material* a4, ::System::Int32 a5, ::UnityEngine::MaterialPropertyBlock* a6, ::Il2CppArray<::System::String*>* a7, ::UnityEngine::Rendering::ClearFlag a8, ::UnityEngine::Rendering::ClearColor a9, ::UnityEngine::Rendering::RenderBufferLoadAction a10, ::UnityEngine::Rendering::RenderBufferStoreAction a11, ::UnityEngine::Rendering::RenderBufferLoadAction a12, ::UnityEngine::Rendering::RenderBufferStoreAction a13)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::RTIDHandle&, ::System::Int32, ::UnityEngine::Material*, ::System::Int32, ::UnityEngine::MaterialPropertyBlock*, ::Il2CppArray<::System::String*>*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Rendering::ClearColor, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_3_OFFSET))(cmd, src, des, mat, pass, mpb, keywords, clearFlag, clearColor, cLoad, cStore, dLoad, dStore);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::RTIDHandle&, ::System::Int32, ::UnityEngine::Material*, ::System::Int32, ::UnityEngine::MaterialPropertyBlock*, ::Il2CppArray<::System::String*>*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Rendering::ClearColor, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_3_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13);
 		}
 
-		static ::System::Void BlitRT_4(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Int32 des, ::UnityEngine::Material* mat, ::System::Int32 pass, ::UnityEngine::MaterialPropertyBlock* mpb, ::Il2CppArray<::System::String*>* keywords, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Rendering::ClearColor clearColor, ::UnityEngine::Rendering::RenderBufferLoadAction cLoad, ::UnityEngine::Rendering::RenderBufferStoreAction cStore, ::UnityEngine::Rendering::RenderBufferLoadAction dLoad, ::UnityEngine::Rendering::RenderBufferStoreAction dStore)
+		static ::System::Void BlitRT_4(::UnityEngine::Rendering::CommandBuffer* a1, ::System::Int32 a2, ::UnityEngine::Material* a3, ::System::Int32 a4, ::UnityEngine::MaterialPropertyBlock* a5, ::Il2CppArray<::System::String*>* a6, ::UnityEngine::Rendering::ClearFlag a7, ::UnityEngine::Rendering::ClearColor a8, ::UnityEngine::Rendering::RenderBufferLoadAction a9, ::UnityEngine::Rendering::RenderBufferStoreAction a10, ::UnityEngine::Rendering::RenderBufferLoadAction a11, ::UnityEngine::Rendering::RenderBufferStoreAction a12)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::UnityEngine::Material*, ::System::Int32, ::UnityEngine::MaterialPropertyBlock*, ::Il2CppArray<::System::String*>*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Rendering::ClearColor, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_4_OFFSET))(cmd, des, mat, pass, mpb, keywords, clearFlag, clearColor, cLoad, cStore, dLoad, dStore);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::UnityEngine::Material*, ::System::Int32, ::UnityEngine::MaterialPropertyBlock*, ::Il2CppArray<::System::String*>*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Rendering::ClearColor, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_4_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);
 		}
 
-		static ::System::Void BlitRT_5(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Int32 src, ::System::Int32 des, ::UnityEngine::Material* mat, ::System::Int32 pass, ::UnityEngine::MaterialPropertyBlock* mpb, ::Il2CppArray<::System::String*>* keywords, ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Rendering::ClearColor clearColor, ::UnityEngine::Rendering::RenderBufferLoadAction cLoad, ::UnityEngine::Rendering::RenderBufferStoreAction cStore, ::UnityEngine::Rendering::RenderBufferLoadAction dLoad, ::UnityEngine::Rendering::RenderBufferStoreAction dStore)
+		static ::System::Void BlitRT_5(::UnityEngine::Rendering::CommandBuffer* a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::Material* a4, ::System::Int32 a5, ::UnityEngine::MaterialPropertyBlock* a6, ::Il2CppArray<::System::String*>* a7, ::UnityEngine::Rendering::ClearFlag a8, ::UnityEngine::Rendering::ClearColor a9, ::UnityEngine::Rendering::RenderBufferLoadAction a10, ::UnityEngine::Rendering::RenderBufferStoreAction a11, ::UnityEngine::Rendering::RenderBufferLoadAction a12, ::UnityEngine::Rendering::RenderBufferStoreAction a13)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::System::Int32, ::UnityEngine::Material*, ::System::Int32, ::UnityEngine::MaterialPropertyBlock*, ::Il2CppArray<::System::String*>*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Rendering::ClearColor, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_5_OFFSET))(cmd, src, des, mat, pass, mpb, keywords, clearFlag, clearColor, cLoad, cStore, dLoad, dStore);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::System::Int32, ::UnityEngine::Material*, ::System::Int32, ::UnityEngine::MaterialPropertyBlock*, ::Il2CppArray<::System::String*>*, ::UnityEngine::Rendering::ClearFlag, ::UnityEngine::Rendering::ClearColor, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_5_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13);
 		}
 
-		static ::System::Void BlitRT_6(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Int32 src, ::System::Int32 des, ::System::Boolean isRenderToRT, ::System::Boolean srgbConvertion, ::System::Boolean setRT, ::System::Int32 pass)
+		static ::System::Void BlitRT_6(::UnityEngine::Rendering::CommandBuffer* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Int32 a7)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_6_OFFSET))(cmd, src, des, isRenderToRT, srgbConvertion, setRT, pass);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_6_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Void BlitRT_7(::UnityEngine::Rendering::CommandBufferExt* cmd, ::System::Int32 src, ::System::Int32 des, ::System::Boolean isRenderToRT, ::System::Boolean srgbConvertion, ::System::Boolean setRT, ::System::Int32 pass)
+		static ::System::Void BlitRT_7(::UnityEngine::Rendering::CommandBufferExt* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Int32 a7)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBufferExt*, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_7_OFFSET))(cmd, src, des, isRenderToRT, srgbConvertion, setRT, pass);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBufferExt*, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_7_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Void BlitRT_8(::UnityEngine::Rendering::CommandBuffer* cmd, ::RPG::CustomRP::RTIDHandle& src, ::System::Int32 des, ::System::Boolean isRenderToRT, ::System::Boolean srgbConvertion, ::System::Boolean setRT, ::System::Int32 pass)
+		static ::System::Void BlitRT_8(::UnityEngine::Rendering::CommandBuffer* a1, ::RPG::CustomRP::RTIDHandle& a2, ::System::Int32 a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Int32 a7)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::RTIDHandle&, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_8_OFFSET))(cmd, src, des, isRenderToRT, srgbConvertion, setRT, pass);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::RTIDHandle&, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_8_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Void BlitRT_9(::UnityEngine::Rendering::CommandBuffer* cmd, ::RPG::CustomRP::RTIDHandle& src, ::RPG::CustomRP::RTIDHandle& des, ::System::Boolean isRenderToRT, ::System::Boolean srgbConvertion, ::System::Boolean setRT, ::System::Int32 pass)
+		static ::System::Void BlitRT_9(::UnityEngine::Rendering::CommandBuffer* a1, ::RPG::CustomRP::RTIDHandle& a2, ::RPG::CustomRP::RTIDHandle& a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Int32 a7)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::RTIDHandle&, ::RPG::CustomRP::RTIDHandle&, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_9_OFFSET))(cmd, src, des, isRenderToRT, srgbConvertion, setRT, pass);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::RTIDHandle&, ::RPG::CustomRP::RTIDHandle&, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_9_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Void BlitRT_10(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Int32 src, ::UnityEngine::RenderTexture* des, ::System::Boolean srgbConvertion, ::System::Boolean setRT, ::System::Int32 pass)
+		static ::System::Void BlitRT_10(::UnityEngine::Rendering::CommandBuffer* a1, ::System::Int32 a2, ::UnityEngine::RenderTexture* a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::UnityEngine::RenderTexture*, ::System::Boolean, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_10_OFFSET))(cmd, src, des, srgbConvertion, setRT, pass);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::UnityEngine::RenderTexture*, ::System::Boolean, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_10_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void BlitRT_11(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* des, ::System::Boolean srgbConvertion, ::System::Boolean setRT, ::System::Int32 pass)
+		static ::System::Void BlitRT_11(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::RenderTexture* a2, ::UnityEngine::RenderTexture* a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, ::System::Boolean, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_11_OFFSET))(cmd, src, des, srgbConvertion, setRT, pass);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, ::System::Boolean, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BLITRT_11_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void FlipDraw(::UnityEngine::MaterialPropertyBlock* mpb, ::System::Boolean isRenderToRT)
+		static ::System::Void FlipDraw(::UnityEngine::MaterialPropertyBlock* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::MaterialPropertyBlock*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_FLIPDRAW_OFFSET))(mpb, isRenderToRT);
+			return ((::System::Void(*)(::UnityEngine::MaterialPropertyBlock*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_FLIPDRAW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean FlipDraw_1(::UnityEngine::Material* mat, ::System::Boolean isRenderToRT)
+		static ::System::Boolean FlipDraw_1(::UnityEngine::Material* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Material*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_FLIPDRAW_1_OFFSET))(mat, isRenderToRT);
+			return ((::System::Boolean(*)(::UnityEngine::Material*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_FLIPDRAW_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void EnablePreRotation(::UnityEngine::Material* mat, ::System::Boolean enable)
+		static ::System::Void EnablePreRotation(::UnityEngine::Material* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Material*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_ENABLEPREROTATION_OFFSET))(mat, enable);
+			return ((::System::Void(*)(::UnityEngine::Material*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_ENABLEPREROTATION_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void CopyTex(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Int32 src, ::System::Int32 des)
+		static ::System::Void CopyTex(::UnityEngine::Rendering::CommandBuffer* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_COPYTEX_OFFSET))(cmd, src, des);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_COPYTEX_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void CopyTex_1(::UnityEngine::Rendering::CommandBufferExt* cmd, ::System::Int32 src, ::System::Int32 des)
+		static ::System::Void CopyTex_1(::UnityEngine::Rendering::CommandBufferExt* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBufferExt*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_COPYTEX_1_OFFSET))(cmd, src, des);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBufferExt*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_COPYTEX_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void CopyTex_2(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Int32 src, ::System::Int32 srcElement, ::System::Int32 srcMip, ::System::Int32 des, ::System::Int32 dstElement, ::System::Int32 dstMip)
+		static ::System::Void CopyTex_2(::UnityEngine::Rendering::CommandBuffer* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_COPYTEX_2_OFFSET))(cmd, src, srcElement, srcMip, des, dstElement, dstMip);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_COPYTEX_2_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Void CopyTex_3(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Int32 src, ::System::Int32 srcElement, ::System::Int32 srcMip, ::System::Int32 srcX, ::System::Int32 srcY, ::System::Int32 srcWidth, ::System::Int32 srcHeight, ::System::Int32 des, ::System::Int32 dstElement, ::System::Int32 dstMip, ::System::Int32 dstX, ::System::Int32 dstY)
+		static ::System::Void CopyTex_3(::UnityEngine::Rendering::CommandBuffer* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Int32 a9, ::System::Int32 a10, ::System::Int32 a11, ::System::Int32 a12, ::System::Int32 a13)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_COPYTEX_3_OFFSET))(cmd, src, srcElement, srcMip, srcX, srcY, srcWidth, srcHeight, des, dstElement, dstMip, dstX, dstY);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_COPYTEX_3_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13);
 		}
 
 		static ::System::Void BeginDrawRT()
@@ -662,9 +662,9 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_BEGINDRAWRT_OFFSET))();
 		}
 
-		static ::System::Void DrawRT(::UnityEngine::RenderTexture* rt, ::UnityEngine::Material* mat, ::System::Int32 pass)
+		static ::System::Void DrawRT(::UnityEngine::RenderTexture* a1, ::UnityEngine::Material* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::RenderTexture*, ::UnityEngine::Material*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_DRAWRT_OFFSET))(rt, mat, pass);
+			return ((::System::Void(*)(::UnityEngine::RenderTexture*, ::UnityEngine::Material*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_DRAWRT_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Void EndDrawRT()
@@ -672,14 +672,14 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_ENDDRAWRT_OFFSET))();
 		}
 
-		static ::System::Void SaveTex(::Unity::Collections::NativeArray_1<::System::Byte>& data, ::System::Int32 width, ::System::Int32 height, ::RPG::CustomRP::TexType texType, ::System::String* path)
+		static ::System::Void SaveTex(::Unity::Collections::NativeArray_1<::System::Byte>& a1, ::System::Int32 a2, ::System::Int32 a3, ::RPG::CustomRP::TexType a4, ::System::String* a5)
 		{
-			return ((::System::Void(*)(::Unity::Collections::NativeArray_1<::System::Byte>&, ::System::Int32, ::System::Int32, ::RPG::CustomRP::TexType, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SAVETEX_OFFSET))(data, width, height, texType, path);
+			return ((::System::Void(*)(::Unity::Collections::NativeArray_1<::System::Byte>&, ::System::Int32, ::System::Int32, ::RPG::CustomRP::TexType, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SAVETEX_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void SaveTex_1(::Il2CppArray<::System::Byte>* data, ::System::Int32 width, ::System::Int32 height, ::RPG::CustomRP::TexType texType, ::System::String* path)
+		static ::System::Void SaveTex_1(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::RPG::CustomRP::TexType a4, ::System::String* a5)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::RPG::CustomRP::TexType, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SAVETEX_1_OFFSET))(data, width, height, texType, path);
+			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::RPG::CustomRP::TexType, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_SAVETEX_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::System::Collections::Generic::IEnumerable_1<::System::Type*>* GetAllAssemblyTypes()
@@ -687,24 +687,24 @@ namespace RPG::CustomRP
 			return ((::System::Collections::Generic::IEnumerable_1<::System::Type*>*(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETALLASSEMBLYTYPES_OFFSET))();
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::System::Type*>* GetAssemblyType(::System::Type* type, ::System::String* interfaceName)
+		static ::System::Collections::Generic::IEnumerable_1<::System::Type*>* GetAssemblyType(::System::Type* a1, ::System::String* a2)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Type*>*(*)(::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETASSEMBLYTYPE_OFFSET))(type, interfaceName);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Type*>*(*)(::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETASSEMBLYTYPE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Type* GetAssemblyType_1(::System::String* type)
+		static ::System::Type* GetAssemblyType_1(::System::String* a1)
 		{
-			return ((::System::Type*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETASSEMBLYTYPE_1_OFFSET))(type);
+			return ((::System::Type*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETASSEMBLYTYPE_1_OFFSET))(a1);
 		}
 
-		static ::System::Type* GetAssemblyTypeFullName(::System::String* type)
+		static ::System::Type* GetAssemblyTypeFullName(::System::String* a1)
 		{
-			return ((::System::Type*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETASSEMBLYTYPEFULLNAME_OFFSET))(type);
+			return ((::System::Type*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_GETASSEMBLYTYPEFULLNAME_OFFSET))(a1);
 		}
 
-		static ::System::Object* CallFunction(::System::Type* type, ::System::String* function, ::System::Boolean isStatic, ::System::Boolean isPrivate, ::System::Boolean isInstance, ::System::Object* obj, ::Il2CppArray<::System::Object*>* parameters)
+		static ::System::Object* CallFunction(::System::Type* a1, ::System::String* a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Object* a6, ::Il2CppArray<::System::Object*>* a7)
 		{
-			return ((::System::Object*(*)(::System::Type*, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Object*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_CALLFUNCTION_OFFSET))(type, function, isStatic, isPrivate, isInstance, obj, parameters);
+			return ((::System::Object*(*)(::System::Type*, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Object*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY_CALLFUNCTION_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 	};
 }

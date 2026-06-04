@@ -4,32 +4,32 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_LINQ_XDECLARATION_GET_ENCODING_OFFSET UNITYSDK_OFFSET(0x1A633BA0)
-#define SYSTEM_XML_LINQ_XDECLARATION_GET_STANDALONE_OFFSET UNITYSDK_OFFSET(0x1A633BB0)
-#define SYSTEM_XML_LINQ_XDECLARATION_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1A633BC0)
-#define SYSTEM_XML_LINQ_XDECLARATION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A633BD0)
-#define SYSTEM_XML_LINQ_XDECLARATION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A633B20)
-#define SYSTEM_XML_LINQ_XDECLARATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A633B10)
+#define SYSTEM_XML_LINQ_XDECLARATION_GET_ENCODING_OFFSET UNITYSDK_OFFSET(0x1B43DFA0)
+#define SYSTEM_XML_LINQ_XDECLARATION_GET_STANDALONE_OFFSET UNITYSDK_OFFSET(0x1B43DFB0)
+#define SYSTEM_XML_LINQ_XDECLARATION_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1B43DFC0)
+#define SYSTEM_XML_LINQ_XDECLARATION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B43DFD0)
+#define SYSTEM_XML_LINQ_XDECLARATION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B43DF20)
+#define SYSTEM_XML_LINQ_XDECLARATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B43DF10)
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XDeclaration_TypeDefinitionIndex = 4926;
+	inline static constexpr unsigned int XDeclaration_TypeDefinitionIndex = 3893;
 
 	class XDeclaration : public ::System::Object
 	{
 	public:
-		::System::String* encoding; // 0x10
-		::System::String* version; // 0x18
+		::System::String* version; // 0x10
+		::System::String* encoding; // 0x18
 		::System::String* standalone; // 0x20
 
-		::System::Void _ctor(::System::String* version, ::System::String* encoding, ::System::String* standalone)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XDECLARATION__CTOR_OFFSET))(this, version, encoding, standalone);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XDECLARATION__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _ctor_1(::System::Xml::Linq::XDeclaration* other)
+		::System::Void _ctor_1(::System::Xml::Linq::XDeclaration* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XDeclaration*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XDECLARATION__CTOR_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XDeclaration*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XDECLARATION__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Encoding()

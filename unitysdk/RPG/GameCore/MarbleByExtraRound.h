@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEBYEXTRAROUND_METHOD_4_29E6C94AF86B2192_OFFSET UNITYSDK_OFFSET(0x18FE97D0)
-#define RPG_GAMECORE_MARBLEBYEXTRAROUND_METHOD_4_610DB39EF786CA98_OFFSET UNITYSDK_OFFSET(0x18FE96F0)
-#define RPG_GAMECORE_MARBLEBYEXTRAROUND__CTOR_OFFSET UNITYSDK_OFFSET(0x18FE9780)
+#define RPG_GAMECORE_MARBLEBYEXTRAROUND_METHOD_4_14457676981201E0_OFFSET UNITYSDK_OFFSET(0x19C33740)
+#define RPG_GAMECORE_MARBLEBYEXTRAROUND_METHOD_4_271D318A92D22716_OFFSET UNITYSDK_OFFSET(0x19C33660)
+#define RPG_GAMECORE_MARBLEBYEXTRAROUND__CTOR_OFFSET UNITYSDK_OFFSET(0x19C336F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleByExtraRound_TypeDefinitionIndex = 15984;
+	inline static constexpr unsigned int MarbleByExtraRound_TypeDefinitionIndex = 16034;
 
 	class MarbleByExtraRound : public ::RPG::GameCore::MarblePredicateConfig
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYEXTRAROUND__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_610DB39EF786CA98(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByExtraRound*& a2)
+		static ::System::Void Method_4_271D318A92D22716(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByExtraRound*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByExtraRound*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYEXTRAROUND_METHOD_4_610DB39EF786CA98_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByExtraRound*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYEXTRAROUND_METHOD_4_271D318A92D22716_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_29E6C94AF86B2192(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByExtraRound* a2)
+		static ::System::Void Method_4_14457676981201E0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByExtraRound* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByExtraRound*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYEXTRAROUND_METHOD_4_29E6C94AF86B2192_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByExtraRound*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYEXTRAROUND_METHOD_4_14457676981201E0_OFFSET))(a1, a2);
 		}
 	};
 }

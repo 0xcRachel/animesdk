@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCheckIsLimboRevivable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E8FFFD6578CC58C9_EVALUATE_OFFSET UNITYSDK_OFFSET(0x155C7F60)
-#define CLASS_3_E8FFFD6578CC58C9__CTOR_OFFSET UNITYSDK_OFFSET(0x155C7F30)
+#define CLASS_3_E8FFFD6578CC58C9_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16A69990)
+#define CLASS_3_E8FFFD6578CC58C9__CTOR_OFFSET UNITYSDK_OFFSET(0x16A69960)
 
-inline static constexpr unsigned int Class_3_E8FFFD6578CC58C9_TypeDefinitionIndex = 50276;
+inline static constexpr unsigned int Class_3_E8FFFD6578CC58C9_TypeDefinitionIndex = 50941;
 
 class Class_3_E8FFFD6578CC58C9 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCheckIsLimboRevivable*>
 {

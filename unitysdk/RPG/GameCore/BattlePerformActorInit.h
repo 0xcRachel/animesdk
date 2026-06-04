@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEPERFORMACTORINIT_METHOD_2_46C6E40D2A604B77_OFFSET UNITYSDK_OFFSET(0x187B0160)
-#define RPG_GAMECORE_BATTLEPERFORMACTORINIT__CTOR_OFFSET UNITYSDK_OFFSET(0x187B0280)
+#define RPG_GAMECORE_BATTLEPERFORMACTORINIT_METHOD_2_46C6E40D2A604B77_OFFSET UNITYSDK_OFFSET(0x195D2100)
+#define RPG_GAMECORE_BATTLEPERFORMACTORINIT__CTOR_OFFSET UNITYSDK_OFFSET(0x195D2220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePerformActorInit_TypeDefinitionIndex = 17246;
+	inline static constexpr unsigned int BattlePerformActorInit_TypeDefinitionIndex = 17254;
 
 	class BattlePerformActorInit : public ::RPG::GameCore::JsonConfig
 	{

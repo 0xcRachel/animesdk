@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_4F793F2BF173A91F;
-class Class_1_F65FD1783A40C6D8;
+class Class_1_CE84D8E232AFC277;
+class Class_1_F08EB77E19F16C2C;
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_GAMEPHASE_GET__GAMECONTEXT_OFFSET UNITYSDK_OFFSET(0x17CAE2C0)
-#define RPG_CLIENT_CHENLINGBATTLE_GAMEPHASE_GET__NETWORKSERVICE_OFFSET UNITYSDK_OFFSET(0x17CAE430)
-#define RPG_CLIENT_CHENLINGBATTLE_GAMEPHASE_SENDMESSAGE__OFFSET UNITYSDK_OFFSET(0x17CAE310)
-#define RPG_CLIENT_CHENLINGBATTLE_GAMEPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0x17CAE2B0)
+#define RPG_CLIENT_CHENLINGBATTLE_GAMEPHASE_GET__GAMECONTEXT_OFFSET UNITYSDK_OFFSET(0x18DC6340)
+#define RPG_CLIENT_CHENLINGBATTLE_GAMEPHASE_GET__NETWORKSERVICE_OFFSET UNITYSDK_OFFSET(0x18DC64C0)
+#define RPG_CLIENT_CHENLINGBATTLE_GAMEPHASE_SENDMESSAGE__OFFSET UNITYSDK_OFFSET(0x18DC6390)
+#define RPG_CLIENT_CHENLINGBATTLE_GAMEPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0x18DC6330)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int GamePhase_TypeDefinitionIndex = 70055;
+	inline static constexpr unsigned int GamePhase_TypeDefinitionIndex = 70867;
 
 	class GamePhase : public ::System::Object
 	{
 	public:
-		::Class_1_F65FD1783A40C6D8* _PhaseManager; // 0x10
+		::Class_1_CE84D8E232AFC277* _PhaseManager; // 0x10
 
-		::System::Void _ctor(::Class_1_F65FD1783A40C6D8* phaseManager)
+		::System::Void _ctor(::Class_1_CE84D8E232AFC277* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_F65FD1783A40C6D8*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_GAMEPHASE__CTOR_OFFSET))(this, phaseManager);
+			return ((::System::Void(*)(::PVOID, ::Class_1_CE84D8E232AFC277*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_GAMEPHASE__CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* get__GameContext()
@@ -31,14 +31,14 @@ namespace RPG::Client::ChenLingBattle
 			return ((::RPG::Client::ChenLingBattle::ChenLingBattleGameContext*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_GAMEPHASE_GET__GAMECONTEXT_OFFSET))(this);
 		}
 
-		::System::Void SendMessage_(::System::Int32 message, ::System::Object* obj)
+		::System::Void SendMessage_(::System::Int32 a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_GAMEPHASE_SENDMESSAGE__OFFSET))(this, message, obj);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_GAMEPHASE_SENDMESSAGE__OFFSET))(this, a1, a2);
 		}
 
-		::Class_1_4F793F2BF173A91F* get__NetworkService()
+		::Class_1_F08EB77E19F16C2C* get__NetworkService()
 		{
-			return ((::Class_1_4F793F2BF173A91F*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_GAMEPHASE_GET__NETWORKSERVICE_OFFSET))(this);
+			return ((::Class_1_F08EB77E19F16C2C*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_GAMEPHASE_GET__NETWORKSERVICE_OFFSET))(this);
 		}
 	};
 }

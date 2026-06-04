@@ -4,15 +4,15 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_2_6E7864BF06C083B9;
+class Class_2_0FB6F5068D635FD7;
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define EFFECT_LIQUIDPERINSDATA_AWAKE_OFFSET UNITYSDK_OFFSET(0xC31C640)
-#define EFFECT_LIQUIDPERINSDATA_START_OFFSET UNITYSDK_OFFSET(0xC31C720)
-#define EFFECT_LIQUIDPERINSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC31C770)
+#define EFFECT_LIQUIDPERINSDATA_AWAKE_OFFSET UNITYSDK_OFFSET(0x13BAA770)
+#define EFFECT_LIQUIDPERINSDATA_START_OFFSET UNITYSDK_OFFSET(0x13BAA850)
+#define EFFECT_LIQUIDPERINSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13BAA8A0)
 
-inline static constexpr unsigned int Effect_LiquidPerInsData_TypeDefinitionIndex = 44202;
+inline static constexpr unsigned int Effect_LiquidPerInsData_TypeDefinitionIndex = 44748;
 
 class Effect_LiquidPerInsData : public ::UnityEngine::MonoBehaviour
 {
@@ -25,7 +25,7 @@ public:
 	::System::Single SurfaceFoamMaskScale; // 0x50
 	::UnityEngine::MaterialPropertyBlock* MatBlock; // 0x58
 	::System::Boolean IsInit; // 0x60
-	::Class_2_6E7864BF06C083B9* Field_5_8; // 0x68
+	::Class_2_0FB6F5068D635FD7* Field_5_8; // 0x68
 
 	::System::Void _ctor()
 	{

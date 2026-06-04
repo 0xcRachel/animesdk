@@ -6,21 +6,21 @@ namespace MiHoYo::SDK { class MiHoYoSDKBrowser; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define MIHOYO_SDK_MIHOYOSDKBROWSERMANAGER_CREATEBROWSER_OFFSET UNITYSDK_OFFSET(0x1727BE40)
-#define MIHOYO_SDK_MIHOYOSDKBROWSERMANAGER_DESTORY_OFFSET UNITYSDK_OFFSET(0x1727BF50)
-#define MIHOYO_SDK_MIHOYOSDKBROWSERMANAGER_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1727BDC0)
-#define MIHOYO_SDK_MIHOYOSDKBROWSERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1727BE30)
+#define MIHOYO_SDK_MIHOYOSDKBROWSERMANAGER_CREATEBROWSER_OFFSET UNITYSDK_OFFSET(0x193B5B00)
+#define MIHOYO_SDK_MIHOYOSDKBROWSERMANAGER_DESTORY_OFFSET UNITYSDK_OFFSET(0x193B5C10)
+#define MIHOYO_SDK_MIHOYOSDKBROWSERMANAGER_INSTANCE_OFFSET UNITYSDK_OFFSET(0x193B5A80)
+#define MIHOYO_SDK_MIHOYOSDKBROWSERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x193B5AF0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKBrowserManager_TypeDefinitionIndex = 43071;
+	inline static constexpr unsigned int MiHoYoSDKBrowserManager_TypeDefinitionIndex = 43874;
 
 	class MiHoYoSDKBrowserManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::MiHoYoSDKBrowserManager** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::MiHoYoSDKBrowserManager**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKBrowserManager_TypeDefinitionIndex)->GetStaticField(0x4CF10);
+			return (::MiHoYo::SDK::MiHoYoSDKBrowserManager**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKBrowserManager_TypeDefinitionIndex)->GetStaticField(0xDA90);
 		}
 		// static const ::System::String* BrowserPath; // 0x0
 
@@ -34,14 +34,14 @@ namespace MiHoYo::SDK
 			return ((::MiHoYo::SDK::MiHoYoSDKBrowserManager*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKBROWSERMANAGER_INSTANCE_OFFSET))();
 		}
 
-		::MiHoYo::SDK::MiHoYoSDKBrowser* CreateBrowser(::UnityEngine::Transform* transform)
+		::MiHoYo::SDK::MiHoYoSDKBrowser* CreateBrowser(::UnityEngine::Transform* a1)
 		{
-			return ((::MiHoYo::SDK::MiHoYoSDKBrowser*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKBROWSERMANAGER_CREATEBROWSER_OFFSET))(this, transform);
+			return ((::MiHoYo::SDK::MiHoYoSDKBrowser*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKBROWSERMANAGER_CREATEBROWSER_OFFSET))(this, a1);
 		}
 
-		::System::Void Destory(::MiHoYo::SDK::MiHoYoSDKBrowser* browser)
+		::System::Void Destory(::MiHoYo::SDK::MiHoYoSDKBrowser* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKBrowser*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKBROWSERMANAGER_DESTORY_OFFSET))(this, browser);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKBrowser*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKBROWSERMANAGER_DESTORY_OFFSET))(this, a1);
 		}
 	};
 }

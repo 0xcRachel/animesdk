@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRIGGERROGUESELECTLIMITEDAVATAR_METHOD_3_182F9E025CE46305_OFFSET UNITYSDK_OFFSET(0x1911E300)
-#define RPG_GAMECORE_TRIGGERROGUESELECTLIMITEDAVATAR_METHOD_3_FC9B094E5F1937ED_OFFSET UNITYSDK_OFFSET(0x1911E280)
-#define RPG_GAMECORE_TRIGGERROGUESELECTLIMITEDAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1911E2D0)
+#define RPG_GAMECORE_TRIGGERROGUESELECTLIMITEDAVATAR_METHOD_3_A8E76D00FDDC54E3_OFFSET UNITYSDK_OFFSET(0x19A4D600)
+#define RPG_GAMECORE_TRIGGERROGUESELECTLIMITEDAVATAR_METHOD_3_C05B3A7FCC0B0DA3_OFFSET UNITYSDK_OFFSET(0x19A4D580)
+#define RPG_GAMECORE_TRIGGERROGUESELECTLIMITEDAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x19A4D5D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerRogueSelectLimitedAvatar_TypeDefinitionIndex = 21145;
+	inline static constexpr unsigned int TriggerRogueSelectLimitedAvatar_TypeDefinitionIndex = 21045;
 
 	class TriggerRogueSelectLimitedAvatar : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERROGUESELECTLIMITEDAVATAR__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FC9B094E5F1937ED(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerRogueSelectLimitedAvatar*& a2)
+		static ::System::Void Method_3_C05B3A7FCC0B0DA3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerRogueSelectLimitedAvatar*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerRogueSelectLimitedAvatar*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERROGUESELECTLIMITEDAVATAR_METHOD_3_FC9B094E5F1937ED_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerRogueSelectLimitedAvatar*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERROGUESELECTLIMITEDAVATAR_METHOD_3_C05B3A7FCC0B0DA3_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_182F9E025CE46305(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerRogueSelectLimitedAvatar* a2)
+		static ::System::Void Method_3_A8E76D00FDDC54E3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerRogueSelectLimitedAvatar* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerRogueSelectLimitedAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERROGUESELECTLIMITEDAVATAR_METHOD_3_182F9E025CE46305_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerRogueSelectLimitedAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERROGUESELECTLIMITEDAVATAR_METHOD_3_A8E76D00FDDC54E3_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,17 +5,17 @@
 namespace Epic::OnlineServices { class ProductUserId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19688BE0)
-#define EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS_GET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x19688BC0)
-#define EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x19688C00)
-#define EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x19688BF0)
-#define EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS_SET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x19688BD0)
-#define EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x19688C10)
-#define EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19688C20)
+#define EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A45FA10)
+#define EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS_GET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x1A45F9F0)
+#define EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x1A45FA30)
+#define EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A45FA20)
+#define EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS_SET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x1A45FA00)
+#define EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x1A45FA40)
+#define EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A45FA50)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int SendInviteOptions_TypeDefinitionIndex = 41321;
+	inline static constexpr unsigned int SendInviteOptions_TypeDefinitionIndex = 42124;
 
 	class SendInviteOptions : public ::System::Object
 	{
@@ -34,9 +34,9 @@ namespace Epic::OnlineServices::Sessions
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS_GET_SESSIONNAME_OFFSET))(this);
 		}
 
-		::System::Void set_SessionName(::System::String* value)
+		::System::Void set_SessionName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS_SET_SESSIONNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS_SET_SESSIONNAME_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ProductUserId* get_LocalUserId()
@@ -44,9 +44,9 @@ namespace Epic::OnlineServices::Sessions
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ProductUserId* get_TargetUserId()
@@ -54,9 +54,9 @@ namespace Epic::OnlineServices::Sessions
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS_GET_TARGETUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS_SET_TARGETUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SENDINVITEOPTIONS_SET_TARGETUSERID_OFFSET))(this, a1);
 		}
 	};
 }

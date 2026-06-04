@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_709;
+class Class_0_16E4307DCC419505_760;
 namespace RPG::Client::NavMap { class ICartographer; }
 
-#define RPG_CLIENT_FINDCHESTMODULE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15125AD0)
-#define RPG_CLIENT_FINDCHESTMODULE___C__DISPLAYCLASS4_0__TRIGGERFINDCHEST_B__0_OFFSET UNITYSDK_OFFSET(0x15127610)
+#define RPG_CLIENT_FINDCHESTMODULE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16B8CEC0)
+#define RPG_CLIENT_FINDCHESTMODULE___C__DISPLAYCLASS4_0__TRIGGERFINDCHEST_B__0_OFFSET UNITYSDK_OFFSET(0x16B8EB70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FindChestModule___c__DisplayClass4_0_TypeDefinitionIndex = 59068;
+	inline static constexpr unsigned int FindChestModule___c__DisplayClass4_0_TypeDefinitionIndex = 59998;
 
 	class FindChestModule___c__DisplayClass4_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FINDCHESTMODULE___C__DISPLAYCLASS4_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _TriggerFindChest_b__0(::Class_0_16E4307DCC419505_709* x, ::Class_0_16E4307DCC419505_709* y)
+		::System::Int32 _TriggerFindChest_b__0(::Class_0_16E4307DCC419505_760* a1, ::Class_0_16E4307DCC419505_760* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_0_16E4307DCC419505_709*, ::Class_0_16E4307DCC419505_709*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FINDCHESTMODULE___C__DISPLAYCLASS4_0__TRIGGERFINDCHEST_B__0_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::Class_0_16E4307DCC419505_760*, ::Class_0_16E4307DCC419505_760*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FINDCHESTMODULE___C__DISPLAYCLASS4_0__TRIGGERFINDCHEST_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

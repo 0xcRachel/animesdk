@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class TeamData; }
 
-#define RPG_CLIENT_TEAMMODULE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1054AF80)
-#define RPG_CLIENT_TEAMMODULE___C__DISPLAYCLASS7_0__GETMAINLINETEAM_B__0_OFFSET UNITYSDK_OFFSET(0x10556D60)
+#define RPG_CLIENT_TEAMMODULE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x141ECBE0)
+#define RPG_CLIENT_TEAMMODULE___C__DISPLAYCLASS7_0__GETMAINLINETEAM_B__0_OFFSET UNITYSDK_OFFSET(0x141F8A60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamModule___c__DisplayClass7_0_TypeDefinitionIndex = 62814;
+	inline static constexpr unsigned int TeamModule___c__DisplayClass7_0_TypeDefinitionIndex = 63748;
 
 	class TeamModule___c__DisplayClass7_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMODULE___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetMainlineTeam_b__0(::RPG::Client::TeamData* team)
+		::System::Boolean _GetMainlineTeam_b__0(::RPG::Client::TeamData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::TeamData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMODULE___C__DISPLAYCLASS7_0__GETMAINLINETEAM_B__0_OFFSET))(this, team);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::TeamData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMODULE___C__DISPLAYCLASS7_0__GETMAINLINETEAM_B__0_OFFSET))(this, a1);
 		}
 	};
 }

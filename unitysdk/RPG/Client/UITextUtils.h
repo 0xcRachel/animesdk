@@ -10,6 +10,7 @@
 namespace RPG::Client { class UITextUtils_RemainTimeUnitTextPalette; }
 namespace System { class String; }
 namespace System::Collections { class BitArray; }
+namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
@@ -17,72 +18,72 @@ namespace System::Text::RegularExpressions { class Regex; }
 namespace UnityEngine { class TextGenerator; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_UITEXTUTILS_CONVERTCHINESECH_OFFSET UNITYSDK_OFFSET(0x1597BC10)
-#define RPG_CLIENT_UITEXTUTILS_DOSEARCHSTRING_OFFSET UNITYSDK_OFFSET(0x1597BB30)
-#define RPG_CLIENT_UITEXTUTILS_GETREMAINTIMETEXTWITHATMOSTTWOFULLNAMEUNITS_OFFSET UNITYSDK_OFFSET(0x1597C0C0)
-#define RPG_CLIENT_UITEXTUTILS_GETREMAINTIMETEXT_OFFSET UNITYSDK_OFFSET(0x1597BC50)
-#define RPG_CLIENT_UITEXTUTILS_GETROMANNUMBERTEXTID_OFFSET UNITYSDK_OFFSET(0x1597C170)
-#define RPG_CLIENT_UITEXTUTILS_WRAP_OFFSET UNITYSDK_OFFSET(0x1597B400)
-#define RPG_CLIENT_UITEXTUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1597D970)
-#define RPG_CLIENT_UITEXTUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x1597D960)
-#define RPG_CLIENT_UITEXTUTILS__GENERATESTRINGINDEXTOBODYHEADINDEXMAP_OFFSET UNITYSDK_OFFSET(0x1597C820)
-#define RPG_CLIENT_UITEXTUTILS__GETNEWLINEINDEXWITHCOMPLETEBODY_OFFSET UNITYSDK_OFFSET(0x1597D300)
-#define RPG_CLIENT_UITEXTUTILS__GETNEWLINEINDEXWITHLEGALHEAD_OFFSET UNITYSDK_OFFSET(0x1597D3B0)
-#define RPG_CLIENT_UITEXTUTILS__GETWRAPPEDTEXTCONTENT_OFFSET UNITYSDK_OFFSET(0x1597CE40)
-#define RPG_CLIENT_UITEXTUTILS__INITTEXTADJUSTEDCONFIG_OFFSET UNITYSDK_OFFSET(0x1597B660)
-#define RPG_CLIENT_UITEXTUTILS__ISHEADOFBODY_OFFSET UNITYSDK_OFFSET(0x1597D8D0)
-#define RPG_CLIENT_UITEXTUTILS__POPULATENEWLINES_OFFSET UNITYSDK_OFFSET(0x1597D640)
-#define RPG_CLIENT_UITEXTUTILS__RESETTEXTCOLOR_OFFSET UNITYSDK_OFFSET(0x1597C640)
-#define RPG_CLIENT_UITEXTUTILS__SETSTRINGINDEXTOBODYHEADINDEXMAP_OFFSET UNITYSDK_OFFSET(0x1597D7B0)
-#define RPG_CLIENT_UITEXTUTILS__SETTEXTINVISIBLE_OFFSET UNITYSDK_OFFSET(0x1597B9D0)
-#define RPG_CLIENT_UITEXTUTILS__SETTEXTWRAPPED_OFFSET UNITYSDK_OFFSET(0x1597C220)
+#define RPG_CLIENT_UITEXTUTILS_CONVERTCHINESECH_OFFSET UNITYSDK_OFFSET(0x14B9E400)
+#define RPG_CLIENT_UITEXTUTILS_DOSEARCHSTRING_OFFSET UNITYSDK_OFFSET(0x14B9E340)
+#define RPG_CLIENT_UITEXTUTILS_GETREMAINTIMETEXTWITHATMOSTTWOFULLNAMEUNITS_OFFSET UNITYSDK_OFFSET(0x14B9E8B0)
+#define RPG_CLIENT_UITEXTUTILS_GETREMAINTIMETEXT_OFFSET UNITYSDK_OFFSET(0x14B9E440)
+#define RPG_CLIENT_UITEXTUTILS_GETROMANNUMBERTEXTID_OFFSET UNITYSDK_OFFSET(0x14B9E960)
+#define RPG_CLIENT_UITEXTUTILS_WRAP_OFFSET UNITYSDK_OFFSET(0x14B9DC10)
+#define RPG_CLIENT_UITEXTUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x14BA0030)
+#define RPG_CLIENT_UITEXTUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x14BA0020)
+#define RPG_CLIENT_UITEXTUTILS__GENERATESTRINGINDEXTOBODYHEADINDEXMAP_OFFSET UNITYSDK_OFFSET(0x14B9F000)
+#define RPG_CLIENT_UITEXTUTILS__GETNEWLINEINDEXWITHCOMPLETEBODY_OFFSET UNITYSDK_OFFSET(0x14B9F9A0)
+#define RPG_CLIENT_UITEXTUTILS__GETNEWLINEINDEXWITHLEGALHEAD_OFFSET UNITYSDK_OFFSET(0x14B9FA50)
+#define RPG_CLIENT_UITEXTUTILS__GETWRAPPEDTEXTCONTENT_OFFSET UNITYSDK_OFFSET(0x14B9F4E0)
+#define RPG_CLIENT_UITEXTUTILS__INITTEXTADJUSTEDCONFIG_OFFSET UNITYSDK_OFFSET(0x14B9DE80)
+#define RPG_CLIENT_UITEXTUTILS__ISHEADOFBODY_OFFSET UNITYSDK_OFFSET(0x14B9FF90)
+#define RPG_CLIENT_UITEXTUTILS__POPULATENEWLINES_OFFSET UNITYSDK_OFFSET(0x14B9FD00)
+#define RPG_CLIENT_UITEXTUTILS__RESETTEXTCOLOR_OFFSET UNITYSDK_OFFSET(0x14B9EE30)
+#define RPG_CLIENT_UITEXTUTILS__SETSTRINGINDEXTOBODYHEADINDEXMAP_OFFSET UNITYSDK_OFFSET(0x14B9FE70)
+#define RPG_CLIENT_UITEXTUTILS__SETTEXTINVISIBLE_OFFSET UNITYSDK_OFFSET(0x14B9E1A0)
+#define RPG_CLIENT_UITEXTUTILS__SETTEXTWRAPPED_OFFSET UNITYSDK_OFFSET(0x14B9EA10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UITextUtils_TypeDefinitionIndex = 67390;
+	inline static constexpr unsigned int UITextUtils_TypeDefinitionIndex = 68342;
 
 	class UITextUtils : public ::System::Object
 	{
 	public:
-		static ::System::Collections::BitArray** StaticGet__StringIndexToBodyHeadIndex()
+		static ::UnityEngine::TextGenerator** StaticGet__TextGenerator()
 		{
-			return (::System::Collections::BitArray**)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_TypeDefinitionIndex)->GetStaticField(0x5BC30);
-		}
-		static ::UnityEngine::TextGenerationSettings* StaticGet__TextSetting()
-		{
-			return (::UnityEngine::TextGenerationSettings*)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_TypeDefinitionIndex)->GetStaticField(0x5BC38);
-		}
-		static ::System::Text::StringBuilder** StaticGet__TextStringBuilder()
-		{
-			return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_TypeDefinitionIndex)->GetStaticField(0x5BCA0);
+			return (::UnityEngine::TextGenerator**)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_TypeDefinitionIndex)->GetStaticField(0x5A960);
 		}
 		static ::System::String** StaticGet__AvoidAtStartLineCharacters()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_TypeDefinitionIndex)->GetStaticField(0x5BCA8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_TypeDefinitionIndex)->GetStaticField(0x5A968);
 		}
-		static ::UnityEngine::TextGenerator** StaticGet__TextGenerator()
+		static ::System::Text::StringBuilder** StaticGet__TextStringBuilder()
 		{
-			return (::UnityEngine::TextGenerator**)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_TypeDefinitionIndex)->GetStaticField(0x5BCB0);
+			return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_TypeDefinitionIndex)->GetStaticField(0x5A970);
 		}
 		static ::Il2CppArray<::System::Text::RegularExpressions::Regex*>** StaticGet__Regexs()
 		{
-			return (::Il2CppArray<::System::Text::RegularExpressions::Regex*>**)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_TypeDefinitionIndex)->GetStaticField(0x5BCB8);
+			return (::Il2CppArray<::System::Text::RegularExpressions::Regex*>**)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_TypeDefinitionIndex)->GetStaticField(0x5A978);
+		}
+		static ::UnityEngine::TextGenerationSettings* StaticGet__TextSetting()
+		{
+			return (::UnityEngine::TextGenerationSettings*)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_TypeDefinitionIndex)->GetStaticField(0x5A980);
+		}
+		static ::System::Collections::BitArray** StaticGet__StringIndexToBodyHeadIndex()
+		{
+			return (::System::Collections::BitArray**)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_TypeDefinitionIndex)->GetStaticField(0x5A9E8);
 		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::Color>** StaticGet__OriginalColors()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_TypeDefinitionIndex)->GetStaticField(0x5BCC0);
-		}
-		static ::System::Int32* StaticGet__BitmapLenth()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_TypeDefinitionIndex)->GetStaticField(0xF950);
-		}
-		static ::System::Int32* StaticGet__Offset()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_TypeDefinitionIndex)->GetStaticField(0xF954);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_TypeDefinitionIndex)->GetStaticField(0x5A9F0);
 		}
 		static ::UnityEngine::Color* StaticGet__INVISIBLE_COLOR()
 		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_TypeDefinitionIndex)->GetStaticField(0xF958);
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_TypeDefinitionIndex)->GetStaticField(0xFFF0);
+		}
+		static ::System::Int32* StaticGet__BitmapLenth()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_TypeDefinitionIndex)->GetStaticField(0x10000);
+		}
+		static ::System::Int32* StaticGet__Offset()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UITextUtils_TypeDefinitionIndex)->GetStaticField(0x10004);
 		}
 		// static const ::System::Char _NEWLINE_CHARACTER; // 0x0
 		// static const ::System::String* _CHINESE_TEXT_LANGUAGE; // 0x0
@@ -101,34 +102,34 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS__CCTOR_OFFSET))();
 		}
 
-		static ::System::Void Wrap(::UnityEngine::UI::Text* reformatText)
+		static ::System::Void Wrap(::UnityEngine::UI::Text* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::UI::Text*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS_WRAP_OFFSET))(reformatText);
+			return ((::System::Void(*)(::UnityEngine::UI::Text*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS_WRAP_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::System::Int32>* DoSearchString(::System::String* origin, ::System::String* pattern)
+		static ::Il2CppArray<::System::Int32>* DoSearchString(::System::String* a1, ::System::String* a2)
 		{
-			return ((::Il2CppArray<::System::Int32>*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS_DOSEARCHSTRING_OFFSET))(origin, pattern);
+			return ((::Il2CppArray<::System::Int32>*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS_DOSEARCHSTRING_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* ConvertChineseCh(::System::String* originText)
+		static ::System::String* ConvertChineseCh(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS_CONVERTCHINESECH_OFFSET))(originText);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS_CONVERTCHINESECH_OFFSET))(a1);
 		}
 
-		static ::System::String* GetRemainTimeText(::System::TimeSpan remainTime, ::RPG::Client::UITextUtils_RemainTimeUnitTextPalette* textPalette, ::System::Int32 maxUnitCount)
+		static ::System::String* GetRemainTimeText(::System::TimeSpan a1, ::RPG::Client::UITextUtils_RemainTimeUnitTextPalette* a2, ::System::Int32 a3)
 		{
-			return ((::System::String*(*)(::System::TimeSpan, ::RPG::Client::UITextUtils_RemainTimeUnitTextPalette*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS_GETREMAINTIMETEXT_OFFSET))(remainTime, textPalette, maxUnitCount);
+			return ((::System::String*(*)(::System::TimeSpan, ::RPG::Client::UITextUtils_RemainTimeUnitTextPalette*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS_GETREMAINTIMETEXT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* GetRemainTimeTextWithAtMostTwoFullnameUnits(::System::TimeSpan remainTime)
+		static ::System::String* GetRemainTimeTextWithAtMostTwoFullnameUnits(::System::TimeSpan a1)
 		{
-			return ((::System::String*(*)(::System::TimeSpan))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS_GETREMAINTIMETEXTWITHATMOSTTWOFULLNAMEUNITS_OFFSET))(remainTime);
+			return ((::System::String*(*)(::System::TimeSpan))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS_GETREMAINTIMETEXTWITHATMOSTTWOFULLNAMEUNITS_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::TextID GetRomanNumberTextID(::System::UInt32 number)
+		static ::RPG::Client::TextID GetRomanNumberTextID(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::TextID(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS_GETROMANNUMBERTEXTID_OFFSET))(number);
+			return ((::RPG::Client::TextID(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS_GETROMANNUMBERTEXTID_OFFSET))(a1);
 		}
 
 		static ::System::Void _InitTextAdjustedConfig()
@@ -136,9 +137,9 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS__INITTEXTADJUSTEDCONFIG_OFFSET))();
 		}
 
-		static ::System::Void _SetTextWrapped(::UnityEngine::UI::Text* reformatText)
+		static ::System::Void _SetTextWrapped(::UnityEngine::UI::Text* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::UI::Text*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS__SETTEXTWRAPPED_OFFSET))(reformatText);
+			return ((::System::Void(*)(::UnityEngine::UI::Text*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS__SETTEXTWRAPPED_OFFSET))(a1);
 		}
 
 		static ::System::String* _GetWrappedTextContent()
@@ -146,14 +147,14 @@ namespace RPG::Client
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS__GETWRAPPEDTEXTCONTENT_OFFSET))();
 		}
 
-		static ::System::Void _SetTextInvisible(::UnityEngine::UI::Text* text)
+		static ::System::Void _SetTextInvisible(::UnityEngine::UI::Text* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::UI::Text*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS__SETTEXTINVISIBLE_OFFSET))(text);
+			return ((::System::Void(*)(::UnityEngine::UI::Text*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS__SETTEXTINVISIBLE_OFFSET))(a1);
 		}
 
-		static ::System::Void _ResetTextColor(::UnityEngine::UI::Text* text)
+		static ::System::Void _ResetTextColor(::UnityEngine::UI::Text* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::UI::Text*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS__RESETTEXTCOLOR_OFFSET))(text);
+			return ((::System::Void(*)(::UnityEngine::UI::Text*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS__RESETTEXTCOLOR_OFFSET))(a1);
 		}
 
 		static ::System::Boolean _GenerateStringIndexToBodyHeadIndexMap()
@@ -161,29 +162,29 @@ namespace RPG::Client
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS__GENERATESTRINGINDEXTOBODYHEADINDEXMAP_OFFSET))();
 		}
 
-		static ::System::Void _SetStringIndexToBodyHeadIndexMap(::System::Int32 index, ::System::Int32 length, ::System::Boolean value)
+		static ::System::Void _SetStringIndexToBodyHeadIndexMap(::System::Int32 a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS__SETSTRINGINDEXTOBODYHEADINDEXMAP_OFFSET))(index, length, value);
+			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS__SETSTRINGINDEXTOBODYHEADINDEXMAP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 _GetNewLineIndexWithCompleteBody(::System::Int32 startCharIndex, ::System::Int32 lastStartCharIndex)
+		static ::System::Int32 _GetNewLineIndexWithCompleteBody(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS__GETNEWLINEINDEXWITHCOMPLETEBODY_OFFSET))(startCharIndex, lastStartCharIndex);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS__GETNEWLINEINDEXWITHCOMPLETEBODY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 _GetNewLineIndexWithLegalHead(::System::Int32 startCharIndex, ::System::Int32 lastStartCharIndex)
+		static ::System::Int32 _GetNewLineIndexWithLegalHead(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS__GETNEWLINEINDEXWITHLEGALHEAD_OFFSET))(startCharIndex, lastStartCharIndex);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS__GETNEWLINEINDEXWITHLEGALHEAD_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean _IsHeadOfBody(::System::Int32 index)
+		static ::System::Boolean _IsHeadOfBody(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS__ISHEADOFBODY_OFFSET))(index);
+			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS__ISHEADOFBODY_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::IList_1<::UnityEngine::UILineInfo>* _PopulateNewLines(::System::Int32 insertIndex)
+		static ::System::Collections::Generic::IList_1<::UnityEngine::UILineInfo>* _PopulateNewLines(::System::Int32 a1)
 		{
-			return ((::System::Collections::Generic::IList_1<::UnityEngine::UILineInfo>*(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS__POPULATENEWLINES_OFFSET))(insertIndex);
+			return ((::System::Collections::Generic::IList_1<::UnityEngine::UILineInfo>*(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITEXTUTILS__POPULATENEWLINES_OFFSET))(a1);
 		}
 	};
 }

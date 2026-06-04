@@ -1,0 +1,113 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/Multithread/JobThreadTask_1.h"
+#include "unitysdk/RPG/GameCore/ThreadTaskType.h"
+#include "unitysdk/Struct_2_4D336CA13CA92975.h"
+
+namespace RPG::GameCore { class ThreadTaskConfig; }
+
+#define CLASS_2_FC978391A642283C_COLLECT_OFFSET UNITYSDK_OFFSET(0x1331BCE0)
+#define CLASS_2_FC978391A642283C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1331BC60)
+#define CLASS_2_FC978391A642283C_FLUSH_OFFSET UNITYSDK_OFFSET(0x1331BD20)
+#define CLASS_2_FC978391A642283C_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x1331BDE0)
+#define CLASS_2_FC978391A642283C_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1331BBB0)
+#define CLASS_2_FC978391A642283C_METHOD_2_ADF4AD3331B4D7AD_OFFSET UNITYSDK_OFFSET(0x1331BC10)
+#define CLASS_2_FC978391A642283C_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1331BCA0)
+#define CLASS_2_FC978391A642283C_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1331BDA0)
+#define CLASS_2_FC978391A642283C_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1331BD60)
+#define CLASS_2_FC978391A642283C_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0x1331BDF0)
+#define CLASS_2_FC978391A642283C__CTOR_OFFSET UNITYSDK_OFFSET(0x1331BB40)
+#define CLASS_2_FC978391A642283C___IFIXBASEPROXY_COLLECT_OFFSET UNITYSDK_OFFSET(0x1331BE40)
+#define CLASS_2_FC978391A642283C___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1331BE00)
+#define CLASS_2_FC978391A642283C___IFIXBASEPROXY_FLUSH_OFFSET UNITYSDK_OFFSET(0x1331BE80)
+#define CLASS_2_FC978391A642283C___IFIXBASEPROXY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1331BF00)
+#define CLASS_2_FC978391A642283C___IFIXBASEPROXY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1331BEC0)
+
+inline static constexpr unsigned int Class_2_FC978391A642283C_TypeDefinitionIndex = 66449;
+
+class Class_2_FC978391A642283C : public ::RPG::Client::Multithread::JobThreadTask_1<::Struct_2_4D336CA13CA92975>
+{
+public:
+	::RPG::GameCore::ThreadTaskConfig* _Config_k__BackingField; // 0x28
+	::RPG::GameCore::ThreadTaskType Field_2_1; // 0x30
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC978391A642283C__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_ADF4AD3331B4D7AD(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_FC978391A642283C_METHOD_2_ADF4AD3331B4D7AD_OFFSET))(this, a1);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC978391A642283C_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC978391A642283C_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Collect()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC978391A642283C_COLLECT_OFFSET))(this);
+	}
+
+	::System::Void Flush()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC978391A642283C_FLUSH_OFFSET))(this);
+	}
+
+	::System::Void OnEnable()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC978391A642283C_ONENABLE_OFFSET))(this);
+	}
+
+	::System::Void OnDisable()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC978391A642283C_ONDISABLE_OFFSET))(this);
+	}
+
+	::System::Void Method_2_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC978391A642283C_METHOD_2_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::RPG::GameCore::ThreadTaskConfig* get_Config()
+	{
+		return ((::RPG::GameCore::ThreadTaskConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC978391A642283C_GET_CONFIG_OFFSET))(this);
+	}
+
+	::System::Void set_Config(::RPG::GameCore::ThreadTaskConfig* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ThreadTaskConfig*))((::PBYTE)hIl2Cpp + CLASS_2_FC978391A642283C_SET_CONFIG_OFFSET))(this, a1);
+	}
+
+	::System::Void __iFixBaseProxy_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC978391A642283C___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_Collect()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC978391A642283C___IFIXBASEPROXY_COLLECT_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_Flush()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC978391A642283C___IFIXBASEPROXY_FLUSH_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_OnEnable()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC978391A642283C___IFIXBASEPROXY_ONENABLE_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_OnDisable()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC978391A642283C___IFIXBASEPROXY_ONDISABLE_OFFSET))(this);
+	}
+};

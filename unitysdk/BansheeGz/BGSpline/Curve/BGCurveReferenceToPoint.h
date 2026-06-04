@@ -6,14 +6,14 @@ namespace BansheeGz::BGSpline::Curve { class BGCurvePointComponent; }
 namespace BansheeGz::BGSpline::Curve { class BGCurvePointGO; }
 namespace BansheeGz::BGSpline::Curve { class BGCurvePointI; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT_GETREFERENCETOPOINT_OFFSET UNITYSDK_OFFSET(0x17250780)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT_GET_POINT_OFFSET UNITYSDK_OFFSET(0x172687F0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT_SET_POINT_OFFSET UNITYSDK_OFFSET(0x172509C0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x17268810)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT_GETREFERENCETOPOINT_OFFSET UNITYSDK_OFFSET(0x1520BE90)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT_GET_POINT_OFFSET UNITYSDK_OFFSET(0x15224E40)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT_SET_POINT_OFFSET UNITYSDK_OFFSET(0x1520C0E0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x15224E70)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurveReferenceToPoint_TypeDefinitionIndex = 33823;
+	inline static constexpr unsigned int BGCurveReferenceToPoint_TypeDefinitionIndex = 34105;
 
 	class BGCurveReferenceToPoint : public ::UnityEngine::MonoBehaviour
 	{
@@ -31,14 +31,14 @@ namespace BansheeGz::BGSpline::Curve
 			return ((::BansheeGz::BGSpline::Curve::BGCurvePointI*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT_GET_POINT_OFFSET))(this);
 		}
 
-		::System::Void set_Point(::BansheeGz::BGSpline::Curve::BGCurvePointI* value)
+		::System::Void set_Point(::BansheeGz::BGSpline::Curve::BGCurvePointI* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurvePointI*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT_SET_POINT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurvePointI*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT_SET_POINT_OFFSET))(this, a1);
 		}
 
-		static ::BansheeGz::BGSpline::Curve::BGCurveReferenceToPoint* GetReferenceToPoint(::BansheeGz::BGSpline::Curve::BGCurvePointI* point)
+		static ::BansheeGz::BGSpline::Curve::BGCurveReferenceToPoint* GetReferenceToPoint(::BansheeGz::BGSpline::Curve::BGCurvePointI* a1)
 		{
-			return ((::BansheeGz::BGSpline::Curve::BGCurveReferenceToPoint*(*)(::BansheeGz::BGSpline::Curve::BGCurvePointI*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT_GETREFERENCETOPOINT_OFFSET))(point);
+			return ((::BansheeGz::BGSpline::Curve::BGCurveReferenceToPoint*(*)(::BansheeGz::BGSpline::Curve::BGCurvePointI*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT_GETREFERENCETOPOINT_OFFSET))(a1);
 		}
 	};
 }

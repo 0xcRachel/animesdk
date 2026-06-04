@@ -5,8 +5,8 @@
 
 namespace System { class String; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509UTILS_FINDOIDINFOWITHFALLBACK_OFFSET UNITYSDK_OFFSET(0x16B44E00)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509UTILS_FINDOIDINFO_OFFSET UNITYSDK_OFFSET(0x16B44D20)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509UTILS_FINDOIDINFOWITHFALLBACK_OFFSET UNITYSDK_OFFSET(0x14929A70)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509UTILS_FINDOIDINFO_OFFSET UNITYSDK_OFFSET(0x14929990)
 
 namespace System::Security::Cryptography::X509Certificates
 {
@@ -15,14 +15,14 @@ namespace System::Security::Cryptography::X509Certificates
 	class X509Utils : public ::System::Object
 	{
 	public:
-		static ::System::String* FindOidInfo(::System::UInt32 keyType, ::System::String* keyValue, ::System::Security::Cryptography::OidGroup oidGroup)
+		static ::System::String* FindOidInfo(::System::UInt32 a1, ::System::String* a2, ::System::Security::Cryptography::OidGroup a3)
 		{
-			return ((::System::String*(*)(::System::UInt32, ::System::String*, ::System::Security::Cryptography::OidGroup))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509UTILS_FINDOIDINFO_OFFSET))(keyType, keyValue, oidGroup);
+			return ((::System::String*(*)(::System::UInt32, ::System::String*, ::System::Security::Cryptography::OidGroup))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509UTILS_FINDOIDINFO_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* FindOidInfoWithFallback(::System::UInt32 key, ::System::String* value, ::System::Security::Cryptography::OidGroup group)
+		static ::System::String* FindOidInfoWithFallback(::System::UInt32 a1, ::System::String* a2, ::System::Security::Cryptography::OidGroup a3)
 		{
-			return ((::System::String*(*)(::System::UInt32, ::System::String*, ::System::Security::Cryptography::OidGroup))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509UTILS_FINDOIDINFOWITHFALLBACK_OFFSET))(key, value, group);
+			return ((::System::String*(*)(::System::UInt32, ::System::String*, ::System::Security::Cryptography::OidGroup))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509UTILS_FINDOIDINFOWITHFALLBACK_OFFSET))(a1, a2, a3);
 		}
 	};
 }

@@ -5,16 +5,16 @@
 
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define UNITYENGINE_UI_TOUCHFILTER_FILTERTOUCH_OFFSET UNITYSDK_OFFSET(0x1A4BE5C0)
-#define UNITYENGINE_UI_TOUCHFILTER_GET_STATE_OFFSET UNITYSDK_OFFSET(0x1A4CD0C0)
-#define UNITYENGINE_UI_TOUCHFILTER_SET_STATE_OFFSET UNITYSDK_OFFSET(0x1A4CD0D0)
-#define UNITYENGINE_UI_TOUCHFILTER_TOUCHBEGIN_OFFSET UNITYSDK_OFFSET(0x1A4BED70)
-#define UNITYENGINE_UI_TOUCHFILTER_TOUCHEND_OFFSET UNITYSDK_OFFSET(0x1A4CD0E0)
-#define UNITYENGINE_UI_TOUCHFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4BD9F0)
+#define UNITYENGINE_UI_TOUCHFILTER_FILTERTOUCH_OFFSET UNITYSDK_OFFSET(0x1B2DE380)
+#define UNITYENGINE_UI_TOUCHFILTER_GET_STATE_OFFSET UNITYSDK_OFFSET(0x1B2ED300)
+#define UNITYENGINE_UI_TOUCHFILTER_SET_STATE_OFFSET UNITYSDK_OFFSET(0x1B2ED310)
+#define UNITYENGINE_UI_TOUCHFILTER_TOUCHBEGIN_OFFSET UNITYSDK_OFFSET(0x1B2DEBF0)
+#define UNITYENGINE_UI_TOUCHFILTER_TOUCHEND_OFFSET UNITYSDK_OFFSET(0x1B2ED320)
+#define UNITYENGINE_UI_TOUCHFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2DD7B0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int TouchFilter_TypeDefinitionIndex = 5750;
+	inline static constexpr unsigned int TouchFilter_TypeDefinitionIndex = 6027;
 
 	class TouchFilter : public ::System::Object
 	{
@@ -32,9 +32,9 @@ namespace UnityEngine::UI
 			return ((::UnityEngine::UI::TouchFilter_FilterState(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TOUCHFILTER_GET_STATE_OFFSET))(this);
 		}
 
-		::System::Void set_state(::UnityEngine::UI::TouchFilter_FilterState value)
+		::System::Void set_state(::UnityEngine::UI::TouchFilter_FilterState a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::TouchFilter_FilterState))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TOUCHFILTER_SET_STATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::TouchFilter_FilterState))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TOUCHFILTER_SET_STATE_OFFSET))(this, a1);
 		}
 
 		::System::Void TouchBegin()
@@ -42,9 +42,9 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TOUCHFILTER_TOUCHBEGIN_OFFSET))(this);
 		}
 
-		::System::Boolean FilterTouch(::System::Boolean shareDrag, ::System::Boolean ignoreCheck, ::System::Boolean vertical, ::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Boolean responseMultiTouch, ::System::Boolean enableHanldeCountLimit)
+		::System::Boolean FilterTouch(::System::Boolean a1, ::System::Boolean a2, ::System::Boolean a3, ::UnityEngine::EventSystems::PointerEventData* a4, ::System::Boolean a5, ::System::Boolean a6)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::UnityEngine::EventSystems::PointerEventData*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TOUCHFILTER_FILTERTOUCH_OFFSET))(this, shareDrag, ignoreCheck, vertical, eventData, responseMultiTouch, enableHanldeCountLimit);
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::UnityEngine::EventSystems::PointerEventData*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TOUCHFILTER_FILTERTOUCH_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Boolean TouchEnd()

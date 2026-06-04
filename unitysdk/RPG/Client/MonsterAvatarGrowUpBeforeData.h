@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MONSTERAVATARGROWUPBEFOREDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0x13713AA0)
-#define RPG_CLIENT_MONSTERAVATARGROWUPBEFOREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13713B20)
+#define RPG_CLIENT_MONSTERAVATARGROWUPBEFOREDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0x169A7280)
+#define RPG_CLIENT_MONSTERAVATARGROWUPBEFOREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x169A7300)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonsterAvatarGrowUpBeforeData_TypeDefinitionIndex = 57392;
+	inline static constexpr unsigned int MonsterAvatarGrowUpBeforeData_TypeDefinitionIndex = 58204;
 
 	class MonsterAvatarGrowUpBeforeData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::FixPoint AttackBefore; // 0x10
-		::RPG::GameCore::FixPoint SpeedBefore; // 0x18
+		::System::UInt32 PromotionBefore; // 0x18
+		::System::UInt32 ExpBefore; // 0x1C
 		::RPG::GameCore::FixPoint HpMaxBefore; // 0x20
-		::System::UInt32 PromotionBefore; // 0x28
-		::System::UInt32 ExpBefore; // 0x2C
+		::RPG::GameCore::FixPoint SpeedBefore; // 0x28
 		::RPG::GameCore::FixPoint DefenseBefore; // 0x30
 
 		::System::Void _ctor()
@@ -25,9 +25,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERAVATARGROWUPBEFOREDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void CopyTo(::RPG::Client::MonsterAvatarGrowUpBeforeData* beforeData)
+		::System::Void CopyTo(::RPG::Client::MonsterAvatarGrowUpBeforeData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonsterAvatarGrowUpBeforeData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERAVATARGROWUPBEFOREDATA_COPYTO_OFFSET))(this, beforeData);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonsterAvatarGrowUpBeforeData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERAVATARGROWUPBEFOREDATA_COPYTO_OFFSET))(this, a1);
 		}
 	};
 }

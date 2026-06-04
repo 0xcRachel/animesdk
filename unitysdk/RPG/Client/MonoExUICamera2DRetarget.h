@@ -7,16 +7,16 @@ namespace RPG::Client { class MonoExUICamera; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET_DISPOSE_OFFSET UNITYSDK_OFFSET(0x116914D0)
-#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET_INIT_OFFSET UNITYSDK_OFFSET(0x116912C0)
-#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x116915C0)
-#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET__CONVERTSCALEFROMPOSZ_OFFSET UNITYSDK_OFFSET(0x11691A10)
-#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x11691AF0)
-#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET__UPDATEPOSITION_OFFSET UNITYSDK_OFFSET(0x11691610)
+#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET_DISPOSE_OFFSET UNITYSDK_OFFSET(0x174E4AF0)
+#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET_INIT_OFFSET UNITYSDK_OFFSET(0x174E48E0)
+#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x174E4C10)
+#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET__CONVERTSCALEFROMPOSZ_OFFSET UNITYSDK_OFFSET(0x174E5040)
+#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x174E5120)
+#define RPG_CLIENT_MONOEXUICAMERA2DRETARGET__UPDATEPOSITION_OFFSET UNITYSDK_OFFSET(0x174E4C60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoExUICamera2DRetarget_TypeDefinitionIndex = 67225;
+	inline static constexpr unsigned int MonoExUICamera2DRetarget_TypeDefinitionIndex = 68177;
 
 	class MonoExUICamera2DRetarget : public ::UnityEngine::MonoBehaviour
 	{
@@ -32,9 +32,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA2DRETARGET__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Init(::RPG::Client::MonoExUICamera* camera, ::UnityEngine::RectTransform* content2D, ::System::Single content2DMinScale, ::System::Single content2DMaxScale, ::UnityEngine::Transform* anchorPoint)
+		::System::Void Init(::RPG::Client::MonoExUICamera* a1, ::UnityEngine::RectTransform* a2, ::System::Single a3, ::System::Single a4, ::UnityEngine::Transform* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoExUICamera*, ::UnityEngine::RectTransform*, ::System::Single, ::System::Single, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA2DRETARGET_INIT_OFFSET))(this, camera, content2D, content2DMinScale, content2DMaxScale, anchorPoint);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoExUICamera*, ::UnityEngine::RectTransform*, ::System::Single, ::System::Single, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA2DRETARGET_INIT_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void Dispose()
@@ -47,14 +47,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA2DRETARGET_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void _UpdatePosition(::Cinemachine::CinemachineBrain* brain)
+		::System::Void _UpdatePosition(::Cinemachine::CinemachineBrain* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineBrain*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA2DRETARGET__UPDATEPOSITION_OFFSET))(this, brain);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineBrain*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA2DRETARGET__UPDATEPOSITION_OFFSET))(this, a1);
 		}
 
-		::System::Single _ConvertScaleFromPosZ(::System::Single minZ, ::System::Single maxZ, ::System::Single minScale, ::System::Single maxScale, ::System::Single z)
+		::System::Single _ConvertScaleFromPosZ(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA2DRETARGET__CONVERTSCALEFROMPOSZ_OFFSET))(this, minZ, maxZ, minScale, maxScale, z);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA2DRETARGET__CONVERTSCALEFROMPOSZ_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 	};
 }

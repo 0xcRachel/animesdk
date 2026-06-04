@@ -5,30 +5,30 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x194A00F0)
-#define RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x194A0340)
+#define RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A31A10)
+#define RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A31C50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TravelBrochureDiaryGroupRow_TypeDefinitionIndex = 14581;
+	inline static constexpr unsigned int TravelBrochureDiaryGroupRow_TypeDefinitionIndex = 14607;
 
 	class TravelBrochureDiaryGroupRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* TextIDList; // 0x10
 		::Il2CppArray<::System::UInt32>* ChoiceIDList; // 0x18
-		::RPG::Client::TextID DiaryDescription; // 0x20
-		::System::UInt32 RewardID; // 0x30
-		::System::UInt32 ID; // 0x34
+		::System::UInt32 RewardID; // 0x20
+		::System::UInt32 ID; // 0x24
+		::RPG::Client::TextID DiaryDescription; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::TravelBrochureDiaryGroupRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TravelBrochureDiaryGroupRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TravelBrochureDiaryGroupRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TravelBrochureDiaryGroupRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

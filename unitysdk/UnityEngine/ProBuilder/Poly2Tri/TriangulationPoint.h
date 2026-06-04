@@ -6,28 +6,28 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::ProBuilder::Poly2Tri { class DTSweepConstraint; }
 
-#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONPOINT_ADDEDGE_OFFSET UNITYSDK_OFFSET(0x1A686950)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONPOINT_GET_EDGES_OFFSET UNITYSDK_OFFSET(0x1A6894B0)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONPOINT_GET_HASEDGES_OFFSET UNITYSDK_OFFSET(0x1A680390)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONPOINT_SET_EDGES_OFFSET UNITYSDK_OFFSET(0x1A6894C0)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONPOINT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A687A50)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A687340)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONPOINT_ADDEDGE_OFFSET UNITYSDK_OFFSET(0x1B4BF240)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONPOINT_GET_EDGES_OFFSET UNITYSDK_OFFSET(0x1B4C1E20)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONPOINT_GET_HASEDGES_OFFSET UNITYSDK_OFFSET(0x1B4B87B0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONPOINT_SET_EDGES_OFFSET UNITYSDK_OFFSET(0x1B4C1E30)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONPOINT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B4C03A0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4BFCB0)
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
-	inline static constexpr unsigned int TriangulationPoint_TypeDefinitionIndex = 35517;
+	inline static constexpr unsigned int TriangulationPoint_TypeDefinitionIndex = 35817;
 
 	class TriangulationPoint : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* _Edges_k__BackingField; // 0x10
-		::System::Double Y; // 0x18
-		::System::Int32 Index; // 0x20
-		::System::Double X; // 0x28
+		::System::Double X; // 0x18
+		::System::Double Y; // 0x20
+		::System::Int32 Index; // 0x28
 
-		::System::Void _ctor(::System::Double x, ::System::Double y, ::System::Int32 index)
+		::System::Void _ctor(::System::Double a1, ::System::Double a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double, ::System::Double, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONPOINT__CTOR_OFFSET))(this, x, y, index);
+			return ((::System::Void(*)(::PVOID, ::System::Double, ::System::Double, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONPOINT__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* get_Edges()
@@ -35,9 +35,9 @@ namespace UnityEngine::ProBuilder::Poly2Tri
 			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONPOINT_GET_EDGES_OFFSET))(this);
 		}
 
-		::System::Void set_Edges(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* value)
+		::System::Void set_Edges(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONPOINT_SET_EDGES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONPOINT_SET_EDGES_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()
@@ -45,9 +45,9 @@ namespace UnityEngine::ProBuilder::Poly2Tri
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONPOINT_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Void AddEdge(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* e)
+		::System::Void AddEdge(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONPOINT_ADDEDGE_OFFSET))(this, e);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONPOINT_ADDEDGE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_HasEdges()

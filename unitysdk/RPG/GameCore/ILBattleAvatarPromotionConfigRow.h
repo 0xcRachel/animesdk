@@ -9,36 +9,36 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ILBATTLEAVATARPROMOTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A84010)
-#define RPG_GAMECORE_ILBATTLEAVATARPROMOTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A84450)
+#define RPG_GAMECORE_ILBATTLEAVATARPROMOTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AD0460)
+#define RPG_GAMECORE_ILBATTLEAVATARPROMOTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD08A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ILBattleAvatarPromotionConfigRow_TypeDefinitionIndex = 13054;
+	inline static constexpr unsigned int ILBattleAvatarPromotionConfigRow_TypeDefinitionIndex = 13135;
 
 	class ILBattleAvatarPromotionConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
 		::System::String* Trigger; // 0x18
-		::System::UInt32 UnlockLevel; // 0x20
-		::System::UInt32 ID; // 0x24
-		::RPG::Client::TextID PromotionDesc; // 0x28
-		::System::UInt32 UnlockStar; // 0x38
-		::RPG::GameCore::FixPoint Param; // 0x40
-		::System::Boolean IsProperty; // 0x48
-		::RPG::GameCore::IdleLiveAvatarPropertyTargetType PropertyTarget; // 0x4C
-		::System::UInt32 AvatarID; // 0x50
-		::RPG::GameCore::IdleLiveAvatarPropertyType PropertyType; // 0x54
+		::RPG::Client::TextID PromotionDesc; // 0x20
+		::RPG::GameCore::FixPoint Param; // 0x30
+		::System::UInt32 ID; // 0x38
+		::System::UInt32 UnlockStar; // 0x3C
+		::System::UInt32 UnlockLevel; // 0x40
+		::RPG::GameCore::IdleLiveAvatarPropertyType PropertyType; // 0x44
+		::RPG::GameCore::IdleLiveAvatarPropertyTargetType PropertyTarget; // 0x48
+		::System::UInt32 AvatarID; // 0x4C
+		::System::Boolean IsProperty; // 0x50
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ILBATTLEAVATARPROMOTIONCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ILBattleAvatarPromotionConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ILBattleAvatarPromotionConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ILBattleAvatarPromotionConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ILBATTLEAVATARPROMOTIONCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ILBattleAvatarPromotionConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ILBATTLEAVATARPROMOTIONCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

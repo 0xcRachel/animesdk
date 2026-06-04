@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCheckRogueExploreWin; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0E5B986CF5773EC0_EVALUATE_OFFSET UNITYSDK_OFFSET(0x102F67A0)
-#define CLASS_3_0E5B986CF5773EC0__CTOR_OFFSET UNITYSDK_OFFSET(0x102F6770)
+#define CLASS_3_0E5B986CF5773EC0_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16A645F0)
+#define CLASS_3_0E5B986CF5773EC0__CTOR_OFFSET UNITYSDK_OFFSET(0x16A645C0)
 
-inline static constexpr unsigned int Class_3_0E5B986CF5773EC0_TypeDefinitionIndex = 53457;
+inline static constexpr unsigned int Class_3_0E5B986CF5773EC0_TypeDefinitionIndex = 54170;
 
 class Class_3_0E5B986CF5773EC0 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCheckRogueExploreWin*>
 {

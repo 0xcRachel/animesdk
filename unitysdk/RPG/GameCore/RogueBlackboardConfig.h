@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEBLACKBOARDCONFIG_METHOD_2_73EB6729DA177A39_OFFSET UNITYSDK_OFFSET(0x192403B0)
-#define RPG_GAMECORE_ROGUEBLACKBOARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x192403F0)
+#define RPG_GAMECORE_ROGUEBLACKBOARDCONFIG_METHOD_2_73EB6729DA177A39_OFFSET UNITYSDK_OFFSET(0x1A9D1780)
+#define RPG_GAMECORE_ROGUEBLACKBOARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9D17C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueBlackboardConfig_TypeDefinitionIndex = 18779;
+	inline static constexpr unsigned int RogueBlackboardConfig_TypeDefinitionIndex = 18746;
 
 	class RogueBlackboardConfig : public ::RPG::GameCore::JsonConfig
 	{

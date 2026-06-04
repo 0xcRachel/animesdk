@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_BOOMERANGPROJECTILEDATA_METHOD_3_C5F10A8159AC3068_OFFSET UNITYSDK_OFFSET(0x187C2710)
-#define RPG_GAMECORE_BOOMERANGPROJECTILEDATA_METHOD_3_D65D46D7FD9AC52B_OFFSET UNITYSDK_OFFSET(0x187C2890)
-#define RPG_GAMECORE_BOOMERANGPROJECTILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x187C27E0)
+#define RPG_GAMECORE_BOOMERANGPROJECTILEDATA_METHOD_3_C5F10A8159AC3068_OFFSET UNITYSDK_OFFSET(0x195E3E10)
+#define RPG_GAMECORE_BOOMERANGPROJECTILEDATA_METHOD_3_D65D46D7FD9AC52B_OFFSET UNITYSDK_OFFSET(0x195E3F90)
+#define RPG_GAMECORE_BOOMERANGPROJECTILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x195E3EE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoomerangProjectileData_TypeDefinitionIndex = 14822;
+	inline static constexpr unsigned int BoomerangProjectileData_TypeDefinitionIndex = 14886;
 
 	class BoomerangProjectileData : public ::RPG::GameCore::NewProjectileConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* BoomerangAngleRoll; // 0xB0
-		::RPG::GameCore::DynamicFloat* BoomerangEccentricity; // 0xB8
+		::RPG::GameCore::DynamicFloat* BoomerangAngleRoll; // 0xB8
+		::RPG::GameCore::DynamicFloat* BoomerangEccentricity; // 0xC0
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2SideBarToastMessage_MessageType_TypeDefinitionIndex = 69974;
+	inline static constexpr unsigned int DiceCombatV2SideBarToastMessage_MessageType_TypeDefinitionIndex = 70786;
 
 	enum class DiceCombatV2SideBarToastMessage_MessageType : ::System::Int32
 	{

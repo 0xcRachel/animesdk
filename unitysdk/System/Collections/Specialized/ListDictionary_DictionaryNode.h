@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_COLLECTIONS_SPECIALIZED_LISTDICTIONARY_DICTIONARYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1847A080)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_LISTDICTIONARY_DICTIONARYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x18E917D0)
 
 namespace System::Collections::Specialized
 {
@@ -12,8 +12,8 @@ namespace System::Collections::Specialized
 	{
 	public:
 		::System::Collections::Specialized::ListDictionary_DictionaryNode* next; // 0x10
-		::System::Object* value; // 0x18
-		::System::Object* key; // 0x20
+		::System::Object* key; // 0x18
+		::System::Object* value; // 0x20
 
 		::System::Void _ctor()
 		{

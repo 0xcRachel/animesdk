@@ -11,17 +11,17 @@ namespace System::Net { class FileWebRequest; }
 namespace System::Net { class WebHeaderCollection; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_NET_FILEWEBRESPONSE_CHECKDISPOSED_OFFSET UNITYSDK_OFFSET(0x176A29C0)
-#define SYSTEM_NET_FILEWEBRESPONSE_CLOSE_OFFSET UNITYSDK_OFFSET(0x176A2A90)
-#define SYSTEM_NET_FILEWEBRESPONSE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x176A2800)
-#define SYSTEM_NET_FILEWEBRESPONSE_GETRESPONSESTREAM_OFFSET UNITYSDK_OFFSET(0x176A2D10)
-#define SYSTEM_NET_FILEWEBRESPONSE_GET_CONTENTLENGTH_OFFSET UNITYSDK_OFFSET(0x176A29A0)
-#define SYSTEM_NET_FILEWEBRESPONSE_GET_HEADERS_OFFSET UNITYSDK_OFFSET(0x176A2A50)
-#define SYSTEM_NET_FILEWEBRESPONSE_GET_RESPONSEURI_OFFSET UNITYSDK_OFFSET(0x176A2A70)
-#define SYSTEM_NET_FILEWEBRESPONSE_SYSTEM_NET_ICLOSEEX_CLOSEEX_OFFSET UNITYSDK_OFFSET(0x176A2B50)
-#define SYSTEM_NET_FILEWEBRESPONSE_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x176A27E0)
-#define SYSTEM_NET_FILEWEBRESPONSE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x176A2690)
-#define SYSTEM_NET_FILEWEBRESPONSE__CTOR_OFFSET UNITYSDK_OFFSET(0x176A1A80)
+#define SYSTEM_NET_FILEWEBRESPONSE_CHECKDISPOSED_OFFSET UNITYSDK_OFFSET(0x17CD2220)
+#define SYSTEM_NET_FILEWEBRESPONSE_CLOSE_OFFSET UNITYSDK_OFFSET(0x17CD22F0)
+#define SYSTEM_NET_FILEWEBRESPONSE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x17CD2080)
+#define SYSTEM_NET_FILEWEBRESPONSE_GETRESPONSESTREAM_OFFSET UNITYSDK_OFFSET(0x17CD2590)
+#define SYSTEM_NET_FILEWEBRESPONSE_GET_CONTENTLENGTH_OFFSET UNITYSDK_OFFSET(0x17CD2200)
+#define SYSTEM_NET_FILEWEBRESPONSE_GET_HEADERS_OFFSET UNITYSDK_OFFSET(0x17CD22B0)
+#define SYSTEM_NET_FILEWEBRESPONSE_GET_RESPONSEURI_OFFSET UNITYSDK_OFFSET(0x17CD22D0)
+#define SYSTEM_NET_FILEWEBRESPONSE_SYSTEM_NET_ICLOSEEX_CLOSEEX_OFFSET UNITYSDK_OFFSET(0x17CD23B0)
+#define SYSTEM_NET_FILEWEBRESPONSE_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x17CD2060)
+#define SYSTEM_NET_FILEWEBRESPONSE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17CD1F10)
+#define SYSTEM_NET_FILEWEBRESPONSE__CTOR_OFFSET UNITYSDK_OFFSET(0x17CD1280)
 
 namespace System::Net
 {
@@ -31,30 +31,30 @@ namespace System::Net
 	{
 	public:
 		::System::Net::WebHeaderCollection* m_headers; // 0x20
-		::System::Uri* m_uri; // 0x28
-		::System::IO::Stream* m_stream; // 0x30
-		::System::IO::FileAccess m_fileAccess; // 0x38
-		::System::Boolean m_closed; // 0x3C
+		::System::IO::Stream* m_stream; // 0x28
+		::System::Uri* m_uri; // 0x30
+		::System::Boolean m_closed; // 0x38
+		::System::IO::FileAccess m_fileAccess; // 0x3C
 		::System::Int64 m_contentLength; // 0x40
 
-		::System::Void _ctor(::System::Net::FileWebRequest* request, ::System::Uri* uri, ::System::IO::FileAccess access, ::System::Boolean asyncHint)
+		::System::Void _ctor(::System::Net::FileWebRequest* a1, ::System::Uri* a2, ::System::IO::FileAccess a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::FileWebRequest*, ::System::Uri*, ::System::IO::FileAccess, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_FILEWEBRESPONSE__CTOR_OFFSET))(this, request, uri, access, asyncHint);
+			return ((::System::Void(*)(::PVOID, ::System::Net::FileWebRequest*, ::System::Uri*, ::System::IO::FileAccess, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_FILEWEBRESPONSE__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _ctor_1(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext)
+		::System::Void _ctor_1(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_FILEWEBRESPONSE__CTOR_1_OFFSET))(this, serializationInfo, streamingContext);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_FILEWEBRESPONSE__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext)
+		::System::Void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_FILEWEBRESPONSE_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET))(this, serializationInfo, streamingContext);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_FILEWEBRESPONSE_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext)
+		::System::Void GetObjectData(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_FILEWEBRESPONSE_GETOBJECTDATA_OFFSET))(this, serializationInfo, streamingContext);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_FILEWEBRESPONSE_GETOBJECTDATA_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int64 get_ContentLength()
@@ -82,9 +82,9 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_FILEWEBRESPONSE_CLOSE_OFFSET))(this);
 		}
 
-		::System::Void System_Net_ICloseEx_CloseEx(::System::Net::CloseExState closeState)
+		::System::Void System_Net_ICloseEx_CloseEx(::System::Net::CloseExState a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::CloseExState))((::PBYTE)hIl2Cpp + SYSTEM_NET_FILEWEBRESPONSE_SYSTEM_NET_ICLOSEEX_CLOSEEX_OFFSET))(this, closeState);
+			return ((::System::Void(*)(::PVOID, ::System::Net::CloseExState))((::PBYTE)hIl2Cpp + SYSTEM_NET_FILEWEBRESPONSE_SYSTEM_NET_ICLOSEEX_CLOSEEX_OFFSET))(this, a1);
 		}
 
 		::System::IO::Stream* GetResponseStream()

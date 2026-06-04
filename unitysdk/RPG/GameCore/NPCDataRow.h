@@ -7,32 +7,32 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_NPCDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186469A0)
-#define RPG_GAMECORE_NPCDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18647110)
+#define RPG_GAMECORE_NPCDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190FF360)
+#define RPG_GAMECORE_NPCDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190FFB20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NPCDataRow_TypeDefinitionIndex = 13537;
+	inline static constexpr unsigned int NPCDataRow_TypeDefinitionIndex = 13608;
 
 	class NPCDataRow : public ::System::Object
 	{
 	public:
-		::System::String* JsonPath; // 0x10
-		::System::String* ConfigEntityPath; // 0x18
-		::RPG::Client::TextID DefaultNPCTitle; // 0x20
-		::RPG::Client::TextID DefaultNPCName; // 0x30
-		::RPG::GameCore::NPCSubType SubType; // 0x40
-		::System::UInt32 ID; // 0x44
-		::System::UInt32 SeriesID; // 0x48
+		::System::String* ConfigEntityPath; // 0x10
+		::System::String* JsonPath; // 0x18
+		::System::UInt32 SeriesID; // 0x20
+		::RPG::Client::TextID DefaultNPCTitle; // 0x28
+		::RPG::Client::TextID DefaultNPCName; // 0x38
+		::System::UInt32 ID; // 0x48
+		::RPG::GameCore::NPCSubType SubType; // 0x4C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCDATAROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::NPCDataRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NPCDataRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NPCDataRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCDATAROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NPCDataRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCDATAROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

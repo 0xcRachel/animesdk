@@ -4,9 +4,9 @@
 
 namespace RPG::Client { class GachaItemData; }
 
-#define CLASS_1_90FA55736C660B07_METHOD_1_859DD6D7E5793CB8_OFFSET UNITYSDK_OFFSET(0x10949AA0)
+#define CLASS_1_90FA55736C660B07_METHOD_1_859DD6D7E5793CB8_OFFSET UNITYSDK_OFFSET(0x1673BA20)
 
-inline static constexpr unsigned int Class_1_90FA55736C660B07_TypeDefinitionIndex = 59161;
+inline static constexpr unsigned int Class_1_90FA55736C660B07_TypeDefinitionIndex = 60095;
 
 class Class_1_90FA55736C660B07 : public ::System::Object
 {

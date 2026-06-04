@@ -7,18 +7,18 @@
 namespace BansheeGz::BGSpline::Components { class BGCcCursor; }
 namespace System { class String; }
 
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_GETFROMTOINDEXES_OFFSET UNITYSDK_OFFSET(0x1723EEE0)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_GETT_OFFSET UNITYSDK_OFFSET(0x17231630)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_GET_CURSOR_OFFSET UNITYSDK_OFFSET(0x1722D6A0)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x1723EE40)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_LERPQUATERNION_OFFSET UNITYSDK_OFFSET(0x17231290)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_LERPVECTOR_OFFSET UNITYSDK_OFFSET(0x17231FE0)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_SET_CURSOR_OFFSET UNITYSDK_OFFSET(0x1723EE20)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1722FB50)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_GETFROMTOINDEXES_OFFSET UNITYSDK_OFFSET(0x151F9BF0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_GETT_OFFSET UNITYSDK_OFFSET(0x151EB550)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_GET_CURSOR_OFFSET UNITYSDK_OFFSET(0x151E7570)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x151F9B50)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_LERPQUATERNION_OFFSET UNITYSDK_OFFSET(0x151EB1B0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_LERPVECTOR_OFFSET UNITYSDK_OFFSET(0x151EBF30)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_SET_CURSOR_OFFSET UNITYSDK_OFFSET(0x151F9B30)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x151E9A70)
 
 namespace BansheeGz::BGSpline::Components
 {
-	inline static constexpr unsigned int BGCcWithCursor_TypeDefinitionIndex = 33860;
+	inline static constexpr unsigned int BGCcWithCursor_TypeDefinitionIndex = 34142;
 
 	class BGCcWithCursor : public ::BansheeGz::BGSpline::Curve::BGCc
 	{
@@ -35,9 +35,9 @@ namespace BansheeGz::BGSpline::Components
 			return ((::BansheeGz::BGSpline::Components::BGCcCursor*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_GET_CURSOR_OFFSET))(this);
 		}
 
-		::System::Void set_Cursor(::BansheeGz::BGSpline::Components::BGCcCursor* value)
+		::System::Void set_Cursor(::BansheeGz::BGSpline::Components::BGCcCursor* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Components::BGCcCursor*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_SET_CURSOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Components::BGCcCursor*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_SET_CURSOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Error()
@@ -45,24 +45,24 @@ namespace BansheeGz::BGSpline::Components
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_GET_ERROR_OFFSET))(this);
 		}
 
-		::UnityEngine::Quaternion LerpQuaternion(::System::String* fieldName, ::System::Int32 currentSection)
+		::UnityEngine::Quaternion LerpQuaternion(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::UnityEngine::Quaternion(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_LERPQUATERNION_OFFSET))(this, fieldName, currentSection);
+			return ((::UnityEngine::Quaternion(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_LERPQUATERNION_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector3 LerpVector(::System::String* name, ::System::Int32 currentSection)
+		::UnityEngine::Vector3 LerpVector(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_LERPVECTOR_OFFSET))(this, name, currentSection);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_LERPVECTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Single GetT(::System::Int32& indexFrom, ::System::Int32& indexTo, ::System::Int32 currentSection)
+		::System::Single GetT(::System::Int32& a1, ::System::Int32& a2, ::System::Int32 a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32&, ::System::Int32&, ::System::Int32))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_GETT_OFFSET))(this, indexFrom, indexTo, currentSection);
+			return ((::System::Single(*)(::PVOID, ::System::Int32&, ::System::Int32&, ::System::Int32))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_GETT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void GetFromToIndexes(::System::Int32& indexFrom, ::System::Int32& indexTo, ::System::Int32 currentSection)
+		::System::Void GetFromToIndexes(::System::Int32& a1, ::System::Int32& a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32&, ::System::Int32&, ::System::Int32))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_GETFROMTOINDEXES_OFFSET))(this, indexFrom, indexTo, currentSection);
+			return ((::System::Void(*)(::PVOID, ::System::Int32&, ::System::Int32&, ::System::Int32))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCWITHCURSOR_GETFROMTOINDEXES_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

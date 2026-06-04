@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define LITTLEGAMESHAREMESSAGEPACKINITIALIZER_INIT_OFFSET UNITYSDK_OFFSET(0x14D30B70)
+#define LITTLEGAMESHAREMESSAGEPACKINITIALIZER_INIT_OFFSET UNITYSDK_OFFSET(0x159344C0)
 
-inline static constexpr unsigned int LittleGameShareMessagePackInitializer_TypeDefinitionIndex = 33890;
+inline static constexpr unsigned int LittleGameShareMessagePackInitializer_TypeDefinitionIndex = 34172;
 
 class LittleGameShareMessagePackInitializer : public ::System::Object
 {
 public:
 	static ::System::Boolean* StaticGet_Field_1_0()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LittleGameShareMessagePackInitializer_TypeDefinitionIndex)->GetStaticField(0xF7A0);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LittleGameShareMessagePackInitializer_TypeDefinitionIndex)->GetStaticField(0xFDC0);
 	}
 
 	static ::System::Void Init()

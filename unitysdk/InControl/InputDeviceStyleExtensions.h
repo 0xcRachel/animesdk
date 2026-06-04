@@ -4,12 +4,12 @@
 #include "unitysdk/InControl/InputDeviceStyle.h"
 #include "unitysdk/System/Object.h"
 
-#define INCONTROL_INPUTDEVICESTYLEEXTENSIONS_LEFTCOMMANDCONTROL_OFFSET UNITYSDK_OFFSET(0x1640B1D0)
-#define INCONTROL_INPUTDEVICESTYLEEXTENSIONS_RIGHTCOMMANDCONTROL_OFFSET UNITYSDK_OFFSET(0x1640B1F0)
+#define INCONTROL_INPUTDEVICESTYLEEXTENSIONS_LEFTCOMMANDCONTROL_OFFSET UNITYSDK_OFFSET(0x1522ED80)
+#define INCONTROL_INPUTDEVICESTYLEEXTENSIONS_RIGHTCOMMANDCONTROL_OFFSET UNITYSDK_OFFSET(0x1522EDA0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputDeviceStyleExtensions_TypeDefinitionIndex = 37151;
+	inline static constexpr unsigned int InputDeviceStyleExtensions_TypeDefinitionIndex = 37883;
 
 	class InputDeviceStyleExtensions : public ::System::Object
 	{
@@ -17,14 +17,14 @@ namespace InControl
 		// static const ::InControl::InputControlType defaultLeftCommandControl; // 0x0
 		// static const ::InControl::InputControlType defaultRightCommandControl; // 0x0
 
-		static ::InControl::InputControlType LeftCommandControl(::InControl::InputDeviceStyle deviceStyle)
+		static ::InControl::InputControlType LeftCommandControl(::InControl::InputDeviceStyle a1)
 		{
-			return ((::InControl::InputControlType(*)(::InControl::InputDeviceStyle))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICESTYLEEXTENSIONS_LEFTCOMMANDCONTROL_OFFSET))(deviceStyle);
+			return ((::InControl::InputControlType(*)(::InControl::InputDeviceStyle))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICESTYLEEXTENSIONS_LEFTCOMMANDCONTROL_OFFSET))(a1);
 		}
 
-		static ::InControl::InputControlType RightCommandControl(::InControl::InputDeviceStyle deviceStyle)
+		static ::InControl::InputControlType RightCommandControl(::InControl::InputDeviceStyle a1)
 		{
-			return ((::InControl::InputControlType(*)(::InControl::InputDeviceStyle))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICESTYLEEXTENSIONS_RIGHTCOMMANDCONTROL_OFFSET))(deviceStyle);
+			return ((::InControl::InputControlType(*)(::InControl::InputDeviceStyle))((::PBYTE)hIl2Cpp + INCONTROL_INPUTDEVICESTYLEEXTENSIONS_RIGHTCOMMANDCONTROL_OFFSET))(a1);
 		}
 	};
 }

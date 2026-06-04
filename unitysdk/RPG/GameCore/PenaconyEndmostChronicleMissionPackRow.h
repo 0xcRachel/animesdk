@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PENACONYENDMOSTCHRONICLEMISSIONPACKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18F049A0)
-#define RPG_GAMECORE_PENACONYENDMOSTCHRONICLEMISSIONPACKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18F04AC0)
+#define RPG_GAMECORE_PENACONYENDMOSTCHRONICLEMISSIONPACKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D1BF70)
+#define RPG_GAMECORE_PENACONYENDMOSTCHRONICLEMISSIONPACKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D1C080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PenaconyEndmostChronicleMissionPackRow_TypeDefinitionIndex = 13384;
+	inline static constexpr unsigned int PenaconyEndmostChronicleMissionPackRow_TypeDefinitionIndex = 13457;
 
 	class PenaconyEndmostChronicleMissionPackRow : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PENACONYENDMOSTCHRONICLEMISSIONPACKROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PenaconyEndmostChronicleMissionPackRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PenaconyEndmostChronicleMissionPackRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PenaconyEndmostChronicleMissionPackRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PENACONYENDMOSTCHRONICLEMISSIONPACKROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PenaconyEndmostChronicleMissionPackRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PENACONYENDMOSTCHRONICLEMISSIONPACKROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

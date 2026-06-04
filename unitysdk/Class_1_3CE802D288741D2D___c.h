@@ -6,32 +6,32 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_3CE802D288741D2D___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18E025F0)
-#define CLASS_1_3CE802D288741D2D___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18E02630)
-#define CLASS_1_3CE802D288741D2D___C__REMOVEDIRECTORYREADONLYATTR_B__70_0_OFFSET UNITYSDK_OFFSET(0x18E02640)
-#define CLASS_1_3CE802D288741D2D___C__REMOVEDIRECTORYREADONLYATTR_B__70_1_OFFSET UNITYSDK_OFFSET(0x18E02720)
-#define CLASS_1_3CE802D288741D2D___C__SORTFILEBYNAME_B__103_0_OFFSET UNITYSDK_OFFSET(0x18E02730)
+#define CLASS_1_3CE802D288741D2D___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1929FA00)
+#define CLASS_1_3CE802D288741D2D___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1929FA40)
+#define CLASS_1_3CE802D288741D2D___C__REMOVEDIRECTORYREADONLYATTR_B__70_0_OFFSET UNITYSDK_OFFSET(0x1929FA50)
+#define CLASS_1_3CE802D288741D2D___C__REMOVEDIRECTORYREADONLYATTR_B__70_1_OFFSET UNITYSDK_OFFSET(0x1929FB30)
+#define CLASS_1_3CE802D288741D2D___C__SORTFILEBYNAME_B__103_0_OFFSET UNITYSDK_OFFSET(0x1929FB40)
 
-inline static constexpr unsigned int Class_1_3CE802D288741D2D___c_TypeDefinitionIndex = 9737;
+inline static constexpr unsigned int Class_1_3CE802D288741D2D___c_TypeDefinitionIndex = 33506;
 
 class Class_1_3CE802D288741D2D___c : public ::System::Object
 {
 public:
 	static ::Class_1_3CE802D288741D2D___c** StaticGet___9()
 	{
-		return (::Class_1_3CE802D288741D2D___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3CE802D288741D2D___c_TypeDefinitionIndex)->GetStaticField(0x259F0);
-	}
-	static ::System::Action_3<::System::String*, ::System::String*, ::System::String*>** StaticGet___9__70_1()
-	{
-		return (::System::Action_3<::System::String*, ::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3CE802D288741D2D___c_TypeDefinitionIndex)->GetStaticField(0x259F8);
-	}
-	static ::System::Action_3<::System::String*, ::System::String*, ::System::String*>** StaticGet___9__70_0()
-	{
-		return (::System::Action_3<::System::String*, ::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3CE802D288741D2D___c_TypeDefinitionIndex)->GetStaticField(0x25A00);
+		return (::Class_1_3CE802D288741D2D___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3CE802D288741D2D___c_TypeDefinitionIndex)->GetStaticField(0x435E0);
 	}
 	static ::System::Comparison_1<::System::String*>** StaticGet___9__103_0()
 	{
-		return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3CE802D288741D2D___c_TypeDefinitionIndex)->GetStaticField(0x25A08);
+		return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3CE802D288741D2D___c_TypeDefinitionIndex)->GetStaticField(0x435E8);
+	}
+	static ::System::Action_3<::System::String*, ::System::String*, ::System::String*>** StaticGet___9__70_1()
+	{
+		return (::System::Action_3<::System::String*, ::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3CE802D288741D2D___c_TypeDefinitionIndex)->GetStaticField(0x435F0);
+	}
+	static ::System::Action_3<::System::String*, ::System::String*, ::System::String*>** StaticGet___9__70_0()
+	{
+		return (::System::Action_3<::System::String*, ::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3CE802D288741D2D___c_TypeDefinitionIndex)->GetStaticField(0x435F8);
 	}
 
 	static ::System::Void _cctor()
@@ -44,18 +44,18 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3CE802D288741D2D___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Void _RemoveDirectoryReadOnlyAttr_b__70_0(::System::String* fullFilePath, ::System::String* fileName, ::System::String* destPath)
+	::System::Void _RemoveDirectoryReadOnlyAttr_b__70_0(::System::String* a1, ::System::String* a2, ::System::String* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_3CE802D288741D2D___C__REMOVEDIRECTORYREADONLYATTR_B__70_0_OFFSET))(this, fullFilePath, fileName, destPath);
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_3CE802D288741D2D___C__REMOVEDIRECTORYREADONLYATTR_B__70_0_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void _RemoveDirectoryReadOnlyAttr_b__70_1(::System::String* fullFilePath, ::System::String* fileName, ::System::String* destPath)
+	::System::Void _RemoveDirectoryReadOnlyAttr_b__70_1(::System::String* a1, ::System::String* a2, ::System::String* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_3CE802D288741D2D___C__REMOVEDIRECTORYREADONLYATTR_B__70_1_OFFSET))(this, fullFilePath, fileName, destPath);
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_3CE802D288741D2D___C__REMOVEDIRECTORYREADONLYATTR_B__70_1_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Int32 _SortFileByName_b__103_0(::System::String* x, ::System::String* y)
+	::System::Int32 _SortFileByName_b__103_0(::System::String* a1, ::System::String* a2)
 	{
-		return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_3CE802D288741D2D___C__SORTFILEBYNAME_B__103_0_OFFSET))(this, x, y);
+		return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_3CE802D288741D2D___C__SORTFILEBYNAME_B__103_0_OFFSET))(this, a1, a2);
 	}
 };

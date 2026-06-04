@@ -4,12 +4,12 @@
 #include "unitysdk/TMPro/Compute_DistanceTransform_EventTypes.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define TMPRO_COMPUTE_DT_EVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1606ED90)
-#define TMPRO_COMPUTE_DT_EVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1606ED80)
+#define TMPRO_COMPUTE_DT_EVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x155AE110)
+#define TMPRO_COMPUTE_DT_EVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x155AE100)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int Compute_DT_EventArgs_TypeDefinitionIndex = 40232;
+	inline static constexpr unsigned int Compute_DT_EventArgs_TypeDefinitionIndex = 41059;
 
 	class Compute_DT_EventArgs : public ::System::Object
 	{
@@ -18,14 +18,14 @@ namespace TMPro
 		::System::Single ProgressPercentage; // 0x18
 		::TMPro::Compute_DistanceTransform_EventTypes EventType; // 0x1C
 
-		::System::Void _ctor(::TMPro::Compute_DistanceTransform_EventTypes type, ::System::Single progress)
+		::System::Void _ctor(::TMPro::Compute_DistanceTransform_EventTypes a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::TMPro::Compute_DistanceTransform_EventTypes, ::System::Single))((::PBYTE)hIl2Cpp + TMPRO_COMPUTE_DT_EVENTARGS__CTOR_OFFSET))(this, type, progress);
+			return ((::System::Void(*)(::PVOID, ::TMPro::Compute_DistanceTransform_EventTypes, ::System::Single))((::PBYTE)hIl2Cpp + TMPRO_COMPUTE_DT_EVENTARGS__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::TMPro::Compute_DistanceTransform_EventTypes type, ::Il2CppArray<::UnityEngine::Color>* colors)
+		::System::Void _ctor_1(::TMPro::Compute_DistanceTransform_EventTypes a1, ::Il2CppArray<::UnityEngine::Color>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::TMPro::Compute_DistanceTransform_EventTypes, ::Il2CppArray<::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + TMPRO_COMPUTE_DT_EVENTARGS__CTOR_1_OFFSET))(this, type, colors);
+			return ((::System::Void(*)(::PVOID, ::TMPro::Compute_DistanceTransform_EventTypes, ::Il2CppArray<::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + TMPRO_COMPUTE_DT_EVENTARGS__CTOR_1_OFFSET))(this, a1, a2);
 		}
 	};
 }

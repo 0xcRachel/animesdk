@@ -4,19 +4,19 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_FIVEDIMPLAYERENTERLEAVEINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0x11333850)
-#define RPG_CLIENT_FIVEDIMPLAYERENTERLEAVEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x11321CA0)
+#define RPG_CLIENT_FIVEDIMPLAYERENTERLEAVEINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1593A290)
+#define RPG_CLIENT_FIVEDIMPLAYERENTERLEAVEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1593A2E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimPlayerEnterLeaveInfo_TypeDefinitionIndex = 55696;
+	inline static constexpr unsigned int FiveDimPlayerEnterLeaveInfo_TypeDefinitionIndex = 56450;
 
 	class FiveDimPlayerEnterLeaveInfo : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* Container; // 0x10
-		::System::UInt32 ExitSourceEntityID; // 0x18
-		::System::UInt32 EnterSourceEntityID; // 0x1C
+		::System::UInt32 EnterSourceEntityID; // 0x18
+		::System::UInt32 ExitSourceEntityID; // 0x1C
 
 		::System::Void _ctor()
 		{

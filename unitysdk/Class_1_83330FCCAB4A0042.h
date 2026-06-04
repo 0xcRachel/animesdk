@@ -7,36 +7,36 @@ namespace RPG::Client::DynamicFloatingObject { class DynamicFloatingObject; }
 namespace RPG::Client::DynamicFloatingObject { class WaterSimOverrideParam; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_83330FCCAB4A0042_METHOD_1_3617F51E36984770_OFFSET UNITYSDK_OFFSET(0xFEF8F70)
-#define CLASS_1_83330FCCAB4A0042_METHOD_1_6632971549249DA6_OFFSET UNITYSDK_OFFSET(0xFEF8D80)
-#define CLASS_1_83330FCCAB4A0042_METHOD_1_78A31E0D013CC119_OFFSET UNITYSDK_OFFSET(0xFEF9650)
-#define CLASS_1_83330FCCAB4A0042_METHOD_1_797A699EED121969_OFFSET UNITYSDK_OFFSET(0xFEF9B30)
-#define CLASS_1_83330FCCAB4A0042_METHOD_1_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0xFEF8F20)
-#define CLASS_1_83330FCCAB4A0042_METHOD_1_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0xFEF9530)
-#define CLASS_1_83330FCCAB4A0042_METHOD_1_A799B17DDBC2AB8A_OFFSET UNITYSDK_OFFSET(0xFEF96E0)
-#define CLASS_1_83330FCCAB4A0042_METHOD_1_B23AB3DDC5EC8245_OFFSET UNITYSDK_OFFSET(0xFEF95A0)
-#define CLASS_1_83330FCCAB4A0042_METHOD_1_DF3C54A5ADEABAF1_1_OFFSET UNITYSDK_OFFSET(0xFEF9300)
-#define CLASS_1_83330FCCAB4A0042_METHOD_1_DF3C54A5ADEABAF1_OFFSET UNITYSDK_OFFSET(0xFEF90D0)
-#define CLASS_1_83330FCCAB4A0042__CCTOR_OFFSET UNITYSDK_OFFSET(0xFEF9D50)
-#define CLASS_1_83330FCCAB4A0042__CTOR_OFFSET UNITYSDK_OFFSET(0xFEF8ED0)
+#define CLASS_1_83330FCCAB4A0042_METHOD_1_414C8F92528E4746_1_OFFSET UNITYSDK_OFFSET(0x17F37A60)
+#define CLASS_1_83330FCCAB4A0042_METHOD_1_414C8F92528E4746_OFFSET UNITYSDK_OFFSET(0x17F37840)
+#define CLASS_1_83330FCCAB4A0042_METHOD_1_56E8ED155DF34A44_OFFSET UNITYSDK_OFFSET(0x17F37700)
+#define CLASS_1_83330FCCAB4A0042_METHOD_1_6632971549249DA6_OFFSET UNITYSDK_OFFSET(0x17F37510)
+#define CLASS_1_83330FCCAB4A0042_METHOD_1_78A31E0D013CC119_OFFSET UNITYSDK_OFFSET(0x17F37EA0)
+#define CLASS_1_83330FCCAB4A0042_METHOD_1_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x17F376B0)
+#define CLASS_1_83330FCCAB4A0042_METHOD_1_A799B17DDBC2AB8A_OFFSET UNITYSDK_OFFSET(0x17F37F30)
+#define CLASS_1_83330FCCAB4A0042_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x17F37C80)
+#define CLASS_1_83330FCCAB4A0042_METHOD_1_D8E6DC0B27699F85_OFFSET UNITYSDK_OFFSET(0x17F383A0)
+#define CLASS_1_83330FCCAB4A0042_METHOD_1_FC60D8E2B2DBCCA6_OFFSET UNITYSDK_OFFSET(0x17F37D10)
+#define CLASS_1_83330FCCAB4A0042__CCTOR_OFFSET UNITYSDK_OFFSET(0x17F38590)
+#define CLASS_1_83330FCCAB4A0042__CTOR_OFFSET UNITYSDK_OFFSET(0x17F37660)
 
-inline static constexpr unsigned int Class_1_83330FCCAB4A0042_TypeDefinitionIndex = 67708;
+inline static constexpr unsigned int Class_1_83330FCCAB4A0042_TypeDefinitionIndex = 68666;
 
 class Class_1_83330FCCAB4A0042 : public ::System::Object
 {
 public:
 	static ::Class_1_83330FCCAB4A0042** StaticGet_Field_1_0()
 	{
-		return (::Class_1_83330FCCAB4A0042**)Il2CppClass::FromTypeDefinitionIndex(Class_1_83330FCCAB4A0042_TypeDefinitionIndex)->GetStaticField(0x6B350);
+		return (::Class_1_83330FCCAB4A0042**)Il2CppClass::FromTypeDefinitionIndex(Class_1_83330FCCAB4A0042_TypeDefinitionIndex)->GetStaticField(0x55930);
 	}
-	static ::System::Int32* StaticGet_Field_1_3()
+	static ::System::Int32* StaticGet_Field_1_1()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_83330FCCAB4A0042_TypeDefinitionIndex)->GetStaticField(0x11CE0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_83330FCCAB4A0042_TypeDefinitionIndex)->GetStaticField(0xFA60);
 	}
-	::RPG::Client::DynamicFloatingObject::WaterSimOverrideParam* Field_1_4; // 0x10
-	::System::Collections::Generic::List_1<::RPG::Client::DynamicFloatingObject::DynamicFloatingObject*>* Field_1_1; // 0x18
-	::WaveSimPanel* Field_1_5; // 0x20
-	::System::Boolean Field_1_2; // 0x28
+	::RPG::Client::DynamicFloatingObject::WaterSimOverrideParam* Field_1_2; // 0x10
+	::WaveSimPanel* Field_1_3; // 0x18
+	::System::Collections::Generic::List_1<::RPG::Client::DynamicFloatingObject::DynamicFloatingObject*>* Field_1_4; // 0x20
+	::System::Boolean Field_1_5; // 0x28
 
 	::System::Void _ctor()
 	{
@@ -58,29 +58,29 @@ public:
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_83330FCCAB4A0042_METHOD_1_95780ED94B90ED36_OFFSET))(this);
 	}
 
-	::System::Void Method_1_3617F51E36984770()
+	::System::Void Method_1_56E8ED155DF34A44()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_83330FCCAB4A0042_METHOD_1_3617F51E36984770_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_83330FCCAB4A0042_METHOD_1_56E8ED155DF34A44_OFFSET))(this);
 	}
 
-	::System::Void Method_1_DF3C54A5ADEABAF1()
+	::System::Void Method_1_414C8F92528E4746()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_83330FCCAB4A0042_METHOD_1_DF3C54A5ADEABAF1_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_83330FCCAB4A0042_METHOD_1_414C8F92528E4746_OFFSET))(this);
 	}
 
-	::System::Void Method_1_DF3C54A5ADEABAF1_1()
+	::System::Void Method_1_414C8F92528E4746_1()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_83330FCCAB4A0042_METHOD_1_DF3C54A5ADEABAF1_1_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_83330FCCAB4A0042_METHOD_1_414C8F92528E4746_1_OFFSET))(this);
 	}
 
-	::System::Void Method_1_A239DF324AF4215D()
+	::System::Void Method_1_B1936CE4DA97AA45()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_83330FCCAB4A0042_METHOD_1_A239DF324AF4215D_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_83330FCCAB4A0042_METHOD_1_B1936CE4DA97AA45_OFFSET))(this);
 	}
 
-	::System::Void Method_1_B23AB3DDC5EC8245(::RPG::Client::DynamicFloatingObject::DynamicFloatingObject* a1)
+	::System::Void Method_1_FC60D8E2B2DBCCA6(::RPG::Client::DynamicFloatingObject::DynamicFloatingObject* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::DynamicFloatingObject::DynamicFloatingObject*))((::PBYTE)hIl2Cpp + CLASS_1_83330FCCAB4A0042_METHOD_1_B23AB3DDC5EC8245_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::DynamicFloatingObject::DynamicFloatingObject*))((::PBYTE)hIl2Cpp + CLASS_1_83330FCCAB4A0042_METHOD_1_FC60D8E2B2DBCCA6_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_78A31E0D013CC119(::RPG::Client::DynamicFloatingObject::DynamicFloatingObject* a1)
@@ -93,8 +93,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_83330FCCAB4A0042_METHOD_1_A799B17DDBC2AB8A_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_797A699EED121969()
+	::System::Void Method_1_D8E6DC0B27699F85()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_83330FCCAB4A0042_METHOD_1_797A699EED121969_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_83330FCCAB4A0042_METHOD_1_D8E6DC0B27699F85_OFFSET))(this);
 	}
 };

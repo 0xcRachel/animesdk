@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_GAMECORE_ADVENTUREGUESTCOLLIDERCHANGE_CLEAR_OFFSET UNITYSDK_OFFSET(0xC7697D0)
-#define RPG_GAMECORE_ADVENTUREGUESTCOLLIDERCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xC769870)
-#define RPG_GAMECORE_ADVENTUREGUESTCOLLIDERCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xC769820)
-#define RPG_GAMECORE_ADVENTUREGUESTCOLLIDERCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xC769730)
-#define RPG_GAMECORE_ADVENTUREGUESTCOLLIDERCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xC7698C0)
-#define RPG_GAMECORE_ADVENTUREGUESTCOLLIDERCHANGE___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xC7698D0)
+#define RPG_GAMECORE_ADVENTUREGUESTCOLLIDERCHANGE_CLEAR_OFFSET UNITYSDK_OFFSET(0x12977DB0)
+#define RPG_GAMECORE_ADVENTUREGUESTCOLLIDERCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x12977E50)
+#define RPG_GAMECORE_ADVENTUREGUESTCOLLIDERCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x12977E00)
+#define RPG_GAMECORE_ADVENTUREGUESTCOLLIDERCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0x12977D10)
+#define RPG_GAMECORE_ADVENTUREGUESTCOLLIDERCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x12977EA0)
+#define RPG_GAMECORE_ADVENTUREGUESTCOLLIDERCHANGE___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x12977EB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureGuestColliderChange_TypeDefinitionIndex = 52203;
+	inline static constexpr unsigned int AdventureGuestColliderChange_TypeDefinitionIndex = 52900;
 
-	class AdventureGuestColliderChange : public ::Class_1_9988289E7F8AA214
+	class AdventureGuestColliderChange : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::UnityEngine::Collider* GuestCollider; // 0x18
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREGUESTCOLLIDERCHANGE__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::AdventureGuestColliderChange* Init(::RPG::GameCore::GameEntity* guest, ::UnityEngine::Collider* collider, ::System::Boolean enable)
+		::RPG::GameCore::AdventureGuestColliderChange* Init(::RPG::GameCore::GameEntity* a1, ::UnityEngine::Collider* a2, ::System::Boolean a3)
 		{
-			return ((::RPG::GameCore::AdventureGuestColliderChange*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::UnityEngine::Collider*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREGUESTCOLLIDERCHANGE_INIT_OFFSET))(this, guest, collider, enable);
+			return ((::RPG::GameCore::AdventureGuestColliderChange*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::UnityEngine::Collider*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREGUESTCOLLIDERCHANGE_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Clear()

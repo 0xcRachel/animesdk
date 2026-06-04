@@ -4,9 +4,9 @@
 
 class Class_3_301046E588A5ED6C;
 
-#define CLASS_2_2679F01039F3FC24__CTOR_OFFSET UNITYSDK_OFFSET(0xEE58C40)
+#define CLASS_2_2679F01039F3FC24__CTOR_OFFSET UNITYSDK_OFFSET(0x14FA54B0)
 
-inline static constexpr unsigned int Class_2_2679F01039F3FC24_TypeDefinitionIndex = 72381;
+inline static constexpr unsigned int Class_2_2679F01039F3FC24_TypeDefinitionIndex = 73403;
 
 class Class_2_2679F01039F3FC24 : public ::RPG::Client::Prop::PuzzleTriggerProxyBase_1<::Class_3_301046E588A5ED6C*>
 {

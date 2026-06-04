@@ -6,30 +6,30 @@ namespace Entitas { class IEntity; }
 namespace Entitas::Unity { class EntityLink; }
 namespace UnityEngine { class GameObject; }
 
-#define ENTITAS_UNITY_ENTITYLINKEXTENSION_GETENTITYLINK_OFFSET UNITYSDK_OFFSET(0x1A63EF40)
-#define ENTITAS_UNITY_ENTITYLINKEXTENSION_LINK_OFFSET UNITYSDK_OFFSET(0x1A63EFE0)
-#define ENTITAS_UNITY_ENTITYLINKEXTENSION_UNLINK_OFFSET UNITYSDK_OFFSET(0x1A63F100)
+#define ENTITAS_UNITY_ENTITYLINKEXTENSION_GETENTITYLINK_OFFSET UNITYSDK_OFFSET(0x1B460540)
+#define ENTITAS_UNITY_ENTITYLINKEXTENSION_LINK_OFFSET UNITYSDK_OFFSET(0x1B4605E0)
+#define ENTITAS_UNITY_ENTITYLINKEXTENSION_UNLINK_OFFSET UNITYSDK_OFFSET(0x1B460700)
 
 namespace Entitas::Unity
 {
-	inline static constexpr unsigned int EntityLinkExtension_TypeDefinitionIndex = 9890;
+	inline static constexpr unsigned int EntityLinkExtension_TypeDefinitionIndex = 9717;
 
 	class EntityLinkExtension : public ::System::Object
 	{
 	public:
-		static ::Entitas::Unity::EntityLink* GetEntityLink(::UnityEngine::GameObject* gameObject)
+		static ::Entitas::Unity::EntityLink* GetEntityLink(::UnityEngine::GameObject* a1)
 		{
-			return ((::Entitas::Unity::EntityLink*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + ENTITAS_UNITY_ENTITYLINKEXTENSION_GETENTITYLINK_OFFSET))(gameObject);
+			return ((::Entitas::Unity::EntityLink*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + ENTITAS_UNITY_ENTITYLINKEXTENSION_GETENTITYLINK_OFFSET))(a1);
 		}
 
-		static ::Entitas::Unity::EntityLink* Link(::UnityEngine::GameObject* gameObject, ::Entitas::IEntity* entity)
+		static ::Entitas::Unity::EntityLink* Link(::UnityEngine::GameObject* a1, ::Entitas::IEntity* a2)
 		{
-			return ((::Entitas::Unity::EntityLink*(*)(::UnityEngine::GameObject*, ::Entitas::IEntity*))((::PBYTE)hIl2Cpp + ENTITAS_UNITY_ENTITYLINKEXTENSION_LINK_OFFSET))(gameObject, entity);
+			return ((::Entitas::Unity::EntityLink*(*)(::UnityEngine::GameObject*, ::Entitas::IEntity*))((::PBYTE)hIl2Cpp + ENTITAS_UNITY_ENTITYLINKEXTENSION_LINK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Unlink(::UnityEngine::GameObject* gameObject)
+		static ::System::Void Unlink(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + ENTITAS_UNITY_ENTITYLINKEXTENSION_UNLINK_OFFSET))(gameObject);
+			return ((::System::Void(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + ENTITAS_UNITY_ENTITYLINKEXTENSION_UNLINK_OFFSET))(a1);
 		}
 	};
 }

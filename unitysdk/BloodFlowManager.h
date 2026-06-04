@@ -6,18 +6,18 @@
 #include "unitysdk/UnityEngine/Vector4.h"
 
 class BloodFlowDrawInstance;
-class Class_2_604B3D8E4EF770F9;
+class Class_2_C7CF51A975AD5398;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 
-#define BLOODFLOWMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0xB04CEB0)
-#define BLOODFLOWMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xB04CF90)
-#define BLOODFLOWMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0xB04CF40)
-#define BLOODFLOWMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xB04D040)
+#define BLOODFLOWMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1736AB00)
+#define BLOODFLOWMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1736ABE0)
+#define BLOODFLOWMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1736AB90)
+#define BLOODFLOWMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1736AC90)
 
-inline static constexpr unsigned int BloodFlowManager_TypeDefinitionIndex = 44199;
+inline static constexpr unsigned int BloodFlowManager_TypeDefinitionIndex = 44745;
 
 class BloodFlowManager : public ::UnityEngine::MonoBehaviour
 {
@@ -31,7 +31,7 @@ public:
 	::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* AllMatrixs; // 0x40
 	::System::Collections::Generic::List_1<::UnityEngine::Vector4>* PerInsProperties; // 0x48
 	::UnityEngine::Vector3 BoundSize; // 0x50
-	::Class_2_604B3D8E4EF770F9* Field_5_9; // 0x60
+	::Class_2_C7CF51A975AD5398* Field_5_9; // 0x60
 
 	::System::Void _ctor()
 	{

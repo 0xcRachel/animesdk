@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/BaseModule.h"
 #include "unitysdk/System/Nullable_1.h"
 
-class Class_1_4C612AB5D47425B6;
+class Class_1_02F9DB4791491FD3;
 namespace RPG::Client { class IMapIcon; }
 namespace RPG::Client { class IMapIconTrackSnapshot; }
 namespace RPG::Client { class MapDataKey; }
@@ -16,58 +16,58 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BIGMAPMODULE_ADDTEMPSHOWICON_OFFSET UNITYSDK_OFFSET(0x16D2E670)
-#define RPG_CLIENT_BIGMAPMODULE_CLEARMAPCACHEDATA_OFFSET UNITYSDK_OFFSET(0x16D300F0)
-#define RPG_CLIENT_BIGMAPMODULE_GETMONSTERTRACKMAPDATAKEYS_OFFSET UNITYSDK_OFFSET(0x16D2F4D0)
-#define RPG_CLIENT_BIGMAPMODULE_GET_ISLOCKMAPSWITCH_OFFSET UNITYSDK_OFFSET(0x16D2EBD0)
-#define RPG_CLIENT_BIGMAPMODULE_GET_LOCKMAPTOASTSTRING_OFFSET UNITYSDK_OFFSET(0x16D2F040)
-#define RPG_CLIENT_BIGMAPMODULE_GET_TEMPSHOWMAPICONS_OFFSET UNITYSDK_OFFSET(0x16D2EBC0)
-#define RPG_CLIENT_BIGMAPMODULE_GET_TEMPSHOWMAPMONSTERDATA_OFFSET UNITYSDK_OFFSET(0x16D2F390)
-#define RPG_CLIENT_BIGMAPMODULE_GET_TRACKINGICONSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x16D2EBA0)
-#define RPG_CLIENT_BIGMAPMODULE_GET_TRACKINGMAPMONSTERDATA_OFFSET UNITYSDK_OFFSET(0x16D2F310)
-#define RPG_CLIENT_BIGMAPMODULE_GOTOMONSTERTRACKID_OFFSET UNITYSDK_OFFSET(0x16D2F9B0)
-#define RPG_CLIENT_BIGMAPMODULE_ISTRACKINGICON_OFFSET UNITYSDK_OFFSET(0x16D2E840)
-#define RPG_CLIENT_BIGMAPMODULE_REMOVETEMPSHOWICON_OFFSET UNITYSDK_OFFSET(0x16D2E720)
-#define RPG_CLIENT_BIGMAPMODULE_SETTRACKINGICON_OFFSET UNITYSDK_OFFSET(0x16D2E9D0)
-#define RPG_CLIENT_BIGMAPMODULE_SET_TEMPSHOWMAPMONSTERDATA_OFFSET UNITYSDK_OFFSET(0x16D2F3A0)
-#define RPG_CLIENT_BIGMAPMODULE_SET_TRACKINGICONSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x16D2EBB0)
-#define RPG_CLIENT_BIGMAPMODULE_SET_TRACKINGMAPMONSTERDATA_OFFSET UNITYSDK_OFFSET(0x16D2F320)
-#define RPG_CLIENT_BIGMAPMODULE_TRANSFERANDTRACEMAPPINGINFO_OFFSET UNITYSDK_OFFSET(0x16D2F6F0)
-#define RPG_CLIENT_BIGMAPMODULE_TRANSFERANDTRACEMONSTER_OFFSET UNITYSDK_OFFSET(0x16D2F850)
-#define RPG_CLIENT_BIGMAPMODULE_UPDATEMONSTERTRACK_OFFSET UNITYSDK_OFFSET(0x16D30200)
-#define RPG_CLIENT_BIGMAPMODULE__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x16D303B0)
-#define RPG_CLIENT_BIGMAPMODULE__CLEARNOTCURRENTFLOORTRACKICON_OFFSET UNITYSDK_OFFSET(0x16D30A20)
-#define RPG_CLIENT_BIGMAPMODULE__CLEARTRACKINGMAPMONSTERDATA_OFFSET UNITYSDK_OFFSET(0x16D2F460)
-#define RPG_CLIENT_BIGMAPMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x16D313E0)
-#define RPG_CLIENT_BIGMAPMODULE__GETFIRSTVALIDMONSTER_OFFSET UNITYSDK_OFFSET(0x16D30CE0)
-#define RPG_CLIENT_BIGMAPMODULE__GOTOMONSTERTRACKID_B__24_0_OFFSET UNITYSDK_OFFSET(0x16D31490)
-#define RPG_CLIENT_BIGMAPMODULE__ISMONSTERINCURRENTWORLD_OFFSET UNITYSDK_OFFSET(0x16D31160)
-#define RPG_CLIENT_BIGMAPMODULE__MARKALLMAPDATADIRTY_OFFSET UNITYSDK_OFFSET(0x16D30C40)
-#define RPG_CLIENT_BIGMAPMODULE__ONADVENTUREPHASEENTERED_OFFSET UNITYSDK_OFFSET(0x16D309C0)
-#define RPG_CLIENT_BIGMAPMODULE__ONFINDCHESTINFOREFRESH_OFFSET UNITYSDK_OFFSET(0x16D30B60)
-#define RPG_CLIENT_BIGMAPMODULE__ONUIHIDEMAPPINGINFOTRACE_OFFSET UNITYSDK_OFFSET(0x16D30920)
-#define RPG_CLIENT_BIGMAPMODULE__ONUILOCKSWITCHMAP_OFFSET UNITYSDK_OFFSET(0x16D30530)
-#define RPG_CLIENT_BIGMAPMODULE__ONUISHOWMAPPINGINFOTRACE_OFFSET UNITYSDK_OFFSET(0x16D30880)
-#define RPG_CLIENT_BIGMAPMODULE__UPDATEMONSTERTRACKDATALIST_OFFSET UNITYSDK_OFFSET(0x16D2FD80)
-#define RPG_CLIENT_BIGMAPMODULE__UPDATEMONSTERTRACK_OFFSET UNITYSDK_OFFSET(0x16D30250)
-#define RPG_CLIENT_BIGMAPMODULE___IFIXBASEPROXY__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x16D31B50)
-#define RPG_CLIENT_BIGMAPMODULE___UPDATEMONSTERTRACKDATALIST_B__38_0_OFFSET UNITYSDK_OFFSET(0x16D31830)
-#define RPG_CLIENT_BIGMAPMODULE___UPDATEMONSTERTRACK_B__35_0_OFFSET UNITYSDK_OFFSET(0x16D315E0)
+#define RPG_CLIENT_BIGMAPMODULE_ADDTEMPSHOWICON_OFFSET UNITYSDK_OFFSET(0x179181E0)
+#define RPG_CLIENT_BIGMAPMODULE_CLEARMAPCACHEDATA_OFFSET UNITYSDK_OFFSET(0x17919CE0)
+#define RPG_CLIENT_BIGMAPMODULE_GETMONSTERTRACKMAPDATAKEYS_OFFSET UNITYSDK_OFFSET(0x179190F0)
+#define RPG_CLIENT_BIGMAPMODULE_GET_ISLOCKMAPSWITCH_OFFSET UNITYSDK_OFFSET(0x179187F0)
+#define RPG_CLIENT_BIGMAPMODULE_GET_LOCKMAPTOASTSTRING_OFFSET UNITYSDK_OFFSET(0x17918C70)
+#define RPG_CLIENT_BIGMAPMODULE_GET_TEMPSHOWMAPICONS_OFFSET UNITYSDK_OFFSET(0x179187E0)
+#define RPG_CLIENT_BIGMAPMODULE_GET_TEMPSHOWMAPMONSTERDATA_OFFSET UNITYSDK_OFFSET(0x17918FE0)
+#define RPG_CLIENT_BIGMAPMODULE_GET_TRACKINGICONSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x179187C0)
+#define RPG_CLIENT_BIGMAPMODULE_GET_TRACKINGMAPMONSTERDATA_OFFSET UNITYSDK_OFFSET(0x17918F60)
+#define RPG_CLIENT_BIGMAPMODULE_GOTOMONSTERTRACKID_OFFSET UNITYSDK_OFFSET(0x17919520)
+#define RPG_CLIENT_BIGMAPMODULE_ISTRACKINGICON_OFFSET UNITYSDK_OFFSET(0x17918410)
+#define RPG_CLIENT_BIGMAPMODULE_REMOVETEMPSHOWICON_OFFSET UNITYSDK_OFFSET(0x179182F0)
+#define RPG_CLIENT_BIGMAPMODULE_SETTRACKINGICON_OFFSET UNITYSDK_OFFSET(0x179185C0)
+#define RPG_CLIENT_BIGMAPMODULE_SET_TEMPSHOWMAPMONSTERDATA_OFFSET UNITYSDK_OFFSET(0x17918FF0)
+#define RPG_CLIENT_BIGMAPMODULE_SET_TRACKINGICONSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x179187D0)
+#define RPG_CLIENT_BIGMAPMODULE_SET_TRACKINGMAPMONSTERDATA_OFFSET UNITYSDK_OFFSET(0x17918F70)
+#define RPG_CLIENT_BIGMAPMODULE_TRANSFERANDTRACEMAPPINGINFO_OFFSET UNITYSDK_OFFSET(0x179192E0)
+#define RPG_CLIENT_BIGMAPMODULE_TRANSFERANDTRACEMONSTER_OFFSET UNITYSDK_OFFSET(0x179193C0)
+#define RPG_CLIENT_BIGMAPMODULE_UPDATEMONSTERTRACK_OFFSET UNITYSDK_OFFSET(0x17919DF0)
+#define RPG_CLIENT_BIGMAPMODULE__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x17919FB0)
+#define RPG_CLIENT_BIGMAPMODULE__CLEARNOTCURRENTFLOORTRACKICON_OFFSET UNITYSDK_OFFSET(0x1791A6B0)
+#define RPG_CLIENT_BIGMAPMODULE__CLEARTRACKINGMAPMONSTERDATA_OFFSET UNITYSDK_OFFSET(0x17919050)
+#define RPG_CLIENT_BIGMAPMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1791AEB0)
+#define RPG_CLIENT_BIGMAPMODULE__GETFIRSTVALIDMONSTER_OFFSET UNITYSDK_OFFSET(0x1791A970)
+#define RPG_CLIENT_BIGMAPMODULE__GOTOMONSTERTRACKID_B__24_0_OFFSET UNITYSDK_OFFSET(0x1791AF60)
+#define RPG_CLIENT_BIGMAPMODULE__ISMONSTERINCURRENTWORLD_OFFSET UNITYSDK_OFFSET(0x1791AD20)
+#define RPG_CLIENT_BIGMAPMODULE__MARKALLMAPDATADIRTY_OFFSET UNITYSDK_OFFSET(0x1791A8D0)
+#define RPG_CLIENT_BIGMAPMODULE__ONADVENTUREPHASEENTERED_OFFSET UNITYSDK_OFFSET(0x1791A650)
+#define RPG_CLIENT_BIGMAPMODULE__ONFINDCHESTINFOREFRESH_OFFSET UNITYSDK_OFFSET(0x1791A7F0)
+#define RPG_CLIENT_BIGMAPMODULE__ONUIHIDEMAPPINGINFOTRACE_OFFSET UNITYSDK_OFFSET(0x1791A5B0)
+#define RPG_CLIENT_BIGMAPMODULE__ONUILOCKSWITCHMAP_OFFSET UNITYSDK_OFFSET(0x1791A190)
+#define RPG_CLIENT_BIGMAPMODULE__ONUISHOWMAPPINGINFOTRACE_OFFSET UNITYSDK_OFFSET(0x1791A500)
+#define RPG_CLIENT_BIGMAPMODULE__UPDATEMONSTERTRACKDATALIST_OFFSET UNITYSDK_OFFSET(0x179198C0)
+#define RPG_CLIENT_BIGMAPMODULE__UPDATEMONSTERTRACK_OFFSET UNITYSDK_OFFSET(0x17919E40)
+#define RPG_CLIENT_BIGMAPMODULE___IFIXBASEPROXY__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x1791B5A0)
+#define RPG_CLIENT_BIGMAPMODULE___UPDATEMONSTERTRACKDATALIST_B__38_0_OFFSET UNITYSDK_OFFSET(0x1791B280)
+#define RPG_CLIENT_BIGMAPMODULE___UPDATEMONSTERTRACK_B__35_0_OFFSET UNITYSDK_OFFSET(0x1791B040)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BigMapModule_TypeDefinitionIndex = 57937;
+	inline static constexpr unsigned int BigMapModule_TypeDefinitionIndex = 58853;
 
 	class BigMapModule : public ::RPG::Client::BaseModule
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_1_4C612AB5D47425B6*>* _MonsterTrackDatas; // 0x10
-		::RPG::Client::IMapIconTrackSnapshot* _TrackingIconSnapshot_k__BackingField; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::IMapIcon*>* _TempShowMapIcons_k__BackingField; // 0x20
-		::RPG::Client::TwoKeyDictionary_3<::System::UInt32, ::System::UInt32, ::System::String*>* _LockMapSwitchToast; // 0x28
+		::System::Collections::Generic::List_1<::Class_1_02F9DB4791491FD3*>* _MonsterTrackDatas; // 0x10
+		::RPG::Client::TwoKeyDictionary_3<::System::UInt32, ::System::UInt32, ::System::String*>* _LockMapSwitchToast; // 0x18
+		::RPG::Client::TwoKeyDictionary_3<::System::UInt32, ::System::UInt32, ::System::Int32>* _LockMapSwitchDict; // 0x20
+		::RPG::Client::MapTrackMonsterData* _TempShowMapMonsterData; // 0x28
 		::RPG::Client::MapTrackMonsterData* _TrackingMapMonsterData; // 0x30
-		::RPG::Client::MapTrackMonsterData* _TempShowMapMonsterData; // 0x38
-		::RPG::Client::TwoKeyDictionary_3<::System::UInt32, ::System::UInt32, ::System::Int32>* _LockMapSwitchDict; // 0x40
+		::RPG::Client::IMapIconTrackSnapshot* _TrackingIconSnapshot_k__BackingField; // 0x38
+		::System::Collections::Generic::List_1<::RPG::Client::IMapIcon*>* _TempShowMapIcons_k__BackingField; // 0x40
 		::System::UInt32 _MonsterTrackOverrideMapInfoID; // 0x48
 		::System::UInt32 _MonsterTrackID; // 0x4C
 
@@ -76,24 +76,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void AddTempShowIcon(::RPG::Client::IMapIcon* icon)
+		::System::Void AddTempShowIcon(::RPG::Client::IMapIcon* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::IMapIcon*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_ADDTEMPSHOWICON_OFFSET))(this, icon);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::IMapIcon*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_ADDTEMPSHOWICON_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveTempShowIcon(::RPG::Client::IMapIcon* icon)
+		::System::Void RemoveTempShowIcon(::RPG::Client::IMapIcon* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::IMapIcon*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_REMOVETEMPSHOWICON_OFFSET))(this, icon);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::IMapIcon*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_REMOVETEMPSHOWICON_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsTrackingIcon(::RPG::Client::IMapIcon* icon)
+		::System::Boolean IsTrackingIcon(::RPG::Client::IMapIcon* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IMapIcon*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_ISTRACKINGICON_OFFSET))(this, icon);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IMapIcon*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_ISTRACKINGICON_OFFSET))(this, a1);
 		}
 
-		::System::Void SetTrackingIcon(::RPG::Client::IMapIcon* icon)
+		::System::Void SetTrackingIcon(::RPG::Client::IMapIcon* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::IMapIcon*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_SETTRACKINGICON_OFFSET))(this, icon);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::IMapIcon*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_SETTRACKINGICON_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::IMapIconTrackSnapshot* get_TrackingIconSnapshot()
@@ -101,9 +101,9 @@ namespace RPG::Client
 			return ((::RPG::Client::IMapIconTrackSnapshot*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_GET_TRACKINGICONSNAPSHOT_OFFSET))(this);
 		}
 
-		::System::Void set_TrackingIconSnapshot(::RPG::Client::IMapIconTrackSnapshot* value)
+		::System::Void set_TrackingIconSnapshot(::RPG::Client::IMapIconTrackSnapshot* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::IMapIconTrackSnapshot*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_SET_TRACKINGICONSNAPSHOT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::IMapIconTrackSnapshot*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_SET_TRACKINGICONSNAPSHOT_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::IMapIcon*>* get_TempShowMapIcons()
@@ -126,9 +126,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MapTrackMonsterData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_GET_TRACKINGMAPMONSTERDATA_OFFSET))(this);
 		}
 
-		::System::Void set_TrackingMapMonsterData(::RPG::Client::MapTrackMonsterData* value)
+		::System::Void set_TrackingMapMonsterData(::RPG::Client::MapTrackMonsterData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MapTrackMonsterData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_SET_TRACKINGMAPMONSTERDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MapTrackMonsterData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_SET_TRACKINGMAPMONSTERDATA_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MapTrackMonsterData* get_TempShowMapMonsterData()
@@ -136,9 +136,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MapTrackMonsterData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_GET_TEMPSHOWMAPMONSTERDATA_OFFSET))(this);
 		}
 
-		::System::Void set_TempShowMapMonsterData(::RPG::Client::MapTrackMonsterData* value)
+		::System::Void set_TempShowMapMonsterData(::RPG::Client::MapTrackMonsterData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MapTrackMonsterData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_SET_TEMPSHOWMAPMONSTERDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MapTrackMonsterData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_SET_TEMPSHOWMAPMONSTERDATA_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::HashSet_1<::RPG::Client::MapDataKey*>* GetMonsterTrackMapDataKeys()
@@ -146,19 +146,19 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::HashSet_1<::RPG::Client::MapDataKey*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_GETMONSTERTRACKMAPDATAKEYS_OFFSET))(this);
 		}
 
-		::System::Void TransferAndTraceMappingInfo(::System::UInt32 entranceID, ::System::UInt32 nearestTeleportMappingInfoID, ::System::UInt32 storyLineID, ::System::UInt32 contentID)
+		::System::Void TransferAndTraceMappingInfo(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_TRANSFERANDTRACEMAPPINGINFO_OFFSET))(this, entranceID, nearestTeleportMappingInfoID, storyLineID, contentID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_TRANSFERANDTRACEMAPPINGINFO_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void TransferAndTraceMonster(::RPG::Client::MapTrackMonsterData* mapTrackMonsterData, ::System::UInt32 entranceID, ::System::UInt32 nearestTeleportMappingInfoID, ::System::UInt32 storyLineID, ::System::UInt32 contentID)
+		::System::Void TransferAndTraceMonster(::RPG::Client::MapTrackMonsterData* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MapTrackMonsterData*, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_TRANSFERANDTRACEMONSTER_OFFSET))(this, mapTrackMonsterData, entranceID, nearestTeleportMappingInfoID, storyLineID, contentID);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MapTrackMonsterData*, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_TRANSFERANDTRACEMONSTER_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void GotoMonsterTrackID(::System::UInt32 monsterTrackID, ::System::UInt32 overrideMapInfoID)
+		::System::Void GotoMonsterTrackID(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_GOTOMONSTERTRACKID_OFFSET))(this, monsterTrackID, overrideMapInfoID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE_GOTOMONSTERTRACKID_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ClearMapCacheData()
@@ -176,24 +176,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__ADDNOTIFYHANDLERS_OFFSET))(this);
 		}
 
-		::System::Void _OnUILockSwitchMap(::System::Object* args)
+		::System::Void _OnUILockSwitchMap(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__ONUILOCKSWITCHMAP_OFFSET))(this, args);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__ONUILOCKSWITCHMAP_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnUIShowMappingInfoTrace(::System::Object* args)
+		::System::Void _OnUIShowMappingInfoTrace(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__ONUISHOWMAPPINGINFOTRACE_OFFSET))(this, args);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__ONUISHOWMAPPINGINFOTRACE_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnUIHideMappingInfoTrace(::System::Object* args)
+		::System::Void _OnUIHideMappingInfoTrace(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__ONUIHIDEMAPPINGINFOTRACE_OFFSET))(this, args);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__ONUIHIDEMAPPINGINFOTRACE_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnAdventurePhaseEntered(::System::Object* arg)
+		::System::Void _OnAdventurePhaseEntered(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__ONADVENTUREPHASEENTERED_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__ONADVENTUREPHASEENTERED_OFFSET))(this, a1);
 		}
 
 		::System::Void _ClearNotCurrentFloorTrackIcon()
@@ -201,9 +201,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__CLEARNOTCURRENTFLOORTRACKICON_OFFSET))(this);
 		}
 
-		::System::Void _OnFindChestInfoRefresh(::System::Object* arg)
+		::System::Void _OnFindChestInfoRefresh(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__ONFINDCHESTINFOREFRESH_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__ONFINDCHESTINFOREFRESH_OFFSET))(this, a1);
 		}
 
 		::System::Void _MarkAllMapDataDirty()
@@ -216,9 +216,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__UPDATEMONSTERTRACK_OFFSET))(this);
 		}
 
-		::RPG::Client::MapTrackMonsterData* _GetFirstValidMonster(::System::Nullable_1<::System::UInt32> floorID)
+		::RPG::Client::MapTrackMonsterData* _GetFirstValidMonster(::System::Nullable_1<::System::UInt32> a1)
 		{
-			return ((::RPG::Client::MapTrackMonsterData*(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__GETFIRSTVALIDMONSTER_OFFSET))(this, floorID);
+			return ((::RPG::Client::MapTrackMonsterData*(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__GETFIRSTVALIDMONSTER_OFFSET))(this, a1);
 		}
 
 		::System::Void _ClearTrackingMapMonsterData()
@@ -231,24 +231,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__UPDATEMONSTERTRACKDATALIST_OFFSET))(this);
 		}
 
-		::System::Boolean _IsMonsterInCurrentWorld(::System::UInt32 entranceID)
+		::System::Boolean _IsMonsterInCurrentWorld(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__ISMONSTERINCURRENTWORLD_OFFSET))(this, entranceID);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__ISMONSTERINCURRENTWORLD_OFFSET))(this, a1);
 		}
 
-		::System::Void _GotoMonsterTrackID_b__24_0(::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::IMapDataSource*>* x)
+		::System::Void _GotoMonsterTrackID_b__24_0(::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::IMapDataSource*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::IMapDataSource*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__GOTOMONSTERTRACKID_B__24_0_OFFSET))(this, x);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::IMapDataSource*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__GOTOMONSTERTRACKID_B__24_0_OFFSET))(this, a1);
 		}
 
-		::System::Void __UpdateMonsterTrack_b__35_0(::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::IMapDataSource*>* x)
+		::System::Void __UpdateMonsterTrack_b__35_0(::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::IMapDataSource*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::IMapDataSource*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE___UPDATEMONSTERTRACK_B__35_0_OFFSET))(this, x);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::IMapDataSource*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE___UPDATEMONSTERTRACK_B__35_0_OFFSET))(this, a1);
 		}
 
-		::System::Int32 __UpdateMonsterTrackDataList_b__38_0(::Class_1_4C612AB5D47425B6* x, ::Class_1_4C612AB5D47425B6* y)
+		::System::Int32 __UpdateMonsterTrackDataList_b__38_0(::Class_1_02F9DB4791491FD3* a1, ::Class_1_02F9DB4791491FD3* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_4C612AB5D47425B6*, ::Class_1_4C612AB5D47425B6*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE___UPDATEMONSTERTRACKDATALIST_B__38_0_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::Class_1_02F9DB4791491FD3*, ::Class_1_02F9DB4791491FD3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE___UPDATEMONSTERTRACKDATALIST_B__38_0_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __iFixBaseProxy__AddNotifyHandlers()

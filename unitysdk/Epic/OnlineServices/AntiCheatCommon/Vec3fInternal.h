@@ -5,19 +5,19 @@
 namespace Epic::OnlineServices::AntiCheatCommon { class Vec3f; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x545E40)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_GET_X_OFFSET UNITYSDK_OFFSET(0x608BC0)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_GET_Y_OFFSET UNITYSDK_OFFSET(0x608BD0)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_GET_Z_OFFSET UNITYSDK_OFFSET(0x8798B0)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x235A500)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x235A4E0)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_SET_X_OFFSET UNITYSDK_OFFSET(0x65A390)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_SET_Y_OFFSET UNITYSDK_OFFSET(0x22571B0)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_SET_Z_OFFSET UNITYSDK_OFFSET(0x2257280)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x5F2300)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_GET_X_OFFSET UNITYSDK_OFFSET(0x72BD60)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_GET_Y_OFFSET UNITYSDK_OFFSET(0x72BD70)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_GET_Z_OFFSET UNITYSDK_OFFSET(0xFD2FD0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x3904740)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x3904720)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_SET_X_OFFSET UNITYSDK_OFFSET(0x366BF30)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_SET_Y_OFFSET UNITYSDK_OFFSET(0x3740BE0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_SET_Z_OFFSET UNITYSDK_OFFSET(0x3740CB0)
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int Vec3fInternal_TypeDefinitionIndex = 42513;
+	inline static constexpr unsigned int Vec3fInternal_TypeDefinitionIndex = 43316;
 
 	struct alignas(4) Vec3fInternal
 	{
@@ -30,9 +30,9 @@ namespace Epic::OnlineServices::AntiCheatCommon
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_GET_X_OFFSET))(this);
 		}
 
-		::System::Void set_x(::System::Single value)
+		::System::Void set_x(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_SET_X_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_SET_X_OFFSET))(this, a1);
 		}
 
 		::System::Single get_y()
@@ -40,9 +40,9 @@ namespace Epic::OnlineServices::AntiCheatCommon
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_GET_Y_OFFSET))(this);
 		}
 
-		::System::Void set_y(::System::Single value)
+		::System::Void set_y(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_SET_Y_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_SET_Y_OFFSET))(this, a1);
 		}
 
 		::System::Single get_z()
@@ -50,19 +50,19 @@ namespace Epic::OnlineServices::AntiCheatCommon
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_GET_Z_OFFSET))(this);
 		}
 
-		::System::Void set_z(::System::Single value)
+		::System::Void set_z(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_SET_Z_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_SET_Z_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::AntiCheatCommon::Vec3f* other)
+		::System::Void Set(::Epic::OnlineServices::AntiCheatCommon::Vec3f* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::Vec3f*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::Vec3f*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_VEC3FINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

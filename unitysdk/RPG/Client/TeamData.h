@@ -7,128 +7,128 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::Client { class IAvatarInfoProvider; }
+namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class MemberData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TEAMDATA_CACHEREPLACEDMEMBER_OFFSET UNITYSDK_OFFSET(0x1053D620)
-#define RPG_CLIENT_TEAMDATA_CANREPLACEMEMBERAVATARS_OFFSET UNITYSDK_OFFSET(0x1053BFF0)
-#define RPG_CLIENT_TEAMDATA_CHECKISEMPTY_OFFSET UNITYSDK_OFFSET(0x1053CB70)
-#define RPG_CLIENT_TEAMDATA_CLEARMEMBERS_OFFSET UNITYSDK_OFFSET(0x1053CCD0)
-#define RPG_CLIENT_TEAMDATA_CLEARREPLACEDMEMBERCACHE_OFFSET UNITYSDK_OFFSET(0x1053D380)
-#define RPG_CLIENT_TEAMDATA_CLEARREPLACEDMEMBERIFREJOIN_OFFSET UNITYSDK_OFFSET(0x1053D6E0)
-#define RPG_CLIENT_TEAMDATA_CREATELOCALEDITTEAM_OFFSET UNITYSDK_OFFSET(0x169AD870)
-#define RPG_CLIENT_TEAMDATA_CREATEMAINLINETEAM_OFFSET UNITYSDK_OFFSET(0x169AD6D0)
-#define RPG_CLIENT_TEAMDATA_CREATERETURNTRIALAVATARTEAM_OFFSET UNITYSDK_OFFSET(0x169AD750)
-#define RPG_CLIENT_TEAMDATA_CREATESNAPSHOT_OFFSET UNITYSDK_OFFSET(0x169ADC10)
-#define RPG_CLIENT_TEAMDATA_CREATESTORYLINETEAM_OFFSET UNITYSDK_OFFSET(0x169AD800)
-#define RPG_CLIENT_TEAMDATA_CREATETEMPSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x1053ACD0)
-#define RPG_CLIENT_TEAMDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x169AD660)
-#define RPG_CLIENT_TEAMDATA_DELETESNAPSHOT_OFFSET UNITYSDK_OFFSET(0x1053B430)
-#define RPG_CLIENT_TEAMDATA_GETALLMEMBERAVATARS_OFFSET UNITYSDK_OFFSET(0x1053BE00)
-#define RPG_CLIENT_TEAMDATA_GETASSISTMEMBERSLOT_OFFSET UNITYSDK_OFFSET(0x1053CFE0)
-#define RPG_CLIENT_TEAMDATA_GETASSISTMEMBER_OFFSET UNITYSDK_OFFSET(0x1053CF60)
-#define RPG_CLIENT_TEAMDATA_GETCOMBATPOWER_OFFSET UNITYSDK_OFFSET(0x1053CE90)
-#define RPG_CLIENT_TEAMDATA_GETFIRSTEMPTYSLOTINDEX_OFFSET UNITYSDK_OFFSET(0x1053CA60)
-#define RPG_CLIENT_TEAMDATA_GETINDEXBYAVATARID_OFFSET UNITYSDK_OFFSET(0x1053C9A0)
-#define RPG_CLIENT_TEAMDATA_GETLEADERDAMAGETYPE_OFFSET UNITYSDK_OFFSET(0x1053CD60)
-#define RPG_CLIENT_TEAMDATA_GETMEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1053C710)
-#define RPG_CLIENT_TEAMDATA_GETMEMBERDATABYID_OFFSET UNITYSDK_OFFSET(0x1053C480)
-#define RPG_CLIENT_TEAMDATA_GETMEMBERDATABYINDEX_OFFSET UNITYSDK_OFFSET(0x1053C670)
-#define RPG_CLIENT_TEAMDATA_GETMEMBERDATABYROLEID_OFFSET UNITYSDK_OFFSET(0x1053C560)
-#define RPG_CLIENT_TEAMDATA_GETMEMBERDATA_OFFSET UNITYSDK_OFFSET(0x1053C410)
-#define RPG_CLIENT_TEAMDATA_GETSLOTBYAVATARID_OFFSET UNITYSDK_OFFSET(0x1053C830)
-#define RPG_CLIENT_TEAMDATA_GETSLOTBYAVATARREALID_OFFSET UNITYSDK_OFFSET(0x1053C8E0)
-#define RPG_CLIENT_TEAMDATA_GETSNAPSHOTORSELF_OFFSET UNITYSDK_OFFSET(0x1053BDB0)
-#define RPG_CLIENT_TEAMDATA_GETTRIALAVATARIDS_OFFSET UNITYSDK_OFFSET(0x1053D7A0)
-#define RPG_CLIENT_TEAMDATA_GET_ADVENTUREBUFFDATAS_OFFSET UNITYSDK_OFFSET(0x1053D960)
-#define RPG_CLIENT_TEAMDATA_GET_AVAILABLETRIALAVATARIDS_OFFSET UNITYSDK_OFFSET(0x1053DD70)
-#define RPG_CLIENT_TEAMDATA_GET_DISPLAYMAINLINEINDEX_OFFSET UNITYSDK_OFFSET(0x1053D9B0)
-#define RPG_CLIENT_TEAMDATA_GET_HASINITFROMLINEUP_OFFSET UNITYSDK_OFFSET(0x1053DCF0)
-#define RPG_CLIENT_TEAMDATA_GET_ISCANEDITTEAMNAME_OFFSET UNITYSDK_OFFSET(0x1053DDB0)
-#define RPG_CLIENT_TEAMDATA_GET_ISFULL_OFFSET UNITYSDK_OFFSET(0x1053DB90)
-#define RPG_CLIENT_TEAMDATA_GET_ISLOCALEDITTEAM_OFFSET UNITYSDK_OFFSET(0x1053DB60)
-#define RPG_CLIENT_TEAMDATA_GET_ISMAINCHARACTERONLYTEAM_OFFSET UNITYSDK_OFFSET(0x1053DB70)
-#define RPG_CLIENT_TEAMDATA_GET_ISMAINLINETEAM_OFFSET UNITYSDK_OFFSET(0x1053D970)
-#define RPG_CLIENT_TEAMDATA_GET_ISVIRTUAL_OFFSET UNITYSDK_OFFSET(0x1053DB40)
-#define RPG_CLIENT_TEAMDATA_GET_LEADERSLOTID_OFFSET UNITYSDK_OFFSET(0x1053DB30)
-#define RPG_CLIENT_TEAMDATA_GET_LINEUPTYPE_OFFSET UNITYSDK_OFFSET(0x1053D940)
-#define RPG_CLIENT_TEAMDATA_GET_LOCKEDAVATARIDS_OFFSET UNITYSDK_OFFSET(0x1053DD50)
-#define RPG_CLIENT_TEAMDATA_GET_MAINLINEINDEX_OFFSET UNITYSDK_OFFSET(0x1053D990)
-#define RPG_CLIENT_TEAMDATA_GET_MEMBERDATAS_OFFSET UNITYSDK_OFFSET(0x1053D920)
-#define RPG_CLIENT_TEAMDATA_GET_MEMBERLISTDIRTY_OFFSET UNITYSDK_OFFSET(0x1053DD10)
-#define RPG_CLIENT_TEAMDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1053B200)
-#define RPG_CLIENT_TEAMDATA_GET_PLANEID_OFFSET UNITYSDK_OFFSET(0x1053DA30)
-#define RPG_CLIENT_TEAMDATA_GET_REPLACEDMEMBERCACHE_OFFSET UNITYSDK_OFFSET(0x1053DD30)
-#define RPG_CLIENT_TEAMDATA_GET_STORYLINEID_OFFSET UNITYSDK_OFFSET(0x1053DA10)
-#define RPG_CLIENT_TEAMDATA_GET_TEAMLEADER_OFFSET UNITYSDK_OFFSET(0x1053CE10)
-#define RPG_CLIENT_TEAMDATA_GET_TEAMLIMITIDS_OFFSET UNITYSDK_OFFSET(0x1053DD90)
-#define RPG_CLIENT_TEAMDATA_LOCALREMOVEASSISTMEMBER_OFFSET UNITYSDK_OFFSET(0x1053D0D0)
-#define RPG_CLIENT_TEAMDATA_LOCALRESTOREREPLACEDMEMBER_OFFSET UNITYSDK_OFFSET(0x1053D5E0)
-#define RPG_CLIENT_TEAMDATA_SETSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x1053B480)
-#define RPG_CLIENT_TEAMDATA_SET_AVAILABLETRIALAVATARIDS_OFFSET UNITYSDK_OFFSET(0x1053DD80)
-#define RPG_CLIENT_TEAMDATA_SET_HASINITFROMLINEUP_OFFSET UNITYSDK_OFFSET(0x1053DD00)
-#define RPG_CLIENT_TEAMDATA_SET_ISCANEDITTEAMNAME_OFFSET UNITYSDK_OFFSET(0x1053DDC0)
-#define RPG_CLIENT_TEAMDATA_SET_ISMAINCHARACTERONLYTEAM_OFFSET UNITYSDK_OFFSET(0x1053DB80)
-#define RPG_CLIENT_TEAMDATA_SET_ISMAINLINETEAM_OFFSET UNITYSDK_OFFSET(0x1053D980)
-#define RPG_CLIENT_TEAMDATA_SET_ISVIRTUAL_OFFSET UNITYSDK_OFFSET(0x1053DB50)
-#define RPG_CLIENT_TEAMDATA_SET_LINEUPTYPE_OFFSET UNITYSDK_OFFSET(0x1053D950)
-#define RPG_CLIENT_TEAMDATA_SET_LOCKEDAVATARIDS_OFFSET UNITYSDK_OFFSET(0x1053DD60)
-#define RPG_CLIENT_TEAMDATA_SET_MAINLINEINDEX_OFFSET UNITYSDK_OFFSET(0x1053D9A0)
-#define RPG_CLIENT_TEAMDATA_SET_MEMBERDATAS_OFFSET UNITYSDK_OFFSET(0x1053D930)
-#define RPG_CLIENT_TEAMDATA_SET_MEMBERLISTDIRTY_OFFSET UNITYSDK_OFFSET(0x1053DD20)
-#define RPG_CLIENT_TEAMDATA_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1053B3C0)
-#define RPG_CLIENT_TEAMDATA_SET_PLANEID_OFFSET UNITYSDK_OFFSET(0x1053DA40)
-#define RPG_CLIENT_TEAMDATA_SET_REPLACEDMEMBERCACHE_OFFSET UNITYSDK_OFFSET(0x1053DD40)
-#define RPG_CLIENT_TEAMDATA_SET_STORYLINEID_OFFSET UNITYSDK_OFFSET(0x1053DA20)
-#define RPG_CLIENT_TEAMDATA_SET_TEAMLIMITIDS_OFFSET UNITYSDK_OFFSET(0x1053DDA0)
-#define RPG_CLIENT_TEAMDATA_SWITCHTEAMLEADERTO_OFFSET UNITYSDK_OFFSET(0x1053C170)
-#define RPG_CLIENT_TEAMDATA_TRYREMOVEMEMBERBYID_OFFSET UNITYSDK_OFFSET(0x1053C340)
-#define RPG_CLIENT_TEAMDATA_UPDATEMEMBERSINSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x1053B4D0)
-#define RPG_CLIENT_TEAMDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1053DDD0)
-#define RPG_CLIENT_TEAMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1053AEF0)
-#define RPG_CLIENT_TEAMDATA__LOCALSWITCHLEADERWHENMEMBERLEAVE_OFFSET UNITYSDK_OFFSET(0x1053D3D0)
+#define RPG_CLIENT_TEAMDATA_CACHEREPLACEDMEMBER_OFFSET UNITYSDK_OFFSET(0x141DE730)
+#define RPG_CLIENT_TEAMDATA_CANREPLACEMEMBERAVATARS_OFFSET UNITYSDK_OFFSET(0x141DD1E0)
+#define RPG_CLIENT_TEAMDATA_CHECKISEMPTY_OFFSET UNITYSDK_OFFSET(0x141DDD10)
+#define RPG_CLIENT_TEAMDATA_CLEARMEMBERS_OFFSET UNITYSDK_OFFSET(0x141DDE70)
+#define RPG_CLIENT_TEAMDATA_CLEARREPLACEDMEMBERCACHE_OFFSET UNITYSDK_OFFSET(0x141DE490)
+#define RPG_CLIENT_TEAMDATA_CLEARREPLACEDMEMBERIFREJOIN_OFFSET UNITYSDK_OFFSET(0x141DE7F0)
+#define RPG_CLIENT_TEAMDATA_CREATELOCALEDITTEAM_OFFSET UNITYSDK_OFFSET(0x141DBCF0)
+#define RPG_CLIENT_TEAMDATA_CREATEMAINLINETEAM_OFFSET UNITYSDK_OFFSET(0x141DBB60)
+#define RPG_CLIENT_TEAMDATA_CREATERETURNTRIALAVATARTEAM_OFFSET UNITYSDK_OFFSET(0x141DBBD0)
+#define RPG_CLIENT_TEAMDATA_CREATESNAPSHOT_OFFSET UNITYSDK_OFFSET(0x141DBF80)
+#define RPG_CLIENT_TEAMDATA_CREATESTORYLINETEAM_OFFSET UNITYSDK_OFFSET(0x141DBC80)
+#define RPG_CLIENT_TEAMDATA_CREATETEMPSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x141DBFE0)
+#define RPG_CLIENT_TEAMDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x141DB860)
+#define RPG_CLIENT_TEAMDATA_DELETESNAPSHOT_OFFSET UNITYSDK_OFFSET(0x141DC340)
+#define RPG_CLIENT_TEAMDATA_GETALLMEMBERAVATARS_OFFSET UNITYSDK_OFFSET(0x141DCF50)
+#define RPG_CLIENT_TEAMDATA_GETASSISTMEMBERSLOT_OFFSET UNITYSDK_OFFSET(0x141DE140)
+#define RPG_CLIENT_TEAMDATA_GETASSISTMEMBER_OFFSET UNITYSDK_OFFSET(0x141DE0D0)
+#define RPG_CLIENT_TEAMDATA_GETCOMBATPOWER_OFFSET UNITYSDK_OFFSET(0x141DE010)
+#define RPG_CLIENT_TEAMDATA_GETFIRSTEMPTYSLOTINDEX_OFFSET UNITYSDK_OFFSET(0x141DDC10)
+#define RPG_CLIENT_TEAMDATA_GETINDEXBYAVATARID_OFFSET UNITYSDK_OFFSET(0x141DDB60)
+#define RPG_CLIENT_TEAMDATA_GETLEADERDAMAGETYPE_OFFSET UNITYSDK_OFFSET(0x141DDEF0)
+#define RPG_CLIENT_TEAMDATA_GETMEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x141DD8E0)
+#define RPG_CLIENT_TEAMDATA_GETMEMBERDATABYID_OFFSET UNITYSDK_OFFSET(0x141DD680)
+#define RPG_CLIENT_TEAMDATA_GETMEMBERDATABYINDEX_OFFSET UNITYSDK_OFFSET(0x141DD840)
+#define RPG_CLIENT_TEAMDATA_GETMEMBERDATABYROLEID_OFFSET UNITYSDK_OFFSET(0x141DD740)
+#define RPG_CLIENT_TEAMDATA_GETMEMBERDATA_OFFSET UNITYSDK_OFFSET(0x141DD610)
+#define RPG_CLIENT_TEAMDATA_GETSLOTBYAVATARID_OFFSET UNITYSDK_OFFSET(0x141DDA00)
+#define RPG_CLIENT_TEAMDATA_GETSLOTBYAVATARREALID_OFFSET UNITYSDK_OFFSET(0x141DDAB0)
+#define RPG_CLIENT_TEAMDATA_GETSNAPSHOTORSELF_OFFSET UNITYSDK_OFFSET(0x141DCF00)
+#define RPG_CLIENT_TEAMDATA_GETTRIALAVATARIDS_OFFSET UNITYSDK_OFFSET(0x141DE8B0)
+#define RPG_CLIENT_TEAMDATA_GET_ADVENTUREBUFFDATAS_OFFSET UNITYSDK_OFFSET(0x141DEAA0)
+#define RPG_CLIENT_TEAMDATA_GET_AVAILABLETRIALAVATARIDS_OFFSET UNITYSDK_OFFSET(0x141DEEB0)
+#define RPG_CLIENT_TEAMDATA_GET_DISPLAYMAINLINEINDEX_OFFSET UNITYSDK_OFFSET(0x141DEAF0)
+#define RPG_CLIENT_TEAMDATA_GET_HASINITFROMLINEUP_OFFSET UNITYSDK_OFFSET(0x141DEE30)
+#define RPG_CLIENT_TEAMDATA_GET_ISCANEDITTEAMNAME_OFFSET UNITYSDK_OFFSET(0x141DEEF0)
+#define RPG_CLIENT_TEAMDATA_GET_ISFULL_OFFSET UNITYSDK_OFFSET(0x141DECD0)
+#define RPG_CLIENT_TEAMDATA_GET_ISLOCALEDITTEAM_OFFSET UNITYSDK_OFFSET(0x141DECA0)
+#define RPG_CLIENT_TEAMDATA_GET_ISMAINCHARACTERONLYTEAM_OFFSET UNITYSDK_OFFSET(0x141DECB0)
+#define RPG_CLIENT_TEAMDATA_GET_ISMAINLINETEAM_OFFSET UNITYSDK_OFFSET(0x141DEAB0)
+#define RPG_CLIENT_TEAMDATA_GET_ISVIRTUAL_OFFSET UNITYSDK_OFFSET(0x141DEC80)
+#define RPG_CLIENT_TEAMDATA_GET_LEADERSLOTID_OFFSET UNITYSDK_OFFSET(0x141DEC70)
+#define RPG_CLIENT_TEAMDATA_GET_LINEUPTYPE_OFFSET UNITYSDK_OFFSET(0x141DEA80)
+#define RPG_CLIENT_TEAMDATA_GET_LOCKEDAVATARIDS_OFFSET UNITYSDK_OFFSET(0x141DEE90)
+#define RPG_CLIENT_TEAMDATA_GET_MAINLINEINDEX_OFFSET UNITYSDK_OFFSET(0x141DEAD0)
+#define RPG_CLIENT_TEAMDATA_GET_MEMBERDATAS_OFFSET UNITYSDK_OFFSET(0x141DEA60)
+#define RPG_CLIENT_TEAMDATA_GET_MEMBERLISTDIRTY_OFFSET UNITYSDK_OFFSET(0x141DEE50)
+#define RPG_CLIENT_TEAMDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x141DC1E0)
+#define RPG_CLIENT_TEAMDATA_GET_PLANEID_OFFSET UNITYSDK_OFFSET(0x141DEB70)
+#define RPG_CLIENT_TEAMDATA_GET_REPLACEDMEMBERCACHE_OFFSET UNITYSDK_OFFSET(0x141DEE70)
+#define RPG_CLIENT_TEAMDATA_GET_STORYLINEID_OFFSET UNITYSDK_OFFSET(0x141DEB50)
+#define RPG_CLIENT_TEAMDATA_GET_TEAMLEADER_OFFSET UNITYSDK_OFFSET(0x141DDFA0)
+#define RPG_CLIENT_TEAMDATA_GET_TEAMLIMITIDS_OFFSET UNITYSDK_OFFSET(0x141DEED0)
+#define RPG_CLIENT_TEAMDATA_LOCALREMOVEASSISTMEMBER_OFFSET UNITYSDK_OFFSET(0x141DE220)
+#define RPG_CLIENT_TEAMDATA_LOCALRESTOREREPLACEDMEMBER_OFFSET UNITYSDK_OFFSET(0x141DE6F0)
+#define RPG_CLIENT_TEAMDATA_SETSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x141DC390)
+#define RPG_CLIENT_TEAMDATA_SET_AVAILABLETRIALAVATARIDS_OFFSET UNITYSDK_OFFSET(0x141DEEC0)
+#define RPG_CLIENT_TEAMDATA_SET_HASINITFROMLINEUP_OFFSET UNITYSDK_OFFSET(0x141DEE40)
+#define RPG_CLIENT_TEAMDATA_SET_ISCANEDITTEAMNAME_OFFSET UNITYSDK_OFFSET(0x141DEF00)
+#define RPG_CLIENT_TEAMDATA_SET_ISMAINCHARACTERONLYTEAM_OFFSET UNITYSDK_OFFSET(0x141DECC0)
+#define RPG_CLIENT_TEAMDATA_SET_ISMAINLINETEAM_OFFSET UNITYSDK_OFFSET(0x141DEAC0)
+#define RPG_CLIENT_TEAMDATA_SET_ISVIRTUAL_OFFSET UNITYSDK_OFFSET(0x141DEC90)
+#define RPG_CLIENT_TEAMDATA_SET_LINEUPTYPE_OFFSET UNITYSDK_OFFSET(0x141DEA90)
+#define RPG_CLIENT_TEAMDATA_SET_LOCKEDAVATARIDS_OFFSET UNITYSDK_OFFSET(0x141DEEA0)
+#define RPG_CLIENT_TEAMDATA_SET_MAINLINEINDEX_OFFSET UNITYSDK_OFFSET(0x141DEAE0)
+#define RPG_CLIENT_TEAMDATA_SET_MEMBERDATAS_OFFSET UNITYSDK_OFFSET(0x141DEA70)
+#define RPG_CLIENT_TEAMDATA_SET_MEMBERLISTDIRTY_OFFSET UNITYSDK_OFFSET(0x141DEE60)
+#define RPG_CLIENT_TEAMDATA_SET_NAME_OFFSET UNITYSDK_OFFSET(0x141DC2D0)
+#define RPG_CLIENT_TEAMDATA_SET_PLANEID_OFFSET UNITYSDK_OFFSET(0x141DEB80)
+#define RPG_CLIENT_TEAMDATA_SET_REPLACEDMEMBERCACHE_OFFSET UNITYSDK_OFFSET(0x141DEE80)
+#define RPG_CLIENT_TEAMDATA_SET_STORYLINEID_OFFSET UNITYSDK_OFFSET(0x141DEB60)
+#define RPG_CLIENT_TEAMDATA_SET_TEAMLIMITIDS_OFFSET UNITYSDK_OFFSET(0x141DEEE0)
+#define RPG_CLIENT_TEAMDATA_SWITCHTEAMLEADERTO_OFFSET UNITYSDK_OFFSET(0x141DD370)
+#define RPG_CLIENT_TEAMDATA_TRYREMOVEMEMBERBYID_OFFSET UNITYSDK_OFFSET(0x141DD550)
+#define RPG_CLIENT_TEAMDATA_UPDATEMEMBERSINSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x141DC3E0)
+#define RPG_CLIENT_TEAMDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x141DEF10)
+#define RPG_CLIENT_TEAMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x141DB8D0)
+#define RPG_CLIENT_TEAMDATA__LOCALSWITCHLEADERWHENMEMBERLEAVE_OFFSET UNITYSDK_OFFSET(0x141DE4E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamData_TypeDefinitionIndex = 62801;
+	inline static constexpr unsigned int TeamData_TypeDefinitionIndex = 63735;
 
 	class TeamData : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::TeamData** StaticGet_EmptyTeamData()
 		{
-			return (::RPG::Client::TeamData**)Il2CppClass::FromTypeDefinitionIndex(TeamData_TypeDefinitionIndex)->GetStaticField(0x170C0);
+			return (::RPG::Client::TeamData**)Il2CppClass::FromTypeDefinitionIndex(TeamData_TypeDefinitionIndex)->GetStaticField(0xD160);
 		}
 		static ::System::UInt32* StaticGet_MAX_MEMBER_COUNT()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(TeamData_TypeDefinitionIndex)->GetStaticField(0x6640);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(TeamData_TypeDefinitionIndex)->GetStaticField(0x4820);
 		}
 		// static const ::System::Int32 s_InvalidTeamLeaderSlotID = 0xFFFFFFFF; // 0x0
-		::System::Collections::Generic::List_1<::RPG::Client::AdventureBuffData>* _AdventureBuffDatas; // 0x10
-		::Il2CppArray<::RPG::Client::MemberData*>* _MemberDatas; // 0x18
-		::System::Collections::Generic::List_1<::System::UInt32>* _TeamLimitIDs_k__BackingField; // 0x20
-		::System::String* _Name; // 0x28
-		::RPG::Client::TeamData* _SnapShotData; // 0x30
-		::System::Collections::Generic::List_1<::System::UInt32>* _LockedAvatarIDs_k__BackingField; // 0x38
-		::RPG::Client::MemberData* _ReplacedMemberCache_k__BackingField; // 0x40
-		::System::Collections::Generic::List_1<::System::UInt32>* _AvailableTrialAvatarIDs_k__BackingField; // 0x48
-		::System::UInt32 _PlaneID_k__BackingField; // 0x50
-		::RPG::Client::TextID _NameTextID; // 0x58
-		::RPG::GameCore::FixPoint MPMax; // 0x68
-		::System::UInt32 _MainLineIndex_k__BackingField; // 0x70
-		::System::Int32 _leaderSlotIdId; // 0x74
-		::System::Boolean _IsVirtual; // 0x78
-		::System::Boolean _IsMainlineTeam_k__BackingField; // 0x79
-		::System::Boolean _MemberListDirty_k__BackingField; // 0x7A
-		::System::Boolean _HasInitFromLineup_k__BackingField; // 0x7B
-		::System::Boolean _IsMainCharacterOnlyTeam_k__BackingField; // 0x7C
-		::System::Boolean _IsLocalEditTeam; // 0x7D
-		::System::Boolean _IsCanEditTeamName_k__BackingField; // 0x7E
+		::RPG::Client::MemberData* _ReplacedMemberCache_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::AdventureBuffData>* _AdventureBuffDatas; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* _LockedAvatarIDs_k__BackingField; // 0x20
+		::System::Collections::Generic::List_1<::System::UInt32>* _TeamLimitIDs_k__BackingField; // 0x28
+		::System::Collections::Generic::List_1<::System::UInt32>* _AvailableTrialAvatarIDs_k__BackingField; // 0x30
+		::RPG::Client::TeamData* _SnapShotData; // 0x38
+		::System::String* _Name; // 0x40
+		::Il2CppArray<::RPG::Client::MemberData*>* _MemberDatas; // 0x48
+		::System::Boolean _IsMainlineTeam_k__BackingField; // 0x50
+		::System::Boolean _IsVirtual; // 0x51
+		::System::Boolean _HasInitFromLineup_k__BackingField; // 0x52
+		::System::UInt32 _MainLineIndex_k__BackingField; // 0x54
+		::RPG::GameCore::FixPoint MPMax; // 0x58
+		::System::UInt32 _PlaneID_k__BackingField; // 0x60
+		::System::Int32 _leaderSlotIdId; // 0x64
+		::RPG::Client::TextID _NameTextID; // 0x68
+		::Enum_3_63C076C405BE0674_2 _LineupType_k__BackingField; // 0x78
 		::RPG::GameCore::FixPoint MP; // 0x80
-		::System::UInt32 _StoryLineID_k__BackingField; // 0x88
-		::Enum_3_63C076C405BE0674_2 _LineupType_k__BackingField; // 0x8C
+		::System::Boolean _IsMainCharacterOnlyTeam_k__BackingField; // 0x88
+		::System::Boolean _MemberListDirty_k__BackingField; // 0x89
+		::System::Boolean _IsCanEditTeamName_k__BackingField; // 0x8A
+		::System::Boolean _IsLocalEditTeam; // 0x8B
+		::System::UInt32 _StoryLineID_k__BackingField; // 0x8C
 
 		::System::Void _ctor()
 		{
@@ -140,14 +140,14 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA__CCTOR_OFFSET))();
 		}
 
-		static ::RPG::Client::TeamData* Create(::Enum_3_63C076C405BE0674_2 extraLineupType)
+		static ::RPG::Client::TeamData* Create(::Enum_3_63C076C405BE0674_2 a1)
 		{
-			return ((::RPG::Client::TeamData*(*)(::Enum_3_63C076C405BE0674_2))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_CREATE_OFFSET))(extraLineupType);
+			return ((::RPG::Client::TeamData*(*)(::Enum_3_63C076C405BE0674_2))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_CREATE_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::TeamData* CreateMainlineTeam(::System::UInt32 teamIndex)
+		static ::RPG::Client::TeamData* CreateMainlineTeam(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::TeamData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_CREATEMAINLINETEAM_OFFSET))(teamIndex);
+			return ((::RPG::Client::TeamData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_CREATEMAINLINETEAM_OFFSET))(a1);
 		}
 
 		static ::RPG::Client::TeamData* CreateReturnTrialAvatarTeam()
@@ -155,14 +155,14 @@ namespace RPG::Client
 			return ((::RPG::Client::TeamData*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_CREATERETURNTRIALAVATARTEAM_OFFSET))();
 		}
 
-		static ::RPG::Client::TeamData* CreateStoryLineTeam(::System::UInt32 storyLineID)
+		static ::RPG::Client::TeamData* CreateStoryLineTeam(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::TeamData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_CREATESTORYLINETEAM_OFFSET))(storyLineID);
+			return ((::RPG::Client::TeamData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_CREATESTORYLINETEAM_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::TeamData* CreateLocalEditTeam(::System::Collections::Generic::List_1<::System::UInt32>* trialAvatarIDs, ::System::Boolean isCreateTeamData, ::Enum_3_63C076C405BE0674_2 lineupType)
+		static ::RPG::Client::TeamData* CreateLocalEditTeam(::System::Collections::Generic::List_1<::System::UInt32>* a1, ::System::Boolean a2, ::Enum_3_63C076C405BE0674_2 a3)
 		{
-			return ((::RPG::Client::TeamData*(*)(::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Boolean, ::Enum_3_63C076C405BE0674_2))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_CREATELOCALEDITTEAM_OFFSET))(trialAvatarIDs, isCreateTeamData, lineupType);
+			return ((::RPG::Client::TeamData*(*)(::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Boolean, ::Enum_3_63C076C405BE0674_2))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_CREATELOCALEDITTEAM_OFFSET))(a1, a2, a3);
 		}
 
 		::System::Void CreateSnapShot()
@@ -180,9 +180,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_DELETESNAPSHOT_OFFSET))(this);
 		}
 
-		::System::Void SetSnapShot(::RPG::Client::TeamData* snapshot)
+		::System::Void SetSnapShot(::RPG::Client::TeamData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TeamData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SETSNAPSHOT_OFFSET))(this, snapshot);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TeamData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SETSNAPSHOT_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateMembersInSnapshot()
@@ -195,44 +195,44 @@ namespace RPG::Client
 			return ((::RPG::Client::TeamData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GETSNAPSHOTORSELF_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>* GetAllMemberAvatars(::System::Boolean includeTrialAvatar)
+		::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>* GetAllMemberAvatars(::System::Boolean a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GETALLMEMBERAVATARS_OFFSET))(this, includeTrialAvatar);
+			return ((::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GETALLMEMBERAVATARS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CanReplaceMemberAvatars(::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>* targetAvatars)
+		::System::Boolean CanReplaceMemberAvatars(::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_CANREPLACEMEMBERAVATARS_OFFSET))(this, targetAvatars);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_CANREPLACEMEMBERAVATARS_OFFSET))(this, a1);
 		}
 
-		::System::Void SwitchTeamLeaderTo(::System::Int32 newLeaderSlotID, ::System::Boolean isForce)
+		::System::Void SwitchTeamLeaderTo(::System::Int32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SWITCHTEAMLEADERTO_OFFSET))(this, newLeaderSlotID, isForce);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SWITCHTEAMLEADERTO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void TryRemoveMemberById(::System::UInt32 avatarID)
+		::System::Void TryRemoveMemberById(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_TRYREMOVEMEMBERBYID_OFFSET))(this, avatarID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_TRYREMOVEMEMBERBYID_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::MemberData* GetMemberData(::System::UInt32 slotID)
+		::RPG::Client::MemberData* GetMemberData(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::MemberData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GETMEMBERDATA_OFFSET))(this, slotID);
+			return ((::RPG::Client::MemberData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GETMEMBERDATA_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::MemberData* GetMemberDataByID(::System::UInt32 avatarID)
+		::RPG::Client::MemberData* GetMemberDataByID(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::MemberData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GETMEMBERDATABYID_OFFSET))(this, avatarID);
+			return ((::RPG::Client::MemberData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GETMEMBERDATABYID_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::MemberData* GetMemberDataByRoleID(::System::UInt32 roleID)
+		::RPG::Client::MemberData* GetMemberDataByRoleID(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::MemberData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GETMEMBERDATABYROLEID_OFFSET))(this, roleID);
+			return ((::RPG::Client::MemberData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GETMEMBERDATABYROLEID_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::MemberData* GetMemberDataByIndex(::System::UInt32 indexID)
+		::RPG::Client::MemberData* GetMemberDataByIndex(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::MemberData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GETMEMBERDATABYINDEX_OFFSET))(this, indexID);
+			return ((::RPG::Client::MemberData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GETMEMBERDATABYINDEX_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetMemberCount()
@@ -240,19 +240,19 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GETMEMBERCOUNT_OFFSET))(this);
 		}
 
-		::System::Int32 GetSlotByAvatarID(::System::UInt32 avatarID)
+		::System::Int32 GetSlotByAvatarID(::System::UInt32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GETSLOTBYAVATARID_OFFSET))(this, avatarID);
+			return ((::System::Int32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GETSLOTBYAVATARID_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetSlotByAvatarRealID(::System::UInt32 avatarID)
+		::System::Int32 GetSlotByAvatarRealID(::System::UInt32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GETSLOTBYAVATARREALID_OFFSET))(this, avatarID);
+			return ((::System::Int32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GETSLOTBYAVATARREALID_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetIndexByAvatarID(::System::UInt32 avatarID)
+		::System::Int32 GetIndexByAvatarID(::System::UInt32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GETINDEXBYAVATARID_OFFSET))(this, avatarID);
+			return ((::System::Int32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GETINDEXBYAVATARID_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetFirstEmptySlotIndex()
@@ -305,9 +305,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_CACHEREPLACEDMEMBER_OFFSET))(this);
 		}
 
-		::System::Void ClearReplacedMemberIfReJoin(::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>* avatars)
+		::System::Void ClearReplacedMemberIfReJoin(::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_CLEARREPLACEDMEMBERIFREJOIN_OFFSET))(this, avatars);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_CLEARREPLACEDMEMBERIFREJOIN_OFFSET))(this, a1);
 		}
 
 		::System::Void ClearReplacedMemberCache()
@@ -320,9 +320,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GETTRIALAVATARIDS_OFFSET))(this);
 		}
 
-		::System::Void _LocalSwitchLeaderWhenMemberLeave(::RPG::Client::MemberData* memberData, ::System::Int32 assistMemberSlot)
+		::System::Void _LocalSwitchLeaderWhenMemberLeave(::RPG::Client::MemberData* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MemberData*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA__LOCALSWITCHLEADERWHENMEMBERLEAVE_OFFSET))(this, memberData, assistMemberSlot);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MemberData*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA__LOCALSWITCHLEADERWHENMEMBERLEAVE_OFFSET))(this, a1, a2);
 		}
 
 		::Il2CppArray<::RPG::Client::MemberData*>* get_MemberDatas()
@@ -330,9 +330,9 @@ namespace RPG::Client
 			return ((::Il2CppArray<::RPG::Client::MemberData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GET_MEMBERDATAS_OFFSET))(this);
 		}
 
-		::System::Void set_MemberDatas(::Il2CppArray<::RPG::Client::MemberData*>* value)
+		::System::Void set_MemberDatas(::Il2CppArray<::RPG::Client::MemberData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::Client::MemberData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_MEMBERDATAS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::Client::MemberData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_MEMBERDATAS_OFFSET))(this, a1);
 		}
 
 		::Enum_3_63C076C405BE0674_2 get_LineupType()
@@ -340,9 +340,9 @@ namespace RPG::Client
 			return ((::Enum_3_63C076C405BE0674_2(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GET_LINEUPTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_LineupType(::Enum_3_63C076C405BE0674_2 value)
+		::System::Void set_LineupType(::Enum_3_63C076C405BE0674_2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_63C076C405BE0674_2))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_LINEUPTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Enum_3_63C076C405BE0674_2))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_LINEUPTYPE_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::AdventureBuffData>* get_AdventureBuffDatas()
@@ -355,9 +355,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GET_ISMAINLINETEAM_OFFSET))(this);
 		}
 
-		::System::Void set_IsMainlineTeam(::System::Boolean value)
+		::System::Void set_IsMainlineTeam(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_ISMAINLINETEAM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_ISMAINLINETEAM_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_MainLineIndex()
@@ -365,9 +365,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GET_MAINLINEINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_MainLineIndex(::System::UInt32 value)
+		::System::Void set_MainLineIndex(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_MAINLINEINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_MAINLINEINDEX_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_DisplayMainLineIndex()
@@ -380,9 +380,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GET_STORYLINEID_OFFSET))(this);
 		}
 
-		::System::Void set_StoryLineID(::System::UInt32 value)
+		::System::Void set_StoryLineID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_STORYLINEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_STORYLINEID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_PlaneID()
@@ -390,9 +390,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GET_PLANEID_OFFSET))(this);
 		}
 
-		::System::Void set_PlaneID(::System::UInt32 value)
+		::System::Void set_PlaneID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_PLANEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_PLANEID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Name()
@@ -400,9 +400,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Void set_Name(::System::String* value)
+		::System::Void set_Name(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_NAME_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_LeaderSlotID()
@@ -420,9 +420,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GET_ISVIRTUAL_OFFSET))(this);
 		}
 
-		::System::Void set_IsVirtual(::System::Boolean value)
+		::System::Void set_IsVirtual(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_ISVIRTUAL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_ISVIRTUAL_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsLocalEditTeam()
@@ -435,9 +435,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GET_ISMAINCHARACTERONLYTEAM_OFFSET))(this);
 		}
 
-		::System::Void set_IsMainCharacterOnlyTeam(::System::Boolean value)
+		::System::Void set_IsMainCharacterOnlyTeam(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_ISMAINCHARACTERONLYTEAM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_ISMAINCHARACTERONLYTEAM_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsFull()
@@ -450,9 +450,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GET_HASINITFROMLINEUP_OFFSET))(this);
 		}
 
-		::System::Void set_HasInitFromLineup(::System::Boolean value)
+		::System::Void set_HasInitFromLineup(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_HASINITFROMLINEUP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_HASINITFROMLINEUP_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_MemberListDirty()
@@ -460,9 +460,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GET_MEMBERLISTDIRTY_OFFSET))(this);
 		}
 
-		::System::Void set_MemberListDirty(::System::Boolean value)
+		::System::Void set_MemberListDirty(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_MEMBERLISTDIRTY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_MEMBERLISTDIRTY_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MemberData* get_ReplacedMemberCache()
@@ -470,9 +470,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MemberData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GET_REPLACEDMEMBERCACHE_OFFSET))(this);
 		}
 
-		::System::Void set_ReplacedMemberCache(::RPG::Client::MemberData* value)
+		::System::Void set_ReplacedMemberCache(::RPG::Client::MemberData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MemberData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_REPLACEDMEMBERCACHE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MemberData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_REPLACEDMEMBERCACHE_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* get_LockedAvatarIDs()
@@ -480,9 +480,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GET_LOCKEDAVATARIDS_OFFSET))(this);
 		}
 
-		::System::Void set_LockedAvatarIDs(::System::Collections::Generic::List_1<::System::UInt32>* value)
+		::System::Void set_LockedAvatarIDs(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_LOCKEDAVATARIDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_LOCKEDAVATARIDS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* get_AvailableTrialAvatarIDs()
@@ -490,9 +490,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GET_AVAILABLETRIALAVATARIDS_OFFSET))(this);
 		}
 
-		::System::Void set_AvailableTrialAvatarIDs(::System::Collections::Generic::List_1<::System::UInt32>* value)
+		::System::Void set_AvailableTrialAvatarIDs(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_AVAILABLETRIALAVATARIDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_AVAILABLETRIALAVATARIDS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* get_TeamLimitIDs()
@@ -500,9 +500,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GET_TEAMLIMITIDS_OFFSET))(this);
 		}
 
-		::System::Void set_TeamLimitIDs(::System::Collections::Generic::List_1<::System::UInt32>* value)
+		::System::Void set_TeamLimitIDs(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_TEAMLIMITIDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_TEAMLIMITIDS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsCanEditTeamName()
@@ -510,9 +510,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_GET_ISCANEDITTEAMNAME_OFFSET))(this);
 		}
 
-		::System::Void set_IsCanEditTeamName(::System::Boolean value)
+		::System::Void set_IsCanEditTeamName(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_ISCANEDITTEAMNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMDATA_SET_ISCANEDITTEAMNAME_OFFSET))(this, a1);
 		}
 	};
 }

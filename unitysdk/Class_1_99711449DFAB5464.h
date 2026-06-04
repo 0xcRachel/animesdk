@@ -8,15 +8,15 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_99711449DFAB5464_GET_BATTLEREPLAYKEY_OFFSET UNITYSDK_OFFSET(0x101B9120)
-#define CLASS_1_99711449DFAB5464_GET_REPLAYINFO_OFFSET UNITYSDK_OFFSET(0x101B9140)
-#define CLASS_1_99711449DFAB5464_METHOD_1_169C9AE8F88E4F64_OFFSET UNITYSDK_OFFSET(0x101B9080)
-#define CLASS_1_99711449DFAB5464_METHOD_1_4DDD3DE2D159DC6E_OFFSET UNITYSDK_OFFSET(0x101B8D20)
-#define CLASS_1_99711449DFAB5464_SET_BATTLEREPLAYKEY_OFFSET UNITYSDK_OFFSET(0x101B9130)
-#define CLASS_1_99711449DFAB5464_SET_REPLAYINFO_OFFSET UNITYSDK_OFFSET(0x101B9150)
-#define CLASS_1_99711449DFAB5464__CTOR_OFFSET UNITYSDK_OFFSET(0x101B9110)
+#define CLASS_1_99711449DFAB5464_GET_BATTLEREPLAYKEY_OFFSET UNITYSDK_OFFSET(0x13B97550)
+#define CLASS_1_99711449DFAB5464_GET_REPLAYINFO_OFFSET UNITYSDK_OFFSET(0x13B97570)
+#define CLASS_1_99711449DFAB5464_METHOD_1_169C9AE8F88E4F64_OFFSET UNITYSDK_OFFSET(0x13B974B0)
+#define CLASS_1_99711449DFAB5464_METHOD_1_E07A4E6DDA4C1AF7_OFFSET UNITYSDK_OFFSET(0x13B970E0)
+#define CLASS_1_99711449DFAB5464_SET_BATTLEREPLAYKEY_OFFSET UNITYSDK_OFFSET(0x13B97560)
+#define CLASS_1_99711449DFAB5464_SET_REPLAYINFO_OFFSET UNITYSDK_OFFSET(0x13B97580)
+#define CLASS_1_99711449DFAB5464__CTOR_OFFSET UNITYSDK_OFFSET(0x13B97540)
 
-inline static constexpr unsigned int Class_1_99711449DFAB5464_TypeDefinitionIndex = 61476;
+inline static constexpr unsigned int Class_1_99711449DFAB5464_TypeDefinitionIndex = 62409;
 
 class Class_1_99711449DFAB5464 : public ::System::Object
 {
@@ -29,9 +29,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_99711449DFAB5464__CTOR_OFFSET))(this);
 	}
 
-	static ::System::Collections::Generic::List_1<::Class_1_99711449DFAB5464*>* Method_1_4DDD3DE2D159DC6E(::System::Collections::Generic::IEnumerable_1<::Class_1_8654F1DF226F6DE3_2*>* a1)
+	static ::System::Collections::Generic::List_1<::Class_1_99711449DFAB5464*>* Method_1_E07A4E6DDA4C1AF7(::System::Collections::Generic::IEnumerable_1<::Class_1_8654F1DF226F6DE3_2*>* a1)
 	{
-		return ((::System::Collections::Generic::List_1<::Class_1_99711449DFAB5464*>*(*)(::System::Collections::Generic::IEnumerable_1<::Class_1_8654F1DF226F6DE3_2*>*))((::PBYTE)hIl2Cpp + CLASS_1_99711449DFAB5464_METHOD_1_4DDD3DE2D159DC6E_OFFSET))(a1);
+		return ((::System::Collections::Generic::List_1<::Class_1_99711449DFAB5464*>*(*)(::System::Collections::Generic::IEnumerable_1<::Class_1_8654F1DF226F6DE3_2*>*))((::PBYTE)hIl2Cpp + CLASS_1_99711449DFAB5464_METHOD_1_E07A4E6DDA4C1AF7_OFFSET))(a1);
 	}
 
 	static ::Class_1_99711449DFAB5464* Method_1_169C9AE8F88E4F64(::Class_1_8654F1DF226F6DE3_2* a1)
@@ -44,9 +44,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_99711449DFAB5464_GET_BATTLEREPLAYKEY_OFFSET))(this);
 	}
 
-	::System::Void set_BattleReplayKey(::System::String* value)
+	::System::Void set_BattleReplayKey(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_99711449DFAB5464_SET_BATTLEREPLAYKEY_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_99711449DFAB5464_SET_BATTLEREPLAYKEY_OFFSET))(this, a1);
 	}
 
 	::Class_1_21DCD4640D389503_4* get_ReplayInfo()
@@ -54,8 +54,8 @@ public:
 		return ((::Class_1_21DCD4640D389503_4*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_99711449DFAB5464_GET_REPLAYINFO_OFFSET))(this);
 	}
 
-	::System::Void set_ReplayInfo(::Class_1_21DCD4640D389503_4* value)
+	::System::Void set_ReplayInfo(::Class_1_21DCD4640D389503_4* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_21DCD4640D389503_4*))((::PBYTE)hIl2Cpp + CLASS_1_99711449DFAB5464_SET_REPLAYINFO_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::Class_1_21DCD4640D389503_4*))((::PBYTE)hIl2Cpp + CLASS_1_99711449DFAB5464_SET_REPLAYINFO_OFFSET))(this, a1);
 	}
 };

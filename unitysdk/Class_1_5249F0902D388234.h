@@ -6,26 +6,26 @@
 namespace Proto { class MonopolyActionResult; }
 namespace System { class String; }
 
-#define CLASS_1_5249F0902D388234_GET_ISQUIZ_OFFSET UNITYSDK_OFFSET(0xF5E17F0)
-#define CLASS_1_5249F0902D388234_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xF5E15F0)
-#define CLASS_1_5249F0902D388234_METHOD_1_6E57D3559C10FFA9_OFFSET UNITYSDK_OFFSET(0xF5E17A0)
-#define CLASS_1_5249F0902D388234_METHOD_1_9169E2330ACFD482_OFFSET UNITYSDK_OFFSET(0xF5E1550)
-#define CLASS_1_5249F0902D388234_SET_ISQUIZ_OFFSET UNITYSDK_OFFSET(0xF5E1800)
-#define CLASS_1_5249F0902D388234_TRIGGER_OFFSET UNITYSDK_OFFSET(0xF5E1630)
-#define CLASS_1_5249F0902D388234__CTOR_OFFSET UNITYSDK_OFFSET(0xF5E1430)
+#define CLASS_1_5249F0902D388234_GET_ISQUIZ_OFFSET UNITYSDK_OFFSET(0x178658D0)
+#define CLASS_1_5249F0902D388234_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x178656E0)
+#define CLASS_1_5249F0902D388234_METHOD_1_6E57D3559C10FFA9_OFFSET UNITYSDK_OFFSET(0x17865880)
+#define CLASS_1_5249F0902D388234_METHOD_1_9169E2330ACFD482_OFFSET UNITYSDK_OFFSET(0x17865640)
+#define CLASS_1_5249F0902D388234_SET_ISQUIZ_OFFSET UNITYSDK_OFFSET(0x178658E0)
+#define CLASS_1_5249F0902D388234_TRIGGER_OFFSET UNITYSDK_OFFSET(0x17865720)
+#define CLASS_1_5249F0902D388234__CTOR_OFFSET UNITYSDK_OFFSET(0x17865520)
 
-inline static constexpr unsigned int Class_1_5249F0902D388234_TypeDefinitionIndex = 60982;
+inline static constexpr unsigned int Class_1_5249F0902D388234_TypeDefinitionIndex = 61916;
 
 class Class_1_5249F0902D388234 : public ::System::Object
 {
 public:
-	// static const ::System::String* Field_1_5; // 0x0
-	::System::Boolean Field_1_4; // 0x10
-	::System::Boolean _IsQuiz_k__BackingField; // 0x11
-	::RPG::Client::MonopolyEffectShowType Field_1_3; // 0x14
-	::System::UInt32 Field_1_1; // 0x18
-	::System::UInt32 Field_1_0; // 0x1C
-	::System::UInt32 Field_1_2; // 0x20
+	// static const ::System::String* Field_1_0; // 0x0
+	::RPG::Client::MonopolyEffectShowType Field_1_1; // 0x10
+	::System::UInt32 Field_1_2; // 0x14
+	::System::Boolean Field_1_3; // 0x18
+	::System::Boolean _IsQuiz_k__BackingField; // 0x19
+	::System::UInt32 Field_1_5; // 0x1C
+	::System::UInt32 Field_1_6; // 0x20
 
 	::System::Void _ctor(::Proto::MonopolyActionResult* a1)
 	{
@@ -57,8 +57,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5249F0902D388234_GET_ISQUIZ_OFFSET))(this);
 	}
 
-	::System::Void set_IsQuiz(::System::Boolean value)
+	::System::Void set_IsQuiz(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_5249F0902D388234_SET_ISQUIZ_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_5249F0902D388234_SET_ISQUIZ_OFFSET))(this, a1);
 	}
 };

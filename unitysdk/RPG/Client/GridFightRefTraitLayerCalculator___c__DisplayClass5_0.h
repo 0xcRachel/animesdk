@@ -4,12 +4,12 @@
 
 class Class_1_C0277CE3A38B20B6;
 
-#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18115EC0)
-#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS5_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x18116BF0)
+#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x197941A0)
+#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS5_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x19794F70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRefTraitLayerCalculator___c__DisplayClass5_0_TypeDefinitionIndex = 59671;
+	inline static constexpr unsigned int GridFightRefTraitLayerCalculator___c__DisplayClass5_0_TypeDefinitionIndex = 60606;
 
 	class GridFightRefTraitLayerCalculator___c__DisplayClass5_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __ctor_b__0(::Class_1_C0277CE3A38B20B6* r)
+		::System::Boolean __ctor_b__0(::Class_1_C0277CE3A38B20B6* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_C0277CE3A38B20B6*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS5_0___CTOR_B__0_OFFSET))(this, r);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_C0277CE3A38B20B6*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS5_0___CTOR_B__0_OFFSET))(this, a1);
 		}
 	};
 }

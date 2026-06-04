@@ -7,20 +7,20 @@ class Class_1_36E3880E987172D7_5;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_CREATEFROMRSP_OFFSET UNITYSDK_OFFSET(0x1733DD60)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETALLRARITYLIST_OFFSET UNITYSDK_OFFSET(0x1733EE40)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETDECOMPOSEDNORETRARITYLIST_OFFSET UNITYSDK_OFFSET(0x1733ECF0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETDECOMPOSEDRETRARITYLIST_OFFSET UNITYSDK_OFFSET(0x1733ECA0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETFADEOUTTYPELIST_OFFSET UNITYSDK_OFFSET(0x1733EF80)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETRETAINEDRARITYLIST_OFFSET UNITYSDK_OFFSET(0x1733E7B0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETTOTALEQUIPNUM_OFFSET UNITYSDK_OFFSET(0x1733ED40)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1733E7A0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT__SUBTRACTDICT_OFFSET UNITYSDK_OFFSET(0x1733E840)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT__UNFOLDDICT_OFFSET UNITYSDK_OFFSET(0x1733E9C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_CREATEFROMRSP_OFFSET UNITYSDK_OFFSET(0x18548F70)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETALLRARITYLIST_OFFSET UNITYSDK_OFFSET(0x18549F00)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETDECOMPOSEDNORETRARITYLIST_OFFSET UNITYSDK_OFFSET(0x18549DB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETDECOMPOSEDRETRARITYLIST_OFFSET UNITYSDK_OFFSET(0x18549D60)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETFADEOUTTYPELIST_OFFSET UNITYSDK_OFFSET(0x1854A040)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETRETAINEDRARITYLIST_OFFSET UNITYSDK_OFFSET(0x185499C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETTOTALEQUIPNUM_OFFSET UNITYSDK_OFFSET(0x18549E00)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x185499B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT__SUBTRACTDICT_OFFSET UNITYSDK_OFFSET(0x18549A50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT__UNFOLDDICT_OFFSET UNITYSDK_OFFSET(0x18549BA0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int GetEquipResult_TypeDefinitionIndex = 69360;
+	inline static constexpr unsigned int GetEquipResult_TypeDefinitionIndex = 70172;
 
 	class GetEquipResult : public ::System::Object
 	{
@@ -35,9 +35,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ActivityIdleLive::GetEquipResult* CreateFromRsp(::Class_1_36E3880E987172D7_5* rsp)
+		static ::RPG::Client::ActivityIdleLive::GetEquipResult* CreateFromRsp(::Class_1_36E3880E987172D7_5* a1)
 		{
-			return ((::RPG::Client::ActivityIdleLive::GetEquipResult*(*)(::Class_1_36E3880E987172D7_5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_CREATEFROMRSP_OFFSET))(rsp);
+			return ((::RPG::Client::ActivityIdleLive::GetEquipResult*(*)(::Class_1_36E3880E987172D7_5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_CREATEFROMRSP_OFFSET))(a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* GetRetainedRarityList()
@@ -70,14 +70,14 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::EquipBallFadeOutType>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT_GETFADEOUTTYPELIST_OFFSET))(this);
 		}
 
-		static ::System::Void _SubtractDict(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* source, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* toSubtract)
+		static ::System::Void _SubtractDict(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* a2)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT__SUBTRACTDICT_OFFSET))(source, toSubtract);
+			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT__SUBTRACTDICT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::UInt32>* _UnfoldDict(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* dict)
+		static ::System::Collections::Generic::List_1<::System::UInt32>* _UnfoldDict(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT__UNFOLDDICT_OFFSET))(dict);
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_GETEQUIPRESULT__UNFOLDDICT_OFFSET))(a1);
 		}
 	};
 }

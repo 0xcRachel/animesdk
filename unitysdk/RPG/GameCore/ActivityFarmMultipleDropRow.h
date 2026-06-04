@@ -8,30 +8,30 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188770A0)
-#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18877BC0)
+#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198A2810)
+#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198A32F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFarmMultipleDropRow_TypeDefinitionIndex = 10970;
+	inline static constexpr unsigned int ActivityFarmMultipleDropRow_TypeDefinitionIndex = 11021;
 
 	class ActivityFarmMultipleDropRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::MultipleDropTypeConfig>* MultipleDropTypeList; // 0x10
-		::RPG::Client::TextID BannerText; // 0x18
-		::RPG::GameCore::ActivityFarmMultipleDropType Type; // 0x28
-		::System::UInt32 ActivityThemeID; // 0x2C
-		::RPG::Client::TextID LabelText; // 0x30
-		::RPG::Client::TextID ActivityPanelBannerText; // 0x40
-		::RPG::Client::TextID NameText; // 0x50
-		::RPG::Client::TextID MappingInfoBannerText; // 0x60
-		::RPG::GameCore::ActivityCountRefreshType CountRefreshType; // 0x70
-		::System::UInt32 CountValue; // 0x74
-		::System::UInt32 Priority; // 0x78
-		::System::UInt32 DropMultiple; // 0x7C
-		::System::UInt32 ID; // 0x80
-		::System::UInt32 ActivityModuleID; // 0x84
+		::RPG::Client::TextID MappingInfoBannerText; // 0x18
+		::System::UInt32 DropMultiple; // 0x28
+		::System::UInt32 CountValue; // 0x2C
+		::RPG::GameCore::ActivityCountRefreshType CountRefreshType; // 0x30
+		::System::UInt32 ActivityModuleID; // 0x34
+		::System::UInt32 Priority; // 0x38
+		::RPG::GameCore::ActivityFarmMultipleDropType Type; // 0x3C
+		::System::UInt32 ID; // 0x40
+		::System::UInt32 ActivityThemeID; // 0x44
+		::RPG::Client::TextID NameText; // 0x48
+		::RPG::Client::TextID LabelText; // 0x58
+		::RPG::Client::TextID ActivityPanelBannerText; // 0x68
+		::RPG::Client::TextID BannerText; // 0x78
 		::RPG::Client::TextID HintText; // 0x88
 
 		::System::Void _ctor()
@@ -39,9 +39,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ActivityFarmMultipleDropRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActivityFarmMultipleDropRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityFarmMultipleDropRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityFarmMultipleDropRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

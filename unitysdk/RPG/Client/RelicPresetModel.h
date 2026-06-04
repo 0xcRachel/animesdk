@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_96F6662CA3713095_24.h"
+#include "unitysdk/Enum_3_71AA90D596A09AC8_17.h"
 #include "unitysdk/System/Object.h"
 
 namespace RPG::Client { class RelicPresetApplyDetailViewModel; }
@@ -12,22 +12,22 @@ namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitCalculationResultData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_RELICPRESETMODEL_CREATERELICPRESETAPPLYDETAIL_OFFSET UNITYSDK_OFFSET(0x1319F7D0)
-#define RPG_CLIENT_RELICPRESETMODEL_CREATERELICPRESETSAVEDIALOG_OFFSET UNITYSDK_OFFSET(0x1319F530)
-#define RPG_CLIENT_RELICPRESETMODEL_CREATERELICPRESETSAVEVIEWMODELBYPLANDATA_OFFSET UNITYSDK_OFFSET(0x1319FB90)
-#define RPG_CLIENT_RELICPRESETMODEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1319EEC0)
-#define RPG_CLIENT_RELICPRESETMODEL_GETAVATARRELICPRESETPLAN_OFFSET UNITYSDK_OFFSET(0x1319F9A0)
-#define RPG_CLIENT_RELICPRESETMODEL_GETORCREATEAVATARPLANS_OFFSET UNITYSDK_OFFSET(0x1319F300)
-#define RPG_CLIENT_RELICPRESETMODEL_INIT_OFFSET UNITYSDK_OFFSET(0x1319EE80)
-#define RPG_CLIENT_RELICPRESETMODEL_ISAVATARPLANFULL_OFFSET UNITYSDK_OFFSET(0x1319F240)
-#define RPG_CLIENT_RELICPRESETMODEL_SETAVATARPLANS_OFFSET UNITYSDK_OFFSET(0x1319F470)
-#define RPG_CLIENT_RELICPRESETMODEL_TRYFINDPLANBYUNIQUEID_OFFSET UNITYSDK_OFFSET(0x1319F0A0)
-#define RPG_CLIENT_RELICPRESETMODEL_TRYGETPLANS_OFFSET UNITYSDK_OFFSET(0x1319B5A0)
-#define RPG_CLIENT_RELICPRESETMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1319FCF0)
+#define RPG_CLIENT_RELICPRESETMODEL_CREATERELICPRESETAPPLYDETAIL_OFFSET UNITYSDK_OFFSET(0x14CF3280)
+#define RPG_CLIENT_RELICPRESETMODEL_CREATERELICPRESETSAVEDIALOG_OFFSET UNITYSDK_OFFSET(0x14CF2FE0)
+#define RPG_CLIENT_RELICPRESETMODEL_CREATERELICPRESETSAVEVIEWMODELBYPLANDATA_OFFSET UNITYSDK_OFFSET(0x14CF3670)
+#define RPG_CLIENT_RELICPRESETMODEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14CF28E0)
+#define RPG_CLIENT_RELICPRESETMODEL_GETAVATARRELICPRESETPLAN_OFFSET UNITYSDK_OFFSET(0x14CF3450)
+#define RPG_CLIENT_RELICPRESETMODEL_GETORCREATEAVATARPLANS_OFFSET UNITYSDK_OFFSET(0x14CF2DF0)
+#define RPG_CLIENT_RELICPRESETMODEL_INIT_OFFSET UNITYSDK_OFFSET(0x14CF28A0)
+#define RPG_CLIENT_RELICPRESETMODEL_ISAVATARPLANFULL_OFFSET UNITYSDK_OFFSET(0x14CF2D30)
+#define RPG_CLIENT_RELICPRESETMODEL_SETAVATARPLANS_OFFSET UNITYSDK_OFFSET(0x14CF2F20)
+#define RPG_CLIENT_RELICPRESETMODEL_TRYFINDPLANBYUNIQUEID_OFFSET UNITYSDK_OFFSET(0x14CF2B20)
+#define RPG_CLIENT_RELICPRESETMODEL_TRYGETPLANS_OFFSET UNITYSDK_OFFSET(0x14CEED80)
+#define RPG_CLIENT_RELICPRESETMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x14CF37D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicPresetModel_TypeDefinitionIndex = 61574;
+	inline static constexpr unsigned int RelicPresetModel_TypeDefinitionIndex = 62507;
 
 	class RelicPresetModel : public ::System::Object
 	{
@@ -49,49 +49,49 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETMODEL_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Boolean TryGetPlans(::System::UInt32 avatarID, ::RPG::Client::RelicPresetAvatarPlans*& relicPresetPlans)
+		::System::Boolean TryGetPlans(::System::UInt32 a1, ::RPG::Client::RelicPresetAvatarPlans*& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicPresetAvatarPlans*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETMODEL_TRYGETPLANS_OFFSET))(this, avatarID, relicPresetPlans);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicPresetAvatarPlans*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETMODEL_TRYGETPLANS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean TryFindPlanByUniqueID(::System::UInt32 planUniqueID, ::RPG::Client::RelicPresetPlanData*& planData)
+		::System::Boolean TryFindPlanByUniqueID(::System::UInt32 a1, ::RPG::Client::RelicPresetPlanData*& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicPresetPlanData*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETMODEL_TRYFINDPLANBYUNIQUEID_OFFSET))(this, planUniqueID, planData);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicPresetPlanData*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETMODEL_TRYFINDPLANBYUNIQUEID_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsAvatarPlanFull(::System::UInt32 avatarID)
+		::System::Boolean IsAvatarPlanFull(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETMODEL_ISAVATARPLANFULL_OFFSET))(this, avatarID);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETMODEL_ISAVATARPLANFULL_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::RelicPresetAvatarPlans* GetOrCreateAvatarPlans(::System::UInt32 avatarID)
+		::RPG::Client::RelicPresetAvatarPlans* GetOrCreateAvatarPlans(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::RelicPresetAvatarPlans*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETMODEL_GETORCREATEAVATARPLANS_OFFSET))(this, avatarID);
+			return ((::RPG::Client::RelicPresetAvatarPlans*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETMODEL_GETORCREATEAVATARPLANS_OFFSET))(this, a1);
 		}
 
-		::System::Void SetAvatarPlans(::System::UInt32 avatarID, ::RPG::Client::RelicPresetAvatarPlans* plans)
+		::System::Void SetAvatarPlans(::System::UInt32 a1, ::RPG::Client::RelicPresetAvatarPlans* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicPresetAvatarPlans*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETMODEL_SETAVATARPLANS_OFFSET))(this, avatarID, plans);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicPresetAvatarPlans*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETMODEL_SETAVATARPLANS_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::RelicPresetSaveDialogViewModel* CreateRelicPresetSaveDialog(::System::UInt32 avatarID, ::Enum_3_96F6662CA3713095_24 sourceType)
+		::RPG::Client::RelicPresetSaveDialogViewModel* CreateRelicPresetSaveDialog(::System::UInt32 a1, ::Enum_3_71AA90D596A09AC8_17 a2)
 		{
-			return ((::RPG::Client::RelicPresetSaveDialogViewModel*(*)(::PVOID, ::System::UInt32, ::Enum_3_96F6662CA3713095_24))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETMODEL_CREATERELICPRESETSAVEDIALOG_OFFSET))(this, avatarID, sourceType);
+			return ((::RPG::Client::RelicPresetSaveDialogViewModel*(*)(::PVOID, ::System::UInt32, ::Enum_3_71AA90D596A09AC8_17))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETMODEL_CREATERELICPRESETSAVEDIALOG_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::RelicPresetApplyDetailViewModel* CreateRelicPresetApplyDetail(::System::UInt32 avatarID)
+		::RPG::Client::RelicPresetApplyDetailViewModel* CreateRelicPresetApplyDetail(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::RelicPresetApplyDetailViewModel*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETMODEL_CREATERELICPRESETAPPLYDETAIL_OFFSET))(this, avatarID);
+			return ((::RPG::Client::RelicPresetApplyDetailViewModel*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETMODEL_CREATERELICPRESETAPPLYDETAIL_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* GetAvatarRelicPresetPlan(::System::UInt32 avatarID)
+		::RPG::Client::Promises::IPromise* GetAvatarRelicPresetPlan(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETMODEL_GETAVATARRELICPRESETPLAN_OFFSET))(this, avatarID);
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETMODEL_GETAVATARRELICPRESETPLAN_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::RelicPresetCustomSaveViewModel* CreateRelicPresetSaveViewModelByPlanData(::System::UInt32 avatarID, ::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* smartSuitCalculationResultData, ::Enum_3_96F6662CA3713095_24 sourceType)
+		::RPG::Client::RelicPresetCustomSaveViewModel* CreateRelicPresetSaveViewModelByPlanData(::System::UInt32 a1, ::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* a2, ::Enum_3_71AA90D596A09AC8_17 a3)
 		{
-			return ((::RPG::Client::RelicPresetCustomSaveViewModel*(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData*, ::Enum_3_96F6662CA3713095_24))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETMODEL_CREATERELICPRESETSAVEVIEWMODELBYPLANDATA_OFFSET))(this, avatarID, smartSuitCalculationResultData, sourceType);
+			return ((::RPG::Client::RelicPresetCustomSaveViewModel*(*)(::PVOID, ::System::UInt32, ::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData*, ::Enum_3_71AA90D596A09AC8_17))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETMODEL_CREATERELICPRESETSAVEVIEWMODELBYPLANDATA_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

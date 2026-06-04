@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCurrentSkillEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B3E140E3E8983902_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE17A380)
-#define CLASS_3_B3E140E3E8983902__CTOR_OFFSET UNITYSDK_OFFSET(0xE17A350)
+#define CLASS_3_B3E140E3E8983902_EVALUATE_OFFSET UNITYSDK_OFFSET(0x179D2E60)
+#define CLASS_3_B3E140E3E8983902__CTOR_OFFSET UNITYSDK_OFFSET(0x179D2E30)
 
-inline static constexpr unsigned int Class_3_B3E140E3E8983902_TypeDefinitionIndex = 50373;
+inline static constexpr unsigned int Class_3_B3E140E3E8983902_TypeDefinitionIndex = 51038;
 
 class Class_3_B3E140E3E8983902 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCurrentSkillEffect*>
 {

@@ -6,15 +6,15 @@
 
 namespace RPG::Client { class ChimeraGalleryGroupedTalkData; }
 
-#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x17479D50)
-#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_TITLEPARAM_OFFSET UNITYSDK_OFFSET(0x17479CA0)
-#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x174799D0)
-#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET__HASSIBLINGS_OFFSET UNITYSDK_OFFSET(0x17479970)
-#define RPG_CLIENT_CHIMERAGALLERYTALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17479630)
+#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x18291000)
+#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_TITLEPARAM_OFFSET UNITYSDK_OFFSET(0x18290F50)
+#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x18290C70)
+#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET__HASSIBLINGS_OFFSET UNITYSDK_OFFSET(0x18290C10)
+#define RPG_CLIENT_CHIMERAGALLERYTALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x182908D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraGalleryTalkData_TypeDefinitionIndex = 58435;
+	inline static constexpr unsigned int ChimeraGalleryTalkData_TypeDefinitionIndex = 59365;
 
 	class ChimeraGalleryTalkData : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 		::RPG::Client::ChimeraGalleryGroupedTalkData* _Group; // 0x10
 		::System::Int32 _Index; // 0x18
 
-		::System::Void _ctor(::RPG::Client::ChimeraGalleryGroupedTalkData* group, ::System::Int32 index)
+		::System::Void _ctor(::RPG::Client::ChimeraGalleryGroupedTalkData* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraGalleryGroupedTalkData*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYTALKDATA__CTOR_OFFSET))(this, group, index);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraGalleryGroupedTalkData*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYTALKDATA__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get__HasSiblings()

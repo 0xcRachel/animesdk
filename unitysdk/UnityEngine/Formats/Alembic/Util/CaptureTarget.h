@@ -4,22 +4,22 @@
 
 namespace System { class Type; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_CAPTURETARGET_GET_COMPONENTTYPE_OFFSET UNITYSDK_OFFSET(0x1A756F00)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_CAPTURETARGET_SET_COMPONENTTYPE_OFFSET UNITYSDK_OFFSET(0x1A756F10)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_CAPTURETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1A756F20)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_CAPTURETARGET_GET_COMPONENTTYPE_OFFSET UNITYSDK_OFFSET(0x1B57D7F0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_CAPTURETARGET_SET_COMPONENTTYPE_OFFSET UNITYSDK_OFFSET(0x1B57D800)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_CAPTURETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B57D810)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int CaptureTarget_TypeDefinitionIndex = 40752;
+	inline static constexpr unsigned int CaptureTarget_TypeDefinitionIndex = 41578;
 
 	class CaptureTarget : public ::System::Attribute
 	{
 	public:
 		::System::Type* _componentType_k__BackingField; // 0x10
 
-		::System::Void _ctor(::System::Type* t)
+		::System::Void _ctor(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_CAPTURETARGET__CTOR_OFFSET))(this, t);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_CAPTURETARGET__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Type* get_componentType()
@@ -27,9 +27,9 @@ namespace UnityEngine::Formats::Alembic::Util
 			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_CAPTURETARGET_GET_COMPONENTTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_componentType(::System::Type* value)
+		::System::Void set_componentType(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_CAPTURETARGET_SET_COMPONENTTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_CAPTURETARGET_SET_COMPONENTTYPE_OFFSET))(this, a1);
 		}
 	};
 }

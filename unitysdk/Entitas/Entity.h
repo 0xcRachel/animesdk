@@ -15,70 +15,70 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace System::Text { class StringBuilder; }
 
-#define ENTITAS_ENTITY_ADDCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1A63ACE0)
-#define ENTITAS_ENTITY_ADD_ONCOMPONENTADDED_OFFSET UNITYSDK_OFFSET(0x1A63A580)
-#define ENTITAS_ENTITY_ADD_ONCOMPONENTREMOVED_OFFSET UNITYSDK_OFFSET(0x1A63A640)
-#define ENTITAS_ENTITY_ADD_ONCOMPONENTREPLACED_OFFSET UNITYSDK_OFFSET(0x1A63A700)
-#define ENTITAS_ENTITY_ADD_ONDESTROYENTITY_OFFSET UNITYSDK_OFFSET(0x1A63A8A0)
-#define ENTITAS_ENTITY_ADD_ONENTITYRELEASED_OFFSET UNITYSDK_OFFSET(0x1A63A7C0)
-#define ENTITAS_ENTITY_CREATECOMPONENT_1_OFFSET UNITYSDK_OFFSET(0x1A63CB00)
-#define ENTITAS_ENTITY_CREATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1A63CA80)
-#define ENTITAS_ENTITY_CREATEDEFAULTCONTEXTINFO_OFFSET UNITYSDK_OFFSET(0x1A63AB70)
-#define ENTITAS_ENTITY_DESTROY_OFFSET UNITYSDK_OFFSET(0x1A63D390)
-#define ENTITAS_ENTITY_GETCOMPONENTINDICES_OFFSET UNITYSDK_OFFSET(0x1A63C800)
-#define ENTITAS_ENTITY_GETCOMPONENTPOOL_OFFSET UNITYSDK_OFFSET(0x1A63C420)
-#define ENTITAS_ENTITY_GETCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1A63C670)
-#define ENTITAS_ENTITY_GETCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1A63C540)
-#define ENTITAS_ENTITY_GET_AERC_OFFSET UNITYSDK_OFFSET(0x1A63A9B0)
-#define ENTITAS_ENTITY_GET_COMPONENTPOOLS_OFFSET UNITYSDK_OFFSET(0x1A63A990)
-#define ENTITAS_ENTITY_GET_CONTEXTINFO_OFFSET UNITYSDK_OFFSET(0x1A63A9A0)
-#define ENTITAS_ENTITY_GET_CREATIONINDEX_OFFSET UNITYSDK_OFFSET(0x1A63A970)
-#define ENTITAS_ENTITY_GET_ISENABLED_OFFSET UNITYSDK_OFFSET(0x1A63A980)
-#define ENTITAS_ENTITY_GET_RETAINCOUNT_OFFSET UNITYSDK_OFFSET(0x1A63CB80)
-#define ENTITAS_ENTITY_GET_TOTALCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1A63A960)
-#define ENTITAS_ENTITY_HASANYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1A63C990)
-#define ENTITAS_ENTITY_HASCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1A63C910)
-#define ENTITAS_ENTITY_HASCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1A63B070)
-#define ENTITAS_ENTITY_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1A63AA40)
-#define ENTITAS_ENTITY_INTERNALDESTROY_OFFSET UNITYSDK_OFFSET(0x1A63D410)
-#define ENTITAS_ENTITY_REACTIVATE_OFFSET UNITYSDK_OFFSET(0x1A63AB60)
-#define ENTITAS_ENTITY_RELEASE_OFFSET UNITYSDK_OFFSET(0x1A63CCE0)
-#define ENTITAS_ENTITY_REMOVEALLCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1A63CA10)
-#define ENTITAS_ENTITY_REMOVEALLONENTITYRELEASEDHANDLERS_OFFSET UNITYSDK_OFFSET(0x1A63D4B0)
-#define ENTITAS_ENTITY_REMOVECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1A63B730)
-#define ENTITAS_ENTITY_REMOVE_ONCOMPONENTADDED_OFFSET UNITYSDK_OFFSET(0x1A63A5E0)
-#define ENTITAS_ENTITY_REMOVE_ONCOMPONENTREMOVED_OFFSET UNITYSDK_OFFSET(0x1A63A6A0)
-#define ENTITAS_ENTITY_REMOVE_ONCOMPONENTREPLACED_OFFSET UNITYSDK_OFFSET(0x1A63A760)
-#define ENTITAS_ENTITY_REMOVE_ONDESTROYENTITY_OFFSET UNITYSDK_OFFSET(0x1A63A900)
-#define ENTITAS_ENTITY_REMOVE_ONENTITYRELEASED_OFFSET UNITYSDK_OFFSET(0x1A63A830)
-#define ENTITAS_ENTITY_REPLACECOMPONENT_1_OFFSET UNITYSDK_OFFSET(0x1A63BA30)
-#define ENTITAS_ENTITY_REPLACECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1A63BC50)
-#define ENTITAS_ENTITY_RETAIN_OFFSET UNITYSDK_OFFSET(0x1A63CC30)
-#define ENTITAS_ENTITY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A63D4C0)
-#define ENTITAS_ENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A63A9C0)
+#define ENTITAS_ENTITY_ADDCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B45CE40)
+#define ENTITAS_ENTITY_ADD_ONCOMPONENTADDED_OFFSET UNITYSDK_OFFSET(0x1B45C700)
+#define ENTITAS_ENTITY_ADD_ONCOMPONENTREMOVED_OFFSET UNITYSDK_OFFSET(0x1B45C7C0)
+#define ENTITAS_ENTITY_ADD_ONCOMPONENTREPLACED_OFFSET UNITYSDK_OFFSET(0x1B45C880)
+#define ENTITAS_ENTITY_ADD_ONDESTROYENTITY_OFFSET UNITYSDK_OFFSET(0x1B45CA00)
+#define ENTITAS_ENTITY_ADD_ONENTITYRELEASED_OFFSET UNITYSDK_OFFSET(0x1B45C940)
+#define ENTITAS_ENTITY_CREATECOMPONENT_1_OFFSET UNITYSDK_OFFSET(0x1B45E180)
+#define ENTITAS_ENTITY_CREATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B45E0A0)
+#define ENTITAS_ENTITY_CREATEDEFAULTCONTEXTINFO_OFFSET UNITYSDK_OFFSET(0x1B45CCD0)
+#define ENTITAS_ENTITY_DESTROY_OFFSET UNITYSDK_OFFSET(0x1B45E4E0)
+#define ENTITAS_ENTITY_GETCOMPONENTINDICES_OFFSET UNITYSDK_OFFSET(0x1B45DE00)
+#define ENTITAS_ENTITY_GETCOMPONENTPOOL_OFFSET UNITYSDK_OFFSET(0x1B45DA50)
+#define ENTITAS_ENTITY_GETCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1B45DC90)
+#define ENTITAS_ENTITY_GETCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B45DB40)
+#define ENTITAS_ENTITY_GET_AERC_OFFSET UNITYSDK_OFFSET(0x1B45CB10)
+#define ENTITAS_ENTITY_GET_COMPONENTPOOLS_OFFSET UNITYSDK_OFFSET(0x1B45CAF0)
+#define ENTITAS_ENTITY_GET_CONTEXTINFO_OFFSET UNITYSDK_OFFSET(0x1B45CB00)
+#define ENTITAS_ENTITY_GET_CREATIONINDEX_OFFSET UNITYSDK_OFFSET(0x1B45CAD0)
+#define ENTITAS_ENTITY_GET_ISENABLED_OFFSET UNITYSDK_OFFSET(0x1B45CAE0)
+#define ENTITAS_ENTITY_GET_RETAINCOUNT_OFFSET UNITYSDK_OFFSET(0x1B45E200)
+#define ENTITAS_ENTITY_GET_TOTALCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1B45CAC0)
+#define ENTITAS_ENTITY_HASANYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B45DFC0)
+#define ENTITAS_ENTITY_HASCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1B45DF50)
+#define ENTITAS_ENTITY_HASCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B45D200)
+#define ENTITAS_ENTITY_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B45CBA0)
+#define ENTITAS_ENTITY_INTERNALDESTROY_OFFSET UNITYSDK_OFFSET(0x1B45E580)
+#define ENTITAS_ENTITY_REACTIVATE_OFFSET UNITYSDK_OFFSET(0x1B45CCC0)
+#define ENTITAS_ENTITY_RELEASE_OFFSET UNITYSDK_OFFSET(0x1B45E360)
+#define ENTITAS_ENTITY_REMOVEALLCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1B45E030)
+#define ENTITAS_ENTITY_REMOVEALLONENTITYRELEASEDHANDLERS_OFFSET UNITYSDK_OFFSET(0x1B45E610)
+#define ENTITAS_ENTITY_REMOVECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B45D330)
+#define ENTITAS_ENTITY_REMOVE_ONCOMPONENTADDED_OFFSET UNITYSDK_OFFSET(0x1B45C760)
+#define ENTITAS_ENTITY_REMOVE_ONCOMPONENTREMOVED_OFFSET UNITYSDK_OFFSET(0x1B45C820)
+#define ENTITAS_ENTITY_REMOVE_ONCOMPONENTREPLACED_OFFSET UNITYSDK_OFFSET(0x1B45C8E0)
+#define ENTITAS_ENTITY_REMOVE_ONDESTROYENTITY_OFFSET UNITYSDK_OFFSET(0x1B45CA60)
+#define ENTITAS_ENTITY_REMOVE_ONENTITYRELEASED_OFFSET UNITYSDK_OFFSET(0x1B45C9A0)
+#define ENTITAS_ENTITY_REPLACECOMPONENT_1_OFFSET UNITYSDK_OFFSET(0x1B45D680)
+#define ENTITAS_ENTITY_REPLACECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B45D8B0)
+#define ENTITAS_ENTITY_RETAIN_OFFSET UNITYSDK_OFFSET(0x1B45E2B0)
+#define ENTITAS_ENTITY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B45E620)
+#define ENTITAS_ENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B45CB20)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int Entity_TypeDefinitionIndex = 9826;
+	inline static constexpr unsigned int Entity_TypeDefinitionIndex = 9653;
 
 	class Entity : public ::System::Object
 	{
 	public:
-		::Entitas::EntityComponentChanged* OnComponentAdded; // 0x10
-		::Il2CppArray<::Entitas::IComponent*>* _components; // 0x18
-		::Il2CppArray<::System::Collections::Generic::Stack_1<::Entitas::IComponent*>*>* _componentPools; // 0x20
-		::Entitas::ContextInfo* _contextInfo; // 0x28
-		::Entitas::IAERC* _aerc; // 0x30
-		::System::Collections::Generic::List_1<::Entitas::IComponent*>* _componentBuffer; // 0x38
-		::Il2CppArray<::Entitas::IComponent*>* _componentsCache; // 0x40
-		::Entitas::EntityEvent* OnDestroyEntity; // 0x48
-		::Entitas::EntityComponentReplaced* OnComponentReplaced; // 0x50
-		::Il2CppArray<::System::Int32>* _componentIndicesCache; // 0x58
-		::System::Collections::Generic::List_1<::System::Int32>* _indexBuffer; // 0x60
+		::Il2CppArray<::System::Collections::Generic::Stack_1<::Entitas::IComponent*>*>* _componentPools; // 0x10
+		::Entitas::IAERC* _aerc; // 0x18
+		::System::String* _toStringCache; // 0x20
+		::System::Collections::Generic::List_1<::Entitas::IComponent*>* _componentBuffer; // 0x28
+		::Entitas::EntityComponentReplaced* OnComponentReplaced; // 0x30
+		::Entitas::EntityEvent* OnEntityReleased; // 0x38
+		::Entitas::EntityEvent* OnDestroyEntity; // 0x40
+		::Entitas::EntityComponentChanged* OnComponentRemoved; // 0x48
+		::Il2CppArray<::System::Int32>* _componentIndicesCache; // 0x50
+		::Entitas::EntityComponentChanged* OnComponentAdded; // 0x58
+		::Il2CppArray<::Entitas::IComponent*>* _components; // 0x60
 		::System::Text::StringBuilder* _toStringBuilder; // 0x68
-		::System::String* _toStringCache; // 0x70
-		::Entitas::EntityComponentChanged* OnComponentRemoved; // 0x78
-		::Entitas::EntityEvent* OnEntityReleased; // 0x80
+		::System::Collections::Generic::List_1<::System::Int32>* _indexBuffer; // 0x70
+		::Entitas::ContextInfo* _contextInfo; // 0x78
+		::Il2CppArray<::Entitas::IComponent*>* _componentsCache; // 0x80
 		::System::Boolean _isEnabled; // 0x88
 		::System::Int32 _totalComponents; // 0x8C
 		::System::Int32 _creationIndex; // 0x90
@@ -88,54 +88,54 @@ namespace Entitas
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY__CTOR_OFFSET))(this);
 		}
 
-		::System::Void add_OnComponentAdded(::Entitas::EntityComponentChanged* value)
+		::System::Void add_OnComponentAdded(::Entitas::EntityComponentChanged* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::EntityComponentChanged*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_ADD_ONCOMPONENTADDED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Entitas::EntityComponentChanged*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_ADD_ONCOMPONENTADDED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnComponentAdded(::Entitas::EntityComponentChanged* value)
+		::System::Void remove_OnComponentAdded(::Entitas::EntityComponentChanged* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::EntityComponentChanged*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_REMOVE_ONCOMPONENTADDED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Entitas::EntityComponentChanged*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_REMOVE_ONCOMPONENTADDED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnComponentRemoved(::Entitas::EntityComponentChanged* value)
+		::System::Void add_OnComponentRemoved(::Entitas::EntityComponentChanged* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::EntityComponentChanged*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_ADD_ONCOMPONENTREMOVED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Entitas::EntityComponentChanged*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_ADD_ONCOMPONENTREMOVED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnComponentRemoved(::Entitas::EntityComponentChanged* value)
+		::System::Void remove_OnComponentRemoved(::Entitas::EntityComponentChanged* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::EntityComponentChanged*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_REMOVE_ONCOMPONENTREMOVED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Entitas::EntityComponentChanged*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_REMOVE_ONCOMPONENTREMOVED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnComponentReplaced(::Entitas::EntityComponentReplaced* value)
+		::System::Void add_OnComponentReplaced(::Entitas::EntityComponentReplaced* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::EntityComponentReplaced*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_ADD_ONCOMPONENTREPLACED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Entitas::EntityComponentReplaced*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_ADD_ONCOMPONENTREPLACED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnComponentReplaced(::Entitas::EntityComponentReplaced* value)
+		::System::Void remove_OnComponentReplaced(::Entitas::EntityComponentReplaced* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::EntityComponentReplaced*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_REMOVE_ONCOMPONENTREPLACED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Entitas::EntityComponentReplaced*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_REMOVE_ONCOMPONENTREPLACED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnEntityReleased(::Entitas::EntityEvent* value)
+		::System::Void add_OnEntityReleased(::Entitas::EntityEvent* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::EntityEvent*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_ADD_ONENTITYRELEASED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Entitas::EntityEvent*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_ADD_ONENTITYRELEASED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnEntityReleased(::Entitas::EntityEvent* value)
+		::System::Void remove_OnEntityReleased(::Entitas::EntityEvent* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::EntityEvent*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_REMOVE_ONENTITYRELEASED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Entitas::EntityEvent*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_REMOVE_ONENTITYRELEASED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnDestroyEntity(::Entitas::EntityEvent* value)
+		::System::Void add_OnDestroyEntity(::Entitas::EntityEvent* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::EntityEvent*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_ADD_ONDESTROYENTITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Entitas::EntityEvent*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_ADD_ONDESTROYENTITY_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnDestroyEntity(::Entitas::EntityEvent* value)
+		::System::Void remove_OnDestroyEntity(::Entitas::EntityEvent* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::EntityEvent*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_REMOVE_ONDESTROYENTITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Entitas::EntityEvent*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_REMOVE_ONDESTROYENTITY_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_totalComponents()
@@ -168,9 +168,9 @@ namespace Entitas
 			return ((::Entitas::IAERC*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_GET_AERC_OFFSET))(this);
 		}
 
-		::System::Void Initialize(::System::Int32 creationIndex, ::System::Int32 totalComponents, ::Il2CppArray<::System::Collections::Generic::Stack_1<::Entitas::IComponent*>*>* componentPools, ::Entitas::ContextInfo* contextInfo, ::Entitas::IAERC* aerc)
+		::System::Void Initialize(::System::Int32 a1, ::System::Int32 a2, ::Il2CppArray<::System::Collections::Generic::Stack_1<::Entitas::IComponent*>*>* a3, ::Entitas::ContextInfo* a4, ::Entitas::IAERC* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Collections::Generic::Stack_1<::Entitas::IComponent*>*>*, ::Entitas::ContextInfo*, ::Entitas::IAERC*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_INITIALIZE_OFFSET))(this, creationIndex, totalComponents, componentPools, contextInfo, aerc);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Collections::Generic::Stack_1<::Entitas::IComponent*>*>*, ::Entitas::ContextInfo*, ::Entitas::IAERC*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_INITIALIZE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::Entitas::ContextInfo* createDefaultContextInfo()
@@ -178,34 +178,34 @@ namespace Entitas
 			return ((::Entitas::ContextInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_CREATEDEFAULTCONTEXTINFO_OFFSET))(this);
 		}
 
-		::System::Void Reactivate(::System::Int32 creationIndex)
+		::System::Void Reactivate(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_REACTIVATE_OFFSET))(this, creationIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_REACTIVATE_OFFSET))(this, a1);
 		}
 
-		::System::Void AddComponent(::System::Int32 index, ::Entitas::IComponent* component)
+		::System::Void AddComponent(::System::Int32 a1, ::Entitas::IComponent* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_ADDCOMPONENT_OFFSET))(this, index, component);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_ADDCOMPONENT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RemoveComponent(::System::Int32 index)
+		::System::Void RemoveComponent(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_REMOVECOMPONENT_OFFSET))(this, index);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_REMOVECOMPONENT_OFFSET))(this, a1);
 		}
 
-		::System::Void ReplaceComponent(::System::Int32 index, ::Entitas::IComponent* component)
+		::System::Void ReplaceComponent(::System::Int32 a1, ::Entitas::IComponent* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_REPLACECOMPONENT_OFFSET))(this, index, component);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_REPLACECOMPONENT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void replaceComponent_1(::System::Int32 index, ::Entitas::IComponent* replacement)
+		::System::Void replaceComponent_1(::System::Int32 a1, ::Entitas::IComponent* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_REPLACECOMPONENT_1_OFFSET))(this, index, replacement);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_REPLACECOMPONENT_1_OFFSET))(this, a1, a2);
 		}
 
-		::Entitas::IComponent* GetComponent(::System::Int32 index)
+		::Entitas::IComponent* GetComponent(::System::Int32 a1)
 		{
-			return ((::Entitas::IComponent*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_GETCOMPONENT_OFFSET))(this, index);
+			return ((::Entitas::IComponent*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_GETCOMPONENT_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::Entitas::IComponent*>* GetComponents()
@@ -218,19 +218,19 @@ namespace Entitas
 			return ((::Il2CppArray<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_GETCOMPONENTINDICES_OFFSET))(this);
 		}
 
-		::System::Boolean HasComponent(::System::Int32 index)
+		::System::Boolean HasComponent(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_HASCOMPONENT_OFFSET))(this, index);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_HASCOMPONENT_OFFSET))(this, a1);
 		}
 
-		::System::Boolean HasComponents(::Il2CppArray<::System::Int32>* indices)
+		::System::Boolean HasComponents(::Il2CppArray<::System::Int32>* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_HASCOMPONENTS_OFFSET))(this, indices);
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_HASCOMPONENTS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean HasAnyComponent(::Il2CppArray<::System::Int32>* indices)
+		::System::Boolean HasAnyComponent(::Il2CppArray<::System::Int32>* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_HASANYCOMPONENT_OFFSET))(this, indices);
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_HASANYCOMPONENT_OFFSET))(this, a1);
 		}
 
 		::System::Void RemoveAllComponents()
@@ -238,19 +238,19 @@ namespace Entitas
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_REMOVEALLCOMPONENTS_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Stack_1<::Entitas::IComponent*>* GetComponentPool(::System::Int32 index)
+		::System::Collections::Generic::Stack_1<::Entitas::IComponent*>* GetComponentPool(::System::Int32 a1)
 		{
-			return ((::System::Collections::Generic::Stack_1<::Entitas::IComponent*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_GETCOMPONENTPOOL_OFFSET))(this, index);
+			return ((::System::Collections::Generic::Stack_1<::Entitas::IComponent*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_GETCOMPONENTPOOL_OFFSET))(this, a1);
 		}
 
-		::Entitas::IComponent* CreateComponent(::System::Int32 index, ::System::RuntimeTypeHandle type)
+		::Entitas::IComponent* CreateComponent(::System::Int32 a1, ::System::RuntimeTypeHandle a2)
 		{
-			return ((::Entitas::IComponent*(*)(::PVOID, ::System::Int32, ::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_CREATECOMPONENT_OFFSET))(this, index, type);
+			return ((::Entitas::IComponent*(*)(::PVOID, ::System::Int32, ::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_CREATECOMPONENT_OFFSET))(this, a1, a2);
 		}
 
-		::Entitas::IComponent* CreateComponent_1(::System::Int32 index, ::System::Type* type)
+		::Entitas::IComponent* CreateComponent_1(::System::Int32 a1, ::System::Type* a2)
 		{
-			return ((::Entitas::IComponent*(*)(::PVOID, ::System::Int32, ::System::Type*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_CREATECOMPONENT_1_OFFSET))(this, index, type);
+			return ((::Entitas::IComponent*(*)(::PVOID, ::System::Int32, ::System::Type*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_CREATECOMPONENT_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_retainCount()
@@ -258,14 +258,14 @@ namespace Entitas
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_GET_RETAINCOUNT_OFFSET))(this);
 		}
 
-		::System::Void Retain(::System::Object* owner)
+		::System::Void Retain(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_RETAIN_OFFSET))(this, owner);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_RETAIN_OFFSET))(this, a1);
 		}
 
-		::System::Void Release(::System::Object* owner)
+		::System::Void Release(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_RELEASE_OFFSET))(this, owner);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITY_RELEASE_OFFSET))(this, a1);
 		}
 
 		::System::Void Destroy()

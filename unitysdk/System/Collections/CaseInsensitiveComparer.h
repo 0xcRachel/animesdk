@@ -5,14 +5,14 @@
 namespace System::Globalization { class CompareInfo; }
 namespace System::Globalization { class CultureInfo; }
 
-#define SYSTEM_COLLECTIONS_CASEINSENSITIVECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x193CC370)
-#define SYSTEM_COLLECTIONS_CASEINSENSITIVECOMPARER_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x193CC250)
-#define SYSTEM_COLLECTIONS_CASEINSENSITIVECOMPARER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x193CC1D0)
-#define SYSTEM_COLLECTIONS_CASEINSENSITIVECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x193CC130)
+#define SYSTEM_COLLECTIONS_CASEINSENSITIVECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x19A18500)
+#define SYSTEM_COLLECTIONS_CASEINSENSITIVECOMPARER_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x19A183E0)
+#define SYSTEM_COLLECTIONS_CASEINSENSITIVECOMPARER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19A18360)
+#define SYSTEM_COLLECTIONS_CASEINSENSITIVECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x19A182C0)
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int CaseInsensitiveComparer_TypeDefinitionIndex = 1455;
+	inline static constexpr unsigned int CaseInsensitiveComparer_TypeDefinitionIndex = 1454;
 
 	class CaseInsensitiveComparer : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace System::Collections
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVECOMPARER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Globalization::CultureInfo* culture)
+		::System::Void _ctor_1(::System::Globalization::CultureInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVECOMPARER__CTOR_1_OFFSET))(this, culture);
+			return ((::System::Void(*)(::PVOID, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVECOMPARER__CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Collections::CaseInsensitiveComparer* get_Default()
@@ -34,9 +34,9 @@ namespace System::Collections
 			return ((::System::Collections::CaseInsensitiveComparer*(*)())((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVECOMPARER_GET_DEFAULT_OFFSET))();
 		}
 
-		::System::Int32 Compare(::System::Object* a, ::System::Object* b)
+		::System::Int32 Compare(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVECOMPARER_COMPARE_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVECOMPARER_COMPARE_OFFSET))(this, a1, a2);
 		}
 	};
 }

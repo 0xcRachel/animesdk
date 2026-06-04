@@ -11,27 +11,27 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace UnityEngine { class Object; }
 
-#define CLASS_1_F860364065044F08_CLEAR_OFFSET UNITYSDK_OFFSET(0x10FB7950)
-#define CLASS_1_F860364065044F08_METHOD_1_5FAB2B62AD176C63_OFFSET UNITYSDK_OFFSET(0x10FB79C0)
-#define CLASS_1_F860364065044F08_METHOD_1_6F4A6B5CE800C615_OFFSET UNITYSDK_OFFSET(0x10FB7840)
-#define CLASS_1_F860364065044F08_TOSTRING_OFFSET UNITYSDK_OFFSET(0x10FB7850)
-#define CLASS_1_F860364065044F08__CTOR_OFFSET UNITYSDK_OFFSET(0x10FB7AB0)
-#define CLASS_1_F860364065044F08___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x10FB7B40)
+#define CLASS_1_F860364065044F08_CLEAR_OFFSET UNITYSDK_OFFSET(0x148B4B10)
+#define CLASS_1_F860364065044F08_METHOD_1_5FAB2B62AD176C63_OFFSET UNITYSDK_OFFSET(0x148B4B70)
+#define CLASS_1_F860364065044F08_METHOD_1_6F4A6B5CE800C615_OFFSET UNITYSDK_OFFSET(0x148B4A00)
+#define CLASS_1_F860364065044F08_TOSTRING_OFFSET UNITYSDK_OFFSET(0x148B4A10)
+#define CLASS_1_F860364065044F08__CTOR_OFFSET UNITYSDK_OFFSET(0x148B4C60)
+#define CLASS_1_F860364065044F08___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x148B4CF0)
 
-inline static constexpr unsigned int Class_1_F860364065044F08_TypeDefinitionIndex = 55077;
+inline static constexpr unsigned int Class_1_F860364065044F08_TypeDefinitionIndex = 55811;
 
 class Class_1_F860364065044F08 : public ::System::Object
 {
 public:
-	::RPG::Client::IAssetOperation* Field_1_7; // 0x10
-	::UnityEngine::Object* Field_1_8; // 0x18
-	::System::String* Field_1_1; // 0x20
-	::Collections::Pooled::PooledList_1<::Class_1_2C2DA62D5BBB20B1*>* Field_1_0; // 0x28
-	::System::Type* Field_1_2; // 0x30
-	::System::Boolean Field_1_6; // 0x38
-	::Class_1_F860364065044F08_AssetPreloadState Field_1_4; // 0x3C
-	::RPG::Client::GameObjectPoolUsage Field_1_5; // 0x40
-	::System::Int32 Field_1_3; // 0x44
+	::RPG::Client::IAssetOperation* Field_1_0; // 0x10
+	::UnityEngine::Object* Field_1_1; // 0x18
+	::System::Type* Field_1_2; // 0x20
+	::System::String* Field_1_3; // 0x28
+	::Collections::Pooled::PooledList_1<::Class_1_2C2DA62D5BBB20B1*>* Field_1_4; // 0x30
+	::System::Boolean Field_1_5; // 0x38
+	::Class_1_F860364065044F08_AssetPreloadState Field_1_6; // 0x3C
+	::RPG::Client::GameObjectPoolUsage Field_1_7; // 0x40
+	::System::Int32 Field_1_8; // 0x44
 
 	::System::Void _ctor()
 	{

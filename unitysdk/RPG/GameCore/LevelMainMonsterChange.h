@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELMAINMONSTERCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19208480)
-#define RPG_GAMECORE_LEVELMAINMONSTERCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19208430)
-#define RPG_GAMECORE_LEVELMAINMONSTERCHANGE_GET_NEWENTITY_OFFSET UNITYSDK_OFFSET(0x192084F0)
-#define RPG_GAMECORE_LEVELMAINMONSTERCHANGE_GET_OLDENTITY_OFFSET UNITYSDK_OFFSET(0x192084D0)
-#define RPG_GAMECORE_LEVELMAINMONSTERCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0x192083D0)
-#define RPG_GAMECORE_LEVELMAINMONSTERCHANGE_SET_NEWENTITY_OFFSET UNITYSDK_OFFSET(0x19208500)
-#define RPG_GAMECORE_LEVELMAINMONSTERCHANGE_SET_OLDENTITY_OFFSET UNITYSDK_OFFSET(0x192084E0)
-#define RPG_GAMECORE_LEVELMAINMONSTERCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19208510)
+#define RPG_GAMECORE_LEVELMAINMONSTERCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19B748F0)
+#define RPG_GAMECORE_LEVELMAINMONSTERCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19B748A0)
+#define RPG_GAMECORE_LEVELMAINMONSTERCHANGE_GET_NEWENTITY_OFFSET UNITYSDK_OFFSET(0x19B74960)
+#define RPG_GAMECORE_LEVELMAINMONSTERCHANGE_GET_OLDENTITY_OFFSET UNITYSDK_OFFSET(0x19B74940)
+#define RPG_GAMECORE_LEVELMAINMONSTERCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0x19B74840)
+#define RPG_GAMECORE_LEVELMAINMONSTERCHANGE_SET_NEWENTITY_OFFSET UNITYSDK_OFFSET(0x19B74970)
+#define RPG_GAMECORE_LEVELMAINMONSTERCHANGE_SET_OLDENTITY_OFFSET UNITYSDK_OFFSET(0x19B74950)
+#define RPG_GAMECORE_LEVELMAINMONSTERCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B74980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelMainMonsterChange_TypeDefinitionIndex = 52384;
+	inline static constexpr unsigned int LevelMainMonsterChange_TypeDefinitionIndex = 53081;
 
-	class LevelMainMonsterChange : public ::Class_1_9988289E7F8AA214
+	class LevelMainMonsterChange : public ::Class_1_BF7A075734D15E98
 	{
 	public:
-		::RPG::GameCore::GameEntity* _NewEntity_k__BackingField; // 0x18
-		::RPG::GameCore::GameEntity* _OldEntity_k__BackingField; // 0x20
+		::RPG::GameCore::GameEntity* _OldEntity_k__BackingField; // 0x18
+		::RPG::GameCore::GameEntity* _NewEntity_k__BackingField; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMAINMONSTERCHANGE__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelMainMonsterChange* Init(::RPG::GameCore::GameEntity* oldEntity, ::RPG::GameCore::GameEntity* newEntity)
+		::RPG::GameCore::LevelMainMonsterChange* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
 		{
-			return ((::RPG::GameCore::LevelMainMonsterChange*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMAINMONSTERCHANGE_INIT_OFFSET))(this, oldEntity, newEntity);
+			return ((::RPG::GameCore::LevelMainMonsterChange*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMAINMONSTERCHANGE_INIT_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()
@@ -49,9 +49,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMAINMONSTERCHANGE_GET_OLDENTITY_OFFSET))(this);
 		}
 
-		::System::Void set_OldEntity(::RPG::GameCore::GameEntity* value)
+		::System::Void set_OldEntity(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMAINMONSTERCHANGE_SET_OLDENTITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMAINMONSTERCHANGE_SET_OLDENTITY_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::GameEntity* get_NewEntity()
@@ -59,9 +59,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMAINMONSTERCHANGE_GET_NEWENTITY_OFFSET))(this);
 		}
 
-		::System::Void set_NewEntity(::RPG::GameCore::GameEntity* value)
+		::System::Void set_NewEntity(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMAINMONSTERCHANGE_SET_NEWENTITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMAINMONSTERCHANGE_SET_NEWENTITY_OFFSET))(this, a1);
 		}
 	};
 }

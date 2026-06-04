@@ -8,17 +8,17 @@ namespace System::Xml::Serialization { class TypeData; }
 namespace System::Xml::Serialization { class XmlTypeMapElementInfo; }
 namespace System::Xml::Serialization { class XmlTypeMapElementInfoList; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_FINDELEMENT_OFFSET UNITYSDK_OFFSET(0x17AA2AB0)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_GET_CHOICEMEMBER_OFFSET UNITYSDK_OFFSET(0x17AA7190)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_GET_CHOICETYPEDATA_OFFSET UNITYSDK_OFFSET(0x17AA71B0)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_GET_ELEMENTINFO_OFFSET UNITYSDK_OFFSET(0x17A888E0)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_GET_ISXMLTEXTCOLLECTOR_OFFSET UNITYSDK_OFFSET(0x17AA71D0)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SETCHOICE_OFFSET UNITYSDK_OFFSET(0x17A98120)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SET_CHOICEMEMBER_OFFSET UNITYSDK_OFFSET(0x17AA71A0)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SET_CHOICETYPEDATA_OFFSET UNITYSDK_OFFSET(0x17AA71C0)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SET_ELEMENTINFO_OFFSET UNITYSDK_OFFSET(0x17AA7180)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SET_ISXMLTEXTCOLLECTOR_OFFSET UNITYSDK_OFFSET(0x17AA71E0)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x17A88980)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_FINDELEMENT_OFFSET UNITYSDK_OFFSET(0x16CD3E60)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_GET_CHOICEMEMBER_OFFSET UNITYSDK_OFFSET(0x16CD85B0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_GET_CHOICETYPEDATA_OFFSET UNITYSDK_OFFSET(0x16CD85D0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_GET_ELEMENTINFO_OFFSET UNITYSDK_OFFSET(0x16CBA790)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_GET_ISXMLTEXTCOLLECTOR_OFFSET UNITYSDK_OFFSET(0x16CD85F0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SETCHOICE_OFFSET UNITYSDK_OFFSET(0x16CC9A90)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SET_CHOICEMEMBER_OFFSET UNITYSDK_OFFSET(0x16CD85C0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SET_CHOICETYPEDATA_OFFSET UNITYSDK_OFFSET(0x16CD85E0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SET_ELEMENTINFO_OFFSET UNITYSDK_OFFSET(0x16CD85A0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SET_ISXMLTEXTCOLLECTOR_OFFSET UNITYSDK_OFFSET(0x16CD8600)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x16CBA830)
 
 namespace System::Xml::Serialization
 {
@@ -28,8 +28,8 @@ namespace System::Xml::Serialization
 	{
 	public:
 		::System::Xml::Serialization::XmlTypeMapElementInfoList* _elementInfo; // 0x50
-		::System::Xml::Serialization::TypeData* _choiceTypeData; // 0x58
-		::System::String* _choiceMember; // 0x60
+		::System::String* _choiceMember; // 0x58
+		::System::Xml::Serialization::TypeData* _choiceTypeData; // 0x60
 		::System::Boolean _isTextCollector; // 0x68
 
 		::System::Void _ctor()
@@ -42,9 +42,9 @@ namespace System::Xml::Serialization
 			return ((::System::Xml::Serialization::XmlTypeMapElementInfoList*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_GET_ELEMENTINFO_OFFSET))(this);
 		}
 
-		::System::Void set_ElementInfo(::System::Xml::Serialization::XmlTypeMapElementInfoList* value)
+		::System::Void set_ElementInfo(::System::Xml::Serialization::XmlTypeMapElementInfoList* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapElementInfoList*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SET_ELEMENTINFO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapElementInfoList*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SET_ELEMENTINFO_OFFSET))(this, a1);
 		}
 
 		::System::String* get_ChoiceMember()
@@ -52,9 +52,9 @@ namespace System::Xml::Serialization
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_GET_CHOICEMEMBER_OFFSET))(this);
 		}
 
-		::System::Void set_ChoiceMember(::System::String* value)
+		::System::Void set_ChoiceMember(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SET_CHOICEMEMBER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SET_CHOICEMEMBER_OFFSET))(this, a1);
 		}
 
 		::System::Xml::Serialization::TypeData* get_ChoiceTypeData()
@@ -62,19 +62,19 @@ namespace System::Xml::Serialization
 			return ((::System::Xml::Serialization::TypeData*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_GET_CHOICETYPEDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ChoiceTypeData(::System::Xml::Serialization::TypeData* value)
+		::System::Void set_ChoiceTypeData(::System::Xml::Serialization::TypeData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::TypeData*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SET_CHOICETYPEDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::TypeData*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SET_CHOICETYPEDATA_OFFSET))(this, a1);
 		}
 
-		::System::Xml::Serialization::XmlTypeMapElementInfo* FindElement(::System::Object* ob, ::System::Object* memberValue)
+		::System::Xml::Serialization::XmlTypeMapElementInfo* FindElement(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Xml::Serialization::XmlTypeMapElementInfo*(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_FINDELEMENT_OFFSET))(this, ob, memberValue);
+			return ((::System::Xml::Serialization::XmlTypeMapElementInfo*(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_FINDELEMENT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetChoice(::System::Object* ob, ::System::Object* choice)
+		::System::Void SetChoice(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SETCHOICE_OFFSET))(this, ob, choice);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SETCHOICE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_IsXmlTextCollector()
@@ -82,9 +82,9 @@ namespace System::Xml::Serialization
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_GET_ISXMLTEXTCOLLECTOR_OFFSET))(this);
 		}
 
-		::System::Void set_IsXmlTextCollector(::System::Boolean value)
+		::System::Void set_IsXmlTextCollector(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SET_ISXMLTEXTCOLLECTOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERELEMENT_SET_ISXMLTEXTCOLLECTOR_OFFSET))(this, a1);
 		}
 	};
 }

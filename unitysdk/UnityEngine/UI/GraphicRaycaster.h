@@ -15,39 +15,39 @@ namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 namespace UnityEngine::UI { class Graphic; }
 namespace UnityEngine::UI::Collections { template <typename T> class IndexedSet_1; }
 
-#define UNITYENGINE_UI_GRAPHICRAYCASTER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1825B540)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER_GET_BLOCKINGOBJECTS_OFFSET UNITYSDK_OFFSET(0x182586B0)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER_GET_CANVAS_OFFSET UNITYSDK_OFFSET(0x182584B0)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER_GET_EVENTCAMERA_OFFSET UNITYSDK_OFFSET(0x1825A3A0)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER_GET_IGNOREREVERSEDGRAPHICS_OFFSET UNITYSDK_OFFSET(0x18258690)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER_GET_RENDERORDERPRIORITY_OFFSET UNITYSDK_OFFSET(0x18258540)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER_GET_SORTORDERPRIORITY_OFFSET UNITYSDK_OFFSET(0x18258370)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER_GET_USEOPTIMIZEDRAYCAST_OFFSET UNITYSDK_OFFSET(0x182586D0)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1825B5C0)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1825BB30)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1825B580)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER_RAYCASTOPTIMIZED_OFFSET UNITYSDK_OFFSET(0x1825A6D0)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER_RAYCAST_1_OFFSET UNITYSDK_OFFSET(0x1825ACA0)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER_RAYCAST_OFFSET UNITYSDK_OFFSET(0x18258D70)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER_SET_BLOCKINGOBJECTS_OFFSET UNITYSDK_OFFSET(0x182586C0)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER_SET_IGNOREREVERSEDGRAPHICS_OFFSET UNITYSDK_OFFSET(0x182586A0)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER_SET_USEOPTIMIZEDRAYCAST_OFFSET UNITYSDK_OFFSET(0x182586E0)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1825BB40)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18258D00)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER__ONCANVASGRAPHICSCHANGE_OFFSET UNITYSDK_OFFSET(0x1825B9D0)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER__ONGRAPHICRAYCASTTARGETCHANGE_OFFSET UNITYSDK_OFFSET(0x1825BAC0)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER__SETOPTIMIZEDRAYCASTACTIVE_OFFSET UNITYSDK_OFFSET(0x18258710)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER_AWAKE_OFFSET UNITYSDK_OFFSET(0x183E41D0)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER_GET_BLOCKINGOBJECTS_OFFSET UNITYSDK_OFFSET(0x183E1110)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER_GET_CANVAS_OFFSET UNITYSDK_OFFSET(0x183E0F20)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER_GET_EVENTCAMERA_OFFSET UNITYSDK_OFFSET(0x183E2E90)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER_GET_IGNOREREVERSEDGRAPHICS_OFFSET UNITYSDK_OFFSET(0x183E10F0)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER_GET_RENDERORDERPRIORITY_OFFSET UNITYSDK_OFFSET(0x183E0FA0)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER_GET_SORTORDERPRIORITY_OFFSET UNITYSDK_OFFSET(0x183E0DF0)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER_GET_USEOPTIMIZEDRAYCAST_OFFSET UNITYSDK_OFFSET(0x183E1130)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x183E4270)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x183E47B0)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x183E4230)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER_RAYCASTOPTIMIZED_OFFSET UNITYSDK_OFFSET(0x183E31C0)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER_RAYCAST_1_OFFSET UNITYSDK_OFFSET(0x183E3810)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER_RAYCAST_OFFSET UNITYSDK_OFFSET(0x183E17F0)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER_SET_BLOCKINGOBJECTS_OFFSET UNITYSDK_OFFSET(0x183E1120)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER_SET_IGNOREREVERSEDGRAPHICS_OFFSET UNITYSDK_OFFSET(0x183E1100)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER_SET_USEOPTIMIZEDRAYCAST_OFFSET UNITYSDK_OFFSET(0x183E1140)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x183E47C0)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x183E1780)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER__ONCANVASGRAPHICSCHANGE_OFFSET UNITYSDK_OFFSET(0x183E4650)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER__ONGRAPHICRAYCASTTARGETCHANGE_OFFSET UNITYSDK_OFFSET(0x183E4740)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER__SETOPTIMIZEDRAYCASTACTIVE_OFFSET UNITYSDK_OFFSET(0x183E1170)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int GraphicRaycaster_TypeDefinitionIndex = 5598;
+	inline static constexpr unsigned int GraphicRaycaster_TypeDefinitionIndex = 5875;
 
 	class GraphicRaycaster : public ::UnityEngine::EventSystems::BaseRaycaster
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>** StaticGet_s_SortedGraphics()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>**)Il2CppClass::FromTypeDefinitionIndex(GraphicRaycaster_TypeDefinitionIndex)->GetStaticField(0x1D760);
+			return (::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>**)Il2CppClass::FromTypeDefinitionIndex(GraphicRaycaster_TypeDefinitionIndex)->GetStaticField(0x3F9B0);
 		}
 		// static const ::System::Int32 kNoEventMaskSet = 0xFFFFFFFF; // 0x0
 		::System::Boolean m_IgnoreReversedGraphics; // 0x20
@@ -85,9 +85,9 @@ namespace UnityEngine::UI
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER_GET_IGNOREREVERSEDGRAPHICS_OFFSET))(this);
 		}
 
-		::System::Void set_ignoreReversedGraphics(::System::Boolean value)
+		::System::Void set_ignoreReversedGraphics(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER_SET_IGNOREREVERSEDGRAPHICS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER_SET_IGNOREREVERSEDGRAPHICS_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::UI::GraphicRaycaster_BlockingObjects get_blockingObjects()
@@ -95,9 +95,9 @@ namespace UnityEngine::UI
 			return ((::UnityEngine::UI::GraphicRaycaster_BlockingObjects(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER_GET_BLOCKINGOBJECTS_OFFSET))(this);
 		}
 
-		::System::Void set_blockingObjects(::UnityEngine::UI::GraphicRaycaster_BlockingObjects value)
+		::System::Void set_blockingObjects(::UnityEngine::UI::GraphicRaycaster_BlockingObjects a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::GraphicRaycaster_BlockingObjects))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER_SET_BLOCKINGOBJECTS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::GraphicRaycaster_BlockingObjects))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER_SET_BLOCKINGOBJECTS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_useOptimizedRaycast()
@@ -105,9 +105,9 @@ namespace UnityEngine::UI
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER_GET_USEOPTIMIZEDRAYCAST_OFFSET))(this);
 		}
 
-		::System::Void set_useOptimizedRaycast(::System::Boolean value)
+		::System::Void set_useOptimizedRaycast(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER_SET_USEOPTIMIZEDRAYCAST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER_SET_USEOPTIMIZEDRAYCAST_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Canvas* get_canvas()
@@ -115,9 +115,9 @@ namespace UnityEngine::UI
 			return ((::UnityEngine::Canvas*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER_GET_CANVAS_OFFSET))(this);
 		}
 
-		::System::Void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList)
+		::System::Void Raycast(::UnityEngine::EventSystems::PointerEventData* a1, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER_RAYCAST_OFFSET))(this, eventData, resultAppendList);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER_RAYCAST_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Camera* get_eventCamera()
@@ -125,9 +125,9 @@ namespace UnityEngine::UI
 			return ((::UnityEngine::Camera*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER_GET_EVENTCAMERA_OFFSET))(this);
 		}
 
-		static ::System::Void Raycast_1(::UnityEngine::Canvas* canvas, ::UnityEngine::Camera* eventCamera, ::UnityEngine::Vector2 pointerPosition, ::System::Collections::Generic::IList_1<::UnityEngine::UI::Graphic*>* foundGraphics, ::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>* results)
+		static ::System::Void Raycast_1(::UnityEngine::Canvas* a1, ::UnityEngine::Camera* a2, ::UnityEngine::Vector2 a3, ::System::Collections::Generic::IList_1<::UnityEngine::UI::Graphic*>* a4, ::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>* a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::Canvas*, ::UnityEngine::Camera*, ::UnityEngine::Vector2, ::System::Collections::Generic::IList_1<::UnityEngine::UI::Graphic*>*, ::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER_RAYCAST_1_OFFSET))(canvas, eventCamera, pointerPosition, foundGraphics, results);
+			return ((::System::Void(*)(::UnityEngine::Canvas*, ::UnityEngine::Camera*, ::UnityEngine::Vector2, ::System::Collections::Generic::IList_1<::UnityEngine::UI::Graphic*>*, ::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER_RAYCAST_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		::System::Void Awake()
@@ -145,24 +145,24 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER_ONDISABLE_OFFSET))(this);
 		}
 
-		::System::Void _SetOptimizedRaycastActive(::System::Boolean active)
+		::System::Void _SetOptimizedRaycastActive(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER__SETOPTIMIZEDRAYCASTACTIVE_OFFSET))(this, active);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER__SETOPTIMIZEDRAYCASTACTIVE_OFFSET))(this, a1);
 		}
 
-		static ::System::Void RaycastOptimized(::UnityEngine::Canvas* canvas, ::UnityEngine::Camera* eventCamera, ::UnityEngine::Vector2 pointerPosition, ::System::Collections::Generic::IList_1<::UnityEngine::UI::Graphic*>* foundGraphics, ::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>* results)
+		static ::System::Void RaycastOptimized(::UnityEngine::Canvas* a1, ::UnityEngine::Camera* a2, ::UnityEngine::Vector2 a3, ::System::Collections::Generic::IList_1<::UnityEngine::UI::Graphic*>* a4, ::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>* a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::Canvas*, ::UnityEngine::Camera*, ::UnityEngine::Vector2, ::System::Collections::Generic::IList_1<::UnityEngine::UI::Graphic*>*, ::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER_RAYCASTOPTIMIZED_OFFSET))(canvas, eventCamera, pointerPosition, foundGraphics, results);
+			return ((::System::Void(*)(::UnityEngine::Canvas*, ::UnityEngine::Camera*, ::UnityEngine::Vector2, ::System::Collections::Generic::IList_1<::UnityEngine::UI::Graphic*>*, ::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER_RAYCASTOPTIMIZED_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		::System::Void _OnCanvasGraphicsChange(::UnityEngine::UI::Graphic* graphic, ::System::Boolean isAdd)
+		::System::Void _OnCanvasGraphicsChange(::UnityEngine::UI::Graphic* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Graphic*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER__ONCANVASGRAPHICSCHANGE_OFFSET))(this, graphic, isAdd);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Graphic*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER__ONCANVASGRAPHICSCHANGE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _OnGraphicRaycastTargetChange(::UnityEngine::UI::Graphic* graphic)
+		::System::Void _OnGraphicRaycastTargetChange(::UnityEngine::UI::Graphic* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Graphic*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER__ONGRAPHICRAYCASTTARGETCHANGE_OFFSET))(this, graphic);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Graphic*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICRAYCASTER__ONGRAPHICRAYCASTTARGETCHANGE_OFFSET))(this, a1);
 		}
 
 		::System::Void OnDrawGizmosSelected()

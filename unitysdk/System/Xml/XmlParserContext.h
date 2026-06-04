@@ -8,19 +8,19 @@ namespace System::Text { class Encoding; }
 namespace System::Xml { class XmlNameTable; }
 namespace System::Xml { class XmlNamespaceManager; }
 
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_BASEURI_OFFSET UNITYSDK_OFFSET(0x17679A60)
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_DOCTYPENAME_OFFSET UNITYSDK_OFFSET(0x17679A30)
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_ENCODING_OFFSET UNITYSDK_OFFSET(0x17679AA0)
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_HASDTDINFO_OFFSET UNITYSDK_OFFSET(0x17679AB0)
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_INTERNALSUBSET_OFFSET UNITYSDK_OFFSET(0x17679A70)
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_NAMESPACEMANAGER_OFFSET UNITYSDK_OFFSET(0x17679A20)
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_NAMETABLE_OFFSET UNITYSDK_OFFSET(0x17679A10)
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_PUBLICID_OFFSET UNITYSDK_OFFSET(0x17679A40)
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_SYSTEMID_OFFSET UNITYSDK_OFFSET(0x17679A50)
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_XMLLANG_OFFSET UNITYSDK_OFFSET(0x17679A80)
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_XMLSPACE_OFFSET UNITYSDK_OFFSET(0x17679A90)
-#define SYSTEM_XML_XMLPARSERCONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17679820)
-#define SYSTEM_XML_XMLPARSERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17672B50)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_BASEURI_OFFSET UNITYSDK_OFFSET(0x16DD4DB0)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_DOCTYPENAME_OFFSET UNITYSDK_OFFSET(0x16DD4D80)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_ENCODING_OFFSET UNITYSDK_OFFSET(0x16DD4DF0)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_HASDTDINFO_OFFSET UNITYSDK_OFFSET(0x16DD4E00)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_INTERNALSUBSET_OFFSET UNITYSDK_OFFSET(0x16DD4DC0)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_NAMESPACEMANAGER_OFFSET UNITYSDK_OFFSET(0x16DD4D70)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_NAMETABLE_OFFSET UNITYSDK_OFFSET(0x16DD4D60)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_PUBLICID_OFFSET UNITYSDK_OFFSET(0x16DD4D90)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_SYSTEMID_OFFSET UNITYSDK_OFFSET(0x16DD4DA0)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_XMLLANG_OFFSET UNITYSDK_OFFSET(0x16DD4DD0)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_XMLSPACE_OFFSET UNITYSDK_OFFSET(0x16DD4DE0)
+#define SYSTEM_XML_XMLPARSERCONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16DD4B70)
+#define SYSTEM_XML_XMLPARSERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16DCDA80)
 
 namespace System::Xml
 {
@@ -29,25 +29,25 @@ namespace System::Xml
 	class XmlParserContext : public ::System::Object
 	{
 	public:
-		::System::String* _xmlLang; // 0x10
-		::System::String* _pubId; // 0x18
-		::System::String* _baseURI; // 0x20
-		::System::Xml::XmlNamespaceManager* _nsMgr; // 0x28
-		::System::String* _internalSubset; // 0x30
-		::System::String* _sysId; // 0x38
-		::System::Xml::XmlNameTable* _nt; // 0x40
-		::System::Text::Encoding* _encoding; // 0x48
-		::System::String* _docTypeName; // 0x50
+		::System::String* _internalSubset; // 0x10
+		::System::String* _baseURI; // 0x18
+		::System::String* _docTypeName; // 0x20
+		::System::Text::Encoding* _encoding; // 0x28
+		::System::Xml::XmlNameTable* _nt; // 0x30
+		::System::String* _xmlLang; // 0x38
+		::System::String* _sysId; // 0x40
+		::System::Xml::XmlNamespaceManager* _nsMgr; // 0x48
+		::System::String* _pubId; // 0x50
 		::System::Xml::XmlSpace _xmlSpace; // 0x58
 
-		::System::Void _ctor(::System::Xml::XmlNameTable* nt, ::System::Xml::XmlNamespaceManager* nsMgr, ::System::String* docTypeName, ::System::String* pubId, ::System::String* sysId, ::System::String* internalSubset, ::System::String* baseURI, ::System::String* xmlLang, ::System::Xml::XmlSpace xmlSpace)
+		::System::Void _ctor(::System::Xml::XmlNameTable* a1, ::System::Xml::XmlNamespaceManager* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::System::String* a7, ::System::String* a8, ::System::Xml::XmlSpace a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlNameTable*, ::System::Xml::XmlNamespaceManager*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Xml::XmlSpace))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLPARSERCONTEXT__CTOR_OFFSET))(this, nt, nsMgr, docTypeName, pubId, sysId, internalSubset, baseURI, xmlLang, xmlSpace);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlNameTable*, ::System::Xml::XmlNamespaceManager*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Xml::XmlSpace))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLPARSERCONTEXT__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		::System::Void _ctor_1(::System::Xml::XmlNameTable* nt, ::System::Xml::XmlNamespaceManager* nsMgr, ::System::String* docTypeName, ::System::String* pubId, ::System::String* sysId, ::System::String* internalSubset, ::System::String* baseURI, ::System::String* xmlLang, ::System::Xml::XmlSpace xmlSpace, ::System::Text::Encoding* enc)
+		::System::Void _ctor_1(::System::Xml::XmlNameTable* a1, ::System::Xml::XmlNamespaceManager* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::System::String* a7, ::System::String* a8, ::System::Xml::XmlSpace a9, ::System::Text::Encoding* a10)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlNameTable*, ::System::Xml::XmlNamespaceManager*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Xml::XmlSpace, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLPARSERCONTEXT__CTOR_1_OFFSET))(this, nt, nsMgr, docTypeName, pubId, sysId, internalSubset, baseURI, xmlLang, xmlSpace, enc);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlNameTable*, ::System::Xml::XmlNamespaceManager*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Xml::XmlSpace, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLPARSERCONTEXT__CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
 		::System::Xml::XmlNameTable* get_NameTable()

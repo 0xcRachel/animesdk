@@ -5,10 +5,10 @@
 namespace RPG::CustomRP { class StencilDelegate; }
 namespace UnityEngine { class Object; }
 
-#define CLASS_1_765A00EE88349A01___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCE67920)
-#define CLASS_1_765A00EE88349A01___C__DISPLAYCLASS22_0___CREATESTENCILDELEGATE_B__0_OFFSET UNITYSDK_OFFSET(0xCE68350)
+#define CLASS_1_765A00EE88349A01___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16595400)
+#define CLASS_1_765A00EE88349A01___C__DISPLAYCLASS22_0___CREATESTENCILDELEGATE_B__0_OFFSET UNITYSDK_OFFSET(0x16595E30)
 
-inline static constexpr unsigned int Class_1_765A00EE88349A01___c__DisplayClass22_0_TypeDefinitionIndex = 45674;
+inline static constexpr unsigned int Class_1_765A00EE88349A01___c__DisplayClass22_0_TypeDefinitionIndex = 46257;
 
 class Class_1_765A00EE88349A01___c__DisplayClass22_0 : public ::System::Object
 {
@@ -20,8 +20,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_765A00EE88349A01___C__DISPLAYCLASS22_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Void __CreateStencilDelegate_b__0(::UnityEngine::Object* m)
+	::System::Void __CreateStencilDelegate_b__0(::UnityEngine::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + CLASS_1_765A00EE88349A01___C__DISPLAYCLASS22_0___CREATESTENCILDELEGATE_B__0_OFFSET))(this, m);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + CLASS_1_765A00EE88349A01___C__DISPLAYCLASS22_0___CREATESTENCILDELEGATE_B__0_OFFSET))(this, a1);
 	}
 };

@@ -8,11 +8,11 @@ namespace RPG::Client { class RPGQualitySettingsPerPlatform; }
 namespace RPG::Client { class RPGQualitySettingsPresetDetailConsole; }
 namespace RPG::GameCore { class DeviceInfo; }
 
-#define RPG_CLIENT_RPGQUALITYSETTINGSCONSOLE__CTOR_OFFSET UNITYSDK_OFFSET(0x14ED2ED0)
+#define RPG_CLIENT_RPGQUALITYSETTINGSCONSOLE__CTOR_OFFSET UNITYSDK_OFFSET(0x17174A90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGQualitySettingsConsole_TypeDefinitionIndex = 62634;
+	inline static constexpr unsigned int RPGQualitySettingsConsole_TypeDefinitionIndex = 63567;
 
 	class RPGQualitySettingsConsole : public ::System::Object
 	{

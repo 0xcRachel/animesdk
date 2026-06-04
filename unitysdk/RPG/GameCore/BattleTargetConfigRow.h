@@ -9,40 +9,41 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLETARGETCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187B54D0)
-#define RPG_GAMECORE_BATTLETARGETCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187B5EE0)
+#define RPG_GAMECORE_BATTLETARGETCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x195D7260)
+#define RPG_GAMECORE_BATTLETARGETCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x195D7CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleTargetConfigRow_TypeDefinitionIndex = 12142;
+	inline static constexpr unsigned int BattleTargetConfigRow_TypeDefinitionIndex = 12231;
 
 	class BattleTargetConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* MultiTarget; // 0x10
-		::Il2CppArray<::System::UInt32>* HintStep; // 0x18
+		::Il2CppArray<::System::UInt32>* HintStep; // 0x10
+		::Il2CppArray<::RPG::GameCore::BattleTargetIconType>* MultiTargetIconType; // 0x18
 		::System::String* AbilityName; // 0x20
-		::RPG::Client::TextID TargetNameSimple; // 0x28
-		::System::Boolean SkipWhenSuccessOnEnterBattle; // 0x38
-		::System::Boolean IsFixableHeight; // 0x39
-		::System::Boolean ShowInScoreCounter; // 0x3A
-		::System::UInt32 IconNum; // 0x3C
-		::System::UInt32 IsShowProgress; // 0x40
-		::RPG::GameCore::BattleTargetConfigType Type; // 0x44
-		::System::UInt32 ID; // 0x48
-		::System::UInt32 TargetParam; // 0x4C
+		::Il2CppArray<::System::UInt32>* MultiTarget; // 0x28
+		::System::UInt32 IconNum; // 0x30
+		::RPG::GameCore::ParamType ParamType; // 0x34
+		::System::Boolean IsFixableHeight; // 0x38
+		::System::Boolean ShowInScoreCounter; // 0x39
+		::System::Boolean SkipWhenSuccessOnEnterBattle; // 0x3A
+		::System::UInt32 IsShowProgress; // 0x3C
+		::RPG::Client::TextID TargetNameSimple; // 0x40
 		::RPG::Client::TextID TargetName; // 0x50
-		::RPG::GameCore::BattleTargetIconType IconType; // 0x60
-		::RPG::GameCore::ParamType ParamType; // 0x64
+		::System::UInt32 ID; // 0x60
+		::RPG::GameCore::BattleTargetIconType IconType; // 0x64
+		::System::UInt32 TargetParam; // 0x68
+		::RPG::GameCore::BattleTargetConfigType Type; // 0x6C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLETARGETCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::BattleTargetConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleTargetConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleTargetConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLETARGETCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleTargetConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLETARGETCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

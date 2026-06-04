@@ -6,29 +6,29 @@ namespace Entitas { class IEntity; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A639A10)
-#define ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A639A50)
-#define ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x1A639A60)
-#define ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION___C___CTOR_B__0_1_OFFSET UNITYSDK_OFFSET(0x1A639C20)
+#define ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B45BC00)
+#define ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B45BC40)
+#define ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x1B45BC50)
+#define ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION___C___CTOR_B__0_1_OFFSET UNITYSDK_OFFSET(0x1B45BE40)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int ContextStillHasRetainedEntitiesException___c_TypeDefinitionIndex = 9816;
+	inline static constexpr unsigned int ContextStillHasRetainedEntitiesException___c_TypeDefinitionIndex = 9643;
 
 	class ContextStillHasRetainedEntitiesException___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::Entitas::IEntity*, ::System::String*>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::Entitas::IEntity*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ContextStillHasRetainedEntitiesException___c_TypeDefinitionIndex)->GetStaticField(0x27440);
+			return (::System::Func_2<::Entitas::IEntity*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ContextStillHasRetainedEntitiesException___c_TypeDefinitionIndex)->GetStaticField(0x302B0);
 		}
 		static ::Entitas::ContextStillHasRetainedEntitiesException___c** StaticGet___9()
 		{
-			return (::Entitas::ContextStillHasRetainedEntitiesException___c**)Il2CppClass::FromTypeDefinitionIndex(ContextStillHasRetainedEntitiesException___c_TypeDefinitionIndex)->GetStaticField(0x27448);
+			return (::Entitas::ContextStillHasRetainedEntitiesException___c**)Il2CppClass::FromTypeDefinitionIndex(ContextStillHasRetainedEntitiesException___c_TypeDefinitionIndex)->GetStaticField(0x302B8);
 		}
 		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet___9__0_1()
 		{
-			return (::System::Func_2<::System::Object*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ContextStillHasRetainedEntitiesException___c_TypeDefinitionIndex)->GetStaticField(0x27450);
+			return (::System::Func_2<::System::Object*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ContextStillHasRetainedEntitiesException___c_TypeDefinitionIndex)->GetStaticField(0x302C0);
 		}
 
 		static ::System::Void _cctor()
@@ -41,14 +41,14 @@ namespace Entitas
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION___C__CTOR_OFFSET))(this);
 		}
 
-		::System::String* __ctor_b__0_0(::Entitas::IEntity* e)
+		::System::String* __ctor_b__0_0(::Entitas::IEntity* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::Entitas::IEntity*))((::PBYTE)hIl2Cpp + ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION___C___CTOR_B__0_0_OFFSET))(this, e);
+			return ((::System::String*(*)(::PVOID, ::Entitas::IEntity*))((::PBYTE)hIl2Cpp + ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION___C___CTOR_B__0_0_OFFSET))(this, a1);
 		}
 
-		::System::String* __ctor_b__0_1(::System::Object* o)
+		::System::String* __ctor_b__0_1(::System::Object* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION___C___CTOR_B__0_1_OFFSET))(this, o);
+			return ((::System::String*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION___C___CTOR_B__0_1_OFFSET))(this, a1);
 		}
 	};
 }

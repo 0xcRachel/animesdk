@@ -9,31 +9,31 @@ namespace RPG::Client { class FateBuffTraitInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_FATETRAITSOURCEBUFF_GETDESC_OFFSET UNITYSDK_OFFSET(0x15108F40)
-#define RPG_CLIENT_FATETRAITSOURCEBUFF_GETIMGICON_OFFSET UNITYSDK_OFFSET(0x15108900)
-#define RPG_CLIENT_FATETRAITSOURCEBUFF_GETNAME_OFFSET UNITYSDK_OFFSET(0x15108D50)
-#define RPG_CLIENT_FATETRAITSOURCEBUFF_GETRARITYBG_OFFSET UNITYSDK_OFFSET(0x15108B80)
-#define RPG_CLIENT_FATETRAITSOURCEBUFF_GET_BUFFDATA_OFFSET UNITYSDK_OFFSET(0x15108A90)
-#define RPG_CLIENT_FATETRAITSOURCEBUFF_GET_BUFFID_OFFSET UNITYSDK_OFFSET(0x15109260)
-#define RPG_CLIENT_FATETRAITSOURCEBUFF_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x15109200)
-#define RPG_CLIENT_FATETRAITSOURCEBUFF_SET_BUFFID_OFFSET UNITYSDK_OFFSET(0x15109270)
-#define RPG_CLIENT_FATETRAITSOURCEBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x15107520)
+#define RPG_CLIENT_FATETRAITSOURCEBUFF_GETDESC_OFFSET UNITYSDK_OFFSET(0x18AD2B40)
+#define RPG_CLIENT_FATETRAITSOURCEBUFF_GETIMGICON_OFFSET UNITYSDK_OFFSET(0x18AD2840)
+#define RPG_CLIENT_FATETRAITSOURCEBUFF_GETNAME_OFFSET UNITYSDK_OFFSET(0x18AD2A60)
+#define RPG_CLIENT_FATETRAITSOURCEBUFF_GETRARITYBG_OFFSET UNITYSDK_OFFSET(0x18AD29B0)
+#define RPG_CLIENT_FATETRAITSOURCEBUFF_GET_BUFFDATA_OFFSET UNITYSDK_OFFSET(0x18AD28C0)
+#define RPG_CLIENT_FATETRAITSOURCEBUFF_GET_BUFFID_OFFSET UNITYSDK_OFFSET(0x18AD2C60)
+#define RPG_CLIENT_FATETRAITSOURCEBUFF_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x18AD2C00)
+#define RPG_CLIENT_FATETRAITSOURCEBUFF_SET_BUFFID_OFFSET UNITYSDK_OFFSET(0x18AD2C70)
+#define RPG_CLIENT_FATETRAITSOURCEBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x18AD14C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateTraitSourceBuff_TypeDefinitionIndex = 58876;
+	inline static constexpr unsigned int FateTraitSourceBuff_TypeDefinitionIndex = 59806;
 
 	class FateTraitSourceBuff : public ::System::Object
 	{
 	public:
-		::RPG::Client::FateBuffTraitInfo* _BelongTraitInfo; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateBuffRarityType, ::System::String*>* _BuffRarityIconPath; // 0x18
-		::RPG::Client::FateBuffData* _BuffData; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateBuffRarityType, ::System::String*>* _BuffRarityIconPath; // 0x10
+		::RPG::Client::FateBuffData* _BuffData; // 0x18
+		::RPG::Client::FateBuffTraitInfo* _BelongTraitInfo; // 0x20
 		::System::UInt32 _BuffID_k__BackingField; // 0x28
 
-		::System::Void _ctor(::System::UInt32 buffID, ::RPG::Client::FateBuffTraitInfo* belongTraitInfo)
+		::System::Void _ctor(::System::UInt32 a1, ::RPG::Client::FateBuffTraitInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::FateBuffTraitInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATETRAITSOURCEBUFF__CTOR_OFFSET))(this, buffID, belongTraitInfo);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::FateBuffTraitInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATETRAITSOURCEBUFF__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* GetImgIcon()
@@ -66,9 +66,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATETRAITSOURCEBUFF_GET_BUFFID_OFFSET))(this);
 		}
 
-		::System::Void set_BuffID(::System::UInt32 value)
+		::System::Void set_BuffID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATETRAITSOURCEBUFF_SET_BUFFID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATETRAITSOURCEBUFF_SET_BUFFID_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::FateBuffData* get_BuffData()

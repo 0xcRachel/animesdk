@@ -6,24 +6,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16F00A20)
-#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16F00A60)
-#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__SYNCINTERACTDATA_B__5_0_OFFSET UNITYSDK_OFFSET(0x16F00A70)
+#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17DE5AF0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17DE5B30)
+#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__SYNCINTERACTDATA_B__5_0_OFFSET UNITYSDK_OFFSET(0x17DE5B40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournBuildRefInfo___c_TypeDefinitionIndex = 62230;
+	inline static constexpr unsigned int RogueTournBuildRefInfo___c_TypeDefinitionIndex = 63163;
 
 	class RogueTournBuildRefInfo___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::RogueTournBuildRefInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueTournBuildRefInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefInfo___c_TypeDefinitionIndex)->GetStaticField(0x2A400);
+			return (::RPG::Client::RogueTournBuildRefInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefInfo___c_TypeDefinitionIndex)->GetStaticField(0x330F0);
 		}
 		static ::System::Func_2<::System::String*, ::RPG::Client::MongoObjectId>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::System::String*, ::RPG::Client::MongoObjectId>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefInfo___c_TypeDefinitionIndex)->GetStaticField(0x2A408);
+			return (::System::Func_2<::System::String*, ::RPG::Client::MongoObjectId>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefInfo___c_TypeDefinitionIndex)->GetStaticField(0x330F8);
 		}
 
 		static ::System::Void _cctor()
@@ -36,9 +36,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::MongoObjectId _SyncInteractData_b__5_0(::System::String* id)
+		::RPG::Client::MongoObjectId _SyncInteractData_b__5_0(::System::String* a1)
 		{
-			return ((::RPG::Client::MongoObjectId(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__SYNCINTERACTDATA_B__5_0_OFFSET))(this, id);
+			return ((::RPG::Client::MongoObjectId(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__SYNCINTERACTDATA_B__5_0_OFFSET))(this, a1);
 		}
 	};
 }

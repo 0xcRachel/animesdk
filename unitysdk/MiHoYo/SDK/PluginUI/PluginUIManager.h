@@ -9,36 +9,36 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_CLEARACTIONS_OFFSET UNITYSDK_OFFSET(0x157A27A0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_CLOSEALL_OFFSET UNITYSDK_OFFSET(0x157A2B70)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_CLOSEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x157A2B00)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x1579E510)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_ISPLUGINUIVISIBLE_OFFSET UNITYSDK_OFFSET(0x157A2430)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_ISUSINGPLUGINUI_OFFSET UNITYSDK_OFFSET(0x157A2270)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_PAUSEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x157A1F10)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_PLUGINUIENABLE_OFFSET UNITYSDK_OFFSET(0x157A2370)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_POP_OFFSET UNITYSDK_OFFSET(0x157A2D50)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_REGISTERPLUGINUI_OFFSET UNITYSDK_OFFSET(0x157A1FB0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_RESUMEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x157A1F60)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_SAVEACTIONS_OFFSET UNITYSDK_OFFSET(0x157A2500)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_SENDPLUGINUIMESSAGE_OFFSET UNITYSDK_OFFSET(0x1579E740)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_SENDPLUGINUINOTIFYMESSAGE_OFFSET UNITYSDK_OFFSET(0x157A2A30)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x157A2E90)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x157A1DC0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_CLEARACTIONS_OFFSET UNITYSDK_OFFSET(0x16A17490)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_CLOSEALL_OFFSET UNITYSDK_OFFSET(0x16A178B0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_CLOSEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x16A17840)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x16A123E0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_ISPLUGINUIVISIBLE_OFFSET UNITYSDK_OFFSET(0x16A170A0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_ISUSINGPLUGINUI_OFFSET UNITYSDK_OFFSET(0x16A16EE0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_PAUSEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x16A16BA0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_PLUGINUIENABLE_OFFSET UNITYSDK_OFFSET(0x16A16FE0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_POP_OFFSET UNITYSDK_OFFSET(0x16A17AA0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_REGISTERPLUGINUI_OFFSET UNITYSDK_OFFSET(0x16A16C40)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_RESUMEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x16A16BF0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_SAVEACTIONS_OFFSET UNITYSDK_OFFSET(0x16A171F0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_SENDPLUGINUIMESSAGE_OFFSET UNITYSDK_OFFSET(0x16A124D0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_SENDPLUGINUINOTIFYMESSAGE_OFFSET UNITYSDK_OFFSET(0x16A176D0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16A17C00)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x16A16A30)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIManager_TypeDefinitionIndex = 8012;
+	inline static constexpr unsigned int PluginUIManager_TypeDefinitionIndex = 8915;
 
 	class PluginUIManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::PluginUI::PluginUIManager** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::PluginUI::PluginUIManager**)Il2CppClass::FromTypeDefinitionIndex(PluginUIManager_TypeDefinitionIndex)->GetStaticField(0x14520);
+			return (::MiHoYo::SDK::PluginUI::PluginUIManager**)Il2CppClass::FromTypeDefinitionIndex(PluginUIManager_TypeDefinitionIndex)->GetStaticField(0x199D0);
 		}
-		::System::Collections::Generic::List_1<::System::String*>* m_lstShowingPluginUI; // 0x10
-		::System::Collections::Generic::HashSet_1<::System::String*>* m_setPluginUINames; // 0x18
+		::System::Collections::Generic::HashSet_1<::System::String*>* m_setPluginUINames; // 0x10
+		::System::Collections::Generic::List_1<::System::String*>* m_lstShowingPluginUI; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Int32>*>* m_dicUIActions; // 0x20
 		::System::Boolean m_bIsPluginUIPaused; // 0x28
 
@@ -67,14 +67,14 @@ namespace MiHoYo::SDK::PluginUI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_RESUMEPLUGINUI_OFFSET))(this);
 		}
 
-		::System::Void RegisterPluginUI(::System::String* strPrams)
+		::System::Void RegisterPluginUI(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_REGISTERPLUGINUI_OFFSET))(this, strPrams);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_REGISTERPLUGINUI_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsUsingPluginUI(::System::String* strUIName)
+		::System::Boolean IsUsingPluginUI(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_ISUSINGPLUGINUI_OFFSET))(this, strUIName);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_ISUSINGPLUGINUI_OFFSET))(this, a1);
 		}
 
 		::System::Boolean PluginUIEnable()
@@ -82,34 +82,34 @@ namespace MiHoYo::SDK::PluginUI
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_PLUGINUIENABLE_OFFSET))(this);
 		}
 
-		::System::Boolean IsPluginUIVisible(::System::String* strUIName)
+		::System::Boolean IsPluginUIVisible(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_ISPLUGINUIVISIBLE_OFFSET))(this, strUIName);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_ISPLUGINUIVISIBLE_OFFSET))(this, a1);
 		}
 
-		::System::Void SaveActions(::MiHoYo::SDK::PluginUI::PluginUIBridgeEventModel* bridgeModel)
+		::System::Void SaveActions(::MiHoYo::SDK::PluginUI::PluginUIBridgeEventModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PluginUI::PluginUIBridgeEventModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_SAVEACTIONS_OFFSET))(this, bridgeModel);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PluginUI::PluginUIBridgeEventModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_SAVEACTIONS_OFFSET))(this, a1);
 		}
 
-		::System::Void ClearActions(::System::String* strUIName)
+		::System::Void ClearActions(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_CLEARACTIONS_OFFSET))(this, strUIName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_CLEARACTIONS_OFFSET))(this, a1);
 		}
 
-		::System::Void SendPluginUIMessage(::System::String* strMsgName, ::MiHoYo::SDK::PluginUI::PluginUIBridgeEventModel* bridgeModel)
+		::System::Void SendPluginUIMessage(::System::String* a1, ::MiHoYo::SDK::PluginUI::PluginUIBridgeEventModel* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::PluginUI::PluginUIBridgeEventModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_SENDPLUGINUIMESSAGE_OFFSET))(this, strMsgName, bridgeModel);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::PluginUI::PluginUIBridgeEventModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_SENDPLUGINUIMESSAGE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SendPluginUINotifyMessage(::MiHoYo::SDK::PluginUI::PluginUIBridgeNotifyMessageModel* bridgeModel)
+		::System::Void SendPluginUINotifyMessage(::MiHoYo::SDK::PluginUI::PluginUIBridgeNotifyMessageModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PluginUI::PluginUIBridgeNotifyMessageModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_SENDPLUGINUINOTIFYMESSAGE_OFFSET))(this, bridgeModel);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PluginUI::PluginUIBridgeNotifyMessageModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_SENDPLUGINUINOTIFYMESSAGE_OFFSET))(this, a1);
 		}
 
-		::System::Void ClosePluginUI(::System::String* strUIName)
+		::System::Void ClosePluginUI(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_CLOSEPLUGINUI_OFFSET))(this, strUIName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIMANAGER_CLOSEPLUGINUI_OFFSET))(this, a1);
 		}
 
 		::System::Void CloseAll()

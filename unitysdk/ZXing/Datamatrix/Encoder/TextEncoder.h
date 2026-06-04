@@ -4,13 +4,13 @@
 
 namespace System::Text { class StringBuilder; }
 
-#define ZXING_DATAMATRIX_ENCODER_TEXTENCODER_ENCODECHAR_OFFSET UNITYSDK_OFFSET(0x16CA38C0)
-#define ZXING_DATAMATRIX_ENCODER_TEXTENCODER_GET_ENCODINGMODE_OFFSET UNITYSDK_OFFSET(0x16CA38B0)
-#define ZXING_DATAMATRIX_ENCODER_TEXTENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x16CA1C90)
+#define ZXING_DATAMATRIX_ENCODER_TEXTENCODER_ENCODECHAR_OFFSET UNITYSDK_OFFSET(0x13CD2E90)
+#define ZXING_DATAMATRIX_ENCODER_TEXTENCODER_GET_ENCODINGMODE_OFFSET UNITYSDK_OFFSET(0x13CD2E80)
+#define ZXING_DATAMATRIX_ENCODER_TEXTENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x13CD1540)
 
 namespace ZXing::Datamatrix::Encoder
 {
-	inline static constexpr unsigned int TextEncoder_TypeDefinitionIndex = 6104;
+	inline static constexpr unsigned int TextEncoder_TypeDefinitionIndex = 6477;
 
 	class TextEncoder : public ::ZXing::Datamatrix::Encoder::C40Encoder
 	{
@@ -25,9 +25,9 @@ namespace ZXing::Datamatrix::Encoder
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_TEXTENCODER_GET_ENCODINGMODE_OFFSET))(this);
 		}
 
-		::System::Int32 encodeChar(::System::Char c, ::System::Text::StringBuilder* sb)
+		::System::Int32 encodeChar(::System::Char a1, ::System::Text::StringBuilder* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Char, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_TEXTENCODER_ENCODECHAR_OFFSET))(this, c, sb);
+			return ((::System::Int32(*)(::PVOID, ::System::Char, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_TEXTENCODER_ENCODECHAR_OFFSET))(this, a1, a2);
 		}
 	};
 }

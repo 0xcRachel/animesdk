@@ -9,36 +9,36 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define MIHOYOSDKJSON_JSONBOOL_EQUALS_OFFSET UNITYSDK_OFFSET(0x17CF9100)
-#define MIHOYOSDKJSON_JSONBOOL_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17CF8F60)
-#define MIHOYOSDKJSON_JSONBOOL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17CF9120)
-#define MIHOYOSDKJSON_JSONBOOL_GET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x17CF8FF0)
-#define MIHOYOSDKJSON_JSONBOOL_GET_ISBOOLEAN_OFFSET UNITYSDK_OFFSET(0x17CF8F50)
-#define MIHOYOSDKJSON_JSONBOOL_GET_TAG_OFFSET UNITYSDK_OFFSET(0x17CF8F40)
-#define MIHOYOSDKJSON_JSONBOOL_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x17CF8F80)
-#define MIHOYOSDKJSON_JSONBOOL_SET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x17CF9000)
-#define MIHOYOSDKJSON_JSONBOOL_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x17CF8FA0)
-#define MIHOYOSDKJSON_JSONBOOL_WRITETOSTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x17CF90C0)
-#define MIHOYOSDKJSON_JSONBOOL__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17CF9040)
-#define MIHOYOSDKJSON_JSONBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x17CF9010)
+#define MIHOYOSDKJSON_JSONBOOL_EQUALS_OFFSET UNITYSDK_OFFSET(0x19BA06D0)
+#define MIHOYOSDKJSON_JSONBOOL_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19BA0530)
+#define MIHOYOSDKJSON_JSONBOOL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19BA06F0)
+#define MIHOYOSDKJSON_JSONBOOL_GET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x19BA05C0)
+#define MIHOYOSDKJSON_JSONBOOL_GET_ISBOOLEAN_OFFSET UNITYSDK_OFFSET(0x19BA0520)
+#define MIHOYOSDKJSON_JSONBOOL_GET_TAG_OFFSET UNITYSDK_OFFSET(0x19BA0510)
+#define MIHOYOSDKJSON_JSONBOOL_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x19BA0550)
+#define MIHOYOSDKJSON_JSONBOOL_SET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x19BA05D0)
+#define MIHOYOSDKJSON_JSONBOOL_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x19BA0570)
+#define MIHOYOSDKJSON_JSONBOOL_WRITETOSTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x19BA0690)
+#define MIHOYOSDKJSON_JSONBOOL__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19BA0610)
+#define MIHOYOSDKJSON_JSONBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x19BA05E0)
 
 namespace MiHoYoSDKJSON
 {
-	inline static constexpr unsigned int JSONBool_TypeDefinitionIndex = 42664;
+	inline static constexpr unsigned int JSONBool_TypeDefinitionIndex = 43467;
 
 	class JSONBool : public ::MiHoYoSDKJSON::JSONNode
 	{
 	public:
 		::System::Boolean m_Data; // 0x10
 
-		::System::Void _ctor(::System::Boolean aData)
+		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONBOOL__CTOR_OFFSET))(this, aData);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONBOOL__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::String* aData)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONBOOL__CTOR_1_OFFSET))(this, aData);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONBOOL__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::MiHoYoSDKJSON::JSONNodeType get_Tag()
@@ -61,9 +61,9 @@ namespace MiHoYoSDKJSON
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONBOOL_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_Value(::System::String* value)
+		::System::Void set_Value(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONBOOL_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONBOOL_SET_VALUE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_AsBool()
@@ -71,19 +71,19 @@ namespace MiHoYoSDKJSON
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONBOOL_GET_ASBOOL_OFFSET))(this);
 		}
 
-		::System::Void set_AsBool(::System::Boolean value)
+		::System::Void set_AsBool(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONBOOL_SET_ASBOOL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONBOOL_SET_ASBOOL_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteToStringBuilder(::System::Text::StringBuilder* aSB, ::System::Int32 aIndent, ::System::Int32 aIndentInc, ::MiHoYoSDKJSON::JSONTextMode aMode)
+		::System::Void WriteToStringBuilder(::System::Text::StringBuilder* a1, ::System::Int32 a2, ::System::Int32 a3, ::MiHoYoSDKJSON::JSONTextMode a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*, ::System::Int32, ::System::Int32, ::MiHoYoSDKJSON::JSONTextMode))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONBOOL_WRITETOSTRINGBUILDER_OFFSET))(this, aSB, aIndent, aIndentInc, aMode);
+			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*, ::System::Int32, ::System::Int32, ::MiHoYoSDKJSON::JSONTextMode))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONBOOL_WRITETOSTRINGBUILDER_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONBOOL_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONBOOL_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

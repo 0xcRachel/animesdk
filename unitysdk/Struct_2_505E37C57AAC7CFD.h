@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/Prop/SnowballPuzzleBlockType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_505E37C57AAC7CFD_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x182CD30)
+#define STRUCT_2_505E37C57AAC7CFD_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x37A2820)
 
-inline static constexpr unsigned int Struct_2_505E37C57AAC7CFD_TypeDefinitionIndex = 72365;
+inline static constexpr unsigned int Struct_2_505E37C57AAC7CFD_TypeDefinitionIndex = 73387;
 
 struct alignas(4) Struct_2_505E37C57AAC7CFD
 {

@@ -6,22 +6,22 @@ namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class Instruction; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOADLOCALINSTRUCTION_BOXIFINDEXMATCHES_OFFSET UNITYSDK_OFFSET(0x18680250)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOADLOCALINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x18680150)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOADLOCALINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x18680140)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOADLOCALINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x18680190)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOADLOCALINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18660920)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOADLOCALINSTRUCTION_BOXIFINDEXMATCHES_OFFSET UNITYSDK_OFFSET(0x1802DCF0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOADLOCALINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1802DC10)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOADLOCALINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1802DC00)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOADLOCALINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1802DC50)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOADLOCALINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1800E080)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int LoadLocalInstruction_TypeDefinitionIndex = 3485;
+	inline static constexpr unsigned int LoadLocalInstruction_TypeDefinitionIndex = 3486;
 
 	class LoadLocalInstruction : public ::System::Linq::Expressions::Interpreter::LocalAccessInstruction
 	{
 	public:
-		::System::Void _ctor(::System::Int32 index)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOADLOCALINSTRUCTION__CTOR_OFFSET))(this, index);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOADLOCALINSTRUCTION__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_ProducedStack()
@@ -34,14 +34,14 @@ namespace System::Linq::Expressions::Interpreter
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOADLOCALINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET))(this);
 		}
 
-		::System::Int32 Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame)
+		::System::Int32 Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOADLOCALINSTRUCTION_RUN_OFFSET))(this, frame);
+			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOADLOCALINSTRUCTION_RUN_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::Interpreter::Instruction* BoxIfIndexMatches(::System::Int32 index)
+		::System::Linq::Expressions::Interpreter::Instruction* BoxIfIndexMatches(::System::Int32 a1)
 		{
-			return ((::System::Linq::Expressions::Interpreter::Instruction*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOADLOCALINSTRUCTION_BOXIFINDEXMATCHES_OFFSET))(this, index);
+			return ((::System::Linq::Expressions::Interpreter::Instruction*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOADLOCALINSTRUCTION_BOXIFINDEXMATCHES_OFFSET))(this, a1);
 		}
 	};
 }

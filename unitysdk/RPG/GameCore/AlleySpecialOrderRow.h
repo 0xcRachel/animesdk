@@ -6,36 +6,36 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class GoodsClass; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ALLEYSPECIALORDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AD0430)
-#define RPG_GAMECORE_ALLEYSPECIALORDERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18AD0E90)
+#define RPG_GAMECORE_ALLEYSPECIALORDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BD5220)
+#define RPG_GAMECORE_ALLEYSPECIALORDERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD5C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleySpecialOrderRow_TypeDefinitionIndex = 11919;
+	inline static constexpr unsigned int AlleySpecialOrderRow_TypeDefinitionIndex = 12012;
 
 	class AlleySpecialOrderRow : public ::System::Object
 	{
 	public:
-		::System::String* SubTitleID; // 0x10
-		::Il2CppArray<::System::UInt32>* SpecialOrderContent; // 0x18
-		::System::String* OrderTips; // 0x20
-		::Il2CppArray<::System::UInt32>* OrderTipsTime; // 0x28
-		::System::String* OrderPic; // 0x30
-		::Il2CppArray<::RPG::GameCore::GoodsClass*>* SpecialOrderGoods; // 0x38
+		::Il2CppArray<::System::UInt32>* SpecialOrderContent; // 0x10
+		::System::String* SubTitleID; // 0x18
+		::System::String* OrderPic; // 0x20
+		::Il2CppArray<::RPG::GameCore::GoodsClass*>* SpecialOrderGoods; // 0x28
+		::Il2CppArray<::System::UInt32>* OrderTipsTime; // 0x30
+		::System::String* OrderTips; // 0x38
 		::System::UInt32 SpecialOrderShopID; // 0x40
-		::System::UInt32 SpecialOrderReward; // 0x44
-		::System::UInt32 SpecialOrderShip; // 0x48
-		::System::UInt32 SpecialOrderID; // 0x4C
-		::System::UInt32 UnlockMission; // 0x50
+		::System::UInt32 SpecialOrderID; // 0x44
+		::System::UInt32 SpecialOrderReward; // 0x48
+		::System::UInt32 UnlockMission; // 0x4C
+		::System::UInt32 SpecialOrderShip; // 0x50
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYSPECIALORDERROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::AlleySpecialOrderRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AlleySpecialOrderRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AlleySpecialOrderRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYSPECIALORDERROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AlleySpecialOrderRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYSPECIALORDERROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class SetExcludeInMultiCharacterFormation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_A79DCA646540D294_DISPOSE_OFFSET UNITYSDK_OFFSET(0xED84B10)
-#define CLASS_2_A79DCA646540D294_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xED84B50)
-#define CLASS_2_A79DCA646540D294_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xED84CD0)
-#define CLASS_2_A79DCA646540D294_TICK_OFFSET UNITYSDK_OFFSET(0xED84D20)
-#define CLASS_2_A79DCA646540D294__CTOR_OFFSET UNITYSDK_OFFSET(0xED84B00)
+#define CLASS_2_A79DCA646540D294_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16A9D2E0)
+#define CLASS_2_A79DCA646540D294_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16A9D320)
+#define CLASS_2_A79DCA646540D294_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1556C2F0)
+#define CLASS_2_A79DCA646540D294_TICK_OFFSET UNITYSDK_OFFSET(0x1556C340)
+#define CLASS_2_A79DCA646540D294__CTOR_OFFSET UNITYSDK_OFFSET(0x16A9D2D0)
 
-inline static constexpr unsigned int Class_2_A79DCA646540D294_TypeDefinitionIndex = 51175;
+inline static constexpr unsigned int Class_2_A79DCA646540D294_TypeDefinitionIndex = 51845;
 
 class Class_2_A79DCA646540D294 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::SetExcludeInMultiCharacterFormation* Field_2_0; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::RPG::GameCore::SetExcludeInMultiCharacterFormation* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetExcludeInMultiCharacterFormation* a2)
 	{

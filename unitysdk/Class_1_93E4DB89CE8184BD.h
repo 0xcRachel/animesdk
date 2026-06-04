@@ -5,9 +5,9 @@
 class Class_1_1B0D7D2CB27F3D72;
 namespace RPG::Client::ChenLingBattle { class IEntity; }
 
-#define CLASS_1_93E4DB89CE8184BD_METHOD_1_B27554244A737A78_OFFSET UNITYSDK_OFFSET(0x106456E0)
+#define CLASS_1_93E4DB89CE8184BD_METHOD_1_B27554244A737A78_OFFSET UNITYSDK_OFFSET(0x16312960)
 
-inline static constexpr unsigned int Class_1_93E4DB89CE8184BD_TypeDefinitionIndex = 70130;
+inline static constexpr unsigned int Class_1_93E4DB89CE8184BD_TypeDefinitionIndex = 70942;
 
 class Class_1_93E4DB89CE8184BD : public ::System::Object
 {

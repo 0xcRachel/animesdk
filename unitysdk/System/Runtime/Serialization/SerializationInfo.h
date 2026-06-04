@@ -9,47 +9,47 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Runtime::Serialization { class IFormatterConverter; }
 namespace System::Runtime::Serialization { class SerializationInfoEnumerator; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUEINTERNAL_OFFSET UNITYSDK_OFFSET(0x17632560)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_10_OFFSET UNITYSDK_OFFSET(0x17632C70)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_1_OFFSET UNITYSDK_OFFSET(0x17632880)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_2_OFFSET UNITYSDK_OFFSET(0x176328F0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_3_OFFSET UNITYSDK_OFFSET(0x17632960)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_4_OFFSET UNITYSDK_OFFSET(0x176329D0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_5_OFFSET UNITYSDK_OFFSET(0x17632A40)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_6_OFFSET UNITYSDK_OFFSET(0x17632AB0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_7_OFFSET UNITYSDK_OFFSET(0x17632B20)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_8_OFFSET UNITYSDK_OFFSET(0x17632B90)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_9_OFFSET UNITYSDK_OFFSET(0x17632C00)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_OFFSET UNITYSDK_OFFSET(0x176306B0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_COMPARE_OFFSET UNITYSDK_OFFSET(0x17632210)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_DEMANDFORUNSAFEASSEMBLYNAMEASSIGNMENTS_OFFSET UNITYSDK_OFFSET(0x17632200)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_EXPANDARRAYS_OFFSET UNITYSDK_OFFSET(0x176324B0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_FINDELEMENT_OFFSET UNITYSDK_OFFSET(0x17632CE0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETBOOLEAN_OFFSET UNITYSDK_OFFSET(0x17632F60)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETELEMENTNOTHROW_OFFSET UNITYSDK_OFFSET(0x17632EE0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETELEMENT_OFFSET UNITYSDK_OFFSET(0x17632DD0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17632410)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETINT32_OFFSET UNITYSDK_OFFSET(0x17633100)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETINT64_OFFSET UNITYSDK_OFFSET(0x17633290)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETSINGLE_OFFSET UNITYSDK_OFFSET(0x17633420)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETSTRING_OFFSET UNITYSDK_OFFSET(0x176335C0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETVALUENOTHROW_OFFSET UNITYSDK_OFFSET(0x176301C0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETVALUE_OFFSET UNITYSDK_OFFSET(0x17630310)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GET_ASSEMBLYNAME_OFFSET UNITYSDK_OFFSET(0x176321F0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GET_FULLTYPENAME_OFFSET UNITYSDK_OFFSET(0x176321E0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GET_ISASSEMBLYNAMESETEXPLICIT_OFFSET UNITYSDK_OFFSET(0x17632400)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GET_ISFULLTYPENAMESETEXPLICIT_OFFSET UNITYSDK_OFFSET(0x176323F0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x176323D0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GET_OBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x176323E0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ISASSEMBLYNAMEASSIGNMENTSAFE_OFFSET UNITYSDK_OFFSET(0x17632270)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_SETTYPE_OFFSET UNITYSDK_OFFSET(0x17630770)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_UPDATEVALUE_OFFSET UNITYSDK_OFFSET(0x1762D410)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17632010)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17632000)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUEINTERNAL_OFFSET UNITYSDK_OFFSET(0x16E00CC0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_10_OFFSET UNITYSDK_OFFSET(0x16E01300)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_1_OFFSET UNITYSDK_OFFSET(0x16E00F90)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_2_OFFSET UNITYSDK_OFFSET(0x16E01000)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_3_OFFSET UNITYSDK_OFFSET(0x16E01060)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_4_OFFSET UNITYSDK_OFFSET(0x16E010C0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_5_OFFSET UNITYSDK_OFFSET(0x16E01120)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_6_OFFSET UNITYSDK_OFFSET(0x16E01180)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_7_OFFSET UNITYSDK_OFFSET(0x16E011E0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_8_OFFSET UNITYSDK_OFFSET(0x16E01240)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_9_OFFSET UNITYSDK_OFFSET(0x16E012A0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_OFFSET UNITYSDK_OFFSET(0x16DFEEA0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_COMPARE_OFFSET UNITYSDK_OFFSET(0x16E00970)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_DEMANDFORUNSAFEASSEMBLYNAMEASSIGNMENTS_OFFSET UNITYSDK_OFFSET(0x16E00960)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_EXPANDARRAYS_OFFSET UNITYSDK_OFFSET(0x16E00C10)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_FINDELEMENT_OFFSET UNITYSDK_OFFSET(0x16E01360)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETBOOLEAN_OFFSET UNITYSDK_OFFSET(0x16E015A0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETELEMENTNOTHROW_OFFSET UNITYSDK_OFFSET(0x16E01530)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETELEMENT_OFFSET UNITYSDK_OFFSET(0x16E01440)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16E00B70)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETINT32_OFFSET UNITYSDK_OFFSET(0x16E01730)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETINT64_OFFSET UNITYSDK_OFFSET(0x16E018B0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETSINGLE_OFFSET UNITYSDK_OFFSET(0x16E01A30)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETSTRING_OFFSET UNITYSDK_OFFSET(0x16E01BB0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETVALUENOTHROW_OFFSET UNITYSDK_OFFSET(0x16DFE990)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETVALUE_OFFSET UNITYSDK_OFFSET(0x16DFEB10)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GET_ASSEMBLYNAME_OFFSET UNITYSDK_OFFSET(0x16E00950)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GET_FULLTYPENAME_OFFSET UNITYSDK_OFFSET(0x16E00940)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GET_ISASSEMBLYNAMESETEXPLICIT_OFFSET UNITYSDK_OFFSET(0x16E00B60)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GET_ISFULLTYPENAMESETEXPLICIT_OFFSET UNITYSDK_OFFSET(0x16E00B50)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x16E00B30)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GET_OBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x16E00B40)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ISASSEMBLYNAMEASSIGNMENTSAFE_OFFSET UNITYSDK_OFFSET(0x16E009D0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_SETTYPE_OFFSET UNITYSDK_OFFSET(0x16DFEF60)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_UPDATEVALUE_OFFSET UNITYSDK_OFFSET(0x16DFBEE0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16E00770)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16E00760)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int SerializationInfo_TypeDefinitionIndex = 1122;
+	inline static constexpr unsigned int SerializationInfo_TypeDefinitionIndex = 1121;
 
 	class SerializationInfo : public ::System::Object
 	{
@@ -67,14 +67,14 @@ namespace System::Runtime::Serialization
 		::System::Boolean isFullTypeNameSetExplicit; // 0x55
 		::System::Boolean isAssemblyNameSetExplicit; // 0x56
 
-		::System::Void _ctor(::System::Type* type, ::System::Runtime::Serialization::IFormatterConverter* converter)
+		::System::Void _ctor(::System::Type* a1, ::System::Runtime::Serialization::IFormatterConverter* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Runtime::Serialization::IFormatterConverter*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO__CTOR_OFFSET))(this, type, converter);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Runtime::Serialization::IFormatterConverter*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::System::Type* type, ::System::Runtime::Serialization::IFormatterConverter* converter, ::System::Boolean requireSameTokenInPartialTrust)
+		::System::Void _ctor_1(::System::Type* a1, ::System::Runtime::Serialization::IFormatterConverter* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Runtime::Serialization::IFormatterConverter*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO__CTOR_1_OFFSET))(this, type, converter, requireSameTokenInPartialTrust);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Runtime::Serialization::IFormatterConverter*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO__CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::String* get_FullTypeName()
@@ -87,24 +87,24 @@ namespace System::Runtime::Serialization
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GET_ASSEMBLYNAME_OFFSET))(this);
 		}
 
-		::System::Void SetType(::System::Type* type)
+		::System::Void SetType(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_SETTYPE_OFFSET))(this, type);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_SETTYPE_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean Compare(::Il2CppArray<::System::Byte>* a, ::Il2CppArray<::System::Byte>* b)
+		static ::System::Boolean Compare(::Il2CppArray<::System::Byte>* a1, ::Il2CppArray<::System::Byte>* a2)
 		{
-			return ((::System::Boolean(*)(::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_COMPARE_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_COMPARE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void DemandForUnsafeAssemblyNameAssignments(::System::String* originalAssemblyName, ::System::String* newAssemblyName)
+		static ::System::Void DemandForUnsafeAssemblyNameAssignments(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_DEMANDFORUNSAFEASSEMBLYNAMEASSIGNMENTS_OFFSET))(originalAssemblyName, newAssemblyName);
+			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_DEMANDFORUNSAFEASSEMBLYNAMEASSIGNMENTS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsAssemblyNameAssignmentSafe(::System::String* originalAssemblyName, ::System::String* newAssemblyName)
+		static ::System::Boolean IsAssemblyNameAssignmentSafe(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ISASSEMBLYNAMEASSIGNMENTSAFE_OFFSET))(originalAssemblyName, newAssemblyName);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ISASSEMBLYNAMEASSIGNMENTSAFE_OFFSET))(a1, a2);
 		}
 
 		::System::Int32 get_MemberCount()
@@ -137,119 +137,119 @@ namespace System::Runtime::Serialization
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_EXPANDARRAYS_OFFSET))(this);
 		}
 
-		::System::Void AddValue(::System::String* name, ::System::Object* value, ::System::Type* type)
+		::System::Void AddValue(::System::String* a1, ::System::Object* a2, ::System::Type* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_OFFSET))(this, name, value, type);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void AddValue_1(::System::String* name, ::System::Object* value)
+		::System::Void AddValue_1(::System::String* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_1_OFFSET))(this, name, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddValue_2(::System::String* name, ::System::Boolean value)
+		::System::Void AddValue_2(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_2_OFFSET))(this, name, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddValue_3(::System::String* name, ::System::Char value)
+		::System::Void AddValue_3(::System::String* a1, ::System::Char a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_3_OFFSET))(this, name, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_3_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddValue_4(::System::String* name, ::System::Byte value)
+		::System::Void AddValue_4(::System::String* a1, ::System::Byte a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_4_OFFSET))(this, name, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_4_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddValue_5(::System::String* name, ::System::Int16 value)
+		::System::Void AddValue_5(::System::String* a1, ::System::Int16 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int16))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_5_OFFSET))(this, name, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int16))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_5_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddValue_6(::System::String* name, ::System::Int32 value)
+		::System::Void AddValue_6(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_6_OFFSET))(this, name, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_6_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddValue_7(::System::String* name, ::System::Int64 value)
+		::System::Void AddValue_7(::System::String* a1, ::System::Int64 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_7_OFFSET))(this, name, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_7_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddValue_8(::System::String* name, ::System::UInt64 value)
+		::System::Void AddValue_8(::System::String* a1, ::System::UInt64 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt64))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_8_OFFSET))(this, name, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt64))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_8_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddValue_9(::System::String* name, ::System::Single value)
+		::System::Void AddValue_9(::System::String* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_9_OFFSET))(this, name, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_9_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddValue_10(::System::String* name, ::System::DateTime value)
+		::System::Void AddValue_10(::System::String* a1, ::System::DateTime a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_10_OFFSET))(this, name, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUE_10_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddValueInternal(::System::String* name, ::System::Object* value, ::System::Type* type)
+		::System::Void AddValueInternal(::System::String* a1, ::System::Object* a2, ::System::Type* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUEINTERNAL_OFFSET))(this, name, value, type);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_ADDVALUEINTERNAL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void UpdateValue(::System::String* name, ::System::Object* value, ::System::Type* type)
+		::System::Void UpdateValue(::System::String* a1, ::System::Object* a2, ::System::Type* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_UPDATEVALUE_OFFSET))(this, name, value, type);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_UPDATEVALUE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 FindElement(::System::String* name)
+		::System::Int32 FindElement(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_FINDELEMENT_OFFSET))(this, name);
+			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_FINDELEMENT_OFFSET))(this, a1);
 		}
 
-		::System::Object* GetElement(::System::String* name, ::System::Type*& foundType)
+		::System::Object* GetElement(::System::String* a1, ::System::Type*& a2)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::String*, ::System::Type*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETELEMENT_OFFSET))(this, name, foundType);
+			return ((::System::Object*(*)(::PVOID, ::System::String*, ::System::Type*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETELEMENT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Object* GetElementNoThrow(::System::String* name, ::System::Type*& foundType)
+		::System::Object* GetElementNoThrow(::System::String* a1, ::System::Type*& a2)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::String*, ::System::Type*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETELEMENTNOTHROW_OFFSET))(this, name, foundType);
+			return ((::System::Object*(*)(::PVOID, ::System::String*, ::System::Type*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETELEMENTNOTHROW_OFFSET))(this, a1, a2);
 		}
 
-		::System::Object* GetValue(::System::String* name, ::System::Type* type)
+		::System::Object* GetValue(::System::String* a1, ::System::Type* a2)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETVALUE_OFFSET))(this, name, type);
+			return ((::System::Object*(*)(::PVOID, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETVALUE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Object* GetValueNoThrow(::System::String* name, ::System::Type* type)
+		::System::Object* GetValueNoThrow(::System::String* a1, ::System::Type* a2)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETVALUENOTHROW_OFFSET))(this, name, type);
+			return ((::System::Object*(*)(::PVOID, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETVALUENOTHROW_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean GetBoolean(::System::String* name)
+		::System::Boolean GetBoolean(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETBOOLEAN_OFFSET))(this, name);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETBOOLEAN_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetInt32(::System::String* name)
+		::System::Int32 GetInt32(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETINT32_OFFSET))(this, name);
+			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETINT32_OFFSET))(this, a1);
 		}
 
-		::System::Int64 GetInt64(::System::String* name)
+		::System::Int64 GetInt64(::System::String* a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETINT64_OFFSET))(this, name);
+			return ((::System::Int64(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETINT64_OFFSET))(this, a1);
 		}
 
-		::System::Single GetSingle(::System::String* name)
+		::System::Single GetSingle(::System::String* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETSINGLE_OFFSET))(this, name);
+			return ((::System::Single(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETSINGLE_OFFSET))(this, a1);
 		}
 
-		::System::String* GetString(::System::String* name)
+		::System::String* GetString(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETSTRING_OFFSET))(this, name);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONINFO_GETSTRING_OFFSET))(this, a1);
 		}
 	};
 }

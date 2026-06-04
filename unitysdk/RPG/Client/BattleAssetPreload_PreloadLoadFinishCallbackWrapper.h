@@ -5,25 +5,25 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define RPG_CLIENT_BATTLEASSETPRELOAD_PRELOADLOADFINISHCALLBACKWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0xF3B32B0)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_PRELOADLOADFINISHCALLBACKWRAPPER__INOVKE_OFFSET UNITYSDK_OFFSET(0xF3B3340)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_PRELOADLOADFINISHCALLBACKWRAPPER__TIMEOUTINVOKE_OFFSET UNITYSDK_OFFSET(0xF3B33A0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_PRELOADLOADFINISHCALLBACKWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x15CD0840)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_PRELOADLOADFINISHCALLBACKWRAPPER__INOVKE_OFFSET UNITYSDK_OFFSET(0x15CD08F0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_PRELOADLOADFINISHCALLBACKWRAPPER__TIMEOUTINVOKE_OFFSET UNITYSDK_OFFSET(0x15CD0960)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleAssetPreload_PreloadLoadFinishCallbackWrapper_TypeDefinitionIndex = 55044;
+	inline static constexpr unsigned int BattleAssetPreload_PreloadLoadFinishCallbackWrapper_TypeDefinitionIndex = 55778;
 
 	class BattleAssetPreload_PreloadLoadFinishCallbackWrapper : public ::System::Object
 	{
 	public:
-		::System::Action* InvokeDelg; // 0x10
+		::System::Action* TimeoutInvokeDelg; // 0x10
 		::System::String* _TimeoutMsg; // 0x18
-		::System::Action* TimeoutInvokeDelg; // 0x20
-		::System::Action* _OnLoadFinish; // 0x28
+		::System::Action* _OnLoadFinish; // 0x20
+		::System::Action* InvokeDelg; // 0x28
 
-		::System::Void _ctor(::System::Action* pOnLoadFinish, ::System::String* timeoutMsg)
+		::System::Void _ctor(::System::Action* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_PRELOADLOADFINISHCALLBACKWRAPPER__CTOR_OFFSET))(this, pOnLoadFinish, timeoutMsg);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_PRELOADLOADFINISHCALLBACKWRAPPER__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _Inovke()

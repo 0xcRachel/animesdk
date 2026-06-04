@@ -29,37 +29,37 @@ namespace System::Linq::Expressions { class TryExpression; }
 namespace System::Linq::Expressions { class UnaryExpression; }
 namespace System::Linq::Expressions { template <typename T> class Expression_1; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VALIDATEBINARY_OFFSET UNITYSDK_OFFSET(0x18450E70)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VALIDATECHILDTYPE_OFFSET UNITYSDK_OFFSET(0x18451BF0)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VALIDATEUNARY_OFFSET UNITYSDK_OFFSET(0x18451AF0)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITARGUMENTS_OFFSET UNITYSDK_OFFSET(0x18450D90)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITBINARY_OFFSET UNITYSDK_OFFSET(0x18450DB0)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITBLOCK_OFFSET UNITYSDK_OFFSET(0x18451000)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITCATCHBLOCK_OFFSET UNITYSDK_OFFSET(0x18451790)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITCONDITIONAL_OFFSET UNITYSDK_OFFSET(0x184510C0)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITCONSTANT_OFFSET UNITYSDK_OFFSET(0x184511D0)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITDEFAULT_OFFSET UNITYSDK_OFFSET(0x184511E0)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITEXTENSION_OFFSET UNITYSDK_OFFSET(0x184511F0)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITGOTO_OFFSET UNITYSDK_OFFSET(0x18451220)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITINDEX_OFFSET UNITYSDK_OFFSET(0x18451530)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITINVOCATION_OFFSET UNITYSDK_OFFSET(0x18451370)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITLABELTARGET_OFFSET UNITYSDK_OFFSET(0x184513E0)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITLABEL_OFFSET UNITYSDK_OFFSET(0x184513F0)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITMEMBER_OFFSET UNITYSDK_OFFSET(0x184514A0)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITMETHODCALL_OFFSET UNITYSDK_OFFSET(0x18451680)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITNEWARRAY_OFFSET UNITYSDK_OFFSET(0x18451710)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITNEW_OFFSET UNITYSDK_OFFSET(0x18451740)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITPARAMETERS_OFFSET UNITYSDK_OFFSET(0x18450DA0)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITPARAMETER_OFFSET UNITYSDK_OFFSET(0x18451780)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITTRY_OFFSET UNITYSDK_OFFSET(0x184518A0)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITUNARY_OFFSET UNITYSDK_OFFSET(0x18451A50)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISIT_1_OFFSET UNITYSDK_OFFSET(0x18450900)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISIT_OFFSET UNITYSDK_OFFSET(0x1844E330)
-#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1844E0F0)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VALIDATEBINARY_OFFSET UNITYSDK_OFFSET(0x17AC45D0)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VALIDATECHILDTYPE_OFFSET UNITYSDK_OFFSET(0x17AC54F0)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VALIDATEUNARY_OFFSET UNITYSDK_OFFSET(0x17AC53F0)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITARGUMENTS_OFFSET UNITYSDK_OFFSET(0x17AC44F0)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITBINARY_OFFSET UNITYSDK_OFFSET(0x17AC4510)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITBLOCK_OFFSET UNITYSDK_OFFSET(0x17AC4760)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITCATCHBLOCK_OFFSET UNITYSDK_OFFSET(0x17AC4EF0)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITCONDITIONAL_OFFSET UNITYSDK_OFFSET(0x17AC4820)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITCONSTANT_OFFSET UNITYSDK_OFFSET(0x17AC4930)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITDEFAULT_OFFSET UNITYSDK_OFFSET(0x17AC4940)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITEXTENSION_OFFSET UNITYSDK_OFFSET(0x17AC4950)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITGOTO_OFFSET UNITYSDK_OFFSET(0x17AC4980)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITINDEX_OFFSET UNITYSDK_OFFSET(0x17AC4C90)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITINVOCATION_OFFSET UNITYSDK_OFFSET(0x17AC4AD0)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITLABELTARGET_OFFSET UNITYSDK_OFFSET(0x17AC4B40)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITLABEL_OFFSET UNITYSDK_OFFSET(0x17AC4B50)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITMEMBER_OFFSET UNITYSDK_OFFSET(0x17AC4C00)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITMETHODCALL_OFFSET UNITYSDK_OFFSET(0x17AC4DE0)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITNEWARRAY_OFFSET UNITYSDK_OFFSET(0x17AC4E70)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITNEW_OFFSET UNITYSDK_OFFSET(0x17AC4EA0)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITPARAMETERS_OFFSET UNITYSDK_OFFSET(0x17AC4500)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITPARAMETER_OFFSET UNITYSDK_OFFSET(0x17AC4EE0)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITTRY_OFFSET UNITYSDK_OFFSET(0x17AC5000)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITUNARY_OFFSET UNITYSDK_OFFSET(0x17AC5350)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISIT_1_OFFSET UNITYSDK_OFFSET(0x17AC4100)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISIT_OFFSET UNITYSDK_OFFSET(0x17AC09C0)
+#define SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17AC0710)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int ExpressionVisitor_TypeDefinitionIndex = 3206;
+	inline static constexpr unsigned int ExpressionVisitor_TypeDefinitionIndex = 3207;
 
 	class ExpressionVisitor : public ::System::Object
 	{
@@ -69,134 +69,134 @@ namespace System::Linq::Expressions
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR__CTOR_OFFSET))(this);
 		}
 
-		::System::Linq::Expressions::Expression* Visit(::System::Linq::Expressions::Expression* node)
+		::System::Linq::Expressions::Expression* Visit(::System::Linq::Expressions::Expression* a1)
 		{
-			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::Expression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISIT_OFFSET))(this, node);
+			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::Expression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISIT_OFFSET))(this, a1);
 		}
 
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* Visit_1(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* nodes)
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* Visit_1(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* a1)
 		{
-			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*(*)(::PVOID, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISIT_1_OFFSET))(this, nodes);
+			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*(*)(::PVOID, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISIT_1_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Linq::Expressions::Expression*>* VisitArguments(::System::Linq::Expressions::IArgumentProvider* nodes)
+		::Il2CppArray<::System::Linq::Expressions::Expression*>* VisitArguments(::System::Linq::Expressions::IArgumentProvider* a1)
 		{
-			return ((::Il2CppArray<::System::Linq::Expressions::Expression*>*(*)(::PVOID, ::System::Linq::Expressions::IArgumentProvider*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITARGUMENTS_OFFSET))(this, nodes);
+			return ((::Il2CppArray<::System::Linq::Expressions::Expression*>*(*)(::PVOID, ::System::Linq::Expressions::IArgumentProvider*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITARGUMENTS_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Linq::Expressions::ParameterExpression*>* VisitParameters(::System::Linq::Expressions::IParameterProvider* nodes, ::System::String* callerName)
+		::Il2CppArray<::System::Linq::Expressions::ParameterExpression*>* VisitParameters(::System::Linq::Expressions::IParameterProvider* a1, ::System::String* a2)
 		{
-			return ((::Il2CppArray<::System::Linq::Expressions::ParameterExpression*>*(*)(::PVOID, ::System::Linq::Expressions::IParameterProvider*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITPARAMETERS_OFFSET))(this, nodes, callerName);
+			return ((::Il2CppArray<::System::Linq::Expressions::ParameterExpression*>*(*)(::PVOID, ::System::Linq::Expressions::IParameterProvider*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITPARAMETERS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Linq::Expressions::Expression* VisitBinary(::System::Linq::Expressions::BinaryExpression* node)
+		::System::Linq::Expressions::Expression* VisitBinary(::System::Linq::Expressions::BinaryExpression* a1)
 		{
-			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::BinaryExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITBINARY_OFFSET))(this, node);
+			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::BinaryExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITBINARY_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::Expression* VisitBlock(::System::Linq::Expressions::BlockExpression* node)
+		::System::Linq::Expressions::Expression* VisitBlock(::System::Linq::Expressions::BlockExpression* a1)
 		{
-			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::BlockExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITBLOCK_OFFSET))(this, node);
+			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::BlockExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITBLOCK_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::Expression* VisitConditional(::System::Linq::Expressions::ConditionalExpression* node)
+		::System::Linq::Expressions::Expression* VisitConditional(::System::Linq::Expressions::ConditionalExpression* a1)
 		{
-			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::ConditionalExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITCONDITIONAL_OFFSET))(this, node);
+			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::ConditionalExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITCONDITIONAL_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::Expression* VisitConstant(::System::Linq::Expressions::ConstantExpression* node)
+		::System::Linq::Expressions::Expression* VisitConstant(::System::Linq::Expressions::ConstantExpression* a1)
 		{
-			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::ConstantExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITCONSTANT_OFFSET))(this, node);
+			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::ConstantExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITCONSTANT_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::Expression* VisitDefault(::System::Linq::Expressions::DefaultExpression* node)
+		::System::Linq::Expressions::Expression* VisitDefault(::System::Linq::Expressions::DefaultExpression* a1)
 		{
-			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::DefaultExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITDEFAULT_OFFSET))(this, node);
+			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::DefaultExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITDEFAULT_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::Expression* VisitExtension(::System::Linq::Expressions::Expression* node)
+		::System::Linq::Expressions::Expression* VisitExtension(::System::Linq::Expressions::Expression* a1)
 		{
-			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::Expression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITEXTENSION_OFFSET))(this, node);
+			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::Expression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITEXTENSION_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::Expression* VisitGoto(::System::Linq::Expressions::GotoExpression* node)
+		::System::Linq::Expressions::Expression* VisitGoto(::System::Linq::Expressions::GotoExpression* a1)
 		{
-			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::GotoExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITGOTO_OFFSET))(this, node);
+			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::GotoExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITGOTO_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::Expression* VisitInvocation(::System::Linq::Expressions::InvocationExpression* node)
+		::System::Linq::Expressions::Expression* VisitInvocation(::System::Linq::Expressions::InvocationExpression* a1)
 		{
-			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::InvocationExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITINVOCATION_OFFSET))(this, node);
+			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::InvocationExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITINVOCATION_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::LabelTarget* VisitLabelTarget(::System::Linq::Expressions::LabelTarget* node)
+		::System::Linq::Expressions::LabelTarget* VisitLabelTarget(::System::Linq::Expressions::LabelTarget* a1)
 		{
-			return ((::System::Linq::Expressions::LabelTarget*(*)(::PVOID, ::System::Linq::Expressions::LabelTarget*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITLABELTARGET_OFFSET))(this, node);
+			return ((::System::Linq::Expressions::LabelTarget*(*)(::PVOID, ::System::Linq::Expressions::LabelTarget*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITLABELTARGET_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::Expression* VisitLabel(::System::Linq::Expressions::LabelExpression* node)
+		::System::Linq::Expressions::Expression* VisitLabel(::System::Linq::Expressions::LabelExpression* a1)
 		{
-			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::LabelExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITLABEL_OFFSET))(this, node);
+			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::LabelExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITLABEL_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::Expression* VisitMember(::System::Linq::Expressions::MemberExpression* node)
+		::System::Linq::Expressions::Expression* VisitMember(::System::Linq::Expressions::MemberExpression* a1)
 		{
-			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::MemberExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITMEMBER_OFFSET))(this, node);
+			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::MemberExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITMEMBER_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::Expression* VisitIndex(::System::Linq::Expressions::IndexExpression* node)
+		::System::Linq::Expressions::Expression* VisitIndex(::System::Linq::Expressions::IndexExpression* a1)
 		{
-			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::IndexExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITINDEX_OFFSET))(this, node);
+			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::IndexExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::Expression* VisitMethodCall(::System::Linq::Expressions::MethodCallExpression* node)
+		::System::Linq::Expressions::Expression* VisitMethodCall(::System::Linq::Expressions::MethodCallExpression* a1)
 		{
-			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::MethodCallExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITMETHODCALL_OFFSET))(this, node);
+			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::MethodCallExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITMETHODCALL_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::Expression* VisitNewArray(::System::Linq::Expressions::NewArrayExpression* node)
+		::System::Linq::Expressions::Expression* VisitNewArray(::System::Linq::Expressions::NewArrayExpression* a1)
 		{
-			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::NewArrayExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITNEWARRAY_OFFSET))(this, node);
+			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::NewArrayExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITNEWARRAY_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::Expression* VisitNew(::System::Linq::Expressions::NewExpression* node)
+		::System::Linq::Expressions::Expression* VisitNew(::System::Linq::Expressions::NewExpression* a1)
 		{
-			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::NewExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITNEW_OFFSET))(this, node);
+			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::NewExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITNEW_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::Expression* VisitParameter(::System::Linq::Expressions::ParameterExpression* node)
+		::System::Linq::Expressions::Expression* VisitParameter(::System::Linq::Expressions::ParameterExpression* a1)
 		{
-			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::ParameterExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITPARAMETER_OFFSET))(this, node);
+			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::ParameterExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITPARAMETER_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::CatchBlock* VisitCatchBlock(::System::Linq::Expressions::CatchBlock* node)
+		::System::Linq::Expressions::CatchBlock* VisitCatchBlock(::System::Linq::Expressions::CatchBlock* a1)
 		{
-			return ((::System::Linq::Expressions::CatchBlock*(*)(::PVOID, ::System::Linq::Expressions::CatchBlock*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITCATCHBLOCK_OFFSET))(this, node);
+			return ((::System::Linq::Expressions::CatchBlock*(*)(::PVOID, ::System::Linq::Expressions::CatchBlock*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITCATCHBLOCK_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::Expression* VisitTry(::System::Linq::Expressions::TryExpression* node)
+		::System::Linq::Expressions::Expression* VisitTry(::System::Linq::Expressions::TryExpression* a1)
 		{
-			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::TryExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITTRY_OFFSET))(this, node);
+			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::TryExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITTRY_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::Expression* VisitUnary(::System::Linq::Expressions::UnaryExpression* node)
+		::System::Linq::Expressions::Expression* VisitUnary(::System::Linq::Expressions::UnaryExpression* a1)
 		{
-			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::UnaryExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITUNARY_OFFSET))(this, node);
+			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::UnaryExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VISITUNARY_OFFSET))(this, a1);
 		}
 
-		static ::System::Linq::Expressions::UnaryExpression* ValidateUnary(::System::Linq::Expressions::UnaryExpression* before, ::System::Linq::Expressions::UnaryExpression* after)
+		static ::System::Linq::Expressions::UnaryExpression* ValidateUnary(::System::Linq::Expressions::UnaryExpression* a1, ::System::Linq::Expressions::UnaryExpression* a2)
 		{
-			return ((::System::Linq::Expressions::UnaryExpression*(*)(::System::Linq::Expressions::UnaryExpression*, ::System::Linq::Expressions::UnaryExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VALIDATEUNARY_OFFSET))(before, after);
+			return ((::System::Linq::Expressions::UnaryExpression*(*)(::System::Linq::Expressions::UnaryExpression*, ::System::Linq::Expressions::UnaryExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VALIDATEUNARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Linq::Expressions::BinaryExpression* ValidateBinary(::System::Linq::Expressions::BinaryExpression* before, ::System::Linq::Expressions::BinaryExpression* after)
+		static ::System::Linq::Expressions::BinaryExpression* ValidateBinary(::System::Linq::Expressions::BinaryExpression* a1, ::System::Linq::Expressions::BinaryExpression* a2)
 		{
-			return ((::System::Linq::Expressions::BinaryExpression*(*)(::System::Linq::Expressions::BinaryExpression*, ::System::Linq::Expressions::BinaryExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VALIDATEBINARY_OFFSET))(before, after);
+			return ((::System::Linq::Expressions::BinaryExpression*(*)(::System::Linq::Expressions::BinaryExpression*, ::System::Linq::Expressions::BinaryExpression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VALIDATEBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ValidateChildType(::System::Type* before, ::System::Type* after, ::System::String* methodName)
+		static ::System::Void ValidateChildType(::System::Type* a1, ::System::Type* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::System::Type*, ::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VALIDATECHILDTYPE_OFFSET))(before, after, methodName);
+			return ((::System::Void(*)(::System::Type*, ::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_EXPRESSIONVISITOR_VALIDATECHILDTYPE_OFFSET))(a1, a2, a3);
 		}
 	};
 }

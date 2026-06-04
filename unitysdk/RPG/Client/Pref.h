@@ -6,26 +6,26 @@ class Class_1_E970EC5EEB7EA2D9;
 namespace System { class String; }
 namespace System { class Type; }
 
-#define RPG_CLIENT_PREF_CHANGEPREFSWRAPPER_OFFSET UNITYSDK_OFFSET(0x1A720110)
-#define RPG_CLIENT_PREF_CHANGETOSERVERPREFS_OFFSET UNITYSDK_OFFSET(0x1A7200A0)
-#define RPG_CLIENT_PREF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A720050)
-#define RPG_CLIENT_PREF_GET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x1A720170)
-#define RPG_CLIENT_PREF_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1A720160)
-#define RPG_CLIENT_PREF_SETDIRTY_OFFSET UNITYSDK_OFFSET(0x1A720090)
-#define RPG_CLIENT_PREF_TRYSETSERVERPERFRELOAD_OFFSET UNITYSDK_OFFSET(0x1A720120)
-#define RPG_CLIENT_PREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7203F0)
+#define RPG_CLIENT_PREF_CHANGEPREFSWRAPPER_OFFSET UNITYSDK_OFFSET(0x1B54E810)
+#define RPG_CLIENT_PREF_CHANGETOSERVERPREFS_OFFSET UNITYSDK_OFFSET(0x1B54E790)
+#define RPG_CLIENT_PREF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B54E740)
+#define RPG_CLIENT_PREF_GET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x1B54E870)
+#define RPG_CLIENT_PREF_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1B54E860)
+#define RPG_CLIENT_PREF_SETDIRTY_OFFSET UNITYSDK_OFFSET(0x1B54E780)
+#define RPG_CLIENT_PREF_TRYSETSERVERPERFRELOAD_OFFSET UNITYSDK_OFFSET(0x1B54E820)
+#define RPG_CLIENT_PREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1B54EAF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Pref_TypeDefinitionIndex = 9747;
+	inline static constexpr unsigned int Pref_TypeDefinitionIndex = 33516;
 
 	class Pref : public ::System::Object
 	{
 	public:
 		::System::Object* _DefaultValue; // 0x10
-		::System::Object* _Value; // 0x18
-		::System::String* _Key; // 0x20
-		::System::Type* _ValueType; // 0x28
+		::System::String* _Key; // 0x18
+		::System::Type* _ValueType; // 0x20
+		::System::Object* _Value; // 0x28
 		::Class_1_E970EC5EEB7EA2D9* _PlayerPrefs; // 0x30
 		::System::Boolean _Loaded; // 0x38
 		::System::Boolean _Dirty; // 0x39
@@ -45,14 +45,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PREF_SETDIRTY_OFFSET))(this);
 		}
 
-		::System::Void ChangeToServerPrefs(::System::String* name)
+		::System::Void ChangeToServerPrefs(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PREF_CHANGETOSERVERPREFS_OFFSET))(this, name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PREF_CHANGETOSERVERPREFS_OFFSET))(this, a1);
 		}
 
-		::System::Void ChangePrefsWrapper(::Class_1_E970EC5EEB7EA2D9* wrapper)
+		::System::Void ChangePrefsWrapper(::Class_1_E970EC5EEB7EA2D9* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_E970EC5EEB7EA2D9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PREF_CHANGEPREFSWRAPPER_OFFSET))(this, wrapper);
+			return ((::System::Void(*)(::PVOID, ::Class_1_E970EC5EEB7EA2D9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PREF_CHANGEPREFSWRAPPER_OFFSET))(this, a1);
 		}
 
 		::System::Void TrySetServerPerfReload()

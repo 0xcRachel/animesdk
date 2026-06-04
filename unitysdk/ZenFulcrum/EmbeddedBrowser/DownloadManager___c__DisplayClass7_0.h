@@ -6,13 +6,13 @@ namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class DownloadManager; }
 namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_DOWNLOADMANAGER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182F5920)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DOWNLOADMANAGER___C__DISPLAYCLASS7_0__MANAGEDOWNLOADS_B__0_OFFSET UNITYSDK_OFFSET(0x182F7230)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DOWNLOADMANAGER___C__DISPLAYCLASS7_0__MANAGEDOWNLOADS_B__1_OFFSET UNITYSDK_OFFSET(0x182F7260)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DOWNLOADMANAGER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18E3FE40)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DOWNLOADMANAGER___C__DISPLAYCLASS7_0__MANAGEDOWNLOADS_B__0_OFFSET UNITYSDK_OFFSET(0x18E41980)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DOWNLOADMANAGER___C__DISPLAYCLASS7_0__MANAGEDOWNLOADS_B__1_OFFSET UNITYSDK_OFFSET(0x18E419B0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int DownloadManager___c__DisplayClass7_0_TypeDefinitionIndex = 36261;
+	inline static constexpr unsigned int DownloadManager___c__DisplayClass7_0_TypeDefinitionIndex = 36561;
 
 	class DownloadManager___c__DisplayClass7_0 : public ::System::Object
 	{
@@ -25,14 +25,14 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_DOWNLOADMANAGER___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ManageDownloads_b__0(::System::Int32 id, ::ZenFulcrum::EmbeddedBrowser::JSONNode* info)
+		::System::Void _ManageDownloads_b__0(::System::Int32 a1, ::ZenFulcrum::EmbeddedBrowser::JSONNode* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_DOWNLOADMANAGER___C__DISPLAYCLASS7_0__MANAGEDOWNLOADS_B__0_OFFSET))(this, id, info);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_DOWNLOADMANAGER___C__DISPLAYCLASS7_0__MANAGEDOWNLOADS_B__0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ManageDownloads_b__1(::System::Int32 id, ::ZenFulcrum::EmbeddedBrowser::JSONNode* info)
+		::System::Void _ManageDownloads_b__1(::System::Int32 a1, ::ZenFulcrum::EmbeddedBrowser::JSONNode* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_DOWNLOADMANAGER___C__DISPLAYCLASS7_0__MANAGEDOWNLOADS_B__1_OFFSET))(this, id, info);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_DOWNLOADMANAGER___C__DISPLAYCLASS7_0__MANAGEDOWNLOADS_B__1_OFFSET))(this, a1, a2);
 		}
 	};
 }

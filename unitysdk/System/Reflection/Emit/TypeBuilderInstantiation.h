@@ -4,18 +4,18 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_REFLECTION_EMIT_TYPEBUILDERINSTANTIATION_MAKEGENERICTYPE_OFFSET UNITYSDK_OFFSET(0x19052870)
+#define SYSTEM_REFLECTION_EMIT_TYPEBUILDERINSTANTIATION_MAKEGENERICTYPE_OFFSET UNITYSDK_OFFSET(0x197B7700)
 
 namespace System::Reflection::Emit
 {
-	inline static constexpr unsigned int TypeBuilderInstantiation_TypeDefinitionIndex = 658;
+	inline static constexpr unsigned int TypeBuilderInstantiation_TypeDefinitionIndex = 657;
 
 	class TypeBuilderInstantiation : public ::System::Reflection::TypeInfo
 	{
 	public:
-		static ::System::Type* MakeGenericType(::System::Type* type, ::Il2CppArray<::System::Type*>* typeArguments)
+		static ::System::Type* MakeGenericType(::System::Type* a1, ::Il2CppArray<::System::Type*>* a2)
 		{
-			return ((::System::Type*(*)(::System::Type*, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_TYPEBUILDERINSTANTIATION_MAKEGENERICTYPE_OFFSET))(type, typeArguments);
+			return ((::System::Type*(*)(::System::Type*, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_TYPEBUILDERINSTANTIATION_MAKEGENERICTYPE_OFFSET))(a1, a2);
 		}
 	};
 }

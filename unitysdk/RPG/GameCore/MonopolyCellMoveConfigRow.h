@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONOPOLYCELLMOVECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19087F80)
-#define RPG_GAMECORE_MONOPOLYCELLMOVECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19088110)
+#define RPG_GAMECORE_MONOPOLYCELLMOVECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x196B2ED0)
+#define RPG_GAMECORE_MONOPOLYCELLMOVECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x196B3060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyCellMoveConfigRow_TypeDefinitionIndex = 11474;
+	inline static constexpr unsigned int MonopolyCellMoveConfigRow_TypeDefinitionIndex = 11519;
 
 	class MonopolyCellMoveConfigRow : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYCELLMOVECONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::MonopolyCellMoveConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonopolyCellMoveConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonopolyCellMoveConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYCELLMOVECONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonopolyCellMoveConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYCELLMOVECONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

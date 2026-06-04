@@ -7,54 +7,54 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define SRF_SRFTRANSFORMEXTENSIONS_CREATECHILD_OFFSET UNITYSDK_OFFSET(0x1A316DC0)
-#define SRF_SRFTRANSFORMEXTENSIONS_DESTROYCHILDREN_OFFSET UNITYSDK_OFFSET(0x1A3170A0)
-#define SRF_SRFTRANSFORMEXTENSIONS_GETCHILDREN_OFFSET UNITYSDK_OFFSET(0x1A316CC0)
-#define SRF_SRFTRANSFORMEXTENSIONS_MATCH_OFFSET UNITYSDK_OFFSET(0x1A316FF0)
-#define SRF_SRFTRANSFORMEXTENSIONS_RESETLOCAL_OFFSET UNITYSDK_OFFSET(0x1A316D40)
-#define SRF_SRFTRANSFORMEXTENSIONS_SETLOCALS_OFFSET UNITYSDK_OFFSET(0x1A316F00)
-#define SRF_SRFTRANSFORMEXTENSIONS_SETPARENTMAINTAINLOCALS_OFFSET UNITYSDK_OFFSET(0x1A316EE0)
+#define SRF_SRFTRANSFORMEXTENSIONS_CREATECHILD_OFFSET UNITYSDK_OFFSET(0x1B2CCDE0)
+#define SRF_SRFTRANSFORMEXTENSIONS_DESTROYCHILDREN_OFFSET UNITYSDK_OFFSET(0x1B2CD0C0)
+#define SRF_SRFTRANSFORMEXTENSIONS_GETCHILDREN_OFFSET UNITYSDK_OFFSET(0x1B2CCCE0)
+#define SRF_SRFTRANSFORMEXTENSIONS_MATCH_OFFSET UNITYSDK_OFFSET(0x1B2CD010)
+#define SRF_SRFTRANSFORMEXTENSIONS_RESETLOCAL_OFFSET UNITYSDK_OFFSET(0x1B2CCD60)
+#define SRF_SRFTRANSFORMEXTENSIONS_SETLOCALS_OFFSET UNITYSDK_OFFSET(0x1B2CCF20)
+#define SRF_SRFTRANSFORMEXTENSIONS_SETPARENTMAINTAINLOCALS_OFFSET UNITYSDK_OFFSET(0x1B2CCF00)
 
 namespace SRF
 {
-	inline static constexpr unsigned int SRFTransformExtensions_TypeDefinitionIndex = 33283;
+	inline static constexpr unsigned int SRFTransformExtensions_TypeDefinitionIndex = 33565;
 
 	class SRFTransformExtensions : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>* GetChildren(::UnityEngine::Transform* t)
+		static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>* GetChildren(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>*(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + SRF_SRFTRANSFORMEXTENSIONS_GETCHILDREN_OFFSET))(t);
+			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>*(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + SRF_SRFTRANSFORMEXTENSIONS_GETCHILDREN_OFFSET))(a1);
 		}
 
-		static ::System::Void ResetLocal(::UnityEngine::Transform* t)
+		static ::System::Void ResetLocal(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + SRF_SRFTRANSFORMEXTENSIONS_RESETLOCAL_OFFSET))(t);
+			return ((::System::Void(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + SRF_SRFTRANSFORMEXTENSIONS_RESETLOCAL_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::GameObject* CreateChild(::UnityEngine::Transform* t, ::System::String* name)
+		static ::UnityEngine::GameObject* CreateChild(::UnityEngine::Transform* a1, ::System::String* a2)
 		{
-			return ((::UnityEngine::GameObject*(*)(::UnityEngine::Transform*, ::System::String*))((::PBYTE)hIl2Cpp + SRF_SRFTRANSFORMEXTENSIONS_CREATECHILD_OFFSET))(t, name);
+			return ((::UnityEngine::GameObject*(*)(::UnityEngine::Transform*, ::System::String*))((::PBYTE)hIl2Cpp + SRF_SRFTRANSFORMEXTENSIONS_CREATECHILD_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetParentMaintainLocals(::UnityEngine::Transform* t, ::UnityEngine::Transform* parent)
+		static ::System::Void SetParentMaintainLocals(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + SRF_SRFTRANSFORMEXTENSIONS_SETPARENTMAINTAINLOCALS_OFFSET))(t, parent);
+			return ((::System::Void(*)(::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + SRF_SRFTRANSFORMEXTENSIONS_SETPARENTMAINTAINLOCALS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetLocals(::UnityEngine::Transform* t, ::UnityEngine::Transform* from)
+		static ::System::Void SetLocals(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + SRF_SRFTRANSFORMEXTENSIONS_SETLOCALS_OFFSET))(t, from);
+			return ((::System::Void(*)(::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + SRF_SRFTRANSFORMEXTENSIONS_SETLOCALS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Match(::UnityEngine::Transform* t, ::UnityEngine::Transform* from)
+		static ::System::Void Match(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + SRF_SRFTRANSFORMEXTENSIONS_MATCH_OFFSET))(t, from);
+			return ((::System::Void(*)(::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + SRF_SRFTRANSFORMEXTENSIONS_MATCH_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void DestroyChildren(::UnityEngine::Transform* t)
+		static ::System::Void DestroyChildren(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + SRF_SRFTRANSFORMEXTENSIONS_DESTROYCHILDREN_OFFSET))(t);
+			return ((::System::Void(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + SRF_SRFTRANSFORMEXTENSIONS_DESTROYCHILDREN_OFFSET))(a1);
 		}
 	};
 }

@@ -6,31 +6,31 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitSubMission; }
 namespace System { class Object; }
 
-#define RPG_GAMECORE_WAITSUBMISSIONTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15588BC0)
-#define RPG_GAMECORE_WAITSUBMISSIONTASK_GET_FORCESKIP_OFFSET UNITYSDK_OFFSET(0x15588CB0)
-#define RPG_GAMECORE_WAITSUBMISSIONTASK_ONSKIP_OFFSET UNITYSDK_OFFSET(0x15588E60)
-#define RPG_GAMECORE_WAITSUBMISSIONTASK_ONSUBMISSIONFINISH_OFFSET UNITYSDK_OFFSET(0x15588EB0)
-#define RPG_GAMECORE_WAITSUBMISSIONTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15588CC0)
-#define RPG_GAMECORE_WAITSUBMISSIONTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15588DB0)
-#define RPG_GAMECORE_WAITSUBMISSIONTASK_REGIST_OFFSET UNITYSDK_OFFSET(0x15588D10)
-#define RPG_GAMECORE_WAITSUBMISSIONTASK_TICK_OFFSET UNITYSDK_OFFSET(0x15588E00)
-#define RPG_GAMECORE_WAITSUBMISSIONTASK_UNREGIST_OFFSET UNITYSDK_OFFSET(0x15588C10)
-#define RPG_GAMECORE_WAITSUBMISSIONTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x15588BA0)
+#define RPG_GAMECORE_WAITSUBMISSIONTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17B47D40)
+#define RPG_GAMECORE_WAITSUBMISSIONTASK_GET_FORCESKIP_OFFSET UNITYSDK_OFFSET(0x17B47E40)
+#define RPG_GAMECORE_WAITSUBMISSIONTASK_ONSKIP_OFFSET UNITYSDK_OFFSET(0x17B48010)
+#define RPG_GAMECORE_WAITSUBMISSIONTASK_ONSUBMISSIONFINISH_OFFSET UNITYSDK_OFFSET(0x17B48060)
+#define RPG_GAMECORE_WAITSUBMISSIONTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17B47E50)
+#define RPG_GAMECORE_WAITSUBMISSIONTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17B47F60)
+#define RPG_GAMECORE_WAITSUBMISSIONTASK_REGIST_OFFSET UNITYSDK_OFFSET(0x17B47EA0)
+#define RPG_GAMECORE_WAITSUBMISSIONTASK_TICK_OFFSET UNITYSDK_OFFSET(0x17B47FB0)
+#define RPG_GAMECORE_WAITSUBMISSIONTASK_UNREGIST_OFFSET UNITYSDK_OFFSET(0x17B47D90)
+#define RPG_GAMECORE_WAITSUBMISSIONTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x17B47D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitSubMissionTask_TypeDefinitionIndex = 54336;
+	inline static constexpr unsigned int WaitSubMissionTask_TypeDefinitionIndex = 55063;
 
 	class WaitSubMissionTask : public ::Class_1_5F51D4049EA87B7B
 	{
 	public:
-		::RPG::GameCore::TaskContext* _TaskContext; // 0x18
-		::RPG::GameCore::WaitSubMission* _ConfigRef; // 0x20
+		::RPG::GameCore::WaitSubMission* _ConfigRef; // 0x18
+		::RPG::GameCore::TaskContext* _TaskContext; // 0x20
 		::System::Boolean _IsRegisted; // 0x28
 
-		::System::Void _ctor(::RPG::GameCore::TaskContext* Context, ::RPG::GameCore::WaitSubMission* Config)
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitSubMission* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitSubMission*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSUBMISSIONTASK__CTOR_OFFSET))(this, Context, Config);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitSubMission*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSUBMISSIONTASK__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dispose()
@@ -53,9 +53,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSUBMISSIONTASK_ONTASKRESET_OFFSET))(this);
 		}
 
-		::System::Void Tick(::System::Single fElapsedTimeInSec)
+		::System::Void Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSUBMISSIONTASK_TICK_OFFSET))(this, fElapsedTimeInSec);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSUBMISSIONTASK_TICK_OFFSET))(this, a1);
 		}
 
 		::System::Void OnSkip()
@@ -73,9 +73,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSUBMISSIONTASK_UNREGIST_OFFSET))(this);
 		}
 
-		::System::Void OnSubmissionFinish(::System::Object* arg)
+		::System::Void OnSubmissionFinish(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSUBMISSIONTASK_ONSUBMISSIONFINISH_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSUBMISSIONTASK_ONSUBMISSIONFINISH_OFFSET))(this, a1);
 		}
 	};
 }

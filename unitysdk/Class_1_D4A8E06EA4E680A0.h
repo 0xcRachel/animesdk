@@ -8,21 +8,21 @@
 
 namespace RPG::GameCore { class VCameraNoiseChange; }
 
-#define CLASS_1_D4A8E06EA4E680A0_CLEAR_OFFSET UNITYSDK_OFFSET(0xF2CEDD0)
-#define CLASS_1_D4A8E06EA4E680A0__CTOR_OFFSET UNITYSDK_OFFSET(0xF2CEE60)
+#define CLASS_1_D4A8E06EA4E680A0_CLEAR_OFFSET UNITYSDK_OFFSET(0x17C55930)
+#define CLASS_1_D4A8E06EA4E680A0__CTOR_OFFSET UNITYSDK_OFFSET(0x17C559D0)
 
-inline static constexpr unsigned int Class_1_D4A8E06EA4E680A0_TypeDefinitionIndex = 64078;
+inline static constexpr unsigned int Class_1_D4A8E06EA4E680A0_TypeDefinitionIndex = 64999;
 
 class Class_1_D4A8E06EA4E680A0 : public ::System::Object
 {
 public:
-	::RPG::GameCore::VCameraNoiseChange* Field_1_3; // 0x10
-	::System::Nullable_1<::RPG::Client::CameraResultData> Field_1_0; // 0x18
+	::System::Nullable_1<::RPG::Client::CameraResultData> Field_1_0; // 0x10
 	::Cinemachine::CinemachineBlendDefinition Field_1_1; // 0xB0
-	::System::Single Field_1_6; // 0xC0
-	::Cinemachine::CinemachineVirtualCameraBase_BlendHint Field_1_2; // 0xC4
-	::System::Single Field_1_5; // 0xC8
+	::RPG::GameCore::VCameraNoiseChange* Field_1_2; // 0xC0
+	::System::Single Field_1_3; // 0xC8
 	::System::Single Field_1_4; // 0xCC
+	::System::Single Field_1_5; // 0xD0
+	::Cinemachine::CinemachineVirtualCameraBase_BlendHint Field_1_6; // 0xD4
 
 	::System::Void _ctor()
 	{

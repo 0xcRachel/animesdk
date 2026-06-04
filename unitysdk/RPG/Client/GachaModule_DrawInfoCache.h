@@ -6,18 +6,18 @@
 namespace RPG::Client { class BaseGachaPoolData; }
 namespace RPG::Client { class GachaDrawData; }
 
-#define RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_CLEAR_OFFSET UNITYSDK_OFFSET(0x15510C40)
-#define RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_GET_DRAWDATA_OFFSET UNITYSDK_OFFSET(0x15510CB0)
-#define RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_GET_GACHAPOOL_OFFSET UNITYSDK_OFFSET(0x15510C90)
-#define RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_GET_MAXRARITY_OFFSET UNITYSDK_OFFSET(0x15510CD0)
-#define RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_SET_DRAWDATA_OFFSET UNITYSDK_OFFSET(0x15510CC0)
-#define RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_SET_GACHAPOOL_OFFSET UNITYSDK_OFFSET(0x15510CA0)
-#define RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_SET_MAXRARITY_OFFSET UNITYSDK_OFFSET(0x15510CE0)
-#define RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1550B4C0)
+#define RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_CLEAR_OFFSET UNITYSDK_OFFSET(0x160076F0)
+#define RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_GET_DRAWDATA_OFFSET UNITYSDK_OFFSET(0x16007760)
+#define RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_GET_GACHAPOOL_OFFSET UNITYSDK_OFFSET(0x16007740)
+#define RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_GET_MAXRARITY_OFFSET UNITYSDK_OFFSET(0x16007780)
+#define RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_SET_DRAWDATA_OFFSET UNITYSDK_OFFSET(0x16007770)
+#define RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_SET_GACHAPOOL_OFFSET UNITYSDK_OFFSET(0x16007750)
+#define RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_SET_MAXRARITY_OFFSET UNITYSDK_OFFSET(0x16007790)
+#define RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x16001580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GachaModule_DrawInfoCache_TypeDefinitionIndex = 59163;
+	inline static constexpr unsigned int GachaModule_DrawInfoCache_TypeDefinitionIndex = 60097;
 
 	class GachaModule_DrawInfoCache : public ::System::Object
 	{
@@ -41,9 +41,9 @@ namespace RPG::Client
 			return ((::RPG::Client::BaseGachaPoolData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_GET_GACHAPOOL_OFFSET))(this);
 		}
 
-		::System::Void set_GachaPool(::RPG::Client::BaseGachaPoolData* value)
+		::System::Void set_GachaPool(::RPG::Client::BaseGachaPoolData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::BaseGachaPoolData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_SET_GACHAPOOL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::BaseGachaPoolData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_SET_GACHAPOOL_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::GachaDrawData* get_DrawData()
@@ -51,9 +51,9 @@ namespace RPG::Client
 			return ((::RPG::Client::GachaDrawData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_GET_DRAWDATA_OFFSET))(this);
 		}
 
-		::System::Void set_DrawData(::RPG::Client::GachaDrawData* value)
+		::System::Void set_DrawData(::RPG::Client::GachaDrawData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GachaDrawData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_SET_DRAWDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GachaDrawData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_SET_DRAWDATA_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::ItemRarity get_MaxRarity()
@@ -61,9 +61,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::ItemRarity(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_GET_MAXRARITY_OFFSET))(this);
 		}
 
-		::System::Void set_MaxRarity(::RPG::GameCore::ItemRarity value)
+		::System::Void set_MaxRarity(::RPG::GameCore::ItemRarity a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ItemRarity))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_SET_MAXRARITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ItemRarity))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE_DRAWINFOCACHE_SET_MAXRARITY_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ShowRogueFormaluaUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0DC17C34672E5277_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10394CC0)
-#define CLASS_3_0DC17C34672E5277__CTOR_OFFSET UNITYSDK_OFFSET(0x10394C90)
+#define CLASS_3_0DC17C34672E5277_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14A61B60)
+#define CLASS_3_0DC17C34672E5277__CTOR_OFFSET UNITYSDK_OFFSET(0x14A61B30)
 
-inline static constexpr unsigned int Class_3_0DC17C34672E5277_TypeDefinitionIndex = 54099;
+inline static constexpr unsigned int Class_3_0DC17C34672E5277_TypeDefinitionIndex = 54825;
 
 class Class_3_0DC17C34672E5277 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowRogueFormaluaUI*>
 {

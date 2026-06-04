@@ -5,33 +5,33 @@
 namespace Epic::OnlineServices::Sessions { class SessionModificationSetMaxPlayersOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETMAXPLAYERSOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x545E40)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETMAXPLAYERSOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x233E830)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETMAXPLAYERSOPTIONSINTERNAL_SET_MAXPLAYERS_OFFSET UNITYSDK_OFFSET(0x878E70)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETMAXPLAYERSOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x22EBA90)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETMAXPLAYERSOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x5F2300)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETMAXPLAYERSOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x38EF430)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETMAXPLAYERSOPTIONSINTERNAL_SET_MAXPLAYERS_OFFSET UNITYSDK_OFFSET(0xFD2470)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETMAXPLAYERSOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x38998E0)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int SessionModificationSetMaxPlayersOptionsInternal_TypeDefinitionIndex = 41357;
+	inline static constexpr unsigned int SessionModificationSetMaxPlayersOptionsInternal_TypeDefinitionIndex = 42160;
 
 	struct alignas(4) SessionModificationSetMaxPlayersOptionsInternal
 	{
 		::System::Int32 m_ApiVersion; // 0x10
 		::System::UInt32 m_MaxPlayers; // 0x14
 
-		::System::Void set_MaxPlayers(::System::UInt32 value)
+		::System::Void set_MaxPlayers(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETMAXPLAYERSOPTIONSINTERNAL_SET_MAXPLAYERS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETMAXPLAYERSOPTIONSINTERNAL_SET_MAXPLAYERS_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Sessions::SessionModificationSetMaxPlayersOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Sessions::SessionModificationSetMaxPlayersOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionModificationSetMaxPlayersOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETMAXPLAYERSOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionModificationSetMaxPlayersOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETMAXPLAYERSOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETMAXPLAYERSOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETMAXPLAYERSOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

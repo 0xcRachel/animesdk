@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetBattleEndReason; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9486489B1FFB10D1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE3A9AA0)
-#define CLASS_3_9486489B1FFB10D1__CTOR_OFFSET UNITYSDK_OFFSET(0xE3A9A70)
+#define CLASS_3_9486489B1FFB10D1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B658A0)
+#define CLASS_3_9486489B1FFB10D1__CTOR_OFFSET UNITYSDK_OFFSET(0x16B65870)
 
-inline static constexpr unsigned int Class_3_9486489B1FFB10D1_TypeDefinitionIndex = 51035;
+inline static constexpr unsigned int Class_3_9486489B1FFB10D1_TypeDefinitionIndex = 51705;
 
 class Class_3_9486489B1FFB10D1 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetBattleEndReason*>
 {

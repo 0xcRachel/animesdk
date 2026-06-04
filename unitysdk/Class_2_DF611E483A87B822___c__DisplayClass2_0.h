@@ -7,11 +7,11 @@ class Class_2_DF611E483A87B822;
 namespace RPG::Client { class LuaUIController; }
 namespace System { class Exception; }
 
-#define CLASS_2_DF611E483A87B822___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11A5E1A0)
-#define CLASS_2_DF611E483A87B822___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x11A5E710)
-#define CLASS_2_DF611E483A87B822___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__1_OFFSET UNITYSDK_OFFSET(0x11A5E8A0)
+#define CLASS_2_DF611E483A87B822___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17F2B7A0)
+#define CLASS_2_DF611E483A87B822___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x17F2BD10)
+#define CLASS_2_DF611E483A87B822___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__1_OFFSET UNITYSDK_OFFSET(0x17F2BED0)
 
-inline static constexpr unsigned int Class_2_DF611E483A87B822___c__DisplayClass2_0_TypeDefinitionIndex = 53910;
+inline static constexpr unsigned int Class_2_DF611E483A87B822___c__DisplayClass2_0_TypeDefinitionIndex = 54635;
 
 class Class_2_DF611E483A87B822___c__DisplayClass2_0 : public ::System::Object
 {
@@ -24,13 +24,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DF611E483A87B822___C__DISPLAYCLASS2_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Void _OnTaskBegin_b__0(::RPG::Client::LuaUIController* ui)
+	::System::Void _OnTaskBegin_b__0(::RPG::Client::LuaUIController* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::LuaUIController*))((::PBYTE)hIl2Cpp + CLASS_2_DF611E483A87B822___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET))(this, ui);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::LuaUIController*))((::PBYTE)hIl2Cpp + CLASS_2_DF611E483A87B822___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET))(this, a1);
 	}
 
-	::System::Void _OnTaskBegin_b__1(::System::Exception* ex)
+	::System::Void _OnTaskBegin_b__1(::System::Exception* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + CLASS_2_DF611E483A87B822___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__1_OFFSET))(this, ex);
+		return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + CLASS_2_DF611E483A87B822___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__1_OFFSET))(this, a1);
 	}
 };

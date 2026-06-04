@@ -5,12 +5,12 @@
 namespace RPG::Client { class SubMissionData; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS137_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15292E50)
-#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS137_0___REGISTERSINGLEFLOORSAVEDVALUECALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x15292E60)
+#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS137_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14558770)
+#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS137_0___REGISTERSINGLEFLOORSAVEDVALUECALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x14574BE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule___c__DisplayClass137_0_TypeDefinitionIndex = 60914;
+	inline static constexpr unsigned int MissionModule___c__DisplayClass137_0_TypeDefinitionIndex = 61848;
 
 	class MissionModule___c__DisplayClass137_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS137_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __RegisterSingleFloorSavedValueCallback_b__0(::RPG::Client::SubMissionData* data)
+		::System::Boolean __RegisterSingleFloorSavedValueCallback_b__0(::RPG::Client::SubMissionData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::SubMissionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS137_0___REGISTERSINGLEFLOORSAVEDVALUECALLBACK_B__0_OFFSET))(this, data);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::SubMissionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS137_0___REGISTERSINGLEFLOORSAVEDVALUECALLBACK_B__0_OFFSET))(this, a1);
 		}
 	};
 }

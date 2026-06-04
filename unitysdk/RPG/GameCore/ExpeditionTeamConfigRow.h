@@ -4,27 +4,27 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_EXPEDITIONTEAMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19469CF0)
-#define RPG_GAMECORE_EXPEDITIONTEAMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19469E10)
+#define RPG_GAMECORE_EXPEDITIONTEAMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A3FEE70)
+#define RPG_GAMECORE_EXPEDITIONTEAMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3FEF90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionTeamConfigRow_TypeDefinitionIndex = 12527;
+	inline static constexpr unsigned int ExpeditionTeamConfigRow_TypeDefinitionIndex = 12621;
 
 	class ExpeditionTeamConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 UnlockMission; // 0x10
-		::System::UInt32 TeamID; // 0x14
+		::System::UInt32 TeamID; // 0x10
+		::System::UInt32 UnlockMission; // 0x14
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EXPEDITIONTEAMCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ExpeditionTeamConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ExpeditionTeamConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ExpeditionTeamConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EXPEDITIONTEAMCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ExpeditionTeamConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EXPEDITIONTEAMCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

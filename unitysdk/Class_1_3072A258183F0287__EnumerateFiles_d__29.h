@@ -9,38 +9,38 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::IO { class FileInfo; }
 
-#define CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xED3FF40)
-#define CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_IO_FILEINFO__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xED40650)
-#define CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_IO_FILEINFO__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xED405E0)
-#define CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xED406C0)
-#define CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xED40640)
-#define CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xED405F0)
-#define CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xED3FDA0)
-#define CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29__CTOR_OFFSET UNITYSDK_OFFSET(0xED3A630)
-#define CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xED3FE90)
-#define CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0xED3FE80)
+#define CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1670FA20)
+#define CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_IO_FILEINFO__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16710130)
+#define CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_IO_FILEINFO__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x167100C0)
+#define CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x167101A0)
+#define CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x16710120)
+#define CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x167100D0)
+#define CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1670F890)
+#define CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29__CTOR_OFFSET UNITYSDK_OFFSET(0x1670A320)
+#define CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1670F980)
+#define CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0x1670F970)
 
-inline static constexpr unsigned int Class_1_3072A258183F0287__EnumerateFiles_d__29_TypeDefinitionIndex = 55024;
+inline static constexpr unsigned int Class_1_3072A258183F0287__EnumerateFiles_d__29_TypeDefinitionIndex = 55758;
 
 class Class_1_3072A258183F0287__EnumerateFiles_d__29 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::IEnumerator_1<::System::IO::FileInfo*>* __7__wrap1; // 0x10
-	::System::Collections::Generic::HashSet_1<::System::String*>* __3__exts; // 0x18
-	::System::Collections::Generic::HashSet_1_Enumerator<::System::String*> __7__wrap3; // 0x20
-	::System::Collections::Generic::HashSet_1<::System::String*>* exts; // 0x38
-	::System::String* rootPath; // 0x40
-	::System::String* __3__rootPath; // 0x48
-	::System::IO::FileInfo* _fileInfo_5__3; // 0x50
-	::System::Collections::Generic::HashSet_1<::System::String*>* __3__excludeList; // 0x58
+	::System::String* rootPath; // 0x10
+	::System::Collections::Generic::HashSet_1_Enumerator<::System::String*> __7__wrap3; // 0x18
+	::System::Collections::Generic::IEnumerator_1<::System::IO::FileInfo*>* __7__wrap1; // 0x30
+	::System::String* __3__rootPath; // 0x38
+	::System::Collections::Generic::HashSet_1<::System::String*>* __3__excludeList; // 0x40
+	::System::Collections::Generic::HashSet_1<::System::String*>* __3__exts; // 0x48
+	::System::Collections::Generic::HashSet_1<::System::String*>* exts; // 0x50
+	::System::Collections::Generic::HashSet_1<::System::String*>* excludeList; // 0x58
 	::System::IO::FileInfo* __2__current; // 0x60
-	::System::Collections::Generic::HashSet_1<::System::String*>* excludeList; // 0x68
-	::System::Int32 __1__state; // 0x70
-	::System::Int32 __l__initialThreadId; // 0x74
+	::System::IO::FileInfo* _fileInfo_5__3; // 0x68
+	::System::Int32 __l__initialThreadId; // 0x70
+	::System::Int32 __1__state; // 0x74
 
-	::System::Void _ctor(::System::Int32 __1__state)
+	::System::Void _ctor(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29__CTOR_OFFSET))(this, __1__state);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_3072A258183F0287__ENUMERATEFILES_D__29__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Void System_IDisposable_Dispose()

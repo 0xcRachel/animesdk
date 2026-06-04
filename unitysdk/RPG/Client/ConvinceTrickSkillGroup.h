@@ -7,32 +7,32 @@ namespace RPG::Client { class ConvinceTrickSkill; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_AFTERSKILLTAKEEFFECT_OFFSET UNITYSDK_OFFSET(0x15BFBEB0)
-#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_CANTRIGGERSKILLTYPE_OFFSET UNITYSDK_OFFSET(0x15BFBB90)
-#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_CANTRIGGERSKILL_OFFSET UNITYSDK_OFFSET(0x15BFBB40)
-#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15BFB820)
-#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_GETSKILL_OFFSET UNITYSDK_OFFSET(0x15BFBC20)
-#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_INIT_OFFSET UNITYSDK_OFFSET(0x15BFB890)
-#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_ISANYSKILLTAKINGEFFECT_OFFSET UNITYSDK_OFFSET(0x15BFBF70)
-#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_ISSKILLCANUSE_OFFSET UNITYSDK_OFFSET(0x15BFC080)
-#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_ISSKILLTAKINGEFFECT_OFFSET UNITYSDK_OFFSET(0x15BFBF10)
-#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_SETCURRTURNINDEX_OFFSET UNITYSDK_OFFSET(0x15BFC030)
-#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_TRIGGERSKILL_OFFSET UNITYSDK_OFFSET(0x15BFBCD0)
-#define RPG_CLIENT_CONVINCETRICKSKILLGROUP__ADDSKILL_OFFSET UNITYSDK_OFFSET(0x15BFB9C0)
-#define RPG_CLIENT_CONVINCETRICKSKILLGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x15BFC0F0)
+#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_AFTERSKILLTAKEEFFECT_OFFSET UNITYSDK_OFFSET(0x15F2AF60)
+#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_CANTRIGGERSKILLTYPE_OFFSET UNITYSDK_OFFSET(0x15F2AC20)
+#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_CANTRIGGERSKILL_OFFSET UNITYSDK_OFFSET(0x15F2ABD0)
+#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15F2A850)
+#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_GETSKILL_OFFSET UNITYSDK_OFFSET(0x15F2ACB0)
+#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_INIT_OFFSET UNITYSDK_OFFSET(0x15F2A8E0)
+#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_ISANYSKILLTAKINGEFFECT_OFFSET UNITYSDK_OFFSET(0x15F2B020)
+#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_ISSKILLCANUSE_OFFSET UNITYSDK_OFFSET(0x15F2B150)
+#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_ISSKILLTAKINGEFFECT_OFFSET UNITYSDK_OFFSET(0x15F2AFC0)
+#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_SETCURRTURNINDEX_OFFSET UNITYSDK_OFFSET(0x15F2B100)
+#define RPG_CLIENT_CONVINCETRICKSKILLGROUP_TRIGGERSKILL_OFFSET UNITYSDK_OFFSET(0x15F2AD50)
+#define RPG_CLIENT_CONVINCETRICKSKILLGROUP__ADDSKILL_OFFSET UNITYSDK_OFFSET(0x15F2AA00)
+#define RPG_CLIENT_CONVINCETRICKSKILLGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x15F2B1C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConvinceTrickSkillGroup_TypeDefinitionIndex = 55960;
+	inline static constexpr unsigned int ConvinceTrickSkillGroup_TypeDefinitionIndex = 56716;
 
 	class ConvinceTrickSkillGroup : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::ConvinceTrickSkill*>* Skills; // 0x10
-		::System::Int32 CurUseNum; // 0x18
-		::System::Int32 _CurTurnIndex; // 0x1C
-		::System::Boolean SkillEnable; // 0x20
-		::System::Int32 MaxUseNum; // 0x24
+		::System::Boolean SkillEnable; // 0x18
+		::System::Int32 CurUseNum; // 0x1C
+		::System::Int32 MaxUseNum; // 0x20
+		::System::Int32 _CurTurnIndex; // 0x24
 
 		::System::Void _ctor()
 		{
@@ -44,14 +44,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILLGROUP_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Init(::Il2CppArray<::RPG::GameCore::ConvinceTrickSkillType>* skillTypes, ::System::Int32 maxUseNum)
+		::System::Void Init(::Il2CppArray<::RPG::GameCore::ConvinceTrickSkillType>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::ConvinceTrickSkillType>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILLGROUP_INIT_OFFSET))(this, skillTypes, maxUseNum);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::ConvinceTrickSkillType>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILLGROUP_INIT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _AddSkill(::RPG::GameCore::ConvinceTrickSkillType skillType)
+		::System::Void _AddSkill(::RPG::GameCore::ConvinceTrickSkillType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ConvinceTrickSkillType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILLGROUP__ADDSKILL_OFFSET))(this, skillType);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ConvinceTrickSkillType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILLGROUP__ADDSKILL_OFFSET))(this, a1);
 		}
 
 		::System::Boolean CanTriggerSkill()
@@ -59,29 +59,29 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILLGROUP_CANTRIGGERSKILL_OFFSET))(this);
 		}
 
-		::System::Boolean CanTriggerSkillType(::RPG::GameCore::ConvinceTrickSkillType skillType)
+		::System::Boolean CanTriggerSkillType(::RPG::GameCore::ConvinceTrickSkillType a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ConvinceTrickSkillType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILLGROUP_CANTRIGGERSKILLTYPE_OFFSET))(this, skillType);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ConvinceTrickSkillType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILLGROUP_CANTRIGGERSKILLTYPE_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::ConvinceTrickSkill* GetSkill(::RPG::GameCore::ConvinceTrickSkillType skillType)
+		::RPG::Client::ConvinceTrickSkill* GetSkill(::RPG::GameCore::ConvinceTrickSkillType a1)
 		{
-			return ((::RPG::Client::ConvinceTrickSkill*(*)(::PVOID, ::RPG::GameCore::ConvinceTrickSkillType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILLGROUP_GETSKILL_OFFSET))(this, skillType);
+			return ((::RPG::Client::ConvinceTrickSkill*(*)(::PVOID, ::RPG::GameCore::ConvinceTrickSkillType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILLGROUP_GETSKILL_OFFSET))(this, a1);
 		}
 
-		::System::Void TriggerSkill(::RPG::GameCore::ConvinceTrickSkillType skillType, ::RPG::GameCore::TaskContext* taskContext, ::System::Int32 turnIndex)
+		::System::Void TriggerSkill(::RPG::GameCore::ConvinceTrickSkillType a1, ::RPG::GameCore::TaskContext* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ConvinceTrickSkillType, ::RPG::GameCore::TaskContext*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILLGROUP_TRIGGERSKILL_OFFSET))(this, skillType, taskContext, turnIndex);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ConvinceTrickSkillType, ::RPG::GameCore::TaskContext*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILLGROUP_TRIGGERSKILL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void AfterSkillTakeEffect(::RPG::GameCore::ConvinceTrickSkillType skillType)
+		::System::Void AfterSkillTakeEffect(::RPG::GameCore::ConvinceTrickSkillType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ConvinceTrickSkillType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILLGROUP_AFTERSKILLTAKEEFFECT_OFFSET))(this, skillType);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ConvinceTrickSkillType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILLGROUP_AFTERSKILLTAKEEFFECT_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsSkillTakingEffect(::RPG::GameCore::ConvinceTrickSkillType skillType)
+		::System::Boolean IsSkillTakingEffect(::RPG::GameCore::ConvinceTrickSkillType a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ConvinceTrickSkillType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILLGROUP_ISSKILLTAKINGEFFECT_OFFSET))(this, skillType);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ConvinceTrickSkillType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILLGROUP_ISSKILLTAKINGEFFECT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsAnySkillTakingEffect()
@@ -89,14 +89,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILLGROUP_ISANYSKILLTAKINGEFFECT_OFFSET))(this);
 		}
 
-		::System::Void SetCurrTurnIndex(::System::Int32 currTurnIndex)
+		::System::Void SetCurrTurnIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILLGROUP_SETCURRTURNINDEX_OFFSET))(this, currTurnIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILLGROUP_SETCURRTURNINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsSkillCanUse(::RPG::GameCore::ConvinceTrickSkillType skillType)
+		::System::Boolean IsSkillCanUse(::RPG::GameCore::ConvinceTrickSkillType a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ConvinceTrickSkillType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILLGROUP_ISSKILLCANUSE_OFFSET))(this, skillType);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ConvinceTrickSkillType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCETRICKSKILLGROUP_ISSKILLCANUSE_OFFSET))(this, a1);
 		}
 	};
 }

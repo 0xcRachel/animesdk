@@ -6,14 +6,14 @@
 namespace Epic::OnlineServices::Metrics { class BeginPlayerSessionOptions; }
 namespace Epic::OnlineServices::Metrics { class EndPlayerSessionOptions; }
 
-#define EPIC_ONLINESERVICES_METRICS_METRICSINTERFACE_BEGINPLAYERSESSION_OFFSET UNITYSDK_OFFSET(0x1954FE90)
-#define EPIC_ONLINESERVICES_METRICS_METRICSINTERFACE_ENDPLAYERSESSION_OFFSET UNITYSDK_OFFSET(0x1954FFF0)
-#define EPIC_ONLINESERVICES_METRICS_METRICSINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1954FE80)
-#define EPIC_ONLINESERVICES_METRICS_METRICSINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1954FE70)
+#define EPIC_ONLINESERVICES_METRICS_METRICSINTERFACE_BEGINPLAYERSESSION_OFFSET UNITYSDK_OFFSET(0x1A33E7E0)
+#define EPIC_ONLINESERVICES_METRICS_METRICSINTERFACE_ENDPLAYERSESSION_OFFSET UNITYSDK_OFFSET(0x1A33E940)
+#define EPIC_ONLINESERVICES_METRICS_METRICSINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A33E7D0)
+#define EPIC_ONLINESERVICES_METRICS_METRICSINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A33E7C0)
 
 namespace Epic::OnlineServices::Metrics
 {
-	inline static constexpr unsigned int MetricsInterface_TypeDefinitionIndex = 41802;
+	inline static constexpr unsigned int MetricsInterface_TypeDefinitionIndex = 42605;
 
 	class MetricsInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -26,19 +26,19 @@ namespace Epic::OnlineServices::Metrics
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_METRICSINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_METRICSINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_METRICSINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result BeginPlayerSession(::Epic::OnlineServices::Metrics::BeginPlayerSessionOptions* options)
+		::Epic::OnlineServices::Result BeginPlayerSession(::Epic::OnlineServices::Metrics::BeginPlayerSessionOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Metrics::BeginPlayerSessionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_METRICSINTERFACE_BEGINPLAYERSESSION_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Metrics::BeginPlayerSessionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_METRICSINTERFACE_BEGINPLAYERSESSION_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result EndPlayerSession(::Epic::OnlineServices::Metrics::EndPlayerSessionOptions* options)
+		::Epic::OnlineServices::Result EndPlayerSession(::Epic::OnlineServices::Metrics::EndPlayerSessionOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Metrics::EndPlayerSessionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_METRICSINTERFACE_ENDPLAYERSESSION_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Metrics::EndPlayerSessionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_METRICSINTERFACE_ENDPLAYERSESSION_OFFSET))(this, a1);
 		}
 	};
 }

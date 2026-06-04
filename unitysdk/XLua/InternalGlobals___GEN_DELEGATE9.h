@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE9_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA2851B0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE9_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA285210)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE9_INVOKE_OFFSET UNITYSDK_OFFSET(0xA284C50)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE9__CTOR_OFFSET UNITYSDK_OFFSET(0xA26D5C0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE9_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xEDC4E10)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE9_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xEDC4E70)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE9_INVOKE_OFFSET UNITYSDK_OFFSET(0xEDC4E00)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE9__CTOR_OFFSET UNITYSDK_OFFSET(0xEDC4D10)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE9_TypeDefinitionIndex = 46335;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE9_TypeDefinitionIndex = 46925;
 
 	class InternalGlobals___GEN_DELEGATE9 : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE9__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE9__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Invoke(::RPG::Client::IRogueMiracleInfo* miracleInfo, ::System::UInt32 miracleID)
+		::System::Boolean Invoke(::RPG::Client::IRogueMiracleInfo* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IRogueMiracleInfo*, ::System::UInt32))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE9_INVOKE_OFFSET))(this, miracleInfo, miracleID);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IRogueMiracleInfo*, ::System::UInt32))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE9_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::RPG::Client::IRogueMiracleInfo* miracleInfo, ::System::UInt32 miracleID, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::RPG::Client::IRogueMiracleInfo* a1, ::System::UInt32 a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::Client::IRogueMiracleInfo*, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE9_BEGININVOKE_OFFSET))(this, miracleInfo, miracleID, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::Client::IRogueMiracleInfo*, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE9_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean EndInvoke(::System::IAsyncResult* result)
+		::System::Boolean EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE9_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE9_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

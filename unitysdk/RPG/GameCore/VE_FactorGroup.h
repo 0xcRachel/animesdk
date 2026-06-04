@@ -3,15 +3,18 @@
 #include "unitysdk/RPG/GameCore/ValueEvaluatorConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VE_FACTORGROUP_METHOD_3_BECE74D118D3FD3D_OFFSET UNITYSDK_OFFSET(0x1951A790)
-#define RPG_GAMECORE_VE_FACTORGROUP_METHOD_3_CB8997B07D2B71A0_OFFSET UNITYSDK_OFFSET(0x1951A7D0)
-#define RPG_GAMECORE_VE_FACTORGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1951A7C0)
+#define RPG_GAMECORE_VE_FACTORGROUP_METHOD_3_17EA2DF4BBB00E34_OFFSET UNITYSDK_OFFSET(0x19A71AF0)
+#define RPG_GAMECORE_VE_FACTORGROUP_METHOD_3_1C4115E8560D9086_OFFSET UNITYSDK_OFFSET(0x19A718C0)
+#define RPG_GAMECORE_VE_FACTORGROUP_METHOD_3_9BED9ABE98A70F52_OFFSET UNITYSDK_OFFSET(0x19A71AC0)
+#define RPG_GAMECORE_VE_FACTORGROUP_METHOD_3_D978056F5283E957_OFFSET UNITYSDK_OFFSET(0x19A71900)
+#define RPG_GAMECORE_VE_FACTORGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19A718F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VE_FactorGroup_TypeDefinitionIndex = 23036;
+	inline static constexpr unsigned int VE_FactorGroup_TypeDefinitionIndex = 22724;
 
 	class VE_FactorGroup : public ::RPG::GameCore::ValueEvaluatorConfig
 	{
@@ -24,14 +27,24 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_FACTORGROUP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BECE74D118D3FD3D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_FactorGroup*& a2)
+		static ::System::Void Method_3_1C4115E8560D9086(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_FactorGroup*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_FactorGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_FACTORGROUP_METHOD_3_BECE74D118D3FD3D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_FactorGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_FACTORGROUP_METHOD_3_1C4115E8560D9086_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CB8997B07D2B71A0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_FactorGroup* a2)
+		static ::System::Void Method_3_D978056F5283E957(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_FactorGroup* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_FactorGroup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_FACTORGROUP_METHOD_3_CB8997B07D2B71A0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_FactorGroup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_FACTORGROUP_METHOD_3_D978056F5283E957_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_9BED9ABE98A70F52(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_FactorGroup*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_FactorGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_FACTORGROUP_METHOD_3_9BED9ABE98A70F52_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_17EA2DF4BBB00E34(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_FactorGroup* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_FactorGroup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_FACTORGROUP_METHOD_3_17EA2DF4BBB00E34_OFFSET))(a1, a2);
 		}
 	};
 }

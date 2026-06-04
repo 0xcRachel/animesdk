@@ -3,13 +3,13 @@
 #include "unitysdk/Epic/OnlineServices/UI/KeyCombination.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_UI_SETTOGGLEFRIENDSKEYOPTIONS_GET_KEYCOMBINATION_OFFSET UNITYSDK_OFFSET(0x18CF4AA0)
-#define EPIC_ONLINESERVICES_UI_SETTOGGLEFRIENDSKEYOPTIONS_SET_KEYCOMBINATION_OFFSET UNITYSDK_OFFSET(0x18CF4AB0)
-#define EPIC_ONLINESERVICES_UI_SETTOGGLEFRIENDSKEYOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x18CF4AC0)
+#define EPIC_ONLINESERVICES_UI_SETTOGGLEFRIENDSKEYOPTIONS_GET_KEYCOMBINATION_OFFSET UNITYSDK_OFFSET(0x19C49380)
+#define EPIC_ONLINESERVICES_UI_SETTOGGLEFRIENDSKEYOPTIONS_SET_KEYCOMBINATION_OFFSET UNITYSDK_OFFSET(0x19C49390)
+#define EPIC_ONLINESERVICES_UI_SETTOGGLEFRIENDSKEYOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19C493A0)
 
 namespace Epic::OnlineServices::UI
 {
-	inline static constexpr unsigned int SetToggleFriendsKeyOptions_TypeDefinitionIndex = 41153;
+	inline static constexpr unsigned int SetToggleFriendsKeyOptions_TypeDefinitionIndex = 41956;
 
 	class SetToggleFriendsKeyOptions : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace Epic::OnlineServices::UI
 			return ((::Epic::OnlineServices::UI::KeyCombination(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_SETTOGGLEFRIENDSKEYOPTIONS_GET_KEYCOMBINATION_OFFSET))(this);
 		}
 
-		::System::Void set_KeyCombination(::Epic::OnlineServices::UI::KeyCombination value)
+		::System::Void set_KeyCombination(::Epic::OnlineServices::UI::KeyCombination a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::UI::KeyCombination))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_SETTOGGLEFRIENDSKEYOPTIONS_SET_KEYCOMBINATION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::UI::KeyCombination))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_SETTOGGLEFRIENDSKEYOPTIONS_SET_KEYCOMBINATION_OFFSET))(this, a1);
 		}
 	};
 }

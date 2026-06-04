@@ -4,30 +4,30 @@
 
 namespace SuperScrollView { class LoopGridViewItem; }
 
-#define SUPERSCROLLVIEW_GRIDITEMGROUP_ADDFIRST_OFFSET UNITYSDK_OFFSET(0x14F99CE0)
-#define SUPERSCROLLVIEW_GRIDITEMGROUP_ADDLAST_OFFSET UNITYSDK_OFFSET(0x14F99D70)
-#define SUPERSCROLLVIEW_GRIDITEMGROUP_CLEAR_OFFSET UNITYSDK_OFFSET(0x14F99F30)
-#define SUPERSCROLLVIEW_GRIDITEMGROUP_GETITEMBYCOLUMN_OFFSET UNITYSDK_OFFSET(0x14F99B20)
-#define SUPERSCROLLVIEW_GRIDITEMGROUP_GETITEMBYROW_OFFSET UNITYSDK_OFFSET(0x14F99B90)
-#define SUPERSCROLLVIEW_GRIDITEMGROUP_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x14F99AD0)
-#define SUPERSCROLLVIEW_GRIDITEMGROUP_GET_FIRST_OFFSET UNITYSDK_OFFSET(0x14F99AE0)
-#define SUPERSCROLLVIEW_GRIDITEMGROUP_GET_GROUPINDEX_OFFSET UNITYSDK_OFFSET(0x14F99B00)
-#define SUPERSCROLLVIEW_GRIDITEMGROUP_GET_LAST_OFFSET UNITYSDK_OFFSET(0x14F99AF0)
-#define SUPERSCROLLVIEW_GRIDITEMGROUP_REMOVEFIRST_OFFSET UNITYSDK_OFFSET(0x14F99E10)
-#define SUPERSCROLLVIEW_GRIDITEMGROUP_REMOVELAST_OFFSET UNITYSDK_OFFSET(0x14F99EA0)
-#define SUPERSCROLLVIEW_GRIDITEMGROUP_REPLACEITEM_OFFSET UNITYSDK_OFFSET(0x14F99C00)
-#define SUPERSCROLLVIEW_GRIDITEMGROUP_SET_GROUPINDEX_OFFSET UNITYSDK_OFFSET(0x14F99B10)
-#define SUPERSCROLLVIEW_GRIDITEMGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x14F99FA0)
+#define SUPERSCROLLVIEW_GRIDITEMGROUP_ADDFIRST_OFFSET UNITYSDK_OFFSET(0x13ED2DD0)
+#define SUPERSCROLLVIEW_GRIDITEMGROUP_ADDLAST_OFFSET UNITYSDK_OFFSET(0x13ED2E60)
+#define SUPERSCROLLVIEW_GRIDITEMGROUP_CLEAR_OFFSET UNITYSDK_OFFSET(0x13ED3020)
+#define SUPERSCROLLVIEW_GRIDITEMGROUP_GETITEMBYCOLUMN_OFFSET UNITYSDK_OFFSET(0x13ED2C10)
+#define SUPERSCROLLVIEW_GRIDITEMGROUP_GETITEMBYROW_OFFSET UNITYSDK_OFFSET(0x13ED2C80)
+#define SUPERSCROLLVIEW_GRIDITEMGROUP_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x13ED2BC0)
+#define SUPERSCROLLVIEW_GRIDITEMGROUP_GET_FIRST_OFFSET UNITYSDK_OFFSET(0x13ED2BD0)
+#define SUPERSCROLLVIEW_GRIDITEMGROUP_GET_GROUPINDEX_OFFSET UNITYSDK_OFFSET(0x13ED2BF0)
+#define SUPERSCROLLVIEW_GRIDITEMGROUP_GET_LAST_OFFSET UNITYSDK_OFFSET(0x13ED2BE0)
+#define SUPERSCROLLVIEW_GRIDITEMGROUP_REMOVEFIRST_OFFSET UNITYSDK_OFFSET(0x13ED2F00)
+#define SUPERSCROLLVIEW_GRIDITEMGROUP_REMOVELAST_OFFSET UNITYSDK_OFFSET(0x13ED2F90)
+#define SUPERSCROLLVIEW_GRIDITEMGROUP_REPLACEITEM_OFFSET UNITYSDK_OFFSET(0x13ED2CF0)
+#define SUPERSCROLLVIEW_GRIDITEMGROUP_SET_GROUPINDEX_OFFSET UNITYSDK_OFFSET(0x13ED2C00)
+#define SUPERSCROLLVIEW_GRIDITEMGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x13ED3090)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int GridItemGroup_TypeDefinitionIndex = 44391;
+	inline static constexpr unsigned int GridItemGroup_TypeDefinitionIndex = 44937;
 
 	class GridItemGroup : public ::System::Object
 	{
 	public:
-		::SuperScrollView::LoopGridViewItem* mLast; // 0x10
-		::SuperScrollView::LoopGridViewItem* mFirst; // 0x18
+		::SuperScrollView::LoopGridViewItem* mFirst; // 0x10
+		::SuperScrollView::LoopGridViewItem* mLast; // 0x18
 		::System::Int32 mCount; // 0x20
 		::System::Int32 mGroupIndex; // 0x24
 
@@ -56,34 +56,34 @@ namespace SuperScrollView
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_GRIDITEMGROUP_GET_GROUPINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_GroupIndex(::System::Int32 value)
+		::System::Void set_GroupIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_GRIDITEMGROUP_SET_GROUPINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_GRIDITEMGROUP_SET_GROUPINDEX_OFFSET))(this, a1);
 		}
 
-		::SuperScrollView::LoopGridViewItem* GetItemByColumn(::System::Int32 column)
+		::SuperScrollView::LoopGridViewItem* GetItemByColumn(::System::Int32 a1)
 		{
-			return ((::SuperScrollView::LoopGridViewItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_GRIDITEMGROUP_GETITEMBYCOLUMN_OFFSET))(this, column);
+			return ((::SuperScrollView::LoopGridViewItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_GRIDITEMGROUP_GETITEMBYCOLUMN_OFFSET))(this, a1);
 		}
 
-		::SuperScrollView::LoopGridViewItem* GetItemByRow(::System::Int32 row)
+		::SuperScrollView::LoopGridViewItem* GetItemByRow(::System::Int32 a1)
 		{
-			return ((::SuperScrollView::LoopGridViewItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_GRIDITEMGROUP_GETITEMBYROW_OFFSET))(this, row);
+			return ((::SuperScrollView::LoopGridViewItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_GRIDITEMGROUP_GETITEMBYROW_OFFSET))(this, a1);
 		}
 
-		::System::Void ReplaceItem(::SuperScrollView::LoopGridViewItem* curItem, ::SuperScrollView::LoopGridViewItem* newItem)
+		::System::Void ReplaceItem(::SuperScrollView::LoopGridViewItem* a1, ::SuperScrollView::LoopGridViewItem* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopGridViewItem*, ::SuperScrollView::LoopGridViewItem*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_GRIDITEMGROUP_REPLACEITEM_OFFSET))(this, curItem, newItem);
+			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopGridViewItem*, ::SuperScrollView::LoopGridViewItem*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_GRIDITEMGROUP_REPLACEITEM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddFirst(::SuperScrollView::LoopGridViewItem* newItem)
+		::System::Void AddFirst(::SuperScrollView::LoopGridViewItem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopGridViewItem*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_GRIDITEMGROUP_ADDFIRST_OFFSET))(this, newItem);
+			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopGridViewItem*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_GRIDITEMGROUP_ADDFIRST_OFFSET))(this, a1);
 		}
 
-		::System::Void AddLast(::SuperScrollView::LoopGridViewItem* newItem)
+		::System::Void AddLast(::SuperScrollView::LoopGridViewItem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopGridViewItem*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_GRIDITEMGROUP_ADDLAST_OFFSET))(this, newItem);
+			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopGridViewItem*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_GRIDITEMGROUP_ADDLAST_OFFSET))(this, a1);
 		}
 
 		::SuperScrollView::LoopGridViewItem* RemoveFirst()

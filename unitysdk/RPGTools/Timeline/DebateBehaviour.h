@@ -8,24 +8,24 @@ namespace RPG::GameCore { class SimpleTalkInfo; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_GET_SIMPLETALKCONFIG_OFFSET UNITYSDK_OFFSET(0x17B13390)
-#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_GET_UNIQUENAME_OFFSET UNITYSDK_OFFSET(0x17B133B0)
-#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_GET_USEDISCUSSIONMOUTHTALK_OFFSET UNITYSDK_OFFSET(0x17B133D0)
-#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_METHOD_2_AE0B725AB77F7E6F_OFFSET UNITYSDK_OFFSET(0x17B136B0)
-#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x17B133F0)
-#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x17B13470)
-#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x17B135F0)
-#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_SET_SIMPLETALKCONFIG_OFFSET UNITYSDK_OFFSET(0x17B133A0)
-#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_SET_UNIQUENAME_OFFSET UNITYSDK_OFFSET(0x17B133C0)
-#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_SET_USEDISCUSSIONMOUTHTALK_OFFSET UNITYSDK_OFFSET(0x17B133E0)
-#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x17B13BE0)
-#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x17B13BF0)
-#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x17B13C00)
-#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x17B13C10)
+#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_GET_SIMPLETALKCONFIG_OFFSET UNITYSDK_OFFSET(0x199B97B0)
+#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_GET_UNIQUENAME_OFFSET UNITYSDK_OFFSET(0x199B97D0)
+#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_GET_USEDISCUSSIONMOUTHTALK_OFFSET UNITYSDK_OFFSET(0x199B97F0)
+#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_METHOD_2_885DF4DA0F709E3E_OFFSET UNITYSDK_OFFSET(0x199B9AD0)
+#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x199B9810)
+#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x199B9890)
+#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x199B9A10)
+#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_SET_SIMPLETALKCONFIG_OFFSET UNITYSDK_OFFSET(0x199B97C0)
+#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_SET_UNIQUENAME_OFFSET UNITYSDK_OFFSET(0x199B97E0)
+#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_SET_USEDISCUSSIONMOUTHTALK_OFFSET UNITYSDK_OFFSET(0x199B9800)
+#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x199BA000)
+#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x199BA010)
+#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x199BA020)
+#define RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x199BA030)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int DebateBehaviour_TypeDefinitionIndex = 44817;
+	inline static constexpr unsigned int DebateBehaviour_TypeDefinitionIndex = 45364;
 
 	class DebateBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -45,9 +45,9 @@ namespace RPGTools::Timeline
 			return ((::RPG::GameCore::SimpleTalkInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_GET_SIMPLETALKCONFIG_OFFSET))(this);
 		}
 
-		::System::Void set_SimpleTalkConfig(::RPG::GameCore::SimpleTalkInfo* value)
+		::System::Void set_SimpleTalkConfig(::RPG::GameCore::SimpleTalkInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SimpleTalkInfo*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_SET_SIMPLETALKCONFIG_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SimpleTalkInfo*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_SET_SIMPLETALKCONFIG_OFFSET))(this, a1);
 		}
 
 		::System::String* get_UniqueName()
@@ -55,9 +55,9 @@ namespace RPGTools::Timeline
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_GET_UNIQUENAME_OFFSET))(this);
 		}
 
-		::System::Void set_UniqueName(::System::String* value)
+		::System::Void set_UniqueName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_SET_UNIQUENAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_SET_UNIQUENAME_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_UseDiscussionMouthTalk()
@@ -65,9 +65,9 @@ namespace RPGTools::Timeline
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_GET_USEDISCUSSIONMOUTHTALK_OFFSET))(this);
 		}
 
-		::System::Void set_UseDiscussionMouthTalk(::System::Boolean value)
+		::System::Void set_UseDiscussionMouthTalk(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_SET_USEDISCUSSIONMOUTHTALK_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_SET_USEDISCUSSIONMOUTHTALK_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -85,24 +85,24 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_2_AE0B725AB77F7E6F()
+		::System::Void Method_2_885DF4DA0F709E3E()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_METHOD_2_AE0B725AB77F7E6F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR_METHOD_2_885DF4DA0F709E3E_OFFSET))(this);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnGraphStop(::UnityEngine::Playables::Playable P0)
+		::System::Void __iFixBaseProxy_OnGraphStop(::UnityEngine::Playables::Playable a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET))(this, a1);
 		}
 
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1, ::System::Object* P2)
+		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

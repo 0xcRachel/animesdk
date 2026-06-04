@@ -7,24 +7,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGEBATTLEEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18606420)
-#define RPG_GAMECORE_STAGEBATTLEEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186067D0)
+#define RPG_GAMECORE_STAGEBATTLEEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19337DA0)
+#define RPG_GAMECORE_STAGEBATTLEEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19338140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageBattleEventRow_TypeDefinitionIndex = 14351;
+	inline static constexpr unsigned int StageBattleEventRow_TypeDefinitionIndex = 14397;
 
 	class StageBattleEventRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* ModifierNameList; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x18
-		::System::String* IconPath; // 0x20
-		::Il2CppArray<::System::String*>* AbilityNameList; // 0x28
-		::Il2CppArray<::System::String*>* SelfModifierNameList; // 0x30
-		::RPG::GameCore::StageBattleEventType EventType; // 0x38
-		::System::Boolean IncludeMonster; // 0x3C
-		::System::Boolean IncludeAvatar; // 0x3D
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
+		::Il2CppArray<::System::String*>* AbilityNameList; // 0x18
+		::Il2CppArray<::System::String*>* SelfModifierNameList; // 0x20
+		::Il2CppArray<::System::String*>* ModifierNameList; // 0x28
+		::System::String* IconPath; // 0x30
+		::System::Boolean IncludeMonster; // 0x38
+		::System::Boolean IncludeAvatar; // 0x39
+		::RPG::GameCore::StageBattleEventType EventType; // 0x3C
 		::System::UInt32 EventID; // 0x40
 
 		::System::Void _ctor()
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEBATTLEEVENTROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::StageBattleEventRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageBattleEventRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageBattleEventRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEBATTLEEVENTROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageBattleEventRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEBATTLEEVENTROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

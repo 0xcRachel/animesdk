@@ -12,35 +12,35 @@ namespace RPG::GameCore { class WorldDataConfigRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define RPG_CLIENT_NAVMAP_WORLDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1262B700)
-#define RPG_CLIENT_NAVMAP_WORLDDATA_GETTRACKINGSUBMISSIONFORSHOW_OFFSET UNITYSDK_OFFSET(0x1262B7B0)
-#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_DESC_OFFSET UNITYSDK_OFFSET(0x1262B990)
-#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x1262B9C0)
-#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_ISPLAYERHERE_OFFSET UNITYSDK_OFFSET(0x1262BA80)
-#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x1262B6E0)
-#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_ISTRAINWORLD_OFFSET UNITYSDK_OFFSET(0x1262BE40)
-#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1262B960)
-#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_NEEDSHOWSPACETYPE_OFFSET UNITYSDK_OFFSET(0x1262BA00)
-#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_SHOWTABS_OFFSET UNITYSDK_OFFSET(0x1262B800)
-#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_SPACETYPELIST_OFFSET UNITYSDK_OFFSET(0x1262B9E0)
-#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_TABS_OFFSET UNITYSDK_OFFSET(0x1262BA60)
-#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_TRAINSPACETYPE_OFFSET UNITYSDK_OFFSET(0x1262BE70)
-#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_VERSEPARAM_OFFSET UNITYSDK_OFFSET(0x1262B930)
-#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_WORLDID_OFFSET UNITYSDK_OFFSET(0x1262B910)
-#define RPG_CLIENT_NAVMAP_WORLDDATA_SET_TABS_OFFSET UNITYSDK_OFFSET(0x1262BA70)
-#define RPG_CLIENT_NAVMAP_WORLDDATA_SET_WORLDID_OFFSET UNITYSDK_OFFSET(0x1262B920)
-#define RPG_CLIENT_NAVMAP_WORLDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1262B7A0)
+#define RPG_CLIENT_NAVMAP_WORLDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x15605020)
+#define RPG_CLIENT_NAVMAP_WORLDDATA_GETTRACKINGSUBMISSIONFORSHOW_OFFSET UNITYSDK_OFFSET(0x15604950)
+#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_DESC_OFFSET UNITYSDK_OFFSET(0x156070E0)
+#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x15607110)
+#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_ISPLAYERHERE_OFFSET UNITYSDK_OFFSET(0x156044F0)
+#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x15607060)
+#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_ISTRAINWORLD_OFFSET UNITYSDK_OFFSET(0x156071D0)
+#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x156070B0)
+#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_NEEDSHOWSPACETYPE_OFFSET UNITYSDK_OFFSET(0x15607150)
+#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_SHOWTABS_OFFSET UNITYSDK_OFFSET(0x15604320)
+#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_SPACETYPELIST_OFFSET UNITYSDK_OFFSET(0x15607130)
+#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_TABS_OFFSET UNITYSDK_OFFSET(0x156071B0)
+#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_TRAINSPACETYPE_OFFSET UNITYSDK_OFFSET(0x15607200)
+#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_VERSEPARAM_OFFSET UNITYSDK_OFFSET(0x15602CA0)
+#define RPG_CLIENT_NAVMAP_WORLDDATA_GET_WORLDID_OFFSET UNITYSDK_OFFSET(0x15607090)
+#define RPG_CLIENT_NAVMAP_WORLDDATA_SET_TABS_OFFSET UNITYSDK_OFFSET(0x156071C0)
+#define RPG_CLIENT_NAVMAP_WORLDDATA_SET_WORLDID_OFFSET UNITYSDK_OFFSET(0x156070A0)
+#define RPG_CLIENT_NAVMAP_WORLDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15607080)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int WorldData_TypeDefinitionIndex = 68876;
+	inline static constexpr unsigned int WorldData_TypeDefinitionIndex = 69688;
 
 	class WorldData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::NavMap::IMainTab*>* _Tabs_k__BackingField; // 0x10
-		::RPG::GameCore::WorldDataConfigRow* _Row; // 0x18
-		::RPG::Client::NavMap::UniverseData* UniverseData; // 0x20
+		::RPG::GameCore::WorldDataConfigRow* _Row; // 0x10
+		::RPG::Client::NavMap::UniverseData* UniverseData; // 0x18
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::NavMap::IMainTab*>* _Tabs_k__BackingField; // 0x20
 		::System::UInt32 _WorldID_k__BackingField; // 0x28
 
 		::System::Void _ctor()
@@ -48,9 +48,9 @@ namespace RPG::Client::NavMap
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_WORLDDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::NavMap::WorldData* Create(::System::UInt32 wordID, ::RPG::Client::NavMap::UniverseData* universeData)
+		static ::RPG::Client::NavMap::WorldData* Create(::System::UInt32 a1, ::RPG::Client::NavMap::UniverseData* a2)
 		{
-			return ((::RPG::Client::NavMap::WorldData*(*)(::System::UInt32, ::RPG::Client::NavMap::UniverseData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_WORLDDATA_CREATE_OFFSET))(wordID, universeData);
+			return ((::RPG::Client::NavMap::WorldData*(*)(::System::UInt32, ::RPG::Client::NavMap::UniverseData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_WORLDDATA_CREATE_OFFSET))(a1, a2);
 		}
 
 		::RPG::Client::SubMissionData* GetTrackingSubMissionForShow()
@@ -63,9 +63,9 @@ namespace RPG::Client::NavMap
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_WORLDDATA_GET_WORLDID_OFFSET))(this);
 		}
 
-		::System::Void set_WorldID(::System::UInt32 value)
+		::System::Void set_WorldID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_WORLDDATA_SET_WORLDID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_WORLDDATA_SET_WORLDID_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::VerseParam get_VerseParam()
@@ -103,9 +103,9 @@ namespace RPG::Client::NavMap
 			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::NavMap::IMainTab*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_WORLDDATA_GET_TABS_OFFSET))(this);
 		}
 
-		::System::Void set_Tabs(::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::NavMap::IMainTab*>* value)
+		::System::Void set_Tabs(::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::NavMap::IMainTab*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::NavMap::IMainTab*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_WORLDDATA_SET_TABS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::NavMap::IMainTab*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_WORLDDATA_SET_TABS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::NavMap::IMainTab*>* get_ShowTabs()

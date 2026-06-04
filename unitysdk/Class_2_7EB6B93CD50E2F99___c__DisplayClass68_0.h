@@ -5,10 +5,10 @@
 class Class_1_DDDB57AA67C3A9EA;
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_2_7EB6B93CD50E2F99___C__DISPLAYCLASS68_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE5C4590)
-#define CLASS_2_7EB6B93CD50E2F99___C__DISPLAYCLASS68_0___FINDITEM_B__0_OFFSET UNITYSDK_OFFSET(0xE5C50F0)
+#define CLASS_2_7EB6B93CD50E2F99___C__DISPLAYCLASS68_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA91FF40)
+#define CLASS_2_7EB6B93CD50E2F99___C__DISPLAYCLASS68_0___FINDITEM_B__0_OFFSET UNITYSDK_OFFSET(0xA920B60)
 
-inline static constexpr unsigned int Class_2_7EB6B93CD50E2F99___c__DisplayClass68_0_TypeDefinitionIndex = 65738;
+inline static constexpr unsigned int Class_2_7EB6B93CD50E2F99___c__DisplayClass68_0_TypeDefinitionIndex = 66672;
 
 class Class_2_7EB6B93CD50E2F99___c__DisplayClass68_0 : public ::System::Object
 {
@@ -20,8 +20,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7EB6B93CD50E2F99___C__DISPLAYCLASS68_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean __FindItem_b__0(::Class_1_DDDB57AA67C3A9EA* x)
+	::System::Boolean __FindItem_b__0(::Class_1_DDDB57AA67C3A9EA* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_DDDB57AA67C3A9EA*))((::PBYTE)hIl2Cpp + CLASS_2_7EB6B93CD50E2F99___C__DISPLAYCLASS68_0___FINDITEM_B__0_OFFSET))(this, x);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_DDDB57AA67C3A9EA*))((::PBYTE)hIl2Cpp + CLASS_2_7EB6B93CD50E2F99___C__DISPLAYCLASS68_0___FINDITEM_B__0_OFFSET))(this, a1);
 	}
 };

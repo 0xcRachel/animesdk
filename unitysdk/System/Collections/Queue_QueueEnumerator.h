@@ -4,27 +4,27 @@
 
 namespace System::Collections { class Queue; }
 
-#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_CLONE_OFFSET UNITYSDK_OFFSET(0x193D5D90)
-#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x193D5F10)
-#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x193D5E30)
-#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x193D5FD0)
-#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x193D5B10)
+#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_CLONE_OFFSET UNITYSDK_OFFSET(0x19A229A0)
+#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19A22B10)
+#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x19A22A40)
+#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x19A22BD0)
+#define SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19A22750)
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int Queue_QueueEnumerator_TypeDefinitionIndex = 1486;
+	inline static constexpr unsigned int Queue_QueueEnumerator_TypeDefinitionIndex = 1485;
 
 	class Queue_QueueEnumerator : public ::System::Object
 	{
 	public:
-		::System::Collections::Queue* _q; // 0x10
-		::System::Object* currentElement; // 0x18
-		::System::Int32 _version; // 0x20
-		::System::Int32 _index; // 0x24
+		::System::Object* currentElement; // 0x10
+		::System::Collections::Queue* _q; // 0x18
+		::System::Int32 _index; // 0x20
+		::System::Int32 _version; // 0x24
 
-		::System::Void _ctor(::System::Collections::Queue* q)
+		::System::Void _ctor(::System::Collections::Queue* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Queue*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR__CTOR_OFFSET))(this, q);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Queue*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_QUEUE_QUEUEENUMERATOR__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Object* Clone()

@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_THREADING_PLATFORMHELPER_GET_ISSINGLEPROCESSOR_OFFSET UNITYSDK_OFFSET(0x18758290)
-#define SYSTEM_THREADING_PLATFORMHELPER_GET_PROCESSORCOUNT_OFFSET UNITYSDK_OFFSET(0x18754DC0)
+#define SYSTEM_THREADING_PLATFORMHELPER_GET_ISSINGLEPROCESSOR_OFFSET UNITYSDK_OFFSET(0x1858DCC0)
+#define SYSTEM_THREADING_PLATFORMHELPER_GET_PROCESSORCOUNT_OFFSET UNITYSDK_OFFSET(0x1858ACE0)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int PlatformHelper_TypeDefinitionIndex = 812;
+	inline static constexpr unsigned int PlatformHelper_TypeDefinitionIndex = 811;
 
 	class PlatformHelper : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_s_processorCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PlatformHelper_TypeDefinitionIndex)->GetStaticField(0x3E70);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PlatformHelper_TypeDefinitionIndex)->GetStaticField(0x5540);
 		}
 		static ::System::Int32* StaticGet_s_lastProcessorCountRefreshTicks()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PlatformHelper_TypeDefinitionIndex)->GetStaticField(0x3E74);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PlatformHelper_TypeDefinitionIndex)->GetStaticField(0x5544);
 		}
 
 		static ::System::Int32 get_ProcessorCount()

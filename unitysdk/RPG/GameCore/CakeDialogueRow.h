@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CAKEDIALOGUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A77330)
-#define RPG_GAMECORE_CAKEDIALOGUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A774F0)
+#define RPG_GAMECORE_CAKEDIALOGUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19E75BE0)
+#define RPG_GAMECORE_CAKEDIALOGUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19E75DA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeDialogueRow_TypeDefinitionIndex = 12216;
+	inline static constexpr unsigned int CakeDialogueRow_TypeDefinitionIndex = 12301;
 
 	class CakeDialogueRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 CatID; // 0x10
-		::System::UInt32 ID; // 0x14
+		::System::UInt32 ID; // 0x10
+		::System::UInt32 CatID; // 0x14
 		::RPG::Client::TextID RuanMadeCakeDialogue; // 0x18
 
 		::System::Void _ctor()
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKEDIALOGUEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::CakeDialogueRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeDialogueRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeDialogueRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKEDIALOGUEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeDialogueRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKEDIALOGUEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

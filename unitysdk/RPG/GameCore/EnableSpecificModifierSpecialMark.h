@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ENABLESPECIFICMODIFIERSPECIALMARK_METHOD_3_8CCDC84FEBC8E88B_OFFSET UNITYSDK_OFFSET(0x1915AF80)
-#define RPG_GAMECORE_ENABLESPECIFICMODIFIERSPECIALMARK_METHOD_3_95B34571C967CEAD_OFFSET UNITYSDK_OFFSET(0x1915B000)
-#define RPG_GAMECORE_ENABLESPECIFICMODIFIERSPECIALMARK__CTOR_OFFSET UNITYSDK_OFFSET(0x1915AFD0)
+#define RPG_GAMECORE_ENABLESPECIFICMODIFIERSPECIALMARK_METHOD_3_23CCFDA1CCB7EA2F_OFFSET UNITYSDK_OFFSET(0x19D76D90)
+#define RPG_GAMECORE_ENABLESPECIFICMODIFIERSPECIALMARK_METHOD_3_5E87ECB5A6CBFE29_OFFSET UNITYSDK_OFFSET(0x19D76D10)
+#define RPG_GAMECORE_ENABLESPECIFICMODIFIERSPECIALMARK__CTOR_OFFSET UNITYSDK_OFFSET(0x19D76D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnableSpecificModifierSpecialMark_TypeDefinitionIndex = 22129;
+	inline static constexpr unsigned int EnableSpecificModifierSpecialMark_TypeDefinitionIndex = 21915;
 
 	class EnableSpecificModifierSpecialMark : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLESPECIFICMODIFIERSPECIALMARK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8CCDC84FEBC8E88B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableSpecificModifierSpecialMark*& a2)
+		static ::System::Void Method_3_5E87ECB5A6CBFE29(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableSpecificModifierSpecialMark*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableSpecificModifierSpecialMark*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLESPECIFICMODIFIERSPECIALMARK_METHOD_3_8CCDC84FEBC8E88B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableSpecificModifierSpecialMark*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLESPECIFICMODIFIERSPECIALMARK_METHOD_3_5E87ECB5A6CBFE29_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_95B34571C967CEAD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableSpecificModifierSpecialMark* a2)
+		static ::System::Void Method_3_23CCFDA1CCB7EA2F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableSpecificModifierSpecialMark* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableSpecificModifierSpecialMark*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLESPECIFICMODIFIERSPECIALMARK_METHOD_3_95B34571C967CEAD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableSpecificModifierSpecialMark*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLESPECIFICMODIFIERSPECIALMARK_METHOD_3_23CCFDA1CCB7EA2F_OFFSET))(a1, a2);
 		}
 	};
 }

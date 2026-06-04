@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define SCENELIGHTSTAGEDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x16E1E630)
+#define SCENELIGHTSTAGEDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x17755D40)
 
-inline static constexpr unsigned int SceneLightStageDataItem_TypeDefinitionIndex = 44137;
+inline static constexpr unsigned int SceneLightStageDataItem_TypeDefinitionIndex = 44683;
 
 class SceneLightStageDataItem : public ::System::Object
 {

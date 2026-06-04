@@ -7,92 +7,92 @@
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_GETBOOL_OFFSET UNITYSDK_OFFSET(0x18A05C00)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_GETFLOAT_OFFSET UNITYSDK_OFFSET(0x18A05C40)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_GETINT32_OFFSET UNITYSDK_OFFSET(0x18A05C20)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_GETSETTINGSERRORNAMEFROMENUM_OFFSET UNITYSDK_OFFSET(0x18A05B20)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_GETSTRING_OFFSET UNITYSDK_OFFSET(0x18A05C60)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_REMOVEKEYINSECTION_OFFSET UNITYSDK_OFFSET(0x18A05CA0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_REMOVESECTION_OFFSET UNITYSDK_OFFSET(0x18A05C80)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_SETBOOL_OFFSET UNITYSDK_OFFSET(0x18A05B80)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_SETFLOAT_OFFSET UNITYSDK_OFFSET(0x18A05BC0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_SETINT32_OFFSET UNITYSDK_OFFSET(0x18A05BA0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_SETSTRING_OFFSET UNITYSDK_OFFSET(0x18A05BE0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_SYNC_OFFSET UNITYSDK_OFFSET(0x18A05B60)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18A05A20)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_GETBOOL_OFFSET UNITYSDK_OFFSET(0x1A0ED280)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_GETFLOAT_OFFSET UNITYSDK_OFFSET(0x1A0ED2E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_GETINT32_OFFSET UNITYSDK_OFFSET(0x1A0ED2B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_GETSETTINGSERRORNAMEFROMENUM_OFFSET UNITYSDK_OFFSET(0x1A0ED100)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1A0ED310)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_REMOVEKEYINSECTION_OFFSET UNITYSDK_OFFSET(0x1A0ED380)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_REMOVESECTION_OFFSET UNITYSDK_OFFSET(0x1A0ED350)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_SETBOOL_OFFSET UNITYSDK_OFFSET(0x1A0ED180)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_SETFLOAT_OFFSET UNITYSDK_OFFSET(0x1A0ED200)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_SETINT32_OFFSET UNITYSDK_OFFSET(0x1A0ED1C0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_SETSTRING_OFFSET UNITYSDK_OFFSET(0x1A0ED240)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_SYNC_OFFSET UNITYSDK_OFFSET(0x1A0ED150)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0ED000)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int CVRSettings_TypeDefinitionIndex = 35971;
+	inline static constexpr unsigned int CVRSettings_TypeDefinitionIndex = 36271;
 
 	class CVRSettings : public ::System::Object
 	{
 	public:
 		::ZenFulcrum::VR::OpenVRBinding::IVRSettings FnTable; // 0x10
 
-		::System::Void _ctor(::System::IntPtr pInterface)
+		::System::Void _ctor(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS__CTOR_OFFSET))(this, pInterface);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::String* GetSettingsErrorNameFromEnum(::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError eError)
+		::System::String* GetSettingsErrorNameFromEnum(::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_GETSETTINGSERRORNAMEFROMENUM_OFFSET))(this, eError);
+			return ((::System::String*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_GETSETTINGSERRORNAMEFROMENUM_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Sync(::System::Boolean bForce, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& peError)
+		::System::Boolean Sync(::System::Boolean a1, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_SYNC_OFFSET))(this, bForce, peError);
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_SYNC_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetBool(::System::String* pchSection, ::System::String* pchSettingsKey, ::System::Boolean bValue, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& peError)
+		::System::Void SetBool(::System::String* a1, ::System::String* a2, ::System::Boolean a3, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_SETBOOL_OFFSET))(this, pchSection, pchSettingsKey, bValue, peError);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_SETBOOL_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void SetInt32(::System::String* pchSection, ::System::String* pchSettingsKey, ::System::Int32 nValue, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& peError)
+		::System::Void SetInt32(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_SETINT32_OFFSET))(this, pchSection, pchSettingsKey, nValue, peError);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_SETINT32_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void SetFloat(::System::String* pchSection, ::System::String* pchSettingsKey, ::System::Single flValue, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& peError)
+		::System::Void SetFloat(::System::String* a1, ::System::String* a2, ::System::Single a3, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Single, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_SETFLOAT_OFFSET))(this, pchSection, pchSettingsKey, flValue, peError);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Single, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_SETFLOAT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void SetString(::System::String* pchSection, ::System::String* pchSettingsKey, ::System::String* pchValue, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& peError)
+		::System::Void SetString(::System::String* a1, ::System::String* a2, ::System::String* a3, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_SETSTRING_OFFSET))(this, pchSection, pchSettingsKey, pchValue, peError);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_SETSTRING_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean GetBool(::System::String* pchSection, ::System::String* pchSettingsKey, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& peError)
+		::System::Boolean GetBool(::System::String* a1, ::System::String* a2, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_GETBOOL_OFFSET))(this, pchSection, pchSettingsKey, peError);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_GETBOOL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 GetInt32(::System::String* pchSection, ::System::String* pchSettingsKey, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& peError)
+		::System::Int32 GetInt32(::System::String* a1, ::System::String* a2, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_GETINT32_OFFSET))(this, pchSection, pchSettingsKey, peError);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_GETINT32_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single GetFloat(::System::String* pchSection, ::System::String* pchSettingsKey, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& peError)
+		::System::Single GetFloat(::System::String* a1, ::System::String* a2, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::String*, ::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_GETFLOAT_OFFSET))(this, pchSection, pchSettingsKey, peError);
+			return ((::System::Single(*)(::PVOID, ::System::String*, ::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_GETFLOAT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void GetString(::System::String* pchSection, ::System::String* pchSettingsKey, ::System::Text::StringBuilder* pchValue, ::System::UInt32 unValueLen, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& peError)
+		::System::Void GetString(::System::String* a1, ::System::String* a2, ::System::Text::StringBuilder* a3, ::System::UInt32 a4, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Text::StringBuilder*, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_GETSTRING_OFFSET))(this, pchSection, pchSettingsKey, pchValue, unValueLen, peError);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Text::StringBuilder*, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_GETSTRING_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void RemoveSection(::System::String* pchSection, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& peError)
+		::System::Void RemoveSection(::System::String* a1, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_REMOVESECTION_OFFSET))(this, pchSection, peError);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_REMOVESECTION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RemoveKeyInSection(::System::String* pchSection, ::System::String* pchSettingsKey, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& peError)
+		::System::Void RemoveKeyInSection(::System::String* a1, ::System::String* a2, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_REMOVEKEYINSECTION_OFFSET))(this, pchSection, pchSettingsKey, peError);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRSETTINGS_REMOVEKEYINSECTION_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

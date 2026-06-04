@@ -11,19 +11,19 @@ namespace System::Net { class Cookie; }
 namespace System::Net { class CookieCollection; }
 namespace System::Net { class PathList; }
 
-#define SYSTEM_NET_COOKIECONTAINER_ADDREMOVEDOMAIN_OFFSET UNITYSDK_OFFSET(0x18331360)
-#define SYSTEM_NET_COOKIECONTAINER_ADD_OFFSET UNITYSDK_OFFSET(0x18331470)
-#define SYSTEM_NET_COOKIECONTAINER_AGECOOKIES_OFFSET UNITYSDK_OFFSET(0x18331DB0)
-#define SYSTEM_NET_COOKIECONTAINER_BUILDCOOKIECOLLECTIONFROMDOMAINMATCHES_OFFSET UNITYSDK_OFFSET(0x18337560)
-#define SYSTEM_NET_COOKIECONTAINER_COOKIECUTTER_OFFSET UNITYSDK_OFFSET(0x18336980)
-#define SYSTEM_NET_COOKIECONTAINER_EXPIRECOLLECTION_OFFSET UNITYSDK_OFFSET(0x18336180)
-#define SYSTEM_NET_COOKIECONTAINER_GETCOOKIEHEADER_1_OFFSET UNITYSDK_OFFSET(0x183386E0)
-#define SYSTEM_NET_COOKIECONTAINER_GETCOOKIEHEADER_OFFSET UNITYSDK_OFFSET(0x18338660)
-#define SYSTEM_NET_COOKIECONTAINER_INTERNALGETCOOKIES_OFFSET UNITYSDK_OFFSET(0x18337160)
-#define SYSTEM_NET_COOKIECONTAINER_ISLOCALDOMAIN_OFFSET UNITYSDK_OFFSET(0x183363C0)
-#define SYSTEM_NET_COOKIECONTAINER_MERGEUPDATECOLLECTIONS_OFFSET UNITYSDK_OFFSET(0x18338360)
-#define SYSTEM_NET_COOKIECONTAINER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17693C00)
-#define SYSTEM_NET_COOKIECONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x183312A0)
+#define SYSTEM_NET_COOKIECONTAINER_ADDREMOVEDOMAIN_OFFSET UNITYSDK_OFFSET(0x1819D840)
+#define SYSTEM_NET_COOKIECONTAINER_ADD_OFFSET UNITYSDK_OFFSET(0x1819D950)
+#define SYSTEM_NET_COOKIECONTAINER_AGECOOKIES_OFFSET UNITYSDK_OFFSET(0x1819E2D0)
+#define SYSTEM_NET_COOKIECONTAINER_BUILDCOOKIECOLLECTIONFROMDOMAINMATCHES_OFFSET UNITYSDK_OFFSET(0x181A3B50)
+#define SYSTEM_NET_COOKIECONTAINER_COOKIECUTTER_OFFSET UNITYSDK_OFFSET(0x181A2E20)
+#define SYSTEM_NET_COOKIECONTAINER_EXPIRECOLLECTION_OFFSET UNITYSDK_OFFSET(0x181A26D0)
+#define SYSTEM_NET_COOKIECONTAINER_GETCOOKIEHEADER_1_OFFSET UNITYSDK_OFFSET(0x181A4D30)
+#define SYSTEM_NET_COOKIECONTAINER_GETCOOKIEHEADER_OFFSET UNITYSDK_OFFSET(0x181A4CB0)
+#define SYSTEM_NET_COOKIECONTAINER_INTERNALGETCOOKIES_OFFSET UNITYSDK_OFFSET(0x181A3590)
+#define SYSTEM_NET_COOKIECONTAINER_ISLOCALDOMAIN_OFFSET UNITYSDK_OFFSET(0x181A2910)
+#define SYSTEM_NET_COOKIECONTAINER_MERGEUPDATECOLLECTIONS_OFFSET UNITYSDK_OFFSET(0x181A49B0)
+#define SYSTEM_NET_COOKIECONTAINER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17CC3D20)
+#define SYSTEM_NET_COOKIECONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x1819D780)
 
 namespace System::Net
 {
@@ -34,14 +34,14 @@ namespace System::Net
 	public:
 		static ::Il2CppArray<::System::Net::HeaderVariantInfo>** StaticGet_HeaderInfo()
 		{
-			return (::Il2CppArray<::System::Net::HeaderVariantInfo>**)Il2CppClass::FromTypeDefinitionIndex(CookieContainer_TypeDefinitionIndex)->GetStaticField(0x12260);
+			return (::Il2CppArray<::System::Net::HeaderVariantInfo>**)Il2CppClass::FromTypeDefinitionIndex(CookieContainer_TypeDefinitionIndex)->GetStaticField(0x24160);
 		}
-		::System::String* m_fqdnMyDomain; // 0x10
-		::System::Collections::Hashtable* m_domainTable; // 0x18
+		::System::Collections::Hashtable* m_domainTable; // 0x10
+		::System::String* m_fqdnMyDomain; // 0x18
 		::System::Int32 m_maxCookiesPerDomain; // 0x20
 		::System::Int32 m_maxCookieSize; // 0x24
-		::System::Int32 m_count; // 0x28
-		::System::Int32 m_maxCookies; // 0x2C
+		::System::Int32 m_maxCookies; // 0x28
+		::System::Int32 m_count; // 0x2C
 
 		::System::Void _ctor()
 		{
@@ -53,59 +53,59 @@ namespace System::Net
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER__CCTOR_OFFSET))();
 		}
 
-		::System::Void AddRemoveDomain(::System::String* key, ::System::Net::PathList* value)
+		::System::Void AddRemoveDomain(::System::String* a1, ::System::Net::PathList* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Net::PathList*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_ADDREMOVEDOMAIN_OFFSET))(this, key, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Net::PathList*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_ADDREMOVEDOMAIN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Add(::System::Net::Cookie* cookie, ::System::Boolean throwOnError)
+		::System::Void Add(::System::Net::Cookie* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Cookie*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_ADD_OFFSET))(this, cookie, throwOnError);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Cookie*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_ADD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean AgeCookies(::System::String* domain)
+		::System::Boolean AgeCookies(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_AGECOOKIES_OFFSET))(this, domain);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_AGECOOKIES_OFFSET))(this, a1);
 		}
 
-		::System::Int32 ExpireCollection(::System::Net::CookieCollection* cc)
+		::System::Int32 ExpireCollection(::System::Net::CookieCollection* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Net::CookieCollection*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_EXPIRECOLLECTION_OFFSET))(this, cc);
+			return ((::System::Int32(*)(::PVOID, ::System::Net::CookieCollection*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_EXPIRECOLLECTION_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsLocalDomain(::System::String* host)
+		::System::Boolean IsLocalDomain(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_ISLOCALDOMAIN_OFFSET))(this, host);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_ISLOCALDOMAIN_OFFSET))(this, a1);
 		}
 
-		::System::Net::CookieCollection* CookieCutter(::System::Uri* uri, ::System::String* headerName, ::System::String* setCookieHeader, ::System::Boolean isThrow)
+		::System::Net::CookieCollection* CookieCutter(::System::Uri* a1, ::System::String* a2, ::System::String* a3, ::System::Boolean a4)
 		{
-			return ((::System::Net::CookieCollection*(*)(::PVOID, ::System::Uri*, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_COOKIECUTTER_OFFSET))(this, uri, headerName, setCookieHeader, isThrow);
+			return ((::System::Net::CookieCollection*(*)(::PVOID, ::System::Uri*, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_COOKIECUTTER_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Net::CookieCollection* InternalGetCookies(::System::Uri* uri)
+		::System::Net::CookieCollection* InternalGetCookies(::System::Uri* a1)
 		{
-			return ((::System::Net::CookieCollection*(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_INTERNALGETCOOKIES_OFFSET))(this, uri);
+			return ((::System::Net::CookieCollection*(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_INTERNALGETCOOKIES_OFFSET))(this, a1);
 		}
 
-		::System::Void BuildCookieCollectionFromDomainMatches(::System::Uri* uri, ::System::Boolean isSecure, ::System::Int32 port, ::System::Net::CookieCollection* cookies, ::System::Collections::Generic::List_1<::System::String*>* domainAttribute, ::System::Boolean matchOnlyPlainCookie)
+		::System::Void BuildCookieCollectionFromDomainMatches(::System::Uri* a1, ::System::Boolean a2, ::System::Int32 a3, ::System::Net::CookieCollection* a4, ::System::Collections::Generic::List_1<::System::String*>* a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Uri*, ::System::Boolean, ::System::Int32, ::System::Net::CookieCollection*, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_BUILDCOOKIECOLLECTIONFROMDOMAINMATCHES_OFFSET))(this, uri, isSecure, port, cookies, domainAttribute, matchOnlyPlainCookie);
+			return ((::System::Void(*)(::PVOID, ::System::Uri*, ::System::Boolean, ::System::Int32, ::System::Net::CookieCollection*, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_BUILDCOOKIECOLLECTIONFROMDOMAINMATCHES_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void MergeUpdateCollections(::System::Net::CookieCollection* destination, ::System::Net::CookieCollection* source, ::System::Int32 port, ::System::Boolean isSecure, ::System::Boolean isPlainOnly)
+		::System::Void MergeUpdateCollections(::System::Net::CookieCollection* a1, ::System::Net::CookieCollection* a2, ::System::Int32 a3, ::System::Boolean a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::CookieCollection*, ::System::Net::CookieCollection*, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_MERGEUPDATECOLLECTIONS_OFFSET))(this, destination, source, port, isSecure, isPlainOnly);
+			return ((::System::Void(*)(::PVOID, ::System::Net::CookieCollection*, ::System::Net::CookieCollection*, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_MERGEUPDATECOLLECTIONS_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::String* GetCookieHeader(::System::Uri* uri)
+		::System::String* GetCookieHeader(::System::Uri* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_GETCOOKIEHEADER_OFFSET))(this, uri);
+			return ((::System::String*(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_GETCOOKIEHEADER_OFFSET))(this, a1);
 		}
 
-		::System::String* GetCookieHeader_1(::System::Uri* uri, ::System::String*& optCookie2)
+		::System::String* GetCookieHeader_1(::System::Uri* a1, ::System::String*& a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Uri*, ::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_GETCOOKIEHEADER_1_OFFSET))(this, uri, optCookie2);
+			return ((::System::String*(*)(::PVOID, ::System::Uri*, ::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_GETCOOKIEHEADER_1_OFFSET))(this, a1, a2);
 		}
 	};
 }

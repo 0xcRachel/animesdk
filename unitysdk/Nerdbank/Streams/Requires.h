@@ -5,24 +5,24 @@
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define NERDBANK_STREAMS_REQUIRES_FAILRANGE_OFFSET UNITYSDK_OFFSET(0x19636680)
-#define NERDBANK_STREAMS_REQUIRES_RANGE_OFFSET UNITYSDK_OFFSET(0x19636660)
+#define NERDBANK_STREAMS_REQUIRES_FAILRANGE_OFFSET UNITYSDK_OFFSET(0x1A10E510)
+#define NERDBANK_STREAMS_REQUIRES_RANGE_OFFSET UNITYSDK_OFFSET(0x1A10E4F0)
 
 namespace Nerdbank::Streams
 {
-	inline static constexpr unsigned int Requires_TypeDefinitionIndex = 9208;
+	inline static constexpr unsigned int Requires_TypeDefinitionIndex = 7111;
 
 	class Requires : public ::System::Object
 	{
 	public:
-		static ::System::Void Range(::System::Boolean condition, ::System::String* parameterName, ::System::String* message)
+		static ::System::Void Range(::System::Boolean a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::System::Boolean, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + NERDBANK_STREAMS_REQUIRES_RANGE_OFFSET))(condition, parameterName, message);
+			return ((::System::Void(*)(::System::Boolean, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + NERDBANK_STREAMS_REQUIRES_RANGE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Exception* FailRange(::System::String* parameterName, ::System::String* message)
+		static ::System::Exception* FailRange(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Exception*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + NERDBANK_STREAMS_REQUIRES_FAILRANGE_OFFSET))(parameterName, message);
+			return ((::System::Exception*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + NERDBANK_STREAMS_REQUIRES_FAILRANGE_OFFSET))(a1, a2);
 		}
 	};
 }

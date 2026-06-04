@@ -4,20 +4,20 @@
 
 namespace Proto { class EraFlipperRegionDataSnapshot; }
 
-#define PROTO_ERAFLIPPERREGIONDATASNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19756790)
-#define PROTO_ERAFLIPPERREGIONDATASNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x197567D0)
-#define PROTO_ERAFLIPPERREGIONDATASNAPSHOT___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x197567E0)
+#define PROTO_ERAFLIPPERREGIONDATASNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A441EE0)
+#define PROTO_ERAFLIPPERREGIONDATASNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A441F20)
+#define PROTO_ERAFLIPPERREGIONDATASNAPSHOT___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1A441F30)
 
 namespace Proto
 {
-	inline static constexpr unsigned int EraFlipperRegionDataSnapshot___c_TypeDefinitionIndex = 24548;
+	inline static constexpr unsigned int EraFlipperRegionDataSnapshot___c_TypeDefinitionIndex = 24409;
 
 	class EraFlipperRegionDataSnapshot___c : public ::System::Object
 	{
 	public:
 		static ::Proto::EraFlipperRegionDataSnapshot___c** StaticGet___9()
 		{
-			return (::Proto::EraFlipperRegionDataSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(EraFlipperRegionDataSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x4B140);
+			return (::Proto::EraFlipperRegionDataSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(EraFlipperRegionDataSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x3C660);
 		}
 
 		static ::System::Void _cctor()

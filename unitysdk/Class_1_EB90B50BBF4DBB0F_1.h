@@ -4,10 +4,10 @@
 
 namespace Proto { class MonopolyActionResult; }
 
-#define CLASS_1_EB90B50BBF4DBB0F_1_TRIGGER_OFFSET UNITYSDK_OFFSET(0x101013C0)
-#define CLASS_1_EB90B50BBF4DBB0F_1__CTOR_OFFSET UNITYSDK_OFFSET(0x10101400)
+#define CLASS_1_EB90B50BBF4DBB0F_1_TRIGGER_OFFSET UNITYSDK_OFFSET(0x12D056D0)
+#define CLASS_1_EB90B50BBF4DBB0F_1__CTOR_OFFSET UNITYSDK_OFFSET(0x12D05710)
 
-inline static constexpr unsigned int Class_1_EB90B50BBF4DBB0F_1_TypeDefinitionIndex = 60997;
+inline static constexpr unsigned int Class_1_EB90B50BBF4DBB0F_1_TypeDefinitionIndex = 61931;
 
 class Class_1_EB90B50BBF4DBB0F_1 : public ::System::Object
 {

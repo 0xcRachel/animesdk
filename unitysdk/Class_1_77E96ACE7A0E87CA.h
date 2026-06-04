@@ -10,33 +10,33 @@ namespace RPG::GameCore { class SkillData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_77E96ACE7A0E87CA_METHOD_1_06F2FB528DC08B2C_OFFSET UNITYSDK_OFFSET(0xC302FF0)
-#define CLASS_1_77E96ACE7A0E87CA_METHOD_1_1504138DDA24D085_OFFSET UNITYSDK_OFFSET(0xC302D90)
-#define CLASS_1_77E96ACE7A0E87CA_METHOD_1_5B13D07C14CDC45D_OFFSET UNITYSDK_OFFSET(0xC3035B0)
-#define CLASS_1_77E96ACE7A0E87CA_METHOD_1_7EC40E0A62ADD170_OFFSET UNITYSDK_OFFSET(0xC302E20)
-#define CLASS_1_77E96ACE7A0E87CA_METHOD_1_944569CB78114375_OFFSET UNITYSDK_OFFSET(0xC302ED0)
-#define CLASS_1_77E96ACE7A0E87CA_METHOD_1_9A2E664738100D72_OFFSET UNITYSDK_OFFSET(0xC3029B0)
-#define CLASS_1_77E96ACE7A0E87CA_METHOD_1_A56224AD500A5617_OFFSET UNITYSDK_OFFSET(0xC3033F0)
-#define CLASS_1_77E96ACE7A0E87CA_METHOD_1_ABA29FE5E05DC72A_OFFSET UNITYSDK_OFFSET(0xC302C00)
-#define CLASS_1_77E96ACE7A0E87CA_METHOD_1_BC8439C5A10F7B5B_OFFSET UNITYSDK_OFFSET(0xC302CC0)
-#define CLASS_1_77E96ACE7A0E87CA_METHOD_1_F562E48EB7AE3D67_OFFSET UNITYSDK_OFFSET(0xC3031A0)
-#define CLASS_1_77E96ACE7A0E87CA__CCTOR_OFFSET UNITYSDK_OFFSET(0xC3036C0)
-#define CLASS_1_77E96ACE7A0E87CA__CTOR_OFFSET UNITYSDK_OFFSET(0xC303640)
+#define CLASS_1_77E96ACE7A0E87CA_METHOD_1_06F2FB528DC08B2C_OFFSET UNITYSDK_OFFSET(0x171E5660)
+#define CLASS_1_77E96ACE7A0E87CA_METHOD_1_1504138DDA24D085_OFFSET UNITYSDK_OFFSET(0x171E5410)
+#define CLASS_1_77E96ACE7A0E87CA_METHOD_1_572B77752AA5A190_OFFSET UNITYSDK_OFFSET(0x171E59D0)
+#define CLASS_1_77E96ACE7A0E87CA_METHOD_1_59D297CF759FB394_OFFSET UNITYSDK_OFFSET(0x171E5000)
+#define CLASS_1_77E96ACE7A0E87CA_METHOD_1_5B13D07C14CDC45D_OFFSET UNITYSDK_OFFSET(0x171E5B60)
+#define CLASS_1_77E96ACE7A0E87CA_METHOD_1_7B06C60193F46ACF_OFFSET UNITYSDK_OFFSET(0x171E57F0)
+#define CLASS_1_77E96ACE7A0E87CA_METHOD_1_7EC40E0A62ADD170_OFFSET UNITYSDK_OFFSET(0x171E54A0)
+#define CLASS_1_77E96ACE7A0E87CA_METHOD_1_944569CB78114375_OFFSET UNITYSDK_OFFSET(0x171E5550)
+#define CLASS_1_77E96ACE7A0E87CA_METHOD_1_ABA29FE5E05DC72A_OFFSET UNITYSDK_OFFSET(0x171E5290)
+#define CLASS_1_77E96ACE7A0E87CA_METHOD_1_BC8439C5A10F7B5B_OFFSET UNITYSDK_OFFSET(0x171E5340)
+#define CLASS_1_77E96ACE7A0E87CA__CCTOR_OFFSET UNITYSDK_OFFSET(0x171E5C70)
+#define CLASS_1_77E96ACE7A0E87CA__CTOR_OFFSET UNITYSDK_OFFSET(0x171E5BF0)
 
-inline static constexpr unsigned int Class_1_77E96ACE7A0E87CA_TypeDefinitionIndex = 66292;
+inline static constexpr unsigned int Class_1_77E96ACE7A0E87CA_TypeDefinitionIndex = 67233;
 
 class Class_1_77E96ACE7A0E87CA : public ::System::Object
 {
 public:
+	static ::System::String** StaticGet_Field_1_0()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_77E96ACE7A0E87CA_TypeDefinitionIndex)->GetStaticField(0x6C60);
+	}
 	static ::System::String** StaticGet_Field_1_1()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_77E96ACE7A0E87CA_TypeDefinitionIndex)->GetStaticField(0x11E20);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_77E96ACE7A0E87CA_TypeDefinitionIndex)->GetStaticField(0x6C68);
 	}
-	static ::System::String** StaticGet_Field_1_2()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_77E96ACE7A0E87CA_TypeDefinitionIndex)->GetStaticField(0x11E28);
-	}
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::SkillType, ::RPG::Client::BattleSkillCustomToastParam*>* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::SkillType, ::RPG::Client::BattleSkillCustomToastParam*>* Field_1_2; // 0x10
 
 	::System::Void _ctor()
 	{
@@ -48,9 +48,9 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_77E96ACE7A0E87CA__CCTOR_OFFSET))();
 	}
 
-	::System::Void Method_1_9A2E664738100D72(::RPG::GameCore::SkillData* a1, ::System::Boolean a2)
+	::System::Void Method_1_59D297CF759FB394(::RPG::GameCore::SkillData* a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillData*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_77E96ACE7A0E87CA_METHOD_1_9A2E664738100D72_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillData*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_77E96ACE7A0E87CA_METHOD_1_59D297CF759FB394_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_1_1504138DDA24D085(::Il2CppArray<::RPG::GameCore::SkillType>* a1, ::RPG::GameCore::SkillTextDialogType a2)
@@ -68,14 +68,14 @@ public:
 		return ((::System::Void(*)(::RPG::Client::TextID, ::System::Boolean, ::RPG::GameCore::SkillTextDialogType))((::PBYTE)hIl2Cpp + CLASS_1_77E96ACE7A0E87CA_METHOD_1_5B13D07C14CDC45D_OFFSET))(a1, a2, a3);
 	}
 
-	static ::System::Void Method_1_A56224AD500A5617(::RPG::Client::TextID a1, ::System::Boolean a2)
+	static ::System::Void Method_1_572B77752AA5A190(::RPG::Client::TextID a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::RPG::Client::TextID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_77E96ACE7A0E87CA_METHOD_1_A56224AD500A5617_OFFSET))(a1, a2);
+		return ((::System::Void(*)(::RPG::Client::TextID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_77E96ACE7A0E87CA_METHOD_1_572B77752AA5A190_OFFSET))(a1, a2);
 	}
 
-	static ::System::Void Method_1_F562E48EB7AE3D67(::RPG::Client::TextID a1, ::System::Boolean a2, ::RPG::Client::BattleSkillCustomToastParam* a3)
+	static ::System::Void Method_1_7B06C60193F46ACF(::RPG::Client::TextID a1, ::System::Boolean a2, ::RPG::Client::BattleSkillCustomToastParam* a3)
 	{
-		return ((::System::Void(*)(::RPG::Client::TextID, ::System::Boolean, ::RPG::Client::BattleSkillCustomToastParam*))((::PBYTE)hIl2Cpp + CLASS_1_77E96ACE7A0E87CA_METHOD_1_F562E48EB7AE3D67_OFFSET))(a1, a2, a3);
+		return ((::System::Void(*)(::RPG::Client::TextID, ::System::Boolean, ::RPG::Client::BattleSkillCustomToastParam*))((::PBYTE)hIl2Cpp + CLASS_1_77E96ACE7A0E87CA_METHOD_1_7B06C60193F46ACF_OFFSET))(a1, a2, a3);
 	}
 
 	static ::RPG::Client::BattleSkillCustomToastParam* Method_1_7EC40E0A62ADD170(::RPG::GameCore::SkillTextDialogType a1)

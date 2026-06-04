@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissingVideoProcessType_TypeDefinitionIndex = 67416;
+	inline static constexpr unsigned int MissingVideoProcessType_TypeDefinitionIndex = 68368;
 
 	enum class MissingVideoProcessType : ::System::Int32
 	{

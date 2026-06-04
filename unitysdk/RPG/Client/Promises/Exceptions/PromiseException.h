@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_PROMISES_EXCEPTIONS_PROMISEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A714CB0)
-#define RPG_CLIENT_PROMISES_EXCEPTIONS_PROMISEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A714D10)
-#define RPG_CLIENT_PROMISES_EXCEPTIONS_PROMISEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A714C50)
+#define RPG_CLIENT_PROMISES_EXCEPTIONS_PROMISEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B538320)
+#define RPG_CLIENT_PROMISES_EXCEPTIONS_PROMISEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B538380)
+#define RPG_CLIENT_PROMISES_EXCEPTIONS_PROMISEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5382C0)
 
 namespace RPG::Client::Promises::Exceptions
 {
-	inline static constexpr unsigned int PromiseException_TypeDefinitionIndex = 8681;
+	inline static constexpr unsigned int PromiseException_TypeDefinitionIndex = 9584;
 
 	class PromiseException : public ::System::Exception
 	{
@@ -20,14 +20,14 @@ namespace RPG::Client::Promises::Exceptions
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_EXCEPTIONS_PROMISEEXCEPTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* message)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_EXCEPTIONS_PROMISEEXCEPTION__CTOR_1_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_EXCEPTIONS_PROMISEEXCEPTION__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::String* message, ::System::Exception* inner)
+		::System::Void _ctor_2(::System::String* a1, ::System::Exception* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_EXCEPTIONS_PROMISEEXCEPTION__CTOR_2_OFFSET))(this, message, inner);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_EXCEPTIONS_PROMISEEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 	};
 }

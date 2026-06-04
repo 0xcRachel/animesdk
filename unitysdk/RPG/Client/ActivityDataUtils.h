@@ -7,60 +7,60 @@ namespace RPG::Client { class ActivityRewardItem; }
 namespace RPG::GameCore { class ItemConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYDATAUTILS_GETACTIVITYDISPLAYARRAYBYITEMCONFIGS_OFFSET UNITYSDK_OFFSET(0x171D22F0)
-#define RPG_CLIENT_ACTIVITYDATAUTILS_GETSORTEDDISPLAYITEMLIST_OFFSET UNITYSDK_OFFSET(0x171D2480)
-#define RPG_CLIENT_ACTIVITYDATAUTILS_ISSHOWDAILYGOTOCLICKREDDOTTODAY_1_OFFSET UNITYSDK_OFFSET(0x171D25B0)
-#define RPG_CLIENT_ACTIVITYDATAUTILS_ISSHOWDAILYGOTOCLICKREDDOTTODAY_OFFSET UNITYSDK_OFFSET(0x171D2510)
-#define RPG_CLIENT_ACTIVITYDATAUTILS_ISSHOWEARLYACCESSCLICKREDDOTTODAY_OFFSET UNITYSDK_OFFSET(0x171D2A80)
-#define RPG_CLIENT_ACTIVITYDATAUTILS_UPDATEDAILYGOTOCLICKREDDOT_1_OFFSET UNITYSDK_OFFSET(0x171D2820)
-#define RPG_CLIENT_ACTIVITYDATAUTILS_UPDATEDAILYGOTOCLICKREDDOT_OFFSET UNITYSDK_OFFSET(0x171D2780)
-#define RPG_CLIENT_ACTIVITYDATAUTILS_UPDATEDAILYTABCLICKREDDOT_OFFSET UNITYSDK_OFFSET(0x171D2C40)
+#define RPG_CLIENT_ACTIVITYDATAUTILS_GETACTIVITYDISPLAYARRAYBYITEMCONFIGS_OFFSET UNITYSDK_OFFSET(0x177D3D20)
+#define RPG_CLIENT_ACTIVITYDATAUTILS_GETSORTEDDISPLAYITEMLIST_OFFSET UNITYSDK_OFFSET(0x177D3ED0)
+#define RPG_CLIENT_ACTIVITYDATAUTILS_ISSHOWDAILYGOTOCLICKREDDOTTODAY_1_OFFSET UNITYSDK_OFFSET(0x177D4000)
+#define RPG_CLIENT_ACTIVITYDATAUTILS_ISSHOWDAILYGOTOCLICKREDDOTTODAY_OFFSET UNITYSDK_OFFSET(0x177D3F60)
+#define RPG_CLIENT_ACTIVITYDATAUTILS_ISSHOWEARLYACCESSCLICKREDDOTTODAY_OFFSET UNITYSDK_OFFSET(0x177D44D0)
+#define RPG_CLIENT_ACTIVITYDATAUTILS_UPDATEDAILYGOTOCLICKREDDOT_1_OFFSET UNITYSDK_OFFSET(0x177D4270)
+#define RPG_CLIENT_ACTIVITYDATAUTILS_UPDATEDAILYGOTOCLICKREDDOT_OFFSET UNITYSDK_OFFSET(0x177D41D0)
+#define RPG_CLIENT_ACTIVITYDATAUTILS_UPDATEDAILYTABCLICKREDDOT_OFFSET UNITYSDK_OFFSET(0x177D4680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityDataUtils_TypeDefinitionIndex = 56797;
+	inline static constexpr unsigned int ActivityDataUtils_TypeDefinitionIndex = 57583;
 
 	class ActivityDataUtils : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::RPG::Client::ActivityRewardItem*>* GetActivityDisplayArrayByItemConfigs(::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* data)
+		static ::Il2CppArray<::RPG::Client::ActivityRewardItem*>* GetActivityDisplayArrayByItemConfigs(::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* a1)
 		{
-			return ((::Il2CppArray<::RPG::Client::ActivityRewardItem*>*(*)(::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYDATAUTILS_GETACTIVITYDISPLAYARRAYBYITEMCONFIGS_OFFSET))(data);
+			return ((::Il2CppArray<::RPG::Client::ActivityRewardItem*>*(*)(::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYDATAUTILS_GETACTIVITYDISPLAYARRAYBYITEMCONFIGS_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::RPG::Client::ActivityRewardItem*>* GetSortedDisplayItemList(::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* configs)
+		static ::Il2CppArray<::RPG::Client::ActivityRewardItem*>* GetSortedDisplayItemList(::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* a1)
 		{
-			return ((::Il2CppArray<::RPG::Client::ActivityRewardItem*>*(*)(::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYDATAUTILS_GETSORTEDDISPLAYITEMLIST_OFFSET))(configs);
+			return ((::Il2CppArray<::RPG::Client::ActivityRewardItem*>*(*)(::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYDATAUTILS_GETSORTEDDISPLAYITEMLIST_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsShowDailyGotoClickRedDotToday(::System::UInt32 panelID)
+		static ::System::Boolean IsShowDailyGotoClickRedDotToday(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYDATAUTILS_ISSHOWDAILYGOTOCLICKREDDOTTODAY_OFFSET))(panelID);
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYDATAUTILS_ISSHOWDAILYGOTOCLICKREDDOTTODAY_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsShowDailyGotoClickRedDotToday_1(::RPG::Client::ActivityPanelData* activityPanelData)
+		static ::System::Boolean IsShowDailyGotoClickRedDotToday_1(::RPG::Client::ActivityPanelData* a1)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::ActivityPanelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYDATAUTILS_ISSHOWDAILYGOTOCLICKREDDOTTODAY_1_OFFSET))(activityPanelData);
+			return ((::System::Boolean(*)(::RPG::Client::ActivityPanelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYDATAUTILS_ISSHOWDAILYGOTOCLICKREDDOTTODAY_1_OFFSET))(a1);
 		}
 
-		static ::System::Void UpdateDailyGotoClickRedDot(::System::UInt32 panelID)
+		static ::System::Void UpdateDailyGotoClickRedDot(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYDATAUTILS_UPDATEDAILYGOTOCLICKREDDOT_OFFSET))(panelID);
+			return ((::System::Void(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYDATAUTILS_UPDATEDAILYGOTOCLICKREDDOT_OFFSET))(a1);
 		}
 
-		static ::System::Void UpdateDailyGotoClickRedDot_1(::RPG::Client::ActivityPanelData* activityPanelData)
+		static ::System::Void UpdateDailyGotoClickRedDot_1(::RPG::Client::ActivityPanelData* a1)
 		{
-			return ((::System::Void(*)(::RPG::Client::ActivityPanelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYDATAUTILS_UPDATEDAILYGOTOCLICKREDDOT_1_OFFSET))(activityPanelData);
+			return ((::System::Void(*)(::RPG::Client::ActivityPanelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYDATAUTILS_UPDATEDAILYGOTOCLICKREDDOT_1_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsShowEarlyAccessClickRedDotToday(::RPG::Client::ActivityPanelData* activityPanelData)
+		static ::System::Boolean IsShowEarlyAccessClickRedDotToday(::RPG::Client::ActivityPanelData* a1)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::ActivityPanelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYDATAUTILS_ISSHOWEARLYACCESSCLICKREDDOTTODAY_OFFSET))(activityPanelData);
+			return ((::System::Boolean(*)(::RPG::Client::ActivityPanelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYDATAUTILS_ISSHOWEARLYACCESSCLICKREDDOTTODAY_OFFSET))(a1);
 		}
 
-		static ::System::Void UpdateDailyTabClickRedDot(::RPG::Client::ActivityPanelData* activityPanelData)
+		static ::System::Void UpdateDailyTabClickRedDot(::RPG::Client::ActivityPanelData* a1)
 		{
-			return ((::System::Void(*)(::RPG::Client::ActivityPanelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYDATAUTILS_UPDATEDAILYTABCLICKREDDOT_OFFSET))(activityPanelData);
+			return ((::System::Void(*)(::RPG::Client::ActivityPanelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYDATAUTILS_UPDATEDAILYTABCLICKREDDOT_OFFSET))(a1);
 		}
 	};
 }

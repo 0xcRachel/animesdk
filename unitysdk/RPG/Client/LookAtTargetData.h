@@ -10,33 +10,33 @@ namespace RPG::Client { class LookAtTargetConstraint; }
 namespace RootMotion::IKJob { class IKThreadProxyContext; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LOOKATTARGETDATA_CLEARDISABLED_OFFSET UNITYSDK_OFFSET(0x225FDE0)
-#define RPG_CLIENT_LOOKATTARGETDATA_COPYFROM_1_OFFSET UNITYSDK_OFFSET(0x225FAB0)
-#define RPG_CLIENT_LOOKATTARGETDATA_COPYFROM_OFFSET UNITYSDK_OFFSET(0x225FAA0)
-#define RPG_CLIENT_LOOKATTARGETDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0x225FA90)
-#define RPG_CLIENT_LOOKATTARGETDATA_GET_DEFAULTLOOKATPOS_OFFSET UNITYSDK_OFFSET(0x22600E0)
-#define RPG_CLIENT_LOOKATTARGETDATA_GET_DISABLEDCAUSE_OFFSET UNITYSDK_OFFSET(0x2260170)
-#define RPG_CLIENT_LOOKATTARGETDATA_GET_ENABLED_OFFSET UNITYSDK_OFFSET(0x2260100)
-#define RPG_CLIENT_LOOKATTARGETDATA_GET_FORCECHANGETARGETTHISFRAME_OFFSET UNITYSDK_OFFSET(0x608B40)
-#define RPG_CLIENT_LOOKATTARGETDATA_GET_LOOKATPOS_OFFSET UNITYSDK_OFFSET(0x2260020)
-#define RPG_CLIENT_LOOKATTARGETDATA_GET_TARGETDISTANCE_OFFSET UNITYSDK_OFFSET(0x225FB90)
-#define RPG_CLIENT_LOOKATTARGETDATA_GET_TARGETPOS_OFFSET UNITYSDK_OFFSET(0x2237570)
-#define RPG_CLIENT_LOOKATTARGETDATA_ISNEARLYLOOKAT_OFFSET UNITYSDK_OFFSET(0x2260180)
-#define RPG_CLIENT_LOOKATTARGETDATA_LERPTARGET_OFFSET UNITYSDK_OFFSET(0x225FD70)
-#define RPG_CLIENT_LOOKATTARGETDATA_MOVETARGET_OFFSET UNITYSDK_OFFSET(0x225FCF0)
-#define RPG_CLIENT_LOOKATTARGETDATA_SETDISABLED_OFFSET UNITYSDK_OFFSET(0x225FD90)
-#define RPG_CLIENT_LOOKATTARGETDATA_SETTARGET_OFFSET UNITYSDK_OFFSET(0x225FC10)
-#define RPG_CLIENT_LOOKATTARGETDATA_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x2260160)
-#define RPG_CLIENT_LOOKATTARGETDATA_SET_FORCECHANGETARGETTHISFRAME_OFFSET UNITYSDK_OFFSET(0x65A180)
-#define RPG_CLIENT_LOOKATTARGETDATA_TICK_OFFSET UNITYSDK_OFFSET(0x225FD80)
-#define RPG_CLIENT_LOOKATTARGETDATA_UPDATETARGET_OFFSET UNITYSDK_OFFSET(0x225FC40)
-#define RPG_CLIENT_LOOKATTARGETDATA__ALPHAFROMSLERPSPEED_OFFSET UNITYSDK_OFFSET(0x225FE30)
-#define RPG_CLIENT_LOOKATTARGETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x225F9E0)
-#define RPG_CLIENT_LOOKATTARGETDATA__SETLOOKATPOSLOCAL_OFFSET UNITYSDK_OFFSET(0x225FF50)
+#define RPG_CLIENT_LOOKATTARGETDATA_CLEARDISABLED_OFFSET UNITYSDK_OFFSET(0x37A2DD0)
+#define RPG_CLIENT_LOOKATTARGETDATA_COPYFROM_1_OFFSET UNITYSDK_OFFSET(0x37A2AA0)
+#define RPG_CLIENT_LOOKATTARGETDATA_COPYFROM_OFFSET UNITYSDK_OFFSET(0x37A2A90)
+#define RPG_CLIENT_LOOKATTARGETDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0x37A2A80)
+#define RPG_CLIENT_LOOKATTARGETDATA_GET_DEFAULTLOOKATPOS_OFFSET UNITYSDK_OFFSET(0x37A30D0)
+#define RPG_CLIENT_LOOKATTARGETDATA_GET_DISABLEDCAUSE_OFFSET UNITYSDK_OFFSET(0x37A3160)
+#define RPG_CLIENT_LOOKATTARGETDATA_GET_ENABLED_OFFSET UNITYSDK_OFFSET(0x37A30F0)
+#define RPG_CLIENT_LOOKATTARGETDATA_GET_FORCECHANGETARGETTHISFRAME_OFFSET UNITYSDK_OFFSET(0x72BD00)
+#define RPG_CLIENT_LOOKATTARGETDATA_GET_LOOKATPOS_OFFSET UNITYSDK_OFFSET(0x37A3010)
+#define RPG_CLIENT_LOOKATTARGETDATA_GET_TARGETDISTANCE_OFFSET UNITYSDK_OFFSET(0x37A2B80)
+#define RPG_CLIENT_LOOKATTARGETDATA_GET_TARGETPOS_OFFSET UNITYSDK_OFFSET(0x3796160)
+#define RPG_CLIENT_LOOKATTARGETDATA_ISNEARLYLOOKAT_OFFSET UNITYSDK_OFFSET(0x37A3170)
+#define RPG_CLIENT_LOOKATTARGETDATA_LERPTARGET_OFFSET UNITYSDK_OFFSET(0x37A2D60)
+#define RPG_CLIENT_LOOKATTARGETDATA_MOVETARGET_OFFSET UNITYSDK_OFFSET(0x37A2CE0)
+#define RPG_CLIENT_LOOKATTARGETDATA_SETDISABLED_OFFSET UNITYSDK_OFFSET(0x37A2D80)
+#define RPG_CLIENT_LOOKATTARGETDATA_SETTARGET_OFFSET UNITYSDK_OFFSET(0x37A2C00)
+#define RPG_CLIENT_LOOKATTARGETDATA_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x37A3150)
+#define RPG_CLIENT_LOOKATTARGETDATA_SET_FORCECHANGETARGETTHISFRAME_OFFSET UNITYSDK_OFFSET(0xFD2400)
+#define RPG_CLIENT_LOOKATTARGETDATA_TICK_OFFSET UNITYSDK_OFFSET(0x37A2D70)
+#define RPG_CLIENT_LOOKATTARGETDATA_UPDATETARGET_OFFSET UNITYSDK_OFFSET(0x37A2C30)
+#define RPG_CLIENT_LOOKATTARGETDATA__ALPHAFROMSLERPSPEED_OFFSET UNITYSDK_OFFSET(0x37A2E20)
+#define RPG_CLIENT_LOOKATTARGETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x37A29D0)
+#define RPG_CLIENT_LOOKATTARGETDATA__SETLOOKATPOSLOCAL_OFFSET UNITYSDK_OFFSET(0x37A2F40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LookAtTargetData_TypeDefinitionIndex = 63140;
+	inline static constexpr unsigned int LookAtTargetData_TypeDefinitionIndex = 64057;
 
 	struct alignas(8) LookAtTargetData
 	{
@@ -56,28 +56,28 @@ namespace RPG::Client
 		::System::Boolean _Enabled; // 0x90
 		::RPG::Client::LookAtDisableCause _DisabledCauses; // 0x94
 
-		::System::Void _ctor(::UnityEngine::Transform* pRoot, ::RPG::Client::LookAtSolver* pSolver)
+		::System::Void _ctor(::UnityEngine::Transform* a1, ::RPG::Client::LookAtSolver* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::RPG::Client::LookAtSolver*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA__CTOR_OFFSET))(this, pRoot, pSolver);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::RPG::Client::LookAtSolver*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		/*
-		::System::Void CopyTo(::RootMotion::IKJob::IKThreadProxyContext* context, ::Struct_2_231BC944D2991258& data)
+		::System::Void CopyTo(::RootMotion::IKJob::IKThreadProxyContext* a1, ::Struct_2_231BC944D2991258& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RootMotion::IKJob::IKThreadProxyContext*, ::Struct_2_231BC944D2991258&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_COPYTO_OFFSET))(this, context, data);
+			return ((::System::Void(*)(::PVOID, ::RootMotion::IKJob::IKThreadProxyContext*, ::Struct_2_231BC944D2991258&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_COPYTO_OFFSET))(this, a1, a2);
 		}
 		*/
 
 		/*
-		::System::Void CopyFrom(::Struct_2_231BC944D2991258& data)
+		::System::Void CopyFrom(::Struct_2_231BC944D2991258& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_231BC944D2991258&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_COPYFROM_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Struct_2_231BC944D2991258&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_COPYFROM_OFFSET))(this, a1);
 		}
 		*/
 
-		::System::Void CopyFrom_1(::RPG::Client::LookAtTargetData& other)
+		::System::Void CopyFrom_1(::RPG::Client::LookAtTargetData& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LookAtTargetData&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_COPYFROM_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LookAtTargetData&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_COPYFROM_1_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 get_TargetPos()
@@ -95,54 +95,54 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_GET_FORCECHANGETARGETTHISFRAME_OFFSET))(this);
 		}
 
-		::System::Void set_ForceChangeTargetThisFrame(::System::Boolean value)
+		::System::Void set_ForceChangeTargetThisFrame(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_SET_FORCECHANGETARGETTHISFRAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_SET_FORCECHANGETARGETTHISFRAME_OFFSET))(this, a1);
 		}
 
-		::System::Void SetTarget(::UnityEngine::Vector3 vNewPos, ::System::Boolean bForceSetTarget)
+		::System::Void SetTarget(::UnityEngine::Vector3 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_SETTARGET_OFFSET))(this, vNewPos, bForceSetTarget);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_SETTARGET_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void UpdateTarget(::UnityEngine::Vector3 vNewPos)
+		::System::Void UpdateTarget(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_UPDATETARGET_OFFSET))(this, vNewPos);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_UPDATETARGET_OFFSET))(this, a1);
 		}
 
-		::System::Void MoveTarget(::UnityEngine::Vector3 vDeltaPos)
+		::System::Void MoveTarget(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_MOVETARGET_OFFSET))(this, vDeltaPos);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_MOVETARGET_OFFSET))(this, a1);
 		}
 
-		::System::Void LerpTarget(::System::Single fElapsedTimeInSec)
+		::System::Void LerpTarget(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_LERPTARGET_OFFSET))(this, fElapsedTimeInSec);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_LERPTARGET_OFFSET))(this, a1);
 		}
 
-		::System::Void Tick(::System::Single fElapsedTimeInSec, ::System::Single fWeightInOutTime, ::System::Single fSlerpSpeed, ::RPG::Client::LookAtTargetConstraint* pConstraint)
+		::System::Void Tick(::System::Single a1, ::System::Single a2, ::System::Single a3, ::RPG::Client::LookAtTargetConstraint* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::RPG::Client::LookAtTargetConstraint*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_TICK_OFFSET))(this, fElapsedTimeInSec, fWeightInOutTime, fSlerpSpeed, pConstraint);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::RPG::Client::LookAtTargetConstraint*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_TICK_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void SetDisabled(::RPG::Client::LookAtDisableCause cause)
+		::System::Void SetDisabled(::RPG::Client::LookAtDisableCause a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LookAtDisableCause))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_SETDISABLED_OFFSET))(this, cause);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LookAtDisableCause))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_SETDISABLED_OFFSET))(this, a1);
 		}
 
-		::System::Void ClearDisabled(::RPG::Client::LookAtDisableCause cause)
+		::System::Void ClearDisabled(::RPG::Client::LookAtDisableCause a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LookAtDisableCause))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_CLEARDISABLED_OFFSET))(this, cause);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LookAtDisableCause))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_CLEARDISABLED_OFFSET))(this, a1);
 		}
 
-		::System::Single _AlphaFromSlerpSpeed(::System::Single fElapsedTimeInSec, ::System::Single fSlerpSpeed, ::System::Single fAngleBetween)
+		::System::Single _AlphaFromSlerpSpeed(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA__ALPHAFROMSLERPSPEED_OFFSET))(this, fElapsedTimeInSec, fSlerpSpeed, fAngleBetween);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA__ALPHAFROMSLERPSPEED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _SetLookAtPosLocal(::UnityEngine::Vector3 pWorldPos)
+		::System::Void _SetLookAtPosLocal(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA__SETLOOKATPOSLOCAL_OFFSET))(this, pWorldPos);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA__SETLOOKATPOSLOCAL_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 get_LookAtPos()
@@ -160,9 +160,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_GET_ENABLED_OFFSET))(this);
 		}
 
-		::System::Void set_Enabled(::System::Boolean value)
+		::System::Void set_Enabled(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_SET_ENABLED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_SET_ENABLED_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::LookAtDisableCause get_DisabledCause()
@@ -170,9 +170,9 @@ namespace RPG::Client
 			return ((::RPG::Client::LookAtDisableCause(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_GET_DISABLEDCAUSE_OFFSET))(this);
 		}
 
-		::System::Boolean IsNearlyLookAt(::RPG::Client::LookAtTargetConstraint* pConstraint)
+		::System::Boolean IsNearlyLookAt(::RPG::Client::LookAtTargetConstraint* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::LookAtTargetConstraint*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_ISNEARLYLOOKAT_OFFSET))(this, pConstraint);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::LookAtTargetConstraint*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTARGETDATA_ISNEARLYLOOKAT_OFFSET))(this, a1);
 		}
 	};
 }

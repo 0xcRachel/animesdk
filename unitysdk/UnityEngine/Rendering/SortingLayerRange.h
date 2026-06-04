@@ -4,14 +4,14 @@
 
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_SORTINGLAYERRANGE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22F4A50)
-#define UNITYENGINE_RENDERING_SORTINGLAYERRANGE_EQUALS_OFFSET UNITYSDK_OFFSET(0x22F4A30)
-#define UNITYENGINE_RENDERING_SORTINGLAYERRANGE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x608A20)
-#define UNITYENGINE_RENDERING_SORTINGLAYERRANGE_GET_ALL_OFFSET UNITYSDK_OFFSET(0x18F1B770)
+#define UNITYENGINE_RENDERING_SORTINGLAYERRANGE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3891230)
+#define UNITYENGINE_RENDERING_SORTINGLAYERRANGE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3891210)
+#define UNITYENGINE_RENDERING_SORTINGLAYERRANGE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x72BBF0)
+#define UNITYENGINE_RENDERING_SORTINGLAYERRANGE_GET_ALL_OFFSET UNITYSDK_OFFSET(0x198D5810)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SortingLayerRange_TypeDefinitionIndex = 4578;
+	inline static constexpr unsigned int SortingLayerRange_TypeDefinitionIndex = 4752;
 
 	struct alignas(2) SortingLayerRange
 	{
@@ -23,14 +23,14 @@ namespace UnityEngine::Rendering
 			return ((::UnityEngine::Rendering::SortingLayerRange(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGLAYERRANGE_GET_ALL_OFFSET))();
 		}
 
-		::System::Boolean Equals(::UnityEngine::Rendering::SortingLayerRange other)
+		::System::Boolean Equals(::UnityEngine::Rendering::SortingLayerRange a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::SortingLayerRange))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGLAYERRANGE_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::SortingLayerRange))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGLAYERRANGE_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGLAYERRANGE_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGLAYERRANGE_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

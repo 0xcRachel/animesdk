@@ -8,32 +8,32 @@ namespace RPG::GameCore { class PlanetFesEffectRow; }
 namespace RPG::GameCore { class PlanetFesEffectTypeConfigRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_BASEPLANETFESBUFF_GET_DESC_OFFSET UNITYSDK_OFFSET(0xF399D70)
-#define RPG_CLIENT_BASEPLANETFESBUFF_GET_DURATION_OFFSET UNITYSDK_OFFSET(0xF399D90)
-#define RPG_CLIENT_BASEPLANETFESBUFF_GET_ICON_OFFSET UNITYSDK_OFFSET(0xF399D60)
-#define RPG_CLIENT_BASEPLANETFESBUFF_GET_ID_OFFSET UNITYSDK_OFFSET(0xF399D20)
-#define RPG_CLIENT_BASEPLANETFESBUFF_GET_LARGEICON_OFFSET UNITYSDK_OFFSET(0xF399D80)
-#define RPG_CLIENT_BASEPLANETFESBUFF_GET_SOURCE_OFFSET UNITYSDK_OFFSET(0xF399D40)
-#define RPG_CLIENT_BASEPLANETFESBUFF_INITBYCONFIG_OFFSET UNITYSDK_OFFSET(0xF399DF0)
-#define RPG_CLIENT_BASEPLANETFESBUFF_INITSOURCE_OFFSET UNITYSDK_OFFSET(0xF399EA0)
-#define RPG_CLIENT_BASEPLANETFESBUFF_ISAVATARBUFF_OFFSET UNITYSDK_OFFSET(0xF399DB0)
-#define RPG_CLIENT_BASEPLANETFESBUFF_SET_ID_OFFSET UNITYSDK_OFFSET(0xF399D30)
-#define RPG_CLIENT_BASEPLANETFESBUFF_SET_SOURCE_OFFSET UNITYSDK_OFFSET(0xF399D50)
-#define RPG_CLIENT_BASEPLANETFESBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0xF39A210)
-#define RPG_CLIENT_BASEPLANETFESBUFF__GETDESC_OFFSET UNITYSDK_OFFSET(0xF399F90)
-#define RPG_CLIENT_BASEPLANETFESBUFF__GETICONPATH_OFFSET UNITYSDK_OFFSET(0xF399EF0)
-#define RPG_CLIENT_BASEPLANETFESBUFF__GETLARGEICONPATH_OFFSET UNITYSDK_OFFSET(0xF399F40)
+#define RPG_CLIENT_BASEPLANETFESBUFF_GET_DESC_OFFSET UNITYSDK_OFFSET(0x17A122A0)
+#define RPG_CLIENT_BASEPLANETFESBUFF_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x17A122C0)
+#define RPG_CLIENT_BASEPLANETFESBUFF_GET_ICON_OFFSET UNITYSDK_OFFSET(0x17A12290)
+#define RPG_CLIENT_BASEPLANETFESBUFF_GET_ID_OFFSET UNITYSDK_OFFSET(0x17A12250)
+#define RPG_CLIENT_BASEPLANETFESBUFF_GET_LARGEICON_OFFSET UNITYSDK_OFFSET(0x17A122B0)
+#define RPG_CLIENT_BASEPLANETFESBUFF_GET_SOURCE_OFFSET UNITYSDK_OFFSET(0x17A12270)
+#define RPG_CLIENT_BASEPLANETFESBUFF_INITBYCONFIG_OFFSET UNITYSDK_OFFSET(0x17A12320)
+#define RPG_CLIENT_BASEPLANETFESBUFF_INITSOURCE_OFFSET UNITYSDK_OFFSET(0x17A123D0)
+#define RPG_CLIENT_BASEPLANETFESBUFF_ISAVATARBUFF_OFFSET UNITYSDK_OFFSET(0x17A122E0)
+#define RPG_CLIENT_BASEPLANETFESBUFF_SET_ID_OFFSET UNITYSDK_OFFSET(0x17A12260)
+#define RPG_CLIENT_BASEPLANETFESBUFF_SET_SOURCE_OFFSET UNITYSDK_OFFSET(0x17A12280)
+#define RPG_CLIENT_BASEPLANETFESBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x17A12710)
+#define RPG_CLIENT_BASEPLANETFESBUFF__GETDESC_OFFSET UNITYSDK_OFFSET(0x17A124C0)
+#define RPG_CLIENT_BASEPLANETFESBUFF__GETICONPATH_OFFSET UNITYSDK_OFFSET(0x17A12420)
+#define RPG_CLIENT_BASEPLANETFESBUFF__GETLARGEICONPATH_OFFSET UNITYSDK_OFFSET(0x17A12470)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BasePlanetFesBuff_TypeDefinitionIndex = 61291;
+	inline static constexpr unsigned int BasePlanetFesBuff_TypeDefinitionIndex = 62215;
 
 	class BasePlanetFesBuff : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::PlanetFesEffectRow* _Row; // 0x10
-		::RPG::Client::PlanetFesBuffSource* _Source_k__BackingField; // 0x18
-		::RPG::GameCore::PlanetFesEffectTypeConfigRow* _TypeRow; // 0x20
+		::RPG::Client::PlanetFesBuffSource* _Source_k__BackingField; // 0x10
+		::RPG::GameCore::PlanetFesEffectTypeConfigRow* _TypeRow; // 0x18
+		::RPG::GameCore::PlanetFesEffectRow* _Row; // 0x20
 		::System::UInt32 _ID_k__BackingField; // 0x28
 
 		::System::Void _ctor()
@@ -46,9 +46,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEPLANETFESBUFF_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEPLANETFESBUFF_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEPLANETFESBUFF_SET_ID_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::PlanetFesBuffSource* get_Source()
@@ -56,9 +56,9 @@ namespace RPG::Client
 			return ((::RPG::Client::PlanetFesBuffSource*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEPLANETFESBUFF_GET_SOURCE_OFFSET))(this);
 		}
 
-		::System::Void set_Source(::RPG::Client::PlanetFesBuffSource* value)
+		::System::Void set_Source(::RPG::Client::PlanetFesBuffSource* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::PlanetFesBuffSource*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEPLANETFESBUFF_SET_SOURCE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PlanetFesBuffSource*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEPLANETFESBUFF_SET_SOURCE_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Icon()
@@ -86,14 +86,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEPLANETFESBUFF_ISAVATARBUFF_OFFSET))(this);
 		}
 
-		::System::Void InitByConfig(::RPG::GameCore::PlanetFesEffectRow* row)
+		::System::Void InitByConfig(::RPG::GameCore::PlanetFesEffectRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PlanetFesEffectRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEPLANETFESBUFF_INITBYCONFIG_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PlanetFesEffectRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEPLANETFESBUFF_INITBYCONFIG_OFFSET))(this, a1);
 		}
 
-		::System::Void InitSource(::RPG::Client::PlanetFesBuffSource* source)
+		::System::Void InitSource(::RPG::Client::PlanetFesBuffSource* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::PlanetFesBuffSource*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEPLANETFESBUFF_INITSOURCE_OFFSET))(this, source);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PlanetFesBuffSource*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEPLANETFESBUFF_INITSOURCE_OFFSET))(this, a1);
 		}
 
 		::System::String* _GetIconPath()

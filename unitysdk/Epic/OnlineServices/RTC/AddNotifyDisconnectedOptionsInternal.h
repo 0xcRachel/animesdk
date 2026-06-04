@@ -7,15 +7,15 @@ namespace Epic::OnlineServices::RTC { class AddNotifyDisconnectedOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_RTC_ADDNOTIFYDISCONNECTEDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x23247E0)
-#define EPIC_ONLINESERVICES_RTC_ADDNOTIFYDISCONNECTEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x2324770)
-#define EPIC_ONLINESERVICES_RTC_ADDNOTIFYDISCONNECTEDOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x23245F0)
-#define EPIC_ONLINESERVICES_RTC_ADDNOTIFYDISCONNECTEDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x2324760)
-#define EPIC_ONLINESERVICES_RTC_ADDNOTIFYDISCONNECTEDOPTIONSINTERNAL_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x23246B0)
+#define EPIC_ONLINESERVICES_RTC_ADDNOTIFYDISCONNECTEDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x38DBD20)
+#define EPIC_ONLINESERVICES_RTC_ADDNOTIFYDISCONNECTEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x38DBCA0)
+#define EPIC_ONLINESERVICES_RTC_ADDNOTIFYDISCONNECTEDOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x38DBB20)
+#define EPIC_ONLINESERVICES_RTC_ADDNOTIFYDISCONNECTEDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x38DBC90)
+#define EPIC_ONLINESERVICES_RTC_ADDNOTIFYDISCONNECTEDOPTIONSINTERNAL_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x38DBBE0)
 
 namespace Epic::OnlineServices::RTC
 {
-	inline static constexpr unsigned int AddNotifyDisconnectedOptionsInternal_TypeDefinitionIndex = 41519;
+	inline static constexpr unsigned int AddNotifyDisconnectedOptionsInternal_TypeDefinitionIndex = 42322;
 
 	struct alignas(8) AddNotifyDisconnectedOptionsInternal
 	{
@@ -23,24 +23,24 @@ namespace Epic::OnlineServices::RTC
 		::System::IntPtr m_LocalUserId; // 0x18
 		::System::IntPtr m_RoomName; // 0x20
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ADDNOTIFYDISCONNECTEDOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ADDNOTIFYDISCONNECTEDOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_RoomName(::System::String* value)
+		::System::Void set_RoomName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ADDNOTIFYDISCONNECTEDOPTIONSINTERNAL_SET_ROOMNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ADDNOTIFYDISCONNECTEDOPTIONSINTERNAL_SET_ROOMNAME_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::RTC::AddNotifyDisconnectedOptions* other)
+		::System::Void Set(::Epic::OnlineServices::RTC::AddNotifyDisconnectedOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTC::AddNotifyDisconnectedOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ADDNOTIFYDISCONNECTEDOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTC::AddNotifyDisconnectedOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ADDNOTIFYDISCONNECTEDOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ADDNOTIFYDISCONNECTEDOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ADDNOTIFYDISCONNECTEDOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvSetWavingBlockControl; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D871B18661A7FA3C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD0545C0)
-#define CLASS_3_D871B18661A7FA3C__CTOR_OFFSET UNITYSDK_OFFSET(0xD054590)
+#define CLASS_3_D871B18661A7FA3C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E88A70)
+#define CLASS_3_D871B18661A7FA3C__CTOR_OFFSET UNITYSDK_OFFSET(0x15E88A40)
 
-inline static constexpr unsigned int Class_3_D871B18661A7FA3C_TypeDefinitionIndex = 48478;
+inline static constexpr unsigned int Class_3_D871B18661A7FA3C_TypeDefinitionIndex = 49104;
 
 class Class_3_D871B18661A7FA3C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvSetWavingBlockControl*>
 {

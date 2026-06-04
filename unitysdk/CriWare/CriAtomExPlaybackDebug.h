@@ -6,72 +6,72 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXPLAYBACKDEBUG_CRIATOMEXPLAYBACK_GETAISACCONTROLBYID_OFFSET UNITYSDK_OFFSET(0x18286C50)
-#define CRIWARE_CRIATOMEXPLAYBACKDEBUG_CRIATOMEXPLAYBACK_GETAISACCONTROLBYNAME_OFFSET UNITYSDK_OFFSET(0x18286D90)
-#define CRIWARE_CRIATOMEXPLAYBACKDEBUG_CRIATOMEXPLAYBACK_GETPARAMETERFLOAT32_OFFSET UNITYSDK_OFFSET(0x182868F0)
-#define CRIWARE_CRIATOMEXPLAYBACKDEBUG_CRIATOMEXPLAYBACK_GETPARAMETERSINT32_OFFSET UNITYSDK_OFFSET(0x18286B30)
-#define CRIWARE_CRIATOMEXPLAYBACKDEBUG_CRIATOMEXPLAYBACK_GETPARAMETERUINT32_OFFSET UNITYSDK_OFFSET(0x18286A10)
-#define CRIWARE_CRIATOMEXPLAYBACKDEBUG_GETAISACCONTROL_1_OFFSET UNITYSDK_OFFSET(0x18286CE0)
-#define CRIWARE_CRIATOMEXPLAYBACKDEBUG_GETAISACCONTROL_OFFSET UNITYSDK_OFFSET(0x18286BC0)
-#define CRIWARE_CRIATOMEXPLAYBACKDEBUG_GETPARAMETER_1_OFFSET UNITYSDK_OFFSET(0x18286980)
-#define CRIWARE_CRIATOMEXPLAYBACKDEBUG_GETPARAMETER_2_OFFSET UNITYSDK_OFFSET(0x18286AA0)
-#define CRIWARE_CRIATOMEXPLAYBACKDEBUG_GETPARAMETER_OFFSET UNITYSDK_OFFSET(0x18286860)
+#define CRIWARE_CRIATOMEXPLAYBACKDEBUG_CRIATOMEXPLAYBACK_GETAISACCONTROLBYID_OFFSET UNITYSDK_OFFSET(0x18E08B40)
+#define CRIWARE_CRIATOMEXPLAYBACKDEBUG_CRIATOMEXPLAYBACK_GETAISACCONTROLBYNAME_OFFSET UNITYSDK_OFFSET(0x18E08C80)
+#define CRIWARE_CRIATOMEXPLAYBACKDEBUG_CRIATOMEXPLAYBACK_GETPARAMETERFLOAT32_OFFSET UNITYSDK_OFFSET(0x18E087E0)
+#define CRIWARE_CRIATOMEXPLAYBACKDEBUG_CRIATOMEXPLAYBACK_GETPARAMETERSINT32_OFFSET UNITYSDK_OFFSET(0x18E08A20)
+#define CRIWARE_CRIATOMEXPLAYBACKDEBUG_CRIATOMEXPLAYBACK_GETPARAMETERUINT32_OFFSET UNITYSDK_OFFSET(0x18E08900)
+#define CRIWARE_CRIATOMEXPLAYBACKDEBUG_GETAISACCONTROL_1_OFFSET UNITYSDK_OFFSET(0x18E08BD0)
+#define CRIWARE_CRIATOMEXPLAYBACKDEBUG_GETAISACCONTROL_OFFSET UNITYSDK_OFFSET(0x18E08AB0)
+#define CRIWARE_CRIATOMEXPLAYBACKDEBUG_GETPARAMETER_1_OFFSET UNITYSDK_OFFSET(0x18E08870)
+#define CRIWARE_CRIATOMEXPLAYBACKDEBUG_GETPARAMETER_2_OFFSET UNITYSDK_OFFSET(0x18E08990)
+#define CRIWARE_CRIATOMEXPLAYBACKDEBUG_GETPARAMETER_OFFSET UNITYSDK_OFFSET(0x18E08750)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExPlaybackDebug_TypeDefinitionIndex = 36932;
+	inline static constexpr unsigned int CriAtomExPlaybackDebug_TypeDefinitionIndex = 37232;
 
 	class CriAtomExPlaybackDebug : public ::System::Object
 	{
 	public:
-		static ::System::Boolean GetParameter(::CriWare::CriAtomExPlayback playback, ::CriWare::CriAtomEx_Parameter parameterId, ::System::Single& value)
+		static ::System::Boolean GetParameter(::CriWare::CriAtomExPlayback a1, ::CriWare::CriAtomEx_Parameter a2, ::System::Single& a3)
 		{
-			return ((::System::Boolean(*)(::CriWare::CriAtomExPlayback, ::CriWare::CriAtomEx_Parameter, ::System::Single&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXPLAYBACKDEBUG_GETPARAMETER_OFFSET))(playback, parameterId, value);
+			return ((::System::Boolean(*)(::CriWare::CriAtomExPlayback, ::CriWare::CriAtomEx_Parameter, ::System::Single&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXPLAYBACKDEBUG_GETPARAMETER_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetParameter_1(::CriWare::CriAtomExPlayback playback, ::CriWare::CriAtomEx_Parameter parameterId, ::System::UInt32& value)
+		static ::System::Boolean GetParameter_1(::CriWare::CriAtomExPlayback a1, ::CriWare::CriAtomEx_Parameter a2, ::System::UInt32& a3)
 		{
-			return ((::System::Boolean(*)(::CriWare::CriAtomExPlayback, ::CriWare::CriAtomEx_Parameter, ::System::UInt32&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXPLAYBACKDEBUG_GETPARAMETER_1_OFFSET))(playback, parameterId, value);
+			return ((::System::Boolean(*)(::CriWare::CriAtomExPlayback, ::CriWare::CriAtomEx_Parameter, ::System::UInt32&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXPLAYBACKDEBUG_GETPARAMETER_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetParameter_2(::CriWare::CriAtomExPlayback playback, ::CriWare::CriAtomEx_Parameter parameterId, ::System::Int32& value)
+		static ::System::Boolean GetParameter_2(::CriWare::CriAtomExPlayback a1, ::CriWare::CriAtomEx_Parameter a2, ::System::Int32& a3)
 		{
-			return ((::System::Boolean(*)(::CriWare::CriAtomExPlayback, ::CriWare::CriAtomEx_Parameter, ::System::Int32&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXPLAYBACKDEBUG_GETPARAMETER_2_OFFSET))(playback, parameterId, value);
+			return ((::System::Boolean(*)(::CriWare::CriAtomExPlayback, ::CriWare::CriAtomEx_Parameter, ::System::Int32&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXPLAYBACKDEBUG_GETPARAMETER_2_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetAisacControl(::CriWare::CriAtomExPlayback playback, ::System::UInt32 controlId, ::System::Single& value)
+		static ::System::Boolean GetAisacControl(::CriWare::CriAtomExPlayback a1, ::System::UInt32 a2, ::System::Single& a3)
 		{
-			return ((::System::Boolean(*)(::CriWare::CriAtomExPlayback, ::System::UInt32, ::System::Single&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXPLAYBACKDEBUG_GETAISACCONTROL_OFFSET))(playback, controlId, value);
+			return ((::System::Boolean(*)(::CriWare::CriAtomExPlayback, ::System::UInt32, ::System::Single&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXPLAYBACKDEBUG_GETAISACCONTROL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetAisacControl_1(::CriWare::CriAtomExPlayback playback, ::System::String* controlName, ::System::Single& value)
+		static ::System::Boolean GetAisacControl_1(::CriWare::CriAtomExPlayback a1, ::System::String* a2, ::System::Single& a3)
 		{
-			return ((::System::Boolean(*)(::CriWare::CriAtomExPlayback, ::System::String*, ::System::Single&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXPLAYBACKDEBUG_GETAISACCONTROL_1_OFFSET))(playback, controlName, value);
+			return ((::System::Boolean(*)(::CriWare::CriAtomExPlayback, ::System::String*, ::System::Single&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXPLAYBACKDEBUG_GETAISACCONTROL_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 criAtomExPlayback_GetParameterFloat32(::System::UInt32 id, ::System::Int32 parameterId, ::System::Single& value)
+		static ::System::Int32 criAtomExPlayback_GetParameterFloat32(::System::UInt32 a1, ::System::Int32 a2, ::System::Single& a3)
 		{
-			return ((::System::Int32(*)(::System::UInt32, ::System::Int32, ::System::Single&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXPLAYBACKDEBUG_CRIATOMEXPLAYBACK_GETPARAMETERFLOAT32_OFFSET))(id, parameterId, value);
+			return ((::System::Int32(*)(::System::UInt32, ::System::Int32, ::System::Single&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXPLAYBACKDEBUG_CRIATOMEXPLAYBACK_GETPARAMETERFLOAT32_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 criAtomExPlayback_GetParameterUint32(::System::UInt32 id, ::System::Int32 parameterId, ::System::UInt32& value)
+		static ::System::Int32 criAtomExPlayback_GetParameterUint32(::System::UInt32 a1, ::System::Int32 a2, ::System::UInt32& a3)
 		{
-			return ((::System::Int32(*)(::System::UInt32, ::System::Int32, ::System::UInt32&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXPLAYBACKDEBUG_CRIATOMEXPLAYBACK_GETPARAMETERUINT32_OFFSET))(id, parameterId, value);
+			return ((::System::Int32(*)(::System::UInt32, ::System::Int32, ::System::UInt32&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXPLAYBACKDEBUG_CRIATOMEXPLAYBACK_GETPARAMETERUINT32_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 criAtomExPlayback_GetParameterSint32(::System::UInt32 id, ::System::Int32 parameterId, ::System::Int32& value)
+		static ::System::Int32 criAtomExPlayback_GetParameterSint32(::System::UInt32 a1, ::System::Int32 a2, ::System::Int32& a3)
 		{
-			return ((::System::Int32(*)(::System::UInt32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXPLAYBACKDEBUG_CRIATOMEXPLAYBACK_GETPARAMETERSINT32_OFFSET))(id, parameterId, value);
+			return ((::System::Int32(*)(::System::UInt32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXPLAYBACKDEBUG_CRIATOMEXPLAYBACK_GETPARAMETERSINT32_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 criAtomExPlayback_GetAisacControlById(::System::UInt32 id, ::System::UInt32 controlId, ::System::Single& value)
+		static ::System::Int32 criAtomExPlayback_GetAisacControlById(::System::UInt32 a1, ::System::UInt32 a2, ::System::Single& a3)
 		{
-			return ((::System::Int32(*)(::System::UInt32, ::System::UInt32, ::System::Single&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXPLAYBACKDEBUG_CRIATOMEXPLAYBACK_GETAISACCONTROLBYID_OFFSET))(id, controlId, value);
+			return ((::System::Int32(*)(::System::UInt32, ::System::UInt32, ::System::Single&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXPLAYBACKDEBUG_CRIATOMEXPLAYBACK_GETAISACCONTROLBYID_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 criAtomExPlayback_GetAisacControlByName(::System::UInt32 id, ::System::String* controlName, ::System::Single& value)
+		static ::System::Int32 criAtomExPlayback_GetAisacControlByName(::System::UInt32 a1, ::System::String* a2, ::System::Single& a3)
 		{
-			return ((::System::Int32(*)(::System::UInt32, ::System::String*, ::System::Single&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXPLAYBACKDEBUG_CRIATOMEXPLAYBACK_GETAISACCONTROLBYNAME_OFFSET))(id, controlName, value);
+			return ((::System::Int32(*)(::System::UInt32, ::System::String*, ::System::Single&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXPLAYBACKDEBUG_CRIATOMEXPLAYBACK_GETAISACCONTROLBYNAME_OFFSET))(a1, a2, a3);
 		}
 	};
 }

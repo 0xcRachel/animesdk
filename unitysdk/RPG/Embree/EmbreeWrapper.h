@@ -12,32 +12,32 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_EMBREE_EMBREEWRAPPER_ADDMESH_OFFSET UNITYSDK_OFFSET(0x175B83A0)
-#define RPG_EMBREE_EMBREEWRAPPER_CLEANUP_OFFSET UNITYSDK_OFFSET(0x175B99D0)
-#define RPG_EMBREE_EMBREEWRAPPER_COMMITSCENE_OFFSET UNITYSDK_OFFSET(0x175B8E90)
-#define RPG_EMBREE_EMBREEWRAPPER_GET_SCENE_OFFSET UNITYSDK_OFFSET(0x175BBBC0)
-#define RPG_EMBREE_EMBREEWRAPPER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x175B7980)
-#define RPG_EMBREE_EMBREEWRAPPER_ISOCCLUDED_OFFSET UNITYSDK_OFFSET(0x175B9760)
-#define RPG_EMBREE_EMBREEWRAPPER_RAYCAST_OFFSET UNITYSDK_OFFSET(0x175B9190)
-#define RPG_EMBREE_EMBREEWRAPPER_RTCATTACHGEOMETRY_OFFSET UNITYSDK_OFFSET(0x175BC000)
-#define RPG_EMBREE_EMBREEWRAPPER_RTCCOMMITGEOMETRY_OFFSET UNITYSDK_OFFSET(0x175BC150)
-#define RPG_EMBREE_EMBREEWRAPPER_RTCCOMMITSCENE_OFFSET UNITYSDK_OFFSET(0x175BBE70)
-#define RPG_EMBREE_EMBREEWRAPPER_RTCGETDEVICEERROR_OFFSET UNITYSDK_OFFSET(0x175BBCF0)
-#define RPG_EMBREE_EMBREEWRAPPER_RTCGETGEOMETRYBUFFERDATA_OFFSET UNITYSDK_OFFSET(0x175BC1D0)
-#define RPG_EMBREE_EMBREEWRAPPER_RTCINTERSECT1_OFFSET UNITYSDK_OFFSET(0x175BC260)
-#define RPG_EMBREE_EMBREEWRAPPER_RTCNEWDEVICE_OFFSET UNITYSDK_OFFSET(0x175BBBD0)
-#define RPG_EMBREE_EMBREEWRAPPER_RTCNEWGEOMETRY_OFFSET UNITYSDK_OFFSET(0x175BBEF0)
-#define RPG_EMBREE_EMBREEWRAPPER_RTCNEWSCENE_OFFSET UNITYSDK_OFFSET(0x175BBD70)
-#define RPG_EMBREE_EMBREEWRAPPER_RTCOCCLUDED1_OFFSET UNITYSDK_OFFSET(0x175BC2F0)
-#define RPG_EMBREE_EMBREEWRAPPER_RTCRELEASEDEVICE_OFFSET UNITYSDK_OFFSET(0x175BBC70)
-#define RPG_EMBREE_EMBREEWRAPPER_RTCRELEASEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x175BBF80)
-#define RPG_EMBREE_EMBREEWRAPPER_RTCRELEASESCENE_OFFSET UNITYSDK_OFFSET(0x175BBDF0)
-#define RPG_EMBREE_EMBREEWRAPPER_RTCSETNEWGEOMETRYBUFFER_OFFSET UNITYSDK_OFFSET(0x175BC090)
-#define RPG_EMBREE_EMBREEWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x175B7910)
+#define RPG_EMBREE_EMBREEWRAPPER_ADDMESH_OFFSET UNITYSDK_OFFSET(0x19BA7E80)
+#define RPG_EMBREE_EMBREEWRAPPER_CLEANUP_OFFSET UNITYSDK_OFFSET(0x19BA9480)
+#define RPG_EMBREE_EMBREEWRAPPER_COMMITSCENE_OFFSET UNITYSDK_OFFSET(0x19BA89C0)
+#define RPG_EMBREE_EMBREEWRAPPER_GET_SCENE_OFFSET UNITYSDK_OFFSET(0x19BAB550)
+#define RPG_EMBREE_EMBREEWRAPPER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x19BA7420)
+#define RPG_EMBREE_EMBREEWRAPPER_ISOCCLUDED_OFFSET UNITYSDK_OFFSET(0x19BA9220)
+#define RPG_EMBREE_EMBREEWRAPPER_RAYCAST_OFFSET UNITYSDK_OFFSET(0x19BA8CA0)
+#define RPG_EMBREE_EMBREEWRAPPER_RTCATTACHGEOMETRY_OFFSET UNITYSDK_OFFSET(0x19BAB990)
+#define RPG_EMBREE_EMBREEWRAPPER_RTCCOMMITGEOMETRY_OFFSET UNITYSDK_OFFSET(0x19BABAE0)
+#define RPG_EMBREE_EMBREEWRAPPER_RTCCOMMITSCENE_OFFSET UNITYSDK_OFFSET(0x19BAB800)
+#define RPG_EMBREE_EMBREEWRAPPER_RTCGETDEVICEERROR_OFFSET UNITYSDK_OFFSET(0x19BAB680)
+#define RPG_EMBREE_EMBREEWRAPPER_RTCGETGEOMETRYBUFFERDATA_OFFSET UNITYSDK_OFFSET(0x19BABB60)
+#define RPG_EMBREE_EMBREEWRAPPER_RTCINTERSECT1_OFFSET UNITYSDK_OFFSET(0x19BABBF0)
+#define RPG_EMBREE_EMBREEWRAPPER_RTCNEWDEVICE_OFFSET UNITYSDK_OFFSET(0x19BAB560)
+#define RPG_EMBREE_EMBREEWRAPPER_RTCNEWGEOMETRY_OFFSET UNITYSDK_OFFSET(0x19BAB880)
+#define RPG_EMBREE_EMBREEWRAPPER_RTCNEWSCENE_OFFSET UNITYSDK_OFFSET(0x19BAB700)
+#define RPG_EMBREE_EMBREEWRAPPER_RTCOCCLUDED1_OFFSET UNITYSDK_OFFSET(0x19BABC80)
+#define RPG_EMBREE_EMBREEWRAPPER_RTCRELEASEDEVICE_OFFSET UNITYSDK_OFFSET(0x19BAB600)
+#define RPG_EMBREE_EMBREEWRAPPER_RTCRELEASEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x19BAB910)
+#define RPG_EMBREE_EMBREEWRAPPER_RTCRELEASESCENE_OFFSET UNITYSDK_OFFSET(0x19BAB780)
+#define RPG_EMBREE_EMBREEWRAPPER_RTCSETNEWGEOMETRYBUFFER_OFFSET UNITYSDK_OFFSET(0x19BABA20)
+#define RPG_EMBREE_EMBREEWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x19BA73C0)
 
 namespace RPG::Embree
 {
-	inline static constexpr unsigned int EmbreeWrapper_TypeDefinitionIndex = 43828;
+	inline static constexpr unsigned int EmbreeWrapper_TypeDefinitionIndex = 44370;
 
 	class EmbreeWrapper : public ::System::Object
 	{
@@ -45,8 +45,8 @@ namespace RPG::Embree
 		// static const ::System::String* EMBREE_DLL; // 0x0
 		// static const ::System::Int32 RTC_MAX_INSTANCE_LEVEL_COUNT = 0x1; // 0x0
 		::System::Collections::Generic::List_1<::System::IntPtr>* geometries; // 0x10
-		::System::IntPtr device; // 0x18
-		::System::Boolean isInitialized; // 0x20
+		::System::Boolean isInitialized; // 0x18
+		::System::IntPtr device; // 0x20
 		::System::IntPtr scene; // 0x28
 
 		::System::Void _ctor()
@@ -59,79 +59,79 @@ namespace RPG::Embree
 			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_GET_SCENE_OFFSET))(this);
 		}
 
-		static ::System::IntPtr rtcNewDevice(::System::String* config)
+		static ::System::IntPtr rtcNewDevice(::System::String* a1)
 		{
-			return ((::System::IntPtr(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCNEWDEVICE_OFFSET))(config);
+			return ((::System::IntPtr(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCNEWDEVICE_OFFSET))(a1);
 		}
 
-		static ::System::Void rtcReleaseDevice(::System::IntPtr device)
+		static ::System::Void rtcReleaseDevice(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCRELEASEDEVICE_OFFSET))(device);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCRELEASEDEVICE_OFFSET))(a1);
 		}
 
-		static ::System::Int32 rtcGetDeviceError(::System::IntPtr device)
+		static ::System::Int32 rtcGetDeviceError(::System::IntPtr a1)
 		{
-			return ((::System::Int32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCGETDEVICEERROR_OFFSET))(device);
+			return ((::System::Int32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCGETDEVICEERROR_OFFSET))(a1);
 		}
 
-		static ::System::IntPtr rtcNewScene(::System::IntPtr device)
+		static ::System::IntPtr rtcNewScene(::System::IntPtr a1)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCNEWSCENE_OFFSET))(device);
+			return ((::System::IntPtr(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCNEWSCENE_OFFSET))(a1);
 		}
 
-		static ::System::Void rtcReleaseScene(::System::IntPtr scene)
+		static ::System::Void rtcReleaseScene(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCRELEASESCENE_OFFSET))(scene);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCRELEASESCENE_OFFSET))(a1);
 		}
 
-		static ::System::Void rtcCommitScene(::System::IntPtr scene)
+		static ::System::Void rtcCommitScene(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCCOMMITSCENE_OFFSET))(scene);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCCOMMITSCENE_OFFSET))(a1);
 		}
 
-		static ::System::IntPtr rtcNewGeometry(::System::IntPtr device, ::System::Int32 type)
+		static ::System::IntPtr rtcNewGeometry(::System::IntPtr a1, ::System::Int32 a2)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCNEWGEOMETRY_OFFSET))(device, type);
+			return ((::System::IntPtr(*)(::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCNEWGEOMETRY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void rtcReleaseGeometry(::System::IntPtr geometry)
+		static ::System::Void rtcReleaseGeometry(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCRELEASEGEOMETRY_OFFSET))(geometry);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCRELEASEGEOMETRY_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 rtcAttachGeometry(::System::IntPtr scene, ::System::IntPtr geometry)
+		static ::System::UInt32 rtcAttachGeometry(::System::IntPtr a1, ::System::IntPtr a2)
 		{
-			return ((::System::UInt32(*)(::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCATTACHGEOMETRY_OFFSET))(scene, geometry);
+			return ((::System::UInt32(*)(::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCATTACHGEOMETRY_OFFSET))(a1, a2);
 		}
 
-		static ::System::IntPtr rtcSetNewGeometryBuffer(::System::IntPtr geometry, ::System::Int32 bufferType, ::System::UInt32 slot, ::System::Int32 format, ::System::UInt32 byteStride, ::System::UInt32 itemCount)
+		static ::System::IntPtr rtcSetNewGeometryBuffer(::System::IntPtr a1, ::System::Int32 a2, ::System::UInt32 a3, ::System::Int32 a4, ::System::UInt32 a5, ::System::UInt32 a6)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr, ::System::Int32, ::System::UInt32, ::System::Int32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCSETNEWGEOMETRYBUFFER_OFFSET))(geometry, bufferType, slot, format, byteStride, itemCount);
+			return ((::System::IntPtr(*)(::System::IntPtr, ::System::Int32, ::System::UInt32, ::System::Int32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCSETNEWGEOMETRYBUFFER_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void rtcCommitGeometry(::System::IntPtr geometry)
+		static ::System::Void rtcCommitGeometry(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCCOMMITGEOMETRY_OFFSET))(geometry);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCCOMMITGEOMETRY_OFFSET))(a1);
 		}
 
-		static ::System::IntPtr rtcGetGeometryBufferData(::System::IntPtr geometry, ::System::Int32 type, ::System::UInt32 slot)
+		static ::System::IntPtr rtcGetGeometryBufferData(::System::IntPtr a1, ::System::Int32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCGETGEOMETRYBUFFERDATA_OFFSET))(geometry, type, slot);
+			return ((::System::IntPtr(*)(::System::IntPtr, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCGETGEOMETRYBUFFERDATA_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void rtcIntersect1(::System::IntPtr scene, ::RPG::Embree::EmbreeWrapper_RTCIntersectContext& context, ::RPG::Embree::EmbreeWrapper_RTCRayHit& rayhit)
+		static ::System::Void rtcIntersect1(::System::IntPtr a1, ::RPG::Embree::EmbreeWrapper_RTCIntersectContext& a2, ::RPG::Embree::EmbreeWrapper_RTCRayHit& a3)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::RPG::Embree::EmbreeWrapper_RTCIntersectContext&, ::RPG::Embree::EmbreeWrapper_RTCRayHit&))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCINTERSECT1_OFFSET))(scene, context, rayhit);
+			return ((::System::Void(*)(::System::IntPtr, ::RPG::Embree::EmbreeWrapper_RTCIntersectContext&, ::RPG::Embree::EmbreeWrapper_RTCRayHit&))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCINTERSECT1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void rtcOccluded1(::System::IntPtr scene, ::RPG::Embree::EmbreeWrapper_RTCIntersectContext& context, ::RPG::Embree::EmbreeWrapper_RTCRay& ray)
+		static ::System::Void rtcOccluded1(::System::IntPtr a1, ::RPG::Embree::EmbreeWrapper_RTCIntersectContext& a2, ::RPG::Embree::EmbreeWrapper_RTCRay& a3)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::RPG::Embree::EmbreeWrapper_RTCIntersectContext&, ::RPG::Embree::EmbreeWrapper_RTCRay&))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCOCCLUDED1_OFFSET))(scene, context, ray);
+			return ((::System::Void(*)(::System::IntPtr, ::RPG::Embree::EmbreeWrapper_RTCIntersectContext&, ::RPG::Embree::EmbreeWrapper_RTCRay&))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RTCOCCLUDED1_OFFSET))(a1, a2, a3);
 		}
 
-		::System::Boolean Initialize(::System::String* config)
+		::System::Boolean Initialize(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_INITIALIZE_OFFSET))(this, config);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_INITIALIZE_OFFSET))(this, a1);
 		}
 
 		::System::Void Cleanup()
@@ -139,9 +139,9 @@ namespace RPG::Embree
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_CLEANUP_OFFSET))(this);
 		}
 
-		::System::UInt32 AddMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 transform)
+		::System::UInt32 AddMesh(::UnityEngine::Mesh* a1, ::UnityEngine::Matrix4x4 a2)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::UnityEngine::Mesh*, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_ADDMESH_OFFSET))(this, mesh, transform);
+			return ((::System::UInt32(*)(::PVOID, ::UnityEngine::Mesh*, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_ADDMESH_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void CommitScene()
@@ -149,14 +149,14 @@ namespace RPG::Embree
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_COMMITSCENE_OFFSET))(this);
 		}
 
-		::System::Boolean Raycast(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction, ::System::Single maxDistance, ::RPG::Embree::EmbreeWrapper_RaycastHitInfo& hitInfo)
+		::System::Boolean Raycast(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::RPG::Embree::EmbreeWrapper_RaycastHitInfo& a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::RPG::Embree::EmbreeWrapper_RaycastHitInfo&))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RAYCAST_OFFSET))(this, origin, direction, maxDistance, hitInfo);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::RPG::Embree::EmbreeWrapper_RaycastHitInfo&))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_RAYCAST_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean IsOccluded(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction, ::System::Single maxDistance)
+		::System::Boolean IsOccluded(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_ISOCCLUDED_OFFSET))(this, origin, direction, maxDistance);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREEWRAPPER_ISOCCLUDED_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

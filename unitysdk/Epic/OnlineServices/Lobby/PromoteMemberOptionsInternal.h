@@ -7,16 +7,16 @@ namespace Epic::OnlineServices::Lobby { class PromoteMemberOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2317F50)
-#define EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x2317EE0)
-#define EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x2317CA0)
-#define EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x2317D50)
-#define EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x2317ED0)
-#define EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x2317E10)
+#define EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x38CAB90)
+#define EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x38CAB10)
+#define EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x38CA8D0)
+#define EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x38CA980)
+#define EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x38CAB00)
+#define EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x38CAA40)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int PromoteMemberOptionsInternal_TypeDefinitionIndex = 41983;
+	inline static constexpr unsigned int PromoteMemberOptionsInternal_TypeDefinitionIndex = 42786;
 
 	struct alignas(8) PromoteMemberOptionsInternal
 	{
@@ -25,29 +25,29 @@ namespace Epic::OnlineServices::Lobby
 		::System::IntPtr m_LocalUserId; // 0x20
 		::System::IntPtr m_TargetUserId; // 0x28
 
-		::System::Void set_LobbyId(::System::String* value)
+		::System::Void set_LobbyId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_SET_LOBBYID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_SET_LOBBYID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_SET_TARGETUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_SET_TARGETUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Lobby::PromoteMemberOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Lobby::PromoteMemberOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::PromoteMemberOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::PromoteMemberOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_PROMOTEMEMBEROPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

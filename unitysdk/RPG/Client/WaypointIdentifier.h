@@ -5,36 +5,36 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYENTITY_OFFSET UNITYSDK_OFFSET(0x11E4A9A0)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYLITTLEGAMEENTITY_OFFSET UNITYSDK_OFFSET(0x11E4AC20)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYMAZEENTITY_OFFSET UNITYSDK_OFFSET(0x11E4ABA0)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYRUNTIMEENTITY_OFFSET UNITYSDK_OFFSET(0x11E4AB40)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x11E4AD40)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_EQUALS_OFFSET UNITYSDK_OFFSET(0x11E4ACA0)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x11E4ADD0)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x11E4AE40)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x11E4AEA0)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER__CCTOR_OFFSET UNITYSDK_OFFSET(0x11E4AF00)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x11E4AC10)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0x11E4AF40)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x11E4AF50)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYENTITY_OFFSET UNITYSDK_OFFSET(0x1772E610)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYLITTLEGAMEENTITY_OFFSET UNITYSDK_OFFSET(0x1772E890)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYMAZEENTITY_OFFSET UNITYSDK_OFFSET(0x1772E810)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYRUNTIMEENTITY_OFFSET UNITYSDK_OFFSET(0x1772E7B0)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1772E9B0)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1772E910)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1772EA40)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1772EAB0)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1772EB10)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1772EB70)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1772E880)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1772EBB0)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1772EBC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WaypointIdentifier_TypeDefinitionIndex = 63675;
+	inline static constexpr unsigned int WaypointIdentifier_TypeDefinitionIndex = 64596;
 
 	class WaypointIdentifier : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::WaypointIdentifier** StaticGet_Invalid()
 		{
-			return (::RPG::Client::WaypointIdentifier**)Il2CppClass::FromTypeDefinitionIndex(WaypointIdentifier_TypeDefinitionIndex)->GetStaticField(0x5D370);
+			return (::RPG::Client::WaypointIdentifier**)Il2CppClass::FromTypeDefinitionIndex(WaypointIdentifier_TypeDefinitionIndex)->GetStaticField(0x5C7B0);
 		}
-		::RPG::Client::WaypointIdentifierType Type; // 0x10
-		::System::UInt32 LittleGameEntityID; // 0x14
+		::System::UInt32 GroupID; // 0x10
+		::System::UInt32 InstanceID; // 0x14
 		::System::UInt32 RuntimeID; // 0x18
-		::System::UInt32 InstanceID; // 0x1C
-		::System::UInt32 GroupID; // 0x20
+		::System::UInt32 LittleGameEntityID; // 0x1C
+		::RPG::Client::WaypointIdentifierType Type; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -46,34 +46,34 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER__CCTOR_OFFSET))();
 		}
 
-		static ::RPG::Client::WaypointIdentifier* CreateByEntity(::RPG::GameCore::GameEntity* entity)
+		static ::RPG::Client::WaypointIdentifier* CreateByEntity(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::RPG::Client::WaypointIdentifier*(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYENTITY_OFFSET))(entity);
+			return ((::RPG::Client::WaypointIdentifier*(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYENTITY_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::WaypointIdentifier* CreateByMazeEntity(::System::UInt32 groupID, ::System::UInt32 instanceID)
+		static ::RPG::Client::WaypointIdentifier* CreateByMazeEntity(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::WaypointIdentifier*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYMAZEENTITY_OFFSET))(groupID, instanceID);
+			return ((::RPG::Client::WaypointIdentifier*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYMAZEENTITY_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::WaypointIdentifier* CreateByLittleGameEntity(::System::UInt32 groupID, ::System::UInt32 instanceID, ::System::UInt32 littleGameEntityID)
+		static ::RPG::Client::WaypointIdentifier* CreateByLittleGameEntity(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::RPG::Client::WaypointIdentifier*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYLITTLEGAMEENTITY_OFFSET))(groupID, instanceID, littleGameEntityID);
+			return ((::RPG::Client::WaypointIdentifier*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYLITTLEGAMEENTITY_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::WaypointIdentifier* CreateByRuntimeEntity(::System::UInt32 runtimeID)
+		static ::RPG::Client::WaypointIdentifier* CreateByRuntimeEntity(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::WaypointIdentifier*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYRUNTIMEENTITY_OFFSET))(runtimeID);
+			return ((::RPG::Client::WaypointIdentifier*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYRUNTIMEENTITY_OFFSET))(a1);
 		}
 
-		::System::Boolean Equals(::RPG::Client::WaypointIdentifier* other)
+		::System::Boolean Equals(::RPG::Client::WaypointIdentifier* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::WaypointIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::WaypointIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -81,19 +81,19 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_GETHASHCODE_OFFSET))(this);
 		}
 
-		static ::System::Boolean op_Equality(::RPG::Client::WaypointIdentifier* left, ::RPG::Client::WaypointIdentifier* right)
+		static ::System::Boolean op_Equality(::RPG::Client::WaypointIdentifier* a1, ::RPG::Client::WaypointIdentifier* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::WaypointIdentifier*, ::RPG::Client::WaypointIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_OP_EQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::RPG::Client::WaypointIdentifier*, ::RPG::Client::WaypointIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::RPG::Client::WaypointIdentifier* left, ::RPG::Client::WaypointIdentifier* right)
+		static ::System::Boolean op_Inequality(::RPG::Client::WaypointIdentifier* a1, ::RPG::Client::WaypointIdentifier* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::WaypointIdentifier*, ::RPG::Client::WaypointIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_OP_INEQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::RPG::Client::WaypointIdentifier*, ::RPG::Client::WaypointIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean __iFixBaseProxy_Equals(::System::Object* P0)
+		::System::Boolean __iFixBaseProxy_Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER___IFIXBASEPROXY_EQUALS_OFFSET))(this, P0);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER___IFIXBASEPROXY_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 __iFixBaseProxy_GetHashCode()

@@ -5,21 +5,21 @@
 namespace Epic::OnlineServices { class ProductUserId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_LOBBY_ISRTCROOMCONNECTEDOPTIONS_GET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x198820A0)
-#define EPIC_ONLINESERVICES_LOBBY_ISRTCROOMCONNECTEDOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x198820C0)
-#define EPIC_ONLINESERVICES_LOBBY_ISRTCROOMCONNECTEDOPTIONS_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x198820B0)
-#define EPIC_ONLINESERVICES_LOBBY_ISRTCROOMCONNECTEDOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x198820D0)
-#define EPIC_ONLINESERVICES_LOBBY_ISRTCROOMCONNECTEDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x198820E0)
+#define EPIC_ONLINESERVICES_LOBBY_ISRTCROOMCONNECTEDOPTIONS_GET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x1A5C08C0)
+#define EPIC_ONLINESERVICES_LOBBY_ISRTCROOMCONNECTEDOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A5C08E0)
+#define EPIC_ONLINESERVICES_LOBBY_ISRTCROOMCONNECTEDOPTIONS_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x1A5C08D0)
+#define EPIC_ONLINESERVICES_LOBBY_ISRTCROOMCONNECTEDOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1A5C08F0)
+#define EPIC_ONLINESERVICES_LOBBY_ISRTCROOMCONNECTEDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5C0900)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int IsRTCRoomConnectedOptions_TypeDefinitionIndex = 41853;
+	inline static constexpr unsigned int IsRTCRoomConnectedOptions_TypeDefinitionIndex = 42656;
 
 	class IsRTCRoomConnectedOptions : public ::System::Object
 	{
 	public:
-		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x10
-		::System::String* _LobbyId_k__BackingField; // 0x18
+		::System::String* _LobbyId_k__BackingField; // 0x10
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -31,9 +31,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ISRTCROOMCONNECTEDOPTIONS_GET_LOBBYID_OFFSET))(this);
 		}
 
-		::System::Void set_LobbyId(::System::String* value)
+		::System::Void set_LobbyId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ISRTCROOMCONNECTEDOPTIONS_SET_LOBBYID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ISRTCROOMCONNECTEDOPTIONS_SET_LOBBYID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ProductUserId* get_LocalUserId()
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ISRTCROOMCONNECTEDOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ISRTCROOMCONNECTEDOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ISRTCROOMCONNECTEDOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 	};
 }

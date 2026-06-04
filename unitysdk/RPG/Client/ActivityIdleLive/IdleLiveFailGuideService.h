@@ -6,14 +6,14 @@ namespace RPG::Client::ActivityIdleLive { class FailGuide; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFAILGUIDESERVICE_GETACTIVEFAILGUIDE_OFFSET UNITYSDK_OFFSET(0x16C55BE0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFAILGUIDESERVICE_ISCATCHUPGUIDE_OFFSET UNITYSDK_OFFSET(0x16C55DD0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFAILGUIDESERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x16C55820)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFAILGUIDESERVICE__INITCHAIN_OFFSET UNITYSDK_OFFSET(0x16C55890)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFAILGUIDESERVICE_GETACTIVEFAILGUIDE_OFFSET UNITYSDK_OFFSET(0x18B2B050)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFAILGUIDESERVICE_ISCATCHUPGUIDE_OFFSET UNITYSDK_OFFSET(0x18B2B240)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFAILGUIDESERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x18B2AA30)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFAILGUIDESERVICE__INITCHAIN_OFFSET UNITYSDK_OFFSET(0x18B2AAA0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveFailGuideService_TypeDefinitionIndex = 69449;
+	inline static constexpr unsigned int IdleLiveFailGuideService_TypeDefinitionIndex = 70261;
 
 	class IdleLiveFailGuideService : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client::ActivityIdleLive
 		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::FailGuide*>* _failGuideChain; // 0x18
 		::System::UInt64 _TotalGotCrystalNum; // 0x20
 
-		::System::Void _ctor(::System::UInt64 totalGotCrystalNum, ::RPG::Client::ActivityIdleLive::IdleLiveNode* node)
+		::System::Void _ctor(::System::UInt64 a1, ::RPG::Client::ActivityIdleLive::IdleLiveNode* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::RPG::Client::ActivityIdleLive::IdleLiveNode*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFAILGUIDESERVICE__CTOR_OFFSET))(this, totalGotCrystalNum, node);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::RPG::Client::ActivityIdleLive::IdleLiveNode*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFAILGUIDESERVICE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _InitChain()

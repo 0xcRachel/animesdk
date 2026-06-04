@@ -6,29 +6,29 @@ namespace RPG::GameCore { class AvatarSkillRow; }
 namespace RPG::GameCore { class AvatarSkillTreeRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_SKILLTREECHANGE_SKILLTREECHANGEINFO_GET_HASSIMPLEDESC_OFFSET UNITYSDK_OFFSET(0x16C1D230)
-#define RPG_CLIENT_SKILLTREECHANGE_SKILLTREECHANGEINFO_SETSKILL_OFFSET UNITYSDK_OFFSET(0x16C1E040)
-#define RPG_CLIENT_SKILLTREECHANGE_SKILLTREECHANGEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16C1CB50)
+#define RPG_CLIENT_SKILLTREECHANGE_SKILLTREECHANGEINFO_GET_HASSIMPLEDESC_OFFSET UNITYSDK_OFFSET(0x17C0ABB0)
+#define RPG_CLIENT_SKILLTREECHANGE_SKILLTREECHANGEINFO_SETSKILL_OFFSET UNITYSDK_OFFSET(0x17C0BC10)
+#define RPG_CLIENT_SKILLTREECHANGE_SKILLTREECHANGEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17C0A4C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkillTreeChange_SkillTreeChangeInfo_TypeDefinitionIndex = 57670;
+	inline static constexpr unsigned int SkillTreeChange_SkillTreeChangeInfo_TypeDefinitionIndex = 58461;
 
 	class SkillTreeChange_SkillTreeChangeInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::GameCore::AvatarSkillRow*>* SubSkills; // 0x10
-		::RPG::GameCore::AvatarSkillTreeRow* Point; // 0x18
-		::RPG::GameCore::AvatarSkillRow* Skill; // 0x20
+		::RPG::GameCore::AvatarSkillRow* Skill; // 0x10
+		::System::Collections::Generic::List_1<::RPG::GameCore::AvatarSkillRow*>* SubSkills; // 0x18
+		::RPG::GameCore::AvatarSkillTreeRow* Point; // 0x20
 
-		::System::Void _ctor(::RPG::GameCore::AvatarSkillTreeRow* point)
+		::System::Void _ctor(::RPG::GameCore::AvatarSkillTreeRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarSkillTreeRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SKILLTREECHANGE_SKILLTREECHANGEINFO__CTOR_OFFSET))(this, point);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarSkillTreeRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SKILLTREECHANGE_SKILLTREECHANGEINFO__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void SetSkill(::RPG::GameCore::AvatarSkillRow* skill, ::System::Collections::Generic::List_1<::RPG::GameCore::AvatarSkillRow*>* subSkills)
+		::System::Void SetSkill(::RPG::GameCore::AvatarSkillRow* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::AvatarSkillRow*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarSkillRow*, ::System::Collections::Generic::List_1<::RPG::GameCore::AvatarSkillRow*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SKILLTREECHANGE_SKILLTREECHANGEINFO_SETSKILL_OFFSET))(this, skill, subSkills);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarSkillRow*, ::System::Collections::Generic::List_1<::RPG::GameCore::AvatarSkillRow*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SKILLTREECHANGE_SKILLTREECHANGEINFO_SETSKILL_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_HasSimpleDesc()

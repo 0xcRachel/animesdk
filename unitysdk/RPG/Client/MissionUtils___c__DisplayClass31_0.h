@@ -4,13 +4,13 @@
 
 namespace RPG::Client { class MissionUtils_SubMissionSortItem; }
 
-#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x152A6730)
-#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS31_0___ADDTOSUBMISSIONCONNECTGRAPH_B__0_OFFSET UNITYSDK_OFFSET(0x152A6AE0)
-#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS31_0___ADDTOSUBMISSIONCONNECTGRAPH_B__1_OFFSET UNITYSDK_OFFSET(0x152A6B10)
+#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14587C70)
+#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS31_0___ADDTOSUBMISSIONCONNECTGRAPH_B__0_OFFSET UNITYSDK_OFFSET(0x14588020)
+#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS31_0___ADDTOSUBMISSIONCONNECTGRAPH_B__1_OFFSET UNITYSDK_OFFSET(0x14588050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionUtils___c__DisplayClass31_0_TypeDefinitionIndex = 60951;
+	inline static constexpr unsigned int MissionUtils___c__DisplayClass31_0_TypeDefinitionIndex = 61885;
 
 	class MissionUtils___c__DisplayClass31_0 : public ::System::Object
 	{
@@ -23,14 +23,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS31_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __AddToSubMissionConnectGraph_b__0(::RPG::Client::MissionUtils_SubMissionSortItem* item)
+		::System::Boolean __AddToSubMissionConnectGraph_b__0(::RPG::Client::MissionUtils_SubMissionSortItem* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MissionUtils_SubMissionSortItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS31_0___ADDTOSUBMISSIONCONNECTGRAPH_B__0_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MissionUtils_SubMissionSortItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS31_0___ADDTOSUBMISSIONCONNECTGRAPH_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __AddToSubMissionConnectGraph_b__1(::RPG::Client::MissionUtils_SubMissionSortItem* item)
+		::System::Boolean __AddToSubMissionConnectGraph_b__1(::RPG::Client::MissionUtils_SubMissionSortItem* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MissionUtils_SubMissionSortItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS31_0___ADDTOSUBMISSIONCONNECTGRAPH_B__1_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MissionUtils_SubMissionSortItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS31_0___ADDTOSUBMISSIONCONNECTGRAPH_B__1_OFFSET))(this, a1);
 		}
 	};
 }

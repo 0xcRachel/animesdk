@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class HideSkillDisplayInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2192889FCAEB65CF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCD08910)
-#define CLASS_3_2192889FCAEB65CF__CTOR_OFFSET UNITYSDK_OFFSET(0xCD088E0)
+#define CLASS_3_2192889FCAEB65CF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14E37D80)
+#define CLASS_3_2192889FCAEB65CF__CTOR_OFFSET UNITYSDK_OFFSET(0x14E37D50)
 
-inline static constexpr unsigned int Class_3_2192889FCAEB65CF_TypeDefinitionIndex = 50797;
+inline static constexpr unsigned int Class_3_2192889FCAEB65CF_TypeDefinitionIndex = 51465;
 
 class Class_3_2192889FCAEB65CF : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::HideSkillDisplayInfo*>
 {

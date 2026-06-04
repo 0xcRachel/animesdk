@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace UnityEngine { class RenderTexture; }
-namespace UnityEngine::UI { class RawImage; }
+namespace RPG::Client { class BattleShowUIPageParam; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1004_TypeDefinitionIndex = 67054;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1004_TypeDefinitionIndex = 67007;
 
 class Class_0_16E4307DCC419505_1004
 {

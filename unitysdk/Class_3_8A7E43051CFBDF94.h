@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventureByMotionHitColliderWall; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8A7E43051CFBDF94_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE9EE830)
-#define CLASS_3_8A7E43051CFBDF94__CTOR_OFFSET UNITYSDK_OFFSET(0xE9EE800)
+#define CLASS_3_8A7E43051CFBDF94_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15383F60)
+#define CLASS_3_8A7E43051CFBDF94__CTOR_OFFSET UNITYSDK_OFFSET(0x15383F30)
 
-inline static constexpr unsigned int Class_3_8A7E43051CFBDF94_TypeDefinitionIndex = 50249;
+inline static constexpr unsigned int Class_3_8A7E43051CFBDF94_TypeDefinitionIndex = 50915;
 
 class Class_3_8A7E43051CFBDF94 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdventureByMotionHitColliderWall*>
 {

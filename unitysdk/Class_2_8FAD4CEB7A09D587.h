@@ -6,11 +6,11 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define CLASS_2_8FAD4CEB7A09D587_METHOD_2_6270D564028DED48_OFFSET UNITYSDK_OFFSET(0xACC5BD0)
-#define CLASS_2_8FAD4CEB7A09D587_METHOD_2_B8845F2849FA9A7A_OFFSET UNITYSDK_OFFSET(0xACC5E50)
-#define CLASS_2_8FAD4CEB7A09D587__CTOR_OFFSET UNITYSDK_OFFSET(0xACC5E40)
+#define CLASS_2_8FAD4CEB7A09D587_METHOD_2_6270D564028DED48_OFFSET UNITYSDK_OFFSET(0x13508BE0)
+#define CLASS_2_8FAD4CEB7A09D587_METHOD_2_68AC62F249F8561A_OFFSET UNITYSDK_OFFSET(0x13508E70)
+#define CLASS_2_8FAD4CEB7A09D587__CTOR_OFFSET UNITYSDK_OFFSET(0x13508E60)
 
-inline static constexpr unsigned int Class_2_8FAD4CEB7A09D587_TypeDefinitionIndex = 52831;
+inline static constexpr unsigned int Class_2_8FAD4CEB7A09D587_TypeDefinitionIndex = 53537;
 
 class Class_2_8FAD4CEB7A09D587 : public ::Class_1_38A71F76592AF3BC
 {
@@ -28,8 +28,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + CLASS_2_8FAD4CEB7A09D587_METHOD_2_6270D564028DED48_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_2_B8845F2849FA9A7A(::UnityEngine::Vector3& P0)
+	::System::Boolean Method_2_68AC62F249F8561A(::UnityEngine::Vector3& a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + CLASS_2_8FAD4CEB7A09D587_METHOD_2_B8845F2849FA9A7A_OFFSET))(this, P0);
+		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + CLASS_2_8FAD4CEB7A09D587_METHOD_2_68AC62F249F8561A_OFFSET))(this, a1);
 	}
 };

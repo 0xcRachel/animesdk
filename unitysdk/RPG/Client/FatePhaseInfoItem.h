@@ -3,24 +3,24 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_EFE58C9DA09981B0;
+class Class_1_E2DCA4DCC2D0E91F;
 namespace RPG::Client { class FateRoundInfoItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FATEPHASEINFOITEM_ADDROUNDITEM_OFFSET UNITYSDK_OFFSET(0x17920190)
-#define RPG_CLIENT_FATEPHASEINFOITEM_GET_BUFFWEIGHTS_OFFSET UNITYSDK_OFFSET(0x179202F0)
-#define RPG_CLIENT_FATEPHASEINFOITEM_GET_PHASEID_OFFSET UNITYSDK_OFFSET(0x17920270)
-#define RPG_CLIENT_FATEPHASEINFOITEM_GET_PHASEINDEX_OFFSET UNITYSDK_OFFSET(0x1790F820)
-#define RPG_CLIENT_FATEPHASEINFOITEM_GET_PHASENAME_OFFSET UNITYSDK_OFFSET(0x1790FC40)
-#define RPG_CLIENT_FATEPHASEINFOITEM_GET_ROUNDS_OFFSET UNITYSDK_OFFSET(0x179202E0)
-#define RPG_CLIENT_FATEPHASEINFOITEM_GET__ROW_OFFSET UNITYSDK_OFFSET(0x17920280)
-#define RPG_CLIENT_FATEPHASEINFOITEM_SETBUFFWEIGHTS_OFFSET UNITYSDK_OFFSET(0x17920220)
-#define RPG_CLIENT_FATEPHASEINFOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x17920130)
+#define RPG_CLIENT_FATEPHASEINFOITEM_ADDROUNDITEM_OFFSET UNITYSDK_OFFSET(0x18AC26A0)
+#define RPG_CLIENT_FATEPHASEINFOITEM_GET_BUFFWEIGHTS_OFFSET UNITYSDK_OFFSET(0x18AC2900)
+#define RPG_CLIENT_FATEPHASEINFOITEM_GET_PHASEID_OFFSET UNITYSDK_OFFSET(0x18AC27D0)
+#define RPG_CLIENT_FATEPHASEINFOITEM_GET_PHASEINDEX_OFFSET UNITYSDK_OFFSET(0x18AAF990)
+#define RPG_CLIENT_FATEPHASEINFOITEM_GET_PHASENAME_OFFSET UNITYSDK_OFFSET(0x18AAFDD0)
+#define RPG_CLIENT_FATEPHASEINFOITEM_GET_ROUNDS_OFFSET UNITYSDK_OFFSET(0x18AC28F0)
+#define RPG_CLIENT_FATEPHASEINFOITEM_GET__ROW_OFFSET UNITYSDK_OFFSET(0x18AC27E0)
+#define RPG_CLIENT_FATEPHASEINFOITEM_SETBUFFWEIGHTS_OFFSET UNITYSDK_OFFSET(0x18AC2780)
+#define RPG_CLIENT_FATEPHASEINFOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC2640)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FatePhaseInfoItem_TypeDefinitionIndex = 58980;
+	inline static constexpr unsigned int FatePhaseInfoItem_TypeDefinitionIndex = 59910;
 
 	class FatePhaseInfoItem : public ::System::Object
 	{
@@ -29,19 +29,19 @@ namespace RPG::Client
 		::Il2CppArray<::RPG::GameCore::FixPoint>* _BuffWeights; // 0x18
 		::System::UInt32 _PhaseID; // 0x20
 
-		::System::Void _ctor(::System::UInt32 phaseID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEPHASEINFOITEM__CTOR_OFFSET))(this, phaseID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEPHASEINFOITEM__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void AddRoundItem(::RPG::Client::FateRoundInfoItem* roundItem)
+		::System::Void AddRoundItem(::RPG::Client::FateRoundInfoItem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRoundInfoItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEPHASEINFOITEM_ADDROUNDITEM_OFFSET))(this, roundItem);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRoundInfoItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEPHASEINFOITEM_ADDROUNDITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void SetBuffWeights(::Il2CppArray<::RPG::GameCore::FixPoint>* buffWeights)
+		::System::Void SetBuffWeights(::Il2CppArray<::RPG::GameCore::FixPoint>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::FixPoint>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEPHASEINFOITEM_SETBUFFWEIGHTS_OFFSET))(this, buffWeights);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::FixPoint>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEPHASEINFOITEM_SETBUFFWEIGHTS_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_PhaseID()
@@ -69,9 +69,9 @@ namespace RPG::Client
 			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEPHASEINFOITEM_GET_BUFFWEIGHTS_OFFSET))(this);
 		}
 
-		::Class_1_EFE58C9DA09981B0* get__Row()
+		::Class_1_E2DCA4DCC2D0E91F* get__Row()
 		{
-			return ((::Class_1_EFE58C9DA09981B0*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEPHASEINFOITEM_GET__ROW_OFFSET))(this);
+			return ((::Class_1_E2DCA4DCC2D0E91F*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEPHASEINFOITEM_GET__ROW_OFFSET))(this);
 		}
 	};
 }

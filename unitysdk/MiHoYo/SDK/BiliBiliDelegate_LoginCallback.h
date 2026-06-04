@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1618F7C0)
-#define MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1618F820)
-#define MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1618F260)
-#define MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1618F240)
+#define MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x172407F0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17240850)
+#define MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x172407E0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x17240760)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BiliBiliDelegate_LoginCallback_TypeDefinitionIndex = 6652;
+	inline static constexpr unsigned int BiliBiliDelegate_LoginCallback_TypeDefinitionIndex = 7555;
 
 	class BiliBiliDelegate_LoginCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::String* buf, ::System::Int32 buflen)
+		::System::Void Invoke(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK_INVOKE_OFFSET))(this, buf, buflen);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* buf, ::System::Int32 buflen, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::Int32 a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK_BEGININVOKE_OFFSET))(this, buf, buflen, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_LOGINCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

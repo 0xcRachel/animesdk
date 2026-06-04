@@ -7,38 +7,38 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCAEONDICEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x192509B0)
-#define RPG_GAMECORE_ROGUEDLCAEONDICEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19251340)
+#define RPG_GAMECORE_ROGUEDLCAEONDICEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19EA2A20)
+#define RPG_GAMECORE_ROGUEDLCAEONDICEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19EA33C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCAeonDiceRow_TypeDefinitionIndex = 13942;
+	inline static constexpr unsigned int RogueDLCAeonDiceRow_TypeDefinitionIndex = 14008;
 
 	class RogueDLCAeonDiceRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* DescParam; // 0x10
-		::System::String* SoundReRoll; // 0x18
-		::Il2CppArray<::System::UInt32>* StartDescParam; // 0x20
+		::System::String* DiceIcon; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* DescParam; // 0x18
+		::Il2CppArray<::System::UInt32>* ExtraEffect; // 0x20
 		::System::String* SoundSuspensionStart; // 0x28
-		::Il2CppArray<::System::UInt32>* ExtraEffect; // 0x30
+		::System::String* SoundReRoll; // 0x30
 		::System::String* SoundSuspensionStop; // 0x38
-		::System::String* DiceIcon; // 0x40
+		::System::String* DiceModel; // 0x40
 		::System::String* SoundRoll; // 0x48
-		::System::String* DiceModel; // 0x50
-		::RPG::Client::TextID DiceCountDesc; // 0x58
-		::RPG::Client::TextID DiceStartEffectDesc; // 0x68
-		::System::UInt32 AeonDiceID; // 0x78
-		::RPG::Client::TextID DiceShortDesc; // 0x80
+		::Il2CppArray<::System::UInt32>* StartDescParam; // 0x50
+		::RPG::Client::TextID DiceStartEffectDesc; // 0x58
+		::RPG::Client::TextID DiceShortDesc; // 0x68
+		::RPG::Client::TextID DiceCountDesc; // 0x78
+		::System::UInt32 AeonDiceID; // 0x88
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLCAEONDICEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueDLCAeonDiceRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueDLCAeonDiceRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueDLCAeonDiceRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLCAEONDICEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueDLCAeonDiceRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLCAEONDICEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

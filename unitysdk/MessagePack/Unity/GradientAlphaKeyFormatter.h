@@ -7,13 +7,13 @@
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_GRADIENTALPHAKEYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A6C8C60)
-#define MESSAGEPACK_UNITY_GRADIENTALPHAKEYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A6C8C00)
-#define MESSAGEPACK_UNITY_GRADIENTALPHAKEYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6C8F40)
+#define MESSAGEPACK_UNITY_GRADIENTALPHAKEYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B503EA0)
+#define MESSAGEPACK_UNITY_GRADIENTALPHAKEYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B503E20)
+#define MESSAGEPACK_UNITY_GRADIENTALPHAKEYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B504180)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int GradientAlphaKeyFormatter_TypeDefinitionIndex = 9997;
+	inline static constexpr unsigned int GradientAlphaKeyFormatter_TypeDefinitionIndex = 9824;
 
 	class GradientAlphaKeyFormatter : public ::System::Object
 	{
@@ -23,14 +23,14 @@ namespace MessagePack::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_GRADIENTALPHAKEYFORMATTER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Serialize(::MessagePack::MessagePackWriter& writer, ::UnityEngine::GradientAlphaKey value, ::MessagePack::MessagePackSerializerOptions* options)
+		::System::Void Serialize(::MessagePack::MessagePackWriter& a1, ::UnityEngine::GradientAlphaKey a2, ::MessagePack::MessagePackSerializerOptions* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter&, ::UnityEngine::GradientAlphaKey, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_GRADIENTALPHAKEYFORMATTER_SERIALIZE_OFFSET))(this, writer, value, options);
+			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter&, ::UnityEngine::GradientAlphaKey, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_GRADIENTALPHAKEYFORMATTER_SERIALIZE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::GradientAlphaKey Deserialize(::MessagePack::MessagePackReader& reader, ::MessagePack::MessagePackSerializerOptions* options)
+		::UnityEngine::GradientAlphaKey Deserialize(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackSerializerOptions* a2)
 		{
-			return ((::UnityEngine::GradientAlphaKey(*)(::PVOID, ::MessagePack::MessagePackReader&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_GRADIENTALPHAKEYFORMATTER_DESERIALIZE_OFFSET))(this, reader, options);
+			return ((::UnityEngine::GradientAlphaKey(*)(::PVOID, ::MessagePack::MessagePackReader&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_GRADIENTALPHAKEYFORMATTER_DESERIALIZE_OFFSET))(this, a1, a2);
 		}
 	};
 }

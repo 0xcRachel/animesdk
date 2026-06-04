@@ -6,27 +6,27 @@ class Class_1_21DCD4640D389503_13;
 namespace RPG::Client { class PlayerPlatformInfo; }
 namespace System { class String; }
 
-#define RPG_CLIENT_FIGHTPLAYER_GET_HEADICONID_OFFSET UNITYSDK_OFFSET(0x15123630)
-#define RPG_CLIENT_FIGHTPLAYER_GET_HEADICONPATH_OFFSET UNITYSDK_OFFSET(0x15123680)
-#define RPG_CLIENT_FIGHTPLAYER_GET_NICKNAME_OFFSET UNITYSDK_OFFSET(0x151235D0)
-#define RPG_CLIENT_FIGHTPLAYER_GET_PLATFORMINFO_OFFSET UNITYSDK_OFFSET(0x15123750)
-#define RPG_CLIENT_FIGHTPLAYER_GET_UID_OFFSET UNITYSDK_OFFSET(0x15123580)
-#define RPG_CLIENT_FIGHTPLAYER_SET_PLATFORMINFO_OFFSET UNITYSDK_OFFSET(0x15123760)
-#define RPG_CLIENT_FIGHTPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x151234B0)
+#define RPG_CLIENT_FIGHTPLAYER_GET_HEADICONID_OFFSET UNITYSDK_OFFSET(0x16B8A800)
+#define RPG_CLIENT_FIGHTPLAYER_GET_HEADICONPATH_OFFSET UNITYSDK_OFFSET(0x16B8A850)
+#define RPG_CLIENT_FIGHTPLAYER_GET_NICKNAME_OFFSET UNITYSDK_OFFSET(0x16B8A7A0)
+#define RPG_CLIENT_FIGHTPLAYER_GET_PLATFORMINFO_OFFSET UNITYSDK_OFFSET(0x16B8A920)
+#define RPG_CLIENT_FIGHTPLAYER_GET_UID_OFFSET UNITYSDK_OFFSET(0x16B8A750)
+#define RPG_CLIENT_FIGHTPLAYER_SET_PLATFORMINFO_OFFSET UNITYSDK_OFFSET(0x16B8A930)
+#define RPG_CLIENT_FIGHTPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x16B8A680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightPlayer_TypeDefinitionIndex = 63933;
+	inline static constexpr unsigned int FightPlayer_TypeDefinitionIndex = 64854;
 
 	class FightPlayer : public ::System::Object
 	{
 	public:
-		::Class_1_21DCD4640D389503_13* _BasicInfo; // 0x10
-		::RPG::Client::PlayerPlatformInfo* _PlatformInfo_k__BackingField; // 0x18
+		::RPG::Client::PlayerPlatformInfo* _PlatformInfo_k__BackingField; // 0x10
+		::Class_1_21DCD4640D389503_13* _BasicInfo; // 0x18
 
-		::System::Void _ctor(::Class_1_21DCD4640D389503_13* basicInfo)
+		::System::Void _ctor(::Class_1_21DCD4640D389503_13* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_21DCD4640D389503_13*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTPLAYER__CTOR_OFFSET))(this, basicInfo);
+			return ((::System::Void(*)(::PVOID, ::Class_1_21DCD4640D389503_13*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTPLAYER__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_UID()
@@ -54,9 +54,9 @@ namespace RPG::Client
 			return ((::RPG::Client::PlayerPlatformInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTPLAYER_GET_PLATFORMINFO_OFFSET))(this);
 		}
 
-		::System::Void set_PlatformInfo(::RPG::Client::PlayerPlatformInfo* value)
+		::System::Void set_PlatformInfo(::RPG::Client::PlayerPlatformInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::PlayerPlatformInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTPLAYER_SET_PLATFORMINFO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PlayerPlatformInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTPLAYER_SET_PLATFORMINFO_OFFSET))(this, a1);
 		}
 	};
 }

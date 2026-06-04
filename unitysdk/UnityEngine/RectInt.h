@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_RECTINT_EQUALS_OFFSET UNITYSDK_OFFSET(0x22F5150)
-#define UNITYENGINE_RECTINT_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x6088B0)
-#define UNITYENGINE_RECTINT_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x608310)
-#define UNITYENGINE_RECTINT_GET_X_OFFSET UNITYSDK_OFFSET(0x608A20)
-#define UNITYENGINE_RECTINT_GET_Y_OFFSET UNITYSDK_OFFSET(0x608600)
-#define UNITYENGINE_RECTINT_SET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x22E55E0)
-#define UNITYENGINE_RECTINT_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0x1C9FE90)
-#define UNITYENGINE_RECTINT_SET_X_OFFSET UNITYSDK_OFFSET(0x6326D0)
-#define UNITYENGINE_RECTINT_SET_Y_OFFSET UNITYSDK_OFFSET(0x878E70)
-#define UNITYENGINE_RECTINT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2361C40)
-#define UNITYENGINE_RECTINT__CTOR_OFFSET UNITYSDK_OFFSET(0x608870)
+#define UNITYENGINE_RECTINT_EQUALS_OFFSET UNITYSDK_OFFSET(0x3891D80)
+#define UNITYENGINE_RECTINT_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x66C0A0)
+#define UNITYENGINE_RECTINT_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x66B8A0)
+#define UNITYENGINE_RECTINT_GET_X_OFFSET UNITYSDK_OFFSET(0x72BBF0)
+#define UNITYENGINE_RECTINT_GET_Y_OFFSET UNITYSDK_OFFSET(0x72B7E0)
+#define UNITYENGINE_RECTINT_SET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x3888C10)
+#define UNITYENGINE_RECTINT_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0x3723F90)
+#define UNITYENGINE_RECTINT_SET_X_OFFSET UNITYSDK_OFFSET(0xA18540)
+#define UNITYENGINE_RECTINT_SET_Y_OFFSET UNITYSDK_OFFSET(0xFD2470)
+#define UNITYENGINE_RECTINT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3925420)
+#define UNITYENGINE_RECTINT__CTOR_OFFSET UNITYSDK_OFFSET(0x72BA50)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RectInt_TypeDefinitionIndex = 3894;
+	inline static constexpr unsigned int RectInt_TypeDefinitionIndex = 4068;
 
 	struct alignas(4) RectInt
 	{
@@ -27,9 +27,9 @@ namespace UnityEngine
 		::System::Int32 m_Width; // 0x18
 		::System::Int32 m_Height; // 0x1C
 
-		::System::Void _ctor(::System::Int32 xMin, ::System::Int32 yMin, ::System::Int32 width, ::System::Int32 height)
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTINT__CTOR_OFFSET))(this, xMin, yMin, width, height);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTINT__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 get_x()
@@ -37,9 +37,9 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTINT_GET_X_OFFSET))(this);
 		}
 
-		::System::Void set_x(::System::Int32 value)
+		::System::Void set_x(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTINT_SET_X_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTINT_SET_X_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_y()
@@ -47,9 +47,9 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTINT_GET_Y_OFFSET))(this);
 		}
 
-		::System::Void set_y(::System::Int32 value)
+		::System::Void set_y(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTINT_SET_Y_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTINT_SET_Y_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_width()
@@ -57,9 +57,9 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTINT_GET_WIDTH_OFFSET))(this);
 		}
 
-		::System::Void set_width(::System::Int32 value)
+		::System::Void set_width(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTINT_SET_WIDTH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTINT_SET_WIDTH_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_height()
@@ -67,9 +67,9 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTINT_GET_HEIGHT_OFFSET))(this);
 		}
 
-		::System::Void set_height(::System::Int32 value)
+		::System::Void set_height(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTINT_SET_HEIGHT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTINT_SET_HEIGHT_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()
@@ -77,9 +77,9 @@ namespace UnityEngine
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTINT_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::UnityEngine::RectInt other)
+		::System::Boolean Equals(::UnityEngine::RectInt a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::RectInt))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTINT_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::RectInt))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTINT_EQUALS_OFFSET))(this, a1);
 		}
 	};
 }

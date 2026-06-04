@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DeployPuzzleFinished; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F0594DF7E77EA2AE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF0889F0)
-#define CLASS_3_F0594DF7E77EA2AE__CTOR_OFFSET UNITYSDK_OFFSET(0xF0889C0)
+#define CLASS_3_F0594DF7E77EA2AE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x172B5780)
+#define CLASS_3_F0594DF7E77EA2AE__CTOR_OFFSET UNITYSDK_OFFSET(0x172B5750)
 
-inline static constexpr unsigned int Class_3_F0594DF7E77EA2AE_TypeDefinitionIndex = 53556;
+inline static constexpr unsigned int Class_3_F0594DF7E77EA2AE_TypeDefinitionIndex = 54269;
 
 class Class_3_F0594DF7E77EA2AE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DeployPuzzleFinished*>
 {

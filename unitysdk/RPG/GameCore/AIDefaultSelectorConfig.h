@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AISelector; }
 
-#define RPG_GAMECORE_AIDEFAULTSELECTORCONFIG_METHOD_2_96C4BA5018255B8D_OFFSET UNITYSDK_OFFSET(0x188536C0)
-#define RPG_GAMECORE_AIDEFAULTSELECTORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x188537B0)
+#define RPG_GAMECORE_AIDEFAULTSELECTORCONFIG_METHOD_2_96C4BA5018255B8D_OFFSET UNITYSDK_OFFSET(0x1987F860)
+#define RPG_GAMECORE_AIDEFAULTSELECTORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1987F950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIDefaultSelectorConfig_TypeDefinitionIndex = 14771;
+	inline static constexpr unsigned int AIDefaultSelectorConfig_TypeDefinitionIndex = 14835;
 
 	class AIDefaultSelectorConfig : public ::RPG::GameCore::JsonConfig
 	{

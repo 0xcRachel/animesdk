@@ -6,10 +6,10 @@ class Class_2_293C6AF513403273;
 class Class_2_5B08965023A13089;
 namespace RPG::Client { class IAssetOperation; }
 
-#define CLASS_2_5B08965023A13089___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE4C3D90)
-#define CLASS_2_5B08965023A13089___C__DISPLAYCLASS7_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0xE4C3E40)
+#define CLASS_2_5B08965023A13089___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17802C50)
+#define CLASS_2_5B08965023A13089___C__DISPLAYCLASS7_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x17802D50)
 
-inline static constexpr unsigned int Class_2_5B08965023A13089___c__DisplayClass7_0_TypeDefinitionIndex = 72639;
+inline static constexpr unsigned int Class_2_5B08965023A13089___c__DisplayClass7_0_TypeDefinitionIndex = 74462;
 
 class Class_2_5B08965023A13089___c__DisplayClass7_0 : public ::System::Object
 {
@@ -22,8 +22,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5B08965023A13089___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean _Execute_b__0(::RPG::Client::IAssetOperation* loader)
+	::System::Boolean _Execute_b__0(::RPG::Client::IAssetOperation* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IAssetOperation*))((::PBYTE)hIl2Cpp + CLASS_2_5B08965023A13089___C__DISPLAYCLASS7_0__EXECUTE_B__0_OFFSET))(this, loader);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IAssetOperation*))((::PBYTE)hIl2Cpp + CLASS_2_5B08965023A13089___C__DISPLAYCLASS7_0__EXECUTE_B__0_OFFSET))(this, a1);
 	}
 };

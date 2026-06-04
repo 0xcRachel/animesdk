@@ -5,9 +5,9 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define STRUCT_2_EA10B3904250C4A0_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1F06190)
+#define STRUCT_2_EA10B3904250C4A0_EXECUTE_OFFSET UNITYSDK_OFFSET(0x3823270)
 
-inline static constexpr unsigned int Struct_2_EA10B3904250C4A0_TypeDefinitionIndex = 67861;
+inline static constexpr unsigned int Struct_2_EA10B3904250C4A0_TypeDefinitionIndex = 68819;
 
 struct alignas(8) Struct_2_EA10B3904250C4A0
 {

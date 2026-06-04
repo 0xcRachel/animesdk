@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_GAMEENTITY_COMPONENTDELAYEDTICKDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0xFE4C580)
-#define RPG_GAMECORE_GAMEENTITY_COMPONENTDELAYEDTICKDATA_SETCONFIGTICKTIME_OFFSET UNITYSDK_OFFSET(0xFE4C4A0)
-#define RPG_GAMECORE_GAMEENTITY_COMPONENTDELAYEDTICKDATA_TICK_OFFSET UNITYSDK_OFFSET(0xFE4C500)
-#define RPG_GAMECORE_GAMEENTITY_COMPONENTDELAYEDTICKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xFE4C490)
+#define RPG_GAMECORE_GAMEENTITY_COMPONENTDELAYEDTICKDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0x136FD600)
+#define RPG_GAMECORE_GAMEENTITY_COMPONENTDELAYEDTICKDATA_SETCONFIGTICKTIME_OFFSET UNITYSDK_OFFSET(0x136FD520)
+#define RPG_GAMECORE_GAMEENTITY_COMPONENTDELAYEDTICKDATA_TICK_OFFSET UNITYSDK_OFFSET(0x136FD580)
+#define RPG_GAMECORE_GAMEENTITY_COMPONENTDELAYEDTICKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x136FD510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameEntity_ComponentDelayedTickData_TypeDefinitionIndex = 49335;
+	inline static constexpr unsigned int GameEntity_ComponentDelayedTickData_TypeDefinitionIndex = 50002;
 
 	class GameEntity_ComponentDelayedTickData : public ::System::Object
 	{
@@ -22,14 +22,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITY_COMPONENTDELAYEDTICKDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetConfigTickTime(::System::Single configTickTime)
+		::System::Void SetConfigTickTime(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITY_COMPONENTDELAYEDTICKDATA_SETCONFIGTICKTIME_OFFSET))(this, configTickTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITY_COMPONENTDELAYEDTICKDATA_SETCONFIGTICKTIME_OFFSET))(this, a1);
 		}
 
-		::System::Single Tick(::System::Single time)
+		::System::Single Tick(::System::Single a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITY_COMPONENTDELAYEDTICKDATA_TICK_OFFSET))(this, time);
+			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITY_COMPONENTDELAYEDTICKDATA_TICK_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()

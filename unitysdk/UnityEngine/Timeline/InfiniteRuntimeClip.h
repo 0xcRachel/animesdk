@@ -4,29 +4,29 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Timeline/RuntimeElement.h"
 
-#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_EVALUATEAT_OFFSET UNITYSDK_OFFSET(0x18A9DC50)
-#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_GET_INTERVALEND_OFFSET UNITYSDK_OFFSET(0x18A9DBA0)
-#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_GET_INTERVALSTART_OFFSET UNITYSDK_OFFSET(0x18A9DB90)
-#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_SET_ENABLE_OFFSET UNITYSDK_OFFSET(0x18A9DBE0)
-#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A9DCA0)
-#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x18A93320)
+#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_EVALUATEAT_OFFSET UNITYSDK_OFFSET(0x18B9B240)
+#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_GET_INTERVALEND_OFFSET UNITYSDK_OFFSET(0x18B9B190)
+#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_GET_INTERVALSTART_OFFSET UNITYSDK_OFFSET(0x18B9B180)
+#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_SET_ENABLE_OFFSET UNITYSDK_OFFSET(0x18B9B1D0)
+#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B9B290)
+#define UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x18B90870)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int InfiniteRuntimeClip_TypeDefinitionIndex = 35579;
+	inline static constexpr unsigned int InfiniteRuntimeClip_TypeDefinitionIndex = 35879;
 
 	class InfiniteRuntimeClip : public ::UnityEngine::Timeline::RuntimeElement
 	{
 	public:
 		static ::System::Int64* StaticGet_kIntervalEnd()
 		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(InfiniteRuntimeClip_TypeDefinitionIndex)->GetStaticField(0x10DF0);
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(InfiniteRuntimeClip_TypeDefinitionIndex)->GetStaticField(0x127B0);
 		}
 		::UnityEngine::Playables::Playable m_Playable; // 0x18
 
-		::System::Void _ctor(::UnityEngine::Playables::Playable playable)
+		::System::Void _ctor(::UnityEngine::Playables::Playable a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP__CTOR_OFFSET))(this, playable);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP__CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -44,14 +44,14 @@ namespace UnityEngine::Timeline
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_GET_INTERVALEND_OFFSET))(this);
 		}
 
-		::System::Void set_enable(::System::Boolean value)
+		::System::Void set_enable(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_SET_ENABLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_SET_ENABLE_OFFSET))(this, a1);
 		}
 
-		::System::Void EvaluateAt(::System::Double localTime, ::UnityEngine::Playables::FrameData frameData)
+		::System::Void EvaluateAt(::System::Double a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_EVALUATEAT_OFFSET))(this, localTime, frameData);
+			return ((::System::Void(*)(::PVOID, ::System::Double, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_INFINITERUNTIMECLIP_EVALUATEAT_OFFSET))(this, a1, a2);
 		}
 	};
 }

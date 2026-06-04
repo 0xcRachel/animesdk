@@ -6,19 +6,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVEPOWERBYTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A8CA00)
-#define RPG_GAMECORE_IDLELIVEPOWERBYTAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A8CC40)
+#define RPG_GAMECORE_IDLELIVEPOWERBYTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AD8D80)
+#define RPG_GAMECORE_IDLELIVEPOWERBYTAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD8FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLivePowerByTagRow_TypeDefinitionIndex = 11154;
+	inline static constexpr unsigned int IdleLivePowerByTagRow_TypeDefinitionIndex = 11202;
 
 	class IdleLivePowerByTagRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint TagAddPower; // 0x10
-		::RPG::GameCore::ILBattleAvatarTag AvatarTag; // 0x18
-		::System::UInt32 Num; // 0x1C
+		::RPG::GameCore::ILBattleAvatarTag AvatarTag; // 0x10
+		::System::UInt32 Num; // 0x14
+		::RPG::GameCore::FixPoint TagAddPower; // 0x18
 		::RPG::GameCore::FixPoint TagPowerFactor; // 0x20
 
 		::System::Void _ctor()
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEPOWERBYTAGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::IdleLivePowerByTagRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IdleLivePowerByTagRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLivePowerByTagRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEPOWERBYTAGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLivePowerByTagRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEPOWERBYTAGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

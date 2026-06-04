@@ -11,77 +11,77 @@ namespace System { class RuntimeType; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_ENUM_COMPARETO_OFFSET UNITYSDK_OFFSET(0x17D2D310)
-#define SYSTEM_ENUM_EQUALS_OFFSET UNITYSDK_OFFSET(0x17D2CDB0)
-#define SYSTEM_ENUM_FORMAT_OFFSET UNITYSDK_OFFSET(0x17D2C500)
-#define SYSTEM_ENUM_GETCACHEDVALUESANDNAMES_OFFSET UNITYSDK_OFFSET(0x17D29850)
-#define SYSTEM_ENUM_GETENUMVALUESANDNAMES_OFFSET UNITYSDK_OFFSET(0x17D299C0)
-#define SYSTEM_ENUM_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17D2CDC0)
-#define SYSTEM_ENUM_GETNAMES_OFFSET UNITYSDK_OFFSET(0x17D2B7A0)
-#define SYSTEM_ENUM_GETNAME_OFFSET UNITYSDK_OFFSET(0x17D29E80)
-#define SYSTEM_ENUM_GETTYPECODE_OFFSET UNITYSDK_OFFSET(0x17D2D740)
-#define SYSTEM_ENUM_GETUNDERLYINGTYPE_OFFSET UNITYSDK_OFFSET(0x17D07470)
-#define SYSTEM_ENUM_GETVALUES_OFFSET UNITYSDK_OFFSET(0x17D2B730)
-#define SYSTEM_ENUM_GETVALUE_OFFSET UNITYSDK_OFFSET(0x17D2CB00)
-#define SYSTEM_ENUM_GET_HASHCODE_OFFSET UNITYSDK_OFFSET(0x17D2CD10)
-#define SYSTEM_ENUM_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x17D2CBF0)
-#define SYSTEM_ENUM_HASFLAG_OFFSET UNITYSDK_OFFSET(0x17D2D560)
-#define SYSTEM_ENUM_INTERNALBOXENUM_OFFSET UNITYSDK_OFFSET(0x17D2A370)
-#define SYSTEM_ENUM_INTERNALCOMPARETO_OFFSET UNITYSDK_OFFSET(0x17D2A2F0)
-#define SYSTEM_ENUM_INTERNALFLAGSFORMAT_OFFSET UNITYSDK_OFFSET(0x17D29ED0)
-#define SYSTEM_ENUM_INTERNALFORMATTEDHEXSTRING_OFFSET UNITYSDK_OFFSET(0x17D29A00)
-#define SYSTEM_ENUM_INTERNALFORMAT_OFFSET UNITYSDK_OFFSET(0x17D29DD0)
-#define SYSTEM_ENUM_INTERNALGETNAMES_OFFSET UNITYSDK_OFFSET(0x17D2B820)
-#define SYSTEM_ENUM_INTERNALGETUNDERLYINGTYPE_OFFSET UNITYSDK_OFFSET(0x17D2A300)
-#define SYSTEM_ENUM_INTERNALGETVALUES_OFFSET UNITYSDK_OFFSET(0x17D2B780)
-#define SYSTEM_ENUM_INTERNALHASFLAG_OFFSET UNITYSDK_OFFSET(0x17D2CC70)
-#define SYSTEM_ENUM_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x17D2C480)
-#define SYSTEM_ENUM_PARSE_1_OFFSET UNITYSDK_OFFSET(0x17D2A3A0)
-#define SYSTEM_ENUM_PARSE_OFFSET UNITYSDK_OFFSET(0x17D19470)
-#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOBOOLEAN_OFFSET UNITYSDK_OFFSET(0x17D2D9B0)
-#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOBYTE_OFFSET UNITYSDK_OFFSET(0x17D2DC80)
-#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOCHAR_OFFSET UNITYSDK_OFFSET(0x17D2DAA0)
-#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TODATETIME_OFFSET UNITYSDK_OFFSET(0x17D2E600)
-#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TODECIMAL_OFFSET UNITYSDK_OFFSET(0x17D2E4F0)
-#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TODOUBLE_OFFSET UNITYSDK_OFFSET(0x17D2E400)
-#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOINT16_OFFSET UNITYSDK_OFFSET(0x17D2DD70)
-#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOINT32_OFFSET UNITYSDK_OFFSET(0x17D2DF50)
-#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOINT64_OFFSET UNITYSDK_OFFSET(0x17D2E130)
-#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOSBYTE_OFFSET UNITYSDK_OFFSET(0x17D2DB90)
-#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOSINGLE_OFFSET UNITYSDK_OFFSET(0x17D2E310)
-#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOTYPE_OFFSET UNITYSDK_OFFSET(0x17D2E6D0)
-#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOUINT16_OFFSET UNITYSDK_OFFSET(0x17D2DE60)
-#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOUINT32_OFFSET UNITYSDK_OFFSET(0x17D2E040)
-#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOUINT64_OFFSET UNITYSDK_OFFSET(0x17D2E220)
-#define SYSTEM_ENUM_TOOBJECT_10_OFFSET UNITYSDK_OFFSET(0x17D2C320)
-#define SYSTEM_ENUM_TOOBJECT_1_OFFSET UNITYSDK_OFFSET(0x17D2B980)
-#define SYSTEM_ENUM_TOOBJECT_2_OFFSET UNITYSDK_OFFSET(0x17D2BAE0)
-#define SYSTEM_ENUM_TOOBJECT_3_OFFSET UNITYSDK_OFFSET(0x17D2B840)
-#define SYSTEM_ENUM_TOOBJECT_4_OFFSET UNITYSDK_OFFSET(0x17D2BF00)
-#define SYSTEM_ENUM_TOOBJECT_5_OFFSET UNITYSDK_OFFSET(0x17D2C060)
-#define SYSTEM_ENUM_TOOBJECT_6_OFFSET UNITYSDK_OFFSET(0x17D2BDA0)
-#define SYSTEM_ENUM_TOOBJECT_7_OFFSET UNITYSDK_OFFSET(0x17D2BC40)
-#define SYSTEM_ENUM_TOOBJECT_8_OFFSET UNITYSDK_OFFSET(0x17D2B600)
-#define SYSTEM_ENUM_TOOBJECT_9_OFFSET UNITYSDK_OFFSET(0x17D2C1C0)
-#define SYSTEM_ENUM_TOOBJECT_OFFSET UNITYSDK_OFFSET(0x17D2AF80)
-#define SYSTEM_ENUM_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x17D2CF50)
-#define SYSTEM_ENUM_TOSTRING_2_OFFSET UNITYSDK_OFFSET(0x17D2CF60)
-#define SYSTEM_ENUM_TOSTRING_3_OFFSET UNITYSDK_OFFSET(0x17D2D470)
-#define SYSTEM_ENUM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17D2CE60)
-#define SYSTEM_ENUM_TOUINT64_OFFSET UNITYSDK_OFFSET(0x17D2A1C0)
-#define SYSTEM_ENUM_TRYPARSEENUM_OFFSET UNITYSDK_OFFSET(0x17D2A470)
-#define SYSTEM_ENUM__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D2E6F0)
-#define SYSTEM_ENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x17D2E6E0)
+#define SYSTEM_ENUM_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1761EF30)
+#define SYSTEM_ENUM_EQUALS_OFFSET UNITYSDK_OFFSET(0x1761EC20)
+#define SYSTEM_ENUM_FORMAT_OFFSET UNITYSDK_OFFSET(0x1761E530)
+#define SYSTEM_ENUM_GETCACHEDVALUESANDNAMES_OFFSET UNITYSDK_OFFSET(0x1761B810)
+#define SYSTEM_ENUM_GETENUMVALUESANDNAMES_OFFSET UNITYSDK_OFFSET(0x1761B9A0)
+#define SYSTEM_ENUM_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1761EC30)
+#define SYSTEM_ENUM_GETNAMES_OFFSET UNITYSDK_OFFSET(0x1761D7C0)
+#define SYSTEM_ENUM_GETNAME_OFFSET UNITYSDK_OFFSET(0x1761BE70)
+#define SYSTEM_ENUM_GETTYPECODE_OFFSET UNITYSDK_OFFSET(0x1761F250)
+#define SYSTEM_ENUM_GETUNDERLYINGTYPE_OFFSET UNITYSDK_OFFSET(0x175FB0A0)
+#define SYSTEM_ENUM_GETVALUES_OFFSET UNITYSDK_OFFSET(0x1761D750)
+#define SYSTEM_ENUM_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1761EAE0)
+#define SYSTEM_ENUM_GET_HASHCODE_OFFSET UNITYSDK_OFFSET(0x1761EB80)
+#define SYSTEM_ENUM_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1761EB60)
+#define SYSTEM_ENUM_HASFLAG_OFFSET UNITYSDK_OFFSET(0x1761F100)
+#define SYSTEM_ENUM_INTERNALBOXENUM_OFFSET UNITYSDK_OFFSET(0x1761C3A0)
+#define SYSTEM_ENUM_INTERNALCOMPARETO_OFFSET UNITYSDK_OFFSET(0x1761C320)
+#define SYSTEM_ENUM_INTERNALFLAGSFORMAT_OFFSET UNITYSDK_OFFSET(0x1761BEC0)
+#define SYSTEM_ENUM_INTERNALFORMATTEDHEXSTRING_OFFSET UNITYSDK_OFFSET(0x1761B9E0)
+#define SYSTEM_ENUM_INTERNALFORMAT_OFFSET UNITYSDK_OFFSET(0x1761BDC0)
+#define SYSTEM_ENUM_INTERNALGETNAMES_OFFSET UNITYSDK_OFFSET(0x1761D840)
+#define SYSTEM_ENUM_INTERNALGETUNDERLYINGTYPE_OFFSET UNITYSDK_OFFSET(0x1761C330)
+#define SYSTEM_ENUM_INTERNALGETVALUES_OFFSET UNITYSDK_OFFSET(0x1761D7A0)
+#define SYSTEM_ENUM_INTERNALHASFLAG_OFFSET UNITYSDK_OFFSET(0x1761EB70)
+#define SYSTEM_ENUM_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x1761E4B0)
+#define SYSTEM_ENUM_PARSE_1_OFFSET UNITYSDK_OFFSET(0x1761C3D0)
+#define SYSTEM_ENUM_PARSE_OFFSET UNITYSDK_OFFSET(0x1760BA10)
+#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOBOOLEAN_OFFSET UNITYSDK_OFFSET(0x1761F490)
+#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOBYTE_OFFSET UNITYSDK_OFFSET(0x1761F640)
+#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOCHAR_OFFSET UNITYSDK_OFFSET(0x1761F520)
+#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TODATETIME_OFFSET UNITYSDK_OFFSET(0x1761FC00)
+#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TODECIMAL_OFFSET UNITYSDK_OFFSET(0x1761FB50)
+#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TODOUBLE_OFFSET UNITYSDK_OFFSET(0x1761FAC0)
+#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOINT16_OFFSET UNITYSDK_OFFSET(0x1761F6D0)
+#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOINT32_OFFSET UNITYSDK_OFFSET(0x1761F7F0)
+#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOINT64_OFFSET UNITYSDK_OFFSET(0x1761F910)
+#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOSBYTE_OFFSET UNITYSDK_OFFSET(0x1761F5B0)
+#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOSINGLE_OFFSET UNITYSDK_OFFSET(0x1761FA30)
+#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOTYPE_OFFSET UNITYSDK_OFFSET(0x1761FCD0)
+#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOUINT16_OFFSET UNITYSDK_OFFSET(0x1761F760)
+#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOUINT32_OFFSET UNITYSDK_OFFSET(0x1761F880)
+#define SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOUINT64_OFFSET UNITYSDK_OFFSET(0x1761F9A0)
+#define SYSTEM_ENUM_TOOBJECT_10_OFFSET UNITYSDK_OFFSET(0x1761E350)
+#define SYSTEM_ENUM_TOOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1761D9A0)
+#define SYSTEM_ENUM_TOOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1761DB10)
+#define SYSTEM_ENUM_TOOBJECT_3_OFFSET UNITYSDK_OFFSET(0x1761D860)
+#define SYSTEM_ENUM_TOOBJECT_4_OFFSET UNITYSDK_OFFSET(0x1761DF30)
+#define SYSTEM_ENUM_TOOBJECT_5_OFFSET UNITYSDK_OFFSET(0x1761E090)
+#define SYSTEM_ENUM_TOOBJECT_6_OFFSET UNITYSDK_OFFSET(0x1761DDD0)
+#define SYSTEM_ENUM_TOOBJECT_7_OFFSET UNITYSDK_OFFSET(0x1761DC70)
+#define SYSTEM_ENUM_TOOBJECT_8_OFFSET UNITYSDK_OFFSET(0x1761D610)
+#define SYSTEM_ENUM_TOOBJECT_9_OFFSET UNITYSDK_OFFSET(0x1761E1F0)
+#define SYSTEM_ENUM_TOOBJECT_OFFSET UNITYSDK_OFFSET(0x1761CF90)
+#define SYSTEM_ENUM_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x1761ED40)
+#define SYSTEM_ENUM_TOSTRING_2_OFFSET UNITYSDK_OFFSET(0x1761ED50)
+#define SYSTEM_ENUM_TOSTRING_3_OFFSET UNITYSDK_OFFSET(0x1761F090)
+#define SYSTEM_ENUM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1761ECD0)
+#define SYSTEM_ENUM_TOUINT64_OFFSET UNITYSDK_OFFSET(0x1761C1D0)
+#define SYSTEM_ENUM_TRYPARSEENUM_OFFSET UNITYSDK_OFFSET(0x1761C4C0)
+#define SYSTEM_ENUM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1761FCF0)
+#define SYSTEM_ENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1761FCE0)
 
 namespace System
 {
-	inline static constexpr unsigned int Enum_TypeDefinitionIndex = 238;
+	inline static constexpr unsigned int Enum_TypeDefinitionIndex = 237;
 
 	struct alignas(8) Enum
 	{
 		static ::Il2CppArray<::System::Char>** StaticGet_enumSeperatorCharArray()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(Enum_TypeDefinitionIndex)->GetStaticField(0x6400);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(Enum_TypeDefinitionIndex)->GetStaticField(0x64C0);
 		}
 		// static const ::System::String* enumSeperator; // 0x0
 
@@ -95,111 +95,111 @@ namespace System
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_ENUM__CCTOR_OFFSET))();
 		}
 
-		static ::System::Enum_ValuesAndNames* GetCachedValuesAndNames(::System::RuntimeType* enumType, ::System::Boolean getNames)
+		static ::System::Enum_ValuesAndNames* GetCachedValuesAndNames(::System::RuntimeType* a1, ::System::Boolean a2)
 		{
-			return ((::System::Enum_ValuesAndNames*(*)(::System::RuntimeType*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_GETCACHEDVALUESANDNAMES_OFFSET))(enumType, getNames);
+			return ((::System::Enum_ValuesAndNames*(*)(::System::RuntimeType*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_GETCACHEDVALUESANDNAMES_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* InternalFormattedHexString(::System::Object* value)
+		static ::System::String* InternalFormattedHexString(::System::Object* a1)
 		{
-			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_INTERNALFORMATTEDHEXSTRING_OFFSET))(value);
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_INTERNALFORMATTEDHEXSTRING_OFFSET))(a1);
 		}
 
-		static ::System::String* InternalFormat(::System::RuntimeType* eT, ::System::Object* value)
+		static ::System::String* InternalFormat(::System::RuntimeType* a1, ::System::Object* a2)
 		{
-			return ((::System::String*(*)(::System::RuntimeType*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_INTERNALFORMAT_OFFSET))(eT, value);
+			return ((::System::String*(*)(::System::RuntimeType*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_INTERNALFORMAT_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* InternalFlagsFormat(::System::RuntimeType* eT, ::System::Object* value)
+		static ::System::String* InternalFlagsFormat(::System::RuntimeType* a1, ::System::Object* a2)
 		{
-			return ((::System::String*(*)(::System::RuntimeType*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_INTERNALFLAGSFORMAT_OFFSET))(eT, value);
+			return ((::System::String*(*)(::System::RuntimeType*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_INTERNALFLAGSFORMAT_OFFSET))(a1, a2);
 		}
 
-		static ::System::UInt64 ToUInt64(::System::Object* value)
+		static ::System::UInt64 ToUInt64(::System::Object* a1)
 		{
-			return ((::System::UInt64(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOUINT64_OFFSET))(value);
+			return ((::System::UInt64(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOUINT64_OFFSET))(a1);
 		}
 
-		static ::System::Int32 InternalCompareTo(::System::Object* o1, ::System::Object* o2)
+		static ::System::Int32 InternalCompareTo(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Int32(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_INTERNALCOMPARETO_OFFSET))(o1, o2);
+			return ((::System::Int32(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_INTERNALCOMPARETO_OFFSET))(a1, a2);
 		}
 
-		static ::System::RuntimeType* InternalGetUnderlyingType(::System::RuntimeType* enumType)
+		static ::System::RuntimeType* InternalGetUnderlyingType(::System::RuntimeType* a1)
 		{
-			return ((::System::RuntimeType*(*)(::System::RuntimeType*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_INTERNALGETUNDERLYINGTYPE_OFFSET))(enumType);
+			return ((::System::RuntimeType*(*)(::System::RuntimeType*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_INTERNALGETUNDERLYINGTYPE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean GetEnumValuesAndNames(::System::RuntimeType* enumType, ::Il2CppArray<::System::UInt64>*& values, ::Il2CppArray<::System::String*>*& names)
+		static ::System::Boolean GetEnumValuesAndNames(::System::RuntimeType* a1, ::Il2CppArray<::System::UInt64>*& a2, ::Il2CppArray<::System::String*>*& a3)
 		{
-			return ((::System::Boolean(*)(::System::RuntimeType*, ::Il2CppArray<::System::UInt64>*&, ::Il2CppArray<::System::String*>*&))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_GETENUMVALUESANDNAMES_OFFSET))(enumType, values, names);
+			return ((::System::Boolean(*)(::System::RuntimeType*, ::Il2CppArray<::System::UInt64>*&, ::Il2CppArray<::System::String*>*&))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_GETENUMVALUESANDNAMES_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Object* InternalBoxEnum(::System::RuntimeType* enumType, ::System::Int64 value)
+		static ::System::Object* InternalBoxEnum(::System::RuntimeType* a1, ::System::Int64 a2)
 		{
-			return ((::System::Object*(*)(::System::RuntimeType*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_INTERNALBOXENUM_OFFSET))(enumType, value);
+			return ((::System::Object*(*)(::System::RuntimeType*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_INTERNALBOXENUM_OFFSET))(a1, a2);
 		}
 
-		static ::System::Object* Parse(::System::Type* enumType, ::System::String* value)
+		static ::System::Object* Parse(::System::Type* a1, ::System::String* a2)
 		{
-			return ((::System::Object*(*)(::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_PARSE_OFFSET))(enumType, value);
+			return ((::System::Object*(*)(::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_PARSE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Object* Parse_1(::System::Type* enumType, ::System::String* value, ::System::Boolean ignoreCase)
+		static ::System::Object* Parse_1(::System::Type* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::System::Object*(*)(::System::Type*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_PARSE_1_OFFSET))(enumType, value, ignoreCase);
+			return ((::System::Object*(*)(::System::Type*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_PARSE_1_OFFSET))(a1, a2, a3);
 		}
 
 		/*
-		static ::System::Boolean TryParseEnum(::System::Type* enumType, ::System::String* value, ::System::Boolean ignoreCase, ::System::Enum_EnumResult& parseResult)
+		static ::System::Boolean TryParseEnum(::System::Type* a1, ::System::String* a2, ::System::Boolean a3, ::System::Enum_EnumResult& a4)
 		{
-			return ((::System::Boolean(*)(::System::Type*, ::System::String*, ::System::Boolean, ::System::Enum_EnumResult&))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TRYPARSEENUM_OFFSET))(enumType, value, ignoreCase, parseResult);
+			return ((::System::Boolean(*)(::System::Type*, ::System::String*, ::System::Boolean, ::System::Enum_EnumResult&))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TRYPARSEENUM_OFFSET))(a1, a2, a3, a4);
 		}
 		*/
 
-		static ::System::Type* GetUnderlyingType(::System::Type* enumType)
+		static ::System::Type* GetUnderlyingType(::System::Type* a1)
 		{
-			return ((::System::Type*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_GETUNDERLYINGTYPE_OFFSET))(enumType);
+			return ((::System::Type*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_GETUNDERLYINGTYPE_OFFSET))(a1);
 		}
 
-		static ::System::Array* GetValues(::System::Type* enumType)
+		static ::System::Array* GetValues(::System::Type* a1)
 		{
-			return ((::System::Array*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_GETVALUES_OFFSET))(enumType);
+			return ((::System::Array*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_GETVALUES_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::System::UInt64>* InternalGetValues(::System::RuntimeType* enumType)
+		static ::Il2CppArray<::System::UInt64>* InternalGetValues(::System::RuntimeType* a1)
 		{
-			return ((::Il2CppArray<::System::UInt64>*(*)(::System::RuntimeType*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_INTERNALGETVALUES_OFFSET))(enumType);
+			return ((::Il2CppArray<::System::UInt64>*(*)(::System::RuntimeType*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_INTERNALGETVALUES_OFFSET))(a1);
 		}
 
-		static ::System::String* GetName(::System::Type* enumType, ::System::Object* value)
+		static ::System::String* GetName(::System::Type* a1, ::System::Object* a2)
 		{
-			return ((::System::String*(*)(::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_GETNAME_OFFSET))(enumType, value);
+			return ((::System::String*(*)(::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_GETNAME_OFFSET))(a1, a2);
 		}
 
-		static ::Il2CppArray<::System::String*>* GetNames(::System::Type* enumType)
+		static ::Il2CppArray<::System::String*>* GetNames(::System::Type* a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_GETNAMES_OFFSET))(enumType);
+			return ((::Il2CppArray<::System::String*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_GETNAMES_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::System::String*>* InternalGetNames(::System::RuntimeType* enumType)
+		static ::Il2CppArray<::System::String*>* InternalGetNames(::System::RuntimeType* a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::System::RuntimeType*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_INTERNALGETNAMES_OFFSET))(enumType);
+			return ((::Il2CppArray<::System::String*>*(*)(::System::RuntimeType*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_INTERNALGETNAMES_OFFSET))(a1);
 		}
 
-		static ::System::Object* ToObject(::System::Type* enumType, ::System::Object* value)
+		static ::System::Object* ToObject(::System::Type* a1, ::System::Object* a2)
 		{
-			return ((::System::Object*(*)(::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_OFFSET))(enumType, value);
+			return ((::System::Object*(*)(::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsDefined(::System::Type* enumType, ::System::Object* value)
+		static ::System::Boolean IsDefined(::System::Type* a1, ::System::Object* a2)
 		{
-			return ((::System::Boolean(*)(::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_ISDEFINED_OFFSET))(enumType, value);
+			return ((::System::Boolean(*)(::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_ISDEFINED_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* Format(::System::Type* enumType, ::System::Object* value, ::System::String* format)
+		static ::System::String* Format(::System::Type* a1, ::System::Object* a2, ::System::String* a3)
 		{
-			return ((::System::String*(*)(::System::Type*, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_FORMAT_OFFSET))(enumType, value, format);
+			return ((::System::String*(*)(::System::Type*, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_FORMAT_OFFSET))(a1, a2, a3);
 		}
 
 		::System::Object* get_value()
@@ -212,9 +212,9 @@ namespace System
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_GETVALUE_OFFSET))(this);
 		}
 
-		::System::Boolean InternalHasFlag(::System::Enum* flags)
+		::System::Boolean InternalHasFlag(::System::Enum* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Enum*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_INTERNALHASFLAG_OFFSET))(this, flags);
+			return ((::System::Boolean(*)(::PVOID, ::System::Enum*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_INTERNALHASFLAG_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_hashcode()
@@ -222,9 +222,9 @@ namespace System
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_GET_HASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -237,29 +237,29 @@ namespace System
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOSTRING_OFFSET))(this);
 		}
 
-		::System::String* ToString_1(::System::String* format, ::System::IFormatProvider* provider)
+		::System::String* ToString_1(::System::String* a1, ::System::IFormatProvider* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOSTRING_1_OFFSET))(this, format, provider);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOSTRING_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 CompareTo(::System::Object* target)
+		::System::Int32 CompareTo(::System::Object* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_COMPARETO_OFFSET))(this, target);
+			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_COMPARETO_OFFSET))(this, a1);
 		}
 
-		::System::String* ToString_2(::System::String* format)
+		::System::String* ToString_2(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOSTRING_2_OFFSET))(this, format);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOSTRING_2_OFFSET))(this, a1);
 		}
 
-		::System::String* ToString_3(::System::IFormatProvider* provider)
+		::System::String* ToString_3(::System::IFormatProvider* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOSTRING_3_OFFSET))(this, provider);
+			return ((::System::String*(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOSTRING_3_OFFSET))(this, a1);
 		}
 
-		::System::Boolean HasFlag(::System::Enum* flag)
+		::System::Boolean HasFlag(::System::Enum* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Enum*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_HASFLAG_OFFSET))(this, flag);
+			return ((::System::Boolean(*)(::PVOID, ::System::Enum*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_HASFLAG_OFFSET))(this, a1);
 		}
 
 		::System::TypeCode GetTypeCode()
@@ -267,133 +267,133 @@ namespace System
 			return ((::System::TypeCode(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_GETTYPECODE_OFFSET))(this);
 		}
 
-		::System::Boolean System_IConvertible_ToBoolean(::System::IFormatProvider* provider)
+		::System::Boolean System_IConvertible_ToBoolean(::System::IFormatProvider* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOBOOLEAN_OFFSET))(this, provider);
+			return ((::System::Boolean(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOBOOLEAN_OFFSET))(this, a1);
 		}
 
-		::System::Char System_IConvertible_ToChar(::System::IFormatProvider* provider)
+		::System::Char System_IConvertible_ToChar(::System::IFormatProvider* a1)
 		{
-			return ((::System::Char(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOCHAR_OFFSET))(this, provider);
+			return ((::System::Char(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOCHAR_OFFSET))(this, a1);
 		}
 
-		::System::SByte System_IConvertible_ToSByte(::System::IFormatProvider* provider)
+		::System::SByte System_IConvertible_ToSByte(::System::IFormatProvider* a1)
 		{
-			return ((::System::SByte(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOSBYTE_OFFSET))(this, provider);
+			return ((::System::SByte(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOSBYTE_OFFSET))(this, a1);
 		}
 
-		::System::Byte System_IConvertible_ToByte(::System::IFormatProvider* provider)
+		::System::Byte System_IConvertible_ToByte(::System::IFormatProvider* a1)
 		{
-			return ((::System::Byte(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOBYTE_OFFSET))(this, provider);
+			return ((::System::Byte(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOBYTE_OFFSET))(this, a1);
 		}
 
-		::System::Int16 System_IConvertible_ToInt16(::System::IFormatProvider* provider)
+		::System::Int16 System_IConvertible_ToInt16(::System::IFormatProvider* a1)
 		{
-			return ((::System::Int16(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOINT16_OFFSET))(this, provider);
+			return ((::System::Int16(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOINT16_OFFSET))(this, a1);
 		}
 
-		::System::UInt16 System_IConvertible_ToUInt16(::System::IFormatProvider* provider)
+		::System::UInt16 System_IConvertible_ToUInt16(::System::IFormatProvider* a1)
 		{
-			return ((::System::UInt16(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOUINT16_OFFSET))(this, provider);
+			return ((::System::UInt16(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOUINT16_OFFSET))(this, a1);
 		}
 
-		::System::Int32 System_IConvertible_ToInt32(::System::IFormatProvider* provider)
+		::System::Int32 System_IConvertible_ToInt32(::System::IFormatProvider* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOINT32_OFFSET))(this, provider);
+			return ((::System::Int32(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOINT32_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 System_IConvertible_ToUInt32(::System::IFormatProvider* provider)
+		::System::UInt32 System_IConvertible_ToUInt32(::System::IFormatProvider* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOUINT32_OFFSET))(this, provider);
+			return ((::System::UInt32(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOUINT32_OFFSET))(this, a1);
 		}
 
-		::System::Int64 System_IConvertible_ToInt64(::System::IFormatProvider* provider)
+		::System::Int64 System_IConvertible_ToInt64(::System::IFormatProvider* a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOINT64_OFFSET))(this, provider);
+			return ((::System::Int64(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOINT64_OFFSET))(this, a1);
 		}
 
-		::System::UInt64 System_IConvertible_ToUInt64(::System::IFormatProvider* provider)
+		::System::UInt64 System_IConvertible_ToUInt64(::System::IFormatProvider* a1)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOUINT64_OFFSET))(this, provider);
+			return ((::System::UInt64(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOUINT64_OFFSET))(this, a1);
 		}
 
-		::System::Single System_IConvertible_ToSingle(::System::IFormatProvider* provider)
+		::System::Single System_IConvertible_ToSingle(::System::IFormatProvider* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOSINGLE_OFFSET))(this, provider);
+			return ((::System::Single(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOSINGLE_OFFSET))(this, a1);
 		}
 
-		::System::Double System_IConvertible_ToDouble(::System::IFormatProvider* provider)
+		::System::Double System_IConvertible_ToDouble(::System::IFormatProvider* a1)
 		{
-			return ((::System::Double(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TODOUBLE_OFFSET))(this, provider);
+			return ((::System::Double(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TODOUBLE_OFFSET))(this, a1);
 		}
 
 		/*
-		::System::Decimal System_IConvertible_ToDecimal(::System::IFormatProvider* provider)
+		::System::Decimal System_IConvertible_ToDecimal(::System::IFormatProvider* a1)
 		{
-			return ((::System::Decimal(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TODECIMAL_OFFSET))(this, provider);
+			return ((::System::Decimal(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TODECIMAL_OFFSET))(this, a1);
 		}
 		*/
 
 		/*
-		::System::DateTime System_IConvertible_ToDateTime(::System::IFormatProvider* provider)
+		::System::DateTime System_IConvertible_ToDateTime(::System::IFormatProvider* a1)
 		{
-			return ((::System::DateTime(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TODATETIME_OFFSET))(this, provider);
+			return ((::System::DateTime(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TODATETIME_OFFSET))(this, a1);
 		}
 		*/
 
-		::System::Object* System_IConvertible_ToType(::System::Type* type, ::System::IFormatProvider* provider)
+		::System::Object* System_IConvertible_ToType(::System::Type* a1, ::System::IFormatProvider* a2)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Type*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOTYPE_OFFSET))(this, type, provider);
+			return ((::System::Object*(*)(::PVOID, ::System::Type*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_SYSTEM_ICONVERTIBLE_TOTYPE_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Object* ToObject_1(::System::Type* enumType, ::System::SByte value)
+		static ::System::Object* ToObject_1(::System::Type* a1, ::System::SByte a2)
 		{
-			return ((::System::Object*(*)(::System::Type*, ::System::SByte))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_1_OFFSET))(enumType, value);
+			return ((::System::Object*(*)(::System::Type*, ::System::SByte))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Object* ToObject_2(::System::Type* enumType, ::System::Int16 value)
+		static ::System::Object* ToObject_2(::System::Type* a1, ::System::Int16 a2)
 		{
-			return ((::System::Object*(*)(::System::Type*, ::System::Int16))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_2_OFFSET))(enumType, value);
+			return ((::System::Object*(*)(::System::Type*, ::System::Int16))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Object* ToObject_3(::System::Type* enumType, ::System::Int32 value)
+		static ::System::Object* ToObject_3(::System::Type* a1, ::System::Int32 a2)
 		{
-			return ((::System::Object*(*)(::System::Type*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_3_OFFSET))(enumType, value);
+			return ((::System::Object*(*)(::System::Type*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_3_OFFSET))(a1, a2);
 		}
 
-		static ::System::Object* ToObject_4(::System::Type* enumType, ::System::Byte value)
+		static ::System::Object* ToObject_4(::System::Type* a1, ::System::Byte a2)
 		{
-			return ((::System::Object*(*)(::System::Type*, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_4_OFFSET))(enumType, value);
+			return ((::System::Object*(*)(::System::Type*, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_4_OFFSET))(a1, a2);
 		}
 
-		static ::System::Object* ToObject_5(::System::Type* enumType, ::System::UInt16 value)
+		static ::System::Object* ToObject_5(::System::Type* a1, ::System::UInt16 a2)
 		{
-			return ((::System::Object*(*)(::System::Type*, ::System::UInt16))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_5_OFFSET))(enumType, value);
+			return ((::System::Object*(*)(::System::Type*, ::System::UInt16))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_5_OFFSET))(a1, a2);
 		}
 
-		static ::System::Object* ToObject_6(::System::Type* enumType, ::System::UInt32 value)
+		static ::System::Object* ToObject_6(::System::Type* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Object*(*)(::System::Type*, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_6_OFFSET))(enumType, value);
+			return ((::System::Object*(*)(::System::Type*, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_6_OFFSET))(a1, a2);
 		}
 
-		static ::System::Object* ToObject_7(::System::Type* enumType, ::System::Int64 value)
+		static ::System::Object* ToObject_7(::System::Type* a1, ::System::Int64 a2)
 		{
-			return ((::System::Object*(*)(::System::Type*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_7_OFFSET))(enumType, value);
+			return ((::System::Object*(*)(::System::Type*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_7_OFFSET))(a1, a2);
 		}
 
-		static ::System::Object* ToObject_8(::System::Type* enumType, ::System::UInt64 value)
+		static ::System::Object* ToObject_8(::System::Type* a1, ::System::UInt64 a2)
 		{
-			return ((::System::Object*(*)(::System::Type*, ::System::UInt64))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_8_OFFSET))(enumType, value);
+			return ((::System::Object*(*)(::System::Type*, ::System::UInt64))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_8_OFFSET))(a1, a2);
 		}
 
-		static ::System::Object* ToObject_9(::System::Type* enumType, ::System::Char value)
+		static ::System::Object* ToObject_9(::System::Type* a1, ::System::Char a2)
 		{
-			return ((::System::Object*(*)(::System::Type*, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_9_OFFSET))(enumType, value);
+			return ((::System::Object*(*)(::System::Type*, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_9_OFFSET))(a1, a2);
 		}
 
-		static ::System::Object* ToObject_10(::System::Type* enumType, ::System::Boolean value)
+		static ::System::Object* ToObject_10(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::System::Object*(*)(::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_10_OFFSET))(enumType, value);
+			return ((::System::Object*(*)(::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_TOOBJECT_10_OFFSET))(a1, a2);
 		}
 	};
 }

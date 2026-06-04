@@ -4,23 +4,23 @@
 #include "unitysdk/Cinemachine/ViewportComposition.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CINEMACHINE_DIALOGUESHOTSETTINGS_GET_EDITORCOMPOSITIONS_OFFSET UNITYSDK_OFFSET(0x6469A0)
-#define CINEMACHINE_DIALOGUESHOTSETTINGS_METHOD_2_ACFE687AEF20661E_OFFSET UNITYSDK_OFFSET(0x1BB8080)
-#define CINEMACHINE_DIALOGUESHOTSETTINGS_METHOD_2_CF7B7B17AFC7D53A_OFFSET UNITYSDK_OFFSET(0x1BB8100)
-#define CINEMACHINE_DIALOGUESHOTSETTINGS_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB8060)
-#define CINEMACHINE_DIALOGUESHOTSETTINGS_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB8070)
-#define CINEMACHINE_DIALOGUESHOTSETTINGS_SET_EDITORCOMPOSITIONS_OFFSET UNITYSDK_OFFSET(0x1464EB0)
-#define CINEMACHINE_DIALOGUESHOTSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0xECF07E0)
+#define CINEMACHINE_DIALOGUESHOTSETTINGS_GET_EDITORCOMPOSITIONS_OFFSET UNITYSDK_OFFSET(0x66C010)
+#define CINEMACHINE_DIALOGUESHOTSETTINGS_METHOD_2_ACFE687AEF20661E_OFFSET UNITYSDK_OFFSET(0x3793CD0)
+#define CINEMACHINE_DIALOGUESHOTSETTINGS_METHOD_2_ADCAA416251B5828_OFFSET UNITYSDK_OFFSET(0x3793D50)
+#define CINEMACHINE_DIALOGUESHOTSETTINGS_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x3793CB0)
+#define CINEMACHINE_DIALOGUESHOTSETTINGS_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x3793CC0)
+#define CINEMACHINE_DIALOGUESHOTSETTINGS_SET_EDITORCOMPOSITIONS_OFFSET UNITYSDK_OFFSET(0x3742C50)
+#define CINEMACHINE_DIALOGUESHOTSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x14E47E60)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int DialogueShotSettings_TypeDefinitionIndex = 46230;
+	inline static constexpr unsigned int DialogueShotSettings_TypeDefinitionIndex = 46813;
 
 	struct alignas(8) DialogueShotSettings
 	{
 		static ::Cinemachine::DialogueShotSettings* StaticGet_Default()
 		{
-			return (::Cinemachine::DialogueShotSettings*)Il2CppClass::FromTypeDefinitionIndex(DialogueShotSettings_TypeDefinitionIndex)->GetStaticField(0x38990);
+			return (::Cinemachine::DialogueShotSettings*)Il2CppClass::FromTypeDefinitionIndex(DialogueShotSettings_TypeDefinitionIndex)->GetStaticField(0x65CA0);
 		}
 		::System::Single Yaw; // 0x10
 		::Cinemachine::ViewportComposition Own; // 0x14
@@ -37,9 +37,9 @@ namespace Cinemachine
 			return ((::Il2CppArray<::Cinemachine::EditorViewportComposition>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_DIALOGUESHOTSETTINGS_GET_EDITORCOMPOSITIONS_OFFSET))(this);
 		}
 
-		::System::Void set_EditorCompositions(::Il2CppArray<::Cinemachine::EditorViewportComposition>* value)
+		::System::Void set_EditorCompositions(::Il2CppArray<::Cinemachine::EditorViewportComposition>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Cinemachine::EditorViewportComposition>*))((::PBYTE)hIl2Cpp + CINEMACHINE_DIALOGUESHOTSETTINGS_SET_EDITORCOMPOSITIONS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Cinemachine::EditorViewportComposition>*))((::PBYTE)hIl2Cpp + CINEMACHINE_DIALOGUESHOTSETTINGS_SET_EDITORCOMPOSITIONS_OFFSET))(this, a1);
 		}
 
 		::System::Void OnAfterDeserialize()
@@ -57,9 +57,9 @@ namespace Cinemachine
 			return ((::Cinemachine::DialogueShotSettings(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_DIALOGUESHOTSETTINGS_METHOD_2_ACFE687AEF20661E_OFFSET))(this);
 		}
 
-		::System::Void Method_2_CF7B7B17AFC7D53A(::System::Int32 a1, ::Cinemachine::EditorViewportComposition a2)
+		::System::Void Method_2_ADCAA416251B5828(::System::Int32 a1, ::Cinemachine::EditorViewportComposition a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Cinemachine::EditorViewportComposition))((::PBYTE)hIl2Cpp + CINEMACHINE_DIALOGUESHOTSETTINGS_METHOD_2_CF7B7B17AFC7D53A_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Cinemachine::EditorViewportComposition))((::PBYTE)hIl2Cpp + CINEMACHINE_DIALOGUESHOTSETTINGS_METHOD_2_ADCAA416251B5828_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_64A188CF5A335254;
+class Class_1_BF3DE12C5A1505DF;
 
-#define RPG_CLIENT_MOTIONS_MONOMOTION_START_OFFSET UNITYSDK_OFFSET(0x13719560)
-#define RPG_CLIENT_MOTIONS_MONOMOTION_UPDATE_OFFSET UNITYSDK_OFFSET(0x137195E0)
-#define RPG_CLIENT_MOTIONS_MONOMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x13719670)
+#define RPG_CLIENT_MOTIONS_MONOMOTION_START_OFFSET UNITYSDK_OFFSET(0x169ACA20)
+#define RPG_CLIENT_MOTIONS_MONOMOTION_UPDATE_OFFSET UNITYSDK_OFFSET(0x169ACAA0)
+#define RPG_CLIENT_MOTIONS_MONOMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x169ACB30)
 
 namespace RPG::Client::Motions
 {
-	inline static constexpr unsigned int MonoMotion_TypeDefinitionIndex = 67670;
+	inline static constexpr unsigned int MonoMotion_TypeDefinitionIndex = 68628;
 
 	class MonoMotion : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Class_1_64A188CF5A335254* Field_5_0; // 0x18
+		::Class_1_BF3DE12C5A1505DF* Field_5_0; // 0x18
 
 		::System::Void _ctor()
 		{

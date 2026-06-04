@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERAXISTYPENAMEFROMENUM_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x17898990)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERAXISTYPENAMEFROMENUM_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17898A00)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERAXISTYPENAMEFROMENUM_INVOKE_OFFSET UNITYSDK_OFFSET(0x178986A0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERAXISTYPENAMEFROMENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x17898680)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERAXISTYPENAMEFROMENUM_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1959C450)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERAXISTYPENAMEFROMENUM_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1959C4C0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERAXISTYPENAMEFROMENUM_INVOKE_OFFSET UNITYSDK_OFFSET(0x1959C440)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERAXISTYPENAMEFROMENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1959C3D0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSystem__GetControllerAxisTypeNameFromEnum_TypeDefinitionIndex = 35689;
+	inline static constexpr unsigned int IVRSystem__GetControllerAxisTypeNameFromEnum_TypeDefinitionIndex = 35989;
 
 	class IVRSystem__GetControllerAxisTypeNameFromEnum : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERAXISTYPENAMEFROMENUM__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERAXISTYPENAMEFROMENUM__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::IntPtr Invoke(::ZenFulcrum::VR::OpenVRBinding::EVRControllerAxisType eAxisType)
+		::System::IntPtr Invoke(::ZenFulcrum::VR::OpenVRBinding::EVRControllerAxisType a1)
 		{
-			return ((::System::IntPtr(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRControllerAxisType))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERAXISTYPENAMEFROMENUM_INVOKE_OFFSET))(this, eAxisType);
+			return ((::System::IntPtr(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRControllerAxisType))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERAXISTYPENAMEFROMENUM_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::ZenFulcrum::VR::OpenVRBinding::EVRControllerAxisType eAxisType, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::ZenFulcrum::VR::OpenVRBinding::EVRControllerAxisType a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRControllerAxisType, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERAXISTYPENAMEFROMENUM_BEGININVOKE_OFFSET))(this, eAxisType, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRControllerAxisType, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERAXISTYPENAMEFROMENUM_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IntPtr EndInvoke(::System::IAsyncResult* result)
+		::System::IntPtr EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::IntPtr(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERAXISTYPENAMEFROMENUM_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::IntPtr(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERAXISTYPENAMEFROMENUM_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

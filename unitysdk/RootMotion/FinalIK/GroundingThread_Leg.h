@@ -9,25 +9,25 @@
 
 namespace RootMotion::FinalIK { class GroundingThread; }
 
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_GETHEIGHTFROMGROUND_OFFSET UNITYSDK_OFFSET(0x226F090)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_GETRAYCASTHIT_OFFSET UNITYSDK_OFFSET(0x226EF40)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_GETROTATIONOFFSETTARGET_OFFSET UNITYSDK_OFFSET(0x226F230)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_GETSPHEREHIT_OFFSET UNITYSDK_OFFSET(0x226EF10)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_GET_ROOTYOFFSET_OFFSET UNITYSDK_OFFSET(0x226F250)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_GET_STEPHEIGHTFROMGROUND_OFFSET UNITYSDK_OFFSET(0x226EEC0)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_MOVEIKOFFSET_OFFSET UNITYSDK_OFFSET(0x226EE50)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_PROCESSROTATION_OFFSET UNITYSDK_OFFSET(0x226F3D0)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_PROCESS_OFFSET UNITYSDK_OFFSET(0x226EEA0)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_ROTATEFOOT_OFFSET UNITYSDK_OFFSET(0x226F1A0)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_ROTATENORMAL_OFFSET UNITYSDK_OFFSET(0x226EF70)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_SETFOOTTOPLANE_OFFSET UNITYSDK_OFFSET(0x226F050)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_SETFOOTTOPOINT_OFFSET UNITYSDK_OFFSET(0x226F010)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_STEPUPFOOTOFFSET_OFFSET UNITYSDK_OFFSET(0x226EEB0)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_UPDATETRANSFORM_OFFSET UNITYSDK_OFFSET(0x226F300)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_GETHEIGHTFROMGROUND_OFFSET UNITYSDK_OFFSET(0x38311B0)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_GETRAYCASTHIT_OFFSET UNITYSDK_OFFSET(0x3831060)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_GETROTATIONOFFSETTARGET_OFFSET UNITYSDK_OFFSET(0x38312D0)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_GETSPHEREHIT_OFFSET UNITYSDK_OFFSET(0x3831030)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_GET_ROOTYOFFSET_OFFSET UNITYSDK_OFFSET(0x3831410)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_GET_STEPHEIGHTFROMGROUND_OFFSET UNITYSDK_OFFSET(0x3830FE0)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_MOVEIKOFFSET_OFFSET UNITYSDK_OFFSET(0x3830F70)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_PROCESSROTATION_OFFSET UNITYSDK_OFFSET(0x3831590)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_PROCESS_OFFSET UNITYSDK_OFFSET(0x3830FC0)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_ROTATEFOOT_OFFSET UNITYSDK_OFFSET(0x38312C0)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_ROTATENORMAL_OFFSET UNITYSDK_OFFSET(0x3831090)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_SETFOOTTOPLANE_OFFSET UNITYSDK_OFFSET(0x3831170)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_SETFOOTTOPOINT_OFFSET UNITYSDK_OFFSET(0x3831130)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_STEPUPFOOTOFFSET_OFFSET UNITYSDK_OFFSET(0x3830FD0)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_UPDATETRANSFORM_OFFSET UNITYSDK_OFFSET(0x38314C0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int GroundingThread_Leg_TypeDefinitionIndex = 41015;
+	inline static constexpr unsigned int GroundingThread_Leg_TypeDefinitionIndex = 41818;
 
 	struct alignas(8) GroundingThread_Leg
 	{
@@ -54,19 +54,19 @@ namespace RootMotion::FinalIK
 		::UnityEngine::Quaternion transformRotation; // 0x110
 		::System::Boolean resetPositionFlag; // 0x120
 
-		::System::Void MoveIKOffset(::System::Single offset)
+		::System::Void MoveIKOffset(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_MOVEIKOFFSET_OFFSET))(this, offset);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_MOVEIKOFFSET_OFFSET))(this, a1);
 		}
 
-		::System::Void Process(::System::Single dt)
+		::System::Void Process(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_PROCESS_OFFSET))(this, dt);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_PROCESS_OFFSET))(this, a1);
 		}
 
-		::System::Void StepUpFootOffset(::System::Single& offsetTarget)
+		::System::Void StepUpFootOffset(::System::Single& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single&))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_STEPUPFOOTOFFSET_OFFSET))(this, offsetTarget);
+			return ((::System::Void(*)(::PVOID, ::System::Single&))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_STEPUPFOOTOFFSET_OFFSET))(this, a1);
 		}
 
 		::System::Single get_stepHeightFromGround()
@@ -74,34 +74,34 @@ namespace RootMotion::FinalIK
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_GET_STEPHEIGHTFROMGROUND_OFFSET))(this);
 		}
 
-		::RootMotion::FinalIK::GroundRaycastHit GetSphereHit(::UnityEngine::Vector3 offsetFromHeel, ::System::Single radius)
+		::RootMotion::FinalIK::GroundRaycastHit GetSphereHit(::UnityEngine::Vector3 a1, ::System::Single a2)
 		{
-			return ((::RootMotion::FinalIK::GroundRaycastHit(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_GETSPHEREHIT_OFFSET))(this, offsetFromHeel, radius);
+			return ((::RootMotion::FinalIK::GroundRaycastHit(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_GETSPHEREHIT_OFFSET))(this, a1, a2);
 		}
 
-		::RootMotion::FinalIK::GroundRaycastHit GetRaycastHit(::UnityEngine::Vector3 offsetFromHeel)
+		::RootMotion::FinalIK::GroundRaycastHit GetRaycastHit(::UnityEngine::Vector3 a1)
 		{
-			return ((::RootMotion::FinalIK::GroundRaycastHit(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_GETRAYCASTHIT_OFFSET))(this, offsetFromHeel);
+			return ((::RootMotion::FinalIK::GroundRaycastHit(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_GETRAYCASTHIT_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 RotateNormal(::UnityEngine::Vector3 normal)
+		::UnityEngine::Vector3 RotateNormal(::UnityEngine::Vector3 a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_ROTATENORMAL_OFFSET))(this, normal);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_ROTATENORMAL_OFFSET))(this, a1);
 		}
 
-		::System::Void SetFootToPoint(::UnityEngine::Vector3 normal, ::UnityEngine::Vector3 point)
+		::System::Void SetFootToPoint(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_SETFOOTTOPOINT_OFFSET))(this, normal, point);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_SETFOOTTOPOINT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetFootToPlane(::UnityEngine::Vector3 planeNormal, ::UnityEngine::Vector3 planePoint, ::UnityEngine::Vector3 heelHitPoint)
+		::System::Void SetFootToPlane(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_SETFOOTTOPLANE_OFFSET))(this, planeNormal, planePoint, heelHitPoint);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_SETFOOTTOPLANE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single GetHeightFromGround(::UnityEngine::Vector3 hitPoint)
+		::System::Single GetHeightFromGround(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_GETHEIGHTFROMGROUND_OFFSET))(this, hitPoint);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_GETHEIGHTFROMGROUND_OFFSET))(this, a1);
 		}
 
 		::System::Void RotateFoot()
@@ -124,9 +124,9 @@ namespace RootMotion::FinalIK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_UPDATETRANSFORM_OFFSET))(this);
 		}
 
-		::System::Void ProcessRotation(::System::Single lowestOffset)
+		::System::Void ProcessRotation(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_PROCESSROTATION_OFFSET))(this, lowestOffset);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_LEG_PROCESSROTATION_OFFSET))(this, a1);
 		}
 	};
 }

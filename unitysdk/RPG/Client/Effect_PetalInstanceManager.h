@@ -10,36 +10,36 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1401FA10)
-#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_METHOD_5_08BBACE844405300_OFFSET UNITYSDK_OFFSET(0x1401FB30)
-#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_METHOD_5_554208C84546EE8E_OFFSET UNITYSDK_OFFSET(0x1401FDA0)
-#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_METHOD_5_8D61BE16C9463302_OFFSET UNITYSDK_OFFSET(0x1401F780)
-#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1401F730)
-#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1401FF10)
-#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1401FF00)
+#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x156B5680)
+#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_METHOD_5_3B7145E79424FB75_OFFSET UNITYSDK_OFFSET(0x156B5380)
+#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_METHOD_5_AB88190D695EBEA9_OFFSET UNITYSDK_OFFSET(0x156B57A0)
+#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_METHOD_5_FE268EA0D7E91617_OFFSET UNITYSDK_OFFSET(0x156B59F0)
+#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x156B5330)
+#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x156B5B60)
+#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x156B5B50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PetalInstanceManager_TypeDefinitionIndex = 65022;
+	inline static constexpr unsigned int Effect_PetalInstanceManager_TypeDefinitionIndex = 65948;
 
 	class Effect_PetalInstanceManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_5_7()
+		static ::System::Int32* StaticGet_Field_5_0()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_PetalInstanceManager_TypeDefinitionIndex)->GetStaticField(0x116D0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_PetalInstanceManager_TypeDefinitionIndex)->GetStaticField(0x4850);
 		}
-		static ::System::Int32* StaticGet_Field_5_8()
+		static ::System::Int32* StaticGet_Field_5_1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_PetalInstanceManager_TypeDefinitionIndex)->GetStaticField(0x116D4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_PetalInstanceManager_TypeDefinitionIndex)->GetStaticField(0x4854);
 		}
 		::UnityEngine::Mesh* TargetMesh; // 0x18
 		::UnityEngine::Material* TargetMat; // 0x20
 		::UnityEngine::Color Color; // 0x28
-		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* Field_5_3; // 0x38
-		::System::Collections::Generic::List_1<::System::Single>* Field_5_4; // 0x40
-		::System::Collections::Generic::List_1<::RPG::Client::Effect_PetalInstance*>* Field_5_5; // 0x48
-		::UnityEngine::MaterialPropertyBlock* Field_5_6; // 0x50
+		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* Field_5_5; // 0x38
+		::System::Collections::Generic::List_1<::System::Single>* Field_5_6; // 0x40
+		::System::Collections::Generic::List_1<::RPG::Client::Effect_PetalInstance*>* Field_5_7; // 0x48
+		::UnityEngine::MaterialPropertyBlock* Field_5_8; // 0x50
 
 		::System::Void _ctor()
 		{
@@ -61,19 +61,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_LATEUPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_8D61BE16C9463302()
+		::System::Void Method_5_3B7145E79424FB75()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_METHOD_5_8D61BE16C9463302_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_METHOD_5_3B7145E79424FB75_OFFSET))(this);
 		}
 
-		::System::Void Method_5_08BBACE844405300()
+		::System::Void Method_5_AB88190D695EBEA9()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_METHOD_5_08BBACE844405300_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_METHOD_5_AB88190D695EBEA9_OFFSET))(this);
 		}
 
-		::System::Void Method_5_554208C84546EE8E()
+		::System::Void Method_5_FE268EA0D7E91617()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_METHOD_5_554208C84546EE8E_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_METHOD_5_FE268EA0D7E91617_OFFSET))(this);
 		}
 	};
 }

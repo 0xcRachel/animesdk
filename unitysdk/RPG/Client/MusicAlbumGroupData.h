@@ -11,37 +11,37 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MUSICALBUMGROUPDATA_ADDMUSICALBUM_OFFSET UNITYSDK_OFFSET(0x15F18200)
-#define RPG_CLIENT_MUSICALBUMGROUPDATA_GETMUSICALBUMLIST_OFFSET UNITYSDK_OFFSET(0x15F188A0)
-#define RPG_CLIENT_MUSICALBUMGROUPDATA_GETMUSICALBUM_OFFSET UNITYSDK_OFFSET(0x15F187E0)
-#define RPG_CLIENT_MUSICALBUMGROUPDATA_GET_GROUPICON_OFFSET UNITYSDK_OFFSET(0x15F18C10)
-#define RPG_CLIENT_MUSICALBUMGROUPDATA_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x15F18C60)
-#define RPG_CLIENT_MUSICALBUMGROUPDATA_GET_GROUPNAME_OFFSET UNITYSDK_OFFSET(0x15F18C30)
-#define RPG_CLIENT_MUSICALBUMGROUPDATA_GET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0x15F18AC0)
-#define RPG_CLIENT_MUSICALBUMGROUPDATA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15F18380)
-#define RPG_CLIENT_MUSICALBUMGROUPDATA_ISALLMUSICALBUMPLAYED_OFFSET UNITYSDK_OFFSET(0x15F18960)
-#define RPG_CLIENT_MUSICALBUMGROUPDATA_RESETSTATUS_OFFSET UNITYSDK_OFFSET(0x15F18470)
-#define RPG_CLIENT_MUSICALBUMGROUPDATA_SYNCMUSICALBUM_OFFSET UNITYSDK_OFFSET(0x15F18640)
-#define RPG_CLIENT_MUSICALBUMGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15F18160)
+#define RPG_CLIENT_MUSICALBUMGROUPDATA_ADDMUSICALBUM_OFFSET UNITYSDK_OFFSET(0x18750340)
+#define RPG_CLIENT_MUSICALBUMGROUPDATA_GETMUSICALBUMLIST_OFFSET UNITYSDK_OFFSET(0x18750970)
+#define RPG_CLIENT_MUSICALBUMGROUPDATA_GETMUSICALBUM_OFFSET UNITYSDK_OFFSET(0x187508E0)
+#define RPG_CLIENT_MUSICALBUMGROUPDATA_GET_GROUPICON_OFFSET UNITYSDK_OFFSET(0x18750D60)
+#define RPG_CLIENT_MUSICALBUMGROUPDATA_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x18750DB0)
+#define RPG_CLIENT_MUSICALBUMGROUPDATA_GET_GROUPNAME_OFFSET UNITYSDK_OFFSET(0x18750D80)
+#define RPG_CLIENT_MUSICALBUMGROUPDATA_GET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0x18750C20)
+#define RPG_CLIENT_MUSICALBUMGROUPDATA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x187504C0)
+#define RPG_CLIENT_MUSICALBUMGROUPDATA_ISALLMUSICALBUMPLAYED_OFFSET UNITYSDK_OFFSET(0x18750AD0)
+#define RPG_CLIENT_MUSICALBUMGROUPDATA_RESETSTATUS_OFFSET UNITYSDK_OFFSET(0x187505B0)
+#define RPG_CLIENT_MUSICALBUMGROUPDATA_SYNCMUSICALBUM_OFFSET UNITYSDK_OFFSET(0x18750780)
+#define RPG_CLIENT_MUSICALBUMGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x187502A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicAlbumGroupData_TypeDefinitionIndex = 61124;
+	inline static constexpr unsigned int MusicAlbumGroupData_TypeDefinitionIndex = 62048;
 
 	class MusicAlbumGroupData : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::BackGroundMusicGroupConfigRow* _GroupRow; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::MusicAlbumItemData*>* _MusicAlbumDict; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::MusicAlbumItemData*>* _MusicAlbumDict; // 0x10
+		::RPG::GameCore::BackGroundMusicGroupConfigRow* _GroupRow; // 0x18
 
-		::System::Void _ctor(::System::UInt32 groupID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMGROUPDATA__CTOR_OFFSET))(this, groupID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMGROUPDATA__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void AddMusicAlbum(::RPG::GameCore::BackGroundMusicConfigRow* row, ::System::Boolean isUnlock, ::System::Boolean isPlayed)
+		::System::Void AddMusicAlbum(::RPG::GameCore::BackGroundMusicConfigRow* a1, ::System::Boolean a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BackGroundMusicConfigRow*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMGROUPDATA_ADDMUSICALBUM_OFFSET))(this, row, isUnlock, isPlayed);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BackGroundMusicConfigRow*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMGROUPDATA_ADDMUSICALBUM_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void ResetStatus()
@@ -49,14 +49,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMGROUPDATA_RESETSTATUS_OFFSET))(this);
 		}
 
-		::System::Void SyncMusicAlbum(::System::UInt32 musicAlbumID, ::System::Boolean isUnlock, ::System::Boolean isPlayed)
+		::System::Void SyncMusicAlbum(::System::UInt32 a1, ::System::Boolean a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMGROUPDATA_SYNCMUSICALBUM_OFFSET))(this, musicAlbumID, isUnlock, isPlayed);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMGROUPDATA_SYNCMUSICALBUM_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::MusicAlbumItemData* GetMusicAlbum(::System::UInt32 musicAlbumID)
+		::RPG::Client::MusicAlbumItemData* GetMusicAlbum(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::MusicAlbumItemData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMGROUPDATA_GETMUSICALBUM_OFFSET))(this, musicAlbumID);
+			return ((::RPG::Client::MusicAlbumItemData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICALBUMGROUPDATA_GETMUSICALBUM_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::MusicAlbumItemData*>* GetMusicAlbumList()

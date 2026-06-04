@@ -4,13 +4,13 @@
 
 namespace miHoYoEmotion { class SequenceBakeData_BakeData; }
 
-#define MIHOYOEMOTION_SUBSEQUENCEBAKEDATA_GET_BAKEDATA_OFFSET UNITYSDK_OFFSET(0x1A5F1B90)
-#define MIHOYOEMOTION_SUBSEQUENCEBAKEDATA_SET_BAKEDATA_OFFSET UNITYSDK_OFFSET(0x1A5F1B80)
-#define MIHOYOEMOTION_SUBSEQUENCEBAKEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5F1BA0)
+#define MIHOYOEMOTION_SUBSEQUENCEBAKEDATA_GET_BAKEDATA_OFFSET UNITYSDK_OFFSET(0x17A899B0)
+#define MIHOYOEMOTION_SUBSEQUENCEBAKEDATA_SET_BAKEDATA_OFFSET UNITYSDK_OFFSET(0x17A899A0)
+#define MIHOYOEMOTION_SUBSEQUENCEBAKEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17A899C0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int SubSequenceBakeData_TypeDefinitionIndex = 40968;
+	inline static constexpr unsigned int SubSequenceBakeData_TypeDefinitionIndex = 41786;
 
 	class SubSequenceBakeData : public ::UnityEngine::ScriptableObject
 	{
@@ -20,9 +20,9 @@ namespace miHoYoEmotion
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_SUBSEQUENCEBAKEDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void set_bakeData(::miHoYoEmotion::SequenceBakeData_BakeData* value)
+		::System::Void set_bakeData(::miHoYoEmotion::SequenceBakeData_BakeData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::miHoYoEmotion::SequenceBakeData_BakeData*))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_SUBSEQUENCEBAKEDATA_SET_BAKEDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::miHoYoEmotion::SequenceBakeData_BakeData*))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_SUBSEQUENCEBAKEDATA_SET_BAKEDATA_OFFSET))(this, a1);
 		}
 
 		::miHoYoEmotion::SequenceBakeData_BakeData* get_bakeData()

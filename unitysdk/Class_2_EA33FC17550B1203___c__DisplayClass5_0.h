@@ -4,10 +4,10 @@
 
 namespace System { class Action; }
 
-#define CLASS_2_EA33FC17550B1203___C__DISPLAYCLASS5_0__ADDSPHERETRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0xED23FF0)
-#define CLASS_2_EA33FC17550B1203___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xED22730)
+#define CLASS_2_EA33FC17550B1203___C__DISPLAYCLASS5_0__ADDSPHERETRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0x14EDE380)
+#define CLASS_2_EA33FC17550B1203___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14EDCB00)
 
-inline static constexpr unsigned int Class_2_EA33FC17550B1203___c__DisplayClass5_0_TypeDefinitionIndex = 68064;
+inline static constexpr unsigned int Class_2_EA33FC17550B1203___c__DisplayClass5_0_TypeDefinitionIndex = 69037;
 
 class Class_2_EA33FC17550B1203___c__DisplayClass5_0 : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EA33FC17550B1203___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Void _AddSphereTrigger_b__0(::System::Int32 _)
+	::System::Void _AddSphereTrigger_b__0(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_EA33FC17550B1203___C__DISPLAYCLASS5_0__ADDSPHERETRIGGER_B__0_OFFSET))(this, _);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_EA33FC17550B1203___C__DISPLAYCLASS5_0__ADDSPHERETRIGGER_B__0_OFFSET))(this, a1);
 	}
 };

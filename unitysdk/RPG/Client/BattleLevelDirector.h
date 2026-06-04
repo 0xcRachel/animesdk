@@ -7,8 +7,8 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_382;
-class Class_1_887CCB848AAECD15;
+class Class_0_16E4307DCC419505_401;
+class Class_1_490A0BCC1006F57B;
 class Class_1_B5D56B5BA908E892;
 namespace RPG::Client { class LevelStageVisableController; }
 namespace RPG::Client { class Stage; }
@@ -19,57 +19,57 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BATTLELEVELDIRECTOR_BATTLEPHASEFINISH_OFFSET UNITYSDK_OFFSET(0x14706C40)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR_BINDCURRSTAGE_OFFSET UNITYSDK_OFFSET(0x14708160)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14705740)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR_GET_AUTOTOTALDAMAGEFINISH_OFFSET UNITYSDK_OFFSET(0x14708120)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR_GET_CURRSTAGE_OFFSET UNITYSDK_OFFSET(0x14708140)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR_GET_CUSTOMIZEFORMATION_OFFSET UNITYSDK_OFFSET(0x14708100)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR_GET_ROOTSTAGEVISABLECONTROLLER_OFFSET UNITYSDK_OFFSET(0x147081B0)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR_LEVELCREATEPLAYERTEAMFINISH_OFFSET UNITYSDK_OFFSET(0x14706BF0)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR_LEVELPREBATTLEPERFORM_OFFSET UNITYSDK_OFFSET(0x147064B0)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR_LEVELREFRESHDARKTEAMFACETO_OFFSET UNITYSDK_OFFSET(0x14706120)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR_LEVELREFRESHTEAMLOCATION_OFFSET UNITYSDK_OFFSET(0x147035F0)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR_LEVELRESETLEVELAREAROOTTOCENTER_OFFSET UNITYSDK_OFFSET(0x14706280)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR_LEVELRESULTPERFORM_OFFSET UNITYSDK_OFFSET(0x14706B60)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR_SET_AUTOTOTALDAMAGEFINISH_OFFSET UNITYSDK_OFFSET(0x14708130)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR_SET_CURRSTAGE_OFFSET UNITYSDK_OFFSET(0x14708150)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR_SET_CUSTOMIZEFORMATION_OFFSET UNITYSDK_OFFSET(0x14708110)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR_SET_ROOTSTAGEVISABLECONTROLLER_OFFSET UNITYSDK_OFFSET(0x147081C0)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR_TICK_OFFSET UNITYSDK_OFFSET(0x147058B0)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x14705570)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR__DARKTEAMENTITYFACETO_OFFSET UNITYSDK_OFFSET(0x14707280)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR__DODARKTEAMFACETOACTIVEENTITY_OFFSET UNITYSDK_OFFSET(0x14705D00)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR__ENTITYPLAYANIMATION_OFFSET UNITYSDK_OFFSET(0x147080B0)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR__FINDROTATEWITHOTHERENTITY_OFFSET UNITYSDK_OFFSET(0x14706EC0)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR__INITEVENT_OFFSET UNITYSDK_OFFSET(0x14705660)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR__ONACTIONENTITYADDMODIFIEREVENT_OFFSET UNITYSDK_OFFSET(0x14707BB0)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR__ONLEVELTURNSTATECHANGEEVENT_OFFSET UNITYSDK_OFFSET(0x14707870)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR__ONSINGLEINSERTABILITYFINISHORABORTEVENT_OFFSET UNITYSDK_OFFSET(0x14707AF0)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR__RESETALLENTITYFACEDIR_OFFSET UNITYSDK_OFFSET(0x14705950)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR__RESETENTITYFACEDIR_OFFSET UNITYSDK_OFFSET(0x14706CB0)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR__SETUPCLOSEUPSHOT_OFFSET UNITYSDK_OFFSET(0x14706680)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR__SETUPTEAMFORMATION_OFFSET UNITYSDK_OFFSET(0x14707C80)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR__UNINITEVENT_OFFSET UNITYSDK_OFFSET(0x147057D0)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x147081D0)
-#define RPG_CLIENT_BATTLELEVELDIRECTOR___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x14708240)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR_BATTLEPHASEFINISH_OFFSET UNITYSDK_OFFSET(0x15CFD620)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR_BINDCURRSTAGE_OFFSET UNITYSDK_OFFSET(0x15CF4680)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15CECE90)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR_GET_AUTOTOTALDAMAGEFINISH_OFFSET UNITYSDK_OFFSET(0x15CFEC10)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR_GET_CURRSTAGE_OFFSET UNITYSDK_OFFSET(0x15CFEC30)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR_GET_CUSTOMIZEFORMATION_OFFSET UNITYSDK_OFFSET(0x15CFEBF0)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR_GET_ROOTSTAGEVISABLECONTROLLER_OFFSET UNITYSDK_OFFSET(0x15CFEC50)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR_LEVELCREATEPLAYERTEAMFINISH_OFFSET UNITYSDK_OFFSET(0x15CF74F0)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR_LEVELPREBATTLEPERFORM_OFFSET UNITYSDK_OFFSET(0x15CF1F20)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR_LEVELREFRESHDARKTEAMFACETO_OFFSET UNITYSDK_OFFSET(0x15CF2640)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR_LEVELREFRESHTEAMLOCATION_OFFSET UNITYSDK_OFFSET(0x15CF2290)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR_LEVELRESETLEVELAREAROOTTOCENTER_OFFSET UNITYSDK_OFFSET(0x15CF7730)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR_LEVELRESULTPERFORM_OFFSET UNITYSDK_OFFSET(0x15CF21A0)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR_SET_AUTOTOTALDAMAGEFINISH_OFFSET UNITYSDK_OFFSET(0x15CFEC20)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR_SET_CURRSTAGE_OFFSET UNITYSDK_OFFSET(0x15CFEC40)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR_SET_CUSTOMIZEFORMATION_OFFSET UNITYSDK_OFFSET(0x15CFEC00)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR_SET_ROOTSTAGEVISABLECONTROLLER_OFFSET UNITYSDK_OFFSET(0x15CFEC60)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR_TICK_OFFSET UNITYSDK_OFFSET(0x15CF0DD0)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15CF36D0)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR__DARKTEAMENTITYFACETO_OFFSET UNITYSDK_OFFSET(0x15CFDCD0)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR__DODARKTEAMFACETOACTIVEENTITY_OFFSET UNITYSDK_OFFSET(0x15CFCCC0)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR__ENTITYPLAYANIMATION_OFFSET UNITYSDK_OFFSET(0x15CFEBA0)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR__FINDROTATEWITHOTHERENTITY_OFFSET UNITYSDK_OFFSET(0x15CFD8A0)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR__INITEVENT_OFFSET UNITYSDK_OFFSET(0x15CFC6D0)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR__ONACTIONENTITYADDMODIFIEREVENT_OFFSET UNITYSDK_OFFSET(0x15CFE620)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR__ONLEVELTURNSTATECHANGEEVENT_OFFSET UNITYSDK_OFFSET(0x15CFE2A0)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR__ONSINGLEINSERTABILITYFINISHORABORTEVENT_OFFSET UNITYSDK_OFFSET(0x15CFE550)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR__RESETALLENTITYFACEDIR_OFFSET UNITYSDK_OFFSET(0x15CFC8F0)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR__RESETENTITYFACEDIR_OFFSET UNITYSDK_OFFSET(0x15CFD690)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR__SETUPCLOSEUPSHOT_OFFSET UNITYSDK_OFFSET(0x15CFD130)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR__SETUPTEAMFORMATION_OFFSET UNITYSDK_OFFSET(0x15CFE700)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR__UNINITEVENT_OFFSET UNITYSDK_OFFSET(0x15CFC7E0)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15CFEC70)
+#define RPG_CLIENT_BATTLELEVELDIRECTOR___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x15CFECD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleLevelDirector_TypeDefinitionIndex = 54696;
+	inline static constexpr unsigned int BattleLevelDirector_TypeDefinitionIndex = 55423;
 
 	class BattleLevelDirector : public ::RPG::Client::LevelDirector
 	{
 	public:
-		::Class_1_887CCB848AAECD15* _CustomizeFormation_k__BackingField; // 0x40
+		::RPG::Client::LevelStageVisableController* _RootStageVisableController_k__BackingField; // 0x40
 		::Class_1_B5D56B5BA908E892* SPTGroup; // 0x48
-		::RPG::Client::LevelStageVisableController* _RootStageVisableController_k__BackingField; // 0x50
-		::RPG::Client::Stage* _CurrStage_k__BackingField; // 0x58
+		::RPG::Client::Stage* _CurrStage_k__BackingField; // 0x50
+		::Class_1_490A0BCC1006F57B* _CustomizeFormation_k__BackingField; // 0x58
 		::System::Boolean _AutoTotalDamageFinish_k__BackingField; // 0x60
 
-		::System::Void _ctor(::RPG::GameCore::GameWorld* pWorld)
+		::System::Void _ctor(::RPG::GameCore::GameWorld* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameWorld*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__CTOR_OFFSET))(this, pWorld);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameWorld*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()
@@ -77,19 +77,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Tick(::System::Single fElapsedTimeInSec)
+		::System::Void Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_TICK_OFFSET))(this, fElapsedTimeInSec);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Void LevelRefreshTeamLocation(::RPG::GameCore::GameEntity* pActiveEntity)
+		::System::Void LevelRefreshTeamLocation(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_LEVELREFRESHTEAMLOCATION_OFFSET))(this, pActiveEntity);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_LEVELREFRESHTEAMLOCATION_OFFSET))(this, a1);
 		}
 
-		::System::Void LevelRefreshDarkTeamFaceTo(::RPG::GameCore::GameEntity* pActiveEntity)
+		::System::Void LevelRefreshDarkTeamFaceTo(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_LEVELREFRESHDARKTEAMFACETO_OFFSET))(this, pActiveEntity);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_LEVELREFRESHDARKTEAMFACETO_OFFSET))(this, a1);
 		}
 
 		::System::Void LevelResetLevelAreaRootToCenter()
@@ -102,9 +102,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_LEVELPREBATTLEPERFORM_OFFSET))(this);
 		}
 
-		::System::Void LevelResultPerform(::System::Boolean bWinFlag)
+		::System::Void LevelResultPerform(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_LEVELRESULTPERFORM_OFFSET))(this, bWinFlag);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_LEVELRESULTPERFORM_OFFSET))(this, a1);
 		}
 
 		::System::Void LevelCreatePlayerTeamFinish()
@@ -112,9 +112,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_LEVELCREATEPLAYERTEAMFINISH_OFFSET))(this);
 		}
 
-		::System::Void BattlePhaseFinish(::RPG::Client::BattlePhaseFinishType eFinishType)
+		::System::Void BattlePhaseFinish(::RPG::Client::BattlePhaseFinishType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::BattlePhaseFinishType))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_BATTLEPHASEFINISH_OFFSET))(this, eFinishType);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::BattlePhaseFinishType))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_BATTLEPHASEFINISH_OFFSET))(this, a1);
 		}
 
 		::System::Void _InitEvent()
@@ -132,64 +132,64 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__RESETALLENTITYFACEDIR_OFFSET))(this);
 		}
 
-		::System::Void _ResetEntityFaceDir(::RPG::GameCore::GameEntity* entity, ::System::Single faceDir)
+		::System::Void _ResetEntityFaceDir(::RPG::GameCore::GameEntity* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__RESETENTITYFACEDIR_OFFSET))(this, entity, faceDir);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__RESETENTITYFACEDIR_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::GameCore::GameEntity* _FindRotateWithOtherEntity(::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* entityList, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::UnityEngine::Vector3>*& teammateOffset)
+		::RPG::GameCore::GameEntity* _FindRotateWithOtherEntity(::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a1, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::UnityEngine::Vector3>*& a2)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::UnityEngine::Vector3>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__FINDROTATEWITHOTHERENTITY_OFFSET))(this, entityList, teammateOffset);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::UnityEngine::Vector3>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__FINDROTATEWITHOTHERENTITY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _DoDarkTeamFaceToActiveEntity(::RPG::GameCore::GameEntity* pActiveEntity, ::RPG::GameCore::TeamFormationComponent* pDarkTeamFormationComponent)
+		::System::Void _DoDarkTeamFaceToActiveEntity(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::TeamFormationComponent* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TeamFormationComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__DODARKTEAMFACETOACTIVEENTITY_OFFSET))(this, pActiveEntity, pDarkTeamFormationComponent);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TeamFormationComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__DODARKTEAMFACETOACTIVEENTITY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _DarkTeamEntityFaceTo(::RPG::GameCore::GameEntity* darkTeamEntity, ::RPG::GameCore::GameEntity* activeEntity, ::RPG::GameCore::TeamFormationComponent* pDarkTeamFormationComponent)
+		::System::Void _DarkTeamEntityFaceTo(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::TeamFormationComponent* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TeamFormationComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__DARKTEAMENTITYFACETO_OFFSET))(this, darkTeamEntity, activeEntity, pDarkTeamFormationComponent);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TeamFormationComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__DARKTEAMENTITYFACETO_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _OnLevelTurnStateChangeEvent(::Class_0_16E4307DCC419505_382* pEvt)
+		::System::Void _OnLevelTurnStateChangeEvent(::Class_0_16E4307DCC419505_401* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_382*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__ONLEVELTURNSTATECHANGEEVENT_OFFSET))(this, pEvt);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_401*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__ONLEVELTURNSTATECHANGEEVENT_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnSingleInsertAbilityFinishOrAbortEvent(::Class_0_16E4307DCC419505_382* pEvt)
+		::System::Void _OnSingleInsertAbilityFinishOrAbortEvent(::Class_0_16E4307DCC419505_401* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_382*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__ONSINGLEINSERTABILITYFINISHORABORTEVENT_OFFSET))(this, pEvt);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_401*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__ONSINGLEINSERTABILITYFINISHORABORTEVENT_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnActionEntityAddModifierEvent(::Class_0_16E4307DCC419505_382* pEvt)
+		::System::Void _OnActionEntityAddModifierEvent(::Class_0_16E4307DCC419505_401* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_382*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__ONACTIONENTITYADDMODIFIEREVENT_OFFSET))(this, pEvt);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_401*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__ONACTIONENTITYADDMODIFIEREVENT_OFFSET))(this, a1);
 		}
 
-		::System::Void _SetupTeamFormation(::RPG::GameCore::TeamFormationComponent* pTeamFormation, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* pPriorityEntityList, ::Il2CppArray<::RPG::MVector3>* pTeamPosList)
+		::System::Void _SetupTeamFormation(::RPG::GameCore::TeamFormationComponent* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2, ::Il2CppArray<::RPG::MVector3>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TeamFormationComponent*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::Il2CppArray<::RPG::MVector3>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__SETUPTEAMFORMATION_OFFSET))(this, pTeamFormation, pPriorityEntityList, pTeamPosList);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TeamFormationComponent*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::Il2CppArray<::RPG::MVector3>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__SETUPTEAMFORMATION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _SetupCloseupShot(::System::String* strCloseupShotPath, ::System::Single fPauseTime, ::RPG::GameCore::GameEntity* pAnchorTargetEntity, ::RPG::GameCore::GameEntity* pAimTargetEntity, ::RPG::MVector3 vFollowOffset, ::RPG::MVector3 vAimOffset, ::System::Nullable_1<::RPG::MQuaternion> qLocalRotation)
+		::System::Void _SetupCloseupShot(::System::String* a1, ::System::Single a2, ::RPG::GameCore::GameEntity* a3, ::RPG::GameCore::GameEntity* a4, ::RPG::MVector3 a5, ::RPG::MVector3 a6, ::System::Nullable_1<::RPG::MQuaternion> a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::RPG::MVector3, ::RPG::MVector3, ::System::Nullable_1<::RPG::MQuaternion>))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__SETUPCLOSEUPSHOT_OFFSET))(this, strCloseupShotPath, fPauseTime, pAnchorTargetEntity, pAimTargetEntity, vFollowOffset, vAimOffset, qLocalRotation);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::RPG::MVector3, ::RPG::MVector3, ::System::Nullable_1<::RPG::MQuaternion>))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__SETUPCLOSEUPSHOT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void _EntityPlayAnimation(::RPG::GameCore::GameEntity* pEntity)
+		::System::Void _EntityPlayAnimation(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__ENTITYPLAYANIMATION_OFFSET))(this, pEntity);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__ENTITYPLAYANIMATION_OFFSET))(this, a1);
 		}
 
-		::Class_1_887CCB848AAECD15* get_CustomizeFormation()
+		::Class_1_490A0BCC1006F57B* get_CustomizeFormation()
 		{
-			return ((::Class_1_887CCB848AAECD15*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_GET_CUSTOMIZEFORMATION_OFFSET))(this);
+			return ((::Class_1_490A0BCC1006F57B*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_GET_CUSTOMIZEFORMATION_OFFSET))(this);
 		}
 
-		::System::Void set_CustomizeFormation(::Class_1_887CCB848AAECD15* value)
+		::System::Void set_CustomizeFormation(::Class_1_490A0BCC1006F57B* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_887CCB848AAECD15*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_SET_CUSTOMIZEFORMATION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Class_1_490A0BCC1006F57B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_SET_CUSTOMIZEFORMATION_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_AutoTotalDamageFinish()
@@ -197,9 +197,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_GET_AUTOTOTALDAMAGEFINISH_OFFSET))(this);
 		}
 
-		::System::Void set_AutoTotalDamageFinish(::System::Boolean value)
+		::System::Void set_AutoTotalDamageFinish(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_SET_AUTOTOTALDAMAGEFINISH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_SET_AUTOTOTALDAMAGEFINISH_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Stage* get_CurrStage()
@@ -207,14 +207,14 @@ namespace RPG::Client
 			return ((::RPG::Client::Stage*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_GET_CURRSTAGE_OFFSET))(this);
 		}
 
-		::System::Void set_CurrStage(::RPG::Client::Stage* value)
+		::System::Void set_CurrStage(::RPG::Client::Stage* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Stage*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_SET_CURRSTAGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Stage*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_SET_CURRSTAGE_OFFSET))(this, a1);
 		}
 
-		::System::Void BindCurrStage(::RPG::Client::Stage* stage)
+		::System::Void BindCurrStage(::RPG::Client::Stage* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Stage*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_BINDCURRSTAGE_OFFSET))(this, stage);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Stage*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_BINDCURRSTAGE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::LevelStageVisableController* get_RootStageVisableController()
@@ -222,9 +222,9 @@ namespace RPG::Client
 			return ((::RPG::Client::LevelStageVisableController*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_GET_ROOTSTAGEVISABLECONTROLLER_OFFSET))(this);
 		}
 
-		::System::Void set_RootStageVisableController(::RPG::Client::LevelStageVisableController* value)
+		::System::Void set_RootStageVisableController(::RPG::Client::LevelStageVisableController* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LevelStageVisableController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_SET_ROOTSTAGEVISABLECONTROLLER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LevelStageVisableController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR_SET_ROOTSTAGEVISABLECONTROLLER_OFFSET))(this, a1);
 		}
 
 		::System::Void __iFixBaseProxy_Dispose()
@@ -232,9 +232,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void __iFixBaseProxy_Tick(::System::Single P0)
+		::System::Void __iFixBaseProxy_Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR___IFIXBASEPROXY_TICK_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR___IFIXBASEPROXY_TICK_OFFSET))(this, a1);
 		}
 	};
 }

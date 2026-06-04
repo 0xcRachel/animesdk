@@ -6,13 +6,13 @@ namespace RPG::Client { class ArtNPCPedestrianEntityConfig_EntityInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_ARTNPCPEDESTRIANENTITYCONFIG_METHOD_3_DA37DFE3A5BDA9F4_OFFSET UNITYSDK_OFFSET(0x16D6E110)
-#define RPG_CLIENT_ARTNPCPEDESTRIANENTITYCONFIG_METHOD_3_FEE17EB220CE517B_OFFSET UNITYSDK_OFFSET(0x16D6DD00)
-#define RPG_CLIENT_ARTNPCPEDESTRIANENTITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16D6E750)
+#define RPG_CLIENT_ARTNPCPEDESTRIANENTITYCONFIG_METHOD_3_DA37DFE3A5BDA9F4_OFFSET UNITYSDK_OFFSET(0x17E56160)
+#define RPG_CLIENT_ARTNPCPEDESTRIANENTITYCONFIG_METHOD_3_FFBBF9E1E02C75F2_OFFSET UNITYSDK_OFFSET(0x17E55D10)
+#define RPG_CLIENT_ARTNPCPEDESTRIANENTITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17E567D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ArtNPCPedestrianEntityConfig_TypeDefinitionIndex = 63836;
+	inline static constexpr unsigned int ArtNPCPedestrianEntityConfig_TypeDefinitionIndex = 64757;
 
 	class ArtNPCPedestrianEntityConfig : public ::UnityEngine::ScriptableObject
 	{
@@ -26,9 +26,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ARTNPCPEDESTRIANENTITYCONFIG__CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::ArtNPCPedestrianEntityConfig_EntityInfo* Method_3_FEE17EB220CE517B(::System::String* a1)
+		::RPG::Client::ArtNPCPedestrianEntityConfig_EntityInfo* Method_3_FFBBF9E1E02C75F2(::System::String* a1)
 		{
-			return ((::RPG::Client::ArtNPCPedestrianEntityConfig_EntityInfo*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ARTNPCPEDESTRIANENTITYCONFIG_METHOD_3_FEE17EB220CE517B_OFFSET))(this, a1);
+			return ((::RPG::Client::ArtNPCPedestrianEntityConfig_EntityInfo*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ARTNPCPEDESTRIANENTITYCONFIG_METHOD_3_FFBBF9E1E02C75F2_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_3_DA37DFE3A5BDA9F4()

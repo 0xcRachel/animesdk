@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_PLANESLICE_STRUCT_2_BFC3FEE768CC6691__CTOR_OFFSET UNITYSDK_OFFSET(0x1D65760)
+#define RPG_CLIENT_PLANESLICE_STRUCT_2_BFC3FEE768CC6691__CTOR_OFFSET UNITYSDK_OFFSET(0x385CED0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlaneSlice_Struct_2_BFC3FEE768CC6691_TypeDefinitionIndex = 65188;
+	inline static constexpr unsigned int PlaneSlice_Struct_2_BFC3FEE768CC6691_TypeDefinitionIndex = 66115;
 
 	struct alignas(4) PlaneSlice_Struct_2_BFC3FEE768CC6691
 	{

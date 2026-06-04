@@ -4,20 +4,20 @@
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 #include "unitysdk/RPG/GameCore/StringHash.h"
 
-class Class_0_16E4307DCC419505_343;
+class Class_0_16E4307DCC419505_356;
 namespace RPG::GameCore { class SetModifierDynamicValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0A2C0EF9A6561893_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF982C10)
-#define CLASS_3_0A2C0EF9A6561893__CTOR_OFFSET UNITYSDK_OFFSET(0xF982BE0)
+#define CLASS_3_0A2C0EF9A6561893_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13E8DF60)
+#define CLASS_3_0A2C0EF9A6561893__CTOR_OFFSET UNITYSDK_OFFSET(0x13E8DF30)
 
-inline static constexpr unsigned int Class_3_0A2C0EF9A6561893_TypeDefinitionIndex = 51197;
+inline static constexpr unsigned int Class_3_0A2C0EF9A6561893_TypeDefinitionIndex = 51868;
 
 class Class_3_0A2C0EF9A6561893 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetModifierDynamicValue*>
 {
 public:
-	::RPG::GameCore::ArrayPoolWrapper_1<::Class_0_16E4307DCC419505_343*> Field_3_0; // 0x28
-	::RPG::GameCore::StringHash Field_3_1; // 0x2C
+	::RPG::GameCore::StringHash Field_3_0; // 0x28
+	::RPG::GameCore::ArrayPoolWrapper_1<::Class_0_16E4307DCC419505_356*> Field_3_1; // 0x2C
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetModifierDynamicValue* a2)
 	{

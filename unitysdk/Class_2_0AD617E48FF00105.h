@@ -6,25 +6,25 @@ namespace RPG::Client { class CameraDataAndFlags; }
 namespace RPG::GameCore { class AdventureWaitCameraLookAtTransition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_0AD617E48FF00105_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDD7FAB0)
-#define CLASS_2_0AD617E48FF00105_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDD7FB00)
-#define CLASS_2_0AD617E48FF00105_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDD7FD00)
-#define CLASS_2_0AD617E48FF00105_TICK_OFFSET UNITYSDK_OFFSET(0xDD7FD50)
-#define CLASS_2_0AD617E48FF00105__CTOR_OFFSET UNITYSDK_OFFSET(0xDD7FAA0)
+#define CLASS_2_0AD617E48FF00105_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1727ED50)
+#define CLASS_2_0AD617E48FF00105_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1727EDA0)
+#define CLASS_2_0AD617E48FF00105_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1727EFC0)
+#define CLASS_2_0AD617E48FF00105_TICK_OFFSET UNITYSDK_OFFSET(0x1727F010)
+#define CLASS_2_0AD617E48FF00105__CTOR_OFFSET UNITYSDK_OFFSET(0x1727ED40)
 
-inline static constexpr unsigned int Class_2_0AD617E48FF00105_TypeDefinitionIndex = 50596;
+inline static constexpr unsigned int Class_2_0AD617E48FF00105_TypeDefinitionIndex = 51263;
 
 class Class_2_0AD617E48FF00105 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_7; // 0x18
-	::RPG::GameCore::AdventureWaitCameraLookAtTransition* Field_2_6; // 0x20
-	::RPG::Client::CameraDataAndFlags* Field_2_5; // 0x28
-	::System::Single Field_2_4; // 0x30
-	::System::Boolean Field_2_0; // 0x34
-	::System::Boolean Field_2_1; // 0x35
-	::System::Single Field_2_3; // 0x38
-	::System::Single Field_2_2; // 0x3C
+	::RPG::GameCore::AdventureWaitCameraLookAtTransition* Field_2_0; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	::RPG::Client::CameraDataAndFlags* Field_2_2; // 0x28
+	::System::Single Field_2_3; // 0x30
+	::System::Single Field_2_4; // 0x34
+	::System::Boolean Field_2_5; // 0x38
+	::System::Boolean Field_2_6; // 0x39
+	::System::Single Field_2_7; // 0x3C
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdventureWaitCameraLookAtTransition* a2)
 	{

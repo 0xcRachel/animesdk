@@ -8,48 +8,48 @@ class Class_1_D1E0AD3915BCCF29_1;
 namespace RPG::Client { class RelicItemData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_RELICSHOWPROPERTYDATA_CREATEPREVIEWSTATUS_OFFSET UNITYSDK_OFFSET(0x131A81B0)
-#define RPG_CLIENT_RELICSHOWPROPERTYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x131A8040)
-#define RPG_CLIENT_RELICSHOWPROPERTYDATA_GET_AFFIXID_OFFSET UNITYSDK_OFFSET(0x131A8420)
-#define RPG_CLIENT_RELICSHOWPROPERTYDATA_GET_DISPLAYDATAVALUE_OFFSET UNITYSDK_OFFSET(0x131A83E0)
-#define RPG_CLIENT_RELICSHOWPROPERTYDATA_GET_POINTVALUE_OFFSET UNITYSDK_OFFSET(0x131A8400)
-#define RPG_CLIENT_RELICSHOWPROPERTYDATA_GET_PREVIEWUPLEVEL_OFFSET UNITYSDK_OFFSET(0x131A8350)
-#define RPG_CLIENT_RELICSHOWPROPERTYDATA_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x131A83C0)
-#define RPG_CLIENT_RELICSHOWPROPERTYDATA_SET_AFFIXID_OFFSET UNITYSDK_OFFSET(0x131A8430)
-#define RPG_CLIENT_RELICSHOWPROPERTYDATA_SET_DISPLAYDATAVALUE_OFFSET UNITYSDK_OFFSET(0x131A83F0)
-#define RPG_CLIENT_RELICSHOWPROPERTYDATA_SET_POINTVALUE_OFFSET UNITYSDK_OFFSET(0x131A8410)
-#define RPG_CLIENT_RELICSHOWPROPERTYDATA_SET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x131A83D0)
-#define RPG_CLIENT_RELICSHOWPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x131A81A0)
+#define RPG_CLIENT_RELICSHOWPROPERTYDATA_CREATEPREVIEWSTATUS_OFFSET UNITYSDK_OFFSET(0x14CE9150)
+#define RPG_CLIENT_RELICSHOWPROPERTYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x14CE9000)
+#define RPG_CLIENT_RELICSHOWPROPERTYDATA_GET_AFFIXID_OFFSET UNITYSDK_OFFSET(0x14CFBA60)
+#define RPG_CLIENT_RELICSHOWPROPERTYDATA_GET_DISPLAYDATAVALUE_OFFSET UNITYSDK_OFFSET(0x14CFBA20)
+#define RPG_CLIENT_RELICSHOWPROPERTYDATA_GET_POINTVALUE_OFFSET UNITYSDK_OFFSET(0x14CFBA40)
+#define RPG_CLIENT_RELICSHOWPROPERTYDATA_GET_PREVIEWUPLEVEL_OFFSET UNITYSDK_OFFSET(0x14CFB990)
+#define RPG_CLIENT_RELICSHOWPROPERTYDATA_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x14CFBA00)
+#define RPG_CLIENT_RELICSHOWPROPERTYDATA_SET_AFFIXID_OFFSET UNITYSDK_OFFSET(0x14CFBA70)
+#define RPG_CLIENT_RELICSHOWPROPERTYDATA_SET_DISPLAYDATAVALUE_OFFSET UNITYSDK_OFFSET(0x14CFBA30)
+#define RPG_CLIENT_RELICSHOWPROPERTYDATA_SET_POINTVALUE_OFFSET UNITYSDK_OFFSET(0x14CFBA50)
+#define RPG_CLIENT_RELICSHOWPROPERTYDATA_SET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x14CFBA10)
+#define RPG_CLIENT_RELICSHOWPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14CFB980)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicShowPropertyData_TypeDefinitionIndex = 61592;
+	inline static constexpr unsigned int RelicShowPropertyData_TypeDefinitionIndex = 62525;
 
 	class RelicShowPropertyData : public ::System::Object
 	{
 	public:
 		::System::String* _DisplayDataValue_k__BackingField; // 0x10
 		::RPG::GameCore::AvatarPropertyType _PropertyType_k__BackingField; // 0x18
-		::System::UInt32 BonusCnt; // 0x1C
-		::System::UInt32 _AffixID_k__BackingField; // 0x20
-		::System::UInt32 _BaseLevel; // 0x24
-		::RPG::GameCore::FixPoint _PointValue_k__BackingField; // 0x28
-		::System::Int32 _PreviewIndex; // 0x30
-		::System::Boolean IsPreview; // 0x34
+		::System::UInt32 _AffixID_k__BackingField; // 0x1C
+		::System::UInt32 BonusCnt; // 0x20
+		::System::Int32 _PreviewIndex; // 0x24
+		::System::Boolean IsPreview; // 0x28
+		::System::UInt32 _BaseLevel; // 0x2C
+		::RPG::GameCore::FixPoint _PointValue_k__BackingField; // 0x30
 
-		::System::Void _ctor(::RPG::GameCore::AvatarPropertyType propertyType)
+		::System::Void _ctor(::RPG::GameCore::AvatarPropertyType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSHOWPROPERTYDATA__CTOR_OFFSET))(this, propertyType);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSHOWPROPERTYDATA__CTOR_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::RelicShowPropertyData* Create(::RPG::GameCore::AvatarPropertyType propertyType, ::RPG::Client::RelicItemData* relicItemData)
+		static ::RPG::Client::RelicShowPropertyData* Create(::RPG::GameCore::AvatarPropertyType a1, ::RPG::Client::RelicItemData* a2)
 		{
-			return ((::RPG::Client::RelicShowPropertyData*(*)(::RPG::GameCore::AvatarPropertyType, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSHOWPROPERTYDATA_CREATE_OFFSET))(propertyType, relicItemData);
+			return ((::RPG::Client::RelicShowPropertyData*(*)(::RPG::GameCore::AvatarPropertyType, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSHOWPROPERTYDATA_CREATE_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::RelicShowPropertyData* CreatePreviewStatus(::Class_1_D1E0AD3915BCCF29_1* subAffix, ::RPG::Client::RelicItemData* relicItemData, ::System::Int32 previewIndex)
+		static ::RPG::Client::RelicShowPropertyData* CreatePreviewStatus(::Class_1_D1E0AD3915BCCF29_1* a1, ::RPG::Client::RelicItemData* a2, ::System::Int32 a3)
 		{
-			return ((::RPG::Client::RelicShowPropertyData*(*)(::Class_1_D1E0AD3915BCCF29_1*, ::RPG::Client::RelicItemData*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSHOWPROPERTYDATA_CREATEPREVIEWSTATUS_OFFSET))(subAffix, relicItemData, previewIndex);
+			return ((::RPG::Client::RelicShowPropertyData*(*)(::Class_1_D1E0AD3915BCCF29_1*, ::RPG::Client::RelicItemData*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSHOWPROPERTYDATA_CREATEPREVIEWSTATUS_OFFSET))(a1, a2, a3);
 		}
 
 		::System::Int32 get_PreviewUpLevel()
@@ -62,9 +62,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::AvatarPropertyType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSHOWPROPERTYDATA_GET_PROPERTYTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_PropertyType(::RPG::GameCore::AvatarPropertyType value)
+		::System::Void set_PropertyType(::RPG::GameCore::AvatarPropertyType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSHOWPROPERTYDATA_SET_PROPERTYTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSHOWPROPERTYDATA_SET_PROPERTYTYPE_OFFSET))(this, a1);
 		}
 
 		::System::String* get_DisplayDataValue()
@@ -72,9 +72,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSHOWPROPERTYDATA_GET_DISPLAYDATAVALUE_OFFSET))(this);
 		}
 
-		::System::Void set_DisplayDataValue(::System::String* value)
+		::System::Void set_DisplayDataValue(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSHOWPROPERTYDATA_SET_DISPLAYDATAVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSHOWPROPERTYDATA_SET_DISPLAYDATAVALUE_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::FixPoint get_PointValue()
@@ -82,9 +82,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSHOWPROPERTYDATA_GET_POINTVALUE_OFFSET))(this);
 		}
 
-		::System::Void set_PointValue(::RPG::GameCore::FixPoint value)
+		::System::Void set_PointValue(::RPG::GameCore::FixPoint a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSHOWPROPERTYDATA_SET_POINTVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSHOWPROPERTYDATA_SET_POINTVALUE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_AffixID()
@@ -92,9 +92,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSHOWPROPERTYDATA_GET_AFFIXID_OFFSET))(this);
 		}
 
-		::System::Void set_AffixID(::System::UInt32 value)
+		::System::Void set_AffixID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSHOWPROPERTYDATA_SET_AFFIXID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSHOWPROPERTYDATA_SET_AFFIXID_OFFSET))(this, a1);
 		}
 	};
 }

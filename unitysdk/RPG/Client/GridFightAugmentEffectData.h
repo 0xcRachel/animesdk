@@ -8,26 +8,26 @@ namespace RPG::Client { class GridFightBonusSrcInfo; }
 namespace RPG::Client { class GridFightGameModifier; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA_GET_ADDROLEPOSINDEXES_OFFSET UNITYSDK_OFFSET(0x16057580)
-#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA_GET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x16057710)
-#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16057760)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA_GET_ADDROLEPOSINDEXES_OFFSET UNITYSDK_OFFSET(0x19568AC0)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA_GET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x19568C70)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19568CC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightAugmentEffectData_TypeDefinitionIndex = 59241;
+	inline static constexpr unsigned int GridFightAugmentEffectData_TypeDefinitionIndex = 60176;
 
 	class GridFightAugmentEffectData : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightGameModifier* Modifier; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* RemovedRolePosIndexes; // 0x18
-		::RPG::Client::GridFightBonusResultData* Bonus; // 0x20
-		::RPG::Client::GridFightBonusSrcInfo* SrcInfo; // 0x28
+		::System::Collections::Generic::List_1<::System::UInt32>* RemovedRolePosIndexes; // 0x10
+		::RPG::Client::GridFightBonusResultData* Bonus; // 0x18
+		::RPG::Client::GridFightBonusSrcInfo* SrcInfo; // 0x20
+		::RPG::Client::GridFightGameModifier* Modifier; // 0x28
 		::System::Int32 GlobalHPDelta; // 0x30
 
-		::System::Void _ctor(::System::UInt32 augmentID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA__CTOR_OFFSET))(this, augmentID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* get_AddRolePosIndexes()

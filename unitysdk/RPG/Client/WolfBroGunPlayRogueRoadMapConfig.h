@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/WolfBroGunPlayRoadMapConfig.h"
 
-#define RPG_CLIENT_WOLFBROGUNPLAYROGUEROADMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11E57020)
+#define RPG_CLIENT_WOLFBROGUNPLAYROGUEROADMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1773AC10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayRogueRoadMapConfig_TypeDefinitionIndex = 63402;
+	inline static constexpr unsigned int WolfBroGunPlayRogueRoadMapConfig_TypeDefinitionIndex = 64319;
 
 	class WolfBroGunPlayRogueRoadMapConfig : public ::RPG::Client::WolfBroGunPlayRoadMapConfig
 	{

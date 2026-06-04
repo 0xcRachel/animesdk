@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCheckMechanismBarPhase; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B5736518B54DD2EB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF3FB330)
-#define CLASS_3_B5736518B54DD2EB__CTOR_OFFSET UNITYSDK_OFFSET(0xF3FB300)
+#define CLASS_3_B5736518B54DD2EB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17197E70)
+#define CLASS_3_B5736518B54DD2EB__CTOR_OFFSET UNITYSDK_OFFSET(0x17197E40)
 
-inline static constexpr unsigned int Class_3_B5736518B54DD2EB_TypeDefinitionIndex = 50277;
+inline static constexpr unsigned int Class_3_B5736518B54DD2EB_TypeDefinitionIndex = 50942;
 
 class Class_3_B5736518B54DD2EB : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCheckMechanismBarPhase*>
 {

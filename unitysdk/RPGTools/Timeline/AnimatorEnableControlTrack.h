@@ -7,18 +7,18 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x16F39A80)
-#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x16F39B30)
-#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLTRACK_GET_USEUNIQUECHARACTERNAME_OFFSET UNITYSDK_OFFSET(0x16F3A110)
-#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLTRACK_ONINSPECTOR_OFFSET UNITYSDK_OFFSET(0x16F3A120)
-#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x16F3AB10)
-#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x16F3AB20)
-#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x16F3AB60)
-#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLTRACK___IFIXBASEPROXY_ONINSPECTOR_OFFSET UNITYSDK_OFFSET(0x16F3AC00)
+#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x198B3C00)
+#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x198B3CB0)
+#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLTRACK_GET_USEUNIQUECHARACTERNAME_OFFSET UNITYSDK_OFFSET(0x198B42B0)
+#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLTRACK_ONINSPECTOR_OFFSET UNITYSDK_OFFSET(0x198B42C0)
+#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x198B4D40)
+#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x198B4D50)
+#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x198B4D90)
+#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLTRACK___IFIXBASEPROXY_ONINSPECTOR_OFFSET UNITYSDK_OFFSET(0x198B4E30)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AnimatorEnableControlTrack_TypeDefinitionIndex = 44943;
+	inline static constexpr unsigned int AnimatorEnableControlTrack_TypeDefinitionIndex = 45491;
 
 	class AnimatorEnableControlTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
@@ -48,14 +48,14 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLTRACK_ONINSPECTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::UnityEngine::Timeline::TimelineClip* P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::System::Int32 P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void __iFixBaseProxy_OnInspector()

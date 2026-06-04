@@ -7,12 +7,12 @@ namespace RPG::Client { class CurveUndirectedEdgeSetting; }
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBF43570)
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_0__GENERATECURVEEDGES_B__1_OFFSET UNITYSDK_OFFSET(0xBF436E0)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12A41710)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_0__GENERATECURVEEDGES_B__1_OFFSET UNITYSDK_OFFSET(0x12A41880)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveUndirectedGraph___c__DisplayClass7_0_TypeDefinitionIndex = 63240;
+	inline static constexpr unsigned int MonoCurveUndirectedGraph___c__DisplayClass7_0_TypeDefinitionIndex = 64157;
 
 	class MonoCurveUndirectedGraph___c__DisplayClass7_0 : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GenerateCurveEdges_b__1(::RPG::Client::CurveUndirectedEdge* item)
+		::System::Boolean _GenerateCurveEdges_b__1(::RPG::Client::CurveUndirectedEdge* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CurveUndirectedEdge*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_0__GENERATECURVEEDGES_B__1_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CurveUndirectedEdge*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_0__GENERATECURVEEDGES_B__1_OFFSET))(this, a1);
 		}
 	};
 }

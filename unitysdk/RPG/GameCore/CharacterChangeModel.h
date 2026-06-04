@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERCHANGEMODEL_METHOD_3_3E11E12927F24A77_OFFSET UNITYSDK_OFFSET(0x18D55EC0)
-#define RPG_GAMECORE_CHARACTERCHANGEMODEL_METHOD_3_90A418CE0539F81F_OFFSET UNITYSDK_OFFSET(0x18D55F90)
-#define RPG_GAMECORE_CHARACTERCHANGEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x18D55F40)
+#define RPG_GAMECORE_CHARACTERCHANGEMODEL_METHOD_3_5D13EEFD07512A98_OFFSET UNITYSDK_OFFSET(0x1A139BE0)
+#define RPG_GAMECORE_CHARACTERCHANGEMODEL_METHOD_3_D8DECD9B4FAE1FEE_OFFSET UNITYSDK_OFFSET(0x1A139B10)
+#define RPG_GAMECORE_CHARACTERCHANGEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A139B90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterChangeModel_TypeDefinitionIndex = 22154;
+	inline static constexpr unsigned int CharacterChangeModel_TypeDefinitionIndex = 21937;
 
 	class CharacterChangeModel : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCHANGEMODEL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3E11E12927F24A77(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterChangeModel*& a2)
+		static ::System::Void Method_3_D8DECD9B4FAE1FEE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterChangeModel*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterChangeModel*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCHANGEMODEL_METHOD_3_3E11E12927F24A77_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterChangeModel*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCHANGEMODEL_METHOD_3_D8DECD9B4FAE1FEE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_90A418CE0539F81F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterChangeModel* a2)
+		static ::System::Void Method_3_5D13EEFD07512A98(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterChangeModel* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterChangeModel*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCHANGEMODEL_METHOD_3_90A418CE0539F81F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterChangeModel*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCHANGEMODEL_METHOD_3_5D13EEFD07512A98_OFFSET))(a1, a2);
 		}
 	};
 }

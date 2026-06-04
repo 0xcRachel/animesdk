@@ -6,10 +6,10 @@ class Class_2_0A005A6B9D1208E3;
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 namespace RPG::Client::LittleGame::FiveDim { class FiveDimMonoCamera; }
 
-#define CLASS_2_0A005A6B9D1208E3___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDB56020)
-#define CLASS_2_0A005A6B9D1208E3___C__DISPLAYCLASS6_0___PRESETSTACKORTHOGRAPHICSIZEFORSTARTCURVE_B__0_OFFSET UNITYSDK_OFFSET(0xDB56030)
+#define CLASS_2_0A005A6B9D1208E3___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x145A4200)
+#define CLASS_2_0A005A6B9D1208E3___C__DISPLAYCLASS6_0___PRESETSTACKORTHOGRAPHICSIZEFORSTARTCURVE_B__0_OFFSET UNITYSDK_OFFSET(0x145B0D70)
 
-inline static constexpr unsigned int Class_2_0A005A6B9D1208E3___c__DisplayClass6_0_TypeDefinitionIndex = 70490;
+inline static constexpr unsigned int Class_2_0A005A6B9D1208E3___c__DisplayClass6_0_TypeDefinitionIndex = 71307;
 
 class Class_2_0A005A6B9D1208E3___c__DisplayClass6_0 : public ::System::Object
 {
@@ -22,8 +22,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0A005A6B9D1208E3___C__DISPLAYCLASS6_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Void __PresetStackOrthographicSizeForStartCurve_b__0(::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera* _, ::Cinemachine::CinemachineVirtualCameraBase* vc)
+	::System::Void __PresetStackOrthographicSizeForStartCurve_b__0(::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera* a1, ::Cinemachine::CinemachineVirtualCameraBase* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera*, ::Cinemachine::CinemachineVirtualCameraBase*))((::PBYTE)hIl2Cpp + CLASS_2_0A005A6B9D1208E3___C__DISPLAYCLASS6_0___PRESETSTACKORTHOGRAPHICSIZEFORSTARTCURVE_B__0_OFFSET))(this, _, vc);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera*, ::Cinemachine::CinemachineVirtualCameraBase*))((::PBYTE)hIl2Cpp + CLASS_2_0A005A6B9D1208E3___C__DISPLAYCLASS6_0___PRESETSTACKORTHOGRAPHICSIZEFORSTARTCURVE_B__0_OFFSET))(this, a1, a2);
 	}
 };

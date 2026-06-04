@@ -4,10 +4,10 @@
 
 class Class_1_8EC2A64207E05751;
 
-#define CLASS_1_9EAA8F34F19AA563___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF447890)
-#define CLASS_1_9EAA8F34F19AA563___C__DISPLAYCLASS27_0__TOPROTO_B__0_OFFSET UNITYSDK_OFFSET(0xF44ADF0)
+#define CLASS_1_9EAA8F34F19AA563___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14612ED0)
+#define CLASS_1_9EAA8F34F19AA563___C__DISPLAYCLASS27_0__TOPROTO_B__0_OFFSET UNITYSDK_OFFSET(0x14617060)
 
-inline static constexpr unsigned int Class_1_9EAA8F34F19AA563___c__DisplayClass27_0_TypeDefinitionIndex = 53113;
+inline static constexpr unsigned int Class_1_9EAA8F34F19AA563___c__DisplayClass27_0_TypeDefinitionIndex = 53823;
 
 class Class_1_9EAA8F34F19AA563___c__DisplayClass27_0 : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9EAA8F34F19AA563___C__DISPLAYCLASS27_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean _ToProto_b__0(::Class_1_8EC2A64207E05751* x)
+	::System::Boolean _ToProto_b__0(::Class_1_8EC2A64207E05751* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_8EC2A64207E05751*))((::PBYTE)hIl2Cpp + CLASS_1_9EAA8F34F19AA563___C__DISPLAYCLASS27_0__TOPROTO_B__0_OFFSET))(this, x);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_8EC2A64207E05751*))((::PBYTE)hIl2Cpp + CLASS_1_9EAA8F34F19AA563___C__DISPLAYCLASS27_0__TOPROTO_B__0_OFFSET))(this, a1);
 	}
 };

@@ -6,24 +6,24 @@
 namespace RPG::Client { class QuestData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MESSAGECONTENTQUESTBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x147307A0)
-#define RPG_CLIENT_MESSAGECONTENTQUESTBLOCK_GET_QUESTS_OFFSET UNITYSDK_OFFSET(0x147308C0)
-#define RPG_CLIENT_MESSAGECONTENTQUESTBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x175B2540)
-#define RPG_CLIENT_MESSAGECONTENTQUESTBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x175B2550)
-#define RPG_CLIENT_MESSAGECONTENTQUESTBLOCK__GETQUESTS_OFFSET UNITYSDK_OFFSET(0x147308D0)
+#define RPG_CLIENT_MESSAGECONTENTQUESTBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x1792F4A0)
+#define RPG_CLIENT_MESSAGECONTENTQUESTBLOCK_GET_QUESTS_OFFSET UNITYSDK_OFFSET(0x1792F5F0)
+#define RPG_CLIENT_MESSAGECONTENTQUESTBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1792F480)
+#define RPG_CLIENT_MESSAGECONTENTQUESTBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1792F490)
+#define RPG_CLIENT_MESSAGECONTENTQUESTBLOCK__GETQUESTS_OFFSET UNITYSDK_OFFSET(0x1792F600)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentQuestBlock_TypeDefinitionIndex = 58275;
+	inline static constexpr unsigned int MessageContentQuestBlock_TypeDefinitionIndex = 59205;
 
 	class MessageContentQuestBlock : public ::RPG::Client::MessageContentBlock
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* _QuestIDs; // 0x18
 
-		::System::Void _ctor(::System::Collections::Generic::List_1<::System::UInt32>* questIDs)
+		::System::Void _ctor(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTQUESTBLOCK__CTOR_OFFSET))(this, questIDs);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTQUESTBLOCK__CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MessageContentBlock_BlockType get_Type()
@@ -31,9 +31,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MessageContentBlock_BlockType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTQUESTBLOCK_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::RPG::Client::MessageContentBlock* other)
+		::System::Boolean Equals(::RPG::Client::MessageContentBlock* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTQUESTBLOCK_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTQUESTBLOCK_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::QuestData*>* get_Quests()

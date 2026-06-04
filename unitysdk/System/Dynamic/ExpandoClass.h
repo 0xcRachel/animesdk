@@ -8,26 +8,26 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Dynamic { class ExpandoObject; }
 
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_FINDNEWCLASS_OFFSET UNITYSDK_OFFSET(0x184171C0)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETTRANSITIONLIST_OFFSET UNITYSDK_OFFSET(0x184176B0)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEXCASEINSENSITIVE_OFFSET UNITYSDK_OFFSET(0x18417910)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEXCASESENSITIVE_OFFSET UNITYSDK_OFFSET(0x18417B00)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEX_OFFSET UNITYSDK_OFFSET(0x18417870)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_GET_KEYS_OFFSET UNITYSDK_OFFSET(0x18417C20)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x18417C30)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x184171B0)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS__CTOR_OFFSET UNITYSDK_OFFSET(0x18417190)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_FINDNEWCLASS_OFFSET UNITYSDK_OFFSET(0x17A8A1A0)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETTRANSITIONLIST_OFFSET UNITYSDK_OFFSET(0x17A8A690)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEXCASEINSENSITIVE_OFFSET UNITYSDK_OFFSET(0x17A8A8B0)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEXCASESENSITIVE_OFFSET UNITYSDK_OFFSET(0x17A8AB30)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEX_OFFSET UNITYSDK_OFFSET(0x17A8A820)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_GET_KEYS_OFFSET UNITYSDK_OFFSET(0x17A8AC40)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x17A8AC50)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17A8A190)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS__CTOR_OFFSET UNITYSDK_OFFSET(0x17A8A170)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int ExpandoClass_TypeDefinitionIndex = 3661;
+	inline static constexpr unsigned int ExpandoClass_TypeDefinitionIndex = 3662;
 
 	class ExpandoClass : public ::System::Object
 	{
 	public:
 		static ::System::Dynamic::ExpandoClass** StaticGet_Empty()
 		{
-			return (::System::Dynamic::ExpandoClass**)Il2CppClass::FromTypeDefinitionIndex(ExpandoClass_TypeDefinitionIndex)->GetStaticField(0xDD50);
+			return (::System::Dynamic::ExpandoClass**)Il2CppClass::FromTypeDefinitionIndex(ExpandoClass_TypeDefinitionIndex)->GetStaticField(0x29EA0);
 		}
 		::Il2CppArray<::System::String*>* _keys; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::WeakReference*>*>* _transitions; // 0x18
@@ -38,9 +38,9 @@ namespace System::Dynamic
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOCLASS__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::Il2CppArray<::System::String*>* keys, ::System::Int32 hashCode)
+		::System::Void _ctor_1(::Il2CppArray<::System::String*>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOCLASS__CTOR_1_OFFSET))(this, keys, hashCode);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOCLASS__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
@@ -48,29 +48,29 @@ namespace System::Dynamic
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOCLASS__CCTOR_OFFSET))();
 		}
 
-		::System::Dynamic::ExpandoClass* FindNewClass(::System::String* newKey)
+		::System::Dynamic::ExpandoClass* FindNewClass(::System::String* a1)
 		{
-			return ((::System::Dynamic::ExpandoClass*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOCLASS_FINDNEWCLASS_OFFSET))(this, newKey);
+			return ((::System::Dynamic::ExpandoClass*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOCLASS_FINDNEWCLASS_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::System::WeakReference*>* GetTransitionList(::System::Int32 hashCode)
+		::System::Collections::Generic::List_1<::System::WeakReference*>* GetTransitionList(::System::Int32 a1)
 		{
-			return ((::System::Collections::Generic::List_1<::System::WeakReference*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOCLASS_GETTRANSITIONLIST_OFFSET))(this, hashCode);
+			return ((::System::Collections::Generic::List_1<::System::WeakReference*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOCLASS_GETTRANSITIONLIST_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetValueIndex(::System::String* name, ::System::Boolean caseInsensitive, ::System::Dynamic::ExpandoObject* obj)
+		::System::Int32 GetValueIndex(::System::String* a1, ::System::Boolean a2, ::System::Dynamic::ExpandoObject* a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Dynamic::ExpandoObject*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEX_OFFSET))(this, name, caseInsensitive, obj);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Dynamic::ExpandoObject*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEX_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 GetValueIndexCaseSensitive(::System::String* name)
+		::System::Int32 GetValueIndexCaseSensitive(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEXCASESENSITIVE_OFFSET))(this, name);
+			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEXCASESENSITIVE_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetValueIndexCaseInsensitive(::System::String* name, ::System::Dynamic::ExpandoObject* obj)
+		::System::Int32 GetValueIndexCaseInsensitive(::System::String* a1, ::System::Dynamic::ExpandoObject* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Dynamic::ExpandoObject*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEXCASEINSENSITIVE_OFFSET))(this, name, obj);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Dynamic::ExpandoObject*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEXCASEINSENSITIVE_OFFSET))(this, a1, a2);
 		}
 
 		::Il2CppArray<::System::String*>* get_Keys()

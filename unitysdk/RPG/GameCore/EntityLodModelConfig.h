@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ENTITYLODMODELCONFIG_METHOD_2_07AC4E1F00513E5D_OFFSET UNITYSDK_OFFSET(0x19450350)
-#define RPG_GAMECORE_ENTITYLODMODELCONFIG_METHOD_2_8B6B88BB55BEE3B0_OFFSET UNITYSDK_OFFSET(0x194506A0)
-#define RPG_GAMECORE_ENTITYLODMODELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19450670)
+#define RPG_GAMECORE_ENTITYLODMODELCONFIG_METHOD_2_8B6B88BB55BEE3B0_OFFSET UNITYSDK_OFFSET(0x19D7D9F0)
+#define RPG_GAMECORE_ENTITYLODMODELCONFIG_METHOD_2_E3AA469B35D90116_OFFSET UNITYSDK_OFFSET(0x19D7D6B0)
+#define RPG_GAMECORE_ENTITYLODMODELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19D7D9C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityLodModelConfig_TypeDefinitionIndex = 18254;
+	inline static constexpr unsigned int EntityLodModelConfig_TypeDefinitionIndex = 18227;
 
 	class EntityLodModelConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYLODMODELCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_07AC4E1F00513E5D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EntityLodModelConfig*& a2)
+		static ::System::Void Method_2_E3AA469B35D90116(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EntityLodModelConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EntityLodModelConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYLODMODELCONFIG_METHOD_2_07AC4E1F00513E5D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EntityLodModelConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYLODMODELCONFIG_METHOD_2_E3AA469B35D90116_OFFSET))(a1, a2);
 		}
 
 		::System::String* Method_2_8B6B88BB55BEE3B0()

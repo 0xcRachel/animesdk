@@ -4,21 +4,21 @@
 
 class FiveDimRenderingItem;
 
-#define FDRIDISSOLVEOPERATION_METHOD_3_259E094C1AEE84CB_OFFSET UNITYSDK_OFFSET(0xDB3B280)
-#define FDRIDISSOLVEOPERATION_METHOD_3_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0xDB3B710)
-#define FDRIDISSOLVEOPERATION_METHOD_3_FDBBD6114921827A_1_OFFSET UNITYSDK_OFFSET(0xDB3B370)
-#define FDRIDISSOLVEOPERATION_METHOD_3_FDBBD6114921827A_OFFSET UNITYSDK_OFFSET(0xDB3AF00)
-#define FDRIDISSOLVEOPERATION__CCTOR_OFFSET UNITYSDK_OFFSET(0xDB3B780)
-#define FDRIDISSOLVEOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0xDB3B760)
+#define FDRIDISSOLVEOPERATION_METHOD_3_4E6960335B200E06_OFFSET UNITYSDK_OFFSET(0x16F695A0)
+#define FDRIDISSOLVEOPERATION_METHOD_3_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x16F699E0)
+#define FDRIDISSOLVEOPERATION_METHOD_3_FDBBD6114921827A_1_OFFSET UNITYSDK_OFFSET(0x16F69690)
+#define FDRIDISSOLVEOPERATION_METHOD_3_FDBBD6114921827A_OFFSET UNITYSDK_OFFSET(0x16F691D0)
+#define FDRIDISSOLVEOPERATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x16F69A50)
+#define FDRIDISSOLVEOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x16F69A30)
 
-inline static constexpr unsigned int FDRIDissolveOperation_TypeDefinitionIndex = 43921;
+inline static constexpr unsigned int FDRIDissolveOperation_TypeDefinitionIndex = 44467;
 
 class FDRIDissolveOperation : public ::FDRIMatStateOperation
 {
 public:
 	static ::System::Int32* StaticGet__DissolveUseCustomData()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FDRIDissolveOperation_TypeDefinitionIndex)->GetStaticField(0x70A0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FDRIDissolveOperation_TypeDefinitionIndex)->GetStaticField(0xEC40);
 	}
 	::System::Single DissolveRate; // 0x20
 	::System::Single DissolveScale; // 0x24
@@ -39,9 +39,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::FiveDimRenderingItem*))((::PBYTE)hIl2Cpp + FDRIDISSOLVEOPERATION_METHOD_3_FDBBD6114921827A_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_3_259E094C1AEE84CB(::FiveDimRenderingItem* a1)
+	::System::Void Method_3_4E6960335B200E06(::FiveDimRenderingItem* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::FiveDimRenderingItem*))((::PBYTE)hIl2Cpp + FDRIDISSOLVEOPERATION_METHOD_3_259E094C1AEE84CB_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::FiveDimRenderingItem*))((::PBYTE)hIl2Cpp + FDRIDISSOLVEOPERATION_METHOD_3_4E6960335B200E06_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_3_FDBBD6114921827A_1(::FiveDimRenderingItem* a1)

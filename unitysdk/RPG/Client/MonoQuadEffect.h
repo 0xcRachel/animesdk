@@ -5,15 +5,15 @@
 namespace RPG::Client { class UIQuad; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOQUADEFFECT_DOTICK_OFFSET UNITYSDK_OFFSET(0x162E07C0)
-#define RPG_CLIENT_MONOQUADEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0x162E0950)
-#define RPG_CLIENT_MONOQUADEFFECT_UPDATEPOS_OFFSET UNITYSDK_OFFSET(0x162E0870)
-#define RPG_CLIENT_MONOQUADEFFECT_UPDATE_OFFSET UNITYSDK_OFFSET(0x162E0760)
-#define RPG_CLIENT_MONOQUADEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x162E09D0)
+#define RPG_CLIENT_MONOQUADEFFECT_DOTICK_OFFSET UNITYSDK_OFFSET(0x17AE8210)
+#define RPG_CLIENT_MONOQUADEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0x17AE8390)
+#define RPG_CLIENT_MONOQUADEFFECT_UPDATEPOS_OFFSET UNITYSDK_OFFSET(0x17AE82C0)
+#define RPG_CLIENT_MONOQUADEFFECT_UPDATE_OFFSET UNITYSDK_OFFSET(0x17AE81B0)
+#define RPG_CLIENT_MONOQUADEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x17AE8410)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoQuadEffect_TypeDefinitionIndex = 66887;
+	inline static constexpr unsigned int MonoQuadEffect_TypeDefinitionIndex = 67827;
 
 	class MonoQuadEffect : public ::UnityEngine::MonoBehaviour
 	{
@@ -47,9 +47,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOQUADEFFECT_UPDATEPOS_OFFSET))(this);
 		}
 
-		::System::Void Play(::System::Single start, ::System::Single end)
+		::System::Void Play(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOQUADEFFECT_PLAY_OFFSET))(this, start, end);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOQUADEFFECT_PLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

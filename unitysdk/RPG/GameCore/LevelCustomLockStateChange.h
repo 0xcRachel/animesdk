@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELCUSTOMLOCKSTATECHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF2A5840)
-#define RPG_GAMECORE_LEVELCUSTOMLOCKSTATECHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF2A57F0)
-#define RPG_GAMECORE_LEVELCUSTOMLOCKSTATECHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xF2A5790)
-#define RPG_GAMECORE_LEVELCUSTOMLOCKSTATECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xF2A5890)
+#define RPG_GAMECORE_LEVELCUSTOMLOCKSTATECHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1872C290)
+#define RPG_GAMECORE_LEVELCUSTOMLOCKSTATECHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1872C240)
+#define RPG_GAMECORE_LEVELCUSTOMLOCKSTATECHANGE_INIT_OFFSET UNITYSDK_OFFSET(0x1872C1E0)
+#define RPG_GAMECORE_LEVELCUSTOMLOCKSTATECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1872C2E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCustomLockStateChange_TypeDefinitionIndex = 52393;
+	inline static constexpr unsigned int LevelCustomLockStateChange_TypeDefinitionIndex = 53090;
 
-	class LevelCustomLockStateChange : public ::Class_1_9988289E7F8AA214
+	class LevelCustomLockStateChange : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::System::String* LockName; // 0x18
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCUSTOMLOCKSTATECHANGE__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelCustomLockStateChange* Init(::System::String* name, ::System::Boolean isLocked)
+		::RPG::GameCore::LevelCustomLockStateChange* Init(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::RPG::GameCore::LevelCustomLockStateChange*(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCUSTOMLOCKSTATECHANGE_INIT_OFFSET))(this, name, isLocked);
+			return ((::RPG::GameCore::LevelCustomLockStateChange*(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCUSTOMLOCKSTATECHANGE_INIT_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

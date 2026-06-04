@@ -5,7 +5,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_598;
+class Class_0_16E4307DCC419505_621;
 class Class_1_0A24888DF04C995E_2;
 namespace RPG::Client { class Map; }
 namespace RPG::Client { class MiniMapLayer; }
@@ -19,94 +19,94 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MINIMAPMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14741840)
-#define RPG_CLIENT_MINIMAPMANAGER_GETMINIMAPICONS_OFFSET UNITYSDK_OFFSET(0x14745160)
-#define RPG_CLIENT_MINIMAPMANAGER_GETPLAYERTRACK_OFFSET UNITYSDK_OFFSET(0x147459A0)
-#define RPG_CLIENT_MINIMAPMANAGER_GET_IGNOREENLIGHTSECTION_OFFSET UNITYSDK_OFFSET(0x1474C100)
-#define RPG_CLIENT_MINIMAPMANAGER_GET_LIMITAREADATA_OFFSET UNITYSDK_OFFSET(0x1474C0E0)
-#define RPG_CLIENT_MINIMAPMANAGER_ISICONHIDDEN_OFFSET UNITYSDK_OFFSET(0x14744C20)
-#define RPG_CLIENT_MINIMAPMANAGER_QUERYZONE_OFFSET UNITYSDK_OFFSET(0x14744F30)
-#define RPG_CLIENT_MINIMAPMANAGER_REGISTERICONFORDAILYPROP_OFFSET UNITYSDK_OFFSET(0x14744950)
-#define RPG_CLIENT_MINIMAPMANAGER_REGISTERICONFORPROP_OFFSET UNITYSDK_OFFSET(0x14744790)
-#define RPG_CLIENT_MINIMAPMANAGER_REGISTERICON_OFFSET UNITYSDK_OFFSET(0x14743C30)
-#define RPG_CLIENT_MINIMAPMANAGER_REGISTERLIMITAREA_OFFSET UNITYSDK_OFFSET(0x14744CC0)
-#define RPG_CLIENT_MINIMAPMANAGER_REGISTERONLINEPLAYROOMJUKEBOXICON_OFFSET UNITYSDK_OFFSET(0x147446A0)
-#define RPG_CLIENT_MINIMAPMANAGER_REGISTEROUTCONTROLTEAMLEADERICON_OFFSET UNITYSDK_OFFSET(0x14743FB0)
-#define RPG_CLIENT_MINIMAPMANAGER_REGISTERSWITCHHANDHANDICON_OFFSET UNITYSDK_OFFSET(0x14744460)
-#define RPG_CLIENT_MINIMAPMANAGER_REGISTERTRAVELSHIPDOCKICON_OFFSET UNITYSDK_OFFSET(0x14744580)
-#define RPG_CLIENT_MINIMAPMANAGER_REGISTERZONE_OFFSET UNITYSDK_OFFSET(0x14742BC0)
-#define RPG_CLIENT_MINIMAPMANAGER_SETENTITYICONSHIDE_OFFSET UNITYSDK_OFFSET(0x14744A90)
-#define RPG_CLIENT_MINIMAPMANAGER_SET_IGNOREENLIGHTSECTION_OFFSET UNITYSDK_OFFSET(0x1474C110)
-#define RPG_CLIENT_MINIMAPMANAGER_SET_LIMITAREADATA_OFFSET UNITYSDK_OFFSET(0x1474C0F0)
-#define RPG_CLIENT_MINIMAPMANAGER_SHITPLAYERTRACK_OFFSET UNITYSDK_OFFSET(0x147459E0)
-#define RPG_CLIENT_MINIMAPMANAGER_TICK_OFFSET UNITYSDK_OFFSET(0x14741C90)
-#define RPG_CLIENT_MINIMAPMANAGER_UNREGISTERALLICON_OFFSET UNITYSDK_OFFSET(0x147441B0)
-#define RPG_CLIENT_MINIMAPMANAGER_UNREGISTERICONFORPROP_OFFSET UNITYSDK_OFFSET(0x147448D0)
-#define RPG_CLIENT_MINIMAPMANAGER_UNREGISTERICON_OFFSET UNITYSDK_OFFSET(0x14744120)
-#define RPG_CLIENT_MINIMAPMANAGER_UNREGISTERLIMITAREA_OFFSET UNITYSDK_OFFSET(0x14744EE0)
-#define RPG_CLIENT_MINIMAPMANAGER_UNREGISTERZONE_OFFSET UNITYSDK_OFFSET(0x14743790)
-#define RPG_CLIENT_MINIMAPMANAGER__ADDICONINSECTIONS_OFFSET UNITYSDK_OFFSET(0x14747F70)
-#define RPG_CLIENT_MINIMAPMANAGER__ARRANGEZONETOLAYER_OFFSET UNITYSDK_OFFSET(0x14745D60)
-#define RPG_CLIENT_MINIMAPMANAGER__ASSISTWAYPOINTREFRESHED_OFFSET UNITYSDK_OFFSET(0x14749F60)
-#define RPG_CLIENT_MINIMAPMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x147413B0)
-#define RPG_CLIENT_MINIMAPMANAGER__DOCHESTMAPPINGINFOREFRESH_OFFSET UNITYSDK_OFFSET(0x14749430)
-#define RPG_CLIENT_MINIMAPMANAGER__DOTRACKINGINFOREFRESH_OFFSET UNITYSDK_OFFSET(0x147493D0)
-#define RPG_CLIENT_MINIMAPMANAGER__GETZONEINLAYER_OFFSET UNITYSDK_OFFSET(0x14745050)
-#define RPG_CLIENT_MINIMAPMANAGER__INTERNALADDICON_OFFSET UNITYSDK_OFFSET(0x14743F30)
-#define RPG_CLIENT_MINIMAPMANAGER__INTERNALREMOVETARGETALLICONS_OFFSET UNITYSDK_OFFSET(0x14744200)
-#define RPG_CLIENT_MINIMAPMANAGER__MISSIONREFRESHED_OFFSET UNITYSDK_OFFSET(0x14749C10)
-#define RPG_CLIENT_MINIMAPMANAGER__ONADDTEMPSHOWICON_OFFSET UNITYSDK_OFFSET(0x14749330)
-#define RPG_CLIENT_MINIMAPMANAGER__ONFINDCHESTINFOREFRESH_OFFSET UNITYSDK_OFFSET(0x14748F20)
-#define RPG_CLIENT_MINIMAPMANAGER__ONFLOORSAVEDVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x14746780)
-#define RPG_CLIENT_MINIMAPMANAGER__ONREMOVETEMPSHOWICON_OFFSET UNITYSDK_OFFSET(0x14749380)
-#define RPG_CLIENT_MINIMAPMANAGER__ONTEAMLEADERENTITYCHANGED_OFFSET UNITYSDK_OFFSET(0x14748F70)
-#define RPG_CLIENT_MINIMAPMANAGER__ONTRACKINGINFOREFRESHED_OFFSET UNITYSDK_OFFSET(0x14748ED0)
-#define RPG_CLIENT_MINIMAPMANAGER__REGISTERFSVTOSECTIONS_OFFSET UNITYSDK_OFFSET(0x14743180)
-#define RPG_CLIENT_MINIMAPMANAGER__REGISTERZONEINTERNAL_OFFSET UNITYSDK_OFFSET(0x147435C0)
-#define RPG_CLIENT_MINIMAPMANAGER__REMOVEICONINSECTIONS_OFFSET UNITYSDK_OFFSET(0x14748BC0)
-#define RPG_CLIENT_MINIMAPMANAGER__REMOVEINVALIDICONS_OFFSET UNITYSDK_OFFSET(0x147457F0)
-#define RPG_CLIENT_MINIMAPMANAGER__TICKFINDCHESTINFO_OFFSET UNITYSDK_OFFSET(0x14742B60)
-#define RPG_CLIENT_MINIMAPMANAGER__TICKPLAYERZONE_OFFSET UNITYSDK_OFFSET(0x14742350)
-#define RPG_CLIENT_MINIMAPMANAGER__TICKREFRESHTRACKINGINFO_OFFSET UNITYSDK_OFFSET(0x14742AD0)
-#define RPG_CLIENT_MINIMAPMANAGER__TRACKINGICONREFRESHED_OFFSET UNITYSDK_OFFSET(0x1474A410)
-#define RPG_CLIENT_MINIMAPMANAGER__TRYREFRESHSUBMISSION_OFFSET UNITYSDK_OFFSET(0x1474ACD0)
-#define RPG_CLIENT_MINIMAPMANAGER__UNREGISTERFSVTOSECTIONS_OFFSET UNITYSDK_OFFSET(0x14743A50)
-#define RPG_CLIENT_MINIMAPMANAGER__WRITEZONE_OFFSET UNITYSDK_OFFSET(0x14742FC0)
+#define RPG_CLIENT_MINIMAPMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1793FF20)
+#define RPG_CLIENT_MINIMAPMANAGER_GETMINIMAPICONS_OFFSET UNITYSDK_OFFSET(0x17943A20)
+#define RPG_CLIENT_MINIMAPMANAGER_GETPLAYERTRACK_OFFSET UNITYSDK_OFFSET(0x17944370)
+#define RPG_CLIENT_MINIMAPMANAGER_GET_IGNOREENLIGHTSECTION_OFFSET UNITYSDK_OFFSET(0x1794A890)
+#define RPG_CLIENT_MINIMAPMANAGER_GET_LIMITAREADATA_OFFSET UNITYSDK_OFFSET(0x1794A870)
+#define RPG_CLIENT_MINIMAPMANAGER_ISICONHIDDEN_OFFSET UNITYSDK_OFFSET(0x17943430)
+#define RPG_CLIENT_MINIMAPMANAGER_QUERYZONE_OFFSET UNITYSDK_OFFSET(0x179437C0)
+#define RPG_CLIENT_MINIMAPMANAGER_REGISTERICONFORDAILYPROP_OFFSET UNITYSDK_OFFSET(0x179430F0)
+#define RPG_CLIENT_MINIMAPMANAGER_REGISTERICONFORPROP_OFFSET UNITYSDK_OFFSET(0x17942FA0)
+#define RPG_CLIENT_MINIMAPMANAGER_REGISTERICON_OFFSET UNITYSDK_OFFSET(0x17942640)
+#define RPG_CLIENT_MINIMAPMANAGER_REGISTERLIMITAREA_OFFSET UNITYSDK_OFFSET(0x17943550)
+#define RPG_CLIENT_MINIMAPMANAGER_REGISTERONLINEPLAYROOMJUKEBOXICON_OFFSET UNITYSDK_OFFSET(0x17942F10)
+#define RPG_CLIENT_MINIMAPMANAGER_REGISTEROUTCONTROLTEAMLEADERICON_OFFSET UNITYSDK_OFFSET(0x17942940)
+#define RPG_CLIENT_MINIMAPMANAGER_REGISTERSWITCHHANDHANDICON_OFFSET UNITYSDK_OFFSET(0x17942DB0)
+#define RPG_CLIENT_MINIMAPMANAGER_REGISTERTRAVELSHIPDOCKICON_OFFSET UNITYSDK_OFFSET(0x17942E60)
+#define RPG_CLIENT_MINIMAPMANAGER_REGISTERZONE_OFFSET UNITYSDK_OFFSET(0x179414D0)
+#define RPG_CLIENT_MINIMAPMANAGER_SETENTITYICONSHIDE_OFFSET UNITYSDK_OFFSET(0x179431C0)
+#define RPG_CLIENT_MINIMAPMANAGER_SET_IGNOREENLIGHTSECTION_OFFSET UNITYSDK_OFFSET(0x1794A8A0)
+#define RPG_CLIENT_MINIMAPMANAGER_SET_LIMITAREADATA_OFFSET UNITYSDK_OFFSET(0x1794A880)
+#define RPG_CLIENT_MINIMAPMANAGER_SHITPLAYERTRACK_OFFSET UNITYSDK_OFFSET(0x179443B0)
+#define RPG_CLIENT_MINIMAPMANAGER_TICK_OFFSET UNITYSDK_OFFSET(0x17940450)
+#define RPG_CLIENT_MINIMAPMANAGER_UNREGISTERALLICON_OFFSET UNITYSDK_OFFSET(0x17942AC0)
+#define RPG_CLIENT_MINIMAPMANAGER_UNREGISTERICONFORPROP_OFFSET UNITYSDK_OFFSET(0x17943070)
+#define RPG_CLIENT_MINIMAPMANAGER_UNREGISTERICON_OFFSET UNITYSDK_OFFSET(0x17942A50)
+#define RPG_CLIENT_MINIMAPMANAGER_UNREGISTERLIMITAREA_OFFSET UNITYSDK_OFFSET(0x17943770)
+#define RPG_CLIENT_MINIMAPMANAGER_UNREGISTERZONE_OFFSET UNITYSDK_OFFSET(0x17942160)
+#define RPG_CLIENT_MINIMAPMANAGER__ADDICONINSECTIONS_OFFSET UNITYSDK_OFFSET(0x17946920)
+#define RPG_CLIENT_MINIMAPMANAGER__ARRANGEZONETOLAYER_OFFSET UNITYSDK_OFFSET(0x17944730)
+#define RPG_CLIENT_MINIMAPMANAGER__ASSISTWAYPOINTREFRESHED_OFFSET UNITYSDK_OFFSET(0x17948810)
+#define RPG_CLIENT_MINIMAPMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1793FA10)
+#define RPG_CLIENT_MINIMAPMANAGER__DOCHESTMAPPINGINFOREFRESH_OFFSET UNITYSDK_OFFSET(0x17947B60)
+#define RPG_CLIENT_MINIMAPMANAGER__DOTRACKINGINFOREFRESH_OFFSET UNITYSDK_OFFSET(0x17947B00)
+#define RPG_CLIENT_MINIMAPMANAGER__GETZONEINLAYER_OFFSET UNITYSDK_OFFSET(0x17943900)
+#define RPG_CLIENT_MINIMAPMANAGER__INTERNALADDICON_OFFSET UNITYSDK_OFFSET(0x17942870)
+#define RPG_CLIENT_MINIMAPMANAGER__INTERNALREMOVETARGETALLICONS_OFFSET UNITYSDK_OFFSET(0x17942B10)
+#define RPG_CLIENT_MINIMAPMANAGER__MISSIONREFRESHED_OFFSET UNITYSDK_OFFSET(0x17948470)
+#define RPG_CLIENT_MINIMAPMANAGER__ONADDTEMPSHOWICON_OFFSET UNITYSDK_OFFSET(0x17947A20)
+#define RPG_CLIENT_MINIMAPMANAGER__ONFINDCHESTINFOREFRESH_OFFSET UNITYSDK_OFFSET(0x17947630)
+#define RPG_CLIENT_MINIMAPMANAGER__ONFLOORSAVEDVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x17945160)
+#define RPG_CLIENT_MINIMAPMANAGER__ONREMOVETEMPSHOWICON_OFFSET UNITYSDK_OFFSET(0x17947A90)
+#define RPG_CLIENT_MINIMAPMANAGER__ONTEAMLEADERENTITYCHANGED_OFFSET UNITYSDK_OFFSET(0x17947680)
+#define RPG_CLIENT_MINIMAPMANAGER__ONTRACKINGINFOREFRESHED_OFFSET UNITYSDK_OFFSET(0x179475D0)
+#define RPG_CLIENT_MINIMAPMANAGER__REGISTERFSVTOSECTIONS_OFFSET UNITYSDK_OFFSET(0x17941AD0)
+#define RPG_CLIENT_MINIMAPMANAGER__REGISTERZONEINTERNAL_OFFSET UNITYSDK_OFFSET(0x17941F10)
+#define RPG_CLIENT_MINIMAPMANAGER__REMOVEICONINSECTIONS_OFFSET UNITYSDK_OFFSET(0x17947380)
+#define RPG_CLIENT_MINIMAPMANAGER__REMOVEINVALIDICONS_OFFSET UNITYSDK_OFFSET(0x179441B0)
+#define RPG_CLIENT_MINIMAPMANAGER__TICKFINDCHESTINFO_OFFSET UNITYSDK_OFFSET(0x17941470)
+#define RPG_CLIENT_MINIMAPMANAGER__TICKPLAYERZONE_OFFSET UNITYSDK_OFFSET(0x17940BE0)
+#define RPG_CLIENT_MINIMAPMANAGER__TICKREFRESHTRACKINGINFO_OFFSET UNITYSDK_OFFSET(0x179413E0)
+#define RPG_CLIENT_MINIMAPMANAGER__TRACKINGICONREFRESHED_OFFSET UNITYSDK_OFFSET(0x17948CD0)
+#define RPG_CLIENT_MINIMAPMANAGER__TRYREFRESHSUBMISSION_OFFSET UNITYSDK_OFFSET(0x179494F0)
+#define RPG_CLIENT_MINIMAPMANAGER__UNREGISTERFSVTOSECTIONS_OFFSET UNITYSDK_OFFSET(0x17942430)
+#define RPG_CLIENT_MINIMAPMANAGER__WRITEZONE_OFFSET UNITYSDK_OFFSET(0x179418F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MiniMapManager_TypeDefinitionIndex = 55933;
+	inline static constexpr unsigned int MiniMapManager_TypeDefinitionIndex = 56688;
 
 	class MiniMapManager : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_598*>* _FindChestIcons; // 0x10
-		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_598*>* _MissionIcons; // 0x18
-		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_598*>* _FilteredMiniMapIcons; // 0x20
-		::Class_1_0A24888DF04C995E_2* _LimitAreaData_k__BackingField; // 0x28
-		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_598*>* _MiniMapIcons; // 0x30
+		::System::Collections::Generic::List_1<::RPG::Client::MiniMapZone*>* _DiscreteMapZones; // 0x10
+		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_621*>* _FindChestIcons; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* _HideWhiteList; // 0x20
+		::RPG::Client::MiniMapZone* PlayerZone; // 0x28
+		::RPG::GameCore::GameEntity* _PlayerStub; // 0x30
 		::System::Collections::Generic::HashSet_1<::System::String*>* _FSVToSectionKeys; // 0x38
-		::RPG::Client::UnlockSectionInfo* _Info; // 0x40
-		::RPG::Client::MiniMapZone* PlayerZone; // 0x48
+		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_621*>* _FilteredMiniMapIcons; // 0x40
+		::System::Collections::Generic::List_1<::System::Int32>* _LocateSectionIdxs; // 0x48
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _PlayerTrack; // 0x50
-		::System::Collections::Generic::List_1<::RPG::Client::MiniMapLayer*>* _MapLayers; // 0x58
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* _HideWhiteList; // 0x60
-		::RPG::Client::MiniMapLayer* PlayerLayer; // 0x68
-		::RPG::GameCore::GameEntity* _PlayerStub; // 0x70
-		::System::Collections::Generic::List_1<::System::Int32>* _LocateSectionIdxs; // 0x78
-		::System::Collections::Generic::List_1<::RPG::Client::MiniMapZone*>* _DiscreteMapZones; // 0x80
-		::System::UInt32 _LightScreenIconID; // 0x88
-		::RPG::Client::MiniMapManager_EMinimapIconListState _IconListState; // 0x8C
-		::System::Int32 _MissionIconNum; // 0x90
-		::System::Single _LastFootprintTime; // 0x94
-		::Struct_2_143B7A497B890286 _LocateSectionNearBounds; // 0x98
-		::System::Boolean _IgnoreEnlightSection_k__BackingField; // 0xA8
-		::System::Boolean _InHide; // 0xA9
-		::System::Boolean _TrackingInfoStateDirty; // 0xAA
-		::System::Boolean _FindChestInfoStateDirty; // 0xAB
-		::System::Single _Time; // 0xAC
-		::System::Int32 _CurrentMapShowLayer; // 0xB0
-		::System::Int32 _AllocID; // 0xB4
+		::Class_1_0A24888DF04C995E_2* _LimitAreaData_k__BackingField; // 0x58
+		::RPG::Client::UnlockSectionInfo* _Info; // 0x60
+		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_621*>* _MissionIcons; // 0x68
+		::System::Collections::Generic::List_1<::RPG::Client::MiniMapLayer*>* _MapLayers; // 0x70
+		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_621*>* _MiniMapIcons; // 0x78
+		::RPG::Client::MiniMapLayer* PlayerLayer; // 0x80
+		::System::Int32 _AllocID; // 0x88
+		::System::Int32 _MissionIconNum; // 0x8C
+		::System::Single _Time; // 0x90
+		::System::UInt32 _LightScreenIconID; // 0x94
+		::System::Single _LastFootprintTime; // 0x98
+		::RPG::Client::MiniMapManager_EMinimapIconListState _IconListState; // 0x9C
+		::System::Int32 _CurrentMapShowLayer; // 0xA0
+		::System::Boolean _InHide; // 0xA4
+		::System::Boolean _TrackingInfoStateDirty; // 0xA5
+		::System::Boolean _IgnoreEnlightSection_k__BackingField; // 0xA6
+		::System::Boolean _FindChestInfoStateDirty; // 0xA7
+		::Struct_2_143B7A497B890286 _LocateSectionNearBounds; // 0xA8
 
 		::System::Void _ctor()
 		{
@@ -118,84 +118,84 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Tick(::System::Single fElapsedTimeInSec)
+		::System::Void Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_TICK_OFFSET))(this, fElapsedTimeInSec);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Int32 RegisterZone(::RPG::GameCore::LevelNavmapConfig* navMapConfig, ::System::Collections::Generic::HashSet_1<::System::UInt32>* initVisibleSectionIDs)
+		::System::Int32 RegisterZone(::RPG::GameCore::LevelNavmapConfig* a1, ::System::Collections::Generic::HashSet_1<::System::UInt32>* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::LevelNavmapConfig*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_REGISTERZONE_OFFSET))(this, navMapConfig, initVisibleSectionIDs);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::LevelNavmapConfig*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_REGISTERZONE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void UnregisterZone(::System::Int32 id)
+		::System::Void UnregisterZone(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_UNREGISTERZONE_OFFSET))(this, id);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_UNREGISTERZONE_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterIcon(::RPG::GameCore::GameEntity* target, ::System::UInt32 iconID, ::System::Int32 subMapID)
+		::System::Void RegisterIcon(::RPG::GameCore::GameEntity* a1, ::System::UInt32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_REGISTERICON_OFFSET))(this, target, iconID, subMapID);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_REGISTERICON_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RegisterOutControlTeamLeaderIcon(::RPG::GameCore::GameEntity* target, ::System::UInt32 iconID)
+		::System::Void RegisterOutControlTeamLeaderIcon(::RPG::GameCore::GameEntity* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_REGISTEROUTCONTROLTEAMLEADERICON_OFFSET))(this, target, iconID);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_REGISTEROUTCONTROLTEAMLEADERICON_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void UnRegisterIcon(::RPG::GameCore::GameEntity* target, ::System::UInt32 iconID)
+		::System::Void UnRegisterIcon(::RPG::GameCore::GameEntity* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_UNREGISTERICON_OFFSET))(this, target, iconID);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_UNREGISTERICON_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void UnRegisterAllIcon(::RPG::GameCore::GameEntity* target)
+		::System::Void UnRegisterAllIcon(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_UNREGISTERALLICON_OFFSET))(this, target);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_UNREGISTERALLICON_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterSwitchHandHandIcon(::RPG::GameCore::PropComponent* prop, ::System::Boolean isStatic)
+		::System::Void RegisterSwitchHandHandIcon(::RPG::GameCore::PropComponent* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PropComponent*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_REGISTERSWITCHHANDHANDICON_OFFSET))(this, prop, isStatic);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PropComponent*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_REGISTERSWITCHHANDHANDICON_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RegisterTravelShipDockIcon(::RPG::GameCore::PropComponent* prop, ::System::Boolean isStatic)
+		::System::Void RegisterTravelShipDockIcon(::RPG::GameCore::PropComponent* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PropComponent*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_REGISTERTRAVELSHIPDOCKICON_OFFSET))(this, prop, isStatic);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PropComponent*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_REGISTERTRAVELSHIPDOCKICON_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RegisterOnlinePlayRoomJukeBoxIcon(::RPG::GameCore::PropComponent* prop, ::System::Boolean isStatic)
+		::System::Void RegisterOnlinePlayRoomJukeBoxIcon(::RPG::GameCore::PropComponent* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PropComponent*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_REGISTERONLINEPLAYROOMJUKEBOXICON_OFFSET))(this, prop, isStatic);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PropComponent*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_REGISTERONLINEPLAYROOMJUKEBOXICON_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RegisterIconForProp(::RPG::GameCore::PropComponent* prop, ::System::Boolean isStatic)
+		::System::Void RegisterIconForProp(::RPG::GameCore::PropComponent* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PropComponent*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_REGISTERICONFORPROP_OFFSET))(this, prop, isStatic);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PropComponent*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_REGISTERICONFORPROP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void UnRegisterIconForProp(::RPG::GameCore::PropComponent* prop)
+		::System::Void UnRegisterIconForProp(::RPG::GameCore::PropComponent* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PropComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_UNREGISTERICONFORPROP_OFFSET))(this, prop);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PropComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_UNREGISTERICONFORPROP_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterIconForDailyProp(::RPG::GameCore::PropComponent* prop, ::System::Boolean isStatic)
+		::System::Void RegisterIconForDailyProp(::RPG::GameCore::PropComponent* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PropComponent*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_REGISTERICONFORDAILYPROP_OFFSET))(this, prop, isStatic);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PropComponent*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_REGISTERICONFORDAILYPROP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetEntityIconsHide(::System::Boolean inHide, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* whiteList)
+		::System::Void SetEntityIconsHide(::System::Boolean a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_SETENTITYICONSHIDE_OFFSET))(this, inHide, whiteList);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_SETENTITYICONSHIDE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsIconHidden(::Class_0_16E4307DCC419505_598* icon)
+		::System::Boolean IsIconHidden(::Class_0_16E4307DCC419505_621* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_598*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_ISICONHIDDEN_OFFSET))(this, icon);
+			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_621*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_ISICONHIDDEN_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterLimitArea(::UnityEngine::Vector3 normalCenter, ::System::Single normalRadius, ::UnityEngine::Vector3 edgeCenter, ::System::Single edgeRadius, ::RPG::GameCore::GameEntity* entity)
+		::System::Void RegisterLimitArea(::UnityEngine::Vector3 a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::RPG::GameCore::GameEntity* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3, ::System::Single, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_REGISTERLIMITAREA_OFFSET))(this, normalCenter, normalRadius, edgeCenter, edgeRadius, entity);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3, ::System::Single, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_REGISTERLIMITAREA_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void UnRegisterLimitArea()
@@ -203,14 +203,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_UNREGISTERLIMITAREA_OFFSET))(this);
 		}
 
-		::RPG::Client::MiniMapZone* QueryZone(::UnityEngine::Vector3 position, ::RPG::Client::MiniMapZone*& resultZone, ::RPG::Client::MiniMapLayer*& resultLayer)
+		::RPG::Client::MiniMapZone* QueryZone(::UnityEngine::Vector3 a1, ::RPG::Client::MiniMapZone*& a2, ::RPG::Client::MiniMapLayer*& a3)
 		{
-			return ((::RPG::Client::MiniMapZone*(*)(::PVOID, ::UnityEngine::Vector3, ::RPG::Client::MiniMapZone*&, ::RPG::Client::MiniMapLayer*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_QUERYZONE_OFFSET))(this, position, resultZone, resultLayer);
+			return ((::RPG::Client::MiniMapZone*(*)(::PVOID, ::UnityEngine::Vector3, ::RPG::Client::MiniMapZone*&, ::RPG::Client::MiniMapLayer*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_QUERYZONE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_598*>* GetMiniMapIcons()
+		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_621*>* GetMiniMapIcons()
 		{
-			return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_598*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_GETMINIMAPICONS_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_621*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_GETMINIMAPICONS_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* GetPlayerTrack()
@@ -218,34 +218,34 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::UnityEngine::Vector3>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_GETPLAYERTRACK_OFFSET))(this);
 		}
 
-		::System::Void ShitPlayerTrack(::UnityEngine::Vector3 playerShitPos)
+		::System::Void ShitPlayerTrack(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_SHITPLAYERTRACK_OFFSET))(this, playerShitPos);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_SHITPLAYERTRACK_OFFSET))(this, a1);
 		}
 
-		::System::Void _ArrangeZoneToLayer(::RPG::Client::MiniMapZone* zone)
+		::System::Void _ArrangeZoneToLayer(::RPG::Client::MiniMapZone* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MiniMapZone*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__ARRANGEZONETOLAYER_OFFSET))(this, zone);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MiniMapZone*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__ARRANGEZONETOLAYER_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::MiniMapZone* _GetZoneInLayer(::RPG::Client::MiniMapLayer* pLayer, ::UnityEngine::Vector3 position)
+		::RPG::Client::MiniMapZone* _GetZoneInLayer(::RPG::Client::MiniMapLayer* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::RPG::Client::MiniMapZone*(*)(::PVOID, ::RPG::Client::MiniMapLayer*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__GETZONEINLAYER_OFFSET))(this, pLayer, position);
+			return ((::RPG::Client::MiniMapZone*(*)(::PVOID, ::RPG::Client::MiniMapLayer*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__GETZONEINLAYER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _RegisterZoneInternal(::RPG::Client::MiniMapZone* pNewZone)
+		::System::Int32 _RegisterZoneInternal(::RPG::Client::MiniMapZone* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MiniMapZone*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__REGISTERZONEINTERNAL_OFFSET))(this, pNewZone);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MiniMapZone*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__REGISTERZONEINTERNAL_OFFSET))(this, a1);
 		}
 
-		::System::Void _WriteZone(::RPG::GameCore::LevelNavmapConfig* navMapConfig, ::RPG::Client::MiniMapZone* zone, ::System::Collections::Generic::HashSet_1<::System::UInt32>* initVisibleSectionIDs, ::System::Boolean bUpdateSections)
+		::System::Void _WriteZone(::RPG::GameCore::LevelNavmapConfig* a1, ::RPG::Client::MiniMapZone* a2, ::System::Collections::Generic::HashSet_1<::System::UInt32>* a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelNavmapConfig*, ::RPG::Client::MiniMapZone*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__WRITEZONE_OFFSET))(this, navMapConfig, zone, initVisibleSectionIDs, bUpdateSections);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelNavmapConfig*, ::RPG::Client::MiniMapZone*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__WRITEZONE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _RegisterFSVToSections(::RPG::GameCore::LevelNavmapConfig* navMapConfig, ::System::Collections::Generic::HashSet_1<::System::UInt32>* initVisibleSectionIDs)
+		::System::Void _RegisterFSVToSections(::RPG::GameCore::LevelNavmapConfig* a1, ::System::Collections::Generic::HashSet_1<::System::UInt32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelNavmapConfig*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__REGISTERFSVTOSECTIONS_OFFSET))(this, navMapConfig, initVisibleSectionIDs);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelNavmapConfig*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__REGISTERFSVTOSECTIONS_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _UnRegisterFSVToSections()
@@ -253,49 +253,49 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__UNREGISTERFSVTOSECTIONS_OFFSET))(this);
 		}
 
-		::System::Void _OnFloorSavedValueChanged(::System::String* name)
+		::System::Void _OnFloorSavedValueChanged(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__ONFLOORSAVEDVALUECHANGED_OFFSET))(this, name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__ONFLOORSAVEDVALUECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void _TickPlayerZone(::RPG::GameCore::GameEntity* pLocalPlayer)
+		::System::Void _TickPlayerZone(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__TICKPLAYERZONE_OFFSET))(this, pLocalPlayer);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__TICKPLAYERZONE_OFFSET))(this, a1);
 		}
 
-		::System::Void _InternalAddIcon(::Class_0_16E4307DCC419505_598* icon)
+		::System::Void _InternalAddIcon(::Class_0_16E4307DCC419505_621* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_598*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__INTERNALADDICON_OFFSET))(this, icon);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_621*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__INTERNALADDICON_OFFSET))(this, a1);
 		}
 
-		::System::Void _InternalRemoveTargetAllIcons(::RPG::GameCore::GameEntity* target)
+		::System::Void _InternalRemoveTargetAllIcons(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__INTERNALREMOVETARGETALLICONS_OFFSET))(this, target);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__INTERNALREMOVETARGETALLICONS_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnTrackingInfoRefreshed(::System::Object* arg)
+		::System::Void _OnTrackingInfoRefreshed(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__ONTRACKINGINFOREFRESHED_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__ONTRACKINGINFOREFRESHED_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnFindChestInfoRefresh(::System::Object* arg)
+		::System::Void _OnFindChestInfoRefresh(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__ONFINDCHESTINFOREFRESH_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__ONFINDCHESTINFOREFRESH_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnTeamLeaderEntityChanged(::System::Object* arg)
+		::System::Void _OnTeamLeaderEntityChanged(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__ONTEAMLEADERENTITYCHANGED_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__ONTEAMLEADERENTITYCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnAddTempShowIcon(::System::Object* arg)
+		::System::Void _OnAddTempShowIcon(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__ONADDTEMPSHOWICON_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__ONADDTEMPSHOWICON_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnRemoveTempShowIcon(::System::Object* arg)
+		::System::Void _OnRemoveTempShowIcon(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__ONREMOVETEMPSHOWICON_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__ONREMOVETEMPSHOWICON_OFFSET))(this, a1);
 		}
 
 		::System::Void _TickRefreshTrackingInfo()
@@ -318,9 +318,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__MISSIONREFRESHED_OFFSET))(this);
 		}
 
-		::System::Void _TryRefreshSubMission(::RPG::Client::Map* pAdvMap, ::RPG::Client::SubMissionData* subMission)
+		::System::Void _TryRefreshSubMission(::RPG::Client::Map* a1, ::RPG::Client::SubMissionData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Map*, ::RPG::Client::SubMissionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__TRYREFRESHSUBMISSION_OFFSET))(this, pAdvMap, subMission);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Map*, ::RPG::Client::SubMissionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__TRYREFRESHSUBMISSION_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _AssistWaypointRefreshed()
@@ -338,19 +338,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__DOCHESTMAPPINGINFOREFRESH_OFFSET))(this);
 		}
 
-		static ::System::Void _RemoveInvalidIcons(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_598*>* list)
+		static ::System::Void _RemoveInvalidIcons(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_621*>* a1)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_598*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__REMOVEINVALIDICONS_OFFSET))(list);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_621*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__REMOVEINVALIDICONS_OFFSET))(a1);
 		}
 
-		::System::Void _AddIconInSections(::Class_0_16E4307DCC419505_598* mapIcon)
+		::System::Void _AddIconInSections(::Class_0_16E4307DCC419505_621* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_598*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__ADDICONINSECTIONS_OFFSET))(this, mapIcon);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_621*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__ADDICONINSECTIONS_OFFSET))(this, a1);
 		}
 
-		::System::Void _RemoveIconInSections(::System::Int32 iconHash)
+		::System::Void _RemoveIconInSections(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__REMOVEICONINSECTIONS_OFFSET))(this, iconHash);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER__REMOVEICONINSECTIONS_OFFSET))(this, a1);
 		}
 
 		::Class_1_0A24888DF04C995E_2* get_LimitAreaData()
@@ -358,9 +358,9 @@ namespace RPG::Client
 			return ((::Class_1_0A24888DF04C995E_2*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_GET_LIMITAREADATA_OFFSET))(this);
 		}
 
-		::System::Void set_LimitAreaData(::Class_1_0A24888DF04C995E_2* value)
+		::System::Void set_LimitAreaData(::Class_1_0A24888DF04C995E_2* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_0A24888DF04C995E_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_SET_LIMITAREADATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Class_1_0A24888DF04C995E_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_SET_LIMITAREADATA_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IgnoreEnlightSection()
@@ -368,9 +368,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_GET_IGNOREENLIGHTSECTION_OFFSET))(this);
 		}
 
-		::System::Void set_IgnoreEnlightSection(::System::Boolean value)
+		::System::Void set_IgnoreEnlightSection(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_SET_IGNOREENLIGHTSECTION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_SET_IGNOREENLIGHTSECTION_OFFSET))(this, a1);
 		}
 	};
 }

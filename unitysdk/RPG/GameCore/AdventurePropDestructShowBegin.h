@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_ADVENTUREPROPDESTRUCTSHOWBEGIN_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xC775150)
-#define RPG_GAMECORE_ADVENTUREPROPDESTRUCTSHOWBEGIN_GETPROP_OFFSET UNITYSDK_OFFSET(0xC7751F0)
-#define RPG_GAMECORE_ADVENTUREPROPDESTRUCTSHOWBEGIN_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xC7751A0)
-#define RPG_GAMECORE_ADVENTUREPROPDESTRUCTSHOWBEGIN_INIT_OFFSET UNITYSDK_OFFSET(0xC775100)
-#define RPG_GAMECORE_ADVENTUREPROPDESTRUCTSHOWBEGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC775230)
+#define RPG_GAMECORE_ADVENTUREPROPDESTRUCTSHOWBEGIN_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1686DD80)
+#define RPG_GAMECORE_ADVENTUREPROPDESTRUCTSHOWBEGIN_GETPROP_OFFSET UNITYSDK_OFFSET(0x1686DE20)
+#define RPG_GAMECORE_ADVENTUREPROPDESTRUCTSHOWBEGIN_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1686DDD0)
+#define RPG_GAMECORE_ADVENTUREPROPDESTRUCTSHOWBEGIN_INIT_OFFSET UNITYSDK_OFFSET(0x1686DD30)
+#define RPG_GAMECORE_ADVENTUREPROPDESTRUCTSHOWBEGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1686DE60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventurePropDestructShowBegin_TypeDefinitionIndex = 52174;
+	inline static constexpr unsigned int AdventurePropDestructShowBegin_TypeDefinitionIndex = 52871;
 
-	class AdventurePropDestructShowBegin : public ::Class_1_9988289E7F8AA214
+	class AdventurePropDestructShowBegin : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::RPG::GameCore::GameEntity* _Prop; // 0x18
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPROPDESTRUCTSHOWBEGIN__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::AdventurePropDestructShowBegin* Init(::RPG::GameCore::GameEntity* prop)
+		::RPG::GameCore::AdventurePropDestructShowBegin* Init(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::RPG::GameCore::AdventurePropDestructShowBegin*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPROPDESTRUCTSHOWBEGIN_INIT_OFFSET))(this, prop);
+			return ((::RPG::GameCore::AdventurePropDestructShowBegin*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPROPDESTRUCTSHOWBEGIN_INIT_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::EventType GetEventType()

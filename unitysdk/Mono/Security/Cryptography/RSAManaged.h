@@ -6,11 +6,11 @@
 namespace Mono::Math { class BigInteger; }
 namespace Mono::Security::Cryptography { class RSAManaged_KeyGeneratedEventHandler; }
 
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_EXPORTPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1940EFA0)
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GENERATEKEYPAIR_OFFSET UNITYSDK_OFFSET(0x1940E330)
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GETPADDEDVALUE_OFFSET UNITYSDK_OFFSET(0x1940F310)
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GET_PUBLICONLY_OFFSET UNITYSDK_OFFSET(0x1940EF10)
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_IMPORTPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1940F390)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_EXPORTPARAMETERS_OFFSET UNITYSDK_OFFSET(0x19CC18D0)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GENERATEKEYPAIR_OFFSET UNITYSDK_OFFSET(0x19CC10B0)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GETPADDEDVALUE_OFFSET UNITYSDK_OFFSET(0x19CC1C40)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GET_PUBLICONLY_OFFSET UNITYSDK_OFFSET(0x19CC1840)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_IMPORTPARAMETERS_OFFSET UNITYSDK_OFFSET(0x19CC1CC0)
 
 namespace Mono::Security::Cryptography
 {
@@ -19,15 +19,15 @@ namespace Mono::Security::Cryptography
 	class RSAManaged : public ::System::Security::Cryptography::RSA
 	{
 	public:
-		::Mono::Math::BigInteger* qInv; // 0x20
-		::Mono::Math::BigInteger* q; // 0x28
-		::Mono::Math::BigInteger* d; // 0x30
+		::Mono::Math::BigInteger* p; // 0x20
+		::Mono::Math::BigInteger* d; // 0x28
+		::Mono::Math::BigInteger* qInv; // 0x30
 		::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler* KeyGenerated; // 0x38
-		::Mono::Math::BigInteger* n; // 0x40
-		::Mono::Math::BigInteger* e; // 0x48
-		::Mono::Math::BigInteger* dq; // 0x50
-		::Mono::Math::BigInteger* dp; // 0x58
-		::Mono::Math::BigInteger* p; // 0x60
+		::Mono::Math::BigInteger* e; // 0x40
+		::Mono::Math::BigInteger* dq; // 0x48
+		::Mono::Math::BigInteger* dp; // 0x50
+		::Mono::Math::BigInteger* n; // 0x58
+		::Mono::Math::BigInteger* q; // 0x60
 		::System::Boolean m_disposed; // 0x68
 		::System::Boolean keypairGenerated; // 0x69
 		::System::Boolean isCRTpossible; // 0x6A
@@ -42,19 +42,19 @@ namespace Mono::Security::Cryptography
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GET_PUBLICONLY_OFFSET))(this);
 		}
 
-		::System::Security::Cryptography::RSAParameters ExportParameters(::System::Boolean includePrivateParameters)
+		::System::Security::Cryptography::RSAParameters ExportParameters(::System::Boolean a1)
 		{
-			return ((::System::Security::Cryptography::RSAParameters(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_EXPORTPARAMETERS_OFFSET))(this, includePrivateParameters);
+			return ((::System::Security::Cryptography::RSAParameters(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_EXPORTPARAMETERS_OFFSET))(this, a1);
 		}
 
-		::System::Void ImportParameters(::System::Security::Cryptography::RSAParameters parameters)
+		::System::Void ImportParameters(::System::Security::Cryptography::RSAParameters a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::RSAParameters))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_IMPORTPARAMETERS_OFFSET))(this, parameters);
+			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::RSAParameters))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_IMPORTPARAMETERS_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Byte>* GetPaddedValue(::Mono::Math::BigInteger* value, ::System::Int32 length)
+		::Il2CppArray<::System::Byte>* GetPaddedValue(::Mono::Math::BigInteger* a1, ::System::Int32 a2)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::Mono::Math::BigInteger*, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GETPADDEDVALUE_OFFSET))(this, value, length);
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::Mono::Math::BigInteger*, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GETPADDEDVALUE_OFFSET))(this, a1, a2);
 		}
 	};
 }
